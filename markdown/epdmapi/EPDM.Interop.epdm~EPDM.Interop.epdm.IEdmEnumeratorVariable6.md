@@ -56,7 +56,7 @@ This interface:
 
   [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
 
-  .
+  by providing the ability to read a variable from the database.
 - is extended by
 
   [IEdmEnumeratorVariable7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html)

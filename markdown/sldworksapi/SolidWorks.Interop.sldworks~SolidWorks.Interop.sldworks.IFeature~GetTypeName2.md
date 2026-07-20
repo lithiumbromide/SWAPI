@@ -247,6 +247,7 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | SimPlotYAxisFeature | IMotionPlotAxisFeatureData |
 |  | SimResultFolder | IMotionStudyResults |
 | Reference Geometry | BoundingBox | IBoundingBoxFeatureData |
+|  | CenterOfMass | ICenterOfMass |
 |  | CoordSys | ICoordinateSystemFeatureData |
 |  | GroundPlane | IGroundPlaneFeatureData |
 |  | RefAxis | IRefAxis or IRefAxisFeatureData |
@@ -276,7 +277,7 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | SM3dBend | ISketchedBendFeatureData |
 |  | SMGusset | ISMGussetFeatureData |
 |  | SMMiteredFlange | IMiterFlangeFeatureData |
-|  | SolidToSheetMetal | None ( Convert-Solid5 feature) |
+|  | SolidToSheetMetal | IConvertSolidFeatureData |
 |  | TemplateSheetMetal | ISheetMetalFolder |
 |  | ToroidalBend | IOneBendFeatureData |
 |  | UnFold | IFoldsFeatureData |

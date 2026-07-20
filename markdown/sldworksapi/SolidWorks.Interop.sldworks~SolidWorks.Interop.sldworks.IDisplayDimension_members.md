@@ -62,6 +62,7 @@ The following tables list the members exposed by[IDisplayDimension](SolidWorks.I
 | --- | --- | --- |
 | Method | AddDisplayEnt | Overrides the display graphics of objects. |
 | Method | AddDisplayText | Overrides the display text. |
+| Method | AlignToEdge | Aligns this linear dimension with the specified edge. |
 | Method | AutoJogOrdinate | Sets the auto-jog for this ordinate dimension. |
 | Method | ExplementaryAngle | Flips an angular dimension to its explementary angle. |
 | Method | GetAlternatePrecision | Obsolete. Superseded by IDisplayDimension::GetAlternatePrecision2 . |
@@ -139,6 +140,7 @@ The following tables list the members exposed by[IDisplayDimension](SolidWorks.I
 | Method | SetDual | Obsolete. Superseded by IDisplayDimension::SetDual2 . |
 | Method | SetDual2 | Controls the display of dual dimensions of this display dimension. |
 | Method | SetExtensionLineAsCenterline | Sets whether the specified extension line is a centerline. |
+| Method | SetHorizontal | Displays this linear dimension on the horizontal. |
 | Method | SetJogParameters | Set the linear dimension extension line to be jogged. |
 | Method | SetLineFontDimensionStyle | Sets the style of leader for this display dimension. |
 | Method | SetLineFontDimensionThickness | Sets the thickness of leaders of this display dimension. |
@@ -156,6 +158,7 @@ The following tables list the members exposed by[IDisplayDimension](SolidWorks.I
 | Method | SetTextFormat | Obsolete. Superseded by IAnnotation::ISetTextFormat . |
 | Method | SetUnits | Obsolete. Superseded by IDisplayDimension::SetUnits2 . |
 | Method | SetUnits2 | Sets the unit display characteristics of this display dimension. |
+| Method | SetVertical | Displays this linear dimension on the vertical. |
 | Method | SetWitnessLineGap | Sets the gap for the specified dimension extension line. |
 | Method | SupplementaryAngle | Changes the angle in the selected angular dimension to its supplementary angle. |
 | Method | Unlink | Unlinks a previously linked display dimension. |

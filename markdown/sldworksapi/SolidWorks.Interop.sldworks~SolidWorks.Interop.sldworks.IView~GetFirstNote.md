@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstNote Method (IView)
 
-Gets the first note in the view.
+Obsolete. Superseded by
+
+[IView::GetFirstNote2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstNote2.html)
+
+.
 
 ## Syntax
 
@@ -61,18 +65,6 @@ See
 [View::GetFirstNote](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstNote.html)
 
 .
-
-## Examples
-
-[Change Note Text (VBA)](Change_Note_Text_Example_VB.htm)
-
-[Get All Notes in Drawing Template (VBA)](Get_All_Notes_in_Drawing_Template_Example_VB.htm)
-
-[Select Silhouette Edge Attached to Note (C#)](Select_Silhouette_Edge_Attached_to_Note_Example_CSharp.htm)
-
-[Select Silhouette Edge Attached to Note (VB.NET)](Select_Silhouette_Edge_Attached_to_Note_Example_VBNET.htm)
-
-[Select Silhouette Edge Attached to Note (VBA)](Select_Silhouette_Edge_Attached_to_Note_Example_VB.htm)
 
 ## Remarks
 

@@ -45,7 +45,7 @@ Sub main()
     Set swModel = swApp.ActiveDoc
     Set swDraw = swModel
     Set swView = swDraw.GetFirstView ' This is the drawing template
-    Set swNote = swView.GetFirstNote
+    Set swNote = swView.GetFirstNote2
 ```
 
 ```

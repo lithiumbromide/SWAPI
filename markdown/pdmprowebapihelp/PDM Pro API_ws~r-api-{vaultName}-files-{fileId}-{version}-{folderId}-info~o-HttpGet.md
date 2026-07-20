@@ -60,7 +60,7 @@ Response (application/json, text/json)
     "Id": 1,
     "Name": "sample string 2",
     "Size": 3,
-    "ModifiedDate": "2023-12-07T14:34:00.7468239-05:00",
+    "ModifiedDate": "2024-11-27T09:52:30.6655761-05:00",
     "Version": 5,
     "State": "sample string 6",
     "StateId": 7,
@@ -77,7 +77,7 @@ Response (application/json, text/json)
     "Id": 1,
     "Name": "sample string 2",
     "Size": 3,
-    "ModifiedDate": "2023-12-07T14:34:00.7468239-05:00",
+    "ModifiedDate": "2024-11-27T09:52:30.6655761-05:00",
     "Version": 5,
     "State": "sample string 6",
     "StateId": 7,
@@ -106,7 +106,7 @@ Response (application/xml, text/xml)
     <IsShared>12</IsShared>
     <IsToolbox>13</IsToolbox>
     <LockedBy>11</LockedBy>
-    <ModifiedDate>2023-12-07T14:34:00.7468239-05:00</ModifiedDate>
+    <ModifiedDate>2024-11-27T09:52:30.6655761-05:00</ModifiedDate>
     <Name>sample string 2</Name>
     <ParentFolderId>8</ParentFolderId>
     <Path>sample string 9</Path>
@@ -123,7 +123,7 @@ Response (application/xml, text/xml)
     <IsShared>12</IsShared>
     <IsToolbox>13</IsToolbox>
     <LockedBy>11</LockedBy>
-    <ModifiedDate>2023-12-07T14:34:00.7468239-05:00</ModifiedDate>
+    <ModifiedDate>2024-11-27T09:52:30.6655761-05:00</ModifiedDate>
     <Name>sample string 2</Name>
     <ParentFolderId>8</ParentFolderId>
     <Path>sample string 9</Path>

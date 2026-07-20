@@ -156,10 +156,10 @@ This example shows how to sort bill of materials, hole, general, and weldment cu
 
          If bWantGrp Then
              ' Sort rows into part and user-defined categories
-             listGrpArray =  New  Integer(2) {}
-             listGrpArray(0) = CInt(swBomTableSortItemGroup_e.swBomTableSortItemGroup_None)
-             listGrpArray(1) = CInt(swBomTableSortItemGroup_e.swBomTableSortItemGroup_Parts)
-             listGrpArray(2) = CInt(swBomTableSortItemGroup_e.swBomTableSortItemGroup_Other)
+             listGrpArray =  New  Integer(1) {}
+
+             listGrpArray(0) = CInt(swBomTableSortItemGroup_e.swBomTableSortItemGroup_Parts)
+             listGrpArray(1) = CInt(swBomTableSortItemGroup_e.swBomTableSortItemGroup_Other)
              grpArray = listGrpArray
          End If
          swSortData.ItemGroups = grpArray

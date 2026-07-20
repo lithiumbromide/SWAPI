@@ -9,7 +9,15 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertConvertToSheetMetal2 Method (IFeatureManager)
 
-Converts a solid or surface body into a sheet metal part.
+Obsolete. Superseded by
+
+[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
+
+and
+
+[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
+
+.
 
 ## Syntax
 
@@ -121,14 +129,6 @@ See
 [FeatureManager::InsertConvertToSheetMetal2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConvertToSheetMetal2.html)
 
 .
-
-## Examples
-
-[Convert Extrusion to Sheet Metal (C#)](Insert_Convert_to_Sheet_Metal_Example_CSharp.htm)
-
-[Convert Extrusion to Sheet Metal (VB.NET)](Insert_Convert_to_Sheet_Metal_Example_VBNET.htm)
-
-[Convert Extrusion to Sheet Metal (VBA)](Insert_Convert_to_Sheet_Metal_Example_VB.htm)
 
 ## Remarks
 

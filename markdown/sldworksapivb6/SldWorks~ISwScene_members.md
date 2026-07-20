@@ -13,8 +13,10 @@ Members
 
 ## Public Methods
 
-| Public Method DeleteFloorAppearance |  |
+| Public Method AddOrEditFloorAppearance |  |
 | --- | --- |
+| Public Method DeleteFloorAppearance |  |
+| Public Method GetFloorAppearance |  |
 | Public Method GetFloorNormal |  |
 | Public Method GetP2SFileName |  |
 | Public Method Modify |  |

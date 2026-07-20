@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # BumpAmplitude Property (IRenderMaterial)
 
-Gets or sets the amplitude of the surface layer for this appearance.
+Obsolete. Superseded by
+
+[IRenderMaterial::BumpStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~BumpStrength.html)
+
+.
 
 ## Syntax
 

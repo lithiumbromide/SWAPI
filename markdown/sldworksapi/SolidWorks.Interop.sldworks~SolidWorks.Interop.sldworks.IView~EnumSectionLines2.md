@@ -57,7 +57,7 @@ See
 
 ### Parameters
 
-- `IgnoreSuppressed`:
+- `IgnoreSuppressed`: True to ignore suppressed section lines, false to include them
 
 ### Return Value
 

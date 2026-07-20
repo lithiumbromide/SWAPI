@@ -50,7 +50,9 @@ The following tables list the members exposed by[ISwScene](SolidWorks.Interop.sl
 
 |  | Name | Description |
 | --- | --- | --- |
+| Method | AddOrEditFloorAppearance | Adds or modifies the floor appearance of this scene. |
 | Method | DeleteFloorAppearance | Deletes the floor appearance of this scene. |
+| Method | GetFloorAppearance | Gets the floor appearance of this scene. |
 | Method | GetFloorNormal | Gets the normal to the floor of this scene. |
 | Method | GetP2SFileName | Gets the scene file for this scene. |
 | Method | Modify | Modifies and saves this scene. |

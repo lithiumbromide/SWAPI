@@ -76,6 +76,8 @@ Call this method before calling[IModelDocExtension::IGetAnnotations](SOLIDWORKS.
 
 [IView::GetAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationCount.html)
 
+[IModelDocExtension::GetAnnotationsByType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAnnotationsByType.html)
+
 ## Availability
 
 SOLIDWORKS 2005 FCS, Revision Number 13.0

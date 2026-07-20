@@ -48,6 +48,7 @@ public enum class EdmGetCmdFlags : public System.Enum
 | Egcf_AsBuiltNotDefault | 128 = Use the as-built versions when creating the tree |
 | Egcf_ForPreview | 16 = Only retrieve referenced files that are needed by the preview when retrieving the referencing file; skip caching referenced files |
 | Egcf_ForViewer | 8192 = Only retrieve referenced files that are needed by the viewer when retrieving the referencing file; skip caching referenced files |
+| Egcf_GetLatestRevision | 65536 = Only retrieve latest revision/version |
 | Egcf_IncludeAutoCacheFiles | 2048 = Selects the Check Out dialog box Get checkbox for the latest version if the referenced file is not in the local cache |
 | Egcf_Lock | 2 = Check out the files instead of just retrieving them |
 | Egcf_LockNoLclCopyFiles | 1024 = Locks the local referenced files if a local cache is not present |

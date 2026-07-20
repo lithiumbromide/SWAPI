@@ -9,7 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeature
 
 # swFeatureTreeFolderType_e Enumeration
 
-Ways to insert the feature folder.
+Ways to insert feature folders for selected features or components in the FeatureManager design tree.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ public enum class swFeatureTreeFolderType_e : public System.Enum
 | --- | --- |
 | swFeatureTreeFolder_Containing | 2 = Create and insert a folder to contain the pre-selected features |
 | swFeatureTreeFolder_EmptyBefore | 1 = Create and insert an empty folder before the pre-selected features |
-| swFeatureTreeFolder_Mold | 3 |
+| swFeatureTreeFolder_Mold | 3 = Create and insert a Surface Bodies folder containing three folders: Cavity Surface Bodies, Core Surface Bodies, and Parting Surface Bodies for a pre-selected surface feature |
 
 ## See Also
 

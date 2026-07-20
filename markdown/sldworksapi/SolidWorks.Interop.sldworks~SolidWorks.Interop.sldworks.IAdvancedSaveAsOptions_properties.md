@@ -21,7 +21,7 @@ For a list of all members of this type, see[IAdvancedSaveAsOptions members](Soli
 | Property | OverrideDefaults | Sets whether to override defaults only when saving an assembly as a part. |
 | Property | PreserveGeometryReferences | Sets whether to preserve geometry references only when saving an assembly as a part. |
 | Property | SaveAllAsCopy | Sets whether to save all component references as copies. |
-| Property | SaveAsPreviousVersion | Sets whether to save as previous version. |
+| Property | SaveAsPreviousVersion | Sets the SOLIDWORKS version to save to. |
 
 [Top](#topBookmark)
 

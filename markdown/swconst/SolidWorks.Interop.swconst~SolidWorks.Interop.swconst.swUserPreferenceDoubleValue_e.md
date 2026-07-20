@@ -42,6 +42,9 @@ public enum class swUserPreferenceDoubleValue_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swAbsChordalErrorVal | See System Options and Document Properties. |
+| swAbsEdgeLengthVal | See System Options and Document Properties. |
+| swAbsNormalDeviationVal | See System Options and Document Properties. |
 | swAnnotationTextScaleDenominator | See System Options and Document Properties. |
 | swAnnotationTextScaleNumerator | See System Options and Document Properties. |
 | swASMSLDPRT_ExcludeComponentsByBBoxVolumeThreshold | See System Options and Document Properties. |

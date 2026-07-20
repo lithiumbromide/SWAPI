@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10.ht
 
 # IEdmEnumeratorVariable10 Interface
 
-Allows you to access the contents of a file or folder data card.
+Allows you to access the contents of a file data card.
 
 NOTE:
 
@@ -42,7 +42,22 @@ public interface class IEdmEnumeratorVariable10 : public IEdmEnumeratorVariable5
 
 ## Remarks
 
-This interface extends[IEdmEnumeratorVariable9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html).
+This interface:
+
+- extends
+
+  [IEdmEnumeratorVariable9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html)
+
+  by providing the ability to get a card variable from a file shared across multiple folders or get a card variable value in text format for a file shared across multiple folders.
+- does not support folder data cards. Use
+
+  [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
+
+  and
+
+  [IEdmEnumeratorVariable6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6.html)
+
+  for folder data cards.
 
 See the**Remarks**for[IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html).
 

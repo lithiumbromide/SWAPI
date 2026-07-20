@@ -46,7 +46,7 @@ part.
              Part = (ModelDoc2)swApp.ActiveDoc;
 
              // Insert a counter sink emboss forming tool feature
-             formingTool = "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2016\\design library\\forming tools\\embosses\\counter sink emboss.sldprt";
+             formingTool = "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\design library\\forming tools\\embosses\\counter sink emboss.sldprt";
              myFeature = Part.FeatureManager.InsertFormToolFeature(formingTool, false, 0.0, "", true, true, true, true, false);
          }
 

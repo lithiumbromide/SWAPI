@@ -69,6 +69,14 @@ See
 
 ,
 
+[library form tool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
+
+(see
+
+Remarks
+
+),
+
 [tab/slot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
 
 ,
@@ -104,6 +112,14 @@ See
 [sheet metal edge flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
 
 ,
+
+[convert solid to sheet metal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
+
+(see
+
+Remarks
+
+),
 
 [simple fillet/chamfer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
 
@@ -183,6 +199,8 @@ See examples for:
 
 ## Remarks
 
+Before calling this method to create ConvertSolid and Library form tool features, ensure that the Sheet Metal tab is visible on the CommandManager toolbar.
+
 Use:
 
 - [IFeature::GetErrorCode2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetErrorCode2.html)
@@ -222,6 +240,8 @@ For additional information, see:
 [ICornerReliefFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~Initialize.html)
 
 [IMateControllerFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~Initialize.html)
+
+[IConvertSolidFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html)
 
 ## Availability
 

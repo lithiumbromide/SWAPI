@@ -30,3 +30,5 @@ entities |
 | this number of sketch entities | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDrawing_Auto_Solve_Threshold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDrawing_Auto_Solve_Threshold,
 < Value >) | Integer value | The specified number of sketch entities mentioned in the previous
 comment |
+| Always open a drawing in detailing mode | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingOpenInDetailingMode) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingOpenInDetailingMode,
+< OnFlag >) | Boolean value |  |

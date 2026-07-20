@@ -82,6 +82,7 @@ For a list of all members of this type, see[ISldWorks members](SolidWorks.Intero
 | Method | Frame | Gets the SOLIDWORKS main frame. |
 | Method | Get3DExperienceState | Gets the current state of SOLIDWORKS Connected . |
 | Method | GetActiveConfigurationName | Gets the name of the active configuration in the specified SOLIDWORKS document. |
+| Method | GetActiveDisplayPane | Gets the active Display Pane. |
 | Method | GetAddInObject | Gets an add-in object for the specified SOLIDWORKS add-in. |
 | Method | GetApplySelectionFilter | Gets the current state of the selection filter. |
 | Method | GetBatchUploadedFilesInfo | Gets the files uploaded to 3DEXPERIENCE during a batch process. |
@@ -224,6 +225,8 @@ For a list of all members of this type, see[ISldWorks members](SolidWorks.Intero
 | Method | ISetUserTypeLibReferences | Sets the user-specified type library references. |
 | Method | IsRapidDraft | Gets whether the specified drawing file is in SOLIDWORKS Detached format. |
 | Method | IsSame | Gets whether the two specified objects are the same object. |
+| Method | IsTaskPaneExpanded | Gets whether the Task Pane is expanded. |
+| Method | IsTaskPaneVisible | Gets whether the Task Pane is visible. |
 | Method | IVersionHistory | Gets a list of strings indicating the versions in which a model was saved. |
 | Method | LoadAddIn | Loads the specified add-in in SOLIDWORKS. |
 | Method | LoadAdminSettingsFile | Loads the specified *.sldsettings file into SOLIDWORKS Connected . |

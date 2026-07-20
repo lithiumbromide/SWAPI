@@ -450,11 +450,15 @@ You typically do the following in this call:
 
 None of the members in the EdmCmdData structure are used.
 
+See the Code Samples section of[Programming Tasks](Tasks.htm).
+
 ##### EdmCmdType .EdmCmd_TaskSetupButton
 
 This call is made to your add-in when the[task](Tasks.htm)definition property dialog box is closed. The[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)string is either "OK" or "Cancel", depending on how the dialog box closed. (The string is the same in all localized versions of the program.) The call makes it possible for you to save your own properties when**OK**is clicked. You can prevent the dialog box from closing by setting the[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)member to true. You can return the name of an add-in page to set focus to in the[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)string if[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)is set to true.[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html), the interface of the task definition.
 
 None of the members in the EdmCmdData structure are used.
+
+See the Code Samples section of[Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskDetails
 
@@ -464,6 +468,8 @@ The EdmCmd::mpoExtra pointer should be set to your implementation of the extra p
 
 None of the members in the EdmCmdData structure are used.
 
+See the Code Samples section of[Programming Tasks](Tasks.htm).
+
 ##### EdmCmdType .EdmCmd_TaskRun
 
 This is the callback that is called when the actual work of the[task](Tasks.htm)is supposed to be executed. The task is usually executed on a remote server so you must not display any user interface during this call. See the OnTaskRun function in the[task sample code](TaskSample.htm)for an example of how to return status information and errors to the user.
@@ -471,6 +477,8 @@ This is the callback that is called when the actual work of the[task](Tasks.htm)
 The[EdmCmd::mlCurrentFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurrentFolderID.html)argument is the ID of the current folder when the task was launched. It is zero if the task was launched from the administration tool.
 
 [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to the[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)interface of the task instance.
+
+See the Code Samples section of[Programming Tasks](Tasks.htm).
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -482,13 +490,13 @@ The[EdmCmd::mlCurrentFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurr
 
 ##### EdmCmdType .EdmCmd_TaskLaunch
 
-You need to specify the EdmTask_SupportsInitExec in the[IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)property in order to get this call. The launch call makes it possible for you to display a user interface where the user selects files or enters data in a custom dialog box. As an alternative, you can create a card with the card editor and use that instead.[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task instance in this call.
+You need to specify the EdmTask_SupportsInitExec in the[IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)property in order to get this callback. This callback makes it possible for you to display a message box or a custom dialog box (System.Windows.Form) in which the user selects files or enters data that can be passed back to the task add-in (e.g., poCmd.mbCancel).
 
-You can return a dialog box implementation (user control) in the EdmCmd::mpoExtra argument. In this case you must also return the window of the control in[EdmCmd::mlParentWnd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd.html). The form is then put in the same parent dialog box as the card, if you are using one.
+[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task.
 
 You can set[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)to true to halt further execution of the task.
 
-The call can update the selection of objects to execute the task on by altering the content of the EdmCmdData structure.
+See the Code Samples section of[Programming Tasks](Tasks.htm).
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -501,9 +509,13 @@ The call can update the selection of objects to execute the task on by altering 
 
 ##### EdmCmdType .EdmCmd_TaskLaunchButton
 
-This callback is made if the framework displays its own dialog box during the launching of a task. The framework displays its own dialog box if a card has been selected for the task or if you returned a user control from the[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch hook.[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)contains the string "OK" or "Cancel", depending on which button was clicked. The strings are the same on all localized versions of the program.[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to IEdmTaskInstance, the interface of the task. You can set[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)to true to halt further execution of the task.
+This callback is made if the framework displays a dialog box during the launching of a task using the[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch callback and the user clicks a button in the dialog. You can query[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)which contains the string "OK" or "Cancel", depending on which button was clicked in the task launch dialog. The strings are the same on all localized versions of the program. Depending on the user's button click in the task launch dialog, implement this callback to set[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)to true to halt further execution of the task or false to continue the task execution.
+
+[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to IEdmTaskInstance, the interface of the task.
 
 None of the members in the EdmCmdData structure are used.
+
+See the Code Samples section of[Programming Tasks](Tasks.htm),
 
 ## See Also
 

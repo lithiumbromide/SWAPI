@@ -99,15 +99,3 @@ End Sub
 'HelpMenu = &?
 'View Toolbars Menu = &Barre degli strumenti
 ```
-
-```
-'Language = japanese
-'File Menu = Ì§²Ù(&F)
-'Edit Menu = •ÒW(&E)
-'View Menu = •\Ž¦(&V)
-'Insert Menu = ‘}“ü(&I)
-'Tools Menu = Â°Ù(&T)
-'Window Menu = ³¨ÝÄÞ³(&W)
-'HelpMenu = ÍÙÌß(&H)
-'View Toolbars Menu = Â°ÙÊÞ°(&T)
-```

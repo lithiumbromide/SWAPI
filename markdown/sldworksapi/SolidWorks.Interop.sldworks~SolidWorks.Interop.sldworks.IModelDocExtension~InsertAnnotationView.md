@@ -99,7 +99,7 @@ to define the direction of the annotation view
 , or
 
 [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-- `AngleMadeWithHorizontal`: Angle used to make the annotation view horizontal
+- `AngleMadeWithHorizontal`: Angle (in degrees) with the specified HorizontalDirectionReference
 
 ### Return Value
 
@@ -114,6 +114,74 @@ See
 [ModelDocExtension::InsertAnnotationView](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~InsertAnnotationView.html)
 
 .
+
+## Examples
+
+'VBA
+
+'----------------------------------------------------------------------------
+
+' Preconditions:
+
+' 1. Open a SOLIDWORKS model file.
+
+' 2. Select a face to define the direction of the annotation view.
+
+' 3. Select an edge as a horizontal direction reference.
+
+'
+
+' Postconditions:Observe that a new annotation view is inserted at a 45 degree angle in reference to the face and edge.
+
+'----------------------------------------------------------------------------
+
+Dim swApp As SldWorks.SldWorks
+
+Dim swModel As SldWorks.ModelDoc2
+
+Dim swModExt As SldWorks.ModelDocExtension
+
+Dim swSelMgr As SldWorks.SelectionMgr
+
+Dim swFace As SldWorks.Face2
+
+Dim swEdge As SldWorks.edge
+
+Dim swAnnoView As SldWorks.AnnotationView
+
+Dim i As Integer
+
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set swModel = swApp.ActiveDoc
+
+Set swModExt = swModel.Extension
+
+Set swSelMgr = swModel.SelectionManager
+
+For i = 0 To swSelMgr.GetSelectedObjectCount2(-1) - 1
+
+If swSelMgr.GetSelectedObjectType3(i + 1, -1) = swSelFACES Then
+
+Set swFace = swSelMgr.GetSelectedObject6(i + 1, -1)
+
+End If
+
+If swSelMgr.GetSelectedObjectType3(i + 1, -1) = swSelEDGES Then
+
+Set swEdge = swSelMgr.GetSelectedObject6(i + 1, -1)
+
+End If
+
+Next i
+
+Set annoView = swModExt. InsertAnnotationView (0, Nothing, False, swEdge, 45)
+
+swModel.EditRebuild3
+
+End Sub
 
 ## See Also
 

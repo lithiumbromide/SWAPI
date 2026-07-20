@@ -26,6 +26,7 @@ Members
 | Public Method RemoveExternalDocuments |  |
 | Public Method SetDocumentSaveToNames |  |
 | Public Method SetSaveToName |  |
+| Public Method SetSaveToName2 |  |
 
 ## Public Properties
 
@@ -33,6 +34,7 @@ Members
 | --- | --- |
 | Public Property AddSuffix |  |
 | Public Property FlattenToSingleFolder |  |
+| Public Property FolderStructureOption |  |
 | Public Property IncludeDrawings |  |
 | Public Property IncludeSimulationResults |  |
 | Public Property IncludeSuppressed |  |

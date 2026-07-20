@@ -22,6 +22,14 @@ Expand All
 | PDM Pro API Web Service : Authentication Resource Group |
 | --- |
 
+Description
+
+This resource group consists of an authentication HTTP request which you need to send before all other requests. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Post | api/{vaultName}/authenticate POST: api/{VaultName}/authenticate Use for the authenticate to get authentication token Authenticates the specified login for the specified vault and returns the authentication token and status. |

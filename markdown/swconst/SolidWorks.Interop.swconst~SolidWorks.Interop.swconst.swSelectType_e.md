@@ -314,7 +314,7 @@ public enum class swSelectType_e : public System.Enum
 | swSelANNOTATIONVIEW | "ANNVIEW" |  |  |
 | swSelGENERALTABLEFEAT | "GENERALTABLEFEAT" |  |  |
 | swSelSUBSKETCHDEF | "SUBSKETCHDEF" |  | ISketchBlockDefinition |
-| swSelDISPLAYSTATE | "VISUALSTATE" |  |  |
+| swSelDISPLAYSTATE | "VISUALSTATES" |  |  |
 | swSelTITLEBLOCK | "TITLEBLOCK" | ITitleBlock |  |
 | swSelEVERYTHING | "EVERYTHING" |  |  |
 | swSelLOCATIONS | "LOCATIONS" |  |  |

@@ -71,7 +71,7 @@ public enum class swParasolidOutputVersion_e : public System.Enum
 | swParasolidOutputVersion_320 | 30 |
 | swParasolidOutputVersion_330 | 31 |
 | swParasolidOutputVersion_341 | 32 |
-| swParasolidOutputVersion_351 | 33 |
+| swParasolidOutputVersion_351 | DO NOT USE; instead, use swParasolidOutputVersion_latest = 0 |
 | swParasolidOutputVersion_80 | 1 |
 | swParasolidOutputVersion_90 | 2 |
 | swParasolidOutputVersion_91 | 3 |

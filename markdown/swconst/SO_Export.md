@@ -39,5 +39,6 @@ drawings) |
 | PDF |
 | 3DPDF (valid only for
 parts or assemblies) |
-| SMG (not yet supported by the API) |
+| SMG (valid only for
+parts or assemblies) |
 | SLDPRT from assembly (valid only for assemblies) |

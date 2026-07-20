@@ -16,7 +16,7 @@ The following tables list the members exposed by[EdmCmd](EPDM.Interop.epdm~EPDM.
 |  | Name | Description |
 | --- | --- | --- |
 | public Field | mbCancel | Command cancel status. |
-| public Field | mbsComment | Contains name specific to EdmCmd.meCmdType . |
+| public Field | mbsComment | Contains information specific to EdmCmd.meCmdType . |
 | public Field | mbSilentMode | Silent mode status for the command. |
 | public Field | meCmdType | Type of command. |
 | public Field | mlCmdID | Command ID. |

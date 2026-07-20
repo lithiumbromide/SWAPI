@@ -50,7 +50,10 @@ removed); for example, if set at 20, then try and get 20FPS on spin dynamics
 by dropping detail until rate is achieved |
 | Assembly loading - Automatically load component data on demand - or - Manually manage resolved and lightweight modes | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyLoadComponents) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyLoadComponents,
 swAssemblyLoadComponents_e.< Value >) | See swAssemblyLoadComponents_e for options |  |
-| Assembly loading - Load component lightweight | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPerformanceAssemblyLoadComponentsLightweight) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPerformanceAssemblyLoadComponentsLightweight,
+| Assembly loading - Auto resolve sub-assemblies upon expansion in tree | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoResolveSubAssembliesUponExpansionInTree) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoResolveSubAssembliesUponExpansionInTree,
+< OnFlag >) | Boolean value | Valid only if Assembly loading - Manually manage resolved and lightweight
+modes is selected |
+| Assembly loading - Load component lightweight | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoLoadPartsLightweight) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoLoadPartsLightweight,
 < OnFlag >) | Boolean value | Valid only if Assembly loading - Manually manage resolved and lightweight
 modes is selected |
 | Assembly loading - Always resolve subassemblies | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPerformanceAlwaysResolveSubassemblies) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPerformanceAlwaysResolveSubassemblies,

@@ -59,7 +59,7 @@ Set swApp = Application.SldWorks
 
 ```
 ' Open assembly document
-openFile = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\EDraw\claw\claw-mechanism.sldasm"
+openFile = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\EDraw\claw\claw-mechanism.sldasm"
 Set swModel = swApp.OpenDoc6(openFile, swDocASSEMBLY, swOpenDocOptions_Silent, "", errors, warnings)
 Set swModelDocExt = swModel.Extension
 ```
@@ -105,8 +105,8 @@ status = swPackAndGo.AddExternalDocuments(renderReferences)
 
 ```
 ' Add other non-SOLIDWORKS files to Pack and Go
-otherFiles(0) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\edraw\claw\claw-mechanism.easm"
-otherFiles(1) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\edraw\claw\claw-mechanism.emodel_debugonly.xml"
+otherFiles(0) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.easm"
+otherFiles(1) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.emodel_debugonly.xml"
 Debug.Print " "
 Debug.Print "  Add non-SOLIDWORKS files:"
 For i = 0 To UBound(otherFiles)
@@ -127,7 +127,7 @@ status = swPackAndGo.RemoveExternalDocuments(delOtherFiles)
 ```
 ' Override path where to save documents
 myPath = "c:\PackAndGo\"
-status = swPackAndGo.SetSaveToName(True, myPath)
+status = swPackAndGo.SetSaveToName2(True, myPath)
 ```
 
 ```

@@ -72,6 +72,9 @@ The following tables list the members exposed by[IWizardHoleFeatureData2](SolidW
 | Property | ThruTapDrillDepth | Gets or sets the Hole Wizard feature through-tap drill depth. |
 | Property | ThruTapDrillDiameter | Gets or sets the Hole Wizard feature through-tap drill diameter. |
 | Property | Type | Gets the Hole Wizard feature type. NOTE: This property is a get-only property. Set is not implemented. |
+| Property | UnderHeadCounterSink | Gets or sets whether the Hole Wizard feature is an underhead counter sink. |
+| Property | UnderHeadCounterSinkAngle | Gets or sets the Hole Wizard feature underhead counter sink angle. |
+| Property | UnderHeadCounterSinkDiameter | Gets or sets the Hole Wizard feature underhead counter sink diameter. |
 | Property | Vertex | Gets the end-condition vertex for the Hole Wizard feature. NOTE: This property is a get-only property. Set is not implemented. |
 
 [Top](#topBookmark)

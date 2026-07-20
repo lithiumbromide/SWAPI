@@ -100,8 +100,8 @@ FeatureManager design tree.
              Debug.Print(feat.Name & " is frozen? " & feat.IsFrozen)
          End If
 
-         bRetVal = swModDocExt.NeedsRebuild2
-         Debug.Print("Needs rebuild? " & bRetVal)
+         lRet = swModDocExt.NeedsRebuild2
+         Debug.Print("Needs rebuild? " & lRet)
 
          featFrozen = selMgr.GetSelectedObject6(1, -1)
          Debug.Print("Feature " & featFrozen.Name & " has freeze updates pending? " & featFrozen.HasFrozenUpdatePending)
@@ -135,8 +135,8 @@ FeatureManager design tree.
          End If
 
          Debug.Print("")
-         bRetVal = swModDocExt.NeedsRebuild2
-         Debug.Print("Needs rebuild? " & bRetVal)
+         lRet = swModDocExt.NeedsRebuild2
+         Debug.Print("Needs rebuild? " & lRet)
 
          Debug.Print("Feature " & featFrozen.Name & " has freeze updates pending? " & featFrozen.HasFrozenUpdatePending)
          Debug.Print("Feature " & featUnFrozen.Name & " has freeze updates pending? " & featUnFrozen.HasFrozenUpdatePending)

@@ -1,5 +1,5 @@
 ---
-title: "Document Properties > Borders (<i>drawings only</i>)"
+title: "Document Properties > Borders ( drawings only )"
 project: ""
 interface: ""
 member: ""
@@ -7,13 +7,11 @@ kind: "topic"
 source: "swconst/DP_Borders.htm"
 ---
 
-# Document Properties > Borders (<i>drawings only</i>)
+# Document Properties > Borders ( drawings only )
 
 HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
 
 (==============================================================)
-
-## Document Properties > Borders ( drawings only )
 
 (Table)=========================================================
 

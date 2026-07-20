@@ -52,7 +52,7 @@ Partial Class SolidWorksMacro
         Dim statuses As Object
 
         ' Open assembly document
-        openFile = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\EDraw\claw\claw-mechanism.sldasm"
+        openFile = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\EDraw\claw\claw-mechanism.sldasm"
         swModel = swApp.OpenDoc6(openFile, swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
         swModelDocExt = swModel.Extension
 
@@ -86,8 +86,8 @@ Partial Class SolidWorksMacro
         status = swPackAndGo.AddExternalDocuments(renderReferences)
 
         ' Add other non-SOLIDWORKS files to Pack and Go
-        otherFiles(0) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\edraw\claw\claw-mechanism.easm"
-        otherFiles(1) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\edraw\claw\claw-mechanism.emodel_debugonly.xml"
+        otherFiles(0) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.easm"
+        otherFiles(1) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.emodel_debugonly.xml"
         Debug.Print(" ")
 
         Debug.Print("  Add non-SOLIDWORKS files:")
@@ -107,7 +107,7 @@ Partial Class SolidWorksMacro
 
         ' Override path where to save documents
         myPath = "c:\PackAndGo\"
-        status = swPackAndGo.SetSaveToName(True, myPath)
+        status = swPackAndGo.SetSaveToName2(True, myPath)
 
         ' Pack and Go both SOLIDWORKS and non-SOLIDWORKS files
         statuses = swModelDocExt.SavePackAndGo(swPackAndGo)

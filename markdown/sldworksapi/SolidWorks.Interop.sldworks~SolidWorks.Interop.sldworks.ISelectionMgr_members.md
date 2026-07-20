@@ -35,6 +35,7 @@ The following tables list the members exposed by[ISelectionMgr](SolidWorks.Inter
 | Method | DeSelect2 | Deselects the specified entity. |
 | Method | GetPreSelectedObject | Gets the preselected object when the preselection notify event is fired. |
 | Method | GetSelectByIdSpecification | Gets the selection specification for the specified object. |
+| Method | GetSelectedCoordSysElement | Gets the selected coordinate system element. |
 | Method | GetSelectedObject | Obsolete. Superseded by ISelectionMgr::GetSelectedObject6 . |
 | Method | GetSelectedObject2 | Obsolete. Superseded by ISelectionMgr::GetSelectedObject6 . |
 | Method | GetSelectedObject3 | Obsolete. Superseded by ISelectionMgr::GetSelectedObject6 . |
@@ -73,6 +74,7 @@ The following tables list the members exposed by[ISelectionMgr](SolidWorks.Inter
 | Method | IGetSelectionPoint2 | Gets the selected point in model space coordinates from the currently selected object. |
 | Method | IGetSelectionPointInSketchSpace | Obsolete. Superseded by ISelectionMgr::IGetSelectionPointInSketchSpace2 . |
 | Method | IGetSelectionPointInSketchSpace2 | Gets the selection point projected on to the active sketch and returned in sketch space. |
+| Method | IsCoordSysElementSelected | Gets whether the selection is a coordinate system element. |
 | Method | IsInEditTarget | Obsolete. Superseded by ISelectionMgr::IsInEditTarget2 . |
 | Method | IsInEditTarget2 | Gets whether the selected object is in the edit target. |
 | Method | ResumeSelectionList | Obsolete. Superseded by ISelectionMgr::ResumeSelectionList2 . |

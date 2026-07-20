@@ -9,9 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # GetTaskpaneViewWnd Method (ITaskpaneView)
 
-Obsolete.
+Obsolete. Superseded by
 
-See Remarks.
+[ITaskpaneView::GetTaskpaneViewWndx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetTaskpaneViewWndx64.html)
+
+.
 
 ## Syntax
 

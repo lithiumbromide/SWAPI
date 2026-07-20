@@ -76,6 +76,8 @@ See
 
 [ICalloutAngleVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable_members.html)
 
+[ICalloutAngleVariable::Precision Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable~Precision.html)
+
 ## Availability
 
 SOLIDWORKS 2016 FCS, Revision Number 24.0

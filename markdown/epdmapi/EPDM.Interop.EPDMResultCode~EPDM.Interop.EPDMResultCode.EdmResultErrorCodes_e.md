@@ -60,6 +60,7 @@ public enum class EdmResultErrorCodes_e : public System.Enum
 | E_EDM_ARCHIVE_LOGIN_FAILED | 0x80040243 = Login failed because of an invalid user name or password |
 | E_EDM_ARCHIVE_ROOT_FOLDER_DOES_NOT_EXIST | 0x800402C7 = Specified archive server root folder does not exist |
 | E_EDM_ARCHIVE_SERVER_NOT_FOUND | 0x8004023F = The archive server is not found; try starting the archive server |
+| E_EDM_ASSEMBLY_IN_LDR_MODE | 0x8004030B = The assembly is in Large Design Review mode |
 | E_EDM_AUTO_LOGGED_OUT | 0x80040280 = You have been inactive for too long and have been logged out |
 | E_EDM_BAD_LENGTH | 0x80040242 = The statement is out of bounds |
 | E_EDM_BOM_NOT_FOUND | 0x800402A9 = The specified bill of materials could not be found |
@@ -117,6 +118,7 @@ public enum class EdmResultErrorCodes_e : public System.Enum
 | E_EDM_FILE_IN_COLDSTORAGE | 0x80040278 = The file that you are trying to access is currently placed in cold storage and cannot be retrieved |
 | E_EDM_FILE_IS_LOCKED | 0x80040211 = The operation is not permitted because the file is checked out |
 | E_EDM_FILE_IS_REFERENCED | 0x8004022D = The file is referenced by another file |
+| E_EDM_FILE_MIGRATED_TO_PLATFORM | 0x8004030C = The file cannot be moved as it is migrated to the 3DEXPERIENCE platform |
 | E_EDM_FILE_NAME_NOT_GLOBALLY_UNIQUE | 0x80040286 = The file name, which needs to be unique in the file vault, has been used before |
 | E_EDM_FILE_NOT_FOUND | 0x80040213 = T he file could not be found |
 | E_EDM_FILE_NOT_LOCKED_BY_YOU | 0x80040210 = The file is not checked out by you, which is required by the operation |
@@ -124,7 +126,7 @@ public enum class EdmResultErrorCodes_e : public System.Enum
 | E_EDM_FILE_NOT_REGENERATED | 0x800402B3 = The file is not rebuilt |
 | E_EDM_FILE_SHARE_ERROR | 0x8004020B = An attempt was made to access a file that is exclusively opened by another application |
 | E_EDM_FILES_WERE_LOCKED | 0x80040257 = One or more documents have been checked out; these files have been deselected; click OK again if you still want to perform the operation on the remaining files |
-| E_EDM_FOLDER_DESTROY_CONSTRAINT_FAILED |  |
+| E_EDM_FOLDER_DESTROY_CONSTRAINT_FAILED | 0x8004030A = Failed to destroy one or more folders due to a constraint violation |
 | E_EDM_FOLDER_NOT_EMPTY | 0x8004021F = The specified folder is not empty |
 | E_EDM_FOLDER_NOT_FOUND | 0x80040214 = The folder could not be found |
 | E_EDM_GET_EDMFORMATROUTER | 0x8004027D = The file format plug-in routes the call onto another plug-in; the file format manager will query the interface for the IEdmFormatRouter code to figure out which plug-in to use |

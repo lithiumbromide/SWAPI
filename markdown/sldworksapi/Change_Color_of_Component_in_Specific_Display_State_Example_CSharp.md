@@ -79,7 +79,7 @@ namespace AppearancesCSharp.csproj
             int newColor = 0;
 
             //Open assembly document
-            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\appearances\\usb_flash_drive1.sldasm";
+            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2024\\samples\\tutorial\\appearances\\usb_flash_drive1.sldasm";
             swModelDoc = (ModelDoc2)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
 
             System.Diagnostics.Debugger.Break();
@@ -116,6 +116,19 @@ namespace AppearancesCSharp.csproj
             blue_rgb = 50;
             newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16;
             swAppearanceSetting.Color = newColor;
+```
+
+swAppearanceSetting. Diffuse = 0.8d;
+
+swAppearanceSetting. Specular = 0.5d;
+
+swAppearanceSetting. SpecularColor = newColor;
+
+swAppearanceSetting. Luminous = 0.1d;
+
+swAppearanceSetting. Transparent = 0d;
+
+```
             newAppearanceSetting[0] = (AppearanceSetting)swAppearanceSetting;
             swModelDocExt.set_DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting, newAppearanceSetting);
 
@@ -151,6 +164,19 @@ namespace AppearancesCSharp.csproj
             blue_rgb = 0;
             newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16;
             swAppearanceSetting.Color = newColor;
+```
+
+swAppearanceSetting. Diffuse = 0.8d;
+
+swAppearanceSetting. Specular = 0.5d;
+
+swAppearanceSetting. SpecularColor = newColor;
+
+swAppearanceSetting. Luminous = 0.1d;
+
+swAppearanceSetting. Transparent = 0.0d;
+
+```
             newAppearanceSetting[0] = swAppearanceSetting;
             swModelDocExt.set_DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting, newAppearanceSetting);
 
@@ -159,7 +185,7 @@ namespace AppearancesCSharp.csproj
             swApp.CloseDoc("usb_flash_drive1");
 
             //Open the assembly component USB_cover1 as a part document
-            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\appearances\\usb_cover1.sldprt";
+            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2024\\samples\\tutorial\\appearances\\usb_cover1.sldprt";
             swModelDoc = (ModelDoc2)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
             swModelDocExt = (ModelDocExtension)swModelDoc.Extension;
             swConfigMgr = (ConfigurationManager)swModelDoc.ConfigurationManager;
@@ -192,6 +218,19 @@ namespace AppearancesCSharp.csproj
             blue_rgb = 0;
             newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16;
             swAppearanceSetting.Color = newColor;
+```
+
+swAppearanceSetting. Diffuse = 0.8d;
+
+swAppearanceSetting. Specular = 0.5d;
+
+swAppearanceSetting. SpecularColor = newColor;
+
+swAppearanceSetting. Luminous = 0.1d;
+
+swAppearanceSetting. Transparent = 0.0d;
+
+```
             newAppearanceSetting[0] = swAppearanceSetting;
             swModelDocExt.set_DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting, newAppearanceSetting);
 

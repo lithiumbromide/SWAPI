@@ -69,6 +69,8 @@ public enum class swPartNotify_e : public System.Enum
 | swPartDestroyNotify | Obsolete |
 | swPartDestroyNotify2 | 50 = DestroyNotify2 |
 | swPartDimensionChangeNotify | 37 = DimensionChangeNotify |
+| swPartDisplayPaneCollapseNotify | 82 = DisplayPaneCollapseNotify |
+| swPartDisplayPaneExpandNotify | 81 = DisplayPaneExpandNotify |
 | swPartDragStateChangeNotify | 67 = DragStateChangeNotify |
 | swPartDynamicHighlightNotify | 36 = DynamicHighlightNotify |
 | swPartEquationEditorPostNotify | 44 = EquationEditorPostNotify |

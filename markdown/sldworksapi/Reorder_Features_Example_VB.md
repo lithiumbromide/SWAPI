@@ -36,7 +36,7 @@ Dim swApp As SldWorks.SldWorks
     Set swApp = Application.SldWorks
      Set modelDoc2 = swApp.ActiveDoc
      Set modelDocExt = modelDoc2.Extension
-    retVal = modelDocExt.ReorderFeature("Fillet5", "", swMoveToEnd)
+    retVal = modelDocExt.ReorderFeature2("Fillet5", "", swMoveToEnd)
      Debug.Print "Fillet5 moved to the end of the FeatureManager design tree? " & retVal
 End Sub
 ```

@@ -76,7 +76,7 @@ namespace CenterMarkCSharp.csproj
             int warnings = 0;
             int i = 0;
 
-            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\advdrawings\\foodprocessor.slddrw";
+            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\advdrawings\\foodprocessor.slddrw";
             swModel = (ModelDoc2)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocDRAWING, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
             swModExt = (ModelDocExtension)swModel.Extension;
             swSelMgr = (SelectionMgr)swModel.SelectionManager;
@@ -92,7 +92,7 @@ namespace CenterMarkCSharp.csproj
             {
                 Debug.Print("  View = " + swView.Name);
                 // Traverse over annotation center marks
-                swCtrMark = (CenterMark)swView.GetFirstCenterMark();
+                swCtrMark = (CenterMark)swView.GetFirstCenterMark2();
                 while ((swCtrMark != null))
                 {
                     swAnn = (Annotation)swCtrMark.GetAnnotation();

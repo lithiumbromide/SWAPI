@@ -48,7 +48,7 @@ FeatureManager design tree of a part.
              modelDoc2 = (ModelDoc2)swApp.ActiveDoc;
              modelDocExt = modelDoc2.Extension;
 
-             retVal = modelDocExt.ReorderFeature("Fillet5", "", (int)swMoveLocation_e.swMoveToEnd);
+             retVal = modelDocExt.ReorderFeature2("Fillet5", "", (int)swMoveLocation_e.swMoveToEnd);
              Debug.Print("Fillet5 moved to the end of the FeatureManager design tree? " + retVal);
 
          }

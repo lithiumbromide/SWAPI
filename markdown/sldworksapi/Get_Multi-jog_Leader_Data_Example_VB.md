@@ -60,7 +60,7 @@ Sub main()
 
 ```
     Debug.Print "View name: " & swView.GetName2
-    Set obj = swView.GetFirstMultiJogLeader
+    Set obj = swView.GetFirstMultiJogLeader2
     Set swMultiJogLeader = obj
 ```
 

@@ -95,6 +95,7 @@ The following tables list the members exposed by[IPartDoc](SolidWorks.Interop.sl
 | Method | GetTessTriStripNorms | Gets the normal vector for each of the triangles, which make up the shaded picture tessellation for this part. |
 | Method | GetTessTriStrips | Gets the vertices that make up the shaded picture tessellation for this part. |
 | Method | GetTessTriStripSize | Gets the size of the array floats required to contain the data returned when calling IPartDoc::GetTessTriStrips and IPartDoc::IGetTessTriStrips . |
+| Method | GetTessTriStripTextures | Gets the texture coordinate components for each vertex on each triangle strip on each face of this part. |
 | Method | IBodyObject | Obsolete. Superseded by IPartDoc::GetBodies2 and IPartDoc::EnumBodies3 . |
 | Method | IBodyObject2 | Obsolete. Superseded by IPartDoc::GetBodies2 and IPartDoc::EnumBodies3 . |
 | Method | ICreateFeatureFromBody | Obsolete. Superseded by IPartDoc::ICreateFeatureFromBody4 . |

@@ -22,6 +22,18 @@ Expand All
 | PDM Pro API Web Service : Progress Resource Group |
 | --- |
 
+Description
+
+Progress services. You must send
+
+[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
+
+before calling these. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Get | api/{vaultName}/progress/{guid}/result GET: api/{vaultName}/progress/{guid}/result Gets the result of the specified operation. |

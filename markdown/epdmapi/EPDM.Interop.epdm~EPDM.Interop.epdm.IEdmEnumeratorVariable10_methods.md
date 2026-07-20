@@ -15,8 +15,8 @@ For a list of all members of this type, see[IEdmEnumeratorVariable10 members](EP
 
 |  | Name | Description |
 | --- | --- | --- |
-| Method | GetVar2 | Gets the value of the specified variable from this file or folder. |
-| Method | GetVarAsText | Gets the value of the specified variable in text format from this file or folder. |
+| Method | GetVar2 | Gets the value of the specified variable from this file that may be shared across multiple folders. |
+| Method | GetVarAsText | Gets the value of the specified variable in text format from this file that may be shared across multiple folders. |
 
 [Top](#topBookmark)
 

@@ -35,6 +35,8 @@ System.ValueType
 
 [EPDM.Interop.epdm.EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
 
+[EPDM.Interop.epdm.EdmBomDefaultSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html)
+
 [EPDM.Interop.epdm.EdmBomInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo.html)
 
 [EPDM.Interop.epdm.EdmBomLayout](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout.html)

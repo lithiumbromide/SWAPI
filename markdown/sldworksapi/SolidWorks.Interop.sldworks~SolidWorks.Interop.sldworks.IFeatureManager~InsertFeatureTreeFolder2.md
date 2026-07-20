@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFeatureTreeFolder2 Method (IFeatureManager)
 
-Inserts a folder in the FeatureManager design tree.
+Inserts a folder in the FeatureManager design tree for pre-selected features or components.
 
 ## Syntax
 
@@ -57,7 +57,7 @@ See
 
 ### Parameters
 
-- `Type`: Type of folder as defined in[swFeatureTreeFolderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureTreeFolderType_e.html)
+- `Type`: Type of folder to insert as defined by[swFeatureTreeFolderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureTreeFolderType_e.html)
 
 ### Return Value
 
@@ -89,22 +89,15 @@ See
 
 ## Remarks
 
-This method operates on the features that are selected before this method executes.
-
-The Type argument indicates whether the folder that is created:
-
-- Contains the preselected features.
-
-- or -
-
-- Is empty and placed relative to the preselected features.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This method operates on the features that are selected before this method executes.kadov_tag{{</spaces>}}
 
 (Table)=========================================================
 
 | If creating... | Then... |
 | --- | --- |
-| A folder to contain the preselected features | Certain types of features cannot be moved into that folder, such as the predefined planes that exist when a new part is created. These types of features are ignored by this method. If multiple features are selected when this method runs, all of the features are moved into the new folder; however, these features must be consecutive. If they are not, only the first group of consecutive features are moved into the new folder. |
+| A folder to contain preselected features | Certain types of features cannot be moved into that folder, such as the predefined planes that exist when a new part is created. These types of features are ignored by this method. If multiple features are selected when this method runs, all of the features are moved into the new folder; however, these features must be consecutive. If they are not, only the first group of consecutive features are moved into the new folder. |
 | An empty folder | The folder is created just before the first valid feature in the selections. The new folder cannot be placed before certain features, such as the predefined planes that exist when a new part is created. |
+| Mold folders | When a surface feature is pre-selected, three sub-folders are created in the Surface Bodies folder: Cavity Surface Bodies, Core Surface Bodies, and Parting Surface Bodies |
 
 kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 

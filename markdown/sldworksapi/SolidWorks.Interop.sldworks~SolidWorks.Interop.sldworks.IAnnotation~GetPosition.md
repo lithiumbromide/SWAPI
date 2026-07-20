@@ -82,7 +82,7 @@ The following table lists the types of annotations that this method supports and
 | --- | --- |
 | Datum Feature Symbols | Point where leader hits symbol |
 | Datum Target Symbols | Centerpoint of the circle that is attached to the leader |
-| Display Dimensions | Upper-left corner of the text box of the display dimension |
+| Display Dimensions | Point of leader attachment centered on a text box border / center point of bottom border of text box |
 | Geometric Tolerances | Upper-left corner of the symbol |
 | Notes | Upper-left corner of the text box |
 | Surface Finish Symbols | Lower-left point of symbol |

@@ -53,7 +53,7 @@ Response (application/json, text/json)
     "TransitionId": 1,
     "VersionNo": 2,
     "Comment": "sample string 3",
-    "Date": "2023-12-07T14:34:00.7718371-05:00",
+    "Date": "2024-11-27T09:52:30.6865768-05:00",
     "SourceState": {
       "StateId": 1,
       "StateName": "sample string 2",
@@ -73,7 +73,7 @@ Response (application/json, text/json)
     "TransitionId": 1,
     "VersionNo": 2,
     "Comment": "sample string 3",
-    "Date": "2023-12-07T14:34:00.7718371-05:00",
+    "Date": "2024-11-27T09:52:30.6865768-05:00",
     "SourceState": {
       "StateId": 1,
       "StateName": "sample string 2",
@@ -100,7 +100,7 @@ Response (application/xml, text/xml)
 <ArrayOfHistoryTransition xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/SWPDM.Models">
   <HistoryTransition>
     <Comment>sample string 3</Comment>
-    <Date>2023-12-07T14:34:00.7718371-05:00</Date>
+    <Date>2024-11-27T09:52:30.6865768-05:00</Date>
     <DestinationState>
       <IgnorePreviousPermissions>3</IgnorePreviousPermissions>
       <StateId>1</StateId>
@@ -120,7 +120,7 @@ Response (application/xml, text/xml)
   </HistoryTransition>
   <HistoryTransition>
     <Comment>sample string 3</Comment>
-    <Date>2023-12-07T14:34:00.7718371-05:00</Date>
+    <Date>2024-11-27T09:52:30.6865768-05:00</Date>
     <DestinationState>
       <IgnorePreviousPermissions>3</IgnorePreviousPermissions>
       <StateId>1</StateId>

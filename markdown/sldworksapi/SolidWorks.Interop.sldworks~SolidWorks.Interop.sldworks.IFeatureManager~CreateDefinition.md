@@ -59,8 +59,8 @@ See
 
 - `Type`: Feature name ID as defined in[swFeatureNameID_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureNameID_e.html):
 
-- swFMBaseFlange (sheet metal base flange)
-- swFMBeltAndChain (belt/chain)
+- swFmBaseFlange (sheet metal base flange)
+- swFmBeltAndChain (belt/chain)
 - swFmBoundingBox (bounding box)
 - swFmCirPattern (circular pattern)
 - swFmCornerRelief (sheet metal corner relief)
@@ -70,6 +70,7 @@ See
 - swFmEdgeFlange (sheet metal edge flange)
 - swFmFillet (constant radius, face, full round fillet/chamfer)
 - swFmFillPattern (fill pattern)
+- swFmFormToolInstance (library form tool)
 - swFmGroundPlane (ground plane)
 - swFmLibraryFeature (library)
 - swFmLocalChainPattern (chain component pattern)
@@ -86,6 +87,7 @@ See
 - swFmSketchBend (sheet metal sketched bend)
 - swFmSketchPattern (sketch-driven pattern)
 - swFmSMGusset (sheet metal gusset)
+- swFmSolidToSheetMetal (convert solid to sheet metal)
 - swFmSweep (boss sweep)
 - swFmSweepCut (cut sweep)
 - swFmSweepThread (sweep thread)
@@ -104,6 +106,10 @@ See
 ,
 
 [library](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
+
+,
+
+[library form tool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
 
 ,
 
@@ -140,6 +146,10 @@ See
 ,
 
 [sheet metal edge flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
+
+,
+
+[convert solid to sheet metal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
 
 ,
 
@@ -217,9 +227,9 @@ See examples for:
 
 ## Remarks
 
-This method initializes the feature data objects with default data for pattern, sweep, bounding box, ground plane, mirror components, projection curve, sheet metal normal cut, sheet metal swept flange, sheet metal gusset, sheet metal edge flange, tab/slot, and belt/chain features.
+This method initializes the feature data objects with default data for pattern, sweep, bounding box, ground plane, mirror components, projection curve, sheet metal normal cut, sheet metal swept flange, sheet metal gusset, sheet metal edge flange, tab/slot, library form tool, and belt/chain features.
 
-For sheet metal base flange, sheet metal corner relief, library, simple fillet, and thread features, you must initialize feature data objects using specific initialize methods.
+For sheet metal base flange, sheet metal corner relief, convert solid to sheet metal, library, simple fillet, and thread features, you must initialize feature data objects using specific initialize methods.
 
 For mate controller features, you can either pre-select mates before calling this method or initialize the feature data object returned by this method with default values.
 
@@ -255,6 +265,8 @@ For additional information, see:
 [ICornerReliefFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~Initialize.html)
 
 [IMateControllerFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~Initialize.html)
+
+[IConvertSolidFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html)
 
 ## Availability
 

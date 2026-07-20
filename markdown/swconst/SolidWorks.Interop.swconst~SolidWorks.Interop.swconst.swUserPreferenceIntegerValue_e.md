@@ -207,6 +207,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swDetailingSFSymbolLeaderLineStyle | See System Options and Document Properties. |
 | swDetailingSFSymbolLeaderLineThickness | See System Options and Document Properties. |
 | swDetailingSFSymbolLeaderStyle | See System Options and Document Properties. |
+| swDetailingSFSymbolStandard | See System Options and Document Properties. |
 | swDetailingTitleBlockTableBorderLineWeight | See System Options and Document Properties. |
 | swDetailingTitleBlockTableGridLineWeight | See System Options and Document Properties. |
 | swDetailingToleranceFitTolDisplay | See System Options and Document Properties. |
@@ -458,6 +459,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swPlaneDisplayIntersectionLineColor | See System Options and Document Properties. |
 | swPlaneDisplayTransparency | See System Options and Document Properties. |
 | swPLYQuality | See System Options and Document Properties. |
+| swPMIEditColor | See System Options and Document Properties. |
 | swPolarMinHoles | See System Options and Document Properties. |
 | swPropertyManagerColorActiveClosedDivider | See System Options and Document Properties. |
 | swPropertyManagerColorBackground | See System Options and Document Properties. |
@@ -476,6 +478,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swPunchTableTagStyle | See System Options and Document Properties. |
 | swRebuildErrorAction | See System Options and Document Properties. |
 | swRebuildOnActivation | See System Options and Document Properties. |
+| swRecognizedMeshFaceColor | See System Options and Document Properties. |
 | swRefVisualizationChildrenColor | See System Options and Document Properties. |
 | swRefVisualizationParentColor | See System Options and Document Properties. |
 | swResolveLightweight | See System Options and Document Properties. |
@@ -522,6 +525,10 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swShowEquationPotentialCircularReferencesMessage | See System Options and Document Properties. |
 | swSketch_Auto_Solve_Threshold | See System Options and Document Properties. |
 | swSketchExplodedColor | See System Options and Document Properties. |
+| swSMGExportProfile | See System Options and Document Properties. |
+| swSMGRefinementRelativeQuality | See System Options and Document Properties. |
+| swSMGRefinementType | See System Options and Document Properties. |
+| swSMGRefineRelativeType | See System Options and Document Properties. |
 | swSnapPointsPerMinor | See System Options and Document Properties. |
 | swSolidBodiesDescriptionFirstPropertyIndex | See System Options and Document Properties. |
 | swSolidBodiesDescriptionSecondPropertyIndex | See System Options and Document Properties. |
@@ -648,10 +655,12 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swUnitsTimeDecimalPlaces | See System Options and Document Properties. |
 | swUnitsTimeUnits | See System Options and Document Properties. |
 | swUnitSystem | See System Options and Document Properties. |
+| swUnrecognizedMeshFaceColor | See System Options and Document Properties. |
 | swUpdateOutOfDateSpeedPakConfigOnSave | See System Options and Document Properties. |
 | swUseCustomizedImportTolerance | See System Options and Document Properties. |
 | swViewRotationMouseSpeed | See System Options and Document Properties. |
 | swZoneLineColor | See System Options and Document Properties. |
+| swZoomLevelOnOpen | See System Options and Document Properties. |
 
 ## See Also
 

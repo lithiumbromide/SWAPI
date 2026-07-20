@@ -100,6 +100,7 @@ See
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
 
 kadov_tag{{<spaces>}}To get the SOLIDWORKS version number in which the feature was created, use[IFeature::GetCreatedVersion](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetCreatedVersion.html).
 

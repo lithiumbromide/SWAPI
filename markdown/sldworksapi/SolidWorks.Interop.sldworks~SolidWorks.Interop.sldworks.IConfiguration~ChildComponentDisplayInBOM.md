@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ChildComponentDisplayInBOM Property (IConfiguration)
 
-Gets or sets the child component display option of a configuration in a Bill of Materials (BOM) for an assembly document.
+Gets or sets the child component display option of this configuration in the Bill of Materials (BOM) for an assembly or for a cutlist part (weldment and/or sheet metal).
 
 ## Syntax
 

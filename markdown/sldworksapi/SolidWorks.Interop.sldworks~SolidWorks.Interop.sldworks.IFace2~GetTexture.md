@@ -98,6 +98,8 @@ See
 
 [IModelDocExtension::CreateTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateTexture.html)
 
+[IFace2::HasTextureCoordinates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~HasTextureCoordinates.html)
+
 ## Availability
 
 SOLIDWORKS 2005 FCS, Revision Number 13.0

@@ -18,7 +18,7 @@ The following tables list the members exposed by[IConfiguration](SolidWorks.Inte
 | Property | AddRebuildSaveMark | Adds or removes the mark indicating whether the configuration needs to be rebuilt and its configuration data saved every time you save the model document. |
 | Property | AlternateName | Gets or sets the configuration's alternate name (i.e., user-specified name). |
 | Property | BOMPartNoSource | Gets or sets the source of the part number used in the BOM table. |
-| Property | ChildComponentDisplayInBOM | Gets or sets the child component display option of a configuration in a Bill of Materials (BOM) for an assembly document. |
+| Property | ChildComponentDisplayInBOM | Gets or sets the child component display option of this configuration in the Bill of Materials (BOM) for an assembly or for a cutlist part (weldment and/or sheet metal). |
 | Property | Comment | Gets or sets the configuration comment. |
 | Property | CustomPropertyManager | Gets the custom property information for this configuration. |
 | Property | Description | Gets or sets the description of the configuration. |

@@ -136,6 +136,8 @@ The i-th element of the tags array (starting at i = 1) will be the tag of the ed
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
 
+[IPartDoc::GetTessTriStripTextures Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripTextures.html)
+
 ## Availability
 
 SOLIDWORKS 99 SP2, datecode 1999250

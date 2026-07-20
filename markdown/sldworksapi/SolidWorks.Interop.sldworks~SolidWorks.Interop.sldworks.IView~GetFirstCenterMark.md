@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstCenterMark Method (IView)
 
-Gets the first center mark in the view.
+Obsolete. Superseded by
+
+[IView::GetFirstCenterMark2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstCenterMark2.html)
+
+.
 
 ## Syntax
 
@@ -61,16 +65,6 @@ See
 [View::GetFirstCenterMark](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstCenterMark.html)
 
 .
-
-## Examples
-
-[List Center Marks in Drawing (VBA)](List_Center_Marks_in_Drawing_Example_VB.htm)
-
-[Select All Center Marks (C#)](Select_All_Center_Marks_Example_CSharp.htm)
-
-[Select All Center Marks (VB.NET)](Select_All_Center_Marks_Example_VBNET.htm)
-
-[Select All Center Marks (VBA)](Select_All_Center_Marks_Example_VB.htm)
 
 ## See Also
 

@@ -42,6 +42,7 @@ The following tables list the members exposed by[IBomFeature](SolidWorks.Interop
 | Method | GetConfigurationCount | Gets the number of configurations available to this BOM table or used in this BOM table. |
 | Method | GetConfigurations | Gets the configurations available to this BOM table or used in this BOM table. |
 | Method | GetFeature | Gets the BOM table feature. |
+| Method | GetLinkToDisplayState | Gets the name of the Display State linked to this BOM feature. |
 | Method | GetReferencedModelName | Gets the name of the model referenced by this BOM feature. |
 | Method | GetTableAnnotationCount | Gets the number of BOM table annotations for this BOM table feature. |
 | Method | GetTableAnnotations | Gets the BOM table annotations for this BOM table feature. |
@@ -49,6 +50,7 @@ The following tables list the members exposed by[IBomFeature](SolidWorks.Interop
 | Method | IGetTableAnnotations | Gets the BOM table annotations for this BOM table feature. |
 | Method | ISetConfigurations | Sets the configurations used in this BOM table. |
 | Method | SetConfigurations | Sets the configurations used in this BOM table. |
+| Method | SetLinkToDisplayState | Sets the name of the Display State to which to link this BOM feature. |
 
 [Top](#topBookmark)
 

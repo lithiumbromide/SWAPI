@@ -77,7 +77,7 @@ Sub main()
 
 ```
     Set swApp = Application.SldWorks
-    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\foodprocessor.slddrw"
+    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\advdrawings\foodprocessor.slddrw"
     Set swModel = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocDRAWING, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
     Set swModExt = swModel.Extension
     Set swSelMgr = swModel.SelectionManager
@@ -100,7 +100,7 @@ Sub main()
     Do While Not swView Is Nothing
         Debug.Print "  View = " & swView.Name
         ' Traverse over annotation center marks
-        Set swCtrMark = swView.GetFirstCenterMark
+        Set swCtrMark = swView.GetFirstCenterMark2
         Do While Not swCtrMark Is Nothing
             Set swAnn = swCtrMark.GetAnnotation
             Debug.Print "    " & swAnn.GetName

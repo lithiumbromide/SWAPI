@@ -180,8 +180,8 @@ edges of envelope components |
 | Emphasized Section Outline - Style | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontEmphasizedSectionOutlineStyle,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontEmphasizedSectionOutlineStyle,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options except swLineDEFAULT | Specifies style of the outline of an emphasized section |
-| Emphasized Section Outline - Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThickness,
+| Emphasized Section Outline - Thickness | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThickness,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThickness,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value > ) | See swLineWeights_e for valid options | Specifies the thickness of the outline of an emphasized section |
 | Emphasized Section Outline - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThicknessCustom,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontEmphasizedSectionThicknessCustom,

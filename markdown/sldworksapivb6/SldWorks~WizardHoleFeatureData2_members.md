@@ -89,4 +89,7 @@ Members
 | Public Property ThruTapDrillDepth |  |
 | Public Property ThruTapDrillDiameter |  |
 | Public Property Type |  |
+| Public Property UnderHeadCounterSink |  |
+| Public Property UnderHeadCounterSinkAngle |  |
+| Public Property UnderHeadCounterSinkDiameter |  |
 | Public Property Vertex |  |

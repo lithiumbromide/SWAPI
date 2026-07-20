@@ -111,6 +111,7 @@ Members
 | Public Method EditRebuild |  |
 | Public Method EditSelectedGtol |  |
 | Public Method EditSheet |  |
+| Public Method EditSheet2 |  |
 | Public Method EditSketch |  |
 | Public Method EditTemplate |  |
 | Public Method EndDrawing |  |
@@ -317,6 +318,9 @@ Members
 | Public Event DestroyNotify |  |
 | Public Event DestroyNotify2 |  |
 | Public Event DimensionChangeNotify |  |
+| Public Event DisplayPaneCollapseNotify |  |
+| Public Event DisplayPaneExpandNotify |  |
+| Public Event DrawingStateChangeNotify |  |
 | Public Event DynamicHighlightNotify |  |
 | Public Event EquationEditorPostNotify |  |
 | Public Event EquationEditorPreNotify |  |

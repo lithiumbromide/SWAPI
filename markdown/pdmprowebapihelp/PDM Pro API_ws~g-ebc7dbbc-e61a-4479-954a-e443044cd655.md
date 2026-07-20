@@ -22,6 +22,18 @@ Expand All
 | PDM Pro API Web Service : Folder Resource Group |
 | --- |
 
+Description
+
+Folder services. You must send
+
+[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
+
+before calling these. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Get | api/{vaultName}/folders/{folderId} GET: api/{VaultName}/folders/{FolderID} or api/{VaultName}/folders/{FolderID}/info Get folder info Gets information for the specified folder. |

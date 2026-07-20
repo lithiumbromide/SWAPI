@@ -9,10 +9,6 @@ source: "swconst/DP_Weldments.htm"
 
 # Document Properties > Weldments
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 ## Document Properties >Weldments
 
 (Table)=========================================================
@@ -106,3 +102,6 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUs
 swUserPreferenceOption_e.swDetailingNoOptionSpecified,
 < Value >) | String values are properties that are listed in the Cut-List Properties
 dialog: "%Description%" "%MATERIAL%" | Valid only if Cut list IDs - Generate Cut list IDs is set to true |
+| Cut list IDs - Use document unit settings (Converts Cut list IDs to
+document's unit settings) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swGenerateCutlistIDsInDocUnits) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swGenerateCutlistIDsInDocUnits,
+< OnFlag >) | Boolean value | Valid only if Cut list IDs - Generate Cut list IDs is set to true |

@@ -119,6 +119,9 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUs
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use model color
 for HLR/HLV with SpeedPak configurations; only
 available when a drawing of an assembly is open |
+| See through transparent components in HRL/HLV | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSeeThroughTransparentComponents,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSeeThroughTransparentComponents,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For drawings only |
 | Link child view to parent view
 configuration | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinkParentViewConfiguration,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinkParentViewConfiguration,
@@ -139,6 +142,10 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean valu
 | Auto insert on view creation - Center marks-slots -part | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertCenterMarksForSlots,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertCenterMarksForSlots,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to automatically insert center marks for slots in parts |
+| Auto insert on view creation - Cosmetic Threads - assembly (may affect
+performance) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertCosmeticThreadForHolesAsm,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertCosmeticThreadForHolesAsm,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For assemblies, specifies whether to automatically insert cosmetic threads |
 | Auto insert on view creation - Dowel symbols -part | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertDowelSymbols,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoInsertDowelSymbols,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to automatically insert dowel symbols in parts |

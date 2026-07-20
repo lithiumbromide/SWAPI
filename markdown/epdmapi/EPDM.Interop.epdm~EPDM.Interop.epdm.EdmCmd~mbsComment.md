@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html"
 
 # mbsComment Field
 
-Contains name specific to
+Contains information specific to
 
 [EdmCmd.meCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~meCmdType.html)
 

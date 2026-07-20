@@ -9,15 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SetSaveToName Method (IPackAndGo)
 
-Overrides the paths and filenames of the documents set by
+Obsolete. Superseded by
 
-[IPackAndGo::SetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~SetDocumentSaveToNames.html)
+[IPackAndGo::SetSaveToName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName2.html)
 
-or
-
-[IPackAndGo::ISetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html)
-
-with the specified path or the path and name of the Zip file.
+.
 
 ## Syntax
 
@@ -91,14 +87,6 @@ See
 [PackAndGo::SetSaveToName](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~SetSaveToName.html)
 
 .
-
-## Examples
-
-[Add and Remove Files from Pack and Go (C#)](Add_and_Remove_Files_from_Pack_and_Go_Example_CSharp.htm)
-
-[Add and Remove Files from Pack and Go (VB.NET)](Add_and_Remove_Files_from_Pack_and_Go_Example_VBNET.htm)
-
-[Add and Remove Files from Pack and Go (VBA)](Add_and_Remove_Files_from_Pack_and_Go_Example_VB.htm)
 
 ## See Also
 

@@ -32,6 +32,7 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 | Method | CreateFormTool2 | Creates a forming tool feature with the specified point of insertion in a sheet metal part. |
 | Method | CreateSaveBodyFeature | Creates a Save Bodies feature and creates part and assembly documents of the save bodies. |
 | Method | CreateStructuralMemberGroup | Creates a weldment structural-member group. |
+| Method | CutListFolderLocation | Gets the parent folder of the specified solid body / cut list item / body folder. |
 | Method | DraftXpertChange | Changes the parameters on the selected drafted faces, regardless of whether the drafted faces were created manually or with DraftXpert, provided that DraftXpert can process them. |
 | Method | DraftXpertRemove | Deletes the draft on the selected faces. If all the faces of a draft are selected, then this method deletes the draft feature; if not, then this method edits the draft feature and removes the selected face references from it. |
 | Method | EditDeleteFace | Edits a DeleteFace feature. |
@@ -124,7 +125,7 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 | Method | InsertCombineFeature | Combines the specified bodies in the multibody part to create a combine feature. |
 | Method | InsertConnectionPoint | Adds a connection point based on the selected entities. |
 | Method | InsertConvertToSheetMetal | Obsolete. Superseded by IFeatureManager::InsertConvertToSheetMetal2 . |
-| Method | InsertConvertToSheetMetal2 | Converts a solid or surface body into a sheet metal part. |
+| Method | InsertConvertToSheetMetal2 | Obsolete. Superseded by IFeatureManager::CreateDefinition and IFeatureManager::CreateFeature . |
 | Method | InsertCoordinateSystem | Inserts a coordinate system feature. |
 | Method | InsertCosmeticThread | Obsolete. Superseded by IFeatureManager::InsertCosmeticThread2 . |
 | Method | InsertCosmeticThread2 | Obsolete. Superseded by IFeatureManager::InsertCosmeticThread3 . |
@@ -153,7 +154,7 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 | Method | InsertFeatureChamfer | Inserts a chamfer. |
 | Method | InsertFeatureLock | Locks or freezes a selected feature. |
 | Method | InsertFeatureTreeFolder | Obsolete. Superseded by IFeatureManager::InsertFeatureTreeFolder2 . |
-| Method | InsertFeatureTreeFolder2 | Inserts a folder in the FeatureManager design tree. |
+| Method | InsertFeatureTreeFolder2 | Inserts a folder in the FeatureManager design tree for pre-selected features or components. |
 | Method | InsertFilletBeadFeature | Obsolete. Superseded by IFeatureManager::InsertFilletBeadFeature2 . |
 | Method | InsertFilletBeadFeature2 | Inserts a fillet weld bead feature and also fills the gap between the pre-selected part bodies, if any. |
 | Method | InsertFilletBeadFeature3 | Inserts fillet weld bead features for the specified face sets. |
@@ -162,7 +163,7 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 | Method | InsertFlattenSurface | Obsolete. Superseded by IFeatureManager::InsertFlattenSurface2 . |
 | Method | InsertFlattenSurface2 | Inserts a surface-flatten feature in the model. |
 | Method | InsertFlexFeature | Inserts a Flex feature using the selected solid or surface body. |
-| Method | InsertFormToolFeature | Inserts a forming tool from the Design Library into a sheet metal part. |
+| Method | InsertFormToolFeature | Obsolete. Superseded by IFeatureManager::CreateDefinition and IFeatureManager::CreateFeature . |
 | Method | InsertFreeform | Ob solete. Superseded by IFeatureManager::InsertFreeform2 . |
 | Method | InsertFreeform2 | Inserts a Freeform feature. |
 | Method | InsertGlobalBoundingBox | Obsolete. See IFeatureManager::CreateDefinition and IBoundingBoxFeatureData . |

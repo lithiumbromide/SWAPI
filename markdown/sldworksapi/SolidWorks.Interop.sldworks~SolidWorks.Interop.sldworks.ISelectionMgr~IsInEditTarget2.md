@@ -64,7 +64,7 @@ See
 - `Index`: Index position with in the current list of selected items, where AtIndex ranges from 1 to[ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)(see**Remarks**)
 - `Mark`: - -1 = All selections regardless of marks
 
-0 = only the selections without marks
+- 0 = only the selections without marks
 
 Any other value = Value that was used to mark and select an object
 

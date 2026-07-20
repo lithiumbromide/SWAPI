@@ -37,6 +37,7 @@ Members
 | Public Method AssemblyPartToggle |  |
 | Public Method AutoAngleAxis |  |
 | Public Method AutoExplode |  |
+| Public Method AutoMateRepair |  |
 | Public Method CollectAllSupportiveMates |  |
 | Public Method CompConfigProperties |  |
 | Public Method CompConfigProperties2 |  |
@@ -95,6 +96,7 @@ Members
 | Public Method GetFeatureScope |  |
 | Public Method GetFeatureScopeCount |  |
 | Public Method GetFirstMember |  |
+| Public Method GetLargeDesignReviewState |  |
 | Public Method GetLightWeightComponentCount |  |
 | Public Method GetPhysicalSimulationComponents |  |
 | Public Method GetRouteManager |  |
@@ -261,6 +263,8 @@ Members
 | Public Event DestroyNotify |  |
 | Public Event DestroyNotify2 |  |
 | Public Event DimensionChangeNotify |  |
+| Public Event DisplayPaneCollapseNotify |  |
+| Public Event DisplayPaneExpandNotify |  |
 | Public Event DragStateChangeNotify |  |
 | Public Event DynamicHighlightNotify |  |
 | Public Event EndInContextEditNotify |  |
@@ -286,6 +290,7 @@ Members
 | Public Event FlipLoopNotify |  |
 | Public Event InsertTableNotify |  |
 | Public Event InterferenceNotify |  |
+| Public Event LargeDesignReviewStateChangeNotify |  |
 | Public Event LightingDialogCreateNotify |  |
 | Public Event LoadFromStorageNotify |  |
 | Public Event LoadFromStorageStoreNotify |  |

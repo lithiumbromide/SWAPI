@@ -47,6 +47,9 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | sw3MFDecals | See System Options and Document Properties. |
 | sw3MFMaterials | See System Options and Document Properties. |
 | sw3MFShowInfoOnSave | See System Options and Document Properties. |
+| swAbsChordalError | See System Options and Document Properties. |
+| swAbsEdgeLength | See System Options and Document Properties. |
+| swAbsNormalDeviation | See System Options and Document Properties. |
 | swAddDimensionsToArcEntity | See System Options and Document Properties. |
 | swAddDimensionsToCircleEntity | See System Options and Document Properties. |
 | swAddDimensionsToLineEntity | See System Options and Document Properties. |
@@ -76,6 +79,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swAutomaticScaling3ViewDrawings | See System Options and Document Properties. |
 | swAutomaticSyncSettings | See System Options and Document Properties. |
 | swAutoNormalToSketchMode | See System Options and Document Properties. |
+| swAutoResolveLightweightCompUponExpInFMTree | See System Options and Document Properties. |
 | swAutoSaveEnable | See System Options and Document Properties. |
 | swAutoScaleTextureSFDecalsToModelSize | See System Options and Document Properties. |
 | swAutoShowPropertyManager | See System Options and Document Properties. |
@@ -150,6 +154,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDetailingAutoInsertCenterMarksForHolesAsm | See System Options and Document Properties. |
 | swDetailingAutoInsertCenterMarksForSlots | See System Options and Document Properties. |
 | swDetailingAutoInsertCenterMarksForSlotsAsm | See System Options and Document Properties. |
+| swDetailingAutoInsertCosmeticThreadForHolesAsm | See System Options and Document Properties. |
 | swDetailingAutoInsertDimsMarkedForDrawing | See System Options and Document Properties. |
 | swDetailingAutoInsertDowelSymbols | See System Options and Document Properties. |
 | swDetailingAutoInsertDowelSymbolsAsm | See System Options and Document Properties. |
@@ -276,6 +281,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDisplayBendLines | See System Options and Document Properties. |
 | swDisplayCameraFOVBox | See System Options and Document Properties. |
 | swDisplayCameras | See System Options and Document Properties. |
+| swDisplayCartoon | See System Options and Document Properties. |
 | swDisplayCompAnnotations | See System Options and Document Properties. |
 | swDisplayComponentDimXpertAnnotations | See System Options and Document Properties. |
 | swDisplayComponentEnvelopes | See System Options and Document Properties. |
@@ -310,6 +316,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDisplayPatternInformationTooltips | See System Options and Document Properties. |
 | swDisplayPlanes | See System Options and Document Properties. |
 | swDisplayPlaneSections | Not used. |
+| swDisplayRealViewGraphics | See System Options and Document Properties. |
 | swDisplayReferenceDimensions | See System Options and Document Properties. |
 | swDisplayReferencePoints | Obsolete. |
 | swDisplayReferencePoints2 | See System Options and Document Properties. |
@@ -356,6 +363,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDrawingEnableSymbolAddingNewRevision | See System Options and Document Properties. |
 | swDrawingHideEnds | See System Options and Document Properties. |
 | swDrawingMarkAllDimensionsForDrawing | See System Options and Document Properties. |
+| swDrawingOpenInDetailingMode | See System Options and Document Properties. |
 | swDrawingPrintBreaklinesInBrokenView | See System Options and Document Properties. |
 | swDrawingReuseViewLettersFromDeletedAuxilary | See System Options and Document Properties. |
 | swDrawingSaveShadedData | See System Options and Document Properties. |
@@ -380,6 +388,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDXFExportHiddenLayersOn | See System Options and Document Properties. |
 | swDXFExportHiddenLayersWarnIsOn | See System Options and Document Properties. |
 | swDxfExportSplinesAsSplines | See System Options and Document Properties. |
+| swDxfExportViewAsBlock | See System Options and Document Properties. |
 | swDXFHighQualityExport | See System Options and Document Properties. |
 | swDxfMapping | See System Options and Document Properties. |
 | swDxfUseSolidworksLayers | See System Options and Document Properties. |
@@ -466,6 +475,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swForceEnableImportDiagnosis | See System Options and Document Properties. |
 | swFourViewportProjectionType | See System Options and Document Properties. |
 | swFullyConstrainedSketchMode | See System Options and Document Properties. |
+| swGenerateCutlistIDsInDocUnits | See System Options and Document Properties. |
 | swGridAutomaticScaling | See System Options and Document Properties. |
 | swGridDisplay | See System Options and Document Properties. |
 | swGridDisplayDashed | See System Options and Document Properties. |
@@ -480,6 +490,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swHoleTableReuseDeleted | See System Options and Document Properties. |
 | swHoleTableShowAnsiInchSize | See System Options and Document Properties. |
 | swIFCCustomPropsPreference | See System Options and Document Properties. |
+| swIFCExportUsePropertySetMappingFile | See System Options and Document Properties. |
 | swIFCMaterialsMassPropertiesPreference | See System Options and Document Properties. |
 | swIFCOmniClassPreference | See System Options and Document Properties. |
 | swIFCUniClass2Preference | See System Options and Document Properties. |
@@ -587,11 +598,13 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swMultiCAD_CreateNewComponentsAsExternalFiles | See System Options and Document Properties. |
 | swMultiCAD_Enable3DInterconnect | See System Options and Document Properties. |
 | swNoteParagraphAutoNumbering | See System Options and Document Properties. |
+| swNoteZoomToFit | See System Options and Document Properties. |
 | swNotifySNLNotObtainedForEDrawingsSave | See System Options and Document Properties. |
 | swOneConfigOnlyTopLevelBom | See System Options and Document Properties. |
 | swOpenLastUsedDocumentAtStart | See System Options and Document Properties. |
 | swOptimizeMatePlacement | See System Options and Document Properties. |
 | swOverrideQuantityColumnName | See System Options and Document Properties. |
+| swOverrideTreeDisplaySysSettings | See System Options and Document Properties. |
 | swPageSetupHighQuality | See System Options and Document Properties. |
 | swPageSetupPrinterDrawingScaleToFit | See System Options and Document Properties. |
 | swPageSetupPrinterPartAsmPrintWindow | See System Options and Document Properties. |
@@ -633,6 +646,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swPLYBinaryFormat | See System Options and Document Properties. |
 | swPLYIncludeColors | See System Options and Document Properties. |
 | swPLYPreview | See System Options and Document Properties. |
+| swPMIOverwriteColor | See System Options and Document Properties. |
 | swPointAxisCoordSystemHideNames | See System Options and Document Properties. |
 | swPreciseRenderingOfOverlappingGeometry | See System Options and Document Properties. |
 | swPreserveRedundantGeometry | See System Options and Document Properties. |
@@ -671,10 +685,12 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swSearchIncludeContentCentral | See System Options and Document Properties. |
 | swSearchShowSolidWorksSearchBox | See System Options and Document Properties. |
 | swSearchWhileTyping | See System Options and Document Properties. |
+| swSeeThroughTransparentComponents | See System Options and Document Properties. |
 | swShadedSketchContours | See System Options and Document Properties. |
 | swSheetMetalBendNotesLeaderJustificationSnapping | See System Options and Document Properties. |
 | swSheetMetalBendNotesUseDocLeaderLength | See System Options and Document Properties. |
 | swSheetMetalBodiesDescriptionUseDefault | See System Options and Document Properties. |
+| swSheetMetalDimensionFlangeSketch | See System Options and Document Properties. |
 | swSheetMetalMBDDisplaySheetMetalBendNotes | See System Options and Document Properties. |
 | swSheetMetalMBDFormat | See System Options and Document Properties. |
 | swSheetMetalMBDLeaderJustificationSnapping | See System Options and Document Properties. |
@@ -737,10 +753,25 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swSketchSnapToGridIfDisplayed | See System Options and Document Properties. |
 | swSketchSuppressedDimProfileErrorOption | See System Options and Document Properties. |
 | swSketchTurnOffAutomaticSolveModeAndUndo | See System Options and Document Properties. |
+| swSMGEnableHealing | See System Options and Document Properties. |
+| swSMGExportAsBodies | See System Options and Document Properties. |
+| swSMGExportFreeFaces | See System Options and Document Properties. |
+| swSMGExportHiddenCompNOSHOW | See System Options and Document Properties. |
+| swSMGExportInstanceNames | See System Options and Document Properties. |
+| swSMGExportMetaProps | See System Options and Document Properties. |
+| swSMGExportSWAppearance | See System Options and Document Properties. |
+| swSMGExportSWAssemEnvelope | See System Options and Document Properties. |
+| swSMGExportSWBOM | See System Options and Document Properties. |
+| swSMGExportSWDecals | See System Options and Document Properties. |
+| swSMGExportSWExplodedAndSavedViews | See System Options and Document Properties. |
+| swSMGExportSWPMI | See System Options and Document Properties. |
+| swSMGMergeFileIntoOneActorPerPart | See System Options and Document Properties. |
+| swSMGOverloadAssemTreeNames | See System Options and Document Properties. |
 | swSnapOnlyIfGridDisplayed | See System Options and Document Properties. |
 | swSnapToAngle | See System Options and Document Properties. |
 | swSnapToPoints | See System Options and Document Properties. |
-| swSolidBBoxDescriptionUseDefault | See System Options and Document Properties. |
+| swSolidBBoxDescriptionUseDefault | c |
+| swSpeedpakUpdateSlider | See System Options and Document Properties. |
 | swStepExport3DCurveFeatures | See System Options and Document Properties. |
 | swStepExportAppearances | See System Options and Document Properties. |
 | swStepExportAtomicSave | See System Options and Document Properties. |
@@ -801,6 +832,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swViewReverseWheelZoomDirection | See System Options and Document Properties. |
 | swViewShowAnnotationLinkErrors | See System Options and Document Properties. |
 | swViewShowAnnotationLinkVariables | See System Options and Document Properties. |
+| swViewShowAnnotationTextExpression | See System Options and Document Properties. |
 | swViewSketchRelations | See System Options and Document Properties. |
 | swViewZoomFitAndCenter | See System Options and Document Properties. |
 | swVrmlStlImportAsPSMesh | See System Options and Document Properties. |

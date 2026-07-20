@@ -27,7 +27,7 @@ machines.
 A task consists of:
 
 - Add-in to execute.
-- Card, if any, to show when the task is launched.
+- Dialog or form to show when the task is launched.
 - User credentials to use to execute the add-in.
 - Computers on which to execute the add-in.
 - Optional scheduling of the add-in.

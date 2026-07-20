@@ -49,7 +49,7 @@ ID of the data card; 0 if not found
 
 [Get Card Control Information (VB.NET)](Get_Card_Control_Info_Example_VBNET.htm)
 
-[Get Card Control Information (C#)](Update_References_Example_CSharp.htm)
+[Get Card Control Information (C#)](Get_Card_Control_Info_Example_CSharp.htm)
 
 ## Remarks
 

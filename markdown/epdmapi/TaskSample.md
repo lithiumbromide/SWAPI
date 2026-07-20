@@ -19,7 +19,7 @@ written in VB.NET. The add-in:
   .
 - Creates custom pages in the Task property dialog box.
 - Customizes the task details page.
-- Displays a user interface on launch.
+- Displays a message box on launch.
 
 NOTE: To populate the GUID attribute below, click**Tools > Create GUID**in the IDE, select GUID Format 6, click**Copy**, and click**Exit**.
 Replace <Guid("")>
@@ -29,25 +29,26 @@ with the copied string.
 As IEdmVault5 ,
 ByVal poCmdMgr As IEdmCmdMgr5 )
 Implements IEdmAddIn5.GetAddInInfo On Error GoTo ErrHand ' Fill in the add-in's description poInfo.mbsAddInName = "Task Test Add-in" poInfo.mbsCompany = "SOLIDWORKS" poInfo.mbsDescription = "Add-in used to test the task execution system" poInfo.mlAddInVersion = 1 ' Minimum SOLIDWORKS PDM Professional version
-needed for VB.NET add-ins is 2010 poInfo.mlRequiredVersionMajor = 10 poInfo.mlRequiredVersionMinor = 0 'Register this add-in as a task add-in poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskRun) 'Register this add-in as being able to append
-its own property pages in the Administration tool poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskSetup) 'Register this add-in to be called when the
-task is launched on the client computer poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskLaunch) 'Register this add-in to provide extra details
-in the Details dialog box in the task list in the Administration tool poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskDetails) 'Register this add-in to be called when the
-launch dialog box is closed poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskLaunchButton) 'Register this add-in to be called when the
-set-up wizard is closed poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskSetupButton) Exit Sub ErrHand: Dim v11 As IEdmVault11 v11 = poVault MsgBox(v11.GetErrorMessage(Err.Number)) End Sub |
+needed for VB.NET add-ins is 2010 poInfo.mlRequiredVersionMajor = 10 poInfo.mlRequiredVersionMinor = 0 'Register this task add-in hook to run a task add-in poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskRun) 'Register this task add-in hook to append
+information to the task property pages in the Administration tool poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskSetup) 'Register this task add-in hook to display a
+dialog or form before the task is launched on the client computer poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskLaunch) 'Register this task add-in hook to provide
+extra details in the Details dialog box in the task list in the Administration tool poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskDetails) 'Register this task add-in hook to perform some
+action after a
+task launch dialog box or form button is clicked poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskLaunchButton) 'Register this task add-in hook to be called when the
+task set-up wizard is closed poCmdMgr.AddHook(EdmCmdType.EdmCmd_TaskSetupButton) Exit Sub ErrHand: Dim v11 As IEdmVault11 v11 = poVault MsgBox(v11.GetErrorMessage(Err.Number)) End Sub |
 | --- |
 | Private Sub
 OnTaskDetails(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) Dim inst As IEdmTaskInstance inst = poCmd.mpoExtra 'Create a custom page in the task properties
 dialog box; TaskDetailsPage is a 'user control; TaskDetailsPage::LoadData fills in some edit boxes with 'values from IEdmTaskInstance::GetValEx Dim myPage As TaskDetailsPage myPage = New TaskDetailsPage myPage.CreateControl() poCmd.mpoExtra = myPage poCmd.mlParentWnd = myPage.Handle.ToInt32 poCmd.mbsComment = "My Test Page" myPage.LoadData(inst) End Sub |
 | Private Sub
-OnTaskLaunch(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) 'Display a message box where the user types data that is ' passed to the task add-in via IEdmTaskInstance::SetValEx Dim v11 As IEdmVault11 v11 = poCmd.mpoVault If v11.MsgBox(poCmd.mlParentWnd, "Hello!" + vbLf + "Are you sure you want
+OnTaskLaunch(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) 'Display a message box on task launch 'You can also display a form to collect data to pass back to the
+task add-in Dim v11 As IEdmVault11 v11 = poCmd.mpoVault If v11.MsgBox(poCmd.mlParentWnd, "Hello!" + vbLf + "Are you sure you want
 to launch the test task?", EdmMBoxType.EdmMbt_YesNo) <> EdmMBoxResult.EdmMbr_Yes
-Then poCmd.mbCancel = True Exit Sub End If 'Get the property interface used to access the
-framework Dim inst As IEdmTaskInstance inst = poCmd.mpoExtra inst.SetValEx("MyLaunchVar", "A launch value") End Sub |
+Then poCmd.mbCancel = True Exit Sub End If End Sub |
 | Private Sub OnTaskLaunchButton(ByRef
-poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) 'If displaying a card for editing,
-this is 'called when the user clicks OK or Cancel in the
-launch dialog box End Sub |
+poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) 'Code
+here is executed when the user clicks OK or Cancel in the dialog
+returned by OnTaskLaunch If poCmd. mbsComment = "OK" poCmd. mbCancel = False; Else poCmd. mbCancel = True; End If End Sub |
 | Private Sub
 OnTaskRun(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData [] ) 'Get the property interface used to access the
 framework Dim inst As IEdmTaskInstance inst = poCmd.mpoExtra On Error GoTo ErrHand 'Inform the framework that the task has started inst.SetStatus(EdmTaskStatus.EdmTaskStat_Running) 'Format a message to be displayed in the task

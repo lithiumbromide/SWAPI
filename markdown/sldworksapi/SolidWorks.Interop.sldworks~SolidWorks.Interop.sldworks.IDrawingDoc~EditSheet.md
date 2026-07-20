@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # EditSheet Method (IDrawingDoc)
 
-Puts the current drawing sheet in edit mode.
+Obsolete. Superseded by
+
+[IDrawingDoc::EditSheet2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~EditSheet2.html)
+
+.
 
 ## Syntax
 
@@ -54,14 +58,6 @@ See
 [DrawingDoc::EditSheet](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EditSheet.html)
 
 .
-
-## Examples
-
-[Place Note Behind Drawing Sheet (C#)](Place_Note_Behind_Drawing_Sheet_Example_CSharp.htm)
-
-[Place Note Behind Drawing Sheet (VB.NET)](Place_Note_Behind_Drawing_Sheet_Example_VBNET.htm)
-
-[Place Note Behind Drawing Sheet (VBA)](Place_Note_Behind_Drawing_Sheet_Example_VB.htm)
 
 ## Remarks
 

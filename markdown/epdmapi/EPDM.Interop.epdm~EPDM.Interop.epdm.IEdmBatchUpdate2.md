@@ -71,7 +71,7 @@ To set the values of file and folder card variables:
 
   [IEdmBatchUpdate2::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetVar.html)
 
-  once for each file card variable you want to update. You must first check out the files whose card varibles you want to update.
+  once for each file card variable you want to update. You must first check out the files whose card variables you want to update.
 3. Call
 
   [IEdmBatchUpdate2::SetFolderVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetFolderVar.html)
@@ -83,7 +83,7 @@ To set the values of file and folder card variables:
 
   to commit all of the file and folder card variable changes.
 
-Prior to SOLIDWORKS PDM Professional 6.2, the only way to set file card variables was to use[IEdmEnumeratorVariable](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html), which can handle only one file or folder card variable at a time. As of SOLIDWORKS PDM Professional 6.2, you should use IEdmBatchUpdate2, which can handle several file and folder card variables at a time.
+Prior to SOLIDWORKS PDM Professional 6.2, the only way to set file card variables was to use[IEdmEnumeratorVariable](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html), which can handle only one file or folder card variable at a time. As of SOLIDWORKS PDM Professional 6.2, you should use IEdmBatchUpdate2, which can handle several file and folder card variables at a time.
 
 ## Accessors
 

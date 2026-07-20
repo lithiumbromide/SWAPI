@@ -37,8 +37,10 @@ Members
 
 ## Public Properties
 
-| Public Property AccurateReflections |  |
+| Public Property AboutAxis |  |
 | --- | --- |
+| Public Property AccurateReflections |  |
+| Public Property AlongAxis |  |
 | Public Property Ambient |  |
 | Public Property AnisotropicBias |  |
 | Public Property AnisotropicCylinderDistance |  |
@@ -53,17 +55,21 @@ Members
 | Public Property BumpRoughLow |  |
 | Public Property BumpScale |  |
 | Public Property BumpSharpness |  |
+| Public Property BumpStrength |  |
 | Public Property BumpTextureFilename |  |
 | Public Property BumpUseMappingScale |  |
 | Public Property CausticsCast |  |
 | Public Property CausticsReceive |  |
 | Public Property ColorForm |  |
+| Public Property CustomHoleMeshFile |  |
 | Public Property DensityOfHoles |  |
 | Public Property Diffuse |  |
+| Public Property DimpleSize |  |
 | Public Property Direction1RotationAngle |  |
 | Public Property Direction2RotationAngle |  |
 | Public Property DoubleSided |  |
 | Public Property Emission |  |
+| Public Property FaceWidth |  |
 | Public Property FileName |  |
 | Public Property FitHeight |  |
 | Public Property FitWidth |  |
@@ -73,9 +79,12 @@ Members
 | Public Property Glossy |  |
 | Public Property Height |  |
 | Public Property HeightMirror |  |
+| Public Property HoleMeshSize |  |
 | Public Property IgnoreMissingFile |  |
 | Public Property IlluminationShaderType |  |
 | Public Property IndexOfRefraction |  |
+| Public Property KnurlAngle |  |
+| Public Property KnurlHeightCap |  |
 | Public Property LinkToFile |  |
 | Public Property MappingType |  |
 | Public Property MaterialID |  |
@@ -86,6 +95,8 @@ Members
 | Public Property MetallicScale |  |
 | Public Property NSamples |  |
 | Public Property ObjectAreaLight |  |
+| Public Property OffsetLatitude |  |
+| Public Property OffsetLongitude |  |
 | Public Property PatternScale |  |
 | Public Property PrimaryColor |  |
 | Public Property ProjectionReference |  |
@@ -96,6 +107,9 @@ Members
 | Public Property SecondaryColor |  |
 | Public Property Specular |  |
 | Public Property SpecularColor |  |
+| Public Property SurfaceFinishFile |  |
+| Public Property SurfaceFinishFileNormalMap |  |
+| Public Property SurfaceFinishShaderType |  |
 | Public Property TertiaryColor |  |
 | Public Property TextureFilename |  |
 | Public Property ToonShaderTextureFilename |  |

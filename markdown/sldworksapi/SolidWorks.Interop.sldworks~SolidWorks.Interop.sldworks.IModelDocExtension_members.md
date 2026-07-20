@@ -116,6 +116,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | GetAdvancedSpotLightProperties | Gets the attenuation-related, advanced properties for the specified SOLIDWORKS spot light in this model. |
 | Method | GetAnnotationCount | Gets the number of annotations on this part. |
 | Method | GetAnnotations | Gets the annotations on this part. |
+| Method | GetAnnotationsByType | Gets the annotations of the specified type in this document. |
 | Method | GetAppearanceSetting | Gets the appearance setting for this document. |
 | Method | GetAttachmentCount | Gets the number of attachments for this document. |
 | Method | GetAttachments | Gets the attachments for this document. |
@@ -262,6 +263,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | IRemoveMaterialProperty | Removes material property values from this model. |
 | Method | IsAbbreviatedViewActive | Gets or sets whether the abbreviated view is active. |
 | Method | IsConverted | Gets whether the active document was converted to the current release uponing opening but has not yet been saved. |
+| Method | IsDisplayPaneVisible | Gets whether the Display Pane is visible in this active document. |
 | Method | ISetMaterialPropertyValues | Sets the material property values for this model document. |
 | Method | IsExploded | Gets the name of the exploded view currently shown in the model. |
 | Method | IsFutureVersion | Gets whether this document is for a future version of SOLIDWORKS. |
@@ -292,6 +294,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | ReJogRunningDimension | Applies jogs where extension lines overlap dimension text in an angular running dimension. |
 | Method | ReleaseStream | Releases a previously obtained stream. |
 | Method | ReloadOrReplace | Reloads or replaces this model document. |
+| Method | ReloadWithReferences | Reloads this model document with the specified references. |
 | Method | RemoveMaterialProperty | Removes material properties from this model. |
 | Method | RemoveModelColorizer | Removes your installed implemented interface of the ISwColorContour interface. |
 | Method | RemoveTexture | Obsolete. Superseded by IModelDocExtension::RemoveTexture2 . |
@@ -300,7 +303,8 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | RemoveVisibleBox | Removes the visible bounding box set by IModelDocExtension::SetVisibleBox and resets the size of the bounding box to the size calculated by SOLIDWORKS for a part or an assembly. |
 | Method | RenameDocument | Temporarily renames the selected component using the specified name. |
 | Method | RenameDraftingStandard | Rename the current custom drafting to the specifed name. |
-| Method | ReorderFeature | Moves the specified feature to another location in the FeatureManager design tree of this part or assembly. |
+| Method | ReorderFeature | Obsolete. Superseded by IModelDocExtension::ReorderFeature2 . |
+| Method | ReorderFeature2 | Moves the specified feature to another location in the FeatureManager design tree of this part or assembly. |
 | Method | ResetStandardViews | Returns all standard model views to their default settings. |
 | Method | ReverseDecalsOrder | Reverses the order of the decals on the model. |
 | Method | RotateOrCopy | Rotates and optionally copies the selected sketch entities or annotations. |

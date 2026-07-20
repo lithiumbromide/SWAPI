@@ -87,6 +87,8 @@ source: "sldworksapivb6/SldWorks_P.html"
 | Configuration |  |
 | ConfigurationManager |  |
 | ConnectionPointFeatureData |  |
+| ConvertSolidFeatureData |  |
+| CoordinateSystemElement |  |
 | CoordinateSystemFeatureData |  |
 | CoreFeatureData |  |
 | CornerManagementFolder |  |
@@ -240,6 +242,8 @@ source: "sldworksapivb6/SldWorks_P.html"
 | IComplexCornerTreatmentFeatureData |  |
 | IConcentricMateFeatureData |  |
 | IConnectionPointFeatureData |  |
+| IConvertSolidFeatureData |  |
+| ICoordinateSystemElement |  |
 | ICornerManagementFolder |  |
 | ICornerMember |  |
 | ICornerReliefFeatureData |  |
@@ -276,6 +280,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | IIndentFeatureData |  |
 | IInstanceToVaryOptions |  |
 | IIntersectFeatureData |  |
+| ILibraryFormToolFeatureData |  |
 | ILinearCouplerMateFeatureData |  |
 | ILocalCurvePatternFeatureData |  |
 | ILocalSketchPatternFeatureData |  |
@@ -390,6 +395,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | Layer |  |
 | LayerMgr |  |
 | LibraryFeatureData |  |
+| LibraryFormToolFeatureData |  |
 | Light |  |
 | LightDialog |  |
 | LinearCouplerMateFeatureData |  |

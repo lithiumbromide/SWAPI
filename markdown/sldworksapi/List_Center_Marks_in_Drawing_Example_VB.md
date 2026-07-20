@@ -104,7 +104,7 @@ kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
 kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swCenterMark = swView.GetFirstCenterMark
+swCenterMark = swView.GetFirstCenterMark2
 
 kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Do
 While Not swCenterMark Is Nothing

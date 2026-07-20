@@ -105,6 +105,7 @@ public enum class swUserPreferenceStringValue_e : public System.Enum
 | swFileLocationsDocumentTemplates | See System Options and Document Properties. |
 | swFileLocationsDraftingStandard | See System Options and Document Properties. |
 | swFileLocationsDrawingScaleStandard | See System Options and Document Properties. |
+| swFileLocationsFamilyTableTemplates | See System Options and Document Properties. |
 | swFileLocationsFuncBldrSegTypeDefinitions | See System Options and Document Properties. |
 | swFileLocationsGeneralTablesTemplate | See System Options and Document Properties. |
 | swFileLocationsHatchPatternFile | See System Options and Document Properties. |
@@ -157,6 +158,7 @@ public enum class swUserPreferenceStringValue_e : public System.Enum
 | swHvacCirElbowName | See System Options and Document Properties. |
 | swHvacRectDuctName | See System Options and Document Properties. |
 | swHvacRectElbowName | See System Options and Document Properties. |
+| swIFCExportPropertySetMappingFile | See System Options and Document Properties. |
 | swLastSynchronizationTimeStamp | See System Options and Document Properties. |
 | swMaterialPropertyCrosshatchPattern | See System Options and Document Properties. |
 | swMySldSettings | See System Options and Document Properties. |
@@ -169,6 +171,7 @@ public enum class swUserPreferenceStringValue_e : public System.Enum
 | swSeparatorCharacterForDims | See System Options and Document Properties. |
 | swSheetMetalBendNotesLayer | See System Options and Document Properties. |
 | swSheetMetalDescription | See System Options and Document Properties. |
+| swSMGMetaPropertyName | See System Options and Document Properties. |
 | swSolidBodiesBBoxDescriptionFirstSeparator | See System Options and Document Properties. |
 | swSolidBodiesBBoxDescriptionPrefix | See System Options and Document Properties. |
 | swSolidBodiesBBoxDescriptionSecondSeparator | See System Options and Document Properties. |

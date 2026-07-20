@@ -9,9 +9,36 @@ source: "pdmprowebapihelp/ReleaseNotes.html"
 
 # Release Notes
 
+- [SOLIDWORKS PDM Professional 2025 Web Api](#2025)
 - [SOLIDWORKS PDM Professional 2024 Web API](#2024)
 - [SOLIDWORKS PDM Professional 2023 Web API](#2023)
 - [SOLIDWORKS PDM Professional 2022 Web API](#2022)
+
+##### SOLIDWORKS PDM Professional 2025 Web API
+
+###### Configuration
+
+- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpGet.html)
+
+  (Get)
+- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpPost.html)
+
+  (Post)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpGet.html)
+
+  (Get)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpPut.html)
+
+  (Put)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpDelete.html)
+
+  (Delete)
+- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpGet.html)
+
+  (Get)
+- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpPost.html)
+
+  (Post)
 
 ##### SOLIDWORKS PDM Professional 2024 Web API
 

@@ -24,8 +24,10 @@ Members
 | Public Method GetButtonState |  |
 | Public Method GetControl |  |
 | Public Method GetTaskpaneViewWnd |  |
+| Public Method GetTaskpaneViewWndx64 |  |
 | Public Method HideView |  |
 | Public Method IGetControl |  |
+| Public Method IsActiveTab |  |
 | Public Method SetButtonState |  |
 | Public Method ShowView |  |
 

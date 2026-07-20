@@ -21,24 +21,19 @@ This example shows how to:
 ```
 //-----------------------------------------
 // Preconditions:
-// 1. Start Microsoft Visual Studio 2010.
-//    a. Click File > New > Project > Visual C++ > Win32 Console Application.
-//    b. Type the name of your project in Name.
-//    c. Click OK.
-//    d. Click Next.
-//    e. Select ATL and click Finish.
-//    f. Click OK.
-//    g. Click Project > Properties > Configuration Properties >
+// 1. Start Microsoft Visual Studio 2019 or later.
+//    a. Click File > New > Project > (C++ Windows) Console App.
+//    b. Click Next.
+//    c. Type the name of your project in Project Name.
+//    d. Click Create.
+//    e. Right-click project, select Add, New Item, Select ATL > ATL Support, Click Add.
+//    f. Click Project > projectname Properties > Configuration Properties >
 //       C/C++ and type the path to sldworks.tlb and swconst.tlb,
 //       typically C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS,
 //       in Additional Include Directories.
-//    h. Click OK.
-// 2. Replace the code in the code window with this code.
-// 3. Start up SOLIDWORKS and open a model document.
-// 4. Select a vertex, line, face, or some other selectable
-//    entity.
-// 5. Click Debug > Start Debugging.
-// 6. Click Yes.
+//    g. Click Apply or OK.
+// 2. Replace the code in the code window with This code.
+// 3. Click Debug > Start Debugging.
 //
 // Postconditions:
 // 1. Gets each byte value in a Variant SafeArray of byte values
@@ -49,7 +44,7 @@ This example shows how to:
 //-----------------------------------------
 //This code
 
-#include "stdafx.h"
+#include "framework.h"
 #include <string>
 
 #import "sldworks.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids //SOLIDWORKS type library

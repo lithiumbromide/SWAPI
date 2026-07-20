@@ -86,13 +86,13 @@ examples.
 You can set this property in one of two ways:
 
 - Specify null to indicate that the BOM table rows are not to be grouped into categories.
-- Specify an array of three
+- Specify an array of
 
   [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
-  enumerators to indicate that the BOM table rows are to be grouped into three categories (assemblies, parts, other).
+  enumerators to indicate that the BOM table rows are to be grouped into categories (assemblies, parts, user defined).
 
-For example, when you set this property to an array of three enumerators in the following order, assemblies are grouped first, parts are grouped next, and other categories are grouped last:
+For example, when you set this property to an array of three enumerators in the following order, assemblies are grouped first, parts are grouped next, and user-defined categories are grouped last:
 
 1. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
@@ -104,17 +104,14 @@ For example, when you set this property to an array of three enumerators in the 
 
   .swBomTableSortItemGroup_Other
 
-Substitute any enumerator in the array with[swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html).swBomTableSortItemGroup_None to eliminate grouping into that category.
+To eliminate grouping into a category, do not include it in the array.
 
-For example, when you set this property to the following array, no assemblies are grouped, parts are grouped first, and other categories are grouped last:
+For example, when you set this property to the following array, no assemblies are grouped, parts are grouped first, and user-defined categories are grouped last:
 
 1. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
-  .swBomTableSortItemGroup_None
-2. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
-
   .swBomTableSortItemGroup_Parts
-3. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
+2. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
   .swBomTableSortItemGroup_Other
 

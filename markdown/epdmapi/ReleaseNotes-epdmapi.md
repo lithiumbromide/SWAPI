@@ -11,6 +11,7 @@ source: "epdmapi/ReleaseNotes-epdmapi.html"
 
 This topic provides you with quick access to the enhancements made to SOLIDWORKS PDM Professional API.
 
+- [SOLIDWORKS PDM Professional API 2025](#2025)
 - [SOLIDWORKS PDM Professional API 2024](#2024)
 - [SOLIDWORKS PDM Professional API 2023 SP01](#2023_sp01)
 - [SOLIDWORKS PDM Professional API 2022](#2022)
@@ -43,6 +44,13 @@ This topic provides you with quick access to the enhancements made to SOLIDWORKS
 - [SOLIDWORKS PDM Professional API version 6.5](#6.5)
 - [SOLIDWORKS PDM Professional API version 6.4](#6.4)
 - [SOLIDWORKS PDM Professional API version 6.3](#6.3)
+
+###### SOLIDWORKS PDM Professional API 2025
+
+##### New interfaces
+
+- [IEdmBomMgr4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4.html)
+- [IEdmHistory4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html)
 
 ###### SOLIDWORKS PDM Professional API 2024
 
@@ -581,6 +589,7 @@ This topic provides you with quick access to the enhancements made to SOLIDWORKS
 ##### New interfaces
 
 - [IEdmBatchDelete3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3.html)
+- [IEdmEnumeratorVariable9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html)
 - [IEdmFolder7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html)
 
 [Back to top](ReleaseNotes-epdmapi.html#Top)

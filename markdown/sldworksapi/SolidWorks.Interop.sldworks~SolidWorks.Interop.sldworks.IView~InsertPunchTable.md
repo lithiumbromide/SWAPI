@@ -152,9 +152,9 @@ Specify a StartValue that matches the table you want to create. For example, to 
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
 
-[IFeatureManager::InsertFormToolFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFormToolFeature.html)
-
 [IFeatureManager::CreateFormTool Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFormTool.html)
+
+[ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
 
 ## Availability
 

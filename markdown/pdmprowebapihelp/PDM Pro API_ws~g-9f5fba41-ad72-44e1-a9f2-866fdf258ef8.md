@@ -22,6 +22,18 @@ Expand All
 | PDM Pro API Web Service : Workflow Resource Group |
 | --- |
 
+Description
+
+Workflow services. You must send
+
+[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
+
+before calling these. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Get | api/{vaultName}/workflows GET: api/{VaultName}/workflows Get workflows Gets the workflows in the specified vault. |

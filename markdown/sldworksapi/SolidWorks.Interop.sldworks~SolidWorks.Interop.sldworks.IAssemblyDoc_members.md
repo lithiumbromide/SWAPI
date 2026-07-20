@@ -53,6 +53,7 @@ The following tables list the members exposed by[IAssemblyDoc](SolidWorks.Intero
 | Method | AssemblyPartToggle | Obsolete. Superseded by IAssemblyDoc::EditAssembly and IAssemblyDoc::EditPart2 . |
 | Method | AutoAngleAxis | Automatically detect the axis for an angle mate. |
 | Method | AutoExplode | Automatically generates an exploded view of the current assembly configuration. |
+| Method | AutoMateRepair | Automatically repairs broken mates in this assembly. |
 | Method | CollectAllSupportiveMates | Gets all mates supportive of a mate controller in this assembly. |
 | Method | CompConfigProperties | Obsolete. Superseded by IAssemblyDoc::CompConfigProperties4 . |
 | Method | CompConfigProperties2 | Obsolete. Superseded by IAssemblyDoc::CompConfigProperties4 . |
@@ -110,6 +111,7 @@ The following tables list the members exposed by[IAssemblyDoc](SolidWorks.Intero
 | Method | GetFeatureScope | Gets the components affected by this feature. |
 | Method | GetFeatureScopeCount | Gets the number of components affected by this feature. |
 | Method | GetFirstMember | Obsolete. Superseded by IComponent2::GetChildren . |
+| Method | GetLargeDesignReviewState | Gets the Large Design Review state of this assembly. |
 | Method | GetLightWeightComponentCount | Gets the number of lightweight components in the assembly. |
 | Method | GetPhysicalSimulationComponents | Obsolete. Not superseded. |
 | Method | GetRouteManager | Gets the SOLIDWORKS Routing API. |

@@ -57,6 +57,7 @@ SOLIDWORKS PDM Professional API
 | IEdmBomMgr | Allows you to access the Bill of Materials (BOM) layouts installed in a vault. |
 | IEdmBomMgr2 | Allows you to access the Bill of Materials (BOM) layouts installed in a vault. |
 | IEdmBomMgr3 | Allows you to add a SOLIDWORKS Bill of Materials (BOM) to a non-SOLIDWORKS document. |
+| IEdmBomMgr4 | Allows you to access the Bill of Materials (BOM) layouts installed in a vault. |
 | IEdmBomView | Allows you to access a Bill of Materials (BOM) view. |
 | IEdmBomView2 | Allows you to access a Bill of Materials (BOM) view. |
 | IEdmBomView3 | Allows you to access a Bill of Materials (BOM) view. |
@@ -90,12 +91,12 @@ SOLIDWORKS PDM Professional API
 | IEdmEnumeratorCustomReference5 | Allows you to access custom file references. |
 | IEdmEnumeratorCustomReference6 | Allows you to access user-defined file references. |
 | IEdmEnumeratorCustomReference7 | Allows you to access user-defined file references. |
-| IEdmEnumeratorVariable10 | Allows you to access the contents of a file or folder data card. |
+| IEdmEnumeratorVariable10 | Allows you to access the contents of a file data card. |
 | IEdmEnumeratorVariable5 | Allows you to access the contents of a file or folder data card. |
 | IEdmEnumeratorVariable6 | Allows you to access the contents of a file or folder data card. |
-| IEdmEnumeratorVariable7 | Allows you to access the contents of a file or folder data card. |
-| IEdmEnumeratorVariable8 | Allows you to access the contents of a file or folder data card. |
-| IEdmEnumeratorVariable9 | Allows you to access the contents of a file or folder data card. |
+| IEdmEnumeratorVariable7 | Allows you to access the contents of a file data card. |
+| IEdmEnumeratorVariable8 | Allows you to access the contents of a file data card. |
+| IEdmEnumeratorVariable9 | Allows you to access the contents of a file data card. |
 | IEdmEnumeratorVersion5 | Allows you to access the versions and revisions of a file. |
 | IEdmEnumeratorVersion6 | Allows you to access the versions and revisions of a file. |
 | IEdmEnumeratorVersion7 | Allows you to access the versions and revisions of a file. |
@@ -131,6 +132,7 @@ SOLIDWORKS PDM Professional API
 | IEdmHistory | Allows you to access the history listing of files or folders. |
 | IEdmHistory2 | Allows you to access the history listing of files or folders. |
 | IEdmHistory3 | Allows you to access the sorted history listing of files or folders. |
+| IEdmHistory4 | Allows you to access the sorted history of files or folders. |
 | IEdmHistoryUpdate | Allows you to access the version and revision comments of files. |
 | IEdmImage | Allows you to paint an image on a window. |
 | IEdmInbox5 | Allows you to access the messages sent to a user. |
@@ -260,6 +262,7 @@ SOLIDWORKS PDM Professional API
 | EdmBatchError | Contains error information. |
 | EdmBatchError2 | Contains error information. |
 | EdmBomColumn | Contains information about a single column in a Bill of Materials. |
+| EdmBomDefaultSetting | Contains the default view settings of a computed BOM. |
 | EdmBomInfo | Contains information about a Bill of Materials. |
 | EdmBomLayout | Contains information about a Bill of Materials layout. |
 | EdmBomLayout2 | Contains information about a Bill of Materials layout. |

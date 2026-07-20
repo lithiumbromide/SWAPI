@@ -77,6 +77,10 @@ Request (application/x-www-form-urlencoded)
 
 Response (application/json, text/json, application/xml, text/xml)
 
+Example
+
+[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json)
+
 Remarks
 
 This operation:

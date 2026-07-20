@@ -9,7 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileFor
 
 # swFileFormatType_e Enumeration
 
-STEP file formats.
+STEP file formats/editions.
 
 ## Syntax
 
@@ -43,6 +43,9 @@ public enum class swFileFormatType_e : public System.Enum
 | Member | Description |
 | --- | --- |
 | swFileFormatType_STEP | 0 |
+| swFileFormatType_STEP_ED1 | 1 |
+| swFileFormatType_STEP_ED2 | 2 |
+| swFileFormatType_STEP_ED3 | 3 |
 
 ## See Also
 

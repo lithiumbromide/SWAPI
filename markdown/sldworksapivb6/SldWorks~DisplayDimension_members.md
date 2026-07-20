@@ -16,6 +16,7 @@ Members
 | Public Method AddDisplayEnt |  |
 | --- | --- |
 | Public Method AddDisplayText |  |
+| Public Method AlignToEdge |  |
 | Public Method AutoJogOrdinate |  |
 | Public Method ExplementaryAngle |  |
 | Public Method GetAlternatePrecision |  |
@@ -93,6 +94,7 @@ Members
 | Public Method SetDual |  |
 | Public Method SetDual2 |  |
 | Public Method SetExtensionLineAsCenterline |  |
+| Public Method SetHorizontal |  |
 | Public Method SetJogParameters |  |
 | Public Method SetLineFontDimensionStyle |  |
 | Public Method SetLineFontDimensionThickness |  |
@@ -110,6 +112,7 @@ Members
 | Public Method SetTextFormat |  |
 | Public Method SetUnits |  |
 | Public Method SetUnits2 |  |
+| Public Method SetVertical |  |
 | Public Method SetWitnessLineGap |  |
 | Public Method SupplementaryAngle |  |
 | Public Method Unlink |  |

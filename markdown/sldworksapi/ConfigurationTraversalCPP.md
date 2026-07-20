@@ -21,20 +21,19 @@ This example shows how to:
 //-------------------------------------------------------
 // Preconditions:
 // 1. Start up SOLIDWORKS and open a part or assembly document.
-// 2. Start Microsoft Visual Studio 2010.
-//    a. Click File > New > Project > Visual C++ > Win32 Console Application.
-//    b. Type the name of your project in Name.
-//    c. Click OK.
-//    d. Click Next.
-//    e. Select ATL and click Finish.
+// 2. Start Microsoft Visual Studio 2019 or later.
+//    a. Click File > New > Project > (C++ Windows) Console App.
+//    b. Click Next.
+//    c. Type the name of your project in Project Name.
+//    d. Click Create.
+//    e. Right-click project, select Add, New Item, Select ATL > ATL Support, Click Add.
 //    f. Click Project > projectname Properties > Configuration Properties >
 //       C/C++ and type the path to sldworks.tlb and swconst.tlb,
-//       typically C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS, in
-//       Additional Include Directories.
-//    g. Click OK.
-// 3. Replace the code in the code window with this code.
+//       typically C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS,
+//       in Additional Include Directories.
+//    g. Click Apply or OK.
+// 3. Replace the code in the code window with This code.
 // 4. Click Debug > Start Debugging.
-// 5. Click Yes.
 //
 // Postconditions:
 // 1. Pops up a message box for each configuration in the active
@@ -43,7 +42,7 @@ This example shows how to:
 //--------------------------------------------------------
 
 //This code
-#include "stdafx.h"
+#include "framework.h"
 #import "sldworks.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids  // SOLIDWORKS type library
 #import "swconst.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids   // SOLIDWORKS constants type library
 

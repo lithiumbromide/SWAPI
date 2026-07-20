@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstRevisionCloud Method (IView)
 
-Gets the first revision cloud annotation in this view.
+Obsolete. Superseded by
+
+[IView::GetFirstRevisionCloud2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstRevisionCloud2.html)
+
+.
 
 ## Syntax
 

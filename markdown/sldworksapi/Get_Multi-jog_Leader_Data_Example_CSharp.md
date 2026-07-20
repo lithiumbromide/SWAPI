@@ -61,7 +61,7 @@ namespace MultiJogLeaderCSharp.csproj
             swView = (View)swDrawingDoc.GetFirstView();
             swView = (View)swView.GetNextView();
             Debug.Print("View name: " + swView.GetName2());
-            obj = (object)swView.GetFirstMultiJogLeader();
+            obj = (object)swView.GetFirstMultiJogLeader2();
             swMultiJogLeader = (MultiJogLeader)obj;
 
             //Get multi-jog leader data

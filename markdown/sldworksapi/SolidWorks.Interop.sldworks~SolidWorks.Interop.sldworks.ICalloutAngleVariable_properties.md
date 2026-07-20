@@ -16,6 +16,7 @@ For a list of all members of this type, see[ICalloutAngleVariable members](Solid
 |  | Name | Description |
 | --- | --- | --- |
 | Property | Angle | Gets the value of an angle variable in a hole callout. |
+| Property | Precision | Gets or sets the number of digits to display after the decimal point of the angle value of this hole callout. |
 
 [Top](#topBookmark)
 

@@ -200,6 +200,10 @@ Visualization Sixth | ISldWorks::GetUserPreferenceIntegerValue (swUserPreference
 < Value >) | Integer value | COLORREF value in SOLIDWORKS IColorTable |
 | Color scheme settings - Zone row/column lines | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swZoneLineColor) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swZoneLineColor,
 < Value >) | Integer value | COLORREF value in SOLIDWORKS IColorTable |
+| Color scheme settings - Recognized mesh face | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRecognizedMeshFaceColor) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRecognizedMeshFaceColor,
+< Value >) | Integer value | COLORREF value in SOLIDWORKS IColorTable |
+| Color scheme settings - Unrecognized mesh face | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUnrecognizedMeshFaceColor) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUnrecognizedMeshFaceColor,
+< Value >) | Integer value | COLORREF value in SOLIDWORKS IColorTable |
 | Color scheme settings - Dynamic Reference Visualization (Parent) | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRefVisualizationParentColor) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRefVisualizationParentColor,
 < Value >) | Integer value | COLORREF value in SOLIDWORKS IColorTable |
 | Color scheme settings - Dynamic Reference Visualization (Child) | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRefVisualizationChildrenColor) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRefVisualizationChildrenColor,

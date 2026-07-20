@@ -62,6 +62,8 @@ public enum class swDrawingNotify_e : public System.Enum
 | swDrawingDestroyNotify | 2 = Obsolete |
 | swDrawingDestroyNotify2 | 42 = DestroyNotify2 |
 | swDrawingDimensionChangeNotify | 32 = DimensionChangeNotify |
+| swDrawingDisplayPaneCollapseNotify | 59 = DisplayPaneCollapseNotify |
+| swDrawingDisplayPaneExpandNotify | 58 = DisplayPaneExpandNotify |
 | swDrawingDynamicHighlightNotify | 31 = DynamicHighlightNotify |
 | swDrawingEquationEditorPostNotify | 39 = EquationEditorPostNotify |
 | swDrawingEquationEditorPreNotify | 38 = EquationEditorPreNotify |
@@ -91,6 +93,7 @@ public enum class swDrawingNotify_e : public System.Enum
 | swDrawingSaveToStorageNotify | 9 = SaveToStorageNotify |
 | swDrawingSaveToStorageStoreNotify | 28 = SaveToStorageStoreNotify |
 | swDrawingSketchSolveNotify | 35 = SketchSolveNotify |
+| swDrawingStateChangeNotify | 60 = DrawingStateChangeNotify |
 | swDrawingUndoPostNotify | 43 = UndoPostNotify |
 | swDrawingUndoPreNotify | 47 = UndoPreNotify |
 | swDrawingUnitsChangeNotify | 41 = UnitsChangeNotify |

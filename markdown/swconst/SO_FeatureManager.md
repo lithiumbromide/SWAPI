@@ -25,6 +25,9 @@ design tree, and expand or collapse design tree and its contents |
 | Dynamic highlight | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swFeatureManagerDynamicHighlight) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swFeatureManagerDynamicHighlight,
 < OnFlag >) | Boolean value | Specifies whether geometry in graphics area is highlighted when pointer
 passes over item in FeatureManager design tree |
+| Auto-resolve lightweight components upon expansion in FeatureManager tree | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoResolveLightweightCompUponExpInFMTree) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoResolveLightweightCompUponExpInFMTree,
+< OnFlag >) | Boolean value | Specifies whether to automatically resolve lightweight components when they
+are expanded in the FeatureManager design tree |
 | Use transparent flyout FeatureManager tree in parts/assemblies | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swFeatureManagerTransparentFlyout) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swFeatureManagerTransparentFlyout,
 < OnFlag >) | Boolean value | Specifies whether to use transparent flyout FeatureManager in part and
 assembly documents |
@@ -45,6 +48,8 @@ supported in SOLIDWORKS Connected) | ISldWorks::GetUserPreferenceToggle (swUserP
 swAutoHideShowResponse_e.< Value >) | See swUserPreferencesLanguages_e for valid options | Valid only if
 swUserPreferenceToggle_e.swFeatureManagerShowTranslatedNameInFMTree is set to
 true. |
+| Override document level tree display | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOverrideTreeDisplaySysSettings) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOverrideTreeDisplaySysSettings,
+< OnFlag >) | Boolean value |  |
 | Comments - Automatically add timestamp to comments | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCollabAddTimeStampToComments) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCollabAddTimeStampToComments,
 < OnFlag >) | Boolean value |  |
 | Comments - Show Comments in PropertyManager | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCollabShowCommentsInPropertyManager) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCollabShowCommentsInPropertyManager,

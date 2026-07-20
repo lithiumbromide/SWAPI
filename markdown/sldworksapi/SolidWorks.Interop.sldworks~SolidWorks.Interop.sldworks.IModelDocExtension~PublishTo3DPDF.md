@@ -91,7 +91,19 @@ See
 
 SOLIDWORKS Model Based Definition (MBD) is an integrated drawingless manufacturing solution for SOLIDWORKS.
 
-This method corresponds to the**Publish to 3D PDF**button on the SOLIDWORKS MBD toolbar.
+This method:
+
+- requires the that the SOLDWORKS MBD add-in be loaded. (
+
+  [ISldWorks::LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html)
+
+  )
+
+- corresponds to the
+
+  Publish to 3D PDF
+
+  button on the SOLIDWORKS MBD toolbar.
 
 Typical steps for generating a SOLIDWORKS MBD 3D PDF using the SOLIDWORKS API are:
 

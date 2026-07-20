@@ -125,10 +125,11 @@ where <major release code> equals a number that remains constant through a major
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
 
 The <minor release code> equals the year and day of manufacture of a saving version (for example, 1997/320).
 
-To get the version history of a document that is currently open, use[IModelDoc2::VersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~VersionHistory.html)or[IModelDoc2::IVersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IVersionHistory.html).
+To get the version history of a document that is currently open, use[IModelDoc2::VersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~VersionHistory.html).
 
 ## See Also
 

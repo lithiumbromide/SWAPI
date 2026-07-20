@@ -26,7 +26,8 @@ For a list of all members of this type, see[IPackAndGo members](SolidWorks.Inter
 | Method | ISetDocumentSaveToNames | Sets the paths and filenames of the documents to save in Pack and Go. |
 | Method | RemoveExternalDocuments | Removes the specified non-SOLIDWORKS files from Pack and Go. |
 | Method | SetDocumentSaveToNames | Sets the paths and filenames of the documents for Pack and Go. |
-| Method | SetSaveToName | Overrides the paths and filenames of the documents set by IPackAndGo::SetDocumentSaveToNames or IPackAndGo::ISetDocumentSaveToNames with the specified path or the path and name of the Zip file. |
+| Method | SetSaveToName | Obsolete. Superseded by IPackAndGo::SetSaveToName2 . |
+| Method | SetSaveToName2 | Overrides the paths and filenames of the documents set by IPackAndGo::SetDocumentSaveToNames or IPackAndGo::ISetDocumentSaveToNames with the specified path or the path and name of the Zip file. |
 
 [Top](#topBookmark)
 

@@ -72,7 +72,7 @@ See
 
 ## Remarks
 
-The leader attachment points for the newly created GTol object come from the selections made before calling this method. The initial location of the symbol is near the selection location. If there are no selections, then the GTol does not have a leader, is free standing, and is initially at the origin of the model or drawing.
+The leader attachment point for the newly created GTol object comes from the selection made before calling this method. The initial location of the symbol is near the selection location. If there is no selection, then the GTol does not have a leader, is free standing, and is initially at the origin of the model or drawing.
 
 This method creates an empty symbol. To fill in the text and symbols of this GTol, use the pointerkadov_tag{{</spaces>}}returned by this method to access the various get and set methods of the[IGTol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol.html)interface, such as[IGtol::SetFrameSymbols2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetFrameSymbols2.html)and[IGtol::SetFrameValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetFrameValues.html). Use[IGtol::GetAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetAnnotation.html)to retrieve the[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)object.
 

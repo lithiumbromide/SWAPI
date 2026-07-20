@@ -110,7 +110,8 @@ For a list of all members of this type, see[IDrawingDoc members](SolidWorks.Inte
 | Method | EditOrdinate | Edits an ordinate dimension. |
 | Method | EditRebuild | Obsolete. Superseded by IModelDoc2::EditRebuild3 . |
 | Method | EditSelectedGtol | Gets the selected GTol to edit. |
-| Method | EditSheet | Puts the current drawing sheet in edit mode. |
+| Method | EditSheet | Obsolete. Superseded by IDrawingDoc::EditSheet2 . |
+| Method | EditSheet2 | Puts the current drawing sheet in edit mode. |
 | Method | EditSketch | Allows editing of a sketch in the selected drawing view or sheet. |
 | Method | EditTemplate | Puts the template of the current drawing sheet in edit mode. |
 | Method | EndDrawing | Provides faster creation of entities in a drawing when used with IDrawingDoc::StartDrawing . |

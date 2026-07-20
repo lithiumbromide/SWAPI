@@ -36,7 +36,7 @@ Sub main()
     Set swView = swDraw.GetFirstView
     Do While Not swView Is Nothing
          Debug.Print "  View = " & swView.Name
-        Set swDispDim = swView.GetFirstDisplayDimension5
+        Set swDispDim = swView.GetFirstDisplayDimension6
         Do While Not swDispDim Is Nothing
              Set swAnn = swDispDim.GetAnnotation
              Set swDim = swDispDim.GetDimension

@@ -100,6 +100,7 @@ See
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
 
 kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 

@@ -135,14 +135,14 @@ Public Function SortBOMTable() As Boolean
      pos3 = swSortData.ColumnIndex(2)
      Debug.Print ("Column for tertiary sort is " & pos3) ' should be -1
 
-    Dim listGrpArray(2) As Integer
+    Dim listGrpArray(1) As Integer
      Dim bWantGrp As Boolean
      bWantGrp = True
     If bWantGrp Then
          ' Sort rows into part and user-defined categories
-         listGrpArray(0) = swBomTableSortItemGroup_None
-         listGrpArray(1) = swBomTableSortItemGroup_Parts
-         listGrpArray(2) = swBomTableSortItemGroup_Other
+
+         listGrpArray(0) = swBomTableSortItemGroup_Parts
+         listGrpArray(1) = swBomTableSortItemGroup_Other
      End If
 
     swSortData.ItemGroups = listGrpArray

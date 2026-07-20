@@ -86,6 +86,7 @@ File version number that this instance of SOLIDWORKS supports
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
 
 ## VBA Syntax
 

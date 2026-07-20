@@ -119,6 +119,14 @@ Response (application/xml, text/xml)
 </ArrayOfCheckOutResultModel>
 ```
 
+Example
+
+[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+
 Remarks
 
 This operation returns the file ID, IsSuccess, and Warning.

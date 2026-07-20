@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDimensionDisplayString4 Method (IView)
 
-Gets all of the dimension text in the current drawing sheet or the current drawing view.
+Obsolete. Superseded by
+
+[IView::GetDimensionDisplayString5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionDisplayString5.html)
+
+.
 
 ## Syntax
 

@@ -70,3 +70,7 @@ This method can write the value to the file if the variable is mapped to a custo
 [IEdmEnumeratorVariable9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html)
 
 [IEdmEnumeratorVariable9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9_members.html)
+
+## Availability
+
+SOLIDWORKS PDM Professional 2012

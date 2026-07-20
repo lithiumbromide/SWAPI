@@ -57,7 +57,7 @@ Sub main()
 
 ```
     ' Open drawing
-    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\api\2012-sm.slddrw"
+    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\api\2012-sm.slddrw"
     Set swModel = swApp.OpenDoc6(fileName, swDocDRAWING, swOpenDocOptions_Silent, "", errors, warnings)
     Set swDrawing = swModel
 ```
@@ -67,7 +67,7 @@ Sub main()
     Set swModelDocExt = swModel.Extension
     status = swModelDocExt.SelectByID2("Sheet1", "SHEET", 3.99580396732789E-02, 0.20594194865811, 0, False, 0, Nothing, 0)
     swDrawing.EditTemplate
-    swDrawing.EditSheet
+    swDrawing.EditSheet2
 ```
 
 ```

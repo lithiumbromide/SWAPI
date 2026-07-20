@@ -50,7 +50,7 @@ See
 
 ### Return Value
 
-Array containing the tristrip normals (see
+Array containing the tri strip normals (see
 
 Remarks
 
@@ -125,3 +125,5 @@ NormalComp= Array of X,Y,Z normal components for each vertex on the particular f
 [IPartDoc::IGetTessTriStrips Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessTriStrips.html)
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
+
+[IPartDoc::GetTessTriStripTextures Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripTextures.html)

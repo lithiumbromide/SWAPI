@@ -43,19 +43,19 @@ public enum class swBomTableSortItemGroup_e : public System.Enum
 | Member | Description |
 | --- | --- |
 | swBomTableSortItemGroup_Assemblies | 1 = Group table rows containing assemblies |
-| swBomTableSortItemGroup_None | 0 = No groupings (see Remarks ) |
-| swBomTableSortItemGroup_Other | 4 = Group table rows containing user-defined items |
+| swBomTableSortItemGroup_None | DO NOT USE |
+| swBomTableSortItemGroup_Other | 3 = Group table rows containing user-defined items |
 | swBomTableSortItemGroup_Parts | 2 = Group table rows containing parts |
 
 ## Remarks
 
-These enumerator options are used by[IBomTableSortData::ItemGroups](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData~ItemGroups.html)to set the groupings for table sorting. Use swBomTableSortItemGroup_None instead of one or more of the other options to indicate which groupings the sort will not perform.
+These enumerator options are used by[IBomTableSortData::ItemGroups](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData~ItemGroups.html)to set the groupings for table sorting.
 
-For example, when you set IBomTableSortData::ItemGroups to the following array, no assemblies are grouped, parts are grouped first, and other categories are grouped last:
+For example, when you set IBomTableSortData::ItemGroups to the following array, assemblies are grouped first, parts are grouped second, and other categories are grouped last:
 
 1. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
-  .swBomTableSortItemGroup_None
+  .swBomTableSortItemGroup_Assemblies
 2. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
 
   .swBomTableSortItemGroup_Parts

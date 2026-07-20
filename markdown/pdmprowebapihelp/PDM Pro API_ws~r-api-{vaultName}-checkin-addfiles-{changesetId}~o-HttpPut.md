@@ -27,17 +27,19 @@ Description
 
 PUT: api/{vaultname}/checkin/addfiles/{changesetId=0} Upload files or document ids to changeset to the check in operation
 
-Uploads files to the specified changeset for checkin.
+Adds files to a changeset for checkin. (See**Remarks**)
 
 Parameters
 
 | Name | Description | Data Type |
 | --- | --- | --- |
 | vaultName | (URI parameter) Vault name (required) | string |
-| changesetId | (URI and response parameter) Changeset ID (URI required) | integer |
+| changesetId | (URI and Response parameter) Changeset ID = 0 (URI required) | integer |
 | References | (Response) Array of FileInfo objects; each FileInfo consists of: File (File object that consists of: FileId (integer) FileName (string) ) Folder (Folder object that consist of: FolderId (integer) FolderPath (string) ) Version (integer) Config (Config object that consists of: ConfigurationName (string) ConfigurationId (integer) ) | Collection of FileInfo |
 
 Response (application/json, text/json)
+
+This request returns a new changeset ID and file references.
 
 #### Sample Data
 
@@ -81,6 +83,8 @@ Response (application/json, text/json)
 
 Response (application/xml, text/xml)
 
+This request returns a new changeset ID and file references.
+
 #### Sample Data
 
 ```
@@ -121,30 +125,23 @@ Response (application/xml, text/xml)
 </UploadModel>
 ```
 
+Example
+
+[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Program.cs](Program.cs)
+
+|
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+
 Remarks
 
-This operation takes a body parameter that consists of an array of document IDs of documents you want to check in. The body must contain a multipart/form-data content type with a unique boundary. A content-type header must match the content type and boundary specified in the body.
+This request also requires a binary Body that consists of the binary files to add to the changeset. Drag/drop the JSON example to Postman and inspect the Body of the HTTP request. The**Program.cs**example creates the binary file that you can upload using this request.
 
-Example Content-Type header:
-
-multipart/form-data;boundary=bee21932-0a3e-45a3-957d-e0b5f3e8f12e
-
-Example raw body:
-
---bee21932-0a3e-45a3-957d-e0b5f3e8f12e
-Content-Type: multipart/form-data; boundary = "9e73357f-6a62-452b-a1b8-2b48586435e5"
-Content-Disposition: form-data
-
---9e73357f-6a62-452b-a1b8-2b48586435e5
-Content-Type: application/x-www-form-urlencoded
-Content-Disposition: form-data
-
-**DocumentId=1006**
---9e73357f-6a62-452b-a1b8-2b48586435e5
-
---9e73357f-6a62-452b-a1b8-2b48586435e5--
-
---bee21932-0a3e-45a3-957d-e0b5f3e8f12e--
+Send this HTTP request with a changeset ID of 0. If successful, it will return a new changeset ID which you will use in further requests:[api/{vaultName}/checkin/buildtree/{changesetId} (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-buildtree-{changesetId}~o-HttpGet.html)and[api/{vaultName}/checkin/{changesetId}/{overrideVersion} (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-{changesetId}-{overrideVersion}~o-HttpPut.html)
 
 See Also
 

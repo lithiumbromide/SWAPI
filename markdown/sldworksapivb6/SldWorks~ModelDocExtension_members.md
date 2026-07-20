@@ -83,6 +83,7 @@ Members
 | Public Method GetAdvancedSpotLightProperties |  |
 | Public Method GetAnnotationCount |  |
 | Public Method GetAnnotations |  |
+| Public Method GetAnnotationsByType |  |
 | Public Method GetAppearanceSetting |  |
 | Public Method GetAttachmentCount |  |
 | Public Method GetAttachments |  |
@@ -232,6 +233,7 @@ Members
 | Public Method IRemoveMaterialProperty |  |
 | Public Method IsAbbreviatedViewActive |  |
 | Public Method IsConverted |  |
+| Public Method IsDisplayPaneVisible |  |
 | Public Method ISetMaterialPropertyValues |  |
 | Public Method IsExploded |  |
 | Public Method IsFutureVersion |  |
@@ -262,6 +264,7 @@ Members
 | Public Method ReJogRunningDimension |  |
 | Public Method ReleaseStream |  |
 | Public Method ReloadOrReplace |  |
+| Public Method ReloadWithReferences |  |
 | Public Method RemoveMaterialProperty |  |
 | Public Method RemoveModelColorizer |  |
 | Public Method RemoveTexture |  |
@@ -271,6 +274,7 @@ Members
 | Public Method RenameDocument |  |
 | Public Method RenameDraftingStandard |  |
 | Public Method ReorderFeature |  |
+| Public Method ReorderFeature2 |  |
 | Public Method ResetStandardViews |  |
 | Public Method ReverseDecalsOrder |  |
 | Public Method RotateOrCopy |  |

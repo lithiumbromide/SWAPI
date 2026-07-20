@@ -59,7 +59,7 @@ Partial Class SolidWorksMacro
         swView = swDrawingDoc.GetFirstView
         swView = swView.GetNextView
         Debug.Print("View name: " & swView.GetName2)
-        obj = swView.GetFirstMultiJogLeader
+        obj = swView.GetFirstMultiJogLeader2
         swMultiJogLeader = obj
 
         'Get multi-jog leader data

@@ -119,6 +119,8 @@ To create a mate, see the[IAssemblydoc::CreateMate](SolidWorks.Interop.sldworks~
 
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
+[IAssemblyDoc::AutoMateRepair Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AutoMateRepair.html)
+
 ## Availability
 
 SOLIDWORKS 2018 FCS, Revision Number 26.0

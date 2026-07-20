@@ -82,6 +82,8 @@ See
 
 [IView::GetFirstAnnotation3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstAnnotation3.html)
 
+[IView::GetAnnotationsByType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationsByType.html)
+
 ## Availability
 
 SOLIDWORKS 2005 FCS, Revision Number 13.0

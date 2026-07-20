@@ -97,6 +97,8 @@ See
 
 [IModelDocExtension::RemoveTexture2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveTexture2.html)
 
+[IFace2::HasTextureCoordinates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~HasTextureCoordinates.html)
+
 ## Availability
 
 SOLIDWORKS 2013 SP02, Revision Number 21.2

@@ -48,11 +48,19 @@ public interface class IEdmHistory3 : public IEdmHistory, IEdmHistory2
 
 ## Remarks
 
-This interface extends[IEdmHistory2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2.html)by providing:
+This interface:
 
-- support for Web 2 applications,
-- the ability to get a sorted history listing, and
-- the ability to get the event description of a history item.
+- extends
+
+  [IEdmHistory2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2.html)
+
+  by providing:
+
+- is extended by
+
+  [IEdmHistory4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html)
+
+  .
 
 To access this interface, call[IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html)with eType set to[EdmUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html).EdmUtil_History.
 

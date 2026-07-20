@@ -89,6 +89,8 @@ See
 
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
+[IFeatureManager::CutListFolderLocation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CutListFolderLocation.html)
+
 ## Availability
 
 SOLIDWORKS 2015 FCS, Revision Number 23.0

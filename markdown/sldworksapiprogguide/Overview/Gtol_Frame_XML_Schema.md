@@ -356,7 +356,7 @@ XML node<Constraint> with possible values
 OffsetToleranceZone / UnspecifiedAngularToleranceZoneOffset / OrientationOnly.
 Specify one, two, or all three.
 
-Gtol[if !vml]has the following Offset Zone XML string:
+Gtolhas the following Offset Zone XML string:
 
 <OffsetZoneInfo>
 
@@ -380,8 +380,6 @@ The information about a filter
 type (as shown in an edit box in the top row) maps to Gtol XML node
 <FilterDetail>. Since there could be many <FilterDetail> elements, <Filters> contains an
 array of <FilterDetail>.
-
-[endif]
 
 The 17 controls in the second and third rows of the dialog
 map to Gtol XML node <FilterSymbol>.

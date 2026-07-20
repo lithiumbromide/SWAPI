@@ -150,6 +150,7 @@ public enum class swFeatureNameID_e : public System.Enum
 | swFmSM3dBend | Sheet metal 3D bend |
 | swFmSMGusset | Sheet metal gusset |
 | swFmSolidBodyFolder | Solid body folder |
+| swFmSolidToSheetMetal | Convert-Solid feature |
 | swFmStock | Stock |
 | swFmStrctSysCnrFeat | Structure system corner feature |
 | swFmStrctSysCnrGrpFeat | Structure system corner group feature |

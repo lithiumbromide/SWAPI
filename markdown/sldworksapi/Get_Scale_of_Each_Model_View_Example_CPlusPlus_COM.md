@@ -15,28 +15,24 @@ document.
 ```
 //-----------------------------------------
 // Preconditions:
-// 1. Start Microsoft Visual Studio 2010.
-//    a. Click File > New > Project > Visual C++ > Win32 Console Application.
-//    b. Type the name of your project in Name.
-//    c. Click OK.
-//    d. Click Next.
-//    e. Select ATL and click Finish.
+// 1. Start Microsoft Visual Studio 2019 or later.
+//    a. Click File > New > Project > (C++ Windows) Console App.
+//    b. Click Next.
+//    c. Type the name of your project in Project Name.
+//    d. Click Create.
+//    e. Right-click project, select Add, New Item, Select ATL > ATL Support, Click Add.
 //    f. Click Project > projectname Properties > Configuration Properties >
 //       C/C++ and type the path to sldworks.tlb and swconst.tlb,
 //       typically C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS,
 //       in Additional Include Directories.
-//    g. Click OK.
-//    h. Click Tools > Options > Debugging > General and select
-//       Redirect all Output Window Text to the Immediate Window.
-//    i. Click OK.
-// 2. Open the Immediate Window.
-// 3. Replace the code in the code window with this code.
+//    g. Click Apply or OK.
+// 2. Replace the code in the code window with This code.
+// 3. Click Debug > Start Debugging.
 // 4. Start up SOLIDWORKS and open a part document.
 // 5. Click Window > Viewport > Four View.
 // 6. Click a model view and spin the middle-mouse
 //    button forward or back.
 // 7. Click Debug > Start Debugging.
-// 8. Click Yes.
 //
 // Postconditions:
 // 1. Gets the number of model views in the part document.
@@ -45,7 +41,7 @@ document.
 //-----------------------------------------
 
 //This code
-#include "stdafx.h"
+#include "framework.h"
 #include <iostream>
 #include <sstream>
 #import "sldworks.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids  // SOLIDWORKS type library

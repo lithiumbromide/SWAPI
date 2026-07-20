@@ -102,6 +102,8 @@ See
 
 [IFace2::DetachSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~DetachSurface.html)
 
+[IFace2::HasTextureCoordinates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~HasTextureCoordinates.html)
+
 ## Availability
 
 SOLIDWORKS 2001Plus FCS, Revision Number 10.0

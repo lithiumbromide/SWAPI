@@ -58,7 +58,7 @@ namespace NoteBehindSheetCSharp.csproj
             int warnings = 0;
 
             // Open drawing
-            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\api\\2012-sm.slddrw";
+            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2024\\samples\\tutorial\\api\\2012-sm.slddrw";
             swModel = (ModelDoc2)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocDRAWING, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
             swDrawing = (DrawingDoc)swModel;
 
@@ -66,7 +66,7 @@ namespace NoteBehindSheetCSharp.csproj
             swModelDocExt = (ModelDocExtension)swModel.Extension;
             status = swModelDocExt.SelectByID2("Sheet1", "SHEET", 0.0399580396732789, 0.20594194865811, 0, false, 0, null, 0);
             swDrawing.EditTemplate();
-            swDrawing.EditSheet();
+            swDrawing.EditSheet2();
 
             swModel.ClearSelection2(true);
 

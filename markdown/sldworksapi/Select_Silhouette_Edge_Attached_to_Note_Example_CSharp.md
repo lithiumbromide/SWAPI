@@ -52,14 +52,14 @@ namespace Select2SilhouetteEdgeCSharp.csproj
 
         public void Main()
         {
-            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\api\\cylinder20.SLDDRW";
+            fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\api\\cylinder20.SLDDRW";
             swModel = (ModelDoc2)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocDRAWING, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
             swDrawing = (DrawingDoc)swModel;
             status = swDrawing.ActivateView("Drawing View1");
             swView = (View)swDrawing.ActiveDrawingView;
 
             // Get note and any attached entities
-            swNote = (Note)swView.GetFirstNote();
+            swNote = (Note)swView.GetFirstNote2();
             swAnnotation = (Annotation)swNote.GetAnnotation();
             attachedEntities = (object[])swAnnotation.GetAttachedEntities3();
             // Select the silhouette edge to which the note is attached

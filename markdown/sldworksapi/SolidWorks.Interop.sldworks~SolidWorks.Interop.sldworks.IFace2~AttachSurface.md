@@ -92,6 +92,8 @@ To detach surfaces from faces, use[IFace2::DetachSurface](SOLIDWORKS.Interop.sld
 
 [IFace2::IGetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSurface.html)
 
+[IFace2::HasTextureCoordinates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~HasTextureCoordinates.html)
+
 ## Availability
 
 SOLIDWORKS 2004 SP4, Revision Number 12.4

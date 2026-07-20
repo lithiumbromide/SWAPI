@@ -49,14 +49,14 @@ Partial Class SolidWorksMacro
 
     Sub Main()
 
-        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\api\cylinder20.SLDDRW"
+        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\api\cylinder20.SLDDRW"
         swModel = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocDRAWING, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
         swDrawing = swModel
         status = swDrawing.ActivateView("Drawing View1")
         swView = swDrawing.ActiveDrawingView
 
         ' Get note and any attached entities
-        swNote = swView.GetFirstNote
+        swNote = swView.GetFirstNote2
         swAnnotation = swNote.GetAnnotation
         params = swAnnotation.GetAttachedEntities3
         ' Select the silhouette edge to which the note is attached

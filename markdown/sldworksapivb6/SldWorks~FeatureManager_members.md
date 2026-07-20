@@ -32,6 +32,7 @@ Members
 | Public Method CreateFormTool2 |  |
 | Public Method CreateSaveBodyFeature |  |
 | Public Method CreateStructuralMemberGroup |  |
+| Public Method CutListFolderLocation |  |
 | Public Method DraftXpertChange |  |
 | Public Method DraftXpertRemove |  |
 | Public Method EditDeleteFace |  |

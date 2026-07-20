@@ -55,7 +55,7 @@ Response (application/json, text/json)
     "Text": "sample string 2",
     "Revision": "sample string 3",
     "FileSize": 4,
-    "VersionDate": "2023-12-07T14:34:00.4016851-05:00"
+    "VersionDate": "2024-11-27T09:52:30.3220305-05:00"
   },
   {
     "InfoType": 0,
@@ -63,7 +63,7 @@ Response (application/json, text/json)
     "Text": "sample string 2",
     "Revision": "sample string 3",
     "FileSize": 4,
-    "VersionDate": "2023-12-07T14:34:00.4016851-05:00"
+    "VersionDate": "2024-11-27T09:52:30.3220305-05:00"
   }
 ]
 ```
@@ -79,7 +79,7 @@ Response (application/xml, text/xml)
     <InfoType>Version</InfoType>
     <Revision>sample string 3</Revision>
     <Text>sample string 2</Text>
-    <VersionDate>2023-12-07T14:34:00.4016851-05:00</VersionDate>
+    <VersionDate>2024-11-27T09:52:30.3220305-05:00</VersionDate>
     <VersionNumber>1</VersionNumber>
   </FileRevisionInfo>
   <FileRevisionInfo>
@@ -87,7 +87,7 @@ Response (application/xml, text/xml)
     <InfoType>Version</InfoType>
     <Revision>sample string 3</Revision>
     <Text>sample string 2</Text>
-    <VersionDate>2023-12-07T14:34:00.4016851-05:00</VersionDate>
+    <VersionDate>2024-11-27T09:52:30.3220305-05:00</VersionDate>
     <VersionNumber>1</VersionNumber>
   </FileRevisionInfo>
 </ArrayOfFileRevisionInfo>

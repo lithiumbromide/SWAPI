@@ -42,6 +42,7 @@ public enum class swFeatureError_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swFeatureErrorCutNotIntersectModel | 71 |
 | swFeatureErrorExtrusionBadGeometricConditions | 32 = Unable to create this extruded feature due to geometric conditions |
 | swFeatureErrorExtrusionBossContourInvalid | 37 = Bosses require one or more closed contours that do not self-intersect |
 | swFeatureErrorExtrusionBossContourOpenAndClosed | 36 = Bosses cannot have both open and closed contours |
@@ -91,6 +92,7 @@ public enum class swFeatureError_e : public System.Enum
 | swFeatureErrorPartialEdgeFilletOffsetTooBig | 58 = The fillet offset is too large |
 | swFeatureErrorPartialEdgeFilletTooManyRefEntities | 60 = Too many reference entities selected |
 | swFeatureErrorPartialEdgeFilletUpdateFailed | 53 = Failed to update the partial edge data |
+| swFeatureErrorSketchContainsSelfIntersectingContour | 72 |
 | swFeatureErrorSweptFlangeInvalidProfileOrPath | 69 |
 | swFeatureErrorSweptFlangeSelfIntersectingGeometry | 70 |
 | swFeatureErrorUnknown | 1 = Unknown error |

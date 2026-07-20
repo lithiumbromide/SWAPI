@@ -378,6 +378,27 @@
 {"label": "EdmBomColumn Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlVariableType", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members", "type": "links_to"}
 {"label": "EdmBomColumn Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlWidth", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "type": "links_to"}
 {"label": "EdmBomColumn Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlWidth", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members", "type": "links_to"}
+{"label": "IEdmBomMgr4::GetBomDefaultSetting", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "EdmBomDefaultSetting members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_fields", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_fields", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_fields", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "EdmBomDefaultSetting", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomDisplayType", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomDisplayType", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomRefVersion", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomRefVersion", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomSelectedFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomSelectedFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomTreeView", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomTreeView", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMViewSettings", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMViewSettings", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Structure", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMWeldmentCutListType", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "EdmBomDefaultSetting Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMWeldmentCutListType", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members", "type": "links_to"}
 {"label": "IEdmFile7::GetComputedBOM", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetComputedBOM", "type": "links_to"}
 {"label": "Bitmask", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "epdmapi/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -633,6 +654,7 @@
 {"label": "IEdmTaskProperties::SetSetupPages", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages", "type": "links_to"}
 {"label": "IEdmTaskProperties::SetMenuCmds", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds", "type": "links_to"}
 {"label": "IEdmTaskProperties::TaskFlags", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "task", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "EdmCmd::mbsComment", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment", "type": "links_to"}
 {"label": "EdmCmd::mbCancel", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel", "type": "links_to"}
@@ -640,6 +662,7 @@
 {"label": "EdmCmd::mbCancel", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel", "type": "links_to"}
 {"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
 {"label": "IEdmTaskProperties", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "task", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "EdmTaskFlag", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag", "type": "links_to"}
 {"label": "IEdmTaskProperties::TaskFlags", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags", "type": "links_to"}
@@ -647,20 +670,23 @@
 {"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
 {"label": "IEdmTaskInstance", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance", "type": "links_to"}
 {"label": "EdmCmd::mlParentWnd", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "task", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "task sample code", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/TaskSample", "type": "links_to"}
 {"label": "EdmCmd::mlCurrentFolderID", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurrentFolderID", "type": "links_to"}
 {"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
 {"label": "IEdmTaskInstance", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "IEdmTaskProperties::TaskFlags", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags", "type": "links_to"}
 {"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
 {"label": "IEdmTaskInstance", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance", "type": "links_to"}
-{"label": "EdmCmd::mlParentWnd", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd", "type": "links_to"}
 {"label": "EdmCmd::mbCancel", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "EdmCmdType", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
 {"label": "EdmCmd::mbsComment", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment", "type": "links_to"}
-{"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
 {"label": "EdmCmd::mbCancel", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel", "type": "links_to"}
+{"label": "EdmCmd::mpoExtra", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
+{"label": "Programming Tasks", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/Tasks", "type": "links_to"}
 {"label": "EdmCmdData Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EdmCmdData members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_fields", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members", "type": "links_to"}
@@ -3505,7 +3531,7 @@
 {"label": "IEdmBatchUpdate2::SetVar", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetVar", "type": "links_to"}
 {"label": "IEdmBatchUpdate2::SetFolderVar", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetFolderVar", "type": "links_to"}
 {"label": "IEdmBatchUpdate2::CommitUpdate", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~CommitUpdate", "type": "links_to"}
-{"label": "IEdmEnumeratorVariable", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
 {"label": "IEdmVault7::CreateUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
 {"label": "IEdmBatchUpdate2 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -3739,6 +3765,7 @@
 {"label": "IEdmBomMgr2 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2", "type": "links_to"}
 {"label": "IEdmBomMgr2 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_members", "type": "links_to"}
 {"label": "IEdmBomMgr2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2", "type": "links_to"}
+{"label": "IEdmBomMgr4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
 {"label": "EdmUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "type": "links_to"}
 {"label": "IEdmVault7::CreateUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
 {"label": "IEdmBomMgr3 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3_members", "type": "links_to"}
@@ -3762,6 +3789,25 @@
 {"label": "IEdmBomMgr3::AddSWBom", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3~CreateEmptySWBom", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3~AddSWBom", "type": "links_to"}
 {"label": "IEdmBomMgr3 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3~CreateEmptySWBom", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "type": "links_to"}
 {"label": "IEdmBomMgr3 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3~CreateEmptySWBom", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3_members", "type": "links_to"}
+{"label": "IEdmBomMgr2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2", "type": "links_to"}
+{"label": "IEdmBomMgr3", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3", "type": "links_to"}
+{"label": "EdmUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "type": "links_to"}
+{"label": "IEdmVault7::CreateUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
+{"label": "IEdmBomMgr4 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "IEdmBomMgr4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "IEdmBomMgr4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "IEdmBomMgr4 members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "type": "links_to"}
+{"label": "IEdmBomMgr4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "method", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "type": "has_member"}
+{"label": "IEdmBomMgr4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "member_of"}
+{"label": "EdmBomDefaultSetting", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
+{"label": "IEdmBomMgr4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "IEdmBomMgr2::GetBomLayouts2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2", "type": "links_to"}
+{"label": "IEdmBomMgr4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "IEdmBomMgr4 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members", "type": "links_to"}
 {"label": "IEdmBomMgr", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr", "type": "links_to"}
 {"label": "IEdmBomMgr Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -5002,6 +5048,8 @@
 {"label": "IEdmEnumeratorCustomReference7::GetShowInBOM Method ()", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~SetShowInBOM", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~GetShowInBOM", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable9", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable6", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
 {"label": "IEdmBatchUpdate2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable10 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -5079,7 +5127,6 @@
 {"label": "IEdmEnumeratorVariable5::StoreValuesFromDatabase Method ()", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetUpdateVars", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~StoreValuesFromDatabase", "type": "links_to"}
 {"label": "method", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "type": "has_member"}
 {"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "member_of"}
-{"label": "IEdmEnumeratorVariable10::GetVar2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVar2", "type": "links_to"}
 {"label": "IEdmVariable5::VariableType", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~VariableType", "type": "links_to"}
 {"label": "IEdmFile5::GetConfigurations", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations", "type": "links_to"}
 {"label": "IEdmAddIn5::OnCmd", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
@@ -5132,6 +5179,8 @@
 {"label": "IEdmEnumeratorVariable6 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6~GetVarFromDb", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6_members", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable8", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable6", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable6", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable8", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
 {"label": "IEdmBatchUpdate2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "type": "links_to"}
@@ -5169,6 +5218,8 @@
 {"label": "Set Part Number Using Default Serial Numbers (C#)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp", "type": "links_to"}
 {"label": "Set Part Number Using Default Serial Numbers (VB.NET)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable7", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable6", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable9", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
 {"label": "IEdmBatchUpdate2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "type": "links_to"}
@@ -5189,6 +5240,8 @@
 {"label": "IEdmEnumeratorVariable8 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8~CloseFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable8 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8~CloseFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8_members", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable8", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable6", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable10", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5", "type": "links_to"}
 {"label": "IEdmBatchUpdate2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "type": "links_to"}
@@ -6310,7 +6363,7 @@
 {"label": "method", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "type": "has_member"}
 {"label": "IEdmFolder5", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "type": "member_of"}
 {"label": "Get Card Control Information (VB.NET)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/Get_Card_Control_Info_Example_VBNET", "type": "links_to"}
-{"label": "Get Card Control Information (C#)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/Update_References_Example_CSharp", "type": "links_to"}
+{"label": "Get Card Control Information (C#)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/Get_Card_Control_Info_Example_CSharp", "type": "links_to"}
 {"label": "IEdmFolder5::GetCard", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCard", "type": "links_to"}
 {"label": "Return codes", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/ReturnCodes", "type": "links_to"}
 {"label": "IEdmFolder5 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "type": "links_to"}
@@ -6749,6 +6802,7 @@
 {"label": "Get Histories of Files (VB.NET)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/Get_Histories_of_Files_Example_VBNET", "type": "links_to"}
 {"label": "Get Histories of Files (C#)", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/Get_Histories_of_Files_Example_CSharp", "type": "links_to"}
 {"label": "IEdmHistory2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2", "type": "links_to"}
+{"label": "IEdmHistory4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
 {"label": "IEdmVault7::CreateUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
 {"label": "EdmUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "type": "links_to"}
 {"label": "IEdmHistory3 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3_members", "type": "links_to"}
@@ -6780,6 +6834,25 @@
 {"label": "IEdmHistory3 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3_members", "type": "links_to"}
 {"label": "IEdmHistory2::Rollback Method ()", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2~Rollback", "type": "links_to"}
 {"label": "IEdmHistory::GetHistory Method ()", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~GetHistory", "type": "links_to"}
+{"label": "IEdmHistory3", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3", "type": "links_to"}
+{"label": "IEdmVault7::CreateUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
+{"label": "EdmUtility", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "type": "links_to"}
+{"label": "IEdmHistory4 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "IEdmHistory4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
+{"label": "IEdmHistory4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "IEdmHistory4 members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "type": "links_to"}
+{"label": "IEdmHistory4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
+{"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_methods", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "method", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFile", "type": "has_member"}
+{"label": "IEdmHistory4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "member_of"}
+{"label": "IEdmHistory4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
+{"label": "IEdmHistory4 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFile", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "type": "links_to"}
+{"label": "method", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFolder", "type": "has_member"}
+{"label": "IEdmHistory4", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFolder", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "member_of"}
+{"label": "IEdmHistory4 Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFolder", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
+{"label": "IEdmHistory4 Members", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4~ShowHistoryFolder", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members", "type": "links_to"}
 {"label": "IEdmHistory", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory", "type": "links_to"}
 {"label": "IEdmHistory Interface", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory_members", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -11547,6 +11620,7 @@
 {"label": "EPDM.Interop.epdm.EdmBatchError", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "type": "links_to"}
 {"label": "EPDM.Interop.epdm.EdmBatchError2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "type": "links_to"}
 {"label": "EPDM.Interop.epdm.EdmBomColumn", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "type": "links_to"}
+{"label": "EPDM.Interop.epdm.EdmBomDefaultSetting", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting", "type": "links_to"}
 {"label": "EPDM.Interop.epdm.EdmBomInfo", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "type": "links_to"}
 {"label": "EPDM.Interop.epdm.EdmBomLayout", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "type": "links_to"}
 {"label": "EPDM.Interop.epdm.EdmBomLayout2", "source": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace_hierarchy", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "type": "links_to"}
@@ -11710,6 +11784,8 @@
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "epdmapi/Log_Into_Vault_and_Display_Information_Example_VBNET", "target": "epdmapi/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "epdmapi/Prevent_Admin_from_Checking_In_File_Example_CSharp", "target": "epdmapi/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "epdmapi/Prevent_Admin_from_Checking_In_File_Example_VBNET", "target": "epdmapi/Using_NET_Framework_in_Applications", "type": "links_to"}
+{"label": "IEdmBomMgr4", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4", "type": "links_to"}
+{"label": "IEdmHistory4", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4", "type": "links_to"}
 {"label": "IEdmBatchChangeState6", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6", "type": "links_to"}
 {"label": "IEdmVault22::ADRunSync", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ADRunSync", "type": "links_to"}
 {"label": "IEdmVault22::ClearLogs", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ClearLogs", "type": "links_to"}
@@ -11833,6 +11909,7 @@
 {"label": "IEdmBatchChangeState2", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2", "type": "links_to"}
 {"label": "Back to top", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/ReleaseNotes-epdmapi", "type": "links_to"}
 {"label": "IEdmBatchDelete3", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable9", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9", "type": "links_to"}
 {"label": "IEdmFolder7", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7", "type": "links_to"}
 {"label": "Back to top", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/ReleaseNotes-epdmapi", "type": "links_to"}
 {"label": "IEdmCmdNode", "source": "epdmapi/ReleaseNotes-epdmapi", "target": "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode", "type": "links_to"}

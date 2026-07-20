@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~Get
 
 # GetVar Method (IEdmEnumeratorVariable5)
 
-Obsolete. Superseded by
-
-[IEdmEnumeratorVariable10::GetVar2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVar2.html)
-
-.
+Gets the value of the specified variable from this file or folder.
 
 ## Syntax
 

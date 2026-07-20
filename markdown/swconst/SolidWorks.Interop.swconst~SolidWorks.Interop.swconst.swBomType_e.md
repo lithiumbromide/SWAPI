@@ -42,6 +42,7 @@ public enum class swBomType_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swBomType_Flattened | 4 |
 | swBomType_Indented | 3 |
 | swBomType_PartsOnly | 1 |
 | swBomType_TopLevelOnly | 2 |

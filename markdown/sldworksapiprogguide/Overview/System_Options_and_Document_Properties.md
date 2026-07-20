@@ -113,8 +113,7 @@ Options > System Options > Export > TIF/PSD/JPG/PNG >
 Dwg or Dxf ( parts
 and drawings
 only ) >
-Options > System Options > Export > DXF/DWG > SOLIDWORKS Composer (parts and
-assemblies only) > Options > System Options > Export > SMG > Part (assemblies
+Options > System Options > Export > DXF/DWG > Part (assemblies
 only) >
 Options > System Options > Export > SLDPRT from assembly > Page Setup > Print > Margins > Line
 Thickness > Print3D | > Display > Modify > Filter Modified Components ( only for assemblies opened in Large Design

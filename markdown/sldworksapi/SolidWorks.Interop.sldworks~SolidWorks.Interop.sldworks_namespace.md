@@ -90,6 +90,8 @@ create and clean-up its own tab boxes. |
 | IConfiguration | Allows you to manage different part or assembly states. |
 | IConfigurationManager | Allows access to a configuration in a model. |
 | IConnectionPointFeatureData | Allows access to a connection point feature. |
+| IConvertSolidFeatureData | Allows access to a convert solid feature. |
+| ICoordinateSystemElement | Allows access to a coordinate system element. |
 | ICoordinateSystemFeatureData | Allows access to a coordinate system feature. |
 | ICoreFeatureData | Allows access to a core feature. |
 | ICornerManagementFolder | Allows access to a corner management folder in a structure system. |
@@ -226,6 +228,7 @@ create and clean-up its own tab boxes. |
 | ILayer | Allows access to the properties and items on a layer, including the color, width, name, etc., used to define the layer. |
 | ILayerMgr | Allows you to manage a drawing document's layers. |
 | ILibraryFeatureData | Allows access to library feature data. |
+| ILibraryFormToolFeatureData | Allows access to library forming tool feature data. |
 | ILight | Allows access to the light feature. |
 | ILightDialog | Obtained from a LightingDialogCreateNotify event. |
 | ILinearCouplerMateFeatureData | Allows access to linear/linear coupler mate feature data. |
@@ -556,6 +559,8 @@ ConfigurationManager tree). |
 | DAssemblyDocEvents_DestroyNotify2EventHandler | Pre-notifies the user program when an assembly document is about to be destroyed. |
 | DAssemblyDocEvents_DestroyNotifyEventHandler | Obsolete. Superseded by DAssemblyDocEvents_DestroyNotify2EventHandler . |
 | DAssemblyDocEvents_DimensionChangeNotifyEventHandler | Fired when a dimension is changed through the Dimension dialog. |
+| DAssemblyDocEvents_DisplayPaneCollapseNotifyEventHandler | Fired when the display pane collapses in this assembly. |
+| DAssemblyDocEvents_DisplayPaneExpandNotifyEventHandler | Fired when the display pane expands in this assembly. |
 | DAssemblyDocEvents_DragStateChangeNotifyEventHandler | Fired when starting or stopping the dragging of an Instant3D manipulator. |
 | DAssemblyDocEvents_DynamicHighlightNotifyEventHandler | Post-notifies the application when dynamic highlighting of the selected object changes from on to off, and vice versa. |
 | DAssemblyDocEvents_EndInContextEditNotifyEventHandler | Notifies the application that the user is done editing an assembly component within the context of the assembly (inside the assembly document window). |
@@ -581,6 +586,7 @@ ConfigurationManager tree). |
 | DAssemblyDocEvents_FlipLoopNotifyEventHandler | Notifies your program when a loop flips. |
 | DAssemblyDocEvents_InsertTableNotifyEventHandler | Notifies your program when a table has been inserted in an assembly. |
 | DAssemblyDocEvents_InterferenceNotifyEventHandler | Notifies your program about an interference between parts in the assembly during the Move/Rotate Component command. |
+| DAssemblyDocEvents_LargeDesignReviewStateChangeNotifyEventHandler | Fired when the Large Design Review state changes in this assembly. |
 | DAssemblyDocEvents_LightingDialogCreateNotifyEventHandler | Fired when a lighting dialog has been opened by the user. |
 | DAssemblyDocEvents_LoadFromStorageNotifyEventHandler | Fired when it is safe to load data from third-party IStream storage. |
 | DAssemblyDocEvents_LoadFromStorageStoreNotifyEventHandler | Fired when it is safe to load data from third-party IStorage storage. |
@@ -631,6 +637,9 @@ ConfigurationManager tree). |
 | DDrawingDocEvents_DestroyNotify2EventHandler | Pre-notifies the user program when a drawing document is about to be destroyed. |
 | DDrawingDocEvents_DestroyNotifyEventHandler | Obsolete. Superseded by DDrawingDocEvents_DestroyNotify2EventHandler . |
 | DDrawingDocEvents_DimensionChangeNotifyEventHandler | Fired when a dimension is changed through the Dimension dialog. |
+| DDrawingDocEvents_DisplayPaneCollapseNotifyEventHandler | Fired when a display pane is collapsed in this drawing. |
+| DDrawingDocEvents_DisplayPaneExpandNotifyEventHandler | Fired when a display pane is expanded in this drawing. |
+| DDrawingDocEvents_DrawingStateChangeNotifyEventHandler | Fired when a drawing's state changes. |
 | DDrawingDocEvents_DynamicHighlightNotifyEventHandler | Post-notifies the application when dynamic highlighting of the selected object changes from on to off, and vice versa. |
 | DDrawingDocEvents_EquationEditorPostNotifyEventHandler | Notifies your application that the equation editor is being destroyed. |
 | DDrawingDocEvents_EquationEditorPreNotifyEventHandler | Notifies your application that an the equation editor has been constructed. |
@@ -721,6 +730,8 @@ ConfigurationManager tree). |
 | DPartDocEvents_DestroyNotify2EventHandler | Pre-notifies the user program when a part document is about to be destroyed. |
 | DPartDocEvents_DestroyNotifyEventHandler | Obsolete. Superseded by DPartDocEvents_DestroyNotify2EventHandler . |
 | DPartDocEvents_DimensionChangeNotifyEventHandler | Fired when a dimension is changed through the Dimension dialog. |
+| DPartDocEvents_DisplayPaneCollapseNotifyEventHandler | Fired when the Display Pane collapses in this part. |
+| DPartDocEvents_DisplayPaneExpandNotifyEventHandler | Fired when the Display Pane expands in this part. |
 | DPartDocEvents_DragStateChangeNotifyEventHandler | Fired when starting or stopping the dragging of an Instant3D manipulator. |
 | DPartDocEvents_DynamicHighlightNotifyEventHandler | Post-notifies the application when dynamic highlighting of the selected object changes from on to off, and vice versa. |
 | DPartDocEvents_EquationEditorPostNotifyEventHandler | Notifies your application that the equation editor is being destroyed. |
@@ -784,6 +795,7 @@ ConfigurationManager tree). |
 | DSldWorksEvents_CommandCloseNotifyEventHandler | Fired when a command, including a PropertyManager page, is okay'd or canceled by a user. |
 | DSldWorksEvents_CommandOpenPreNotifyEventHandler | Fired before a command, including a PropertyManager page, executes or opens. |
 | DSldWorksEvents_DestroyNotifyEventHandler | Sent to an MFC-based or a COM-based DLL add-in when SOLIDWORKS is about to be destroyed. |
+| DSldWorksEvents_DisplayPaneActivationNotifyEventHandler | Fired when the Display Pane is activated. |
 | DSldWorksEvents_DocumentConversionNotifyEventHandler | Post-notifies the user program that a file has been converted from an older version of SOLIDWORKS during the open operation. |
 | DSldWorksEvents_DocumentLoadNotify2EventHandler | Post-notifies the user program when a SOLIDWORKS document is loaded. |
 | DSldWorksEvents_DocumentLoadNotifyEventHandler | Obsolete. Superseded by DSldWorksEvetns_DocumentLoadNotify2EventHandler . |
@@ -801,6 +813,7 @@ ConfigurationManager tree). |
 | DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyEventHandler | Notifies an add-in when the SOLIDWORKS background changes. |
 | DSldWorksEvents_LightSheetCreateNotifyEventHandler | Fired when a lighting sheet has been created. |
 | DSldWorksEvents_NonNativeFileOpenNotifyEventHandler | Fired when non-native SOLIDWORKS files are opened. |
+| DSldWorksEvents_On3DExperienceStateChangeNotifyEventHandler | Fired when 3DExperience changes state. |
 | DSldWorksEvents_OnIdleNotifyEventHandler | Fired after all of the messages have been processed, included posted repaints; therefore, eliminating the need to call IModelDoc2::GraphicsRedraw2 . |
 | DSldWorksEvents_PromptForFilenameNotifyEventHandler | Fired when a dependent document is missing from the file being opened. |
 | DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler | Fired when any dependent documents are missing from the file being opened. |
@@ -808,6 +821,12 @@ ConfigurationManager tree). |
 | DSldWorksEvents_ReferencedFilePreNotify2EventHandler | Notifies the user program before SOLIDWORKS opens the specified file with the specified status. |
 | DSldWorksEvents_ReferencedFilePreNotifyEventHandler | Obsolete. Superseded by DSldWorksEvents_ReferencedFilePreNotify2EventHandler . |
 | DSldWorksEvents_ReferenceNotFoundNotifyEventHandler | Notifies the user program before the SOLIDWORKS software displays a dialog box prompting the end-user to browse for the referenced file. |
+| DSldWorksEvents_TaskPaneCollapseNotifyEventHandler | Fired when the Task Pane collapses. |
+| DSldWorksEvents_TaskPaneExpandNotifyEventHandler | Fired when the Task Pane expands. |
+| DSldWorksEvents_TaskPaneHideNotifyEventHandler | Fired when the Task Pane hides. |
+| DSldWorksEvents_TaskPanePinnedNotifyEventHandler | Fired when the Task Pane is pinned. |
+| DSldWorksEvents_TaskPaneShowNotifyEventHandler | Fired when the Task Pane displays. |
+| DSldWorksEvents_TaskPaneUnpinnedNotifyEventHandler | Fired when the Task Pane is unpinned. |
 | DSWPropertySheetEvents_CreateControlNotifyEventHandler | Fired when the ActiveX control is created on the property page. |
 | DSWPropertySheetEvents_DestroyNotifyEventHandler | Fired when the property sheet is in the process of being destroyed. |
 | DSWPropertySheetEvents_HelpNotifyEventHandler | Fired when the Help button is clicked on a property sheet. |

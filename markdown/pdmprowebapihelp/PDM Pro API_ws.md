@@ -21,7 +21,11 @@ Expand All
 
 Description
 
-The PDM Professional API Web Service consists of controllers and endpoints.
+The PDM Professional API Web Service consists GET, POST, PUT, PATCH, and DELETE HTTP requests that you call from your web client application. You must send the authenticate request before all others. See
+
+[Getting Started](GettingStarted.html)
+
+.
 
 Authentication
 
@@ -37,15 +41,24 @@ BOM
 
 Configuration
 
-| Get | api/configuration/vaults?vaultName={vaultName} GET: api/configuration/vaults Get all vaults from the config file Gets all vaults from the vault configuration file. |
+| Get | api/{vaultName}/configuration/hooks/dll Retrieves the list of add-in hooks from the specified vault. |
 | --- | --- |
+| Put | api/{vaultName}/configuration/hooks/dll Puts add-in hook DLLs in the specified vault. |
+| Delete | api/{vaultName}/configuration/hooks/dll Deletes add-in hook DLLs from the specified vault. |
+| Get | api/{vaultName}/configuration/hooks/url Retrieves the list of webhooks configured in the specified vault. |
+| Post | api/{vaultName}/configuration/hooks/url Sets the webhooks for the specified vault. |
+| Get | api/configuration/fileserverroot GET: api/configuration/fileserverroot
+Get file server root path(WebAPI storage)Gets the file server root path. |
+| Post | api/configuration/fileserverroot POST: api/configuration/fileserverroot
+Add file server root pathMigrates add-ins from previous file server root to the specified new one and reloads hooks instances. |
+| Get | api/configuration/vaults?vaultName={vaultName} GET: api/configuration/vaults Get all vaults from the config file Gets all vaults from the vault configuration file. |
 
 Data Card
 
-| Post | api/{vaultName}/files/{fileId}/{folderId}/datacard Gets the data card for the specified file |
+| Post | api/{vaultName}/files/{fileId}/{folderId}/datacard Saves the data card for the specified file |
 | --- | --- |
 | Get | api/{vaultName}/files/{fileId}/{version}/datacard?folderId={folderId} GET: api/{VaultName}/files/{FileID}/{Version}/datacard Get file data card Gets the data card for the specified file, file version, and vault. |
-| Post | api/{vaultName}/files/{fileId}/datacard?folderId={folderId} Gets the data card for the specified file. |
+| Post | api/{vaultName}/files/{fileId}/datacard?folderId={folderId} Saves the specified data card variables to the specified file. |
 | Get | api/{vaultName}/folders/{folderId}/datacard GET: api/{VaultName}/folders/{FolderID}/datacard Get folder data card Gets the data card for the specified folder and vault. |
 
 Default
@@ -144,10 +157,10 @@ Stage
 | Get | api/{vaultName}/changeset/create GET: api/{vaultName}/changeset/create Generate changesetId Gets a changeset ID for the specified vault. |
 | --- | --- |
 | Put | api/{vaultName}/checkin/{changesetId}/{overrideVersion} PUT: api/{vaultName}/checkin/{changesetId}/{overrideVersion=false} Check in files from the changeset Checks in the specified changeset. |
-| Put | api/{vaultName}/checkin/addfiles/{changesetId} PUT: api/{vaultname}/checkin/addfiles/{changesetId=0} Upload files or document ids to changeset to the check in operation Uploads files to the specified changeset for checkin. |
+| Put | api/{vaultName}/checkin/addfiles/{changesetId} PUT: api/{vaultname}/checkin/addfiles/{changesetId=0} Upload files or document ids to changeset to the check in operation Adds files to a changeset for checkin. (See Remarks ) |
 | Get | api/{vaultName}/checkin/buildtree/{changesetId} GET: api/{vaultName}/checkin/buildtree/{changesetId} Get references tree Builds a reference tree of files that are uploaded to the specified changeset. |
-| Put | api/{vaultName}/files/{changesetId}/finishadd PUT: api/{vaultName}/files/{changesetId}/finishadd Finish of add file operation. This method adds files from changeset to the vault. Adds files in the specified changeset to the vault. |
-| Put | api/{vaultName}/files/{changesetId}/upload PUT: api/{vaultname}/files/{changesetId}/upload Upload file to changeset to add files operations Uploads a changeset. |
+| Put | api/{vaultName}/files/{changesetId}/finishadd PUT: api/{vaultName}/files/{changesetId}/finishadd Finish of add file operation. This method adds files from changeset to the vault. Adds files in the specified changeset to the vault. (See Remarks ) |
+| Put | api/{vaultName}/files/{changesetId}/upload PUT: api/{vaultname}/files/{changesetId}/upload Upload file to changeset to add files operations Uploads files to the specified changeset. (See Remarks ) |
 | Put | api/stage/{vaultName}/{documentId}?folderId={folderId}&overrideVersion={overrideVersion} Checks in the specified document. |
 
 State Transition
@@ -198,4 +211,4 @@ Search
 | Get | api/{vaultName}/search Gets objects in the specified vault. |
 | --- | --- |
 | Post | api/{vaultName}/search Gets objects in the vault that contain the specified string. |
-| Post | api/{vaultName}/searchvariables Specifies the search parameters. |
+| Post | api/{vaultName}/searchvariables Specifies parameters and variables for a search. |

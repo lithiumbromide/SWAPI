@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # BumpTextureFilename Property (IRenderMaterial)
 
-Gets or sets the path and file name of the pattern based on an image file for the surface finish of this appearance.
+Obsolete. Superseded by IRenderMaterial::SurfaceFinishFile. Gets or sets the path and file name of the pattern based on an image file for the surface finish of this appearance.
 
 ## Syntax
 

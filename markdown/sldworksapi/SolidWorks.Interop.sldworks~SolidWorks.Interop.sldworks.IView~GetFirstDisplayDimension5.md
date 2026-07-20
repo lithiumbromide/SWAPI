@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstDisplayDimension5 Method (IView)
 
-Gets the first display dimension in this drawing view.
+Obsolete. Superseded by
+
+[IView::GetFirstDisplayDimension6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDisplayDimension6.html)
+
+.
 
 ## Syntax
 
@@ -61,10 +65,6 @@ See
 [View::GetFirstDisplayDimension5](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstDisplayDimension5.html)
 
 .
-
-## Examples
-
-[Get Dimension Values in Drawing (VBA)](Get_Dimension_Values_in_Drawing_Example_VB.htm)
 
 ## Remarks
 

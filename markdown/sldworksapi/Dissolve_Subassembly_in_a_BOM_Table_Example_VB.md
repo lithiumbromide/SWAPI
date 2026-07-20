@@ -54,7 +54,7 @@ This example shows how to expand, collapse, dissolve, and restore a subassembly 
      BomType = swBomType_Indented
      TableTemplate = "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\bom-standard.sldbomtbt"
      Configuration = ""
-     Set swBOMAnnotation = swView.InsertBomTable5(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, swNumberingType_Detailed, True, True)
+     Set swBOMAnnotation = swView.InsertBomTable6(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, swNumberingType_Detailed, True, True, True)
 
     'Collapse blade shaft subassembly
      swBOMAnnotation.Collapse 1, 8

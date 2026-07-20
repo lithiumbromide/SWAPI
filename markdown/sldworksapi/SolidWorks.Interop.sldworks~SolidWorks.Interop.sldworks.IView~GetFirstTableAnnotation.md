@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstTableAnnotation Method (IView)
 
-Gets the first table annotation in this view.
+Obsolete. Superseded by
+
+[IView::GetFirstTableAnnotation2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstTableAnnotation2.html)
+
+.
 
 ## Syntax
 
@@ -61,10 +65,6 @@ See
 [View::GetFirstTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstTableAnnotation.html)
 
 .
-
-## Examples
-
-[Get Table Annotation and Contents (VBA)](Get_Table_Annotation_and_Contents_Example_VB.htm)
 
 ## See Also
 

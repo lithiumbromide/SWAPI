@@ -575,6 +575,26 @@ Example
 
 [Authentication (JS)](index.html)
 
+|
+
+[Use Search Variables.postman_collection.json](Use%20Search%20Variables.postman_collection.json)
+
+|
+
+[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+
 Remarks
 
 Read[Getting Started](GettingStarted.html).

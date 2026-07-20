@@ -44,6 +44,7 @@ public enum class swTableAnnotationType_e : public System.Enum
 | --- | --- |
 | swTableAnnotation_BendTable | 7 |
 | swTableAnnotation_BillOfMaterials | 2 |
+| swTableAnnotation_FamilyTable | 10 |
 | swTableAnnotation_General | 0 |
 | swTableAnnotation_GeneralTolerance | 9 |
 | swTableAnnotation_HoleChart | 1 |

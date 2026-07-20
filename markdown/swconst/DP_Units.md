@@ -66,7 +66,7 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUs
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value (0 - 8) | Specifies the number of decimal places for angular units |
 | Mass/Section Properties - Length - Unit | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swUnitsMassPropLength,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swUnitsMassPropLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLengthUnit_e< Value >) | See swLengthUnit_e for valid options | Specifies type of length unit to use for mass property units NOTE: You can only set this option when swUnitSystem_e is swUnitSytem_Custom; Otherwise, FALSE is returned |
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLengthUnit_e.< Value >) | See swLengthUnit_e for valid options | Specifies type of length unit to use for mass property units NOTE: You can only set this option when swUnitSystem_e is swUnitSytem_Custom; Otherwise, FALSE is returned |
 | Mass/Section Properties - Length - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swUnitsMassPropDecimalPlaces,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swUnitsMassPropDecimalPlaces,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value (0 - 8) | Specifies number of decimal places for mass property units |

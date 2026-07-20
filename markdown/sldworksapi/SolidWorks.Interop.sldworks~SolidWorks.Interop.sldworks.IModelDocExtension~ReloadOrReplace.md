@@ -108,6 +108,8 @@ See[ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sl
 
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
+[IModelDocExtension::ReloadWithReferences Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReloadWithReferences.html)
+
 ## Availability
 
 SOLIDWORKS 2022 FCS, Revision Number 30

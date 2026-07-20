@@ -54,7 +54,7 @@ non-SOLIDWORKS file from Pack and Go.
              object statuses = null;
 
              // Open assembly document
-             openFile =  "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\EDraw\\claw\\claw-mechanism.sldasm";
+             openFile =  "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\EDraw\\claw\\claw-mechanism.sldasm";
              swModel = (ModelDoc2)swApp.OpenDoc6(openFile, (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "",  ref errors,  ref warnings);
              swModelDocExt = (ModelDocExtension)swModel.Extension;
 
@@ -99,9 +99,9 @@ non-SOLIDWORKS file from Pack and Go.
 
              // Add other non-SOLIDWORKS files to Pack and Go
              object[] otherFiles = new  object[2];
-             string otherFile = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\edraw\\claw\\claw-mechanism.easm";
+             string otherFile = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\edraw\\claw\\claw-mechanism.easm";
              otherFiles[0] = (object)otherFile;
-             otherFile = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\edraw\\claw\\claw-mechanism.emodel_debugonly.xml";
+             otherFile = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\edraw\\claw\\claw-mechanism.emodel_debugonly.xml";
              otherFiles[1] = (object)otherFile;
 
              Debug.Print(" ");
@@ -126,7 +126,7 @@ non-SOLIDWORKS file from Pack and Go.
 
              // Override path where to save documents
              myPath =  "c:\\PackAndGo\\";
-             status = swPackAndGo.SetSaveToName(true, myPath);
+             status = swPackAndGo.SetSaveToName2(true, myPath);
 
              // Pack and Go both SOLIDWORKS and non-SOLIDWORKS files
              statuses = swModelDocExt.SavePackAndGo(swPackAndGo);

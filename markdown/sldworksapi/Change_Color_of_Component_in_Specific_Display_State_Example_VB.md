@@ -87,7 +87,7 @@ Sub main()
 
 ```
     'Open assembly document
-    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\appearances\usb_flash_drive1.sldasm"
+    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\appearances\usb_flash_drive1.sldasm"
     Set swModelDoc = swApp.OpenDoc6(fileName, swDocASSEMBLY, swOpenDocOptions_Silent, "", errors, warnings)
 ```
 
@@ -111,6 +111,9 @@ Sub main()
     swDisplayStateSetting.Option = swSpecifyDisplayState
     displayStateNames(0) = "Display State-1"
     swDisplayStateSetting.Names = displayStateNames
+```
+
+```
     'Assembly level is the default
     swDisplayStateSetting.PartLevel = False
 ```
@@ -127,6 +130,19 @@ Sub main()
     blue_rgb = 50
     newColor = Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(red_rgb, 255), 0) + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(green_rgb, 255), 0) * 16 * 16 + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
     swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
     Set newAppearances(0) = swAppearanceSetting
     swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearances
 ```
@@ -176,6 +192,19 @@ Sub main()
     blue_rgb = 0
     newColor = Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(red_rgb, 255), 0) + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(green_rgb, 255), 0) * 16 * 16 + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
     swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
     Set newAppearances(0) = swAppearanceSetting
     swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearances
 ```
@@ -195,7 +224,7 @@ Sub main()
 
 ```
     'Open the assembly component USB_cover1 as a part document
-    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\appearances\usb_cover1.sldprt"
+    fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\appearances\usb_cover1.sldprt"
     Set swModelDoc = swApp.OpenDoc6(fileName, swDocPART, swOpenDocOptions_Silent, "", errors, warnings)
 ```
 
@@ -242,6 +271,19 @@ Sub main()
     blue_rgb = 0
     newColor = Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(red_rgb, 255), 0) + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(green_rgb, 255), 0) * 16 * 16 + Excel.WorksheetFunction.Max(Excel.WorksheetFunction.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
     swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
     Set newAppearances(0) = swAppearanceSetting
     swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearances
 ```

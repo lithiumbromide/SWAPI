@@ -28,6 +28,7 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | GetAlignment | Gets the alignment information of this view. |
 | Method | GetAnnotationCount | Gets the number of annotations in this view. |
 | Method | GetAnnotations | Gets the annotations in this view. |
+| Method | GetAnnotationsByType | Gets the annotations of the specified type in this view. |
 | Method | GetArcCount | Gets the number of arcs in this view. |
 | Method | GetArcs | Obsolete. Superseded by IView::GetArcs4 and IView::IGetArcs4 . |
 | Method | GetArcs2 | Obsolete. Superseded by IView::GetArcs4 and IView::IGetArcs4 . |
@@ -92,7 +93,8 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | GetDimensionDisplayString | Obsolete. Superseded by IView::GetDimensionDisplayString4 and IView::IGetDimensionDisplayString4 . |
 | Method | GetDimensionDisplayString2 | Obsolete. Superseded by IView::GetDimensionDisplayString4 and IView::IGetDimensionDisplayString4 . |
 | Method | GetDimensionDisplayString3 | Obsolete. Superseded by IView::GetDimensionDisplayString4 and IView::IGetDimensionDisplayString4 . |
-| Method | GetDimensionDisplayString4 | Gets all of the dimension text in the current drawing sheet or the current drawing view. |
+| Method | GetDimensionDisplayString4 | Obsolete. Superseded by IView::GetDimensionDisplayString5 . |
+| Method | GetDimensionDisplayString5 | Gets all of the dimension text in the current drawing sheet or the current drawing view. |
 | Method | GetDimensionIds | Obsolete. Superseded by IView::GetDimensionIds4 and IView::IGetDimensionIds4 . |
 | Method | GetDimensionIds2 | Obsolete. Superseded by IView::GetDimensionIds4 and IView::IGetDimensionIds4 . |
 | Method | GetDimensionIds3 | Obsolete. Superseded by IView::GetDimensionIds4 and IView::IGetDimensionIds4 . |
@@ -135,7 +137,8 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | GetFirstAnnotation3 | Gets the first annotation in this drawing view. |
 | Method | GetFirstBlockInstance | Obsolete. Not superseded. |
 | Method | GetFirstCenterLine | Gets the first centerline in this view. |
-| Method | GetFirstCenterMark | Gets the first center mark in the view. |
+| Method | GetFirstCenterMark | Obsolete. Superseded by IView::GetFirstCenterMark2 . |
+| Method | GetFirstCenterMark2 | Gets the first center mark in the view. |
 | Method | GetFirstCenterOfMass | Gets the first center of mass in this view. |
 | Method | GetFirstCThread | Gets the first cosmetic thread in the view. |
 | Method | GetFirstCustomSymbol | Obsolete. Not superseded. |
@@ -146,14 +149,19 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | GetFirstDisplayDimension2 | Obsolete. Superseded by IView::GetFirstDisplayDimension5 . |
 | Method | GetFirstDisplayDimension3 | Obsolete. Superseded by IView::GetFirstDisplayDimension5 . |
 | Method | GetFirstDisplayDimension4 | Obsolete. Superseded by IView::GetFirstDisplayDimension5 . |
-| Method | GetFirstDisplayDimension5 | Gets the first display dimension in this drawing view. |
+| Method | GetFirstDisplayDimension5 | Obsolete. Superseded by IView::GetFirstDisplayDimension6 . |
+| Method | GetFirstDisplayDimension6 | Gets the first display dimension in this drawing view. |
 | Method | GetFirstDowelSymbol | Gets the first dowel symbol in the view. |
 | Method | GetFirstGTOL | Gets the first geometric tolerance in this view. |
-| Method | GetFirstMultiJogLeader | Gets the first multi-jog leader in the view. |
-| Method | GetFirstNote | Gets the first note in the view. |
-| Method | GetFirstRevisionCloud | Gets the first revision cloud annotation in this view. |
+| Method | GetFirstMultiJogLeader | Obsolete. Superseded by IView::GetFirstMultiJogLeader2 . |
+| Method | GetFirstMultiJogLeader2 | Gets the first multi-jog leader in the view. |
+| Method | GetFirstNote | Obsolete. Superseded by IView::GetFirstNote2 . |
+| Method | GetFirstNote2 | Gets the first note in the view. |
+| Method | GetFirstRevisionCloud | Obsolete. Superseded by IView::GetFirstRevisionCloud2 . |
+| Method | GetFirstRevisionCloud2 | Gets the first revision cloud annotation in this view. |
 | Method | GetFirstSFSymbol | Gets the first surface-finish symbols in the view. |
-| Method | GetFirstTableAnnotation | Gets the first table annotation in this view. |
+| Method | GetFirstTableAnnotation | Obsolete. Superseded by IView::GetFirstTableAnnotation2 . |
+| Method | GetFirstTableAnnotation2 | Gets the first table annotation in this view. |
 | Method | GetFirstWeldBead | Gets the first weld bead annotation in this view. |
 | Method | GetFirstWeldSymbol | Gets the first weld symbol in the view. |
 | Method | GetGTolCount | Gets the number of geometric tolerances in this drawing view. |
@@ -376,13 +384,15 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | IGetWitnessGeomInfo | Gets the geometry data for all of the virtual sharp witness lines in this drawing view. |
 | Method | IGetXform | Gets the matrix used for displaying this drawing view. |
 | Method | IInsertBomTable | Inserts a Bill of Materials (BOM) table for this drawing view using Microsoft Excel. |
+| Method | ImportAnnotations | Imports the specified annotations into this drawing view. |
 | Method | InsertAlternateView | Inserts an Alternate Position View of the currently selected drawing view. |
 | Method | InsertBendTable | Inserts a bend table for this drawing view. |
 | Method | InsertBomTable | Inserts a Bill of Materials (BOM) table for this drawing view using Microsoft Excel. |
 | Method | InsertBomTable2 | Obsolete. Superseded by IView::InsertBomTable3 . |
 | Method | InsertBomTable3 | Obsolete. Superseded by IView::InsertBomTable4 . |
 | Method | InsertBomTable4 | Obsolete. Superseded by IView::InsertBomTable5 . |
-| Method | InsertBomTable5 | Inserts a bill of materials (BOM) table for this drawing view using SOLIDWORKS table functionality. |
+| Method | InsertBomTable5 | Obsolete. Superseded by IView::InsertBomTable6 . |
+| Method | InsertBomTable6 | Inserts a bill of materials (BOM) table for this drawing view using SOLIDWORKS table functionality. |
 | Method | InsertBreak | Obsolete. Superseded by IView::InsertBreak2 . |
 | Method | InsertBreak2 | Obsolete. Superseded by IView::InsertBreak3 . |
 | Method | InsertBreak3 | Inserts the specified type of break at the specified location in this drawing view. |

@@ -83,6 +83,7 @@ Members
 | Public Method Frame |  |
 | Public Method Get3DExperienceState |  |
 | Public Method GetActiveConfigurationName |  |
+| Public Method GetActiveDisplayPane |  |
 | Public Method GetAddInObject |  |
 | Public Method GetApplySelectionFilter |  |
 | Public Method GetBatchUploadedFilesInfo |  |
@@ -232,6 +233,8 @@ Members
 | Public Method ISetUserTypeLibReferences |  |
 | Public Method IsRapidDraft |  |
 | Public Method IsSame |  |
+| Public Method IsTaskPaneExpanded |  |
+| Public Method IsTaskPaneVisible |  |
 | Public Method IVersionHistory |  |
 | Public Method LoadAddIn |  |
 | Public Method LoadAdminSettingsFile |  |
@@ -378,6 +381,7 @@ Members
 | Public Event CommandCloseNotify |  |
 | Public Event CommandOpenPreNotify |  |
 | Public Event DestroyNotify |  |
+| Public Event DisplayPaneActivationNotify |  |
 | Public Event DocumentConversionNotify |  |
 | Public Event DocumentLoadNotify |  |
 | Public Event DocumentLoadNotify2 |  |
@@ -396,6 +400,7 @@ Members
 | Public Event JournalWriteNotify |  |
 | Public Event LightSheetCreateNotify |  |
 | Public Event NonNativeFileOpenNotify |  |
+| Public Event On3DExperienceStateChangeNotify |  |
 | Public Event OnIdleNotify |  |
 | Public Event PromptForFilenameNotify |  |
 | Public Event PromptForMultipleFileNamesNotify |  |
@@ -403,3 +408,9 @@ Members
 | Public Event ReferencedFilePreNotify |  |
 | Public Event ReferencedFilePreNotify2 |  |
 | Public Event ReferenceNotFoundNotify |  |
+| Public Event TaskPaneCollapseNotify |  |
+| Public Event TaskPaneExpandNotify |  |
+| Public Event TaskPaneHideNotify |  |
+| Public Event TaskPanePinnedNotify |  |
+| Public Event TaskPaneShowNotify |  |
+| Public Event TaskPaneUnpinnedNotify |  |

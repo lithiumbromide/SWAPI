@@ -22,6 +22,14 @@ Expand All
 | PDM Pro API Web Service : Version Resource Group |
 | --- |
 
+Description
+
+Version service. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Get | api/version/webapi GET: api/version/webapi Get version Gets the version of this web application. |

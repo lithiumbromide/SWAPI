@@ -162,10 +162,10 @@ This example shows how to sort bill of materials, hole, general, and weldment cu
              if(bWantGrp)
              {
                  // Sort rows into part and user-defined categories
-                 listGrpArray =  new  int[3];
-                 listGrpArray[0] = (int)swBomTableSortItemGroup_e.swBomTableSortItemGroup_None;
-                 listGrpArray[1] = (int)swBomTableSortItemGroup_e.swBomTableSortItemGroup_Parts;
-                 listGrpArray[2] = (int)swBomTableSortItemGroup_e.swBomTableSortItemGroup_Other;
+                 listGrpArray =  new  int[2];
+
+                 listGrpArray[0] = (int)swBomTableSortItemGroup_e.swBomTableSortItemGroup_Parts;
+                 listGrpArray[1] = (int)swBomTableSortItemGroup_e.swBomTableSortItemGroup_Other;
                  grpArray = listGrpArray;
              }
              swSortData.ItemGroups = grpArray;

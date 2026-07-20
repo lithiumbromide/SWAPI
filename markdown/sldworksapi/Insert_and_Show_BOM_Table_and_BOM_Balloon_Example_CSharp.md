@@ -69,7 +69,7 @@ drawing document.
              NbrType = (int)swNumberingType_e.swNumberingType_Detailed;
              TableTemplate = "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\bom-standard.sldbomtbt";
              Configuration = "";
-             swBOMAnnotation = (BomTableAnnotation)swView.InsertBomTable5(false, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, false, NbrType, true, true);
+             swBOMAnnotation = (BomTableAnnotation)swView.InsertBomTable6(false, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, false, NbrType, true, true, true);
              swBOMFeature = (BomFeature)swBOMAnnotation.BomFeature;
 
              Debug.Print("Type of BOM table as defined in swBomType_e: " + (int)swBOMFeature.TableType);

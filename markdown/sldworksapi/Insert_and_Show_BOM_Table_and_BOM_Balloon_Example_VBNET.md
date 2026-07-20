@@ -67,7 +67,7 @@ Partial Class SolidWorksMacro
         TableTemplate = "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\bom-standard.sldbomtbt"
         Configuration = ""
         Nbrtype = swNumberingType_e.swNumberingType_Detailed
-        swBOMAnnotation = swView.InsertBomTable5(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, NbrType, True, True)
+        swBOMAnnotation = swView.InsertBomTable6(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, NbrType, True, True, True)
         swBOMFeature = swBOMAnnotation.BomFeature
 
         Debug.Print("Type of BOM table as defined in swBomType_e: " & swBOMFeature.TableType)

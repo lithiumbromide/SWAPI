@@ -34,7 +34,7 @@ Parameters
 | Name | Description | Data Type |
 | --- | --- | --- |
 | vaultName | (URI parameter) Vault name (required) | string |
-| guid | (URI parameter) Operation GUID (required) | string |
+| guid | (URI parameter) Operation GUID (required) (see Remarks ) | string |
 
 Response (application/json, text/json)
 
@@ -52,11 +52,21 @@ Response (application/xml, text/xml)
 <z:anyType xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
 ```
 
+Example
+
+[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
+
+|
+
+[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
+
 Remarks
 
 The operation GUID can be found in the response of
 
-api/{vaultName}/files/{changesetId}/finishadd (Put).
+[api/{vaultName}/files/{changesetId}/finishadd (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-files-{changesetId}-finishadd~o-HttpPut.html)
+
+.
 
 See Also
 

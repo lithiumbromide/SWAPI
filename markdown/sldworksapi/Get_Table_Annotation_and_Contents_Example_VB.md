@@ -92,7 +92,7 @@ Sub main()
         ' Show the name of the view
         Debug.Print "  " & swView.Name
         ' Get the first table annotation for this view
-        Set swTable = swView.GetFirstTableAnnotation
+        Set swTable = swView.GetFirstTableAnnotation2
         Do While Not swTable Is Nothing
             ProcessTable swApp, swModel, swTable
             ' Get next table annotation for this view

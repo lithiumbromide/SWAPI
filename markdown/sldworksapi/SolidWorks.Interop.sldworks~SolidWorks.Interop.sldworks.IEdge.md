@@ -95,6 +95,8 @@ See
 
 [IConcentricMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html)
 
+[IConvertSolidFeatureData::BendEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~BendEdges.html)
+
 [ICosmeticThreadFeatureData::Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~Edge.html)
 
 [ICosmeticWeldBeadFeatureData::GetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntities.html)

@@ -25,7 +25,7 @@ Expand All
 
 Description
 
-Gets the data card for the specified file.
+Saves the specified data card variables to the specified file.
 
 Parameters
 

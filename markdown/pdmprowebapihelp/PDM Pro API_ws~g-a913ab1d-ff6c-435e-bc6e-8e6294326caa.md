@@ -22,6 +22,18 @@ Expand All
 | PDM Pro API Web Service : Notification Resource Group |
 | --- |
 
+Description
+
+Notification services. You must send
+
+[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
+
+before calling these. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Post | api/{vaultName}/notifications POST: api/{VaultName}/notifications Send message Sends the specified message. |

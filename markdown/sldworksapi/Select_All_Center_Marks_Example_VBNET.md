@@ -72,7 +72,7 @@ Partial Class SolidWorksMacro
         Dim warnings As Integer
         Dim i As Integer
 
-        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\foodprocessor.slddrw"
+        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\advdrawings\foodprocessor.slddrw"
         swModel = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocDRAWING, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
         swModExt = swModel.Extension
         swSelMgr = swModel.SelectionManager
@@ -87,7 +87,7 @@ Partial Class SolidWorksMacro
         Do While Not swView Is Nothing
             Debug.Print("  View = " & swView.Name)
             ' Traverse over annotation center marks
-            swCtrMark = swView.GetFirstCenterMark
+            swCtrMark = swView.GetFirstCenterMark2
             Do While Not swCtrMark Is Nothing
                 swAnn = swCtrMark.GetAnnotation
                 Debug.Print("    " & swAnn.GetName)

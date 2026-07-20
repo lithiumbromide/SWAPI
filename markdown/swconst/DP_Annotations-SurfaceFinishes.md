@@ -20,6 +20,9 @@ HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
 | Base surface finish standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
 swUserPreferenceOption_e.swDetailingSurfaceFinishSymbol) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
 swUserPreferenceOption_e.swDetailingSurfaceFinishSymbol, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base surface finish standard to use |
+| Surface symbol standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSFSymbolStandard,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSFSymbolStandard,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingSFSymbolStandard_e.< Value >) | See swDetailingSFSymbolStandard_e for valid options |  |
 | Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSFSymbolLeaderLineStyle,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSFSymbolLeaderLineStyle,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |

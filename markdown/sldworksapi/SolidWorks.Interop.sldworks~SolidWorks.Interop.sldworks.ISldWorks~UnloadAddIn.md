@@ -82,6 +82,12 @@ See
 
 [Load and Unload Add-in (VBA)](Load_and_Unload_Add-in_Example_VB.htm)
 
+## Remarks
+
+You cannot unload MBD using its add-in path. Instead, unload the MBD add-in as follows:
+
+status = swApp.**UnloadAddIn**('MBD')
+
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)

@@ -1,8 +1,8 @@
 {
   "by_type": {
-    "has_member": 36679,
-    "links_to": 139478,
-    "member_of": 36679
+    "has_member": 36926,
+    "links_to": 140345,
+    "member_of": 36926
   },
   "shard_count": 47,
   "shards": {
@@ -82,12 +82,12 @@
       }
     },
     "epdmapi": {
-      "edges": 11985,
+      "edges": 12062,
       "path": "edges/epdmapi.jsonl",
       "types": {
-        "has_member": 809,
-        "links_to": 10367,
-        "member_of": 809
+        "has_member": 812,
+        "links_to": 10438,
+        "member_of": 812
       }
     },
     "fworksapi": {
@@ -115,10 +115,10 @@
       }
     },
     "pdmprowebapihelp": {
-      "edges": 346,
+      "edges": 459,
       "path": "edges/pdmprowebapihelp.jsonl",
       "types": {
-        "links_to": 346
+        "links_to": 459
       }
     },
     "pdmworksapi": {
@@ -156,12 +156,12 @@
       }
     },
     "sldworksapi": {
-      "edges": 112304,
+      "edges": 113153,
       "path": "edges/sldworksapi.jsonl",
       "types": {
-        "has_member": 12265,
-        "links_to": 87774,
-        "member_of": 12265
+        "has_member": 12357,
+        "links_to": 88439,
+        "member_of": 12357
       }
     },
     "sldworksapiprogguide": {
@@ -172,11 +172,11 @@
       }
     },
     "sldworksapivb6": {
-      "edges": 28640,
+      "edges": 28944,
       "path": "edges/sldworksapivb6.jsonl",
       "types": {
-        "has_member": 14320,
-        "member_of": 14320
+        "has_member": 14472,
+        "member_of": 14472
       }
     },
     "sustainabilityapi": {
@@ -221,10 +221,10 @@
       }
     },
     "swconst": {
-      "edges": 976,
+      "edges": 994,
       "path": "edges/swconst.jsonl",
       "types": {
-        "links_to": 976
+        "links_to": 994
       }
     },
     "swcostingapi": {
@@ -398,5 +398,5 @@
       }
     }
   },
-  "total_edges": 212836
+  "total_edges": 214197
 }

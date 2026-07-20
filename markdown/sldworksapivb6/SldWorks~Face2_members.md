@@ -55,6 +55,7 @@ Members
 | Public Method GetTessTriStripNorms |  |
 | Public Method GetTessTriStrips |  |
 | Public Method GetTessTriStripSize |  |
+| Public Method GetTessTriStripTextures |  |
 | Public Method GetTexture |  |
 | Public Method GetTrackingIDs |  |
 | Public Method GetTrackingIDsCount |  |
@@ -65,6 +66,7 @@ Members
 | Public Method GetTrimCurveTopologyTypes |  |
 | Public Method GetUVBounds |  |
 | Public Method HasMaterialPropertyValues |  |
+| Public Method HasTextureCoordinates |  |
 | Public Method Highlight |  |
 | Public Method ICreateSheetBody |  |
 | Public Method ICreateSheetBodyByFaceExtension |  |

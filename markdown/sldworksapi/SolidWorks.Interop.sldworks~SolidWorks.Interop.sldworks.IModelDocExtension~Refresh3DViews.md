@@ -67,6 +67,10 @@ See
 
 [Capture 3D View (C#)](Capture_3DView_Example_CSharp.htm)
 
+## Remarks
+
+This method requires that the SOLDWORKS MBD add-in be loaded. ([ISldWorks::LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html))
+
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)

@@ -80,7 +80,6 @@ It is possible to create multiple workflows with two or more states having the s
 See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
-- E_EDM_STATECHANGE_FAILED: The password is invalid.
 - E_EDM_TRANSITION_ACTION_FAILED: One of the transition actions set up in the workflow failed.
 - E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the
 

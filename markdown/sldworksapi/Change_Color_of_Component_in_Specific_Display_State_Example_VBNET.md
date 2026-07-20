@@ -70,7 +70,7 @@ Partial Class SolidWorksMacro
         Dim newColor As Integer = 0
 
         'Open assembly document
-        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\appearances\usb_flash_drive1.sldasm"
+        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\appearances\usb_flash_drive1.sldasm"
         swModelDoc = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
 
 	Stop
@@ -106,6 +106,19 @@ Partial Class SolidWorksMacro
         blue_rgb = 50
         newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
         swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
         newAppearanceSetting(0) = swAppearanceSetting
         swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearanceSetting
 
@@ -140,6 +153,19 @@ Partial Class SolidWorksMacro
         blue_rgb = 0
         newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
         swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
         newAppearanceSetting(0) = swAppearanceSetting
         swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearanceSetting
 
@@ -148,7 +174,7 @@ Partial Class SolidWorksMacro
         swApp.CloseDoc("usb_flash_drive1")
 
         'Open the assembly component USB_cover1 as a part document
-        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\appearances\usb_cover1.sldprt"
+        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\appearances\usb_cover1.sldprt"
         swModelDoc = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
 
         swModelDocExt = swModelDoc.Extension
@@ -183,6 +209,19 @@ Partial Class SolidWorksMacro
         blue_rgb = 0
         newColor = Math.Max(Math.Min(red_rgb, 255), 0) + Math.Max(Math.Min(green_rgb, 255), 0) * 16 * 16 + Math.Max(Math.Min(blue_rgb, 255), 0) * 16 * 16 * 16 * 16
         swAppearanceSetting.Color = newColor
+```
+
+swAppearanceSetting. Diffuse = 0.8
+
+swAppearanceSetting. Specular = 0.5
+
+swAppearanceSetting. SpecularColor = newColor
+
+swAppearanceSetting. Luminous = 0.1
+
+swAppearanceSetting. Transparent = 0.0
+
+```
         newAppearanceSetting(0) = swAppearanceSetting
         swModelDocExt.DisplayStateSpecMaterialPropertyValues(swDisplayStateSetting) = newAppearanceSetting
 

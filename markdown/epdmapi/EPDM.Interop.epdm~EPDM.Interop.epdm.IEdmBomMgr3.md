@@ -272,10 +272,22 @@ Console.ReadKey();
 
 ## Remarks
 
-This interface extends[IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)by providing the ability to:
+This interface:
 
-- create a SOLIDWORKS BOM with rows and columns not tied to a fixed layout.
-- add a SOLIDWORKS BOM to a non-SOLIDWORKS document in the vault.
+- extends
+
+  [IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
+
+  by providing the ability to:
+
+  - create a SOLIDWORKS BOM with rows and columns not tied to a fixed layout.
+  - add a SOLIDWORKS BOM to a non-SOLIDWORKS document in the vault.
+
+- is extended by
+
+  [IEdmBomMgr4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4.html)
+
+  .
 
 To access this interface, call IEdmVault7::CreateUtility with eType =[EdmUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html).EdmUtil_BomMgr and then cast the returned object to IEdmBomMgr3.
 

@@ -145,3 +145,7 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean valu
 | New Sheet Metal Bodies - Use sheet metal parameters from material | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalUseMaterial,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalUseMaterial,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts only |
+| Edge Flange Options - Automatically add Flange Length dimension to flange
+profiles | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetDimensionFlangeSketch,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetDimensionFlangeSketch,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts only |

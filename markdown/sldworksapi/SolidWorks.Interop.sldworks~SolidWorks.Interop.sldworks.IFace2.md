@@ -117,6 +117,8 @@ See
 
 [IConfiguration::GetDisplayStateFaceProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateFaceProperties.html)
 
+[IConvertSolidFeatureData::GetFixedFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~GetFixedFace.html)
+
 [ICosmeticThreadFeatureData::StartFromFacePlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~StartFromFacePlane.html)
 
 [ICosmeticWeldBeadFeatureData::GetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntities.html)
@@ -188,6 +190,8 @@ See
 [IHoleSeriesFeatureData2::StartFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~StartFace.html)
 
 [IIndentFeatureData::ToolBodyRegion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~ToolBodyRegion.html)
+
+[ILibraryFormToolFeatureData::PlacementFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PlacementFace.html)
 
 [ILinearCouplerMateFeatureData::MateEntity1](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData~MateEntity1.html)
 

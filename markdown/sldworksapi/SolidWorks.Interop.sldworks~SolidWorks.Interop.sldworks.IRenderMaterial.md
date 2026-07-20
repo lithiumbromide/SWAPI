@@ -71,6 +71,8 @@ See
 
 [IModelDocExtension::GetRenderMaterials](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetRenderMaterials.html)and[IModelDocExtension::IGetRenderMaterials](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetRenderMaterials.html)
 
+[ISwScene::GetFloorAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~GetFloorAppearance.html)
+
 ## Access Diagram
 
 [RenderMaterial](SWObjectModel.pdf#RenderMaterial)

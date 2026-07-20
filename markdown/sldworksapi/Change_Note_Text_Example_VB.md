@@ -94,7 +94,7 @@ Sub main()
 
 ```
     While Not swView Is Nothing
-        Set swNote = swView.GetFirstNote
+        Set swNote = swView.GetFirstNote2
         While Not swNote Is Nothing
             If swNote.IsCompoundNote Then
                 nTextCount = swNote.GetTextCount

@@ -54,6 +54,7 @@ SOLIDWORKS API enumerations
 | swApiToolboxItemExportStatus_e | Return codes for toolbox item export. |
 | swApiToolboxItemImportStatus_e | Return codes for toolbox item import. |
 | swAppCallBackCmd_e | Types of application callback functions. |
+| swAppearanceSurfaceFinishShaderTypes_e | Types of surface finish shaders. |
 | swAppearanceTargetType_e | Types of targets to which to apply a copied appearance. |
 | swApplicationType_e | Types of SOLIDWORKS application. |
 | swAppNotify_e | Application notifications. |
@@ -70,6 +71,7 @@ SOLIDWORKS API enumerations
 | swAssemblyExplodeStepType | Assembly explode step types. |
 | swAssemblyLevelToUpdate_e | Levels of assemblies to update options. |
 | swAssemblyLoadComponents_e | Tools > System Options > Performance > Assembly loading . |
+| swAssemblyMode_e | Assembly states. |
 | swAssemblyNotify_e | Assembly notifications. |
 | swAssemblyUpdateToolboxComponentStatus_e | Status of updating SOLIDWORKS Toolbox components in assemblies using the current information in Toolbox Settings. |
 | swAssociatedEntityStates_e | Associated entity states for attributes. |
@@ -82,6 +84,7 @@ SOLIDWORKS API enumerations
 | swAutodimVerticalPlacement_e | Placements of the vertical dimensions created by ISketch::AutoDimension2 and IDrawingDoc::AutoDimension . |
 | swAutoHideShowResponse_e | Visibility of FeatureManager design tree folders and tools. |
 | swAutoInsertCenterMarkTypes_e | Types for which to insert center marks. Bitmask . |
+| swAutoMateRepairErrors_e | Automatic mate repair errors. |
 | swAutoSaveIntervalMode_e | Modes for autosaving documents. |
 | swBackgroundProcessOption_e | Background processing options. |
 | swBalloonFit_e | Types of balloon and label location fits. |
@@ -152,7 +155,7 @@ SOLIDWORKS API enumerations
 | swCheckInterferenceOption_e | Check interference options. Bitmask . |
 | swCheckOutOfDate_e | Check for out-of-date lightweight components options. |
 | swCheckSpellingOptions_e | Spell check options. Bitmask . |
-| swChildComponentInBOMOption_e | Child component display options in Bills of Materials (BOM). Assemblies only. |
+| swChildComponentInBOMOption_e | Child component display options in Bills of Materials (BOM) for assemblies and for parts that have weldment/sheet metal cut lists. |
 | swClearanceType_e | Clearance verification types. |
 | swClearanceVerificationSetEntityErrors_e | Error codes when setting entities for clearance verification. |
 | swClosedCornerTypes_e | Closed corner types. |
@@ -195,6 +198,7 @@ SOLIDWORKS API enumerations
 | swConstraintType_e | Sketch constraints. |
 | swContactType_e | Curve control contact types. |
 | swControlBitmapLabelType_e | SOLIDWORKS bitmap types. |
+| swCoordSysElementType_e | Coordinate system element types. |
 | swCoreFeatureDirection_e | Directions for core features. |
 | swCornerReliefBendType_e | Sheet metal corner relief bend types. |
 | swCornerReliefError_e | Sheet metal corner relief errors. |
@@ -268,6 +272,7 @@ SOLIDWORKS API enumerations
 | swDetailingLinearForeshortened_e | Linear dimensions foreshortened types. |
 | swDetailingNoteTextContent_e | BOM balloon note text styles. |
 | swDetailingSectionViewLineStyle_e | Display section view line styles. |
+| swDetailingSFSymbolStandard_e | Detailing surface finish symbol standards. |
 | swDetailingStandard_e | Detailing standards. |
 | swDetailingToleranceTextSizing_e | Detailing tolerance text sizes. |
 | swDetailingViewLabelsDelimiter_e | Formats for the auxiliary view scale labels. |
@@ -299,6 +304,7 @@ SOLIDWORKS API enumerations
 | swDisplayCircularReferencesInEquations_e | Display options for circular references in equations. |
 | swDisplayDimensionLeaderText_e | Display dimension leaders and text placement. |
 | swDisplayMode_e | Display modes of drawing views. |
+| swDisplayPaneIndex_e | Active display panes. |
 | swDisplayPotentialCircularReferencesInEquations_e | Display options for potential circular references in equations. |
 | swDisplayStateCreationChoices_e | Display-state preserve options. |
 | swDisplayStateOpts_e | Display state options. |
@@ -315,6 +321,7 @@ SOLIDWORKS API enumerations
 | swDraftType_e | Draft types. |
 | swDragArrowManipulatorOptions_e | Draft arrow manipulator options. |
 | swDrawingComponentLineFontOption_e | Types of edges of components in assembly drawings whose line font styles you can change. |
+| swDrawingMode_e | Drawing modes. |
 | swDrawingNotify_e | Drawing notifications. |
 | swDrawingProjectionType_e | Drawing projection types. |
 | swDrawingSheetsZonesLetterLayout_e | Options for letter layouts in drawing sheet zones. |
@@ -375,10 +382,10 @@ SOLIDWORKS API enumerations
 | swFeatureScope_e | Feature scope options. |
 | swFeaturesToPatternType_e | Seed instance types for patterns. |
 | swFeatureSuppressionAction_e | Feature suppression actions. |
-| swFeatureTreeFolderType_e | Ways to insert the feature folder. |
+| swFeatureTreeFolderType_e | Ways to insert feature folders for selected features or components in the FeatureManager design tree. |
 | swFeatureTreeState_e | Flyout FeatureManager design tree states. |
 | swFileCloseNotifyReason_e | Reasons for the FileCloseNotify event. |
-| swFileFormatType_e | STEP file formats. |
+| swFileFormatType_e | STEP file formats/editions. |
 | swFileLoadError_e | File load errors. Bitmask . |
 | swFileLoadWarning_e | File load warnings for ISldWorks::OpenDoc6 . Bitmask . |
 | swFileSaveError_e | File save errors. Bitmask . |
@@ -472,6 +479,7 @@ SOLIDWORKS API enumerations
 | swJogPositionType_e | Jog position types. |
 | swKeepReplacedCompOption_e | Options for replacing components in BOM features. |
 | swKernelErrorCode_e | Kernel error codes. |
+| swLargeDesignReviewState_e | Large Design Review states. |
 | swLayerItemsOption_e | Layer item types. |
 | swLayerOverride_e | Layer override types. Bitmask . |
 | swLeaderLineVisibility_e | Visibility of leader lines. |
@@ -485,6 +493,7 @@ SOLIDWORKS API enumerations
 | swLineStyles_e | Line styles used in drawings. |
 | swLineTypes_e | Line styles in drawings. |
 | swLineWeights_e | Line weights used in layers. |
+| swLinkBomToDisplayStateError_e | Errors when linking a BOM to a Display State. |
 | swLinkDimensionError_e | Link dimension errors. |
 | swLinkString | Types of links for errors and trouble-shooting bubbles. |
 | swLoadAddinError_e | Add-in load errors. |
@@ -571,6 +580,7 @@ SOLIDWORKS API enumerations
 | swOrdDimEndSymbol_e | Ordinate dimension end symbols. |
 | swOutOfDateStatus_e | Rebuild state of the components. |
 | swPackAndGoDocumentStatus_e | Types of documents for Pack and Go. |
+| swPackAndGoFolderOptions_e | Types of folder structure options for Pack and Go. |
 | swPackAndGoSaveStatus_e | Status of each document intended for Pack and Go. |
 | swPageSetupDrawingColor_e | Colors of drawings set-up values. |
 | swPageSetupInUse_e | Page set-up values. |
@@ -645,6 +655,7 @@ SOLIDWORKS API enumerations
 | swPropMgrPageSliderStyle_e | PropertyManager page slider styles. Bitmask . |
 | swPropMgrPageTextBoxStyle_e | PropertyManager page textbox styles. Bitmask . |
 | swPropSheetType_e | Property sheet types. |
+| swPublishStepOpts_e | Options for publishing to Step 242. |
 | swPublishTo3DPDFError_e | Status codes for publishing SOLIDWORKS MBD 3D PDF files. |
 | swPunchTableTagStyle_e | Punch table datum tag styles |
 | swQuadant_e | Angular dimension types |
@@ -736,11 +747,13 @@ SOLIDWORKS API enumerations
 | swSetValueReturnStatus_e | Return values for attempting to set the value of a parameter. |
 | swSFLaySym_e | Values for direction of lay types. |
 | swSFSymType_e | Values for surface finish symbol types and options. |
+| swSheetMetalAutoReliefTypes_e | Sheet metal auto relief types. |
 | swSheetMetalBendNotesBorderSize_e | Sheet metal bend notes border sizes. |
 | swSheetMetalGussetProfileDimType_e | Sheet metal gusset profile dimensioning schemes. |
 | swSheetMetalGussetProfileType_e | Sheet metal gusset profile types. |
 | swSheetMetalMBDBendNotesStyle_e | Sheet metal MBD bend note styles. |
 | swSheetMetalModifierError_e | Sheet metal feature data errors. |
+| swSheetMetalOverlapTypes_e | Sheet metal overlap types. |
 | swSheetMetalOverrideDefaultParameters_e | Types of default parameters to override in a sheet metal feature in a multibody sheet metal part. |
 | swSheetMetalReliefTypes_e | Sheet metal relief types. |
 | swSheetMetalRibGussetType_e | Sheet metal gusset rib types. |
@@ -786,6 +799,9 @@ SOLIDWORKS API enumerations
 | swSmartDimensionDirection_e | Smart dimension extension line directions or rapid dimensioning selector quadrants. |
 | swSMBendState_e | Bend state values for a sheet metal part. |
 | swSMCommandStatus_e | Return conditions for various sheet metal APIs that attempt to do set operations. |
+| swSMGExportProfiles_e | SMG export profiles. |
+| swSMGRefinementType_e | SMG export refinement types. |
+| swSMGRefineRelativeType_e | SMG export relative refinement types. |
 | swSMNormalCutError_e | Status codes when creating a Normal Cut feature. |
 | swSolidBodiesDescriptionPropertyIndex | Arguments in the text expression of the Description bounding box property. |
 | swSolidworksWeldmentEndCondOptions_e | Weldment end condition options. |
@@ -823,6 +839,7 @@ SOLIDWORKS API enumerations
 | swStyleSplineCurveType_e | Curve types and degrees for style splines. |
 | swSummInfoField_e | Summary information fields. Read-only. |
 | swSunlightInfoType_e | Sunlight information. |
+| swSuppressDialog_e | Task dialog suppression options. For internal use only. |
 | swSuppressionError_e | Suppression errors. |
 | swSurfaceCutFeatureError_e | Types of surface-cut errors. |
 | swSurfaceExtendEndCond_e | Surface extend end conditions. |
@@ -956,6 +973,7 @@ SOLIDWORKS API enumerations
 | swZonalSectionViewZones_e | Intersection zones for section views. Bitmask |
 | swZoneMargin_e | Zone margins. |
 | swZoneSizeDistribution_e | Zone size distribution types. |
+| swZoomLevelOnOpenType_e | Display zoom-to level when opening drawings. |
 
 ## See Also
 

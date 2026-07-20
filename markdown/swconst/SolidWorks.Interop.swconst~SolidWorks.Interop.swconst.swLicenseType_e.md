@@ -47,6 +47,7 @@ public enum class swLicenseType_e : public System.Enum
 | swLicenseType_Full_Office | 5 |
 | swLicenseType_Full_Premium | 7 |
 | swLicenseType_Full_Professional | 6 |
+| swLicenseType_Full_Ultimate | 9 |
 | swLicenseType_Maker | 8 |
 | swLicenseType_PersonalEdition | 4 |
 | swLicenseType_Student | 2 |

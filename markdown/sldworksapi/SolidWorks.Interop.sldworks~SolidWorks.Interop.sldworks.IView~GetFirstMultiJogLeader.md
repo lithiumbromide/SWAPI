@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstMultiJogLeader Method (IView)
 
-Gets the first multi-jog leader in the view.
+Obsolete. Superseded by
+
+[IView::GetFirstMultiJogLeader2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstMultiJogLeader2.html)
+
+.
 
 ## Syntax
 
@@ -61,14 +65,6 @@ See
 [View::GetFirstMultiJogLeader](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstMultiJogLeader.html)
 
 .
-
-## Examples
-
-[Get Multi-jog Leader Data (C#)](Get_Multi-jog_Leader_Data_Example_CSharp.htm)
-
-[Get Multi-jog Leader Data (VB.NET)](Get_Multi-jog_Leader_Data_Example_VBNET.htm)
-
-[Get Multi-jog Leader Data (VBA)](Get_Multi-jog_Leader_Data_Example_VB.htm)
 
 ## See Also
 

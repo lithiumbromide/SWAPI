@@ -24,6 +24,7 @@ Members
 | Public Method DeSelect2 |  |
 | Public Method GetPreSelectedObject |  |
 | Public Method GetSelectByIdSpecification |  |
+| Public Method GetSelectedCoordSysElement |  |
 | Public Method GetSelectedObject |  |
 | Public Method GetSelectedObject2 |  |
 | Public Method GetSelectedObject3 |  |
@@ -62,6 +63,7 @@ Members
 | Public Method IGetSelectionPoint2 |  |
 | Public Method IGetSelectionPointInSketchSpace |  |
 | Public Method IGetSelectionPointInSketchSpace2 |  |
+| Public Method IsCoordSysElementSelected |  |
 | Public Method IsInEditTarget |  |
 | Public Method IsInEditTarget2 |  |
 | Public Method ResumeSelectionList |  |

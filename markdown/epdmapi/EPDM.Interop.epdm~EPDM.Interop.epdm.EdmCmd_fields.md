@@ -16,7 +16,7 @@ For a list of all members of this type, see[EdmCmd members](EPDM.Interop.epdm~EP
 |  | Name | Description |
 | --- | --- | --- |
 | public Field | mbCancel | Command cancel status. |
-| public Field | mbsComment | Contains name specific to EdmCmd.meCmdType . |
+| public Field | mbsComment | Contains information specific to EdmCmd.meCmdType . |
 | public Field | mbSilentMode | Silent mode status for the command. |
 | public Field | meCmdType | Type of command. |
 | public Field | mlCmdID | Command ID. |

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~Ge
 
 # GetVar2 Method (IEdmEnumeratorVariable10)
 
-Gets the value of the specified variable from this file or folder.
+Gets the value of the specified variable from this file that may be shared across multiple folders.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ System.bool GetVar2(
 ### Parameters
 
 - `bsVarName`: Name of variable to read
-- `bsCfgName`: Name of configuration or layout from which to get the variable value; empty string for folders and file types that do not support configurations (see
+- `bsCfgName`: Name of configuration or layout from which to get the variable value; empty string for file types that do not support configurations (see
 
 Remarks
 

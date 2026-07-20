@@ -15,3 +15,4 @@ Members
 
 | Public Property Angle |  |
 | --- | --- |
+| Public Property Precision |  |

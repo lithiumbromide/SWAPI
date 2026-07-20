@@ -55,6 +55,10 @@ Returns the new changeset ID
 <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</int>
 ```
 
+Example
+
+[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
+
 See Also
 
 [Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)

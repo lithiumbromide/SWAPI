@@ -22,7 +22,7 @@ source: "sldworksapiprogguide/GettingStarted/SolidWorks_Partner_Program_2.htm"
 
 ```vb
  License keys provide better quality and security and may be extended in the future to afford SOLIDWORKS Partners special entitlements.
- SOLIDWORKS Partners can obtain more information from the SOLIDWORKS Partner Team by emailing partners@solidworks.com.
+ SOLIDWORKS Partners can obtain more information from the SOLIDWORKS Partner Team by emailing SOLIDWORKS.PartnerProgram@3ds.com.
  During the load of the partner's add-in, SOLIDWORKS Desktop or SOLIDWORKS Connected uses the partner's license key to verify entitlement and determine how to display the partner's add-in in the Tools > Add-Ins dialog:
       Partner Gold Add-ins
       Partner Solution Add-ins

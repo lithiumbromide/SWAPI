@@ -57,7 +57,9 @@ See
 
 ## Remarks
 
-This interface supports SOLIDWORKS Model Based Definition (MBD), which is an integrated drawingless manufacturing solution for SOLIDWORKS. See the SOLIDWORKS Help for details about MBD.
+This interface supports SOLIDWORKS Model Based Definition (MBD), which is an integrated drawingless manufacturing solution for SOLIDWORKS. Use[ISldWorks::LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html)to load the MBD add-in.
+
+See the SOLIDWORKS Help for details about MBD.
 
 ## Accessors
 

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 # SaveAsPreviousVersion Property (IAdvancedSaveAsOptions)
 
-Sets whether to save as previous version.
+Sets the SOLIDWORKS version to save to.
 
 ## Syntax
 
@@ -51,7 +51,11 @@ See
 
 ### Property Value
 
-True to save as previous version, false to not
+SOLIDWORKS version to save to (see
+
+Remarks
+
+)
 
 ## VBA Syntax
 
@@ -60,6 +64,14 @@ See
 [AdvancedSaveAsOptions::SaveAsPreviousVersion](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SaveAsPreviousVersion.html)
 
 .
+
+## Remarks
+
+Examine the Remarks of
+
+[ISldWorks::VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
+
+to find the SOLIDWORKS version to save to.
 
 ## See Also
 

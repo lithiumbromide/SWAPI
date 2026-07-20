@@ -47,7 +47,7 @@ For a list of all members of this type, see[ICurve members](SolidWorks.Interop.s
 | Method | ICopy | Gets a copy of this curve. |
 | Method | ICreateTrimmedCurve | Obsolete. Superseded by ICurve::CreateTrimmedCurve2 . |
 | Method | Identity | Gets the type of curve. |
-| Method | IEvaluate | Evaluates the curve at the specified parameter of the curve. |
+| Method | IEvaluate | Obsolete. Superseded by ICurve::Evaluate2 . |
 | Method | IEvaluate2 | Evaluates the curve at the specified parameter of the curve. |
 | Method | IFindMinimumRadius | Finds the minimum radius of curvature of the selected curve and its position and u-v parameters. |
 | Method | IGetBCurveParams | Obsolete. Superseded by ICurve::IGetBCurveParams3 . |

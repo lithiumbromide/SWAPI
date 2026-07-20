@@ -52,6 +52,7 @@ public enum class swAppNotify_e : public System.Enum
 | swAppCommandCloseNotify | 29 = CommandCloseNotify |
 | swAppCommandOpenPreNotify | 31 = CommandOpenPreNotify |
 | swAppDestroyNotify | 3 = DestroyNotify |
+| swAppDisplayPaneActivationNotify | 45 = DisplayPaneActivationNotify |
 | swAppDocumentConversionNotify | 9 = DocumentConversionNotify |
 | swAppDocumentLoadNotify | 27 = Obsolete |
 | swAppDocumentLoadNotify2 | 28 = DocumentLoadNotify2 |
@@ -72,6 +73,7 @@ public enum class swAppNotify_e : public System.Enum
 | swAppLightSheetCreateNotify | 18 = LightSheetCreateNotify |
 | swAppLightweightComponentOpenNotify | 10 = Not used. |
 | swAppNonNativeFileOpenNotify | 7 = NonNativeFileOpenNotify |
+| swAppOn3DExperienceStateChangeNotify | 46 = On3DExperienceStateChangeNotify |
 | swAppOnIdleNotify | 20 = OnIdleNotify |
 | swAppPromptForFilenameNotify | 15 = PromptForFilenameNotify |
 | swAppPromptForMultipleFilenamesNotify | 30 = PromptForMultipleFileNamesNotify |
@@ -80,6 +82,12 @@ public enum class swAppNotify_e : public System.Enum
 | swAppReferencedFilePreNotify2 | 36 = ReferencedFilePreNotify2 |
 | swAppReferenceNotFoundNotify | 14 = ReferenceNotFoundNotify |
 | swAppStandardsDatabaseChangeNotify | 19 = Not used. |
+| swAppTaskPaneCollapseNotify | 44 = TaskPaneCollapseNotify |
+| swAppTaskPaneExpandNotify | 43 = TaskPaneExpandNotify |
+| swAppTaskPaneHideNotify | 41 = TaskPaneHideNotify |
+| swAppTaskPanePinnedNotify | 39 = TaskPanePinnedNotify |
+| swAppTaskPaneShowNotify | 42 = TaskPaneShowNotify |
+| swAppTaskPaneUnpinnedNotify | 40 = TaskPaneUnpinnedNotify |
 
 ## Remarks
 

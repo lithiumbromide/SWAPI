@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.htm
 
 # IEdmEnumeratorVariable7 Interface
 
-Allows you to access the contents of a file or folder data card.
+Allows you to access the contents of a file data card.
 
 NOTE:
 
@@ -56,7 +56,16 @@ This interface:
 
   [IEdmEnumeratorVariable6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6.html)
 
-  .
+  by providing the ability to generate default values, get values of versioned variables, and get the IDs of all variables that have a specified serial number.
+- does not support folder data cards. Use
+
+  [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
+
+  and
+
+  [IEdmEnumeratorVariable6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6.html)
+
+  for folder data cards.
 - is extended by
 
   [IEdmEnumeratorVariable8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8.html)

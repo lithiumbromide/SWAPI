@@ -9,7 +9,15 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFormToolFeature Method (IFeatureManager)
 
-Inserts a forming tool from the Design Library into a sheet metal part.
+Obsolete. Superseded by
+
+[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
+
+and
+
+[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
+
+.
 
 ## Syntax
 
@@ -114,14 +122,6 @@ See
 [FeatureManager::InsertFormToolFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFormToolFeature.html)
 
 .
-
-## Examples
-
-[Insert Forming Tool Feature (VBA)](Insert_Form_Tool_Feature_Example_VB.htm)
-
-[Insert Forming Tool Feature (VB.NET)](Insert_Form_Tool_Feature_Example_VBNET.htm)
-
-[Insert Forming Tool Feature (C#)](Insert_Form_Tool_Feature_CSharp.htm)
 
 ## Remarks
 

@@ -9,7 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChildCo
 
 # swChildComponentInBOMOption_e Enumeration
 
-Child component display options in Bills of Materials (BOM). Assemblies only.
+Child component display options in Bills of Materials (BOM) for assemblies and for parts that have weldment/sheet metal cut lists.
 
 ## Syntax
 
@@ -42,9 +42,9 @@ public enum class swChildComponentInBOMOption_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
-| swChildComponent_Hide | 1 = Child components might be listed individually in the BOM, depending on the BOM properties that you selected when you created the BOM |
-| swChildComponent_Promote | 3 = The assembly's configuration dissolves when it appears in a BOM; all of its child components are promoted one level |
-| swChildComponent_Show | 2 = The subassembly appears as a single item in the BOM |
+| swChildComponent_Hide | 1 = Child components might be listed individually, depending on the properties that you selected when you created the BOM |
+| swChildComponent_Promote | 3 = The model's configuration dissolves when it appears in a BOM; all of its child components are promoted one level |
+| swChildComponent_Show | 2 = Child components appear as single items in the BOM |
 
 ## See Also
 

@@ -113,6 +113,8 @@ of quality (with a possible increase in time to export) |
 < OnFlag >) | True | Specifies to export all splines as splines |
 | Spline export options - Export all splines as polylines | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDxfExportSplinesAsSplines) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDxfExportSplinesAsSplines,
 < OnFlag >) | False | Specifies to export all splines as polylines |
+| View export options - Export views as blocks | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDxfExportViewAsBlock) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDxfExportViewAsBlock,
+< OnFlag >) | Boolean value | Exports the geometry in the views as blocks |
 | Multiple sheet drawing - Export active sheet only | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDxfMultiSheetOption) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDxfMultiSheetOption,
 swDxfMultiSheet_e.swDxfActiveSheetOnly) | swDxfMultiSheet_e.swDxfActiveSheetOnly | See swDxfMultiSheet_e for all valid options |
 | Multiple sheet drawing - Export all sheets to separate files | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDxfMultiSheetOption) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swDxfMultiSheetOption,

@@ -19,6 +19,8 @@ This topic contains two tables. The information in the table:
 
 | Setting | Get/Set Methods | Return Value or < Value > or < OnFlag > | Comment |
 | --- | --- | --- | --- |
+| Zoom level to open drawings | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swZoomLevelOnOpen) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swZoomLevelOnOpen,
+swZoomLevelOnOpenType_e.<Value>) | See swZoomLevelOnOpenType_e for valid options |  |
 | Eliminate duplicate model dimensions on insert | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingEliminateDuplicateDimsOnInsert) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingEliminateDuplicateDimsOnInsert, <OnFlag> ) | Boolean value | Specifies whether duplicate dimensions are eliminated when model dimensions
 inserted |
 | Eliminate duplicate model notes on
@@ -62,6 +64,7 @@ auxiliary, detail, and section views | ISldWorks::GetUserPreferenceToggle (swUse
 from deleted views (auxiliary, detail, and section) in the drawing |
 | Enable paragraph auto numbering | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swNoteParagraphAutoNumbering) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swNoteParagraphAutoNumbering, <OnFlag> ) | Boolean value | Specifies whether to enable
 Microsoft Word-like auto-numbering behavior in notes; enabled by default |
+| Zoom to fit on open | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swNoteZoomToFit) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swNoteZoomToFit, <OnFlag> ) | Boolean value | Zoom to fit on open |
 | Override quantity column name in Bill Of Materials | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOverrideQuantityColumnName) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOverrideQuantityColumnName, <OnFlag> ) | Boolean value | Specifies whether to override the quantity column name in Bill of Materials |
 | Name to use | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOverriddenQuantityColumnName) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOverriddenQuantityColumnName,
 < Value > ) | String value | String for quantity column name in Bill of Materials |

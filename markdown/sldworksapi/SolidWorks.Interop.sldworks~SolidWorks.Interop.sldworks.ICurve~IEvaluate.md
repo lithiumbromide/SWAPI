@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IEvaluate Method (ICurve)
 
-Evaluates the curve at the specified parameter of the curve.
+Obsolete. Superseded by
+
+[ICurve::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~Evaluate2.html)
+
+.
 
 ## Syntax
 
@@ -94,5 +98,3 @@ This method returns values in meters.
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
 
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
-[ICurve::IEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IEvaluate.html)

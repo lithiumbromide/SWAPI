@@ -24,9 +24,11 @@ For a list of all members of this type, see[ITaskpaneView members](SolidWorks.In
 | Method | DisplayWindowFromHandlex64 | Adds a .NET control to the Task Pane view on 64-bit machines. |
 | Method | GetButtonState | Gets whether the Task Pane button is enabled. |
 | Method | GetControl | Gets the control assigned to the Task Pane view. |
-| Method | GetTaskpaneViewWnd | Obsolete. See Remarks. |
+| Method | GetTaskpaneViewWnd | Obsolete. Superseded by ITaskpaneView::GetTaskpaneViewWndx64 . |
+| Method | GetTaskpaneViewWndx64 | Gets the Taskpane view window handle. |
 | Method | HideView | Hides the application-level tab on the Task Pane. |
 | Method | IGetControl | Gets the control assigned to the Task Pane view. |
+| Method | IsActiveTab | Gets whether this Task Pane view is active. |
 | Method | SetButtonState | Sets whether the Task Pane button is enabled. |
 | Method | ShowView | Activates the application-level tab of the Task Pane view and makes the view visible. |
 

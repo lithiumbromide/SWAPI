@@ -71,6 +71,8 @@ See
 
 [IFace2::GetProjectedPointOn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetProjectedPointOn.html)
 
+[ILibraryFormToolFeatureData::PickPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PickPoint.html)
+
 [IMathPoint::AddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~AddVector.html)and[IMathPoint::IAddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IAddVector.html)
 
 [IMathPoint::MultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~MultiplyTransform.html)and[IMathPoint::IMultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IMultiplyTransform.html)

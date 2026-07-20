@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # InsertBomTable5 Method (IView)
 
-Inserts a bill of materials (BOM) table for this drawing view using SOLIDWORKS table functionality.
+Obsolete. Superseded by
+
+[IView::InsertBomTable6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBomTable6.html)
+
+.
 
 ## Syntax
 
@@ -136,20 +140,6 @@ See
 [View::InsertBomTable5](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBomTable5.html)
 
 .
-
-## Examples
-
-[Dissolve Subassembly in a BOM Table (VBA)](Dissolve_Subassembly_in_a_BOM_Table_Example_VB.htm)
-
-[Dissolve Subassembly in a BOM Table (VB.NET)](Dissolve_Subassembly_in_a_BOM_Table_Example_VBNET.htm)
-
-[Dissolve Subassembly in a BOM Table (C#)](Dissolve_Subassembly_in_a_BOM_Table_Example_CSharp.htm)
-
-[Insert and Show BOM Table and BOM Balloon (VBA)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_VB.htm)
-
-[Insert and Show BOM Table and BOM Balloon (VB.NET)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_VBNET.htm)
-
-[Insert and Show BOM Table and BOM Balloon (C#)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_CSharp.htm)
 
 ## Remarks
 

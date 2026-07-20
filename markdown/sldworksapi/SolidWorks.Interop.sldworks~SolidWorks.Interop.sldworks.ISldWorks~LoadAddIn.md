@@ -79,6 +79,12 @@ See
 
 [Load and Unload Add-in (VBA)](Load_and_Unload_Add-in_Example_VB.htm)
 
+## Remarks
+
+You cannot load MBD using its add-in path. Instead, load the MBD add-in as follows:
+
+status = swApp.**LoadAddIn**('MBD')
+
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)

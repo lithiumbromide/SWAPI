@@ -82,6 +82,10 @@ Request (application/x-www-form-urlencoded)
 
 The body parameter includes an array of document IDs and comments.
 
+Example
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+
 See Also
 
 [Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)

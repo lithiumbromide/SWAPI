@@ -30,6 +30,7 @@ Members
 | Public Method GetAlignment |  |
 | Public Method GetAnnotationCount |  |
 | Public Method GetAnnotations |  |
+| Public Method GetAnnotationsByType |  |
 | Public Method GetArcCount |  |
 | Public Method GetArcs |  |
 | Public Method GetArcs2 |  |
@@ -95,6 +96,7 @@ Members
 | Public Method GetDimensionDisplayString2 |  |
 | Public Method GetDimensionDisplayString3 |  |
 | Public Method GetDimensionDisplayString4 |  |
+| Public Method GetDimensionDisplayString5 |  |
 | Public Method GetDimensionIds |  |
 | Public Method GetDimensionIds2 |  |
 | Public Method GetDimensionIds3 |  |
@@ -138,6 +140,7 @@ Members
 | Public Method GetFirstBlockInstance |  |
 | Public Method GetFirstCenterLine |  |
 | Public Method GetFirstCenterMark |  |
+| Public Method GetFirstCenterMark2 |  |
 | Public Method GetFirstCenterOfMass |  |
 | Public Method GetFirstCThread |  |
 | Public Method GetFirstCustomSymbol |  |
@@ -149,13 +152,18 @@ Members
 | Public Method GetFirstDisplayDimension3 |  |
 | Public Method GetFirstDisplayDimension4 |  |
 | Public Method GetFirstDisplayDimension5 |  |
+| Public Method GetFirstDisplayDimension6 |  |
 | Public Method GetFirstDowelSymbol |  |
 | Public Method GetFirstGTOL |  |
 | Public Method GetFirstMultiJogLeader |  |
+| Public Method GetFirstMultiJogLeader2 |  |
 | Public Method GetFirstNote |  |
+| Public Method GetFirstNote2 |  |
 | Public Method GetFirstRevisionCloud |  |
+| Public Method GetFirstRevisionCloud2 |  |
 | Public Method GetFirstSFSymbol |  |
 | Public Method GetFirstTableAnnotation |  |
+| Public Method GetFirstTableAnnotation2 |  |
 | Public Method GetFirstWeldBead |  |
 | Public Method GetFirstWeldSymbol |  |
 | Public Method GetGTolCount |  |
@@ -380,6 +388,7 @@ Members
 | Public Method IGetWitnessGeomInfo |  |
 | Public Method IGetXform |  |
 | Public Method IInsertBomTable |  |
+| Public Method ImportAnnotations |  |
 | Public Method InsertAlternateView |  |
 | Public Method InsertBendTable |  |
 | Public Method InsertBomTable |  |
@@ -387,6 +396,7 @@ Members
 | Public Method InsertBomTable3 |  |
 | Public Method InsertBomTable4 |  |
 | Public Method InsertBomTable5 |  |
+| Public Method InsertBomTable6 |  |
 | Public Method InsertBreak |  |
 | Public Method InsertBreak2 |  |
 | Public Method InsertBreak3 |  |

@@ -96,6 +96,8 @@ To get the next annotation, call[IAnnotation::GetNext3](SOLIDWORKS.Interop.sldwo
 
 [IAnnotation::GetNext3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetNext3.html)
 
+[IView::GetAnnotationsByType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationsByType.html)
+
 ## Availability
 
 SOLIDWORKS 2005 FCS, Revision Number 13.0

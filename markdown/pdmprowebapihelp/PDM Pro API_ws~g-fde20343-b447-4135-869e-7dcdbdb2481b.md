@@ -22,6 +22,18 @@ Expand All
 | PDM Pro API Web Service : Group Resource Group |
 | --- |
 
+Description
+
+User group services. You must send
+
+[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
+
+before calling these. See
+
+[Getting Started](GettingStarted.html)
+
+.
+
 Operations
 
 | Get | api/{vaultName}/groups GET: api/{VaultName}/groups or api/{VaultName}/groups/all Get groups Gets the groups in the specified vault. |

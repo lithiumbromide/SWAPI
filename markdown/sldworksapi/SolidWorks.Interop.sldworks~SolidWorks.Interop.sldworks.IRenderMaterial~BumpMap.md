@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # BumpMap Property (IRenderMaterial)
 
-Gets or sets the type of surface finish for the appearance.
+Obsolete. Superseded by
+
+[IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
+
+.
 
 ## Syntax
 

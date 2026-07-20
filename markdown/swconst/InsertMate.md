@@ -1,5 +1,5 @@
 ---
-title: "Insert > Mate (<i>assemblies only</i>)"
+title: "Insert > Mate ( assemblies only )"
 project: ""
 interface: ""
 member: ""
@@ -7,9 +7,7 @@ kind: "topic"
 source: "swconst/InsertMate.htm"
 ---
 
-# Insert > Mate (<i>assemblies only</i>)
-
-## Insert > Mate ( assemblies only )
+# Insert > Mate ( assemblies only )
 
 (Table)=========================================================
 

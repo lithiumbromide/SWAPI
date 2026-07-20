@@ -55,7 +55,7 @@ Sub main()
      BomType = swBomType_Indented
      TableTemplate = "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\bom-standard.sldbomtbt"
      Configuration = ""
-     Set swBOMAnnotation = swView.InsertBOMTable5(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, swNumberingType_Detailed, True, True)
+     Set swBOMAnnotation = swView.InsertBOMTable6(False, 0.4, 0.3, AnchorType, BomType, Configuration, TableTemplate, False, swNumberingType_Detailed, True, True, True)
      Set swBOMFeature = swBOMAnnotation.BomFeature
     Debug.Print "Type of BOM table as defined in swBomType_e: " & swBOMFeature.TableType
      Debug.Print "Numbering type of BOM table as defined in swNumberingType_e: " & swBOMFeature.NumberingTypeOnIndentedBOM

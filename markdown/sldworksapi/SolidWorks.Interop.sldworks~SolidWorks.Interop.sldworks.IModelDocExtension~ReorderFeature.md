@@ -9,7 +9,11 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ReorderFeature Method (IModelDocExtension)
 
-Moves the specified feature to another location in the FeatureManager design tree of this part or assembly.
+Obsolete. Superseded by
+
+[IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html)
+
+.
 
 ## Syntax
 
@@ -86,14 +90,6 @@ See
 [ModelDocExtension::ReorderFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReorderFeature.html)
 
 .
-
-## Examples
-
-[Reorder Features (VBA)](Reorder_Features_Example_VB.htm)
-
-[Reorder Features (VB.NET)](Reorder_Features_Example_VBNET.htm)
-
-[Reorder Features (C#)](Reorder_Features_Example_CSharp.htm)
 
 ## See Also
 

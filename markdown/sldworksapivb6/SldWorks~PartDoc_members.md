@@ -87,6 +87,7 @@ Members
 | Public Method GetTessTriStripNorms |  |
 | Public Method GetTessTriStrips |  |
 | Public Method GetTessTriStripSize |  |
+| Public Method GetTessTriStripTextures |  |
 | Public Method IBodyObject |  |
 | Public Method IBodyObject2 |  |
 | Public Method ICreateFeatureFromBody |  |
@@ -200,6 +201,8 @@ Members
 | Public Event DestroyNotify |  |
 | Public Event DestroyNotify2 |  |
 | Public Event DimensionChangeNotify |  |
+| Public Event DisplayPaneCollapseNotify |  |
+| Public Event DisplayPaneExpandNotify |  |
 | Public Event DragStateChangeNotify |  |
 | Public Event DynamicHighlightNotify |  |
 | Public Event EquationEditorPostNotify |  |

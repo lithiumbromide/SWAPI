@@ -83,6 +83,8 @@ public enum class swAssemblyNotify_e : public System.Enum
 | swAssemblyDestroyNotify | 2 = Obsolete |
 | swAssemblyDestroyNotify2 | 62 = DestroyNotify2 |
 | swAssemblyDimensionChangeNotify | 48 = DimensionChangeNotify |
+| swAssemblyDisplayPaneCollapseNotify | 100 = DisplayPaneCollapseNotify |
+| swAssemblyDisplayPaneExpandNotify | 99 = DisplayPaneExpandNotify |
 | swAssemblyDragStateChangeNotify | 83 = DragStateChangeNotify |
 | swAssemblyDynamicHighlightNotify | 45 = DynamicHighlightNotify |
 | swAssemblyElectricalDataUpdateNotify | 43 = AssemblyElectricalDataUpdateNotify |
@@ -109,6 +111,7 @@ public enum class swAssemblyNotify_e : public System.Enum
 | swAssemblyFlipLoopNotify | 68 = FlipLoopNotify |
 | swAssemblyInsertTableNotify | 84 = InsertTableNotify |
 | swAssemblyInterferenceNotify | 32 = InterferenceNotify |
+| swAssemblyLargeDesignReviewStateChangeNotify | 101 = LargeDesignReviewStateChangeNotify |
 | swAssemblyLightingDialogCreateNotify | 17 = LightingDialogCreateNotify |
 | swAssemblyLoadFromStorageNotify | 8 = LoadFromStorageNotify |
 | swAssemblyLoadFromStorageStoreNotify | 40 = LoadFromStorageStoreNotify |

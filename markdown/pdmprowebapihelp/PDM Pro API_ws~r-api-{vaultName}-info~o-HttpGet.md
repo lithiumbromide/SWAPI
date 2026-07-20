@@ -52,7 +52,7 @@ Response (application/json, text/json)
   "ArchiveServer": "sample string 3",
   "DatabaseName": "sample string 4",
   "DatabaseServer": "sample string 5",
-  "VaultID": "8e3b5751-12f5-4681-a9ac-c125f6a3381c"
+  "VaultID": "e2a87d6d-8f9f-4c1c-a40c-39b81d9f9f56"
 }
 ```
 
@@ -65,7 +65,7 @@ Response (application/xml, text/xml)
   <ArchiveServer>sample string 3</ArchiveServer>
   <DatabaseName>sample string 4</DatabaseName>
   <DatabaseServer>sample string 5</DatabaseServer>
-  <VaultID>8e3b5751-12f5-4681-a9ac-c125f6a3381c</VaultID>
+  <VaultID>e2a87d6d-8f9f-4c1c-a40c-39b81d9f9f56</VaultID>
   <VaultType>sample string 2</VaultType>
   <Version>1</Version>
 </VaultProp>

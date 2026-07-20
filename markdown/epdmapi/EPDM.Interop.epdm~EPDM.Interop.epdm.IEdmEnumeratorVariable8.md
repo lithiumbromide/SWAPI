@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8.htm
 
 # IEdmEnumeratorVariable8 Interface
 
-Allows you to access the contents of a file or folder data card.
+Allows you to access the contents of a file data card.
 
 NOTE:
 
@@ -54,7 +54,16 @@ This interface:
 
   [IEdmEnumeratorVariable7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html)
 
-  .
+  by providing the ability to close the file.
+- does not support folder data cards. Use
+
+  [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
+
+  and
+
+  [IEdmEnumeratorVariable6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6.html)
+
+  for folder data cards.
 - is extended by
 
   [IEdmEnumeratorVariable9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable9.html)

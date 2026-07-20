@@ -108,16 +108,16 @@
     "kinds": {
       "enum": 116,
       "example": 158,
-      "interface": 230,
-      "members": 300,
-      "method": 603,
-      "methods": 209,
+      "interface": 232,
+      "members": 303,
+      "method": 606,
+      "methods": 211,
       "namespace": 2,
       "properties": 67,
       "property": 206,
-      "topic": 565
+      "topic": 573
     },
-    "total": 2456
+    "total": 2474
   },
   "fworksapi": {
     "kinds": {
@@ -150,9 +150,9 @@
   "pdmprowebapihelp": {
     "kinds": {
       "example": 2,
-      "topic": 127
+      "topic": 150
     },
-    "total": 129
+    "total": 152
   },
   "pdmworksapi": {
     "kinds": {
@@ -208,17 +208,17 @@
   },
   "sldworksapi": {
     "kinds": {
-      "example": 2887,
-      "interface": 492,
-      "members": 492,
-      "method": 8837,
-      "methods": 419,
+      "example": 2892,
+      "interface": 495,
+      "members": 495,
+      "method": 8887,
+      "methods": 422,
       "namespace": 1,
-      "properties": 400,
-      "property": 3428,
-      "topic": 316
+      "properties": 402,
+      "property": 3470,
+      "topic": 332
     },
-    "total": 17272
+    "total": 17396
   },
   "sldworksapiprogguide": {
     "kinds": {
@@ -230,14 +230,14 @@
   },
   "sldworksapivb6": {
     "kinds": {
-      "event": 308,
-      "members": 661,
-      "method": 9583,
-      "object": 661,
-      "property": 4429,
+      "event": 324,
+      "members": 667,
+      "method": 9652,
+      "object": 667,
+      "property": 4496,
       "topic": 4
     },
-    "total": 15646
+    "total": 15810
   },
   "sustainabilityapi": {
     "kinds": {
@@ -296,12 +296,12 @@
   },
   "swconst": {
     "kinds": {
-      "enum": 941,
+      "enum": 959,
       "interface": 1,
       "namespace": 1,
       "topic": 145
     },
-    "total": 1088
+    "total": 1106
   },
   "swcostingapi": {
     "kinds": {

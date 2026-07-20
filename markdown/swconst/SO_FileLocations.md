@@ -39,6 +39,8 @@ Template - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceSt
 < Value >) | String value |  |
 | Show folders for - BOM Templates - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsBOMTemplates) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsBOMTemplates,
 < Value >) | String value |  |
+| Show folders for - Family Templates - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsFamilyTableTemplates) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsFamilyTableTemplates,
+< Value >) | String value |  |
 | Show folders for - Color Swatches - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsColorSwatches) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsColorSwatches,
 < Value >) | String value |  |
 | Show folders for - Costing Report
@@ -132,8 +134,6 @@ Template - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceSt
 < Value >) | String value |  |
 | Show folders for - Weldment Property File - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsWeldmentPropertyFile) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsWeldmentPropertyFile,
 < Value >) | String value |  |
-| Show folders for - 3D PDF Themes - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsThemeFolder) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsThemeFolder,
-< Value >) | String value |  |
 | Show folders for -
 Appearance Folders - Folders | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsAppearances) ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsAppearances,
 < Value >) | String value |  |
@@ -174,3 +174,4 @@ Obsolete Enumerators
 | swStructureSystemsFolder | Obsolete |
 | swLocationsWebFolders | Obsolete |
 | swFileLocations3DCCModelFolder | Obsolete |
+| swFileLocationsThemeFolder | Obsolete |

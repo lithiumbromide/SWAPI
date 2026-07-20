@@ -17,8 +17,8 @@ HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Sheet format for new sheets - Use different sheet format | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetUseDifferentSheetFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetUseDifferentSheetFormat,
+| Sheet format for new sheets - Use different sheet format | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetsUseDifferentSheetFormat,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetsUseDifferentSheetFormat,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use a different sheet format |
 | Sheet format for new sheets - Sheet format file location | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swFileLocationsNewSheetFormat,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swFileLocationsNewSheetFormat,
@@ -28,8 +28,8 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUs
 swUserPreferenceOption_e.swDetailingNoOptionSpecified,
 swDrawingSheetsZonesOrigin_e.< Value >) | See swDrawingSheetsZonesOrigin_e for valid options | Specifies the corner where the lowest letters and numbers start on the drawing
 sheet |
-| Zones - Letter Layout | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetsZonesLetterLayout,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetsZonesLetterLayout,
+| Zones - Letter Layout | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDrawingSheetsZonesLetterLayout,
+swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDrawingSheetsZonesLetterLayout,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified,
 swDrawingSheetsZonesLetterLayout_e.< Value >) | See swDrawingSheetsZonesLetterLayout_e for valid options | Specifies where the letters and numbers appear on the drawing sheet |
 | Zones - List number first in Zone callout | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDrawingSheetsListNumFirstInZoneCallout,

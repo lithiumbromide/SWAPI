@@ -18,6 +18,7 @@ The following tables list the members exposed by[IPackAndGo](SolidWorks.Interop.
 | Property | AddPrefix | Gets or sets a prefix for all filenames for Pack and Go. |
 | Property | AddSuffix | Gets or sets a suffix for all filenames for Pack and Go. |
 | Property | FlattenToSingleFolder | Gets or sets whether to save all files to the root directory of the Pack and Go destination folder. |
+| Property | FolderStructureOption | Gets or sets the folder structure to save to with Pack and Go. |
 | Property | IncludeDrawings | Gets or sets whether to add the model's drawing documents to Pack and Go. |
 | Property | IncludeSimulationResults | Gets or sets whether to add the model's SOLIDWORKS Simulation results to Pack and Go. |
 | Property | IncludeSuppressed | Gets or sets whether to included suppressed components in Pack and Go. |
@@ -40,7 +41,8 @@ The following tables list the members exposed by[IPackAndGo](SolidWorks.Interop.
 | Method | ISetDocumentSaveToNames | Sets the paths and filenames of the documents to save in Pack and Go. |
 | Method | RemoveExternalDocuments | Removes the specified non-SOLIDWORKS files from Pack and Go. |
 | Method | SetDocumentSaveToNames | Sets the paths and filenames of the documents for Pack and Go. |
-| Method | SetSaveToName | Overrides the paths and filenames of the documents set by IPackAndGo::SetDocumentSaveToNames or IPackAndGo::ISetDocumentSaveToNames with the specified path or the path and name of the Zip file. |
+| Method | SetSaveToName | Obsolete. Superseded by IPackAndGo::SetSaveToName2 . |
+| Method | SetSaveToName2 | Overrides the paths and filenames of the documents set by IPackAndGo::SetDocumentSaveToNames or IPackAndGo::ISetDocumentSaveToNames with the specified path or the path and name of the Zip file. |
 
 [Top](#topBookmark)
 

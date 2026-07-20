@@ -207,6 +207,10 @@ Response (application/xml, text/xml)
 </DataCard>
 ```
 
+Example
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+
 See Also
 
 [Data Card Resource Group](PDM%20Pro%20API_ws~g-b9fd019f-fc85-4753-9377-bf3fb3a1a5f8.html)

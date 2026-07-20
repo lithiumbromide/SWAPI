@@ -29,5 +29,5 @@ swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUs
 swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
 | Default Bill Of Materials part number for new configurations | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDefaultBOMPartNumberForNewConfig,
 swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDefaultBOMPartNumberForNewConfig,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBOMPartNumberSource_e. < Value > ) | swBOMPartNumberSource_e .swBOMPartNumber_DocumentName -
-or - swBOMPartNumberSource_e.swBOMPartNumber_ConfigurationName |  |
+swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDefaultBOMPartNumberSource_e. < Value > ) | swDefaultBOMPartNumberSource_e .swDefaultBOMPartNumberSource_DocumentName -
+or - swDefaultBOMPartNumberSource_e.swDefaultBOMPartNumberSource_ConfigurationName |  |

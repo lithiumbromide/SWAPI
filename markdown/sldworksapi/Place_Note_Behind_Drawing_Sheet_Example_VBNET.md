@@ -53,7 +53,7 @@ Partial Class SolidWorksMacro
         Dim warnings As Integer
 
         ' Open drawing
-        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\api\2012-sm.slddrw"
+        fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\api\2012-sm.slddrw"
         swModel = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocDRAWING, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
         swDrawing = swModel
 
@@ -61,7 +61,7 @@ Partial Class SolidWorksMacro
         swModelDocExt = swModel.Extension
         status = swModelDocExt.SelectByID2("Sheet1", "SHEET", 0.0399580396732789, 0.20594194865811, 0, False, 0, Nothing, 0)
         swDrawing.EditTemplate()
-        swDrawing.EditSheet()
+        swDrawing.EditSheet2()
 
         swModel.ClearSelection2(True)
 

@@ -62,6 +62,7 @@ public enum class EdmRefItemProperty : public System.Enum
 | Edmrip_CheckUnlock | 18 = R+W; Boolean; Check In container; check in file? |
 | Edmrip_FileName | 2 = R; string; All container; filename |
 | Edmrip_FoundPath | 7 = R; string; Check In container; file system path to folder where file is found |
+| Edmrip_HasReadPermission | 35 = Boolean; Has read permission? |
 | Edmrip_ID | 0 = R; string; All container; unique ID of the item in the container |
 | Edmrip_IncludedAs | 6 = R; string; Check In container; include path used to reference this file |
 | Edmrip_LockComputer | 4 = R; string; Check In container; name of computer where file is checked out |

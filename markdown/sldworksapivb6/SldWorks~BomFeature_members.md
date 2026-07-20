@@ -18,6 +18,7 @@ Members
 | Public Method GetConfigurationCount |  |
 | Public Method GetConfigurations |  |
 | Public Method GetFeature |  |
+| Public Method GetLinkToDisplayState |  |
 | Public Method GetReferencedModelName |  |
 | Public Method GetTableAnnotationCount |  |
 | Public Method GetTableAnnotations |  |
@@ -25,6 +26,7 @@ Members
 | Public Method IGetTableAnnotations |  |
 | Public Method ISetConfigurations |  |
 | Public Method SetConfigurations |  |
+| Public Method SetLinkToDisplayState |  |
 
 ## Public Properties
 

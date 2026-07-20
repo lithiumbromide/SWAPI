@@ -70,6 +70,7 @@ The following tables list the members exposed by[IFace2](SolidWorks.Interop.sldw
 | Method | GetTessTriStripNorms | Gets the normal vector for each of the triangles that make up the shaded picture tessellation for this face. |
 | Method | GetTessTriStrips | Gets the vertices that make up the shaded picture tessellation for this face. |
 | Method | GetTessTriStripSize | Gets the array size required for IFace2::GetTessTriStrips and IFace2::IGetTessTriStrips . |
+| Method | GetTessTriStripTextures | Gets the texture coordinate components for each vertex on each triangle strip on this face. |
 | Method | GetTexture | Gets the texture applied to this face in the specified configuration. |
 | Method | GetTrackingIDs | Gets the tracking IDs assigned to this face . |
 | Method | GetTrackingIDsCount | Gets the number of tracking IDs on this face. |
@@ -80,6 +81,7 @@ The following tables list the members exposed by[IFace2](SolidWorks.Interop.sldw
 | Method | GetTrimCurveTopologyTypes | Gets the types of elements in the trim curve topology for this face. |
 | Method | GetUVBounds | Gets the values that describe the U, V bounds of this face. |
 | Method | HasMaterialPropertyValues | Gets whether this face has an appearance. |
+| Method | HasTextureCoordinates | Gets whether this face has texture coordinates. |
 | Method | Highlight | Adds highlighting to or removes highlighting from a face. |
 | Method | ICreateSheetBody | Creates a sheet body from this face. |
 | Method | ICreateSheetBodyByFaceExtension | Creates a sheet body by extending the face. |

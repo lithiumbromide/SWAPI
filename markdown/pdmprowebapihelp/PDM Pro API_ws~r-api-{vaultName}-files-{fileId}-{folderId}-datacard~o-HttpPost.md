@@ -25,7 +25,7 @@ Expand All
 
 Description
 
-Gets the data card for the specified file
+Saves the data card for the specified file
 
 Parameters
 
@@ -177,6 +177,10 @@ Response (application/xml, text/xml)
 ```
 <boolean xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</boolean>
 ```
+
+Example
+
+[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
 
 See Also
 

@@ -41,6 +41,8 @@ Members
 | Public Method DestroyNotify |  |
 | Public Method DestroyNotify2 |  |
 | Public Method DimensionChangeNotify |  |
+| Public Method DisplayPaneCollapseNotify |  |
+| Public Method DisplayPaneExpandNotify |  |
 | Public Method DragStateChangeNotify |  |
 | Public Method DynamicHighlightNotify |  |
 | Public Method EquationEditorPostNotify |  |
