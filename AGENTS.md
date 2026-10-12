@@ -48,13 +48,13 @@ sed -n '1,220p' markdown/sldworksapi/<file>.md
 Regenerate Markdown:
 
 ```bash
-python3 scripts/convert_sw_api_docs.py API_HTML -o markdown
+python3 scripts/convert_sw_api_docs.py API_HTML -o markdown --clean
 ```
 
 Regenerate the LLM index:
 
 ```bash
-python3 scripts/build_llm_index.py markdown -o llm_index
+python3 scripts/build_llm_index.py markdown -o llm_index --api-version 2026
 ```
 
 ## Answering Style

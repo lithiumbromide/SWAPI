@@ -140,3 +140,6 @@ Write-Host "skipped:   $totalSkipped"
 Write-Host "errors:    $totalErrors"
 Write-Host "passes:    $pass"
 Write-Host "========================================"
+if ($totalErrors -gt 0) {
+    exit 1
+}

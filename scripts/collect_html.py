@@ -7,6 +7,8 @@ import argparse
 import shutil
 from pathlib import Path
 
+from pipeline_common import clean_output
+
 
 HTML_SUFFIXES = {".htm", ".html"}
 
@@ -30,8 +32,8 @@ def main() -> int:
     if not input_root.is_dir():
         raise SystemExit(f"Input directory does not exist: {input_root}")
 
-    if args.clean and output_root.exists():
-        shutil.rmtree(output_root)
+    if args.clean:
+        clean_output(output_root, input_root)
     output_root.mkdir(parents=True, exist_ok=True)
 
     copied = 0
