@@ -1,0 +1,27 @@
+#swapi-map 1 module=toolboxapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@Application	o
+Destroy	e	Event Destroy()
+MajorVersion	p	Property MajorVersion As Long
+PDMDocManager	p	Property PDMDocManager As PDMDocManager
+@CTbcApplication	o		prefix=ToolboxConfigurationApplicationLib~
+GetHWnd	m	Function GetHWnd() As Long
+GetHWnd64	m	Function GetHWnd64() As Unknown
+MajorVersion	p	Property MajorVersion As Long
+PDMDocManager	p	Property PDMDocManager As Object:PDMDocManager
+SendMessageToUser	m	Sub SendMessageToUser(ByVal message As String)
+@PDMDocManager	o
+AfterCopyingDocument	e	Event AfterCopyingDocument(ByVal FromFileName As String, ByVal ToFileName As String, ByVal DeleteSource As Long)
+AfterDeletingDocument	e	Event AfterDeletingDocument(ByVal fileName As String)
+AfterWritingToDocument	e	Event AfterWritingToDocument(ByVal fileName As String)
+BeforeCopyingDocument	e	Event BeforeCopyingDocument(ByVal FromFileName As String, ByVal ToFileName As String, ByVal DeleteSource As Long)
+BeforeDeletingDocument	e	Event BeforeDeletingDocument(ByVal fileName As String)
+BeforeWritingToDocument	e	Event BeforeWritingToDocument(ByVal fileName As String)
+Destroy	e	Event Destroy()
+NewDocumentAdded	e	Event NewDocumentAdded(ByVal fileName As String, ByVal ToolboxID As Long, ByVal AddedToBrowser As Long)
+PreInsertDocument	e	Event PreInsertDocument(ByVal fileName As String, ByVal ToolboxID As Long)
+SetCancelOperation	m	Function SetCancelOperation(ByVal cancelOp As Long) As Boolean
+SetDocumentStatus	m	Function SetDocumentStatus(ByVal status As Long:swPDMStatus_e) As Boolean
+SetManagedDocument	m	Function SetManagedDocument(ByVal fileName As String) As Boolean
+@ToolboxConfiguratorAddin	o		prefix=ToolboxConfigurationApplicationLib~
+Connect	m	Function Connect(ByVal pTbcApplication As Object:ToolBoxConfiguratorApplication, ByVal lCookie As Long) As Boolean
+Disconnect	m	Function Disconnect() As Boolean

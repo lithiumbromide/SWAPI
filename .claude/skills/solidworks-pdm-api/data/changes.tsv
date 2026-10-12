@@ -1,0 +1,17 @@
+added	EdmHistoryItem2.mbsComment	epdmapi
+added	EdmHistoryItem2.mbsDetails	epdmapi
+added	EdmHistoryItem2.mbsItemName	epdmapi
+added	EdmHistoryItem2.mbsUserName	epdmapi
+added	EdmHistoryItem2.meType	epdmapi
+added	EdmHistoryItem2.mlFileID	epdmapi
+added	EdmHistoryItem2.mlFolderID	epdmapi
+added	EdmHistoryItem2.mlUserID	epdmapi
+added	EdmHistoryItem2.mlVersion	epdmapi
+added	EdmHistoryItem2.moData	epdmapi
+added	EdmHistoryItem2.moDate	epdmapi
+obsoleted	IEdmAddCustomRefs.ShowEditReferencesDlg	obsolete>IEdmAddCustomRefs3.ShowEditReferencesDlg2
+added	IEdmAddCustomRefs3.ShowEditReferencesDlg2	epdmapi
+added	IEdmHistory5.GetEventDescription2	epdmapi
+added	IEdmHistory5.GetHistory2	epdmapi
+added	IEdmHistory5.GetSortedHistory2	epdmapi
+added	IEdmHistory5.Rollback2	epdmapi

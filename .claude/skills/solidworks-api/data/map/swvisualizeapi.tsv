@@ -1,0 +1,60 @@
+#swapi-map 1 module=swvisualizeapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@Delegates	i	.NET delegate types of this module	path=-
+ChangeRenderActionHandler	e	delegate void ChangeRenderActionHandler(RenderAction_e renderAction)	2025	obsolete	Handles render action changes.	swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.ChangeRenderActionHandler.md
+PreviewRequestHandler	e	delegate void PreviewRequestHandler(int w, int h)	2025	obsolete	Handles preview requests.	swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.PreviewRequestHandler.md
+@IBitmapImageSource	i	Allows access to the bitmap image source.
+GetPixels	m	byte[] GetPixels()	2026		Gets the raw pixel buffer of the bitmap image.
+Height	p	int Height {get;}	2026		Gets the height of the bitmap image in pixels.
+Width	p	int Width {get;}	2026		Gets the width of the bitmap image in pixels.
+@IRenderCallbackHandler	i	Allows access to the render callback handler.
+OnPreviewRequested	m	void OnPreviewRequested(int width, int height)	2026		Requests a preview image of the specified size from the rendering engine during an ongoing asynchronous render.
+OnRenderActionRequested	m	void OnRenderActionRequested(RenderAction_e renderAction)	2026		Sends the specified control instruction to the rendering engine during an ongoing asynchronous render.
+@IRendererPropertiesStatus	i	Allows access to renderer properties status.
+BitmapPreviewImageSource	p	System.Windows.Media.Imaging.BitmapSource BitmapPreviewImageSource {get;}	2025	obsolete>IRendererPropertiesStatus2.BitmapPreviewImageSource2
+CurrentProgress	p	float CurrentProgress {get;}	2025		Gets the current progress.
+ElapsedTime	p	TimeSpan ElapsedTime {get;}	2025		Gets the elapsed render time.
+FramesRendered	p	int FramesRendered {get;}	2025		Gets the number of rendered frames.
+RenderJobStatus	p	RenderJobStatus_e RenderJobStatus {get;}	2025		Gets the render job status.
+@IRendererPropertiesStatus2	i	Allows access to renderer properties status.	base=IRendererPropertiesStatus
+BitmapPreviewImageSource	p	System.Windows.Media.Imaging.BitmapSource BitmapPreviewImageSource {get;}	2025	obsolete>IRendererPropertiesStatus2.BitmapPreviewImageSource2
+BitmapPreviewImageSource2	p	IBitmapImageSource BitmapPreviewImageSource2 {get;}	2026		Gets the bitmap preview image source.
+CurrentProgress	p	float CurrentProgress {get;}	2025		Gets the current progress.
+ElapsedTime	p	TimeSpan ElapsedTime {get;}	2025		Gets the elapsed render time.
+FramesRendered	p	int FramesRendered {get;}	2025		Gets the number of rendered frames.
+RenderJobStatus	p	RenderJobStatus_e RenderJobStatus {get;}	2025		Gets the render job status.
+@IRenderNotificationHandler	i		status=obsolete>IRenderNotificationHandler2
+PreviewRequested	e	event PreviewRequestHandler PreviewRequested		obsolete	Fire this event to request a preview image during an on-going render.	swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderNotificationHandler~PreviewRequested_EV.md
+RenderActionChanged	e	event ChangeRenderActionHandler RenderActionChanged		obsolete	Fire this event to cancel (or cancel and save) an on-going render.	swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderNotificationHandler~RenderActionChanged_EV.md
+RendererPropertyChangedNotify	m	void RendererPropertyChangedNotify(RenderProperty_e renderProperty, IRendererPropertiesStatus rendererPropertiesStatus)	2025	obsolete>IRenderNotificationHandler2.RendererPropertyChangedNotify
+@IRenderNotificationHandler2	i	Allows access to the render notification handler.	use=1
+RendererPropertyChangedNotify	m	void RendererPropertyChangedNotify(RenderProperty_e renderProperty, IRendererPropertiesStatus2 rendererPropertiesStatus)	2026		Called whenever there is a change in a render property during an ongoing render operation.
+SetCallbackHandler	m	void SetCallbackHandler(IRenderCallbackHandler callbackHandler)	2026		Provides the handler implementation with a callback interface that can be used during asynchronous rendering to...
+@IRenderOptions	i	Allows access to the options for rendering.	via=IVisualizeAddinManager.RenderOptions	use=8
+DenoiserEnabled	p	bool DenoiserEnabled {get; set;}	2025		Gets or sets whether to enable the Denoiser for the render.
+FrameCount	p	int FrameCount {get; set;}	2025		Gets or sets the maximum frame count at which to terminate the render.
+Height	p	int Height {get; set;}	2025		Gets or sets the reference height of the render output.
+ImageFormat	p	ImageFormat_e ImageFormat {get; set;}	2025		Gets or sets the image format of the rendered output.
+IncludeAlpha	p	bool IncludeAlpha {get; set;}	2025		Gets or sets whether to export transparency information in the alpha channel of the rendered image(s).
+JobName	p	string JobName {get; set;}	2025		Gets or sets the subfolder and filename of the rendered output.
+Milliseconds	p	long Milliseconds {get; set;}	2025		Gets or sets the number of milliseconds to wait before terminating the render.
+OutputFolder	p	string OutputFolder {get; set;}	2025		Gets or sets the path to the folder to which the rendered output should be saved.
+TerminationMode	p	TerminationMode_e TerminationMode {get; set;}	2025		Gets or sets the criteria used to decide when a render is terminated.
+Width	p	int Width {get; set;}	2025		Gets or sets the reference width of the render output.
+@IVisualizeAddin	i	Allows access to the Visualize Addin to render photorealistic images using SOLIDWORKS Visualize.	use=2
+GetAddinManager	m	IVisualizeAddinManager GetAddinManager()	2025	obsolete>IVisualizeAddin2.GetAddinManager2
+@IVisualizeAddin2	i	Allows access to the Visualize Addin to render photorealistic images using SOLIDWORKS Visualize.	base=IVisualizeAddin	use=1
+GetAddinManager	m	IVisualizeAddinManager GetAddinManager()	2025	obsolete>IVisualizeAddin2.GetAddinManager2
+GetAddinManager2	m	IVisualizeAddinManager2 GetAddinManager2()	2026		Gets the SOLIDWORKS Visualize Add-in Manager.
+@IVisualizeAddinManager	i	Allows access to the Visualize Addin Manager.	via=IVisualizeAddin.GetAddinManager	use=3
+Render	m	bool Render()	2025		Renders synchronously.
+RenderOptions	p	IRenderOptions RenderOptions {get;}	2025		Gets various render parameters that control aspects such as the location of the output, the image file type and...
+Save	m	void Save(string filename)	2025	obsolete>IVisualizeAddinManager2.SaveWithPartGrouping
+StartRender	m	bool StartRender(IRenderNotificationHandler renderNotificationHandler)	2025	obsolete>IVisualizeAddinManager2.StartRender2
+@IVisualizeAddinManager2	i	Allows access to the Visualize Addin Manager.	via=IVisualizeAddin2.GetAddinManager2	base=IVisualizeAddinManager	use=2
+LaunchVisualize	m	void LaunchVisualize(string filename)	2026		Launches the latest installed version of SOLIDWORKS Visualize and optionally opens a project file.
+Render	m	bool Render()	2025		Renders synchronously.
+RenderOptions	p	IRenderOptions RenderOptions {get;}	2025		Gets various render parameters that control aspects such as the location of the output, the image file type and...
+Save	m	void Save(string filename)	2025	obsolete>IVisualizeAddinManager2.SaveWithPartGrouping
+SaveWithPartGrouping	m	void SaveWithPartGrouping(string filename, PartGroupingMode_e partGroupingMode)	2026		Exports the currently loaded SOLIDWORKS model to a Visualize Project file (*.SVPJ).
+StartRender	m	bool StartRender(IRenderNotificationHandler renderNotificationHandler)	2025	obsolete>IVisualizeAddinManager2.StartRender2
+StartRender2	m	bool StartRender2(object renderNotificationHandler:IRenderNotificationHandler2)	2026		Renders asynchronously.

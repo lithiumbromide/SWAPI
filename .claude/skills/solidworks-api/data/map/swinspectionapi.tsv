@@ -1,0 +1,319 @@
+#swapi-map 1 module=swinspectionapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@BalloonSettings	i		base=IBalloonSettings
+Apply	m	bool Apply()	2022		Applies any modified balloon settings and re-balloons the model.
+AttachToCharacteristic	p	bool AttachToCharacteristic {get; set;}	2022		Gets and sets whether to attach this balloon to each characteristic (item extracted from the drawing).
+Fit	p	int:swiBalloonSettingsFit_e Fit {get; set;}	2022		Gets and sets the number of digits that fit in a regular characteristic balloon.
+GetOffsets	m	bool GetOffsets(int Type:swiBalloonSettingsOffsetTypes_e, out bool IsVisible, out double X_Offset, out double Y_Offset)	2022		Gets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+KeyCharFit	p	int:swiBalloonSettingsFit_e KeyCharFit {get; set;}	2022		Gets and sets the number of digits that fit in a key characteristic balloon.
+KeyCharPrefix	p	string KeyCharPrefix {get; set;}	2022		Gets and sets the prefix to add to the balloons for key characteristics.
+KeyCharShape	p	int:swiBalloonSettingsShape_e KeyCharShape {get; set;}	2022		Gets and sets the balloon shape for key characteristics.
+Layer	p	int:swiBalloonSettingLayer_e Layer {get; set;}	2022		Gets and sets the drawing layer to which to add this balloon.
+Prefix	p	string Prefix {get; set;}	2022		Gets and sets the prefix to add to the balloons of regular characteristics.
+RotateToMatchCharacteristic	p	bool RotateToMatchCharacteristic {get; set;}	2022		Gets and sets whether to rotate this balloon to match the angle of the characteristic.
+SetOffsets	m	bool SetOffsets(int Type:swiBalloonSettingsOffsetTypes_e, bool IsVisible, double X_Offset, double Y_Offset)	2022		Sets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+Shape	p	int:swiBalloonSettingsShape_e Shape {get; set;}	2022		Gets and sets the balloon shape for regular characteristics.
+UserSpecifiedLayer	p	string UserSpecifiedLayer {get; set;}	2022		Gets and sets the user-specified layer.
+@BalloonSettingsClass	c	Allows access to inspection balloon settings.	base=BalloonSettings,IBalloonSettings
+Apply	m	bool Apply()	2022		Applies any modified balloon settings and re-balloons the model.
+AttachToCharacteristic	p	bool AttachToCharacteristic {get; set;}	2022		Gets and sets whether to attach this balloon to each characteristic (item extracted from the drawing).
+Fit	p	int Fit {get; set;}	2022		Gets and sets the number of digits that fit in a regular characteristic balloon.
+GetOffsets	m	bool GetOffsets(int Type, out bool IsVisible, out double X_Offset, out double Y_Offset)	2022		Gets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+KeyCharFit	p	int KeyCharFit {get; set;}	2022		Gets and sets the number of digits that fit in a key characteristic balloon.
+KeyCharPrefix	p	string KeyCharPrefix {get; set;}	2022		Gets and sets the prefix to add to the balloons for key characteristics.
+KeyCharShape	p	int KeyCharShape {get; set;}	2022		Gets and sets the balloon shape for key characteristics.
+Layer	p	int Layer {get; set;}	2022		Gets and sets the drawing layer to which to add this balloon.
+Prefix	p	string Prefix {get; set;}	2022		Gets and sets the prefix to add to the balloons of regular characteristics.
+RotateToMatchCharacteristic	p	bool RotateToMatchCharacteristic {get; set;}	2022		Gets and sets whether to rotate this balloon to match the angle of the characteristic.
+SetOffsets	m	bool SetOffsets(int Type, bool IsVisible, double X_Offset, double Y_Offset)	2022		Sets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+Shape	p	int Shape {get; set;}	2022		Gets and sets the balloon shape for regular characteristics.
+UserSpecifiedLayer	p	string UserSpecifiedLayer {get; set;}	2022		Gets and sets the user-specified layer.
+@CharacteristicsData	i		base=ICharacteristicsData
+Accept	p	string Accept {get;}	2022		Gets the threshold of defective units for accepting the entire lot.
+AQL	p	string AQL {get; set;}	2022		Gets and sets the acceptable quality level (AQL) for this characteristic.
+CharId	p	double CharId {get;}	2022		Gets the unique ID of the individual characteristic.
+CharZone	p	string CharZone {get;}	2022		Gets the grid location of this characteristic.
+Classification	p	int:swiCharacteristicClassification_e Classification {get; set;}	2022		Gets and sets the classification of defects for this characteristic.
+Comments	p	string Comments {get; set;}	2022		Gets and sets the comment for this characteristic.
+ConfigurationName	p	string ConfigurationName {get;}	2022		Gets the SOLIDWORKS configuration associated with this characteristic.
+ID	p	string ID {get;}	2022		Gets the GUID of this characteristic data set.
+Key	p	bool Key {get; set;}	2022		Gets and sets whether this characteristic is a key characteristic.
+LowerLimit	p	string LowerLimit {get; set;}	2022		Gets and sets the absolute lower limit of this characteristic's dimension.
+Method	p	string Method {get; set;}	2022		Gets and sets the inspection method used for this characteristic.
+Operation	p	string Operation {get; set;}	2022		Gets and sets the inspection process used for this characteristic.
+Quantity	p	int Quantity {get; set;}	2022		Gets and sets the number of this characteristic.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether this characteristic is a reference dimension.
+Reject	p	string Reject {get;}	2022		Gets the threshold of defective units for rejecting the entire lot.
+SampleSize	p	string SampleSize {get;}	2022		Gets and sets the sample size for this characteristic.
+Selected	p	bool Selected {get; set;}	2022		Gets and sets whether to include this characteristic in the inspection report.
+Sheet	p	string Sheet {get;}	2022		Gets the SOLIDWORKS drawing sheet where this characteristic is located.
+SubType	p	int:swiCharacteristicSubType_e SubType {get;}	2022		Gets the sub-type of this characteristic.
+ToleranceMinus	p	string ToleranceMinus {get; set;}	2022		Gets and sets this characteristic's lower tolerance value.
+TolerancePlus	p	string TolerancePlus {get; set;}	2022		Gets and sets this characteristic's upper tolerance value.
+Units	p	string Units {get;}	2022		Gets the units for this characteristic's nominal and tolerance values.
+UpperLimit	p	string UpperLimit {get; set;}	2022		Gets and sets the absolute upper limit of this characteristic's dimension.
+Value	p	string Value {get; set;}	2022		Gets and sets the value of this characteristic.
+View	p	string View {get;}	2022		Gets the SOLIDWORKS drawing view with which this characteristic is associated.
+@CharacteristicsDataClass	c	Allows access to characteristics data.	base=CharacteristicsData,ICharacteristicsData
+Accept	p	string Accept {get;}	2022		Gets the threshold of defective units for accepting the entire lot.
+AQL	p	string AQL {get; set;}	2022		Gets and sets the acceptable quality level (AQL) for this characteristic.
+CharId	p	double CharId {get;}	2022		Gets the unique ID of the individual characteristic.
+CharZone	p	string CharZone {get;}	2022		Gets the grid location of this characteristic.
+Classification	p	int Classification {get; set;}	2022		Gets and sets the classification of defects for this characteristic.
+Comments	p	string Comments {get; set;}	2022		Gets and sets the comment for this characteristic.
+ConfigurationName	p	string ConfigurationName {get;}	2022		Gets the SOLIDWORKS configuration associated with this characteristic.
+ID	p	string ID {get;}	2022		Gets the GUID of this characteristic data set.
+Key	p	bool Key {get; set;}	2022		Gets and sets whether this characteristic is a key characteristic.
+LowerLimit	p	string LowerLimit {get; set;}	2022		Gets and sets the absolute lower limit of this characteristic's dimension.
+Method	p	string Method {get; set;}	2022		Gets and sets the inspection method used for this characteristic.
+Operation	p	string Operation {get; set;}	2022		Gets and sets the inspection process used for this characteristic.
+Quantity	p	int Quantity {get; set;}	2022		Gets and sets the number of this characteristic.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether this characteristic is a reference dimension.
+Reject	p	string Reject {get;}	2022		Gets the threshold of defective units for rejecting the entire lot.
+SampleSize	p	string SampleSize {get;}	2022		Gets and sets the sample size for this characteristic.
+Selected	p	bool Selected {get; set;}	2022		Gets and sets whether to include this characteristic in the inspection report.
+Sheet	p	string Sheet {get;}	2022		Gets the SOLIDWORKS drawing sheet where this characteristic is located.
+SubType	p	int SubType {get;}	2022		Gets the sub-type of this characteristic.
+ToleranceMinus	p	string ToleranceMinus {get; set;}	2022		Gets and sets this characteristic's lower tolerance value.
+TolerancePlus	p	string TolerancePlus {get; set;}	2022		Gets and sets this characteristic's upper tolerance value.
+Units	p	string Units {get;}	2022		Gets the units for this characteristic's nominal and tolerance values.
+UpperLimit	p	string UpperLimit {get; set;}	2022		Gets and sets the absolute upper limit of this characteristic's dimension.
+Value	p	string Value {get; set;}	2022		Gets and sets the value of this characteristic.
+View	p	string View {get;}	2022		Gets the SOLIDWORKS drawing view with which this characteristic is associated.
+@IBalloonSettings	i	Allows access to inspection balloon settings.	via=IInspectionAddinMgr.GetBalloonSettings
+Apply	m	bool Apply()	2022		Applies any modified balloon settings and re-balloons the model.
+AttachToCharacteristic	p	bool AttachToCharacteristic {get; set;}	2022		Gets and sets whether to attach this balloon to each characteristic (item extracted from the drawing).
+Fit	p	int:swiBalloonSettingsFit_e Fit {get; set;}	2022		Gets and sets the number of digits that fit in a regular characteristic balloon.
+GetOffsets	m	bool GetOffsets(int Type:swiBalloonSettingsOffsetTypes_e, out bool IsVisible, out double X_Offset, out double Y_Offset)	2022		Gets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+KeyCharFit	p	int:swiBalloonSettingsFit_e KeyCharFit {get; set;}	2022		Gets and sets the number of digits that fit in a key characteristic balloon.
+KeyCharPrefix	p	string KeyCharPrefix {get; set;}	2022		Gets and sets the prefix to add to the balloons for key characteristics.
+KeyCharShape	p	int:swiBalloonSettingsShape_e KeyCharShape {get; set;}	2022		Gets and sets the balloon shape for key characteristics.
+Layer	p	int:swiBalloonSettingLayer_e Layer {get; set;}	2022		Gets and sets the drawing layer to which to add this balloon.
+Prefix	p	string Prefix {get; set;}	2022		Gets and sets the prefix to add to the balloons of regular characteristics.
+RotateToMatchCharacteristic	p	bool RotateToMatchCharacteristic {get; set;}	2022		Gets and sets whether to rotate this balloon to match the angle of the characteristic.
+SetOffsets	m	bool SetOffsets(int Type:swiBalloonSettingsOffsetTypes_e, bool IsVisible, double X_Offset, double Y_Offset)	2022		Sets whether to balloon the specified offset type in the document and gets the current offsets for the specified...
+Shape	p	int:swiBalloonSettingsShape_e Shape {get; set;}	2022		Gets and sets the balloon shape for regular characteristics.
+UserSpecifiedLayer	p	string UserSpecifiedLayer {get; set;}	2022		Gets and sets the user-specified layer.
+@ICharacteristicsData	i	Allows access to characteristics data.	via=IInspectionAddinMgr.AddCharacteristics,IInspectionAddinMgr.GetCharacteristicsData
+Accept	p	string Accept {get;}	2022		Gets the threshold of defective units for accepting the entire lot.
+AQL	p	string AQL {get; set;}	2022		Gets and sets the acceptable quality level (AQL) for this characteristic.
+CharId	p	double CharId {get;}	2022		Gets the unique ID of the individual characteristic.
+CharZone	p	string CharZone {get;}	2022		Gets the grid location of this characteristic.
+Classification	p	int:swiCharacteristicClassification_e Classification {get; set;}	2022		Gets and sets the classification of defects for this characteristic.
+Comments	p	string Comments {get; set;}	2022		Gets and sets the comment for this characteristic.
+ConfigurationName	p	string ConfigurationName {get;}	2022		Gets the SOLIDWORKS configuration associated with this characteristic.
+ID	p	string ID {get;}	2022		Gets the GUID of this characteristic data set.
+Key	p	bool Key {get; set;}	2022		Gets and sets whether this characteristic is a key characteristic.
+LowerLimit	p	string LowerLimit {get; set;}	2022		Gets and sets the absolute lower limit of this characteristic's dimension.
+Method	p	string Method {get; set;}	2022		Gets and sets the inspection method used for this characteristic.
+Operation	p	string Operation {get; set;}	2022		Gets and sets the inspection process used for this characteristic.
+Quantity	p	int Quantity {get; set;}	2022		Gets and sets the number of this characteristic.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether this characteristic is a reference dimension.
+Reject	p	string Reject {get;}	2022		Gets the threshold of defective units for rejecting the entire lot.
+SampleSize	p	string SampleSize {get;}	2022		Gets and sets the sample size for this characteristic.
+Selected	p	bool Selected {get; set;}	2022		Gets and sets whether to include this characteristic in the inspection report.
+Sheet	p	string Sheet {get;}	2022		Gets the SOLIDWORKS drawing sheet where this characteristic is located.
+SubType	p	int:swiCharacteristicSubType_e SubType {get;}	2022		Gets the sub-type of this characteristic.
+ToleranceMinus	p	string ToleranceMinus {get; set;}	2022		Gets and sets this characteristic's lower tolerance value.
+TolerancePlus	p	string TolerancePlus {get; set;}	2022		Gets and sets this characteristic's upper tolerance value.
+Units	p	string Units {get;}	2022		Gets the units for this characteristic's nominal and tolerance values.
+UpperLimit	p	string UpperLimit {get; set;}	2022		Gets and sets the absolute upper limit of this characteristic's dimension.
+Value	p	string Value {get; set;}	2022		Gets and sets the value of this characteristic.
+View	p	string View {get;}	2022		Gets the SOLIDWORKS drawing view with which this characteristic is associated.
+@IInspectionAddinMgr	i	Allows access to the inspection add-in manager.	via=ISldWorks.GetAddInObject	use=1
+AddCharacteristics	m	object:ICharacteristicsData AddCharacteristics(ref object AnnotationsIn)	2022		Adds characteristics for the specified annotations.
+AddInspectionMethod	m	bool AddInspectionMethod(string MethodName)	2022		Adds the specified inspection method to the list of inspection methods.
+AddOperation	m	bool AddOperation(string Operation)	2022		Adds the specified operation to the list of operations.
+AddOrEditBalloons	m	bool AddOrEditBalloons(object BalloonSettings:IBalloonSettings)	2022		Specifies settings for adding or modifying balloons in a drawing.
+AddVendor	m	bool AddVendor(string VendorName, int VendorType:swiVendorsInspectionType_e)	2022		Adds the specified vendor to the list of vendors.
+CreateInspectionProject	m	object:IInspectionProject CreateInspectionProject(object InspectionProjectData:IInspectionProjectData, bool DeleteOld, out int ErrorCode:swiErrorCode_e)	2022		Creates an inspection project using the specified template and project data and balloons the model.
+CreateInspectionProjectData	m	object:IInspectionProjectData CreateInspectionProjectData(string TemplatePathIn)	2022		Creates inspection project data.
+DeleteInspectionMethods	m	object DeleteInspectionMethods(ref object MethodList)	2022		Deletes the specified inspection methods.
+DeleteOperations	m	object DeleteOperations(ref object OperationList)	2022		Deletes the specified operations.
+DeleteVendors	m	object DeleteVendors(ref object VendorList)	2022		Deletes the specified vendors.
+EditInspectionMethod	m	bool EditInspectionMethod(string MethodID, string MethodName)	2022		Edits the specified inspection method.
+EditInspectionProject	m	bool EditInspectionProject(object InspectionProjectData:IInspectionProjectData)	2022		Edits the inspection project and re-balloons the model.
+GetBalloonSettings	m	object:IBalloonSettings GetBalloonSettings()	2022		Gets a balloon settings object.
+GetCharacteristicIDs	m	object GetCharacteristicIDs()	2022		Gets the characteristic IDs.
+GetCharacteristicsData	m	object:ICharacteristicsData GetCharacteristicsData(double CharId)	2022		Gets the specified characteristic data.
+GetInspectionMethods	m	bool GetInspectionMethods(out object MethodList, out object MethodIDs)	2022		Gets the list of inspection methods.
+GetInspectionProject	m	object:IInspectionProject GetInspectionProject()	2022		Gets an inspection project.
+GetInspectionProjectData	m	object:IInspectionProjectData GetInspectionProjectData()	2022		Gets the inspection project data object.
+GetOperations	m	bool GetOperations(out object OperationList, out object OperationIDs)	2022		Gets the list of operations.
+GetVendors	m	bool GetVendors(out object VendorList)	2022		Gets the list of vendors.
+RemoveBalloons	m	bool RemoveBalloons()	2022		Removes all balloons.
+SelectBalloons	m	bool SelectBalloons()	2022		Selects all balloons.
+@IInspectionProject	i	Allows exporting an inspection project.	via=IInspectionAddinMgr.CreateInspectionProject,IInspectionAddinMgr.GetInspectionProject
+ExportTo2DPDF	m	bool ExportTo2DPDF(string FilePath)	2022		Exports the inspection report in 2D PDF format.
+ExportTo3DPDF	m	bool ExportTo3DPDF(string FilePath)	2022		Exports the inspection report in 3D PDF format.
+ExportToEDrawings	m	bool ExportToEDrawings(string FilePath)	2022		Exports the inspection report to eDrawings.
+ExportToExcel	m	bool ExportToExcel(string TemplatePath, string FilePath, bool Multisheet)	2022		Exports the inspection report to Microsoft Excel.
+@IInspectionProjectData	i	Allows access to inspection project data.	via=IInspectionAddinMgr.CreateInspectionProjectData,IInspectionAddinMgr.GetInspectionProjectData
+AQL	p	string AQL {get; set;}	2022		Gets and sets the sampling acceptable quality level (AQL) for this inspection project.
+AutoBalloon	p	bool AutoBalloon {get; set;}	2022		Gets and sets whether to autoballoon drawings in this inspection project.
+AutoExplodeHoleCallout	p	bool AutoExplodeHoleCallout {get; set;}	2022		Gets and sets whether to auto-explode hole callouts.
+Basic	p	bool Basic {get; set;}	2022		Gets and sets whether to extract basic dimensions from the drawing for this inspection project.
+Classification	p	int:swiCharacteristicClassification_e Classification {get; set;}	2022		Gets and sets the defect classification for this inspection project.
+CreateForEachInstance	p	bool CreateForEachInstance {get; set;}	2022		Gets and sets whether to create a separate instance for characteristics having a quantity of more than one.
+DocumentName	p	string DocumentName {get; set;}	2022		Gets and sets the document name for this inspection report.
+DocumentNumber	p	string DocumentNumber {get; set;}	2022		Gets and sets the document number for this inspection report.
+DocumentRevision	p	string DocumentRevision {get; set;}	2022		Gets and sets the document revision for this inspection report.
+Extraction	p	int:swiCharacteristicInfoExtraction_e Extraction {get; set;}	2022		Gets and sets the type of extraction for this inspection project.
+ExtractionCriteria	p	string ExtractionCriteria {get; set;}	2022		Gets and sets the regular expression to filter notes for this inspection project.
+Feature	p	bool Feature {get; set;}	2022		Gets and sets whether to extract feature dimensions from the drawing for this inspection project.
+IncludeDimensions	p	bool IncludeDimensions {get; set;}	2022		Gets and sets whether to extract all dimension types from the drawing for this inspection project.
+IncludeGDT	p	bool IncludeGDT {get; set;}	2022		Gets and sets whether to extract geometric tolerance symbols from the drawing for this inspection project.
+IncludeHoleCallout	p	bool IncludeHoleCallout {get; set;}	2022		Gets and sets whether to extract hole callouts from the drawing for this inspection project.
+IncludeHoleTable	p	bool IncludeHoleTable {get; set;}	2022		Gets and sets whether to extract hole tables from the drawing for this inspection project.
+IncludeNotes	p	bool IncludeNotes {get; set;}	2022		Gets and sets whether to extract all notes from the drawing for this inspection project.
+IncludeSurfaceFinish	p	bool IncludeSurfaceFinish {get; set;}	2022		Gets and sets whether to extract surface finishes from the drawing for this inspection project.
+IncludeWeld	p	bool IncludeWeld {get; set;}	2022		Gets and sets whether to extract welds from the drawing for this inspection project.
+InspectionOnly	p	bool InspectionOnly {get; set;}	2022		Gets and sets whether to extract inspection-only dimensions from the drawing for this inspection project.
+JobNumber	p	string JobNumber {get; set;}	2022		Gets and sets the job number for this inspection report.
+Level	p	int:swiSamplingLevel_e Level {get; set;}	2022		Gets and sets the sampling level for this inspection project.
+LotSize	p	int LotSize {get; set;}	2022		Gets and sets the sampling lot size for this inspection project.
+NotesAutoExplode	p	bool NotesAutoExplode {get; set;}	2022		Gets and sets whether to create a separate instance for each section of the note.
+OverriddenValue	p	bool OverriddenValue {get; set;}	2022		Gets and sets whether to extract overridden dimension values from the drawing for this inspection project.
+PartName	p	string PartName {get; set;}	2022		Gets and sets the part name for this inspection report.
+PartNumber	p	string PartNumber {get; set;}	2022		Gets and sets the part number for this inspection report.
+PartRevision	p	string PartRevision {get; set;}	2022		Gets and sets the part revision for this inspection report.
+PreventAutoReNumbering	p	bool PreventAutoReNumbering {get; set;}	2022		Gets and sets whether to re-order balloons when one is removed.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether to extract driven (e.g., read-only) dimensions from the drawing for this inspection project.
+SamplingType	p	int:swiSamplingType_e SamplingType {get; set;}	2022		Gets and sets the statistical sampling type for this inspection project.
+SecondaryUnits	p	bool SecondaryUnits {get; set;}	2022		Gets and sets whether to extract dual dimensions from the drawing for this inspection project.
+SheetFormat	p	bool SheetFormat {get; set;}	2022		Gets and sets whether to extract sheet format notes from the drawing for this inspection project.
+Sort	p	int:swiCharacteristicInfoSort_e Sort {get; set;}	2022		Gets and sets the ballooning arrangement for this inspection project.
+SplitChamferDimensions	p	bool SplitChamferDimensions {get; set;}	2022		Gets and sets whether to treat each part of a chamfer dimension as a separate characteristic for this inspection...
+StartNumber	p	int StartNumber {get; set;}	2022		Gets and sets the starting balloon number for this inspection project.
+Vendor	p	string Vendor {get; set;}	2022		Gets and sets the vendor for this inspection report.
+@InspectionAddinMgr	i		base=IInspectionAddinMgr
+AddCharacteristics	m	object:ICharacteristicsData AddCharacteristics(ref object AnnotationsIn)	2022		Adds characteristics for the specified annotations.
+AddInspectionMethod	m	bool AddInspectionMethod(string MethodName)	2022		Adds the specified inspection method to the list of inspection methods.
+AddOperation	m	bool AddOperation(string Operation)	2022		Adds the specified operation to the list of operations.
+AddOrEditBalloons	m	bool AddOrEditBalloons(object BalloonSettings:IBalloonSettings)	2022		Specifies settings for adding or modifying balloons in a drawing.
+AddVendor	m	bool AddVendor(string VendorName, int VendorType:swiVendorsInspectionType_e)	2022		Adds the specified vendor to the list of vendors.
+CreateInspectionProject	m	object:IInspectionProject CreateInspectionProject(object InspectionProjectData:IInspectionProjectData, bool DeleteOld, out int ErrorCode:swiErrorCode_e)	2022		Creates an inspection project using the specified template and project data and balloons the model.
+CreateInspectionProjectData	m	object:IInspectionProjectData CreateInspectionProjectData(string TemplatePathIn)	2022		Creates inspection project data.
+DeleteInspectionMethods	m	object DeleteInspectionMethods(ref object MethodList)	2022		Deletes the specified inspection methods.
+DeleteOperations	m	object DeleteOperations(ref object OperationList)	2022		Deletes the specified operations.
+DeleteVendors	m	object DeleteVendors(ref object VendorList)	2022		Deletes the specified vendors.
+EditInspectionMethod	m	bool EditInspectionMethod(string MethodID, string MethodName)	2022		Edits the specified inspection method.
+EditInspectionProject	m	bool EditInspectionProject(object InspectionProjectData:IInspectionProjectData)	2022		Edits the inspection project and re-balloons the model.
+GetBalloonSettings	m	object:IBalloonSettings GetBalloonSettings()	2022		Gets a balloon settings object.
+GetCharacteristicIDs	m	object GetCharacteristicIDs()	2022		Gets the characteristic IDs.
+GetCharacteristicsData	m	object:ICharacteristicsData GetCharacteristicsData(double CharId)	2022		Gets the specified characteristic data.
+GetInspectionMethods	m	bool GetInspectionMethods(out object MethodList, out object MethodIDs)	2022		Gets the list of inspection methods.
+GetInspectionProject	m	object:IInspectionProject GetInspectionProject()	2022		Gets an inspection project.
+GetInspectionProjectData	m	object:IInspectionProjectData GetInspectionProjectData()	2022		Gets the inspection project data object.
+GetOperations	m	bool GetOperations(out object OperationList, out object OperationIDs)	2022		Gets the list of operations.
+GetVendors	m	bool GetVendors(out object VendorList)	2022		Gets the list of vendors.
+RemoveBalloons	m	bool RemoveBalloons()	2022		Removes all balloons.
+SelectBalloons	m	bool SelectBalloons()	2022		Selects all balloons.
+@InspectionAddinMgrClass	c	Allows access to the inspection add-in manager.	base=IInspectionAddinMgr,InspectionAddinMgr
+AddCharacteristics	m	object AddCharacteristics(ref object AnnotationsIn)	2022		Adds characteristics for the specified annotations.
+AddInspectionMethod	m	bool AddInspectionMethod(string MethodName)	2022		Adds the specified inspection method to the list of inspection methods.
+AddOperation	m	bool AddOperation(string Operation)	2022		Adds the specified operation to the list of operations.
+AddOrEditBalloons	m	bool AddOrEditBalloons(object BalloonSettings)	2022		Specifies settings for adding or modifying balloons in a drawing.
+AddVendor	m	bool AddVendor(string VendorName, int VendorType)	2022		Adds the specified vendor to the list of vendors.
+CreateInspectionProject	m	object CreateInspectionProject(object InspectionProjectData, bool DeleteOld, out int ErrorCode)	2022		Creates an inspection project using the specified template and project data and balloons the model.
+CreateInspectionProjectData	m	object CreateInspectionProjectData(string TemplatePathIn)	2022		Creates inspection project data.
+DeleteInspectionMethods	m	object DeleteInspectionMethods(ref object MethodList)	2022		Deletes the specified inspection methods.
+DeleteOperations	m	object DeleteOperations(ref object OperationList)	2022		Deletes the specified operations.
+DeleteVendors	m	object DeleteVendors(ref object VendorList)	2022		Deletes the specified vendors.
+EditInspectionMethod	m	bool EditInspectionMethod(string MethodID, string MethodName)	2022		Edits the specified inspection method.
+EditInspectionProject	m	bool EditInspectionProject(object InspectionProjectData)	2022		Edits the inspection project and re-balloons the model.
+GetBalloonSettings	m	object GetBalloonSettings()	2022		Gets a balloon settings object.
+GetCharacteristicIDs	m	object GetCharacteristicIDs()	2022		Gets the characteristic IDs.
+GetCharacteristicsData	m	object GetCharacteristicsData(double CharId)	2022		Gets the specified characteristic data.
+GetInspectionMethods	m	bool GetInspectionMethods(out object MethodList, out object MethodIDs)	2022		Gets the list of inspection methods.
+GetInspectionProject	m	object GetInspectionProject()	2022		Gets an inspection project.
+GetInspectionProjectData	m	object GetInspectionProjectData()	2022		Gets the inspection project data object.
+GetOperations	m	bool GetOperations(out object OperationList, out object OperationIDs)	2022		Gets the list of operations.
+GetVendors	m	bool GetVendors(out object VendorList)	2022		Gets the list of vendors.
+RemoveBalloons	m	bool RemoveBalloons()	2022		Removes all balloons.
+SelectBalloons	m	bool SelectBalloons()	2022		Selects all balloons.
+@InspectionProject	i		base=IInspectionProject
+ExportTo2DPDF	m	bool ExportTo2DPDF(string FilePath)	2022		Exports the inspection report in 2D PDF format.
+ExportTo3DPDF	m	bool ExportTo3DPDF(string FilePath)	2022		Exports the inspection report in 3D PDF format.
+ExportToEDrawings	m	bool ExportToEDrawings(string FilePath)	2022		Exports the inspection report to eDrawings.
+ExportToExcel	m	bool ExportToExcel(string TemplatePath, string FilePath, bool Multisheet)	2022		Exports the inspection report to Microsoft Excel.
+@InspectionProjectClass	c	Allows exporting an inspection project.	base=IInspectionProject,InspectionProject
+ExportTo2DPDF	m	bool ExportTo2DPDF(string FilePath)	2022		Exports the inspection report in 2D PDF format.
+ExportTo3DPDF	m	bool ExportTo3DPDF(string FilePath)	2022		Exports the inspection report in 3D PDF format.
+ExportToEDrawings	m	bool ExportToEDrawings(string FilePath)	2022		Exports the inspection report to eDrawings.
+ExportToExcel	m	bool ExportToExcel(string TemplatePath, string FilePath, bool Multisheet)	2022		Exports the inspection report to Microsoft Excel.
+@InspectionProjectData	i		base=IInspectionProjectData
+AQL	p	string AQL {get; set;}	2022		Gets and sets the sampling acceptable quality level (AQL) for this inspection project.
+AutoBalloon	p	bool AutoBalloon {get; set;}	2022		Gets and sets whether to autoballoon drawings in this inspection project.
+AutoExplodeHoleCallout	p	bool AutoExplodeHoleCallout {get; set;}	2022		Gets and sets whether to auto-explode hole callouts.
+Basic	p	bool Basic {get; set;}	2022		Gets and sets whether to extract basic dimensions from the drawing for this inspection project.
+Classification	p	int:swiCharacteristicClassification_e Classification {get; set;}	2022		Gets and sets the defect classification for this inspection project.
+CreateForEachInstance	p	bool CreateForEachInstance {get; set;}	2022		Gets and sets whether to create a separate instance for characteristics having a quantity of more than one.
+DocumentName	p	string DocumentName {get; set;}	2022		Gets and sets the document name for this inspection report.
+DocumentNumber	p	string DocumentNumber {get; set;}	2022		Gets and sets the document number for this inspection report.
+DocumentRevision	p	string DocumentRevision {get; set;}	2022		Gets and sets the document revision for this inspection report.
+Extraction	p	int:swiCharacteristicInfoExtraction_e Extraction {get; set;}	2022		Gets and sets the type of extraction for this inspection project.
+ExtractionCriteria	p	string ExtractionCriteria {get; set;}	2022		Gets and sets the regular expression to filter notes for this inspection project.
+Feature	p	bool Feature {get; set;}	2022		Gets and sets whether to extract feature dimensions from the drawing for this inspection project.
+IncludeDimensions	p	bool IncludeDimensions {get; set;}	2022		Gets and sets whether to extract all dimension types from the drawing for this inspection project.
+IncludeGDT	p	bool IncludeGDT {get; set;}	2022		Gets and sets whether to extract geometric tolerance symbols from the drawing for this inspection project.
+IncludeHoleCallout	p	bool IncludeHoleCallout {get; set;}	2022		Gets and sets whether to extract hole callouts from the drawing for this inspection project.
+IncludeHoleTable	p	bool IncludeHoleTable {get; set;}	2022		Gets and sets whether to extract hole tables from the drawing for this inspection project.
+IncludeNotes	p	bool IncludeNotes {get; set;}	2022		Gets and sets whether to extract all notes from the drawing for this inspection project.
+IncludeSurfaceFinish	p	bool IncludeSurfaceFinish {get; set;}	2022		Gets and sets whether to extract surface finishes from the drawing for this inspection project.
+IncludeWeld	p	bool IncludeWeld {get; set;}	2022		Gets and sets whether to extract welds from the drawing for this inspection project.
+InspectionOnly	p	bool InspectionOnly {get; set;}	2022		Gets and sets whether to extract inspection-only dimensions from the drawing for this inspection project.
+JobNumber	p	string JobNumber {get; set;}	2022		Gets and sets the job number for this inspection report.
+Level	p	int:swiSamplingLevel_e Level {get; set;}	2022		Gets and sets the sampling level for this inspection project.
+LotSize	p	int LotSize {get; set;}	2022		Gets and sets the sampling lot size for this inspection project.
+NotesAutoExplode	p	bool NotesAutoExplode {get; set;}	2022		Gets and sets whether to create a separate instance for each section of the note.
+OverriddenValue	p	bool OverriddenValue {get; set;}	2022		Gets and sets whether to extract overridden dimension values from the drawing for this inspection project.
+PartName	p	string PartName {get; set;}	2022		Gets and sets the part name for this inspection report.
+PartNumber	p	string PartNumber {get; set;}	2022		Gets and sets the part number for this inspection report.
+PartRevision	p	string PartRevision {get; set;}	2022		Gets and sets the part revision for this inspection report.
+PreventAutoReNumbering	p	bool PreventAutoReNumbering {get; set;}	2022		Gets and sets whether to re-order balloons when one is removed.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether to extract driven (e.g., read-only) dimensions from the drawing for this inspection project.
+SamplingType	p	int:swiSamplingType_e SamplingType {get; set;}	2022		Gets and sets the statistical sampling type for this inspection project.
+SecondaryUnits	p	bool SecondaryUnits {get; set;}	2022		Gets and sets whether to extract dual dimensions from the drawing for this inspection project.
+SheetFormat	p	bool SheetFormat {get; set;}	2022		Gets and sets whether to extract sheet format notes from the drawing for this inspection project.
+Sort	p	int:swiCharacteristicInfoSort_e Sort {get; set;}	2022		Gets and sets the ballooning arrangement for this inspection project.
+SplitChamferDimensions	p	bool SplitChamferDimensions {get; set;}	2022		Gets and sets whether to treat each part of a chamfer dimension as a separate characteristic for this inspection...
+StartNumber	p	int StartNumber {get; set;}	2022		Gets and sets the starting balloon number for this inspection project.
+Vendor	p	string Vendor {get; set;}	2022		Gets and sets the vendor for this inspection report.
+@InspectionProjectDataClass	c	Allows access to inspection project data.	base=IInspectionProjectData,InspectionProjectData
+AQL	p	string AQL {get; set;}	2022		Gets and sets the sampling acceptable quality level (AQL) for this inspection project.
+AutoBalloon	p	bool AutoBalloon {get; set;}	2022		Gets and sets whether to autoballoon drawings in this inspection project.
+AutoExplodeHoleCallout	p	bool AutoExplodeHoleCallout {get; set;}	2022		Gets and sets whether to auto-explode hole callouts.
+Basic	p	bool Basic {get; set;}	2022		Gets and sets whether to extract basic dimensions from the drawing for this inspection project.
+Classification	p	int Classification {get; set;}	2022		Gets and sets the defect classification for this inspection project.
+CreateForEachInstance	p	bool CreateForEachInstance {get; set;}	2022		Gets and sets whether to create a separate instance for characteristics having a quantity of more than one.
+DocumentName	p	string DocumentName {get; set;}	2022		Gets and sets the document name for this inspection report.
+DocumentNumber	p	string DocumentNumber {get; set;}	2022		Gets and sets the document number for this inspection report.
+DocumentRevision	p	string DocumentRevision {get; set;}	2022		Gets and sets the document revision for this inspection report.
+Extraction	p	int Extraction {get; set;}	2022		Gets and sets the type of extraction for this inspection project.
+ExtractionCriteria	p	string ExtractionCriteria {get; set;}	2022		Gets and sets the regular expression to filter notes for this inspection project.
+Feature	p	bool Feature {get; set;}	2022		Gets and sets whether to extract feature dimensions from the drawing for this inspection project.
+IncludeDimensions	p	bool IncludeDimensions {get; set;}	2022		Gets and sets whether to extract all dimension types from the drawing for this inspection project.
+IncludeGDT	p	bool IncludeGDT {get; set;}	2022		Gets and sets whether to extract geometric tolerance symbols from the drawing for this inspection project.
+IncludeHoleCallout	p	bool IncludeHoleCallout {get; set;}	2022		Gets and sets whether to extract hole callouts from the drawing for this inspection project.
+IncludeHoleTable	p	bool IncludeHoleTable {get; set;}	2022		Gets and sets whether to extract hole tables from the drawing for this inspection project.
+IncludeNotes	p	bool IncludeNotes {get; set;}	2022		Gets and sets whether to extract all notes from the drawing for this inspection project.
+IncludeSurfaceFinish	p	bool IncludeSurfaceFinish {get; set;}	2022		Gets and sets whether to extract surface finishes from the drawing for this inspection project.
+IncludeWeld	p	bool IncludeWeld {get; set;}	2022		Gets and sets whether to extract welds from the drawing for this inspection project.
+InspectionOnly	p	bool InspectionOnly {get; set;}	2022		Gets and sets whether to extract inspection-only dimensions from the drawing for this inspection project.
+JobNumber	p	string JobNumber {get; set;}	2022		Gets and sets the job number for this inspection report.
+Level	p	int Level {get; set;}	2022		Gets and sets the sampling level for this inspection project.
+LotSize	p	int LotSize {get; set;}	2022		Gets and sets the sampling lot size for this inspection project.
+NotesAutoExplode	p	bool NotesAutoExplode {get; set;}	2022		Gets and sets whether to create a separate instance for each section of the note.
+OverriddenValue	p	bool OverriddenValue {get; set;}	2022		Gets and sets whether to extract overridden dimension values from the drawing for this inspection project.
+PartName	p	string PartName {get; set;}	2022		Gets and sets the part name for this inspection report.
+PartNumber	p	string PartNumber {get; set;}	2022		Gets and sets the part number for this inspection report.
+PartRevision	p	string PartRevision {get; set;}	2022		Gets and sets the part revision for this inspection report.
+PreventAutoReNumbering	p	bool PreventAutoReNumbering {get; set;}	2022		Gets and sets whether to re-order balloons when one is removed.
+Reference	p	bool Reference {get; set;}	2022		Gets and sets whether to extract driven (e.g., read-only) dimensions from the drawing for this inspection project.
+SamplingType	p	int SamplingType {get; set;}	2022		Gets and sets the statistical sampling type for this inspection project.
+SecondaryUnits	p	bool SecondaryUnits {get; set;}	2022		Gets and sets whether to extract dual dimensions from the drawing for this inspection project.
+SheetFormat	p	bool SheetFormat {get; set;}	2022		Gets and sets whether to extract sheet format notes from the drawing for this inspection project.
+Sort	p	int Sort {get; set;}	2022		Gets and sets the ballooning arrangement for this inspection project.
+SplitChamferDimensions	p	bool SplitChamferDimensions {get; set;}	2022		Gets and sets whether to treat each part of a chamfer dimension as a separate characteristic for this inspection...
+StartNumber	p	int StartNumber {get; set;}	2022		Gets and sets the starting balloon number for this inspection project.
+Vendor	p	string Vendor {get; set;}	2022		Gets and sets the vendor for this inspection report.

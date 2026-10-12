@@ -1,0 +1,293 @@
+#swapi-map 1 module=swdimxpertapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@DimXpertAngleBetweenCircularDimTol	o
+CenterFeature	p	Property CenterFeature As DimXpertFeature
+GetActPlaneVector	m	Function GetActPlaneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNomPlaneVector	m	Function GetNomPlaneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OriginFeature	p	Property OriginFeature As DimXpertFeature
+Supplement	p	Property Supplement As Boolean
+@DimXpertAngleBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OriginFeature	p	Property OriginFeature As DimXpertFeature
+Supplement	p	Property Supplement As Boolean
+@DimXpertAnnotation	o
+Feature	p	Property Feature As DimXpertFeature
+GetAppliedAnnotationCount	m	Function GetAppliedAnnotationCount() As Long
+GetAppliedAnnotations	m	Function GetAppliedAnnotations() As Variant:DimXpertAnnotation
+GetDisplayEntity	m	Function GetDisplayEntity() As Object:Annotation
+GetModelFeature	m	Function GetModelFeature() As Object:Feature
+IGetAppliedAnnotations	m	Function IGetAppliedAnnotations(ByVal Count As Long) As DimXpertAnnotation
+IsFreeState	m	Function IsFreeState() As Boolean
+IsStatistical	m	Function IsStatistical() As Boolean
+IsSuppressed	m	Function IsSuppressed() As Boolean
+IsToBeInspected	m	Function IsToBeInspected() As Boolean
+Name	p	Property Name As String
+Type	p	Property Type As swDimXpertAnnotationType_e
+@DimXpertAutoDimSchemeOption	o
+FeatureFilters	p	Property FeatureFilters As Long:swDimXpertFeatureFilters_e
+PartType	p	Property PartType As Long:swDimXpertAutoDimSchemePartType_e
+PatternType	p	Property PatternType As Long:swDimXpertAutoDimSchemePatternType_e
+PolarPatternHoleCount	p	Property PolarPatternHoleCount As Long
+ScopeAllFeature	p	Property ScopeAllFeature As Boolean
+ToleranceType	p	Property ToleranceType As Long:swDimXpertAutoDimSchemeToleranceType_e
+@DimXpertBestfitPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:DimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As DimXpertFeature
+@DimXpertBlockTolerances	o
+GetISO2768PartType	m	Function GetISO2768PartType(ByRef Type As swDimXpertISO2768PartType_e) As Boolean
+GetToleranceValues	m	Function GetToleranceValues(ByRef Linear1 As Double, ByRef Linear1Prec As Long, ByRef Linear2 As Double, ByRef Linear2Prec As Long, ByRef Linear3 As Double, ByRef Linear3Prec As Long, ByRef Angular As Double) As Boolean
+Type	p	Property Type As swDimXpertBlockToleranceType_e
+@DimXpertChamferDimTol	o
+ChamferType	p	Property ChamferType As swDimXpertChamferDimensionType_e
+@DimXpertChamferFeature	o
+Angle	p	Property Angle As Double
+AngleType	p	Property AngleType As swDimXpertChamferAngleType_e
+ChamferType	p	Property ChamferType As swDimXpertChamferType_e
+Distance1	p	Property Distance1 As Double
+Distance2	p	Property Distance2 As Double
+@DimXpertCompositeDistanceBetweenDimTol	o
+BlockToleranceDecimalPlacesIntraFeature	p	Property BlockToleranceDecimalPlacesIntraFeature As Long
+DimensionTypeIntraFeature	p	Property DimensionTypeIntraFeature As swDimXpertDimensionToleranceType_e
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As DimXpertFeature, ByRef FosUsage As swDimXpertDistanceFosUsage_e) As Boolean
+GetIntraFeature	m	Function GetIntraFeature(ByRef Feature As DimXpertFeature, ByRef FosUsage As swDimXpertDistanceFosUsage_e) As Boolean
+GetNominalValueIntraFeature	m	Function GetNominalValueIntraFeature() As Double
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As DimXpertFeature, ByRef FosUsage As swDimXpertDistanceFosUsage_e) As Boolean
+GetPlusAndMinusToleranceIntraFeature	m	Function GetPlusAndMinusToleranceIntraFeature(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimitIntraFeature	m	Function GetUpperAndLowerLimitIntraFeature(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCodeIntraFeature	p	Property LimitsAndFitsCodeIntraFeature As String
+@DimXpertCompositeLineProfileTolerance	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@DimXpertCompositePositionTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetMaxToleranceLowerTier	m	Function GetMaxToleranceLowerTier(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+ModifierLowerTier	p	Property ModifierLowerTier As swDimXpertMaterialConditionModifier_e
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+ZoneType	p	Property ZoneType As swDimXpertPositionZoneType_e
+@DimXpertCompositeSurfaceProfileTolerance	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@DimXpertCompoundClosedSlot3DFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As DimXpertFeature
+GetEndFeatures	m	Function GetEndFeatures(ByRef End1 As DimXpertFeature, ByRef End2 As DimXpertFeature) As Boolean
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalClosedSlot	m	Function GetNominalClosedSlot(ByRef Width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As DimXpertPlaneFeature, ByRef Plane2 As DimXpertPlaneFeature) As Boolean
+@DimXpertCompoundHoleFeature	o
+Blind	p	Property Blind As Boolean
+CompoundHoleType	p	Property CompoundHoleType As swDimXpertCompoundHoleType_e
+GetBottomFeature	m	Function GetBottomFeature() As DimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As DimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:DimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As DimXpertFeature
+@DimXpertCompoundNotchFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As DimXpertFeature
+GetEndFeature	m	Function GetEndFeature() As DimXpertFeature
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalNotch	m	Function GetNominalNotch(ByRef Width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetOpenSideReferenceFeature	m	Function GetOpenSideReferenceFeature() As DimXpertFeature
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As DimXpertPlaneFeature, ByRef Plane2 As DimXpertPlaneFeature) As Boolean
+GetTopReferenceFeature	m	Function GetTopReferenceFeature() As DimXpertFeature
+@DimXpertCompoundWidthFeature	o
+GetNominalCompoundWidth	m	Function GetNominalCompoundWidth(ByRef Width As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalLongitude	m	Function GetNominalLongitude(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As DimXpertPlaneFeature, ByRef Plane2 As DimXpertPlaneFeature) As Boolean
+Inner	p	Property Inner As Boolean
+@DimXpertConcentricityTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+@DimXpertConeFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCone	m	Function GetNominalCone(ByRef Angle As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@DimXpertCounterBoreDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As DimXpertFeature
+@DimXpertCounterSinkAngleDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As DimXpertFeature
+@DimXpertCounterSinkDiameterDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As DimXpertFeature
+@DimXpertCylinderFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCylinder	m	Function GetNominalCylinder(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetThread	m	Function GetThread(ByRef IsThreaded As Boolean, ByRef ThreadDesignation As String, ByRef ThreadDepth As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@DimXpertDatum	o
+Identifier	p	Property Identifier As String
+@DimXpertDepthDimTol	o
+IsThreadDepth	m	Function IsThreadDepth() As Boolean
+ReferenceFeature	p	Property ReferenceFeature As DimXpertFeature
+@DimXpertDiameterDimTol	o
+EnvelopeRequirement	p	Property EnvelopeRequirement As Boolean
+IndependencyRequirement	p	Property IndependencyRequirement As Boolean
+PatternTreatment	p	Property PatternTreatment As swDimXpertPatternTreatmentType_e
+@DimXpertDimensionOption	o
+DatumLength	p	Property DatumLength As Double
+DimensionPositionOption	p	Property DimensionPositionOption As Long
+DimensionPositionOption2	p	Property DimensionPositionOption2 As Long:swDimXpertDimensionPositionOption_e
+FeatureSelectorOptions	p	Property FeatureSelectorOptions As Variant:swDimXpertFeatureSelectorOption_e
+TextPosition	p	Property TextPosition As Variant
+@DimXpertDimensionTolerance	o
+BlockToleranceDecimalPlaces	p	Property BlockToleranceDecimalPlaces As Long
+DimensionType	p	Property DimensionType As swDimXpertDimensionToleranceType_e
+GetNominalValue	m	Function GetNominalValue() As Double
+GetPlusAndMinusTolerance	m	Function GetPlusAndMinusTolerance(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimit	m	Function GetUpperAndLowerLimit(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCode	p	Property LimitsAndFitsCode As String
+@DimXpertDistanceBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As DimXpertFeature, ByRef FosUsage As swDimXpertDistanceFosUsage_e) As Boolean
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As DimXpertFeature, ByRef FosUsage As swDimXpertDistanceFosUsage_e) As Boolean
+PatternTreatment	p	Property PatternTreatment As swDimXpertPatternTreatmentType_e
+@DimXpertExtrudeFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomBlends	m	Function GetBottomBlends() As DimXpertFeature
+GetBottomFeature	m	Function GetBottomFeature() As DimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As DimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:DimXpertFeature
+GetTopBlends	m	Function GetTopBlends() As DimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As DimXpertFeature
+@DimXpertFeature	o
+GetAppliedAnnotationCount	m	Function GetAppliedAnnotationCount() As Long
+GetAppliedAnnotations	m	Function GetAppliedAnnotations() As Variant:DimXpertAnnotation
+GetAppliedFeatureCount	m	Function GetAppliedFeatureCount() As Long
+GetAppliedFeatures	m	Function GetAppliedFeatures() As Variant:DimXpertFeature
+GetFaceCount	m	Function GetFaceCount() As Long
+GetFaces	m	Function GetFaces() As Variant:Face2
+GetModelFeature	m	Function GetModelFeature() As Object:Feature
+IGetAppliedAnnotations	m	Function IGetAppliedAnnotations(ByVal Count As Long) As DimXpertAnnotation
+IGetAppliedFeatures	m	Function IGetAppliedFeatures(ByVal Count As Long) As DimXpertFeature
+IGetFaces	m	Function IGetFaces(ByVal Count As Long) As Object:Face2
+IsCombinedAnnotation	m	Function IsCombinedAnnotation() As Boolean
+IsSuppressed	m	Function IsSuppressed() As Boolean
+Name	p	Property Name As String
+SetCombineAnnotation	m	Function SetCombineAnnotation(ByVal Combine As Boolean) As Long:swDimXpertCombineAnnotation_e
+Type	p	Property Type As swDimXpertFeatureType_e
+@DimXpertFilletFeature	o
+Inner	p	Property Inner As Boolean
+Radius	p	Property Radius As Double
+@DimXpertFlatnessTolerance	o
+GetPerUnitArea	m	Function GetPerUnitArea(ByRef Enabled As Boolean, ByRef Length As Double, ByRef Width As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@DimXpertGtol	o
+Annotation	p	Property Annotation As Object:DimXpertAnnotation
+@DimXpertIntersectCircleFeature	o
+GetIntersectFeature	m	Function GetIntersectFeature(ByRef Feature As DimXpertFeature) As Boolean
+GetNominalCircle	m	Function GetNominalCircle(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeature	m	Function GetPlaneFeature(ByRef Plane As DimXpertPlaneFeature) As Boolean
+@DimXpertIntersectLineFeature	o
+GetNominalLine	m	Function GetNominalLine(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As DimXpertPlaneFeature, ByRef Plane2 As DimXpertPlaneFeature) As Boolean
+@DimXpertIntersectPlaneFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As DimXpertFeature, ByRef Feature2 As DimXpertFeature) As Boolean
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@DimXpertIntersectPointFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As DimXpertFeature, ByRef Feature2 As DimXpertFeature) As Boolean
+GetNominalPoint	m	Function GetNominalPoint(ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+GetNominalVector	m	Function GetNominalVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@DimXpertLineProfileTolerance	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@DimXpertOrientationTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+IsTangentPlane	m	Function IsTangentPlane() As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDimXpertOrientationZoneType_e
+@DimXpertPart	o
+AutoDimensionScheme	m	Function AutoDimensionScheme(ByVal Option As DimXpertAutoDimSchemeOption) As Boolean
+DeleteAllTolerances	m	Function DeleteAllTolerances() As Boolean
+GetAnnotation	m	Function GetAnnotation(ByVal Name As String) As DimXpertAnnotation
+GetAnnotationCount	m	Function GetAnnotationCount() As Long
+GetAnnotations	m	Function GetAnnotations() As Variant:DimXpertAnnotation
+GetAutoDimSchemeOption	m	Function GetAutoDimSchemeOption() As DimXpertAutoDimSchemeOption
+GetBlockTolerances	m	Function GetBlockTolerances() As DimXpertBlockTolerances
+GetDimOption	m	Function GetDimOption() As DimXpertDimensionOption
+GetFeature	m	Function GetFeature(ByVal Name As String) As DimXpertFeature
+GetFeatureCount	m	Function GetFeatureCount() As Long
+GetFeatures	m	Function GetFeatures() As Variant:DimXpertFeature
+IGetAnnotations	m	Function IGetAnnotations(ByVal Count As Long) As DimXpertAnnotation
+IGetFeatures	m	Function IGetFeatures(ByVal Count As Long) As DimXpertFeature
+ImportScheme	m	Function ImportScheme(ByVal Filename As String, ByVal ConfigurationName As String) As Boolean
+InsertAngleDimension	m	Function InsertAngleDimension(ByVal Option As DimXpertDimensionOption) As Boolean
+InsertBasicDimension	m	Function InsertBasicDimension(ByVal Option As DimXpertDimensionOption) As Boolean
+InsertDatum	m	Function InsertDatum(ByVal Option As DimXpertDimensionOption) As Boolean
+InsertGtol	m	Function InsertGtol(ByVal Type As Long:swDimXpertGtolType_e) As DimXpertAnnotation
+InsertLocationDimension	m	Function InsertLocationDimension(ByVal Option As DimXpertDimensionOption) As Boolean
+InsertPattern	m	Function InsertPattern(ByVal Option As DimXpertDimensionOption, ByVal PatternType As Long, ByVal FindAll As Boolean) As Boolean
+InsertSizeDimension	m	Function InsertSizeDimension(ByVal Option As DimXpertDimensionOption) As Boolean
+ShowToleranceStatus	p	Property ShowToleranceStatus As Boolean
+@DimXpertPatternFeature	o
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:DimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As DimXpertFeature
+PatternType	p	Property PatternType As swDimXpertFeatureType_e
+@DimXpertPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@DimXpertPositionTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDimXpertPositionZoneType_e
+@DimXpertRadiusDimTol	o
+PatternTreatment	p	Property PatternTreatment As swDimXpertPatternTreatmentType_e
+@DimXpertRefPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@DimXpertSphereFeature	o
+GetNominalSphere	m	Function GetNominalSphere(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@DimXpertStraightnessTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPerUnitLength	m	Function GetPerUnitLength(ByRef Enabled As Boolean, ByRef Distance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDimXpertStraightnessZoneType_e
+@DimXpertSurfaceProfileTolerance	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@DimXpertSymmetryTolerance	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetZoneDirection	m	Function GetZoneDirection(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDimXpertMaterialConditionModifier_e
+@DimXpertTangencyTolerance	o
+OriginFeature	p	Property OriginFeature As DimXpertFeature
+@DimXpertTolerance	o
+GetPrimaryDatumCount	m	Function GetPrimaryDatumCount() As Long
+GetPrimaryDatumModifiers	m	Function GetPrimaryDatumModifiers() As Variant:swDimXpertMaterialConditionModifier_e
+GetPrimaryDatums	m	Function GetPrimaryDatums() As Variant:DimXpertDatum
+GetSecondaryDatumCount	m	Function GetSecondaryDatumCount() As Long
+GetSecondaryDatumModifiers	m	Function GetSecondaryDatumModifiers() As Variant:swDimXpertMaterialConditionModifier_e
+GetSecondaryDatums	m	Function GetSecondaryDatums() As Variant:DimXpertDatum
+GetTertiaryDatumCount	m	Function GetTertiaryDatumCount() As Long
+GetTertiaryDatumModifiers	m	Function GetTertiaryDatumModifiers() As Variant:swDimXpertMaterialConditionModifier_e
+GetTertiaryDatums	m	Function GetTertiaryDatums() As Variant:DimXpertDatum
+IGetPrimaryDatumModifiers	m	Function IGetPrimaryDatumModifiers(ByVal Count As Long) As swDimXpertMaterialConditionModifier_e
+IGetPrimaryDatums	m	Function IGetPrimaryDatums(ByVal Count As Long) As DimXpertDatum
+IGetSecondaryDatumModifiers	m	Function IGetSecondaryDatumModifiers(ByVal Count As Long) As swDimXpertMaterialConditionModifier_e
+IGetSecondaryDatums	m	Function IGetSecondaryDatums(ByVal Count As Long) As DimXpertDatum
+IGetTertiaryDatumModifiers	m	Function IGetTertiaryDatumModifiers(ByVal Count As Long) As swDimXpertMaterialConditionModifier_e
+IGetTertiaryDatums	m	Function IGetTertiaryDatums(ByVal Count As Long) As DimXpertDatum
+Tolerance	p	Property Tolerance As Double

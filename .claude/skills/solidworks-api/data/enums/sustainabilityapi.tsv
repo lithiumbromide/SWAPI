@@ -1,0 +1,52 @@
+#swapi-enums 1 module=sustainabilityapi sw=2026 prefix=SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability. cols=name,value,description
+@swSustainabilityDurationType_e		Units of duration.
+swSustainabilityDay	3
+swSustainabilityHour	4
+swSustainabilityMonth	2
+swSustainabilityYear	1
+@swSustainabilityEnergyType_e		Types of energy.
+swSustainabilityDiesel	2
+swSustainabilityElectricity	0
+swSustainabilityGasoline	3
+swSustainabilityKerosene	4
+swSustainabilityLightFuelOil	5
+swSustainabilityNaturalGas	1
+swSustainabilityNone	-1
+@swSustainabilityErrors_e		Types of error.
+swSustainabilityNoData	1
+swSustainabilityNoError	2
+swSustainabilityUnkownError	0
+@swSustainabilityFuelType_e		Types of fuel.
+swSustainabilityFuelElectricity	0
+swSustainabilityFuelNaturalGas	1
+swSustainabilityFuelNone	-1
+@swSustainabilityManufacturingPaintType_e		Types of paint used in manufacturing.
+swSustainabilityNoPaint	-1
+swSustainabilitySolventbasedPaint	1
+swSustainabilityWaterbasedPaint	0
+@swSustainabilityManufacturingProcessType_e		Types of manufacturing process.
+swSustainabilityCustom	0
+swSustainabilityDieCasted	1
+swSustainabilityExtrusion	2
+swSustainabilityForged	3
+swSustainabilityMachinedSandCasting	4
+swSustainabilityManufacturingNone	6
+swSustainabilityMilled	5
+swSustainabilitySandCasted	7
+swSustainabilitySheetmetal	8
+swSustainabilityStamped_FormedSheetmetal	9
+swSustainabilityTurned	10
+@swSustainabilityRegionName_e		Geographical regions.
+swSustainabilityAsia	3
+swSustainabilityAustralia	6
+swSustainabilityEurope	2
+swSustainabilityIndia	7
+swSustainabilityJapan	4
+swSustainabilityNorthAmerica	1
+swSustainabilityNumElems	8
+swSustainabilitySouthAmerica	5
+swSustainabilityUnknownRegion	0
+@swSustainabilitySaveAsFileType_e		Types of environmental impact report.
+swSustainabilityDocxReport	1	Save results to a file with a.docx extension
+swSustainabilityGabiInputFile	3	Save results to a file with a.xml extension
+swSustainabilitySpreadsheet	2	Save results to a file with a.csv extension

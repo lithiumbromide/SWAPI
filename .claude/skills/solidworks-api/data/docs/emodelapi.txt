@@ -1,0 +1,461 @@
+<<< _IEModelMarkupControlEvents.OnMeasureResultsChanged | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl._IEModelMarkupControlEvents_OnMeasureResultsChangedEventHandler.md
+X: See also IEModelMarkupControl::MeasureResultString.
+<<< _IEModelViewControlEvents.OnComponentMouseOverNotify2 | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentMouseOverNotify2EventHandler.md
+P: ComponentName: Component name
+P: ComponentConfigName: Component configuration name
+P: XCoordinate: x coordinate of cursor
+P: YCoordinate: y coordinate of cursor
+<<< _IEModelViewControlEvents.OnComponentSelectionNotify2 | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentSelectionNotify2EventHandler.md
+P: ComponentName: Component name
+P: ComponentConfigName: Component configuration name
+P: XCoordinate: x coordinate of cursor
+P: YCoordinate: y coordinate of cursor
+<<< _IEModelViewControlEvents.OnConfigChange | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnConfigChangeEventHandler.md
+P: ConfigId: Configuration ID
+<<< _IEModelViewControlEvents.OnFailedLoadingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFailedLoadingDocumentEventHandler.md
+P: FileName: File name
+P: ErrorCode: Not used
+P: ErrorString: Not used
+<<< _IEModelViewControlEvents.OnFailedPrintingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFailedPrintingDocumentEventHandler.md
+P: PrintJobName: String specified for the FileNameInPrintQueue argument in IEModelViewControl::Print5 or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
+X: When this event is fired, eDrawings has sent all of the eDrawings data in the active document to the printer queue, and it is safe to close the active document or open another one.
+<<< _IEModelViewControlEvents.OnFailedSavingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFailedSavingDocumentEventHandler.md
+P: FileName: Name of file to save
+P: ErrorCode: Not used
+P: ErrorString: Not used
+<<< _IEModelViewControlEvents.OnFinishedAnimation | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFinishedAnimationEventHandler.md
+X: Animation types include SOLIDWORKS Motion Studies and Home animations.
+<<< _IEModelViewControlEvents.OnFinishedLoadingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFinishedLoadingDocumentEventHandler.md
+P: FileName: Name of document being opened
+X: Because IEModelViewControl::OpenDoc starts a new thread of execution and because eDrawings files are often loaded across the Internet or other potentially slow and unreliable networks, this API call can return before the document is finished loading.
+Referencing a model that has not finished loading (for example, calling IEModelViewControl::Animate) can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the OnFinishedLoadingDocument event after calling IEModelViewControl::OpenDoc so that your application knows when the eDrawings file is finished loading. Once your application receives notification that the eDrawings file has been loaded, it is safe to access the model.
+<<< _IEModelViewControlEvents.OnFinishedPrintingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFinishedPrintingDocumentEventHandler.md
+P: PrintJobName: String specified for the FileNameInPrintQueue argument in IEModelViewControl::Print5 or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
+X: When this event is fired, eDrawings has sent all of the eDrawings data in the active document to the printer queue, and it is safe to close the active document or open another one.
+This event does not guarantee that printing of the eDrawings document was successful. For example, if the printer is out of paper, eDrawings still fires this event and not OnFailedPrintingDocument.
+<<< _IEModelViewControlEvents.OnFinishedSavingDocument | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFinishedSavingDocumentEventHandler.md
+X: Because IEModelViewControl::Save starts a new thread of execution and because eDrawings files are often saved across the internet or other potentially slow and unreliable networks, this call can return before the document is finished saving.
+Referencing a model that has not finished saving can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the IEModelViewControl::OnFinishedSavingDocument event after calling IEModelViewControl::Save so that your application knows when the eDrawings file is finished saving. Once your application receives notification that the eDrawings file has been saved, it is safe to exit your application or load another file in the same function.
+<<< _IEModelViewControlEvents.OnModifyScene | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnModifySceneEventHandler.md
+P: ModifyEvent: Modification event bitmask: - 1 or 0x001 = Hide/Show - 2 or 0x002 = Rotate - 4 or 0x004 = Pan - 8 or 0x008 = Zoom - 16 or 0x010 = MakeTransparent - 32 or 0x020 = Next - 64 or 0x040 = Projection - 128 or 0x080 = LayerChange - 256 or 0x100 = DisplayStateChange
+<<< _IEModelViewControlEvents.OnNamedView | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnNamedViewEventHandler.md
+P: NamedViewId: Named views: - 0xDDDD = Front View - 0xDDDE = Back view - 0xDDDF = Left view - 0xDDED = Right view - 0xDDEE = Top view - 0xDDEF = Bottom view - 0xDDFD = Isometric view - 0xDDFE = Normal view
+<<< _IEModelViewControlEvents.OnStartedAnimation | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnStartedAnimationEventHandler.md
+X: Animation types include SOLIDWORKS Motion Studies and Home animations.
+<<< IEModelMarkupControl.AddStamp | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~AddStamp.md
+P: Filename: Path and name of the file containing an image of a rubber stamp
+P: X: - Parts and assemblies: x screen coordinate - or - - Drawings: x drawing coordinate
+P: Y: - Parts and assemblies: y screen coordinate - or - Drawings: y drawing coordinate
+P: Width: - Parts and assemblies: not applicable; no meaning - or - - Drawings: width of the stamp in drawing coordinates
+P: Height: - Parts and assemblies: not applicable; no meaning - or - Drawings: height of the stamp in drawing coordinates
+X: The stamp is inserted into the scene using screen coordinates. The lower-left corner is -1,-1, and the upper-right corner is 1,1, making the insertion hardware-independent.
+When the stamp is inserted on a second sheet, it is in drawing coordinates. The lower-left corner of the drawing sheet is 0,0. X and Y are in meters. The optional Height and Width are also in meters.
+The position is the center of the stamp.
+<<< IEModelMarkupControl.CanExplode | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CanExplode.md
+R: True if the model can be exploded, false if it cannot
+<<< IEModelMarkupControl.CommentCount | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCount.md
+R: Number of total markup comments
+X: Call this method before calling IEModelMarkupControl::CommentID.
+<<< IEModelMarkupControl.CommentCountx64 | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCountx64.md
+R: Number of total markup comments on this 64-bit system
+<<< IEModelMarkupControl.CommentID | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentID.md
+P: CommentIndex: Index number of the markup comment to get
+R: ID of markup comment specified by CommentIndex
+X: Use IEModelMarkupControl::CommentCount before using this property to determine the index number of the markup comments.
+Use this property before using:
+- IEModelMarkupControl::CommentName
+- IEModelMarkupControl::ShowComment
+<<< IEModelMarkupControl.CommentIDx64 | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentIDx64.md
+P: CommentIndex: Index number of the markup comment to get on 64-bit systems
+R: ID of markup comment specified by CommentIndex
+X: Use IEModelMarkupControl::CommentCountx64 before using this property to determine the index number of the markup comments.
+Use this property before using:
+- IEModelMarkupControl::CommentName
+- IEModelMarkupControl::ShowCommentx64
+<<< IEModelMarkupControl.CommentName | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentName.md
+P: CommentIndex: Index number indicating the markup comment to get
+R: Name of markup comment specified by CommentIndex
+X: Call IEModelMarkupControl::CommentCount before calling this property to get the index number of the markup comments
+<<< IEModelMarkupControl.EnableFeature | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeature.md
+P: feature: Markup property as defined in EMVMarkupEnableFeatures
+R: True if the markup property is set, false if not
+X: You can only set this property at runtime; you cannot set it at design time.
+To set multiple markup properties at the same time, use IEModelMarkupViewControl::EnableFeatures.
+<<< IEModelMarkupControl.EnableFeatures | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeatures.md
+R: Value of the bitmask as defined by EMVMarkupEnableFeatures
+X: You can only set this property at runtime; you cannot set it at design time.
+To set an individual markup property only, use IEModelMarkupControl::EnableFeature.
+<<< IEModelMarkupControl.IsMeasureEnabled | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~IsMeasureEnabled.md
+R: True if the current document is measure-enabled, false if not
+<<< IEModelMarkupControl.MeasureResultString | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~MeasureResultString.md
+R: Most recent measurement results
+<<< IEModelMarkupControl.SetMeasureUnits | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~SetMeasureUnits.md
+P: DistanceUnit: Distance unit as defined in EMVDistanceUnit
+P: AngleUnit: Angle unit as defined in EMVAngleUnit
+<<< IEModelMarkupControl.ShowComment | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowComment.md
+P: CommentID: ID of markup comment to display
+X: Call IEModelMarkupControl::CommentID before calling this method to determine the ID of the markup comment.
+<<< IEModelMarkupControl.ShowCommentx64 | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowCommentx64.md
+P: CommentIDx64: ID of markup comment to display on 64-bit systems
+X: Call IEModelMarkupControl::CommentIDx64 before calling this method to determine the ID of the markup comment.
+<<< IEModelMarkupControl.ShowSaveMarkup | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowSaveMarkup.md
+P: SaveName: Name of the file where to save the markup comments
+P: SaveAs: | If... | Then.. | | TRUE | A dialog is displayed prompting the user to select the markup to save and the file name to which to save the markup. SaveName is ignored. | | FALSE | If... Then markups from all reviewers are saved to... SaveName is empty The default file name in the current directory SaveName is specified The file specified in SaveName | | If... | Then markups from all reviewers are saved to... | | SaveName is empty | The default file name in the current directory | | SaveName is specified | The file specified in SaveName |
+<<< IEModelMarkupControl.ViewOperator | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ViewOperator.md
+R: Markup tools as defined by EMVMarkupOperators
+<<< IEModelMarkupControl.ViewState | emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ViewState.md
+P: state: View states as defined in EMVMarkupViewState
+R: True if the view state is set, false to not
+<<< IEModelViewControl | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.md
+X: See Getting Started to learn how to create C# Windows Forms applications that use the eDrawings ActiveX control to load eDrawings drawings.
+Events are implemented with delegates in the Microsoft.NET Framework. See the Overview topic for a list of delegates for this interface.
+<<< IEModelViewControl.ActivateInkMarkup | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActivateInkMarkup.md
+P: InkMarkupIndex: Index of SOLIDWORKS ink markup to activate
+X: This method is valid only if IEModelViewControl::ShowInkMarkup is set to true.
+<<< IEModelViewControl.ActiveViewRectangle | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActiveViewRectangle.md
+R: Array of four longs or integers, which are the x and y coordinates of the upper-left and lower-right corners of the window
+<<< IEModelViewControl.AlwaysShowWarningWatermark | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~AlwaysShowWarningWatermark.md
+R: -1 to show a warning watermark, 0 to not show a warning watermark
+X: eDrawings detects when the graphics data for a component might not be synchronized with a later version of the file that was modified and saved in a SOLIDWORKS assembly. When a potentially outdated component is opened, a watermark displays a warning and suggests that the part in the SOLIDWORKS software be rebuilt.
+<<< IEModelViewControl.AmbientOcclusionAllowed | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~AmbientOcclusionAllowed.md
+R: True if ambient occlusion is permitted, false if not
+<<< IEModelViewControl.AmbientOcclusionEnabled | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~AmbientOcclusionEnabled.md
+R: True if ambient occlusion is enabled, false if disabled
+X: This property is valid only if IEModelViewControl::AmbientOcclusionAllowed is true.
+<<< IEModelViewControl.Animate | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Animate.md
+P: Animating: Animate option as defined in EMVAnimateAction
+<<< IEModelViewControl.BackgroundColor | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColor.md
+R: COLORREF value (see Remarks)
+X: IEModelViewControl::BackgroundColorOverride must be set to true for this method to have an effect.
+A COLORREF is a 32-bit integer value that specifies the red, blue, and green components of a 24-bit color.
+<<< IEModelViewControl.BackgroundColorGradient | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorGradient.md
+R: True to apply a gradient background, false to not
+X: IEModelViewControl::BackgroundColorOverride must be set to true for this method to have an effect.
+If IEModelViewControl::BackgroundColorOverride and this method are true, then the color displayed is the color set by IEModelViewControl::BackgroundColor.
+<<< IEModelViewControl.BackgroundColorOverride | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorOverride.md
+R: True to override the document's background color, false to not
+X: If set to true, then you can also use IEModelViewControl::BackgroundColorGradient to apply a gradient background.
+<<< IEModelViewControl.BackgroundImagePath | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundImagePath.md
+R: Fully qualified path and file name of the background image
+<<< IEModelViewControl.BuildNumber | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BuildNumber.md
+R: Build number of eDrawings
+<<< IEModelViewControl.CameraNearClip | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CameraNearClip.md
+R: Value from 0.0 at the camera to 1.0 at the target
+<<< IEModelViewControl.CameraProjection | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CameraProjection.md
+R: Valid string values: - Perspective - Orthographic
+<<< IEModelViewControl.CloseActiveDoc | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CloseActiveDoc.md
+P: CommandString: Specify an empty string (""); do not specify Nothing, Empty, or vbNullString
+<<< IEModelViewControl.CoCreateInstance | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CoCreateInstance.md
+P: CLSIDString: Class ID for an eDrawings add-in
+R: Pointer to the add-in object
+<<< IEModelViewControl.ComponentConfigurationName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.md
+P: Config: Name of a component configuration in the top-level assembly or an asterisk ("*") for all component configurations in the top-level assembly (see Remarks)
+P: index: Index number of the component whose configuration name to get
+R: Name of the configuration for the component
+X: This property does not get component configuration names for inactive component configurations of a top-level assembly in a SOLIDWORKS document. To get the component configuration names for inactive component configurations of a top-level assembly, you must use an eDrawings file that was published from SOLIDWORKS.
+Before calling this property, call:
+- IEModelViewControl::ConfigurationName to get the name of a top-level assembly configuration.
+- IEModelViewControl::ComponentCount to get a valid value for index.
+- IEModelViewControl::ComponentName so that you know which component refers to which configuration.
+<<< IEModelViewControl.ComponentCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentCount.md
+P: Config: Name of the configuration for which to get the number of components or an empty string ("") or an asterisk ("*") (see Remarks)
+R: Number of components in Config
+X: This property does not get the number of components for inactive component configurations of a top-level assembly in a SOLIDWORKS document. To get the number of components for inactive component configurations of a top-level assembly, you must use an eDrawings file that was published from SOLIDWORKS.
+Passing an:
+- Empty string ("") to Config gets the number of components in the active configuration.
+- Asterisk ("*") to Config gets the number of components in all configurations.
+You can also call IEModelViewControl::ConfigurationName to get the name of a configuration.
+<<< IEModelViewControl.ComponentName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.md
+P: Config: Name of the configuration in which the component exists or an empty string ("") or an asterisk ("*") (see Remarks)
+P: index: Index number of the component to get
+R: Name of the component
+X: This property does not get component names for inactive component configurations of a top-level assembly in a SOLIDWORKS document. To get the component names for inactive component configurations of a top-level assembly, you must use an eDrawings file that was published from SOLIDWORKS.
+Passing an:
+- Empty string ("") to Config gets the name of the component at the specified index from the components in the active configuration.
+- Asterisk ("*") to Config gets the name of the component at the specified index from the components in all configurations.
+You can also call IEModelViewControl::ConfigurationName to get the name of a configuration.
+Before calling this property call IEModelViewControl::ComponentCount to get a valid value for Index.
+<<< IEModelViewControl.ComponentState | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentState.md
+P: Name: Name of the component
+P: state: State of the component as defined in EMVComponentState
+R: True if the state of the component is set, false if not
+X: Before calling this property, call IEModelViewControl::ComponentName to get a valid value for Name.
+<<< IEModelViewControl.ComponentTransform | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentTransform.md
+P: ComponentName: Name of the component
+R: Transform (see Remarks)
+X: The eDrawings transformation matrix is stored as a homogeneous matrix of 16 elements:
+|a b c. n |
+|d e f. o |
+|g h i. p |
+|j k l. m |
+The first 9 elements (a to i) are elements of a 3x3 rotational sub-matrix, the next 3 elements (j,k,l) define a translation vector, and the next 1 element (m) is a scaling factor. The last 3 elements (n,o,p) are unused in this context.
+The 3x3 rotational sub-matrix represents 3 axis sets:
+- row 1 for x-axis components of rotation
+- row 2 for y-axis components of rotation
+- row 3 for z-axis components of rotation
+The 3 axes are constrained to be orthogonal and unified so that they produce a pure rotational transformation. Reflections can also be added to these axes by setting the components to negative. The rotation sub-matrix, coupled with the lower-left translation vector and the lower-right corner scaling factor, creates an affine transformation, which is a transformation that preserves lines and parallelism, i.e., maps parallel lines to parallel lines.
+<<< IEModelViewControl.ConfigurationCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationCount.md
+R: Total number of configurations
+X: Because eDrawings does not support inactive configurations for SOLIDWORKS documents, this property does not get the number of configurations in a SOLIDWORKS document (. sldprt,. sldasm, and. slddrw). To use configurations in eDrawings, you must use an eDrawings file that was published from SOLIDWORKS.
+<<< IEModelViewControl.ConfigurationName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationName.md
+P: ConfigurationIndex: Index number of the configuration
+R: Name of configuration
+X: Because eDrawings does not support inactive configurations for SOLIDWORKS documents, this property does not get configuration names for a SOLIDWORKS document (. sldprt,. sldasm, and. slddrw). To use configurations in eDrawings, you must use an eDrawings file that was published from SOLIDWORKS.
+Before calling this property, call IEModelViewControl::CurrentConfigurationIndex or IEModelViewControl::ConfigurationCount to get a valid value for ConfigurationIndex.
+<<< IEModelViewControl.CreateTooltip | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CreateTooltip.md
+P: TipTitle: Title for ToolTip; only the ToolTip text is displayed if you set TipTitle to an empty string ("")
+P: TipText: Text for ToolTip; only the ToolTip title is displayed if you set TipText to an empty string ("")
+P: ShowAtMousePosition: True to show the ToolTip at the cursor's location, false to show the ToolTip at the specified location
+P: XCoordinate: x coordinate for the ToolTip location
+P: YCoordinate: y coordinate for the ToolTip location
+R: ID of ToolTip
+<<< IEModelViewControl.CurrentConfigurationIndex | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentConfigurationIndex.md
+R: Index number of this configuration
+X: Because eDrawings does not support inactive configurations for SOLIDWORKS documents, you must use an eDrawings file that was published from SOLIDWORKS.
+<<< IEModelViewControl.CurrentSheetIndex | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentSheetIndex.md
+R: Index of the currently displayed drawing sheet
+X: This property returns a 0-based index number for the currently displayed sheet.
+Call this property before calling IEModelViewControl::SheetName.
+<<< IEModelViewControl.EnableFeature | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeature.md
+P: feature: Property as defined in EMVEnableFeatures
+R: True if the property is set, false if not
+X: You can only set this property at design time; you cannot set it at runtime. To set multiple properties at the same time, use IEModelViewControl::EnableFeatures.
+<<< IEModelViewControl.EnableFeatures | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeatures.md
+R: Value of the bitmask as defined in EMVEnableFeatures
+X: You can only set this property at design time; you cannot set it at runtime. To set an individual property only, use IEModelViewControl::EnableFeature.
+<<< IEModelViewControl.FileName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~FileName.md
+R: Fully qualified path and file name (see Remarks)
+X: Syntax for specifying the file name:
+| Access | Example |
+| Windows local file | C:\temp\myAssembly.easm |
+| Windows network path | //myServer//mySharedFolder//myDrawing.edrw (Assume that the folder is shared and note the use of the forward slashes) |
+| URL | Supported: http://myHost/MyFolder/MyPart.eprt Not supported: file:///C:/temp\myDwg.dwg |
+<<< IEModelViewControl.FullUI | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~FullUI.md
+R: -1 to show complete UI mode, 0 to show simple UI mode
+<<< IEModelViewControl.GetSelectedComponentName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.md
+R: Name of the selected component or an empty string if a component is not selected
+X: To select a component, call IEModelViewControl::SelectByRay before calling this method.
+<<< IEModelViewControl.Height | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Height.md
+R: Height of the control
+X: Depending on the programming environment, height and width may be displayed in either Twips or Pixels. See MSDN for more information on Twips.
+<<< IEModelViewControl.HideTooltip | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~HideTooltip.md
+P: TooltipID: ID of the ToolTip
+X: Before calling this method, call IEModelViewControl::TooltipID to determine the ID of the ToolTip to hide.
+<<< IEModelViewControl.HighlightColor | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~HighlightColor.md
+R: COLORREF value (see Remarks)
+X: A COLORREF is a 32-bit integer value that specifies the red, blue, and green components of a 24-bit color.
+<<< IEModelViewControl.InkMarkupCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupCount.md
+R: Number of SOLIDWORKS ink markups
+<<< IEModelViewControl.InkMarkupName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupName.md
+P: InkMarkupIndex: Index of SOLIDWORKS ink markup whose name to retrieve
+R: Name of SOLIDWORKS ink markup
+<<< IEModelViewControl.IsMarkupModified | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~IsMarkupModified.md
+R: True if markup file was modified, false if not
+<<< IEModelViewControl.IsMeasureEnabled | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~IsMeasureEnabled.md
+R: True if the current document is measure-enabled, false if not
+<<< IEModelViewControl.LayerCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerCount.md
+R: Number of layers
+X: Call this property before calling IEModelViewControl::LayerName to get the total number of the layers in this eDrawings document.
+<<< IEModelViewControl.LayerName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerName.md
+P: LayerIndex: Number of the layer whose name to get (see Remarks)
+R: Name of specified layer
+X: Before calling this property, call IEModelViewControl::LayerCount to get the total number of layers in this eDrawings document.
+<<< IEModelViewControl.LoadXMLBuffer | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LoadXMLBuffer.md
+P: XMLDoc: Pointer to the an MSXML DOMDocument object (MSXML2.DOMDocument40)
+<<< IEModelViewControl.MassProperty | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~MassProperty.md
+P: property: Type of mass property as defined in EMVMassProperty
+R: Value of mass property
+<<< IEModelViewControl.MaterialPropertyName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~MaterialPropertyName.md
+R: Name of material
+X: If the material name is not available, the string <not specified> is returned.
+<<< IEModelViewControl.OpenDoc | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.md
+P: FileName: Fully qualified path and file name (see Remarks)
+P: IsTemp: True to delete the local copy of a remote non-eDrawings file when that file is closed, false to keep the local copy
+P: PromptToSave: True to show a dialog if the user exits without saving the file, false to not show a dialog
+P: ReadOnly: True if the file is read-only, false if not
+P: CommandString: Specify an empty string (""); do not specify Nothing, Empty, or vbNullString
+X: Syntax for specifying the file name:
+| Access | Example |
+| Windows local file | C:\temp\myAssembly.easm |
+| Windows network path | //myServer//mySharedFolder//myDrawing.edrw (Assume that the folder is shared and note the use of the forward slashes) |
+| URL | Supported: http://myHost/MyFolder/MyPart.eprt Not supported: file:///C:/temp\myDwg.dwg |
+Because IEModelViewControl::OpenDoc starts a new thread of execution and because eDrawings files are often loaded across the Internet or other potentially slow and unreliable networks, this API call can return before the document is finished loading.
+Referencing a model that has not finished loading (for example, calling IEModelViewControl::Animate) can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the OnFinishedLoadingDocument event after calling IEModelViewControl::OpenDoc so that your application knows when the eDrawings file is finished loading. Once your application receives notification that the eDrawings file has been loaded, it is safe to access the model.
+<<< IEModelViewControl.OpenMarkupFile | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenMarkupFile.md
+P: inFileName: Fully qualified path and file name
+X: To be accessed by the following methods, the markup eDrawings file must be loaded or markups must exist in the eDrawings file:
+- IEModelMarkupControl::CommentCount
+- IEModelMarkupControl::CommentID
+- IEModelMarkupControl::CommentName
+- IEModelMarkupControl::ShowComment
+<<< IEModelViewControl.PaperColor | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~PaperColor.md
+R: COLORREF value (see Remarks)
+X: IEModelViewControl::PaperColorOverride must be true for this method to have an effect.
+A COLORREF is a 32-bit integer value that specifies the red, blue, and green components of a 24-bit color.
+<<< IEModelViewControl.PaperColorOverride | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~PaperColorOverride.md
+R: True to override the color of the paper, false to not
+<<< IEModelViewControl.Password | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Password.md
+R: Password needed to open a model downloaded from a server that requires authentication
+<<< IEModelViewControl.Print5 | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.md
+P: ShowDialog: True to show the Print dialog, false to not
+P: FileNameInPrintQueue: Document name to show in the printer queue for this eDrawings file (see Remarks)
+P: Shaded: True to print shaded, false to not print shaded
+P: DraftQuality: True to print draft quality, false to print regular quality
+P: Color: True to print in grayscale on black-and-white printers, false to print black and white (lines, edges, and text are black, and shaded data is grayscale)
+P: printType: Scale the eDrawings file as defined in EMVPrintType (see Remarks)
+P: scale: Scaling factor; this argument is valid only when printType is set to eScaled
+P: centerOffsetX: Offset in thousands of an inch; this argument is valid only when printType is set to eScaled
+P: centerOffsetY: Offset in thousands of an inch; this argument is valid only when printType is set to eScaled
+P: printAll: True to print all pages, false to not
+P: pageFirst: Page number of first page to print; this argument is valid only when printAll is set to false
+P: pageLast: Page number of last page to print; this argument is valid only when printAll is set to false
+P: PrintToFileName: File name to which to print the eDrawings file (see Remarks)
+X: Set IEModelViewControl::SetPageSetupOptions before calling this method.
+You can use the FileNameInPrintQueue argument to describe the eDrawings document to print so that it is easily recognizable in the printer queue.
+The printType argument must be set to eWYSIWYG for parts and assemblies. eWYSIWYG is also valid for drawings as are the other EMVPrintType enumerations.
+| To print an eDrawings document to a... | Specify... |
+| Printer | An empty string for the PrintToFileName argument. |
+| File | A file name for the PrintToFileName argument that is different than the file name of the eDrawings document. NOTE: If you specify the same file name as the eDrawings document's file name, then an error occurs and the eDrawings document is not printed to another file. |
+<<< IEModelViewControl.Save | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Save.md
+P: SaveName: Fully qualified path and file name to which to save the data (see Remarks)
+P: SaveAs: | If... | Then... | | True | A dialog is displayed prompting the user to specify where to save the file. SaveName is ignored. | | False | If SaveName is specified, then the active document is saved to that location and file. If SaveName is empty, then the active document is saved to the location and file from which it was opened. |
+P: CommandString: Specify an empty string (""); do not specify Nothing, Empty, or vbNullString
+X: To save a document to a specific export format, you must include the filename extension of that format in the file name. Valid filename extensions for the supported export formats are.jpg,.tif,.bmp,.stl,.exe,.htm,.zip,.edrw,.eprt, and.easm.
+NOTE: Certain export formats are only appropriate for certain document types. For example, you cannot save a.edrw file as an STL file using this method or in the user interface.
+Because EModelViewControl::Save starts a new thread of execution and because eDrawings files are often saved across the Internet or other potentially slow and unreliable networks, this API call can return before the document is finished saving.
+Referencing a model that has not finished saving can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the OnFinishedSavingDocument event after calling EModelViewControl::Save so that your application knows when the eDrawings file is finished saving. Once your application receives notification that the eDrawings file has been saved, it is safe to exit your application or load another file in the same function.
+<<< IEModelViewControl.SelectByRay | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SelectByRay.md
+P: StartX: x coordinate of start point
+P: StartY: y coordinate of start point
+P: StartZ: z coordinate of start point
+P: DirectionX: x coordinate of direction vector
+P: DirectionY: y coordinate of direction vector
+P: DirectionZ: y coordinate of direction vector
+X: Call this method before calling IEModelViewControl::GetSelectedComponentName.
+<<< IEModelViewControl.SetPageSetupOptions | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SetPageSetupOptions.md
+P: Orientation: Page orientation as defined in EMVPrintOrientation
+P: PaperSize: Use Windows printer constants (see Remarks)
+P: PaperLength: Custom size in thousandths of an inch, if you are not using a standard paper size
+P: PaperWidth: Custom size in thousandths of an inch
+P: Copies: Number of copies
+P: Source: Paper tray source; use Windows printer constants
+P: Printer: Printer name
+P: TopMargin: Top margin in thousandths of an inch or 0 to use printer's margin
+P: BottomMargin: Bottom margin in thousandths of an inch or 0 to use printer's margin
+P: LeftMargin: Left margin in thousandths of an inch or 0 to use printer's margin
+P: RightMargin: Right margin in thousandths of an inch or 0 to use printer's margin
+X: Call this method before calling IEModelViewControl::Print5.
+You can find a list of Windows printer constants in wingdi.h or in the.NET enumerations Printing.PaperKind or Printing.PaperSource. Some common settings include:
+- Paper Size
+- Letter (letter 8 1/2 x 11 in) = 1
+- C-sheet (C size sheet = 24
+- D-sheet (D size sheet) = 25
+- E-sheet (E size sheet) = 26
+- Paper Source (paper tray)
+- Upper tray = 1
+- Lower tray = 2
+- Middle tray =3
+- Manual = 4
+- Auto (recommended default) = 7
+<<< IEModelViewControl.ShadowsEnabled | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShadowsEnabled.md
+R: True if shadows are enabled, false if not
+<<< IEModelViewControl.SheetCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetCount.md
+R: Total number of drawing sheets
+<<< IEModelViewControl.SheetHeight | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetHeight.md
+R: Height of drawing sheet in either inches or millimeters, depending on the regional settings of your computer, not the model units of the drawing
+<<< IEModelViewControl.SheetName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetName.md
+P: SheetIndex: Index number of the drawing sheet to get
+R: Name of the drawing sheet
+X: Call IEModelViewControl::CurrentSheetIndex to get the index number of the currently displayed sheet.
+<<< IEModelViewControl.SheetWidth | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetWidth.md
+R: Width of drawing sheet in either inches or millimeters, depending on the regional settings of your computer, not the model units of the drawing
+<<< IEModelViewControl.Show3DPointer | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Show3DPointer.md
+P: show: True to show the 3D Pointer, false to hide it
+P: StartX: x coordinate of the position of the sphere and the start point of the line
+P: StartY: y coordinate of the position of the sphere and the start point of the line
+P: StartZ: z coordinate of the position of the sphere and the start point of the line
+P: EndX: x coordinate of the end point of the line
+P: EndY: y coordinate of the end point of the line
+P: EndZ: z coordinate of the end point of the line
+X: The 3D pointer shown by this method is not the same 3D pointer available in the eDrawings user interface.
+<<< IEModelViewControl.ShowConfiguration | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowConfiguration.md
+P: ConfigurationIndex: Index number of the configuration to display
+X: Because eDrawings does not support inactive configurations for SOLIDWORKS documents, this method does not get configurations for a SOLIDWORKS document (. sldprt,. sldasm, and. slddrw). To use configurations in eDrawings, you must use an eDrawings file that was published from SOLIDWORKS.
+Before calling this method, call IEModelViewControl::CurrentConfigurationIndex or IEModelViewControl::ConfigurationCount to get a valid value for ConfigurationIndex.
+<<< IEModelViewControl.ShowFullScreen | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowFullScreen.md
+P: fullscreen: True to maximize the drawing; false to not
+<<< IEModelViewControl.ShowInkMarkup | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowInkMarkup.md
+P: InkMarkupIndex: Index of SOLIDWORKS ink markup
+R: True to display the specified ink markup, false to not
+X: After setting this property to true, you can call IEModelViewControl::ActivateInkMarkup.
+<<< IEModelViewControl.ShowLayer | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowLayer.md
+P: LayerName: Name of layer to show (see Remarks)
+R: True if the layer is shown, false if not
+X: Before calling this method, call IEModelViewControl::LayerName to get the name of the layer to show.
+<<< IEModelViewControl.ShowShadedEdges | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowShadedEdges.md
+R: True to show edges in shaded mode, false to not
+<<< IEModelViewControl.ShowSheet | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowSheet.md
+P: SheetIndex: Index number of the drawing sheet to display
+X: Call IEModelViewControl::CurrentSheetIndex and IEModelViewControl::SheetName to get the index number and name of a sheet to display.
+<<< IEModelViewControl.ShowTipAtMousePosition | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowTipAtMousePosition.md
+P: TooltipID: ID of ToolTip
+R: True if the ToolTip is displayed at the cursor's location, false if not
+X: Call IEModelViewControlCount::TooltipID to determine the ID of the ToolTip.
+<<< IEModelViewControl.ShowTooltip | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowTooltip.md
+P: TooltipID: ID of the ToolTip
+X: Before calling this method, call IEModelViewControl::TooltipID to determine the ID of the ToolTip to show.
+<<< IEModelViewControl.StereoEnabled | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoEnabled.md
+R: True if stereographic viewing is enabled, false if not
+<<< IEModelViewControl.StereoFocalLength | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoFocalLength.md
+R: Distance between camera position and the stereo focal plane in terms of the camera eye distance; default stereo distance = 0
+X: A stereo distance of 0 corresponds to the stereo focal plane being set at the camera target.
+<<< IEModelViewControl.StereoSeparation | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoSeparation.md
+R: Angle of separation between right and left stereo views; default angle = 3.0 degrees
+<<< IEModelViewControl.TipText | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TipText.md
+P: TooltipID: ID of ToolTip
+R: Text for ToolTip
+X: Call IEModelViewControl::TootipID to get the index number of the ToolTip.
+Only the ToolTip title is displayed if you set the string to an empty string ("").
+<<< IEModelViewControl.TipTitle | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TipTitle.md
+P: TooltipID: ID of ToolTip
+R: ToolTip
+X: Call IEModelViewControl::TootipID to get the index number of the ToolTip.
+Only the ToolTip text is displayed if you set the string to an empty string ("").
+<<< IEModelViewControl.TipXCoordinate | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TipXCoordinate.md
+P: TooltipID: ID of ToolTip
+R: x coordinate for ToolTip
+X: Call IEModelViewControl::TootipID to get the index number of the ToolTip.
+<<< IEModelViewControl.TipYCoordinate | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TipYCoordinate.md
+P: TooltipID: ID of ToolTip
+R: y coordinate for ToolTip
+X: Call IEModelViewControl::TootipID to get the index number of the ToolTip.
+<<< IEModelViewControl.TooltipCount | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TooltipCount.md
+R: Total number of ToolTips
+<<< IEModelViewControl.TooltipID | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~TooltipID.md
+P: index: Index number of the ToolTip
+R: ID of ToolTip
+<<< IEModelViewControl.UserName | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~UserName.md
+R: User name
+<<< IEModelViewControl.Version | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Version.md
+R: Version number of eDrawings
+<<< IEModelViewControl.ViewCamera | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ViewCamera.md
+R: Array of 12 doubles of the camera properties (see Remarks)
+X: The 12 array elements of type double are:
+- x, y, and z coordinates of the camera position
+- x, y, and z coordiantes of the camera target
+- x, y, and z coordiantes of the camera up vector
+- x and y coordinates of the camera field of view
+- Projection:
+- 0.0 for orthographic
+- 1.0 for persepctive
+- -1.0 to keep current camera projection
+<<< IEModelViewControl.ViewOperator | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ViewOperator.md
+R: Tools as defined by EMVOperators
+<<< IEModelViewControl.ViewOrientation | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ViewOrientation.md
+R: View orientation as defined by EMVViewOrientation
+<<< IEModelViewControl.ViewState | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ViewState.md
+P: state: View state as defined by EMVViewState
+R: True if the view state is set, false if not
+<<< IEModelViewControl.Width | emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Width.md
+R: Width of the control
+X: Depending on the programming environment, width and height may be displayed in either Twips or Pixels. See MSDN for more information on Twips

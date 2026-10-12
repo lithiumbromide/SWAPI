@@ -1,0 +1,1521 @@
+#swapi-map 1 module=epdmapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@EdmAddFileInfo	s	Contains information about a file.	since=6.0
+mbsNewName	f	string mbsNewName			Optional new name of the added file.
+mbsPath	f	string mbsPath			File system path to the source file.
+mlEdmAddFlags	f	int:EdmAddFlag mlEdmAddFlags			File add flags.
+mlFileID	f	int mlFileID			ID of the added file.
+mlSrcDocumentID	f	int mlSrcDocumentID			Optional source file ID.
+mlSrcProjectID	f	int mlSrcProjectID			Optional ID of the source file's parent folder.
+@EdmAddInFileInfo	s	Contains information about a single file in an add-in package.	since=2010
+mbsFileName	f	string mbsFileName			Contains the add-in file name.
+mlEdmAddInFileInfoFlags	f	int:EdmAddInFileInfoFlags mlEdmAddInFileInfoFlags			Add-in file information flags.
+@EdmAddInInfo	s	Provides SOLIDWORKS PDM Professional with information about your add-in.	since=5.2
+mbsAddInName	f	string mbsAddInName			Name of your add-in.
+mbsCompany	f	string mbsCompany			Name of your company.
+mbsDescription	f	string mbsDescription			Description, purpose, or use of your add-in.
+mlAddInVersion	f	int mlAddInVersion			Version of your add-in.
+mlRequiredVersionMajor	f	int mlRequiredVersionMajor			Required SOLIDWORKS PDM Professional major version.
+mlRequiredVersionMinor	f	int mlRequiredVersionMinor			Required SOLIDWORKS PDM Professional minor version.
+@EdmAddInInfo2	s	Provides SOLIDWORKS PDM Professional with information about your add-in.	since=6.4
+mbsAddInName	f	string mbsAddInName			Name of add-in.
+mbsClassID	f	string mbsClassID			ID of class that implements IEdmAddIn5.
+mbsCompany	f	string mbsCompany			Company that wrote the add-in.
+mbsDescription	f	string mbsDescription			Description of add-in.
+mbsModulePath	f	string mbsModulePath			Path to the DLL that implements the add-in.
+mlAddInVersion	f	int mlAddInVersion			Add-in version number.
+mlRequiredVersionMajor	f	int mlRequiredVersionMajor			Required SOLIDWORKS PDM Professional major version.
+mlRequiredVersionMinor	f	int mlRequiredVersionMinor			Required SOLIDWORKS PDM Professional minor version.
+@EdmAddInMenuInfo	s	Contains information about a menu command implemented by an add-in.	since=2010
+mbsMenuStr	f	string mbsMenuStr			String to display in menu.
+mbsStatusBarHelp	f	string mbsStatusBarHelp			Status bar help for the command.
+mbsToolbarToolTip	f	string mbsToolbarToolTip			Tooltip to show for the toolbar button.
+mlCmdID	f	int mlCmdID			ID of the command.
+mlEdmMenuFlags	f	int:EdmMenuFlags mlEdmMenuFlags			Menu flags.
+mlToolbarButtonIndex	f	int mlToolbarButtonIndex			Index of the toolbar image in a resource containing multiple images.
+mlToolbarImageID	f	int mlToolbarImageID			ID of an image added via IEdmCmdMgr5::AddToolbarImage.
+@EdmAttributeData	s	Contains information about an attribute mapping in a variable (EdmVariableData).	since=2007
+mbsAttribName	f	string mbsAttribName			Name of attribute in block.
+mbsBlockName	f	string mbsBlockName			Name of block that contains the attribute.
+mbsExtensions	f	string mbsExtensions			Comma-delimited list of file extensions of file types where to find this attribute, e.g., "sldasm, sldprt".
+@EdmBatchDelErrInfo	s	Contains information about an error that occurred during execution of IEdmBatchDelete::CommitDelete.	use=4	since=12.0
+mbsPathName	f	string mbsPathName			File system path to the file or folder.
+mlDocID	f	int mlDocID			ID of the document.
+mlErrorCode	f	int mlErrorCode			Error code.
+mlProjID	f	int mlProjID			ID of the folder.
+@EdmBatchError	s	Contains error information.	since=6.2
+mlErrorCode	f	int mlErrorCode			Error code.
+mlFileID	f	int mlFileID			ID of the file that caused the error.
+mlVariableID	f	int mlVariableID			ID of variable that caused the error.
+@EdmBatchError2	s	Contains error information.	since=6.3
+mlErrorCode	f	int mlErrorCode			Error code.
+mlFileID	f	int mlFileID			ID of the file that caused the error.
+mlFolderID	f	int mlFolderID			ID of folder that caused the error.
+mlVariableID	f	int mlVariableID			ID of the variable affected by the error.
+@EdmBomColumn	s	Contains information about a single column in a Bill of Materials.	since=2009
+mbsCaption	f	string mbsCaption			Column caption.
+meType	f	EdmBomColumnType meType			Type of data to show in this column.
+mlColumnID	f	int mlColumnID			Unique ID of the column.
+mlFlags	f	int mlFlags			Column flags.
+mlVariableID	f	int mlVariableID			ID of the variable displayed in the column.
+mlVariableType	f	int:EdmVariableType mlVariableType			Type of variable displayed in the column.
+mlWidth	f	int mlWidth			Default width of the column.
+@EdmBomDefaultSetting	s	Contains the default view settings of a computed BOM.	since=2025
+mlBomDisplayType	f	int mlBomDisplayType			BOM's display type.
+mlBomRefVersion	f	int mlBomRefVersion			BOM's reference version.
+mlBomSelectedFile	f	int mlBomSelectedFile			BOM's selected file display status.
+mlBomTreeView	f	int mlBomTreeView			BOM's tree view status.
+mlBOMViewSettings	f	int mlBOMViewSettings			BOM's view type.
+mlBOMWeldmentCutListType	f	int mlBOMWeldmentCutListType			BOM's weldment cut list type.
+@EdmBomInfo	s	Contains information about a Bill of Materials.	since=2009
+mbsBomName	f	string mbsBomName			BOM name.
+meType	f	EdmBomType meType			BOM type as defined in EdmBomType.
+mlBomID	f	int mlBomID			Unique ID of the BOM.
+@EdmBomLayout	s	Contains information about a Bill of Materials layout.	since=2009
+mbsLayoutName	f	string mbsLayoutName			Layout name.
+mlLayoutID	f	int mlLayoutID			Unique ID of the BOM layout.
+@EdmBomLayout2	s	Contains information about a Bill of Materials layout.	since=2020
+mbsLayoutName	f	string mbsLayoutName			Layout name.
+meType	f	EdmBomType meType			BOM type as defined in EdmBomType.
+mlLayoutID	f	int mlLayoutID			Unique ID of the BOM layout.
+@EdmBomVersion	s	Contains information about a Bill of Materials version, revision, or label.	since=2009
+mbsComment	f	string mbsComment			Comment entered by the user.
+mbsTag	f	string mbsTag			Label or revision name.
+meType	f	EdmBomVersionType meType			Type of BOM version.
+mlVersion	f	int mlVersion			Version number.
+moDate	f	DateTime moDate			Time when the version, revision, or label was created.
+@EdmBrokenParentInfo	s	Contains broken parent information.	since=2013
+mbsChildName	f	string mbsChildName			Child name.
+mbsParentName	f	string mbsParentName			Parent name.
+mlChildFileID	f	int mlChildFileID			File ID of child.
+mlChildFolderID	f	int mlChildFolderID			Folder ID of child.
+mlParentFileID	f	int mlParentFileID			File ID of parent.
+mlParentFolderID	f	int mlParentFolderID			Folder ID of parent.
+@EdmCardViewParams	s	Contains card view parameters.	since=2009
+mhParentWindow	f	int mhParentWindow			Handle of parent window for the card.
+mlCardID	f	int mlCardID			ID of this card.
+mlEdmCardViewFlags	f	int:EdmCardViewFlag mlEdmCardViewFlags			Card view flags.
+mlFileID	f	int mlFileID			ID of the file for this card.
+mlFolderID	f	int mlFolderID			ID of the folder for this card or ID of the file card's parent folder.
+mlX	f	int mlX			Horizontal position of card.
+mlY	f	int mlY			Vertical position of card.
+@EdmChangeStateTransitionInfo	s	Workflow state transition information.	since=2013
+mbIsRevoke	f	short mbIsRevoke			The revoke state of this state transition.
+mlCommitsNum	f	int mlCommitsNum			Number of commits for this state transition.
+mlRequiredNum	f	int mlRequiredNum			ID of this state transition.
+moDescription	f	string moDescription			Description of this state transition.
+moIcon	f	string moIcon			File name of the icon for this state transition.
+moName	f	string moName			Name of this state transition.
+@EdmCheckRef	s	Contains information about a file reference.	since=2009
+mbsParentPath	f	string mbsParentPath			File system path to the referencing file.
+mbsRefPath	f	string mbsRefPath			File system path to the referenced file.
+mlParentFileID	f	int mlParentFileID			ID of the referencing file.
+mlRefFileID	f	int mlRefFileID			ID of the referenced file.
+mlRefFolderID	f	int mlRefFolderID			ID of the referenced file's parent folder.
+mlRefLatestVersion	f	int mlRefLatestVersion			Latest version of the referenced file.
+mlRefVersion	f	int mlRefVersion			Version of the referenced file.
+@EdmCmd	s	Contains the kind of command issued and information common to all files and folders affected by the command.	since=5.2
+mbCancel	f	short:EdmCmdType mbCancel			Command cancel status.
+mbsComment	f	string mbsComment			Contains information specific to EdmCmd.meCmdType.
+mbSilentMode	f	short mbSilentMode			Silent mode status for the command.
+meCmdType	f	EdmCmdType meCmdType			Type of command.
+mlCmdID	f	int mlCmdID			Command ID.
+mlCurrentFolderID	f	int mlCurrentFolderID			ID of the active folder.
+mlEdmRefreshFlags	f	int:EdmRefreshFlag mlEdmRefreshFlags			Controls how SOLIDWORKS PDM Professional refreshes File Explorer after a call to IEdmAddIn5::OnCmd.
+mlParentWnd	f	int mlParentWnd			Window handle of the parent window.
+mpoExtra	f	object mpoExtra			Pointer to an object containing command-specific information.
+mpoVault	f	object:IEdmVault5 mpoVault			Pointer to the file vault's interface.
+@EdmCmdData	s	Contains command data.	since=2010
+mbsStrData1	f	string mbsStrData1			Name of a variable, configuration, label, or path, depending on the type of command.
+mbsStrData2	f	string mbsStrData2			Name of a variable, configuration, label, or path, depending on the type of command.
+mbsStrData3	f	string mbsStrData3			Name of a variable, configuration, label, or path, depending on the type of command.
+mlLongData1	f	int mlLongData1			ID, constant, return code, serial number, or boolean value, depending on the type of command.
+mlLongData2	f	int mlLongData2			ID, constant, return code, serial number, or boolean value, depending on the type of command.
+mlLongData3	f	int mlLongData3			ID, constant, return code, serial number, version number, or boolean value, depending on the type of command.
+mlObjectID1	f	int mlObjectID1			ID of a file, folder, data card, or control, depending on the type of command.
+mlObjectID2	f	int mlObjectID2			ID of a file, folder, data card, or control, depending on the type of command.
+mlObjectID3	f	int mlObjectID3			ID of a file, folder, data card, or control, depending on the type of command.
+mlObjectID4	f	int mlObjectID4			ID of a file, folder, data card, or control, depending on the type of command.
+mpoExtra	f	object:IEdmStrLst5 mpoExtra			Names of all the configurations for the specified command type.
+@EdmCmdInfo	s	Contains information about menu command items.	since=2009
+mbsCmdStr	f	string mbsCmdStr			User interface command string.
+mbsStatusBarHelp	f	string mbsStatusBarHelp			Status bar help.
+mbsTooltip	f	string mbsTooltip			Command tooltip.
+mlCmdID	f	int mlCmdID			ID of the command.
+mlEdmMenuFlags	f	int:EdmMenuFlags mlEdmMenuFlags			Command flags.
+moData	f	object moData			Reserved.
+@EdmColumnSet	s	Contains information about a column set's name and ID.	since=2024
+mbsColumnSetName	f	string mbsColumnSetName			Column set name.
+mlColumnSetID	f	int mlColumnSetID			Unique ID for the column set.
+@EdmCopyTreeOptions	s	Contains options for copying an assembly tree of files to a destination folder.
+mbIncludeDrawings	f	short mbIncludeDrawings			Whether to include drawings in the copy.
+mbsPrefix	f	string mbsPrefix			Prefix to append to copied file names.
+mbsSuffix	f	string mbsSuffix			Suffix to append to copied file names.
+mbUseLatestVersion	f	short mbUseLatestVersion			Whether to copy the latest versions of files.
+@EdmDeletedItems	s	Contains information about deleted items.	since=2018
+mlFileID	f	int mlFileID			ID of the deleted item.
+mlObjectType	f	int:EdmObjectType mlObjectType			Object type of the deleted item.
+mlProjectID	f	int mlProjectID			Parent folder ID of the deleted item.
+moName	f	string moName			Name of the deleted item.
+@EdmDocIDs	s	Contains information about one document in the vault; used in IEdmVault20::GetFiles.
+mlDocID	f	int mlDocID			Unique ID of the vault document.
+mlProjID	f	int mlProjID			Unique ID of the document's parent folder in the vault.
+@EdmFileInfo	s	Information about a file or folder that is added to or removed from the vault.	use=10	since=6.4
+mbsPath	f	string mbsPath			File system path to the file or folder.
+mhResult	f	int mhResult			Result code for the add operation.
+mlArg	f	int mlArg			Caller-defined argument passed to one of the add methods.
+mlFileID	f	int mlFileID			ID of the created file.
+mlFolderID	f	int mlFolderID			ID of the created file's parent folder.
+mpoObject	f	IEdmObject5:IEdmFile6 mpoObject			Interface for the file or folder that was added to the batch using one of the IEdmBatchAdd::AddXxxxx methods.
+@EdmFolderInfo	s	Information about a folder that is added to the vault.	since=6.3
+mbsPath	f	string mbsPath			Complete path to the folder.
+mlEdmFolderInfoFlags	f	int:EdmFolderInfoFlag mlEdmFolderInfoFlags			Non-critical errors about this folder.
+mlFolderID	f	int mlFolderID			ID of the folder.
+mlParam	f	int mlParam			User-defined lParam argument passed to IEdmBatchAddFolders::AddFolder.
+mpoFolder	f	IEdmFolder6 mpoFolder			Interface for the folder that was added to the batch using IEdmBatchAddFolders::AddFolder.
+@EdmFolderPermission	s	Contains permission settings.	use=2	since=2010
+meOwnerType	f	EdmObjectType meOwnerType			Folder owner type.
+mlEdmRightFlag	f	int:EdmRightFlags mlEdmRightFlag			Folder rights.
+mlFolderID	f	int mlFolderID			ID of folder to which to assign permissions.
+mlOwnerID	f	int mlOwnerID			ID of meOwnerType for whom to assign permissions.
+@EdmGenItemInfo	s	Contains information about generated items.	since=2010
+mbsConfiguration	f	string mbsConfiguration			Name of the configuration to which the item is linked.
+mbsFileFolderPath	f	string mbsFileFolderPath			Path to the file's parent folder.
+mbsFileName	f	string mbsFileName			File's name.
+mbsItemAlternativeName	f	string mbsItemAlternativeName			Item's descriptive name.
+mbsItemFolderPath	f	string mbsItemFolderPath			Path to the item's parent folder.
+mbsItemName	f	string mbsItemName			Item ID.
+meLinkType	f	EdmItemLinkType meLinkType			Type of link between the file and the item.
+mhResult	f	int mhResult			Result code of the item generation operation.
+mlFileID	f	int mlFileID			ID of the file to which the item is linked.
+mlFileParentFolderID	f	int mlFileParentFolderID			ID of the file's parent folder.
+mlFileVersion	f	int mlFileVersion			File version number for which to create the item.
+mlItemID	f	int mlItemID			ID of the item.
+mlItemParentFolderID	f	int mlItemParentFolderID			ID of the item's parent folder.
+@EdmGetVarData	s	Contains extra file information.	since=6.4
+mbsCategory	f	string mbsCategory			Name of the file's category.
+mbsRevision	f	string mbsRevision			Name of the current revision.
+mbsState	f	string mbsState			Name of the current workflow state.
+mbsWorkflow	f	string mbsWorkflow			Name of the current workflow.
+mlDateFmt	f	int mlDateFmt			SQL-server date format of the date used in the vault.
+mlEdmGetVarDataFlags	f	int:EdmGetVarDataFlag mlEdmGetVarDataFlags			Date flags.
+mlLatestVersion	f	int mlLatestVersion			Latest version of the file.
+mlVersion	f	int mlVersion			Local version of the file.
+@EdmGroupData	s	Contains information about a user group.	use=4	since=2007
+mbAutoAdd	f	short mbAutoAdd			Status of automatically adding users to groups.
+mbsDescription	f	string mbsDescription			Description of group.
+mbsName	f	string mbsName			Name of the group.
+mhStatus	f	int mhStatus			Status of adding group.
+mlFlags	f	int:EdmGroupDataFlags mlFlags			Group adding flags.
+mlGroupID	f	int mlGroupID			ID of the group.
+mlSysRights	f	int:EdmSysRightFlags mlSysRights			System rights for the group.
+moMembers	f	int[] moMembers			ID array of users that are members of this group.
+mpoGroup	f	IEdmUserGroup5 mpoGroup			Group interface.
+@EdmGroupData2	s	Contains information about a user group.	use=4	since=2010
+mbAutoAdd	f	short mbAutoAdd			Whether to automatically add new users to this group.
+mbsDescription	f	string mbsDescription			Group description.
+mbsName	f	string mbsName			Name of the group.
+mhStatus	f	int mhStatus			Status of the group creation.
+mlFlags	f	int:EdmGroupDataFlags mlFlags			Group creation flags.
+mlGroupID	f	int mlGroupID			ID of the group.
+moMembers	f	int[] moMembers			Array of IDS of users to add to this group.
+moSysPerms	f	EdmSysPerm[] moSysPerms			Group system permissions.
+mpoGroup	f	IEdmUserGroup5 mpoGroup			Group interface.
+@EdmHistoryItem	s	Contains a history item.	since=6.4
+mbsComment	f	string mbsComment			Comment entered by the user when the record is created.
+mbsItemName	f	string mbsItemName			Name of file or folder.
+mbsUserName	f	string mbsUserName			Name of user who created the history record.
+meType	f	EdmHistoryType meType			Type of history record.
+mlFileID	f	int mlFileID			ID of the file for this record
+mlFolderID	f	int mlFolderID			ID of the folder for this record.
+mlUserID	f	int mlUserID			ID of the user who created the history record.
+mlVersion	f	int mlVersion			Version of the file when the item was created.
+moData	f	EdmCmdData moData			Extra data.
+moDate	f	DateTime moDate			Date and time when the history record was created.
+@EdmHistoryItem2	s	Contains a history item.
+mbsComment	f	string mbsComment			Comment entered by the user when the record is created.
+mbsDetails	f	string mbsDetails			System generated details for the record.
+mbsItemName	f	string mbsItemName			Name of file or folder.
+mbsUserName	f	string mbsUserName			Name of user who created the history record.
+meType	f	EdmHistoryType meType			Type of history record.
+mlFileID	f	int mlFileID			ID of the file for this record
+mlFolderID	f	int mlFolderID			ID of the folder for this record.
+mlUserID	f	int mlUserID			ID of the user who created the history record.
+mlVersion	f	int mlVersion			Version of the file when the item was created.
+moData	f	EdmCmdData moData			Extra data.
+moDate	f	DateTime moDate			Date and time when the history record was created.
+@EdmItemRef	s	Contains information about an item reference.	since=2010
+mbsConfiguration	f	string mbsConfiguration			Name of the configuration to which the item is linked.
+mhResult	f	int mhResult			Result code containing the status of the operation.
+mlEdmRefFlags	f	int:EdmRefFlags mlEdmRefFlags			Item reference flags.
+moNamePathOrID	f	object moNamePathOrID			ID of the referenced file or item.
+moParentNamePathOrItemID	f	object moParentNamePathOrItemID			ID of the parent item to which to add the reference.
+@EdmLicense	s	Contains information about a license type and is returned by IEdmVault11::GetLicense.	since=2010
+meType	f	EdmLicenseType meType			Type of license.
+mlUserCount	f	int mlUserCount			Maximum number of users for this license type.
+@EdmListCol	s	Contains information about a column in a file listing.	since=6.4
+mbsCaption	f	string mbsCaption			Column caption.
+meColType	f	EdmColType meColType			Type of column.
+meVarType	f	EdmVariableType meVarType			Type of variable to which the column is connected.
+mlEdmListColFlags	f	int mlEdmListColFlags			Bit flags specifying alignment, etc., of the column. (See LVCFMT_LEFT in the Win32 Help.)
+mlVariableID	f	int mlVariableID			ID of variable to which the column is connected, or 0 if not connected to a variable.
+mlWidth	f	int mlWidth			Default column width.
+@EdmListFile	s	Holds information about a file returned by the IEdmBatchListing::GetFiles method.	since=6.4
+mbsLockComputer	f	string mbsLockComputer			Name of computer on which the file is checked out.
+mbsLockPath	f	string mbsLockPath			Path to the folder where the file is checked out.
+mbsLockUser	f	string mbsLockUser			Name of user who has the file checked out.
+mbsRevisionName	f	string mbsRevisionName			Name of the file’s current revision.
+mlFileID	f	int mlFileID			ID of the file.
+mlFolderID	f	int mlFolderID			ID of the file’s parent folder.
+mlLatestVersion	f	int mlLatestVersion			Latest version of the file.
+mlLocalVersion	f	int mlLocalVersion			Version of the file in the local cache, based on the date of the file passed to the IEdmBatchListing::AddFile method.
+mlParam	f	int mlParam			Caller-defined parameter that was passed to the IEdmBatchListing::AddFile method.
+moColumnData	f	object moColumnData			Column data for the selected column set.
+moCurrentState	f	EdmWorkflowInfo moCurrentState			File’s current workflow state.
+@EdmListFile2	s	Holds information about a file returned by the IEdmBatchListing4::GetFiles2 method.	since=2017
+mbHasLockRights	f	short mbHasLockRights			Gets whether a file in a user's local cache can be checked out.
+mbLocalOverwrittenVersionObsolete	f	short mbLocalOverwrittenVersionObsolete			Gets whether a file in a user's local cache is valid or obsolete because the file was overwritten by another user...
+mbsLockComputer	f	string mbsLockComputer			Name of computer on which the file is checked out.
+mbsLockPath	f	string mbsLockPath			Path to the folder where the file is checked out.
+mbsLockUser	f	string mbsLockUser			Name of user to whom this file is checked out.
+mbsLockViewID	f	string mbsLockViewID			GUID of the vault view where this file is checked out.
+mbsRevisionName	f	string mbsRevisionName			Name of the file’s current revision.
+mlFileID	f	int mlFileID			ID of the file.
+mlFolderID	f	int mlFolderID			ID of the file’s parent folder.
+mlLatestVersion	f	int mlLatestVersion			Latest version of the file.
+mlLocalVersion	f	int mlLocalVersion			Version of the file in the local cache, based on the date of the file passed to the IEdmBatchListing::AddFile method.
+mlLockProjectID	f	int mlLockProjectID			ID of the project where this file is checked out.
+mlParam	f	int mlParam			Caller-defined parameter that was passed to the IEdmBatchListing::AddFile method.
+moColumnData	f	object moColumnData			Column data for the selected column set.
+moCurrentState	f	EdmWorkflowInfo moCurrentState			File’s current workflow state.
+@EdmListFolder	s	Contains information about a folder returned from IEdmBatchListing::GetFolders.	since=6.4
+mbsPath	f	string mbsPath			Path to the folder.
+mlFolderID	f	int mlFolderID			ID of the folder.
+mlParam	f	int mlParam			Caller-defined parameter passed to IEdmBatchListing::AddFolder.
+moColumnData	f	object moColumnData			Column data for the selected column set.
+@EdmListRef	s	Contains information about file references.	since=2014
+mlChildFileID	f	int mlChildFileID			ID of referenced part or subassembly.
+mlChildFolderID	f	int mlChildFolderID			ID of the referenced file's parent folder.
+mlChildRefVersion	f	int mlChildRefVersion			Referenced version of the child.
+mlParentFileID	f	int mlParentFileID			ID of referencing assembly or drawing.
+mlParentFolderID	f	int mlParentFolderID			ID of teh referencing file's parent folder.
+@EdmMemberFolder	s	Adds a user as a member of a group to a specific folder.	since=2011
+mlFolderID	f	int mlFolderID			ID of user to add as a member.
+mlUserID	f	int mlUserID			ID of folder to which to add the user as a member.
+@EdmObjectInfo	s	Use in calls to IEdmVault9::GetObjects.	use=4	since=2008
+meType	f	EdmObjectType meType			Type of object to return in mpoObject as defined in EdmObjectType.
+mhResult	f	int mhResult			Can be passed to IEdmVault5::GetErrorString to get a human-readable error message.
+moObjectID	f	object moObjectID			ID of object to return in mpoObject.
+mpoObject	f	IEdmObject5 mpoObject			Type of object to return in mpoObject.
+@EdmPoint	s	Holds a point.	since=2011
+mlX	f	int mlX			X coordinate.
+mlY	f	int mlY			Y coordinate.
+@EdmRawReference	s	Contains information about a file reference.	since=6.4
+mbsIncludePath	f	string mbsIncludePath			How the file is referenced by the referencing file.
+mbsRefID	f	string mbsRefID			Internal ID of the file reference.
+mbsRefName	f	string mbsRefName			Reference name.
+mlCount	f	int mlCount			Number of times the file is referenced.
+mlFlags	f	int mlFlags			A combination of EdmRawRefFlags bits.
+@EdmRect	s	Encapsulates a rectangle and is identical to the Win32 RECT struct.	since=5.2
+mlBottom	f	int mlBottom			Rectangle's bottom edge + 1 (top + height).
+mlLeft	f	int mlLeft			X position of the rectangle's top-left corner.
+mlRight	f	int mlRight			Rectangle's right edge + 1 (left + width).
+mlTop	f	int mlTop			Y position of the rectangle's top-left corner.
+@EdmRefVar	s	Holds information about a single file reference variable; i.e., a variable stored on the reference relationship...	since=2010
+mbsChildCfgName	f	string mbsChildCfgName			Child file (part) configuration name.
+mbsParentCfgName	f	string mbsParentCfgName			Parent file (assembly) configuration name.
+mhResult	f	int mhResult			Result of operation.
+mlChildFileID	f	int mlChildFileID			ID of child file (part).
+mlParentFileID	f	int mlParentFileID			ID of parent file (assembly).
+mlParentVersion	f	int mlParentVersion			Version of parent file (assembly).
+mlVarID	f	int mlVarID			ID of the reference variable.
+moValue	f	object moValue			Value of the reference variable.
+@EdmRevComponent	s		since=2007	status=obsolete>EdmRevComponent2
+mbsComponentName	f	string mbsComponentName			Name of the component.
+mlComponentID	f	int mlComponentID			Name of the component.
+@EdmRevComponent2	s	Holds information about a single revision number component.	since=2007 SP3
+mbsComponentName	f	string mbsComponentName			Component's name.
+mbsData	f	string mbsData			Format string entered in the administration tool if mlEdmRevComponentFlags contains the flag...
+mlComponentID	f	int mlComponentID			Component ID.
+mlEdmRevComponentFlags	f	int mlEdmRevComponentFlags			Combination of EdmRevComponentFlags flags.
+mlInitialCounter	f	int mlInitialCounter			Initial counter value for the component.
+mlRecipientID	f	int mlRecipientID			ID of the user or group notified by mail when the end of a revision number list is reached.
+@EdmRevCounter	s	Used in calls to IEdmRevisionMgr::SetRevisionCounters, this structure holds information about a single counter.	since=2007
+mbsComponentName	f	string mbsComponentName			Name of revision number component as specified in the administration tool.
+mlCounter	f	int mlCounter			New counter value for the component.
+@EdmRevError	s	Returned from IEdmRevisionMgr::Commit if something goes wrong when incrementing the revision number on a file.	since=2007
+mhError	f	int mhError			Error code.
+mlFileID	f	int mlFileID			ID of file affected by the error.
+@EdmRevNo	s	Holds information about a revision number and is returned from IEdmRevisionMgr2::GetRevisionNumbers..	since=2007 SP3
+mbsData	f	string mbsData			Format string as entered in the administration tool.
+mbsRevNoName	f	string mbsRevNoName			Name of the revision number.
+mlRevNoID	f	int mlRevNoID			ID of the revision number.
+@EdmSelectionObject	s	Contains data returned from IEdmSelectionList6::GetNext2.	use=2	since=2010
+mbsPath	f	string mbsPath			Object's path.
+meType	f	EdmObjectType meType			Object type.
+mlGetVersion	f	int mlGetVersion			Version to get.
+mlID	f	int mlID			Object's database ID.
+mlLatestVersion	f	int mlLatestVersion			Latest version.
+mlLocalVersion	f	int mlLocalVersion			Local version.
+mlProjectID	f	int mlProjectID			Object's parent folder ID.
+@EdmSelItem	s	Contains information about one selected file; e.g., used with IEdmBatchUnlock::AddSelection.	since=6.3
+mlDocID	f	int mlDocID			Unique ID of the file.
+mlProjID	f	int mlProjID			Unique ID of the folder.
+@EdmSelItem2	s	Contains information about a selected item.	use=2	since=2010
+meType	f	EdmObjectType meType			Type of object.
+mlID	f	int mlID			Database ID of the selected object.
+mlParentID	f	int mlParentID			Object's parent folder ID.
+mlVersion	f	int mlVersion			Object's version number.
+@EdmSimpleXRefInfo	s	Contains cross-reference information.
+VersionNo	f	int VersionNo			Version number.
+XRefDocumentID	f	int XRefDocumentID			Document ID.
+XRefProjectID	f	int XRefProjectID			Parent folder ID.
+XRefVersionNo	f	int XRefVersionNo			Cross-reference version number.
+@EdmStatePermission	s	Contains state permission information.	use=2	since=2017
+meOwnerType	f	EdmObjectType meOwnerType			Type of mlOwnerID.
+mlEdmRightFlag	f	int:EdmRightFlags mlEdmRightFlag			State rights.
+mlOwnerID	f	int mlOwnerID			ID of meOwnerType for whom to assign permissions.
+mlStateID	f	int mlStateID			ID of the state to which these permissions apply.
+@EdmTaskInfo	s	Used by IEdmTaskMgr::RunTask.
+mbsTaskName	f	string mbsTaskName			Task add-in name.
+mllShortTaskInfoFlags	f	long mllShortTaskInfoFlags			Combination of EdmTaskFlags flags.
+mlTaskID	f	int mlTaskID			Task add-in ID.
+@EdmTaskMenuCmd	s	Used by IEdmTaskProperties::SetMenuCmds when an add-in adds menu commands to launch a task.	since=2010
+mbsMenuString	f	string mbsMenuString			String to show in the menu.
+mbsStatusBarHelp	f	string mbsStatusBarHelp			Help string to show in the File Explorer status bar when the menu command is selected.
+mlCmdID	f	int mlCmdID			Add-in defined ID of the command.
+mlEdmMenuFlags	f	int mlEdmMenuFlags			Combination of EdmMenuFlags flags.
+@EdmTaskSel	s	Passed as argument to IEdmTaskProperties::SetSel.	use=2	since=2010
+mbsConfiguration	f	string mbsConfiguration			Optional configuration name. Empty for folders and file types not supporting configurations.
+meType	f	EdmObjectType meType			Type of object (EdmObjectType.EdmObject_File or EdmObjectType.EdmObject_Folder).
+mlID	f	int mlID			Database ID of file or folder.
+mlParentID	f	int mlParentID			Parent folder ID for files; 0 for folders.
+mlVersion	f	int mlVersion			File version; 0 for folders.
+@EdmTaskSetupPage	s	Used by the method IEdmTaskProperties::SetSetupPages.	since=2010
+mbsPageName	f	string mbsPageName			Name of the page to add.
+mlPageHwnd	f	int mlPageHwnd			Window handle of the page.
+mpoPageImpl	f	object mpoPageImpl			Interface that SOLIDWORKS PDM Professional keeps addressed while the page exists.
+@EdmTransitionPermission	s	Contains transition permission information.	use=2	since=2017
+meOwnerType	f	EdmObjectType meOwnerType			Type of mlOwnerID.
+mlEdmRightFlag	f	int:EdmTransitionRightFlags mlEdmRightFlag			Transition rights.
+mlOwnerID	f	int mlOwnerID			ID of meOwnerType for whom to assign permissions.
+mlTransitionID	f	int mlTransitionID			ID of the transition to which these permissions apply.
+@EdmUnlockErrInfo	s	Contains extended information about an error message.	since=6.3
+mbsConfigName	f	string mbsConfigName			Name of configuration (layout) where the variable value that caused the error is stored.
+mbsVarName	f	string mbsVarName			Name of the variable that caused the error.
+mlDocID	f	int mlDocID			Unique ID of the file that caused the error, which is the same ID you see in IEdmObject5::ID.
+mlVarID	f	int mlVarID			Unique ID of the variable that caused the error.
+@EdmUpdatedRefPath	s	Contains old and new path information for references that are moved or renamed by another client.	since=2021 SP4
+mbsRefNewPath	f	string mbsRefNewPath			New reference path.
+mbsRefOldPath	f	string mbsRefOldPath			Old reference path.
+@EdmUserData	s		use=2	since=2007	status=obsolete>EdmUserData2
+mbsColumnView	f	string mbsColumnView			Name of the column view the user should see in File Explorer.
+mbsCompleteName	f	string mbsCompleteName			User’s complete name.
+mbsEmail	f	string mbsEmail			Email address.
+mbsInitials	f	string mbsInitials			User's initials.
+mbsPassword	f	string mbsPassword			User's password.
+mbsUserData	f	string mbsUserData			Arbitrary data associated with the user.
+mbsUserName	f	string mbsUserName			User's login name.
+mhStatus	f	int mhStatus			Status of the add operation.
+mlFlags	f	int mlFlags			Combination of EdmUserDataFlags flags.
+mlSysRights	f	int mlSysRights			Combination of EdmSysRightFlags flags.
+mlUserID	f	int mlUserID			User's ID.
+mpoUser	f	IEdmUser6 mpoUser			Pointer to the user's interface if the mlFlags filed contained EdmUserDataFlags.Edmudf_GetInterface.
+@EdmUserData2	s	Contains information about a user to be created.	use=2	since=2010
+mbsColumnView	f	string mbsColumnView			Name of the column view that the user should see in File Explorer file listings.
+mbsCompleteName	f	string mbsCompleteName			Complete user name.
+mbsEmail	f	string mbsEmail			Email address.
+mbsInitials	f	string mbsInitials			User's initials.
+mbsPassword	f	string mbsPassword			User's password in SOLIDWORKS PDM Professional.
+mbsUserData	f	string mbsUserData			Arbitrary text to associate with the user.
+mbsUserName	f	string mbsUserName			User's login name in SOLIDWORKS PDM Professional.
+mhStatus	f	int mhStatus			HRESULT code containing the status of the creation of the user.
+mlFlags	f	int mlFlags			Combination of EdmUserDataFlags flags.
+mlUserID	f	int mlUserID			Database ID of the just-created user.
+moSysPerms	f	EdmSysPerm[] moSysPerms			User's system permissions.
+mpoUser	f	IEdmUser6 mpoUser			User's interface if mlFlags contains the edmUserDataFlags.edmudf_GetInterface and mhStatus is S_OK (0), otherwise...
+@EdmUserDataEx	s	Contains information about a user.	since=2013
+mbsCellPhone	f	string mbsCellPhone			Cell phone number.
+mbsCompleteName	f	string mbsCompleteName			Full user name.
+mbsEmail	f	string mbsEmail			Email address.
+mbsInitials	f	string mbsInitials			User's initials.
+mbsPhone	f	string mbsPhone			Office phone number.
+mbsPicturePath	f	string mbsPicturePath			Points to an image file (e.g.,.jpg,.bmp,.png, etc.) that can be set using IEdmUser10::SetUserDataEx.
+mbsPresenceNote	f	string mbsPresenceNote			Presence (i.e., out of office) note.
+mbsUserData	f	string mbsUserData			User's data string.
+mbsWebSite1	f	string mbsWebSite1			First website address.
+mbsWebSite2	f	string mbsWebSite2			Second website.
+mbsWebSite3	f	string mbsWebSite3			Third website.
+mbsWebSite4	f	string mbsWebSite4			Fourth website.
+mlEdmUserDataExFlags	f	int mlEdmUserDataExFlags			Combination of EdmUserDataExFlag flags telling which of the other members of this structure should be updated or...
+mlUserID	f	int mlUserID			ID of user to which the data belongs.
+@EdmVariableData	s	Contains information about a variable created with IEdmVariableMgr6::AddVariables.	since=2007
+mbsVariableName	f	string mbsVariableName			Name of variable.
+meType	f	EdmVariableType meType			Variable type as defined in EdmVariableType.
+mlEdmVariableFlags	f	int mlEdmVariableFlags			Combination of EdmVariableFlags.
+mlVariableID	f	int mlVariableID			ID of the variable.
+mpoAttributes	f	EdmAttributeData[] mpoAttributes			EdmAttributeData to which this variable should be mapped.
+@EdmVarVal	s	Passed to IEdmBatchItemGeneration2::AddSelection2 to update a variable value.	since=2010
+mlEdmVarValFlags	f	int mlEdmVarValFlags			Must be 0.
+moValue	f	object moValue			Value of variable.
+moVarIDorName	f	object moVarIDorName			Variable ID (integer) or name (string).
+@EdmViewInfo	s	Contains information about a file vault view.	use=4	since=6.4
+mbLoggedIn	f	short mbLoggedIn			Ture if you are logged into the vault, false if not
+mbsPath	f	string mbsPath			Path to the view root folder.
+mbsVaultID	f	string mbsVaultID			Unique ID of the vault.
+mbsVaultName	f	string mbsVaultName			Name of the file vault.
+mbsViewID	f	string mbsViewID			Unique ID of the view.
+@EdmWorkflowInfo	s	Holds information about a file's workflow state.	since=6.4
+mbsStateIcon	f	string mbsStateIcon			Name of the icon resource associated with the state.
+mbsStateName	f	string mbsStateName			Name of state.
+mbsWorkflowName	f	string mbsWorkflowName			Name of the worflow to which the state belongs.
+@IEdmAddCustomRefs	i	Allows you to create or manage user-defined file references.	via=IEdmVault7.CreateUtility	use=12
+AddReferencesClipboard	m	void AddReferencesClipboard(int lRootFile)	6.3		Adds a file reference that has been copied to the Windows clipboard to another checked-out file.
+AddReferencesID	m	void AddReferencesID(int lRootFile, ref EdmSelItem[] ppoReferences)	6.3	obsolete>IEdmAddCustomRefs2.AddReferencesID2
+AddReferencesPath	m	void AddReferencesPath(int lRootFile, ref string[] ppoReferences)	6.3	obsolete>IEdmAddCustomRefs2.AddReferencesPath2
+CreateReferences	m	bool CreateReferences()	6.3		Creates the custom file references in the file vault.
+CreateTree	m	bool CreateTree(int lEdmCreateReferenceFlags:EdmCreateReferenceFlags)	6.3		Computes the file reference tree.
+ShowDlg	m	bool ShowDlg(int hParentWnd)	6.3		Displays the Create File References dialog box that allows the user to edit the new file references.
+ShowEditReferencesDlg	m	bool ShowEditReferencesDlg(ref int[] ppoFileIdArray, int lParentWnd)	6.3	obsolete>IEdmAddCustomRefs3.ShowEditReferencesDlg2
+@IEdmAddCustomRefs2	i	Allows you to create or manage user-defined file references.	base=IEdmAddCustomRefs
+AddReferencesID2	m	void AddReferencesID2(int lRootFile, ref EdmSelItem[] ppoReferences, ref int[] plQuantity)	2013		Adds file references by ID and quantity.
+AddReferencesPath2	m	void AddReferencesPath2(int lRootFile, ref string[] ppoReferences, ref int[] plQuantity)	2013		Adds file references by file system path and quantity.
+@IEdmAddCustomRefs3	i	Allows you to create or manage user-defined file references.	base=IEdmAddCustomRefs,IEdmAddCustomRefs2	use=2
+ShowEditReferencesDlg2	m	bool ShowEditReferencesDlg2(ref EdmDocIDs[] ppoDocAndProjIDs, int lParentWnd)	2026		Displays the Edit User-Defined File References dialog box that allows the user to edit existing file references.
+@IEdmAddIn5	i	Allows you to create a SOLIDWORKS PDM Professional add-in.
+GetAddInInfo	m	void GetAddInInfo(out EdmAddInInfo poInfo, IEdmVault5 poVault, IEdmCmdMgr5 poCmdMgr)	5.2		Called by SOLIDWORKS PDM Professional to obtain information about this add-in and the commands it supports.
+OnCmd	m	void OnCmd(out EdmCmd poCmd, out EdmCmdData[] ppoData)	5.2		Called by SOLIDWORKS PDM Professional whenever one of the menu commands or hooks registered in...
+@IEdmAddInDrawButton5	i	Allows you to dynamically draw an add-in toolbar button.	use=1
+DrawToolbarButton	m	void DrawToolbarButton(int lCmdID, int hDC, ref EdmRect poDestRect, EdmButtonState eState, out int plRetBackgroundColor)	5.2		Dynamically draws an add-in toolbar button.
+@IEdmAddInMgr5	i	Allows you to administer add-ins.	use=4
+AddAddIns	m	void AddAddIns(string bsPathList, int lEdmAddAddInFlags:EdmAddAddInFlags, ref object poReserved)	5.2		Installs add-ins in SOLIDWORKS PDM Professional.
+GetAddInInfo	m	void GetAddInInfo(string bsPath, ref object poReserved, out EdmAddInInfo poInfo)	6.4	obsolete>IEdmAddInMgr6.GetAddInInfo2
+@IEdmAddInMgr6	i	Allows you to administer add-ins.	base=IEdmAddInMgr5	use=6
+GetAddInInfo2	m	void GetAddInInfo2(string bsPath, object oReserved, out EdmAddInInfo2 poInfo)	6.4		Gets information about an add-in.
+GetDebugAddIns	m	void GetDebugAddIns(out EdmAddInInfo2[] ppoAddIns)	6.4		Gets information about all of the add-ins that have been installed for debugging on this machine.
+InstallDebugAddIn	m	void InstallDebugAddIn(object oAddIn:IEdmAddIn5)	6.4		Installs an add-in for debugging on this machine.
+RemoveDebugAddIn	m	void RemoveDebugAddIn(object oAddIn:IEdmAddIn5)	6.4		Removes an add-in that has been installed for debugging.
+@IEdmAddInMgr7	i	Allows you to administer add-ins.	base=IEdmAddInMgr5,IEdmAddInMgr6	use=4
+GetInstalledAddIns	m	void GetInstalledAddIns(out EdmAddInInfo2[] ppoAddIns)	2008		Gets information about all of the add-ins that have been installed in the vault.
+@IEdmAddInMgr8	i	Allows you to administer add-ins.	base=IEdmAddInMgr5,IEdmAddInMgr6,IEdmAddInMgr7	use=6
+ExtractInstalledAddIn	m	void ExtractInstalledAddIn(object oNameOrID, string bsExtractPath, out EdmAddInFileInfo[] ppoFiles)	2010		Extracts files from the specified add-in and places them in the specified folder.
+GetCAFInfo	m	void GetCAFInfo(string bsCAFPath, string bsExtractPath, out EdmAddInInfo2 poAddIn, out EdmAddInFileInfo[] ppoFiles, out EdmAddInMenuInfo[] ppoCmds)	2010		Extracts files and information from an add-in that is stored in a *.CAF that pre-dates SOLIDWORKS PDM Professional 2010.
+GetInstalledAddIn	m	void GetInstalledAddIn(object oNameOrID, string bsExtractPath, out EdmAddInInfo2 poAddIn, out EdmAddInFileInfo[] ppoFiles, out EdmAddInMenuInfo[] ppoCmds)	2010		Extracts files and information from the specified add-in.
+@IEdmAddInMgr9	i	Allows you to administer add-ins.	base=IEdmAddInMgr5,IEdmAddInMgr6,IEdmAddInMgr7,IEdmAddInMgr8	use=4
+RemoveAddIn	m	void RemoveAddIn(object oNameOrID)	2018		Removes the specified add-in.
+@IEdmAttribute5	i	Allows access to a file attribute that is used when data is transferred between a file data card and a file.	via=IEdmVariable5.GetNextAttribute,IEdmVariableValue5.GetNextAttribute,IEdmVault5.GetObject	base=IEdmObject5	use=4
+BlockName	p	string BlockName {get;}	5.2		Gets the name of the block in which to search for this attribute.
+Extensions	p	string Extensions {get;}	5.2		Gets a list of file extensions for which this attribute is valid.
+@IEdmBatchAdd	i	Allows you to add several files and folders to the vault at once.	via=IEdmVault7.CreateUtility	use=12
+AddFileFromPath	m	void AddFileFromPath(string bsSourcePath, int lDestinationFolderID, int lArg, string bsNewName, int lEdmAddFlags:EdmAddFlag)	6.4		Adds a file to the batch of files to be added to the vault; the file will be copied to a destination folder with the...
+AddFileFromPathToPath	m	void AddFileFromPathToPath(string bsSourcePath, string bsDestinationFolderPath, int lArg, string bsNewName, int lEdmAddFlags:EdmAddFlag)	6.4		Adds a file to the batch of files to be added to the vault; the file will be copied to the specified destination...
+AddFileFromVault	m	void AddFileFromVault(int lSourceFileID, int lSourceFolderID, int lDestinationFolderID, int lArg, string bsNewName, int lEdmAddFlags:EdmAddFlag)	6.4		Adds a file with the specified ID and folder ID to the batch of files to be added to the vault; the file will be...
+AddFileFromVaultToPath	m	void AddFileFromVaultToPath(int lSourceFileID, int lSourceFolderID, string bsDestinationFolderPath, int lArg, string bsNewName, int lEdmAddFlags:EdmAddFlag)	6.4		Adds a file with the specified ID and folder ID to the batch of files to be added to the vault; the file will be...
+AddFolder	m	void AddFolder(int lParentFolderID, string bsRelativePath, int lArg, int lEdmBatchAddFolderFlags:EdmBatchAddFolderFlag, EdmFolderData poData:IEdmFolderData5, int lSourceFolderID)	6.4		Adds the specified folder or folder path to the batch of folders to be added to the vault.
+AddFolderPath	m	void AddFolderPath(string bsLocalPath, int lArg, int lEdmBatchAddFolderFlags:EdmBatchAddFolderFlag, EdmFolderData poData:IEdmFolderData5, int lSourceFolderID)	6.4		Adds the specified folder path to the batch of folders to be added to the vault.
+CommitAdd	m	int CommitAdd(int lHwnd, out EdmFileInfo[] ppoRetFiles, int lEdmBatchAddFlags:EdmBatchAddFlag, object poCallback:IEdmCallback)	6.4		Adds all files and folders in the batch to the vault.
+SetFileNameSerNo	m	void SetFileNameSerNo(object oSerialNumberName, int lFlags)	6.4		For internal use only; do not use.
+@IEdmBatchAdd2	i	Allows you to display a dialog box with information about several files and folders being added to the vault all at...	base=IEdmBatchAdd	use=4
+ShowDlg	m	bool ShowDlg(int hParentWnd, int lEdmAddFileDlgFlags:EdmAddFileDlgFlag, string bsMessage, string bsCaption)	2009		Shows a dialog box containing information about the file and folders that are about to be added to the vault by...
+@IEdmBatchAddFolders	i	Allows you to add several folders to the vault all at once.	via=IEdmVault7.CreateUtility	use=6
+AddFolder	m	void AddFolder(int lParentFolderID, string bsRelativePath, int lParam, int lEdmBatchAddFolderFlags:EdmBatchAddFolderFlag, EdmFolderData poData:IEdmFolderData5, int lSourceFolderID)	6.3		Adds a folder or a complete folder path to the batch of folders to add to the vault.
+Create	m	void Create(int lHwnd, out EdmFolderInfo[] ppoRetFolders, int lEdmBatchCreateFolderFlags:EdmBatchCreateFolderFlag)	6.3		Creates all the folders that were added to the batch using IEdmBatchAddFolders::AddFolder.
+@IEdmBatchChangeState	i	Allows you to change states or revoke transitions of several files at once.	via=IEdmVault7.CreateUtility	use=10
+AddFile	m	void AddFile(int lFileID, int lFolderID)	2009		Adds a file to this batch of files whose states you want to change or whose transitions you want to revoke.
+ChangeState	m	void ChangeState(int lParentWnd, EdmCallback poCallback)	2009	obsolete>IEdmBatchChangeState4.ChangeState2
+Comment	p	string Comment {get; set;}	2009		Comment about this state change or transition revocation to add to the history listing.
+CreateTree	m	bool CreateTree(string bsTransition)	2009		Computes the file reference tree and checks that the specified state transition can be performed for the files added...
+GetFileList	m	EdmSelectionList5 GetFileList(int lEdmChangeStateFileListFlags:EdmChangeStateFileListFlag)	2009		Gets the list of files affected by the state change or transition revocation.
+SetAux	m	void SetAux(object poAux, int lFlags)	2009		Reserved for future use.
+ShowDlg	m	bool ShowDlg(int lParentWnd)	2009		Shows the change state or revoke transition dialog box.
+@IEdmBatchChangeState2	i	Allows you to change states or revoke transitions of several files at once.	base=IEdmBatchChangeState	use=6
+CreateTreeForRevoke	m	bool CreateTreeForRevoke(string bsTransition)	2013		Computes the file reference tree and checks that the specified transition revocation can be performed for the files...
+GetAvailableTransitionList	m	void GetAvailableTransitionList(out EdmChangeStateTransitionInfo[] ppoTransitions)	2013		Gets the state transitions available for the files in this batch.
+@IEdmBatchChangeState3	i	Allows you to change states or revoke transitions of several files all at once.	base=IEdmBatchChangeState,IEdmBatchChangeState2	use=6
+AllowAdminToRevoke	m	void AllowAdminToRevoke(bool bAllowAdminToRevoke)	2013		Sets whether an administrator is allowed to revoke state transitions of files in this batch.
+SetRevokeUserID	m	void SetRevokeUserID(int lUserID)	2013		Sets the ID of the user allowed to revoke state transitions of files in this batch.
+@IEdmBatchChangeState4	i	Allows you to change states or revoke transitions of several files all at once.	base=IEdmBatchChangeState,IEdmBatchChangeState2,IEdmBatchChangeState3	use=4
+ChangeState2	m	void ChangeState2(int lParentWnd, string bsPasswd, EdmCallback poCallback)	2015 SP2		Changes states or revokes transitions of all the files added to this batch using IEdmBatchChangeState::AddFile.
+@IEdmBatchChangeState5	i	Allows you to change states or revoke transitions of several files all at once.	base=IEdmBatchChangeState,IEdmBatchChangeState2,IEdmBatchChangeState3,IEdmBatchChangeState4
+IncludeParentsForRevokeTree	m	void IncludeParentsForRevokeTree(bool bInclude)	2015 SP4		Gets or sets whether to include parent files in the file reference tree to revoke transactions.
+@IEdmBatchChangeState6	i	Allows you to change states or revoke transitions of several files all at once.	base=IEdmBatchChangeState,IEdmBatchChangeState2,IEdmBatchChangeState3,IEdmBatchChangeState4,IEdmBatchChangeState5	use=4
+RunAsUser	m	void RunAsUser(int lParentWnd, string bsRunASUserName, string bsRunAsPassword)	2024		Transitions files with another user's credentials.
+@IEdmBatchDelete	i	Allows you to delete several files and folders from the vault at once.	via=IEdmVault7.CreateUtility	use=12
+AddFileByID	m	void AddFileByID(int lFileID, int lFolderID)	2008		Adds a file with the specified file and folder IDs to the batch of files to be deleted.
+AddFileByPath	m	void AddFileByPath(string bsPath)	2008		Adds a file with the specified path to the batch of files to be deleted.
+AddFolder	m	void AddFolder(object oFolderIDorPath)	2008		Adds a folder with the specified ID or path to the batch of folders to delete.
+CommitDelete	m	bool CommitDelete(int hParentWnd, EdmCallback poCallback)	2008		Deletes the files and folders added to the batch by IEdmBatchDelete::AddFileByID, IEdmBatchDelete::AddFileByPath...
+ComputePermissions	m	bool ComputePermissions(bool bDestroy, EdmCallback poCallback)	2008		Specifies whether files or folders should be permanently deleted or moved to the recycle bin.
+ShowCommitErrorsDlg	m	void ShowCommitErrorsDlg(int hParentWnd)	2008		Shows a dialog box containing the errors that occurred during IEdmBatchDelete::CommitDelete.
+ShowWarningDlg	m	bool ShowWarningDlg(int hParentWnd)	2008	obsolete>IEdmBatchDelete2.ShowWarningDlg2
+@IEdmBatchDelete2	i	Allows you to delete several files and folders from the vault at once.	base=IEdmBatchDelete	use=2
+ShowWarningDlg2	m	bool ShowWarningDlg2(int hParentWnd, bool bIncludeDeleted)	2009		Shows a dialog box with the warnings and errors that occurred during IEdmBatchDelete::ComputePermissions.
+@IEdmBatchDelete3	i	Allows you to delete several files and folders from the vault all at once.	base=IEdmBatchDelete,IEdmBatchDelete2	use=2
+GetCommitErrors	m	void GetCommitErrors(out EdmBatchDelErrInfo[] ppoDelErrors)	2012		Shows the errors that occurred during IEdmBatchDelete::CommitDelete.
+@IEdmBatchGet	i	Allows you to get several files from the vault all at once.	via=IEdmVault7.CreateUtility	use=14
+AddSelection	m	void AddSelection(EdmVault5 poVault, ref EdmSelItem[] ppoSelection)	6.3		Adds one or more files or folders to the batch of files or folders to get.
+AddSelectionEx	m	void AddSelectionEx(EdmVault5 poVault, int lFileID, int lParentFolderID, object oVersionOrFileDate)	6.3		Adds a file with the specified ID and version to the batch of files to get.
+CreateTree	m	void CreateTree(int lParentWnd, int lEdmGetCmdFlags:EdmGetCmdFlags)	6.3		Computes the file reference tree with the files added to the batch using IEdmBatchGet::AddSelection or...
+FileCount	p	int FileCount {get;}	6.3		Gets the number of files in this batch.
+GetFileList	m	EdmSelectionList5 GetFileList(int lEdmGetFileListFlags:EdmGetFileListFlag)	6.3		Gets a list of the files in this batch.
+GetFiles	m	void GetFiles(int lParentWnd, IEdmGetOpCallback poCallback)	6.3		Gets the files in the batch.
+ShowDlg	m	bool ShowDlg(int lParentWnd)	6.3		Displays a dialog in which are listed the files to get or check out.
+@IEdmBatchItemGeneration	i	Allows you to generate items from a file structure.	via=IEdmVault7.CreateUtility	use=6
+AddSelection	m	void AddSelection(EdmVault5 poVault, ref EdmSelItem[] ppoSelection)	2010	obsolete>IEdmBatchItemGeneration2.AddSelection2
+CreateTree	m	bool CreateTree(int lParentWnd, int lEdmItemGenerationCmdFlags:EdmItemGenerationFlags)	2010		Computes the file reference tree for the items added to the batch using IEdmBatchItemGeneration::AddSelection.
+DestFolderID	p	int DestFolderID {get; set;}	2009		Gets or sets the ID of the item folder where new items are placed.
+GenerateItems	m	void GenerateItems(int lParentWnd, out EdmGenItemInfo[] ppoRetItems, out bool pbOpen:EdmItemGenerationFlags, object poCallback)	2010		Creates the items added to the batch by IEdmBatchItemGeneration::AddSelection.
+ShowDlg	m	bool ShowDlg(int lParentWnd)	2010		Shows the item creation dialog box.
+@IEdmBatchItemGeneration2	i	Allows you to generate several items from file structures all at once.	base=IEdmBatchItemGeneration	use=4
+AddSelection2	m	void AddSelection2(EdmVault5 poVault, EdmVarVal[] poVariables, string bsItemName, int lDestFolderID, int lSrcFileID, int lSrcFileProjID, string bsSrcFileConfig, int lEdmRefFlags:EdmRefFlags)	2010		Adds information to the batch to generate a new item either from a file or stand-alone without a source file.
+@IEdmBatchItemReferenceUpdate	i	Allows you to add or remove several item references all at once.	via=IEdmVault7.CreateUtility	use=4
+UpdateReferences	m	void UpdateReferences(out EdmItemRef[] ppoAddReferences, out EdmItemRef[] ppoRemoveReferences)	2010		Adds or removes item references.
+@IEdmBatchListing	i	Allows you to create a listing of various file or folder properties.	via=IEdmVault7.CreateUtility
+AddFile	m	void AddFile(object oIdOrPath, DateTime oFileDate, int lParam, int lEdmListFileFlags)	6.4		Adds a file to the batch of files for which to create a listing.
+AddFolder	m	void AddFolder(object oIdOrPath, int lParam, int lEdmListFolderFlags:EdmListFolderFlags)	2010		Adds a folder to the batch of folders for which to create a listing.
+CreateList	m	void CreateList(string bsColumnSetName, out EdmListCol[] ppoColumns)	6.4	obsolete>IEdmBatchListing2.CreateListEx
+GetColumnSetNames	m	EdmStrLst5 GetColumnSetNames()	2007		Gets the names of the column sets that can be used to create listings with this interface.
+GetFiles	m	void GetFiles(out EdmListFile[] ppoFiles)	6.4	obsolete>IEdmBatchListing4.GetFiles2
+GetFolders	m	void GetFolders(out EdmListFolder[] ppoFolders)	2010		Gets all the folders in this listing.
+@IEdmBatchListing2	i	Allows you to create a listing of various file or folder properties and specify from which configuration file the...	base=IEdmBatchListing	use=4
+AddFileCfg	m	void AddFileCfg(object oIdOrPath, DateTime oFileDate, int lParam, string bsConfigName, int lEdmListFileFlags:EdmListFileFlags)	2009		Adds a file to the batch of files for which to create a listing using variables from the specified configuration.
+CreateListEx	m	void CreateListEx(string bsColumnSetName, int lEdmCreateListExFlags:EdmCreateListExFlags, out EdmListCol[] ppoColumns, object poAux)	2009		Creates a listing of the properties of the files and folders that were added to the batch using...
+@IEdmBatchListing3	i	Allows you to create a listing of several file, folder, or internal component properties all at once.	base=IEdmBatchListing,IEdmBatchListing2
+AddInternalComponent	m	void AddInternalComponent(object oPath, object oID, object oVirtualFileParentPath, DateTime oFileDate, int lParam, string bsConfigName, int lEdmListFileFlags:EdmListFileFlags)	2010		Adds the specified internal component to the batch for listing.
+GetReferences	m	void GetReferences(out EdmListRef[] ppoReferences)	2010		Gets a list of referenced files.
+@IEdmBatchListing4	i	Allows you to create a listing of several file, folder, or internal component properties all at once.	base=IEdmBatchListing,IEdmBatchListing2,IEdmBatchListing3	use=4
+GetFiles2	m	void GetFiles2(out EdmListFile2[] ppoFiles)	2017		Gets all the files in this listing.
+@IEdmBatchRefVars	i	Allows you to access several file reference variables all at once.	via=IEdmVault7.CreateUtility	use=8
+GetAllRefVars	m	void GetAllRefVars(out EdmRefVar[] ppoVars, int lParentFileID, int lParentFileVersion, int lChildFileID, string bsParentConfig, string bsChildConfig)	2010		Gets all of the values for the specified reference variables.
+GetRefVars	m	void GetRefVars(out EdmRefVar[] ppoVars)	2010		Gets the values of the specified reference variables.
+SetRefVars	m	void SetRefVars(out EdmRefVar[] ppoVars)	2010		Sets the values of the specified reference variables.
+@IEdmBatchUnlock	i	Allows you to unlock, check in, or undo check-outs of multiple files all at once.	via=IEdmVault7.CreateUtility	use=42
+AddSelection	m	void AddSelection(EdmVault5 poVault, ref EdmSelItem[] ppoSelection:EdmSelItem2)	6.3		Specifies the batch of files to be unlocked.
+Comment	p	string Comment {get; set;}	6.3		Gets or sets the comment for unlocking, checking in, or undoing check-outs of the files in this batch.
+CreateTree	m	bool CreateTree(int lParentWnd, int lEdmUnlockBuildTreeFlags:EdmUnlockBuildTreeFlags, IEdmUnlockOpCallback poCallback)	6.3		Creates the file reference tree.
+GetFileList	m	EdmSelectionList5 GetFileList(int lEdmUnlockFileListFlags:EdmUnlockFileListFlag)	6.3		Gets the list of files to be unlocked.
+ShowDlg	m	bool ShowDlg(int lParentWnd)	6.3		Displays the SOLIDWORKS PDM Professional Check In or Undo Check Out dialog box.
+UnlockFiles	m	void UnlockFiles(int lParentWnd, IEdmUnlockOpCallback poCallback)	6.3		Unlocks, checks in, or undoes the check-outs of the files in this batch.
+@IEdmBatchUnlock2	i	Allows you to unlock, check in, or undo check-outs of multiple files all at once.	base=IEdmBatchUnlock	use=12
+GetStatus	m	object GetStatus(int lEdmUnlockStatusFlag:EdmUnlockStatusFlag)	2013		Gets the specified statuses for this unlock operation.
+@IEdmBatchUpdate	i	Allows you to set the values of several file and folder card variables all at once.	via=IEdmVault7.CreateUtility
+Commit	m	void Commit(out EdmBatchError[] ppoRetErrors, EdmCallback poCallback)	6.2	obsolete>IEdmBatchUpdate2.CommitUpdate
+SetAux	m	void SetAux(object poAux, int lFlags)			For internal use only.
+SetVar	m	void SetVar(int lFileID, int lVariableID:IEdmVariableMgr5, ref object poValue, string bsConfiguration, int lEdmBatchFlags:EdmBatchFlags)	6.2	obsolete>IEdmBatchUpdate2.SetVar
+@IEdmBatchUpdate2	i	Allows you to set the values of several file and folder card variables all at once.	via=IEdmVault7.CreateUtility	use=8
+CommitUpdate	m	int CommitUpdate(out EdmBatchError2[] ppoRetErrors, EdmCallback poCallback)	6.3		Commits all of the file and folder card variable updates in this batch.
+SetFolderVar	m	void SetFolderVar(int lFolderID, int lVariableID, ref object poValue, int lEdmBatchFlags:EdmBatchFlags)	6.3		Adds a folder card variable to the batch of variables to update.
+SetVar	m	void SetVar(int lFileID, int lVariableID, ref object poValue, string bsConfiguration, int lEdmBatchFlags:EdmBatchFlags)	6.3		Adds a file card variable to the batch of variables to update.
+@IEdmBitmap5	i	Allows you to access a bitmap image.	via=IEdmEnumeratorVariable5.GetThumbnail	use=4
+Draw	m	void Draw(int lWnd, int lX, int lY, int lWidth, int lHeight)	5.2		Draws this bitmap image in a window.
+GetBitmapInfo	m	void GetBitmapInfo(int lDataSize, out byte pbData)	5.2		Gets bitmap information.
+GetBitmapInfoSize	m	int GetBitmapInfoSize()	5.2		Gets the size of the bitmap information returned by IEdmBitmap5::GetBitmapInfo.
+Height	p	int Height {get;}	5.2		Gets the height of the image.
+SaveBmp	m	void SaveBmp(string bsBmpPath)	5.2		Saves this bitmap image as a BMP file.
+Width	p	int Width {get;}	5.2		Gets the width of the image.
+@IEdmBom	i	Allows you to access a Bill of Materials (BOM).	via=IEdmVault5.GetObject,IEdmVault9.GetObjects	base=IEdmObject5	use=16
+ChangeState	m	void ChangeState(object poStateIdOrName, string bsComment, int lParentWnd, int lEdmStateFlags:EdmStateFlags)	2009		Changes the workflow state of this BOM.
+CheckIn	m	void CheckIn(string bsComment)	2009		Checks in this BOM.
+CheckOut	m	void CheckOut()	2009		Checks out this BOM.
+CheckOutUserID	p	int CheckOutUserID {get;}	2009		Gets the ID of the user who has this BOM checked out.
+CurrentState	p	IEdmState6 CurrentState {get;}	2009		Gets the current workflow state of this BOM.
+CurrentVersion	p	int CurrentVersion {get;}	2009		Gets the current version number of this BOM.
+Delete	m	void Delete()	2009		Deletes this BOM.
+FileID	p	int FileID {get;}	2009		Gets the unique ID of the file used to generate this BOM.
+GetVersions	m	void GetVersions(out EdmBomVersion[] ppoVersions)	2009		Gets the versions of this BOM.
+GetView	m	EdmBomView GetView(int lVersionNo)	2009		Gets the BOM view for the specified BOM version. The BOM view allows you to read and manipulate the contents of the BOM.
+IsCheckedOut	p	bool IsCheckedOut {get;}	2009		Gets whether this BOM is checked out.
+@IEdmBomCell	i	Allows you to access a single row in a Bill of Materials (BOM).	via=IEdmBomView.GetRows	use=14
+GetItemID	m	int GetItemID()	2009		Gets the row index of this BOM row.
+GetPathName	m	string GetPathName()	2009		Gets the file system path to the file in this BOM row.
+GetTreeLevel	m	int GetTreeLevel()	2009		Gets the position of this BOM row in the computed BOM.
+GetVar	m	void GetVar(int lVariableID, EdmBomColumnType eColumn, out object poValue, out object poComputedValue, out string pbsConfiguration, out bool pbReadOnly)	2009		Gets the value of the specified cell in this BOM row.
+IsLocked	m	bool IsLocked()	2009		Gets whether the file associated with this BOM cell is checked out and can be edited.
+SetVar	m	bool SetVar(int lVariableID, EdmBomColumnType eColumn, object oNewValue, string bsConfiguration, EdmBomSetVarOption eOption, out string pbsErrorMessage)	2009		Sets the value of the specified cell in this BOM row.
+@IEdmBomCell2	i	Allows you to access a single row in a Bill of Materials (BOM).	via=IEdmBomView.GetRows	base=IEdmBomCell
+IsVirtual	m	bool IsVirtual()	2020		Gets whether this BOM row is a virtual component.
+@IEdmBomMgr	i	Allows you to access the Bill of Materials (BOM) layouts installed in a vault.	via=IEdmVault7.CreateUtility
+GetBomLayouts	m	void GetBomLayouts(out EdmBomLayout[] ppoRetLayouts)	2009	obsolete>IEdmBomMgr2.GetBomLayouts2
+@IEdmBomMgr2	i	Allows you to access the Bill of Materials (BOM) layouts installed in a vault.	via=IEdmVault7.CreateUtility	base=IEdmBomMgr	use=6
+CanSeeBomLayout	m	bool CanSeeBomLayout(int lLayoutId, int lUserID)	2020		Gets whether the specified BOM layout is visible to the specified user.
+GetBomLayouts2	m	void GetBomLayouts2(out EdmBomLayout2[] ppoRetLayouts)	2020		Gets all of the BOM layouts installed in a vault.
+@IEdmBomMgr3	i	Allows you to add a SOLIDWORKS Bill of Materials (BOM) to a non-SOLIDWORKS document.	via=IEdmVault7.CreateUtility	base=IEdmBomMgr,IEdmBomMgr2	use=3
+AddSWBom	m	void AddSWBom(int lDocumentID, int lProjectID, int lDocRevNr, EdmSWBom poSWBom)	2021 SP3		Adds the specified SOLIDWORKS BOM to the specified document.
+CreateEmptySWBom	m	EdmSWBom CreateEmptySWBom()	2021 SP3		Creates an empty SOLIDWORKS BOM.
+@IEdmBomMgr4	i	Allows you to access the Bill of Materials (BOM) layouts installed in a vault.	via=IEdmVault7.CreateUtility	base=IEdmBomMgr,IEdmBomMgr2,IEdmBomMgr3	use=2
+GetBomDefaultSetting	m	EdmBomDefaultSetting GetBomDefaultSetting(int lLayoutId)	2025		Gets the specified computed BOM's default view settings as specified in the Conisio Admin tool.
+@IEdmBomView	i	Allows you to access a Bill of Materials (BOM) view.	via=IEdmBom.GetView,IEdmFile7.GetComputedBOM	use=8
+Commit	m	int Commit(string bsSaveAsBomName, out string pbsErrorMessage, out int plFocusNodeID)	2009		Saves the BOM content.
+GetColumns	m	void GetColumns(out EdmBomColumn[] ppoColumns)	2009		Gets the column definitions for this BOM.
+GetRows	m	void GetRows(out object[] ppoRows:IEdmBomCell)	2009		Gets the row definitions for this BOM.
+SetRows	m	void SetRows(object[] poRows:IEdmBomCell)	2009		Adds new rows or reorders existing rows in this BOM.
+@IEdmBomView2	i	Allows you to access a Bill of Materials (BOM) view.	base=IEdmBomView	use=4
+InsertRow	m	void InsertRow(EdmBomCell poRow, EdmBomInsertRowOption eInsertOption, out EdmBomCell ppoNewRow)	2011 SP4		Inserts a row into this named BOM.
+@IEdmBomView3	i	Allows you to access a Bill of Materials (BOM) view.	base=IEdmBomView,IEdmBomView2	use=4
+SaveToCSV	m	void SaveToCSV(string bsFilePath, bool bCreateLevelColumn)	2017		Saves this BOM to a comma separated values (CSV) file.
+@IEdmBomView4	i	Allows you to access a Bill of Materials (BOM) view.	via=IEdmBom.GetView,IEdmFile7.GetComputedBOM	base=IEdmBomView,IEdmBomView2,IEdmBomView3	use=1
+Rename	m	void Rename(string bsFileName)	2022		Renames this named BOM.
+@IEdmCallback	i	Monitors the progress of a supported API operation.	use=10
+SetModifiedFlag	m	void SetModifiedFlag()	5.2		Indicates that the contents of a document have changed.
+SetProgressPos	m	void SetProgressPos(int lPos)	5.2		Sets the current position in the progress bar.
+SetProgressRange	m	void SetProgressRange(int lMin, int lMax)	5.2		Sets the minimum and maximum values in the progress bar.
+SetStatusMessage	m	void SetStatusMessage(string bsMessage)	5.2		Displays a message to the user.
+@IEdmCallback6	i	Monitors the progress of a supported API operation.	use=12
+MsgBox	m	EdmMBoxResult MsgBox(int lParentWnd, int lMsgID, string bsMsg, EdmMBoxType eType)	6.0		Displays a message box.
+Resolve	m	void Resolve(int lParentWnd, out EdmCmdData[] ppoItems)	6.0		Resolves multiple errors.
+SetProgress	m	bool SetProgress(int lBarIndex, int lPos, string bsMsg)	6.0		Sets the current progress bar position.
+SetProgressRange	m	void SetProgressRange(int lBarIndex, int lMax)	6.0		Sets the maximum value for a progress bar.
+SetStatusMessage	m	void SetStatusMessage(int lBarIndex, string bsMessage)	6.0		Displays a message to the user.
+@IEdmCallback8	i	Monitors the progress of a supported API operation.	base=IEdmCallback6
+ChangeMinorProgressVisibility	m	void ChangeMinorProgressVisibility(bool bShow)	2021		Change whether to display minor progress of this callback.
+SetMinorMax	m	void SetMinorMax(uint dwMax)	2021		Sets the maximum minor progress of this callback.
+SetMinorProgress	m	void SetMinorProgress(string oMsg, uint dwProgress)	2021		Sets the current minor progress bar position.
+@IEdmCard5	i	Allows you to access the file or folder data card that is created with the SOLIDWORKS PDM Professional's Card Editor.	via=IEdmFolder5.GetCard,IEdmVault5.GetObject	base=IEdmObject5	use=10
+GetControl	m	IEdmCardControl5 GetControl(int lControlID)	5.2		Gets a card control with the specified ID.
+GetControlID	m	int GetControlID(ref object poVariableNameOrID)	5.2		Gets the ID of the control that is connected to the specified variable in this card.
+GetFirstControlPosition	m	IEdmPos5 GetFirstControlPosition()	5.2		Starts an enumeration of the controls in this data card.
+GetNextControl	m	IEdmCardControl5 GetNextControl(IEdmPos5 poPos)	5.2		Gets the next control in the enumeration.
+GetSize	m	void GetSize(out int plWidth, out int plHeight)	5.2		Gets the size of this data card.
+@IEdmCard6	i	Allows you to access the file or folder data card that is created with the SOLIDWORKS PDM Professional's Card Editor.	base=IEdmCard5,IEdmObject5	use=4
+CardType	p	EdmCardType CardType {get;}	6.4		Gets the type of this data card.
+@IEdmCard7	i	Allows you to access the file or folder data card that is created with the SOLIDWORKS PDM Professional's Card Editor.	via=IEdmFolder5.GetCard,IEdmVault5.GetObject	base=IEdmCard5,IEdmCard6,IEdmObject5	use=2
+GetAllControls	m	void GetAllControls(out object[] ppControlsList:IEdmCardControl5)	2019 SP3		Gets all controls in this file or folder data card.
+@IEdmCardControl5	i	Allows you to access a control in a file or folder data card.	via=IEdmCard5.GetControl,IEdmCard5.GetNextControl,IEdmVault5.GetObject	base=IEdmObject5	use=16
+ControlType	p	EdmCardControlType ControlType {get;}	5.2		Gets the type of this control.
+GetButtonCommand	m	string GetButtonCommand(int lParentWnd)	5.2		Gets the command string that is executed when a button is clicked in the Card Editor.
+GetParentInfo	m	void GetParentInfo(out int plParentCtrlID, out int plPageNo)	5.2		Gets the parent control of this control.
+GetPosition	m	void GetPosition(out int plX, out int plY, out int plWidth, out int plHeight)	5.2		Gets the dimensions and position of this control.
+GetValidation	m	EdmVariableType GetValidation(out object poMin, out object poMax)	5.2		Gets the input validation criteria for this control.
+IsMultiLine	p	bool IsMultiLine {get;}	5.2		Gets whether this edit box is handles multiple lines.
+IsReadOnly	p	bool IsReadOnly {get;}	5.2		Gets whether this control is read-only.
+ShowInPreview	p	bool ShowInPreview {get;}	5.2		Gets whether the contents of this control display in the preview.
+VariableID	p	int VariableID {get;}	5.2		Gets the ID of the variable to which this control is connected.
+@IEdmCardControl6	i	Allows you to access a control in a file or folder data card.	base=IEdmCardControl5,IEdmObject5	use=4
+UpdatesAllConfigurations	p	bool UpdatesAllConfigurations {get;}	2015 SP2		Gets whether this edit box control updates all configuration tabs of the file data card.
+@IEdmCardControl7	i	Allows you to access a control in a file or folder data card.	base=IEdmCardControl5,IEdmCardControl6,IEdmObject5	use=4
+GetControlVariableList	m	bool GetControlVariableList(int lDocumentID, out string[] ppVariableItemsList)	2018		Gets the list values associated with this drop-down list card control.
+@IEdmCardView5	i	Allows you to create a window containing a file or folder data card that you can edit.	via=IEdmFolder5.CreateCardView	use=10
+GetCardSize	m	void GetCardSize(out int plWidth, out int plHeight)	5.2		Gets the size of the file or folder data card.
+GetCardWindow	m	int GetCardWindow()	5.2		Gets the handle of the window that contains the file or folder data card.
+SaveData	m	void SaveData()	5.2		Saves the data entered by the user in this card view to the file and database.
+ShowWindow	m	void ShowWindow(bool bShow)	5.2		Sets whether to show or hide the card view window.
+@IEdmCardView6	i	Allows you to create a window containing a file or folder data card that you can edit.	via=IEdmVault6.CreateCardViewEx	base=IEdmCardView5	use=4
+OnCancel	m	void OnCancel()	6.0		Rolls back all changes made in the card view after it is cancelled.
+@IEdmCardView61	i	Allows you to create a window containing a file or folder data card that you can edit.	base=IEdmCardView5,IEdmCardView6	use=4
+SetFocus	m	void SetFocus(ref object poVariableNameOrID)	6.0		Sets input focus to a certain control in this card view.
+@IEdmCardView63	i	Allows you to create a window containing a file or folder data card that you can edit.	base=IEdmCardView5,IEdmCardView6,IEdmCardView61	use=4
+Update	m	void Update(EdmCardViewUpdateType eType, ref object poArg)	6.4		Updates controls in this card view.
+@IEdmCardView64	i	Allows you to create a window containing a file or folder data card that you can edit.	base=IEdmCardView5,IEdmCardView6,IEdmCardView61,IEdmCardView63	use=4
+IsFocusOnDataCard	m	void IsFocusOnDataCard(out bool isFocCtrl)	2020		Gets whether focus is on this data card view.
+SetFlagIsFocusOnDataCard	m	void SetFlagIsFocusOnDataCard(bool flg)	2020		Sets whether focus is on this data card view.
+@IEdmCardViewCallback6	i	Handles customized loading and saving of data in a card view.	use=12
+GetCtrlData	m	object GetCtrlData(int lCardWnd, int lCardID, int lControlID, int lVariableID, string bsVariableName, IEdmCardView5 poView)	6.0		Gets the data to insert into a control when a card is opened.
+GetDefaultValueComponent	m	object GetDefaultValueComponent(EdmDefValComp eValue)	6.0		Called by the serial number generator to get the default value for the specified serial number component.
+OnAddInInput	m	void OnAddInInput(int lFlags:EdmCardFlag)	6.0		Handles input from an add-in when an add-in button is clicked in the card view.
+SetCtrlData	m	void SetCtrlData(int lCardWnd, int lCardID, int lControlID, int lVariableID, string bsVariableName, IEdmCardView5 poView, ref object poValue)	6.0		Stores the control's variable data when a card is saved.
+SetModifiedFlag	m	void SetModifiedFlag()	6.0		Called when a card variable changes.
+@IEdmCategory6	i	Allows you to access a category.	via=IEdmCategoryMgr6.GetNextCategory,IEdmFile6.Category,IEdmVault5.GetObject	base=IEdmObject5	use=4
+Description	p	string Description {get;}	6.0		Gets the description of the category.
+@IEdmCategoryMgr6	i	Allows you to access all of the categories that have been set up in a vault.	via=IEdmVault7.CreateUtility	use=6
+GetFirstCategoryPosition	m	IEdmPos5 GetFirstCategoryPosition()	6.0		Starts an enumeration of the categories in the vault.
+GetNextCategory	m	IEdmCategory6 GetNextCategory(IEdmPos5 poPos)	6.0		Gets the next category in the enumeration.
+@IEdmClearLocalCache	i	Removes specified checked-in files and folders from the local file vault view cache. Only files that are not...	via=IEdmVault7.CreateUtility	use=6
+AddFileByPath	m	void AddFileByPath(string bsFilePath)	2008		Adds the specified file to the batch of files and folders to clear from the local cache.
+AddFolder	m	void AddFolder(object oFolderIDorPath, bool bRecursive)	2008		Adds the specified folder to the batch of files and folders to clear from the local cache.
+CommitClear	m	void CommitClear(EdmCallback poCallback)	2008		Clears the files and folders specified by IEdmClearLocalCache::AddFilebyPath and IEdmClearLocalCache::AddFolder from...
+@IEdmClearLocalCache2	i	Removes specified checked-in files and folders from the local file vault view cache. Only files that are not...	base=IEdmClearLocalCache	use=4
+IgnoreToolboxFiles	p	bool IgnoreToolboxFiles {get; set;}	2010		Gets or sets whether to not remove Toolbox Library parts from the cache.
+@IEdmClearLocalCache3	i	Removes specified checked-in files and folders from the local file vault view cache. Only files that are not...	base=IEdmClearLocalCache,IEdmClearLocalCache2	use=4
+UseAutoClearCacheOption	p	bool UseAutoClearCacheOption {get; set;}			Gets or sets whether to use the Clear Cache setting for the logged-in user.
+@IEdmCmdMgr5	i	Allows you to add menu commands, toolbar buttons, and command hooks to SOLIDWORKS PDM Professional.	via=IEdmAddIn5.GetAddInInfo	use=17
+AddCmd	m	void AddCmd(int lCmdID, string bsMenuString, int lEdmMenuFlags:EdmMenuFlags, string bsStatusBarHelp, string bsToolbarToolTip, int lToolbarButtonIndex, int lToolbarImageID)	5.2		Adds a toolbar button to the File Explorer Tools menu and a menu command to the right-click context-sensitive menu...
+AddHook	m	void AddHook(EdmCmdType eCmdType, object poReserved)	5.2		Adds a hook that makes SOLIDWORKS PDM Professional call this add-in's implementation of IEdmAddIn5::OnCmd whenever...
+AddToolbarImage	m	void AddToolbarImage(int lHandleOrResourceID, int lButtonCount, EdmButtonState eState, bool bIsIcon, bool bIsHandle, int lBackgroundColorRGB, int lImageID)	5.2		Registers an image with a toolbar button.
+@IEdmCmdMgr6	i	Allows you to add menu commands, toolbar buttons, and command hooks to SOLIDWORKS PDM Professional.	via=IEdmAddIn5.GetAddInInfo	base=IEdmCmdMgr5	use=2
+AddVaultViewTab	m	void AddVaultViewTab(long hWnd, string bsName, string bsIconPath, string bsToolTip, string bsUniqueID)	2018		Adds the specified tab to the right of the tabs in the bottom panel of a vault view before opening it in File Explorer.
+@IEdmCmdNode	i	Allows you to access a file changing state.	via=IEdmAddIn5.OnCmd	use=4
+GetProperty	m	object GetProperty(EdmCmdNodeProp eProperty, object oArg)	2011		Gets the specified property for the file changing state.
+@IEdmData	i	Allows you to access the properties of an object created by a template.	via=IEdmTemplate53.RunEx	use=6
+Get	m	object Get(EdmDataPropertyType eKey)	5.2		Gets a data object property value.
+Set	m	void Set(EdmDataPropertyType eKey, ref object poValue)	5.2		Sets one of the data object properties to a new value.
+Type	p	EdmDataType Type {get; set;}	5.2		Gets or sets the type of this data object.
+@IEdmDictionary5	i	Allows you to access key-value pairs of data in the SOLIDWORKS PDM Professional database.	via=IEdmVault5.GetDictionary,IEdmVault5.GetObject	base=IEdmObject5	use=48
+LongFindKeys	m	IEdmPos5 LongFindKeys(int lMinKey, int lMaxKey)	5.2		Starts an enumeration of all of the key-value pairs that have integer keys in the specified range.
+LongFindValues	m	IEdmPos5 LongFindValues(string bsValueSubString)	5.2		Starts an enumeration of all of the key-value pairs that have integer keys whose values contain the specified text.
+LongGetAt	m	bool LongGetAt(int lKey, out string pbsRetValue)	5.2		Gets the value for the specified integer key.
+LongGetFirstPosition	m	IEdmPos5 LongGetFirstPosition()	5.2		Starts an enumeration of all of the key-value pairs that have integer keys.
+LongGetNextAssoc	m	void LongGetNextAssoc(IEdmPos5 poPos, out int plRetKey, out string pbsRetValue)	5.2		Gets the key-value pair at the next position of an enumeration.
+LongRemoveAt	m	void LongRemoveAt(int lKey)	5.2		Deletes the specified integer key and its value.
+LongSetAt	m	void LongSetAt(int lKey, string bsValue)	5.2		Sets the value for the specified integer key.
+LongTestAndSetAt	m	bool LongTestAndSetAt(int lKey, string bsValue)	5.2		Creates the specified integer key if it does not exist and sets its value.
+RemoveDictionary	m	void RemoveDictionary()	5.2		Removes this dictionary and all of its data from the SOLIDWORKS PDM Professional database.
+StringFindKeys	m	IEdmPos5 StringFindKeys(string bsKeySubString)	5.2		Starts an enumeration of all the key-value pairs whose string keys contain the specified text.
+StringFindValues	m	IEdmPos5 StringFindValues(string bsValueSubString)	5.2		Starts an enumeration of all of the key-value pairs that have string keys whose values contain the specified text.
+StringGetAt	m	bool StringGetAt(string bsKey, out string pbsRetValue)	5.2		Gets the value for the specified string key.
+StringGetFirstPosition	m	IEdmPos5 StringGetFirstPosition()	5.2		Starts an enumeration of all of the key-value pairs that have string keys.
+StringGetNextAssoc	m	void StringGetNextAssoc(IEdmPos5 poPos, out string pbsRetKey, out string pbsRetValue)	5.2		Gets the key-value pair at the next position of an enumeration.
+StringRemoveAt	m	void StringRemoveAt(string bsKey)	5.2		Deletes the specified string key and its value.
+StringSetAt	m	void StringSetAt(string bsKey, string bsValue)	5.2		Sets the value for the specified string key.
+StringTestAndSetAt	m	bool StringTestAndSetAt(string bsKey, string bsValue)	5.2		Creates the specified string key if it does not exist and sets its value.
+@IEdmEnum	i	Allows you to access and enumerate a list of elements.	via=IEdmFindUser.Result	use=4
+Count	p	int Count {get;}	2013		Gets the number of elements in the list.
+Current	p	object Current {get;}	2013		Gets the element at the enumeration cursor.
+GetAt	m	object GetAt(int lIndex)	2013		Gets the element at the specified position in the list.
+GetEnumerator	m	IEdmEnum GetEnumerator()	2013		Gets a pointer to this interface.
+MoveNext	m	bool MoveNext()	2013		Forwards the enumeration cursor to the next element in the list.
+Reset	m	void Reset()	2013		Resets the enumerator's cursor to the position before the first element in the list.
+@IEdmEnumeratorCustomReference5	i	Allows you to access custom file references.	use=4
+AddReference	m	void AddReference(int lFileID, int lFolderID)	5.2	obsolete>IEdmEnumeratorCustomReference6.AddReference2
+GetFirstRefPosition	m	IEdmPos5 GetFirstRefPosition()	5.2		Starts an enumeration of custom file references.
+GetNextRef	m	string GetNextRef(IEdmPos5 poPos, out int plFileID, out int plFolderID)	5.2	obsolete>IEdmEnumeratorCustomReference6.GetNextRef2
+RemoveReference	m	void RemoveReference(int lFileID, int lFolderID)	5.2		Removes the specified custom file reference from this file.
+@IEdmEnumeratorCustomReference6	i	Allows you to access user-defined file references.	base=IEdmEnumeratorCustomReference5	use=4
+AddReference2	m	void AddReference2(int lFileID, int lFolderID, int lQuantity)	2013	obsolete>IEdmEnumeratorCustomReference7.AddReference3
+GetNextRef2	m	void GetNextRef2(IEdmPos5 poPos, out int plFileID, out int plFolderID, out string pbsRetPath, out int plQuantity)	2013		Gets the custom file reference at the next position of an enumeration.
+@IEdmEnumeratorCustomReference7	i	Allows you to access user-defined file references.	base=IEdmEnumeratorCustomReference5,IEdmEnumeratorCustomReference6	use=6
+AddReference3	m	void AddReference3(int lFileID, int lFolderID, int lQuantity, bool bShowInBOM)	2017		Adds a custom file reference to this file.
+GetShowInBOM	m	bool GetShowInBOM(int lFileID, int lFolderID)	2017		Gets whether the specified file's user-defined file references are shown in a BOM.
+SetShowInBOM	m	void SetShowInBOM(int lFileID, int lFolderID, bool bShowInBOM)	2017		Sets whether to show the specified file's user-defined file references in a BOM.
+@IEdmEnumeratorVariable10	i	Allows you to access the contents of a file data card.	base=IEdmEnumeratorVariable5,IEdmEnumeratorVariable6,IEdmEnumeratorVariable7,IEdmEnumeratorVariable8,IEdmEnumeratorVariable9
+GetVar2	m	bool GetVar2(string bsVarName, string bsCfgName, int lFolderID, out object poRetValue)	2015 SP4		Gets the value of the specified variable from this file that may be shared across multiple folders.
+GetVarAsText	m	bool GetVarAsText(string bsVarName, string bsCfgName, int lFolderID, out object poRetValue)	2015 SP4		Gets the value of the specified variable in text format from this file that may be shared across multiple folders.
+@IEdmEnumeratorVariable5	i	Allows you to access the contents of a file or folder data card.	via=IEdmAddIn5.OnCmd,IEdmFile5.GetEnumeratorVariable	use=14
+Flush	m	void Flush()	5.2		Saves data to a file or folder.
+GetThumbnail	m	IEdmBitmap5 GetThumbnail()	5.2		Gets a preview bitmap of the current file.
+GetUpdateVars	m	void GetUpdateVars(int lFolderID, out object[] ppoRetVariables:IEdmVariableValue5)	5.2		Gets values for the variables that can be updated in this file.
+GetVar	m	bool GetVar(string bsVarName, string bsCfgName, out object poRetValue)	5.2		Gets the value of the specified variable from this file or folder.
+SetVar	m	void SetVar(string bsVarName, string bsCfgName, ref object poValue, bool bOnlyIfPartOfCard)	5.2		Sets the value of the specified variable in this file or folder.
+StoreValuesFromDatabase	m	void StoreValuesFromDatabase(int lFolderID, bool bOnlyMissingValues, EdmCallback poProgressCb)	5.2		Copies file data card data from the SOLIDWORKS PDM Professional database to the file.
+@IEdmEnumeratorVariable6	i	Allows you to access the contents of a file or folder data card.	base=IEdmEnumeratorVariable5	use=2
+GetVarFromDb	m	bool GetVarFromDb(string bsVarName, string bsCfgName, out object poRetValue)	6.0		Reads a variable from the SOLIDWORKS PDM Professional database.
+@IEdmEnumeratorVariable7	i	Allows you to access the contents of a file data card.	base=IEdmEnumeratorVariable5,IEdmEnumeratorVariable6	use=4
+GenerateDefaultValues	m	bool GenerateDefaultValues(int lFolderID, bool bWriteValuesToFile, out object[] ppoRetVariables:IEdmVariableValue6)	6.4		Generates all default values that have not been generated before.
+GetSerNoVar	m	void GetSerNoVar(string bsSerNoName, int lFolderID, out int[] ppoRetIDs)	6.4		Gets the IDs of all variables that have the specified serial number.
+GetVersionVars	m	void GetVersionVars(object oVersion, int lFolderID, out object[] ppoRetVariables:IEdmVariableValue6, out string[] ppoRetConfigs, out EdmGetVarData poRetData)	6.4		Gets the values of variables of the specified version directly from the database.
+@IEdmEnumeratorVariable8	i	Allows you to access the contents of a file data card.	base=IEdmEnumeratorVariable5,IEdmEnumeratorVariable6,IEdmEnumeratorVariable7	use=4
+CloseFile	m	void CloseFile(bool bFlush)	2008		Closes the file that is open for access by this interface.
+@IEdmEnumeratorVariable9	i	Allows you to access the contents of a file data card.	base=IEdmEnumeratorVariable5,IEdmEnumeratorVariable6,IEdmEnumeratorVariable7,IEdmEnumeratorVariable8
+SetValueVariables	m	void SetValueVariables(EdmStrLst5 poVarNamesList, EdmStrLst5 poVarValuesList, string bsCfgName, bool bOnlyIfPartOfCard)	2012		Sets the values of file variables.
+@IEdmEnumeratorVersion5	i	Allows you to access the versions and revisions of a file.	use=14
+CreateLabel	m	int CreateLabel(string bsName, string bsComment)	5.2		Sets a label on the latest version of this file.
+GetFileCopy	m	void GetFileCopy(int lParentWnd, ref object poVersionNoOrRevisionName, ref object poPathOrFolderID, int lEdmGetFlags:EdmGetFlag, string bsNewName)	5.2		Retrieves a copy of a file with the specified version from the archive and deposits it in the specified folder.
+GetFirstLabelPosition	m	IEdmPos5 GetFirstLabelPosition()	5.2		Starts an enumeration of the labels set on this file.
+GetFirstRevisionPosition	m	IEdmPos5 GetFirstRevisionPosition()	5.2		Starts an enumeration of the revisions set on this file.
+GetFirstVersionPosition	m	IEdmPos5 GetFirstVersionPosition()	5.2		Starts an enumeration of the versions of this file.
+GetNextLabel	m	IEdmLabel5 GetNextLabel(IEdmPos5 poPos)	5.2		Gets the label at the next position of this enumeration.
+GetNextRevision	m	IEdmRevision5 GetNextRevision(IEdmPos5 poPos)	5.2		Gets the revision at the next position of this enumeration.
+GetNextVersion	m	IEdmVersion5 GetNextVersion(IEdmPos5 poPos)	5.2		Gets the version at the next position of this enumeration.
+GetVersion	m	IEdmVersion5 GetVersion(int lVersionNo)	5.2		Gets a version object with the specified version number.
+LabelCount	p	int LabelCount {get;}	5.2		Gets the number of labels set on this file.
+RevisionCount	p	int RevisionCount {get;}	5.2		Gets the number of revisions of this file.
+Rollback	m	void Rollback(int lVersionNo)	5.2	obsolete>IEdmEnumeratorVersion6.Rollback2
+VersionCount	p	int VersionCount {get;}	5.2		Gets the number of versions of this file.
+@IEdmEnumeratorVersion6	i	Allows you to access the versions and revisions of a file.	base=IEdmEnumeratorVersion5
+Rollback2	m	void Rollback2(int lVersionNo, string bsComment)	2015	obsolete>IEdmEnumeratorVersion7.Rollback3
+@IEdmEnumeratorVersion7	i	Allows you to access the versions and revisions of a file.	base=IEdmEnumeratorVersion5,IEdmEnumeratorVersion6	use=2
+Rollback3	m	void Rollback3(int lVersionNo, string bsComment, bool vbRedirectParentRefs)	2017		Rolls this file back to the specified version.
+@IEdmFile10	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5
+ChangeState2	m	void ChangeState2(ref object poStateIdOrName:IEdmState5, int lFolderID, string bsComment, int lParentWnd, int lEdmStateFlags:EdmStateFlags, string bsPasswd)	2015 SP2	obsolete>IEdmFile13.ChangeState3
+@IEdmFile11	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=4
+PrivateStateFile	p	bool PrivateStateFile {get;}	2015 SP2		Gets whether this file is in a private state.
+@IEdmFile12	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=2
+GetLocalVersionNo2	m	int GetLocalVersionNo2(ref object poPathOrFolderID, out bool pbLocalOverwrittenVersionObsolete)	2017		Gets the version number of the local copy of this file.
+@IEdmFile13	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=5
+ChangeState3	m	void ChangeState3(ref object poStateIdOrName:IEdmState5, ref object poTransitionIdOrName, int lFolderID, string bsComment, int lParentWnd, int lEdmStateFlags:EdmStateFlags, string bsPasswd)	2018		Changes the workflow state of this file.
+GetThumbnail	m	object GetThumbnail()	2018	obsolete>IEdmFile15.GetThumbnail2
+@IEdmFile14	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile13,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=4
+GenerateDefaultConfigValues	m	void GenerateDefaultConfigValues(int lOldFileID, string bsOldConfigName, string bsNewConfigName, string bsActiveConfig, bool bOnlyForUpdateAllFlag)	2018 SP3		Generates default configuration data for the specified drawing or file that lacks properties at the configuration level.
+LockedOnViewID	p	string LockedOnViewID {get;}	2018 SP3		Gets the ID of the vault view in which this file is checked out.
+@IEdmFile15	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile13,IEdmFile14,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=1
+GetThumbnail2	m	object GetThumbnail2(int lVersion)	2018 SP4	obsolete>IEdmFile18.GetThumbnail3
+@IEdmFile16	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile13,IEdmFile14,IEdmFile15,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=2
+CreateLabel	m	int CreateLabel(string bsName, string bsDescription)	2019 SP4		Creates a label with the specified name and description for this file.
+@IEdmFile17	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile13,IEdmFile14,IEdmFile15,IEdmFile16,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=2
+HasCutlistItems	p	bool HasCutlistItems {get;}	2020		Gets whether this file has cut list items.
+@IEdmFile18	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile10,IEdmFile11,IEdmFile12,IEdmFile13,IEdmFile14,IEdmFile15,IEdmFile16,IEdmFile17,IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmFile9,IEdmObject5	use=1
+GetThumbnail3	m	int GetThumbnail3(int lVersion)	2023 SP1		Gets this file's thumbnail handle.
+@IEdmFile5	i	Allows you to access a file in SOLIDWORKS PDM Professional.	via=IEdmFolder5.GetFile,IEdmFolder5.GetNextFile,IEdmLabel5.GetNextFile,IEdmReference5.File,IEdmState5.GetNextFile,IEdmVault5.GetFileFromPath,IEdmVault5.GetObject	base=IEdmObject5	use=60
+ChangeState	m	void ChangeState(ref object poStateIdOrName:IEdmState5, int lFolderID, string bsComment, int lParentWnd, int lEdmStateFlags:EdmStateFlags)	5.2	obsolete>IEdmFile10.ChangeState2
+CurrentRevision	p	string CurrentRevision {get;}	5.2		Gets the file's current revision.
+CurrentState	p	IEdmState5 CurrentState {get;}	5.2		Gets the file's current workflow state.
+CurrentVersion	p	int CurrentVersion {get;}	5.2		Gets the file's current version number.
+GetConfigurations	m	EdmStrLst5 GetConfigurations(ref object poVersionNoOrRevisionName)	5.2		Gets a list of names of the configurations for the specified version of this file.
+GetEnumeratorVariable	m	IEdmEnumeratorVariable5 GetEnumeratorVariable(string bsOptionalPath)	5.2		Gets an interface to this file's data card variables.
+GetFileCopy	m	void GetFileCopy(int lParentWnd, ref object poVersionNoOrRevisionName, ref object poPathOrFolderID, int lEdmGetFlags:EdmGetFlag, string bsNewName)	5.2		Gets a copy of the file with the specified version from the archive and deposits it in the specified location.
+GetFirstFolderPosition	m	IEdmPos5 GetFirstFolderPosition()	5.2		Starts an enumeration of the parent folders of this file.
+GetLocalFileDate	m	object GetLocalFileDate(ref object poPathOrFolderID)	5.2		Gets the date and timestamp of a local copy of this file.
+GetLocalFileSize	m	int GetLocalFileSize(ref object poPathOrFolderID)	5.2	obsolete>IEdmFile9.GetLocalFileSize2
+GetLocalPath	m	string GetLocalPath(int lParentFolderID)	5.2		Gets the full path to this file in the specified parent folder.
+GetLocalRevisionName	m	string GetLocalRevisionName(ref object poPathOrFolderID)	5.2		Gets the revision name of the local copy of this file.
+GetLocalVersionNo	m	int GetLocalVersionNo(ref object poPathOrFolderID)	5.2	obsolete>IEdmFile12.GetLocalVersionNo2
+GetNextFolder	m	IEdmFolder5 GetNextFolder(IEdmPos5 poPosition)	5.2		Gets the next parent folder of this file.
+GetReferenceTree	m	IEdmReference5 GetReferenceTree(int lParentFolderID, int lVersionNo)	5.2		Gets an interface to the files that reference or are referenced by this file.
+GetRevisionGeneratorInfo	m	bool GetRevisionGeneratorInfo(out bool pbIncrementMenu)	5.2		Gets information about this file for the revision generator.
+ID	p	new int ID {get;}			Gets the database ID of this file.
+IncrementRevision	m	void IncrementRevision(int lParentWnd, int lFolderID, string bsComment, int lEdmIncRevFlags:EdmIncRevFlags)	5.2		Creates a new revision of this file.
+IsKindOf	m	bool IsKindOf(EdmObjectType __MIDL__IEdmObject50000)			Checks whether the object is of a certain type.
+IsLocked	p	bool IsLocked {get;}	5.2		Gets whether the file is checked out.
+LockedByUser	p	IEdmUser5 LockedByUser {get;}	5.2		Gets the user who has the file checked out.
+LockedByUserID	p	int LockedByUserID {get;}	5.2		Gets the ID of the user who has the file checked out.
+LockedInFolder	p	IEdmFolder5 LockedInFolder {get;}	5.2		Gets the folder in which this file is checked out.
+LockedInFolderID	p	int LockedInFolderID {get;}	5.2		Gets the ID of the folder in which this file is checked out.
+LockedOnComputer	p	string LockedOnComputer {get;}	5.2		Gets the name of the computer to which the file is checked out.
+LockFile	m	void LockFile(int lParentFolderID, int lParentWnd, int lEdmLockFlags:EdmLockFlag)	5.2		Checks out this file from the vault to which the user is currently logged in.
+LockPath	p	string LockPath {get;}	5.2		Gets the full path to the checked-out file.
+Name	p	new string Name {get;}			Gets the name of the file.
+ObjectType	p	new EdmObjectType ObjectType {get;}			Gets the type of object.
+Refresh	m	void Refresh()			Refreshes the file.
+Rename	m	void Rename(int lParentWnd, string bsName, bool bRenameLocalCopies)	5.2	obsolete>IEdmFile6.RenameEx
+UndoLockFile	m	void UndoLockFile(int lParentWnd, bool bGetLatestVersion)	5.2		Removes the check-out of a file without saving changes to the archive.
+UnlockFile	m	void UnlockFile(int lParentWnd, string bsComment, int lEdmUnlockFlags:EdmUnlockFlag, object poIEdmRefCallback)	5.2		Checks in this file.
+Vault	p	new IEdmVault5 Vault {get;}			Gets the file vault to which this file belongs.
+@IEdmFile6	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile5,IEdmObject5	use=8
+Category	p	IEdmCategory6 Category {get;}	6.0		Gets the category to which this file belongs.
+CategoryID	p	int CategoryID {get;}	6.0		Gets the ID of the category to which this file belongs.
+Move	m	void Move(int lParentWnd, int lParentID, int lNewParentID, int lFlags)	6.0		Moves this file to another location in the vault.
+RenameEx	m	void RenameEx(int lParentWnd, string bsNewName, int lFlags)	6.0		Changes the name of this file.
+@IEdmFile7	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile5,IEdmFile6,IEdmObject5	use=6
+GetComputedBOM	m	EdmBomView GetComputedBOM(object oBomLayoutNameOrID, int lVersionNo, string bsConfiguration, int lEdmBomFlags:EdmBomFlag)	2009		Gets an interface to a computed Bill of Materials.
+GetDerivedBOMs	m	void GetDerivedBOMs(out EdmBomInfo[] ppoBoms)	2009		Gets the derived Bills of Materials for this file.
+NeedsRegeneration	m	bool NeedsRegeneration(int lVersion, object oFolderPathOrID)	2009		Gets whether the file with the specified version and location needs to be rebuilt in its associated CAD program.
+@IEdmFile8	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile5,IEdmFile6,IEdmFile7,IEdmObject5	use=2
+FileType	p	EdmFileType FileType {get;}	2010		Gets the type of this file.
+GenerateDefaultValuesForNewConfiguration	m	void GenerateDefaultValuesForNewConfiguration(string bsConfiguration, long llCfgPersistID, object poAux, out object[] ppoRetVariables:IEdmVariableValue5)	2010		Populates the file data card with default data when a new configuration is added in SOLIDWORKS.
+@IEdmFile9	i	Allows you to access a file in SOLIDWORKS PDM Professional.	base=IEdmFile5,IEdmFile6,IEdmFile7,IEdmFile8,IEdmObject5	use=4
+GetLocalFileSize2	m	long GetLocalFileSize2(ref object poPathOrFolderID)	2015		Gets the size of a local copy of this file.
+@IEdmFindUser	i	Allows you to search for users in the vault.	via=IEdmVault7.CreateUtility	use=12
+Clear	m	void Clear()	2013		Clears all of the search criteria created by IEdmFindUser::SetPropt for finding users.
+GetPropt	m	object GetPropt(EdmFindUserProp eProp)	2013		Gets the search criteria previously set by IEdmFindUser::SetPropt for finding users.
+Result	p	IEdmEnum Result {get;}	2013		Gets the result of the last search for users.
+SetPropt	m	void SetPropt(EdmFindUserProp eProp, object oValue)	2013		Sets the search criteria for finding users.
+ShowFindUI	m	bool ShowFindUI(int lParentWnd, bool bAllowMultiSelect, string bsCaption)	2013		Displays the Find User dialog box so the user can enter search criteria and select users from the result list.
+SilentFind	m	void SilentFind()	2013		Silently searches for users with search criteria specified by IEdmFindUser::SetPropt.
+@IEdmFolder10	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmFolder8,IEdmFolder9,IEdmObject5	use=4
+CreateCardView2	m	IEdmCardView5 CreateCardView2(int lFileID, int lParentWindow, int lX, int lY, EdmCallback poCallback, int lEdmCardViewFlags:EdmCardViewFlag)	2017		Creates a data card view for the specified file or folder.
+@IEdmFolder11	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder10,IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmFolder8,IEdmFolder9,IEdmObject5	use=6
+GetDeletedItems	m	void GetDeletedItems(out EdmDeletedItems[] poDeletedItems, bool bRecursive)	2018		Gets items deleted from this folder.
+RecoverDeletedItems	m	void RecoverDeletedItems(EdmDeletedItems[] poDeletedItems)	2018		Restores the specified deleted items in the recycle bin to this folder in the vault view.
+@IEdmFolder12	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder10,IEdmFolder11,IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmFolder8,IEdmFolder9,IEdmObject5
+SetFileNameSerNo	m	void SetFileNameSerNo(object oSerialNumberName)	2019		For internal use only; do not use.
+@IEdmFolder13	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder10,IEdmFolder11,IEdmFolder12,IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmFolder8,IEdmFolder9,IEdmObject5	use=4
+DestroyDeletedItems2	m	void DestroyDeletedItems2(EdmDeletedItems[] poDeletedItems, out EdmFileInfo[] ppoFiles, out EdmBatchDelErrInfo[] poErrors)	2022		Destroys the specified deleted items in this folder.
+@IEdmFolder5	i	Allows you to access the contents of a file system folder in the vault.	via=IEdmFile5.GetNextFolder,IEdmFile5.LockedInFolder,IEdmFolder5.AddFolder,IEdmFolder5.CreateFolderPath,IEdmFolder5.GetNextSubFolder,IEdmFolder5.GetSubFolder,IEdmFolder5.ParentFolder,IEdmLabel5.GetNextFolder,IEdmReference5.Folder,IEdmReference5.LockedInFolder,IEdmVault5.BrowseForFolder,IEdmVault5.GetFileFromPath,IEdmVault5.GetFolderFromPath,IEdmVault5.GetObject,IEdmVault5.RootFolder	base=IEdmObject5	use=47
+AddFile	m	int AddFile(int lParentWnd, string bsSrcPath, string bsNewFileName, int lEdmAddFlags:EdmAddFlag)	5.2	obsolete>IEdmFolder8.AddFile2
+AddFileShared	m	void AddFileShared(int lFileID, int lParentWindow)	5.2		Shares a file in another folder with this folder.
+AddFolder	m	IEdmFolder5 AddFolder(int lParentWnd, string bsFolderName, EdmFolderData poData:IEdmFolderData5)	5.2		Creates a subfolder in this folder.
+CopyFile	m	int CopyFile(int lFileID, int lSrcFolderID, int lParentWnd, string bsNewName, int lFlags:EdmCopyFlag)	5.2	obsolete>IEdmFolder8.CopyFile2
+CreateCardView	m	IEdmCardView5 CreateCardView(int lFileID, int lParentWindow, int lX, int lY, EdmCallback poCallback)	5.2	obsolete>IEdmFolder10.CreateCardView2
+CreateFolderPath	m	IEdmFolder5 CreateFolderPath(string bsPath, int lParentWnd)	5.2		Creates all subfolders in a path relative to this folder.
+CreateLabel	m	int CreateLabel(string bsName, string bsDescription, bool bRecursively)	5.2		Creates a label on this folder and its subfolders.
+DeleteFile	m	void DeleteFile(int lParentWnd, int lFileID, bool bRemoveLocalCopy)	5.2		Deletes a file having the specified ID from this folder.
+DeleteFolder	m	void DeleteFolder(int lParentWnd, int lSubfolderID, bool bRemoveLocalCopy)	5.2		Deletes the specified subfolder from this folder.
+GetCard	m	IEdmCard5 GetCard(string bsExtension)	5.2		Gets the interface to a data card of a file of the specified file type or the interface to the data card of this folder.
+GetCardID	m	int GetCardID(string bsExtension)	5.2		Gets the ID of the data card of a file with the specified extension or the ID of the data card of this folder.
+GetFile	m	IEdmFile5 GetFile(string bsFileName)	5.2		Gets the interface to a file with the specified name in this folder.
+GetFirstFilePosition	m	IEdmPos5 GetFirstFilePosition()	5.2		Starts an enumeration of the files in this folder.
+GetFirstLabelPosition	m	IEdmPos5 GetFirstLabelPosition()	5.2		Starts an enumeration of the labels in this folder.
+GetFirstSubFolderPosition	m	IEdmPos5 GetFirstSubFolderPosition()	5.2		Starts an enumeration of the subfolders in this folder.
+GetNextFile	m	IEdmFile5 GetNextFile(IEdmPos5 poPosition)	5.2		Gets the next file in the enumeration.
+GetNextLabel	m	IEdmLabel5 GetNextLabel(IEdmPos5 poPos)	5.2		Gets the next label in the enumeration.
+GetNextSubFolder	m	IEdmFolder5 GetNextSubFolder(IEdmPos5 poPosition)	5.2		Gets the next subfolder in the enumeration.
+GetSubFolder	m	IEdmFolder5 GetSubFolder(string bsFolderName)	5.2		Gets the interface to the subfolder with the specified name.
+HasRights	m	void HasRights(int lRights:EdmRightFlags, ref int plFileID)	5.2	obsolete>IEdmFolder5.HasRightsEx
+HasRightsEx	m	bool HasRightsEx(int lRights:EdmRightFlags, int lFileID)	5.3		Gets whether the user has the specified rights for the specified file in this folder.
+ID	p	new int ID {get;}			Gets the database ID of this folder.
+IsKindOf	m	bool IsKindOf(EdmObjectType __MIDL__IEdmObject50000)			Checks whether the object is of a certain type.
+LocalPath	p	string LocalPath {get;}	5.2		Gets the full file system path to this local folder.
+Name	p	new string Name {get;}			Gets the name of the folder.
+ObjectType	p	new EdmObjectType ObjectType {get;}			Gets the type of object.
+ParentFolder	p	IEdmFolder5 ParentFolder {get;}	5.2		Gets the interface to the parent folder of this folder.
+Refresh	m	void Refresh()			Refreshes the file listing for the folder.
+Vault	p	new IEdmVault5 Vault {get;}			Gets the file vault to which this folder belongs.
+@IEdmFolder6	i	Allows you to access the contents of a file system folder in the vault.	via=IEdmVault5.GetObject	base=IEdmFolder5,IEdmObject5	use=2
+AddFiles	m	void AddFiles(int lParentWnd, out EdmAddFileInfo[] ppoFiles, IEdmCallback6 poCallback)	6.0		Adds one or more files to this folder.
+Move	m	void Move(int lParentWnd, int lNewParentID, int lFlags)	6.0		Moves this folder to a new location.
+Rename	m	void Rename(int lParentWnd, string bsNewName, int lFlags)	6.0		Renames this folder.
+@IEdmFolder7	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder5,IEdmFolder6,IEdmObject5
+DestroyDeletedItems	m	void DestroyDeletedItems(bool bRecursive, object vDeleteDate, out EdmFileInfo[] ppoFiles, out EdmBatchDelErrInfo[] poErrors)	12.0	obsolete>IEdmFolder13.DestroyDeletedItems2
+@IEdmFolder8	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmObject5	use=8
+AddFile2	m	int AddFile2(int lParentWnd, string bsSrcPath, out int plErrorCode, string bsNewFileName, int lEdmAddFlags:EdmAddFlag)	2015		Adds a file to this folder.
+CopyFile2	m	int CopyFile2(int lFileID, int lSrcFolderID, int lParentWnd, out int plErrorCode:EdmResultSuccessCodes_e, string bsNewName, int lFlags:EdmAddFlag)	2015		Copies a file from a different folder in the vault to this folder.
+@IEdmFolder9	i	Allows you to access the contents of a file system folder in the vault.	base=IEdmFolder5,IEdmFolder6,IEdmFolder7,IEdmFolder8,IEdmObject5	use=4
+HasRenameRights	m	bool HasRenameRights(int lParentWnd, int lFileID, string bsOldFileName, string bsRenamedFileName, bool pbSilent)	2016		Gets whether the user has permission to rename the specified file in this folder.
+@IEdmFolderData5	i	Allows you to specify user and group permissions and file data cards when creating a folder with IEdmFolder5::AddFolder.	via=IEdmFolder5.AddFolder	use=8
+Clear	m	void Clear()	5.2		Removes all settings for the folder.
+SetCardSource	m	void SetCardSource(int lCardID, string bsExtensions)	5.2		Sets the specified file card ID to use for the specified file extensions.
+SetGroupRights	m	void SetGroupRights(int lGroupID, int lEdmRightFlags:EdmRightFlags)	5.2		Sets the specified permissions for the specified user group.
+SetUserRights	m	void SetUserRights(int lUserID, int lEdmRightFlags:EdmRightFlags)	5.2		Sets the specified permissions for the specified user.
+@IEdmGetCSVersionDialog	i	Allows you to restore files in cold storage.
+Init	m	void Init(IEdmVault5 poVault, int lArcSrvID, EdmGetOpError eError, string bsFileName, int lDocID, int lVersionNo, int lDateFmt, int lDisplayErrCode)			Populates the Restore coldstored file version dialog with data.
+Show	m	void Show(out EdmGetOpReply peReply, out bool vbApplyForAll)			Shows the Restore coldstored file version dialog.
+@IEdmGetOpCallback	i	Controls and monitors IEdmBatchGet operations.
+ConfirmReplace	m	bool ConfirmReplace(EdmGetConfirmReason eReason, string bsPath)	6.3		Gets whether to replace an existing file.
+LogMessage	m	void LogMessage(EdmGetOpMsg eMsgID, int hCode, string bsDetails)	6.3		Notifies about an error that occurred during the process.
+ProgressBegin	m	void ProgressBegin(EdmProgressType eType, int lSteps)	6.3		Marks the beginning of the process.
+ProgressEnd	m	void ProgressEnd(EdmProgressType eType)	6.3		Marks the end of the operation.
+ProgressStep	m	bool ProgressStep(EdmProgressType eType, string bsMessage, int lProgressPos)	6.3		Updates the progress bar.
+ReportFailure	m	bool ReportFailure(int lFileID, string bsPath, int hError, string bsDetails)	6.3	obsolete>IEdmGetOpCallback2.ReportFailureEx
+@IEdmGetOpCallback2	i	Controls and monitors IEdmBatchGet operations.	base=IEdmGetOpCallback
+ReportFailureEx	m	EdmGetOpReply ReportFailureEx(int lFileID, int lVersionNo, string bsPath, EdmGetOpError eError, object oArg1, object oArg2, object oArg3)	2011		Notifies about a file error.
+Reset	m	void Reset()			Resets the last reply.
+@IEdmGetOpCallback3	i	Controls and monitors IEdmBatchGet operations.	base=IEdmGetOpCallback,IEdmGetOpCallback2
+IsCancelPressed	m	void IsCancelPressed()			Checks whether the user canceled the operation.
+SetProgressMessage	m	void SetProgressMessage(string bsMessage)			Sets the progress bar message.
+@IEdmHistory	i	Allows you to access the history listing of files or folders.	via=IEdmVault7.CreateUtility	use=4
+AddFile	m	void AddFile(int lFileID)	6.4		Adds a file to the history listing.
+AddFolder	m	void AddFolder(int lFolderID, int lEdmFolderHistoryFlags:EdmFolderHistoryFlag)	6.4		Adds a folder to the history listing.
+GetHistory	m	void GetHistory(out EdmHistoryItem[] ppoRetHistory, int lEdmHistoryTypes:EdmHistoryType)	6.4		Gets the unsorted history listing for the specified history types.
+@IEdmHistory2	i	Allows you to access the history listing of files or folders.	via=IEdmVault7.CreateUtility	base=IEdmHistory	use=2
+Rollback	m	void Rollback(ref EdmHistoryItem historyItem)	2017		Rolls back the specified file.
+@IEdmHistory3	i	Allows you to access the sorted history listing of files or folders.	base=IEdmHistory,IEdmHistory2	use=6
+GetEventDescription	m	string GetEventDescription(ref EdmHistoryItem historyItem, EdmLangCode eLancode)	2020		Gets the event description for the specified history item in the specified language.
+GetSortedHistory	m	void GetSortedHistory(out EdmHistoryItem[] ppoRetHistory, int lEdmHistoryTypes:EdmHistoryType)	2020		Gets the history listing for the specified history types.
+@IEdmHistory4	i	Allows you to access the sorted history of files or folders.	base=IEdmHistory,IEdmHistory2,IEdmHistory3	use=2
+ShowHistoryFile	m	void ShowHistoryFile(int lFileID, int lParentFolderID, int lParentWnd)	2025		Displays a history dialog for the specified file.
+ShowHistoryFolder	m	void ShowHistoryFolder(int lFolderID, int lParentWnd)	2025		Displays a history dialog for the specified folder.
+@IEdmHistory5	i	Allows you to access the sorted history of files or folders.	base=IEdmHistory,IEdmHistory2,IEdmHistory3,IEdmHistory4	use=8
+GetEventDescription2	m	string GetEventDescription2(ref EdmHistoryItem2 historyItem, EdmLangCode eLancode)	2026 SP2		Gets the event description for the specified history item in the specified language.
+GetHistory2	m	void GetHistory2(out EdmHistoryItem2[] ppoRetHistory, int lEdmHistoryTypes:EdmHistoryType)	2026 SP2		Gets the unsorted history listing for the specified history types.
+GetSortedHistory2	m	void GetSortedHistory2(out EdmHistoryItem2[] ppoRetHistory, int lEdmHistoryTypes:EdmHistoryType)	2026 SP2		Gets the history listing for the specified history types.
+Rollback2	m	void Rollback2(ref EdmHistoryItem2 historyItem)	2026 SP2		Rolls back the specified file.
+@IEdmHistoryUpdate	i	Allows you to access the version and revision comments of files.	via=IEdmVault7.CreateUtility	use=6
+CommitUpdates	m	void CommitUpdates()	2008		Commits all of the updates in this batch.
+UpdateRevisionComment	m	void UpdateRevisionComment(int lFileID, string bsRevisionName, int lVersionNo, string bsNewComment)	2008		Updates a revision comment.
+UpdateVersionComment	m	void UpdateVersionComment(int lFileID, int lVersionNo, string bsNewComment)	2008		Updates a version comment.
+@IEdmImage	i	Allows you to paint an image on a window.	via=IEdmUserMgr8.CreateUserPicture	use=4
+GetPosition	m	void GetPosition(out EdmRect poDestRect)	2013		Gets the bounding rectangle where the image is drawn.
+Paint	m	void Paint(long llHDC, ref EdmRect poDestRect)	2013		Paints an image on the specified device context in the specified bounding rectangle.
+Reposition	m	void Reposition(ref EdmRect poDestRect, EdmRepaintType eRefresh)	2013		Changes the bounding rectangle where to draw the image.
+@IEdmInbox5	i	Allows you to access the messages sent to a user.	use=10
+GetFirstMessagePosition	m	IEdmPos5 GetFirstMessagePosition(int lEdmGetMsgFlags:EdmGetMsgFlag)	5.3		Starts an enumeration of the messages in this inbox.
+GetNextMessage	m	IEdmMessage5 GetNextMessage(IEdmPos5 poPos)	5.3		Gets the next message in the enumeration.
+SendMsg	m	void SendMsg(string bsSubject, string bsMessageText)	5.3		Emails the current user.
+@IEdmItem	i	Allows you to access an item.	via=IEdmVault5.GetObject	base=IEdmObject5	use=8
+GetReferences	m	void GetReferences(int lEdmRefFlags:EdmRefFlags, out EdmItemRef[] ppoRetReferences)	2010		Gets item references.
+ItemDescriptiveName	p	string ItemDescriptiveName {get;}	2010		Gets the descriptive name of this item.
+UpdateReferences	m	void UpdateReferences(out EdmItemRef[] ppoAddReferences, out EdmItemRef[] ppoRemoveReferences)	2010		Adds and removes references to and from this item.
+@IEdmLabel5	i	Allows you to access a file or folder label.	via=IEdmEnumeratorVersion5.GetNextLabel,IEdmFolder5.GetNextLabel,IEdmVault5.GetObject	base=IEdmObject5	use=10
+AddFile	m	void AddFile(int lFileID)	5.2		Sets this label on the latest version of the specified file.
+AddFolder	m	void AddFolder(int lFolderID, bool bRecursive)	5.2		Sets this label on the specified folder and all of the files in that folder.
+Comment	p	string Comment {get;}	5.2		Gets the label comment.
+GetFirstFilePosition	m	IEdmPos5 GetFirstFilePosition()	5.2		Starts an enumeration of the files set with this label.
+GetFirstFolderPosition	m	IEdmPos5 GetFirstFolderPosition()	5.2		Starts an enumeration of the folders set with this label.
+GetNextFile	m	IEdmFile5 GetNextFile(IEdmPos5 poPos, out int plVersion)	5.2		Gets the next file with this label in the enumeration.
+GetNextFileID	m	int GetNextFileID(IEdmPos5 poPos, out int plVersion)	5.2		Gets the next ID of a file with this label in the enumeration.
+GetNextFolder	m	IEdmFolder5 GetNextFolder(IEdmPos5 poPos)	5.2		Gets the next folder with this label in the enumeration.
+GetNextFolderID	m	int GetNextFolderID(IEdmPos5 poPos)	5.2		Gets the next ID of a folder with this label in the enumeration.
+GetVersionNo	m	int GetVersionNo(int lFileID)	5.2		Gets the version of the specified file on which this label is set.
+Time	p	object Time {get;}	5.2		Gets the date and time of label creation.
+User	p	IEdmUser5 User {get;}	5.2		Gets the user who created the label.
+UserID	p	int UserID {get;}	5.2		Gets the ID of the user who created the label.
+@IEdmLabel6	i	Allows you to access a file or folder label.	base=IEdmLabel5,IEdmObject5
+ChangeComment	m	void ChangeComment(string bsComment, int hParentWnd:EdmCmdData)	2011		Updates the comment of this label.
+Delete	m	void Delete(int hParentWnd:EdmCmdData)	2011		Deletes this label.
+Rename	m	void Rename(string bsName, int hParentWnd:EdmCmdData)	2011		Renames this label.
+@IEdmMenu5	i	Allows you to add add-ins registered in SOLIDWORKS PDM Professional to your own menus and toolbars.	via=IEdmVault5.CreatePluginMenu
+Compare	m	bool Compare(IEdmMenu5 poMenu)	5.2		Compares this IEdmMenu5 menu with another menu to see if they contain the same menu items.
+GetButtonImages	m	void GetButtonImages(int hDestImageList, EdmButtonState eState, int[] poItemIDArray)	5.2		Gets the toolbar-button images of a range of commands.
+GetString	m	string GetString(int lItemID, EdmMenuStrType eType)	5.2		Gets a string for a menu item in this menu.
+GetToolbarItemIDs	m	void GetToolbarItemIDs(out int[] ppoRetID)	5.2		Gets the toolbar buttons associated with the menu commands.
+OnMenuItem	m	int:EdmRefreshFlag OnMenuItem(int lItemID, int lParentWnd, int lCurrentFolderID, EdmSelectionList5 poSelFiles, EdmSelectionList5 poSelFolders)	5.2	obsolete>IEdmMenu7.OnMenuItem2
+OnUpdateUI	m	void OnUpdateUI(int lSelFileCount, int lSelFolderCount, bool bAllItemsInSameFolder)	5.2		Updates the menu based on a new selection of files and folders.
+@IEdmMenu6	i	Allows you to add add-ins registered in SOLIDWORKS PDM Professional to your own menus and toolbars.	base=IEdmMenu5	use=2
+GetItems	m	void GetItems(int lEdmMenuFlags:EdmMenuFlags, out EdmCmdInfo[] ppoRetItems)	2009		Gets the commands that appear on the toolbar.
+@IEdmMenu7	i	Allows you to add add-ins registered in SOLIDWORKS PDM Professional to your own menus and toolbars.	via=IEdmVault12.CreatePluginMenu2	base=IEdmMenu5,IEdmMenu6	use=2
+OnMenuItem2	m	int:EdmRefreshFlag OnMenuItem2(int lItemID, int lParentWnd, int lCurrentFolderID, IEdmSelectionList6 poSelObjects)	2011		Executes the command for the selected menu item.
+@IEdmMessage5	i	Allows you to encapsulate a single message in the inbox.	via=IEdmInbox5.GetNextMessage	use=16
+Body	p	string Body {get;}	5.3		Gets the text of the message.
+Date	p	object Date {get;}	5.3		Gets the date and time that the message was sent.
+IsRead	p	bool IsRead {get; set;}	5.3		Gets or sets whether the message has been read.
+MessageType	p	EdmMsgType MessageType {get;}	5.3		Gets the type of the message.
+Remove	m	void Remove()	5.3		Removes this message from the inbox.
+SenderID	p	int SenderID {get;}	5.3		Gets the ID of the user who sent the message.
+SenderName	p	string SenderName {get;}	5.3		Gets the name of the user who sent the message.
+Subject	p	string Subject {get;}	5.3		Gets the subject of the message.
+@IEdmObject5	i	Contains several properties and methods that are common to all derived interfaces.	via=IEdmVault5.GetObject	use=20
+ID	p	int ID {get;}	5.2		Gets the database ID of this object.
+IsKindOf	m	bool IsKindOf(EdmObjectType __MIDL__IEdmObject50000)	5.2		Checks whether the object is of a certain type.
+Name	p	string Name {get;}	5.2		Gets the name of the object.
+ObjectType	p	EdmObjectType ObjectType {get;}	5.2		Gets the type of object.
+Refresh	m	void Refresh()	5.2		Re-reads cached properties from the database.
+Vault	p	IEdmVault5 Vault {get;}	5.2		Gets the file vault to which this object belongs.
+@IEdmPos5	i	Allows you to identify the position of an element in a list of elements.	via=IEdmCard5.GetFirstControlPosition,IEdmCard5.GetNextControl,IEdmCategoryMgr6.GetFirstCategoryPosition,IEdmCategoryMgr6.GetNextCategory,IEdmDictionary5.LongFindKeys,IEdmDictionary5.LongFindValues,IEdmDictionary5.LongGetFirstPosition,IEdmDictionary5.LongGetNextAssoc,IEdmDictionary5.StringFindKeys,IEdmDictionary5.StringFindValues,IEdmDictionary5.StringGetFirstPosition,IEdmDictionary5.StringGetNextAssoc,IEdmEnumeratorCustomReference5.GetFirstRefPosition,IEdmEnumeratorCustomReference5.GetNextRef,IEdmEnumeratorVersion5.GetFirstLabelPosition,IEdmEnumeratorVersion5.GetFirstRevisionPosition,IEdmEnumeratorVersion5.GetFirstVersionPosition,IEdmEnumeratorVersion5.GetNextLabel,IEdmEnumeratorVersion5.GetNextRevision,IEdmEnumeratorVersion5.GetNextVersion,IEdmFile5.GetFirstFolderPosition,IEdmFile5.GetNextFolder,IEdmFolder5.GetFirstFilePosition,IEdmFolder5.GetFirstLabelPosition,IEdmFolder5.GetFirstSubFolderPosition,IEdmFolder5.GetNextFile,IEdmFolder5.GetNextLabel,IEdmFolder5.GetNextSubFolder,IEdmInbox5.GetFirstMessagePosition,IEdmInbox5.GetNextMessage,IEdmLabel5.GetFirstFilePosition,IEdmLabel5.GetFirstFolderPosition,IEdmLabel5.GetNextFile,IEdmLabel5.GetNextFileID,IEdmLabel5.GetNextFolder,IEdmLabel5.GetNextFolderID,IEdmPos5.Clone,IEdmReference5.GetFirstChildPosition,IEdmReference5.GetFirstParentPosition,IEdmReference5.GetNextChild,IEdmReference5.GetNextParent,IEdmSelectionList5.GetHeadPosition,IEdmSelectionList5.GetNext,IEdmState5.GetFirstFilePosition,IEdmState5.GetFirstTransitionPosition,IEdmState5.GetNextFile,IEdmState5.GetNextTransition,IEdmStrLst5.GetHeadPosition,IEdmStrLst5.GetNext,IEdmTemplateMgr5.GetFirstTemplatePosition,IEdmTemplateMgr5.GetNextTemplate,IEdmUserGroup5.GetFirstUserPosition,IEdmUserGroup5.GetNextUser,IEdmUserMgr5.GetFirstLoggedInUserPosition,IEdmUserMgr5.GetFirstUserGroupPosition,IEdmUserMgr5.GetFirstUserPosition,IEdmUserMgr5.GetNextLoggedInUser,IEdmUserMgr5.GetNextUser,IEdmUserMgr5.GetNextUserGroup,IEdmVariable5.GetFirstAttributePosition,IEdmVariable5.GetNextAttribute,IEdmVariableMgr5.GetFirstVariablePosition,IEdmVariableMgr5.GetNextVariable,IEdmVariableValue5.GetFirstAttributePosition,IEdmVariableValue5.GetNextAttribute,IEdmVersion5.GetFirstRevisionPosition,IEdmVersion5.GetNextRevision,IEdmWorkflow5.GetFirstStatePosition,IEdmWorkflow5.GetFirstTransitionPosition,IEdmWorkflow5.GetNextState,IEdmWorkflow5.GetNextTransition,IEdmWorkflow6.GetFirstStatePosition,IEdmWorkflow6.GetFirstTransitionPosition,IEdmWorkflow6.GetNextState,IEdmWorkflow6.GetNextTransition,IEdmWorkflowMgr6.GetFirstWorkflowPosition,IEdmWorkflowMgr6.GetNextWorkflow	use=10
+Clone	m	IEdmPos5 Clone()	5.2		Creates a copy of an IEdmPos5 object.
+IsNull	p	bool IsNull {get;}	5.2		Gets whether any elements remain to be enumerated.
+@IEdmRawReferenceMgr	i	Allows you to update file reference paths directly in the checked-out files.	via=IEdmVault7.CreateUtility	use=10
+Close	m	void Close()	6.4		Closes the opened file.
+GetReferences	m	void GetReferences(out EdmRawReference[] ppoReferences)	6.4		Get a list of all of the file references in the opened file.
+Open	m	bool Open(string bsPath)	6.4		Opens a file.
+UpdateReferences	m	void UpdateReferences(EdmRawReference[] poReferences)	6.4		Updates the include paths for the file references.
+@IEdmReference10	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	base=IEdmReference5,IEdmReference6,IEdmReference7,IEdmReference8,IEdmReference9	use=4
+GetFirstChildPosition4	m	IEdmPos5 GetFirstChildPosition4(out string pbsProjectName, bool bIsTopParent, bool bPermitReadLocal, bool bGetSuppressedComponent, int lEdmRefFlags:EdmRefFlags, string bsConfiguration, int lVersion)	2015		Starts an enumeration of child references for the specified configuration.
+@IEdmReference5	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	via=IEdmFile5.GetReferenceTree,IEdmReference5.GetNextChild,IEdmReference5.GetNextParent	use=8
+File	p	IEdmFile5 File {get;}	5.2		Gets the file.
+FileID	p	int FileID {get;}	5.2		Gets the ID of the file.
+Folder	p	IEdmFolder5 Folder {get;}	5.2		Gets the file's parent folder.
+FolderID	p	int FolderID {get;}	5.2		Gets the ID of the file's parent folder.
+FoundPath	p	string FoundPath {get;}	5.2		Gets the file system path where the file was found.
+GetCustomData	m	bool GetCustomData(int lDataID, out object poData)	5.2		Gets data stored with IEdmReference5::SetCustomData in this file reference.
+GetFirstChildPosition	m	IEdmPos5 GetFirstChildPosition(out string pbsProjectName, bool bIsTopParent, bool bPermitReadLocal, int lVersion)		obsolete>IEdmReference7.GetFirstChildPosition2
+GetFirstParentPosition	m	IEdmPos5 GetFirstParentPosition(int lVersionOrZero, bool bGetAllParentVersions)	5.2	obsolete>IEdmReference7.GetFirstParentPosition2
+GetNextChild	m	IEdmReference5 GetNextChild(IEdmPos5 poPos)	5.2		Enumerates the files referenced by this file.
+GetNextParent	m	IEdmReference5 GetNextParent(IEdmPos5 poPos)	5.2		Enumerates the files referencing this file.
+IsLocked	p	bool IsLocked {get;}	5.2		Gets whether the file is checked out.
+LockedByUser	p	IEdmUser5 LockedByUser {get;}	5.2		Gets the the user who checked out the file.
+LockedInFolder	p	IEdmFolder5 LockedInFolder {get;}	5.2		Gets the folder in which the file is checked out.
+LockedOnComputer	p	string LockedOnComputer {get;}	5.2		Gets the name of the computer on which the file is checked out.
+LockPath	p	string LockPath {get;}	5.2		Gets the file's check-out path.
+Name	p	string Name {get;}	5.2		Gets the name of the file.
+ReferencedAs	p	string ReferencedAs {get;}	5.2		Gets how the file is included by the referencing file.
+SetCustomData	m	void SetCustomData(int lDataID, ref object poData)	5.2		Stores an arbitrary piece of data in this object.
+VersionLocal	p	int VersionLocal {get;}	5.2		Gets the local version number of the file.
+VersionRef	p	int VersionRef {get;}	5.2		Gets the referenced version number of the file.
+@IEdmReference6	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	base=IEdmReference5
+RefCount	p	int RefCount {get;}	6.0		Gets the number of times the referenced file is included by the referencing file.
+@IEdmReference7	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	base=IEdmReference5,IEdmReference6	use=4
+EdmRefFlags	p	int:EdmRefFlags EdmRefFlags {get;}	2010		Gets the types of references.
+GetFirstChildPosition2	m	IEdmPos5 GetFirstChildPosition2(out string pbsProjectName, bool bIsTopParent, bool bPermitReadLocal, int lEdmRefFlags:EdmRefFlags, int lVersion)	2010	obsolete>IEdmReference9.GetFirstChildPosition3
+GetFirstParentPosition2	m	IEdmPos5 GetFirstParentPosition2(int lVersionOrZero, bool bGetAllParentVersions, int lEdmRefFlags:EdmRefFlags)	2010		Starts an enumeration of parent references.
+@IEdmReference8	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	base=IEdmReference5,IEdmReference6,IEdmReference7
+RefCountEdited	p	int RefCountEdited {get; set;}	2011		Gets or sets the reference count used in bills of materials.
+@IEdmReference9	i	Allows you to enumerate referenced and referencing files and set up user-defined references.	base=IEdmReference5,IEdmReference6,IEdmReference7,IEdmReference8
+GetFirstChildPosition3	m	IEdmPos5 GetFirstChildPosition3(out string pbsProjectName, bool bIsTopParent, bool bPermitReadLocal, int lEdmRefFlags:EdmRefFlags, string bsConfiguration, int lVersion)	2010	obsolete>IEdmReference10.GetFirstChildPosition4
+RefConfiguration	p	string RefConfiguration {get;}	2011 SP3		Gets the name of this reference's configuration.
+@IEdmRefItem	i	Allows you to access an item in an IEdmRefItemContainer.	use=8
+GetProperty	m	bool GetProperty(EdmRefItemProperty eProperty, out object poValue)	6.4		Gets the value of the specified property of this item.
+GetRefs	m	void GetRefs(EdmRefType eType, out object[] ppoRetItems:IEdmRefItem)	6.4		Gets the references of this item.
+SetProperty	m	void SetProperty(EdmRefItemProperty eProperty, object oValue)	6.4		Updates the specified property of this item.
+@IEdmRefItem2	i	Allows you to access an item in an IEdmRefItemContainer.	via=IEdmRefItemContainer.GetItems	base=IEdmRefItem
+GetUpdatedPaths	m	void GetUpdatedPaths(out EdmUpdatedRefPath[] ppoUpdatedPathArr)	2021 SP4		Gets the old and new paths of references that have been moved or renamed by another client.
+@IEdmRefItemContainer	i	Allows you to access items in file reference dialogs.	use=8
+GetItems	m	void GetItems(EdmRefItemType eType, out object[] ppoRetItems:IEdmRefItem)	6.4		Gets items from this container.
+@IEdmRevision5	i	Allows you to access a single revision of a file.	via=IEdmEnumeratorVersion5.GetNextRevision,IEdmVersion5.GetNextRevision	use=6
+GetFileCopy	m	void GetFileCopy(int lParentWnd, ref object poPathOrFolderID, int lEdmGetFlags:EdmGetFlag, string bsNewName)	5.2		Gets a copy of this revision of the file from the archive and places it in the specified folder on the client machine.
+Name	p	string Name {get;}			Gets the name of this revision.
+Rollback	m	void Rollback()	5.2	obsolete>IEdmRevision6.Rollback2
+Time	p	object Time {get;}			Gets the creation date and time of this revision.
+User	p	IEdmUser5 User {get;}			Gets the user who created this revision.
+UserID	p	int UserID {get;}			Gets the ID of the user who created this revision.
+Version	p	IEdmVersion5 Version {get;}			Gets the version on which this revision is set.
+VersionNo	p	int VersionNo {get;}			Gets the version number of the version on which this revision is set.
+@IEdmRevision6	i	Allows you to access a single revision of a file.	base=IEdmRevision5
+Rollback2	m	void Rollback2(string bsComment)	2015	obsolete>IEdmRevision7.Rollback3
+@IEdmRevision7	i	Allows you to access a single revision of a file.	base=IEdmRevision5,IEdmRevision6	use=4
+Rollback3	m	void Rollback3(string bsComment, bool vbRedirectParentRefs)	2017		Rolls this file back to the version of this revision.
+@IEdmRevisionMgr	i	Allows you to update revision numbers on many files all at once.	via=IEdmVault7.CreateUtility	use=6
+Commit	m	void Commit(string bsComment, out EdmRevError[] ppoErrors)	2007		Commits all of the changes made in this batch object.
+GetRevisionNumberComponents	m	void GetRevisionNumberComponents(out EdmRevComponent[] ppoComponents)	2007	obsolete>IEdmRevisionMgr2.GetRevisionNumberComponents2
+IncrementRevision	m	void IncrementRevision(int lFileID)	2007		Increments the revision of the specified file.
+SetRevisionCounters	m	void SetRevisionCounters(int lFileID, EdmRevCounter[] poCounters)	2007		Sets the revision number component counters to specified values.
+@IEdmRevisionMgr2	i	Allows you to update revision numbers on many files all at once.	base=IEdmRevisionMgr	use=8
+GetRevisionNumberComponents2	m	void GetRevisionNumberComponents2(object oNameIDorEmpty, out EdmRevComponent2[] ppoRetData)	2007 SP3		Gets the specified revision number components in the vault.
+GetRevisionNumberIDFromFile	m	int GetRevisionNumberIDFromFile(int lFileID, out bool pbCanIncrement)	2007 SP3		Gets the active revision number of the specified file.
+GetRevisionNumberIDFromState	m	int GetRevisionNumberIDFromState(int lStateID)	2007 SP3		Gets the ID of the revision number used in the specified workflow state.
+GetRevisionNumbers	m	void GetRevisionNumbers(object oIDorEmpty, out EdmRevNo[] ppoRetData)	2007 SP3		Gets the specified revision number in the vault.
+@IEdmRevisionMgr3	i	Allows you to update revision numbers on many files all at once.	base=IEdmRevisionMgr,IEdmRevisionMgr2
+VerUpgrade_BumpRevisions	m	void VerUpgrade_BumpRevisions(EdmSelItem[] poFiles)	2009		Moves all revisions set on the second-to-latest version to the latest version.
+VerUpgrade_ReferenceCheck	m	void VerUpgrade_ReferenceCheck(EdmSelItem[] poFiles, out EdmCheckRef[] ppoWrongRefs)	2009		Finds parts that are referenced by assemblies and where the referenced part version is not the latest version.
+@IEdmSearch10	i	Allows you to quickly find files or folders.	via=IEdmVault5.CreateSearch,IEdmVault7.CreateUtility	base=IEdmSearch5,IEdmSearch6,IEdmSearch7,IEdmSearch8,IEdmSearch9	use=4
+GetFirstFavoriteResult	m	IEdmSearchResult5 GetFirstFavoriteResult(string bsFavName, bool bGetCustomColumns)	2021		Gets the first file or folder that matches the favorite search criteria.
+@IEdmSearch5	i	Allows you to quickly find files or folders.	via=IEdmVault5.CreateSearch,IEdmVault7.CreateUtility	use=14
+AddVariable	m	void AddVariable(ref object poIdOrName, ref object poValue)	5.2	obsolete>IEdmSearch8.AddVariable2
+Clear	m	void Clear()	5.2		Resets all search properties to their default values
+FileName	p	string FileName {get; set;}	5.2		Gets or sets the name of the file or folder for which to search.
+FindFiles	p	bool FindFiles {get; set;}	5.2		Gets or sets whether to return files in the search.
+FindFolders	p	bool FindFolders {get; set;}	5.2		Gets or sets whether to return folders in the search.
+FindHistoricStates	p	bool FindHistoricStates {get; set;}	5.2		Gets or sets whether to find all files that have ever been in the state specified by IEdmSearch5::State.
+FindLockedFiles	p	bool FindLockedFiles {get; set;}	5.2		Gets or sets whether to include checked-out files in the search result.
+FindUnlockedFiles	p	bool FindUnlockedFiles {get; set;}	5.2		Gets or sets whether to include checked-in files in the search result.
+GetFirstResult	m	IEdmSearchResult5 GetFirstResult()	5.2		Gets the first file or folder that matches the search criteria.
+GetNextResult	m	IEdmSearchResult5 GetNextResult()	5.2		Gets the next file or folder that matches the search criteria.
+Recursive	p	bool Recursive {get; set;}	5.2		Gets or sets whether to search recursively in subfolders.
+StartFolderID	p	int StartFolderID {get; set;}	5.2		Gets or sets the ID of the folder in which to search.
+State	p	object State {get; set;}	5.2		Gets or sets the ID or name of the workflow state in which to search.
+VersionComment	p	string VersionComment {get; set;}	5.2		Gets or sets the version comment substring for which to search.
+@IEdmSearch6	i	Allows you to quickly find files or folders.	base=IEdmSearch5	use=10
+GetToken	m	object GetToken(EdmSearchToken eTok)	2007		Gets the value of a search token.
+SetToken	m	void SetToken(EdmSearchToken eTok, object oValue)	2007		Sets the specified token with the specified value.
+@IEdmSearch7	i	Allows you to quickly find files or folders.	base=IEdmSearch5,IEdmSearch6
+GetMenuInfo	m	void GetMenuInfo(out string[] ppoForms, out string[] ppoFavorites, out int plSysPerm:EdmSysRightFlags, out int plEdmGetMenuInfoFlags:EdmGetMenuInfoFlags)	2009		Gets information that can be used to display a quick launch menu from which the user can start the search tool and...
+LaunchApp	m	void LaunchApp(int hParentWnd, string bsDefault:EdmLaunchSearchFlags, object oStartFolderPathOrID, int lEdmLaunchSearchFlags:EdmLaunchSearchFlags)	2009		Starts the search tool application.
+@IEdmSearch8	i	Allows you to quickly find files or folders.	base=IEdmSearch5,IEdmSearch6,IEdmSearch7	use=10
+AddVariable2	m	void AddVariable2(ref object poIdOrName, ref object poValue, int lEdmVarOp:EdmVarOp)	2018		Adds a file or folder data card variable to this search.
+BeginAND	m	void BeginAND()	2018		Begins boolean AND operation.
+BeginOR	m	void BeginOR()	2018		Begins boolean OR operation.
+EndAND	m	void EndAND()	2018		Ends boolean AND operation.
+EndOR	m	void EndOR()	2018		Ends boolean OR operation.
+@IEdmSearch9	i	Allows you to quickly find files or folders.	via=IEdmVault21.CreateSearch2	base=IEdmSearch5,IEdmSearch6,IEdmSearch7,IEdmSearch8	use=6
+AddMultiVariableCondition	m	void AddMultiVariableCondition(string[] poVariableNames, string bsCondition)	2020		Adds a multi-variable condition to this search.
+GetSyntaxErrors	m	string[] GetSyntaxErrors()	2020		Gets syntax errors resulting from this search.
+@IEdmSearchResult5	i	Allows you to access a search result.	via=IEdmSearch5.GetNextResult	base=IEdmObject5	use=12
+FileDate	p	object FileDate {get;}	5.2		Gets the modification date of this search result.
+FileSize	p	int FileSize {get;}	5.2		Gets the size of this search result.
+LockedByUserID	p	int LockedByUserID {get;}			Gets the ID of the user who has the file checked out.
+LockedByUserName	p	string LockedByUserName {get;}			Gets the name of the user who has the file checked out.
+LockedOnComputer	p	string LockedOnComputer {get;}			Gets the name of the computer to which the file is checked out.
+LockPath	p	string LockPath {get;}			Gets the full path where the file is checked out.
+ParentFolderID	p	int ParentFolderID {get;}			Gets the ID of the folder where the file or folder is found.
+Path	p	string Path {get;}			Gets the full path to the file or folder.
+StateName	p	string StateName {get;}			Gets the name of the file's workflow state.
+Version	p	int Version {get;}			Gets the file's current version number.
+@IEdmSearchResult6	i	Allows you to access a search result.	base=IEdmObject5,IEdmSearchResult5	use=6
+FileSize2	p	long FileSize2 {get;}	2021		Gets the size of this very large search result file.
+GetCustomColumnsInfo	m	void GetCustomColumnsInfo(out EdmListCol[] ppoRetColsInfo)	2021		Gets the custom column headers for this favorite search result.
+GetCustomColumnValues	m	void GetCustomColumnValues(out string[] ppoRetColValues)	2021		Gets the custom column values returned in this favorite search result.
+@IEdmSelectionList5	i	Allows you to access a list of files or folders.	via=IEdmMenu5.OnMenuItem	use=6
+AddTail	m	void AddTail(string bsItemName, int lItemID, int lParentFolderID)	5.2	obsolete>IEdmSelectionList6.AddTail2
+AllInSameFolder	p	bool AllInSameFolder {get;}			Gets whether all of the items in this list are located in the same parent folder.
+Count	p	int Count {get;}			Gets the number of items in this list.
+GetHeadPosition	m	IEdmPos5 GetHeadPosition()	5.2		Starts an enumeration of the items in this list.
+GetNext	m	void GetNext(IEdmPos5 poPos, out string pbsItemName, out int plItemID, out int plParentFolderID)	5.2	obsolete>IEdmSelectionList6.GetNext2
+IsEmpty	p	bool IsEmpty {get;}			Gets whether this list is empty.
+@IEdmSelectionList6	i	Allows you to access a list of objects of any EdmObjectType.	base=IEdmSelectionList5	use=4
+AddTail2	m	void AddTail2(ref EdmSelectionObject poObject)	2010		Adds an item to the end of this list.
+GetNext2	m	void GetNext2(IEdmPos5 poPos, out EdmSelectionObject poSel)	2010		Gets the next item in this list.
+@IEdmSerNoGen6	i		via=IEdmVault7.CreateUtility	status=obsolete>IEdmSerNoGen7
+GenerateSerNo	m	string GenerateSerNo(string bsSerNoName, int lParentWnd, string bsFilePath, int lFolderID, int lFileID, int lCardID, int lCardControlID)	6.0	obsolete>IEdmSerNoGen7.AllocSerNoValue
+@IEdmSerNoGen7	i	Allows you to manage serial numbers.	via=IEdmVault7.CreateUtility	base=IEdmSerNoGen6	use=6
+AllocSerNoValue	m	IEdmSerNoValue AllocSerNoValue(string bsSerNoName, int lParentWnd, string bsFilePath, int lFolderID, int lFileID, int lCardID, int lCardControlID)	6.4		Generates a new serial number for the specified file, data card, or card control using the specified serial number...
+GetSerialNumberNames	m	void GetSerialNumberNames(out string[] ppoRetNames)	6.4		Gets the names of all of the serial number generators installed in the vault.
+@IEdmSerNoGen8	i	Allows you to manage serial numbers.	via=IEdmVault7.CreateUtility	base=IEdmSerNoGen6,IEdmSerNoGen7	use=1
+SetSerNoNextCounterVal	m	void SetSerNoNextCounterVal(string bsSerNoName, int lNextCounterValue)	2022		Sets the next counter value for the specified serial number generator.
+@IEdmSerNoValue	i	Allows you to access the serial number generated by IEdmSerNoGen7::AllocSerNoValue.	via=IEdmSerNoGen7.AllocSerNoValue	use=4
+Rollback	m	void Rollback()	6.4		Returns the allocated serial number to the serial number generator, so it can be allocated in the future.
+Value	p	string Value {get;}	6.4		Gets the allocated serial number value.
+@IEdmState5	i	Allows you to access a workflow state.	via=IEdmFile5.CurrentState,IEdmTransition5.FromState,IEdmTransition5.ToState,IEdmVault5.GetObject,IEdmWorkflow5.GetNextState,IEdmWorkflow5.GetState,IEdmWorkflow5.InitialState	base=IEdmObject5	use=10
+GetFirstFilePosition	m	IEdmPos5 GetFirstFilePosition()	5.2		Starts an enumeration of all the files in this workflow state.
+GetFirstTransitionPosition	m	IEdmPos5 GetFirstTransitionPosition(bool bExitTransitions)	5.2		Starts an enumeration of the transitions to and from this workflow state.
+GetNextFile	m	IEdmFile5 GetNextFile(IEdmPos5 poPosition)	5.2		Gets the next file in this workflow state.
+GetNextTransition	m	IEdmTransition5 GetNextTransition(IEdmPos5 poPosition)	5.2		Gets the next transition to or from this workflow state.
+GetTransition	m	IEdmTransition5 GetTransition(string bsName)	5.2	obsolete	Gets a transition from this workflow state by name.
+IconName	p	string IconName {get;}			Gets the name of the icon used in the workflow graph.
+@IEdmState6	i	Allows you to access a workflow state.	base=IEdmObject5,IEdmState5	use=2
+WorkflowID	p	int:IEdmWorkflow6 WorkflowID {get;}	6.0		Gets the ID of the workflow to which this state belongs.
+@IEdmState7	i	Allows you to access a workflow state.	base=IEdmObject5,IEdmState5,IEdmState6	use=4
+GetRect	m	void GetRect(out EdmRect poRect)	2011		Gets the bounding rectangle of the state box displayed in the workflow editor.
+@IEdmStrLst5	i	Allows you to access a list of arbitrary strings.	via=IEdmFile5.GetConfigurations,IEdmVault5.BrowseForFile	use=18
+AddTail	m	void AddTail(string bsString)	5.2		Adds a string to the end of this list.
+Count	p	int Count {get;}	5.2		Gets the number of strings in this list.
+GetHeadPosition	m	IEdmPos5 GetHeadPosition()	5.2		Starts an enumeration of the strings in this list.
+GetNext	m	string GetNext(IEdmPos5 poPos)	5.2		Gets the next string in this list.
+IsEmpty	p	bool IsEmpty {get;}	5.2		Gets whether this list is empty.
+@IEdmSWBom	i	Allows you to access a SOLIDWORKS BOM.	via=IEdmBomMgr3.CreateEmptySWBom	use=9
+DeleteColumn	m	void DeleteColumn(int lNr)	2021 SP3		Deletes the specified column from this BOM.
+DeleteRow	m	void DeleteRow(int lNr)			Deletes the specified row from this BOM.
+GetCell	m	EdmSWBomCell GetCell(int lRowNr, int lColumnNr)	2021 SP3		Gets the specified cell in this BOM.
+GetColumn	m	EdmSWBomColumn GetColumn(int lNr)	2021 SP3		Gets the specified column in this BOM.
+GetColumnsCount	m	int GetColumnsCount()	2021 SP3		Gets the number of columns in this BOM.
+GetRow	m	EdmSWBomRow GetRow(int lNr)	2021 SP3		Gets the specified row in this BOM.
+GetRowsCount	m	int GetRowsCount()	2021 SP3		Gets the number of rows in this BOM.
+IncrementNumber	p	int IncrementNumber {get; set;}	2021 SP3		Gets or sets the increment for numbering items in this BOM.
+InsertColumn	m	EdmSWBomColumn InsertColumn(int lNr, string pbsName)	2021 SP3		Inserts a column at the specified column index.
+InsertRow	m	EdmSWBomRow InsertRow(int lNr)	2021 SP3		Inserts a row at the specified index.
+Name	p	string Name {get; set;}	2021 SP3		Gets or sets the name of this BOM.
+RefCfgs	p	string RefCfgs {get; set;}	2021 SP3		Gets or sets the configurations of the document on which this BOM is based.
+RefDocID	p	int RefDocID {get; set;}	2021 SP3		Gets or sets the ID of the document on which this BOM is based.
+SheetName	p	string SheetName {get; set;}	2021 SP3		Gets or sets the name of the sheet on which this BOM is located.
+StartNumber	p	int StartNumber {get; set;}	2021 SP3		Gets or sets the starting number of items in this BOM.
+TableType	p	int TableType {get; set;}	2021 SP3		Gets or sets the type of this BOM.
+@IEdmSWBomCell	i	Allows you to access a cell in a custom SOLIDWORKS BOM table.	via=IEdmSWBom.GetCell	use=1
+ColNr	p	int ColNr {get;}	2021 SP3		Gets the column index of this BOM cell.
+RowNr	p	int RowNr {get;}	2021 SP3		Gets the row index of this BOM cell.
+Text	p	string Text {get; set;}	2021 SP3		Gets or sets the content of this BOM cell.
+@IEdmSWBomColumn	i	Allows you to access a column in a custom SOLIDWORKS BOM table.	via=IEdmSWBom.GetColumn,IEdmSWBom.InsertColumn	use=5
+ColNr	p	int ColNr {get;}	2021 SP3		Gets the index of this BOM column.
+CustomPropName	p	string CustomPropName {get; set;}	2021 SP3		Gets or sets the custom property to which this BOM column is associated.
+Flags	p	int Flags {get; set;}	2021 SP3		Gets or sets the alignment of this BOM column.
+Name	p	string Name {get; set;}	2021 SP3		Gets or sets the name of this BOM column.
+Type	p	int Type {get; set;}	2021 SP3		Gets or sets the type of this BOM column.
+Width	p	int Width {get; set;}	2021 SP3		Gets or sets the width of this BOM column.
+@IEdmSWBomRow	i	Allows you to access a row in a custom SOLIDWORKS BOM table.	via=IEdmSWBom.GetRow,IEdmSWBom.InsertRow	use=5
+ComponentRep	p	string ComponentRep {get; set;}	2021 SP3		Gets or sets the component representation to which this BOM row is associated.
+Configuration	p	string Configuration {get; set;}	2021 SP3		Gets or sets the configuration of the document to which this BOM row is associated.
+DocID	p	int DocID {get; set;}	2021 SP3		Gets or sets the ID of the document to which this BOM row is associated.
+ProjectID	p	int ProjectID {get; set;}	2021 SP3		ts or sets the ID of the project where this BOM row's document resides.
+RowNr	p	int RowNr {get;}	2021 SP3		Gets the index of this BOM row.
+Version	p	int Version {get; set;}	2021 SP3		Gets or sets the version of the document to which this BOM row is associated.
+@IEdmTaskInstance	i	Allows you to access the task instance of an add-in.	use=18
+GetStatus	m	EdmTaskStatus GetStatus()	2010		Gets the current status of this task instance.
+GetValEx	m	object GetValEx(string bsValName)	2010		Gets the value of the specified user-defined variable.
+GetVar	m	object GetVar(object oVarIDorName)	2010		Gets the value of a card variable created in the administration tool.
+ID	p	long ID {get;}	2010		Gets the database ID of this task instance.
+InstanceGUID	p	string InstanceGUID {get;}	2010		Gets the task instance GUID.
+SetProgressPos	m	void SetProgressPos(int lPos, string bsDocStr)	2010		Updates the task list progress bar during execution of this task instance.
+SetProgressRange	m	void SetProgressRange(int lMax, int lPos, string bsDocStr)	2010		Sets the range of the progress bar for the execution of this task instance.
+SetStatus	m	void SetStatus(EdmTaskStatus eStatus, int lHRESULT, string bsCustomMsg, object oNotificationAttachments:EdmSelItem2, string bsExtraNotificationMsg)	2010		Sets the specified status of this task instance.
+SetValEx	m	void SetValEx(string bsValName, object oValue)	2010		Sets a value for the specified user-defined variable.
+SetVar	m	void SetVar(object oVarIDorName, object oValue)	2010		Sets the value of a card variable created in the administration tool.
+TaskGUID	p	string TaskGUID {get;}	2010		Gets the task definition GUID.
+TaskName	p	string TaskName {get;}	2010		Gets the name of this task.
+@IEdmTaskMgr	i	Allows you to manage task add-ins.	via=IEdmVault7.CreateUtility	use=3
+GetTasks	m	EdmTaskInfo[] GetTasks()	2018 SP4		Gets the task add-ins installed in the vault.
+RunTask	m	void RunTask(EdmTaskInfo oTask, EdmSelItem2[] poSelections, int lParentWnd)	2018 SP4		Runs the specified task add-in.
+@IEdmTaskProperties	i	Allows you to access the task definition of an add-in.	use=18
+AddInName	p	string AddInName {get;}	2010		Gets the name of the add-in that is used to execute this task.
+FormName	p	string FormName {get;}	2010		Gets the name of the data card to show when the task is launched.
+GetMenuCmds	m	void GetMenuCmds(out EdmTaskMenuCmd[] ppoCmds)	2010		Gets the menu commands set with IEdmTaskProperties::SetMenuCmds.
+GetSel	m	void GetSel(out EdmTaskSel[] ppoSel)	2010		Gets the selection of objects on which to execute this task.
+GetSetupPages	m	void GetSetupPages(out EdmTaskSetupPage[] ppoPages)	2010		Gets the setup pages added to the task property dialog box using IEdmTaskProperties::SetSetupPages.
+GetValEx	m	object GetValEx(string bsValName)	2010		Gets the value of a user-defined variable created with IEdmTaskProperties::SetValEx.
+GetVar	m	object GetVar(int lVarID)	2010		Gets the value of a card variable created in the administration tool and set by IEdmTaskProperties::SetVar.
+IsScheduled	p	bool IsScheduled {get;}	2010		Gets whether this task is scheduled.
+RetryCount	p	int RetryCount {get;}	2010		Gets the number of times to retry the task on failure.
+SetMenuCmds	m	void SetMenuCmds(EdmTaskMenuCmd[] poCmds)	2010		Adds the specified menu commands to File Explorer context menus.
+SetSel	m	void SetSel(EdmTaskSel[] poSel)	2010		Sets the selection of objects on which to execute this task.
+SetSetupPages	m	void SetSetupPages(EdmTaskSetupPage[] poPages)	2010		Adds setup pages to the task property dialog box for this task definition.
+SetValEx	m	void SetValEx(string bsValName, object oValue)	2010		Sets a value for the specified user-defined variable.
+SetVar	m	void SetVar(int lVarID, object oValue)	2010		Sets the value of a card variable created in the administration tool.
+TaskFlags	p	int:EdmTaskFlag TaskFlags {get; set;}	2010		Gets or sets task-specific options.
+TaskGUID	p	string TaskGUID {get;}	2010		Gets the unique ID of this task definition.
+TaskID	p	int TaskID {get;}	2010		Gets the database ID of this task definition.
+TaskName	p	string TaskName {get;}	2010		Gets the name of this task.
+TimeoutInSeconds	p	int TimeoutInSeconds {get;}	2010		Gets the number of seconds to wait until failing the task.
+UserName	p	string UserName {get;}	2010		Gets the name of the user as whom to execute this task.
+@IEdmTemplate5	i	Allows you to access a single template.	via=IEdmTemplateMgr5.GetNextTemplate	use=6
+GetIconExtension	m	string GetIconExtension()	5.2		Gets the file extension for the icon registered with this template.
+GetMenuString	m	string GetMenuString()	5.2		Gets the string displayed in the SOLIDWORKS PDM Professional menu for this template.
+Run	m	int:EdmRefreshFlag Run(int hParentWnd, int lCurrentFolderID)	5.2		Executes this template in the specified folder.
+@IEdmTemplate53	i	Allows you to access a single template.	base=IEdmTemplate5	use=4
+RunEx	m	int:EdmRefreshFlag RunEx(int hParentWnd, int lCurrentFolderID, out object[] ppoRetData:IEdmData)	5.3		Executes this template in the specified folder.
+@IEdmTemplate6	i	Allows you to access a single template.	base=IEdmTemplate5,IEdmTemplate53
+GetTemplateFixedFolder	m	int GetTemplateFixedFolder()	2017		Gets the fixed folder ID in the template.
+@IEdmTemplateMgr5	i	Allows you to access the templates installed in the file vault.	via=IEdmVault7.CreateUtility	use=6
+GetFirstTemplatePosition	m	IEdmPos5 GetFirstTemplatePosition()	5.2		Starts an enumeration of the templates installed in the vault.
+GetNextTemplate	m	IEdmTemplate5 GetNextTemplate(IEdmPos5 poPos)	5.2		Gets the next template in this list.
+@IEdmTransition10	i	Allows you to access a workflow transition.	base=IEdmObject5,IEdmTransition5,IEdmTransition6,IEdmTransition7,IEdmTransition8,IEdmTransition9	use=4
+Authentication	p	bool Authentication {get;}	2015 SP2		Gets whether this workflow transition requires a password.
+@IEdmTransition5	i	Allows you to access a workflow transition.	via=IEdmState5.GetNextTransition,IEdmState5.GetTransition,IEdmVault5.GetObject,IEdmWorkflow5.GetNextTransition,IEdmWorkflow5.GetTransition	base=IEdmObject5
+CheckPermission	m	bool CheckPermission()	5.2		Gets whether the logged-in user has permission to perform this transition.
+FromState	p	IEdmState5 FromState {get;}	5.2		Gets the source state of this transition.
+FromStateID	p	int FromStateID {get;}	5.2		Gets the ID of the source state of this transition.
+ToState	p	IEdmState5 ToState {get;}	5.2		Gets the destination state of this transition.
+ToStateID	p	int ToStateID {get;}	5.2		Gets the ID of the destination state of this transition.
+@IEdmTransition6	i	Allows you to access a workflow transition.	base=IEdmObject5,IEdmTransition5
+WorkflowID	p	int:IEdmWorkflow6 WorkflowID {get;}	6.0		Gets the ID of the workflow to which this transition belongs.
+@IEdmTransition7	i	Allows you to access a workflow transition.	base=IEdmObject5,IEdmTransition5,IEdmTransition6	use=6
+GetArrowVertices	m	void GetArrowVertices(out EdmPoint[] ppoVertices)	2011		Gets the points that make up the transition arrow in the workflow graph.
+GetRect	m	void GetRect(out EdmRect poRect)	2011		Gets the bounding rectangle of the transition box in the workflow editor.
+@IEdmTransition8	i	Allows you to access a workflow transition.	base=IEdmObject5,IEdmTransition5,IEdmTransition6,IEdmTransition7
+CheckProjectPermission	m	bool CheckProjectPermission(int lProjectID)			Checks whether the user has permission to perform this transition for the specified project.
+@IEdmTransition9	i	Allows you to access a workflow transition.	base=IEdmObject5,IEdmTransition5,IEdmTransition6,IEdmTransition7,IEdmTransition8
+GetParallelTransitionInfo	m	void GetParallelTransitionInfo(int lDocumentID, int lProjectID, out int plReqNum, out int plCommitNum, out bool pbRevoke)			Gets the required information for the parallel transition of the specified document and project.
+HideIfParallelSiblingTransitionUsed	p	bool HideIfParallelSiblingTransitionUsed {get;}			Gets whether to hide this transition when a sibling parallel transition occurs.
+TransitionType	p	EdmTransitionType TransitionType {get;}			Gets the type of transition.
+UserPartOfTransitionRoles	p	bool UserPartOfTransitionRoles(int lProjectID) {get;}			Gets whether the logged-in user has a role in this parallel transition.
+@IEdmUnlockOpCallback	i	Allows you to access information and gain control of IEdmBatchUnlock operations.	use=24
+MsgBox	m	EdmUnlockOpReply MsgBox(EdmUnlockOpMsg eMsg, int lDocID, int lProjID, string bsPath, ref EdmUnlockErrInfo poError)	6.3		Called by the check-in operation to display a message box with information or options that the user can choose.
+ProgressBegin	m	void ProgressBegin(EdmProgressType eType, EdmUnlockEvent eEvent, int lSteps)	6.3		Called by the check-in operation when it starts.
+ProgressEnd	m	void ProgressEnd(EdmProgressType eType)	6.3		Called by the check-in operation when it finishes.
+ProgressStep	m	bool ProgressStep(EdmProgressType eType, string bsText, int lProgressPos)	6.3		Called to advance a progress bar.
+ProgressStepEvent	m	bool ProgressStepEvent(EdmProgressType eType, EdmUnlockEventMsg eText, int lProgressPos)	6.3		Called to advance a progress bar.
+@IEdmUpdateReferences	i	Allows you to mend broken file references.	via=IEdmVault7.CreateUtility	use=6
+AddFile	m	void AddFile(object oPath)	2011		Adds an assembly or drawing to the batch of files for which to update file references.
+ShowDlg	m	void ShowDlg(int lParentWnd, int lFlags, int lFolderID)	2011		Displays the command dialog box for all of the files added to the batch with IEdmUpdateReferences::AddFile.
+@IEdmUser10	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser5,IEdmUser6,IEdmUser7,IEdmUser8,IEdmUser9	use=6
+Email	p	string Email {get;}	2013		Gets this user's e-mail address.
+GetUserDataEx	m	void GetUserDataEx(out EdmUserDataEx poUserData)	2013		Gets information about this user.
+SetUserDataEx	m	void SetUserDataEx(ref EdmUserDataEx poUserData)	2013		Sets information about this user.
+@IEdmUser11	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser10,IEdmUser5,IEdmUser6,IEdmUser7,IEdmUser8,IEdmUser9	use=1
+SetSettingsVar	m	void SetSettingsVar(EdmUserSetting eVar, string pbsVal)	2022		Sets the specified user setting.
+@IEdmUser5	i	Allows you to access a user in SOLIDWORKS PDM Professional.	via=IEdmFile5.LockedByUser,IEdmLabel5.User,IEdmReference5.LockedByUser,IEdmRevision5.User,IEdmUserGroup5.GetNextUser,IEdmUserMgr5.GetLoggedInUser,IEdmUserMgr5.GetNextUser,IEdmUserMgr5.GetUser,IEdmVault5.GetObject	base=IEdmObject5	use=12
+HasSysRight	m	bool HasSysRight(EdmSysRightFlags eRight)	5.2	obsolete>IEdmUser7.HasSysRightEx
+IsLoggedIn	p	bool IsLoggedIn {get;}	5.2		Gets whether this user is logged in.
+SendMsg	m	void SendMsg(string bsSubject, string bsMessageText)	5.2		Sends email to this user.
+@IEdmUser6	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser5	use=2
+FullName	p	string FullName {get;}	6.0		Gets this user's full name.
+Initials	p	string Initials {get;}	6.0		Gets this user's initials.
+UserData	p	string UserData {get; set;}	6.0		Gets and sets arbitrary text data associated with this user.
+@IEdmUser7	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser5,IEdmUser6	use=6
+HasSysRightEx	m	bool HasSysRightEx(EdmSysPerm eRight)	2010		Gets whether this user has the specified permission.
+@IEdmUser8	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser5,IEdmUser6,IEdmUser7	use=1
+GetGroupMemberships	m	void GetGroupMemberships(out object[] poGroups:IEdmUserGroup6)	2011		Gets all of the groups to which this user belongs.
+@IEdmUser9	i	Allows you to access a user in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUser5,IEdmUser6,IEdmUser7,IEdmUser8	use=4
+GetGroupMembershipsInFolder	m	object[]:IEdmUserGroup8 GetGroupMembershipsInFolder(int lFolderID)	2011		Gets all of the groups to which this user belongs and for the specified folder.
+@IEdmUserGroup5	i	Allows you to access a user group in SOLIDWORKS PDM Professional.	via=IEdmUserMgr5.GetNextUserGroup,IEdmUserMgr5.GetUserGroup,IEdmVault5.GetObject	base=IEdmObject5	use=10
+GetFirstUserPosition	m	IEdmPos5 GetFirstUserPosition()	5.2		Starts an enumeration of the users in this group.
+GetNextUser	m	IEdmUser5 GetNextUser(IEdmPos5 poPos)	5.2		Gets the next user in the enumeration.
+HasSysRight	m	bool HasSysRight(EdmSysRightFlags eRight)	5.2	obsolete>IEdmUserGroup6.HasSysRightEx
+SendMsg	m	void SendMsg(string bsSubject, string bsMessageText, bool bExcludeCurrentUser)	5.2		Sends email to all members of this user group.
+@IEdmUserGroup6	i	Allows you to access a user group in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUserGroup5	use=4
+AddMembers	m	void AddMembers(int[] poUserIDs)	2010		Adds the specified users to this user group.
+HasSysRightEx	m	bool HasSysRightEx(EdmSysPerm eRight)	2010		Gets whether this user group has the specified permission.
+@IEdmUserGroup7	i	Allows you to access a user group in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUserGroup5,IEdmUserGroup6	use=2
+AddMembersWithFolders	m	void AddMembersWithFolders(EdmMemberFolder[] poMemberFolders)	2011		Adds the specified members of this user group to the specified folders.
+@IEdmUserGroup8	i	Allows you to access a user group in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUserGroup5,IEdmUserGroup6,IEdmUserGroup7	use=4
+RemoveMembers	m	void RemoveMembers(EdmMemberFolder[] poMemberFolders)	2012		Removes the specified members from this user group.
+@IEdmUserGroup9	i	Allows you to access a user group in SOLIDWORKS PDM Professional.	base=IEdmObject5,IEdmUserGroup5,IEdmUserGroup6,IEdmUserGroup7,IEdmUserGroup8	use=1
+SetSettingsVar	m	void SetSettingsVar(EdmGroupSetting eVar, string pbsVal)	2022		Sets the specified user group setting.
+@IEdmUserMgr10	i	Allows you to access the users and user groups in the vault.	base=IEdmUserMgr5,IEdmUserMgr6,IEdmUserMgr7,IEdmUserMgr8,IEdmUserMgr9	use=4
+AddUsers3	m	void AddUsers3(out EdmUserData2[] ppoUserData, EdmUserType UserType)	2019		Adds the specified users of the specified login type to the vault.
+@IEdmUserMgr5	i	Allows you to access the users and user groups in the vault.	via=IEdmVault7.CreateUtility	use=32
+GetFirstLoggedInUserPosition	m	IEdmPos5 GetFirstLoggedInUserPosition(string bsVaultNames)	5.2		Starts an enumeration of the users that are logged in to the specified vaults.
+GetFirstUserGroupPosition	m	IEdmPos5 GetFirstUserGroupPosition()	5.2		Starts an enumeration of the user groups in the vault.
+GetFirstUserPosition	m	IEdmPos5 GetFirstUserPosition()	5.2		Starts an enumeration of the users in the vault.
+GetLoggedInUser	m	IEdmUser5 GetLoggedInUser()	5.2		Gets the user currently running this program in the vault.
+GetNextLoggedInUser	m	void GetNextLoggedInUser(IEdmPos5 poPos, out string pbsUserName, out string pbsComputerName, out string pbsVaultName, out object poLoginTime)	5.2		Gets information about the next logged-in user in an enumeration of all logged-in users in the vault.
+GetNextUser	m	IEdmUser5 GetNextUser(IEdmPos5 poPos)	5.2		Gets the next user in an enumeration of all users in the vault.
+GetNextUserGroup	m	IEdmUserGroup5 GetNextUserGroup(IEdmPos5 poPos)	5.2		Gets the next user group in an enumeration of all user groups in the vault.
+GetUser	m	IEdmUser5 GetUser(ref object poIdOrName)	5.2		Gets a user with the specified name or ID.
+GetUserGroup	m	IEdmUserGroup5 GetUserGroup(ref object poIdOrName)	5.2		Gets a user group with the specified name or ID.
+@IEdmUserMgr6	i		base=IEdmUserMgr5	status=obsolete>IEdmUserMgr7
+AddGroups	m	void AddGroups(out EdmGroupData[] ppoGroupData)	2007	obsolete>IEdmUserMgr7.AddGroups2
+AddUsers	m	void AddUsers(out EdmUserData[] ppoUserData)	2007	obsolete>IEdmUserMgr7.AddUsers2
+@IEdmUserMgr7	i	Allows you to access the users and user groups in the vault.	base=IEdmUserMgr5,IEdmUserMgr6	use=16
+AddGroups2	m	void AddGroups2(out EdmGroupData2[] ppoGroupData)	2010		Adds the specified user groups to the vault.
+AddUsers2	m	void AddUsers2(out EdmUserData2[] ppoUserData)	2010	obsolete>IEdmUserMgr10.AddUsers3
+GetFolderPermissions	m	void GetFolderPermissions(int lOwnerID, EdmObjectType meOwnerType, int lFolderID, int lEdmGetPermFlags:EdmGetPermFlag, out EdmFolderPermission[] ppoPermissions)	2010		Gets the permissions set on the specified folder for the specified user or group.
+RemoveGroups	m	void RemoveGroups(int[] poGroupIDs)	2010		Removes the specified groups from the vault.
+RemoveUsers	m	void RemoveUsers(int[] poUserIDs)	2010		Removes the specified users from the vault.
+SetFolderPermissions	m	void SetFolderPermissions(EdmFolderPermission[] poPermissions)	2010		Sets specified permissions on a specified folder for a specified user or group.
+@IEdmUserMgr8	i	Allows you to access the users and user groups in the vault.	base=IEdmUserMgr5,IEdmUserMgr6,IEdmUserMgr7	use=6
+CreateUserPicture	m	IEdmImage CreateUserPicture(int hParent, ref EdmRect poDestRect, object oUserID, EdmCallback poCallback, int lEdmUserPictureFlags:EdmUserPictureFlag)	2013		Creates a picture of the user to display in a form.
+ShowUserPopup	m	void ShowUserPopup(int hParent, ref EdmRect poTrackRect, object oUserID)	2013		Displays a popup window with information about the specified user when the mouse hovers over the specified area of...
+@IEdmUserMgr9	i	Allows you to access the users and user groups in the vault.	base=IEdmUserMgr5,IEdmUserMgr6,IEdmUserMgr7,IEdmUserMgr8	use=6
+GetStatePermissions	m	void GetStatePermissions(int lOwnerID, EdmObjectType meOwnerType, int lStateID, out EdmStatePermission[] ppoPermissions)	2017		Gets the state permissions for the specified owner and state.
+GetTransitionPermissions	m	void GetTransitionPermissions(int lOwnerID, EdmObjectType meOwnerType, int lTransitionID, out EdmTransitionPermission[] ppoPermissions)	2017		Gets the transition permissions for the specified owner and transition.
+SetStatePermissions	m	void SetStatePermissions(EdmStatePermission[] poPermissions)	2017		Sets state permissions.
+SetTransitionPermissions	m	void SetTransitionPermissions(EdmTransitionPermission[] poPermissions)	2017		Sets transition permissions.
+@IEdmVariable5	i	Allows you to access a variable on a file or folder data card.	via=IEdmVariableMgr5.GetNextVariable,IEdmVariableMgr5.GetVariable,IEdmVault5.GetObject	base=IEdmObject5	use=10
+Flags	p	int:EdmVariableFlags Flags {get;}	5.2		Gets the style of this variable.
+GetFirstAttributePosition	m	IEdmPos5 GetFirstAttributePosition(string bsFileExtension)	5.2		Starts an enumeration of the attributes to which this variable is mapped for the specified file type.
+GetNextAttribute	m	IEdmAttribute5 GetNextAttribute(IEdmPos5 poPos)	5.2		Gets the next attribute in an enumeration.
+VariableType	p	EdmVariableType VariableType {get;}	5.2		Gets the type of data that can be stored in this variable.
+@IEdmVariableMgr5	i	Allows you to manage the file and folder data card variables set up in the Card Editor.	via=IEdmVault7.CreateUtility	use=10
+EditVariables	m	bool EditVariables(int hParentWnd)	5.2		Displays the Edit Variables dialog box.
+GetFirstVariablePosition	m	IEdmPos5 GetFirstVariablePosition()	5.2		Starts an enumeration of the variables in the vault.
+GetNextVariable	m	IEdmVariable5 GetNextVariable(IEdmPos5 poPos)	5.2		Gets the next variable in an enumeration.
+GetVariable	m	IEdmVariable5 GetVariable(ref object poIdOrName)	5.2		Gets a variable with the specified ID or name.
+@IEdmVariableMgr6	i	Allows you to manage the file and folder data card variables set up in the Card Editor.	base=IEdmVariableMgr5	use=4
+AddVariables	m	void AddVariables(out EdmVariableData[] ppoVariables)	2007		Adds the specified variables to the vault.
+@IEdmVariableMgr7	i	Allows you to manage the file and folder data card variables set up in the Card Editor.	base=IEdmVariableMgr5,IEdmVariableMgr6
+GetDrawingPropSheetAttributes	m	void GetDrawingPropSheetAttributes(int lFolderID, out string[] ppoSrcAttribs, out string[] ppoDestAttribs)	2011		Gets all of the SLDDRW-card attributes that are linked to the $PRPSHEET block for the specified folder.
+@IEdmVariableValue5	i	Allows you to access the values of file and folder data card variables.	via=IEdmEnumeratorVariable5.GetUpdateVars	use=6
+GetFirstAttributePosition	m	IEdmPos5 GetFirstAttributePosition()	5.2		Starts an enumeration of the attributes mapped to this variable.
+GetNextAttribute	m	IEdmAttribute5 GetNextAttribute(IEdmPos5 poPos)	5.2		Gets the next attribute to which this variable is mapped in an enumeration.
+GetValue	m	object GetValue(string bsConfiguration)	5.2		Gets the value of this variable in the specified configuration.
+VariableID	p	int VariableID {get;}	5.2		Gets the ID of the variable to which this value belongs.
+@IEdmVariableValue6	i	Allows you to access the values of file and folder data card variables.	base=IEdmVariableValue5	use=8
+VariableFlags	p	int:EdmVariableFlags VariableFlags {get;}	6.4		Gets the flags set for this variable.
+VariableName	p	string VariableName {get;}	6.4		Gets the name of this variable.
+VariableType	p	EdmVariableType VariableType {get;}	6.4		Gets the type of this variable.
+@IEdmVault10	i	Allows you to access a file vault.	base=IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=2
+CreateCardViewEx2	m	IEdmCardView63 CreateCardViewEx2(ref EdmCardViewParams poArgs, object poCallback:IEdmCardViewCallback6)	2009		Displays a file or folder data card.
+@IEdmVault11	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=18
+BrowseForFolder2	m	IEdmFolder5 BrowseForFolder2(int hParentWnd, string bsMessage, IEdmFolder5 poDefaultFolder, int lFlags:EdmBrowseForFolderFlag)	2010		Displays a Browse for Folder dialog box in which the user can click a file or item folder.
+CreateNewVault	m	void CreateNewVault(string bsArchiveServer, string bsArchiveServerUserName, string bsArchiveServerPassword, string bsVaultName, string bsDescription, string bsArchiveRootFolder, string bsSQLServer, string bsSQLUserName, string bsSQLPassword, string bsSQLDatabaseName, int lDateFmt, string bsAdminUserPassword, int lEdmCreateVaultFlag:EdmCreateVaultFlag, EdmCallback poCallback, object oExtra)	2010		Creates a new vault.
+CreateNewVaultView	m	void CreateNewVaultView(string bsArchiveServer, string bsArchiveServerUserName, string bsArchiveServerPassword, string bsVaultName, string bsParentFolderPath, int lEdmCreateVaultViewFlag:EdmCreateVaultViewFlag)	2010		Creates a local view of a file vault in File Explorer.
+GetErrorMessage	m	string GetErrorMessage(int lHRESULT)	2010		Gets a description for the specified error code.
+GetErrorName	m	string GetErrorName(int lHRESULT)	2010		Gets an internal error code name for the specified error code.
+GetLicense	m	void GetLicense(out EdmLicense[] ppoRetLicense)	2010		Gets all of the SOLIDWORKS PDM Professional licenses installed in this vault.
+GetLoggedInWindowsUserID	m	int GetLoggedInWindowsUserID(string bsVault)	2010		Gets the ID of the user who is currently logged in through the SOLIDWORKS PDM Professional client software on this...
+InstallLicense	m	void InstallLicense(string bsUserName, string bsPasswd, string bsVaultName, string bsLicenseFilePath)	2010	obsolete	Replaced by IEdmVault14::InstallLicense2.
+ItemRootFolder	p	IEdmFolder6 ItemRootFolder {get;}	2010		Gets the interface to the invisible root folder of all items and item folders.
+ItemRootFolderID	p	int ItemRootFolderID {get;}	2010		Gets the ID of the invisible root folder of all items and item folders.
+LogInWindowsUser	m	void LogInWindowsUser(string bsUserName, string bsPasswd, string bsVaultName)	2010		Logs into SOLIDWORKS PDM Professional as the specified user.
+@IEdmVault12	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=2
+CreatePluginMenu2	m	IEdmMenu7 CreatePluginMenu2(int hMenu, int lInsertPosition, out int plStartID, IEdmSelectionList6 poSelObjects, int lCreateMenuFlags:CreateMenuFlags, out int plItemCount)	2011		Inserts into a menu with the specified handle all of the menu commands registered by the SOLIDWORKS PDM Professional...
+InstallFile	m	void InstallFile(string bsPath, int lEdmInstallFileFlags:EdmInstallFileFlags, object oInstallArg)	2011		Installs administrative export files (*.CEX) and card files (*.CRD).
+@IEdmVault13	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9
+LoginEx	m	void LoginEx(string bsUserName, string bsPasswd, string bsVaultName, int lEdmLoginFlags)	2014		Allows an application that is not supplied and supported by SOLIDWORKS Corporation to:
+@IEdmVault14	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9
+InstallLicense2	m	void InstallLicense2(string brUserName, string bsPasswd, string bsVaultName, string bsSNLServers)	2015		Installs a SOLIDWORKS PDM Professional license for this vault.
+@IEdmVault15	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=4
+GetClientLog	m	void GetClientLog(out string pbsRetLogs)	2015 SP3		Gets the contents of the current user's log.
+@IEdmVault16	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=4
+GetVaultType	m	EdmVaultType GetVaultType()	2016		Gets the type of this vault.
+@IEdmVault17	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9
+IgnoreSecondaryDatabaseConnection	m	void IgnoreSecondaryDatabaseConnection(bool vbIgnore)	2017		Sets whether to ignore a secondary database that is configured for the logged-in user.
+@IEdmVault18	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault17,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9
+MinimumSupportedClientSP	p	int MinimumSupportedClientSP {get;}	2017 SP1		Gets the minimum client service pack supported by this vault's views.
+@IEdmVault19	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault17,IEdmVault18,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=4
+CopyTree	m	void CopyTree(int lSrcFileID, int lSrcFileProjID, string lDestinationFolderPath, bool vbShowDlg, bool vbShowProgressBar, EdmCopyTreeOptions oCopyTreeOptions, int lHwnd)	2018		Copies the specified assembly and its referenced parts and drawings to the specified destination folder.
+GetRevisionTableSettings	m	void GetRevisionTableSettings(out bool vbManagedInPDM, out int plNoOfRows, out bool vbRevTableOrder, out string pbsRevPlaceholder)	2018		Gets the settings for revision tables of drawings in this vault.
+UpdateRevTableWithSetRevCmd	m	void UpdateRevTableWithSetRevCmd(out bool vbFlag)	2018		Gets whether to update revision tables of drawings in this vault.
+@IEdmVault20	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault17,IEdmVault18,IEdmVault19,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=6
+GetArchiveServerLog	m	void GetArchiveServerLog(out string pbsRetLogs)	2019		Gets the archive server's log.
+GetFiles	m	object[]:IEdmFile5 GetFiles(EdmDocIDs[] poDocsIDs)	2019		Gets the specified files in this vault.
+GetTransitionCommentPermissions	m	bool[] GetTransitionCommentPermissions(int lUserID, int[] poDocIds, string[] poTransNames)	2019		Gets whether the specified user must add a state change comment for the specified workflow transitions for the...
+@IEdmVault21	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault17,IEdmVault18,IEdmVault19,IEdmVault20,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=4
+CreateSearch2	m	IEdmSearch5 CreateSearch2()	2020		Creates an interface to a search object.
+@IEdmVault22	i	Allows you to access a file vault.	base=IEdmVault10,IEdmVault11,IEdmVault12,IEdmVault13,IEdmVault14,IEdmVault15,IEdmVault16,IEdmVault17,IEdmVault18,IEdmVault19,IEdmVault20,IEdmVault21,IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8,IEdmVault9	use=4
+ADRunSync	m	void ADRunSync(string bsArchiveName)	2024		Synchronizes the vault's archive servers with the Active Directory.
+ClearLogs	m	void ClearLogs()	2024		Deletes the Archive Server Get logs.
+GetColumnSets	m	void GetColumnSets(out EdmColumnSet[] ppoCurrentColumns)	2024		Gets the column sets assigned to the currently logged-in user of this vault.
+GetCurrentColumnSet	m	void GetCurrentColumnSet(out EdmColumnSet poCurrentColumn)	2024		Gets the current column set for the currently logged-in user of this vault.
+SetColumnSetID	m	void SetColumnSetID(int mlColumnSetID)	2024		Sets the specified column set ID in the user's registry.
+@IEdmVault5	i	Allows you to access a file vault.	via=IEdmAddIn5.GetAddInInfo,IEdmFile5.Vault,IEdmFolder5.Vault,IEdmObject5.Vault	use=68
+BrowseForFile	m	EdmStrLst5 BrowseForFile(int hParentWnd, int lEdmBrowseFlags:EdmBrowseFlag, string bsFilter, string bsDefaultExtension, string bsDefaultFileName, string bsDefaultFolder, string bsCaption)	5.2		Displays an Open or Save As dialog box in which the user can click one or more files.
+BrowseForFolder	m	IEdmFolder5 BrowseForFolder(int hParentWnd, string bsMessage)	5.2	obsolete>IEdmVault11.BrowseForFolder2
+CommandID	p	int CommandID {get;}	5.2		Gets the command ID count.
+CreatePluginMenu	m	IEdmMenu5 CreatePluginMenu(int hMenu, int lInsertPosition, out int plStartID, int lSelFileCount, int lSelFolderCount, int lCreateMenuFlags:CreateMenuFlags, out int plItemCount)	5.2	obsolete>IEdmVault12.CreatePluginMenu2
+CreateSearch	m	IEdmSearch5 CreateSearch()	5.2	obsolete>IEdmVault21.CreateSearch2
+GetDictionary	m	IEdmDictionary5 GetDictionary(string bsName, bool bCreateIfNew)	5.2		Gets or creates the specified dictionary.
+GetErrorString	m	void GetErrorString(int lError, out string pbsErrorName, out string pbsDescription)	5.2		Gets the name and description for the specified error code returned by one of SOLIDWORKS PDM Professional's API methods.
+GetFileFromPath	m	IEdmFile5 GetFileFromPath(string bsFilePath, out IEdmFolder5 ppoRetParentFolder)	5.2		Gets an interface to the file with the specified file system path.
+GetFolderFromPath	m	IEdmFolder5 GetFolderFromPath(string bsFolderPath)	5.2		Gets an interface to a folder on the specified file system path.
+GetObject	m	IEdmObject5 GetObject(EdmObjectType eType, int lObjectID)	5.2		Gets an interface to a SOLIDWORKS PDM Professional object of the specified type and having the specified ID.
+GetVaultNameFromPath	m	string GetVaultNameFromPath(string bsPath)	5.2		Gets the name of the vault where the specified file or folder resides.
+GetVersion	m	void GetVersion(out int plMajor, out int plMinor)	5.2		Gets the version of SOLIDWORKS PDM Professional that is installed on this machine.
+IsLoggedIn	p	bool IsLoggedIn {get;}	5.2		Gets whether you are logged in to this vault.
+Language	p	EdmLanguage Language {get;}	5.2		Gets the language used by the SOLIDWORKS PDM Professional client.
+Login	m	void Login(string bsUserName, string bsPasswd, string bsVaultName)	5.2		Logs in to the specified vault using the specified user name and password.
+LoginAuto	m	void LoginAuto(string bsVaultName, int hParentWnd)	5.2		Logs in to the specified vault.
+MsgBox	m	EdmMBoxResult MsgBox(int lParentWnd, string bsMsg, EdmMBoxType eType, string bsCaption)	5.2		Displays a message box to the user.
+Name	p	string Name {get;}	5.2		Gets the name of this vault.
+RefreshFolder	m	void RefreshFolder(string bsFolderPath)	5.2		Refreshes the file listing in the specified folder.
+RootFolder	p	IEdmFolder5 RootFolder {get;}	5.2		Gets the root folder of this vault.
+RootFolderID	p	int RootFolderID {get;}	5.2		Gets the database ID of the root folder of this vault.
+RootFolderPath	p	string RootFolderPath {get;}	5.2		Gets the file system path to the root folder of this vault.
+SetAddInWnd	m	void SetAddInWnd(int lAddInWnd, int lParentWnd:EdmCmd)	5.2	obsolete>Keeping Add-in Windows in the Foreground?
+SilentMode	p	bool SilentMode {get;}	5.2		Gets whether the add-in is running in silent mode.
+VerifyVersion	m	void VerifyVersion(int lMajor, int lMinor)	5.2		Verifies that the installed SOLIDWORKS PDM Professional is at the specified version level or higher.
+@IEdmVault6	i	Allows you to access a file vault.	base=IEdmVault5
+CreateCardViewEx	m	IEdmCardView6 CreateCardViewEx(int lEdmCardViewFlags:EdmCardViewFlag, int lCardID, int lParentWindow, int lX, int lY, IEdmCardViewCallback6 poCallback)	6.0	obsolete>IEdmVault10.CreateCardViewEx2
+GetCardID	m	int GetCardID(EdmCardType eType, string bsName, int lFolderID)	6.0		Gets the ID of a card of the specified type, with the specified name, and in the specified folder.
+@IEdmVault7	i	Allows you to access a file vault.	base=IEdmVault5,IEdmVault6	use=18
+CreateUtility	m	object CreateUtility(EdmUtility eType)	6.2		Creates a utility interface of the specified type.
+@IEdmVault8	i	Allows you to access a file vault.	base=IEdmVault5,IEdmVault6,IEdmVault7	use=17
+ClientType	p	EdmClientType ClientType {get;}	6.4		Gets the type of client installation.
+GetVaultViews	m	void GetVaultViews(out EdmViewInfo[] ppoRetViews, bool bOnlyLoggedIn)	6.4		Gets all of the views set up on this vault.
+GetWin32Window	m	object GetWin32Window(int lHwnd)	6.4		Converts the specified window handle to an Win32Window interface that can be used in the.NET Framework.
+OpenContainingFolder	m	void OpenContainingFolder(object oFilePathOrID, object oFolderPathOrID)	6.4		Opens File Explorer on the specified folder and selects the specified file.
+@IEdmVault9	i	Allows you to access a file vault.	base=IEdmVault5,IEdmVault6,IEdmVault7,IEdmVault8	use=4
+GetObjects	m	void GetObjects(out EdmObjectInfo[] ppoObjects)	2008		Gets interfaces to all of the specified objects.
+@IEdmVersion5	i	Allows you to access the version of a file.	via=IEdmEnumeratorVersion5.GetNextVersion,IEdmEnumeratorVersion5.GetVersion,IEdmRevision5.Version	use=16
+Comment	p	string Comment {get;}	5.2		Gets the comment that is entered during the check-in of this version.
+FileDate	p	object FileDate {get;}	5.2		Gets the modification date for this version.
+FileSize	p	int FileSize {get;}	5.2		Gets the file size for this version.
+GetFileCopy	m	void GetFileCopy(int lParentWnd, ref object poPathOrFolderID, int lEdmGetFlags:EdmGetFlag, string bsNewName)	5.2		Retrieves from the archive a copy of this version of a file and places it in the specified location.
+GetFirstRevisionPosition	m	IEdmPos5 GetFirstRevisionPosition()	5.2		Starts an enumeration of the revisions of this version.
+GetNextRevision	m	IEdmRevision5 GetNextRevision(IEdmPos5 poPos)	5.2		Gets the next revision set on this version in an enumeration.
+HasRevision	p	bool HasRevision {get;}	5.2		Gets whether this version has one or more revisions.
+Rollback	m	void Rollback()	5.2	obsolete>IEdmVersion6.Rollback2
+User	p	IEdmUser5 User {get;}	5.2		Gets the user who checked in this version.
+UserID	p	int UserID {get;}	5.2		Gets the ID of the user who checked in this version.
+VersionDate	p	object VersionDate {get;}	5.2		Gets the time when this version was created.
+VersionNo	p	int VersionNo {get;}	5.2		Gets the version number of this version.
+@IEdmVersion6	i	Allows you to access the version of a file.	base=IEdmVersion5
+Rollback2	m	void Rollback2(string bsComment)	2015	obsolete>IEdmVersion8.Rollback3
+@IEdmVersion7	i	Allows you to access the version of a file.	base=IEdmVersion5,IEdmVersion6	use=2
+FileSize2	p	long FileSize2 {get;}	2015		Gets the 64-bit file size for this version.
+@IEdmVersion8	i	Allows you to access the version of a file.	base=IEdmVersion5,IEdmVersion6,IEdmVersion7	use=2
+Rollback3	m	void Rollback3(string bsComment, bool vbRedirectParentRefs)	2017		Discards all versions of the file after this version.
+@IEdmWorkflow5	i		status=obsolete>IEdmWorkflow6
+GetFirstStatePosition	m	IEdmPos5 GetFirstStatePosition()		obsolete>IEdmWorkflow6.GetFirstStatePosition
+GetFirstTransitionPosition	m	IEdmPos5 GetFirstTransitionPosition()		obsolete>IEdmWorkflow6.GetFirstTransitionPosition
+GetNextState	m	IEdmState5 GetNextState(IEdmPos5 poPos)		obsolete>IEdmWorkflow6.GetNextState
+GetNextTransition	m	IEdmTransition5 GetNextTransition(IEdmPos5 poPos)		obsolete>IEdmWorkflow6.GetNextTransition
+GetState	m	IEdmState5 GetState(ref object poIdOrName)		obsolete>IEdmWorkflow6.GetState
+GetTransition	m	IEdmTransition5 GetTransition(ref object poIdOrName)		obsolete>IEdmWorkflow6.GetTransition
+InitialState	p	IEdmState6 InitialState {get;}		obsolete>IEdmWorkflow6.InitialState
+@IEdmWorkflow6	i	Allows you to access a workflow set up using SOLIDWORKS PDM Professional's Workflow Editor.	via=IEdmVault5.GetObject,IEdmWorkflowMgr6.GetNextWorkflow	base=IEdmObject5	use=10
+Description	p	string Description {get;}	6.0		Gets the description of this workflow that is entered in the SOLIDWORKS PDM Professional Workflow Editor.
+GetFirstStatePosition	m	IEdmPos5 GetFirstStatePosition()	6.0		Starts an enumeration of the states in this workflow.
+GetFirstTransitionPosition	m	IEdmPos5 GetFirstTransitionPosition()	6.0		Starts an enumeration of the state transitions in this workflow.
+GetNextState	m	IEdmState6 GetNextState(IEdmPos5 poPos)	6.0		Gets the next workflow state in an enumeration.
+GetNextTransition	m	IEdmTransition6 GetNextTransition(IEdmPos5 poPos)	6.0		Gets the next workflow state transition in an enumeration.
+GetState	m	IEdmState6 GetState(ref object poIdOrName)	6.0		Gets the workflow state with the specified ID or name.
+GetTransition	m	IEdmTransition6 GetTransition(int lTransitionID)	6.0		Gets the workflow state transition with the specified ID.
+InitialState	p	IEdmState6 InitialState {get;}	6.0		Gets the state in which new files are placed when they are checked in the first time.
+@IEdmWorkflowMgr6	i	Allows you to access the workflows installed in a file vault.	via=IEdmVault7.CreateUtility	use=6
+GetFirstWorkflowPosition	m	IEdmPos5 GetFirstWorkflowPosition()	6.0		Starts an enumeration of all the workflows in the vault.
+GetNextWorkflow	m	IEdmWorkflow6 GetNextWorkflow(IEdmPos5 poPos)	6.0		Gets the next workflow in an enumeration.

@@ -1,0 +1,80 @@
+#swapi-map 1 module=sustainabilityapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@sustainabilityApp	o
+GetSustainabilityAssemblyProcess	m	Function GetSustainabilityAssemblyProcess() As SustainabilityAssemblyProcess
+GetSustainabilityAssemblyUse	m	Function GetSustainabilityAssemblyUse() As SustainabilityAssemblyUse
+GetSustainabilityEndOfLife	m	Function GetSustainabilityEndOfLife() As SustainabilityEndOfLife
+GetSustainabilityEnvironmentalImpact	m	Function GetSustainabilityEnvironmentalImpact() As SustainabilityEnvironmentalImpact
+GetSustainabilityManufacturing	m	Function GetSustainabilityManufacturing() As SustainabilityManufacturing
+GetSustainabilityMaterial	m	Function GetSustainabilityMaterial() As SustainabilityMaterial
+GetSustainabilityPartUse	m	Function GetSustainabilityPartUse() As SustainabilityPartUse
+GetSustainabilityTransportation	m	Function GetSustainabilityTransportation() As SustainabilityTransportation
+@SustainabilityAssemblyProcess	o
+AssemblyProcessAmount	p	Property AssemblyProcessAmount As Variant
+BuiltToLast	p	Property BuiltToLast As Double
+DurationType	p	Property DurationType As Long:swSustainabilityDurationType_e
+EnergyForAssemblyProcess	p	Property EnergyForAssemblyProcess As Boolean
+FuelType	p	Property FuelType As Long:swSustainabilityFuelType_e
+Region	p	Property Region As Long:swSustainabilityRegionName_e
+@SustainabilityAssemblyUse	o
+AssemblyRegion	p	Property AssemblyRegion As Long:swSustainabilityRegionName_e
+AssemblyUseAmount	p	Property AssemblyUseAmount As Variant
+DurationType	p	Property DurationType As Long:swSustainabilityDurationType_e
+EnergyOverLifeSpan	p	Property EnergyOverLifeSpan As Boolean
+TypeOfEnergy	p	Property TypeOfEnergy As Long:swSustainabilityEnergyType_e
+@SustainabilityEndOfLife	o
+Incinerated	p	Property Incinerated As Double
+Landfill	p	Property Landfill As Double
+Recycled	p	Property Recycled As Double
+@SustainabilityEnvironmentalImpact	o
+DurationOfUse	p	Property DurationOfUse As Double
+DurationType	p	Property DurationType As Long:swSustainabilityDurationType_e
+GetAirAcidification	m	Function GetAirAcidification(ByRef Values As Variant) As Long
+GetAirAcidification2	m	Function GetAirAcidification2() As Variant
+GetCurrentCarbonFootPrint	m	Function GetCurrentCarbonFootPrint(ByRef Values As Variant) As Long
+GetCurrentCarbonFootPrint2	m	Function GetCurrentCarbonFootPrint2() As Variant
+GetEnergyConsumption	m	Function GetEnergyConsumption(ByRef Values As Variant) As Long
+GetEnergyConsumption2	m	Function GetEnergyConsumption2() As Variant
+GetWaterEutrophication	m	Function GetWaterEutrophication(ByRef Values As Variant) As Long
+GetWaterEutrophication2	m	Function GetWaterEutrophication2() As Variant
+IGetAirAcidification	m	Function IGetAirAcidification(ByRef Values As Double) As Long:swSustainabilityErrors_e
+IGetAirAcidification2	m	Function IGetAirAcidification2() As Double
+IGetCurrentCarbonFootPrint	m	Function IGetCurrentCarbonFootPrint(ByRef Values As Double) As Long:swSustainabilityErrors_e
+IGetCurrentCarbonFootPrint2	m	Function IGetCurrentCarbonFootPrint2() As Double
+IGetEnergyConsumption	m	Function IGetEnergyConsumption(ByRef Values As Double) As Long:swSustainabilityErrors_e
+IGetEnergyConsumption2	m	Function IGetEnergyConsumption2() As Double
+IGetWaterEutrophication	m	Function IGetWaterEutrophication(ByRef Values As Double) As Long:swSustainabilityErrors_e
+IGetWaterEutrophication2	m	Function IGetWaterEutrophication2() As Double
+SaveAsReport	m	Sub SaveAsReport(ByVal FileType As Long:swSustainabilitySaveAsFileType_e, ByVal FileName As String, ByVal SaveTo As String)
+UpdateResults	m	Sub UpdateResults()
+@SustainabilityManufacturing	o
+BuiltToLast	p	Property BuiltToLast As Double
+DurationType	p	Property DurationType As Long:swSustainabilityDurationType_e
+ManufacturingProcess	p	Property ManufacturingProcess As String:swSustainabilityManufacturingProcessType_e
+ManufacturingRegion	p	Property ManufacturingRegion As Long:swSustainabilityRegionName_e
+Paint	p	Property Paint As Long:swSustainabilityManufacturingPaintType_e
+PrimaryElectricity	p	Property PrimaryElectricity As Double
+PrimaryNaturalGas	p	Property PrimaryNaturalGas As Double
+PrimaryScrapRate	p	Property PrimaryScrapRate As Double
+SurfaceArea	p	Property SurfaceArea As Double
+@SustainabilityMaterial	o
+ExcludeComponent	m	Sub ExcludeComponent(ByRef ExcludeComponentNames As Variant)
+GetMissingMaterialComponentCount	m	Function GetMissingMaterialComponentCount() As Long
+GetMissingMaterialComponentList	m	Function GetMissingMaterialComponentList() As Variant
+IExcludeComponent	m	Sub IExcludeComponent(ByVal Count As Long, ByRef ExcludeComponentNames As String)
+IGetMissingMaterialComponentList	m	Sub IGetMissingMaterialComponentList(ByVal Count As Long, ByRef ComponentsNames As String)
+IIncludeComponent	m	Sub IIncludeComponent(ByVal Count As Long, ByRef IncludeComponentNames As String)
+IncludeComponent	m	Sub IncludeComponent(ByRef IncludeComponentNames As Variant)
+ISetPropertiesForComponent	m	Sub ISetPropertiesForComponent(ByRef ComponentsNames As String)
+MaterialClass	p	Property MaterialClass As String
+MaterialName	p	Property MaterialName As String
+RecycledContent	p	Property RecycledContent As Double
+SetPropertiesForComponent	m	Sub SetPropertiesForComponent(ByRef ComponentsNames As Variant)
+ViewResults	m	Sub ViewResults()
+Weight	p	Property Weight As Double
+@SustainabilityPartUse	o
+Region	p	Property Region As Long
+@SustainabilityTransportation	o
+Boat	p	Property Boat As Double
+Plane	p	Property Plane As Double
+Train	p	Property Train As Double
+Truck	p	Property Truck As Double

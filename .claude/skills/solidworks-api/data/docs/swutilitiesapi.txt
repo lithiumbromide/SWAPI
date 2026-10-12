@@ -1,0 +1,817 @@
+<<< gtcocswCompareDocument.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareDocument~Close.md
+R: Error as defined by gtError_e
+<<< gtcocswCompareDocument.CompareDocument2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareDocument~CompareDocument2.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOperationOptions: Compare face, volume, or feature as defined by gtCodOperationOption_e
+P: lResultOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to write the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined by gtError_e
+<<< gtcocswCompareDocument.SaveCompareVolumeResults | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareDocument~SaveCompareVolumeResults.md
+P: resultfile: Path and filename to which to save the SOLIDWORKS part document NOTE: You do not have to specify the filename extension.sldprt. It is automatically appended to the filename.
+R: Error as defined by gtError_e
+<<< gtcocswCompareFeature.CompareFeatures2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareFeature~CompareFeatures2.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of the reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined by gtError_e
+<<< gtcocswCompareGeometry.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareGeometry~Close.md
+R: Error as defined by gtError_e
+<<< gtcocswCompareGeometry.CompareGeometry3 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswCompareGeometry~CompareGeometry3.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOperationOptions: Compare face, volume, or face and volume options as defined by gtGdfOperationOption_e
+P: lResultOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+P: volDiffStatus: Error types for volume differences as defined in gtVolDiffStatusOptionType_e
+P: faceDiffStatus: Error types for face differences as defined in gtVolDiffStatusOptionType_e
+R: Error as defined by gtError_e
+X: The vtAddToBinderOption argument is disabled when comparing:
+- Two documents with the same name, but located in different folders, or
+- Two configurations of the same part, or
+- Documents selected from the PDM vault because the documents are saved as temporary files during the comparison.
+This method returns a value that reflects the status of the last command executed (face comparison, volume comparison, or report generation).
+Before face and volume comparisons are made, certain checks occur to ascertain the sanity of the proposed comparison.
+If validation:
+- fails, then the out parameters, volDiffStatus/faceDiffStatus, contain gtVolDiffStatusOptionType_e.gtNotPerformed and this method may return one of the following gt_error:
+- gtErrUtilityAlreadyRunning
+- gtErrCompGeomInvalidRefFile
+- gtErrCompGeomInvalidModFile
+- gtErrDocsAreSame
+- gtErrDocsConfigsAreSame
+- gtErrCompGeomOperationOptions
+- gtErrCompGeomResultOption
+- gtErrCompGeomInvalidRefFil
+- gtErrCompGeomInvalidRefConfi
+- gtErrCompGeomInvalidModFil
+- gtErrCompGeomInvalidModConfi
+- gtErrCompGeomSameRefModFilesConfig
+- gtErrFaceComparisonNotPossibleInAssemblies
+- gtErrAssemblyInEditPartMod
+- is successful:
+- Geometries can be checked for each document. In the report, this is representated as "Model Check". This option is set through the Compare tab in the SOLIDWORKS task pane by selecting "Check documents before Compare Geometry" on the Tools > Compare > Options > Geometry tab. If the geometries check is not successful, then this method returns gt_errors.gtUnknownErr.
+If the geometries check is successful:
+- Face comparison begins. If faceDiffStatus contains gtSuccess, gtIdenticalParts, gtDifferentParts, or gtCanceled, then this method returns gt_error.gtNOErr. If faceDiffStatus contains gtNoSolidBody or gtFailed, then this method returns gt_error.gtUnknownErr.
+- Volume comparison begins. If volDiffStatus contains gtSuccess, gtIdenticalParts, gtDifferentParts, or gtCanceled, then this method returns gt_error.gtNOErr. If volDiffStatus contains gtNoSolidBody or gtFailed, then this method returns gt_error.gtUnknownErr.
+- If lResultOptions is set to gtResultOptions_e.gtResultSaveReport, a report is generated. This method may return gt_error.gtNOErr, gtErrIncorrectReportPath, or gtErrReportAlreadyExists.
+For more information about the SOLIDWORKS Compare Utility, see the SOLIDWORKS Utilities topics in the SOLIDWORKS user-interface help.
+<<< gtcocswFeaturePaint.FeaturePaint2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFeaturePaint~FeaturePaint2.md
+P: sourcefeature: <source feature name>@<path\filename>.sldprt
+P: targetfeature: <target feature name>@<path\filename>.sldprt
+P: pasteappearance: True if the source feature's parameters are copied to the target feature, false if not
+R: Error as defined by gtError_e
+<<< gtcocswFindReplaceAnnotations.AnnotationFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~AnnotationFilter.md
+R: Type of annotations to find as defined by gtFraFilterType_e
+<<< gtcocswFindReplaceAnnotations.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~Close.md
+R: Error as defined by gtError_e
+<<< gtcocswFindReplaceAnnotations.FindNext | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~FindNext.md
+R: Error code as defined by gtError_e
+X: You can use IFindReplaceAnnotations::AnnotationFilter to filter your search and IFindReplaceAnnotations::options to further refine your search.
+<<< gtcocswFindReplaceAnnotations.FindPrevious | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~FindPrevious.md
+R: Error code as defined by gtError_e
+X: You can use IFindReplaceAnnotations::AnnotationFilter to filter your search and IFindReplaceAnnotations::options to further refine your search.
+<<< gtcocswFindReplaceAnnotations.FindText | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~FindText.md
+R: Text to find
+X: | To... | Call... |
+| Find the next occurrence of pVal | IFindReplaceAnnotations::FindNext |
+| Find the previous occurrence of pVal | IFindReplaceAnnotations::FindPrevious |
+| Replace the text in this occurrence with the text specified by IFindReplaceAnnotations::ReplaceText | IFindReplaceAnnotations::Replace |
+| Replace the text in all matching occurrences with the text specified by IFindReplaceAnnotations::ReplaceText | IFindReplaceAnnotations::Replace |
+<<< gtcocswFindReplaceAnnotations.InitPMPage | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~InitPMPage.md
+R: Error code as defined by gtError_e
+<<< gtcocswFindReplaceAnnotations.options | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~options.md
+R: Options as described by gtFraOptionType_e
+<<< gtcocswFindReplaceAnnotations.Replace | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~Replace.md
+R: Error as defined by gtError_e
+<<< gtcocswFindReplaceAnnotations.ReplaceAll | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~ReplaceAll.md
+R: Error as defined by gtError_e
+<<< gtcocswFindReplaceAnnotations.ReplaceText | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswFindReplaceAnnotations~ReplaceText.md
+R: Text with which to replace the text returned by IFindReplaceAnnotations::FindText
+X: | To... | Call... |
+| Replace the text returned by IFindReplaceAnnotations::FindText with the text specified by this property | IFindReplaceAnnotations::Replace |
+| Replace all matching occurrences of the text returned by IFindReplaceAnnotations::FindText with the text specified by this property | IFindReplaceAnnotations::ReplaceAll |
+<<< gtcocswGeometryAnalysis.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~Close.md
+R: Error as defined by gtError_e
+<<< gtcocswGeometryAnalysis.GetDiscontinuousEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetDiscontinuousEdgesCount.md
+P: errorcode: Error as defined by gtError_e
+R: Number of discontinuous edges
+X: All edges in the part where the underlying curve geometry has position or tangent discontinuity are discontinuous edges.
+<<< gtcocswGeometryAnalysis.GetDiscontinuousFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetDiscontinuousFacesCount.md
+P: errorcode: Error as defined by gtError_e
+R: Number of discontinuous faces
+<<< gtcocswGeometryAnalysis.GetKnifeEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetKnifeEdgesCount.md
+P: angle: Angle to use to determine the knife edges
+P: errorcode: Error as defined by gtError_e
+R: Number of knife edges
+X: A sharp edge or knife edge is an edge where the angle between two adjacent faces is acute.
+<<< gtcocswGeometryAnalysis.GetKnifeVerticesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetKnifeVerticesCount.md
+P: angle: Angle to use to determine knife vertices
+P: errorcode: Error as defined by gtError_e
+R: Number of knife vertices
+X: If there are two adjacent edges that intersect at an angle smaller than the specified value, then the vertex between the two edges is a knife vertex.
+<<< gtcocswGeometryAnalysis.GetShortEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetShortEdgesCount.md
+P: length: Length to use to which to compare the edges
+P: errorcode: Error as defined by gtError_e
+R: Number of small edges
+<<< gtcocswGeometryAnalysis.GetSliverFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetSliverFacesCount.md
+P: width: Width to use to detect sliver faces
+P: errorcode: Error as defined by gtError_e
+R: Number of sliver faces
+X: Sliver faces are faces with a high aspect ratio (the ratio of length to width). A face is a sliver face if its area is less than the limiting area W*((P/2)-W), where W is the specified width and P is the face perimeter.
+<<< gtcocswGeometryAnalysis.GetSmallFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~GetSmallFacesCount.md
+P: length: Length to use to detect small faces
+P: errorcode: Error as defined by gtError_e
+R: Number of small faces
+X: Small faces are faces with all edges shorter than a specified length.
+<<< gtcocswGeometryAnalysis.SaveReport2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~SaveReport2.md
+P: reportname: Path and filename to which to write the report
+P: vtAddToBinderOption: True to add the report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing report of the same name, false to not
+R: Error as defined by gtError_e
+<<< gtcocswGeometryAnalysis.ShowResultsDialog | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswGeometryAnalysis~ShowResultsDialog.md
+R: Error as defined by gtError_e
+<<< gtcocswPowerSelect.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~Close.md
+R: Error as defined in gtError_e
+X: Because you cannot have more than one SOLIDWORKS Utilities tool running at any one time, you must close a running PowerSelect session before you can use another SOLIDWORKS Utilities tool. To initialize a PowerSelect session, call IPowerSelect::Init.
+<<< gtcocswPowerSelect.GetAppliedFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetAppliedFilters.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the applied filters as defined in gtpslFilterType_e
+<<< gtcocswPowerSelect.GetAppliedFiltersCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetAppliedFiltersCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of applied filters
+<<< gtcocswPowerSelect.GetEdgeAngleFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetEdgeAngleFilter.md
+P: lCmpOperator: Comparison operator as defined in gtpslEdgeAngleOperator_e
+P: dAngle: Angle in radians
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.GetEdgeConvexityFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetEdgeConvexityFilter.md
+P: bConvex: True to get convex edges, false to not
+P: bConcave: True to get concave edges, false to not
+P: bIgnoreMixedLoop: True to ignore loops with convex or concave edges, false to not
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.GetFaceColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetFaceColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.GetFeatureColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetFeatureColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.GetFeatureNameFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetFeatureNameFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Name of feature
+<<< gtcocswPowerSelect.GetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetFeatureTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of features as defined in gtpslFeatureType_e
+<<< gtcocswPowerSelect.GetFeatureTypeFilterCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetFeatureTypeFilterCount.md
+P: lErrorcode: Error code as defined in gtError_e
+R: Number of types of features
+<<< gtcocswPowerSelect.GetSelectEntitiesTypes | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetSelectEntitiesTypes.md
+P: lErrorcode: Error as defined in gtError_e
+R: Type of entities as defined in gtPslSelectionType_e
+<<< gtcocswPowerSelect.GetShowHiddenEntities | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetShowHiddenEntities.md
+P: lErrorcode: Error code as defined in gtError_e
+R: True to show both non-hidden and hidden entities, false to only show non-hidden entities
+X: Use IPowerSelect::SetShowHiddenEntities to set whether or not to show both non-hidden and hidden entities or to only show non-hidden entities.
+This method is the equivalent to the user-interface Show features of hidden body option on the Power Select dialog.
+<<< gtcocswPowerSelect.GetSurfaceTypeCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetSurfaceTypeCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of surface types selected in surface type filter
+<<< gtcocswPowerSelect.GetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~GetSurfaceTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the selected surface types in surface type filter
+<<< gtcocswPowerSelect.IGetAppliedFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~IGetAppliedFilters.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the applied filters as defined in gtpslFilterType_e
+<<< gtcocswPowerSelect.IGetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~IGetFeatureTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of features as defined in gtpslFeatureType_e
+<<< gtcocswPowerSelect.IGetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~IGetSurfaceTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the selected surface types in surface type filter
+<<< gtcocswPowerSelect.Init | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~Init.md
+R: Error as defined in gtError_e
+X: This method binds the currently active document to PowerSelect. All PowerSelect API-related calls between IPowerSelect::Init and IPowerSelect::Close work on this document. SOLIDWORKS Utilities API calls that try to activate other documents will fail.
+You cannot have more than one SOLIDWORKS Utilities tool running at any one time. You must close a running PowerSelect session before you can use another SOLIDWORKS Utilities tool.
+An error message is returned if a session of PowerSelect is already running when IPowerSelect::Init is called, either programmatically or in the user interface.
+<<< gtcocswPowerSelect.IRunPowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~IRunPowerSelect.md
+P: lResultOptions: Type of results as defined in gtResultOptions_e (see Remarks)
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the number of edges, loops, faces, and features
+X: If IResultOptions is set to gtResultShowUI, then a dialog is displayed and the entities are selected in the dialog but are not selected in the graphics area. Users can select the entities by clicking Close, or users can click Cancel to cancel the selections.
+A -1 is returned for any entity that was not set by IPowerSelect::SetSelectEntitiesTypes.
+An error is returned if filters were not set by IPowerSelect::ISetFeatureTypeFilter.
+<<< gtcocswPowerSelect.ISetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~ISetFeatureTypeFilter.md
+P: lFeatCount: Number of features
+P: pFeatArr: Array of features as defined in gtpslFeatureType_e
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.ISetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~ISetSurfaceTypeFilter.md
+P: lSurfTypeCount: Number of surface types to select
+P: pSurfTypeArr: Array of the surface types to select
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.RemoveFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~RemoveFilters.md
+P: lFilterEnums: Filters to remove as defined in gtpslFilterType_e
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.RunPowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~RunPowerSelect.md
+P: lResultOptions: Type of results as defined in gtResultOptions_e (see Remarks)
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the number of edges, loops, faces, and features
+X: If IResultOptions is set to gtResultShowUI, then a dialog is displayed and the entities are selected in the dialog but are not selected in the graphics area. Users can select the entities by clicking Close, or users can click Cancel to cancel the selections.
+A -1 is returned for any entity that was not set by IPowerSelect::SetSelectEntitiesTypes.
+An error is returned if filters were not set by IPowerSelect::SetFeatureTypeFilter.
+<<< gtcocswPowerSelect.SelectResults | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SelectResults.md
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetEdgeAngleFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetEdgeAngleFilter.md
+P: lCmpOperator: Comparison operator as defined in gtpslEdgeAngleOperator_e
+P: dAngle: Angle in radians
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetEdgeConvexityFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetEdgeConvexityFilter.md
+P: bConvex: True to get convex edges, false to not
+P: bConcave: True to get concave edges, false to not
+P: bIgnoreMixedLoop: True to ignore loops with convex or concave edges, false to not
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetFaceColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetFaceColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetFeatureColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetFeatureColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetFeatureNameFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetFeatureNameFilter.md
+P: bstrSearchString: Name of feature
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetFeatureTypeFilter.md
+P: varFeatArr: Array of features as defined in gtpslFeatureType_e
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetSelectEntitiesTypes | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetSelectEntitiesTypes.md
+P: selTypes: Type of entities as defined in gtPslSelectionType_e
+R: Error as defined in gtError_e
+<<< gtcocswPowerSelect.SetShowHiddenEntities | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetShowHiddenEntities.md
+P: varShow: True to show both non-hidden and hidden entities, false to show only non-hidden entities
+R: Error as defined in gtError_e
+X: Use IPowerSelect::GetShowHiddenEntities to get whether or not to show both non-hidden and hidden entities or to show only non-hidden entities.
+This method is the equivalent to the user-interface Show features of hidden body option on the Power Select dialog.
+<<< gtcocswPowerSelect.SetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswPowerSelect~SetSurfaceTypeFilter.md
+P: varSurfTypeArr: Array of the surface types to select in the surface type filter
+R: Error as defined in gtError_e
+<<< gtcocswThicknessAnalysis.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~Close.md
+R: Error code as defined in gtError_e
+X: You must use this method to exit a session of a thickness analysis in your application. Otherwise, this tool may not run in the user interface if it was not closed in your application.
+<<< gtcocswThicknessAnalysis.GetAnalysisDetails | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetAnalysisDetails.md
+P: lRange: 1-based index of the number of intervals in the thickness color scale (see Remarks)
+P: dMinTckInRange: Minimum thickness of thickness range
+P: dMaxTckInRange: Maximum thickness of thickness range
+P: lNoFaces: Number of faces
+P: dSurfArea: Surface area
+P: dPerAnalArea: Percent of total area analyzed that falls in the specified thickness range
+R: Error as defined in gtError_e
+X: Use IThicknessAnalysis::GetIntervalCount to get the number of intervals in the thickness color scale.
+<<< gtcocswThicknessAnalysis.GetAvgWeightedTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetAvgWeightedTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Average weighted thickness on analyzed area
+<<< gtcocswThicknessAnalysis.GetAvgWeightedTckOnCritArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetAvgWeightedTckOnCritArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Average weighted thickness on the critical area
+<<< gtcocswThicknessAnalysis.GetCriticalFeatureNames | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetCriticalFeatureNames.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the names of the features that violate the target thickness
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+<<< gtcocswThicknessAnalysis.GetCriticalSurfaceArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetCriticalSurfaceArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Critical surface area
+<<< gtcocswThicknessAnalysis.GetIntervalCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetIntervalCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of intervals in the thickness color scale
+<<< gtcocswThicknessAnalysis.GetMaxDeviationfromTargetThickness | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetMaxDeviationfromTargetThickness.md
+P: lErrorcode: Error as defined in gtError_e
+R: Maximum deviation from the target thickness
+<<< gtcocswThicknessAnalysis.GetMaxTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetMaxTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Maximum thickness of analyzed area
+<<< gtcocswThicknessAnalysis.GetMinTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetMinTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Minimum thickness of analyzed area
+<<< gtcocswThicknessAnalysis.GetNumCriticalFaces | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetNumCriticalFaces.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of critical faces
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+<<< gtcocswThicknessAnalysis.GetNumCriticalFeatures | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetNumCriticalFeatures.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of critical features
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+Use IThicknessAnalysis::GetCriticalFeatureNames to get the names of the critical features.
+<<< gtcocswThicknessAnalysis.GetThicknessAnalysisBody | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetThicknessAnalysisBody.md
+P: lErrorcode: Error as defined in gtError_e
+R: SOLIDWORKS IBody2 object
+X: You do not need to use this method if the part is made up of a single solid body.
+This method returns Nothing or Null if the body is a single solid body part.
+Use IThicknessAnalysis::SetThicknessAnalysisBody to select the body for the thickness analysis.
+<<< gtcocswThicknessAnalysis.GetTotalSurfaceAreaAnalyzed | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~GetTotalSurfaceAreaAnalyzed.md
+P: lErrorcode: Error as defined in gtError_e
+R: Total surface area analyzed
+<<< gtcocswThicknessAnalysis.Init | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~Init.md
+R: Error as defined in gtError_e
+X: You must use this method to exit a session of a thickness analysis in your application. Otherwise, this tool may not run in the user interface if it was not closed in your application.
+<<< gtcocswThicknessAnalysis.RunThickAnalysis2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~RunThickAnalysis2.md
+P: targetthickness: Target thickness in meters
+P: thicklimit: Thickness region limit in meters
+P: treatcornerzero: True to disregard corners sharp corners, false to not
+P: resolution: Resolution as defined in gttckResolutionOptions_e
+P: lResultOptions: Display the results or save results to a report as defined in gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtSaveResultsInEdwg: True to save the results in eDrawings, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined in gtError_e
+X: | If there are any... | Then the analysis is run on... |
+| Selected faces | Only those faces |
+| Selected faces that belong to multiple solid bodies | Only on the selected faces of the body selected by IThicknessAnalysys::SetThicknessAnalysisBody |
+<<< gtcocswThicknessAnalysis.RunThinAnalysis2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~RunThinAnalysis2.md
+P: targetthickness: Target thickness in meters
+P: resolution: Resolution as defined in gttckResolutionOptions_e
+P: lResultOptions: True to disregard corners sharp corners, false to not
+P: reportname: Path to which to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtSaveResultsInEdwg: True to save results in eDrawings, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined in gtError_e
+X: | If there are any... | Then the analysis is run on... |
+| Selected faces | Only those faces |
+| Selected faces that belong to multiple solid bodies | Only on the selected faces of the body selected by IThicknessAnalysys::SetThicknessAnalysisBody |
+<<< gtcocswThicknessAnalysis.SetThicknessAnalysisBody | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswThicknessAnalysis~SetThicknessAnalysisBody.md
+P: lpBody2: SOLIDWORKS body
+R: Error as defined in gtError_e
+X: You do not need to use this method if the part is made up of a single solid body.
+Use IThicknessAnalysis::GetThicknessAnalysisBody to get the body selected for the thickness analysis.
+IThicknessAnalysis::RunThickAnalysis2 and IThicknessAnalysis::RunThinAnalysis2 fail if a body is not set in a multibody part.
+<<< gtcocswUtilities.CompareDocument | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~CompareDocument.md
+R: Pointer to an ICompareDocument object
+<<< gtcocswUtilities.CompareFeature | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~CompareFeature.md
+R: Pointer to an ICompareFeature object
+<<< gtcocswUtilities.CompareGeometry | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~CompareGeometry.md
+R: Pointer to an ICompareGeometry object
+<<< gtcocswUtilities.FeaturePaint | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~FeaturePaint.md
+R: Pointer to an IFeaturePaint object
+<<< gtcocswUtilities.FindReplaceAnnotations | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~FindReplaceAnnotations.md
+R: Pointer to IFindReplaceAnnotations object
+<<< gtcocswUtilities.GeometryAnalysis | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~GeometryAnalysis.md
+R: Pointer to IGeometryAnalysis object
+<<< gtcocswUtilities.GetAutoPartSimplification | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~GetAutoPartSimplification.md
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to the simplified configuration
+<<< gtcocswUtilities.GetOptions | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~GetOptions.md
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to an array of options
+<<< gtcocswUtilities.GetToolInterface | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~GetToolInterface.md
+P: toolname: Tool ID as defined by gtSwTools_e
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to the SOLIDWORKS Utilities tool interface
+<<< gtcocswUtilities.options | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~options.md
+R: Pointer to IUtilOptions object
+<<< gtcocswUtilities.PowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~PowerSelect.md
+R: Pointer to an IPowerSelect object
+<<< gtcocswUtilities.ThicknessAnalysis | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilities~ThicknessAnalysis.md
+R: Pointer to an IThicknessAnalysis object
+<<< gtcocswUtilOptions.GetAngularTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilOptions~GetAngularTolerance.md
+P: lErrorcode: Error as defined by gtError_e
+R: Angular tolerance
+<<< gtcocswUtilOptions.GetPositionTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilOptions~GetPositionTolerance.md
+P: lErrorcode: Error as defined by gtError_e
+R: Position tolerance
+<<< gtcocswUtilOptions.SetAngularTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilOptions~SetAngularTolerance.md
+P: pTol: Angular tolerance
+R: Error as defined by gtError_e
+X: During face comparison, the parallelism of the edges of face pairs are compared. If the edges are curved, tangents to the curves are compared. The faces are identical if the angle between their corresponding edges is less than the specified angle tolerance.
+<<< gtcocswUtilOptions.SetPositionTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.gtcocswUtilOptions~SetPositionTolerance.md
+P: pTol: Position tolerance
+R: Error as defined by gtError_e
+X: During face comparison, the position of vertex coordinates and some surface points of face pairs are compared. Vertices or points that lie within a specified position tolerance are considered identical.
+<<< ICompareDocument.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument~Close.md
+R: Error as defined by gtError_e
+<<< ICompareDocument.CompareDocument2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument~CompareDocument2.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOperationOptions: Compare face, volume, or feature as defined by gtCodOperationOption_e
+P: lResultOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to write the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined by gtError_e
+<<< ICompareDocument.SaveCompareVolumeResults | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument~SaveCompareVolumeResults.md
+P: resultfile: Path and filename to which to save the SOLIDWORKS part document NOTE: You do not have to specify the filename extension.sldprt. It is automatically appended to the filename.
+R: Error as defined by gtError_e
+<<< ICompareFeature.CompareFeatures2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature~CompareFeatures2.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of the reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined by gtError_e
+<<< ICompareGeometry.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry~Close.md
+R: Error as defined by gtError_e
+<<< ICompareGeometry.CompareGeometry3 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry~CompareGeometry3.md
+P: reffile: Path and filename of the SOLIDWORKS document containing the referenced part
+P: refconfig: Name of reference part's configuration; if blank, then the active configuration is used
+P: modfile: Path and filename of the SOLIDWORKS document containing the modified part
+P: modconfig: Name of modified part's configuration
+P: lOperationOptions: Compare face, volume, or face and volume options as defined by gtGdfOperationOption_e
+P: lResultOptions: Display the results or save the results to a report as defined by gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+P: volDiffStatus: Error types for volume differences as defined in gtVolDiffStatusOptionType_e
+P: faceDiffStatus: Error types for face differences as defined in gtVolDiffStatusOptionType_e
+R: Error as defined by gtError_e
+X: The vtAddToBinderOption argument is disabled when comparing:
+- Two documents with the same name, but located in different folders, or
+- Two configurations of the same part, or
+- Documents selected from the PDM vault because the documents are saved as temporary files during the comparison.
+This method returns a value that reflects the status of the last command executed (face comparison, volume comparison, or report generation).
+Before face and volume comparisons are made, certain checks occur to ascertain the sanity of the proposed comparison.
+If validation:
+- fails, then the out parameters, volDiffStatus/faceDiffStatus, contain gtVolDiffStatusOptionType_e.gtNotPerformed and this method may return one of the following gt_error:
+- gtErrUtilityAlreadyRunning
+- gtErrCompGeomInvalidRefFile
+- gtErrCompGeomInvalidModFile
+- gtErrDocsAreSame
+- gtErrDocsConfigsAreSame
+- gtErrCompGeomOperationOptions
+- gtErrCompGeomResultOption
+- gtErrCompGeomInvalidRefFil
+- gtErrCompGeomInvalidRefConfi
+- gtErrCompGeomInvalidModFil
+- gtErrCompGeomInvalidModConfi
+- gtErrCompGeomSameRefModFilesConfig
+- gtErrFaceComparisonNotPossibleInAssemblies
+- gtErrAssemblyInEditPartMod
+- is successful:
+- Geometries can be checked for each document. In the report, this is representated as "Model Check". This option is set through the Compare tab in the SOLIDWORKS task pane by selecting "Check documents before Compare Geometry" on the Tools > Compare > Options > Geometry tab. If the geometries check is not successful, then this method returns gt_errors.gtUnknownErr.
+If the geometries check is successful:
+- Face comparison begins. If faceDiffStatus contains gtSuccess, gtIdenticalParts, gtDifferentParts, or gtCanceled, then this method returns gt_error.gtNOErr. If faceDiffStatus contains gtNoSolidBody or gtFailed, then this method returns gt_error.gtUnknownErr.
+- Volume comparison begins. If volDiffStatus contains gtSuccess, gtIdenticalParts, gtDifferentParts, or gtCanceled, then this method returns gt_error.gtNOErr. If volDiffStatus contains gtNoSolidBody or gtFailed, then this method returns gt_error.gtUnknownErr.
+- If lResultOptions is set to gtResultOptions_e.gtResultSaveReport, a report is generated. This method may return gt_error.gtNOErr, gtErrIncorrectReportPath, or gtErrReportAlreadyExists.
+For more information about the SOLIDWORKS Compare Utility, see the SOLIDWORKS Utilities topics in the SOLIDWORKS user-interface help.
+<<< IFeaturePaint | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint.md
+X: For example, you can specify a boss-extrude on one part and apply its parameters (such as depth) to another boss-extrude on a different part.
+You can also specify two different features and apply feature parameters. For example, specify that a sweep feature apply its parameters (such as color and advanced color properties) to a dome feature.
+<<< IFeaturePaint.FeaturePaint2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint~FeaturePaint2.md
+P: sourcefeature: <source feature name>@<path\filename>.sldprt
+P: targetfeature: <target feature name>@<path\filename>.sldprt
+P: pasteappearance: True if the source feature's parameters are copied to the target feature, false if not
+R: Error as defined by gtError_e
+<<< IFindReplaceAnnotations.AnnotationFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~AnnotationFilter.md
+R: Type of annotations to find as defined by gtFraFilterType_e
+<<< IFindReplaceAnnotations.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~Close.md
+R: Error as defined by gtError_e
+<<< IFindReplaceAnnotations.FindNext | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindNext.md
+R: Error code as defined by gtError_e
+X: You can use IFindReplaceAnnotations::AnnotationFilter to filter your search and IFindReplaceAnnotations::options to further refine your search.
+<<< IFindReplaceAnnotations.FindPrevious | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindPrevious.md
+R: Error code as defined by gtError_e
+X: You can use IFindReplaceAnnotations::AnnotationFilter to filter your search and IFindReplaceAnnotations::options to further refine your search.
+<<< IFindReplaceAnnotations.FindText | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindText.md
+R: Text to find
+X: | To... | Call... |
+| Find the next occurrence of pVal | IFindReplaceAnnotations::FindNext |
+| Find the previous occurrence of pVal | IFindReplaceAnnotations::FindPrevious |
+| Replace the text in this occurrence with the text specified by IFindReplaceAnnotations::ReplaceText | IFindReplaceAnnotations::Replace |
+| Replace the text in all matching occurrences with the text specified by IFindReplaceAnnotations::ReplaceText | IFindReplaceAnnotations::Replace |
+<<< IFindReplaceAnnotations.InitPMPage | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~InitPMPage.md
+R: Error code as defined by gtError_e
+<<< IFindReplaceAnnotations.options | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~options.md
+R: Options as described by gtFraOptionType_e
+<<< IFindReplaceAnnotations.Replace | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~Replace.md
+R: Error as defined by gtError_e
+<<< IFindReplaceAnnotations.ReplaceAll | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~ReplaceAll.md
+R: Error as defined by gtError_e
+<<< IFindReplaceAnnotations.ReplaceText | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~ReplaceText.md
+R: Text with which to replace the text returned by IFindReplaceAnnotations::FindText
+X: | To... | Call... |
+| Replace the text returned by IFindReplaceAnnotations::FindText with the text specified by this property | IFindReplaceAnnotations::Replace |
+| Replace all matching occurrences of the text returned by IFindReplaceAnnotations::FindText with the text specified by this property | IFindReplaceAnnotations::ReplaceAll |
+<<< IGeometryAnalysis | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.md
+X: These applications include finite element modeling or computer-aided machining.
+<<< IGeometryAnalysis.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~Close.md
+R: Error as defined by gtError_e
+<<< IGeometryAnalysis.GetDiscontinuousEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetDiscontinuousEdgesCount.md
+P: errorcode: Error as defined by gtError_e
+R: Number of discontinuous edges
+X: All edges in the part where the underlying curve geometry has position or tangent discontinuity are discontinuous edges.
+<<< IGeometryAnalysis.GetDiscontinuousFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetDiscontinuousFacesCount.md
+P: errorcode: Error as defined by gtError_e
+R: Number of discontinuous faces
+<<< IGeometryAnalysis.GetKnifeEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetKnifeEdgesCount.md
+P: angle: Angle to use to determine the knife edges
+P: errorcode: Error as defined by gtError_e
+R: Number of knife edges
+X: A sharp edge or knife edge is an edge where the angle between two adjacent faces is acute.
+<<< IGeometryAnalysis.GetKnifeVerticesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetKnifeVerticesCount.md
+P: angle: Angle to use to determine knife vertices
+P: errorcode: Error as defined by gtError_e
+R: Number of knife vertices
+X: If there are two adjacent edges that intersect at an angle smaller than the specified value, then the vertex between the two edges is a knife vertex.
+<<< IGeometryAnalysis.GetShortEdgesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetShortEdgesCount.md
+P: length: Length to use to which to compare the edges
+P: errorcode: Error as defined by gtError_e
+R: Number of small edges
+<<< IGeometryAnalysis.GetSliverFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetSliverFacesCount.md
+P: width: Width to use to detect sliver faces
+P: errorcode: Error as defined by gtError_e
+R: Number of sliver faces
+X: Sliver faces are faces with a high aspect ratio (the ratio of length to width). A face is a sliver face if its area is less than the limiting area W*((P/2)-W), where W is the specified width and P is the face perimeter.
+<<< IGeometryAnalysis.GetSmallFacesCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~GetSmallFacesCount.md
+P: length: Length to use to detect small faces
+P: errorcode: Error as defined by gtError_e
+R: Number of small faces
+X: Small faces are faces with all edges shorter than a specified length.
+<<< IGeometryAnalysis.SaveReport2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~SaveReport2.md
+P: reportname: Path and filename to which to write the report
+P: vtAddToBinderOption: True to add the report to the Design Binder, false to not
+P: vtOverwrite: True to overwrite an existing report of the same name, false to not
+R: Error as defined by gtError_e
+<<< IGeometryAnalysis.ShowResultsDialog | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~ShowResultsDialog.md
+R: Error as defined by gtError_e
+<<< IPowerSelect.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~Close.md
+R: Error as defined in gtError_e
+X: Because you cannot have more than one SOLIDWORKS Utilities tool running at any one time, you must close a running PowerSelect session before you can use another SOLIDWORKS Utilities tool. To initialize a PowerSelect session, call IPowerSelect::Init.
+<<< IPowerSelect.GetAppliedFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetAppliedFilters.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the applied filters as defined in gtpslFilterType_e
+<<< IPowerSelect.GetAppliedFiltersCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetAppliedFiltersCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of applied filters
+<<< IPowerSelect.GetEdgeAngleFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetEdgeAngleFilter.md
+P: lCmpOperator: Comparison operator as defined in gtpslEdgeAngleOperator_e
+P: dAngle: Angle in radians
+R: Error as defined in gtError_e
+<<< IPowerSelect.GetEdgeConvexityFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetEdgeConvexityFilter.md
+P: bConvex: True to get convex edges, false to not
+P: bConcave: True to get concave edges, false to not
+P: bIgnoreMixedLoop: True to ignore loops with convex or concave edges, false to not
+R: Error as defined in gtError_e
+<<< IPowerSelect.GetFaceColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFaceColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< IPowerSelect.GetFeatureColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< IPowerSelect.GetFeatureNameFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureNameFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Name of feature
+<<< IPowerSelect.GetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of features as defined in gtpslFeatureType_e
+<<< IPowerSelect.GetFeatureTypeFilterCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureTypeFilterCount.md
+P: lErrorcode: Error code as defined in gtError_e
+R: Number of types of features
+<<< IPowerSelect.GetSelectEntitiesTypes | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSelectEntitiesTypes.md
+P: lErrorcode: Error as defined in gtError_e
+R: Type of entities as defined in gtPslSelectionType_e
+<<< IPowerSelect.GetShowHiddenEntities | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetShowHiddenEntities.md
+P: lErrorcode: Error code as defined in gtError_e
+R: True to show both non-hidden and hidden entities, false to only show non-hidden entities
+X: Use IPowerSelect::SetShowHiddenEntities to set whether or not to show both non-hidden and hidden entities or to only show non-hidden entities.
+This method is the equivalent to the user-interface Show features of hidden body option on the Power Select dialog.
+<<< IPowerSelect.GetSurfaceTypeCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSurfaceTypeCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of surface types selected in surface type filter
+<<< IPowerSelect.GetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSurfaceTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the selected surface types in surface type filter
+<<< IPowerSelect.IGetAppliedFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetAppliedFilters.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the applied filters as defined in gtpslFilterType_e
+<<< IPowerSelect.IGetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetFeatureTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of features as defined in gtpslFeatureType_e
+<<< IPowerSelect.IGetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetSurfaceTypeFilter.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the selected surface types in surface type filter
+<<< IPowerSelect.Init | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~Init.md
+R: Error as defined in gtError_e
+X: This method binds the currently active document to PowerSelect. All PowerSelect API-related calls between IPowerSelect::Init and IPowerSelect::Close work on this document. SOLIDWORKS Utilities API calls that try to activate other documents will fail.
+You cannot have more than one SOLIDWORKS Utilities tool running at any one time. You must close a running PowerSelect session before you can use another SOLIDWORKS Utilities tool.
+An error message is returned if a session of PowerSelect is already running when IPowerSelect::Init is called, either programmatically or in the user interface.
+<<< IPowerSelect.IRunPowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IRunPowerSelect.md
+P: lResultOptions: Type of results as defined in gtResultOptions_e (see Remarks)
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the number of edges, loops, faces, and features
+X: If IResultOptions is set to gtResultShowUI, then a dialog is displayed and the entities are selected in the dialog but are not selected in the graphics area. Users can select the entities by clicking Close, or users can click Cancel to cancel the selections.
+A -1 is returned for any entity that was not set by IPowerSelect::SetSelectEntitiesTypes.
+An error is returned if filters were not set by IPowerSelect::ISetFeatureTypeFilter.
+<<< IPowerSelect.ISetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~ISetFeatureTypeFilter.md
+P: lFeatCount: Number of features
+P: pFeatArr: Array of features as defined in gtpslFeatureType_e
+R: Error as defined in gtError_e
+<<< IPowerSelect.ISetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~ISetSurfaceTypeFilter.md
+P: lSurfTypeCount: Number of surface types to select
+P: pSurfTypeArr: Array of the surface types to select
+R: Error as defined in gtError_e
+<<< IPowerSelect.RemoveFilters | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~RemoveFilters.md
+P: lFilterEnums: Filters to remove as defined in gtpslFilterType_e
+R: Error as defined in gtError_e
+<<< IPowerSelect.RunPowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~RunPowerSelect.md
+P: lResultOptions: Type of results as defined in gtResultOptions_e (see Remarks)
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the number of edges, loops, faces, and features
+X: If IResultOptions is set to gtResultShowUI, then a dialog is displayed and the entities are selected in the dialog but are not selected in the graphics area. Users can select the entities by clicking Close, or users can click Cancel to cancel the selections.
+A -1 is returned for any entity that was not set by IPowerSelect::SetSelectEntitiesTypes.
+An error is returned if filters were not set by IPowerSelect::SetFeatureTypeFilter.
+<<< IPowerSelect.SelectResults | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SelectResults.md
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetEdgeAngleFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetEdgeAngleFilter.md
+P: lCmpOperator: Comparison operator as defined in gtpslEdgeAngleOperator_e
+P: dAngle: Angle in radians
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetEdgeConvexityFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetEdgeConvexityFilter.md
+P: bConvex: True to get convex edges, false to not
+P: bConcave: True to get concave edges, false to not
+P: bIgnoreMixedLoop: True to ignore loops with convex or concave edges, false to not
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetFaceColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFaceColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetFeatureColorFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFeatureColorFilter.md
+P: Red: <=0.0 to <= 1.0
+P: Green: <=0.0 to <= 1.0
+P: Blue: <=0.0 to <= 1.0
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetFeatureNameFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFeatureNameFilter.md
+P: bstrSearchString: Name of feature
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetFeatureTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFeatureTypeFilter.md
+P: varFeatArr: Array of features as defined in gtpslFeatureType_e
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetSelectEntitiesTypes | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetSelectEntitiesTypes.md
+P: selTypes: Type of entities as defined in gtPslSelectionType_e
+R: Error as defined in gtError_e
+<<< IPowerSelect.SetShowHiddenEntities | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetShowHiddenEntities.md
+P: varShow: True to show both non-hidden and hidden entities, false to show only non-hidden entities
+R: Error as defined in gtError_e
+X: Use IPowerSelect::GetShowHiddenEntities to get whether or not to show both non-hidden and hidden entities or to show only non-hidden entities.
+This method is the equivalent to the user-interface Show features of hidden body option on the Power Select dialog.
+<<< IPowerSelect.SetSurfaceTypeFilter | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetSurfaceTypeFilter.md
+P: varSurfTypeArr: Array of the surface types to select in the surface type filter
+R: Error as defined in gtError_e
+<<< IThicknessAnalysis.Close | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~Close.md
+R: Error code as defined in gtError_e
+X: You must use this method to exit a session of a thickness analysis in your application. Otherwise, this tool may not run in the user interface if it was not closed in your application.
+<<< IThicknessAnalysis.GetAnalysisDetails | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAnalysisDetails.md
+P: lRange: 1-based index of the number of intervals in the thickness color scale (see Remarks)
+P: dMinTckInRange: Minimum thickness of thickness range
+P: dMaxTckInRange: Maximum thickness of thickness range
+P: lNoFaces: Number of faces
+P: dSurfArea: Surface area
+P: dPerAnalArea: Percent of total area analyzed that falls in the specified thickness range
+R: Error as defined in gtError_e
+X: Use IThicknessAnalysis::GetIntervalCount to get the number of intervals in the thickness color scale.
+<<< IThicknessAnalysis.GetAvgWeightedTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAvgWeightedTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Average weighted thickness on analyzed area
+<<< IThicknessAnalysis.GetAvgWeightedTckOnCritArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAvgWeightedTckOnCritArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Average weighted thickness on the critical area
+<<< IThicknessAnalysis.GetCriticalFeatureNames | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalFeatureNames.md
+P: lErrorcode: Error as defined in gtError_e
+R: Array of the names of the features that violate the target thickness
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+<<< IThicknessAnalysis.GetCriticalSurfaceArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalSurfaceArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Critical surface area
+<<< IThicknessAnalysis.GetIntervalCount | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetIntervalCount.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of intervals in the thickness color scale
+<<< IThicknessAnalysis.GetMaxDeviationfromTargetThickness | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMaxDeviationfromTargetThickness.md
+P: lErrorcode: Error as defined in gtError_e
+R: Maximum deviation from the target thickness
+<<< IThicknessAnalysis.GetMaxTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMaxTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Maximum thickness of analyzed area
+<<< IThicknessAnalysis.GetMinTckOnAnalArea | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMinTckOnAnalArea.md
+P: lErrorcode: Error as defined in gtError_e
+R: Minimum thickness of analyzed area
+<<< IThicknessAnalysis.GetNumCriticalFaces | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFaces.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of critical faces
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+<<< IThicknessAnalysis.GetNumCriticalFeatures | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFeatures.md
+P: lErrorcode: Error as defined in gtError_e
+R: Number of critical features
+X: If a model contains a critical face, then all of the features that share the face are classified as critical features.
+Use IThicknessAnalysis::GetCriticalFeatureNames to get the names of the critical features.
+<<< IThicknessAnalysis.GetThicknessAnalysisBody | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetThicknessAnalysisBody.md
+P: lErrorcode: Error as defined in gtError_e
+R: SOLIDWORKS IBody2 object
+X: You do not need to use this method if the part is made up of a single solid body.
+This method returns Nothing or Null if the body is a single solid body part.
+Use IThicknessAnalysis::SetThicknessAnalysisBody to select the body for the thickness analysis.
+<<< IThicknessAnalysis.GetTotalSurfaceAreaAnalyzed | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetTotalSurfaceAreaAnalyzed.md
+P: lErrorcode: Error as defined in gtError_e
+R: Total surface area analyzed
+<<< IThicknessAnalysis.Init | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~Init.md
+R: Error as defined in gtError_e
+X: You must use this method to exit a session of a thickness analysis in your application. Otherwise, this tool may not run in the user interface if it was not closed in your application.
+<<< IThicknessAnalysis.RunThickAnalysis2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~RunThickAnalysis2.md
+P: targetthickness: Target thickness in meters
+P: thicklimit: Thickness region limit in meters
+P: treatcornerzero: True to disregard corners sharp corners, false to not
+P: resolution: Resolution as defined in gttckResolutionOptions_e
+P: lResultOptions: Display the results or save results to a report as defined in gtResultOptions_e
+P: reportname: Path where to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtSaveResultsInEdwg: True to save the results in eDrawings, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined in gtError_e
+X: | If there are any... | Then the analysis is run on... |
+| Selected faces | Only those faces |
+| Selected faces that belong to multiple solid bodies | Only on the selected faces of the body selected by IThicknessAnalysys::SetThicknessAnalysisBody |
+<<< IThicknessAnalysis.RunThinAnalysis2 | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~RunThinAnalysis2.md
+P: targetthickness: Target thickness in meters
+P: resolution: Resolution as defined in gttckResolutionOptions_e
+P: lResultOptions: True to disregard corners sharp corners, false to not
+P: reportname: Path to which to save the results report
+P: vtAddToBinderOption: True to add the results report to the Design Binder, false to not
+P: vtSaveResultsInEdwg: True to save results in eDrawings, false to not
+P: vtOverwrite: True to overwrite an existing results report of the same name, false to not
+R: Error as defined in gtError_e
+X: | If there are any... | Then the analysis is run on... |
+| Selected faces | Only those faces |
+| Selected faces that belong to multiple solid bodies | Only on the selected faces of the body selected by IThicknessAnalysys::SetThicknessAnalysisBody |
+<<< IThicknessAnalysis.SetThicknessAnalysisBody | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~SetThicknessAnalysisBody.md
+P: lpBody2: SOLIDWORKS body
+R: Error as defined in gtError_e
+X: You do not need to use this method if the part is made up of a single solid body.
+Use IThicknessAnalysis::GetThicknessAnalysisBody to get the body selected for the thickness analysis.
+IThicknessAnalysis::RunThickAnalysis2 and IThicknessAnalysis::RunThinAnalysis2 fail if a body is not set in a multibody part.
+<<< IUtilities.CompareDocument | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~CompareDocument.md
+R: Pointer to an ICompareDocument object
+<<< IUtilities.CompareFeature | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~CompareFeature.md
+R: Pointer to an ICompareFeature object
+<<< IUtilities.CompareGeometry | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~CompareGeometry.md
+R: Pointer to an ICompareGeometry object
+<<< IUtilities.FeaturePaint | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~FeaturePaint.md
+R: Pointer to an IFeaturePaint object
+<<< IUtilities.FindReplaceAnnotations | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~FindReplaceAnnotations.md
+R: Pointer to IFindReplaceAnnotations object
+<<< IUtilities.GeometryAnalysis | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~GeometryAnalysis.md
+R: Pointer to IGeometryAnalysis object
+<<< IUtilities.GetAutoPartSimplification | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~GetAutoPartSimplification.md
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to the simplified configuration
+<<< IUtilities.GetOptions | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~GetOptions.md
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to an array of options
+<<< IUtilities.GetToolInterface | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~GetToolInterface.md
+P: toolname: Tool ID as defined by gtSwTools_e
+P: lErrorcode: Error as defined by gtError_e
+R: Pointer to the SOLIDWORKS Utilities tool interface
+<<< IUtilities.options | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~options.md
+R: Pointer to IUtilOptions object
+<<< IUtilities.PowerSelect | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~PowerSelect.md
+R: Pointer to an IPowerSelect object
+<<< IUtilities.ThicknessAnalysis | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities~ThicknessAnalysis.md
+R: Pointer to an IThicknessAnalysis object
+<<< IUtilOptions | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions.md
+X: ICompareDocument::CompareDocument2 and ICompareGeometry::CompareGeometry2 include options to compare faces.
+<<< IUtilOptions.GetAngularTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions~GetAngularTolerance.md
+P: lErrorcode: Error as defined by gtError_e
+R: Angular tolerance
+<<< IUtilOptions.GetPositionTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions~GetPositionTolerance.md
+P: lErrorcode: Error as defined by gtError_e
+R: Position tolerance
+<<< IUtilOptions.SetAngularTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions~SetAngularTolerance.md
+P: pTol: Angular tolerance
+R: Error as defined by gtError_e
+X: During face comparison, the parallelism of the edges of face pairs are compared. If the edges are curved, tangents to the curves are compared. The faces are identical if the angle between their corresponding edges is less than the specified angle tolerance.
+<<< IUtilOptions.SetPositionTolerance | swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions~SetPositionTolerance.md
+P: pTol: Position tolerance
+R: Error as defined by gtError_e
+X: During face comparison, the position of vertex coordinates and some surface points of face pairs are compared. Vertices or points that lie within a specified position tolerance are considered identical.

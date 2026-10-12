@@ -1,0 +1,231 @@
+#swapi-map 1 module=swutilitiesapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@gtcocswCompareDocument	i	Compares the properties of two SOLIDWORKS documents. See ICompareDocument.	base=ICompareDocument
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the documents have been compared.
+CompareDocument	m	int CompareDocument(string reffile, string modfile, int lOperationOptions, int lResultOptions, string reportname)		obsolete>ICompareDocument.CompareDocument2
+CompareDocument2	m	int:gtError_e CompareDocument2(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtCodOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Compares the properties of the specified SOLIDWORKS documents and generates a report.
+SaveCompareVolumeResults	m	int:gtError_e SaveCompareVolumeResults(string resultfile)	2004		Saves the volume comparison results as a SOLIDWORKS part document after comparing documents with the Compare volumes...
+@gtcocswCompareFeature	i	Identifies the differences in solid features between two versions of the same part. See ICompareFeature.	base=ICompareFeature
+Close	m	int Close()			Performs any necessary cleanup after the features in the documents have been compared.
+CompareFeatures	m	int CompareFeatures(string reffile, string modfile, int lOptions, string reportname)		obsolete>ICompareFeature.CompareFeatures2
+CompareFeatures2	m	int:gtError_e CompareFeatures2(string reffile, string refconfig, string modfile, string modconfig, int lOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Identifies the differences in solid features between two versions of the same SOLIDWORKS part and generates a report.
+@gtcocswCompareGeometry	i	Identifies the differences in geometry in both solid features and surface models between two versions of the same...	base=ICompareGeometry
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the geometry in the documents have been compared.
+CompareGeometry	m	int CompareGeometry(string reffile, string modfile, int lOperationOptions, int lResultOptions, string reportname)		obsolete>ICompareGeometry.CompareGeometry2
+CompareGeometry2	m	int:gtError_e CompareGeometry2(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtGdfOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006	obsolete>ICompareGeometry.CompareGeometry3
+CompareGeometry3	m	int:gtError_e CompareGeometry3(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtGdfOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite, out int volDiffStatus:gtVolDiffStatusOptionType_e, out int faceDiffStatus:gtVolDiffStatusOptionType_e)	2010		Identifies the differences in geometry in the solid features and surface models between two versions of the same...
+SaveCompareVolumeResults	m	int:gtError_e SaveCompareVolumeResults(string resultfile)	2004	obsolete	Do not use.
+@gtcocswFeaturePaint	i	Allows you to copy the feature parameters from one feature in a SOLIDWORKS part to a feature in a different...	base=IFeaturePaint
+FeaturePaint	m	int FeaturePaint(string sourcefeature, string targetfeature)		obsolete>IFeaturePaint.FeaturePaint2
+FeaturePaint2	m	int:gtError_e FeaturePaint2(string sourcefeature, string targetfeature, bool pasteappearance)	2005		Copies the source feature's parameters to the target feature.
+@gtcocswFindReplaceAnnotations	i	Finds and replaces text for the annotations in the currently open part, assembly, or drawing document. See...	base=IFindReplaceAnnotations
+AnnotationFilter	p	int:gtFraFilterType_e AnnotationFilter {get; set;}	2008		Gets or sets the type of annotations to find.
+Close	m	int:gtError_e Close()	2008		Performs any necessary cleanup after finding and replacing annotations.
+FindNext	m	int:gtError_e FindNext()	2008		Finds the next occurrence of the text specified by IFindReplaceAnnotations::FindText.
+FindPrevious	m	int:gtError_e FindPrevious()	2008		Finds the previous occurrence of the text specified by IFindReplaceAnnotations::FindText.
+FindText	p	string FindText {get; set;}	2008		Gets or sets the text to find.
+InitPMPage	m	int:gtError_e InitPMPage()	2008		Displays the Find and Replace Annotation PropertyManager page.
+options	p	int:gtFraOptionType_e options {get; set;}	2008		Gets or sets the options to use to filter the search for this find and replace annotation operation.
+Replace	m	int:gtError_e Replace()	2008		Replaces the value returned by IFindReplaceAnnotations::FindText with the text specified by...
+ReplaceAll	m	int:gtError_e ReplaceAll()	2008		Replaces all matching occurrences of the text returned by IFindReplaceAnnotations::FindText with the text specified...
+ReplaceText	p	string ReplaceText {get; set;}	2008		Gets or sets the text with which to replace the text returned by IFindReplaceAnnotations::FindText.
+@gtcocswGeometryAnalysis	i	Identifies geometric entities in a part that could cause a problem in other applications. See IGeometryAnalysis.	base=IGeometryAnalysis
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the geometry analysis finishes.
+GetDiscontinuousEdgesCount	m	int GetDiscontinuousEdgesCount(out int errorcode:gtError_e)	2004		Gets the number of discontinuous edges in the part.
+GetDiscontinuousFacesCount	m	int GetDiscontinuousFacesCount(out int errorcode:gtError_e)	2004		Gets the number of discontinuous faces in the part.
+GetKnifeEdgesCount	m	int GetKnifeEdgesCount(double angle, out int errorcode:gtError_e)	2004		Gets the number of knife edges in the part.
+GetKnifeVerticesCount	m	int GetKnifeVerticesCount(double angle, out int errorcode:gtError_e)	2004		Gets the number of knife vertices in the part.
+GetShortEdgesCount	m	int GetShortEdgesCount(double length, out int errorcode:gtError_e)	2004		Gets the number of edges shorter than the specified length on the part.
+GetSliverFacesCount	m	int GetSliverFacesCount(double width, out int errorcode:gtError_e)	2004		Gets the number of sliver faces in the part.
+GetSmallFacesCount	m	int GetSmallFacesCount(double length, out int errorcode:gtError_e)	2004		Gets the number of small faces on the part.
+Init	m	int Init()	2004		Initiates geometry analysis for the model document.
+SaveReport	m	int SaveReport(string reportname)		obsolete>IGeometryAnalysis.SaveReport2
+SaveReport2	m	int:gtError_e SaveReport2(string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Generates a report containing the results of the geometry analysis.
+ShowResultsDialog	m	int:gtError_e ShowResultsDialog()	2004		Displays the results of the geometry analysis in the Results dialog box.
+@gtcocswPowerSelect	i	Allows selection of entities (edges, loops, faces, or features) in a part that meet the specified criteria. See...	base=IPowerSelect
+Close	m	int:gtError_e Close()	2005		Closes the current session of PowerSelect.
+GetAppliedFilters	m	object:gtpslFilterType_e GetAppliedFilters(out int lErrorcode:gtError_e)	2005		Gets a list of the filters applied in this PowerSelect session.
+GetAppliedFiltersCount	m	int GetAppliedFiltersCount(out int lErrorcode:gtError_e)	2005		Gets the number of filters applied in this PowerSelect session.
+GetEdgeAngleFilter	m	int:gtError_e GetEdgeAngleFilter(out int lCmpOperator:gtpslEdgeAngleOperator_e, out double dAngle)	2005		Gets the Edge angle filter set in this PowerSelect session.
+GetEdgeConvexityFilter	m	int:gtError_e GetEdgeConvexityFilter(out bool bConvex, out bool bConcave, out bool bIgnoreMixedLoop)	2005		Gets the Edge convexity filter set in this PowerSelect session.
+GetFaceColorFilter	m	int:gtError_e GetFaceColorFilter(out double Red, out double Green, out double Blue)	2005		Gets the Face color filter set in this PowerSelect session.
+GetFeatureColorFilter	m	int:gtError_e GetFeatureColorFilter(out double Red, out double Green, out double Blue)	2005		Gets the Feature color filter set in this PowerSelect session.
+GetFeatureNameFilter	m	string GetFeatureNameFilter(out int lErrorcode:gtError_e)	2005		Gets the Feature name filter set in this PowerSelect session.
+GetFeatureTypeFilter	m	object:gtpslFeatureType_e GetFeatureTypeFilter(out int lErrorcode:gtError_e)	2005		Gets the types of features set in this PowerSelect session.
+GetFeatureTypeFilterCount	m	int GetFeatureTypeFilterCount(out int lErrorcode:gtError_e)	2005		Gets the number of types of features set in this PowerSelect session.
+GetSelectEntitiesTypes	m	int:gtPslSelectionType_e GetSelectEntitiesTypes(out int lErrorcode:gtError_e)	2005		Gets the types of entities set in this PowerSelect session.
+GetShowHiddenEntities	m	bool GetShowHiddenEntities(out int lErrorcode:gtError_e)	2006		Gets whether to show both non-hidden and hidden entities or to only show non-hidden entities.
+GetSurfaceTypeCount	m	int GetSurfaceTypeCount(out int lErrorcode:gtError_e)	2006		Gets the number of surface types, such as planes, cylinders, cones, etc., selected in the surface type filter.
+GetSurfaceTypeFilter	m	object GetSurfaceTypeFilter(out int lErrorcode:gtError_e)			Gets a list of the selected surface types, such as planes, cylinders, cones, etc., in the surface type filter.
+IGetAppliedFilters	m	int:gtpslFilterType_e IGetAppliedFilters(out int lErrorcode:gtError_e)	2005		Gets a list of the filters applied in this PowerSelect session.
+IGetFeatureTypeFilter	m	int:gtpslFeatureType_e IGetFeatureTypeFilter(out int lErrorcode:gtError_e)	2005		Gets the types of features set in this PowerSelect session.
+IGetSurfaceTypeFilter	m	int IGetSurfaceTypeFilter(out int lErrorcode:gtError_e)	2006		Gets a list of the selected surface types, such as planes, cylinders, cones, etc., in the surface type filter.
+Init	m	int:gtError_e Init()	2005		Initializes a session of PowerSelect.
+IRunPowerSelect	m	int IRunPowerSelect(int lResultOptions:gtResultOptions_e, out int lErrorcode:gtError_e)	2005		Runs PowerSelect using the previously set filters and entities.
+ISetFeatureTypeFilter	m	int:gtError_e ISetFeatureTypeFilter(int lFeatCount, ref int pFeatArr:gtpslFeatureType_e)	2005		Sets the types of features for this PowerSelect session.
+ISetSurfaceTypeFilter	m	int:gtError_e ISetSurfaceTypeFilter(int lSurfTypeCount, ref int pSurfTypeArr)	2006		Sets the surface types, such as planes, cylinders, cones, etc., to select in the surface type filter.
+RemoveFilters	m	int:gtError_e RemoveFilters(int lFilterEnums:gtpslFilterType_e)	2005		Removes the specified filters, if they are set, in this PowerSelect session.
+RunPowerSelect	m	object RunPowerSelect(int lResultOptions:gtResultOptions_e, out int lErrorcode:gtError_e)	2005		Runs PowerSelect using the previously set filters and entities.
+SelectResults	m	int:gtError_e SelectResults()	2005		Selects the results generated in this PowerSelect session.
+SetEdgeAngleFilter	m	int:gtError_e SetEdgeAngleFilter(int lCmpOperator:gtpslEdgeAngleOperator_e, double dAngle)	2005		Sets the Edge angle filter for this PowerSelect session.
+SetEdgeConvexityFilter	m	int:gtError_e SetEdgeConvexityFilter(bool bConvex, bool bConcave, bool bIgnoreMixedLoop)	2005		Sets the Edge convexity filter for this PowerSelect session.
+SetFaceColorFilter	m	int:gtError_e SetFaceColorFilter(double Red, double Green, double Blue)	2005		Sets the Face color filter for this PowerSelect session.
+SetFeatureColorFilter	m	int:gtError_e SetFeatureColorFilter(double Red, double Green, double Blue)	2005		Sets the Feature color filter for this PowerSelect session.
+SetFeatureNameFilter	m	int:gtError_e SetFeatureNameFilter(string bstrSearchString)	2005		Sets the Feature name filter for this PowerSelect session.
+SetFeatureTypeFilter	m	int:gtError_e SetFeatureTypeFilter(object varFeatArr:gtpslFeatureType_e)	2005		Sets the types of features for this PowerSelect session.
+SetSelectEntitiesTypes	m	int:gtError_e SetSelectEntitiesTypes(int selTypes:gtPslSelectionType_e)	2005		Sets the types of entities for this PowerSelect session.
+SetShowHiddenEntities	m	int:gtError_e SetShowHiddenEntities(bool varShow)	2006		Sets whether to show both non-hidden and hidden entities or to show only non-hidden entities.
+SetSurfaceTypeFilter	m	int:gtError_e SetSurfaceTypeFilter(object varSurfTypeArr)	2006		Sets the surface types, such as planes, cylinders, cones, etc., to select in the surface type filter.
+@gtcocswThicknessAnalysis	i	Allows you to determine and analyze the thickness of a part. See IThicknessAnalysis.	base=IThicknessAnalysis
+Close	m	int:gtError_e Close()	2006		Ends the current session of a thickness analysis.
+GetAnalysisDetails	m	int:gtError_e GetAnalysisDetails(int lRange, out double dMinTckInRange, out double dMaxTckInRange, out int lNoFaces, out double dSurfArea, out double dPerAnalArea)	2006		Gets the percentage of area and number of faces in each thickness range.
+GetAvgWeightedTckOnAnalArea	m	double GetAvgWeightedTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the average weighted thickness on the analyzed area.
+GetAvgWeightedTckOnCritArea	m	double GetAvgWeightedTckOnCritArea(out int lErrorcode:gtError_e)	2006		Gets the average weighted thickness on the critical area.
+GetCriticalFeatureNames	m	object GetCriticalFeatureNames(out int lErrorcode:gtError_e)	2006		Gets the names of the features that violate the target thickness.
+GetCriticalSurfaceArea	m	double GetCriticalSurfaceArea(out int lErrorcode:gtError_e)	2006		Gets the critical surface area.
+GetIntervalCount	m	int GetIntervalCount(out int lErrorcode:gtError_e)	2006		Gets the number of intervals in the thickness color scale.
+GetMaxDeviationfromTargetThickness	m	double GetMaxDeviationfromTargetThickness(out int lErrorcode:gtError_e)	2006		Gets the maximum deviation from the target thickness.
+GetMaxTckOnAnalArea	m	double GetMaxTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the maximum thickness of the analyzed area.
+GetMinTckOnAnalArea	m	double GetMinTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the minimum thickness of the analyzed area.
+GetNumCriticalFaces	m	int GetNumCriticalFaces(out int lErrorcode:gtError_e)	2006		Gets the number of critical faces in the analyzed area.
+GetNumCriticalFeatures	m	int GetNumCriticalFeatures(out int lErrorcode:gtError_e)	2006		Gets the number of critical features in the analyzed area.
+GetThicknessAnalysisBody	m	Body2 GetThicknessAnalysisBody(out int lErrorcode:gtError_e)	2006		Gets the SOLIDWORKS body in a multibody part selected for the thickness analysis.
+GetTotalSurfaceAreaAnalyzed	m	double GetTotalSurfaceAreaAnalyzed(out int lErrorcode:gtError_e)	2006		Gets the total surface area analyzed.
+Init	m	int:gtError_e Init()	2006		Initializes the Thickness Analysis utility with the active SOLIDWORKS document.
+RunThickAnalysis	m	int RunThickAnalysis(double targetthickness, double thicklimit, bool treatcornerzero, int resolution, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtOverwrite)		obsolete>IThicknessAnalysis.RunThickAnalysis2
+RunThickAnalysis2	m	int:gtError_e RunThickAnalysis2(double targetthickness, double thicklimit, bool treatcornerzero, int resolution:gttckResolutionOptions_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtSaveResultsInEdwg, bool vtOverwrite)	2007		Runs a thickness analysis, shows the thick regions, and generates a report.
+RunThinAnalysis	m	int RunThinAnalysis(double targetthickness, int resolution, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtOverwrite)		obsolete>IThicknessAnalysis.RunThinAnalysis2
+RunThinAnalysis2	m	int:gtError_e RunThinAnalysis2(double targetthickness, int resolution:gttckResolutionOptions_e, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtSaveResultsInEdwg, bool vtOverwrite)	2007		Runs a thickness analysis, shows the thin regions, and generates a report.
+SetThicknessAnalysisBody	m	int:gtError_e SetThicknessAnalysisBody(Body2 lpBody2)	2006		Sets the SOLIDWORKS body in a multibody part to use in the thickness analysis.
+@gtcocswUtilities	i	Gets the SOLIDWORKS Utilities tool interface and options. See IUtilities.	base=IUtilities
+CompareDocument	p	gtcocswCompareDocument:ICompareDocument CompareDocument {get;}	2005		Gets an ICompareDocument object.
+CompareFeature	p	gtcocswCompareFeature:ICompareFeature CompareFeature {get;}	2005		Gets an ICompareFeature object.
+CompareGeometry	p	gtcocswCompareGeometry:ICompareGeometry CompareGeometry {get;}	2005		Gets an ICompareGeometry object.
+FeaturePaint	p	gtcocswFeaturePaint:IFeaturePaint FeaturePaint {get;}	2005		Gets an IFeaturePaint object.
+FindReplaceAnnotations	p	gtcocswFindReplaceAnnotations:IFindReplaceAnnotations FindReplaceAnnotations {get;}	2008		Gets an IFindReplaceAnnotations object.
+GeometryAnalysis	p	gtcocswGeometryAnalysis:IGeometryAnalysis GeometryAnalysis {get;}	2005		Gets an IGeometryAnalysis object.
+GetAutoPartSimplification	m	object GetAutoPartSimplification(out int lErrorcode:gtError_e)	2005		Gets a pointer the simplified configuration.
+GetOptions	m	object GetOptions(out int lErrorcode:gtError_e)	2004		Gets the SOLIDWORKS Utilities options.
+GetToolInterface	m	object GetToolInterface(int toolname:gtSwTools_e, out int lErrorcode:gtError_e)	2004		Gets a pointer to the SOLIDWORKS Utilities tool.
+options	p	gtcocswUtilOptions:IUtilOptions options {get;}	2005		Gets an IUtilOptions object.
+PowerSelect	p	gtcocswPowerSelect:IPowerSelect PowerSelect {get;}	2005		Gets an IPowerSelect object.
+ThicknessAnalysis	p	gtcocswThicknessAnalysis:IThicknessAnalysis ThicknessAnalysis {get;}	2006		Gets an IThicknessAnalysis object.
+@gtcocswUtilOptions	i	Gets or sets the angular and position tolerance options when comparing faces. See IUtilOptions.	base=IUtilOptions
+GetAngularTolerance	m	double GetAngularTolerance(out int lErrorcode:gtError_e)	2004		Gets the angular tolerance value currently set in the registry.
+GetPositionTolerance	m	double GetPositionTolerance(out int lErrorcode:gtError_e)	2004		Gets the position tolerance currently set in the registry.
+SetAngularTolerance	m	int:gtError_e SetAngularTolerance(double pTol)	2004		Sets the angular tolerance for the face comparison.
+SetPositionTolerance	m	int:gtError_e SetPositionTolerance(double pTol)	2004		Sets the position tolerance for the face comparison.
+@ICompareDocument	i	Compares the properties of two SOLIDWORKS documents.	via=IUtilities.CompareDocument	use=3
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the documents have been compared.
+CompareDocument	m	int CompareDocument(string reffile, string modfile, int lOperationOptions, int lResultOptions, string reportname)		obsolete>ICompareDocument.CompareDocument2
+CompareDocument2	m	int:gtError_e CompareDocument2(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtCodOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Compares the properties of the specified SOLIDWORKS documents and generates a report.
+SaveCompareVolumeResults	m	int:gtError_e SaveCompareVolumeResults(string resultfile)	2004		Saves the volume comparison results as a SOLIDWORKS part document after comparing documents with the Compare volumes...
+@ICompareFeature	i	Identifies the differences in solid features between two versions of the same part.	via=IUtilities.CompareFeature	use=3
+Close	m	int Close()			Performs any necessary cleanup after the features in the documents have been compared.
+CompareFeatures	m	int CompareFeatures(string reffile, string modfile, int lOptions, string reportname)		obsolete>ICompareFeature.CompareFeatures2
+CompareFeatures2	m	int:gtError_e CompareFeatures2(string reffile, string refconfig, string modfile, string modconfig, int lOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Identifies the differences in solid features between two versions of the same SOLIDWORKS part and generates a report.
+@ICompareGeometry	i	Identifies the differences in geometry in both solid features and surface models between two versions of the same part.	via=IUtilities.CompareGeometry	use=16
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the geometry in the documents have been compared.
+CompareGeometry	m	int CompareGeometry(string reffile, string modfile, int lOperationOptions, int lResultOptions, string reportname)		obsolete>ICompareGeometry.CompareGeometry2
+CompareGeometry2	m	int:gtError_e CompareGeometry2(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtGdfOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006	obsolete>ICompareGeometry.CompareGeometry3
+CompareGeometry3	m	int:gtError_e CompareGeometry3(string reffile, string refconfig, string modfile, string modconfig, int lOperationOptions:gtGdfOperationOption_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtOverwrite, out int volDiffStatus:gtVolDiffStatusOptionType_e, out int faceDiffStatus:gtVolDiffStatusOptionType_e)	2010		Identifies the differences in geometry in the solid features and surface models between two versions of the same...
+SaveCompareVolumeResults	m	int:gtError_e SaveCompareVolumeResults(string resultfile)	2004	obsolete	Do not use.
+@IFeaturePaint	i	Allows you to copy the feature parameters from one feature in a SOLIDWORKS part to a feature in a different...	via=IUtilities.FeaturePaint
+FeaturePaint	m	int FeaturePaint(string sourcefeature, string targetfeature)		obsolete>IFeaturePaint.FeaturePaint2
+FeaturePaint2	m	int:gtError_e FeaturePaint2(string sourcefeature, string targetfeature, bool pasteappearance)	2005		Copies the source feature's parameters to the target feature.
+@IFindReplaceAnnotations	i	Finds and replaces text for the annotations in the currently open part, assembly, or drawing document.	via=IUtilities.FindReplaceAnnotations
+AnnotationFilter	p	int:gtFraFilterType_e AnnotationFilter {get; set;}	2008		Gets or sets the type of annotations to find.
+Close	m	int:gtError_e Close()	2008		Performs any necessary cleanup after finding and replacing annotations.
+FindNext	m	int:gtError_e FindNext()	2008		Finds the next occurrence of the text specified by IFindReplaceAnnotations::FindText.
+FindPrevious	m	int:gtError_e FindPrevious()	2008		Finds the previous occurrence of the text specified by IFindReplaceAnnotations::FindText.
+FindText	p	string FindText {get; set;}	2008		Gets or sets the text to find.
+InitPMPage	m	int:gtError_e InitPMPage()	2008		Displays the Find and Replace Annotation PropertyManager page.
+options	p	int:gtFraOptionType_e options {get; set;}	2008		Gets or sets the options to use to filter the search for this find and replace annotation operation.
+Replace	m	int:gtError_e Replace()	2008		Replaces the value returned by IFindReplaceAnnotations::FindText with the text specified by...
+ReplaceAll	m	int:gtError_e ReplaceAll()	2008		Replaces all matching occurrences of the text returned by IFindReplaceAnnotations::FindText with the text specified...
+ReplaceText	p	string ReplaceText {get; set;}	2008		Gets or sets the text with which to replace the text returned by IFindReplaceAnnotations::FindText.
+@IGeometryAnalysis	i	Identifies geometric entities in a part that could cause a problem in other applications.	via=IUtilities.GeometryAnalysis	use=11
+Close	m	int:gtError_e Close()	2004		Performs any necessary cleanup after the geometry analysis finishes.
+GetDiscontinuousEdgesCount	m	int GetDiscontinuousEdgesCount(out int errorcode:gtError_e)	2004		Gets the number of discontinuous edges in the part.
+GetDiscontinuousFacesCount	m	int GetDiscontinuousFacesCount(out int errorcode:gtError_e)	2004		Gets the number of discontinuous faces in the part.
+GetKnifeEdgesCount	m	int GetKnifeEdgesCount(double angle, out int errorcode:gtError_e)	2004		Gets the number of knife edges in the part.
+GetKnifeVerticesCount	m	int GetKnifeVerticesCount(double angle, out int errorcode:gtError_e)	2004		Gets the number of knife vertices in the part.
+GetShortEdgesCount	m	int GetShortEdgesCount(double length, out int errorcode:gtError_e)	2004		Gets the number of edges shorter than the specified length on the part.
+GetSliverFacesCount	m	int GetSliverFacesCount(double width, out int errorcode:gtError_e)	2004		Gets the number of sliver faces in the part.
+GetSmallFacesCount	m	int GetSmallFacesCount(double length, out int errorcode:gtError_e)	2004		Gets the number of small faces on the part.
+Init	m	int Init()	2004		Initiates geometry analysis for the model document.
+SaveReport	m	int SaveReport(string reportname)		obsolete>IGeometryAnalysis.SaveReport2
+SaveReport2	m	int:gtError_e SaveReport2(string reportname, bool vtAddToBinderOption, bool vtOverwrite)	2006		Generates a report containing the results of the geometry analysis.
+ShowResultsDialog	m	int:gtError_e ShowResultsDialog()	2004		Displays the results of the geometry analysis in the Results dialog box.
+@IPowerSelect	i	Allows selection of entities (edges, loops, faces, or features) in a part that meet the specified criteria.	via=IUtilities.PowerSelect	use=12
+Close	m	int:gtError_e Close()	2005		Closes the current session of PowerSelect.
+GetAppliedFilters	m	object:gtpslFilterType_e GetAppliedFilters(out int lErrorcode:gtError_e)	2005		Gets a list of the filters applied in this PowerSelect session.
+GetAppliedFiltersCount	m	int GetAppliedFiltersCount(out int lErrorcode:gtError_e)	2005		Gets the number of filters applied in this PowerSelect session.
+GetEdgeAngleFilter	m	int:gtError_e GetEdgeAngleFilter(out int lCmpOperator:gtpslEdgeAngleOperator_e, out double dAngle)	2005		Gets the Edge angle filter set in this PowerSelect session.
+GetEdgeConvexityFilter	m	int:gtError_e GetEdgeConvexityFilter(out bool bConvex, out bool bConcave, out bool bIgnoreMixedLoop)	2005		Gets the Edge convexity filter set in this PowerSelect session.
+GetFaceColorFilter	m	int:gtError_e GetFaceColorFilter(out double Red, out double Green, out double Blue)	2005		Gets the Face color filter set in this PowerSelect session.
+GetFeatureColorFilter	m	int:gtError_e GetFeatureColorFilter(out double Red, out double Green, out double Blue)	2005		Gets the Feature color filter set in this PowerSelect session.
+GetFeatureNameFilter	m	string GetFeatureNameFilter(out int lErrorcode:gtError_e)	2005		Gets the Feature name filter set in this PowerSelect session.
+GetFeatureTypeFilter	m	object:gtpslFeatureType_e GetFeatureTypeFilter(out int lErrorcode:gtError_e)	2005		Gets the types of features set in this PowerSelect session.
+GetFeatureTypeFilterCount	m	int GetFeatureTypeFilterCount(out int lErrorcode:gtError_e)	2005		Gets the number of types of features set in this PowerSelect session.
+GetSelectEntitiesTypes	m	int:gtPslSelectionType_e GetSelectEntitiesTypes(out int lErrorcode:gtError_e)	2005		Gets the types of entities set in this PowerSelect session.
+GetShowHiddenEntities	m	bool GetShowHiddenEntities(out int lErrorcode:gtError_e)	2006		Gets whether to show both non-hidden and hidden entities or to only show non-hidden entities.
+GetSurfaceTypeCount	m	int GetSurfaceTypeCount(out int lErrorcode:gtError_e)	2006		Gets the number of surface types, such as planes, cylinders, cones, etc., selected in the surface type filter.
+GetSurfaceTypeFilter	m	object GetSurfaceTypeFilter(out int lErrorcode:gtError_e)			Gets a list of the selected surface types, such as planes, cylinders, cones, etc., in the surface type filter.
+IGetAppliedFilters	m	int:gtpslFilterType_e IGetAppliedFilters(out int lErrorcode:gtError_e)	2005		Gets a list of the filters applied in this PowerSelect session.
+IGetFeatureTypeFilter	m	int:gtpslFeatureType_e IGetFeatureTypeFilter(out int lErrorcode:gtError_e)	2005		Gets the types of features set in this PowerSelect session.
+IGetSurfaceTypeFilter	m	int IGetSurfaceTypeFilter(out int lErrorcode:gtError_e)	2006		Gets a list of the selected surface types, such as planes, cylinders, cones, etc., in the surface type filter.
+Init	m	int:gtError_e Init()	2005		Initializes a session of PowerSelect.
+IRunPowerSelect	m	int IRunPowerSelect(int lResultOptions:gtResultOptions_e, out int lErrorcode:gtError_e)	2005		Runs PowerSelect using the previously set filters and entities.
+ISetFeatureTypeFilter	m	int:gtError_e ISetFeatureTypeFilter(int lFeatCount, ref int pFeatArr:gtpslFeatureType_e)	2005		Sets the types of features for this PowerSelect session.
+ISetSurfaceTypeFilter	m	int:gtError_e ISetSurfaceTypeFilter(int lSurfTypeCount, ref int pSurfTypeArr)	2006		Sets the surface types, such as planes, cylinders, cones, etc., to select in the surface type filter.
+RemoveFilters	m	int:gtError_e RemoveFilters(int lFilterEnums:gtpslFilterType_e)	2005		Removes the specified filters, if they are set, in this PowerSelect session.
+RunPowerSelect	m	object RunPowerSelect(int lResultOptions:gtResultOptions_e, out int lErrorcode:gtError_e)	2005		Runs PowerSelect using the previously set filters and entities.
+SelectResults	m	int:gtError_e SelectResults()	2005		Selects the results generated in this PowerSelect session.
+SetEdgeAngleFilter	m	int:gtError_e SetEdgeAngleFilter(int lCmpOperator:gtpslEdgeAngleOperator_e, double dAngle)	2005		Sets the Edge angle filter for this PowerSelect session.
+SetEdgeConvexityFilter	m	int:gtError_e SetEdgeConvexityFilter(bool bConvex, bool bConcave, bool bIgnoreMixedLoop)	2005		Sets the Edge convexity filter for this PowerSelect session.
+SetFaceColorFilter	m	int:gtError_e SetFaceColorFilter(double Red, double Green, double Blue)	2005		Sets the Face color filter for this PowerSelect session.
+SetFeatureColorFilter	m	int:gtError_e SetFeatureColorFilter(double Red, double Green, double Blue)	2005		Sets the Feature color filter for this PowerSelect session.
+SetFeatureNameFilter	m	int:gtError_e SetFeatureNameFilter(string bstrSearchString)	2005		Sets the Feature name filter for this PowerSelect session.
+SetFeatureTypeFilter	m	int:gtError_e SetFeatureTypeFilter(object varFeatArr:gtpslFeatureType_e)	2005		Sets the types of features for this PowerSelect session.
+SetSelectEntitiesTypes	m	int:gtError_e SetSelectEntitiesTypes(int selTypes:gtPslSelectionType_e)	2005		Sets the types of entities for this PowerSelect session.
+SetShowHiddenEntities	m	int:gtError_e SetShowHiddenEntities(bool varShow)	2006		Sets whether to show both non-hidden and hidden entities or to show only non-hidden entities.
+SetSurfaceTypeFilter	m	int:gtError_e SetSurfaceTypeFilter(object varSurfTypeArr)	2006		Sets the surface types, such as planes, cylinders, cones, etc., to select in the surface type filter.
+@IThicknessAnalysis	i	Allows you to determine and analyze the thickness of a part.	via=IUtilities.ThicknessAnalysis	use=15
+Close	m	int:gtError_e Close()	2006		Ends the current session of a thickness analysis.
+GetAnalysisDetails	m	int:gtError_e GetAnalysisDetails(int lRange, out double dMinTckInRange, out double dMaxTckInRange, out int lNoFaces, out double dSurfArea, out double dPerAnalArea)	2006		Gets the percentage of area and number of faces in each thickness range.
+GetAvgWeightedTckOnAnalArea	m	double GetAvgWeightedTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the average weighted thickness on the analyzed area.
+GetAvgWeightedTckOnCritArea	m	double GetAvgWeightedTckOnCritArea(out int lErrorcode:gtError_e)	2006		Gets the average weighted thickness on the critical area.
+GetCriticalFeatureNames	m	object GetCriticalFeatureNames(out int lErrorcode:gtError_e)	2006		Gets the names of the features that violate the target thickness.
+GetCriticalSurfaceArea	m	double GetCriticalSurfaceArea(out int lErrorcode:gtError_e)	2006		Gets the critical surface area.
+GetIntervalCount	m	int GetIntervalCount(out int lErrorcode:gtError_e)	2006		Gets the number of intervals in the thickness color scale.
+GetMaxDeviationfromTargetThickness	m	double GetMaxDeviationfromTargetThickness(out int lErrorcode:gtError_e)	2006		Gets the maximum deviation from the target thickness.
+GetMaxTckOnAnalArea	m	double GetMaxTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the maximum thickness of the analyzed area.
+GetMinTckOnAnalArea	m	double GetMinTckOnAnalArea(out int lErrorcode:gtError_e)	2006		Gets the minimum thickness of the analyzed area.
+GetNumCriticalFaces	m	int GetNumCriticalFaces(out int lErrorcode:gtError_e)	2006		Gets the number of critical faces in the analyzed area.
+GetNumCriticalFeatures	m	int GetNumCriticalFeatures(out int lErrorcode:gtError_e)	2006		Gets the number of critical features in the analyzed area.
+GetThicknessAnalysisBody	m	Body2 GetThicknessAnalysisBody(out int lErrorcode:gtError_e)	2006		Gets the SOLIDWORKS body in a multibody part selected for the thickness analysis.
+GetTotalSurfaceAreaAnalyzed	m	double GetTotalSurfaceAreaAnalyzed(out int lErrorcode:gtError_e)	2006		Gets the total surface area analyzed.
+Init	m	int:gtError_e Init()	2006		Initializes the Thickness Analysis utility with the active SOLIDWORKS document.
+RunThickAnalysis	m	int RunThickAnalysis(double targetthickness, double thicklimit, bool treatcornerzero, int resolution, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtOverwrite)		obsolete>IThicknessAnalysis.RunThickAnalysis2
+RunThickAnalysis2	m	int:gtError_e RunThickAnalysis2(double targetthickness, double thicklimit, bool treatcornerzero, int resolution:gttckResolutionOptions_e, int lResultOptions:gtResultOptions_e, string reportname, bool vtAddToBinderOption, bool vtSaveResultsInEdwg, bool vtOverwrite)	2007		Runs a thickness analysis, shows the thick regions, and generates a report.
+RunThinAnalysis	m	int RunThinAnalysis(double targetthickness, int resolution, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtOverwrite)		obsolete>IThicknessAnalysis.RunThinAnalysis2
+RunThinAnalysis2	m	int:gtError_e RunThinAnalysis2(double targetthickness, int resolution:gttckResolutionOptions_e, int lResultOptions, string reportname, bool vtAddToBinderOption, bool vtSaveResultsInEdwg, bool vtOverwrite)	2007		Runs a thickness analysis, shows the thin regions, and generates a report.
+SetThicknessAnalysisBody	m	int:gtError_e SetThicknessAnalysisBody(Body2 lpBody2)	2006		Sets the SOLIDWORKS body in a multibody part to use in the thickness analysis.
+@IUtilities	i	Gets the SOLIDWORKS Utilities tool interface and options.	via=ISldWorks.GetAddInObject	use=14
+CompareDocument	p	gtcocswCompareDocument:ICompareDocument CompareDocument {get;}	2005		Gets an ICompareDocument object.
+CompareFeature	p	gtcocswCompareFeature:ICompareFeature CompareFeature {get;}	2005		Gets an ICompareFeature object.
+CompareGeometry	p	gtcocswCompareGeometry:ICompareGeometry CompareGeometry {get;}	2005		Gets an ICompareGeometry object.
+FeaturePaint	p	gtcocswFeaturePaint:IFeaturePaint FeaturePaint {get;}	2005		Gets an IFeaturePaint object.
+FindReplaceAnnotations	p	gtcocswFindReplaceAnnotations:IFindReplaceAnnotations FindReplaceAnnotations {get;}	2008		Gets an IFindReplaceAnnotations object.
+GeometryAnalysis	p	gtcocswGeometryAnalysis:IGeometryAnalysis GeometryAnalysis {get;}	2005		Gets an IGeometryAnalysis object.
+GetAutoPartSimplification	m	object GetAutoPartSimplification(out int lErrorcode:gtError_e)	2005		Gets a pointer the simplified configuration.
+GetOptions	m	object GetOptions(out int lErrorcode:gtError_e)	2004		Gets the SOLIDWORKS Utilities options.
+GetToolInterface	m	object GetToolInterface(int toolname:gtSwTools_e, out int lErrorcode:gtError_e)	2004		Gets a pointer to the SOLIDWORKS Utilities tool.
+options	p	gtcocswUtilOptions:IUtilOptions options {get;}	2005		Gets an IUtilOptions object.
+PowerSelect	p	gtcocswPowerSelect:IPowerSelect PowerSelect {get;}	2005		Gets an IPowerSelect object.
+ThicknessAnalysis	p	gtcocswThicknessAnalysis:IThicknessAnalysis ThicknessAnalysis {get;}	2006		Gets an IThicknessAnalysis object.
+@IUtilOptions	i	Gets or sets the angular and position tolerance options when comparing faces.	via=IUtilities.options	use=9
+GetAngularTolerance	m	double GetAngularTolerance(out int lErrorcode:gtError_e)	2004		Gets the angular tolerance value currently set in the registry.
+GetPositionTolerance	m	double GetPositionTolerance(out int lErrorcode:gtError_e)	2004		Gets the position tolerance currently set in the registry.
+SetAngularTolerance	m	int:gtError_e SetAngularTolerance(double pTol)	2004		Sets the angular tolerance for the face comparison.
+SetPositionTolerance	m	int:gtError_e SetPositionTolerance(double pTol)	2004		Sets the position tolerance for the face comparison.
