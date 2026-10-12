@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PdmTask</AssemblyName>
+    <RootNamespace>PdmTask</RootNamespace>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <PdmInstallDir Condition="'$(PdmInstallDir)' == ''">C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS PDM\</PdmInstallDir>
+    <SolidWorksApiRedist Condition="'$(SolidWorksApiRedist)' == ''">C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist</SolidWorksApiRedist>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPDM.Interop.epdm">
+      <HintPath>$(PdmInstallDir)EPDM.Interop.epdm.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swdocumentmgr">
+      <HintPath>$(SolidWorksApiRedist)\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
