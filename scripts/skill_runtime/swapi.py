@@ -1,4 +1,5 @@
 import argparse
+import bisect
 import difflib
 import hashlib
 import json
@@ -191,7 +192,7 @@ def inline_code(text):
         ln = KADOV_RE.sub("", ln)
         ln = unlink(ln).replace("**", "").replace("`", "").rstrip()
         if ln.strip() and ln.strip() not in ("Back to top", "[Top]", "Top"):
-            lines.append((" " + ln) if ln.startswith("<<< ") else ln)
+            lines.append(ln)
     return "\n".join(lines)
 def example_code(body):
     chunks = []
@@ -201,8 +202,21 @@ def example_code(body):
             chunks.append(code)
     text = "\n".join(chunks)
     text = re.sub(r"\n[ \t]*\n(?:[ \t]*\n)+", "\n\n", text)
-    lines = [(" " + ln) if ln.startswith("<<< ") else ln.rstrip() for ln in text.split("\n")]
-    return "\n".join(lines).strip("\n")
+    return "\n".join(ln.rstrip() for ln in text.split("\n")).strip("\n")
+ESCAPE_LINE = re.compile(r"^(?:<<< |\\|[PRXAE]: )")
+def escape_body(text):
+    return "\n".join("\\" + ln if ESCAPE_LINE.match(ln) else ln for ln in text.split("\n"))
+def map_entries(text):
+    head = None
+    for line in text.split("\n"):
+        if not line or line.startswith("#"):
+            continue
+        cols = line.split("\t")
+        if line.startswith("@"):
+            head = cols
+            yield cols[0][1:], cols, None
+        elif head is not None:
+            yield head[0][1:], head, cols + [""] * (7 - len(cols))
 def strip_iprefix(name):
     if len(name) > 1 and name[0] == "I" and name[1].isupper():
         return name[1:]
@@ -324,20 +338,12 @@ class Store:
         for f in sorted(mapdir.glob("*.tsv")) if mapdir.is_dir() else []:
             module = f.stem
             cur = None
-            for line in f.read_text(encoding="utf-8").split("\n"):
-                if not line or line.startswith("#"):
-                    continue
-                cols = line.split("\t")
-                if line.startswith("@"):
-                    keys = {}
-                    for extra in cols[3:]:
-                        k, _, v = extra.partition("=")
-                        keys[k] = v
-                    cur = Iface(cols[0][1:], cols[1] if len(cols) > 1 else "i", cols[2] if len(cols) > 2 else "", keys, module)
+            for name, head, cols in map_entries(f.read_text(encoding="utf-8")):
+                if cols is None:
+                    keys = dict(c.partition("=")[::2] for c in head[3:])
+                    cur = Iface(name, head[1] if len(head) > 1 else "i", head[2] if len(head) > 2 else "", keys, module)
                     self.ifaces[cur.lname].append(cur)
                     self.all_ifaces.append(cur)
-                    continue
-                if cur is None:
                     continue
                 row = Row(cols, cur)
                 cur.rows.append(row)
@@ -390,7 +396,7 @@ class Store:
             p = self.dir / rel
             self.text_cache[rel] = p.read_text(encoding="utf-8") if p.is_file() else ""
         return self.text_cache[rel]
-    def block(self, rel, key, by_path=False):
+    def block(self, rel, key, by_path=False, lines=False):
         text = self.text(rel)
         if not text:
             return None
@@ -401,8 +407,11 @@ class Store:
         if not m:
             return None
         end = text.find("\n<<< ", m.end())
-        body = text[m.end() + 1: end if end >= 0 else len(text)]
-        return m.group(1), body.rstrip("\n")
+        body = text[m.end() + 1: end if end >= 0 else len(text)].rstrip("\n")
+        pairs = [(True, ln[1:]) if ln.startswith("\\") else (False, ln) for ln in body.split("\n")] if body else []
+        if lines:
+            return m.group(1), pairs
+        return m.group(1), "\n".join(t for _, t in pairs)
     def blocks(self, rel):
         text = self.text(rel)
         for m in re.finditer(r"(?m)^<<< (.*) \| (.*)$", text):
@@ -639,9 +648,13 @@ class Out:
         self.lines.append(line)
     def rec(self, **kw):
         self.recs.append(kw)
-def limit_of(args, default):
-    v = getattr(args, "limit", None)
-    return v if v else default
+def limit_of(args, default, attr="limit"):
+    v = getattr(args, attr, None)
+    if v is None:
+        return default
+    return v if v > 0 else 10 ** 9
+def chars_of(args, default=6000):
+    return limit_of(args, default, "max_chars")
 def row_line(st, row, vba=False):
     since, status, summary = st.eff(row)
     if status.startswith("obsolete"):
@@ -706,26 +719,29 @@ def cmd_find(ctx, a, o):
     def mod_ok(m):
         return mods is None or m in mods
     hits = {}
-    def put(tier, key, sortkey, item):
-        if key not in hits or hits[key][0] > tier:
-            hits[key] = (tier, sortkey, item)
+    def put(tier, key, item, name, obsolete=False, rank=1, use=0):
+        sortkey = (tier, int(bool(obsolete)), rank, -use, name.lower())
+        if key not in hits or sortkey < hits[key][0]:
+            hits[key] = (sortkey, item)
     def add_row(tier, r):
         if not kind_ok(r.kind) or not mod_ok(r.iface.module):
             return
         n = st.net_row(r)
         if not mod_ok(n.iface.module):
             n = r
-        put(tier, ("row", n.iface.module, n.sym), (st.eff(n)[1].startswith("obsolete"), st.module_rank(n.iface.module), -st.use(n.iface), n.sym.lower()), ("row", n))
+        put(tier, ("row", n.iface.module, n.sym), ("row", n), n.sym, st.eff(n)[1].startswith("obsolete"), st.module_rank(n.iface.module), st.use(n.iface))
     def add_iface(tier, i):
         if not kind_ok(i.kind) or not mod_ok(i.module):
             return
         t = st.twin_iface(i) if st.is_vba(i.module) else None
         n = t if (t and mod_ok(t.module)) else i
-        put(tier, ("iface", n.module, n.name), (n.keys.get("status", "").startswith("obsolete"), st.module_rank(n.module), -st.use(n), n.name.lower()), ("iface", n))
+        put(tier, ("iface", n.module, n.name), ("iface", n), n.name, n.keys.get("status", "").startswith("obsolete"), st.module_rank(n.module), st.use(n))
+    def add_enum(tier, en):
+        put(tier, ("enum", en.name), ("enum", en), en.name, rank=st.module_rank(en.module))
     def add_enum_member(tier, en, lname):
         for mn, mv, md in en.members:
             if mn.lower() == lname:
-                put(tier, ("enumm", en.name, mn), (tier, mn.lower()), ("enumm", en, (mn, mv, md)))
+                put(tier, ("enumm", en.name, mn), ("enumm", en, (mn, mv, md)), mn, md == "obsolete", st.module_rank(en.module))
     words = [w for w in re.split(r"[\s,]+", ql) if w]
     ql_member = ql
     if "." in ql and " " not in ql:
@@ -740,7 +756,7 @@ def cmd_find(ctx, a, o):
         add_iface(0, i)
     e = st.enums.get(ql)
     if e and kind_ok("enum") and mod_ok(e.module):
-        put(0, ("enum", e.name), (0, e.name.lower()), ("enum", e))
+        add_enum(0, e)
     for r in st.by_member.get(ql_member, []):
         add_row(1, r)
     if kind_ok("enum"):
@@ -759,7 +775,7 @@ def cmd_find(ctx, a, o):
         if kind_ok("enum"):
             for lname, en in st.enums.items():
                 if lname != ql and ql in lname and mod_ok(en.module):
-                    put(2 if lname.startswith(ql) else 3, ("enum", en.name), (1, en.name.lower()), ("enum", en))
+                    add_enum(2 if lname.startswith(ql) else 3, en)
             if len(ql_member) >= 4:
                 for lname, ens in st.enum_members.items():
                     if lname != ql_member and ql_member in lname:
@@ -778,14 +794,14 @@ def cmd_find(ctx, a, o):
             if kind_ok("enum"):
                 for en in st.enums.values():
                     if mod_ok(en.module) and all(w in (en.name + " " + en.summary).lower() for w in words):
-                        put(4, ("enum", en.name), (1, en.name.lower()), ("enum", en))
-    strong = any(h[0] <= 1 for h in hits.values())
+                        add_enum(4, en)
+    strong = any(h[0][0] <= 1 for h in hits.values())
     if ((kinds is None and not strong) or (kinds and "topic" in kinds)) and not a.exact:
         n = 0
         for title, path, _ in st.blocks("topics.txt"):
             hay = title.lower()
             if words and all(w in hay for w in words):
-                put(6 if kinds is None else 1, ("topic", path), (0, title.lower()), ("topic", title, path))
+                put(6 if kinds is None else 1, ("topic", path), ("topic", title, path), title)
                 n += 1
                 if n >= (3 if kinds is None else 50):
                     break
@@ -795,7 +811,7 @@ def cmd_find(ctx, a, o):
         for ex in st.catalog:
             hay = ex["title"].lower()
             if words and all(w in hay for w in words):
-                put(6 if kinds is None else 1, ("example", ex["path"]), (0, ex["title"].lower()), ("example", ex))
+                put(6 if kinds is None else 1, ("example", ex["path"]), ("example", ex), ex["title"])
                 n += 1
                 if n >= (3 if kinds is None else 50):
                     break
@@ -810,9 +826,9 @@ def cmd_find(ctx, a, o):
         o.add(f"no match for {q}")
         did_you_mean(o, st, q)
         return 1
-    ordered = sorted(hits.values(), key=lambda h: (h[0], h[1]))
+    ordered = sorted(hits.values(), key=lambda h: h[0])
     lim = limit_of(a, 15)
-    for tier, _, item in ordered[:lim]:
+    for _, item in ordered[:lim]:
         typ = item[0]
         if typ == "row":
             for ln in row_line(st, item[1]):
@@ -1119,7 +1135,7 @@ def cmd_enum(ctx, a, o):
             return 2
         exact = [m for m in e.members if re.fullmatch(r"-?\d+", m[1] or "") and int(m[1]) == val]
         flags = []
-        if val > 0:
+        if e.bitmask and val > 0:
             rest = val
             for m in sorted(e.members, key=lambda m: -int(m[1]) if re.fullmatch(r"\d+", m[1] or "") else 0):
                 v = int(m[1]) if re.fullmatch(r"\d+", m[1] or "") else 0
@@ -1128,7 +1144,7 @@ def cmd_enum(ctx, a, o):
                     rest &= ~v
             if rest and flags:
                 flags.append(("(undocumented bits)", str(rest), ""))
-        shown = flags if (e.bitmask and len(flags) > 1) or not exact else exact
+        shown = flags if e.bitmask and (len(flags) > 1 or not exact) else exact
         o.add(f"  {val} = " + (" | ".join(m[0] for m in shown) if shown else "(no matching member)"))
         for mn, mv, md in shown:
             o.add(f"  {mn} = {mv}" + (f"  {md}" if md else ""))
@@ -1192,14 +1208,14 @@ def cmd_seltype(ctx, a, o):
     return 0
 SECTION_ALIASES = {"p": "P", "param": "P", "params": "P", "parameters": "P", "r": "R", "return": "R", "returns": "R", "value": "R", "x": "X", "remarks": "X", "e": "E", "examples": "E", "example": "E", "a": "A", "accessors": "A", "s": "S", "sig": "S", "signature": "S", "syntax": "S"}
 FULL_SECTION = {"P": {"Parameters"}, "R": {"Return Value", "Property Value", "Field Value"}, "X": {"Remarks"}, "E": {"Examples", "Example"}, "A": {"Accessors"}, "S": {"C#", "Visual Basic for Applications (VBA)", "Syntax"}}
-def parse_lean(body):
+def parse_lean(pairs):
     parts = []
-    for line in body.split("\n"):
-        m = re.match(r"^([PRXAE]): (.*)$", line)
+    for escaped, line in pairs:
+        m = None if escaped else re.match(r"^([PRXAE]): (.*)$", line)
         if m:
             parts.append([m.group(1), m.group(2)])
         elif parts:
-            parts[-1][1] += "\n" + (line[1:] if re.match(r"^ (?:[PRXAE]: |<<< )", line) else line)
+            parts[-1][1] += "\n" + line
     return parts
 def examples_for(st, symbol):
     st.load_catalog()
@@ -1321,14 +1337,14 @@ def cmd_doc(ctx, a, o):
             body = head[0] + "\n" + head[1] + f"  from={origin}\n" + full
             if ex_line and (not wanted or "E" in wanted):
                 body += "\nE (catalog): " + ex_line
-            o.add(cap_chars(body, a.max_chars, "use --section to narrow"))
+            o.add(cap_chars(body, chars_of(a), "use --section to narrow"))
             rec["full"] = full
             rec["from"] = origin
             o.rec(**rec)
             return 0
         lean_note = "note=full text unavailable (" + ("; ".join(n for n in notes if n) or "no source") + "); showing the bundled lean entry"
     lines = list(head)
-    blk = st.block(f"docs/{module}.txt", sym)
+    blk = st.block(f"docs/{module}.txt", sym, lines=True)
     parts = parse_lean(blk[1]) if blk else []
     def want(tag):
         return not wanted or tag in wanted
@@ -1347,7 +1363,7 @@ def cmd_doc(ctx, a, o):
         lines.append("E: " + ex_line)
     if lean_note:
         lines.append(lean_note)
-    o.add(cap_chars("\n".join(lines), a.max_chars, "use --section or --full"))
+    o.add(cap_chars("\n".join(lines), chars_of(a), "use --section or --full"))
     rec["lean"] = {t: x for t, x in parts}
     rec["examples"] = [e["path"] for e in exs]
     if lean_note:
@@ -1362,7 +1378,7 @@ def cmd_topic(ctx, a, o):
         blk = st.block("topics.txt", p, by_path=True)
         if blk and blk[1].strip():
             o.add(f"{blk[0]} | source=markdown/{p}  from=bundled")
-            o.add(cap_chars(blk[1], a.max_chars, "use --max-chars to raise"))
+            o.add(cap_chars(blk[1], chars_of(a), "use --max-chars to raise"))
             o.rec(type="topic", title=blk[0], path="markdown/" + p, text=blk[1], origin="bundled")
             return 0
         text, origin, notes, attempted = ctx.fetch(p)
@@ -1371,7 +1387,7 @@ def cmd_topic(ctx, a, o):
             return 3 if attempted else 1
         full, meta = render_full(text, True)
         o.add(f"{meta.get('title', p)} | source=markdown/{p}  from={origin}")
-        o.add(cap_chars(full, a.max_chars, "use --max-chars to raise"))
+        o.add(cap_chars(full, chars_of(a), "use --max-chars to raise"))
         o.rec(type="topic", title=meta.get("title", ""), path="markdown/" + p, text=full, origin=origin)
         return 0
     query = " ".join(a.query or []).strip()
@@ -1403,7 +1419,7 @@ def cmd_topic(ctx, a, o):
     blk = st.block("topics.txt", best[3], by_path=True)
     if blk and blk[1].strip():
         o.add(f"<<< {best[2]}")
-        o.add(cap_chars(blk[1], a.max_chars, f"topic --path {best[3]} --max-chars N"))
+        o.add(cap_chars(blk[1], chars_of(a), f"topic --path {best[3]} --max-chars N"))
     return 0
 def cmd_examples(ctx, a, o):
     st = ctx.store
@@ -1522,7 +1538,7 @@ def cmd_example(ctx, a, o):
     if code is None:
         o.add(f"{ex['title']} is not bundled and could not be fetched ({'; '.join(n for n in notes if n)}); source=markdown/{ex['path']}")
         return 3 if attempted else 1
-    limit = a.max_chars if a.max_chars != 6000 else 12000
+    limit = chars_of(a, 12000)
     o.add(f"{ex['title']} | {ex['lang']} | source=markdown/{ex['path']}  from={origin}")
     o.add(cap_chars(code, limit, "use --max-chars to raise"))
     rec = dict(ex)
@@ -1763,13 +1779,14 @@ class Checker:
         refs = 0
         typed = 0
         vba = self.flavor == "vba"
+        breaks = [k for k, ch in enumerate(code) if ch == "\n"]
         for m in re.finditer(r"\.[ \t]*([A-Za-z_]\w*)", code):
             dot = m.start()
             if dot > 0 and code[dot - 1].isdigit():
                 continue
             name = m.group(1)
             refs += 1
-            line = code.count("\n", 0, dot) + 1
+            line = bisect.bisect_left(breaks, dot) + 1
             iface = self.recv_type(code, dot, found)
             if iface is not None:
                 typed += 1
@@ -1862,12 +1879,15 @@ def cmd_changes(ctx, a, o):
                 break
             rows.sort(key=lambda r: (since_key(r.since), r.lname))
             names = [f"{r.name} [{r.since}]" for r in rows[:12]]
-            new_iface = since_key(st.find_ifaces(name)[0].keys.get("since", "")) if st.find_ifaces(name) else None
-            label = "new interface" if new_iface and new_iface >= key else f"{len(rows)}"
+            owner = next((i for i in st.ifaces.get(name.lower(), []) if i.module == mod), None)
+            new_iface = since_key(owner.keys.get("since", "")) if owner is not None else None
+            label = f"new interface, {len(rows)}" if new_iface and new_iface >= key else f"{len(rows)}"
             o.add(f"{name} ({mod}, {label}): " + ", ".join(names) + (f", +{len(rows) - 12}" if len(rows) > 12 else ""))
             o.rec(type="since", interface=name, module=mod, members=[{"name": r.name, "since": r.since} for r in rows])
             used += 1
         rc = 0 if groups else 1
+    prev = (st.manifest.get("changes") or {}).get("previous")
+    label = f"vs {prev.get('sw_version') or 'previous'} data" if isinstance(prev, dict) else "vs previous release"
     text = st.text("changes.tsv")
     if text.strip():
         groups = defaultdict(list)
@@ -1885,7 +1905,7 @@ def cmd_changes(ctx, a, o):
         counts = defaultdict(int)
         for (kind, _), v in groups.items():
             counts[kind] += len(v)
-        o.add("vs previous release (changes.tsv): " + (", ".join(f"{k}={counts[k]}" for k in sorted(counts)) or "no matching changes"))
+        o.add(f"{label} (changes.tsv): " + (", ".join(f"{k}={counts[k]}" for k in sorted(counts)) or "no matching changes"))
         for (kind, iface), names in sorted(groups.items(), key=lambda kv: (kv[0][0], -len(kv[1]), kv[0][1].lower())):
             if used >= lim:
                 o.add("... more (use --kind, --module or --limit)")
@@ -1894,8 +1914,11 @@ def cmd_changes(ctx, a, o):
             o.rec(type="change", kind=kind, interface=iface, members=names)
             used += 1
         rc = 0
+    elif isinstance(prev, dict):
+        o.add(f"{label}: no API differences (changes.tsv is empty)")
+        rc = 0
     elif not a.since:
-        o.add("changes.tsv is empty (data built without --previous); use changes --since YEAR or topic \"release notes\"")
+        o.add("changes.tsv is empty because the data was built without --previous; use changes --since YEAR or topic \"release notes\"")
         return 1
     return rc
 def cmd_where(ctx, a, o):
@@ -1924,8 +1947,8 @@ def add_common(p, suppress):
     p.add_argument("--root", default=d if suppress else None, help="SWAPI repo root for full docs (default: env SWAPI_ROOT, else search up from the script and the current directory).")
     p.add_argument("--data", default=d if suppress else None, help="Bundled data directory (default: ../data next to this script, or env SWAPI_DATA).")
     p.add_argument("--json", action="store_true", default=d if suppress else False, help="Machine-readable JSON output.")
-    p.add_argument("--limit", type=int, default=d if suppress else None, help="Maximum results (defaults: 15 find/sig/examples, 60 members/enum/changes, 10 seltype/topic, 3 path).")
-    p.add_argument("--max-chars", type=int, default=d if suppress else 6000, help="Maximum characters of document or code text (default 6000; example uses 12000).")
+    p.add_argument("--limit", type=int, default=d if suppress else None, help="Maximum results, 0 for no limit (defaults: 15 find/sig/examples, 60 members/enum/changes, 10 seltype/topic, 3 path).")
+    p.add_argument("--max-chars", type=int, default=d if suppress else None, help="Maximum characters of document or code text, 0 for no limit (defaults: 6000, example 12000).")
 def build_parser():
     ap = argparse.ArgumentParser(prog="swapi.py", description="Look up SOLIDWORKS and SOLIDWORKS PDM API signatures, enums, docs and examples from the bundled index of the official API help. Full documents come from a local SWAPI checkout, git or GitHub when available. Environment: SWAPI_ROOT, SWAPI_GIT_REF (default HEAD), SWAPI_REPO, SWAPI_REF, SWAPI_CACHE, SWAPI_OFFLINE=1, SWAPI_DATA.", epilog="Exit codes: 0 found or clean, 1 not found or findings, 2 usage error, 3 full text fetch failed after fallback (lean entry still printed), 4 bundled data missing or corrupt.")
     add_common(ap, False)
