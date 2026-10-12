@@ -42,7 +42,7 @@ The project code is released under the MIT License and can be used in commercial
 
 ## Dependencies
 
-Python:
+Python 3.10+:
 
 ```bash
 python3 -m pip install -r requirements.txt
@@ -157,7 +157,7 @@ The index is not meant to be a RAG database. It is a cheap navigation layer:
 - inspect its interface or related topics;
 - open only the Markdown files that are actually needed.
 
-### Windows (7-Zip + venv)
+### Windows one-shot run
 
 After step 1, run steps 2-5 with one command from the repository root:
 
@@ -165,7 +165,7 @@ After step 1, run steps 2-5 with one command from the repository root:
 .\scripts\run_pipeline.ps1 -ApiVersion 2026
 ```
 
-It uses `.venv\Scripts\python.exe`, extracts with 7-Zip, recreates `API_HTML/` and `markdown/`, rebuilds `llm_index/`, stops at the first failing stage, and prints a summary. Add `-CleanExtract` when switching to a new API release. See [scripts/README.md](scripts/README.md) for all parameters.
+It creates `.venv` when missing, installs the requirements, extracts with 7-Zip, recreates `API_HTML/` and `markdown/`, rebuilds `llm_index/`, stops at the first failing stage, and prints a summary. Add `-CleanExtract` when switching to a new API release; the run stops before dropping Markdown modules unless `-Force` is given. See [scripts/README.md](scripts/README.md) for all parameters.
 
 ## Quick Checks
 

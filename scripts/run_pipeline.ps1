@@ -6,9 +6,12 @@ param(
     [string]$MarkdownDir = "markdown",
     [string]$IndexDir = "llm_index",
     [string]$Python = ".venv\Scripts\python.exe",
-    [switch]$CleanExtract
+    [switch]$CleanExtract,
+    [switch]$Force
 )
 $ErrorActionPreference = "Stop"
+$callerDir = (Get-Location).ProviderPath
+$repoRoot = Split-Path -Parent $PSScriptRoot
 $timings = [ordered]@{}
 function Invoke-Stage([string]$Name, [scriptblock]$Action) {
     Write-Host "==> $Name"
@@ -18,24 +21,42 @@ function Invoke-Stage([string]$Name, [scriptblock]$Action) {
     if ($LASTEXITCODE) { throw "$Name failed with exit code $LASTEXITCODE" }
     $timings[$Name] = $watch.Elapsed
 }
-Push-Location (Split-Path -Parent $PSScriptRoot)
+function Get-FullPath([string]$Path) {
+    [IO.Path]::GetFullPath([IO.Path]::Combine((Get-Location).ProviderPath, $Path)).TrimEnd('\') + '\'
+}
+function Get-ModuleCount([string]$Path) {
+    if (Test-Path $Path) { @(Get-ChildItem $Path -Directory).Count } else { 0 }
+}
+Push-Location $repoRoot
 try {
-    if (-not (Test-Path $Python)) {
-        $venvDir = Split-Path -Parent (Split-Path -Parent $Python)
-        Invoke-Stage "Create venv" {
-            if (Get-Command py.exe -ErrorAction SilentlyContinue) { & py.exe -3 -m venv $venvDir } else { & python.exe -m venv $venvDir }
-        }
+    if (Test-Path $Python) {
+        $Python = (Resolve-Path $Python).Path
     }
-    $Python = (Resolve-Path $Python).Path
-    & $Python -c "import importlib.util, sys; sys.exit(0 if all(importlib.util.find_spec(m) for m in ('bs4', 'lxml')) else 1)"
-    if ($LASTEXITCODE) { Invoke-Stage "Install requirements" { & $Python -m pip install -r requirements.txt } }
+    elseif ($Python -match '[\\/]Scripts[\\/]python\.exe$') {
+        $venvDir = Split-Path -Parent (Split-Path -Parent $Python)
+        Invoke-Stage "Create venv" { if (Get-Command py.exe -ErrorAction SilentlyContinue) { & py.exe -3 -m venv $venvDir } else { & python.exe -m venv $venvDir } }
+        $Python = (Resolve-Path $Python).Path
+    }
+    else {
+        $command = Get-Command $Python -ErrorAction SilentlyContinue
+        if (-not $command) { throw "Python interpreter '$Python' was not found. Pass python.exe on PATH, a full path, or a <venv>\Scripts\python.exe path to create that venv." }
+        $Python = $command.Source
+    }
+    Invoke-Stage "Install requirements" { & $Python -m pip install --disable-pip-version-check --quiet -r requirements.txt }
     if ($CleanExtract -and (Test-Path $ExtractDir)) {
-        $extractPath = (Resolve-Path $ExtractDir).Path.TrimEnd('\') + '\'
-        if (((Resolve-Path $ApiDir).Path + '\').StartsWith($extractPath, [StringComparison]::OrdinalIgnoreCase)) { throw "Refusing to delete $ExtractDir because it contains $ApiDir" }
-        Invoke-Stage "Clean extract directory" { Remove-Item -Recurse -Force $ExtractDir }
+        $target = Get-FullPath $ExtractDir
+        $isRoot = [IO.Path]::GetPathRoot($target).TrimEnd('\') + '\' -eq $target
+        $protected = @($repoRoot, $callerDir, $ApiDir) | ForEach-Object { Get-FullPath $_ } | Where-Object { $_.StartsWith($target, [StringComparison]::OrdinalIgnoreCase) }
+        if ($isRoot -or $protected) { throw "Refusing to delete '$ExtractDir' because it is a filesystem root or contains the repository, the current directory or the API directory." }
+        Invoke-Stage "Clean extract directory" { Remove-Item -LiteralPath $target -Recurse -Force }
     }
     Invoke-Stage "Extract CHM (7-Zip)" { & "$PSScriptRoot\unpack_chm_recursive.ps1" -InputDir $ApiDir -OutputDir $ExtractDir }
     Invoke-Stage "Collect HTML" { & $Python scripts\collect_html.py $ExtractDir -o $HtmlDir --clean }
+    $htmlModules = Get-ModuleCount $HtmlDir
+    $markdownModules = Get-ModuleCount $MarkdownDir
+    if ($htmlModules -lt $markdownModules -and -not $Force) {
+        throw "'$HtmlDir' has $htmlModules module directories but '$MarkdownDir' has $markdownModules, so convert --clean would drop modules. Check the CHM set in '$ApiDir' or rerun with -Force."
+    }
     Invoke-Stage "Convert to Markdown" { & $Python scripts\convert_sw_api_docs.py $HtmlDir -o $MarkdownDir --clean }
     Invoke-Stage "Build LLM index" { & $Python scripts\build_llm_index.py $MarkdownDir -o $IndexDir --api-version $ApiVersion }
     $manifest = Get-Content (Join-Path $IndexDir "manifest.json") -Raw | ConvertFrom-Json

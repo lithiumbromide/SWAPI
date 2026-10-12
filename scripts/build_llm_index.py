@@ -13,6 +13,8 @@ from pathlib import Path, PurePosixPath
 from typing import Iterable
 from urllib.parse import unquote
 
+from pipeline_common import write_text
+
 
 FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.M)
@@ -223,10 +225,6 @@ def asdict_record(record: DocRecord) -> dict[str, object]:
         "words": record.words,
         "token_estimate": record.token_estimate,
     }
-
-
-def write_text(path: Path, text: str) -> None:
-    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def write_json(path: Path, data: object) -> None:

@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import re
-import shutil
 from dataclasses import dataclass
 from html import unescape
 from pathlib import Path
@@ -13,6 +12,8 @@ from typing import Iterable
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 from bs4.element import PreformattedString
+
+from pipeline_common import clean_output, write_text
 
 
 SECTION_ALIASES = {
@@ -39,8 +40,8 @@ LANG_ALIASES = {
     "vb": "vb",
 }
 
-INLINE_TAGS = {"a", "abbr", "b", "big", "cite", "code", "em", "font", "i", "kbd", "nobr", "q", "s", "samp", "small", "span", "strike", "strong", "sub", "sup", "tt", "u", "var"}
-BLOCK_TAGS = ["address", "blockquote", "center", "dd", "div", "dl", "dt", "h1", "h2", "h3", "h4", "h5", "h6", "hr", "li", "ol", "p", "pre", "section", "table", "ul"]
+BLOCK_TAGS = frozenset({"address", "blockquote", "body", "caption", "center", "dd", "dir", "div", "dl", "dt", "fieldset", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "hr", "html", "li", "menu", "noscript", "ol", "p", "pre", "section", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "ul"})
+MARKERS = {"b": "**", "strong": "**", "i": "`", "em": "`"}
 
 
 @dataclass
@@ -57,19 +58,12 @@ def normalize_text(value: str) -> str:
     return unescape(value or "").replace("\ufeff", "").replace("\xa0", " ")
 
 
-def clean_text(value: str) -> str:
-    value = normalize_text(value)
-    value = re.sub(r"[ \t\r\f\v]+", " ", value)
-    value = re.sub(r"\n\s*", "\n", value)
-    return value.strip()
-
-
 def flow_text(value: str) -> str:
     return re.sub(r"\s+", " ", normalize_text(value))
 
 
-def node_text(node: Tag) -> str:
-    return flow_text(node.get_text(" ", strip=True)).strip()
+def clean_text(value: str | Tag | None) -> str:
+    return flow_text(value.get_text(" ") if isinstance(value, Tag) else value or "").strip()
 
 
 def clean_code(value: str) -> str:
@@ -141,16 +135,8 @@ def yaml_block(meta: DocMeta) -> str:
 
 
 def extract_meta(soup: BeautifulSoup, source: Path) -> DocMeta:
-    page_title = soup.select_one("#pagetitle")
-    html_title = soup.find("title")
-    title = node_text(page_title) if page_title else ""
-    if not title and html_title:
-        title = node_text(html_title)
-    if not title:
-        title = source.stem
-
-    project_node = soup.select_one("#projecttitle")
-    project = node_text(project_node) if project_node else ""
+    title = clean_text(soup.select_one("#pagetitle")) or clean_text(soup.find("title")) or source.stem
+    project = clean_text(soup.select_one("#projecttitle"))
 
     kind = ""
     interface = ""
@@ -240,12 +226,9 @@ def render_syntax_table(table: Tag) -> str:
         header = ""
         row = pre.find_parent("tr")
         if row:
-            previous = row.find_previous_sibling("tr")
-            if previous:
-                header = node_text(previous)
+            header = clean_text(row.find_previous_sibling("tr"))
         if not header:
-            first_th = table.find("th")
-            header = node_text(first_th) if first_th else ""
+            header = clean_text(table.find("th"))
         lang = language_from_heading(header)
         label = header if header else "Syntax"
         code = fence(code_text(pre), lang)
@@ -263,7 +246,7 @@ def render_table(table: Tag) -> str:
         cells = tr.find_all(["th", "td"], recursive=False)
         if not cells:
             continue
-        rows.append([node_text(cell).replace("|", "\\|") for cell in cells])
+        rows.append([clean_text(cell).replace("|", "\\|") for cell in cells])
 
     if not rows:
         return ""
@@ -294,9 +277,9 @@ def render_definition_list(dl: Tag) -> str:
         if not isinstance(child, Tag):
             continue
         if child.name == "dt":
-            current = node_text(child)
+            current = clean_text(child)
         elif child.name == "dd":
-            body = render_children(child).strip() or node_text(child)
+            body = render_children(child).strip() or clean_text(child)
             if current:
                 lines.append(list_item(f"- `{current}`:", body))
             elif body:
@@ -314,40 +297,42 @@ def render_list(node: Tag, ordered: bool) -> str:
     return "\n".join(lines)
 
 
-def is_inline(node: object) -> bool:
-    if isinstance(node, NavigableString):
-        return True
-    return isinstance(node, Tag) and (node.name == "br" or (node.name in INLINE_TAGS and node.find(BLOCK_TAGS) is None))
+def is_inline(node: Tag | NavigableString) -> bool:
+    return isinstance(node, NavigableString) or (node.name not in BLOCK_TAGS and node.find(BLOCK_TAGS) is None)
 
 
-def plain_text(node: Tag) -> str:
-    return flow_text("".join(" " if isinstance(item, Tag) else str(item) for item in node.descendants if isinstance(item, NavigableString) or item.name == "br"))
-
-
-def inline_markdown(node: Tag | NavigableString) -> str:
-    if isinstance(node, NavigableString):
-        return flow_text(str(node))
-    if node.name == "br":
-        return "\n"
-    if node.name not in {"a", "b", "strong", "i", "em"}:
-        return "".join(inline_markdown(child) for child in node.children if isinstance(child, (Tag, NavigableString)))
-    text = plain_text(node)
+def wrap(text: str, opening: str, closing: str) -> str:
     core = text.strip()
-    if node.name == "a":
-        href = clean_text(node.get("href", ""))
-        if href and not href.startswith(("javascript:", "mailto:")):
-            core = f"[{core}]({href})" if core else href
-    elif core:
-        marker = "**" if node.name in {"b", "strong"} else "`"
-        core = f"{marker}{core}{marker}"
-    lead = " " if text.startswith(" ") else ""
-    trail = " " if core and text.endswith(" ") else ""
-    return f"{lead}{core}{trail}"
+    if not core:
+        return text
+    return f"{text[: len(text) - len(text.lstrip())]}{opening}{core}{closing}{text[len(text.rstrip()):]}"
+
+
+def link_target(node: Tag) -> str:
+    href = clean_text(node.get("href", "")) if node.name == "a" else ""
+    return "" if href.startswith(("javascript:", "mailto:")) else href
+
+
+def inline_markdown(node: Tag | NavigableString, plain: bool = False) -> str:
+    if isinstance(node, NavigableString):
+        return flow_text(node)
+    if node.name == "br":
+        return " " if plain else "\n"
+    marker = "" if plain else MARKERS.get(node.name, "")
+    code_span = marker == "`" and node.find("a", href=True) is None
+    text = "".join(inline_markdown(child, plain or code_span) for child in node.children)
+    if marker:
+        marker = marker if code_span or marker == "**" else "*"
+        return wrap(text, marker, marker)
+    href = "" if plain else link_target(node)
+    if href and not text.strip():
+        return href
+    return wrap(text, "[", f"]({href})") if href else text
 
 
 def render_inline(nodes: list[Tag | NavigableString]) -> str:
     text = re.sub(r" {2,}", " ", "".join(inline_markdown(node) for node in nodes))
-    return re.sub(r"\s*\n\s*", "\n\n", text).strip()
+    return re.sub(r" *\n *", "\n", text).strip()
 
 
 def is_apicode(node: object) -> bool:
@@ -365,7 +350,7 @@ def render_apicode_block(nodes: list[Tag]) -> str:
 
 def render_heading(node: Tag) -> str:
     level = int(node.name[1]) if node.name and re.match(r"h[1-6]", node.name) else 2
-    text = slug_section(node_text(node))
+    text = slug_section(clean_text(node))
     if not text:
         return ""
     if "heading" in node.get("class", []):
@@ -391,33 +376,25 @@ def render_node(node: Tag) -> str:
     return render_children(node)
 
 
-def render_children(parent: Tag) -> str:
-    chunks: list[str] = []
-    children = [child for child in parent.children if isinstance(child, (Tag, NavigableString))]
-    index = 0
-    while index < len(children):
-        child = children[index]
-        if is_apicode(child):
-            group: list[Tag] = []
-            while index < len(children) and (is_apicode(children[index]) or clean_text(str(children[index])) == ""):
-                if is_apicode(children[index]):
-                    group.append(children[index])  # type: ignore[arg-type]
-                index += 1
-            if group:
-                chunks.append(render_apicode_block(group))
-            continue
+def child_kind(node: Tag | NavigableString) -> str:
+    if is_apicode(node):
+        return "code"
+    return "inline" if is_inline(node) else "block"
 
-        if is_inline(child):
-            start = index
-            while index < len(children) and is_inline(children[index]):
-                index += 1
-            rendered = render_inline(children[start:index])
+
+def render_children(parent: Tag) -> str:
+    groups: list[tuple[str, list[Tag | NavigableString]]] = []
+    for child in parent.children:
+        kind = child_kind(child)
+        if groups and groups[-1][0] == "code" and isinstance(child, NavigableString) and not child.strip():
+            continue
+        if groups and groups[-1][0] == kind != "block":
+            groups[-1][1].append(child)
         else:
-            rendered = render_node(child).strip()
-            index += 1
-        if rendered:
-            chunks.append(rendered)
-    return "\n\n".join(chunks)
+            groups.append((kind, [child]))
+    renderers = {"code": render_apicode_block, "inline": render_inline, "block": lambda nodes: render_node(nodes[0])}
+    chunks = [renderers[kind](nodes).strip() for kind, nodes in groups]
+    return "\n\n".join(chunk for chunk in chunks if chunk)
 
 
 def normalize_markdown(markdown: str) -> str:
@@ -430,7 +407,7 @@ def normalize_markdown(markdown: str) -> str:
 def remove_duplicate_body_headings(body: Tag, title: str) -> None:
     direct_headings = [child for child in body.children if isinstance(child, Tag) and child.name == "h1"]
     for index, heading in enumerate(direct_headings[:3]):
-        compact_text = node_text(heading)
+        compact_text = clean_text(heading)
         if compact_text == title or (index == 0 and compact_text.lower().endswith(" help")):
             heading.decompose()
 
@@ -469,14 +446,6 @@ def output_path_for(source: Path, input_root: Path, output_root: Path) -> Path:
     return output_root / relative.with_suffix(".md")
 
 
-def clean_output(output_root: Path, input_root: Path) -> None:
-    protected = (input_root, Path.cwd().resolve())
-    if output_root.parent == output_root or any(path.is_relative_to(output_root) for path in protected):
-        raise SystemExit(f"Refusing to clean {output_root}: it is a filesystem root or contains the input or current directory.")
-    if output_root.exists():
-        shutil.rmtree(output_root)
-
-
 def default_input_dir() -> Path:
     api_html = Path("API_HTML")
     return api_html if api_html.is_dir() else Path(".")
@@ -513,7 +482,7 @@ def main() -> int:
         try:
             markdown = convert_file(source, input_root)
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(markdown, encoding="utf-8", newline="\n")
+            write_text(target, markdown)
             converted += 1
         except Exception as exc:  # Keep batch conversion useful even with one malformed topic.
             failed.append((source.relative_to(input_root), str(exc)))
