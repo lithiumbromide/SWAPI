@@ -57,28 +57,19 @@ void IsCustomPropertyEditable(
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument22::IsCustomPropertyEditable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument22~IsCustomPropertyEditable.html)
-
-.
+See [SwDMDocument22::IsCustomPropertyEditable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument22~IsCustomPropertyEditable.html).
 
 ## Examples
 
-See the
-
-[ISwDMDocument22](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html)
-
-examples.
+See the [ISwDMDocument22](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html) examples.
 
 ## Remarks
 
-To populate FieldName, use[ISwDMDocument::GetCustomPropertyNames](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~GetCustomPropertyNames.html)to get the names of all of the custom properties in this document.
+To populate FieldName, use [ISwDMDocument::GetCustomPropertyNames](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~GetCustomPropertyNames.html) to get the names of all of the custom properties in this document.
 
 ## See Also
 
 [ISwDMDocument22 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html)
-
 [ISwDMDocument22 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22_members.html)
 
 ## Availability

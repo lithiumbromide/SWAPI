@@ -9,14 +9,13 @@ source: "sldworksapi/Add_and_Edit_Misaligned_Symmetric_Concentric_Mate_Example_V
 
 # Add and Edit Misaligned Symmetric Concentric Mate Example (VBA)
 
-This example shows how to add and edit a misaligned symmetric concentric mate
-between components.
+This example shows how to add and edit a misaligned symmetric concentric mate between components.
 
 ```
 '-----------------------------------------------------------------
 ' Preconditions:
 ' 1. Verify that the parts to open and assembly template exist.
-' 2. Open a new session of SOLIDWORKS to ensure that the assembly
+' 2. Open a new session of SOLIDWORKS Design to ensure that the assembly
 '    document's title is Assem1.
 ' 3. Open the Immediate window.
 '

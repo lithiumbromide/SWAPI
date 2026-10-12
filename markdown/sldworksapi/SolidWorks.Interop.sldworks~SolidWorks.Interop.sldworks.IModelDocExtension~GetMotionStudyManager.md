@@ -40,13 +40,7 @@ System.object GetMotionStudyManager()
 System.Object^ GetMotionStudyManager();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,23 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetMotionStudyManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetMotionStudyManager.html)
-
-.
+See [ModelDocExtension::GetMotionStudyManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetMotionStudyManager.html).
 
 ## Examples
 
 [Create Motion Studies (VBA)](Create_Motion_Studies_Example_VB.htm)
-
 [Get COSMOSMotion Motion Study Properties and Results (VBA)](Get_COSMOSMotion_Motion_Study_Properties_and_Results_Example_VB.htm)
-
 [Get Motion Study (VBA)](Get_Motion_Study_Example_VB.htm)
-
 [Add Spring to Motion Study (C#)](Add_Spring_to_Motion_Study_Example_CSharp.htm)
-
 [Add Spring to Motion Study (VB.NET)](Add_Spring_to_Motion_Study_Example_VBNET.htm)
-
 [Add Spring to Motion Study (VBA)](Add_Spring_to_Motion_Study_Example_VB.htm)
-
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

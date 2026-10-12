@@ -42,42 +42,25 @@ property HoleTable^ HoleTable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IHoleTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable.html)
-
-object
+Pointer to the [IHoleTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable.html) object
 
 ## VBA Syntax
 
-See
-
-[HoleTableAnnotation::HoleTable](ms-its:sldworksapivb6.chm::/sldworks~HoleTableAnnotation~HoleTable.html)
-
-.
+See [HoleTableAnnotation::HoleTable](ms-its:sldworksapivb6.chm::/sldworks~HoleTableAnnotation~HoleTable.html).
 
 ## Examples
 
 [Get Labels of Datum Origin (C#)](Get_Labels_of_Datum_Origin_Example_CSharp.htm)
-
 [Get Labels of Datum Origin (VB.NET)](Get_Labels_of_Datum_Origin_Example_VBNET.htm)
-
 [Get Labels of Datum Origin (VBA)](Get_Labels_of_Datum_Origin_Example_VB.htm)
 
 ## See Also
 
 [IHoleTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation.html)
-
 [IHoleTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation_members.html)
 
 ## Availability

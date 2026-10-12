@@ -45,40 +45,23 @@ property System.int IsEndCapInward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thickness direction as defined by
-
-[swEndCapThicknessDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndCapThicknessDirection_e.html)
+Thickness direction as defined by [swEndCapThicknessDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndCapThicknessDirection_e.html)
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::IsEndCapInward](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~IsEndCapInward.html)
-
-.
+See [EndCapFeatureData::IsEndCapInward](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~IsEndCapInward.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
 
 ## Availability

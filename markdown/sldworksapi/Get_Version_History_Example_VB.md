@@ -9,7 +9,7 @@ source: "sldworksapi/Get_Version_History_Example_VB.htm"
 
 # Get Version History Example (VBA)
 
-This example shows how to get the version history of a SOLIDWORKS model document.
+This example shows how to get the version history of a SOLIDWORKS Design model document.
 
 ```
 '------------------------------------------------

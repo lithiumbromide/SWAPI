@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~Gene
 
 # GenerateItems Method (IEdmBatchItemGeneration)
 
-Creates the items added to the batch by
-
-[IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html)
-
-.
+Creates the items added to the batch by [IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html).
 
 ## Syntax
 
@@ -53,33 +49,18 @@ void GenerateItems(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `ppoRetItems`: Array of
-
-[EdmGenItemInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html)
-
-structures, one structure for each new item
+- `ppoRetItems`: Array of [EdmGenItemInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html) structures, one structure for each new item
 - `pbOpen`: True, if the following occurred:
 
-- [EdmItemGenerationFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemGenerationFlags.html)
+  - [EdmItemGenerationFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemGenerationFlags.html).Eigcf_OpenItemsCheckbox was set in [IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html).
+  - The user selected the checkbox to open items after creation in the dialog box displayed by [IEdmBatchItemGeneration::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~ShowDlg.html).
 
-  .Eigcf_OpenItemsCheckbox was set in
-
-  [IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html)
-
-  .
-- The user selected the checkbox to open items after creation in the dialog box displayed by
-
-  [IEdmBatchItemGeneration::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~ShowDlg.html)
-
-  .
-
-False, if not
+  False, if not
 - `poCallback`: Null; reserved for future use
 
 ## Examples
 
 [Add Items (C#)](Add_Items_Example_CSharp.htm)
-
 [Add Items (VB.NET)](Add_Items_Example_VBNET.htm)
 
 ## Remarks
@@ -92,7 +73,6 @@ False, if not
 ## See Also
 
 [IEdmBatchItemGeneration Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
 [IEdmBatchItemGeneration Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration_members.html)
 
 ## Availability

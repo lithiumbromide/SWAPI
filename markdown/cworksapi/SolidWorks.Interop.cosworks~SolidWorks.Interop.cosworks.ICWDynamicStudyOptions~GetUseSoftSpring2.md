@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # GetUseSoftSpring2 Method (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetUseSoftSpring3](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetUseSoftSpring3.html)
-
-.
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetUseSoftSpring3](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetUseSoftSpring3.html).
 
 ## Syntax
 
@@ -54,7 +50,7 @@ System.int GetUseSoftSpring2(
 ### Parameters
 
 - `BUseSoftSpring`: - 1 = Use soft spring to stabilize model
-- 0 = Do not use soft spring
+  - 0 = Do not use soft spring
 
 ### Return Value
 
@@ -62,11 +58,7 @@ System.int GetUseSoftSpring2(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetUseSoftSpring2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetUseSoftSpring2.html)
-
-.
+See [CWDynamicStudyOptions::GetUseSoftSpring2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetUseSoftSpring2.html).
 
 ## Remarks
 
@@ -74,15 +66,12 @@ You can use this method to check the stability of the model.
 
 To stabilize the model for final runs, use:
 
-- [ICWDynamicStudyOptions::SetUseSoftSpring2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetUseSoftSpring2.html)
-
-  with BUseSoftSpring = 0.
+- [ICWDynamicStudyOptions::SetUseSoftSpring2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetUseSoftSpring2.html) with BUseSoftSpring = 0.
 - proper restraints.
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

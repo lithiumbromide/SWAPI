@@ -39,44 +39,26 @@ void BlankRefGeom()
 void BlankRefGeom();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::BlankRefGeom](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~BlankRefGeom.html)
-
-.
+See [ModelDoc2::BlankRefGeom](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~BlankRefGeom.html).
 
 ## Examples
 
 [Create Replace Face Feature (C#)](Replace_Face_Example_CSharp.htm)
-
 [Create Replace Face Feature (VB.NET)](Replace_Face_Example_VBNET.htm)
-
 [Create Replace Face Feature (VBA)](Replace_Face_Example_VB.htm)
 
 ## Remarks
 
-If you select a reference plane and then call this method, the plane is invisible in the graphics area. This method has the same effect as right-clicking an item and selecting
-
-Hide
-
-on the shortcut menu.
+If you select a reference plane and then call this method, the plane is invisible in the graphics area. This method has the same effect as right-clicking an item and selecting **Hide** on the shortcut menu.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::UnBlankRefGeom Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~UnBlankRefGeom.html)
 
 ## Availability

@@ -51,17 +51,11 @@ System.bool EditRollback(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Location`: Location to which to move the rollback bar as defined in[swMoveRollbackBarTo_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveRollbackBarTo_e.html)
+- `Location`: Location to which to move the rollback bar as defined in [swMoveRollbackBarTo_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveRollbackBarTo_e.html)
 - `Feature`: Name of the feature
 
 ### Return Value
@@ -70,18 +64,12 @@ True if moving the rollback bar back or forward was successful, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::EditRollback](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditRollback.html)
-
-.
+See [FeatureManager::EditRollback](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditRollback.html).
 
 ## Examples
 
 [Roll Back Model (C#)](Roll_Back_Model_Example_CSharp.htm)
-
 [Roll Back Model (VB.NET)](Roll_Back_Model_Example_VBNET.htm)
-
 [Roll Back Model (VBA)](Roll_Back_Model_Example_VB.htm)
 
 ## Remarks
@@ -91,9 +79,7 @@ When the model is in a rollback state, it reverts to an earlier state, suppressi
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeature::IsRolledBack Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsRolledBack.html)
 
 ## Availability

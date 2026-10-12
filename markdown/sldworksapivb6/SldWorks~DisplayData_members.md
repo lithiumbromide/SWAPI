@@ -1,6 +1,5 @@
 ---
-title: "DisplayData Object
-Members"
+title: "DisplayData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DisplayData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DisplayData_members.html"
 ---
 
-# DisplayData Object
-Members
+# DisplayData Object Members
 
 ## Public Methods
 

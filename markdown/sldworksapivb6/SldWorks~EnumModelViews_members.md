@@ -1,6 +1,5 @@
 ---
-title: "EnumModelViews Object
-Members"
+title: "EnumModelViews Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumModelViews_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumModelViews_members.html"
 ---
 
-# EnumModelViews Object
-Members
+# EnumModelViews Object Members
 
 ## Public Methods
 

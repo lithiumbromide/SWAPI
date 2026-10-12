@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageActiveX Object
-Members"
+title: "PropertyManagerPageActiveX Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageActiveX_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageActiveX_members.html"
 ---
 
-# PropertyManagerPageActiveX Object
-Members
+# PropertyManagerPageActiveX Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "PDMWProjects Collection
-Members"
+title: "PDMWProjects Collection Members"
 project: "PDMWorksActiveX DLL"
 interface: "PDMWProjects_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "pdmworksapivb6/PDMWorks~PDMWProjects_members.html"
 ---
 
-# PDMWProjects Collection
-Members
+# PDMWProjects Collection Members
 
 ## Public Properties
 

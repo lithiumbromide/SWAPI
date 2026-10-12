@@ -41,11 +41,7 @@ void ViewResults();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::ViewResults](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~ViewResults.html)
-
-.
+See [SustainabilityMaterial::ViewResults](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~ViewResults.html).
 
 ## Examples
 
@@ -65,7 +61,6 @@ See
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
 
 ## Availability

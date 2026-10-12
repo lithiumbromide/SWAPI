@@ -9,8 +9,7 @@ source: "sldworksapi/Get_BCurve_Spline_Points_Example_VBNET.htm"
 
 # Get BCurve Spline Points Example (VB.NET)
 
-kadov_tag{{<spaces>}}This example shows how to get B-spline
-parameter data (knots, control points, etc.) for a selected spline
+This example shows how to get B-spline parameter data (knots, control points, etc.) for a selected spline
 or curve.
 
 ```

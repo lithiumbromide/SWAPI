@@ -1,6 +1,5 @@
 ---
-title: "ICostingDefaults Object
-Members"
+title: "ICostingDefaults Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "ICostingDefaults_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~ICostingDefaults_members.html"
 ---
 
-# ICostingDefaults Object
-Members
+# ICostingDefaults Object Members
 
 ## Public Methods
 

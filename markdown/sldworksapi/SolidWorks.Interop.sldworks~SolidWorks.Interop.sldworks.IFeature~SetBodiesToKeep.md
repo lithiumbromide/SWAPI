@@ -58,47 +58,30 @@ void SetBodiesToKeep(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AllBodies`: True to keep all bodies, false to not
 - `BodiesToKeep`: Array of bodies to keep
-- `ConfigOption`: Configuration options as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `ConfigOption`: Configuration options as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `ConfigNames`: Array of configuration names
 
 ## VBA Syntax
 
-See
-
-[Feature::SetBodiesToKeep](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetBodiesToKeep.html)
-
-.
+See [Feature::SetBodiesToKeep](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetBodiesToKeep.html).
 
 ## Examples
 
 [Cut Body and Keep All Bodies (C#)](Cut_Body_and_Keep_All_Bodies_Example_CSharp.htm)
-
 [Cut Body and Keep All Bodies (VB.NET)](Cut_Body_and_Keep_All_Bodies_Example_VBNET.htm)
-
 [Cut Body and Keep All Bodies (VBA)](Cut_Body_and_Keep_All_Bodies_Example_VB.htm)
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IAssemblyDoc PromptBodiesToKeepNotify Event](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_PromptBodiesToKeepNotifyEventHandler.html)
-
 [IPartDoc PromptBodiesToKeepNotify Event](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_PromptBodiesToKeepNotifyEventHandler.html)
 
 ## Availability

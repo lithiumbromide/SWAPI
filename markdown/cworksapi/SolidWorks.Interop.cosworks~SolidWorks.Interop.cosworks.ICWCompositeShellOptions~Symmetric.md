@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # Symmetric Property (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::Symmetric2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Symmetric2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::Symmetric2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Symmetric2.html).
 
 ## Syntax
 
@@ -55,24 +51,15 @@ property System.int Symmetric {
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::Symmetric](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~Symmetric.html)
-
-.
+See [CWCompositeShellOptions::Symmetric](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~Symmetric.html).
 
 ## Remarks
 
-Setting this property is only valid if
-
-[ICWCompositeShellOptions::Sandwich](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich.html)
-
-is set to 0.
+Setting this property is only valid if [ICWCompositeShellOptions::Sandwich](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich.html) is set to 0.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
 
 ## Availability

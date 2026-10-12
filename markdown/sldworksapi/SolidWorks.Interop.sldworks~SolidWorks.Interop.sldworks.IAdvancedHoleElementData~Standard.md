@@ -45,40 +45,23 @@ property System.int Standard {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Hole standard as defined in
-
-[swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html)
+Hole standard as defined in [swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html)
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData::Standard](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~Standard.html)
-
-.
+See [AdvancedHoleElementData::Standard](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~Standard.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
-examples.
+See the [IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html) examples.
 
 ## See Also
 
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetUserPreferenceIntegerValue Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetUserPreferenceInteger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetUserPreferenceInteger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html).
 
 ## Syntax
 
@@ -51,17 +47,11 @@ System.int GetUserPreferenceIntegerValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreferenceValue`: Value as defined in[swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html)
+- `UserPreferenceValue`: Value as defined in [swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html)
 
 ### Return Value
 
@@ -69,30 +59,22 @@ Numeric value associated with the specified UserPreferenceValue
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetUserPreferenceIntegerValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetUserPreferenceIntegerValue.html)
-
-.
+See [ModelDoc2::GetUserPreferenceIntegerValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetUserPreferenceIntegerValue.html).
 
 ## Examples
 
 [Get Material Properties (VBA)](Get_Material_Properties_Example_VB.htm)
-
 [Make Part Transparent (VBA)](Make_Part_Transparent_Example_VB.htm)
-
 [Save Document as TIFF (VBA)](Save_As_Tiff_Example_VB.htm)
-
 [Set Grid Lines (VBA)](Set_Grid_Lines_Example_VB.htm)
 
 ## Remarks
 
-This method is equivalent to interactively getting document properties in the SOLIDWORKS product. See[System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm)for details.
+This method is equivalent to interactively getting document properties in the SOLIDWORKS Design software. See [System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm) for details.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

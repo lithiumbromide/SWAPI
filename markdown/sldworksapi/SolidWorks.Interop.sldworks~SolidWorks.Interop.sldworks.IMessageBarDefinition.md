@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 Allows access to a message bar in an add-in.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,19 +41,11 @@ public interface class IMessageBarDefinition
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition.html)
-
-.
+See [MessageBarDefinition](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## Remarks
 
@@ -76,7 +68,5 @@ A message bar:
 ## See Also
 
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)

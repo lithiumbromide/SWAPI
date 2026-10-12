@@ -45,13 +45,7 @@ property System.int ProjectionReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -67,16 +61,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::ProjectionReference](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ProjectionReference.html)
-
-.
+See [RenderMaterial::ProjectionReference](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ProjectionReference.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

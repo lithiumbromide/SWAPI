@@ -51,13 +51,7 @@ System.Object^ GetLastSaveError(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,18 @@ Text message of the save error
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetLastSaveError](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLastSaveError.html)
-
-.
+See [SldWorks::GetLastSaveError](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLastSaveError.html).
 
 ## Examples
 
 [Get Last Save Error (VBA)](Get_Last_Save_Error_Example_VB.htm)
-
 [Get Last Save Error (VB.NET)](Get_Last_Save_Error_Example_VBNET.htm)
-
 [Get Last Save Error (C#)](Get_Last_Save_Error_Example_CSharp.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetErrorMessages Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetErrorMessages.html)
 
 ## Availability

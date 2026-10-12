@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # GetOLEObjectData Method (ISheet)
 
-Obsolete. Superseded by
-
-[ISwOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html)
-
-.
+Obsolete. Superseded by [ISwOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetOLEObjectData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetOLEObjectData](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectData.html)
-
-.
+See [Sheet::GetOLEObjectData](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectData.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

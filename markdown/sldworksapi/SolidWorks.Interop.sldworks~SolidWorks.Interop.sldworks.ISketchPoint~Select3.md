@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # Select3 Method (ISketchPoint)
 
-Obsolete. Superseded by
-
-[ISketchPoint::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~Select4.html)
-
-.
+Obsolete. Superseded by [ISketchPoint::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~Select4.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool Select3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::Select3](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Select3.html)
-
-.
+See [SketchPoint::Select3](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Select3.html).
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)

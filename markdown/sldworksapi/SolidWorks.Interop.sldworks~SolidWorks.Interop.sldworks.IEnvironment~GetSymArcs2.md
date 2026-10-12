@@ -47,51 +47,33 @@ System.Object^ GetSymArcs2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `SymId`: Name of the geometric tolerance symbol formatted as:
 
-<`LibraryName-SymbolName`>
+  <`LibraryName-SymbolName`>
 
-where`LibraryName`and`SymbolName`are in the SOLIDWORKS text file**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.**
+  where `LibraryName` and `SymbolName` are in the SOLIDWORKS text file **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.**
 
-NOTE: You must include the right- and left-angle brackets and separate`LibraryName`and`SymbolName`with a hyphen; for example, <MOD-DEG>.
+  NOTE: You must include the right- and left-angle brackets and separate `LibraryName` and `SymbolName` with a hyphen; for example, <MOD-DEG>.
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Environment::GetSymArcs2](ms-its:sldworksapivb6.chm::/sldworks~Environment~GetSymArcs2.html)
-
-.
+See [Environment::GetSymArcs2](ms-its:sldworksapivb6.chm::/sldworks~Environment~GetSymArcs2.html).
 
 ## Examples
 
-See the
-
-[IEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.html)
-
-examples.
+See the [IEnvironment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.html) examples.
 
 ## Remarks
 
-Each arc in the geometric tolerance symbol is defined by three points (center, arc start, and arc end), whether the arc is filled, and whether the chord joining the start and end points is drawn. The size of the array returned is based on the number of arcs within this geometric tolerance symbol. You can determine this number by calling[IEnvironment::GetSymEdgeCounts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~GetSymEdgeCounts.html).
+Each arc in the geometric tolerance symbol is defined by three points (center, arc start, and arc end), whether the arc is filled, and whether the chord joining the start and end points is drawn. The size of the array returned is based on the number of arcs within this geometric tolerance symbol. You can determine this number by calling [IEnvironment::GetSymEdgeCounts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~GetSymEdgeCounts.html).
 
 The return value contains the following array for each arc:
 
@@ -120,7 +102,6 @@ whether the chord joining the start and end points is drawn ]
 ## See Also
 
 [IEnvironment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.html)
-
 [IEnvironment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment_members.html)
 
 ## Availability

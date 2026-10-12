@@ -55,13 +55,7 @@ System.int CallBack(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,17 +69,15 @@ Return value from the callback function, if it is called; DefaultRetVal if it is
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CallBack](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CallBack.html)
-
-.
+See [SldWorks::CallBack](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CallBack.html).
 
 ## Examples
 
 To set the filename:
 
+```vb
 result = swApp.CallBack("pworks@miEval", 0, "RenderToFile Filename d:\image\xyz.jpg")
+```
 
 ## Remarks
 
@@ -107,11 +99,7 @@ The CallBackArgs value contains the information to pass to the callback function
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddCallback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddCallback.html)
-
 [ISldWorks::RemoveCallback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveCallback.html)
-
 [ISldWorks::SetAddinCallbackInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo.html)

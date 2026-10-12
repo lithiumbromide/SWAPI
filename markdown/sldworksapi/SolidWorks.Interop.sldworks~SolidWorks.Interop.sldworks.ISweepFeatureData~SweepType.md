@@ -42,17 +42,11 @@ property System.int SweepType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sweep type as defined in[swFeatureNameID_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatureNameID_e.html):
+Sweep type as defined in [swFeatureNameID_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatureNameID_e.html):
 
 - swFmSweep (swept boss)
 - swFmSweepCut (swept cut)
@@ -60,16 +54,11 @@ Sweep type as defined in[swFeatureNameID_e](ms-its:swconst.chm::/SolidWorks.Inte
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::SweepType](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~SweepType.html)
-
-.
+See [SweepFeatureData::SweepType](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~SweepType.html).
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
 
 ## Availability

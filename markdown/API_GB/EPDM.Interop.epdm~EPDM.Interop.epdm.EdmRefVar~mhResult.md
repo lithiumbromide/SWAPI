@@ -34,18 +34,9 @@ System.int mhResult
 
 ## Remarks
 
-All errors that can be returned on a file level by
-
-[IEdmBatchRefVars::GetRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars~GetRefVars.html)
-
-and
-
-[IEdmBatchRefVars::SetRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars~SetRefVars.html)
-
-are returned here rather than failing the entire method call.
+All errors that can be returned on a file level by [IEdmBatchRefVars::GetRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars~GetRefVars.html) and [IEdmBatchRefVars::SetRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars~SetRefVars.html) are returned here rather than failing the entire method call.
 
 ## See Also
 
 [EdmRefVar Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)
-
 [EdmRefVar Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar_members.html)

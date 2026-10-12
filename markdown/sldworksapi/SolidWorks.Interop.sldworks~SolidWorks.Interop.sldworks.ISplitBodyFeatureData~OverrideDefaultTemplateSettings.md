@@ -45,13 +45,7 @@ property System.bool OverrideDefaultTemplateSettings {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to use an alternate template, false to use the default template
 
 ## VBA Syntax
 
-See
-
-[SplitBodyFeatureData::OverrideDefaultTemplateSettings](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~OverrideDefaultTemplateSettings.html)
-
-.
+See [SplitBodyFeatureData::OverrideDefaultTemplateSettings](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~OverrideDefaultTemplateSettings.html).
 
 ## Remarks
 
-Use
-
-[ISplitBodyFeatureData::TemplatePath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~TemplatePath.html)
-
-to specify the alternate template.
+Use [ISplitBodyFeatureData::TemplatePath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~TemplatePath.html) to specify the alternate template.
 
 ## See Also
 
 [ISplitBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
 [ISplitBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData_members.html)
 
 ## Availability

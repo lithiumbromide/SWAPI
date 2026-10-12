@@ -40,29 +40,15 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
-
-object
+Pointer to the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object
 
 ## VBA Syntax
 
-See
-
-[CThread::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~CThread~IGetAnnotation.html)
-
-.
+See [CThread::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~CThread~IGetAnnotation.html).
 
 ## Remarks
 
@@ -71,19 +57,12 @@ This method gets the owning IAnnotation object for this cosmetic thread. The IAn
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [ICThread Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html)
-
 [ICThread::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread~GetAnnotation.html)
-
 [IAnnotation::GetNext3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetNext3.html)
-
 [IModelDocExtension::GetAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAnnotations.html)
-
 [IView::GetAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotations.html)
-
 [IView::GetFirstAnnotation3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstAnnotation3.html)
-
 [IView::IGetAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetAnnotations.html)
 
 ## Availability

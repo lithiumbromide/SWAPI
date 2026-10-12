@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertCompositeSurfaceProfileGeoTol Object
-Members"
+title: "ISwDMDimXpertCompositeSurfaceProfileGeoTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertCompositeSurfaceProfileGeoTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertCompositeSurfaceProfileGeoTol_members.html"
 ---
 
-# ISwDMDimXpertCompositeSurfaceProfileGeoTol Object
-Members
+# ISwDMDimXpertCompositeSurfaceProfileGeoTol Object Members
 
 ## Public Properties
 

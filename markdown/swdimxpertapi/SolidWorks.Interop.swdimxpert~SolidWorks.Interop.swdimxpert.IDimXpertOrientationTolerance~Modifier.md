@@ -44,28 +44,20 @@ property swDimXpertMaterialConditionModifier_e Modifier {
 
 ### Property Value
 
-Material condition modifier as defined in
-
-[swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
+Material condition modifier as defined in [swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertOrientationTolerance::Modifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertOrientationTolerance~Modifier.html)
-
-.
+See [DimXpertOrientationTolerance::Modifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertOrientationTolerance~Modifier.html).
 
 ## Examples
 
 [Get DimXpert Tolerance3 Example (VBA)](Get_DimXpert_Tolerance3_Example_VB.htm)
-
 [Get DimXpert Tolerance3 Example (VB.NET)](Get_DimXpert_Tolerance3_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertOrientationTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.html)
-
 [IDimXpertOrientationTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance_members.html)
 
 ## Availability

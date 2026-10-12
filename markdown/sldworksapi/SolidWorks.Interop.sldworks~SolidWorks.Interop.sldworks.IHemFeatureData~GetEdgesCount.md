@@ -40,13 +40,7 @@ System.int GetEdgesCount()
 System.int GetEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of edges
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~GetEdgesCount.html)
-
-.
+See [HemFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~GetEdgesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IHemFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~IGetEdges.html)
-
-.
+Call this method before calling [IHemFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~IGetEdges.html).
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
-
 [IHemFeatureData::ISetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData~ISetEdges.html)
-
 [IHemFeatureData::Edges Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData~Edges.html)
 
 ## Availability

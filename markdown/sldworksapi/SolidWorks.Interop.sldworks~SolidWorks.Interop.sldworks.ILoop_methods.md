@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ILoop Interface Methods
 
-For a list of all members of this type, see[ILoop members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html).
+For a list of all members of this type, see [ILoop members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html).
 
 ## Public Methods
 
@@ -37,5 +37,4 @@ For a list of all members of this type, see[ILoop members](SolidWorks.Interop.sl
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

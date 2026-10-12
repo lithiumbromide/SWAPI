@@ -47,13 +47,7 @@ System.int AddSceneExtProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Unique identifier returned to access the property extension in the future
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AddSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddSceneExtProperty.html)
-
-.
+See [ModelDoc2::AddSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddSceneExtProperty.html).
 
 ## Remarks
 
@@ -78,7 +68,6 @@ This scene extension property is stored on the model document, but is unique to 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

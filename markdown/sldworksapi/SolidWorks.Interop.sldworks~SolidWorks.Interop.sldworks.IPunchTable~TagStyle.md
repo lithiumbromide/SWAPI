@@ -45,42 +45,26 @@ property System.int TagStyle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Tag style as defined by
-
-[swPunchTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPunchTableTagStyle_e.html)
+Tag style as defined by [swPunchTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPunchTableTagStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[PunchTable::TagStyle](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~TagStyle.html)
-
-.
+See [PunchTable::TagStyle](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~TagStyle.html).
 
 ## Examples
 
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [IPunchTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html)
-
 [IPunch::CombineTags Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable~CombineTags.html)
 
 ## Availability

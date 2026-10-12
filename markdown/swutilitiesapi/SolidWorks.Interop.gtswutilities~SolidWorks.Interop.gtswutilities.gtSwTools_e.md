@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtSwTools_e Enumeration
 
-Tool IDs for
-
-[IUtilities::GetToolInterface](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IUtilities~GetToolInterface.html)
-
-.
+Tool IDs for [IUtilities::GetToolInterface](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IUtilities~GetToolInterface.html).
 
 ## Syntax
 

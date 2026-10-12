@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GraphicsRedraw2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void GraphicsRedraw2()
 void GraphicsRedraw2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GraphicsRedraw2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GraphicsRedraw2.html)
-
-.
+See [ModelDoc::GraphicsRedraw2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GraphicsRedraw2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

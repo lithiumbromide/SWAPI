@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Table_Anchor_of_Hole_Table_Example_CSharp.htm"
 
 # Get and Set Table Anchor of Hole Table Example (C#)
 
-This example shows how to get and set the table anchor of a hole table in a
-drawing.
+This example shows how to get and set the table anchor of a hole table in a drawing.
 
 ```vb
   //-----------------------------------------------------------------

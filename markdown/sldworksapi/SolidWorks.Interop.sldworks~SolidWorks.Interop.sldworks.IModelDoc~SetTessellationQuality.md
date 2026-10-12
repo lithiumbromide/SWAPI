@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetTessellationQuality Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetTessellationQuality](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetTessellationQuality.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetTessellationQuality](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetTessellationQuality.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetTessellationQuality(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetTessellationQuality](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetTessellationQuality.html)
-
-.
+See [ModelDoc::SetTessellationQuality](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetTessellationQuality.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -40,29 +40,15 @@ System.object GetAffectedFaces()
 System.Object^ GetAffectedFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of the
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-modified by a feature
+Array of the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) modified by a feature
 
 ## VBA Syntax
 
-See
-
-[Feature::GetAffectedFaces](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetAffectedFaces.html)
-
-.
+See [Feature::GetAffectedFaces](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetAffectedFaces.html).
 
 ## Examples
 
@@ -71,11 +57,8 @@ See
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetAffectedFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetAffectedFaceCount.html)
-
 [IFeature::IGetAffectedFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IGetAffectedFaces.html)
 
 ## Availability

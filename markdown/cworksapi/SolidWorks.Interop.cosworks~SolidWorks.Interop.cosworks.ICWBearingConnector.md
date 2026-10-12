@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # ICWBearingConnector Interface
 
-Allows access to a bearing connector.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a bearing connector. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWBearingConnector
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector.html)
-
-.
+See [CWBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector.html).
 
 ## Examples
 
@@ -77,7 +65,7 @@ See
 
 'Postconditions:
 
-'1. Activates and gets the**Static 5_Rigid**study.
+'1. Activates and gets the **Static 5_Rigid** study.
 
 '2. Creates a bearing connector.
 
@@ -235,31 +223,31 @@ If CWBearingConnector Is Nothing Then ErrorMsg2 SwApp, "GetBearingConnector fail
 
 CWBearingConnector.**BeginEdit**
 
-CWBearingConnector.**ConnectionType**= swsSpringConnType
+CWBearingConnector.**ConnectionType** = swsSpringConnType
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector ConnectionType failed", True
 
-CWBearingConnector.**UnitType**= swsUnitSI
+CWBearingConnector.**UnitType** = swsUnitSI
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector UnitType failed", True
 
-CWBearingConnector.**StiffnessType**= swsBearingStiffnessRigid
+CWBearingConnector.**StiffnessType** = swsBearingStiffnessRigid
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector StiffnessType failed", True
 
-CWBearingConnector.**AxialStiffnessValue**= 0
+CWBearingConnector.**AxialStiffnessValue** = 0
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector AxialStiffnessValue failed", True
 
-CWBearingConnector.**LateralStiffnessValue**= 0
+CWBearingConnector.**LateralStiffnessValue** = 0
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector LateralStiffnessValue failed", True
 
-CWBearingConnector.**TiltStiffnessValue**= 0
+CWBearingConnector.**TiltStiffnessValue** = 0
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector TiltStiffnessValue failed", True
 
-CWBearingConnector.**StabilizeShaftRotation**= False
+CWBearingConnector.**StabilizeShaftRotation** = False
 
 If errCode <> 0 Then ErrorMsg2 SwApp, "Bearing connector StabilizeShaftRotation failed", True
 
@@ -354,16 +342,11 @@ End Function
 ## Examples
 
 [Add Bearing Connector (VB.NET)](Add_Bearing_Connector_Example_VBNET.htm)
-
 [Add Bearing Connector (C#)](Add_Bearing_Connector_Example_CSharp.htm)
 
 ## Remarks
 
-For more information about bearing connectors, see the
-
-SOLIDWORKS user-interface help > Simulation > Loads and Restraints > Connectors > Bearing Connectors Between Parts
-
-topics.
+For more information about bearing connectors, see the **SOLIDWORKS user-interface help > Simulation > Loads and Restraints > Connectors > Bearing Connectors Between Parts** topics.
 
 ## Accessors
 
@@ -374,5 +357,4 @@ topics.
 ## See Also
 
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

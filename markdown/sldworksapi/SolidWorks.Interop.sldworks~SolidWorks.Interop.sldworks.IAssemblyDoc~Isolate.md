@@ -40,13 +40,7 @@ System.bool Isolate()
 System.bool Isolate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ True if the selected components are isolated, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::Isolate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~Isolate.html)
-
-.
+See [AssemblyDoc::Isolate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~Isolate.html).
 
 ## Examples
 
 [Isolate Component (C#)](Isolate_Component_Example_CSharp.htm)
-
 [Isolate Component (VB.NET)](Isolate_Component_Example_VBNET.htm)
-
 [Isolate Component (VBA)](Isolate_Component_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ExitIsolate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ExitIsolate.html)
-
 [IAssemblyDoc::SaveIsolate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SaveIsolate.html)
-
 [IAssemblyDoc::SetIsolateVisibility Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetIsolateVisibility.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # SuppressUnSuppress Method (ICWContactSet)
 
-Suppresses or unsuppresses this contact set depending on its
-
-[state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~State.html)
-
-.
+Suppresses or unsuppresses this contact set depending on its [state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~State.html).
 
 ## Syntax
 
@@ -45,18 +41,12 @@ void SuppressUnSuppress();
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~SuppressUnSuppress.html)
-
-.
+See [CWContactSet::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~SuppressUnSuppress.html).
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactManager::SuppressUnsuppressContactPair Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~SuppressUnsuppressContactPair.html)
 
 ## Availability

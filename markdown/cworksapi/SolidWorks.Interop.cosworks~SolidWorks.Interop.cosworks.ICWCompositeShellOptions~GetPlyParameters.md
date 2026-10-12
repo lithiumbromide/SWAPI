@@ -61,20 +61,10 @@ CWMaterial^ GetPlyParameters(
 
 ### Parameters
 
-- `NPly`: Index of ply (see
-
-Remarks
-
-)
+- `NPly`: Index of ply (see **Remarks**)
 - `DThickness`: Thickness of ply
-- `DAngle`: Angle of ply (see
-
-Remarks
-
-)
-- `NErrorCode`: Error code as defined in
-
-[swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
+- `DAngle`: Angle of ply (see **Remarks**)
+- `NErrorCode`: Error code as defined in [swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
 
 ### Return Value
 
@@ -82,15 +72,11 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::GetPlyParameters](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~GetPlyParameters.html)
-
-.
+See [CWCompositeShellOptions::GetPlyParameters](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~GetPlyParameters.html).
 
 ## Remarks
 
-Call[ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetTotalPlies.html)to set NPly.
+Call [ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetTotalPlies.html) to set NPly.
 
 | If ICWCompositeShellOptions::PlyRelativeAngle is set to... | Then DAngle's value is... |
 | --- | --- |
@@ -100,9 +86,7 @@ Call[ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidW
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::SetPlyParameters Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetPlyParameters.html)
 
 ## Availability

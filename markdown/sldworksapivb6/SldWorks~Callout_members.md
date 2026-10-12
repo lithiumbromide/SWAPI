@@ -1,6 +1,5 @@
 ---
-title: "Callout Object
-Members"
+title: "Callout Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Callout_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Callout_members.html"
 ---
 
-# Callout Object
-Members
+# Callout Object Members
 
 ## Public Methods
 

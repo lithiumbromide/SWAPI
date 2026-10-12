@@ -45,13 +45,7 @@ property System.double ThruTapDrillDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,23 +53,11 @@ Through-tap drill diameter
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::ThruTapDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~ThruTapDrillDiameter.html)
-
-.
+See [WizardHoleFeatureData2::ThruTapDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~ThruTapDrillDiameter.html).
 
 ## Examples
 
-See
-
-Create Holes Using Hole Wizard and Sketch Points
-
-examples in
-
-[IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html)
-
-.
+See **Create Holes Using Hole Wizard and Sketch Points** examples in [IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html).
 
 ## Remarks
 
@@ -88,18 +70,14 @@ This property is only relevant for:
 - swTapThruCounterSinkTop
 - swTapThruCounterSinkTopBottom
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::ThruHoleDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDepth.html)
-
 [IWizardHoleFeatureData2::ThruHoleDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDiameter.html)
-
 [IWizardHoleFeatureData2::ThruTapDrillDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~ThruTapDrillDepth.html)
 
 ## Availability

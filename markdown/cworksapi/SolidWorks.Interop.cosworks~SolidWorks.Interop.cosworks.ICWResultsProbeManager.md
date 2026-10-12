@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 Allows access to the results probe of a plot.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWResultsProbeManager
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager.html)
-
-.
+See [CWResultsProbeManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager.html).
 
 ## Examples
 
 [Create Plots for Static Study (VBA)](Create_Plots_for_Static_Study_Example_VB.htm)
-
 [Create Plots for Static Study (VB.NET)](Create_Plots_for_Static_Study_Example_VBNET.htm)
-
 [Create Plots for Static Study (C#)](Create_Plots_for_Static_Study_Example_CSharp.htm)
 
 ## Accessors
@@ -68,9 +56,6 @@ See
 ## See Also
 
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWRunStudiesResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html)

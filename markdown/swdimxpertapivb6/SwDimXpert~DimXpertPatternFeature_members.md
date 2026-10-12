@@ -1,6 +1,5 @@
 ---
-title: "DimXpertPatternFeature Object
-Members"
+title: "DimXpertPatternFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertPatternFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertPatternFeature_members.html"
 ---
 
-# DimXpertPatternFeature Object
-Members
+# DimXpertPatternFeature Object Members
 
 ## Public Methods
 

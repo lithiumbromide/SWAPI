@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFa
 
 # EMailIntervalUnit Property (ICWFatigueStudyOptions)
 
-Gets or sets the units of time for
-
-[ICWFatigueStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailInterval.html)
-
-.
+Gets or sets the units of time for [ICWFatigueStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailInterval.html).
 
 ## Syntax
 
@@ -51,7 +47,7 @@ property System.int EMailIntervalUnit {
 
 ### Property Value
 
-Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
+Time units as defined in [swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
 
 - swsSecond
 - swsMinute
@@ -59,30 +55,21 @@ Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~EMailIntervalUnit.html)
-
-.
+See [CWFatigueStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~EMailIntervalUnit.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWFatigueStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased.html)
-
-  is set to 1,
+- [ICWFatigueStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased.html) is set to 1,
 
 - and -
 
-- [ICWFatigueStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMail.html)
-
-  is set to 1.
+- [ICWFatigueStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

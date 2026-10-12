@@ -1,6 +1,5 @@
 ---
-title: "IStructureSystemMemberFeatureData Object
-Members"
+title: "IStructureSystemMemberFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IStructureSystemMemberFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IStructureSystemMemberFeatureData_members.html"
 ---
 
-# IStructureSystemMemberFeatureData Object
-Members
+# IStructureSystemMemberFeatureData Object Members
 
 ## Public Methods
 

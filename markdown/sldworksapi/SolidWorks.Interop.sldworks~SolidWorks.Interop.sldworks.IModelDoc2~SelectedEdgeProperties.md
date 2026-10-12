@@ -47,13 +47,7 @@ System.bool SelectedEdgeProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if edge properties successfully changed, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SelectedEdgeProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedEdgeProperties.html)
-
-.
+See [ModelDoc2::SelectedEdgeProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedEdgeProperties.html).
 
 ## Remarks
 
@@ -81,15 +71,10 @@ See
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SelectedFaceProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html)
-
 [IModelDoc2::SelectedFeatureProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedFeatureProperties.html)
-
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IModelDoc2::EntityProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EntityProperties.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double CurveChordTolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Value for the curve chord tolerance
 
 ## VBA Syntax
 
-See
-
-[Tessellation::CurveChordTolerance](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~CurveChordTolerance.html)
-
-.
+See [Tessellation::CurveChordTolerance](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~CurveChordTolerance.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

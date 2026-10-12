@@ -63,40 +63,14 @@ System.int AddItem2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Category1`: Name of Category1 (see
-
-Remarks
-
-)
-- `Category2`: Name of Category2 (see
-
-Remarks
-
-)
-- `Condition`: Condition as defined in
-
-[swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html)
-
-(see
-
-Remarks
-
-)
-- `Value`: Text value satisfying Condition (see
-
-Remarks
-
-)
+- `Category1`: Name of Category1 (see **Remarks**)
+- `Category2`: Name of Category2 (see **Remarks**)
+- `Condition`: Condition as defined in [swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html) (see **Remarks**)
+- `Value`: Text value satisfying Condition (see **Remarks**)
 - `IsAnd`: True if all of the criteria in the advanced component selection list must be met, false if only this criteria in the advanced component selection list must be met
 
 ### Return Value
@@ -105,29 +79,20 @@ Index number of the newly added criterion in the advanced component selection cr
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::AddItem2](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~AddItem2.html)
-
-.
+See [AdvancedSelectionCriteria::AddItem2](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~AddItem2.html).
 
 ## Remarks
 
-For a list of possible Category1, Category2, Condition, and Value values, see the**Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection > Search Criteria for Advanced Component Selection**topic in the SOLIDWORKS user-interface help.
+For a list of possible Category1, Category2, Condition, and Value values, see the **Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection > Search Criteria for Advanced Component Selection** topic in the SOLIDWORKS Design user-interface help.
 
 After calling this method multiple times to add criteria:
 
-- [Save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~SaveCriteria.html)
-
-  the criteria.
-- [Select](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~Select.html)
-
-  the components satisfying the criteria.
+- [Save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~SaveCriteria.html) the criteria.
+- [Select](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~Select.html) the components satisfying the criteria.
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

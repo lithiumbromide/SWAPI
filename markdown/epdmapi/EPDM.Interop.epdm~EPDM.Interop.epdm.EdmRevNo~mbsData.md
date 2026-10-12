@@ -34,14 +34,9 @@ System.String^ mbsData
 
 ## Remarks
 
-The components are represented by escape sequences like this "%1n", "%2n"... where 1 and 2 are the database IDs of the components; i.e., the same as
-
-[EdmRevComponent's mlComponentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID.html)
-
-field.
+The components are represented by escape sequences like this "%1n", "%2n"... where 1 and 2 are the database IDs of the components; i.e., the same as [EdmRevComponent's mlComponentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID.html) field.
 
 ## See Also
 
 [EdmRevNo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo.html)
-
 [EdmRevNo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IGetSectionedBody Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::IGetSectionedBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetSectionedBody2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::IGetSectionedBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetSectionedBody2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Body^ IGetSectionedBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IGetSectionedBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetSectionedBody.html)
-
-.
+See [PartDoc::IGetSectionedBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetSectionedBody.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

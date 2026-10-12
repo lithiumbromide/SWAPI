@@ -57,37 +57,17 @@ System.bool SetCurrentProfile(
 
 ### Parameters
 
-- `Standard`: Name of the profile standard (see
-
-Remarks
-
-)
-- `ProfileType`: Name of the profile type (see
-
-Remarks
-
-)
-- `ProfileSize`: Profile size (see
-
-Remarks
-
-)
+- `Standard`: Name of the profile standard (see **Remarks**)
+- `ProfileType`: Name of the profile type (see **Remarks**)
+- `ProfileSize`: Profile size (see **Remarks**)
 
 ### Return Value
 
-True if the profile is set, false if not (see
-
-Remarks
-
-)
+True if the profile is set, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::SetCurrentProfile](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~SetCurrentProfile.html)
-
-.
+See [CostAnalysisStructural::SetCurrentProfile](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~SetCurrentProfile.html).
 
 ## Remarks
 
@@ -101,22 +81,14 @@ This method:
 
 - does not change the underlying geometry of the structural member; instead, this method only uses the specified profile to cost the body.
 - fails if the specified Standard, ProfileType, or ProfileSize values are invalid or incompatible with each other.
-- could invalidate the
-
-  [cost method](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentCostMethodType.html)
-
-  .
+- could invalidate the [cost method](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentCostMethodType.html).
 
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::CurrentProfileSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileSize.html)
-
 [ICostAnalysisStructural::CurrentProfileStandard Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileStandard.html)
-
 [ICostAnalysisStructural::CurrentProfileType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileType.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SaveAsSilent Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SaveAsSilent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SaveAsSilent.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SaveAsSilent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SaveAsSilent.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.int SaveAsSilent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SaveAsSilent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SaveAsSilent.html)
-
-.
+See [ModelDoc::SaveAsSilent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SaveAsSilent.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -42,13 +42,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ Name of mate load reference
 
 ## VBA Syntax
 
-See
-
-[MateLoadReference::Name](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Name.html)
-
-.
+See [MateLoadReference::Name](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Name.html).
 
 ## Examples
 
 [Insert Mate Load Reference (C#)](Insert_Mate_Load_Reference_Example_CSharp.htm)
-
 [Insert Mate Load Reference (VB.NET)](Insert_Mate_Load_Reference_Example_VBNET.htm)
-
 [Insert Mate Load Reference (VBA)](Insert_Mate_Load_Reference_Example_VB.htm)
 
 ## See Also
 
 [IMateLoadReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference.html)
-
 [IMateLoadReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference_members.html)
 
 ## Availability

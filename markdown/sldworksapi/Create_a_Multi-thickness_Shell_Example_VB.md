@@ -11,8 +11,7 @@ source: "sldworksapi/Create_a_Multi-thickness_Shell_Example_VB.htm"
 
 ## Create a Multi-thickness Shell Example (VBA)
 
-This example shows how to create a multi-thickness
-shell.
+This example shows how to create a multi-thickness shell.
 
 ```
 '--------------------------------------------------------------

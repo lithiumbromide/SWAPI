@@ -48,24 +48,15 @@ Mass in kilograms
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::Mass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~Mass.html)
-
-.
+See [CWMassPropertiesManager::Mass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~Mass.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
 
 ## Availability

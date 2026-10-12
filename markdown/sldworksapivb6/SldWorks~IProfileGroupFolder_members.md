@@ -1,6 +1,5 @@
 ---
-title: "IProfileGroupFolder Object
-Members"
+title: "IProfileGroupFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IProfileGroupFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IProfileGroupFolder_members.html"
 ---
 
-# IProfileGroupFolder Object
-Members
+# IProfileGroupFolder Object Members
 
 ## Public Methods
 

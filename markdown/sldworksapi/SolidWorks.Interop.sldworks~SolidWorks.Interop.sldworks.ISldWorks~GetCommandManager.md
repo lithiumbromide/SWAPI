@@ -47,19 +47,11 @@ CommandManager^ GetCommandManager(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Cookie`: Cookie specified in
-
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `Cookie`: Cookie specified in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetCommandManager](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCommandManager.html)
-
-.
+See [SldWorks::GetCommandManager](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCommandManager.html).
 
 ## Examples
 
@@ -79,16 +67,11 @@ See
 
 ## Remarks
 
-See
-
-[CommandManager and CommandGroups](sldworksAPIProgGuide.chm::/OVERVIEW/CommandManager_and_CommandGroups.htm)
-
-for details.
+See [CommandManager and CommandGroups](sldworksAPIProgGuide.chm::/OVERVIEW/CommandManager_and_CommandGroups.htm) for details.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

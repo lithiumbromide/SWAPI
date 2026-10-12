@@ -93,4 +93,10 @@ This example creates a section view and sets and gets some of the section view's
          Debug.Print(" Hide cut surface bodies? " & swSectionView.CutSurfaceBodies)
 ```
 
-swModel. EditRebuild3 ()End Sub Public swApp As SldWorks End Class
+swModel.**EditRebuild3**()
+
+End Sub
+
+Public swApp As SldWorks
+
+End Class

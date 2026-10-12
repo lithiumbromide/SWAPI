@@ -34,14 +34,9 @@ System.int mlEdmMenuFlags
 
 ### Field Value
 
-Combination of
-
-[EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html)
-
-bits.
+Combination of [EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html) bits.
 
 ## See Also
 
 [EdmAddInMenuInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html)
-
 [EdmAddInMenuInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members.html)

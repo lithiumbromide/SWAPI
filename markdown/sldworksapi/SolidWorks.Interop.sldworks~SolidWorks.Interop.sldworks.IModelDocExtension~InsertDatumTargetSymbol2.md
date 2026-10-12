@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertDatumTargetSymbol2 Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertDatumTargetSymbol3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol3.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertDatumTargetSymbol3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol3.html).
 
 ## Syntax
 
@@ -107,35 +103,27 @@ DatumTargetSym^ InsertDatumTargetSymbol2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Datum1`: Datum reference string 1
-- `Datum2`: Datum reference string 2ParamDesc
-- `Datum3`: Datum reference string 3ParamDesc
+- `Datum2`: Datum reference string 2
+- `Datum3`: Datum reference string 3
 - `AreaStyle`: - 0 = point
-- 1 = circle
-- 2 = rectangleParamDesc
+  - 1 = circle
+  - 2 = rectangle
 - `AreaOutside`: True to display the target area outside, false to not
-- `Value1`: Numeric datum target area diameter or widthParamDesc
+- `Value1`: Numeric datum target area diameter or width
 - `Value2`: Numeric datum target area height
-- `ValueStr1`: Value for datum target area diameter or widthParamDesc
-- `ValueStr2`: Value for datum target area heightParamDesc
-- `ArrowsSmart`: True to use smart arrows, false to notParamDesc
-- `ArrowStyle`: Arrowhead style as defined by
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-- `LeaderLineStyle`: Leaderline style as defined by[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
-- `LeaderBent`: True to create a bent leader line, false to notParamDesc
-- `ShowArea`: True to show the target area, false to notParamDesc
-- `ShowSymbol`: True to display the target symbol, false to notParamDesc
+- `ValueStr1`: Value for datum target area diameter or width
+- `ValueStr2`: Value for datum target area height
+- `ArrowsSmart`: True to use smart arrows, false to not
+- `ArrowStyle`: Arrowhead style as defined by [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `LeaderLineStyle`: Leaderline style as defined by [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
+- `LeaderBent`: True to create a bent leader line, false to not
+- `ShowArea`: True to show the target area, false to not
+- `ShowSymbol`: True to display the target symbol, false to not
 
 ### Return Value
 
@@ -143,16 +131,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertDatumTargetSymbol2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertDatumTargetSymbol2.html)
-
-.
+See [ModelDocExtension::InsertDatumTargetSymbol2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertDatumTargetSymbol2.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

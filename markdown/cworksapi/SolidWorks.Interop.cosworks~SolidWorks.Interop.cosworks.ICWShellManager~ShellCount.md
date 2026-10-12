@@ -48,16 +48,11 @@ Number of shells in the study
 
 ## VBA Syntax
 
-See
-
-[CWShellManager::ShellCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~ShellCount.html)
-
-.
+See [CWShellManager::ShellCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~ShellCount.html).
 
 ## See Also
 
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWShellManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager_members.html)
 
 ## Availability

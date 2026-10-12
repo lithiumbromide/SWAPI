@@ -9,8 +9,7 @@ source: "sldworksapi/Disable_Selection_of_Faces_and_Edges_Using_a_Pre-Notify_Eve
 
 # Disable Selection of Faces and Edges Using a Pre-Notify Event Example (VBA)
 
-This example shows how to disable the interactive selection of these entities
-using a pre-notify event:
+This example shows how to disable the interactive selection of these entities using a pre-notify event:
 
 - faces in part and assembly documents
 - edges in drawing documents
@@ -84,18 +83,18 @@ Back to top
 
 ```vb
 Public Function init(ByRef docIn As Object)
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set doc = docIn
+     Set doc = docIn
  End Function
 
 Private Function doc_UserSelectionPreNotify(ByVal SelectionType As Long) As Long
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Disable the selection of faces in this part
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If SelectionType = swSelFACES Then
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}doc_UserSelectionPreNotify = True
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+     ' Disable the selection of faces in this part
+     If SelectionType = swSelFACES Then
+         doc_UserSelectionPreNotify = True
+     End If
 End Function
 ```
 
-Back to top
+[Back to top](#Top)
 
 ###### 'Class2
 
@@ -103,18 +102,18 @@ Back to top
 Public WithEvents doc As assemblyDoc
 
 Public Function init(ByRef docIn As Object)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set doc = docIn
+    Set doc = docIn
 End Function
 
 Private Function doc_UserSelectionPreNotify(ByVal SelectionType As Long) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Disable selection of faces in this assembly
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If SelectionType = swSelFACES Then
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}doc_UserSelectionPreNotify = True
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+    ' Disable selection of faces in this assembly
+    If SelectionType = swSelFACES Then
+        doc_UserSelectionPreNotify = True
+    End If
 End Function
 ```
 
-Back to top
+[Back to top](#Top)
 
 ###### 'Class3
 
@@ -122,14 +121,14 @@ Back to top
 Public WithEvents doc As drawingDoc
 
 Public Function init(ByRef docIn As Object)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set doc = docIn
+    Set doc = docIn
 End Function
 
 Private Function doc_UserSelectionPreNotify(ByVal SelectionType As Long) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Disable the selection of edges in drawings
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If SelectionType = swSelEDGES Then
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}doc_UserSelectionPreNotify = True
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+    ' Disable the selection of edges in drawings
+    If SelectionType = swSelEDGES Then
+        doc_UserSelectionPreNotify = True
+    End If
 End Function
 Back to top
 ```

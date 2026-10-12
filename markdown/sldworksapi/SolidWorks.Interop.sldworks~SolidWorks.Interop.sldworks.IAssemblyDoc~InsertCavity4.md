@@ -66,13 +66,7 @@ void InsertCavity4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,23 +74,17 @@ See
 - `ScaleFactor_y`: Scaling factor in the y direction
 - `ScaleFactor_z`: Scaling factor in the z direction
 - `IsUniform`: True to use the first scale argument as the uniform scale, false to not
-- `ScaleType`: Type of scaling as defined in[swCavityScaleType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCavityScaleType_e.html)
+- `ScaleType`: Type of scaling as defined in [swCavityScaleType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCavityScaleType_e.html)
 - `KeepPieceIndex`: Piece to keep if there is ambiguity
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertCavity4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertCavity4.html)
-
-.
+See [AssemblyDoc::InsertCavity4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertCavity4.html).
 
 ## Examples
 
 [Insert Cavity (C#)](Insert_Cavity_Example_CSharp.htm)
-
 [Insert Cavity (VB.NET)](Insert_Cavity_Example_VBNET.htm)
-
 [Insert Cavity (VBA)](Insert_Cavity_Example_VB.htm)
 
 ## Remarks
@@ -107,16 +95,16 @@ Set the scaleFactor argument as appropriate for your casting material. The scali
 
 SOLIDWORKS uses the following formula to determine the size of the cavity:
 
+```vb
 cavitysize = partsize * (1 + scaleFactor/100)
+```
 
 When there is ambiguity in the result of a cut, SOLIDWORKS uses KeepPieceIndex to determine which result to use. You can set this parameter to -1 if there is no ambiguity; otherwise, you should use the index of the result, in the range between 0 and 1 less than the possible number of outcomes.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [ICavityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData.html)
 
 ## Availability

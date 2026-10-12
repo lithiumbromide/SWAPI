@@ -45,27 +45,15 @@ property System.int ProfilePiercePointType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of pierce point as defined by
-
-[swStructureProfilePiercePointType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfilePiercePointType_e.html)
+Type of pierce point as defined by [swStructureProfilePiercePointType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfilePiercePointType_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::ProfilePiercePointType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfilePiercePointType.html)
-
-.
+See [StructureSystemMemberProfile::ProfilePiercePointType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfilePiercePointType.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ Gets and sets the type of pierce point for the sketch of this member profile.
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

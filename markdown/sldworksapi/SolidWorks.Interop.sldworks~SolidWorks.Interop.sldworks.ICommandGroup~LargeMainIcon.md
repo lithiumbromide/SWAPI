@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # LargeMainIcon Property (ICommandGroup)
 
-Obsolete. Superseded by
-
-[ICommandGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~MainIconList.html)
-
-.
+Obsolete. Superseded by [ICommandGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~MainIconList.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ LargeMainIcon {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,11 +53,7 @@ Path of the large bitmap or PNG for this CommandGroup
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::LargeMainIcon](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~LargeMainIcon.html)
-
-.
+See [CommandGroup::LargeMainIcon](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~LargeMainIcon.html).
 
 ## Examples
 
@@ -80,15 +66,10 @@ The large bitmap or PNG must be 24x24 and use a 256-color palette.
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::AddCommandItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~AddCommandItem2.html)
-
 [ICommandGroup::LargeIconList Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~LargeIconList.html)
-
 [ICommandGroup::SmallIconList Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SmallIconList.html)
-
 [ICommandGroup::SmallMainIcon Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SmallMainIcon.html)
 
 ## Availability

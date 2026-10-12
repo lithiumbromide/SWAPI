@@ -1,6 +1,5 @@
 ---
-title: "IWidthMateFeatureData Object
-Members"
+title: "IWidthMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IWidthMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IWidthMateFeatureData_members.html"
 ---
 
-# IWidthMateFeatureData Object
-Members
+# IWidthMateFeatureData Object Members
 
 ## Public Properties
 

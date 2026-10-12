@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/users/all |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > User Resource Group : api/{vaultName}/users/all (Get) |
 | --- |
@@ -90,8 +86,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[User Resource Group](PDM%20Pro%20API_ws~g-09a63486-9278-41ff-970c-d47012e2bea1.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[User Resource Group](PDM%20Pro%20API_ws~g-09a63486-9278-41ff-970c-d47012e2bea1.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

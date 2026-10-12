@@ -47,19 +47,11 @@ property System.bool KeepBoltPreStress2 {
 
 ### Property Value
 
--1 or true to keep bolt pre-stress, 0 or false to not (see
-
-Remarks
-
-)
+-1 or true to keep bolt pre-stress, 0 or false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::KeepBoltPreStress2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~KeepBoltPreStress2.html)
-
-.
+See [CWNonLinearStudyOptions::KeepBoltPreStress2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~KeepBoltPreStress2.html).
 
 ## Remarks
 
@@ -68,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

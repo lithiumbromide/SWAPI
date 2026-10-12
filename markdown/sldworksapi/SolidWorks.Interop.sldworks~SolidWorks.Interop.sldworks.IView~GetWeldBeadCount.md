@@ -40,13 +40,7 @@ System.int GetWeldBeadCount()
 System.int GetWeldBeadCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Total number of weld beads on this drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetWeldBeadCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetWeldBeadCount.html)
-
-.
+See [View::GetWeldBeadCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetWeldBeadCount.html).
 
 ## Remarks
 
-Call this method before calling[IView::IGetWeldBeads](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetWeldBeads.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetWeldBeads](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetWeldBeads.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetWeldBeads Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetWeldBeads.html)
 
 ## Availability

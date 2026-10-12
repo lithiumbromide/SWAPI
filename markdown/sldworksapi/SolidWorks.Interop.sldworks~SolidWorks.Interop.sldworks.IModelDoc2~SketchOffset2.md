@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchOffset2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::SketchOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~SketchOffset.html)
-
-.
+Obsolete. Superseded by [ISketchManager::SketchOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~SketchOffset.html).
 
 ## Syntax
 
@@ -59,19 +55,13 @@ System.bool SketchOffset2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Offset`: Offset value; negative value offsets in opposite direction
 - `BothDirections`: True to offset in both directions, false to not
-- `Chain`: True if you want the entire chain of entities offset, false if you want only the selected sketch entities offset (see**Remarks**)
+- `Chain`: True if you want the entire chain of entities offset, false if you want only the selected sketch entities offset (see **Remarks**)
 
 ### Return Value
 
@@ -79,11 +69,7 @@ True if the offset is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchOffset2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchOffset2.html)
-
-.
+See [ModelDoc2::SketchOffset2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchOffset2.html).
 
 ## Remarks
 
@@ -92,11 +78,8 @@ Specifying true for the Chain argument offsets the selected entity and any other
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SketchOffsetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEdges.html)
-
 [IModelDoc2::SketchOffsetEntities2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEntities2.html)
 
 ## Availability

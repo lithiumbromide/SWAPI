@@ -54,35 +54,17 @@ void SetAlignmentType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Direction`: Direction as defined in
-
-[swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
-- `GuideIndex`: Index of the curve (see
-
-Remarks
-
-)
-- `AlignmentType`: Type of alignment as defined in
-
-[swBoundaryBossAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossAlignment_e.html)
+- `Direction`: Direction as defined in [swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
+- `GuideIndex`: Index of the curve (see **Remarks**)
+- `AlignmentType`: Type of alignment as defined in [swBoundaryBossAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossAlignment_e.html)
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData::SetAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~SetAlignmentType.html)
-
-.
+See [BoundaryBossFeatureData::SetAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~SetAlignmentType.html).
 
 ## Remarks
 
@@ -95,18 +77,12 @@ You must use the appropriate combination of tangents and alignments.
 | swBoundaryBossTangency_DirectionVector - or - swBoundaryBossTangency_NormalToProfile | swAlignWithNextSection swAlignWithSectionNormal |
 | swBoundaryBossTangency_TangencyToFace -or - swBoundaryBossTangency_CurvatureToFace | swAlignWithNextSection swAlignWithSectionNormal swAlignWithIsoParameter swAlignWithOtherGeometry |
 
-Call
-
-[IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html)
-
-to get a valid range of values for GuideIndex.
+Call [IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html) to get a valid range of values for GuideIndex.
 
 ## See Also
 
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
-
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [IBoundaryBossFeatureData::GetAlignmentType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetAlignmentType.html)
 
 ## Availability

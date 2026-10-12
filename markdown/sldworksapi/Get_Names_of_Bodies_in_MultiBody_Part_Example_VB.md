@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Names_of_Bodies_in_MultiBody_Part_Example_VB.htm"
 
 # Get Names of Bodies in Multibody Part Example (VBA)
 
-This example shows how to get the names of the bodies in each multibody part
-in an assembly.
+This example shows how to get the names of the bodies in each multibody part in an assembly.
 
 ```
 '-------------------------------------------------

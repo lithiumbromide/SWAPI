@@ -57,23 +57,17 @@ System.bool OnStringValueChanged(
 
 ### Parameters
 
-- `pManipulator`: [ICallout](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-
-object whose text was edited
+- `pManipulator`: [ICallout](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) object whose text was edited
 - `RowID`: Row in which the text was edi
-- `Text`: New text of RowIDParamDesc
+- `Text`: New text of RowID
 
 ### Return Value
 
-True to use updated text in RowID, false to use original text in RowIDParamDesc
+True to use updated text in RowID, false to use original text in RowID
 
 ## VBA Syntax
 
-See
-
-[SwCalloutHandler::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwCalloutHandler~OnStringValueChanged.html)
-
-.
+See [SwCalloutHandler::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwCalloutHandler~OnStringValueChanged.html).
 
 ## Examples
 
@@ -82,7 +76,6 @@ See
 ## See Also
 
 [ISwCalloutHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler.html)
-
 [ISwCalloutHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler_members.html)
 
 ## Availability

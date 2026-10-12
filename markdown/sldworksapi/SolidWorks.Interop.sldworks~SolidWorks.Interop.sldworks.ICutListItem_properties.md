@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # ICutListItem Interface Properties
 
-For a list of all members of this type, see[ICutListItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem_members.html).
+For a list of all members of this type, see [ICutListItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ICutListItem members](SolidWorks.Int
 ## See Also
 
 [ICutListItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

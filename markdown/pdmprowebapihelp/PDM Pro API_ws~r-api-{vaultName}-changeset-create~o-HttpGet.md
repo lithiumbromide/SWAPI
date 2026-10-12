@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/changeset/create |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Stage Resource Group : api/{vaultName}/changeset/create (Get) |
 | --- |
@@ -61,8 +57,4 @@ Example
 
 See Also
 
-[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

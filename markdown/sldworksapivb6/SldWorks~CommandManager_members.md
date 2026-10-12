@@ -1,6 +1,5 @@
 ---
-title: "CommandManager Object
-Members"
+title: "CommandManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CommandManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CommandManager_members.html"
 ---
 
-# CommandManager Object
-Members
+# CommandManager Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetToolbarState Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::GetToolbarState2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetToolbarState2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::GetToolbarState2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetToolbarState2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool GetToolbarState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetToolbarState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetToolbarState.html)
-
-.
+See [SldWorks::GetToolbarState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetToolbarState.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

@@ -51,43 +51,27 @@ System.Object^ GetBodies2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodyType`: Type of body as defined in[swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
+- `BodyType`: Type of body as defined in [swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
 - `BVisibleOnly`: True gets only the visible bodies, false gets all of the bodies in the part
 
 ### Return Value
 
-Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[PartDoc::GetBodies2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetBodies2.html)
-
-.
+See [PartDoc::GetBodies2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetBodies2.html).
 
 ## Examples
 
 [Get Bodies (C++)](Get_Bodies_Example_CPlusPlus_COM.htm)
-
 [Traverse Bodies (C++)](Traverse_Bodies_Example_CPlusPlusCLI.htm)
-
 [Set Body for View (C#)](Set_Body_for_View_Example_CSharp.htm)
-
 [Set Body for Part (VB.NET)](Set_Body_for_View_Example_VBNET.htm)
-
 [Set Body for Part (VBA)](Set_Body_for_View_Example_VB.htm)
 
 ## Remarks
@@ -100,13 +84,9 @@ This method:
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IComponent2::GetBodies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBodies2.html)
-
 [IBodyFolder::GetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetBodies.html)
-
 [IBodyFolder::IGetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~IGetBodies.html)
 
 ## Availability

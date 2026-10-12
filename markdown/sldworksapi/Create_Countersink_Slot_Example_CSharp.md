@@ -14,7 +14,7 @@ This example shows how to create a countersink slot using the hole wizard.
 ```
 //-------------------------------------------------
 // Preconditions:
-// 1. SOLIDWORKS is running.
+// 1. SOLIDWORKS Design is running.
 // 2. Open the Immediate window.
 // 3. Run the macro.
 //

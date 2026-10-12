@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILa
 
 # ILayerMgr Interface Members
 
-The following tables list the members exposed by[ILayerMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html).
+The following tables list the members exposed by [ILayerMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html).
 
 ## Public Methods
 
@@ -32,7 +32,5 @@ The following tables list the members exposed by[ILayerMgr](SolidWorks.Interop.s
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)

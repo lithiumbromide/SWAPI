@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_fields.h
 
 # EdmCopyTreeOptions Structure Fields
 
-For a list of all members of this type, see[EdmCopyTreeOptions members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_members.html).
+For a list of all members of this type, see [EdmCopyTreeOptions members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmCopyTreeOptions members](EPDM.Int
 ## See Also
 
 [EdmCopyTreeOptions Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

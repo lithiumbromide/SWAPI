@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # Preload Property (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::Preload](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~Preload.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::Preload](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~Preload.html).
 
 ## Syntax
 
@@ -42,25 +42,15 @@ property System.String^ Preload {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Preload informationParameterDesc
+Preload information
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::Preload](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~Preload.html)
-
-.
+See [HoleSeriesFeatureData::Preload](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~Preload.html).
 
 ## Remarks
 
@@ -69,7 +59,6 @@ The preload value is not available in the SOLIDWORKS Toolbox database.
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
 
 ## Availability

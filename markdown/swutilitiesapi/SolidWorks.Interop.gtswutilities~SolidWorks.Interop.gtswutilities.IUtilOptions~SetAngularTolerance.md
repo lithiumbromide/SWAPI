@@ -53,24 +53,16 @@ System.int SetAngularTolerance(
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IUtilOptions::SetAngularTolerance](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions~SetAngularTolerance.html)
-
-.
+See [IUtilOptions::SetAngularTolerance](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions~SetAngularTolerance.html).
 
 ## Examples
 
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VB.NET)](Set_Tolerances_and_Compare_Geometry_VBNET.htm)
-
 [Set Tolerances and Compare Geometry (C#)](Set_Tolerances_and_Compare_Geometry_CSharp.htm)
 
 ## Remarks
@@ -80,7 +72,6 @@ During face comparison, the parallelism of the edges of face pairs are compared.
 ## See Also
 
 [IUtilOptions Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions.html)
-
 [IUtilOptions Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions_members.html)
 
 ## Availability

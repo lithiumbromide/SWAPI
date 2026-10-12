@@ -47,13 +47,7 @@ System.Object^ GetFrameAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[PMIGtolData::GetFrameAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFrameAtIndex.html)
-
-.
+See [PMIGtolData::GetFrameAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFrameAtIndex.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
-Use
-
-[IPMIGtolData::GetFrameCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData~GetFrameCount.html)
-
-to determine Index.
+Use [IPMIGtolData::GetFrameCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData~GetFrameCount.html) to determine Index.
 
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [IPMIGtolData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData_members.html)
 
 ## Availability

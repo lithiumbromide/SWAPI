@@ -47,36 +47,27 @@ IEdmPos5^ GetFirstParentPosition2(
 
 - `lVersionOrZero`: Non-0 value enumerates the files referencing the specified version of the file; argument is ignored if value is 0
 - `bGetAllParentVersions`: True to return all versions, of all parents, referencing this file; false to return on the latest referencing version
-- `lEdmRefFlags`: Types of references that you want enumerated as defined in
-
-[EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
+- `lEdmRefFlags`: Types of references that you want enumerated as defined in [EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
 
 ### Return Value
 
-[Position](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-of first file referencing this file
+[Position](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html) of first file referencing this file
 
 ## Examples
 
-See the
-
-[IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html)
-
-examples.
+See the [IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html) examples.
 
 ## Remarks
 
-Pass the position to[IEdmReference5::GetNextParent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextParent.html)to continue to enumerate all of the parent files.
+Pass the position to [IEdmReference5::GetNextParent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextParent.html) to continue to enumerate all of the parent files.
 
 C++ programmers not using smart-pointer wrapper functions must release the position.
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html)
-
 [IEdmReference7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7_members.html)
 
 ## Availability

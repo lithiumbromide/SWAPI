@@ -47,40 +47,26 @@ System.Object^ CreateTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ArrayDataIn`: Sixteen (16) components of the transform (see**Remarks**)
+- `ArrayDataIn`: Sixteen (16) components of the transform (see **Remarks**)
 
 ### Return Value
 
-Newly created[math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)or nothing or null if the operation fails
+Newly created [math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) or nothing or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathUtility::CreateTransform](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~CreateTransform.html)
-
-.
+See [MathUtility::CreateTransform](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~CreateTransform.html).
 
 ## Examples
 
 [Align Assembly Component to Assembly Origin and Planes (VBA)](Align_Assembly_Component_to_Assembly_Origin_and_Planes_Example_VB.htm)
-
 [Use Presentation Transforms to Move Component (VBA)](Use_Presentation_Transforms_to_Move_Component_Example_VB.htm)
-
 [Display Temporary Body (C#)](Display_Temporary_Body_Example_CSharp.htm)
-
 [Display Temporary Body (VB.NET)](Display_Temporary_Body_Example_VBNET.htm)
-
 [Display Temporary Body (VBA)](Display_Temporary_Body_Example_VB.htm)
 
 ## Remarks
@@ -95,7 +81,7 @@ Transformation matrix data:
 
 |j k l . m |
 
-The SOLIDWORKS transformation matrix is stored as a homogeneous matrix of 16 elements, ordered as shown. The first 9 elements(a to i)are elements of a 3x3 rotational sub-matrix, the next 3 elements(j,k,l)define a translation vector, and the next 1 element(m)is a scaling factor. The last 3 elements(n,o,p)are unused in this context.
+The SOLIDWORKS transformation matrix is stored as a homogeneous matrix of 16 elements, ordered as shown. The first 9 elements (a to i) are elements of a 3x3 rotational sub-matrix, the next 3 elements (j,k,l) define a translation vector, and the next 1 element (m) is a scaling factor. The last 3 elements (n,o,p) are unused in this context.
 
 The 3x3 rotational sub-matrix represents 3 axis sets:
 
@@ -114,15 +100,10 @@ If the 3 axis sets of the 3x3 rotational sub-matrix are not orthogonal or unifie
 ## See Also
 
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IMathUtility Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility_members.html)
-
 [IMathUtility::ICreateTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~ICreateTransform.html)
-
 [IMathUtility::ComposeTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~ComposeTransform.html)
-
 [IMathUtility::CreateTransformRotateAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~CreateTransformRotateAxis.html)
-
 [IMathUtility::ICreateTransformRotateAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~ICreateTransformRotateAxis.html)
 
 ## Availability

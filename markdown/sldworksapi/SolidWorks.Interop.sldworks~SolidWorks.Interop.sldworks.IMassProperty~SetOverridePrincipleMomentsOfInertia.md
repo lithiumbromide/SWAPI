@@ -55,26 +55,12 @@ System.bool SetOverridePrincipleMomentsOfInertia(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Value`: Array of three doubles of the principal moments of inertia:
-
-[
-
-Px, Py, Pz
-
-]
-- `Config_option`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Value`: Array of three doubles of the principal moments of inertia: **[** Px, Py, Pz **]**
+- `Config_option`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names; valid only if Config_option = swInConfigurationOpts_e.swSpecifyConfiguration
 
 ### Return Value
@@ -83,28 +69,19 @@ True if the principal moments of inertia are overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassProperty::SetOverridePrincipleMomentsOfInertia](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverridePrincipleMomentsOfInertia.html)
-
-.
+See [MassProperty::SetOverridePrincipleMomentsOfInertia](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverridePrincipleMomentsOfInertia.html).
 
 ## Examples
 
 [Get and Override Mass Properties (VBA)](Get_Mass_Properties_using_MassProperty_Object_Example_VB.htm)
-
 [Get and Override Mass Properties (VB.NET)](Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm)
-
 [Get and Override Mass Properties (C#)](Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm)
 
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetOverridePrincipleMomentsOfInertia Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetOverridePrincipleMomentsOfInertia.html)
-
 [IMassProperty::OverrideMomentsOfInertia Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~OverrideMomentsOfInertia.html)
 
 ## Availability

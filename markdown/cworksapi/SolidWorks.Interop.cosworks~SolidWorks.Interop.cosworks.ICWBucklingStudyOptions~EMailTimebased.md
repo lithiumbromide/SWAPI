@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBu
 
 # EMailTimebased Property (ICWBucklingStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWBucklingStudyOptions::EmailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased2.html)
-
-.
+Obsolete. Superseded by [ICWBucklingStudyOptions::EmailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased2.html).
 
 ## Syntax
 
@@ -55,22 +51,17 @@ property System.int EMailTimebased {
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailTimebased.html)
-
-.
+See [CWBucklingStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailTimebased.html).
 
 ## Remarks
 
-This property is valid only if[ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html)is set to 1.
+This property is valid only if [ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html) is set to 1.
 
-If this property is set to 1, use[ICWBucklingStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailInterval.html)and[ICWBucklingStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailIntervalUnit.html)to specify the time interval for sending email notifications during simulations.
+If this property is set to 1, use [ICWBucklingStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailInterval.html) and [ICWBucklingStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailIntervalUnit.html) to specify the time interval for sending email notifications during simulations.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

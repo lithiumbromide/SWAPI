@@ -42,13 +42,7 @@ property System.double AspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,15 +50,11 @@ Aspect ratio
 
 ## VBA Syntax
 
-See
-
-[SwScene::AspectRatio](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AspectRatio.html)
-
-.
+See [SwScene::AspectRatio](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AspectRatio.html).
 
 ## Remarks
 
-To change the aspect ratio, set[ISwScene::FixedAspectRatio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FixedAspectRatio.html)to false and specify:
+To change the aspect ratio, set [ISwScene::FixedAspectRatio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FixedAspectRatio.html) to false and specify:
 
 - [ISwScene::FloorDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorDepth.html)
 - [ISwScene::FloorWidth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorWidth.html)
@@ -72,7 +62,6 @@ To change the aspect ratio, set[ISwScene::FixedAspectRatio](SolidWorks.Interop.s
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

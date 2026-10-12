@@ -45,13 +45,7 @@ property System.double RotationAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Angle by which to rotate the texture relative to the axes
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::RotationAngle](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~RotationAngle.html)
-
-.
+See [RenderMaterial::RotationAngle](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~RotationAngle.html).
 
 ## Remarks
 
-This property is only valid when either a spherical or cylindrical[mapping type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~MappingType.html)is selected.
+This property is only valid when either a spherical or cylindrical [mapping type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~MappingType.html) is selected.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

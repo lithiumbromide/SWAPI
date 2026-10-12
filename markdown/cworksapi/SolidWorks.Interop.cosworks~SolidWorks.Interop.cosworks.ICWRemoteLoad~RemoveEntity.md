@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~RemoveEntity.html)
-
-.
+See [CWRemoteLoad::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~RemoveEntity.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~InsertEntity.html)
 
 ## Availability

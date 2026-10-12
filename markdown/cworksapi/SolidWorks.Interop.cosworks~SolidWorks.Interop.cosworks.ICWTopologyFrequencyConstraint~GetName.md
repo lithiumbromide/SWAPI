@@ -46,26 +46,16 @@ Name of the frequency constraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~GetName.html)
-
-.
+See [CWTopologyFrequencyConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
-
 [ICWTopologyFrequencyConstraint::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~SetName.html)
 
 ## Availability

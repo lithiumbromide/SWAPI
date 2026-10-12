@@ -40,13 +40,7 @@ System.bool HasLegacyCThreads()
 System.bool HasLegacyCThreads();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ True if the model has legacy cosmetic threads, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HasLegacyCThreads](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasLegacyCThreads.html)
-
-.
+See [ModelDocExtension::HasLegacyCThreads](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasLegacyCThreads.html).
 
 ## Remarks
 
-If this method returns true, you can call
-
-[IModelDocExtension::UpgradeLegacyCThreads](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpgradeLegacyCThreads.html)
-
-to upgrade cosmetic thread features to the latest cosmetic thread architecture.
+If this method returns true, you can call [IModelDocExtension::UpgradeLegacyCThreads](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpgradeLegacyCThreads.html) to upgrade cosmetic thread features to the latest cosmetic thread architecture.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [IView::GetCThreads Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCThreads.html)
-
 [IView::GetFirstCThread Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstCThread.html)
 
 ## Availability

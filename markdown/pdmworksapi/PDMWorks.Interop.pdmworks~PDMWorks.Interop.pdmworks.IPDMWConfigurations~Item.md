@@ -53,22 +53,16 @@ property System.Object^ default [System.Object^] {
 
 ### Property Value
 
-An[IPDMWConfiguration](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
+An [IPDMWConfiguration](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
 
 ## VBA Syntax
 
-See
-
-[PDMWConfigurations::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations~Item.html)
-
-.
+See [PDMWConfigurations::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations~Item.html).
 
 ## See Also
 
 [IPDMWConfigurations Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations.html)
-
 [IPDMWConfigurations Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations_members.html)
-
 [PDMWConfigurations::Count](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations~Count.html)
 
 ## Availability

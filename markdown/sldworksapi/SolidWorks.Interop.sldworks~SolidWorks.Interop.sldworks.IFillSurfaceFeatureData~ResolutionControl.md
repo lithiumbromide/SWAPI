@@ -45,41 +45,25 @@ property System.int ResolutionControl {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Valid values: 1, 2, and 3 (see
-
-Remarks
-
-)
+Valid values: 1, 2, and 3 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::ResolutionControl](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ResolutionControl.html)
-
-.
+See [FillSurfaceFeatureData::ResolutionControl](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ResolutionControl.html).
 
 ## Examples
 
 [Insert Fill-surface Feature (C#)](Insert_Fill-surface_Feature_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (VB.NET)](Insert_Fill-surface_Feature_Example_VBNET.htm)
-
 [Insert Fill-surface Feature (VBA)](Insert_Fill-surface_Feature_Example_VB.htm)
 
 ## Remarks
 
-Adjusting the quality of the resolution is only available for patches that are not optimized. See[IFillSurfaceFeatureData::OptimizeSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~OptimizeSurface.html)for details.
+Adjusting the quality of the resolution is only available for patches that are not optimized. See [IFillSurfaceFeatureData::OptimizeSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~OptimizeSurface.html) for details.
 
 Specifying a higher value:
 
@@ -91,7 +75,6 @@ Specifying a higher value:
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
 
 ## Availability

@@ -49,9 +49,7 @@ System.bool SetAdvancedOptions(
 
 ### Parameters
 
-- `options`: Advanced options as defined in
-
-[fwAdvancedOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwAdvancedOptions_e.html)
+- `options`: Advanced options as defined in [fwAdvancedOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwAdvancedOptions_e.html)
 
 ### Return Value
 
@@ -59,16 +57,11 @@ True if the advanced options are set, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureWorksApp::SetAdvancedOptions](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~SetAdvancedOptions.html)
-
-.
+See [FeatureWorksApp::SetAdvancedOptions](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~SetAdvancedOptions.html).
 
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [IFeatureWorksApp Members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html)
 
 ## Availability

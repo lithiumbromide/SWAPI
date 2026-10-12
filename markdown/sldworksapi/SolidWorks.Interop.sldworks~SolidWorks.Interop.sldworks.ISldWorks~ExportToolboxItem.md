@@ -51,26 +51,12 @@ System.int ExportToolboxItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StdToExport`: Standard to export (see
-
-Remarks
-
-)
-- `DestinationFolderPath`: Path where to export the data (see
-
-Remarks
-
-)
+- `StdToExport`: Standard to export (see **Remarks**)
+- `DestinationFolderPath`: Path where to export the data (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ExportToolboxItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ExportToolboxItem.html)
-
-.
+See [SldWorks::ExportToolboxItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ExportToolboxItem.html).
 
 ## Examples
 
@@ -131,7 +113,7 @@ End Sub
 
 ## Remarks
 
-Specify StdToImport with the path and file name beneath**C:\SOLIDWORKS Data\browser**, e.g., "**ansi inch\bolts and screws\hex head\heavy hex bolt_ai.sldprt**".
+Specify StdToImport with the path and file name beneath **C:\SOLIDWORKS Data\browser**, e.g., "**ansi inch\bolts and screws\hex head\heavy hex bolt_ai.sldprt**".
 
 Specify DestinationFolderPath with the path where to export the Excel Workbook (***.xslx**). The data is exported to a file whose name is formatted as follows:
 
@@ -140,9 +122,7 @@ Specify DestinationFolderPath with the path where to export the Excel Workbook (
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ImportToolboxItem Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ImportToolboxItem.html)
 
 ## Availability

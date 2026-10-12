@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags.html"
 
 # EdmRawRefFlags Enumeration
 
-Flags used in
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

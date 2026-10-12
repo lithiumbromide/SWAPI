@@ -106,22 +106,12 @@ void EditMate4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MateTypeFromEnum`: Type of mate as defined in
-
-[swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html)
-- `AlignFromEnum`: Type of alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+- `MateTypeFromEnum`: Type of mate as defined in [swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html)
+- `AlignFromEnum`: Type of alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
 - `Flip`: True to flip the mate components, false to not
 - `Distance`: Distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE
 - `DistanceAbsUpperLimit`: Absolute maximum distance allowed; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE
@@ -133,77 +123,42 @@ See
 - `AngleAbsLowerLimit`: Absolute minimum angle allowed; valid only if MateTypeFromEnum is swMateType_e.swMateANGLE
 - `ForPositioningOnly`: True to only position the components according to the mating relationship and not return a mate, false to return a mate
 - `LockRotation`: True to lock component rotation, false to not
-- `WidthMateOption`: Width mate options as defined in
-
-[swMateWidthOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateWidthOptions_e.html)
-
-; valid only if MateTypeFromEnum is swMateType_e.swMateWIDTH
+- `WidthMateOption`: Width mate options as defined in [swMateWidthOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateWidthOptions_e.html); valid only if MateTypeFromEnum is swMateType_e.swMateWIDTH
 - `RepairMatesWithSameMissingEntity`: True to repair all mates missing the same mate entity, false to not
-- `ErrorStatus`: Success or error as defined by
-
-[swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
+- `ErrorStatus`: Success or error as defined by [swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::EditMate4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditMate4.html)
-
-.
+See [AssemblyDoc::EditMate4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditMate4.html).
 
 ## Examples
 
 [Repair Mates Missing Same Mate Entity (C#)](Repair_Mates_Missing_Same_Mate_Entity_Example_CSharp.htm)
-
 [Repair Mates Missing Same Mate Entity (VB.NET)](Repair_Mates_Missing_Same_Mate_Entity_Example_VBNET.htm)
-
 [Repair Mates Missing Same Mate Entity (VBA)](Repair_Mates_Missing_Same_Mate_Entity_Example_VB.htm)
 
 ## Remarks
 
 To edit:
 
-- Standard, advanced, and mechanical mates created using
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  , follow the steps to edit the mate in the Remarks of the mate's feature data interface.
-- Misaligned concentric mates, use
-
-  [IAssemblyDoc::EditConcentricMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditConcentricMate.html)
-
-  .
-- Distance mates, use
-
-  [IAssemblyDoc::EditDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditDistanceMate.html)
-
-  .
+- Standard, advanced, and mechanical mates created using [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html), follow the steps to edit the mate in the Remarks of the mate's feature data interface.
+- Misaligned concentric mates, use [IAssemblyDoc::EditConcentricMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditConcentricMate.html).
+- Distance mates, use [IAssemblyDoc::EditDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditDistanceMate.html).
 
 If repairing all mates missing the same mate entity, then select the following items in the following order before calling this method:
 
 1. Mate feature to repair.
-2. Two model items to mate (that is, two faces, edge and face, and so on). The two model items must be selected with a selection mark of 1. See
-
-  [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-  or
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  for details on using selection marks.
+2. Two model items to mate (that is, two faces, edge and face, and so on). The two model items must be selected with a selection mark of 1. See [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) or [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) for details on using selection marks.
 
 If MateTypeFromEnum is swMateType_e.swMateDISTANCE or swMateType_e.swMateANGLE, and the mate is applied to the closest position that meets the mate condition specified by Distance or Angle, then setting Flip to true moves the components to the other possible mate position.
 
-This method does not support editing**Inplace**mates.
+This method does not support editing **Inplace** mates.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddMate5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddMate5.html)
-
 [IAssemblyDoc::AddConcentricMateWithTolerance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddConcentricMateWithTolerance.html)
 
 ## Availability

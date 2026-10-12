@@ -1,6 +1,5 @@
 ---
-title: "Face Object
-Members"
+title: "Face Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Face_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Face_members.html"
 ---
 
-# Face Object
-Members
+# Face Object Members
 
 ## Public Methods
 

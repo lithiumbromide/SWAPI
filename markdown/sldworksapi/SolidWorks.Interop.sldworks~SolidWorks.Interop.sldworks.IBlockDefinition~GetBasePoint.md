@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # GetBasePoint Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::InsertionPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~InsertionPoint.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::InsertionPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~InsertionPoint.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetBasePoint()
 System.Object^ GetBasePoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetBasePoint.html)
-
-.
+See [BlockDefinition::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetBasePoint.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

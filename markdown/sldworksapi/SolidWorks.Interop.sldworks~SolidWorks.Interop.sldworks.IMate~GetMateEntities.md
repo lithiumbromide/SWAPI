@@ -40,24 +40,13 @@ System.object GetMateEntities()
 System.Object^ GetMateEntities();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Mate::GetMateEntities](ms-its:sldworksapivb6.chm::/sldworks~Mate~GetMateEntities.html)
-
-.
+See [Mate::GetMateEntities](ms-its:sldworksapivb6.chm::/sldworks~Mate~GetMateEntities.html).
 
 ## See Also
 
 [IMate Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html)
-
 [IMate Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate_members.html)

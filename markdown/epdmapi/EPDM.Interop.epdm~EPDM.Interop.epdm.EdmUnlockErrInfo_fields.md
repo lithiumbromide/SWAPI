@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_fields.htm
 
 # EdmUnlockErrInfo Structure Fields
 
-For a list of all members of this type, see[EdmUnlockErrInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_members.html).
+For a list of all members of this type, see [EdmUnlockErrInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmUnlockErrInfo members](EPDM.Inter
 ## See Also
 
 [EdmUnlockErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

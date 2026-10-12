@@ -9,11 +9,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.fwInterac
 
 # fwInteractiveRecognitionOptions_e Enumeration
 
-Interactive recognition options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Interactive recognition options. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

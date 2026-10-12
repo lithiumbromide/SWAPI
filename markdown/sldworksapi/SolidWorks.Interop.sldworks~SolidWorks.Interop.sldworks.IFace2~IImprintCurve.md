@@ -62,37 +62,23 @@ void IImprintCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Curve`: Pointer to the
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-to imprint on the face
+- `Curve`: Pointer to the [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) to imprint on the face
 - `NewEdgeCount`: Number of new edges to create
-- `NewEdges`: Array of new[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)created by the imprinted curveParamDescof size NewEdgeCount
-- `NewFaceCount`: Number of new faces to createParamDesc
-- `NewFaces`: Array of new[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)created by the imprinted curveParamDescof size NewFaceCount
+- `NewEdges`: Array of new [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) created by the imprinted curve of size NewEdgeCount
+- `NewFaceCount`: Number of new faces to create
+- `NewFaces`: Array of new [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) created by the imprinted curve of size NewFaceCount
 
 ## VBA Syntax
 
-See
-
-[Face2::IImprintCurve](ms-its:sldworksapivb6.chm::/sldworks~Face2~IImprintCurve.html)
-
-.
+See [Face2::IImprintCurve](ms-its:sldworksapivb6.chm::/sldworks~Face2~IImprintCurve.html).
 
 ## Remarks
 
-Before calling this method, call[IFace2::ImprintCurveCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ImprintCurveCount.html)to get the size of the arrays.
+Before calling this method, call [IFace2::ImprintCurveCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ImprintCurveCount.html) to get the size of the arrays.
 
 The specified curve must lie on the face.
 
@@ -101,9 +87,7 @@ To imprint a curve on a new face of a temporary body, create a copy of the origi
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::ImprintCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ImprintCurve.html)
 
 ## Availability

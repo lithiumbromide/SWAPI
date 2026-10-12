@@ -40,13 +40,7 @@ System.bool IsParamReversed()
 System.bool IsParamReversed();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the curve direction and edge direction are different, false if not
 
 ## VBA Syntax
 
-See
-
-[Edge::IsParamReversed](ms-its:sldworksapivb6.chm::/sldworks~Edge~IsParamReversed.html)
-
-.
+See [Edge::IsParamReversed](ms-its:sldworksapivb6.chm::/sldworks~Edge~IsParamReversed.html).
 
 ## Remarks
 
@@ -69,11 +59,8 @@ If this method returns false, then the curve direction and edge direction are th
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::GetCurveParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetCurveParams2.html)
-
 [IEdge::IGetCurveParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetCurveParams2.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool SymmetricThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to thicken symmetrically, false to not
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::SymmetricThickness](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~SymmetricThickness.html)
-
-.
+See [BaseFlangeFeatureData::SymmetricThickness](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~SymmetricThickness.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
 
 ## Availability

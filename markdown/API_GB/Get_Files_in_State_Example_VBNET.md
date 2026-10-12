@@ -9,12 +9,9 @@ source: "API_GB/Get_Files_in_State_Example_VBNET.htm"
 
 # Get Files in Workflow State Example (VB.NET)
 
-This example shows how to get all of the files in a particular
-workflow state.
+This example shows how to get all of the files in a particular workflow state.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

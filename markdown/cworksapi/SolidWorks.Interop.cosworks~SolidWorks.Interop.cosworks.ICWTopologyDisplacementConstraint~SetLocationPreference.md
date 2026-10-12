@@ -49,44 +49,27 @@ System.int SetLocationPreference(
 
 ### Parameters
 
-- `NLocationPreference`: Location preference as defined in
-
-[swsTopologyStudyDisplacementConstraintLocationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementConstraintLocationOption_e.html)
+- `NLocationPreference`: Location preference as defined in [swsTopologyStudyDisplacementConstraintLocationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementConstraintLocationOption_e.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_DisplacementConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_DisplacementConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_DisplacementConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_DisplacementConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDisplacementConstraint::SetLocationPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~SetLocationPreference.html)
-
-.
+See [CWTopologyDisplacementConstraint::SetLocationPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~SetLocationPreference.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
-example.
+See the [ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html) example.
 
 ## Remarks
 
-If NLocationPreference is set to swsTopologyStudyDisplacementConstraintLocationOption_e.swsTopologyDisplacementConstraintLocationOption_UserDefine, then use
-
-[ICWTopologyDisplacementConstraint::SetVertex](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint~SetVertex.html)
-
-to set the vertex from a load-bearing face..
+If NLocationPreference is set to swsTopologyStudyDisplacementConstraintLocationOption_e.swsTopologyDisplacementConstraintLocationOption_UserDefine, then use [ICWTopologyDisplacementConstraint::SetVertex](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint~SetVertex.html) to set the vertex from a load-bearing face..
 
 ## See Also
 
 [ICWTopologyDisplacementConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
 [ICWTopologyDisplacementConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint_members.html)
 
 ## Availability

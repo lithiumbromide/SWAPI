@@ -127,58 +127,34 @@ System.bool IEditDimensionProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TolType`: Type of tolerance as defined in
-
-[swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
+- `TolType`: Type of tolerance as defined in [swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
 - `TolMax`: Maximum value for the tolerance
 - `TolMin`: Minimum value for the tolerance
 - `TolMaxFit`: Text for the maximum FIT value when using a fit tolerance type
 - `TolMinFit`: Text for the minimum FIT value when using a fit tolerance type
 - `UseDocPrec`: True to use the document's precision value, false to use value specified for Precision
 - `Precision`: Precision to use for this dimension if UseDocPrec is false
-- `ArrowsIn`: Arrow direction as defined in
-
-[swDimensionArrowsSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionArrowsSide_e.html)
+- `ArrowsIn`: Arrow direction as defined in [swDimensionArrowsSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionArrowsSide_e.html)
 - `UseDocArrows`: True to use the document's arrow types, false to use values specified for Arrow1 and Arrow2
-- `Arrow1`: Type of arrow to use for the first arrow of this dimension as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-
-if UseDocArrows is false
+- `Arrow1`: Type of arrow to use for the first arrow of this dimension as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html) if UseDocArrows is false
 - `Arrow2`: Type of arrow to use for the second arrow of this dimension as defined in swArrowStyle_e if UseDocArrows is false
 - `PrefixText`: Text for the prefix of the dimension
 - `SuffixText`: Text for the suffix of the dimension
 - `ShowValue`: True to display the value of the dimension in the user interface, false to not
 - `CalloutText1`: Callout text to display above the dimension
 - `CalloutText2`: Callout text to display below the dimension
-- `DimensionLowerText`: Text to display below the dimension line; valid for
-
-[display dimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
-
-in drawings only
+- `DimensionLowerText`: Text to display below the dimension line; valid for [display dimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) in drawings only
 - `CenterText`: True to center the text in the dimension, false to not
-- `ConfigOption`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `ConfigOption`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Count`: Number of configurations
-- `ConfigNames`: - in-process, unmanaged C++: Pointer to an array of configuration names to which to apply these edits (see
+- `ConfigNames`: - in-process, unmanaged C++: Pointer to an array of configuration names to which to apply these edits (see **Remarks**)
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  Remarks
-
-  )
-- VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -189,18 +165,12 @@ True if the dimension is modified, false if not
 This method:
 
 - always changes the dimension's parameters in the active configuration. For example, if you specify swInConfigurationOpts_e.swSpecifyConfiguration for ConfigOption and do not specify the name of the active configuration in ConfigNames, then the dimension parameters in the active configuration are affected.
-- does not support
-
-  [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html)
-
-  .
+- does not support [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::EditDimensionProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~EditDimensionProperties.html)
 
 ## Availability

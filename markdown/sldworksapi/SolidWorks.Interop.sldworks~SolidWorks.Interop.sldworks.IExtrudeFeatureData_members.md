@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # IExtrudeFeatureData Interface Members
 
-The following tables list the members exposed by[IExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html).
+The following tables list the members exposed by [IExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html).
 
 ## Public Properties
 
@@ -60,5 +60,4 @@ The following tables list the members exposed by[IExtrudeFeatureData](SolidWorks
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

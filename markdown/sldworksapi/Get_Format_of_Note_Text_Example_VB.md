@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Format_of_Note_Text_Example_VB.htm"
 
 # Get Format of Note Text Example (VBA)
 
-This example shows how to find out whether the font style for notes
-is italic.
+This example shows how to find out whether the font style for notes is italic.
 
 ```
 '---------------------------------------------

@@ -75,13 +75,7 @@ Body2^ IRevolvePlanarLoop(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -92,28 +86,20 @@ See
 - `Axisy`: Direction along y
 - `Axisz`: Direction along z
 - `RevAngle`: Angle of revolution in radians
-- `StopFacesOut`: Array of two stop[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+- `StopFacesOut`: Array of two stop [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ### Return Value
 
-New
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+New [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Loop2::IRevolvePlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IRevolvePlanarLoop.html)
-
-.
+See [Loop2::IRevolvePlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IRevolvePlanarLoop.html).
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::RevolvePlanarLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~RevolvePlanarLoop.html)
 
 ## Availability

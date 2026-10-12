@@ -49,7 +49,7 @@ True if there is a revision number generator set up for the file's current state
 
 This method exists mainly for internal purposes.
 
-See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
+See [Return Codes](ReturnCodes.htm) for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
 - E_EDM_END_OF_REV_GEN_LIST_STOP: It is not possible to increment revision on this file, because SOLIDWORKS PDM Professional has reached the end of the revision list that was set up in the Workflow Editor.
@@ -57,7 +57,6 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
 
 ## Availability

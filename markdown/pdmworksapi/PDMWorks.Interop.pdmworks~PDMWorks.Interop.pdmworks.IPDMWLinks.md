@@ -9,15 +9,9 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLi
 
 # IPDMWLinks Interface
 
-Contains[IPDMWLink](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)objects.
+Contains [IPDMWLink](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html) objects.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWLinks
 
 ## VBA Syntax
 
-See
-
-[PDMWLinks](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks.html)
-
-.
+See [PDMWLinks](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks.html).
 
 ## Examples
 
@@ -78,7 +68,5 @@ See
 ## See Also
 
 [IPDMWLinks Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IGetLineAtIndex Method (IDisplayData)
 
-Obsolete. Superseded by
-
-[IDisplayData::IGetLineAtIndex2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetLineAtIndex2.html)
-
-.
+Obsolete. Superseded by [IDisplayData::IGetLineAtIndex2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetLineAtIndex2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IGetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayData::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~IGetLineAtIndex.html)
-
-.
+See [DisplayData::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~IGetLineAtIndex.html).
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)

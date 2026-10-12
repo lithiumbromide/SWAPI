@@ -9,8 +9,7 @@ source: "sldworksapi/Isolate_Component_Example_VBNET.htm"
 
 # Isolate Component Example (VB.NET)
 
-This example shows how to isolate a component and save the characteristics
-of the new display state.
+This example shows how to isolate a component and save the characteristics of the new display state.
 
 ```
 '----------------------------------------------------------

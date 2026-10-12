@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Render_References_Example_CSharp.htm"
 
 # Get Render References (C#)
 
-This example shows how to get the render stock (SOLIDWORKS-supplied)
-references for a model.
+This example shows how to get the render stock (SOLIDWORKS-supplied) references for a model.
 
 ```vb
  //-------------------------------------------------

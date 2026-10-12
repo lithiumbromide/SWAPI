@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # IMidSurface Interface Methods
 
-For a list of all members of this type, see[IMidSurface members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html).
+For a list of all members of this type, see [IMidSurface members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html).
 
 ## Public Methods
 
@@ -42,5 +42,4 @@ For a list of all members of this type, see[IMidSurface members](SolidWorks.Inte
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

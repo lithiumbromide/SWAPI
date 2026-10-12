@@ -39,11 +39,7 @@ void GetReferences(
 
 ### Parameters
 
-- `ppoReferences`: Array of
-
-[EdmListRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRef.html)
-
-structures
+- `ppoReferences`: Array of [EdmListRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRef.html) structures
 
 ## Remarks
 
@@ -55,7 +51,6 @@ structures
 ## See Also
 
 [IEdmBatchListing3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html)
-
 [IEdmBatchListing3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3_members.html)
 
 ## Availability

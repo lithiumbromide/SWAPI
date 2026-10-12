@@ -40,13 +40,7 @@ System.int GetChildrenCount()
 System.int GetChildrenCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of children in this configuration
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetChildrenCount.html)
-
-.
+See [Configuration::GetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetChildrenCount.html).
 
 ## Examples
 
@@ -66,14 +56,12 @@ See
 
 ## Remarks
 
-Call this method before calling[IConfiguration::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetChildren.html).
+Call this method before calling [IConfiguration::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetChildren.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::GetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetChildren.html)
 
 ## Availability

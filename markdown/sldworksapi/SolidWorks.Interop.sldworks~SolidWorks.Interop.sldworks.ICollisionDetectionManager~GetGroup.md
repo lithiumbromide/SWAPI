@@ -47,13 +47,7 @@ System.Object^ GetGroup(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::GetGroup](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetGroup.html)
-
-.
+See [CollisionDetectionManager::GetGroup](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetGroup.html).
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

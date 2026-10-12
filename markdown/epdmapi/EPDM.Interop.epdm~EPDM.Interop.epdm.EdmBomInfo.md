@@ -34,26 +34,24 @@ public value class EdmBomInfo : public System.ValueType
 
 ## Examples
 
-struct EdmBomInfo{ integer mlBomID ;[enum EdmBomType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType.html)meType ; string mbsBomName ; };
+struct EdmBomInfo{
+integer [mlBomID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~mlBomID.html);
+[enum EdmBomType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType.html) [meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~meType.html);
+string [mbsBomName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~mbsBomName.html);
+};
 
 ## Examples
 
 [Access Bill of Materials (VB.NET)](Access_Bill_of_Materials_Example_VBNET.htm)
-
 [Access Bill of Materials (C#)](Access_Bill_of_Materials_Example_CSharp.htm)
 
 ## Remarks
 
-Returned by
-
-[IEdmFile7::GetDerivedBOMs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetDerivedBOMs.html)
-
-.
+Returned by [IEdmFile7::GetDerivedBOMs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetDerivedBOMs.html).
 
 ## See Also
 
 [EdmBomInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

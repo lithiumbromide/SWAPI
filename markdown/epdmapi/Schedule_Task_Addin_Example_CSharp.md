@@ -9,27 +9,20 @@ source: "epdmapi/Schedule_Task_Addin_Example_CSharp.htm"
 
 # Create a Task that Finds Approved Files Example (C#)
 
-This example shows how to create a task add-in that notifies the logged-in
-user as to which files in
-the vault are in the Approved state.
+This example shows how to create a task add-in that notifies the logged-in user as to which files in the vault are in the Approved state.
 
 ```vb
 //--------------------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- // 2. Click File > New > Project > Visual C# > Class Library (.NET Framework).
+ // 2. Click File > New > Project > C#, Windows, Library > Class Library (.NET Framework), then Next.
  // 3. Select .NET Framework 4.5 or later in the dropdown.
- // 4. Type TaskAddinExample in Name.
- // 5. Click Browse and navigate to the folder where to create the project.
- // 6. Click OK.
- // 7. Right-click the project name in the Solution Explorer and click Add Reference.
- // 8. In the Add Reference dialog:
- //    a. Add the SOLIDWORKS PDM Professional interop assembly as a reference (click Browse in the
- //       left-side panel, click EPDM.Interop.epdm.dll,
- //       and click OK).
- //    b. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
- //       left-side panel, click System.Windows.Forms, and click OK).
- //    c. Click Close.
+ // 4. Type TaskAddinExample in Project name.
+ // 5. For Location, click ... and navigate to the folder where to create the project.
+// 6. Click Create.
+// 7. Click Show All Files in the Solution Explorer toolbar and expand
+//    Class1.cs in the Solution Explorer.
+ // 8.    Add dependencies and safely pass arrays of structures.
  // 9. Right-click the project name in the Solution Explorer and click  Properties.
  //10. In the Properties window:
  //    a. On the Application tab, click Assembly Information.

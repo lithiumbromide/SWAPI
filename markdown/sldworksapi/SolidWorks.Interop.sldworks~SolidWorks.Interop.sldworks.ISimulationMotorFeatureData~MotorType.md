@@ -42,27 +42,15 @@ property System.int MotorType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of motor as defined in
-
-[swSimulationMotorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorType_e.html)
+Type of motor as defined in [swSimulationMotorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::MotorType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~MotorType.html)
-
-.
+See [SimulationMotorFeatureData::MotorType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~MotorType.html).
 
 ## Examples
 
@@ -71,7 +59,6 @@ See
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
 
 ## Availability

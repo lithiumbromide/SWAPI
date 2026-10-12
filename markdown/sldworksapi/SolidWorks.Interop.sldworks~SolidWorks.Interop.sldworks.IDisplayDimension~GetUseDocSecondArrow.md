@@ -40,13 +40,7 @@ System.bool GetUseDocSecondArrow()
 System.bool GetUseDocSecondArrow();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this display dimension uses the document setting, false if it uses the l
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetUseDocSecondArrow](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocSecondArrow.html)
-
-.
+See [DisplayDimension::GetUseDocSecondArrow](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocSecondArrow.html).
 
 ## Remarks
 
@@ -68,16 +58,13 @@ This method determines whether this display dimension uses the default document 
 
 This method applies only to diameter dimensions. If you execute this method for any other types of dimensions, SOLIDWORKS returns false.
 
-Use[IDisplayDimension::SetSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetSecondArrow.html)to set this value.
+Use [IDisplayDimension::SetSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetSecondArrow.html) to set this value.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::ArrowSide Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~ArrowSide.html)
-
 [IDisplayDimension::GetSecondArrow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetSecondArrow.html)
 
 ## Availability

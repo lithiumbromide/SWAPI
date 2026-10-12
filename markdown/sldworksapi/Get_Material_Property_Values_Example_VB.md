@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Material_Property_Values_Example_VB.htm"
 
 # Get Material Property Values Example (VBA)
 
-This example shows how to get the color, a material property value, applied
-to each
-body in a part.
+This example shows how to get the color, a material property value, applied to each body in a part.
 
 ```
 '-----------------------------------------------

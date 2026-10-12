@@ -59,44 +59,22 @@ System.int GetCellTextOrientation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Row`: 0-based index of the cell row; valid only if AllCells is set to false
 - `Column`: 0-based index of the cell column; valid only if AllCells is set to false
 - `IncludeHidden`: True to include hidden rows and columns in Row and Column indexes, false to not
-- `AllCells`: True to get the orientation in all cells, false to not; if false, set Row and Column (see
-
-Remarks
-
-)
+- `AllCells`: True to get the orientation in all cells, false to not; if false, set Row and Column (see **Remarks**)
 
 ### Return Value
 
-Text orientation as defined in
-
-[swTableCellOrientation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableCellOrientation_e.html)
-
-(see
-
-Remarks
-
-)
+Text orientation as defined in [swTableCellOrientation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableCellOrientation_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetCellTextOrientation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetCellTextOrientation.html)
-
-.
+See [TableAnnotation::GetCellTextOrientation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetCellTextOrientation.html).
 
 ## Remarks
 
@@ -114,9 +92,7 @@ If AllCells is set to true, this method returns one of the above or:
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::SetCellTextOrientation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetCellTextOrientation.html)
 
 ## Availability

@@ -61,10 +61,10 @@ CWSpringConnector^ AddSpringConnector(
 
 ### Parameters
 
-- `NSpringSubType`: Spring connector type as defined in[swsSpringConnectorType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorType_e.html)
+- `NSpringSubType`: Spring connector type as defined in [swsSpringConnectorType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorType_e.html)
 - `DispArrayComp1`: Array of planar faces, cylindrical faces, or vertices from a body depending on NSpringSubType
 - `DispArrayComp2`: Array of planar faces, cylindrical faces, or vertices, depending on NSpringSubType, from another body
-- `ErrorCode`: Error as defined in[swsSpringConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsSpringConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorError_e.html)
 
 ### Return Value
 
@@ -72,24 +72,17 @@ CWSpringConnector^ AddSpringConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddSpringConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSpringConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddSpringConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSpringConnector.html).
 
 ## Examples
 
 [Add Spring Connector (VBA)](Add_Spring_Connector_Example_VB.htm)
-
 [Add Spring Connector (VB.NET)](Add_Spring_Connector_Example_VBNET.htm)
-
 [Add Spring Connector (C#)](Add_Spring_Connector_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 # IImportIgesData Interface Members
 
-The following tables list the members exposed by[IImportIgesData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html).
+The following tables list the members exposed by [IImportIgesData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html).
 
 ## Public Properties
 
@@ -35,7 +35,5 @@ The following tables list the members exposed by[IImportIgesData](SolidWorks.Int
 ## See Also
 
 [IImportIgesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)

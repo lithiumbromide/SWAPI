@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetCustomData
 
 # GetCustomData Method (IEdmReference5)
 
-Gets data stored with
-
-[IEdmReference5::SetCustomData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~SetCustomData.html)
-
-in this file reference.
+Gets data stored with [IEdmReference5::SetCustomData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~SetCustomData.html) in this file reference.
 
 ## Syntax
 
@@ -63,9 +59,7 @@ True if the data was found, false if not
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
-
 [IEdmReference5::SetCustomData Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~SetCustomData.html)
 
 ## Availability

@@ -62,11 +62,7 @@ True if tolerance scheme successfully imported, false if not
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::ImportScheme](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~ImportScheme.html)
-
-.
+See [DimXpertPart::ImportScheme](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~ImportScheme.html).
 
 ## Examples
 
@@ -100,7 +96,6 @@ End Sub
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

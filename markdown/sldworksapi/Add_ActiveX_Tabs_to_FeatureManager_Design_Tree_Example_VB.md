@@ -9,8 +9,7 @@ source: "sldworksapi/Add_ActiveX_Tabs_to_FeatureManager_Design_Tree_Example_VB.h
 
 # Add ActiveX Tabs to FeatureManager Design Tree Example (VBA)
 
-This example shows how to add tabs to a split FeatureManager design tree using
-an on-disk bitmap file for the tabs' icon.
+This example shows how to add tabs to a split FeatureManager design tree using an on-disk bitmap file for the tabs' icon.
 
 ```
 '----------------------------------------------------------

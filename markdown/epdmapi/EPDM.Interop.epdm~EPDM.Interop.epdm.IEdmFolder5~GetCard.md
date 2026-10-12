@@ -48,16 +48,13 @@ IEdmCard5^ GetCard(
 ## Examples
 
 [Find Data Cards with Description Variable (C#)](Find_Data_Cards_with_Description_Variable_Example_CSharp.htm)
-
 [Find Data Cards with Description Variable (VB.NET)](Find_Data_Cards_with_Description_Variable_Example_VBNET.htm)
-
 [Get Card Control Information (VB.NET)](Get_Card_Control_Info_Example_VBNET.htm)
-
 [Get Card Control Information (C#)](Get_Card_Control_Info_Example_CSharp.htm)
 
 ## Remarks
 
-If you only need the card ID, it is faster to call[IEdmfolder5::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID.html)than to call this method.
+If you only need the card ID, it is faster to call [IEdmfolder5::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetCardID.html) than to call this method.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmCard5.
 
@@ -69,7 +66,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
 
 ## Availability

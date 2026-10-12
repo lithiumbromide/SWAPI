@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_methods.htm
 
 # IEdmRevisionMgr Interface Methods
 
-For a list of all members of this type, see[IEdmRevisionMgr members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html).
+For a list of all members of this type, see [IEdmRevisionMgr members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IEdmRevisionMgr members](EPDM.Intero
 ## See Also
 
 [IEdmRevisionMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

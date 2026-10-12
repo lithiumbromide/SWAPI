@@ -40,13 +40,7 @@ System.object GetExtrusionsurfParams()
 System.Object^ GetExtrusionsurfParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Array of doubles giving extrusion surface parameters
 
 ## VBA Syntax
 
-See
-
-[Surface::GetExtrusionsurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetExtrusionsurfParams.html)
-
-.
+See [Surface::GetExtrusionsurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetExtrusionsurfParams.html).
 
 ## Remarks
 
-An extrusion surface is constructed by extruding a profile curve (line or arc or b-spline) along a direction vector. You can retrieve the profile curve for the extrusion using[ISurface::GetProfileCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetProfileCurve.html)or[ISurface::IGetProfileCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetProfileCurve.html).
+An extrusion surface is constructed by extruding a profile curve (line or arc or b-spline) along a direction vector. You can retrieve the profile curve for the extrusion using [ISurface::GetProfileCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetProfileCurve.html) or [ISurface::IGetProfileCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetProfileCurve.html).
 
-Three doubles of parameters returned,`DirectionVector[3]`, which is the direction vector along which the profile curve is extruded.
+Three doubles of parameters returned, `DirectionVector[3]`, which is the direction vector along which the profile curve is extruded.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IGetExtrusionsurfParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetExtrusionsurfParams.html)

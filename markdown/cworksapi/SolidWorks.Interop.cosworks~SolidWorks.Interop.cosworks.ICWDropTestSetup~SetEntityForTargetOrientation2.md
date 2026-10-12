@@ -53,12 +53,11 @@ System.bool SetEntityForTargetOrientation2(
 
 ## Remarks
 
-This method is valid only if[ICWDropTestSetup::TargetOrientationType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~TargetOrientationType.html)= swsDropTargetOrientationType_e.swsDropTargetOrientationType_ParallelToRefPlane.
+This method is valid only if [ICWDropTestSetup::TargetOrientationType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~TargetOrientationType.html) = swsDropTargetOrientationType_e.swsDropTargetOrientationType_ParallelToRefPlane.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

@@ -37,11 +37,7 @@ Window handle
 
 ## Examples
 
-See the
-
-[IEdmCardView5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView5.html)
-
-examples.
+See the [IEdmCardView5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView5.html) examples.
 
 ## Remarks
 
@@ -53,7 +49,6 @@ examples.
 ## See Also
 
 [IEdmCardView5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView5.html)
-
 [IEdmCardView5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView5_members.html)
 
 ## Availability

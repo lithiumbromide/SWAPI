@@ -47,22 +47,18 @@ public delegate void _IEModelViewControlEvents_OnNamedViewEventHandler(
 
 - `NamedViewId`: Named views:
 
-- 0xDDDD = Front View
-- 0xDDDE = Back view
-- 0xDDDF = Left view
-- 0xDDED = Right view
-- 0xDDEE = Top view
-- 0xDDEF = Bottom view
-- 0xDDFD = Isometric view
-- 0xDDFE = Normal view
+  - 0xDDDD = Front View
+  - 0xDDDE = Back view
+  - 0xDDDF = Left view
+  - 0xDDED = Right view
+  - 0xDDEE = Top view
+  - 0xDDEF = Bottom view
+  - 0xDDFD = Isometric view
+  - 0xDDFE = Normal view
 
 ## VBA Syntax
 
-See
-
-[OnNamedView Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnNamedView_EV.html)
-
-.
+See [OnNamedView Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnNamedView_EV.html).
 
 ## Availability
 

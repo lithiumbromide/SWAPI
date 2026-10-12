@@ -35,11 +35,7 @@ property System.int RefCount {
 
 ### Property Value
 
-Number of times the referenced file is included by the referencing file (see
-
-Remarks
-
-)
+Number of times the referenced file is included by the referencing file (see **Remarks**)
 
 ## Remarks
 
@@ -48,9 +44,7 @@ This property is 0 if the file format does not allow SOLIDWORKS PDM Professional
 ## See Also
 
 [IEdmReference6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference6.html)
-
 [IEdmReference6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference6_members.html)
-
 [IEdmReference8::RefCountEdited Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8~RefCountEdited.html)
 
 ## Availability

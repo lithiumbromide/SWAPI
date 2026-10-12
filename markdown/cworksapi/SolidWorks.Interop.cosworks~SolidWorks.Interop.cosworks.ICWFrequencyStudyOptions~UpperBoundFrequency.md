@@ -51,34 +51,18 @@ Upper-bound frequency
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::UpperBoundFrequency](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UpperBoundFrequency.html)
-
-.
+See [CWFrequencyStudyOptions::UpperBoundFrequency](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UpperBoundFrequency.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html)
-
-is set to
-
-[swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html)
-
-.swsFrequencyStudyOptionUseUpperBoundFrequency.
+This property is valid only if [ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html) is set to [swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html).swsFrequencyStudyOptionUseUpperBoundFrequency.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::Options Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html)
-
 [ICWFrequencyStudyOptions::LowerBoundFrequency Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~LowerBoundFrequency.html)
-
 [ICWFrequencyStudyOptions::UseLowerBoundFrequency Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseLowerBoundFrequency.html)
 
 ## Availability

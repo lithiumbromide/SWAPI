@@ -40,13 +40,7 @@ System.int GetID()
 System.int GetID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Layer ID for this layer
 
 ## VBA Syntax
 
-See
-
-[Layer::GetID](ms-its:sldworksapivb6.chm::/sldworks~Layer~GetID.html)
-
-.
+See [Layer::GetID](ms-its:sldworksapivb6.chm::/sldworks~Layer~GetID.html).
 
 ## Examples
 
 [Get Layers (C#)](Get_Layers_Example_CSharp.htm)
-
 [Get Layers (VB.NET)](Get_Layers_Example_VBNET.htm)
-
 [Get Layers (VBA)](Get_Layers_Example_VB.htm)
 
 ## Remarks
@@ -73,23 +61,14 @@ See
 A layer ID:
 
 - is unique within the drawing.
-- is persistent across SOLIDWORKS sessions and never changes, even if you
-
-  [change the name of the layer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer~Name.html)
-
-  .
+- is persistent across SOLIDWORKS Design sessions and never changes, even if you [change the name of the layer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer~Name.html).
 - can be used to identify a specific layer when multiple layers exist in a drawing.
 - cannot be assigned by applications or users.
-- is not the same as a
-
-  [persistent reference ID](sldworksapiprogguide.chm::/overview/Persistent_Reference_IDs.htm)
-
-  . You can get a layer using its persistent reference ID, but you cannot get a layer using this method.
+- is not the same as a [persistent reference ID](sldworksapiprogguide.chm::/overview/Persistent_Reference_IDs.htm). You can get a layer using its persistent reference ID, but you cannot get a layer using this method.
 
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
 
 ## Availability

@@ -47,36 +47,24 @@ MathPoint^ ISubtractVector(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)by which to subtract this math point
+- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) by which to subtract this math point
 
 ### Return Value
 
-Newly created[math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)or NULL if the operation fails
+Newly created [math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathPoint::ISubtractVector](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~ISubtractVector.html)
-
-.
+See [MathPoint::ISubtractVector](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~ISubtractVector.html).
 
 ## See Also
 
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint_members.html)
-
 [IMathPoint::SubtractVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint~SubtractVector.html)
 
 ## Availability

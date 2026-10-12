@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertLinearNotePattern Method (IDrawingDoc)
 
-Inserts a linear note pattern using the selected
-
-[note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-.
+Inserts a linear note pattern using the selected [note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.bool InsertLinearNotePattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -91,19 +81,7 @@ See
 - `SpacingY`: Spacing between pattern instances along the y axis
 - `AngleX`: Angle for direction 1 relative to the x axis
 - `AngleY`: Angle for direction 2 relative to the y axis
-- `DeleteInstances`: Number of instances to delete, passed as a string in the format "(
-
-a
-
-) (
-
-b
-
-) (
-
-c
-
-) "
+- `DeleteInstances`: Number of instances to delete, passed as a string in the format "(a) (b) (c) "
 
 ### Return Value
 
@@ -111,26 +89,18 @@ True if the linear note pattern is created, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertLinearNotePattern](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertLinearNotePattern.html)
-
-.
+See [DrawingDoc::InsertLinearNotePattern](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertLinearNotePattern.html).
 
 ## Examples
 
 [Insert Linear and Circular Note Patterns (C#)](Insert_Linear_and_Circular_Note_Patterns_Example_CSharp.htm)
-
 [Insert Linear and Circular Note Patterns (VB.NET)](Insert_Linear_and_Circular_Note_Patterns_Example_VBNET.htm)
-
 [Insert Linear and Circular Note Patterns (VBA)](Insert_Linear_and_Circular_Note_Patterns_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::InsertCircularNotePattern Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertCircularNotePattern.html)
 
 ## Availability

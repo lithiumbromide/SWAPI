@@ -45,32 +45,19 @@ property System.int AccuracyLevel {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Accuracy level as defined in
-
-[swMassPropertyAccuracyLevel_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMassPropertyAccuracyLevel_e.html)
+Accuracy level as defined in [swMassPropertyAccuracyLevel_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMassPropertyAccuracyLevel_e.html)
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::AccuracyLevel](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~AccuracyLevel.html)
-
-.
+See [MassProperty2::AccuracyLevel](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~AccuracyLevel.html).
 
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
 
 ## Availability

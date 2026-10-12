@@ -40,13 +40,7 @@ System.int GetPatternFaceCount()
 System.int GetPatternFaceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of patterned faces
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::GetPatternFaceCount](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetPatternFaceCount.html)
-
-.
+See [CircularPatternFeatureData::GetPatternFaceCount](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetPatternFaceCount.html).
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::IGetPatternFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~IGetPatternFaceArray.html)
-
 [ICircularPatternFeatureData::ISetPatternFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~ISetPatternFaceArray.html)
-
 [ICircularPatternFeatureData::PatternFaceArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~PatternFaceArray.html)
 
 ## Availability

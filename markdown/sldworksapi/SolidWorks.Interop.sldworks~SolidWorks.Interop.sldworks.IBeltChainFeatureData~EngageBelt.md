@@ -45,13 +45,7 @@ property System.bool EngageBelt {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to engage the belt with the pulleys, false to suppress belt mates
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::EngageBelt](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~EngageBelt.html)
-
-.
+See [BeltChainFeatureData::EngageBelt](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~EngageBelt.html).
 
 ## Examples
 
-See the
-
-[IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-examples.
+See the [IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html) examples.
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

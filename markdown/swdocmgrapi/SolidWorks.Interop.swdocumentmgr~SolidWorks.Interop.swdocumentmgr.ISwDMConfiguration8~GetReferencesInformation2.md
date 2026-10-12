@@ -67,22 +67,15 @@ void GetReferencesInformation2(
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration8::GetReferencesInformation2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration8~GetReferencesInformation2.html)
-
-.
+See [SwDMConfiguration8::GetReferencesInformation2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration8~GetReferencesInformation2.html).
 
 ## Remarks
 
 This method only works with references modified using SOLIDWORKS Document Manager API 2007 and later and SOLIDWORKS Explorer.
 
-kadov_tag{{<spaces>}}
-
 ## See Also
 
 [ISwDMConfiguration8 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration8.html)
-
 [ISwDMConfiguration8 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration8_members.html)
 
 ## Availability

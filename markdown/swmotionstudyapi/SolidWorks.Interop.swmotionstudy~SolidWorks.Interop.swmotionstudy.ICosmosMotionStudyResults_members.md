@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # ICosmosMotionStudyResults Interface Members
 
-The following tables list the members exposed by[ICosmosMotionStudyResults](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html).
+The following tables list the members exposed by [ICosmosMotionStudyResults](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ The following tables list the members exposed by[ICosmosMotionStudyResults](Soli
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)

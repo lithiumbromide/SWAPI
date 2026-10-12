@@ -52,11 +52,7 @@ void InsertSpotWeldLocations(
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::InsertSpotWeldLocations](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~InsertSpotWeldLocations.html)
-
-.
+See [CWSpotWeldConnector::InsertSpotWeldLocations](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~InsertSpotWeldLocations.html).
 
 ## Remarks
 
@@ -65,11 +61,8 @@ Spot-weld locations can be vertices or reference points. Reference points are pr
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldLocations::GetSpotWeldLocationCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~GetSpotWeldLocationCount.html)
-
 [ICWSpotWeldLocations::RemoveSpotWeldLocationAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~RemoveSpotWeldLocationAt.html)
 
 ## Availability

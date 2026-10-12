@@ -45,50 +45,27 @@ property System.String^ Size {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread size (see
-
-Remarks
-
-)
+Thread size (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::Size](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Size.html)
-
-.
+See [ThreadFeatureData::Size](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Size.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-This property corresponds to a Size selected in the Thread PropertyManager for a selected
-
-[IThreadFeatureData::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Type.html)
-
-.
+This property corresponds to a Size selected in the Thread PropertyManager for a selected [IThreadFeatureData::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Type.html).
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

@@ -40,29 +40,15 @@ System.int GetSketchPointsCount2()
 System.int GetSketchPointsCount2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Number of
-
-[sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-in this sketch
+Number of [sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) in this sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchPointsCount2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchPointsCount2.html)
-
-.
+See [Sketch::GetSketchPointsCount2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchPointsCount2.html).
 
 ## Examples
 
@@ -70,18 +56,12 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ISketch::IGetSketchPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPoints2.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketch::IGetSketchPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPoints2.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchPoints2.html)
 
 ## Availability

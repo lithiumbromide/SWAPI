@@ -55,13 +55,7 @@ System.bool SetColumnTitle2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ True if title is set, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetColumnTitle2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnTitle2.html)
-
-.
+See [TableAnnotation::SetColumnTitle2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnTitle2.html).
 
 ## Remarks
 
@@ -90,11 +80,8 @@ False is returned if the table does not have a header enabled. The title cannot 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetColumnTitle2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnTitle2.html)
-
 [ITableAnnotation::SetColumnType2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnType2.html)
 
 ## Availability

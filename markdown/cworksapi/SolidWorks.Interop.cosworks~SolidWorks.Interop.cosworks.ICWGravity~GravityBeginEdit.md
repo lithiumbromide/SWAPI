@@ -41,24 +41,15 @@ void GravityBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWGravity::GravityBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GravityBeginEdit.html)
-
-.
+See [CWGravity::GravityBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GravityBeginEdit.html).
 
 ## Remarks
 
-To start editing gravity, you must call this method. You must call
-
-[ICWGravity::GravityEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWGravity~GravityEndEdit.html)
-
-to end editing gravity. Changes are not applied unless you call both methods.
+To start editing gravity, you must call this method. You must call [ICWGravity::GravityEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWGravity~GravityEndEdit.html) to end editing gravity. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
 
 ## Availability

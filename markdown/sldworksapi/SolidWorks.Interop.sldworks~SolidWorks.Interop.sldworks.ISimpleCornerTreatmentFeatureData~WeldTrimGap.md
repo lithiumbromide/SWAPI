@@ -45,13 +45,7 @@ property System.double WeldTrimGap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Weld trim gap between members
 
 ## VBA Syntax
 
-See
-
-[SimpleCornerTreatmentFeatureData::WeldTrimGap](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~WeldTrimGap.html)
-
-.
+See [SimpleCornerTreatmentFeatureData::WeldTrimGap](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~WeldTrimGap.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [ISimpleCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html)
-
 [ISimpleCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData_members.html)
 
 ## Availability

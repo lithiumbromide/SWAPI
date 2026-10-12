@@ -45,13 +45,7 @@ property System.bool DetailingMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if in detailing mode, false if not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::DetailingMode](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~DetailingMode.html)
-
-.
+See [DocumentSpecification::DetailingMode](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~DetailingMode.html).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

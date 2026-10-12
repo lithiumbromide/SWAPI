@@ -40,42 +40,23 @@ System.object GetCutListItems()
 System.Object^ GetCutListItems();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[ICutListItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html)
-
-s
+Array of [ICutListItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html)s
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetCutListItems](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCutListItems.html)
-
-.
+See [Configuration::GetCutListItems](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCutListItems.html).
 
 ## Examples
 
-See the
-
-[ICutListItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html)
-
-examples.
+See the [ICutListItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html) examples.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

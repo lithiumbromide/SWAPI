@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # TableKFactor Property (IBaseFlangeFeatureData)
 
-Gets the K-factor to use, if it is not
-
-[overridden](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~OverrideKFactor.html)
-
-,
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-from the gauge table for this base flange feature.
+Gets the K-factor to use, if it is not [overridden](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~OverrideKFactor.html), from the gauge table for this base flange feature.
 
 ## Syntax
 
@@ -52,13 +42,7 @@ property System.double TableKFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -66,22 +50,14 @@ K-factor value
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::TableKFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~TableKFactor.html)
-
-.
+See [BaseFlangeFeatureData::TableKFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~TableKFactor.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::GaugeTablePath Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GaugeTablePath.html)
-
 [IBaseFlangeFeatureData::KFactor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~KFactor.html)
-
 [IBaseFlangeFeatureData::UseGaugeTable Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseGaugeTable.html)
 
 ## Availability

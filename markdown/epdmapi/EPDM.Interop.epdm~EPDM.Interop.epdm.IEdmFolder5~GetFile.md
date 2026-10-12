@@ -48,7 +48,6 @@ IEdmFile5^ GetFile(
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
@@ -64,13 +63,9 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::GetFirstFilePosition Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstFilePosition.html)
-
 [IEdmFolder5::GetSubFolder Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetSubFolder.html)
-
 [IEdmFolder5::GetFirstSubFolderPosition Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstSubFolderPosition.html)
 
 ## Availability

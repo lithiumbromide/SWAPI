@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to a mate reference, which specifies one or more entities of a component to use for automatic mating.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,24 +41,15 @@ public interface class IMateReference
 
 ## VBA Syntax
 
-See
-
-[MateReference](ms-its:sldworksapivb6.chm::/sldworks~MateReference.html)
-
-.
+See [MateReference](ms-its:sldworksapivb6.chm::/sldworks~MateReference.html).
 
 ## Examples
 
 [Get Mate Reference Properties (VBA)](Get_Mate_Reference_Properties_Example_VB.htm)
-
 [Get Mate Reference Properties (VB.NET)](Get_Mate_Reference_Properties_Example_VBNET.htm)
-
 [Get Mate Reference Properties (C#)](Get_Mate_Reference_Properties_Example_CSharp.htm)
-
 [Edit Mate Reference (C#)](Edit_Mate_Reference_Example_CSharp.htm)
-
 [Edit Mate Reference (VB.NET)](Edit_Mate_Reference_Example_VBNET.htm)
-
 [Edit Mate Reference (VBA)](Edit_Mate_Reference_Example_VB.htm)
 
 ## Accessors
@@ -72,9 +63,6 @@ See
 ## See Also
 
 [IMateReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertMateReference2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMateReference2.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

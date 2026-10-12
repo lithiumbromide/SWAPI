@@ -56,7 +56,6 @@ ID of the new label
 ## Examples
 
 [Create Labels on Folders (VB.NET)](Create_Label_Example_VBNET.htm)
-
 [Create Labels on Folders (C#)](Create_Label_Example_CSharp.htm)
 
 ## Remarks
@@ -69,15 +68,10 @@ ID of the new label
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmLabel5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html)
-
 [IEdmFolder5::GetFirstLabelPosition Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstLabelPosition.html)
-
 [IEdmFile16::CreateLabel Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16~CreateLabel.html)
-
 [IEdmEnumeratorVersion5::CreateLabel Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~CreateLabel.html)
 
 ## Availability

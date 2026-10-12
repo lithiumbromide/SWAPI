@@ -51,13 +51,7 @@ System.Object^ GetEntryValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,22 +64,17 @@ Object containing the information from the specified cell
 
 ## VBA Syntax
 
-See
-
-[BomTable::GetEntryValue](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetEntryValue.html)
-
-.
+See [BomTable::GetEntryValue](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetEntryValue.html).
 
 ## Remarks
 
 After you receive a valid return value, you can evaluate the for the object's data type.
 
-To return the cell contents as a string, use[IBomTable::GetEntryText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetEntryText.html).
+To return the cell contents as a string, use [IBomTable::GetEntryText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetEntryText.html).
 
-Before you use any of the IBomTable methods, activate the BOM table using[IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html). After you finish getting BOM data, use[IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html)to deactivate the table.
+Before you use any of the IBomTable methods, activate the BOM table using [IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html). After you finish getting BOM data, use [IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html) to deactivate the table.
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)

@@ -61,24 +61,10 @@ CWRestraint^ AddCyclicSymmetryRestraint(
 
 ### Parameters
 
-- `FirstFace`: First face (see
-
-Remarks
-
-)
-- `SecondFace`: Second face (see
-
-Remarks
-
-)
-- `Axis`: Axis of revolution (see
-
-Remarks
-
-)
-- `ErrorCode`: Error code as defined in
-
-[swsCyclicRestraintError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCyclicRestraintError_e.html)
+- `FirstFace`: First face (see **Remarks**)
+- `SecondFace`: Second face (see **Remarks**)
+- `Axis`: Axis of revolution (see **Remarks**)
+- `ErrorCode`: Error code as defined in [swsCyclicRestraintError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCyclicRestraintError_e.html)
 
 ### Return Value
 
@@ -86,30 +72,23 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddCyclicSymmetryRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddCyclicSymmetryRestraint.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddCyclicSymmetryRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddCyclicSymmetryRestraint.html).
 
 ## Examples
 
 [Add Cyclic Symmetry Restraint (VBA)](Add_Cyclic_Symmetry_Restraint_Example_VB.htm)
-
 [Add Cyclic Symmetry Restraint (VB.NET)](Add_Cyclic_Symmetry_Restraint_Example_VBNET.htm)
-
 [Add Cyclic Symmetry Restraint (C#)](Add_Cyclic_Symmetry_Restraint_Example_CSharp.htm)
 
 ## Remarks
 
-The cyclic symmetry fixture is appropriate for turbines, fans, flywheels, and motor rotors. FirstFace and SecondFace are the faces of a cut section of a model that can be repeated in a cyclical pattern about Axis. The angle between FirstFace and SecondFace should be evenly divisible by 360. You cannot apply a cyclic symmetry restraint to an invalid section. See the**Creating Valid Sections for Cyclic Symmetry**topic in the SOLIDWORKS Simulation Helps for more information.
+The cyclic symmetry fixture is appropriate for turbines, fans, flywheels, and motor rotors. FirstFace and SecondFace are the faces of a cut section of a model that can be repeated in a cyclical pattern about Axis. The angle between FirstFace and SecondFace should be evenly divisible by 360. You cannot apply a cyclic symmetry restraint to an invalid section. See the **Creating Valid Sections for Cyclic Symmetry** topic in the SOLIDWORKS Simulation Helps for more information.
 
 This method is valid only for static and nonlinear studies.
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

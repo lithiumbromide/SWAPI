@@ -11,7 +11,17 @@ source: "sldworksapi/Insert_General_Tolerance_Table_Example_VB.htm"
 
 This example shows how to create a general tolerance table annotation.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Open a part. ' 2. Ensure that the specified table template exists. ' 3. Open the Immediate window. ' ' Postconditions: ' 1. Creates a general tolerance table annotation. ' 2. Inspect the Immediate window, the graphics area, and the Tables folder ' of the FeatureManager design tree. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Open a part.
+' 2. Ensure that the specified table template exists.
+' 3. Open the Immediate window.
+'
+' Postconditions:
+' 1. Creates a general tolerance table annotation.
+' 2. Inspect the Immediate window, the graphics area, and the Tables folder
+' of the FeatureManager design tree.
+'----------------------------------------------------------------------------
 
 ```vb
 Dim swApp As SldWorks.SldWorks

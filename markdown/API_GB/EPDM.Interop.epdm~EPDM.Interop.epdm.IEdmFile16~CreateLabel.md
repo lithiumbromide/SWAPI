@@ -52,12 +52,11 @@ ID of the file label
 ## Examples
 
 [Get File Information (VB.NET)](Get_File_Info_Example_VBNET.htm)
-
 [Get File Information (C#)](Get_File_Info_Example_CSharp.htm)
 
 ## Remarks
 
-Use[IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html)to get the[IEdmLabel5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html)object for this label.
+Use [IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html) to get the [IEdmLabel5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html) object for this label.
 
 [Return codes](ReturnCodes.htm):
 
@@ -67,11 +66,8 @@ Use[IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObj
 ## See Also
 
 [IEdmFile16 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html)
-
 [IEdmFile16 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16_members.html)
-
 [IEdmFolder5::CreateLabel Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateLabel.html)
-
 [IEdmEnumeratorVersion5::CreateLabel Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~CreateLabel.html)
 
 ## Availability

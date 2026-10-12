@@ -54,30 +54,20 @@ PDMWProject^ CreateSubProject(
 ### Parameters
 
 - `Name`: New child project name
-- `Description`: Child project descriptionParamDesc
+- `Description`: Child project description
 
 ### Return Value
 
-Newly created
-
-[IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
-object
+Newly created [IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::CreateSubProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~CreateSubProject.html)
-
-.
+See [PDMWProject::CreateSubProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~CreateSubProject.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::SubProjects Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SubProjects.html)
 
 ## Availability

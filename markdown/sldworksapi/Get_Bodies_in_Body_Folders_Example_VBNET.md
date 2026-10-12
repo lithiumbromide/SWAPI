@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Bodies_in_Body_Folders_Example_VBNET.htm"
 
 # Get Bodies in Body Folders Example (VB.NET)
 
-This example shows how to get the bodies in body folder
-features.
+This example shows how to get the bodies in body folder features.
 
 ```vb
  '------------------------------------------------

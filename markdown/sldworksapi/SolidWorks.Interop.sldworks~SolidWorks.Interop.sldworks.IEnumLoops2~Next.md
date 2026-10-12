@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of loops for the loops enumeration
-- `Rgelt`: Pointer to an array of
-
-[loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html) of size Celt
 - `PceltFetched`: Pointer to the number of loops returned from the list; this value can be less than celt if you ask for more loops than exist, or it can be NULL if no more loops exist
 
 ## VBA Syntax
 
-See
-
-[EnumLoops2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Next.html)
-
-.
+See [EnumLoops2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Next.html).
 
 ## Remarks
 
@@ -87,7 +73,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumLoops2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2.html)
-
 [IEnumLoops2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2_members.html)
 
 ## Availability

@@ -71,67 +71,39 @@ Feature^ FeatureBossThicken(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Thickness`: Wall thickness
-- `Direction`: Direction as defined in[swThickenThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThickenThicknessType_e.html)
+- `Direction`: Direction as defined in [swThickenThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThickenThicknessType_e.html)
 - `FaceIndex`: Not used
-- `FillVolume`: True if you want to make a solid from the knitted surface, false if not (see
-
-Remarks
-
-)
+- `FillVolume`: True if you want to make a solid from the knitted surface, false if not (see **Remarks**)
 - `Merge`: True if you want to merge the results in a multibody part, false if not
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see **Remarks**)
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureBossThicken](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureBossThicken.html)
-
-.
+See [FeatureManager::FeatureBossThicken](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureBossThicken.html).
 
 ## Examples
 
 [Create Thicken Feature (VBA)](Create_Thicken_Feature_Example_VB.htm)
-
 [Fill Holes in Part (C#)](Fill_Holes_in_Part_Example_CSharp.htm)
-
 [Fill Holes in Part (VB.NET)](Fill_Holes_in_Part_Example_VBNET.htm)
-
 [Fill Holes in Part (VBA)](Fill_Holes_in_Part_Example_VB.htm)
-
 [Thicken Surface and Generate Boss (VBA)](Thicken_Surface_and_Generate_Boss_Example_VB.htm)
-
 [Thicken Surface and Generate Boss (VB.NET)](Thicken_Surface_and_Generate_Boss_Example_VBNET.htm)
-
 [Thicken Surface and Generate Boss (C#)](Thicken_Surface_and_Generate_Boss_Example_CSharp.htm)
 
 ## Remarks
 
-This method generates a boss feature by thickening a selected reference surface. The surface must be selected with a mark of 1. See[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)for details.
+This method generates a boss feature by thickening a selected reference surface. The surface must be selected with a mark of 1. See [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) for details.
 
 If FillVolume is true, other arguments are ignored. A closed surface is required when FillVolume is true.
 
@@ -140,11 +112,8 @@ If UseAutoSelect is false, the user must select the bodies that the feature will
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IThickenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
 [IFeatureManager::FeatureCutThicken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThicken.html)
 
 ## Availability

@@ -55,13 +55,7 @@ public delegate System.int DDrawingDocEvents_ChangeCustomPropertyNotifyEventHand
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -73,17 +67,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChangeCustomPropertyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ChangeCustomPropertyNotify_EV.html)
-
-.
+See [ChangeCustomPropertyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ChangeCustomPropertyNotify_EV.html).
 
 ## Remarks
 
 The ValueType argument is one of the valid types that VARIANT can contain.
 
-If developing a C++ application, use[swDrawingChangeCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)to register for this notification.
+If developing a C++ application, use [swDrawingChangeCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

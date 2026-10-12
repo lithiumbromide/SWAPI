@@ -50,13 +50,7 @@ property System.bool ImportHatch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,11 +62,7 @@ True to import hatch, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::ImportHatch](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportHatch.html)
-
-.
+See [ImportDxfDwgData::ImportHatch](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportHatch.html).
 
 ## Examples
 
@@ -87,7 +77,6 @@ By default, hatch will be imported.
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

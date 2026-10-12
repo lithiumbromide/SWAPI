@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetSMBoundaryBoxDisplayData Method (IView)
 
-Obsolete. Superseded by
-
-[IVew::GetSMBoundaryBoxDisplayData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSMBoundaryBoxDisplayData2.html)
-
-.
+Obsolete. Superseded by [IVew::GetSMBoundaryBoxDisplayData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSMBoundaryBoxDisplayData2.html).
 
 ## Syntax
 
@@ -44,34 +40,20 @@ System.object GetSMBoundaryBoxDisplayData()
 System.Object^ GetSMBoundaryBoxDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Display data](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)
-
-of boundary-box sketch of a flat-pattern drawing view
+[Display data](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) of boundary-box sketch of a flat-pattern drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetSMBoundaryBoxDisplayData](ms-its:sldworksapivb6.chm::/sldworks~View~GetSMBoundaryBoxDisplayData.html)
-
-.
+See [View::GetSMBoundaryBoxDisplayData](ms-its:sldworksapivb6.chm::/sldworks~View~GetSMBoundaryBoxDisplayData.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetSMBoundaryBoxDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetSMBoundaryBoxDisplayData.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.byte IGetFlattenSheetMetalPersistReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,38 +64,27 @@ See
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IGetFlattenSheetMetalPersistReference](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IGetFlattenSheetMetalPersistReference.html)
-
-.
+See [ModelDocExtension::IGetFlattenSheetMetalPersistReference](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IGetFlattenSheetMetalPersistReference.html).
 
 ## Remarks
 
-The sheet metal part must be in the flattened state when this method is called. You can pass the byte array of persistent reference IDs to[IModelDocExtension::GetSheetMetalObjectsByPersistReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetSheetMetalObjectsByPersistReference.html)or[IModelDocExtension::IGetSheetMetalObjectsByPersistReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetSheetMetalObjectsByPersistReference.html), which gets the objects that correspond to the persistent reference IDs in the folded configuration of the sheet metal part.
+The sheet metal part must be in the flattened state when this method is called. You can pass the byte array of persistent reference IDs to [IModelDocExtension::GetSheetMetalObjectsByPersistReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetSheetMetalObjectsByPersistReference.html) or [IModelDocExtension::IGetSheetMetalObjectsByPersistReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetSheetMetalObjectsByPersistReference.html), which gets the objects that correspond to the persistent reference IDs in the folded configuration of the sheet metal part.
 
-See[Persistent Reference IDs](sldworksapiprogguide.chm::/overview/Persistent_Reference_IDs.htm)for more information.
+See [Persistent Reference IDs](sldworksapiprogguide.chm::/overview/Persistent_Reference_IDs.htm) for more information.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetFlattenSheetMetalPersistReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetFlattenSheetMetalPersistReference.html)
-
 [IModelDocExtension::GetObjectByPersistReference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetObjectByPersistReference3.html)
-
 [IModelDocExtension::GetPersistReference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetPersistReference3.html)
-
 [IModelDocExtension::GetPersistReferenceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetPersistReferenceCount.html)
-
 [IModelDocExtension::IGetObjectByPersistReference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetObjectByPersistReference3.html)
-
 [IModelDocExtension::IGetPersistReference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetPersistReference3.html)
 
 ## Availability

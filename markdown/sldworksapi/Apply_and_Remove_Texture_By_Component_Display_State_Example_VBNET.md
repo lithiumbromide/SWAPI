@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Component_Display_State_Example
 
 # Apply and Remove Texture To and From Component By Display State Example (VB.NET)
 
-This example shows how to apply and remove texture to and from a component
-using the name of a display state of the model.
+This example shows how to apply and remove texture to and from a component using the name of a display state of the model.
 
 ```
 '-------------------------------------------------------------------------
@@ -22,13 +21,13 @@ using the name of a display state of the model.
 ' 1. Opens the specified assembly and applies texture to
 '    the selected component.
 ' 2. Examine the Immediate window.
-' 3. Click anywhere in the SOLIDWORKS window
+' 3. Click anywhere in the SOLIDWORKS Design window
 '    to verify that the texture was applied.
 ' 4. Follow the instructions in the macro
 '    to remove the just-applied texture.
 ' 5. Run the macro again.
 ' 6. Examine the Immediate window.
-' 7. Click anywhere in the SOLIDWORKS window to verify
+' 7. Click anywhere in the SOLIDWORKS Design window to verify
 '    that the texture was removed.
 '
 ' NOTE: Because this assembly document is used elsewhere,
@@ -44,9 +43,7 @@ Imports System.Diagnostics
 Partial
 ```
 
-Class
-
-SolidWorksMacro
+Class SolidWorksMacro
 
 ```vb
     Public Sub main()
@@ -61,75 +58,30 @@ Dim texture As Texture
 Dim status As  Boolean
 ```
 
-Dim
+Dim displayState As String
 
-displayState
+Dim errors As Long
 
-As
+Dim warnings As Long
 
-String
+Dim namStr As String
 
-Dim
-
-errors
-
-As
-
-Long
-
-Dim
-
-warnings
-
-As
-
-Long
-
-Dim
-
-namStr
-
-As
-
-String
-
-' Open document and
-select a component
+' Open document and select a component
 
 ```vb
 swModel = swApp.OpenDoc6(
 ```
 
-"
-C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\motionstudies\valve_cam.sldasm"
+" C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\motionstudies\valve_cam.sldasm", swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, ""
 
-,
-swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent,
-
-""
-
-, errors,
-warnings)
+, errors, warnings)
 
 ```vb
 swModelDocExt = swModel.Extension
 status = swModelDocExt.SelectByID2(
 ```
 
-"rocker-1@valve_cam"
-
-,
-
-"COMPONENT"
-
-, 0,
-0, 0,
-
-False
-
-, 0,
-
-Nothing
+"rocker-1@valve_cam", "COMPONENT", 0, 0, 0, False, 0, Nothing
 
 , 0)
 
@@ -146,14 +98,11 @@ namStr = "<SystemTexture>\images\textures\pattern\checker2.jpg"
 ' Set texture on selected component in the
 ```
 
-' specified display
-state
+' specified display state
 
-' After running the
-macro the first time, edit the macro to
+' After running the macro the first time, edit the macro to
 
-' insert the
-comment character (') before the following two
+' insert the comment character (') before the following two
 
 ' lines of code
 
@@ -169,34 +118,19 @@ False
 Debug.Print(
 ```
 
-"Texture
-set: "
-
-& component.
-
-SetTextureByDisplayState
-
-(displayState,
-texture))
+"Texture set: " & component.**SetTextureByDisplayState**(displayState, texture))
 
 ```vb
 ' Remove texture from component by display state
 ```
 
-' After running the
-macro the first time, edit it to
+' After running the macro the first time, edit it to
 
-' remove the
-comment character (') before the following
+' remove the comment character (') before the following
 
 ' line of code
 
-'Debug.Print("Texture
-removed: " & component.
-
-RemoveTextureByDisplayState
-
-(displayState))
+'Debug.Print("Texture removed: " & component.**RemoveTextureByDisplayState**(displayState))
 
 ```vb
 End Sub
@@ -206,18 +140,11 @@ End Sub
 ''' <summary>
 ```
 
-''' The SldWorks swApp
-variable is pre-assigned for you.
+''' The SldWorks swApp variable is pre-assigned for you.
 
 ''' </summary>
 
-Public
-
-swApp
-
-As
-
-SldWorks
+Public swApp As SldWorks
 
 ```vb
 End

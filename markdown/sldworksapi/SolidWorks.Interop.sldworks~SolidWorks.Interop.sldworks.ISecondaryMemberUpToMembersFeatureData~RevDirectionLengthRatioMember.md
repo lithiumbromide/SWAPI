@@ -45,13 +45,7 @@ property System.bool RevDirectionLengthRatioMember {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to flip the direction of the offset, false to not
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberUpToMembersFeatureData::RevDirectionLengthRatioMember](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberUpToMembersFeatureData~RevDirectionLengthRatioMember.html)
-
-.
+See [SecondaryMemberUpToMembersFeatureData::RevDirectionLengthRatioMember](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberUpToMembersFeatureData~RevDirectionLengthRatioMember.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISecondaryMemberUpToMembersFeatureData::SecondaryMemberOffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData~SecondaryMemberOffsetType.html)
-
-is set to
-
-[swSecondaryMemberUpToMembersDistanceFromEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSecondaryMemberUpToMembersDistanceFromEndType_e.html)
-
-.swSecondaryMemberUpToMembersDistanceFromEndType_LengthRatio.
+This property is valid only if [ISecondaryMemberUpToMembersFeatureData::SecondaryMemberOffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData~SecondaryMemberOffsetType.html) is set to [swSecondaryMemberUpToMembersDistanceFromEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSecondaryMemberUpToMembersDistanceFromEndType_e.html).swSecondaryMemberUpToMembersDistanceFromEndType_LengthRatio.
 
 ## See Also
 
 [ISecondaryMemberUpToMembersFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData.html)
-
 [ISecondaryMemberUpToMembersFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData_members.html)
 
 ## Availability

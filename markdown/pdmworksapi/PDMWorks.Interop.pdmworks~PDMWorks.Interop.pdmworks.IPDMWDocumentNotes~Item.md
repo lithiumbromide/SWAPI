@@ -57,18 +57,12 @@ property System.Object^ default [System.Object^] {
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNotes::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes~Item.html)
-
-.
+See [PDMWDocumentNotes::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes~Item.html).
 
 ## See Also
 
 [IPDMWDocumentNotes Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes.html)
-
 [IPDMWDocumentNotes Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes_members.html)
-
 [IPDMWDocumentNotes::Count Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes~Count.html)
 
 ## Availability

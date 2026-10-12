@@ -55,13 +55,7 @@ System.bool IGetGroupDataFromRegistry(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,9 +63,9 @@ See
 - `Count`: Number of command IDs in the given command group
 - `UserIDs`: - in-process, unmanaged C++: Pointer to an array of integer IDs
 
-VBA, VB.NET, C#, and C++/CLI: Not supported
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -79,16 +73,14 @@ True if successful, false if not
 
 ## Remarks
 
-Before calling this method call[ICommandManager::GetCommandIDsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~GetCommandIDsCount.html)to populate Count.
+Before calling this method call [ICommandManager::GetCommandIDsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~GetCommandIDsCount.html) to populate Count.
 
 Use this method to compare command group IDs obtained through the user interface with those stored in the registry.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManager::GetGroupDataFromRegistry Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetGroupDataFromRegistry.html)
 
 ## Availability

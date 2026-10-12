@@ -1,6 +1,5 @@
 ---
-title: "ICWPlot Object
-Members"
+title: "ICWPlot Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWPlot_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWPlot_members.html"
 ---
 
-# ICWPlot Object
-Members
+# ICWPlot Object Members
 
 ## Public Methods
 

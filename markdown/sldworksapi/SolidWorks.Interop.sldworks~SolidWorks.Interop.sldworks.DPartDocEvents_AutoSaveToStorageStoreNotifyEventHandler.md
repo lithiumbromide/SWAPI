@@ -37,29 +37,15 @@ public delegate System.int DPartDocEvents_AutoSaveToStorageStoreNotifyEventHandl
 public delegate System.int DPartDocEvents_AutoSaveToStorageStoreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AutoSaveToStorageStoreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~AutoSaveToStorageStoreNotify_EV.html)
-
-.
+See [AutoSaveToStorageStoreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~AutoSaveToStorageStoreNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAutoSaveToStorageStoreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAutoSaveToStorageStoreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

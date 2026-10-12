@@ -9,11 +9,9 @@ source: "cworksapi/Simultaneously_Edit_Multiple_Contact_Components_Example_VB.ht
 
 # Simultaneously Edit Multiple Component Contacts Example (VBA)
 
-This example shows how to add multiple component contacts to a frequency study and
-simultaneously edit them.
+This example shows how to add multiple component contacts to a frequency study and simultaneously edit them.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '----------------------------------------------------------------------------

@@ -51,9 +51,7 @@ void GetNextRef2(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next custom file reference
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next custom file reference
 - `plFileID`: ID of the referenced file
 - `plFolderID`: ID of the parent folder of the referenced file
 - `pbsRetPath`: Path name of the referenced file
@@ -61,15 +59,11 @@ void GetNextRef2(
 
 ## Examples
 
-See the
-
-[IEdmEnumeratorCustomReference6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6.html)
-
-examples.
+See the [IEdmEnumeratorCustomReference6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6.html) examples.
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPos with the interface to the position of the first custom file reference, IEdmPos5. Call[IEdmEnumeratorCustomReference5::GetFirstRefPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetFirstRefPosition.html)to obtain IEdmPos5.
+Before calling this method the first time, you must populate poPos with the interface to the position of the first custom file reference, IEdmPos5. Call [IEdmEnumeratorCustomReference5::GetFirstRefPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetFirstRefPosition.html) to obtain IEdmPos5.
 
 After this method is called the first time, poPos is automatically incremented every time it is called.
 
@@ -81,7 +75,6 @@ After this method is called the first time, poPos is automatically incremented e
 ## See Also
 
 [IEdmEnumeratorCustomReference6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6.html)
-
 [IEdmEnumeratorCustomReference6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6_members.html)
 
 ## Availability

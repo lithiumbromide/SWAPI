@@ -45,13 +45,7 @@ property System.double CounterBoreDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,22 @@ Counterbore diameter
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::CounterBoreDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~CounterBoreDiameter.html)
-
-.
+See [WizardHoleFeatureData2::CounterBoreDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~CounterBoreDiameter.html).
 
 ## Examples
 
-See
-
-Create Holes Using Hole Wizard and Sketch Points
-
-examples in
-
-[IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html)
-
-.
+See **Create Holes Using Hole Wizard and Sketch Points** examples in [IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html).
 
 ## Remarks
 
 This property is relevant only for swCounterBored and swCounterBoredDrilled holes.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::CounterBoreDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~CounterBoreDepth.html)
 
 ## Availability

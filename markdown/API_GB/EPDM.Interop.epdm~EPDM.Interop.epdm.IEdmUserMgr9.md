@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9.html"
 
 Allows you to access the users and user groups in the vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,26 +37,16 @@ public interface class IEdmUserMgr9 : public IEdmUserMgr5, IEdmUserMgr6, IEdmUse
 ## Examples
 
 [Traverse Users and Groups in Vault (VB.NET)](Traverse_Users_and_Groups_in_Vault_Example_VBNET.htm)
-
 [Traverse Users and Groups in Vault (C#)](Traverse_Users_and_Groups_in_Vault_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- extends
-
-  [IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html)
-
-  by providing the ability to get and set the state and transition permissions for users and groups.
-- is extended by
-
-  [IEdmUserMgr10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10.html)
-
-  .
+- extends [IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html) by providing the ability to get and set the state and transition permissions for users and groups.
+- is extended by [IEdmUserMgr10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10.html).
 
 ## See Also
 
 [IEdmUserMgr9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

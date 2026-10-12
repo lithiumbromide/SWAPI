@@ -9,8 +9,7 @@ source: "sldworksapi/Modify_Dimension_Properties_Example_CSharp.htm"
 
 # Modify Dimension Properties Example (C#)
 
-This example shows how to modify the properties of a selected display
-dimension in a drawing.
+This example shows how to modify the properties of a selected display dimension in a drawing.
 
 ```vb
  //------------------------------------------------------------

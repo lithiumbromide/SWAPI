@@ -40,13 +40,7 @@ System.int GetMateEntityCount()
 System.int GetMateEntityCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Number of entities for this mate
 
 ## VBA Syntax
 
-See
-
-[Mate2::GetMateEntityCount](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetMateEntityCount.html)
-
-.
+See [Mate2::GetMateEntityCount](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetMateEntityCount.html).
 
 ## Examples
 
 [Edit Mate (VBA)](Edit_Mate_Example_VB.htm)
-
 [Get Mate Definition (VBA)](Get_Mate_Definition_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IMate2::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~MateEntity.html)
-
-to get the number of entities in the mate.
+Call this method before calling [IMate2::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~MateEntity.html) to get the number of entities in the mate.
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
 
 ## Availability

@@ -45,38 +45,23 @@ property System.bool UseAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True if an angle is used, false if not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::UseAngle](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~UseAngle.html)
-
-.
+See [GussetFeatureData::UseAngle](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~UseAngle.html).
 
 ## Remarks
 
-[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html)
-
-must be set to swGussetProfilePolygon.
+[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html) must be set to swGussetProfilePolygon.
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

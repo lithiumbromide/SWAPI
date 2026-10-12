@@ -40,13 +40,7 @@ System.int GetCoreSurfacesCount()
 System.int GetCoreSurfacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of core surface bodies
 
 ## VBA Syntax
 
-See
-
-[ToolingSplitFeatureData::GetCoreSurfacesCount](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~GetCoreSurfacesCount.html)
-
-.
+See [ToolingSplitFeatureData::GetCoreSurfacesCount](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~GetCoreSurfacesCount.html).
 
 ## Examples
 
-See the
-
-[IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
-examples.
+See the [IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling[IToolingSplitFeatureData::IGetCoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCoreSurfaces.html)to get the size of the array for that method.
+Call this method before calling [IToolingSplitFeatureData::IGetCoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCoreSurfaces.html) to get the size of the array for that method.
 
 ## See Also
 
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
 [IToolingSplitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData_members.html)
-
 [IToolingSplitFeatureData::ISetCoreSurfaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData~ISetCoreSurfaces.html)
-
 [IToolingSplitFeatureData::CoreSurfaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData~CoreSurfaces.html)
 
 ## Availability

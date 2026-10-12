@@ -34,45 +34,45 @@ Imports System.Diagnostics
 ```vb
  Partial Class SolidWorksMacro
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelMgr As SelectionMgr
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swHoleTableAnnotation As HoleTableAnnotation
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swTableAnnotation As TableAnnotation
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swAnnotation As Annotation
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swHoleTable As HoleTable
+     Public Sub main()
+         Dim swModel As ModelDoc2
+         Dim swSelMgr As SelectionMgr
+         Dim swHoleTableAnnotation As HoleTableAnnotation
+         Dim swTableAnnotation As TableAnnotation
+         Dim swAnnotation As Annotation
+         Dim swHoleTable As HoleTable
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSelMgr = swModel.SelectionManager
+         swModel = swApp.ActiveDoc
+         swSelMgr = swModel.SelectionManager
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If (swSelMgr.GetSelectedObjectCount = 0 Or Not (swSelMgr.GetSelectedObjectType(1) = swSelectType_e.swSelHOLETABLEFEATS)) Then
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MsgBox("Please select a hole table feature in the FeatureManager design tree.")
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Exit Sub
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+         If (swSelMgr.GetSelectedObjectCount = 0 Or Not (swSelMgr.GetSelectedObjectType(1) = swSelectType_e.swSelHOLETABLEFEATS)) Then
+             MsgBox("Please select a hole table feature in the FeatureManager design tree.")
+             Exit Sub
+         End If
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable = swSelMgr.GetSelectedObject6(1, -1)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTableAnnotation = swHoleTable.GetTableAnnotations(0)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swTableAnnotation = swHoleTableAnnotation
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swAnnotation = swTableAnnotation.GetAnnotation
+         swHoleTable = swSelMgr.GetSelectedObject6(1, -1)
+         swHoleTableAnnotation = swHoleTable.GetTableAnnotations(0)
+         swTableAnnotation = swHoleTableAnnotation
+         swAnnotation = swTableAnnotation.GetAnnotation
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' If first column hidden, then show it
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If (swTableAnnotation.ColumnHidden(0)) Then
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" First column hidden before API call: " & swTableAnnotation.ColumnHidden(0))
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swTableAnnotation.ColumnHidden(0) = False
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" First column hidden after API call: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}" & swTableAnnotation.ColumnHidden(0))
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Else
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' If first column shown, then hide it
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" First column hidden before API call: " & swTableAnnotation.ColumnHidden(0))
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swTableAnnotation.ColumnHidden(0) = True
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" First column hidden after API call: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}" & swTableAnnotation.ColumnHidden(0))
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+         ' If first column hidden, then show it
+         If (swTableAnnotation.ColumnHidden(0)) Then
+             Debug.Print(" First column hidden before API call: " & swTableAnnotation.ColumnHidden(0))
+             swTableAnnotation.ColumnHidden(0) = False
+             Debug.Print(" First column hidden after API call:  " & swTableAnnotation.ColumnHidden(0))
+         Else
+             ' If first column shown, then hide it
+             Debug.Print(" First column hidden before API call: " & swTableAnnotation.ColumnHidden(0))
+             swTableAnnotation.ColumnHidden(0) = True
+             Debug.Print(" First column hidden after API call:  " & swTableAnnotation.ColumnHidden(0))
+         End If
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+     End Sub
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+     ''' <summary>
+     ''' The SldWorks swApp variable is pre-assigned for you.
+     ''' </summary>
+     Public swApp As SldWorks
 
 End Class
 ```

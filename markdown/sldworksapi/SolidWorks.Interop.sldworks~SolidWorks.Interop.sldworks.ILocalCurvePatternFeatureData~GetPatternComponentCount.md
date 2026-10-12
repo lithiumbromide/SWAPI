@@ -40,13 +40,7 @@ System.int GetPatternComponentCount()
 System.int GetPatternComponentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of components
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::GetPatternComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~GetPatternComponentCount.html)
-
-.
+See [LocalCurvePatternFeatureData::GetPatternComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~GetPatternComponentCount.html).
 
 ## Examples
 
 [Create Local Curve-driven Pattern (C#)](Create_Local_Curve-driven_Pattern_Example_CSharp.htm)
-
 [Create Local Curve-driven Pattern (VB.NET)](Create_Local_Curve-driven_Pattern_Example_VBNET.htm)
-
 [Create Local Curve-driven Pattern (VBA)](Create_Local_Curve-driven_Pattern_Example_VB.htm)
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
-
 [ILocalCurvePatternFeatureData::PatternComponentArray Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~PatternComponentArray.html)
 
 ## Availability

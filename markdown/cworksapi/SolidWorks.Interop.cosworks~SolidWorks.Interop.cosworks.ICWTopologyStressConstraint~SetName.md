@@ -53,32 +53,20 @@ System.int SetName(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetName.html)
-
-.
+See [CWTopologyStressConstraint::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
-
 [ICWTopologyStressConstraint::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint~GetName.html)
 
 ## Availability

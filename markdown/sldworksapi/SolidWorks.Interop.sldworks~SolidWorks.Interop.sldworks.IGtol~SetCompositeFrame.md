@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # SetCompositeFrame Method (IGtol)
 
-Obsolete. Superseded by
-
-[IGtol::SetCompositeFrame2 .](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetCompositeFrame2.html)
+Obsolete. Superseded by [IGtol::SetCompositeFrame2.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetCompositeFrame2.html)
 
 ## Syntax
 
@@ -48,13 +46,7 @@ void SetCompositeFrame(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -62,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetCompositeFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetCompositeFrame.html)
-
-.
+See [Gtol::SetCompositeFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetCompositeFrame.html).
 
 ## Remarks
 
@@ -75,9 +63,7 @@ Sets whether to put the first two frames of this Gtol into a composite frame.
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetCompositeFrame Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetCompositeFrame.html)
 
 ## Availability

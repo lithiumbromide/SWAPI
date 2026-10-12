@@ -40,13 +40,7 @@ MathTransform GetTransform()
 MathTransform^ GetTransform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[MirrorSolidFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~GetTransform.html)
-
-.
+See [MirrorSolidFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~GetTransform.html).
 
 ## See Also
 
 [IMirrorSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData.html)
-
 [IMirrorSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData_members.html)
 
 ## Availability

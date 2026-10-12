@@ -39,21 +39,11 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EnumSketchPoints::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchPoints~Reset.html)
-
-.
+See [EnumSketchPoints::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchPoints~Reset.html).
 
 ## Remarks
 
@@ -62,7 +52,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchPoints Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchPoints.html)
-
 [IEnumSketchPoints Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchPoints_members.html)
 
 ## Availability

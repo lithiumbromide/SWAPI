@@ -44,30 +44,16 @@ property CostBody^ ActiveBody {
 
 ### Property Value
 
-Active
-
-[Costing body](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody.html)
-
-or null if the common
-
-[Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)
-
-is active
+Active [Costing body](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody.html) or null if the common [Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) is active
 
 ## VBA Syntax
 
-See
-
-[CostPart::ActiveBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~ActiveBody.html)
-
-.
+See [CostPart::ActiveBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~ActiveBody.html).
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::ActivateBody Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~ActivateBody.html)
 
 ## Availability

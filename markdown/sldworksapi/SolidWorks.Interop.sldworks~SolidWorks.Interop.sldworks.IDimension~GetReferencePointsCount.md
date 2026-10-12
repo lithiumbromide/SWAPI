@@ -40,13 +40,7 @@ System.int GetReferencePointsCount()
 System.int GetReferencePointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of dimension reference points
 
 ## VBA Syntax
 
-See
-
-[Dimension::GetReferencePointsCount](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetReferencePointsCount.html)
-
-.
+See [Dimension::GetReferencePointsCount](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetReferencePointsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IDimension::IGetReferencePoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetReferencePoints.html)
-
-.
+Call this method before calling [IDimension::IGetReferencePoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetReferencePoints.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDimension::ISetReferencePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~ISetReferencePoints.html)
-
 [IDimension::ReferencePoints Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~ReferencePoints.html)
 
 ## Availability

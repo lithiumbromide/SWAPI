@@ -151,60 +151,24 @@ Feature^ HoleWizard5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `GenericHoleType`: Type of hole or slot as defined in
-
-[swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdGeneralHoleTypes_e.html)
-- `StandardIndex`: Hole or slot standard property as defined in
-
-[swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html)
-
-(see
-
-Remarks
-
-for legacy holes)
-- `FastenerTypeIndex`: Hole or slot fastener type as defined in
-
-[swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
-
-(see
-
-Remarks
-
-)
-- `SSize`: Size of the hole or slot (see
-
-Remarks
-
-)
-- `EndType`: Hole or slot end type as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-(see
-
-Remarks
-
-)
+- `GenericHoleType`: Type of hole or slot as defined in [swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdGeneralHoleTypes_e.html)
+- `StandardIndex`: Hole or slot standard property as defined in [swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html) (see **Remarks** for legacy holes)
+- `FastenerTypeIndex`: Hole or slot fastener type as defined in [swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html) (see **Remarks**)
+- `SSize`: Size of the hole or slot (see **Remarks**)
+- `EndType`: Hole or slot end type as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html) (see **Remarks**)
 - `Diameter`: Diameter of the hole or slot
 - `Depth`: Depth of the hole or slot
 - `Length`: Length of slot; valid only if GenericHoleType set to:
 
-- swWzdGeneralHoleTypes_e.swWzdCounterBoreSlot
-- swWzdGeneralHoleTypes_e.swWzdCounterSinkSlot
-- swWzdGeneralHoleTypes_e.swWzdHoleSlot
+  - swWzdGeneralHoleTypes_e.swWzdCounterBoreSlot
+  - swWzdGeneralHoleTypes_e.swWzdCounterSinkSlot
+  - swWzdGeneralHoleTypes_e.swWzdHoleSlot
 
-For both straight/pipe and tapered tap holes, the macro recorder fails to properly record this parameter. Before running a macro recording, you must add -1 at this position and delete a -1 before ThreadClass.
+  For both straight/pipe and tapered tap holes, the macro recorder fails to properly record this parameter. Before running a macro recording, you must add -1 at this position and delete a -1 before ThreadClass.
 - `Value1`: Hole or slot parameter
 - `Value2`: Hole or slot parameter
 - `Value3`: Hole or slot parameter
@@ -219,11 +183,11 @@ For both straight/pipe and tapered tap holes, the macro recorder fails to proper
 - `Value12`: Hole or slot parameter
 - `ThreadClass`: One of the following thread classes:
 
-- 1B
-- 2B
-- 3B
+  - 1B
+  - 2B
+  - 3B
 
-**NOTE**: Applies to ANSI inch standard only.
+  **NOTE**: Applies to ANSI inch standard only.
 - `RevDir`: True to reverse the direction of the hole or slot, false to not
 - `FeatureScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
 - `AutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects
@@ -237,68 +201,47 @@ For both straight/pipe and tapered tap holes, the macro recorder fails to proper
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::HoleWizard5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard5.html)
-
-.
+See [FeatureManager::HoleWizard5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard5.html).
 
 ## Examples
 
 [Create Hole Wizard Hole (C#)](Create_Hole_Wizard_Hole_Example_CSharp.htm)
-
 [Create Hole Wizard Hole (VB.NET)](Create_Hole_Wizard_Hole_Example_VBNET.htm)
-
 [Create Hole Wizard Hole (VBA)](Create_Hole_Wizard_Hole_Example_VB.htm)
-
 [Insert Hole Wizard Slot and Hole (C#)](Insert_Hole_Wizard_Slot_and_Hole_Example_CSharp.htm)
-
 [Insert Hole Wizard Slot and Hole (VB.NET)](Insert_Hole_Wizard_Slot_and_Hole_Example_VBNET.htm)
-
 [Insert Hole Wizard Slot and Hole (VBA)](Insert_Hole_Wizard_Slot_and_Hole_Example_VB.htm)
 
 ## Remarks
 
-To create simple holes and slots, read[Hole Wizard Features and WizardHoleFeatureData2 Objects](sldworksapiprogguide.chm::/OVERVIEW/Hole_Wizard_Features_and_WizardHoleFeatureData2_Objects.htm). To create Advanced Holes of stacked hole elements, use[IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html).
+To create simple holes and slots, read [Hole Wizard Features and WizardHoleFeatureData2 Objects](sldworksapiprogguide.chm::/OVERVIEW/Hole_Wizard_Features_and_WizardHoleFeatureData2_Objects.htm). To create Advanced Holes of stacked hole elements, use [IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html).
 
 Valid types of slots are counterbore, countersink, or straight.
 
-To add a hole or slot at one or more locations, call[IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html)with Mark = 0 for each location.
+To add a hole or slot at one or more locations, call [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html) with Mark = 0 for each location.
 
 Before creating a hole or slot using a reference plane and this method, determine the value of the RevDir parameter as follows:
 
 - If the material is on one side of the reference plane, then RevDir is false.
 - If the material is on both sides of the reference plane, then compare the distances between the reference plane and the material on both sides. If the distance between the reference plane and the material along its normal direction is bigger, then RevDir is true; otherwise, RevDir is false.
 
-You can also use[IModelDoc2::RayIntersections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~RayIntersections.html)and[IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)to find out if the material is on one side or both sides and to compare the distances.
+You can also use [IModelDoc2::RayIntersections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~RayIntersections.html) and [IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html) to find out if the material is on one side or both sides and to compare the distances.
 
 **Parameters for this method:**
 
 - The FastenerTypeIndex parameter has to match the standard and be valid for that hole or slot type, or an error occurs.
 - The SSize parameter must be a valid size for the fastener type, or an error occurs.
-- If EndType is 10 = swEndCondUpToSelection (supersedes swEndCondUpToSurface and swEndCondUpToVertex), then you must use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Mark = 2 to pre-select the surface or vertex. The macro recorder fails to properly record EndType for Up To Surface and Up To Vertex end conditions. Instead of swEndCondUpToSelection=10, it records 4 and 3. Before running an Up to Surface or Vertex macro recording, you must change EndType to 10. The macro recorder also fails to properly record the Up To Next end condition. Instead of swEndCondUpToNext=11, it records swEndCondThroughNext=2. It is advisable to record only Blind or Through All end conditions.
-- Screw fit is defined as
-
-  [swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html)
-
-  and is only used if a hole or slot diameter is not specified; default value is NORMAL_FIT.
-- Drill angle defaults to 118 degrees (2.05948851735331 radians)
-
-  begin!kadov{{
-
-  ,
-
-  }}end!kadov
-
-  if not specified.
+- If EndType is 10 = swEndCondUpToSelection (supersedes swEndCondUpToSurface and swEndCondUpToVertex), then you must use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Mark = 2 to pre-select the surface or vertex. The macro recorder fails to properly record EndType for Up To Surface and Up To Vertex end conditions. Instead of swEndCondUpToSelection=10, it records 4 and 3. Before running an Up to Surface or Vertex macro recording, you must change EndType to 10. The macro recorder also fails to properly record the Up To Next end condition. Instead of swEndCondUpToNext=11, it records swEndCondThroughNext=2. It is advisable to record only Blind or Through All end conditions.
+- Screw fit is defined as [swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html) and is only used if a hole or slot diameter is not specified; default value is NORMAL_FIT.
+- Drill angle defaults to 118 degrees (2.05948851735331 radians), if not specified.
 - Input angles are in radians; input values are in meters.
 - The Value1 through Value12 parameters are different for each type of hole or slot. The possible values are as follows, organized by hole and slot type. SOLIDWORKS ignores parameters set to -1.
 
 ##### Counterbore Holes and Slots
 
-Head Clearance- Added to either the input counterbore depth or the counterbore depth in the standard.
+Head Clearance - Added to either the input counterbore depth or the counterbore depth in the standard.
 
-**Screw Fit**- Value from swWzdHoleScrewClearanceTypes_e
+**Screw Fit** - Value from swWzdHoleScrewClearanceTypes_e
 
 Parameters for all counterbore holes and counterbore slots:
 
@@ -317,9 +260,9 @@ Parameters for all counterbore holes and counterbore slots:
 
 ##### Countersink Holes and Slots
 
-Head Clearance Type- Value from[swWzdHoleCounterSinkHeadClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCounterSinkHeadClearanceTypes_e.html), which represents how to add the head clearance values to the hole or slot.
+Head Clearance Type - Value from [swWzdHoleCounterSinkHeadClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCounterSinkHeadClearanceTypes_e.html), which represents how to add the head clearance values to the hole or slot.
 
-**Screw Fit**- Value from**swWzdHoleScrewClearanceTypes_e**
+**Screw Fit** - Value from **swWzdHoleScrewClearanceTypes_e**
 
 Parameters for all countersink holes and countersink slots:
 
@@ -338,7 +281,7 @@ Parameters for all countersink holes and countersink slots:
 
 ##### Regular Holes and Straight Slots
 
-**Screw Fit**- Value from**swWzdHoleScrewClearanceTypes_e**
+**Screw Fit** - Value from **swWzdHoleScrewClearanceTypes_e**
 
 Parameters for all regular holes and straight slots:
 
@@ -357,18 +300,18 @@ Parameters for all regular holes and straight slots:
 
 ##### Pipe/Straight Tap Holes
 
-Tap Thread Depth- If the user specifies thread depth, SOLIDWORKS always uses this depth. Tap thread depths can be calculated:
+Tap Thread Depth - If the user specifies thread depth, SOLIDWORKS always uses this depth. Tap thread depths can be calculated:
 
 - Helicoil holes: calculated based on a constant (determined by hole type; i.e., insert = 1.0 * diameter) + thread depth from the standard * thread major diameter.
 - Tapped holes: calculated based on 2 * thread diameter.
 
-Cosmetic Thread Type- Value from[swWzdHoleCosmeticThreadTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCosmeticThreadTypes_e.html); defaults to swCosmeticThreadNone
+Cosmetic Thread Type - Value from [swWzdHoleCosmeticThreadTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCosmeticThreadTypes_e.html); defaults to swCosmeticThreadNone
 
-Near Countersink Angle- Can be calculated from standard data as a default
+Near Countersink Angle - Can be calculated from standard data as a default
 
-Hcoil Tap Type- Value from[swWzdHoleHcoilTapTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleHcoilTapTypes_e.html); defaults to swTapTypePlug
+Hcoil Tap Type - Value from [swWzdHoleHcoilTapTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleHcoilTapTypes_e.html); defaults to swTapTypePlug
 
-Thread End Condition- Value from[swWzdHoleThreadEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleThreadEndCondition_e.html); defaults to swEndThreadTypeBLIND
+Thread End Condition - Value from [swWzdHoleThreadEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleThreadEndCondition_e.html); defaults to swEndThreadTypeBLIND
 
 Parameters for all pipe/straight tap holes:
 
@@ -389,7 +332,7 @@ Parameters for all pipe/straight tap holes:
 
 NOTE: The macro recorder fails to properly record tapered tap hole parameters. Follow the instructions in this help to correct recordings before playing them.
 
-Cosmetic Thread Type- Specified as defined in swWzdHoleCosmeticThreadTypes_e; defaults to swCosmeticThreadNone
+Cosmetic Thread Type - Specified as defined in swWzdHoleCosmeticThreadTypes_e; defaults to swCosmeticThreadNone
 
 Parameters for all tapered tap holes:
 
@@ -499,9 +442,7 @@ C-Drilled Drilled
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
 
 ## Availability

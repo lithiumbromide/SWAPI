@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete2~ShowWarning
 
 # ShowWarningDlg2 Method (IEdmBatchDelete2)
 
-Shows a dialog box with the warnings and errors that occurred during
-
-[IEdmBatchDelete::ComputePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ComputePermissions.html)
-
-.
+Shows a dialog box with the warnings and errors that occurred during [IEdmBatchDelete::ComputePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ComputePermissions.html).
 
 ## Syntax
 
@@ -55,15 +51,11 @@ True if the user chooses to continue the operation in spite of the warnings, fal
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
-This method supersedes[IEdmBatchDelete.ShowWarningDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowWarningDlg.html)by adding the option to show the deleted objects in the trash can.
+This method supersedes [IEdmBatchDelete.ShowWarningDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowWarningDlg.html) by adding the option to show the deleted objects in the trash can.
 
 [Return codes](ReturnCodes.htm):
 
@@ -73,7 +65,6 @@ This method supersedes[IEdmBatchDelete.ShowWarningDlg](EPDM.Interop.epdm~EPDM.In
 ## See Also
 
 [IEdmBatchDelete2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete2.html)
-
 [IEdmBatchDelete2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete2_members.html)
 
 ## Availability

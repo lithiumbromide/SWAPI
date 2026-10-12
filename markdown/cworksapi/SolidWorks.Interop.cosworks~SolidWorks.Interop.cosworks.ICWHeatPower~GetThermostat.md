@@ -46,11 +46,7 @@ Vertex for the location of heat power
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::GetThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~GetThermostat.html)
-
-.
+See [CWHeatPower::GetThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~GetThermostat.html).
 
 ## Remarks
 
@@ -59,13 +55,9 @@ Thermostat is used for transient thermal studies only.
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::SetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetThermostat.html)
-
 [ICWHeatPower::IncludeThermostat Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~IncludeThermostat.html)
-
 [ICWHeatPower::ThermostatUnits Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~ThermostatUnits.html)
 
 ## Availability

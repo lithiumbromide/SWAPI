@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 Allows access to SOLIDWORKS model windows.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IModelWindow
 
 ## VBA Syntax
 
-See
-
-[ModelWindow](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow.html)
-
-.
+See [ModelWindow](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow.html).
 
 ## Examples
 
 [Switch Documents (C#)](Switch_Documents_Example_CSharp.htm)
-
 [Switch Documents (VB.NET)](Switch_Documents_Example_VBNET.htm)
-
 [Switch Documents (VBA)](Switch_Documents_Example_VB.htm)
 
 ## Accessors
@@ -68,9 +62,6 @@ See
 ## See Also
 
 [IModelWindow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFrame::ShowModelWindow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~ShowModelWindow.html)
-
 [IFrame::GetModelWindowCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetModelWindowCount.html)

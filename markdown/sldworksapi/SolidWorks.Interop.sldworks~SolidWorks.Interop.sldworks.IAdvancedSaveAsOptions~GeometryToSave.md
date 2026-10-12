@@ -41,32 +41,19 @@ property System.int GeometryToSave {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Geometry to save as defined in
-
-[swGeometryToSave_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGeometryToSave_e.html)
+Geometry to save as defined in [swGeometryToSave_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGeometryToSave_e.html)
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::GeometryToSave](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~GeometryToSave.html)
-
-.
+See [AdvancedSaveAsOptions::GeometryToSave](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~GeometryToSave.html).
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

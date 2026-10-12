@@ -52,24 +52,10 @@ IEdmImage^ CreateUserPicture(
 ### Parameters
 
 - `hParent`: Handle of parent window on which the picture should be drawn
-- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; bounding rectangle in which the picture should be drawn (see
-
-Remarks
-
-)
+- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; bounding rectangle in which the picture should be drawn (see **Remarks**)
 - `oUserID`: ID or login name of the user for which to create a picture
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to receive progress information if the picture needs to be downloaded from an archive server
-- `lEdmUserPictureFlags`: Combination of
-
-[EdmUserPictureFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserPictureFlag.html)
-
-bits
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to receive progress information if the picture needs to be downloaded from an archive server
+- `lEdmUserPictureFlags`: Combination of [EdmUserPictureFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserPictureFlag.html) bits
 
 ### Return Value
 
@@ -77,15 +63,11 @@ bits
 
 ## Examples
 
-See the
-
-[IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html)
-
-examples.
+See the [IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html) examples.
 
 ## Remarks
 
-Call[IEdmUserMgr8::ShowUserPopup](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~ShowUserPopup.html)to display a popup window with user information.
+Call [IEdmUserMgr8::ShowUserPopup](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~ShowUserPopup.html) to display a popup window with user information.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -94,7 +76,6 @@ Call[IEdmUserMgr8::ShowUserPopup](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMg
 ## See Also
 
 [IEdmUserMgr8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html)
-
 [IEdmUserMgr8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8_members.html)
 
 ## Availability

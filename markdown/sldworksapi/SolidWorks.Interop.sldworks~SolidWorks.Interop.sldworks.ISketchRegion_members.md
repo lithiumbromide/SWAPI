@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchRegion Interface Members
 
-The following tables list the members exposed by[ISketchRegion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html).
+The following tables list the members exposed by [ISketchRegion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[ISketchRegion](SolidWorks.Inter
 ## See Also
 
 [ISketchRegion Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -42,13 +42,7 @@ property System.double ClearanceValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,36 +50,19 @@ Clearance value
 
 ## VBA Syntax
 
-See
-
-[ClearanceResult::ClearanceValue](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~ClearanceValue.html)
-
-.
+See [ClearanceResult::ClearanceValue](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~ClearanceValue.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IClearanceResult::ClearanceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult~ClearanceType.html)
-
-is
-
-[swClearanceType_e](ms-its:swconst.chm::/::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceType_e.html)
-
-.swClearanceType_Distance.
+This property is valid only if [IClearanceResult::ClearanceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult~ClearanceType.html) is [swClearanceType_e](ms-its:swconst.chm::/::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceType_e.html).swClearanceType_Distance.
 
 ## See Also
 
 [IClearanceResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)
-
 [IClearanceResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult_members.html)
 
 ## Availability

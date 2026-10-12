@@ -47,13 +47,7 @@ property System.Object^ CustomPropertyManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component2::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Component2~CustomPropertyManager.html)
-
-.
+See [Component2::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Component2~CustomPropertyManager.html).
 
 ## Examples
 
@@ -79,17 +69,17 @@ See
 
 'Preconditions:
 
-' 1. Open`public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\mbd\mbdadvanced\beater_assembly.sldasm**.
+' 1. Open `public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\mbd\mbdadvanced\beater_assembly.sldasm**.
 
-' 2. Create a configuration-specific custom property for**pan cross head<3>.**
+' 2. Create a configuration-specific custom property for **pan cross head<3>.**
 
-' a. Open**pan cross head<3>.**
+' a. Open **pan cross head<3>.**
 
 ' b. Select the ConfigurationManager tab.
 
-' c. Right-click on CR-PHMS 0.073-72x0.125x0.125-N and select**Properties**.
+' c. Right-click on CR-PHMS 0.073-72x0.125x0.125-N and select **Properties**.
 
-' d. In Configuration Properties, click**Custom Properties...**
+' d. In Configuration Properties, click **Custom Properties...**
 
 ' e. On the Configuration Specific tab, create a custom property of type Text and provide a value.
 
@@ -273,7 +263,6 @@ End Sub
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

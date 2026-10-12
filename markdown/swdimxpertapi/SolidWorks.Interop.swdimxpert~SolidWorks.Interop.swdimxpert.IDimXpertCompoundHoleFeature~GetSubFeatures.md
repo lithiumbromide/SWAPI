@@ -42,24 +42,15 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
-
-s
+Array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundHoleFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetSubFeatures.html)
-
-.
+See [DimXpertCompoundHoleFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetSubFeatures.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## Remarks
@@ -71,7 +62,6 @@ For example, the sub-features of a simple hole are related to functional geometr
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [IDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

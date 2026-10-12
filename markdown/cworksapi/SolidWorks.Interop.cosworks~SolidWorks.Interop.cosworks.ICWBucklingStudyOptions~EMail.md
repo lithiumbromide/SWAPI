@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBu
 
 # EMail Property (ICWBucklingStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWBucklingStudyOptions::Email2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail2.html)
-
-.
+Obsolete. Superseded by [ICWBucklingStudyOptions::Email2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail2.html).
 
 ## Syntax
 
@@ -55,31 +51,18 @@ property System.int EMail {
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMail.html)
-
-.
+See [CWBucklingStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMail.html).
 
 ## Remarks
 
 If this property is set to 1:
 
-- use
-
-  [ICWBucklingStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- use
-
-  [ICWBucklingStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased.html)
-
-  to send email notifications during simulations.
+- use [ICWBucklingStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- use [ICWBucklingStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased.html) to send email notifications during simulations.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

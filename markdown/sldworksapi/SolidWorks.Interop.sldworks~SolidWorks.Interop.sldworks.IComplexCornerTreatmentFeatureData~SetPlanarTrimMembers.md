@@ -47,21 +47,11 @@ System.bool SetPlanarTrimMembers(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PlanarMemList`: Array of planar trim
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-s
+- `PlanarMemList`: Array of planar trim [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)s
 
 ### Return Value
 
@@ -69,16 +59,11 @@ True if planar trim members successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[ComplexCornerTreatmentFeatureData::SetPlanarTrimMembers](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~SetPlanarTrimMembers.html)
-
-.
+See [ComplexCornerTreatmentFeatureData::SetPlanarTrimMembers](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~SetPlanarTrimMembers.html).
 
 ## See Also
 
 [IComplexCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData.html)
-
 [IComplexCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData_members.html)
 
 ## Availability

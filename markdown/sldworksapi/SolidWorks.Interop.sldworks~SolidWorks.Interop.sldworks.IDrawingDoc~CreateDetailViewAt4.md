@@ -91,24 +91,18 @@ System.Object^ CreateDetailViewAt4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X`: X position for the detail view
 - `Y`: Y position for the detail view
 - `Z`: Z position for the detail view
-- `Style`: Style for the detail view as defined in[swDetViewStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetViewStyle_e.html)
+- `Style`: Style for the detail view as defined in [swDetViewStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetViewStyle_e.html)
 - `Scale1`: Scale numerator
 - `Scale2`: Scale denominator
 - `LabelIn`: Detail view label
-- `Showtype`: Type of sketch for the detail view as defined in[swDetCircleShowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetCircleShowType_e.html)
+- `Showtype`: Type of sketch for the detail view as defined in [swDetCircleShowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetCircleShowType_e.html)
 - `FullOutline`: True to show a full outline, false to not; valid only if NoOutline is false
 - `JaggedOutline`: True to show a jagged outline, false to not; only valid if NoOutline is false
 - `NoOutline`: True to not show an outline, false to show an outline
@@ -116,44 +110,28 @@ See
 
 ### Return Value
 
-Detail
-
-[view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
+Detail [view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateDetailViewAt4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateDetailViewAt4.html)
-
-.
+See [DrawingDoc::CreateDetailViewAt4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateDetailViewAt4.html).
 
 ## Examples
 
 [Create Detail Circle and Detail View (C#)](Create_Detail_Circle_and_Detail_View_Example_CSharp.htm)
-
 [Create Detail Circle and Detail View (VB.NET)](Create_Detail_Circle_and_Detail_View_Example_VBNET.htm)
-
 [Create Detail Circle and Detail View (VBA)](Create_Detail_Circle_and_Detail_View_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::CreateViewport3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateViewport3.html)
-
 [IDrawingDoc::Create1stAngleViews2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~Create1stAngleViews2.html)
-
 [IDrawingDoc::Create3rdAngleViews2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~Create3rdAngleViews2.html)
-
 [IDrawingDoc::CreateAuxiliaryViewAt2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateAuxiliaryViewAt2.html)
-
 [IDrawingDoc::CreateDrawViewFromModelView3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDrawViewFromModelView3.html)
-
 [IDrawingDoc::CreateUnfoldedViewAt3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateUnfoldedViewAt3.html)
-
 [IDrawingDoc::CreateSectionViewAt5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateSectionViewAt5.html)
 
 ## Availability

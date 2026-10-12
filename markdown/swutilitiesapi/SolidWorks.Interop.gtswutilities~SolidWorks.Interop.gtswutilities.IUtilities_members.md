@@ -9,7 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # IUtilities Interface Members
 
-The following tables list the members exposed by[IUtilities](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html).
+The following tables list the members exposed by [IUtilities](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ The following tables list the members exposed by[IUtilities](SolidWorks.Interop.
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

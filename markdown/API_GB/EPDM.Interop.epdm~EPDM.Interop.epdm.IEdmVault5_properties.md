@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_properties.html"
 
 # IEdmVault5 Interface Properties
 
-For a list of all members of this type, see[IEdmVault5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html).
+For a list of all members of this type, see [IEdmVault5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html).
 
 ## Public Properties
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[IEdmVault5 members](EPDM.Interop.epd
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

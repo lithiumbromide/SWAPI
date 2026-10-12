@@ -48,28 +48,19 @@ property DimXpertFeature^ OriginFeature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertAngleBetweenDimTol::OriginFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenDimTol~OriginFeature.html)
-
-.
+See [DimXpertAngleBetweenDimTol::OriginFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenDimTol~OriginFeature.html).
 
 ## Examples
 
 [Get and Set Location Dimension Example (C#)](Get_and_Set_Location_Dimension_Example_CSharp.htm)
-
 [Get and Set Location Dimension Example (VB.NET)](Get_and_Set_Location_Dimension_Example_VBNET.htm)
-
 [Get and Set Location Dimension Example (VBA)](Get_and_Set_Location_Dimension_Example_VB.htm)
-
 [Get DimXpert Tolerance4 Example (VBA)](Get_DimXpert_Tolerance4_Example_VB.htm)
-
 [Get DimXpert Tolerance4 Example (VB.NET)](Get_DimXpert_Tolerance4_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertAngleBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.html)
-
 [IDimXpertAngleBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol_members.html)
 
 ## Availability

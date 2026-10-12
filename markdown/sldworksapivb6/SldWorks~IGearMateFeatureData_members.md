@@ -1,6 +1,5 @@
 ---
-title: "IGearMateFeatureData Object
-Members"
+title: "IGearMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IGearMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IGearMateFeatureData_members.html"
 ---
 
-# IGearMateFeatureData Object
-Members
+# IGearMateFeatureData Object Members
 
 ## Public Properties
 

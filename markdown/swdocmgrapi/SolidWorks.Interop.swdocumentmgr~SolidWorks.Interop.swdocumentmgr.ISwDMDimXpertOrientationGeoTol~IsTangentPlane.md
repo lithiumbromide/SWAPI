@@ -46,11 +46,7 @@ True if tangent plane is specified; false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertOrientationGeoTol::IsTangentPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertOrientationGeoTol~IsTangentPlane.html)
-
-.
+See [SwDMDimXpertOrientationGeoTol::IsTangentPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertOrientationGeoTol~IsTangentPlane.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertOrientationGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertOrientationGeoTol.html)
-
 [ISwDMDimXpertOrientationGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertOrientationGeoTol_members.html)
 
 ## Availability

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 Allows access to reference plane definitions.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,24 +41,15 @@ public interface class IRefPlane
 
 ## VBA Syntax
 
-See
-
-[RefPlane](ms-its:sldworksapivb6.chm::/sldworks~RefPlane.html)
-
-.
+See [RefPlane](ms-its:sldworksapivb6.chm::/sldworks~RefPlane.html).
 
 ## Examples
 
 [Get Corner Points of Reference Plane (VBA)](Get_Corner_Points_of_Reference_Plane_Example_VB.htm)
-
 [Get Corner Points of Reference Plane (VB.NET)](Get_Corner_Points_of_Reference_Plane_Example_VBNET.htm)
-
 [Get Corner Points of Reference Plane (C#)](Get_Corner_Points_of_Reference_Plane_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (C#)](Insert_Fill-surface_Feature_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (VB.NET)](Insert_Fill-surface_Feature_Example_VBNET.htm)
-
 [Insert Fill-surface Feature (VBA)](Insert_Fill-surface_Feature_Example_VB.htm)
 
 ## Accessors
@@ -127,21 +118,21 @@ See
 
 [IMirrorPartFeatureData::GetMirrorPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData~GetMirrorPlane.html)
 
-[IModelDoc2::CreatePlaneAtAngle3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtAngle3.html)and[IModelDoc2::ICreatePlaneAtAngle3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtAngle3.html)
+[IModelDoc2::CreatePlaneAtAngle3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtAngle3.html) and [IModelDoc2::ICreatePlaneAtAngle3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtAngle3.html)
 
-[IModelDoc2::CreatePlaneAtOffset3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtOffset3.html)and[IModelDoc2::ICreatePlaneAtOffset3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtOffset3.html)
+[IModelDoc2::CreatePlaneAtOffset3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtOffset3.html) and [IModelDoc2::ICreatePlaneAtOffset3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtOffset3.html)
 
-[IModelDoc2::CreatePlaneAtSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtSurface3.html)and[IModelDoc2::ICreatePlaneAtSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtSurface3.html)
+[IModelDoc2::CreatePlaneAtSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtSurface3.html) and [IModelDoc2::ICreatePlaneAtSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneAtSurface3.html)
 
-[IModelDoc2::CreatePlaneFixed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneFixed2.html)and[IModelDoc2::ICreatePlaneFixed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneFixed2.html)
+[IModelDoc2::CreatePlaneFixed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneFixed2.html) and [IModelDoc2::ICreatePlaneFixed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneFixed2.html)
 
-[IModelDoc2::CreatePlanePerCurveAndPassPoint3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlanePerCurveAndPassPoint3.html)and[IModelDoc2::ICreatePlanePerCurveAndPassPoint3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlanePerCurveAndPassPoint3.html)
+[IModelDoc2::CreatePlanePerCurveAndPassPoint3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlanePerCurveAndPassPoint3.html) and [IModelDoc2::ICreatePlanePerCurveAndPassPoint3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlanePerCurveAndPassPoint3.html)
 
-[IModelDoc2::CreatePlaneThru3Points3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThru3Points3.html)and[IModelDoc2::ICreatePlaneThru3Points3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThru3Points3.html)
+[IModelDoc2::CreatePlaneThru3Points3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThru3Points3.html) and [IModelDoc2::ICreatePlaneThru3Points3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThru3Points3.html)
 
-[IModelDoc2::CreatePlaneThruLineAndPt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThruLineAndPt.html)and[IModelDoc2::ICreatePlaneThruLineAndPt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThruLineAndPt.html)
+[IModelDoc2::CreatePlaneThruLineAndPt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThruLineAndPt.html) and [IModelDoc2::ICreatePlaneThruLineAndPt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThruLineAndPt.html)
 
-[IModelDoc2::CreatePlaneThruPtParallelToPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThruPtParallelToPlane.html)and[IModelDoc2::ICreatePlaneThruPtParallelToPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThruPtParallelToPlane.html)
+[IModelDoc2::CreatePlaneThruPtParallelToPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneThruPtParallelToPlane.html) and [IModelDoc2::ICreatePlaneThruPtParallelToPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePlaneThruPtParallelToPlane.html)
 
 [IMoveFaceFeatureData::GetDirectionReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveFaceFeatureData~GetDirectionReference.html)
 
@@ -198,7 +189,5 @@ See
 ## See Also
 
 [IRefPlane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)

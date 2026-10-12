@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetSaveTo3DExperienceOptions Method (ISldWorks)
 
-Initializes save options for a SOLIDWORKS Connected document.
+Initializes save options for a [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.object GetSaveTo3DExperienceOptions()
 System.Object^ GetSaveTo3DExperienceOptions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetSaveTo3DExperienceOptions](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetSaveTo3DExperienceOptions.html)
-
-.
+See [SldWorks::GetSaveTo3DExperienceOptions](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetSaveTo3DExperienceOptions.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

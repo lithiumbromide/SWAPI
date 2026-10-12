@@ -1,6 +1,5 @@
 ---
-title: "MateControllerFeatureData Object
-Members"
+title: "MateControllerFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MateControllerFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MateControllerFeatureData_members.html"
 ---
 
-# MateControllerFeatureData Object
-Members
+# MateControllerFeatureData Object Members
 
 ## Public Methods
 

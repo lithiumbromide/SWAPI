@@ -45,13 +45,7 @@ property System.bool Reverse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of rotation, false to not
 
 ## VBA Syntax
 
-See
-
-[GearMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData~Reverse.html)
-
-.
+See [GearMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData~Reverse.html).
 
 ## Examples
 
-See the
-
-[IGearMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html)
-
-example.
+See the [IGearMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html) example.
 
 ## See Also
 
 [IGearMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html)
-
 [IGearMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData_members.html)
 
 ## Availability

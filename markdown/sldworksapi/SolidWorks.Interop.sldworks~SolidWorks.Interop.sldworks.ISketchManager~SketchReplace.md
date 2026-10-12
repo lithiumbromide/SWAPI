@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # SketchReplace Method (ISketchManager)
 
-Obsolete. Superseded by
-
-[ISketchManager::SketchReplace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchReplace2.html)
-
-.
+Obsolete. Superseded by [ISketchManager::SketchReplace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchReplace2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SketchReplace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,25 +59,20 @@ True if the the sketch entity is successfully replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchReplace](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchReplace.html)
-
-.
+See [SketchManager::SketchReplace](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchReplace.html).
 
 ## Remarks
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Append set to true to select each of the following entities:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Append set to true to select each of the following entities:
 
 1. Sketch entity to be replaced.
 2. Replacement sketch entity that does not reference downstream geometry or have references outside of the sketch.
 
-After calling this method, call[ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html)to rebuild the model with the replacement sketch.
+After calling this method, call [ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html) to rebuild the model with the replacement sketch.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

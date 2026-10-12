@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMassProperty Interface Members
 
-The following tables list the members exposed by[IMassProperty](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html).
+The following tables list the members exposed by [IMassProperty](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html).
 
 ## Public Properties
 
@@ -60,7 +60,5 @@ The following tables list the members exposed by[IMassProperty](SolidWorks.Inter
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::GetMassProperties2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetMassProperties2.html)

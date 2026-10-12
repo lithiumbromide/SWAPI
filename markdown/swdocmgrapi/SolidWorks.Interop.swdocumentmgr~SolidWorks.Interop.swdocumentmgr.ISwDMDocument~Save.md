@@ -42,17 +42,11 @@ SwDmDocumentSaveError Save();
 
 ### Return Value
 
-Success or error code as defined by
-
-[SwDMDocumentSaveError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentSaveError.html)
+Success or error code as defined by [SwDMDocumentSaveError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentSaveError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::Save](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~Save.html)
-
-.
+See [SwDMDocument::Save](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~Save.html).
 
 ## Remarks
 
@@ -61,13 +55,9 @@ This method returns an error if you try to save a read-only document.
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISwDMDocument::SaveAs Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~SaveAs.html)
-
 [ISwDMDocument::LastSavedBy Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedBy.html)
-
 [ISwDMDocument::LastSavedDate Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedDate.html)
 
 ## Availability

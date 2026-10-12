@@ -9,8 +9,7 @@ source: "sldworksapi/Save_Table_to_Microsoft_Excel_Example_VB.htm"
 
 # Save Table to Microsoft Excel Example (VBA)
 
-This example shows how to save a BOM table annotation to a Microsoft Excel
-document.
+This example shows how to save a BOM table annotation to a Microsoft Excel document.
 
 ```vb
  '---------------------------------------------------------------------------

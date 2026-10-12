@@ -44,24 +44,15 @@ property gtcocswCompareFeature^ CompareFeature {
 
 ### Property Value
 
-Pointer to an
-
-[ICompareFeature](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareFeature.html)
-
-object
+Pointer to an [ICompareFeature](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::CompareFeature](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareFeature.html)
-
-.
+See [IUtilities::CompareFeature](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareFeature.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

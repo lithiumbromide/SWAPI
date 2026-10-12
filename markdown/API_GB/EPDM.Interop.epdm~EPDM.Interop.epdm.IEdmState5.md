@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html"
 
 Allows you to access a workflow state.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,23 +37,14 @@ public interface class IEdmState5 : public IEdmObject5
 ## Examples
 
 [Get File's State Transitions (C#)](Get_Files_State_Transitions_Example_CSharp.htm)
-
 [Get File's State Transitions (VB.NET)](Get_Files_State_Transitions_Example_VBNET.htm)
 
 ## Remarks
 
 This interface:
 
-- inherits from
-
-  [IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html)
-
-  .
-- is extended by
-
-  [IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html)
-
-  .
+- inherits from [IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html).
+- is extended by [IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html).
 
 ## Accessors
 
@@ -80,7 +65,5 @@ This interface:
 ## See Also
 
 [IEdmState5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmTransition5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)

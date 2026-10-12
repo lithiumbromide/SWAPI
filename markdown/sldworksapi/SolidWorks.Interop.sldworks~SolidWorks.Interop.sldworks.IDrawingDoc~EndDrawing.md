@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # EndDrawing Method (IDrawingDoc)
 
-Provides faster creation of entities in a drawing when used with
-
-[IDrawingDoc::StartDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~StartDrawing.html)
-
-.
+Provides faster creation of entities in a drawing when used with [IDrawingDoc::StartDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~StartDrawing.html).
 
 ## Syntax
 
@@ -43,32 +39,17 @@ void EndDrawing()
 void EndDrawing();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::EndDrawing](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EndDrawing.html)
-
-.
+See [DrawingDoc::EndDrawing](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EndDrawing.html).
 
 ## Remarks
 
-Use
-
-[IDrawingDoc::StartDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~StartDrawing.html)
-
-and this method to bound your entity creation statements.
+Use [IDrawingDoc::StartDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~StartDrawing.html) and this method to bound your entity creation statements.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

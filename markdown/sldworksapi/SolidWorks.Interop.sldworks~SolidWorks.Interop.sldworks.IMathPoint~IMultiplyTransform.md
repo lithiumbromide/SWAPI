@@ -47,42 +47,24 @@ MathPoint^ IMultiplyTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-by which to multiply this math point
+- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) by which to multiply this math point
 
 ### Return Value
 
-Newly created translated
-
-[math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-or null if the operation fails
+Newly created translated [math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathPoint::IMultiplyTransform](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~IMultiplyTransform.html)
-
-.
+See [MathPoint::IMultiplyTransform](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~IMultiplyTransform.html).
 
 ## See Also
 
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint_members.html)
-
 [IMathPoint::MultiplyTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint~MultiplyTransform.html)
 
 ## Availability

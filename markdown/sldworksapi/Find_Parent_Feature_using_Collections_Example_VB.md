@@ -9,9 +9,7 @@ source: "sldworksapi/Find_Parent_Feature_using_Collections_Example_VB.htm"
 
 # Find Parent Feature using Collections Example (VBA)
 
-This example shows how to walk the FeatureManager design tree and touch
-all of the parent features of a selected feature. Using collections lets you visit all of the
-parent features without using a recursive operation.
+This example shows how to walk the FeatureManager design tree and touch all of the parent features of a selected feature. Using collections lets you visit all of the parent features without using a recursive operation.
 
 ```
 '----------------------------------------------

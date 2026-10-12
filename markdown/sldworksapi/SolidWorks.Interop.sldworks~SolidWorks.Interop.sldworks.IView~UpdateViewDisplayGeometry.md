@@ -39,21 +39,11 @@ void UpdateViewDisplayGeometry()
 void UpdateViewDisplayGeometry();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::UpdateViewDisplayGeometry](ms-its:sldworksapivb6.chm::/sldworks~View~UpdateViewDisplayGeometry.html)
-
-.
+See [View::UpdateViewDisplayGeometry](ms-its:sldworksapivb6.chm::/sldworks~View~UpdateViewDisplayGeometry.html).
 
 ## Remarks
 
@@ -64,9 +54,6 @@ Because Microsoft controls repainting the window, you do not have access to your
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayMode2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayMode2.html)
-
 [IView::SetDisplayMode3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetDisplayMode3.html)

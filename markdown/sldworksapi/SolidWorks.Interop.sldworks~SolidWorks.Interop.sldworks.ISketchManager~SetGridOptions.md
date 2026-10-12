@@ -82,13 +82,7 @@ void SetGridOptions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,11 +99,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SetGridOptions](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~SetGridOptions.html)
-
-.
+See [SketchManager::SetGridOptions](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~SetGridOptions.html).
 
 ## Remarks
 
@@ -118,7 +108,6 @@ The AlignToEdge argument aligns the grid with the currently selected edge. If Al
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

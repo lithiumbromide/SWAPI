@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22_members.html"
 
 # IEdmVault22 Interface Members
 
-The following tables list the members exposed by[IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html).
+The following tables list the members exposed by [IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IEdmVault22](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault22 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

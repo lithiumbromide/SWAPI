@@ -34,9 +34,7 @@ System.int mlBOMViewSettings
 
 ### Field Value
 
-See
-
-Remarks
+See **Remarks**
 
 ## Remarks
 
@@ -49,5 +47,4 @@ Remarks
 ## See Also
 
 [EdmBomDefaultSetting Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html)
-
 [EdmBomDefaultSetting Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members.html)

@@ -46,36 +46,20 @@ public delegate System.int DDrawingDocEvents_DrawingStateChangeNotifyEventHandle
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PreviousState`: Previous state as defined by
-
-[swDrawingMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDrawingMode_e.html)
+- `PreviousState`: Previous state as defined by [swDrawingMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDrawingMode_e.html)
 - `newState`: New state as defined by swDrawingMode_e
 
 ## VBA Syntax
 
-See
-
-[DrawingStateChangeNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DrawingStateChangeNotify_EV.html)
-
-.
+See [DrawingStateChangeNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DrawingStateChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swDrawingDrawingStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingDrawingStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

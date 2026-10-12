@@ -37,29 +37,15 @@ public delegate System.int DSWPropertySheetEvents_OnCancelNotifyEventHandler()
 public delegate System.int DSWPropertySheetEvents_OnCancelNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[OnCancelNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~OnCancelNotify_EV.html)
-
-.
+See [OnCancelNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~OnCancelNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPropertySheetOnCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPropertySheetOnCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html) to register for this notification.
 
 ## Availability
 

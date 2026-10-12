@@ -40,27 +40,15 @@ System.object GetSketchSlots()
 System.Object^ GetSketchSlots();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[sketch slots](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSlot.html)
+Array of [sketch slots](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSlot.html)
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchSlots](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchSlots.html)
-
-.
+See [Sketch::GetSketchSlots](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchSlots.html).
 
 ## Examples
 
@@ -69,11 +57,8 @@ See
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::IGetSketchSlots Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSketchSlots.html)
-
 [ISketch::GetSketchSlotCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchSlotCount.html)
 
 ## Availability

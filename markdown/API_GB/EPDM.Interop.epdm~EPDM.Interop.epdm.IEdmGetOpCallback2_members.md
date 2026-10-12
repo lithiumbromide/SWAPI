@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2_members.h
 
 # IEdmGetOpCallback2 Interface Members
 
-The following tables list the members exposed by[IEdmGetOpCallback2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2.html).
+The following tables list the members exposed by [IEdmGetOpCallback2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmGetOpCallback2](EPDM.Intero
 ## See Also
 
 [IEdmGetOpCallback2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IGetSelections Method (IMacroFeatureData)
 
-Obsolete. Superseded by
-
-[IMacroFeatureData::IGetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetSelections3.html)
-
-.
+Obsolete. Superseded by [IMacroFeatureData::IGetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetSelections3.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void IGetSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::IGetSelections](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~IGetSelections.html)
-
-.
+See [MacroFeatureData::IGetSelections](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~IGetSelections.html).
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)

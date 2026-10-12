@@ -45,13 +45,7 @@ property System.bool LinkedDisplayState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,40 +53,25 @@ True if linked, false if not linked
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::LinkedDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~LinkedDisplayState.html)
-
-.
+See [ModelDocExtension::LinkedDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~LinkedDisplayState.html).
 
 ## Examples
 
 [Create, Unlink, and Purge Display States in Part (VB.NET)](Create,_Unlink,_and_Purge_Display_States_in_Part_Example_VBNET.htm)
-
 [Create, Unlink, and Purge Display States in Part (VBA)](Create,_Unlink,_and_Purge_Display_States_in_Part_Example_VB.htm)
-
 [Create, Unlink, and Purge Display States in Part (C#)](Create,_Unlink,_and_Purge_Display_States_in_Part_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IConfiguration::ApplyDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~ApplyDisplayState.html)
-
 [IConfiguration::CreateDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~CreateDisplayState.html)
-
 [IConfiguration::DeleteDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~DeleteDisplayState.html)
-
 [IConfiguration::GetDisplayStates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStates.html)
-
 [IConfiguration::GetDisplayStatesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStatesCount.html)
-
 [IConfiguration::CopyDisplayStateFromConfiguration Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~CopyDisplayStateFromConfiguration.html)
-
 [IModelDocExtension::PurgeDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PurgeDisplayState.html)
-
 [IConfigurationManager::LinkDisplayStatesToConfigurations Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~LinkDisplayStatesToConfigurations.html)
 
 ## Availability

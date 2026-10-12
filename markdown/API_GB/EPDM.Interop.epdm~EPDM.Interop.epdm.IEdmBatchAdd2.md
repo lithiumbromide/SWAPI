@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2.html"
 
 Allows you to display a dialog box with information about several files and folders being added to the vault all at once.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,22 +36,13 @@ public interface class IEdmBatchAdd2 : public IEdmBatchAdd
 
 ## Examples
 
-See the
-
-[IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
-examples.
+See the [IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html) examples.
 
 ## Remarks
 
-This interface extends
-
-[IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
-.
+This interface extends [IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html).
 
 ## See Also
 
 [IEdmBatchAdd2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

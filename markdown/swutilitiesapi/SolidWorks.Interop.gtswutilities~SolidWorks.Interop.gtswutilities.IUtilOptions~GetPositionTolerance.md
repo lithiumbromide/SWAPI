@@ -49,9 +49,7 @@ System.double GetPositionTolerance(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,16 +57,11 @@ Position tolerance
 
 ## VBA Syntax
 
-See
-
-[IUtilOptions::GetPositionTolerance](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions~GetPositionTolerance.html)
-
-.
+See [IUtilOptions::GetPositionTolerance](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions~GetPositionTolerance.html).
 
 ## See Also
 
 [IUtilOptions Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions.html)
-
 [IUtilOptions Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions_members.html)
 
 ## Availability

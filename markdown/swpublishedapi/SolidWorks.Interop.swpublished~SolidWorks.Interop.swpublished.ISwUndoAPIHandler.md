@@ -11,7 +11,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 Undo an add-in application's previously processed commands.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISwUndoAPIHandler
 
 ## VBA Syntax
 
-See
-
-[SwUndoAPIHandler](ms-its:swpublishedapivb6.chm::/swpublished~SwUndoAPIHandler.html)
-
-.
+See [SwUndoAPIHandler](ms-its:swpublishedapivb6.chm::/swpublished~SwUndoAPIHandler.html).
 
 ## Examples
 
@@ -53,11 +49,7 @@ See
 
 ## Remarks
 
-To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see
-
-[ComVisibleAttribute in VB.NET and C# Macros and Add-ins](sldworksapiprogguide.chm::/OVERVIEW/ComVisibleAttribute_in_VSTA_macros.htm)
-
-.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see [ComVisibleAttribute in VB.NET and C# Macros and Add-ins](sldworksapiprogguide.chm::/OVERVIEW/ComVisibleAttribute_in_VSTA_macros.htm).
 
 ## Accessors
 
@@ -66,5 +58,4 @@ To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see
 ## See Also
 
 [ISwUndoAPIHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

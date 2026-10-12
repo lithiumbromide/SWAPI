@@ -45,13 +45,7 @@ property System.bool MarkedForDrawing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the display dimension is marked to include in the drawing document, fals
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::MarkedForDrawing](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~MarkedForDrawing.html)
-
-.
+See [DisplayDimension::MarkedForDrawing](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~MarkedForDrawing.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

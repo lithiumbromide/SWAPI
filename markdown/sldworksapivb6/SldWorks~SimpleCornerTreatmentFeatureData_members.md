@@ -1,6 +1,5 @@
 ---
-title: "SimpleCornerTreatmentFeatureData Object
-Members"
+title: "SimpleCornerTreatmentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimpleCornerTreatmentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimpleCornerTreatmentFeatureData_members.html"
 ---
 
-# SimpleCornerTreatmentFeatureData Object
-Members
+# SimpleCornerTreatmentFeatureData Object Members
 
 ## Public Properties
 

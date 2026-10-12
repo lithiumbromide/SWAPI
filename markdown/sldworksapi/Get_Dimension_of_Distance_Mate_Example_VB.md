@@ -9,12 +9,9 @@ source: "sldworksapi/Get_Dimension_of_Distance_Mate_Example_VB.htm"
 
 # Get Dimension of Distance Mate Example (VBA)
 
-This example shows how to get the dimension value of a distance mate
-in an assembly.
+This example shows how to get the dimension value of a distance mate in an assembly.
 
-NOTE:You can use this sample
-code to get all the dimension values for any selected feature in the FeatureManager
-design tree.
+NOTE: You can use this sample code to get all the dimension values for any selected feature in the FeatureManager design tree.
 
 ```
 '-------------------------------------------------------------------------------------------

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLo
 
 # ICWLoadCaseManager Interface Methods
 
-For a list of all members of this type, see[ICWLoadCaseManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html).
+For a list of all members of this type, see [ICWLoadCaseManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html).
 
 ## Public Methods
 
@@ -48,5 +48,4 @@ For a list of all members of this type, see[ICWLoadCaseManager members](SolidWor
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

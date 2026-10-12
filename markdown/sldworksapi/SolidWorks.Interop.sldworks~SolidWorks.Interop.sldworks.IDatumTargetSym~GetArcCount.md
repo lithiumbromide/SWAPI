@@ -40,13 +40,7 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of arcs
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetArcCount.html)
-
-.
+See [DatumTargetSym::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetArcCount.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetArcAtIndex.html)
-
 [IDatumTargetSym::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~IGetArcAtIndex.html)

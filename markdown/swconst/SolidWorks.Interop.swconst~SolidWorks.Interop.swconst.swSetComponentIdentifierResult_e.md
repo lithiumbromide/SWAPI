@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSetComp
 
 # swSetComponentIdentifierResult_e Enumeration
 
-Set component identifier status.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Set component identifier status. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -46,6 +42,7 @@ public enum class swSetComponentIdentifierResult_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swSetComponentIdentifierResult_BlockedBySystemOption | 8 |
 | swSetComponentIdentifierResult_InvalidPrimary | 1 |
 | swSetComponentIdentifierResult_InvalidSecondary | 2 |
 | swSetComponentIdentifierResult_InvalidTertiary | 4 |

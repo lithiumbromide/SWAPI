@@ -51,13 +51,7 @@ System.bool GetExtensionLineAsCenterline(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,16 +64,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetExtensionLineAsCenterline](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetExtensionLineAsCenterline.html)
-
-.
+See [DisplayDimension::GetExtensionLineAsCenterline](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetExtensionLineAsCenterline.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

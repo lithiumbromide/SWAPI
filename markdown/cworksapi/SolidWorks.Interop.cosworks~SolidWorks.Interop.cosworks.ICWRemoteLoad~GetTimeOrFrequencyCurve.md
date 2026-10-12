@@ -42,19 +42,11 @@ System.Object^ GetTimeOrFrequencyCurve();
 
 ### Return Value
 
-Array of curve data representing the variation with time or frequency of this remote load (see
-
-Remarks
-
-)
+Array of curve data representing the variation with time or frequency of this remote load (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::GetTimeOrFrequencyCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMomentOrRotationValues.html)
-
-.
+See [CWRemoteLoad::GetTimeOrFrequencyCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMomentOrRotationValues.html).
 
 ## Remarks
 
@@ -65,20 +57,18 @@ See
 
 Array of time or frequency curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time or frequency value at the`ith`data point
+- xi = time or frequency value at the `ith` data point
 - yi = property value associated with time or frequency xi
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetTimeOrFrequencyCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetTimeOrFrequencyCurve.html)
 
 ## Availability

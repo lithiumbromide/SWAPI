@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMu
 
 # IncludeShellEdgeSolidOrShellFace Method (ICWMultipleComponentContactsEditManager)
 
-Obsolete. Superseded by
-
-[ICWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace2.html)
-
-.
+Obsolete. Superseded by [ICWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace2.html).
 
 ## Syntax
 
@@ -57,35 +53,21 @@ System.int IncludeShellEdgeSolidOrShellFace(
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace.html)
-
-.
+See [CWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace.html).
 
 ## Remarks
 
 This method is valid only if:
 
-- [ICWMultipleComponentContactsEditManager::IncludeClearance](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~IncludeClearance.html)
-
-  's BNonTouching is set to 1,
+- [ICWMultipleComponentContactsEditManager::IncludeClearance](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~IncludeClearance.html)'s BNonTouching is set to 1,
 
 - and -
 
-- [ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)
-
-  's NType is set to
-
-  [swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html)
-
-  .swsContactTypeBonded.
+- [ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)'s NType is set to [swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeBonded.
 
 If BNonTouchingShell is set to true, then this method creates edge-to-edge bonded contact sets for pairs of:
 
@@ -93,15 +75,13 @@ If BNonTouchingShell is set to true, then this method creates edge-to-edge bonde
 - shell edges-to-shell faces, and
 - shell edges-to-solid faces
 
-that are within clearance as specified by[ICWMultipleComponentContactsEditManager::SetClearanceValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetClearanceValue.html).
+that are within clearance as specified by [ICWMultipleComponentContactsEditManager::SetClearanceValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetClearanceValue.html).
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
-
-ICWMultipleComponentContactsEditManager::GetIncludeShellEdgeSolidOrShellFace Method ()
+**ICWMultipleComponentContactsEditManager::GetIncludeShellEdgeSolidOrShellFace Method ()**
 
 ## Availability
 

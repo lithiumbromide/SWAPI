@@ -55,25 +55,11 @@ GeneralToleranceTableAnnotation^ InsertGeneralToleranceTableAnnotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TemplateName`: Path and file name of the table template to use (see
-
-Remarks
-
-)
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
+- `TemplateName`: Path and file name of the table template to use (see **Remarks**)
 - `X`: X coordinate of this table annotation
 - `Y`: Y coordinate of this table annotation
 
@@ -83,40 +69,22 @@ kadov_tag{{</spaces>}}
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertGeneralToleranceTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertGeneralToleranceTableAnnotation.html)
-
-.
+See [ModelDocExtension::InsertGeneralToleranceTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertGeneralToleranceTableAnnotation.html).
 
 ## Examples
 
 [Insert General Tolerance Table (VBA)](Insert_General_Tolerance_Table_Example_VB.htm)
-
 [Insert General Tolerance Table (VB.NET)](Insert_General_Tolerance_Table_Example_VBNET.htm)
-
 [Insert General Tolerance Table (C#)](Insert_General_Tolerance_Table_Example_CSharp.htm)
 
 ## Remarks
 
-Specify TemplateName with
-
-install_dir
-
-\lang\
-
-lang
-
-\bom-standard.sldbomtbt
-
-.
+Specify TemplateName with `install_dir`**\lang\**`lang`**\bom-standard.sldbomtbt**.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IGeneralToleranceTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html)
 
 ## Availability

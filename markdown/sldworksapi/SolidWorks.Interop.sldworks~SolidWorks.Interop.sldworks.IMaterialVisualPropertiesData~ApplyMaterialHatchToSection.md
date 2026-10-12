@@ -45,42 +45,23 @@ property System.bool ApplyMaterialHatchToSection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the
-
-[drawing section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)
-
-use the material hatch, false if not
+True if the [drawing section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html) use the material hatch, false if not
 
 ## VBA Syntax
 
-See
-
-[MaterialVisualPropertiesData::ApplyMaterialHatchToSection](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~ApplyMaterialHatchToSection.html)
-
-.
+See [MaterialVisualPropertiesData::ApplyMaterialHatchToSection](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~ApplyMaterialHatchToSection.html).
 
 ## Examples
 
-See
-
-[IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
-examples.
+See [IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html) examples.
 
 ## See Also
 
 [IMaterialVisualPropertiesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
 [IMaterialVisualPropertiesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData_members.html)
 
 ## Availability

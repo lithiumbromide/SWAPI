@@ -45,13 +45,7 @@ property System.bool IncludeToolboxComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to include SOLIDWORKS Toolbox components in Pack and Go, false to not
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::IncludeToolboxComponents](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeToolboxComponents.html)
-
-.
+See [PackAndGo::IncludeToolboxComponents](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeToolboxComponents.html).
 
 ## Examples
 
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
 
 ## Availability

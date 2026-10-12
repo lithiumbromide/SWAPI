@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sketch_Points_in_Wizard_Hole_Example_VBNET.htm"
 
 # Get and Add Sketch Points in Hole Wizard Feature Example (VB.NET)
 
-This example shows how to get and add the sketch pointskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}in
-a Hole Wizard feature.
+This example shows how to get and add the sketch points in a Hole Wizard feature.
 
 ```
 '------------------------------------------------------------------------------

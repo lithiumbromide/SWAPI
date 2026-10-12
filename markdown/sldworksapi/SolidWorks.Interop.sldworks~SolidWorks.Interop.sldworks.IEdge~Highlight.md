@@ -46,13 +46,7 @@ void Highlight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,24 +54,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[Edge::Highlight](ms-its:sldworksapivb6.chm::/sldworks~Edge~Highlight.html)
-
-.
+See [Edge::Highlight](ms-its:sldworksapivb6.chm::/sldworks~Edge~Highlight.html).
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::Display Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~Display.html)
-
 [IFace2::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Highlight.html)
-
 [IFace2::IHighlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IHighlight.html)
-
 [IVertex::Display Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~Display.html)
 
 ## Availability

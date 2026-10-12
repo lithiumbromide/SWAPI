@@ -46,32 +46,19 @@ void SetIntersections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Intersections`: Array of booleans; true indicates to exclude the corresponding intersect region in the array of intersect regions returned by
-
-[IIntersectFeatureData::GetIntersections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData~GetIntersections.html)
+- `Intersections`: Array of booleans; true indicates to exclude the corresponding intersect region in the array of intersect regions returned by [IIntersectFeatureData::GetIntersections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData~GetIntersections.html)
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::SetIntersections](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~SetIntersections.html)
-
-.
+See [IntersectFeatureData::SetIntersections](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~SetIntersections.html).
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
 
 ## Availability

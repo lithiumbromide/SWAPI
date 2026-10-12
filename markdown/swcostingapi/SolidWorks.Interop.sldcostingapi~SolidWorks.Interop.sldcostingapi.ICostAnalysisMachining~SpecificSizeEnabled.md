@@ -51,7 +51,7 @@ True if a user can specify the X, Y, and Z block dimensions to add to the tighte
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::SpecificSizeEnabled](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~SpecificSizeEnabled.html).
+See [CostAnalysisMachining::SpecificSizeEnabled](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~SpecificSizeEnabled.html).
 
 ## Remarks
 
@@ -60,11 +60,8 @@ This property applies to block stock bodies only.
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::Margins Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~Margins.html)
-
 [ICostAnalysisMachining::IMargins Property](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IMargins.html)
 
 ## Availability

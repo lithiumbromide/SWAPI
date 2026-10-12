@@ -51,13 +51,7 @@ System.bool SelectChain(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,23 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::SelectChain](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~SelectChain.html)
-
-.
+See [SketchSegment::SelectChain](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~SelectChain.html).
 
 ## Examples
 
 [Select Chains of Entities Attached to a Sketch Segment (VBA)](Select_Chain_of_Entities_Example_VB.htm)
-
 [Select Chains of Entities Attached to a Sketch Segment (VB.NET)](Select_Chain_of_Entities_Example_VBNET.htm)
-
 [Select Chains of Entities Attached to a Sketch Segment (C#)](Select_Chain_of_Entities_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method call[ISelectionMgr::CreateSelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateSelectData.html)to specify Data.
+Before calling this method call [ISelectionMgr::CreateSelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateSelectData.html) to specify Data.
 
-This method is equivalent to right-clicking a sketch segment and selecting**Select Chain**. The chain of entities in each direction is selected. Selection ends when a branch in the chain is encountered.
+This method is equivalent to right-clicking a sketch segment and selecting **Select Chain**. The chain of entities in each direction is selected. Selection ends when a branch in the chain is encountered.
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

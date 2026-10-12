@@ -1,6 +1,5 @@
 ---
-title: "BlockDefinition Object
-Members"
+title: "BlockDefinition Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BlockDefinition_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BlockDefinition_members.html"
 ---
 
-# BlockDefinition Object
-Members
+# BlockDefinition Object Members
 
 ## Public Methods
 

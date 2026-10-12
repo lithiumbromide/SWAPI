@@ -40,48 +40,29 @@ System.object GetSplineHandles()
 System.Object^ GetSplineHandles();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[spline handles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle.html)
+Array of [spline handles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle.html)
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::GetSplineHandles](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetSplineHandles.html)
-
-.
+See [SketchSpline::GetSplineHandles](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetSplineHandles.html).
 
 ## Examples
 
 [Get and Set Spline Handles (VBA)](Get_and_Set_Spline_Handles_Example_VB.htm)
-
 [Get and Set Spline Handles (VB.NET)](Get_and_Set_Spline_Handles_Example_VBNET.htm)
-
 [Get and Set Spline Handles (C#)](Get_and_Set_Spline_Handles_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::GetSplineHandleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetSplineHandleCount.html)
-
 [ISketchSpline::IGetSplineHandles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IGetSplineHandles.html)
-
 [ISketchSpline::ResetAllHandles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ResetAllHandles.html)
-
 [ISketchSpline::ShowSplineHandles Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ShowSplineHandles.html)
 
 ## Availability

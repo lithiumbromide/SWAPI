@@ -40,13 +40,7 @@ System.int GetCameraCount()
 System.int GetCameraCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of cameras in the document
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCameraCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraCount.html)
-
-.
+See [ModelDocExtension::GetCameraCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraCount.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetCameraById Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCameraById.html)
-
 [IModelDocExtension::GetCameraDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCameraDefinition.html)
-
 [IModelDocExtension::InsertCamera Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertCamera.html)
 
 ## Availability

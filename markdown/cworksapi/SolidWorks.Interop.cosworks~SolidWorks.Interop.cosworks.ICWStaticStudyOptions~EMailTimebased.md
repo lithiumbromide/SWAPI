@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # EMailTimebased Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWStaticStudyOptions::EMailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTimebased2.html)
-
-.
+Obsolete. Superseded by [ICWStaticStudyOptions::EMailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTimebased2.html).
 
 ## Syntax
 
@@ -55,22 +51,17 @@ property System.int EMailTimebased {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMailTimebased.html)
-
-.
+See [CWStaticStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMailTimebased.html).
 
 ## Remarks
 
-This property is valid only if[ICWStaticStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail.html)is set to 1.
+This property is valid only if [ICWStaticStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail.html) is set to 1.
 
-If this property is set to 1, use[ICWStaticStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailInterval.html)and[ICWStaticStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailIntervalUnit.html)to specify the time interval for sending email notifications during simulations.
+If this property is set to 1, use [ICWStaticStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailInterval.html) and [ICWStaticStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailIntervalUnit.html) to specify the time interval for sending email notifications during simulations.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

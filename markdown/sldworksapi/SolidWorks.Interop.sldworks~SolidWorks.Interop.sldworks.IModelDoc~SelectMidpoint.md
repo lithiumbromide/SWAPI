@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectMidpoint Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SelectMidPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectMidpoint.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SelectMidPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectMidpoint.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SelectMidpoint()
 void SelectMidpoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SelectMidpoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectMidpoint.html)
-
-.
+See [ModelDoc::SelectMidpoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectMidpoint.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

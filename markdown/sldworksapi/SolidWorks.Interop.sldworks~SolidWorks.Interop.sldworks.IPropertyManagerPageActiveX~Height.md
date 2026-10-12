@@ -45,13 +45,7 @@ property System.short Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Height of the control
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageActiveX::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageActiveX~Height.html)
-
-.
+See [PropertyManagerPageActiveX::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageActiveX~Height.html).
 
 ## Remarks
 
@@ -74,7 +64,6 @@ The height is in dialog-box units. You can convert these values to screen units 
 ## See Also
 
 [IPropertyManagerPageActiveX Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX.html)
-
 [IPropertyManagerPageActiveX Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX_members.html)
 
 ## Availability

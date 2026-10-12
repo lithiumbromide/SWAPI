@@ -40,25 +40,15 @@ EnumFaces2 EnumFaces()
 EnumFaces2^ EnumFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Enumerated list of[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)(see**Remarks**)
+Enumerated list of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Body2::EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~Body2~EnumFaces.html)
-
-.
+See [Body2::EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~Body2~EnumFaces.html).
 
 ## Examples
 
@@ -66,20 +56,11 @@ See
 
 ## Remarks
 
-OLE automation applications should use
-
-[IBody2::GetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetNextFace.html)
-
-and
-
-[IFace2::GetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetFirstFace.html)
-
-.
+OLE automation applications should use [IBody2::GetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetNextFace.html) and [IFace2::GetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetFirstFace.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

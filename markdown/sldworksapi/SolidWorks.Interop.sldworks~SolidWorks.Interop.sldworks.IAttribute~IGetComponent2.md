@@ -40,13 +40,7 @@ Component2 IGetComponent2()
 Component2^ IGetComponent2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Attribute::IGetComponent2](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetComponent2.html)
-
-.
+See [Attribute::IGetComponent2](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetComponent2.html).
 
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)
-
 [IAttribute::GetComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute~GetComponent.html)
 
 ## Availability

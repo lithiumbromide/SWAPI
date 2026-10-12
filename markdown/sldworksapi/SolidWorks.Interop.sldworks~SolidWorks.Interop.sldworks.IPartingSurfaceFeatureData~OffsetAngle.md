@@ -45,13 +45,7 @@ property System.double OffsetAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ Angle
 
 ## VBA Syntax
 
-See
-
-[PartingSurfaceFeatureData::OffsetAngle](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~OffsetAngle.html)
-
-.
+See [PartingSurfaceFeatureData::OffsetAngle](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~OffsetAngle.html).
 
 ## Examples
 
 [Get and Set Parting Surface Feature Data (C#)](Get_and_Set_Parting_Surface_Feature_Data_Example_CSharp.htm)
-
 [Get and Set Parting Surface Feature Data (VB.NET)](Get_and_Set_Parting_Surface_Feature_Data_Example_VBNET.htm)
-
 [Get and Set Parting Surface Feature Data (VBA)](Get_and_Set_Parting_Surface_Feature_Data_Example_VB.htm)
 
 ## Remarks
 
-This property only applies if you set
-
-[IPartingSurfaceFeatureData::PartingType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingSurfaceFeatureData~PartingType.html)
-
-to swPartingSurfaceMoldParmTangent or swPartingSurfceMoldParmNormal.
+This property only applies if you set [IPartingSurfaceFeatureData::PartingType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingSurfaceFeatureData~PartingType.html) to swPartingSurfaceMoldParmTangent or swPartingSurfceMoldParmNormal.
 
 ## See Also
 
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IPartingSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData_members.html)
 
 ## Availability

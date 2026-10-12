@@ -1,6 +1,5 @@
 ---
-title: "CenterOfMass Object
-Members"
+title: "CenterOfMass Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CenterOfMass_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CenterOfMass_members.html"
 ---
 
-# CenterOfMass Object
-Members
+# CenterOfMass Object Members
 
 ## Public Methods
 

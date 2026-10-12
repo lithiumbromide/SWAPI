@@ -49,9 +49,7 @@ System.bool IsInducedBendingMomentIncluded(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ### Return Value
 
@@ -59,19 +57,11 @@ True to include the induced bending moment, false to not
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::IsInducedBendingMomentIncluded](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~IsInducedBendingMomentIncluded.html)
-
-.
+See [CWEdgeWeldConnector::IsInducedBendingMomentIncluded](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~IsInducedBendingMomentIncluded.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## Remarks
 
@@ -80,9 +70,7 @@ This method is valid only for single sided welds.
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::SetInducedBendingMomentIncluded Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~SetInducedBendingMomentIncluded.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIGtolFrameDatum Interface Members
 
-The following tables list the members exposed by[IPMIGtolFrameDatum](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html).
+The following tables list the members exposed by [IPMIGtolFrameDatum](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ The following tables list the members exposed by[IPMIGtolFrameDatum](SolidWorks.
 ## See Also
 
 [IPMIGtolFrameDatum Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

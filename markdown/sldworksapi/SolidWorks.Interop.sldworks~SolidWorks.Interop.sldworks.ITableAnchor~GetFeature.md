@@ -40,32 +40,19 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object for this table anchor
+[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object for this table anchor
 
 ## VBA Syntax
 
-See
-
-[TableAnchor::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~TableAnchor~GetFeature.html)
-
-.
+See [TableAnchor::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~TableAnchor~GetFeature.html).
 
 ## See Also
 
 [ITableAnchor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnchor.html)
-
 [ITableAnchor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnchor_members.html)
 
 ## Availability

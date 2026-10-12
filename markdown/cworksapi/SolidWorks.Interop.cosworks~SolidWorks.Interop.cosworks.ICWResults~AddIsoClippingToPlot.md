@@ -65,11 +65,7 @@ System.int AddIsoClippingToPlot(
 
 ### Parameters
 
-- `PlotName`: Name of result plot to which to add iso clipping (see
-
-Remarks
-
-)
+- `PlotName`: Name of result plot to which to add iso clipping (see **Remarks**)
 - `NIsoPlanes`: Number of values in IsoValues
 - `IsoValues`: Array of values; each value corresponds to an iso surface to be plotted
 - `BShowClipSurface`: True to plot on iso surface only, false to not
@@ -77,48 +73,31 @@ Remarks
 
 ### Return Value
 
-Error as defined by
-
-[swsIsoClippingErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsIsoClippingErrorCode_e.html)
+Error as defined by [swsIsoClippingErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsIsoClippingErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::AddIsoClippingToPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~AddIsoClippingToPlot.html)
-
-.
+See [CWResults::AddIsoClippingToPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~AddIsoClippingToPlot.html).
 
 ## Remarks
 
-Call[ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)or[ICWResults::IGetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~IGetPlotNames.html)to populate PlotName.
+Call [ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html) or [ICWResults::IGetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~IGetPlotNames.html) to populate PlotName.
 
 For stress plots, iso clipping is available for nodal values only.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::SavePlotsAseDrawings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SavePlotsAseDrawings.html)
-
 [ICWResults::GetPlotCount Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotCount.html)
-
 [ICWResults::CreatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreatePlot.html)
-
 [ICWResults::SetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotColorOptions.html)
-
 [ICWResults::SetPlotDisplayOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotDisplayOptions.html)
-
 [ICWResults::SetPlotPositionFormatOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotPositionFormatOptions.html)
-
 [ICWResults::SetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotSettings.html)
-
 [ICWResults::SetPlotSettingsOptionForHiddenAndExcludedBody Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotSettingsOptionForHiddenAndExcludedBody.html)
-
 [ICWResults::CreateResultsEquationPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateResultsEquationPlot.html)
-
 [ICWResults::GetPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlot.html)
 
 ## Availability

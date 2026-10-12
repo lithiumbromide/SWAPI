@@ -49,9 +49,7 @@ MotionStudyResults^ GetResults(
 
 ### Parameters
 
-- `StudyType`: Type of motion study as defined by
-
-[swMotionStudyType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyType_e.html)
+- `StudyType`: Type of motion study as defined by [swMotionStudyType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyType_e.html)
 
 ### Return Value
 
@@ -59,24 +57,17 @@ MotionStudyResults^ GetResults(
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::GetResults](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetResults.html)
-
-.
+See [MotionStudy::GetResults](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetResults.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
 
 ## Availability

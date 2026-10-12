@@ -48,18 +48,12 @@ Number of notes for this document
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNotes::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes~Count.html)
-
-.
+See [PDMWDocumentNotes::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes~Count.html).
 
 ## See Also
 
 [IPDMWDocumentNotes Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes.html)
-
 [IPDMWDocumentNotes Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes_members.html)
-
 [IPDMWDocumentNotes::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes~Item.html)
 
 ## Availability

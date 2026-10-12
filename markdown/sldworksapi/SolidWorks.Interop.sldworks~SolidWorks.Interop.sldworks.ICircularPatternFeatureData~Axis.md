@@ -45,42 +45,26 @@ property System.Object^ Axis {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Direction entity (see
-
-Remarks
-
-)
+Direction entity (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::Axis](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~Axis.html)
-
-.
+See [CircularPatternFeatureData::Axis](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~Axis.html).
 
 ## Remarks
 
-This property returns Nothing or null if you do not call[ICircularPatternFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~AccessSelections.html)before using this property.
+This property returns Nothing or null if you do not call [ICircularPatternFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~AccessSelections.html) before using this property.
 
-If[ICircularPatternFeatureData::GetAxisType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~GetAxisType.html)returns reference axis, use[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)to get[IRefAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html).
+If [ICircularPatternFeatureData::GetAxisType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~GetAxisType.html) returns reference axis, use [IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) to get [IRefAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html).
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::VarySketch Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~VarySketch.html)
 
 ## Availability

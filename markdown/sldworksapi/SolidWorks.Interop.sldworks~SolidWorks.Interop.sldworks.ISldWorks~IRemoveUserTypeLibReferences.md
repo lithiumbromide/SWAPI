@@ -51,13 +51,7 @@ System.bool IRemoveUserTypeLibReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,19 +62,13 @@ See
 
 True if the user-specified type library references are removed, false if not
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[SldWorks::IRemoveUserTypeLibReferences](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IRemoveUserTypeLibReferences.html)
-
-.
+See [SldWorks::IRemoveUserTypeLibReferences](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IRemoveUserTypeLibReferences.html).
 
 ## Remarks
 
-Before calling this method, call[ISldWorks::GetUserTypeLibReferenceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserTypeLibReferenceCount.html)to get the value for NCount.
+Before calling this method, call [ISldWorks::GetUserTypeLibReferenceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserTypeLibReferenceCount.html) to get the value for NCount.
 
 Any macro recorded after this method is called will not have references to the removed user-specified type libraries.
 
@@ -89,15 +77,10 @@ An add-in can use this method to remove its type library references when the add
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetUserTypeLibReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetUserTypeLibReferences.html)
-
 [ISldWorks::ISetUserTypeLibReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ISetUserTypeLibReferences.html)
-
 [ISldWorks::RemoveUserTypeLibReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveUserTypeLibReferences.html)
-
 [ISldWorks::UserTypeLibReferences Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserTypeLibReferences.html)
 
 ## Availability

@@ -47,25 +47,17 @@ property System.int DirectionType {
 
 ### Property Value
 
-Pressure direction type (see
-
-Remarks
-
-)
+Pressure direction type (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWPressure::DirectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~DirectionType.html)
-
-.
+See [CWPressure::DirectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~DirectionType.html).
 
 ## Requirements
 
-This property is valid only if[ICWPressure::PressureType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~PressureType.html)is[swsPressureType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPressureType_e.html).swsPressureTypeUseReferenceGeometry.
+This property is valid only if [ICWPressure::PressureType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~PressureType.html) is [swsPressureType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPressureType_e.html).swsPressureTypeUseReferenceGeometry.
 
-Pressure direction type depends on the reference geometry that is set using[ICWPressure::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetReferenceGeometry.html).
+Pressure direction type depends on the reference geometry that is set using [ICWPressure::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetReferenceGeometry.html).
 
 | If direction reference is... | Then set this property to a direction as defined in... |
 | --- | --- |
@@ -77,7 +69,6 @@ Pressure direction type depends on the reference geometry that is set using[ICWP
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
 
 ## Availability

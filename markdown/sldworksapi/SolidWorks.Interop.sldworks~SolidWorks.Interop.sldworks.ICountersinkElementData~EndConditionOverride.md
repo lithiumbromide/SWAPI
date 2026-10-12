@@ -45,48 +45,29 @@ property System.bool EndConditionOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to override the end condition, false to not (see
-
-Remarks
-
-)
+True to override the end condition, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CountersinkElementData::EndConditionOverride](ms-its:sldworksapivb6.chm::/sldworks~CountersinkElementData~EndConditionOverride.html)
-
-.
+See [CountersinkElementData::EndConditionOverride](ms-its:sldworksapivb6.chm::/sldworks~CountersinkElementData~EndConditionOverride.html).
 
 ## Examples
 
-See the
-
-[ICountersinkElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData.html)
-
-examples.
+See the [ICountersinkElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData.html) examples.
 
 ## Remarks
 
-This property can be set only if[IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html)is set to false.
+This property can be set only if [IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html) is set to false.
 
-Set this property to true and specify[IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html)to override the end condition.
+Set this property to true and specify [IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html) to override the end condition.
 
 ## See Also
 
 [ICountersinkElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData.html)
-
 [ICountersinkElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData_members.html)
 
 ## Availability

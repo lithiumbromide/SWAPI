@@ -51,13 +51,7 @@ System.bool SetClass(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ Always returns true
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageActiveX::SetClass](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageActiveX~SetClass.html)
-
-.
+See [PropertyManagerPageActiveX::SetClass](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageActiveX~SetClass.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageActiveX](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX.html)
-
-examples.
+See the [IPropertyManagerPageActiveX](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX.html) examples.
 
 ## Remarks
 
@@ -102,12 +88,11 @@ bRet = m_pActiveXControl.SetClass("{8E27C92B-1264-101C-8A2F-040224009C02}", "")
 
 bRet = m_pActiveXControl2.SetClass("{BDD1F04B-858B-11D1-B16A-00C0F0283628}", "")
 
-This method does not check to determine if the creation of the control worked. Instead, the[IPropertyManagerPage2Handler5::OnActiveXControlCreated](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnActiveXControlCreated.html)sends notification when an attempt to create the ActiveX control occurs, regardless if it is created or not. Use the IPropertyManagerPage2Handler5::OnActiveXControlCreated method's return value to indicate what action to take if the creation of the control failed.
+This method does not check to determine if the creation of the control worked. Instead, the [IPropertyManagerPage2Handler5::OnActiveXControlCreated](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnActiveXControlCreated.html) sends notification when an attempt to create the ActiveX control occurs, regardless if it is created or not. Use the IPropertyManagerPage2Handler5::OnActiveXControlCreated method's return value to indicate what action to take if the creation of the control failed.
 
 ## See Also
 
 [IPropertyManagerPageActiveX Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX.html)
-
 [IPropertyManagerPageActiveX Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageActiveX_members.html)
 
 ## Availability

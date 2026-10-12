@@ -11,7 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Gets whether this component is a virtual component.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -53,11 +53,7 @@ True if this component is virtual, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent3::IsVirtual](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent3~IsVirtual.html)
-
-.
+See [SwDMComponent3::IsVirtual](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent3~IsVirtual.html).
 
 ## Remarks
 
@@ -66,7 +62,6 @@ This property is only valid for assemblies saved in SOLIDWORKS 2008 and later. S
 ## See Also
 
 [ISwDMComponent3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent3.html)
-
 [ISwDMComponent3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent3_members.html)
 
 ## Availability

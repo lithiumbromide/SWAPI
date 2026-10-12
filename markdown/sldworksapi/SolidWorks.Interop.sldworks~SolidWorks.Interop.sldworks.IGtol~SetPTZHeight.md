@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # SetPTZHeight Method (IGtol)
 
-Obsolete. Superseded by
-
-[IGtol::SetPTZHeight2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight2.html)
-
-.
+Obsolete. Superseded by [IGtol::SetPTZHeight2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight2.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetPTZHeight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetPTZHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPTZHeight.html)
-
-.
+See [Gtol::SetPTZHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPTZHeight.html).
 
 ## Remarks
 
@@ -82,7 +68,5 @@ The projected tolerance zone (PTZ) displays in the first tolerance window of the
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetPTZHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight.html)

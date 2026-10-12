@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Temporary_Axis_and_Its_Reference_Face_Example_CSharp.ht
 
 # Get Temporary Axis and Its Reference Face Example (C#)
 
-This example shows how to get a temporary axis and its reference
-face.
+This example shows how to get a temporary axis and its reference face.
 
 ```
 //---------------------------------------------------

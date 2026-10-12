@@ -40,36 +40,20 @@ System.object GetAllAssemblyDecalProperties()
 System.Object^ GetAllAssemblyDecalProperties();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-objects
+Array of [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) objects
 
 ## VBA Syntax
 
-See
-
-[Face2::GetAllAssemblyDecalProperties](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetAllAssemblyDecalProperties.html)
-
-.
+See [Face2::GetAllAssemblyDecalProperties](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetAllAssemblyDecalProperties.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetAllDecalProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetAllDecalProperties.html)
 
 ## Availability

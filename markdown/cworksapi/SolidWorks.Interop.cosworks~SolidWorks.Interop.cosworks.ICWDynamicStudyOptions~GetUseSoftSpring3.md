@@ -50,7 +50,7 @@ System.int GetUseSoftSpring3(
 ### Parameters
 
 - `BUseSoftSpring`: - -1 or true = Use soft spring to stabilize model
-- 0 or false = Do not use soft spring
+  - 0 or false = Do not use soft spring
 
 ### Return Value
 
@@ -59,7 +59,6 @@ System.int GetUseSoftSpring3(
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

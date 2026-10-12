@@ -49,28 +49,19 @@ System.int AddDefaultOptimizationStudyPlot(
 
 ### Parameters
 
-- `NOptimizationResultType`: Type of optimization study result to plot as defined by
-
-[swsOptimizationStudyResultType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsOptimizationStudyResultType_e.html)
+- `NOptimizationResultType`: Type of optimization study result to plot as defined by [swsOptimizationStudyResultType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsOptimizationStudyResultType_e.html)
 
 ### Return Value
 
-Error code as defined by
-
-[swsDefaultOptimizationDesignStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultOptimizationDesignStudyPlotResultError_e.html)
+Error code as defined by [swsDefaultOptimizationDesignStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultOptimizationDesignStudyPlotResultError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::AddDefaultOptimizationStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultOptimizationStudyPlot.html)
-
-.
+See [CWModelDoc::AddDefaultOptimizationStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultOptimizationStudyPlot.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
 
 ## Availability

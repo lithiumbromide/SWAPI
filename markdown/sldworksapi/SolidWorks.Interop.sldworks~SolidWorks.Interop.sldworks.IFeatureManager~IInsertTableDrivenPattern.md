@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IInsertTableDrivenPattern Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertTableDrivenPattern2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertTableDrivenPattern2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertTableDrivenPattern2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertTableDrivenPattern2.html).
 
 ## Syntax
 
@@ -67,32 +63,14 @@ Feature^ IInsertTableDrivenPattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Name of the file that has the coordinates information; can be an empty string (see
-
-Remarks
-
-)
+- `FileName`: Name of the file that has the coordinates information; can be an empty string (see **Remarks**)
 - `Count`: Number of points specified
-- `PointArr`: Array of x, y coordinate points (see
-
-Remarks
-
-)
-- `UseCentrod`: True to use the centroid of the seed feature, face, or body; false to use another point as the reference point (see
-
-Remarks
-
-)
+- `PointArr`: Array of x, y coordinate points (see **Remarks**)
+- `UseCentrod`: True to use the centroid of the seed feature, face, or body; false to use another point as the reference point (see **Remarks**)
 - `GeomPatt`: True to pattern the geometry, false to not
 
 ### Return Value
@@ -101,26 +79,13 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::IInsertTableDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~IInsertTableDrivenPattern.html)
-
-.
+See [FeatureManager::IInsertTableDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~IInsertTableDrivenPattern.html).
 
 ## Remarks
 
 You can specify:
 
-- coordinates for the input points in system units in a
-
-  .sldptab
-
-  or
-
-  .txt
-
-  file for FileName.
-
+- coordinates for the input points in system units in a **.sldptab** or **.txt** file for FileName.
   - or -
 - input points in system units in PointArr. Because each point has two coordinates (x, y), the size of PointArr is (2 x number_of_points).
 
@@ -139,11 +104,8 @@ See the SOLIDWORKS Help for more information about table-driven patterns.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [IFeatureManager::InsertTableDrivenPattern Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertTableDrivenPattern.html)
 
 ## Availability

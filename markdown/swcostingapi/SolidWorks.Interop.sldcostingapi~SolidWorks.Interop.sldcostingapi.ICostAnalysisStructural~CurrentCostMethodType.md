@@ -47,40 +47,24 @@ property System.int CurrentCostMethodType {
 
 ### Property Value
 
-Type of structural stock cost method as defined by
-
-[swcStructuralStockCostType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStructuralStockCostType_e.html)
+Type of structural stock cost method as defined by [swcStructuralStockCostType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStructuralStockCostType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::CurrentCostMethodType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentCostMethodType.html)
-
-.
+See [CostAnalysisStructural::CurrentCostMethodType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentCostMethodType.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## Remarks
 
-Setting of a structural stock cost method must match the data in the template. For example, if the
-
-cost per unit length
-
-option is not available in the template, then setting this method to swcStructuralStockCostType_e.swcStructuralStockCost_PerUnitLength fails.
+Setting of a structural stock cost method must match the data in the template. For example, if the **cost per unit length** option is not available in the template, then setting this method to swcStructuralStockCostType_e.swcStructuralStockCost_PerUnitLength fails.
 
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::CurrentStockUnitLength Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentStockUnitLength.html)
 
 ## Availability

@@ -46,34 +46,19 @@ void ApplyTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Xform`: Pointer to
-
-[IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-object
+- `Xform`: Pointer to [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) object
 
 ## VBA Syntax
 
-See
-
-[Curve::ApplyTransform](ms-its:sldworksapivb6.chm::/sldworks~Curve~ApplyTransform.html)
-
-.
+See [Curve::ApplyTransform](ms-its:sldworksapivb6.chm::/sldworks~Curve~ApplyTransform.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

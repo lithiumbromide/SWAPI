@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # GetGroupExpanded Method (IPropertyManagerPage)
 
-Obs
-
-olete. Not superseded.
+Obsolete. Not superseded.
 
 ## Syntax
 
@@ -53,13 +51,7 @@ System.bool GetGroupExpanded(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage::GetGroupExpanded](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~GetGroupExpanded.html)
-
-.
+See [PropertyManagerPage::GetGroupExpanded](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~GetGroupExpanded.html).
 
 ## See Also
 
 [IPropertyManagerPage Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage.html)
-
 [IPropertyManagerPage Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "EquationMgr Object
-Members"
+title: "EquationMgr Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EquationMgr_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EquationMgr_members.html"
 ---
 
-# EquationMgr Object
-Members
+# EquationMgr Object Members
 
 ## Public Methods
 

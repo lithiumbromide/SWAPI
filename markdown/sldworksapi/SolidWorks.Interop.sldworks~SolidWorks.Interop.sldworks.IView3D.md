@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 Allows access to a 3D View of a part or assembly.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class IView3D
 
 ## VBA Syntax
 
-See
-
-[View3D](ms-its:sldworksapivb6.chm::/sldworks~View3D.html)
-
-.
+See [View3D](ms-its:sldworksapivb6.chm::/sldworks~View3D.html).
 
 ## Examples
 
 [Capture 3D View (VBA)](Capture_3DView_Example_VB.htm)
-
 [Capture 3D View (VB.NET)](Capture_3DView_Example_VBNET.htm)
-
 [Capture 3D View (C#)](Capture_3DView_Example_CSharp.htm)
 
 ## Remarks
 
-This interface supports SOLIDWORKS Model Based Definition (MBD), which is an integrated drawingless manufacturing solution for SOLIDWORKS. Use[ISldWorks::LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html)to load the MBD add-in.
+This interface supports SOLIDWORKS Model Based Definition (MBD), which is an integrated drawingless manufacturing solution for SOLIDWORKS. Use [ISldWorks::LoadAddIn](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html) to load the MBD add-in.
 
 See the SOLIDWORKS Help for details about MBD.
 
@@ -76,13 +70,8 @@ See the SOLIDWORKS Help for details about MBD.
 ## See Also
 
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::Get3DViewCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewCount.html)
-
 [IModelDocExtension::Get3DViewNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewNames.html)
-
 [IModelDocExtension::Refresh3DViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Refresh3DViews.html)
-
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)

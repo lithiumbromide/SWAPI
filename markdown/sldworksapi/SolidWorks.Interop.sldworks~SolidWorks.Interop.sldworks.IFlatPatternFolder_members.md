@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFl
 
 # IFlatPatternFolder Interface Members
 
-The following tables list the members exposed by[IFlatPatternFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder.html).
+The following tables list the members exposed by [IFlatPatternFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IFlatPatternFolder](SolidWorks.
 ## See Also
 
 [IFlatPatternFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

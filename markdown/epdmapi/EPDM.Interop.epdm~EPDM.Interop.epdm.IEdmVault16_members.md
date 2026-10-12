@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16_members.html"
 
 # IEdmVault16 Interface Members
 
-The following tables list the members exposed by[IEdmVault16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16.html).
+The following tables list the members exposed by [IEdmVault16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmVault16](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault16 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Language_and_Localized_Menu_Names_Example_VB.htm"
 
 # Get Language and Localized Menu Names Example (VBA)
 
-This example shows how to get the current language used by the SOLIDWORKS
-application and the names of some of the menus in the local language.
+This example shows how to get the current language used by the SOLIDWORKS Design application and the names of some of the menus in the local language.
 
 ```
 '----------------------------------------------

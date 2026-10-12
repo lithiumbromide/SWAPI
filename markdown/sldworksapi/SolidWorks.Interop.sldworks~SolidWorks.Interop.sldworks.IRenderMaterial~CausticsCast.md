@@ -45,13 +45,7 @@ property System.bool CausticsCast {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if specular materials reflect caustic photons, false if not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::CausticsCast](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~CausticsCast.html)
-
-.
+See [RenderMaterial::CausticsCast](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~CausticsCast.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool ExcludeFasteners {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to exclude fasteners, false to include them
 
 ## VBA Syntax
 
-See
-
-[DrSection::ExcludeFasteners](ms-its:sldworksapivb6.chm::/sldworks~DrSection~ExcludeFasteners.html)
-
-.
+See [DrSection::ExcludeFasteners](ms-its:sldworksapivb6.chm::/sldworks~DrSection~ExcludeFasteners.html).
 
 ## Remarks
 
-Call
-
-[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html)
-
-after calling this property.
+Call [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html) after calling this property.
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
 
 ## Availability

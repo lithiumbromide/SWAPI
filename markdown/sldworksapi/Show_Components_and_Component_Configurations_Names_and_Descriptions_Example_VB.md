@@ -9,8 +9,7 @@ source: "sldworksapi/Show_Components_and_Component_Configurations_Names_and_Desc
 
 # Show Components and Component Configurations Names and Descriptions Example (VBA)
 
-This example shows how to show and hide component and configuration
-names and descriptions in the FeatureManager design tree.
+This example shows how to show and hide component and configuration names and descriptions in the FeatureManager design tree.
 
 ```
 '-------------------------------------------------------

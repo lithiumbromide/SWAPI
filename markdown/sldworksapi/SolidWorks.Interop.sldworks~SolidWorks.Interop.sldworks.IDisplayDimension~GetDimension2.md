@@ -47,18 +47,12 @@ Dimension^ GetDimension2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: - 0 to get the first chamfer display dimension
-- 1 to get the second chamfer display dimension
+  - 1 to get the second chamfer display dimension
 
 ### Return Value
 
@@ -66,18 +60,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetDimension2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDimension2.html)
-
-.
+See [DisplayDimension::GetDimension2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDimension2.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## Remarks
@@ -89,7 +77,6 @@ SOLIDWORKS can display a dimension more than once. For example, a base-extrude d
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

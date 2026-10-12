@@ -40,13 +40,7 @@ System.int GetChildrenCount()
 System.int GetChildrenCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of child components for this drawing component
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::GetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~GetChildrenCount.html)
-
-.
+See [DrawingComponent::GetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~GetChildrenCount.html).
 
 ## Examples
 
@@ -66,14 +56,12 @@ See
 
 ## Remarks
 
-Call this method before calling[IDrawingComponent::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~IGetChildren.html).
+Call this method before calling [IDrawingComponent::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~IGetChildren.html).
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::GetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~GetChildren.html)
 
 ## Availability

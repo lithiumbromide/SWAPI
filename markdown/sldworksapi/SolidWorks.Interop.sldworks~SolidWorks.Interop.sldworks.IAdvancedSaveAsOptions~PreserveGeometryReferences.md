@@ -41,13 +41,7 @@ property System.bool PreserveGeometryReferences {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -55,16 +49,11 @@ True to preserve geometry references, false to not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::PreserveGeometryReferences](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~PreserveGeometryReferences.html)
-
-.
+See [AdvancedSaveAsOptions::PreserveGeometryReferences](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~PreserveGeometryReferences.html).
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

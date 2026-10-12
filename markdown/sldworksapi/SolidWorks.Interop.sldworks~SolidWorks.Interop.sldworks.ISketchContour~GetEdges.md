@@ -40,27 +40,15 @@ System.object GetEdges()
 System.Object^ GetEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of the
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+Array of the [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[SketchContour::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~GetEdges.html)
-
-.
+See [SketchContour::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~GetEdges.html).
 
 ## Examples
 
@@ -69,11 +57,8 @@ See
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
-
 [ISketchContour::GetEdgesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour~GetEdgesCount.html)
-
 [ISketchContour::IGetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour~IGetEdges.html)
 
 ## Availability

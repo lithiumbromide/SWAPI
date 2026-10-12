@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 Allows access to the contents of feature folders in the FeatureManager design tree.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class IFeatureFolder
 
 ## VBA Syntax
 
-See
-
-[FeatureFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureFolder.html)
-
-.
+See [FeatureFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureFolder.html).
 
 ## Examples
 
 [Get Contents of FeatureFolder (C#)](Get_Contents_of_FeatureFolder_Example_CSharp.htm)
-
 [Get Contents of FeatureFolder (VB.NET)](Get_Contents_of_FeatureFolder_Example_VBNET.htm)
-
 [Get Contents of FeatureFolder (VBA)](Get_Contents_of_FeatureFolder_Example_VB.htm)
 
 ## Accessors
 
-IFeature::GetSpecificFeature2
+[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ IFeature::GetSpecificFeature2
 ## See Also
 
 [IFeatureFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFeatureTreeFolder2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html)

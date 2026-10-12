@@ -35,14 +35,11 @@ property IEdmUser5^ LockedByUser {
 
 ### Property Value
 
-[User](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html)
-
-who checked out the file
+[User](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html) who checked out the file
 
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

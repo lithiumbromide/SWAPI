@@ -40,13 +40,7 @@ System.object GetArcPoints()
 System.Object^ GetArcPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Array of start, mid, and end point x and y coordinates
 
 ## VBA Syntax
 
-See
-
-[DowelSymbol::GetArcPoints](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~GetArcPoints.html)
-
-.
+See [DowelSymbol::GetArcPoints](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~GetArcPoints.html).
 
 ## Remarks
 
-If the arc segment is a complete circle, the start and end points are the same, and the midpoint is at the 180position.
+If the arc segment is a complete circle, the start and end points are the same, and the midpoint is at the 180 position.
 
 ## See Also
 
 [IDowelSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html)
-
 [IDowelSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol_members.html)
-
 [IDowelSymbol::IGetArcPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol~IGetArcPoints.html)
 
 ## Availability

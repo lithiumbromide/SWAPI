@@ -39,36 +39,21 @@ void CreateNewWindow()
 void CreateNewWindow();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CreateNewWindow](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CreateNewWindow.html)
-
-.
+See [SldWorks::CreateNewWindow](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CreateNewWindow.html).
 
 ## Examples
 
 [Create and Arrange Windows (VBA)](Create_and_Arrange_Windows_Example_VB.htm)
-
 [Switch Documents (C#)](Switch_Documents_Example_CSharp.htm)
-
 [Switch Documents (VB.NET)](Switch_Documents_Example_VBNET.htm)
-
 [Switch Documents (VBA)](Switch_Documents_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ArrangeWindows Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ArrangeWindows.html)

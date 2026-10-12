@@ -45,6 +45,7 @@ public enum class swPartnerEntitlementStatus_e : public System.Enum
 | swPEAddinGUIDMismatch | 4 or 0x4 |
 | swPEAddinNameMismatch | 2 or 0x2 |
 | swPEFail | 1 or 0x1 |
+| swPELicenseError | 64 or 0x40 |
 | swPELicenseExpired | 16 or 0x10 |
 | swPESuccess | 0 or 0x0 |
 | swPETierMismatch | 32 or 0x20 |

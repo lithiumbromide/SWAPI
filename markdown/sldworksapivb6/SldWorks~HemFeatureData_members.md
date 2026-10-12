@@ -1,6 +1,5 @@
 ---
-title: "HemFeatureData Object
-Members"
+title: "HemFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "HemFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~HemFeatureData_members.html"
 ---
 
-# HemFeatureData Object
-Members
+# HemFeatureData Object Members
 
 ## Public Methods
 

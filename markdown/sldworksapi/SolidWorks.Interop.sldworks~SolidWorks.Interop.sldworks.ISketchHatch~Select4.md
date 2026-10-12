@@ -51,20 +51,12 @@ System.bool Select4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the selection to the selection list, false replaces the selection list with this selection
-- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -72,18 +64,12 @@ True if the sketch hatch is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Select4](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Select4.html)
-
-.
+See [SketchHatch::Select4](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Select4.html).
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
-
 [ISketchHatch::DeSelect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch~DeSelect.html)
 
 ## Availability

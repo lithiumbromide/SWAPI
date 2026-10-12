@@ -51,22 +51,15 @@ void AddFileShared(
 
 - S_OK: The method successfully executed.
 - E_EDM_NAME_ALREADY_EXISTS: There is already a file with the same name in this folder.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  .EdmCmd_PreShare hooks did not permit the operation.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_PreShare hooks did not permit the operation.
 - E_EDM_FILE_NOT_FOUND: The source file was not found. (The ID is invalid.)
 - E_EDM_PERMISSION_DENIED: The user lacks permission to share the specified file.
 
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::AddFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html)
-
 [IEdmFolder5::CopyFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html)
 
 ## Availability

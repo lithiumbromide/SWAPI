@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to the collision detection manager.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ICollisionDetectionManager
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager.html)
-
-.
+See [CollisionDetectionManager](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager.html).
 
 ## Examples
 
@@ -54,7 +50,7 @@ See
 'This example demonstrates how to set up one collision detection frame.
 
 '********************************************************************
-'1. Open`public_documents`**\samples\tutorial\api\Spindleassem.sldasm**.
+'1. Open `public_documents`**\samples\tutorial\api\Spindleassem.sldasm**.
 '2. Run the macro below.
 '********************************************************************
 
@@ -91,7 +87,7 @@ Set swDoc = Part
 Set cdm = swApp.**GetCollisionDetectionManager**
 longstatus = cdm.**SetAssembly**(swDoc)
 
-cdm.**GraphicsRedrawEnabled**= True
+cdm.**GraphicsRedrawEnabled** = True
 
 Set cdg = cdm.**CreateGroup**
 Set cdg2 = cdm.**CreateGroup**
@@ -190,24 +186,16 @@ End Sub
 
 ## Remarks
 
-The purpose of this interface,[ICollisionDetectionGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html), and[ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)is to provide dynamic, high-efficiency collision detection among groups of components. Collision detection is performed exclusively between collision groups: neither within collision groups nor outside of them.
+The purpose of this interface, [ICollisionDetectionGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html), and [ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html) is to provide dynamic, high-efficiency collision detection among groups of components. Collision detection is performed exclusively between collision groups: neither within collision groups nor outside of them.
 
-Please use[IInterferenceDetectionMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)if you need to perform static interference detection between components.
+Please use [IInterferenceDetectionMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html) if you need to perform static interference detection between components.
 
 Collision detection may be thought of as a series of collision detection frames. Each collision detection frame begins by setting a target assembly and two or more collision groups of components that are transformed to move to precise locations in model space. A collision detection frame may or may not end with a collision.
 
 **NOTE**: If a collision is detected, an ICollision object is created. Be aware that ICollision objects are volatile and should not be cached for later review. ICollision objects are invalidated when a new collision detection frame begins or whenever you:
 
-- call
-
-  [ICollisionDetectionManager::IsCollisionPresent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~IsCollisionPresent.html)
-
-  .
-- call
-
-  [ICollisionDetectionManager::GetCollisions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetCollisions.html)
-
-  .
+- call [ICollisionDetectionManager::IsCollisionPresent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~IsCollisionPresent.html).
+- call [ICollisionDetectionManager::GetCollisions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetCollisions.html).
 - apply new transforms to collision group components.
 - create new or modify existing collision groups.
 - set a new target assembly.
@@ -216,26 +204,10 @@ Because you cannot save ICollision objects for later review, you should record t
 
 The workflow to detect collisions:
 
-1. Call
-
-  [ICollisionDetectionManager::SetAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~SetAssembly.html)
-
-  to set the target assembly for collision detection.
-2. Call
-
-  [ICollisionDetectionManager::CreateGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~CreateGroup.html)
-
-  to create two collision groups.
-3. Call
-
-  [ICollisionDetectionGroup::SetComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup~SetComponents.html)
-
-  to populate each collision group.
-4. Use
-
-  [ICollisionDetectionGroup::ApplyTransforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup~ApplyTransforms.html)
-
-  to transform components into working positions.
+1. Call [ICollisionDetectionManager::SetAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~SetAssembly.html) to set the target assembly for collision detection.
+2. Call [ICollisionDetectionManager::CreateGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~CreateGroup.html) to create two collision groups.
+3. Call [ICollisionDetectionGroup::SetComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup~SetComponents.html) to populate each collision group.
+4. Use [ICollisionDetectionGroup::ApplyTransforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup~ApplyTransforms.html) to transform components into working positions.
 5. Call ICollisionDetectionManager::IsCollisionPresent and/or ICollisionDetectionManager::GetCollisions to detect collisions.
 6. Inspect any resulting ICollision objects. (See the NOTE above.)
 7. Repeat steps 4-6 if you want to apply new transforms for the next collision detection frame.
@@ -253,5 +225,4 @@ The workflow to detect collisions:
 ## See Also
 
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

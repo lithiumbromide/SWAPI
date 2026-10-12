@@ -1,6 +1,5 @@
 ---
-title: "IDimPatternFeatureData Object
-Members"
+title: "IDimPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IDimPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IDimPatternFeatureData_members.html"
 ---
 
-# IDimPatternFeatureData Object
-Members
+# IDimPatternFeatureData Object Members
 
 ## Public Methods
 

@@ -42,13 +42,7 @@ property System.int FastenerHoleCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,30 +50,18 @@ Number of fastener holes
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData2::FastenerHoleCount](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~FastenerHoleCount.html)
-
-.
+See [HoleSeriesFeatureData2::FastenerHoleCount](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~FastenerHoleCount.html).
 
 ## Examples
 
-See the examples in
-
-[IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
-.
+See the examples in [IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
 [IHoleSeriesFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2_members.html)
-
 [IHoleSeriesFeatureData2::FastenerBottomHoleType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2~FastenerBottomHoleType.html)
-
 [IHoleSeriesFeatureData2::FastenerDefaultUnits Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2~FastenerDefaultUnits.html)
-
 [IHoleSeriesFeatureData2::FastenerTopHoleType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2~FastenerTopHoleType.html)
 
 ## Availability

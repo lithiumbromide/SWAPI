@@ -45,40 +45,23 @@ property System.int Standard {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread standard as defined in
-
-[swCosmeticStandardType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticStandardType_e.html)
+Thread standard as defined in [swCosmeticStandardType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticStandardType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::Standard](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~Standard.html)
-
-.
+See [CosmeticThreadFeatureData::Standard](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~Standard.html).
 
 ## Examples
 
-See the
-
-[ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
-examples.
+See the [ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html) examples.
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
 
 ## Availability

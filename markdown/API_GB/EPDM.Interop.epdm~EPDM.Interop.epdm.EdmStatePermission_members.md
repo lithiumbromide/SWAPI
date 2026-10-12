@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.h
 
 # EdmStatePermission Structure Members
 
-The following tables list the members exposed by[EdmStatePermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html).
+The following tables list the members exposed by [EdmStatePermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmStatePermission](EPDM.Intero
 ## See Also
 
 [EdmStatePermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

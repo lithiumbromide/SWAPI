@@ -40,13 +40,7 @@ System.string GetGroupName()
 System.String^ GetGroupName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Name of the group
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutGroupData::GetGroupName](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutGroupData~GetGroupName.html)
-
-.
+See [SMNormalCutGroupData::GetGroupName](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutGroupData~GetGroupName.html).
 
 ## See Also
 
 [ISMNormalCutGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData.html)
-
 [ISMNormalCutGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData_members.html)
 
 ## Availability

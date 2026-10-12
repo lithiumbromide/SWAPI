@@ -51,13 +51,7 @@ System.Object^ GetSplineParams5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,38 +64,24 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSplineParams5](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParams5.html)
-
-.
+See [Sketch::GetSplineParams5](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParams5.html).
 
 ## Examples
 
 [Get Each Spline's Parameters (C#)](Get_Each_Splines_Parameters_Example_CSharp.htm)
-
 [Get Each Spline's Parameters (VB.NET)](Get_Each_Splines_Parameters_Example_VBNET.htm)
-
 [Get Each Spline's Parameters (VBA)](Get_Each_Splines_Parameters_Example_VB.htm)
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSplineParamsCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplineParamsCount.html)
-
 [ISketch::GetSplines Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplines.html)
-
 [ISketch::IGetSplines Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSplines.html)
-
 [ISketch::GetSplinesInterpolate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplinesInterpolate.html)
-
 [ISketch::GetSplineInterpolateCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplineInterpolateCount.html)
-
 [ISketch::GetSplineCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplineCount.html)
-
 [ISketch::IGetSplinesInterpolate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSplinesInterpolate.html)
 
 ## Availability

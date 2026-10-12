@@ -43,17 +43,11 @@ property System.int TranslationUnit {
 
 ### Property Value
 
-Units of translation as defined by
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+Units of translation as defined by [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::TranslationUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~TranslationUnit.html)
-
-.
+See [CWRemoteLoad::TranslationUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~TranslationUnit.html).
 
 ## Examples
 
@@ -61,22 +55,12 @@ See
 
 ## Remarks
 
-This property is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)
-
-returns true. If it returns false, use
-
-[ICWRemoteLoad::ForceOrTranslationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceOrTranslationUnit.html)
-
-.
+This property is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns true. If it returns false, use [ICWRemoteLoad::ForceOrTranslationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceOrTranslationUnit.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetForceOrTranslationValuesEx Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValuesEx.html)
 
 ## Availability

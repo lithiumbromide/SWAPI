@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetTextAngleAtIndex Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetTextAngleAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextAngleAtIndex.html)
-
-.
+Obsolete. Superseded by [INote::GetTextAngleAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextAngleAtIndex.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double GetTextAngleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetTextAngleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextAngleAtIndex.html)
-
-.
+See [CustomSymbol::GetTextAngleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextAngleAtIndex.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_ReferencedFilePreNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by DSldWorksEvents_ReferencedFilePreNotify2EventHandler .
+Obsolete. Superseded by [DSldWorksEvents_ReferencedFilePreNotify2EventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_ReferencedFilePreNotify2EventHandler.html).
 
 ## Syntax
 
@@ -43,13 +43,7 @@ public delegate System.int DSldWorksEvents_ReferencedFilePreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,19 +51,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ReferencedFilePreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~ReferencedFilePreNotify_EV.html)
-
-.
+See [ReferencedFilePreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~ReferencedFilePreNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppReferencedFilePreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppReferencedFilePreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

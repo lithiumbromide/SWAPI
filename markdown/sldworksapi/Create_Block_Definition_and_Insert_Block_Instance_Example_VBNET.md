@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Block_Definition_and_Insert_Block_Instance_Example_V
 
 # Create Block Definition and Insert Block Instance Example (VB.NET)
 
-This example shows how to create a block definition and insert a block
-instance in a drawing.
+This example shows how to create a block definition and insert a block instance in a drawing.
 
 ```vb
   '---------------------------------------------------------------------------

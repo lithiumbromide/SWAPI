@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetCustomInfoNames2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetCustomInfoNames2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetCustomInfoNames2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetCustomInfoNames2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetCustomInfoNames2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetCustomInfoNames2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetCustomInfoNames2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetCustomInfoNames2.html)
-
-.
+See [ModelDoc::GetCustomInfoNames2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetCustomInfoNames2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

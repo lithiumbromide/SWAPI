@@ -58,16 +58,8 @@ EdmStrLst5^ BrowseForFile(
 ### Parameters
 
 - `hParentWnd`: Parent window handle
-- `lEdmBrowseFlags`: Optional combination of
-
-[EdmBrowseFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseFlag.html)
-
-bits
-- `bsFilter`: Optional filter string that limits the types of files displayed in the dialog box (see
-
-Remarks
-
-)
+- `lEdmBrowseFlags`: Optional combination of [EdmBrowseFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseFlag.html) bits
+- `bsFilter`: Optional filter string that limits the types of files displayed in the dialog box (see **Remarks**)
 - `bsDefaultExtension`: Optional default file extension to append if the user does not specify an extension
 - `bsDefaultFileName`: Optional default file name to display in the file name field of the dialog box
 - `bsDefaultFolder`: Optional path to the folder on which the dialog box should initially open
@@ -75,35 +67,20 @@ Remarks
 
 ### Return Value
 
-[IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html)
-
-; list of paths to multi-selected files; Null if the user clicks
-
-Cancel
-
-(see
-
-Remarks
-
-)
+[IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html); list of paths to multi-selected files; Null if the user clicks **Cancel** (see **Remarks**)
 
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
-
 [Access Check-in Flags in Check out Dialog (VB.NET)](Access_Check-in_Flags_in_Check_in_Dialog_Example_VBNET.htm)
-
 [Access Check-in Flags in Check out Dialog (C#)](Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp.htm)
-
 [Prevent Admin from Checking In File (C#)](Prevent_Admin_from_Checking_In_File_Example_CSharp.htm)
-
 [Prevent Admin from Checking In File (VB.NET)](Prevent_Admin_from_Checking_In_File_Example_VBNET.htm)
 
 ## Remarks
 
-If bsFilter is not empty, it contains the options for the**Files of type**combobox dropdown in the dialog box. Each option consists of a pair of substrings, where the first substring is the description that appears in the combobox dropdown:
+If bsFilter is not empty, it contains the options for the **Files of type** combobox dropdown in the dialog box. Each option consists of a pair of substrings, where the first substring is the description that appears in the combobox dropdown:
 
 All Image Files (*.JPG,*.BMP)
 
@@ -124,9 +101,7 @@ For example, to give the combobox dropdown four options, including JPG and BMP f
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
-
 [IEdmVault5::BrowseForFolder Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~BrowseForFolder.html)
 
 ## Availability

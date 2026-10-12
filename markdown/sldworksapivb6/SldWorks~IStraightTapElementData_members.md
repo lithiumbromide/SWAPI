@@ -1,6 +1,5 @@
 ---
-title: "IStraightTapElementData Object
-Members"
+title: "IStraightTapElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IStraightTapElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IStraightTapElementData_members.html"
 ---
 
-# IStraightTapElementData Object
-Members
+# IStraightTapElementData Object Members
 
 ## Public Properties
 

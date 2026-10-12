@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DMo
 
 # DModelViewEvents_PrintNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by
-
-[DModelViewEvents_PrintNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_PrintNotify2EventHandler.html)
-
-.
+Obsolete. Superseded by [DModelViewEvents_PrintNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_PrintNotify2EventHandler.html).
 
 ## Syntax
 
@@ -47,13 +43,7 @@ public delegate System.int DModelViewEvents_PrintNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[PrintNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PrintNotify_EV.html)
-
-.
+See [PrintNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PrintNotify_EV.html).
 
 ## Remarks
 
 Always return S_OK in the swViewPrintNotify event handler.
 
-If developing a C++ application, use[swViewPrintNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewPrintNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # SetFavMaterial Method (ICWBeamBody)
 
-Obsolete. Superseded by
-
-[ICWBeamBody::SetFavMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetFavMaterial2.html)
-
-.
+Obsolete. Superseded by [ICWBeamBody::SetFavMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetFavMaterial2.html).
 
 ## Syntax
 
@@ -53,11 +49,7 @@ System.int SetFavMaterial(
 
 ### Parameters
 
-- `NFav`: 1 <= index of material in favorites list <= 100 (see
-
-Remarks
-
-)
+- `NFav`: 1 <= index of material in favorites list <= 100 (see **Remarks**)
 
 ### Return Value
 
@@ -65,28 +57,17 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::SetFavMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetFavMaterial.html)
-
-.
+See [CWBeamBody::SetFavMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetFavMaterial.html).
 
 ## Remarks
 
-The list of material favorites appears when you right-click a component in the Simulation study tree and click
-
-Apply Favorite Material
-
-.
+The list of material favorites appears when you right-click a component in the Simulation study tree and click **Apply Favorite Material**.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::SetBeamBodyMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetBeamBodyMaterial.html)
-
 [ICWBeamBody::SetLibraryMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetLibraryMaterial.html)
 
 ## Availability

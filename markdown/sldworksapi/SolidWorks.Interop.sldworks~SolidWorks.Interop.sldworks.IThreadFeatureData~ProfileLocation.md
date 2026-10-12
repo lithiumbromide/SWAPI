@@ -45,36 +45,19 @@ property System.Object^ ProfileLocation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
-or
-
-[vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-in the thread profile sketch where to start the thread helix
+[Point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html) or [vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html) in the thread profile sketch where to start the thread helix
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::ProfileLocation](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ProfileLocation.html)
-
-.
+See [ThreadFeatureData::ProfileLocation](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ProfileLocation.html).
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

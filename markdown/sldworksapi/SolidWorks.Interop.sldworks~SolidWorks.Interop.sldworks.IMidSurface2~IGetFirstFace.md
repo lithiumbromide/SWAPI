@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # IGetFirstFace Method (IMidSurface2)
 
-Obsolete. Superseded by
-
-[IMidSurface3::IGetFirstFace.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetFirstFace.html)
+Obsolete. Superseded by [IMidSurface3::IGetFirstFace.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetFirstFace.html)
 
 ## Syntax
 
@@ -57,37 +55,21 @@ Face2^ IGetFirstFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FromFace1Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original part body used in generating the neutral face
-- `FromFace2Disp`: Parallel
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to FromFace1Disp on the original part body used in generating the neutral face
+- `FromFace1Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original part body used in generating the neutral face
+- `FromFace2Disp`: Parallel [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to FromFace1Disp on the original part body used in generating the neutral face
 - `Thickness`: Distance between the two parallel faces, FromFace1Disp and FromFace2Disp
 
 ### Return Value
 
-First[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)in this midsurface feature
+First [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) in this midsurface feature
 
 ## VBA Syntax
 
-See
-
-[MidSurface2::IGetFirstFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~IGetFirstFace.html)
-
-.
+See [MidSurface2::IGetFirstFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~IGetFirstFace.html).
 
 ## Remarks
 
@@ -95,18 +77,14 @@ See
 - The next return value is the thickness (in meters) between the two parallel faces from the original part body.
 - The last return value is the first face in this midsurface feature.
 
-Use[IMidSurface2::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~IGetNextFace.html)to get the next neutral face in this midsurface feature.
+Use [IMidSurface2::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~IGetNextFace.html) to get the next neutral face in this midsurface feature.
 
 ## See Also
 
 [IMidSurface2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html)
-
 [IMidSurface2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2_members.html)
-
 [IMidSurface2::GetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~GetFirstFace.html)
-
 [IMidSurface2::GetNextFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~GetNextFace.html)
-
 [IMidSurface2::GetFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~GetFaceCount.html)
 
 ## Availability

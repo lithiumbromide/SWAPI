@@ -51,19 +51,11 @@ System.Object^ GetTargetPointEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Point`: [IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-object indicating the target point for the camera
+- `Point`: [IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) object indicating the target point for the camera
 - `PercentTarget`: Target point distance along the entity
 
 ### Return Value
@@ -72,22 +64,14 @@ Entity for the target point
 
 ## VBA Syntax
 
-See
-
-[Camera::GetTargetPointEntity](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetTargetPointEntity.html)
-
-.
+See [Camera::GetTargetPointEntity](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetTargetPointEntity.html).
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::SetTargetPointEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~SetTargetPointEntity.html)
-
 [ICamera::TargetPointBySelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~TargetPointBySelection.html)
-
 [ICamera::TargetPointPosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~TargetPointPosition.html)
 
 ## Availability

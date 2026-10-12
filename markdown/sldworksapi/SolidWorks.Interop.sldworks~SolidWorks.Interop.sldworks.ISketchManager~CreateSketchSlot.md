@@ -99,22 +99,12 @@ SketchSlot^ CreateSketchSlot(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SlotCreationType`: Type of sketch slot as defined in
-
-[swSketchSlotCreationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotCreationType_e.html)
-- `SlotLengthType`: Type of length of sketch slot as defined in
-
-[swSketchSlotLengthType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotLengthType_e.html)
+- `SlotCreationType`: Type of sketch slot as defined in [swSketchSlotCreationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotCreationType_e.html)
+- `SlotLengthType`: Type of length of sketch slot as defined in [swSketchSlotLengthType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotLengthType_e.html)
 - `Width`: Width of sketch slot
 - `X1`: x coordinate of point 1
 - `Y1`: y coordinate of point 1
@@ -126,7 +116,7 @@ See
 - `Y3`: y coordinate of point 3
 - `Z3`: z coordinate of point 3
 - `CenterArcDirection`: - -1 = Clockwise (CW)
-- 1 = Counterclockwise (CCW)
+  - 1 = Counterclockwise (CCW)
 - `AddDimension`: True to automatically add dimensions, false to not
 
 ### Return Value
@@ -135,24 +125,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateSketchSlot](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchSlot.html)
-
-.
+See [SketchManager::CreateSketchSlot](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchSlot.html).
 
 ## Examples
 
 [Insert and Resize Sketch Slot (C#)](Insert_and_Resize_Sketch_Slot_Example_CSharp.htm)
-
 [Insert and Resize Sketch Slot (VB.NET)](Insert_and_Resize_Sketch_Slot_Example_VBNET.htm)
-
 [Insert and Resize Sketch Slot (VBA)](Insert_and_Resize_Sketch_Slot_Example_VB.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

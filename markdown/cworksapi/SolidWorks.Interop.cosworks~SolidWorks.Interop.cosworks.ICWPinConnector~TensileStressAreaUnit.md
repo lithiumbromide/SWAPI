@@ -47,23 +47,15 @@ property System.int TensileStressAreaUnit {
 
 ### Property Value
 
-Tensile stress area unit as defined in[swsTensileStressAreaUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTensileStressAreaUnit_e.html)
+Tensile stress area unit as defined in [swsTensileStressAreaUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTensileStressAreaUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::TensileStressAreaUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~TensileStressAreaUnit.html)
-
-.
+See [CWPinConnector::TensileStressAreaUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~TensileStressAreaUnit.html).
 
 ## Examples
 
-See the
-
-[ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
-examples.
+See the [ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html) examples.
 
 ## Remarks
 
@@ -72,15 +64,10 @@ This property is valid only for static and nonlinear studies.
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
-
 [ICWPinConnector::TensileStressAreaValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~TensileStressAreaValue.html)
-
 [ICWPinConnector::PinStrengthUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~PinStrengthUnit.html)
-
 [ICWPinConnector::PinStrengthValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~PinStrengthValue.html)
-
 [ICWPinConnector::SafetyFactor Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~SafetyFactor.html)
 
 ## Availability

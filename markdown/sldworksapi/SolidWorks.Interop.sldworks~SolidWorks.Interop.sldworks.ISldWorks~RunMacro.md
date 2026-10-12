@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # RunMacro Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::RunMacro2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RunMacro2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::RunMacro2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RunMacro2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool RunMacro(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,11 +69,7 @@ True if macro runs successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RunMacro](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RunMacro.html)
-
-.
+See [SldWorks::RunMacro](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RunMacro.html).
 
 ## Examples
 
@@ -91,20 +77,15 @@ See
 
 ## Remarks
 
-See[SOLIDWORKS Macros](sldworksAPIProgGuide.chm::/GettingStarted/SOLIDWORKS_Macros.htm)for details.
+See [SOLIDWORKS Macros](sldworksAPIProgGuide.chm::/GettingStarted/SOLIDWORKS_Macros.htm) for details.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetCurrentMacroPathFolder Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathFolder.html)
-
 [ISldWorks::GetCurrentMacroPathName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathName.html)
-
 [ISldWorks::RecordLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RecordLine.html)
-
 [ISldWorks::GetMacroMethods Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMacroMethods.html)
 
 ## Availability

@@ -47,36 +47,19 @@ Total axial stiffness
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::AxialStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~AxialStiffnessValue.html)
-
-.
+See [CWBearingConnector::AxialStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~AxialStiffnessValue.html).
 
 ## Examples
 
-See the
-
-[ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
-examples.
+See the [ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBearingConnector::StiffnessType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StiffnessType.html)
-
-is set to
-
-[swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html)
-
-.swsBearingStiffnessFlexible.
+This property is valid only if [ICWBearingConnector::StiffnessType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StiffnessType.html) is set to [swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html).swsBearingStiffnessFlexible.
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

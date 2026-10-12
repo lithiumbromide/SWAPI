@@ -45,13 +45,7 @@ property System.bool EnablePartialEdgeParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to enable partial edge properties for all edges, false to not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::EnablePartialEdgeParameters](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~EnablePartialEdgeParameters.html)
-
-.
+See [SimpleFilletFeatureData2::EnablePartialEdgeParameters](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~EnablePartialEdgeParameters.html).
 
 ## Examples
 
-See the
-
-[IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
-example.
+See the [IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html) example.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

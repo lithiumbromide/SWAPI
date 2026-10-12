@@ -47,13 +47,7 @@ System.bool EdgeInFaceSense(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,15 @@ True for the same direction, false for the opposite direction
 
 ## VBA Syntax
 
-See
-
-[Edge::EdgeInFaceSense](ms-its:sldworksapivb6.chm::/sldworks~Edge~EdgeInFaceSense.html)
-
-.
+See [Edge::EdgeInFaceSense](ms-its:sldworksapivb6.chm::/sldworks~Edge~EdgeInFaceSense.html).
 
 ## Remarks
 
 If this edge does not belong to the specified face, then this method can cause unpredictable
-
 results.
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IEdgeInFaceSense2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IEdgeInFaceSense2.html)

@@ -1,0 +1,62 @@
+---
+title: "GetMaterialClassesCount Method (CostAnalysisSheetMetal)"
+project: "SOLIDWORKS Costing API Help"
+interface: "CostAnalysisSheetMetal"
+member: "GetMaterialClassesCount"
+kind: "method"
+source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetMaterialClassesCount.html"
+---
+
+# GetMaterialClassesCount Method (CostAnalysisSheetMetal)
+
+Gets the number of material classes from the Costing template for this sheet metal Costing analysis.
+
+## Syntax
+
+### Visual Basic (Declaration)
+
+```vb
+Function GetMaterialClassesCount() As System.Integer
+```
+
+### Visual Basic (Usage)
+
+```vb
+Dim instance As CostAnalysisSheetMetal
+Dim value As System.Integer
+
+value = instance.GetMaterialClassesCount()
+```
+
+### C#
+
+```csharp
+System.int GetMaterialClassesCount()
+```
+
+### C++/CLI
+
+```cpp
+System.int GetMaterialClassesCount();
+```
+
+### Return Value
+
+Number of material classes
+
+## VBA Syntax
+
+See [CostAnalysisSheetMetal::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetMaterialClassesCount.html).
+
+## Remarks
+
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
+
+## See Also
+
+[CostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal.html)
+[CostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal_members.html)
+
+## Availability
+
+SOLIDWORKS Costing API 2013 SP0

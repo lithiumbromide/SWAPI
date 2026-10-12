@@ -9,64 +9,22 @@ source: "swconst/DP_ViewLabels-Other.htm"
 
 # Document Properties > Views > Other
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Add view label on view creation | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_AddViewLabelOnViewCreation,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_AddViewLabelOnViewCreation,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to add a view label when the view is created |
-| Base other view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingMiscView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base miscellaneous view standard to use |
-| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_PerStandard,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_PerStandard,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | If... Then display the miscellaneous view label according
-to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingMiscView_Name swDetailingMiscView_Scale swDetailingMiscView_Delimiter |
-| If... | Then display the miscellaneous view label according
-to the format... |  |  |
+| Add view label on view creation | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_AddViewLabelOnViewCreation, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_AddViewLabelOnViewCreation, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to add a view label when the view is created |
+| Base other view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingMiscView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base miscellaneous view standard to use |
+| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_PerStandard, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_PerStandard, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | If... Then display the miscellaneous view label according to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingMiscView_Name swDetailingMiscView_Scale swDetailingMiscView_Delimiter |
+| If... | Then display the miscellaneous view label according to the format... |  |  |
 | True | Required by the current detailing standard |  |  |
 | False | Determined by these document-level user preferences: swDetailingMiscView_Name swDetailingMiscView_Scale swDetailingMiscView_Delimiter |  |  |
-| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Name,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Name,
-swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the miscellaneous view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label
-options - Name (CUSTOM) to a custom label |
-| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomName,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomName,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | String value | Specifies the custom label to use in front of the miscellaneous view; valid only if Label options - Name is set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
-| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _NameTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _NameTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Scale,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Scale,
-swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
-| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomScale,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomScale,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
-| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _ScaleTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _ScaleTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Delimiter,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Delimiter,
-swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsDelimiter_e
-.< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
-| Label options - Delimiter -
-Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _DelimiterTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _DelimiterTextFormat,
-swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to remove extra spaces around the delimiter in the scale text |
-| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_DisplayLabelAboveView,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_DisplayLabelAboveView,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to show the label above the miscellaneous view |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on the drawing, some
-options may not apply |
+| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Name, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Name, swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the miscellaneous view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label options - Name (CUSTOM) to a custom label |
+| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomName, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomName, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | String value | Specifies the custom label to use in front of the miscellaneous view; valid only if Label options - Name is set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
+| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _NameTextFormat, swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _NameTextFormat, swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Scale, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Scale, swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
+| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomScale, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingMiscView_CustomScale, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
+| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _ScaleTextFormat, swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _ScaleTextFormat, swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Delimiter, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingMiscView_Delimiter, swUserPreferenceOption_e.swDetailingMiscView, swDetailingViewLabelsDelimiter_e .< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
+| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _DelimiterTextFormat, swUserPreferenceOption_e. swDetailingMiscView ) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e. swDetailingMiscView _DelimiterTextFormat, swUserPreferenceOption_e. swDetailingMiscView , < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to remove extra spaces around the delimiter in the scale text |
+| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_DisplayLabelAboveView, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingMiscView_DisplayLabelAboveView, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Boolean value | Specifies whether to show the label above the miscellaneous view |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingMiscView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingMiscView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on the drawing, some options may not apply |

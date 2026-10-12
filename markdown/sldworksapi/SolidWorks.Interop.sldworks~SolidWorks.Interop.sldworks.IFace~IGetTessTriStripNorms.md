@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetTessTriStripNorms Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetTessTripStripNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTessTriStripNorms.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetTessTripStripNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTessTriStripNorms.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.float IGetTessTriStripNorms()
 System.float IGetTessTriStripNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTessTriStripNorms.html)
-
-.
+See [Face::IGetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTessTriStripNorms.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

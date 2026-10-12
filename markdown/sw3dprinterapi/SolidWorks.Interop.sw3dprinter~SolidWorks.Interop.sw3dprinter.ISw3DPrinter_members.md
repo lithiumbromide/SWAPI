@@ -9,7 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # ISw3DPrinter Interface Members
 
-The following tables list the members exposed by[ISw3DPrinter](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html).
+The following tables list the members exposed by [ISw3DPrinter](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html).
 
 ## Public Methods
 
@@ -61,5 +61,4 @@ The following tables list the members exposed by[ISw3DPrinter](SolidWorks.Intero
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [SolidWorks.Interop.sw3dprinter Namespace](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter_namespace.html)

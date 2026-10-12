@@ -45,13 +45,7 @@ property System.bool GeometryPattern {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,19 @@ True to use only the geometry of the feature to create the pattern (faster), fal
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GeometryPattern.html)
-
-.
+See [CurveDrivenPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GeometryPattern.html).
 
 ## Remarks
 
-This property is valid only if[ICurveDrivenPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~BodyPattern.html)is false.
+This property is valid only if [ICurveDrivenPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~BodyPattern.html) is false.
 
-If this property is true, you can call[ICurveDrivenPatternFeatureData::SetFeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~SetFeatureScope.html).
+If this property is true, you can call [ICurveDrivenPatternFeatureData::SetFeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~SetFeatureScope.html).
 
-For more information, see the**Curve Driven Patterns and the****Curve Driven Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Curve Driven Patterns and the** **Curve Driven Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
 
 ## Availability

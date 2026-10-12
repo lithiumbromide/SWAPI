@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8_methods.html"
 
 # IEdmUserGroup8 Interface Methods
 
-For a list of all members of this type, see[IEdmUserGroup8 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8_members.html).
+For a list of all members of this type, see [IEdmUserGroup8 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmUserGroup8 members](EPDM.Interop
 ## See Also
 
 [IEdmUserGroup8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -57,16 +57,11 @@ Path and filename of the fitting
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute::GetFittingFilePath](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetFittingFilePath.html)
-
-.
+See [ElectricalFlatRoute::GetFittingFilePath](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetFittingFilePath.html).
 
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
 
 ## Availability

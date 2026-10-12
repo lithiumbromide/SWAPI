@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetAngularUnits Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetAngularUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetAngularUnits.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetAngularUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetAngularUnits.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void SetAngularUnits(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetAngularUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetAngularUnits.html)
-
-.
+See [ModelDoc::SetAngularUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetAngularUnits.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -53,41 +53,26 @@ System.int Set2DPlanarRevolveAngle(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::Set2DPlanarRevolveAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~Set2DPlanarRevolveAngle.html)
-
-.
+See [CWPlot::Set2DPlanarRevolveAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~Set2DPlanarRevolveAngle.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
 This method is valid only:
 
 - for 2D Simplification axi-symmetric studies where the geometry, loads, and restraints are symmetric (360 degrees) about an axis.
-- if
-
-  [ICWPlot::ShowAs3DPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowAs3DPlot.html)
-
-  is set to true.
+- if [ICWPlot::ShowAs3DPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowAs3DPlot.html) is set to true.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

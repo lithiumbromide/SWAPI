@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IManipulator Interface Members
 
-The following tables list the members exposed by[IManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html).
+The following tables list the members exposed by [IManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html).
 
 ## Public Properties
 
@@ -36,11 +36,7 @@ The following tables list the members exposed by[IManipulator](SolidWorks.Intero
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)

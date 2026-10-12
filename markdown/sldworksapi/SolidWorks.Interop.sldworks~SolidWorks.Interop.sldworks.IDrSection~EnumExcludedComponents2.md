@@ -40,25 +40,15 @@ EnumComponents2 EnumExcludedComponents2()
 EnumComponents2^ EnumExcludedComponents2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the[IEnumComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumComponents2.html)object
+Pointer to the [IEnumComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumComponents2.html) object
 
 ## VBA Syntax
 
-See
-
-[DrSection::EnumExcludedComponents2](ms-its:sldworksapivb6.chm::/sldworks~DrSection~EnumExcludedComponents2.html)
-
-.
+See [DrSection::EnumExcludedComponents2](ms-its:sldworksapivb6.chm::/sldworks~DrSection~EnumExcludedComponents2.html).
 
 ## Remarks
 
@@ -67,9 +57,7 @@ The ability to exclude components applies only to assembly section views. This m
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::GetExcludedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetExcludedComponents.html)
 
 ## Availability

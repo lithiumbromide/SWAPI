@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # IBalloonStack Interface Members
 
-The following tables list the members exposed by[IBalloonStack](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html).
+The following tables list the members exposed by [IBalloonStack](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html).
 
 ## Public Properties
 
@@ -35,7 +35,5 @@ The following tables list the members exposed by[IBalloonStack](SolidWorks.Inter
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::InsertStackedBalloon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertStackedBalloon.html)

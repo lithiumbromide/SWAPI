@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html"
 
 Allows you to create a listing of several file, folder, or internal component properties all at once.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmBatchListing3 : public IEdmBatchListing, IEdmBatchLis
 
 This interface:
 
-- extends
-
-  [IEdmBatchListing2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html)
-
-  by adding the ability to add an internal component to the listing and get references.
-- is extended by
-
-  [IEdmBatchListing4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4.html)
-
-  , which allows users to find out if files in their local cache are valid or obsolete.
+- extends [IEdmBatchListing2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html) by adding the ability to add an internal component to the listing and get references.
+- is extended by [IEdmBatchListing4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4.html), which allows users to find out if files in their local cache are valid or obsolete.
 
 ## See Also
 
 [IEdmBatchListing3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

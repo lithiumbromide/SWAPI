@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10.html"
 
 Allows you to quickly find files or folders.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,12 +37,11 @@ public interface class IEdmSearch10 : public IEdmSearch5, IEdmSearch6, IEdmSearc
 ## Examples
 
 [Favorite Search (VB.NET)](Favorite_Search_Example_VBNET.htm)
-
 [Favorite Search (C#)](Favorite_Search_Example_CSharp.htm)
 
 ## Remarks
 
-This interface extends[IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)by providing the ability to perform favorite searches.
+This interface extends [IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html) by providing the ability to perform favorite searches.
 
 ## Accessors
 
@@ -59,5 +52,4 @@ This interface extends[IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSear
 ## See Also
 
 [IEdmSearch10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -47,22 +47,15 @@ property System.int Unit {
 
 ### Property Value
 
-Mesh linear units as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+Mesh linear units as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Unit.html)
-
-.
+See [CWMesh::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Unit.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

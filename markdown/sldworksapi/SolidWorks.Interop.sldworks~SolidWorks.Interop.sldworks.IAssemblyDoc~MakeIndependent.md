@@ -47,21 +47,11 @@ System.bool MakeIndependent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Path and file name where to save the new part (see
-
-Remarks
-
-)
+- `FileName`: Path and file name where to save the new part (see **Remarks**)
 
 ### Return Value
 
@@ -69,18 +59,12 @@ True if the component is made independent, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::MakeIndependent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~MakeIndependent.html)
-
-.
+See [AssemblyDoc::MakeIndependent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~MakeIndependent.html).
 
 ## Examples
 
 [Make Component Independent (C#)](Make_Component_Independent_Example_CSharp.htm)
-
 [Make Component Independent (VB.NET)](Make_Component_Independent_Example_VBNET.htm)
-
 [Make Component Independent (VBA)](Make_Component_Independent_Example_VB.htm)
 
 ## Remarks
@@ -90,9 +74,7 @@ Making a component independent saves the component as a new file within the asse
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ReplaceComponents2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents2.html)
 
 ## Availability

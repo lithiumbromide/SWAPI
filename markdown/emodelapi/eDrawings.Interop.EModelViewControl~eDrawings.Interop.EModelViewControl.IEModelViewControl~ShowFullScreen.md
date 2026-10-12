@@ -52,24 +52,15 @@ void ShowFullScreen(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ShowFullScreen](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowFullScreen.html)
-
-.
+See [EModelViewControl::ShowFullScreen](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowFullScreen.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

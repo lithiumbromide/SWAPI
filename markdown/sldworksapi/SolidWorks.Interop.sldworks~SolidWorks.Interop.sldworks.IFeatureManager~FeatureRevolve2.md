@@ -123,31 +123,17 @@ Feature^ FeatureRevolve2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SingleDir`: True if the revolve is in one direction, false if in two directions (see
-
-Remarks
-
-)
+- `SingleDir`: True if the revolve is in one direction, false if in two directions (see **Remarks**)
 - `IsSolid`: True if this is a solid revolve feature, false if not
 - `IsThin`: True if this is a thin revolve feature, false if not
 - `IsCut`: True if this is a cut revolve feature, false if not
 - `ReverseDir`: True reverses the angle of the revolution, false does not; only applies if Dir1Type is not swEndConditions_e.swEndCondMidPlane
-- `BothDirectionUpToSameEntity`: True if the revolve is up to the same entity in both directions, false if not; only applies if SingleDir is false and Dir1Type and Dir2Type are swEndConditions_e.swEndCondUpToVertex, swEndConditions_e.swEndCondUpToSurface, or swEndConditions_e.swEndCondOffsetFromSurface) (see
-
-Remarks
-
-)
-- `Dir1Type`: Revolve end condition as defined in[swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html)
+- `BothDirectionUpToSameEntity`: True if the revolve is up to the same entity in both directions, false if not; only applies if SingleDir is false and Dir1Type and Dir2Type are swEndConditions_e.swEndCondUpToVertex, swEndConditions_e.swEndCondUpToSurface, or swEndConditions_e.swEndCondOffsetFromSurface) (see **Remarks**)
+- `Dir1Type`: Revolve end condition as defined in [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html)
 - `Dir2Type`: Revolve end condition in direction 2; as defined in swEndConditions_e and only applies if Dir1Type is not swEndConditions_e.swEndCondMidPlane
 - `Dir1Angle`: Angle in radians of revolution in direction 1; only applies if Dir1Type is swEndConditions_e.swEndCondBlind
 - `Dir2Angle`: Angle in radians of revolution in direction 2; only applies if Dir2Type is swEndConditions_e.swEndCondBlind
@@ -155,22 +141,12 @@ Remarks
 - `OffsetReverse2`: True to reverse the offset direction in direction 2, false to not; only applies if Dir2Type is swEndConditions_e.swEndCondOffsetFromSurface
 - `OffsetDistance1`: Offset distance in direction 1; only applies if Dir1Type is swEndConditions_e.swEndCondOffsetFromSurface
 - `OffsetDistance2`: Offset distance in direction 2; only applies if Dir2Type is swEndConditions_e.swEndCondOffsetFromSurface
-- `ThinType`: Type and direction as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `ThinType`: Type and direction as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
 - `ThinThickness1`: Wall thickness in direction 1 (if ThinType is swThinWallType_e.swThinWallMidPlane, (ThinThickness1)/2 is used for each direction)
 - `ThinThickness2`: Wall thickness in direction 2 (only applies if ThinType is swThinWallType_e.swThinWallTwoDirection)
 - `Merge`: True to merge the results into a multi-body part, false to not
-- `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies (see
-
-Remarks
-
-)
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies or components that the feature affects (see
-
-Remarks
-
-)
+- `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies (see **Remarks**)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies or components that the feature affects (see **Remarks**)
 
 ### Return Value
 
@@ -178,35 +154,23 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureRevolve2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureRevolve2.html)
-
-.
+See [FeatureManager::FeatureRevolve2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureRevolve2.html).
 
 ## Examples
 
 [Create Revolve Features (VBA)](Create_Revolve_Features_Example_VB.htm)
-
 [Create Revolve Features (VB.NET)](Create_Revolve_Features_Example_VBNET.htm)
-
 [Create Revolve Features (C#)](Create_Revolve_Features_Example_CSharp.htm)
-
 [Create Thin Feature Revolve in Two Directions (VBA)](Create_Thin_Feature_Revolve_in_Two_Directions_Example_VB.htm)
-
 [Create Thin Feature Revolve in Two Directions (VB.NET)](Create_Thin_Feature_Revolve_in_Two_Directions_Example_VBNET.htm)
-
 [Create Thin Feature Revolve in Two Directions (C#)](Create_Thin_Feature_Revolve_in_Two_Directions_Example_CSharp.htm)
-
 [Create 360-degree Revolve Feature (VBA)](Create_360-degree_Revolve_Feature_Example_VB.htm)
-
 [Create 360-degree Revolve Feature (VB.NET)](Create_360-degree_Revolve_Feature_Example_VBNET.htm)
-
 [Create 360-degree Revolve Feature (C#)](Create_360-degree_Revolve_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select:
 
 - the sketch to revolve, using Mark = 0.
 - the axis of revolution, using Mark = 4 or 16.
@@ -215,14 +179,12 @@ Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Int
 
 If SingleDir is false and the revolve is up to or offset from the same entity in both directions, select the entity once and set BothDirectionUpToSameEntity to true. If you select the same entity for each direction, the second selection negates the first, and the revolve feature is not created.
 
-**NOTE**: This method provides more functionality, i.e., additional end conditions, than the now obsolete[IFeatureManager::FeatureRevolveCut2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveCut2.html),[IFeatureManager::FeatureRevolveThin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveThin.html), and[IFeatureManager::FeatureRevolveThinCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveThinCut.html).
+**NOTE**: This method provides more functionality, i.e., additional end conditions, than the now obsolete [IFeatureManager::FeatureRevolveCut2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveCut2.html), [IFeatureManager::FeatureRevolveThin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveThin.html), and [IFeatureManager::FeatureRevolveThinCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveThinCut.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
 
 ## Availability

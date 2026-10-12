@@ -9,9 +9,7 @@ source: "sldworksapi/Change_Note_Text_Example_VB.htm"
 
 # Change Note Text Example (VBA)
 
-This example shows how to change the note on
-a drawing template by opening the drawing template for editing and then selecting
-the note and using the INote::SetText method to modify the note.
+This example shows how to change the note on a drawing template by opening the drawing template for editing and then selecting the note and using the INote::SetText method to modify the note.
 
 ```
 '---------------------------------------------------------------------

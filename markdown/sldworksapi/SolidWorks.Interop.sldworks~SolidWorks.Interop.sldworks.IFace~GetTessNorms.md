@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTessNorms Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetTessNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessNorms.html)
-
-.
+Obsolete. Superseded by [IFace2::GetTessNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessNorms.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetTessNorms()
 System.Object^ GetTessNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessNorms.html)
-
-.
+See [Face::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessNorms.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

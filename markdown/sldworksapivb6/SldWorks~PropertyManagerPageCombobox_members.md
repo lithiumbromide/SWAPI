@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageCombobox Object
-Members"
+title: "PropertyManagerPageCombobox Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageCombobox_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageCombobox_members.html"
 ---
 
-# PropertyManagerPageCombobox Object
-Members
+# PropertyManagerPageCombobox Object Members
 
 ## Public Methods
 

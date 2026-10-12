@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~BeginEdit.html)
-
-.
+See [CWTopologyFrequencyConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## Remarks
 
-To end editing this frequency constraint, call
-
-[ICWTopologyFrequencyConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~EndEdit.html)
-
-.
+To end editing this frequency constraint, call [ICWTopologyFrequencyConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
 
 ## Availability

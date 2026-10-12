@@ -45,13 +45,7 @@ property System.bool ReadOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the note is read-only, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~Note~ReadOnly.html)
-
-.
+See [Note::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~Note~ReadOnly.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

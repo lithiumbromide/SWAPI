@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IComponent Interface Members
 
-The following tables list the members exposed by[IComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html).
+The following tables list the members exposed by [IComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html).
 
 ## Public Properties
 
@@ -87,5 +87,4 @@ The following tables list the members exposed by[IComponent](SolidWorks.Interop.
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

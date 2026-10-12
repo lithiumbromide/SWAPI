@@ -26,24 +26,14 @@ Imports SolidWorks.Interop.swconst
 Imports System
 ```
 
+```vb
 Partial Class SolidWorksMacro
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModel As ModelDoc2
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-boolstatus As Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= swApp.ActiveDockadov_tag{{<spaces>}}kadov_tag{{</spaces>}}boolstatus
-= swModel.**Extension**.SaveDeFeaturedFile("c:\temp\ball_valve.sldprt")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+    Dim swModel As ModelDoc2
+     Dim boolstatus As Boolean
+    Sub main()
+        swModel = swApp.ActiveDoc
+         boolstatus = swModel.Extension.SaveDeFeaturedFile("c:\temp\ball_valve.sldprt")
+    End Sub
+    Public swApp As SldWorks
 End Class
+```

@@ -40,21 +40,11 @@ Camera GetCameraDefinition()
 Camera^ GetCameraDefinition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCameraDefinition](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraDefinition.html)
-
-.
+See [ModelDocExtension::GetCameraDefinition](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraDefinition.html).
 
 ## Remarks
 
@@ -65,13 +55,9 @@ You should find this method helpful when developing a renderer add-in.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::InsertCamera Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertCamera.html)
-
 [IModelDocExtension::GetCameraById Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCameraById.html)
-
 [IModelDocExtension::GetCameraCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCameraCount.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_propertie
 
 # IEdmSearchResult5 Interface Properties
 
-For a list of all members of this type, see[IEdmSearchResult5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_members.html).
+For a list of all members of this type, see [IEdmSearchResult5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_members.html).
 
 ## Public Properties
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[IEdmSearchResult5 members](EPDM.Inte
 ## See Also
 
 [IEdmSearchResult5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

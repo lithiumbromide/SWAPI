@@ -63,45 +63,23 @@ Feature^ InsertUntrimSurface2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceUntrimType`: Untrim face edge type as defined by
-
-[swFaceUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFaceUntrimType_e.html)
-
-; valid only if a face is selected
-- `EdgeUntrimType`: Connect endpoints or extend edges as defined by
-
-[swEdgeUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeUntrimType_e.html)
-
-; valid only of one or more edges are selected
+- `FaceUntrimType`: Untrim face edge type as defined by [swFaceUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFaceUntrimType_e.html); valid only if a face is selected
+- `EdgeUntrimType`: Connect endpoints or extend edges as defined by [swEdgeUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeUntrimType_e.html); valid only of one or more edges are selected
 - `Distance`: Distance by which to untrim the surface
 - `BMerge`: True to create a surface extension that merges with the original surface, false to create a new, separate surface body
 - `BTrimOppositeSide`: True to remove the surface outside the selected surface edges or interior surface holes, false to not; valid only if BMerge is false
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertUntrimSurface2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertUntrimSurface2.html)
-
-.
+See [FeatureManager::InsertUntrimSurface2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertUntrimSurface2.html).
 
 ## Examples
 
@@ -113,9 +91,9 @@ See
 'Preconditions: Ensure that the specified template exists.
 '
 'Postconditions:
-'1. Creates**Surface-Plane1**.
-'2. Creates**Surface-Untrim1**by untrimming outside all edges of the selected face, not merging with the original part, and trimming inside all edges of the selected face.
-'3. Click on**Surface-Untrim1**. The untrimmed areas are in green.
+'1. Creates **Surface-Plane1**.
+'2. Creates **Surface-Untrim1** by untrimming outside all edges of the selected face, not merging with the original part, and trimming inside all edges of the selected face.
+'3. Click on **Surface-Untrim1**. The untrimmed areas are in green.
 '========================================================================
 Dim swApp As SldWorks.SldWorks
 Dim Part As SldWorks.ModelDoc2
@@ -151,7 +129,7 @@ boolstatus = Part.Extension.SelectByID2("Sketch1", "SKETCHREGION", 2.26345552080
 boolstatus = Part.**InsertPlanarRefSurface**()
 Part.ClearSelection2 True
 boolstatus = Part.Extension.SelectByRay(-4.08355377464196E-02, 1.83176555033939E-02, 0, 0, 0, -1, 7.93376161930438E-04, 2, True, 0, 0)
-Part.FeatureManager.**InsertUntrimSurface2**0, 2, 0, False, True
+Part.FeatureManager.**InsertUntrimSurface2** 0, 2, 0, False, True
 Part.SelectionManager.EnableContourSelection = False
 
 End Sub
@@ -163,14 +141,12 @@ This method:
 - is valid only for surface parts.
 - requires preselection of the face or edges you want to untrim.
 
-For learn more about Untrim Surfaces, see the**SOLIDWORKS Help > Parts and Features > Features > Surfaces > Surface Controls > Untrim Surface**topic.
+For learn more about Untrim Surfaces, see the **SOLIDWORKS Help > Parts and Features > Features > Surfaces > Surface Controls > Untrim Surface** topic.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
 
 ## Availability

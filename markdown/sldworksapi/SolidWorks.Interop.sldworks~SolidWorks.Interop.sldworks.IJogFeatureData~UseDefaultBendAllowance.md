@@ -45,13 +45,7 @@ property System.bool UseDefaultBendAllowance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ True uses the default bend allowance, false does not
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~UseDefaultBendAllowance.html)
-
-.
+See [JogFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~UseDefaultBendAllowance.html).
 
 ## Examples
 
-See
-
-[IJogFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJogFeatureData.html)
-
-examples.
+See [IJogFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJogFeatureData.html) examples.
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
-
 [IJogFeatureData::GetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData~GetCustomBendAllowance.html)
-
 [IJogFeatureData::SetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData~SetCustomBendAllowance.html)
 
 ## Availability

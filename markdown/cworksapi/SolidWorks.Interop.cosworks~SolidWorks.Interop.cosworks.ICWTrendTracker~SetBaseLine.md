@@ -42,30 +42,19 @@ System.int SetBaseLine();
 
 ### Return Value
 
-Error code as defined in
-
-[swsTrendTrackerErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTrendTrackerErrorCode_e.html)
+Error code as defined in [swsTrendTrackerErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTrendTrackerErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTrendTracker::SetBaseLine](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTrendTracker~SetBaseLine.html)
-
-.
+See [CWTrendTracker::SetBaseLine](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTrendTracker~SetBaseLine.html).
 
 ## Examples
 
-See the
-
-[ICWTrendTracker](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker.html)
-
-examples.
+See the [ICWTrendTracker](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker.html) examples.
 
 ## See Also
 
 [ICWTrendTracker Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker.html)
-
 [ICWTrendTracker Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker_members.html)
 
 ## Availability

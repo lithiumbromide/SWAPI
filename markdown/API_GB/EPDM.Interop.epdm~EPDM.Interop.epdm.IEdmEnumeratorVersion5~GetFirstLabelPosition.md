@@ -33,13 +33,11 @@ IEdmPos5^ GetFirstLabelPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first label set on this file
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first label set on this file
 
 ## Remarks
 
-After calling this method, pass the returned first label position to[IEdmEnumeratorVersion5::GetNextLabel](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetNextLabel.html)to get the first label set on this file. Call IEdmEnumeratorVersion5::GetNextLabel repeatedly to get the rest of the labels set on this file.
+After calling this method, pass the returned first label position to [IEdmEnumeratorVersion5::GetNextLabel](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetNextLabel.html) to get the first label set on this file. Call IEdmEnumeratorVersion5::GetNextLabel repeatedly to get the rest of the labels set on this file.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -51,7 +49,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [IEdmEnumeratorVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html)
 
 ## Availability

@@ -56,7 +56,7 @@ property System.bool ComponentState {
 ### Parameters
 
 - `Name`: Name of the component
-- `state`: State of the component as defined in[EMVComponentState](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVComponentState.html)ParameterDesc
+- `state`: State of the component as defined in [EMVComponentState](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVComponentState.html)
 
 ### Property Value
 
@@ -64,30 +64,20 @@ True if the state of the component is set, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ComponentState](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentState.html)
-
-.
+See [EModelViewControl::ComponentState](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentState.html).
 
 ## Remarks
 
-Before calling this property, call[IEModelViewControl::ComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.html)to get a valid value for Name.
+Before calling this property, call [IEModelViewControl::ComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.html) to get a valid value for Name.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ComponentCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentCount.html)
-
 [IEModelViewControl::ComponentConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.html)
-
 [IEModelViewControl::ComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.html)
-
 [IEModelViewControl::ComponentTransform](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentTransform.html)
-
 [IEModelViewControl::GetSelectedComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.html)
 
 ## Availability

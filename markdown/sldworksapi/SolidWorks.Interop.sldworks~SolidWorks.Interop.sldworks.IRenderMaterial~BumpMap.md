@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # BumpMap Property (IRenderMaterial)
 
-Obsolete. Superseded by
-
-[IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
-
-.
+Obsolete. Superseded by [IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html).
 
 ## Syntax
 
@@ -49,32 +45,19 @@ property System.int BumpMap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Surface finish as defined by
-
-[swRenderMaterialBumpMap_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialBumpMap_e.html)
+Surface finish as defined by [swRenderMaterialBumpMap_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialBumpMap_e.html)
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpMap](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpMap.html)
-
-.
+See [RenderMaterial::BumpMap](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpMap.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

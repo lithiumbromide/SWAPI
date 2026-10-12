@@ -47,46 +47,27 @@ System.int SetComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Components`: Array of
-
-[IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
+- `Components`: Array of [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 
 ### Return Value
 
-Return code as defined in
-
-[swCollisionGroupSetComponentsErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionGroupSetComponentsErrors_e.html)
+Return code as defined in [swCollisionGroupSetComponentsErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionGroupSetComponentsErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionGroup::SetComponents](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~SetComponents.html)
-
-.
+See [CollisionDetectionGroup::SetComponents](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~SetComponents.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## See Also
 
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [ICollisionDetectionGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup_members.html)
 
 ## Availability

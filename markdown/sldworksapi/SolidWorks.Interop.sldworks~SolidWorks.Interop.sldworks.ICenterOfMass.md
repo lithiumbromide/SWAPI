@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterOfMass Interface
 
-Allows access to the centers of mass in a
+Allows access to the centers of mass in a [drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html).
 
-[drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,25 +41,19 @@ public interface class ICenterOfMass
 
 ## VBA Syntax
 
-See
-
-[CenterOfMass](ms-its:sldworksapivb6.chm::/sldworks~CenterOfMass.html)
-
-.
+See [CenterOfMass](ms-its:sldworksapivb6.chm::/sldworks~CenterOfMass.html).
 
 ## Examples
 
 [Get Centers of Mass in Drawing Views (VBA)](Get_Centers_of_Mass_in_Drawing_Views_Example_VB.htm)
-
 [Get Centers of Mass in Drawing Views (VB.NET)](Get_Centers_of_Mass_in_Drawing_Views_Example_VBNET.htm)
-
 [Get Centers of Mass in Drawing Views (C#)](Get_Centers_of_Mass_in_Drawing_Views_Example_CSharp.htm)
 
 ## Accessors
 
-[ICenterOfMass::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterOfMass~GetNext.html)and[ICenterOfMass::IGetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterOfMass~IGetNext.html)
+[ICenterOfMass::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterOfMass~GetNext.html) and [ICenterOfMass::IGetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterOfMass~IGetNext.html)
 
-[IView::GetFirstCenterOfMass](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstCenterOfMass.html)and[IView::IGetFirstCenterOfMass](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstCenterOfMass.html)
+[IView::GetFirstCenterOfMass](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstCenterOfMass.html) and [IView::IGetFirstCenterOfMass](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstCenterOfMass.html)
 
 ## Access Diagram
 
@@ -72,9 +62,6 @@ See
 ## See Also
 
 [ICenterOfMass Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertCenterOfMass Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCenterOfMass.html)
-
 [IFeatureManager::InsertCenterOfMassReferencePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCenterOfMassReferencePoint.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Buttons_to_Task_Pane_Example_CSharp.htm"
 
 # Add Buttons to Task Pane Example (C#)
 
-This example shows how to add standard SOLIDWORKS and custom buttons to the
-Task Pane.
+This example shows how to add standard SOLIDWORKS and custom buttons to the Task Pane.
 
 ```vb
  //-----------------------------------------------------------------------

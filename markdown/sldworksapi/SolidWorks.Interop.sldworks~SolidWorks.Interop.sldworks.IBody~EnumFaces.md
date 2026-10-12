@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # EnumFaces Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::EnumFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~EnumFaces.html)
-
-.
+Obsolete. Superseded by [IBody2::EnumFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~EnumFaces.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumFaces EnumFaces()
 EnumFaces^ EnumFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~Body~EnumFaces.html)
-
-.
+See [Body::EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~Body~EnumFaces.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

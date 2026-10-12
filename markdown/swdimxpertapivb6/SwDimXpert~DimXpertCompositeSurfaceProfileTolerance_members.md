@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompositeSurfaceProfileTolerance Object
-Members"
+title: "DimXpertCompositeSurfaceProfileTolerance Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompositeSurfaceProfileTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompositeSurfaceProfileTolerance_members.html"
 ---
 
-# DimXpertCompositeSurfaceProfileTolerance Object
-Members
+# DimXpertCompositeSurfaceProfileTolerance Object Members
 
 ## Public Properties
 

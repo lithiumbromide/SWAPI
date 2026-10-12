@@ -45,46 +45,28 @@ property System.Object^ Bodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-of a multibody part
+[Bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) of a multibody part
 
 ## VBA Syntax
 
-See
-
-[View::Bodies](ms-its:sldworksapivb6.chm::/sldworks~View~Bodies.html)
-
-.
+See [View::Bodies](ms-its:sldworksapivb6.chm::/sldworks~View~Bodies.html).
 
 ## Examples
 
 [Set Body for View (C#)](Set_Body_for_View_Example_CSharp.htm)
-
 [Set Body for View (VB.NET)](Set_Body_for_View_Example_VBNET.htm)
-
 [Set Body for View (VBA)](Set_Body_for_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBodiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBodiesCount.html)
-
 [IView::IGetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBodies.html)
-
 [IView::ISetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ISetBodies.html)
 
 ## Availability

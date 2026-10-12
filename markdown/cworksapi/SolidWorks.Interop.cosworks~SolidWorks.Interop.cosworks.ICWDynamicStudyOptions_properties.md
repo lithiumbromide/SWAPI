@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # ICWDynamicStudyOptions Interface Properties
 
-For a list of all members of this type, see[ICWDynamicStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html).
+For a list of all members of this type, see [ICWDynamicStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html).
 
 ## Public Properties
 
@@ -55,5 +55,4 @@ For a list of all members of this type, see[ICWDynamicStudyOptions members](Soli
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

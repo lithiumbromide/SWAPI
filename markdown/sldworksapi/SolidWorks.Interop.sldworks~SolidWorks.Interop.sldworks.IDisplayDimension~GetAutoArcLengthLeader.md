@@ -40,13 +40,7 @@ System.bool GetAutoArcLengthLeader()
 System.bool GetAutoArcLengthLeader();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the leader style is selected automatically , false if the leader style i
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetAutoArcLengthLeader](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAutoArcLengthLeader.html)
-
-.
+See [DisplayDimension::GetAutoArcLengthLeader](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAutoArcLengthLeader.html).
 
 ## Remarks
 
@@ -71,9 +61,6 @@ This method applies to only arc length dimensions. It returns -1 if you run it o
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetArcLengthLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetArcLengthLeader.html)
-
 [IDisplayDimension::SetArcLengthLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetArcLengthLeader.html)

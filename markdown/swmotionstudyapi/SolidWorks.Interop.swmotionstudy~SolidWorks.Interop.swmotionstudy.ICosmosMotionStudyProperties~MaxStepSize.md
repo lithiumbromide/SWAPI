@@ -51,11 +51,7 @@ Upper bound of the integration time step
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::MaxStepSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MaxStepSize.html)
-
-.
+See [CosmosMotionStudyProperties::MaxStepSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MaxStepSize.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ This property is only important if the solver is missing short-lived events, suc
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
-
 [ICosmosMotionStudyProperties::MinStepSize Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MinStepSize.html)
 
 ## Availability

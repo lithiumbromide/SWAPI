@@ -39,5 +39,4 @@ This member is based on a variable value in the item card.
 ## See Also
 
 [EdmGenItemInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html)
-
 [EdmGenItemInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo_members.html)

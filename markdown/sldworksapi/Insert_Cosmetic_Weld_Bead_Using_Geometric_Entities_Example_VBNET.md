@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_
 
 # Insert Cosmetic Weld Bead Using Geometric Entities Example (VB.NET)
 
-This example shows how to insert a cosmetic weld bead using geometric
-entities.
+This example shows how to insert a cosmetic weld bead using geometric entities.
 
 ```
 '----------------------------------------------

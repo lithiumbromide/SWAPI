@@ -45,13 +45,7 @@ property System.double Gap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Gap
 
 ## VBA Syntax
 
-See
-
-[CenterMark::Gap](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~Gap.html)
-
-.
+See [CenterMark::Gap](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~Gap.html).
 
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

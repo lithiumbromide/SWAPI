@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate_methods.h
 
 # IEdmHistoryUpdate Interface Methods
 
-For a list of all members of this type, see[IEdmHistoryUpdate members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate_members.html).
+For a list of all members of this type, see [IEdmHistoryUpdate members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmHistoryUpdate members](EPDM.Inte
 ## See Also
 
 [IEdmHistoryUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

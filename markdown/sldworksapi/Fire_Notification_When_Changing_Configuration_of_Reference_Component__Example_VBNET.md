@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Changing_Configuration_of_Reference_
 
 # Fire Notification When Changing Configuration of Reference Component Example (VB.NET)
 
-This example shows how to fire an event when changing the configuration of a
-reference component in an assembly.
+This example shows how to fire an event when changing the configuration of a reference component in an assembly.
 
 ```
 '---------------------------------------------------------------

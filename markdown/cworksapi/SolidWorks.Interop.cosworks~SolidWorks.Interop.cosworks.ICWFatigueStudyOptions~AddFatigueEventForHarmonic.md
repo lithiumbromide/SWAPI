@@ -69,18 +69,12 @@ CWFatigueEvent^ AddFatigueEventForHarmonic(
 
 ### Parameters
 
-- `SAssociatedStudyName`: Name of the reference linear dynamic harmonic study (see
-
-Remarks
-
-)
+- `SAssociatedStudyName`: Name of the reference linear dynamic harmonic study (see **Remarks**)
 - `DFrequency`: Frequency of SAssociatedStudyName; valid only if NPlotStep is 0
 - `NPlotStep`: Solution step number of SAssociatedStudyName; valid only if DFrequency is 0
 - `DCycles`: 1.0 < Number of cycles associated with this event < 1.0E36
 - `DScale`: 0.0 <= Factor by which to scale the result stresses of SAssociatedStudyName to produce fatigue <= 1.0E36
-- `ErrorCode`: Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+- `ErrorCode`: Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ### Return Value
 
@@ -88,18 +82,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::AddFatigueEventForHarmonic](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForHarmonic.html)
-
-.
+See [CWFatigueStudyOptions::AddFatigueEventForHarmonic](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForHarmonic.html).
 
 ## Examples
 
 [Create Fatigue Study for Dynamic Harmonic Study (VBA)](Create_Fatigue_Study_for_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Fatigue Study for Dynamic Harmonic Study (VB.NET)](Create_Fatigue_Study_for_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Fatigue Study for Dynamic Harmonic Study (C#)](Create_Fatigue_Study_for_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -118,17 +106,11 @@ To fully configure the harmonic fatigue study for this event, call:
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForConstantAmplitude Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForConstantAmplitude.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForRandomVibration Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForRandomVibration.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForVariableAmplitude Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForVariableAmplitude.html)
-
 [ICWFatigueStudyOptions::DeleteFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~DeleteFatigueEvent.html)
-
 [ICWFatigueStudyOptions::GetFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~GetFatigueEvent.html)
 
 ## Availability

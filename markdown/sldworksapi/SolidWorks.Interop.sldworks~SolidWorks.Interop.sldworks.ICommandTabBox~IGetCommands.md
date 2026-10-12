@@ -51,31 +51,19 @@ System.int IGetCommands(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CommandIDs`: - in-process, unmanaged C++: Pointer to an array of command IDs (see
+- `CommandIDs`: - in-process, unmanaged C++: Pointer to an array of command IDs (see **Remarks**)
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  Remarks
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
+- `TextDisplayStyles`: - in-process, unmanaged C++: Pointer to an array the text display styles for the buttons as defined in [swCommandTabButtonTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandTabButtonTextDisplay_e.html)
 
-  )
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
-- `TextDisplayStyles`: - in-process, unmanaged C++: Pointer to an array the text display styles for the buttons as defined in
-
-  [swCommandTabButtonTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandTabButtonTextDisplay_e.html)
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method
 
 ### Return Value
 
@@ -83,18 +71,12 @@ Number of buttons on this CommandManager tab box
 
 ## VBA Syntax
 
-See
-
-[CommandTabBox::IGetCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~IGetCommands.html)
-
-.
+See [CommandTabBox::IGetCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~IGetCommands.html).
 
 ## See Also
 
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)
-
 [ICommandTabBox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html)
-
 [ICommandTabBox::GetCommands Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox~GetCommands.html)
 
 ## Availability

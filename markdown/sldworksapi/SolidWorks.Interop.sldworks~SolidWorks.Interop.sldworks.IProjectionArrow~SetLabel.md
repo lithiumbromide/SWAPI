@@ -47,13 +47,7 @@ System.bool SetLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if setting the label is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~SetLabel.html)
-
-.
+See [ProjectionArrow::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~SetLabel.html).
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::GetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetLabel.html)
 
 ## Availability

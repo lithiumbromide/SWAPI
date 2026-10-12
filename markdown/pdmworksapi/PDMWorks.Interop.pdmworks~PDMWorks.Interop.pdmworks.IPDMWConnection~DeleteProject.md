@@ -52,11 +52,7 @@ void DeleteProject(
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::DeleteProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteProject.html)
-
-.
+See [PDMWConnection::DeleteProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteProject.html).
 
 ## Remarks
 
@@ -65,13 +61,9 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::CreateProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateProject.html)
-
 [IPDMWProject::SetUserPermissions](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.html)
-
 [IPDMWProject::CreateSubProject Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~CreateSubProject.html)
 
 ## Availability

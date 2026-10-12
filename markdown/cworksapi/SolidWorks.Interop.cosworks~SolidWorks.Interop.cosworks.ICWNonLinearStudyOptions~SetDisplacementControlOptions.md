@@ -58,36 +58,24 @@ System.int SetDisplacementControlOptions(
 ### Parameters
 
 - `DispEntity`: Vertex or reference point to control the analysis
-- `NDisplacementComponent`: Displacement component for the selected location (see
-
-Remarks
-
-)
-- `NUnit`: Units as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+- `NDisplacementComponent`: Displacement component for the selected location (see **Remarks**)
+- `NUnit`: Units as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 
 ### Return Value
 
-Status as defined in
-
-[swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
+Status as defined in [swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetDisplacementControlOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetDisplacementControlOptions.html)
-
-.
+See [CWNonLinearStudyOptions::SetDisplacementControlOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetDisplacementControlOptions.html).
 
 ## Remarks
 
-[ICWNonLinearStudyOptions::ControlMethodType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html)must be set to[swsNonLinearOptionControlMethodType_e.swsNonLinearControl_Displacement](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html)to set displacement control options.
+[ICWNonLinearStudyOptions::ControlMethodType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html) must be set to [swsNonLinearOptionControlMethodType_e.swsNonLinearControl_Displacement](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html) to set displacement control options.
 
 Valid displacement components are:
 
-UX: X Translation . displacement in the Global X-direction
+UX: X Translation. displacement in the Global X-direction
 
 UY: Y Translation. displacement in the Global Y-direction
 
@@ -102,9 +90,7 @@ RZ: Z Rotation. rotation about the Global Z-direction for shell studies only
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::GetDisplacementControlOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~GetDisplacementControlOptions.html)
 
 ## Availability

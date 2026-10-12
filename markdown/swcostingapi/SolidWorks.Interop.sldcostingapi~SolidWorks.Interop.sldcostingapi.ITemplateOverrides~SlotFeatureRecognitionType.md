@@ -47,32 +47,20 @@ property System.int SlotFeatureRecognitionType {
 
 ### Property Value
 
-Slot feature recognition option as defined in
-
-[swcSlotFeatureRecognitionType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcSlotFeatureRecognitionType_e.html)
+Slot feature recognition option as defined in [swcSlotFeatureRecognitionType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcSlotFeatureRecognitionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::SlotFeatureRecognitionType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~SlotFeatureRecognitionType.html)
-
-.
+See [TemplateOverrides::SlotFeatureRecognitionType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~SlotFeatureRecognitionType.html).
 
 ## Remarks
 
-Setting this property is only applied if
-
-[ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)
-
-is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+Setting this property is only applied if [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
-
 [ITemplateOverrides::ShowUndeterminedSlotsInNCAFolder Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ShowUndeterminedSlotsInNCAFolder.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ShowSplineHandles Property (ISketchSpline)
 
-Gets or sets whether to show the
-
-[handles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle.html)
-
-for this spline.
+Gets or sets whether to show the [handles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle.html) for this spline.
 
 ## Syntax
 
@@ -49,27 +45,15 @@ property System.bool ShowSplineHandles {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to show spline handles, false to not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[SketchSpline::ShowSplineHandles](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowSplineHandles.html)
-
-.
+See [SketchSpline::ShowSplineHandles](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowSplineHandles.html).
 
 ## Examples
 
@@ -77,20 +61,15 @@ See
 
 ## Remarks
 
-If setting this property to True, then use[IModelDoc2::WindowRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~WindowRedraw.html)after to see the spline handles.
+If setting this property to True, then use [IModelDoc2::WindowRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~WindowRedraw.html) after to see the spline handles.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::GetSplineHandleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetSplineHandleCount.html)
-
 [ISketchSpline::GetSplineHandles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetSplineHandles.html)
-
 [ISketchSpline::IGetSplineHandles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IGetSplineHandles.html)
-
 [ISketchSpline::ResetAllHandles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ResetAllHandles.html)
 
 ## Availability

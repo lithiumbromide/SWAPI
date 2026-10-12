@@ -45,13 +45,7 @@ property System.int CurveDegree {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,16 @@ Degree of curve or -1 if not a Bezier curve style spline
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::CurveDegree](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~CurveDegree.html)
-
-.
+See [SketchSpline::CurveDegree](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~CurveDegree.html).
 
 ## Remarks
 
-This property is only valid for a style spline whose
-
-[curve type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~CurveType.html)
-
-is
-
-[swStyleSplineCurveType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStyleSplineCurveType_e.html)
-
-.BezierCurve.
+This property is only valid for a style spline whose [curve type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~CurveType.html) is [swStyleSplineCurveType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStyleSplineCurveType_e.html).BezierCurve.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::IsStyleSpline Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IsStyleSpline.html)
 
 ## Availability

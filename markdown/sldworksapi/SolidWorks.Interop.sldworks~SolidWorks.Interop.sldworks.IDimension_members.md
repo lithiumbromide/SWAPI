@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDimension Interface Members
 
-The following tables list the members exposed by[IDimension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html).
+The following tables list the members exposed by [IDimension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html).
 
 ## Public Properties
 
@@ -80,9 +80,6 @@ The following tables list the members exposed by[IDimension](SolidWorks.Interop.
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDimensionTolerance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html)

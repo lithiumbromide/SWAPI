@@ -42,24 +42,16 @@ System.Object^ GetSWBody();
 
 ### Return Value
 
-[SOLIDWORKS body](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-that corresponds to this Costing body
+[SOLIDWORKS body](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that corresponds to this Costing body
 
 ## VBA Syntax
 
-See
-
-[CostBody::GetSWBody](swcostingapivb6.chm::/SldCostingAPI~CostBody~GetSWBody.html)
-
-.
+See [CostBody::GetSWBody](swcostingapivb6.chm::/SldCostingAPI~CostBody~GetSWBody.html).
 
 ## See Also
 
 [ICostBody Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody.html)
-
 [ICostBody Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody_members.html)
-
 [ICostBody::GetName Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetName.html)
 
 ## Availability

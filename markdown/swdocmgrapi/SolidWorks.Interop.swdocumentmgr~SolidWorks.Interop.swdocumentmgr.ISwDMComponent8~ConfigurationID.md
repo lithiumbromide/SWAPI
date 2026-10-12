@@ -48,16 +48,11 @@ Configuration ID
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent8::ConfigurationID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent8~ConfigurationID.html)
-
-.
+See [SwDMComponent8::ConfigurationID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent8~ConfigurationID.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
-
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
 
 ## Remarks
@@ -69,7 +64,6 @@ To find the current configuration name of a suppressed component in an assembly,
 ## See Also
 
 [ISwDMComponent8 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent8.html)
-
 [ISwDMComponent8 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent8_members.html)
 
 ## Availability

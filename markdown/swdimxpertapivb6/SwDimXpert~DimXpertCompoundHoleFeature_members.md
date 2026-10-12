@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompoundHoleFeature Object
-Members"
+title: "DimXpertCompoundHoleFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompoundHoleFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompoundHoleFeature_members.html"
 ---
 
-# DimXpertCompoundHoleFeature Object
-Members
+# DimXpertCompoundHoleFeature Object Members
 
 ## Public Methods
 

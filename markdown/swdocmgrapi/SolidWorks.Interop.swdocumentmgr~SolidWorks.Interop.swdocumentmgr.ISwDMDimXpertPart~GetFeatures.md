@@ -42,19 +42,11 @@ System.Object^ GetFeatures();
 
 ### Return Value
 
-Array of
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+Array of [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPart::GetFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetFeatures.html)
-
-.
+See [SwDMDimXpertPart::GetFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetFeatures.html).
 
 ## Examples
 
@@ -63,9 +55,7 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPart Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart.html)
-
 [ISwDMDimXpertPart Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart_members.html)
-
 [ISwDMDimXpertPart::IGetFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart~IGetFeatures.html)
 
 ## Availability

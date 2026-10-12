@@ -44,30 +44,20 @@ property System.int State {
 
 ### Property Value
 
-Suppression state as defined in[swsSuppressionState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSuppressionState_e.html)
+Suppression state as defined in [swsSuppressionState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSuppressionState_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::State](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~State.html)
-
-.
+See [CWMeshControl::State](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~State.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::SuppressUnSuppress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~SuppressUnSuppress.html)
 
 ## Availability

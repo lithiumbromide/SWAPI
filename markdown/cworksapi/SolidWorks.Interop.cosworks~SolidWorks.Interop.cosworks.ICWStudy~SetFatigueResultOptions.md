@@ -53,9 +53,7 @@ System.int SetFatigueResultOptions(
 
 ### Parameters
 
-- `NFatigueCalculationsOption`: Fatigue calculation option as defined in
-
-[swsFatigueCalculationsOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueCalculationsOption_e.html)
+- `NFatigueCalculationsOption`: Fatigue calculation option as defined in [swsFatigueCalculationsOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueCalculationsOption_e.html)
 - `DispArray`: Array of vertices and reference points at which to plot damage matrix charts; only valid in variable amplitude fatigue studies
 
 ### Return Value
@@ -64,30 +62,20 @@ System.int SetFatigueResultOptions(
 
 ## VBA Syntax
 
-See
-
-[CWStudy::SetFatigueResultOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetFatigueResultOptions.html)
-
-.
+See [CWStudy::SetFatigueResultOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetFatigueResultOptions.html).
 
 ## Examples
 
 [Create Fatigue Study (VBA)](Create_Fatigue_Study_Example_VB.htm)
-
 [Create Fatigue Study (VB.NET)](Create_Fatigue_Study_Example_VBNET.htm)
-
 [Create Fatigue Study (C#)](Create_Fatigue_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::FatigueStudyOptions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~FatigueStudyOptions.html)
-
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
 
 ## Availability

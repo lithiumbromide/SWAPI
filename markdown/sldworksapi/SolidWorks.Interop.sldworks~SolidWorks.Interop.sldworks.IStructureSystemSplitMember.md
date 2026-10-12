@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISt
 
 Allows access to a structure system split member.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,17 @@ public interface class IStructureSystemSplitMember
 
 ## VBA Syntax
 
-See
-
-[StructureSystemSplitMember](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember.html)
-
-.
+See [StructureSystemSplitMember](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html) examples.
 
 ## Remarks
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the Split Member sections of the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > Primary Member PropertyManager**and**Secondary Member PropertyManager**topics.
+For more information, see the Split Member sections of the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > Primary Member PropertyManager** and **Secondary Member PropertyManager** topics.
 
 ## Accessors
 
@@ -72,5 +64,4 @@ For more information, see the Split Member sections of the**SOLIDWORKS user-inte
 ## See Also
 
 [IStructureSystemSplitMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

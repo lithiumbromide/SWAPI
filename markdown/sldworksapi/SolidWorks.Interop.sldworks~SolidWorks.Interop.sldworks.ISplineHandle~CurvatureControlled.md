@@ -45,13 +45,7 @@ property System.bool CurvatureControlled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the spline handle has curvature control, false if not
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::CurvatureControlled](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~CurvatureControlled.html)
-
-.
+See [SplineHandle::CurvatureControlled](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~CurvatureControlled.html).
 
 ## Remarks
 
@@ -75,7 +65,6 @@ If the spline handle has curvature control, you can use:
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
 
 ## Availability

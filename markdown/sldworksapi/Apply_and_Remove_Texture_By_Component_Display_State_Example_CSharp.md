@@ -11,8 +11,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Component_Display_State_Example
 
 ## Apply and Remove Texture To and From Component By Display State (C#)
 
-This example shows how to apply and remove texture to and from a component
-using the name of a display state of the model.
+This example shows how to apply and remove texture to and from a component using the name of a display state of the model.
 
 ```
 //-------------------------------------------------------------------------
@@ -24,13 +23,13 @@ using the name of a display state of the model.
 // 1. Opens the specified assembly and applies texture to
 //    the selected component.
 // 2. Examine the Immediate window.
-// 3. Click anywhere in the SOLIDWORKS window
+// 3. Click anywhere in the SOLIDWORKS Design window
 //    to verify that the texture was applied.
 // 4. Follow the instructions in the macro
 //    to remove the just-applied texture.
 // 5. Run the macro again.
 // 6. Examine the Immediate window.
-// 7. Click anywhere in the SOLIDWORKS window to verify
+// 7. Click anywhere in the SOLIDWORKS Design window to verify
 //    that the texture was removed.
 //
 // NOTE: Because this assembly document is used elsewhere,
@@ -39,19 +38,7 @@ using the name of a display state of the model.
 using
 ```
 
-SolidWorks.Interop.sldworks;
-
-using
-
-SolidWorks.Interop.swconst;
-
-using
-
-System;
-
-using
-
-System.Diagnostics;
+SolidWorks.Interop.sldworks; using SolidWorks.Interop.swconst; using System; using System.Diagnostics;
 
 ```vb
 namespace
@@ -63,19 +50,13 @@ ApplyRemoveTextureByDisplayStateCSharp.csproj
 {
 ```
 
-partial
-
-class
-
-SolidWorksMacro
+partial class SolidWorksMacro
 
 ```vb
     {
 ```
 
-public
-
-void
+public void
 
 Main()
 
@@ -83,79 +64,31 @@ Main()
         {
 ```
 
-ModelDoc2
-
-swModel =
-
-default
-
-(
-
-ModelDoc2
+ModelDoc2 swModel = default(ModelDoc2
 
 );
 
-SelectionMgr
-
-swSelMgr =
-
-default
-
-(
-
-SelectionMgr
+SelectionMgr swSelMgr = default(SelectionMgr
 
 );
 
-ModelDocExtension
-
-swModelDocExt =
-
-default
-
-(
-
-ModelDocExtension
+ModelDocExtension swModelDocExt = default(ModelDocExtension
 
 );
 
-Component2
-
-component =
-
-default
-
-(
-
-Component2
+Component2 component = default(Component2
 
 );
 
-Texture
-
-texture =
-
-default
-
-(
-
-Texture
+Texture texture = default(Texture
 
 );
 
-bool
-
-status =
-
-false
+bool status = false
 
 ;
 
-string
-
-displayState =
-
-null
+string displayState = null
 
 ;
 
@@ -167,13 +100,7 @@ int
 
 warnings = 0;
 
-string
-
-namStr =
-
-null
-
-;
+string namStr = null;
 
 ```vb
 // Open document and select a component
@@ -183,50 +110,7 @@ null
 swModel = (
 ```
 
-ModelDoc2
-
-)swApp.
-
-OpenDoc6
-
-(
-
-"C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS
-2018\\samples\\tutorial\\motionstudies\\valve_cam.sldasm"
-
-,
-(
-
-int
-
-)
-
-swDocumentTypes_e
-
-.swDocASSEMBLY,
-(
-
-int
-
-)
-
-swOpenDocOptions_e
-
-.
-
-swOpenDocOptions_Silent
-
-,
-
-""
-
-,
-
-ref
-
-errors,
-
-ref
+ModelDoc2)swApp.**OpenDoc6**("C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS 2018\\samples\\tutorial\\motionstudies\\valve_cam.sldasm", (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.**swOpenDocOptions_Silent**, "", ref errors, ref
 
 warnings);
 
@@ -236,31 +120,15 @@ swModelDocExt = (
 
 ModelDocExtension
 
-)
-swModel.Extension;
+) swModel.Extension;
 
 ```vb
 status = swModelDocExt.SelectByID2(
 ```
 
-"rocker-1@valve_cam"
+"rocker-1@valve_cam", "COMPONENT", 0, 0, 0, false, 0, null
 
-,
-
-"COMPONENT"
-
-,
-0, 0, 0,
-
-false
-
-,
-0,
-
-null
-
-,
-0);
+, 0);
 
 ```vb
 swSelMgr = (
@@ -268,24 +136,13 @@ swSelMgr = (
 
 SelectionMgr
 
-)swModel.
-
-SelectionManager
-
-;
+)swModel.**SelectionManager**;
 
 ```vb
 component = (
 ```
 
-Component2
-
-)
-swSelMgr.
-
-GetSelectedObject6
-
-(1, -1);
+Component2) swSelMgr.**GetSelectedObject6**(1, -1);
 
 ```vb
 displayState =
@@ -313,80 +170,43 @@ namStr =
 // After running the macro the first time, edit the macro to
 ```
 
-// insert
-the comment characters (//) before the following two
+// insert the comment characters (//) before the following two
 
-// lines of
-code
+// lines of code
 
 ```vb
 texture = (
 ```
 
-Texture
-
-)
-swModelDocExt.
-
-CreateTexture
-
-(namStr, 5, 45,
-
-false
+Texture) swModelDocExt.**CreateTexture**(namStr, 5, 45, false
 
 );
 
-Debug
+Debug.Print ("Texture set: "
 
-.Print
-(
++ component.**SetTextureByDisplayState**(displayState, texture));
 
-"Texture set: "
+// Remove texture from component by display state
 
-+ component.
+// After running the macro the first time, edit it to
 
-SetTextureByDisplayState
+// remove the comment characters (//) before the following
 
-(displayState, texture));
+// line of code
 
-// Remove
-texture from component by display state
-
-// After
-running the macro the first time, edit it to
-
-// remove
-the comment characters (//) before the following
-
-// line of
-code
-
-//Debug.Print
-("Texture removed: " + component.
-
-RemoveTextureByDisplayState
-
-(displayState));
+//Debug.Print ("Texture removed: " + component.**RemoveTextureByDisplayState**(displayState));
 
 ```vb
         }
 ```
 
-///
+/// <summary>
 
-<summary>
+/// The SldWorks swApp variable is pre-assigned for you.
 
-///
+/// </summary>
 
-The SldWorks swApp variable is pre-assigned for you.
-
-///
-
-</summary>
-
-public
-
-SldWorks
+public SldWorks
 
 swApp;
 

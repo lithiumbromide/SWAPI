@@ -1,6 +1,5 @@
 ---
-title: "AdvancedSelectionCriteria Object
-Members"
+title: "AdvancedSelectionCriteria Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AdvancedSelectionCriteria_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AdvancedSelectionCriteria_members.html"
 ---
 
-# AdvancedSelectionCriteria Object
-Members
+# AdvancedSelectionCriteria Object Members
 
 ## Public Methods
 

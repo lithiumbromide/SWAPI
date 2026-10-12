@@ -53,19 +53,11 @@ By default when new files are added to the vault, file data cards are created wi
 
 If you don't call this method before calling the IEdmBatchAdd::Add* methods, they will create one serial number for the file and another serial number for the file data card. To synchronize the serial numbers:
 
-1. Generate the added file's serial number using
-
-  [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html)
-
-  .
+1. Generate the added file's serial number using [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html).
 2. Call this method, specifying oSerialNumberName with the added file's serial number generator ID.
 3. Repeat steps 1 and 2 for each new file.
 4. Call one of the IEdmBatchAdd::Add* methods to add the new files to the batch.
-5. Call
-
-  [IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html)
-
-  .
+5. Call [IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -75,9 +67,7 @@ If you don't call this method before calling the IEdmBatchAdd::Add* methods, the
 ## See Also
 
 [IEdmBatchAdd Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
 [IEdmBatchAdd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_members.html)
-
 [IEdmFolder12::SetFileNameSerNo Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder12~SetFileNameSerNo.html)
 
 ## Availability

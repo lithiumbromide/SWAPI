@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurface Interface Properties
 
-For a list of all members of this type, see[ISurface members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html).
+For a list of all members of this type, see [ISurface members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[ISurface members](SolidWorks.Interop
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

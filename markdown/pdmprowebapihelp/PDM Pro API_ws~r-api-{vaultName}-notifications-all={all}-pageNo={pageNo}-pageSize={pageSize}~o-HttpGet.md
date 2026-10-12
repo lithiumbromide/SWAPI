@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/notifications?all={all}&pageNo={pageNo}&pageSize={pageSize} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Notification Resource Group : api/{vaultName}/notifications?all={all}&pageNo={pageNo}&pageSize={pageSize} (Get) |
 | --- |
@@ -117,8 +113,4 @@ This operation can return an array of Message objects.
 
 See Also
 
-[Notification Resource Group](PDM%20Pro%20API_ws~g-a913ab1d-ff6c-435e-bc6e-8e6294326caa.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Notification Resource Group](PDM%20Pro%20API_ws~g-a913ab1d-ff6c-435e-bc6e-8e6294326caa.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertProtrusionSwept2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertProtusionSwept3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertProtusionSwept3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html).
 
 ## Syntax
 
@@ -107,13 +103,7 @@ Feature^ InsertProtrusionSwept2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -135,14 +125,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertProtrusionSwept2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionSwept2.html)
-
-.
+See [FeatureManager::InsertProtrusionSwept2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionSwept2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

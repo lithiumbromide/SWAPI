@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateArcDB Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateArcDB](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateArcDB.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateArcDB](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateArcDB.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ System.bool CreateArcDB(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -110,14 +100,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreateArcDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateArcDB.html)
-
-.
+See [ModelDoc::CreateArcDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateArcDB.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

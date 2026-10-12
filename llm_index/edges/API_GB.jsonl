@@ -1,3 +1,4 @@
+{"label": "Administration tool", "source": "API_GB/64bit", "target": "API_GB/AdminDlg", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Access_Bill_of_Materials_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Access_Bill_of_Materials_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
@@ -25,6 +26,7 @@
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Add_Variables_to_Vault_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Add_Variables_to_Vault_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "IEdmCmdMgr5::AddCmd", "source": "API_GB/AddInAdminMenu", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddCmd", "type": "links_to"}
+{"label": "EdmMenuFlags::EdmMenu_Administration", "source": "API_GB/AddInAdminMenu", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags", "type": "links_to"}
 {"label": "IEdmAddIn5", "source": "API_GB/AddInApp", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5", "type": "links_to"}
 {"label": "Add-in Properties dialog", "source": "API_GB/AddInApp", "target": "API_GB/AdminDlg", "type": "links_to"}
 {"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/AddInApp", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
@@ -71,10 +73,23 @@
 {"label": "IEdmAddIn5", "source": "API_GB/cppaddin", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5", "type": "links_to"}
 {"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/cppaddin", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
 {"label": "IEdmAddIn5::OnCmd", "source": "API_GB/cppaddin", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Using .NET Framework in Add-in Applications", "source": "API_GB/cppaddin", "target": "API_GB/Using_NET_Framework_in_Addins", "type": "links_to"}
 {"label": "Administration tool", "source": "API_GB/cppaddin", "target": "API_GB/AdminDlg", "type": "links_to"}
 {"label": "more advanced menu commands", "source": "API_GB/cppaddin", "target": "API_GB/cppmenuitem", "type": "links_to"}
 {"label": "add-in hooks", "source": "API_GB/cppaddin", "target": "API_GB/cppreactor", "type": "links_to"}
+{"label": "basic framework sample", "source": "API_GB/cppmenuitem", "target": "API_GB/cppaddin", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/cppmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "EdmMenuFlags.EdmMenu_MustHaveSelection", "source": "API_GB/cppmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags", "type": "links_to"}
+{"label": "IEdmAdd5::OnCmd", "source": "API_GB/cppmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Administration tool", "source": "API_GB/cppmenuitem", "target": "API_GB/AdminDlg", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/cppreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/cppreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
 {"label": "IEdmCmdMgr5::AddHook", "source": "API_GB/cppreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddHook", "type": "links_to"}
+{"label": "Administration tool", "source": "API_GB/cppreactor", "target": "API_GB/AdminDlg", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PreUndoLock", "source": "API_GB/cppreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PostUndoLock", "source": "API_GB/cppreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "Creating Add-ins (C++)", "source": "API_GB/cppreactor", "target": "API_GB/cppaddin", "type": "links_to"}
+{"label": "Creating Add-in Hooks (VB.NET)", "source": "API_GB/cppreactor", "target": "API_GB/vbreactor", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Create_and_Delete_Dictionaries_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Create_and_Delete_Dictionaries_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Create_Card_View_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
@@ -90,10 +105,30 @@
 {"label": "Using .NET Framework for Add-in Applications", "source": "API_GB/CSharpAddIns", "target": "API_GB/Using_NET_Framework_in_Addins", "type": "links_to"}
 {"label": "IEdmAddIn5::", "source": "API_GB/CSharpAddIns", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
 {"label": "OnCmd", "source": "API_GB/CSharpAddIns", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Creating Menu Commands (C#)", "source": "API_GB/csharpcardbutton", "target": "API_GB/csharpmenuitem", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5::SetVar", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5::GetVar", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "type": "links_to"}
+{"label": "EdmCmdData::mpoExtra", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "type": "links_to"}
+{"label": "IEdmStrLst5", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5", "type": "links_to"}
+{"label": "EdmCmdData", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "type": "links_to"}
+{"label": "EdmCmdData::mlLongData1", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData1", "type": "links_to"}
+{"label": "EdmCardFlag", "source": "API_GB/csharpcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardFlag", "type": "links_to"}
+{"label": "Using .NET Framework for Add-in Applications", "source": "API_GB/csharpmenuitem", "target": "API_GB/Using_NET_Framework_in_Addins", "type": "links_to"}
 {"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/csharpmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/csharpmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
 {"label": "Creating Menu Commands (C#)", "source": "API_GB/csharpreactor", "target": "API_GB/csharpmenuitem", "type": "links_to"}
 {"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
 {"label": "IEdmCmdMgr5::AddHook", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddHook", "type": "links_to"}
+{"label": "IEdmAddIn5::", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "OnCmd", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PreUndoLock", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PostUndoLock", "source": "API_GB/csharpreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "other types of hooks", "source": "API_GB/csharpserno", "target": "API_GB/csharpreactor", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/csharpserno", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/csharpserno", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Creating Menu Commands (C#)", "source": "API_GB/csharpserno", "target": "API_GB/csharpmenuitem", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Destroy_Deleted_Files_in_Vault_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Destroy_Deleted_Files_in_Vault_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Display_Menu_of_Commands_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
@@ -104,11 +139,13 @@
 {"label": "OnCmd", "source": "API_GB/DotNetAddIns", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
 {"label": "IEdmVault8::GetWin32Window", "source": "API_GB/DotNetAddIns", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8~GetWin32Window", "type": "links_to"}
 {"label": "EdmResultSuccessCodes_e", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "type": "links_to"}
+{"label": "IEdmVault11::GetErrorMessage", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorMessage", "type": "links_to"}
 {"label": "EPDM.Interop.EPDMResultCode Namespace", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode_namespace", "type": "links_to"}
 {"label": "IEdmVault5::GetErrorString Method ()", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString", "type": "links_to"}
 {"label": "IEdmVault11::GetErrorName Method ()", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorName", "type": "links_to"}
 {"label": "Return Codes", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "target": "API_GB/ReturnCodes", "type": "links_to"}
 {"label": "EdmResultErrorCodes_e", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "target": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e", "type": "links_to"}
+{"label": "IEdmVault11::GetErrorMessage", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorMessage", "type": "links_to"}
 {"label": "EPDM.Interop.EPDMResultCode Namespace", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "target": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode_namespace", "type": "links_to"}
 {"label": "IEdmVault5::GetErrorString Method ()", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString", "type": "links_to"}
 {"label": "IEdmVault11::GetErrorName Method ()", "source": "API_GB/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorName", "type": "links_to"}
@@ -123,6 +160,12 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddCallbackMsgID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmBatchAdd2::ShowDlg", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileDlgFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2~ShowDlg", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileDlgFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlSrcDocumentID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlSrcDocumentID", "type": "links_to"}
+{"label": "mlSrcProjectID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlSrcProjectID", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mbsPath", "type": "links_to"}
+{"label": "mbsNewName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mbsNewName", "type": "links_to"}
+{"label": "mlEdmAddFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlEdmAddFlags", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlFileID", "type": "links_to"}
 {"label": "Add Files to Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/Add_Files_to_Vault_Example_VBNET", "type": "links_to"}
 {"label": "Add Files to Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/Add_Files_to_Vault_Example_CSharp", "type": "links_to"}
 {"label": "IEdmFolder6::AddFiles", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6~AddFiles", "type": "links_to"}
@@ -150,6 +193,8 @@
 {"label": "EdmAddFileInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlSrcProjectID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_members", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mbsFileName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo~mbsFileName", "type": "links_to"}
+{"label": "mlEdmAddInFileInfoFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo~mlEdmAddInFileInfoFlags", "type": "links_to"}
 {"label": "Install Add-in (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "target": "API_GB/Load_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Install Add-in (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "target": "API_GB/Load_Addin_Example_CSharp", "type": "links_to"}
 {"label": "IEdmAddInMgr8", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8", "type": "links_to"}
@@ -170,6 +215,12 @@
 {"label": "EdmAddInFileInfoFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo~mlEdmAddInFileInfoFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfoFlags", "type": "links_to"}
 {"label": "EdmAddInFileInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo~mlEdmAddInFileInfoFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo", "type": "links_to"}
 {"label": "EdmAddInFileInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo~mlEdmAddInFileInfoFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo_members", "type": "links_to"}
+{"label": "mbsAddInName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mbsAddInName", "type": "links_to"}
+{"label": "mbsCompany", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mbsCompany", "type": "links_to"}
+{"label": "mbsDescription", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mbsDescription", "type": "links_to"}
+{"label": "mlAddInVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlAddInVersion", "type": "links_to"}
+{"label": "mlRequiredVersionMajor", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlRequiredVersionMajor", "type": "links_to"}
+{"label": "mlRequiredVersionMinor", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlRequiredVersionMinor", "type": "links_to"}
 {"label": "Notify User When File Changes State (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/Notify_User_When_File_Changes_State_Example_VBNET", "type": "links_to"}
 {"label": "Notify User When File Changes State (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/Notify_User_When_File_Changes_State_Example_CSharp", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/Schedule_Task_Addin_Example_VBNET", "type": "links_to"}
@@ -182,6 +233,14 @@
 {"label": "Administrate Add-ins dialog box", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/AdminDlg", "type": "links_to"}
 {"label": "EdmAddInInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mbsAddInName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsAddInName", "type": "links_to"}
+{"label": "mbsCompany", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsCompany", "type": "links_to"}
+{"label": "mbsDescription", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsDescription", "type": "links_to"}
+{"label": "mlAddInVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mlAddInVersion", "type": "links_to"}
+{"label": "mlRequiredVersionMajor", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mlRequiredVersionMajor", "type": "links_to"}
+{"label": "mlRequiredVersionMinor", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mlRequiredVersionMinor", "type": "links_to"}
+{"label": "mbsClassID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsClassID", "type": "links_to"}
+{"label": "mbsModulePath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsModulePath", "type": "links_to"}
 {"label": "Install Add-in (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/Load_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Install Add-in (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/Load_Addin_Example_CSharp", "type": "links_to"}
 {"label": "EdmAddInInfo", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "type": "links_to"}
@@ -230,6 +289,13 @@
 {"label": "EdmAddInInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlRequiredVersionMajor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo_members", "type": "links_to"}
 {"label": "EdmAddInInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlRequiredVersionMinor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo", "type": "links_to"}
 {"label": "EdmAddInInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo~mlRequiredVersionMinor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo_members", "type": "links_to"}
+{"label": "mlCmdID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlCmdID", "type": "links_to"}
+{"label": "mlEdmMenuFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlEdmMenuFlags", "type": "links_to"}
+{"label": "mlToolbarButtonIndex", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlToolbarButtonIndex", "type": "links_to"}
+{"label": "mlToolbarImageID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlToolbarImageID", "type": "links_to"}
+{"label": "mbsMenuStr", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mbsMenuStr", "type": "links_to"}
+{"label": "mbsStatusBarHelp", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mbsStatusBarHelp", "type": "links_to"}
+{"label": "mbsToolbarToolTip", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mbsToolbarToolTip", "type": "links_to"}
 {"label": "Install Add-in (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/Load_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Install Add-in (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/Load_Addin_Example_CSharp", "type": "links_to"}
 {"label": "IEdmAddInMgr8::GetInstalledAddIn", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~GetInstalledAddIn", "type": "links_to"}
@@ -258,6 +324,9 @@
 {"label": "EdmAddInMenuInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlToolbarImageID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo", "type": "links_to"}
 {"label": "EdmAddInMenuInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlToolbarImageID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members", "type": "links_to"}
 {"label": "EdmVariableData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "type": "links_to"}
+{"label": "mbsAttribName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData~mbsAttribName", "type": "links_to"}
+{"label": "mbsBlockName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData~mbsBlockName", "type": "links_to"}
+{"label": "mbsExtensions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData~mbsExtensions", "type": "links_to"}
 {"label": "Add Card Variables to Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/Add_Variables_to_Vault_Example_VBNET", "type": "links_to"}
 {"label": "Add Card Variables to Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/Add_Variables_to_Vault_Example_CSharp", "type": "links_to"}
 {"label": "IEdmVariableMgr6::AddVariables", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6~AddVariables", "type": "links_to"}
@@ -282,6 +351,10 @@
 {"label": "IEdmBatchAddFolders::Create", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchCreateFolderFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~Create", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchCreateFolderFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmBatchDelete::CommitDelete", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete", "type": "links_to"}
+{"label": "mlDocID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlDocID", "type": "links_to"}
+{"label": "mlProjID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlProjID", "type": "links_to"}
+{"label": "mbsPathName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mbsPathName", "type": "links_to"}
+{"label": "mlErrorCode", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlErrorCode", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_CSharp", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_VBNET", "type": "links_to"}
 {"label": "IEdmBatchDelete3::GetCommitErrors", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitErrors", "type": "links_to"}
@@ -303,9 +376,16 @@
 {"label": "EdmBatchDelErrInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlErrorCode", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members", "type": "links_to"}
 {"label": "EdmBatchDelErrInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo", "type": "links_to"}
 {"label": "EdmBatchDelErrInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlFileID", "type": "links_to"}
+{"label": "mlVariableID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlVariableID", "type": "links_to"}
+{"label": "mlErrorCode", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlErrorCode", "type": "links_to"}
 {"label": "IEdmBatchUpdate::Commit", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~Commit", "type": "links_to"}
 {"label": "EdmBatchError Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2~mlFileID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2~mlFolderID", "type": "links_to"}
+{"label": "mlVariableID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2~mlVariableID", "type": "links_to"}
+{"label": "mlErrorCode", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2~mlErrorCode", "type": "links_to"}
 {"label": "Batch Update Card Variables (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/Batch_Update_Variables_Example_VBNET", "type": "links_to"}
 {"label": "Batch Update Card Variables (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/Batch_Update_Variables_Example_CSharp", "type": "links_to"}
 {"label": "EdmBatchError structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError", "type": "links_to"}
@@ -346,6 +426,15 @@
 {"label": "IEdmBatchUpdate2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlColumnID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlColumnID", "type": "links_to"}
+{"label": "mlVariableID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlVariableID", "type": "links_to"}
+{"label": "enum EdmVariableType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType", "type": "links_to"}
+{"label": "mlVariableType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlVariableType", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlFlags", "type": "links_to"}
+{"label": "enum EdmBomColumnType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumnType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~meType", "type": "links_to"}
+{"label": "mbsCaption", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mbsCaption", "type": "links_to"}
+{"label": "mlWidth", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlWidth", "type": "links_to"}
 {"label": "Access Bill of Materials (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/Access_Bill_of_Materials_Example_VBNET", "type": "links_to"}
 {"label": "Access Bill of Materials (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/Access_Bill_of_Materials_Example_CSharp", "type": "links_to"}
 {"label": "EdmBomColumn Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members", "type": "links_to"}
@@ -379,7 +468,10 @@
 {"label": "IEdmFile7::GetComputedBOM", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetComputedBOM", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlBomID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~mlBomID", "type": "links_to"}
 {"label": "enum EdmBomType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~meType", "type": "links_to"}
+{"label": "mbsBomName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~mbsBomName", "type": "links_to"}
 {"label": "Access Bill of Materials (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/Access_Bill_of_Materials_Example_VBNET", "type": "links_to"}
 {"label": "Access Bill of Materials (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/Access_Bill_of_Materials_Example_CSharp", "type": "links_to"}
 {"label": "IEdmFile7::GetDerivedBOMs", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetDerivedBOMs", "type": "links_to"}
@@ -400,11 +492,17 @@
 {"label": "EdmBomInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~mlBomID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo_members", "type": "links_to"}
 {"label": "IEdmBomView2::InsertRow", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInsertRowOption", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2~InsertRow", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInsertRowOption", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlLayoutID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout~mlLayoutID", "type": "links_to"}
+{"label": "mbsLayoutName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout~mbsLayoutName", "type": "links_to"}
 {"label": "Access Bill of Materials (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/Access_Bill_of_Materials_Example_VBNET", "type": "links_to"}
 {"label": "Access Bill of Materials (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/Access_Bill_of_Materials_Example_CSharp", "type": "links_to"}
 {"label": "IEdmBomMgr::GetBomLayouts", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr~GetBomLayouts", "type": "links_to"}
 {"label": "EdmBomLayout Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlLayoutID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout~mlLayoutID", "type": "links_to"}
+{"label": "EdmBomType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2~meType", "type": "links_to"}
+{"label": "mbsLayoutName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout~mbsLayoutName", "type": "links_to"}
 {"label": "EdmBomLayout", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout", "type": "links_to"}
 {"label": "IEdmBomMgr2::GetBomLayouts2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2", "type": "links_to"}
 {"label": "EdmBomLayout2 Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2_members", "type": "links_to"}
@@ -437,6 +535,12 @@
 {"label": "EdmBomInfo", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo", "type": "links_to"}
 {"label": "EdmBomLayout2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "enum EdmBomVersionType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersionType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~meType", "type": "links_to"}
+{"label": "mlVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~mlVersion", "type": "links_to"}
+{"label": "moDate", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~moDate", "type": "links_to"}
+{"label": "mbsTag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~mbsTag", "type": "links_to"}
+{"label": "mbsComment", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~mbsComment", "type": "links_to"}
 {"label": "Access Bill of Materials (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/Access_Bill_of_Materials_Example_VBNET", "type": "links_to"}
 {"label": "Access Bill of Materials (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/Access_Bill_of_Materials_Example_CSharp", "type": "links_to"}
 {"label": "EdmBomVersion Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members", "type": "links_to"}
@@ -460,6 +564,12 @@
 {"label": "EdmBomVersion Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~mlVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members", "type": "links_to"}
 {"label": "EdmBomVersion Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~moDate", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion", "type": "links_to"}
 {"label": "EdmBomVersion Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion~moDate", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members", "type": "links_to"}
+{"label": "mlParentFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mlParentFileID", "type": "links_to"}
+{"label": "mlParentFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mlParentFolderID", "type": "links_to"}
+{"label": "mbsParentName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mbsParentName", "type": "links_to"}
+{"label": "mlChildFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mlChildFileID", "type": "links_to"}
+{"label": "mlChildFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mlChildFolderID", "type": "links_to"}
+{"label": "mbsChildName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo~mbsChildName", "type": "links_to"}
 {"label": "EdmBrokenParentInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EdmBrokenParentInfo members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_fields", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members", "type": "links_to"}
@@ -500,6 +610,13 @@
 {"label": "IEdmFolder10::CreateCardView2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder10~CreateCardView2", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlFileID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlFolderID", "type": "links_to"}
+{"label": "mlCardID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlCardID", "type": "links_to"}
+{"label": "mlX", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlX", "type": "links_to"}
+{"label": "mlY", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlY", "type": "links_to"}
+{"label": "mhParentWindow", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mhParentWindow", "type": "links_to"}
+{"label": "mlEdmCardViewFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams~mlEdmCardViewFlags", "type": "links_to"}
 {"label": "Create Custom Card View (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/Create_Custom_Card_View_Example_VBNET", "type": "links_to"}
 {"label": "Create Custom Card View (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/Create_Custom_Card_View_Example_CSharp", "type": "links_to"}
 {"label": "IEdmVault10::CreateCardViewEx2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2", "type": "links_to"}
@@ -559,6 +676,13 @@
 {"label": "EdmChangeStateTransitionInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo~moIcon", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo_members", "type": "links_to"}
 {"label": "EdmChangeStateTransitionInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo~moName", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo", "type": "links_to"}
 {"label": "EdmChangeStateTransitionInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo~moName", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo_members", "type": "links_to"}
+{"label": "mlParentFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlParentFileID", "type": "links_to"}
+{"label": "mlRefFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlRefFileID", "type": "links_to"}
+{"label": "mbsParentPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mbsParentPath", "type": "links_to"}
+{"label": "mbsRefPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mbsRefPath", "type": "links_to"}
+{"label": "mlRefVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlRefVersion", "type": "links_to"}
+{"label": "mlRefLatestVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlRefLatestVersion", "type": "links_to"}
+{"label": "mlRefFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlRefFolderID", "type": "links_to"}
 {"label": "IEdmRevisionMgr3::VerUpgrade_ReferenceCheck", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3~VerUpgrade_ReferenceCheck", "type": "links_to"}
 {"label": "EdmCheckRef Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
@@ -584,6 +708,17 @@
 {"label": "EdmCheckRef Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef~mlRefVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members", "type": "links_to"}
 {"label": "IEdmVault8::ClientType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmClientType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8~ClientType", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmClientType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "enum EdmCmdType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "meCmdType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~meCmdType", "type": "links_to"}
+{"label": "mlParentWnd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd", "type": "links_to"}
+{"label": "mlCurrentFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurrentFolderID", "type": "links_to"}
+{"label": "mlCmdID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCmdID", "type": "links_to"}
+{"label": "mpoVault", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoVault", "type": "links_to"}
+{"label": "mbsComment", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment", "type": "links_to"}
+{"label": "mlEdmRefreshFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlEdmRefreshFlags", "type": "links_to"}
+{"label": "mpoExtra", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra", "type": "links_to"}
+{"label": "mbSilentMode", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbSilentMode", "type": "links_to"}
+{"label": "mbCancel", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel", "type": "links_to"}
 {"label": "Notify User When File Changes State (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/Notify_User_When_File_Changes_State_Example_VBNET", "type": "links_to"}
 {"label": "Notify User When File Changes State (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/Notify_User_When_File_Changes_State_Example_CSharp", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "target": "API_GB/Schedule_Task_Addin_Example_VBNET", "type": "links_to"}
@@ -601,6 +736,17 @@
 {"label": "EdmCmd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "type": "links_to"}
 {"label": "EdmCmd Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlObjectID1", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID1", "type": "links_to"}
+{"label": "mlObjectID2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID2", "type": "links_to"}
+{"label": "mlObjectID3", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID3", "type": "links_to"}
+{"label": "mlObjectID4", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID4", "type": "links_to"}
+{"label": "mbsStrData1", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData1", "type": "links_to"}
+{"label": "mbsStrData2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData2", "type": "links_to"}
+{"label": "mbsStrData3", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData3", "type": "links_to"}
+{"label": "mlLongData1", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData1", "type": "links_to"}
+{"label": "mlLongData2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData2", "type": "links_to"}
+{"label": "mlLongData3", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData3", "type": "links_to"}
+{"label": "mpoExtra", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "type": "links_to"}
 {"label": "Notify User When File Changes State (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/Notify_User_When_File_Changes_State_Example_VBNET", "type": "links_to"}
 {"label": "Notify User When File Changes State (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/Notify_User_When_File_Changes_State_Example_CSharp", "type": "links_to"}
 {"label": "Change Card Variables Add-in (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "target": "API_GB/Change_Card_Variables_Addin_Example_VBNET", "type": "links_to"}
@@ -701,6 +847,12 @@
 {"label": "EdmCmdData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "type": "links_to"}
 {"label": "EdmCmdData Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "type": "links_to"}
 {"label": "EdmCmdData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members", "type": "links_to"}
+{"label": "mlCmdID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mlCmdID", "type": "links_to"}
+{"label": "mbsCmdStr", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsCmdStr", "type": "links_to"}
+{"label": "mbsTooltip", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsTooltip", "type": "links_to"}
+{"label": "mbsStatusBarHelp", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsStatusBarHelp", "type": "links_to"}
+{"label": "mlEdmMenuFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mlEdmMenuFlags", "type": "links_to"}
+{"label": "moData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~moData", "type": "links_to"}
 {"label": "Get Menu Command Items (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/Get_Menu_Command_Items_Example_VBNET", "type": "links_to"}
 {"label": "Get Menu Command Items (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/Get_Menu_Command_Items_Example_CSharp", "type": "links_to"}
 {"label": "IEdmMenu6", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6", "type": "links_to"}
@@ -848,6 +1000,12 @@
 {"label": "EdmDocIDs Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlDocID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members", "type": "links_to"}
 {"label": "EdmDocIDs Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs", "type": "links_to"}
 {"label": "EdmDocIDs Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members", "type": "links_to"}
+{"label": "mlArg", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mlArg", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mlFileID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mlFolderID", "type": "links_to"}
+{"label": "mhResult", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mhResult", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mbsPath", "type": "links_to"}
+{"label": "mpoObject", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo~mpoObject", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_CSharp", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_VBNET", "type": "links_to"}
 {"label": "IEdmBatchAdd::CommitAdd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd", "type": "links_to"}
@@ -893,6 +1051,12 @@
 {"label": "IEdmHistory::AddFolder", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderHistoryFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderHistoryFlag", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderHistoryFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mlFolderID", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mbsPath", "type": "links_to"}
+{"label": "mlParam", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mlParam", "type": "links_to"}
+{"label": "mlEdmFolderInfoFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mlEdmFolderInfoFlags", "type": "links_to"}
+{"label": "IEdmFolder6", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6", "type": "links_to"}
+{"label": "mpoFolder", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mpoFolder", "type": "links_to"}
 {"label": "Batch Add Folders (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/Batch_Add_Folders_Example_VBNET", "type": "links_to"}
 {"label": "Batch Add Folders (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/Batch_Add_Folders_Example_CSharp", "type": "links_to"}
 {"label": "IEdmBatchAddFolders::Create", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~Create", "type": "links_to"}
@@ -922,6 +1086,11 @@
 {"label": "EdmBatchAddFolderFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mpoFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag", "type": "links_to"}
 {"label": "EdmFolderInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mpoFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo", "type": "links_to"}
 {"label": "EdmFolderInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mpoFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo_members", "type": "links_to"}
+{"label": "mlEdmRightFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlEdmRightFlag", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlFolderID", "type": "links_to"}
+{"label": "mlOwnerID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlOwnerID", "type": "links_to"}
+{"label": "enum EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meOwnerType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~meOwnerType", "type": "links_to"}
 {"label": "Get and Set Folder Permissions (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/Get_and_Set_Folder_Permissions_Example_VBNET", "type": "links_to"}
 {"label": "Get and Set Folder Permissions (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/Get_and_Set_Folder_Permissions_Example_CSharp", "type": "links_to"}
 {"label": "IEdmUserMgr7::GetFolderPermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~GetFolderPermissions", "type": "links_to"}
@@ -946,6 +1115,20 @@
 {"label": "meOwnerType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlOwnerID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~meOwnerType", "type": "links_to"}
 {"label": "EdmFolderPermission Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlOwnerID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission", "type": "links_to"}
 {"label": "EdmFolderPermission Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlOwnerID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mlFileID", "type": "links_to"}
+{"label": "mlFileParentFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mlFileParentFolderID", "type": "links_to"}
+{"label": "mbsConfiguration", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsConfiguration", "type": "links_to"}
+{"label": "mlFileVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mlFileVersion", "type": "links_to"}
+{"label": "mbsFileFolderPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsFileFolderPath", "type": "links_to"}
+{"label": "mbsFileName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsFileName", "type": "links_to"}
+{"label": "mlItemID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mlItemID", "type": "links_to"}
+{"label": "mlItemParentFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mlItemParentFolderID", "type": "links_to"}
+{"label": "enum EdmItemLinkType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemLinkType", "type": "links_to"}
+{"label": "meLinkType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~meLinkType", "type": "links_to"}
+{"label": "mbsItemFolderPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsItemFolderPath", "type": "links_to"}
+{"label": "mbsItemName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsItemName", "type": "links_to"}
+{"label": "mbsItemAlternativeName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mbsItemAlternativeName", "type": "links_to"}
+{"label": "mhResult", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo~mhResult", "type": "links_to"}
 {"label": "Add Items (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/Add_Items_Example_CSharp", "type": "links_to"}
 {"label": "Add Items (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/Add_Items_Example_VBNET", "type": "links_to"}
 {"label": "IEdmBatchItemGeneration::GenerateItems", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~GenerateItems", "type": "links_to"}
@@ -1011,6 +1194,14 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpReply", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmUserMgr7::GetFolderPermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetPermFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~GetFolderPermissions", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetPermFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlVersion", "type": "links_to"}
+{"label": "mlLatestVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlLatestVersion", "type": "links_to"}
+{"label": "mbsRevision", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mbsRevision", "type": "links_to"}
+{"label": "mbsState", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mbsState", "type": "links_to"}
+{"label": "mbsWorkflow", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mbsWorkflow", "type": "links_to"}
+{"label": "mbsCategory", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mbsCategory", "type": "links_to"}
+{"label": "mlDateFmt", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlDateFmt", "type": "links_to"}
+{"label": "mlEdmGetVarDataFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlEdmGetVarDataFlags", "type": "links_to"}
 {"label": "Get File Variable Data (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/Get_File_Variable_Data_Example_VBNET", "type": "links_to"}
 {"label": "Get File Variable Data (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/Get_File_Variable_Data_Example_CSharp", "type": "links_to"}
 {"label": "IEdmEnumeratorVariable7::GetVersionVars", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7~GetVersionVars", "type": "links_to"}
@@ -1042,12 +1233,31 @@
 {"label": "EdmGetVarData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlLatestVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members", "type": "links_to"}
 {"label": "EdmGetVarData Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData", "type": "links_to"}
 {"label": "EdmGetVarData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData~mlVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members", "type": "links_to"}
+{"label": "mbsName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbsName", "type": "links_to"}
+{"label": "mbsDescription", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbsDescription", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlFlags", "type": "links_to"}
+{"label": "mlSysRights", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlSysRights", "type": "links_to"}
+{"label": "mbAutoAdd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbAutoAdd", "type": "links_to"}
+{"label": "moMembers", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~moMembers", "type": "links_to"}
+{"label": "mlGroupID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlGroupID", "type": "links_to"}
+{"label": "mhStatus", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mhStatus", "type": "links_to"}
 {"label": "IEdmUserGroup5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5", "type": "links_to"}
 {"label": "mpoGroup", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup", "type": "links_to"}
 {"label": "IEdmUserMgr6::AddGroups", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups", "type": "links_to"}
 {"label": "EdmGroupData2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "type": "links_to"}
 {"label": "EdmGroupData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mbsName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mbsName", "type": "links_to"}
+{"label": "mbsDescription", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mbsDescription", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mlFlags", "type": "links_to"}
+{"label": "enum EdmSysPerm", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm", "type": "links_to"}
+{"label": "moSysPerms", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~moSysPerms", "type": "links_to"}
+{"label": "mbAutoAdd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mbAutoAdd", "type": "links_to"}
+{"label": "moMembers", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~moMembers", "type": "links_to"}
+{"label": "mlGroupID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mlGroupID", "type": "links_to"}
+{"label": "mhStatus", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mhStatus", "type": "links_to"}
+{"label": "IEdmUserGroup5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5", "type": "links_to"}
+{"label": "mpoGroup", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mpoGroup", "type": "links_to"}
 {"label": "Vault Utilities (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/Vault_Utilities_Example_VBNET", "type": "links_to"}
 {"label": "Vault Utilities (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/Vault_Utilities_Example_CSharp", "type": "links_to"}
 {"label": "EdmGroupData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "type": "links_to"}
@@ -1119,6 +1329,18 @@
 {"label": "EdmGroupDataFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags", "type": "links_to"}
 {"label": "EdmGroupData Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData", "type": "links_to"}
 {"label": "EdmGroupData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members", "type": "links_to"}
+{"label": "enum EdmHistoryType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~meType", "type": "links_to"}
+{"label": "moDate", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~moDate", "type": "links_to"}
+{"label": "mlVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mlVersion", "type": "links_to"}
+{"label": "mlUserID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mlUserID", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mlFileID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mlFolderID", "type": "links_to"}
+{"label": "mbsItemName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mbsItemName", "type": "links_to"}
+{"label": "mbsUserName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mbsUserName", "type": "links_to"}
+{"label": "mbsComment", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~mbsComment", "type": "links_to"}
+{"label": "struct EdmCmdData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "type": "links_to"}
+{"label": "moData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~moData", "type": "links_to"}
 {"label": "Get Histories of Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/Get_Histories_of_Files_Example_VBNET", "type": "links_to"}
 {"label": "Get Histories of Files (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/Get_Histories_of_Files_Example_CSharp", "type": "links_to"}
 {"label": "IEdmHistory", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory", "type": "links_to"}
@@ -1224,6 +1446,14 @@
 {"label": "EdmLicense Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~meType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense_members", "type": "links_to"}
 {"label": "EdmLicense Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~mlUserCount", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense", "type": "links_to"}
 {"label": "EdmLicense Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~mlUserCount", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense_members", "type": "links_to"}
+{"label": "mbsCaption", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~mbsCaption", "type": "links_to"}
+{"label": "mlEdmListColFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~mlEdmListColFlags", "type": "links_to"}
+{"label": "EdmColType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColType", "type": "links_to"}
+{"label": "meColType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~meColType", "type": "links_to"}
+{"label": "mlVariableID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~mlVariableID", "type": "links_to"}
+{"label": "EdmVariableType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType", "type": "links_to"}
+{"label": "meVarType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~meVarType", "type": "links_to"}
+{"label": "mlWidth", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol~mlWidth", "type": "links_to"}
 {"label": "Get File References for a File (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/Get_File_References_for_File_Example_CSharp", "type": "links_to"}
 {"label": "Get File References for a File (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/Get_File_References_for_File_Example_VBNET", "type": "links_to"}
 {"label": "IEdmSearch10", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10", "type": "links_to"}
@@ -1267,6 +1497,22 @@
 {"label": "EdmListFile Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmBatchListing4::GetFiles2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4~GetFiles2", "type": "links_to"}
+{"label": "mbHasLockRights", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbHasLockRights", "type": "links_to"}
+{"label": "mbLocalOverwrittenVersionObsolete", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbLocalOverwrittenVersionObsolete", "type": "links_to"}
+{"label": "mbsLockComputer", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbsLockComputer", "type": "links_to"}
+{"label": "mbsLockPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbsLockPath", "type": "links_to"}
+{"label": "mbsLockUser", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbsLockUser", "type": "links_to"}
+{"label": "mbsLockViewID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbsLockViewID", "type": "links_to"}
+{"label": "mbsRevisionName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mbsRevisionName", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlFileID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlFolderID", "type": "links_to"}
+{"label": "mlLatestVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlLatestVersion", "type": "links_to"}
+{"label": "mlLocalVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlLocalVersion", "type": "links_to"}
+{"label": "mlLockProjectID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlLockProjectID", "type": "links_to"}
+{"label": "mlParam", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlParam", "type": "links_to"}
+{"label": "moColumnData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~moColumnData", "type": "links_to"}
+{"label": "EdmWorkflowInfo", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "type": "links_to"}
+{"label": "moCurrentState", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~moCurrentState", "type": "links_to"}
 {"label": "Get File References for a File (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/Get_File_References_for_File_Example_CSharp", "type": "links_to"}
 {"label": "Get File References for a File (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/Get_File_References_for_File_Example_VBNET", "type": "links_to"}
 {"label": "EdmListFile", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile", "type": "links_to"}
@@ -1345,6 +1591,10 @@
 {"label": "EdmListFile Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile~moCurrentState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile", "type": "links_to"}
 {"label": "EdmListFile Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile~moCurrentState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile_members", "type": "links_to"}
 {"label": "IEdmBatchListing::GetFolders", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFolders", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mlFolderID", "type": "links_to"}
+{"label": "mlParam", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mlParam", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mbsPath", "type": "links_to"}
+{"label": "moColumnData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~moColumnData", "type": "links_to"}
 {"label": "EdmListFolder Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EdmListFolder members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_fields", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members", "type": "links_to"}
@@ -1395,6 +1645,8 @@
 {"label": "IEdmVault5::MsgBox", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~MsgBox", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlUserID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder~mlUserID", "type": "links_to"}
+{"label": "mlFolderID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder~mlFolderID", "type": "links_to"}
 {"label": "Add and Remove User and Group from Folder (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder", "target": "API_GB/Add_and_Remove_User_and_Group_from_Folder_Example_CSharp", "type": "links_to"}
 {"label": "Add and Remove User and Group from Folder (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder", "target": "API_GB/Add_and_Remove_User_and_Group_from_Folder_Example_VBNET", "type": "links_to"}
 {"label": "IEdmUserGroup7::AddMembersWithFolders", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup7~AddMembersWithFolders", "type": "links_to"}
@@ -1460,6 +1712,8 @@
 {"label": "Get and Set Folder Permissions (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "target": "API_GB/Get_and_Set_Folder_Permissions_Example_CSharp", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmVault5::GetObject Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject", "type": "links_to"}
+{"label": "mlX", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint~mlX", "type": "links_to"}
+{"label": "mlY", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint~mlY", "type": "links_to"}
 {"label": "Graph a Workflow (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint", "target": "API_GB/Graph_Workflow_Example_VBNET", "type": "links_to"}
 {"label": "Graph a Workflow (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint", "target": "API_GB/Graph_Workflow_Example_CSharp", "type": "links_to"}
 {"label": "EdmPoint Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members", "type": "links_to"}
@@ -1482,6 +1736,11 @@
 {"label": "IEdmUnlockOpCallback::ProgressEnd Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressEnd", "type": "links_to"}
 {"label": "IEdmUnlockOpCallback::ProgressStep Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStep", "type": "links_to"}
 {"label": "IEdmUnlockOpCallback::ProgressStepEvent Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent", "type": "links_to"}
+{"label": "mbsRefID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mbsRefID", "type": "links_to"}
+{"label": "mbsIncludePath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mbsIncludePath", "type": "links_to"}
+{"label": "mbsRefName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mbsRefName", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mlFlags", "type": "links_to"}
+{"label": "mlCount", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mlCount", "type": "links_to"}
 {"label": "Update File Raw References (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/Update_File_Raw_References_Example_CSharp", "type": "links_to"}
 {"label": "Update File Raw References (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/Update_File_Raw_References_Example_VBNET", "type": "links_to"}
 {"label": "IEdmRawReferenceMgr", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr", "type": "links_to"}
@@ -1512,6 +1771,10 @@
 {"label": "EdmRawReference", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlLeft", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect~mlLeft", "type": "links_to"}
+{"label": "mlTop", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect~mlTop", "type": "links_to"}
+{"label": "mlRight", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect~mlRight", "type": "links_to"}
+{"label": "mlBottom", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect~mlBottom", "type": "links_to"}
 {"label": "Graph a Workflow (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/Graph_Workflow_Example_VBNET", "type": "links_to"}
 {"label": "Graph a Workflow (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/Graph_Workflow_Example_CSharp", "type": "links_to"}
 {"label": "EdmRect Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_members", "type": "links_to"}
@@ -1550,6 +1813,14 @@
 {"label": "EdmCmd::mlEdmRefreshFlags Field", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlEdmRefreshFlags", "type": "links_to"}
 {"label": "IEdmRefItem::GetRefs", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~GetRefs", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlVarID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mlVarID", "type": "links_to"}
+{"label": "mlParentFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mlParentFileID", "type": "links_to"}
+{"label": "mlParentVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mlParentVersion", "type": "links_to"}
+{"label": "mlChildFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mlChildFileID", "type": "links_to"}
+{"label": "mbsChildCfgName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mbsChildCfgName", "type": "links_to"}
+{"label": "mbsParentCfgName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mbsParentCfgName", "type": "links_to"}
+{"label": "moValue", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~moValue", "type": "links_to"}
+{"label": "mhResult", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar~mhResult", "type": "links_to"}
 {"label": "Batch Get and Set Reference Variables (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/Batch_Get_and_Set_Reference_Variables_Example_VBNET", "type": "links_to"}
 {"label": "Batch Get and Set Reference Variables (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/Batch_Get_and_Set_Reference_Variables_Example_CSharp", "type": "links_to"}
 {"label": "IEdmBatchRefVars", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars", "type": "links_to"}
@@ -1594,6 +1865,12 @@
 {"label": "IEdmRevisionMgr2.::GetRevisionNumberComponents2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2", "type": "links_to"}
 {"label": "EdmRevComponent Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlComponentID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlComponentID", "type": "links_to"}
+{"label": "mbsComponentName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mbsComponentName", "type": "links_to"}
+{"label": "mlEdmRevComponentFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevComponentFlags", "type": "links_to"}
+{"label": "mbsData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mbsData", "type": "links_to"}
+{"label": "mlRecipientID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlRecipientID", "type": "links_to"}
+{"label": "mlInitialCounter", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlInitialCounter", "type": "links_to"}
 {"label": "Find Revisions Using Component (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/Find_Revisions_Using_Component_Example_CSharp", "type": "links_to"}
 {"label": "Find Revisions Using Component (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/Find_Revisions_Using_Component_Example_VBNET", "type": "links_to"}
 {"label": "Set Initial Revision (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2", "target": "API_GB/Set_Initial_Revision_Example_VBNET", "type": "links_to"}
@@ -1636,6 +1913,8 @@
 {"label": "EdmRevComponent Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent", "type": "links_to"}
 {"label": "EdmRevComponent Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent_members", "type": "links_to"}
 {"label": "IEdmRevisionMgr::SetRevisionCounters", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~SetRevisionCounters", "type": "links_to"}
+{"label": "mbsComponentName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter~mbsComponentName", "type": "links_to"}
+{"label": "mlCounter", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter~mlCounter", "type": "links_to"}
 {"label": "Set Initial Revision (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/Set_Initial_Revision_Example_VBNET", "type": "links_to"}
 {"label": "Set Initial Revision (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/Set_Initial_Revision_Example_CSharp", "type": "links_to"}
 {"label": "EdmRevCounter Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members", "type": "links_to"}
@@ -1651,6 +1930,8 @@
 {"label": "EdmRevCounter Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter~mlCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter", "type": "links_to"}
 {"label": "EdmRevCounter Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter~mlCounter", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members", "type": "links_to"}
 {"label": "IEdmRevisionMgr::Commit", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~Commit", "type": "links_to"}
+{"label": "mlFileID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError~mlFileID", "type": "links_to"}
+{"label": "mhError", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError~mhError", "type": "links_to"}
 {"label": "Set Initial Revision (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/Set_Initial_Revision_Example_VBNET", "type": "links_to"}
 {"label": "Set Initial Revision (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/Set_Initial_Revision_Example_CSharp", "type": "links_to"}
 {"label": "EdmRevError Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_members", "type": "links_to"}
@@ -1667,6 +1948,9 @@
 {"label": "EdmRevError Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError~mlFileID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError", "type": "links_to"}
 {"label": "EdmRevError Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError~mlFileID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_members", "type": "links_to"}
 {"label": "IEdmRevisionMgr2::GetRevisionNumbers", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumbers", "type": "links_to"}
+{"label": "mlRevNoID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo~mlRevNoID", "type": "links_to"}
+{"label": "mbsRevNoName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo~mbsRevNoName", "type": "links_to"}
+{"label": "mbsData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo~mbsData", "type": "links_to"}
 {"label": "Find Revisions Using Component (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/Find_Revisions_Using_Component_Example_CSharp", "type": "links_to"}
 {"label": "Find Revisions Using Component (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/Find_Revisions_Using_Component_Example_VBNET", "type": "links_to"}
 {"label": "IEdmRevisionMgr2::GetRevisionNumberComponents2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2", "type": "links_to"}
@@ -1696,6 +1980,14 @@
 {"label": "IEdmSearch6::SetToken", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSearchToken", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSearchToken", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmSelectionList6::GetNext2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6~GetNext2", "type": "links_to"}
+{"label": "EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~meType", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mbsPath", "type": "links_to"}
+{"label": "mlID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mlID", "type": "links_to"}
+{"label": "mlProjectID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mlProjectID", "type": "links_to"}
+{"label": "mlGetVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mlGetVersion", "type": "links_to"}
+{"label": "mlLocalVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mlLocalVersion", "type": "links_to"}
+{"label": "mlLatestVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject~mlLatestVersion", "type": "links_to"}
 {"label": "Batch Change States of Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/Batch_Change_States_of_Files_Example_VBNET", "type": "links_to"}
 {"label": "Batch Change States of Files (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/Batch_Change_States_of_Files_Example_CSharp", "type": "links_to"}
 {"label": "EdmSelectionObject Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_members", "type": "links_to"}
@@ -1734,6 +2026,11 @@
 {"label": "Prevent Admin from Checking In File (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem", "target": "API_GB/Prevent_Admin_from_Checking_In_File_Example_VBNET", "type": "links_to"}
 {"label": "EdmSelItem Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2~meType", "type": "links_to"}
+{"label": "mlID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2~mlID", "type": "links_to"}
+{"label": "mlParentID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2~mlParentID", "type": "links_to"}
+{"label": "mlVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2~mlVersion", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/Schedule_Task_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/Schedule_Task_Addin_Example_CSharp", "type": "links_to"}
 {"label": "Create a Task that Finds Files in Workflow States (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2", "target": "API_GB/Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET", "type": "links_to"}
@@ -1770,6 +2067,10 @@
 {"label": "IEdmObject5::ID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID", "type": "links_to"}
 {"label": "EdmSelItem Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem", "type": "links_to"}
 {"label": "EdmSelItem Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem~mlProjID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem_members", "type": "links_to"}
+{"label": "VersionNo", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~VersionNo", "type": "links_to"}
+{"label": "XRefDocumentID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefDocumentID", "type": "links_to"}
+{"label": "XRefProjectID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefProjectID", "type": "links_to"}
+{"label": "XRefVersionNo", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefVersionNo", "type": "links_to"}
 {"label": "EdmSimpleXRefInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EdmSimpleXRefInfo members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo_fields", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo_members", "type": "links_to"}
@@ -1789,6 +2090,11 @@
 {"label": "IEdmFile5::ChangeState", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "enum EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meOwnerType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~meOwnerType", "type": "links_to"}
+{"label": "mlOwnerID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlOwnerID", "type": "links_to"}
+{"label": "mlStateID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlStateID", "type": "links_to"}
+{"label": "mlEdmRightFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlEdmRightFlag", "type": "links_to"}
 {"label": "IEdmUserMgr9::GetStatePermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~GetStatePermissions", "type": "links_to"}
 {"label": "IEdmUserMgr9::SetStatePermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~SetStatePermissions", "type": "links_to"}
 {"label": "EdmStatePermission Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members", "type": "links_to"}
@@ -1827,6 +2133,9 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "Programming Tasks", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag", "target": "API_GB/Tasks", "type": "links_to"}
 {"label": "IEdmTaskMgr::RunTask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr~RunTask", "type": "links_to"}
+{"label": "mbsTaskName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mbsTaskName", "type": "links_to"}
+{"label": "mllShortTaskInfoFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mllShortTaskInfoFlags", "type": "links_to"}
+{"label": "mlTaskID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mlTaskID", "type": "links_to"}
 {"label": "EdmTaskInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "Programming Tasks", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "target": "API_GB/Tasks", "type": "links_to"}
@@ -1846,6 +2155,10 @@
 {"label": "EdmTaskInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mlTaskID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo", "type": "links_to"}
 {"label": "EdmTaskInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mlTaskID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members", "type": "links_to"}
 {"label": "IEdmTaskProperties::SetMenuCmds", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds", "type": "links_to"}
+{"label": "mlCmdID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlCmdID", "type": "links_to"}
+{"label": "mbsMenuString", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mbsMenuString", "type": "links_to"}
+{"label": "mlEdmMenuFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlEdmMenuFlags", "type": "links_to"}
+{"label": "mbsStatusBarHelp", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mbsStatusBarHelp", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/Schedule_Task_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Create a Task that Finds Approved Files (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/Schedule_Task_Addin_Example_CSharp", "type": "links_to"}
 {"label": "EdmTaskMenuCmd Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd_members", "type": "links_to"}
@@ -1869,6 +2182,12 @@
 {"label": "EdmTaskMenuCmd Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlEdmMenuFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd", "type": "links_to"}
 {"label": "EdmTaskMenuCmd Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlEdmMenuFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd_members", "type": "links_to"}
 {"label": "IEdmTaskProperties::SetSel", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSel", "type": "links_to"}
+{"label": "EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~meType", "type": "links_to"}
+{"label": "mlID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mlID", "type": "links_to"}
+{"label": "mlParentID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mlParentID", "type": "links_to"}
+{"label": "mlVersion", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mlVersion", "type": "links_to"}
+{"label": "mbsConfiguration", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mbsConfiguration", "type": "links_to"}
 {"label": "EdmTaskSel Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "Programming Tasks", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "target": "API_GB/Tasks", "type": "links_to"}
@@ -1893,6 +2212,9 @@
 {"label": "EdmTaskSel Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mlVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel", "type": "links_to"}
 {"label": "EdmTaskSel Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~mlVersion", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel_members", "type": "links_to"}
 {"label": "IEdmTaskProperties::SetSetupPages", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages", "type": "links_to"}
+{"label": "mbsPageName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage~mbsPageName", "type": "links_to"}
+{"label": "mlPageHwnd", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage~mlPageHwnd", "type": "links_to"}
+{"label": "mpoPageImpl", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage~mpoPageImpl", "type": "links_to"}
 {"label": "Create a Task that Finds Files in Workflow States (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET", "type": "links_to"}
 {"label": "Create a Task that Finds Files in Workflow States (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/Schedule_Task_to_Find_Files_in_State_Addin_Example_CSharp", "type": "links_to"}
 {"label": "EdmTaskSetupPage Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members", "type": "links_to"}
@@ -1916,6 +2238,11 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmTaskInstance::GetStatus Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetStatus", "type": "links_to"}
 {"label": "IEdmTaskInstance::SetStatus Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetStatus", "type": "links_to"}
+{"label": "enum EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
+{"label": "meOwnerType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~meOwnerType", "type": "links_to"}
+{"label": "mlOwnerID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~mlOwnerID", "type": "links_to"}
+{"label": "mlTransitionID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~mlTransitionID", "type": "links_to"}
+{"label": "mlEdmRightFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~mlEdmRightFlag", "type": "links_to"}
 {"label": "IEdmUserMgr9::GetTransitionPermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~GetTransitionPermissions", "type": "links_to"}
 {"label": "IEdmUserMgr9::SetTransitionPermissions", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~SetTransitionPermissions", "type": "links_to"}
 {"label": "EdmTransitionPermission Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission_members", "type": "links_to"}
@@ -1944,6 +2271,10 @@
 {"label": "IEdmBatchUnlock", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock", "type": "links_to"}
 {"label": "Bitmask", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags", "target": "API_GB/Bitmasks", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlDocID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo~mlDocID", "type": "links_to"}
+{"label": "mbsConfigName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo~mbsConfigName", "type": "links_to"}
+{"label": "mlVarID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo~mlVarID", "type": "links_to"}
+{"label": "mbsVarName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo~mbsVarName", "type": "links_to"}
 {"label": "Prevent Admin from Checking In File (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/Prevent_Admin_from_Checking_In_File_Example_CSharp", "type": "links_to"}
 {"label": "Prevent Admin from Checking In File (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/Prevent_Admin_from_Checking_In_File_Example_VBNET", "type": "links_to"}
 {"label": "IEdmUnlockOpCallback::MsgBox", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~MsgBox", "type": "links_to"}
@@ -1989,9 +2320,36 @@
 {"label": "IEdmBatchUnlock2::GetStatus", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockStatusFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2~GetStatus", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockStatusFlag", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EdmUserData2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "type": "links_to"}
+{"label": "mbsUserName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsUserName", "type": "links_to"}
+{"label": "mbsInitials", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsInitials", "type": "links_to"}
+{"label": "mbsCompleteName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsCompleteName", "type": "links_to"}
+{"label": "mbsUserData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsUserData", "type": "links_to"}
+{"label": "mbsPassword", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsPassword", "type": "links_to"}
+{"label": "mbsEmail", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsEmail", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mlFlags", "type": "links_to"}
+{"label": "mlSysRights", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mlSysRights", "type": "links_to"}
+{"label": "mbsColumnView", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mbsColumnView", "type": "links_to"}
+{"label": "mlUserID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mlUserID", "type": "links_to"}
+{"label": "mhStatus", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mhStatus", "type": "links_to"}
+{"label": "IEdmUser6", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6", "type": "links_to"}
+{"label": "mpoUser", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mpoUser", "type": "links_to"}
 {"label": "IEdmUserMgr6::AddUsers", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers", "type": "links_to"}
 {"label": "EdmUserData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mbsUserName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsUserName", "type": "links_to"}
+{"label": "mbsInitials", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsInitials", "type": "links_to"}
+{"label": "mbsCompleteName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsCompleteName", "type": "links_to"}
+{"label": "mbsUserData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsUserData", "type": "links_to"}
+{"label": "mbsPassword", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsPassword", "type": "links_to"}
+{"label": "mbsEmail", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsEmail", "type": "links_to"}
+{"label": "mlFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mlFlags", "type": "links_to"}
+{"label": "EdmSysPerm", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm", "type": "links_to"}
+{"label": "moSysPerms", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~moSysPerms", "type": "links_to"}
+{"label": "mbsColumnView", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mbsColumnView", "type": "links_to"}
+{"label": "mlUserID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mlUserID", "type": "links_to"}
+{"label": "mhStatus", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mhStatus", "type": "links_to"}
+{"label": "IEdmUser6", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6", "type": "links_to"}
+{"label": "mpoUser", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mpoUser", "type": "links_to"}
 {"label": "Add Users (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/Add_Users_Example_CSharp", "type": "links_to"}
 {"label": "Add Users (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/Add_Users_Example_VBNET", "type": "links_to"}
 {"label": "Add and Remove User and Group from Folder (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2", "target": "API_GB/Add_and_Remove_User_and_Group_from_Folder_Example_CSharp", "type": "links_to"}
@@ -2047,6 +2405,20 @@
 {"label": "EdmUserData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "type": "links_to"}
 {"label": "EdmUserData Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mlUserID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mlUserID", "type": "links_to"}
+{"label": "mlEdmUserDataExFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mlEdmUserDataExFlags", "type": "links_to"}
+{"label": "mbsInitials", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsInitials", "type": "links_to"}
+{"label": "mbsCompleteName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsCompleteName", "type": "links_to"}
+{"label": "mbsUserData", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsUserData", "type": "links_to"}
+{"label": "mbsEmail", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsEmail", "type": "links_to"}
+{"label": "mbsPhone", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsPhone", "type": "links_to"}
+{"label": "mbsCellPhone", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsCellPhone", "type": "links_to"}
+{"label": "mbsPicturePath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsPicturePath", "type": "links_to"}
+{"label": "mbsWebSite1", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsWebSite1", "type": "links_to"}
+{"label": "mbsWebSite2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsWebSite2", "type": "links_to"}
+{"label": "mbsWebSite3", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsWebSite3", "type": "links_to"}
+{"label": "mbsWebSite4", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsWebSite4", "type": "links_to"}
+{"label": "mbsPresenceNote", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mbsPresenceNote", "type": "links_to"}
 {"label": "Find Users (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/Find_Users_Example_VBNET", "type": "links_to"}
 {"label": "Find Users (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/Find_Users_Example_CSharp", "type": "links_to"}
 {"label": "IEdmUser10::GetUserDataEx", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~GetUserDataEx", "type": "links_to"}
@@ -2134,6 +2506,11 @@
 {"label": "IEdmVault7::CreateUtility", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmVariableMgr6::AddVariables", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6~AddVariables", "type": "links_to"}
+{"label": "mbsVariableName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mbsVariableName", "type": "links_to"}
+{"label": "meType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~meType", "type": "links_to"}
+{"label": "mlEdmVariableFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mlEdmVariableFlags", "type": "links_to"}
+{"label": "mpoAttributes", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mpoAttributes", "type": "links_to"}
+{"label": "mlVariableID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mlVariableID", "type": "links_to"}
 {"label": "Add Card Variables to Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/Add_Variables_to_Vault_Example_VBNET", "type": "links_to"}
 {"label": "Add Card Variables to Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/Add_Variables_to_Vault_Example_CSharp", "type": "links_to"}
 {"label": "EdmVariableData Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members", "type": "links_to"}
@@ -2164,6 +2541,9 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarOp", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "IEdmBatchItemGeneration2::AddSelection2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2~AddSelection2", "type": "links_to"}
+{"label": "mlEdmVarValFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal~mlEdmVarValFlags", "type": "links_to"}
+{"label": "moVarIDorName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal~moVarIDorName", "type": "links_to"}
+{"label": "moValue", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal~moValue", "type": "links_to"}
 {"label": "Add Items (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/Add_Items_Example_CSharp", "type": "links_to"}
 {"label": "Add Items (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/Add_Items_Example_VBNET", "type": "links_to"}
 {"label": "EdmVarVal Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members", "type": "links_to"}
@@ -2184,6 +2564,11 @@
 {"label": "EdmVarVal Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal~moVarIDorName", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal", "type": "links_to"}
 {"label": "EdmVarVal Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal~moVarIDorName", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members", "type": "links_to"}
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVaultType", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
+{"label": "mbsVaultName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsVaultName", "type": "links_to"}
+{"label": "mbsViewID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsViewID", "type": "links_to"}
+{"label": "mbsVaultID", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsVaultID", "type": "links_to"}
+{"label": "mbsPath", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsPath", "type": "links_to"}
+{"label": "mbLoggedIn", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbLoggedIn", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_CSharp", "type": "links_to"}
 {"label": "Destroy Deleted Files in Vault (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/Destroy_Deleted_Files_in_Vault_Example_VBNET", "type": "links_to"}
 {"label": "Add Items (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "target": "API_GB/Add_Items_Example_CSharp", "type": "links_to"}
@@ -2209,6 +2594,9 @@
 {"label": "EdmViewInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsVaultName", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo_members", "type": "links_to"}
 {"label": "EdmViewInfo Structure", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsViewID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo", "type": "links_to"}
 {"label": "EdmViewInfo Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo~mbsViewID", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo_members", "type": "links_to"}
+{"label": "mbsStateName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo~mbsStateName", "type": "links_to"}
+{"label": "mbsStateIcon", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo~mbsStateIcon", "type": "links_to"}
+{"label": "mbsWorkflowName", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo~mbsWorkflowName", "type": "links_to"}
 {"label": "Get File References for a File (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/Get_File_References_for_File_Example_CSharp", "type": "links_to"}
 {"label": "Get File References for a File (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/Get_File_References_for_File_Example_VBNET", "type": "links_to"}
 {"label": "EdmListFile2", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2", "type": "links_to"}
@@ -2823,7 +3211,7 @@
 {"label": "IEdmBatchChangeState Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState_members", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "type": "has_member"}
 {"label": "IEdmBatchChangeState", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState", "type": "member_of"}
-{"label": "IEdmBatchChangeState4::ChangeState2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~ChangeState2", "type": "links_to"}
+{"label": "IEdmBatchChangeState4::ChangeState2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~ChangeState2", "type": "links_to"}
 {"label": "IEdmCallback", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback", "type": "links_to"}
 {"label": "IEdmBatchChangeState::CreateTree", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree", "type": "links_to"}
 {"label": "IEdmBatchChangeState2::CreateTreeForRevoke", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke", "type": "links_to"}
@@ -5500,7 +5888,7 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_properties", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "type": "has_member"}
 {"label": "IEdmFile5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5", "type": "member_of"}
-{"label": "IEdmFile10::ChangeState2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile10~ChangeState2", "type": "links_to"}
+{"label": "IEdmFile10::ChangeState2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile10~ChangeState2", "type": "links_to"}
 {"label": "IEdmState5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5", "type": "links_to"}
 {"label": "EdmStateFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags", "type": "links_to"}
 {"label": "Return Codes", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState", "target": "API_GB/ReturnCodes", "type": "links_to"}
@@ -6065,7 +6453,7 @@
 {"label": "EPDM.Interop.epdm Namespace", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_properties", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm_namespace", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "type": "has_member"}
 {"label": "IEdmFolder5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "type": "member_of"}
-{"label": "IEdmFolder8::AddFile2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2", "type": "links_to"}
+{"label": "IEdmFolder8::AddFile2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2", "type": "links_to"}
 {"label": "EdmAddFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag", "type": "links_to"}
 {"label": "IEdmFolder5::CopyFile", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "type": "links_to"}
 {"label": "IEdmFolder5::AddFileShared", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFileShared", "type": "links_to"}
@@ -6099,7 +6487,7 @@
 {"label": "IEdmFolder5::CreateFolderPath Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateFolderPath", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "type": "has_member"}
 {"label": "IEdmFolder5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "type": "member_of"}
-{"label": "IEdmFolder8::CopyFile2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~CopyFile2", "type": "links_to"}
+{"label": "IEdmFolder8::CopyFile2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~CopyFile2", "type": "links_to"}
 {"label": "EdmCopyFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyFlag", "type": "links_to"}
 {"label": "Vault Utilities (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/Add_File_Example_CSharp", "type": "links_to"}
 {"label": "Vault Utilities (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile", "target": "API_GB/Add_File_Example_VBNET", "type": "links_to"}
@@ -6270,7 +6658,7 @@
 {"label": "IEdmFolder5::GetFile Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetSubFolder", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFile", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "type": "has_member"}
 {"label": "IEdmFolder5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5", "type": "member_of"}
-{"label": "IEdmFolder5::HasRightsEx .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx", "type": "links_to"}
+{"label": "IEdmFolder5::HasRightsEx.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx", "type": "links_to"}
 {"label": "EdmRightFlags", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags", "type": "links_to"}
 {"label": "IEdmFolder5::HasRightsEx", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx", "type": "links_to"}
 {"label": "Return codes", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights", "target": "API_GB/ReturnCodes", "type": "links_to"}
@@ -6789,7 +7177,7 @@
 {"label": "Get and Set Item References (VB.NET)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/Get_and_Set_Item_References_Example_VBNET", "type": "links_to"}
 {"label": "Get and Set Item References (C#)", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/Get_and_Set_Item_References_Example_CSharp", "type": "links_to"}
 {"label": "IEdmObject5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5", "type": "links_to"}
-{"label": "IEdmFile X", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5", "type": "links_to"}
+{"label": "IEdmFile`X`", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5", "type": "links_to"}
 {"label": "EdmObjectType", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType", "type": "links_to"}
 {"label": "Programming Items", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/Items", "type": "links_to"}
 {"label": "IEdmVault5::GetObject", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject", "type": "links_to"}
@@ -7016,7 +7404,7 @@
 {"label": "IEdmMenu6::GetItems Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~GetToolbarItemIDs", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6~GetItems", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "type": "has_member"}
 {"label": "IEdmMenu5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5", "type": "member_of"}
-{"label": "IEdmMenu7::OnMenuItem2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2", "type": "links_to"}
+{"label": "IEdmMenu7::OnMenuItem2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2", "type": "links_to"}
 {"label": "List of selected files", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5", "type": "links_to"}
 {"label": "List of selected folders", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5", "type": "links_to"}
 {"label": "EdmRefreshFlag", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag", "type": "links_to"}
@@ -7432,7 +7820,7 @@
 {"label": "IEdmReference5::SetCustomData Method ()", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetCustomData", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~SetCustomData", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "type": "has_member"}
 {"label": "IEdmReference5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5", "type": "member_of"}
-{"label": "IEdmReference7::GetFirstChildPosition2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstChildPosition2", "type": "links_to"}
+{"label": "IEdmReference7::GetFirstChildPosition2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstChildPosition2", "type": "links_to"}
 {"label": "Position", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5", "type": "links_to"}
 {"label": "IEdmReference5::GetNextChild", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextChild", "type": "links_to"}
 {"label": "Return code", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/ReturnCodes", "type": "links_to"}
@@ -7440,7 +7828,7 @@
 {"label": "IEdmReference5 Members", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChildPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members", "type": "links_to"}
 {"label": "method", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "type": "has_member"}
 {"label": "IEdmReference5", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5", "type": "member_of"}
-{"label": "IEdmReference7::GetFirstParentPosition2 .", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstParentPosition2", "type": "links_to"}
+{"label": "IEdmReference7::GetFirstParentPosition2.", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstParentPosition2", "type": "links_to"}
 {"label": "Position", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5", "type": "links_to"}
 {"label": "IEdmReference6::GetNextParent", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextParent", "type": "links_to"}
 {"label": "Return code", "source": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstParentPosition", "target": "API_GB/ReturnCodes", "type": "links_to"}
@@ -11266,6 +11654,8 @@
 {"label": "IEdmBatchItemGeneration2", "source": "API_GB/Items", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2", "type": "links_to"}
 {"label": "IEdmBatchItemReferenceUpdate", "source": "API_GB/Items", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate", "type": "links_to"}
 {"label": "IEdmItem", "source": "API_GB/Items", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem", "type": "links_to"}
+{"label": "IEdmVault5::SetAddInWnd", "source": "API_GB/KeepWindowInfront", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~SetAddInWnd", "type": "links_to"}
+{"label": "IEdmVault8::GetWin32Window", "source": "API_GB/KeepWindowInfront", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8~GetWin32Window", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Load_Addin_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Load_Addin_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Log_Into_Vault_and_Display_Information_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
@@ -11519,5 +11909,25 @@
 {"label": "Using .NET Framework in Add-in Applications", "source": "API_GB/Using_NET_Framework_in_Applications", "target": "API_GB/Using_NET_Framework_in_Addins", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Vault_Utilities_Example_CSharp", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
 {"label": "Using .NET Framework 4.0 in Stand-alone Applications", "source": "API_GB/Vault_Utilities_Example_VBNET", "target": "API_GB/Using_NET_Framework_in_Applications", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Creating Menu Commands (VB.NET)", "source": "API_GB/vbcardbutton", "target": "API_GB/vbmenuitem", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5::SetVar", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar", "type": "links_to"}
+{"label": "IEdmEnumeratorVariable5::GetVar", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar", "type": "links_to"}
+{"label": "EdmCmdData::mpoExtra", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra", "type": "links_to"}
+{"label": "IEdmStrLst5", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5", "type": "links_to"}
+{"label": "EdmCmdData", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData", "type": "links_to"}
+{"label": "EdmCmdData::mlLongData1", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData1", "type": "links_to"}
+{"label": "EdmCardFlag", "source": "API_GB/vbcardbutton", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardFlag", "type": "links_to"}
 {"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/vbmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "EdmMenuFlags.EdmMenu_MustHaveSelection", "source": "API_GB/vbmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/vbmenuitem", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/vbreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/vbreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
 {"label": "IEdmCmdMgr5::AddHook", "source": "API_GB/vbreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddHook", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PreUndoLock", "source": "API_GB/vbreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "EdmCmdType.EdmCmd_PostUndoLock", "source": "API_GB/vbreactor", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType", "type": "links_to"}
+{"label": "other types of hooks", "source": "API_GB/vbserno", "target": "API_GB/vbreactor", "type": "links_to"}
+{"label": "IEdmAddIn5::GetAddInInfo", "source": "API_GB/vbserno", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo", "type": "links_to"}
+{"label": "IEdmAddIn5::OnCmd", "source": "API_GB/vbserno", "target": "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd", "type": "links_to"}
+{"label": "Creating Menu Commands (VB.NET)", "source": "API_GB/vbserno", "target": "API_GB/vbmenuitem", "type": "links_to"}

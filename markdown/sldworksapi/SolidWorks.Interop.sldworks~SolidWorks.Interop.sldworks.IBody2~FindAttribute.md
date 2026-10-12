@@ -51,35 +51,24 @@ Attribute^ FindAttribute(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AttributeDef`: Pointer to the[attribute definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html)that you want to find
+- `AttributeDef`: Pointer to the [attribute definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html) that you want to find
 - `WhichOne`: Instance number of this type on the body (0, 1, 2, 3, and so on)
 
 ### Return Value
 
-Pointer to the[attribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html)instance
+Pointer to the [attribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html) instance
 
 ## VBA Syntax
 
-See
-
-[Body2::FindAttribute](ms-its:sldworksapivb6.chm::/sldworks~Body2~FindAttribute.html)
-
-.
+See [Body2::FindAttribute](ms-its:sldworksapivb6.chm::/sldworks~Body2~FindAttribute.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

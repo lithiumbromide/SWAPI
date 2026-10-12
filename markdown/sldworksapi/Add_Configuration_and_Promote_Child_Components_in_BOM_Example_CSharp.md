@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Configuration_and_Promote_Child_Components_in_BOM_Examp
 
 # Add Configuration and Promote Child Components in BOM Example (C#)
 
-This example shows how to add a configuration to an assembly and promote its
-child components one level in a BOM.
+This example shows how to add a configuration to an assembly and promote its child components one level in a BOM.
 
 ```
 //----------------------------------------

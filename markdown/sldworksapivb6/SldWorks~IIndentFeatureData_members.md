@@ -1,6 +1,5 @@
 ---
-title: "IIndentFeatureData Object
-Members"
+title: "IIndentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IIndentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IIndentFeatureData_members.html"
 ---
 
-# IIndentFeatureData Object
-Members
+# IIndentFeatureData Object Members
 
 ## Public Methods
 

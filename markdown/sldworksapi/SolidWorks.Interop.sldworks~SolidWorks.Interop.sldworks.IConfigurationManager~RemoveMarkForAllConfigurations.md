@@ -40,13 +40,7 @@ System.bool RemoveMarkForAllConfigurations()
 System.bool RemoveMarkForAllConfigurations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if marks removed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::RemoveMarkForAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~RemoveMarkForAllConfigurations.html)
-
-.
+See [ConfigurationManager::RemoveMarkForAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~RemoveMarkForAllConfigurations.html).
 
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IConfigurationManager::AddRebuildSaveMark Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddRebuildSaveMark.html)
 
 ## Availability

@@ -39,34 +39,21 @@ void SetPickMode()
 void SetPickMode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetPickMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetPickMode.html)
-
-.
+See [ModelDoc2::SetPickMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetPickMode.html).
 
 ## Examples
 
 [Extend Sketch Entity (VBA)](Extend_Sketch_Entity_Example_VB.htm)
-
 [Extend Sketch Entity (VB.NET)](Extend_Sketch_Entity_Example_VBNET.htm)
-
 [Extend Sketch Entity (C#)](Extend_Sketch_Entity_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

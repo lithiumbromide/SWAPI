@@ -45,13 +45,7 @@ property System.bool HighlightClashes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if clash highlighting is enabled, false if it is disabled
 
 ## VBA Syntax
 
-See
-
-[DragOperator::HighlightClashes](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~HighlightClashes.html)
-
-.
+See [DragOperator::HighlightClashes](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~HighlightClashes.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ This property enables visual feedback when collisions occur between components s
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::HearClashes Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~HearClashes.html)
 
 ## Availability

@@ -54,15 +54,13 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports property sheet events ( e.g., SwPropertySheet.h), include:
 
+```vb
 BEGIN_SINK_MAP(CSwPropertySheet)
-
 SINK_ENTRY_EX(ID_SWPROPERTYSHEET_EVENTS, DIID_DSwPropertySheetEvents, swPropertySheetCreateControlNotify, CreateControlNotify)
-
 SINK_ENTRY_EX(ID_SWPROPERTYSHEET_EVENTS, DIID_DSwPropertySheetEvents, swPropertySheetDestroyNotify, DestroyNotify)
-
 END_SINK_MAP()
-
-If developing a C++ application, use these enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for[ISWPropertySheet](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)events.
+If developing a C++ application, use these enumerators to register for notifications for ISWPropertySheet events.
+```
 
 ## See Also
 

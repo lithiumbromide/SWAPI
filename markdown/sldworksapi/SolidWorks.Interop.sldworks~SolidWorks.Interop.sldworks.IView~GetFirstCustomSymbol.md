@@ -40,24 +40,13 @@ System.object GetFirstCustomSymbol()
 System.Object^ GetFirstCustomSymbol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstCustomSymbol](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstCustomSymbol.html)
-
-.
+See [View::GetFirstCustomSymbol](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstCustomSymbol.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

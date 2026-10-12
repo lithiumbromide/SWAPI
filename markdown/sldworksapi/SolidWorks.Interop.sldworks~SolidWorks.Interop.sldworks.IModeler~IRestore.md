@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IRestore Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::IRestore2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IRestore2.html)
-
-.
+Obsolete. Superseded by [IModeler::IRestore2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IRestore2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Body^ IRestore(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::IRestore](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IRestore.html)
-
-.
+See [Modeler::IRestore](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IRestore.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

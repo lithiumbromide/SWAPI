@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetAdvancedSaveAsOptions Method (IModelDocExtension)
 
-Gets the advanced
-
-File > Save As
-
-options.
+Gets the advanced **File > Save As** options.
 
 ## Syntax
 
@@ -51,25 +47,11 @@ System.Object^ GetAdvancedSaveAsOptions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Options`: Save with references options as defined in
-
-[swSaveWithReferencesOptions](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveWithReferencesOptions_e.html)
-
-(see
-
-Remarks
-
-)
+- `Options`: Save with references options as defined in [swSaveWithReferencesOptions](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveWithReferencesOptions_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -77,30 +59,21 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetAdvancedSaveAsOptions](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAdvancedSaveAsOptions.html)
-
-.
+See [ModelDocExtension::GetAdvancedSaveAsOptions](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAdvancedSaveAsOptions.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
-example.
+See the [IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html) example.
 
 ## Remarks
 
-Call this method before calling[IModelDocExtension::SaveAs3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs3.html).
+Call this method before calling [IModelDocExtension::SaveAs3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs3.html).
 
-[IAdvancedSaveAsOptions::GetItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~GetItemsNameAndPath.html)returns a list of items according to how the Options parameter is specified in this method.
+[IAdvancedSaveAsOptions::GetItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~GetItemsNameAndPath.html) returns a list of items according to how the Options parameter is specified in this method.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

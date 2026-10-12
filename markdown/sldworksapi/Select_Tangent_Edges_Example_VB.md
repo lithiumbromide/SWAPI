@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Tangent_Edges_Example_VB.htm"
 
 # Select Tangent Edges via Iteration Example (VBA)
 
-This example shows how to select tangent edges by iterating through
-an edge’s coedges and selecting all edges with tangent vectors.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This example shows how to select tangent edges by iterating through an edge’s coedges and selecting all edges with tangent vectors.
 
 ```
 '------------------------------------------------------------------
@@ -41,7 +40,7 @@ Sub main()
 ```
 
 ```
-    ' Access the running SOLIDWORKS application
+    ' Access the running SOLIDWORKS Design application
     Set swApp = GetObject(, "SldWorks.Application")
     If swApp Is Nothing Then Exit Sub
 ```

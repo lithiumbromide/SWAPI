@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetFaceId Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFaceId.html)
-
-.
+Obsolete. Superseded by [IFace2::GetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFaceId.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetFaceId()
 System.int GetFaceId();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFaceId.html)
-
-.
+See [Face::GetFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFaceId.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

@@ -46,18 +46,12 @@ System.int64 GetHWnd64();
 
 ## VBA Syntax
 
-See
-
-[ToolBoxConfiguratorApplication::GetHWnd64](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~GetHWnd64.html)
-
-.
+See [ToolBoxConfiguratorApplication::GetHWnd64](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~GetHWnd64.html).
 
 ## See Also
 
 [IToolBoxConfiguratorApplication Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html)
-
 [IToolBoxConfiguratorApplication Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication_members.html)
-
 [IToolBoxConfiguratorApplication::GetHWnd Method](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~GetHWnd.html)
 
 ## Availability

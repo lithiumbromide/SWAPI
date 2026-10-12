@@ -45,42 +45,23 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 0.0 < Angle in degrees of texture rotation < 360.0
 
-begin!kadov{{
-
-}}end!kadov
-
 ## VBA Syntax
 
-See
-
-[Texture::Angle](ms-its:sldworksapivb6.chm::/sldworks~Texture~Angle.html)
-
-.
+See [Texture::Angle](ms-its:sldworksapivb6.chm::/sldworks~Texture~Angle.html).
 
 ## Examples
 
-See the
-
-[ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
-examples.
+See the [ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html) examples.
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
 
 ## Availability

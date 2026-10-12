@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # ICWMesh Interface Properties
 
-For a list of all members of this type, see[ICWMesh members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html).
+For a list of all members of this type, see [ICWMesh members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html).
 
 ## Public Properties
 
@@ -32,8 +32,7 @@ For a list of all members of this type, see[ICWMesh members](SolidWorks.Interop.
 | Property | MesherType | Gets or sets the type of mesh. |
 | Property | MeshState | Gets the mesh state. |
 | Property | MeshType | Returns the mesh type. |
-| Property | MinElementsInCircle | Gets or sets the minimum number of elements around a circle to determine the maximum
-angle in a curvature-based mesh. |
+| Property | MinElementsInCircle | Gets or sets the minimum number of elements around a circle to determine the maximum angle in a curvature-based mesh. |
 | Property | MinElementSize | Gets the minimum element size used for boundaries with highest curvature in a curvature-based mesh. |
 | Property | NegativeJacobianRatioCheck | Obsolete. Superseded by ICWMesh::NegativeJacobianRatioCheck2 . |
 | Property | NegativeJacobianRatioCheck2 | Gets or sets whether to check for a negative Jacobian ratio while meshing. |
@@ -57,11 +56,7 @@ angle in a curvature-based mesh. |
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWStudy::CopyMeshFromStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CopyMeshFromStudy.html)
-
 [ICWStudy::CreateMesh Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)

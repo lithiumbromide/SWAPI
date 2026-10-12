@@ -40,13 +40,7 @@ System.object GetDesignTableExtent()
 System.Object^ GetDesignTableExtent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Array of 6 doubles; the lower left (x,y,z) and upper right (x,y,z) values indica
 
 ## VBA Syntax
 
-See
-
-[View::GetDesignTableExtent](ms-its:sldworksapivb6.chm::/sldworks~View~GetDesignTableExtent.html)
-
-.
+See [View::GetDesignTableExtent](ms-its:sldworksapivb6.chm::/sldworks~View~GetDesignTableExtent.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::HasDesignTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~HasDesignTable.html)
-
 [IView::IGetDesignTableExtent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDesignTableExtent.html)
 
 ## Availability

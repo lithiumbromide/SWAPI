@@ -45,13 +45,7 @@ property System.bool EqualSpacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,20 @@ True to equally space the pattern instances in Direction 1, false to not
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::EqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~EqualSpacing.html)
-
-.
+See [LocalCircularPatternFeatureData::EqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~EqualSpacing.html).
 
 ## Examples
 
-See the
-
-[ILocalCircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
-example.
+See the [ILocalCircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html) example.
 
 ## Remarks
 
-If this property is set to true, then
-
-[ILocalCircularPatternFeatureData::Spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~Spacing.html)
-
-is automatically set to 360 degrees.
+If this property is set to true, then [ILocalCircularPatternFeatureData::Spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~Spacing.html) is automatically set to 360 degrees.
 
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
-
 [ILocalCircularPatternFeatureData::EqualSpacing2 Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~EqualSpacing2.html)
 
 ## Availability

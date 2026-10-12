@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # ISetMaterialPropertyValues Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::ISetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ISetMaterialPropertyValues2.html)
-
-.
+Obsolete. Superseded by [IFeature::ISetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ISetMaterialPropertyValues2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool ISetMaterialPropertyValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Feature::ISetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~ISetMaterialPropertyValues.html)
-
-.
+See [Feature::ISetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~ISetMaterialPropertyValues.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

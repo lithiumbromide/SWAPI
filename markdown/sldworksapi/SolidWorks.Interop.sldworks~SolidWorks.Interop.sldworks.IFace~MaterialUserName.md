@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # MaterialUserName Property (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::MaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~MaterialUserName.html)
-
-.
+Obsolete. Superseded by [IFace2::MaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~MaterialUserName.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.String^ MaterialUserName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Face~MaterialUserName.html)
-
-.
+See [Face::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Face~MaterialUserName.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

@@ -56,9 +56,7 @@ IEdmCardControl5^ GetControl(
 ## See Also
 
 [IEdmCard5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)
-
 [IEdmCard5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5_members.html)
-
 [IEdmCard5::GetControlID Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5~GetControlID.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Find_Attribute_Example_VB.htm"
 
 # Find Attribute Example (VBA)
 
-This example shows how tokadov_tag{{<spaces>}}kadov_tag{{</spaces>}}find
-an attribute on the selected entity.
+This example shows how to find an attribute on the selected entity.
 
 ```
 '-------------------------------------------------------------

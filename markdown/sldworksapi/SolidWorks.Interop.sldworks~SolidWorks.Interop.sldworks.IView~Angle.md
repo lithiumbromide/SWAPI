@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Rotation angle in radians of the view
 
 ## VBA Syntax
 
-See
-
-[View::Angle](ms-its:sldworksapivb6.chm::/sldworks~View~Angle.html)
-
-.
+See [View::Angle](ms-its:sldworksapivb6.chm::/sldworks~View~Angle.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddRadialDimension Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddRadialDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddRadialDimension.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddRadialDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddRadialDimension.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool AddRadialDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AddRadialDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddRadialDimension.html)
-
-.
+See [ModelDoc::AddRadialDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddRadialDimension.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

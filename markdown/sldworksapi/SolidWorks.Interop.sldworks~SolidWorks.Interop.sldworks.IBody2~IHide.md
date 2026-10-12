@@ -46,13 +46,7 @@ void IHide(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,24 +54,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::IHide](ms-its:sldworksapivb6.chm::/sldworks~Body2~IHide.html)
-
-.
+See [Body2::IHide](ms-its:sldworksapivb6.chm::/sldworks~Body2~IHide.html).
 
 ## Remarks
 
-While SOLIDWORKS is displaying your IBody2 object using[IBody2::Display3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Display3.html), you cannot release it explicitly or implicitly. Before releasing or allowing your IBody2 object to be released, you must call this method to prevent it from being displayed.
+While SOLIDWORKS is displaying your IBody2 object using [IBody2::Display3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Display3.html), you cannot release it explicitly or implicitly. Before releasing or allowing your IBody2 object to be released, you must call this method to prevent it from being displayed.
 
 COM applications should avoid explicitly releasing the IBody2 object by calling IBody2->Release() while it is being displayed by SOLIDWORKS.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::Hide Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~Hide.html)
 
 ## Availability

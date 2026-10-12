@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # TextVisible Property (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::TextDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~TextDisplay.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::TextDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~TextDisplay.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool TextVisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::TextVisible](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~TextVisible.html)
-
-.
+See [CustomSymbol::TextVisible](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~TextVisible.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

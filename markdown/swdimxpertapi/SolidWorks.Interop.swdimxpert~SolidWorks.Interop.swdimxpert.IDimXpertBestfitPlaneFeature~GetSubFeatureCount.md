@@ -46,22 +46,16 @@ Number of sub-features in this DimXpert best fit plane
 
 ## VBA Syntax
 
-See
-
-[DimXpertBestfitPlaneFeature::GetSubFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBestfitPlaneFeature~GetSubFeatureCount.html)
-
-.
+See [DimXpertBestfitPlaneFeature::GetSubFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBestfitPlaneFeature~GetSubFeatureCount.html).
 
 ## Examples
 
 [Get DimXpert Width And Best Fit Plane Features Example (VBA)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VB.htm)
-
 [Get DimXpert Width And Best Fit Plane Features Example (VB.NET)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertBestfitPlaneFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature.html)
-
 [IDimXpertBestfitPlaneFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature_members.html)
 
 ## Availability

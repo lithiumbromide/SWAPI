@@ -45,13 +45,7 @@ property System.bool HearClashes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the sound for clashes is enabled, false if it is disabled
 
 ## VBA Syntax
 
-See
-
-[DragOperator::HearClashes](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~HearClashes.html)
-
-.
+See [DragOperator::HearClashes](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~HearClashes.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ This property enables audio feedback when collisions occur between components se
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::HighlightClashes Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~HighlightClashes.html)
 
 ## Availability

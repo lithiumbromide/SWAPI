@@ -42,13 +42,7 @@ property System.int TextureFilenameID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ ID of the texture file name
 
 ## VBA Syntax
 
-See
-
-[FaceDecalProperties::TextureFilenameID](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureFilenameID.html)
-
-.
+See [FaceDecalProperties::TextureFilenameID](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureFilenameID.html).
 
 ## Examples
 
-See
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-examples.
+See [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) examples.
 
 ## See Also
 
 [IFaceDecalProperties Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
 [IFaceDecalProperties Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties_members.html)
-
 [IFaceDecalProperties::TextureFilename Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureFilename.html)
 
 ## Availability

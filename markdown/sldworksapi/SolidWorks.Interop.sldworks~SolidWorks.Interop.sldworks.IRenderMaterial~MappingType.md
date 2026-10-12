@@ -45,13 +45,7 @@ property System.int MappingType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,7 +53,7 @@ See
 
 1 = Projection
 
-2kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= Spherical
+2 = Spherical
 
 3 = Cylindrical
 
@@ -67,24 +61,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::MappingType](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MappingType.html)
-
-.
+See [RenderMaterial::MappingType](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MappingType.html).
 
 ## Examples
 
-See the "Add Decal" examples in
-
-[IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html)
-
-.
+See the "Add Decal" examples in [IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

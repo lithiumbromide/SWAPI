@@ -35,5 +35,4 @@ System.int mlComponentID
 ## See Also
 
 [EdmRevComponent Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent.html)
-
 [EdmRevComponent Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent_members.html)

@@ -46,6 +46,7 @@ public enum class swPublishTo3DPDFError_e : public System.Enum
 | swPublishTo3DPDF_InvalidTheme | 2 |
 | swPublishTo3DPDF_MBDLicenseNotAvailable | 4 |
 | swPublishTo3DPDF_NothingToPublish | 5 |
+| swPublishTo3DPDF_Step242EditionError | 6 |
 | swPublishTo3DPDF_Success | 0 |
 | swPublishTo3DPDF_UnknownError | 3 |
 

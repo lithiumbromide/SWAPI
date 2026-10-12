@@ -42,13 +42,7 @@ property System.int64 HWndx64 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,22 +50,16 @@ Handle for this model window
 
 ## VBA Syntax
 
-See
-
-[ModelWindow::HWndx64](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~HWndx64.html)
-
-.
+See [ModelWindow::HWndx64](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~HWndx64.html).
 
 ## Remarks
 
-This property is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This property is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 ## See Also
 
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)
-
 [IModelWindow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html)
-
 [IModelWindow::HWnd Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow~HWnd.html)
 
 ## Availability

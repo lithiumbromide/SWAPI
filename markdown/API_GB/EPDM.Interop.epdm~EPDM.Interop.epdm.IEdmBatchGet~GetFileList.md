@@ -39,25 +39,15 @@ EdmSelectionList5^ GetFileList(
 
 ### Parameters
 
-- `lEdmGetFileListFlags`: Combination of
-
-[EdmGetFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFileListFlag.html)
-
-bits
+- `lEdmGetFileListFlags`: Combination of [EdmGetFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFileListFlag.html) bits
 
 ### Return Value
 
-[IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html)
-
-; list of files in this batch
+[IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html); list of files in this batch
 
 ## Examples
 
-See the
-
-[IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
-examples.
+See the [IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html) examples.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [IEdmBatchGet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html)
 
 ## Availability

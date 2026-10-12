@@ -45,13 +45,7 @@ property System.int CausticAmount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Maximum number of photons fired
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::CausticAmount](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CausticAmount.html)
-
-.
+See [RayTraceRendererOptions::CausticAmount](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CausticAmount.html).
 
 ## Remarks
 
@@ -72,11 +62,8 @@ Increasing the amount of photons fired creates sharper and clearer caustics but 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::CausticQuality Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CausticQuality.html)
-
 [IRayTraceRendererOptions::DirectCaustics Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~DirectCaustics.html)
 
 ## Availability

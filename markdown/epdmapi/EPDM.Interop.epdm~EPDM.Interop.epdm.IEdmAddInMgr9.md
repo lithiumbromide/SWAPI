@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9.html"
 
 Allows you to administer add-ins.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,19 +37,13 @@ public interface class IEdmAddInMgr9 : public IEdmAddInMgr5, IEdmAddInMgr6, IEdm
 ## Examples
 
 [Install Add-in (VB.NET)](Load_Addin_Example_VBNET.htm)
-
 [Install Add-in (C#)](Load_Addin_Example_CSharp.htm)
 
 ## Remarks
 
-This interface extends
-
-[IEdmAddInMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8.html)
-
-by providing the ability to uninstall an add-in.
+This interface extends [IEdmAddInMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8.html) by providing the ability to uninstall an add-in.
 
 ## See Also
 
 [IEdmAddInMgr9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

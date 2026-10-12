@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AutoInferToggle Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::AutoInference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AutoInference.html)
-
-.
+Obsolete. Superseded by [ISketchManager::AutoInference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AutoInference.html).
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void AutoInferToggle()
 void AutoInferToggle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AutoInferToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AutoInferToggle.html)
-
-.
+See [ModelDoc2::AutoInferToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AutoInferToggle.html).
 
 ## Remarks
 
@@ -66,11 +52,8 @@ Inferencing mode can be seen when creating a sketch segment and you mouse moves 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetInferenceMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetInferenceMode.html)
-
 [IModelDoc2::GetInferenceMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetInferenceMode.html)
 
 ## Availability

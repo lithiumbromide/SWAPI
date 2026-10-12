@@ -47,13 +47,7 @@ System.Object^ GetCoEdgesAtGap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,38 +55,27 @@ See
 
 ### Return Value
 
-Array of
-
-[coedges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge.html)
+Array of [coedges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge.html)
 
 ## VBA Syntax
 
-See
-
-[DiagnoseResult::GetCoEdgesAtGap](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetCoEdgesAtGap.html)
-
-.
+See [DiagnoseResult::GetCoEdgesAtGap](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetCoEdgesAtGap.html).
 
 ## Examples
 
 [Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)
-
 [Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)
-
 [Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
 
 ## Remarks
 
-Call[IDiagnoseResult::GetGapsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~GetGapsCount.html)before calling this method to determine the index number of the gap to get on this body.
+Call [IDiagnoseResult::GetGapsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~GetGapsCount.html) before calling this method to determine the index number of the gap to get on this body.
 
 ## See Also
 
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
-
 [IDiagnoseResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult_members.html)
-
 [IDiagnoseResult::GetCoEdgesCountAtGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult~GetCoEdgesCountAtGap.html)
-
 [IDiagnoseResult::IGetCoEdgesAtGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult~IGetCoEdgesAtGap.html)
 
 ## Availability

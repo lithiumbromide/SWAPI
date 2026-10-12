@@ -40,36 +40,20 @@ System.object GetViews()
 System.Object^ GetViews();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of drawing
-
-[views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-on this sheet
+Array of drawing [views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) on this sheet
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetViews](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetViews.html)
-
-.
+See [Sheet::GetViews](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetViews.html).
 
 ## Examples
 
 [Get and Set Table Anchor of Hole Table (C#)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_CSharp.htm)
-
 [Get and Set Table Anchor of Hole Table (VB.NET)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_VBNET.htm)
-
 [Get and Set Table Anchor of Hole Table (VBA)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_VB.htm)
 
 ## Remarks
@@ -82,7 +66,6 @@ If this sheet is:
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

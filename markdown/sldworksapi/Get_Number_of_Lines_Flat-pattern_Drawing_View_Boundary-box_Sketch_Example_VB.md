@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_
 
 # Get the Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (VBA)
 
-This example shows how to get the number of lines in a flat-pattern drawing
-view's boundary-box sketch.
+This example shows how to get the number of lines in a flat-pattern drawing view's boundary-box sketch.
 
 ```
 '----------------------------------------------------------

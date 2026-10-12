@@ -42,13 +42,7 @@ property ModelDoc2^ Document {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::Document](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~Document.html)
-
-.
+See [ModelViewManager::Document](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~Document.html).
 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)
 
 ## Availability

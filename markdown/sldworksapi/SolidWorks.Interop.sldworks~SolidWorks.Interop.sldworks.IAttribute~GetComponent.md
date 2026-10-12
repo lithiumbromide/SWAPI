@@ -40,13 +40,7 @@ System.object GetComponent()
 System.Object^ GetComponent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Object for the component
 
 ## VBA Syntax
 
-See
-
-[Attribute::GetComponent](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetComponent.html)
-
-.
+See [Attribute::GetComponent](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetComponent.html).
 
 ## Examples
 
@@ -67,9 +57,7 @@ See
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)
-
 [IAttribute::IGetComponent2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute~IGetComponent2.html)
 
 ## Availability

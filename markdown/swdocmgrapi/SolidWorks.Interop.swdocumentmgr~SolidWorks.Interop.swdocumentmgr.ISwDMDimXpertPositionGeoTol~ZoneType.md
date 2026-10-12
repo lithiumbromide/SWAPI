@@ -44,17 +44,11 @@ property swDmDimXpertPositionZoneType_e ZoneType {
 
 ### Property Value
 
-Zone type for the position geometric tolerance as defined in
-
-[swDmDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPositionZoneType_e.html)
+Zone type for the position geometric tolerance as defined in [swDmDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPositionZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPositionGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPositionGeoTol~ZoneType.html)
-
-.
+See [SwDMDimXpertPositionGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPositionGeoTol~ZoneType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPositionGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPositionGeoTol.html)
-
 [ISwDMDimXpertPositionGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPositionGeoTol_members.html)
 
 ## Availability

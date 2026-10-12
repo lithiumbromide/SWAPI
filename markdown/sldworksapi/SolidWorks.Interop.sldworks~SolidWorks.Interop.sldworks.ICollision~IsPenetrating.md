@@ -40,13 +40,7 @@ System.bool IsPenetrating()
 System.bool IsPenetrating();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ True if components penetrate one another, false if they are only in contact
 
 ## VBA Syntax
 
-See
-
-[Collision::IsPenetrating](ms-its:sldworksapivb6.chm::/sldworks~Collision~IsPenetrating.html)
-
-.
+See [Collision::IsPenetrating](ms-its:sldworksapivb6.chm::/sldworks~Collision~IsPenetrating.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## See Also
 
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)
-
 [ICollision Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision_members.html)
 
 ## Availability

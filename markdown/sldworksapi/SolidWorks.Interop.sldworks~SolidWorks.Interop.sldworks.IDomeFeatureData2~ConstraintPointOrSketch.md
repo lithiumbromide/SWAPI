@@ -45,13 +45,7 @@ property System.Object^ ConstraintPointOrSketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Point or sketch for the dome feature
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData2::ConstraintPointOrSketch](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~ConstraintPointOrSketch.html)
-
-.
+See [DomeFeatureData2::ConstraintPointOrSketch](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~ConstraintPointOrSketch.html).
 
 ## Examples
 
@@ -71,12 +61,11 @@ See
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IDomeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2.html)
-
 [IDomeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2_members.html)
 
 ## Availability

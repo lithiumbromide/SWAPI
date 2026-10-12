@@ -67,32 +67,17 @@ True if editing the definition of the macro feature is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SwComFeature::Edit](ms-its:swpublishedapivb6.chm::/swpublished~SwComFeature~Edit.html)
-
-.
+See [SwComFeature::Edit](ms-its:swpublishedapivb6.chm::/swpublished~SwComFeature~Edit.html).
 
 ## Remarks
 
-This method is required. See
-
-[Exposed COM DLL or Executable and Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Exposed_COM_DLL_or_Executable.htm)
-
-and
-
-[Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm)
-
-for more information.
+This method is required. See [Exposed COM DLL or Executable and Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Exposed_COM_DLL_or_Executable.htm) and [Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm) for more information.
 
 ## See Also
 
 [ISwComFeature Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.html)
-
 [ISwComFeature Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature_members.html)
-
 [IFeatureManager::InsertSecurityNote Method](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSecurityNote.html)
-
 [IMacroFeatureData Interface](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData.html)
 
 ## Availability

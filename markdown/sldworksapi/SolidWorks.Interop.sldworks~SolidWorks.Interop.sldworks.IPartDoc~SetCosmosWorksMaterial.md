@@ -50,20 +50,12 @@ void SetCosmosWorksMaterial(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ConfigName`: Name of the configuration
-- `Type`: Type of material to assign as defined by
-
-[swCosmosWorksMat](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmosWorksMat.html)
+- `Type`: Type of material to assign as defined by [swCosmosWorksMat](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmosWorksMat.html)
 
 ### Return Value
 
@@ -71,18 +63,12 @@ True if the material is assigned, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::SetCosmosWorksMaterial](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetCosmosWorksMaterial.html)
-
-.
+See [PartDoc::SetCosmosWorksMaterial](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetCosmosWorksMaterial.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IComponent2::SetCosmosWorksMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SetCosmosWorksMaterial.html)
 
 ## Availability

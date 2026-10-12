@@ -45,13 +45,7 @@ property System.bool LinkParentConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ True to link a projected or auxiliary view with the parent configuration, false 
 
 ## VBA Syntax
 
-See
-
-[View::LinkParentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~View~LinkParentConfiguration.html)
-
-.
+See [View::LinkParentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~View~LinkParentConfiguration.html).
 
 ## Examples
 
 [Link Projected View to Parent Configuration (C#)](Link_Projected_View_to_Parent_Configuration_Example_CSharp.htm)
-
 [Link Projected View to Parent Configuration (VB.NET)](Link_Projected_View_to_Parent_Configuration_Example_VBNET.htm)
-
 [Link Projected View to Parent Configuration (VBA)](Link_Projected_View_to_Parent_Configuration_Example_VB.htm)
 
 ## Remarks
 
-After setting this property, call[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html).
+After setting this property, call [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

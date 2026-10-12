@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # RunStressHotSpotDiagnostics Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::RunStressHotSpotDiagnosticsAndDetectSingularities](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~RunStressHotSpotDiagnosticsAndDetectSingularities.html)
-
-.
+Obsolete. Superseded by [ICWResults::RunStressHotSpotDiagnosticsAndDetectSingularities](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~RunStressHotSpotDiagnosticsAndDetectSingularities.html).
 
 ## Syntax
 
@@ -62,50 +58,27 @@ System.int RunStressHotSpotDiagnostics(
 ### Parameters
 
 - `NSensitivityFactor`: 5 <= Highest equivalent strain percent <= 100
-- `BRunForNodes`: True to run for nodes, false to not (see
-
-Remarks
-
-)
-- `BFoundHotSpots`: True if stress hot spots are found, false if not (see
-
-Remarks
-
-)
+- `BRunForNodes`: True to run for nodes, false to not (see **Remarks**)
+- `BFoundHotSpots`: True if stress hot spots are found, false if not (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRunStressHotSpotDiagnosticsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStressHotSpotDiagnosticsError_e.html)
+Error code as defined in [swsRunStressHotSpotDiagnosticsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStressHotSpotDiagnosticsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::RunStressHotSpotDiagnostics](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~RunStressHotSpotDiagnostics.html)
-
-.
+See [CWResults::RunStressHotSpotDiagnostics](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~RunStressHotSpotDiagnostics.html).
 
 ## Remarks
 
 After calling this method, you can call:
 
-- [ICWResults::CreateStressHotSpotPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateStressHotSpotPlot.html)
-
-  and
-
-  [ICWResults::GetDetectedHotSpotElements](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDetectedHotSpotElements.html)
-
-  if BRunForNodes is false.
-- [ICWResults::GetDetectedHotSpotNodes](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDetectedHotSpotNodes.html)
-
-  if BRunForNodes is true.
+- [ICWResults::CreateStressHotSpotPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateStressHotSpotPlot.html) and [ICWResults::GetDetectedHotSpotElements](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDetectedHotSpotElements.html) if BRunForNodes is false.
+- [ICWResults::GetDetectedHotSpotNodes](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDetectedHotSpotNodes.html) if BRunForNodes is true.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

@@ -48,26 +48,13 @@ public enum class swUserPreferenceStringListValue_e : public System.Enum
 
 ## Remarks
 
-Use this enumeration with
-
-[ISldWorks::GetUserPreferenceStringListValue](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringListValue.html)
-
-and
-
-[ISldWorks::SetUserPreferenceStringListValue](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceStringListValue.html)
-
-.
+Use this enumeration with [ISldWorks::GetUserPreferenceStringListValue](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringListValue.html) and [ISldWorks::SetUserPreferenceStringListValue](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceStringListValue.html).
 
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceDoubleValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceDoubleValue_e.html)
-
 [swUserPreferenceIntegerValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
 [swUserPreferenceStringValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)
-
 [swUserPreferenceTextFormat_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceTextFormat_e.html)
-
 [swUserPreferenceToggle_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)

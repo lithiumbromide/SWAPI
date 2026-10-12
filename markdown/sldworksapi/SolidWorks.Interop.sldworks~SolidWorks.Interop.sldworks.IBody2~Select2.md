@@ -51,18 +51,12 @@ System.bool Select2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the selection list, false replaces the selection list
-- `Data`: Pointer to the[ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)object
+- `Data`: Pointer to the [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -70,24 +64,17 @@ True if the body was selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::Select2](ms-its:sldworksapivb6.chm::/sldworks~Body2~Select2.html)
-
-.
+See [Body2::Select2](ms-its:sldworksapivb6.chm::/sldworks~Body2~Select2.html).
 
 ## Examples
 
 [Move Bodies (C#)](Move_Bodies_Example_CSharp.htm)
-
 [Move Bodies (VB.NET)](Move_Bodies_Example_VBNET.htm)
-
 [Move Bodies (VBA)](Move_Bodies_Example_VB.htm)
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

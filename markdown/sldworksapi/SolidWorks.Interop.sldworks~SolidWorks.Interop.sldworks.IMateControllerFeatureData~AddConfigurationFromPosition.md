@@ -51,13 +51,7 @@ System.bool AddConfigurationFromPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,16 +64,11 @@ True if configuration successfully added, false if not
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::AddConfigurationFromPosition](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~AddConfigurationFromPosition.html)
-
-.
+See [MateControllerFeatureData::AddConfigurationFromPosition](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~AddConfigurationFromPosition.html).
 
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

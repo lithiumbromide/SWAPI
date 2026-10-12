@@ -9,123 +9,41 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__AddFeatureMgrView2.htm"
 
 # ModelDoc2::AddFeatureMgrView2
 
-This method is obsolete and has been superseded
-by[ModelDoc2::AddFeatureMgrView3](sldworksAPI.chm::/ModelDoc2/ModelDoc2__AddFeatureMgrView3.htm).
+This method is obsolete and has been superseded by [ModelDoc2::AddFeatureMgrView3](sldworksAPI.chm::/ModelDoc2/ModelDoc2__AddFeatureMgrView3.htm).
 
 Description
 
-If you have an existing CView, this method adds that view as a new FeatureManager
-design tree view.
+If you have an existing CView, this method adds that view as a new FeatureManager design tree view.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc2.AddFeatureMgrView2
-( bitmap, appView, toolTip)
+retval = ModelDoc2.AddFeatureMgrView2 ( bitmap, appView, toolTip)
 
-(Table)=========================================================
-
-| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design
-tree tab; the bitmap should be no larger than 16x18; this standard pointer
-is created by performing a New on CBitmap |
+| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design tree tab; the bitmap should be no larger than 16x18; this standard pointer is created by performing a New on CBitmap |
 | --- | --- | --- |
-| Input: | (long) appView | Pointer to an existing view that you want to use as your FeatureManager
-design tree view; if you do not have an existing view, then use ModelDoc2::CreateFeatureMgrView,
-which returns a view handle for you |
+| Input: | (long) appView | Pointer to an existing view that you want to use as your FeatureManager design tree view; if you do not have an existing view, then use ModelDoc2::CreateFeatureMgrView, which returns a view handle for you |
 | Input: | (BSTR) toolTip | ToolTip string |
-| Return: | (BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully,
-FALSE if not |
+| Return: | (BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully, FALSE if not |
 
 Syntax (COM)
 
-status = ModelDoc2->AddFeatureMgrView2
-( bitmap, appView, toolTip, &retval )
+status = ModelDoc2->AddFeatureMgrView2 ( bitmap, appView, toolTip, &retval )
 
-(Table)=========================================================
-
-| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design
-tree tab; the bitmap should be no larger than 16x18; this standard pointer
-is created by performing a New on CBitmap |
+| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design tree tab; the bitmap should be no larger than 16x18; this standard pointer is created by performing a New on CBitmap |
 | --- | --- | --- |
-| Input: | (long) appView | Pointer to an existing view that you want to use as your FeatureManager
-design tree view; if you do not have an existing view, then use ModelDoc2::CreateFeatureMgrView,
-which returns a view handle for you |
+| Input: | (long) appView | Pointer to an existing view that you want to use as your FeatureManager design tree view; if you do not have an existing view, then use ModelDoc2::CreateFeatureMgrView, which returns a view handle for you |
 | Input: | (BSTR) toolTip | ToolTip string |
-| Output: | (VARIANT_BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully,
-FALSE if not |
+| Output: | (VARIANT_BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully, FALSE if not |
 | Return: | (HRESULT)status | S_OK if successful |
 
 Remarks
 
-This method is identical to the earlier version, ModelDoc2::AddFeatureMgrView,
-except that this method provides an option for tool tips on your newly
-created FeatureManager design tree tab.
+This method is identical to the earlier version, ModelDoc2::AddFeatureMgrView, except that this method provides an option for tool tips on your newly created FeatureManager design tree tab.
 
-If you have an existing CView, this method adds that view as a new FeatureManager
-design tree view. This method also provides a parameter for adding a tab,
-which the user clicks to activate your view.
+If you have an existing CView, this method adds that view as a new FeatureManager design tree view. This method also provides a parameter for adding a tab, which the user clicks to activate your view.
 
-The FeatureManager design tree view added to this document is not persistent.
-In other words, the FeatureManager design tree view is not stored with
-this document and must be recreated upon reloading the document.
+The FeatureManager design tree view added to this document is not persistent. In other words, the FeatureManager design tree view is not stored with this document and must be recreated upon reloading the document.
 
-This method does not receive FeatMgrView::ActivateNotify and DeactivateNotify
-events.
+This method does not receive FeatMgrView::ActivateNotify and DeactivateNotify events.
 
-This view is generated by you and can be drawn into as you so desire.
-However, because you generated this view, you are responsible for deleting
-it. See ModelDoc2::DeleteFeatureMgrView for details on how to delete your
-FeatureManager design tree view.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc2\ModelDoc2__AddFeatureMgrView2.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc2\ModelDoc2__AddFeatureMgrView2.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This view is generated by you and can be drawn into as you so desire. However, because you generated this view, you are responsible for deleting it. See ModelDoc2::DeleteFeatureMgrView for details on how to delete your FeatureManager design tree view.

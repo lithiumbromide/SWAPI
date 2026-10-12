@@ -53,32 +53,20 @@ System.int SelectFaces(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_PreservedRegionErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_PreservedRegionErrors_e.html)
+Result code as defined in [swsTopologyStudy_PreservedRegionErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_PreservedRegionErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SelectFaces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SelectFaces.html)
-
-.
+See [CWTopologyPreservedRegion::SelectFaces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SelectFaces.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
-
 [ICWTopologyPreservedRegionControl::RemoveAllSelections Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~RemoveAllSelections.html)
 
 ## Availability

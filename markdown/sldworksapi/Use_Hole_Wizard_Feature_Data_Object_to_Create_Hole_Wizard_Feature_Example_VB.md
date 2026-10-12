@@ -9,8 +9,7 @@ source: "sldworksapi/Use_Hole_Wizard_Feature_Data_Object_to_Create_Hole_Wizard_F
 
 # Use Hole Wizard Feature Data Object to Create Hole Wizard Feature Example (VBA)
 
-This example shows how to use an existing hole wizard feature data object
-to create another hole wizard feature.
+This example shows how to use an existing hole wizard feature data object to create another hole wizard feature.
 
 ```
 '--------------------------------------------------------------
@@ -90,7 +89,7 @@ Sub main()
     Diameter = 0.5 * ConvFactorLength
     Depth = -1
     Length = -1
-    ' Value1 to Value12 arguments; SOLIDWORKS
+    ' Value1 to Value12 arguments; SOLIDWORKS Design
     ' ignores parameters set to -1
     CounterBoreDiameter = 0.6 * ConvFactorLength    'Value1
     CounterBoreDepth = 0.2 * ConvFactorLength       'Value2

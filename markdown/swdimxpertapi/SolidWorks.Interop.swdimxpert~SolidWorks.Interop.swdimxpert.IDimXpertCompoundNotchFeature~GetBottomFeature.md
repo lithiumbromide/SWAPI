@@ -46,24 +46,15 @@ DimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetBottomFeature.html)
-
-.
+See [DimXpertCompoundNotchFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetBottomFeature.html).
 
 ## Remarks
 
-Only blind notches have bottom features. The bottom feature of a blind notch is a
-
-[DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html)
-
-in which the plane is perpendicular to the notch axis.
+Only blind notches have bottom features. The bottom feature of a blind notch is a [DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html) in which the plane is perpendicular to the notch axis.
 
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

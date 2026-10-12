@@ -40,13 +40,7 @@ System.bool ReattachOrdinate()
 System.bool ReattachOrdinate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ True if the re-attachment is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ReattachOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ReattachOrdinate.html)
-
-.
+See [ModelDoc2::ReattachOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ReattachOrdinate.html).
 
 ## Remarks
 
-To use this method, you must first select the dimension to reattach and then call to[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)must be made that selects the new entity to which this dimension will be attached.
+To use this method, you must first select the dimension to reattach and then call to [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) must be made that selects the new entity to which this dimension will be attached.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDocExtension::AddOrdinateDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddOrdinateDimension.html)
-
 [IModelDoc2::EditOrdinate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditOrdinate.html)
-
 [IModelDoc2::AlignOrdinate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AlignOrdinate.html)
 
 ## Availability

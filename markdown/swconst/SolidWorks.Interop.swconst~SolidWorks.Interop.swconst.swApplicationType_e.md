@@ -43,8 +43,8 @@ public enum class swApplicationType_e : public System.Enum
 | Member | Description |
 | --- | --- |
 | swApplicationType_3DEXPERIENCE | 1 |
-| swApplicationType_Desktop | 0 |
-| swApplicationType_WithConnector | 2 |
+| swApplicationType_Desktop | 0 = SOLIDWORKS Design |
+| swApplicationType_WithConnector | 2 = SOLIDWORKS Design connected to the 3DEXPERIENCE platform |
 
 ## See Also
 

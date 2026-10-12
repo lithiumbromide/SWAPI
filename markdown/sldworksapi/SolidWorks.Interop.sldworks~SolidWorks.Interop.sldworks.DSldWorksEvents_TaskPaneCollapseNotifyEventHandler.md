@@ -37,21 +37,11 @@ public delegate System.int DSldWorksEvents_TaskPaneCollapseNotifyEventHandler()
 public delegate System.int DSldWorksEvents_TaskPaneCollapseNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[TaskPaneCollapseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~TaskPaneCollapseNotify_EV.html)
-
-.
+See [TaskPaneCollapseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~TaskPaneCollapseNotify_EV.html).
 
 ## Examples
 
@@ -59,7 +49,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use[swAppTaskPaneCollapseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppTaskPaneCollapseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

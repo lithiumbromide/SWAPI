@@ -47,13 +47,7 @@ System.bool SaveAsExcelFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the design table is saved to a Microsoft Excel file, false if not
 
 ## VBA Syntax
 
-See
-
-[DesignTable::SaveAsExcelFile](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~SaveAsExcelFile.html)
-
-.
+See [DesignTable::SaveAsExcelFile](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~SaveAsExcelFile.html).
 
 ## Examples
 
@@ -78,11 +68,8 @@ See
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::FileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~FileName.html)
-
 [IDesignTable::SourceType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SourceType.html)
 
 ## Availability

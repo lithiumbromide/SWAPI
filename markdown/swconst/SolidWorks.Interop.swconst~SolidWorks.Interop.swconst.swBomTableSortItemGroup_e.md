@@ -49,19 +49,13 @@ public enum class swBomTableSortItemGroup_e : public System.Enum
 
 ## Remarks
 
-These enumerator options are used by[IBomTableSortData::ItemGroups](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData~ItemGroups.html)to set the groupings for table sorting.
+These enumerator options are used by [IBomTableSortData::ItemGroups](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData~ItemGroups.html) to set the groupings for table sorting.
 
 For example, when you set IBomTableSortData::ItemGroups to the following array, assemblies are grouped first, parts are grouped second, and other categories are grouped last:
 
-1. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
-
-  .swBomTableSortItemGroup_Assemblies
-2. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
-
-  .swBomTableSortItemGroup_Parts
-3. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html)
-
-  .swBomTableSortItemGroup_Other
+1. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html).swBomTableSortItemGroup_Assemblies
+2. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html).swBomTableSortItemGroup_Parts
+3. [swBomTableSortItemGroup_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomTableSortItemGroup_e.html).swBomTableSortItemGroup_Other
 
 ## See Also
 

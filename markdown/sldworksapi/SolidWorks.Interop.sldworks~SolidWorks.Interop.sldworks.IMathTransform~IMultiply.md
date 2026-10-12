@@ -47,33 +47,19 @@ MathTransform^ IMultiply(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)by which to multiply the calling math transform
+- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) by which to multiply the calling math transform
 
 ### Return Value
 
-Newly created
-
-[math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-object or null if the operation fails
+Newly created [math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) object or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathTransform::IMultiply](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IMultiply.html)
-
-.
+See [MathTransform::IMultiply](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IMultiply.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ The resulting transform is the result of transforming math transform with respec
 ## See Also
 
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)
-
 [Multiply Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform~Multiply.html)
 
 ## Availability

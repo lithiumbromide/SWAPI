@@ -48,24 +48,17 @@ Name of solid component
 
 ## VBA Syntax
 
-See
-
-[CWSolidComponent::ComponentName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~ComponentName.html)
-
-.
+See [CWSolidComponent::ComponentName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~ComponentName.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## See Also
 
 [ICWSolidComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html)
-
 [ICWSolidComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent_members.html)
 
 ## Availability

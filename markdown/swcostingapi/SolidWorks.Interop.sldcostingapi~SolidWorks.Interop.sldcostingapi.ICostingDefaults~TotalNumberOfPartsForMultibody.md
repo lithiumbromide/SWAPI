@@ -51,22 +51,14 @@ Default total number of parts for multibody mode
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::TotalNumberOfPartsForMultibody](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~TotalNumberOfPartsForMultibody.html)
-
-.
+See [CostDefaults::TotalNumberOfPartsForMultibody](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~TotalNumberOfPartsForMultibody.html).
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::LotSizeForMultibody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~LotSizeForMultibody.html)
-
 [ICostingDefaults::TotalNumberOfPartsForSingleBody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~TotalNumberOfPartsForSingleBody.html)
-
 [ICostingDefaults::LotSizeForSingleBody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~LotSizeForSingleBody.html)
 
 ## Availability

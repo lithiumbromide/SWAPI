@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertCompoundHoleFeature Object
-Members"
+title: "SwDMDimXpertCompoundHoleFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertCompoundHoleFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertCompoundHoleFeature_members.html"
 ---
 
-# SwDMDimXpertCompoundHoleFeature Object
-Members
+# SwDMDimXpertCompoundHoleFeature Object Members
 
 ## Public Methods
 

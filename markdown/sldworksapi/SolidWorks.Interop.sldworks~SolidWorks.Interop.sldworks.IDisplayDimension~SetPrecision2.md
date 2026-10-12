@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetPrecision2 Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::SetPrecision3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetPrecision3.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::SetPrecision3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetPrecision3.html).
 
 ## Syntax
 
@@ -63,48 +59,26 @@ System.int SetPrecision2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Primary`: Number of digits displayed after the decimal point in the dimension value (see
-
-Remarks
-
-)
+- `Primary`: Number of digits displayed after the decimal point in the dimension value (see **Remarks**)
 - `Dual`: Number of digits displayed after the decimal point in the dual dimension value
-- `PrimaryTol`: Number of digits displayed after the decimal point in the tolerance value (see
-
-Remarks
-
-)
+- `PrimaryTol`: Number of digits displayed after the decimal point in the tolerance value (see **Remarks**)
 - `DualTol`: Number of digits displayed after the decimal point in the dual tolerance value
 
 ### Return Value
 
-Return status (see
-
-Remarks
-
-)
+Return status (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetPrecision2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetPrecision2.html)
-
-.
+See [DisplayDimension::SetPrecision2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetPrecision2.html).
 
 ## Remarks
 
-The specified precision values must be in the range from 0 to 8, which indicates the number of digits after the decimal place to display that value.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Alternatively, the precision values can be defined by[swDimensionPrecisionSettings_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionPrecisionSettings_e.html).
+The specified precision values must be in the range from 0 to 8, which indicates the number of digits after the decimal place to display that value. Alternatively, the precision values can be defined by [swDimensionPrecisionSettings_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionPrecisionSettings_e.html).
 
 | Parameter | swDimensionPrecisionSettings_e value | Result |
 | --- | --- | --- |
@@ -114,19 +88,18 @@ The specified precision values must be in the range from 0 to 8, which indicates
 
 The return value indicates the success or failure of this method. In general, a value less than 0 indicates that the method failed and SOLIDWORKS did not set any precision values. A value of 0 indicates success. A value greater than 0 indicates that a problem occurred, but the method did not fail.
 
-- -1kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Method failed; no precision values were set.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}0kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Method was successful; all precision values were set.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Primary precision value was invalid.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}2kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Alternate precision value was invalid.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}3kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Primary tolerance precision value was invalid.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}4kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Alternate tolerance precision value was invalid.
+- -1 Method failed; no precision values were set.
+- 0 Method was successful; all precision values were set.
+- 1 Primary precision value was invalid.
+- 2 Alternate precision value was invalid.
+- 3 Primary tolerance precision value was invalid.
+- 4 Alternate tolerance precision value was invalid.
 
-After using this method, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this method, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

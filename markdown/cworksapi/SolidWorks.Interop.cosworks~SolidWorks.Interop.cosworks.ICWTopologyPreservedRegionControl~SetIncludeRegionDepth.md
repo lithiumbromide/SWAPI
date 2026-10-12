@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetIncludeRegionDepth Method (ICWTopologyPreservedRegionControl)
 
-Obsolete. Superseded by
-
-[ICWTopologyPreservedRegionControl::SetIncludeRegionDepth2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth2.html)
-
-.
+Obsolete. Superseded by [ICWTopologyPreservedRegionControl::SetIncludeRegionDepth2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth2.html).
 
 ## Syntax
 
@@ -56,24 +52,15 @@ void SetIncludeRegionDepth(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SetIncludeRegionDepth](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetIncludeRegionDepth.html)
-
-.
+See [CWTopologyPreservedRegion::SetIncludeRegionDepth](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetIncludeRegionDepth.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

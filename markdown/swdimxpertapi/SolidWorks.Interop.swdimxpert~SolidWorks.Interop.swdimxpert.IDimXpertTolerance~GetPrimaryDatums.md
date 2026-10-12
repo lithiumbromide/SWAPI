@@ -42,32 +42,19 @@ System.Object^ GetPrimaryDatums();
 
 ### Return Value
 
-Array of
-
-[IDimXpertDatum](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDatum.html)
-
-s
+Array of [IDimXpertDatum](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDatum.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::GetPrimaryDatums](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetPrimaryDatums.html)
-
-.
+See [DimXpertTolerance::GetPrimaryDatums](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetPrimaryDatums.html).
 
 ## Remarks
 
-The members of the array returned by this method map to the members of the array returned by
-
-[IGetDimXpertTolerance::GetPrimaryDatumModifiers](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetPrimaryDatumModifiers.html)
-
-.
+The members of the array returned by this method map to the members of the array returned by [IGetDimXpertTolerance::GetPrimaryDatumModifiers](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetPrimaryDatumModifiers.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

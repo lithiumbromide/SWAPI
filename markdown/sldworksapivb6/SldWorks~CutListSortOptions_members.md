@@ -1,6 +1,5 @@
 ---
-title: "CutListSortOptions Object
-Members"
+title: "CutListSortOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CutListSortOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CutListSortOptions_members.html"
 ---
 
-# CutListSortOptions Object
-Members
+# CutListSortOptions Object Members
 
 ## Public Methods
 

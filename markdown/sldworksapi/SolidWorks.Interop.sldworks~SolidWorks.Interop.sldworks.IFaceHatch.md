@@ -9,17 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFaceHatch Interface
 
-Represents a cross-hatch, which is automatically added by SOLIDWORKS when you create a
+Represents a cross-hatch, which is automatically added by SOLIDWORKS when you create a [section view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html), aligned section view, break view, or [detail view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html).
 
-[section view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)
-
-, aligned section view, break view, or
-
-[detail view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -49,18 +41,12 @@ public interface class IFaceHatch
 
 ## VBA Syntax
 
-See
-
-[FaceHatch](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch.html)
-
-.
+See [FaceHatch](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch.html).
 
 ## Examples
 
 [Get Face Hatch Data (C#)](Get_Face_Hatch_Data_Example_CSharp.htm)
-
 [Get Face Hatch Data (VB.NET)](Get_Face_Hatch_Data_Example_VBNET.htm)
-
 [Get Face Hatch Data (VBA)](Get_Face_Hatch_Data_Example_VB.htm)
 
 ## Remarks
@@ -69,11 +55,7 @@ This interface is read-only.
 
 ## Accessors
 
-[IView::GetFaceHatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFaceHatches.html)
-
-and
-
-[IView::IGetFaceHatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFaceHatches.html)
+[IView::GetFaceHatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFaceHatches.html) and [IView::IGetFaceHatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFaceHatches.html)
 
 ## Access Diagram
 
@@ -82,7 +64,5 @@ and
 ## See Also
 
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # InsertSketchPicture Method (ISketchManager)
 
-Obsolete. Superseded by
-
-[ISketchManager::InsertSketchPicture2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~InsertSketchPicture2.html)
-
-.
+Obsolete. Superseded by [ISketchManager::InsertSketchPicture2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~InsertSketchPicture2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ SketchPicture^ InsertSketchPicture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,16 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::InsertSketchPicture](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~InsertSketchPicture.html)
-
-.
+See [SketchManager::InsertSketchPicture](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~InsertSketchPicture.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

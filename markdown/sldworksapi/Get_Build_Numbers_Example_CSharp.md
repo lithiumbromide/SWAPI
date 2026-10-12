@@ -9,12 +9,11 @@ source: "sldworksapi/Get_Build_Numbers_Example_CSharp.htm"
 
 # Get Build Numbers Example (C#)
 
-This example shows how to get the build, major revision, and hot fix numbers
-of the SOLIDWORKS application.
+This example shows how to get the build, major revision, and hot fix numbers of the SOLIDWORKS Design application.
 
 ```vb
  //--------------------------------------------------------
- // Preconditions: Open SOLIDWORKS.
+ // Preconditions: Open SOLIDWORKS Design.
  //
  // Postconditions: Inspect the Immediate window for build,
  // major revision, and hot fix numbers.

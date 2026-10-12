@@ -51,19 +51,11 @@ Name of the material
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CurrentMaterial.html)
-
-.
+See [CostAnalysisCasting::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CurrentMaterial.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings.
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
-
 [ICostAnalysisCasting::GetMaterialCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialCount.html)
-
 [ICostAnalysisCasting::GetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterials.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.object GetCoordinates()
 System.Object^ GetCoordinates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Array of doubles of the x, y, and z coordinates of the center of mass
 
 ## VBA Syntax
 
-See
-
-[CenterOfMass::GetCoordinates](ms-its:sldworksapivb6.chm::/sldworks~CenterOfMass~GetCoordinates.html)
-
-.
+See [CenterOfMass::GetCoordinates](ms-its:sldworksapivb6.chm::/sldworks~CenterOfMass~GetCoordinates.html).
 
 ## Examples
 
 [Get Centers of Mass in Drawing Views (VBA)](Get_Centers_of_Mass_in_Drawing_Views_Example_VB.htm)
-
 [Get Centers of Mass in Drawing Views (VB.NET)](Get_Centers_of_Mass_in_Drawing_Views_Example_VBNET.htm)
-
 [Get Centers of Mass in Drawing Views (C#)](Get_Centers_of_Mass_in_Drawing_Views_Example_CSharp.htm)
 
 ## See Also
 
 [ICenterOfMass Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass.html)
-
 [ICenterOfMass Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass_members.html)
-
 [ICenterOfMass::IGetCoordinates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass~IGetCoordinates.html)
 
 ## Availability

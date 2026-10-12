@@ -47,24 +47,15 @@ property System.double Mass {
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::Mass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~Mass.html)
-
-.
+See [CWLinkageRod::Mass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~Mass.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWLinkageRoad::IncludeMass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~IncludeMass.html)
-
-is true.
+This property is valid only if [ICWLinkageRoad::IncludeMass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~IncludeMass.html) is true.
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

@@ -49,9 +49,7 @@ System.int GetSwDmSettingInteger(
 
 ### Parameters
 
-- `DmSetting`: Setting as defined by
-
-[swDmDocumentUnitsIntegerValue_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmDocumentUnitsIntegerValue_e.html)
+- `DmSetting`: Setting as defined by [swDmDocumentUnitsIntegerValue_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmDocumentUnitsIntegerValue_e.html)
 
 ### Return Value
 
@@ -59,19 +57,11 @@ Value for DmSetting
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument19::GetSwDmSettingInteger](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument19~GetSwDmSettingInteger.html)
-
-.
+See [SwDMDocument19::GetSwDmSettingInteger](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument19~GetSwDmSettingInteger.html).
 
 ## Examples
 
-See the
-
-[ISwDMDocument19](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19.html)
-
-examples.
+See the [ISwDMDocument19](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19.html) examples.
 
 ## Remarks
 
@@ -80,9 +70,7 @@ This method works only with documents saved in SOLIDWORKS 2015 or later.
 ## See Also
 
 [ISwDMDocument19 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19.html)
-
 [ISwDMDocument19 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19_members.html)
-
 [ISwDMDocument19::GetSwDmSettingToggle Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~GetSwDmSettingToggle.html)
 
 ## Availability

@@ -79,21 +79,15 @@ System.bool IImprintingFacesCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NTargetFaces`: Number of faces in the target body
-- `TargetFaceArray`: Array of the[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)that describe the target body
+- `TargetFaceArray`: Array of the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that describe the target body
 - `NToolFaces`: Number of faces in the tool body
-- `ToolFaceArray`: Array of the[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)that describe the tool body
-- `Options`: Options for this operation as defined in[swImprintingFacesOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImprintingFacesOpts_e.html)
+- `ToolFaceArray`: Array of the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that describe the tool body
+- `Options`: Options for this operation as defined in [swImprintingFacesOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImprintingFacesOpts_e.html)
 - `NTargetEdges`: Number of edges returned from this operation
 - `NtoolEdges`: Number of tool edges returned from this operation
 - `NtargetVertices`: Number of target vertices returned from this operation
@@ -105,22 +99,16 @@ True if the operation is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Modeler::IImprintingFacesCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFacesCount2.html)
-
-.
+See [Modeler::IImprintingFacesCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFacesCount2.html).
 
 ## Remarks
 
-Call this method before calling[IModeler::IImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFaces.html).
+Call this method before calling [IModeler::IImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFaces.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ImprintingFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ImprintingFaces.html)
 
 ## Availability

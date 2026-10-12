@@ -48,46 +48,28 @@ Date in string format that this document was created
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::CreationDate](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~CreationDate.html)
-
-.
+See [SwDMDocument::CreationDate](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~CreationDate.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## Remarks
 
-To get the date in numeric format that this document was created, use
-
-[ISwDMDocument19::CreationDate2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~CreationDate2.html)
-
-.
+To get the date in numeric format that this document was created, use [ISwDMDocument19::CreationDate2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~CreationDate2.html).
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISWDocument::Author Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Author.html)
-
 [ISWDocument::Comments Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Comments.html)
-
 [ISWDocument::Keywords Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Keywords.html)
-
 [ISWDocument::LastSavedBy Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedBy.html)
-
 [ISWDocument::LastSavedDate Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedDate.html)
-
 [ISwDMDocument19::LastSavedDate2 Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~LastSavedDate2.html)
-
 [ISWDocument::Subject Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Subject.html)
-
 [ISWDocument::Title Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Title.html)
 
 ## Availability

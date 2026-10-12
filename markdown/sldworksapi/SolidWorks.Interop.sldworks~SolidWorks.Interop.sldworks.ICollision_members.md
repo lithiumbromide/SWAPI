@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICollision Interface Members
 
-The following tables list the members exposed by[ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html).
+The following tables list the members exposed by [ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html).
 
 ## Public Methods
 
@@ -24,9 +24,6 @@ The following tables list the members exposed by[ICollision](SolidWorks.Interop.
 ## See Also
 
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)

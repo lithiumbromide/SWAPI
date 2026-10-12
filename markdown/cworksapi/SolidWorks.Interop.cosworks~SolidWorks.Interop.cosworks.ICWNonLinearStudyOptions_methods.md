@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # ICWNonLinearStudyOptions Interface Methods
 
-For a list of all members of this type, see[ICWNonLinearStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html).
+For a list of all members of this type, see [ICWNonLinearStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html).
 
 ## Public Methods
 
@@ -35,5 +35,4 @@ For a list of all members of this type, see[ICWNonLinearStudyOptions members](So
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

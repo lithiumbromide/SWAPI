@@ -39,11 +39,7 @@ public interface class ICompareDocument
 
 ## VBA Syntax
 
-See
-
-[ICompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument.html)
-
-.
+See [ICompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument.html).
 
 ## Examples
 
@@ -56,5 +52,4 @@ See
 ## See Also
 
 [ICompareDocument Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

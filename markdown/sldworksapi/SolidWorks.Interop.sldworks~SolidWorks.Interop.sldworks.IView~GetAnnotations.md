@@ -40,48 +40,29 @@ System.object GetAnnotations()
 System.Object^ GetAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
+Array of [annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetAnnotations](ms-its:sldworksapivb6.chm::/sldworks~View~GetAnnotations.html)
-
-.
+See [View::GetAnnotations](ms-its:sldworksapivb6.chm::/sldworks~View~GetAnnotations.html).
 
 ## Examples
 
 [Get Names of Annotations (VBA)](Get_Names_of_Annotations_Example_VB.htm)
-
 [Get Names of Annotations (C#)](Get_Names_of_Annotations_Example_CSharp.htm)
-
 [Get Names of Annotations (VB.NET)](Get_Names_of_Annotations_Example_VBNET.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationCount.html)
-
 [IView::IGetAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetAnnotations.html)
-
 [IView::GetFirstAnnotation3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstAnnotation3.html)
-
 [IView::GetAnnotationsByType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationsByType.html)
 
 ## Availability

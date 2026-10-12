@@ -42,48 +42,32 @@ System.Object^ GetMomentOfInertiaAtOutputCoordinateSystem();
 
 ### Return Value
 
-Array of nine moment of inertia components (see
-
-Remarks
-
-)
+Array of nine moment of inertia components (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::GetMomentOfInertiaAtOutputCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetMomentOfInertiaAtOutputCoordinateSystem.html)
-
-.
+See [CWMassPropertiesManager::GetMomentOfInertiaAtOutputCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetMomentOfInertiaAtOutputCoordinateSystem.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## Remarks
 
-The moment of inertia is calculated with respect to the output coordinate system. Before calling this method, call[ICWMassPropertiesManager::SetCoordinateSystemName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemName.html)or[ICWMassPropertiesManager::SetCoordinateSystemToDefault](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemToDefault.html).
+The moment of inertia is calculated with respect to the output coordinate system. Before calling this method, call [ICWMassPropertiesManager::SetCoordinateSystemName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemName.html) or [ICWMassPropertiesManager::SetCoordinateSystemToDefault](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemToDefault.html).
 
 The moment of inertia components are in units of kilograms * meters squared.
 
 This method returns nine doubles as follows:
 
-[`lxx`,`lxy`,`lxz`, l`yx`,`lyy`,`lyz`,`lzx`,`lzy`,`lzz`]
+[ `lxx`, `lxy`, `lxz`, l`yx`, `lyy`, `lyz`, `lzx`, `lzy`, `lzz` ]
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertia.html)
-
 [ICWMassPropertiesManager::GetPrincipalAxesOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetPrincipalAxesOfInertia.html)
-
 [ICWMassPropertiesManager::GetPrincipalMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetPrincipalMomentOfInertia.html)
 
 ## Availability

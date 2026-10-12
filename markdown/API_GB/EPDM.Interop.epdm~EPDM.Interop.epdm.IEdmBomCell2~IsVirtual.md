@@ -38,7 +38,6 @@ True if this is a virtual component, false if not
 ## See Also
 
 [IEdmBomCell2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell2.html)
-
 [IEdmBomCell2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell2_members.html)
 
 ## Availability

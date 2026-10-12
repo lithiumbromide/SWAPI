@@ -41,22 +41,17 @@ void ContactComponentBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::ContactComponentBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ContactComponentBeginEdit.html)
-
-.
+See [CWContactComponent::ContactComponentBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ContactComponentBeginEdit.html).
 
 ## Remarks
 
-To start editing a contact, you must call this method. You must call[ICWContactComponent::ContactComponentEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactComponent~ContactComponentEndEdit.html)to end editing that contact. Changes are not applied unless you call both methods.
+To start editing a contact, you must call this method. You must call [ICWContactComponent::ContactComponentEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactComponent~ContactComponentEndEdit.html) to end editing that contact. Changes are not applied unless you call both methods.
 
-[Contact sets](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet.html)override both global and component contacts. Component contacts override global contacts.
+[Contact sets](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet.html) override both global and component contacts. Component contacts override global contacts.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

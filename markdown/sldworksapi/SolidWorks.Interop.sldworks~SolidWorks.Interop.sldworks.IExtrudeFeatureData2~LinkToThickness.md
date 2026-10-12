@@ -45,13 +45,7 @@ property System.bool LinkToThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to link the depth of an extruded boss to the thickness of the base feature,
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::LinkToThickness](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~LinkToThickness.html)
-
-.
+See [ExtrudeFeatureData2::LinkToThickness](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~LinkToThickness.html).
 
 ## Remarks
 
-This property applies to
-
-[sheet metal parts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData.html)
-
-only.
+This property applies to [sheet metal parts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData.html) only.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
 
 ## Availability

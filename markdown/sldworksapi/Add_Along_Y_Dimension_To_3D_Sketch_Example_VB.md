@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Along_Y_Dimension_To_3D_Sketch_Example_VB.htm"
 
 # Add Along Y Dimension to 3D Sketch Example (VBA)
 
-This example shows how to add a display dimension along the y axis in
-a 3D sketch.
+This example shows how to add a display dimension along the y axis in a 3D sketch.
 
 ```
 '----------------------------------------------------------------------------

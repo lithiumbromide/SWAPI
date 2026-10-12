@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html"
 
 # EdmRefFlags Enumeration
 
-Types of item reference.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of item reference. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -48,13 +44,8 @@ public enum class EdmRefFlags : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [EdmItemRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
 [IEdmReference7::EdmRefFlags Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~EdmRefFlags.html)
-
 [IEdmReference7::GetFirstChildPosition2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstChildPosition2.html)
-
 [IEdmReference7::GetFirstParentPosition2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstParentPosition2.html)
-
 [IEdmBatchItemGeneration2::AddSelection2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2~AddSelection2.html)

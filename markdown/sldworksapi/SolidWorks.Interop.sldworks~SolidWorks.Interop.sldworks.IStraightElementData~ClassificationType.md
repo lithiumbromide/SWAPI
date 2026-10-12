@@ -45,44 +45,23 @@ property System.int ClassificationType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Classification type as defined in
-
-[swStraightHoleClassificationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightHoleClassificationType_e.html)
+Classification type as defined in [swStraightHoleClassificationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightHoleClassificationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[StraightElementData::ClassificationType](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~ClassificationType.html)
-
-.
+See [StraightElementData::ClassificationType](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~ClassificationType.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IAdvancedHoleElementData::FastenerType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~FastenerType.html)
-
-is set to
-
-[swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
-
-.swStandard*DowelHoles.
+This property is valid only if [IAdvancedHoleElementData::FastenerType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~FastenerType.html) is set to [swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html).swStandard*DowelHoles.
 
 ## See Also
 
 [IStraightElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData.html)
-
 [IStraightElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData_members.html)
 
 ## Availability

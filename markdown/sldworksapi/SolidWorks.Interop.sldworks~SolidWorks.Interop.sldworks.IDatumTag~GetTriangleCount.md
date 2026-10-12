@@ -40,13 +40,7 @@ System.int GetTriangleCount()
 System.int GetTriangleCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,12 @@ Number of triangles
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetTriangleCount.html)
-
-.
+See [DatumTag::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetTriangleCount.html).
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag:GetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTriangleAtIndex.html)
-
 [IDatumTag::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetTriangleAtIndex.html)
-
 [IDatumTag::FilledTriangle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~FilledTriangle.html)

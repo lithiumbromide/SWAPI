@@ -55,13 +55,7 @@ System.bool SetProcess(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,37 +69,27 @@ True if the indication of welding process is set, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::SetProcess](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetProcess.html)
-
-.
+See [WeldSymbol::SetProcess](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetProcess.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## Remarks
 
 Get:
 
-- Flag that indicates whether the indication of welding process flag is set on this weld symbol using[IWeldSymbol::GetProcess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetProcess.html).
+- Flag that indicates whether the indication of welding process flag is set on this weld symbol using [IWeldSymbol::GetProcess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetProcess.html).
 
-- Text related to the indication of welding process using[IWeldSymbol::GetText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetText.html).
-- Flag that indicates whether a reference box exists around this text using[IWeldSymbol::GetProcessReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetProcessReference.html).
+- Text related to the indication of welding process using [IWeldSymbol::GetText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetText.html).
+- Flag that indicates whether a reference box exists around this text using [IWeldSymbol::GetProcessReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetProcessReference.html).
 
 The text and reference box are visible if Process is true.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::SetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~SetText.html)
 
 ## Availability

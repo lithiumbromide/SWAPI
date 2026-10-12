@@ -1,6 +1,5 @@
 ---
-title: "RenderMaterial Object
-Members"
+title: "RenderMaterial Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RenderMaterial_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RenderMaterial_members.html"
 ---
 
-# RenderMaterial Object
-Members
+# RenderMaterial Object Members
 
 ## Public Methods
 
@@ -17,6 +15,7 @@ Members
 | --- | --- |
 | Public Method GetCenterPoint |  |
 | Public Method GetCenterPoint2 |  |
+| Public Method GetDSPBRMaterial |  |
 | Public Method GetEntities |  |
 | Public Method GetEntitiesCount |  |
 | Public Method GetLinkedDisplayStates |  |
@@ -77,6 +76,7 @@ Members
 | Public Property GlobalIlluminationCast |  |
 | Public Property GlobalIlluminationReceive |  |
 | Public Property Glossy |  |
+| Public Property HasDSPBRProperties |  |
 | Public Property Height |  |
 | Public Property HeightMirror |  |
 | Public Property HoleMeshSize |  |

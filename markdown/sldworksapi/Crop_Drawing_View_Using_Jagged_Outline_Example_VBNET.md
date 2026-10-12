@@ -9,8 +9,7 @@ source: "sldworksapi/Crop_Drawing_View_Using_Jagged_Outline_Example_VBNET.htm"
 
 # Crop Drawing View Using Jagged Outline Example (VB.NET)
 
-This example shows how to crop a drawing view using a jagged outline with the
-least shape intensity.
+This example shows how to crop a drawing view using a jagged outline with the least shape intensity.
 
 ```
 '----------------------------------------------------------------------------

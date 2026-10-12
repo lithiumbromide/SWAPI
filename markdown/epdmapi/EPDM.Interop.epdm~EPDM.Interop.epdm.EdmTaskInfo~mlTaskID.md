@@ -35,5 +35,4 @@ System.int mlTaskID
 ## See Also
 
 [EdmTaskInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-
 [EdmTaskInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html)

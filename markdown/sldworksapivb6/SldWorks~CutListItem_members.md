@@ -1,6 +1,5 @@
 ---
-title: "CutListItem Object
-Members"
+title: "CutListItem Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CutListItem_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CutListItem_members.html"
 ---
 
-# CutListItem Object
-Members
+# CutListItem Object Members
 
 ## Public Properties
 

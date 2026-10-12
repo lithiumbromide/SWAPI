@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # AddMate2 Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::AddMate3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddMate3.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::AddMate3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddMate3.html).
 
 ## Syntax
 
@@ -95,13 +91,7 @@ Mate2^ AddMate2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -120,14 +110,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddMate2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate2.html)
-
-.
+See [AssemblyDoc::AddMate2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate2.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

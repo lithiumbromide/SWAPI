@@ -46,26 +46,16 @@ Cut length of the cable
 
 ## VBA Syntax
 
-See
-
-[Cable::GetCuttingLength](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~GetCuttingLength.html)
-
-.
+See [Cable::GetCuttingLength](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~GetCuttingLength.html).
 
 ## Examples
 
-See the
-
-[ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
-examples.
+See the [ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html) examples.
 
 ## See Also
 
 [ICable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
 [ICable Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable_members.html)
-
 [IWire::GetCuttingLength Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetCuttingLength.html)
 
 ## Availability

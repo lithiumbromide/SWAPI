@@ -47,13 +47,7 @@ Gtol^ IGetGTols(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,21 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of
-
-  [geometric tolerances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol.html)
+- in-process, unmanaged C++: Pointer to an array of [geometric tolerances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol.html)
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See
-
-[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_methods.htm)
-
-for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_methods.htm) for details about this type of method.
 
 ## Remarks
 
-Use this method to obtain the array of geometric tolerances all at once instead of calling[IView::GetFirstGTOL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstGTOL.html)and then repeatedly calling[IGtol::GetNextGTOL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetNextGTOL.html)to obtain the remaining geometric tolerances in the drawing view.
+Use this method to obtain the array of geometric tolerances all at once instead of calling [IView::GetFirstGTOL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstGTOL.html) and then repeatedly calling [IGtol::GetNextGTOL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetNextGTOL.html) to obtain the remaining geometric tolerances in the drawing view.
 
-Before calling this method, call[IView::GetGTolCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetGtolCount.html)to get the value for numGTol.
+Before calling this method, call [IView::GetGTolCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetGtolCount.html) to get the value for numGTol.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetGTols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetGTols.html)
 
 ## Availability

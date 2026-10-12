@@ -48,24 +48,17 @@ property CWBucklingStudyOptions^ BucklingStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::BucklingStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~BucklingStudyOptions.html)
-
-.
+See [CWStudy::BucklingStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~BucklingStudyOptions.html).
 
 ## Examples
 
 [Create Buckling Study (VBA)](Create_Buckling_Study_Example_VB.htm)
-
 [Create Buckling Study (VB.NET)](Create_Buckling_Study_Example_VBNET.htm)
-
 [Create Buckling Study (C#)](Create_Buckling_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

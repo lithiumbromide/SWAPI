@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5_members.html"
 
 # IEdmTemplate5 Interface Members
 
-The following tables list the members exposed by[IEdmTemplate5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5.html).
+The following tables list the members exposed by [IEdmTemplate5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmTemplate5](EPDM.Interop.epd
 ## See Also
 
 [IEdmTemplate5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

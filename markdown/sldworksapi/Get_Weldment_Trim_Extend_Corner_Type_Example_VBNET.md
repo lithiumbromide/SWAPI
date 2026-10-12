@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Weldment_Trim_Extend_Corner_Type_Example_VBNET.htm"
 
 # Get Weldment Trim Extend Corner Type Example (VB.NET)
 
-This example shows how to get the type of corner used for a weldment
-trim extend feature.
+This example shows how to get the type of corner used for a weldment trim extend feature.
 
 ```vb
   '---------------------------------------------------------------

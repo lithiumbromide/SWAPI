@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalBaseFlange Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertSheetMetalBaseFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalBaseFlange2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertSheetMetalBaseFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalBaseFlange2.html).
 
 ## Syntax
 
@@ -111,13 +107,7 @@ Feature^ InsertSheetMetalBaseFlange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -129,10 +119,10 @@ See
 - `FlipExtruDir`: True to reverse the direction of the extrude, false to not
 - `EndCondition1`: End condition for first extrude distance
 - `EndCondition2`: End condition for second extrude distance
-- `DirToUse`: End condition type as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `PCBA`: Pointer to the[custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)object
+- `DirToUse`: End condition type as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `PCBA`: Pointer to the [custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) object
 - `UseDefaultRelief`: True to use the default relief, false to not
-- `ReliefType`: Relief type as defined in[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
+- `ReliefType`: Relief type as defined in [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
 - `ReliefWidth`: Width of the relief
 - `ReliefDepth`: Depth of the relief
 - `ReliefRatio`: Value for the relief ratio
@@ -140,28 +130,17 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalBaseFlange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalBaseFlange.html)
-
-.
+See [FeatureManager::InsertSheetMetalBaseFlange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalBaseFlange.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

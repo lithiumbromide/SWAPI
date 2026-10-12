@@ -9,105 +9,33 @@ source: "obsoleteapi/DrawingDoc/DrawingDoc__DropDrawingViewFromPalette.htm"
 
 # DrawingDoc::DropDrawingViewFromPalette
 
-This method is obsolete and has been superseded
-by[DrawingDoc::DropDrawingViewFromPalette2](sldworksAPI.chm::/DrawingDoc/DrawingDoc__DropDrawingViewFromPalette2.htm).
+This method is obsolete and has been superseded by [DrawingDoc::DropDrawingViewFromPalette2](sldworksAPI.chm::/DrawingDoc/DrawingDoc__DropDrawingViewFromPalette2.htm).
 
 Description
 
-This method moves a drawing
-view from the drawing palette to the current drawing sheet.
+This method moves a drawing view from the drawing palette to the current drawing sheet.
 
 Syntax (OLE Automation)
 
-Retval = DrawingDoc.DropDrawingViewFromPalette (
-Layout, X, Y, Z)
+Retval = DrawingDoc.DropDrawingViewFromPalette ( Layout, X, Y, Z)
 
-(Table)=========================================================
-
-| Input: | (long) Layout | ID of the drawing view to move
-to the drawing sheet |
+| Input: | (long) Layout | ID of the drawing view to move to the drawing sheet |
 | --- | --- | --- |
 | Input: | (double) X | x coordinate where to drop the drawing view |
-| Input: | (double) Y | y coordinate where to drop the
-drawing view |
-| Input: | (double) Z | z coordinate where to drop the
-drawing view ; this coordinate is always 0 |
+| Input: | (double) Y | y coordinate where to drop the drawing view |
+| Input: | (double) Z | z coordinate where to drop the drawing view ; this coordinate is always 0 |
 | Output: | (LPVIEW) Retval | View |
 
 Syntax (COM)
 
-status = DrawingDoc->DropDrawingViewFromPalette
-( Layout, X, Y, Z, &Retval)
+status = DrawingDoc->DropDrawingViewFromPalette ( Layout, X, Y, Z, &Retval)
 
-Parameters Table Start
-
-(Table)=========================================================
-
-| Input: | (long) Layout | ID of the drawing view to move to the drawing
-sheet |
+| Input: | (long) Layout | ID of the drawing view to move to the drawing sheet |
 | --- | --- | --- |
-| Input: | (double) X | x coordinate where to drop the
-drawing view |
-| Input: | (double) Y | y coordinate
-where to drop the drawing view |
-| Input: | (double) Z | z coordinate
-where to drop the drawing view ; this coordinate is always
-0 |
+| Input: | (double) X | x coordinate where to drop the drawing view |
+| Input: | (double) Y | y coordinate where to drop the drawing view |
+| Input: | (double) Z | z coordinate where to drop the drawing view ; this coordinate is always 0 |
 | Output: | (LPVIEW) Retval | View |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes007$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\DrawingDoc\DrawingDoc__DropDrawingViewFromPalette.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="DrawingDoc_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\DrawingDoc\DrawingDoc__DropDrawingViewFromPalette.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

@@ -47,31 +47,19 @@ System.Object^ Cross(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-to use to determine the cross product
+- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) to use to determine the cross product
 
 ### Return Value
 
-Newly created[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
+Newly created [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MathVector::Cross](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Cross.html)
-
-.
+See [MathVector::Cross](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Cross.html).
 
 ## Examples
 
@@ -80,9 +68,7 @@ See
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::ICross Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~ICross.html)
 
 ## Availability

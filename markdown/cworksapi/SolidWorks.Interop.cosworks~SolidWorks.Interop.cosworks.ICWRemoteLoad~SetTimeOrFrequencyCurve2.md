@@ -53,14 +53,8 @@ System.bool SetTimeOrFrequencyCurve2(
 
 ### Parameters
 
-- `VarCurveData`: Array of curve data representing the variation with time or frequency of this remote load (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of curve data representing the variation with time or frequency of this remote load (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -75,18 +69,17 @@ Remarks
 
 Array of time or frequency curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time or frequency value at the`ith`data point
+- xi = time or frequency value at the `ith` data point
 - yi = property value associated with time or frequency xi
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

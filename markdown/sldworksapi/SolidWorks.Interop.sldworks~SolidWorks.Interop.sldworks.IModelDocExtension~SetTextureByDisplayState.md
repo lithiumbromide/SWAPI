@@ -51,13 +51,7 @@ System.bool SetTextureByDisplayState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,34 +64,22 @@ True if texture is set on the model, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetTextureByDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetTextureByDisplayState.html)
-
-.
+See [ModelDocExtension::SetTextureByDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetTextureByDisplayState.html).
 
 ## Examples
 
 [Apply and Remove Texture To and From Model by Display State (C#)](Apply_and_Remove_Texture_By_Model_Display_State_Example_CSharp.htm)
-
 [Apply and Removed Texture To and From Model By Display State (VB.NET)](Apply_and_Remove_Texture_By_Model_Display_State_Example_VBNET.htm)
-
 [Apply and Remove Texture To and From Model By Display State (VBA)](Apply_and_Remove_Texture_By_Model_Display_State_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtenson::SetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetTexture.html)
-
 [IModelDocExtenson::RemoveTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveTextureByDisplayState.html)
-
 [IModelDocExtenson::RemoveTexture2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveTexture2.html)
-
 [IModelDocExtenson::GetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetTexture.html)
-
 [IModelDocExtenson::CreateTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateTexture.html)
 
 ## Availability

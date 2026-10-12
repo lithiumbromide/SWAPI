@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFilletBeadFeature Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertFilletBeadFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertFilletBeadFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature2.html).
 
 ## Syntax
 
@@ -95,35 +91,29 @@ Feature^ InsertFilletBeadFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type1`: First side:
 
-- 0 = Full lengthParamDesc
-- 1 = Intermittent
-- 2 = Staggered
+  - 0 = Full length
+  - 1 = Intermittent
+  - 2 = Staggered
 - `Size1`: Size of fillet on first side
-- `Length1`: Length of fillet on first sideParamDesc
+- `Length1`: Length of fillet on first side
 - `Pitch`: Pitch, if Intermittent or Staggered on both sides
 - `Type2`: Second side:
 
-- 0= Full lengthParamDesc
-- 1 = Intermittent
-- 2= Staggered
+  - 0= Full length
+  - 1 = Intermittent
+  - 2= Staggered
 - `Size2`: Size of fillet on second side
 - `Length2`: Length of fillet on second side
 - `Flag`: - 0 = One-sided and no tangent propagation
-- 1 = Two-sided
-- 2 = Tangent propagation
-- 3 = Two-sided and tangent propagation
+  - 1 = Two-sided
+  - 2 = Tangent propagation
+  - 3 = Two-sided and tangent propagation
 - `EdgeNum1`: Number of intersecting edges on first side
 - `DeSelEdge1`: Array indicating if intersecting edges are selected (0) or deselected (1) on first side
 - `EdgeNum2`: Number of intersecting edges on second side
@@ -131,26 +121,16 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFilletBeadFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFilletBeadFeature.html)
-
-.
+See [FeatureManager::InsertFilletBeadFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFilletBeadFeature.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IWeldmentBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData.html)
 
 ## Availability

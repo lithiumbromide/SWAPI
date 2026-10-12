@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpError.html"
 
 # EdmGetOpError Enumeration
 
-Cold storage file retrieval error codes; used in calls to
-
-[IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html)
-
-.
+Cold storage file retrieval error codes; used in calls to [IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html).
 
 ## Syntax
 

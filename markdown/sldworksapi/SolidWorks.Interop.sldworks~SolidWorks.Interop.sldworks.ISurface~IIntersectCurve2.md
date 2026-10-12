@@ -67,13 +67,7 @@ System.bool IIntersectCurve2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -81,13 +75,7 @@ See
 - `CurveBound`: Array of 6 doubles representing the start and end points of the curve
 - `PointCount`: Number of points
 - `PointArray`: Array of points of size PointCount*3
-- `TArray`: Array of parameters on curve
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-of size PointCount
+- `TArray`: Array of parameters on curve of size PointCount
 - `UvArray`: Array of parameters on surface of size PointCount*2
 
 ### Return Value
@@ -96,24 +84,18 @@ True if getting the intersection succeeded, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::IIntersectCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IIntersectCurve2.html)
-
-.
+See [Surface::IIntersectCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IIntersectCurve2.html).
 
 ## Remarks
 
 The curves must be bounded.
 
-Before calling this method, call[ISurface::GetIntersectCurveCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetIntersectCurveCount2.html)to get the number of points for this surface-curve intersection.
+Before calling this method, call [ISurface::GetIntersectCurveCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetIntersectCurveCount2.html) to get the number of points for this surface-curve intersection.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IntersectCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IntersectCurve2.html)
 
 ## Availability

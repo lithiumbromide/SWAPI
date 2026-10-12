@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Custom_Properties_for_Configuration_Example_CSharp.htm"
 
 # Get Custom Properties for Configuration Example (C#)
 
-This example shows how to get the names, types, values, and evaluated
-values of the active configuration's custom properties. It also shows
-how to add a custom property to the configuration.
+This example shows how to get the names, types, values, and evaluated values of the active configuration's custom properties. It also shows how to add a custom property to the configuration.
 
 ```vb
 //---------------------------------------------------------------------------

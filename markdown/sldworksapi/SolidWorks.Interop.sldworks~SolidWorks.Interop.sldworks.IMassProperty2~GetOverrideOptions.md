@@ -40,13 +40,7 @@ System.object GetOverrideOptions()
 System.Object^ GetOverrideOptions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::GetOverrideOptions](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~GetOverrideOptions.html)
-
-.
+See [MassProperty2::GetOverrideOptions](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~GetOverrideOptions.html).
 
 ## Examples
 
-See the
-
-[IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
-examples.
+See the [IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html) examples.
 
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
-
 [IMassProperty2::SetOverrideOptions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~SetOverrideOptions.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool Lock {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True for locked configuration, false for unlocked configuration
 
 ## VBA Syntax
 
-See
-
-[Configuration::Lock](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Lock.html)
-
-.
+See [Configuration::Lock](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Lock.html).
 
 ## Examples
 
@@ -72,13 +62,11 @@ See
 ## Remarks
 
 The names of configurations should not contain any of the special characters reserved
-
 by SOLIDWORKS.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

@@ -35,14 +35,11 @@ property IEdmFolder5^ Folder {
 
 ### Property Value
 
-File's parent
-
-[folder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
+File's parent [folder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
 
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

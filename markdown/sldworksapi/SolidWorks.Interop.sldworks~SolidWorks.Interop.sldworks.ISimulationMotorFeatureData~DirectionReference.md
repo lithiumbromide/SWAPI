@@ -45,13 +45,7 @@ property System.Object^ DirectionReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Circular edge; a planar, cylindrical, or conical face; an axis; or a plane indic
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~DirectionReference.html)
-
-.
+See [SimulationMotorFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~DirectionReference.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
-
 [ISimulationMotorFeatureData::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~ReverseDirection.html)
 
 ## Availability

@@ -9,75 +9,25 @@ source: "sldworksapi/Fire_Notification_When_Inserting_a_Table_in_an_Assembly_Doc
 
 # Fire Notification When Inserting a Table in an Assembly Document Example (C#)
 
-This example shows how to fire a notification when a table is inserted in an
-assembly document.
+This example shows how to fire a notification when a table is inserted in an assembly document.
 
 //---------------------------------------------------------------
-
 // Preconditions:
-
 // 1. Open an assembly document.
-
-// 2. Verify that the
-
-Tools > Options > System Options >
-
-//
-
-Stop VSTA debugger on
-macro exit
-
-check box is not selected.
-
+// 2. Verify that the **Tools > Options > System Options >**
+// **Stop VSTA debugger on macro exit** check box is not selected.
 // 3. Run this macro (press F5).
-
-// 4. Click
-
-Insert > Tables > Bill of Materials
-
-.
-
-// 5. Click
-
-OK
-
-in the Bill of Materials PropertyManager page
-and
-
-// click
-
-OK
-
-again.
-
+// 4. Click **Insert > Tables > Bill of Materials**.
+// 5. Click **OK** in the Bill of Materials PropertyManager page and
+// click **OK** again.
 //
-
 // Postconditions:
-
-// 1.
-
-Displays a message box informing you that a
-table will be
-
-// inserted in the assembly
-
-.
-
-//
-
-NOTE: Check the taskbar for the
-message box if you don't
-
+// 1. Displays a message box informing you that a table will be
+// inserted in the assembly.
+// NOTE: Check the taskbar for the message box if you don't
 // see it.
-
-// 2. Click
-
-OK
-
-to close the message box.
-
+// 2. Click **OK** to close the message box.
 // 3. Click to place the table.
-
 //---------------------------------------------------------------
 
 ```vb

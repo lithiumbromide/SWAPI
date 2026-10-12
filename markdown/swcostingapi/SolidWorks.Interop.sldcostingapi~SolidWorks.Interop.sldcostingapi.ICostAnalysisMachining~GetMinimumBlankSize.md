@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # GetMinimumBlankSize Method (ICostAnalysisMachining)
 
-Gets the dimensions of the smallest possible blank required to produce a body using the
-
-[currently selected stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html)
-
-for this machining Costing analysis.
+Gets the dimensions of the smallest possible blank required to produce a body using the [currently selected stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html) for this machining Costing analysis.
 
 ## Syntax
 
@@ -50,24 +46,15 @@ Array of doubles of the dimensions of the smallest possible blank required to pr
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisMachining::GetMinimumBlankSize](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMinimumBlankSize.html)
-
-.
+See [CostAnalysisMachining::GetMinimumBlankSize](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMinimumBlankSize.html).
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::IGetMinimumBlankSize Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMinimumBlankSize.html)
-
 [ICostAnalysisMachining::BlankSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~BlankSize.html)
-
 [ICostAnalysisMachining::IBlankSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IBlankSize.html)
-
 [ICostAnalysisMachining::GetBlankDimensionCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetBlankDimensionCount.html)
 
 ## Availability

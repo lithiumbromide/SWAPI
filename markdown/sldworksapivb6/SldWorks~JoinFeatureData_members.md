@@ -1,6 +1,5 @@
 ---
-title: "JoinFeatureData Object
-Members"
+title: "JoinFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "JoinFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~JoinFeatureData_members.html"
 ---
 
-# JoinFeatureData Object
-Members
+# JoinFeatureData Object Members
 
 ## Public Methods
 

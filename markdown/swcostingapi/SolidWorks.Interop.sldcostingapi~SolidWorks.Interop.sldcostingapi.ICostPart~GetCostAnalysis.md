@@ -42,28 +42,18 @@ CostAnalysis^ GetCostAnalysis();
 
 ### Return Value
 
-Existing
-
-[Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)
+Existing [Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)
 
 ## VBA Syntax
 
-See
-
-[CostPart::GetCostAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostPart~GetCostAnalysis.html)
-
-.
+See [CostPart::GetCostAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostPart~GetCostAnalysis.html).
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::CreateCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~CreateCostAnalysis.html)
-
 [ICostBody::GetCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetCostAnalysis.html)
-
 [ICostBody::CreateCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~CreateCostAnalysis.html)
 
 ## Availability

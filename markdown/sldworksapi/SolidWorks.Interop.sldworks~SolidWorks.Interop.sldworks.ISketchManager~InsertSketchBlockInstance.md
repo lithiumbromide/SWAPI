@@ -59,22 +59,12 @@ SketchBlockInstance^ InsertSketchBlockInstance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BlockDef`: [Block](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html)
-
-for this block instance
-- `Position`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of this block instance
+- `BlockDef`: [Block](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html) for this block instance
+- `Position`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of this block instance
 - `Scale`: Scale for this block instance
 - `Angle`: Rotation angle for this block instance
 
@@ -84,18 +74,12 @@ of this block instance
 
 ## VBA Syntax
 
-See
-
-[SketchManager::InsertSketchBlockInstance](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~InsertSketchBlockInstance.html)
-
-.
+See [SketchManager::InsertSketchBlockInstance](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~InsertSketchBlockInstance.html).
 
 ## Examples
 
 [Create Block Definition and Insert Block Instance (VBA)](Create_Block_Definition_and_Insert_Block_Instance_Example_VB.htm)
-
 [Create Block Definition and Insert Block Instance (C#)](Create_Block_Definition_and_Insert_Block_Instance_Example_CSharp.htm)
-
 [Create Block Definition and Insert Block Instance (VB.NET)](Create_Block_Definition_and_Insert_Block_Instance_Example_VBNET.htm)
 
 ## Remarks
@@ -110,18 +94,17 @@ If the entities of a block are associated with one or more layers and those laye
 
 The block instance is inserted on the current drawing layer.
 
-**TIP:**kadov_tag{{</spaces>}}If inserting the same sketch block multiple times, do not create the block definition more than once. Instead, use the same block definition for each call to SketchManager::InsertSketchBlockInstance.
+**TIP:** If inserting the same sketch block multiple times, do not create the block definition more than once. Instead, use the same block definition for each call to SketchManager::InsertSketchBlockInstance.
 
-To save a block instance and its definition into a block file (**.sldblk**), use[ISketchBlockDefinition::Save](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~Save.html).
+To save a block instance and its definition into a block file (**.sldblk**), use [ISketchBlockDefinition::Save](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~Save.html).
 
 This method does not work for drawings opened in view-only mode.
 
-See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

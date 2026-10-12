@@ -51,18 +51,12 @@ True if shadows are enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ShadowsEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShadowsEnabled.html)
-
-.
+See [EModelViewControl::ShadowsEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShadowsEnabled.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::StereoEnabled Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoEnabled.html)
 
 ## Availability

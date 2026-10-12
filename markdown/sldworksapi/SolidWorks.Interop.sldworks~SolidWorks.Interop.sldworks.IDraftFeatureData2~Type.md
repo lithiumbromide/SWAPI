@@ -45,38 +45,23 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of draft feature as defined in[swDraftType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftType_e.html)
+Type of draft feature as defined in [swDraftType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::Type](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~Type.html)
-
-.
+See [DraftFeatureData2::Type](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~Type.html).
 
 ## Examples
 
-See
-
-[IDraftFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html)
-
-examples.
+See [IDraftFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html) examples.
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
 
 ## Availability

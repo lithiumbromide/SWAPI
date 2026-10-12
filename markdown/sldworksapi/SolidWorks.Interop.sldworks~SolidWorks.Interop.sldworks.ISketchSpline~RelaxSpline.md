@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # RelaxSpline Method (ISketchSpline)
 
-Smoothens the shape of a spline that was changed by dragging a node on a
-
-[control polygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~DisplayControlPolygon.html)
-
-.
+Smoothens the shape of a spline that was changed by dragging a node on a [control polygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~DisplayControlPolygon.html).
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void RelaxSpline()
 void RelaxSpline();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::RelaxSpline](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~RelaxSpline.html)
-
-.
+See [SketchSpline::RelaxSpline](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~RelaxSpline.html).
 
 ## Examples
 
@@ -66,7 +52,6 @@ See
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
 
 ## Availability

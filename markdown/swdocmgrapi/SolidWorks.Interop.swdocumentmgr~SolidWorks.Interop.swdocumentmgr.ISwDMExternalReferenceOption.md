@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Allows you to access information about external references from a document.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class ISwDMExternalReferenceOption
 
 ## VBA Syntax
 
-See
-
-[SwDMExternalReferenceOption](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption.html)
-
-.
+See [SwDMExternalReferenceOption](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption.html).
 
 ## Accessors
 
@@ -60,9 +50,6 @@ See
 ## See Also
 
 [ISwDMExternalReferenceOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)
-
 [ISwDMExternalReferenceOption2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html)
-
 [ISwDMDocument18::GetExternalFeatureReferences2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument18~GetExternalFeatureReferences2.html)

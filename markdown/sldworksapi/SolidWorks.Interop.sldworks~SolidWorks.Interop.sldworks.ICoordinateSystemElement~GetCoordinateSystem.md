@@ -40,13 +40,7 @@ System.object GetCoordinateSystem()
 System.Object^ GetCoordinateSystem();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemElement::GetCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement~GetCoordinateSystem.html)
-
-.
+See [CoordinateSystemElement::GetCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement~GetCoordinateSystem.html).
 
 ## Examples
 
-See the
-
-[ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
-examples.
+See the [ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html) examples.
 
 ## See Also
 
 [ICoordinateSystemElement Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
 [ICoordinateSystemElement Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement_members.html)
 
 ## Availability

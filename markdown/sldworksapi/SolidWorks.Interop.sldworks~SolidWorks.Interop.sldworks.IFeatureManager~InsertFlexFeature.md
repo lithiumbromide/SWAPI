@@ -111,64 +111,49 @@ Feature^ InsertFlexFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `RotX`: x coordinate for the rotation axis
-- `RotY`: y coordinate for the rotation axisParamDesc
+- `RotY`: y coordinate for the rotation axis
 - `RotZ`: z coordinate for the rotation axis
-- `TanX`: x coordinate for the tangent axisParamDesc
+- `TanX`: x coordinate for the tangent axis
 - `TanY`: y coordinate for the tangent axis
 - `TanZ`: z coordinate for the tangent axis
 - `RadX`: x coordinate for the radius axis
-- `RadY`: y coordinate for the radius axisParamDesc
+- `RadY`: y coordinate for the radius axis
 - `RadZ`: z coordinate for the radius axis
-- `Angle`: AngleParamDesc
+- `Angle`: Angle
 - `PivotX`: x coordinate for the pivot triad reference
 - `PivotY`: y coordinate for the pivot triad reference
 - `PivotZ`: z coordinate for the pivot triad reference
 - `Type`: - -1 =None
 
-0 = Bending
+  0 = Bending
 
-1 = Twisting
+  1 = Twisting
 
-2 = Tapering
+  2 = Tapering
 
-3 = Stretching
+  3 = Stretching
 
-4 = Experimental
+  4 = Experimental
 - `LeftTrim`: Left trimming distance
 - `RightTrim`: Right trimming distance
 - `HardEdges`: True to embed edges where the trim planes intersect the body, false to create smoother continuous faces
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFlexFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFlexFeature.html)
-
-.
+See [FeatureManager::InsertFlexFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFlexFeature.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

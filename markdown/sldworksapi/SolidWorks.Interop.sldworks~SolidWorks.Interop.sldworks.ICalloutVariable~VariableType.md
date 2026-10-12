@@ -42,40 +42,23 @@ property System.int VariableType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of specific hole callout variable as defined in
-
-[swCalloutVariable_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCalloutVariable_e.html)
+Type of specific hole callout variable as defined in [swCalloutVariable_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCalloutVariable_e.html)
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::VariableType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~VariableType.html)
-
-.
+See [CalloutVariable::VariableType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~VariableType.html).
 
 ## Remarks
 
-Call
-
-[ICalloutVariable::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~Type.html)
-
-to get the type of general hole callout variable.
+Call [ICalloutVariable::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~Type.html) to get the type of general hole callout variable.
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
 
 ## Availability

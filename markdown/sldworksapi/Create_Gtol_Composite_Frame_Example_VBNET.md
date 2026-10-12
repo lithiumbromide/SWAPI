@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Gtol_Composite_Frame_Example_VBNET.htm"
 
 # Create GTol Composite Frame Example (VB.NET)
 
-This example shows how to create a composite frame for a geometric tolerance
-symbol.
+This example shows how to create a composite frame for a geometric tolerance symbol.
 
 ```vb
  '---------------------------------------------------------------------------

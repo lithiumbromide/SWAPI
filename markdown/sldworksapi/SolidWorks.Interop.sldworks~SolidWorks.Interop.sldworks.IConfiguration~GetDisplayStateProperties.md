@@ -47,13 +47,7 @@ System.Object^ GetDisplayStateProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,19 +55,11 @@ See
 
 ### Return Value
 
-Array of display state properties (see
-
-Remarks
-
-)
+Array of display state properties (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetDisplayStateProperties](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetDisplayStateProperties.html)
-
-.
+See [Configuration::GetDisplayStateProperties](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetDisplayStateProperties.html).
 
 ## Remarks
 
@@ -83,26 +69,18 @@ If the return value is all -1 values, then material property values are not assi
 
 The format of return value is an array of doubles as follows:
 
-[R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission]
+[ R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission ]
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::GetDisplayStateBodyProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateBodyProperties.html)
-
 [IConfiguration::GetDisplayStateComponentProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateComponentProperties.html)
-
 [IConfiguration::GetDisplayStateComponentVisibility Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateComponentVisibility.html)
-
 [IConfiguration::GetDisplayStateFaceProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateFaceProperties.html)
-
 [IConfiguration::GetDisplayStateFeatureProperties Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStateFeatureProperties.html)
-
 [IConfiguration::GetDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStates.html)
-
 [IConfiguration::GetDisplayStatesCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStatesCount.html)
 
 ## Availability

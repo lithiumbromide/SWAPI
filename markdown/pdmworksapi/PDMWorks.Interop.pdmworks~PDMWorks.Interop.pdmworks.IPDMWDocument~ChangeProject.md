@@ -62,7 +62,7 @@ void ChangeProject(
 
 - `project`: Project to which to move the document
 - `bSelectedItem`: TRUE to move document, FALSE to not
-- `i_childrenType`: Type of children documents, as defined in[PDMWChildrenType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWChildrenType.html), to move to the new project
+- `i_childrenType`: Type of children documents, as defined in [PDMWChildrenType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWChildrenType.html), to move to the new project
 - `bIgnoreLinks`: TRUE to ignore any references from other projects to the document, FALSE to not
 
 ### Return Value
@@ -71,16 +71,11 @@ True to ignore any references from other projects to the document, false to not
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::ChangeProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeProject.html)
-
-.
+See [PDMWDocument::ChangeProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeProject.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

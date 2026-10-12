@@ -54,11 +54,7 @@ System.Object^ GetTargetEntityAt(
 ### Parameters
 
 - `NIndex`: 0-based index of the entity
-- `NSel`: Type of entity (see
-
-Remarks
-
-)
+- `NSel`: Type of entity (see **Remarks**)
 
 ### Return Value
 
@@ -66,34 +62,23 @@ Entity
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::GetTargetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~GetTargetEntityAt.html)
-
-.
+See [CWContactSet::GetTargetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~GetTargetEntityAt.html).
 
 ## Remarks
 
-Before calling this method, call[ICWContactSet::TargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~TargetEntityCount.html)to get the value of NIndex.
+Before calling this method, call [ICWContactSet::TargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~TargetEntityCount.html) to get the value of NIndex.
 
-Faces, edges, and vertices are allowed as target entities. See[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)in the SOLIDWORKS API Enumerations Help for their types.
+Faces, edges, and vertices are allowed as target entities. See [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) in the SOLIDWORKS API Enumerations Help for their types.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactSet::RemoveTargetEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~RemoveTargetEntity.html)
-
 [ICWContactSet::GetSourceEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~GetSourceEntityAt.html)
-
 [ICWContactSet::RemoveSourceEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~RemoveSourceEntity.html)
-
 [ICWContactSet::SourceEntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~SourceEntityCount.html)
-
 [ICWContactSet::InsertTargetEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~InsertTargetEntity.html)
-
 [ICWContactSet::InsertSourceEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~InsertSourceEntity.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # GetTwoAdjacentFaces Method (IEdge)
 
-Obsolete. Superseded by
-
-[IEdge::GetTwoAdjacentFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetTwoAdjacentFaces2.html)
-
-.
+Obsolete. Superseded by [IEdge::GetTwoAdjacentFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetTwoAdjacentFaces2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetTwoAdjacentFaces()
 System.Object^ GetTwoAdjacentFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Edge::GetTwoAdjacentFaces](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTwoAdjacentFaces.html)
-
-.
+See [Edge::GetTwoAdjacentFaces](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTwoAdjacentFaces.html).
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)

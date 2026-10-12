@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetEllipses Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetEllipses3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetEllipses3.html)
-
-and
-
-[ISketch::IGetEllipses3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetEllipses3.html)
-
-.
+Obsolete. Superseded by [ISketch::GetEllipses3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetEllipses3.html) and [ISketch::IGetEllipses3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetEllipses3.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetEllipses()
 System.double IGetEllipses();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::IGetEllipses](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetEllipses.html)
-
-.
+See [Sketch::IGetEllipses](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetEllipses.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

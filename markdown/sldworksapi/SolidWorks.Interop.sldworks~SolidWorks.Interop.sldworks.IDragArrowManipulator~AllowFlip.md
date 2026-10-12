@@ -45,50 +45,27 @@ property System.bool AllowFlip {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to allow the unidirectional handle to change direction when dragged past length = 0, false to not (see
-
-Remarks
-
-)
+True to allow the unidirectional handle to change direction when dragged past length = 0, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::AllowFlip](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~AllowFlip.html)
-
-.
+See [DragArrowManipulator::AllowFlip](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~AllowFlip.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IDragArrowManipulator::ShowOppositeDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~ShowOppositeDirection.html)
-
-is false.
+This property is valid only if [IDragArrowManipulator::ShowOppositeDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~ShowOppositeDirection.html) is false.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
 
 ## Availability

@@ -40,16 +40,11 @@ True to not remove Toolbox Library parts, false to remove them
 
 ## Examples
 
-See the
-
-[IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
-examples.
+See the [IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html) examples.
 
 ## See Also
 
 [IEdmClearLocalCache2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache2.html)
-
 [IEdmClearLocalCache2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache2_members.html)
 
 ## Availability

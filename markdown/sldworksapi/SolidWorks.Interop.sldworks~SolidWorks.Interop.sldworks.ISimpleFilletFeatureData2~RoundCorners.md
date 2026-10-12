@@ -45,13 +45,7 @@ property System.bool RoundCorners {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True if simple fillet feature has round corners, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::RoundCorners](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~RoundCorners.html)
-
-.
+See [SimpleFilletFeatureData2::RoundCorners](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~RoundCorners.html).
 
 ## Examples
 
-See
-
-[ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
-examples.
+See [ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISimpleFilletFeatureData2::CurvatureContinuous](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~CurvatureContinuous.html)
-
-is false, and at least two adjacent edges to fillet are selected.
+This property is valid only if [ISimpleFilletFeatureData2::CurvatureContinuous](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~CurvatureContinuous.html) is false, and at least two adjacent edges to fillet are selected.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

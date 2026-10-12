@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Corresponding_Note_in_Assembly_Example_VB.htm"
 
 # Get Corresponding Note in Assembly Example (VBA)
 
-This example shows how to determine if the selected note in an assembly
-corresponds to the selected note in a part that is a component of the
-assembly.
+This example shows how to determine if the selected note in an assembly corresponds to the selected note in a part that is a component of the assembly.
 
 ```
 '------------------------------------------------------------------

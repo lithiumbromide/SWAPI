@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate6.html"
 
 Allows you to access a single template.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,10 +36,9 @@ public interface class IEdmTemplate6 : public IEdmTemplate5, IEdmTemplate53
 
 ## Remarks
 
-This interface extends[IEdmTemplate53](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53.html)by providing the ability to get the fixed folder ID in the template.
+This interface extends [IEdmTemplate53](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53.html) by providing the ability to get the fixed folder ID in the template.
 
 ## See Also
 
 [IEdmTemplate6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

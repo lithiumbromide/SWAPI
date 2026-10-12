@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # Offset Property (ISMNormalCutFeatureData)
 
-Obsolete. See
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-.
+Obsolete. See [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double Offset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,19 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData::Offset](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~Offset.html)
-
-.
+See [SMNormalCutFeatureData::Offset](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~Offset.html).
 
 ## Examples
 
-See the
-
-[IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html)
-
-example.
+See the [IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html) example.
 
 ## Remarks
 
@@ -84,7 +66,6 @@ This property allows you to adjust the profile of the Normal Cut. Setting this p
 ## See Also
 
 [ISMNormalCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData.html)
-
 [ISMNormalCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData_members.html)
 
 ## Availability

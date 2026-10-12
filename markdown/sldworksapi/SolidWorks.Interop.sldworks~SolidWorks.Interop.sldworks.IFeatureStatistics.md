@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 Allows access to the feature statistics in a part document.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IFeatureStatistics
 
 ## VBA Syntax
 
-See
-
-[FeatureStatistics](ms-its:sldworksapivb6.chm::/sldworks~FeatureStatistics.html)
-
-.
+See [FeatureStatistics](ms-its:sldworksapivb6.chm::/sldworks~FeatureStatistics.html).
 
 ## Examples
 
 [Get Part's Feature Statisitics (VB.NET)](Get_Part's_Feature_Statistics_Example_VBNET.htm)
-
 [Get Part's Feature Statistics (VBA)](Get_Part's_Feature_Statistics_Example_VB.htm)
-
 [Get Part's Feature Statisitics (C#)](Get_Part's_Feature_Statistics_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [IFeatureStatistics Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

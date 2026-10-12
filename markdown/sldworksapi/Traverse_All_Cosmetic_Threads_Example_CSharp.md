@@ -9,12 +9,9 @@ source: "sldworksapi/Traverse_All_Cosmetic_Threads_Example_CSharp.htm"
 
 # Traverse All Cosmetic Threads Example (C#)
 
-This example shows how to traverse all cosmetic threads in a part and extract
-their data.
+This example shows how to traverse all cosmetic threads in a part and extract their data.
 
-**NOTE**: In a part or assembly, a cosmetic thread is a subfeature of a
-hole or cut extrusion. Thus, you can traverse all of the cosmetic threads in
-a model using the IFeature traversal methods.
+**NOTE**: In a part or assembly, a cosmetic thread is a subfeature of a hole or cut extrusion. Thus, you can traverse all of the cosmetic threads in a model using the IFeature traversal methods.
 
 ```vb
  //---------------------------------------------------------------------------

@@ -48,32 +48,19 @@ void IdentifyToSW(
 
 ### Parameters
 
-- `ClassFactory`: Pointer to the
-
-[ISwPEClassFactory](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html)
-
-dispatch object
+- `ClassFactory`: Pointer to the [ISwPEClassFactory](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html) dispatch object
 
 ## VBA Syntax
 
-See
-
-[SwPEManager::IdentifyToSW](ms-its:swpublishedapivb6.chm::/swpublished~SwPEManager~IdentifyToSW.html)
-
-.
+See [SwPEManager::IdentifyToSW](ms-its:swpublishedapivb6.chm::/swpublished~SwPEManager~IdentifyToSW.html).
 
 ## Remarks
 
-After receiving the ClassFactory dispatch object, the partner add-in calls
-
-[ISwPEClassFactory::SetPartnerKey](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory~SetPartnerKey.html)
-
-to send SOLIDWORKS a license key. SOLIDWORKS uses the partner key to verify entitlement of the SOLIDWORKS Partner.
+After receiving the ClassFactory dispatch object, the partner add-in calls [ISwPEClassFactory::SetPartnerKey](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory~SetPartnerKey.html) to send SOLIDWORKS a license key. SOLIDWORKS uses the partner key to verify entitlement of the SOLIDWORKS Partner.
 
 ## See Also
 
 [ISwPEManager Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.html)
-
 [ISwPEManager Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager_members.html)
 
 ## Availability

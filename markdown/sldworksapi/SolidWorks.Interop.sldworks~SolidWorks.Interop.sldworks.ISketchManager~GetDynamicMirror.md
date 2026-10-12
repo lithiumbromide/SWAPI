@@ -40,13 +40,7 @@ System.bool GetDynamicMirror()
 System.bool GetDynamicMirror();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if dynamic sketch mirroring is enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::GetDynamicMirror](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~GetDynamicMirror.html)
-
-.
+See [SketchManager::GetDynamicMirror](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~GetDynamicMirror.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::SetDynamicMirror Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SetDynamicMirror.html)
 
 ## Availability

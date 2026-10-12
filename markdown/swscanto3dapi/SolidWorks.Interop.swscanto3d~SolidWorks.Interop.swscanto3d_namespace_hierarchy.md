@@ -12,6 +12,7 @@ source: "swscanto3dapi/SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto
 ## Inheritance Hierarchy
 
 System.Object
+[SolidWorks.Interop.swscanto3d.Scanto3DClass](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.Scanto3DClass.html)
 
 ## See Also
 

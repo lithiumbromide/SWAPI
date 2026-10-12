@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITi
 
 Provides access to title block table features.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ITitleBlockTableFeature
 
 ## VBA Syntax
 
-See
-
-[TitleBlockTableFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableFeature.html)
-
-.
+See [TitleBlockTableFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableFeature.html).
 
 ## Examples
 
 [Get Title Block Tables (VBA)](Get_Title_Block_Tables_Example_VB6.htm)
-
 [Get Title Block Tables (VB.NET)](Get_Title_Block_Tables_Example_VBNET.htm)
-
 [Get Title Block Tables (C#)](Get_Title_Block_Tables_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [ITitleBlockTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableFeature_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

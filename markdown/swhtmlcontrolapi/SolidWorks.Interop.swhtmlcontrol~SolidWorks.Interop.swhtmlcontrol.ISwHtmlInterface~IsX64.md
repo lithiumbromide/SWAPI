@@ -9,11 +9,7 @@ source: "swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.sw
 
 # IsX64 Method (ISwHtmlInterface)
 
-Gets whether you are running SOLIDWORKS (32-bit)
-
-kadov_tag{{</spaces>}}
-
-or SOLIDWORKS x64 (64-bit).
+Gets whether you are running SOLIDWORKS (32-bit) or SOLIDWORKS x64 (64-bit).
 
 ## Syntax
 
@@ -50,11 +46,7 @@ TRUE if you are running SOLIDWORKS x64, FALSE if not
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::IsX64](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~IsX64.html)
-
-.
+See [SwHtmlInterface::IsX64](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~IsX64.html).
 
 ## Remarks
 
@@ -67,7 +59,6 @@ See
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetPCurveParams Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::GetPCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetPCurveParams2.html)
-
-.
+Obsolete. Superseded by [ICurve::GetPCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetPCurveParams2.html).
 
 ## Syntax
 
@@ -44,25 +40,15 @@ System.object GetPCurveParams()
 System.Object^ GetPCurveParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles describing the parameters of the curve (see**Remarks**)
+Array of doubles describing the parameters of the curve (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::GetPCurveParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetPCurveParams.html)
-
-.
+See [Curve::GetPCurveParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetPCurveParams.html).
 
 ## Examples
 
@@ -78,27 +64,27 @@ p(t) = --------------------------------------------
 
 Where w is the weight coefficient and a is the polynomial coefficient.
 
-The coefficients returned are vectors of dimensions "dim". For example, if the curve is rational, thendimension= 4, and the coefficients returned for each segment are as follows:
+The coefficients returned are vectors of dimensions "dim". For example, if the curve is rational, then dimension = 4, and the coefficients returned for each segment are as follows:
 
 (a0x,a0y,a0z,w0),(a1x,a1y,a1z,w1)...
 
-However, if the curve is returned as non-rational, thendimension= 3, and its coefficients are:
+However, if the curve is returned as non-rational, then dimension = 3, and its coefficients are:
 
 (a0x,a0y,a0z),(a1x,a1y,a1z),...
 
-The size of the return value array is (3 +NumberKnots+NumberSegmentsxOrderxDimension).
+The size of the return value array is (3 + NumberKnots + NumberSegments x Order x Dimension).
 
 The array is as follows:
 
-[packedDouble1,packedDouble2,packedDouble3, knot1,knot2,...,CoefficientsSegment1[Dimension],CoefficientsSegment2[Dimension],...]
+[ packedDouble1, packedDouble2, packedDouble3, knot1, knot2,..., CoefficientsSegment1[Dimension], CoefficientsSegment2[Dimension],... ]
 
 where:
 
-packedDouble1: Integer pair containingReservedandOrder
+packedDouble1: Integer pair containing Reserved and Order
 
-packedDouble2: Integer pair containingNumberSegmentsandPeriodicity
+packedDouble2: Integer pair containing NumberSegments and Periodicity
 
-packedDouble3: Integer pair containingNumberKnotsandDimension
+packedDouble3: Integer pair containing NumberKnots and Dimension
 
 knot1
 
@@ -119,11 +105,7 @@ The coefficients for each segment start with the constant term and end with the 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::Identity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~Identity.html)
-
 [ICurve::IGetPCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetPCurveParams.html)
-
 [ICurve::IGetPCurveParamsSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetPCurveParamsSize.html)

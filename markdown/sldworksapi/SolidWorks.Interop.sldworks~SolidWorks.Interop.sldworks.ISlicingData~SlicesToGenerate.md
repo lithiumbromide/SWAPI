@@ -45,40 +45,23 @@ property System.int SlicesToGenerate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Slicing method as defined in
-
-[swSlicingTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlicingTypes_e.html)
+Slicing method as defined in [swSlicingTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlicingTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[SlicingData::SlicesToGenerate](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~SlicesToGenerate.html)
-
-.
+See [SlicingData::SlicesToGenerate](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~SlicesToGenerate.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
 
 ## Availability

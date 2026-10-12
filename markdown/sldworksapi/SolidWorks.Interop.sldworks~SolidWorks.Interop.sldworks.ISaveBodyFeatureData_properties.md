@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # ISaveBodyFeatureData Interface Properties
 
-For a list of all members of this type, see[ISaveBodyFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData_members.html).
+For a list of all members of this type, see [ISaveBodyFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData_members.html).
 
 ## Public Properties
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[ISaveBodyFeatureData members](SolidW
 ## See Also
 
 [ISaveBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::CreateSaveBodyFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateSaveBodyFeature.html)

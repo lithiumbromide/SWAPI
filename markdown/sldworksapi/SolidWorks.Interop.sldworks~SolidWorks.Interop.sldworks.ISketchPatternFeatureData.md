@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Allows access to a sketch-driven pattern feature in a part.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ISketchPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData.html)
-
-.
+See [SketchPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData.html).
 
 ## Examples
 
 [Get Properties of Sketch Pattern Feature (VBA)](Get_Properties_of_Sketch-Pattern_Feature_Example_VB.htm)
-
 [Get Properties of Sketch Pattern Feature (VB.NET)](Get_Properties_of_Sketch-Pattern_Feature_Example_VBNET.htm)
-
 [Get Properties of Sketch Pattern Feature (C#)](Get_Properties_of_Sketch-Pattern_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the entities needed to create the circular pattern feature.
+Before calling IFeatureManager::CreateDefinition, you must use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities needed to create the circular pattern feature.
 
 To select the required entities, use these selection Marks:
 
@@ -69,11 +63,9 @@ To select the required entities, use these selection Marks:
 - faces = 128
 - bodies = 256
 
-Or, after calling IFeatureManger::CreateDefinition, you can explicitly set the corresponding properties on this feature data object.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create a sketch-driven pattern.
 
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create a sketch-driven pattern.
-
-For more information, see the**Sketch Driven Patterns**topic in the SOLIDWORKS Help.
+For more information, see the **Sketch Driven Patterns** topic in the SOLIDWORKS Help.
 
 ## Accessors
 
@@ -88,5 +80,4 @@ For more information, see the**Sketch Driven Patterns**topic in the SOLIDWORKS H
 ## See Also
 
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

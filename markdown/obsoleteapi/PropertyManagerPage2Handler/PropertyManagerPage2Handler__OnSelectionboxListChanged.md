@@ -9,20 +9,15 @@ source: "obsoleteapi/PropertyManagerPage2Handler/PropertyManagerPage2Handler__On
 
 # PropertyManagerPage2Handler::OnSelectionboxListChanged
 
-This method is obsolete and has been superseded
-by[PropertyManagerPage2Handler2::OnSelectionboxChanged](../PropertyManagerPage2Handler2/PropertyManagerPage2Handler2__OnSelectionboxListChanged.htm).
+This method is obsolete and has been superseded by [PropertyManagerPage2Handler2::OnSelectionboxChanged](../PropertyManagerPage2Handler2/PropertyManagerPage2Handler2__OnSelectionboxListChanged.htm).
 
 Description
 
-This method is called when the end-user changes
-the selection list in a selection list box in this PropertyManager.
+This method is called when the end-user changes the selection list in a selection list box in this PropertyManager.
 
 Syntax (OLE Automation)
 
-void = PropertyManagerPage2Handler.OnSelectionboxListChanged
-( Id, Count )
-
-(Table)=========================================================
+void = PropertyManagerPage2Handler.OnSelectionboxListChanged ( Id, Count )
 
 | Input: | (long) Id | Selection box ID |
 | --- | --- | --- |
@@ -30,12 +25,7 @@ void = PropertyManagerPage2Handler.OnSelectionboxListChanged
 
 Syntax (COM)
 
-status = PropertyManagerPage2Handler->OnSelectionboxListChanged
-( Id, Count )
-
-Parameters Table Start
-
-(Table)=========================================================
+status = PropertyManagerPage2Handler->OnSelectionboxListChanged ( Id, Count )
 
 | Input: | (long) Id | Selection box ID |
 | --- | --- | --- |
@@ -44,65 +34,6 @@ Parameters Table Start
 
 Remarks
 
-This method is called when
-your application uses a selection method, such as ModelDocExtension::SelectByID,
-just as if the selection was made interactively.
+This method is called when your application uses a selection method, such as ModelDocExtension::SelectByID, just as if the selection was made interactively.
 
-An interactive box selection
-causes this handler to be called once, regardless of how many items the
-user selected. In other words, if your box selection causes six faces
-to be selected, you will get only one call to this handler.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\PropertyManagerPage2Handler\PropertyManagerPage2Handler__OnSelectionboxListChanged.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="PropertyManagerPage2Handler Method$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\PropertyManagerPage2Handler\PropertyManagerPage2Handler__OnSelectionboxListChanged.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+An interactive box selection causes this handler to be called once, regardless of how many items the user selected. In other words, if your box selection causes six faces to be selected, you will get only one call to this handler.

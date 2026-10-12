@@ -47,19 +47,11 @@ property System.Object^ ViewCamera {
 
 ### Property Value
 
-Array of 12 doubles of the camera properties (see
-
-Remarks
-
-)
+Array of 12 doubles of the camera properties (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ViewCamera](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewCamera.html)
-
-.
+See [EModelViewControl::ViewCamera](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewCamera.html).
 
 ## Remarks
 
@@ -78,7 +70,6 @@ The 12 array elements of type double are:
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

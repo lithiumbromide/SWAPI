@@ -40,7 +40,6 @@ Number of time to retry the task on failure
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
 
 ## Availability

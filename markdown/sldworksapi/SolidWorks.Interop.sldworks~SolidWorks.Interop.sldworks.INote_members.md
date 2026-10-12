@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # INote Interface Members
 
-The following tables list the members exposed by[INote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html).
+The following tables list the members exposed by [INote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html).
 
 ## Public Properties
 
@@ -155,9 +155,6 @@ The following tables list the members exposed by[INote](SolidWorks.Interop.sldwo
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertNewNote3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertNewNote3.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)

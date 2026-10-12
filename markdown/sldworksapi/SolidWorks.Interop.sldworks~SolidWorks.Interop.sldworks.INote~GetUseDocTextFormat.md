@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # GetUseDocTextFormat Method (INote)
 
-Obsolete. Superseded by
-
-[IAnnotation::GetUseDocTextFormat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetUseDocTextFormat.html)
-
-.
+Obsolete. Superseded by [IAnnotation::GetUseDocTextFormat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetUseDocTextFormat.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool GetUseDocTextFormat()
 System.bool GetUseDocTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Note::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~Note~GetUseDocTextFormat.html)
-
-.
+See [Note::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~Note~GetUseDocTextFormat.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)

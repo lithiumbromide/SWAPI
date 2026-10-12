@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommentFolder Interface Members
 
-The following tables list the members exposed by[ICommentFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html).
+The following tables list the members exposed by [ICommentFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html).
 
 ## Public Methods
 
@@ -26,9 +26,6 @@ The following tables list the members exposed by[ICommentFolder](SolidWorks.Inte
 ## See Also
 
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IComment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/Select_Plane_Example_VBNET.htm"
 
 # Select Plane Example (VB.NET)
 
-This example shows how to select the default SOLIDWORKS Right Plane.
+This example shows how to select the default Right Plane.
 
 ```vb
  '---------------------------------------------------------

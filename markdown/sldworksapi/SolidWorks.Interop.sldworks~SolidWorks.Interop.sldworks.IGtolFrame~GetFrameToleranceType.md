@@ -47,25 +47,11 @@ System.bool GetFrameToleranceType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TolType`: Tolerance type as defined by
-
-[swGtolGeomCharSymbol_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolGeomCharSymbol_e.html)
-
-(see
-
-Remarks
-
-)
+- `TolType`: Tolerance type as defined by [swGtolGeomCharSymbol_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolGeomCharSymbol_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -73,19 +59,11 @@ True if Gtol frame tolerance type successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[GtolFrame::GetFrameToleranceType](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~GetFrameToleranceType.html)
-
-.
+See [GtolFrame::GetFrameToleranceType](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~GetFrameToleranceType.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -100,7 +78,6 @@ TolType may be one of only swGtolGeomCharSymbol_e.:
 ## See Also
 
 [IGtolFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
 [IGtolFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html)
 
 ## Availability

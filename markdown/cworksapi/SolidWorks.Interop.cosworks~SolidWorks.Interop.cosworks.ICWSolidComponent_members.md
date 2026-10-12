@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSo
 
 # ICWSolidComponent Interface Members
 
-The following tables list the members exposed by[ICWSolidComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html).
+The following tables list the members exposed by [ICWSolidComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html).
 
 ## Public Properties
 
@@ -31,9 +31,6 @@ The following tables list the members exposed by[ICWSolidComponent](SolidWorks.I
 ## See Also
 
 [ICWSolidComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)

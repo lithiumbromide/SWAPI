@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3_members.htm
 
 # IEdmBatchDelete3 Interface Members
 
-The following tables list the members exposed by[IEdmBatchDelete3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3.html).
+The following tables list the members exposed by [IEdmBatchDelete3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmBatchDelete3](EPDM.Interop.
 ## See Also
 
 [IEdmBatchDelete3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

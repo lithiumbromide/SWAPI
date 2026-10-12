@@ -45,42 +45,26 @@ property System.int TagStyle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Tag style as defined in
-
-[swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html)
+Tag style as defined in [swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[BendTable::TagStyle](ms-its:sldworksapivb6.chm::/sldworks~BendTable~TagStyle.html)
-
-.
+See [BendTable::TagStyle](ms-its:sldworksapivb6.chm::/sldworks~BendTable~TagStyle.html).
 
 ## Examples
 
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IBendTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html)
-
 [IBendTable::StartingValue Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable~StartingValue.html)
 
 ## Availability

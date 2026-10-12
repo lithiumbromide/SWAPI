@@ -40,13 +40,7 @@ System.int GetEntityCount()
 System.int GetEntityCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of entities
 
 ## VBA Syntax
 
-See
-
-[DisplayStateSetting::GetEntityCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~GetEntityCount.html)
-
-.
+See [DisplayStateSetting::GetEntityCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~GetEntityCount.html).
 
 ## Remarks
 
-Call this method to get the size of the array returned by
-
-[IDisplayStateSetting::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayStateSetting~IGetEntities.html)
-
-.
+Call this method to get the size of the array returned by [IDisplayStateSetting::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayStateSetting~IGetEntities.html).
 
 ## See Also
 
 [IDisplayStateSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting.html)
-
 [IDisplayStateSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting_members.html)
-
 [IDisplayStateSetting::Entities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting~Entities.html)
 
 ## Availability

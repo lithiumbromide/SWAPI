@@ -11,7 +11,21 @@ source: "sldworksapi/Get_Guide_Curves_in_Sweep_Feature_Example_VBNET.htm"
 
 This example shows how to get the guide curves in a sweep feature.
 
-'---------------------------------------- ' Preconditions: ' 1. Verify that the part template exists. ' 2. Open the Immediate window. ' ' Postconditions: ' 1. Creates a new part document. ' 2. Creates a sweep feature. ' 3. Gets the number of guide curves in the sweep ' feature. ' 4. Accesses the guide curves in the sweep feature. ' 5. Gets the feature types of the guide curves. ' 6. Releases access of the sweep feature. ' 7. Examine the Immediate window. '----------------------------------------
+'----------------------------------------
+' Preconditions:
+' 1. Verify that the part template exists.
+' 2. Open the Immediate window.
+'
+' Postconditions:
+' 1. Creates a new part document.
+' 2. Creates a sweep feature.
+' 3. Gets the number of guide curves in the sweep
+' feature.
+' 4. Accesses the guide curves in the sweep feature.
+' 5. Gets the feature types of the guide curves.
+' 6. Releases access of the sweep feature.
+' 7. Examine the Immediate window.
+'----------------------------------------
 
 ```
 Imports SolidWorks.Interop.sldworks

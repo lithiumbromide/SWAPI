@@ -45,13 +45,7 @@ property System.Object^ PositionOffsetReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,29 +53,17 @@ Flange position offset reference for this edge flange
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::PositionOffsetReference](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~PositionOffsetReference.html)
-
-.
+See [EdgeFlangeFeatureData::PositionOffsetReference](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~PositionOffsetReference.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [IEdgeFlangeFeatureData::UsePositionOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~UsePositionOffset.html)
-
-  is set to true,
+- [IEdgeFlangeFeatureData::UsePositionOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~UsePositionOffset.html) is set to true,
 
 - and -
 
-- [IEdgeFlangeFeatureData::PositionOffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~PositionOffsetType.html)
-
-  is set to
-
-  [swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html)
-
-  .:
+- [IEdgeFlangeFeatureData::PositionOffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~PositionOffsetType.html) is set to [swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html).:
 
   - swFlangeOffsetUpToVertex
   - swFlangeOffsetUpToSurface
@@ -90,11 +72,8 @@ This property is valid only if:
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [IEdgeFlangeFeatureData::PositionOffsetDistance Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~PositionOffsetDistance.html)
-
 [IEdgeFlangeFeatureData::ReversePositionOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~ReversePositionOffset.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Calculate_Closest_Distance_Between_Model_Components_Example
 
 # Calculate Closest Distance Between Model Components Example (VBA)
 
-This example shows how to calculate the closest distance between two
-components in an assembly.
+This example shows how to calculate the closest distance between two components in an assembly.
 
 ```
 '------------------------------------------------------------

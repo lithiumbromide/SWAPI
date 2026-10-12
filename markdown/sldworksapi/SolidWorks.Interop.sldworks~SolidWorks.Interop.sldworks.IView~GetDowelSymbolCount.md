@@ -40,13 +40,7 @@ System.int GetDowelSymbolCount()
 System.int GetDowelSymbolCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,16 @@ Number of dowel symbols
 
 ## VBA Syntax
 
-See
-
-[View::GetDowelSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDowelSymbolCount.html)
+See [View::GetDowelSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDowelSymbolCount.html)
 
 ## Remarks
 
-Call this method before calling[IView::IGetDowelSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDowelSymbols.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetDowelSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDowelSymbols.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDowelSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDowelSymbols.html)
 
 ## Availability

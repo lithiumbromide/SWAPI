@@ -40,13 +40,7 @@ System.int GetTriangleCount()
 System.int GetTriangleCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of triangles in this note
 
 ## VBA Syntax
 
-See
-
-[Note::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTriangleCount.html)
-
-.
+See [Note::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTriangleCount.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetTriangleAtIndex.html)
-
 [INote::GetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetTriangleAtIndex.html)

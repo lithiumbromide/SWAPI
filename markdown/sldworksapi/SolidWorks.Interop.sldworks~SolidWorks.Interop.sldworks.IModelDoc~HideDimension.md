@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # HideDimension Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::HideDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~HideDimension.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::HideDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~HideDimension.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void HideDimension()
 void HideDimension();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::HideDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~HideDimension.html)
-
-.
+See [ModelDoc::HideDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~HideDimension.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

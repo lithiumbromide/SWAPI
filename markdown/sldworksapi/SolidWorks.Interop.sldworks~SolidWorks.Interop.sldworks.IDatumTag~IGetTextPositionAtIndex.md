@@ -47,13 +47,7 @@ System.double IGetTextPositionAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,42 +55,30 @@ See
 
 ### Return Value
 
-Pointer to an array of doubles (see**Remarks**)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::IGetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetTextPositionAtIndex.html)
-
-.
+See [DatumTag::IGetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetTextPositionAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[textPtX, textPtY, textPtZ]
+[ textPtX, textPtY, textPtZ ]
 
 where these text position values are offset values from the origin of this datum tag object.
 
-Call[IDatumTag::GetTextCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetTextCount.html)before calling this method.
+Call [IDatumTag::GetTextCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetTextCount.html) before calling this method.
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetTextPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextPositionAtIndex.html)
-
 [IDatumTag::GetTextAngleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextAngleAtIndex.html)
-
 [IDatumTag::GetTextAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextAtIndex.html)
-
 [IDatumTag::GetTextCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextCount.html)
-
 [IDatumTag::GetTextHeightAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextHeightAtIndex.html)
-
 [IDatumTag::GetTextInvertAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextInvertAtIndex.html)
-
 [IDatumTag::GetTextPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextPositionAtIndex.html)

@@ -40,29 +40,15 @@ System.object GetViewXform()
 System.Object^ GetViewXform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::GetViewXform](ms-its:sldworksapivb6.chm::/sldworks~View~GetViewXform.html)
-
-.
+See [View::GetViewXform](ms-its:sldworksapivb6.chm::/sldworks~View~GetViewXform.html).
 
 ## Remarks
 
@@ -72,14 +58,11 @@ The return value is formatted as the following array of 13 doubles:
 - [9-11] is a 1x3 vector of translation
 - [12] is the scaling of the transformation
 
-[IView::GetXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetXform.html)and[IView::IGetXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetXform.html)return the location of the drawing view center with respect to the drawing origin.
+[IView::GetXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetXform.html) and [IView::IGetXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetXform.html) return the location of the drawing view center with respect to the drawing origin.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetViewXform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetViewXform.html)
-
 [IView::ModelToViewTransform Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ModelToViewTransform.html)

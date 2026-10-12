@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15.html"
 
 Allows you to access a file in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,21 +38,12 @@ public interface class IEdmFile15 : public IEdmFile10, IEdmFile11, IEdmFile12, I
 
 This interface:
 
-- Extends
+- Extends [IEdmFile14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html) by getting a file's thumbnail by file version.
+- Is extended by [IEdmFile16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html).
 
-  [IEdmFile14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html)
-
-  by getting a file's thumbnail by file version.
-- Is extended by
-
-  [IEdmFile16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html)
-
-  .
-
-To access an item in the vault, cast this interface's object to an[IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html).
+To access an item in the vault, cast this interface's object to an [IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html).
 
 ## See Also
 
 [IEdmFile15 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

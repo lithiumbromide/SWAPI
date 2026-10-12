@@ -40,9 +40,7 @@ Local version number of the file
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
-
 [IEdmReference5::VersionRef Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~VersionRef.html)
 
 ## Availability

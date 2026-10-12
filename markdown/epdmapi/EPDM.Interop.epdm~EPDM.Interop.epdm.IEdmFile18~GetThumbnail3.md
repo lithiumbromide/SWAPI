@@ -52,9 +52,7 @@ Thumbnail handle
 ## See Also
 
 [IEdmFile18 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18.html)
-
 [IEdmFile18 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18_members.html)
-
 [IEdmFile15::GetThumbnail2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15~GetThumbnail2.html)
 
 ## Availability

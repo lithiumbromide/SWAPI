@@ -45,43 +45,25 @@ property System.double DiameterVal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pinion pitch diameter or rack translation distance per pinion revolution (see
-
-Remarks
-
-)
+Pinion pitch diameter or rack translation distance per pinion revolution (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[RackPinionMateFeatureData::DiameterVal](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~DiameterVal.html)
-
-.
+See [RackPinionMateFeatureData::DiameterVal](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~DiameterVal.html).
 
 ## Examples
 
-See the
-
-[IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
-example.
+See the [IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html) example.
 
 ## Remarks
 
 For each full rotation of the pinion, the rack translates a distance = (pi * pinion pitch diameter).
 
-If[IRackPinionMateFeatureData::DiameterType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~DiameterType.html)is set to[swRackPinionMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRackPinionMateDistanceOptions_e.html):
+If [IRackPinionMateFeatureData::DiameterType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~DiameterType.html) is set to [swRackPinionMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRackPinionMateDistanceOptions_e.html):
 
 - swPinionPitchDiameter, use this property to specify the pinion pitch diameter.
 - swRackTravelPerRevolution, use this property to specify the rack translation distance per revolution of the pinion.
@@ -89,7 +71,6 @@ If[IRackPinionMateFeatureData::DiameterType](SolidWorks.Interop.sldworks~SolidWo
 ## See Also
 
 [IRackPinionMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
 [IRackPinionMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData_members.html)
 
 ## Availability

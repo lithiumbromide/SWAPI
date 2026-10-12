@@ -45,27 +45,15 @@ property System.int Speed {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Speed at which the animation plays as defined by
-
-[swAnimationPlaySpeed_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationPlaySpeed_e.html)
+Speed at which the animation plays as defined by [swAnimationPlaySpeed_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationPlaySpeed_e.html)
 
 ## VBA Syntax
 
-See
-
-[Animation::Speed](ms-its:sldworksapivb6.chm::/sldworks~Animation~Speed.html)
-
-.
+See [Animation::Speed](ms-its:sldworksapivb6.chm::/sldworks~Animation~Speed.html).
 
 ## Remarks
 
@@ -73,7 +61,7 @@ This property affects the duration of the animation. It allows you to specify wh
 or not to play the animation at half speed or double speed, which halves or doubles
 the animation duration.
 
-If you use[IAnimation::Duration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation~Speed.html)while an animation is playing, then you might not get
+If you use [IAnimation::Duration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation~Speed.html) while an animation is playing, then you might not get
 the same result as when the animation is not running.
 
 | If you get the Animation object using... | And then use... | Then the duration... |
@@ -84,7 +72,6 @@ the same result as when the animation is not running.
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

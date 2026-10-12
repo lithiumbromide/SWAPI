@@ -54,13 +54,7 @@ void IGetMateParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Mate::IGetMateParams](ms-its:sldworksapivb6.chm::/sldworks~Mate~IGetMateParams.html)
-
-.
+See [Mate::IGetMateParams](ms-its:sldworksapivb6.chm::/sldworks~Mate~IGetMateParams.html).
 
 ## See Also
 
 [IMate Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html)
-
 [IMate Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate_members.html)

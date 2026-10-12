@@ -49,22 +49,13 @@ void GetFileCopy(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `poPathOrFolderID`: ID or path of the folder where to copy the file; 0 to place a copy of the file in all of its shared folders (default) (see
-
-Remarks
-
-)
-- `lEdmGetFlags`: Optional combination of
-
-[EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html)
-
-bits; default is EdmGetFlag.EdmGet_MakeReadOnly
+- `poPathOrFolderID`: ID or path of the folder where to copy the file; 0 to place a copy of the file in all of its shared folders (default) (see **Remarks**)
+- `lEdmGetFlags`: Optional combination of [EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html) bits; default is EdmGetFlag.EdmGet_MakeReadOnly
 - `bsNewName`: Optional new name of the copied file; "" to create a copy using the file's current name
 
 ## Examples
 
 [Check Out and Copy File (VB.NET)](Check_Out_and_Copy_File_Example_VBNET.htm)
-
 [Check Out and Copy File (C#)](Check_Out_and_Copy_File_Example_CSharp.htm)
 
 ## Remarks
@@ -80,11 +71,8 @@ If you specify a folder path in poPathOrFolderID, it must be terminated by a bac
 ## See Also
 
 [IEdmVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html)
-
 [IEdmVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5_members.html)
-
 [IEdmFile5::GetFileCopy Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFileCopy.html)
-
 [IEdmRevision5::GetFileCopy Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5~GetFileCopy.html)
 
 ## Availability

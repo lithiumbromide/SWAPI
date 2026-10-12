@@ -57,11 +57,7 @@ void SetCutOffTemperatures(
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::SetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~SetCutOffTemperatures.html)
-
-.
+See [CWHeatFlux::SetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~SetCutOffTemperatures.html).
 
 ## Remarks
 
@@ -70,9 +66,7 @@ Thermostat is used for transient thermal studies only.
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::GetCutOffTemperatures Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~GetCutOffTemperatures.html)
 
 ## Availability

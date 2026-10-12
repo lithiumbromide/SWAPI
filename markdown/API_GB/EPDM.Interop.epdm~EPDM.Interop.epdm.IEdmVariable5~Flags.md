@@ -35,22 +35,16 @@ property System.int Flags {
 
 ### Property Value
 
-Combination of
-
-[EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html)
-
-bits
+Combination of [EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html) bits
 
 ## Examples
 
 [Access File Card Variables (VB.NET)](Access_File_Card_Variables_Example_VBNET.htm)
-
 [Access File Card Variables (C#)](Access_File_Card_Variables_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html)
-
 [IEdmVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_members.html)
 
 ## Availability

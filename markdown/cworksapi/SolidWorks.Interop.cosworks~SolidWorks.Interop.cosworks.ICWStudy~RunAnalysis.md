@@ -42,24 +42,16 @@ System.int RunAnalysis();
 
 ### Return Value
 
-Error as defined in
-
-[swsRunAnalysisError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRunAnalysisError_e.html)
+Error as defined in [swsRunAnalysisError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRunAnalysisError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::RunAnalysis](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~RunAnalysis.html)
-
-.
+See [CWStudy::RunAnalysis](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~RunAnalysis.html).
 
 ## Examples
 
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
 
 ## Remarks
@@ -67,11 +59,8 @@ See
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::AnalysisType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~AnalysisType.html)
-
 [ICWStudy::MeshAndRun Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshAndRun.html)
 
 ## Availability

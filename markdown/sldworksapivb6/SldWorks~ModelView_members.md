@@ -1,6 +1,5 @@
 ---
-title: "ModelView Object
-Members"
+title: "ModelView Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ModelView_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ModelView_members.html"
 ---
 
-# ModelView Object
-Members
+# ModelView Object Members
 
 ## Public Methods
 
@@ -98,6 +96,7 @@ Members
 | Public Property Translation |  |
 | Public Property Translation2 |  |
 | Public Property Translation3 |  |
+| Public Property UpAxisFlyout |  |
 | Public Property UpdateAllGraphicsLayers |  |
 | Public Property VisibilityViewTools |  |
 | Public Property Xform |  |

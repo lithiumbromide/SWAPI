@@ -1,6 +1,5 @@
 ---
-title: "CWHeatPower Object
-Members"
+title: "CWHeatPower Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWHeatPower_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWHeatPower_members.html"
 ---
 
-# CWHeatPower Object
-Members
+# CWHeatPower Object Members
 
 ## Public Methods
 

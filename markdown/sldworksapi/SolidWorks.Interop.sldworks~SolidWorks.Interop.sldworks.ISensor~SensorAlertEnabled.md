@@ -45,13 +45,7 @@ property System.bool SensorAlertEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,23 @@ True for an alert to be triggered when the limits of the sensor deviate from its
 
 ## VBA Syntax
 
-See
-
-[Sensor::SensorAlertEnabled](ms-its:sldworksapivb6.chm::/sldworks~Sensor~SensorAlertEnabled.html)
-
-.
+See [Sensor::SensorAlertEnabled](ms-its:sldworksapivb6.chm::/sldworks~Sensor~SensorAlertEnabled.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## See Also
 
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)
-
 [ISensor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html)
-
 [ISensor::SensorAlertState Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor~SensorAlertState.html)
-
 [ISensor::SensorAlertType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor~SensorAlertType.html)
-
 [ISensor::SensorAlertValue1 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor~SensorAlertValue1.html)
-
 [ISensor::SensorAlertValue2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor~SensorAlertValue2.html)
-
 [DAssemblyDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SensorAlertPreNotifyEventHandler.html)
-
 [DPartDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SensorAlertPreNotifyEventHandler.html)
 
 ## Availability

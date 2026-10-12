@@ -45,31 +45,17 @@ void GetAddInInfo(
 
 ### Parameters
 
-- `poInfo`: [EdmAddInInfo structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html)
-
-; before returning this structure, populate it with information about your add-in; used by the
-
-[Administration Add-ins dialog](AdminDlg.htm)
-
-during add-in registration
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; pointer to the active vault
-- `poCmdMgr`: [IEdmCmdMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5.html)
-
-; pointer to the command manager that you use to add hooks, menu commands, and toolbar buttons
+- `poInfo`: [EdmAddInInfo structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html); before returning this structure, populate it with information about your add-in; used by the [Administration Add-ins dialog](AdminDlg.htm) during add-in registration
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); pointer to the active vault
+- `poCmdMgr`: [IEdmCmdMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5.html); pointer to the command manager that you use to add hooks, menu commands, and toolbar buttons
 
 ## Examples
 
-See the
-
-[IEdmAddin5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
-
-examples.
+See the [IEdmAddin5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html) examples.
 
 ## Remarks
 
-See[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)for more information.
+See [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html) for more information.
 
 [Return codes](ReturnCodes.htm):
 
@@ -79,7 +65,6 @@ See[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)for more inf
 ## See Also
 
 [IEdmAddIn5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
-
 [IEdmAddIn5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5_members.html)
 
 ## Availability

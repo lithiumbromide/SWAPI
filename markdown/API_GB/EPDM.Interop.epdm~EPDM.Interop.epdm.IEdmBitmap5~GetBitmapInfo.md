@@ -42,16 +42,12 @@ void GetBitmapInfo(
 
 ### Parameters
 
-- `lDataSize`: Size of pbData (see
-
-Remarks
-
-)
+- `lDataSize`: Size of pbData (see **Remarks**)
 - `pbData`: Buffer in which to return the bitmap information
 
 ## Remarks
 
-Before calling this method, you must properly allocate the size of the pbData buffer. Call[IEdmBitmap5::GetBitmapInfoSize](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5~GetBitmapInfoSize.html)to determine the size of buffer to allocate and to specify lDataSize.
+Before calling this method, you must properly allocate the size of the pbData buffer. Call [IEdmBitmap5::GetBitmapInfoSize](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5~GetBitmapInfoSize.html) to determine the size of buffer to allocate and to specify lDataSize.
 
 [Return codes](ReturnCodes.htm):
 
@@ -61,7 +57,6 @@ Before calling this method, you must properly allocate the size of the pbData bu
 ## See Also
 
 [IEdmBitmap5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html)
-
 [IEdmBitmap5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5_members.html)
 
 ## Availability

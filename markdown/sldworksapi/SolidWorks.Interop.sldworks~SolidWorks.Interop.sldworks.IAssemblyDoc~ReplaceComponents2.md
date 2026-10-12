@@ -63,20 +63,14 @@ System.bool ReplaceComponents2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Path and file name of the replacement component
 - `ConfigName`: Name of a configuration in the replacement component; an empty string indicates the default configuration of the replacement component
 - `ReplaceAllInstance`: True to replace all instances of the selected components with the replacement component, false to not
-- `UseConfigChoice`: Configuration to use as defined in[swReplaceComponentsConfiguration_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReplaceComponentsConfiguration_e.html)
+- `UseConfigChoice`: Configuration to use as defined in [swReplaceComponentsConfiguration_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReplaceComponentsConfiguration_e.html)
 - `ReAttachMates`: True to reattach existing mates to the replacement component, false to not
 
 ### Return Value
@@ -85,18 +79,12 @@ True if the selected components are replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ReplaceComponents2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplaceComponents2.html)
-
-.
+See [AssemblyDoc::ReplaceComponents2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplaceComponents2.html).
 
 ## Examples
 
 [Replace Component (C#)](Replace_Component_Example_CSharp.htm)
-
 [Replace Component (VB.NET)](Replace_Component_Example_VBNET.htm)
-
 [Replace Component (VBA)](Replace_Component_Example_VB.htm)
 
 ## Remarks
@@ -110,9 +98,7 @@ This method closes any component files when called in an assembly. If components
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IModelDoc2::ReloadOrReplace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ReloadOrReplace.html)
 
 ## Availability

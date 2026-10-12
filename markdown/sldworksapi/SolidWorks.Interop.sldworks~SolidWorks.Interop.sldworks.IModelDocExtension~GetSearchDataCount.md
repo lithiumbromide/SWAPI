@@ -47,13 +47,7 @@ System.int GetSearchDataCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,18 @@ Number of keywords for AppName previously added to this model document
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSearchDataCount](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetSearchDataCount.html)
-
-.
+See [ModelDocExtension::GetSearchDataCount](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetSearchDataCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IModelDocExtension::IGetSearchData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetSearchData.html)
-
-to determine the size of the arrays for that method.
+Call this method before calling [IModelDocExtension::IGetSearchData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetSearchData.html) to determine the size of the arrays for that method.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::AddOrUpdateSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddOrUpdateSearchData.html)
-
 [IModelDocExtension::DeleteSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSearchData.html)
-
 [IModelDocExtension::GetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchData.html)
 
 ## Availability

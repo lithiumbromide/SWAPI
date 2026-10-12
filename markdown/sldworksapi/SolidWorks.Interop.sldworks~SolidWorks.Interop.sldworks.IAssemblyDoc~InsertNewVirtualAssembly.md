@@ -47,13 +47,7 @@ System.int InsertNewVirtualAssembly(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,16 @@ See
 
 ### Return Value
 
-Error code as defined by
-
-[swInsertNewPartErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewPartErrorCode_e.html)
+Error code as defined by [swInsertNewPartErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewPartErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertNewVirtualAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewVirtualAssembly.html)
-
-.
+See [AssemblyDoc::InsertNewVirtualAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewVirtualAssembly.html).
 
 ## Examples
 
 [Insert New Virtual Assembly (VBA)](Insert_New_Virtual_Assembly_Example_VB.htm)
-
 [Insert New Virtual Assembly (VB.NET)](Insert_New_Virtual_Assembly_Example_VBNET.htm)
-
 [Insert New Virtual Assembly (C#)](Insert_New_Virtual_Assembly_Example_CSharp.htm)
 
 ## Remarks
@@ -88,17 +74,11 @@ If nothing is pre-selected, this method inserts the virtual assembly into the ma
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::InsertNewVirtualPart Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewVirtualPart.html)
-
 [IComponent2::IsVirtual Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsVirtual.html)
-
 [IModelDocExtension::IsVirtualComponent3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsVirtualComponent3.html)
-
 [IAssemblyDoc::InsertNewAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewAssembly.html)
-
 [IComponent2::MakeVirtual Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~MakeVirtual.html)
 
 ## Availability

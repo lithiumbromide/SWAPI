@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Error_Codes_for_Features_Example_VB.htm"
 
 # Get Error Codes for Features (VBA)
 
-This example shows how to get the error codes and warnings for the features
-in a part document.
+This example shows how to get the error codes and warnings for the features in a part document.
 
 ```
 '----------------------------------------------------------------

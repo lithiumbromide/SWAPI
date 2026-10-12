@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of faces for the faces enumeration
-- `Rgelt`: Pointer to an array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) of size Celt
 - `PceltFetched`: Pointer to the number of faces returned from the list; this value can be less than Celt if you asked for more faces than exist, or it can be NULL if no more faces exist
 
 ## VBA Syntax
 
-See
-
-[EnumFaces2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces2~Next.html)
-
-.
+See [EnumFaces2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces2~Next.html).
 
 ## Remarks
 
@@ -87,7 +73,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumFaces2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces2.html)
-
 [IEnumFaces2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces2_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,13 @@ Number of arcs
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetArcCount.html)
-
-.
+See [SFSymbol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetArcCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISFSymbol::GetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetArcAtIndex.html)
-
-and
-
-[ISFSymbol::IGetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~IGetArcAtIndex.html)
-
-to find out the number of arcs in this surface finish symbol.
+Call this method before calling [ISFSymbol::GetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetArcAtIndex.html) and [ISFSymbol::IGetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~IGetArcAtIndex.html) to find out the number of arcs in this surface finish symbol.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

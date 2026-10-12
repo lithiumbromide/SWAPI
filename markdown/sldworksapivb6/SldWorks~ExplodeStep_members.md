@@ -1,6 +1,5 @@
 ---
-title: "ExplodeStep Object
-Members"
+title: "ExplodeStep Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ExplodeStep_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ExplodeStep_members.html"
 ---
 
-# ExplodeStep Object
-Members
+# ExplodeStep Object Members
 
 ## Public Methods
 

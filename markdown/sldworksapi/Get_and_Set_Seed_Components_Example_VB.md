@@ -9,9 +9,7 @@ source: "sldworksapi/Get_and_Set_Seed_Components_Example_VB.htm"
 
 # Get and Set Seed Components Example (VBA)
 
-This example shows how to access the seed components of patterns in an
-assembly. It also shows that seed components can be replaced either by
-IComponent2 objects or IFeature objects representing those components.
+This example shows how to access the seed components of patterns in an assembly. It also shows that seed components can be replaced either by IComponent2 objects or IFeature objects representing those components.
 
 ```
 '------------------------------------------------------------------
@@ -35,7 +33,7 @@ Option Explicit
 
 ```
 Sub main()
-    ' Attach to SOLIDWORKS
+    ' Attach to SOLIDWORKS Design
     Dim swApp As SldWorks.SldWorks
     Set swApp = Application.SldWorks
 ```

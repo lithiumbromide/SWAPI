@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnGroupCheck Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::OnGroupCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnGroupCheck.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::OnGroupCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnGroupCheck.html).
 
 ## Syntax
 
@@ -61,18 +57,12 @@ void OnGroupCheck(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::OnGroupCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnGroupCheck.html)
-
-.
+See [PropertyManagerPage2Handler5::OnGroupCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnGroupCheck.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
-
 [IPropertyManagerPageGroup::Checked](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~Checked.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Access the the drawing views in this drawing document.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,16 +41,11 @@ public interface class ISwDMView
 
 ## VBA Syntax
 
-See
-
-[SwDMView](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView.html)
-
-.
+See [SwDMView](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView.html).
 
 ## Examples
 
 [Get BOM Tables (VB.NET)](Get_BOM_Tables_Example_VBNET.htm)
-
 [Get BOM Tables (C#)](Get_BOM_Tables_Example_CSharp.htm)
 
 ## Accessors
@@ -70,7 +59,5 @@ See
 ## See Also
 
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)
-
 [ISwDMView2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView2.html)

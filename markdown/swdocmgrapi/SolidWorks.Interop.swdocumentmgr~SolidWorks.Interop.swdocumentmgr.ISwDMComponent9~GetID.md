@@ -46,22 +46,16 @@ ID of the component
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent9::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent9~GetID.html)
-
-.
+See [SwDMComponent9::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent9~GetID.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
-
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMComponent9 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent9.html)
-
 [ISwDMComponent9 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent9_members.html)
 
 ## Availability

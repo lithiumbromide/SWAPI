@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 Allows access to a structure system member created along path segments in a sketch.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IPrimaryMemberPathSegmentFeatureData
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPathSegmentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData.html)
-
-.
+See [PrimaryMemberPathSegmentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData.html).
 
 ## Examples
 
@@ -60,15 +56,15 @@ See
 '3. Press F5.
 '
 'Postconditions:
-' 1. Creates**Sketch1**containing two sketch segments.
-' 2. Creates**Plane1**.
+' 1. Creates **Sketch1** containing two sketch segments.
+' 2. Creates **Plane1**.
 ' 3. Configures the start/end extensions and the member profile.
-' 4. Selects two sketch segments and**Plane1**.
-' 5. Configures structure system to split members using**Plane1**.
-' 6. Creates a**Structure System1**with four split members:**Member1_1**,**Member1_2**,**Member2_1**, and**Member2_2**.
+' 4. Selects two sketch segments and **Plane1**.
+' 5. Configures structure system to split members using **Plane1**.
+' 6. Creates a **Structure System1** with four split members: **Member1_1**, **Member1_2**, **Member2_1**, and **Member2_2**.
 ' 7. Inspect the structure system in the graphics area.
 ' 8. Press F5 to edit the structure system.
-' 9. Changes the start/end extensions for**Member1_1**and**Member1_2**.
+' 9. Changes the start/end extensions for **Member1_1** and **Member1_2**.
 '10. Modifies the structure system.
 '11. Inspect the changes in the graphics area.
 '========================================================================
@@ -134,22 +130,22 @@ Set structMemDef = modDocExt.**CreateStructureSystemMemberData**(0)
 
 Debug.Print "Type of structure system member as defined by swStructureSystemMemberType_e: " & structMemDef.**StructureSystemMemberType**
 
-structMemDef.**StartEndExtendD1**= 0.1
+structMemDef.**StartEndExtendD1** = 0.1
 Debug.Print "Extend length in direction 1 (m): " & structMemDef.StartEndExtendD1
-structMemDef.**StartEndExtendD2**= 0.2
+structMemDef.**StartEndExtendD2** = 0.2
 Debug.Print "Extend length in direction 2 (m): " & structMemDef.StartEndExtendD2
 
 Set profDef = structMemDef.**MemberProfile**
 
-profDef.**ProfileStandard**= "ansi inch"
-profDef.**ProfileType**= "c channel"
-profDef.**ProfileSize**= "3 x 5"
+profDef.**ProfileStandard** = "ansi inch"
+profDef.**ProfileType** = "c channel"
+profDef.**ProfileSize** = "3 x 5"
 
 Set PrimDef = structMemDef
 Debug.Print "Structure system primary member creation type as defined by swStructureSystemMemberCreationType_e: " & PrimDef.**PrimaryMemberType**
 
 Set memPathSegDef = PrimDef
-memPathSegDef.**MergeTangentMembers**= True
+memPathSegDef.**MergeTangentMembers** = True
 Debug.Print "Merge tangent members? " & memPathSegDef.**MergeTangentMembers**
 
 Set segments(0) = swSelMgr.GetSelectedObject6(1, 0)
@@ -160,10 +156,10 @@ Debug.Print "Path segments set successfully: " & stat
 
 Dim planes(0) As Object
 Set planes(0) = swSelMgr.GetSelectedObject6(3, 0)
-structMemDef.**IsSplit**= True
+structMemDef.**IsSplit** = True
 Dim structSplitMember As SldWorks.StructureSystemSplitMember
 Set structSplitMember = structMemDef.**GetSplitMember**
-structSplitMember.**MemberType**= swStructureSplitMemberType_e.swStructureSplitMember_Reference
+structSplitMember.**MemberType** = swStructureSplitMemberType_e.swStructureSplitMember_Reference
 stat = structSplitMember.**SetSplitReferences**(planes)
 
 Set memData(0) = structMemDef
@@ -203,8 +199,8 @@ Set memTochange = MemberData
 'Change the start/end extensions for Member1
 Debug.Print "Change member extensions in directions 1 and 2 for one member only"
 Set feat = memTochange.**GetFeature**()
-memTochange.**StartEndExtendD1**= 0.5
-memTochange.**StartEndExtendD2**= 0.2
+memTochange.**StartEndExtendD1** = 0.5
+memTochange.**StartEndExtendD2** = 0.2
 
 'Save edits
 stat = feat.**ModifyDefinition**(MemberData, modDoc, Nothing)
@@ -214,26 +210,17 @@ End Sub
 ## Examples
 
 [Create Path Segment Structure System Member (VB.NET)](Create_Path_Segment_SSMember_Example_VBNET.htm)
-
 [Create Path Segment Structure System Member (C#)](Create_Path_Segment_SSMember_Example_CSharp.htm)
 
 ## Remarks
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager** topic.
 
 ## Accessors
 
-Cast
-
-[IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html)
-
-or
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-to this interface.
+Cast [IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html) or [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html) to this interface.
 
 ## Access Diagram
 
@@ -242,5 +229,4 @@ to this interface.
 ## See Also
 
 [IPrimaryMemberPathSegmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

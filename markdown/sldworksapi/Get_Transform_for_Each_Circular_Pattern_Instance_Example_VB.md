@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Transform_for_Each_Circular_Pattern_Instance_Example_VB
 
 # Get Transform for Each Circular Pattern Instance Example (VBA)
 
-This example shows how to get the transform for each instance in a circular
-pattern feature.
+This example shows how to get the transform for each instance in a circular pattern feature.
 
 ```
 '-----------------------------------------------

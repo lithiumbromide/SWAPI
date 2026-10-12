@@ -45,29 +45,19 @@ property System.int LowerTextContent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Style of the lower text as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (see**Remarks**)
+Style of the lower text as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~LowerTextContent.html)
-
-.
+See [AutoBalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~LowerTextContent.html).
 
 ## Remarks
 
-This property is valid only when[IAutoBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Style.html)is set to[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
+This property is valid only when [IAutoBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Style.html) is set to [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
 
 | To get or set document default values for LowerTextContent... | Use... |
 | --- | --- |
@@ -79,7 +69,6 @@ See the SOLIDWORKS Help for additional details about autoballoons.
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

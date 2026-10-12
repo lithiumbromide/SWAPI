@@ -45,25 +45,17 @@ public delegate void _IEModelViewControlEvents_OnFinishedPrintingDocumentEventHa
 
 ### Parameters
 
-- `PrintJobName`: String specified for the FileNameInPrintQueue argument in
-
-[IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html)
-
-or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
+- `PrintJobName`: String specified for the FileNameInPrintQueue argument in [IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html) or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
 
 ## VBA Syntax
 
-See
-
-[OnFinishedPrintingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedPrintingDocument_EV.html)
-
-.
+See [OnFinishedPrintingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedPrintingDocument_EV.html).
 
 ## Remarks
 
 When this event is fired, eDrawings has sent all of the eDrawings data in the active document to the printer queue, and it is safe to close the active document or open another one.
 
-This event does not guarantee that printing of the eDrawings document was successful. For example, if the printer is out of paper, eDrawings still fires this event and not[OnFailedPrintingDocument](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFailedPrintingDocumentEventHandler.html).
+This event does not guarantee that printing of the eDrawings document was successful. For example, if the printer is out of paper, eDrawings still fires this event and not [OnFailedPrintingDocument](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnFailedPrintingDocumentEventHandler.html).
 
 ## Availability
 

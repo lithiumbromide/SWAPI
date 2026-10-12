@@ -55,13 +55,7 @@ System.bool GetCSYSXYZAngularRotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,26 +69,19 @@ True if rotation values successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCSYSXYZAngularRotation](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetCSYSXYZAngularRotation.html)
-
-.
+See [ModelDocExtension::GetCSYSXYZAngularRotation](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetCSYSXYZAngularRotation.html).
 
 ## Remarks
 
-This method corresponds to the SOLIDWORKS measure tool's calculation of angular rotation between two coordinate systems. See**SOLIDWORKS online help > Fundamentals > Measure Tool**for more information.
+This method corresponds to the SOLIDWORKS measure tool's calculation of angular rotation between two coordinate systems. See **SOLIDWORKS online help > Fundamentals > Measure Tool** for more information.
 
 Use Wikipedia to learn about Tait-Bryan or Cardan angles.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetCSYSDistances Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCSYSDistances.html)
-
 [IModelDocExtension::GetCSYSEulersAngularRotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCSYSEulersAngularRotation.html)
 
 ## Availability

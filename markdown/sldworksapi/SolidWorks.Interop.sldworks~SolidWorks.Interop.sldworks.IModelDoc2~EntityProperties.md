@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EntityProperties Method (IModelDoc2)
 
-Displays the
-
-Properties
-
-dialog for the selected edge or face.
+Displays the Properties dialog for the selected edge or face.
 
 ## Syntax
 
@@ -43,38 +39,21 @@ void EntityProperties()
 void EntityProperties();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EntityProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EntityProperties.html)
-
-.
+See [ModelDoc2::EntityProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EntityProperties.html).
 
 ## Remarks
 
-This is the
-
-Properties
-
-menu selection that appears on the shortcut menu for an edge or face.
+This is the Properties menu selection that appears on the shortcut menu for an edge or face.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SelectedEdgeProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedEdgeProperties.html)
-
 [IModelDoc2::SelectedFaceProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool SetLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the label was successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTag::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~SetLabel.html)
-
-.
+See [DatumTag::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~SetLabel.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ The label can consist of up to two characters. If the specified label is more th
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetLabel.html)
 
 ## Availability

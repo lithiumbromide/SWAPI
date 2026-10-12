@@ -9,13 +9,11 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__FileReload.htm"
 
 # ModelDoc2::FileReload
 
-This
-method is obsolete and has been superseded by ModelDoc2::ReloadOrReplace .
+This method is obsolete and has been superseded by [ModelDoc2::ReloadOrReplace](sldworksAPI.chm::/ModelDoc2/ModelDoc2__ReloadOrReplace.htm).
 
 Description
 
-This method discards changes and reloads this
-model document from disk.
+This method discards changes and reloads this model document from disk.
 
 Syntax (OLE Automation)
 
@@ -25,12 +23,9 @@ Syntax (COM)
 
 status = ModelDoc2->FileReload ( )
 
-(Table)=========================================================
-
 | Return: | (HRESULT) status | S_OK if successful |
 | --- | --- | --- |
 
 Remarks
 
-This method displays a dialog box in which
-the end-user must input data. To avoid the dialog box, use ModelDoc2::ReloadOrReplace.
+This method displays a dialog box in which the end-user must input data. To avoid the dialog box, use ModelDoc2::ReloadOrReplace.

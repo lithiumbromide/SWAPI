@@ -40,36 +40,20 @@ View IGetView()
 View^ IGetView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-where the section line appears
+Pointer to the [drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) where the section line appears
 
 ## VBA Syntax
 
-See
-
-[DrSection::IGetView](ms-its:sldworksapivb6.chm::/sldworks~DrSection~IGetView.html)
-
-.
+See [DrSection::IGetView](ms-its:sldworksapivb6.chm::/sldworks~DrSection~IGetView.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::GetView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetView.html)
 
 ## Availability

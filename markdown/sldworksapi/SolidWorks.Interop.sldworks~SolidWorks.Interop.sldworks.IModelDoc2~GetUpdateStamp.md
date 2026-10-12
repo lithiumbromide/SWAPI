@@ -40,13 +40,7 @@ System.int GetUpdateStamp()
 System.int GetUpdateStamp();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Current update stamp value for this document
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetUpdateStamp](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetUpdateStamp.html)
-
-.
+See [ModelDoc2::GetUpdateStamp](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetUpdateStamp.html).
 
 ## Remarks
 
@@ -67,9 +57,7 @@ The update stamp is an integer form of a time stamp. The update stamp is increme
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IFeature::GetUpdateStamp Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetUpdateStamp.html)
 
 ## Availability

@@ -79,27 +79,21 @@ System.Object^ InsertSketchText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Ptx`: X coordinate of starting point of text block
 - `Pty`: Y coordinate of starting point of text block
 - `Ptz`: Z coordinate of starting point of text block
-- `Text`: Text to insert (see**Remarks**)
+- `Text`: Text to insert (see **Remarks**)
 - `Alignment`: - 0 = Left
-- 1 = Center
-- 2 = Right
-- 3 = Fully justified
+  - 1 = Center
+  - 2 = Right
+  - 3 = Fully justified
 
-(see**Remarks**)
-- `FlipDirection`: 1 to flip text vertically about the selected entity, 0 to not (see**Remarks**)
+  (see **Remarks**)
+- `FlipDirection`: 1 to flip text vertically about the selected entity, 0 to not (see **Remarks**)
 - `HorizontalMirror`: 1 to flip text horizontally, 0 to not
 - `WidthFactor`: 6 <= Percentage by which to evenly widen each character in the text block < = 1667
 - `SpaceBetweenChars`: 1 <= Percentage of space between each character in the text block <= 10000; valid only if Alignment != 3
@@ -110,36 +104,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSketchText](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchText.html)
-
-.
+See [ModelDoc2::InsertSketchText](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchText.html).
 
 ## Examples
 
 [Insert Text At Angle (VBA)](Insert_Text_at_Angle_Example_VB.htm)
-
 [Align Text With Line (VBA)](Align_Text_with_Line_Eample_VB.htm)
-
 [Insert Sketch Text and Hole (VBA)](Insert_Sketch_Text_and_Hole_Example_VB.htm)
-
 [Insert Sketch Text and Hole (VB.NET)](Insert_Sketch_Text_and_Hole_Example_VBNET.htm)
-
 [Insert Sketch Text and Hole (C#)](Insert_Sketch_Text_and_Hole_Example_CSharp.htm)
 
 ## Remarks
 
-Alignment and FlipDirection are valid only when a curve, edge, or sketch segment is selected. Text appears along the selected entity. If an entity is not selected, Text appears horizontally starting at the origin.[Select](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)the curve, edge, or sketch segment with Mark = 1.
+Alignment and FlipDirection are valid only when a curve, edge, or sketch segment is selected. Text appears along the selected entity. If an entity is not selected, Text appears horizontally starting at the origin. [Select](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) the curve, edge, or sketch segment with Mark = 1.
 
-See the SOL**IDWORKS user-interface help > Sketching > Sketch Entities > Sketch Text > SketchText PropertyManager**topic for more information about this functionality.
+See the SOLIDWORKS Design user**-interface help > Sketching > Sketch Entities > Sketch Text > SketchText PropertyManager** topic for more information about this functionality.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::DissolveSketchText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~DissolveSketchText.html)
 
 ## Availability

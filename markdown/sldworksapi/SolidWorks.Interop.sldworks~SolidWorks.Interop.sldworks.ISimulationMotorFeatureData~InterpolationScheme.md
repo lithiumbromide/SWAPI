@@ -45,13 +45,7 @@ property System.int InterpolationScheme {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Interpolation scheme
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::InterpolationScheme](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~InterpolationScheme.html)
-
-.
+See [SimulationMotorFeatureData::InterpolationScheme](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~InterpolationScheme.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
-
 [ISimulationMotorFeatureData::InterpolatedMotor Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~InterpolatedMotor.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.int IGetFaceFacetsCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,16 @@ Number of facets
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetFaceFacetsCount2](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFaceFacetsCount2.html)
-
-.
+See [Tessellation::IGetFaceFacetsCount2](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFaceFacetsCount2.html).
 
 ## Remarks
 
-This method caches the raw facet data after determining the number of facets. A subsequent call to
-
-[ITessellation::IGetFaceFacets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetFaceFacets2.html)
-
-does not have to fetch the facet data again.
+This method caches the raw facet data after determining the number of facets. A subsequent call to [ITessellation::IGetFaceFacets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetFaceFacets2.html) does not have to fetch the facet data again.
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::GetFaceFacets Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~GetFaceFacets.html)
 
 ## Availability

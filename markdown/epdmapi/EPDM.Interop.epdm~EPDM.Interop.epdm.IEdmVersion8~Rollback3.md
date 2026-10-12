@@ -58,11 +58,8 @@ This method deletes both the file data and the file data card data when it delet
 ## See Also
 
 [IEdmVersion8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8.html)
-
 [IEdmVersion8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8_members.html)
-
 [IEdmRevision7::Rollback3 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7~Rollback3.html)
-
 [IEdmEnumeratorVersion7::Rollback3 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion7~Rollback3.html)
 
 ## Availability

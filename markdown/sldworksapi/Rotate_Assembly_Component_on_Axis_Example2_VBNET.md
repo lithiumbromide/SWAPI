@@ -9,8 +9,7 @@ source: "sldworksapi/Rotate_Assembly_Component_on_Axis_Example2_VBNET.htm"
 
 # Rotate Assembly Component on Axis Using IDragOperator::DragAsUI Example (VB.NET)
 
-This example shows how to rotate an assembly component about an assembly
-axis using IDragOperator::DragAsUI.
+This example shows how to rotate an assembly component about an assembly axis using IDragOperator::DragAsUI.
 
 ```vb
  '----------------------------------------------------------------------------

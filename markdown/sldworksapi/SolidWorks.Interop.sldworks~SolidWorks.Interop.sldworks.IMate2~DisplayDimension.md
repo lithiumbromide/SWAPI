@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # DisplayDimension Property (IMate2)
 
-Obsolete. Superseded by
-
-[IMate2::DisplayDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~DisplayDimension2.html)
-
-.
+Obsolete. Superseded by [IMate2::DisplayDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~DisplayDimension2.html).
 
 ## Syntax
 
@@ -46,24 +42,13 @@ property DisplayDimension^ DisplayDimension {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Mate2::DisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~Mate2~DisplayDimension.html)
-
-.
+See [Mate2::DisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~Mate2~DisplayDimension.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)

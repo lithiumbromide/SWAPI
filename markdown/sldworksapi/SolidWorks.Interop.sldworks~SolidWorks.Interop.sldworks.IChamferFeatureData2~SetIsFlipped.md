@@ -50,13 +50,7 @@ void SetIsFlipped(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData2::SetIsFlipped](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~SetIsFlipped.html)
-
-.
+See [ChamferFeatureData2::SetIsFlipped](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~SetIsFlipped.html).
 
 ## See Also
 
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
 [IChamferFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2_members.html)
-
 [IChamferFeatureData2::GetIsFlipped Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2~GetIsFlipped.html)
 
 ## Availability

@@ -63,13 +63,7 @@ System.int EvaluateCellEquation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -81,17 +75,11 @@ See
 
 ### Return Value
 
-Return code as defined in
-
-[swCellEquationStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCellEquationStatus_e.html)
+Return code as defined in [swCellEquationStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCellEquationStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::EvaluateCellEquation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~EvaluateCellEquation.html)
-
-.
+See [TableAnnotation::EvaluateCellEquation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~EvaluateCellEquation.html).
 
 ## Examples
 
@@ -100,13 +88,9 @@ See
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetCellEquation.html)
-
 [ITableAnnotation::SetCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetCellEquation.html)
-
 [ITableAnnotation::GetColumnType3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnType3.html)
 
 ## Availability

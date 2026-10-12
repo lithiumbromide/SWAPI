@@ -11,12 +11,7 @@ source: "sldworksapi/Get_Hatching_Data_Example_VB.htm"
 
 This example shows how to get hatching data from a drawing view.
 
-In a drawing view, hatching can be applied by the user to any face or,
-as in the case of a section view, automatically applied by the SOLIDWORKS
-software. Hatching applied by the user is accessed through the ISketchHatch
-object.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}In
-contrast, hatching in a section view is accessed through the IFaceHatch
-object.
+In a drawing view, hatching can be applied by the user to any face or, as in the case of a section view, automatically applied by the SOLIDWORKS Design software. Hatching applied by the user is accessed through the ISketchHatch object. In contrast, hatching in a section view is accessed through the IFaceHatch object.
 
 ```
 '------------------------------------------------

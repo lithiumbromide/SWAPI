@@ -45,13 +45,7 @@ property System.double ExplodeDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Distance in meters to move components
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::ExplodeDistance](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~ExplodeDistance.html)
-
-.
+See [ExplodeStep::ExplodeDistance](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~ExplodeDistance.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

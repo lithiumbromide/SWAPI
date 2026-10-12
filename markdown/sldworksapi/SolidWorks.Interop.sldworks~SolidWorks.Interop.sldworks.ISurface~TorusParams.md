@@ -42,21 +42,11 @@ property System.Object^ TorusParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Surface::TorusParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~TorusParams.html)
-
-.
+See [Surface::TorusParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~TorusParams.html).
 
 ## Examples
 
@@ -78,9 +68,9 @@ axis.y
 
 axis.z
 
-major radius- the distance between the center of torus and the center of revolved circle
+major radius - the distance between the center of torus and the center of revolved circle
 
-minor radius- the radius of the revolved circle
+minor radius - the radius of the revolved circle
 
 NOTES:
 
@@ -94,9 +84,6 @@ NOTES:
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::ITorusParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~ITorusParams.html)
-
 [ISurface::IsTorus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsTorus.html)

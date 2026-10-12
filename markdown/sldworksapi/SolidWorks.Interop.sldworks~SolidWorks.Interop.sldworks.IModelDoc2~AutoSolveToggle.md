@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AutoSolveToggle Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::AutoSolve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AutoSolve.html)
-
-.
+Obsolete. Superseded by [ISketchManager::AutoSolve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AutoSolve.html).
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void AutoSolveToggle()
 void AutoSolveToggle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AutoSolveToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AutoSolveToggle.html)
-
-.
+See [ModelDoc2::AutoSolveToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AutoSolveToggle.html).
 
 ## Remarks
 
@@ -66,7 +52,6 @@ If this method is set on, then computations are solved automatically. When you a
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

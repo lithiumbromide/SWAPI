@@ -42,13 +42,7 @@ property System.String^ FileName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ Path and name of external file to which this OLE object is linked
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::FileName](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~FileName.html)
-
-.
+See [SwOLEObject::FileName](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~FileName.html).
 
 ## Examples
 
-See the
-
-[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
-examples.
+See the [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html) examples.
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::IsLinked Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~IsLinked.html)
 
 ## Availability

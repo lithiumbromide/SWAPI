@@ -41,28 +41,19 @@ void ElasticConnectorBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::ElasticConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~ElasticConnectorBeginEdit.html)
-
-.
+See [CWElasticConnector::ElasticConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~ElasticConnectorBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
-examples.
+See the [ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html) examples.
 
 ## Remarks
 
-To start editing an elastic support fixture, you must call this method. You must call[ICWElasticConnector::ElasticConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWElasticConnector~ElasticConnectorEndEdit.html)to end editing that fixture. Changes are not applied unless you call both methods.
+To start editing an elastic support fixture, you must call this method. You must call [ICWElasticConnector::ElasticConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWElasticConnector~ElasticConnectorEndEdit.html) to end editing that fixture. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
 
 ## Availability

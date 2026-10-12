@@ -50,8 +50,6 @@ property System.bool IncludeCreep2 {
 - -1 or true = Include creep effect
 - 0 or false = Do not include creep effect
 
-  kadov_tag{{<spaces>}}
-
 ## Remarks
 
 Creep effect is valid for nonlinear studies only.
@@ -61,7 +59,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

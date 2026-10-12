@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Plane_or_Face_for_Sketch_Example_VB.htm"
 
 # Get Plane or Face for Sketch Example (VBA)
 
-This example shows how to get the plane or face on which a selected
-sketch was drawn.
+This example shows how to get the plane or face on which a selected sketch was drawn.
 
 ```
 '-----------------------------------------------------

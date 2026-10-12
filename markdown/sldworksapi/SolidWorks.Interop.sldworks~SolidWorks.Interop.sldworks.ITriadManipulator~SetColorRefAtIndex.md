@@ -50,33 +50,20 @@ void SetColorRefAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Control whose color to set as defined in
-
-[swTriadManipulatorControlPoints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTriadManipulatorControlPoints_e.html)
+- `Index`: Control whose color to set as defined in [swTriadManipulatorControlPoints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTriadManipulatorControlPoints_e.html)
 - `ColorRef`: COLORREF value
 
 ## VBA Syntax
 
-See
-
-[TriadManipulator::SetColorRefAtIndex](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~SetColorRefAtIndex.html)
-
-.
+See [TriadManipulator::SetColorRefAtIndex](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~SetColorRefAtIndex.html).
 
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [ITriadManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator_members.html)
 
 ## Availability

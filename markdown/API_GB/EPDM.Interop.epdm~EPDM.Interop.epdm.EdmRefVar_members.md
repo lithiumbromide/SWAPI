@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar_members.html"
 
 # EdmRefVar Structure Members
 
-The following tables list the members exposed by[EdmRefVar](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html).
+The following tables list the members exposed by [EdmRefVar](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html).
 
 ## Public Fields
 
@@ -29,5 +29,4 @@ The following tables list the members exposed by[EdmRefVar](EPDM.Interop.epdm~EP
 ## See Also
 
 [EdmRefVar Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

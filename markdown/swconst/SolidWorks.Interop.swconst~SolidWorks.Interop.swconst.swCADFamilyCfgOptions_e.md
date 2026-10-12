@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCADFami
 
 # swCADFamilyCfgOptions_e Enumeration
 
-SOLIDWORKS CONNECTED family configuration options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+SOLIDWORKS Design connected to the 3DEXPERIENCE platform family configuration options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

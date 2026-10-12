@@ -45,13 +45,7 @@ property System.Object^ FixedReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Fixed reference entity (edge or face)
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::FixedReference](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~FixedReference.html)
-
-.
+See [SheetMetalFeatureData::FixedReference](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~FixedReference.html).
 
 ## Examples
 
@@ -71,14 +61,13 @@ See
 
 ## Remarks
 
-To access the fixed reference of a sheet metal feature in sheet metal models created in SOLIDWORKS 2013 or later, follow the examples of[IModelDocExtension::GetTemplateSheetMetal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html).
+To access the fixed reference of a sheet metal feature in sheet metal models created in SOLIDWORKS 2013 or later, follow the examples of [IModelDocExtension::GetTemplateSheetMetal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html).
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
 
 ## Availability

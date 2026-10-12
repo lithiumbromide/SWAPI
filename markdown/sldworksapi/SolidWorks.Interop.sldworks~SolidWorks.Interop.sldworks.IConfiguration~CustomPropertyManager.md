@@ -42,29 +42,15 @@ property CustomPropertyManager^ CustomPropertyManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to
-
-[ICustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager.html)
-
-object
+Pointer to [ICustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager.html) object
 
 ## VBA Syntax
 
-See
-
-[Configuration::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Configuration~CustomPropertyManager.html)
-
-.
+See [Configuration::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Configuration~CustomPropertyManager.html).
 
 ## Examples
 
@@ -73,11 +59,8 @@ See
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IFeature::CustomPropertyManager Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~CustomPropertyManager.html)
-
 [IModelDocExtension::CustomPropertyManager Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CustomPropertyManager.html)
 
 ## Availability

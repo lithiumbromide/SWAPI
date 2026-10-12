@@ -40,48 +40,24 @@ System.object GetCutListSortOptions()
 System.Object^ GetCutListSortOptions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[ICutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html)
-
-; Null if
-
-[IBodyFolder::GetAutomaticCutList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetAutomaticCutList.html)
-
-returns false
+[ICutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html); Null if [IBodyFolder::GetAutomaticCutList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetAutomaticCutList.html) returns false
 
 ## VBA Syntax
 
-See
-
-ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetBodyCount.html
-
-[BodyFolder::GetCutListSortOptions](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetCutListSortOptions.html)
-
-.
+See ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetBodyCount.html[BodyFolder::GetCutListSortOptions](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetCutListSortOptions.html).
 
 ## Examples
 
-See the
-
-[IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
-examples.
+See the [IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html) examples.
 
 ## See Also
 
 [IBodyFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
 [IBodyFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder_members.html)
-
 [IBodyFolder::SortCutList Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~SortCutList.html)
 
 ## Availability

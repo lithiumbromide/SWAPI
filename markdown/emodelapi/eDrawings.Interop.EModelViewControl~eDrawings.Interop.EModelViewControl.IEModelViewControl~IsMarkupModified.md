@@ -48,18 +48,12 @@ True if markup file was modified, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::IsMarkupModified](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~IsMarkupModified.html)
-
-.
+See [EModelViewControl::IsMarkupModified](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~IsMarkupModified.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::OpenMarkupFile Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenMarkupFile.html)
 
 ## Availability

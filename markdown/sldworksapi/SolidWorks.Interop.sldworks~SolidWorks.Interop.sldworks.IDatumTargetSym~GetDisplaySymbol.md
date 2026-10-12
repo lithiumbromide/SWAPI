@@ -40,13 +40,7 @@ System.bool GetDisplaySymbol()
 System.bool GetDisplaySymbol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,31 +48,22 @@ True if the datum target symbol is displayed, false if it is not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetDisplaySymbol](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDisplaySymbol.html)
-
-.
+See [DatumTargetSym::GetDisplaySymbol](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDisplaySymbol.html).
 
 ## Remarks
 
 Use:
 
-- [IDatumTargetSym::GetDisplayTargetArea](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplayTargetArea.html)to determine whether the datum target area part of this annotation is displayed.
-- [IDatumTargetSym::SetDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~SetDisplay.html)to enable or disable the display of the target area or symbol.
+- [IDatumTargetSym::GetDisplayTargetArea](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplayTargetArea.html) to determine whether the datum target area part of this annotation is displayed.
+- [IDatumTargetSym::SetDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~SetDisplay.html) to enable or disable the display of the target area or symbol.
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetDisplaySizeOutside Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetDisplaySizeOutside.html)
-
 [IDatumTargetSym::GetDisplaySizeOutside Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetDisplaySizeOutside.html)
-
 [IDatumTargetSym::SetDisplay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDisplay.html)
-
 [IDatumTargetSym::SetDisplay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDisplay.html)
 
 ## Availability

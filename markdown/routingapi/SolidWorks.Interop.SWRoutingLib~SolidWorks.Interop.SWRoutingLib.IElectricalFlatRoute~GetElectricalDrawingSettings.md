@@ -67,16 +67,11 @@ System.int GetElectricalDrawingSettings(
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute::GetElectricalDrawingSettings](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetElectricalDrawingSettings.html)
-
-.
+See [ElectricalFlatRoute::GetElectricalDrawingSettings](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetElectricalDrawingSettings.html).
 
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
 
 ## Availability

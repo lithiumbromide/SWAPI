@@ -51,36 +51,20 @@ System.Object^ GetMaterialPropertyValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configuration options as defined by
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_opt`: Configuration options as defined by [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names for this component
 
 ### Return Value
 
-Array of material values for this component (see
-
-Remarks
-
-)
+Array of material values for this component (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetMaterialPropertyValues.html)
-
-.
+See [ModelDocExtension::GetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetMaterialPropertyValues.html).
 
 ## Remarks
 
@@ -88,26 +72,19 @@ The material values returned include the face color (R,G,B values), reflectivity
 
 The format of material_values is an array of doubles:
 
-[R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission]
+[ R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission ]
 
 Valid values are from 0 to 1 for all variables. If material_values is all -1 values, then material property values were not assigned to the feature. Therefore, the feature will have the default properties in the user interface.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::IGetMaterialPropertyValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetMaterialPropertyValues.html)
-
 [IModelDocExtension::RemoveMaterialProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveMaterialProperty.html)
-
 [IModelDocExtension::IRemoveMaterialProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IRemoveMaterialProperty.html)
-
 [IModelDocExtension::SetMaterialPropertyValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetMaterialPropertyValues.html)
-
 [IModelDocExtension::ISetMaterialPropertyValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ISetMaterialPropertyValues.html)
-
 [IModelDocExtension::HasMaterialPropertyValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~HasMaterialPropertyValues.html)
 
 ## Availability

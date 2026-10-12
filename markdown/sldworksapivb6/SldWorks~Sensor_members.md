@@ -1,6 +1,5 @@
 ---
-title: "Sensor Object
-Members"
+title: "Sensor Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Sensor_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Sensor_members.html"
 ---
 
-# Sensor Object
-Members
+# Sensor Object Members
 
 ## Public Methods
 

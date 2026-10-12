@@ -62,21 +62,15 @@ void SetStockFeatureReferences(
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument28::SetStockFeatureReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument28~SetStockFeatureReferences.html)
-
-.
+See [SwDMDocument28::SetStockFeatureReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument28~SetStockFeatureReferences.html).
 
 ## Remarks
 
-SOLIDWORKS 2022 allows you to Pack and Go parts created by the Save Bodies and Split features. The split parts created are listed as references of the parent
-part.
+SOLIDWORKS 2022 allows you to Pack and Go parts created by the Save Bodies and Split features. The split parts created are listed as references of the parent part.
 
 ## See Also
 
 [ISwDMDocument28 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument28.html)
-
 [ISwDMDocument28 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument28_members.html)
 
 ## Availability

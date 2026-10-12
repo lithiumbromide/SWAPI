@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault17.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmVault17 : public IEdmVault10, IEdmVault11, IEdmVault1
 
 This interface:
 
-- extends
-
-  [IEdmVault16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16.html)
-
-  by providing the ability to specify whether to ignore a secondary database that is configured for the logged-in user.
-- is extended by
-
-  [IEdmVault18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html)
-
-  .
+- extends [IEdmVault16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault16.html) by providing the ability to specify whether to ignore a secondary database that is configured for the logged-in user.
+- is extended by [IEdmVault18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html).
 
 ## See Also
 
 [IEdmVault17 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault17_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

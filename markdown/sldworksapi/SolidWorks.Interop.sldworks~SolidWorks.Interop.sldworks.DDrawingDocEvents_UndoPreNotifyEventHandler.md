@@ -37,33 +37,21 @@ public delegate System.int DDrawingDocEvents_UndoPreNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_UndoPreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[UndoPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~UndoPreNotify_EV.html)
-
-.
+See [UndoPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~UndoPreNotify_EV.html).
 
 ## Examples
 
 [Undo Deleted Note and Fire Pre- and Post-notify Events (C#)](Undo_Deleted_Note_and_Fire_Undo_Post-Notify_Event_Example_CSharp.htm)
-
 [Undo Deleted Note and Fire Pre- and Post-notify Events (VB.NET)](Undo_Deleted_Note_and_Fire_Undo_Post-Notify_Event_Example_VBNET.htm)
-
 [Undo Deleted Note and Fire Pre- and Post-notify Events (VBA)](Undo_Deleted_Note_and_Fire_Undo_Post-Notify_Event_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use swDrawingUndoPreNotify to register for this notification.
+If developing a C++ application, use [swDrawingUndoPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

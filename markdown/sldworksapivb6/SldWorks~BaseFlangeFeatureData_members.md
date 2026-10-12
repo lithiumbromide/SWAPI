@@ -1,6 +1,5 @@
 ---
-title: "BaseFlangeFeatureData Object
-Members"
+title: "BaseFlangeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BaseFlangeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BaseFlangeFeatureData_members.html"
 ---
 
-# BaseFlangeFeatureData Object
-Members
+# BaseFlangeFeatureData Object Members
 
 ## Public Methods
 

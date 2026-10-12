@@ -54,9 +54,7 @@ System.String^ GetInvisibleCustomProperty(
 ### Parameters
 
 - `FieldName`: Name of the custom property
-- `type`: Type of custom property as defined by
-
-[swDMCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
+- `type`: Type of custom property as defined by [swDMCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
 
 ### Return Value
 
@@ -64,26 +62,16 @@ Value of the custom property
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet::GetInvisibleCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomProperty.html)
-
-.
+See [SwDMSheet::GetInvisibleCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomProperty.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ISwDMSheet::GetInvisibleCustomPropertyNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyNames.html)
-
-.
+Before calling this method, call [ISwDMSheet::GetInvisibleCustomPropertyNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyNames.html).
 
 ## See Also
 
 [ISwDMSheet Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet.html)
-
 [ISwDMSheet Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet_members.html)
-
 [ISwDMSheet::GetInvisibleCustomPropertyCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyCount.html)
 
 ## Availability

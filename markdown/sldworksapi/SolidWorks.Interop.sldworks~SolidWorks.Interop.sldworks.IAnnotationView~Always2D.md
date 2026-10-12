@@ -42,13 +42,7 @@ property System.bool Always2D {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True to display annotations in 2D, false to display them in 3D
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::Always2D](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Always2D.html)
-
-.
+See [AnnotationView::Always2D](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Always2D.html).
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
 
 ## Availability

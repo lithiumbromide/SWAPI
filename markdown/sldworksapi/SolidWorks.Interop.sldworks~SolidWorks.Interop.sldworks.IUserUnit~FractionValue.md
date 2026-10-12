@@ -45,38 +45,23 @@ property System.int FractionValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fraction denominator value; valid only if[IUserUnit::FractionBase](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit~FractionBase.html)isswFractionDisplay_e.swFRACTION
+Fraction denominator value; valid only if [IUserUnit::FractionBase](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit~FractionBase.html) is [swFractionDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFractionDisplay_e.html).swFRACTION
 
 ## VBA Syntax
 
-See
-
-[UserUnit::FractionValue](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~FractionValue.html)
-
-.
+See [UserUnit::FractionValue](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~FractionValue.html).
 
 ## Examples
 
-See the
-
-[IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
-examples.
+See the [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html) examples.
 
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [IUserUnit Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html)
 
 ## Availability

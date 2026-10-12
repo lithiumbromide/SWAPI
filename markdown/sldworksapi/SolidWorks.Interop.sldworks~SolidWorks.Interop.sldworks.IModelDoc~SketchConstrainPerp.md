@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchConstrainPerp Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchConstrainPerp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchConstrainPerp.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchConstrainPerp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchConstrainPerp.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SketchConstrainPerp()
 void SketchConstrainPerp();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchConstrainPerp](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchConstrainPerp.html)
-
-.
+See [ModelDoc::SketchConstrainPerp](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchConstrainPerp.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

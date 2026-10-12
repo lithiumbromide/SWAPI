@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # IGetEdges Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetEdges.html)
-
-.
+Obsolete. Superseded by [ILoop2::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetEdges.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.IntPtr IGetEdges()
 System.IntPtr IGetEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Loop::IGetEdges](ms-its:sldworksapivb6.chm::/sldworks~Loop~IGetEdges.html)
-
-.
+See [Loop::IGetEdges](ms-its:sldworksapivb6.chm::/sldworks~Loop~IGetEdges.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

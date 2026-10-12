@@ -45,13 +45,7 @@ property System.double ThirdOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ Third offset distance
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::ThirdOffset](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~ThirdOffset.html)
-
-.
+See [SectionViewData::ThirdOffset](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~ThirdOffset.html).
 
 ## Examples
 
 [Create Section View in Model (C#)](Create_Section_View_in_Model_Example_CSharp.htm)
-
 [Create Section View in Model (VB.NET)](Create_Section_View_in_Model_Example_VBNET.htm)
-
 [Create Section View in Model (VBA)](Create_Section_View_in_Model_Example_VB.htm)
-
 [Get Section View Data (C#)](Get_Section_View_Data_Example_CSharp.htm)
-
 [Get Section View Data (VB.NET)](Get_Section_View_Data_Example_VBNET.htm)
-
 [Get Section View Data (VBA)](Get_Section_View_Data_Example_VB.htm)
 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
-
 [ISectionViewData::FirstOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~FirstOffset.html)
-
 [ISectionViewData::SecondOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SecondOffset.html)
 
 ## Availability

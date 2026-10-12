@@ -47,17 +47,11 @@ System.bool SavePointsToFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Path and file name of the file to which to save the points; you can specify**.sldcrv**files or**.txt**as the filename extension
+- `FileName`: Path and file name of the file to which to save the points; you can specify **.sldcrv** files or **.txt** as the filename extension
 
 ### Return Value
 
@@ -65,18 +59,12 @@ True if the points are saved to the file, false if not
 
 ## VBA Syntax
 
-See
-
-[FreePointCurveFeatureData::SavePointsToFile](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~SavePointsToFile.html)
-
-.
+See [FreePointCurveFeatureData::SavePointsToFile](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~SavePointsToFile.html).
 
 ## Examples
 
 [Insert Free Point Curve Feature (C#)](Insert_Free_Point_Curve_Feature_Example_CSharp.htm)
-
 [Insert Free Point Curve Feature (VB.NET)](Insert_Free_Point_Curve_Feature_Example_VBNET.htm)
-
 [Insert Free Point Curve Feature (VBA)](Insert_Free_Point_Curve_Feature_Example_VB.htm)
 
 ## Remarks
@@ -88,7 +76,6 @@ See SOLIDWORKS Help for details about free-point curve files.
 ## See Also
 
 [IFreePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData.html)
-
 [IFreePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData_members.html)
 
 ## Availability

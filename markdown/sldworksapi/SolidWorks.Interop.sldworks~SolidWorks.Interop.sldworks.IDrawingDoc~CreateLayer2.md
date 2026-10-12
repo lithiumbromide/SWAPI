@@ -71,29 +71,15 @@ System.bool CreateLayer2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Layername`: Layer name (see
-
-Remarks
-
-)
+- `Layername`: Layer name (see **Remarks**)
 - `LayerDesc`: Description for the new layer
 - `LayerColor`: COLORREF value specifying the color of items in this layer
-- `LayerStyle`: Line style as defined in
-
-[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
-- `LayerWidth`: Line width as defined in
-
-[swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
+- `LayerStyle`: Line style as defined in [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
+- `LayerWidth`: Line width as defined in [swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
 - `BOn`: True makes this layer visible, false makes it invisible
 - `BPrint`: True to print this layer when printing the document, false to not
 
@@ -103,18 +89,12 @@ True if the layer was created successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateLayer2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateLayer2.html)
-
-.
+See [DrawingDoc::CreateLayer2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateLayer2.html).
 
 ## Examples
 
 [Create Layer for Selected View (VBA)](Create_Layer_for_Selected_View_Example_VB.htm)
-
 [Create Layer for Selected View (VB.NET)](Create_Layer_for_Selected_View_Example_VBNET.htm)
-
 [Create Layer for Selected View (C#)](Create_Layer_for_Selected_View_Example_CSharp.htm)
 
 ## Remarks
@@ -126,13 +106,9 @@ Do not use backslash or @ symbols in Layername.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::SetCurrentLayer Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SetCurrentLayer.html)
-
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10_me
 
 # IEdmEnumeratorVariable10 Interface Methods
 
-For a list of all members of this type, see[IEdmEnumeratorVariable10 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10_members.html).
+For a list of all members of this type, see [IEdmEnumeratorVariable10 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmEnumeratorVariable10 members](EP
 ## See Also
 
 [IEdmEnumeratorVariable10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

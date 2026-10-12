@@ -9,19 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2.html"
 
 # IEdmRefItem2 Interface
 
-Allows you to access an item in an
-
-[IEdmRefItemContainer](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html)
-
-.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows you to access an item in an [IEdmRefItemContainer](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html). **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -46,11 +34,7 @@ public interface class IEdmRefItem2 : public IEdmRefItem
 
 ## Remarks
 
-This interface extends
-
-[IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
-by providing the ability to get the old and new paths of references that have been moved or renamed by another client.
+This interface extends [IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html) by providing the ability to get the old and new paths of references that have been moved or renamed by another client.
 
 ## Accessors
 
@@ -59,5 +43,4 @@ by providing the ability to get the old and new paths of references that have be
 ## See Also
 
 [IEdmRefItem2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

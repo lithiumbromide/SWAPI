@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGe
 
 Allows access to gear mate features.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,14 @@ public interface class IGearMateFeatureData
 
 ## VBA Syntax
 
-See
-
-[GearMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData.html)
-
-.
+See [GearMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData.html).
 
 ## Examples
 
 'VBA
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\tutorial\api\MechanicalMates\spurgear.sldasm**.
-' 2. Delete**GearMate1**from the Mates folder of the FeatureManager design tree.
+' 1. Open `public_documents`**\samples\tutorial\api\MechanicalMates\spurgear.sldasm**.
+' 2. Delete **GearMate1** from the Mates folder of the FeatureManager design tree.
 ' 3. Run the macro.
 ' 4. Inspect the Mates folder in the FeatureManager design tree.
 ' ******************************************************************************
@@ -80,16 +76,16 @@ Set EntitiesToMate(0) = Part.SelectionManager.GetSelectedObject6(1, -1)
 Set EntitiesToMate(1) = Part.SelectionManager.GetSelectedObject6(2, -1)
 Dim EntitiesToMateVar As Variant
 EntitiesToMateVar = EntitiesToMate
-MateData.**EntitiesToMate**= (EntitiesToMateVar)
+MateData.**EntitiesToMate** = (EntitiesToMateVar)
 
 ' Set the gear ratio numerator
-MateData.**GearRatioNumerator**= 0.012954
+MateData.**GearRatioNumerator** = 0.012954
 
 ' Set the gear ratio denominator
-MateData.**GearRatioDenominator**= 0.012954
+MateData.**GearRatioDenominator** = 0.012954
 
 ' Set the mate orientation direction
-MateData.**Reverse**= False
+MateData.**Reverse** = False
 
 ' Create the mate
 Dim MateFeature As SldWorks.Feature
@@ -109,42 +105,22 @@ SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html
 
 A gear mate forces two components to rotate relative to one another about selected axes.
 
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)is the parent of this mate interface.
+[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) is the parent of this mate interface.
 
 To create a gear mate:
 
-1. Follow general instructions in the
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  Remarks.
-2. Specify
-
-  [IGearMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData~EntitiesToMate.html)
-
-  or use
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to pre-select the entities using Mark = 1.
+1. Follow general instructions in the [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html) Remarks.
+2. Specify [IGearMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData~EntitiesToMate.html) or use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities using Mark = 1.
 3. Specify other properties of the GearMateFeatureData object.
 
 To edit a gear mate:
 
-1. Access its feature and call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to get the MateFeatureData object.
+1. Access its feature and call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get the MateFeatureData object.
 2. Cast the MateFeatureData object to a GearMateFeatureData object.
 3. Modify the GearMateFeatureData object.
-4. Call
+4. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html).
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  .
-
-To delete a gear mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
+To delete a gear mate, use [IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
 
 ## Access Diagram
 
@@ -153,5 +129,4 @@ To delete a gear mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Inte
 ## See Also
 
 [IGearMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

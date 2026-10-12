@@ -34,12 +34,9 @@ EdmBomVersionType meType
 
 ### Field Value
 
-Type as defined in
-
-[EdmBomVersionType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersionType.html)
+Type as defined in [EdmBomVersionType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersionType.html)
 
 ## See Also
 
 [EdmBomVersion Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html)
-
 [EdmBomVersion Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members.html)

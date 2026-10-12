@@ -45,13 +45,7 @@ property System.double Gamma {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Value for midtones of the rendered image
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::Gamma](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~Gamma.html)
-
-.
+See [RayTraceRendererOptions::Gamma](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~Gamma.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Increasing the value for midtones lightens them; decreasing the value darkens th
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
 
 ## Availability

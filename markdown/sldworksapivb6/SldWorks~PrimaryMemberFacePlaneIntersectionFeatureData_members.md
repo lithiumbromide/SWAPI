@@ -1,6 +1,5 @@
 ---
-title: "PrimaryMemberFacePlaneIntersectionFeatureData Object
-Members"
+title: "PrimaryMemberFacePlaneIntersectionFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PrimaryMemberFacePlaneIntersectionFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PrimaryMemberFacePlaneIntersectionFeatureData_members.html"
 ---
 
-# PrimaryMemberFacePlaneIntersectionFeatureData Object
-Members
+# PrimaryMemberFacePlaneIntersectionFeatureData Object Members
 
 ## Public Methods
 

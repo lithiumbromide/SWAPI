@@ -12,8 +12,7 @@ source: "sldworksapi/Anchor_a_Note_Example_CSharp.htm"
 This example shows how to:
 
 - insert a note.
-- set a note's text to all uppercase
-  and its vertical justification to bottom.
+- set a note's text to all uppercase and its vertical justification to bottom.
 - anchor and position a note.
 
 ```

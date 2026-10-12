@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # NeedsRebuild Property (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::NeedsRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::NeedsRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html).
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property System.bool NeedsRebuild {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,24 +50,15 @@ True if document needs to be rebuilt, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::NeedsRebuild](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~NeedsRebuild.html)
-
-.
+See [ModelDocExtension::NeedsRebuild](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~NeedsRebuild.html).
 
 ## Remarks
 
-Because this now obsoleted property does not recognize frozen features, use
-
-[IModelDocExtension::NeedsRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html)
-
-, which does.
+Because this now obsoleted property does not recognize frozen features, use [IModelDocExtension::NeedsRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html), which does.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

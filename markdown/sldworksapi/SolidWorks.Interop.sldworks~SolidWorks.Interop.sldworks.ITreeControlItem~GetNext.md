@@ -40,13 +40,7 @@ TreeControlItem GetNext()
 TreeControlItem^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::GetNext](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetNext.html)
-
-.
+See [TreeControlItem::GetNext](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetNext.html).
 
 ## Examples
 
 [Traverse FeatureManager Design Tree (VBA)](Traverse_FeatureManager_Design_Tree_VB.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (VBA)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_VB.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (VB.NET)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_VBNET.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (C#)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_CSharp.htm)
 
 ## Remarks
 
-Use
-
-[ITreeControlItem::GetPrevious](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetPrevious.html)
-
-to get the previous sibling of this item in the FeatureManager design tree.
+Use [ITreeControlItem::GetPrevious](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetPrevious.html) to get the previous sibling of this item in the FeatureManager design tree.
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
 
 ## Availability

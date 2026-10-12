@@ -46,22 +46,16 @@ True if the colors defined are not up-to-date, false if they are
 
 ## VBA Syntax
 
-See
-
-[SwColorContour1::NeedsUpdate](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour1~NeedsUpdate.html)
-
-.
+See [SwColorContour1::NeedsUpdate](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour1~NeedsUpdate.html).
 
 ## Examples
 
 [Custom Colorize a Model Example (C#)](Custom_Colorize_a_Model_Example_CSharp.htm)
-
 [Custom Colorize a Model Example (VB.NET)](Custom_Colorize_a_Model_Example_VBNET.htm)
 
 ## See Also
 
 [ISwColorContour1 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1.html)
-
 [ISwColorContour1 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1_members.html)
 
 ## Availability

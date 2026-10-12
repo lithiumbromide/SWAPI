@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ResetBlockingState Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ResetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ResetBlockingState.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ResetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ResetBlockingState.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ResetBlockingState()
 void ResetBlockingState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ResetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ResetBlockingState.html)
-
-.
+See [ModelDoc::ResetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ResetBlockingState.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

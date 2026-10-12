@@ -51,17 +51,13 @@ void SetProgressRange(
 
 ## Examples
 
-See the examples in
-
-[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
-.
+See the examples in [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html).
 
 ## Remarks
 
-The task add-in calls this method at the start of processing of the hook,[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd.TaskRun, to initialize the task list progress bar in the task list window of the PDM Administration tool.
+The task add-in calls this method at the start of processing of the hook, [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd.TaskRun, to initialize the task list progress bar in the task list window of the PDM Administration tool.
 
-The task add-in calls[IEdmTaskInstance::SetProgressPos](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetProgressPos.html)periodically during processing of the hook, EdmCmdType.EdmCmd.TaskRun, to update the progress bar.
+The task add-in calls [IEdmTaskInstance::SetProgressPos](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetProgressPos.html) periodically during processing of the hook, EdmCmdType.EdmCmd.TaskRun, to update the progress bar.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -70,7 +66,6 @@ The task add-in calls[IEdmTaskInstance::SetProgressPos](EPDM.Interop.epdm~EPDM.I
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskInstance Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html)
 
 ## Availability

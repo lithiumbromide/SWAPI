@@ -9,6 +9,8 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # InsertAngleDimension Method (IDimXpertPart)
 
+Inserts an angle dimension.
+
 ## Syntax
 
 ### Visual Basic (Declaration)
@@ -47,10 +49,22 @@ System.bool InsertAngleDimension(
 
 ### Parameters
 
-- `Option`:
+- `Option`: [IDimXpertDimensionOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDimensionOption.html)
+
+### Return Value
+
+True if the angle dimension is created, false if not
+
+## VBA Syntax
+
+See [DimXpertPart::InsertAngleDimension](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~InsertAngleDimension.html).
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
+[IDimXpertPart::InsertBasicDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
+
+## Availability
+
+SOLIDWORKS 2026 SP02, Revision Number 34.2

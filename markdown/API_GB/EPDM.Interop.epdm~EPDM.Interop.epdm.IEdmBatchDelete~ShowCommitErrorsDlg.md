@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowCommitEr
 
 # ShowCommitErrorsDlg Method (IEdmBatchDelete)
 
-Shows a dialog box containing the errors that occurred during
-
-[IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html)
-
-.
+Shows a dialog box containing the errors that occurred during [IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html).
 
 ## Syntax
 
@@ -47,11 +43,7 @@ void ShowCommitErrorsDlg(
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [IEdmBatchDelete Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html)
 
 ## Availability

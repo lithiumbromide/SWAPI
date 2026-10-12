@@ -51,16 +51,11 @@ Alternate name for the configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::AlternateName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~AlternateName.html)
-
-.
+See [PDMWConfiguration::AlternateName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~AlternateName.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
 
 ## Availability

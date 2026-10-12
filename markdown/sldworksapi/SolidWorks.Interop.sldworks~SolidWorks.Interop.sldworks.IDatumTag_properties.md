@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # IDatumTag Interface Properties
 
-For a list of all members of this type, see[IDatumTag members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html).
+For a list of all members of this type, see [IDatumTag members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IDatumTag members](SolidWorks.Intero
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

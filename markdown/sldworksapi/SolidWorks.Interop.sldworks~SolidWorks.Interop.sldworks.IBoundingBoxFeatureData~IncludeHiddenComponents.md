@@ -45,13 +45,7 @@ property System.bool IncludeHiddenComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to include hidden components, false to not
 
 ## VBA Syntax
 
-See
-
-[BoundingBoxFeatureData::IncludeHiddenComponents](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~IncludeHiddenComponents.html)
-
-.
+See [BoundingBoxFeatureData::IncludeHiddenComponents](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~IncludeHiddenComponents.html).
 
 ## See Also
 
 [IBoundingBoxFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
 [IBoundingBoxFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData_members.html)
 
 ## Availability

@@ -45,30 +45,19 @@ property System.int BreakType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Break corner type as defined in[swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
+Break corner type as defined in [swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[BreakCornerFeatureData::BreakType](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~BreakType.html)
-
-.
+See [BreakCornerFeatureData::BreakType](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~BreakType.html).
 
 ## See Also
 
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
-
 [IBreakCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData_members.html)
 
 ## Availability

@@ -14,8 +14,8 @@ This example shows how to get the What's Wrong information for a document.
 ```vb
 '-----------------------------------
 ' Preconditions: Model document is active. Examine the Immediate
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}window after running this macro to see the What's Wrong
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}items in the model document.
+'                window after running this macro to see the What's Wrong
+'                items in the model document.
 '
 ' Postconditions: None
 '------------------------------------
@@ -41,17 +41,17 @@ nbrWhatsWrong = swModelDocExt.GetWhatsWrongCount
 Debug.Print "Number of What's Wrong items: " & nbrWhatsWrong
 Debug.Print ""
 If nbrWhatsWrong > 0 Then
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}boolstatus = swModelDocExt.GetWhatsWrong(vFeatures, vErrorCodes, vWarnings)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}For i = 0 To UBound(vFeatures)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Set swFeature = vFeatures(i)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Name of feature: " & swFeature.GetTypeName2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Error: " & vErrorCodes(i)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Did SOLIDWORKS flag this item as a warning ? " & vWarnings(i)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print ""
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Next i
+    boolstatus = swModelDocExt.GetWhatsWrong(vFeatures, vErrorCodes, vWarnings)
+    For i = 0 To UBound(vFeatures)
+        Set swFeature = vFeatures(i)
+        Debug.Print "  Name of feature: " & swFeature.GetTypeName2
+        Debug.Print "  Error: " & vErrorCodes(i)
+        Debug.Print "  Did SOLIDWORKS Design flag this item as a warning ? " & vWarnings(i)
+        Debug.Print ""
+    Next i
 Else
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "No What's Wrong items."
+    Debug.Print "No What's Wrong items."
 End If
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
+
 End Sub
 ```

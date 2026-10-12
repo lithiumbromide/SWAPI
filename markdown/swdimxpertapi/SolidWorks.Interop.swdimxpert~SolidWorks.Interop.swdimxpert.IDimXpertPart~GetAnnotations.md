@@ -42,24 +42,15 @@ System.Object^ GetAnnotations();
 
 ### Return Value
 
-Array of
-
-[IDimXpertAnnotation](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAnnotation.html)
-
-s
+Array of [IDimXpertAnnotation](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAnnotation.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetAnnotations](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAnnotations.html)
-
-.
+See [DimXpertPart::GetAnnotations](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAnnotations.html).
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

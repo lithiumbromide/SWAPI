@@ -75,46 +75,24 @@ System.Object^ GetReactionForcesAndMomentsWithSelections(
 
 - `NStepNumber`: Solution step number (use 1 for static)
 - `DispPlane`: Plane, axis, or coodinate system relative to which to list reaction results
-- `NUnits`: Unit as defined in
-
-[swsForceUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceUnit_e.html)
+- `NUnits`: Unit as defined in [swsForceUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceUnit_e.html)
 - `SelectedObjects`: Array of entities for which to get reaction results
-- `SelectionAndEntireModelReactionForcesAndMoments`: Array of reaction forces and moments for the selected entities and the entire model (see
-
-Remarks
-
-)
-- `EachSelectedObjectReactionForcesAndMoments`: Array of reaction forces and moments for each selected entity (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `SelectionAndEntireModelReactionForcesAndMoments`: Array of reaction forces and moments for the selected entities and the entire model (see **Remarks**)
+- `EachSelectedObjectReactionForcesAndMoments`: Array of reaction forces and moments for each selected entity (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of reaction forces and moments (see
-
-Remarks
-
-)
+Array of reaction forces and moments (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetReactionForcesAndMomentsWithSelections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetReactionForcesAndMomentsWithSelections.html)
-
-.
+See [CWResults::GetReactionForcesAndMomentsWithSelections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetReactionForcesAndMomentsWithSelections.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -159,7 +137,7 @@ SelectionAndEntireModelReactionForcesAndMoments array contains 16 elements:
 
 `}`
 
-EachSelectedObjectReactionForcesAndMoments array contains (8 X`no_of_selections`) elements:
+EachSelectedObjectReactionForcesAndMoments array contains (8 X `no_of_selections`) elements:
 
 {
 
@@ -248,17 +226,11 @@ In all of the arrays, the nodes are integers, and the reaction forces and moment
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetDisplacementComponentForAllStepsAtNode Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementComponentForAllStepsAtNode.html)
-
 [ICWResults::GetDisplacementForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementForEntities.html)
-
 [ICWResults::GetMinMaxDisplacement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxDisplacement.html)
-
 [ICWResults::GetRotationalDisplacement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetRotationalDisplacement.html)
-
 [ICWResults::GetTranslationalDisplacement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetTranslationalDisplacement.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.double GetAutoFilletRadius()
 System.double GetAutoFilletRadius();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Fillet radius, if feature has automatic corner fillets enabled
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::GetAutoFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetAutoFilletRadius.html)
-
-.
+See [ExtrudeFeatureData2::GetAutoFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetAutoFilletRadius.html).
 
 ## Remarks
 
@@ -66,14 +56,12 @@ This method only applies to thin feature extrusions. If the feature is not a thi
 
 If the feature does not have automatic corner fillets enabled, then the return value is 0.0 and the COM version of this method returns S_false in the status return value.
 
-To get whether automatic corner fillet is enabled, use[IExtrudeFeatureData2::GetAutoFilletCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetAutoFilletCorners.html).kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}To set automatic fillets and radius, use[IExtrudeFeatureData2::SetAutoFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetAutoFillet.html).
+To get whether automatic corner fillet is enabled, use [IExtrudeFeatureData2::GetAutoFilletCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetAutoFilletCorners.html). To set automatic fillets and radius, use [IExtrudeFeatureData2::SetAutoFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetAutoFillet.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::IsThinFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~IsThinFeature.html)
 
 ## Availability

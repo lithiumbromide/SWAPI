@@ -1,6 +1,5 @@
 ---
-title: "IFeaturePaint Object
-Members"
+title: "IFeaturePaint Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IFeaturePaint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IFeaturePaint_members.html"
 ---
 
-# IFeaturePaint Object
-Members
+# IFeaturePaint Object Members
 
 ## Public Methods
 

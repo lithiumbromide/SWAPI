@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFace Interface Members
 
-The following tables list the members exposed by[IFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html).
+The following tables list the members exposed by [IFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html).
 
 ## Public Properties
 
@@ -108,5 +108,4 @@ The following tables list the members exposed by[IFace](SolidWorks.Interop.sldwo
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

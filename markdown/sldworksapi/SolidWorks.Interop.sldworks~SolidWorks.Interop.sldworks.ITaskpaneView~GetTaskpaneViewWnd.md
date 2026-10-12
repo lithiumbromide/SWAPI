@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # GetTaskpaneViewWnd Method (ITaskpaneView)
 
-Obsolete. Superseded by
-
-[ITaskpaneView::GetTaskpaneViewWndx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetTaskpaneViewWndx64.html)
-
-.
+Obsolete. Superseded by [ITaskpaneView::GetTaskpaneViewWndx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetTaskpaneViewWndx64.html).
 
 ## Syntax
 
@@ -44,27 +40,15 @@ System.int GetTaskpaneViewWnd()
 System.int GetTaskpaneViewWnd();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 CWnd object pointer
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[TaskpaneView::GetTaskpaneViewWnd](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~GetTaskpaneViewWnd.html)
-
-.
+See [TaskpaneView::GetTaskpaneViewWnd](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~GetTaskpaneViewWnd.html).
 
 ## Remarks
 
@@ -72,12 +56,11 @@ This method gets a Task Pane view window object pointer for 32-bit MFC applicati
 
 Because this method is valid only for 32-bit applications, it is now obsolete.
 
-To insert a Task Pane view window, create your Task Pane view window and pass its handle to SOLIDWORKS using[ITaskpaneView::DisplayWindowFromHandlex64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~DisplayWindowFromHandlex64.html).
+To insert a Task Pane view window, create your Task Pane view window and pass its handle to SOLIDWORKS using [ITaskpaneView::DisplayWindowFromHandlex64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~DisplayWindowFromHandlex64.html).
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
 
 ## Availability

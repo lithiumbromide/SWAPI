@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html"
 
 # IEdmVault5 Interface Members
 
-The following tables list the members exposed by[IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html).
+The following tables list the members exposed by [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html).
 
 ## Public Properties
 
@@ -53,5 +53,4 @@ The following tables list the members exposed by[IEdmVault5](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

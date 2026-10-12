@@ -55,27 +55,13 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Edge`: [Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-of the loop (see
-
-Remarks
-
-)
+- `Edge`: [Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) of the loop (see **Remarks**)
 - `Append`: True to append this selection to the selection list, false to replace the selection list with this selection
-- `SelectionData`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `SelectionData`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -83,11 +69,7 @@ True if the loop is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Loop2::Select](ms-its:sldworksapivb6.chm::/sldworks~Loop2~Select.html)
-
-.
+See [Loop2::Select](ms-its:sldworksapivb6.chm::/sldworks~Loop2~Select.html).
 
 ## Examples
 
@@ -101,7 +83,7 @@ See
 
 ' 2. Multi-select the triangular face and one of its edges.
 
-' 3. Comment out one of the highlighted lines with**swLoop.Select**.
+' 3. Comment out one of the highlighted lines with **swLoop.Select**.
 
 ' 4. Run the macro.
 
@@ -166,7 +148,7 @@ End If
 Next
 If loopUsesEdges Then
 ' Demonstrate that we have the right loop..
-Debug.Assert swLoop.**GetFace**Is swFace
+Debug.Assert swLoop.**GetFace** Is swFace
 swModel.ClearSelection2 True
 For Each vEdge In vEdges
 Dim swLoopEdge As Entity
@@ -186,7 +168,11 @@ Debug.Print "Loop has " & swLoop.**GetEdgeCount**() & " edges."
 
 Dim bResult As Boolean
 
-**' Comment and uncomment out different lines after each run:****bResult = swLoop.Select(swEdge, False, Nothing) 'Selects the adjacent loop 'bResult = swLoop.Select(Nothing, False, Nothing) 'Selects this loop**
+**' Comment and uncomment out different lines after each run:**
+
+**bResult = swLoop.Select(swEdge, False, Nothing) 'Selects the adjacent loop
+'bResult = swLoop.Select(Nothing, False, Nothing) 'Selects this loop**
+
 Stop ' Examine highlighted edges of selected loop. This loop or its adjacent loop?
 
 Dim swSelLoop As Loop2
@@ -220,11 +206,8 @@ If Edge is:
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [DPartDocEvents_FlipLoopNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_FlipLoopNotifyEventHandler.html)
-
 [DAssemblyDocEvents_FileDropNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_FileDropNotifyEventHandler.html)
 
 ## Availability

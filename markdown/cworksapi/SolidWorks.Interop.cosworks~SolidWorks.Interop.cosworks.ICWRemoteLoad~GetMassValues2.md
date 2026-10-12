@@ -53,11 +53,7 @@ System.Object^ GetMassValues2(
 
 ### Return Value
 
-Array of remote mass component values; valid only if BInclude = -1 (see
-
-Remarks
-
-)
+Array of remote mass component values; valid only if BInclude = -1 (see **Remarks**)
 
 ## Remarks
 
@@ -68,11 +64,11 @@ If BInclude is cast as a:
 - Boolean, true or false is returned in the out parameter.
 - Long or integer, -1 (=true) or 0 (=false) is returned in the out parameter.
 
-This method is valid only if[ICWRemoteLoad::LoadType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~LoadType.html)= swsRemoteLoadType_e.swsRemoteLoadType_RigidLoadOrMass.
+This method is valid only if [ICWRemoteLoad::LoadType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~LoadType.html) = swsRemoteLoadType_e.swsRemoteLoadType_RigidLoadOrMass.
 
 Array of mass components:
 
-**[**m`, Lxx, Lyy, Lzz, Lxy, Lyz, Lxz`**]**
+**[** m`, Lxx, Lyy, Lzz, Lxy, Lyz, Lxz` **]**
 
 where:
 
@@ -87,7 +83,6 @@ where:
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

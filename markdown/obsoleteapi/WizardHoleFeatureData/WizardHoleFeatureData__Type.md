@@ -9,71 +9,33 @@ source: "obsoleteapi/WizardHoleFeatureData/WizardHoleFeatureData__Type.htm"
 
 # WizardHoleFeatureData::Type
 
-This
-property is obsolete and has been superseded by WizardHoleFeatureData2::Type .
+This property is obsolete and has been superseded by [WizardHoleFeatureData2::Type](sldworksAPI.chm::/WizardHoleFeatureData2/WizardHoleFeatureData2__Type.htm).
 
 Description
 
-This property gets or sets the hole wizard
-feature hole type.
+This property gets or sets the hole wizard feature hole type.
 
 Syntax (OLE Automation)
 
-holeType= WizardHoleFeatureData.Type (VB
-Get property)
+holeType = WizardHoleFeatureData.Type (VB Get property)
 
-WizardHoleFeatureData.Type =holeType(VB
-Set property)
+WizardHoleFeatureData.Type = holeType (VB Set property)
 
-holeType= WizardHoleFeatureData.GetType ( ) (C++
-Get property)
+holeType = WizardHoleFeatureData.GetType ( ) (C++ Get property)
 
-WizardHoleFeatureData.SetType (holeType
-)(C++ Set property)
-
-(Table)=========================================================
+WizardHoleFeatureData.SetType ( holeType ) (C++ Set property)
 
 | Property: | (int) holeType | Hole type as defined in swWzdHoleTypes_e |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = WizardHoleFeatureData ->get_Type ( &holeType)
+status = WizardHoleFeatureData ->get_Type ( &holeType )
 
-status = WizardHoleFeatureData ->put_Type (holeType)
-
-(Table)=========================================================
+status = WizardHoleFeatureData ->put_Type ( holeType )
 
 | Property: | (int) holeType | Hole type as defined in swWzdHoleTypes_e |
 | --- | --- | --- |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZFeatureDefinition$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\WizardHoleFeatureData\WizardHoleFeatureData__Type.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

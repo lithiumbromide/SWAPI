@@ -48,22 +48,16 @@ property DimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertCounterBoreDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCounterBoreDimTol~ReferenceFeature.html)
-
-.
+See [DimXpertCounterBoreDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCounterBoreDimTol~ReferenceFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCounterBoreDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterBoreDimTol.html)
-
 [IDimXpertCounterBoreDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterBoreDimTol_members.html)
 
 ## Availability

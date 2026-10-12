@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to mated entities and the assembly mate definition.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class IMateEntity2
 
 ## VBA Syntax
 
-See
-
-[MateEntity2](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2.html)
-
-.
+See [MateEntity2](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2.html).
 
 ## Examples
 
 [Edit Mate (VBA)](Edit_Mate_Example_VB.htm)
-
 [Get Mates and Mate Entities (C#)](Get_Mates_and_Mate_Entities_Example_CSharp.htm)
-
 [Get Mates and Mate Entities (VB.NET)](Get_Mates_and_Mate_Entities_Example_VBNET.htm)
-
 [Get Mates and Mate Entities (VBA)](Get_Mates_and_Mate_Entities_Example_VB.htm)
 
 ## Accessors
@@ -68,7 +61,5 @@ See
 ## See Also
 
 [IMateEntity2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

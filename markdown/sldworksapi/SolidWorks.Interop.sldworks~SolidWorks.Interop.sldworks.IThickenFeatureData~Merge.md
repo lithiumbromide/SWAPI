@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True enables the merge results option, false disables it
 
 ## VBA Syntax
 
-See
-
-[ThickenFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~Merge.html)
-
-.
+See [ThickenFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~Merge.html).
 
 ## Examples
 
-See the
-
-[IThickenFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
-examples.
+See the [IThickenFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html) examples.
 
 ## Examples
 
@@ -80,7 +66,6 @@ examples.
 ## See Also
 
 [IThickenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
 [IThickenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData_members.html)
 
 ## Availability

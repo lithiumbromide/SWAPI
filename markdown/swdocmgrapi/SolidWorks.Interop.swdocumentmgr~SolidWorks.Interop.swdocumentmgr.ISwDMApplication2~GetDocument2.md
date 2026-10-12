@@ -54,34 +54,23 @@ SwDMDocument^ GetDocument2(
 ### Parameters
 
 - `documentStream`: Pointer to an unknown type, the IStream or IStorage storage
-- `result`: Error as defined by
-
-[SwDmDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
+- `result`: Error as defined by [SwDmDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
 
 ### Return Value
 
-Pointer to the
-
-[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)
-
-object
+Pointer to the [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMApplication2::GetDocument2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication2~GetDocument2.html)
-
-.
+See [SwDMApplication2::GetDocument2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication2~GetDocument2.html).
 
 ## Remarks
 
-Use[ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html)to get a document using its name.
+Use [ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html) to get a document using its name.
 
 ## See Also
 
 [ISwDMApplication2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication2.html)
-
 [ISwDMApplication2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication2_members.html)
 
 ## Availability

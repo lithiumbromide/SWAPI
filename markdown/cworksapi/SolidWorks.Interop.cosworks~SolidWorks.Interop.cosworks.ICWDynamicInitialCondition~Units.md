@@ -47,46 +47,21 @@ property System.int Units {
 
 ### Property Value
 
-- Value as defined in
-
-  [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
-
-  , if
-
-  [ICWDynamicInitialCondition::InitialConditionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicInitialCondition~InitialConditionType.html)
-
-  = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Displacement
-- Value as defined in
-
-  [swsVelocityUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityUnit_e.html)
-
-  , if ICWDynamicInitialCondition::InitialConditionType = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Velocity
-- Value as defined in
-
-  [swsAccelerationUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAccelerationUnit_e.html)
-
-  , if ICWDynamicInitialCondition::InitialConditionType = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Acceleration
+- Value as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html), if [ICWDynamicInitialCondition::InitialConditionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicInitialCondition~InitialConditionType.html) = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Displacement
+- Value as defined in [swsVelocityUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityUnit_e.html), if ICWDynamicInitialCondition::InitialConditionType = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Velocity
+- Value as defined in [swsAccelerationUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAccelerationUnit_e.html), if ICWDynamicInitialCondition::InitialConditionType = swsDynamicInitialConditionType_e.swsDynamicInitialConditionType_Acceleration
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~Units.html)
-
-.
+See [CWDynamicInitialCondition::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~Units.html).
 
 ## Examples
 
-See the
-
-[ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
-examples.
+See the [ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html) examples.
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
 
 ## Availability

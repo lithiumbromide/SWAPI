@@ -58,29 +58,20 @@ SwDmTableError UpdateRevisionColumn(
 ### Parameters
 
 - `Revision`: Revision; if empty, the column in the latest revision row is updated
-- `ColType`: Type of column as defined in
-
-[SwDmColumnType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmColumnType.html)
+- `ColType`: Type of column as defined in [SwDmColumnType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmColumnType.html)
 - `Data`: Column data
 
 ### Return Value
 
-Return code as defined in
-
-[swDmTableError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmTableError.html)
+Return code as defined in [swDmTableError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmTableError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable6::UpdateRevisionColumn](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~UpdateRevisionColumn.html)
-
-.
+See [SwDMTable6::UpdateRevisionColumn](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~UpdateRevisionColumn.html).
 
 ## See Also
 
 [ISwDMTable6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6.html)
-
 [ISwDMTable6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6_members.html)
 
 ## Availability

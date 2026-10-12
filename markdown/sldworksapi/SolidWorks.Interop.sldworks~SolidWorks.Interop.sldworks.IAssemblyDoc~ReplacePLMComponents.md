@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # ReplacePLMComponents Method (IAssemblyDoc)
 
-Replaces a selected
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-component in this assembly with the specified component from a 3DEXPERIENCE collaborative space.
+Replaces a selected [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) component in this assembly with the specified component from a 3DEXPERIENCE collaborative space.
 
 ## Syntax
 
@@ -67,20 +63,14 @@ System.bool ReplacePLMComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PLMID`: Unique ID of a replacement component in the collaboration space
 - `ConfigName`: Name of a configuration (Physical Product) in the replacement component; an empty string indicates the default configuration of the replacement component
 - `ReplaceAllInstance`: True to replace all instances of the selected components with the replacement component, false to not
-- `UseConfigChoice`: Configuration to use as defined in[swReplaceComponentsConfiguration_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReplaceComponentsConfiguration_e.html)
+- `UseConfigChoice`: Configuration to use as defined in [swReplaceComponentsConfiguration_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReplaceComponentsConfiguration_e.html)
 - `ReAttachMates`: True to reattach any existing mates to the replacement component, false to not
 
 ### Return Value
@@ -89,11 +79,7 @@ True if the selected component is replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ReplacePLMComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplacePLMComponents.html)
-
-.
+See [AssemblyDoc::ReplacePLMComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplacePLMComponents.html).
 
 ## Remarks
 
@@ -102,9 +88,7 @@ Before calling this method, save any components that have been modified in this 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddPLMComponent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddPLMComponent.html)
 
 ## Availability

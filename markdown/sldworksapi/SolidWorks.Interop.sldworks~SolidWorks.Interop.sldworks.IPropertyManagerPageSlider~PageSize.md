@@ -45,13 +45,7 @@ property System.int PageSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ How much the slider moves when the Page Up or Page Down keys are used to move th
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::PageSize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~PageSize.html)
-
-.
+See [PropertyManagerPageSlider::PageSize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~PageSize.html).
 
 ## Examples
 
@@ -76,7 +66,6 @@ If this property is not used to specified how the slider moves when the Page Up 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

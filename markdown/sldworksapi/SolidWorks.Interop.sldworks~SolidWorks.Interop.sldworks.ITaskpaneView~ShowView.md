@@ -40,13 +40,7 @@ System.bool ShowView()
 System.bool ShowView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if application-level tab of the Task Pane view is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::ShowView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~ShowView.html)
-
-.
+See [TaskpaneView::ShowView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~ShowView.html).
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
-
 [ITaskpaneView::HideView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~HideView.html)
 
 ## Availability

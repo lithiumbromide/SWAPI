@@ -53,27 +53,16 @@ System.String^ GetExternalDesignTable(
 
 ### Parameters
 
-- `pSrcOption`: Pointer to an
-
-[ISwDMSerachOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
-object
-- `Status`: Error status as defined by
-
-[SwDmDesignTableDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDesignTableDataError.html)
+- `pSrcOption`: Pointer to an [ISwDMSerachOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html) object
+- `Status`: Error status as defined by [SwDmDesignTableDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDesignTableDataError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument13::GetExternalDesignTable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetExternalDesignTable.html)
-
-.
+See [SwDMDocument13::GetExternalDesignTable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetExternalDesignTable.html).
 
 ## See Also
 
 [ISwDMDocument13 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13.html)
-
 [ISwDMDocument13 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13_members.html)
 
 ## Availability

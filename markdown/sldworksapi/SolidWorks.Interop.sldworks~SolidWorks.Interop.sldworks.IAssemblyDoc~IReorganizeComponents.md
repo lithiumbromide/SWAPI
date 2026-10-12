@@ -55,13 +55,7 @@ System.bool IReorganizeComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ True if the selected components were moved to the selected assembly or sub-assem
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IReorganizeComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IReorganizeComponents.html)
-
-.
+See [AssemblyDoc::IReorganizeComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IReorganizeComponents.html).
 
 ## Remarks
 
@@ -88,13 +78,9 @@ See the SOLIDWORKS Help for more information about reorganizing components.
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ReorganizeComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorganizeComponents.html)
-
 [IAssemblyDoc::ReorderComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorderComponents.html)
-
 [DAssemblyDocEvents_ComponentReorganizeNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_ComponentReorganizeNotifyEventHandler.html)
 
 ## Availability

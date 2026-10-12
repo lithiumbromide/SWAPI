@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # GetBlockDefinitions Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[ISketchManager::GetSketchBlockDefinitions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitions.html)
-
-.
+Obsolete. Superseded by [ISketchManager::GetSketchBlockDefinitions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitions.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetBlockDefinitions()
 System.Object^ GetBlockDefinitions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetBlockDefinitions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetBlockDefinitions.html)
-
-.
+See [DrawingDoc::GetBlockDefinitions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetBlockDefinitions.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

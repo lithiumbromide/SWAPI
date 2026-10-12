@@ -45,13 +45,7 @@ property System.double PercentDistanceFromEnd {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Percentage of distance from the end
 
 ## VBA Syntax
 
-See
-
-[WidthMateFeatureData::PercentDistanceFromEnd](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~PercentDistanceFromEnd.html)
-
-.
+See [WidthMateFeatureData::PercentDistanceFromEnd](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~PercentDistanceFromEnd.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IWidthMateFeatureData::ConstraintType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData~ConstraintType.html)
-
-is set to
-
-[swMateWidthOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateWidthOptions_e.html)
-
-.swMateWidth_Percent.
+This property is valid only if [IWidthMateFeatureData::ConstraintType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData~ConstraintType.html) is set to [swMateWidthOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateWidthOptions_e.html).swMateWidth_Percent.
 
 ## See Also
 
 [IWidthMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData.html)
-
 [IWidthMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData_members.html)
 
 ## Availability

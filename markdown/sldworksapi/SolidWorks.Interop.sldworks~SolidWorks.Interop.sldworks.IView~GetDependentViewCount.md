@@ -51,20 +51,12 @@ System.int GetDependentViewCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AllViews`: True to get the number of all of the dependent views in this view, false to get the number of SpecificViewType views in this view
-- `SpecificViewType`: Type of dependent view as defined in
-
-[swDrawingViewTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingViewTypes_e.html)
+- `SpecificViewType`: Type of dependent view as defined in [swDrawingViewTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingViewTypes_e.html)
 
 ### Return Value
 
@@ -72,26 +64,16 @@ Number of dependent views
 
 ## VBA Syntax
 
-See
-
-[View::GetDependentViewCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDependentViewCount.html)
-
-.
+See [View::GetDependentViewCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDependentViewCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IView::IGetDependentViews](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDependentViews.html)
-
-to get the size of the array for that method.
+Call this method before calling [IView::IGetDependentViews](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDependentViews.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDependentViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDependentViews.html)
 
 ## Availability

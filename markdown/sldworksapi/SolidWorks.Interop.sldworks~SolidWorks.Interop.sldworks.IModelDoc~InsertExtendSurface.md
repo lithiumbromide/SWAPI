@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertExtendSurface Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertExtendSurface.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertExtendSurface.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void InsertExtendSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertExtendSurface.html)
-
-.
+See [ModelDoc::InsertExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertExtendSurface.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

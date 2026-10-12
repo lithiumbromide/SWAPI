@@ -40,13 +40,7 @@ System.int GetThroughPointCount()
 System.int GetThroughPointCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,38 +48,22 @@ Number of points
 
 ## VBA Syntax
 
-See
-
-[ReferencePointCurveFeatureData::GetThroughPointCount](ms-its:sldworksapivb6.chm::/sldworks~ReferencePointCurveFeatureData~GetThroughPointCount.html)
-
-.
+See [ReferencePointCurveFeatureData::GetThroughPointCount](ms-its:sldworksapivb6.chm::/sldworks~ReferencePointCurveFeatureData~GetThroughPointCount.html).
 
 ## Examples
 
-See the
-
-[IReferencePointCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html)
-
-examples.
+See the [IReferencePointCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IReferencePointCurveFeatureData::IGetThroughPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferencePointCurveFeatureData~IGetThroughPoints.html)
-
-.
+Call this method before calling [IReferencePointCurveFeatureData::IGetThroughPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferencePointCurveFeatureData~IGetThroughPoints.html).
 
 ## See Also
 
 [IReferencePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html)
-
 [IReferencePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData_members.html)
-
 [IReferencePointCurveFeatureData::GetThroughPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData~GetThroughPoints.html)
-
 [IReferencePointCurveFeatureData::ISetThroughPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData~ISetThroughPoints.html)
-
 [IReferencePointCurveFeatureData::SetThroughPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData~SetThroughPoints.html)
 
 ## Availability

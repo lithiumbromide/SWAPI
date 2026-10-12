@@ -47,11 +47,7 @@ public enum class swsTopologyStudyDisplacementCoordinateSysOption_e : public Sys
 
 ## Remarks
 
-These options are valid for all displacement components as defined in
-
-[swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html)
-
-except swsTopologyDisplacementCompType_URES (URES::Resultant displacement (Absolute)).
+These options are valid for all displacement components as defined in [swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html) except swsTopologyDisplacementCompType_URES (URES::Resultant displacement (Absolute)).
 
 ## See Also
 

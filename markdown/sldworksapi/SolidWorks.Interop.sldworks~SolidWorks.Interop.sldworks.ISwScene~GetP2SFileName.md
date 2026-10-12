@@ -46,42 +46,23 @@ void GetP2SFileName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Val`: Fully qualilfied path to a scene file (
-
-*.p2s
-
-)
+- `Val`: Fully qualilfied path to a scene file (***.p2s**)
 
 ## VBA Syntax
 
-See
-
-[SwScene::GetP2SFileName](ms-its:sldworksapivb6.chm::/sldworks~SwScene~GetP2SFileName.html)
-
-.
+See [SwScene::GetP2SFileName](ms-its:sldworksapivb6.chm::/sldworks~SwScene~GetP2SFileName.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

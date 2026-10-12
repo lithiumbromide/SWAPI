@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Folder_in_FeatureManager_Design_Tree_Example_VB.htm"
 
 # Insert Folder in FeatureManager Design Tree Example (VBA)
 
-This examples shows how to insert a new folder in the FeatureManager
-design tree above the selected folder. T
+This examples shows how to insert a new folder in the FeatureManager design tree above the selected folder. T
 
 ```
 '--------------------------------------------

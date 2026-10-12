@@ -51,24 +51,15 @@ Cost of the mold
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::MoldCost](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~MoldCost.html)
-
-.
+See [CostAnalysisCasting::MoldCost](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~MoldCost.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
 
 ## Availability

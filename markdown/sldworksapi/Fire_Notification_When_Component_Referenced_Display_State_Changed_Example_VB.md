@@ -9,11 +9,9 @@ source: "sldworksapi/Fire_Notification_When_Component_Referenced_Display_State_C
 
 # Fire Notification When Component Referenced Display State Changed Example VB
 
-## Fire Notification When Component Referenced Display State Changes Example
-(VBA)
+## Fire Notification When Component Referenced Display State Changes Example (VBA)
 
-This example shows how to fire a notification when a component's referenced
-display state is changed in an assembly.
+This example shows how to fire a notification when a component's referenced display state is changed in an assembly.
 
 ```
 '---------------------------------------------------------------
@@ -78,6 +76,6 @@ Public WithEvents swAssem As SldWorks.AssemblyDoc
 
 'Send message after user changes referenced display state of a component in an assembly
 Private Function swAssem_ComponentReferredDisplayStateChangeNotify(ByVal componentModel As Object, ByVal compName As String, ByVal oldDSId As Long, ByVal oldDSName As String, ByVal newDSID As Long, ByVal newDSName As String) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "The component's referenced display state has changed."
+    MsgBox "The component's referenced display state has changed."
 End Function
 ```

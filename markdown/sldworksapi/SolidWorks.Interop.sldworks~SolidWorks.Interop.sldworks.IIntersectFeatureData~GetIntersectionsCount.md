@@ -40,13 +40,7 @@ System.int GetIntersectionsCount()
 System.int GetIntersectionsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of intersect regions
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::GetIntersectionsCount](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~GetIntersectionsCount.html)
-
-.
+See [IntersectFeatureData::GetIntersectionsCount](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~GetIntersectionsCount.html).
 
 ## Examples
 
-See the
-
-[IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html)
-
-examples.
+See the [IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html) examples.
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
-
 [IIntersectFeatureData::GetIntersections Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData~GetIntersections.html)
 
 ## Availability

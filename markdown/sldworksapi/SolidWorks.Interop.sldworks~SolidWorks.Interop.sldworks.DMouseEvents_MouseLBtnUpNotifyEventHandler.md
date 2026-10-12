@@ -49,13 +49,7 @@ public delegate System.int DMouseEvents_MouseLBtnUpNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[MouseLBtnUpNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseLBtnUpNotify_EV.html)
-
-.
+See [MouseLBtnUpNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseLBtnUpNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swMouseLBtnUpNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swMouseLBtnUpNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html) to register for this notification.
 
 ## Availability
 

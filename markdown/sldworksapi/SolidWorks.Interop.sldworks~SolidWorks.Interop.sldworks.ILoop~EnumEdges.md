@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # EnumEdges Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::EnumEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~EnumEdges.html)
-
-.
+Obsolete. Superseded by [ILoop2::EnumEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~EnumEdges.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumEdges EnumEdges()
 EnumEdges^ EnumEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Loop::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Loop~EnumEdges.html)
-
-.
+See [Loop::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Loop~EnumEdges.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

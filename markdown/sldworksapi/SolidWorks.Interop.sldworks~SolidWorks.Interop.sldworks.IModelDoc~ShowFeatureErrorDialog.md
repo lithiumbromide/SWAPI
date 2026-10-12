@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ShowFeatureErrorDialog Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ShowFeatureErrorDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowFeatureErrorDialog.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ShowFeatureErrorDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowFeatureErrorDialog.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool ShowFeatureErrorDialog {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ShowFeatureErrorDialog](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowFeatureErrorDialog.html)
-
-.
+See [ModelDoc::ShowFeatureErrorDialog](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowFeatureErrorDialog.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

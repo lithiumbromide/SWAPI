@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICornerMember Interface Properties
 
-For a list of all members of this type, see[ICornerMember members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember_members.html).
+For a list of all members of this type, see [ICornerMember members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ICornerMember members](SolidWorks.In
 ## See Also
 
 [ICornerMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

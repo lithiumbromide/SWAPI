@@ -1,6 +1,5 @@
 ---
-title: "StraightElementData Object
-Members"
+title: "StraightElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "StraightElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~StraightElementData_members.html"
 ---
 
-# StraightElementData Object
-Members
+# StraightElementData Object Members
 
 ## Public Properties
 

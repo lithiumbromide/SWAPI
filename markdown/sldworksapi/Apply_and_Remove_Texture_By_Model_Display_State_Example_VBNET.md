@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Model_Display_State_Example_VBN
 
 # Apply and Remove Texture To and From Model By Display State (VB.NET)
 
-This example shows how to apply and remove texture to and from a model using
-the name of a display state of the model.
+This example shows how to apply and remove texture to and from a model using the name of a display state of the model.
 
 ```vb
 '--------------------------------------------------------------------------
@@ -29,21 +28,10 @@ the name of a display state of the model.
  '-------------------------------------------------------------------------
 ```
 
-Imports
-
-SolidWorks.Interop.sldworks
-
-Imports
-
-SolidWorks.Interop.swconst
-
-Imports
-
-System
-
-Imports
-
-System.Diagnostics
+Imports SolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.swconst
+Imports System
+Imports System.Diagnostics
 
 ```vb
 Partial
@@ -53,11 +41,7 @@ Class
 
 SolidWorksMacro
 
-Public
-
-Sub
-
-main()
+Public Sub main()
 
 ```vb
 Dim swModel As ModelDoc2
@@ -66,29 +50,11 @@ Dim texture As Texture
 Dim displayState As String
 ```
 
-Dim
+Dim errors As Long
 
-errors
+Dim warnings As Long
 
-As
-
-Long
-
-Dim
-
-warnings
-
-As
-
-Long
-
-Dim
-
-namStr
-
-As
-
-String
+Dim namStr As String
 
 ' Open document
 
@@ -96,26 +62,17 @@ String
 swModel = swApp.OpenDoc6(
 ```
 
-"C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS
-2018\samples\tutorial\motionstudies\valve.sldprt"
+"C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\motionstudies\valve.sldprt", swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, ""
 
-,
-swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent,
-
-""
-
-, errors,
-warnings)
+, errors, warnings)
 
 ```vb
 swModelDocExt = swModel.Extension
 ```
 
-' Set texture
-on selected model in the
+' Set texture on selected model in the
 
-' specified
-display state
+' specified display state
 
 ```vb
 displayState =
@@ -141,22 +98,14 @@ False
 Debug.Print(
 ```
 
-"Texture
-set: "
-
-& swModelDocExt.
-
-SetTextureByDisplayState
-
-(displayState,
-texture))
+"Texture set: " & swModelDocExt.**SetTextureByDisplayState**(displayState, texture))
 
 ```vb
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}} ' Examine the selected face to verify
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}' that the specified texture was set
-kadov_tag{{<spaces>}}' In the IDE, click the Continue button to
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}' resume running macro
-kadov_tag{{<spaces>}}Stop
+ ' Examine the selected face to verify
+' that the specified texture was set
+' In the IDE, click the Continue button to
+' resume running macro
+Stop
 
  ' Remove texture from model by display state
  Debug.Print("Texture removed: " & swModelDocExt.RemoveTextureByDisplayState(displayState))
@@ -170,18 +119,11 @@ End Sub
 
 ''' <summary>
 
-''' The SldWorks
-swApp variable is pre-assigned for you.
+''' The SldWorks swApp variable is pre-assigned for you.
 
 ''' </summary>
 
-Public
-
-swApp
-
-As
-
-SldWorks
+Public swApp As SldWorks
 
 ```vb
 End

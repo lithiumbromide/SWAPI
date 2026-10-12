@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # RemoveMaterialProperty Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::RemoveMaterialProperty2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~RemoveMaterialProperty2.html)
-
-.
+Obsolete. Superseded by [IFeature::RemoveMaterialProperty2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~RemoveMaterialProperty2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool RemoveMaterialProperty()
 System.bool RemoveMaterialProperty();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Feature::RemoveMaterialProperty](ms-its:sldworksapivb6.chm::/sldworks~Feature~RemoveMaterialProperty.html)
-
-.
+See [Feature::RemoveMaterialProperty](ms-its:sldworksapivb6.chm::/sldworks~Feature~RemoveMaterialProperty.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

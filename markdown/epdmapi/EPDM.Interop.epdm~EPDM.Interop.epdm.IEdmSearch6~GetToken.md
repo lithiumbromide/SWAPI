@@ -39,9 +39,7 @@ System.Object^ GetToken(
 
 ### Parameters
 
-- `eTok`: Type of token for which to get a value as defined in
-
-[EdmSearchToken](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSearchToken.html)
+- `eTok`: Type of token for which to get a value as defined in [EdmSearchToken](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSearchToken.html)
 
 ### Return Value
 
@@ -56,9 +54,7 @@ Value of token
 ## See Also
 
 [IEdmSearch6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6.html)
-
 [IEdmSearch6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6_members.html)
-
 [IEdmSearch6::SetToken Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken.html)
 
 ## Availability

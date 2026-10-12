@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3.html"
 
 Allows you to update revision numbers on many files all at once.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,12 +36,11 @@ public interface class IEdmRevisionMgr3 : public IEdmRevisionMgr, IEdmRevisionMg
 
 ## Remarks
 
-This interface extends[IEdmRevisionMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html).
+This interface extends [IEdmRevisionMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html).
 
 This interface contains methods that are used internally to upgrade program versions of files in vaults. The methods are probably not of much interest to the ordinary programmer.
 
 ## See Also
 
 [IEdmRevisionMgr3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

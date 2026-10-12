@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # IsMeshFailed Property (ICWMesh)
 
-Obsolete. Superseded by ICWMesh::IsMeshFailed2.
+Obsolete. Superseded by [ICWMesh::IsMeshFailed2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~IsMeshFailed2.html).
 
 ## Syntax
 
@@ -48,26 +48,16 @@ property System.int IsMeshFailed {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::IsMeshFailed](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~IsMeshFailed.html)
-
-.
+See [CWMesh::IsMeshFailed](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~IsMeshFailed.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::MeshState Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MeshState.html)
-
 [ICWMesh::GetFailedComponents Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetFailedComponents.html)
-
 [ICWMesh::GetFailedEdges Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetFailedEdges.html)
-
 [ICWMesh::GetFailedFaces Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetFailedFaces.html)
-
 [ICWMesh::GetNoOfFailedComponents Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNoOfFailedComponents.html)
 
 ## Availability

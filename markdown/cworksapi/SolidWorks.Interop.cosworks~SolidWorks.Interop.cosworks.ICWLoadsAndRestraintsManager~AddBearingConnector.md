@@ -59,9 +59,7 @@ CWBearingConnector^ AddBearingConnector(
 
 - `CircularFaceForShaft`: Circular face for shaft
 - `CircularFaceOrEdgeForHousing`: Circular face or edge for housing
-- `ErrorCode`: Error code as defined by
-
-[swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
+- `ErrorCode`: Error code as defined by [swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
 
 ### Return Value
 
@@ -69,16 +67,11 @@ CWBearingConnector^ AddBearingConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBearingConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBearingConnector.html).
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

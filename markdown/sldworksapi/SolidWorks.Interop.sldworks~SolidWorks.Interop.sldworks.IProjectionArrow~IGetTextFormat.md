@@ -40,13 +40,7 @@ TextFormat IGetTextFormat()
 TextFormat^ IGetTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::IGetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~IGetTextFormat.html)
-
-.
+See [ProjectionArrow::IGetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~IGetTextFormat.html).
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::GetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetTextFormat.html)
-
 [IProjectionArrow::GetUseDocTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetUseDocTextFormat.html)
 
 ## Availability

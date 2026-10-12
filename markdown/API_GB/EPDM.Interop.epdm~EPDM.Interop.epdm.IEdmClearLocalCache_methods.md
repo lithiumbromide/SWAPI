@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_methods.
 
 # IEdmClearLocalCache Interface Methods
 
-For a list of all members of this type, see[IEdmClearLocalCache members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members.html).
+For a list of all members of this type, see [IEdmClearLocalCache members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmClearLocalCache members](EPDM.In
 ## See Also
 
 [IEdmClearLocalCache Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

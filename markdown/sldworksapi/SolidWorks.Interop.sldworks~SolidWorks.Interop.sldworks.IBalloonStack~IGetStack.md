@@ -47,13 +47,7 @@ Note^ IGetStack(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,22 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of stacked
-
-  [notes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-  of size Count in the balloon stack
+- in-process, unmanaged C++: Pointer to an array of stacked [notes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) of size Count in the balloon stack
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Use[IBalloonStack::Count](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Count.html)to get the number of balloons in the balloon stack.
+Use [IBalloonStack::Count](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Count.html) to get the number of balloons in the balloon stack.
 
-This method does not return the master balloon in the stack, only the other stacked notes. Use[IBalloonStack::Master](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Master.html)to get the master balloon of the stack.
+This method does not return the master balloon in the stack, only the other stacked notes. Use [IBalloonStack::Master](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Master.html) to get the master balloon of the stack.
 
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [IBalloonStack Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack_members.html)
-
 [IBalloonStack::Stack Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack~Stack.html)
 
 ## Availability

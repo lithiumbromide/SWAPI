@@ -46,13 +46,7 @@ void Highlight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face2::Highlight](ms-its:sldworksapivb6.chm::/sldworks~Face2~Highlight.html)
-
-.
+See [Face2::Highlight](ms-its:sldworksapivb6.chm::/sldworks~Face2~Highlight.html).
 
 ## Examples
 
 [Roll Back Model (C#)](Roll_Back_Model_Example_CSharp.htm)
-
 [Roll Back Model (VB.NET)](Roll_Back_Model_Example_VBNET.htm)
-
 [Roll Back Model (VBA)](Roll_Back_Model_Example_VB.htm)
 
 ## Remarks
@@ -83,11 +71,8 @@ This method is not supported for faces obtained from reference surface bodies.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IHighlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IHighlight.html)
-
 [IEdge::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~Highlight.html)
 
 ## Availability

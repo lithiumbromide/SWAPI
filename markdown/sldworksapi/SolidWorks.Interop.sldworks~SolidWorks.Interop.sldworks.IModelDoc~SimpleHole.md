@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SimpleHole Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SimpleHole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SimpleHole.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SimpleHole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SimpleHole.html).
 
 ## Syntax
 
@@ -106,13 +102,7 @@ void SimpleHole(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -134,14 +124,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SimpleHole](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SimpleHole.html)
-
-.
+See [ModelDoc::SimpleHole](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SimpleHole.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

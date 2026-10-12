@@ -48,45 +48,33 @@ Name of currency
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::CurrencyName](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~CurrencyName.html)
-
-.
+See [CostAnalysis::CurrencyName](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~CurrencyName.html).
 
 ## Examples
 
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
-
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
 
 Examples of names of currencies are:
 
-- United States Dollars
-- Euros
-- British Pounds
+- **United States Dollars**
+- **Euros**
+- **British Pounds**
 - etc.
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
-
 [ICostAnalysis::CurrencyCode Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CurrencyCode.html)
-
 [ICostAnalysis::CurrencySeparator Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CurrencySeparator.html)
 
 ## Availability

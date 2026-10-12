@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # Document Property (ISketchManager)
 
-Gets the document for this
-
-[ISketchManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager.html)
-
-object.
+Gets the document for this [ISketchManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager.html) object.
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property ModelDoc2^ Document {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::Document](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~Document.html)
-
-.
+See [SketchManager::Document](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~Document.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

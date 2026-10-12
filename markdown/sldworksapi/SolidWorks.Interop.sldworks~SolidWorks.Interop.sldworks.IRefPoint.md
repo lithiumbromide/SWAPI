@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 Allows access to reference points.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class IRefPoint
 
 ## VBA Syntax
 
-See
-
-[RefPoint](ms-its:sldworksapivb6.chm::/sldworks~RefPoint.html)
-
-.
+See [RefPoint](ms-its:sldworksapivb6.chm::/sldworks~RefPoint.html).
 
 ## Examples
 
 [Insert Reference Points (VBA)](Insert_Reference_Points_Example_VB.htm)
-
 [Get Reference Point Data (VBA)](Get_Reference_Point_Data_Example_VB.htm)
-
 [Get Reference Point Data (VB.NET)](Get_Reference_Point_Data_Example_VBNET.htm)
-
 [Get Reference Point Data (C#)](Get_Reference_Point_Data_Example_CSharp.htm)
 
 ## Accessors
@@ -88,9 +81,6 @@ See
 ## See Also
 
 [IRefPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertRefPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertRefPoint.html)
-
 [IRefPointFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPointFeatureData.html)

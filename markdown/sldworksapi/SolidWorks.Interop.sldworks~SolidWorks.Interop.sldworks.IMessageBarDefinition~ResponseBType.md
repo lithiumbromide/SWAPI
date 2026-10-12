@@ -45,27 +45,15 @@ property System.int ResponseBType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Second response user control as defined by
-
-[swUserMessageBarResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarResponseType_e.html)
+Second response user control as defined by [swUserMessageBarResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarResponseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::ResponseBType](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~ResponseBType.html)
-
-.
+See [MessageBarDefinition::ResponseBType](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~ResponseBType.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ Default value of this property is swUserMessageBarResponseType_e.swUserMessageBa
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

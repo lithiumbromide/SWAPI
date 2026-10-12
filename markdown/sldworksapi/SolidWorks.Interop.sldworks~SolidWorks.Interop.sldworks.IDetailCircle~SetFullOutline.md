@@ -47,13 +47,7 @@ System.bool SetFullOutline(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,31 +59,21 @@ True if setting the full outline flag is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetFullOutline](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetFullOutline.html)
-
-.
+See [DetailCircle::SetFullOutline](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetFullOutline.html).
 
 ## Remarks
 
 This method:
 
-- is only available when
-
-  [IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html)
-
-  is false.
+- is only available when [IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html) is false.
 - automatically loads the model for the detail view if necessary, without prompting the user.
 
-If the style of the detail circle (see[IDetailCircle::GetStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetStyle.html)) is swDetViewCONNECTED, then this method cannot disable the full outline because the full outline of the circle or profile must be shown.
+If the style of the detail circle (see [IDetailCircle::GetStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetStyle.html)) is swDetViewCONNECTED, then this method cannot disable the full outline because the full outline of the circle or profile must be shown.
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::HasFullOutline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~HasFullOutline.html)
 
 ## Availability

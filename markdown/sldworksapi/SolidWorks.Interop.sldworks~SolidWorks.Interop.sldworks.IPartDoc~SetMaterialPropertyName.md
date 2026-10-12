@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SetMaterialPropertyName Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::SetMaterialPropertyName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetMaterialPropertyName2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::SetMaterialPropertyName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetMaterialPropertyName2.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetMaterialPropertyName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::SetMaterialPropertyName](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetMaterialPropertyName.html)
-
-.
+See [PartDoc::SetMaterialPropertyName](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetMaterialPropertyName.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

@@ -40,13 +40,7 @@ System.bool IsModelLoaded()
 System.bool IsModelLoaded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ True if the model has been loaded, false if not
 
 ## VBA Syntax
 
-See
-
-[View::IsModelLoaded](ms-its:sldworksapivb6.chm::/sldworks~View~IsModelLoaded.html)
-
-.
+See [View::IsModelLoaded](ms-its:sldworksapivb6.chm::/sldworks~View~IsModelLoaded.html).
 
 ## Remarks
 
-If the drawing document was loaded as Detached, then the return value will be false. To load the model, use[IView::LoadModel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~LoadModel.html).
+If the drawing document was loaded as Detached, then the return value will be false. To load the model, use [IView::LoadModel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~LoadModel.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IsModelOutOfDate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsModelOutOfDate.html)
 
 ## Availability

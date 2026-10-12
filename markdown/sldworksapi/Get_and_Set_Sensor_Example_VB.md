@@ -9,9 +9,7 @@ source: "sldworksapi/Get_and_Set_Sensor_Example_VB.htm"
 
 # Get and Set Sensor Example (VBA)
 
-This example shows how to get a Measurement (dimension) sensor, resets
-its value to set off an alert, and fire notifications before resetting
-value.
+This example shows how to get a Measurement (dimension) sensor, resets its value to set off an alert, and fire notifications before resetting value.
 
 ```
 '-------------------------------------------------------------------
@@ -268,7 +266,7 @@ Back to top
 Option Explicit
 Public WithEvents swPart As SldWorks.PartDoc
 Private Function swPart_SensorAlertPreNotify(ByVal SensorIn As Object, ByVal SensorAlertType As Long) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "The value of the sensor deviates from its limits."
+    MsgBox "The value of the sensor deviates from its limits."
 End Function
 Back to top
 ```

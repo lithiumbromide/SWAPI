@@ -45,13 +45,7 @@ property System.double Distance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Chamfer length or fillet radius
 
 ## VBA Syntax
 
-See
-
-[BreakCornerFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~Distance.html)
-
-.
+See [BreakCornerFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~Distance.html).
 
 ## See Also
 
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
-
 [IBreakCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData_members.html)
 
 ## Availability

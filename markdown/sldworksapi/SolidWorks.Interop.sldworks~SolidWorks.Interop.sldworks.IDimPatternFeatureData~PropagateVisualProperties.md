@@ -45,13 +45,7 @@ property System.bool PropagateVisualProperties {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to propagate visual properties, false to not
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::PropagateVisualProperties](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~PropagateVisualProperties.html)
-
-.
+See [DimPatternFeatureData::PropagateVisualProperties](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~PropagateVisualProperties.html).
 
 ## Examples
 
 [Delete Instances and Dimensions in Variable Pattern Feature (C#)](Delete_Instances_and_Dimensions_in_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Delete Instances and Dimensions in Variable Pattern Feature (VB.NET)](Delete_Instances_and_Dimensions_in_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Delete Instances and Dimensions in Variable Pattern Feature (VBA)](Delete_Instances_and_Dimensions_in_Variable_Pattern_Feature_Example_VB.htm)
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
 
 ## Availability

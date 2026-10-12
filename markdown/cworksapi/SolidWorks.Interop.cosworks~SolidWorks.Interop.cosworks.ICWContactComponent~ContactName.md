@@ -48,26 +48,16 @@ Name of contact
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::ContactName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ContactName.html)
-
-.
+See [CWContactComponent::ContactName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ContactName.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactManager::DeleteContactComponent Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~DeleteContactComponent.html)
 
 ## Availability

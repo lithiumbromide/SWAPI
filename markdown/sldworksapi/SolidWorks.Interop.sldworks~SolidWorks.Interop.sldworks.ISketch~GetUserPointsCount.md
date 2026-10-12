@@ -40,13 +40,7 @@ System.int GetUserPointsCount()
 System.int GetUserPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of user points in the sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetUserPointsCount.html)
-
-.
+See [Sketch::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetUserPointsCount.html).
 
 ## Examples
 
@@ -66,18 +56,13 @@ See
 
 ## Remarks
 
-Call this method before calling[ISketch::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetUserPoints2.html)to get the size of the array for that method.
+Call this method before calling [ISketch::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetUserPoints2.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::IGetUserPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetUserPoints2.html)
-
 [ISketch::GetUserPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetUserPoints2.html)
-
 [ISketch::GetUserPointsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetUserPointsCount.html)
-
 [ISketch::IGetUserPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetUserPoints2.html)

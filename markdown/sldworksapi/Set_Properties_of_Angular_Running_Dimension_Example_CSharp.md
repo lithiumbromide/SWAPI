@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Properties_of_Angular_Running_Dimension_Example_CSharp.
 
 # Insert Angular Running Dimension Example (C#)
 
-This example shows how to insert an angular running dimension and get its
-properties.
+This example shows how to insert an angular running dimension and get its properties.
 
 ```vb
  //----------------------------------------------------------------------------

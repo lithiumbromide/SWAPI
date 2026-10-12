@@ -47,36 +47,22 @@ property System.double MaxWallThickness {
 
 ### Property Value
 
-Maximum wall thickness in meters; valid for use in calculations only if
-
-[ICostAnalysis::CalculationMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CalculationMethod.html)
-
-is set to swcMoldCalculationMethod_e.swMoldCalculationMethod_WallThickness
+Maximum wall thickness in meters; valid for use in calculations only if [ICostAnalysis::CalculationMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CalculationMethod.html) is set to swcMoldCalculationMethod_e.swMoldCalculationMethod_WallThickness
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::MaxWallThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~MaxWallThickness.html)
-
-.
+See [CostAnalysisPlastic::MaxWallThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~MaxWallThickness.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
-examples.
+See the [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html) examples.
 
 ## Remarks
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [ICostAnalysisPlastic::CycleTime Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CycleTime.html)
 
 ## Availability

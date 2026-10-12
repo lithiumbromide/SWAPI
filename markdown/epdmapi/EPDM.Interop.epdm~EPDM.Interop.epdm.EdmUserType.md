@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserType.html"
 
 # EdmUserType Enumeration
 
-Type of user passed in UserType of
-
-[IEdmUserMgr10::AddUsers3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10~AddUsers3.html)
-
-.
+Type of user passed in UserType of [IEdmUserMgr10::AddUsers3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10~AddUsers3.html).
 
 ## Syntax
 

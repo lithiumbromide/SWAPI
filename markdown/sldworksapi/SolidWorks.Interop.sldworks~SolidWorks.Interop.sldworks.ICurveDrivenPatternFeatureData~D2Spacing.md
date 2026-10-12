@@ -45,13 +45,7 @@ property System.double D2Spacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Pattern spacing
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D2Spacing](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2Spacing.html)
-
-.
+See [CurveDrivenPatternFeatureData::D2Spacing](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2Spacing.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::D1Spacing Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Spacing.html)
-
 [ICurveDrivenPatternFeatureData::Dir2Specified Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~Dir2Specified.html)
 
 ## Availability

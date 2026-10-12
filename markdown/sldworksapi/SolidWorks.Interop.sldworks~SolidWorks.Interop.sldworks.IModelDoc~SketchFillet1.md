@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchFillet1 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchFillet1](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchFillet1.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchFillet1](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchFillet1.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SketchFillet1(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchFillet1](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchFillet1.html)
-
-.
+See [ModelDoc::SketchFillet1](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchFillet1.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

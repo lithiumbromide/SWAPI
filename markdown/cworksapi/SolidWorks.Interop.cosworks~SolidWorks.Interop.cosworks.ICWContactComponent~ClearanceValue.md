@@ -51,19 +51,11 @@ Maximum clearance (gap) between non-touching faces or shell edges
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::ClearanceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ClearanceValue.html)
-
-.
+See [CWContactComponent::ClearanceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ClearanceValue.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## Remarks
 
@@ -75,11 +67,8 @@ examples.
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::ClearanceUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceUnit.html)
-
 [ICWContactComponent::IncludeShellEdgeSolidOrShellFace Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeShellEdgeSolidOrShellFace.html)
 
 ## Availability

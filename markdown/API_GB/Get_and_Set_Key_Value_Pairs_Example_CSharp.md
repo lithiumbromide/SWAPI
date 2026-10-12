@@ -9,12 +9,9 @@ source: "API_GB/Get_and_Set_Key_Value_Pairs_Example_CSharp.htm"
 
 # Get and Set Dictionary Key-Value Pairs Example (C#)
 
-This example shows how to access key-value pairs in a
-vault dictionary.
+This example shows how to access key-value pairs in a vault dictionary.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

@@ -1,6 +1,5 @@
 ---
-title: "CWResults Object
-Members"
+title: "CWResults Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWResults_members"
 member: ""
@@ -8,14 +7,14 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWResults_members.html"
 ---
 
-# CWResults Object
-Members
+# CWResults Object Members
 
 ## Public Methods
 
 | Public Method ActivatePlot |  |
 | --- | --- |
 | Public Method AddIsoClippingToPlot |  |
+| Public Method CreateAngularRotationPlot |  |
 | Public Method CreateDeformedBody |  |
 | Public Method CreateDeformedBody2 |  |
 | Public Method CreatePlot |  |

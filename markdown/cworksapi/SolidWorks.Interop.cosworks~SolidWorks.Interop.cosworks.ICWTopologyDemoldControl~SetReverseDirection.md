@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetReverseDirection Method (ICWTopologyDemoldControl)
 
-Obsolete. Superseded by ICWTopologyDemoldControl::SetReverseDirection2.
+Obsolete. Superseded by [ICWTopologyDemoldControl::SetReverseDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SetReverseDirection2.html).
 
 ## Syntax
 
@@ -52,19 +52,13 @@ void SetReverseDirection(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::SetReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetReverseDirection.html)
-
-.
+See [CWTopologyDemoldControl::SetReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetReverseDirection.html).
 
 ## Remarks
 
-This method is valid only if[ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html)sets NDir to:
+This method is valid only if [ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html) sets NDir to:
 
-- [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html)
-
-  .swsTopologyDemoldDirection_PullDirectionOnly
+- [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html).swsTopologyDemoldDirection_PullDirectionOnly
 
 - or -
 
@@ -73,7 +67,6 @@ This method is valid only if[ICWTopologyDemoldControl::SelectDemoldDirection](So
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
 
 ## Availability

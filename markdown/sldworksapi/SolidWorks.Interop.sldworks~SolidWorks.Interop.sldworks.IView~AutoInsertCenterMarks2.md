@@ -83,39 +83,17 @@ System.bool AutoInsertCenterMarks2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InsertType`: Features for which to insert center marks as defined in
-
-[swAutoInsertCenterMarkTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutoInsertCenterMarkTypes_e.html)
-- `InsertOption`: Center mark options as defined in
-
-[swCenterMarkConnectionLine_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkConnectionLine_e.html)
+- `InsertType`: Features for which to insert center marks as defined in [swAutoInsertCenterMarkTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutoInsertCenterMarkTypes_e.html)
+- `InsertOption`: Center mark options as defined in [swCenterMarkConnectionLine_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkConnectionLine_e.html)
 - `LinearSlotCenter`: True to add center marks to slot centers, false to add them to slot ends
 - `ArcSlotCenter`: True to add center marks to arc centers, false to add them to arc ends
-- `UseDocumentDefaults`: True to use the display settings specified in
-
-[Tools > Options > Document Properties > Centerlines/Center Marks](ms-its:swconst.chm::/DP_CenterlinesCenterMarks.htm)
-
-, false to use the display settings set by this method
+- `UseDocumentDefaults`: True to use the display settings specified in [**Tools > Options > Document Properties > Centerlines/Center Marks**](ms-its:swconst.chm::/DP_CenterlinesCenterMarks.htm), false to use the display settings set by this method
 - `Size`: Size of center mark; valid only if UseDocumentDefaults is false
-- `Gap`: Size of gap between the center mark and extension line; valid only if UseDocumentDefaults is false and the
-
-Tools > Options > Document Properties > Centerlines/Center Marks > Scale by view scale
-
-check box is clear (see
-
-Remarks
-
-)
+- `Gap`: Size of gap between the center mark and extension line; valid only if UseDocumentDefaults is false and the **Tools > Options > Document Properties > Centerlines/Center Marks > Scale by view scale** check box is clear (see **Remarks**)
 - `ExtendedLines`: True to extend lines from center mark points, false to not; valid only if UseDocumentDefaults is false
 - `CenterLineFont`: True to use the centerline font, false to not; valid only if UseDocumentDefaults is false
 - `Angle`: Rotation angle for the center mark; a positive angle rotates the center mark counterclockwise
@@ -126,18 +104,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[View::AutoInsertCenterMarks2](ms-its:sldworksapivb6.chm::/sldworks~View~AutoInsertCenterMarks2.html)
-
-.
+See [View::AutoInsertCenterMarks2](ms-its:sldworksapivb6.chm::/sldworks~View~AutoInsertCenterMarks2.html).
 
 ## Examples
 
 [Automatically Insert Center Marks (C#)](Auto_Insert_Center_Marks_Example_CSharp.htm)
-
 [Automatically Insert Center Marks (VB.NET)](Auto_Insert_Center_Marks_Example_VBNET.htm)
-
 [Automatically Insert Center Marks (VBA)](Auto_Insert_Center_Marks_Example_VB.htm)
 
 ## Remarks
@@ -146,18 +118,10 @@ Call this method on each active view in which you want to insert center marks.
 
 Before calling this method:
 
-1. Call
+1. Call [IDrawingDoc::ActivateView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActivateView.html) with the name of the view to activate.
+2. Call [IDrawingDoc::ActiveDrawingView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActiveDrawingView.html) to get a handle on the activated view.
 
-  [IDrawingDoc::ActivateView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActivateView.html)
-
-  with the name of the view to activate.
-2. Call
-
-  [IDrawingDoc::ActiveDrawingView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActiveDrawingView.html)
-
-  to get a handle on the activated view.
-
-Call[IDrawingDoc::InsertCenterMark3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark3.html)if you want to insert one center mark in one view.
+Call [IDrawingDoc::InsertCenterMark3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark3.html) if you want to insert one center mark in one view.
 
 | To... | Call... |
 | --- | --- |
@@ -167,13 +131,9 @@ Call[IDrawingDoc::InsertCenterMark3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Inte
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetCenterMarkCount2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterMarkCount2.html)
-
 [IView::GetCenterMarkInfo Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterMarkInfo.html)
-
 [IView::GetCenterMarks Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterMarks.html)
 
 ## Availability

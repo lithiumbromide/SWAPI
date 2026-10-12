@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 Get the gaps and coedges in each gap on this body.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IDiagnoseResult
 
 ## VBA Syntax
 
-See
-
-[DiagnoseResult](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult.html)
-
-.
+See [DiagnoseResult](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult.html).
 
 ## Examples
 
 [Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)
-
 [Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)
-
 [Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
 
 ## Remarks
@@ -70,7 +64,5 @@ A gap is the laminar loop where the coedges on the loop do not have an associate
 ## See Also
 
 [IDiagnoseResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFillSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFillSurface2.html)

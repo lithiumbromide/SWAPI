@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5_members.html"
 
 # IEdmBitmap5 Interface Members
 
-The following tables list the members exposed by[IEdmBitmap5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html).
+The following tables list the members exposed by [IEdmBitmap5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ The following tables list the members exposed by[IEdmBitmap5](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmBitmap5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

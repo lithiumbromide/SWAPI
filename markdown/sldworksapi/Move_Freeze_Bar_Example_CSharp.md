@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Freeze_Bar_Example_CSharp.htm"
 
 # Move Freeze Bar Example (C#)
 
-This example shows how to move the freeze bar to another location in the
-FeatureManager design tree.
+This example shows how to move the freeze bar to another location in the FeatureManager design tree.
 
 ```vb
 //----------------------------------------------------------------------------

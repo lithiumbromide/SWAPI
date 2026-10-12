@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_General_Table_in_Part_Example_CSharp.htm"
 
 # Insert General Table in Part Example (C#)
 
-This example shows how to insert a general table annotation into a model
-document.
+This example shows how to insert a general table annotation into a model document.
 
 ```vb
  //---------------------------------------------------

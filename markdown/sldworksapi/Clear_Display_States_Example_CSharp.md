@@ -9,8 +9,7 @@ source: "sldworksapi/Clear_Display_States_Example_CSharp.htm"
 
 # Clear Display States Example (C#)
 
-This example shows how to clear the display states from a part. This example
-also shows how to remove appearances and show any hidden features.
+This example shows how to clear the display states from a part. This example also shows how to remove appearances and show any hidden features.
 
 ```
 //----------------------------------------------------------------------------

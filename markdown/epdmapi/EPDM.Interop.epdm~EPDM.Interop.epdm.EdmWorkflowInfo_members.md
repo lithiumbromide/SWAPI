@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo_members.htm
 
 # EdmWorkflowInfo Structure Members
 
-The following tables list the members exposed by[EdmWorkflowInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo.html).
+The following tables list the members exposed by [EdmWorkflowInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo.html).
 
 ## Public Fields
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[EdmWorkflowInfo](EPDM.Interop.e
 ## See Also
 
 [EdmWorkflowInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

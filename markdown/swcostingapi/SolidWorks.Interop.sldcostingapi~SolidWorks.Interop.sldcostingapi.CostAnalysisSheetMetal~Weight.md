@@ -1,0 +1,60 @@
+---
+title: "Weight Property (CostAnalysisSheetMetal)"
+project: "SOLIDWORKS Costing API Help"
+interface: "CostAnalysisSheetMetal"
+member: "Weight"
+kind: "property"
+source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~Weight.html"
+---
+
+# Weight Property (CostAnalysisSheetMetal)
+
+Gets the weight of the sheet metal part for this sheet metal Costing analysis.
+
+## Syntax
+
+### Visual Basic (Declaration)
+
+```vb
+ReadOnly Property Weight As System.Double
+```
+
+### Visual Basic (Usage)
+
+```vb
+Dim instance As CostAnalysisSheetMetal
+Dim value As System.Double
+
+value = instance.Weight
+```
+
+### C#
+
+```csharp
+System.double Weight {get;}
+```
+
+### C++/CLI
+
+```cpp
+property System.double Weight {
+   System.double get();
+}
+```
+
+### Property Value
+
+Weight of the sheet metal part
+
+## VBA Syntax
+
+See [CostAnalysisSheetMetal::Weight](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~Weight.html).
+
+## See Also
+
+[CostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal.html)
+[CostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal_members.html)
+
+## Availability
+
+SOLIDWORKS Costing API 2013 SP0

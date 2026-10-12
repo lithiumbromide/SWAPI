@@ -9,11 +9,7 @@ source: "sldworksapi/Get_Length_of_Edge_Example_VB.htm"
 
 # Get Length of Edge Example (VBA)
 
-This example shows how to get the length of an edge directly from the
-underlying curve and also from the display tessellation. The effect of the
-tolerance, when getting the curve tessellation, can be seen in the differences
-in the calculated lengths. This example exists primarily to show how to use
-ICurve::GetTessPts.
+This example shows how to get the length of an edge directly from the underlying curve and also from the display tessellation. The effect of the tolerance, when getting the curve tessellation, can be seen in the differences in the calculated lengths. This example exists primarily to show how to use ICurve::GetTessPts.
 
 ```
 '-----------------------------------------------

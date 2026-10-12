@@ -51,22 +51,12 @@ System.bool GetComponentsAndTransforms(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentList`: Array of interfering
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-- `TransformList`: Array of
-
-[transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
+- `ComponentList`: Array of interfering [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+- `TransformList`: Array of [transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
 
@@ -74,26 +64,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::GetComponentsAndTransforms](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetComponentsAndTransforms.html)
-
-.
+See [InterferenceDetectionMgr::GetComponentsAndTransforms](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetComponentsAndTransforms.html).
 
 ## Examples
 
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
-
 [IInterferenceDectectionMgr::SetComponentsAndTransforms Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~SetComponentsAndTransforms.html)
 
 ## Availability

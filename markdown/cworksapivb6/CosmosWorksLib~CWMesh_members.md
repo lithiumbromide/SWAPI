@@ -1,6 +1,5 @@
 ---
-title: "CWMesh Object
-Members"
+title: "CWMesh Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWMesh_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWMesh_members.html"
 ---
 
-# CWMesh Object
-Members
+# CWMesh Object Members
 
 ## Public Methods
 

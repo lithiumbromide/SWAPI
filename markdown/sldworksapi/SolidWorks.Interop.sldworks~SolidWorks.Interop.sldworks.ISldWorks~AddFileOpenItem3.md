@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # AddFileOpenItem3 Method (ISldWorks)
 
-Adds file types to the
-
-File > Open
-
-dialog box.
+Adds file types to the **File > Open** dialog box.
 
 ## Syntax
 
@@ -71,39 +67,28 @@ System.bool AddFileOpenItem3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Cookie`: Cookie specified in[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
-- `MethodName`: Name of the application function used to open the file (see**Remarks**)
-- `Description`: File description displayed in the**Save as type**list
+- `Cookie`: Cookie specified in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `MethodName`: Name of the application function used to open the file (see **Remarks**)
+- `Description`: File description displayed in the **Save as type** list
 - `Extension`: File name extensions separated by semicolons
 - `OptionLabel`: Label for your options button or an empty string
 - `OptionMethodName`: Name of the callback method to display a dialog box, which appears when a user clicks your options button or an empty string
 
 ### Return Value
 
-True if the file types are added to the**Save as type**list, false if not
+True if the file types are added to the **Save as type** list, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::AddFileOpenItem3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddFileOpenItem3.html)
-
-.
+See [SldWorks::AddFileOpenItem3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddFileOpenItem3.html).
 
 ## Examples
 
 [Add and Remove Items to File Save As and Open Menus (VB.NET)](Add_and_Remove_Items_to_File_Save_As_and_Open_Menus_VBNET.htm)
-
 [Add and Remove Items to File Save As and Open Menus (C#)](Add_and_Remove_Items_to_File_Save_As_and_Open_Menus_CSharp.htm)
 
 ## Remarks
@@ -112,27 +97,19 @@ Call this method in your add-in's ConnectToSW method.
 
 Implement the function specified by MethodName with a string parameter that is the file name.
 
-If your application is unloaded using an add-in, then you must remove any file types added with this method. See[ISldWorks::RemoveFileOpenItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveFileOpenItem2.html).
+If your application is unloaded using an add-in, then you must remove any file types added with this method. See [ISldWorks::RemoveFileOpenItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveFileOpenItem2.html).
 
 The callback is called one time if the user:
 
-- Presses the Shift or Ctrl key and selects multiple files to open in the
-
-  File > Open
-
-  Dialog.
+- Presses the Shift or Ctrl key and selects multiple files to open in the **File > Open** Dialog.
 - Drags-and-drops files into SOLIDWORKS from either File Explorer or the File Explorer tab in the TaskPane.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::RemoveFileOpenItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileOpenItem2.html)
-
 [ISldWorks::RemoveFileSaveAsItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFileSaveAsItem2.html)
-
 [ISldWorks::AddFileSaveAsItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddFileSaveAsItem2.html)
 
 ## Availability

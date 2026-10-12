@@ -42,13 +42,7 @@ property System.bool IsPossibleInterference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if this is a possible interference, false if not
 
 ## VBA Syntax
 
-See
-
-[Interference::IsPossibleInterference](ms-its:sldworksapivb6.chm::/sldworks~Interference~IsPossibleInterference.html)
-
-.
+See [Interference::IsPossibleInterference](ms-its:sldworksapivb6.chm::/sldworks~Interference~IsPossibleInterference.html).
 
 ## See Also
 
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [IInterference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html)
 
 ## Availability

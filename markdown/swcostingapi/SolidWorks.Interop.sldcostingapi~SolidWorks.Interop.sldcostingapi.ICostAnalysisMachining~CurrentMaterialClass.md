@@ -51,14 +51,12 @@ Name of the material class
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::CurrentMaterialClass.](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CurrentMaterialClass.html)
+See [CostAnalysisMachining::CurrentMaterialClass.](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CurrentMaterialClass.html)
 
 ## Examples
 
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
@@ -68,13 +66,9 @@ Setting this property might invalidate other settings; e.g., material and plate 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClasses.html)
-
 [ICostAnalysisMachining::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterialClasses.html)
-
 [ICostAnalysisMachining::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClassesCount.html)
 
 ## Availability

@@ -42,24 +42,15 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
-
-s
+Array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertBestfitPlaneFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBestfitPlaneFeature~GetSubFeatures.html)
-
-.
+See [DimXpertBestfitPlaneFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBestfitPlaneFeature~GetSubFeatures.html).
 
 ## Examples
 
 [Get DimXpert Width And Best Fit Plane Features Example (VBA)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VB.htm)
-
 [Get DimXpert Width And Best Fit Plane Features Example (VB.NET)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VBNET.htm)
 
 ## Remarks
@@ -69,7 +60,6 @@ This method returns all sub-features of this best fit plane feature. All of the 
 ## See Also
 
 [IDimXpertBestfitPlaneFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature.html)
-
 [IDimXpertBestfitPlaneFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature_members.html)
 
 ## Availability

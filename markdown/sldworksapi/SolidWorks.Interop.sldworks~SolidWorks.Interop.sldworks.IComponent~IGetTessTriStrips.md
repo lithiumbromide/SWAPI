@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetTessTriStrips Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::IGetTessTriStrips](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriStrips.html)
-
-.
+Obsolete. Superseded by [IComponent2::IGetTessTriStrips](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriStrips.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.float IGetTessTriStrips(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component::IGetTessTriStrips](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriStrips.html)
-
-.
+See [Component::IGetTessTriStrips](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriStrips.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

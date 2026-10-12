@@ -35,5 +35,4 @@ System.int mlFileVersion
 ## See Also
 
 [EdmGenItemInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html)
-
 [EdmGenItemInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo_members.html)

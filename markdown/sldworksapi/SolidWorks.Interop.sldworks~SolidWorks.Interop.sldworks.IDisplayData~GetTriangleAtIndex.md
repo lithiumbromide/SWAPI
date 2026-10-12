@@ -47,13 +47,7 @@ System.Object^ GetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,21 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetTriangleAtIndex.html)
-
-.
+See [DisplayData::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-**[**vertexPt1[3],vertexPt2[3],vertexPt3[3],isFilled,lineType**]**
+```vb
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
+```
 
 where:
-
-(Table)=========================================================
 
 | vertexPt1 [3] | First XYZ vertex point |
 | --- | --- |
@@ -95,9 +81,6 @@ where:
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetTriangleAtIndex.html)
-
 [IDisplayData::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTriangleCount.html)

@@ -45,13 +45,7 @@ property System.String^ FeatureManagerFilterString {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ String in FeatureManager design tree filter
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::FeatureManagerFilterString](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~FeatureManagerFilterString.html)
-
-.
+See [ModelDocExtension::FeatureManagerFilterString](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~FeatureManagerFilterString.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

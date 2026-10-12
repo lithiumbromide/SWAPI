@@ -46,13 +46,7 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumModelViews::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews~Clone.html)
-
-.
+See [EnumModelViews::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews~Clone.html).
 
 ## Remarks
 
@@ -73,5 +63,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumModelViews Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews.html)
-
 [IEnumModelViews Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews_members.html)

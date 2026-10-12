@@ -44,30 +44,21 @@ property System.Object^ CostingDefaults {
 
 ### Property Value
 
-[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
-object
+[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html) object
 
 ## VBA Syntax
 
-See
-
-[CostManager::CostingDefaults](swcostingapivb6.chm::/SldCostingAPI~CostManager~CostingDefaults.html)
-
-.
+See [CostManager::CostingDefaults](swcostingapivb6.chm::/SldCostingAPI~CostManager~CostingDefaults.html).
 
 ## Examples
 
 [Get and Set Costing Default Values (C#)](Get_and_Set_Costing_Default_Values_Example_CSharp.htm)
-
 [Get and Set Costing Default Values (VB.NET)](Get_and_Set_Costing_Default_Values_Example_VBNET.htm)
-
 [Get and Set Costing Default Values (VBA)](Get_and_Set_Costing_Default_Values_Example_VB.htm)
 
 ## See Also
 
 [ICostManager Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager.html)
-
 [ICostManager Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager_members.html)
 
 ## Availability

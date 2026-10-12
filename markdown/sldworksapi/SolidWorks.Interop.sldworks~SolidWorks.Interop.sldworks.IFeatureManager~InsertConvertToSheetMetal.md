@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertConvertToSheetMetal Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertConvertToSheetMetal2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertConvertToSheetMetal2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertConvertToSheetMetal2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertConvertToSheetMetal2.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.bool InsertConvertToSheetMetal(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,9 +80,7 @@ See
 - `FindBends`: True to find pre-made bends and part thickness, false to not
 - `Radius`: Radius for the bends
 - `Gap`: Gap for all rips
-- `ReliefType`: Relief type as defined by
-
-[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
+- `ReliefType`: Relief type as defined by [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
 - `ReliefRatio`: Relief ratio
 
 ### Return Value
@@ -101,16 +89,11 @@ True if a Convert-Solid sheet metal feature is created, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertConvertToSheetMetal](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConvertToSheetMetal.html)
-
-.
+See [FeatureManager::InsertConvertToSheetMetal](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConvertToSheetMetal.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

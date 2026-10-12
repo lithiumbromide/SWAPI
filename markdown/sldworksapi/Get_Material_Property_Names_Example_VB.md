@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Material_Property_Names_Example_VB.htm"
 
 # Get Material Property Names Example (VBA)
 
-This example shows how to get the names of the materials applied to a part
-and faces of the part.
+This example shows how to get the names of the materials applied to a part and faces of the part.
 
 ```
 '----------------------------------------------

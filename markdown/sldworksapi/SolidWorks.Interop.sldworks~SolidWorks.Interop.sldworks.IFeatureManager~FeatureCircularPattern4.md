@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureCircularPattern4 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureCircularPattern5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCircularPattern5.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureCircularPattern5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCircularPattern5.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ Feature^ FeatureCircularPattern4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -91,32 +81,20 @@ See
 - `DName`: Name of the angular dimension defining the direction of the pattern
 - `GeometryPattern`: True to use geometry pattern, false to not
 - `EqualSpacing`: True to use equal spacing, false to not
-- `VaryInstance`: True to vary the dimensions or spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see
-
-Remarks
-
-)
+- `VaryInstance`: True to vary the dimensions or spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see **Remarks**)
 
 ### Return Value
 
-Circular pattern
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Circular pattern [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCircularPattern4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern4.html)
-
-.
+See [FeatureManager::FeatureCircularPattern4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern4.html).
 
 ## Examples
 
 [Create Circular Pattern (VBA)](Create_Circular_Pattern_Example_VB.htm)
-
 [Create Circular Pattern (VB.NET)](Create_Circular_Pattern_Example_VBNET.htm)
-
 [Create Circular Pattern (C#)](Create_Circular_Pattern_Example_CSharp.htm)
 
 ## Remarks
@@ -136,9 +114,7 @@ If VaryInstance = true, then to indicate how to vary the individual pattern inst
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
 
 ## Availability

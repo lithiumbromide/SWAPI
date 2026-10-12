@@ -45,13 +45,7 @@ property System.bool CustomizeCallout {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to customize hole callouts, false to use default hole callouts
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleFeatureData::CustomizeCallout](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~CustomizeCallout.html)
-
-.
+See [AdvancedHoleFeatureData::CustomizeCallout](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~CustomizeCallout.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
-examples.
+See the [IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html) examples.
 
 ## Remarks
 
-If you set this property to true, use
-
-[IAdvancedHoleElementData::CalloutString](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~CalloutString.html)
-
-to customize the hole callouts.
+If you set this property to true, use [IAdvancedHoleElementData::CalloutString](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~CalloutString.html) to customize the hole callouts.
 
 ## See Also
 
 [IAdvancedHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
 [IAdvancedHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ Comment^ AddComment(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,22 @@ See
 
 ### Return Value
 
-Pointer to the[IComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html)objectParamDesc
+Pointer to the [IComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html) object
 
 ## VBA Syntax
 
-See
-
-[Feature::AddComment](ms-its:sldworksapivb6.chm::/sldworks~Feature~AddComment.html)
-
-.
+See [Feature::AddComment](ms-its:sldworksapivb6.chm::/sldworks~Feature~AddComment.html).
 
 ## Remarks
 
-The comment is added in the[Comment folder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder.html), but the comment is associated with this feature.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If your pointer is on the feature in the FeatureManager design tree, then the comment is displayed as a ToolTip.
+The comment is added in the [Comment folder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder.html), but the comment is associated with this feature. If your pointer is on the feature in the FeatureManager design tree, then the comment is displayed as a ToolTip.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IComment::Delete Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment~Delete.html)
-
 [IModelDocExtension::AddComment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddComment.html)
-
 [ICommentFolder::AddComment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder~AddComment.html)
 
 ## Availability

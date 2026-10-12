@@ -40,13 +40,7 @@ System.object GetFirstRevisionCloud2()
 System.Object^ GetFirstRevisionCloud2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstRevisionCloud2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstRevisionCloud2.html)
-
-.
+See [View::GetFirstRevisionCloud2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstRevisionCloud2.html).
 
 ## Remarks
 
@@ -67,11 +57,8 @@ This method obsoletes IView::GetFirstRevisionCloud by supporting inactive sheets
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetRevisionCloudCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetRevisionCloudCount.html)
-
 [IView::GetRevisionClouds Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetRevisionClouds.html)
 
 ## Availability

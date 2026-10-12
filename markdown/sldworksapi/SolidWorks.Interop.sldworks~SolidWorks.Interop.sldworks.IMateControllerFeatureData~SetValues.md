@@ -50,13 +50,7 @@ void SetValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::SetValues](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~SetValues.html)
-
-.
+See [MateControllerFeatureData::SetValues](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~SetValues.html).
 
 ## Examples
 
-See the
-
-[IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-examples.
+See the [IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html) examples.
 
 ## Remarks
 
-The number of items in Values must correspond to the number of mates passed to
-
-[IMateControllerFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~Initialize.html)
-
-or the number of pre-selected mates.
+The number of items in Values must correspond to the number of mates passed to [IMateControllerFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~Initialize.html) or the number of pre-selected mates.
 
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

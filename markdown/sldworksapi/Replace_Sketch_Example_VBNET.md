@@ -9,8 +9,7 @@ source: "sldworksapi/Replace_Sketch_Example_VBNET.htm"
 
 # Replace Sketch Entity Example (VB.NET)
 
-This example shows how to replace a sketch entity in a model with another
-sketch entity.
+This example shows how to replace a sketch entity in a model with another sketch entity.
 
 ```
 '----------------------------------------------------------------------------

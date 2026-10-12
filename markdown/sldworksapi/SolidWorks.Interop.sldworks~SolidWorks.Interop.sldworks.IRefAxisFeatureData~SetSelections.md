@@ -47,23 +47,11 @@ System.bool SetSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntitiesVar`: Array of
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-entities for this reference axis feature
+- `EntitiesVar`: Array of entities for this reference axis feature
 
 ### Return Value
 
@@ -71,28 +59,19 @@ True if the method executed, false if not
 
 ## VBA Syntax
 
-See
-
-[RefAxisFeatureData::SetSelections](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~SetSelections.html)
-
-.
+See [RefAxisFeatureData::SetSelections](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~SetSelections.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IRefAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData.html)
-
 [IRefAxisFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData_members.html)
-
 [IRefAxisFeatureData::ISetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~ISetSelections.html)
-
 [IRefAxisFeatureData::GetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~GetSelections.html)
-
 [IRefAxisFeatureData::GetSelectionsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~GetSelectionsCount.html)
-
 [IRefAxisFeatureData::IGetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~IGetSelections.html)
 
 ## Availability

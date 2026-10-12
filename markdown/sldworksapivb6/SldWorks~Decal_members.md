@@ -1,6 +1,5 @@
 ---
-title: "Decal Object
-Members"
+title: "Decal Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Decal_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Decal_members.html"
 ---
 
-# Decal Object
-Members
+# Decal Object Members
 
 ## Public Methods
 

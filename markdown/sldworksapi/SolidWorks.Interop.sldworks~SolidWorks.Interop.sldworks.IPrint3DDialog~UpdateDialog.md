@@ -40,13 +40,7 @@ System.bool UpdateDialog()
 System.bool UpdateDialog();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the statistics are updated, false if not
 
 ## VBA Syntax
 
-See
-
-[Print3DDialog::UpdateDialog](ms-its:sldworksapivb6.chm::/sldworks~Print3DDialog~UpdateDialog.html)
-
-.
+See [Print3DDialog::UpdateDialog](ms-its:sldworksapivb6.chm::/sldworks~Print3DDialog~UpdateDialog.html).
 
 ## See Also
 
 [IPrint3DDialog Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog.html)
-
 [IPrint3DDialog Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog_members.html)
 
 ## Availability

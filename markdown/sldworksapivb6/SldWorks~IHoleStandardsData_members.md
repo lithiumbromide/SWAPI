@@ -1,6 +1,5 @@
 ---
-title: "IHoleStandardsData Object
-Members"
+title: "IHoleStandardsData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IHoleStandardsData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IHoleStandardsData_members.html"
 ---
 
-# IHoleStandardsData Object
-Members
+# IHoleStandardsData Object Members
 
 ## Public Methods
 

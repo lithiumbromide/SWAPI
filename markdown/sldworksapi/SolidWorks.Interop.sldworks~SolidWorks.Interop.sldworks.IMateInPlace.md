@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMateInPlace Interface
 
-Allows access to an
+Allows access to an Inplace (coincident) mate, which is created when you insert a component in the context of an assembly.
 
-Inplace
-
-(coincident) mate, which is created when you insert a component in the context of an assembly.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,20 +41,13 @@ public interface class IMateInPlace
 
 ## VBA Syntax
 
-See
-
-[MateInPlace](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace.html)
-
-.
+See [MateInPlace](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace.html).
 
 ## Examples
 
 [Get Component Names and Types for Inplace Mate (VBA)](Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.htm)
-
 [Insert Join Feature (C#)](Insert_Join_Feature_Example_CSharp.htm)
-
 [Insert Join Feature (VB.NET)](Insert_Join_Feature_Example_VBNET.htm)
-
 [Insert Join Feature (VBA)](Insert_Join_Feature_Example_VB.htm)
 
 ## Accessors
@@ -74,7 +63,5 @@ See
 ## See Also
 
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

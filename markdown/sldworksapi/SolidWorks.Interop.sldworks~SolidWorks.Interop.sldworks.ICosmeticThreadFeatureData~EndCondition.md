@@ -45,40 +45,23 @@ property System.int EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread end condition as defined in
-
-[swCosmeticEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticEndConditions_e.html)
+Thread end condition as defined in [swCosmeticEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticEndConditions_e.html)
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~EndCondition.html)
-
-.
+See [CosmeticThreadFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~EndCondition.html).
 
 ## Examples
 
-See the
-
-[ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
-examples.
+See the [ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html) examples.
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
 
 ## Availability

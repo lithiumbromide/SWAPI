@@ -11,13 +11,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 Allows access to the Sustainability manufacturing data for the current part.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class ISustainabilityManufacturing
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing.html)
-
-.
+See [SustainabilityManufacturing](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing.html).
 
 ## Examples
 
@@ -64,5 +54,4 @@ See
 ## See Also
 
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

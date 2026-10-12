@@ -46,28 +46,17 @@ Number of spot-weld locations
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::GetSpotWeldLocationCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~GetSpotWeldLocationCount.html)
-
-.
+See [CWSpotWeldConnector::GetSpotWeldLocationCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~GetSpotWeldLocationCount.html).
 
 ## Examples
 
-See the
-
-[ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
-examples.
+See the [ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html) examples.
 
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldConnector::InsertSpotWeldLocations Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~InsertSpotWeldLocations.html)
-
 [ICWSpotWeldConnector::RemoveSpotWeldLocationAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~RemoveSpotWeldLocationAt.html)
 
 ## Availability

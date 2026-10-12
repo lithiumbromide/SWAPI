@@ -1,6 +1,5 @@
 ---
-title: "ISlicingData Object
-Members"
+title: "ISlicingData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISlicingData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISlicingData_members.html"
 ---
 
-# ISlicingData Object
-Members
+# ISlicingData Object Members
 
 ## Public Methods
 

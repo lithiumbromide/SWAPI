@@ -49,17 +49,9 @@ void LaunchApp(
 ### Parameters
 
 - `hParentWnd`: Parent window handle
-- `bsDefault`: Name of a search form; name of a search favorite if lEdmLaunchSearchFlags contains
-
-[EdmLaunchSearchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLaunchSearchFlags.html)
-
-.Elsf_DefaultIsAFavorite
+- `bsDefault`: Name of a search form; name of a search favorite if lEdmLaunchSearchFlags contains [EdmLaunchSearchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLaunchSearchFlags.html).Elsf_DefaultIsAFavorite
 - `oStartFolderPathOrID`: Path or ID of the folder in which the search tool should start looking
-- `lEdmLaunchSearchFlags`: Combination of
-
-[EdmLaunchSearchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLaunchSearchFlags.html)
-
-bits
+- `lEdmLaunchSearchFlags`: Combination of [EdmLaunchSearchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLaunchSearchFlags.html) bits
 
 ## Remarks
 
@@ -70,7 +62,6 @@ bits
 ## See Also
 
 [IEdmSearch7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7.html)
-
 [IEdmSearch7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7_members.html)
 
 ## Availability

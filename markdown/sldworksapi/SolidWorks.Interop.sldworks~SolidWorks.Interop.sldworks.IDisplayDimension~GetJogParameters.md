@@ -63,13 +63,7 @@ System.bool GetJogParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,11 +79,7 @@ True if the operation succeeds, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetJogParameters](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetJogParameters.html)
-
-.
+See [DisplayDimension::GetJogParameters](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetJogParameters.html).
 
 ## Examples
 
@@ -98,11 +88,8 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetJogParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetJogParameters.html)
-
 [IModelDocExtension::JogDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~JogDimension.html)
 
 ## Availability

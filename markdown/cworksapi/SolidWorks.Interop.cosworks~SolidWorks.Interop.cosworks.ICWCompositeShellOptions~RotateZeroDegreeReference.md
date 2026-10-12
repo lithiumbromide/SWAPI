@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # RotateZeroDegreeReference Property (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::RotateZeroDegreeReference2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~RotateZeroDegreeReference2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::RotateZeroDegreeReference2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~RotateZeroDegreeReference2.html).
 
 ## Syntax
 
@@ -55,20 +51,13 @@ property System.int RotateZeroDegreeReference {
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::RotateZeroDegreeReference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~RotateZeroDegreeReference.html)
-
-.
+See [CWCompositeShellOptions::RotateZeroDegreeReference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~RotateZeroDegreeReference.html).
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::GetRotateOrientation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetRotateOrientation.html)
-
 [ICWCompositeShellOptions::SetRotateOrientation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetRotateOrientation.html)
 
 ## Availability

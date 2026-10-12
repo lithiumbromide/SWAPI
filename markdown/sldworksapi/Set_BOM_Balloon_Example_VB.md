@@ -9,8 +9,7 @@ source: "sldworksapi/Set_BOM_Balloon_Example_VB.htm"
 
 # Set BOM Balloon Text Example (VBA)
 
-This example shows how to set the text in a BOM balloon with custom
-text.
+This example shows how to set the text in a BOM balloon with custom text.
 
 ```
 '---------------------------------------------------

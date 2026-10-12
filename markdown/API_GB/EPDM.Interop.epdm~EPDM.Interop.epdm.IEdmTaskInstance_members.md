@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.htm
 
 # IEdmTaskInstance Interface Members
 
-The following tables list the members exposed by[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html).
+The following tables list the members exposed by [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html).
 
 ## Public Properties
 
@@ -40,11 +40,7 @@ The following tables list the members exposed by[IEdmTaskInstance](EPDM.Interop.
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Task Add-in Sample](TaskSample.htm)
-
 [Standard Task Add-in](StandardTaskAddIn.htm)
-
 [IEdmTaskMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html)

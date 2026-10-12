@@ -45,13 +45,7 @@ property System.bool DissolvePartLevelRows {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,27 +53,15 @@ True to dissolve component rows, false to not
 
 ## VBA Syntax
 
-See
-
-[BomFeature::DissolvePartLevelRows](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DissolvePartLevelRows.html)
-
-.
+See [BomFeature::DissolvePartLevelRows](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DissolvePartLevelRows.html).
 
 ## Remarks
 
-This getter of this property is valid only when[IBomFeature::DetailedCutList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~DetailedCutList.html)is set to true.
+This getter of this property is valid only when [IBomFeature::DetailedCutList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~DetailedCutList.html) is set to true.
 
 The setter of this property is valid only for:
 
-- BOM tables of type
-
-  [swBomType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomType_e.html)
-
-  .swBomType_Indented (call
-
-  [IBomFeature::TableType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~TableType.html)
-
-  to get the BOM table type)
+- BOM tables of type [swBomType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomType_e.html).swBomType_Indented (call [IBomFeature::TableType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~TableType.html) to get the BOM table type)
 
 - and -
 
@@ -88,7 +70,6 @@ The setter of this property is valid only for:
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

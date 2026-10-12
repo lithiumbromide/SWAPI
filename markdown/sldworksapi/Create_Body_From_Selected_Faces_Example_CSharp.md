@@ -11,10 +11,8 @@ source: "sldworksapi/Create_Body_From_Selected_Faces_Example_CSharp.htm"
 
 This example shows how to:
 
-- use SOLIDWORKS geometry and
-  topology methods to construct a temporary body from selected faces.
-- create a solid body feature
-  from the temporary body and a new part containing the solid body feature.
+- use SOLIDWORKS geometry and topology methods to construct a temporary body from selected faces.
+- create a solid body feature from the temporary body and a new part containing the solid body feature.
 
 ```
 //------------------------------------------

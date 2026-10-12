@@ -40,13 +40,7 @@ System.string GetRepresentationParent()
 System.String^ GetRepresentationParent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,21 @@ Physical Product/Family member name
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetRepresentationParent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetRepresentationParent.html)
-
-.
+See [Configuration::GetRepresentationParent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetRepresentationParent.html).
 
 ## Remarks
 
 This method is valid only:
 
-- For SOLIDWORKS Connected
+- For [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
 
 - and -
 
-- If
-
-  [IConfiguration::Get3DExperienceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Get3DExperienceType.html)
-
-  is not 0
+- If [IConfiguration::Get3DExperienceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Get3DExperienceType.html) is not 0
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

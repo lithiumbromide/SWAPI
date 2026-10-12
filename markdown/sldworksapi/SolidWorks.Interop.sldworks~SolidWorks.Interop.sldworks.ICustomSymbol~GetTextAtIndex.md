@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetTextAtIndex Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetTextAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextAtIndex.html)
-
-.
+Obsolete. Superseded by [INote::GetTextAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextAtIndex.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.String^ GetTextAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetTextAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextAtIndex.html)
-
-.
+See [CustomSymbol::GetTextAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextAtIndex.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

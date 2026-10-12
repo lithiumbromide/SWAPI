@@ -1,6 +1,5 @@
 ---
-title: "SwHtmlInterface Object
-Members"
+title: "SwHtmlInterface Object Members"
 project: "SOLIDWORKS HTML Control Type Library"
 interface: "SwHtmlInterface_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swhtmlcontrolapivb6/SWHTMLCONTROLLib~SwHtmlInterface_members.html"
 ---
 
-# SwHtmlInterface Object
-Members
+# SwHtmlInterface Object Members
 
 ## Public Methods
 

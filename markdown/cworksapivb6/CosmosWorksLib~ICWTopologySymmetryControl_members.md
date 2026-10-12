@@ -1,6 +1,5 @@
 ---
-title: "ICWTopologySymmetryControl Object
-Members"
+title: "ICWTopologySymmetryControl Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWTopologySymmetryControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWTopologySymmetryControl_members.html"
 ---
 
-# ICWTopologySymmetryControl Object
-Members
+# ICWTopologySymmetryControl Object Members
 
 ## Public Methods
 

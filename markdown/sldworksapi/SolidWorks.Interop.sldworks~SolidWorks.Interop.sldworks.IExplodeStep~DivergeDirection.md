@@ -45,74 +45,37 @@ property System.Object^ DivergeDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Cylindrical
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-, conical face, linear
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-, or
-
-[axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
-
-(see
-
-Remarks
-
-)
+Cylindrical [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html), conical face, linear [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), or [axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::DivergeDirection](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~DivergeDirection.html)
-
-.
+See [ExplodeStep::DivergeDirection](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~DivergeDirection.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html)
-
-  is set to
-
-  [swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html)
-
-  .swAssemblyExplodeStepType_Radial,
+- [IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html) is set to [swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html).swAssemblyExplodeStepType_Radial,
 
 - and -
 
 - the selected entity creates an angle with the explode direction.
 
-If you set this property to a valid diverge direction entity, then[IExplodeStep::DivergeFromAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeFromAxis.html)is automatically set to true.
+If you set this property to a valid diverge direction entity, then [IExplodeStep::DivergeFromAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeFromAxis.html) is automatically set to true.
 
 If you set this property to Nothing or null, then IExplodeStep::DivergeFromAxis is automatically set to false.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

@@ -44,7 +44,6 @@ void IgnoreSecondaryDatabaseConnection(
 ## See Also
 
 [IEdmVault17 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault17.html)
-
 [IEdmVault17 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault17_members.html)
 
 ## Availability

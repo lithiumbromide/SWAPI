@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # RefreshQuickTipWindow Method (ISldWorks)
 
-Tells the SOLIDWORKS application that your add-in's state has changed and triggers a query for the current URL page.
+Tells the SOLIDWORKS Design application that your add-in's state has changed and triggers a query for the current URL page.
 
 ## Syntax
 
@@ -39,34 +39,21 @@ void RefreshQuickTipWindow()
 void RefreshQuickTipWindow();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RefreshQuickTipWindow](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RefreshQuickTipWindow.html)
-
-.
+See [SldWorks::RefreshQuickTipWindow](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RefreshQuickTipWindow.html).
 
 ## Remarks
 
-See[Quick Tips and Bubble ToopTips](sldworksAPIProgGuide.chm::/OVERVIEW/Quick_Tips_and_Bubble_ToolTips.htm)for for details.
+See [Quick Tips and Bubble ToopTips](sldworksAPIProgGuide.chm::/OVERVIEW/Quick_Tips_and_Bubble_ToolTips.htm) for for details.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::InstallQuickTipGuide Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~InstallQuickTipGuide.html)
-
 [ISldWorks::UnInstallQuickTipGuide Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UnInstallQuickTipGuide.html)
 
 ## Availability

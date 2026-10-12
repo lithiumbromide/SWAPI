@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # SetRotateOrientation Method (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::SetRotateOrientation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetRotateOrientation2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::SetRotateOrientation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetRotateOrientation2.html).
 
 ## Syntax
 
@@ -62,38 +58,21 @@ System.int SetRotateOrientation(
 
 ### Return Value
 
-Error code as defined in
-
-[swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
+Error code as defined in [swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::SetRotateOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetRotateOrientation.html)
-
-.
+See [CWCompositeShellOptions::SetRotateOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetRotateOrientation.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWCompositeShellOptions::MappingType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~MappingType.html)
-
-is set to
-
-[swsCompositeShellOptionsMappingType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsMappingType_e.html)
-
-.swsCompositeShellOptionsSurfaceMapping.
+This method is valid only if [ICWCompositeShellOptions::MappingType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~MappingType.html) is set to [swsCompositeShellOptionsMappingType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsMappingType_e.html).swsCompositeShellOptionsSurfaceMapping.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::GetRotateOrientation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetRotateOrientation.html)
-
 [ICWCompositeShellOptions::RotateZeroDegreeReference Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~RotateZeroDegreeReference.html)
 
 ## Availability

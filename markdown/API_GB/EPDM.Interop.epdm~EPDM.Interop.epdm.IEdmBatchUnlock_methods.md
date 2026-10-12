@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_methods.html
 
 # IEdmBatchUnlock Interface Methods
 
-For a list of all members of this type, see[IEdmBatchUnlock members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html).
+For a list of all members of this type, see [IEdmBatchUnlock members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IEdmBatchUnlock members](EPDM.Intero
 ## See Also
 
 [IEdmBatchUnlock Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

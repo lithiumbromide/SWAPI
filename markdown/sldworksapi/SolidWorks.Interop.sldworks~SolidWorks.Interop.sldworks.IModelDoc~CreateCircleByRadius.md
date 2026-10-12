@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateCircleByRadius Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateCircleByRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateCircleByRadius.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateCircleByRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateCircleByRadius.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool CreateCircleByRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreateCircleByRadius](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateCircleByRadius.html)
-
-.
+See [ModelDoc::CreateCircleByRadius](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateCircleByRadius.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

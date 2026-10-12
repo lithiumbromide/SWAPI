@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # SetSelectionPoint Method (ISelectionMgr)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::SetSelectionPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~SetSelectionPoint2.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::SetSelectionPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~SetSelectionPoint2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.bool SetSelectionPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::SetSelectionPoint](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SetSelectionPoint.html)
-
-.
+See [SelectionMgr::SetSelectionPoint](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SetSelectionPoint.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)

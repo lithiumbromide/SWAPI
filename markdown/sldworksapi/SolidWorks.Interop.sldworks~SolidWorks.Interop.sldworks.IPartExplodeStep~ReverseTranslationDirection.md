@@ -45,13 +45,7 @@ property System.bool ReverseTranslationDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of explode, false to not
 
 ## VBA Syntax
 
-See
-
-[PartExplodeStep::ReverseTranslationDirection](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~ReverseTranslationDirection.html)
-
-.
+See [PartExplodeStep::ReverseTranslationDirection](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~ReverseTranslationDirection.html).
 
 ## Examples
 
-See the
-
-[IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
-example.
+See the [IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html) example.
 
 ## See Also
 
 [IPartExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
 [IPartExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep_members.html)
 
 ## Availability

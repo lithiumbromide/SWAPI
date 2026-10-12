@@ -51,45 +51,25 @@ Curve^ IMergeCurves(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CurveCount`: Number of curves to mergeParamDesc
-- `CurveArr`: Array of
-
-[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-to merge
+- `CurveCount`: Number of curves to merge
+- `CurveArr`: Array of [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) to merge
 
 ### Return Value
 
-Newly created merged
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-or NULL if merge fails
+Newly created merged [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) or NULL if merge fails
 
 ## VBA Syntax
 
-See
-
-[Modeler::IMergeCurves](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IMergeCurves.html)
-
-.
+See [Modeler::IMergeCurves](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IMergeCurves.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::MergeCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~MergeCurves.html)
 
 ## Availability

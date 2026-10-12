@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertCompoundWidthFeature Object
-Members"
+title: "ISwDMDimXpertCompoundWidthFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertCompoundWidthFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertCompoundWidthFeature_members.html"
 ---
 
-# ISwDMDimXpertCompoundWidthFeature Object
-Members
+# ISwDMDimXpertCompoundWidthFeature Object Members
 
 ## Public Methods
 

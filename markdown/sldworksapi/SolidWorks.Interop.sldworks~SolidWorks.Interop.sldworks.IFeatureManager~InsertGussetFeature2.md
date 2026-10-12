@@ -107,56 +107,38 @@ Feature^ InsertGussetFeature2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Depth`: Depth of the gusset
 - `DirType`: Direction in which to extrude the gusset:
 
-- 0 = left side
-- 1 = center
-- 2 = right side
+  - 0 = left side
+  - 1 = center
+  - 2 = right side
 - `LocType`: Location of the reference plane for the sketch of the gusset:
 
-- 0 = start point
-- 1 = midpoint
-- 2 = end pointParamDesc
+  - 0 = start point
+  - 1 = midpoint
+  - 2 = end point
 - `BIsProfile`: True to use a polygon profile, false to use a triangle
-- `ProfileD1`: Length for[Direction 1](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
-- `ProfileD2`: Length for
-
-[Direction 2](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
-- `ProfileD3`: Length for
-
-[Direction 3](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
-- `ProfileAngle`: Value for
-
-[profile angle](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
-- `ProfileD4`: Length for
-
-[Direction 4](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
+- `ProfileD1`: Length for [Direction 1](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
+- `ProfileD2`: Length for [Direction 2](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
+- `ProfileD3`: Length for [Direction 3](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
+- `ProfileAngle`: Value for [profile angle](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
+- `ProfileD4`: Length for [Direction 4](sldworksAPIProgGuide.chm::/Miscellaneous/FeatureManager__InsertGussetFeature_image.htm)
 - `BOffset`: True to offset the reference plane for the sketch, false to not
 - `DProfileOffset`: Value by which to offset the reference plane for the sketch
 - `CrvIndex`: Index of the edge to use if multiple intersecting edges exist
 - `BReverseDir`: If BOffset set to true, then true to reverse direction, false to not
 - `BReverseFace`: Reverse ProfileD1 and ProfileD2 if triangle profile
 
-- or -
+  - or -
 
-Reverse ProfileD1 and ProfileD2 and reverse ProfileD3 and ProfileD4 if polygon profile
+  Reverse ProfileD1 and ProfileD2 and reverse ProfileD3 and ProfileD4 if polygon profile
 - `BUseLenDim`: True to use ProfileD4, false to use ProfileAngle
-- `Faces`: Array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-that form the bases of this gusset feature
+- `Faces`: Array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that form the bases of this gusset feature
 
 ### Return Value
 
@@ -164,18 +146,12 @@ that form the bases of this gusset feature
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertGussetFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGussetFeature2.html)
-
-.
+See [FeatureManager::InsertGussetFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGussetFeature2.html).
 
 ## Examples
 
 [Insert Weldment Features (VBA)](Insert_Weldment_Features_Example_VB.htm)
-
 [Insert Weldment Features (VB.NET)](Insert_Weldment_Features_Example_VBNET.htm)
-
 [Insert Weldment Features (C#)](Insert_Weldment_Features_Example_CSharp.htm)
 
 ## Remarks
@@ -183,18 +159,12 @@ See
 Instead of using this method, you can:
 
 1. Select two faces in the graphics area that are the supporting legs of this gusset.
-2. Call
-
-  [IFeatureManager::InsertGussetFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature3.html)
-
-  .
+2. Call [IFeatureManager::InsertGussetFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature3.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
 
 ## Availability

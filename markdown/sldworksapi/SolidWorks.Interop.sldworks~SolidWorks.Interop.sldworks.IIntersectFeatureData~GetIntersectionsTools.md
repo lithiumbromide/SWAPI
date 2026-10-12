@@ -40,46 +40,21 @@ System.object GetIntersectionsTools()
 System.Object^ GetIntersectionsTools();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of intersecting
-
-[solids](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-,
-
-[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-, and
-
-[planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
-
-in this intersect feature
+Array of intersecting [solids](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html), [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html), and [planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html) in this intersect feature
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::GetIntersectionsTools](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~GetIntersectionsTools.html)
-
-.
+See [IntersectFeatureData::GetIntersectionsTools](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~GetIntersectionsTools.html).
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
-
 [IIntersectFeatureData::GetIntersectionsToolsCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData~GetIntersectionsToolsCount.html)
-
 [IIntersectFeatureData::SetIntersectionsTools Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData~SetIntersectionsTools.html)
 
 ## Availability

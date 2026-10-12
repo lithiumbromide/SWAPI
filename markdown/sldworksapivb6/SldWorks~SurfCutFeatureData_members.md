@@ -1,6 +1,5 @@
 ---
-title: "SurfCutFeatureData Object
-Members"
+title: "SurfCutFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfCutFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfCutFeatureData_members.html"
 ---
 
-# SurfCutFeatureData Object
-Members
+# SurfCutFeatureData Object Members
 
 ## Public Methods
 

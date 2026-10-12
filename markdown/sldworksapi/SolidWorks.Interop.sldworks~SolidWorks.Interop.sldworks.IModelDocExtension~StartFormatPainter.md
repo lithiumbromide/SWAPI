@@ -39,30 +39,17 @@ void StartFormatPainter()
 void StartFormatPainter();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::StartFormatPainter](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~StartFormatPainter.html)
-
-.
+See [ModelDocExtension::StartFormatPainter](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~StartFormatPainter.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::ApplyFormatPainterToAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ApplyFormatPainterToAll.html)
-
 [IModelDocExtension::StopFormatPainter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~StopFormatPainter.html)
 
 ## Availability

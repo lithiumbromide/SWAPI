@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_members.html"
 
 # IEdmBomView3 Interface Members
 
-The following tables list the members exposed by[IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html).
+The following tables list the members exposed by [IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmBomView3](EPDM.Interop.epdm
 ## See Also
 
 [IEdmBomView3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

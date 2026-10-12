@@ -1,6 +1,5 @@
 ---
-title: "DPartDocEvents Object
-Members"
+title: "DPartDocEvents Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DPartDocEvents_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DPartDocEvents_members.html"
 ---
 
-# DPartDocEvents Object
-Members
+# DPartDocEvents Object Members
 
 ## Public Methods
 
@@ -21,6 +19,7 @@ Members
 | Public Method ActiveDisplayStateChangePreNotify |  |
 | Public Method ActiveViewChangeNotify |  |
 | Public Method AddCustomPropertyNotify |  |
+| Public Method AddDependencyNotify |  |
 | Public Method AddDvePagePreNotify |  |
 | Public Method AddItemNotify |  |
 | Public Method AutoSaveNotify |  |
@@ -35,6 +34,7 @@ Members
 | Public Method ConvertToBodiesPostNotify |  |
 | Public Method ConvertToBodiesPreNotify |  |
 | Public Method DeleteCustomPropertyNotify |  |
+| Public Method DeleteDependencyNotify |  |
 | Public Method DeleteItemNotify |  |
 | Public Method DeleteItemPreNotify |  |
 | Public Method DeleteSelectionPreNotify |  |
@@ -87,6 +87,7 @@ Members
 | Public Method SaveToStorageStoreNotify |  |
 | Public Method SensorAlertPreNotify |  |
 | Public Method SketchSolveNotify |  |
+| Public Method SolidBodyFolderReorderNotify |  |
 | Public Method SuppressionStateChangeNotify |  |
 | Public Method UndoPostNotify |  |
 | Public Method UndoPreNotify |  |

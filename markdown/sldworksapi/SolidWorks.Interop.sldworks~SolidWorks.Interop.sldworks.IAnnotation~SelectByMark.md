@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # SelectByMark Method (IAnnotation)
 
-Obsolete. Superseded by
-
-[IAnnotation::Select3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Select3.html)
-
-.
+Obsolete. Superseded by [IAnnotation::Select3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Select3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool SelectByMark(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Annotation::SelectByMark](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SelectByMark.html)
-
-.
+See [Annotation::SelectByMark](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SelectByMark.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)

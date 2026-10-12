@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IToolsCheckInterference2 Method (IAssemblyDoc)
 
-Obsolete. See
-
-[IAssemblyDoc::IToolsCheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html)
-
-.
+Obsolete. See [IAssemblyDoc::IToolsCheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void IToolsCheckInterference2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IToolsCheckInterference2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IToolsCheckInterference2.html)
-
-.
+See [AssemblyDoc::IToolsCheckInterference2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IToolsCheckInterference2.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

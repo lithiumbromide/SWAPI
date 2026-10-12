@@ -42,48 +42,32 @@ System.Object^ GetPrincipalMomentOfInertia();
 
 ### Return Value
 
-Array of three principal moments of inertia (see
-
-Remarks
-
-)
+Array of three principal moments of inertia (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::GetPrincipalMomentOfInertia](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetPrincipalMomentOfInertia.html)
-
-.
+See [CWMassPropertiesManager::GetPrincipalMomentOfInertia](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetPrincipalMomentOfInertia.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## Remarks
 
-The moment of inertia is calculated with respect to the output coordinate system. Before calling this method, call[ICWMassPropertiesManager::SetCoordinateSystemName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemName.html)or[ICWMassPropertiesManager::SetCoordinateSystemToDefault](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemToDefault.html).
+The moment of inertia is calculated with respect to the output coordinate system. Before calling this method, call [ICWMassPropertiesManager::SetCoordinateSystemName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemName.html) or [ICWMassPropertiesManager::SetCoordinateSystemToDefault](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemToDefault.html).
 
 The moments of inertia are in units of kilograms * meters squared.
 
 This method returns three doubles as follows:
 
-[`Px`,`Py`,`Pz`]
+[ `Px`, `Py`, `Pz` ]
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertia.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertiaAtOutputCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertiaAtOutputCoordinateSystem.html)
-
 [ICWMassPropertiesManager::GetPrincipalAxesOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetPrincipalAxesOfInertia.html)
 
 ## Availability

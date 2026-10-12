@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFl
 
 Allows access to the flat-pattern folder in the FeatureManager design tree.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IFlatPatternFolder
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFolder](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFolder.html)
-
-.
+See [FlatPatternFolder](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFolder.html).
 
 ## Examples
 
 [Get Flat-Pattern Folder Feature (VBA)](Get_Flat_Pattern_Folder_Feature_Example_VB.htm)
-
 [Get Flat-Pattern Folder Feature (VB.NET)](Get_Flat_Pattern_Folder_Feature_Example_VBNET.htm)
-
 [Get Flat-Pattern Folder Feature (C#)](Get_Flat_Pattern_Folder_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -61,9 +55,9 @@ The FeatureManager design tree of a multi-body sheet metal part created in SOLID
 
 ## Accessors
 
-IFeature::GetSpecificFeature2
+[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)
 
-IFeatureManager::GetFlatPatternFolder
+[IFeatureManager::GetFlatPatternFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFlatPatternFolder.html)
 
 ## Access Diagram
 
@@ -72,5 +66,4 @@ IFeatureManager::GetFlatPatternFolder
 ## See Also
 
 [IFlatPatternFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -11,62 +11,29 @@ source: "sldworksapi/Get_Blocking_State_Example_VB.htm"
 
 This example shows how to get the blocking state for a model document.
 
+```vb
 '----------------------------------------------------
-
 '
-
 ' Preconditions: Model document is open.
-
 '
-
 ' Postconditions: None
-
 '
-
 '----------------------------------------------------
-
 Option Explicit
-
 Public Enum swBlockingStates_e
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swNoBlock
-= &H0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFullBlock
-= &H1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModifyBlock
-= &H2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swPartialModifyBlock
-= &H3
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEditorBlock
-= &H4
-
+    swNoBlock = &H0
+    swFullBlock = &H1
+    swModifyBlock = &H2
+    swPartialModifyBlock = &H3
+    swEditorBlock = &H4
 End Enum
-
 Sub main()
+    Dim swApp                   As SldWorks.SldWorks
+    Dim swModel                 As SldWorks.ModelDoc2
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"BlockingState = " & swModel.GetBlockingState
-
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Debug.Print "BlockingState = " & swModel.GetBlockingState
 End Sub
-
 '----------------------------------------------------
+```

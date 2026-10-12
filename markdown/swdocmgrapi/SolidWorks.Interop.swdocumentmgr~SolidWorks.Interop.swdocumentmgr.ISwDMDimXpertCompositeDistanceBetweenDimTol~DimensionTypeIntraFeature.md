@@ -44,17 +44,11 @@ property swDmDimXpertDimensionToleranceType_e DimensionTypeIntraFeature {
 
 ### Property Value
 
-Type of dimension tolerance as defined in
-
-[swDmDimXpertDimensionToleranceType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertDimensionToleranceType_e.html)
+Type of dimension tolerance as defined in [swDmDimXpertDimensionToleranceType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertDimensionToleranceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositeDistanceBetweenDimTol::DimensionTypeIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~DimensionTypeIntraFeature.html)
-
-.
+See [SwDMDimXpertCompositeDistanceBetweenDimTol::DimensionTypeIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~DimensionTypeIntraFeature.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html)
-
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

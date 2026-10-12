@@ -1,6 +1,5 @@
 ---
-title: "ISlotMateFeatureData Object
-Members"
+title: "ISlotMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISlotMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISlotMateFeatureData_members.html"
 ---
 
-# ISlotMateFeatureData Object
-Members
+# ISlotMateFeatureData Object Members
 
 ## Public Properties
 

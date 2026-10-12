@@ -40,40 +40,27 @@ System.bool InsertCompositeCurve()
 System.bool InsertCompositeCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertCompositeCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCompositeCurve.html)
-
-.
+See [ModelDoc2::InsertCompositeCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCompositeCurve.html).
 
 ## Examples
 
 [Insert a Composite Curve (C#)](Insert_a_Composite_Curve_Example_CSharp.htm)
-
 [Insert a Composite Curve (VB.NET)](Insert_a_Composite_Curve_Example_VBNET.htm)
-
 [Insert a Composite Curve (VBA)](Insert_a_Composite_Curve_Example_VB.htm)
 
 ## Remarks
 
-To use this method, select the entities by calling[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a mark number of 1.
+To use this method, select the entities by calling [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark number of 1.
 
 See the SOLIDWORKS Help for information about which entities are valid for selection.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

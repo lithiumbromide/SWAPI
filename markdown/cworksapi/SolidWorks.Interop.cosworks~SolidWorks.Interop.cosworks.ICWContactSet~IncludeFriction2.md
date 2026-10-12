@@ -51,19 +51,13 @@ property System.bool IncludeFriction2 {
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::IncludeFriction2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~IncludeFriction2.html)
-
-.
+See [CWContactSet::IncludeFriction2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~IncludeFriction2.html).
 
 ## Remarks
 
-This property is valid only if[ICWContactSet::ContactSetType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetType.html)is one of:
+This property is valid only if [ICWContactSet::ContactSetType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetType.html) is one of:
 
-- [swsContactSetTypeStaticNonLinear_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSetTypeStaticNonLinear_e.html)
-
-  .swsContactSetTypeStaticNonLinearNoPrenetration
+- [swsContactSetTypeStaticNonLinear_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSetTypeStaticNonLinear_e.html).swsContactSetTypeStaticNonLinearNoPrenetration
 - swsContactSetTypeStaticNonLinear_e.swsContactSetTypeStaticNonLinearShrinkFit
 
 To set this property, you can specify either the boolean or the integer.
@@ -71,7 +65,6 @@ To set this property, you can specify either the boolean or the integer.
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
 
 ## Availability

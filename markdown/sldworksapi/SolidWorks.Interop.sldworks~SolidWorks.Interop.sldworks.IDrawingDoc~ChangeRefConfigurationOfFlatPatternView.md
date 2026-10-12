@@ -51,13 +51,7 @@ System.bool ChangeRefConfigurationOfFlatPatternView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the configuration was successfully changed, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ChangeRefConfigurationOfFlatPatternView](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ChangeRefConfigurationOfFlatPatternView.html)
-
-.
+See [DrawingDoc::ChangeRefConfigurationOfFlatPatternView](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ChangeRefConfigurationOfFlatPatternView.html).
 
 ## Remarks
 
@@ -83,9 +73,7 @@ Before calling this method, you must select the flat-pattern view of the model.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [DrawingDoc::CreateFlatPatternViewFromModelView2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateFlatPatternViewFromModelView2.html)
 
 ## Availability

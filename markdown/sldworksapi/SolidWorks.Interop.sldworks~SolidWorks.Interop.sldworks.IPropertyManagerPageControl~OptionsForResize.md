@@ -45,33 +45,15 @@ property System.int OptionsForResize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Resize the PropertyManager page as defined in
-
-[swPropMgrPageControlOnResizeOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageControlOnResizeOptions_e.html)
-
-(see
-
-Remarks
-
-)
+Resize the PropertyManager page as defined in [swPropMgrPageControlOnResizeOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageControlOnResizeOptions_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::OptionsForResize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~OptionsForResize.html)
-
-.
+See [PropertyManagerPageControl::OptionsForResize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~OptionsForResize.html).
 
 ## Remarks
 
@@ -84,7 +66,6 @@ See
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

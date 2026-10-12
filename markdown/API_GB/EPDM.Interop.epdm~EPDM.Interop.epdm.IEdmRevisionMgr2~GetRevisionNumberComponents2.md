@@ -42,21 +42,12 @@ void GetRevisionNumberComponents2(
 
 ### Parameters
 
-- `oNameIDorEmpty`: Name or ID of revision number component to retrieve, null to retrieve all components (see
-
-Remarks
-
-)
-- `ppoRetData`: Array of
-
-[EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
-structures; one structure for each revision number component
+- `oNameIDorEmpty`: Name or ID of revision number component to retrieve, null to retrieve all components (see **Remarks**)
+- `ppoRetData`: Array of [EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html) structures; one structure for each revision number component
 
 ## Examples
 
 [Find Revisions Using Component (C#)](Find_Revisions_Using_Component_Example_CSharp.htm)
-
 [Find Revisions Using Component (VB.NET)](Find_Revisions_Using_Component_Example_VBNET.htm)
 
 ## Remarks
@@ -70,7 +61,6 @@ If oNameIDorEmpty is a positive integer, it is interpreted as the ID of the comp
 ## See Also
 
 [IEdmRevisionMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html)
-
 [IEdmRevisionMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2_members.html)
 
 ## Availability

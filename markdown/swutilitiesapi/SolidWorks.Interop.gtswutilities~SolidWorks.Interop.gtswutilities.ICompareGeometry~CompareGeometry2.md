@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # CompareGeometry2 Method (ICompareGeometry)
 
-Obsolete. Superseded by
-
-[ICompareGeometry::CompareGeometry3](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry3.html)
-
-.
+Obsolete. Superseded by [ICompareGeometry::CompareGeometry3](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry3.html).
 
 ## Syntax
 
@@ -88,39 +84,24 @@ System.int CompareGeometry2(
 - `reffile`: Path and filename of the SOLIDWORKS document containing the referenced part
 - `refconfig`: Name of reference part's configuration; if blank, then the active configuration is used
 - `modfile`: Path and filename of the SOLIDWORKS document containing the modified part
-
-ParamDesc
 - `modconfig`: Name of modified part's configuration
-- `lOperationOptions`: Compare face, volume, or face and volume options as defined by
-
-[gtGdfOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtGdfOperationOption_e.html)
-- `lResultOptions`: Display the results or save the results to a report as defined by
-
-[gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
+- `lOperationOptions`: Compare face, volume, or face and volume options as defined by [gtGdfOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtGdfOperationOption_e.html)
+- `lResultOptions`: Display the results or save the results to a report as defined by [gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
 - `reportname`: Path where to save the results report
 - `vtAddToBinderOption`: True to add the results report to the Design Binder, false to not
 - `vtOverwrite`: True to overwrite an existing results report of the same name, false to not
 
-ParamDesc
-
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareGeometry::CompareGeometry2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry2.html)
-
-.
+See [ICompareGeometry::CompareGeometry2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry2.html).
 
 ## Examples
 
 [Compare Geometry (VBA)](Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
 
 ## Remarks
@@ -136,7 +117,6 @@ because the documents are saved as temporary files during the comparison.
 ## See Also
 
 [ICompareGeometry Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry.html)
-
 [ICompareGeometry Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry_members.html)
 
 ## Availability

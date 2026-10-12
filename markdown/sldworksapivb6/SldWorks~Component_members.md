@@ -1,6 +1,5 @@
 ---
-title: "Component Object
-Members"
+title: "Component Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Component_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Component_members.html"
 ---
 
-# Component Object
-Members
+# Component Object Members
 
 ## Public Methods
 

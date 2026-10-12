@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IMatchedBoolean3 Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::IMatchedBoolean4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IMatchedBoolean4.html)
-
-.
+Obsolete. Superseded by [IBody2::IMatchedBoolean4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IMatchedBoolean4.html).
 
 ## Syntax
 
@@ -75,39 +71,29 @@ EnumBodies2^ IMatchedBoolean3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OperationType`: One of these operation types:
 
-- SWBODYADD
-- SWBODYCUT
-- SWCODYINTERSECT
+  - SWBODYADD
+  - SWBODYCUT
+  - SWCODYINTERSECT
 - `ToolBodyCount`: Number of bodies
 - `ToolBodyArr`: Array of bodies of size ToolBodyCount
 - `NumOfMatchingFaces`: Number of matching faces
-- `FaceList1`: First face list (see**Remarks**)
-- `FaceList2`: Second face listkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(seeRemarks)
+- `FaceList1`: First face list (see **Remarks**)
+- `FaceList2`: Second face list (see Remarks)
 - `ErrorCode`: Error indicated as defined in[swBodyOperationError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationError_e.html)
 
 ### Return Value
 
-Pointer to the[IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html)object for a list of matches
+Pointer to the [IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html) object for a list of matches
 
 ## VBA Syntax
 
-See
-
-[Body2::IMatchedBoolean3](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMatchedBoolean3.html)
-
-.
+See [Body2::IMatchedBoolean3](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMatchedBoolean3.html).
 
 ## Remarks
 
@@ -120,14 +106,12 @@ Having a list of matching face pairs may allow the matched boolean operator to r
 The arguments FaceList1 and FaceList2 arguments can be empty lists. If matching face pairs are passed in, these faces must match such that:
 
 - the surface geometry is coinciding.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}for each edge in a face, there is an edge in the other face that coincides
+- for each edge in a face, there is an edge in the other face that coincides
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::MatchedBoolean3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~MatchedBoolean3.html)
 
 ## Availability

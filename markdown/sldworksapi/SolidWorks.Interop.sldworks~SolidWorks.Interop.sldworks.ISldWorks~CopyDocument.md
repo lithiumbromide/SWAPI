@@ -63,13 +63,7 @@ System.int CopyDocument(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -77,32 +71,21 @@ See
 - `DestDoc`: Full path and filename of the document to which to copy SourceDoc
 - `FromChildren`: Array containing the full path and filenames of the child documents dependent on the document specified for SourceDoc
 - `ToChildren`: Array of strings containing the new full path and filenames of the child documents to which to copy the child documents specified for FromChildren
-- `Option`: Copy options as defined by
-
-[swMoveCopyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyOptions_e.html)
+- `Option`: Copy options as defined by [swMoveCopyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyOptions_e.html)
 
 ### Return Value
 
-Success or error code as defined by
-
-[swMoveCopyError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyError_e.html)
+Success or error code as defined by [swMoveCopyError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CopyDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CopyDocument.html)
-
-.
+See [SldWorks::CopyDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CopyDocument.html).
 
 ## Examples
 
 [Copy Document (VBA)](Copy_Document_Example_VB.htm)
-
 [Copy Document and Its Dependencies (VBA)](Copy_Document_and_Its_Dependencies_Example_VB.htm)
-
 [Copy Document and Its Dependencies (VB.NET)](Copy_Document_and_Its_Dependencies_Example_VBNET.htm)
-
 [Copy Document and Its Dependencies (C#)](Copy_Document_and_Its_Dependencies_Example_CSharp.htm)
 
 ## Remarks
@@ -112,13 +95,9 @@ There can be no documents open when using this method.
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::MoveDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~MoveDocument.html)
-
 [ISldWorks::ICopyDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ICopyDocument.html)
-
 [IModelDocExtension::SaveAs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs.html)
 
 ## Availability

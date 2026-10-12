@@ -49,9 +49,7 @@ System.int GetConfigurationCount2(
 
 ### Parameters
 
-- `result`: Return code as defined in
-
-[swDMConfigurationError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDMConfigurationError.html)
+- `result`: Return code as defined in [swDMConfigurationError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDMConfigurationError.html)
 
 ### Return Value
 
@@ -59,24 +57,15 @@ Number of configurations
 
 ## VBA Syntax
 
-See
-
-[SwDMConfigurationMgr2::GetConfigurationCount2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr2~GetConfigurationCount2.html)
-
-.
+See [SwDMConfigurationMgr2::GetConfigurationCount2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr2~GetConfigurationCount2.html).
 
 ## Examples
 
-See the
-
-[ISwDMConfigurationMgr2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2.html)
-
-examples.
+See the [ISwDMConfigurationMgr2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2.html) examples.
 
 ## See Also
 
 [ISwDMConfigurationMgr2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2.html)
-
 [ISwDMConfigurationMgr2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2_members.html)
 
 ## Availability

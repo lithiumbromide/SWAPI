@@ -51,13 +51,7 @@ System.int LinkProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,17 +60,11 @@ See
 
 ### Return Value
 
-Result code as defined in
-
-[swCustomLinkSetResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCustomLinkSetResult_e.html)
+Result code as defined in [swCustomLinkSetResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCustomLinkSetResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::LinkProperty](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~LinkProperty.html)
-
-.
+See [CustomPropertyManager::LinkProperty](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~LinkProperty.html).
 
 ## Remarks
 
@@ -85,9 +73,7 @@ This method is valid for cut-list, feature, model, and configuration custom prop
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::LinkAll Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~LinkAll.html)
 
 ## Availability

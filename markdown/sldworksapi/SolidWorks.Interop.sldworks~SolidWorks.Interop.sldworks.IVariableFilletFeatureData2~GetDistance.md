@@ -47,19 +47,11 @@ System.double GetDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-
-at which to get the radius
+- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html) at which to get the radius
 
 ### Return Value
 
@@ -67,34 +59,20 @@ Distance 2 radius at the vertex for the asymmetric fillet
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::GetDistance](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetDistance.html)
-
-.
+See [VariableFilletFeatureData2::GetDistance](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetDistance.html).
 
 ## Examples
 
-See the
-
-[IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html)
-
-examples.
+See the [IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html) examples.
 
 ## Remarks
 
-Call
-
-[IVariableFilletFeatureData2::GetRadius2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetRadius2.html)
-
-to get the Distance 1 radius at the vertex for this asymmetric fillet.
+Call [IVariableFilletFeatureData2::GetRadius2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetRadius2.html) to get the Distance 1 radius at the vertex for this asymmetric fillet.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
-
 [IVariableFilletFeatureData2::SetDistance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~SetDistance.html)
 
 ## Availability

@@ -45,29 +45,15 @@ property System.bool EnableConfigurationTree {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to update the ConfigurationManager tree, false to not (see
-
-Remarks
-
-)
+True to update the ConfigurationManager tree, false to not (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::EnableConfigurationTree](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~EnableConfigurationTree.html)
-
-.
+See [ConfigurationManager::EnableConfigurationTree](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~EnableConfigurationTree.html).
 
 ## Remarks
 
@@ -76,7 +62,6 @@ This property is set to true by default. Setting this property to false will inc
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
 
 ## Availability

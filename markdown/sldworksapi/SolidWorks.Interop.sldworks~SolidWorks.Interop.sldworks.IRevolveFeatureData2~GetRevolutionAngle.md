@@ -47,13 +47,7 @@ System.double GetRevolutionAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ Angle of revolution
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetRevolutionAngle.html)
-
-.
+See [RevolveFeatureData2::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetRevolutionAngle.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::SetRevolutionAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~SetRevolutionAngle.html)
-
 [IRevolveFeatureData2::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~ReverseDirection.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.object GetUnderlyingMemberFeature()
 System.Object^ GetUnderlyingMemberFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[CornerMember::GetUnderlyingMemberFeature](ms-its:sldworksapivb6.chm::/sldworks~CornerMember~GetUnderlyingMemberFeature.html)
-
-.
+See [CornerMember::GetUnderlyingMemberFeature](ms-its:sldworksapivb6.chm::/sldworks~CornerMember~GetUnderlyingMemberFeature.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Remarks
 
-After calling this method to get the IFeature, use
-
-[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
-
-to get an
-
-[ISructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-.
+After calling this method to get the IFeature, use [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get an [ISructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html).
 
 ## See Also
 
 [ICornerMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember.html)
-
 [ICornerMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember_members.html)
 
 ## Availability

@@ -37,25 +37,15 @@ public delegate System.int DDrawingDocEvents_RedoPostNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_RedoPostNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RedoPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~RedoPostNotify_EV.html)
-
-.
+See [RedoPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~RedoPostNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use swDrawingRedoPostNotify to register for this notification.
+If developing a C++ application, use [swDrawingRedoPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

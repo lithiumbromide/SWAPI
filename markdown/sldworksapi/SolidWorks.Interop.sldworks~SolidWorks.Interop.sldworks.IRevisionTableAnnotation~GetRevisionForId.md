@@ -47,13 +47,7 @@ System.String^ GetRevisionForId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,32 +55,23 @@ See
 
 ### Return Value
 
-Revision textParamDesc
+Revision text
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::GetRevisionForId](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionForId.html)
-
-.
+See [RevisionTableAnnotation::GetRevisionForId](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionForId.html).
 
 ## Remarks
 
-Call[IRevisionTableAnnotation::GetIdForRowNumber](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetIdForRowNumber.html)to get the revision ID for the row in which the revision text exists.
+Call [IRevisionTableAnnotation::GetIdForRowNumber](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetIdForRowNumber.html) to get the revision ID for the row in which the revision text exists.
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::AddRevision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~AddRevision.html)
-
 [IRevisionTableAnnotation::DeleteRevision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~DeleteRevision.html)
-
 [IRevisionTableAnnotation::GetRowNumberForId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetRowNumberForId.html)
-
 [IRevisionTableAnnotation::CurrentRevision Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~CurrentRevision.html)
 
 ## Availability

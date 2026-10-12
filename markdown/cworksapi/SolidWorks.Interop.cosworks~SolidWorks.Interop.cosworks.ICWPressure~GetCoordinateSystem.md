@@ -46,30 +46,18 @@ Coordinate system
 
 ## VBA Syntax
 
-See
-
-[CWPressure::GetCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~GetCoordinateSystem.html)
-
-.
+See [CWPressure::GetCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~GetCoordinateSystem.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html)
-
-is set to true.
+This method is valid only if [ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html) is set to true.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::SetCoordinateSystem Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetCoordinateSystem.html)
-
 [ICWPressure::CoordSystemType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~CoordSystemType.html)
-
 [ICWPressure::Equation Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Equation.html)
 
 ## Availability

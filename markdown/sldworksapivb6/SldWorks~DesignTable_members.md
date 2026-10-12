@@ -1,6 +1,5 @@
 ---
-title: "DesignTable Object
-Members"
+title: "DesignTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DesignTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DesignTable_members.html"
 ---
 
-# DesignTable Object
-Members
+# DesignTable Object Members
 
 ## Public Methods
 

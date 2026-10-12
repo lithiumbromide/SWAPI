@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Row_to_Design_Table_Example_VB.htm"
 
 # Add Row to Design Table Example (VBA)
 
-This example shows how to add a row to a design table. This example
-also adds a configuration to the part document.
+This example shows how to add a row to a design table. This example also adds a configuration to the part document.
 
 ```
 '-------------------------------------------------------

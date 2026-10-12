@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeature
 
 # swFeatureManagerTreeViewCADFamily_e Enumeration
 
-SOLIDWORKS Connected only.
-
-Tools > System Options > FeatureManager > Select a configuration view for the FeatureManager Tree Area
-
-.
+SOLIDWORKS Design connected to the 3DEXPERIENCE platform only. **Tools > System Options > FeatureManager > Select a configuration view for the FeatureManager Tree Area**.
 
 ## Syntax
 

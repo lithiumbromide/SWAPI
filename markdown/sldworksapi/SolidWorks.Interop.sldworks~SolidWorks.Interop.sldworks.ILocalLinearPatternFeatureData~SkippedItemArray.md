@@ -45,13 +45,7 @@ property System.Object^ SkippedItemArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Array of integers representing the skipped pattern components
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SkippedItemArray.html)
-
-.
+See [LocalLinearPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SkippedItemArray.html).
 
 ## Examples
 
 [Get Number of Instances Skipped in Driving Feature (C#)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_CSharp.htm)
-
 [Get Number of Instances Skipped in Driving Feature (VB.NET)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_VBNET.htm)
-
 [Get Number of Instances Skipped in Driving Feature (VBA)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_VB.htm)
 
 ## Remarks
@@ -83,41 +71,29 @@ Calculate:
 
 For a bi-directional pattern:
 
-`I`=`n2`* (`i`- 1) + (`j`- 1)
+`I` = `n2` * (`i` - 1) + (`j` - 1)
 
 For a uni-directional pattern:
 
-`I`=`i`- 1
+`I` = `i` - 1
 
 where:
 
-- I
+- `I` = pattern instance number
+- `n2` = number of instances in Direction 2
+- `i` = index for Direction 1
+- `j` = index for Direction 2
 
-  = pattern instance number
-- n2
+In the pattern's PropertyManager, find `n2` in the **Direction 2** **> Spacing and Instances > Number of instances** field and find [`i,j`] in the **Modified Instances** section.
 
-  = number of instances in Direction 2
-- i
-
-  = index for Direction 1
-- j
-
-  = index for Direction 2
-
-In the pattern's PropertyManager, find`n2`in the**Direction 2****> Spacing and Instances > Number of instances**field and find [`i,j`] in the**Modified Instances**section.
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
-
 [ILocalLinearPatternFeatureData::IGetSkippedItemCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~GetSkippedItemCount.html)
-
 [ILocalLinearPatternFeatureData::IGetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~IGetSkippedItemArray.html)
-
 [ILocalLinearPatternFeatureData::ISetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~ISetSkippedItemArray.html)
 
 ## Availability

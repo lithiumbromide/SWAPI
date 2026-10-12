@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundNotchFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundNotchFeature~GetBottomFeature.html)
-
-.
+See [SwDMDimXpertCompoundNotchFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundNotchFeature~GetBottomFeature.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundNotchFeature.html)
-
 [ISwDMDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

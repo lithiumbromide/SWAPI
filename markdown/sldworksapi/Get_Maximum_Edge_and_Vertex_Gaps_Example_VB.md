@@ -9,31 +9,25 @@ source: "sldworksapi/Get_Maximum_Edge_and_Vertex_Gaps_Example_VB.htm"
 
 # Get Maximum Edge and Vertex Gaps Example (VBA)
 
-This example returns the same data returned by theTools > Checkdialog box when the check boxes,Maximum
-edge gapandMaximum vertex gap,
-are selected.
+This example returns the same data returned by the Tools > Check dialog box when the check boxes, Maximum edge gap and Maximum vertex gap, are selected.
 
-This example shows how to iterate over each edge and vertex in a part to
-obtain:
+This example shows how to iterate over each edge and vertex in a part to obtain:
 
-kadov_tag{{</spaces>}}*kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Whether
-an edge or vertex is:
+* Whether an edge or vertex is:
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}* tolerant (distance to neighbor is greater than 5.0E-9 mm).
+* tolerant (distance to neighbor is greater than 5.0E-9 mm).
 
-kadov_tag{{<spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}* exact (distance to neighbor is less than or equal to 5.0E-9 mm).
+* exact (distance to neighbor is less than or equal to 5.0E-9 mm).
 
-kadov_tag{{<spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Gap size
-(or tolerance) in mm of each edge or vertex.
+* Gap size (or tolerance) in mm of each edge or vertex.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Maximum
-edge and vertex gaps (or tolerances) in mm for the part.
+* Maximum edge and vertex gaps (or tolerances) in mm for the part.
 
 ```vb
  '----------------------------------------------------------------------------
- ' kadov_tag{{<spaces>}}Preconditions:
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1. kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Open public_documents\samples\tutorial\assemblymates\head.sldprt.
- ' kadov_tag{{<spaces>}}2. kadov_tag{{<spaces>}}Open an Immediate window.
+ ' Preconditions:
+ ' 1. Open public_documents\samples\tutorial\assemblymates\head.sldprt.
+ ' 2. Open an Immediate window.
  '
  ' Postconditions: Inspect the Immediate window for tolerance data for all edges
  ' and vertexes.
@@ -42,84 +36,84 @@ edge and vertex gaps (or tolerances) in mm for the part.
  '----------------------------------------------------------------------------
 Option Explicit
 Sub main()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swApp kadov_tag{{<spaces>}}                  kadov_tag{{</spaces>}}As SldWorks.SldWorks
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swModel kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}As SldWorks.ModelDoc2
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swPart kadov_tag{{<spaces>}}                 kadov_tag{{</spaces>}}As SldWorks.PartDoc
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vBodyArr kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vBody kadov_tag{{<spaces>}}                  kadov_tag{{</spaces>}}As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swBody kadov_tag{{<spaces>}}                 kadov_tag{{</spaces>}}As SldWorks.Body2
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vEdgeArr kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vEdge kadov_tag{{<spaces>}}                  kadov_tag{{</spaces>}}As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swEdge kadov_tag{{<spaces>}}                 kadov_tag{{</spaces>}}As SldWorks.Edge
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vVertexArr              As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vVertex                 As Variant
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swVertex                As SldWorks.Vertex
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swFaultEnt kadov_tag{{<spaces>}}             kadov_tag{{</spaces>}}As SldWorks.FaultEntity
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim bRet kadov_tag{{<spaces>}}                   kadov_tag{{</spaces>}}As Boolean
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim tol                     As Double
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swTanEnt kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}As SldWorks.Entity
+    Dim swApp                   As SldWorks.SldWorks
+    Dim swModel                 As SldWorks.ModelDoc2
+    Dim swPart                  As SldWorks.PartDoc
+    Dim vBodyArr                As Variant
+    Dim vBody                   As Variant
+    Dim swBody                  As SldWorks.Body2
+    Dim vEdgeArr                As Variant
+    Dim vEdge                   As Variant
+    Dim swEdge                  As SldWorks.Edge
+    Dim vVertexArr              As Variant
+    Dim vVertex                 As Variant
+    Dim swVertex                As SldWorks.Vertex
+    Dim swFaultEnt              As SldWorks.FaultEntity
+    Dim bRet                    As Boolean
+    Dim tol                     As Double
+    Dim swTanEnt                As SldWorks.Entity
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swApp = Application.SldWorks
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swPart = swModel
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "File = " & swModel.GetPathName
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}vBodyArr = swPart.GetBodies2(swAllBodies, True)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}For Each vBody In vBodyArr
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Set swBody = vBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Body[" & swBody.GetType & "] --> " & swBody.GetSelectionId
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}vEdgeArr = swBody.GetEdges
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}vVertexArr = swBody.GetVertices
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim maxEdgeGap As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}maxEdgeGap = 0#
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For Each vEdge In vEdgeArr
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Find maximum edge gap
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Set swEdge = vEdge kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bRet = swEdge.IsTolerant(tol)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If maxEdgeGap < tol Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}maxEdgeGap = tol
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}If (Not (bRet = False)) Then
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print "Edge is tolerant: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}"
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}Tolerance = " & tol
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Set swTanEnt = swEdge
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}bRet = swTanEnt.Select4(True, Nothing)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print "Edge is not tolerant: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Tolerance = " & tol
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Set swFaultEnt = swEdge.Check
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next vEdge
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print ""
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Maximum edge gap is " & maxEdgeGap
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print ""
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim maxVertexGap As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}maxVertexGap = 0#
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For Each vVertex In vVertexArr
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Find maximum vertex gap
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Set swVertex = vVertex
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bRet = swVertex.IsTolerant(tol)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If maxVertexGap < tol Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}maxVertexGap = tol
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If (Not (bRet = False)) Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print "Vertex is tolerant: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}"
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}}      kadov_tag{{</spaces>}}Tolerance = " & tol
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Set swTanEnt = swVertex
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}bRet = swTanEnt.Select4(True, Nothing)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print "Vertex is not tolerant: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Tolerance = " & tol
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next vVertex
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print ""
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Maximum vertex gap is " & maxVertexGap
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print ""
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Next vBody
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swPart = swModel
+    Debug.Print "File = " & swModel.GetPathName
+
+    vBodyArr = swPart.GetBodies2(swAllBodies, True)
+    For Each vBody In vBodyArr
+        Set swBody = vBody
+        Debug.Print "  Body[" & swBody.GetType & "] --> " & swBody.GetSelectionId
+        vEdgeArr = swBody.GetEdges
+        vVertexArr = swBody.GetVertices
+
+        Dim maxEdgeGap As Double
+        maxEdgeGap = 0#
+        For Each vEdge In vEdgeArr
+            ' Find maximum edge gap
+            Set swEdge = vEdge
+            bRet = swEdge.IsTolerant(tol)
+            If maxEdgeGap < tol Then
+                maxEdgeGap = tol
+            End If
+                If (Not (bRet = False)) Then
+                    Debug.Print "Edge is tolerant:  "
+                    Debug.Print "        Tolerance = " & tol
+                    Set swTanEnt = swEdge
+                    bRet = swTanEnt.Select4(True, Nothing)
+
+                Else
+                    Debug.Print "Edge is not tolerant:  Tolerance = " & tol
+                End If
+            Set swFaultEnt = swEdge.Check
+        Next vEdge
+        Debug.Print ""
+        Debug.Print "Maximum edge gap is " & maxEdgeGap
+        Debug.Print ""
+
+        Dim maxVertexGap As Double
+        maxVertexGap = 0#
+
+        For Each vVertex In vVertexArr
+            ' Find maximum vertex gap
+            Set swVertex = vVertex
+            bRet = swVertex.IsTolerant(tol)
+
+            If maxVertexGap < tol Then
+                maxVertexGap = tol
+            End If
+
+            If (Not (bRet = False)) Then
+                Debug.Print "Vertex is tolerant:  "
+                Debug.Print "       Tolerance = " & tol
+                Set swTanEnt = swVertex
+                bRet = swTanEnt.Select4(True, Nothing)
+            Else
+                Debug.Print "Vertex is not tolerant:  Tolerance = " & tol
+            End If
+        Next vVertex
+        Debug.Print ""
+        Debug.Print "Maximum vertex gap is " & maxVertexGap
+        Debug.Print ""
+
+    Next vBody
 End Sub
 ```

@@ -35,5 +35,4 @@ System.String^ mbsPathName
 ## See Also
 
 [EdmBatchDelErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
 [EdmBatchDelErrInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.html)

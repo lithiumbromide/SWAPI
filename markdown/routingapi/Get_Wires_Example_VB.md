@@ -11,45 +11,21 @@ source: "routingapi/Get_Wires_Example_VB.htm"
 
 This example shows how to get the wires in a route.
 
+```vb
 ...
-
 Set rtElectricalRoute = rtRouteManager.GetElectricalRoute
-
 ...
-
 lNumWiresAccumulated = 0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vWires
-= rtElectricalRoute.GetWires
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not IsEmpty(vWires) Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lNumWires
-= rtElectricalRoute.GetWiresCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ReDim
-aWires(lNumWires - 1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lStartIdx
-= lNumWiresAccumulated
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lEndIdx
-= lNumWiresAccumulated + lNumWires - 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-lIdx = lStartIdx To lEndIdx
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-aWires(lIdx) = vWires(lIdx)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lNumWiresAccumulated
-= lNumWiresAccumulated + 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-lIdx
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
+    vWires = rtElectricalRoute.GetWires
+    If Not IsEmpty(vWires) Then
+        lNumWires = rtElectricalRoute.GetWiresCount
+        ReDim aWires(lNumWires - 1)
+        lStartIdx = lNumWiresAccumulated
+        lEndIdx = lNumWiresAccumulated + lNumWires - 1
+        For lIdx = lStartIdx To lEndIdx
+            Set aWires(lIdx) = vWires(lIdx)
+            lNumWiresAccumulated = lNumWiresAccumulated + 1
+        Next lIdx
+    End If
 ...
+```

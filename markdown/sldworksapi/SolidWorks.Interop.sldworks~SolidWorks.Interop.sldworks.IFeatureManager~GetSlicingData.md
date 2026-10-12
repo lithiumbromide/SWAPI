@@ -40,13 +40,7 @@ System.object GetSlicingData()
 System.Object^ GetSlicingData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetSlicingData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetSlicingData.html)
-
-.
+See [FeatureManager::GetSlicingData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetSlicingData.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
@@ -75,9 +61,7 @@ Before calling this method to access default slicing parameters, you must pre-se
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertSlicing Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSlicing.html)
 
 ## Availability

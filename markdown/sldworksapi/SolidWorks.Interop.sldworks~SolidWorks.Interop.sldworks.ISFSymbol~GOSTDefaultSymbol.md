@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISF
 
 # GOSTDefaultSymbol Property (ISFSymbol)
 
-Gets whether the GOST
-
-Add default symbol
-
-option is set.
+Gets whether the GOST Add default symbol option is set.
 
 ## Syntax
 
@@ -49,42 +45,23 @@ property System.bool GOSTDefaultSymbol {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the GOST
-
-Add default symbol
-
-option is set, false if it is not
-
-EndOLEPropertyRow
+True if the GOST Add default symbol option is set, false if it is not
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GOSTDefaultSymbol](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GOSTDefaultSymbol.html)
-
-.
+See [SFSymbol::GOSTDefaultSymbol](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GOSTDefaultSymbol.html).
 
 ## Remarks
 
-[ISFSymbol::GOSTNotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GOSTNotation.html)
-
-must be True to set this property.
+[ISFSymbol::GOSTNotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GOSTNotation.html) must be True to set this property.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
 
 ## Availability

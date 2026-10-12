@@ -42,38 +42,21 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Spring type as defined by
-
-[swSpringType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringType_e.html)
+Spring type as defined by [swSpringType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~Type.html)
-
-.
+See [SimulationSpringFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~Type.html).
 
 ## Examples
 
-See
-
-[ISimulationSpringFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData.html)
-
-examples.
+See [ISimulationSpringFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData.html) examples.
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)

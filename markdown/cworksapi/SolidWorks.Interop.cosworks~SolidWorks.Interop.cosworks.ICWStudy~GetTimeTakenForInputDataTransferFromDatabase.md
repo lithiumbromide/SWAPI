@@ -46,28 +46,20 @@ Time taken in seconds for input data transfer from the database in this nonlinea
 
 ## VBA Syntax
 
-See
-
-[CWStudy::GetTimeTakenForInputDataTransferFromDatabase](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~GetTimeTakenForInputDataTransferFromDatabase.html)
-
-.
+See [CWStudy::GetTimeTakenForInputDataTransferFromDatabase](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~GetTimeTakenForInputDataTransferFromDatabase.html).
 
 ## Remarks
 
 This method is valid only for nonlinear studies.
 
-`model_name`**-**`study_name`**.out**is created after the study is analyzed and contains this time taken for input data transfer from the database. Check the location of this file in the results folder that is configered in**Simulation > Options > Default Options**.
+`model_name`**-**`study_name`**.out** is created after the study is analyzed and contains this time taken for input data transfer from the database. Check the location of this file in the results folder that is configered in **Simulation > Options > Default Options**.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::GetTimeTakenForGapIterationsAndContactOperations Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~GetTimeTakenForGapIterationsAndContactOperations.html)
-
 [ICWStudy::GetTimeTakenForInputPhase Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~GetTimeTakenForInputPhase.html)
-
 [ICWStudy::GetTotalSolutionTime Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~GetTotalSolutionTime.html)
 
 ## Availability

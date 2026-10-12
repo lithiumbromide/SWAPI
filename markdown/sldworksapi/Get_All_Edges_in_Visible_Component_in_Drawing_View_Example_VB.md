@@ -9,8 +9,7 @@ source: "sldworksapi/Get_All_Edges_in_Visible_Component_in_Drawing_View_Example_
 
 # Get All Edges in Visible Component in Drawing View Example (VBA)
 
-This method gets all of the edges in the first visible component in
-a drawing view.
+This method gets all of the edges in the first visible component in a drawing view.
 
 ```
 '---------------------------------

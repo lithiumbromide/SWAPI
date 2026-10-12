@@ -47,13 +47,7 @@ System.bool SetRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchArc::SetRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~SetRadius.html)
-
-.
+See [SketchArc::SetRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~SetRadius.html).
 
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)
-
 [ISketchArc::GetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~GetRadius.html)
 
 ## Availability

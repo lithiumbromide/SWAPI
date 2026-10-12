@@ -52,26 +52,16 @@ void SetName(
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SetName.html)
-
-.
+See [CWTopologySymmetryControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
-example.
+See the [ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html) example.
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
-
 [ICWTopologySymmetryControl::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~GetName.html)
 
 ## Availability

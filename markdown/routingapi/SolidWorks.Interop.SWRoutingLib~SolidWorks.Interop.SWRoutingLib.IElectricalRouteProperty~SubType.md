@@ -47,22 +47,15 @@ property System.int SubType {
 
 ### Property Value
 
-Electrical route subtype as defined in
-
-[swElectricalRouteSubType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swElectricalRouteSubType_e.html)
+Electrical route subtype as defined in [swElectricalRouteSubType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swElectricalRouteSubType_e.html)
 
 ## VBA Syntax
 
-See
-
-[ElectricalRouteProperty::SubType](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~SubType.html)
-
-.
+See [ElectricalRouteProperty::SubType](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~SubType.html).
 
 ## See Also
 
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IElectricalRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty_members.html)
 
 ## Availability

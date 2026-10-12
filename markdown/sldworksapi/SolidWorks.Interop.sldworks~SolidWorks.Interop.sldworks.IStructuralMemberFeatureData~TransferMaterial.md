@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISt
 
 # TransferMaterial Property (IStructuralMemberFeatureData)
 
-Gets or sets whether to transfer the
-
-[material properties of a library profile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~LibraryProfileMaterial.html)
-
-for this structural member.
+Gets or sets whether to transfer the [material properties of a library profile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~LibraryProfileMaterial.html) for this structural member.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool TransferMaterial {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,18 +53,12 @@ True to transfer the material properties of a library profile, false to not
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::TransferMaterial](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~TransferMaterial.html)
-
-.
+See [StructuralMemberFeatureData::TransferMaterial](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~TransferMaterial.html).
 
 ## Examples
 
 [Insert Structural Weldments Using Custom Weldment Profile (C#)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_CSharp.htm)
-
 [Insert Structural Weldments Using Custom Weldment Profile (VB.NET)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_VBNET.htm)
-
 [Insert Structural Weldments Using Custom Weldment Profile (VBA)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_VB.htm)
 
 ## Remarks
@@ -84,14 +68,12 @@ You can transfer material properties of a library profile:
 - when you use it as a structural member.
 - that has a configuration-specific material.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
-
 [IStructuralMemberFeatureData::ConfigurationName Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~ConfigurationName.html)
 
 ## Availability

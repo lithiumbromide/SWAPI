@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITi
 
 # ITitleBlock Interface Members
 
-The following tables list the members exposed by[ITitleBlock](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html).
+The following tables list the members exposed by [ITitleBlock](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html).
 
 ## Public Methods
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[ITitleBlock](SolidWorks.Interop
 ## See Also
 
 [ITitleBlock Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

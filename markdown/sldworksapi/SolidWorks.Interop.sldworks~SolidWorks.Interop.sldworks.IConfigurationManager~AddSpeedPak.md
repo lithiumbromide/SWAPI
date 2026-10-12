@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # AddSpeedPak Method (IConfigurationManager)
 
-Obsolete. Superseded by
-
-[IConfigurationManager::AddSpeedPak2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfigurationManager~AddSpeedPak2.html)
-
-.
+Obsolete. Superseded by [IConfigurationManager::AddSpeedPak2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfigurationManager~AddSpeedPak2.html).
 
 ## Syntax
 
@@ -59,51 +55,34 @@ System.Object^ AddSpeedPak(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type`: - 1 = Geometry
-- 2 = Graphics
+  - 2 = Graphics
 - `PartThreshold`:
-- `FaceThreshold`: See
-
-Remarks
+- `FaceThreshold`: See **Remarks**
 
 ### Return Value
 
-SpeedPak
-
-[configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
+SpeedPak [configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::AddSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddSpeedPak.html)
-
-.
+See [ConfigurationManager::AddSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddSpeedPak.html).
 
 ## Remarks
 
-The SOLIDWORKS user-interface control corresponding to the FaceThreshhold parameter was removed from SOLIDWORKS 2013 and later. Regardless of the value that you specify for the FaceThreshhold parameter, the value 0 is passed, which results in no faces being included for SpeedPak by a call to this method.
+The SOLIDWORKS Design user-interface control corresponding to the FaceThreshhold parameter was removed from SOLIDWORKS 2013 and later. Regardless of the value that you specify for the FaceThreshhold parameter, the value 0 is passed, which results in no faces being included for SpeedPak by a call to this method.
 
 This method was revised as described so that existing applications that call this method will not fail.
 
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IConfiguration::IsSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsSpeedPak.html)
-
 [IConfiguration::UpdateSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~UpdateSpeedPak.html)
 
 ## Availability

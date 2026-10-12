@@ -67,41 +67,15 @@ System.int GetItem2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index number of the criterion to retrieve
-- `Category1`: Name of Category1 (see
-
-Remarks
-
-)
-- `Category2`: Name of Category2 (see
-
-Remarks
-
-)
-- `Condition`: Condition as defined in
-
-[swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html)
-
-(see
-
-Remarks
-
-)
-- `Value`: Text value satisfying Condition (see
-
-Remarks
-
-)
+- `Category1`: Name of Category1 (see **Remarks**)
+- `Category2`: Name of Category2 (see **Remarks**)
+- `Condition`: Condition as defined in [swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html) (see **Remarks**)
+- `Value`: Text value satisfying Condition (see **Remarks**)
 - `IsAnd`: True if all of the criteria in the advanced component selection criteria list must be met, false if only this criterion must be met
 
 ### Return Value
@@ -110,30 +84,21 @@ Value of the Index argument or -1 if criterion specified by Index not found
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::GetItem2](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~GetItem2.html)
-
-.
+See [AdvancedSelectionCriteria::GetItem2](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~GetItem2.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
-examples.
+See the [IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html) examples.
 
 ## Remarks
 
-Call[IAdvancedSelectionCriteria::GetItemCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItemCount.html)to get a valid value for Index before calling this method.
+Call [IAdvancedSelectionCriteria::GetItemCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItemCount.html) to get a valid value for Index before calling this method.
 
-For a list of possible Category1, Category2, Condition, and Value values, see**Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection > Search Criteria for Advanced Component Selection**topic in the SOLIDWORKS user-interface help.
+For a list of possible Category1, Category2, Condition, and Value values, see **Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection > Search Criteria for Advanced Component Selection** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

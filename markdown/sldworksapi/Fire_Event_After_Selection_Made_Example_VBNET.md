@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Event_After_Selection_Made_Example_VBNET.htm"
 
 # Fire Event After Selection Made Example (VB.NET)
 
-This example shows how to fire an event after a selection is made in a part,
-assembly, or drawing document.
+This example shows how to fire an event after a selection is made in a part, assembly, or drawing document.
 
 ```
 '------------------------------------------------------
@@ -72,18 +71,40 @@ handlers
     End Sub
 ```
 
-Sub AttachEventHandlers() AttachSWEvents() End Sub
+Sub AttachEventHandlers()
+AttachSWEvents()
+End Sub
 
-Sub AttachSWEvents() If Not pDoc Is Nothing Then AddHandler pDoc.UserSelectionPostNotify, AddressOf Me .pDoc_UserSelectionPostNotify End If If Not aDoc Is Nothing Then AddHandler aDoc.UserSelectionPostNotify, AddressOf Me .aDoc_UserSelectionPostNotify End If If Not dDoc Is Nothing Then AddHandler dDoc.UserSelectionPostNotify, AddressOf Me .dDoc_UserSelectionPostNotify End If End Sub
+Sub AttachSWEvents()
+If Not pDoc Is Nothing Then
+AddHandler pDoc.UserSelectionPostNotify, AddressOf Me.pDoc_UserSelectionPostNotify
+End If
 
-Private Function pDoc_ UserSelectionPostNotify () As Integer MsgBox( "Entity
-selected in part document." ) End Function
+If Not aDoc Is Nothing Then
+AddHandler aDoc.UserSelectionPostNotify, AddressOf Me.aDoc_UserSelectionPostNotify
+End If
 
-Public Function aDoc_ UserSelectionPostNotify () As Integer MsgBox( "Entity
-selected in assembly document." ) End Function
+If Not dDoc Is Nothing Then
+AddHandler dDoc.UserSelectionPostNotify, AddressOf Me.dDoc_UserSelectionPostNotify
+End If
 
-Private Function dDoc_ UserSelectionPostNotify () As Integer MsgBox( "Entity
-selected in drawing document." ) End Function
+End Sub
 
-''' <summary> ''' The SldWorks swApp
-variable is pre-assigned for you. ''' </summary> Public swApp As SldWorks EndClass
+Private Function pDoc_**UserSelectionPostNotify**() As Integer
+MsgBox("Entity selected in part document.")
+End Function
+
+Public Function aDoc_**UserSelectionPostNotify**() As Integer
+MsgBox("Entity selected in assembly document.")
+End Function
+
+Private Function dDoc_**UserSelectionPostNotify**() As Integer
+MsgBox("Entity selected in drawing document.")
+End Function
+
+''' <summary>
+''' The SldWorks swApp variable is pre-assigned for you.
+''' </summary>
+Public swApp As SldWorks
+
+End Class

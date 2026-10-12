@@ -47,14 +47,13 @@ void SetCustomData(
 
 ## Remarks
 
-The data is only stored in memory and is kept as long as[IEdmReference5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)is add-referenced. You can get the stored data by calling[IEdmReference5::GetCustomData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetCustomData.html).
+The data is only stored in memory and is kept as long as [IEdmReference5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html) is add-referenced. You can get the stored data by calling [IEdmReference5::GetCustomData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetCustomData.html).
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

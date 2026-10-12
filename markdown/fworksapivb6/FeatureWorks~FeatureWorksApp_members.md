@@ -1,6 +1,5 @@
 ---
-title: "FeatureWorksApp Object
-Members"
+title: "FeatureWorksApp Object Members"
 project: "FeatureWorks Type Library"
 interface: "FeatureWorksApp_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "fworksapivb6/FeatureWorks~FeatureWorksApp_members.html"
 ---
 
-# FeatureWorksApp Object
-Members
+# FeatureWorksApp Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBa
 
 # GetExcitationReverseDirections Method (ICWBaseExcitation)
 
-Obsolete. Superseded by
-
-[ICWBaseExcitation::GetExcitationReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationReverseDirections2.html)
-
-.
+Obsolete. Superseded by [ICWBaseExcitation::GetExcitationReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationReverseDirections2.html).
 
 ## Syntax
 
@@ -64,47 +60,24 @@ void GetExcitationReverseDirections(
 
 ### Parameters
 
-- `BDir1`: 1 to reverse plane direction 1, 0 to not; valid only if BDir1 = 1 in
-
-[ICWBaseExcitation::GetExcitationDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections.html)
-
-(see
-
-Remarks
-
-)
-- `BDir2`: 1 to reverse plane direction 2, 0 to not; valid only if BDir2 = 1 in ICWBaseExcitation::GetExcitationDirections (see
-
-Remarks
-
-)
-- `BDir3`: 1 to reverse plane direction 3, 0 to not; valid only if BDir3 = 1 in ICWBaseExcitation::GetExcitationDirections (see
-
-Remarks
-
-)
+- `BDir1`: 1 to reverse plane direction 1, 0 to not; valid only if BDir1 = 1 in [ICWBaseExcitation::GetExcitationDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections.html) (see **Remarks**)
+- `BDir2`: 1 to reverse plane direction 2, 0 to not; valid only if BDir2 = 1 in ICWBaseExcitation::GetExcitationDirections (see **Remarks**)
+- `BDir3`: 1 to reverse plane direction 3, 0 to not; valid only if BDir3 = 1 in ICWBaseExcitation::GetExcitationDirections (see **Remarks**)
 - `BReversePhaseAngle`: 1 to reverse phase angle, 0 to not
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::GetExcitationReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~GetExcitationReverseDirections.html)
-
-.
+See [CWBaseExcitation::GetExcitationReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~GetExcitationReverseDirections.html).
 
 ## Remarks
 
-For uniform base excitations, this method is valid only if you did not call[ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html)to set the face, edge, or plane in whose direction the excitation is uniformly applied.
+For uniform base excitations, this method is valid only if you did not call [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html) to set the face, edge, or plane in whose direction the excitation is uniformly applied.
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
-
 [ICWBaseExcitation::SetExcitationReverseDirections Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~SetExcitationReverseDirections.html)
-
 [ICWBaseExcitation::GetExcitationDirectionValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirectionValues.html)
 
 ## Availability

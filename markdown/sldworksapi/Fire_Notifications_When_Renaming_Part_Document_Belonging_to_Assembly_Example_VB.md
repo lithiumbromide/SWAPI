@@ -11,8 +11,7 @@ source: "sldworksapi/Fire_Notifications_When_Renaming_Part_Document_Belonging_to
 
 This example shows how to fire notifications when you:
 
-- are about to rename a part
-  document belonging to an assembly.
+- are about to rename a part document belonging to an assembly.
 - rename the part document.
 
 ```

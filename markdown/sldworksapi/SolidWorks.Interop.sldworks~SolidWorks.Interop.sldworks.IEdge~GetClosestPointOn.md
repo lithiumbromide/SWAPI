@@ -55,13 +55,7 @@ System.Object^ GetClosestPointOn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,19 +65,11 @@ See
 
 ### Return Value
 
-Array of five doubles (see
-
-Remarks
-
-)
+Array of five doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Edge::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetClosestPointOn.html)
-
-.
+See [Edge::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetClosestPointOn.html).
 
 ## Remarks
 
@@ -91,30 +77,20 @@ This method returns only one point, regardless of how many points achieve the mi
 
 This method returns an array that contains the following values:
 
-**[**`PointX, PointY, PointZ, UParameter, NotUsed`**]**
+**[** `PointX, PointY, PointZ, UParameter, NotUsed` **]**
 
-where the point values represent the point on the edge, and`UParameter`is the parameter on the edge that is closest to the input point. Ignore the fifth array element.
+where the point values represent the point on the edge, and `UParameter` is the parameter on the edge that is closest to the input point. Ignore the fifth array element.
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetClosestPointOn.html)
-
 [ICurve::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetClosestPointOn.html)
-
 [ICurve::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetClosestPointOn.html)
-
 [IFace2::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetClosestPointOn.html)
-
 [IFace2::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetClosestPointOn.html)
-
 [ISurface::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetClosestPointOn.html)
-
 [ISurface::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetClosestPointOn.html)
-
 [IVertex::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetClosestPointOn.html)
-
 [IVertex::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetClosestPointOn.html)

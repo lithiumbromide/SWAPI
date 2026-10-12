@@ -54,9 +54,7 @@ System.Object^ GetBeamRadius(
 ### Parameters
 
 - `SPlotName`: Name of plot
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -64,22 +62,14 @@ Array of beam radii
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetBeamRadius](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamRadius.html)
-
-.
+See [CWResults::GetBeamRadius](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamRadius.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetBeamForcesForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamForcesForEntities.html)
-
 [ICWResults::GetBeamMinMaxStress Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamMinMaxStress.html)
-
 [ICWResults::GetBeamStressForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamStressForEntities.html)
 
 ## Availability

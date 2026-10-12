@@ -9,31 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # GetOLEObjectSettings Method (ISheet)
 
-Obsolete. Superseded by I
-
-[SwOLEObjectAspect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Aspect.html)
-
-,
-
-[ISwOLEObject::Boundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Boundaries.html)
-
-,
-
-[ISWOLEObject::IGetBoundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBoundaries.html)
-
-,
-
-[ISwOLEObject::ISetBoundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~ISetBoundaries.html)
-
-,
-
-[ISwOLEObject::IGetBuffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBuffer.html)
-
-, and
-
-[ISwOLEObject::Buffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Buffer.html)
-
-.
+Obsolete. Superseded by I[SwOLEObjectAspect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Aspect.html), [ISwOLEObject::Boundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Boundaries.html), [ISWOLEObject::IGetBoundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBoundaries.html), [ISwOLEObject::ISetBoundaries](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~ISetBoundaries.html), [ISwOLEObject::IGetBuffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBuffer.html), and [ISwOLEObject::Buffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~Buffer.html).
 
 ## Syntax
 
@@ -79,13 +55,7 @@ System.Object^ GetOLEObjectSettings(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetOLEObjectSettings](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectSettings.html)
-
-.
+See [Sheet::GetOLEObjectSettings](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectSettings.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

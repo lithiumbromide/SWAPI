@@ -54,48 +54,25 @@ void GetFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Face1`: First
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-that defines this two- or three-bend corner
+- `Face1`: First [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) that defines this two- or three-bend corner
 - `Face2`: Second IFace2 that defines this two- or three-bend corner
-- `Face3`: Third IFace2 that defines this three-bend corner; valid only if ICornerReliefFeatureData::CornerReliefBendType is
-
-[swCornerReliefBendType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefBendType_e.html)
-
-.swCornerReliefBendType_ThreeBend; specify null or Nothing for a two-bend corner
+- `Face3`: Third IFace2 that defines this three-bend corner; valid only if ICornerReliefFeatureData::CornerReliefBendType is [swCornerReliefBendType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefBendType_e.html).swCornerReliefBendType_ThreeBend; specify null or Nothing for a two-bend corner
 
 ## VBA Syntax
 
-See
-
-[SMCornerReliefData::GetFaces](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~GetFaces.html)
-
-.
+See [SMCornerReliefData::GetFaces](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~GetFaces.html).
 
 ## Examples
 
-See the
-
-[ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-examples.
+See the [ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html) examples.
 
 ## See Also
 
 [ISMCornerReliefData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html)
-
 [ISMCornerReliefData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData_members.html)
 
 ## Availability

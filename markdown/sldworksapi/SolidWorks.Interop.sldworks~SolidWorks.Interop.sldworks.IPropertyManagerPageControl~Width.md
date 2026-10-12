@@ -45,13 +45,7 @@ property System.short Width {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Width of the control
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::Width](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Width.html)
-
-.
+See [PropertyManagerPageControl::Width](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Width.html).
 
 ## Remarks
 
@@ -76,7 +66,6 @@ By default, the width of the control is usually set so that it extends to the ri
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

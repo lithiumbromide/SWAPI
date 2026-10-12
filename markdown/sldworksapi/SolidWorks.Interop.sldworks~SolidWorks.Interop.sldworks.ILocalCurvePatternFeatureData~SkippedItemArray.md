@@ -45,13 +45,7 @@ property System.Object^ SkippedItemArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,18 @@ Array of integers representing the skipped components
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~SkippedItemArray.html)
-
-.
+See [LocalCurvePatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~SkippedItemArray.html).
 
 ## Remarks
 
 This array is 0-based. If you skip the third and fifth components, then the array looks like ArrayOut[0]=3 and ArrayOut[1]=5.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
-
 [ILocalCurvePatternFeatureData::GetSkippedItemCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~GetSkippedItemCount.html)
 
 ## Availability

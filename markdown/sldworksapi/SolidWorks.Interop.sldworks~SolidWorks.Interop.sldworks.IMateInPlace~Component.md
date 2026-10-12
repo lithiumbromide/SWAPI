@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # Component Property (IMateInPlace)
 
-Gets the component for this
-
-Inplace
-
-mate.
+Gets the component for this Inplace mate.
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property Component2^ Component {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,11 +50,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[MateInPlace::Component](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~Component.html)
-
-.
+See [MateInPlace::Component](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~Component.html).
 
 ## Examples
 
@@ -72,12 +58,11 @@ See
 
 ## Remarks
 
-The component instance tree of a subassembly is not loaded because a subassembly does not have a view of its own. Thus, this property returns NULL if theInplacemate is in a subassembly.
+The component instance tree of a subassembly is not loaded because a subassembly does not have a view of its own. Thus, this property returns NULL if the Inplace mate is in a subassembly.
 
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
 
 ## Availability

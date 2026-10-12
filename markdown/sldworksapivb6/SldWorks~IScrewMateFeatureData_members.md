@@ -1,6 +1,5 @@
 ---
-title: "IScrewMateFeatureData Object
-Members"
+title: "IScrewMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IScrewMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IScrewMateFeatureData_members.html"
 ---
 
-# IScrewMateFeatureData Object
-Members
+# IScrewMateFeatureData Object Members
 
 ## Public Properties
 

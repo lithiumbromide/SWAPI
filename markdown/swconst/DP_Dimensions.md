@@ -9,153 +9,47 @@ source: "swconst/DP_Dimensions.htm"
 
 # Document Properties > Dimensions
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > or < OnFlag > | Comments |
 | --- | --- | --- | --- |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat,
-swUserPreferenceOption_e.swDetailingDimension, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions,
-swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value | Specifies whether to display dimensions in two kinds of units |
-| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value | Specifies whether to display units for dual dimensions |
-| Dual dimensions - Dimension Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition,
-swUserPreferenceOption_e.swDetailingDimension, swDetailingDualDimPosition_e.< Value >) | See swDetailingDualDimPosition_e for valid options | Positions the display of dimensions in two kinds of units |
-| Primary precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies primary precision for linear dimension |
-| Primary precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingDimension, swDimensionPrecisionSettings_e
-.< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies primary precision for linear tolerance |
-| Primary precision - Link precisions with model | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinearDimPrecisionLinkWithModel,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinearDimPrecisionLinkWithModel,
-swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value |  |
-| Dual precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies dual precision for alternate linear dimension |
-| Dual precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingDimension, swDimensionPrecisionSettings_e
-.< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies dual precision for alternate linear tolerance |
-| Dual precision - Link precisions with model | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAltLinearDimPrecisionLinkWithModel,
-swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAltLinearDimPrecisionLinkWithModel,
-swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value |  |
-| Fractional display - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimFractionStyle_e.< Value >) | See swDetailingDimFractionStyle_e for valid options |  |
-| Fractional display - Stack size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionScaleIndex,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionScaleIndex,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimFractionScaleIndex_e.< Value >) | See swDetailingDimFractionScaleIndex_e for valid options |  |
-| Fractional display - Show double prime mark('') | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDoublePrimeMark,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDoublePrimeMark,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show the double prime mark ('') in a fractional
-display |
-| Fractional display - Include leading
-zero for values less than 1" | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowLeadingZeros,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowLeadingZeros,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show leading
-zero for values less than 1" in a fractional display |
-| Bent leaders - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies bent leader length |
-| Zeroes - Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
-| Zeroes - Trailing zeroes - Dimensions | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes |  |
-| Zeroes - Trailing zeroes - Tolerances | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroTolerance,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroTolerance,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsDimension | This property cannot be set if Dimensions (swDetailingDimTrailingZero)
-is set to Smart (swDimSmartTrailingZeroes) |
-| Zeroes - Trailing zeroes - Properties | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroProperties,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroProperties,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimSameAsDimension | This property cannot be set if Dimensions (swDetailingDimTrailingZero)
-is set to Smart (swDimSmartTrailingZeroes) |
-| Show units of dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDimensionUnits,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDimensionUnits,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show dimension
-units |
-| Add parentheses by default | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowParenthesisByDefault,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowParenthesisByDefault,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show reference dimensions within parentheses in
-drawings |
-| Center between extension lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsCenterText,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsCenterText,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to center dimension text between extension lines |
-| Include prefix inside basic tolerance box | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsPrefixInsideBasicTolBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsPrefixInsideBasicTolBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to include prefix inside basic tolerance box |
-| Display dual basic dimension in one box | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDualBasicDimensionInOneBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDualBasicDimensionInOneBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to display dual basic dimensions in one box |
-| Show dimensions as broken in break views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowBroken,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowBroken,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show dimensions as broken in break views |
-| Highlight overridden dimensions in a different color | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDimOverriddenHighlight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDimOverriddenHighlight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Apply updated rules | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsApplyUpdatedRules,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsApplyUpdatedRules,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to apply updated rules |
-| Radial/Diameter leader snap angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimRadialSnapAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimRadialSnapAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value between 0 and 90 | Specifies radial leader snap angle. |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat, swUserPreferenceOption_e.swDetailingDimension, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions, swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value | Specifies whether to display dimensions in two kinds of units |
+| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value | Specifies whether to display units for dual dimensions |
+| Dual dimensions - Dimension Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition, swUserPreferenceOption_e.swDetailingDimension, swDetailingDualDimPosition_e.< Value >) | See swDetailingDualDimPosition_e for valid options | Positions the display of dimensions in two kinds of units |
+| Primary precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision, swUserPreferenceOption_e.swDetailingDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies primary precision for linear dimension |
+| Primary precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision, swUserPreferenceOption_e.swDetailingDimension, swDimensionPrecisionSettings_e .< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies primary precision for linear tolerance |
+| Primary precision - Link precisions with model | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinearDimPrecisionLinkWithModel, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLinearDimPrecisionLinkWithModel, swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value |  |
+| Dual precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision, swUserPreferenceOption_e.swDetailingDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies dual precision for alternate linear dimension |
+| Dual precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision, swUserPreferenceOption_e.swDetailingDimension, swDimensionPrecisionSettings_e .< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies dual precision for alternate linear tolerance |
+| Dual precision - Link precisions with model | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAltLinearDimPrecisionLinkWithModel, swUserPreferenceOption_e.swDetailingDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAltLinearDimPrecisionLinkWithModel, swUserPreferenceOption_e.swDetailingDimension, < OnFlag >) | Boolean value |  |
+| Fractional display - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimFractionStyle_e.< Value >) | See swDetailingDimFractionStyle_e for valid options |  |
+| Fractional display - Stack size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionScaleIndex, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimFractionScaleIndex, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimFractionScaleIndex_e.< Value >) | See swDetailingDimFractionScaleIndex_e for valid options |  |
+| Fractional display - Show double prime mark('') | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDoublePrimeMark, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDoublePrimeMark, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show the double prime mark ('') in a fractional display |
+| Fractional display - Include leading zero for values less than 1" | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowLeadingZeros, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowLeadingZeros, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show leading zero for values less than 1" in a fractional display |
+| Bent leaders - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies bent leader length |
+| Zeroes - Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
+| Zeroes - Trailing zeroes - Dimensions | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes |  |
+| Zeroes - Trailing zeroes - Tolerances | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroTolerance, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroTolerance, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsDimension | This property cannot be set if Dimensions (swDetailingDimTrailingZero) is set to Smart (swDimSmartTrailingZeroes) |
+| Zeroes - Trailing zeroes - Properties | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroProperties, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingTrailingZeroProperties, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimSameAsDimension | This property cannot be set if Dimensions (swDetailingDimTrailingZero) is set to Smart (swDimSmartTrailingZeroes) |
+| Show units of dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDimensionUnits, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDimensionUnits, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show dimension units |
+| Add parentheses by default | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowParenthesisByDefault, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowParenthesisByDefault, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show reference dimensions within parentheses in drawings |
+| Center between extension lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsCenterText, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsCenterText, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to center dimension text between extension lines |
+| Include prefix inside basic tolerance box | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsPrefixInsideBasicTolBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsPrefixInsideBasicTolBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to include prefix inside basic tolerance box |
+| Display dual basic dimension in one box | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDualBasicDimensionInOneBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDualBasicDimensionInOneBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to display dual basic dimensions in one box |
+| Show dimensions as broken in break views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowBroken, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsShowBroken, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to show dimensions as broken in break views |
+| Highlight overridden dimensions in a different color | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDimOverriddenHighlight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDimOverriddenHighlight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Apply updated rules | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsApplyUpdatedRules, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimsApplyUpdatedRules, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to apply updated rules |
+| Radial/Diameter leader snap angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimRadialSnapAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimRadialSnapAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value between 0 and 90 | Specifies radial leader snap angle. |
 | Tolerance... | See Comments | See Comments | See Dimension Tolerance |
-| Arrows - Width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowWidth,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowWidth,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies width of arrowheads |
-| Arrows - Height | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrowheads |
-| Arrows - Length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrows |
-| Arrows - Scale with dimension height | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithDimHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithDimHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to scale the arrow head to the height of the dimension
-text |
-| Arrows - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForDimensions,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForDimensions,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e.< Value >) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows |
-| Arrows - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionArrowPosition,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionArrowPosition,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimensionArrowsSide_e.< Value >) | See swDimensionArrowsSide_e for valid options | Specifies position of arrows |
+| Arrows - Width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowWidth, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowWidth, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies width of arrowheads |
+| Arrows - Height | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrowheads |
+| Arrows - Length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingArrowLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrows |
+| Arrows - Scale with dimension height | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithDimHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithDimHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to scale the arrow head to the height of the dimension text |
+| Arrows - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForDimensions, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForDimensions, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e.< Value >) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows |
+| Arrows - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionArrowPosition, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionArrowPosition, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimensionArrowsSide_e.< Value >) | See swDimensionArrowsSide_e for valid options | Specifies position of arrows |
 | Offset distances - Annotation view layout | See Comments | See Comments | Not currently available in SOLIDWORKS API |
-| Offset distances - Dimension to dimension offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimToDimOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimToDimOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between dimension lines for baseline dimensions and
-Align Parallel/Concentric; offset distance for dimensions displayed with
-tolerances automatically doubled |
-| Offset distances - Object to dimension offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingObjectToDimOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingObjectToDimOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between model and first dimension for baseline dimensions
-but not for Align Parallel/Concentric |
-| Break dimension extension/leader lines - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBreakGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBreakGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies dimension's gap in extension and leader
-lines when they are broken |
-| Break dimension extension/leader lines - Break only around dimension
-arrows | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimBreakAroundArrow,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimBreakAroundArrow,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | For drawings only; Specifies whether to have breaks occur only where
-lines cross arrow |
-| Extension lines - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies the distance between the model and dimension
-extension lines |
-| Extension lines - Beyond dimension line | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineExtension,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineExtension,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies length of the extension line beyond dimension
-line |
+| Offset distances - Dimension to dimension offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimToDimOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimToDimOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between dimension lines for baseline dimensions and Align Parallel/Concentric; offset distance for dimensions displayed with tolerances automatically doubled |
+| Offset distances - Object to dimension offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingObjectToDimOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingObjectToDimOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between model and first dimension for baseline dimensions but not for Align Parallel/Concentric |
+| Break dimension extension/leader lines - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBreakGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDimBreakGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies dimension's gap in extension and leader lines when they are broken |
+| Break dimension extension/leader lines - Break only around dimension arrows | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimBreakAroundArrow, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDimBreakAroundArrow, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | For drawings only; Specifies whether to have breaks occur only where lines cross arrow |
+| Extension lines - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies the distance between the model and dimension extension lines |
+| Extension lines - Beyond dimension line | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineExtension, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWitnessLineExtension, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | For drawings only; Specifies length of the extension line beyond dimension line |

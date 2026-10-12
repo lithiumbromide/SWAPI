@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetTessTriangles Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::IGetTessTriangles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriangles.html)
-
-.
+Obsolete. Superseded by [IComponent2::IGetTessTriangles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriangles.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.float IGetTessTriangles(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component::IGetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriangles.html)
-
-.
+See [Component::IGetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriangles.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

@@ -70,13 +70,7 @@ void Toolbars(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,32 +84,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Toolbars](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Toolbars.html)
-
-.
+See [ModelDoc2::Toolbars](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Toolbars.html).
 
 ## Remarks
 
-See
-
-[IModelDoc2::SetToolbarVisibility](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetToolbarVisibility.html)
-
-for control of all SOLIDWORKS toolbars.
+See [IModelDoc2::SetToolbarVisibility](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetToolbarVisibility.html) for control of all SOLIDWORKS toolbars.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetToolbarVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetToolbarVisibility.html)
-
 [ISldWorks::HideToolbar2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideToolbar2.html)
-
 [ISldWorks::GetToolbarState2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetToolbarState2.html)
-
 [ISldWorks::ShowToolbar2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowToolbar2.html)
 
 ## Availability

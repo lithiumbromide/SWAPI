@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Document Property (ISwDMConfigurationMgr)
 
-Gets the
-
-[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)
-
-object for this document.
+Gets the [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object for this document.
 
 ## Syntax
 
@@ -48,24 +44,15 @@ property SwDMDocument^ Document {
 
 ### Property Value
 
-Pointer to
-
-[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)
-
-object
+Pointer to [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMConfigurationMgr::Document](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~Document.html)
-
-.
+See [SwDMConfigurationMgr::Document](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~Document.html).
 
 ## See Also
 
 [ISwDMConfigurationMgr Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr.html)
-
 [ISwDMConfigurationMgr Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr_members.html)
 
 ## Availability

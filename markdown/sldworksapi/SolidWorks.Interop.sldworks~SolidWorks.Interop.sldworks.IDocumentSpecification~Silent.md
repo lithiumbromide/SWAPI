@@ -45,13 +45,7 @@ property System.bool Silent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to open the model document silently, false to not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::Silent](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Silent.html)
-
-.
+See [DocumentSpecification::Silent](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Silent.html).
 
 ## Examples
 
 [Get Whether Components Are Loaded (C#)](Get_Whether_Components_Are_Loaded_Example_CSharp.htm)
-
 [Get Whether Components Are Loaded (VB.NET)](Get_Whether_Components_Are_Loaded_Example_VBNET.htm)
-
 [Get Whether Components Are Loaded (VBA)](Get_Whether_Components_Are_Loaded_Example_VB.htm)
-
 [Open Assembly Document (C#)](Open_Assembly_Document_Example_CSharp.htm)
-
 [Open Assembly Document (VB.NET)](Open_Assembly_Document_Example_VBNET.htm)
-
 [Open Assembly Document (VBA)](Open_Assembly_Document_Example_VB.htm)
 
 ## Remarks
@@ -86,11 +71,8 @@ The software uses the last-displayed configuration if it discovers missing confi
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IDocumentSpecification::AutoRepair Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~AutoRepair.html)
-
 [IDocumentSpecification::CriticalDataRepair Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~CriticalDataRepair.html)
 
 ## Availability

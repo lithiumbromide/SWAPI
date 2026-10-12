@@ -10,14 +10,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 # ICostBlankSize Interface
 
 Allows access to a custom blank of a sheet metal part in a sheet metal Costing analysis.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,17 +40,11 @@ public interface class ICostBlankSize
 
 ## VBA Syntax
 
-See
-
-[CostBlankSize](swcostingapivb6.chm::/SldCostingAPI~CostBlankSize.html)
-
-.
+See [CostBlankSize](swcostingapivb6.chm::/SldCostingAPI~CostBlankSize.html).
 
 ## Remarks
 
-[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html)
-
-must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html) must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
 
 ## Accessors
 
@@ -66,5 +53,4 @@ must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSiz
 ## See Also
 
 [ICostBlankSize Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize_members.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

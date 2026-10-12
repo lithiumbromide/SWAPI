@@ -51,22 +51,14 @@ True if stereographic viewing is enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::StereoEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~StereoEnabled.html)
-
-.
+See [EModelViewControl::StereoEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~StereoEnabled.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::StereoFocalLength Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoFocalLength.html)
-
 [IEModelViewControl::StereoSeparation Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoSeparation.html)
-
 [IEModelViewControl::ShadowsEnabled Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShadowsEnabled.html)
 
 ## Availability

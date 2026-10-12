@@ -40,13 +40,7 @@ System.int GetConstraintsCount()
 System.int GetConstraintsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,20 @@ Number of constraints
 
 ## VBA Syntax
 
-See
-
-[SketchPath::GetConstraintsCount](ms-its:sldworksapivb6.chm::/Sldworks~SketchPath~GetConstraintsCount.html)
-
-.
+See [SketchPath::GetConstraintsCount](ms-its:sldworksapivb6.chm::/Sldworks~SketchPath~GetConstraintsCount.html).
 
 ## Examples
 
-See the
-
-[ISketchPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
-
-examples.
+See the [ISketchPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchPath::IGetConstraints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPath~IGetConstraints.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchPath::IGetConstraints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPath~IGetConstraints.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchPath Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
-
 [ISketchPath Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath_members.html)
-
 [ISketchPath::GetConstraints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath~GetConstraints.html)
 
 ## Availability

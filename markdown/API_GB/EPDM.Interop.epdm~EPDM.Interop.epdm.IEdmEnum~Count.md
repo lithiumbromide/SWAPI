@@ -39,16 +39,11 @@ Number of elements in the list
 
 ## Examples
 
-See the
-
-[IEdmEnum](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
-examples.
+See the [IEdmEnum](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html) examples.
 
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # CreateCompoundNote Method (IDrawingDoc)
 
-Obsolete for documents created in SOLIDWORKS 2016 and later. Superseded by
-
-[ISketchBlockDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
-and
-
-[ISketchBlockInstance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
-. Creates and returns a compound note.
+Obsolete for documents created in SOLIDWORKS 2016 and later. Superseded by [ISketchBlockDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html) and [ISketchBlockInstance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html). Creates and returns a compound note.
 
 ## Syntax
 
@@ -67,13 +59,7 @@ System.Object^ CreateCompoundNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -88,11 +74,7 @@ Newly created compound note
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateCompoundNote](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateCompoundNote.html)
-
-.
+See [DrawingDoc::CreateCompoundNote](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateCompoundNote.html).
 
 ## Examples
 
@@ -106,24 +88,17 @@ Compound notes are equivalent to a user-defined symbol. After creating a compoun
 
 This object appears to the end-user as though it were one item. If the user selects the compound note and drags it, all of the entities and text move together.
 
-Because a compound note can have multiple pieces of text, many of the compound note methods require that you specify the index value of the text. For example, the first piece of text added to the compound note using[INote::AddText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~AddText.html)has index number 1, the second text added has index number 2, and so on.
+Because a compound note can have multiple pieces of text, many of the compound note methods require that you specify the index value of the text. For example, the first piece of text added to the compound note using [INote::AddText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~AddText.html) has index number 1, the second text added has index number 2, and so on.
 
 SOLIDWORKS adds the note to the view of the current selection, so you must make a selection before you call this method.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ICreateCompoundNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateCompoundNote.html)
-
 [IDrawingDoc::InsertRevisionSymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertRevisionSymbol.html)
-
 [IDrawingDoc::ICreateText2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateText2.html)
-
 [IDrawingDoc::CreateText2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateText2.html)
-
 [IDrawingDoc::InsertNewNote2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertNewNote2.html)
-
 [IDrawingDoc::NewNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~NewNote.html)

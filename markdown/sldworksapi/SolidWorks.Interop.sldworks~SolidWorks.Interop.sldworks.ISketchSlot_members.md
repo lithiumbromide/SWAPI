@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchSlot Interface Members
 
-The following tables list the members exposed by[ISketchSlot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html).
+The following tables list the members exposed by [ISketchSlot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[ISketchSlot](SolidWorks.Interop
 ## See Also
 
 [ISketchSlot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

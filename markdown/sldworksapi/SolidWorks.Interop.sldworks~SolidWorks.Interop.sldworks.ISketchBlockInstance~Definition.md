@@ -45,27 +45,15 @@ property SketchBlockDefinition^ Definition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Block definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html)
-
-for this block instance
+[Block definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html) for this block instance
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::Definition](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Definition.html)
-
-.
+See [SketchBlockInstance::Definition](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Definition.html).
 
 ## Examples
 
@@ -74,7 +62,6 @@ See
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

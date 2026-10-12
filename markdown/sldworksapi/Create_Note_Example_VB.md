@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Note_Example_VB.htm"
 
 # Create Note Example (VBA)
 
-This example shows how to compose a two-line
-note and insert the note on the current drawing sheet.
+This example shows how to compose a two-line note and insert the note on the current drawing sheet.
 
 ```
 '---------------------------------------------

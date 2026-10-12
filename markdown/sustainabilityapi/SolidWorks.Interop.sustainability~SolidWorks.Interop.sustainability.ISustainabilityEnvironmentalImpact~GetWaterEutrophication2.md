@@ -46,19 +46,11 @@ Array of five doubles of kilograms of phosphate released into the water as a res
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEnvironmentalImpact::GetWaterEutrophication2](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetWaterEutrophication2.html)
-
-.
+See [SustainabilityEnvironmentalImpact::GetWaterEutrophication2](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetWaterEutrophication2.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
-.
+See the examples in [ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html).
 
 ## Remarks
 
@@ -71,9 +63,7 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
-
 [ISustainabilityEnvironmentalImpact::IGetWaterEutrophication2 Method ()](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetWaterEutrophication2.html)
 
 ## Availability

@@ -9,19 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # _IEModelViewControlEvents_OnPrevNextPlayStartEventHandler Delegate (eDrawings.Interop.EModelViewControl)
 
-Fired when the animation starts when associated with the
-
-Preview
-
-,
-
-Next
-
-, or
-
-Play
-
-button.
+Fired when the animation starts when associated with the **Preview**, **Next**, or **Play** button.
 
 ## Syntax
 
@@ -51,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnPrevNextPlayStartEventHandler()
 
 ## VBA Syntax
 
-See
-
-[OnPrevNextPlayStart Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnPrevNExtPlayStart_EV.html)
-
-.
+See [OnPrevNextPlayStart Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnPrevNExtPlayStart_EV.html).
 
 ## Availability
 

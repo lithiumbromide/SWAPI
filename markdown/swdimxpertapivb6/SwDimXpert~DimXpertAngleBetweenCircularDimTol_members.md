@@ -1,6 +1,5 @@
 ---
-title: "DimXpertAngleBetweenCircularDimTol Object
-Members"
+title: "DimXpertAngleBetweenCircularDimTol Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertAngleBetweenCircularDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertAngleBetweenCircularDimTol_members.html"
 ---
 
-# DimXpertAngleBetweenCircularDimTol Object
-Members
+# DimXpertAngleBetweenCircularDimTol Object Members
 
 ## Public Methods
 

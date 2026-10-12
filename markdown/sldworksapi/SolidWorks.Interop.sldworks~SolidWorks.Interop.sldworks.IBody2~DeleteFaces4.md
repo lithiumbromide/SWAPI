@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # DeleteFaces4 Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::DeleteFaces5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFaces5.html)
-
-.
+Obsolete. Superseded by [IBody2::DeleteFaces5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFaces5.html).
 
 ## Syntax
 
@@ -67,22 +63,14 @@ System.bool DeleteFaces4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceList`: Array containing the[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)for deletion
-- `Option`: Additional control (see**Remarks**)
+- `FaceList`: Array containing the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) for deletion
+- `Option`: Additional control (see **Remarks**)
 - `DoLocalCheck`: True checks the bodies during the operation and sets the return value to indicate whether or not the resultant body is valid, false does not
-- `BodyList`: Array of temporary
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `BodyList`: Array of temporary [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 - `LocalCheckResult`: True if body is valid, false if not; to obtain this value, you must pass True for the DoLocalCheck argument
 
 ### Return Value
@@ -91,11 +79,7 @@ True if set of faces are deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::DeleteFaces4](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteFaces4.html)
-
-.
+See [Body2::DeleteFaces4](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteFaces4.html).
 
 ## Remarks
 
@@ -111,28 +95,19 @@ For example, consider a cube with a through hole made up of four faces (a square
 
 Now consider the same cube with a through hole, except this through hole is a simple cylinder (one face). To delete the cylindrical face, specify option 1 to heal the loops independently. This is necessary because the cylindrical face actually has two loops (one at either end of the cylinder) that need to be healed separately.
 
-It is possible to generate invalid geometry when you use this method because checking is disabled. Call[IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html)to verify that the body is a valid solid after using this method.
+It is possible to generate invalid geometry when you use this method because checking is disabled. Call [IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html) to verify that the body is a valid solid after using this method.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::DeleteBlends2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DeleteBlends2.html)
-
 [IBody2::IDeleteBlends2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IDeleteBlends2.html)
-
 [IBody2::EnumFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~EnumFaces.html)
-
 [IBody2::GetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetFirstFace.html)
-
 [IBody2::IGetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetFirstFace.html)
-
 [IBody2::IGetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetFaces.html)
-
 [IBody2::GetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetFaces.html)
-
 [IBody2::GetFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetFaceCount.html)
 
 ## Availability

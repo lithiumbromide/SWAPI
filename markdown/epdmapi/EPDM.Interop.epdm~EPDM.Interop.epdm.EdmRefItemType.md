@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemType.html"
 
 # EdmRefItemType Enumeration
 
-Items to return from
-
-[IEdmRefItemContainer::GetItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer~GetItems.html)
-
-.
+Items to return from [IEdmRefItemContainer::GetItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer~GetItems.html).
 
 ## Syntax
 

@@ -39,32 +39,23 @@ void RecoverDeletedItems(
 
 ### Parameters
 
-- `poDeletedItems`: Array of
-
-[EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
+- `poDeletedItems`: Array of [EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
 
 ## Examples
 
-See the
-
-[IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html)
-
-examples.
+See the [IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html) examples.
 
 ## Remarks
 
-Use[IEdmFolder11::GetDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~GetDeletedItems.html)to populate poDeletedItems.
+Use [IEdmFolder11::GetDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~GetDeletedItems.html) to populate poDeletedItems.
 
-Note that you cannot use this method to recover items that have been completely destroyed using[IEdmFolder7::DestroyDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7~DestroyDeletedItems.html).
+Note that you cannot use this method to recover items that have been completely destroyed using [IEdmFolder7::DestroyDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7~DestroyDeletedItems.html).
 
 ## See Also
 
 [IEdmFolder11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html)
-
 [IEdmFolder11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11_members.html)
-
 [IEdmFolder5::DeleteFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~DeleteFile.html)
-
 [IEdmFolder5::DeleteFolder Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~DeleteFolder.html)
 
 ## Availability

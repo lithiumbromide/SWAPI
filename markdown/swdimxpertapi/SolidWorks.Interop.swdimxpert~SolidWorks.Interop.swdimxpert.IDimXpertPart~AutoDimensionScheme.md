@@ -57,42 +57,26 @@ True if Auto Dimension Scheme is created, false if not
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::AutoDimensionScheme](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~AutoDimensionScheme.html)
-
-.
+See [DimXpertPart::AutoDimensionScheme](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~AutoDimensionScheme.html).
 
 ## Examples
 
 [Auto Dimension Scheme (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call
-
-[IDimXpertPart::GetAutoDimSchemeOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPart~GetAutoDimSchemeOption.html)
-
-to populate the Option parameter.
+Before calling this method, call [IDimXpertPart::GetAutoDimSchemeOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPart~GetAutoDimSchemeOption.html) to populate the Option parameter.
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
-
 [IDimXpertPart::InsertBasicDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
-
 [IDimXpertPart::InsertDatum Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertDatum.html)
-
 [IDimXpertPart::InsertLocationDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.html)
-
 [IDimXpertPart::InsertPattern Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertPattern.html)
-
 [IDimXpertPart::InsertSizeDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertSizeDimension.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double D2SpacingIncrement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Spacing increment in Direction 2
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::D2SpacingIncrement](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~D2SpacingIncrement.html)
-
-.
+See [InstanceToVaryOptions::D2SpacingIncrement](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~D2SpacingIncrement.html).
 
 ## Examples
 
-See the
-
-[IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
-examples.
+See the [IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html) examples.
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
 
 ## Availability

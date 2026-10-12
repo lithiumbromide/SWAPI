@@ -45,38 +45,25 @@ property System.int HoleFit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fit information as defined by
-
-[swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html)
+Fit information as defined by [swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::HoleFit](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~HoleFit.html)
-
-.
+See [WizardHoleFeatureData2::HoleFit](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~HoleFit.html).
 
 ## Remarks
 
 When this property is changed, the diameter of the Hole Wizard feature is changed as per the database. This property applies to counterbore and countersink Hole Wizard features only.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
 
 ## Availability

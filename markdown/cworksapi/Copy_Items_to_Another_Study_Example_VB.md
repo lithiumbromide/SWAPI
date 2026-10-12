@@ -9,8 +9,7 @@ source: "cworksapi/Copy_Items_to_Another_Study_Example_VB.htm"
 
 # Copy Items to Another Study Example (VBA)
 
-This example shows how to copy contact sets and fixtures from one study to
-another.
+This example shows how to copy contact sets and fixtures from one study to another.
 
 ```vb
  '----------------------------------------------------------------------------

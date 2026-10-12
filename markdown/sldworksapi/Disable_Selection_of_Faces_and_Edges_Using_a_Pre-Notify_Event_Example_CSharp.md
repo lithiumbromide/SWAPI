@@ -9,8 +9,7 @@ source: "sldworksapi/Disable_Selection_of_Faces_and_Edges_Using_a_Pre-Notify_Eve
 
 # Disable Selection of Faces and Edges Using a Pre-Notify Event Example (C#)
 
-This example shows how to disable the interactive selection of these entities
-using a pre-notify event:
+This example shows how to disable the interactive selection of these entities using a pre-notify event:
 
 - faces in part and assembly documents
 - edges in drawing documents

@@ -20,7 +20,7 @@ This example shows how to create a machining Costing analysis.
  //    C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\costing\machined_part.sldprt
  // 2. Verify that the Costing templates exist by clicking Tools > Options >
  //    System Options > File Locations and select Costing templates in
- //    Show folders for in SOLIDWORKS. Click Cancel to close the dialog.
+ //    Show folders for in SOLIDWORKS Design. Click Cancel to close the dialog.
  // 3. Add a reference to SolidWorks.Interop.sldcostingapi.dll.
  // 4. Open the Immediate window.
  // 5. Run the macro.

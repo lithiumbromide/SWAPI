@@ -39,26 +39,15 @@ void Activate()
 void Activate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelWindow::Activate](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~Activate.html)
-
-.
+See [ModelWindow::Activate](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~Activate.html).
 
 ## See Also
 
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)
-
 [IModelWindow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html)
 
 ## Availability

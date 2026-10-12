@@ -9,8 +9,7 @@ source: "sldworksapi/Publish_Text_and_Custom_Properties_from_Theme_to_MBD_3D_PDF
 
 # Publish Text and Custom Properties from Theme to MBD 3D PDF Example (VBA)
 
-This example shows how to publish text and custom properties from a theme to
-SOLIDWORKS MBD 3D PDF.
+This example shows how to publish text and custom properties from a theme to SOLIDWORKS MBD 3D PDF.
 
 ```
 '--------------------------------------------------------------

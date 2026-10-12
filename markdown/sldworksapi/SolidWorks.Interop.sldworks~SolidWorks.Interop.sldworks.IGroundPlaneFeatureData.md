@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGr
 
 Allows access to a ground plane feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IGroundPlaneFeatureData
 
 ## VBA Syntax
 
-See
-
-[GroundPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData.html)
-
-.
+See [GroundPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData.html).
 
 ## Examples
 
@@ -55,7 +51,7 @@ See
 
 '1. Ensure that the specified model exists.
 '2. Run the macro.
-'3. Creates**Ground Plane1**in the Ground Planes folder of
+'3. Creates **Ground Plane1** in the Ground Planes folder of
 ' the FeatureManager design tree and modifies it.
 '===========================================================================
 
@@ -86,17 +82,17 @@ boolstatus = Part.Extension.SelectByRay(-0.124913770805165, 0.118854842937424, 7
 
 Set ent = Part.SelectionManager.GetSelectedObject6(1, -1)
 Set swGPData = featmgr.**CreateDefinition**(swFmGroundPlane)
-swGPData.**PlanarEntity**= ent
+swGPData.**PlanarEntity** = ent
 
 Set feat = featmgr.**CreateFeature**(swGPData)
 Part.ClearSelection2 True
 Set featdata = feat.**GetDefinition**()
 boolstatus = Part.Extension.SelectByRay(0.119119826446138, 5.16103810082313E-03, 0.183494239718641, -0.620586476260429, -0.617739368127351, -0.482980846978724, 3.09726603088958E-03, 2, False, 0, 0)
 Set ent = Part.SelectionManager.GetSelectedObject6(1, -1)
-featdata.**AccessSelections**Part, Nothing
+featdata.**AccessSelections** Part, Nothing
 
-featdata.**PlanarEntity**= ent
-feat.**ModifyDefinition**featdata, Part, Nothing
+featdata.**PlanarEntity** = ent
+feat.**ModifyDefinition** featdata, Part, Nothing
 
 End Sub
 
@@ -108,11 +104,11 @@ End Sub
 
 Use this interface to insert a ground plane at each level of a plant assembly. Ground planes are used as reference geometry when inserting published assets at each level.
 
-Call[IAssemblyDoc::ActivateGroundPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ActivateGroundPlane.html)to activate the ground plane on the level where you want to insert a published asset; the asset's ground face snaps to the assembly's activated ground plane. Components with magnetic mates snap only to components that are also on the active ground plane.
+Call [IAssemblyDoc::ActivateGroundPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ActivateGroundPlane.html) to activate the ground plane on the level where you want to insert a published asset; the asset's ground face snaps to the assembly's activated ground plane. Components with magnetic mates snap only to components that are also on the active ground plane.
 
 Only one ground plane can be active at a given time in each assembly configuration.
 
-See**Large Assemblies > Facility Layout**in the SOLIDWORKS user-interface help.
+See **Large Assemblies > Facility Layout** in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -127,5 +123,4 @@ See**Large Assemblies > Facility Layout**in the SOLIDWORKS user-interface help.
 ## See Also
 
 [IGroundPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

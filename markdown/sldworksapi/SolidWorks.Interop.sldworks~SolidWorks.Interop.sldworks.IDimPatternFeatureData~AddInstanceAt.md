@@ -51,22 +51,12 @@ System.bool AddInstanceAt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `IsSuppressed`: True to suppress this pattern instance, false to not
-- `Index`: 0-based index indicating where to add this pattern instance in the pattern table and pattern; -1 indicates to add this pattern instance to the end of the pattern table and pattern (see
-
-Remarks
-
-)
+- `Index`: 0-based index indicating where to add this pattern instance in the pattern table and pattern; -1 indicates to add this pattern instance to the end of the pattern table and pattern (see **Remarks**)
 
 ### Return Value
 
@@ -74,32 +64,24 @@ True if the pattern instance is added, false if not
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::AddInstanceAt](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~AddInstanceAt.html)
-
-.
+See [DimPatternFeatureData::AddInstanceAt](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~AddInstanceAt.html).
 
 ## Examples
 
 [Delete and Insert Instances in Variable Pattern Feature (C#)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Delete and Insert Instances in Variable Pattern Feature (VB.NET)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Delete and Insert Instances in Variable Pattern Feature (VBA)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[IDimPatternFeatureData::GetInstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceCount.html)to get the number of pattern instances.
+Use [IDimPatternFeatureData::GetInstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceCount.html) to get the number of pattern instances.
 
-By default, this pattern instance inherits the default values of the parent sketch or feature of the variable pattern feature. Use[IDimPatternFeatureData::SetInstanceDimensionValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceDimensionValue.html)to modify this pattern instance's values.
+By default, this pattern instance inherits the default values of the parent sketch or feature of the variable pattern feature. Use [IDimPatternFeatureData::SetInstanceDimensionValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceDimensionValue.html) to modify this pattern instance's values.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::DeleteInstanceAt Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~DeleteInstanceAt.html)
 
 ## Availability

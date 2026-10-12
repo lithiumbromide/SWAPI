@@ -45,13 +45,7 @@ property System.bool AutoSpaceBodiesOnDrag {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to automatically space components equally along an axis as you drag them, f
 
 ## VBA Syntax
 
-See
-
-[PartExplodeStep::AutoSpaceBodiesOnDrag](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~AutoSpaceBodiesOnDrag.html)
-
-.
+See [PartExplodeStep::AutoSpaceBodiesOnDrag](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~AutoSpaceBodiesOnDrag.html).
 
 ## Examples
 
-See the
-
-[IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
-example.
+See the [IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html) example.
 
 ## See Also
 
 [IPartExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
 [IPartExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep_members.html)
 
 ## Availability

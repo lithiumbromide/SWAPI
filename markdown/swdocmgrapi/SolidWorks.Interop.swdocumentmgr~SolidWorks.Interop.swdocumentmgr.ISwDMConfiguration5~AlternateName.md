@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # AlternateName Property (ISwDMConfiguration5)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration7::AlternateName2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~AlternateName2.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration7::AlternateName2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~AlternateName2.html).
 
 ## Syntax
 
@@ -48,14 +44,9 @@ property System.String^ AlternateName {
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration5::AlternateName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~AlternateName.html)
-
-.
+See [SwDMConfiguration5::AlternateName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~AlternateName.html).
 
 ## See Also
 
 [ISwDMConfiguration5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5.html)
-
 [ISwDMConfiguration5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5_members.html)

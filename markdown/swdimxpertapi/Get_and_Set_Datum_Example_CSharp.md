@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Datum_Example_CSharp.htm"
 
 # Get and Set Datum Example (C#)
 
-This example shows how to get
-and set DimXpert datum annotations.
+This example shows how to get and set DimXpert datum annotations.
 
 ```vb
  //---------------------------------------------------------------------------

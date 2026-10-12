@@ -40,13 +40,7 @@ System.bool IsBossFeature()
 System.bool IsBossFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if this extrusion is a boss feature, false if not
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~IsBossFeature.html)
-
-.
+See [ExtrudeFeatureData2::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~IsBossFeature.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IFeature::IsBase2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsBase2.html)
 
 ## Availability

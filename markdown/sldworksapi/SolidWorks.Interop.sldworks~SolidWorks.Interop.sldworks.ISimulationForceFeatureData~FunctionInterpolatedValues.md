@@ -45,13 +45,7 @@ property System.Object^ FunctionInterpolatedValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Array of interpolated values (time and force)
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::FunctionInterpolatedValues](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~FunctionInterpolatedValues.html)
-
-.
+See [SimulationForceFeatureData::FunctionInterpolatedValues](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~FunctionInterpolatedValues.html).
 
 ## Remarks
 
@@ -72,11 +62,8 @@ SOLIDWORKS interpolates a spline betweeen the data points.
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::GetInterpolatedValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~GetInterpolatedValue.html)
-
 [ISimulationForceFeatureData::InterpolationScheme Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~InterpolationScheme.html)
 
 ## Availability

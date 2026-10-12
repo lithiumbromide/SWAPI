@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Sheet_is_Activated_Example_VB.htm"
 
 # Fire Notification When Activating a Sheet Example (VBA)
 
-This example shows how to fire a notification when a sheet is activated in a
-drawing document.
+This example shows how to fire a notification when a sheet is activated in a drawing document.
 
 ```vb
  '---------------------------------------------------------------
@@ -64,4 +63,4 @@ Private Function swDraw_ActivateSheetPostNotify(ByVal SheetName As String) As Lo
  End Function
 ```
 
-Back to top
+[Back to top](#Top)

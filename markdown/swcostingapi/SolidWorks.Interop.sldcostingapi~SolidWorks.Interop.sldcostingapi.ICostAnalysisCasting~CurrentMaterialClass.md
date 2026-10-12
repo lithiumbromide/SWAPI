@@ -51,19 +51,11 @@ Name of the material class
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CurrentMaterialClass.html)
-
-.
+See [CostAnalysisCasting::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CurrentMaterialClass.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings.
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
-
 [ICostAnalysisCasting::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialClasses.html)
-
 [ICostAnalysisCasting::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialClassesCount.html)
 
 ## Availability

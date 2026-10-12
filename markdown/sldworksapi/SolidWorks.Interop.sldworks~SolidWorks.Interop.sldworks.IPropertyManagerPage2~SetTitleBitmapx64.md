@@ -51,22 +51,12 @@ System.bool SetTitleBitmapx64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ModuleHandle`: Module handle of the application instance that contains the bitmap resource (see
-
-Remarks
-
-)
-- `Identifier`: Resource ID of the bitmap (see Remarks )
+- `ModuleHandle`: Module handle of the application instance that contains the bitmap resource (see **Remarks**)
+- `Identifier`: Resource ID of the bitmap (see **Remarks**)
 
 ### Return Value
 
@@ -74,17 +64,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::SetTitleBitmapx64](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetTitleBitmapx64.html)
-
-.
+See [PropertyManagerPage2::SetTitleBitmapx64](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetTitleBitmapx64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software. Its intended use is for SOLIDWORKS PropertyManager .NET add-ins. For VBA PropertyManager pages, use[IPropertyManagerPage2::SetTitleBitmap2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~SetTitleBitmap2.html).
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software. Its intended use is for SOLIDWORKS PropertyManager .NET add-ins. For VBA PropertyManager pages, use [IPropertyManagerPage2::SetTitleBitmap2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~SetTitleBitmap2.html).
 
-You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See[IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html)and[IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html)for details.
+You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See [IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html) and [IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html) for details.
 
 The bitmap:
 
@@ -94,8 +80,6 @@ The bitmap:
 
 Specify ModuleHandle using the add-in ID.
 
-(Table)=========================================================
-
 | If this method is... | Then the title bar contains... |
 | --- | --- |
 | Used | Specified bitmap starting at the left edge of the PropertyManager title bar, followed by the title bar text (see ISldWorks::CreatePropertyManagerPage or ISldWorks::ICreatePropertyManagerPage ). |
@@ -104,7 +88,6 @@ Specify ModuleHandle using the add-in ID.
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
 
 ## Availability

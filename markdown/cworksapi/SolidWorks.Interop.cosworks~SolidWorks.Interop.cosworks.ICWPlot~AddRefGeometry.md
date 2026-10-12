@@ -53,24 +53,16 @@ System.int AddRefGeometry(
 
 ### Parameters
 
-- `NDispType`: Type of reference geometry as defined in
-
-[swsRefDispType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRefDispType_e.html)
+- `NDispType`: Type of reference geometry as defined in [swsRefDispType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRefDispType_e.html)
 - `DispPlaneAxisCoordSys`: Plane, axis, or coordinate system
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::AddRefGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~AddRefGeometry.html)
-
-.
+See [CWPlot::AddRefGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~AddRefGeometry.html).
 
 ## Remarks
 
@@ -85,7 +77,6 @@ This method is valid only for the following directional component plots:
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

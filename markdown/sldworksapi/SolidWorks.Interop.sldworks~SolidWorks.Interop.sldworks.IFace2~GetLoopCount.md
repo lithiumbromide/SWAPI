@@ -40,13 +40,7 @@ System.int GetLoopCount()
 System.int GetLoopCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,44 +48,27 @@ Number of loops in this face
 
 ## VBA Syntax
 
-See
-
-[Face2::GetLoopCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetLoopCount.html)
-
-.
+See [Face2::GetLoopCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetLoopCount.html).
 
 ## Examples
 
 [Find Outside Edges of Face (VBA)](Find_Outside_Edges_of_Face_Example_VB.htm)
-
 [Get Loops (VBA)](Get_Loops_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IFace2::IGetLoops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetLoops.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IFace2::IGetLoops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetLoops.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [IFace2::GetFirstLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFirstLoop.html)
-
 [IFace2::IGetFirstLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetFirstLoop.html)
-
 [ILoop2::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~GetNext.html)
-
 [ILoop2::IGetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~IGetNext.html)
-
 [IFace2::GetLoops Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetLoops.html)
-
 [IFace2::IGetLoops Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetLoops.html)
 
 ## Availability

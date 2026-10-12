@@ -72,11 +72,7 @@ void SetForceOrTranslationValues2(
 
 ### Parameters
 
-- `BInclude`: 1 to include force or translation in the remote load, 0 to not (see
-
-Remarks
-
-)
+- `BInclude`: 1 to include force or translation in the remote load, 0 to not (see **Remarks**)
 - `BXValue`: 1 to set the value in the x direction, 0 to not
 - `DXValue`: Force or translation in the x direction; valid only if BXValue = 1
 - `BYValue`: 1 to set the value in the y direction, 0 to not
@@ -90,7 +86,7 @@ Remarks
 
 ## Remarks
 
-This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html)returns 0 or false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling2 returns -1 or true (i.e., for linear static, topology, or nonlinear static studies), use[ICWRemoteLoad::SetForceOrTranslationValuesEx2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValuesEx2.html)instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html) returns 0 or false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling2 returns -1 or true (i.e., for linear static, topology, or nonlinear static studies), use [ICWRemoteLoad::SetForceOrTranslationValuesEx2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValuesEx2.html) instead of this method.
 
 | This method sets components of ... | If ICWRemoteLoad::LoadType is ... |
 | --- | --- |
@@ -100,7 +96,6 @@ This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling2](SolidWork
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

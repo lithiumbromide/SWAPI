@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # DeleteNamedView Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::DeleteNamedView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeleteNamedView.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::DeleteNamedView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeleteNamedView.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool DeleteNamedView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::DeleteNamedView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~DeleteNamedView.html)
-
-.
+See [ModelDoc::DeleteNamedView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~DeleteNamedView.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

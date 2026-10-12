@@ -35,5 +35,4 @@ System.String^ mbsUserName
 ## See Also
 
 [EdmUserData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)
-
 [EdmUserData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members.html)

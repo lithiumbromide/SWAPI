@@ -46,36 +46,22 @@ public delegate System.int DPartDocEvents_FeatureSketchEditPreNotifyEventHandler
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EditFeature`: [Feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-that contains the sketch
-- `featureSketch`: Edited
-
-[sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
+- `EditFeature`: [Feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) that contains the sketch
+- `featureSketch`: Edited [sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureSketchEditPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureSketchEditPreNotify_EV.html)
-
-.
+See [FeatureSketchEditPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureSketchEditPreNotify_EV.html).
 
 ## Remarks
 
-The interface pointer is passed as an IDispatch. You then have to do a QueryInterface for the ISketch interface.kadov_tag{{<spaces>}}If the sketch is not part of a feature, then EditFeature is NULL.
+The interface pointer is passed as an IDispatch. You then have to do a QueryInterface for the ISketch interface. If the sketch is not part of a feature, then EditFeature is NULL.
 
-If developing a C++ application, use[swPartFeatureSketchEditPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartFeatureSketchEditPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

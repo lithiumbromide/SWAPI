@@ -47,34 +47,22 @@ property System.int Unit {
 
 ### Property Value
 
-Units as defined in[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+Units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~Unit.html)
-
-.
+See [CWElasticConnector::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
-examples.
+See the [ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html) examples.
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
-
 [ICWElasticConnector::NormalStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~NormalStiffnessValue.html)
-
 [ICWElasticConnector::ShearStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~ShearStiffnessValue.html)
-
 [ICWElasticConnector::StiffnessType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~StiffnessType.html)
 
 ## Availability

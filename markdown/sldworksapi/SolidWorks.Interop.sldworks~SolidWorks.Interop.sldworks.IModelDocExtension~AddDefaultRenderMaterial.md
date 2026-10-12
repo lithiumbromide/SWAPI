@@ -51,37 +51,24 @@ System.bool AddDefaultRenderMaterial(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PRenderMaterial`: [Appearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
-
-to add to the model
+- `PRenderMaterial`: [Appearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html) to add to the model
 - `PwMaterialId`: Appearance ID
 
 ### Return Value
 
-True if the appearance is added to the model document, false if notParamDesc
+True if the appearance is added to the model document, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddDefaultRenderMaterial](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddDefaultRenderMaterial.html)
-
-.
+See [ModelDocExtension::AddDefaultRenderMaterial](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddDefaultRenderMaterial.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

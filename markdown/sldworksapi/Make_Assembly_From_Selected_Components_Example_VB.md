@@ -9,8 +9,7 @@ source: "sldworksapi/Make_Assembly_From_Selected_Components_Example_VB.htm"
 
 # Make Assembly From Selected Components Example (VBA)
 
-This example shows how to create a new assembly using the selected components
-of the active assembly.
+This example shows how to create a new assembly using the selected components of the active assembly.
 
 ```vb
  '---------------------------------------------------------------------
@@ -45,20 +44,20 @@ Dim boolstat As Boolean
 
 Sub main()
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swApp = Application.SldWorks
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = swApp.ActiveDoc
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}boolstat = True
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim strCompModelname As String
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}strCompModelname = "MyTestValveAssembly.sldasm"
+    boolstat = True
+    Dim strCompModelname As String
+    strCompModelname = "MyTestValveAssembly.sldasm"
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Save the new assembly in the same folder as the original assembly
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}tmpPath = Left(swModel.GetPathName, InStrRev(swModel.GetPathName, "\"))
+    ' Save the new assembly in the same folder as the original assembly
+    tmpPath = Left(swModel.GetPathName, InStrRev(swModel.GetPathName, "\"))
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swAssy = swModel
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Create a new assembly using the selected components
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swAssy.MakeAssemblyFromSelectedComponents (tmpPath + strCompModelname)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
+    Set swAssy = swModel
+
+    ' Create a new assembly using the selected components
+    swAssy.MakeAssemblyFromSelectedComponents (tmpPath + strCompModelname)
+
 End Sub
 ```

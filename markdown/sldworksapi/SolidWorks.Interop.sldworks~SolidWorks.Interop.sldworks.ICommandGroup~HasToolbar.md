@@ -45,36 +45,20 @@ property System.bool HasToolbar {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if this CommandGroup has a toolbar, false if not (see
-
-Remarks
-
-)
+True if this CommandGroup has a toolbar, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::HasToolbar](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~HasToolbar.html)
-
-.
+See [CommandGroup::HasToolbar](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~HasToolbar.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
-
 [Create Submenus in the CommandManager (C#)](Create_Submenus_in_the_CommandManager_Example_CSharp.htm)
 
 ## Remarks
@@ -84,13 +68,9 @@ By default, this CommandGroup has a toolbar.
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::HasMenu Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~HasMenu.html)
-
 [ICommandGroup::SetToolbarVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SetToolbarVisibility.html)
-
 [ICommandGroup::DockingState Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~DockingState.html)
 
 ## Availability

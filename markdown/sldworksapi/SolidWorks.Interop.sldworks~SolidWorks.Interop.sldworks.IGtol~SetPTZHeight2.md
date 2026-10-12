@@ -59,13 +59,7 @@ System.bool SetPTZHeight2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,18 +74,12 @@ True if this method executed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetPTZHeight2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPTZHeight2.html)
-
-.
+See [Gtol::SetPTZHeight2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPTZHeight2.html).
 
 ## Examples
 
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
 
 ## Remarks
@@ -103,9 +91,7 @@ The projected tolerance zone (PTZ) displays in the first tolerance window of the
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetPTZHeight2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight2.html)
 
 ## Availability

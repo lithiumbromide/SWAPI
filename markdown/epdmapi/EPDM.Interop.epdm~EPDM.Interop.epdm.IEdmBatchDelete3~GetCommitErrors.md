@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitE
 
 # GetCommitErrors Method (IEdmBatchDelete3)
 
-Shows the errors that occurred during
-
-[IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html)
-
-.
+Shows the errors that occurred during [IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html).
 
 ## Syntax
 
@@ -43,19 +39,11 @@ void GetCommitErrors(
 
 ### Parameters
 
-- `ppoDelErrors`: Array of
-
-[EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
-structures; one for each error that occurred during IEdmBatchDelete::CommitDelete
+- `ppoDelErrors`: Array of [EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html) structures; one for each error that occurred during IEdmBatchDelete::CommitDelete
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
@@ -69,7 +57,6 @@ Call this method after calling IEdmBatchDelete::CommitDelete.
 ## See Also
 
 [IEdmBatchDelete3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3.html)
-
 [IEdmBatchDelete3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3_members.html)
 
 ## Availability

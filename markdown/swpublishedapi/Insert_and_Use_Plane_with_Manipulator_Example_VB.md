@@ -11,9 +11,9 @@ source: "swpublishedapi/Insert_and_Use_Plane_with_Manipulator_Example_VB.htm"
 
 This example shows how to insert a plane that has a manipulator.
 
-*[Module](#Module)
+* [Module](#Module)
 
-*[Class module](#Class)
+* [Class module](#Class)
 
 ```vb
 ' Module

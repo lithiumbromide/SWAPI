@@ -1,6 +1,5 @@
 ---
-title: "IFillPatternFeatureData Object
-Members"
+title: "IFillPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IFillPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IFillPatternFeatureData_members.html"
 ---
 
-# IFillPatternFeatureData Object
-Members
+# IFillPatternFeatureData Object Members
 
 ## Public Methods
 

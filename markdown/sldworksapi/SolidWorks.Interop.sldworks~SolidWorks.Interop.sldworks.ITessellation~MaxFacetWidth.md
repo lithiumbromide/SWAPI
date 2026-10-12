@@ -45,13 +45,7 @@ property System.double MaxFacetWidth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Maximum facet width
 
 ## VBA Syntax
 
-See
-
-[Tessellation::MaxFacetWidth](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MaxFacetWidth.html)
-
-.
+See [Tessellation::MaxFacetWidth](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MaxFacetWidth.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellate::MinFacetWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~MinFacetWidth.html)
 
 ## Availability

@@ -48,16 +48,11 @@ Limits and fits code
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeDistanceBetweenDimTol::LimitsAndFitsCodeIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~LimitsAndFitsCodeIntraFeature.html)
-
-.
+See [DimXpertCompositeDistanceBetweenDimTol::LimitsAndFitsCodeIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~LimitsAndFitsCodeIntraFeature.html).
 
 ## See Also
 
 [IDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html)
-
 [IDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

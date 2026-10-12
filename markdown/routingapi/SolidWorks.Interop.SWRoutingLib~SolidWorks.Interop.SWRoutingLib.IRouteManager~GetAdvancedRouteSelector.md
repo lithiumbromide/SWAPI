@@ -46,24 +46,17 @@ AdvancedRouteSelector^ GetAdvancedRouteSelector();
 
 ## VBA Syntax
 
-See
-
-[RouteManager::GetAdvancedRouteSelector](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAdvancedRouteSelector.html)
-
-.
+See [RouteManager::GetAdvancedRouteSelector](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAdvancedRouteSelector.html).
 
 ## Examples
 
 [Select Connector Using Highlight Search Tool (VBA)](Select_Connector_Using_Highlight_Search_Tool_Example_VB.htm)
-
 [Select Connector Using Highlight Search Tool (VB.NET)](Select_Connector_Using_Highlight_Search_Tool_Example_VBNET.htm)
-
 [Select Connector Using Highlight Search Tool (C#)](Select_Connector_Using_Highlight_Search_Tool_Example_CSharp.htm)
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

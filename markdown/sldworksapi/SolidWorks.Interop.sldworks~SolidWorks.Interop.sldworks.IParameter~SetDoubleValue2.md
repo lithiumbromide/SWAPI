@@ -55,18 +55,12 @@ System.bool SetDoubleValue2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Value`: Value to store for the named configuration option
-- `ConfigurationOption`: Configuration option as defined in[swSetValueInConfiguration_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSetValueInConfiguration_e.html)
+- `ConfigurationOption`: Configuration option as defined in [swSetValueInConfiguration_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSetValueInConfiguration_e.html)
 - `ConfigurationName`: Name of the configuration
 
 ### Return Value
@@ -75,20 +69,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Parameter::SetDoubleValue2](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetDoubleValue2.html)
-
-.
+See [Parameter::SetDoubleValue2](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetDoubleValue2.html).
 
 ## Examples
 
 [Create Attribute (VBA)](Create_Attribute_Example_VB.htm)
-
 [Delete Attribute (C#)](Delete_Attribute_Example_CSharp.htm)
-
 [Delete Attribute (VB.NET)](Delete_Attribute_Example_VBNET.htm)
-
 [Delete Attribute (VBA)](Delete_Attribute_Example_VB.htm)
 
 ## Remarks
@@ -103,9 +90,7 @@ Set ConfigurationOption to swSetValue_InAllConfigurations = 2 for drawing docume
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [IParameter Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html)
-
 [IParameter::GetDoubleValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter~GetDoubleValue.html)
 
 ## Availability

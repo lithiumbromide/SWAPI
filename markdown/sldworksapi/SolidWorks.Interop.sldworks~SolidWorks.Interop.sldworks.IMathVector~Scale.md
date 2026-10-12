@@ -47,13 +47,7 @@ System.Object^ Scale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,16 @@ See
 
 ### Return Value
 
-Newly created
-
-[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-or NULL if the operation fails
+Newly created [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathVector::Scale](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Scale.html)
-
-.
+See [MathVector::Scale](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Scale.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::IScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~IScale.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGu
 
 # ProfileDistance1 Property (IGussetFeatureData)
 
-Gets or sets the distance for the
-
-Profile Distance 1
-
-parameter for this gusset feature.
+Gets or sets the distance for the **Profile Distance 1** parameter for this gusset feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double ProfileDistance1 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,22 +53,15 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ProfileDistance1](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileDistance1.html)
-
-.
+See [GussetFeatureData::ProfileDistance1](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileDistance1.html).
 
 ## Remarks
 
-[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html)
-
-must be set to swGussetProfilePolygon.
+[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html) must be set to swGussetProfilePolygon.
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

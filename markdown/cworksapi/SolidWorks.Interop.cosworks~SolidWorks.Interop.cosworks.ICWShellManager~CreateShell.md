@@ -53,22 +53,16 @@ System.int CreateShell(
 
 ### Return Value
 
-Error as defined in[swsShellManagerError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellManagerError_e.html)
+Error as defined in [swsShellManagerError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellManagerError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWShellManager::CreateShell](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~CreateShell.html)
-
-.
+See [CWShellManager::CreateShell](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~CreateShell.html).
 
 ## See Also
 
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWShellManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager_members.html)
-
 [ICWShellManager::DeleteShell Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager~DeleteShell.html)
 
 ## Availability

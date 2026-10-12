@@ -9,13 +9,11 @@ source: "obsoleteapi/Component/Component__IGetTessTriangleCount.htm"
 
 # Component::IGetTessTriangleCount
 
-This
-method is obsolete and has been superseded by[Component2::IGetTessTriangleCount](sldworksAPI.chm::/Component2/Component2__IGetTessTriangleCount.htm).
+This method is obsolete and has been superseded by [Component2::IGetTessTriangleCount](sldworksAPI.chm::/Component2/Component2__IGetTessTriangleCount.htm).
 
 Description
 
-This method returns the number of triangles
-that make up the shaded picture tessellation for this component.
+This method returns the number of triangles that make up the shaded picture tessellation for this component.
 
 Syntax (OLE Automation)
 
@@ -23,10 +21,7 @@ Not available.
 
 Syntax (COM)
 
-status = Component->IGetTessTriangleCount ( retval
-)
-
-(Table)=========================================================
+status = Component->IGetTessTriangleCount ( retval )
 
 | Output: | (long) retval | Triangle count |
 | --- | --- | --- |
@@ -34,30 +29,4 @@ status = Component->IGetTessTriangleCount ( retval
 
 Remarks
 
-Tessellation information is available only when
-the component is loaded as lightweight.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Component_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\sw2003\Component\Component__IGetTessTriangleCount.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+Tessellation information is available only when the component is loaded as lightweight.

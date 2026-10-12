@@ -45,44 +45,29 @@ property System.Object^ SelectedPoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Reference point (see
-
-Remarks
-
-)
+Reference point (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::SelectedPoint](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~SelectedPoint.html)
-
-.
+See [LocalCurvePatternFeatureData::SelectedPoint](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~SelectedPoint.html).
 
 ## Remarks
 
 You can pre-select the reference point using Mark = 32 before creating the feature definition.
 
-This property is valid only if[ILocalCurvePatternFeatureData::D1ReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~D1ReferencePoint.html)is set to[swLocalCurvePatternReferencePoint_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternReferencePoint_e.html).swLocalCurvePatternSelectedPoint.
+This property is valid only if [ILocalCurvePatternFeatureData::D1ReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~D1ReferencePoint.html) is set to [swLocalCurvePatternReferencePoint_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternReferencePoint_e.html).swLocalCurvePatternSelectedPoint.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
-For more information, see the**Curve Driven Component Pattern**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Curve Driven Component Pattern** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
 
 ## Availability

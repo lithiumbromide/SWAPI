@@ -72,11 +72,7 @@ void GetMomentOrRotationValues2(
 
 ### Parameters
 
-- `BInclude`: -1 or true to get moment or rotation values, 0 or false to not (see
-
-Remarks
-
-)
+- `BInclude`: -1 or true to get moment or rotation values, 0 or false to not (see **Remarks**)
 - `BXValue`: -1 or true to get the value in the x direction, 0 or false to not
 - `DXValue`: Moment or rotation in the x direction; valid only if BXValue = -1
 - `BYValue`: -1 or true to get the value in the y direction, 0 or false to not
@@ -86,11 +82,7 @@ Remarks
 
 ## Examples
 
-See the
-
-[ICWRemoteLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
-examples.
+See the [ICWRemoteLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html) examples.
 
 ## Remarks
 
@@ -109,7 +101,6 @@ If out parameters are cast as:
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

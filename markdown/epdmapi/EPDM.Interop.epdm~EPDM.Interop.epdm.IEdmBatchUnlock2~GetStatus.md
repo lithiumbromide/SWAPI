@@ -39,11 +39,7 @@ System.Object^ GetStatus(
 
 ### Parameters
 
-- `lEdmUnlockStatusFlag`: Combination of
-
-[EdmUnlockStatusFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockStatusFlag.html)
-
-bits
+- `lEdmUnlockStatusFlag`: Combination of [EdmUnlockStatusFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockStatusFlag.html) bits
 
 ### Return Value
 
@@ -51,11 +47,7 @@ Array of statuses
 
 ## Examples
 
-See the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-examples.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) examples.
 
 ## Remarks
 
@@ -67,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmBatchUnlock2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2.html)
-
 [IEdmBatchUnlock2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2_members.html)
 
 ## Availability

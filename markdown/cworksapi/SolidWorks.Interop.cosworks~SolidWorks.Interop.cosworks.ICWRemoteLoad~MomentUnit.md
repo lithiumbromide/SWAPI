@@ -43,36 +43,20 @@ property System.int MomentUnit {
 
 ### Property Value
 
-Units of moment as defined in
-
-[swsMomentUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMomentUnit_e.html)
+Units of moment as defined in [swsMomentUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMomentUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::MomentUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~MomentUnit.html)
-
-.
+See [CWRemoteLoad::MomentUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~MomentUnit.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)
-
-returns true. If it returns false, use
-
-[ICWRemoteLoad::MomentOrRotationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MomentOrRotationUnit.html)
-
-.
+This property is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns true. If it returns false, use [ICWRemoteLoad::MomentOrRotationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MomentOrRotationUnit.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetMomentOrRotationValuesEx Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValuesEx.html)
 
 ## Availability

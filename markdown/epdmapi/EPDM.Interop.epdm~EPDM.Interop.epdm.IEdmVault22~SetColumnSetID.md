@@ -43,26 +43,21 @@ void SetColumnSetID(
 
 ## Examples
 
-See the
-
-[IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
-example
+See the [IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html) example
 
 ## Remarks
 
-Before calling this method, use[IEdmVault22::GetColumnSets](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetColumnSets.html)to obtain all valid column set IDs for the currently logged-in user of this vault.
+Before calling this method, use [IEdmVault22::GetColumnSets](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetColumnSets.html) to obtain all valid column set IDs for the currently logged-in user of this vault.
 
 This method stores the column set ID at the following location in the registry:
 
 `User_Computer\HKEY_CURRENT_USER\SOFTWARE\SolidWorks\Applications\PDMWorks Enterprise\CTDMListView\ColumnSet\vault_name\user_name`
 
-After calling this method, call[IEdmVault22::GetCurrentColumnSet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetCurrentColumnSet.html)to verify the current column set was changed.
+After calling this method, call [IEdmVault22::GetCurrentColumnSet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetCurrentColumnSet.html) to verify the current column set was changed.
 
 ## See Also
 
 [IEdmVault22 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
 [IEdmVault22 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22_members.html)
 
 ## Availability

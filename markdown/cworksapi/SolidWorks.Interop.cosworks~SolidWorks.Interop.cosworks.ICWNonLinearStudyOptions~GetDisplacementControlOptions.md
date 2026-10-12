@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # GetDisplacementControlOptions Method (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::GetDisplacementControlOptions2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions~GetDisplacementControlOptions2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::GetDisplacementControlOptions2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions~GetDisplacementControlOptions2.html).
 
 ## Syntax
 
@@ -57,22 +53,15 @@ void GetDisplacementControlOptions(
 ### Parameters
 
 - `NDisplacementComponent`: Displacement component for the selected location
-- `NUnit`: Unit as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Unit as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::GetDisplacementControlOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetDisplacementControlOptions.html)
-
-.
+See [CWNonLinearStudyOptions::GetDisplacementControlOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetDisplacementControlOptions.html).
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

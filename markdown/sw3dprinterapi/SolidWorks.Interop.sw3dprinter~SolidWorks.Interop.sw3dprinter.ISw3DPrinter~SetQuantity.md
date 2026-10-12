@@ -9,11 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # SetQuantity Method (ISw3DPrinter)
 
-Called when a user sets the number of copies to print in the
-
-Number
-
-of copies box on the 3D Printer tab.
+Called when a user sets the number of copies to print in the **Number** of copies box on the 3D Printer tab.
 
 ## Syntax
 
@@ -56,11 +52,7 @@ void SetQuantity(
 
 ## VBA Syntax
 
-See
-
-[Sw3DPrinter::SetQuantity](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~SetQuantity.html)
-
-.
+See [Sw3DPrinter::SetQuantity](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~SetQuantity.html).
 
 ## Remarks
 
@@ -69,9 +61,7 @@ This method is called in reaction to the user changing the number of copies to p
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [ISw3DPrinter Members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html)
-
 [ISw3DPrinter::GetQuantity Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetQuantity.html)
 
 ## Availability

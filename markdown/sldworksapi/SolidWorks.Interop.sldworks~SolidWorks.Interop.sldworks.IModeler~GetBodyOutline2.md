@@ -71,29 +71,17 @@ System.int GetBodyOutline2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BodyList`: Array of bodies
-- `Direction`: [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)direction of viewParamDesc
-- `Tolerance`: Tolerance (Parasolid default 0.00001)ParamDesc
-- `ProjectOnPlane`: True to project the curves onto a plane, false to not (see
-
-Remarks
-
-)
+- `Direction`: [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) direction of view
+- `Tolerance`: Tolerance (Parasolid default 0.00001)
+- `ProjectOnPlane`: True to project the curves onto a plane, false to not (see **Remarks**)
 - `Curves`: Array of 3D trimmed curves that form the outline
 - `TopolEntities`: Array of topological entities associated with the outline
 - `Outline`: Array of integers indicating which curves belong to which outline
-
-ParamDesc
 
 ### Return Value
 
@@ -101,20 +89,13 @@ Number of curves that form the outline
 
 ## VBA Syntax
 
-See
-
-[Modeler::GetBodyOutline2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetBodyOutline2.html)
-
-.
+See [Modeler::GetBodyOutline2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetBodyOutline2.html).
 
 ## Examples
 
 [Get Curves that Form Outline of Bodies (VBA)](Get_Curves_that_Form_Outline_of_Bodies_Example_VB.htm)
-
 [Get Body Outline (VBA)](Get_Body_Outline_Example_VB.htm)
-
 [Get Body Outline (VB.NET)](Get_Body_Outline_Example_VBNET.htm)
-
 [Get Body Outline (C#)](Get_Body_Outline_Example_CSharp.htm)
 
 ## Remarks
@@ -124,16 +105,11 @@ When rendered, the array of curves returned in Curves might not display as a con
 To close gaps:
 
 1. Call this method with ProjectOnPlane = true.
-2. Post-process the array of curves returned in Curves to interpolate the end points of each curve to generate a continuous outline of the body. See the
-
-  Get Body Outline
-
-  examples.
+2. Post-process the array of curves returned in Curves to interpolate the end points of each curve to generate a continuous outline of the body. See the **Get Body Outline** examples.
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
 
 ## Availability

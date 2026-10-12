@@ -48,28 +48,19 @@ A label for the datum
 
 ## VBA Syntax
 
-See
-
-[DimXpertDatum::Identifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDatum~Identifier.html)
-
-.
+See [DimXpertDatum::Identifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDatum~Identifier.html).
 
 ## Examples
 
 [Get and Set Datum Example (C#)](Get_and_Set_Datum_Example_CSharp.htm)
-
 [Get and Set Datum Example (VB.NET)](Get_and_Set_Datum_Example_VBNET.htm)
-
 [Get and Set Datum Example (VBA)](Get_and_Set_Datum_Example_VB.htm)
-
 [Get DimXpert Datum Example (VBA)](Get_DimXpert_Datum_Example_VB.htm)
-
 [Get DimXpert Datum Example (VB.NET)](Get_DimXpert_Datum_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertDatum Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum.html)
-
 [IDimXpertDatum Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum_members.html)
 
 ## Availability

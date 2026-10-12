@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # GetMaterialDataCurve Method (ICWMaterial)
 
-Obsolete. Superseded by
-
-[ICWMaterial::GetMaterialDataCurve3](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetMaterialDataCurve3.html)
-
-.
+Obsolete. Superseded by [ICWMaterial::GetMaterialDataCurve3](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetMaterialDataCurve3.html).
 
 ## Syntax
 
@@ -59,29 +55,21 @@ System.Object^ GetMaterialDataCurve(
 
 - `NIndex`: 0-based index of material data curve
 - `BUseCurve`: - 1 = Use material data curve
-- 0 = Do not use material data curve
+  - 0 = Do not use material data curve
 
 ### Return Value
 
-Array of material curve data (see
-
-Remarks
-
-)
+Array of material curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetMaterialDataCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetMaterialDataCurve.html)
-
-.
+See [CWMaterial::GetMaterialDataCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetMaterialDataCurve.html).
 
 ## Remarks
 
 Array of material curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
@@ -95,19 +83,12 @@ where:
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SetMaterialDataCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetMaterialDataCurve.html)
-
 [ICWMaterial::MaterialName Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~MaterialName.html)
-
 [ICWMaterial::MaterialUnits Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~MaterialUnits.html)
-
 [ICWMaterial::Category Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Category.html)
-
 [ICWMaterial::Description Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Description.html)
-
 [ICWMaterial::Source Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Source.html)
 
 ## Availability

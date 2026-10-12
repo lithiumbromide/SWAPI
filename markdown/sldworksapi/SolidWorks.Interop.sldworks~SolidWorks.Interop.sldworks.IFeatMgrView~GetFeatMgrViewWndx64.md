@@ -40,13 +40,7 @@ System.long GetFeatMgrViewWndx64()
 System.int64 GetFeatMgrViewWndx64();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Window handle for this FeatureManager design tree view
 
 ## VBA Syntax
 
-See
-
-[FeatMgrView::GetFeatMgrViewWndx64](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~GetFeatMgrViewWndx64.html)
-
-.
+See [FeatMgrView::GetFeatMgrViewWndx64](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~GetFeatMgrViewWndx64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 ## See Also
 
 [IFeatMgrView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView.html)
-
 [IFeatMgrView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView_members.html)
-
 [IFeatMgrView::GetFeatMgrViewWnd Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView~GetFeatMgrViewWnd.html)
-
 [IModelViewManager::GetFeatureMgrViewHWndx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~GetFeatureMgrViewHWndx64.html)
 
 ## Availability

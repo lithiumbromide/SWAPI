@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetColorTable Method (ISldWorks)
 
-Gets a color table from the SOLIDWORKS application.
+Gets a color table from the SOLIDWORKS Design application.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.object GetColorTable()
 System.Object^ GetColorTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetColorTable](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetColorTable.html)
-
-.
+See [SldWorks::GetColorTable](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetColorTable.html).
 
 ## Examples
 
 [Get COLORREF Values of Standard User-interface Elements (C#)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_CSharp.htm)
-
 [Get COLORREF Values of Standard User-interface Elements (VB.NET)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_VBNET.htm)
-
 [Get COLORREF Values of Standard User-interface Elements (VBA)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetColorTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetColorTable.html)
 
 ## Availability

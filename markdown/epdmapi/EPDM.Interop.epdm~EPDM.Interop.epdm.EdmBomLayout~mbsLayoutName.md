@@ -35,5 +35,4 @@ System.String^ mbsLayoutName
 ## See Also
 
 [EdmBomLayout Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout.html)
-
 [EdmBomLayout Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout_members.html)

@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html"
 
 Allows you to access a single revision of a file.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmRevision6 : public IEdmRevision5
 
 This interface:
 
-- extends
-
-  [IEdmRevision5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html)
-
-  .
-- is extended by
-
-  [IEdmRevision7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7.html)
-
-  .
+- extends [IEdmRevision5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html).
+- is extended by [IEdmRevision7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7.html).
 
 ## See Also
 
 [IEdmRevision6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

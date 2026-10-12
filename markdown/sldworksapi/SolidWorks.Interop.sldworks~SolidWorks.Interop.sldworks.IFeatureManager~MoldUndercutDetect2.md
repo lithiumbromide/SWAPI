@@ -78,13 +78,7 @@ void MoldUndercutDetect2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -93,37 +87,25 @@ See
 - `ColOccluded`: Value (COLORREF type) that specifies the color for the faces invisible from both directions that form an undercut
 - `ColStraddle`: Value (COLORREF type) that specifies the color for the faces with draft in both directions that form an undercut
 - `ColBase`: Value (COLORREF type) that specifies the color for the faces that do not form undercuts; that is, all faces except the undercut faces
-- `BCoordInput`: True to enable coordinate input to control the direction of pull, false to notParamDesc
+- `BCoordInput`: True to enable coordinate input to control the direction of pull, false to not
 - `Dx`: x coordinate to control the direction of pull
 - `Dy`: y coordinate to control the direction of pull
-- `Dz`: z coordinate to control the direction of pullParamDesc
+- `Dz`: z coordinate to control the direction of pull
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MoldUndercutDetect2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoldUndercutDetect2.html)
-
-.
+See [FeatureManager::MoldUndercutDetect2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoldUndercutDetect2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICavityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData.html)
-
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
-
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IShutOffSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShutOffSurfaceFeatureData.html)
-
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
 
 ## Availability

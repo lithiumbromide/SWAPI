@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMu
 
 # IMultiJogLeader Interface Members
 
-The following tables list the members exposed by[IMultiJogLeader](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html).
+The following tables list the members exposed by [IMultiJogLeader](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html).
 
 ## Public Methods
 
@@ -33,7 +33,5 @@ The following tables list the members exposed by[IMultiJogLeader](SolidWorks.Int
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)

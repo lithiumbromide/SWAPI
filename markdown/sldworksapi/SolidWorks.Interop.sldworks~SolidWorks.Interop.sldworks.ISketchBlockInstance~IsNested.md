@@ -40,13 +40,7 @@ System.bool IsNested()
 System.bool IsNested();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if nested within another block definition, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::IsNested](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~IsNested.html)
-
-.
+See [SketchBlockInstance::IsNested](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~IsNested.html).
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

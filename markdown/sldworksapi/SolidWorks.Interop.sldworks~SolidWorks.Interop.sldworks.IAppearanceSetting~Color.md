@@ -45,48 +45,31 @@ property System.int Color {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Color value (see
-
-Remarks
-
-)
+Color value (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::Color](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Color.html)
-
-.
+See [AppearanceSetting::Color](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Color.html).
 
 ## Examples
 
 [Change Color of Component in Specific Display State (C#)](Change_Color_of_Component_in_Specific_Display_State_Example_CSharp.htm)
-
 [Change Color of Component in Specific Display State (VB.NET)](Change_Color_of_Component_in_Specific_Display_State_Example_VBNET.htm)
-
 [Change Color of Component in Specific Display State (VBA)](Change_Color_of_Component_in_Specific_Display_State_Example_VB.htm)
 
 ## Remarks
 
-`color_value`= MAX(MIN(`red_rgb_value`,255),0) + MAX(MIN(`green_rgb_value`,255),0)*16*16 + MAX(MIN(`blue_rgb_value`,255),0)*16*16*16*16
+`color_value` = MAX(MIN(`red_rgb_value`,255),0) + MAX(MIN(`green_rgb_value`,255),0)*16*16 + MAX(MIN(`blue_rgb_value`,255),0)*16*16*16*16
 
 See SOLIDWORKS Help for more information about appearances.
 
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

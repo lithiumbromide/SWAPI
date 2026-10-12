@@ -56,7 +56,6 @@ void GetRevisionTableSettings(
 ## See Also
 
 [IEdmVault19 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html)
-
 [IEdmVault19 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19_members.html)
 
 ## Availability

@@ -40,17 +40,11 @@ System.object GetPathSegmentsTypes()
 System.Object^ GetPathSegmentsTypes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of path segment types as defined by[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
+Array of path segment types as defined by [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
 
 - swSelSKETCHES
 - swSelEDGES
@@ -58,16 +52,11 @@ Array of path segment types as defined by[swSelectType_e](ms-its:swconst.chm::/S
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPathSegmentFeatureData::GetPathSegmentsTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~GetPathSegmentsTypes.html)
-
-.
+See [PrimaryMemberPathSegmentFeatureData::GetPathSegmentsTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~GetPathSegmentsTypes.html).
 
 ## See Also
 
 [IPrimaryMemberPathSegmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
 [IPrimaryMemberPathSegmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData_members.html)
 
 ## Availability

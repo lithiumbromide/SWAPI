@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # EMailIntervalUnit Property (ICWDropTestStudyOptions)
 
-Gets or sets the units of time for
-
-[ICWDropTestStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMailInterval.html)
-
-.
+Gets or sets the units of time for [ICWDropTestStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMailInterval.html).
 
 ## Syntax
 
@@ -51,7 +47,7 @@ property System.int EMailIntervalUnit {
 
 ### Property Value
 
-Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
+Time units as defined in [swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
 
 - swsSecond
 - swsMinute
@@ -59,30 +55,21 @@ Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.
 
 ## VBA Syntax
 
-See
-
-[CWDropTestStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~EMailIntervalUnit.html)
-
-.
+See [CWDropTestStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~EMailIntervalUnit.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWDropTestStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMailTimebased.html)
-
-  is set to 1,
+- [ICWDropTestStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMailTimebased.html) is set to 1,
 
 - and -
 
-- [ICWDropTestStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMail.html)
-
-  is set to 1.
+- [ICWDropTestStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWDropTestStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions.html)
-
 [ICWDropTestStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions_members.html)
 
 ## Availability

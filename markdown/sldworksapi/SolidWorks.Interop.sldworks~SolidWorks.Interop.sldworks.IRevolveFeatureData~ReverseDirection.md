@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # ReverseDirection Property (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::ReverseDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~ReverseDirection.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::ReverseDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~ReverseDirection.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~ReverseDirection.html)
-
-.
+See [RevolveFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

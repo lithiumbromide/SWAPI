@@ -45,33 +45,15 @@ property System.Object^ SelectedItems {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-for the part or
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-for the assembly
+Array of [bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) for the part or [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) for the assembly
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::SelectedItems](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~SelectedItems.html)
-
-.
+See [MassProperty2::SelectedItems](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~SelectedItems.html).
 
 ## Remarks
 
@@ -80,9 +62,7 @@ Pre-selected bodies/components are included in the returned array.
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
-
 [IMassProperty2::IncludeHiddenBodiesOrComponents Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~IncludeHiddenBodiesOrComponents.html)
 
 ## Availability

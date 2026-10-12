@@ -11,8 +11,7 @@ source: "cworksapi/Add_Bearing_Load_Example_VB.htm"
 
 This example shows how to add a bearing load to a static study and get its properties.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '----------------------------------------------------------------------------

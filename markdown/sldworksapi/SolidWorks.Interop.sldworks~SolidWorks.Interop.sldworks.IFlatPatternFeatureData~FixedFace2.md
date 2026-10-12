@@ -45,52 +45,31 @@ property System.Object^ FixedFace2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fixed
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-(or
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-for cylindrical sheet metal parts)
+Fixed [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) (or [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) for cylindrical sheet metal parts)
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFeatureData::FixedFace2](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~FixedFace2.html)
-
-.
+See [FlatPatternFeatureData::FixedFace2](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~FixedFace2.html).
 
 ## Examples
 
 [Get Fixed Face of Flat-Pattern Feature (VBA)](Get_Fixed_Face_of_Flat-Pattern_Feature_Example_VB.htm)
-
 [Get Fixed Face of Flat-Pattern Feature (VB.NET)](Get_Fixed_Face_of_Flat-Pattern_Feature_Example_VBNET.htm)
-
 [Get Fixed Face of Flat-Pattern Feature (C#)](Get_Fixed_Face_of_Flat-Pattern_Feature_Example_CSharp.htm)
 
 ## Remarks
 
 The difference between this method and the now obsolete IFlatPatternFeatureData::FixedFace is that this method successfully returns the fixed face of a Flat-Pattern feature in a sheet metal part created in any version of SOLIDWORKS.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.html)
-
 [IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.html)
 
 ## Availability

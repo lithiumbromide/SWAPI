@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 Allows access to a bend table annotation.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IBendTableAnnotation
 
 ## VBA Syntax
 
-See
-
-[BendTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~BendTableAnnotation.html)
-
-.
+See [BendTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~BendTableAnnotation.html).
 
 ## Examples
 
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
 
 ## Accessors
@@ -68,5 +62,4 @@ See
 ## See Also
 
 [IBendTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTableAnnotation_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

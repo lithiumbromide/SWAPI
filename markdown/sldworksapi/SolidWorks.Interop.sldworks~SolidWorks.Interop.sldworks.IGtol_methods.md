@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # IGtol Interface Methods
 
-For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html).
+For a list of all members of this type, see [IGtol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html).
 
 ## Public Methods
 
@@ -22,6 +22,7 @@ For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sl
 | Method | DeleteFrame | Deletes the specified frame from this Gtol. |
 | Method | GetAllAround | Gets whether this GTol uses an All Around leader. |
 | Method | GetAllAroundThisSide | Gets whether this GTol uses an All Around This Side leader. |
+| Method | GetAllOver | Gets whether this GTol uses an All Over leader. |
 | Method | GetAllOverThisSide | Gets whether this GTol uses an All Over This Side leader. |
 | Method | GetAnnotation | Gets the annotation for this specific Gtol. |
 | Method | GetArcAtIndex | Gets information about the specified arc. |
@@ -114,6 +115,7 @@ For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sl
 | Method | IsAttached | Gets whether this GTol is attached. |
 | Method | ISetTextFormat | Obsolete. Superseded by IAnnotation::ISetTextFormat . |
 | Method | SetAllAroundThisSide | Sets whether this GTol uses an All Around This Side leader. |
+| Method | SetAllOver | Sets whether this Gtol uses an All Over leader. |
 | Method | SetAllOverThisSide | Sets whether this Gtol uses an All Over This Side leader. |
 | Method | SetBelowFrameTextAt | Edits or inserts a text line at the specified below frame line index of this GTol. |
 | Method | SetBetweenTwoPoints | Enables or disables the between two points symbol and its texts. |
@@ -138,9 +140,6 @@ For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sl
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IModelDoc2::InsertGtol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertGtol.html)

@@ -45,13 +45,7 @@ property System.bool BlurryReflection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to blur reflections, false to not
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::BlurryReflection](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~BlurryReflection.html)
-
-.
+See [AppearanceSetting::BlurryReflection](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~BlurryReflection.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ See SOLIDWORKS Help for more information about appearances.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

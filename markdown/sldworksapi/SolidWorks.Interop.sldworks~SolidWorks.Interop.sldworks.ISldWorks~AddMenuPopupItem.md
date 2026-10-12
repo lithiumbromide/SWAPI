@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # AddMenuPopupItem Method (ISldWorks)
 
-Obsol
-
-ete. Superseded by
-
-[ISldWorks::AddMenuPopupItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuPopupItem2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::AddMenuPopupItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuPopupItem2.html).
 
 ## Syntax
 
@@ -69,13 +63,7 @@ System.int AddMenuPopupItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -87,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddMenuPopupItem.html)
-
-.
+See [SldWorks::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddMenuPopupItem.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

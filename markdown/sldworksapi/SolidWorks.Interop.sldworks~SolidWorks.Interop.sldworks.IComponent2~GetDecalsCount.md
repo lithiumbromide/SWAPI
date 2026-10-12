@@ -40,13 +40,7 @@ System.int GetDecalsCount()
 System.int GetDecalsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Number of decals
 
 ## VBA Syntax
 
-See
-
-[Component2::GetDecalsCount](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetDecalsCount.html)
-
-.
+See [Component2::GetDecalsCount](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetDecalsCount.html).
 
 ## Remarks
 
-Call this method before calling[IComponent2::IGetDecals](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetDecals.html)to get the size of the array for that method.
+Call this method before calling [IComponent2::IGetDecals](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetDecals.html) to get the size of the array for that method.
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetDecals Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetDecals.html)
 
 ## Availability

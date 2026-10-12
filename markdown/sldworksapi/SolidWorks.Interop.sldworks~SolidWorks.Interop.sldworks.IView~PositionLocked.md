@@ -45,13 +45,7 @@ property System.bool PositionLocked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True if view position is locked, false if not
 
 ## VBA Syntax
 
-See
-
-[View::PositionLocked](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~PositionLocked.html)
-
-.
+See [View::PositionLocked](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~PositionLocked.html).
 
 ## Examples
 
 [Get View Bounding Box and Position (VBA)](Get_View_Bounding_Box_and_Position_Example_VB.htm)
-
 [Get View Bounding Box and Position (VB.NET)](Get_View_Bounding_Box_and_Position_Example_VBNET.htm)
-
 [Get View Bounding Box and Position (C#)](Get_View_Bounding_Box_and_Position_Example_CSharp.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::Position Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~Position.html)
 
 ## Availability

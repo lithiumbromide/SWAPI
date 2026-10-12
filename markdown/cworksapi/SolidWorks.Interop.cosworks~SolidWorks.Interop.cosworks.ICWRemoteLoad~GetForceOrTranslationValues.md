@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetForceOrTranslationValues Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::GetForceOrTranslationValues2.
+Obsolete. Superseded by [ICWRemoteLoad::GetForceOrTranslationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -72,11 +72,7 @@ void GetForceOrTranslationValues(
 
 ### Parameters
 
-- `BInclude`: 1 to get force or translation values, 0 to not (see
-
-Remarks
-
-)
+- `BInclude`: 1 to get force or translation values, 0 to not (see **Remarks**)
 - `BXValue`: 1 to get the value in the x direction, 0 to not
 - `DXValue`: Force or translation in the x direction; valid only if BXValue = 1
 - `BYValue`: 1 to get the value in the y direction; 0 to not
@@ -86,11 +82,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::GetForceOrTranslationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetForceOrTranslationValues.html)
-
-.
+See [CWRemoteLoad::GetForceOrTranslationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetForceOrTranslationValues.html).
 
 ## Remarks
 
@@ -102,11 +94,8 @@ See
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetForceOrTranslationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValues.html)
-
 [ICWRemoteLoad::ForceOrTranslationUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceOrTranslationUnit.html)
 
 ## Availability

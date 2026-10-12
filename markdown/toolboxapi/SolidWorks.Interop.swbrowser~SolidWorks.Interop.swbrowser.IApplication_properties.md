@@ -9,7 +9,7 @@ source: "toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IA
 
 # IApplication Interface Properties
 
-For a list of all members of this type, see[IApplication members](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication_members.html).
+For a list of all members of this type, see [IApplication members](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IApplication members](SolidWorks.Int
 ## See Also
 
 [IApplication Interface](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html)
-
 [SolidWorks.Interop.swbrowser Namespace](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser_namespace.html)

@@ -11,8 +11,7 @@ source: "cworksapi/Add_Remote_Load_with_Distributed_Connection_Example_VB.htm"
 
 ## Add a Remote Load with Distributed Coupling Example (VBA)
 
-This example shows how to create a linear static study and add a remote load
-with distributed coupling.
+This example shows how to create a linear static study and add a remote load with distributed coupling.
 
 ```vb
 '----------------------------------------------------------------------------

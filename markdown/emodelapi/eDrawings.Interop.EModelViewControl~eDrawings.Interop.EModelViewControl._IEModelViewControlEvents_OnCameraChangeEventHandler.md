@@ -39,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnCameraChangeEventHandler();
 
 ## VBA Syntax
 
-See
-
-[OnCameraChange Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnCameraChange_EV.html)
-
-.
+See [OnCameraChange Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnCameraChange_EV.html).
 
 ## Availability
 

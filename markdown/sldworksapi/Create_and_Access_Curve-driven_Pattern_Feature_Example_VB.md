@@ -9,8 +9,7 @@ source: "sldworksapi/Create_and_Access_Curve-driven_Pattern_Feature_Example_VB.h
 
 # Create and Access Curve-driven Pattern Feature Example (VBA)
 
-This example shows how to create a curve-driven pattern feature and access
-its data.
+This example shows how to create a curve-driven pattern feature and access its data.
 
 ```
 '--------------------------------------------------------------

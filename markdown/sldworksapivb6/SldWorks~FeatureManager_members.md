@@ -1,6 +1,5 @@
 ---
-title: "FeatureManager Object
-Members"
+title: "FeatureManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FeatureManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FeatureManager_members.html"
 ---
 
-# FeatureManager Object
-Members
+# FeatureManager Object Members
 
 ## Public Methods
 
@@ -168,6 +166,7 @@ Members
 | Public Method InsertFreeform |  |
 | Public Method InsertFreeform2 |  |
 | Public Method InsertGlobalBoundingBox |  |
+| Public Method InsertGlobalBoundingBox2 |  |
 | Public Method InsertGridFeature |  |
 | Public Method InsertGroundPlane |  |
 | Public Method InsertGussetFeature |  |

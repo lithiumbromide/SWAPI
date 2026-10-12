@@ -51,44 +51,24 @@ System.int BreakLink(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AllComponents`: True to break the link for all subcomponents within a top-level subassembly, false to not (see
-
-Remarks
-
-)
+- `AllComponents`: True to break the link for all subcomponents within a top-level subassembly, false to not (see **Remarks**)
 - `Silent`: True to suppress dialog windows, false to not
 
 ### Return Value
 
-Error codes as defined in
-
-[sw3DInterconnectImportErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DInterconnectImportErrors_e.html)
+Error codes as defined in [sw3DInterconnectImportErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DInterconnectImportErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[Feature::BreakLink](ms-its:sldworksapivb6.chm::/sldworks~Feature~BreakLink.html)
-
-.
+See [Feature::BreakLink](ms-its:sldworksapivb6.chm::/sldworks~Feature~BreakLink.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## Remarks
 
@@ -99,9 +79,7 @@ After you break a link, all references to the original CAD file are lost. You ca
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
 
 ## Availability

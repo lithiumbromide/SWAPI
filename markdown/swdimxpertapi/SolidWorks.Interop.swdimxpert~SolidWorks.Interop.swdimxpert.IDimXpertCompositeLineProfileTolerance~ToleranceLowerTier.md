@@ -48,11 +48,7 @@ Tolerance value in the lower tier
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeLineProfileTolerance::ToleranceLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~ToleranceLowerTier.html)
-
-.
+See [DimXpertCompositeLineProfileTolerance::ToleranceLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~ToleranceLowerTier.html).
 
 ## Remarks
 
@@ -61,7 +57,6 @@ The second row of the Geometric Tolerance Properties dialog comes into play for 
 ## See Also
 
 [IDimXpertCompositeLineProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance.html)
-
 [IDimXpertCompositeLineProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance_members.html)
 
 ## Availability

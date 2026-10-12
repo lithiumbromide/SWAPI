@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sketch_Points_Selection_Mark_Example_CSharp.htm"
 
 # Get Sketch Point's Selection Mark Example (C#)
 
-This example shows how to get the selection mark of a sketch
-point.
+This example shows how to get the selection mark of a sketch point.
 
 ```
 //------------------------------------------------

@@ -33,24 +33,15 @@ void EndAND();
 
 ## Examples
 
-See the
-
-[IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
-examples.
+See the [IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html) examples.
 
 ## Remarks
 
-Use
-
-[IEdmSearch8::BeginAND](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~BeginAND.html)
-
-to begin the AND operation.
+Use [IEdmSearch8::BeginAND](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~BeginAND.html) to begin the AND operation.
 
 ## See Also
 
 [IEdmSearch8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
 [IEdmSearch8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8_members.html)
 
 ## Availability

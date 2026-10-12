@@ -47,13 +47,7 @@ System.bool LoadSplineData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,11 +55,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::LoadSplineData](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~LoadSplineData.html)
-
-.
+See [SimulationForceFeatureData::LoadSplineData](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~LoadSplineData.html).
 
 ## Remarks
 
@@ -79,7 +69,6 @@ Use commas or spaces as separators between the values.
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
 
 ## Availability

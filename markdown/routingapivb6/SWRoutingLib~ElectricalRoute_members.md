@@ -1,6 +1,5 @@
 ---
-title: "ElectricalRoute Object
-Members"
+title: "ElectricalRoute Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "ElectricalRoute_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~ElectricalRoute_members.html"
 ---
 
-# ElectricalRoute Object
-Members
+# ElectricalRoute Object Members
 
 ## Public Methods
 

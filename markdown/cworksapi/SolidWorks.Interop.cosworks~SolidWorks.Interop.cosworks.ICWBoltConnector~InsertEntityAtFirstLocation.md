@@ -52,22 +52,14 @@ void InsertEntityAtFirstLocation(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::InsertEntityAtFirstLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertEntityAtFirstLocation.html)
-
-.
+See [CWBoltConnector::InsertEntityAtFirstLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertEntityAtFirstLocation.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::InsertEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertEntityAtSecondLocation.html)
-
 [ICWBoltConnector::RemoveEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveEntityAtFirstLocation.html)
-
 [ICWBoltConnector::RemoveEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveEntityAtSecondLocation.html)
 
 ## Availability

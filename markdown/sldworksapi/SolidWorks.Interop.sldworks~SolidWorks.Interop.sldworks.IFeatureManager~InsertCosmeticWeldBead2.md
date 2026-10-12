@@ -59,47 +59,27 @@ System.Object^ InsertCosmeticWeldBead2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WeldMode`: Weld mode as defined in
-
-[swCosmeticWeldBeadMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCosmeticWeldBeadMode_e.html)
-- `WeldFromFaceOrEdgeSet`: Array of weld-from entities (see
-
-Remarks
-
-)
-- `WeldToFaceOrEdgeSet`: Array of weld-to entities or Nothing or null (see**Remarks**)
+- `WeldMode`: Weld mode as defined in[swCosmeticWeldBeadMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCosmeticWeldBeadMode_e.html)
+- `WeldFromFaceOrEdgeSet`: Array of weld-from entities (see **Remarks**)
+- `WeldToFaceOrEdgeSet`: Array of weld-to entities or Nothing or null (see **Remarks**)
 - `WeldSize`: Size of weld bead
 
 ### Return Value
 
-Array of weld bead
-
-[features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Array of weld bead [features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCosmeticWeldBead2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticWeldBead2.html)
-
-.
+See [FeatureManager::InsertCosmeticWeldBead2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticWeldBead2.html).
 
 ## Examples
 
 [Insert Cosmetic Weld Bead Using Geometric Entities (C#)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_CSharp.htm)
-
 [Insert Cosmetic Weld Bead Using Geometric Entities (VB.NET)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_VBNET.htm)
-
 [Insert Cosmetic Weld Bead Using Geometric Entities (VBA)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_VB.htm)
 
 ## Remarks
@@ -112,7 +92,6 @@ See
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

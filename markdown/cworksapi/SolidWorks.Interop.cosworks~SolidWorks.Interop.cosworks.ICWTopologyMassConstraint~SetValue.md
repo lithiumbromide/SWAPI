@@ -53,36 +53,24 @@ System.int SetValue(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMassConstraint::SetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetValue.html)
-
-.
+See [CWTopologyMassConstraint::SetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetValue.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
-example.
+See the [ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html) example.
 
 ## Remarks
 
-DValue depends on the reduce-mass-by preference specified with[ICWTopologyMassConstriant::SetMassPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~SetMassPreference.html).
+DValue depends on the reduce-mass-by preference specified with [ICWTopologyMassConstriant::SetMassPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~SetMassPreference.html).
 
 ## See Also
 
 [ICWTopologyMassConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
 [ICWTopologyMassConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint_members.html)
-
 [ICWTopologyMassConstraint::SetUnit Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~SetUnit.html)
 
 ## Availability

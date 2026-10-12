@@ -39,24 +39,13 @@ void FileDeriveComponentPart()
 void FileDeriveComponentPart();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::FileDeriveComponentPart](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~FileDeriveComponentPart.html)
-
-.
+See [AssemblyDoc::FileDeriveComponentPart](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~FileDeriveComponentPart.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

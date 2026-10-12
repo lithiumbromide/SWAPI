@@ -47,19 +47,11 @@ property System.String^ Size {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `HoleSeriesWhichPart`: Which part the hole series passes through as defined by
-
-[swHoleSeriesWhichParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleSeriesWhichParts_e.html)
+- `HoleSeriesWhichPart`: Which part the hole series passes through as defined by [swHoleSeriesWhichParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleSeriesWhichParts_e.html)
 
 ### Property Value
 
@@ -67,24 +59,15 @@ Fastener size
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData2::Size](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~Size.html)
-
-.
+See [HoleSeriesFeatureData2::Size](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~Size.html).
 
 ## Examples
 
-See the examples in
-
-[IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
-.
+See the examples in [IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
 [IHoleSeriesFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2_members.html)
 
 ## Availability

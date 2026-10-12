@@ -39,19 +39,11 @@ void GetArrowVertices(
 
 ### Parameters
 
-- `ppoVertices`: Array of
-
-[EdmPoint](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html)
-
-structures; one structure for each point that makes up the transition arrow
+- `ppoVertices`: Array of [EdmPoint](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html) structures; one structure for each point that makes up the transition arrow
 
 ## Examples
 
-See the
-
-[IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html)
-
-examples.
+See the [IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html) examples.
 
 ## Remarks
 
@@ -62,9 +54,7 @@ examples.
 ## See Also
 
 [IEdmTransition7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html)
-
 [IEdmTransition7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7_members.html)
-
 [IEdmTransition7::GetRect Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7~GetRect.html)
 
 ## Availability

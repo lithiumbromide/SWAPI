@@ -1,6 +1,5 @@
 ---
-title: "RayTraceRendererOptions Object
-Members"
+title: "RayTraceRendererOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RayTraceRendererOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RayTraceRendererOptions_members.html"
 ---
 
-# RayTraceRendererOptions Object
-Members
+# RayTraceRendererOptions Object Members
 
 ## Public Methods
 

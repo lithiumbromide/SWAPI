@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Insert3DSketch2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::Insert3DSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Insert3DSketch.html)
-
-.
+Obsolete. Superseded by [ISketchManager::Insert3DSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Insert3DSketch.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void Insert3DSketch2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Insert3DSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Insert3DSketch2.html)
-
-.
+See [ModelDoc2::Insert3DSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Insert3DSketch2.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISketch::Is3D Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~Is3D.html)
 
 ## Availability

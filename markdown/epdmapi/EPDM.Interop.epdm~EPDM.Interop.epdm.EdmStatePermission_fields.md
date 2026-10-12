@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_fields.h
 
 # EdmStatePermission Structure Fields
 
-For a list of all members of this type, see[EdmStatePermission members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.html).
+For a list of all members of this type, see [EdmStatePermission members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmStatePermission members](EPDM.Int
 ## See Also
 
 [EdmStatePermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

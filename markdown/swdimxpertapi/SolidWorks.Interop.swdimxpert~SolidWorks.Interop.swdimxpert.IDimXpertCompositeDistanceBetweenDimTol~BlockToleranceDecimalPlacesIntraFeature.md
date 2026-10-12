@@ -48,22 +48,16 @@ Number of decimal places
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeDistanceBetweenDimTol::BlockToleranceDecimalPlacesIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~BlockToleranceDecimalPlacesIntraFeature.html)
-
-.
+See [DimXpertCompositeDistanceBetweenDimTol::BlockToleranceDecimalPlacesIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~BlockToleranceDecimalPlacesIntraFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance2 Example (VBA)](Get_DimXpert_Tolerance2_Example_VB.htm)
-
 [Get DimXpert Tolerance2 Example (VB.NET)](Get_DimXpert_Tolerance2_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html)
-
 [IDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

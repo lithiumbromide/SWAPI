@@ -52,22 +52,14 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~RemoveEntity.html)
-
-.
+See [CWMeshControl::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~RemoveEntity.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::GetEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~GetEntityAt.html)
-
 [ICWMeshControl::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~InsertEntity.html)
-
 [ICWMeshControl::EntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~EntityCount.html)
 
 ## Availability

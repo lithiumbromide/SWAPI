@@ -51,13 +51,7 @@ System.bool SetTextSegmentFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::SetTextSegmentFormat](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~SetTextSegmentFormat.html)
-
-.
+See [Paragraphs::SetTextSegmentFormat](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~SetTextSegmentFormat.html).
 
 ## Examples
 
-See the
-
-[IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
-examples.
+See the [IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html) examples.
 
 ## Remarks
 
@@ -90,25 +76,15 @@ Paragraphs contain one or more text segments. Each text segment has a different 
 
 Before calling this method:
 
-- set the current paragraph using
+- set the current paragraph using [IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html).
+- call [IParagraphs::GetTextSegmentCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~GetTextSegmentCount.html) to get the total number of text segments and a valid value for Segment.
 
-  [IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html)
-
-  .
-- call
-
-  [IParagraphs::GetTextSegmentCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~GetTextSegmentCount.html)
-
-  to get the total number of text segments and a valid value for Segment.
-
-After calling this method, call[IParagraphs::UpdateParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~UpdateParagraph.html)to update the model.
+After calling this method, call [IParagraphs::UpdateParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~UpdateParagraph.html) to update the model.
 
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
-
 [IParagraphics::GetTextSegmentFormat Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~GetTextSegmentFormat.html)
 
 ## Availability

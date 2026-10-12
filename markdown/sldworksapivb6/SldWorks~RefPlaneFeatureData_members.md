@@ -1,6 +1,5 @@
 ---
-title: "RefPlaneFeatureData Object
-Members"
+title: "RefPlaneFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RefPlaneFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RefPlaneFeatureData_members.html"
 ---
 
-# RefPlaneFeatureData Object
-Members
+# RefPlaneFeatureData Object Members
 
 ## Public Methods
 

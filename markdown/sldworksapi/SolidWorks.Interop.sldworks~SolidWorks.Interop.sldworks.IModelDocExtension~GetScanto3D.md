@@ -40,13 +40,7 @@ System.object GetScanto3D()
 System.Object^ GetScanto3D();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetScanto3D](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetScanto3D.html)
-
-.
+See [ModelDocExtension::GetScanto3D](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetScanto3D.html).
 
 ## Examples
 
-See the
-
-[IScanTo3D](ms-its:swscanto3dapi.chm::/SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
-examples.
+See the [IScanTo3D](ms-its:swscanto3dapi.chm::/SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html) examples.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

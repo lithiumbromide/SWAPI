@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # Sandwich Property (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::Sandwich2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::Sandwich2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich2.html).
 
 ## Syntax
 
@@ -55,20 +51,13 @@ property System.int Sandwich {
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::Sandwich](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~Sandwich.html)
-
-.
+See [CWCompositeShellOptions::Sandwich](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~Sandwich.html).
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::SetTotalPlies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetTotalPlies.html)
-
 [ICWCompositeShellOptions::Symmetric Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Symmetric.html)
 
 ## Availability

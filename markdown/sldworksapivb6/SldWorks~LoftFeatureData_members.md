@@ -1,6 +1,5 @@
 ---
-title: "LoftFeatureData Object
-Members"
+title: "LoftFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LoftFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LoftFeatureData_members.html"
 ---
 
-# LoftFeatureData Object
-Members
+# LoftFeatureData Object Members
 
 ## Public Methods
 

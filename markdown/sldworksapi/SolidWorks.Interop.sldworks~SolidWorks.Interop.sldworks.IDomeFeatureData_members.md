@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # IDomeFeatureData Interface Members
 
-The following tables list the members exposed by[IDomeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html).
+The following tables list the members exposed by [IDomeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[IDomeFeatureData](SolidWorks.In
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

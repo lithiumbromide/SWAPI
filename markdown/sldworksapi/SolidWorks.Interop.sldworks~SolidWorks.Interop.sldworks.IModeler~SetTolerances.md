@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetTolerances Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::GetToleranceValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~GetToleranceValue.html)
-
-and
-
-[IModeler::SetToleranceValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SetToleranceValue.html)
-
-.
+Obsolete. Superseded by [IModeler::GetToleranceValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~GetToleranceValue.html) and [IModeler::SetToleranceValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SetToleranceValue.html).
 
 ## Syntax
 
@@ -63,30 +55,19 @@ System.bool SetTolerances(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ToleranceIDArray`: Type of tolerance you want to set as defined in[swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
+- `ToleranceIDArray`: Type of tolerance you want to set as defined in [swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
 - `ToleranceValueArray`: New tolerance value in meters for the specified tolerance type
 - `NumTol`: Original value of the specified tolerance type
 
 ## VBA Syntax
 
-See
-
-[Modeler::SetTolerances](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetTolerances.html)
-
-.
+See [Modeler::SetTolerances](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetTolerances.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

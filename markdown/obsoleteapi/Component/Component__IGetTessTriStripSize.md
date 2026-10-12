@@ -9,13 +9,11 @@ source: "obsoleteapi/Component/Component__IGetTessTriStripSize.htm"
 
 # Component::IGetTessTriStripSize
 
-This
-method is obsolete and has been superseded by[Component2::IGetTessTriStripSize](sldworksAPI.chm::/Component2/Component2__IGetTessTriStripSize.htm).
+This method is obsolete and has been superseded by [Component2::IGetTessTriStripSize](sldworksAPI.chm::/Component2/Component2__IGetTessTriStripSize.htm).
 
 Description
 
-This method returns the array size of floats
-required to contain the data returned by Component::GetTessTriStrips.
+This method returns the array size of floats required to contain the data returned by Component::GetTessTriStrips.
 
 Syntax (OLE Automation)
 
@@ -23,10 +21,7 @@ Not available.
 
 Syntax (COM)
 
-status = Component->IGetTessTriStripSize ( &retval
-)
-
-(Table)=========================================================
+status = Component->IGetTessTriStripSize ( &retval )
 
 | Output: | (long) retval | Size of the array returned by Component::GetTessTriStrips |
 | --- | --- | --- |
@@ -34,33 +29,6 @@ status = Component->IGetTessTriStripSize ( &retval
 
 Remarks
 
-Tessellation information is available only when
-the component is loaded as lightweight.
+Tessellation information is available only when the component is loaded as lightweight.
 
-SolidWorks calculates the array size as ( 3 + FaceCount + StripCount
-+ 3 * VertexCount).
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Component_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\Component\Component__IGetTessTriStripSize.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+SolidWorks calculates the array size as ( 3 + FaceCount + StripCount + 3 * VertexCount).

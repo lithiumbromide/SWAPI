@@ -9,8 +9,7 @@ source: "sldworksapi/Edit_Radial_Dimension_Example_VBNET.htm"
 
 # Set Radial Dimension Leader Example (VB.NET)
 
-This example shows how to attach a radial dimension leader to an arc
-extension line.
+This example shows how to attach a radial dimension leader to an arc extension line.
 
 ```
 '---------------------------------------------------------------

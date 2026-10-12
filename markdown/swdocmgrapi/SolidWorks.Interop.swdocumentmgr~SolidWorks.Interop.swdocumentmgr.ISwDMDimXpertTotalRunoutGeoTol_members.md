@@ -9,10 +9,9 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertTotalRunoutGeoTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertTotalRunoutGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTotalRunoutGeoTol.html).
+The following tables list the members exposed by [ISwDMDimXpertTotalRunoutGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTotalRunoutGeoTol.html).
 
 ## See Also
 
 [ISwDMDimXpertTotalRunoutGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTotalRunoutGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

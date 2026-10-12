@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Inserting_a_Table_in_a_Drawing_Docum
 
 # Fire Notification When Inserting a Table in a Drawing Document Example (VB.NET)
 
-This example shows how to fire a notification when a table is inserted in a
-drawing document.
+This example shows how to fire a notification when a table is inserted in a drawing document.
 
 ```vb
  '---------------------------------------------------------------

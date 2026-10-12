@@ -40,13 +40,7 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of arcs
 
 ## VBA Syntax
 
-See
-
-[View::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetArcCount.html)
-
-.
+See [View::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetArcCount.html).
 
 ## Examples
 
@@ -66,12 +56,10 @@ See
 
 ## Remarks
 
-Call this method before[IView::GetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetArcs4.html)to determine the size of the array for that method.
+Call this method before [IView::GetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetArcs4.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetArcs4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetArcs4.html)

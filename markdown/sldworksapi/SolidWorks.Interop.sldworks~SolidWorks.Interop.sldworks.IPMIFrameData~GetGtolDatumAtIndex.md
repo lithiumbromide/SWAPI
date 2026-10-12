@@ -47,13 +47,7 @@ System.Object^ GetGtolDatumAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[PMIFrameData::GetGtolDatumAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolDatumAtIndex.html)
-
-.
+See [PMIFrameData::GetGtolDatumAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolDatumAtIndex.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
-Use
-
-[IPMIFrameData::GetGtolDatumCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData~GetGtolDatumCount.html)
-
-to determine Index.
+Use [IPMIFrameData::GetGtolDatumCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData~GetGtolDatumCount.html) to determine Index.
 
 ## See Also
 
 [IPMIFrameData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html)
-
 [IPMIFrameData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData_members.html)
 
 ## Availability

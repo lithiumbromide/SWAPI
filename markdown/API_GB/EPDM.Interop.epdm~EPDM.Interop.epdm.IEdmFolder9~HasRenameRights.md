@@ -64,13 +64,11 @@ True if the user has permission to rename the specified file, false if not
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmFolder9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder9.html)
-
 [IEdmFolder9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder9_members.html)
 
 ## Availability

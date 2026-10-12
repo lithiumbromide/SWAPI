@@ -42,13 +42,7 @@ property System.String^ StandardName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Hole Wizard standard
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::StandardName](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~StandardName.html)
-
-.
+See [HoleDataTable::StandardName](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~StandardName.html).
 
 ## Examples
 
-See the
-
-[IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
-example.
+See the [IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html) example.
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
 
 ## Availability

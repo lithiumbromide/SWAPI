@@ -9,8 +9,7 @@ source: "sldworksapi/Put_Assembly_Components_in_Drawing_View_on_Different_Layers
 
 # Put Assembly Components in Drawing View on Different Layers Example (VBA)
 
-This example shows how to put all assembly components in a drawing view
-on different layers.
+This example shows how to put all assembly components in a drawing view on different layers.
 
 ```
 '------------------------------------------------------------

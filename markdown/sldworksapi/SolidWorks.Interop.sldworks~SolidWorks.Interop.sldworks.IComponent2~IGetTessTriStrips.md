@@ -47,13 +47,7 @@ System.float IGetTessTriStrips(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of floats (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of floats (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -79,26 +69,14 @@ These triangles are intended for graphical display purposes and do not represent
 
 where:
 
-- FaceCount
+- `FaceCount` = number of faces on the body
+- `StripCount` = total number of strips on the body
+- `VertexCount` x 3 = total number of vertices. Multiplied by three to cover X,Y, and Z
+- `NumStrips` = number of strips on a particular face
+- `VertexPerStrip` = an array containing the number of vertex points on particular face strip
+- `VertexPoints` = an array of X,Y,Z points for each vertex on the particular face strip
 
-  = number of faces on the body
-- StripCount
-
-  = total number of strips on the body
-- VertexCount
-
-  x 3 = total number of vertices. Multiplied by three to cover X,Y, and Z
-- NumStrips
-
-  = number of strips on a particular face
-- VertexPerStrip
-
-  = an array containing the number of vertex points on particular face strip
-- VertexPoints
-
-  = an array of X,Y,Z points for each vertex on the particular face strip
-
-Because the returned array elements are of type float, and`FaceCount`,`StripCount`,`VertexCount`,`NumStrips`, and the elements of`VertexPerStrip`are integers that have been packed into the return array elements, and you must[unpack](sldworksAPIProgGuide.chm::/OVERVIEW/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm)them before you can use them.
+Because the returned array elements are of type float, and `FaceCount`, `StripCount`, `VertexCount`, `NumStrips`, and the elements of `VertexPerStrip` are integers that have been packed into the return array elements, and you must [unpack](sldworksAPIProgGuide.chm::/OVERVIEW/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm) them before you can use them.
 
 For example:
 
@@ -130,9 +108,7 @@ For each strip, i:
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetTessTriStrips Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetTessTriStrips.html)
 
 ## Availability

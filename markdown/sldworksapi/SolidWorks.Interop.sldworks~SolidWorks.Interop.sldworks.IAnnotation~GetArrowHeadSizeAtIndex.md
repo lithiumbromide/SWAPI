@@ -63,20 +63,13 @@ System.bool GetArrowHeadSizeAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index of leader on this annotation
 - `UseDoc`: TRUE indicates that the document default setting for arrow head size was used, FALSE
-
-indicates that the Length, Width, and Height values were specified
+  indicates that the Length, Width, and Height values were specified
 - `Length`: Length of arrow head
 - `Width`: Width of arrow head
 - `Height`: Height of arrow head
@@ -87,26 +80,19 @@ True if the method succeeds, false if not
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetArrowHeadSizeAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetArrowHeadSizeAtIndex.html)
-
-.
+See [Annotation::GetArrowHeadSizeAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetArrowHeadSizeAtIndex.html).
 
 ## Remarks
 
-The index value is 0-based. Therefore, a valid index value is greater than or equal to 0, but less than the number of leaders on this annotation. Use[IAnnotation::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadCount.html)to find the number of leaders on this annotation. If the index value is invalid, SOLIDWORKS returns the arrowhead style as -1, and returns an S_FALSE status (COM interface).
+The index value is 0-based. Therefore, a valid index value is greater than or equal to 0, but less than the number of leaders on this annotation. Use [IAnnotation::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadCount.html) to find the number of leaders on this annotation. If the index value is invalid, SOLIDWORKS returns the arrowhead style as -1, and returns an S_FALSE status (COM interface).
 
-Use[IAnnotation::SetArrowHeadSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~SetArrowHeadSizeAtIndex.html)to set the arrow head size of a specific leader.
+Use [IAnnotation::SetArrowHeadSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~SetArrowHeadSizeAtIndex.html) to set the arrow head size of a specific leader.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetArrowHeadStyleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetArrowHeadStyleAtIndex.html)
-
 [IAnnotation::SetArrowHeadStyleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetArrowHeadStyleAtIndex.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool FlipView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to flip the flat-pattern view, false to not
 
 ## VBA Syntax
 
-See
-
-[View::FlipView](ms-its:sldworksapivb6.chm::/Sldworks~View~FlipView.html)
-
-.
+See [View::FlipView](ms-its:sldworksapivb6.chm::/Sldworks~View~FlipView.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IDrawingDoc::CreateFlatPatternViewFromModelView3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateFlatPatternViewFromModelView3.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.short Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Height
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageTextbox::Height](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageTextbox~Height.html)
-
-.
+See [PropertyManagerPageTextbox::Height](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageTextbox~Height.html).
 
 ## See Also
 
 [IPropertyManagerPageTextbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox.html)
-
 [IPropertyManagerPageTextbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox_members.html)
 
 ## Availability

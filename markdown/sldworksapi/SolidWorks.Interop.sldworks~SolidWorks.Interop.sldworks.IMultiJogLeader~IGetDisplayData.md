@@ -40,34 +40,20 @@ DisplayData IGetDisplayData()
 DisplayData^ IGetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Display data](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)
-
-for this multi-jog leader
+[Display data](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) for this multi-jog leader
 
 ## VBA Syntax
 
-See
-
-[MultiJogLeader::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetDisplayData.html)
-
-.
+See [MultiJogLeader::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetDisplayData.html).
 
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [IMultiJogLeader Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader_members.html)
-
 [IMultiJogLeader::GetDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~GetDisplayData.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool ReverseOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True reverses the offset from the surface, false does not
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::ReverseOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~ReverseOffset.html)
-
-.
+See [SimpleHoleFeatureData2::ReverseOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~ReverseOffset.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeature2::SurfaceOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~SurfaceOffset.html)
 
 ## Availability

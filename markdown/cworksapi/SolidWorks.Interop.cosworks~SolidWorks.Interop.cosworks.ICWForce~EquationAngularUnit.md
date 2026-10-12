@@ -47,50 +47,29 @@ property System.int EquationAngularUnit {
 
 ### Property Value
 
-Angular units as defined in
-
-[swsPhaseAngleUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPhaseAngleUnit_e.html)
+Angular units as defined in [swsPhaseAngleUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPhaseAngleUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWForce::EquationAngularUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~EquationAngularUnit.html)
-
-.
+See [CWForce::EquationAngularUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~EquationAngularUnit.html).
 
 ## Examples
 
 [Add Nonuniform Force Distribution (VBA)](Add_Force_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VB.NET)](Add_Force_Example_VBNET.htm)
-
 [Add Nonuniform Force Distribution (C#)](Add_Force_Example_CSharp.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html)
-
-is set to -1 or true, and
-
-[ICWForce::EquationCoordinateSystemType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationCoordinateSystemType.html)
-
-is set to 2 or 3.
+This property is valid only if [ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html) is set to -1 or true, and [ICWForce::EquationCoordinateSystemType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationCoordinateSystemType.html) is set to 2 or 3.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::Equation Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~Equation.html)
-
 [ICWForce::EquationLinearUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationLinearUnit.html)
-
 [ICWForce::GetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~GetCoordinateSystem.html)
-
 [ICWForce::SetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetCoordinateSystem.html)
 
 ## Availability

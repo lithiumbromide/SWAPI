@@ -40,13 +40,7 @@ System.int GetArrowHeadCount()
 System.int GetArrowHeadCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of arrow heads
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArrowHeadCount.html)
-
-.
+See [DatumTag::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArrowHeadCount.html).
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArrowHeadAtIndex.html)
-
 [IDatumTag::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetArrowHeadAtIndex.html)

@@ -51,16 +51,11 @@ Password
 
 ## VBA Syntax
 
-See
-
-[PDMWUser::password](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~password.html)
-
-.
+See [PDMWUser::password](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~password.html).
 
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUser Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser_members.html)
 
 ## Availability

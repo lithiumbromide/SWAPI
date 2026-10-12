@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Put | api/{vaultName}/checkin/addfiles/{changesetId} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Stage Resource Group : api/{vaultName}/checkin/addfiles/{changesetId} (Put) |
 | --- |
@@ -27,7 +23,7 @@ Description
 
 PUT: api/{vaultname}/checkin/addfiles/{changesetId=0} Upload files or document ids to changeset to the check in operation
 
-Adds files to a changeset for checkin. (See**Remarks**)
+Adds files to a changeset for checkin. (See **Remarks**)
 
 Parameters
 
@@ -127,26 +123,14 @@ This request returns a new changeset ID and file references.
 
 Example
 
-[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Program.cs](Program.cs)
-
-|
-
-[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json) | [Program.cs](Program.cs) | [Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
 
 Remarks
 
-This request also requires a binary Body that consists of the binary files to add to the changeset. Drag/drop the JSON example to Postman and inspect the Body of the HTTP request. The**Program.cs**example creates the binary file that you can upload using this request.
+This request also requires a binary Body that consists of the binary files to add to the changeset. Drag/drop the JSON example to Postman and inspect the Body of the HTTP request. The **Program.cs** example creates the binary file that you can upload using this request.
 
-Send this HTTP request with a changeset ID of 0. If successful, it will return a new changeset ID which you will use in further requests:[api/{vaultName}/checkin/buildtree/{changesetId} (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-buildtree-{changesetId}~o-HttpGet.html)and[api/{vaultName}/checkin/{changesetId}/{overrideVersion} (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-{changesetId}-{overrideVersion}~o-HttpPut.html)
+Send this HTTP request with a changeset ID of 0. If successful, it will return a new changeset ID which you will use in further requests: [api/{vaultName}/checkin/buildtree/{changesetId} (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-buildtree-{changesetId}~o-HttpGet.html) and [api/{vaultName}/checkin/{changesetId}/{overrideVersion} (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-checkin-{changesetId}-{overrideVersion}~o-HttpPut.html)
 
 See Also
 
-[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

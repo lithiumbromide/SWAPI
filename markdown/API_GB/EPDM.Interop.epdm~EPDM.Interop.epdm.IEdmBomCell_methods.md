@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell_methods.html"
 
 # IEdmBomCell Interface Methods
 
-For a list of all members of this type, see[IEdmBomCell members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell_members.html).
+For a list of all members of this type, see [IEdmBomCell members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell_members.html).
 
 ## Public Methods
 
@@ -27,7 +27,5 @@ For a list of all members of this type, see[IEdmBomCell members](EPDM.Interop.ep
 ## See Also
 
 [IEdmBomCell Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmBomView::SetRows Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView~SetRows.html)

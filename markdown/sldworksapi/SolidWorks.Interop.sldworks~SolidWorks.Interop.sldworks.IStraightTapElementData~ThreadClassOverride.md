@@ -45,13 +45,7 @@ property System.bool ThreadClassOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to override the thread class, false to not
 
 ## VBA Syntax
 
-See
-
-[StraightTapElementData::ThreadClassOverride](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~ThreadClassOverride.html)
-
-.
+See [StraightTapElementData::ThreadClassOverride](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~ThreadClassOverride.html).
 
 ## Examples
 
-See the
-
-[IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
-examples.
+See the [IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html) examples.
 
 ## See Also
 
 [IStraightTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
 [IStraightTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData_members.html)
-
 [IStraightTapElementData::ThreadClass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData~ThreadClass.html)
 
 ## Availability

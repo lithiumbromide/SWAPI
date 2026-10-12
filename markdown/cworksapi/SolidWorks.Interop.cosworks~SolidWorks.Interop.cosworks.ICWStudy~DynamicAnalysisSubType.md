@@ -44,30 +44,21 @@ property System.int DynamicAnalysisSubType {
 
 ### Property Value
 
-Type of linear dynamic analysis as defined in
-
-[swsDynamicAnalysisSubType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicAnalysisSubType_e.html)
+Type of linear dynamic analysis as defined in [swsDynamicAnalysisSubType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicAnalysisSubType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::DynamicAnalysisSubType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~DynamicAnalysisSubType.html)
-
-.
+See [CWStudy::DynamicAnalysisSubType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~DynamicAnalysisSubType.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

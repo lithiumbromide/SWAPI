@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditDimensionProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditDimensionProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDimensionProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditDimensionProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDimensionProperties.html).
 
 ## Syntax
 
@@ -91,13 +87,7 @@ System.bool EditDimensionProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -115,14 +105,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditDimensionProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDimensionProperties.html)
-
-.
+See [ModelDoc::EditDimensionProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDimensionProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

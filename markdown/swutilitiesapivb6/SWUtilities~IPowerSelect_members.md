@@ -1,6 +1,5 @@
 ---
-title: "IPowerSelect Object
-Members"
+title: "IPowerSelect Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IPowerSelect_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IPowerSelect_members.html"
 ---
 
-# IPowerSelect Object
-Members
+# IPowerSelect Object Members
 
 ## Public Methods
 

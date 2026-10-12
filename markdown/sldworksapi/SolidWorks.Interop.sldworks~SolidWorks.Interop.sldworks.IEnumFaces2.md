@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumFaces2 Interface
 
-Allows access to a
+Allows access to a [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) enumeration.
 
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumFaces2
 
 ## VBA Syntax
 
-See
-
-[EnumFaces2](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces2.html)
-
-.
+See [EnumFaces2](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces2.html).
 
 ## Remarks
 
@@ -68,5 +60,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumFaces2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

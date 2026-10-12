@@ -46,24 +46,12 @@ public delegate System.int DSldWorksEvents_CommandOpenPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Command`: SOLIDWORKS command ID as defined in
-
-[swCommands_e](ms-its:swcommands.chm::/SolidWorks.Interop.swcommands~SolidWorks.Interop.swcommands.swCommands_e.html)
-- `UserCommand`: Third-party application's command item's ID (see
-
-Remarks
-
-)
+- `Command`: SOLIDWORKS command ID as defined in [swCommands_e](ms-its:swcommands.chm::/SolidWorks.Interop.swcommands~SolidWorks.Interop.swcommands.swCommands_e.html)
+- `UserCommand`: Third-party application's command item's ID (see **Remarks**)
 
 ### Return Value
 
@@ -71,23 +59,17 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CommandOpenPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~CommandOpenPreNotify_EV.html)
-
-.
+See [CommandOpenPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~CommandOpenPreNotify_EV.html).
 
 ## Examples
 
 [Fire Events When PropertyManager Page Opened and Canceled (VBA)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_VB.htm)
-
 [Fire Events When PropertyManager Page Opened and Canceled (VB.NET)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_VBNET.htm)
-
 [Fire Events When PropertyManager Page Opened and Canceled (C#)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use[swAppCommandOpenPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppCommandOpenPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 The UserCommand argument is the ID assigned to your application's command item when it was added to a CommandGroup. For example:
 
@@ -99,9 +81,9 @@ cmdIndex0 = cmdGroup.AddCommandItem("CreateCube", -1, "Create a cube", "Create c
 cmdIds[0] = cmdGroup.get_CommandID(cmdIndex0);
 ```
 
-Selecting the Create cube command in the user interface causes the CommandOpenPreNotify event to fire. The Command parameter is swCommands_e.swCommands_User_Toolbar_Min, and the userCommand parameter is cmdIDs[0].
+Selecting the **Create cube** command in the user interface causes the CommandOpenPreNotify event to fire. The Command parameter is swCommands_e.swCommands_User_Toolbar_Min, and the userCommand parameter is cmdIDs[0].
 
-Call CommandCloseNotify to fire an event when the PropertyManager page is okay'd or canceled.
+Call [CommandCloseNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_CommandCloseNotifyEventHandler.html) to fire an event when the PropertyManager page is okay'd or canceled.
 
 ## Availability
 

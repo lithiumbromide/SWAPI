@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnClose Method (IPropertyManagerPage2Handler3)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnClose](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnClose.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnClose](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnClose.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnClose(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler3::OnClose](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnClose.html)
-
-.
+See [PropertyManagerPage2Handler3::OnClose](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnClose.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler3 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3.html)
-
 [IPropertyManagerPage2Handler3 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3_members.html)

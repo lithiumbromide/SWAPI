@@ -44,24 +44,15 @@ property SwDMApplication^ Application {
 
 ### Property Value
 
-Pointer to the
-
-[ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html)
-
-object
+Pointer to the [ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::Application](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Application.html)
-
-.
+See [SwDMConfiguration::Application](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Application.html).
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

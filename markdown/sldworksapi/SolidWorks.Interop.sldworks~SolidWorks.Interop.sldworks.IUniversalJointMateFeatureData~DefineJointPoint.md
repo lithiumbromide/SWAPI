@@ -45,13 +45,7 @@ property System.bool DefineJointPoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to define a joint point, false to not
 
 ## VBA Syntax
 
-See
-
-[UniversalJointMateFeatureData::DefineJointPoint](ms-its:sldworksapivb6.chm::/sldworks~UniversalJointMateFeatureData~DefineJointPoint.html)
-
-.
+See [UniversalJointMateFeatureData::DefineJointPoint](ms-its:sldworksapivb6.chm::/sldworks~UniversalJointMateFeatureData~DefineJointPoint.html).
 
 ## Examples
 
-See the
-
-[IUniversalJointMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html)
-
-example.
+See the [IUniversalJointMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html) example.
 
 ## Remarks
 
-If this property is set to true, then specify
-
-[IUniversalJointMateFeatureData::JointPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData~JointPoint.html)
-
-.
+If this property is set to true, then specify [IUniversalJointMateFeatureData::JointPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData~JointPoint.html).
 
 ## See Also
 
 [IUniversalJointMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html)
-
 [IUniversalJointMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData_members.html)
 
 ## Availability

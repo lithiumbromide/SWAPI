@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPu
 
 # GetFeature Method (IPunchTable)
 
-Gets the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object for this punch table.
+Gets the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object for this punch table.
 
 ## Syntax
 
@@ -44,42 +40,25 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[PunchTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~GetFeature.html)
-
-.
+See [PunchTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~GetFeature.html).
 
 ## Examples
 
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [IPunchTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html)
 
 ## Availability

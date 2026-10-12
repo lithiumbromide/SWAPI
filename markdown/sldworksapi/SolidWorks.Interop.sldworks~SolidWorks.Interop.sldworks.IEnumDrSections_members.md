@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumDrSections Interface Members
 
-The following tables list the members exposed by[IEnumDrSections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html).
+The following tables list the members exposed by [IEnumDrSections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumDrSections](SolidWorks.Int
 ## See Also
 
 [IEnumDrSections Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

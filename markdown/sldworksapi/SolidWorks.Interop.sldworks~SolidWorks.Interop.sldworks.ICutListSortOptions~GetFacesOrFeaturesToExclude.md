@@ -40,40 +40,20 @@ System.object GetFacesOrFeaturesToExclude()
 System.Object^ GetFacesOrFeaturesToExclude();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
-to exclude
+Array of [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) to exclude
 
 ## VBA Syntax
 
-See
-
-[CutListSortOptions::GetFacesOrFeaturesToExclude](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions~GetFacesOrFeaturesToExclude.html)
-
-.
+See [CutListSortOptions::GetFacesOrFeaturesToExclude](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions~GetFacesOrFeaturesToExclude.html).
 
 ## See Also
 
 [ICutListSortOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html)
-
 [ICutListSortOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions_members.html)
-
 [ICutListSortOptions::SetFacesOrFeaturesToExclude Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions~SetFacesOrFeaturesToExclude.html)
 
 ## Availability

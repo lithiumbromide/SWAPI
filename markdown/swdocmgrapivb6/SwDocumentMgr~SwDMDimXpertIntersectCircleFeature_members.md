@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertIntersectCircleFeature Object
-Members"
+title: "SwDMDimXpertIntersectCircleFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertIntersectCircleFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertIntersectCircleFeature_members.html"
 ---
 
-# SwDMDimXpertIntersectCircleFeature Object
-Members
+# SwDMDimXpertIntersectCircleFeature Object Members
 
 ## Public Methods
 

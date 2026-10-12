@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # CopyWithMates Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::CopyWithMates2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CopyWithMates2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::CopyWithMates2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CopyWithMates2.html).
 
 ## Syntax
 
@@ -67,21 +63,11 @@ System.bool CopyWithMates(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentsToCopy`: Array of
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-to copy
+- `ComponentsToCopy`: Array of [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) to copy
 - `Repeat`: Array of boolean values; each value indicates whether to use the existing mate reference for the corresponding component to copy: if true, copies the existing mate reference; if false, uses the corresponding entry in the NewEntityToMateTo array for the new mate reference
 - `NewEnityToMateTo`: Array of new mate references that map to the Repeat arrays; if an entry in the Repeat array is false, then the corresponding entry in this array is the new entity with which to mate the component to copy
 - `Values`: Array of distance or angle values for the mate references; specify distance in meters and angle in radians; valid for for distance and angle mates only
@@ -93,24 +79,17 @@ True if calling this method succeeded; false if it failed
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CopyWithMates](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CopyWithMates.html)
-
-.
+See [AssemblyDoc::CopyWithMates](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CopyWithMates.html).
 
 ## Examples
 
 [Copy Components With Mates to Assembly (VBA)](Copy_Components_With_Mates_To_Assembly_Example_VB.htm)
-
 [Copy Components With Mates to Assembly (VB.NET)](Copy_Components_With_Mates_To_Assembly_Example_VBNET.htm)
-
 [Copy Components With Mates to Assembly (C#)](Copy_Components_With_Mates_To_Assembly_Example_CSharp.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

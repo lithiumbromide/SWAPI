@@ -39,5 +39,4 @@ This field is empty for folders and file types not supporting configurations.
 ## See Also
 
 [EdmTaskSel Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel.html)
-
 [EdmTaskSel Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel_members.html)

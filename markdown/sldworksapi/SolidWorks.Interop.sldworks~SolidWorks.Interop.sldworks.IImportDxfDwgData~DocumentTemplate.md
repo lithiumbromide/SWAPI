@@ -45,13 +45,7 @@ property System.String^ DocumentTemplate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Filename of document template
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::DocumentTemplate](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~DocumentTemplate.html)
-
-.
+See [ImportDxfDwgData::DocumentTemplate](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~DocumentTemplate.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

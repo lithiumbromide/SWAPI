@@ -62,28 +62,19 @@ void GetLocationValues(
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::GetLocationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetLocationValues.html)
-
-.
+See [CWRemoteLoad::GetLocationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetLocationValues.html).
 
 ## Examples
 
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetLocationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetLocationValues.html)
-
 [ICWRemoteLoad::LocationUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~LocationUnit.html)
 
 ## Availability

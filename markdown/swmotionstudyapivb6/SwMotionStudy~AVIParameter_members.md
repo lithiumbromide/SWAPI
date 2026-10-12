@@ -1,6 +1,5 @@
 ---
-title: "AVIParameter Object
-Members"
+title: "AVIParameter Object Members"
 project: "SOLIDWORKS Motion Study API Help"
 interface: "AVIParameter_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swmotionstudyapivb6/SwMotionStudy~AVIParameter_members.html"
 ---
 
-# AVIParameter Object
-Members
+# AVIParameter Object Members
 
 ## Public Properties
 

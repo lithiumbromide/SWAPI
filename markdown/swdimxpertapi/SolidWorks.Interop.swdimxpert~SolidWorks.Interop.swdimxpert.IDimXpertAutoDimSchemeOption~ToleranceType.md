@@ -47,32 +47,21 @@ property System.int ToleranceType {
 
 ### Property Value
 
-Type of tolerance as defined in
-
-[swDimXpertAutoDimSchemeToleranceType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemeToleranceType_e.html)
-
-; default is swDimXpertAutoDimSchemeToleranceType_PlusMinus
+Type of tolerance as defined in [swDimXpertAutoDimSchemeToleranceType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemeToleranceType_e.html); default is swDimXpertAutoDimSchemeToleranceType_PlusMinus
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption::ToleranceType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~ToleranceType.html)
-
-.
+See [DimXpertAutoDimSchemeOption::ToleranceType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~ToleranceType.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
 
 ## Availability

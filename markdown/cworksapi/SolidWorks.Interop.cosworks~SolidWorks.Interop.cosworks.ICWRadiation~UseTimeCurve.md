@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRa
 
 # UseTimeCurve Property (ICWRadiation)
 
-Obsolete. Superseded by ICWRadiation::UseTimeCurve2.
+Obsolete. Superseded by [ICWRadiation::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~UseTimeCurve.html)
-
-.
+See [CWRadiation::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~UseTimeCurve.html).
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiation::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~GetTimeCurve.html)
-
 [ICWRadiation::SetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~SetTimeCurve.html)
 
 ## Availability

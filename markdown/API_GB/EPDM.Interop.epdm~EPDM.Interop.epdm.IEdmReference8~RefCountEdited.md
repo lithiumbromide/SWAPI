@@ -45,9 +45,7 @@ A value of -1 is returned if the reference count has not been edited.
 ## See Also
 
 [IEdmReference8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8.html)
-
 [IEdmReference8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8_members.html)
-
 [IEdmReference6::RefCount Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference6~RefCount.html)
 
 ## Availability

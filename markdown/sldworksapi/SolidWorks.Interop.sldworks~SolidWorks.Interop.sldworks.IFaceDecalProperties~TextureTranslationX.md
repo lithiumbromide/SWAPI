@@ -42,13 +42,7 @@ property System.double TextureTranslationX {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ Translation of the decal texture in the X direction
 
 ## VBA Syntax
 
-See
-
-[FaceDecalProperties::TextureTranslationX](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureTranslationX.html)
-
-.
+See [FaceDecalProperties::TextureTranslationX](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureTranslationX.html).
 
 ## Examples
 
-See
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-examples.
+See [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) examples.
 
 ## See Also
 
 [IFaceDecalProperties Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
 [IFaceDecalProperties Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties_members.html)
-
 [IFaceDecalProperties::TextureTranslationY Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureTranslationY.html)
 
 ## Availability

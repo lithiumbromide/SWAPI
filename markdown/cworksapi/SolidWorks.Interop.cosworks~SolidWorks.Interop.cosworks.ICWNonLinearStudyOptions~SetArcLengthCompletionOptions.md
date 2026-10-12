@@ -67,42 +67,26 @@ System.int SetArcLengthCompletionOptions(
 
 - `DMaxLoad`: Maximum load pattern multiplier
 - `DMaxDisplacement`: Maximum displacement (for translational DOF)
-- `NUnit`: Units as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Units as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 - `NArcSteps`: Maximum number of arc steps
 - `DArcLenMultiplier`: Initial arc length multiplier
 
 ### Return Value
 
-Status as defined in
-
-[swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
+Status as defined in [swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetArcLengthCompletionOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetArcLengthCompletionOptions.html)
-
-.
+See [CWNonLinearStudyOptions::SetArcLengthCompletionOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetArcLengthCompletionOptions.html).
 
 ## Remarks
 
-[ICWNonLinearStudyOptions::ControlMethodType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html)
-
-must be set to
-
-[swsNonLinearOptionControlMethodType_e.swsNonLinearControl_ArcLength](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html)
-
-to set arc-length completion options.
+[ICWNonLinearStudyOptions::ControlMethodType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html) must be set to [swsNonLinearOptionControlMethodType_e.swsNonLinearControl_ArcLength](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html) to set arc-length completion options.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::GetArcLengthCompletionOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~GetArcLengthCompletionOptions.html)
 
 ## Availability

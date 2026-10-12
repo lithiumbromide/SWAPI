@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_methods.html"
 
 # IEdmBom Interface Methods
 
-For a list of all members of this type, see[IEdmBom members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html).
+For a list of all members of this type, see [IEdmBom members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html).
 
 ## Public Methods
 
@@ -27,7 +27,5 @@ For a list of all members of this type, see[IEdmBom members](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmFile7::GetDerivedBOMs Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetDerivedBOMs.html)

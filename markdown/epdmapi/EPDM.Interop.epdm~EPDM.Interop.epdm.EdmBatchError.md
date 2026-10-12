@@ -34,18 +34,19 @@ public value class EdmBatchError : public System.ValueType
 
 ## Examples
 
-struct EdmBatchError{ integer mlFileID ; integer mlVariableID ; integer mlErrorCode ; };
+struct EdmBatchError{
+integer [mlFileID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlFileID.html);
+integer [mlVariableID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlVariableID.html);
+integer [mlErrorCode](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError~mlErrorCode.html);
+};
 
 ## Remarks
 
-Returned by
-
-[IEdmBatchUpdate::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~Commit.html)
+Returned by [IEdmBatchUpdate::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~Commit.html)
 
 ## See Also
 
 [EdmBatchError Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

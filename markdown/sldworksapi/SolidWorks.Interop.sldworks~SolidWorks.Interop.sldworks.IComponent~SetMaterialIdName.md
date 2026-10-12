@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # SetMaterialIdName Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::SetMaterialIdName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetMaterialIdName.html)
-
-.
+Obsolete. Superseded by [IComponent2::SetMaterialIdName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetMaterialIdName.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetMaterialIdName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component::SetMaterialIdName](ms-its:sldworksapivb6.chm::/sldworks~Component~SetMaterialIdName.html)
-
-.
+See [Component::SetMaterialIdName](ms-its:sldworksapivb6.chm::/sldworks~Component~SetMaterialIdName.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

@@ -48,11 +48,7 @@ Number of decimal places for block tolerance
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDimensionTolerance::BlockToleranceDecimalPlaces](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~BlockToleranceDecimalPlaces.html)
-
-.
+See [SwDMDimXpertDimensionTolerance::BlockToleranceDecimalPlaces](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~BlockToleranceDecimalPlaces.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance.html)
-
 [ISwDMDimXpertDimensionTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance_members.html)
 
 ## Availability

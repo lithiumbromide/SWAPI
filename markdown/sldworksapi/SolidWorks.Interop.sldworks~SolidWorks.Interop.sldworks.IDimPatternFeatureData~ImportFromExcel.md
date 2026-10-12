@@ -47,48 +47,24 @@ System.int ImportFromExcel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ExcelFile`: Path and Microsoft Excel file name from which to import a table; valid filename extensions are
-
-.xls
-
-,
-
-.xlsx
-
-, and
-
-.xlsm
+- `ExcelFile`: Path and Microsoft Excel file name from which to import a table; valid filename extensions are **.xls**, **.xlsx**, and **.xlsm**
 
 ### Return Value
 
-Status of importing a table from a Microsoft Excel file as defined in
-
-[swPatternFeatureImportExportError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternFeatureImportExportError_e.html)
+Status of importing a table from a Microsoft Excel file as defined in [swPatternFeatureImportExportError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternFeatureImportExportError_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::ImportFromExcel](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~ImportFromExcel.html)
-
-.
+See [DimPatternFeatureData::ImportFromExcel](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~ImportFromExcel.html).
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::ExportToExcel Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~ExportToExcel.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Swept-boss_Feature_Example_VB.htm"
 
 # Insert Swept-boss Feature Example (VBA)
 
-This example shows how to create a swept-boss feature and get its guide
-curves.
+This example shows how to create a swept-boss feature and get its guide curves.
 
 ```
 '----------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # ListExternalFileReferences Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::ListExternalFileReferences2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ListExternalFileReferences2.html)
-
-.
+Obsolete. Superseded by [IFeature::ListExternalFileReferences2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ListExternalFileReferences2.html).
 
 ## Syntax
 
@@ -74,13 +70,7 @@ void ListExternalFileReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,14 +84,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Feature::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~Feature~ListExternalFileReferences.html)
-
-.
+See [Feature::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~Feature~ListExternalFileReferences.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

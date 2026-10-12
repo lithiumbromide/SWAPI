@@ -40,13 +40,7 @@ PartDoc AccessBeltPart()
 PartDoc^ AccessBeltPart();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::AccessBeltPart](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~AccessBeltPart.html)
-
-.
+See [BeltChainFeatureData::AccessBeltPart](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~AccessBeltPart.html).
 
 ## Remarks
 
-This method is valid only if
-
-[IBeltChainFeatureData::CreateBeltPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~CreateBeltPart.html)
-
-is true.
+This method is valid only if [IBeltChainFeatureData::CreateBeltPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~CreateBeltPart.html) is true.
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

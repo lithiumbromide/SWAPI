@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to the comments in the Comment folder in the FeatureManager design tree.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IComment
 
 ## VBA Syntax
 
-See
-
-[Comment](ms-its:sldworksapivb6.chm::/sldworks~Comment.html)
-
-.
+See [Comment](ms-its:sldworksapivb6.chm::/sldworks~Comment.html).
 
 ## Examples
 
 [Get Comments in Comments Folder (C#)](Get_Comments_in_Comments_Folder_Example_CSharp.htm)
-
 [Get Comments in Comments Folder (VB.NET)](Get_Comments_in_Comments_Folder_Example_VBNET.htm)
-
 [Get Comments in Comments Folder (VBA)](Get_Comments_in_Comments_Folder_Example_VB.htm)
 
 ## Remarks
@@ -68,7 +62,7 @@ Remarks
 
 [ICommentFolder::AddComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~AddComment.html)
 
-[ICommentFolder::GetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~GetComments.html)and[ICommentFolder::IGetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~IGetComments.html)
+[ICommentFolder::GetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~GetComments.html) and [ICommentFolder::IGetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~IGetComments.html)
 
 [IFeature::AddComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~AddComment.html)
 
@@ -81,7 +75,5 @@ Remarks
 ## See Also
 
 [IComment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)

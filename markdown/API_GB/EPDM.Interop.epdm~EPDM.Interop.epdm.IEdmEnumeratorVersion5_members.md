@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_membe
 
 # IEdmEnumeratorVersion5 Interface Members
 
-The following tables list the members exposed by[IEdmEnumeratorVersion5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html).
+The following tables list the members exposed by [IEdmEnumeratorVersion5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html).
 
 ## Public Properties
 
@@ -41,5 +41,4 @@ The following tables list the members exposed by[IEdmEnumeratorVersion5](EPDM.In
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

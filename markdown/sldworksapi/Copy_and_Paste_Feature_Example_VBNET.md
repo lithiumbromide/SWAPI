@@ -61,41 +61,14 @@ Partial Class SolidWorksMacro
 ```
 
 ' Zoom to selection, then zoom to fit
+swModel.**ViewZoomToSelection**()
+swModel.**ViewZoomtofit2**()
 
-swModel.
+End Sub
 
-ViewZoomToSelection
-
-()
-
-swModel.
-
-ViewZoomtofit2
-
-()
-
-End
-
-Sub
-
-'''
-
-<summary>
-
+''' <summary>
 ''' The SldWorks swApp variable is pre-assigned for you.
+''' </summary>
+Public swApp As SldWorks
 
-'''
-
-</summary>
-
-Public
-
-swApp
-
-As
-
-SldWorks
-
-End
-
-Class
+End Class

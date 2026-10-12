@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Linear_Pattern_Example_VB.htm"
 
 # Create Linear Pattern Example (VBA)
 
-This example shows how to create a linear-pattern feature using an offset
-reference.
+This example shows how to create a linear-pattern feature using an offset reference.
 
 ```vb
  '----------------------------------------------------------------------------

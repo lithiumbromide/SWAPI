@@ -9,8 +9,7 @@ source: "sldworksapi/Rebuild_All_Configurations_Without_Activating_Each_Configur
 
 # Rebuild All Configurations Without Activating Each Configuration Example (VB.NET)
 
-This example shows how to rebuild only those features that need to be rebuilt in all configurations without
-activating each configuration.
+This example shows how to rebuild only those features that need to be rebuilt in all configurations without activating each configuration.
 
 ```
 '-------------------------------------------------------------------

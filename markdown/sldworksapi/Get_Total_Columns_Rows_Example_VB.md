@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Total_Columns_Rows_Example_VB.htm"
 
 # Get the Total Number of Columns and Rows in a Table Example (VBA)
 
-This example shows how to get the total number of columns
-and rows (visible and hidden) in a table annotation.
+This example shows how to get the total number of columns and rows (visible and hidden) in a table annotation.
 
 ```vb
  '----------------------------------------------------------------------------

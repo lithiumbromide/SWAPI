@@ -51,13 +51,7 @@ Component2^ IGetFeatureScope(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,42 +60,28 @@ See
 
 ### Return Value
 
-Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-of size NumComponents
+Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) of size NumComponents
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IGetFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IGetFeatureScope.html)
-
-.
+See [AssemblyDoc::IGetFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IGetFeatureScope.html).
 
 ## Remarks
 
 Feature scope information is only provided if the assembly is opened in its own window.
 
-COM users must call[IAssemblyDoc::GetFeatureScopeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~GetFeatureScopeCount.html)before calling this method.
+COM users must call [IAssemblyDoc::GetFeatureScopeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~GetFeatureScopeCount.html) before calling this method.
 
 This method gets both the components affected and potentially affected by this feature. Thus, not all of the components in this list are necessarily affected by this feature.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetFeatureScope.html)
-
 [IAssemblyDoc::AddToFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddToFeatureScope.html)
-
 [IAssemblyDoc::GetFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetFeatureScope.html)
-
 [IAssemblyDoc::GetFeatureScopeCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetFeatureScopeCount.html)
-
 [IAssemblyDoc::UpdateFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html)
 
 ## Availability

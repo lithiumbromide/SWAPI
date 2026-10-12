@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # IPropertyManagerPage2Handler Interface Methods
 
-For a list of all members of this type, see[IPropertyManagerPage2Handler members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html).
+For a list of all members of this type, see [IPropertyManagerPage2Handler members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html).
 
 ## Public Methods
 
@@ -35,5 +35,4 @@ For a list of all members of this type, see[IPropertyManagerPage2Handler members
 ## See Also
 
 [IPropertyManagerPage2Handler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

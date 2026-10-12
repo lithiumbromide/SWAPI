@@ -50,45 +50,19 @@ property System.int SelectionColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Mark`: Mark value (see
-
-Remarks
-
-)
+- `Mark`: Mark value (see **Remarks**)
 
 ### Property Value
 
-Value indicating the color to use for a selection as defined by swSystemColors; these values are from
-
-[swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-(see
-
-Remarks
-
-)
+Value indicating the color to use for a selection as defined by swSystemColors; these values are from [swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html) (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::SelectionColor](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SelectionColor.html)
-
-.
+See [SelectionMgr::SelectionColor](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SelectionColor.html).
 
 ## Remarks
 
@@ -114,9 +88,7 @@ You can also specify any of the following values:
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [ISelectionMgr::ClearSelectionColors Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~ClearSelectionColors.html)
 
 ## Availability

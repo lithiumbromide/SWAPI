@@ -47,13 +47,7 @@ System.int SetButtons(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage::SetButtons](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetButtons.html)
-
-.
+See [PropertyManagerPage::SetButtons](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetButtons.html).
 
 ## See Also
 
 [IPropertyManagerPage Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage.html)
-
 [IPropertyManagerPage Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage_members.html)

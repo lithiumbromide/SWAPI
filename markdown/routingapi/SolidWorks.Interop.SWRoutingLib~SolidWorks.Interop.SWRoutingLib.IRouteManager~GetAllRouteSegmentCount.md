@@ -44,26 +44,18 @@ System.int GetAllRouteSegmentCount();
 
 Number of route segments for active route
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[RouteManager::GetAllRouteSegmentCount](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAllRouteSegmentCount.html)
-
-.
+See [RouteManager::GetAllRouteSegmentCount](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAllRouteSegmentCount.html).
 
 ## Remarks
 
-Call this method before calling[IRouteManager::IGetAllRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~IGetAllRouteSegmentIDs.html)to get the size of the array for that method.
+Call this method before calling [IRouteManager::IGetAllRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~IGetAllRouteSegmentIDs.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
-
 [IRouteManager::GetAllRouteSegmentIDs Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAllRouteSegmentIDs.html)
 
 ## Availability

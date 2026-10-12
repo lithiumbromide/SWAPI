@@ -9,11 +9,9 @@ source: "swdocmgrapi/Code_Example_CSharp.htm"
 
 # DimXpert Example (C#)
 
-This example shows how to call interfaces, methods, and properties in the
-SOLIDWORKS Document Manager API for parts with DimXpert features and annotations.
+This example shows how to call interfaces, methods, and properties in the SOLIDWORKS Document Manager API for parts with DimXpert features and annotations.
 
-To learn how to build parts containing DimXpert features and annotations that
-work with a particular API, open the examples in the**Examples**section in the SOLIDWORKS Document Manager API topic of interest.
+To learn how to build parts containing DimXpert features and annotations that work with a particular API, open the examples in the **Examples** section in the SOLIDWORKS Document Manager API topic of interest.
 
 ```vb
   //-----------------------------------------------------------------------------

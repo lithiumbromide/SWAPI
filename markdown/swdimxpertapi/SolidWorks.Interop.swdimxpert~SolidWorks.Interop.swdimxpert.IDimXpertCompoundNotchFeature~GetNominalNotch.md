@@ -107,16 +107,11 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::GetNominalNotch](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetNominalNotch.html)
-
-.
+See [DimXpertCompoundNotchFeature::GetNominalNotch](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetNominalNotch.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## Remarks
@@ -126,7 +121,6 @@ The longitudinal i, j, and k component vectors indicate the direction of a notch
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

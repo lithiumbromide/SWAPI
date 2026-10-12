@@ -48,16 +48,11 @@ Status
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::Status](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Status.html)
-
-.
+See [PDMWSearchResult::Status](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Status.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

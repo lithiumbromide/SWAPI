@@ -1,6 +1,5 @@
 ---
-title: "BendsFeatureData Object
-Members"
+title: "BendsFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BendsFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BendsFeatureData_members.html"
 ---
 
-# BendsFeatureData Object
-Members
+# BendsFeatureData Object Members
 
 ## Public Methods
 

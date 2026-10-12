@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # SetDirections Method (ICWDynamicInitialCondition)
 
-Obsolete. Superseded by[ICWDynamicInitialCondition::SetDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirections2.html).
+Obsolete. Superseded by [ICWDynamicInitialCondition::SetDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirections2.html).
 
 ## Syntax
 
@@ -56,48 +56,24 @@ void SetDirections(
 
 ### Parameters
 
-- `BDir1`: 1 to set this initial condition along direction 1 (if direction reference is a plane or face) or in a radial direction (if direction reference is a cylindrical face or axis), 0 to not (see
-
-Remarks
-
-)
-- `BDir2`: 1 to set this initial condition along direction 2 (if direction reference is a plane or face) or in a circumferential direction (if direction reference is a cylindrical face or axis), 0 to not (see
-
-Remarks
-
-)
-- `BDir3`: 1 to set this initial condition along the normal (if direction reference is a plane or face), or in an axial direction (if direction reference is a cylindrical face or axis), or along an edge (if direction reference is an edge); 0 to not (see
-
-Remarks
-
-)
+- `BDir1`: 1 to set this initial condition along direction 1 (if direction reference is a plane or face) or in a radial direction (if direction reference is a cylindrical face or axis), 0 to not (see **Remarks**)
+- `BDir2`: 1 to set this initial condition along direction 2 (if direction reference is a plane or face) or in a circumferential direction (if direction reference is a cylindrical face or axis), 0 to not (see **Remarks**)
+- `BDir3`: 1 to set this initial condition along the normal (if direction reference is a plane or face), or in an axial direction (if direction reference is a cylindrical face or axis), or along an edge (if direction reference is an edge); 0 to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::SetDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~SetDirections.html)
-
-.
+See [CWDynamicInitialCondition::SetDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~SetDirections.html).
 
 ## Remarks
 
-Call
-
-[ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html)
-
-to set the direction reference for this initial condition.
+Call [ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html) to set the direction reference for this initial condition.
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::GetDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html)
-
 [ICWDynamicInitialCondition::SetReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetReverseDirections.html)
-
 [ICWDynamicInitialCondition::SetValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetValues.html)
 
 ## Availability

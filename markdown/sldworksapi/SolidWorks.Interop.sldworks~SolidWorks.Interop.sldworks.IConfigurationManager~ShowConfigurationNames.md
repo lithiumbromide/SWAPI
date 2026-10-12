@@ -45,13 +45,7 @@ property System.bool ShowConfigurationNames {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to display configuration names, false to not
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::ShowConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~ShowConfigurationNames.html)
-
-.
+See [ConfigurationManager::ShowConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~ShowConfigurationNames.html).
 
 ## Examples
 
@@ -71,16 +61,11 @@ See
 
 ## Remarks
 
-If you set this property to false, you cannot set
-
-[IConfigurationManager::ShowConfigurationDescriptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ShowConfigurationDescriptions.html)
-
-to false. Either the name or the description of a configuration must be shown.
+If you set this property to false, you cannot set [IConfigurationManager::ShowConfigurationDescriptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ShowConfigurationDescriptions.html) to false. Either the name or the description of a configuration must be shown.
 
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
 
 ## Availability

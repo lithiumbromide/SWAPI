@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetFeatureId Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetFeatureId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeatureId.html)
-
-.
+Obsolete. Superseded by [IFace2::GetFeatureId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeatureId.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetFeatureId()
 System.int GetFeatureId();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetFeatureId](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFeatureId.html)
-
-.
+See [Face::GetFeatureId](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFeatureId.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

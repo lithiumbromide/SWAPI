@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SaveToFile2 Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::SaveToFile3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SaveToFile3.html)
-
-.
+Obsolete. Superseded by [IPartDoc::SaveToFile3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SaveToFile3.html).
 
 ## Syntax
 
@@ -63,26 +59,14 @@ System.bool SaveToFile2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of the part document (.sldprt)
-- `Options`: Relevant options indicating how to save the document as defined in
-
-[swSaveAsOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSaveAsOptions_e.html)
-- `Errors`: Errors that caused the save to fail as defined in
-
-[swFileSaveError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveError_e.html)
-- `Warnings`: Warnings or extra information generated during the save operation as defined in
-
-[swFileSaveWarning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveWarning_e.html)
+- `Options`: Relevant options indicating how to save the document as defined in [swSaveAsOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSaveAsOptions_e.html)
+- `Errors`: Errors that caused the save to fail as defined in [swFileSaveError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveError_e.html)
+- `Warnings`: Warnings or extra information generated during the save operation as defined in [swFileSaveWarning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveWarning_e.html)
 
 ### Return Value
 
@@ -90,16 +74,11 @@ True if the save is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::SaveToFile2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SaveToFile2.html)
-
-.
+See [PartDoc::SaveToFile2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SaveToFile2.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
 
 ## Availability

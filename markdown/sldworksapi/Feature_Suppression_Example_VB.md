@@ -11,14 +11,9 @@ source: "sldworksapi/Feature_Suppression_Example_VB.htm"
 
 This example shows how to suppress a feature in a part.
 
-This example also shows how to perform a string
-comparison using Visual Basic. The first input
-parameter, searchStr, allows you to pass in a feature name or a portion
-of a feature name.
+This example also shows how to perform a string comparison using Visual Basic. The first input parameter, searchStr, allows you to pass in a feature name or a portion of a feature name.
 
-This macro cycles through all the features in the part and
-selects all features that contain the specified search string and suppresses
-those features.
+This macro cycles through all the features in the part and selects all features that contain the specified search string and suppresses those features.
 
 ```
 '------------------------------------------------------

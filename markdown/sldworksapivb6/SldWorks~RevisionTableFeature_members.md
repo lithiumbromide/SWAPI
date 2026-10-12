@@ -1,6 +1,5 @@
 ---
-title: "RevisionTableFeature Object
-Members"
+title: "RevisionTableFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RevisionTableFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RevisionTableFeature_members.html"
 ---
 
-# RevisionTableFeature Object
-Members
+# RevisionTableFeature Object Members
 
 ## Public Methods
 

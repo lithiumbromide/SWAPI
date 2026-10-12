@@ -59,13 +59,7 @@ System.String^ IGetDocumentDependencies2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -82,11 +76,11 @@ See
   - Filename with the complete pathname; this combination repeats itself for each dependent file found for this document
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Before calling this method, call[ISldWorks::IGetDoucmentDependenciesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.html)to determine the size of the returned arrayl
+Before calling this method, call [ISldWorks::IGetDoucmentDependenciesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.html) to determine the size of the returned arrayl
 
 As an example, calling this method on a drawing document returns a list of all the part and assemblies used in the drawing. If you set the Traverseflag to True, then each of the parts within the assembly file are also returned in this array of strings.
 
@@ -96,22 +90,20 @@ Be aware that Library features are completely unassociated. They do not require 
 
 If you use this method with an assembly that contains two documents, Part1 and SubAssem1, an example of what might be returned is:
 
-["Part1", "C:\temp\Part1.SLDPRT", "SubAssem1", "c:\temp\SubAssem1.SLDASM"]
+[ "Part1", "C:\temp\Part1.SLDPRT", "SubAssem1", "c:\temp\SubAssem1.SLDASM" ]
 
-IfTraverseflag isset to True, then all of the documents contained in SubAssem1.ASM are also returned. Suppressed components are recognized and returned by this method as a dependent file.
+If Traverseflag is set to True, then all of the documents contained in SubAssem1.ASM are also returned. Suppressed components are recognized and returned by this method as a dependent file.
 
 If the AddReadOnlyInfo flag is set to True, then a string of "Read-Only" is added to the list of strings. If Part1 from were read-only, then the resulting set of strings would be:
 
-["Part1", "C:\temp\Part1.SLDPRT", "Read-Only", "SubAssem1", "c:\temp\SubAssem1.SLDASM", ""]
+[ "Part1", "C:\temp\Part1.SLDPRT", "Read-Only", "SubAssem1", "c:\temp\SubAssem1.SLDASM", "" ]
 
-NOTE:If the SearchFlag is set to True, then the current directory is set to the directory of the document file. This replicates the interactive behavior of theReferencesbutton in the File Open dialog window.
+NOTE: If the SearchFlag is set to True, then the current directory is set to the directory of the document file. This replicates the interactive behavior of the References button in the File Open dialog window.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetDocumentDependencies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependencies2.html)
 
 ## Availability

@@ -43,7 +43,7 @@ public enum class SwDmCustomInfoType : public System.Enum
 | Member | Description |
 | --- | --- |
 | swDmCustomInfoDate | 64 |
-| swDmCustomInfoEquation |  |
+| swDmCustomInfoEquation | 105 |
 | swDmCustomInfoNumber | 3 |
 | swDmCustomInfoText | 30 |
 | swDmCustomInfoUnknown | 0 |

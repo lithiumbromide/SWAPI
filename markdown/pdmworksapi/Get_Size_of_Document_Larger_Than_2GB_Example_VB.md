@@ -12,15 +12,10 @@ source: "pdmworksapi/Get_Size_of_Document_Larger_Than_2GB_Example_VB.htm"
 You can get the size of a document larger than 2GB by calling either:
 
 - IPDMWDocument::GetDocumentSize
-
   - or -
-- IPDMWDocument::SizeH
-  and IPDMWDocument::Size and combining their return values
+- IPDMWDocument::SizeH and IPDMWDocument::Size and combining their return values.
 
-  .
-
-This example shows how to get the size of a document larger than 2GB, using both
-ways.
+This example shows how to get the size of a document larger than 2GB, using both ways.
 
 ```
 ' ---------------------------------------------------------------------------

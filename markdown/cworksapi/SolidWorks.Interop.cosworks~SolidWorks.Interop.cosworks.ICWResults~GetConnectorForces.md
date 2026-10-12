@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetConnectorForces Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetConnectorForces2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetConnectorForces2.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetConnectorForces2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetConnectorForces2.html).
 
 ## Syntax
 
@@ -67,10 +63,8 @@ System.Object^ GetConnectorForces(
 
 - `NStepNumber`: Solution step number (use 1 for static)
 - `SName`: Name of a pin, bolt, or bearing connector
-- `NUnits`: Output units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Output units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -91,16 +85,11 @@ Array of twelve doubles of the connector forces:
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetConnectorForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetConnectorForces.html)
-
-.
+See [CWResults::GetConnectorForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetConnectorForces.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

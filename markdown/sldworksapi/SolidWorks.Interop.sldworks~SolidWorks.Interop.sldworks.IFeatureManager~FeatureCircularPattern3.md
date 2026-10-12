@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureCircularPattern3 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureCircularPattern4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCircularPattern4.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureCircularPattern4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCircularPattern4.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ Feature^ FeatureCircularPattern3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,23 +80,17 @@ See
 
 ### Return Value
 
-Circular pattern
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Circular pattern [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCircularPattern3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern3.html)
-
-.
+See [FeatureManager::FeatureCircularPattern3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern3.html).
 
 ## Remarks
 
 This method requires ordered selection of the features and components.
 
-- Features and axis: Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a Mark of 4 for the features to pattern and a Mark of 1 for the axis. You can also use[IFeature::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Select2.html)to select the features and the axis.
+- Features and axis: Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a Mark of 4 for the features to pattern and a Mark of 1 for the axis. You can also use [IFeature::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Select2.html) to select the features and the axis.
 - Components and axis: Use IModelDocExtension::SelectByID2 with a Mark of 1 for the components to pattern and a Mark of 2 for the axis.
 
 You must select the features or components before selecting the axis.
@@ -114,9 +98,7 @@ You must select the features or components before selecting the axis.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6_membe
 
 # IEdmBatchChangeState6 Interface Members
 
-The following tables list the members exposed by[IEdmBatchChangeState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html).
+The following tables list the members exposed by [IEdmBatchChangeState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmBatchChangeState6](EPDM.Int
 ## See Also
 
 [IEdmBatchChangeState6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

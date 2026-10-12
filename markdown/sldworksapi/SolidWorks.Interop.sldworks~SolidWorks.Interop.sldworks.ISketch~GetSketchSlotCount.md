@@ -40,13 +40,7 @@ System.int GetSketchSlotCount()
 System.int GetSketchSlotCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of sketch slots in this sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchSlotCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchSlotCount.html)
-
-.
+See [Sketch::GetSketchSlotCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchSlotCount.html).
 
 ## Examples
 
@@ -66,18 +56,12 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ISketch::IGetSketchSlots](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchSlots.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ISketch::IGetSketchSlots](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchSlots.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchSlots Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchSlots.html)
 
 ## Availability

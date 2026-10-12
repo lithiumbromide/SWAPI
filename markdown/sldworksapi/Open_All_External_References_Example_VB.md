@@ -18,12 +18,12 @@ This example shows how to specify to open all external references.
 ' Preconditions: Open the Immediate window.
 '
 ' Postconditions:
-' 1. Changes your SOLIDWORKS load all external references system
+' 1. Changes your SOLIDWORKS Design load all external references system
 '    setting to 1 (swLoadExternalReferences_e.swLoadExternalReferences_All),
 '    if not already set.
 ' 2. Examine the Immediate window.
 '
-' NOTE: This macro changes your SOLIDWORKS load external references
+' NOTE: This macro changes your SOLIDWORKS Design load external references
 ' setting.
 '-------------------------------------------------------------------
 Option Explicit

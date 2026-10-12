@@ -55,27 +55,13 @@ System.bool DeleteBlends3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceList`: List of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to delete
+- `FaceList`: List of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to delete
 - `DoLocalCheck`: True to perform a local check, false to not
-- `UsePlanarCap`: True to use planar caps, false to not (see
-
-Remarks
-
-)
+- `UsePlanarCap`: True to use planar caps, false to not (see **Remarks**)
 
 ### Return Value
 
@@ -83,18 +69,12 @@ True if the set of fillet faces are removed, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::DeleteBlends3](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteBlends2.html)
-
-.
+See [Body2::DeleteBlends3](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteBlends2.html).
 
 ## Examples
 
 [Delete Blended Faces (C#)](Delete_Blended_Faces_Example_CSharp.htm)
-
 [Delete Blended Faces (VB.NET)](Delete_Blended_Faces_Example_VBNET.htm)
-
 [Delete Blended Faces (VBA)](Delete_Blended_Faces_Example_VB.htm)
 
 ## Remarks
@@ -104,11 +84,8 @@ Typically when deleting blends, an entire chain of blends is deleted. However, i
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IDeleteBlends3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IDeleteBlends3.html)
-
 [IBody5::DeleteFaces5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DeleteFaces5.html)
 
 ## Availability

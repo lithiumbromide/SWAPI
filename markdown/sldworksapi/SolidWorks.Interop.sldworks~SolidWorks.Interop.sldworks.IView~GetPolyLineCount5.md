@@ -51,18 +51,12 @@ System.int GetPolyLineCount5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CrossHatchOption`: Crosshatch option as defined in[swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
-- `PointCount`: Size of array needed to allocate in doubles for[IView::IGetPolylines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html)
+- `CrossHatchOption`: Crosshatch option as defined in [swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
+- `PointCount`: Size of array needed to allocate in doubles for [IView::IGetPolylines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html)
 
 ### Return Value
 
@@ -70,11 +64,7 @@ Number of polylines
 
 ## VBA Syntax
 
-See
-
-[View::GetPolyLineCount5](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLineCount5.html)
-
-.
+See [View::GetPolyLineCount5](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLineCount5.html).
 
 ## Examples
 
@@ -82,7 +72,7 @@ See
 
 ## Remarks
 
-Call this method before calling[IView::IGetPolylines6.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html)
+Call this method before calling [IView::IGetPolylines6.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html)
 
 | If... | Then... |
 | --- | --- |
@@ -93,17 +83,11 @@ Call this method before calling[IView::IGetPolylines6.](SOLIDWORKS.Interop.sldwo
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayMode2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayMode2.html)
-
 [IView::GetPolylines6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolylines6.html)
-
 [IView::GetPolyLinesAndCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolyLinesAndCurves.html)
-
 [IView::GetPolyLinesAndCurvesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolyLinesAndCurvesCount.html)
-
 [IView::IGetPolyLinesAndCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetPolyLinesAndCurves.html)
 
 ## Availability

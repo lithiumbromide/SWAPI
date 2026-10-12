@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # AddMate5 Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::CreateMate.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
+Obsolete. Superseded by [IAssemblyDoc::CreateMate.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
 
 ## Syntax
 
@@ -105,40 +103,16 @@ Mate2^ AddMate5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MateTypeFromEnum`: Type of mate as defined in
-
-[swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html)
-
-(see
-
-Remarks
-
-)
-- `AlignFromEnum`: Type of alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+- `MateTypeFromEnum`: Type of mate as defined in [swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html) (see **Remarks**)
+- `AlignFromEnum`: Type of alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
 - `Flip`: True to flip the mate entities, false to not; valid only if MateTypeFromEnum is swMatetype_e.swMateDISTANCE
 - `Distance`: Distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE
-- `DistanceAbsUpperLimit`: Absolute maximum distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE (see
-
-Remarks
-
-)
-- `DistanceAbsLowerLimit`: Absolute minimum distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE (see
-
-Remarks
-
-)
+- `DistanceAbsUpperLimit`: Absolute maximum distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE (see **Remarks**)
+- `DistanceAbsLowerLimit`: Absolute minimum distance value; valid only if MateTypeFromEnum is swMateType_e.swMateDISTANCE (see **Remarks**)
 - `GearRatioNumerator`: Gear ratio numerator value; valid only if MateTypeFromEnum is swMateType_e.swMateGEAR
 - `GearRatioDenominator`: Gear ratio denominator value; valid only if MateTypeFromEnum is swMateType_e.swMateGEAR
 - `Angle`: Angle value; valid only if MateTypeFromEnum is swMateType_e.swMateANGLE
@@ -146,14 +120,8 @@ Remarks
 - `AngleAbsLowerLimit`: Absolute minimum angle value; valid only if MateTypeFromEnum is swMateType_e.swMateANGLE
 - `ForPositioningOnly`: True to only position the components according to the mating relationship and not return a mate, false to return a mate
 - `LockRotation`: True to lock component rotation, false to not
-- `WidthMateOption`: Width mate options as defined in
-
-[swMateWidthOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateWidthOptions_e.html)
-
-; valid only if MateTypeFromEnum is swMateType_e.swMateWIDTH
-- `ErrorStatus`: Success or error as defined by
-
-[swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
+- `WidthMateOption`: Width mate options as defined in [swMateWidthOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateWidthOptions_e.html); valid only if MateTypeFromEnum is swMateType_e.swMateWIDTH
+- `ErrorStatus`: Success or error as defined by [swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
 
 ### Return Value
 
@@ -161,45 +129,24 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddMate5](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate5.html)
-
-.
+See [AssemblyDoc::AddMate5](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate5.html).
 
 ## Examples
 
 [Add and Mate Component (VBA)](Add_Component_and_Mate_Example_VB.htm)
-
 [Add and Mate Component (VB.NET)](Add_Component_and_Mate_Example_VBNET.htm)
-
 [Add and Mate Component (C#)](Add_Component_and_Mate_Example_CSharp.htm)
-
 [Copy Component With Profile Center Mate (C#)](Copy_Component_With_Profile_Center_Mate_Example_CSharp.htm)
-
 [Copy Component With Profile Center Mate (VB.NET)](Copy_Component_With_Profile_Center_Mate_Example_VBNET.htm)
-
 [Copy Component With Profile Center Mate (VBA)](Copy_Component_With_Profile_Center_Mate_Example_VB.htm)
 
 ## Remarks
 
 To create:
 
-- Standard, advanced, and mechanical mates, use
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  .
-- Misaligned concentric mates, use
-
-  [IAssemblyDoc::AddConcentricMateWithTolerance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddConcentricMateWithTolerance.html)
-
-  .
-- Cylindrical distance mates, use
-
-  [IAssemblyDoc::AddDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddDistanceMate.html)
-
-  .
+- Standard, advanced, and mechanical mates, use [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html).
+- Misaligned concentric mates, use [IAssemblyDoc::AddConcentricMateWithTolerance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddConcentricMateWithTolerance.html).
+- Cylindrical distance mates, use [IAssemblyDoc::AddDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddDistanceMate.html).
 
 The difference between this method and the now obsolete IAssemblyDoc::AddMate4 is the WidthMateOption parameter.
 
@@ -209,16 +156,8 @@ If MateTypeFromEnum is swMateType_e.swMateDISTANCE or swMateType_e.swMateANGLE, 
 
 To add a standard or mechanical mate:
 
-1. Call
-
-  [IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html)
-
-  before selecting entities to mate.
-2. Call
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to select each entity to mate.
+1. Call [IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html) before selecting entities to mate.
+2. Call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select each entity to mate.
 
   | If MateTypeFromEnum is... | Use selection mark... |
   | --- | --- |
@@ -233,13 +172,9 @@ If entities are not preselected, then ErrorStatus is swAddMateError_e.swAddMateE
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::EditMate3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditMate3.html)
-
 [IAssemblyDoc::EditConcentricMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditConcentricMate.html)
-
 [IAssemblyDoc::EditDistanceMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditDistanceMate.html)
 
 ## Availability

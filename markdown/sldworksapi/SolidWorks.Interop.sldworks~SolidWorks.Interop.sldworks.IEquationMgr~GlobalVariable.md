@@ -47,13 +47,7 @@ property System.bool GlobalVariable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,20 @@ True if the equation at the specified index is a global variable, false if not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::GlobalVariable](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~GlobalVariable.html)
-
-.
+See [EquationMgr::GlobalVariable](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~GlobalVariable.html).
 
 ## Examples
 
 [Get Equation Values (C#)](Get_Equation_Values_Example_CSharp.htm)
-
 [Get Equation Values (VB.NET)](Get_Equation_Values_Example_VBNET.htm)
-
 [Get Equation Values (VBA)](Get_Equation_Values_Example_VB.htm)
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::GetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
-
 [IEquationMgr::Value Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Value.html)
 
 ## Availability

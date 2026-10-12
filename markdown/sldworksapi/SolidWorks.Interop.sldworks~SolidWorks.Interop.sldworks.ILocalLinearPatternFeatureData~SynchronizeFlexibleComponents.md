@@ -45,13 +45,7 @@ property System.bool SynchronizeFlexibleComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to synchronize the movement of patterned flexible subassembly components wi
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::SynchronizeFlexibleComponents](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SynchronizeFlexibleComponents.html)
-
-.
+See [LocalLinearPatternFeatureData::SynchronizeFlexibleComponents](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SynchronizeFlexibleComponents.html).
 
 ## Examples
 
-See the
-
-[ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
-example.
+See the [ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -79,12 +65,11 @@ This property is valid for a linear pattern of flexible subassemblies.
 
 If this property is set to true, then when you move components in the seed flexible subassembly, components in the patterned flexible subassemblies also move, and vice versa.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "WeldmentBeadFeatureData Object
-Members"
+title: "WeldmentBeadFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WeldmentBeadFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WeldmentBeadFeatureData_members.html"
 ---
 
-# WeldmentBeadFeatureData Object
-Members
+# WeldmentBeadFeatureData Object Members
 
 ## Public Methods
 

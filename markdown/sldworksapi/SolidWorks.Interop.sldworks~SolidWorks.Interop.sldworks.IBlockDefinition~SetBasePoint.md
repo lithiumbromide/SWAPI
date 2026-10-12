@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # SetBasePoint Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::InsertionPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~InsertionPoint.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::InsertionPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~InsertionPoint.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetBasePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::SetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~SetBasePoint.html)
-
-.
+See [BlockDefinition::SetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~SetBasePoint.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

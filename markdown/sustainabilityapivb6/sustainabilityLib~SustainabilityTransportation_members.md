@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityTransportation Object
-Members"
+title: "SustainabilityTransportation Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityTransportation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityTransportation_members.html"
 ---
 
-# SustainabilityTransportation Object
-Members
+# SustainabilityTransportation Object Members
 
 ## Public Properties
 

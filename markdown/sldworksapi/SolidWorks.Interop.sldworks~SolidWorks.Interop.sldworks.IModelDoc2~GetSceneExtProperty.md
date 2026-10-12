@@ -47,13 +47,7 @@ System.Object^ GetSceneExtProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,16 @@ Value stored for the scene extension property
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetSceneExtProperty.html)
-
-.
+See [ModelDoc2::GetSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetSceneExtProperty.html).
 
 ## Remarks
 
-The type returned is based on the how the data was placed. See
-
-[IModelDoc2::AddSceneExtProperty](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddSceneExtProperty.html)
-
-for deatails.
+The type returned is based on the how the data was placed. See [IModelDoc2::AddSceneExtProperty](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddSceneExtProperty.html) for deatails.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ResetSceneExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ResetSceneExtProperty.html)
 
 ## Availability

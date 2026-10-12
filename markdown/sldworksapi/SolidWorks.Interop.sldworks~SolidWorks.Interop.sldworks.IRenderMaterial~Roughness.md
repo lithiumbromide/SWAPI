@@ -45,13 +45,7 @@ property System.double Roughness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Specular spread
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Roughness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Roughness.html)
-
-.
+See [RenderMaterial::Roughness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Roughness.html).
 
 ## Remarks
 
 This property controls the size of any highlights on a surface. It is also known as the specular exponent. Increasing Roughness makes highlights larger and softer.
 
-The[specular](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Specular.html)value must not be zero, the[specular color](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SpecularColor.html)must not be black, and at least one light other than an ambient light must be illuminating the model.
+The [specular](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Specular.html) value must not be zero, the [specular color](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SpecularColor.html) must not be black, and at least one light other than an ambient light must be illuminating the model.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

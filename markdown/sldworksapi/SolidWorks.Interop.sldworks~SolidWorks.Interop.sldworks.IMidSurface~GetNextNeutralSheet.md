@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetNextNeutralSheet Method (IMidSurface)
 
-Obsolete. Superseded by
-
-[IMidSurface2::GetNextNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextNeutralSheet.html)
-
-.
+Obsolete. Superseded by [IMidSurface2::GetNextNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextNeutralSheet.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetNextNeutralSheet()
 System.Object^ GetNextNeutralSheet();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MidSurface::GetNextNeutralSheet](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetNextNeutralSheet.html)
-
-.
+See [MidSurface::GetNextNeutralSheet](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetNextNeutralSheet.html).
 
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)

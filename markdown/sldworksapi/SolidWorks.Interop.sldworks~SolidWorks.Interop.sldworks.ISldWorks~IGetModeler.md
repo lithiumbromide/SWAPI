@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetModeler Method (ISldWorks)
 
-Gets the
-
-[IModeler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler.html)
-
-interface.
+Gets the [IModeler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler.html) interface.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ Modeler IGetModeler()
 Modeler^ IGetModeler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,10 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetModeler](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetModeler.html)
-
-.
+See [SldWorks::IGetModeler](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetModeler.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetModeler Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetModeler.html)

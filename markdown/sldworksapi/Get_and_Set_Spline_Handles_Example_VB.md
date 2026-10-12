@@ -11,19 +11,17 @@ source: "sldworksapi/Get_and_Set_Spline_Handles_Example_VB.htm"
 
 This example shows how to get and set the properties of spline handles in a 2D spline.
 
-'----------------------------------------------------------------------------
-' Preconditions:
-' 1. Verify that the specified document template exists.
-' 2. Open an Immediate window.
-'
-' Postconditions:
-' 1. Creates**Sketch1**in the graphics area and FeatureManager design tree.
-' 2. Modifies some of the
-spline handles of**Sketch1**.
-' 3. Inspect the Immediate window.
-'----------------------------------------------------------------------------
-
 ```vb
+'----------------------------------------------------------------------------
+ ' Preconditions:
+ ' 1. Verify that the specified document template exists.
+ ' 2. Open an Immediate window.
+ '
+ ' Postconditions:
+ ' 1. Creates Sketch1 in the graphics area and FeatureManager design tree.
+ ' 2. Modifies some of the spline handles of Sketch1.
+ ' 3. Inspect the Immediate window.
+ '----------------------------------------------------------------------------
 Option Explicit
 Dim swApp As SldWorks.SldWorks
  Dim swModel As SldWorks.ModelDoc2

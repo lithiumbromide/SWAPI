@@ -51,16 +51,11 @@ Time step
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::TimeSteps](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~TimeSteps.html)
-
-.
+See [CWThermalStudyOptions::TimeSteps](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~TimeSteps.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

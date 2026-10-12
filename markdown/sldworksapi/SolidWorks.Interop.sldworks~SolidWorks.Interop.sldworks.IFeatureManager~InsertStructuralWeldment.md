@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertStructuralWeldment Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertStructuralWeldment2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertStructuralWeldment2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ Feature^ InsertStructuralWeldment(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertStructuralWeldment](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertStructuralWeldment.html)
-
-.
+See [FeatureManager::InsertStructuralWeldment](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertStructuralWeldment.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

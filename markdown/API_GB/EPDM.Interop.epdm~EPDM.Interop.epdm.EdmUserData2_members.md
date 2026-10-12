@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2_members.html"
 
 # EdmUserData2 Structure Members
 
-The following tables list the members exposed by[EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html).
+The following tables list the members exposed by [EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html).
 
 ## Public Fields
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[EdmUserData2](EPDM.Interop.epdm
 ## See Also
 
 [EdmUserData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

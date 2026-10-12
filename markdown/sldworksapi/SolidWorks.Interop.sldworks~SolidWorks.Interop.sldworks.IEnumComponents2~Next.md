@@ -54,27 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of components for the components enumeration
-- `Rgelt`: Pointer to an array[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)of size Celt
+- `Rgelt`: Pointer to an array [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) of size Celt
 - `PceltFetched`: Pointer to the number of components returned from the list.; this value can be less than Celt if you ask for more components than exist, or it can be NULL if no more components exist
 
 ## VBA Syntax
 
-See
-
-[EnumComponents2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents2~Next.html)
-
-.
+See [EnumComponents2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents2~Next.html).
 
 ## Remarks
 
@@ -83,7 +73,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumComponents2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumComponents2.html)
-
 [IEnumComponents2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumComponents2_members.html)
 
 ## Availability

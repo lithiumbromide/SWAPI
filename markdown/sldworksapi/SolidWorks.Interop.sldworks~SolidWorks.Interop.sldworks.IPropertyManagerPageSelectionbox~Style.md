@@ -45,25 +45,15 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Style as defined in[swPropMgrPageSelectionboxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageSelectionBoxStyle_e.html)
+Style as defined in [swPropMgrPageSelectionboxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageSelectionBoxStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~Style.html)
-
-.
+See [PropertyManagerPageSelectionbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~Style.html).
 
 ## Remarks
 
@@ -74,7 +64,6 @@ For a selection list to automatically have a horizontal scroll bar if the text i
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

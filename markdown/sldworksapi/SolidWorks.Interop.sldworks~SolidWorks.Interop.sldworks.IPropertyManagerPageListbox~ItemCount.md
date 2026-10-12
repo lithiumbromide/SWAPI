@@ -42,13 +42,7 @@ property System.int ItemCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ Number of items in the attached drop-down list for this list box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageListbox::ItemCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~ItemCount.html)
-
-.
+See [PropertyManagerPageListbox::ItemCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~ItemCount.html).
 
 ## See Also
 
 [IPropertyManagerPageListbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox.html)
-
 [IPropertyManagerPageListbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox_members.html)
 
 ## Availability

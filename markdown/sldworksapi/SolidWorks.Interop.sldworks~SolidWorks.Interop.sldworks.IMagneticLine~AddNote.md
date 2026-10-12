@@ -51,47 +51,25 @@ System.bool AddNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Note`: [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-to attach to this magnetic line
-- `Position`: 0.0 <= Attachment position on magnetic line <= 1.0; valid only if
-
-[IMagneticLine::EqualSpacing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMagneticLine~EqualSpacing.html)
-
-is false
+- `Note`: [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) to attach to this magnetic line
+- `Position`: 0.0 <= Attachment position on magnetic line <= 1.0; valid only if [IMagneticLine::EqualSpacing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMagneticLine~EqualSpacing.html) is false
 
 ### Return Value
 
-True if successful, false if not (see
-
-Remarks
-
-)
+True if successful, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MagneticLine::AddNote](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~AddNote.html)
-
-.
+See [MagneticLine::AddNote](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~AddNote.html).
 
 ## Examples
 
 [Insert Magnetic Line (C#)](Insert_Magnetic_Line_Example_CSharp.htm)
-
 [Insert Magnetic Line (VB.NET)](Insert_Magnetic_Line_Example_VBNET.htm)
-
 [Insert Magnetic Line (VBA)](Insert_Magnetic_Line_Example_VB.htm)
 
 ## Remarks
@@ -101,13 +79,9 @@ All notes attached to a magnetic line must be from the same view.
 ## See Also
 
 [IMagneticLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html)
-
 [IMagneticLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine_members.html)
-
 [IMagneticLine::RemoveNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~RemoveNote.html)
-
 [IMagneticLine::GetNotes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~GetNotes.html)
-
 [IMagneticLine::IGetNotes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~IGetNotes.html)
 
 ## Availability

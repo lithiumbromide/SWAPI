@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IGetArrowHeadInfo Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::IGetArrowHeadInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetArrowHeadInfo.html)
-
-.
+Obsolete. Superseded by [INote::IGetArrowHeadInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetArrowHeadInfo.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetArrowHeadInfo()
 System.double IGetArrowHeadInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::IGetArrowHeadInfo](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetArrowHeadInfo.html)
-
-.
+See [CustomSymbol::IGetArrowHeadInfo](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetArrowHeadInfo.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

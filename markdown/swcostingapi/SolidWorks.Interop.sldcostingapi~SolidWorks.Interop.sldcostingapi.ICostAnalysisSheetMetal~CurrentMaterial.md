@@ -51,18 +51,12 @@ Name of the material
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CurrentMaterial.html)
-
-.
+See [CostAnalysisSheetMetal::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CurrentMaterial.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
@@ -72,17 +66,11 @@ Setting this property might invalidate other settings; e.g., sheet metal thickne
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::GetMaterialCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialCount.html)
-
 [ICostAnalysisSheetMetal::GetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterials.html)
-
 [ICostAnalysisSheetMetal::IGetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterials.html)
-
 [ICostAnalysisSheetMetal::MaterialCost Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCost.html)
-
 [ICostAnalysisSheetMetal::MaterialCostFromTemplate Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCostFromTemplate.html)
 
 ## Availability

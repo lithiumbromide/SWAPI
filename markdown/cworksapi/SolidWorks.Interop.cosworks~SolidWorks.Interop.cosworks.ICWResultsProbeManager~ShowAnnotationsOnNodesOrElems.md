@@ -54,28 +54,19 @@ System.int ShowAnnotationsOnNodesOrElems(
 ### Parameters
 
 - `SSelectedNodesOrElems`: Comma-delimited string of nodes or elements, e.g., "1,25,30-35"
-- `ArrayAnnotationWarnings`: Array of warnings for specified nodes or elements as defined in
-
-[swsProbePostResultNodeElementSelectionWarning_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultNodeElementSelectionWarning_e.html)
+- `ArrayAnnotationWarnings`: Array of warnings for specified nodes or elements as defined in [swsProbePostResultNodeElementSelectionWarning_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultNodeElementSelectionWarning_e.html)
 
 ### Return Value
 
-0 if successful; otherwise error code as defined in
-
-[swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
+0 if successful; otherwise error code as defined in [swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager::ShowAnnotationsOnNodesOrElems](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ShowAnnotationsOnNodesOrElems.html)
-
-.
+See [CWResultsProbeManager::ShowAnnotationsOnNodesOrElems](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ShowAnnotationsOnNodesOrElems.html).
 
 ## See Also
 
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
 
 ## Availability

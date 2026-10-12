@@ -42,24 +42,12 @@ void GetHistory(
 
 ### Parameters
 
-- `ppoRetHistory`: Array of
-
-[EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
-structures; one structure for each history item (see
-
-Remarks
-
-)
-- `lEdmHistoryTypes`: Combination of
-
-[EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html)
-
-bits; indicates the kinds of records to retrieve
+- `ppoRetHistory`: Array of [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html) structures; one structure for each history item (see **Remarks**)
+- `lEdmHistoryTypes`: Combination of [EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html) bits; indicates the kinds of records to retrieve
 
 ## Remarks
 
-Call this method after calling[IEdmHistory::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFile.html)and[IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html).
+Call this method after calling [IEdmHistory::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFile.html) and [IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -69,11 +57,8 @@ Call this method after calling[IEdmHistory::AddFile](EPDM.Interop.epdm~EPDM.Inte
 ## See Also
 
 [IEdmHistory Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html)
-
 [IEdmHistory Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory_members.html)
-
 [IEdmHistory2::Rollback Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2~Rollback.html)
-
 [IEdmHistory3::GetSortedHistory Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory.html)
 
 ## Availability

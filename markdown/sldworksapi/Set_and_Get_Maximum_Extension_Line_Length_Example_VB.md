@@ -9,8 +9,7 @@ source: "sldworksapi/Set_and_Get_Maximum_Extension_Line_Length_Example_VB.htm"
 
 # Set and Get Maximum Extension Line Length Example (VBA)
 
-This example shows how to set and get the maximum extension line length
-for a display dimension.
+This example shows how to set and get the maximum extension line length for a display dimension.
 
 ```
 '--------------------------------------------

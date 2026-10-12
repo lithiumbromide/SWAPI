@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # IPropertyManagerPage2Handler5 Interface Members
 
-The following tables list the members exposed by[IPropertyManagerPage2Handler5](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html).
+The following tables list the members exposed by [IPropertyManagerPage2Handler5](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html).
 
 ## Public Methods
 
@@ -52,5 +52,4 @@ The following tables list the members exposed by[IPropertyManagerPage2Handler5](
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

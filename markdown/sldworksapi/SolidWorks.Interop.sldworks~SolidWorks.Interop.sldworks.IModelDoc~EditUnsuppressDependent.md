@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditUnsuppressDependent Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditUnsuppressDependent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditUnsuppressDependent.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditUnsuppressDependent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditUnsuppressDependent.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool EditUnsuppressDependent()
 System.bool EditUnsuppressDependent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditUnsuppressDependent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditUnsuppressDependent.html)
-
-.
+See [ModelDoc::EditUnsuppressDependent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditUnsuppressDependent.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

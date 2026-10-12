@@ -46,6 +46,7 @@ public enum class swBendAllowanceTypes_e : public System.Enum
 | swBendAllowanceBendTable | 1 |
 | swBendAllowanceDeduction | 4 |
 | swBendAllowanceDirect | 3 |
+| swBendAllowanceGaugeTable | 6 |
 | swBendAllowanceKFactor | 2 |
 
 ## See Also

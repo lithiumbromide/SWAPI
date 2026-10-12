@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetInitKnitGapWidth Method (IModeler)
 
-Sets the initial gap bound width for sewing a body. Call this method before calling any calls that attempt to knit a body; for example,
-
-[IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html)
-
-.
+Sets the initial gap bound width for sewing a body. Call this method before calling any calls that attempt to knit a body; for example, [IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetInitKnitGapWidth(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,11 +59,7 @@ True if successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Modeler::SetInitKnitGapWidth](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetInitKnitGapWidth.html)
-
-.
+See [Modeler::SetInitKnitGapWidth](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetInitKnitGapWidth.html).
 
 ## Remarks
 
@@ -82,7 +68,5 @@ This initial gap width bound is adjusted during the knitting operation in an att
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::GetInitKnitGapWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~GetInitKnitGapWidth.html)

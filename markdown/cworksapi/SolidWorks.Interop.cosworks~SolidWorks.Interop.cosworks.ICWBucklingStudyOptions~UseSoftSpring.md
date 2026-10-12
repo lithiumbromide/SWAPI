@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBu
 
 # UseSoftSpring Property (ICWBucklingStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWBucklingStudyOptions::UseSoftSpring2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~UseSoftSpring2.html)
-
-.
+Obsolete. Superseded by [ICWBucklingStudyOptions::UseSoftSpring2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~UseSoftSpring2.html).
 
 ## Syntax
 
@@ -56,20 +52,15 @@ property System.int UseSoftSpring {
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::UseSoftSpring](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~UseSoftSpring.html)
-
-.
+See [CWBucklingStudyOptions::UseSoftSpring](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~UseSoftSpring.html).
 
 ## Remarks
 
-Use this property carefully. If you set this property to 1 for checking purposes, then set more[buckling modes](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions~BucklingModes.html)and check them. Apply proper restraints for final results.
+Use this property carefully. If you set this property to 1 for checking purposes, then set more [buckling modes](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions~BucklingModes.html) and check them. Apply proper restraints for final results.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

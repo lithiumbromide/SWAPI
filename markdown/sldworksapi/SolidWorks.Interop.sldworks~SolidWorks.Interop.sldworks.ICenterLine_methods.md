@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterLine Interface Methods
 
-For a list of all members of this type, see[ICenterLine members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine_members.html).
+For a list of all members of this type, see [ICenterLine members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ICenterLine members](SolidWorks.Inte
 ## See Also
 
 [ICenterLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

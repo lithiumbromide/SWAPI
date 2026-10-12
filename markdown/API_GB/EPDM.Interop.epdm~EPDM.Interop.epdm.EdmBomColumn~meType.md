@@ -34,12 +34,9 @@ EdmBomColumnType meType
 
 ### Field Value
 
-Type as defined in
-
-[EdmBomColumnType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumnType.html)
+Type as defined in [EdmBomColumnType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumnType.html)
 
 ## See Also
 
 [EdmBomColumn Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
 [EdmBomColumn Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html)

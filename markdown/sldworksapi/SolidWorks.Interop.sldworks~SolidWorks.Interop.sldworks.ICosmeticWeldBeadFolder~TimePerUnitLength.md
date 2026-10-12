@@ -45,13 +45,7 @@ property System.double TimePerUnitLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Welding time per unit length
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFolder::TimePerUnitLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TimePerUnitLength.html)
-
-.
+See [CosmeticWeldBeadFolder::TimePerUnitLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TimePerUnitLength.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
-examples.
+See [ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
 [ICosmeticWeldBeadFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html)
 
 ## Availability

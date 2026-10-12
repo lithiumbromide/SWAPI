@@ -50,38 +50,27 @@ void SetUIState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StateType`: User interface state type as defined in[swUIStates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUIStates_e.html)
+- `StateType`: User interface state type as defined in [swUIStates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUIStates_e.html)
 - `Flag`: True to set the user-interface state, false to not
 
 ## VBA Syntax
 
-See
-
-[Feature::SetUIState](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetUIState.html)
-
-.
+See [Feature::SetUIState](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetUIState.html).
 
 ## Examples
 
 [Display of Item in FeatureManager Design Tree (C++)](Display_of_Item_in_Feature_Manager_Example_CPlusPlus_COM.htm)
-
 [Hide Feature in FeatureManager Design Tree (VBA)](Hide_Feature_in_FeatureManager_Design_Tree_Example_VB.htm)
 
 ## Remarks
 
-If you pass in StateType of swIsHiddenInFeatureMgr and flag of True, thenthis method hides the display of the feature in the FeatureManager design tree. To see your changes in the FeatureManager design tree , use[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html).
+If you pass in StateType of swIsHiddenInFeatureMgr and flag of True, then this method hides the display of the feature in the FeatureManager design tree. To see your changes in the FeatureManager design tree , use [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html).
 
-Features are initialized with all user-interface state type values set to false. However, in the case of attributes, you can use[IAttributeDef::CreateInstance5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef~CreateInstance5.html)to set the desired display state of the attribute at the time of creation.
+Features are initialized with all user-interface state type values set to false. However, in the case of attributes, you can use [IAttributeDef::CreateInstance5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef~CreateInstance5.html) to set the desired display state of the attribute at the time of creation.
 
 A change in a the state setting of a feature causes all its dependents to inherit the same behavior, without actually setting the state type values of those dependents. Therefore, to get the actual user-interface state value of a feature, you can query its owner.
 
@@ -90,9 +79,6 @@ The user-interface state is not a property.
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::Visible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Visible.html)
-
 [IFeature::GetUIState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetUIState.html)

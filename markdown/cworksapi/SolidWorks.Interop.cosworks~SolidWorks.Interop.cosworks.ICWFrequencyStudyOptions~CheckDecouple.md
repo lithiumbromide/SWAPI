@@ -51,16 +51,11 @@ True to decouple the mixed free body modes, false to not
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::CheckDecouple](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~CheckDecouple.html)
-
-.
+See [CWFrequencyStudyOptions::CheckDecouple](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~CheckDecouple.html).
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

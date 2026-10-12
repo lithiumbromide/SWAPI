@@ -40,13 +40,7 @@ System.bool IsDisplayPaneVisible()
 System.bool IsDisplayPaneVisible();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the Display Pane is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IsDisplayPaneVisible](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsDisplayPaneVisible.html)
-
-.
+See [ModelDocExtension::IsDisplayPaneVisible](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsDisplayPaneVisible.html).
 
 ## Examples
 
@@ -67,9 +57,7 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [ISldWorks::GetActiveDisplayPane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetActiveDisplayPane.html)
 
 ## Availability

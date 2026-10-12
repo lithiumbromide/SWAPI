@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ChangeSketchPlane Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::ChangeSketchPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ChangeSketchPlane.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::ChangeSketchPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ChangeSketchPlane.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.bool ChangeSketchPlane()
 System.bool ChangeSketchPlane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,11 +48,7 @@ True if the change was successful, false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ChangeSketchPlane.html)
-
-.
+See [ModelDoc2::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ChangeSketchPlane.html).
 
 ## Examples
 
@@ -75,7 +61,6 @@ Every sketch is associated with a plane (for example, a reference plane or a pla
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

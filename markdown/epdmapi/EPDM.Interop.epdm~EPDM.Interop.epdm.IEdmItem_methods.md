@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem_methods.html"
 
 # IEdmItem Interface Methods
 
-For a list of all members of this type, see[IEdmItem members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem_members.html).
+For a list of all members of this type, see [IEdmItem members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmItem members](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

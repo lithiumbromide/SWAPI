@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mates_Example_CSharp.htm"
 
 # Get Mates Example (C#)
 
-This example shows how to get all of the mates (IMate2 and IMateInPlace
-objects) for all components in an assembly.
+This example shows how to get all of the mates (IMate2 and IMateInPlace objects) for all components in an assembly.
 
 ```
 //----------------------------------------

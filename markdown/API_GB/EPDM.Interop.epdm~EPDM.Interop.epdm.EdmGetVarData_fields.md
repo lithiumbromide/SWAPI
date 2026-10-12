@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_fields.html"
 
 # EdmGetVarData Structure Fields
 
-For a list of all members of this type, see[EdmGetVarData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members.html).
+For a list of all members of this type, see [EdmGetVarData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members.html).
 
 ## Public Fields
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[EdmGetVarData members](EPDM.Interop.
 ## See Also
 
 [EdmGetVarData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

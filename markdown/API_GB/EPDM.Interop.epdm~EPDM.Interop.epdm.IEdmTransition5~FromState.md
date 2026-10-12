@@ -35,13 +35,7 @@ property IEdmState5^ FromState {
 
 ### Property Value
 
-[IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
-; Null if no source state exists (see
-
-Remarks
-
-)
+[IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html); Null if no source state exists (see **Remarks**)
 
 ## Remarks
 
@@ -50,7 +44,6 @@ A SOLIDWORKS PDM Professional workflow contains one transition, called AddedToFi
 ## See Also
 
 [IEdmTransition5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)
-
 [IEdmTransition5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_members.html)
 
 ## Availability

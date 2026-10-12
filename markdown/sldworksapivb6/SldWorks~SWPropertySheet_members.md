@@ -1,6 +1,5 @@
 ---
-title: "SWPropertySheet Object
-Members"
+title: "SWPropertySheet Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SWPropertySheet_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SWPropertySheet_members.html"
 ---
 
-# SWPropertySheet Object
-Members
+# SWPropertySheet Object Members
 
 ## Public Methods
 

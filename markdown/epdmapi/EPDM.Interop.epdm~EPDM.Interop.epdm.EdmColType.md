@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColType.html"
 
 # EdmColType Enumeration
 
-Types of file listing column content; specified in the
-
-[EdmListCol structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
-.
+Types of file listing column content; specified in the [EdmListCol structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html).
 
 ## Syntax
 

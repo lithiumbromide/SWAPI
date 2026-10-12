@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Where_Annotations_Can_Be_Shown_Example_CSharp.htm"
 
 # Get Where Annotations Can Be Shown Example (C#)
 
-This example shows how to get the names of the annotation views where an
-annotation can be shown.
+This example shows how to get the names of the annotation views where an annotation can be shown.
 
 ```
 //----------------------------------------------

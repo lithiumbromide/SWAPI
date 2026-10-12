@@ -9,11 +9,24 @@ source: "swdimxpertapi/Get_and_Set_Datum_Example_VB.htm"
 
 # Get and Set Datum Example (VBA)
 
-This example shows how to get and set DimXpert datum
-annotations.
+This example shows how to get and set DimXpert datum annotations.
 
-'--------------------------------------------------------------------------- ' Preconditions: ' 1. Open: public_documents \samples\tutorial\dimxpert\bracket_auto_manual.sldprt. ' 2. Select a face. ' 3. Open an Immediate window. ' 4. Ensure that the latest SOLIDWORKS DimXpert type library
-is loaded: ' a. click Tools > References . ' b. Click Browse. ' c. Find and select install_dir \swdimxpert.tlb . ' ' Postconditions:' 1. Inspect the Immediate window. ' 2. Observe Plane1 and Datum G on the DimXpertManager tab. ' ' NOTE: Because this part is used elsewhere, do not save changes. '--------------------------------------------------------------------------------------
+'---------------------------------------------------------------------------
+' Preconditions:
+' 1. Open: `public_documents`**\samples\tutorial\dimxpert\bracket_auto_manual.sldprt.**
+' 2. Select a face.
+' 3. Open an Immediate window.
+' 4. Ensure that the latest SOLIDWORKS DimXpert type library is loaded:
+' a. click **Tools > References**.
+' b. Click Browse.
+' c. Find and select `install_dir`**\swdimxpert.tlb**.
+'
+' Postconditions:
+' 1. Inspect the Immediate window.
+' 2. Observe Plane1 and Datum G on the DimXpertManager tab.
+'
+' NOTE: Because this part is used elsewhere, do not save changes.
+'--------------------------------------------------------------------------------------
 
 ```vb
 Option Explicit

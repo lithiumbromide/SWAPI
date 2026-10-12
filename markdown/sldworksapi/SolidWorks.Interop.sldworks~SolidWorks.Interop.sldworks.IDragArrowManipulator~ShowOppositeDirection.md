@@ -45,13 +45,7 @@ property System.bool ShowOppositeDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to display the bidirectional handle, false to display the unidirectional ha
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::ShowOppositeDirection](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~ShowOppositeDirection.html)
-
-.
+See [DragArrowManipulator::ShowOppositeDirection](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~ShowOppositeDirection.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
-
 [IDragArrowManipulator::AllowFlip Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator~AllowFlip.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "PDMWDocument Object
-Members"
+title: "PDMWDocument Object Members"
 project: "PDMWorksActiveX DLL"
 interface: "PDMWDocument_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "pdmworksapivb6/PDMWorks~PDMWDocument_members.html"
 ---
 
-# PDMWDocument Object
-Members
+# PDMWDocument Object Members
 
 ## Public Methods
 

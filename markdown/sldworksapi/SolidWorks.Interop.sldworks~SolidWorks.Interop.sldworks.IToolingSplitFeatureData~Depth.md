@@ -50,18 +50,12 @@ property System.double Depth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Dir`: - 0 = Depth in Direction 1
-- 1 = Depth in Direction 2
+  - 1 = Depth in Direction 2
 
 ### Property Value
 
@@ -69,28 +63,19 @@ Depth
 
 ## VBA Syntax
 
-See
-
-[ToolingSplitFeatureData::Depth](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~Depth.html)
-
-.
+See [ToolingSplitFeatureData::Depth](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~Depth.html).
 
 ## Examples
 
-See the
-
-[IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
-examples.
+See the [IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html) examples.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
 [IToolingSplitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData_members.html)
 
 ## Availability

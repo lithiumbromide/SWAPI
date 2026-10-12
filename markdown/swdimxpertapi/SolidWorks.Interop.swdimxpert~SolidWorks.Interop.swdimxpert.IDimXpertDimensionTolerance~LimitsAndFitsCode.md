@@ -48,22 +48,16 @@ Limits and fits code
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionTolerance::LimitsAndFitsCode](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~LimitsAndFitsCode.html)
-
-.
+See [DimXpertDimensionTolerance::LimitsAndFitsCode](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~LimitsAndFitsCode.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance.html)
-
 [IDimXpertDimensionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance_members.html)
 
 ## Availability

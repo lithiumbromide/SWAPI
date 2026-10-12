@@ -9,9 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights.html"
 
 # HasRights Method (IEdmFolder5)
 
-Obsolete. Superseded by
-
-[IEdmFolder5::HasRightsEx .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html)
+Obsolete. Superseded by [IEdmFolder5::HasRightsEx.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html)
 
 ## Syntax
 
@@ -44,16 +42,12 @@ void HasRights(
 
 ### Parameters
 
-- `lRights`: Combination of
-
-[EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html)
-
-bits
+- `lRights`: Combination of [EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html) bits
 - `plFileID`: ID of file to check
 
 ## Remarks
 
-This method is superseded by[IEdmFolder5::HasRightsEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html), which provides the ability to check rights on just this folder. Programs that do not need backwards compatibility with SOLIDWORKS PDM Professional 5.2 should use the new method.
+This method is superseded by [IEdmFolder5::HasRightsEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html), which provides the ability to check rights on just this folder. Programs that do not need backwards compatibility with SOLIDWORKS PDM Professional 5.2 should use the new method.
 
 This method takes into account both the rights set explicitly on the user and those rights that are inherited from groups of which the user is a member.
 
@@ -65,7 +59,6 @@ This method takes into account both the rights set explicitly on the user and th
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
 
 ## Availability

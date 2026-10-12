@@ -45,27 +45,15 @@ property System.int LeaderOrientation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Orientation as defined in
-
-[swDatumGbLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumGbLeaderStyle_e.html)
+Orientation as defined in [swDatumGbLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumGbLeaderStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::LeaderOrientation](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~LeaderOrientation.html)
-
-.
+See [DatumTag::LeaderOrientation](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~LeaderOrientation.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ Although you get or set this property at any time, this property only applies to
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
 
 ## Availability

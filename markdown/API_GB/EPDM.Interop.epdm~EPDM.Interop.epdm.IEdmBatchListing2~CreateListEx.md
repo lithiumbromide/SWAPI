@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateList
 
 # CreateListEx Method (IEdmBatchListing2)
 
-Creates a listing of the properties of the files and folders that were added to the batch using
-
-[IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html)
-
-,
-
-[IEdmBatchListing::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFolder.html)
-
-, and
-
-[IEdmBatchListing2::AddFileCfg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~AddFileCfg.html)
-
-.
+Creates a listing of the properties of the files and folders that were added to the batch using [IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html), [IEdmBatchListing::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFolder.html), and [IEdmBatchListing2::AddFileCfg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~AddFileCfg.html).
 
 ## Syntax
 
@@ -60,32 +48,19 @@ void CreateListEx(
 
 ### Parameters
 
-- `bsColumnSetName`: Empty string, one of the set names returned by
-
-[IEdmBatchListing::GetColumnSetNames](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetColumnSetNames.html)
-
-, or a list of variable names separated by newline characters and starting with a newline character (e.g., "\nAuthor\nProject\nDate")
-- `lEdmCreateListExFlags`: Combination of
-
-[EdmCreateListExFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateListExFlags.html)
-
-bits
-- `ppoColumns`: Array of
-
-[EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
-structures; one structure for each column in the column set
+- `bsColumnSetName`: Empty string, one of the set names returned by [IEdmBatchListing::GetColumnSetNames](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetColumnSetNames.html), or a list of variable names separated by newline characters and starting with a newline character (e.g., "\nAuthor\nProject\nDate")
+- `lEdmCreateListExFlags`: Combination of [EdmCreateListExFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateListExFlags.html) bits
+- `ppoColumns`: Array of [EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html) structures; one structure for each column in the column set
 - `poAux`: Reserved for future use
 
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
 
-This method extends[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html)by adding the ability to configure from where the file variables are read.
+This method extends [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html) by adding the ability to configure from where the file variables are read.
 
 [Return codes](ReturnCodes.htm):
 
@@ -95,7 +70,6 @@ This method extends[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop
 ## See Also
 
 [IEdmBatchListing2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html)
-
 [IEdmBatchListing2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_members.html)
 
 ## Availability

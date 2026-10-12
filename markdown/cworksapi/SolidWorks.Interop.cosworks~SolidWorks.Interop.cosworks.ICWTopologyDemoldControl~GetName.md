@@ -46,26 +46,16 @@ Name of the de-mold control
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~GetName.html)
-
-.
+See [CWTopologyDemoldControl::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [ICWTopologyDemoldControl::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SetName.html)
 
 ## Availability

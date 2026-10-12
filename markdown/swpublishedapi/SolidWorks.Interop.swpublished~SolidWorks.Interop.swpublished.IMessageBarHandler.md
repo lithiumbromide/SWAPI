@@ -9,13 +9,9 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # IMessageBarHandler Interface
 
-Must be implemented by the add-in application to handle callbacks from
+Must be implemented by the add-in application to handle callbacks from [IMessageBarDefinition](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMessageBarDefinition.html).
 
-[IMessageBarDefinition](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMessageBarDefinition.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,38 +41,34 @@ public interface class IMessageBarHandler
 
 ## VBA Syntax
 
-See
-
-[MessageBarHandler](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler.html)
-
-.
+See [MessageBarHandler](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler.html).
 
 ## Examples
 
 To create a SOLIDWORKS .NET add-in that implements this interface:
 
-1. Open a new project in Visual Studio using SOLIDWORKS template,**Visual C# - SwCSharpAddin**.
-2. Add**CMessageBar_B_Handler.cs**with the following code to the add-in to handle message bars:
+1. Open a new project in Visual Studio using SOLIDWORKS template, **Visual C# - SwCSharpAddin**.
+2. Add **CMessageBar_B_Handler.cs** with the following code to the add-in to handle message bars:
 
-usingSystem;
+using System;
 
-usingSystem.Collections.Generic;
+using System.Collections.Generic;
 
-usingSystem.Linq;
+using System.Linq;
 
-usingSystem.Text;
+using System.Text;
 
-usingSolidWorks.Interop.sldworks;
+using SolidWorks.Interop.sldworks;
 
-usingSolidWorks.Interop.swpublished;
+using SolidWorks.Interop.swpublished;
 
-usingSystem.Diagnostics;
+using System.Diagnostics;
 
-namespaceaddin_name
+namespace `addin_name`
 
 {
 
-publicclassCMessageBar_B_Handler: IMessageBarHandler
+public class CMessageBar_B_Handler : IMessageBarHandler
 
 {
 
@@ -86,11 +78,11 @@ publicclassCMessageBar_B_Handler: IMessageBarHandler
 
 // Model must be not null since message bars belong to a document
 
-privateISldWorks iswApp;
+private ISldWorks iswApp;
 
-privateIModelDoc2 iswModelDoc;
+private IModelDoc2 iswModelDoc;
 
-publicCMessageBar_B_Handler(ISldWorks swApp, IModelDoc2 swModelDoc)
+public CMessageBar_B_Handler(ISldWorks swApp, IModelDoc2 swModelDoc)
 
 {
 
@@ -100,7 +92,7 @@ iswModelDoc = swModelDoc;
 
 }
 
-publicvoidOnUserClose()
+public void OnUserClose()
 
 {
 
@@ -110,7 +102,7 @@ Debug.Print("CMessageBar_B_Handler::OnUserClose");
 
 }
 
-publicvoidOnUserResponseA(boolDoNotShowAgain)
+public void OnUserResponseA(bool DoNotShowAgain)
 
 {
 
@@ -120,7 +112,7 @@ Debug.Print(String.Format("CMessageBar_B_Handler::OnUserResponseA, Don't Show Ag
 
 }
 
-publicvoidOnUserResponseB(boolDoNotShowAgain)
+public void OnUserResponseB(bool DoNotShowAgain)
 
 {
 
@@ -134,11 +126,7 @@ Debug.Print(String.Format("CMessageBar_B_Handler::OnUserResponseB, Don't Show Ag
 
 }
 
-1. Add a ShowUserMessage() function to the UI Callbacks region in
-
-  SwAddin.cs
-
-  to declare and define a user message bar and create its handler:
+1. Add a ShowUserMessage() function to the UI Callbacks region in **SwAddin.cs** to declare and define a user message bar and create its handler:
 
 ```
 class SwAddin : ISwAddin
@@ -208,18 +196,12 @@ class SwAddin : ISwAddin
 }
 ```
 
-1. Modify the UI Methods region of
+1. Modify the UI Methods region of **SwAddin.cs** to add a command item to the add-in's toolbar:
 
-  SwAddin.cs
-
-  to add a command item to the add-in's toolbar:
-
-cmdIndex0 = cmdGroup.AddCommandItem2("Show User Message", -1,"Show User Message","Show User Message", 0,"ShowUserMessage","EnableUserMessage", mainItemID3, menuToolbarOption);
+cmdIndex0 = cmdGroup.AddCommandItem2("Show User Message", -1, "Show User Message", "Show User Message", 0, "ShowUserMessage", "EnableUserMessage", mainItemID3, menuToolbarOption);
 
 ## See Also
 
 [IMessageBarHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)
-
 [IUserNotificationHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)

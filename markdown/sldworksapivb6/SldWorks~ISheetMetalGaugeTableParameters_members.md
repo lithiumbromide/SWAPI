@@ -1,6 +1,5 @@
 ---
-title: "ISheetMetalGaugeTableParameters Object
-Members"
+title: "ISheetMetalGaugeTableParameters Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISheetMetalGaugeTableParameters_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISheetMetalGaugeTableParameters_members.html"
 ---
 
-# ISheetMetalGaugeTableParameters Object
-Members
+# ISheetMetalGaugeTableParameters Object Members
 
 ## Public Methods
 

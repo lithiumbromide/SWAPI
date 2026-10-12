@@ -34,14 +34,9 @@ System.int mlGetVersion
 
 ## Remarks
 
-Valid if retrieved from tree created by
-
-[EdmUtility.EdmUtil_BatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html)
-
-.
+Valid if retrieved from tree created by [EdmUtility.EdmUtil_BatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html).
 
 ## See Also
 
 [EdmSelectionObject Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject.html)
-
 [EdmSelectionObject Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_members.html)

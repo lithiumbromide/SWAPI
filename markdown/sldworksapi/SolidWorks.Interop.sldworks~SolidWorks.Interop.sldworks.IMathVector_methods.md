@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMathVector Interface Methods
 
-For a list of all members of this type, see[IMathVector members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html).
+For a list of all members of this type, see [IMathVector members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html).
 
 ## Public Methods
 
@@ -37,13 +37,8 @@ For a list of all members of this type, see[IMathVector members](SolidWorks.Inte
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)

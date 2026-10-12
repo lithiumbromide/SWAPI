@@ -1,6 +1,5 @@
 ---
-title: "ICompareDocument Object
-Members"
+title: "ICompareDocument Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "ICompareDocument_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~ICompareDocument_members.html"
 ---
 
-# ICompareDocument Object
-Members
+# ICompareDocument Object Members
 
 ## Public Methods
 

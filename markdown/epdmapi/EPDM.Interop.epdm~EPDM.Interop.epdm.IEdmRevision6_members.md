@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6_members.html"
 
 # IEdmRevision6 Interface Members
 
-The following tables list the members exposed by[IEdmRevision6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html).
+The following tables list the members exposed by [IEdmRevision6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmRevision6](EPDM.Interop.epd
 ## See Also
 
 [IEdmRevision6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,72 +9,31 @@ source: "obsoleteapi/View/View__GetDimensionIds2.htm"
 
 # View::GetDimensionIds2
 
-This method is obsolete and has been superseded
-by[View::GetDimensionIds3](View__GetDimensionIds3.htm).
+This method is obsolete and has been superseded by [View::GetDimensionIds3](View__GetDimensionIds3.htm).
 
 Description
 
-This method returns a list of dimension names from the current drawing
-view.
+This method returns a list of dimension names from the current drawing view.
 
 Syntax (OLE Automation)
 
 retval = View.GetDimensionIds2 ()
 
-(Table)=========================================================
-
-| Return: | (VARIANT) retval | VARIANT of type SafeArray of strings; each string represents one dimension
-name from the current drawing view |
+| Return: | (VARIANT) retval | VARIANT of type SafeArray of strings; each string represents one dimension name from the current drawing view |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = View->IGetDimensionIds2
-( &retval )
+status = View->IGetDimensionIds2 ( &retval )
 
-(Table)=========================================================
-
-| Output: | (BSTR) retval | Array of strings; each string represents one dimension name from the
-current drawing view |
+| Output: | (BSTR) retval | Array of strings; each string represents one dimension name from the current drawing view |
 | --- | --- | --- |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-The order of the dimension names returned aligns with the order of information
-returned from View::GetDimensionInfo4. This alignment of information is
-valid as long as the calls to this method and View::GetDimensionInfo4
-are made consecutively.
+The order of the dimension names returned aligns with the order of information returned from View::GetDimensionInfo4. This alignment of information is valid as long as the calls to this method and View::GetDimensionInfo4 are made consecutively.
 
-One string is returned for each dimension in the view. See[View::GetDimensionCount2](View__GetDimensionCount2.htm)to determine the number of dimensions in the view.
+One string is returned for each dimension in the view. See [View::GetDimensionCount2](View__GetDimensionCount2.htm) to determine the number of dimensions in the view.
 
-This method is identical to View::GetDimensionIds except when a base
-ordinate was not visible, the subordinates were not previously output,
-regardless of whether they were visible or not. With View::GetDimensionIds2,
-the output of each subordinate, if it is visible, occurs regardless of
-whether or not its base ordinate is visible.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="View_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="" >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2005\obsoleteapi\View\View__GetDimensionIds2.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This method is identical to View::GetDimensionIds except when a base ordinate was not visible, the subordinates were not previously output, regardless of whether they were visible or not. With View::GetDimensionIds2, the output of each subordinate, if it is visible, occurs regardless of whether or not its base ordinate is visible.

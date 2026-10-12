@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Upper-right_Text_Coordinates_of_Selected_Note_Example_V
 
 # Get Upper-right Text Coordinates of Selected Note Example (VBA)
 
-This example shows how to get the coordinates for the upper-right text
-point in a selected note.
+This example shows how to get the coordinates for the upper-right text point in a selected note.
 
 ```
 '----------------------------------------

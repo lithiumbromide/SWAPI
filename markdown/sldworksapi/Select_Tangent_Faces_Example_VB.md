@@ -13,44 +13,15 @@ This example shows how to select all faces tangent to a selected face.
 
 1. Starting with the selected face, get the first loop in the face with IFace2::GetFirstLoop.
 
-  kadov_tag{{<spaces>}}
-2. Starting with the first loop and using ILoop2::GetNext to get every loop on the
-  face:
+2. Starting with the first loop and using ILoop2::GetNext to get every loop on the face:
 
-  1. Iterate through every coedge contained in the
-    loop using ILoop2::GetFirstCoEdge and ILoop2::GetNext.
+a. Iterate through every coedge contained in the loop using ILoop2::GetFirstCoEdge and ILoop2::GetNext.
 
-    kadov_tag{{<spaces>}}
+b. Using ICoEdge::GetPartner, get the partner coedge.
 
-    kadov_tag{{</spaces>}}
-  2. Using ICoEdge::GetPartner, get the partner coedge.
+c. For the current coedge and the partner coedge, get the face normal at the middle of the coedge. This is done by calling ICoEdge::Evaluate to get the middle point of the coedge, then calling ISurface::EvaluateAtPoint at the middle point on the surface that contains the coedge, and finally extracting the normal vector from the return value of ISurface::EvaluateAtPoint.
 
-    kadov_tag{{<spaces>}}
-
-    kadov_tag{{</spaces>}}
-  3. For the current coedge and the partner coedge,
-    get the face normal at the middle of the coedge.
-
-    kadov_tag{{<spaces>}}
-
-    kadov_tag{{</spaces>}}
-
-    This
-    is done by calling ICoEdge::Evaluate to get the middle point of the coedge,
-    then calling ISurface::EvaluateAtPoint at the middle point on the surface
-    that contains the coedge, and finally extracting the normal vector from
-    the return value of ISurface::EvaluateAtPoint.
-
-    kadov_tag{{<spaces>}}
-
-    kadov_tag{{</spaces>}}
-  4. If the normal vectors are equal, then use the
-    partner coedge to get the partner loop, which provides access to the partner
-    face that can be selected.
-
-    kadov_tag{{<spaces>}}
-
-    kadov_tag{{</spaces>}}
+d. If the normal vectors are equal, then use the partner coedge to get the partner loop, which provides access to the partner face that can be selected.
 
 ```
 '------------------------------------------------------------------

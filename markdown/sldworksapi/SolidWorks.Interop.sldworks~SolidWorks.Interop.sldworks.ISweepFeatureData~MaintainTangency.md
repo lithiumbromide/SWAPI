@@ -45,52 +45,31 @@ property System.bool MaintainTangency {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to merge tangent faces, false to not (see
-
-Remarks
-
-)
+True to merge tangent faces, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::MaintainTangency](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~MaintainTangency.html)
-
-.
+See [SweepFeatureData::MaintainTangency](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~MaintainTangency.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
 If the sweep profile has tangent segments, true causes the corresponding surfaces in the resulting sweep to be tangent. Faces that can be represented as a plane, cylinder, or cone are maintained. Other adjacent faces are merged, and the profiles are approximated. Sketch arcs may be converted to splines.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::EndTangencyType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~EndTangencyType.html)
-
 [ISweepFeatureData::StartTangencyType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~StartTangencyType.html)
 
 ## Availability

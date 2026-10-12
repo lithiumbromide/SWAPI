@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15~GetThumbnail2.ht
 
 # GetThumbnail2 Method (IEdmFile15)
 
-Obsolete. Superseded by
-
-[IEdmFile18::GetThumbnail3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18~GetThumbnail3.html)
-
-.
+Obsolete. Superseded by [IEdmFile18::GetThumbnail3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18~GetThumbnail3.html).
 
 ## Syntax
 
@@ -60,9 +56,7 @@ If a thumbnail of this file is not available, this method returns Nothing or nul
 ## See Also
 
 [IEdmFile15 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15.html)
-
 [IEdmFile15 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile15_members.html)
-
 [IEdmEnumeratorVariable5::GetThumbnail Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetThumbnail.html)
 
 ## Availability

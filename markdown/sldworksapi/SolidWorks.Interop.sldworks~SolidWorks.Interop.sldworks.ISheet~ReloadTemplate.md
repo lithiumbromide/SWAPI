@@ -47,13 +47,7 @@ System.int ReloadTemplate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,16 @@ See
 
 ### Return Value
 
-Status as defined in
-
-[swReloadTemplateResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReloadTemplateResult_e.html)
+Status as defined in [swReloadTemplateResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReloadTemplateResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[Sheet::ReloadTemplate](ms-its:sldworksapivb6.chm::/sldworks~Sheet~ReloadTemplate.html)
-
-.
+See [Sheet::ReloadTemplate](ms-its:sldworksapivb6.chm::/sldworks~Sheet~ReloadTemplate.html).
 
 ## Examples
 
 [Modify and Reload Sheet Format Template (C#)](Modify_and_Reload_Sheet_Format_Template_Example_CSharp.htm)
-
 [Modify and Reload Sheet Format Template (VB.NET)](Modify_and_Reload_Sheet_Format_Template_Example_VBNET.htm)
-
 [Modify and Reload Sheet Format Template (VBA)](Modify_and_Reload_Sheet_Format_Template_Example_VB.htm)
 
 ## Remarks
@@ -92,11 +78,8 @@ If new notes are added or existing notes modified or deleted on the sheet format
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [IDrawingDoc::EditTemplate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~EditTemplate.html)
-
 [ISheet::SaveFormat Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SaveFormat.html)
 
 ## Availability

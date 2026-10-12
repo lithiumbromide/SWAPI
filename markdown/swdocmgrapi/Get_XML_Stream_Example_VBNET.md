@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_XML_Stream_Example_VBNET.htm"
 
 # Get XML Stream Example (VB.NET)
 
-This example shows how to
-get an embedded XML stream in a SOLIDWORKS document using the SOLIDWORKS Document Manager API.
+This example shows how to get an embedded XML stream in a SOLIDWORKS document using the SOLIDWORKS Document Manager API.
 
 ```vb
   '---------------------------------------------------------------------------

@@ -46,13 +46,7 @@ void ShowModelWindow(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,34 +54,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[Frame::ShowModelWindow](ms-its:sldworksapivb6.chm::/sldworks~Frame~ShowModelWindow.html)
-
-.
+See [Frame::ShowModelWindow](ms-its:sldworksapivb6.chm::/sldworks~Frame~ShowModelWindow.html).
 
 ## Examples
 
 [Switch Documents (C#)](Switch_Documents_Example_CSharp.htm)
-
 [Switch Documents (VB.NET)](Switch_Documents_Example_VBNET.htm)
-
 [Switch Documents (VBA)](Switch_Documents_Example_VB.htm)
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::GetHWnd Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetHWnd.html)
-
 [IFrame::GetHWndx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetHWndx64.html)
-
 [IFrame::GetModelWindowCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetModelWindowCount.html)
-
 [IFrame::IGetModelWindows Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~IGetModelWindows.html)
-
 [IFrame::ModelWindows Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~ModelWindows.html)
 
 ## Availability

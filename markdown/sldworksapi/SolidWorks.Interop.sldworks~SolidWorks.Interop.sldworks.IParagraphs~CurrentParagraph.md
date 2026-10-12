@@ -45,13 +45,7 @@ property System.int CurrentParagraph {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::CurrentParagraph](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~CurrentParagraph.html)
-
-.
+See [Paragraphs::CurrentParagraph](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~CurrentParagraph.html).
 
 ## Examples
 
-See the
-
-[IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
-examples.
+See the [IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html) examples.
 
 ## Remarks
 
-Before calling any of the methods of[IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html), you must call this method to set the current paragraph.
+Before calling any of the methods of [IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html), you must call this method to set the current paragraph.
 
-Use[IParagraphs::Count](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~Count.html)to determine the index with which to set this property.
+Use [IParagraphs::Count](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~Count.html) to determine the index with which to set this property.
 
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
 
 ## Availability

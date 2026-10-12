@@ -40,13 +40,7 @@ System.int GetZAxisEntitiesCount()
 System.int GetZAxisEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of entities for the z axis
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemFeatureData::GetZAxisEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~GetZAxisEntitiesCount.html)
-
-.
+See [CoordinateSystemFeatureData::GetZAxisEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~GetZAxisEntitiesCount.html).
 
 ## Examples
 
@@ -66,28 +56,17 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ICoordinateSystemFeatureData::IGetZAxisEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoordinateSystemFeatureData~IGetZAxisEntities.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ICoordinateSystemFeatureData::IGetZAxisEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoordinateSystemFeatureData~IGetZAxisEntities.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
-
 [ICoordinateSystemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData_members.html)
-
 [ICoordinateSystemFeatureData::ISetZAxisEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~ISetZAxisEntities.html)
-
 [ICoordinateSystemFeatureData::ZAxisEntities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~ZAxisEntities.html)
-
 [ICoordinateSystemFeatureData::ZFlipped Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~ZFlipped.html)
-
 [ICoordinateSystemFeatureData::GetZAxisEntitiesTypes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~GetZAxisEntitiesTypes.html)
-
 [ICoordinateSystemFeatureData::IGetZAxisEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~IGetZAxisEntities.html)
-
 [ICoordinateSystemFeatureData::IGetZAxisEntitiesTypes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~IGetZAxisEntitiesTypes.html)
 
 ## Availability

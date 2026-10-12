@@ -61,16 +61,10 @@ CWFatigueEvent^ AddFatigueEventForConstantAmplitude(
 
 ### Parameters
 
-- `SAssociatedStudyName`: Name of the reference study (see
-
-Remarks
-
-)
+- `SAssociatedStudyName`: Name of the reference study (see **Remarks**)
 - `DScale`: 0.0 <= Factor by which to scale the result stresses of SAssociatedStudyName <= 1.0E36
 - `NStep`: Solution step of SAssociatedStudyName; valid only for nonlinear or linear dynamic studies
-- `ErrorCode`: Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+- `ErrorCode`: Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ### Return Value
 
@@ -78,19 +72,11 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::AddFatigueEventForConstantAmplitude](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForConstantAmplitude.html)
-
-.
+See [CWFatigueStudyOptions::AddFatigueEventForConstantAmplitude](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForConstantAmplitude.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## Remarks
 
@@ -103,7 +89,7 @@ SAssociatedStudyName must be the name of a study of the following type:
 
 - Linear dynamic time History
 
-To get or set the interaction option for this event, call[ICWFatigueStudyOptions::ConstantAmplitudeEventInteractionOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~ConstantAmplitudeEventInteractionOption.html).
+To get or set the interaction option for this event, call [ICWFatigueStudyOptions::ConstantAmplitudeEventInteractionOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~ConstantAmplitudeEventInteractionOption.html).
 
 To fully configure the constant amplitude fatigue study for this event, call:
 
@@ -117,17 +103,11 @@ To fully configure the constant amplitude fatigue study for this event, call:
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForHarmonic Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForHarmonic.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForRandomVibration Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForRandomVibration.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForVariableAmplitude Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForVariableAmplitude.html)
-
 [ICWFatigueStudyOptions::DeleteFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~DeleteFatigueEvent.html)
-
 [ICWFatigueStudyOptions::GetFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~GetFatigueEvent.html)
 
 ## Availability

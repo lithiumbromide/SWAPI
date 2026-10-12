@@ -39,16 +39,11 @@ void GetUpdatedPaths(
 
 ### Parameters
 
-- `ppoUpdatedPathArr`: Array of
-
-[EdmUpdatedRefPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html)
-
-s
+- `ppoUpdatedPathArr`: Array of [EdmUpdatedRefPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html)s
 
 ## See Also
 
 [IEdmRefItem2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2.html)
-
 [IEdmRefItem2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2_members.html)
 
 ## Availability

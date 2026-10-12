@@ -1,6 +1,5 @@
 ---
-title: "LinearPatternFeatureData Object
-Members"
+title: "LinearPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LinearPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LinearPatternFeatureData_members.html"
 ---
 
-# LinearPatternFeatureData Object
-Members
+# LinearPatternFeatureData Object Members
 
 ## Public Methods
 

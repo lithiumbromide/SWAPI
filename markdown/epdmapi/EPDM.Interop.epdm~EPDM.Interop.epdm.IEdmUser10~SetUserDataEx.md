@@ -39,21 +39,11 @@ void SetUserDataEx(
 
 ### Parameters
 
-- `poUserData`: [EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
-structure (see
-
-Remarks
-
-)
+- `poUserData`: [EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html) structure (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)
-
-examples.
+See the [IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html) examples.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ The properties and picture associated with this user can be updated using this m
 ## See Also
 
 [IEdmUser10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)
-
 [IEdmUser10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10_members.html)
 
 ## Availability

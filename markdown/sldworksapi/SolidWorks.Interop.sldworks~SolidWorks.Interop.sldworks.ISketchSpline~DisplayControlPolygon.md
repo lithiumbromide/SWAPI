@@ -45,13 +45,7 @@ property System.bool DisplayControlPolygon {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to add a control polygon, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::DisplayControlPolygon](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~DisplayControlPolygon.html)
-
-.
+See [SketchSpline::DisplayControlPolygon](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~DisplayControlPolygon.html).
 
 ## Examples
 
@@ -71,14 +61,13 @@ See
 
 ## Remarks
 
-To add a control polygon, set[ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)kadov_tag{{</spaces>}}swSketchShowSplineControlPolygon to True.
+To add a control polygon, set [ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) swSketchShowSplineControlPolygon to True.
 
-If the spline is not smooth after dragging a node of the control polygon, use[ISketchSpline::RelaxSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~RelaxSpline.html)to smoothen its shape.
+If the spline is not smooth after dragging a node of the control polygon, use [ISketchSpline::RelaxSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~RelaxSpline.html) to smoothen its shape.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
 
 ## Availability

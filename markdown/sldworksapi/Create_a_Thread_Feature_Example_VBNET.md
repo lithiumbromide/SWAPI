@@ -11,7 +11,19 @@ source: "sldworksapi/Create_a_Thread_Feature_Example_VBNET.htm"
 
 This example shows how to create and edit a thread feature.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Open: ' public_documents \samples\tutorial\api\holecube.sldprt ' 2. Open an Immediate window. ' ' Postconditions: ' 1. Creates Thread1 . ' 2. Modifies the start angle and overrides the pitch of Thread1 . ' 3. Inspect the Immediate window. ' ' NOTE: Because the model is used elsewhere, do not save changes. '--------------------------------------------------------------------------- -
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Open:
+' `public_documents`**\samples\tutorial\api\holecube.sldprt**
+' 2. Open an Immediate window.
+'
+' Postconditions:
+' 1. Creates **Thread1**.
+' 2. Modifies the start angle and overrides the pitch of **Thread1**.
+' 3. Inspect the Immediate window.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
  Imports SolidWorks.Interop.sldworks

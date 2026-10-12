@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EMode
 
 # IEModelMarkupControl Interface Members
 
-The following tables list the members exposed by[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html).
+The following tables list the members exposed by [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html).
 
 ## Public Properties
 
@@ -45,7 +45,5 @@ The following tables list the members exposed by[IEModelMarkupControl](eDrawings
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [eDrawings.Interop.EModelMarkupControl Namespace](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl_namespace.html)
-
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)

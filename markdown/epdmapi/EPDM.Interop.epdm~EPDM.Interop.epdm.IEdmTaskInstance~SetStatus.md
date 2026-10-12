@@ -51,25 +51,15 @@ void SetStatus(
 
 ### Parameters
 
-- `eStatus`: Status of this task as defined in
-
-[EdmTaskStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus.html)
+- `eStatus`: Status of this task as defined in [EdmTaskStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus.html)
 - `lHRESULT`: Optional error code to display in the properties window when terminating the task; valid only if eStatus is EdmTaskStatus.EdmTaskStat_DoneFailed
 - `bsCustomMsg`: Optional error message to display when terminating the task; valid only if eStatus is EdmTaskStatus.EdmTaskStat_DoneFailed
-- `oNotificationAttachments`: Optional array of
-
-[EdmSelItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html)
-
-structures; one structure for each file link to add to the notification message that is sent when the task completes
+- `oNotificationAttachments`: Optional array of [EdmSelItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html) structures; one structure for each file link to add to the notification message that is sent when the task completes
 - `bsExtraNotificationMsg`: Optional message to append to the notification message that is sent when the task completes
 
 ## Examples
 
-See the examples in
-
-[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
-.
+See the examples in [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html).
 
 ## Remarks
 
@@ -82,9 +72,7 @@ The task add-in calls this method to inform the framework about the current stat
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskInstance Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html)
-
 [IEdmTaskInstance::GetStatus Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetStatus.html)
 
 ## Availability

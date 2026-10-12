@@ -53,9 +53,7 @@ System.String^ IGetTemplatePathnames(
 
 ### Parameters
 
-- `CostingType`: Type of Costing analysis as defined in
-
-[swcCostingType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
+- `CostingType`: Type of Costing analysis as defined in [swcCostingType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
 - `NumTemplates`: Number of Costing templates available for CostingType
 
 ### Return Value
@@ -65,16 +63,14 @@ System.String^ IGetTemplatePathnames(
 
 ## Remarks
 
-Before calling this method, call[ICostManager::GetTemplateCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostManager~GetTemplateCount.html)to get the NumTemplates value.
+Before calling this method, call [ICostManager::GetTemplateCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostManager~GetTemplateCount.html) to get the NumTemplates value.
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostManager Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager.html)
-
 [ICostManager Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager_members.html)
-
 [ICostManager::GetTemplatePathnames Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~GetTemplatePathnames.html)
 
 ## Availability

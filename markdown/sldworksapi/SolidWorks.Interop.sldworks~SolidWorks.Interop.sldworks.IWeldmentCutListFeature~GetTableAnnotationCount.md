@@ -40,13 +40,7 @@ System.int GetTableAnnotationCount()
 System.int GetTableAnnotationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Number of weldment cut list annotations for this weldment cut list table
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetTableAnnotationCount.html)
-
-.
+See [WeldmentCutListFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetTableAnnotationCount.html).
 
 ## Remarks
 
-Call this method before calling[IWeldmentCutListFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~IGetTableAnnotations.html)to get the size of the array for that method.
+Call this method before calling [IWeldmentCutListFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~IGetTableAnnotations.html) to get the size of the array for that method.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
-
 [IWeldmentCutListFeature::GetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~GetTableAnnotations.html)
 
 ## Availability

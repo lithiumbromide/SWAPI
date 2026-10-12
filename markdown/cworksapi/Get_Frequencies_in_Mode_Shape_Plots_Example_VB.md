@@ -9,8 +9,7 @@ source: "cworksapi/Get_Frequencies_in_Mode_Shape_Plots_Example_VB.htm"
 
 # Get Frequencies in Mode Shape Plots Example (VBA)
 
-This example shows how to get frequencies for all mode shapes in amplitude
-plots.
+This example shows how to get frequencies for all mode shapes in amplitude plots.
 
 ```vb
  '----------------------------------------------------------------------------

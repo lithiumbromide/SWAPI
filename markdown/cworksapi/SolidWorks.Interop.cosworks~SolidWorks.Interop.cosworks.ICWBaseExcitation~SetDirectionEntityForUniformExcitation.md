@@ -48,23 +48,15 @@ void SetDirectionEntityForUniformExcitation(
 
 ### Parameters
 
-- `RefEntity`: Face, edge, or plane of excitation direction (see
-
-Remarks
-
-)
+- `RefEntity`: Face, edge, or plane of excitation direction (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::SetDirectionEntityForUniformExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~SetDirectionEntityForUniformExcitation.html)
-
-.
+See [CWBaseExcitation::SetDirectionEntityForUniformExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~SetDirectionEntityForUniformExcitation.html).
 
 ## Remarks
 
-This method applies only to base excitations that are created using[ICWLoadsAndRestraintsManager::AddUniformBaseExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddUniformBaseExcitation.html).
+This method applies only to base excitations that are created using [ICWLoadsAndRestraintsManager::AddUniformBaseExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddUniformBaseExcitation.html).
 
 You can specify the direction of uniform base excitation by calling either:
 
@@ -72,18 +64,11 @@ You can specify the direction of uniform base excitation by calling either:
 
 - or -
 
-- [ICWBaseExcitation::SetExcitationDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirections.html)
-
-  and
-
-  [ICWBaseExcitation::SetExcitationDirectionValues](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirectionValues.html)
-
-  to explicitly specify the excitation direction components and values
+- [ICWBaseExcitation::SetExcitationDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirections.html) and [ICWBaseExcitation::SetExcitationDirectionValues](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirectionValues.html) to explicitly specify the excitation direction components and values
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

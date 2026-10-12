@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # IWizardHoleFeatureData Interface Members
 
-The following tables list the members exposed by[IWizardHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html).
+The following tables list the members exposed by [IWizardHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html).
 
 ## Public Properties
 
@@ -70,5 +70,4 @@ The following tables list the members exposed by[IWizardHoleFeatureData](SolidWo
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

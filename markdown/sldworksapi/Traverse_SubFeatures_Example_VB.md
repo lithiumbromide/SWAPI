@@ -11,8 +11,7 @@ source: "sldworksapi/Traverse_SubFeatures_Example_VB.htm"
 
 ## Traverse Subfeatures Example (VBA)
 
-This example shows how to traverse the subfeatures of each feature in a
-part.
+This example shows how to traverse the subfeatures of each feature in a part.
 
 ```
 '---------------------------------------------

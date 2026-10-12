@@ -40,13 +40,7 @@ System.double GetHeight()
 System.double GetHeight();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,14 +48,9 @@ GTol height
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetHeight.html)
-
-.
+See [Gtol::GetHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetHeight.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

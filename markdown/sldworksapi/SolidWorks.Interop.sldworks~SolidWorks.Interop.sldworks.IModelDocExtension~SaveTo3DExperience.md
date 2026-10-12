@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SaveTo3DExperience Method (IModelDocExtension)
 
-Saves this document in
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-using the specified save options.
+Saves this document in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) using the specified save options.
 
 ## Syntax
 
@@ -59,23 +55,11 @@ System.bool SaveTo3DExperience(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Options`: [ISaveTo3DExperienceOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions.html)
-
-(see
-
-Remarks
-
-)
+- `Options`: [ISaveTo3DExperienceOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions.html) (see **Remarks**)
 - `Errors`: Error codes
 - `Warnings`: Warning codes
 
@@ -85,35 +69,18 @@ True if the document saved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SaveTo3DExperience](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveTo3DExperience.html)
-
-.
+See [ModelDocExtension::SaveTo3DExperience](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveTo3DExperience.html).
 
 ## Remarks
 
 If the file is:
 
-- new and the file name is specified in Options, then this method acts like
-
-  File > Save
-
-  . If any other options are specified, then this method acts like
-
-  File > Save With Options
-
-  .
-- already saved to the platform and a new file name is specified in Options, then this method acts like
-
-  File > Save As New
-
-  .
+- new and the file name is specified in Options, then this method acts like **File > Save**. If any other options are specified, then this method acts like **File > Save With Options**.
+- already saved to the platform and a new file name is specified in Options, then this method acts like **File > Save As New**.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

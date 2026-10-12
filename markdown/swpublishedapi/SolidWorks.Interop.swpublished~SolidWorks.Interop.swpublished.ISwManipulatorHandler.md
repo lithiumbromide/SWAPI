@@ -9,13 +9,9 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwManipulatorHandler Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [ISwManipulatorHandler2](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2.html).
 
-[ISwManipulatorHandler2](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class ISwManipulatorHandler
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler.html)
-
-.
+See [SwManipulatorHandler](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler.html).
 
 ## See Also
 
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

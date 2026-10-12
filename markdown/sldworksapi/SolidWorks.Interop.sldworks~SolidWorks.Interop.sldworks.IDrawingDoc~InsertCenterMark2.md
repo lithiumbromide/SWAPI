@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertCenterMark2 Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::InsertCenterMark3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark3.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::InsertCenterMark3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark3.html).
 
 ## Syntax
 
@@ -55,41 +51,24 @@ CenterMark^ InsertCenterMark2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style as defined in
-
-[swCenterMarkStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkStyle_e.html)
+- `Style`: Style as defined in [swCenterMarkStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkStyle_e.html)
 - `Propagate`: True if the center mark should propagate throughout the pattern, false if not
 
 ### Return Value
 
-Pointer to the
-
-[centermark](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterMark.html)
-
-object
+Pointer to the [centermark](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterMark.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCenterMark2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark2.html)
-
-.
+See [DrawingDoc::InsertCenterMark2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark2.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

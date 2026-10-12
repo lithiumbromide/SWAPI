@@ -9,8 +9,7 @@ source: "obsoleteapi/ModelDoc/ModelDoc__InsertWeldSymbol2.htm"
 
 # ModelDoc::InsertWeldSymbol2
 
-This method is now obsolete and has be
-superseded by[ModelDoc::InsertWeldSymbol3](ModelDoc__InsertWeldSymbol3.htm)
+This method is now obsolete and has be superseded by [ModelDoc::InsertWeldSymbol3](ModelDoc__InsertWeldSymbol3.htm)
 
 Description
 
@@ -18,11 +17,7 @@ This method creates a weld symbol located at the last edge selection.
 
 Syntax (OLE Automation)
 
-void ModelDoc.InsertWeldSymbol2
-( dim1, symbol, dim2, symmetric, fieldWeld, showOtherSide, dashOnTop,
-peripheral, hasProcess, processValue)
-
-(Table)=========================================================
+void ModelDoc.InsertWeldSymbol2 ( dim1, symbol, dim2, symmetric, fieldWeld, showOtherSide, dashOnTop, peripheral, hasProcess, processValue)
 
 | Input: | (BSTR) dim1 | First text value to the left of the symbol |
 | --- | --- | --- |
@@ -38,11 +33,7 @@ peripheral, hasProcess, processValue)
 
 Syntax (COM)
 
-status = ModelDoc->InsertWeldSymbol2
-( dim1, symbol, dim2, symmetric, fieldWeld, showOtherSide, dashOnTop,
-peripheral, hasProcess, processValue )
-
-(Table)=========================================================
+status = ModelDoc->InsertWeldSymbol2 ( dim1, symbol, dim2, symmetric, fieldWeld, showOtherSide, dashOnTop, peripheral, hasProcess, processValue )
 
 | Input: | (BSTR) dim1 | First text value to the left of the symbol |
 | --- | --- | --- |
@@ -59,5 +50,4 @@ peripheral, hasProcess, processValue )
 
 Remarks
 
-The symbol argument specifies the weld symbol name.
-A list of names can be found in thegtol.symfile, which is located in the<installation_dir>/lang/englishfolder of your SolidWorks installation.
+The symbol argument specifies the weld symbol name. A list of names can be found in the gtol.sym file, which is located in the <installation_dir>/lang/english folder of your SolidWorks installation.

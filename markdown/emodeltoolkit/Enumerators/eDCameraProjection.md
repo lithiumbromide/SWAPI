@@ -11,8 +11,6 @@ source: "emodeltoolkit/Enumerators/eDCameraProjection.htm"
 
 ### eDCameraProjection
 
-eDCameraOrthographickadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-0x00,
+eDCameraOrthographic = 0x00,
 
-eDCameraPerspectivekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-0x01
+eDCameraPerspective = 0x01

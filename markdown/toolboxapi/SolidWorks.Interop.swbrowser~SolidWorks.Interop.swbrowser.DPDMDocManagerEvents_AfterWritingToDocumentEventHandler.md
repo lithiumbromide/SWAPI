@@ -43,13 +43,7 @@ public delegate System.int DPDMDocManagerEvents_AfterWritingToDocumentEventHandl
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html).
 
 ### Parameters
 
@@ -57,19 +51,11 @@ See
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[AfterWritingToDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~AfterWritingToDocument_EV.html)
-
-.
+See [AfterWritingToDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~AfterWritingToDocument_EV.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Remarks
 
@@ -81,7 +67,7 @@ In the body of this handler, you can perform PDM document management functions s
 - Copy a working file to the PDM-managed location, overwriting the PDM-managed version if necessary.
 - Set the read-only attribute of the PDM-managed file.
 
-Before returning from this handler, you must call[IPDMDocManager::SetDocumentStatus](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetDocumentStatus.html)with[swPDMStatus_e.swPDMStatusKnownAndAvailable](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.swPDMStatus_e.html)in order to not generate an error.
+Before returning from this handler, you must call [IPDMDocManager::SetDocumentStatus](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetDocumentStatus.html) with [swPDMStatus_e.swPDMStatusKnownAndAvailable](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.swPDMStatus_e.html) in order to not generate an error.
 
 ## Availability
 

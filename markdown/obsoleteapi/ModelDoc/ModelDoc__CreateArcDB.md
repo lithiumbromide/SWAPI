@@ -9,5 +9,4 @@ source: "obsoleteapi/ModelDoc/ModelDoc__CreateArcDB.htm"
 
 # ModelDoc::CreateArcDB
 
-This method is obsolete
-and has been superseded by[ModelDoc2::CreateArcDB](../ModelDoc2/ModelDoc2__CreateArcDB.htm).
+This method is obsolete and has been superseded by [ModelDoc2::CreateArcDB](../ModelDoc2/ModelDoc2__CreateArcDB.htm).

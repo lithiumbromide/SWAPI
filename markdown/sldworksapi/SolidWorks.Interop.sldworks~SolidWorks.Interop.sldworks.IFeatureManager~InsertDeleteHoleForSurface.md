@@ -40,13 +40,7 @@ Feature InsertDeleteHoleForSurface()
 Feature^ InsertDeleteHoleForSurface();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertDeleteHoleForSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDeleteHoleForSurface.html)
-
-.
+See [FeatureManager::InsertDeleteHoleForSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDeleteHoleForSurface.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-to select the hole edges to remove from the surface.
+Before calling this method, call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the hole edges to remove from the surface.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

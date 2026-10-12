@@ -45,13 +45,7 @@ property System.bool LockRotation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to lock the rotation, false to not
 
 ## VBA Syntax
 
-See
-
-[ProfileCenterMateFeatureData::LockRotation](ms-its:sldworksapivb6.chm::/sldworks~ProfileCenterMateFeatureData~LockRotation.html)
-
-.
+See [ProfileCenterMateFeatureData::LockRotation](ms-its:sldworksapivb6.chm::/sldworks~ProfileCenterMateFeatureData~LockRotation.html).
 
 ## Examples
 
-See the
-
-[IProfileCenterMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html)
-
-examples.
+See the [IProfileCenterMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html) examples.
 
 ## See Also
 
 [IProfileCenterMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html)
-
 [IProfileCenterMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData_members.html)
 
 ## Availability

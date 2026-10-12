@@ -47,30 +47,20 @@ property System.int PreLoadForceType {
 
 ### Property Value
 
-Preload force type as defined in[swsPreloadForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPreLoadForceType_e.html)
+Preload force type as defined in [swsPreloadForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPreLoadForceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::PreLoadForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~PreLoadForceType.html)
-
-.
+See [CWSpringConnector::PreLoadForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~PreLoadForceType.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [ICWSpringConnector::PreLoadForceValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~PreLoadForceValue.html)
 
 ## Availability

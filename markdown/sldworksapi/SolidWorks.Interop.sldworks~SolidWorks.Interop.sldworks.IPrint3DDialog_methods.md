@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPrint3DDialog Interface Methods
 
-For a list of all members of this type, see[IPrint3DDialog members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog_members.html).
+For a list of all members of this type, see [IPrint3DDialog members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IPrint3DDialog members](SolidWorks.I
 ## See Also
 
 [IPrint3DDialog Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

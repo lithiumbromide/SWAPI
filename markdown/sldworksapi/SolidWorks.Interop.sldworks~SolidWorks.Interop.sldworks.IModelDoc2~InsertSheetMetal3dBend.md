@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertSheetMetal3dBend Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertSheetMetal3dBend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertSheetMetal3dBend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void InsertSheetMetal3dBend(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSheetMetal3dBend](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetal3dBend.html)
-
-.
+See [ModelDoc2::InsertSheetMetal3dBend](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetal3dBend.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

@@ -52,46 +52,28 @@ public delegate System.int DAssemblyDocEvents_ComponentStateChangeNotify3EventHa
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Component`: [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 - `CompName`: Name of the component
-- `oldCompState`: Previous state of the component as defined in
-
-[swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
-- `newCompState`: New state of the component as defined in
-
-[swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
+- `oldCompState`: Previous state of the component as defined in [swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
+- `newCompState`: New state of the component as defined in [swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
 
 ## VBA Syntax
 
-See
-
-[ComponentStateChangeNotify3 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentStateChangeNotify3_EV.html)
-
-.
+See [ComponentStateChangeNotify3 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentStateChangeNotify3_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyComponentStateChangeNotify3](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyComponentStateChangeNotify3](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-SOLIDWORKS sends this notification:
+SOLIDWORKS Design sends this notification:
 
 - even if the assembly is not the active document.
 - when a component gets suppressed due to an internal ID mismatch.
-- not at all if a part is explicitly opened by the user or opened programmatically. In that case, SOLIDWORKS resolves the component part in any open assembly that references it. Your application must watch for the SOLIDWORKS event
-
-  [FileOpenNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileOpenNotify2EventHandler.html)
-
-  .
+- not at all if a part is explicitly opened by the user or opened programmatically. In that case, SOLIDWORKS Design resolves the component part in any open assembly that references it. Your application must watch for the SOLIDWORKS event [FileOpenNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileOpenNotify2EventHandler.html).
 
 When a component is resolved or unsuppressed, its model document becomes available to your application. Within this notification, you can get this object and register for other events. This might be useful for project data management (PDM) applications that want to ask the user to check out the assembly component if the user tries to make changes.
 

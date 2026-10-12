@@ -13,56 +13,37 @@ source: "sldworksapi/Create_Body_using_Trimmed_Surfaces_Example_CSharp.htm"
 
 The basic outline for creating a body using trimmed surfaces is as follows:
 
-1. Create a new temporary
-  body in a part using IPartDoc::CreateNewBody.
-2. Create trimmed surfaces to create a body (for example,
-  create six square surfaces that intersect at the edges to form a cube):
+1. Create a new temporary body in a part using IPartDoc::CreateNewBody.
+2. Create trimmed surfaces to create a body (for example, create six square surfaces that intersect at the edges to form a cube):
 
-  1. Create
-    a planar surface using IBody2::CreatePlanarSurface(RootPoint, Normal).
-  2. Add a
-    trimming loop to the planar surface using
-    ISurface::AddTrimmingLoop2(Numcurves, _Order, _ Dimen, _ Periodic, _ NumKnots, _ NumCtrlPoints, _ Knots, _ CtrlPointDbls, _ UVRange)
-  3. The arguments for Surface::AddTrimmingLoop2
-    and their values for a square trimming loop are:
-
-    (Table)=================================================
-
-    begin!kadov{{
-
-    }}end!kadov
+  1. Create a planar surface using IBody2::CreatePlanarSurface(RootPoint, Normal).
+  2. Add a trimming loop to the planar surface using
+    ISurface::AddTrimmingLoop2(Numcurves, _
+    Order, _
+    Dimen, _
+    Periodic, _
+    NumKnots, _
+    NumCtrlPoints, _
+    Knots, _
+    CtrlPointDbls, _
+    UVRange)
+  3. The arguments for Surface::AddTrimmingLoop2 and their values for a square trimming loop are:
 
     | Argument | Description |
     | --- | --- |
     | NumCurves | Number of spline curves that make up the trimming loop (Long 4) |
-    | Order | Orders for the spline curves ({2, 2, 2, 2} Array of Longs.
-    Second-order linear curves) |
-    | Dimen | Dimension of the control points for the spline curves ({2, 2,
-    2, 2} Array of Longs) |
+    | Order | Orders for the spline curves ({2, 2, 2, 2} Array of Longs. Second-order linear curves) |
+    | Dimen | Dimension of the control points for the spline curves ({2, 2, 2, 2} Array of Longs) |
     | Periodic | Periodicity of the spline curves ({0, 0, 0, 0} Array of Longs) |
-    | NumKnots | Number of knots of the spline curves ({4, 4, 4, 4} Array of
-    Longs) |
-    | NumCtrlPoints | Number of control points for the spline curves ({2, 2, 2, 2}
-    Array of Longs) |
-    | Knots | Describes the locations of the knots on the spline curves ({0, 0, 1,
-    1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1} Array of Doubles. Each spline
-    curve contains 4 knots) |
-    | CtrlPointDbls | Coordinates of control points for the square trimming loop ({0, 0, 1, 0, 1, 0, 1, 1,
-    1, 1, 0, 1, 0, 1, 0, 0} Array of Doubles. (Two for each spline curve of the
-    square trimming loop * Dimen) = 16 coordinates for the square trimming
-    loop) |
+    | NumKnots | Number of knots of the spline curves ({4, 4, 4, 4} Array of Longs) |
+    | NumCtrlPoints | Number of control points for the spline curves ({2, 2, 2, 2} Array of Longs) |
+    | Knots | Describes the locations of the knots on the spline curves ({0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1} Array of Doubles. Each spline curve contains 4 knots) |
+    | CtrlPointDbls | Coordinates of control points for the square trimming loop ({0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0} Array of Doubles. (Two for each spline curve of the square trimming loop * Dimen) = 16 coordinates for the square trimming loop) |
     | UVRange | Min and max for the U and V values ({0, 1, 0, 1} Array of Doubles) |
+  4. Create a trimmed surface on the body based on the trimming loop that was just created.
+3. Sew the surfaces together into a new body using IBody2::CreateBodyFromSurfaces.
 
-    begin!kadov{{
-
-    }}end!kadov
-  4. Create a trimmed surface on the body based on the
-    trimming loop that was just created.
-3. Sew the surfaces together
-  into a new body using IBody2::CreateBodyFromSurfaces.
-
-This example shows how to create trimmed surfaces and use them to create
-bodies.
+This example shows how to create trimmed surfaces and use them to create bodies.
 
 ```vb
   //-------------------------------------------------------------

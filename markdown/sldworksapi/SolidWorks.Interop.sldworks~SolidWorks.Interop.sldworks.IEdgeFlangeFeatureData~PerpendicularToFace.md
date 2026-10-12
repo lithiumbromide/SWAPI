@@ -45,13 +45,7 @@ property System.bool PerpendicularToFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to set this edge flange perpendicular to the angle reference face, false to
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::PerpendicularToFace](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~PerpendicularToFace.html)
-
-.
+See [EdgeFlangeFeatureData::PerpendicularToFace](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~PerpendicularToFace.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IEdgeFlangeFeatureData::AngleReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~AngleReference.html)
-
-is not null.
+This property is valid only if [IEdgeFlangeFeatureData::AngleReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~AngleReference.html) is not null.
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
 
 ## Availability

@@ -46,14 +46,8 @@ System.bool CreateTree(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `lEdmUnlockBuildTreeFlags`: Combination of
-
-[EdmUnlockBuildTreeFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags.html)
-
-bits
-- `poCallback`: [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
-; optional callback that you can implement to receive more information about the unlock operation
+- `lEdmUnlockBuildTreeFlags`: Combination of [EdmUnlockBuildTreeFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags.html) bits
+- `poCallback`: [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html); optional callback that you can implement to receive more information about the unlock operation
 
 ### Return Value
 
@@ -61,15 +55,11 @@ True if at least one file is valid for the operation, false if no files are vali
 
 ## Examples
 
-See the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-examples.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) examples.
 
 ## Remarks
 
-See the[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)remarks for information about using this method.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) remarks for information about using this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -79,7 +69,6 @@ See the[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.htm
 ## See Also
 
 [IEdmBatchUnlock Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
 [IEdmBatchUnlock Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html)
 
 ## Availability

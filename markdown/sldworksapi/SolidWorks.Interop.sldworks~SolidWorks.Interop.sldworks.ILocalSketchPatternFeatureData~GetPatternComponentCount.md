@@ -40,13 +40,7 @@ System.int GetPatternComponentCount()
 System.int GetPatternComponentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of components
 
 ## VBA Syntax
 
-See
-
-[LocalSketchPatternFeatureData::GetPatternComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetPatternComponentCount.html)
-
-.
+See [LocalSketchPatternFeatureData::GetPatternComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetPatternComponentCount.html).
 
 ## Examples
 
 [Create Local Sketch-driven Pattern (C#)](Create_Local_Sketch-driven_Pattern_Example_CSharp.htm)
-
 [Create Local Sketch-driven Pattern (VB.NET)](Create_Local_Sketch-driven_Pattern_Example_VBNET.htm)
-
 [Create Local Sketch-driven Pattern (VBA)](Create_Local_Sketch-driven_Pattern_Example_VB.htm)
 
 ## See Also
 
 [ILocalSketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData.html)
-
 [ILocalSketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData_members.html)
-
 [ILocalSketchPatternFeatureData::PatternComponentArray Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData~PatternComponentArray.html)
 
 ## Availability

@@ -39,21 +39,16 @@ void AddMembers(
 
 ### Parameters
 
-- `poUserIDs`: Array of database IDs of users to add to this user group (see
-
-Remarks
-
-)
+- `poUserIDs`: Array of database IDs of users to add to this user group (see **Remarks**)
 
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
 
-Call IEdmUser5::[ID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID.html)to populate the array of poUserIDs.
+Call IEdmUser5::[ID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID.html) to populate the array of poUserIDs.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -62,7 +57,6 @@ Call IEdmUser5::[ID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID.html)to 
 ## See Also
 
 [IEdmUserGroup6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html)
-
 [IEdmUserGroup6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6_members.html)
 
 ## Availability

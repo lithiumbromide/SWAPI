@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateCircle Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateCircle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateCircle.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateCircle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateCircle.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool CreateCircle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreateCircle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateCircle.html)
-
-.
+See [ModelDoc::CreateCircle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateCircle.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

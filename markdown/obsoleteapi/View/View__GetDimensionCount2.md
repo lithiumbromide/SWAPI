@@ -9,8 +9,7 @@ source: "obsoleteapi/View/View__GetDimensionCount2.htm"
 
 # View::GetDimensionCount2
 
-This method is obsolete and has been superseded
-by[View::GetDimensionCount3](View__GetDimensionCount3.htm).
+This method is obsolete and has been superseded by [View::GetDimensionCount3](View__GetDimensionCount3.htm).
 
 Description
 
@@ -20,17 +19,12 @@ Syntax (OLE Automation)
 
 retval = View.GetDimensionCount2 ()
 
-(Table)=========================================================
-
 | Return: | (long) retval | Number of dimensions in the view |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = View->GetDimensionCount2
-( &retval )
-
-(Table)=========================================================
+status = View->GetDimensionCount2 ( &retval )
 
 | Output: | (long) retval | Number of dimensions in the view. |
 | --- | --- | --- |
@@ -38,34 +32,6 @@ status = View->GetDimensionCount2
 
 Remarks
 
-This method is identical to the now obsolete View::GetDimensionCount
-except when a base ordinate is not visible, the subordinates were not
-output, regardless if they are visible or not.
+This method is identical to the now obsolete View::GetDimensionCount except when a base ordinate is not visible, the subordinates were not output, regardless if they are visible or not.
 
-With this method, the output of each subordinate, if it is visible,
-occurs regardless if its base ordinate is visible.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1217" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="View_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2005\obsoleteapi\View\View__GetDimensionCount2.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+With this method, the output of each subordinate, if it is visible, occurs regardless if its base ordinate is visible.

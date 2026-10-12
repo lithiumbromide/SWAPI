@@ -45,52 +45,29 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of tolerance as defined in
-
-[swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
-
-(see
-
-Remarks
-
-)
+Type of tolerance as defined in [swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DimensionTolerance::Type](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~Type.html)
-
-.
+See [DimensionTolerance::Type](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~Type.html).
 
 ## Examples
 
-See
-
-[IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html)
-
-examples.
+See [IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html) examples.
 
 ## Remarks
 
-In SOLIDWORKS 2016 and later, use[ICalloutVariable::ToleranceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ToleranceType.html)to set the type of tolerance for a hole's display dimension with multiple values in a callout. Calling IDimensionTolerance::Type to set the type of tolerance for a hole's display dimension with multiple values in a callout does not override ICalloutVariable::ToleranceType's setting.
+In SOLIDWORKS 2016 and later, use [ICalloutVariable::ToleranceType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ToleranceType.html) to set the type of tolerance for a hole's display dimension with multiple values in a callout. Calling IDimensionTolerance::Type to set the type of tolerance for a hole's display dimension with multiple values in a callout does not override ICalloutVariable::ToleranceType's setting.
 
-To see the effects of changing the tolerance type, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
+To see the effects of changing the tolerance type, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 ## See Also
 
 [IDimensionTolerance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html)
-
 [IDimensionTolerance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditRoute Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditRoute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRoute.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditRoute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRoute.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditRoute()
 void EditRoute();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditRoute](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditRoute.html)
-
-.
+See [ModelDoc::EditRoute](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditRoute.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

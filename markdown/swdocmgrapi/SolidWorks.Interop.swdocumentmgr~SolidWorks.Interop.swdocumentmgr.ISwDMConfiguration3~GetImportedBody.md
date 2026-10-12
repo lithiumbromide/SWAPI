@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetImportedBody Method (ISwDMConfiguration3)
 
-Gets the imported solid body in this configuration and writes the body to the specified file in Parasolid
-
-.x_b
-
-format.
+Gets the imported solid body in this configuration and writes the body to the specified file in Parasolid .x_b format.
 
 ## Syntax
 
@@ -58,39 +54,21 @@ SwDmBodyError GetImportedBody(
 ### Parameters
 
 - `index`: Number indicating which imported solid body in this configuration to get
-- `fileName`: File to which to write the body in Parasolid
-
-.x_b
-
-format (see
-
-Remarks
-
-)
+- `fileName`: File to which to write the body in Parasolid .x_b format (see Remarks)
 
 ### Return Value
 
-Success or error code as defined by
-
-[SwDmBodyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmBodyError.html)
-
-EndOLEArgumentsRow
+Success or error code as defined by [SwDmBodyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmBodyError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration3::GetImportedBody](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration3~GetImportedBody.html)
-
-.
+See [SwDMConfiguration3::GetImportedBody](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration3~GetImportedBody.html).
 
 ## Remarks
 
 This method gets imported solid bodies only; it does not get imported surface bodies.
 
-Before calling this method, call[ISwConfiguration3::GetImportedBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBodiesCount.html)to get the number of imported solid bodies in the configuration.
-
-(Table)=========================================================
+Before calling this method, call [ISwConfiguration3::GetImportedBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBodiesCount.html) to get the number of imported solid bodies in the configuration.
 
 | If fileName... | Then this method... |
 | --- | --- |
@@ -100,7 +78,6 @@ Before calling this method, call[ISwConfiguration3::GetImportedBodiesCount](SOLI
 ## See Also
 
 [ISwDMConfiguration3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3.html)
-
 [ISwDMConfiguration3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3_members.html)
 
 ## Availability

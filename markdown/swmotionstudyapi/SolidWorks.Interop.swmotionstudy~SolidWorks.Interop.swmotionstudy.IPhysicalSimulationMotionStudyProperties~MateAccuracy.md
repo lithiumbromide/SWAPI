@@ -51,11 +51,7 @@ Mate accuracy
 
 ## VBA Syntax
 
-See
-
-[PhysicalSimulationMotionStudyProperties::MateAccuracy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~PhysicalSimulationMotionStudyProperties~MateAccuracy.html)
-
-.
+See [PhysicalSimulationMotionStudyProperties::MateAccuracy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~PhysicalSimulationMotionStudyProperties~MateAccuracy.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property controls the amount of interpenetration of geometric meshes. A low
 ## See Also
 
 [IPhysicalSimulationMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties.html)
-
 [IPhysicalSimulationMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties_members.html)
 
 ## Availability

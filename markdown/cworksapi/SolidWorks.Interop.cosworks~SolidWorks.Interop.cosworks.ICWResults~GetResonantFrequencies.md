@@ -49,7 +49,7 @@ System.Object^ GetResonantFrequencies(
 
 ### Parameters
 
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -62,24 +62,17 @@ Array of resonant frequencies containing groups of these results:
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetResonantFrequencies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetResonantFrequencies.html)
-
-.
+See [CWResults::GetResonantFrequencies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetResonantFrequencies.html).
 
 ## Examples
 
 [Create Frequency Study with Solid Mesh (C#)](Create_Frequency_Study_with_Solid_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Solid Mesh (VB.NET)](Create_Frequency_Study_with_Solid_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Solid Mesh (VBA)](Create_Frequency_Study_with_Solid_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

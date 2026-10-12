@@ -67,11 +67,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDistanceBetweenDimTol::GetDirectionVector](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDistanceBetweenDimTol~GetDirectionVector.html)
-
-.
+See [SwDMDimXpertDistanceBetweenDimTol::GetDirectionVector](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDistanceBetweenDimTol~GetDirectionVector.html).
 
 ## Examples
 
@@ -80,7 +76,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDistanceBetweenDimTol.html)
-
 [ISwDMDimXpertDistanceBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDistanceBetweenDimTol_members.html)
 
 ## Availability

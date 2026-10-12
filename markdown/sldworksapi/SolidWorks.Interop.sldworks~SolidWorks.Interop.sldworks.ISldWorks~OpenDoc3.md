@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # OpenDoc3 Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)
-
-.
+Obsolete. Superseded by [ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.Object^ OpenDoc3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +85,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::OpenDoc3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~OpenDoc3.html)
-
-.
+See [SldWorks::OpenDoc3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~OpenDoc3.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

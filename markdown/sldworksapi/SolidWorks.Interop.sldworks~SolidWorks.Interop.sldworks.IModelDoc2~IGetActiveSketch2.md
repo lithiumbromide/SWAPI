@@ -40,27 +40,15 @@ Sketch IGetActiveSketch2()
 Sketch^ IGetActiveSketch2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Active
-
-[sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
+Active [sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IGetActiveSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetActiveSketch2.html)
-
-.
+See [ModelDoc2::IGetActiveSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetActiveSketch2.html).
 
 ## Examples
 
@@ -68,16 +56,14 @@ See
 
 ## Remarks
 
-Before you can use this method, you must select and activate a sketch. You can use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select a sketch and[ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html)to make the sketch active.
+Before you can use this method, you must select and activate a sketch. You can use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select a sketch and [ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html) to make the sketch active.
 
-For an example of getting a sketch through feature traversal, see[Get Sketches (C++)](Get_Sketches_Example_cplusplus_com.htm).
+For an example of getting a sketch through feature traversal, see [Get Sketches (C++)](Get_Sketches_Example_cplusplus_com.htm).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetActiveSketch2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetActiveSketch2.html)
 
 ## Availability

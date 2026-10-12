@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # ICWBeamManager Interface Members
 
-The following tables list the members exposed by[ICWBeamManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html).
+The following tables list the members exposed by [ICWBeamManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html).
 
 ## Public Properties
 
@@ -32,9 +32,6 @@ The following tables list the members exposed by[ICWBeamManager](SolidWorks.Inte
 ## See Also
 
 [ICWBeamManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWJoints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html)

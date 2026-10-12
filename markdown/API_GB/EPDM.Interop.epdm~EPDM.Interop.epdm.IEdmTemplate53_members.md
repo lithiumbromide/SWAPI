@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53_members.html"
 
 # IEdmTemplate53 Interface Members
 
-The following tables list the members exposed by[IEdmTemplate53](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53.html).
+The following tables list the members exposed by [IEdmTemplate53](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmTemplate53](EPDM.Interop.ep
 ## See Also
 
 [IEdmTemplate53 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

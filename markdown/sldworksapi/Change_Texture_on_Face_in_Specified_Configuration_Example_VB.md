@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Texture_on_Face_in_Specified_Configuration_Example_V
 
 # Change Texture on Face in Specified Configuration Example (VBA)
 
-This example shows how to change the texture on the selected face in
-the specified configuration.
+This example shows how to change the texture on the selected face in the specified configuration.
 
 ```vb
  '----------------------------------------------------------------------------

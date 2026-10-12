@@ -41,16 +41,11 @@ void Close();
 
 ## VBA Syntax
 
-See
-
-[CostManager::Close](swcostingapivb6.chm::/SldCostingAPI~CostManager~Close.html)
-
-.
+See [CostManager::Close](swcostingapivb6.chm::/SldCostingAPI~CostManager~Close.html).
 
 ## See Also
 
 [ICostManager Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager.html)
-
 [ICostManager Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager_members.html)
 
 ## Availability

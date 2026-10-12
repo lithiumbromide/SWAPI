@@ -42,30 +42,19 @@ System.Object^ GetTertiaryDatumModifiers();
 
 ### Return Value
 
-Array of integers as defined in
-
-[swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
+Array of integers as defined in [swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::GetTertiaryDatumModifiers](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetTertiaryDatumModifiers.html)
-
-.
+See [DimXpertTolerance::GetTertiaryDatumModifiers](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetTertiaryDatumModifiers.html).
 
 ## Remarks
 
-The members of the array returned by this method map to the members of the array returned by
-
-[IGetDimXpertTolerance::GetTertiaryDatums](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatums.html)
-
-.
+The members of the array returned by this method map to the members of the array returned by [IGetDimXpertTolerance::GetTertiaryDatums](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatums.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

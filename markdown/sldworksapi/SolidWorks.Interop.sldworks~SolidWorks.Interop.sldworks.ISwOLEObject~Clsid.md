@@ -42,13 +42,7 @@ property System.String^ Clsid {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Either an alpha-numeric string or the class ID of the host application
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Clsid](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Clsid.html)
-
-.
+See [SwOLEObject::Clsid](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Clsid.html).
 
 ## Examples
 
-See the
-
-[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
-examples.
+See the [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html) examples.
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
 
 ## Availability

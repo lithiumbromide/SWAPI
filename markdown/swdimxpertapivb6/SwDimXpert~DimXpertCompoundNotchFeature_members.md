@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompoundNotchFeature Object
-Members"
+title: "DimXpertCompoundNotchFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompoundNotchFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompoundNotchFeature_members.html"
 ---
 
-# DimXpertCompoundNotchFeature Object
-Members
+# DimXpertCompoundNotchFeature Object Members
 
 ## Public Methods
 

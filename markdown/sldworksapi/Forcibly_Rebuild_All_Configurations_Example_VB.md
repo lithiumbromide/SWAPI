@@ -9,8 +9,7 @@ source: "sldworksapi/Forcibly_Rebuild_All_Configurations_Example_VB.htm"
 
 # Forcibly Rebuild All Configurations Example (VBA)
 
-This example shows how to forcibly rebuild all of the configurations
-in a SOLIDWORKS part or assembly document.
+This example shows how to forcibly rebuild all of the configurations in a SOLIDWORKS Design part or assembly document.
 
 ```
 '-----------------------------------------------------

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Projected_Point_Example_VB.htm"
 
 # Get Projected Point Example (VBA)
 
-This example shows how to get the point where an input point is projected
-on to a face and surface in the specified direction.
+This example shows how to get the point where an input point is projected on to a face and surface in the specified direction.
 
 ```
 '-----------------------------------------

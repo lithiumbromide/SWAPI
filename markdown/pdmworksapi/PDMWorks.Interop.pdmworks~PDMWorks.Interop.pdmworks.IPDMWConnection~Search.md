@@ -49,23 +49,15 @@ PDMWSearchResults^ Search(
 
 ### Parameters
 
-- `pSearchOptions`: [IPDMWSearchOptions](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
-object
+- `pSearchOptions`: [IPDMWSearchOptions](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html) object
 
 ### Return Value
 
-[IPDMWSearchResults](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults.html)
-
-object
+[IPDMWSearchResults](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::Search](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Search.html)
-
-.
+See [PDMWConnection::Search](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Search.html).
 
 ## Examples
 
@@ -74,7 +66,6 @@ See
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

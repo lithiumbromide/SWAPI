@@ -45,33 +45,15 @@ property System.Object^ BeltLocationPlane {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-,
-
-[IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-, or
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
+[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html), [IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html), or [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::BeltLocationPlane](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~BeltLocationPlane.html)
-
-.
+See [BeltChainFeatureData::BeltLocationPlane](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~BeltLocationPlane.html).
 
 ## Remarks
 
@@ -80,7 +62,6 @@ The belt sketch plane is normal to the pulley axes.
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

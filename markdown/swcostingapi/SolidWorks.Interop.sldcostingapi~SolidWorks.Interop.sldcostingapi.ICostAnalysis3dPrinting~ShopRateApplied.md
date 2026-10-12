@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ShopRateApplied Property (ICostAnalysis3dPrinting)
 
-Gets or sets whether an
-
-[hourly shop rate](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRate.html)
-
-is applied to this 3D printing Costing analysis.
+Gets or sets whether an [hourly shop rate](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRate.html) is applied to this 3D printing Costing analysis.
 
 ## Syntax
 
@@ -55,26 +51,16 @@ True if an hourly shop rate is applied, false if not
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~ShopRateApplied.html)
-
-.
+See [CostAnalysis3dPrinting::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~ShopRateApplied.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::ResetShopRate Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ResetShopRate.html)
 
 ## Availability

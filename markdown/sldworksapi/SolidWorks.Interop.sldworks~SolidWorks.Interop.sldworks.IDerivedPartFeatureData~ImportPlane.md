@@ -45,13 +45,7 @@ property System.bool ImportPlane {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to import its planes, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportPlane](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportPlane.html)
-
-.
+See [DerivedPartFeatureData::ImportPlane](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportPlane.html).
 
 ## Examples
 
 [Modify Derived Part (C#)](Modify_Derived_Part_Example_CSharp.htm)
-
 [Modify Derived Part (VB.NET)](Modify_Derived_Part_Example_VBNET.htm)
-
 [Modify Derived Part (VBA)](Modify_Derived_Part_Example_VB.htm)
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

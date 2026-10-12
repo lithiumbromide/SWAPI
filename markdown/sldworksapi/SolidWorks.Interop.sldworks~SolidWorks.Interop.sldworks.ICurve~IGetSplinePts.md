@@ -40,13 +40,7 @@ System.double IGetSplinePts()
 System.double IGetSplinePts();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,7 +48,7 @@ See
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Examples
 
@@ -62,26 +56,23 @@ See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.h
 
 ## Remarks
 
-[ICurve::IGetSplinePtsSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePtsSize.html)defines the spline and determines the size of the array returned.
+[ICurve::IGetSplinePtsSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePtsSize.html) defines the spline and determines the size of the array returned.
 
 The array returned contains the x, y, z location of the spline points:
 
-**[**`x1, y1, z1, x2, y2, z2`,....**]**
+**[** `x1, y1, z1, x2, y2, z2`,....**]**
 
 Data passed into ICurve::IGetSplinePtsSize must satisfy the following requirements:
 
 - If the curve is periodic, it must not have any repeated knots.
 - If the curve is non-periodic, it must only have repeated knots at its ends.
 - The curve must be cubic or lower degree, non-rational, and have continuous first
-
   and second derivatives.
 
-**NOTE:**For a linear or quadratic curve to satisfy these continuity requirements, it must consist of a single segment.
+**NOTE:** For a linear or quadratic curve to satisfy these continuity requirements, it must consist of a single segment.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::GetSplinePts Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetSplinePts.html)

@@ -51,69 +51,35 @@ System.int InsertNewPart2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilePathIn`: Path and filename for the new part
-- `Face_or_Plane_to_select`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-or
-
-[reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
-
-where to insert the new part
+- `Face_or_Plane_to_select`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) or [reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html) where to insert the new part
 
 ### Return Value
 
-Error code as defined by
-
-[swInsertNewPartErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewPartErrorCode_e.html)
+Error code as defined by [swInsertNewPartErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewPartErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertNewPart2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewPart2.html)
-
-.
+See [AssemblyDoc::InsertNewPart2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewPart2.html).
 
 ## Examples
 
 [Insert Join Feature (C#)](Insert_Join_Feature_Example_CSharp.htm)
-
 [Insert Join Feature (VB.NET)](Insert_Join_Feature_Example_VBNET.htm)
-
 [Insert Join Feature (VBA)](Insert_Join_Feature_Example_VB.htm)
 
 ## Remarks
 
-The Face_or_Plane_to_select argument can be a
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-or
-
-[reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
-
-, which means that you have to call
-
-[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)
-
-first.
+The Face_or_Plane_to_select argument can be a [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) or [reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html), which means that you have to call [IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html) first.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
 
 ## Availability

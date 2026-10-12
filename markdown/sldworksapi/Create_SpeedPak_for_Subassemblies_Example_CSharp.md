@@ -11,10 +11,8 @@ source: "sldworksapi/Create_SpeedPak_for_Subassemblies_Example_CSharp.htm"
 
 This example shows how to:
 
-- create SpeedPak
-  configurations for subassemblies.
-- switch between the SpeedPak
-  configuration and the parent configuration of the SpeedPak configuration.
+- create SpeedPak configurations for subassemblies.
+- switch between the SpeedPak configuration and the parent configuration of the SpeedPak configuration.
 
 ```
 //-------------------------------------------------------------------

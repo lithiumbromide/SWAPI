@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Coordinate_System_at_Center_of_Mass_Example_VB.htm"
 
 # Insert Coordinate System at Center of Mass Example (VBA)
 
-This example shows how to insert a coordinate system on the center of
-mass.
+This example shows how to insert a coordinate system on the center of mass.
 
 ```
 '-------------------------------------------------------

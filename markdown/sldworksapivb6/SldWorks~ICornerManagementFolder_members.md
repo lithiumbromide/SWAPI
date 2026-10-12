@@ -1,6 +1,5 @@
 ---
-title: "ICornerManagementFolder Object
-Members"
+title: "ICornerManagementFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ICornerManagementFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ICornerManagementFolder_members.html"
 ---
 
-# ICornerManagementFolder Object
-Members
+# ICornerManagementFolder Object Members
 
 ## Public Methods
 

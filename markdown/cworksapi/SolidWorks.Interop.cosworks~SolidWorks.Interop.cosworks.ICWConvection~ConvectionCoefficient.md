@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # ConvectionCoefficient Property (ICWConvection)
 
-Gets or sets the convection coefficient used in defining convection for thermal
-studies.
+Gets or sets the convection coefficient used in defining convection for thermal studies.
 
 ## Syntax
 
@@ -52,24 +51,17 @@ Convection coefficient
 
 ## VBA Syntax
 
-See
-
-[CWConvection::ConvectionCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~ConvectionCoefficient.html)
-
-.
+See [CWConvection::ConvectionCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~ConvectionCoefficient.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power with Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power with Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
 
 ## Availability

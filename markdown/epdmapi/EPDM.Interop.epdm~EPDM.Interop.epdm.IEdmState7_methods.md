@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_methods.html"
 
 # IEdmState7 Interface Methods
 
-For a list of all members of this type, see[IEdmState7 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_members.html).
+For a list of all members of this type, see [IEdmState7 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmState7 members](EPDM.Interop.epd
 ## See Also
 
 [IEdmState7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

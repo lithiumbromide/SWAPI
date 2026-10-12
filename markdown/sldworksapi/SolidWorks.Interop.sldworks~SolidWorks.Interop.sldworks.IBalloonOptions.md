@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 Allows access to balloon options.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IBalloonOptions
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions.html)
-
-.
+See [BalloonOptions](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions.html).
 
 ## Examples
 
@@ -148,9 +144,7 @@ End Sub
 ## Examples
 
 [Insert and Show BOM Table and BOM Balloon (VBA)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_VB.htm)
-
 [Insert and Show BOM Table and BOM Balloon (VB.NET)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_VBNET.htm)
-
 [Insert and Show BOM Table and BOM Balloon (C#)](Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_CSharp.htm)
 
 ## Remarks
@@ -158,17 +152,9 @@ End Sub
 To create a BOM balloon:
 
 1. Select an item for which to create a BOM balloon.
-2. Call
-
-  [IModelDocExtension::CreateBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateBalloonOptions.html)
-
-  to create an IBalloonOptions object.
+2. Call [IModelDocExtension::CreateBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateBalloonOptions.html) to create an IBalloonOptions object.
 3. Set the properties on the IBalloonOptions object.
-4. Pass the IBalloonOptions object in a call to
-
-  [IModelDocExtension::InsertBOMBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBOMBalloon2.html)
-
-  .
+4. Pass the IBalloonOptions object in a call to [IModelDocExtension::InsertBOMBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBOMBalloon2.html).
 
 ## Accessors
 
@@ -183,9 +169,6 @@ To create a BOM balloon:
 ## See Also
 
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IStackedBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions.html)
-
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)

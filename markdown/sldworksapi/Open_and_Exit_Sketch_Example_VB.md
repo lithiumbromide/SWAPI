@@ -9,8 +9,7 @@ source: "sldworksapi/Open_and_Exit_Sketch_Example_VB.htm"
 
 # Open and Exit Sketch Example (VBA)
 
-This example shows how to open a sketch, sketch a line, and close the
-sketch.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This example shows how to open a sketch, sketch a line, and close the sketch.
 
 ```
 '-----------------------------------------------------------

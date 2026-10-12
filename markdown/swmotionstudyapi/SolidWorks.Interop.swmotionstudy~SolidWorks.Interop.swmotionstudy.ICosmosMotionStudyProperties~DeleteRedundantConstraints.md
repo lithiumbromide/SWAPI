@@ -51,11 +51,7 @@ True to automatically delete redundant constraints, false to not
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::DeleteRedundantConstraints](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~DeleteRedundantConstraints.html)
-
-.
+See [CosmosMotionStudyProperties::DeleteRedundantConstraints](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~DeleteRedundantConstraints.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property deletes all redundant constraints, leaving a fully constrained ass
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swscanto3dapi/SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto
 
 # GetMeshCount Method (IScanto3D)
 
-Gets the number of mesh features in the current
-
-.3DS
-
-file.
+Gets the number of mesh features in the current **.3DS** file.
 
 ## Syntax
 
@@ -50,24 +46,15 @@ Number of mesh features
 
 ## VBA Syntax
 
-See
-
-[Scanto3D::GetMeshCount](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshCount.html)
-
-.
+See [Scanto3D::GetMeshCount](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshCount.html).
 
 ## Examples
 
-See the
-
-[IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
-examples.
+See the [IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html) examples.
 
 ## See Also
 
 [IScanto3D Interface](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
 [IScanto3D Members](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D_members.html)
 
 ## Availability

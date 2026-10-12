@@ -9,8 +9,7 @@ source: "cworksapi/Copy_Mesh_and_Gen_Report_Example_VBNET.htm"
 
 # Copy Mesh and Generate Report Example (VB.NET)
 
-This example shows how to copy the mesh from one study to another and
-generate a report.
+This example shows how to copy the mesh from one study to another and generate a report.
 
 ```vb
   '----------------------------------------------------------------------------

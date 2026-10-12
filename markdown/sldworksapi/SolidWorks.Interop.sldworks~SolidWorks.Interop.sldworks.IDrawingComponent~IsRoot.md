@@ -40,13 +40,7 @@ System.bool IsRoot()
 System.bool IsRoot();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this component is the root drawing component, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::IsRoot](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~IsRoot.html)
-
-.
+See [DrawingComponent::IsRoot](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~IsRoot.html).
 
 ## Examples
 
@@ -71,7 +61,6 @@ This method assists with traversal.
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
 
 ## Availability

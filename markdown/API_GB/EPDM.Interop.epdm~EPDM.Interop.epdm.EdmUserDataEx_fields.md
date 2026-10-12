@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_fields.html"
 
 # EdmUserDataEx Structure Fields
 
-For a list of all members of this type, see[EdmUserDataEx members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_members.html).
+For a list of all members of this type, see [EdmUserDataEx members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_members.html).
 
 ## Public Fields
 
@@ -35,5 +35,4 @@ For a list of all members of this type, see[EdmUserDataEx members](EPDM.Interop.
 ## See Also
 
 [EdmUserDataEx Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

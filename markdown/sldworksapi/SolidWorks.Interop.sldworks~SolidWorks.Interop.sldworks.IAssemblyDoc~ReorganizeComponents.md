@@ -51,21 +51,11 @@ System.bool ReorganizeComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Source`: Array of selected
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-to more; all of the components must be at the same level in one parent assembly
+- `Source`: Array of selected [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) to more; all of the components must be at the same level in one parent assembly
 - `Target`: Where to move the components, which can be a top-level assembly or sub-assembly anywhere at any level of the hierarchy
 
 ### Return Value
@@ -74,11 +64,7 @@ True if the selected components were moved to the selected assembly or sub-assem
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ReorganizeComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReorganizeComponents.html)
-
-.
+See [AssemblyDoc::ReorganizeComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReorganizeComponents.html).
 
 ## Examples
 
@@ -91,17 +77,11 @@ See SOLIDWORKS Help for more information about reorganizing components and restr
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::IReorganizeComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IReorganizeComponents.html)
-
 [IAssemblyDoc::ReorderComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorderComponents.html)
-
 [DAssemblyDocEvents_ComponentReorganizeNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_ComponentReorganizeNotifyEventHandler.html)
-
 [IFeatureManager::GroupComponentInstances Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GroupComponentInstances.html)
-
 [IAssemblyDoc::UngroupComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UngroupComponents.html)
 
 ## Availability

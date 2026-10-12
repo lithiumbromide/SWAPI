@@ -9,7 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # ISustainabilityTransportation Interface Members
 
-The following tables list the members exposed by[ISustainabilityTransportation](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation.html).
+The following tables list the members exposed by [ISustainabilityTransportation](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[ISustainabilityTransportation](
 ## See Also
 
 [ISustainabilityTransportation Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

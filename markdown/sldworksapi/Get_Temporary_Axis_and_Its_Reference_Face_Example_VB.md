@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Temporary_Axis_and_Its_Reference_Face_Example_VB.htm"
 
 # Get Temporary Axis and Its Reference Face Example (VBA)
 
-This example shows how to get a temporary axis and its reference
-face.
+This example shows how to get a temporary axis and its reference face.
 
 ```
 '---------------------------------------------------

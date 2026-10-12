@@ -11,7 +11,20 @@ source: "sldworksapi/Create_Limit_Angle_Mate_Example_VB.htm"
 
 This example shows how to create and edit a limit angle mate.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Open: ' public_documents \samples\tutorial\api\AdvancedMates\AdvancedMateDemo1.sldasm ' 2. Open an Immediate window. ' ' Postconditions: ' 1. Creates a limit angle mate. ' 2. Press F5 to continue. ' 3. Modifies the mate alignment of the limit angle mate. ' 4. Inspect the Immediate window and graphics area. ' ' NOTE: Because the model is used elsewhere, do not save changes. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Open:
+' `public_documents`**\samples\tutorial\api\AdvancedMates\AdvancedMateDemo1.sldasm**
+' 2. Open an Immediate window.
+'
+' Postconditions:
+' 1. Creates a limit angle mate.
+' 2. Press F5 to continue.
+' 3. Modifies the mate alignment of the limit angle mate.
+' 4. Inspect the Immediate window and graphics area.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
 Option Explicit

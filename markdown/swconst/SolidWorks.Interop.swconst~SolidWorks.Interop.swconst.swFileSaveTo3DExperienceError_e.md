@@ -9,7 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileSav
 
 # swFileSaveTo3DExperienceError_e Enumeration
 
-Errors when saving files in SOLIDWORKS Connected.
+Errors when saving files in SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
 
 ## Syntax
 
@@ -43,6 +43,7 @@ public enum class swFileSaveTo3DExperienceError_e : public System.Enum
 | Member | Description |
 | --- | --- |
 | swFileSaveTo3DExperienceError_swConnectedIsOffline | 2 |
+| swFileSaveTo3DExperienceError_swFileAlreadyExists | 3 = File already in cache folder |
 | swFileSaveTo3DExperienceError_swGenericError | 1 |
 
 ## See Also

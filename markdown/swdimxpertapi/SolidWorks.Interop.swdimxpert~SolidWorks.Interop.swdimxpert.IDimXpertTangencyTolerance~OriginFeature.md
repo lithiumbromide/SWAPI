@@ -48,24 +48,17 @@ property DimXpertFeature^ OriginFeature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertTangencyTolerance::OriginFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTangencyTolerance~OriginFeature.html)
-
-.
+See [DimXpertTangencyTolerance::OriginFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTangencyTolerance~OriginFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance6 Example (VBA)](Get_DimXpert_Tolerance6_Example_VB.htm)
-
 [Get DimXpert Tolerance6 Example (VB.NET)](Get_DimXpert_Tolerance6_Example_VBNET.htm)
-
 [Get DimXpert Features and Annotations in a Model Example (C#)](Get_DimXpert_Features_and_Annotations_in_a_Model_Example_CSharp.htm)
 
 ## See Also
 
 [IDimXpertTangencyTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTangencyTolerance.html)
-
 [IDimXpertTangencyTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTangencyTolerance_members.html)
 
 ## Availability

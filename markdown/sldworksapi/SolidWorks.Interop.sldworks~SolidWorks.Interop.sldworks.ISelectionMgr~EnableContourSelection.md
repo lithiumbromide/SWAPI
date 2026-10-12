@@ -45,13 +45,7 @@ property System.bool EnableContourSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to enable contour selection, false to disable it
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::EnableContourSelection](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~EnableContourSelection.html)
-
-.
+See [SelectionMgr::EnableContourSelection](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~EnableContourSelection.html).
 
 ## Examples
 
 [Enable Contour Selection (VBA)](Enable_Contour_Selection_Example_VB.htm)
-
 [Enable Contour Selection (VB.NET)](Enable_Contour_Selection_Example_VBNET.htm)
-
 [Enable Contour Selection (C#)](Enable_Contour_Selection_Example_CSharp.htm)
 
 ## Remarks
@@ -80,9 +68,7 @@ This property enables you to select regions that are defined by single, multiple
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [ISelectionMgr::EnableSelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~EnableSelection.html)
 
 ## Availability

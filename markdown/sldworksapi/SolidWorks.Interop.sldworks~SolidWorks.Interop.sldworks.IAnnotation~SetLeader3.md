@@ -67,71 +67,29 @@ System.int SetLeader3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LeaderStyle`: Leader style as defined in
-
-[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
-
-(see
-
-Remarks
-
-)
-- `LeaderSide`: Leader side as defined in
-
-[swLeaderSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderSide_e.html)
-
-(see
-
-Remarks
-
-)
-- `SmartArrowHeadStyle`: True to enable smart arrowhead style, false to disable it (see
-
-Remarks
-
-)
-- `Perpendicular`: True to enable perpendicular bent leader display, false to disable it (see**Remarks**)ParamDesc
-- `AllAround`: True to enable all around (weld, surface finish, or Gtol) symbol display, false to disable it (see**Remarks**)ParamDesc
-- `Dashed`: True to enable dashed line leader display; false to enable solid-line leader (see
-
-Remarks
-
-)
+- `LeaderStyle`: Leader style as defined in [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html) (see **Remarks**)
+- `LeaderSide`: Leader side as defined in [swLeaderSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderSide_e.html) (see **Remarks**)
+- `SmartArrowHeadStyle`: True to enable smart arrowhead style, false to disable it (see **Remarks**)
+- `Perpendicular`: True to enable perpendicular bent leader display, false to disable it (see **Remarks**)
+- `AllAround`: True to enable all around (weld, surface finish, or Gtol) symbol display, false to disable it (see **Remarks**)
+- `Dashed`: True to enable dashed line leader display; false to enable solid-line leader (see **Remarks**)
 
 ### Return Value
 
-Indicates whether the operation was successful (see
-
-Remarks
-
-)
-
-EndOLEArgumentsRow
+Indicates whether the operation was successful (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetLeader3](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetLeader3.html)
-
-.
+See [Annotation::SetLeader3](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetLeader3.html).
 
 ## Examples
 
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
 
 ## Remarks
@@ -160,12 +118,12 @@ You can set the leader side, smart arrowhead style, and bent leader values at an
 
 The return status of this operation can have the following values:
 
-- 0 =kadov_tag{{</spaces>}}Leader characteristics were successfully set
-- -1 =kadov_tag{{</spaces>}}Leader characteristics were not set because of an unknown error
-- -2kadov_tag{{<spaces>}}=kadov_tag{{</spaces>}}Leader attachment side setting is invalid
-- -3kadov_tag{{<spaces>}}=kadov_tag{{</spaces>}}Leaders are not supported on this type of annotation
-- -4 =kadov_tag{{</spaces>}}Leaders cannot be disabled on this type of annotation
-- -5kadov_tag{{<spaces>}}=kadov_tag{{</spaces>}}Bent leaders cannot be disabled on this type of annotation
+- 0 = Leader characteristics were successfully set
+- -1 = Leader characteristics were not set because of an unknown error
+- -2 = Leader attachment side setting is invalid
+- -3 = Leaders are not supported on this type of annotation
+- -4 = Leaders cannot be disabled on this type of annotation
+- -5 = Bent leaders cannot be disabled on this type of annotation
 - -6 = Underline style leaders are not allowed on this type of annotation
 
 If leader display is enabled, then this method changes the visible model.
@@ -173,29 +131,17 @@ If leader display is enabled, then this method changes the visible model.
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetLeader Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeader.html)
-
 [IAnnotation::GetLeaderCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderCount.html)
-
 [IAnnotation::GetLeaderPointsAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderPointsAtIndex.html)
-
 [IAnnotation::GetMultiJogLeaderCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetMultiJogLeaderCount.html)
-
 [IAnnotation::GetMultiJogLeaders Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetMultiJogLeaders.html)
-
 [IAnnotation::BentLeaderLength Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~BentLeaderLength.html)
-
 [IAnnotation::LeaderLineStyle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderLineStyle.html)
-
 [IAnnotation::LeaderThickness Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderThickness.html)
-
 [IAnnotation::LeaderThicknessCustom Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderThicknessCustom.html)
-
 [IAnnotation::UseDocDispLeader Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~UseDocDispLeader.html)
-
 [IAnnotation::SetLeaderAttachmentPointAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetLeaderAttachmentPointAtIndex.html)
 
 ## Availability

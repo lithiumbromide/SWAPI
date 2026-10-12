@@ -40,38 +40,22 @@ DatumOrigin GetFirstDatumOrigin()
 DatumOrigin^ GetFirstDatumOrigin();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-First
-
-[datum origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin.html)
+First [datum origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstDatumOrigin](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstDatumOrigin.html)
-
-.
+See [View::GetFirstDatumOrigin](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstDatumOrigin.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IDatumOrigin::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin~GetNext.html)
-
 [IView::GetDatumOrigins Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDatumOrigins.html)
-
 [IView::IGetDatumOrigins Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDatumOrigins.html)
 
 ## Availability

@@ -46,13 +46,7 @@ void SetProgId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,28 +54,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::SetProgId](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~SetProgId.html)
-
-.
+See [MacroFeatureData::SetProgId](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~SetProgId.html).
 
 ## Remarks
 
-See
-
-[Exposed COM DLL or Executable and Macro Features](sldworksapiprogguide.chm::/Macro_Features/Exposed_COM_DLL_or_Executable.htm)
-
-for details about macro features that define their behavior using COM.
+See [Exposed COM DLL or Executable and Macro Features](sldworksapiprogguide.chm::/Macro_Features/Exposed_COM_DLL_or_Executable.htm) for details about macro features that define their behavior using COM.
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::GetProgId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~GetProgId.html)
-
 [IMacroFeatureData::IsCOMFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~IsCOMFeature.html)
 
 ## Availability

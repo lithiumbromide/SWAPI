@@ -45,13 +45,7 @@ property System.bool CombineSameSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to merge cells of the same size, false to not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::CombineSameSize](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~CombineSameSize.html)
-
-.
+See [HoleTable::CombineSameSize](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~CombineSameSize.html).
 
 ## Remarks
 
@@ -72,11 +62,8 @@ This property appears in the Scheme section of the Hole Table PropertyManager pa
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::CombineTags Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~CombineTags.html)
-
 [IHoleTable::ShowANSIInchLetterNumberDrillSizes Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~ShowANSIInchLetterNumberDrillSizes.html)
 
 ## Availability

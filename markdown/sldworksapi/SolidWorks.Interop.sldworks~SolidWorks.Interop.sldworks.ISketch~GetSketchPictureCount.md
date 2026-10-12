@@ -40,13 +40,7 @@ System.int GetSketchPictureCount()
 System.int GetSketchPictureCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of pictures on this sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchPictureCount](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~GetSketchPictureCount.html)
-
-.
+See [Sketch::GetSketchPictureCount](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~GetSketchPictureCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketch::IGetSketchPcitures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPictures.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketch::IGetSketchPcitures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPictures.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchPictures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchPictures.html)
-
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
 
 ## Availability

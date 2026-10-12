@@ -40,13 +40,7 @@ System.bool IsRolledBack()
 System.bool IsRolledBack();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the feature is rolled back, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::IsRolledBack](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsRolledBack.html)
-
-.
+See [Feature::IsRolledBack](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsRolledBack.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeatureManager::EditRollback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~EditRollback.html)
 
 ## Availability

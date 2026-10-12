@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr~GetBomLayouts.htm
 
 # GetBomLayouts Method (IEdmBomMgr)
 
-Obsolete. Superseded by
-
-[IEdmBomMgr2::GetBomLayouts2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2.html)
-
-.
+Obsolete. Superseded by [IEdmBomMgr2::GetBomLayouts2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2.html).
 
 ## Syntax
 
@@ -43,19 +39,11 @@ void GetBomLayouts(
 
 ### Parameters
 
-- `ppoRetLayouts`: Array of
-
-[EdmBomLayout](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout.html)
-
-structures; one structure for each BOM layout
+- `ppoRetLayouts`: Array of [EdmBomLayout](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout.html) structures; one structure for each BOM layout
 
 ## Examples
 
-See the
-
-[IEdmBomMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr.html)
-
-examples.
+See the [IEdmBomMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr.html) examples.
 
 ## Remarks
 
@@ -67,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBomMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr.html)
-
 [IEdmBomMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr_members.html)
 
 ## Availability

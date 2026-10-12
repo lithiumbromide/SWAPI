@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetArrowHeadStyle Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::GetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetArrowHeadStyle2.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::GetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetArrowHeadStyle2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetArrowHeadStyle()
 System.int GetArrowHeadStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetArrowHeadStyle.html)
-
-.
+See [DisplayDimension::GetArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetArrowHeadStyle.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

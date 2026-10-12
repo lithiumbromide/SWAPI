@@ -45,13 +45,7 @@ property System.Object^ FloorSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SwScene::FloorSelection](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorSelection.html)
-
-.
+See [SwScene::FloorSelection](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorSelection.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.Object^ AddChamferDim(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,24 +65,17 @@ See
 
 ### Return Value
 
-Pointer to the newly created chamfer[dimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
+Pointer to the newly created chamfer [dimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AddChamferDim](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddChamferDim.html)
-
-.
+See [DrawingDoc::AddChamferDim](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddChamferDim.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::IAddChamferDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IAddChamferDim.html)
-
 [IDimension::GetSystemChamferValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~GetSystemChamferValues.html)
 
 ## Availability

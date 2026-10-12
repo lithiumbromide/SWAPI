@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ShopRateApplied Property (ICostAnalysisCasting)
 
-Gets or sets whether an
-
-[hourly shop rate](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ShopRate.html)
-
-is applied to this casting Costing analysis.
+Gets or sets whether an [hourly shop rate](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ShopRate.html) is applied to this casting Costing analysis.
 
 ## Syntax
 
@@ -55,26 +51,16 @@ True if an hourly shop rate is applied, false if not
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~ShopRateApplied.html)
-
-.
+See [CostAnalysisCasting::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~ShopRateApplied.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
-
 [ICostAnalysisCasting::ResetShopRate Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ResetShopRate.html)
 
 ## Availability

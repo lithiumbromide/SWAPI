@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 Allows access to Replace Face feature data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,17 @@ public interface class IReplaceFaceFeatureData
 
 ## VBA Syntax
 
-See
-
-[ReplaceFaceFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ReplaceFaceFeatureData.html)
-
-.
+See [ReplaceFaceFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ReplaceFaceFeatureData.html).
 
 ## Examples
 
 [Create Replace Face Feature (VBA)](Replace_Face_Example_VB.htm)
-
 [Create Replace Face Feature (VB.NET)](Replace_Face_Example_VBNET.htm)
-
 [Create Replace Face Feature (C#)](Replace_Face_Example_CSharp.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)
-
-and
-
-[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -70,7 +60,5 @@ and
 ## See Also
 
 [IReplaceFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertFeatureReplaceFace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertFeatureReplaceFace.html)

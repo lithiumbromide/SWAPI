@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_methods.html"
 
 # IEdmBatchGet Interface Methods
 
-For a list of all members of this type, see[IEdmBatchGet members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html).
+For a list of all members of this type, see [IEdmBatchGet members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html).
 
 ## Public Methods
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[IEdmBatchGet members](EPDM.Interop.e
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

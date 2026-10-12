@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IRenderMaterial Interface Members
 
-The following tables list the members exposed by[IRenderMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html).
+The following tables list the members exposed by [IRenderMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html).
 
 ## Public Properties
 
@@ -54,6 +54,7 @@ The following tables list the members exposed by[IRenderMaterial](SolidWorks.Int
 | Property | GlobalIlluminationCast | Gets whether specular materials reflect photons for illuminating this appearance.. |
 | Property | GlobalIlluminationReceive | Gets or sets whether diffuse materials absorb photons for illuminating this appearance. |
 | Property | Glossy | Gets or sets the specular factor of the lights reflected by the appearance. |
+| Property | HasDSPBRProperties | Gets whether this appearance has DSPBR properties. |
 | Property | Height | Gets or sets the height for mapping this appearance texture. |
 | Property | HeightMirror | Gets or sets whether to flip the appearance texture about the selected direction vertically. |
 | Property | HoleMeshSize | Gets or sets the hole mesh size. |
@@ -106,6 +107,7 @@ The following tables list the members exposed by[IRenderMaterial](SolidWorks.Int
 | Method | AddEntity | Adds the appearance to the specified entity. |
 | Method | GetCenterPoint | Obsolete. Superseded by IRenderMaterial::GetCenterPoint2 . |
 | Method | GetCenterPoint2 | Gets the center point of the mapping for texture-based appearances. |
+| Method | GetDSPBRMaterial | Gets the DSPBRMaterial object. |
 | Method | GetEntities | Gets the entities on which this appearance is applied. |
 | Method | GetEntitiesCount | Gets the number of entities on which this appearance was applied. |
 | Method | GetLinkedDisplayStates | Gets the display states to which this appearance is applied. |
@@ -129,15 +131,9 @@ The following tables list the members exposed by[IRenderMaterial](SolidWorks.Int
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::CreateRenderMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateRenderMaterial.html)
-
 [IModelDocExtension::GetRenderMaterialsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderMaterialsCount.html)
-
 [IModelDocExtension::UpdateRenderMaterialsInSceneGraph Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateRenderMaterialsInSceneGraph.html)
-
 [IModelDocExtension::GetRenderCustomReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderCustomReferences.html)
-
 [IModelDocExtension::GetRenderStockReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderStockReferences.html)

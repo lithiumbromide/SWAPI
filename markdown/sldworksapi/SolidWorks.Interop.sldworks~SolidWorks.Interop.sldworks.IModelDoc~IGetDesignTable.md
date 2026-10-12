@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetDesignTable Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IGetDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetDesignTable.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IGetDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetDesignTable.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ DesignTable IGetDesignTable()
 DesignTable^ IGetDesignTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IGetDesignTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetDesignTable.html)
-
-.
+See [ModelDoc::IGetDesignTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetDesignTable.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

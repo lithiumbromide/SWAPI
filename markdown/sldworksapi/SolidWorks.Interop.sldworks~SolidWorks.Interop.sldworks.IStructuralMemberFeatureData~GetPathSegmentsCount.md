@@ -40,13 +40,7 @@ System.int GetPathSegmentsCount()
 System.int GetPathSegmentsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of path segments
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::GetPathSegmentsCount](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~GetPathSegmentsCount.html)
-
-.
+See [StructuralMemberFeatureData::GetPathSegmentsCount](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~GetPathSegmentsCount.html).
 
 ## Remarks
 
-Call this method before calling[IStructuralMemberFeatureData::IGetPathSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~IGetPathSegments.html)to get the size of the array for that method.
+Call this method before calling [IStructuralMemberFeatureData::IGetPathSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~IGetPathSegments.html) to get the size of the array for that method.
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
-
 [IStructuralMemberFeatureData::PathSegments Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~PathSegments.html)
-
 [IStructuralMemberFeatureData::ISetPathSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~ISetPathSegments.html)
-
 [IStructuralMemberFeatureData::GetPathSegmentAt Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~GetPathSegmentAt.html)
 
 ## Availability

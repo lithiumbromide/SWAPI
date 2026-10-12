@@ -44,17 +44,11 @@ property swDmDimXpertOrientationZoneType_e ZoneType {
 
 ### Property Value
 
-Zone type for the orientation tolerance as defined in
-
-[swDmDimXpertOrientationZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertOrientationZoneType_e.html)
+Zone type for the orientation tolerance as defined in [swDmDimXpertOrientationZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertOrientationZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertOrientationGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertOrientationGeoTol~ZoneType.html)
-
-.
+See [SwDMDimXpertOrientationGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertOrientationGeoTol~ZoneType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertOrientationGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertOrientationGeoTol.html)
-
 [ISwDMDimXpertOrientationGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertOrientationGeoTol_members.html)
 
 ## Availability

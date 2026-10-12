@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_ClearSelectionsNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies the user program when selections are cleared using
-
-Clear Selections
-
-.
+Notifies the user program when selections are cleared using **Clear Selections**.
 
 ## Syntax
 
@@ -41,29 +37,15 @@ public delegate System.int DAssemblyDocEvents_ClearSelectionsNotifyEventHandler(
 public delegate System.int DAssemblyDocEvents_ClearSelectionsNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ClearSelectionsNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ClearSelectionsNotify_EV.html)
-
-.
+See [ClearSelectionsNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ClearSelectionsNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyClearNotificationsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyClearNotificationsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

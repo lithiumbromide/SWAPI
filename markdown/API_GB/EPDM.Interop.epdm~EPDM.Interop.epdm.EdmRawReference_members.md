@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html
 
 # EdmRawReference Structure Members
 
-The following tables list the members exposed by[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html).
+The following tables list the members exposed by [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html).
 
 ## Public Fields
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[EdmRawReference](EPDM.Interop.e
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -47,13 +47,7 @@ System.int GetObjectId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,17 @@ Object ID
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetObjectId](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetObjectId.html)
-
-.
+See [ModelDocExtension::GetObjectId](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetObjectId.html).
 
 ## Examples
 
 [Get Object ID of GTol Annotation (C#)](Get_Object_ID_of_GTol_Annotation_Example_CSharp.htm)
-
 [Get Object ID of GTol Annotation (VB.NET)](Get_Object_ID_of_GTol_Annotation_Example_VBNET.htm)
-
 [Get Object ID of GTol Annotation (VBA)](Get_Object_ID_of_GTol_Annotation_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

@@ -40,40 +40,25 @@ Measure CreateMeasure()
 Measure^ CreateMeasure();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Measure](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMeasure.html)
-
-tool
+[Measure](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMeasure.html) tool
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateMeasure](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateMeasure.html)
-
-.
+See [ModelDocExtension::CreateMeasure](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateMeasure.html).
 
 ## Examples
 
 [Measure Selected Entities (C#)](Measure_Selected_Entities_Example_CSharp.htm)
-
 [Measure Selected Entities (VB.NET)](Measure_Selected_Entities_Example_VBNET.htm)
-
 [Measure Selected Entities (VBA)](Measure_Selected_Entities_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

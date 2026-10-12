@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetReferenceCoordinateSystem Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::SetReferenceCoordinateSystem2.
+Obsolete. Superseded by [ICWRemoteLoad::SetReferenceCoordinateSystem2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetReferenceCoordinateSystem2.html).
 
 ## Syntax
 
@@ -57,16 +57,11 @@ void SetReferenceCoordinateSystem(
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::SetReferenceCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetReferenceCoordinateSystem.html)
-
-.
+See [CWRemoteLoad::SetReferenceCoordinateSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetReferenceCoordinateSystem.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

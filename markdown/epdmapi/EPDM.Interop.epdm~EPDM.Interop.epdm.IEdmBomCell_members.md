@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell_members.html"
 
 # IEdmBomCell Interface Members
 
-The following tables list the members exposed by[IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html).
+The following tables list the members exposed by [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html).
 
 ## Public Methods
 
@@ -27,7 +27,5 @@ The following tables list the members exposed by[IEdmBomCell](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmBomCell Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmBomView::SetRows Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView~SetRows.html)

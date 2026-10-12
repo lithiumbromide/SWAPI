@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # SetTimeCurve Method (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SetTimeCurve2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -57,14 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsTimeCurveError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -72,30 +62,24 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetTimeCurve.html)
-
-.
+See [CWNonLinearStudyOptions::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetTimeCurve.html).
 
 ## Remarks
 
 Array of time curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of pairs of data points
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~GetTimeCurve.html)
 
 ## Availability

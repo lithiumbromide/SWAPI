@@ -47,13 +47,7 @@ System.bool GetColumnNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ True if column names successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::GetColumnNames](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetColumnNames.html)
-
-.
+See [HoleDataTable::GetColumnNames](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetColumnNames.html).
 
 ## Examples
 
-See the
-
-[IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
-example.
+See the [IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html) example.
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
 
 ## Availability

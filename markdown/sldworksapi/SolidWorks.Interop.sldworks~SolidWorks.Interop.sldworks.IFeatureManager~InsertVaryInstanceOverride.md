@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertVaryInstanceOverride Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
-.
+Obsolete. Superseded by [IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html).
 
 ## Syntax
 
@@ -75,35 +71,31 @@ System.bool InsertVaryInstanceOverride(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DName`: | If OverrideType is... | Then set DName to... |
-| --- | --- |
-| 1 | Name of the pattern instance dimension to override |
-| 2 | "Spacing Increment" |
-- `PatternType`: Type of pattern (see**Remarks**):
+- `DName`:
 
-- 2 = linear
-- 4 = circular
-- 256 = variable
+  | If OverrideType is... | Then set DName to... |
+  | --- | --- |
+  | 1 | Name of the pattern instance dimension to override |
+  | 2 | "Spacing Increment" |
+- `PatternType`: Type of pattern (see **Remarks**):
+
+  - 2 = linear
+  - 4 = circular
+  - 256 = variable
 - `OverrideType`: Type of increment override:
 
-- 1 = dimension
-- 2 = spacing
+  - 1 = dimension
+  - 2 = spacing
 - `Direction`: Direction in which to apply the spacing override.
 
-| If OverrideType is ... | Then set Direction to ... |
-| --- | --- |
-| 2 | 0 = direction 1 1 = direction 2 |
-| 1 | -1 |
+  | If OverrideType is ... | Then set Direction to ... |
+  | --- | --- |
+  | 2 | 0 = direction 1 1 = direction 2 |
+  | 1 | -1 |
 - `InstanceRowIndex`: 0 < row index of the instance to modify < number of instances per row
 - `InstanceColumnIndex`: 0 < column index of the instance to modify < number of instances per column; valid only for PatternType = 2
 - `OverrideValue`: Value to override the current value of the dimension or spacing of the specified instance
@@ -114,22 +106,14 @@ True if the override is applied successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertVaryInstanceIncrement](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertVaryInstanceIncrement.html)
-
-.
+See [FeatureManager::InsertVaryInstanceIncrement](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertVaryInstanceIncrement.html).
 
 ## Remarks
 
 To vary the dimensions or spacings of pattern instances:
 
 1. Call this method multiple times to override multiple dimensions or spacings of pattern instances.
-2. Call
-
-  [IFeatureManager::InsertVaryInstanceIncrement](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertVaryInstanceIncrement.html)
-
-  multiple times to increment multiple dimensions or spacings of pattern instances.
+2. Call [IFeatureManager::InsertVaryInstanceIncrement](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertVaryInstanceIncrement.html) multiple times to increment multiple dimensions or spacings of pattern instances.
 
 | If PatternType is... | Call IFeatureManager::CreateFeature(...) |
 | --- | --- |
@@ -140,7 +124,6 @@ To vary the dimensions or spacings of pattern instances:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

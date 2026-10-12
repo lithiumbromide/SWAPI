@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # Type Property (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~Type.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~Type.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~Type.html)
-
-.
+See [RevolveFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~Type.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

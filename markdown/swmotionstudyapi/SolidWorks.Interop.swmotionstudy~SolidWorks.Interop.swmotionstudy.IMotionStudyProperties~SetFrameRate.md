@@ -57,18 +57,12 @@ True if the frame rate is set, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudyProperties::SetFrameRate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyProperties~SetFrameRate.html)
-
-.
+See [MotionStudyProperties::SetFrameRate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyProperties~SetFrameRate.html).
 
 ## See Also
 
 [IMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties.html)
-
 [IMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties_members.html)
-
 [IMotionStudyProperties::GetFrameRate Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties~GetFrameRate.html)
 
 ## Availability

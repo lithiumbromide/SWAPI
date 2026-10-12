@@ -48,16 +48,11 @@ True if the current document is measure-enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::IsMeasureEnabled](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~IsMeasureEnabled.html)
-
-.
+See [EModelViewControl::IsMeasureEnabled](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~IsMeasureEnabled.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

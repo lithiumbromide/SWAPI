@@ -44,30 +44,21 @@ property swDimXpertPatternTreatmentType_e PatternTreatment {
 
 ### Property Value
 
-Pattern treatment type as defined in
-
-[swDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPatternTreatmentType_e.html)
+Pattern treatment type as defined in [swDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPatternTreatmentType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertRadiusDimTol::PatternTreatment](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertRadiusDimTol~PatternTreatment.html)
-
-.
+See [DimXpertRadiusDimTol::PatternTreatment](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertRadiusDimTol~PatternTreatment.html).
 
 ## Examples
 
 [Get DimXpert Tolerance2 Example (VBA)](Get_DimXpert_Tolerance2_Example_VB.htm)
-
 [Get DimXpert Tolerance2 Example (VB.NET)](Get_DimXpert_Tolerance2_Example_VBNET.htm)
-
 [Get DimXpert Features and Annotations in a Model Example (C#)](Get_DimXpert_Features_and_Annotations_in_a_Model_Example_CSharp.htm)
 
 ## See Also
 
 [IDimXpertRadiusDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRadiusDimTol.html)
-
 [IDimXpertRadiusDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRadiusDimTol_members.html)
 
 ## Availability

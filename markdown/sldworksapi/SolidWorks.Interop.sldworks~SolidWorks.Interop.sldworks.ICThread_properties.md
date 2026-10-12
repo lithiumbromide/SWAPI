@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICT
 
 # ICThread Interface Properties
 
-For a list of all members of this type, see[ICThread members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html).
+For a list of all members of this type, see [ICThread members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html).
 
 ## Public Properties
 
@@ -23,7 +23,5 @@ For a list of all members of this type, see[ICThread members](SolidWorks.Interop
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::HasLegacyCThreads Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~HasLegacyCThreads.html)

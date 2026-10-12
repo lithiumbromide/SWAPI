@@ -47,13 +47,7 @@ System.int GetConfigurationCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,33 +59,26 @@ Number of configurations in this BOM table or available to this BOM table
 
 ## VBA Syntax
 
-See
-
-[BomFeature::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetConfigurationCount.html)
-
-.
+See [BomFeature::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetConfigurationCount.html).
 
 ## Remarks
 
 The view associated with this BOM can contain a model with multiple configurations.
 
-For a top-level only style BOM table, there can be several Quantity columns, each showing the results for a different configuration.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For the other styles of BOM tables, only a particular configuration can be shown in the table, and that configuration can be changed. To determine the style of the BOM table, use[IBomFeature::TableType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~TableType.html).
-
-(Table)=========================================================
+For a top-level only style BOM table, there can be several Quantity columns, each showing the results for a different configuration. For the other styles of BOM tables, only a particular configuration can be shown in the table, and that configuration can be changed. To determine the style of the BOM table, use [IBomFeature::TableType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~TableType.html).
 
 | If OnlyVisible is... | Then the value returned is... |
 | --- | --- |
 | True | Number of configurations currently shown in the BOM table. For a top-level only style BOM table, this could be any number from 0 to the total number of configurations available. For the other styles of BOM tables, this value is always 1. |
 | false | Total number of configurations available. |
 
-To get the configuration names, call IBomFeature::GetConfigurations or IBomFeature::IGetConfigurations .
+To get the configuration names, call [IBomFeature::GetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetConfigurations.html) or [IBomFeature::IGetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~IGetConfigurations.html).
 
 Call this method before calling IBomFeature::IGetConfigurations to get the number of configurations.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

@@ -43,11 +43,7 @@ System.bool ComputePermissions(
 ### Parameters
 
 - `bDestroy`: True to permanently delete files and folders, false to move files and folders to the recycle bin
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to provide delete progress feedback to the user
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to provide delete progress feedback to the user
 
 ### Return Value
 
@@ -55,17 +51,13 @@ True if no errors occurred, false otherwise
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
-Before calling this method, you must add files and folders to the batch using[IEdmBatchDelete::AddFileByID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByID.html),[IEdmBatchDelete::AddFileByPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByPath.html), and[IEdmBatchDelete::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFolder.html).
+Before calling this method, you must add files and folders to the batch using [IEdmBatchDelete::AddFileByID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByID.html), [IEdmBatchDelete::AddFileByPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByPath.html), and [IEdmBatchDelete::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFolder.html).
 
-If errors occurred during IEdmBatchDelete::ComputePermissions, call[IEdmBatchDelete::ShowWarningDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowWarningDlg.html).
+If errors occurred during IEdmBatchDelete::ComputePermissions, call [IEdmBatchDelete::ShowWarningDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowWarningDlg.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -75,7 +67,6 @@ If errors occurred during IEdmBatchDelete::ComputePermissions, call[IEdmBatchDel
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [IEdmBatchDelete Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html)
 
 ## Availability

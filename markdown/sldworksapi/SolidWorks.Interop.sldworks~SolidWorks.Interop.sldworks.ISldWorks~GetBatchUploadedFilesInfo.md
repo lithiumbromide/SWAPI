@@ -55,13 +55,7 @@ System.bool GetBatchUploadedFilesInfo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,22 +69,17 @@ True if retrieval successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetBatchUploadedFilesInfo](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBatchUploadedFilesInfo.html)
-
-.
+See [SldWorks::GetBatchUploadedFilesInfo](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBatchUploadedFilesInfo.html).
 
 ## Remarks
 
-This method is valid only for[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm).
+This method is valid only for [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
-Before using this method, call[ISldWorks::RunBatchSaveProcess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunBatchSaveProcess.html).
+Before using this method, call [ISldWorks::RunBatchSaveProcess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunBatchSaveProcess.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

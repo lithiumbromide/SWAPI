@@ -54,30 +54,20 @@ System.int GetFirstItem(
 ### Parameters
 
 - `SStudyName`: Name of study
-- `NRunMeshOption`: Run and mesh option as defined in
-
-[swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
+- `NRunMeshOption`: Run and mesh option as defined in [swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
+Error code as defined in [swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRunSpecStudiesRunMeshOptions::GetFirstItem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~GetFirstItem.html)
-
-.
+See [CWRunSpecStudiesRunMeshOptions::GetFirstItem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~GetFirstItem.html).
 
 ## See Also
 
 [ICWRunSpecStudiesRunMeshOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html)
-
 [ICWRunSpecStudiesRunMeshOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions_members.html)
-
 [ICWRunSpecStudiesRunMeshOptions::GetNextItem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions~GetNextItem.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Export_Part_To_DWG_Example_VBNET.htm"
 
 # Export Part to DWG Example (VB.NET)
 
-This example shows how to export sheet metal and annotation views of a part
-to DWG files.
+This example shows how to export sheet metal and annotation views of a part to DWG files.
 
 ```
 '---------------------------------------------------------------------------

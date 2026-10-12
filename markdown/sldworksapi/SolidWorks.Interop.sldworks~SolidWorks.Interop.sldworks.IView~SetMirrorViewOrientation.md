@@ -51,20 +51,12 @@ System.bool SetMirrorViewOrientation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BSetIsMirrorView`: True to mirror the view, false to not
-- `BMirrorVieworientation`: Orientation of the mirror view as defined in
-
-[swMirrorViewPositions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMirrorViewPositions_e.html)
+- `BMirrorVieworientation`: Orientation of the mirror view as defined in [swMirrorViewPositions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMirrorViewPositions_e.html)
 
 ### Return Value
 
@@ -72,26 +64,18 @@ True if the method executed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[View::SetMirrorViewOrientation](ms-its:sldworksapivb6.chm::/sldworks~View~SetMirrorViewOrientation.html)
-
-.
+See [View::SetMirrorViewOrientation](ms-its:sldworksapivb6.chm::/sldworks~View~SetMirrorViewOrientation.html).
 
 ## Examples
 
 [Mirror View (C#)](Mirror_View_Example_CSharp.htm)
-
 [Mirror View (VB.NET)](Mirror_View_Example_VBNET.htm)
-
 [Mirror View (VBA)](Mirror_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetMirrorViewOrientation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetMirrorViewOrientation.html)
 
 ## Availability

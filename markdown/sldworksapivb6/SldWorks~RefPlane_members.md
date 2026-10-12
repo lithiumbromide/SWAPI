@@ -1,6 +1,5 @@
 ---
-title: "RefPlane Object
-Members"
+title: "RefPlane Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RefPlane_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RefPlane_members.html"
 ---
 
-# RefPlane Object
-Members
+# RefPlane Object Members
 
 ## Public Methods
 

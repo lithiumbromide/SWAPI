@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 # IAccessSelections Method (IClosedCornerFeatureData)
 
-Obsolete. Superseded by
-
-[IClosedCornerFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IClosedCornerFeatureData~IAccessSelections2.html)
-
-.
+Obsolete. Superseded by [IClosedCornerFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IClosedCornerFeatureData~IAccessSelections2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ClosedCornerFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~IAccessSelections.html)
-
-.
+See [ClosedCornerFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~IAccessSelections.html).
 
 ## See Also
 
 [IClosedCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData.html)
-
 [IClosedCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData_members.html)

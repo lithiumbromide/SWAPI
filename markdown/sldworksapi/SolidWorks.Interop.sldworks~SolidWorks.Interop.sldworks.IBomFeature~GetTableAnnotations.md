@@ -40,52 +40,30 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IBOMTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html)
-
-objects
+Array of [IBOMTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html) objects
 
 ## VBA Syntax
 
-See
-
-[BomFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetTableAnnotations.html)
-
-.
+See [BomFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetTableAnnotations.html).
 
 ## Examples
 
 [Export BOMs to XML (C#)](Export_BOMs_to_XML_Example_CSharp.htm)
-
 [Export BOMs to XML (VB.NET)](Export_BOMs_to_XML_Example_VBNET.htm)
-
 [Export BOMs to XML (VBA)](Export_BOMs_to_XML_Example_VB.htm)
-
 [Get Components in Each BOM Table Row (C#)](Get_Components_in_Each_BOM_Table_Row_Example_CSharp.htm)
-
 [Get Components in Each BOM Table Row (VB.NET)](Get_Components_in_Each_BOM_Table_Row_Example_VBNET.htm)
-
 [Get Components in Each BOM Table Row (VBA)](Get_Components_in_Each_BOM_Table_Row_VB.htm)
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::GetTableAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~GetTableAnnotationCount.html)
-
 [IBomFeature::IGetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~IGetTableAnnotations.html)
 
 ## Availability

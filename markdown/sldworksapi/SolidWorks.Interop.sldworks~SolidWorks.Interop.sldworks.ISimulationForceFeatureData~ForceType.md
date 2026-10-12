@@ -44,32 +44,19 @@ property System.int ForceType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of force as defined in
-
-[swSimulationForceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationForceType_e.html)
+Type of force as defined in [swSimulationForceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationForceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::ForceType](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ForceType.html)
-
-.
+See [SimulationForceFeatureData::ForceType](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ForceType.html).
 
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
 
 ## Availability

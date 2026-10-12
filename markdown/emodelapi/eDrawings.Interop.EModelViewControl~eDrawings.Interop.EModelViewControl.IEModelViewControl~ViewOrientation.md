@@ -43,30 +43,19 @@ property EMVViewOrientation ViewOrientation {
 
 ### Property Value
 
-View orientation as defined by
-
-[EMVViewOrientation](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVViewOrientation.html)
+View orientation as defined by [EMVViewOrientation](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVViewOrientation.html)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ViewOrientation](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewOrientation.html)
-
-.
+See [EModelViewControl::ViewOrientation](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewOrientation.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

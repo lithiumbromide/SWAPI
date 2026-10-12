@@ -9,8 +9,7 @@ source: "sldworksapi/Create_a_Callout_Independent_of_a_Selection_Example_CSharp.
 
 # Create a Callout Independent of a Selection Example (C#)
 
-This example shows how to create a callout that is independent of a
-selection.
+This example shows how to create a callout that is independent of a selection.
 
 ```vb
  //---------------------------------------------------------------------------

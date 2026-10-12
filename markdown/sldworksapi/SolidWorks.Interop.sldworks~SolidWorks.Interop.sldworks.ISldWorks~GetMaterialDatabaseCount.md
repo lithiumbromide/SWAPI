@@ -40,13 +40,7 @@ System.int GetMaterialDatabaseCount()
 System.int GetMaterialDatabaseCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Number of material databases
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetMaterialDatabaseCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMaterialDatabaseCount.html)
-
-.
+See [SldWorks::GetMaterialDatabaseCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMaterialDatabaseCount.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetMaterialDatabases Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetMaterialDatabases.html)
-
 [ISldWorks::GetMaterialDatabases Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMaterialDatabases.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # GetComponentName Method (IMateEntity)
 
-Obsolete. Superseded by
-
-[IMateEntity2::ReferenceComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~ReferenceComponent.html)
-
-.
+Obsolete. Superseded by [IMateEntity2::ReferenceComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~ReferenceComponent.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetComponentName()
 System.String^ GetComponentName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MateEntity::GetComponentName](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetComponentName.html)
-
-.
+See [MateEntity::GetComponentName](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetComponentName.html).
 
 ## See Also
 
 [IMateEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity.html)
-
 [IMateEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity_members.html)

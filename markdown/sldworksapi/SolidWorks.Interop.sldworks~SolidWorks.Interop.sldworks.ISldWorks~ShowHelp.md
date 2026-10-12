@@ -50,58 +50,36 @@ void ShowHelp(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `HelpFile`: Name of the Help file that contains the Help topic
-- `HelpTopic`: ID of Help topic to displayParamDesc
+- `HelpTopic`: ID of Help topic to display
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowHelp](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowHelp.html)
-
-.
+See [SldWorks::ShowHelp](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowHelp.html).
 
 ## Examples
 
+```vb
 STDMETHODIMP CFuncFeatApp::appCallbackFunction(int cmd,int data,LPDISPATCH dsp, BOOL *retval)
-
 {
-
-kadov_tag{{<spaces>}}switch (cmd)
-
-kadov_tag{{<spaces>}}{
-
-kadov_tag{{<spaces>}}case swAppIsNewCmd:
-
-kadov_tag{{<spaces>}}*retval = VARIANT_True; //Set to True if data is new
-
-kadov_tag{{<spaces>}}break;
-
-kadov_tag{{<spaces>}}case swAppWhatsNewDescription:
-
-kadov_tag{{<spaces>}}m_iSldWorks-> ShowHelp (_T(" name_of_your_Help_system .chm "), cmd);
-
-kadov_tag{{<spaces>}}break;
-
-kadov_tag{{<spaces>}}case swAppHelpContext:
-
-kadov_tag{{<spaces>}}break;
-
-kadov_tag{{<spaces>}}}
-
-kadov_tag{{<spaces>}}return S_OK;
-
+            switch (cmd)
+            {
+            case     swAppIsNewCmd:
+                        *retval = VARIANT_True; //Set to True if data is new
+                        break;
+            case     swAppWhatsNewDescription:
+                            m_iSldWorks->ShowHelp(_T("name_of_your_Help_system.chm"), cmd);
+                        break;
+            case     swAppHelpContext:
+                        break;
+            }
+            return S_OK;
 }
+```
 
 ## Examples
 
@@ -109,22 +87,14 @@ kadov_tag{{<spaces>}}return S_OK;
 
 ## Remarks
 
-You can use this method with
-
-[ISldWorks::AddCallback](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddCallback.html)
-
-to implement Interactive What's New for your add-in.
+You can use this method with [ISldWorks::AddCallback](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddCallback.html) to implement Interactive What's New for your add-in.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::CallBack Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CallBack.html)
-
 [ISldWorks::RemoveCallback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveCallback.html)
-
 [ISldWorks::SetAddinCallbackInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo.html)
 
 ## Availability

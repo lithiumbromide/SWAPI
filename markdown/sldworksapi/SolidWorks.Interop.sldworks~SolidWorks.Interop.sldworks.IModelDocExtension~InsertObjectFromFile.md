@@ -67,40 +67,24 @@ SwOLEObject^ InsertObjectFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilePath`: Path and filename for the OLE object file
-- `CreateLink`: True to create an external link to the OLE object file, false to embed the OLE objectParamDescon the document
-- `Aspect`: Viewing aspect of the object as defined in the DVASPECT enumeration (see
-
-Remarks
-
-)
+- `CreateLink`: True to create an external link to the OLE object file, false to embed the OLE object on the document
+- `Aspect`: Viewing aspect of the object as defined in the DVASPECT enumeration (see **Remarks**)
 - `XPos`: x coordinate for the OLE object
 - `YPos`: y coordinate for the OLE object
 - `ZPos`: z coordinate for the OLE object
 
 ### Return Value
 
-Newly inserted
-
-[object](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html)
+Newly inserted [object](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertObjectFromFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertObjectFromFile.html)
-
-.
+See [ModelDocExtension::InsertObjectFromFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertObjectFromFile.html).
 
 ## Remarks
 
@@ -118,17 +102,11 @@ See the MSDN documentation for additional details about the DVASPECT enumeration
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::CreateOLEObject Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateOLEObject.html)
-
 [IModelDocExtension::GetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjects.html)
-
 [IModelDocExtension::GetOLEObjectCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjectCount.html)
-
 [IModelDocExtension::ICreateOLEObject Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ICreateOLEObject.html)
-
 [IModelDocExtension::IGetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetOLEObjects.html)
 
 ## Availability

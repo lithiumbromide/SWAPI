@@ -67,484 +67,101 @@ This example shows how to add a component to an assembly and mate it.
 ```
 
 ' Open assembly
-
-fileName =
-
-"C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\toolbox\lens_mount.sldasm"
-
-swModel = swApp.
-
-OpenDoc6
-
-(fileName, swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent,
-
-""
-
-,
-errors, warnings)
+fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\toolbox\lens_mount.sldasm"
+swModel = swApp.**OpenDoc6**(fileName, swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
 
 ' Set up event
-
 swAssemblyDoc = swModel
-
-openAssem =
-
-New
-
-Hashtable
-
+openAssem = New Hashtable
 AttachEventHandlers()
 
 ' Get title of assembly document
-
-AssemblyTitle = swModel.
-
-GetTitle
-
-()
+AssemblyTitle = swModel.**GetTitle**()
 
 ' Split the title into two strings using the period as the delimiter
-
-strings = Split(AssemblyTitle,
-
-"."
-
-)
+strings = Split(AssemblyTitle, ".")
 
 ' Use AssemblyName when mating the component with the assembly
-
 AssemblyName = strings(0)
 
-Debug
+Debug.Print("Name of assembly: " & AssemblyName)
 
-.Print("Name of assembly: " & AssemblyName)
-
-boolstat =
-
-True
-
-Dim
-
-strCompModelname
-
-As
-
-String
-
-strCompModelname =
-
-"camtest.sldprt"
+boolstat = True
+Dim strCompModelname As String
+strCompModelname = "camtest.sldprt"
 
 ' Because the component resides in the same folder as the assembly, get
-
 ' the assembly's path and use it when opening the component
-
-tmpPath = Left(swModel.
-
-GetPathName
-
-, InStrRev(swModel.
-
-GetPathName
-
-,
-
-"\"
-
-))
+tmpPath = Left(swModel.**GetPathName**, InStrRev(swModel.**GetPathName**, "\"))
 
 ' Open the component
-
-tmpObj = swApp.
-
-OpenDoc6
-
-(tmpPath + strCompModelname, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent,
-
-""
-
-, errors, warnings)
+tmpObj = swApp.**OpenDoc6**(tmpPath + strCompModelname, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
 
 ' Check to see if the file is read-only or cannot be found; display error
-
 ' messages if either
+If warnings = swFileLoadWarning_e.swFileLoadWarning_ReadOnly Then
+MsgBox("This file is read-only.")
+boolstat = False
+End If
 
-If
-
-warnings = swFileLoadWarning_e.swFileLoadWarning_ReadOnly
-
-Then
-
-MsgBox(
-
-"This file is read-only."
-
-)
-
-boolstat =
-
-False
-
-End
-
-If
-
-If
-
-tmpObj
-
-Is
-
-Nothing
-
-Then
-
-MsgBox(
-
-"Cannot locate the file."
-
-)
-
-boolstat =
-
-False
-
-End
-
-If
+If tmpObj Is Nothing Then
+MsgBox("Cannot locate the file.")
+boolstat = False
+End If
 
 ' Activate the assembly so that you can add the component to it
-
-swModel = swApp.
-
-ActivateDoc3
-
-(AssemblyTitle,
-
-True
-
-, swRebuildOnActivation_e.swUserDecision, errors)
+swModel = swApp.**ActivateDoc3**(AssemblyTitle, True, swRebuildOnActivation_e.swUserDecision, errors)
 
 ' Add the camtest part to the assembly document
-
-swComponent = swAssemblyDoc.
-
-AddComponent5
-
-(strCompModelname, swAddComponentConfigOptions_e.swAddComponentConfigOptions_CurrentSelectedConfig,
-
-""
-
-,
-
-False
-
-,
-
-""
-
-, -1, -1, -1)
+swComponent = swAssemblyDoc.**AddComponent5**(strCompModelname, swAddComponentConfigOptions_e.swAddComponentConfigOptions_CurrentSelectedConfig, "", False, "", -1, -1, -1)
 
 ' Make the component virtual
-
-stat = swComponent.
-
-MakeVirtual2
-
-(
-
-True
-
-)
+stat = swComponent.**MakeVirtual2**(True)
 
 ' Get the name of the component for the mate
-
-strCompName = swComponent.
-
-Name2
-
-()
+strCompName = swComponent.**Name2**()
 
 ' Create the name of the mate and the names of the planes to use for the mate
+MateName = "top_coinc_" + strCompName
+FirstSelection = "Top@" + strCompName & "@" + AssemblyName
+SecondSelection = "Front@" + AssemblyName
 
-MateName =
-
-"top_coinc_"
-
-+ strCompName
-
-FirstSelection =
-
-"Top@"
-
-+ strCompName &
-
-"@"
-
-+ AssemblyName
-
-SecondSelection =
-
-"Front@"
-
-+ AssemblyName
-
-swModel.
-
-ClearSelection2
-
-(
-
-True
-
-)
-
-swDocExt = swModel.
-
-Extension
+swModel.**ClearSelection2**(True)
+swDocExt = swModel.**Extension**
 
 ' Select the planes for the mate
-
-boolstat = swDocExt.
-
-SelectByID2
-
-(FirstSelection,
-
-"PLANE"
-
-, 0, 0, 0,
-
-True
-
-, 1,
-
-Nothing
-
-, swSelectOption_e.swSelectOptionDefault)
-
-boolstat = swDocExt.
-
-SelectByID2
-
-(SecondSelection,
-
-"PLANE"
-
-, 0, 0, 0,
-
-True
-
-, 1,
-
-Nothing
-
-, swSelectOption_e.swSelectOptionDefault)
+boolstat = swDocExt.**SelectByID2**(FirstSelection, "PLANE", 0, 0, 0, True, 1, Nothing, swSelectOption_e.swSelectOptionDefault)
+boolstat = swDocExt.**SelectByID2**(SecondSelection, "PLANE", 0, 0, 0, True, 1, Nothing, swSelectOption_e.swSelectOptionDefault)
 
 ' Add the mate
+matefeature = swAssemblyDoc.**AddMate5**(swMateType_e.swMateCOINCIDENT, swMateAlign_e.swMateAlignALIGNED, False, 0, 0, 0, 0, 0, 0, 0, 0, False, False, 0, mateError)
+matefeature.**Name** = MateName
+Debug.Print("Mate added: " & matefeature.**Name**)
 
-matefeature = swAssemblyDoc.
+swModel.**ViewZoomtofit2**()
 
-AddMate5
+End Sub
 
-(swMateType_e.swMateCOINCIDENT, swMateAlign_e.swMateAlignALIGNED,
-
-False
-
-, 0, 0, 0, 0, 0, 0, 0, 0,
-
-False
-
-,
-
-False
-
-,
-0, mateError)
-
-matefeature.
-
-Name
-
-= MateName
-
-Debug
-
-.Print("Mate
-added: " & matefeature.
-
-Name
-
-)
-
-swModel.
-
-ViewZoomtofit2
-
-()
-
-End
-
-Sub
-
-Sub
-
-AttachEventHandlers()
-
+Sub AttachEventHandlers()
 AttachSWEvents()
+End Sub
 
-End
+Sub AttachSWEvents()
+AddHandler swAssemblyDoc.**AddItemNotify**, AddressOf Me.swAssemblyDoc_AddItemNotify
+AddHandler swAssemblyDoc.**RenameItemNotify**, AddressOf Me.swAssemblyDoc_RenameItemNotify
+End Sub
 
-Sub
+Private Function swAssemblyDoc_AddItemNotify(ByVal EntityType As Integer, ByVal itemName As String) As Integer
+Debug.Print("Component added: " & itemName)
+End Function
 
-Sub
+Private Function swAssemblyDoc_RenameItemNotify(ByVal EntityType As Integer, ByVal oldName As String, ByVal NewName As String) As Integer
+Debug.Print("Virtual component name: " & NewName)
+End Function
 
-AttachSWEvents()
-
-AddHandler
-
-swAssemblyDoc.
-
-AddItemNotify
-
-,
-
-AddressOf
-
-Me
-
-.swAssemblyDoc_AddItemNotify
-
-AddHandler
-
-swAssemblyDoc.
-
-RenameItemNotify
-
-,
-
-AddressOf
-
-Me
-
-.swAssemblyDoc_RenameItemNotify
-
-End
-
-Sub
-
-Private
-
-Function
-
-swAssemblyDoc_AddItemNotify(
-
-ByVal
-
-EntityType
-
-As
-
-Integer
-
-,
-
-ByVal
-
-itemName
-
-As
-
-String
-
-)
-
-As
-
-Integer
-
-Debug
-
-.Print(
-
-"Component added: "
-
-& itemName)
-
-End
-
-Function
-
-Private
-
-Function
-
-swAssemblyDoc_RenameItemNotify(
-
-ByVal
-
-EntityType
-
-As
-
-Integer
-
-,
-
-ByVal
-
-oldName
-
-As
-
-String
-
-,
-
-ByVal
-
-NewName
-
-As
-
-String
-
-)
-
-As
-
-Integer
-
-Debug
-
-.Print(
-
-"Virtual component name: "
-
-& NewName)
-
-End
-
-Function
-
-'''
-
-<summary>
-
+''' <summary>
 ''' The SldWorks swApp variable is pre-assigned for you
+''' </summary>
+Public swApp As SldWorks
 
-'''
-
-</summary>
-
-Public
-
-swApp
-
-As
-
-SldWorks
-
-End
-
-Class
+End Class

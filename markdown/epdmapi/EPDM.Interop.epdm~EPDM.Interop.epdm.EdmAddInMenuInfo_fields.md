@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_fields.htm
 
 # EdmAddInMenuInfo Structure Fields
 
-For a list of all members of this type, see[EdmAddInMenuInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members.html).
+For a list of all members of this type, see [EdmAddInMenuInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[EdmAddInMenuInfo members](EPDM.Inter
 ## See Also
 
 [EdmAddInMenuInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

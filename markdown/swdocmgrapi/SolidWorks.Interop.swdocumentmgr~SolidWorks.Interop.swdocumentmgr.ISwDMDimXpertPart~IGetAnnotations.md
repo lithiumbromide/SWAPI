@@ -53,26 +53,18 @@ SwDMDimXpertAnnotation^ IGetAnnotations(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[ISwDMDimXpertAnnotation](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
+in-process, unmanaged C++: Pointer to an array of [ISwDMDimXpertAnnotation](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Use
-
-[ISwDMDimXpertPart::GetAnnotationCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetAnnotationCount.html)
-
-to populate the Count argument.
+Use [ISwDMDimXpertPart::GetAnnotationCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetAnnotationCount.html) to populate the Count argument.
 
 ## See Also
 
 [ISwDMDimXpertPart Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart.html)
-
 [ISwDMDimXpertPart Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart_members.html)
-
 [ISwDMDimXpertPart::GetAnnotations Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart~GetAnnotations.html)
 
 ## Availability

@@ -11,18 +11,15 @@ source: "sldworksapi/Create_Swept_Flange_Using_Gauge_Table_Example_CSharp.htm"
 
 This example shows how to create a swept flange using a bend table on a non-sheet metal part.
 
-//
-====================================================================================
+// ====================================================================================
 
 // Preconditions:
 
-// 1. Ensure that the paths to templates and gauge
-tables are valid.
+// 1. Ensure that the paths to templates and gauge tables are valid.
 
 // 2. Open an Immediate window.
 
-// 3. Press F5 repeatedly and inspect the Immediate
-window and FeatureManager design tree as instructed.
+// 3. Press F5 repeatedly and inspect the Immediate window and FeatureManager design tree as instructed.
 
 //
 

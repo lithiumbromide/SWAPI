@@ -1,6 +1,5 @@
 ---
-title: "CWDropTestResultOptions Object
-Members"
+title: "CWDropTestResultOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDropTestResultOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDropTestResultOptions_members.html"
 ---
 
-# CWDropTestResultOptions Object
-Members
+# CWDropTestResultOptions Object Members
 
 ## Public Methods
 

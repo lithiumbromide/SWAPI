@@ -47,19 +47,11 @@ System.String^ GetCalloutVariableString(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Variable`: Callout variable as defined in
-
-[swCalloutVariable_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCalloutVariable_e.html)
+- `Variable`: Callout variable as defined in [swCalloutVariable_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCalloutVariable_e.html)
 
 ### Return Value
 
@@ -67,26 +59,18 @@ Callout variable string
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCalloutVariableString](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCalloutVariableString.html)
-
-.
+See [ModelDocExtension::GetCalloutVariableString](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCalloutVariableString.html).
 
 ## Examples
 
 [Create Advanced Hole (VBA)](Create_Advanced_Hole_Example_VB.htm)
-
 [Create Advanced Hole (VB.NET)](Create_Advanced_Hole_Example_VBNET.htm)
-
 [Create Advanced Hole (C#)](Create_Advanced_Hole_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IAdvancedHoleElementData::CalloutString Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~CalloutString.html)
 
 ## Availability

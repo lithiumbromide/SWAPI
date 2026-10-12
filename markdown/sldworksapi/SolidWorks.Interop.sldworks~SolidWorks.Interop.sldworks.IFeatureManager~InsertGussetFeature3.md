@@ -123,70 +123,32 @@ Feature^ InsertGussetFeature3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Depth`: Thickness of the gusset
-- `DirType`: Thickness direction of the gusset as defined in[swGussetThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetThicknessType_e.html)
-- `LocType`: Location of the reference plane for the sketch of the gusset as defined in[swGussetProfileLocationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetProfileLocationType_e.html)
+- `DirType`: Thickness direction of the gusset as defined in [swGussetThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetThicknessType_e.html)
+- `LocType`: Location of the reference plane for the sketch of the gusset as defined in [swGussetProfileLocationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetProfileLocationType_e.html)
 - `BIsProfile`: True to use a polygon profile, false to use a triangle profile
-- `ProfileD1`: Profile Distance1 (see
-
-Remarks
-
-)
-- `ProfileD2`: Profile Distance2 (see
-
-Remarks
-
-)
-- `ProfileD3`: Profile Distance3 (see
-
-Remarks
-
-)
-- `ProfileAngle`: Profile Angle (see
-
-Remarks
-
-); valid only if BUseLenDim is false
-- `ProfileD4`: Profile Distance4 (see
-
-Remarks
-
-); valid only if BUseLenDim is true
+- `ProfileD1`: Profile Distance1 (see **Remarks**)
+- `ProfileD2`: Profile Distance2 (see **Remarks**)
+- `ProfileD3`: Profile Distance3 (see **Remarks**)
+- `ProfileAngle`: Profile Angle (see **Remarks**); valid only if BUseLenDim is false
+- `ProfileD4`: Profile Distance4 (see **Remarks**); valid only if BUseLenDim is true
 - `BOffset`: True to offset the reference plane for the sketch, false to not
 - `DProfileOffset`: Value by which to offset the reference plane for the sketch
 - `CrvIndex`: Index of the edge to use if multiple intersecting edges exist
 - `BReverseDir`: If BOffset set to true, then true to reverse direction, false to not
 - `BReverseFace`: Reverse ProfileD1 and ProfileD2 if triangle profile
 
-- or -
+  - or -
 
-Reverse ProfileD1 and ProfileD2 and reverse ProfileD3 and ProfileD4 if polygon profile
+  Reverse ProfileD1 and ProfileD2 and reverse ProfileD3 and ProfileD4 if polygon profile
 - `BUseLenDim`: True to use ProfileD4, false to use ProfileAngle
-- `ProfileD5`: Chamfer Distance5 (see
-
-Remarks
-
-); valid only if BNeedChamferInGusset is true
-- `ProfileD6`: Chamfer Distance6 (see
-
-Remarks
-
-); valid only if BNeedChamferInGusset and BUseLenDimForChamber are both true
-- `ProfileChamferAngle`: Chamfer Angle (see
-
-Remarks
-
-); valid only if BUseLenDimForChamfer is false and BNeedChamferInGusset is true
+- `ProfileD5`: Chamfer Distance5 (see **Remarks**); valid only if BNeedChamferInGusset is true
+- `ProfileD6`: Chamfer Distance6 (see **Remarks**); valid only if BNeedChamferInGusset and BUseLenDimForChamber are both true
+- `ProfileChamferAngle`: Chamfer Angle (see **Remarks**); valid only if BUseLenDimForChamfer is false and BNeedChamferInGusset is true
 - `BUseLenDimForChamfer`: True to use ProfileD6, false to use ProfileChamferAngle; valid only if BNeedChamferInGusset is true
 - `BNeedChamferInGusset`: True to create a chamfer to allow room for a weld bead under the gusset, false to not
 
@@ -196,34 +158,26 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertGussetFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGussetFeature3.html)
-
-.
+See [FeatureManager::InsertGussetFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGussetFeature3.html).
 
 ## Examples
 
 [Insert Gusset Feature (VBA)](Insert_Gusset_Feature_Example_VB.htm)
-
 [Insert Gusset Feature (VB.NET)](Insert_Gusset_Feature_Example_VBNET.htm)
-
 [Insert Gusset Feature (C#)](Insert_Gusset_Feature_Example_CSharp.htm)
 
 ## Remarks
 
 See the SOLIDWORKS Help for more information about profile and chamfer distances and angles in weldment gussets.
 
-Before calling this method, you must call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select two faces that are the supporting legs of this gusset with a Mark of 1.
+Before calling this method, you must call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select two faces that are the supporting legs of this gusset with a Mark of 1.
 
-Instead of using this method, you can pass an array of faces to[IFeatureManager::InsertGussetFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature2.html).
+Instead of using this method, you can pass an array of faces to [IFeatureManager::InsertGussetFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
 
 ## Availability

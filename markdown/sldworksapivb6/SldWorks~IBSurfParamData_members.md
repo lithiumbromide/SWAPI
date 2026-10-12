@@ -1,6 +1,5 @@
 ---
-title: "IBSurfParamData Object
-Members"
+title: "IBSurfParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBSurfParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBSurfParamData_members.html"
 ---
 
-# IBSurfParamData Object
-Members
+# IBSurfParamData Object Members
 
 ## Public Methods
 

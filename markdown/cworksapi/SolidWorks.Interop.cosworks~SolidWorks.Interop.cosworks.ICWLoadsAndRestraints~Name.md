@@ -48,24 +48,15 @@ Name of the load or restraint
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~Name.html)
-
-.
+See [CWLoadsAndRestraints::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~Name.html).
 
 ## Examples
 
-See the
-
-[ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
-examples.
+See the [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

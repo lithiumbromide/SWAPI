@@ -9,9 +9,7 @@ source: "sldworksapi/Delete_Selected_Feature_Example_VB.htm"
 
 # Delete Selected Feature Example (VBA)
 
-This example shows how to delete a selected feature. You can specify
-to delete the absorbed or children features or both types of
-features. This example does not ask you to confirm the deletion.
+This example shows how to delete a selected feature. You can specify to delete the absorbed or children features or both types of features. This example does not ask you to confirm the deletion.
 
 ```
 '--------------------------------------

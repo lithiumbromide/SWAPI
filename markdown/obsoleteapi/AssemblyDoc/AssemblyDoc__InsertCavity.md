@@ -9,5 +9,4 @@ source: "obsoleteapi/AssemblyDoc/AssemblyDoc__InsertCavity.htm"
 
 # AssemblyDoc::InsertCavity
 
-This method is obsolete and has been superseded
-by[AssemblyDoc::InsertCavity2](AssemblyDoc__InsertCavity2.htm).
+This method is obsolete and has been superseded by [AssemblyDoc::InsertCavity2](AssemblyDoc__InsertCavity2.htm).

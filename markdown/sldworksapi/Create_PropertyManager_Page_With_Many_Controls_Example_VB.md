@@ -170,7 +170,7 @@ Private Sub Layout()
 ```
 
 ```
-    'Access SOLIDWORKS
+    'Access SOLIDWORKS Design
     Set swApp = GetObject(, "SldWorks.Application")
 ```
 
@@ -445,7 +445,7 @@ Back to top
 ' This file is the implementation of the PropertyManagerPage2Handler5
 ' interface
 ' Each of these methods is called when its corresponding
-' notification is fired from within SOLIDWORKS
+' notification is fired from within SOLIDWORKS Design
 ' It is customary to have notifications use callback
 ' functions defined within the main application to perform
 ' any desired actions
@@ -463,7 +463,7 @@ End Sub
 Private Sub Class_Terminate()
     Debug.Print "Class_Terminate"
 End Sub
-'These methods are the implementations of the SOLIDWORKS notifications
+'These methods are the implementations of the SOLIDWORKS Design notifications
 Private Sub PropertyManagerPage2Handler5_AfterClose()
     Debug.Print "PropertyManagerPage2Handler5_AfterClose"
 End Sub

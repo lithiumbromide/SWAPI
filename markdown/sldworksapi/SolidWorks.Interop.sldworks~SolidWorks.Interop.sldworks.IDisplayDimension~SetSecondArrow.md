@@ -50,26 +50,16 @@ void SetSecondArrow(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UseDoc`: True uses the document setting for second arrows, false uses the setting specified by the SecondArrowargument
+- `UseDoc`: True uses the document setting for second arrows, false uses the setting specified by the SecondArrow argument
 - `SecondArrow`: Enables or disables the display of the second arrow on this display dimension if UseDoc is false
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetSecondArrow](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetSecondArrow.html)
-
-.
+See [DisplayDimension::SetSecondArrow](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetSecondArrow.html).
 
 ## Remarks
 
@@ -79,18 +69,16 @@ Display of this arrow is optional, and is controlled by a value stored in one of
 
 The UseDoc argument indicates whether to use the document default setting for second arrows. If it is false, then the SecondArrow argument indicates whether or not the second arrow is enabled.
 
-Use[IDisplayDimension::GetUseDocSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocSecondArrow.html)and[IDisplayDimension::GetSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetSecondArrow.html)to get the current values for these settings.
+Use [IDisplayDimension::GetUseDocSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocSecondArrow.html) and [IDisplayDimension::GetSecondArrow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetSecondArrow.html) to get the current values for these settings.
 
 This method applies to only diameter dimensions. If you execute this method with any other types of dimensions, SOLIDWORKS returns false.
 
-After using this method, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this method, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::ArrowSide Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~ArrowSide.html)
 
 ## Availability

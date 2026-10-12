@@ -40,13 +40,7 @@ System.int GetCommentCount()
 System.int GetCommentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,21 @@ Number of comments in the folder
 
 ## VBA Syntax
 
-See
-
-[CommentFolder::GetCommentCount](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder~GetCommentCount.html)
-
-.
+See [CommentFolder::GetCommentCount](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder~GetCommentCount.html).
 
 ## Examples
 
 [Get Comments in Comments Folder (C#)](Get_Comments_in_Comments_Folder_Example_CSharp.htm)
-
 [Get Comments in Comments Folder (VB.NET)](Get_Comments_in_Comments_Folder_Example_VBNET.htm)
-
 [Get Comments in Comments Folder (VBA)](Get_Comments_in_Comments_Folder_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[ICommentFolder::IGetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~IGetComments.html)to determine the size of the array for that method.
+Call this method before calling [ICommentFolder::IGetComments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~IGetComments.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)
-
 [ICommentFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder_members.html)
 
 ## Availability

@@ -45,6 +45,8 @@ public enum class swsSimMassPropertiesError_e : public System.Enum
 | swsSimMassPropertiesErrorBodiesNotFound | 1 |
 | swsSimMassPropertiesErrorBoltMassNotIncluded | 6 |
 | swsSimMassPropertiesErrorBoltNotFound | 2 |
+| swsSimMassPropertiesErrorCableMassNotIncluded | 13 |
+| swsSimMassPropertiesErrorCableNotFound | 12 |
 | swsSimMassPropertiesErrorDistributedMassNotFound | 5 |
 | swsSimMassPropertiesErrorLinkageRodMassNotIncluded | 11 |
 | swsSimMassPropertiesErrorLinkageRodNotFound | 10 |

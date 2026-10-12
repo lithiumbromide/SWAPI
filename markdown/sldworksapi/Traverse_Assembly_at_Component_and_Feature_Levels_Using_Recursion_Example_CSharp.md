@@ -9,8 +9,7 @@ source: "sldworksapi/Traverse_Assembly_at_Component_and_Feature_Levels_Using_Rec
 
 # Traverse Assembly at Component and Feature Levels Using Recursion Example (C#)
 
-This example shows how to traverse an assembly at the component and
-feature levels using recursion.
+This example shows how to traverse an assembly at the component and feature levels using recursion.
 
 ```vb
  //--------------------------------------------------------------------------
@@ -20,7 +19,7 @@ feature levels using recursion.
  //
  // Postconditions:
  // 1. Traverses the assembly.
- // kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}2. Examine the Immediate Window.
+ // 2. Examine the Immediate Window.
  //---------------------------------------------------------------------------
 ```
 

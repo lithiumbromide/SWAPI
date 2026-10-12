@@ -71,19 +71,13 @@ EnumSketchSegments^ ICreateClippedSplines(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PropArray`: SeeRemarks
-- `KnotsArray`: SeeRemarks
-- `CntrlPntCoordArray`: SeeRemarks
+- `PropArray`: See Remarks
+- `KnotsArray`: See Remarks
+- `CntrlPntCoordArray`: See Remarks
 - `X1`: x component of the lower corner of the clipping rectangle
 - `Y1`: y component of the lower corner of the clipping rectangle
 - `X2`: x component of the upper corner of the clipping rectang
@@ -91,17 +85,11 @@ See
 
 ### Return Value
 
-Newly created
-
-[sketch segments enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumSketchSegments.html)
+Newly created [sketch segments enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumSketchSegments.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ICreateClippedSplines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ICreateClippedSplines.html)
-
-.
+See [ModelDoc2::ICreateClippedSplines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ICreateClippedSplines.html).
 
 ## Remarks
 
@@ -109,20 +97,18 @@ The rectangle lies in the space of the active 2D sketch. The results are undefin
 
 The arrays are as follows:
 
-- PropArray =[Dimension, Order, NumControlPoints, Periodicity]
-- KnotsArray =[NumControlPoints+ Order]
-- CntrlPntCoordArray =[NumControlPoints*Dimension]
+- PropArray = [ Dimension, Order, NumControlPoints, Periodicity ]
+- KnotsArray = [ NumControlPoints + Order ]
+- CntrlPntCoordArray = [ NumControlPoints * Dimension ]
 
-IfDimension= 3, thenCntrlPntCoordArrayis an array of 3 doubles ( x, y, z ).
+If Dimension = 3, then CntrlPntCoordArray is an array of 3 doubles ( x, y, z ).
 
-IfDimension= 4, thenCntrlPntCoordArrayis an array of 4 doubles ( x, y, z, w ) where w = weight.
+If Dimension = 4, then CntrlPntCoordArray is an array of 4 doubles ( x, y, z, w ) where w = weight.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateClippedSplines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateClippedSplines.html)
 
 ## Availability

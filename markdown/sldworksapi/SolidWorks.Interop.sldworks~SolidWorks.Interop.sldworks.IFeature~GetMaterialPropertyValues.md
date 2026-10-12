@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetMaterialPropertyValues Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::GetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetMaterialPropertyValues2.html)
-
-.
+Obsolete. Superseded by [IFeature::GetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetMaterialPropertyValues2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetMaterialPropertyValues()
 System.Object^ GetMaterialPropertyValues();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Feature::GetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetMaterialPropertyValues.html)
-
-.
+See [Feature::GetMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetMaterialPropertyValues.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

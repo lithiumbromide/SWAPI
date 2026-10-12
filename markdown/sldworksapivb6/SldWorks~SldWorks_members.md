@@ -1,6 +1,5 @@
 ---
-title: "SldWorks Object
-Members"
+title: "SldWorks Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SldWorks_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SldWorks_members.html"
 ---
 
-# SldWorks Object
-Members
+# SldWorks Object Members
 
 ## Public Methods
 
@@ -361,6 +359,7 @@ Members
 | Public Property IActiveDoc |  |
 | Public Property IActiveDoc2 |  |
 | Public Property JournalManager |  |
+| Public Property ShadedEdgeThickness |  |
 | Public Property StartupProcessCompleted |  |
 | Public Property TaskPaneIsPinned |  |
 | Public Property UserControl |  |

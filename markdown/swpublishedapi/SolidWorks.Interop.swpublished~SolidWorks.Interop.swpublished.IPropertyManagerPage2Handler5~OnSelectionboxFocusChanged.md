@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSelectionboxFocusChanged Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnSelectionboxFocusChanged.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnSelectionboxFocusChanged.html).
 
 ## Syntax
 
@@ -56,16 +52,11 @@ void OnSelectionboxFocusChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::OnSelectionboxFocusChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnSelectionboxFocusChanged.html)
-
-.
+See [PropertyManagerPage2Handler5::OnSelectionboxFocusChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnSelectionboxFocusChanged.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
 
 ## Availability

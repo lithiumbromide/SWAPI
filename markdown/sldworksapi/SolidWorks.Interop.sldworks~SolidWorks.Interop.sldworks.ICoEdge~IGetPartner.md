@@ -40,32 +40,18 @@ CoEdge IGetPartner()
 CoEdge^ IGetPartner();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the partner
-
-[coedge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge.html)
+Pointer to the partner [coedge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge.html)
 
 ## VBA Syntax
 
-See
-
-[CoEdge::IGetPartner](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetPartner.html)
-
-.
+See [CoEdge::IGetPartner](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetPartner.html).
 
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::GetPartner Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetPartner.html)

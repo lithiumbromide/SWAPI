@@ -47,13 +47,7 @@ System.bool SaveVirtualComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,36 +59,23 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Component2::SaveVirtualComponent](ms-its:sldworksapivb6.chm::/sldworks~Component2~SaveVirtualComponent.html)
-
-.
+See [Component2::SaveVirtualComponent](ms-its:sldworksapivb6.chm::/sldworks~Component2~SaveVirtualComponent.html).
 
 ## Examples
 
 [Insert New Virtual Component (C#)](Insert_New_Virtual_Component_Example_CSharp.htm)
-
 [Insert New Virtual Component (VB.NET)](Insert_New_Virtual_Component_Example_VBNET.htm)
-
 [Insert New Virtual Component (VBA)](Insert_New_Virtual_Component_Example_VB.htm)
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IsVirtual Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsVirtual.html)
-
 [IModelDocExtension::IsVirtualComponent3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsVirtualComponent3.html)
-
 [IAssemblyDoc::InsertNewVirtualPart Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewVirtualPart.html)
-
 [IAssemblyDoc::InsertNewAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewAssembly.html)
-
 [IAssemblyDoc::InsertNewVirtualAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewVirtualAssembly.html)
-
 [IComponent2::MakeVirtual Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~MakeVirtual.html)
 
 ## Availability

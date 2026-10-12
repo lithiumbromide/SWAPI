@@ -46,49 +46,29 @@ void InsertModelDimensions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Option`: - 0 - All dimensions in the view
-- 1 - All dimensions of the currently selected component (for assembly drawings)
-- 2 - All dimensions of the currently selected feature
-- 3 - All dimensions of the assembly
+  - 1 - All dimensions of the currently selected component (for assembly drawings)
+  - 2 - All dimensions of the currently selected feature
+  - 3 - All dimensions of the assembly
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertModelDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertModelDimensions.html)
-
-.
+See [DrawingDoc::InsertModelDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertModelDimensions.html).
 
 ## Remarks
 
-The
-
-Insert Model Items
-
-dialog is not displayed.
+The **Insert Model Items** dialog is not displayed.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::Dimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~Dimensions.html)
-
 [IDrawingDoc::DragModelDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~DragModelDimension.html)
-
 [IDrawingDoc::HideShowDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~HideShowDimensions.html)
-
 [IDrawingDoc::InsertModelAnnotations3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertModelAnnotations3.html)
-
 [IDrawingDoc::InsertRefDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertRefDim.html)

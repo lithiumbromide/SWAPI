@@ -45,13 +45,7 @@ property System.int BalloonsPerLine {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Number of balloons per line; specify a number >= 2
 
 ## VBA Syntax
 
-See
-
-[StackedBalloonOptions::BalloonsPerLine](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~BalloonsPerLine.html)
-
-.
+See [StackedBalloonOptions::BalloonsPerLine](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~BalloonsPerLine.html).
 
 ## Examples
 
-See
-
-[IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html)
-
-examples.
+See [IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ See the SOLIDWORKS Help for additional details about stacked balloons.
 ## See Also
 
 [IStackedBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions.html)
-
 [IStackedBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions_members.html)
 
 ## Availability

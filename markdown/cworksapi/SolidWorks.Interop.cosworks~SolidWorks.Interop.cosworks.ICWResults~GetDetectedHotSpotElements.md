@@ -57,36 +57,21 @@ System.int GetDetectedHotSpotElements(
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetDetectedHotSpotElements](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetDetectedHotSpotElements.html)
-
-.
+See [CWResults::GetDetectedHotSpotElements](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetDetectedHotSpotElements.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## Remarks
 
-Before calling this method, you must call
-
-[ICWResults::RunStressHotSpotDiagnostics](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~RunStressHotSpotDiagnostics.html)
-
-.
+Before calling this method, you must call [ICWResults::RunStressHotSpotDiagnostics](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~RunStressHotSpotDiagnostics.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::CreateStressHotSpotPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateStressHotSpotPlot.html)
-
 [ICWResults::GetDetectedHotSpotNodes Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDetectedHotSpotNodes.html)
 
 ## Availability

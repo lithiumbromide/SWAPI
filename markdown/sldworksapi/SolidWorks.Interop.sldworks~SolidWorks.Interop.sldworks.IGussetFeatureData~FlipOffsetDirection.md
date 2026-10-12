@@ -45,13 +45,7 @@ property System.bool FlipOffsetDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to flip the offset direction, false to not
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::FlipOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~FlipOffsetDirection.html)
-
-.
+See [GussetFeatureData::FlipOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~FlipOffsetDirection.html).
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

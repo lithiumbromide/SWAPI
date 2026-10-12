@@ -51,11 +51,7 @@ property System.int AlwaysShowWarningWatermark {
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::AlwaysShowWarningWatermark](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~AlwaysShowWarningWatermark.html)
-
-.
+See [EModelViewControl::AlwaysShowWarningWatermark](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~AlwaysShowWarningWatermark.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ eDrawings detects when the graphics data for a component might not be synchroniz
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::OpenDoc Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.html)
 
 ## Availability

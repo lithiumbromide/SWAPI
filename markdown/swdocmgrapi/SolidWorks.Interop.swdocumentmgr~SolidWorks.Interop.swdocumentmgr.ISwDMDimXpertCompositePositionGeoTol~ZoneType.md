@@ -44,17 +44,11 @@ property swDmDimXpertPositionZoneType_e ZoneType {
 
 ### Property Value
 
-Type of zone for the position as defined in
-
-[swDmDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPositionZoneType_e.html)
+Type of zone for the position as defined in [swDmDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPositionZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositePositionGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~ZoneType.html)
-
-.
+See [SwDMDimXpertCompositePositionGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~ZoneType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositePositionGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol.html)
-
 [ISwDMDimXpertCompositePositionGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol_members.html)
 
 ## Availability

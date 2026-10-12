@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMacroFeatureData Interface Members
 
-The following tables list the members exposed by[IMacroFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html).
+The following tables list the members exposed by [IMacroFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html).
 
 ## Public Properties
 
@@ -112,9 +112,6 @@ The following tables list the members exposed by[IMacroFeatureData](SolidWorks.I
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::IInsertMacroFeature3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IInsertMacroFeature3.html)
-
 [IFeatureManager::InsertMacroFeature3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMacroFeature3.html)

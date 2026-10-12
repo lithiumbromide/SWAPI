@@ -9,12 +9,9 @@ source: "API_GB/Get_Card_Control_Info_Example_CSharp.htm"
 
 # Get Card Control Information Example (C#)
 
-This example shows how to get information about the
-list and edit box controls in a selected file's data card.
+This example shows how to get information about the list and edit box controls in a selected file's data card.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 //----------------------------------------------------------------------------

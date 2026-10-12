@@ -11,8 +11,7 @@ source: "sldworksapi/Change_Color_of_Component_in_Specific_Display_State_Example
 
 This example shows how to change the color of a:
 
-- selected component in a
-  specific display state at the assembly and part levels.
+- selected component in a specific display state at the assembly and part levels.
 - component in its part document.
 
 ```
@@ -118,15 +117,15 @@ namespace AppearancesCSharp.csproj
             swAppearanceSetting.Color = newColor;
 ```
 
-swAppearanceSetting. Diffuse = 0.8d;
+swAppearanceSetting.**Diffuse** = 0.8d;
 
-swAppearanceSetting. Specular = 0.5d;
+swAppearanceSetting.**Specular** = 0.5d;
 
-swAppearanceSetting. SpecularColor = newColor;
+swAppearanceSetting.**SpecularColor** = newColor;
 
-swAppearanceSetting. Luminous = 0.1d;
+swAppearanceSetting.**Luminous** = 0.1d;
 
-swAppearanceSetting. Transparent = 0d;
+swAppearanceSetting.**Transparent** = 0d;
 
 ```
             newAppearanceSetting[0] = (AppearanceSetting)swAppearanceSetting;
@@ -166,15 +165,15 @@ swAppearanceSetting. Transparent = 0d;
             swAppearanceSetting.Color = newColor;
 ```
 
-swAppearanceSetting. Diffuse = 0.8d;
+swAppearanceSetting.**Diffuse** = 0.8d;
 
-swAppearanceSetting. Specular = 0.5d;
+swAppearanceSetting.**Specular** = 0.5d;
 
-swAppearanceSetting. SpecularColor = newColor;
+swAppearanceSetting.**SpecularColor** = newColor;
 
-swAppearanceSetting. Luminous = 0.1d;
+swAppearanceSetting.**Luminous** = 0.1d;
 
-swAppearanceSetting. Transparent = 0.0d;
+swAppearanceSetting.**Transparent** = 0.0d;
 
 ```
             newAppearanceSetting[0] = swAppearanceSetting;
@@ -220,15 +219,15 @@ swAppearanceSetting. Transparent = 0.0d;
             swAppearanceSetting.Color = newColor;
 ```
 
-swAppearanceSetting. Diffuse = 0.8d;
+swAppearanceSetting.**Diffuse** = 0.8d;
 
-swAppearanceSetting. Specular = 0.5d;
+swAppearanceSetting.**Specular** = 0.5d;
 
-swAppearanceSetting. SpecularColor = newColor;
+swAppearanceSetting.**SpecularColor** = newColor;
 
-swAppearanceSetting. Luminous = 0.1d;
+swAppearanceSetting.**Luminous** = 0.1d;
 
-swAppearanceSetting. Transparent = 0.0d;
+swAppearanceSetting.**Transparent** = 0.0d;
 
 ```
             newAppearanceSetting[0] = swAppearanceSetting;

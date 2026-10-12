@@ -9,8 +9,7 @@ source: "swutilitiesapi/Analyze_Geometry_VB6.htm"
 
 # Analyze Geometry Example (VBA)
 
-This example shows how to analyze the geometry of a part using the SOLIDWORKS
-Utilities API.
+This example shows how to analyze the geometry of a part using the SOLIDWORKS Utilities API.
 
 ```
 '------------------------------------------------------------------------------

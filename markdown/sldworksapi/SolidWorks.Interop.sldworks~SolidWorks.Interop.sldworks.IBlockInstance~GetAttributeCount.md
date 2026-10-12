@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # GetAttributeCount Method (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::GetAttributeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeCount.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::GetAttributeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetAttributeCount()
 System.int GetAttributeCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::GetAttributeCount](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~GetAttributeCount.html)
-
-.
+See [BlockInstance::GetAttributeCount](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~GetAttributeCount.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCe
 
 Allows access to the centrifugal force object used for structural studies.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWCentriFugalForce
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce.html)
-
-.
+See [CWCentriFugalForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce.html).
 
 ## Examples
 
 [Add Centrifugal Load (VBA)](Add_Centrifugal_Load_Example_VB.htm)
-
 [Add Centrifugal Load (VB.NET)](Add_Centrifugal_Load_Example_VBNET.htm)
-
 [Add Centrifugal Load (C#)](Add_Centrifugal_Load_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

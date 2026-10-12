@@ -103,30 +103,21 @@ void CreatePipeDrawingforPipeRoute(
 - `sheetTemplatePath`: Fully specified path of drawing sheet templates
 - `sheetTemplateName`: Name of drawing sheet template
 - `displayFormat`: True to display the sheet format in the drawing, false to not
-- `dwgTemplates`: SOLIDWORKS drawing sheet template as defined in
-
-[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
+- `dwgTemplates`: SOLIDWORKS drawing sheet template as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
 
 ## VBA Syntax
 
-See
-
-[RouteManager::CreatePipeDrawingforPipeRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~CreatePipeDrawingforPipeRoute.html)
-
-.
+See [RouteManager::CreatePipeDrawingforPipeRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~CreatePipeDrawingforPipeRoute.html).
 
 ## Examples
 
 [Create a Drawing for a Pipe Route Example (VBA)](Create_a_Drawing_for_a_Pipe_Route_Example_VB.htm)
-
 [Create a Drawing for a Pipe Route Example (VB.NET)](Create_a_Drawing_for_a_Pipe_Route_Example_VBNET.htm)
-
 [Create a Drawing for a Pipe Route Example (C#)](Create_a_Drawing_for_a_Pipe_Route_Example_CSharp.htm)
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

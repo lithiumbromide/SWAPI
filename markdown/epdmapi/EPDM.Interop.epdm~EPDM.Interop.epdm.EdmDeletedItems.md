@@ -37,37 +37,15 @@ public value class EdmDeletedItems : public System.ValueType
 struct EdmDeletedItems
 
 {
-
-integer
-
-[mlFileID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlFileID.html)
-
-;
-
-integer
-
-[mlObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlObjectType.html)
-
-;
-
-integer
-
-[mlProjectID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlProjectID.html)
-
-;
-
-string
-
-[moName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~moName.html)
-
-;
-
+integer [mlFileID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlFileID.html);
+integer [mlObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlObjectType.html);
+integer [mlProjectID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~mlProjectID.html);
+string [moName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems~moName.html);
 };
 
 ## See Also
 
 [EdmDeletedItems Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

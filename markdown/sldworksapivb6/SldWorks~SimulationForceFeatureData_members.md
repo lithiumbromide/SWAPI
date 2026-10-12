@@ -1,6 +1,5 @@
 ---
-title: "SimulationForceFeatureData Object
-Members"
+title: "SimulationForceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimulationForceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimulationForceFeatureData_members.html"
 ---
 
-# SimulationForceFeatureData Object
-Members
+# SimulationForceFeatureData Object Members
 
 ## Public Methods
 

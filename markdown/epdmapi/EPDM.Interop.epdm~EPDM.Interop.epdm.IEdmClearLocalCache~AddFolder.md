@@ -47,7 +47,7 @@ void AddFolder(
 
 ## Remarks
 
-After calling this method, you must call[IEdmClearLocalCache::CommitClear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~CommitClear.html)to actually clear the folder from the cache.
+After calling this method, you must call [IEdmClearLocalCache::CommitClear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~CommitClear.html) to actually clear the folder from the cache.
 
 [Return codes](ReturnCodes.htm):
 
@@ -57,7 +57,6 @@ After calling this method, you must call[IEdmClearLocalCache::CommitClear](EPDM.
 ## See Also
 
 [IEdmClearLocalCache Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
 [IEdmClearLocalCache Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members.html)
 
 ## Availability

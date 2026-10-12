@@ -46,16 +46,11 @@ Version
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetVersion](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetVersion.html)
-
-.
+See [SwDMDocument::GetVersion](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetVersion.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## Remarks
@@ -87,15 +82,15 @@ See
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
-See[ISwDMDocument::GetXmlStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html)and[ISwDMConfiguration::GetMassProperties](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetMassProperties.html)for additional version restrictions.
+See [ISwDMDocument::GetXmlStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html) and [ISwDMConfiguration::GetMassProperties](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetMassProperties.html) for additional version restrictions.
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISwDMApplication::GetLatestSupportedFileVersion Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication~GetLatestSupportedFileVersion.html)
 
 ## Availability

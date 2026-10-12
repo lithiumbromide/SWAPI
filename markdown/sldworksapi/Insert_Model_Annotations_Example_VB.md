@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Model_Annotations_Example_VB.htm"
 
 # Insert Model Annotations Example (VBA)
 
-This example shows how to automatically insert a model's dimensions
-marked for drawings into a drawing.
+This example shows how to automatically insert a model's dimensions marked for drawings into a drawing.
 
 ```
 '---------------------------------------------------------------------------

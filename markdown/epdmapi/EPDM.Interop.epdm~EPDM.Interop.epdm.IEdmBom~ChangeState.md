@@ -51,11 +51,7 @@ void ChangeState(
 - `poStateIdOrName`: Name or ID of new workflow state
 - `bsComment`: Comment to append to the history of this BOM
 - `lParentWnd`: Parent window handle; passed to registered add-ins
-- `lEdmStateFlags`: Combination of
-
-[EdmStateFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags.html)
-
-bits
+- `lEdmStateFlags`: Combination of [EdmStateFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags.html) bits
 
 ## Remarks
 
@@ -67,7 +63,6 @@ bits
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [IEdmBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html)
 
 ## Availability

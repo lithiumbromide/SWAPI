@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # RemoveCommandTab Method (ICommandManager)
 
-Removes the specified CommandManager tab, including its tab boxes and buttons,
-
-kadov_tag{{</spaces>}}
-
-from the CommandManager.
+Removes the specified CommandManager tab, including its tab boxes and buttons, from the CommandManager.
 
 ## Syntax
 
@@ -51,46 +47,28 @@ System.bool RemoveCommandTab(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TabToRemove`: [CommandManager tab](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTab.html)
-
-, including its tab boxes and buttons, to remove
+- `TabToRemove`: [CommandManager tab](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTab.html), including its tab boxes and buttons, to remove
 
 ### Return Value
 
-True if the CommandManager tab is removed, false if notParamDesc
+True if the CommandManager tab is removed, false if not
 
 ## VBA Syntax
 
-See
-
-[CommandManager::RemoveCommandTab](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~RemoveCommandTab.html)
-
-.
+See [CommandManager::RemoveCommandTab](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~RemoveCommandTab.html).
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManager::AddCommandTab Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~AddCommandTab.html)
-
 [ICommandManager::CommandTabs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~CommandTabs.html)
-
 [ICommandManager::GetCommandTab Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetCommandTab.html)
-
 [ICommandManager::GetCommandTabCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetCommandTabCount.html)
-
 [ICommandManager::IGetCommandTabs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~IGetCommandTabs.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.Object^ GetParameter(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ Array containing parameterization of the edge
 
 ## VBA Syntax
 
-See
-
-[Edge::GetParameter](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetParameter.html)
-
-.
+See [Edge::GetParameter](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetParameter.html).
 
 ## Remarks
 
@@ -91,7 +81,5 @@ This method returns an array of 2 doubles:
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IGetParameter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetParameter.html)

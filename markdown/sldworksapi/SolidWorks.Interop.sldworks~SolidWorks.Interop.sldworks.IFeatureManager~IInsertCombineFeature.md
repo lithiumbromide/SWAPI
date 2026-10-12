@@ -59,41 +59,25 @@ Feature^ IInsertCombineFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `OperationType`: Operation as defined in[swBodyOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationType_e.html)
-- `MainBody`: | If OperationType is ... | Then set MainBody to ... |
-| --- | --- |
-| swBodyOperationType_e.SWBODYADD | Nothing or null |
-| swBodyOperationType_e.SWBODYCUT | Target body |
-| swBodyOperationType_e.SWBODYINTERSECT | Nothing or null |
+- `OperationType`: Operation as defined in [swBodyOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationType_e.html)
+- `MainBody`:
 
-(See
+  | If OperationType is ... | Then set MainBody to ... |
+  | --- | --- |
+  | swBodyOperationType_e.SWBODYADD | Nothing or null |
+  | swBodyOperationType_e.SWBODYCUT | Target body |
+  | swBodyOperationType_e.SWBODYINTERSECT | Nothing or null |
 
-Remarks
-
-)
+  (See **Remarks**)
 - `ToolsCount`: Number of bodies to combine
-- `ToolsArr`: - in-process, unmanaged C++: Pointer to an array of
+- `ToolsArr`: - in-process, unmanaged C++: Pointer to an array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) to combine of size ToolsCount (see **Remarks**)
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-  to combine of size ToolsCount (see
-
-  Remarks
-
-  )
-- VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -103,11 +87,7 @@ See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.h
 
 You can either call this method, directly passing in the bodies with MainBody and ToolVar, or you can:
 
-1. Select the bodies using
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  as follows:
+1. Select the bodies using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) as follows:
 
   | To select... | Use Mark... |
   | --- | --- |
@@ -120,11 +100,8 @@ See the SOLIDWORKS Help for more information about the combined feature.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertCombineFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCombineFeature.html)
-
 [ICombineBodiesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData.html)
 
 ## Availability

@@ -52,7 +52,6 @@ True if the value of a new key is successfully set, false otherwise
 ## Examples
 
 [Get and Set Dictionary Key-Value Pairs (VB.NET)](Get_and_Set_Key_Value_Pairs_Example_VBNET.htm)
-
 [Get and Set Dictionary Key-Value Pairs (C#)](Get_and_Set_Key_Value_Pairs_Example_CSharp.htm)
 
 ## Remarks
@@ -67,11 +66,8 @@ The testing and the setting are both performed in a single operation. A test-and
 ## See Also
 
 [IEdmDictionary5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html)
-
 [IEdmDictionary5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5_members.html)
-
 [IEdmDictionary5::StringTestAndSetAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~StringTestAndSetAt.html)
-
 [IEdmDictionary5::LongSetAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~LongSetAt.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool UseDefaultBendAllowance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ True uses the default bend allowance, false does not
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseDefaultBendAllowance.html)
-
-.
+See [SketchedBendFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseDefaultBendAllowance.html).
 
 ## Examples
 
-See
-
-[ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html)
-
-examples.
+See [ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html) examples.
 
 ## Examples
 
 [Change Bend Radius of Sketched Bend (VBA)](Change_Bend_Radius_of_Sketched_Bend_Example_VB.htm)
-
 [Set Custom Bend Deduction (VBA)](Set_Custom_Bend_Deduction_Example_VB.htm)
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [ISketchedBendFeatureData::GetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~GetCustomBendAllowance.html)
-
 [ISketchedBendFeatureData::SetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~SetCustomBendAllowance.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.Object^ DirectionReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Linear edge, planar face, axis, or plane indicating the direction of gravity
 
 ## VBA Syntax
 
-See
-
-[SimulationGravityFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~DirectionReference.html)
-
-.
+See [SimulationGravityFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~DirectionReference.html).
 
 ## See Also
 
 [ISimulationGravityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
 [ISimulationGravityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData_members.html)
-
 [ISimulationGravityFeatureData::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData~ReverseDirection.html)
 
 ## Availability

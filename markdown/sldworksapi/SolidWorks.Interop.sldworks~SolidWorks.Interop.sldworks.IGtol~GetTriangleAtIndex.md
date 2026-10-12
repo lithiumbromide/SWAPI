@@ -47,13 +47,7 @@ System.Object^ GetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,40 +55,35 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetTriangleAtIndex.html)
-
-.
+See [Gtol::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType]
+```vb
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
+```
 
 where:
 
-vertexPt1[3]= First XYZ vertex point
+vertexPt1[3] = First XYZ vertex point
 
-vertexPt2[3]= Second XYZ vertex point
+vertexPt2[3] = Second XYZ vertex point
 
-vertexPt3[3]= Third XYZ vertex point
+vertexPt3[3] = Third XYZ vertex point
 
-isFilled= Boolean returned as a double and is True if the triangle is filled, false if not
+isFilled = Boolean returned as a double and is True if the triangle is filled, false if not
 
-lineType= Line type (see[swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html))
+lineType = Line type (see [swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html))
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetTriangleCount.html)
-
 [IGtol::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetTriangleAtIndex.html)

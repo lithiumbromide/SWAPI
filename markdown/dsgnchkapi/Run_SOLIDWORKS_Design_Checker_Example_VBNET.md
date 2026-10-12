@@ -9,8 +9,7 @@ source: "dsgnchkapi/Run_SOLIDWORKS_Design_Checker_Example_VBNET.htm"
 
 # Run SOLIDWORKS Design Checker Example (VB.NET)
 
-This example shows how to check the active document using the SOLIDWORKS
-Design Checker API.
+This example shows how to check the active document using the SOLIDWORKS Design Checker API.
 
 ```vb
  '---------------------------------------------------------------------------

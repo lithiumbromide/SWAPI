@@ -1,6 +1,5 @@
 ---
-title: "RoutingSettings Object
-Members"
+title: "RoutingSettings Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RoutingSettings_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RoutingSettings_members.html"
 ---
 
-# RoutingSettings Object
-Members
+# RoutingSettings Object Members
 
 ## Public Methods
 

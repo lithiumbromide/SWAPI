@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IPackAndGo Interface Members
 
-The following tables list the members exposed by[IPackAndGo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html).
+The following tables list the members exposed by [IPackAndGo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html).
 
 ## Public Properties
 
@@ -49,5 +49,4 @@ The following tables list the members exposed by[IPackAndGo](SolidWorks.Interop.
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

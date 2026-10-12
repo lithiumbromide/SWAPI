@@ -1,6 +1,5 @@
 ---
-title: "RuledSurfaceFeatureData Object
-Members"
+title: "RuledSurfaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RuledSurfaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RuledSurfaceFeatureData_members.html"
 ---
 
-# RuledSurfaceFeatureData Object
-Members
+# RuledSurfaceFeatureData Object Members
 
 ## Public Methods
 

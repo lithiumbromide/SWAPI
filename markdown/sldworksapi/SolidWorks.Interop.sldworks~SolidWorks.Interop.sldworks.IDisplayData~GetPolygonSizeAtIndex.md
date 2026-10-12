@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetPolygonSizeAtIndex Method (IDisplayData)
 
-Gets the number of array elements returned by
-
-[IDisplayData::GetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonAtIndex.html)
-
-and
-
-[IDisplayData::IGetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetPolygonAtIndex.html)
-
-.
+Gets the number of array elements returned by [IDisplayData::GetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonAtIndex.html) and [IDisplayData::IGetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetPolygonAtIndex.html).
 
 ## Syntax
 
@@ -55,13 +47,7 @@ System.int GetPolygonSizeAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,28 +55,16 @@ See
 
 ### Return Value
 
-Number of array elements returned by
-
-[IDisplayData::GetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonAtIndex.html)
-
-and
-
-[IDisplayData::IGetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetPolygonAtIndex.html)
+Number of array elements returned by [IDisplayData::GetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonAtIndex.html) and [IDisplayData::IGetPolygonAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~IGetPolygonAtIndex.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetPolygonSizeAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetPolygonSizeAtIndex.html)
-
-.
+See [DisplayData::GetPolygonSizeAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetPolygonSizeAtIndex.html).
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetPolygonCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolygonCount.html)
 
 ## Availability

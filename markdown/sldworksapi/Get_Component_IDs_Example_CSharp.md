@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_IDs_Example_CSharp.htm"
 
 # Get Component IDs Example (C#)
 
-This example shows how to get the component IDs of the components in an assembly
-and subassemblies.
+This example shows how to get the component IDs of the components in an assembly and subassemblies.
 
 ```
 //--------------------------------------------------------------------------

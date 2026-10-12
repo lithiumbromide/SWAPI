@@ -1,6 +1,5 @@
 ---
-title: "WeldmentCutListFeature Object
-Members"
+title: "WeldmentCutListFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WeldmentCutListFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WeldmentCutListFeature_members.html"
 ---
 
-# WeldmentCutListFeature Object
-Members
+# WeldmentCutListFeature Object Members
 
 ## Public Methods
 

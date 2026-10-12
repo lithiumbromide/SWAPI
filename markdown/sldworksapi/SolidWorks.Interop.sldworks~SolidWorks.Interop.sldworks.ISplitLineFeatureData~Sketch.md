@@ -45,13 +45,7 @@ property Sketch^ Sketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SplitLineFeatureData::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~Sketch.html)
-
-.
+See [SplitLineFeatureData::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~Sketch.html).
 
 ## See Also
 
 [ISplitLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
 [ISplitLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData_members.html)
 
 ## Availability

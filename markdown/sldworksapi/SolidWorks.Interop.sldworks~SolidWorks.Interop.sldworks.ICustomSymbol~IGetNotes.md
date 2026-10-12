@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IGetNotes Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetNotes.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetNotes.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Note^ IGetNotes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::IGetNotes](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetNotes.html)
-
-.
+See [CustomSymbol::IGetNotes](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetNotes.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

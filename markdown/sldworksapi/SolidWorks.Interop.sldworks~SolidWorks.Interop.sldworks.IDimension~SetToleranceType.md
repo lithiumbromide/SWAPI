@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetToleranceType Method (IDimension)
 
-Obsolete. Superseded by
-
-[IDimensionTolerance::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~Type.html)
-
-.
+Obsolete. Superseded by [IDimensionTolerance::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~Type.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetToleranceType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Dimension::SetToleranceType](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetToleranceType.html)
-
-.
+See [Dimension::SetToleranceType](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetToleranceType.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

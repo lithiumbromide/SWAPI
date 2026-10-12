@@ -42,13 +42,7 @@ property System.double Parameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,15 @@ Value in the parameter space of the curve underlying the spline handle
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::Parameter](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Parameter.html)
-
-.
+See [SplineHandle::Parameter](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Parameter.html).
 
 ## Remarks
 
-There is no user-interface equivalent for this property as it is typically only useful for API clientkadov_tag{{<spaces>}}code.
+There is no user-interface equivalent for this property as it is typically only useful for API client code.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
 
 ## Availability

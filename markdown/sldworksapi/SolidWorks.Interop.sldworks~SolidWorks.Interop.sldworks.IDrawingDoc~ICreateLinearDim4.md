@@ -79,17 +79,11 @@ DisplayDimension^ ICreateLinearDim4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `P0`: Pointer to an array of 3 doubles (x,y,z),kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}dimension point
+- `P0`: Pointer to an array of 3 doubles (x,y,z), dimension point
 - `P1`: Pointer to an array of 3 doubles (x,y,z), dimension end
 - `P2`: Pointer to an array of 3 doubles (x,y,z), normal to the plane of sketch
 - `P3`: Pointer to an array of 3 doubles (x,y,z), extension line 1 reference point
@@ -101,15 +95,11 @@ See
 
 ### Return Value
 
-Pointer to[IDisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)object
+Pointer to [IDisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ICreateLinearDim4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ICreateLinearDim4.html)
-
-.
+See [DrawingDoc::ICreateLinearDim4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ICreateLinearDim4.html).
 
 ## Remarks
 
@@ -118,23 +108,14 @@ SOLIDWORKS creates this type of dimension between the two points you specify. It
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::CreateAngDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateAngDim4.html)
-
 [IDrawingDoc::CreateDetailViewAt3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDetailViewAt3.html)
-
 [IDrawingDoc::CreateDiamDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDiamDim4.html)
-
 [IDrawingDoc::CreateLinearDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateLinearDim4.html)
-
 [IDrawingDoc::CreateOrdinateDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateOrdinateDim4.html)
-
 [IDrawingDoc::ICreateAngDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateAngDim4.html)
-
 [IDrawingDoc::ICreateDiamDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateDiamDim4.html)
-
 [IDrawingDoc::ICreateOrdinateDim4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateOrdinateDim4.html)
 
 ## Availability

@@ -51,21 +51,17 @@ Curve^ MakeIsoCurve2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UorV`: True to specify the surface function's v parameter in UvValue, false to specify its u parameter
-- `UvValue`: | If UorV is... | Then UvValue is the surface function's... |
-| --- | --- |
-| True | V parameter |
-| False | U parameter |
+- `UvValue`:
+
+  | If UorV is... | Then UvValue is the surface function's... |
+  | --- | --- |
+  | True | V parameter |
+  | False | U parameter |
 
 ### Return Value
 
@@ -73,18 +69,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Surface::MakeIsoCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~MakeIsoCurve2.html)
-
-.
+See [Surface::MakeIsoCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~MakeIsoCurve2.html).
 
 ## Examples
 
 [Create Trimmed Curve (VBA)](Return_Untrimmed_Curve_Example_VB.htm)
-
 [Create Trimmed Curve (VB.NET)](Return_Untrimmed_Curve_Example_VBNET.htm)
-
 [Create Trimmed Curve (C#)](Return_Untrimmed_Curve_Example_CSharp.htm)
 
 ## Remarks
@@ -94,17 +84,11 @@ This method supersedes the now obsolete ISurface::MakeIsoCurve by normalizing Uv
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::MakeIsoCurves Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~MakeIsoCurves.html)
-
 [ISurface::IMakeIsoCurves Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IMakeIsoCurves.html)
-
 [ISurface::IGetMakeIsoCurvesCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetMakeIsoCurvesCount.html)
-
 [ISurface::IMakeIsoCurve Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IMakeIsoCurve.html)
-
 [ICurve::CreateTrimmedCurve2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~CreateTrimmedCurve2.html)
 
 ## Availability

@@ -62,19 +62,13 @@ void DragModelDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ViewName`: Name of the drawing view to which you want to copy or move the selected model dimension
 - `DropEffect`: - Copy = 1
-- Move = 2
+  - Move = 2
 - `X`: X location in sheet space for the newly copied or moved dimension
 - `Y`: Y location in sheet space for the newly copied or moved dimension
 - `Z`: Z location in sheet space for the newly copied or moved dimension; set to 0
@@ -85,16 +79,10 @@ The ViewName argument cannot be the current view for the dimension.
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::DragModelDimension](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DragModelDimension.html)
-
-.
+See [DrawingDoc::DragModelDimension](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DragModelDimension.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::Dimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~Dimensions.html)

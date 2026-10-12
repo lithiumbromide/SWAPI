@@ -52,26 +52,16 @@ void RemoveEntityAt(
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::RemoveEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~RemoveEntityAt.html)
-
-.
+See [CWElasticConnector::RemoveEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~RemoveEntityAt.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWElasticConnector::GetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWElasticConnector~GetEntityCount.html)
-
-to determine the value of NIndex.
+Before calling this method, call [ICWElasticConnector::GetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWElasticConnector~GetEntityCount.html) to determine the value of NIndex.
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
-
 [ICWElasticConnector::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~InsertEntity.html)
 
 ## Availability

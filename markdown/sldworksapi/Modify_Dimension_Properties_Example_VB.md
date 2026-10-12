@@ -9,8 +9,7 @@ source: "sldworksapi/Modify_Dimension_Properties_Example_VB.htm"
 
 # Modify Dimension Properties Example (VBA)
 
-This example shows how to modify the properties of a selected display dimension
-in a drawing.
+This example shows how to modify the properties of a selected display dimension in a drawing.
 
 ```
 '------------------------------------------------------

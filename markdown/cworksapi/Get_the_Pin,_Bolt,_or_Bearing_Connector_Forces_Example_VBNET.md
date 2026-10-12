@@ -9,10 +9,7 @@ source: "cworksapi/Get_the_Pin,_Bolt,_or_Bearing_Connector_Forces_Example_VBNET.
 
 # Get Connector Forces, Moments, and Torques Example (VB.NET)
 
-This example shows how to get the shear forces, axial forces, bending
-moments, and torques for
-a selected
-connector.
+This example shows how to get the shear forces, axial forces, bending moments, and torques for a selected connector.
 
 ```vb
  '---------------------------------------------------------------------------

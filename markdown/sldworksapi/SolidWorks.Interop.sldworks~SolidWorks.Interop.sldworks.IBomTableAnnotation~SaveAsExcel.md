@@ -55,21 +55,11 @@ System.bool SaveAsExcel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and file name of the Microsoft Excel file to save to (
-
-*.xls
-
-)
+- `FileName`: Full path and file name of the Microsoft Excel file to save to (***.xls**)
 - `IncludeHidden`: True to include text in hidden cells, false to not
 - `IncludeFileImages`: True to include file images, false to not
 
@@ -79,11 +69,7 @@ True if the table is saved as a Microsoft Excel file, false if not
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::SaveAsExcel](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~SaveAsExcel.html)
-
-.
+See [BomTableAnnotation::SaveAsExcel](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~SaveAsExcel.html).
 
 ## Examples
 
@@ -92,7 +78,6 @@ See
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
 
 ## Availability

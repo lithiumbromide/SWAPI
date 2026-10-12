@@ -59,36 +59,22 @@ ModelDoc2^ INewDocument2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TemplateName`: Name of the template to use for creating the new document
-- `PaperSize`: Size of paper as defined in[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `PaperSize`: Size of paper as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Width`: Width of paper; used only when PaperSize is swDwgPapersUserDefined
 - `Height`: Height of paper; used only when PaperSize is swDwgPapersUserDefined
 
 ### Return Value
 
-Newly created
-
-[document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-or NULL if the operation fails
+Newly created [document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SldWorks::INewDocument2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~INewDocument2.html)
-
-.
+See [SldWorks::INewDocument2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~INewDocument2.html).
 
 ## Examples
 
@@ -96,7 +82,7 @@ See
 
 ## Remarks
 
-To get the default template filename, use[ISldWorks::GetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html):
+To get the default template filename, use [ISldWorks::GetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html):
 
 - for parts: swDefaultTemplatePart
 - for assemblies: swDefaultTemplateAssembly
@@ -105,11 +91,8 @@ To get the default template filename, use[ISldWorks::GetUserPreferenceStringValu
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetDocumentTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentTemplate.html)
-
 [ISldWorks::NewDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~NewDocument.html)
 
 ## Availability

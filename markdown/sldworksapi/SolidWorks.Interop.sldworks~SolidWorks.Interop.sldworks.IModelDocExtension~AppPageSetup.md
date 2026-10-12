@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AppPageSetup Property (IModelDocExtension)
 
-Gets the SOLIDWORKS application page setup interface for this document.
+Gets the SOLIDWORKS Design application page setup interface for this document.
 
 ## Syntax
 
@@ -42,41 +42,25 @@ property PageSetup^ AppPageSetup {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Page setup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup.html)
-
-object for SOLIDWORKS
+[Page setup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup.html) object for SOLIDWORKS Design
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AppPageSetup](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~AppPageSetup.html)
-
-.
+See [ModelDocExtension::AppPageSetup](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~AppPageSetup.html).
 
 ## Examples
 
 [Get Whether Draft Edges Scaled in Printed Drawing (C#)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_CSharp.htm)
-
 [Get Whether Draft Edges Scaled in Printed Drawing (VB.NET)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_VBNET.htm)
-
 [Get Whether Draft Edges Scaled in Printed Drawing (VBA)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_VB.htm)
 
 ## Remarks
 
 The page setup object used when printing depends on a document setting, which indicates whether to use the application page setup, the page setup for this document.
-
-(Table)=========================================================
 
 | To... | Use... |
 | --- | --- |
@@ -91,7 +75,6 @@ This property is read only.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

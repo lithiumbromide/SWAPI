@@ -45,13 +45,7 @@ property System.double Value {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Value in number box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::Value](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Value.html)
-
-.
+See [PropertyManagerPageNumberbox::Value](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Value.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
-
 [IPropertyManagerPageNumberbox::DisplayedUnit Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox~DisplayedUnit.html)
 
 ## Availability

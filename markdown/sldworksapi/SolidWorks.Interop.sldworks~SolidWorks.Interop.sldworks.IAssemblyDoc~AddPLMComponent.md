@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # AddPLMComponent Method (IAssemblyDoc)
 
-Adds the specified component from a 3DEXPERIENCE collaborative space to the specified location in this assembly in
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-.
+Adds the specified component from a 3DEXPERIENCE collaborative space to the specified location in this assembly in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.Object^ AddPLMComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,18 +79,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddPLMComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddPLMComponent.html)
-
-.
+See [AssemblyDoc::AddPLMComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddPLMComponent.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ReplacePLMComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplacePLMComponents.html)
 
 ## Availability

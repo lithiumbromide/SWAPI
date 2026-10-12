@@ -45,13 +45,7 @@ property System.bool IsAdvancedMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if a limit angle mate, false if a standard angle mate
 
 ## VBA Syntax
 
-See
-
-[AngleMateFeatureData::IsAdvancedMate](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~IsAdvancedMate.html)
-
-.
+See [AngleMateFeatureData::IsAdvancedMate](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~IsAdvancedMate.html).
 
 ## See Also
 
 [IAngleMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
 [IAngleMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData_members.html)
 
 ## Availability

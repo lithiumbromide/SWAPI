@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Lofted_Bend_Feature_Example_CSharp.htm"
 
 # Insert Lofted Bend Feature Example (C#)
 
-This example shows how to insert a lofted bend feature in a sheet metal part
-and get the lofted bend feature data.
+This example shows how to insert a lofted bend feature in a sheet metal part and get the lofted bend feature data.
 
 ```
 //----------------------------------------------------------------------------

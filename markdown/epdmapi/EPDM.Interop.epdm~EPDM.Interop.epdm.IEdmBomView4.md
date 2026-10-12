@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4.html"
 
 Allows you to access a Bill of Materials (BOM) view.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,7 +36,7 @@ public interface class IEdmBomView4 : public IEdmBomView, IEdmBomView2, IEdmBomV
 
 ## Remarks
 
-This interface extends[IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html)by adding the ability to rename a named BOM.
+This interface extends [IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html) by adding the ability to rename a named BOM.
 
 ## Accessors
 
@@ -53,5 +47,4 @@ This interface extends[IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom
 ## See Also
 
 [IEdmBomView4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

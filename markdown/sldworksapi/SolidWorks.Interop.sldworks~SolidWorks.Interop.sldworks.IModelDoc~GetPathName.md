@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetPathName Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetPathName.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetPathName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetPathName()
 System.String^ GetPathName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetPathName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetPathName.html)
-
-.
+See [ModelDoc::GetPathName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetPathName.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

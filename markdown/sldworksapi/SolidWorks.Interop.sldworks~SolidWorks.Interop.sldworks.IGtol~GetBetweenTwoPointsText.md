@@ -47,13 +47,7 @@ System.String^ GetBetweenTwoPointsText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,19 @@ Symbol text
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetBetweenTwoPointsText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetBetweenTwoPointsText.html)
-
-.
+See [Gtol::GetBetweenTwoPointsText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetBetweenTwoPointsText.html).
 
 ## Remarks
 
-This method returns the requested text whether the between two points symbol is currently enabled. Use[IGtol::GetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPoints.html)to determine if this symbol is enabled.
+This method returns the requested text whether the between two points symbol is currently enabled. Use [IGtol::GetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPoints.html) to determine if this symbol is enabled.
 
-Use[IGtol::SetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetBetweenTwoPoints.html)to enable this symbol and its texts.
+Use [IGtol::SetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetBetweenTwoPoints.html) to enable this symbol and its texts.
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetBetweenTwoPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetBetweenTwoPoints.html)
-
 [IGtol::GetBetweenTwoPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetBetweenTwoPoints.html)
 
 ## Availability

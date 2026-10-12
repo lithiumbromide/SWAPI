@@ -9,26 +9,20 @@ source: "epdmapi/Notify_User_When_File_Changes_State_Example_VBNET.htm"
 
 # Notify User When File Changes State Example (VB.NET)
 
-This example shows how to create an add-in that pops up a message box when a file is
-approved.
+This example shows how to create an add-in that pops up a message box when a file is approved.
 
 ```vb
 '--------------------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Start Microsoft Visual Studio.
- ' 2. Click File > New > Project > Visual Basic > Class Library (.NET Framework).
+ ' 2. Click File > New > Project > Visual Basic, Windows, Library > Class Library (.NET Framework).
  ' 3. Select .NET Framework 4.5 in the dropdown.
  ' 4. Type StateChangeNotificationAddin in Name.
- ' 5. Click Browse and navigate to the folder where to create the project.
- ' 6. Click OK.
- ' 7. Right-click the project name in the Solution Explorer and click Add Reference.
- ' 8. In the Add Reference dialog:
- '    a. Add PDM Professional interop assembly as a reference (click Browse in the
-  '       left-side panel, select EPDM.Interop.epdm.dll,
- '       and click OK).
- '    b. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
- '       left-side panel, select System.Windows.Forms, and click OK).
- '    c. Click Close.
+ ' 5.     For Location, click ... and navigate to the folder where to create the project.
+ ' 6. Click Create.
+ ' 7. Add dependencies and safely pass arrays of structures.
+ ' 8. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
+ '    left-side panel, select System.Windows.Forms, and click OK).
   ' 9. Right-click the project name in the Solution Explorer and click Properties.
  '10. In the Properties window:
  '    a. On the Application tab, click Assembly Information.
@@ -98,7 +92,7 @@ approved.
          End Try
      End Sub
 
-     Public Sub OnCmd(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData[]) Implements IEdmAddIn5.OnCmd
+     Public Sub OnCmd(ByRef poCmd As EdmCmd, ByRef ppoData As EdmCmdData()) Implements IEdmAddIn5.OnCmd
 
          Try
              Dim AffectedFile As EdmCmdData

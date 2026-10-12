@@ -40,13 +40,7 @@ TreeControlItem GetPrevious()
 TreeControlItem^ GetPrevious();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::GetPrevious](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetPrevious.html)
-
-.
+See [TreeControlItem::GetPrevious](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetPrevious.html).
 
 ## Remarks
 
-Use[ITreeControlItem::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetNext.html)to get the next sibling of this item in the FeatureManager design tree.
+Use [ITreeControlItem::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetNext.html) to get the next sibling of this item in the FeatureManager design tree.
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
 
 ## Availability

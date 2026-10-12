@@ -1,6 +1,5 @@
 ---
-title: "EdgeFlangeFeatureData Object
-Members"
+title: "EdgeFlangeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EdgeFlangeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EdgeFlangeFeatureData_members.html"
 ---
 
-# EdgeFlangeFeatureData Object
-Members
+# EdgeFlangeFeatureData Object Members
 
 ## Public Methods
 

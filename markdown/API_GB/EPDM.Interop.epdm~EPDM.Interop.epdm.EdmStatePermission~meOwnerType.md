@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~meOwnerTy
 
 # meOwnerType Field
 
-Type of
-
-[mlOwnerID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlOwnerID.html)
-
-.
+Type of [mlOwnerID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlOwnerID.html).
 
 ## Syntax
 
@@ -38,16 +34,9 @@ EdmObjectType meOwnerType
 
 ### Field Value
 
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
-
-.EdmObject_User or
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
-
-.EdmObject_UserGroup
+[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html).EdmObject_User or [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html).EdmObject_UserGroup
 
 ## See Also
 
 [EdmStatePermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html)
-
 [EdmStatePermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.html)

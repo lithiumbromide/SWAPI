@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEq
 
 # Add Method (IEquationMgr)
 
-Obsolete. Superseded by
-
-[IEquationMgr::Add2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~Add2.html)
-
-.
+Obsolete. Superseded by [IEquationMgr::Add2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~Add2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.int Add(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,15 +64,11 @@ Index of the equation; -1 if there was an error
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::Add](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Add.html)
-
-.
+See [EquationMgr::Add](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Add.html).
 
 ## Remarks
 
-The string specified for the equation argument must be formatted as if entered in the SOLIDWORKS user interface (that is, you must embed the names of the dimensions in double quotes). For example:
+The string specified for the equation argument must be formatted as if entered in the SOLIDWORKS Design user interface (that is, you must embed the names of the dimensions in double quotes). For example:
 
 "N_SPOKES@CirPattern1" = "BARLENGTH@Sketch2" /10
 
@@ -93,15 +79,10 @@ You can also use the Visual Basic IIf function when specifying a model dimension
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Delete Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Delete.html)
-
 [IEquationMgr::GetCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Equation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
-
 [IEquationMgr::Status Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Status.html)
 
 ## Availability

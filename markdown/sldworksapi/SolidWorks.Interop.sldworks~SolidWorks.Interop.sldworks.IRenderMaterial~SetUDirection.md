@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # SetUDirection Method (IRenderMaterial)
 
-Obsolete. Superseded by
-
-[IRenderMaterial::SetUDirection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetUDirection2.html)
-
-.
+Obsolete. Superseded by [IRenderMaterial::SetUDirection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetUDirection2.html).
 
 ## Syntax
 
@@ -50,40 +46,27 @@ void SetUDirection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UDir`: Array of doubles representing the U direction for the texture-based appearance (see**Remarks**)
+- `UDir`: Array of doubles representing the U direction for the texture-based appearance (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SetUDirection](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetUDirection.html)
-
-.
+See [RenderMaterial::SetUDirection](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetUDirection.html).
 
 ## Remarks
 
 To specify the U direction in the X direction, set UDir to {1, 0, 0}.
 
-Call[IRenderMaterial::SetVDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetVDirection.html)to set the V direction of the appearance.
+Call [IRenderMaterial::SetVDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetVDirection.html) to set the V direction of the appearance.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::GetUDirection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetUDirection.html)
-
 [IRenderMaterial::GetVDirection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetVDirection.html)
 
 ## Availability

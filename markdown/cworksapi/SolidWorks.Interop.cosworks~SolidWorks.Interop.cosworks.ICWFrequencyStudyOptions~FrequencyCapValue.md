@@ -51,34 +51,21 @@ Frequency cap value in Hertz
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::FrequencyCapValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FrequencyCapValue.html)
-
-.
+See [CWFrequencyStudyOptions::FrequencyCapValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FrequencyCapValue.html).
 
 ## Remarks
 
 This property is valid only when:
 
-- [ICWFrequencyStudyOptions::CheckDecouple](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckDecouple.html)
-
-  is set to true,
+- [ICWFrequencyStudyOptions::CheckDecouple](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckDecouple.html) is set to true,
 
 - and -
 
-- [ICWFrequencyStudyOptions::FrequencyCapOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FrequencyCapOption.html)
-
-  is set to
-
-  [swsFrequencyCapOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyCapOption_e.html)
-
-  .swsFrequencyCapUserDefined.
+- [ICWFrequencyStudyOptions::FrequencyCapOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FrequencyCapOption.html) is set to [swsFrequencyCapOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyCapOption_e.html).swsFrequencyCapUserDefined.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

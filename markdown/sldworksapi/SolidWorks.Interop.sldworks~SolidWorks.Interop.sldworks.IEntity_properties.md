@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEntity Interface Properties
 
-For a list of all members of this type, see[IEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity_members.html).
+For a list of all members of this type, see [IEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEntity members](SolidWorks.Interop.
 ## See Also
 
 [IEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

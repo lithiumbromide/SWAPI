@@ -39,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnCameraChangeFinishedEventHandle
 
 ## VBA Syntax
 
-See
-
-[OnCameraChangeFinished Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnCameraChangeFinished_EV.html)
-
-.
+See [OnCameraChangeFinished Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnCameraChangeFinished_EV.html).
 
 ## Availability
 

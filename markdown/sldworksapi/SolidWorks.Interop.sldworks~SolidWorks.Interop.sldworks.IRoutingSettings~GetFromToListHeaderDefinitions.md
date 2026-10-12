@@ -91,13 +91,7 @@ System.bool GetFromToListHeaderDefinitions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -120,26 +114,16 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::GetFromToListHeaderDefinitions](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetFromToListHeaderDefinitions.html)
-
-.
+See [RoutingSettings::GetFromToListHeaderDefinitions](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetFromToListHeaderDefinitions.html).
 
 ## Examples
 
-See the
-
-[IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
-examples.
+See the [IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html) examples.
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::SetFromToListHeaderDefinitions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~SetFromToListHeaderDefinitions.html)
 
 ## Availability

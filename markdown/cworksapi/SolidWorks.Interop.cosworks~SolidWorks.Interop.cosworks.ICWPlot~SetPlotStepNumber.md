@@ -53,24 +53,16 @@ System.int SetPlotStepNumber(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::SetPlotStepNumber](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetPlotStepNumber.html)
-
-.
+See [CWPlot::SetPlotStepNumber](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetPlotStepNumber.html).
 
 ## Examples
 
 [Create Nonlinear Dynamic Plots (VBA)](Create_Nonlinear_Dynamic_Plots_Example_VB.htm)
-
 [Create Nonlinear Dynamic Plots (VB.NET)](Create_Nonlinear_Dynamic_Plots_Example_VBNET.htm)
-
 [Create Nonlinear Dynamic Plots (C#)](Create_Nonlinear_Dynamic_Plots_Example_CSharp.htm)
 
 ## Remarks
@@ -87,7 +79,6 @@ This method is valid only for the following plots:
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

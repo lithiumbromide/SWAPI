@@ -9,8 +9,7 @@ source: "sldworksapi/Run_SolidWorks_Commands_and_Synthesize_Mouse_Events_Example
 
 # Run SOLIDWORKS Commands and Synthesize Mouse Events Example (VB.NET)
 
-This example shows how to run SOLIDWORKS commands and synthesize mouse
-events.
+This example shows how to run SOLIDWORKS commands and synthesize mouse events.
 
 ```
 '-----------------------------------------------------------

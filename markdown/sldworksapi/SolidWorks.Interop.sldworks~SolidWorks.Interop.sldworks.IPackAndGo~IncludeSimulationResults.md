@@ -45,13 +45,7 @@ property System.bool IncludeSimulationResults {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True if the model's SOLIDWORKS Simulation results are added to Pack and Go, fals
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::IncludeSimulationResults](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeSimulationResults.html)
-
-.
+See [PackAndGo::IncludeSimulationResults](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeSimulationResults.html).
 
 ## Examples
 
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
 
 ## Availability

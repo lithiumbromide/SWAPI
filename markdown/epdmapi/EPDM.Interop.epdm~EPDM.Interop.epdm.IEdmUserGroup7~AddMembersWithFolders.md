@@ -39,16 +39,11 @@ void AddMembersWithFolders(
 
 ### Parameters
 
-- `poMemberFolders`: Array of
-
-[EdmMemberFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder.html)
-
-structures; one structure for each member folder to add to this user group
+- `poMemberFolders`: Array of [EdmMemberFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder.html) structures; one structure for each member folder to add to this user group
 
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
@@ -60,7 +55,6 @@ structures; one structure for each member folder to add to this user group
 ## See Also
 
 [IEdmUserGroup7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup7.html)
-
 [IEdmUserGroup7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup7_members.html)
 
 ## Availability

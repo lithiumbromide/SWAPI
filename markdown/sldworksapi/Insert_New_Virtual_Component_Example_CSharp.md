@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_New_Virtual_Component_Example_CSharp.htm"
 
 # Insert New Virtual Component Example (C#)
 
-This example shows how to insert a new part as a virtual component in
-an assembly and save it to an external file.
+This example shows how to insert a new part as a virtual component in an assembly and save it to an external file.
 
 ```
 //---------------------------------------------------------------------

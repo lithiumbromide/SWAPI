@@ -33,13 +33,11 @@ IEdmPos5^ GetFirstRevisionPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first revision set on this file
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first revision set on this file
 
 ## Remarks
 
-After calling this method, pass the returned first revision position to[IEdmEnumeratorVersion5::GetNextRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetNextRevision.html)to get the first revision. Then call IEdmEnumeratorVersion5::GetNextRevision repeatedly to get the rest of the revisions set on this file.
+After calling this method, pass the returned first revision position to [IEdmEnumeratorVersion5::GetNextRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetNextRevision.html) to get the first revision. Then call IEdmEnumeratorVersion5::GetNextRevision repeatedly to get the rest of the revisions set on this file.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -51,7 +49,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [IEdmEnumeratorVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html)
 
 ## Availability

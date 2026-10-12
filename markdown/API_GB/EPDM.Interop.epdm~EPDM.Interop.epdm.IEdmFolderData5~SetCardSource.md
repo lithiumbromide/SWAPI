@@ -47,11 +47,7 @@ void SetCardSource(
 
 ## Examples
 
-See the
-
-[IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
-examples.
+See the [IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html) examples.
 
 ## Remarks
 
@@ -63,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmFolderData5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
 [IEdmFolderData5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_members.html)
 
 ## Availability

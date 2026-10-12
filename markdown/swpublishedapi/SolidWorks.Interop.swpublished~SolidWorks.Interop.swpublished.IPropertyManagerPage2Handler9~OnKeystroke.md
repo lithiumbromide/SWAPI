@@ -63,37 +63,19 @@ System.bool OnKeystroke(
 
 - `Wparam`: wparam argument from Windows processing; indicates the keystroke that occurred
 
-NOTE:
-
-From the standard set of virtual keys from Windows. Refer to the Virtual Key Code information from Microsoft documentation; for example, the Alt key is VK_MENU.
+  NOTE: From the standard set of virtual keys from Windows. Refer to the Virtual Key Code information from Microsoft documentation; for example, the Alt key is VK_MENU.
 - `Message`: Message being processed by Windows; one of these values:
 
-- WM_KEYDOWN 256 or 0x100
-- WM_KEYUP 257 or 0x101
-- WM_CHAR 258 or 0x102
-- WM_DEADCHAR 259 or 0x103
-- WM_SYSKEYDOWN 260 or 0x104
-- WM_SYSKEYUP 261 or 0x105
-- WM_SYSCHAR 262 or 0x106
-- WM_SYSDEADCHAR 263 or 0x107
+  - WM_KEYDOWN 256 or 0x100
+  - WM_KEYUP 257 or 0x101
+  - WM_CHAR 258 or 0x102
+  - WM_DEADCHAR 259 or 0x103
+  - WM_SYSKEYDOWN 260 or 0x104
+  - WM_SYSKEYUP 261 or 0x105
+  - WM_SYSCHAR 262 or 0x106
+  - WM_SYSDEADCHAR 263 or 0x107
 - `Lparam`: lparam argument from Windows processing; bitmask containing various pieces of information; dependent on specific message
-- `Id`: ID of the control that has focus when the keystroke was made; this is the ID specified when the control was created in
-
-[IPropertyManagerPage2::AddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)
-
-or
-
-[IPropertyManagerPage2::IAddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
-
-or
-
-[IPropertyManagerPage2::AddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html)
-
-or
-
-[IPropertyManagerPage2::IAddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html)
-
-.
+- `Id`: ID of the control that has focus when the keystroke was made; this is the ID specified when the control was created in [IPropertyManagerPage2::AddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) or [IPropertyManagerPage2::IAddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html) or [IPropertyManagerPage2::AddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html) or [IPropertyManagerPage2::IAddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html).
 
 ### Return Value
 
@@ -101,24 +83,15 @@ True indicates that the keystroke has been handled by the add-in and SOLIDWORKS 
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler9::OnKeystroke](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnKeystroke.html)
-
-.
+See [PropertyManagerPage2Handler9::OnKeystroke](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnKeystroke.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
-examples.
+See the [IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html) examples.
 
 ## See Also
 
 [IPropertyManagerPage2Handler9 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
 [IPropertyManagerPage2Handler9 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9_members.html)
 
 ## Availability

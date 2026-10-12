@@ -9,73 +9,33 @@ source: "obsoleteapi/SimpleHoleFeatureData/SimpleHoleFeatureData__DraftOutward.h
 
 # SimpleHoleFeatureData::DraftOutward
 
-This
-property is obsolete and has been superseded by SimpleHoleFeatureData2::DraftOutward .
+This property is obsolete and has been superseded by [SimpleHoleFeatureData2::DraftOutward](sldworksAPI.chm::/SimpleHoleFeatureData2/SimpleHoleFeatureData2__DraftOutward.htm).
 
 Description
 
-This property gets or sets whether to draft
-the simple hole feature outward.
+This property gets or sets whether to draft the simple hole feature outward.
 
 Syntax (OLE Automation)
 
-draftOutward= SimpleHoleFeatureData.DraftOutward (VB
-Get property)
+draftOutward = SimpleHoleFeatureData.DraftOutward (VB Get property)
 
-SimpleHoleFeatureData.DraftOutward =draftOutward(VB Set property)
+SimpleHoleFeatureData.DraftOutward = draftOutward (VB Set property)
 
-draftOutward= SimpleHoleFeatureData.GetDraftOutward ( ) (C++
-Get property)
+draftOutward = SimpleHoleFeatureData.GetDraftOutward ( ) (C++ Get property)
 
-SimpleHoleFeatureData.SetDraftOutward (draftOutward) (C++ Set property)
+SimpleHoleFeatureData.SetDraftOutward ( draftOutward ) (C++ Set property)
 
-(Table)=========================================================
-
-| Property: | (BOOL) draftOutward | TRUE if to draft the simple hole feature outward,
-FALSE if not |
+| Property: | (BOOL) draftOutward | TRUE if to draft the simple hole feature outward, FALSE if not |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = SimpleHoleFeatureData ->get_DraftOutward
-( &draftOutward)
+status = SimpleHoleFeatureData ->get_DraftOutward ( &draftOutward )
 
-status = SimpleHoleFeatureData ->put_DraftOutward
-(draftOutward)
+status = SimpleHoleFeatureData ->put_DraftOutward ( draftOutward )
 
-(Table)=========================================================
-
-| Property: | ( VARIANT_BOOL ) draftOutward | TRUE if to draft the simple hole feature outward,
-FALSE if not |
+| Property: | ( VARIANT_BOOL ) draftOutward | TRUE if to draft the simple hole feature outward, FALSE if not |
 | --- | --- | --- |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZFeatureDefinition$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\sw2004\obsoleteapi\SimpleHoleFeatureData\SimpleHoleFeatureData__DraftOutward.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

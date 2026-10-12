@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 Allows access to reference axis definitions.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,22 +41,14 @@ public interface class IRefAxis
 
 ## VBA Syntax
 
-See
-
-[RefAxis](ms-its:sldworksapivb6.chm::/sldworks~RefAxis.html)
-
-.
+See [RefAxis](ms-its:sldworksapivb6.chm::/sldworks~RefAxis.html).
 
 ## Examples
 
 [Get Info on Plane-Axis (C++)](Get_Info_on_Plane_Axis_Example_CPlusPlus_COM.htm)
-
 [Get Parameters of Reference Axis (VBA)](Get_Parameters_for_Reference_Axis_Example_VB.htm)
-
 [Get Reference Axis Data (VBA)](Get_Reference_Axis_Data_Example_VB.htm)
-
 [Get Reference Axis Data (VB.NET)](Get_Reference_Axis_Data_Example_VBNET.htm)
-
 [Get Reference Axis Data (C#)](Get_Reference_Axis_Data_Example_CSharp.htm)
 
 ## Accessors
@@ -142,7 +134,5 @@ See
 ## See Also
 
 [IRefAxis Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IRefAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData.html)

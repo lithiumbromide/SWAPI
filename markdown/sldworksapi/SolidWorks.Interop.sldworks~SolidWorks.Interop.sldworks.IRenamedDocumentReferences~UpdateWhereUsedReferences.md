@@ -45,13 +45,7 @@ property System.bool UpdateWhereUsedReferences {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to update the references to the new file name, false to continue to referen
 
 ## VBA Syntax
 
-See
-
-[RenamedDocumentReferences::UpdateWhereUsedReferences](ms-its:sldworksapivb6.chm::/Sldworks~RenamedDocumentReferences~UpdateWhereUsedReferences.html)
-
-.
+See [RenamedDocumentReferences::UpdateWhereUsedReferences](ms-its:sldworksapivb6.chm::/Sldworks~RenamedDocumentReferences~UpdateWhereUsedReferences.html).
 
 ## Examples
 
 [Rename Component and Update References (C#)](Rename_Component_and_Update_References_Example_CSharp.htm)
-
 [Rename Component and Update References (VB.NET)](Rename_Component_and_Update_References_Example_VBNET.htm)
-
 [Rename Component and Update References (VBA)](Rename_Component_and_Update_References_Example_VB.htm)
 
 ## See Also
 
 [IRenamedDocumentReferences Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
-
 [IRenamedDocumentReferences Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences_members.html)
 
 ## Availability

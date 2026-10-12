@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 Allows access to and control of the formatting of text used in annotations.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,31 +41,24 @@ public interface class ITextFormat
 
 ## VBA Syntax
 
-See
-
-[TextFormat](ms-its:sldworksapivb6.chm::/sldworks~TextFormat.html)
-
-.
+See [TextFormat](ms-its:sldworksapivb6.chm::/sldworks~TextFormat.html).
 
 ## Examples
 
 [Get All Elements of Sketch (VBA)](Get_All_Elements_of_Sketch_Example_VB.htm)
-
 [Get Arrow in Projected View (C#)](Get_Arrow_in_Projected_View_Example_CSharp.htm)
-
 [Get Arrow in Projected View (VB.NET)](Get_Arrow_in_Projected_View_Example_VBNET.htm)
-
 [Get Arrow in Projected View (VBA)](Get_Arrow_in_Projected_View_Example_VB.htm)
 
 ## Accessors
 
-[IAnnotation::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetTextFormat.html)and[IAnnotation::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetTextFormat.html)
+[IAnnotation::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetTextFormat.html) and [IAnnotation::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetTextFormat.html)
 
 [ICallout::TextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~TextFormat.html)
 
 [IDetailCircle::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetTextFormat.html)
 
-[IDrSection::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~GetTextFormat.html)and[IDrSection::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~IGetTextFormat.html)
+[IDrSection::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~GetTextFormat.html) and [IDrSection::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~IGetTextFormat.html)
 
 [IModelDocExtension::GetUserPreferenceTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceTextFormat.html)
 
@@ -75,9 +68,9 @@ See
 
 [IParagraphs::GetTextSegmentFormat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~GetTextSegmentFormat.html)
 
-[IProjectionArrow::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~GetTextFormat.html)and[IProjectionArrow::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~IGetTextFormat.html)
+[IProjectionArrow::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~GetTextFormat.html) and [IProjectionArrow::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionArrow~IGetTextFormat.html)
 
-[ISketchText::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~GetTextFormat.html)and[ISketchText::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~IGetTextFormat.html)
+[ISketchText::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~GetTextFormat.html) and [ISketchText::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~IGetTextFormat.html)
 
 [ITableAnnotation::GetCellTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetTextFormat.html)
 
@@ -90,5 +83,4 @@ See
 ## See Also
 
 [ITextFormat Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

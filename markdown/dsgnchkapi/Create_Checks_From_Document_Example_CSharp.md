@@ -9,9 +9,7 @@ source: "dsgnchkapi/Create_Checks_From_Document_Example_CSharp.htm"
 
 # Create Checks from Document Example (C#)
 
-This example shows how to build Design Checker
-checks
-from existing SOLIDWORKS documents, templates, and drafting standards.
+This example shows how to build Design Checker checks from existing SOLIDWORKS documents, templates, and drafting standards.
 
 ```vb
  //---------------------------------------------------------------------------

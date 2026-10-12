@@ -45,54 +45,29 @@ property System.int ShapeIntensity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Shape intensity of the jagged outline; valid range is 1 (most) to 5 (least) (see
-
-Remarks
-
-)
+Shape intensity of the jagged outline; valid range is 1 (most) to 5 (least) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::ShapeIntensity](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~ShapeIntensity.html)
-
-.
+See [DetailCircle::ShapeIntensity](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~ShapeIntensity.html).
 
 ## Examples
 
 [Create Detail Circle and Detail View (C#)](Create_Detail_Circle_and_Detail_View_Example_CSharp.htm)
-
 [Create Detail Circle and Detail View (VB.NET)](Create_Detail_Circle_and_Detail_View_Example_VBNET.htm)
-
 [Create Detail Circle and Detail View (VBA)](Create_Detail_Circle_and_Detail_View_Example_VB.htm)
 
 ## Remarks
 
-This property is only available when
-
-[IDetailCircle::JaggedOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~JaggedOutline.html)
-
-is true and
-
-[IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html)
-
-is false.
+This property is only available when [IDetailCircle::JaggedOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~JaggedOutline.html) is true and [IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html) is false.
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

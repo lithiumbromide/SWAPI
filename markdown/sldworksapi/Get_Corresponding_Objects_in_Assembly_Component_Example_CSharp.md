@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Corresponding_Objects_in_Assembly_Component_Example_CSh
 
 # Get Corresponding Objects in Assembly Component Example (C#)
 
-This example shows how to get the corresponding sketch contour, sketch
-segments, and annotation for a component in the context of the assembly.
+This example shows how to get the corresponding sketch contour, sketch segments, and annotation for a component in the context of the assembly.
 
 ```
 //------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # SetAttributeValue Method (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISKetchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html)
-
-.
+Obsolete. Superseded by [ISKetchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool SetAttributeValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::SetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~SetAttributeValue.html)
-
-.
+See [BlockInstance::SetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~SetAttributeValue.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

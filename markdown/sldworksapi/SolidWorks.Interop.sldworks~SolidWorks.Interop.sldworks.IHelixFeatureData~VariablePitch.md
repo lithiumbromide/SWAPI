@@ -45,13 +45,7 @@ property System.bool VariablePitch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True if this helix feature has a variable pitch, false if this helix feature has
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::VariablePitch](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~VariablePitch.html)
-
-.
+See [HelixFeatureData::VariablePitch](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~VariablePitch.html).
 
 ## Examples
 
 [Create and Modify Variable-pitch Helix (C#)](Create_and_Modify_Variable-pitch_Helix_Example_CSharp.htm)
-
 [Create and Modify Variable-pitch Helix (VB.NET)](Create_and_Modify_Variable-pitch_Helix_Example_VBNET.htm)
-
 [Create and Modify Variable-pitch Helix (VBA)](Create_and_Modify_Variable-pitch_Helix_Example_VB.htm)
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

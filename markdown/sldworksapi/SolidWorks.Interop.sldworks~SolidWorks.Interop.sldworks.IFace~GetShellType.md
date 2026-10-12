@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetShellType Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetShellType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetShellType.html)
-
-.
+Obsolete. Superseded by [IFace2::GetShellType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetShellType.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetShellType()
 System.int GetShellType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetShellType](ms-its:sldworksapivb6.chm::/sldworks~Face~GetShellType.html)
-
-.
+See [Face::GetShellType](ms-its:sldworksapivb6.chm::/sldworks~Face~GetShellType.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

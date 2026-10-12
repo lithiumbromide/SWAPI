@@ -42,22 +42,15 @@ swDmRevTableStyle GetRevTableStyle();
 
 ### Return Value
 
-Revision table style as defined in
-
-[SwDmRevTableStyle](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmRevTableStyle.html)
+Revision table style as defined in [SwDmRevTableStyle](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmRevTableStyle.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable6::GetRevTableStyle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~GetRevTableStyle.html)
-
-.
+See [SwDMTable6::GetRevTableStyle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~GetRevTableStyle.html).
 
 ## See Also
 
 [ISwDMTable6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6.html)
-
 [ISwDMTable6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6_members.html)
 
 ## Availability

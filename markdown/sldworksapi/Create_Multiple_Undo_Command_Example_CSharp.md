@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Multiple_Undo_Command_Example_CSharp.htm"
 
 # Create Hidden Undo Object Example (C#)
 
-This example shows how to create an Undo object that is hidden in the
-SOLIDWORKS Undo list.
+This example shows how to create an Undo object that is hidden in the SOLIDWORKS Undo list.
 
 ```
 //-----------------------------------------------------------------------------

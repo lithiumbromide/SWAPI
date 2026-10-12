@@ -48,22 +48,16 @@ True if blind; false if through all
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundHoleFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~Blind.html)
-
-.
+See [DimXpertCompoundHoleFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~Blind.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [IDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

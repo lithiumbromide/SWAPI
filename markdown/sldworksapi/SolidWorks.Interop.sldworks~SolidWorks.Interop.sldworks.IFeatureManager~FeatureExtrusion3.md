@@ -135,85 +135,33 @@ Feature^ FeatureExtrusion3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single ended, false for double ended
 - `Flip`: True to flip the side to cut
 - `Dir`: True to flip the direction of extrusion
-- `T1`: Termination type for first end of the extrusion as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end of the extrusion as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `D1`: Depth of extrusion for first end in meters; offset, if T1 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
-- `D2`: Depth of extrusion for second end in meters; offset, if T2 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
+- `T1`: Termination type for first end of the extrusion as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end of the extrusion as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `D1`: Depth of extrusion for first end in meters; offset, if T1 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
+- `D2`: Depth of extrusion for second end in meters; offset, if T2 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
 - `Dchk1`: True to allow drafting in the first direction, false to not
 - `Dchk2`: True to allow drafting in the second direction, false to not
 - `Ddir1`: True for first draft angle to be inward, false to be outward; valid only if Dchk1 is true
 - `Ddir2`: True for second draft angle to be inward, false to be outward; valid only if Dchk2 is true
 - `Dang1`: Draft angle for first end; valid only if Dchk1 is true
 - `Dang2`: Draft angle for second end; valid only if Dchk2 is true
-- `OffsetReverse1`: True to offset the first end from another face or plane in a direction away from the sketch, false to offset in a direction toward the sketch; valid only if T1 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
-- `OffsetReverse2`: True to offset the second end from another face or plane in a direction away from the sketch, false to offset in a direction toward the sketch; valid only if T2 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
-- `TranslateSurface1`: True if the first end of the extrusion is a translation of the reference surface, false if it has a true offset; valid only if T1 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
-- `TranslateSurface2`: True if the second end of the extrusion is a translation of the reference surface, false if it has a true offset; valid only if T2 is set to
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-.swEndCondOffsetFromSurface
+- `OffsetReverse1`: True to offset the first end from another face or plane in a direction away from the sketch, false to offset in a direction toward the sketch; valid only if T1 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
+- `OffsetReverse2`: True to offset the second end from another face or plane in a direction away from the sketch, false to offset in a direction toward the sketch; valid only if T2 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
+- `TranslateSurface1`: True if the first end of the extrusion is a translation of the reference surface, false if it has a true offset; valid only if T1 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
+- `TranslateSurface2`: True if the second end of the extrusion is a translation of the reference surface, false if it has a true offset; valid only if T2 is set to [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface
 - `Merge`: True to merge the results in a multibody part, false to not
-- `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies (see
-
-Remarks
-
-)
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies that the feature affects (see
-
-Remarks
-
-)
-- `T0`: Start condition as defined in
-
-[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
-- `StartOffset`: Distance from the sketch plane to start the extrude; valid only if T0 is set to
-
-[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
-
-.swStartOffset
-- `FlipStartOffset`: True to flip the direction of the start offset, false to not; valid only if T0 is set to
-
-[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
-
-.swStartOffset
+- `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies (see **Remarks**)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies that the feature affects (see **Remarks**)
+- `T0`: Start condition as defined in [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
+- `StartOffset`: Distance from the sketch plane to start the extrude; valid only if T0 is set to [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html).swStartOffset
+- `FlipStartOffset`: True to flip the direction of the start offset, false to not; valid only if T0 is set to [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html).swStartOffset
 
 ### Return Value
 
@@ -221,18 +169,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtrusion3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusion3.html)
-
-.
+See [FeatureManager::FeatureExtrusion3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusion3.html).
 
 ## Examples
 
 [Create Extrusion Feature (VBA)](Insert_Feature_Extrusion_Example_VB.htm)
-
 [Create Extrusion Feature (VB.NET)](Insert_Feature_Extrusion_Example_VBNET.htm)
-
 [Create Extrusion Feature (C#)](Insert_Feature_Extrusion_Example_CSharp.htm)
 
 ## Remarks
@@ -250,7 +192,7 @@ Before calling this method to extrude a 3D sketch:
 
 The default direction for cut operations is opposite the sketch normal. The default direction for boss operations is along the sketch normal. Setting the Dir argument to True reverses the default direction. For double-ended extrusions, Direction 2 is always opposite to Direction 1.
 
-The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see[IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html)and[IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
+The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see [IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html) and [IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
 
 When UseAutoSelect is false, the user must select the bodies that the feature affects. Use a selection mark of 8 for each selected body.
 
@@ -259,13 +201,9 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IFeatureManager::FeatureExtrusionThin2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html)
-
 [IFeatureManager::FeatureCut3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCut3.html)
 
 ## Availability

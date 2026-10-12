@@ -51,20 +51,12 @@ System.bool Select2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True to append this selection to the selection list, false to replace the selection list with this selection
-- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -72,26 +64,18 @@ True if the sketch region is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchRegion::Select2](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~Select2.html)
-
-.
+See [SketchRegion::Select2](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~Select2.html).
 
 ## Examples
 
 [Get Sketch Regions (VBA)](Get_Sketch_Regions_Example_VB.htm)
-
 [Get Sketch Regions (VB.NET)](Get_Sketch_Regions_Example_VBNET.htm)
-
 [Get Sketch Regions (C#)](Get_Sketch_Regions_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchRegion Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html)
-
 [ISketchRegion Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion_members.html)
-
 [ISketchRegion::DeSelect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion~DeSelect.html)
 
 ## Availability

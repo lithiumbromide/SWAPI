@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Obsolete.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -48,20 +42,16 @@ public interface class ISwDMDocument12 : public ISwDMDocument, ISwDMDocument10, 
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument12](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument12.html)
-
-.
+See [SwDMDocument12](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument12.html).
 
 ## Remarks
 
-Before you can access this object, you must call[ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html).
+Before you can access this object, you must call [ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html).
 
 NOTES:
 
-- You can access an ISwDMDocument12 object by calling QueryInterface on an[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)object in C++ or by direct assignment in Visual Basic.
-- The SwDMDocument object can be assigned to an ISwDMDocument12 variable, just like the SOLIDWORKS[IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)object can be assigned to a SOLIDWORKS[IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html)variable.
+- You can access an ISwDMDocument12 object by calling QueryInterface on an [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object in C++ or by direct assignment in Visual Basic.
+- The SwDMDocument object can be assigned to an ISwDMDocument12 variable, just like the SOLIDWORKS [IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) object can be assigned to a SOLIDWORKS [IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html) variable.
 
 ## Accessors
 
@@ -74,5 +64,4 @@ NOTES:
 ## See Also
 
 [ISwDMDocument12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

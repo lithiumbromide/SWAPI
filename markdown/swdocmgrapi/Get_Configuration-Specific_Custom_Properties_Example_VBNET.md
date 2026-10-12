@@ -9,331 +9,304 @@ source: "swdocmgrapi/Get_Configuration-Specific_Custom_Properties_Example_VBNET.
 
 # Get Configuration-Specific Custom Properties for Components (VB.NET)
 
-This example shows how to get custom properties for
-assembly components.
+This example shows how to get custom properties for assembly components.
 
 '---------------------------------------------------------------------------
 
 ' Preconditions:
 
-' 1. Read the SOLIDWORKS
-Document Manager API Getting Started
+' 1. Read the SOLIDWORKS Document Manager API **Getting Started**
 
 ' topic and ensure that the required DLLs are registered.
 
-' 2. Copy and paste this
-code into a VB.NET console application
+' 2. Copy and paste this code into a VB.NET console application
 
 ' in Microsoft Visual Studio.
 
-' 3. Ensure the Solution
-Platform is of type x64.
+' 3. Ensure the Solution Platform is of type x64.
 
-' 4. Add the SolidWorks.Interop.swdocumentmgr.dll reference to the project:
+' 4. Add the **SolidWorks.Interop.swdocumentmgr.dll** reference to the project:
 
 ' a. Right-click the solution in Solution Explorer.
 
-' b. Click Add Reference .
+' b. Click **Add Reference**.
 
-' c. Click Browse .
+' c. Click **Browse**.
 
 ' d. Click:
 
-' install_dir \api\redist\SolidWorks.Interop.swdocumentmgr.dll
+' `install_dir`**\api\redist\SolidWorks.Interop.swdocumentmgr.dll**
 
-' e. Click Add .
+' e. Click **Add**.
 
-' f. Click Close .
+' f. Click **Close**.
 
-' 5. Add the Microsoft Scripting Runtime reference to the project.
+' 5. Add the **Microsoft Scripting Runtime** reference to the project.
 
-' 6. Ensure that the
-model(s) to open exists and is(are) not readonly.
+' 6. Ensure that the model(s) to open exists and is(are) not readonly.
 
-' 7. Substitute your_license_key with your SOLIDWORKS Document
+' 7. Substitute `your_license_key` with your SOLIDWORKS Document
 
 ' Manager license key.
 
-' 8. Open the Immediate
-window.
+' 8. Open the Immediate window.
 
 '
 
 ' Postconditions:
 
-' 1. Gets document-level,
-component-level, and configuration-level custom properties for all assembly
-components.
+' 1. Gets document-level, component-level, and configuration-level custom properties for all assembly components.
 
-' 2. Inspect the
-Immediate window.
+' 2. Inspect the Immediate window.
 
 '
 
 '--------------------------------------------------------------------------
 
-ImportsSystem.Diagnostics
+Imports System.Diagnostics
 
-ImportsSolidWorks.Interop.swdocumentmgr
+Imports SolidWorks.Interop.swdocumentmgr
 
-ModuleModule1
+Module Module1
 
-SubMain()
+Sub Main()
 
-DimswDocMgrAsSwDMApplication
+Dim swDocMgr As SwDMApplication
 
-DimswCfAsSwDMClassFactory
+Dim swCf As SwDMClassFactory
 
 swCf = CreateObject("SwDocumentMgr.SwDMClassFactory")
 
-DimsKeyAsString
+Dim sKey As String
 
-sKey =" your_license_key"
+sKey = "`your_license_key`"
 
 swDocMgr = swCf.GetApplication(sKey)
 
-DimswDmSearchOptAsSwDMSearchOption
+Dim swDmSearchOpt As SwDMSearchOption
 
 swDmSearchOpt = swDocMgr.GetSearchOptionObject
 
 swDmSearchOpt.ClearAllSearchPaths()
 
-swDmSearchOpt.AddSearchPath(" public_documents \SOLIDWORKS\SOLIDWORKS
-2024\samples\tutorial\advdrawings ")
+swDmSearchOpt.AddSearchPath("`public_documents`\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\advdrawings")
 
-DimdOpenDocsAsNewScripting.Dictionary
+Dim dOpenDocs As New Scripting.Dictionary
 
-DimswDoc12AsSwDMDocument12
+Dim swDoc12 As SwDMDocument12
 
-DimresAsSwDmDocumentOpenError
+Dim res As SwDmDocumentOpenError
 
-DimdtAsSwDmDocumentType
+Dim dt As SwDmDocumentType
 
 dt = SwDmDocumentType.swDmDocumentAssembly
 
-DimfilenameAsString
+Dim filename As String
 
-filename =" public_documents \SOLIDWORKS\SOLIDWORKS
-2024\samples\tutorial\advdrawings\98food processor.SLDASM"
+filename = "`public_documents`\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\advdrawings\98food processor.SLDASM"
 
-swDoc12 = swDocMgr.GetDocument(filename, dt,False, res)
+swDoc12 = swDocMgr.GetDocument(filename, dt, False, res)
 
-IfswDoc12IsNothingOr(res <> SwDmDocumentOpenError.swDmDocumentOpenErrorNone)Then
+If swDoc12 Is Nothing Or (res <> SwDmDocumentOpenError.swDmDocumentOpenErrorNone) Then
 
-Debug.Print("Error
-opening file...")
+Debug.Print("Error opening file...")
 
-ExitSub
+Exit Sub
 
-EndIf
+End If
 
 dOpenDocs.Add(filename, swDoc12)
 
-DimactiveConfigAsSwDMConfiguration8
+Dim activeConfig As SwDMConfiguration8
 
-DimconfigMgrAsSwDMConfigurationMgr
+Dim configMgr As SwDMConfigurationMgr
 
 configMgr = swDoc12.ConfigurationManager
 
-DimvConfigNamesAsObject
+Dim vConfigNames As Object
 
 vConfigNames = configMgr.GetConfigurationNames
 
-DimjAsInteger
+Dim j As Integer
 
-Debug.Print("Assembly
-configurations: ")
+Debug.Print("Assembly configurations: ")
 
-Forj = 0ToUBound(vConfigNames)
+For j = 0 To UBound(vConfigNames)
 
-Debug.Print(" "& vConfigNames(j))
+Debug.Print(" " & vConfigNames(j))
 
-Nextj
+Next j
 
-Debug.Print("Get
-the active assembly configuration...")
+Debug.Print("Get the active assembly configuration...")
 
-DimsActiveConfigAsString
+Dim sActiveConfig As String
 
 sActiveConfig = configMgr.GetActiveConfigurationName
 
 activeConfig = configMgr.GetConfigurationByName(sActiveConfig)
 
-IfactiveConfigIsNothingThen
+If activeConfig Is Nothing Then
 
-Debug.Print("Error
-getting the active assembly configuration...")
+Debug.Print("Error getting the active assembly configuration...")
 
 Return
 
-EndIf
+End If
 
-Debug.Print("The
-active assembly configuration is "& sActiveConfig)
+Debug.Print("The active assembly configuration is " & sActiveConfig)
 
-Debug.Print("Get
-the components of the active assembly configuration...")
+Debug.Print("Get the components of the active assembly configuration...")
 
-DimvComponentsAsObject
+Dim vComponents As Object
 
 vComponents = activeConfig.GetComponents
 
-DimswDmComponentAsSwDMComponent12
+Dim swDmComponent As SwDMComponent12
 
-DimiAsInteger
+Dim i As Integer
 
-Fori = 0ToUBound(vComponents)
+For i = 0 To UBound(vComponents)
 
 swDmComponent = vComponents(i)
 
 Debug.Print("")
 
-Debug.Print("Component
-name = "& swDmComponent.Name3 &" Config = "& swDmComponent.ConfigurationName)
+Debug.Print("Component name = " & swDmComponent.Name3 & " Config = " & swDmComponent.ConfigurationName)
 
-DimswDmCompDocCurAsSwDMDocument
+Dim swDmCompDocCur As SwDMDocument
 
-DimlErrAsInteger
+Dim lErr As Integer
 
-DimbIsInDictAsBoolean
+Dim bIsInDict As Boolean
 
 bIsInDict = dOpenDocs.Exists(swDmComponent.Name)
 
-IfNotbIsInDictThen
+If Not bIsInDict Then
 
 swDmCompDocCur = swDmComponent.GetDocument2(False, swDmSearchOpt, lErr)
 
-IfNotswDmCompDocCurIsNothingThen
+If Not swDmCompDocCur Is Nothing Then
 
 dOpenDocs.Add(swDmComponent.Name, swDmCompDocCur)
 
-EndIf
+End If
 
 Else
 
 swDmCompDocCur = dOpenDocs(swDmComponent.Name)
 
-EndIf
+End If
 
-DimvCustomPropNamesFromDocAsObject
+Dim vCustomPropNamesFromDoc As Object
 
-DimlPropTypeAsInteger
+Dim lPropType As Integer
 
-DimsPropValAsString
+Dim sPropVal As String
 
-DimkAsInteger
+Dim k As Integer
 
-IfswDmCompDocCurIsNotNothingThen
+If swDmCompDocCur IsNot Nothing Then
 
-Debug.Print("*********
-Document-level custom properties **************")
+Debug.Print("********* Document-level custom properties **************")
 
 vCustomPropNamesFromDoc = swDmCompDocCur.GetCustomPropertyNames()
 
-IfvCustomPropNamesFromDocIsNotNothingThen
+If vCustomPropNamesFromDoc IsNot Nothing Then
 
-Fork = 0ToUBound(vCustomPropNamesFromDoc)
+For k = 0 To UBound(vCustomPropNamesFromDoc)
 
-sPropVal = swDmCompDocCur. GetCustomProperty (vCustomPropNamesFromDoc(k),
-lPropType)
+sPropVal = swDmCompDocCur.**GetCustomProperty**(vCustomPropNamesFromDoc(k), lPropType)
 
-Debug.Print(vCustomPropNamesFromDoc(k) &": Value: "& sPropVal &", Type: "& lPropType)
+Debug.Print(vCustomPropNamesFromDoc(k) & ": Value: " & sPropVal & ", Type: " & lPropType)
 
-Nextk
+Next k
 
-Debug.Print("*********
-Component-level custom properties **************")
+Debug.Print("********* Component-level custom properties **************")
 
-DimmAsInteger
+Dim m As Integer
 
-Form = 0ToUBound(vCustomPropNamesFromDoc)
+For m = 0 To UBound(vCustomPropNamesFromDoc)
 
-sPropVal = swDmComponent. GetCustomProperty (vCustomPropNamesFromDoc(m),
-lPropType)
+sPropVal = swDmComponent.**GetCustomProperty**(vCustomPropNamesFromDoc(m), lPropType)
 
-Debug.Print(vCustomPropNamesFromDoc(m) &": Value: "& sPropVal &", Type: "& lPropType)
+Debug.Print(vCustomPropNamesFromDoc(m) & ": Value: " & sPropVal & ", Type: " & lPropType)
 
-Nextm
+Next m
 
-DimswDmCompDocCurConfigMgrAsSwDMConfigurationMgr
+Dim swDmCompDocCurConfigMgr As SwDMConfigurationMgr
 
-swDmCompDocCurConfigMgr
-= swDmCompDocCur.ConfigurationManager
+swDmCompDocCurConfigMgr = swDmCompDocCur.ConfigurationManager
 
-DimswDmCompDocCurConfigMgr2AsSwDMConfigurationMgr2
+Dim swDmCompDocCurConfigMgr2 As SwDMConfigurationMgr2
 
 swDmCompDocCurConfigMgr2 = swDmCompDocCurConfigMgr
 
-DimswDmCompConfigCurAsSwDMConfiguration
+Dim swDmCompConfigCur As SwDMConfiguration
 
-DimswDmCompConfigCur14AsSwDMConfiguration14
+Dim swDmCompConfigCur14 As SwDMConfiguration14
 
-DimswDmConfigErrAsSwDMConfigurationError
+Dim swDmConfigErr As SwDMConfigurationError
 
-swDmCompConfigCur =
-swDmCompDocCurConfigMgr2.GetConfigurationByName2(swDmComponent.ConfigurationName,
-swDmConfigErr)
+swDmCompConfigCur = swDmCompDocCurConfigMgr2.GetConfigurationByName2(swDmComponent.ConfigurationName, swDmConfigErr)
 
 swDmCompConfigCur14 = swDmCompConfigCur
 
-DimlCustPropCountAsInteger
+Dim lCustPropCount As Integer
 
 lCustPropCount = swDmCompConfigCur.GetCustomPropertyCount
 
-DimvCustPropNamesAsObject
+Dim vCustPropNames As Object
 
 vCustPropNames = swDmCompConfigCur.GetCustomPropertyNames
 
-Debug.Print("*********
-Configuration-level custom properties **************")
+Debug.Print("********* Configuration-level custom properties **************")
 
-IflCustPropCount > 0Then
+If lCustPropCount > 0 Then
 
-DimrAsInteger
+Dim r As Integer
 
-Forr = 0ToUBound(vCustPropNames)
+For r = 0 To UBound(vCustPropNames)
 
-sPropVal = swDmCompConfigCur. GetCustomProperty (vCustPropNames(r),
-lPropType)
+sPropVal = swDmCompConfigCur.**GetCustomProperty**(vCustPropNames(r), lPropType)
 
-Debug.Print(vCustPropNames(r) &": "& sPropVal &", "& lPropType)
+Debug.Print(vCustPropNames(r) & ": " & sPropVal & ", " & lPropType)
 
-Nextr
+Next r
 
 Else
 
 Debug.Print("None")
 
-EndIf
+End If
 
 Else
 
 Debug.Print("None")
 
-EndIf
+End If
 
-EndIf
+End If
 
 Next
 
-DimsAsInteger
+Dim s As Integer
 
-DimswDmDocCurAsSwDMDocument
+Dim swDmDocCur As SwDMDocument
 
-Fors = 0TodOpenDocs.Count - 1
+For s = 0 To dOpenDocs.Count - 1
 
 swDmDocCur = dOpenDocs.Items()(s)
 
 swDmDocCur.CloseDoc()
 
-swDmDocCur =Nothing
+swDmDocCur = Nothing
 
-Nexts
+Next s
 
 dOpenDocs.RemoveAll
 
-dOpenDocs =Nothing
+dOpenDocs = Nothing
 
-EndSub
+End Sub
 
-EndModule
+End Module

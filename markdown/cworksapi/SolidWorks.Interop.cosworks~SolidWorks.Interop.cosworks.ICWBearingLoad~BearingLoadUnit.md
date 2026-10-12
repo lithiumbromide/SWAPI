@@ -47,30 +47,19 @@ property System.int BearingLoadUnit {
 
 ### Property Value
 
-Unit system as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+Unit system as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::BearingLoadUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~BearingLoadUnit.html)
-
-.
+See [CWBearingLoad::BearingLoadUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~BearingLoadUnit.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
 
 ## Availability

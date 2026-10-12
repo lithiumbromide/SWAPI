@@ -42,11 +42,7 @@ System.int Init();
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~Init.html)
-
-.
+See [IGeometryAnalysis::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~Init.html).
 
 ## Examples
 
@@ -55,7 +51,6 @@ See
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

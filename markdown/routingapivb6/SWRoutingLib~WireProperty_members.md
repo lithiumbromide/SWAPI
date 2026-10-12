@@ -1,6 +1,5 @@
 ---
-title: "WireProperty Object
-Members"
+title: "WireProperty Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "WireProperty_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~WireProperty_members.html"
 ---
 
-# WireProperty Object
-Members
+# WireProperty Object Members
 
 ## Public Properties
 

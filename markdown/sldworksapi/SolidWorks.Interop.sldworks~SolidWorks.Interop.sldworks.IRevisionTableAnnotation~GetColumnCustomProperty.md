@@ -47,13 +47,7 @@ System.String^ GetColumnCustomProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,23 @@ See
 
 ### Return Value
 
-Custom property used for the values in this user-defined columnParamDesc
+Custom property used for the values in this user-defined column
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::GetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetColumnCustomProperty.html)
-
-.
+See [RevisionTableAnnotation::GetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetColumnCustomProperty.html).
 
 ## Remarks
 
 This method returns a empty string if the column is not a user-defined column.
 
-To get the list of custom properties, use[IRevisonTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomProperties.html)or[IRevisionTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~IGetAllCustomProperties.html). The list of available custom properties includes all of the items in the revision table, which includes items from the file summary items and file custom properties that have been set.
+To get the list of custom properties, use [IRevisonTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomProperties.html) or [IRevisionTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~IGetAllCustomProperties.html). The list of available custom properties includes all of the items in the revision table, which includes items from the file summary items and file custom properties that have been set.
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::GetAllCustomPropertiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomPropertiesCount.html)
-
 [IRevisionTableAnnotation::SetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~SetColumnCustomProperty.html)
 
 ## Availability

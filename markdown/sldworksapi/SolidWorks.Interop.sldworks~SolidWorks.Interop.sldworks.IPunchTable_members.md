@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPu
 
 # IPunchTable Interface Members
 
-The following tables list the members exposed by[IPunchTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html).
+The following tables list the members exposed by [IPunchTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html).
 
 ## Public Properties
 
@@ -38,9 +38,6 @@ The following tables list the members exposed by[IPunchTable](SolidWorks.Interop
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IPunchTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTableAnnotation.html)
-
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)

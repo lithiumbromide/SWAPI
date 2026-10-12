@@ -45,13 +45,7 @@ property System.bool ReadOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the model document is opened read-only, false if read-write
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ReadOnly.html)
-
-.
+See [DocumentSpecification::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ReadOnly.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

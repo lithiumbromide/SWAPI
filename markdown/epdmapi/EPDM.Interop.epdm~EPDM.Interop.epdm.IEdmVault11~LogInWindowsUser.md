@@ -51,11 +51,11 @@ void LogInWindowsUser(
 
 ## Remarks
 
-This method works like[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html), except this method does not display a login dialog box.
+This method works like [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html), except this method does not display a login dialog box.
 
-Any number of users can log in through the API, as long as they use the[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)method. However, only one user at a time can log in through the SOLIDWORKS PDM Professional client user interface. Both[IEdmVault11::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~LogInWindowsUser.html)and IEdmVault11::LogInWindowsUser log in the single user of the client user interface.
+Any number of users can log in through the API, as long as they use the [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) method. However, only one user at a time can log in through the SOLIDWORKS PDM Professional client user interface. Both [IEdmVault11::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~LogInWindowsUser.html) and IEdmVault11::LogInWindowsUser log in the single user of the client user interface.
 
-Call[IEdmVault11::GetLoggedInWindowsUserID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetLoggedInWindowsUserID.html)to obtain the ID of the user who is currently logged in through the client user interface.
+Call [IEdmVault11::GetLoggedInWindowsUserID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetLoggedInWindowsUserID.html) to obtain the ID of the user who is currently logged in through the client user interface.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -66,7 +66,6 @@ Call[IEdmVault11::GetLoggedInWindowsUserID](EPDM.Interop.epdm~EPDM.Interop.epdm.
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
 
 ## Availability

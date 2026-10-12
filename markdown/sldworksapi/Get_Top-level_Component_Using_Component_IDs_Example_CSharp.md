@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Top-level_Component_Using_Component_IDs_Example_CSharp.
 
 # Get Top-level Components Using Component IDs Example (C#)
 
-This example shows how to get the top-level components in an assembly using
-their component IDs.
+This example shows how to get the top-level components in an assembly using their component IDs.
 
 ```
 //--------------------------------------------------------------------------

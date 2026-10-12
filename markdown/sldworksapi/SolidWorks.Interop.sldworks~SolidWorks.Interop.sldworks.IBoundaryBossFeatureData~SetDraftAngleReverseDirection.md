@@ -54,60 +54,34 @@ void SetDraftAngleReverseDirection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Direction`: Direction as defined in
-
-[swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
-- `GuideIndex`: Index of the curve (see
-
-Remarks
-
-)
+- `Direction`: Direction as defined in [swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
+- `GuideIndex`: Index of the curve (see **Remarks**)
 - `IsFlipped`: True if the draft angle is flipped, false if not
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData::SetDraftAngleReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~SetDraftAngleReverseDirection.html)
-
-.
+See [BoundaryBossFeatureData::SetDraftAngleReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~SetDraftAngleReverseDirection.html).
 
 ## Examples
 
 [Insert Boundary Feature (C#)](Insert_Boundary_Feature_Example_CSharp.htm)
-
 [Insert Boundary Feature (VB.NET)](Insert_Boundary_Feature_Example_VBNET.htm)
-
 [Insert Boundary Feature (VBA)](Insert_Boundary_Feature_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html)
-
-to get a valid range of values for GuideIndex.
+Call [IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html) to get a valid range of values for GuideIndex.
 
 ## See Also
 
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
-
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [IBoundaryBossFeatureData::GetDraftAngle Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetDraftAngle.html)
-
 [IBoundaryBossFeatureData::GetDraftAngleReverseDirection Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetDraftAngleReverseDirection.html)
-
 [IBoundaryBossFeatureData::SetDraftAngle Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~SetDraftAngle.html)
 
 ## Availability

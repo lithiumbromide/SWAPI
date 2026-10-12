@@ -45,42 +45,23 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Scale: 0.0000001 to 500000 (see
-
-Remarks
-
-)
+Scale: 0.0000001 to 500000 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::Scale2](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Scale2.html)
-
-.
+See [SketchBlockInstance::Scale2](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Scale2.html).
 
 ## Remarks
 
-The getter of this property is obsolete. It has been superseded by
-
-[ISketchBlockInstance::GetScale3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetScale3.html)
-
-.
+The getter of this property is obsolete. It has been superseded by [ISketchBlockInstance::GetScale3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetScale3.html).
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

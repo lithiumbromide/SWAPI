@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCosmeticWeldBead Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCosmeticWeldBead2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCosmeticWeldBead2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCosmeticWeldBead2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCosmeticWeldBead2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Feature^ InsertCosmeticWeldBead(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCosmeticWeldBead](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticWeldBead.html)
-
-.
+See [FeatureManager::InsertCosmeticWeldBead](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticWeldBead.html).
 
 ## Examples
 
 [Insert Cosmetic Weld Bead (VBA)](Insert_Cosmetic_Weld_Bead_Example_VB.htm)
-
 [Insert Cosmetic Weld Bead (VB.NET)](Insert_Cosmetic_Weld_Bead_Example_VBNET.htm)
-
 [Insert Cosmetic Weld Bead (C#)](Insert_Cosmetic_Weld_Bead_Example_CSharp.htm)
 
 ## Remarks
@@ -90,7 +74,6 @@ Before calling this method, select the contact faces for the weld bead.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

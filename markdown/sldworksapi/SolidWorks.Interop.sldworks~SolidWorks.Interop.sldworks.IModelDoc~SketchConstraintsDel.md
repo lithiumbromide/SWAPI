@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchConstraintsDel Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchConstraintsDel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchConstraintsDel.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchConstraintsDel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchConstraintsDel.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SketchConstraintsDel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchConstraintsDel](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchConstraintsDel.html)
-
-.
+See [ModelDoc::SketchConstraintsDel](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchConstraintsDel.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

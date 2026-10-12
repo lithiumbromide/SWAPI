@@ -1,6 +1,5 @@
 ---
-title: "MBD3DPdfData Object
-Members"
+title: "MBD3DPdfData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MBD3DPdfData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MBD3DPdfData_members.html"
 ---
 
-# MBD3DPdfData Object
-Members
+# MBD3DPdfData Object Members
 
 ## Public Methods
 
@@ -35,5 +33,6 @@ Members
 | Public Property CreateAttachSTEP242 |  |
 | Public Property ExcludeFromAnnotationView |  |
 | Public Property FilePath |  |
+| Public Property STEP242Edition |  |
 | Public Property ThemeName |  |
 | Public Property ViewPdfAfterSaving |  |

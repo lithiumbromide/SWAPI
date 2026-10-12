@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISW
 
 # RemovePage Method (ISWPropertySheet)
 
-Removes a CPropertyPage derived page from an
-
-[ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)
-
-.
+Removes a CPropertyPage derived page from an [ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int RemovePage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SWPropertySheet::RemovePage](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~RemovePage.html)
-
-.
+See [SWPropertySheet::RemovePage](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~RemovePage.html).
 
 ## See Also
 
 [ISWPropertySheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet.html)
-
 [ISWPropertySheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet_members.html)

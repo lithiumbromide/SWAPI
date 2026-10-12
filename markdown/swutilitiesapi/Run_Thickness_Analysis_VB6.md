@@ -9,8 +9,7 @@ source: "swutilitiesapi/Run_Thickness_Analysis_VB6.htm"
 
 # Run Thickness Analysis Example (VBA)
 
-This example shows how to run a thickness analysis and generate reports
-using the SOLIDWORKS Utilities API.
+This example shows how to run a thickness analysis and generate reports using the SOLIDWORKS Utilities API.
 
 ```
 '-----------------------------------------------------------------------------

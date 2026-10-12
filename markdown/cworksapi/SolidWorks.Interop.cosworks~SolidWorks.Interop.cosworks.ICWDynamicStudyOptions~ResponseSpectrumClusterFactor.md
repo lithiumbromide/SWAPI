@@ -9,13 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # ResponseSpectrumClusterFactor Property (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetResponseSpectrumClusterFactor2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetResponseSpectrumClusterFactor2.html)
-
-and
-
-[ICWDynamicStudyOptions::SetResponseSpectrumClusterFactor2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetResponseSpectrumClusterFactor2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetResponseSpectrumClusterFactor2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetResponseSpectrumClusterFactor2.html) and [ICWDynamicStudyOptions::SetResponseSpectrumClusterFactor2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetResponseSpectrumClusterFactor2.html)
 
 ## Syntax
 
@@ -53,36 +47,21 @@ property System.double ResponseSpectrumClusterFactor {
 
 ### Property Value
 
-Cluster factor (see
-
-Remarks
-
-)
+Cluster factor (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::ResponseSpectrumClusterFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~ResponseSpectrumClusterFactor.html)
-
-.
+See [CWDynamicStudyOptions::ResponseSpectrumClusterFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~ResponseSpectrumClusterFactor.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWDynamicStudyOptions::ResponseSpectrumModeCombinationMethod](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~ResponseSpectrumModeCombinationMethod.html)
-
-= 1 (Absolute Sum).
+This property is valid only if [ICWDynamicStudyOptions::ResponseSpectrumModeCombinationMethod](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~ResponseSpectrumModeCombinationMethod.html) = 1 (Absolute Sum).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::ResponseSpectrumCurveInterpolation Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~ResponseSpectrumCurveInterpolation.html)
-
 [ICWDynamicStudyOptions::ResponseSpectrumUseMaterialDamping Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~ResponseSpectrumUseMaterialDamping.html)
 
 ## Availability

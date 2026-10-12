@@ -51,21 +51,11 @@ System.bool Sort(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ColumnIndex`: 0-based index of column to sort by (see
-
-Remarks
-
-)
+- `ColumnIndex`: 0-based index of column to sort by (see **Remarks**)
 - `SortAscending`: True to sort ascending, false to sort descending
 
 ### Return Value
@@ -74,30 +64,23 @@ True if sorted successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleTableAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~HoleTableAnnotation~Sort.html)
-
-.
+See [HoleTableAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~HoleTableAnnotation~Sort.html).
 
 ## Examples
 
 [Sort Table (C#)](Sort_Table_Example_CSharp.htm)
-
 [Sort Table (VB.NET)](Sort_Table_Example_VBNET.htm)
-
 [Sort Table (VBA)](Sort_Table_Example_VB.htm)
 
 ## Remarks
 
 Hole tables must be sorted by the Tag column.
 
-See[Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm)for more information.
+See [Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm) for more information.
 
 ## See Also
 
 [IHoleTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation.html)
-
 [IHoleTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.Object^ GetRevisionSymbols(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,14 @@ Array of revision symbols
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::GetRevisionSymbols](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionSymbols.html)
-
-.
+See [RevisionTableAnnotation::GetRevisionSymbols](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionSymbols.html).
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::GetRevisionSymbolCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetRevisionSymbolCount.html)
-
 [IRevisionTableAnnotation::IGetRevisionSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~IGetRevisionSymbols.html)
-
 [IRevisionTableAnnotation::CurrentRevision Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~CurrentRevision.html)
 
 ## Availability

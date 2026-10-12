@@ -50,13 +50,7 @@ void GetD2IncrementDimensions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::GetD2IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~GetD2IncrementDimensions.html)
-
-.
+See [InstanceToVaryOptions::GetD2IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~GetD2IncrementDimensions.html).
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
 
 ## Availability

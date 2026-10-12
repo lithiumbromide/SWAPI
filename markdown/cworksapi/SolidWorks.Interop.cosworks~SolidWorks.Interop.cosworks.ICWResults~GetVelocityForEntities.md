@@ -69,25 +69,20 @@ System.Object^ GetVelocityForEntities(
 
 ### Parameters
 
-- `NComponent`: Velocity component as defined in[swsVelocityComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityComponent_e.html)
+- `NComponent`: Velocity component as defined in [swsVelocityComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional component
 - `ArraySelectedEntities`: Array of geometric entities
-- `NUnits`: Units of velocity as defined in[swsVelocityUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Units of velocity as defined in [swsVelocityUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsVelocityUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetVelocityForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetVelocityForEntities.html)
-
-.
+See [CWResults::GetVelocityForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetVelocityForEntities.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

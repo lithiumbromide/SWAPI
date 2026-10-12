@@ -59,20 +59,14 @@ System.bool GetBendLineValues2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Up`: True if the bend is up, false if the bend is down
-- `Angle`: Angle of the bendParamDesc
+- `Angle`: Angle of the bend
 - `Radius`: Radius of the bend
-- `Points`: Array of doubles (seeRemarks)
+- `Points`: Array of doubles (see Remarks)
 
 ### Return Value
 
@@ -80,24 +74,18 @@ True if the note is a bend note, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::GetBendLineValues2](ms-its:sldworksapivb6.chm::/Sldworks~Note~GetBendLineValues2.html)
-
-.
+See [Note::GetBendLineValues2](ms-its:sldworksapivb6.chm::/Sldworks~Note~GetBendLineValues2.html).
 
 ## Remarks
 
 Points will contain six (6) doubles (three (3) each for the start point and endpoint), one set for each segment in the bend line:
 
-[kadov_tag{{<spaces>}}x, y, z,x, y, z]
+[ x, y, z, x, y, z ]
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
 
 ## Availability

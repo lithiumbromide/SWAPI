@@ -34,14 +34,9 @@ System.String^ mbsStrData2
 
 ## Remarks
 
-See
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-Remarks.
+See [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html) Remarks.
 
 ## See Also
 
 [EdmCmdData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
 [EdmCmdData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members.html)

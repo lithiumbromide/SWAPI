@@ -46,26 +46,16 @@ Number of source entities
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::GetSourceEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~GetSourceEntityCount.html)
-
-.
+See [CWSpotWeldConnector::GetSourceEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~GetSourceEntityCount.html).
 
 ## Examples
 
-See the
-
-[ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
-examples.
+See the [ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html) examples.
 
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldConnector::GetTargetEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~GetTargetEntityCount.html)
 
 ## Availability

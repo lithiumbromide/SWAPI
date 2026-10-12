@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditCopy Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditCopy](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditCopy.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditCopy](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditCopy.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditCopy()
 void EditCopy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditCopy.html)
-
-.
+See [ModelDoc::EditCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditCopy.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

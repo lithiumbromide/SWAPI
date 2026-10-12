@@ -45,38 +45,24 @@ property System.int DrivenState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Driven state of the dimension as defined in[swDimensionDrivenState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionDrivenState_e.html)
+Driven state of the dimension as defined in [swDimensionDrivenState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionDrivenState_e.html)
 
 ## VBA Syntax
 
-See
-
-[Dimension::DrivenState](ms-its:sldworksapivb6.chm::/sldworks~Dimension~DrivenState.html)
-
-.
+See [Dimension::DrivenState](ms-its:sldworksapivb6.chm::/sldworks~Dimension~DrivenState.html).
 
 ## Examples
 
 [Get Block Information (VBA)](Get_Block_Information_Example_VB.htm)
-
 [Get Dimension Values in All Configurations (VBA)](Get_Dimension_Values_in_All_Configurations_Example_VB.htm)
-
 [Get Dimension Values in Drawing (VBA)](Get_Dimension_Values_in_Drawing_Example_VB.htm)
-
 [Set Dimensions to Mid-tolerance (VBA)](Set_Dimensions_to_Mid-Tolerance_Example_VB.htm)
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 Allows you to get and set dimension tolerances.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IDimensionTolerance
 
 ## VBA Syntax
 
-See
-
-[DimensionTolerance](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance.html)
-
-.
+See [DimensionTolerance](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance.html).
 
 ## Examples
 
 [Get Dimension Tolerance (VBA)](Get_Dimension_Tolerance_Example_VB.htm)
-
 [Get Dimension Tolerance (VB.NET)](Get_Dimension_Tolerance_Example_VBNET.htm)
-
 [Get Dimension Tolerance (C#)](Get_Dimension_Tolerance_Example_CSharp.htm)
 
 ## Accessors
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [IDimensionTolerance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)

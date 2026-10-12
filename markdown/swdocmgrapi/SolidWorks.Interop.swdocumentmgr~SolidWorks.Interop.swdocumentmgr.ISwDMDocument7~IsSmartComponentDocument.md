@@ -46,16 +46,11 @@ True if the document is a smart component, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument7::IsSmartComponentDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument7~IsSmartComponentDocument.html)
-
-.
+See [SwDMDocument7::IsSmartComponentDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument7~IsSmartComponentDocument.html).
 
 ## See Also
 
 [ISwDMDocument7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument7.html)
-
 [ISwDMDocument7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument7_members.html)
 
 ## Availability

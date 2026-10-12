@@ -67,30 +67,16 @@ System.bool SetText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Top`: True to set the text in the portion of the symbol above the horizontal line, false to set the text in the portion of the symbol below the horizontal line
 - `Left`: Text to the left of the weld symbol
-- `Symbol`: Textkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}representing the weld symbol (see**Remarks**)
-- `Right`: Textkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}to the right of the weld symbol
-- `Stagger`: Textkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}to the right of the stagger symbol (see**Remarks**)
-- `Contour`: Contour setting as defined in
-
-[swWeldSymbolContourTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldSymbolContourTypes_e.html)
-
-(see
-
-Remarks
-
-)
+- `Symbol`: Text representing the weld symbol (see **Remarks**)
+- `Right`: Text to the right of the weld symbol
+- `Stagger`: Text to the right of the stagger symbol (see **Remarks**)
+- `Contour`: Contour setting as defined in [swWeldSymbolContourTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldSymbolContourTypes_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -98,27 +84,19 @@ True if the text and symbols are set, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::SetText](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetText.html)
-
-.
+See [WeldSymbol::SetText](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetText.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## Remarks
 
-To get the individual pieces of text for a weld symbol, use[IWeldSymbol::GetText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetText.html). To get the contour setting for a weld symbol, use[IWeldSymbol::GetContour](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetContour.html).
+To get the individual pieces of text for a weld symbol, use [IWeldSymbol::GetText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetText.html). To get the contour setting for a weld symbol, use [IWeldSymbol::GetContour](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetContour.html).
 
-The stagger text that is specified is only visible if this option is enabled. See[IWeldSymbol::GetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetStagger.html)to see the current setting and[IWeldSymbol::SetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~SetStagger.html)to enable or disable that option.
+The stagger text that is specified is only visible if this option is enabled. See [IWeldSymbol::GetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetStagger.html) to see the current setting and [IWeldSymbol::SetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~SetStagger.html) to enable or disable that option.
 
-A list of weld symbol names can be found in the text file[gtol.sym ,](sldworksAPIProgGuide.chm::/Miscellaneous/Geometric_Tolerance_Symbol_Libraries.htm), typically installed at**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english**. Specify Symbol with one of the currently supported ISO weld symbols:
+A list of weld symbol names can be found in the text file [**gtol.sym**,](sldworksAPIProgGuide.chm::/Miscellaneous/Geometric_Tolerance_Symbol_Libraries.htm), typically installed at **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english**. Specify Symbol with one of the currently supported ISO weld symbols:
 
 - BUTT
 - BUSQ
@@ -140,7 +118,6 @@ A list of weld symbol names can be found in the text file[gtol.sym ,](sldworksAP
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
 
 ## Availability

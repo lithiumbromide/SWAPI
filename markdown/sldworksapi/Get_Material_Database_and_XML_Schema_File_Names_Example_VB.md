@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Material_Database_and_XML_Schema_File_Names_Example_VB.
 
 # Get Material Database and XML Schema File Names Example (VBA)
 
-This example shows how to get the names of the the path of the XML material
-schema file and the names of the material databases.
+This example shows how to get the names of the the path of the XML material schema file and the names of the material databases.
 
 ```
 '-------------------------------------------------

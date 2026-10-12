@@ -51,13 +51,7 @@ System.bool SetOverride(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,15 +60,11 @@ See
 
 ### Return Value
 
-True if setting an override value is successful, false if notParamDesc
+True if setting an override value is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetOverride](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetOverride.html)
-
-.
+See [DisplayDimension::SetOverride](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetOverride.html).
 
 ## Remarks
 
@@ -82,12 +72,11 @@ This method can only be used on a display dimension in a drawing. In a part or a
 
 If Override is set to false, then the Value argument is ignored.
 
-Use[IDisplayDimension::GetOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetOverride.html)to get whether the actual dimension value or another value is displayed.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Use [IDisplayDimension::GetOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetOverride.html) to get whether the actual dimension value or another value is displayed.
 
-Use[IDisplayDimension::GetOverrideValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetOverrideValue.html)to get the value to display instead of the actual dimension value.
+Use [IDisplayDimension::GetOverrideValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetOverrideValue.html) to get the value to display instead of the actual dimension value.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

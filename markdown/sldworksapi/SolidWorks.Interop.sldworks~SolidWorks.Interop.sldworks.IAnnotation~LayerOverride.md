@@ -45,35 +45,25 @@ property System.int LayerOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Properties that have been overridden or should be overridden as defined in[swLayerOverride_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLayerOverride_e.html)(seeRemarks)
+Properties that have been overridden or should be overridden as defined in [swLayerOverride_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLayerOverride_e.html) (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[Annotation::LayerOverride](ms-its:sldworksapivb6.chm::/sldworks~Annotation~LayerOverride.html)
-
-.
+See [Annotation::LayerOverride](ms-its:sldworksapivb6.chm::/sldworks~Annotation~LayerOverride.html).
 
 ## Remarks
 
 Layers are currently supported only in SOLIDWORKS drawings.
 
-You should set this property only when you want to reset specific visual properties to the default visual properties of the owning layer. If you want to change or set specific values for the visual property of this item, use[IAnnotation::Color](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Color.html),[IAnnotation::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Style.html), and[IAnnotation::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Width.html).
+You should set this property only when you want to reset specific visual properties to the default visual properties of the owning layer. If you want to change or set specific values for the visual property of this item, use [IAnnotation::Color](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Color.html), [IAnnotation::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Style.html), and [IAnnotation::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Width.html).
 
 In drawing documents, annotations can be created on a layer that has specific visual properties. By default, the annotation takes on the visual properties defined by the layer. However, for a specific annotation, you can override these visual properties (color, style, and width).
 
-When the annotation is not on any layer, this property returns an undefined value. You can use the[IAnnotation::Layer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Layer.html)property to determine the name of the layer that this annotation is on. If an empty string is returned by the Annotation::Layer property, then this property is not used.
+When the annotation is not on any layer, this property returns an undefined value. You can use the [IAnnotation::Layer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Layer.html) property to determine the name of the layer that this annotation is on. If an empty string is returned by the Annotation::Layer property, then this property is not used.
 
 When you get this property, the returned bit value indicates which property or properties have been overridden. The bit indicators are:
 
@@ -84,7 +74,6 @@ When you set this property, the input bit value indicates which property or prop
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

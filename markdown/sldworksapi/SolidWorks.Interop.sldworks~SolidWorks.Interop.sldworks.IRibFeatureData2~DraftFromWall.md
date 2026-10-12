@@ -45,13 +45,7 @@ property System.bool DraftFromWall {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to draft from the sketch plane, false to draft from the wall interface
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData2::DraftFromWall](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~DraftFromWall.html)
-
-.
+See [RibFeatureData2::DraftFromWall](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~DraftFromWall.html).
 
 ## Remarks
 
-This property is valid only when[IRibFeatureData2::EnableDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~EnableDraft.html)is set to true.
+This property is valid only when [IRibFeatureData2::EnableDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~EnableDraft.html) is set to true.
 
 ## See Also
 
 [IRibFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html)
-
 [IRibFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2_members.html)
 
 ## Availability

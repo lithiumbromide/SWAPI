@@ -12,21 +12,13 @@ source: "sldworksapi/Get_Offset_Surface_Data_Example_CSharp.htm"
 This example shows how to get data for an offset surface.
 
 //----------------------------------------------------------------------
-
 // Preconditions:
-
 // 1. Open an assembly document that contains a component that
-
 // has a surface offset feature.
-
 // 2. Select the component's surface offset feature.
-
 // 3. Open the Immediate window.
-
 //
-
 // Postconditions: Inspect the Immediate window.
-
 //----------------------------------------------------------------------
 
 ```vb

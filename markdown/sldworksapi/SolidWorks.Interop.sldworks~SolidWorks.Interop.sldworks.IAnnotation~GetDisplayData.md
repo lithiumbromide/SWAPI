@@ -40,13 +40,7 @@ System.object GetDisplayData()
 System.Object^ GetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,17 @@ Object for the display data
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetDisplayData.html)
-
-.
+See [Annotation::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetDisplayData.html).
 
 ## Examples
 
 [Get Centerline Annotation Information (VBA)](Get_Centerline_Annotation_Information_Example_VB.htm)
-
 [Get Weld Bead Symbol Data (VBA)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_VB.htm)
-
 [Get Weld Bead Symbol Data (VB.NET)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_VBNET.htm)
-
 [Get Weld Bead Symbol Data (C#)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)

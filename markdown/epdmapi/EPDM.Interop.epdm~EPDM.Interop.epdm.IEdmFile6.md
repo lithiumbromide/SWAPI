@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6.html"
 
 Allows you to access a file in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,26 +37,16 @@ public interface class IEdmFile6 : public IEdmFile5, IEdmObject5
 ## Examples
 
 [Get File Information (VB.NET)](Get_File_Info_Example_VBNET.htm)
-
 [Get File Information (C#)](Get_File_Info_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- inherits from
-
-  [IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
-  .
-- is extended by
-
-  [IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
-  which provides the ability to get computed and derived bills of materials and check whether a file needs to be rebuilt.
+- inherits from [IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html).
+- is extended by [IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html) which provides the ability to get computed and derived bills of materials and check whether a file needs to be rebuilt.
 
 ## See Also
 
 [IEdmFile6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

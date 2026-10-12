@@ -45,13 +45,7 @@ property System.double ToScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::ToScale](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~ToScale.html)
-
-.
+See [PrintSpecification::ToScale](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~ToScale.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## Remarks
 
-This property is valid only if[IPrintSpecification::ScaleMethod](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~ScaleMethod.html)is set to[swPrintSelectionScaleFactor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrintSelectionScaleFactor_e.html).swPrintSelection.
+This property is valid only if [IPrintSpecification::ScaleMethod](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~ScaleMethod.html) is set to [swPrintSelectionScaleFactor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrintSelectionScaleFactor_e.html).swPrintSelection.
 
-For details about applying a scale factor to the current drawing sheet, see the**Print Specification**Help topic in the SOLIDWORKS Help.
+For details about applying a scale factor to the current drawing sheet, see the **Print Specification** Help topic in the SOLIDWORKS Help.
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
-
 [IPrintSpecification::FromScale Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~FromScale.html)
 
 ## Availability

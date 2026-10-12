@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosm
 
 # ICosmosWorks Interface Members
 
-The following tables list the members exposed by[ICosmosWorks](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html).
+The following tables list the members exposed by [ICosmosWorks](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[ICosmosWorks](SolidWorks.Intero
 ## See Also
 
 [ICosmosWorks Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

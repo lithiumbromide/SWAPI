@@ -39,34 +39,19 @@ void ViewTranslateplusx()
 void ViewTranslateplusx();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ViewTranslateplusx](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewTranslateplusx.html)
-
-.
+See [ModelDoc2::ViewTranslateplusx](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewTranslateplusx.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ViewTranslate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewTranslate.html)
-
 [IModelDoc2::ViewTranslateminusx Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewTranslateminusx.html)
-
 [IModelDoc2::ViewTranslateminusy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewTranslateminusy.html)
-
 [IModelDoc2::ViewTranslateplusy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewTranslateplusy.html)
 
 ## Availability

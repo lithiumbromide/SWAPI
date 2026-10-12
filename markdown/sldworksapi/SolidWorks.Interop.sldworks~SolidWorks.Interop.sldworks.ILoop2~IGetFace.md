@@ -40,13 +40,7 @@ Face2 IGetFace()
 Face2^ IGetFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Loop2::IGetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IGetFace.html)
-
-.
+See [Loop2::IGetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IGetFace.html).
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::GetFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~GetFace.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetSystemValue2 Method (IDimension)
 
-Obsolete. Superseded by
-
-[IDimension::SetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetSystemValue3.html)
-
-.
+Obsolete. Superseded by [IDimension::SetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetSystemValue3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.int SetSystemValue2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Dimension::SetSystemValue2](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetSystemValue2.html)
-
-.
+See [Dimension::SetSystemValue2](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetSystemValue2.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

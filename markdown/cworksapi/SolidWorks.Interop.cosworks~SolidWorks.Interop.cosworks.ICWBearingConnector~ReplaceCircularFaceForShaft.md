@@ -53,24 +53,15 @@ System.int ReplaceCircularFaceForShaft(
 
 ### Return Value
 
-Error code as defined by
-
-[swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
-
-v
+Error code as defined by [swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::ReplaceCircularFaceForShaft](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~ReplaceCircularFaceForShaft.html)
-
-.
+See [CWBearingConnector::ReplaceCircularFaceForShaft](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~ReplaceCircularFaceForShaft.html).
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

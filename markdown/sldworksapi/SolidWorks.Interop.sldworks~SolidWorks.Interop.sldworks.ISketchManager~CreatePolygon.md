@@ -75,13 +75,7 @@ System.Object^ CreatePolygon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -96,32 +90,21 @@ See
 
 ### Return Value
 
-Array of
-
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-in the polygon
+Array of [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) in the polygon
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreatePolygon](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreatePolygon.html)
-
-.
+See [SketchManager::CreatePolygon](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreatePolygon.html).
 
 ## Examples
 
 [Create Polygon (VBA)](Create_Polygon_Example_VB.htm)
-
 [Create Polygon (VB.NET)](Create_Polygon_Example_VBNET.htm)
-
 [Create Polygon (C#)](Create_Polygon_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

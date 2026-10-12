@@ -40,13 +40,7 @@ Camera InsertCamera()
 Camera^ InsertCamera();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertCamera](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertCamera.html)
-
-.
+See [ModelDocExtension::InsertCamera](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertCamera.html).
 
 ## Examples
 
 [Insert Camera (C#)](Insert_Camera_Example_CSharp.htm)
-
 [Insert Camera (VB.NET)](Insert_Camera_Example_VBNET.htm)
-
 [Insert Camera (VBA)](Insert_Camera_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

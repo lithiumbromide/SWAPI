@@ -50,35 +50,21 @@ void IDisplayWireFrameXOR(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Part`: Pointer to the
-
-[part](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html)
+- `Part`: Pointer to the [part](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html)
 - `Color`: Color of part
 
 ## VBA Syntax
 
-See
-
-[Body2::IDisplayWireFrameXOR](ms-its:sldworksapivb6.chm::/sldworks~Body2~IDisplayWireFrameXOR.html)
-
-.
+See [Body2::IDisplayWireFrameXOR](ms-its:sldworksapivb6.chm::/sldworks~Body2~IDisplayWireFrameXOR.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::DisplayWireFrameXOR Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DisplayWireFrameXOR.html)
 
 ## Availability

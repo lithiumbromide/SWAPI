@@ -75,53 +75,33 @@ Feature^ InsertMoveFace3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MoveType`: Type of move as defined in
-
-[swMoveFaceType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveFaceType_e.html)
+- `MoveType`: Type of move as defined in [swMoveFaceType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveFaceType_e.html)
 - `ReverseDir`: True to reverse the direction, false to not
-- `Angle`: Angle at which to draft the faces; valid only if MoveType is swMoveFaceType_e.swMoveFaceTypeRotate (see
+- `Angle`: Angle at which to draft the faces; valid only if MoveType is swMoveFaceType_e.swMoveFaceTypeRotate (see **Remarks**)
+- `Distance`: Distance to translate or offset the faces; valid only if MoveType is one of the following:
 
-Remarks
-
-)
-- `Distance`: DistanceParamDescto translate or offset the faces; valid only if MoveType is one of the following:
-
-- swMoveFaceType_e.swMoveFaceTypeOffset
-- swMoveFaceType_e.swMoveFaceTypeTranslate and EndConditionType is swEndConditions_e.swEndCondBlind (see
-
-  Remarks
-
-  )
-- `TranslationParams`: Array of three doubles for the delta x, delta y, and delta z direction translation (see
-
-Remarks
-
-)
+  - swMoveFaceType_e.swMoveFaceTypeOffset
+  - swMoveFaceType_e.swMoveFaceTypeTranslate and EndConditionType is swEndConditions_e.swEndCondBlind (see **Remarks**)
+- `TranslationParams`: Array of three doubles for the delta x, delta y, and delta z direction translation (see **Remarks**)
 - `RotationParams`: Array of six doubles:
 
-- First three doubles are the x, y, and z rotation origin
-- Last three doubles are the x, y, and z rotation angle
+  - First three doubles are the x, y, and z rotation origin
+  - Last three doubles are the x, y, and z rotation angle
 
-(see**Remarks**)
-- `EndConditionType`: End condition as defined in[swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html); valid only if MoveType is swMoveFaceType_e.swMoveFaceTypeTranslate
+  (see **Remarks**)
+- `EndConditionType`: End condition as defined in [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html); valid only if MoveType is swMoveFaceType_e.swMoveFaceTypeTranslate
 
-Only the following end condition types are valid:
+  Only the following end condition types are valid:
 
-- swEndConditions_e.swEndCondBlind
-- swEndConditions_e.swEndCondUpToVertex
-- swEndConditions_e.swEndCondUpToSurface
-- swEndConditions_e.swEndCondOffsetFromSurface
-- swEndConditions_e.swEndCondUpToBody
+  - swEndConditions_e.swEndCondBlind
+  - swEndConditions_e.swEndCondUpToVertex
+  - swEndConditions_e.swEndCondUpToSurface
+  - swEndConditions_e.swEndCondOffsetFromSurface
+  - swEndConditions_e.swEndCondUpToBody
 - `OffsetDistance`: Offset from surface; valid only if MoveType is swMoveFaceType_e.swMoveFaceTypeTranslate and EndConditionType is swEndConditions_e.swEndCondOffsetFromSurface
 
 ### Return Value
@@ -130,18 +110,12 @@ Only the following end condition types are valid:
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMoveFace3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveFace3.html)
-
-.
+See [FeatureManager::InsertMoveFace3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveFace3.html).
 
 ## Examples
 
 [Create and Modify Move Face Feature (VBA)](Create_and_Modify_Move_Face_Feature_Example_VB.htm)
-
 [Create and Modify Move Face Feature (VB.NET)](Create_and_Modify_Move_Face_Feature_Example_VBNET.htm)
-
 [Create and Modify Move Face Feature (C#)](Create_and_Modify_Move_Face_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -160,9 +134,7 @@ If you specify a value for TranslationParms or RotationParams, then do not speci
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
 
 ## Availability

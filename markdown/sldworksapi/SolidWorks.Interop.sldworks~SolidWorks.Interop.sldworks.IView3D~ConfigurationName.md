@@ -45,13 +45,7 @@ property System.String^ ConfigurationName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Configuration name
 
 ## VBA Syntax
 
-See
-
-[View3D::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~View3D~ConfigurationName.html)
-
-.
+See [View3D::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~View3D~ConfigurationName.html).
 
 ## Examples
 
-See the
-
-[IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html)
-
-examples.
+See the [IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html) examples.
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

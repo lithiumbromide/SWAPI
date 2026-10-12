@@ -51,20 +51,12 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the manipulator tot he selection list, false replaces the selection list with this manipulator
-- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -72,16 +64,11 @@ True if the manipulator is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Select](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Select.html)
-
-.
+See [Manipulator::Select](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Select.html).
 
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

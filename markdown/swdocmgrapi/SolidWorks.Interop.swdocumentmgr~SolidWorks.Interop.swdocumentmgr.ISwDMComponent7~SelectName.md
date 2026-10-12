@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # SelectName Property (ISwDMComponent7)
 
-Obsolete. Superseded by
-
-[ISwDMComponent11::SelectName2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~SelectName2.html)
-
-.
+Obsolete. Superseded by [ISwDMComponent11::SelectName2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~SelectName2.html).
 
 ## Syntax
 
@@ -52,18 +48,12 @@ Name to use during a selective open
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent7::SelectName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent7~SelectName.html)
-
-.
+See [SwDMComponent7::SelectName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent7~SelectName.html).
 
 ## See Also
 
 [ISwDMComponent7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7.html)
-
 [ISwDMComponent7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7_members.html)
-
 [ISwDMComponent7::Name2 Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7~Name2.html)
 
 ## Availability

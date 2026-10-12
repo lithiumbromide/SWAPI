@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,21 @@ Angle in radians at which to draft the faces
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~Angle.html)
-
-.
+See [MoveFaceFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~Angle.html).
 
 ## Examples
 
 [Rotate Move Face Feature (VB.NET)](Rotate_Move_Face_Feature_Example_VBNET.htm)
-
 [Rotate Move Face Feature (VBA)](Rotate_MoveFace_Feature_Example_VB.htm)
-
 [Rotate Move Face Feature (C#)](Rotate_Move_Face_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-The property is valid only if
-
-[IMoveFaceFeatureData::MoveType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~MoveType.html)
-
-is
-
-[swMoveFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFaceType_e.html)
-
-.swMoveFaceTypeRotate.
+The property is valid only if [IMoveFaceFeatureData::MoveType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~MoveType.html) is [swMoveFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFaceType_e.html).swMoveFaceTypeRotate.
 
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
 
 ## Availability

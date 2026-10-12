@@ -53,26 +53,18 @@ SwDMDimXpertFeature^ IGetFeatures(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
+in-process, unmanaged C++: Pointer to an array of [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Use
-
-[ISwDMDimXpertPart::GetFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatureCount.html)
-
-to populate the Count argument.
+Use [ISwDMDimXpertPart::GetFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatureCount.html) to populate the Count argument.
 
 ## See Also
 
 [ISwDMDimXpertPart Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart.html)
-
 [ISwDMDimXpertPart Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart_members.html)
-
 [ISwDMDimXpertPart::GetFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatures.html)
 
 ## Availability

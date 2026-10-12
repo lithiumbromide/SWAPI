@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IMaterialPropertyValues Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IMaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IMaterialPropertyValues.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IMaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IMaterialPropertyValues.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double IMaterialPropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IMaterialPropertyValues.html)
-
-.
+See [ModelDoc::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IMaterialPropertyValues.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

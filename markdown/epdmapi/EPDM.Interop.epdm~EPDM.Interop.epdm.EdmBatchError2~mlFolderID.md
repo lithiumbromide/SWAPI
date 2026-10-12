@@ -39,5 +39,4 @@ System.int mlFolderID
 ## See Also
 
 [EdmBatchError2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html)
-
 [EdmBatchError2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2_members.html)

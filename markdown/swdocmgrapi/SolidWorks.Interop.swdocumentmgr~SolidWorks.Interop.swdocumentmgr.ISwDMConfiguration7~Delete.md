@@ -49,20 +49,13 @@ property System.bool Delete {
 
 True marks this configuration as deleted, false does not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration7::Delete](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~Delete.html)
-
-.
+See [SwDMConfiguration7::Delete](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~Delete.html).
 
 ## See Also
 
 [ISwDMConfiguration7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7.html)
-
 [ISwDMConfiguration7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7_members.html)
 
 ## Availability

@@ -49,11 +49,7 @@ System.bool SetFavMaterial2(
 
 ### Parameters
 
-- `NFav`: 1 <= index of material in favorites list <= 100 (see
-
-Remarks
-
-)
+- `NFav`: 1 <= index of material in favorites list <= 100 (see **Remarks**)
 
 ### Return Value
 
@@ -61,16 +57,11 @@ Remarks
 
 ## Remarks
 
-The list of material favorites appears when you right-click a component in the Simulation study tree and click
-
-Apply Favorite Material
-
-.
+The list of material favorites appears when you right-click a component in the Simulation study tree and click **Apply Favorite Material**.
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
 
 ## Availability

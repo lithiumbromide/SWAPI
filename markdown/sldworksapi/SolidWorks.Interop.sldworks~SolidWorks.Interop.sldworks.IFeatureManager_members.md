@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IFeatureManager Interface Members
 
-The following tables list the members exposed by[IFeatureManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html).
+The following tables list the members exposed by [IFeatureManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html).
 
 ## Public Properties
 
@@ -197,6 +197,7 @@ The following tables list the members exposed by[IFeatureManager](SolidWorks.Int
 | Method | InsertFreeform | Ob solete. Superseded by IFeatureManager::InsertFreeform2 . |
 | Method | InsertFreeform2 | Inserts a Freeform feature. |
 | Method | InsertGlobalBoundingBox | Obsolete. See IFeatureManager::CreateDefinition and IBoundingBoxFeatureData . |
+| Method | InsertGlobalBoundingBox2 | Inserts the specified global bounding box using a custom coordinate system. See IFeatureManager::CreateDefinition and IBoundingBoxFeatureData . |
 | Method | InsertGridFeature | Inserts a Grid System feature. |
 | Method | InsertGroundPlane | Obsolete. See IFeatureManager::CreateDefinition and IGroundPlaneFeatureData . |
 | Method | InsertGussetFeature | Obsolete. Superseded by IFeatureManager::InsertGussetFeature3 . |
@@ -313,5 +314,4 @@ The following tables list the members exposed by[IFeatureManager](SolidWorks.Int
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

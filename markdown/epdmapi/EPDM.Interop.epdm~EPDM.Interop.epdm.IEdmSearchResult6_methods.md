@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6_methods.h
 
 # IEdmSearchResult6 Interface Methods
 
-For a list of all members of this type, see[IEdmSearchResult6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6_members.html).
+For a list of all members of this type, see [IEdmSearchResult6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmSearchResult6 members](EPDM.Inte
 ## See Also
 
 [IEdmSearchResult6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -47,33 +47,21 @@ System.int GetErrorCode2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `IsWarning`: True if the error is a warning, false if not
 
-**NOTE**: This parameter should only be examined if the return value is non-zero.
+  **NOTE**: This parameter should only be examined if the return value is non-zero.
 
 ### Return Value
 
-Feature error code as defined in
-
-[swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
+Feature error code as defined in [swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetErrorCode2](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetErrorCode2.html)
-
-.
+See [Feature::GetErrorCode2](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetErrorCode2.html).
 
 ## Examples
 
@@ -89,15 +77,10 @@ During feature creation, you can prevent the error dialog from appearing by usin
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [ISldWorks::AllowFailedFeatureCreation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AllowFailedFeatureCreation.html)
-
 [IModelDoc2::ShowFeatureErrorDialog Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ShowFeatureErrorDialog.html)
-
 [IModelDocExtension::GetWhatsWrong Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetWhatsWrong.html)
-
 [IModelDocExtension::GetWhatsWrongCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetWhatsWrongCount.html)
 
 ## Availability

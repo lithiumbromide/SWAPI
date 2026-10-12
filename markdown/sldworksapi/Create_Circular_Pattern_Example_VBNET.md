@@ -9,10 +9,29 @@ source: "sldworksapi/Create_Circular_Pattern_Example_VBNET.htm"
 
 # Create Circular Pattern Example (VB.NET)
 
-This example shows how to create a circular-pattern feature using selected direction axis, pattern seed features, and variable
-spacing between pattern instances.
+This example shows how to create a circular-pattern feature using selected direction axis, pattern seed features, and variable spacing between pattern instances.
 
-'---------------------------------------------------------------------------- ' Preconditions: Open public_documents \samples\tutorial\api\varyinstance.sldprt ' ' Postconditions: Creates a circular-pattern feature. ' ' NOTE: Because the model is used elsewhere, do not save changes. '----------------------------------------------------------------------------- Imports SolidWorks.Interop.sldworks Imports SolidWorks.Interop.swconst Imports System.Runtime.InteropServices Imports System Partial Class SolidWorksMacro Public Sub Main() Dim swModel As ModelDoc2 Dim swModelDocExt As ModelDocExtension Dim swFeatureMgr As FeatureManager Dim boolstatus As Boolean Dim status As Integer
+'----------------------------------------------------------------------------
+' Preconditions: Open `public_documents`\samples\tutorial\api\varyinstance.sldprt
+'
+' Postconditions: Creates a circular-pattern feature.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'-----------------------------------------------------------------------------
+Imports SolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.swconst
+Imports System.Runtime.InteropServices
+Imports System
+
+Partial Class SolidWorksMacro
+
+Public Sub Main()
+
+Dim swModel As ModelDoc2
+Dim swModelDocExt As ModelDocExtension
+Dim swFeatureMgr As FeatureManager
+Dim boolstatus As Boolean
+Dim status As Integer
 
 ```
         swModel = swApp.ActivateDoc3("varyInstance.sldprt", False, swRebuildOnActivation_e.swUserDecision, status)

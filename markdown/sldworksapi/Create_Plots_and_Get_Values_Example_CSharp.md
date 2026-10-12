@@ -9,16 +9,15 @@ source: "sldworksapi/Create_Plots_and_Get_Values_Example_CSharp.htm"
 
 # Create Plots and Get Values Example (C#)
 
-This example shows how to get the translational displacement and velocity
-values of a selected face and how to plot these values.
+This example shows how to get the translational displacement and velocity values of a selected face and how to plot these values.
 
 ```vb
  //--------------------------------------------------------------------------
  // Preconditions:
  // 1. Start SOLIDWORKS Premium, which includes SOLIDWORKS Motion.
- // 2. In SOLIDWORKS:
+ // 2. In SOLIDWORKS Design:
  //    a. Start the SOLIDWORKS Motion Study add-in (in
- //       SOLIDWORKS, click Tools > Add-Ins > SOLIDWORKS Motion).
+ //       SOLIDWORKS Design, click Tools > Add-Ins > SOLIDWORKS Motion).
  //    b. Open public_documents\samples\tutorial\motionstudies\valve_cam.sldasm.
  //    c. Click the 1200 Motion Study tab in the lower-left corner of
  //       the MotionManager.

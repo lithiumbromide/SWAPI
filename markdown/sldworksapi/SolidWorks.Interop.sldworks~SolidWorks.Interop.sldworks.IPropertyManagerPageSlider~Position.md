@@ -45,13 +45,7 @@ property System.int Position {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Current position of slider
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::Position](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~Position.html)
-
-.
+See [PropertyManagerPageSlider::Position](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~Position.html).
 
 ## Examples
 
@@ -71,14 +61,13 @@ See
 
 ## Remarks
 
-Position must be a value within the specified range. To get the range, use[IPropertyManagerPageSlider::GetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~GetRange.html); to set the range, use[IPropertyManagerPageSlider::SetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html).
+Position must be a value within the specified range. To get the range, use [IPropertyManagerPageSlider::GetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~GetRange.html); to set the range, use [IPropertyManagerPageSlider::SetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html).
 
 If you do not set the initial position of a slider, then the value defaults to a position of 5.
 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

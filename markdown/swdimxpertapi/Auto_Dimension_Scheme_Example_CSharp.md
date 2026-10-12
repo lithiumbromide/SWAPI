@@ -9,9 +9,7 @@ source: "swdimxpertapi/Auto_Dimension_Scheme_Example_CSharp.htm"
 
 # Auto Dimension Scheme Example (C#)
 
-This example shows how to create a DimXpert Auto Dimension Scheme, turn
-tolerance status on and off,
-and delete tolerances.
+This example shows how to create a DimXpert Auto Dimension Scheme, turn tolerance status on and off, and delete tolerances.
 
 ```vb
  //---------------------------------------------------------------------------

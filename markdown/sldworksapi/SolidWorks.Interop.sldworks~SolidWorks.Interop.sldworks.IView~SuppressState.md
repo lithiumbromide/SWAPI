@@ -45,13 +45,7 @@ property System.int SuppressState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,16 +55,10 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::SuppressState](ms-its:sldworksapivb6.chm::/sldworks~View~SuppressState.html)
-
-.
+See [View::SuppressState](ms-its:sldworksapivb6.chm::/sldworks~View~SuppressState.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IDrawingDoc::SuIppressView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SuppressView.html)

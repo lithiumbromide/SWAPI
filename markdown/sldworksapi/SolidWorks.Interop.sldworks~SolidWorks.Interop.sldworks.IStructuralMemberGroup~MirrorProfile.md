@@ -45,13 +45,7 @@ property System.bool MirrorProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to mirror the profile, false to not
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~MirrorProfile.html)
-
-.
+See [StructuralMemberGroup::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~MirrorProfile.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
-
 [IStructuralMemberGroup::MirrorProfileAxis Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup~MirrorProfileAxis.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool Flipped {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True to flip the mate, false to not
 
 ## VBA Syntax
 
-See
-
-[Mate2::Flipped](ms-its:sldworksapivb6.chm::/sldworks~Mate2~Flipped.html)
-
-.
+See [Mate2::Flipped](ms-its:sldworksapivb6.chm::/sldworks~Mate2~Flipped.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::CanBeFlipped Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~CanBeFlipped.html)
-
 [IMate2::Type Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~Type.html)
 
 ## Availability

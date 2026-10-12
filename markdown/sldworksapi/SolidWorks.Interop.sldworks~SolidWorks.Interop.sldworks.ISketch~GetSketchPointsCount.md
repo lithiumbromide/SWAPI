@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetSketchPointsCount Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetSketchPointsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPointsCount2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetSketchPointsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPointsCount2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetSketchPointsCount()
 System.int GetSketchPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchPointsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchPointsCount.html)
-
-.
+See [Sketch::GetSketchPointsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchPointsCount.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

@@ -40,13 +40,7 @@ System.double GetMinimumAcceptableClearance()
 System.double GetMinimumAcceptableClearance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Minimum acceptable clearance value
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::GetMinimumAcceptableClearance](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~GetMinimumAcceptableClearance.html)
-
-.
+See [ClearanceVerificationMgr::GetMinimumAcceptableClearance](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~GetMinimumAcceptableClearance.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
-
 [IClearanceVerificationMgr::IgnoreClearanceEqualToSpecifiedValue Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr~IgnoreClearanceEqualToSpecifiedValue.html)
 
 ## Availability

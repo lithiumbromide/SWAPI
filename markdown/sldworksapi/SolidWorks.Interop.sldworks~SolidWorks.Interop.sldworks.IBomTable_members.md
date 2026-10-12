@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IBomTable Interface Members
 
-The following tables list the members exposed by[IBomTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html).
+The following tables list the members exposed by [IBomTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html).
 
 ## Public Methods
 
@@ -41,5 +41,4 @@ The following tables list the members exposed by[IBomTable](SolidWorks.Interop.s
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

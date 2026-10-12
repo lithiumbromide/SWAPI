@@ -45,13 +45,7 @@ property System.String^ Title {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ Text for title of table
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::Title](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Title.html)
-
-.
+See [TableAnnotation::Title](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Title.html).
 
 ## Examples
 
 [Get Components for Each BOM Table Row (VBA)](Get_Components_in_Each_BOM_Table_Row_VB.htm)
-
 [Export BOMs to XML (C#)](Export_BOMs_to_XML_Example_CSharp.htm)
-
 [Export BOMs to XML (VB.NET)](Export_BOMs_to_XML_Example_VBNET.htm)
-
 [Export BOMs to XML (VBA)](Export_BOMs_to_XML_Example_VB.htm)
 
 ## Remarks
 
-You can set the title of the table even if the title is not currently visible. See
-
-[ITableAnnotation::TitleVisible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~TitleVisible.html)
-
-for details.
+You can set the title of the table even if the title is not currently visible. See [ITableAnnotation::TitleVisible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~TitleVisible.html) for details.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

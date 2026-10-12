@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateVaultFlag.html"
 
 # EdmCreateVaultFlag Enumeration
 
-Options for creating new vaults used in calls to
-
-[IEdmVault11::CreateNewVault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVault.html)
-
-.
+Options for creating new vaults used in calls to [IEdmVault11::CreateNewVault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVault.html).
 
 ## Syntax
 

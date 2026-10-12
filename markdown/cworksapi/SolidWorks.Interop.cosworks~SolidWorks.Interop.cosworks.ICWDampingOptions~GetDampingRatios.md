@@ -42,23 +42,15 @@ System.Object^ GetDampingRatios();
 
 ### Return Value
 
-Array of modes and damping ratios (see
-
-Remarks
-
-)
+Array of modes and damping ratios (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDampingOptions::GetDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~GetDampingRatios.html)
-
-.
+See [CWDampingOptions::GetDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~GetDampingRatios.html).
 
 ## Remarks
 
-This method works only if[ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html)is set to[swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Modal and[ICWDampingOptions::ComputeFromMaterialDamping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~ComputeFromMaterialDamping.html)is set to 0 (off).
+This method works only if [ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html) is set to [swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Modal and [ICWDampingOptions::ComputeFromMaterialDamping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~ComputeFromMaterialDamping.html) is set to 0 (off).
 
 This method returns a one-dimensional array of one or more data sets, each containing:
 
@@ -71,11 +63,8 @@ For more information about modal damping, see the SOLIDWORKS Simulation Help.
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
-
 [ICWDampingOptions::SetDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~SetDampingRatios.html)
-
 [ICWDampingOptions::ClearAllDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~ClearAllDampingRatios.html)
 
 ## Availability

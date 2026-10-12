@@ -9,8 +9,7 @@ source: "sldworksapi/Get_P-Spline_Parameterization_Data_Example_VB.htm"
 
 # Get P-Spline Parameterization Data Example (VBA)
 
-This example shows how to get P-spline parameter data for a selected
-spline or curve.
+This example shows how to get P-spline parameter data for a selected spline or curve.
 
 ```vb
  '----------------------------------------------------------------------------

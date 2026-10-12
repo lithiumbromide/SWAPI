@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFeatureTreeFolder Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertFeatureTreeFolder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertFeatureTreeFolder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool InsertFeatureTreeFolder()
 System.bool InsertFeatureTreeFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFeatureTreeFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureTreeFolder.html)
-
-.
+See [FeatureManager::InsertFeatureTreeFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureTreeFolder.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

@@ -45,36 +45,20 @@ property System.String^ ConfigurationName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Name of the configuration in the custom weldment profile or an empty string (see
-
-Remarks
-
-)
+Name of the configuration in the custom weldment profile or an empty string (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ConfigurationName.html)
-
-.
+See [StructuralMemberFeatureData::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ConfigurationName.html).
 
 ## Examples
 
 [Insert Structural Weldments Using Custom Weldment Profile (C#)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_CSharp.htm)
-
 [Insert Structural Weldments Using Custom Weldment Profile (VB.NET)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_VBNET.htm)
-
 [Insert Structural Weldments Using Custom Weldment Profile (VBA)](Insert_Structural_Weldments_Using_Custom_Weldment_Profile_Example_VB.htm)
 
 ## Remarks
@@ -83,15 +67,12 @@ An empty string indicates that a configuration in a custom weldment profile was 
 
 See:
 
-- [IFeatureManager::InsertStructuralWeldment5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertStructuralWeldment5.html)
-
-  for details about inserting a structural member using a configuration in a custom weldment profile.
+- [IFeatureManager::InsertStructuralWeldment5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertStructuralWeldment5.html) for details about inserting a structural member using a configuration in a custom weldment profile.
 - SOLIDWORKS Help for details about custom weldment profiles.
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
 
 ## Availability

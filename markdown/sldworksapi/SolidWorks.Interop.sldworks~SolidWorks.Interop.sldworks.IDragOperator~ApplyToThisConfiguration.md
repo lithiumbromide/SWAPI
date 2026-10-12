@@ -45,13 +45,7 @@ property System.bool ApplyToThisConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True applies the movement of the components only to the active configuration, fa
 
 ## VBA Syntax
 
-See
-
-[DragOperator::ApplyToThisConfiguration](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~ApplyToThisConfiguration.html)
-
-.
+See [DragOperator::ApplyToThisConfiguration](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~ApplyToThisConfiguration.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

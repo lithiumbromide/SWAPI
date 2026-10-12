@@ -51,47 +51,25 @@ SketchSegment^ CreateFillet(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Radius`: Radius of the fillet in meters
-- `ConstrainedCorners`: Action to take as defined in
-
-[swConstrainedCornerAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedCornerAction_e.html)
-
-(see
-
-Remarks
-
-)
+- `ConstrainedCorners`: Action to take as defined in [swConstrainedCornerAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedCornerAction_e.html) (see **Remarks**)
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for the fillet
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the fillet
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateFillet](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateFillet.html)
-
-.
+See [SketchManager::CreateFillet](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateFillet.html).
 
 ## Examples
 
 [Edit Radial Dimension (C#)](Edit_Radial_Dimension_Example_CSharp.htm)
-
 [Edit Radial Dimension (VB.NET)](Edit_Radial_Dimension_Example_VBNET.htm)
-
 [Edit Radial Dimension (VBA)](Edit_Radial_Dimension_Example_VB.htm)
 
 ## Remarks
@@ -101,7 +79,6 @@ The ConstrainedCorners parameter indicates what action to take if the corner to 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

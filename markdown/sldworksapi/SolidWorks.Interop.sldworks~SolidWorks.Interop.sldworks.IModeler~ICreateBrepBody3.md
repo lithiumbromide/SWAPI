@@ -107,64 +107,30 @@ Body2^ ICreateBrepBody3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of body to create as defined in
-
-[swTopology_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTopology_e.html)
+- `Type`: Type of body to create as defined in [swTopology_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTopology_e.html)
 - `NTopologies`: Number of topological entities in the topologies argument
-- `Topologies`: Array of topologies (see
-
-[swTopoEntity_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTopoEntity_e.html)
-
-), one for each topological entity
+- `Topologies`: Array of topologies (see [swTopoEntity_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTopoEntity_e.html)), one for each topological entity
 - `EdgeTolArray`: Array of tolerances for edges
 - `VertexTolArray`: Array of tolerances for vertices
 - `PointArray`: Array of coordinates of vertices (geometry for vertices)
-- `CurveArra1`: Array of
-
-[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-(geometry for edges; 3D curve) and coedges (geometry for coedges; 2D curve)
-- `CurveSurfaceArray1`: Array of
-
-[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-that lie on CurveArra1 2D curve
-- `CurveArray2`: Array of
-
-[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-(geometry for edges; 3D curve) and array of coedges (geometry for coedges; 2D curve)
-- `CurveSurfaceArray2`: Array of
-
-[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-that on lie on CurveArray2 2D curve
-- `SurfaceArray`: Array of
-
-[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-(geometry for faces)
+- `CurveArra1`: Array of [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) (geometry for edges; 3D curve) and coedges (geometry for coedges; 2D curve)
+- `CurveSurfaceArray1`: Array of [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) that lie on CurveArra1 2D curve
+- `CurveArray2`: Array of [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) (geometry for edges; 3D curve) and array of coedges (geometry for coedges; 2D curve)
+- `CurveSurfaceArray2`: Array of [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) that on lie on CurveArray2 2D curve
+- `SurfaceArray`: Array of [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) (geometry for faces)
 - `NRelations`: Number of 1-to-1 relationships between topological entities
 - `Parents`: Array of parents, one in each relationship
 - `Children`: Array of children, one in each relationship
-
-ParamDesc
 - `Senses`: Array of senses in which child is used by parent in the relationship
 - `Option`: - 0 = Default
 
-1 = Repair and simplify body
+  1 = Repair and simplify body
 
-2 = Simplify body
+  2 = Simplify body
 
 ### Return Value
 
@@ -172,34 +138,28 @@ ParamDesc
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateBrepBody3](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBrepBody3.html)
-
-.
+See [Modeler::ICreateBrepBody3](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBrepBody3.html).
 
 ## Remarks
 
 The CurveArray1 and CurveArray2 must be paired with CurveSurfaceArray1 and CurveSurfaceArray2, respectively. Order is not important. The 2D curve has to be created in the direction of the loop.
 
-If non-negative values are packed into the EdgeToleranceArrayand VertexToleranceArray arrays, then tolerances are applied to the corresponding edges or vertices. These arrays should be the same size as CurveArray1 and PointArray, respectively. Otherwise, a default value of 1.0e-8 (modeler precision) is used.
+If non-negative values are packed into the EdgeToleranceArray and VertexToleranceArray arrays, then tolerances are applied to the corresponding edges or vertices. These arrays should be the same size as CurveArray1 and PointArray, respectively. Otherwise, a default value of 1.0e-8 (modeler precision) is used.
 
-NOTE:[IModeler::SetInitKnitGapWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SetInitKnitGapWidth.html)does not affect this method.
+NOTE: [IModeler::SetInitKnitGapWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SetInitKnitGapWidth.html) does not affect this method.
 
 Useful methods for creating geometry for the topological entities are:
 
-- [IBody2::CreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarSurface.html)or[IBody2::ICreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreatePlanarSurface.html)
-- [IBody2::AddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileArc.html)or[IBody2::IAddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileArc.html)
-- [IBody2::AddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileLine.html)or[IBody2::IAddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLine.html)
-- [IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html)or[IBody2::ICreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurface.html)
+- [IBody2::CreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarSurface.html) or [IBody2::ICreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreatePlanarSurface.html)
+- [IBody2::AddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileArc.html) or [IBody2::IAddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileArc.html)
+- [IBody2::AddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileLine.html) or [IBody2::IAddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLine.html)
+- [IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html) or [IBody2::ICreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurface.html)
 
-For example, to create a cone, find topological relationships and form relevant arrays. Akadov_tag{{</spaces>}}complete solid cone consists of 8 topological entities:
+For example, to create a cone, find topological relationships and form relevant arrays. A complete solid cone consists of 8 topological entities:
 
 There are 8 relations:
 
 The topologies array:
-
-(Table)=========================================================
 
 | Index | Value |
 | --- | --- |
@@ -214,8 +174,6 @@ The topologies array:
 
 The set of arrays:
 
-(Table)=========================================================
-
 | index | parents | children | senses | relation |
 | --- | --- | --- | --- | --- |
 | 0 | 0 | 1 | 0 | shell to face |
@@ -229,44 +187,28 @@ The set of arrays:
 
 Values in the parents and children arrays correspond to the indices of the topology array.
 
-Each face or edge created by[IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html)or IModeler::ICreateBrepBody3 has an associated integer ID that is the same as the index to the input topologies. Use[IFace2::GetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFaceId.html)or[IEdge::GetId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetID.html)to get the associated integer ID.
+Each face or edge created by [IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html) or IModeler::ICreateBrepBody3 has an associated integer ID that is the same as the index to the input topologies. Use [IFace2::GetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFaceId.html) or [IEdge::GetId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetID.html) to get the associated integer ID.
 
-Every shell should be a closed shell. Sheet bodies should have additional back faces to form a closed shell. When creating a sheet body, these extra back faces are retained in the result and should be removed using[IModeler::DeleteFacesFromSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~DeleteFacesFromSheetBody.html)or[IModeler::IDeleteFacesFromSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IDeleteFacesFromSheetBody.html).
+Every shell should be a closed shell. Sheet bodies should have additional back faces to form a closed shell. When creating a sheet body, these extra back faces are retained in the result and should be removed using [IModeler::DeleteFacesFromSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~DeleteFacesFromSheetBody.html) or [IModeler::IDeleteFacesFromSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IDeleteFacesFromSheetBody.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::CreateBodiesFromSheets2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html)
-
 [IModeler::CreateBodyFromBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBodyFromBox.html)
-
 [IModeler::CreateBodyFromCone Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBodyFromCone.html)
-
 [IModeler::CreateBodyFromCyl Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBodyFromCyl.html)
-
 [IModeler::CreateBodyFromFaces2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBodyFromFaces2.html)
-
 [IModeler::CreateBrepBody3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBrepBody3.html)
-
 [IModeler::CreateExtrudedBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateExtrudedBody.html)
-
 [IModeler::CreateSweptBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateSweptBody.html)
-
 [IModeler::CreateWireBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateWireBody.html)
-
 [IModeler::ICreateBodiesFromSheets2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBodiesFromSheets2.html)
-
 [IModeler::ICreateBodyFromBox2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBodyFromBox2.html)
-
 [IModeler::ICreateBodyFromCone2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBodyFromCone2.html)
-
 [IModeler::ICreateBodyFromCyl2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBodyFromCyl2.html)
-
 [IModeler::ICreateBodyFromFaces3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html)
-
 [IModeler::ICreateWireBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateWireBody.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.Object^ PickPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Array of x, y, z-coordinates, one set for each mate entity
 
 ## VBA Syntax
 
-See
-
-[ParallelMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~ParallelMateFeatureData~PickPoints.html)
-
-.
+See [ParallelMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~ParallelMateFeatureData~PickPoints.html).
 
 ## Remarks
 
-After you set the pick points for a given selection of
-
-[IParallelMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData~EntitiesToMate.html)
-
-, you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new parallel mate.
+After you set the pick points for a given selection of [IParallelMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData~EntitiesToMate.html), you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new parallel mate.
 
 ## See Also
 
 [IParallelMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData.html)
-
 [IParallelMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool KeepMissingItems {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to keep missing cut list items, false to not
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::KeepMissingItems](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~KeepMissingItems.html)
-
-.
+See [WeldmentCutListFeature::KeepMissingItems](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~KeepMissingItems.html).
 
 ## Remarks
 
-Use[IWeldmentCutListFeature::StrikeoutMissingItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~StrikeoutMissingItems.html)to determine if deleted items are to be shown with strikeout formatting in the weldment cut list table.
+Use [IWeldmentCutListFeature::StrikeoutMissingItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~StrikeoutMissingItems.html) to determine if deleted items are to be shown with strikeout formatting in the weldment cut list table.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
-
 [IWeldmentCutListFeature::KeepCurrentItemNumbers Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~KeepCurrentItemNumbers.html)
-
 [IWeldmentCutListFeature::SequenceStartNumber Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~SequenceStartNumber.html)
 
 ## Availability

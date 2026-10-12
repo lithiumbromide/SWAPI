@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnStringValueChanged Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnStringValueChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnStringValueChanged.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnStringValueChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnStringValueChanged.html).
 
 ## Syntax
 
@@ -67,14 +63,9 @@ System.bool OnStringValueChanged(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnStringValueChanged.html)
-
-.
+See [SwManipulatorHandler::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnStringValueChanged.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

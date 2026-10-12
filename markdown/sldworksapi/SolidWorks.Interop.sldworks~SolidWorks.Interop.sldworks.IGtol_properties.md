@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # IGtol Interface Properties
 
-For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html).
+For a list of all members of this type, see [IGtol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html).
 
 ## Public Properties
 
@@ -23,9 +23,6 @@ For a list of all members of this type, see[IGtol members](SolidWorks.Interop.sl
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IModelDoc2::InsertGtol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertGtol.html)

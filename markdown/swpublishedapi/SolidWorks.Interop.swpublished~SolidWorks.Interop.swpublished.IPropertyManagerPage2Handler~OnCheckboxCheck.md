@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnCheckboxCheck Method (IPropertyManagerPage2Handler)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnCheckboxCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnCheckboxCheck.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnCheckboxCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnCheckboxCheck.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnCheckboxCheck(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler::OnCheckboxCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnCheckboxCheck.html)
-
-.
+See [PropertyManagerPage2Handler::OnCheckboxCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnCheckboxCheck.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler.html)
-
 [IPropertyManagerPage2Handler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html)

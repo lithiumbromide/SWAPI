@@ -57,39 +57,21 @@ System.int SetComponentUnitAndValueByElem(
 
 ### Parameters
 
-- `NComponent`: Component to plot (see
-
-Remarks
-
-)
-- `NUnits`: Units as appropriate for NComponent (see
-
-Remarks
-
-)
+- `NComponent`: Component to plot (see **Remarks**)
+- `NUnits`: Units as appropriate for NComponent (see **Remarks**)
 - `BValueByElem`: True to plot element values, false to plot node values
 
 ### Return Value
 
-Error code as defined by
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined by [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::SetComponentUnitAndValueByElem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetComponentUnitAndValueByElem.html)
-
-.
+See [CWPlot::SetComponentUnitAndValueByElem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetComponentUnitAndValueByElem.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
@@ -112,9 +94,7 @@ examples.
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
-
 [ICWResults::CreatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreatePlot.html)
 
 ## Availability

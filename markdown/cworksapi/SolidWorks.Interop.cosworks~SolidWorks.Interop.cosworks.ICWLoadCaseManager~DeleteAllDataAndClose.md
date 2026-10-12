@@ -41,30 +41,18 @@ void DeleteAllDataAndClose();
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::DeleteAllDataAndClose](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~DeleteAllDataAndClose.html)
-
-.
+See [CWLoadCaseManager::DeleteAllDataAndClose](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~DeleteAllDataAndClose.html).
 
 ## Examples
 
-See the
-
-[ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
-examples.
+See the [ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html) examples.
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::CloseLoadCaseManager Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~CloseLoadCaseManager.html)
-
 [ICWLoadCaseManager::OpenLoadCaseManager Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~OpenLoadCaseManager.html)
-
 [ICWLoadCaseManager::RunLoadCases Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~RunLoadCases.html)
 
 ## Availability

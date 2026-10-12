@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # ThinWallType Property (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::ThinWallType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ThinWallType.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::ThinWallType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ThinWallType.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.int ThinWallType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::ThinWallType](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~ThinWallType.html)
-
-.
+See [ExtrudeFeatureData::ThinWallType](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~ThinWallType.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

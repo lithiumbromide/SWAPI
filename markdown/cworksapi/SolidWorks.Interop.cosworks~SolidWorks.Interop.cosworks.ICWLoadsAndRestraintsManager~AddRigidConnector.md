@@ -59,7 +59,7 @@ CWRigidConnector^ AddRigidConnector(
 
 - `PersistIDFaceArray`: Array of objects of the faces from a solid body
 - `PersistIDTargetArray`: Array of objects of the faces from the target solid body
-- `ErrorCode`: Error as defined in[swsRigidConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRigidConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsRigidConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRigidConnectorError_e.html)
 
 ### Return Value
 
@@ -67,24 +67,17 @@ CWRigidConnector^ AddRigidConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddRigidConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRigidConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddRigidConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRigidConnector.html).
 
 ## Examples
 
 [Add Rigid Connector (VBA)](Add_Rigid_Connector_Example_VB.htm)
-
 [Add Rigid Connector (VB.NET)](Add_Rigid_Connector_Example_VBNET.htm)
-
 [Add Rigid Connector (C#)](Add_Rigid_Connector_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

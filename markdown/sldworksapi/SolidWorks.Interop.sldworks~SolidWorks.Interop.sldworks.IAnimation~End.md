@@ -40,13 +40,7 @@ System.bool End()
 System.bool End();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the animation is positioned at its ends, false if the animation controll
 
 ## VBA Syntax
 
-See
-
-[Animation::End](ms-its:sldworksapivb6.chm::/sldworks~Animation~End.html)
-
-.
+See [Animation::End](ms-its:sldworksapivb6.chm::/sldworks~Animation~End.html).
 
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

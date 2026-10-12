@@ -47,30 +47,19 @@ property System.int DistributionType {
 
 ### Property Value
 
-Bearing load distribution as defined in
-
-[swsBearingLoadDistributionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingLoadDistributionType_e.html)
+Bearing load distribution as defined in [swsBearingLoadDistributionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingLoadDistributionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::DistributionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~DistributionType.html)
-
-.
+See [CWBearingLoad::DistributionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~DistributionType.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
 
 ## Availability

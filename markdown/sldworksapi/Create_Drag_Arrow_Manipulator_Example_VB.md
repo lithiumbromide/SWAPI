@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Drag_Arrow_Manipulator_Example_VB.htm"
 
 # Create Drag Arrow Manipulator Example (VBA)
 
-This example shows how to create a drag arrow manipulator, which is
-called a handle in the user interface.
+This example shows how to create a drag arrow manipulator, which is called a handle in the user interface.
 
 - [Main Module](#Modules)
 - [Handler Module](#Class)
@@ -83,8 +82,6 @@ Sub main()
     Dim pt As Variant
      pt = origin.ArrayData
 End Sub
-
-}}end!kadovkadov_tag{{<implicit_p>}}
 ```
 
 #### Handler module
@@ -170,7 +167,3 @@ Public Sub SwManipulatorHandler2_OnUpdateDrag(ByVal pManipulator As Object, ByVa
     Debug.Print "  HandleIndex      = " & handleIndex
 End Sub
 ```
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}

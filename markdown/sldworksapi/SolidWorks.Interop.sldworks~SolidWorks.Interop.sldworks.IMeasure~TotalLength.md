@@ -42,13 +42,7 @@ property System.double TotalLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,28 +50,19 @@ Total length of the two selected entities or -1 if this property is invalid for 
 
 ## VBA Syntax
 
-See
-
-[Measure::TotalLength](ms-its:sldworksapivb6.chm::/Sldworks~Measure~TotalLength.html)
-
-.
+See [Measure::TotalLength](ms-its:sldworksapivb6.chm::/Sldworks~Measure~TotalLength.html).
 
 ## Examples
 
 [Measure Selected Entities (C#)](Measure_Selected_Entities_Example_CSharp.htm)
-
 [Measure Selected Entities (VB.NET)](Measure_Selected_Entities_Example_VBNET.htm)
-
 [Measure Selected Entities (VBA)](Measure_Selected_Entities_Example_VB.htm)
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::Length Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Length.html)
-
 [IMeasure::LengthDecimalPlaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~LengthDecimalPlaces.html)
 
 ## Availability

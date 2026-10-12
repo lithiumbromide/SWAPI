@@ -45,13 +45,7 @@ property System.double Magnitude {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Magnitude
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::Magnitude](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~Magnitude.html)
-
-.
+See [SimulationMotorFeatureData::Magnitude](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~Magnitude.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
 
 ## Availability

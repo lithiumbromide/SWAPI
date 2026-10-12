@@ -1,6 +1,5 @@
 ---
-title: "CWResultsProbeManager Object
-Members"
+title: "CWResultsProbeManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWResultsProbeManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWResultsProbeManager_members.html"
 ---
 
-# CWResultsProbeManager Object
-Members
+# CWResultsProbeManager Object Members
 
 ## Public Methods
 

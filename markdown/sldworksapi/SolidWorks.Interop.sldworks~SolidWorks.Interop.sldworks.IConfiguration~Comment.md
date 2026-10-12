@@ -45,13 +45,7 @@ property System.String^ Comment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,17 @@ Comment for the configuration
 
 ## VBA Syntax
 
-See
-
-[Configuration::Comment](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Comment.html)
-
-.
+See [Configuration::Comment](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Comment.html).
 
 ## Examples
 
 [Change Configuration Properties (VBA)](Change_Configuration_Properties_Example_VB.htm)
-
 [Traverse Hierarchy of Configurations (VBA)](Traverse_Hierarchy_of_Configurations_Example_VB.htm)
-
 [Get List of Configurations (C#)](Get_List_Of_Configurations_Example_CSharp.htm)
-
 [Get List of Configurations (VB.NET)](Get_List_Of_Configurations_Example_VBNET.htm)
-
 [Get List of Configurations (VBA)](Get_List_Of_Configurations_Example_VB.htm)
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)

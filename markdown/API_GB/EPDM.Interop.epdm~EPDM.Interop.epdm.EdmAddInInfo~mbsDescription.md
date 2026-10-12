@@ -35,5 +35,4 @@ System.String^ mbsDescription
 ## See Also
 
 [EdmAddInInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html)
-
 [EdmAddInInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo_members.html)

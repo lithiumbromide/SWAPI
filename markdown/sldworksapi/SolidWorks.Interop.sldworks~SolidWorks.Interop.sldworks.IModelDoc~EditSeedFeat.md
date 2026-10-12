@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditSeedFeat Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditSeedFeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSeedFeat.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditSeedFeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSeedFeat.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditSeedFeat()
 void EditSeedFeat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditSeedFeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditSeedFeat.html)
-
-.
+See [ModelDoc::EditSeedFeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditSeedFeat.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -42,26 +42,17 @@ System.int DeleteAllDefaultThermalStudyPlots();
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
+Error code as defined in [swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DeleteAllDefaultThermalStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultThermalStudyPlots.html)
-
-.
+See [CWModelDoc::DeleteAllDefaultThermalStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultThermalStudyPlots.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::AddDefaultThermalStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~AddDefaultThermalStudyPlot.html)
-
 [ICWModelDoc::DeleteDefaultThermalStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultThermalStudyPlot.html)
 
 ## Availability

@@ -58,19 +58,11 @@ public delegate System.int DAssemblyDocEvents_ComponentReferredDisplayStateChang
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `componentModel`: [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-whose referenced display state is changing
+- `componentModel`: [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) whose referenced display state is changing
 - `CompName`: Name of component
 - `oldDSId`: Original referenced display state ID of the component
 - `oldDSName`: Original referenced display state name for the component
@@ -79,27 +71,17 @@ whose referenced display state is changing
 
 ## VBA Syntax
 
-See
-
-[ComponentReferredDisplayStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentReferredDisplayStateChangeNotify_EV.html)
-
-.
+See [ComponentReferredDisplayStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentReferredDisplayStateChangeNotify_EV.html).
 
 ## Examples
 
 [Fire Notification When Component Referenced Display State Changes (C#)](Fire_Notification_When_Component_Referenced_Display_State_Changes_Example_CSharp.htm)
-
 [Fire Notification When Component Referenced Display State Changes (VB.NET)](Fire_Notification_When_Component_Referenced_Display_State_Changes_Example_VBNET.htm)
-
 [Fire Notification When Component Referenced Display State Changes (VBA)](Fire_Notification_When_Component_Referenced_Display_State_Changed_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[ComponentReferredDisplayStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [ComponentReferredDisplayStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

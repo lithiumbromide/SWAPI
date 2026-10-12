@@ -52,18 +52,12 @@ void SetFireOutputTimeStepEvents(
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::SetFireOutputTimeStepEvents](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SetFireOutputTimeStepEvents.html)
-
-.
+See [MotionStudy::SetFireOutputTimeStepEvents](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SetFireOutputTimeStepEvents.html).
 
 ## Examples
 
 [Fire Events for External Output Time Step Changes (C#)](Fire_Events_for_External_Output_Time_Step_Changes_Example_CSharp.htm)
-
 [Fire Events for External Output Time Step Changes (VB.NET)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VBNET.htm)
-
 [Fire Events for External Output Time Step Changes (VBA)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VB.htm)
 
 ## Remarks
@@ -79,9 +73,7 @@ If you want to fire these events at output time steps, then set this method to t
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetFireOutputTimeStepEvents Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetFireOutputTimeStepEvents.html)
 
 ## Availability

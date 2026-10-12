@@ -1,6 +1,5 @@
 ---
-title: "CornerMember Object
-Members"
+title: "CornerMember Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CornerMember_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CornerMember_members.html"
 ---
 
-# CornerMember Object
-Members
+# CornerMember Object Members
 
 ## Public Methods
 

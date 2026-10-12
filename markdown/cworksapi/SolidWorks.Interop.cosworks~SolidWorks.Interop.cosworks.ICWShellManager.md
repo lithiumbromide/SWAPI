@@ -9,15 +9,9 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSh
 
 # ICWShellManager Interface
 
-Allows access to[shells](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell.html).
+Allows access to [shells](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell.html).
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWShellManager
 
 ## VBA Syntax
 
-See
-
-[CWShellManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager.html)
-
-.
+See [CWShellManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager.html).
 
 ## Examples
 
 [Create Frequency Study with Mixed Mesh (C#)](Create_Frequency_Study_with_Mixed_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Mixed Mesh (VB.NET)](Create_Frequency_Study_with_Mixed_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Mixed Mesh (VBA)](Create_Frequency_Study_with_Mixed_Mesh_Example_VB.htm)
 
 ## Remarks
@@ -72,7 +60,5 @@ Material properties and thickness should be defined for each shell before runnin
 ## See Also
 
 [ICWShellManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)

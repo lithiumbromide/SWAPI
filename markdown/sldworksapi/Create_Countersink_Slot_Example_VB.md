@@ -14,7 +14,7 @@ This example shows how to create a countersink slot using the hole wizard.
 ```
 '---------------------------------
 ' Preconditions:
-' 1. SOLIDWORKS is running.
+' 1. SOLIDWORKS Design is running.
 ' 2. Open the Immediate window.
 ' 3. Run the macro.
 '
@@ -83,11 +83,11 @@ boolstatus = swModelDocExt.SelectByID2("Plane1", "PLANE", -1.56784487003801E-02,
 
 ' Create the hole countersink slot
 Set swFeat = swFeatMgr.HoleWizard5(swWzdCounterSinkSlot, swStandardAnsiMetric, swStandardAnsiMetricFlatHead82, "M2", swEndCondThroughAll, 0.0102, 0.010312189893273, _
-kadov_tag{{<spaces>}}                                   1, kadov_tag{{</spaces>}}0.0044, 1.57079632679489, 1.52189893272978E-04, 0, 2.05948851735331, 0, 0, 0, 1, 0, 0, 0, "", False, True, True, True, True, False)
+                                   1, 0.0044, 1.57079632679489, 1.52189893272978E-04, 0, 2.05948851735331, 0, 0, 0, 1, 0, 0, 0, "", False, True, True, True, True, False)
 ```
 
 ```vb
-kadov_tag{{<spaces>}}     Set swWizardHoleFeatData = swFeat.GetDefinition
+     Set swWizardHoleFeatData = swFeat.GetDefinition
       Debug.Print ("Length of countersink slot: " & swWizardHoleFeatData.Length)
 
 End Sub

@@ -45,13 +45,7 @@ property System.bool FlattenToSingleFolder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,20 @@ True to save all files to the root directory of the Pack and Go destination fold
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::FlattenToSingleFolder](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~FlattenToSingleFolder.html)
-
-.
+See [PackAndGo::FlattenToSingleFolder](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~FlattenToSingleFolder.html).
 
 ## Examples
 
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::SetSaveToName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName.html)
-
 [IPackAndGo::SetDocumentSaveToNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetDocumentSaveToNames.html)
-
 [IPackAndGo::ISetDocumentSaveToNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html)
 
 ## Availability

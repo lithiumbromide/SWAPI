@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelView Interface Methods
 
-For a list of all members of this type, see[IModelView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html).
+For a list of all members of this type, see [IModelView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html).
 
 ## Public Methods
 
@@ -27,9 +27,9 @@ For a list of all members of this type, see[IModelView members](SolidWorks.Inter
 | Method | GetMouse | Gets the mouse for this model view. |
 | Method | GetNext | Gets the next model view after this model view. |
 | Method | GetStereoSeparation | Obsolete and not superseded. Functionality no longer implemented. |
-| Method | GetViewDIB | Gets an image of the document as it looks in Normal view or in the print preview. |
+| Method | GetViewDIB | Obsolete. Superseded by IModelView::GetViewDIBx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets an image of the document as it looks in Normal view or in the print preview. |
 | Method | GetViewDIBx64 | Gets an image of the document as it looks in Normal view or in the print preview in 64-bit applications. |
-| Method | GetViewHWnd | Gets the Microsoft window handle for this model view. |
+| Method | GetViewHWnd | Obsolete. Superseded by IModelView::GetViewHWndx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets the Microsoft window handle for this model view. |
 | Method | GetViewHWndx64 | Gets the Microsoft window handle for this model view in 64-bit applications. |
 | Method | GetViewPlaneDistance | Gets the model view plane distance for perspective viewing. |
 | Method | GetVisibleBox | Gets the boundaries of the visible model view window. |
@@ -65,9 +65,6 @@ For a list of all members of this type, see[IModelView members](SolidWorks.Inter
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)

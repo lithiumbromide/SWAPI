@@ -16,6 +16,7 @@ SOLIDWORKS Scanto3D API Help
 | Interface | Description |
 | --- | --- |
 | IScanto3D | Allows access to Scanto3D point cloud data. |
+| Scanto3D |  |
 
 ## See Also
 

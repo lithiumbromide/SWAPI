@@ -1,6 +1,5 @@
 ---
-title: "DimXpertIntersectLineFeature Object
-Members"
+title: "DimXpertIntersectLineFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertIntersectLineFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertIntersectLineFeature_members.html"
 ---
 
-# DimXpertIntersectLineFeature Object
-Members
+# DimXpertIntersectLineFeature Object Members
 
 ## Public Methods
 

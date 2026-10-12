@@ -11,7 +11,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 Allows access to a plot's values.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMotionPlotFeatureOutput
 
 ## VBA Syntax
 
-See
-
-[MotionPlotFeatureOutput](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~MotionPlotFeatureOutput.html)
-
-.
+See [MotionPlotFeatureOutput](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~MotionPlotFeatureOutput.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## Remarks
@@ -78,5 +72,4 @@ Examine the examples to see the calls for these steps.
 ## See Also
 
 [IMotionPlotFeatureOutput Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionPlotFeatureOutput_members.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)

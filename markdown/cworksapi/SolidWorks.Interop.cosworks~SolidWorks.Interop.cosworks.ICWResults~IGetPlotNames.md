@@ -57,32 +57,19 @@ Array of the names of the plots in this study
 
 ## VBA Syntax
 
-See
-
-[CWResults::IGetPlotNames](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~IGetPlotNames.html)
-
-.
+See [CWResults::IGetPlotNames](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~IGetPlotNames.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWResults::GetPlotCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetPlotCount.html)
-
-to determine the size of the array.
+Before calling this method, call [ICWResults::GetPlotCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetPlotCount.html) to determine the size of the array.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetPlotNames Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)
-
 [ICWResults::ActivatePlot Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~ActivatePlot.html)
-
 [ICWResults::DeletePlot Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~DeletePlot.html)
-
 [ICWResults::SavePlotsAseDrawings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SavePlotsAseDrawings.html)
 
 ## Availability

@@ -53,12 +53,8 @@ System.Object^ GetToolInterface(
 
 ### Parameters
 
-- `toolname`: Tool ID as defined by
-
-[gtSwTools_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtSwTools_e.html)
-- `lErrorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `toolname`: Tool ID as defined by [gtSwTools_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtSwTools_e.html)
+- `lErrorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -66,32 +62,21 @@ Pointer to the SOLIDWORKS Utilities tool interface
 
 ## VBA Syntax
 
-See
-
-[IUtilities::GetToolInterface](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GetToolInterface.html)
-
-.
+See [IUtilities::GetToolInterface](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GetToolInterface.html).
 
 ## Examples
 
 [Analyze Geometry (VBA)](Analyze_Geometry_VB6.htm)
-
 [Compare Documents (VBA)](Compare_Documents_VB6.htm)
-
 [Compare Features (VBA)](Compare_Features_VB6.htm)
-
 [Compare Geometry (VBA)](Compare_Geometry_VB6.htm)
-
 [Paint Features (VBA)](Paint_Features_VB6.htm)
-
 [Compare Geometry (VB.NET)](Compare_Geometry_VBNET.htm)
-
 [Compare Geometry (C#)](Compare_Geometry_CSharp.htm)
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

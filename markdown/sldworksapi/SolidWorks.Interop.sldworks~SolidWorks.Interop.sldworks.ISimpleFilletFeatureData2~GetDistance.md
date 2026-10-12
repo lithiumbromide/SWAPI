@@ -47,13 +47,7 @@ System.double GetDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,17 @@ Distance 2 radius at PFilletItem for this asymmetric fillet/chamfer
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::GetDistance](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetDistance.html)
-
-.
+See [SimpleFilletFeatureData2::GetDistance](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetDistance.html).
 
 ## Remarks
 
-Call
-
-[ISimpleFilletFeatureData2::GetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~GetRadius.html)
-
-to get the Distance 1 radius at PFilletItem for this asymmetric fillet/chamfer.
+Call [ISimpleFilletFeatureData2::GetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~GetRadius.html) to get the Distance 1 radius at PFilletItem for this asymmetric fillet/chamfer.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::SetDistance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~SetDistance.html)
-
 [ISimpleFilletFeatureData2::AsymmetricFillet Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~AsymmetricFillet.html)
 
 ## Availability

@@ -39,23 +39,13 @@ void InstallDebugAddIn(
 
 ### Parameters
 
-- `oAddIn`: Contains either the path to the DLL of the add-in to add or the ID of the class that implements
-
-[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
+- `oAddIn`: Contains either the path to the DLL of the add-in to add or the ID of the class that implements [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
 
 ## Remarks
 
 You can install add-ins for debugging either of two ways:
 
-- Right-clicking the
-
-  Add-ins
-
-  node in the SOLIDWORKS PDM Professional Administration Tool and clicking
-
-  Debug Add-ins
-
-  .
+- Right-clicking the **Add-ins** node in the SOLIDWORKS PDM Professional Administration Tool and clicking **Debug Add-ins**.
 - Calling this method.
 
 [Return codes](ReturnCodes.htm):
@@ -66,9 +56,7 @@ You can install add-ins for debugging either of two ways:
 ## See Also
 
 [IEdmAddInMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6.html)
-
 [IEdmAddInMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6_members.html)
-
 [IEdmAddInMgr6::RemoveDebugAddIn Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6~RemoveDebugAddIn.html)
 
 ## Availability

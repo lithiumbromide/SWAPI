@@ -43,25 +43,15 @@ System.bool ShowDlg(
 
 ### Return Value
 
-True if the user clicked
-
-OK
-
-, false if the user clicked
-
-Cancel
+True if the user clicked **OK**, false if the user clicked **Cancel**
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html)
-
-examples.
+See the [IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html) examples.
 
 ## Remarks
 
-Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html)if changing states or[IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html)if revoking transitions.
+Before calling this method, you must call [IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html) if changing states or [IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html) if revoking transitions.
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,7 +61,6 @@ Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM
 ## See Also
 
 [IEdmBatchChangeState Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html)
-
 [IEdmBatchChangeState Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState_members.html)
 
 ## Availability

@@ -63,17 +63,11 @@ System.double IIntersectCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `OtherCurve`: Curve to intersect with this[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `OtherCurve`: Curve to intersect with this [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `ThisStartPoint`: Start point of this curve
 - `ThisEndPoint`: End point of this curve
 - `OtherStartPoint`: Start point of otherCurve
@@ -81,40 +75,30 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles of the intersection points (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles of the intersection points (see **Remarks**)
 
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[Curve::IIntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IIntersectCurve.html)
-
-.
+See [Curve::IIntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IIntersectCurve.html).
 
 ## Remarks
 
 The array of doubles returned contains the x, y, z location of the tessellation points and a code for each point that indicates the intersection class:
 
-[x1, y1, z1, k1, x2, y2, z2, k2....]
+[ x1, y1, z1, k1, x2, y2, z2, k2.... ]
 
-Return codes are defined in[swIntersectionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIntersectionType_e.html).
+Return codes are defined in [swIntersectionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIntersectionType_e.html).
 
-Before calling this method, call[ICurve::IIntersectCurveSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurveSize.html)to determine the size of the array needed for the return values from this method.
+Before calling this method, call [ICurve::IIntersectCurveSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurveSize.html) to determine the size of the array needed for the return values from this method.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IntersectCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IntersectCurve.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_All_Visible_Components_in_Drawing_View_Example_VB.htm"
 
 # Get All Visible Components in Drawing View Example (VBA)
 
-This example shows how to get all of the visible components in a drawing
-view.
+This example shows how to get all of the visible components in a drawing view.
 
 ```
 '-------------------------------------------------------

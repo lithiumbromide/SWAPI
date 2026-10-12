@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5~GetBitmapInfoSiz
 
 # GetBitmapInfoSize Method (IEdmBitmap5)
 
-Gets the size of the bitmap information returned by
-
-[IEdmBitmap5::GetBitmapInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5~GetBitmapInfo.html)
-
-.
+Gets the size of the bitmap information returned by [IEdmBitmap5::GetBitmapInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5~GetBitmapInfo.html).
 
 ## Syntax
 
@@ -49,7 +45,6 @@ Size in bytes of the bitmap information
 ## See Also
 
 [IEdmBitmap5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html)
-
 [IEdmBitmap5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5_members.html)
 
 ## Availability

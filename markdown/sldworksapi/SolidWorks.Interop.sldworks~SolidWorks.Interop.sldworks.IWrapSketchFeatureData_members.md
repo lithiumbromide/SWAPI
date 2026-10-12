@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWr
 
 # IWrapSketchFeatureData Interface Members
 
-The following tables list the members exposed by[IWrapSketchFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html).
+The following tables list the members exposed by [IWrapSketchFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html).
 
 ## Public Properties
 
@@ -36,7 +36,5 @@ The following tables list the members exposed by[IWrapSketchFeatureData](SolidWo
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertWrapFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertWrapFeature.html)

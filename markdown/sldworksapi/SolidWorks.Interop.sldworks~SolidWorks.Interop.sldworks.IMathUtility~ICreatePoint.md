@@ -47,13 +47,7 @@ MathPoint^ ICreatePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,22 +55,16 @@ See
 
 ### Return Value
 
-Newly created[IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)object or NULL if the operation fails
+Newly created [IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) object or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathUtility::ICreatePoint](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~ICreatePoint.html)
-
-.
+See [MathUtility::ICreatePoint](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~ICreatePoint.html).
 
 ## See Also
 
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IMathUtility Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility_members.html)
-
 [IMathUtility::CreatePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~CreatePoint.html)
 
 ## Availability

@@ -46,24 +46,15 @@ Thickness of the sheet metal from the model
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::GetModelThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetModelThickness.html)
-
-.
+See [CostAnalysisSheetMetal::GetModelThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetModelThickness.html).
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::GetThicknesses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetThicknesses.html)
-
 [ICostAnalysisSheetMetal::GetThicknessesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetThicknessesCount.html)
-
 [ICostAnalysisSheetMetal::IGetThicknesses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetThicknesses.html)
-
 [ICostAnalysisSheetMetal::CurrentThickness Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentThickness.html)
 
 ## Availability

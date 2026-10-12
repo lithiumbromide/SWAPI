@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 Allows access to a mesh body.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,31 +41,15 @@ public interface class IMeshBody
 
 ## VBA Syntax
 
-See
-
-[MeshBody](ms-its:sldworksapivb6.chm::/sldworks~MeshBody.html)
-
-.
+See [MeshBody](ms-its:sldworksapivb6.chm::/sldworks~MeshBody.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## Remarks
 
-For more information about graphics bodies, read the
-
-Graphics Mesh and Mesh BREP Bodies
-
-topic in
-
-SOLIDWORKS user-interface help > Parts and Features
-
-.
+For more information about graphics bodies, read the **Graphics Mesh and Mesh BREP Bodies** topic in **SOLIDWORKS Design user-interface help > Parts and Features**.
 
 ## Accessors
 
@@ -78,7 +62,5 @@ SOLIDWORKS user-interface help > Parts and Features
 ## See Also
 
 [IMeshBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IGraphicsBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody.html)

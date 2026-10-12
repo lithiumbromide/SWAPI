@@ -40,13 +40,7 @@ System.bool FaceInSurfaceSense()
 System.bool FaceInSurfaceSense();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ True if face normal and surface normal are in the opposite direction, false if t
 
 ## VBA Syntax
 
-See
-
-[Face2::FaceInSurfaceSense](ms-its:sldworksapivb6.chm::/sldworks~Face2~FaceInSurfaceSense.html)
-
-.
+See [Face2::FaceInSurfaceSense](ms-its:sldworksapivb6.chm::/sldworks~Face2~FaceInSurfaceSense.html).
 
 ## Examples
 
 [Determine Type of Face (VBA)](Determine_Type_of_Face_Example_VB.htm)
-
 [Get Normal of Planar Surface (VBA)](Get_Normal_of_Planar_Surface_Example_VB.htm)
-
 [Select Edges of All Holes on Face (C#)](Select_Edges_of_All_Holes_on_Face_Example_CSharp.htm)
-
 [Select Edges of All Holes on Face (VB.NET)](Select_Edges_of_All_Holes_on_Face_Example_VBNET.htm)
-
 [Select Edges of All Holes on Face (VBA)](Select_Edges_of_All_Holes_on_Face_Example_VB.htm)
 
 ## Remarks
@@ -84,7 +70,6 @@ You might need this method because the underlying surface geometry can have an o
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
 
 ## Availability

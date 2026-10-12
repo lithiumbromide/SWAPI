@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetIncludeMaxMemberThickness Method (ICWTopologyThicknessControl)
 
-Obsolete. Superseded by
-
-[ICWTopologyThicknessControl::SetIncludeMaxMemberThickness2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetIncludeMaxMemberThickness2.html)
-
-.
+Obsolete. Superseded by [ICWTopologyThicknessControl::SetIncludeMaxMemberThickness2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetIncludeMaxMemberThickness2.html).
 
 ## Syntax
 
@@ -56,36 +52,19 @@ void SetIncludeMaxMemberThickness(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::SetIncludeMaxMemberThickness](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMaxMemberThickness.html)
-
-.
+See [CWTopologyThicknessControl::SetIncludeMaxMemberThickness](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMaxMemberThickness.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-example.
+See the [ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html) example.
 
 ## Remarks
 
-If BFlag is set to true, set
-
-[ICWTopologyThicknessControl::SetMaxMemberThickness](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMaxMemberThickness.html)
-
-and
-
-[ICWTopologyThicknessControl::SetMaxMemberThicknessUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMaxMemberThicknessUnit.html)
-
-.
+If BFlag is set to true, set [ICWTopologyThicknessControl::SetMaxMemberThickness](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMaxMemberThickness.html) and [ICWTopologyThicknessControl::SetMaxMemberThicknessUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMaxMemberThicknessUnit.html).
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
 
 ## Availability

@@ -39,16 +39,11 @@ property IEdmState6^ CurrentState {
 
 ## Examples
 
-See the
-
-[IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
-examples.
+See the [IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html) examples.
 
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [IEdmBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html)
 
 ## Availability

@@ -9,14 +9,13 @@ source: "sldworksapi/Create_Force_Feature_Example_VB.htm"
 
 # Create Force Feature Example (VBA)
 
-This example shows how to create a force feature for use with Basic
-Motion and Motion Analysis studies.
+This example shows how to create a force feature for use with Basic Motion and Motion Analysis studies.
 
 ```
 '----------------------------------------------------------------
 ' Preconditions:
 ' 1. Open public_documents\samples\tutorial\motionstudies\weldingrobot\weldingrobot.sldasm.
-' 2. Click View > User Interface > MotionManager in SOLIDWORKS
+' 2. Click View > User Interface > MotionManager in SOLIDWORKS Design
 '    if the Motion Study 1 tab is not displayed.
 ' 3. Add a reference to the SOLIDWORKS MotionStudy type library in
 '    the Microsoft Visual Basic for Applications IDE (click

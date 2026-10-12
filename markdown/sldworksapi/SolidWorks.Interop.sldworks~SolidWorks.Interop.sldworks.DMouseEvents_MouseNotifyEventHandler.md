@@ -49,13 +49,7 @@ public delegate System.int DMouseEvents_MouseNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,103 +59,59 @@ See
 
 ## VBA Syntax
 
-See
-
-[MouseNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseNotify_EV.html)
-
-.
+See [MouseNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseNotify_EV.html).
 
 ## Examples
 
-The following sample code shows akadov_tag{{</spaces>}}possible approach to decoding WParam and LParam.
+The following sample code shows a possible approach to decoding WParam and LParam.
 
+```vb
 '--------------------------------------------------------------
-
 void NotifyHandler( UINT message, WPARAM wParam, LPARAM lParam)
-
 {
-
 long x = GET_X_LPARAM(lParam);//Uses Windows macro
-
 long y = GET_Y_LPARAM(lParam);//Uses Windows macro
 
 switch(message)
-
 {
-
 case WM_MOUSEWHEEL:
-
 case WM_MOUSEMOVE:
-
 //Your code to process event
-
 break;
-
 case WM_LBUTTONDOWN:
-
 //Your code to process event
-
 break;
-
 case WM_LBUTTONUP:
-
 //Your code to process event
-
 break;
-
 case WM_RBUTTONDOWN:
-
 //Your code to process event
-
 break;
-
 case WM_RBUTTONUP:
-
 //Your code to process event
-
 break;
-
 case WM_MBUTTONDOWN:
-
 //Your code to process event
-
 break;
-
 case WM_MBUTTONUP:
-
 //Your code to process event
-
 break;
-
 case WM_LBUTTONDBLCLK:
-
 //Your code to process event
-
 break;
-
 case WM_RBUTTONDBLCLK:
-
 //Your code to process event
-
 break;
-
 case WM_MBUTTONDBLCLK:
-
 //Your code to process event
-
 break;
-
 }
-
 }
+```
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swMouseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swMouseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html) to register for this notification.
 
 ## Availability
 

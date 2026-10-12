@@ -47,28 +47,21 @@ property System.int RemovedMaterialProcessingType {
 
 ### Property Value
 
-Removed material processing option as defined in
-
-[swcRemovedMaterialProcessingType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcRemovedMaterialProcessingType_e.html)
+Removed material processing option as defined in [swcRemovedMaterialProcessingType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcRemovedMaterialProcessingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::RemovedMaterialProcessingType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~RemovedMaterialProcessingType.html)
-
-.
+See [TemplateOverrides::RemovedMaterialProcessingType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~RemovedMaterialProcessingType.html).
 
 ## Remarks
 
 Removed material can use either standard manufacturing process recognition or customizable volume feature recognition.
 
-Setting this property is only applied if[ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+Setting this property is only applied if [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

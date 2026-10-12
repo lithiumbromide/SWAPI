@@ -55,13 +55,7 @@ TitleBlockTableAnnotation^ InsertTitleBlockTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,30 +69,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertTitleBlockTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertTitleBlockTable.html)
-
-.
+See [ModelDocExtension::InsertTitleBlockTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertTitleBlockTable.html).
 
 ## Examples
 
 [Get Title Block Tables (VBA)](Get_Title_Block_Tables_Example_VB6.htm)
-
 [Get Title Block Tables (VB.NET)](Get_Title_Block_Tables_Example_VBNET.htm)
-
 [Get Title Block Tables (C#)](Get_Title_Block_Tables_Example_CSharp.htm)
 
 ## Remarks
 
-Title block table templates have a filename extension of.sldtbt.
+Title block table templates have a filename extension of .sldtbt.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::InsertGeneralTableAnnotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertGeneralTableAnnotation.html)
 
 ## Availability

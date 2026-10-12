@@ -35,5 +35,4 @@ System.int mlFileID
 ## See Also
 
 [EdmDeletedItems Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
-
 [EdmDeletedItems Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html)

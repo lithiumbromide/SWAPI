@@ -55,13 +55,7 @@ System.int ICopyWizardHole(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,20 +69,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICopyWizardHole](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICopyWizardHole.html)
-
-.
+See [Modeler::ICopyWizardHole](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICopyWizardHole.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::CopyWizardHole Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CopyWizardHole.html)
-
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
 
 ## Availability

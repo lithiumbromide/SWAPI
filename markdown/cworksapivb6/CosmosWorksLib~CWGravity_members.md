@@ -1,6 +1,5 @@
 ---
-title: "CWGravity Object
-Members"
+title: "CWGravity Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWGravity_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWGravity_members.html"
 ---
 
-# CWGravity Object
-Members
+# CWGravity Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Loop_of_Edges_Example_VB_.htm"
 
 # Select Loop of Edges Example (VBA)
 
-This example shows how to use various geometry- and topology-related
-methods to select a set of edges that form a closed loop around a face.
+This example shows how to use various geometry- and topology-related methods to select a set of edges that form a closed loop around a face.
 
 ```
 '--------------------------------------------------------

@@ -40,13 +40,7 @@ System.int GetTrimmingBoundaryCount()
 System.int GetTrimmingBoundaryCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of trimming boundaries
 
 ## VBA Syntax
 
-See
-
-[WeldmentTrimExtendFeatureData::GetTrimmingBoundaryCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentTrimExtendFeatureData~GetTrimmingBoundaryCount.html)
-
-.
+See [WeldmentTrimExtendFeatureData::GetTrimmingBoundaryCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentTrimExtendFeatureData~GetTrimmingBoundaryCount.html).
 
 ## Remarks
 
-Only end-trim corner types (swEndConditionTrim) can have multiple boundaries. Use[IWeldmentTrimExtendFeatureData::CornerType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~CornerType.html)to determine the type of corner.
+Only end-trim corner types (swEndConditionTrim) can have multiple boundaries. Use [IWeldmentTrimExtendFeatureData::CornerType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~CornerType.html) to determine the type of corner.
 
-Call this method before calling[IWeldmentTrimExtendFeaturedata::IGetTrimmingBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~IGetTrimmingBoundary.html)
+Call this method before calling [IWeldmentTrimExtendFeaturedata::IGetTrimmingBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~IGetTrimmingBoundary.html)
 
 ## See Also
 
 [IWeldmentTrimExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData.html)
-
 [IWeldmentTrimExtendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData_members.html)
-
 [IWeldmentTrimExtendFeatureData::GetTrimmingBoundary Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData~GetTrimmingBoundary.html)
-
 [IWeldmentTrimExtendFeatureData::ISetTrimmingBoundary Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData~ISetTrimmingBoundary.html)
-
 [IWeldmentTrimExtendFeatureData::SetTrimmingBoundary Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData~SetTrimmingBoundary.html)
 
 ## Availability

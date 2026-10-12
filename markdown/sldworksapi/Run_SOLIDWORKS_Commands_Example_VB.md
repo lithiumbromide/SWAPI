@@ -9,16 +9,14 @@ source: "sldworksapi/Run_SOLIDWORKS_Commands_Example_VB.htm"
 
 # Run SOLIDWORKS Commands Example (VBA)
 
-This example shows how to programmatically open a Fillet PropertyManager
-page titled**My Fillet**. The macro also
-programmatically changes the view orientation of the part to***Front**.
+This example shows how to programmatically open a Fillet PropertyManager page titled **My Fillet**. The macro also programmatically changes the view orientation of the part to ***Front**.
 
 ```
 '----------------------------------------------------------------
 ' Preconditions:
 ' 1. In IDE, click Tools > References, and click SOLIDWORKS
 '    version Commands type library, and click OK.
-' 2. Open a part in SOLIDWORKS.
+' 2. Open a part in SOLIDWORKS Design.
 ' 3. Change the view orientation of the part to any view
 '    except *Front.
 ' 4. Select the edges on the part to fillet.
@@ -50,7 +48,7 @@ Sub main()
 ```
 
 ```
-    'Open SOLIDWORKS Fillet PropertyManager page
+    'Open Fillet PropertyManager page
     'Title of page is My Fillet
     swModelDocExt.RunCommand swCommands_Fillet, "My Fillet"
 ```

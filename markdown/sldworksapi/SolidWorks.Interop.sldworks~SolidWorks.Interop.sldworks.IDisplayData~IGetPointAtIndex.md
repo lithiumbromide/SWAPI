@@ -47,13 +47,7 @@ System.double IGetPointAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,33 +55,23 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[DisplayData::IGetPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~IGetPointAtIndex.html)
-
-.
+See [DisplayData::IGetPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~IGetPointAtIndex.html).
 
 ## Remarks
 
 The return values are in an array of 7 doubles:
 
-[Color, LineType, LineStyleIndex, PointStyle, CircleFilled, X, Y, Z]
+[ Color, LineType, LineStyleIndex, PointStyle, CircleFilled, X, Y, Z ]
 
 where:
-
-(Table)=========================================================
 
 | Color | COLORREF returned as an integer; return value can be 0 or -1 for the default color |
 | --- | --- |
@@ -98,14 +82,12 @@ where:
 | Y | Y coordinate of the specified point |
 | Z | Z coordiante of the specified point |
 
-Use[IDisplayData::GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPointCount.html)to determine the number of points.
+Use [IDisplayData::GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPointCount.html) to determine the number of points.
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetPointAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPointAtIndex.html)
 
 ## Availability

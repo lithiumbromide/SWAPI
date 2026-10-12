@@ -51,64 +51,42 @@ System.Object^ AddSpeedPak2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type`: Selection type:
 
-- 1 = Geometry
-- 2 = Graphics
-- `PartThreshold`: 1.0 >= Double value for part or body selection threshold >= 0.0; 1.0 selects nothing, and 0.0 selects all (see
-
-Remarks
-
-)
+  - 1 = Geometry
+  - 2 = Graphics
+- `PartThreshold`: 1.0 >= Double value for part or body selection threshold >= 0.0; 1.0 selects nothing, and 0.0 selects all (see **Remarks**)
 
 ### Return Value
 
-SpeedPak
-
-[configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
+SpeedPak [configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::AddSpeedPak2](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddSpeedPak2.html)
-
-.
+See [ConfigurationManager::AddSpeedPak2](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddSpeedPak2.html).
 
 ## Examples
 
 [Create a SpeedPak Configuration (VBA)](Create_SpeedPak_Example_VB.htm)
-
 [Create a Speedpak Configuration (VB.NET)](Create_SpeedPak_Example_VBNET.htm)
-
 [Create a Speedpak Configuration (C#)](Create_Speedpak_Example_CSharp.htm)
 
 ## Remarks
 
-PartThreshold corresponds to the value of the**Bodies to Include**slider on the SpeedPak PropertyManager page.
+PartThreshold corresponds to the value of the **Bodies to Include** slider on the SpeedPak PropertyManager page.
 
 This method includes all faces in the SpeedPak configuration.
 
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IConfiguration::IsSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsSpeedPak.html)
-
 [IConfiguration::UpdateSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~UpdateSpeedPak.html)
-
 [IAssemblyDoc::CreateSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateSpeedPak.html)
 
 ## Availability

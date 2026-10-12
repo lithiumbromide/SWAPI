@@ -1,6 +1,5 @@
 ---
-title: "PMIDimensionData Object
-Members"
+title: "PMIDimensionData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PMIDimensionData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PMIDimensionData_members.html"
 ---
 
-# PMIDimensionData Object
-Members
+# PMIDimensionData Object Members
 
 ## Public Methods
 

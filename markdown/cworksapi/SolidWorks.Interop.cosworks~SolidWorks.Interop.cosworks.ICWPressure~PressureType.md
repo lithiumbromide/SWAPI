@@ -47,34 +47,21 @@ property System.int PressureType {
 
 ### Property Value
 
-Pressure direction type as defined in
-
-[swsPressureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureType_e.html)
+Pressure direction type as defined in [swsPressureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPressure::PressureType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~PressureType.html)
-
-.
+See [CWPressure::PressureType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~PressureType.html).
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::DirectionType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~DirectionType.html)
-
 [ICWPressure::SetReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetReferenceGeometry.html)
 
 ## Availability

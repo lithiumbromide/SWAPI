@@ -45,40 +45,25 @@ property System.int FlyoutFeatureTreeVisibility {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-State of the flyout FeatureManager design tree as defined in
-
-[swFeatureTreeState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureTreeState_e.html)
+State of the flyout FeatureManager design tree as defined in [swFeatureTreeState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureTreeState_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::FlyoutFeatureTreeVisibility](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~FlyoutFeatureTreeVisibility.html)
-
-.
+See [ModelDocExtension::FlyoutFeatureTreeVisibility](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~FlyoutFeatureTreeVisibility.html).
 
 ## Examples
 
 [Get and Set the State of the Flyout FeatureManager Design Tree (VBA)](Get_and_Set_State_of_Flyout_FeatureManager_Design_Tree_Example_VB.htm)
-
 [Get and Set the State of the Flyout FeatureManager Design Tree (VB.NET)](Get_and_Set_State_of_Flyout_FeatureManager_Design_Tree_Example_VBNET.htm)
-
 [Get and Set the State of the Flyout FeatureManager Design Tree (C#)](Get_and_Set_State_of_Flyout_FeatureManager_Design_Tree_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

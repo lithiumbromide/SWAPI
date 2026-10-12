@@ -47,13 +47,7 @@ System.Object^ GetFinEdge(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,16 @@ See
 
 ### Return Value
 
-[Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-with which this fin is shared
+[Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) with which this fin is shared
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFinEdge](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinEdge.html)
-
-.
+See [Tessellation::GetFinEdge](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinEdge.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetFinEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFinEdge.html)
 
 ## Availability

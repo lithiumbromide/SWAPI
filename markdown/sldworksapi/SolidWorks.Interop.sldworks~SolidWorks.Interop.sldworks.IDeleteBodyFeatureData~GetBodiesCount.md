@@ -40,13 +40,7 @@ System.int GetBodiesCount()
 System.int GetBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,21 @@ Number of bodies
 
 ## VBA Syntax
 
-See
-
-[DeleteBodyFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~GetBodiesCount.html)
-
-.
+See [DeleteBodyFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~GetBodiesCount.html).
 
 ## Examples
 
-See the
-
-[IDeleteBodyFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData.html)
-
-examples.
+See the [IDeleteBodyFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IDeleteBodyFeautre::IGetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~IGetBodies.html)
-
-to determine the size of the array.
+Call this method before calling [IDeleteBodyFeautre::IGetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~IGetBodies.html) to determine the size of the array.
 
 ## See Also
 
 [IDeleteBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData.html)
-
 [IDeleteBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData_members.html)
-
 [IDeleteBodyFeatureData::ISetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData~ISetBodies.html)
-
 [IDeleteBodyFeatureData::Bodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData~Bodies.html)
 
 ## Availability

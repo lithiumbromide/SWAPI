@@ -9,8 +9,7 @@ source: "sldworksapi/Get_General_Table_Feature_Example_VBNET.htm"
 
 # Get General Table Feature Example (VB.NET)
 
-This example shows how to get a general table feature and some of its table
-annotation data.
+This example shows how to get a general table feature and some of its table annotation data.
 
 ```
 '-----------------------------------------------------------------

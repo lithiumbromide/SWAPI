@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mates_Example_VB.htm"
 
 # Get Mates Example (VBA)
 
-This example shows how to get all of the mates (IMate2 and IMateInPlace
-objects) in an assembly document.
+This example shows how to get all of the mates (IMate2 and IMateInPlace objects) in an assembly document.
 
 ```
 '----------------------------------------

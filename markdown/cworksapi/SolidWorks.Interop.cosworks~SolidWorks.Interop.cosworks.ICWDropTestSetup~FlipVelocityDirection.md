@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # FlipVelocityDirection Property (ICWDropTestSetup)
 
-Obsolete. Superseded by[ICWDropTestSetup::FlipVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipVelocityDirection2.html).
+Obsolete. Superseded by [ICWDropTestSetup::FlipVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipVelocityDirection2.html).
 
 ## Syntax
 
@@ -51,30 +51,18 @@ property System.int FlipVelocityDirection {
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::FlipVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~FlipVelocityDirection.html)
-
-.
+See [CWDropTestSetup::FlipVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~FlipVelocityDirection.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)
-
-= swsDropType_e.swsDropType_VelocityAtImpact.
+This method is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_VelocityAtImpact.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
-
 [ICWDropTestSetup::SetEntityForVelocityDirection Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForVelocityDirection.html)
-
 [ICWDropTestSetup::Velocity Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~Velocity.html)
-
 [ICWDropTestSetup::VelocityUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~VelocityUnit.html)
 
 ## Availability

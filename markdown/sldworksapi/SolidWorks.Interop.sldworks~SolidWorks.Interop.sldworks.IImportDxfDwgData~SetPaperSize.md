@@ -59,20 +59,12 @@ System.bool SetPaperSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets
-- `Size`: Size as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `Size`: Size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Height`: If Size is swDwgPapersUserDefined, then the height of the paper in meters
 - `Width`: If Size is swDwgPapersUserDefined, then the width of the paper in meters
 
@@ -82,20 +74,13 @@ True if paper size is set, false if not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::SetPaperSize](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetPaperSize.html)
-
-.
+See [ImportDxfDwgData::SetPaperSize](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetPaperSize.html).
 
 ## Examples
 
 [Import DXF File into Drawing (VBA)](Import_DXF_File_to_Drawing_Example_VB.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VBA)](Insert_and_Position_DXF_File_in_Drawing_Example_VB.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VB.NET)](Insert_and_Position_DXF_File_in_Drawing_Example_VBNET.htm)
-
 [Insert and Position DXF/DWG File in Drawing (C#)](Insert_and_Position_DXF_File_in_Drawing_Example_CSharp.htm)
 
 ## Remarks
@@ -105,9 +90,7 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetPaperSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetPaperSize.html)
 
 ## Availability

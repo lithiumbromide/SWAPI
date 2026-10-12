@@ -9,8 +9,7 @@ source: "sldworksapi/Box_Select_a_Sketch_Example_VB.htm"
 
 # Box Select a Sketch Example (VBA)
 
-This example shows how to box select all of the entities in a sketch
-block.
+This example shows how to box select all of the entities in a sketch block.
 
 ```
 '-----------------------------------------------------------------------------

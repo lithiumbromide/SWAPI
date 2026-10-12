@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # DropDrawingViewFromPalette Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::DropDrawingViewFromPalette2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~DropDrawingViewFromPalette2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::DropDrawingViewFromPalette2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~DropDrawingViewFromPalette2.html).
 
 ## Syntax
 
@@ -63,47 +59,26 @@ View^ DropDrawingViewFromPalette(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Layout`: ID of the drawing view to move to the drawing sheet
-- `X`: x coordinate where to drop the drawing viewParamDesc
+- `X`: x coordinate where to drop the drawing view
 - `Y`: y coordinate where to drop the drawing view
-
-ParamDesc
-- `Z`: z coordinate where to drop the drawing view
-
-ParamDesc
-
-; this coordinate is always 0
+- `Z`: z coordinate where to drop the drawing view; this coordinate is always 0
 
 ### Return Value
 
-Pointer to the
-
-[IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-object
+Pointer to the [IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::DropDrawingViewFromPalette](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DropDrawingViewFromPalette.html)
-
-.
+See [DrawingDoc::DropDrawingViewFromPalette](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DropDrawingViewFromPalette.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFindUserProp.html"
 
 # EdmFindUserProp Enumeration
 
-Properties to get or set when calling
-
-[IEdmFindUser::GetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~GetPropt.html)
-
-and
-
-[IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html)
-
-.
+Properties to get or set when calling [IEdmFindUser::GetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~GetPropt.html) and [IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html).
 
 ## Syntax
 

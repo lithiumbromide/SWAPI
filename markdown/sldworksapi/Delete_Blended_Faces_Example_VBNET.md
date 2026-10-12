@@ -11,8 +11,7 @@ source: "sldworksapi/Delete_Blended_Faces_Example_VBNET.htm"
 
 This example shows how to delete blended faces.
 
-NOTE:You can only delete blended
-faces from a temporary body.
+NOTE: You can only delete blended faces from a temporary body.
 
 ```
 '--------------------------------------------------

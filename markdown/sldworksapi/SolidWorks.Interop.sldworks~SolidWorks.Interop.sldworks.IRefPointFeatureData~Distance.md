@@ -45,13 +45,7 @@ property System.double Distance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[RefPointFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~RefPointFeatureData~Distance.html)
-
-.
+See [RefPointFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~RefPointFeatureData~Distance.html).
 
 ## Examples
 
-See
-
-[IRefPointFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPointFeatureData.html)
-
-examples.
+See [IRefPointFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPointFeatureData.html) examples.
 
 ## Examples
 
@@ -80,7 +66,6 @@ examples.
 ## See Also
 
 [IRefPointFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPointFeatureData.html)
-
 [IRefPointFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPointFeatureData_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureExtruRefSurface2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtruRefSurface3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureExtruRefSurface3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtruRefSurface3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureExtruRefSurface3.html).
 
 ## Syntax
 
@@ -130,21 +126,15 @@ void FeatureExtruRefSurface2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single-ended, false for double-ended
 - `Flip`: Not used
 - `Dir`: True to reverse the direction of the extrude, false to not
-- `T1`: Termination type for first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -155,35 +145,21 @@ See
 - `Dang2`: Draft angle for second end
 - `OffsetReverse1`: If you choose to offset the first end condition from another face or plane, then true specifies the offset from the face or plane in a direction away from the sketch, and false specifies the offset in a direction toward the sketch
 - `OffsetReverse2`: If you choose to offset the second end condition from another face or plane, then true specifies the offset from the face or plane in a direction away from the sketch, and false specifies the offset in a direction toward the sketch
-- `TranslateSurface1`: If you specified T1 as[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface, then true specifies that the end of the extrusion is a translation of the reference surface, and false specifies to use a true offset
-- `TranslateSurface2`: If you specified T2 as[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface, then true specifies that the end of the extrusion is a translation of the reference surface, and false specifies to use a true offset
+- `TranslateSurface1`: If you specified T1 as [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface, then true specifies that the end of the extrusion is a translation of the reference surface, and false specifies to use a true offset
+- `TranslateSurface2`: If you specified T2 as [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface, then true specifies that the end of the extrusion is a translation of the reference surface, and false specifies to use a true offset
 - `CapEnd1`: True to cap first end, false to not
 - `CapEnd2`: True to cap second end, false to not
-- `DeleteOriginalFace`: True to delete original faces, false to not (see
-
-Remarks
-
-)
-- `KnitResult`: True to knit the extrusion result, false to not (see
-
-Remarks
-
-)
+- `DeleteOriginalFace`: True to delete original faces, false to not (see **Remarks**)
+- `KnitResult`: True to knit the extrusion result, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtruRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtruRefSurface2.html)
-
-.
+See [FeatureManager::FeatureExtruRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtruRefSurface2.html).
 
 ## Examples
 
 [Create Trimmed Surface Feature (C#)](Create_Trimmed_Surface_Feature_Example_CSharp.htm)
-
 [Create Trimmed Surface Feature (VB.NET)](Create_Trimmed_Surface_Feature_Example_VBNET.htm)
-
 [Create Trimmed Surface Feature (VBA)](Create_Trimmed_Surface_Feature_Example_VB.htm)
 
 ## Remarks
@@ -192,11 +168,7 @@ Before calling this method:
 
 - Select the base of the extrusion surface:
 
-  - Sketch; call
-
-    [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-    with selection mark 0.
+  - Sketch; call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with selection mark 0.
   - Sketch segments; call IModelDocExtension::SelectByID2 with selection mark 0 or 4.
   - Single planar face; call IModelDocExtension::SelectByID2 with selection mark 0.
   - Multiple co-planar faces; call IModelDocExtension::SelectByID2 with selection mark 0 for the first planar face and selection mark 256 for other co-planar faces.
@@ -209,9 +181,7 @@ KnitResult is ignored if DeleteOriginalFace is false.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
 
 ## Availability

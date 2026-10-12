@@ -1,6 +1,5 @@
 ---
-title: "PageSetup Object
-Members"
+title: "PageSetup Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PageSetup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PageSetup_members.html"
 ---
 
-# PageSetup Object
-Members
+# PageSetup Object Members
 
 ## Public Methods
 

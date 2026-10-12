@@ -57,20 +57,15 @@ void IsCustomPropertyEditable(
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem3::IsCustomPropertyEditable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem3~IsCustomPropertyEditable.html)
-
-.
+See [SwDMCutListItem3::IsCustomPropertyEditable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem3~IsCustomPropertyEditable.html).
 
 ## Remarks
 
-To populate FieldName, use[ISwDMCutListItem::GetCustomPropertyNames](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem~GetCustomPropertyNames.html)to get the names of all of the custom properties.
+To populate FieldName, use [ISwDMCutListItem::GetCustomPropertyNames](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem~GetCustomPropertyNames.html) to get the names of all of the custom properties.
 
 ## See Also
 
 [ISwDMCutListItem3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem3.html)
-
 [ISwDMCutListItem3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem3_members.html)
 
 ## Availability

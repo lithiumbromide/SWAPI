@@ -1,6 +1,5 @@
 ---
-title: "Mate2 Object
-Members"
+title: "Mate2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Mate2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Mate2_members.html"
 ---
 
-# Mate2 Object
-Members
+# Mate2 Object Members
 
 ## Public Methods
 

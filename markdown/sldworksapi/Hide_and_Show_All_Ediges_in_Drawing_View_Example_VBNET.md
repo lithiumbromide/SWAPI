@@ -9,9 +9,7 @@ source: "sldworksapi/Hide_and_Show_All_Ediges_in_Drawing_View_Example_VBNET.htm"
 
 # Hide and Show All Edges in Drawing View (VB.NET)
 
-This example shows how to hide and then show all of the edges in the root
-component in a drawing
-view.
+This example shows how to hide and then show all of the edges in the root component in a drawing view.
 
 ```vb
 '---------------------------------------------------------------------------

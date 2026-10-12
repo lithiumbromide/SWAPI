@@ -1,6 +1,5 @@
 ---
-title: "IMagneticLine Object
-Members"
+title: "IMagneticLine Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMagneticLine_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMagneticLine_members.html"
 ---
 
-# IMagneticLine Object
-Members
+# IMagneticLine Object Members
 
 ## Public Methods
 

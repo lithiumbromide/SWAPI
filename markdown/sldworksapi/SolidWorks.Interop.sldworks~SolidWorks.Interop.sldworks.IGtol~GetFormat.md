@@ -40,40 +40,23 @@ System.int GetFormat()
 System.int GetFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of Gtol format as defined by
-
-[swGtolFormatType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatType_e.html)
+Type of Gtol format as defined by [swGtolFormatType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetFormat](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFormat.html)
-
-.
+See [Gtol::GetFormat](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFormat.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
 
 ## Availability

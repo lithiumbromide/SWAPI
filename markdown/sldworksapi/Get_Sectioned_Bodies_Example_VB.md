@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sectioned_Bodies_Example_VB.htm"
 
 # Get Sectioned Bodies Example (VBA)
 
-This example shows how to get sectioned bodies and create a new part
-using the sectioned bodies.
+This example shows how to get sectioned bodies and create a new part using the sectioned bodies.
 
 ```
 '-------------------------------------------------------

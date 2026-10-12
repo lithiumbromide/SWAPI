@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertNetBlend Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertNetBlend2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertNetBlend2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertNetBlend2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertNetBlend2.html).
 
 ## Syntax
 
@@ -127,20 +123,14 @@ Feature^ InsertNetBlend(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type`: - 0 = Base
-- 1 = Boss
-- 2 = Surface
-- 3 = Cut
+  - 1 = Boss
+  - 2 = Surface
+  - 3 = Cut
 - `NCurvesDir1`: Number of curves in Direction 1
 - `NCurvesDir2`: Number of curves in Direction 2
 - `HasCenterline`: True if a centerline exists, false if not
@@ -153,9 +143,7 @@ See
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
 - `ReverseThickness`: True to reverse the thickness, false to not
-- `ThinSolidType`: Thin wall type as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `ThinSolidType`: Thin wall type as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
 - `UseSharedThickness`: True to use shared thickness, false to not
 - `CapEnds`: True to cap the ends, false to not
 - `EndThickness`: End cap thickness
@@ -169,27 +157,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertNetBlend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertNetBlend.html)
-
-.
+See [FeatureManager::InsertNetBlend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertNetBlend.html).
 
 ## Examples
 
 [Insert Boundary Surface Feature (VBA)](Insert_Boundary_Surface_Feature_Example_VB.htm)
-
 [Insert Boundary Feature (C#)](Insert_Boundary_Feature_Example_CSharp.htm)
-
 [Insert Boundary Feature (VB.NET)](Insert_Boundary_Feature_Example_VBNET.htm)
-
 [Insert Boundary Feature (VBA)](Insert_Boundary_Feature_Example_VB.htm)
 
 ## Remarks
 
 **Boundary feature**
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the entities for a boundary feature or boundary surface feature. The following table contains valid selection marks for this method and these features.
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the entities for a boundary feature or boundary surface feature. The following table contains valid selection marks for this method and these features.
 
 | Feature | Selection marks |
 | --- | --- |
@@ -199,13 +180,9 @@ Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Inte
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::SetNetBlendCurveData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html)
-
 [IFeatureManager::SetNetBlendDirectionData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html)
-
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
 
 ## Availability

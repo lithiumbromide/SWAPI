@@ -57,24 +57,15 @@ Array of edges that failed to mesh
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetFailedEdges](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetFailedEdges.html)
-
-.
+See [CWMesh::GetFailedEdges](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetFailedEdges.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetFailedComponents Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetFailedComponents.html)
-
 [ICWMesh::GetFailedFaces Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetFailedFaces.html)
-
 [ICWMesh::IsMeshFailed Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~IsMeshFailed.html)
-
 [ICWMesh::MeshState Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MeshState.html)
 
 ## Availability

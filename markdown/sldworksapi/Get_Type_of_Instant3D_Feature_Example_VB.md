@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Type_of_Instant3D_Feature_Example_VB.htm"
 
 # Get Type of Instant3D Feature Example (VBA)
 
-This example shows how to get the types and persistent IDs of underlying features of Instant3D
-features.
+This example shows how to get the types and persistent IDs of underlying features of Instant3D features.
 
 ```
 '-----------------------------------------------------

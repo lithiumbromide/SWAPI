@@ -45,13 +45,7 @@ property System.bool OutputAmbientOcclusion {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to render with ambient occlusion, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::OutputAmbientOcclusion](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~OutputAmbientOcclusion.html)
-
-.
+See [RayTraceRendererOptions::OutputAmbientOcclusion](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~OutputAmbientOcclusion.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Ambient occlusion is a global lighting method that adds realism to models by con
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
 
 ## Availability

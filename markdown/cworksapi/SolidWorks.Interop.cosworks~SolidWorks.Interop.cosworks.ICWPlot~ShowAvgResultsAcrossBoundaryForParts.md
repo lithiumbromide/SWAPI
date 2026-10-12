@@ -53,25 +53,15 @@ System.int ShowAvgResultsAcrossBoundaryForParts(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ShowAvgResultsAcrossBoundaryForParts](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowAvgResultsAcrossBoundaryForParts.html)
-
-.
+See [CWPlot::ShowAvgResultsAcrossBoundaryForParts](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowAvgResultsAcrossBoundaryForParts.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
@@ -80,7 +70,6 @@ This method is valid only for stress plots of assemblies.
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

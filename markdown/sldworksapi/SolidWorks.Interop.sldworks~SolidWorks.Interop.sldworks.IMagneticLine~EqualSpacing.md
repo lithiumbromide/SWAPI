@@ -45,58 +45,33 @@ property System.bool EqualSpacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to equally space the notes, false to drag the notes to any location on the magnetic line (see
-
-Remarks
-
-)
+True to equally space the notes, false to drag the notes to any location on the magnetic line (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MagneticLine::EqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~EqualSpacing.html)
-
-.
+See [MagneticLine::EqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~EqualSpacing.html).
 
 ## Examples
 
 [Insert Magnetic Line (VBA)](Insert_Magnetic_Line_Example_VB.htm)
-
 [Insert Magnetic Line (VB.NET)](Insert_Magnetic_Line_Example_VBNET.htm)
-
 [Insert Magnetic Line (C#)](Insert_Magnetic_Line_Example_CSharp.htm)
 
 ## Remarks
 
-If this property is set to true, then
-
-[IMagneticLine::AddNote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMagneticLine~AddNote.html)
-
-ignores any Position parameter value.
+If this property is set to true, then [IMagneticLine::AddNote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMagneticLine~AddNote.html) ignores any Position parameter value.
 
 ## See Also
 
 [IMagneticLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html)
-
 [IMagneticLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine_members.html)
-
 [IMagneticLine::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~Angle.html)
-
 [IMagneticLine::EndPoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~EndPoint.html)
-
 [IMagneticLine::StartPoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~StartPoint.html)
-
 [IMagneticLine::Length Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~Length.html)
 
 ## Availability

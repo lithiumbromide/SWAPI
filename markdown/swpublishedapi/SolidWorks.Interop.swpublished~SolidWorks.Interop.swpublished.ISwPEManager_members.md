@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwPEManager Interface Members
 
-The following tables list the members exposed by[ISwPEManager](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.html).
+The following tables list the members exposed by [ISwPEManager](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[ISwPEManager](SolidWorks.Intero
 ## See Also
 
 [ISwPEManager Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

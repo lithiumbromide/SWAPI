@@ -9,12 +9,9 @@ source: "API_GB/Find_Revisions_Using_Component_Example_CSharp.htm"
 
 # Find Revisions Using Component Example (C#)
 
-This example shows how to find the revision numbers using
-the revision number component named**Alpha Revision Component**.
+This example shows how to find the revision numbers using the revision number component named **Alpha Revision Component**.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True enables the merge results option, false disables it
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::Merge](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~Merge.html)
-
-.
+See [RevolveFeatureData2::Merge](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~Merge.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ SOLIDWORKS 2003 FCS, Revision Number 11.0
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
 
 ## Availability

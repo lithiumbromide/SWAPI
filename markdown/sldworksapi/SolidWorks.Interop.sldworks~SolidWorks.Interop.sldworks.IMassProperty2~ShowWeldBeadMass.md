@@ -45,13 +45,7 @@ property System.bool ShowWeldBeadMass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to calculate weld bead mass, false to not
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::ShowWeldBeadMass](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~ShowWeldBeadMass.html)
-
-.
+See [MassProperty2::ShowWeldBeadMass](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~ShowWeldBeadMass.html).
 
 ## Remarks
 
-After setting this property to true, you can use
-
-[IMassProperty2::WeldBeadMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~WeldBeadMass.html)
-
-.
+After setting this property to true, you can use [IMassProperty2::WeldBeadMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~WeldBeadMass.html).
 
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
 
 ## Availability

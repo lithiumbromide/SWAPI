@@ -9,15 +9,14 @@ source: "sldworksapi/Get_COLORREF_Values_of_Standard_User-interface_Elements_Exa
 
 # Get COLORREF Values of Standard User-interface Elements (VB.NET)
 
-This example shows how to get the COLORREF values of standard SOLIDWORKS
-user-interface elements.
+This example shows how to get the COLORREF values of standard SOLIDWORKS Design user-interface elements.
 
 ```
 '---------------------------------------------------------
 ' Preconditions: Open the Immediate window.
 '
 ' Postconditions:
-' 1. Prints the names of the SOLIDWORKS standard
+' 1. Prints the names of the SOLIDWORKS Design standard
 '    user-interface, elements (dimensions, backgrounds,
 '    drawing paper, sketch status, annotations, etc.) and
 '    their COLORREF values to the Immediate window.
@@ -53,7 +52,7 @@ Partial Class SolidWorksMacro
 
         standardCount = swColorTable.GetStandardCount
 
-        Debug.Print("SOLIDWORKS standard
+        Debug.Print("SOLIDWORKS Design standard
 user-interface element and COLORREF value:")
 
         ' Iterate through standard colors

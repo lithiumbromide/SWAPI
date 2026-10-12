@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataFlags.html"
 
 # EdmUserDataFlags Enumeration
 
-Flags used in
-
-[EdmUserData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)
-
-'s mlFlags field when adding users with
-
-[IEdmUserMgr6::AddUsers](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers.html)
-
-.
+Flags used in [EdmUserData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)'s mlFlags field when adding users with [IEdmUserMgr6::AddUsers](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers.html).
 
 ## Syntax
 

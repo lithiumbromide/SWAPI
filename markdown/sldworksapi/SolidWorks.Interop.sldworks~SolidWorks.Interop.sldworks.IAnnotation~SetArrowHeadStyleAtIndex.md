@@ -51,48 +51,28 @@ System.int SetArrowHeadStyleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: 0-based index of leader within this annotation (see
-
-Remarks
-
-)
-- `ArrowHeadStyle`: Arrowhead style as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `Index`: 0-based index of leader within this annotation (see **Remarks**)
+- `ArrowHeadStyle`: Arrowhead style as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 
 ### Return Value
 
-Return status (see
-
-Remarks
-
-)
+Return status (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetArrowHeadStyleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetArrowHeadStyleAtIndex.html)
-
-.
+See [Annotation::SetArrowHeadStyleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetArrowHeadStyleAtIndex.html).
 
 ## Remarks
 
-A valid index value is greater than or equal to 0, but less than the number of leaders on this annotation. Use[IAnnotation::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadCount.html)to find out how many leaders are on this annotation. An index value of -1 is also valid, and indicates that this arrowhead style should be applied to all leaders on this annotation. If the index value is
+A valid index value is greater than or equal to 0, but less than the number of leaders on this annotation. Use [IAnnotation::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadCount.html) to find out how many leaders are on this annotation. An index value of -1 is also valid, and indicates that this arrowhead style should be applied to all leaders on this annotation. If the index value is
 invalid, SOLIDWORKS returns a retval of -2.
 
 If smart arrowhead style is enabled on this annotation, then this method cannot change
-the arrowhead style of individual leaders, and retval is -3. Use[IAnnotation::GetSmartArrowHeadStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetSmartArrowHeadStyle.html)to determine if this flag is enabled or disabled.
+the arrowhead style of individual leaders, and retval is -3. Use [IAnnotation::GetSmartArrowHeadStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetSmartArrowHeadStyle.html) to determine if this flag is enabled or disabled.
 
 The return status of this method can have the following values:
 
@@ -105,20 +85,15 @@ The return status of this method can have the following values:
 | -4 | Not set because of an invalid arrowhead style value |
 
 If leader display is enabled, then this method changes the visible model. To see those
-changes, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to reddraw the graphics window.
+changes, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to reddraw the graphics window.
 
-Use[IAnnotation::GetArrowHeadStyleAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadStyleAtIndex.html)to get the arrow head style of a specific leader.
+Use [IAnnotation::GetArrowHeadStyleAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadStyleAtIndex.html) to get the arrow head style of a specific leader.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::SetArrowHeadSizeAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetArrowHeadSizeAtIndex.html)
-
 [IAnnotation::GetArrowHeadSizeAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetArrowHeadSizeAtIndex.html)
-
 [IAnnotation::GetArrowHeadStyleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetArrowHeadStyleAtIndex.html)
-
 [IAnnotation::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetArrowHeadCount.html)

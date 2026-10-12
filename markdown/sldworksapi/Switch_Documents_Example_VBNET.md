@@ -9,8 +9,7 @@ source: "sldworksapi/Switch_Documents_Example_VBNET.htm"
 
 # Switch Documents Example (VB.NET)
 
-This example shows how to switch documents by opening documents in their own
-and client model windows.
+This example shows how to switch documents by opening documents in their own and client model windows.
 
 ```
 '----------------------------------------------

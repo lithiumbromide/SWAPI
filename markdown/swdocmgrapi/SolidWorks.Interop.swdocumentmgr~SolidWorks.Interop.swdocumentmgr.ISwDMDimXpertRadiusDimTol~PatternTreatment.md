@@ -44,17 +44,11 @@ property swDmDimXpertPatternTreatmentType_e PatternTreatment {
 
 ### Property Value
 
-Pattern treatment for the radius dimension tolerance as defined in
-
-[swDmDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPatternTreatmentType_e.html)
+Pattern treatment for the radius dimension tolerance as defined in [swDmDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPatternTreatmentType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertRadiusDimTol::PatternTreatment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertRadiusDimTol~PatternTreatment.html)
-
-.
+See [SwDMDimXpertRadiusDimTol::PatternTreatment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertRadiusDimTol~PatternTreatment.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertRadiusDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertRadiusDimTol.html)
-
 [ISwDMDimXpertRadiusDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertRadiusDimTol_members.html)
 
 ## Availability

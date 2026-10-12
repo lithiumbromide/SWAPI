@@ -57,20 +57,13 @@ System.int ChangeStatus(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::ChangeStatus](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeStatus.html)
-
-.
+See [PDMWDocument::ChangeStatus](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeStatus.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWConnection::Statuses Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Statuses.html)
-
 [IPDMWDocument::GetStatus Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetStatus.html)
 
 ## Availability

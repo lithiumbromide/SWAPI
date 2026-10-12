@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Search_Folders_Example_VBNET.htm"
 
 # Get and Set Search Folders Example (VB.NET)
 
-This example shows how to get and set the file locations in which SOLIDWORKS
-searches for reference documents.
+This example shows how to get and set the file locations in which SOLIDWORKS Design searches for reference documents.
 
 ```
 '----------------------------------------------------------------------------
@@ -21,7 +20,7 @@ searches for reference documents.
 '    documents.
 ' 2. Inspect the Immediate window.
 '
-' NOTE: This macro changes your SOLIDWORKS search folders system settings.
+' NOTE: This macro changes your SOLIDWORKS Design search folders system settings.
 '---------------------------------------------------------------------------
 
 	Imports SolidWorks.Interop.sldworks
@@ -48,7 +47,7 @@ searches for reference documents.
 
 	        swApp.SetUserPreferenceToggle(swUserPreferenceToggle_e.swUseFolderSearchRules, False)
 
-                searchFolders = swApp.GetSearchFolders(swSearchFolderTypes_e.swDocumentType)
+                                searchFolders = swApp.GetSearchFolders(swSearchFolderTypes_e.swDocumentType)
         Debug.Print "Current search path: " & searchFolders
         searchFolders = "c:\;" & searchFolders
         boolstatus = swApp.SetSearchFolders(swSearchFolderTypes_e.swDocumentType, searchFolders)

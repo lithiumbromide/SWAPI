@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6_properties.html"
 
 # IEdmState6 Interface Properties
 
-For a list of all members of this type, see[IEdmState6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6_members.html).
+For a list of all members of this type, see [IEdmState6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmState6 members](EPDM.Interop.epd
 ## See Also
 
 [IEdmState6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

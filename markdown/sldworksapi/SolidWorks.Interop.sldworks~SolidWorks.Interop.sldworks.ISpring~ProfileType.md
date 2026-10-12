@@ -45,44 +45,27 @@ property System.int ProfileType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Section profile type as defined in
-
-[swSpringProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringProfileType_e.html)
+Section profile type as defined in [swSpringProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringProfileType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Spring::ProfileType](ms-its:sldworksapivb6.chm::/sldworks~Spring~ProfileType.html)
-
-.
+See [Spring::ProfileType](ms-its:sldworksapivb6.chm::/sldworks~Spring~ProfileType.html).
 
 ## Remarks
 
-Use[ISpring::ProfileParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~ProfileParameters.html)to set the spring's section profile parameters.
+Use [ISpring::ProfileParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~ProfileParameters.html) to set the spring's section profile parameters.
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [ISpring::BaseProfile Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~BaseProfile.html)
-
 [ISpring::GetProfilePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~GetProfilePoints.html)
-
 [ISpring::SectionProfile Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~SectionProfile.html)
-
 [ISpring::SectionProfileCenter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~SectionProfileCenter.html)
 
 ## Availability

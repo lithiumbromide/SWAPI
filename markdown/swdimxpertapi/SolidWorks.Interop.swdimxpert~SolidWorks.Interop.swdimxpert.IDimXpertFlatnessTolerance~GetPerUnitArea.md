@@ -82,22 +82,16 @@ True if the method call was successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertFlatnessTolerance::GetPerUnitArea](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFlatnessTolerance~GetPerUnitArea.html)
-
-.
+See [DimXpertFlatnessTolerance::GetPerUnitArea](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFlatnessTolerance~GetPerUnitArea.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertFlatnessTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance.html)
-
 [IDimXpertFlatnessTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance_members.html)
 
 ## Availability

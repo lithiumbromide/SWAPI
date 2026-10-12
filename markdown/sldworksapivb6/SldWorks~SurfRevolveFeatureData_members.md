@@ -1,6 +1,5 @@
 ---
-title: "SurfRevolveFeatureData Object
-Members"
+title: "SurfRevolveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfRevolveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfRevolveFeatureData_members.html"
 ---
 
-# SurfRevolveFeatureData Object
-Members
+# SurfRevolveFeatureData Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "ImportIgesData Object
-Members"
+title: "ImportIgesData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ImportIgesData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ImportIgesData_members.html"
 ---
 
-# ImportIgesData Object
-Members
+# ImportIgesData Object Members
 
 ## Public Methods
 

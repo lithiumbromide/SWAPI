@@ -58,13 +58,7 @@ void SketchModifyTranslate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,26 +73,18 @@ The sketch is translated from the XY start point position to the XY end point po
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchModifyTranslate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyTranslate.html)
-
-.
+See [ModelDoc2::SketchModifyTranslate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyTranslate.html).
 
 ## Examples
 
 [Translate Sketch (VBA)](Translate_Sketch_Example_VB.htm)
-
 [Translate Sketch (VB.NET)](Translate_Sketch_Example_VBNET.htm)
-
 [Translate Sketch (C#)](Translate_Sketch_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ToolsSketchTranslate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ToolsSketchTranslate.html)
 
 ## Availability

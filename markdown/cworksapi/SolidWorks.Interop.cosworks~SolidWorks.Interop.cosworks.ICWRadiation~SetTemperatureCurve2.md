@@ -53,12 +53,8 @@ System.bool SetTemperatureCurve2(
 
 ### Parameters
 
-- `VarCurveData`: Array of temperature curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Temperature curve error as defined in[swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
+- `VarCurveData`: Array of temperature curve data (see **Remarks**)
+- `ErrorCode`: Temperature curve error as defined in [swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
 
 ### Return Value
 
@@ -68,18 +64,17 @@ Remarks
 
 Temperature curve data array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = temperature value at the`ith`data point
+- xi = temperature value at the `ith` data point
 - yi = property value associated with temperature xi
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool UseRestitutionCoefficient {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,20 @@ True to use the restitution coefficient, false to use impact force
 
 ## VBA Syntax
 
-See
-
-[Simulation3DContactFeatureData::UseRestitutionCoefficient](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~UseRestitutionCoefficient.html)
-
-.
+See [Simulation3DContactFeatureData::UseRestitutionCoefficient](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~UseRestitutionCoefficient.html).
 
 ## Examples
 
-See the
-
-[ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
-examples.
+See the [ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html) examples.
 
 ## See Also
 
 [ISimulation3DContactFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
 [ISimulation3DContactFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData_members.html)
-
 [ISimulation3DContactFeatureData::MaxDamping Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~MaxDamping.html)
-
 [ISimulation3DContactFeatureData::Exponent Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~Exponent.html)
-
 [ISimulation3DContactFeatureData::Penetration Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~Penetration.html)
-
 [ISimulation3DContactFeatureData::RestitutionCoefficient Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~RestitutionCoefficient.html)
-
 [ISimulation3DContactFeatureData::Stiffness Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~Stiffness.html)
 
 ## Availability

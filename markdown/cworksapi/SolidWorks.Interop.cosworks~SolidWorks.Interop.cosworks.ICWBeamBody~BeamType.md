@@ -47,28 +47,19 @@ property System.int BeamType {
 
 ### Property Value
 
-Type of beam as defined by[swsBeamBodyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamForceType_e.html)
+Type of beam as defined by [swsBeamBodyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamForceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamType.html)
-
-.
+See [CWBeamBody::BeamType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamType.html).
 
 ## Examples
 
-See the
-
-[ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
-examples.
+See the [ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html) examples.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
 
 ## Availability

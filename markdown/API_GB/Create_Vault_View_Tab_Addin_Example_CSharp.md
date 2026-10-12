@@ -9,8 +9,7 @@ source: "API_GB/Create_Vault_View_Tab_Addin_Example_CSharp.htm"
 
 # Create Vault View Tab Add-in Example (C#)
 
-This example shows how to create an add-in that adds a
-custom tab to the bottom panel of a vault view when it is opened in File Explorer.
+This example shows how to create an add-in that adds a custom tab to the bottom panel of a vault view when it is opened in File Explorer.
 
 ```vb
  //--------------------------------------------------------------------------------------

@@ -40,13 +40,7 @@ EnumSketchHatches IEnumSketchHatches()
 EnumSketchHatches^ IEnumSketchHatches();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::IEnumSketchHatches](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchHatches.html)
-
-.
+See [Sketch::IEnumSketchHatches](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchHatches.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketchHatch::GetSketchHatches Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchHatches.html)
 
 ## Availability

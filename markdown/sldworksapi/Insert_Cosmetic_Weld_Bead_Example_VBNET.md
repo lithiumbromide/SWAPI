@@ -9,9 +9,7 @@ source: "sldworksapi/Insert_Cosmetic_Weld_Bead_Example_VBNET.htm"
 
 # Insert Cosmetic Weld Bead Example (VB.NET)
 
-This example shows how to insert a cosmetic weld bead feature and access an
-existing cosmetic weld bead feature's
-properties.
+This example shows how to insert a cosmetic weld bead feature and access an existing cosmetic weld bead feature's properties.
 
 ```
 '----------------------------------------------------------------------------

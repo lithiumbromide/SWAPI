@@ -48,11 +48,7 @@ property PDMDocManager^ PDMDocManager {
 
 ## VBA Syntax
 
-See
-
-[Application::PDMDocManager](ms-its:toolboxapivb6.chm::/ToolboxBrowser~Application~PDMDocManager.html)
-
-.
+See [Application::PDMDocManager](ms-its:toolboxapivb6.chm::/ToolboxBrowser~Application~PDMDocManager.html).
 
 ## Remarks
 
@@ -61,7 +57,6 @@ Available only if you installed SOLIDWORKS Toolbox.
 ## See Also
 
 [IApplication Interface](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html)
-
 [IApplication Members](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication_members.html)
 
 ## Availability

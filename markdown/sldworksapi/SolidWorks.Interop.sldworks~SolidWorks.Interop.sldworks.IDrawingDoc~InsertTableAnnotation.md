@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertTableAnnotation Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::InsertTableAnnotation2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertTableAnnotation2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::InsertTableAnnotation2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertTableAnnotation2.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ TableAnnotation^ InsertTableAnnotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertTableAnnotation.html)
-
-.
+See [DrawingDoc::InsertTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertTableAnnotation.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

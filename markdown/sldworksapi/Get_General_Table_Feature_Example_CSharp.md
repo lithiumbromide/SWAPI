@@ -9,8 +9,7 @@ source: "sldworksapi/Get_General_Table_Feature_Example_CSharp.htm"
 
 # Get General Table Feature Example (C#)
 
-This example shows how to get a general table feature and some of its table
-annotation data.
+This example shows how to get a general table feature and some of its table annotation data.
 
 ```
 //-----------------------------------------------------------------

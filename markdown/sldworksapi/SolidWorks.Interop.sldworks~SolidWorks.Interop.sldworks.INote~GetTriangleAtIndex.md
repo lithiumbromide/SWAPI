@@ -47,13 +47,7 @@ System.Object^ GetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Note::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTriangleAtIndex.html)
-
-.
+See [Note::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[vertexPt1[3],vertexPt2[3],vertexPt3[3],isFilled,lineType]
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
 
 where:
-
-(Table)=========================================================
 
 | vertexPt1 [3] | = first XYZ vertex point |
 | --- | --- |
@@ -95,9 +79,6 @@ where:
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetTriangleCount.html)
-
 [INote::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetTriangleAtIndex.html)

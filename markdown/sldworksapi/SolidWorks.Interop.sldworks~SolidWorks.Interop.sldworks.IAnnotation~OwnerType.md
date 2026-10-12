@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 Gets the type of owner of this annotation.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,36 +47,23 @@ property System.int OwnerType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of owner of this annotation as defined in
-
-[swAnnotationOwner_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnnotationOwner_e.html)
+Type of owner of this annotation as defined in [swAnnotationOwner_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnnotationOwner_e.html)
 
 ## VBA Syntax
 
-See
-
-[Annotation::OwnerType](ms-its:sldworksapivb6.chm::/sldworks~Annotation~OwnerType.html)
-
-.
+See [Annotation::OwnerType](ms-its:sldworksapivb6.chm::/sldworks~Annotation~OwnerType.html).
 
 ## Remarks
 
-Use this property to determine if an annotation is located on drawing view, drawing sheet, drawing template, assembly, or part. Use[IAnnotation::Owner](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Owner.html)to gain access to the owner of the annotation.
+Use this property to determine if an annotation is located on drawing view, drawing sheet, drawing template, assembly, or part. Use [IAnnotation::Owner](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Owner.html) to gain access to the owner of the annotation.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

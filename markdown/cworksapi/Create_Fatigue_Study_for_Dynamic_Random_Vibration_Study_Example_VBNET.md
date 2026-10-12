@@ -9,8 +9,7 @@ source: "cworksapi/Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Examp
 
 # Create Fatigue Study for Dynamic Random Vibration Study Example (VB.NET)
 
-This example shows how to create a fatigue study for a linear dynamic random
-vibration study.
+This example shows how to create a fatigue study for a linear dynamic random vibration study.
 
 ```vb
   '---------------------------------------------------------------------------

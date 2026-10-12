@@ -9,40 +9,32 @@ source: "epdmapi/Batch_Update_Variables_Example_CSharp.htm"
 
 # Batch Update Card Variables Example (C#)
 
-This example shows how to update file and folder card
-variables in one batch.
+This example shows how to update file and folder card variables in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type BatchUpdateCardVarsCSharp in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in  Form1.Designer.cs with
+ //    a. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ //    b. Type BatchUpdateCardVarsCSharp in Project name.
+ //       c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
+ //        Form1.cs in the Solution Explorer.
+ //    h. Replace the code in Form1.cs with this code.
+ //    i. To create the form, replace the code in  Form1.Designer.cs with
  //       this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and click
- //    EPDM.Interop.epdm.dll, and click  Add).
+ // 2.     Add dependencies and safely pass arrays of structures.
   // 3. Add Microsoft.CSharp as reference (click
  //    Assemblies > Framework in the left-side panel, select
  //    Microsoft.CSharp, and click OK).
- // 4. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 5.  Ensure that at least one text file is checked out, and at least one folder
+ // 4.  Ensure that at least one text file is checked out, and at least one folder
  //    with the word Folder in the name exists in the vault.
- // 6. Click Debug > Start Debugging or press F5.
+ // 5. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  //  1. Displays the Batch Update dialog box.

@@ -45,13 +45,7 @@ property System.bool SuppressWaitCursorDuringRedraw {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable the wait cursor, false to disable it
 
 ## VBA Syntax
 
-See
-
-[ModelView::SuppressWaitCursorDuringRedraw](ms-its:sldworksapivb6.chm::/sldworks~ModelView~SuppressWaitCursorDuringRedraw.html)
-
-.
+See [ModelView::SuppressWaitCursorDuringRedraw](ms-its:sldworksapivb6.chm::/sldworks~ModelView~SuppressWaitCursorDuringRedraw.html).
 
 ## Examples
 
@@ -73,20 +63,17 @@ See
 
 When a model view is being redrawn, the wait cursor is normally displayed. This property allows you to suppress the wait cursor.
 
-An add-in might find this property useful in situations where it is running a series of APIs, and one or more of those APIs cause the model view to redraw. By default, redrawing the model causes the wait cursor to flash on and off, which the end user may find disconcerting. By setting this property to false, the flashing wait cursor is suppressed.[IModelDoc::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)is the most common API that causes a model view to redraw.
+An add-in might find this property useful in situations where it is running a series of APIs, and one or more of those APIs cause the model view to redraw. By default, redrawing the model causes the wait cursor to flash on and off, which the end user may find disconcerting. By setting this property to false, the flashing wait cursor is suppressed. [IModelDoc::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) is the most common API that causes a model view to redraw.
 
-If your program disables this property, then it should re-enable it when the operation for which it was disabled completes. Otherwise, SOLIDWORKS will continue tonotdisplay the wait cursor. In other words, the expected use of this property is that you should disable it for a specific operation (or set of operations) in your code, and then immediately restore its previous behavior when that operation is completed.
+If your program disables this property, then it should re-enable it when the operation for which it was disabled completes. Otherwise, SOLIDWORKS will continue to not display the wait cursor. In other words, the expected use of this property is that you should disable it for a specific operation (or set of operations) in your code, and then immediately restore its previous behavior when that operation is completed.
 
 Use of this property does not affect SOLIDWORKS performance.
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::GraphicsRedraw Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~GraphicsRedraw.html)
-
 [IModelView::IGraphicsRedraw Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~IGraphicsRedraw.html)
 
 ## Availability

@@ -53,36 +53,22 @@ System.int SetValue(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::SetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetValue.html)
-
-.
+See [CWTopologyStressConstraint::SetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetValue.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## Remarks
 
 DValue:
 
 - must be greater than the minimum stress for the model. Run a static analysis with the same loads and fixtures used in the topology study to estimate the minimum model stress.
-- depends on the
-
-  [ICWTopologyStressConstraint::SetValuationPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint~SetValuationPreference.html)
-
-  setting.
+- depends on the [ICWTopologyStressConstraint::SetValuationPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint~SetValuationPreference.html) setting.
 
 This stress constraint equation:
 
@@ -93,7 +79,6 @@ stress_component comparator DValue
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
 
 ## Availability

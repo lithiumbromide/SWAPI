@@ -68,52 +68,16 @@ void GetReverseDirections2(
 
 ### Parameters
 
-- `BVal1`: -1 or true if plane direction 1 is reversed, 0 or false if not; valid only if BVal1 of
-
-[ICWRestraint::GetTranslationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues2.html)
-
-is set to -1 or true (see
-
-Remarks
-
-)
-- `BVal2`: -1 or true if plane direction 2 is reversed, 0 or false if not; valid only if BVal2 of ICWRestraint::GetTranslationComponentsValues2 is set to -1 or true (see
-
-Remarks
-
-)
-- `BVal3`: -1 or true if normal to the plane is reversed, 0 or false if not; valid only if BVal3 of ICWRestraint::GetTranslationComponentsValues2 is set to -1 or true (see
-
-Remarks
-
-)
-- `BVal4`: -1 or true if radial direction is reversed, 0 or false if not; valid only if BVal1 of
-
-[ICWRestraint::GetRotationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues2.html)
-
-is set to -1 or true (see
-
-Remarks
-
-)
-- `BVal5`: -1 or true if circumferential direction is reversed, 0 or false if not; valid only if BVal2 of ICWRestraint::GetRotationComponentsValues2 is set to -1 or true (see
-
-Remarks
-
-)
-- `BVal6`: -1 or true if axial direction is reversed, 0 or false if not; valid only if BVal3 of ICWRestraint::GetRotationComponentsValues2 is set to -1 or true (see
-
-Remarks
-
-)
+- `BVal1`: -1 or true if plane direction 1 is reversed, 0 or false if not; valid only if BVal1 of [ICWRestraint::GetTranslationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues2.html) is set to -1 or true (see **Remarks**)
+- `BVal2`: -1 or true if plane direction 2 is reversed, 0 or false if not; valid only if BVal2 of ICWRestraint::GetTranslationComponentsValues2 is set to -1 or true (see **Remarks**)
+- `BVal3`: -1 or true if normal to the plane is reversed, 0 or false if not; valid only if BVal3 of ICWRestraint::GetTranslationComponentsValues2 is set to -1 or true (see **Remarks**)
+- `BVal4`: -1 or true if radial direction is reversed, 0 or false if not; valid only if BVal1 of [ICWRestraint::GetRotationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues2.html) is set to -1 or true (see **Remarks**)
+- `BVal5`: -1 or true if circumferential direction is reversed, 0 or false if not; valid only if BVal2 of ICWRestraint::GetRotationComponentsValues2 is set to -1 or true (see **Remarks**)
+- `BVal6`: -1 or true if axial direction is reversed, 0 or false if not; valid only if BVal3 of ICWRestraint::GetRotationComponentsValues2 is set to -1 or true (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetReverseDirections2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetReverseDirections2.html)
-
-.
+See [CWRestraint::GetReverseDirections2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetReverseDirections2.html).
 
 ## Remarks
 
@@ -127,7 +91,6 @@ If out parameters BVal1-6 are cast as:
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWSolidBody Object
-Members"
+title: "CWSolidBody Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWSolidBody_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWSolidBody_members.html"
 ---
 
-# CWSolidBody Object
-Members
+# CWSolidBody Object Members
 
 ## Public Methods
 

@@ -11,10 +11,8 @@ source: "sldworksapi/Get_Names_and_Show_Model_Break_Views_Example_VB.htm"
 
 This example shows how to:
 
-- get the names of the Model Break Views in the
-  current configuration of an active model.
-- show one of the Model Break
-  Views.
+- get the names of the Model Break Views in the current configuration of an active model.
+- show one of the Model Break Views.
 
 ```
 '--------------------------------------

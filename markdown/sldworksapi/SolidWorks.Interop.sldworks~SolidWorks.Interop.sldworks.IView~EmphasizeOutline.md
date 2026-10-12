@@ -45,13 +45,7 @@ property System.bool EmphasizeOutline {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True if the outlines of section views are outlined, false if not
 
 ## VBA Syntax
 
-See
-
-[View::EmphasizeOutline](ms-its:sldworksapivb6.chm::/Sldworks~View~EmphasizeOutline.html)
-
-.
+See [View::EmphasizeOutline](ms-its:sldworksapivb6.chm::/Sldworks~View~EmphasizeOutline.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
-
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_and_Get_Some_Data_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

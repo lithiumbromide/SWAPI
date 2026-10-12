@@ -9,114 +9,25 @@ source: "emodeltoolkit/eDColorFloat/eDColorFloat_Class.htm"
 
 # eDColorFloat Class
 
-(Generated Script Links)========================================
-
-(Generated Code)================================================
-
-(WARNING: DO NOT EDIT OR DELETE THIS SECTION!)==================
-
-begin!kadov{{===================================================
-
-}}end!kadov=====================================================
-
-(==============================================================)
-
-(Table)=========================================================
-
-| See
-Also | Example | Accessors | Availability |
+| See Also | Example | Accessors | Availability |
 | --- | --- | --- | --- |
 
 Contains a value between 0.0 and 1.0 that represents color data.
 
 #### Header file code
 
+```vb
 class eDColorFloat
-
 {
-
 public:
 
-float F; //Sets initial
-value
+float F; //Sets initial value
 
-eDColorFloat( float
-f = -1 ) : F( f ) {}
+eDColorFloat( float f = -1 ) : F( f ) {}
 
-bool IsValid() const
-{ return 0.0 <= F && F <= 1.0; } //Ensures that the value
-is between 0.0 and 1.0
+bool IsValid() const { return 0.0 <= F && F <= 1.0; } //Ensures that the value is between 0.0 and 1.0
 
-operator float () const
-{ return F; } //Allows casting the eDColorFloat to a standard C++ float
-easier
+operator float () const { return F; } //Allows casting the eDColorFloat to a standard C++ float easier
 
 };
-
-kadov_tag{{<implicit_p>}}
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="GeometryAppearancePropertiesClasses$$**$$eDScene$$**$$eDColorRBGClass$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\eModelToolkit\eDColorFloat\eDColorFloat_Class.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>
-
-Metadata type="DesignerControl" endspan
-
-begin!kadov{{
-
-}}end!kadov
-
-kadov_tag{{<implicit_p>}}
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZGeteDColorFloat$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\eModelToolkit\eDColorFloat\eDColorFloat_Class.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>
-
-Metadata type="DesignerControl" endspan
+```

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # ICWResults Interface Members
 
-The following tables list the members exposed by[ICWResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html).
+The following tables list the members exposed by [ICWResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html).
 
 ## Public Methods
 
@@ -17,6 +17,7 @@ The following tables list the members exposed by[ICWResults](SolidWorks.Interop.
 | --- | --- | --- |
 | Method | ActivatePlot | Activates the specified plot. |
 | Method | AddIsoClippingToPlot | Adds iso clipping to the specified result plot. |
+| Method | CreateAngularRotationPlot | Creates an angular rotation plot for the specified reference axis. |
 | Method | CreateDeformedBody | Obsolete. Superseded by ICWResults::CreateDeformedBody2 . |
 | Method | CreateDeformedBody2 | Saves the deformed shape that results from running a static or nonlinear study. |
 | Method | CreatePlot | Creates the specified plot. |
@@ -127,9 +128,6 @@ The following tables list the members exposed by[ICWResults](SolidWorks.Interop.
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWRunStudiesResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html)
