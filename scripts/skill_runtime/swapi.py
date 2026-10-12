@@ -21,7 +21,7 @@ HEAD_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 LINK_RE = re.compile(r"!?\[([^\]]*)\]\(([^)]*)\)")
 FENCE_RE = re.compile(r"^(`{3,})[^\n`]*\n(.*?)\n\1[ \t]*$", re.S | re.M)
 KADOV_RE = re.compile(r"kadov_tag\{\{.*?\}\}|begin!kadov\{\{.*?\}\}end!kadov|\}\}end!kadov|begin!kadov\{\{|\(Generated [^)]*\)=+|\(WARNING:[^)]*\)=+|\(Table\)=+|\(=+\)")
-STRUCT_LINE = re.compile(r"^(?:[-*] |\d+\. |\||#)")
+STRUCT_LINE = re.compile(r"^(?:[-*] |\d+\. |\||#|\*\*NOTE\b|NOTE:)")
 LIST_ITEM = re.compile(r"^(?:[-*] |\d+\. )")
 MEMBER_KINDS = {"m": "method", "p": "property", "e": "event", "f": "field"}
 IFACE_KINDS = {"i": "interface", "c": "class", "s": "struct", "o": "object"}

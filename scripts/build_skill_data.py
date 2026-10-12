@@ -40,7 +40,7 @@ def norm_sig(code):
     s = re.sub(r"\s+\)", ")", s)
     s = re.sub(r"\s+,", ",", s)
     s = re.sub(r"\bSystem\.(?=\w+\b(?!\.))", "", s)
-    s = re.sub(r"^(?:public|Public|Private|Friend)\s+", "", s)
+    s = re.sub(r"^(?:(?:public|Public|Private|Friend|Overridable|virtual|override|abstract|sealed)\s+)+", "", s)
     return s.strip()
 def norm_vba(code):
     s = code.replace(" _\n", " ").replace("_\n", " ")
@@ -468,7 +468,7 @@ class Builder:
                 unresolved += 1
             entry = iface_entry(iname, "o" if vba else ("s" if row_kind == "f" else "i"))
             if is_delegate and entry["path"] == "-" and not entry["summary"]:
-                entry["summary"] = f"Event source; members are .NET delegates {iname}_<Member>EventHandler"
+                entry["summary"] = ".NET delegate types of this module" if iname == "Delegates" else f"Event source; members are .NET delegates {iname}_<Member>EventHandler"
             entry["members"].append(row)
             pref = self.member_prefix(p, iname, member, row_kind, vba, is_delegate)
             if pref is not None:
@@ -479,6 +479,19 @@ class Builder:
             if not vba and not row[4].startswith("obsolete"):
                 info.lean = self.lean_member(p, secs)
             infos[p] = info
+        for entry in ifaces.values():
+            if entry["kind"] != "c" or not entry.get("base"):
+                continue
+            bases = [ifaces[b] for b in sorted(entry["base"], key=lambda b: not b.startswith("I")) if b in ifaces]
+            for b in bases:
+                if not entry["summary"] and b.get("summary"):
+                    entry["summary"] = b["summary"]
+                own = {r[0]: r for r in b["members"]}
+                for row in entry["members"]:
+                    src = own.get(row[0])
+                    if src is not None:
+                        row[3] = row[3] or src[3]
+                        row[5] = row[5] or src[5]
         default_prefix = prefix_count.most_common(1)[0][0] if prefix_count else ""
         if not default_prefix:
             for p in paths:
@@ -562,6 +575,7 @@ class Builder:
             if up.startswith("NOTE") or "KADOV" in up or "====" in text or up.startswith("CLICK THE"):
                 continue
             text = re.sub(r"^Obsolete\b[^.]*\.?\s*(?:(?:Supers?e?ded|Supserseded|See)\b[^.]*?(?:\.\s|\.$|$))?", "", text).strip()
+            text = re.split(r"\s+NOTE\s*:", text)[0].strip()
             if not text or text.upper().startswith("NOTE"):
                 continue
             return clip(text, 120)
@@ -784,7 +798,8 @@ class Builder:
             members = self.enum_members(section(secs, {"Members"}) or "")
             if not members:
                 self.skill_warnings.append(f"enum without members: {m}/{name}")
-            entries.append((name, bitmask, self.summary(intro), members, p, pref))
+            summ = re.sub(r"\s*\bBitmask\s*\.?\s*$", "", self.summary(intro)) if bitmask else self.summary(intro)
+            entries.append((name, bitmask, summ, members, p, pref))
         default = prefix_count.most_common(1)[0][0] if prefix_count else ""
         for name, bitmask, summ, members, p, pref in sorted(entries, key=lambda e: (e[0].lower(), e[0])):
             head = [f"@{name}", "bitmask" if bitmask else "", tsv(summ)]
@@ -1002,9 +1017,11 @@ def diff_changes(old_dir, new_files):
         else:
             if b["status"].startswith("obsolete") and not a["status"].startswith("obsolete"):
                 out.append(("obsoleted", sym, b["status"]))
-            elif a["sig"] != b["sig"] and a["sig"] and b["sig"]:
+            elif a["sig"] and b["sig"] and strip_ann(a["sig"]) != strip_ann(b["sig"]):
                 out.append(("changed", sym, b["sig"]))
     return "".join("\t".join(r) + "\n" for r in out), Counter(r[0] for r in out)
+def strip_ann(sig):
+    return re.sub(r":[A-Za-z_][\w.]*", "", sig)
 def previous_dir(prev, skill):
     if not prev:
         return None
