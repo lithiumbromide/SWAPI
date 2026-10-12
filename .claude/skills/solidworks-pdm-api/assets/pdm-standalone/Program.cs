@@ -22,15 +22,23 @@ namespace PdmTool
                 Console.WriteLine(string.Join("\t", "Path", "Revision", "State", args[1]));
                 for (var i = 2; i < args.Length; i++)
                 {
-                    IEdmFolder5 folder;
-                    var file = vault.GetFileFromPath(args[i], out folder);
-                    if (file == null)
+                    try
                     {
-                        Console.Error.WriteLine("not a vault file: " + args[i]);
-                        exitCode = 1;
-                        continue;
+                        IEdmFolder5 folder;
+                        var file = vault.GetFileFromPath(args[i], out folder);
+                        if (file == null)
+                        {
+                            Console.Error.WriteLine("not a vault file: " + args[i]);
+                            exitCode = 1;
+                            continue;
+                        }
+                        Console.WriteLine(string.Join("\t", args[i], file.CurrentRevision, file.CurrentState.Name, ReadVariable(file, args[1])));
                     }
-                    Console.WriteLine(string.Join("\t", args[i], file.CurrentRevision, file.CurrentState.Name, ReadVariable(file, args[1])));
+                    catch (COMException ex)
+                    {
+                        Console.Error.WriteLine(args[i] + ": " + Describe(vault, ex));
+                        exitCode = 1;
+                    }
                 }
                 return exitCode;
             }

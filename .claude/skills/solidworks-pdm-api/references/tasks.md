@@ -12,7 +12,7 @@
 ## Task model
 A task is an add-in executed on one or more task host computers instead of the client where the user acted. A task definition combines the add-in, an optional launch dialog or card, the credentials it runs under, the hosts, an optional schedule, who may launch it, and success and failure notifications. Instances are created by a schedule, by a workflow transition action, from Tasks, Task List, Add Task in the Administration tool, or from the task's menu command in a vault view.
 ## Setup
-1. Write an `IEdmAddIn5` class that registers task hooks (anatomy and deployment as in [addins.md](addins.md#anatomy)); task add-ins need `mlRequiredVersionMajor = 10` (PDM 2010) or later.
+1. Write an `IEdmAddIn5` class that registers task hooks (anatomy and deployment as in [addins.md](addins.md#anatomy)); task add-ins need `mlRequiredVersionMajor = 10` (PDM 2010) or later. Add every DLL the add-in loads, such as the Document Manager interop, to the add-in in the Administration tool.
 2. Add it to the vault with Add-ins, New Add-in in the Administration tool.
 3. On every task host: SOLIDWORKS PDM icon in the notification area, Task Host Configuration, select the vault, tick Permit next to the add-in.
 4. Administration tool, right-click Tasks, New Task, select the add-in, then choose execution method (hosts), scheduling, permissions and notifications.
@@ -45,7 +45,8 @@ Combine `EdmTaskFlag` bits in `IEdmTaskProperties.TaskFlags` during `EdmCmd_Task
 - `poCmd.mpoVault` is the vault as seen by the user credentials configured in the task definition, so that account needs the permissions the work requires.
 - Never show message boxes or forms: the host runs unattended and a modal dialog blocks the instance. Report through `SetProgressPos` and `SetStatus`; the official samples' `MessageBox` calls in catch blocks are only acceptable while debugging.
 - The host's local cache may not hold the selected version: fetch it with `IEdmFile5.GetFileCopy` or `IEdmBatchGet` before opening it, and follow the check-out, `SetVar`, `CloseFile(true)`, check-in sequence in [vault-programming.md](vault-programming.md#card-variables) when writing card values.
-- Reading SOLIDWORKS data on the host: the Document Manager API reads custom properties of SLDPRT, SLDASM and SLDDRW files without starting SOLIDWORKS and needs a license key; automate SOLIDWORKS itself only for geometry, rebuilds or exports. Both are covered by the solidworks-api skill.
+- Reading SOLIDWORKS data on the host: the Document Manager API reads custom properties of SLDPRT, SLDASM and SLDDRW files without starting SOLIDWORKS; automate SOLIDWORKS itself only for geometry, rebuilds or exports. Both are covered by the solidworks-api skill.
+- The task template reads custom properties through Document Manager: it needs `SwDocumentMgr.dll` registered on the host (the SOLIDWORKS installation does this), the interop `SolidWorks.Interop.swdocumentmgr.dll` from the SOLIDWORKS `api/redist` folder, and the license key in the environment variable `SW_DM_LICENSE_KEY` visible to the task's account. Never put the key in source code, because the license forbids distributing it.
 - Catch exceptions per file so one bad file does not stop the batch, collect the messages, and fail the instance with them at the end.
 ## Standard task add-in
 `SWTaskAddIn` ships with PDM and provides the Print and Convert tasks; when the job is only open in SOLIDWORKS and run a script, create a task from it and edit the script page instead of writing an add-in. Its Insert Macro entries behave inconsistently: `<Filename>`, `<Extension>` and `<Configuration>` are inserted literally and must be replaced by the script, while `<Path>`, `<VaultPath>`, `<Filepath>` and `<TaskInstanceGuid>` are resolved; card values of a launch card are inserted with `{VariableName}`.
@@ -72,3 +73,4 @@ Combine `EdmTaskFlag` bits in `IEdmTaskProperties.TaskFlags` during `EdmCmd_Task
 - `markdown/epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetValEx.md`
 - `markdown/epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetVar.md`
 - `markdown/epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages.md`
+- `markdown/swdocmgrapi/GettingStarted-swdocmgrapi.md`

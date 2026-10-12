@@ -1,6 +1,6 @@
 ---
 name: swapi-corpus-maintainer
-description: Maintains the SWAPI knowledge-base repository (lithiumbromide/SWAPI): extracts SOLIDWORKS API CHM help, converts HTML to Markdown, rebuilds llm_index, regenerates the bundled data of the solidworks-api and solidworks-pdm-api skills, compares API versions, runs skill evals and validates and packages skill zips for claude.ai and GitHub releases. Use it whenever work happens inside the SWAPI repo on api/, extracted/, API_HTML/, markdown/, llm_index/, scripts/*.py or .claude/skills/, or when the user asks to update the docs to a new SOLIDWORKS release (2026, 2027), fix converter or index output, add a new API module such as swvisualizeapi, regenerate or release the skills, or debug the pipeline on Windows or Linux. Not for writing SOLIDWORKS macros, add-ins or PDM code; those belong to solidworks-api and solidworks-pdm-api.
+description: "Maintains the SWAPI knowledge-base repository (lithiumbromide/SWAPI): extracts SOLIDWORKS API CHM help, converts HTML to Markdown, rebuilds llm_index, regenerates the bundled data of the solidworks-api and solidworks-pdm-api skills, compares API versions, runs skill evals and validates and packages skill zips for claude.ai and GitHub releases. Use it whenever work happens inside the SWAPI repo on api/, extracted/, API_HTML/, markdown/, llm_index/, scripts/*.py or .claude/skills/, or when the user asks to update the docs to a new SOLIDWORKS release (2026, 2027), fix converter or index output, add a new API module such as swvisualizeapi, regenerate or release the skills, or debug the pipeline on Windows or Linux. Not for writing SOLIDWORKS macros, add-ins or PDM code; those belong to solidworks-api and solidworks-pdm-api."
 license: MIT
 metadata:
   version: "1.0.0"
@@ -36,7 +36,7 @@ Run from the repository root and check each stage before starting the next, beca
 ## New SOLIDWORKS release
 1. Work on branch `integration` (or a feature branch merged into it), because `main` must always hold a corpus that matches its skill data.
 2. Put the new CHM files into `api/` and run the pipeline with `-CleanExtract`, because the unpacker skips CHM files it extracted for the previous release.
-3. Detect new modules from `compare_index.py` or `llm_index/modules.json` (2026 adds `swvisualizeapi` and `swvisualizeapivb6`) and assign each to a skill or to `exclude_modules` in `scripts/skill_data.json`, because the generator refuses unassigned modules.
+3. Detect new modules from `compare_index.py` or `llm_index/modules.json` (2026 adds `swvisualizeapi` and `swvisualizeapiVB6`; module names are case-sensitive) and verify each is assigned to a skill or listed in `exclude_modules` in `scripts/skill_data.json`, adding it only if missing, because the generator refuses unassigned modules.
 4. Rebuild skill data with `--previous` and review `changes.tsv`: added members, newly obsoleted members, removed members; report counts per kind and the notable interfaces.
 5. Update `metadata.sw-api-version` and `metadata.version` of both distributable skills and the version strings in `README.md`, `NOTICE.md` and `AGENTS.md`.
 6. Rerun both skills' evals and trigger evals on the target models.

@@ -38,7 +38,7 @@ namespace PdmAddIn
                     GuardTransition(vault, ref poCmd, items);
                 }
             }
-            catch (COMException ex)
+            catch (Exception ex)
             {
                 if (poCmd.meCmdType == EdmCmdType.EdmCmd_PreState)
                 {
@@ -68,7 +68,11 @@ namespace PdmAddIn
                 {
                     continue;
                 }
-                var file = (IEdmFile5)vault.GetObject(EdmObjectType.EdmObject_File, item.mlObjectID1);
+                var file = vault.GetObject(EdmObjectType.EdmObject_File, item.mlObjectID1) as IEdmFile5;
+                if (file == null)
+                {
+                    throw new InvalidOperationException("file ID " + item.mlObjectID1 + " not found: " + item.mbsStrData1);
+                }
                 if (string.IsNullOrWhiteSpace(ReadVariable(file, RequiredVariable)))
                 {
                     missing.Add(item.mbsStrData1);
@@ -105,12 +109,17 @@ namespace PdmAddIn
                 vault.MsgBox(cmd.mlParentWnd, message, EdmMBoxType.EdmMbt_OKOnly, Caption);
             }
         }
-        private static string Describe(IEdmVault5 vault, COMException ex)
+        private static string Describe(IEdmVault5 vault, Exception ex)
         {
+            var com = ex as COMException;
+            if (com == null)
+            {
+                return ex.Message;
+            }
             string name;
             string description;
-            vault.GetErrorString(ex.ErrorCode, out name, out description);
-            return string.Format("0x{0:X8} {1}: {2}", ex.ErrorCode, name, description);
+            vault.GetErrorString(com.ErrorCode, out name, out description);
+            return string.Format("0x{0:X8} {1}: {2}", com.ErrorCode, name, description);
         }
     }
 }

@@ -1,6 +1,6 @@
 ---
 name: solidworks-pdm-api
-description: Looks up exact SOLIDWORKS PDM Professional (EPDM) API signatures, EdmCmdType hooks, Edm enums, numbered interface families such as IEdmVault5 to IEdmVault22, and bundled official examples, then writes or fixes vault automation: C# or VB.NET add-ins implementing IEdmAddIn5 (GetAddInInfo, OnCmd, menu commands, PreState and PostState hooks, card buttons), task add-ins run by the task host with IEdmTaskInstance, standalone vault tools (LoginAuto, GetFileFromPath, search, check-out and check-in, change state, card variables through IEdmEnumeratorVariable5, batch updates, BOMs, references) and PDM Web API REST calls. Use it whenever the user mentions PDM, EPDM, Enterprise PDM, PDM Professional, a vault, data cards or card variables, workflow states or transitions, the task host, EdmLib or EPDM.Interop.epdm, even without the word SOLIDWORKS. Also covers the legacy Workgroup PDM (PDMWorks) API. When a task or add-in also drives SOLIDWORKS itself, use it together with solidworks-api.
+description: "Looks up exact SOLIDWORKS PDM Professional (EPDM) API signatures, EdmCmdType hooks, Edm enums, numbered interface families such as IEdmVault5 to IEdmVault22, and bundled official examples, then writes or fixes vault automation: C# or VB.NET add-ins implementing IEdmAddIn5 (GetAddInInfo, OnCmd, menu commands, PreState and PostState hooks, card buttons), task add-ins run by the task host with IEdmTaskInstance, standalone vault tools (LoginAuto, GetFileFromPath, search, check-out and check-in, change state, card variables through IEdmEnumeratorVariable5, batch updates, BOMs, references) and PDM Web API REST calls. Use it whenever the user mentions PDM, EPDM, Enterprise PDM, PDM Professional, a vault, data cards or card variables, workflow states or transitions, the task host, EdmLib or EPDM.Interop.epdm, even without the word SOLIDWORKS. Also covers the legacy Workgroup PDM (PDMWorks) API. When a task or add-in also drives SOLIDWORKS itself, use it together with solidworks-api."
 license: MIT for scripts and templates; bundled API text is derived from SOLIDWORKS PDM Professional API Help, see NOTICE.md
 metadata:
   version: "2026.1.0"
@@ -19,7 +19,7 @@ PDM API names carry interface version numbers (`IEdmVault5` to `IEdmVault22`, `I
 | Deliverable | Start from | Read |
 | --- | --- | --- |
 | Menu command, PreState or other hook, card button, card list, serial number | `assets/pdm-addin/AddIn.cs` and `PdmAddIn.csproj` | [addins.md](references/addins.md) |
-| Task add-in executed by the task host | `assets/pdm-task/TaskAddIn.cs` with `assets/pdm-addin/PdmAddIn.csproj` | [tasks.md](references/tasks.md) |
+| Task add-in executed by the task host | `assets/pdm-task/TaskAddIn.cs` and `PdmTask.csproj` | [tasks.md](references/tasks.md) |
 | Stand-alone EXE, service or batch tool | `assets/pdm-standalone/Program.cs` and `PdmTool.csproj` | [vault-programming.md](references/vault-programming.md) |
 | REST client of the PDM Web API | plain HTTP code in the user's language | [web-api.md](references/web-api.md) |
 | Reading or porting Workgroup PDM (PDMWorks) code | none | [workgroup-pdm.md](references/workgroup-pdm.md) |
@@ -48,8 +48,8 @@ For anything else run `swapi.py members INTERFACE` on the object you hold.
 4. For hooks run `members EdmCmd` and `members EdmCmdData` for the struct fields and `doc EdmCmdData` for what each field means in your hook; run `enum` for every enum parameter or flag (`enum EdmCmdType`, `enum EdmMenuFlags`, `enum EdmTaskFlag`).
 5. Run `doc` on members with out parameters, arrays, flags or prerequisites (logged in, checked out, checked in), because the Remarks list the return codes and preconditions.
 6. Run `examples` with `--symbol` for the central members before writing, because PDM has no macro recorder and the official examples are the only tested call sequences; open one with `example`.
-7. Copy the template, replace the GUID placeholder `00000000-0000-0000-0000-000000000000` with a freshly generated GUID, rename namespace, class and `AssemblyName`, and set `PdmInstallDir` in the project when the interop assemblies live elsewhere.
-8. Run `check FILE --flavor csharp` (or `vbnet`) on every file you wrote or were given and fix each finding.
+7. Copy the template, replace the GUID placeholder `00000000-0000-0000-0000-000000000000` with a freshly generated GUID, rename namespace, class and `AssemblyName`, and set `PdmInstallDir` (and `SolidWorksApiRedist` for the task template) in the project when the interop assemblies live elsewhere.
+8. Run `check FILE --target YEAR` (the PDM release from Start step 2; add `--flavor vbnet` for VB.NET) on every file you wrote or were given and fix each finding, because members newer than the target are reported only when `--target` is given.
 9. Answer in the format below.
 ## Commands used by this workflow
 All commands are `<skill-dir>/scripts/swapi.py COMMAND`; add `--module epdmapi` where a name also exists in the desktop API.
@@ -57,18 +57,19 @@ All commands are `<skill-dir>/scripts/swapi.py COMMAND`; add `--module epdmapi` 
 - `find QUERY [--module M] [--kind m,p,e,i,s,enum,topic,example] [--exact]`: ranked symbol search.
 - `sig SYMBOL`: signature of `Interface.Member` or of a bare member across interfaces.
 - `members INTERFACE [--grep TEXT] [--obsolete] [--family]`: members, struct fields, and with `--family` the declaring interface of each member.
-- `enum NAME [--grep TEXT]`: enum members with values, or the enum that contains a member name.
+- `enum NAME [--grep TEXT] [--value N]`: enum members with values, the enum that contains a member name, or the names behind an integer.
 - `doc SYMBOL [--full] [--section S,...]`: parameters, return value, Remarks and examples of one member; `--full` fetches the whole Markdown topic.
 - `topic QUERY` and `topic --path P`: concept topics such as Programming Tasks, Debugging Add-ins, Search Syntax and the Web API guides.
-- `examples QUERY [--lang csharp,vbnet] [--symbol SYMBOL]` and `example PATH_OR_TITLE`: find and read official examples.
-- `check FILE [--flavor csharp,vbnet]`: obsolete members, near-miss names and members newer than the target.
+- `examples [QUERY] [--lang csharp,vbnet] [--symbol SYMBOL]` and `example PATH_OR_TITLE`: find and read official examples.
+- `check FILE [--flavor csharp|vbnet] [--target YEAR]`: obsolete members, near-miss names, and with `--target` members newer than that release.
 
 All other options: `swapi.py --help`. Without Python, read single entries with `grep -n -A40 '^<<< IEdmFile5.LockFile ' <skill-dir>/data/docs/epdmapi.txt` and `grep -P '^LockFile\t' <skill-dir>/data/map/epdmapi.tsv`; never open files under `data/` whole, because they are index files of several megabytes.
 ## Reading results
-- A hit starts with `Symbol  kind  module  since  status  path`; kinds are m method, p property, e event, i interface, s struct, f struct field, enum, topic, example.
+- A hit is `Symbol  kind  module  since YEAR  markdown/path`, followed by the C# signature and a one-line summary; kinds are m method, p property, e event, f struct field, i interface, c class, s struct. `doc` prints the source path as `source=markdown/...`.
 - `since` is the first PDM release that has the member (`2018`, or old version numbers such as `5.2` and `6.4` that every supported client has).
 - Signatures are C#; `name:Type` marks a parameter whose type is an enum or interface you must look up, and `out`/`ref` must be reproduced exactly.
-- `OBSOLETE -> ... current X` means write `X`; a `note=` line means only the bundled lean entry was available.
+- An obsolete member prints `Symbol  kind  module  OBSOLETE -> ... -> current X` instead of `since` and path: write `X`. A `note=` line from `doc` means only the bundled lean entry was available.
+- `members --family` prints each member with the interface that declares it; call it through that interface.
 - Exit code 1 prints up to five did-you-mean suggestions; exit code 4 prints the command that regenerates missing data.
 ## PDM checklist
 - Look up the declaring interface with `members --family` and cast to it, because PDM adds members only in new numbered interfaces and the base interface does not expose them ([interface families](references/vault-programming.md#interface-families)).
@@ -93,7 +94,7 @@ All other options: `swapi.py --help`. Without Python, read single entries with `
 - Develop with Debug Add-ins and restart clients after deploying a new build, because PDM cannot reload a .NET add-in ([deployment](references/addins.md#deployment)).
 ## Debugging existing PDM code
 Work in this order and report each finding with its cause:
-1. Run `check` on the file for obsolete members and near-miss names.
+1. Run `check FILE --target YEAR` for obsolete members, near-miss names and members newer than the client.
 2. Hook choice: a refusal attempted in a Post hook, or a hook registered in `AddHook` that the `OnCmd` branch never tests (or the reverse).
 3. Field meanings: compare every `EdmCmdData` field the code reads with `doc EdmCmdData` for that hook.
 4. Cancellation and messages: `mbCancel` set where it has effect, messages suppressed in silent mode.
