@@ -1,3 +1,10 @@
 markdown/** linguist-generated=true
 llm_index/** linguist-generated=true
 *.bas text eol=crlf
+.claude/skills/*/data/** linguist-generated=true
+.claude/skills/*/scripts/swapi.py linguist-generated=true
+scripts/skill_runtime/** eol=lf
+.claude/skills/*/data/** eol=lf
+.claude/skills/*/scripts/swapi.py eol=lf
+.claude/skills/*/LICENSE.txt eol=lf
+.claude/skills/*/NOTICE.md eol=lf
