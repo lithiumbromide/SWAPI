@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import unquote
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parent / "skill_runtime"))
-from swapi import LINK_RE, clip, example_code, first_fence, inline, inline_code, parse_body, read_doc_text, section, squash, squash_paras, strip_iprefix
+from swapi import LINK_RE, clip, escape_body, example_code, first_fence, inline, inline_code, map_entries, parse_body, read_doc_text, section, squash, squash_paras, strip_iprefix
 GENERATOR = "build_skill_data.py 1"
 SCHEMA = 1
 DELEGATE_RE = re.compile(r"^(\w+) Delegate \(")
@@ -226,7 +226,7 @@ class Builder:
         self.c = corpus
         self.cfg = config
         self.args = args
-        self.warnings = []
+        self.direct_cache = {}
         self.sw_version = self.detect_version()
     def detect_version(self):
         p = self.c.md / "sldworksapi" / "ReleaseNotes-sldworksapi.md"
@@ -376,13 +376,8 @@ class Builder:
                 meta.setdefault("flavor", "topic")
         return out, stats, cov, modmeta
     def tagged(self, tag, text):
-        lines = text.split("\n")
-        fixed = [lines[0]]
-        for ln in lines[1:]:
-            if re.match(r"^(?:[PRXAE]: |<<< )", ln):
-                ln = " " + ln
-            fixed.append(ln)
-        return f"{tag}: " + "\n".join(fixed)
+        first, _, rest = text.partition("\n")
+        return f"{tag}: {first}" + ("\n" + escape_body(rest) if rest else "")
     def twin_of(self, m):
         if module_is_vba(m):
             base = m[:-3]
@@ -733,16 +728,20 @@ class Builder:
         direct.update(extra)
         return {p: v for p, v in direct.items() if v}
     def direct_examples_of(self, p):
-        if p not in self.c.docs or self.c.docs[p]["kind"] == "example":
-            return []
-        try:
-            meta, body = self.c.load(p)
-        except OSError:
-            return []
-        ttl, intro, secs = parse_body(body)
-        info = DocInfo("", self.c.docs[p]["module"], p)
-        self.collect_examples(info, secs)
-        return info.ex_direct
+        if p in self.direct_cache:
+            return self.direct_cache[p]
+        found = []
+        if p in self.c.docs and self.c.docs[p]["kind"] != "example":
+            try:
+                meta, body = self.c.load(p)
+                ttl, intro, secs = parse_body(body)
+                info = DocInfo("", self.c.docs[p]["module"], p)
+                self.collect_examples(info, secs)
+                found = info.ex_direct
+            except OSError:
+                found = []
+        self.direct_cache[p] = found
+        return found
     def lean_member(self, p, secs):
         parts = []
         for pname, ptext in self.parse_params(section(secs, {"Parameters"}) or ""):
@@ -923,8 +922,7 @@ class Builder:
             if len(text) > 40000:
                 text = self.cap(text, 40000)
             title = self.c.docs[p]["title"] or ttl
-            text = "\n".join((" " + ln) if ln.startswith("<<< ") else ln for ln in text.split("\n"))
-            blocks.append(f"<<< {tsv(title)} | {p}" + ("\n" + text if text else ""))
+            blocks.append(f"<<< {tsv(title)} | {p}" + ("\n" + escape_body(text) if text else ""))
         return "\n".join(blocks) + "\n", len(blocks)
     def build_examples(self, name, sk, ex_index, infos):
         mods = self.present(sk.get("modules", []))
@@ -944,14 +942,14 @@ class Builder:
         packs = defaultdict(list)
         n_bundled = 0
         mods_set = set(mods)
-        inline = {p: i for p, i in infos.items() if i.inline and i.module in mods_set}
+        inline_docs = {p: i for p, i in infos.items() if i.inline and i.module in mods_set}
         for m in mods:
             for p in sorted(self.c.by_module[m]):
                 r = self.c.docs[p]
-                if p in inline:
-                    lang = inline_lang(inline[p].inline)
-                    title = f"{inline[p].sym} inline example ({LANG_LABEL.get(lang, lang)})"
-                    code = inline[p].inline
+                if p in inline_docs:
+                    lang = inline_lang(inline_docs[p].inline)
+                    title = f"{inline_docs[p].sym} inline example ({LANG_LABEL.get(lang, lang)})"
+                    code = inline_docs[p].inline
                 elif r["kind"] == "example":
                     lang = lang_of(r["title"], posixpath.basename(p)[:-3])
                     title = r["title"]
@@ -965,7 +963,7 @@ class Builder:
                         meta, body = self.c.load(p)
                         code = example_code(body)
                     if code:
-                        packs[f"{m}-{lang}"].append(f"<<< {tsv(title)} | {p}\n{code}")
+                        packs[f"{m}-{lang}"].append(f"<<< {tsv(title)} | {p}\n{escape_body(code)}")
                         n_bundled += 1
                     else:
                         bundled = False
@@ -973,39 +971,18 @@ class Builder:
         rows.sort(key=lambda x: (x[0].lower(), x[2]))
         cat = "#swapi-examples 1 cols=title,lang,path,bundled,symbols\n" + "\n".join("\t".join(x).rstrip("\t") for x in rows) + "\n"
         return cat, {k: "\n".join(v) + "\n" for k, v in sorted(packs.items())}, len(rows), n_bundled
-def read_maps(data_dir):
+def map_rows(texts):
     rows = {}
-    for f in sorted((data_dir / "map").glob("*.tsv")):
-        mod = f.stem
-        vba = module_is_vba(mod)
-        iface = None
-        for line in f.read_text(encoding="utf-8").split("\n"):
-            if not line or line.startswith("#"):
-                continue
-            cols = line.split("\t")
-            if line.startswith("@"):
-                iface = cols[0][1:]
-                continue
-            cols += [""] * (7 - len(cols))
-            if vba:
-                continue
-            rows[f"{iface}.{cols[0]}"] = {"sig": cols[2], "status": cols[4], "module": mod, "kind": cols[1]}
+    for mod, text in sorted(texts.items()):
+        if module_is_vba(mod):
+            continue
+        for iface, head, cols in map_entries(text):
+            if cols is not None:
+                rows[f"{iface}.{cols[0]}"] = {"sig": cols[2], "status": cols[4], "module": mod}
     return rows
 def diff_changes(old_dir, new_files):
-    tmp = {}
-    for rel, text in new_files.items():
-        if rel.startswith("map/") and not module_is_vba(Path(rel).stem):
-            iface = None
-            for line in text.split("\n"):
-                if not line or line.startswith("#"):
-                    continue
-                cols = line.split("\t")
-                if line.startswith("@"):
-                    iface = cols[0][1:]
-                    continue
-                cols += [""] * (7 - len(cols))
-                tmp[f"{iface}.{cols[0]}"] = {"sig": cols[2], "status": cols[4], "module": Path(rel).stem}
-    old = read_maps(old_dir)
+    tmp = map_rows({Path(rel).stem: text for rel, text in new_files.items() if rel.startswith("map/")})
+    old = map_rows({f.stem: f.read_text(encoding="utf-8") for f in (old_dir / "map").glob("*.tsv")})
     out = []
     for sym in sorted(set(tmp) | set(old), key=str.lower):
         a = old.get(sym)
@@ -1020,6 +997,13 @@ def diff_changes(old_dir, new_files):
             elif a["sig"] and b["sig"] and strip_ann(a["sig"]) != strip_ann(b["sig"]):
                 out.append(("changed", sym, b["sig"]))
     return "".join("\t".join(r) + "\n" for r in out), Counter(r[0] for r in out)
+def distributes(sk):
+    value = sk.get("distribute", True)
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str) and value.strip().lower() in ("true", "false"):
+        return value.strip().lower() == "true"
+    return None
 def strip_ann(sig):
     return re.sub(r":[A-Za-z_][\w.]*", "", sig)
 def previous_dir(prev, skill):
@@ -1035,9 +1019,19 @@ def previous_dir(prev, skill):
             except ValueError:
                 continue
     return None
-def git_commit(root):
+def git_commit(*paths):
     try:
-        r = subprocess.run(["git", "-C", str(root), "log", "-1", "--format=%H", "--", "markdown", "llm_index"], capture_output=True, text=True, timeout=60)
+        top = subprocess.run(["git", "-C", str(paths[0]), "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=60)
+        if top.returncode != 0:
+            return ""
+        root = Path(top.stdout.strip()).resolve()
+        rels = []
+        for p in paths:
+            try:
+                rels.append(Path(p).resolve().relative_to(root).as_posix())
+            except ValueError:
+                continue
+        r = subprocess.run(["git", "-C", str(root), "log", "-1", "--format=%H", "--"] + (rels or ["."]), capture_output=True, text=True, timeout=60)
         if r.returncode == 0:
             return r.stdout.strip()
     except (OSError, subprocess.SubprocessError):
@@ -1067,9 +1061,12 @@ def finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_d
     data_bytes = {rel: text.encode("utf-8") for rel, text in files.items()}
     prev = previous_dir(args.previous, name)
     change_counts = Counter()
+    previous = None
     if prev:
         text, change_counts = diff_changes(prev, files)
         data_bytes["changes.tsv"] = text.encode("utf-8")
+        old = json.loads((prev / "manifest.json").read_text(encoding="utf-8"))
+        previous = {"sw_version": old.get("sw_version", ""), "source_commit": old.get("source_commit", "")}
     else:
         data_bytes["changes.tsv"] = b""
         if args.previous:
@@ -1081,17 +1078,15 @@ def finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_d
     modules = {k: modmeta[k] for k in sorted(modmeta)}
     probe = ""
     for m in ("sldworksapi", "epdmapi"):
-        if m in modules:
-            for rel in sorted(files):
-                if rel == f"map/{m}.tsv":
-                    for line in files[rel].split("\n"):
-                        if line.startswith("@") and ("path=" not in line):
-                            iname = line.split("\t")[0][1:]
-                            probe = f"{m}/{modules[m]['prefix']}{iname}.md"
-                            break
+        if f"map/{m}.tsv" in files:
+            for iname, head, cols in map_entries(files[f"map/{m}.tsv"]):
+                keys = dict(c.partition("=")[::2] for c in head[3:])
+                if cols is None and "path" not in keys:
+                    probe = f"{m}/{keys.get('prefix') or modules[m]['prefix']}{iname}.md"
+                    break
             break
     langs = sorted({lang for v in sk.get("examples", {}).values() for lang in v}) if args.profile == "full" else []
-    manifest = {"schema": SCHEMA, "skill": name, "sw_version": builder.sw_version, "source_repo": cfg.get("source_repo", "lithiumbromide/SWAPI"), "source_ref": args.ref, "source_commit": commit, "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "generator": GENERATOR, "profile": args.profile, "probe": probe, "bundled_example_langs": langs, "modules": modules, "files": file_meta, "counts": {k: stats[k] for k in sorted(stats)}, "changes": {k: change_counts[k] for k in sorted(change_counts)}, "coverage": cov, "budget": {"raw_mb": raw_mb, "zip_mb": zip_mb}}
+    manifest = {"schema": SCHEMA, "skill": name, "sw_version": builder.sw_version, "source_repo": cfg.get("source_repo", "lithiumbromide/SWAPI"), "source_ref": args.ref, "source_commit": commit, "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "generator": GENERATOR, "profile": args.profile, "probe": probe, "bundled_example_langs": langs, "modules": modules, "files": file_meta, "counts": {k: stats[k] for k in sorted(stats)}, "changes": {"previous": previous, "counts": {k: change_counts[k] for k in sorted(change_counts)}}, "coverage": cov, "budget": {"raw_mb": raw_mb, "zip_mb": zip_mb}}
     data_bytes["manifest.json"] = (json.dumps(manifest, ensure_ascii=False, sort_keys=False, separators=(",", ":")) + "\n").encode("utf-8")
     gen = {f"data/{rel}": b for rel, b in data_bytes.items()}
     gen.update(rt)
@@ -1196,7 +1191,7 @@ def main():
     builder.guard_corpus()
     if not builder.sw_version:
         die("could not detect SOLIDWORKS version from markdown/sldworksapi/ReleaseNotes-sldworksapi.md")
-    commit = git_commit(md.parent)
+    commit = git_commit(md, idx)
     names = [args.skill] if args.skill else list(cfg["skills"])
     if args.skill and args.skill not in cfg["skills"]:
         die(f"unknown skill {args.skill}")
@@ -1204,7 +1199,10 @@ def main():
     drift = []
     for name in names:
         sk = cfg["skills"][name]
-        if sk.get("distribute", "true") == "false":
+        flag = distributes(sk)
+        if flag is None:
+            die(f"skills.{name}.distribute in {cfg_path.name} must be true or false, not {sk.get('distribute')!r}")
+        if not flag:
             print(f"{name}: distribute=false, no data generated")
             continue
         files, stats, cov, modmeta = builder.build_skill(name, sk)
@@ -1215,7 +1213,8 @@ def main():
         c = manifest["counts"]
         print(f"  modules={len(manifest['modules'])} interfaces={c.get('interfaces', 0)} members={c.get('members', 0)} obsolete={c.get('obsolete', 0)} unresolved={c.get('unresolved', 0)}")
         print(f"  enums={c.get('enums', 0)} enum_members={c.get('enum_members', 0)} seltypes={c.get('seltypes', 0)} docs={c.get('docs', 0)} topics={c.get('topics', 0)} examples={c.get('examples', 0)} bundled={c.get('examples_bundled', 0)}")
-        print(f"  coverage sig={cov['sig']:.3f} since={cov['since']:.3f} summary={cov['summary']:.3f} changes={json.dumps(manifest['changes'], separators=(',', ':'))}")
+        prev_v = (manifest["changes"]["previous"] or {}).get("sw_version", "none")
+        print(f"  coverage sig={cov['sig']:.3f} since={cov['since']:.3f} summary={cov['summary']:.3f} changes vs {prev_v}={json.dumps(manifest['changes']['counts'], separators=(',', ':'))}")
         for w in builder.skill_warnings[:8]:
             print(f"  warning: {w}")
         if len(builder.skill_warnings) > 8:

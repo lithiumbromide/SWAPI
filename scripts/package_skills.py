@@ -7,11 +7,12 @@ import re
 import sys
 import zipfile
 from pathlib import Path
+from build_skill_data import distributes
 HERE = Path(__file__).resolve().parent
 ALLOWED_KEYS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 TEXT_SUFFIXES = {".md", ".py", ".bas", ".cls", ".frm", ".swb", ".vb", ".cs", ".csproj", ".vbproj", ".json", ".txt", ".xml", ".yaml", ".yml", ".ps1", ".sh", ".config", ".props", ".targets", ".sln", ".resx", ".tsv"}
-COMMENT_RULES = {".py": re.compile(r"^\s*#"), ".bas": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".cls": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".frm": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".swb": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".vb": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".cs": re.compile(r"^\s*(?://|/\*)"), ".ps1": re.compile(r"^\s*#"), ".sh": re.compile(r"^\s*#(?!!)")}
+COMMENT_RULES = {".py": re.compile(r"^\s*#(?!!)"), ".bas": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".cls": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".frm": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".swb": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".vb": re.compile(r"^\s*(?:'|Rem\s)", re.I), ".cs": re.compile(r"^\s*(?://|/\*)"), ".ps1": re.compile(r"^\s*#"), ".sh": re.compile(r"^\s*#(?!!)")}
 FENCE_COMMENT = {"vba": ".bas", "vb": ".bas", "vbnet": ".vb", "vb.net": ".vb", "csharp": ".cs", "cs": ".cs", "c#": ".cs", "python": ".py", "py": ".py", "powershell": ".ps1", "ps1": ".ps1", "bash": ".sh", "sh": ".sh", "shell": ".sh"}
 SEPARATOR_RE = re.compile(r"^\s*([-=*_#~])\1{3,}\s*$")
 EXCLUDE_DIRS = {"evals", "__pycache__"}
@@ -344,10 +345,16 @@ def validate_skill(skill_dir, cfg, runtime_dir):
             if rtext.count("\n") + 1 > 100 and not any(ln.strip() == "## Contents" for ln in rtext.split("\n")[:30]):
                 issues.append(f"{rel}: over 100 lines without '## Contents' in the first 30 lines")
             issues.extend(check_links(skill_dir, p, rtext, rel))
-    distribute = meta.get("distribute", "true")
-    if distribute not in ("true", "false"):
-        issues.append(f"metadata.distribute must be \"true\" or \"false\", not {distribute!r}")
-    if distribute != "false":
+    sk_cfg = cfg.get("skills", {}).get(name)
+    distribute = distributes(sk_cfg) if sk_cfg is not None else None
+    if sk_cfg is None:
+        issues.append(f"skill {name} is not listed in scripts/skill_data.json, which decides whether it is distributed")
+    elif distribute is None:
+        issues.append(f"skills.{name}.distribute in scripts/skill_data.json must be true or false")
+    if distribute is not None and "distribute" in meta and meta["distribute"] != ("true" if distribute else "false"):
+        issues.append(f"metadata.distribute {meta['distribute']!r} disagrees with scripts/skill_data.json ({'true' if distribute else 'false'})")
+    distribute = bool(distribute)
+    if distribute:
         issues.extend(check_data(skill_dir, meta, cfg, runtime_dir))
     issues.extend(check_evals(skill_dir, name))
     lint_targets = [p for p in skill_dir.iterdir() if p.name != "data"]
@@ -386,7 +393,7 @@ def main():
         issues, info = validate_skill(d, cfg, runtime_dir)
         files = package_files(d)
         raw = sum(p.stat().st_size for p in files)
-        blob = build_zip(d, files) if info.get("distribute", "true") != "false" else b""
+        blob = build_zip(d, files) if info.get("distribute") else b""
         budget = cfg.get("skills", {}).get(d.name, {}).get("budget_mb", {})
         if budget.get("raw") and raw / 1e6 > budget["raw"]:
             issues.append(f"raw size {raw / 1e6:.2f} MB exceeds budget {budget['raw']} MB")
@@ -394,7 +401,7 @@ def main():
             issues.append(f"zip size {len(blob) / 1e6:.2f} MB exceeds budget {budget['zip']} MB")
         status = "FAIL" if issues else "ok"
         btxt = f" budget raw<={budget.get('raw')}MB zip<={budget.get('zip')}MB" if budget else ""
-        mode = "validate-only" if info.get("distribute") == "false" else ("zip" if not args.validate_only else "zip-dry-run")
+        mode = "validate-only" if not info.get("distribute") else ("zip" if not args.validate_only else "zip-dry-run")
         print(f"{d.name}: {status} {mode} files={len(files)} raw={raw / 1e6:.2f}MB zip={len(blob) / 1e6:.2f}MB{btxt}")
         for i in issues[:40]:
             print(f"  {i}")
