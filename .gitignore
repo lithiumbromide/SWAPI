@@ -11,6 +11,7 @@ venv/
 api/
 extracted/
 API_HTML/
+/*.zip
 
 # Local editor files
 .idea/

@@ -28,6 +28,8 @@ The project code is released under the MIT License and can be used in commercial
 ├── llm_index/            # Codex/LLM index, published as a SOLIDWORKS API 2024 example
 ├── scripts/
 │   ├── unpack_chm_recursive.sh
+│   ├── unpack_chm_recursive.ps1
+│   ├── run_pipeline.ps1
 │   ├── collect_html.py
 │   ├── convert_sw_api_docs.py
 │   └── build_llm_index.py
@@ -79,6 +81,17 @@ If your distribution package does not provide `extract_chmLib`, install `chmlib`
 extract_chmLib input.chm output_directory
 ```
 
+### Windows (7-Zip + venv)
+
+Install [7-Zip](https://www.7-zip.org/) so that `7z.exe` is on `PATH` or in `C:\Program Files\7-Zip`, then create the project venv from the repository root:
+
+```powershell
+py -3 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+`scripts/run_pipeline.ps1` does this automatically when the venv or its packages are missing.
+
 ## Full Pipeline
 
 ### 1. Add CHM Files
@@ -117,8 +130,10 @@ This step removes images, CSS, JS, and other non-HTML files while preserving the
 ### 4. Convert HTML to Markdown
 
 ```bash
-python3 scripts/convert_sw_api_docs.py API_HTML -o markdown
+python3 scripts/convert_sw_api_docs.py API_HTML -o markdown --clean
 ```
+
+`--clean` deletes the previous `markdown/` first, so topics dropped from a newer API release do not linger.
 
 The converter is specialized for the SOLIDWORKS/Innovasys help format:
 
@@ -131,14 +146,26 @@ The converter is specialized for the SOLIDWORKS/Innovasys help format:
 ### 5. Build the Codex/LLM Index
 
 ```bash
-python3 scripts/build_llm_index.py markdown -o llm_index
+python3 scripts/build_llm_index.py markdown -o llm_index --api-version 2026
 ```
+
+`--api-version` is stored in `llm_index/manifest.json`; run the command from the repository root so `markdown_root` is recorded as the relative path `markdown`.
 
 The index is not meant to be a RAG database. It is a cheap navigation layer:
 
 - find a symbol first;
 - inspect its interface or related topics;
 - open only the Markdown files that are actually needed.
+
+### Windows (7-Zip + venv)
+
+After step 1, run steps 2-5 with one command from the repository root:
+
+```powershell
+.\scripts\run_pipeline.ps1 -ApiVersion 2026
+```
+
+It uses `.venv\Scripts\python.exe`, extracts with 7-Zip, recreates `API_HTML/` and `markdown/`, rebuilds `llm_index/`, stops at the first failing stage, and prints a summary. Add `-CleanExtract` when switching to a new API release. See [scripts/README.md](scripts/README.md) for all parameters.
 
 ## Quick Checks
 
