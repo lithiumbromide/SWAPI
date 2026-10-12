@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <RootNamespace>DocMgrTool</RootNamespace>
+    <AssemblyName>DocMgrTool</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+    <SolidWorksApiRedist Condition="'$(SolidWorksApiRedist)' == ''">C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist</SolidWorksApiRedist>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.swdocumentmgr">
+      <HintPath>$(SolidWorksApiRedist)\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+</Project>
