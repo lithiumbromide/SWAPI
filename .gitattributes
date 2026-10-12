@@ -1,2 +1,3 @@
 markdown/** linguist-generated=true
 llm_index/** linguist-generated=true
+*.bas text eol=crlf

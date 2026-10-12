@@ -1,4 +1,7 @@
 using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -18,6 +21,9 @@ namespace SolidWorksAddin
         private const string Description = "SolidWorksAddin";
         private const int MainGroupId = 1;
         private const int RunCommandId = 1;
+        private static readonly int[] CommandIds = { RunCommandId };
+        private static readonly int[] IconSizes = { 20, 32, 40, 64, 96, 128 };
+        private static readonly Guid ControlPlaceholder = new Guid("00000000-0000-0000-0000-000000000001");
         private ISldWorks swApp;
         private ICommandManager commandManager;
         private int cookie;
@@ -26,6 +32,10 @@ namespace SolidWorksAddin
         [ComRegisterFunction]
         public static void RegisterFunction(Type t)
         {
+            if (t.GUID == Guid.Empty || typeof(TaskPaneControl).GUID == ControlPlaceholder)
+            {
+                throw new InvalidOperationException("Replace the placeholder GUIDs of SwAddin and TaskPaneControl with new GUIDs before registering.");
+            }
             using (RegistryKey key = Registry.LocalMachine.CreateSubKey(AddinKey(t)))
             {
                 key.SetValue(null, 0);
@@ -71,10 +81,18 @@ namespace SolidWorksAddin
         }
         private void AddCommands()
         {
+            object registryIds;
+            bool ignorePrevious = false;
+            if (commandManager.GetGroupDataFromRegistry(MainGroupId, out registryIds))
+            {
+                int[] storedIds = registryIds as int[];
+                ignorePrevious = storedIds == null || !storedIds.OrderBy(id => id).SequenceEqual(CommandIds.OrderBy(id => id));
+            }
             int errors = 0;
-            ICommandGroup group = commandManager.CreateCommandGroup2(MainGroupId, Title, Description, Description, -1, true, ref errors);
+            ICommandGroup group = commandManager.CreateCommandGroup2(MainGroupId, Title, Description, Description, -1, ignorePrevious, ref errors);
             if (group == null)
             {
+                Debug.WriteLine(Title + ": CreateCommandGroup2 failed with " + (swCreateCommandGroupErrors)errors);
                 return;
             }
             group.AddCommandItem2("Run", -1, "Run " + Title, "Run", -1, nameof(OnRun), nameof(OnRunEnable), RunCommandId, (int)swCommandItemType_e.swMenuItem);
@@ -84,14 +102,43 @@ namespace SolidWorksAddin
         }
         private void AddTaskPane()
         {
-            string folder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            string[] icons = new[] { 20, 32, 40, 64, 96, 128 }.Select(size => Path.Combine(folder, "TaskPane_" + size + ".png")).ToArray();
-            taskPaneView = swApp.CreateTaskpaneView3(icons, Title);
-            taskPaneControl = taskPaneView.AddControl(TaskPaneControl.ControlProgId, "") as TaskPaneControl;
-            if (taskPaneControl != null)
+            taskPaneView = swApp.CreateTaskpaneView3(TaskPaneIcons(), Title);
+            if (taskPaneView == null)
             {
-                taskPaneControl.RunClicked += OnTaskPaneRun;
+                Debug.WriteLine(Title + ": CreateTaskpaneView3 returned null");
+                return;
             }
+            taskPaneControl = taskPaneView.AddControl(TaskPaneControl.ControlProgId, "") as TaskPaneControl;
+            if (taskPaneControl == null)
+            {
+                Debug.WriteLine(Title + ": AddControl failed; register the assembly with RegAsm /codebase");
+                return;
+            }
+            taskPaneControl.RunClicked += OnTaskPaneRun;
+        }
+        private static string[] TaskPaneIcons()
+        {
+            string folder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string[] shipped = IconSizes.Select(size => Path.Combine(folder, "TaskPane_" + size + ".png")).ToArray();
+            if (shipped.All(File.Exists))
+            {
+                return shipped;
+            }
+            string generated = Path.Combine(Path.GetTempPath(), Title);
+            Directory.CreateDirectory(generated);
+            return IconSizes.Select(size => GenerateIcon(generated, size)).ToArray();
+        }
+        private static string GenerateIcon(string folder, int size)
+        {
+            string path = Path.Combine(folder, "TaskPane_" + size + ".png");
+            using (Bitmap bitmap = new Bitmap(size, size))
+            using (Graphics graphics = Graphics.FromImage(bitmap))
+            {
+                graphics.Clear(Color.FromArgb(192, 192, 192));
+                graphics.FillRectangle(Brushes.SteelBlue, size / 5, size / 5, size * 3 / 5, size * 3 / 5);
+                bitmap.Save(path, ImageFormat.Png);
+            }
+            return path;
         }
         private void RemoveTaskPane()
         {
