@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Revision_Cloud_into_Drawing_Example_CSharp.htm"
 
 # Insert Revision Cloud into a Drawing Example (C#)
 
-This example shows how to insert revision clouds into a drawing and access
-revision cloud data.
+This example shows how to insert revision clouds into a drawing and access revision cloud data.
 
 ```vb
  //----------------------------------------------------------------------------

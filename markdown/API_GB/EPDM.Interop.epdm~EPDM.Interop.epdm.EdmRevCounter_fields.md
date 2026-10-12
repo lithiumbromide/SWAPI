@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_fields.html"
 
 # EdmRevCounter Structure Fields
 
-For a list of all members of this type, see[EdmRevCounter members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members.html).
+For a list of all members of this type, see [EdmRevCounter members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmRevCounter members](EPDM.Interop.
 ## See Also
 
 [EdmRevCounter Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -41,32 +41,19 @@ property System.int Cursor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Cursor to use as defined by
-
-[swManipulatorCursor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorCursor_e.html)
+Cursor to use as defined by [swManipulatorCursor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorCursor_e.html)
 
 ## VBA Syntax
 
-See
-
-[TriadManipulator::Cursor](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~Cursor.html)
-
-.
+See [TriadManipulator::Cursor](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~Cursor.html).
 
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [ITriadManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator_members.html)
 
 ## Availability

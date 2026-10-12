@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyStudyOptions Interface
 
-Allows access to the options of a Topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to the options of a Topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyStudyOptions
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions.html)
-
-.
+See [CWTopologyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions.html).
 
 ## Examples
 
@@ -59,9 +47,9 @@ See
 
 ## Remarks
 
-The methods of this interface correspond to elements found on the tabs of the Topology dialog that appears when you select`topology_study`**RMB > Properties**in the FeatureManager design tree.
+The methods of this interface correspond to elements found on the tabs of the Topology dialog that appears when you select `topology_study` **RMB > Properties** in the FeatureManager design tree.
 
-See the**Topology Options**topic in the Simulation user-interface help for more information.
+See the **Topology Options** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -70,5 +58,4 @@ See the**Topology Options**topic in the Simulation user-interface help for more 
 ## See Also
 
 [ICWTopologyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

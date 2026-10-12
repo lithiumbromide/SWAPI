@@ -45,37 +45,23 @@ property System.int LowerTextContent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Style of the lower text of the balloons as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (see**Remarks**)
+Style of the lower text of the balloons as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[StackedBalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~LowerTextContent.html)
-
-.
+See [StackedBalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~LowerTextContent.html).
 
 ## Examples
 
-See
-
-[IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html)
-
-examples.
+See [IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html) examples.
 
 ## Remarks
 
-This property is valid only when[IStackedBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions~Style.html)is set to[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
+This property is valid only when [IStackedBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions~Style.html) is set to [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
 
 | To get or set document default values for LowerTextContent... | Use... |
 | --- | --- |
@@ -87,7 +73,6 @@ See the SOLIDWORKS Help for additional details about stacked balloons.
 ## See Also
 
 [IStackedBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions.html)
-
 [IStackedBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions_members.html)
 
 ## Availability

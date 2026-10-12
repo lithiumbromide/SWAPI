@@ -9,13 +9,21 @@ source: "sldworksapi/Get_ID_of_Active_Configuration_or_Current_Drawing_Sheet_Exa
 
 # Get ID of Active Configuration or Current Drawing Sheet Example (VBA)
 
-This example shows how to get the name and ID of the active configuration of
-a part or assembly or the current sheet of a drawing.
+This example shows how to get the name and ID of the active configuration of a part or assembly or the current sheet of a drawing.
 
-**NOTE**: A unique ID is assigned to each configuration and drawing. This ID does
-not change when the name of the configuration or drawing sheet is changed.
+**NOTE**: A unique ID is assigned to each configuration and drawing. This ID does not change when the name of the configuration or drawing sheet is changed.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Open a part, assembly, or drawing document. ' 2. Open the Immediate window. ' ' Postconditions: ' 1. Changes either the active configuration's name or ' the current sheet's name to Test . However, the ' document's ID is unchanged. ' 2. Examine the Immediate window. '---------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Open a part, assembly, or drawing document.
+' 2. Open the Immediate window.
+'
+' Postconditions:
+' 1. Changes either the active configuration's name or
+' the current sheet's name to **Test**. However, the
+' document's ID is unchanged.
+' 2. Examine the Immediate window.
+'---------------------------------------------------------------------------
 
 ```vb
 Option Explicit
@@ -35,30 +43,30 @@ Set swApp = Application.SldWorks
 
 ' Get type of model document
  If swModel.GetType = 1 Then
-    kadov_tag{{</spaces>}}nDocType = swDocPART
+    nDocType = swDocPART
  ElseIf swModel.GetType = 2 Then
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}nDocType = swDocASSEMBLY
+     nDocType = swDocASSEMBLY
  ElseIf swModel.GetType = 3 Then
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}nDocType = swDocDRAWING
+     nDocType = swDocDRAWING
  Else
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Not a SOLIDWORKS model document,
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' so exit macro
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Exit Sub
+     ' Not a SOLIDWORKS Design model document,
+     ' so exit macro
+     Exit Sub
  End If
- kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}
+
 ' If a part or assembly document,
  ' then get the name of it and its ID
  If nDocType <> swDocDRAWING Then
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swConfig = swModel.GetActiveConfiguration
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If Not swConfig Is Nothing Then
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Active configuration's name = " & swConfig.Name & ", ID = " & swConfig.GetID
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Change the active configuration's name
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swConfig.Name = "Test"
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Test to see if the ID remains the same
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' after changing the name of the configuration
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Active configuration's new name = " & swConfig.Name & ", ID = " & swConfig.GetID
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Exit Sub
+     Set swConfig = swModel.GetActiveConfiguration
+     If Not swConfig Is Nothing Then
+         Debug.Print "Active configuration's name = " & swConfig.Name & ", ID = " & swConfig.GetID
+         ' Change the active configuration's name
+         swConfig.Name = "Test"
+         ' Test to see if the ID remains the same
+         ' after changing the name of the configuration
+         Debug.Print "Active configuration's new name = " & swConfig.Name & ", ID = " & swConfig.GetID
+     End If
+     Exit Sub
  End If
 
  ' A drawing sheet must be active,
@@ -66,12 +74,12 @@ Set swApp = Application.SldWorks
  Set swDrawingDoc = swModel
  Set swSheet = swDrawingDoc.GetCurrentSheet
  If Not swSheet Is Nothing Then
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Current sheet's name = " & swSheet.GetName & ", ID = " & swSheet.GetID
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Change current sheet's name
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swSheet.SetName "Test"
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Test to see if the ID remains the same
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' after changing the name of the sheet
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Current sheet's new name = " & swSheet.GetName & ", ID = " & swSheet.GetID
+     Debug.Print "Current sheet's name = " & swSheet.GetName & ", ID = " & swSheet.GetID
+     ' Change current sheet's name
+     swSheet.SetName "Test"
+     ' Test to see if the ID remains the same
+     ' after changing the name of the sheet
+     Debug.Print "Current sheet's new name = " & swSheet.GetName & ", ID = " & swSheet.GetID
  End If
 ```
 

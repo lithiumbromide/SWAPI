@@ -45,38 +45,25 @@ property System.Object^ SurfaceForCut {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Surface feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-to use to cut the solid bodies
+[Surface feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) to use to cut the solid bodies
 
 ## VBA Syntax
 
-See
-
-[SurfCutFeatureData::SurfaceForCut](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~SurfaceForCut.html)
-
-.
+See [SurfCutFeatureData::SurfaceForCut](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~SurfaceForCut.html).
 
 ## Remarks
 
 To access this interface, you must declare it as SurfCutFeatureData or ISurfCutFeatureData.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
-
 [ISurfaceCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData_members.html)
 
 ## Availability

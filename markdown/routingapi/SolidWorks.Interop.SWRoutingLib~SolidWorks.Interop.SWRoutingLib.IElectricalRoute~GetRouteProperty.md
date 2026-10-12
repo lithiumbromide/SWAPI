@@ -9,11 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # GetRouteProperty Method (IElectricalRoute)
 
-Gets the
-
-[IRouteProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteProperty.html)
-
-object for the specified route segment ID.
+Gets the [IRouteProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteProperty.html) object for the specified route segment ID.
 
 ## Syntax
 
@@ -53,44 +49,27 @@ RouteProperty^ GetRouteProperty(
 
 ### Parameters
 
-- `RouteSegmentID`: Route segment ID (see
-
-Remarks
-
-)
+- `RouteSegmentID`: Route segment ID (see **Remarks**)
 
 ### Return Value
 
-Pointer to
-
-[IRouteProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteProperty.html)
-
-object
+Pointer to [IRouteProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteProperty.html) object
 
 ## VBA Syntax
 
-See
-
-[ElectricalRoute::GetRouteProperty](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetRouteProperty.html)
-
-.
+See [ElectricalRoute::GetRouteProperty](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetRouteProperty.html).
 
 ## Examples
 
-See the
-
-[IElectricalRoute](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
-examples.
+See the [IElectricalRoute](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html) examples.
 
 ## Remarks
 
-To get the value for RouteSegmentID, call[IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html)or[IWire::IGetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~IGetRouteSegmentIDs.html)before calling this method.
+To get the value for RouteSegmentID, call [IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html) or [IWire::IGetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~IGetRouteSegmentIDs.html) before calling this method.
 
 ## See Also
 
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
 [IElectricalRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute_members.html)
 
 ## Availability

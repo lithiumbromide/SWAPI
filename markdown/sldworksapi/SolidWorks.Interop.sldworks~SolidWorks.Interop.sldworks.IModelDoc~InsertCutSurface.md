@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertCutSurface Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertCutSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCutSurface.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertCutSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCutSurface.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void InsertCutSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertCutSurface.html)
-
-.
+See [ModelDoc::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertCutSurface.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

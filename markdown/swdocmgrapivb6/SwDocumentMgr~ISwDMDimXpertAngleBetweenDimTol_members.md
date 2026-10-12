@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertAngleBetweenDimTol Object
-Members"
+title: "ISwDMDimXpertAngleBetweenDimTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertAngleBetweenDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertAngleBetweenDimTol_members.html"
 ---
 
-# ISwDMDimXpertAngleBetweenDimTol Object
-Members
+# ISwDMDimXpertAngleBetweenDimTol Object Members
 
 ## Public Methods
 

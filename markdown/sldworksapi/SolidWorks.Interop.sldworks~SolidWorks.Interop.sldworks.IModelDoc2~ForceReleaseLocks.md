@@ -40,13 +40,7 @@ System.int ForceReleaseLocks()
 System.int ForceReleaseLocks();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ForceReleaseLocks](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ForceReleaseLocks.html)
-
-.
+See [ModelDoc2::ForceReleaseLocks](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ForceReleaseLocks.html).
 
 ## Remarks
 
-This method only supports part and assembly documents; it does not support drawing documents. See[ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html)for details about closing and reopening a drawing document without unloading its references from memory.
+This method only supports part and assembly documents; it does not support drawing documents. See [ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html) for details about closing and reopening a drawing document without unloading its references from memory.
 
-You must call[IModelDoc2::ReloadOrReplace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ReloadOrReplace.html)after calling IModelDoc2::ForceReleaseLocks to re-attach the detached file to the file system. If you do not call IModelDoc2::ReloadOrReplace after calling IModelDoc2::ForceReleaseLocks, then you will experience problems with OLE objects (e.g., design tables).
+You must call [IModelDoc2::ReloadOrReplace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ReloadOrReplace.html) after calling IModelDoc2::ForceReleaseLocks to re-attach the detached file to the file system. If you do not call IModelDoc2::ReloadOrReplace after calling IModelDoc2::ForceReleaseLocks, then you will experience problems with OLE objects (e.g., design tables).
 
 IModelDoc2::ReloadOrReplace re-attaches the detached file to the file system; however, any changes made to the detached file are not preserved unless you save the file to disk before calling IModelDoc2::ReloadOrReplace.
 
-CAUTION:This method is intended to be used by PDM systems. Using this method incorrectly could corrupt your data.
+CAUTION: This method is intended to be used by PDM systems. Using this method incorrectly could corrupt your data.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_properties.
 
 # IEdmBatchUnlock Interface Properties
 
-For a list of all members of this type, see[IEdmBatchUnlock members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html).
+For a list of all members of this type, see [IEdmBatchUnlock members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmBatchUnlock members](EPDM.Intero
 ## See Also
 
 [IEdmBatchUnlock Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

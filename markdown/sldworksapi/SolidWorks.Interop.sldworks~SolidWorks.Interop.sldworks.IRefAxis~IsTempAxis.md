@@ -40,13 +40,7 @@ System.bool IsTempAxis()
 System.bool IsTempAxis();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ True if the reference axis is a temporary axis, false if not
 
 ## VBA Syntax
 
-See
-
-[RefAxis::IsTempAxis](ms-its:sldworksapivb6.chm::/sldworks~RefAxis~IsTempAxis.html)
-
-.
+See [RefAxis::IsTempAxis](ms-its:sldworksapivb6.chm::/sldworks~RefAxis~IsTempAxis.html).
 
 ## Examples
 
 [Get Temporary Axis and Its Reference Face (C#)](Get_Temporary_Axis_and_Its_Reference_Face_Example_CSharp.htm)
-
 [Get Temporary Axis and Its Reference Face (VB.NET)](Get_Temporary_Axis_and_Its_Reference_Face_Example_VBNET.htm)
-
 [Get Temporary Axis and Its Reference Face (VBA)](Get_Temporary_Axis_and_Its_Reference_Face_Example_VB.htm)
 
 ## See Also
 
 [IRefAxis Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
-
 [IRefAxis Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis_members.html)
-
 [IRefAxis::GetTempAxisReferenceFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis~GetTempAxisReferenceFace.html)
 
 ## Availability

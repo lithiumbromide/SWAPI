@@ -40,36 +40,20 @@ SketchPoint IGetEndPoint2()
 SketchPoint^ IGetEndPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-End
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or NULL if the operation fails
+End [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchLine::IGetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetEndPoint2.html)
-
-.
+See [SketchLine::IGetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetEndPoint2.html).
 
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [ISketchLine::GetEndPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine~GetEndPoint2.html)
 
 ## Availability

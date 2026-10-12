@@ -1,6 +1,5 @@
 ---
-title: "CWElasticConnector Object
-Members"
+title: "CWElasticConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWElasticConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWElasticConnector_members.html"
 ---
 
-# CWElasticConnector Object
-Members
+# CWElasticConnector Object Members
 
 ## Public Methods
 

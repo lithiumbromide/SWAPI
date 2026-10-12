@@ -11,11 +11,9 @@ source: "sldworksapiprogguide/Overview/ConfigurationTraversalCPP.htm"
 
 This example shows how to:
 
-- get the names of the configurations in the
-  active model.
+- get the names of the configurations in the active model.
 - pass a Variant to IModelDoc2::GetConfigurationNames.
-- use the ISafeArrayUtility interface
-  to get the names of the configurations.
+- use the ISafeArrayUtility interface to get the names of the configurations.
 
 ```
 //-------------------------------------------------------

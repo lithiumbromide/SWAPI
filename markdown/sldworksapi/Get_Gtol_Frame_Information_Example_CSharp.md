@@ -15,8 +15,7 @@ This example shows how to obtain information from a Gtol frame.
 
 // Preconditions:
 
-// 1. Open a drawing that contains a GTol created with
-either SolidWorks 2021 or SolidWorks 2022/2022+.
+// 1. Open a drawing that contains a GTol created with either SolidWorks 2021 or SolidWorks 2022/2022+.
 
 // 2. Open an Immediate window.
 
@@ -26,30 +25,25 @@ either SolidWorks 2021 or SolidWorks 2022/2022+.
 
 // 1. Select a Gtol in the graphics area.
 
-// A Geometric Tolerance
-PropertyManager opens.
+// A Geometric Tolerance PropertyManager opens.
 
 // 2. Click on the macro window and press F5.
 
-// 3. Gtol format type and schema version print to the
-Immediate window.
+// 3. Gtol format type and schema version print to the Immediate window.
 
 // 4. Press F5.
 
-// 5. The frame XML schema string prints to the Immediate
-window.
+// 5. The frame XML schema string prints to the Immediate window.
 
 // 6. Press F5.
 
-// 7. If the selected Gtol can be converted from 2021, it
-is attempted.
+// 7. If the selected Gtol can be converted from 2021, it is attempted.
 
 // 8. Inspect the Immediate window.
 
 // 9. Press F5.
 
-// 10. Gets and sets From and To text and toggles
-SEPARATE REQUIREMENT.
+// 10. Gets and sets From and To text and toggles SEPARATE REQUIREMENT.
 
 // 11. Inspect the Immediate window.
 
@@ -125,8 +119,7 @@ namespace GetGtolFrameInfo_CSharp
 
 {
 
-public
-partial class SolidWorksMacro
+public partial class SolidWorksMacro
 
 {
 
@@ -194,61 +187,53 @@ swModel = (ModelDoc2)swApp.ActiveDoc;
 
 swSelMgr = (SelectionMgr)swModel.SelectionManager;
 
-System.Diagnostics.Debugger.Break(); // in the graphics area select Gtol
-created with either SolidWorks 2021 or SolidWorks 2022/2022+
+System.Diagnostics.Debugger.Break(); // in the graphics area select Gtol created with either SolidWorks 2021 or SolidWorks 2022/2022+
 
-Debug.Print("Select object type as defined by swSelectType_e: " +
-swSelMgr.GetSelectedObjectType3(1, -1));
+Debug.Print("Select object type as defined by swSelectType_e: " + swSelMgr.GetSelectedObjectType3(1, -1));
 
 swGtol = (Gtol)swSelMgr.GetSelectedObject6(1, -1);
 
-swApp. GetGtolFormatData (out lFormatType, out
-lSchemaVersion);
+swApp.**GetGtolFormatData**(out lFormatType, out lSchemaVersion);
 
-Debug.Print("Gtol format type as defined by swGtolFormatType_e: " +
-lFormatType);
+Debug.Print("Gtol format type as defined by swGtolFormatType_e: " + lFormatType);
 
-Debug.Print("Gtol schema version as defined by
-swGtolFormatSchemaVersion_e: " + lSchemaVersion);
+Debug.Print("Gtol schema version as defined by swGtolFormatSchemaVersion_e: " + lSchemaVersion);
 
 System.Diagnostics.Debugger.Break();
 
-sSchemaString = swApp. GetGtolFrameXMLSchema ();
+sSchemaString = swApp.**GetGtolFrameXMLSchema**();
 
 Debug.Print("Gtol frame XML schema: " + sSchemaString);
 
 System.Diagnostics.Debugger.Break();
 
-boolstatus = swGtol. CanConvertFormat ();
+boolstatus = swGtol.**CanConvertFormat**();
 
 if (boolstatus != false)
 
 {
 
-lFormatType1 = swGtol. GetFormat ();
+lFormatType1 = swGtol.**GetFormat**();
 
 if (lFormatType1 == (int)swGtolFormatType_e.GTOL_SW2021)
 
 {
 
-boolstatus = swModel. GetSaveFlag ();
+boolstatus = swModel.**GetSaveFlag**();
 
 if (boolstatus != false)
 
 swModel.Save();
 
-Debug.Print("SaveFlag BEFORE ConvertFormat is called " +
-swModel.GetSaveFlag());
+Debug.Print("SaveFlag BEFORE ConvertFormat is called " + swModel.GetSaveFlag());
 
-swConversionError = (swGtolFormatConversionError_e)swGtol. ConvertFormat ();
+swConversionError = (swGtolFormatConversionError_e)swGtol.**ConvertFormat**();
 
-boolstatus = swModel.GetSaveFlag(); // if successful, converted Gtol
-document should be dirty and return True
+boolstatus = swModel.GetSaveFlag(); // if successful, converted Gtol document should be dirty and return True
 
 Debug.Print("SaveFlag AFTER ConvertFormat is called " + boolstatus);
 
-lFormatType1 = swGtol. GetFormat (); // converted from
-2021 to 2022
+lFormatType1 = swGtol.**GetFormat**(); // converted from 2021 to 2022
 
 }
 
@@ -256,124 +241,103 @@ lFormatType1 = swGtol. GetFormat (); // converted from
 
 System.Diagnostics.Debugger.Break();
 
-boolstatus = swGtol. GetFromTo ();
+boolstatus = swGtol.**GetFromTo**();
 
-boolstatus = swGtol. GetFromToText (out swFromText, out
-swToText);
+boolstatus = swGtol.**GetFromToText**(out swFromText, out swToText);
 
 swFromText = "FromMe";
 
 swToText = "ToYou";
 
-boolstatus = swGtol. SetFromToText (true, swFromText,
-swToText);
+boolstatus = swGtol.**SetFromToText**(true, swFromText, swToText);
 
-boolstatus = swGtol. GetFromTo ();
+boolstatus = swGtol.**GetFromTo**();
 
 swFromText1 = "";
 
 swToText1 = "";
 
-boolstatus = swGtol. GetFromToText (out swFromText1, out
-swToText1); // should be "FromMe" and "ToMe"
+boolstatus = swGtol.**GetFromToText**(out swFromText1, out swToText1); // should be "FromMe" and "ToMe"
 
 Debug.Print("From text: " + swFromText1);
 
 Debug.Print("To text: " + swToText1);
 
-boolstatus = swGtol. SeparateRequirement ;
+boolstatus = swGtol.**SeparateRequirement**;
 
 if (boolstatus != false)
 
-swGtol. SeparateRequirement = false;
+swGtol.**SeparateRequirement** = false;
 
 else
 
-swGtol. SeparateRequirement = true;
+swGtol.**SeparateRequirement** = true;
 
-Debug.Print("SEPARATE REQUIREMENT ? " + swGtol. SeparateRequirement );
+Debug.Print("SEPARATE REQUIREMENT ? " + swGtol.**SeparateRequirement**);
 
 System.Diagnostics.Debugger.Break();
 
-FrameCount = swGtol. GetFrameCount ();
+FrameCount = swGtol.**GetFrameCount**();
 
 Debug.Print("Frame count: " + FrameCount);
 
-boolstatus = swGtol. AddFrame ();
+boolstatus = swGtol.**AddFrame**();
 
-FrameCount = swGtol. GetFrameCount (); // frame count
-should increase by one
+FrameCount = swGtol.**GetFrameCount**(); // frame count should increase by one
 
 Debug.Print("Frame added. Frame count now: " + FrameCount);
 
-boolstatus = swGtol. DeleteFrame (FrameCount);
+boolstatus = swGtol.**DeleteFrame**(FrameCount);
 
-FrameCount = swGtol. GetFrameCount (); // frame count
-should decrease by 1, as just added frame was deleted
+FrameCount = swGtol.**GetFrameCount**(); // frame count should decrease by 1, as just added frame was deleted
 
 Debug.Print("Frame deleted. Frame count now: " + FrameCount);
 
-boolstatus = swGtol. AddFrame ();
+boolstatus = swGtol.**AddFrame**();
 
-FrameCount = swGtol. GetFrameCount (); // frame count
-should increase by 1
+FrameCount = swGtol.**GetFrameCount**(); // frame count should increase by 1
 
 Debug.Print("Frame added. Frame count now: " + FrameCount);
 
 System.Diagnostics.Debugger.Break();
 
-swGtolFrame = (GtolFrame)swGtol. GetFrame (FrameCount);
+swGtolFrame = (GtolFrame)swGtol.**GetFrame**(FrameCount);
 
-IndicatorCount = swGtolFrame. GetIndicatorCount ();
+IndicatorCount = swGtolFrame.**GetIndicatorCount**();
 
 sDatum = "A";
 
 Debug.Print(" ");
 
-Debug.Print("Frame " + FrameCount + " IndicatorCount is " +
-IndicatorCount + ": AddIndicator test");
+Debug.Print("Frame " + FrameCount + " IndicatorCount is " + IndicatorCount + ": AddIndicator test");
 
-// supported border types: swGtolIndicatorBorderType_CollectionPlane,
-swGtolIndicatorBorderType_OrientationPlane
-swGtolIndicatorBorderType_IntersectionPlane
-swGtolIndicatorBorderType_DirectionFeature
+// supported border types: swGtolIndicatorBorderType_CollectionPlane, swGtolIndicatorBorderType_OrientationPlane swGtolIndicatorBorderType_IntersectionPlane swGtolIndicatorBorderType_DirectionFeature
 
-// supported tolerance types: swGcsPARALLEL swGcsPERP swGcsANG
-swGcsCIRCRUNOUT swGcsSYMMETRY
+// supported tolerance types: swGcsPARALLEL swGcsPERP swGcsANG swGcsCIRCRUNOUT swGcsSYMMETRY
 
-boolstatus = swGtolFrame. AddIndicator ((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane,
-(int)swGtolGeomCharSymbol_e.swGcsFLAT, sDatum); // unsupported TolType
+boolstatus = swGtolFrame.**AddIndicator**((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane, (int)swGtolGeomCharSymbol_e.swGcsFLAT, sDatum); // unsupported TolType
 
-Debug.Print("Unsupported TolType swGcsFLAT. AddIndicator return value is
-" + boolstatus);
+Debug.Print("Unsupported TolType swGcsFLAT. AddIndicator return value is " + boolstatus);
 
-boolstatus = swGtolFrame. AddIndicator ((int)swGtolGeomCharSymbol_e.swGcsFLAT,
-(int)swGtolGeomCharSymbol_e.swGcsSYMMETRY, sDatum); // unsupported BorderType
+boolstatus = swGtolFrame.**AddIndicator**((int)swGtolGeomCharSymbol_e.swGcsFLAT, (int)swGtolGeomCharSymbol_e.swGcsSYMMETRY, sDatum); // unsupported BorderType
 
-Debug.Print("Unsupported BorderType swGcsFLAT. AddIndicator return value
-is " + boolstatus);
+Debug.Print("Unsupported BorderType swGcsFLAT. AddIndicator return value is " + boolstatus);
 
-boolstatus = swGtolFrame. AddIndicator ((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane,
-(int)swGtolGeomCharSymbol_e.swGcsSYMMETRY, sDatum); // supported BorderType and
-TolType
+boolstatus = swGtolFrame.**AddIndicator**((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane, (int)swGtolGeomCharSymbol_e.swGcsSYMMETRY, sDatum); // supported BorderType and TolType
 
-Debug.Print("Supported BorderType
-swGtolIndicatorBorderType_IntersectionPlane and TolType swGcsSYMMETRY.
-AddIndicator return value is " + boolstatus);
+Debug.Print("Supported BorderType swGtolIndicatorBorderType_IntersectionPlane and TolType swGcsSYMMETRY. AddIndicator return value is " + boolstatus);
 
-IndicatorCount = swGtolFrame. GetIndicatorCount ();
+IndicatorCount = swGtolFrame.**GetIndicatorCount**();
 
 Debug.Print("");
 
-Debug.Print("Frame " + FrameCount + " IndicatorCount after one successful
-AddIndicator is " + IndicatorCount); // should increase by 1 from AddIndicator
-success
+Debug.Print("Frame " + FrameCount + " IndicatorCount after one successful AddIndicator is " + IndicatorCount); // should increase by 1 from AddIndicator success
 
 Debug.Print(" ");
 
 System.Diagnostics.Debugger.Break();
 
-IndicatorCount = swGtolFrame. GetIndicatorCount ();
+IndicatorCount = swGtolFrame.**GetIndicatorCount**();
 
 iIndicator = 0;
 
@@ -393,18 +357,15 @@ for (iFrame = 1; iFrame <= FrameCount; iFrame++)
 
 sDatum = "";
 
-swGtolFrame1 = (GtolFrame)swGtol. GetFrame (iFrame);
+swGtolFrame1 = (GtolFrame)swGtol.**GetFrame**(iFrame);
 
 for (iIndicator = 1; iIndicator <= IndicatorCount; iIndicator++)
 
 {
 
-boolstatus = swGtolFrame1. GetIndicator (iIndicator, out
-lBorderType, out lTolType, out sDatum);
+boolstatus = swGtolFrame1.**GetIndicator**(iIndicator, out lBorderType, out lTolType, out sDatum);
 
-Debug.Print("Frame: " + iFrame + " Indicator index: " + iIndicator + "
-(BorderType as defined by swGtolIndicatorBorderType_e = " + lBorderType + " " + "TolType as defined by swGtolGeomCharSymbol_e =
-" + lTolType + " " + "Datum = " + sDatum + ")");
+Debug.Print("Frame: " + iFrame + " Indicator index: " + iIndicator + " (BorderType as defined by swGtolIndicatorBorderType_e = " + lBorderType + " " + "TolType as defined by swGtolGeomCharSymbol_e = " + lTolType + " " + "Datum = " + sDatum + ")");
 
 }
 
@@ -416,15 +377,13 @@ System.Diagnostics.Debugger.Break();
 
 Debug.Print("Frame " + FrameCount + " DeleteIndicator test");
 
-boolstatus = swGtolFrame. DeleteIndicator (IndicatorCount);
+boolstatus = swGtolFrame.**DeleteIndicator**(IndicatorCount);
 
 Debug.Print("DeleteIndicator return value is " + boolstatus);
 
-IndicatorCount = swGtolFrame. GetIndicatorCount (); //
-should decrease by 1, as indicator deleted
+IndicatorCount = swGtolFrame.**GetIndicatorCount**(); // should decrease by 1, as indicator deleted
 
-Debug.Print("IndicatorCount is " + IndicatorCount + " after
-DeleteIndicator");
+Debug.Print("IndicatorCount is " + IndicatorCount + " after DeleteIndicator");
 
 System.Diagnostics.Debugger.Break();
 
@@ -432,25 +391,17 @@ Debug.Print(" ");
 
 Debug.Print("Miscellaneous Indicator test:");
 
-boolstatus = swGtolFrame. AddIndicator ((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_OrientationPlane,
-(int)swGtolGeomCharSymbol_e.swGcsANG, sDatum); // add indicator for different
-BorderType and TolType
+boolstatus = swGtolFrame.**AddIndicator**((int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_OrientationPlane, (int)swGtolGeomCharSymbol_e.swGcsANG, sDatum); // add indicator for different BorderType and TolType
 
-Debug.Print("Supported swGtolIndicatorBorderType_OrientationPlane
-BorderType AddIndicator return value is " + boolstatus);
+Debug.Print("Supported swGtolIndicatorBorderType_OrientationPlane BorderType AddIndicator return value is " + boolstatus);
 
-IndicatorCount = swGtolFrame. GetIndicatorCount (); //
-should increase by 1
+IndicatorCount = swGtolFrame.**GetIndicatorCount**(); // should increase by 1
 
-Debug.Print("Frame " + FrameCount + " IndicatorCount after one successful
-AddIndicator is " + IndicatorCount); // should increase by 1
+Debug.Print("Frame " + FrameCount + " IndicatorCount after one successful AddIndicator is " + IndicatorCount); // should increase by 1
 
-boolstatus = swGtolFrame. GetIndicator (IndicatorCount,
-out lBorderType, out lTolType, out sDatum);
+boolstatus = swGtolFrame.**GetIndicator**(IndicatorCount, out lBorderType, out lTolType, out sDatum);
 
-Debug.Print("Frame " + FrameCount + " just added GetIndicator: " + "
-(BorderType = " + lBorderType + " " + "TolType = " + lTolType + " " + "Datum = "
-+ sDatum + ")");
+Debug.Print("Frame " + FrameCount + " just added GetIndicator: " + " (BorderType = " + lBorderType + " " + "TolType = " + lTolType + " " + "Datum = " + sDatum + ")");
 
 if (sDatum != "B")
 
@@ -460,53 +411,43 @@ else
 
 sDatum = "A";
 
-boolstatus = swGtolFrame. SetIndicator (IndicatorCount,
-(int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane,
-(int)swGtolGeomCharSymbol_e.swGcsPERP, sDatum);
+boolstatus = swGtolFrame.**SetIndicator**(IndicatorCount, (int)swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_IntersectionPlane, (int)swGtolGeomCharSymbol_e.swGcsPERP, sDatum);
 
-Debug.Print("Indicator " + IndicatorCount + " SetIndicator return value
-is " + boolstatus);
+Debug.Print("Indicator " + IndicatorCount + " SetIndicator return value is " + boolstatus);
 
-boolstatus = swGtolFrame. GetIndicator (IndicatorCount,
-out lBorderType, out lTolType, out sDatum);
+boolstatus = swGtolFrame.**GetIndicator**(IndicatorCount, out lBorderType, out lTolType, out sDatum);
 
-Debug.Print("Indicator " + IndicatorCount + " SetIndicator values " + "
-(BorderType = " + lBorderType + " " + "TolType = " + lTolType + " " + "Datum = "
-+ sDatum + ")");
+Debug.Print("Indicator " + IndicatorCount + " SetIndicator values " + " (BorderType = " + lBorderType + " " + "TolType = " + lTolType + " " + "Datum = " + sDatum + ")");
 
 Debug.Print(" ");
 
 System.Diagnostics.Debugger.Break();
 
-swGtolFrame = (GtolFrame)swGtol. GetFrame (swGtol.GetFrameCount());
+swGtolFrame = (GtolFrame)swGtol.**GetFrame**(swGtol.GetFrameCount());
 
 Debug.Print("Frame " + 2 + " ToleranceType test");
 
-boolstatus = swGtolFrame. GetFrameToleranceType (out
-swToleranceType);
+boolstatus = swGtolFrame.**GetFrameToleranceType**(out swToleranceType);
 
 Debug.Print("GetFrameToleranceType " + "returned " + boolstatus);
 
-Debug.Print("GetFrameToleranceType " + "before set returned tolerance
-type as defined by swGtolGeomCharSymbol_e: " + swToleranceType);
+Debug.Print("GetFrameToleranceType " + "before set returned tolerance type as defined by swGtolGeomCharSymbol_e: " + swToleranceType);
 
-boolstatus = swGtolFrame. SetFrameToleranceType ((int)swGtolGeomCharSymbol_e.swGcsROUND);
+boolstatus = swGtolFrame.**SetFrameToleranceType**((int)swGtolGeomCharSymbol_e.swGcsROUND);
 
 Debug.Print("SetFrameToleranceType " + "returned " + boolstatus);
 
-boolstatus = swGtolFrame. GetFrameToleranceType (out
-swTolType);
+boolstatus = swGtolFrame.**GetFrameToleranceType**(out swTolType);
 
 Debug.Print("GetFrameToleranceType " + "returned " + boolstatus);
 
-Debug.Print("GetFrameToleranceType " + "after set returned tolerance type
-as defined by swGtolGeomCharSymbol_e: " + swTolType);
+Debug.Print("GetFrameToleranceType " + "after set returned tolerance type as defined by swGtolGeomCharSymbol_e: " + swTolType);
 
 Debug.Print("");
 
 System.Diagnostics.Debugger.Break();
 
-sXMLString = swGtolFrame. GetSymbolXml ();
+sXMLString = swGtolFrame.**GetSymbolXml**();
 
 Debug.Print("Symbol XML string: " + sXMLString);
 
@@ -514,8 +455,7 @@ Debug.Print("Symbol XML string: " + sXMLString);
 
 pos = -1;
 
-pos = Strings.InStr(1, sXMLString, ".01"); // Note: converted Gtol has
-tolerance format of .01, not 0.01
+pos = Strings.InStr(1, sXMLString, ".01"); // Note: converted Gtol has tolerance format of .01, not 0.01
 
 if (pos != -1)
 
@@ -533,7 +473,7 @@ sXMLString = Strings.Replace(sXMLString, ".02", ".01");
 
 }
 
-boolstatus = swGtolFrame. SetSymbolXml (sXMLString);
+boolstatus = swGtolFrame.**SetSymbolXml**(sXMLString);
 
 Debug.Print("New symbol XML string: " + sXMLString);
 

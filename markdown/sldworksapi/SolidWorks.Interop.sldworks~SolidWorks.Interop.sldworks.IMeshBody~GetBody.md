@@ -40,13 +40,7 @@ System.object GetBody()
 System.Object^ GetBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[MeshBody::GetBody](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetBody.html)
-
-.
+See [MeshBody::GetBody](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetBody.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IMeshBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html)
-
 [IMeshBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody_members.html)
 
 ## Availability

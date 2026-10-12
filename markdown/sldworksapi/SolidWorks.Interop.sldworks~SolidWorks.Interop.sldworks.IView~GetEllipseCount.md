@@ -40,13 +40,7 @@ System.int GetEllipseCount()
 System.int GetEllipseCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of ellipses in the view
 
 ## VBA Syntax
 
-See
-
-[View::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetEllipseCount.html)
-
-.
+See [View::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetEllipseCount.html).
 
 ## Examples
 
@@ -66,14 +56,9 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[IView::IGetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetEllipses5.html)
-
-to get the size of the array for that method.
+Call this method before calling [IView::IGetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetEllipses5.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

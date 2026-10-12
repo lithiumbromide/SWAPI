@@ -40,13 +40,7 @@ System.int GetSelectionsCount()
 System.int GetSelectionsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of selections that define this reference axis featu
 
 ## VBA Syntax
 
-See
-
-[RefAxisFeatureData::GetSelectionsCount](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~GetSelectionsCount.html)
-
-.
+See [RefAxisFeatureData::GetSelectionsCount](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~GetSelectionsCount.html).
 
 ## Remarks
 
-Call this method before calling[IRefAxisFeatureData::IGetSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefAxisFeatureData~IGetSelections.html).
+Call this method before calling [IRefAxisFeatureData::IGetSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefAxisFeatureData~IGetSelections.html).
 
 ## See Also
 
 [IRefAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData.html)
-
 [IRefAxisFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData_members.html)
-
 [IRefAxisFeatureData::GetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~GetSelections.html)
-
 [IRefAxisFeatureData::ISetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~ISetSelections.html)
-
 [IRefAxisFeatureData::SetSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData~SetSelections.html)
 
 ## Availability

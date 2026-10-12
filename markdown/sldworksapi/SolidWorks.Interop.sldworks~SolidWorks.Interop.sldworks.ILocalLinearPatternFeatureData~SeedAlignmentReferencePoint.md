@@ -45,40 +45,23 @@ property System.int SeedAlignmentReferencePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Seed alignment reference point as defined in
-
-[swSeedAlignmentReferencePoint_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSeedAlignmentReferencePoint_e.html)
+Seed alignment reference point as defined in [swSeedAlignmentReferencePoint_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSeedAlignmentReferencePoint_e.html)
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::SeedAlignmentReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SeedAlignmentReferencePoint.html)
-
-.
+See [LocalLinearPatternFeatureData::SeedAlignmentReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~SeedAlignmentReferencePoint.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html)
-
-is true.
+This property is valid only if [ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html) is true.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Face_Hatch_Data_Example_VB.htm"
 
 # Get Face Hatch Data Example (VBA)
 
-This example shows how to get the number of face hatches in a standard
-or derived (detail, section, projected, broken, etc.) drawing view and data.
+This example shows how to get the number of face hatches in a standard or derived (detail, section, projected, broken, etc.) drawing view and data.
 
 ```
 '-----------------------------------------------------------------

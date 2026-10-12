@@ -46,13 +46,7 @@ void CloseMessageBar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,16 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CloseMessageBar](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CloseMessageBar.html)
-
-.
+See [ModelDocExtension::CloseMessageBar](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CloseMessageBar.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

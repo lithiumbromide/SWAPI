@@ -42,13 +42,7 @@ property System.bool ForcedShoulder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,34 +50,16 @@ True if the datum tag has a forced shoulder on its leader, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTag::ForcedShoulder](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~ForcedShoulder.html)
-
-.
+See [DatumTag::ForcedShoulder](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~ForcedShoulder.html).
 
 ## Remarks
 
-If a square tag is attached to an edge that is not at a 0
-
-begin!kadov{{
-
-}}end!kadov
-
-or 90
-
-begin!kadov{{
-
-}}end!kadov
-
-angle, then the leader will always have a shoulder (bent leader). The user cannot remove the shoulder.
+If a square tag is attached to an edge that is not at a 0 or 90 angle, then the leader will always have a shoulder (bent leader). The user cannot remove the shoulder.
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::Shoulder Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~Shoulder.html)
 
 ## Availability

@@ -39,16 +39,11 @@ public interface class IPowerSelect
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect.html)
-
-.
+See [IPowerSelect](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect.html).
 
 ## Examples
 
 [Run PowerSelect (VBA)](Run_PowerSelect_VB6.htm)
-
 [Select and Get Number of Edges, Loops, Faces, and Features (VBA)](Select_and_Get_Number_of_Edges,_Loops,_Faces,_and_Features_Example_VB6.htm)
 
 ## Accessors
@@ -58,5 +53,4 @@ See
 ## See Also
 
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

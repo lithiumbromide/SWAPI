@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Circular_Pattern_Example_CSharp.htm"
 
 # Create Circular Pattern Example (C#)
 
-This example shows how to create a circular-pattern feature using selected direction axis, pattern seed features, and variable
-spacing between pattern instances.
+This example shows how to create a circular-pattern feature using selected direction axis, pattern seed features, and variable spacing between pattern instances.
 
 ```
 //----------------------------------------------------------------------------

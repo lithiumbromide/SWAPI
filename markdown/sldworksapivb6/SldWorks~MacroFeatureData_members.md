@@ -1,6 +1,5 @@
 ---
-title: "MacroFeatureData Object
-Members"
+title: "MacroFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MacroFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MacroFeatureData_members.html"
 ---
 
-# MacroFeatureData Object
-Members
+# MacroFeatureData Object Members
 
 ## Public Methods
 

@@ -35,5 +35,4 @@ System.String^ mbsVariableName
 ## See Also
 
 [EdmVariableData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
 [EdmVariableData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members.html)

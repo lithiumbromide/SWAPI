@@ -9,8 +9,7 @@ source: "sldworksapi/Save_Solid_Body_to_File_Example_VB.htm"
 
 # Save Solid Body to File Example (VBA)
 
-This example shows how to save a weldment member to another
-part document.
+This example shows how to save a weldment member to another part document.
 
 ```
 '----------------------------------------------------------------------------

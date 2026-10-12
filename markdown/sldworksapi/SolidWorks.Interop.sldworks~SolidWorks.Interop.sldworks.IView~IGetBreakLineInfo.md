@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetBreakLineInfo Method (IView)
 
-Obsolete. Superseded by
-
-[IView::IGetBreakLineInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakLineInfo2.html)
-
-.
+Obsolete. Superseded by [IView::IGetBreakLineInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakLineInfo2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IGetBreakLineInfo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,27 +55,21 @@ See
 
 ### Return Value
 
-Array of break line information (see**Remarks**)
+Array of break line information (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::IGetBreakLineInfo](ms-its:sldworksapivb6.chm::/sldworks~View~IGetBreakLineInfo.html)
-
-.
+See [View::IGetBreakLineInfo](ms-its:sldworksapivb6.chm::/sldworks~View~IGetBreakLineInfo.html).
 
 ## Remarks
 
-Before calling this method, call[IView::GetBreakLineCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLineCount.html)to get the value for ArraySize.
+Before calling this method, call [IView::GetBreakLineCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLineCount.html) to get the value for ArraySize.
 
 The return value is the following array of doubles:
 
-[breaklineStyle, [ color, lineType, lineStyleIndex, lineWeight, layerId,
+[ breaklineStyle, [ color, lineType, lineStyleIndex, lineWeight, layerId,
 
-layerOverride, number of lines, number of arcs ], line data or arc data]
-
-(Table)=========================================================
+layerOverride, number of lines, number of arcs ], line data or arc data ]
 
 | breaklineStyle | Valid returns are found in swBreakLineStyle_e |
 | --- | --- |
@@ -100,8 +84,6 @@ layerOverride, number of lines, number of arcs ], line data or arc data]
 
 Each break line is a pair of line segments:
 
-(Table)=========================================================
-
 | For... | Then... |
 | --- | --- |
 | swBreakLineStraight | Each has 1 line for a total of 4 points: LineStartPt[3] Line1EngPt[3] Line2StartPt[3] Line2EndPt[3] |
@@ -112,19 +94,12 @@ Each break line is a pair of line segments:
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBreakLineInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineInfo.html)
-
 [IView::GetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLines.html)
-
 [IView::IGetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLines.html)
-
 [IView::IsBroken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsBroken.html)
-
 [IView::BreakLineGap Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~BreakLineGap.html)
-
 [IView::InsertBreak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBreak.html)
 
 ## Availability

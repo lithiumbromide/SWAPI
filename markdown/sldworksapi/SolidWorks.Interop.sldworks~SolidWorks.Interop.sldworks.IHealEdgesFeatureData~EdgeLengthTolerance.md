@@ -45,13 +45,7 @@ property System.double EdgeLengthTolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Maximum length of the edges to merge
 
 ## VBA Syntax
 
-See
-
-[HealEdgesFeatureData::EdgeLengthTolerance](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~EdgeLengthTolerance.html)
-
-.
+See [HealEdgesFeatureData::EdgeLengthTolerance](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~EdgeLengthTolerance.html).
 
 ## Examples
 
 [Get Heal Edges Feature Data (C#)](Get_Heal_Edges_Feature_Data_Example_CSharp.htm)
-
 [Get Heal Edges Feature Data (VB.NET)](Get_Heal_Edges_Feature_Data_Example_VBNET.htm)
-
 [Get Heal Edges Feature Data (VBA)](Get_Heal_Edges_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IHealEdgesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html)
-
 [IHealEdgesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData_members.html)
 
 ## Availability

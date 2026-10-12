@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~CreateCardViewEx
 
 # CreateCardViewEx Method (IEdmVault6)
 
-Obsolete. Superseded by
-
-[IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html)
-
-.
+Obsolete. Superseded by [IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html).
 
 ## Syntax
 
@@ -58,22 +54,12 @@ IEdmCardView6^ CreateCardViewEx(
 
 ### Parameters
 
-- `lEdmCardViewFlags`: Combination of
-
-[EdmCardViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag.html)
-
-bits
-- `lCardID`: ID of card to display (see
-
-Remarks
-
-)
+- `lEdmCardViewFlags`: Combination of [EdmCardViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag.html) bits
+- `lCardID`: ID of card to display (see **Remarks**)
 - `lParentWindow`: Parent window handle
 - `lX`: X-position in pixels of the parent window
 - `lY`: Y-position in pixels of the parent window
-- `poCallback`: Pointer to a class that implements
-
-[IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
+- `poCallback`: Pointer to a class that implements [IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
 
 ### Return Value
 
@@ -81,9 +67,9 @@ Remarks
 
 ## Remarks
 
-Use this method if you want complete control of the loading and saving of data to and from a custom file or folder data card. Use[IEdmFolder5::CreateCardView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateCardView.html)if you want SOLIDWORKS PDM Professional to handle the loading and saving of data to and from a simple file or folder data card.
+Use this method if you want complete control of the loading and saving of data to and from a custom file or folder data card. Use [IEdmFolder5::CreateCardView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateCardView.html) if you want SOLIDWORKS PDM Professional to handle the loading and saving of data to and from a simple file or folder data card.
 
-To obtain lCardID, call[IEdmVault6::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~GetCardID.html).
+To obtain lCardID, call [IEdmVault6::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~GetCardID.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -93,7 +79,6 @@ To obtain lCardID, call[IEdmVault6::GetCardID](EPDM.Interop.epdm~EPDM.Interop.ep
 ## See Also
 
 [IEdmVault6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6.html)
-
 [IEdmVault6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6_members.html)
 
 ## Availability

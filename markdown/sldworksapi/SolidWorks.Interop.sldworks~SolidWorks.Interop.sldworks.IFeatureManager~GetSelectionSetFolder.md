@@ -40,13 +40,7 @@ System.object GetSelectionSetFolder()
 System.Object^ GetSelectionSetFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetSelectionSetFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetSelectionSetFolder.html)
-
-.
+See [FeatureManager::GetSelectionSetFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetSelectionSetFolder.html).
 
 ## Examples
 
 [Get Objects in Selection Set (C#)](Get_Objects_in_Selection_Set_Example_CSharp.htm)
-
 [Get Objects in Selection Set (VB.NET)](Get_Objects_in_Selection_Set_Example_VBNET.htm)
-
 [Get Objects in Selection Set (VBA)](Get_Objects_in_Selection_Set_Example_VB.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISelectionSet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet.html)
-
 [ISelectionSetItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # IGetEnergyConsumption Method (ISustainabilityEnvironmentalImpact)
 
-Obsolete. Superseded by
-
-[ISustainabilityEnvironmentalImpact::IGetEnergyConsumption2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetEnergyConsumption2.html)
-
-.
+Obsolete. Superseded by [ISustainabilityEnvironmentalImpact::IGetEnergyConsumption2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetEnergyConsumption2.html).
 
 ## Syntax
 
@@ -55,15 +51,13 @@ System.int IGetEnergyConsumption(
 
 - `Values`: - in-process, unmanaged C++: Pointer to an array of five doubles of megajoules of energy consumed by material, use, transportation, manufacturing, and end of life environmental impact factors
 
-VBA, VB.NET, C#, and C++/CLI: Not supported
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
-Error code as defined in
-
-[swSustainabilityErrors_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityErrors_e.html)
+Error code as defined in [swSustainabilityErrors_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityErrors_e.html)
 
 ## Remarks
 
@@ -76,9 +70,7 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
-
 [ISustainabilityEnvironmentalImpact::GetEnergyConsumption2 Method ()](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetEnergyConsumption2.html)
 
 ## Availability

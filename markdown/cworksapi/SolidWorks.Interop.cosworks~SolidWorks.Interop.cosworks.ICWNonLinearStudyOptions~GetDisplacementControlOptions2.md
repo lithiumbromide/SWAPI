@@ -57,35 +57,22 @@ void GetDisplacementControlOptions2(
 ### Parameters
 
 - `NDisplacementComponent`: Displacement component for the selected location
-- `NUnit`: Unit as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Unit as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 - `Dispatch`: Selected vertex or reference point to control the analysis
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::GetDisplacementControlOptions2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetDisplacementControlOptions2.html)
-
-.
+See [CWNonLinearStudyOptions::GetDisplacementControlOptions2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetDisplacementControlOptions2.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::SetDisplacementControlOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SetDisplacementControlOptions.html)
-
 [ICWNonLinearStudyOptions::ControlMethodType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html)
 
 ## Availability

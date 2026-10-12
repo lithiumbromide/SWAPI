@@ -46,11 +46,7 @@ True if the tolerance is for thread depth; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDepthDimTol::IsThreadDepth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDepthDimTol~IsThreadDepth.html)
-
-.
+See [SwDMDimXpertDepthDimTol::IsThreadDepth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDepthDimTol~IsThreadDepth.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDepthDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDepthDimTol.html)
-
 [ISwDMDimXpertDepthDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDepthDimTol_members.html)
 
 ## Availability

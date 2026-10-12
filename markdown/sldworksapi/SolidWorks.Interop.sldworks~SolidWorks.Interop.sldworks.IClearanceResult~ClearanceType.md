@@ -42,40 +42,23 @@ property System.int ClearanceType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Clearance type as defined by
-
-[swClearanceType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceType_e.html)
+Clearance type as defined by [swClearanceType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[ClearanceResult::ClearanceType](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~ClearanceType.html)
-
-.
+See [ClearanceResult::ClearanceType](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~ClearanceType.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)
-
 [IClearanceResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult_members.html)
 
 ## Availability

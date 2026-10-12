@@ -45,13 +45,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ See
 
 - or -
 
-- "" to give a default name of "Snap
-
-  n
-
-  "
+- "" to give a default name of "Snap`n`"
 
 - or -
 
@@ -71,24 +61,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SnapShot::Name](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~Name.html)
-
-.
+See [SnapShot::Name](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~Name.html).
 
 ## Examples
 
 [Open Assembly in Large Design Review Mode (C#)](Open_Assembly_in_Large_Design_Review_Mode_Example_CSharp.htm)
-
 [Open Assembly in Large Design Review Mode (VB.NET)](Open_Assembly_in_Large_Design_Review_Mode_Example_VBNET.htm)
-
 [Open Assembly in Large Design Review Mode (VBA)](Open_Assembly_in_Large_Design_Review_Mode_Example_VB.htm)
 
 ## See Also
 
 [ISnapShot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html)
-
 [ISnapShot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot_members.html)
 
 ## Availability

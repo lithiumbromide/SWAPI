@@ -39,30 +39,18 @@ void DrawHighlightedItems()
 void DrawHighlightedItems();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelView::DrawHighlightedItems](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DrawHighlightedItems.html)
-
-.
+See [ModelView::DrawHighlightedItems](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DrawHighlightedItems.html).
 
 ## Remarks
 
 This method is useful in applications that handle repainting if you want highlighting
-
 to be visible. When called, the currently highlighted items are painted.
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)

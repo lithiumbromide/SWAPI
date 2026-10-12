@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # UseTimeCurve Property (ICWBearingLoad)
 
-Obsolete. Superseded by
-
-[ICWBearingLoad::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~UseTimeCurve2.html)
-
-.
+Obsolete. Superseded by [ICWBearingLoad::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -55,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~UseTimeCurve.html)
-
-.
+See [CWBearingLoad::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~UseTimeCurve.html).
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::GetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~GetTimeCurve.html)
-
 [ICWBearingLoad::SetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~SetTimeCurve.html)
 
 ## Availability

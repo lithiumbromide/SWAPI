@@ -39,21 +39,11 @@ void RestoreDefaultValues()
 void RestoreDefaultValues();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::RestoreDefaultValues](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~RestoreDefaultValues.html)
-
-.
+See [WizardHoleFeatureData2::RestoreDefaultValues](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~RestoreDefaultValues.html).
 
 ## Remarks
 
@@ -62,7 +52,6 @@ This method is not valid for legacy hole types.
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
 
 ## Availability

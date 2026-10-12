@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockStatusFlag.html"
 
 # EdmUnlockStatusFlag Enumeration
 
-Statuses returned by
-
-[IEdmBatchUnlock2::GetStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2~GetStatus.html)
-
-.
+Statuses returned by [IEdmBatchUnlock2::GetStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2~GetStatus.html).
 
 ## Syntax
 

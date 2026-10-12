@@ -40,13 +40,7 @@ System.bool IsDangling()
 System.bool IsDangling();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the annotation is dangling, false if not
 
 ## VBA Syntax
 
-See
-
-[Annotation::IsDangling](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IsDangling.html)
-
-.
+See [Annotation::IsDangling](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IsDangling.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

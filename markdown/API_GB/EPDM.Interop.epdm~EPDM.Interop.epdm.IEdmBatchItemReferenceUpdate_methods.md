@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate
 
 # IEdmBatchItemReferenceUpdate Interface Methods
 
-For a list of all members of this type, see[IEdmBatchItemReferenceUpdate members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate_members.html).
+For a list of all members of this type, see [IEdmBatchItemReferenceUpdate members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmBatchItemReferenceUpdate members
 ## See Also
 
 [IEdmBatchItemReferenceUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

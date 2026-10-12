@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,15 +53,11 @@ True to reverse the direction of the Blind or Revolutions end condition, false t
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ReverseDirection.html)
-
-.
+See [ThreadFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ReverseDirection.html).
 
 ## Remarks
 
-This property is valid only if[IThreadFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~EndCondition.html)is set to[swThreadEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadEndCondition_e.html):
+This property is valid only if [IThreadFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~EndCondition.html) is set to [swThreadEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadEndCondition_e.html):
 
 - swThreadEndCondition_Blind
 
@@ -78,7 +68,6 @@ This property is valid only if[IThreadFeatureData::EndCondition](SolidWorks.Inte
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

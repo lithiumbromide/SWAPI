@@ -45,46 +45,29 @@ property System.double Diameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0.0 < Diameter of the helix; default is the diameter of the circular edge specified by
-
-[IThreadFeatureData::Edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Edge.html)
+0.0 < Diameter of the helix; default is the diameter of the circular edge specified by [IThreadFeatureData::Edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Edge.html)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::Diameter](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Diameter.html)
-
-.
+See [ThreadFeatureData::Diameter](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Diameter.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
 Specify either a value or an equation that starts with an equal sign (=).
 
-This property is valid only if[IThreadFeatureData::DiameterOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~DiameterOverride.html)is set to true.
+This property is valid only if [IThreadFeatureData::DiameterOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~DiameterOverride.html) is set to true.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

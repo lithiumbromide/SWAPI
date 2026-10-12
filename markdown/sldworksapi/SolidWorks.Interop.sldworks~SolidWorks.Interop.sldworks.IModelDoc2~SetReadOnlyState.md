@@ -47,13 +47,7 @@ System.bool SetReadOnlyState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if method executes successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetReadOnlyState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetReadOnlyState.html)
-
-.
+See [ModelDoc2::SetReadOnlyState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetReadOnlyState.html).
 
 ## Remarks
 
@@ -80,11 +70,8 @@ If the file is opened as read-only in SOLIDWORKS, then specifying read-write onl
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IsOpenedReadOnly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IsOpenedReadOnly.html)
-
 [IModelDoc2::IsOpenedViewOnly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IsOpenedViewOnly.html)
 
 ## Availability

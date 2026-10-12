@@ -57,30 +57,23 @@ CWContactSet^ GetContactSetAt(
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::GetContactSetAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~GetContactSetAt.html)
-
-.
+See [CWContactManager::GetContactSetAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~GetContactSetAt.html).
 
 ## Examples
 
 [Copy Items to Another Study (VBA)](Copy_Items_to_Another_Study_Example_VB.htm)
-
 [Copy Items to Another Study (VB.NET)](Copy_Items_to_Another_Study_Example_VBNET.htm)
-
 [Copy Items to Another Study (C#)](Copy_Items_to_Another_Study_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call[ICWContactManager::ContactSetCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~ContactSetCount.html)to determine the value of NIndex.
+Before calling this method, call [ICWContactManager::ContactSetCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~ContactSetCount.html) to determine the value of NIndex.
 
 If no contact set is present at the specified index, then this method returns Nothing or null with a non-0 error code.
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
 
 ## Availability

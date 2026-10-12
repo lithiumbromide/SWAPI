@@ -9,12 +9,9 @@ source: "swdocmgrapi/Get_PNG_Preview_Bitmap_and_Stream_for_Configuration_Example
 
 # Get PNG Preview Bitmap and Stream for Configuration Example (VB.NET)
 
-This example shows how to
-get the name of the stream and the PNG preview bitmap for a configuration.NOTE : To get the name of the stream and a preview bitmap of the sheet
-active when the drawing was last saved, use ISwDMDocument10::GetPreviewBitmap and
-ISwDMDocument10::PreviewStreamName. To get the name of the streams and
-the preview bitmaps for all sheets in a drawing, use
-ISwDMSheet2::GetPreviewPNGBitmap and ISwDMSheet2::PreviewPNGStreamName.
+This example shows how to get the name of the stream and the PNG preview bitmap for a configuration.
+
+**NOTE**: To get the name of the stream and a preview bitmap of the sheet active when the drawing was last saved, use ISwDMDocument10::GetPreviewBitmap and ISwDMDocument10::PreviewStreamName. To get the name of the streams and the preview bitmaps for all sheets in a drawing, use ISwDMSheet2::GetPreviewPNGBitmap and ISwDMSheet2::PreviewPNGStreamName.
 
 ```
 '-----------------------------------------------------------------------------

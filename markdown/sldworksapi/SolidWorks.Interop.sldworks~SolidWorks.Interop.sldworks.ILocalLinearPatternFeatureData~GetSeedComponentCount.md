@@ -40,13 +40,7 @@ System.int GetSeedComponentCount()
 System.int GetSeedComponentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,16 @@ Number of seed components
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::GetSeedComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetSeedComponentCount.html)
-
-.
+See [LocalLinearPatternFeatureData::GetSeedComponentCount](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetSeedComponentCount.html).
 
 ## Remarks
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
-
 [ILocalLinearPatternFeatureData::ISetSeedComponentArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~ISetSeedComponentArray.html)
-
 [ILocalLinearPatternFeatureData::SeedComponentArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SeedComponentArray.html)
-
 [ILocalLinearPatternFeatureData::IGetSeedComponentArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~IGetSeedComponentArray.html)
 
 ## Availability

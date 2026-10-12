@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertMultiJogLeader2 Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::InsertMultiJogLeader3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertMultiJogLeader3.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::InsertMultiJogLeader3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertMultiJogLeader3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ InsertMultiJogLeader2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertMultiJogLeader2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertMultiJogLeader2.html)
-
-.
+See [DrawingDoc::InsertMultiJogLeader2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertMultiJogLeader2.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

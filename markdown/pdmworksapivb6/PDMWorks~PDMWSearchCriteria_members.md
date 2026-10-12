@@ -1,6 +1,5 @@
 ---
-title: "PDMWSearchCriteria Object
-Members"
+title: "PDMWSearchCriteria Object Members"
 project: "PDMWorksActiveX DLL"
 interface: "PDMWSearchCriteria_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "pdmworksapivb6/PDMWorks~PDMWSearchCriteria_members.html"
 ---
 
-# PDMWSearchCriteria Object
-Members
+# PDMWSearchCriteria Object Members
 
 ## Public Methods
 

@@ -47,30 +47,20 @@ property System.int Unit {
 
 ### Property Value
 
-Temperature unit as defined[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~Unit.html)
-
-.
+See [CWHeatFlux::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
-examples.
+See the [ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html) examples.
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::HFValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~HFValue.html)
 
 ## Availability

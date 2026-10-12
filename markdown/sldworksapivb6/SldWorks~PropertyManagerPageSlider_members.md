@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageSlider Object
-Members"
+title: "PropertyManagerPageSlider Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageSlider_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageSlider_members.html"
 ---
 
-# PropertyManagerPageSlider Object
-Members
+# PropertyManagerPageSlider Object Members
 
 ## Public Methods
 

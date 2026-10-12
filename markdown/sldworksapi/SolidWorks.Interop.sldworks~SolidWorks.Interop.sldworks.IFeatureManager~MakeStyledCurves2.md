@@ -51,19 +51,13 @@ System.bool MakeStyledCurves2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Tolerance`: Deviation permitted from the selected geometry
 - `Mode`: - 1 = Convert the selected geometry to construction geometry
-- 11 = delete the selected geometry
+  - 11 = delete the selected geometry
 
 ### Return Value
 
@@ -71,16 +65,11 @@ True if fit spline is created, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MakeStyledCurves2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MakeStyledCurves2.html)
-
-.
+See [FeatureManager::MakeStyledCurves2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MakeStyledCurves2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

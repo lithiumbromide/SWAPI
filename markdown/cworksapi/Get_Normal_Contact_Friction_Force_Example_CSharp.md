@@ -9,11 +9,9 @@ source: "cworksapi/Get_Normal_Contact_Friction_Force_Example_CSharp.htm"
 
 # Get Contact or Friction Forces Example (C#)
 
-This example shows how to get the contact or friction forces for selected
-entities.
+This example shows how to get the contact or friction forces for selected entities.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  //---------------------------------------------------------------------------

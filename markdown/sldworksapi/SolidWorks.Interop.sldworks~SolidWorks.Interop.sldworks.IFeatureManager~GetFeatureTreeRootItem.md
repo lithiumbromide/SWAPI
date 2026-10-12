@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetFeatureTreeRootItem Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::GetFeatureTreeRootItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFeatureTreeRootItem2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::GetFeatureTreeRootItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFeatureTreeRootItem2.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ TreeControlItem GetFeatureTreeRootItem()
 TreeControlItem^ GetFeatureTreeRootItem();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetFeatureTreeRootItem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFeatureTreeRootItem.html)
-
-.
+See [FeatureManager::GetFeatureTreeRootItem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFeatureTreeRootItem.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

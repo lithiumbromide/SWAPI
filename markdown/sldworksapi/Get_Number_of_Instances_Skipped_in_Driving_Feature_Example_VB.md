@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_
 
 # Get Number of Instances Skipped in Driving Feature Example (VBA)
 
-This example shows how to get the number of instances skipped in the driving feature
-of a derived pattern feature.
+This example shows how to get the number of instances skipped in the driving feature of a derived pattern feature.
 
 ```
 '--------------------------------------------------------------------------------

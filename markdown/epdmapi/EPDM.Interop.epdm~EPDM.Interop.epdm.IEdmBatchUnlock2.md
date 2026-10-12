@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2.html"
 
 Allows you to unlock, check in, or undo check-outs of multiple files all at once.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,22 +36,13 @@ public interface class IEdmBatchUnlock2 : public IEdmBatchUnlock
 
 ## Examples
 
-See the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-examples.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) examples.
 
 ## Remarks
 
-This interface extends
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-by adding the ability to get the status of the unlock operation.
+This interface extends [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) by adding the ability to get the status of the unlock operation.
 
 ## See Also
 
 [IEdmBatchUnlock2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

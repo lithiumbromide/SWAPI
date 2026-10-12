@@ -57,24 +57,17 @@ Number of linked display states
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration12::GetLinkedDisplayStates](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetLinkedDisplayStates.html)
-
-.
+See [SwDMConfiguration12::GetLinkedDisplayStates](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetLinkedDisplayStates.html).
 
 ## Examples
 
 [Get Linked Display States (VB.NET)](Get_Linked_Display_States_Example_VBNET.htm)
-
 [Get Linked Display States (C#)](Get_Linked_Display_States_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMConfiguration12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12.html)
-
 [ISwDMConfiguration12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12_members.html)
-
 [ISwDMConfiguration12::GetComponentVisibleByDisplayStateName Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12~GetComponentVisibleByDisplayStateName.html)
 
 ## Availability

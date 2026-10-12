@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # SetFeatureNameFilter Method (IPowerSelect)
 
-Sets the
-
-Feature name
-
-filter for this PowerSelect session.
+Sets the Feature name filter for this PowerSelect session.
 
 ## Syntax
 
@@ -57,24 +53,16 @@ System.int SetFeatureNameFilter(
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::SetFeatureNameFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetFeatureNameFilter.html)
-
-.
+See [IPowerSelect::SetFeatureNameFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetFeatureNameFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetFeatureNameFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureNameFilter.html)
 
 ## Availability

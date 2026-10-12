@@ -13,22 +13,14 @@ PDM Pro API Web Service
 
 Version Resource Group
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service : Version Resource Group |
 | --- |
 
 Description
 
-Version service. See
-
-[Getting Started](GettingStarted.html)
-
-.
+Version service. See [Getting Started](GettingStarted.html).
 
 Operations
 

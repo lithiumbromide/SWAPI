@@ -53,14 +53,8 @@ CWLinkageRod^ GetLinkageRod(
 
 ### Parameters
 
-- `SName`: Name of the linkage rod connector as shown
-
-Connections > Connectors
-
-branch of the simulation study tree
-- `ErrorCode`: Error as defined in
-
-[swsLinkConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorError_e.html)
+- `SName`: Name of the linkage rod connector as shown **Connections > Connectors** branch of the simulation study tree
+- `ErrorCode`: Error as defined in [swsLinkConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorError_e.html)
 
 ### Return Value
 
@@ -68,24 +62,15 @@ branch of the simulation study tree
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::GetLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~GetLinkageRod.html)
-
-.
+See [CWLoadsAndRestraintsManager::GetLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~GetLinkageRod.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples.
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

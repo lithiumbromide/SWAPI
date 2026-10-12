@@ -51,21 +51,11 @@ System.bool SetImportedNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Name`: Name of the imported note to set (see
-
-Remarks
-
-)
+- `Name`: Name of the imported note to set (see **Remarks**)
 - `Note`: [INote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
 
 ### Return Value
@@ -74,11 +64,7 @@ True if note set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::SetImportedNote](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~SetImportedNote.html)
-
-.
+See [MBD3DPdfData::SetImportedNote](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~SetImportedNote.html).
 
 ## Examples
 
@@ -166,16 +152,11 @@ End Sub
 
 ## Remarks
 
-Use
-
-[IMBD3DPdfData::GetImportedNotes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~GetImportedNotes.html)
-
-to get the names of available imported note names you can use to set notes in this PDF.
+Use [IMBD3DPdfData::GetImportedNotes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~GetImportedNotes.html) to get the names of available imported note names you can use to set notes in this PDF.
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
 
 ## Availability

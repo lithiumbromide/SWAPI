@@ -45,13 +45,7 @@ property System.bool ConstructionGeometry {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ True if this sketch segment is construction geometry, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::ConstructionGeometry](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~ConstructionGeometry.html)
-
-.
+See [SketchSegment::ConstructionGeometry](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~ConstructionGeometry.html).
 
 ## Examples
 
 [Create Imported Surface Body From Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Find Total Length of Sketch Segments in Sketch (VBA)](Find_Total_Length_of_Sketch_Segments_in_Sketch_Example_VB.htm)
-
 [Get All Elements of Sketch (VBA)](Get_All_Elements_of_Sketch_Example_VB.htm)
-
 [Get Sketch Segment and Curve Data (VBA)](Get_Sketch_Segment_and_Curve_Data_Example_VB.htm)
-
 [Get Whether Sketch Segment Is Trimmed (VBA)](Get_Whether_Sketch_Segment_is_Trimmed_or_Not_Example_VB.htm)
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

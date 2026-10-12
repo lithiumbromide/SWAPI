@@ -40,48 +40,27 @@ System.object GetStructureSystemFolder()
 System.Object^ GetStructureSystemFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html
-
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[CornerManagementFolder::GetStructureSystemFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetStructureSystemFolder.html)
-
-.
+See [CornerManagementFolder::GetStructureSystemFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetStructureSystemFolder.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Remarks
 
-After calling this method to get the IFeature, use
-
-[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
-
-to get an
-
-[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)
-
-.
+After calling this method to get the IFeature, use [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get an [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html).
 
 ## See Also
 
 [ICornerManagementFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)
-
 [ICornerManagementFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder_members.html)
 
 ## Availability

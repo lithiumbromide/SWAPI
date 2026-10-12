@@ -46,16 +46,12 @@ void AddReferencesID2(
 ### Parameters
 
 - `lRootFile`: ID of file to which to add file references
-- `ppoReferences`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-s containing file references to add to lRootFile
+- `ppoReferences`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)s containing file references to add to lRootFile
 - `plQuantity`: Array of times that the files in ppoReferences are referenced in lRootFile
 
 ## Remarks
 
-This method supersedes[IEdmAddCustomRefs::AddReferencesID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddReferencesID.html), which adds reference files only by ID.
+This method supersedes [IEdmAddCustomRefs::AddReferencesID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddReferencesID.html), which adds reference files only by ID.
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +61,6 @@ This method supersedes[IEdmAddCustomRefs::AddReferencesID](EPDM.Interop.epdm~EPD
 ## See Also
 
 [IEdmAddCustomRefs2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2.html)
-
 [IEdmAddCustomRefs2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2_members.html)
 
 ## Availability

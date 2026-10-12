@@ -42,13 +42,7 @@ property System.int Count {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Count](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Count.html)
-
-.
+See [CustomPropertyManager::Count](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Count.html).
 
 ## Examples
 
 [Get Custom Properties for Configuration (VBA)](Get_Custom_Properties_for_Configuration_Example_VB.htm)
-
 [Get Custom Properties for Cut-list Item (VBA)](Get_Custom_Properties_for_Cut-list_Item_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[ICustomPropertyManager::IGetNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~IGetNames.html).
+Call this method before calling [ICustomPropertyManager::IGetNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~IGetNames.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetPoints Method (ISketchSpline)
 
-Obsolete. Superseded by
-
-[ISketchSpline::GetPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~GetPoints2.html)
-
-and
-
-[ISketchSpline::IEnumPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~IEnumPoints.html)
-
-.
+Obsolete. Superseded by [ISketchSpline::GetPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~GetPoints2.html) and [ISketchSpline::IEnumPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~IEnumPoints.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetPoints()
 System.Object^ GetPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::GetPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetPoints.html)
-
-.
+See [SketchSpline::GetPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetPoints.html).
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)

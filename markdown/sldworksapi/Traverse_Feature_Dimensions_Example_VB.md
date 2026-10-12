@@ -9,9 +9,7 @@ source: "sldworksapi/Traverse_Feature_Dimensions_Example_VB.htm"
 
 # Traverse Feature Dimensions Example (VBA)
 
-This example shows how to traverse all of the
-DisplayDimension objects belonging to the feature, get the underlying Dimension
-object, and query its value.
+This example shows how to traverse all of the DisplayDimension objects belonging to the feature, get the underlying Dimension object, and query its value.
 
 ```
 '------------------------------------------------------------------

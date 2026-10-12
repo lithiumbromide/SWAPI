@@ -39,11 +39,7 @@ public interface class IGeometryAnalysis
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis.html)
-
-.
+See [IGeometryAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis.html).
 
 ## Examples
 
@@ -60,5 +56,4 @@ These applications include finite element modeling or computer-aided machining.
 ## See Also
 
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

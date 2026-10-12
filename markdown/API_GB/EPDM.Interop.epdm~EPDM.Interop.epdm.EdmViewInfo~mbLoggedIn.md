@@ -35,5 +35,4 @@ System.short mbLoggedIn
 ## See Also
 
 [EdmViewInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo.html)
-
 [EdmViewInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo_members.html)

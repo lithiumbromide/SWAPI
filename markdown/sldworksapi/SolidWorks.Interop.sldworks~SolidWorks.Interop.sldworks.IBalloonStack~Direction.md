@@ -45,27 +45,15 @@ property System.int Direction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Balloon stacking direction as defined in
-
-[swStackedBalloonDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStackedBalloonDirection_e.html)
+Balloon stacking direction as defined in [swStackedBalloonDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStackedBalloonDirection_e.html)
 
 ## VBA Syntax
 
-See
-
-[BalloonStack::Direction](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Direction.html)
-
-.
+See [BalloonStack::Direction](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Direction.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ f you specify an invalid valid for Direction, SOLIDWORKS does not change the bal
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [IBalloonStack Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack_members.html)
 
 ## Availability

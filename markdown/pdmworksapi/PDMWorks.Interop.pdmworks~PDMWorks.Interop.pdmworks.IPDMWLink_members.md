@@ -9,7 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLi
 
 # IPDMWLink Interface Members
 
-The following tables list the members exposed by[IPDMWLink](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html).
+The following tables list the members exposed by [IPDMWLink](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html).
 
 ## Public Properties
 
@@ -28,7 +28,5 @@ The following tables list the members exposed by[IPDMWLink](PDMWorks.Interop.pdm
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)

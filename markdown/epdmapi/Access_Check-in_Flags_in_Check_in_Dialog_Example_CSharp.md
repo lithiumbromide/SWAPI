@@ -9,40 +9,36 @@ source: "epdmapi/Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp.htm"
 
 # Access Check-in Flags in Check in Dialog Example (C#)
 
-This example shows how to access the check-in flags in the
-SOLIDWORKS PDM Professional Check in dialog.
+This example shows how to access the check-in flags in the SOLIDWORKS PDM Professional Check in dialog.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //--------------------------------------------------------------------------------------
 // Preconditions:
 //  1. Start Microsoft Visual Studio.
-//     a. Click File > New > Project > Visual C# > Windows Forms Application.
-//     b. Type RefItemContainerCSharp in Name.
-//     c. Click Browse and navigate to the folder where to create the project.
-//     d. Click OK.
-//     e. Click Show All Files in the Solution Explorer toolbar and expand
+//     a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+//     b. Type RefItemContainerCSharp in Project name.
+//     c. For Location, click ... and navigate to the folder where to
+create the project.
+//     d. Click Next.
+//     e. Select Framework.
+//     f. Click Create.
+
+//     g. Click Show All Files in the Solution Explorer
+toolbar and expand
+
 //        Form1.cs in the Solution Explorer.
-//     f. Replace the code in Form1.cs with this code.
-//     g. To create the form, replace the code in Form1.Designer.cs with
+//     h. Replace the code in Form1.cs with this code.
+//     i. To create the form, replace the code in Form1.Designer.cs with
 //        this code.
-//     h. To create the class for the callback:
+//     j. To create the class for the callback:
 //        1. Right-click RefItemContainerCSharp in the Solution Explorer.
 //        2. Click Add > Class.
 //        3. Type Callback.cs in Name and click Add.
 //        4. Replace the code in Callback.cs with this code.
-//  2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
-//     name in the Solution Explorer, click Add Reference, click
-//     Assemblies > Framework in the left-side panel, browse to the top folder of
-//     your SOLIDWORKS PDM Professional installation, locate and click
-//     EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
-//  3. Right-click EPDM.Interop.epdm in References, click Properties, and set
-//     Embed Interop Types to False to handle methods that pass arrays of
-//     structures.
-//  4. Click Debug > Start Debugging or press F5.
+//  2. Add dependencies and safely pass arrays of structures.
+//  3. Click Debug > Start Debugging or press F5.
 //
 // Postconditions:
 //  1. Displays the Access Check-in Flags in Check in Dialog dialog box.

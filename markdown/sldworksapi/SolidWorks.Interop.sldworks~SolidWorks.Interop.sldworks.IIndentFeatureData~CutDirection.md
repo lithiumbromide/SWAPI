@@ -45,13 +45,7 @@ property System.bool CutDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to flip the side of the cut, false to not
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::CutDirection](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~CutDirection.html)
-
-.
+See [IndentFeatureData::CutDirection](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~CutDirection.html).
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
-
 [IIndentFeatureData::IsCut Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~IsCut.html)
 
 ## Availability

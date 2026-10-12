@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalGussetFeature Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertSheetMetalGussetFeature3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertSheetMetalGussetFeature3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html).
 
 ## Syntax
 
@@ -131,13 +127,7 @@ Feature^ InsertSheetMetalGussetFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -146,36 +136,16 @@ See
 - `BFlipOffsetSide`: True to specify the gusset section plane offset on the opposite side of the selected reference point, false to not; valid only if BOffset is true
 - `ProfDimType`: Type of gusset profile dimensioning scheme:
 
-- 0 = indent
-- 1 = profile dimensioning
+  - 0 = indent
+  - 1 = profile dimensioning
 
-(see**Remarks**)
+  (see **Remarks**)
 - `DIndentDepth`: Gusset depth; valid only if ProfDimType = 0
-- `DLength`: d1 gusset leg length; length of sheet metal from bend to intersection with first end of gusset; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `BUseAngle`: True to dimension the angle that is formed by the intersection of the gusset with either face adjacent to the bend; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `DHeight`: d2 gusset leg length; length of sheet metal from bend to intersection with second end of gusset; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `DAngle`: Angle formed by intersection of gusset with one face adjacent to the bend; valid only if ProfDimType = 1 and BUseAngle is true (see
-
-Remarks
-
-)
-- `BFlipSides`: True to swap d1 and d2 in the dimensioning scheme, false to not; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
+- `DLength`: d1 gusset leg length; length of sheet metal from bend to intersection with first end of gusset; valid only if ProfDimType = 1 (see **Remarks**)
+- `BUseAngle`: True to dimension the angle that is formed by the intersection of the gusset with either face adjacent to the bend; valid only if ProfDimType = 1 (see **Remarks**)
+- `DHeight`: d2 gusset leg length; length of sheet metal from bend to intersection with second end of gusset; valid only if ProfDimType = 1 (see **Remarks**)
+- `DAngle`: Angle formed by intersection of gusset with one face adjacent to the bend; valid only if ProfDimType = 1 and BUseAngle is true (see **Remarks**)
+- `BFlipSides`: True to swap d1 and d2 in the dimensioning scheme, false to not; valid only if ProfDimType = 1 (see **Remarks**)
 - `DWidth`: Gusset width
 - `DThickness`: Gusset thickness
 - `BDraft`: True to draft gusset side faces, false to not
@@ -186,8 +156,8 @@ Remarks
 - `DOuterCornerFilletRadius`: Outer corner fillet radius; valid only if BOuterCornerFilletRadius is true
 - `GussetType`: Type of gusset:
 
-- 0 = rounded back
-- 1 = flat back
+  - 0 = rounded back
+  - 1 = flat back
 - `BEdgeFillet`: True to fillet the edges of a gusset, false to not; valid only if GussetType = 1
 - `DEdgeFilletRadius`: Edge fillet radius; valid only if BEdgeFillet is true and GussetType = 1
 
@@ -197,11 +167,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalGussetFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalGussetFeature.html)
-
-.
+See [FeatureManager::InsertSheetMetalGussetFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalGussetFeature.html).
 
 ## Remarks
 
@@ -213,7 +179,7 @@ Before calling this method to create a sheet metal gusset feature, you must pre-
 | Optionally orient the gusset section plane | One linear edge or sketch segment that is perpendicular to the gusset section plane. If you do not pre-select either entity, then the method uses the bend line adjacent to the gusset legs as the reference. |
 | Optionally position the gusset section plane | One vertex, sketch point, or reference point. If you do not pre-select any one of these entities, then you must set BOffset to true and specify DOffset for an assumed reference point. For insertion of the first gusset, the assumed reference point is on the end of the sheet metal bend. For second and subsequent gusset insertions, the assumed reference point is on the edge of the gusset last inserted. |
 
-Instead of pre-selecting the references and calling this method, you can pass the references as arrays to[IFeatureManager::InsertSheetMetalGussetFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature2.html).
+Instead of pre-selecting the references and calling this method, you can pass the references as arrays to [IFeatureManager::InsertSheetMetalGussetFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature2.html).
 
 | If ProfDimType = 1, to dimension the gusset profile using... | Specify... |
 | --- | --- |
@@ -226,9 +192,7 @@ See the SOLIDWORKS Help for more information about sheet metal gusset features.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
 
 ## Availability

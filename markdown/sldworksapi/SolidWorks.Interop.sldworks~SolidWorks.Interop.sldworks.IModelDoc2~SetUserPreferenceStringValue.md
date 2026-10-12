@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetUserPreferenceStringValue Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::SetUserPreferenceString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceString.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::SetUserPreferenceString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceString.html).
 
 ## Syntax
 
@@ -55,17 +51,11 @@ System.bool SetUserPreferenceStringValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreference`: User preference value as defined in[swUserPreferenceStringValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceStringValue_e.html)
+- `UserPreference`: User preference value as defined in [swUserPreferenceStringValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceStringValue_e.html)
 - `Value`: Value of the user preference specified in UserPreference
 
 ### Return Value
@@ -74,20 +64,15 @@ True if user preference value is changed, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetUserPreferenceStringValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetUserPreferenceStringValue.html)
-
-.
+See [ModelDoc2::SetUserPreferenceStringValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetUserPreferenceStringValue.html).
 
 ## Remarks
 
-This method is equivalent to interactively setting document properties in the SOLIDWORKS software. See[System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm)for details.
+This method is equivalent to interactively setting document properties in the SOLIDWORKS Design software. See [System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm) for details.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

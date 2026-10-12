@@ -51,34 +51,22 @@ True to include only the user-selected beams, false to not
 
 ## VBA Syntax
 
-See
-
-[CWJoints::IncludeUserSelectedBeam](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~IncludeUserSelectedBeam.html)
-
-.
+See [CWJoints::IncludeUserSelectedBeam](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~IncludeUserSelectedBeam.html).
 
 ## Remarks
 
 To include only the user-selected beams:
 
-1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html)
-
-  .
+1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html).
 2. Specify to include only the user-selected beams by calling this method.
 3. [Save your modification.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~IncludeKeepModifiedJointOnUpdate.html)
-4. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html)
-
-  the joints.
-5. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html)
-
-  .
+4. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html) the joints.
+5. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html).
 
 ## See Also
 
 [ICWJoints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html)
-
 [ICWJoints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints_members.html)
-
 [ICWJoints::IncludeAllSelectedBeam Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints~IncludeAllSelectedBeam.html)
 
 ## Availability

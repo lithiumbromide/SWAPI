@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Delete | api/{vaultName}/folders/{folderId}?destroy={destroy} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Folder Resource Group : api/{vaultName}/folders/{folderId}?destroy={destroy} (Delete) |
 | --- |
@@ -72,8 +68,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[Folder Resource Group](PDM%20Pro%20API_ws~g-ebc7dbbc-e61a-4479-954a-e443044cd655.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Folder Resource Group](PDM%20Pro%20API_ws~g-ebc7dbbc-e61a-4479-954a-e443044cd655.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

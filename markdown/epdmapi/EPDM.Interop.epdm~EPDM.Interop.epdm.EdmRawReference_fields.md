@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_fields.html
 
 # EdmRawReference Structure Fields
 
-For a list of all members of this type, see[EdmRawReference members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html).
+For a list of all members of this type, see [EdmRawReference members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html).
 
 ## Public Fields
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[EdmRawReference members](EPDM.Intero
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -47,13 +47,7 @@ System.bool DeleteIndicator(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ True if tolerance indicator successfully deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[GtolFrame::DeleteIndicator](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~DeleteIndicator.html)
-
-.
+See [GtolFrame::DeleteIndicator](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~DeleteIndicator.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
-Before calling this method, use
-
-[IGtolFrame:GetIndicatorCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~GetIndicatorCount.html)
-
-to determine IndicatorIndex.
+Before calling this method, use [IGtolFrame:GetIndicatorCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~GetIndicatorCount.html) to determine IndicatorIndex.
 
 ## See Also
 
 [IGtolFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
 [IGtolFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html)
 
 ## Availability

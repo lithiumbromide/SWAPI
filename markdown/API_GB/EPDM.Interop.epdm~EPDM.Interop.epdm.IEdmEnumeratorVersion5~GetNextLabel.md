@@ -39,9 +39,7 @@ IEdmLabel5^ GetNextLabel(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next label
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next label
 
 ### Return Value
 
@@ -49,11 +47,11 @@ IEdmLabel5^ GetNextLabel(
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPos with the interface to the position of the first label, IEdmPos5. Call[IEdmEnumeratorVersion5::GetFirstLabelPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetFirstLabelPosition.html)to obtain IEdmPos5.
+Before calling this method the first time, you must populate poPos with the interface to the position of the first label, IEdmPos5. Call [IEdmEnumeratorVersion5::GetFirstLabelPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetFirstLabelPosition.html) to obtain IEdmPos5.
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the labels.
 
-Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)before you call this method to ensure you have not reached the end of the enumeration.
+Be sure to call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) before you call this method to ensure you have not reached the end of the enumeration.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface.
 
@@ -65,7 +63,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [IEdmEnumeratorVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html)
 
 ## Availability

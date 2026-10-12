@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7_members.html"
 
 # IEdmReference7 Interface Members
 
-The following tables list the members exposed by[IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html).
+The following tables list the members exposed by [IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html).
 
 ## Public Properties
 
@@ -31,9 +31,6 @@ The following tables list the members exposed by[IEdmReference7](EPDM.Interop.ep
 ## See Also
 
 [IEdmReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference9.html)

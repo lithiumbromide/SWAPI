@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_methods.htm
 
 # IEdmTransition5 Interface Methods
 
-For a list of all members of this type, see[IEdmTransition5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_members.html).
+For a list of all members of this type, see [IEdmTransition5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmTransition5 members](EPDM.Intero
 ## See Also
 
 [IEdmTransition5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

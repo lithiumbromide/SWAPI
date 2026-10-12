@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # NoPenetration Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWStaticStudyOptions::NoPenetration2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~LargeDisplacement2.html)
-
-.
+Obsolete. Superseded by [ICWStaticStudyOptions::NoPenetration2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~LargeDisplacement2.html).
 
 ## Syntax
 
@@ -55,30 +51,18 @@ property System.int NoPenetration {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::NoPenetration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~NoPenetration.html)
-
-.
+See [CWStaticStudyOptions::NoPenetration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~NoPenetration.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::IncludeGlobalFriction Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction.html)
-
 [ICWStaticStudyOptions::IgnoreClearanceForSurfaceContact Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IgnoreClearanceForSurfaceContact.html)
-
 [ICWStaticStudyOptions::FrictionCoefficient Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~FrictionCoefficient.html)
 
 ## Availability

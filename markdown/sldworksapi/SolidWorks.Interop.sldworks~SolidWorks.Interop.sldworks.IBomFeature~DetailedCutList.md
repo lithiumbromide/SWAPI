@@ -45,13 +45,7 @@ property System.bool DetailedCutList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to show the detailed cut list in the BOM table, false to not
 
 ## VBA Syntax
 
-See
-
-[BomFeature::DetailedCutList](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DetailedCutList.html)
-
-.
+See [BomFeature::DetailedCutList](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DetailedCutList.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ This property applies to all types of BOM tables.
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::DissolvePartLevelRows Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~DissolvePartLevelRows.html)
 
 ## Availability

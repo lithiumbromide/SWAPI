@@ -87,47 +87,27 @@ System.Object^ EditBalloonProperties2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style of balloon as defined in
-
-[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `Size`: Balloon size as defined in
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `UpperTextStyle`: Balloon text style as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `Style`: Style of balloon as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `Size`: Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `UpperTextStyle`: Balloon text style as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `UpperText`: Text for the balloon; valid only if UpperTextStyle is one of the following:
 
-- swBalloonTextContent_e.swBalloonTextCustom
-- swBalloonTextContent_e.swBalloonTextCustomProperties
-- swBalloonTextContent_e.swBalloonTextCutListProperties
-- `LowerTextStyle`: Lower text style as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
-
-; valid only if Style is swBalloonStyle_e.swBS_SplitCirc
+  - swBalloonTextContent_e.swBalloonTextCustom
+  - swBalloonTextContent_e.swBalloonTextCustomProperties
+  - swBalloonTextContent_e.swBalloonTextCutListProperties
+- `LowerTextStyle`: Lower text style as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid only if Style is swBalloonStyle_e.swBS_SplitCirc
 - `LowerText`: Text for the lower text in the balloon; valid only if Style is swBalloonStyle_e.swBS_SplitCirc and LowerTextStyle is one of the following:
 
-- swBalloonTextContent_e.swBalloonTextCustom
-- swBalloonTextContent_e.swBalloonTextCustomProperties
-- swBalloonTextContent_e.swBalloonTextCutListProperties
+  - swBalloonTextContent_e.swBalloonTextCustom
+  - swBalloonTextContent_e.swBalloonTextCustomProperties
+  - swBalloonTextContent_e.swBalloonTextCutListProperties
 - `CustomSize`: User-defined size of the balloon; valid only if Size is swBalloonFit_e.swBF_UserDef
 - `ShowQuantity`: True to show quantity, false to not
-- `QuantityPlacement`: Placement of quantity value as defined in
-
-[swBalloonQuantityPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonQuantityPlacement_e.html)
-
-; valid only if ShowQuantity is true
+- `QuantityPlacement`: Placement of quantity value as defined in [swBalloonQuantityPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonQuantityPlacement_e.html); valid only if ShowQuantity is true
 - `QuantityDenotationText`: Denotation text for quantity; valid only if ShowQuantity is true
 - `QuantityDistance`: Distance between the balloon and the quantity; valid only if ShowQuantity is true
 
@@ -137,18 +117,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::EditBalloonProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~EditBalloonProperties2.html)
-
-.
+See [ModelDocExtension::EditBalloonProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~EditBalloonProperties2.html).
 
 ## Examples
 
 [Edit Balloon (VBA)](Edit_Balloon_Example_VB.htm)
-
 [Edit Balloon (VB.NET)](Edit_Balloon_Example_VBNET.htm)
-
 [Edit Balloon (C#)](Edit_Balloon_Example_CSharp.htm)
 
 ## Remarks
@@ -158,11 +132,8 @@ Before calling this method, select the balloon annotation whose properties you w
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [INote::SetBalloon Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetBalloon.html)
-
 [INote::SetBomBalloonText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetBomBalloonText.html)
 
 ## Availability

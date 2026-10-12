@@ -51,19 +51,11 @@ property System.double CriticalDampingRatio {
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::CriticalDampingRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~CriticalDampingRatiohtml)
-
-.
+See [CWDropTestSetup::CriticalDampingRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~CriticalDampingRatiohtml).
 
 ## Examples
 
-See the
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-examples.
+See the [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html) examples.
 
 ## Remarks
 
@@ -72,7 +64,6 @@ See the Drop Test Setup PropertyManager topic in the SOLIDWORKS Simulation Help 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

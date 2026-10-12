@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_fields.html"
 
 # EdmPoint Structure Fields
 
-For a list of all members of this type, see[EdmPoint members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members.html).
+For a list of all members of this type, see [EdmPoint members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmPoint members](EPDM.Interop.epdm~
 ## See Also
 
 [EdmPoint Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

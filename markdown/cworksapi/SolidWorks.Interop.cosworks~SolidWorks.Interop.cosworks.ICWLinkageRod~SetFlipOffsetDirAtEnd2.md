@@ -48,17 +48,11 @@ void SetFlipOffsetDirAtEnd2(
 
 ### Parameters
 
-- `NFlipDir`: Offset flip direction as defined by
-
-[swsFlipOffsetDir_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFlipOffsetDir_e.html)
+- `NFlipDir`: Offset flip direction as defined by [swsFlipOffsetDir_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFlipOffsetDir_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::SetFlipOffsetDirAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetFlipOffsetDirAtEnd2.html)
-
-.
+See [CWLinkageRod::SetFlipOffsetDirAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetFlipOffsetDirAtEnd2.html).
 
 ## Remarks
 
@@ -67,7 +61,6 @@ This method is not valid if End 2 is a vertex.
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

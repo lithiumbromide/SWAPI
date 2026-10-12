@@ -39,58 +39,25 @@ void Create3DBoundingBox()
 void Create3DBoundingBox();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Create3DBoundingBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Create3DBoundingBox.html)
-
-.
+See [ModelDocExtension::Create3DBoundingBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Create3DBoundingBox.html).
 
 ## Examples
 
 [Create 3D Bounding Box for Cut List Item (VBA)](Create_3D_Bounding_Box_Example_VB.htm)
-
 [Create 3D Bounding Box for Cut List Item (VB.NET)](Create_3D_Bounding_Box_Example_VBNET.htm)
-
 [Create 3D Bounding Box for Cut List Item (C#)](Create_3D_Bounding_Box_Example_CSharp.htm)
 
 ## Remarks
 
-After selecting the bounding box,
-
-[ISelectionMgr::GetSelectedObjectType3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObjectType3.html)
-
-returns
-
-[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
-
-.swSelSKETCHES, while
-
-[ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)
-
-returns an
-
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
-instead of an
-
-[ISketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
-.
+After selecting the bounding box, [ISelectionMgr::GetSelectedObjectType3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObjectType3.html) returns [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html).swSelSKETCHES, while [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html) returns an [IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) instead of an [ISketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

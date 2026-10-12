@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Speedpak_Example_CSharp.htm"
 
 # Create a SpeedPak Configuration Example (C#)
 
-This example shows how to create a SpeedPak configuration for the active
-configuration.
+This example shows how to create a SpeedPak configuration for the active configuration.
 
 ```
 //----------------------------------------------------------------------------

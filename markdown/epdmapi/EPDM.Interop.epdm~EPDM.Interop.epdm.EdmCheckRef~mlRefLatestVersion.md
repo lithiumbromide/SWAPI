@@ -35,5 +35,4 @@ System.int mlRefLatestVersion
 ## See Also
 
 [EdmCheckRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html)
-
 [EdmCheckRef Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members.html)

@@ -14,9 +14,11 @@ source: "cworksapivb6/CosmosWorksLib~swsLoadsAndRestraintsError_e.html"
 | Member | Value | Description |
 | --- | --- | --- |
 | swsLoadsAndRestraintsError_InvalidComponentsCount | 3 |  |
+| swsLoadsAndRestraintsError_InvalidLicense | 7 |  |
 | swsLoadsAndRestraintsError_InvalidOrNullFace | 6 |  |
 | swsLoadsAndRestraintsError_InvalidSelection | 4 |  |
 | swsLoadsAndRestraintsError_InvalidSelectionsMixedTogether | 5 |  |
+| swsLoadsAndRestraintsError_NoLBCDefined | 8 |  |
 | swsLoadsAndRestraintsError_NotFoundWithGivenName | 2 |  |
 | swsLoadsAndRestraintsErrorNotFoundAtIndex | 1 |  |
 | swsLoadsAndRestraintsErrorSuccessful | 0 |  |

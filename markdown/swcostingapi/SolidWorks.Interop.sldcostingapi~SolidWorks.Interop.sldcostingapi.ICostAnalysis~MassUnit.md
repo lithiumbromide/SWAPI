@@ -44,26 +44,19 @@ property System.int MassUnit {
 
 ### Property Value
 
-Unit of mass as defined in
-
-[swcMassUnit_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcMassUnit_e.html)
+Unit of mass as defined in [swcMassUnit_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcMassUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::MassUnit](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MassUnit.html)
-
-.
+See [CostAnalysis::MassUnit](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MassUnit.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
 
 ## Availability

@@ -48,11 +48,7 @@ Name of project to which this document belongs
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~project.html)
-
-.
+See [PDMWDocument::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~project.html).
 
 ## Examples
 
@@ -61,9 +57,7 @@ See
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
 
 ## Availability

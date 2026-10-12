@@ -9,25 +9,16 @@ source: "sldworksapi/Create_TaskPaneView_Add-in_Example_CSharp.htm"
 
 # Create Task Pane View Add-in Example (C#)
 
-This example shows how to create an add-in that creates a Task Pane view and
-notifies when the Task Pane view and Display Pane are exercised.
+This example shows how to create an add-in that creates a Task Pane view and notifies when the Task Pane view and Display Pane are exercised.
 
 //----------------------------------------------------------------------------------------------------------------------------
 
-1. Install the SOLIDWORKS API SDK templates using**SOLIDWORKS API SDK.msi**located in the apisdk folder of your SOLIDWORKS
-  installation. If apisdk does not exist, modify your SOLIDWORKS
-  installation from**Settings > Apps**(under Product
-  Select, check**API Tools**and**SOLIDWORKS API SDK
-  (install manually)).****apisdk/SOLIDWORKS API SDK.msi**will be installed in your installation folder.
-2. Create a new project in Visual Studio using the
-  SwCSharpAddin template.
-3. Copy the following sample code intoSwAddin.csand EventHandling.cs of the new project.
-4. Replace the Guid with a newly generated unique
-  one if required (**VS menu > Tools > Create GUID**).
-5. Add references to and modify the framework and
-  build configuration of the project as needed.
-6. Debug
-  the program.
+1. Install the SOLIDWORKS API SDK templates using **SOLIDWORKS API SDK.msi** located in the apisdk folder of your SOLIDWORKS installation. If apisdk does not exist, modify your SOLIDWORKS Design installation from **Settings > Apps** (under Product Select, check **API Tools** and **SOLIDWORKS API SDK (install manually)).** **apisdk/SOLIDWORKS API SDK.msi** will be placed in your installation folder.
+2. Create a new project in Visual Studio using the SwCSharpAddin template.
+3. Copy the following sample code into SwAddin.cs and **EventHandling.cs** of the new project.
+4. Replace the Guid with a newly generated unique one if required (**VS menu > Tools > Create GUID**).
+5. Add references to and modify the framework and build configuration of the project as needed.
+6. Debug the program.
 
 //------------------------------------------------------------------------------------------------------------------------------
 
@@ -191,8 +182,7 @@ Microsoft.Win32.RegistryKey hklm = Microsoft.Win32.Registry.LocalMachine;
 
 Microsoft.Win32.RegistryKey hkcu = Microsoft.Win32.Registry.CurrentUser;
 
-string keyname = "SOFTWARE\\SolidWorks\\Addins\\{" + t.GUID.ToString() +
-"}";
+string keyname = "SOFTWARE\\SolidWorks\\Addins\\{" + t.GUID.ToString() + "}";
 
 Microsoft.Win32.RegistryKey addinkey = hklm.CreateSubKey(keyname);
 
@@ -202,13 +192,11 @@ addinkey.SetValue("Description", SWattr.Description);
 
 addinkey.SetValue("Title", SWattr.Title);
 
-keyname = "Software\\SolidWorks\\AddInsStartup\\{" + t.GUID.ToString() +
-"}";
+keyname = "Software\\SolidWorks\\AddInsStartup\\{" + t.GUID.ToString() + "}";
 
 addinkey = hkcu.CreateSubKey(keyname);
 
-addinkey.SetValue(null, Convert.ToInt32(SWattr.LoadAtStartup),
-Microsoft.Win32.RegistryValueKind.DWord);
+addinkey.SetValue(null, Convert.ToInt32(SWattr.LoadAtStartup), Microsoft.Win32.RegistryValueKind.DWord);
 
 }
 
@@ -216,11 +204,9 @@ catch (System.NullReferenceException nl)
 
 {
 
-Console.WriteLine("There was a problem registering this dll: SWattr is
-null. \n\"" + nl.Message + "\"");
+Console.WriteLine("There was a problem registering this dll: SWattr is null. \n\"" + nl.Message + "\"");
 
-System.Windows.Forms.MessageBox.Show("There was a problem registering
-this dll: SWattr is null.\n\"" + nl.Message + "\"");
+System.Windows.Forms.MessageBox.Show("There was a problem registering this dll: SWattr is null.\n\"" + nl.Message + "\"");
 
 }
 
@@ -230,8 +216,7 @@ catch (System.Exception e)
 
 Console.WriteLine(e.Message);
 
-System.Windows.Forms.MessageBox.Show("There was a problem registering the
-function: \n\"" + e.Message + "\"");
+System.Windows.Forms.MessageBox.Show("There was a problem registering the function: \n\"" + e.Message + "\"");
 
 }
 
@@ -251,13 +236,11 @@ Microsoft.Win32.RegistryKey hklm = Microsoft.Win32.Registry.LocalMachine;
 
 Microsoft.Win32.RegistryKey hkcu = Microsoft.Win32.Registry.CurrentUser;
 
-string keyname = "SOFTWARE\\SolidWorks\\Addins\\{" + t.GUID.ToString() +
-"}";
+string keyname = "SOFTWARE\\SolidWorks\\Addins\\{" + t.GUID.ToString() + "}";
 
 hklm.DeleteSubKey(keyname);
 
-keyname = "Software\\SolidWorks\\AddInsStartup\\{" + t.GUID.ToString() +
-"}";
+keyname = "Software\\SolidWorks\\AddInsStartup\\{" + t.GUID.ToString() + "}";
 
 hkcu.DeleteSubKey(keyname);
 
@@ -267,11 +250,9 @@ catch (System.NullReferenceException nl)
 
 {
 
-Console.WriteLine("There was a problem unregistering this dll: " +
-nl.Message);
+Console.WriteLine("There was a problem unregistering this dll: " + nl.Message);
 
-System.Windows.Forms.MessageBox.Show("There was a problem unregistering
-this dll: \n\"" + nl.Message + "\"");
+System.Windows.Forms.MessageBox.Show("There was a problem unregistering this dll: \n\"" + nl.Message + "\"");
 
 }
 
@@ -279,11 +260,9 @@ catch (System.Exception e)
 
 {
 
-Console.WriteLine("There was a problem unregistering this dll: " +
-e.Message);
+Console.WriteLine("There was a problem unregistering this dll: " + e.Message);
 
-System.Windows.Forms.MessageBox.Show("There was a problem unregistering
-this dll: \n\"" + e.Message + "\"");
+System.Windows.Forms.MessageBox.Show("There was a problem unregistering this dll: \n\"" + e.Message + "\"");
 
 }
 
@@ -319,12 +298,11 @@ string[] bitmap = new string[1];
 
 string toolTip;
 
-bitmap[0] = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS
-2024\\samples\\tutorial\\localhelp.bmp";
+bitmap[0] = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2024\\samples\\tutorial\\localhelp.bmp";
 
 toolTip = "Extruded block tab";
 
-ctrl = iSwApp. CreateTaskpaneView3 (bitmap, toolTip);
+ctrl = iSwApp.**CreateTaskpaneView3**(bitmap, toolTip);
 
 #region Setup the Event Handlers
 
@@ -360,8 +338,7 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(iSwApp);
 
 iSwApp = null;
 
-//The addin _must_ call GC.Collect() here in order to retrieve all
-managed code pointers
+//The addin _must_ call GC.Collect() here in order to retrieve all managed code pointers
 
 GC.Collect();
 
@@ -377,11 +354,9 @@ return true;
 
 #endregion
 
-// Ensure the dispatch pointer is marshalled correctly from the unmanaged
-world into the managed world.
+// Ensure the dispatch pointer is marshalled correctly from the unmanaged world into the managed world.
 
-public bool AddInMessageCallback ( int cmd, int data,
-[MarshalAs(UnmanagedType.IDispatch)] object dsp )
+public bool AddInMessageCallback ( int cmd, int data, [MarshalAs(UnmanagedType.IDispatch)] object dsp )
 
 {
 
@@ -417,8 +392,7 @@ break;
 
 case AddinCallbackData.swCallbackOperation_e.swDoMoreWork:
 
-callbackdata.Handler.DoMoreWorkCallback(callbackdata.Payload + "; Added
-some more work");
+callbackdata.Handler.DoMoreWorkCallback(callbackdata.Payload + "; Added some more work");
 
 break;
 
@@ -432,8 +406,7 @@ break;
 
 IntPtr pCallbackData = Marshal.GetIDispatchForObject(callbackdata);
 
-Int32 refcnt =
-Marshal.Release(pCallbackData);
+Int32 refcnt = Marshal.Release(pCallbackData);
 
 return (true);
 
@@ -483,15 +456,13 @@ public void CreateCube ( )
 
 //make sure we have a part open
 
-string partTemplate =
-iSwApp.GetUserPreferenceStringValue((int)swUserPreferenceStringValue_e.swDefaultTemplatePart);
+string partTemplate = iSwApp.GetUserPreferenceStringValue((int)swUserPreferenceStringValue_e.swDefaultTemplatePart);
 
 if ((partTemplate != null) && (partTemplate != ""))
 
 {
 
-IModelDoc2 modDoc = (IModelDoc2)iSwApp.NewDocument(partTemplate,
-(int)swDwgPaperSizes_e.swDwgPaperA2size, 0.0, 0.0);
+IModelDoc2 modDoc = (IModelDoc2)iSwApp.NewDocument(partTemplate, (int)swDwgPaperSizes_e.swDwgPaperA2size, 0.0, 0.0);
 
 modDoc.InsertSketch2(true);
 
@@ -505,8 +476,7 @@ featMan.FeatureExtrusion(true,
 
 false, false,
 
-(int)swEndConditions_e.swEndCondBlind,
-(int)swEndConditions_e.swEndCondBlind,
+(int)swEndConditions_e.swEndCondBlind, (int)swEndConditions_e.swEndCondBlind,
 
 0.1, 0.0,
 
@@ -530,9 +500,7 @@ else
 
 {
 
-System.Windows.Forms.MessageBox.Show("There is no part template
-available. Please check your options and make sure there is a part template
-selected, or select a new part template.");
+System.Windows.Forms.MessageBox.Show("There is no part template available. Please check your options and make sure there is a part template selected, or select a new part template.");
 
 }
 
@@ -588,41 +556,29 @@ try
 
 {
 
-SwEventPtr.ActiveDocChangeNotify += new
-DSldWorksEvents_ActiveDocChangeNotifyEventHandler(OnDocChange);
+SwEventPtr.ActiveDocChangeNotify += new DSldWorksEvents_ActiveDocChangeNotifyEventHandler(OnDocChange);
 
-SwEventPtr.DocumentLoadNotify2 += new
-DSldWorksEvents_DocumentLoadNotify2EventHandler(OnDocLoad);
+SwEventPtr.DocumentLoadNotify2 += new DSldWorksEvents_DocumentLoadNotify2EventHandler(OnDocLoad);
 
-SwEventPtr.FileNewNotify2 += new
-DSldWorksEvents_FileNewNotify2EventHandler(OnFileNew);
+SwEventPtr.FileNewNotify2 += new DSldWorksEvents_FileNewNotify2EventHandler(OnFileNew);
 
-SwEventPtr.ActiveModelDocChangeNotify += new
-DSldWorksEvents_ActiveModelDocChangeNotifyEventHandler(OnModelChange);
+SwEventPtr.ActiveModelDocChangeNotify += new DSldWorksEvents_ActiveModelDocChangeNotifyEventHandler(OnModelChange);
 
-SwEventPtr.FileOpenPostNotify += new
-DSldWorksEvents_FileOpenPostNotifyEventHandler(FileOpenPostNotify);
+SwEventPtr.FileOpenPostNotify += new DSldWorksEvents_FileOpenPostNotifyEventHandler(FileOpenPostNotify);
 
-SwEventPtr. TaskPaneShowNotify += new
-DSldWorksEvents_ TaskPaneShowNotifyEventHandler (TaskpaneShowNotify);
+SwEventPtr.**TaskPaneShowNotify** += new DSldWorksEvents_**TaskPaneShowNotifyEventHandler**(TaskpaneShowNotify);
 
-SwEventPtr. TaskPaneHideNotify += new
-DSldWorksEvents_ TaskPaneHideNotifyEventHandler (TaskpaneHideNotify);
+SwEventPtr.**TaskPaneHideNotify** += new DSldWorksEvents_**TaskPaneHideNotifyEventHandler**(TaskpaneHideNotify);
 
-SwEventPtr. TaskPanePinnedNotify += new
-DSldWorksEvents_ TaskPanePinnedNotifyEventHandler (TaskpanePinnedNotify);
+SwEventPtr.**TaskPanePinnedNotify** += new DSldWorksEvents_**TaskPanePinnedNotifyEventHandler**(TaskpanePinnedNotify);
 
-SwEventPtr. TaskPaneUnpinnedNotify += new
-DSldWorksEvents_ TaskPaneUnpinnedNotifyEventHandler (TaskpaneUnpinnedNotify);
+SwEventPtr.**TaskPaneUnpinnedNotify** += new DSldWorksEvents_**TaskPaneUnpinnedNotifyEventHandler**(TaskpaneUnpinnedNotify);
 
-SwEventPtr. TaskPaneExpandNotify += new
-DSldWorksEvents_ TaskPaneExpandNotifyEventHandler (TaskpanExpandNotify);
+SwEventPtr.**TaskPaneExpandNotify** += new DSldWorksEvents_**TaskPaneExpandNotifyEventHandler**(TaskpanExpandNotify);
 
-SwEventPtr. TaskPaneCollapseNotify += new
-DSldWorksEvents_ TaskPaneCollapseNotifyEventHandler (TaskpaneCollapseNotify);
+SwEventPtr.**TaskPaneCollapseNotify** += new DSldWorksEvents_**TaskPaneCollapseNotifyEventHandler**(TaskpaneCollapseNotify);
 
-SwEventPtr. DisplayPaneActivationNotify += new
-DSldWorksEvents_ DisplayPaneActivationNotifyEventHandler (DisplayPaneActivationNotify);
+SwEventPtr.**DisplayPaneActivationNotify** += new DSldWorksEvents_**DisplayPaneActivationNotifyEventHandler**(DisplayPaneActivationNotify);
 
 return true;
 
@@ -648,41 +604,29 @@ try
 
 {
 
-SwEventPtr.ActiveDocChangeNotify -= new
-DSldWorksEvents_ActiveDocChangeNotifyEventHandler(OnDocChange);
+SwEventPtr.ActiveDocChangeNotify -= new DSldWorksEvents_ActiveDocChangeNotifyEventHandler(OnDocChange);
 
-SwEventPtr.DocumentLoadNotify2 -= new
-DSldWorksEvents_DocumentLoadNotify2EventHandler(OnDocLoad);
+SwEventPtr.DocumentLoadNotify2 -= new DSldWorksEvents_DocumentLoadNotify2EventHandler(OnDocLoad);
 
-SwEventPtr.FileNewNotify2 -= new
-DSldWorksEvents_FileNewNotify2EventHandler(OnFileNew);
+SwEventPtr.FileNewNotify2 -= new DSldWorksEvents_FileNewNotify2EventHandler(OnFileNew);
 
-SwEventPtr.ActiveModelDocChangeNotify -= new
-DSldWorksEvents_ActiveModelDocChangeNotifyEventHandler(OnModelChange);
+SwEventPtr.ActiveModelDocChangeNotify -= new DSldWorksEvents_ActiveModelDocChangeNotifyEventHandler(OnModelChange);
 
-SwEventPtr.FileOpenPostNotify -= new
-DSldWorksEvents_FileOpenPostNotifyEventHandler(FileOpenPostNotify);
+SwEventPtr.FileOpenPostNotify -= new DSldWorksEvents_FileOpenPostNotifyEventHandler(FileOpenPostNotify);
 
-SwEventPtr. TaskPaneShowNotify += new
-DSldWorksEvents_ TaskPaneShowNotifyEventHandler (TaskpaneShowNotify);
+SwEventPtr.**TaskPaneShowNotify** += new DSldWorksEvents_**TaskPaneShowNotifyEventHandler**(TaskpaneShowNotify);
 
-SwEventPtr. TaskPaneHideNotify += new
-DSldWorksEvents_ TaskPaneHideNotifyEventHandler (TaskpaneHideNotify);
+SwEventPtr.**TaskPaneHideNotify** += new DSldWorksEvents_**TaskPaneHideNotifyEventHandler**(TaskpaneHideNotify);
 
-SwEventPtr. TaskPanePinnedNotify += new
-DSldWorksEvents_ TaskPanePinnedNotifyEventHandler (TaskpanePinnedNotify);
+SwEventPtr.**TaskPanePinnedNotify** += new DSldWorksEvents_**TaskPanePinnedNotifyEventHandler**(TaskpanePinnedNotify);
 
-SwEventPtr. TaskPaneUnpinnedNotify += new
-DSldWorksEvents_ TaskPaneUnpinnedNotifyEventHandler (TaskpaneUnpinnedNotify);
+SwEventPtr.**TaskPaneUnpinnedNotify** += new DSldWorksEvents_**TaskPaneUnpinnedNotifyEventHandler**(TaskpaneUnpinnedNotify);
 
-SwEventPtr. TaskPaneExpandNotify += new
-DSldWorksEvents_ TaskPaneExpandNotifyEventHandler (TaskpanExpandNotify);
+SwEventPtr.**TaskPaneExpandNotify** += new DSldWorksEvents_**TaskPaneExpandNotifyEventHandler**(TaskpanExpandNotify);
 
-SwEventPtr. TaskPaneCollapseNotify += new
-DSldWorksEvents_ TaskPaneCollapseNotifyEventHandler (TaskpaneCollapseNotify);
+SwEventPtr.**TaskPaneCollapseNotify** += new DSldWorksEvents_**TaskPaneCollapseNotifyEventHandler**(TaskpaneCollapseNotify);
 
-SwEventPtr. DisplayPaneActivationNotify += new
-DSldWorksEvents_ DisplayPaneActivationNotifyEventHandler (DisplayPaneActivationNotify);
+SwEventPtr.**DisplayPaneActivationNotify** += new DSldWorksEvents_**DisplayPaneActivationNotifyEventHandler**(DisplayPaneActivationNotify);
 
 return true;
 
@@ -834,8 +778,7 @@ foreach (ModelDoc2 key in keys)
 
 docHandler = (DocumentEventHandler)openDocs[key];
 
-docHandler.DetachEventHandlers(); //This also removes the pair from the
-hash
+docHandler.DetachEventHandlers(); //This also removes the pair from the hash
 
 docHandler = null;
 
@@ -881,7 +824,7 @@ int TaskpaneShowNotify()
 
 {
 
-bool isVisible = iSwApp. IsTaskPaneVisible ();
+bool isVisible = iSwApp.**IsTaskPaneVisible**();
 
 Trace.WriteLine("Addin received - TaskpaneShowNotify");
 
@@ -893,7 +836,7 @@ int TaskpaneHideNotify()
 
 {
 
-bool isVisible = iSwApp. IsTaskPaneVisible ();
+bool isVisible = iSwApp.**IsTaskPaneVisible**();
 
 Trace.WriteLine("Addin received - TaskpaneHideNotify");
 
@@ -905,9 +848,9 @@ int TaskpanePinnedNotify()
 
 {
 
-bool isVisible = iSwApp. IsTaskPaneVisible ();
+bool isVisible = iSwApp.**IsTaskPaneVisible**();
 
-bool isActive = ctrl. IsActiveTab ();
+bool isActive = ctrl.**IsActiveTab**();
 
 Trace.WriteLine("Addin received - TaskpanePinnedNotify");
 
@@ -929,7 +872,7 @@ int TaskpaneExpandNotify()
 
 {
 
-bool isExpanded = iSwApp. IsTaskPaneExpanded ();
+bool isExpanded = iSwApp.**IsTaskPaneExpanded**();
 
 Trace.WriteLine("Addin received - TaskpaneExpandNotify");
 
@@ -941,7 +884,7 @@ int TaskpaneCollapseNotify()
 
 {
 
-bool isExpanded = iSwApp. IsTaskPaneExpanded ();
+bool isExpanded = iSwApp.**IsTaskPaneExpanded**();
 
 Trace.WriteLine("Addin received - TaskpaneCollapseNotify");
 
@@ -949,8 +892,7 @@ return 0;
 
 }
 
-int
-DisplayPaneActivationNotify(int ActivePaneIndex)
+int DisplayPaneActivationNotify(int ActivePaneIndex)
 
 {
 
@@ -958,8 +900,7 @@ if(ActivePaneIndex == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
 MessageBox.Show("Nothing active");
 
-else if(ActivePaneIndex ==
-(int)swDisplayPaneIndex_e.swDisplayPaneLifeCycleTab)
+else if(ActivePaneIndex == (int)swDisplayPaneIndex_e.swDisplayPaneLifeCycleTab)
 
 MessageBox.Show("Life Cycle active");
 
@@ -995,7 +936,7 @@ return 0;
 
 }
 
-//EventHandling.cs
+**//EventHandling.cs**
 
 using System;
 
@@ -1233,18 +1174,15 @@ override public bool AttachEventHandlers ( )
 
 {
 
-doc.DestroyNotify += new
-DPartDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify += new DPartDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify += new
-DPartDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify += new DPartDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
-doc.ModifyNotify += new
-DPartDocEvents_ModifyNotifyEventHandler(OnModify);
+doc.ModifyNotify += new DPartDocEvents_ModifyNotifyEventHandler(OnModify);
 
-doc.DisplayPaneExpandNotify += new DPartDocEvents_ DisplayPaneExpandNotifyEventHandler (OnDisplayPaneExpandNotify);
+doc.DisplayPaneExpandNotify += new DPartDocEvents_**DisplayPaneExpandNotifyEventHandler**(OnDisplayPaneExpandNotify);
 
-doc.DisplayPaneCollapseNotify += new DPartDocEvents_ DisplayPaneCollapseNotifyEventHandler (OnDisplayPaneCollapseNotify);
+doc.DisplayPaneCollapseNotify += new DPartDocEvents_**DisplayPaneCollapseNotifyEventHandler**(OnDisplayPaneCollapseNotify);
 
 ConnectModelViews();
 
@@ -1256,18 +1194,15 @@ override public bool DetachEventHandlers ( )
 
 {
 
-doc.DestroyNotify -= new
-DPartDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify -= new DPartDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify -= new
-DPartDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify -= new DPartDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
-doc.ModifyNotify -= new
-DPartDocEvents_ModifyNotifyEventHandler(OnModify);
+doc.ModifyNotify -= new DPartDocEvents_ModifyNotifyEventHandler(OnModify);
 
-doc.DisplayPaneExpandNotify -= new DPartDocEvents_ DisplayPaneExpandNotifyEventHandler (OnDisplayPaneExpandNotify);
+doc.DisplayPaneExpandNotify -= new DPartDocEvents_**DisplayPaneExpandNotifyEventHandler**(OnDisplayPaneExpandNotify);
 
-doc.DisplayPaneCollapseNotify -= new DPartDocEvents_ DisplayPaneCollapseNotifyEventHandler (OnDisplayPaneCollapseNotify);
+doc.DisplayPaneCollapseNotify -= new DPartDocEvents_**DisplayPaneCollapseNotifyEventHandler**(OnDisplayPaneCollapseNotify);
 
 DisconnectModelViews();
 
@@ -1303,16 +1238,13 @@ public int OnModify ( )
 
 Trace.WriteLine("Deferring work in PartDoc.OnModify");
 
-AddinCallbackData callbackdata = new
-AddinCallbackData(AddinCallbackData.swCallbackOperation_e.swDoWork, this, "Work
-on this. Greetings from PartDoc.OnModify");
+AddinCallbackData callbackdata = new AddinCallbackData(AddinCallbackData.swCallbackOperation_e.swDoWork, this, "Work on this. Greetings from PartDoc.OnModify");
 
 // The returned pointer is one to the CCW for the managed object.
 
 // That unmanaged CCW is referenced counted in COM style.
 
-// So we assume it will be alive and in the same memory location for the
-duration of the call back.
+// So we assume it will be alive and in the same memory location for the duration of the call back.
 
 IntPtr pCallbackData = Marshal.GetIDispatchForObject(callbackdata);
 
@@ -1320,8 +1252,7 @@ if (Win32.Is64Bit())
 
 {
 
-iSwApp.PostMessageToApplicationx64(userAddin.Cookie,
-pCallbackData.ToInt64());
+iSwApp.PostMessageToApplicationx64(userAddin.Cookie, pCallbackData.ToInt64());
 
 }
 
@@ -1329,8 +1260,7 @@ else
 
 {
 
-iSwApp.PostMessageToApplication(userAddin.Cookie,
-pCallbackData.ToInt32());
+iSwApp.PostMessageToApplication(userAddin.Cookie, pCallbackData.ToInt32());
 
 }
 
@@ -1346,9 +1276,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1374,9 +1304,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1436,8 +1366,7 @@ override public bool DoMoreWorkCallback ( string strDescription )
 
 // Do some real work here.
 
-Trace.WriteLine("Processing posted message in
-Assembly.DoMoreWorkCallback");
+Trace.WriteLine("Processing posted message in Assembly.DoMoreWorkCallback");
 
 Trace.WriteLine(" decription = " + strDescription);
 
@@ -1449,30 +1378,23 @@ override public bool AttachEventHandlers ( )
 
 {
 
-doc.DestroyNotify += new
-DAssemblyDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify += new DAssemblyDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify += new
-DAssemblyDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify += new DAssemblyDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
-doc.ComponentStateChangeNotify2 += new
-DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler(ComponentStateChangeNotify2);
+doc.ComponentStateChangeNotify2 += new DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler(ComponentStateChangeNotify2);
 
-doc.ComponentStateChangeNotify += new
-DAssemblyDocEvents_ComponentStateChangeNotifyEventHandler(ComponentStateChangeNotify);
+doc.ComponentStateChangeNotify += new DAssemblyDocEvents_ComponentStateChangeNotifyEventHandler(ComponentStateChangeNotify);
 
-doc.ComponentVisualPropertiesChangeNotify += new
-DAssemblyDocEvents_ComponentVisualPropertiesChangeNotifyEventHandler(ComponentVisualPropertiesChangeNotify);
+doc.ComponentVisualPropertiesChangeNotify += new DAssemblyDocEvents_ComponentVisualPropertiesChangeNotifyEventHandler(ComponentVisualPropertiesChangeNotify);
 
-doc.ComponentDisplayStateChangeNotify += new
-DAssemblyDocEvents_ComponentDisplayStateChangeNotifyEventHandler(ComponentDisplayStateChangeNotify);
+doc.ComponentDisplayStateChangeNotify += new DAssemblyDocEvents_ComponentDisplayStateChangeNotifyEventHandler(ComponentDisplayStateChangeNotify);
 
-doc.ModifyNotify += new
-DAssemblyDocEvents_ModifyNotifyEventHandler(OnModify);
+doc.ModifyNotify += new DAssemblyDocEvents_ModifyNotifyEventHandler(OnModify);
 
-doc.DisplayPaneExpandNotify += new DAssemblyDocEvents_ DisplayPaneExpandNotifyEventHandler (OnDisplayPaneExpandNotify);
+doc.DisplayPaneExpandNotify += new DAssemblyDocEvents_**DisplayPaneExpandNotifyEventHandler**(OnDisplayPaneExpandNotify);
 
-doc.DisplayPaneCollapseNotify += new DAssemblyDocEvents_ DisplayPaneCollapseNotifyEventHandler (OnDisplayPaneCollapseNotify);
+doc.DisplayPaneCollapseNotify += new DAssemblyDocEvents_**DisplayPaneCollapseNotifyEventHandler**(OnDisplayPaneCollapseNotify);
 
 ConnectModelViews();
 
@@ -1484,30 +1406,23 @@ override public bool DetachEventHandlers ( )
 
 {
 
-doc.DestroyNotify -= new
-DAssemblyDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify -= new DAssemblyDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify -= new
-DAssemblyDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify -= new DAssemblyDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
-doc.ComponentStateChangeNotify2 -= new
-DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler(ComponentStateChangeNotify2);
+doc.ComponentStateChangeNotify2 -= new DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler(ComponentStateChangeNotify2);
 
-doc.ComponentStateChangeNotify -= new
-DAssemblyDocEvents_ComponentStateChangeNotifyEventHandler(ComponentStateChangeNotify);
+doc.ComponentStateChangeNotify -= new DAssemblyDocEvents_ComponentStateChangeNotifyEventHandler(ComponentStateChangeNotify);
 
-doc.ComponentVisualPropertiesChangeNotify -= new
-DAssemblyDocEvents_ComponentVisualPropertiesChangeNotifyEventHandler(ComponentVisualPropertiesChangeNotify);
+doc.ComponentVisualPropertiesChangeNotify -= new DAssemblyDocEvents_ComponentVisualPropertiesChangeNotifyEventHandler(ComponentVisualPropertiesChangeNotify);
 
-doc.ComponentDisplayStateChangeNotify -= new
-DAssemblyDocEvents_ComponentDisplayStateChangeNotifyEventHandler(ComponentDisplayStateChangeNotify);
+doc.ComponentDisplayStateChangeNotify -= new DAssemblyDocEvents_ComponentDisplayStateChangeNotifyEventHandler(ComponentDisplayStateChangeNotify);
 
-doc.ModifyNotify -= new
-DAssemblyDocEvents_ModifyNotifyEventHandler(OnModify);
+doc.ModifyNotify -= new DAssemblyDocEvents_ModifyNotifyEventHandler(OnModify);
 
-doc.DisplayPaneExpandNotify -= new DAssemblyDocEvents_ DisplayPaneExpandNotifyEventHandler (OnDisplayPaneExpandNotify);
+doc.DisplayPaneExpandNotify -= new DAssemblyDocEvents_**DisplayPaneExpandNotifyEventHandler**(OnDisplayPaneExpandNotify);
 
-doc.DisplayPaneCollapseNotify -= new DAssemblyDocEvents_ DisplayPaneCollapseNotifyEventHandler (OnDisplayPaneCollapseNotify);
+doc.DisplayPaneCollapseNotify -= new DAssemblyDocEvents_**DisplayPaneCollapseNotifyEventHandler**(OnDisplayPaneCollapseNotify);
 
 DisconnectModelViews();
 
@@ -1543,16 +1458,13 @@ public int OnModify ( )
 
 Trace.WriteLine("Deferring work in AssemblyDoc.OnModify");
 
-AddinCallbackData callbackdata = new
-AddinCallbackData(AddinCallbackData.swCallbackOperation_e.swDoMoreWork, this,
-"Work on this. Greetings from AssemblyDoc.OnModify");
+AddinCallbackData callbackdata = new AddinCallbackData(AddinCallbackData.swCallbackOperation_e.swDoMoreWork, this, "Work on this. Greetings from AssemblyDoc.OnModify");
 
 // The returned pointer is one to the CCW for the managed object.
 
 // That unmanaged CCW is referenced counted in COM style.
 
-// So we assume it will be alive and in the same memory location for the
-duration of the call back.
+// So we assume it will be alive and in the same memory location for the duration of the call back.
 
 IntPtr pCallbackData = Marshal.GetIDispatchForObject(callbackdata);
 
@@ -1560,8 +1472,7 @@ if (Win32.Is64Bit())
 
 {
 
-iSwApp.PostMessageToApplicationx64(userAddin.Cookie,
-pCallbackData.ToInt64());
+iSwApp.PostMessageToApplicationx64(userAddin.Cookie, pCallbackData.ToInt64());
 
 }
 
@@ -1569,8 +1480,7 @@ else
 
 {
 
-iSwApp.PostMessageToApplication(userAddin.Cookie,
-pCallbackData.ToInt32());
+iSwApp.PostMessageToApplication(userAddin.Cookie, pCallbackData.ToInt32());
 
 }
 
@@ -1586,9 +1496,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1614,9 +1524,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1636,15 +1546,13 @@ return 0;
 
 //attach events to a component if it becomes resolved
 
-protected int ComponentStateChange ( object componentModel, short
-newCompState )
+protected int ComponentStateChange ( object componentModel, short newCompState )
 
 {
 
 ModelDoc2 modDoc = (ModelDoc2)componentModel;
 
-swComponentSuppressionState_e newState =
-(swComponentSuppressionState_e)newCompState;
+swComponentSuppressionState_e newState = (swComponentSuppressionState_e)newCompState;
 
 switch (newState)
 
@@ -1654,8 +1562,7 @@ case swComponentSuppressionState_e.swComponentFullyResolved:
 
 {
 
-if ((modDoc != null) &
-!this.swAddin.OpenDocs.Contains(modDoc))
+if ((modDoc != null) & !this.swAddin.OpenDocs.Contains(modDoc))
 
 {
 
@@ -1693,15 +1600,13 @@ protected int ComponentStateChange ( object componentModel )
 
 {
 
-ComponentStateChange(componentModel,
-(short)swComponentSuppressionState_e.swComponentResolved);
+ComponentStateChange(componentModel, (short)swComponentSuppressionState_e.swComponentResolved);
 
 return 0;
 
 }
 
-public int ComponentStateChangeNotify2 ( object componentModel, string
-CompName, short oldCompState, short newCompState )
+public int ComponentStateChangeNotify2 ( object componentModel, string CompName, short oldCompState, short newCompState )
 
 {
 
@@ -1709,8 +1614,7 @@ return ComponentStateChange(componentModel, newCompState);
 
 }
 
-int ComponentStateChangeNotify ( object componentModel, short
-oldCompState, short newCompState )
+int ComponentStateChangeNotify ( object componentModel, short oldCompState, short newCompState )
 
 {
 
@@ -1764,15 +1668,13 @@ override public bool AttachEventHandlers ( )
 
 {
 
-doc.DestroyNotify += new
-DDrawingDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify += new DDrawingDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify += new
-DDrawingDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify += new DDrawingDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
-doc.DisplayPaneExpandNotify += new DDrawingDocEvents_ DisplayPaneExpandNotifyEventHandler (OnDisplayPaneExpandNotify);
+doc.DisplayPaneExpandNotify += new DDrawingDocEvents_**DisplayPaneExpandNotifyEventHandler**(OnDisplayPaneExpandNotify);
 
-doc.DisplayPaneCollapseNotify += new DDrawingDocEvents_ DisplayPaneCollapseNotifyEventHandler (OnDisplayPaneCollapseNotify);
+doc.DisplayPaneCollapseNotify += new DDrawingDocEvents_**DisplayPaneCollapseNotifyEventHandler**(OnDisplayPaneCollapseNotify);
 
 ConnectModelViews();
 
@@ -1788,9 +1690,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1816,9 +1718,9 @@ ModelDocExtension docExtn;
 
 docExtn = document.Extension;
 
-bool isvisible = docExtn. IsDisplayPaneVisible ();
+bool isvisible = docExtn.**IsDisplayPaneVisible**();
 
-int index = iSwApp. GetActiveDisplayPane ();
+int index = iSwApp.**GetActiveDisplayPane**();
 
 if (index == (int)swDisplayPaneIndex_e.swDisplayPaneNone)
 
@@ -1840,11 +1742,9 @@ override public bool DetachEventHandlers ( )
 
 {
 
-doc.DestroyNotify -= new
-DDrawingDocEvents_DestroyNotifyEventHandler(OnDestroy);
+doc.DestroyNotify -= new DDrawingDocEvents_DestroyNotifyEventHandler(OnDestroy);
 
-doc.NewSelectionNotify -= new
-DDrawingDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
+doc.NewSelectionNotify -= new DDrawingDocEvents_NewSelectionNotifyEventHandler(OnNewSelection);
 
 DisconnectModelViews();
 
@@ -1906,11 +1806,9 @@ public bool AttachEventHandlers ( )
 
 {
 
-mView.DestroyNotify2 += new
-DModelViewEvents_DestroyNotify2EventHandler(OnDestroy);
+mView.DestroyNotify2 += new DModelViewEvents_DestroyNotify2EventHandler(OnDestroy);
 
-mView.RepaintNotify += new
-DModelViewEvents_RepaintNotifyEventHandler(OnRepaint);
+mView.RepaintNotify += new DModelViewEvents_RepaintNotifyEventHandler(OnRepaint);
 
 return true;
 
@@ -1920,11 +1818,9 @@ public bool DetachEventHandlers ( )
 
 {
 
-mView.DestroyNotify2 -= new
-DModelViewEvents_DestroyNotify2EventHandler(OnDestroy);
+mView.DestroyNotify2 -= new DModelViewEvents_DestroyNotify2EventHandler(OnDestroy);
 
-mView.RepaintNotify -= new
-DModelViewEvents_RepaintNotifyEventHandler(OnRepaint);
+mView.RepaintNotify -= new DModelViewEvents_RepaintNotifyEventHandler(OnRepaint);
 
 parent.DetachModelViewEventHandler(mView);
 

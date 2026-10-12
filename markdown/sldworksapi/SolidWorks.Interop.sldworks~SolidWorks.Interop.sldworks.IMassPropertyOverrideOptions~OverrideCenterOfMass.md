@@ -45,13 +45,7 @@ property System.bool OverrideCenterOfMass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ True to override the calculated center of mass, false to not
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::OverrideCenterOfMass](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~OverrideCenterOfMass.html)
-
-.
+See [MassPropertyOverrideOptions::OverrideCenterOfMass](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~OverrideCenterOfMass.html).
 
 ## Remarks
 
-After setting this property to true, call
-
-[IMassPropertyOverrideOptions::SetOverrideCenterOfMassValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~SetOverrideCenterOfMassValue.html)
-
-.
+After setting this property to true, call [IMassPropertyOverrideOptions::SetOverrideCenterOfMassValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~SetOverrideCenterOfMassValue.html).
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassProperty2::CenterOfMass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~CenterOfMass.html)
-
 [IMassPropertyOverrideOptions::GetOverrideCenterOfMassValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~GetOverrideCenterOfMassValue.html)
 
 ## Availability

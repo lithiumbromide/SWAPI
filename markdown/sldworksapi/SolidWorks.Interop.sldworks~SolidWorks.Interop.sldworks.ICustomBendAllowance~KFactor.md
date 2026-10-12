@@ -45,13 +45,7 @@ property System.double KFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ K-factor value
 
 ## VBA Syntax
 
-See
-
-[CustomBendAllowance::KFactor](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~KFactor.html)
-
-.
+See [CustomBendAllowance::KFactor](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~KFactor.html).
 
 ## Examples
 
-See
-
-[ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)
-
-examples.
+See [ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) examples.
 
 ## Examples
 
@@ -79,12 +65,13 @@ examples.
 
 ## Remarks
 
-When using this property to set a value for K-factor, then the[type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html)is set to this type. However, the last ICustomBendAllowance property called to set a value also re-sets the type of custom bend allowance to its type.
+When using this property to set a value for K-factor, then the [type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html) is set to this type. However, the last ICustomBendAllowance property called to set a value also re-sets the type of custom bend allowance to its type.
+
+See the ICustomBendAllowance Remarks.
 
 ## See Also
 
 [ICustomBendAllowance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
-
 [ICustomBendAllowance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance_members.html)
 
 ## Availability

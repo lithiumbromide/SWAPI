@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISn
 
 # ISnapShot Interface Methods
 
-For a list of all members of this type, see[ISnapShot members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot_members.html).
+For a list of all members of this type, see [ISnapShot members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ISnapShot members](SolidWorks.Intero
 ## See Also
 
 [ISnapShot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

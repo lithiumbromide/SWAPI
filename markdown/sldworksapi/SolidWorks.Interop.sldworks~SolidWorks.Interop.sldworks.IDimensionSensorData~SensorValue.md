@@ -42,13 +42,7 @@ property System.double SensorValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ Value of the display dimension for this Measurement (dimension) sensor
 
 ## VBA Syntax
 
-See
-
-[DimensionSensorData::SensorValue](ms-its:sldworksapivb6.chm::/sldworks~DimensionSensorData~SensorValue.html)
-
-.
+See [DimensionSensorData::SensorValue](ms-its:sldworksapivb6.chm::/sldworks~DimensionSensorData~SensorValue.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## See Also
 
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [IDimensionSensorData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData_members.html)
 
 ## Availability

@@ -43,13 +43,7 @@ public delegate System.int DPartDocEvents_OpenDesignTableNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,21 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[OpenDesignTableNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~OpenDesignTableNotify_EV.html)
-
-.
+See [OpenDesignTableNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~OpenDesignTableNotify_EV.html).
 
 ## Remarks
 
-The IPartDoc event[CloseDesignTableNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_CloseDesignTableNotifyEventHandler.html)pre-notifies your application that a design table that was opened for editing is about to be closed.
+The IPartDoc event [CloseDesignTableNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_CloseDesignTableNotifyEventHandler.html) pre-notifies your application that a design table that was opened for editing is about to be closed.
 
-If developing a C++ application, use
-
-[swPartOpenDesignTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartOpenDesignTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

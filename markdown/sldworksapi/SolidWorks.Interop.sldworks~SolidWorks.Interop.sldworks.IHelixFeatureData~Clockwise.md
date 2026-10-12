@@ -45,30 +45,19 @@ property System.bool Clockwise {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if direction of turns is clockwise, false ifkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}counterclockwise
+True if direction of turns is clockwise, false if counterclockwise
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::Clockwise](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Clockwise.html)
-
-.
+See [HelixFeatureData::Clockwise](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Clockwise.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

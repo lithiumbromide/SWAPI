@@ -40,48 +40,29 @@ System.object GetSubAssemblyExplodeSteps()
 System.Object^ GetSubAssemblyExplodeSteps();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-in the subassembly explode view
+Array of [IExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) in the subassembly explode view
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetSubAssemblyExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetSubAssemblyExplodeSteps.html)
-
-.
+See [ExplodeStep::GetSubAssemblyExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetSubAssemblyExplodeSteps.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## Remarks
 
-A subassembly explode step is created when you click**Reuse Subassembly Explode**on the Explode PropertyManager. This method retrieves the nested explode steps of the subassembly.
+A subassembly explode step is created when you click **Reuse Subassembly Explode** on the Explode PropertyManager. This method retrieves the nested explode steps of the subassembly.
 
-This method is valid only if[IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html)returns[swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html).swAssemblyExplodeStepType_SubAssembly.
+This method is valid only if [IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html) returns [swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html).swAssemblyExplodeStepType_SubAssembly.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

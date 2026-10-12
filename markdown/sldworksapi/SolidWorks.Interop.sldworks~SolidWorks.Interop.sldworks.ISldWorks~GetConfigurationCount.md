@@ -47,13 +47,7 @@ System.int GetConfigurationCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Number of configurations in SOLIDWORKS document
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetConfigurationCount.html)
-
-.
+See [SldWorks::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetConfigurationCount.html).
 
 ## Examples
 
@@ -77,26 +67,16 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ISldWorks::IGetConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetConfigurationNames.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISldWorks::IGetConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetConfigurationNames.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetConfigurationNames.html)
-
 [ISldWorks::IGetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetConfigurationNames.html)
-
 [ISldWorks::GetActiveConfigurationName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetActiveConfigurationName.html)
-
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
 
 ## Availability

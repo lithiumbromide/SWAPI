@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,15 @@ True if the sketch segment is deselected successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~DeSelect.html)
-
-.
+See [SketchSegment::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~DeSelect.html).
 
 ## Remarks
 
-This method does not work well when a PropertyManager page is open or a command is running. Use[IModelDoc2::DeSelectByID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeSelectByID.html)instead of using this method. IModelDoc2::DeSelectByID handles selection correctly whether or not a command is running.
+This method does not work well when a PropertyManager page is open or a command is running. Use [IModelDoc2::DeSelectByID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeSelectByID.html) instead of using this method. IModelDoc2::DeSelectByID handles selection correctly whether or not a command is running.
 
 To select or deselect a sketch segment, the owning document of that ISketchSegment object needs to be open and visible.
 
-ISketchSegment selections are accessible through the[ISelectionMgr](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr.html)of the owning document of the sketch segment object, even if the owning document is not active.
+ISketchSegment selections are accessible through the [ISelectionMgr](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr.html) of the owning document of the sketch segment object, even if the owning document is not active.
 
 Selection or deselection does not work for a sketch segment in a document within a drawing. Selection or deselection of sketch segments owned by the drawing does work, but only if the drawing document is active.
 
@@ -75,9 +65,7 @@ If the owning sketch of a sketch segment was active, or inactive, when the sketc
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [ISketchSegment::Select4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~Select4.html)
 
 ## Availability

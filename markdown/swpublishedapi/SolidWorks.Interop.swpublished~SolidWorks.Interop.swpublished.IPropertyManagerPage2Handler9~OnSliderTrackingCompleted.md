@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSliderTrackingCompleted Method (IPropertyManagerPage2Handler9)
 
-Called when a user finishes dragging a
-
-[slider control](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider.html)
-
-on this PropertyManager page.
+Called when a user finishes dragging a [slider control](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider.html) on this PropertyManager page.
 
 ## Syntax
 
@@ -61,34 +57,27 @@ void OnSliderTrackingCompleted(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler9::OnSliderTrackingCompleted](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnSliderTrackingCompleted.html)
-
-.
+See [PropertyManagerPage2Handler9::OnSliderTrackingCompleted](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnSliderTrackingCompleted.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
-examples.
+See the [IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html) examples.
 
 ## Remarks
 
 Although Value is declared as a double, the value of a slider is always a long. When this method is called, Value can be cast to a long.
 
-If[IPropertyManagerPageSlider::Style](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~Style.html)is set to swPropMgrPageSliderStyle_NotifyWhileTracking, then you can use:
+If [IPropertyManagerPageSlider::Style](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~Style.html) is set to swPropMgrPageSliderStyle_NotifyWhileTracking, then you can use:
 
 - IPropertyManagerPage2Handler9::OnSliderTrackingCompleted to receive one notification when dragging of the slider is completed.
 
-- [IPropertyManagerPage2Handler9::OnSliderPositionChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSliderPositionChanged.html)to receive notifications every time the position of the slider changes because the slider is being dragged.NOTE:This might result in numerous calls to the handler, which is fine if the add-in responds quickly to each call. However, if the add-in responds slowly, then a performance bottleneck might occur.
+- [IPropertyManagerPage2Handler9::OnSliderPositionChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSliderPositionChanged.html) to receive notifications every time the position of the slider changes because the slider is being dragged.
+
+  NOTE: This might result in numerous calls to the handler, which is fine if the add-in responds quickly to each call. However, if the add-in responds slowly, then a performance bottleneck might occur.
 
 ## See Also
 
 [IPropertyManagerPage2Handler9 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
 [IPropertyManagerPage2Handler9 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9_members.html)
 
 ## Availability

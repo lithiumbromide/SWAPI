@@ -45,40 +45,25 @@ property System.int OperationType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of combination as defined in
-
-[swCombineBodiesOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCombineBodiesOperationType_e.html)
+Type of combination as defined in [swCombineBodiesOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCombineBodiesOperationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CombineBodiesFeatureData::OperationType](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData~OperationType.html)
-
-.
+See [CombineBodiesFeatureData::OperationType](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData~OperationType.html).
 
 ## Examples
 
 [Combine Bodies (C#)](Combine_Bodies_Example_CSharp.htm)
-
 [Combine Bodies (VB.NET)](Combine_Bodies_Example_VBNET.htm)
-
 [Combine Bodies (VBA)](Combine_Bodies_Example_VB.htm)
 
 ## See Also
 
 [ICombineBodiesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData.html)
-
 [ICombineBodiesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData_members.html)
 
 ## Availability

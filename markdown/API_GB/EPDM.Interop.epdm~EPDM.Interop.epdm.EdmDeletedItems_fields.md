@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_fields.html"
 
 # EdmDeletedItems Structure Fields
 
-For a list of all members of this type, see[EdmDeletedItems members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html).
+For a list of all members of this type, see [EdmDeletedItems members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmDeletedItems members](EPDM.Intero
 ## See Also
 
 [EdmDeletedItems Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

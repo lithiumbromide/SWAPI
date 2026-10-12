@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSh
 
 # SuppressUnSuppress Method (ICWShell)
 
-Suppresses or unsuppresses the shell depending on its
-
-[state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~State.html)
-
-.
+Suppresses or unsuppresses the shell depending on its [state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~State.html).
 
 ## Syntax
 
@@ -45,11 +41,7 @@ void SuppressUnSuppress();
 
 ## VBA Syntax
 
-See
-
-[CWShell::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~SuppressUnSuppress.html)
-
-.
+See [CWShell::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~SuppressUnSuppress.html).
 
 ## Remarks
 
@@ -58,7 +50,6 @@ Suppressed shells are not meshed.
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~Angle.html)
-
-.
+See [HemFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~Angle.html).
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
 
 ## Availability

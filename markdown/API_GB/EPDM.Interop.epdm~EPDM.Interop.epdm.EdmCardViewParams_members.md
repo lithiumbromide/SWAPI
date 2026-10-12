@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams_members.ht
 
 # EdmCardViewParams Structure Members
 
-The following tables list the members exposed by[EdmCardViewParams](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams.html).
+The following tables list the members exposed by [EdmCardViewParams](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ The following tables list the members exposed by[EdmCardViewParams](EPDM.Interop
 ## See Also
 
 [EdmCardViewParams Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

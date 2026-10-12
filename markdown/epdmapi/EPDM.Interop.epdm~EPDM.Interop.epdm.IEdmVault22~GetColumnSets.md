@@ -39,28 +39,17 @@ void GetColumnSets(
 
 ### Parameters
 
-- `ppoCurrentColumns`: Array of
-
-[EdmColumnSet](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet.html)
-
-s
+- `ppoCurrentColumns`: Array of [EdmColumnSet](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet.html)s
 
 ## Examples
 
-See the
-
-[IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
-example.
+See the [IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html) example.
 
 ## See Also
 
 [IEdmVault22 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
 [IEdmVault22 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22_members.html)
-
 [IEdmVault22::SetColumnSetID Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~SetColumnSetID.html)
-
 [IEdmVault22::GetCurrentColumnSet Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetCurrentColumnSet.html)
 
 ## Availability

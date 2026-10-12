@@ -48,7 +48,6 @@ void ShowHistoryFolder(
 ## See Also
 
 [IEdmHistory4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html)
-
 [IEdmHistory4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members.html)
 
 ## Availability

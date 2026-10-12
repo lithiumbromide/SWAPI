@@ -41,11 +41,7 @@ void SetMeshAndParamsForDefaultBCB();
 
 ## VBA Syntax
 
-See
-
-[CWMesh::SetMeshAndParamsForDefaultBCB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SetMeshAndParamsForDefaultBCB.html)
-
-.
+See [CWMesh::SetMeshAndParamsForDefaultBCB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SetMeshAndParamsForDefaultBCB.html).
 
 ## Remarks
 
@@ -54,7 +50,6 @@ As of Simulation 2022, blended curvature-based is the default mesher.
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

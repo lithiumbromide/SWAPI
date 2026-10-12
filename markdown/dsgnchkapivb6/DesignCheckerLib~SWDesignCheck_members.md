@@ -1,6 +1,5 @@
 ---
-title: "SWDesignCheck Object
-Members"
+title: "SWDesignCheck Object Members"
 project: "SOLIDWORKS Design Checker Type Library"
 interface: "SWDesignCheck_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "dsgnchkapivb6/DesignCheckerLib~SWDesignCheck_members.html"
 ---
 
-# SWDesignCheck Object
-Members
+# SWDesignCheck Object Members
 
 ## Public Methods
 

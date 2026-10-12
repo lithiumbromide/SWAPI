@@ -51,18 +51,12 @@ System.double FindTwoEdgeMaxDeviation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LpEdge1`: First[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-- `LpEdge2`: Second[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+- `LpEdge1`: First [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+- `LpEdge2`: Second [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
 
 ### Return Value
 
@@ -70,18 +64,12 @@ Maximum distance between the two edges
 
 ## VBA Syntax
 
-See
-
-[Modeler::FindTwoEdgeMaxDeviation](ms-its:sldworksapivb6.chm::/sldworks~Modeler~FindTwoEdgeMaxDeviation.html)
-
-.
+See [Modeler::FindTwoEdgeMaxDeviation](ms-its:sldworksapivb6.chm::/sldworks~Modeler~FindTwoEdgeMaxDeviation.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::IFindTwoEdgeMaxDeviation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~IFindTwoEdgeMaxDeviation.html)
 
 ## Availability

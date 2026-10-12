@@ -51,18 +51,12 @@ property System.int AllowRead {
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::AllowRead](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~AllowRead.html)
-
-.
+See [PDMWProject::AllowRead](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~AllowRead.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::AllowWrite Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~AllowWrite.html)
 
 ## Availability

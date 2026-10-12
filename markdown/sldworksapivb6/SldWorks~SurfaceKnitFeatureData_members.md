@@ -1,6 +1,5 @@
 ---
-title: "SurfaceKnitFeatureData Object
-Members"
+title: "SurfaceKnitFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceKnitFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceKnitFeatureData_members.html"
 ---
 
-# SurfaceKnitFeatureData Object
-Members
+# SurfaceKnitFeatureData Object Members
 
 ## Public Methods
 

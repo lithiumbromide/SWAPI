@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Chamfer_Display_Dimension_Example_VB.htm"
 
 # Get Chamfer Display Dimension Example (VBA)
 
-This example shows how to get chamfer display dimension properties.
-This example also shows how to set and get lower display dimension text.
+This example shows how to get chamfer display dimension properties. This example also shows how to set and get lower display dimension text.
 
 ```
 '-----------------------------------------------------------------------------

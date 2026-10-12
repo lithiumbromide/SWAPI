@@ -51,28 +51,18 @@ Area of custom blank for a sheet metal part
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::CustomBlankArea](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CustomBlankArea.html)
-
-.
+See [CostAnalysisSheetMetal::CustomBlankArea](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CustomBlankArea.html).
 
 ## Remarks
 
-[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html)
-
-must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomArea to set the area of a custom blank.
+[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html) must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomArea to set the area of a custom blank.
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::BlankAreaFromModel Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankAreaFromModel.html)
-
 [ICostAnalysisSheetMetal::FinalAreaFromModel Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~FinalAreaFromModel.html)
-
 [ICostAnalysisSheetMetal::CustomBlankSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CustomBlankSize.html)
 
 ## Availability

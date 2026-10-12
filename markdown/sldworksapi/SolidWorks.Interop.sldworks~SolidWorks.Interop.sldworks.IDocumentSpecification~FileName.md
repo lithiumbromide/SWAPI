@@ -45,13 +45,7 @@ property System.String^ FileName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,40 +53,25 @@ Path and filename of the model document to open
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::FileName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~FileName.html)
-
-.
+See [DocumentSpecification::FileName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~FileName.html).
 
 ## Examples
 
 [Open Drawing Document Read-only (VBA)](Open_Drawing_Document_Read-only_Example_VB.htm)
-
 [Get Whether Components Are Loaded (C#)](Get_Whether_Components_Are_Loaded_Example_CSharp.htm)
-
 [Get Whether Components Are Loaded (VB.NET)](Get_Whether_Components_Are_Loaded_Example_VBNET.htm)
-
 [Get Whether Components Are Loaded (VBA)](Get_Whether_Components_Are_Loaded_Example_VB.htm)
-
 [Open Assembly Document (C#)](Open_Assembly_Document_Example_CSharp.htm)
-
 [Open Assembly Document (VB.NET)](Open_Assembly_Document_Example_VBNET.htm)
-
 [Open Assembly Document (VBA)](Open_Assembly_Document_Example_VB.htm)
 
 ## Remarks
 
-This property is not valid for opening
-
-3D
-
-EXPERIENCE files using SOLIDWORKS Connected.
+This property is not valid for opening **3D**EXPERIENCE files using [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

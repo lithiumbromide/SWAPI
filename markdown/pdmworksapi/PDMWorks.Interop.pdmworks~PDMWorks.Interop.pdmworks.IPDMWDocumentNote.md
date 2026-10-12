@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDo
 
 Provides access to notes.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,15 +41,11 @@ public interface class IPDMWDocumentNote
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNote](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote.html)
-
-.
+See [PDMWDocumentNote](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote.html).
 
 ## Remarks
 
-A note object corresponds to an entry in theHistory/Notestab in a document'sSOLIDWORKS Workgroup PDM -Document Informationdialog box in the SOLIDWORKS Workgroup PDM Client.
+A note object corresponds to an entry in the History/Notes tab in a document's SOLIDWORKS Workgroup PDM - Document Information dialog box in the SOLIDWORKS Workgroup PDM Client.
 
 ## Accessors
 
@@ -64,7 +54,5 @@ A note object corresponds to an entry in theHistory/Notestab in a document'sSOLI
 ## See Also
 
 [IPDMWDocumentNote Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWDocumentNotes Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes.html)

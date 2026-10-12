@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IRefPlane Interface Properties
 
-For a list of all members of this type, see[IRefPlane members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html).
+For a list of all members of this type, see [IRefPlane members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html).
 
 ## Public Properties
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[IRefPlane members](SolidWorks.Intero
 ## See Also
 
 [IRefPlane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)

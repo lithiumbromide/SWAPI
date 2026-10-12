@@ -9,21 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureCircularPattern5 Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[ICircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
-and
-
-[ILocalCircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [ICircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html) and [ILocalCircularPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html).
 
 ## Syntax
 
@@ -113,13 +99,7 @@ Feature^ FeatureCircularPattern5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -129,11 +109,7 @@ See
 - `DName`: Name of the angular dimension defining Direction 1 of the pattern
 - `GeometryPattern`: True to use geometry pattern, false to not
 - `EqualSpacing`: True to use equal spacing in Direction 1, false to not
-- `VaryInstance`: True to vary the dimensions or spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see
-
-Remarks
-
-)
+- `VaryInstance`: True to vary the dimensions or spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see **Remarks**)
 - `SyncSubAssemblies`: True to move components in the patterned instances when components are moved in the seed flexible subassembly, false to not
 - `BDir2`: True to create a bidirectional circular pattern feature, false to not
 - `BSymmetric`: True to create a symmetric circular pattern feature in Direction 2, false to create an asymmetrical circular pattern feature in Direction 2; valid only if BDir2 is true
@@ -144,17 +120,11 @@ Remarks
 
 ### Return Value
 
-Circular pattern
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Circular pattern [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCircularPattern5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern5.html)
-
-.
+See [FeatureManager::FeatureCircularPattern5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCircularPattern5.html).
 
 ## Remarks
 
@@ -173,7 +143,6 @@ If VaryInstance = true, then to indicate how to vary the individual pattern inst
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

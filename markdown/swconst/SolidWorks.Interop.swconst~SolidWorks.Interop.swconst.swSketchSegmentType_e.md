@@ -9,9 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSketchS
 
 # swSketchSegmentType_e Enumeration
 
-[ISketchSegment::EqualSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~EqualSegment.html)
-
-divide types.
+[ISketchSegment::EqualSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~EqualSegment.html) divide types.
 
 ## Syntax
 

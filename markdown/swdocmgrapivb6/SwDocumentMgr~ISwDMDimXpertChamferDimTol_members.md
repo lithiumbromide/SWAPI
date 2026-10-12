@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertChamferDimTol Object
-Members"
+title: "ISwDMDimXpertChamferDimTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertChamferDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertChamferDimTol_members.html"
 ---
 
-# ISwDMDimXpertChamferDimTol Object
-Members
+# ISwDMDimXpertChamferDimTol Object Members
 
 ## Public Properties
 

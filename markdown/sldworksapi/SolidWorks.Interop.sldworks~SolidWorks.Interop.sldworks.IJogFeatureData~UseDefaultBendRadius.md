@@ -45,13 +45,7 @@ property System.bool UseDefaultBendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True uses the default bend radius, false does not
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~UseDefaultBendRadius.html)
-
-.
+See [JogFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~UseDefaultBendRadius.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
-
 [IJogFeatureData::BendRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData~BendRadius.html)
 
 ## Availability

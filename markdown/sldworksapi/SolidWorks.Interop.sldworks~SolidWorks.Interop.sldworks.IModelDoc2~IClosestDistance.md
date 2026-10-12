@@ -59,13 +59,7 @@ System.double IClosestDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,11 +74,7 @@ Minimum distance; -1.0 if no solution
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IClosestDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IClosestDistance.html)
-
-.
+See [ModelDoc2::IClosestDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IClosestDistance.html).
 
 ## Remarks
 
@@ -96,13 +86,7 @@ Supported input object types include:
 - swSelSKETCHSEGS (sketch segments)
 - swSelDATUMPLANES (reference plane)
 - swSelEXTSKETCHPOINTS (point on origin)
-- swSelDATUMAXES
-
-  kadov_tag{{<spaces>}}
-
-  kadov_tag{{</spaces>}}
-
-  (reference axis)
+- swSelDATUMAXES (reference axis)
 - swSelCOMPONENTS (component)
 - swSelREFCURVES (reference curves)
 
@@ -116,7 +100,6 @@ This method includes these restrictions for drawings:
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

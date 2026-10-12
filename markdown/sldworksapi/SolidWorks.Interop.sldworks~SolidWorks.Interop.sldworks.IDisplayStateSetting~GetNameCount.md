@@ -40,36 +40,20 @@ System.int GetNameCount()
 System.int GetNameCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayStateSetting::GetNameCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~GetNameCount.html)
-
-.
+See [DisplayStateSetting::GetNameCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~GetNameCount.html).
 
 ## Remarks
 
-Call this method to get the size of the array returned by
-
-[IDisplayStateSetting::IGetNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayStateSetting~IGetNames.html)
-
-.
+Call this method to get the size of the array returned by [IDisplayStateSetting::IGetNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayStateSetting~IGetNames.html).
 
 ## See Also
 
 [IDisplayStateSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting.html)
-
 [IDisplayStateSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting_members.html)
-
 [IDisplayStateSetting::Names Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting~Names.html)
 
 ## Availability

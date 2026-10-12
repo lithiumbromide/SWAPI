@@ -9,9 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetFirstChil
 
 # GetFirstChildPosition Method (IEdmReference5)
 
-Obsolete. Superseded by
-
-[IEdmReference7::GetFirstChildPosition2 .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstChildPosition2.html)
+Obsolete. Superseded by [IEdmReference7::GetFirstChildPosition2.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7~GetFirstChildPosition2.html)
 
 ## Syntax
 
@@ -50,37 +48,26 @@ IEdmPos5^ GetFirstChildPosition(
 
 ### Parameters
 
-- `pbsProjectName`: Project name (see
-
-Remarks
-
-)
+- `pbsProjectName`: Project name (see **Remarks**)
 - `bIsTopParent`: True if this is the topmost node in the reference tree, false if not
 - `bPermitReadLocal`: True to allow SOLIDWORKS PDM Professional to read reference information if it is not already present in the database, false to disallow SOLIDWORKS PDM Professional to read reference information if it is not already present in the database
 - `lVersion`: Version for which to get references; use 0 for latest version
 
 ### Return Value
 
-[Position](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-of the first file referenced by this file (see
-
-Remarks
-
-)
+[Position](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html) of the first file referenced by this file (see **Remarks**)
 
 ## Remarks
 
 You should maintain and pass in a string, by reference, in this argument for all calls to this method in a reference tree. The project name can be allocated and returned by the topmost node in the tree and is used by its children.
 
-Pass the position to[IEdmReference5::GetNextChild](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextChild.html)to enumerate the referenced files.
+Pass the position to [IEdmReference5::GetNextChild](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5~GetNextChild.html) to enumerate the referenced files.
 
 C++ programmers not using smart-pointer wrapper functions must release the position.
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)

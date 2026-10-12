@@ -51,16 +51,11 @@ Name of project for this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~project.html)
-
-.
+See [PDMWLink::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~project.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

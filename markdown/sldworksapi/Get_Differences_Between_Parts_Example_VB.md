@@ -11,20 +11,7 @@ source: "sldworksapi/Get_Differences_Between_Parts_Example_VB.htm"
 
 This examples shows how to get the differences between two parts.
 
-**NOTE**:kadov_tag{{</spaces>}}When
-a part is designed for injection molding, many smallkadov_tag{{</spaces>}}design
-details must be added for the injection moldingkadov_tag{{</spaces>}}process.
-Typically, these are draft angles, thickeningkadov_tag{{</spaces>}}of
-walls, additional ribs, and so on. Quite often, withoutkadov_tag{{</spaces>}}specialized knowledge and experience, these are addedkadov_tag{{</spaces>}}to
-the model, by mold maker, after the part has beenkadov_tag{{</spaces>}}designed
-by a designer.kadov_tag{{</spaces>}}It
-is often desirable to find out what changeskadov_tag{{</spaces>}}have
-been made to the original model. This is usuallykadov_tag{{</spaces>}}done
-to determine the change in the amount of material forkadov_tag{{</spaces>}}the
-revised part.kadov_tag{{</spaces>}}This
-example uses several geometry- andkadov_tag{{</spaces>}}topology-related
-methods to find the differences andkadov_tag{{</spaces>}}reverse
-difference between two parts.
+**NOTE**: When a part is designed for injection molding, many small design details must be added for the injection molding process. Typically, these are draft angles, thickening of walls, additional ribs, and so on. Quite often, without specialized knowledge and experience, these are added to the model, by mold maker, after the part has been designed by a designer. It is often desirable to find out what changes have been made to the original model. This is usually done to determine the change in the amount of material for the revised part. This example uses several geometry- and topology-related methods to find the differences and reverse difference between two parts.
 
 ```
 '--------------------------------------------------------------------

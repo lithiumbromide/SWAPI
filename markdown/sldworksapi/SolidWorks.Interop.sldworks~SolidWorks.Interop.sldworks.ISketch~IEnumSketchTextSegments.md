@@ -40,13 +40,7 @@ EnumSketchSegments IEnumSketchTextSegments()
 EnumSketchSegments^ IEnumSketchTextSegments();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::IEnumSketchTextSegments](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchTextSegments.html)
-
-.
+See [Sketch::IEnumSketchTextSegments](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchTextSegments.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchTextSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchTextSegments.html)
-
 [ISketch::GetSketchSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchSegments.html)
-
 [ISketch::IEnumSketchSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IEnumSketchSegments.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Make3DExperienceCompatible Method (IModelDocExtension)
 
-Makes the current model compatible with
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Makes the current model compatible with [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void Make3DExperienceCompatible(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,16 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Make3DExperienceCompatible](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Make3DExperienceCompatible.html)
-
-.
+See [ModelDocExtension::Make3DExperienceCompatible](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Make3DExperienceCompatible.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

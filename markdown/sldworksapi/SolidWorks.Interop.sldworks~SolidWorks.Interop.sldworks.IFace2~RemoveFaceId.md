@@ -46,13 +46,7 @@ void RemoveFaceId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,20 +54,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face2::RemoveFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveFaceId.html)
-
-.
+See [Face2::RemoveFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveFaceId.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::SetFaceId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~SetFaceId.html)
-
 [IFace2::GetFaceId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFaceId.html)
 
 ## Availability

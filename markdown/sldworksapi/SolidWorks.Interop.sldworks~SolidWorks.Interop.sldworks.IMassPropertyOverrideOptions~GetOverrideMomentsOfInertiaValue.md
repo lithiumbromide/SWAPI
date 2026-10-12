@@ -51,13 +51,7 @@ System.Object^ GetOverrideMomentsOfInertiaValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,32 +60,18 @@ See
 
 ### Return Value
 
-Array of nine doubles:
-
-[
-
-Lxx, Lxy, Lxz, Lyx, Lyy, Lyz, Lzx, Lzy, Lzz
-
-]
+Array of nine doubles: [ Lxx, Lxy, Lxz, Lyx, Lyy, Lyz, Lzx, Lzy, Lzz ]
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::GetOverrideMomentsOfInertiaValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverrideMomentsOfInertiaValue.html)
-
-.
+See [MassPropertyOverrideOptions::GetOverrideMomentsOfInertiaValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverrideMomentsOfInertiaValue.html).
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassPropertyOverrideOptions::SetOverrideMomentsOfInertiaValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~SetOverrideMomentsOfInertiaValue.html)
-
 [IMassPropertyOverrideOptions::OverrideMomentsOfInertia Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMomentsOfInertia.html)
-
 [IMassProperty2::GetMomentOfInertia Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~GetMomentOfInertia.html)
 
 ## Availability

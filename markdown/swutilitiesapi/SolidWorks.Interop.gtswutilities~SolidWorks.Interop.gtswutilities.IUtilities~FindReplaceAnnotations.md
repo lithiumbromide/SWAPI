@@ -44,24 +44,15 @@ property gtcocswFindReplaceAnnotations^ FindReplaceAnnotations {
 
 ### Property Value
 
-Pointer to
-
-[IFindReplaceAnnotations](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
-object
+Pointer to [IFindReplaceAnnotations](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::FindReplaceAnnotations](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~FindReplaceAnnotations.html)
-
-.
+See [IUtilities::FindReplaceAnnotations](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~FindReplaceAnnotations.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

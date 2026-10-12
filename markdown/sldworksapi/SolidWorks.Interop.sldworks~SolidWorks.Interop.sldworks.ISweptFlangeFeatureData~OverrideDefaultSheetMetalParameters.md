@@ -45,13 +45,7 @@ property System.bool OverrideDefaultSheetMetalParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to override the default values, false to not
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html)
-
-.
+See [SweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html).
 
 ## Examples
 
-See the
-
-[ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-examples.
+See the [ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html) examples.
 
 ## Remarks
 
@@ -79,21 +65,12 @@ This property is valid only when creating the swept flange in a non-sheet-metal 
 
 If this property is:
 
-- True, then
-
-  [ISweptFlangeFeatureData::Thickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Thickness.html)
-
-  and
-
-  [ISweptFlangeFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~BendRadius.html)
-
-  get and set user-defined values.
+- True, then [ISweptFlangeFeatureData::Thickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Thickness.html) and [ISweptFlangeFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~BendRadius.html) get and set user-defined values.
 - False, then ISweptFlangeFeatureData::Thickness and ISweptFlangeFeatureData::BendRadius are invalid as setters and get only default values.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

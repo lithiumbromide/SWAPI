@@ -63,25 +63,15 @@ System.bool SetDatumTargetRotational(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MoveableDatumDirection`: Moveable datum direction as defined in
-
-[swMoveableDatumDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveableDatumDirection_e.html)
+- `MoveableDatumDirection`: Moveable datum direction as defined in [swMoveableDatumDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveableDatumDirection_e.html)
 - `LockLeader`: True to lock the leader, false to not
 - `LockLeaderAngle`: Angle of locked leader; valid only if LockLeader is set to true
 - `GeometryRef`: True to use a geometry reference, false to not; true is valid only if MoveableDatumDirection is set to swMoveableDatumDirection_e.swMoveableDatumDirectionBySelection
-- `RefGeometryError`: Reference geometry error as defined in
-
-[swRefGeometryError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRefGeometryError_e.html)
+- `RefGeometryError`: Reference geometry error as defined in [swRefGeometryError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRefGeometryError_e.html)
 
 ### Return Value
 
@@ -89,11 +79,7 @@ True if datum target successfully set, false if errors
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetDatumTargetRotational](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetRotational.html)
-
-.
+See [DatumTargetSym::SetDatumTargetRotational](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetRotational.html).
 
 ## Remarks
 
@@ -102,11 +88,8 @@ If GeometryRef is set to true, then select a geometry reference before calling t
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::SetDatumTargetNotMoveable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetNotMoveable.html)
-
 [IDatumTargetSym::SetDatumTargetHorizontal Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetHorizontal.html)
 
 ## Availability

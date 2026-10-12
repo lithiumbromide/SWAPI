@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True reverses the direction of the extrusion feature, false does not
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~ReverseDirection.html)
-
-.
+See [ExtrudeFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~ReverseDirection.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # ResultFolderPath Property (ICWNonLinearStudyOptions)
 
-Gets or sets the path name of the folder that stores the results of this
-study.
+Gets or sets the path name of the folder that stores the results of this study.
 
 ## Syntax
 
@@ -52,19 +51,11 @@ Path name of the results folder
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::ResultFolderPath](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~ResultFolderPath.html)
-
-.
+See [CWNonLinearStudyOptions::ResultFolderPath](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~ResultFolderPath.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## Remarks
 
@@ -73,7 +64,6 @@ Make sure that the disk where the specified folder is located has adequate free 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

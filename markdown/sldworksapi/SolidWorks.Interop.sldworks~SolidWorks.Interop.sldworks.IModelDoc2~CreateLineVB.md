@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateLineVB Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateLine2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateLine2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateLine2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateLine2.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void CreateLineVB(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,14 +79,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::CreateLineVB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateLineVB.html)
-
-.
+See [ModelDoc2::CreateLineVB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateLineVB.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

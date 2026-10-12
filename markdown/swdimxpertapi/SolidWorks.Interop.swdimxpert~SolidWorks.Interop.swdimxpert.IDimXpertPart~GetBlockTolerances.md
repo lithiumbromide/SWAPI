@@ -46,16 +46,11 @@ DimXpertBlockTolerances^ GetBlockTolerances();
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetBlockTolerances](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetBlockTolerances.html)
-
-.
+See [DimXpertPart::GetBlockTolerances](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetBlockTolerances.html).
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

@@ -9,40 +9,30 @@ source: "obsoleteapi/WizardHoleFeatureData/WizardHoleFeatureData__CounterDrillDe
 
 # WizardHoleFeatureData::CounterDrillDepth
 
-This
-property is obsolete and has been superseded by WizardHoleFeatureData2::CounterDrillDepth .
+This property is obsolete and has been superseded by [WizardHoleFeatureData2::CounterDrillDepth](sldworksAPI.chm::/WizardHoleFeatureData2/WizardHoleFeatureData2__CounterDrillDepth.htm).
 
 Description
 
-This property gets or sets
-the hole wizard feature counter drill depth.
+This property gets or sets the hole wizard feature counter drill depth.
 
 Syntax (OLE Automation)
 
-cdrillDepth= WizardHoleFeatureData.CounterDrillDepth (VB
-Get property)
+cdrillDepth = WizardHoleFeatureData.CounterDrillDepth (VB Get property)
 
-WizardHoleFeatureData.CounterDrillDepth =cdrillDepth(VB Set property)
+WizardHoleFeatureData.CounterDrillDepth = cdrillDepth (VB Set property)
 
-cdrillDepth= WizardHoleFeatureData.GetCounterDrillDepth
-( ) (C++ Get property)
+cdrillDepth = WizardHoleFeatureData.GetCounterDrillDepth ( ) (C++ Get property)
 
-WizardHoleFeatureData.SetCounterDrillDepth (cdrillDepth) (C++ Set property)
-
-(Table)=========================================================
+WizardHoleFeatureData.SetCounterDrillDepth ( cdrillDepth ) (C++ Set property)
 
 | Property: | (double) cdrillDepth | Counter drill depth of the hole wizard feature |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = WizardHoleFeatureData ->get_CounterDrillDepth
-( &cdrillDepth)
+status = WizardHoleFeatureData ->get_CounterDrillDepth ( &cdrillDepth )
 
-status = WizardHoleFeatureData ->put_CounterDrillDepth
-(cdrillDepth)
-
-(Table)=========================================================
+status = WizardHoleFeatureData ->put_CounterDrillDepth ( cdrillDepth )
 
 | Property: | (double) cdrillDepth | Counter drill depth of the hole wizard feature |
 | --- | --- | --- |
@@ -50,33 +40,4 @@ status = WizardHoleFeatureData ->put_CounterDrillDepth
 
 Remarks
 
-This property is relevant only for counter-drilled
-and counter-drilled drilled holes.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZFeatureDefinition$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\sw2003\WizardHoleFeatureData\WizardHoleFeatureData__CounterDrillDepth.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This property is relevant only for counter-drilled and counter-drilled drilled holes.

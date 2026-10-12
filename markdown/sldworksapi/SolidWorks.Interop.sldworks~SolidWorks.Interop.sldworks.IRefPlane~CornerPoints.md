@@ -42,44 +42,26 @@ property System.Object^ CornerPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of four (4)
-
-[IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-objects
+Array of four (4) [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) objects
 
 ## VBA Syntax
 
-See
-
-[RefPlane::CornerPoints](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~CornerPoints.html)
-
-.
+See [RefPlane::CornerPoints](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~CornerPoints.html).
 
 ## Examples
 
 [Get Corner Points of Reference Plane (VBA)](Get_Corner_Points_of_Reference_Plane_Example_VB.htm)
-
 [Get Corner Points of Reference Plane (VB.NET)](Get_Corner_Points_of_Reference_Plane_Example_VBNET.htm)
-
 [Get Corner Points of Reference Plane (C#)](Get_Corner_Points_of_Reference_Plane_Example_CSharp.htm)
 
 ## See Also
 
 [IRefPlane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
 [IRefPlane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html)
-
 [IRefPlane::IGetCornerPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane~IGetCornerPoints.html)
 
 ## Availability

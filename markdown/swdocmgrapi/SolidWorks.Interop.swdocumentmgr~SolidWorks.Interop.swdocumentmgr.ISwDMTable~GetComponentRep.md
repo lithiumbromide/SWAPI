@@ -58,30 +58,19 @@ SwDmTableError GetComponentRep(
 
 ### Return Value
 
-Error as defined in
-
-[SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
+Error as defined in [SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::GetComponentRep](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetComponentRep.html)
-
-.
+See [SwDMTable::GetComponentRep](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetComponentRep.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ISwDMTable::GetRowCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetRowCount.html)
-
-to determine the index of the row for the component representation.
+Before calling this method, call [ISwDMTable::GetRowCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetRowCount.html) to determine the index of the row for the component representation.
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
 
 ## Availability

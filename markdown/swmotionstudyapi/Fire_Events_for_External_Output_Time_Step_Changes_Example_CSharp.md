@@ -9,8 +9,7 @@ source: "swmotionstudyapi/Fire_Events_for_External_Output_Time_Step_Changes_Exam
 
 # Fire Events for External Output Time Step Changes Example (C#)
 
-This example shows how to listen and catch events for external force and
-motor output time step changes.
+This example shows how to listen and catch events for external force and motor output time step changes.
 
 ```vb
  //--------------------------------------------------

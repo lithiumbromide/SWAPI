@@ -47,30 +47,19 @@ property System.int IntegrationMethodType {
 
 ### Property Value
 
-Type of numerical integration method as defined in
-
-[swsNonLinearOptionIntegrationMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionIntegrationMethodType_e.html)
+Type of numerical integration method as defined in [swsNonLinearOptionIntegrationMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionIntegrationMethodType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::IntegrationMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~IntegrationMethodType.html)
-
-.
+See [CWNonLinearStudyOptions::IntegrationMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~IntegrationMethodType.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

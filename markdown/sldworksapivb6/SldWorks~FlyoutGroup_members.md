@@ -1,6 +1,5 @@
 ---
-title: "FlyoutGroup Object
-Members"
+title: "FlyoutGroup Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FlyoutGroup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FlyoutGroup_members.html"
 ---
 
-# FlyoutGroup Object
-Members
+# FlyoutGroup Object Members
 
 ## Public Methods
 

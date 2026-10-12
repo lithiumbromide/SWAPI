@@ -48,18 +48,12 @@ Number of search results
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResults::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResults~Count.html)
-
-.
+See [PDMWSearchResults::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResults~Count.html).
 
 ## See Also
 
 [IPDMWSearchResults Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults.html)
-
 [IPDMWSearchResults Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults_members.html)
-
 [IPDMWSearchResults::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults~Item.html)
 
 ## Availability

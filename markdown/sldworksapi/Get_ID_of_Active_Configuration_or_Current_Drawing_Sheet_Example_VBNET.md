@@ -9,12 +9,9 @@ source: "sldworksapi/Get_ID_of_Active_Configuration_or_Current_Drawing_Sheet_Exa
 
 # Get ID of Active Configuration or Current Drawing Sheet Example (VB.NET)
 
-This example shows how to get the name and ID of the active configuration of
-a part or assembly
-or the current sheet of a drawing.
+This example shows how to get the name and ID of the active configuration of a part or assembly or the current sheet of a drawing.
 
-**NOTE**: A unique ID is assigned to each configuration and drawing. This ID does
-not change when the name of the configuration or drawing sheet is changed.
+**NOTE**: A unique ID is assigned to each configuration and drawing. This ID does not change when the name of the configuration or drawing sheet is changed.
 
 ```
 '----------------------------------------------------------------------------
@@ -53,7 +50,7 @@ Partial Class SolidWorksMacro
         ElseIf swModel.GetType = 3 Then
             nDocType = swDocumentTypes_e.swDocDRAWING
         Else
-            ' Not a SOLIDWORKS model document,
+            ' Not a SOLIDWORKS Design model document,
             ' so exit macro
             Exit Sub
         End If

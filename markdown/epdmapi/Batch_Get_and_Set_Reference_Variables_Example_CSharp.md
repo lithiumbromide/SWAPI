@@ -11,46 +11,39 @@ source: "epdmapi/Batch_Get_and_Set_Reference_Variables_Example_CSharp.htm"
 
 This example shows how to get and set reference variables in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  //  1. Start Microsoft Visual Studio.
- //     a. Click File > New > Project > Visual C# > Windows Forms Application.
- //     b. Type BatchGetSetRefVariables_CSharp in Name.
- //     c. Click Browse and navigate to the folder where to create the project.
- //     d. Click OK.
- //     e. Click Show All Files in the Solution Explorer toolbar and expand
+ //     a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+ //     b. Type BatchGetSetRefVariables_CSharp in  Project name.
+ //        c. For Location, click ... and navigate to the folder where to create the project.
+//     d. Click Next.
+//     e. Select Framework.
+//     f. Click Create.
+ //     g. Click Show All Files in the Solution Explorer toolbar and expand
  //        Form1.cs in the Solution Explorer.
- //     f. Replace the code in Form1.cs with this code.
- //     g. To create the form, replace the code in  Form1.Designer.cs with
+ //     h. Replace the code in Form1.cs with this code.
+ //     i. To create the form, replace the code in  Form1.Designer.cs with
  //        this code.
- //  2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //     name in the Solution Explorer, click Add Reference, click
- //     Assemblies > Framework in the left-side panel, browse to the top folder of
- //     your SOLIDWORKS PDM Professional installation, locate and click
- //     EPDM.Interop.epdm.dll, click Open, and click  Add).
- //  3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //     Embed Interop Types to False to handle methods that pass arrays of
- //     structures.
- //  4. Open the Administration tool.
+ //  2.     Add dependencies and safely pass arrays of structures.
+ //  3. Open the Administration tool.
  //     a. Log into a vault.
  //     b. Double-click Bill of Materials > BOM.
  //     c. Click Description in the Columns list.
  //     d. Select Look for variable in reference specific values.
  //     e. Click OK.
- //  5. Open File Explorer on a vault view.
- //  6. Ensure that an assembly and its referenced parts reside in the vault.
- //  7. Check out the assembly.
- //  8. Click the Bill of Materials tab in the vault view.
- //  9. Select Latest in the Reference Version dropdown.
- // 10. Select @ in the Configuration dropdown.
- // 11. Type a description in Description for each part in the assembly.
- // 12. Click Save on the Bill of Materials toolbar and close the vault view.
- // 13. Click Debug > Start Debugging or press F5.
+ //  4. Open File Explorer on a vault view.
+ //  5. Ensure that an assembly and its referenced parts reside in the vault.
+ //  6. Check out the assembly.
+ //  7. Click the Bill of Materials tab in the vault view.
+ //  8. Select Latest in the Reference Version dropdown.
+ //  9. Select @ in the Configuration dropdown.
+ // 10. Type a description in Description for each part in the assembly.
+ // 11. Click Save on the Bill of Materials toolbar and close the vault view.
+ // 12. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  //  1. The Batch Reference Variables dialog box displays.

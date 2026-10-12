@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/notifications |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Notification Resource Group : api/{vaultName}/notifications (Post) |
 | --- |
@@ -96,8 +92,4 @@ This operation:
 
 See Also
 
-[Notification Resource Group](PDM%20Pro%20API_ws~g-a913ab1d-ff6c-435e-bc6e-8e6294326caa.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Notification Resource Group](PDM%20Pro%20API_ws~g-a913ab1d-ff6c-435e-bc6e-8e6294326caa.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

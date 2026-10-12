@@ -47,44 +47,24 @@ System.Object^ CreateAdvancedHoleElementData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ElmType`: Advanced Hole element type as defined in
-
-[swAdvWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAdvWzdGeneralHoleTypes_e.html)
+- `ElmType`: Advanced Hole element type as defined in [swAdvWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAdvWzdGeneralHoleTypes_e.html)
 
 ### Return Value
 
-[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
-(see
-
-Remarks
-
-)
+[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateAdvancedHoleElementData](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateAdvancedHoleElementData.html)
-
-.
+See [ModelDocExtension::CreateAdvancedHoleElementData](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateAdvancedHoleElementData.html).
 
 ## Examples
 
 [Create Advanced Hole Feature (VBA)](Create_Advanced_Hole_Example_VB.htm)
-
 [Create Advanced Hole Feature (VB.NET)](Create_Advanced_Hole_Example_VBNET.htm)
-
 [Create Advanced Hole Feature (C#)](Create_Advanced_Hole_Example_CSharp.htm)
 
 ## Remarks
@@ -97,12 +77,11 @@ After calling this method, use the IAdvancedHoleElementData object to get and se
 - [IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
 - [ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
 
-To create and Advanced Hole, see the[IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html)Remarks.
+To create and Advanced Hole, see the [IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html) Remarks.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

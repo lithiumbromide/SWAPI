@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # IGetTextPoint Method (INote)
 
-Obsolete. Superseded by
-
-[INote::IGetTextPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html)
-
-.
+Obsolete. Superseded by [INote::IGetTextPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetTextPoint()
 System.double IGetTextPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Note::IGetTextPoint](ms-its:sldworksapivb6.chm::/sldworks~Note~IGetTextPoint.html)
-
-.
+See [Note::IGetTextPoint](ms-its:sldworksapivb6.chm::/sldworks~Note~IGetTextPoint.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)

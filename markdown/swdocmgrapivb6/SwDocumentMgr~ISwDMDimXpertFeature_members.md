@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertFeature Object
-Members"
+title: "ISwDMDimXpertFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertFeature_members.html"
 ---
 
-# ISwDMDimXpertFeature Object
-Members
+# ISwDMDimXpertFeature Object Members
 
 ## Public Methods
 

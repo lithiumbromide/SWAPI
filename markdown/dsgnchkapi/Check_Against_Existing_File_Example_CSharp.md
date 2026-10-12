@@ -9,8 +9,7 @@ source: "dsgnchkapi/Check_Against_Existing_File_Example_CSharp.htm"
 
 # Check Against Existing File Example (C#)
 
-This example shows how to use the Design Checker API to check against an
-existing file.
+This example shows how to use the Design Checker API to check against an existing file.
 
 ```vb
  //---------------------------------------------------------------------------

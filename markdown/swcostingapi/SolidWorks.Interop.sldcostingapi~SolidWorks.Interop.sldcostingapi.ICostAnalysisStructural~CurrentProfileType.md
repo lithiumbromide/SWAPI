@@ -48,50 +48,22 @@ Profile type
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::CurrentProfileType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentProfileType.html)
-
-.
+See [CostAnalysisStructural::CurrentProfileType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentProfileType.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## Remarks
 
-The profile type is the name of a profiles type folder, typically located in
-
-C:\Program Files\SolidWorks Corp\SOLIDWORKS
-
-\
-
-lang
-
-\
-
-lang
-
-\
-
-weldment profiles\
-
-profile standard.
+The profile type is the name of a profiles type folder, typically located in **C:\Program Files\SolidWorks Corp\SOLIDWORKS**\**lang**\`lang`\**weldment profiles\**`profile standard.`
 
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::SetCurrentProfile Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~SetCurrentProfile.html)
-
 [ICostAnalysisStructural::CurrentProfileSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileSize.html)
-
 [ICostAnalysisStructural::CurrentProfileStandard Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileStandard.html)
 
 ## Availability

@@ -40,48 +40,27 @@ System.int GetMirrorPlaneType()
 System.int GetMirrorPlaneType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of mirror plane as defined in
-
-[swMirrorPlaneType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorPlaneType_e.html)
+Type of mirror plane as defined in [swMirrorPlaneType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorPlaneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::GetMirrorPlaneType](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~GetMirrorPlaneType.html)
-
-.
+See [MirrorPartFeatureData::GetMirrorPlaneType](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~GetMirrorPlaneType.html).
 
 ## Examples
 
-See the
-
-[IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html)
-
-examples.
+See the [IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html) examples.
 
 ## Remarks
 
-Call this method to determine the type of mirror plane returned by
-
-[IMirrorPartFeatureData::GetMirrorPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData~GetMirrorPlane.html)
-
-.
+Call this method to determine the type of mirror plane returned by [IMirrorPartFeatureData::GetMirrorPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData~GetMirrorPlane.html).
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
 
 ## Availability

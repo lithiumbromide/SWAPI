@@ -45,33 +45,19 @@ property System.Object^ Profile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sketch profile or tool body for this sweep feature (see**Remarks**)
+Sketch profile or tool body for this sweep feature (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::Profile](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~Profile.html)
-
-.
+See [SweepFeatureData::Profile](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~Profile.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,20 +66,16 @@ examples.
 | Sketch profile | Face , edge , or curve |
 | Tool body (see NOTE ) | Body that is convex, not merged with the main body and consists of one of the following: A revolved feature that consist of analytical geometry only, such as lines and arcs A cylindrical extruded feature |
 
-**NOTE:**Tool bodies are supported in swept-cut features in SOLIDWORKS API 2017 FCS and later.
+**NOTE:** Tool bodies are supported in swept-cut features in SOLIDWORKS API 2017 FCS and later.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::CircularProfile Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~CircularProfile.html)
-
 [ISweepFeatureData::GetProfileType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetProfileType.html)
-
 [ISweepFeatureData::Direction Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Direction.html)
 
 ## Availability

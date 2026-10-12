@@ -40,13 +40,7 @@ System.int GetEllipseCount()
 System.int GetEllipseCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of ellipses
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetEllipseCount.html)
-
-.
+See [DisplayData::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetEllipseCount.html).
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetEllipseAtIndex2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetEllipseAtIndex2.html)
-
 [IDisplayData::IGetEllipseAtIndex2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetEllipseAtIndex2.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetOpenDocumentByName Method (ISldWorks)
 
-Obsolete. Superseded
-
-[ISldWorks::IGetOpenDocumentByName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetOpenDocumentByName2.html)
-
-.
+Obsolete. Superseded [ISldWorks::IGetOpenDocumentByName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetOpenDocumentByName2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ ModelDoc^ IGetOpenDocumentByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetOpenDocumentByName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetOpenDocumentByName.html)
-
-.
+See [SldWorks::IGetOpenDocumentByName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetOpenDocumentByName.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

@@ -47,26 +47,18 @@ True to show force symbols in the study, false to hide them
 
 ## VBA Syntax
 
-See
-
-[CWStudy::ShowOrHideForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ShowOrHideForce.html)
-
-.
+See [CWStudy::ShowOrHideForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ShowOrHideForce.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::ShowOrHideFixtures Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~ShowOrHideFixtures.html)
 
 ## Availability

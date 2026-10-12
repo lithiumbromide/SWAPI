@@ -47,13 +47,7 @@ System.double IGetVertexPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ Array of 3 doubles that describe the tessellation vertex's X, Y, and Z position
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetVertexPoint](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetVertexPoint.html)
-
-.
+See [Tessellation::IGetVertexPoint](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetVertexPoint.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellate::GetVertexParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~GetVertexParams.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetTimeOrFrequencyCurve Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::SetTimeOrFrequencyCurve2.
+Obsolete. Superseded by [ICWRemoteLoad::SetTimeOrFrequencyCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetTimeOrFrequencyCurve2.html).
 
 ## Syntax
 
@@ -53,26 +53,16 @@ System.int SetTimeOrFrequencyCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of curve data representing the variation with time or frequency of this remote load (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of curve data representing the variation with time or frequency of this remote load (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRemoteLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadEndEditError_e.html)
+Error code as defined in [swsRemoteLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::SetTimeOrFrequencyCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValues.html)
-
-.
+See [CWRemoteLoad::SetTimeOrFrequencyCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValues.html).
 
 ## Remarks
 
@@ -83,20 +73,18 @@ See
 
 Array of time or frequency curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time or frequency value at the`ith`data point
+- xi = time or frequency value at the `ith` data point
 - yi = property value associated with time or frequency xi
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::GetTimeOrFrequencyCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetTimeOrFrequencyCurve.html)
 
 ## Availability

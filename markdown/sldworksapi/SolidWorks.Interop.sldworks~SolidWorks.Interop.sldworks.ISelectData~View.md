@@ -45,40 +45,25 @@ property View^ View {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[View](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-that contains the selected object
+[View](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) that contains the selected object
 
 ## VBA Syntax
 
-See
-
-[SelectData::View](ms-its:sldworksapivb6.chm::/sldworks~SelectData~View.html)
-
-.
+See [SelectData::View](ms-its:sldworksapivb6.chm::/sldworks~SelectData~View.html).
 
 ## Examples
 
 [Set Body for View (C#)](Set_Body_for_View_Example_CSharp.htm)
-
 [Set Body for View (VB.NET)](Set_Body_for_View_Example_VBNET.htm)
-
 [Set Body for View (VBA)](Set_Body_for_View_Example_VB.htm)
 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
 
 ## Availability

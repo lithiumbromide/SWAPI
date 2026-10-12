@@ -40,13 +40,7 @@ System.object GetTessTriStripEdges()
 System.Object^ GetTessTriStripEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Array containing the list of edge IDs
 
 ## VBA Syntax
 
-See
-
-[Component2::GetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriStripEdges.html)
-
-.
+See [Component2::GetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriStripEdges.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetTessTriStripEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetTessTriStripEdges.html)
 
 ## Availability

@@ -62,13 +62,7 @@ void GetErrorList(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,11 +74,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetErrorList](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetErrorList.html)
-
-.
+See [Tessellation::GetErrorList](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetErrorList.html).
 
 ## Remarks
 
@@ -109,13 +99,9 @@ The arrays returned by ITessellation::GetErrorList contains the tessellation ent
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetErrorList2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetErrorList2.html)
-
 [ITessellation::IGetErrorListCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetErrorListCount.html)
-
 [ITessellate::NeedErrorList Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~NeedErrorList.html)
 
 ## Availability

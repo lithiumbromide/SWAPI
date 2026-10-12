@@ -51,24 +51,13 @@ System.bool Select2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AppendFlag`: True appends the configuration to the selection list, false replaces the selection
-
-list with the configuration
-- `SelectData`: Pointer to the
-
-[ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+  list with the configuration
+- `SelectData`: Pointer to the [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -76,24 +65,17 @@ True if the configuration is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::Select2](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Select2.html)
-
-.
+See [Configuration::Select2](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Select2.html).
 
 ## Examples
 
 [Add Derived Configurations (VBA)](Add_Derived_Configurations_Example_VB.htm)
-
 [Add Derived Configurations (VB.NET)](Add_Derived_Configurations_Example_VBNET.htm)
-
 [Add Derived Configurations (C#)](Add_Derived_Configurations_Example_CSharp.htm)
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

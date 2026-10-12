@@ -47,44 +47,27 @@ System.Object^ GetTrimToolMember(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MemberObjType`: Trim tool member object to return as defined by
-
-[swTrimToolMemberObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTrimToolMemberObjectType_e.html)
+- `MemberObjType`: Trim tool member object to return as defined by [swTrimToolMemberObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTrimToolMemberObjectType_e.html)
 
 ### Return Value
 
-[ICornerMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember.html)
-
-or
-
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+[ICornerMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember.html) or [IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[ComplexCornerTreatmentFeatureData::GetTrimToolMember](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~GetTrimToolMember.html)
-
-.
+See [ComplexCornerTreatmentFeatureData::GetTrimToolMember](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~GetTrimToolMember.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [IComplexCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData.html)
-
 [IComplexCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData_members.html)
 
 ## Availability

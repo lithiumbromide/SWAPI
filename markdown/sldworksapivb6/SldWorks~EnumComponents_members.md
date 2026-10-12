@@ -1,6 +1,5 @@
 ---
-title: "EnumComponents Object
-Members"
+title: "EnumComponents Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumComponents_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumComponents_members.html"
 ---
 
-# EnumComponents Object
-Members
+# EnumComponents Object Members
 
 ## Public Methods
 

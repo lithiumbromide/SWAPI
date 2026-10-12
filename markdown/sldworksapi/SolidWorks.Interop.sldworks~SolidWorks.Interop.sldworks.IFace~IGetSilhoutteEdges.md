@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetSilhoutteEdges Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetSilhoutteEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdges.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetSilhoutteEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdges.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.IntPtr IGetSilhoutteEdges(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::IGetSilhoutteEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetSilhoutteEdges.html)
-
-.
+See [Face::IGetSilhoutteEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetSilhoutteEdges.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

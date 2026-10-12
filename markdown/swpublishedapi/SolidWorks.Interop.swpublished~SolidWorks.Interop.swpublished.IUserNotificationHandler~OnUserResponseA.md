@@ -52,24 +52,15 @@ void OnUserResponseA(
 
 ## VBA Syntax
 
-See
-
-[UserNotificationHandler::OnUserResponseA](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler~OnUserResponseA.html)
-
-.
+See [UserNotificationHandler::OnUserResponseA](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler~OnUserResponseA.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [IUserNotificationHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
 [IUserNotificationHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler_members.html)
 
 ## Availability

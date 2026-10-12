@@ -40,42 +40,23 @@ System.object CalculateClearances()
 System.Object^ CalculateClearances();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IClearanceResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)
-
-s
+Array of [IClearanceResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)s
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::CalculateClearances](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~CalculateClearances.html)
-
-.
+See [ClearanceVerificationMgr::CalculateClearances](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~CalculateClearances.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

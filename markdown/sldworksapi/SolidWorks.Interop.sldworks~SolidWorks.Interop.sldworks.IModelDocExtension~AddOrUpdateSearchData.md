@@ -55,13 +55,7 @@ System.bool AddOrUpdateSearchData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ True if the SOLIDWORKS Search, third-party, application keyword and value are ad
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddOrUpdateSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddOrUpdateSearchData.html)
-
-.
+See [ModelDocExtension::AddOrUpdateSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddOrUpdateSearchData.html).
 
 ## Examples
 
@@ -87,20 +77,15 @@ See
 
 ## Remarks
 
-After calling this method and after the keyword has been indexed in SOLIDWORKS Search, type the third-party application name, keyword, or keyword value in the SOLIDWORKS Search box and pressEnter. Any documents assigned any of these three strings will appear on theSearchtab in the Task Pane.
+After calling this method and after the keyword has been indexed in SOLIDWORKS Search, type the third-party application name, keyword, or keyword value in the SOLIDWORKS Search box and press Enter. Any documents assigned any of these three strings will appear on the Search tab in the Task Pane.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::DeleteSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSearchData.html)
-
 [IModelDocExtension::GetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchData.html)
-
 [IModelDocExtension::GetSearchDataCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchDataCount.html)
-
 [IModelDocExtension::IGetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetSearchData.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetDefaultTextHeight Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetDefaultTextHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDefaultTextHeight.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetDefaultTextHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDefaultTextHeight.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double GetDefaultTextHeight()
 System.double GetDefaultTextHeight();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetDefaultTextHeight](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDefaultTextHeight.html)
-
-.
+See [ModelDoc::GetDefaultTextHeight](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDefaultTextHeight.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "EnumFaces2 Object
-Members"
+title: "EnumFaces2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumFaces2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumFaces2_members.html"
 ---
 
-# EnumFaces2 Object
-Members
+# EnumFaces2 Object Members
 
 ## Public Methods
 

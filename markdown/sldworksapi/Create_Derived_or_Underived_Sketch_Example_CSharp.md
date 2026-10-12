@@ -33,40 +33,40 @@ using SolidWorks.Interop.sldworks;
  using System.Diagnostics;
  namespace DeriveSketch_CSharp.csproj
  {
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SelectionMgr swSelMgr = default(SelectionMgr);
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Feature swFeat = default(Feature);
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Sketch swSketch = default(Sketch);
+     partial class SolidWorksMacro
+     {
+         public void Main()
+         {
+             ModelDoc2 swModel = default(ModelDoc2);
+             SelectionMgr swSelMgr = default(SelectionMgr);
+             Feature swFeat = default(Feature);
+             Sketch swSketch = default(Sketch);
 
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
+             swModel = (ModelDoc2)swApp.ActiveDoc;
 
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Interactively select a sketch
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSelMgr = (SelectionMgr)swModel.SelectionManager;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swFeat = (Feature)swSelMgr.GetSelectedObject6(1, -1);
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSketch = (Sketch)swFeat.GetSpecificFeature2();
+             // Interactively select a sketch
+             swSelMgr = (SelectionMgr)swModel.SelectionManager;
+             swFeat = (Feature)swSelMgr.GetSelectedObject6(1, -1);
+             swSketch = (Sketch)swFeat.GetSpecificFeature2();
 
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Is the selected sketch derived?
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Is the selected sketch derived? " + swSketch.IsDerived());
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// If the selected sketch is a derived sketch,
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// then create a derived sketch; else, underive the
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// selected sketch
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (swSketch.IsDerived())
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swModel.UnderiveSketch();
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" Selected sketch was derived; sketch is now underived.");
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swModel.DeriveSketch();
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" Selected sketch was not derived; a derived sketch has been created.");
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel.ForceRebuild3(false);
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+             // Is the selected sketch derived?
+             Debug.Print("Is the selected sketch derived? " + swSketch.IsDerived());
+             // If the selected sketch is a derived sketch,
+             // then create a derived sketch; else, underive the
+             // selected sketch
+             if (swSketch.IsDerived())
+             {
+                 swModel.UnderiveSketch();
+                 Debug.Print(" Selected sketch was derived; sketch is now underived.");
+             }
+             else
+             {
+                 swModel.DeriveSketch();
+                 Debug.Print(" Selected sketch was not derived; a derived sketch has been created.");
+             }
+             swModel.ForceRebuild3(false);
+         }
+         public SldWorks swApp;
+     }
  }
 ```

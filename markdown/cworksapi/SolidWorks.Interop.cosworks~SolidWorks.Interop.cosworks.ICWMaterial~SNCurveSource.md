@@ -47,50 +47,32 @@ property System.int SNCurveSource {
 
 ### Property Value
 
-Source as defined in[swsMaterialSNCurveSource_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialSNCurveSource_e.html)
+Source as defined in [swsMaterialSNCurveSource_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialSNCurveSource_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SNCurveSource](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SNCurveSource.html)
-
-.
+See [CWMaterial::SNCurveSource](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SNCurveSource.html).
 
 ## Examples
 
 [Create Fatigue Study for Dynamic Random Vibration Study (VBA)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VB.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (VB.NET)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VBNET.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (C#)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_CSharp.htm)
 
 ## Remarks
 
-See the SOLIDWORKS Help topic,
-
-Material Dialog Box - Fatigue SN Curves Tab
-
-, for more information about S-N curve equations.
+See the SOLIDWORKS Help topic, **Material Dialog Box - Fatigue SN Curves Tab**, for more information about S-N curve equations.
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetFatigueSNCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetFatigueSNCurve.html)
-
 [ICWMaterial::SetFatigueSNCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetFatigueSNCurve.html)
-
 [ICWMaterial::SNCurveEstimateConstants Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveEstimateConstants.html)
-
 [ICWMaterial::SNCurveEstimateCutoff Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveEstimateCutoff.html)
-
 [ICWMaterial::SNCurveSlopeM Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSlopeM.html)
-
 [ICWMaterial::SNCurveSpecificConstantB Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSpecificConstantB.html)
-
 [ICWMaterial::SNCurveSpecificConstantBUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSpecificConstantBUnit.html)
 
 ## Availability

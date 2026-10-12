@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Location_Dimension_Example_VBNET.htm"
 
 # Get and Set Location Dimension Example (VB.NET)
 
-This example shows how to get
-and set DimXpert distance-between or angle-between dimensions.
+This example shows how to get and set DimXpert distance-between or angle-between dimensions.
 
 ```vb
  '-----------------------------------------------------------------------------

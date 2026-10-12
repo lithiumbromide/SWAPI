@@ -45,13 +45,7 @@ property System.bool FloorOffsetDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to swap positions of the scene floor and the model, false to not
 
 ## VBA Syntax
 
-See
-
-[SwScene::FloorOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorOffsetDirection.html)
-
-.
+See [SwScene::FloorOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorOffsetDirection.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertNote Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertNote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertNote.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertNote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertNote.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ InsertNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertNote](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertNote.html)
-
-.
+See [ModelDoc::InsertNote](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertNote.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

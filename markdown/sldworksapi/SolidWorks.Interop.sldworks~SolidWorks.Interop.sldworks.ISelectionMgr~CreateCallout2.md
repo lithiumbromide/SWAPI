@@ -51,18 +51,12 @@ Callout^ CreateCallout2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumberOfRows`: Number of rows in the callout
-- `LpHandler`: Pointer to the event handler for the callout ([ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html))ParamDesc
+- `LpHandler`: Pointer to the event handler for the callout ([ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html))
 
 ### Return Value
 
@@ -70,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::CreateCallout2](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~CreateCallout2.html)
-
-.
+See [SelectionMgr::CreateCallout2](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~CreateCallout2.html).
 
 ## Examples
 
@@ -82,18 +72,12 @@ See
 
 ## Remarks
 
-To create a callout independent of a selection, use
-
-[IModelDocExtension::CreateCallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateCallout.html)
-
-.
+To create a callout independent of a selection, use [IModelDocExtension::CreateCallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateCallout.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [ISelectionMgr::SetCallout Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~SetCallout.html)
 
 ## Availability

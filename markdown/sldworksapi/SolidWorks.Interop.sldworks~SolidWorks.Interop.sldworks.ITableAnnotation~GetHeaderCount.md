@@ -40,13 +40,7 @@ System.int GetHeaderCount()
 System.int GetHeaderCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ Number of rows or columns in the header of this table
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetHeaderCount](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetHeaderCount.html)
-
-.
+See [TableAnnotation::GetHeaderCount](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetHeaderCount.html).
 
 ## Examples
 
 [Export BOMs to XML (C#)](Export_BOMs_to_XML_Example_CSharp.htm)
-
 [Export BOMs to XML (VB.NET)](Export_BOMs_to_XML_Example_VBNET.htm)
-
 [Export BOMs to XML (VBA)](Export_BOMs_to_XML_Example_VB.htm)
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetHeaderStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetHeaderStyle.html)
-
 [ITableAnnotation::SetHeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetHeader.html)
 
 ## Availability

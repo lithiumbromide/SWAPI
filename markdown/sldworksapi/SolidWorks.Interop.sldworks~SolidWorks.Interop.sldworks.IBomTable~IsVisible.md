@@ -40,13 +40,7 @@ System.bool IsVisible()
 System.bool IsVisible();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,13 @@ True if the BOM is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[BomTable::IsVisible](ms-its:sldworksapivb6.chm::/sldworks~BomTable~IsVisible.html)
-
-.
+See [BomTable::IsVisible](ms-its:sldworksapivb6.chm::/sldworks~BomTable~IsVisible.html).
 
 ## Remarks
 
-Before you use any of the IBomTable methods, activate the BOM table using[IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html). After you finish getting BOM data, use[IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html)to deactivate the table.
+Before you use any of the IBomTable methods, activate the BOM table using [IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html). After you finish getting BOM data, use [IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html) to deactivate the table.
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)

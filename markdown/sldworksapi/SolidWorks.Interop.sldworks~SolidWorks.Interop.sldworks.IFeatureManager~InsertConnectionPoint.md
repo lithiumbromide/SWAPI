@@ -99,27 +99,17 @@ System.bool InsertConnectionPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Route type as defined in
-
-[swConnectionPointType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectionPointType_e.html)
-- `SubType`: Electrical route sub-type as defined in
-
-[swElectricalConnectionPointType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swElectricalConnectionPointType_e.html)
+- `Type`: Route type as defined in [swConnectionPointType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectionPointType_e.html)
+- `SubType`: Electrical route sub-type as defined in [swElectricalConnectionPointType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swElectricalConnectionPointType_e.html)
 - `ReverseDirection`: True to flip the direction in which the route exits the fitting, false to not
 - `Diameter`: Nominal diameter (for pipe, tube, and electrical conduit fittings only)
 - `StubLength`: Default stub length to extend from the connector or fitting when inserted into routes
 
-**NOTE**: For ribbon cables, leave stub length at 0 or set it to a value greater than half the width of the cable to assure that folds made near the connector can be created properly.
+  **NOTE**: For ribbon cables, leave stub length at 0 or set it to a value greater than half the width of the cable to assure that folds made near the connector can be created properly.
 - `MinimumStraight`: Minimum straight length (for tubes only)
 - `EndLengthAdjustment`: End length adjustment (for tubes only)
 - `ConductorSplitLength`: Conductor split length (for electrical only)
@@ -136,25 +126,19 @@ True if the connection is inserted, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertConnectionPoint](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConnectionPoint.html)
-
-.
+See [FeatureManager::InsertConnectionPoint](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConnectionPoint.html).
 
 ## Examples
 
 [Insert Connection Point (C#)](Insert_Connection_Point_Example_CSharp.htm)
-
 [Insert Connection Point (VB.NET)](Insert_Connection_Point_Example_VBNET.htm)
-
 [Insert Connection Point (VBA)](Insert_Connection_Point_Example_VB.htm)
 
 ## Remarks
 
-This method only works when the SOLIDWORKS Routing add-in is loaded (click**Tools > Add-Ins**and select**SOLIDWORKS Routing**). This method currently supports part documents only.
+This method only works when the SOLIDWORKS Routing add-in is loaded (click **Tools > Add-Ins** and select **SOLIDWORKS Routing**). This method currently supports part documents only.
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with:
 
 - Mark = 1, which can be any one of the following entities to indicate the origin of a route:
 
@@ -168,13 +152,9 @@ See the SOLIDWORKS Help for details about connection points and routing.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IAssemblyDoc::GetRouteManager Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetRouteManager.html)
-
 [IModelDoc2::InsertRoutePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertRoutePoint.html)
-
 [IConnectionPointFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConnectionPointFeatureData.html)
 
 ## Availability

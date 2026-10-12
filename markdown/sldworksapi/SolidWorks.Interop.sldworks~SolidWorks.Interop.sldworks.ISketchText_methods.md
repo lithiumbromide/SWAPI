@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchText Interface Methods
 
-For a list of all members of this type, see[ISketchText members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText_members.html).
+For a list of all members of this type, see [ISketchText members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText_members.html).
 
 ## Public Methods
 
@@ -32,7 +32,5 @@ For a list of all members of this type, see[ISketchText members](SolidWorks.Inte
 ## See Also
 
 [ISketchText Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ITextFormat Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat.html)

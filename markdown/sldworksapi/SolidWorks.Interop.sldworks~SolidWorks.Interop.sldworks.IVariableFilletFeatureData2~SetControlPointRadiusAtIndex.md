@@ -54,13 +54,7 @@ void SetControlPointRadiusAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,28 +64,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::SetControlPointRadiusAtIndex](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~SetControlPointRadiusAtIndex.html)
-
-.
+See [VariableFilletFeatureData2::SetControlPointRadiusAtIndex](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~SetControlPointRadiusAtIndex.html).
 
 ## Remarks
 
-Call[IVariableFilletFeatureData2::SetControlPointDistanceAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~SetControlPointDistanceAtIndex.html)to set the Distance 2 radius for the control point of this asymmetric fillet.
+Call [IVariableFilletFeatureData2::SetControlPointDistanceAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~SetControlPointDistanceAtIndex.html) to set the Distance 2 radius for the control point of this asymmetric fillet.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
-
 [IVariableFilletFeatureData2::GetControlPointRadiusAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html)
-
 [IVariableFilletFeatureData2::GetControlPointsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointsCount.html)
-
 [IVariableFilletFeatureData2::SetControlPointConicRhoOrRadiusAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~SetControlPointConicRhoOrRadiusAtIndex.html)
 
 ## Availability

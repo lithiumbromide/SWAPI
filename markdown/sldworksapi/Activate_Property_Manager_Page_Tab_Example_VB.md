@@ -11,9 +11,7 @@ source: "sldworksapi/Activate_Property_Manager_Page_Tab_Example_VB.htm"
 
 ## Activate PropertyManager Page Tab Example (VBA)
 
-The following code example demonstrates how SOLIDWORKS
-add-ins can use IPropertyManagerPageTab.Activate to programmatically select
-a tab on a SOLIDWORKS PropertyManager page.
+The following code example demonstrates how SOLIDWORKS add-ins can use IPropertyManagerPageTab.Activate to programmatically select a tab on a SOLIDWORKS PropertyManager page.
 
 ```
 '----------------------------------------------------------------------------

@@ -45,40 +45,25 @@ property System.int MatchType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of match as defined by
-
-[swTesselationMatchType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTesselationMatchType_e.html)
+Type of match as defined by [swTesselationMatchType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTesselationMatchType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Tessellation::MatchType](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MatchType.html)
-
-.
+See [Tessellation::MatchType](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MatchType.html).
 
 ## Examples
 
 [Tessellate a Body (C#)](Tessellate_a_Body_Example_CSharp.htm)
-
 [Tessellate a Body (VB.NET)](Tessellate_a_Body_Example_VBNET.htm)
-
 [Tessellate a Body (VBA)](Tessellate_a_Body_Example_VB.htm)
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

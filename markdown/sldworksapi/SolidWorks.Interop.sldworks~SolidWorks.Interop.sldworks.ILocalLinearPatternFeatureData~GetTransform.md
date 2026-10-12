@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in this pattern (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in this pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,34 +59,16 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetTransform.html)
-
-.
+See [LocalLinearPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-1 <=
-
-Instance
-
-<= (
-
-[ILocalLinearPatternFeatureData::D1TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~D1TotalInstances.html)
-
-+
-
-[ILocalLinearPatternFeatureData::D2TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~D2TotalInstances.html)
-
-)
+1 <= `Instance` <= ([ILocalLinearPatternFeatureData::D1TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~D1TotalInstances.html) + [ILocalLinearPatternFeatureData::D2TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~D2TotalInstances.html))
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
-
 [ILocalLinearPatternFeatureData::SkippedItemArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SkippedItemArray.html)
 
 ## Availability

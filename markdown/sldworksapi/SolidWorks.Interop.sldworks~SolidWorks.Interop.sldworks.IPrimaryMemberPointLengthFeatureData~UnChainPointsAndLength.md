@@ -45,35 +45,21 @@ property System.bool UnChainPointsAndLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to pair each point passed in
-
-[IPrimaryMemberPointLengthFeatureData::SetPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~SetPoints.html)
-
-to the previous point in the list, false to pair consecutive points only
+True to pair each point passed in [IPrimaryMemberPointLengthFeatureData::SetPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~SetPoints.html) to the previous point in the list, false to pair consecutive points only
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::UnChainPointsAndLength](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~UnChainPointsAndLength.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::UnChainPointsAndLength](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~UnChainPointsAndLength.html).
 
 ## Remarks
 
-This property is valid only if[IPrimaryMemberPointLengthFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~EndCondition.html)is[swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html).swPrimaryMemberPointLengthEndCondition_Point.
+This property is valid only if [IPrimaryMemberPointLengthFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~EndCondition.html) is [swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html).swPrimaryMemberPointLengthEndCondition_Point.
 
-If this property is set to true, each point passed to[IPrimaryMemberPointLengthFeatureData::SetPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~SetPoints.html)pairs with the previous point in the list to create a new member.
+If this property is set to true, each point passed to [IPrimaryMemberPointLengthFeatureData::SetPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~SetPoints.html) pairs with the previous point in the list to create a new member.
 
 For the list of points A,B,C,D,E,F:
 
@@ -100,7 +86,6 @@ E -- F
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

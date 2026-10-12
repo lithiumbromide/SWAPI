@@ -51,26 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top level document (see
-
-Remarks
-
-)
-- `Component`: Component for the feature (see
-
-Remarks
-
-)
+- `TopDoc`: Top level document (see **Remarks**)
+- `Component`: Component for the feature (see Remarks)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ True if selections successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberFeatureData~AccessSelections.html)
-
-.
+See [StructureSystemMemberFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberFeatureData~AccessSelections.html).
 
 ## Remarks
 
@@ -93,17 +75,12 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IStructureSystemMemberFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not modify the feature
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IStructureSystemMemberFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~ReleaseSelectionAccess.html) if you did not modify the feature
 
 ## See Also
 
 [IStructureSystemMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
 [IStructureSystemMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData_members.html)
 
 ## Availability

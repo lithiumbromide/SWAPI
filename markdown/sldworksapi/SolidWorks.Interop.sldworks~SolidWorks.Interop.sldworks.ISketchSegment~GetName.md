@@ -40,13 +40,7 @@ System.string GetName()
 System.String^ GetName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Sketch segment name
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::GetName](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetName.html)
-
-.
+See [SketchSegment::GetName](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetName.html).
 
 ## Examples
 
 [Get Sketch Segment Names (C#)](Get_Sketch_Segment_Names_Example_CSharp.htm)
-
 [Get Sketch Segment Names (VB.NET)](Get_Sketch_Segment_Names_Example_VBNET.htm)
-
 [Get Sketch Segment Names (VBA)](Get_Sketch_Segment_Names_Example_VB.htm)
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

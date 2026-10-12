@@ -48,22 +48,16 @@ Length of bevel on one side of the selected entity
 
 ## VBA Syntax
 
-See
-
-[DimXpertChamferFeature::Distance1](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~Distance1.html)
-
-.
+See [DimXpertChamferFeature::Distance1](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~Distance1.html).
 
 ## Examples
 
 [Get DimXpert Chamfer Feature Example (VBA)](Get_DimXpert_Chamfer_Feature_Example_VB.htm)
-
 [Get DimXpert Chamfer Feature Example (VB.NET)](Get_DimXpert_Chamfer_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertChamferFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature.html)
-
 [IDimXpertChamferFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature_members.html)
 
 ## Availability

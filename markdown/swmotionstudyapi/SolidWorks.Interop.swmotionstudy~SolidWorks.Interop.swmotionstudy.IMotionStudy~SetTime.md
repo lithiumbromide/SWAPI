@@ -49,13 +49,7 @@ System.bool SetTime(
 
 ### Parameters
 
-- `Time`: Time, in seconds, where to place
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-the timebar on the timeline
+- `Time`: Time, in seconds, where to place the timebar on the timeline
 
 ### Return Value
 
@@ -63,30 +57,20 @@ True if the timebar is set to the specified time, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::SetTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SetTime.html)
-
-.
+See [MotionStudy::SetTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SetTime.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetTime Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetTime.html)
-
 [IMotionStudy::GetDuration Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetDuration.html)
-
 [IMotionStudy::SetDuration Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetDuration.html)
 
 ## Availability

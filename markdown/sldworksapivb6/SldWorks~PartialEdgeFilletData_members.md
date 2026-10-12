@@ -1,6 +1,5 @@
 ---
-title: "PartialEdgeFilletData Object
-Members"
+title: "PartialEdgeFilletData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PartialEdgeFilletData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PartialEdgeFilletData_members.html"
 ---
 
-# PartialEdgeFilletData Object
-Members
+# PartialEdgeFilletData Object Members
 
 ## Public Methods
 

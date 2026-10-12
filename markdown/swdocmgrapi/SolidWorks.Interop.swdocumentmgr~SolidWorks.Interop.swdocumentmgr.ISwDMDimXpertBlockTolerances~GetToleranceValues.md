@@ -87,11 +87,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBlockTolerances::GetToleranceValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~GetToleranceValues.html)
-
-.
+See [SwDMDimXpertBlockTolerances::GetToleranceValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~GetToleranceValues.html).
 
 ## Examples
 
@@ -104,7 +100,6 @@ This interface accesses the DimXpert block tolerance settings that are specified
 ## See Also
 
 [ISwDMDimXpertBlockTolerances Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances.html)
-
 [ISwDMDimXpertBlockTolerances Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html)
 
 ## Availability

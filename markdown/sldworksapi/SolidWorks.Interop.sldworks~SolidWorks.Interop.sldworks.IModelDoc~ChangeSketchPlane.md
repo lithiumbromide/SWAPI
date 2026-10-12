@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ChangeSketchPlane Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ChangeSketchPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ChangeSketchPlane.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ChangeSketchPlane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ChangeSketchPlane.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool ChangeSketchPlane()
 System.bool ChangeSketchPlane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ChangeSketchPlane.html)
-
-.
+See [ModelDoc::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ChangeSketchPlane.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

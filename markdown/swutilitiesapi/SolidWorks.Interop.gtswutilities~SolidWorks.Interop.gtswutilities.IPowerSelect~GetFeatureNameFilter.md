@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # GetFeatureNameFilter Method (IPowerSelect)
 
-Gets the
-
-Feature name
-
-filter set in this PowerSelect session.
+Gets the Feature name filter set in this PowerSelect session.
 
 ## Syntax
 
@@ -53,9 +49,7 @@ System.String^ GetFeatureNameFilter(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -63,18 +57,12 @@ Name of feature
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetFeatureNameFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFeatureNameFilter.html)
-
-.
+See [IPowerSelect::GetFeatureNameFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFeatureNameFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::SetFeatureColorFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFeatureColorFilter.html)
 
 ## Availability

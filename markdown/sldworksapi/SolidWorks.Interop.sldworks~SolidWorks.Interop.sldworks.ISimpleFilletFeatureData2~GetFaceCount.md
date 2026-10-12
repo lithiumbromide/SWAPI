@@ -47,17 +47,11 @@ System.int GetFaceCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichFaceList`: Face as defined in[swSimpleFilletWhichFaces_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimpleFilletWhichFaces_e.html)
+- `WhichFaceList`: Face as defined in [swSimpleFilletWhichFaces_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimpleFilletWhichFaces_e.html)
 
 ### Return Value
 
@@ -65,38 +59,24 @@ Number of faces
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::GetFaceCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetFaceCount.html)
-
-.
+See [SimpleFilletFeatureData2::GetFaceCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetFaceCount.html).
 
 ## Examples
 
 [Get Data for Simple Fillet (C#)](Get_Data_for_Simple_Fillet_Example_CSharp.htm)
-
 [Get Data for Simple Fillet (VB.NET)](Get_Data_for_Simple_Fillet_Example_VBNET.htm)
-
 [Get Data for Simple Fillet (VBA)](Get_Data_for_Simple_Fillet_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[ISimpleFilletFeatureData2::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFaces.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISimpleFilletFeatureData2::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFaces.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::GetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~GetFaces.html)
-
 [ISimpleFilletFeatureData2::ISetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~ISetFaces.html)
-
 [ISimpleFilletFeatureData2::SetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~SetFaces.html)
 
 ## Availability

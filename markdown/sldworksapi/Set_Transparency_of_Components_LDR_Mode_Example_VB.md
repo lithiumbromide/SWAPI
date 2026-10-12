@@ -9,17 +9,13 @@ source: "sldworksapi/Set_Transparency_of_Components_LDR_Mode_Example_VB.htm"
 
 # Set Transparency of Unmodified Components in Large Design Review Assembly Example(VBA)
 
-## Set Transparency of Unmodified Components in Large Design Review Mode
-Example (VBA)
+## Set Transparency of Unmodified Components in Large Design Review Mode Example (VBA)
 
 This example shows how to:
 
-- open an assembly in Large Design Review
-  mode
-- open, modify,
-  save, and close an assembly component, and
-- set the transparency level of
-  unmodified components in the assembly.
+- open an assembly in Large Design Review mode
+- open, modify, save, and close an assembly component, and
+- set the transparency level of unmodified components in the assembly.
 
 ```
 '----------------------------------------------------------------------------

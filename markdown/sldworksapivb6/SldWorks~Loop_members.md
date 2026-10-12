@@ -1,6 +1,5 @@
 ---
-title: "Loop Object
-Members"
+title: "Loop Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Loop_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Loop_members.html"
 ---
 
-# Loop Object
-Members
+# Loop Object Members
 
 ## Public Methods
 

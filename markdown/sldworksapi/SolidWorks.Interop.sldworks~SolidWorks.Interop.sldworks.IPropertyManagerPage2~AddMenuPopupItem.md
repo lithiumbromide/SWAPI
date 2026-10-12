@@ -59,21 +59,13 @@ System.bool AddMenuPopupItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ID`: Unique user-defined value for this pop-up menu item
 - `ItemText`: Text for pop-up menu item
-- `DocumentType`: Document types for which this pop-up menu item is displayed as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `DocumentType`: Document types for which this pop-up menu item is displayed as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 - `HintText`: Text displayed in the SOLIDWORKS status bar when the user moves the cursor over this pop-up menu item
 
 ### Return Value
@@ -82,11 +74,7 @@ True if the pop-up menu item is added, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~AddMenuPopupItem.html)
-
-.
+See [PropertyManagerPage2::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~AddMenuPopupItem.html).
 
 ## Remarks
 
@@ -102,7 +90,6 @@ This method requires that you implement these IPropertyManagerPage2Handler8 meth
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
 
 ## Availability

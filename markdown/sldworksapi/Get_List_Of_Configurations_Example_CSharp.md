@@ -9,8 +9,7 @@ source: "sldworksapi/Get_List_Of_Configurations_Example_CSharp.htm"
 
 # Get List of Configurations Example (C#)
 
-This example shows how to get a list of configuration
-names for the active document.
+This example shows how to get a list of configuration names for the active document.
 
 ```
 //------------------------------------------------------------------

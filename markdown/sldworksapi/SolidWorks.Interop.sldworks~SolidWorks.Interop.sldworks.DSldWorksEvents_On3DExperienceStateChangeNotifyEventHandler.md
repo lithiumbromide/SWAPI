@@ -43,35 +43,19 @@ public delegate System.int DSldWorksEvents_On3DExperienceStateChangeNotifyEventH
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `newState`: New state as defined by
-
-[sw3DExperienceState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceState_e.html)
+- `newState`: New state as defined by [sw3DExperienceState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceState_e.html)
 
 ## VBA Syntax
 
-See
-
-[On3DExperienceStateChangeNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~On3DExperienceStateChangeNotify_EV.html)
-
-.
+See [On3DExperienceStateChangeNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~On3DExperienceStateChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppOn3DExperienceStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppOn3DExperienceStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

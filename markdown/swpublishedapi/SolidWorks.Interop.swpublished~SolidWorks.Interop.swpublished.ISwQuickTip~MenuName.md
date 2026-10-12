@@ -48,16 +48,11 @@ Name of add-in's Quick Tips on the SOLIDWORKS Help menu
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::MenuName](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~MenuName.html)
-
-.
+See [SwQuickTip::MenuName](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~MenuName.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

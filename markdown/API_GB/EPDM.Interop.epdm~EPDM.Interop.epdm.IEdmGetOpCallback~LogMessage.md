@@ -45,9 +45,7 @@ void LogMessage(
 
 ### Parameters
 
-- `eMsgID`: Message to display to the user as defined in
-
-[EdmGetOpMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpMsg.html)
+- `eMsgID`: Message to display to the user as defined in [EdmGetOpMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpMsg.html)
 - `hCode`: Error code causing this method to be called
 - `bsDetails`: Reason for calling this method
 
@@ -61,7 +59,6 @@ void LogMessage(
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [IEdmGetOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.html)
 
 ## Availability

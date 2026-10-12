@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members.html"
 
 # EdmVarVal Structure Members
 
-The following tables list the members exposed by[EdmVarVal](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html).
+The following tables list the members exposed by [EdmVarVal](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html).
 
 ## Public Fields
 
@@ -24,7 +24,5 @@ The following tables list the members exposed by[EdmVarVal](EPDM.Interop.epdm~EP
 ## See Also
 
 [EdmVarVal Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Porgramming Items](Items.htm)

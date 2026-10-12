@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html"
 
 # EdmTaskMenuCmd Structure
 
-Used by
-
-[IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html)
-
-when an add-in adds menu commands to launch a task.
+Used by [IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html) when an add-in adds menu commands to launch a task.
 
 ## Syntax
 
@@ -38,20 +34,22 @@ public value class EdmTaskMenuCmd : public System.ValueType
 
 ## Examples
 
-struct EdmTaskMenuCmd{ integer mlCmdIDstring mbsMenuString ; integer mlEdmMenuFlags ; string mbsStatusBarHelp ; };
+struct EdmTaskMenuCmd{
+integer [mlCmdID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlCmdID.html)
+string [mbsMenuString](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mbsMenuString.html);
+integer [mlEdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlEdmMenuFlags.html);
+string [mbsStatusBarHelp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mbsStatusBarHelp.html);
+};
 
 ## Examples
 
 [Create a Task that Finds Approved Files (VB.NET)](Schedule_Task_Addin_Example_VBNET.htm)
-
 [Create a Task that Finds Approved Files (C#)](Schedule_Task_Addin_Example_CSharp.htm)
 
 ## See Also
 
 [EdmTaskMenuCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)
 
 ## Availability

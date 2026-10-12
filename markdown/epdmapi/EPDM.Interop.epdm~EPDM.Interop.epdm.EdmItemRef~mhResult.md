@@ -39,5 +39,4 @@ S_OK or 0 if successful
 ## See Also
 
 [EdmItemRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
 [EdmItemRef Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef_members.html)

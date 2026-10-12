@@ -47,13 +47,7 @@ System.float IGetTessTriStrips(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of floats (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of floats (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -83,52 +73,38 @@ This method returns an array of float values in the form of:
 
 [NumStrips,
 
-kadov_tag{{<spaces>}}VertexPerStrip1,VertexPerStrip2,...,VertexPerStripN,
+VertexPerStrip1, VertexPerStrip2,..., VertexPerStripN,
 
-kadov_tag{{<spaces>}}VertexPoints1[VertexPerStrip1 elements]*3,
+VertexPoints1[VertexPerStrip1 elements]*3,
 
-kadov_tag{{<spaces>}}VertexPoints2[VertexPerStrip2 elements]*3,...,
+VertexPoints2[VertexPerStrip2 elements]*3,...,
 
-kadov_tag{{<spaces>}}VertexPointsN[VertexPerStripNelements]*3]
+VertexPointsN[VertexPerStripN elements]*3]
 
 where:
 
-NumStrips= number of triangle strips on a particular face.
+NumStrips = number of triangle strips on a particular face.
 
-VertexPerStripN= number of vertex points for theNth triangle strip.
+VertexPerStripN = number of vertex points for the Nth triangle strip.
 
-VertexPointsN= a sub-array of vertices consisting of three float values representing the x,y,z coordinate of the vertex; the sub-array's length is defined by theVertexPerStripNelement in the array.
+VertexPointsN = a sub-array of vertices consisting of three float values representing the x,y,z coordinate of the vertex; the sub-array's length is defined by the VertexPerStripN element in the array.
 
-Because the valuesNumStripsand the elements ofVertexPerStripare long valueskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}packed into single values,kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}you must[unpack](sldworksapiprogguide.chm::/overview/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm)them before they can be used.
+Because the values NumStrips and the elements of VertexPerStrip are long values packed into single values, you must [unpack](sldworksapiprogguide.chm::/overview/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm) them before they can be used.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::GetTessNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessNorms.html)
-
 [IPartDoc::GetTessTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriangleCount.html)
-
 [IPartDoc::GetTessTriangles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriangles.html)
-
 [IPartDoc::GetTessTriStripEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripEdges.html)
-
 [IPartDoc::GetTessTriStripNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripNorms.html)
-
 [IPartDoc::GetTessTriStrips Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStrips.html)
-
 [IPartDoc::GetTessTriStripSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripSize.html)
-
 [IPartDoc::IGetTessNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessNorms.html)
-
 [IPartDoc::IGetTessTriangles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessTriangles.html)
-
 [IPartDoc::IGetTessTriStripEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessTriStripEdges.html)
-
 [IPartDoc::IGetTessTriStripEdgeSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessTriStripEdgeSize.html)
-
 [IPartDoc::IGetTessTriStripNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetTessTriStripNorms.html)
-
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)

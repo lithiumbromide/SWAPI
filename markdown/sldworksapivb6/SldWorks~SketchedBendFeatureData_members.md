@@ -1,6 +1,5 @@
 ---
-title: "SketchedBendFeatureData Object
-Members"
+title: "SketchedBendFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchedBendFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchedBendFeatureData_members.html"
 ---
 
-# SketchedBendFeatureData Object
-Members
+# SketchedBendFeatureData Object Members
 
 ## Public Methods
 

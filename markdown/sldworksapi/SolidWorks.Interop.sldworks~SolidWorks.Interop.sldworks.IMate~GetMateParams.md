@@ -40,24 +40,13 @@ System.object GetMateParams()
 System.Object^ GetMateParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Mate::GetMateParams](ms-its:sldworksapivb6.chm::/sldworks~Mate~GetMateParams.html)
-
-.
+See [Mate::GetMateParams](ms-its:sldworksapivb6.chm::/sldworks~Mate~GetMateParams.html).
 
 ## See Also
 
 [IMate Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html)
-
 [IMate Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate_members.html)

@@ -11,7 +11,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 Allows you to get and set Auto Dimension Scheme options.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IDimXpertAutoDimSchemeOption
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption.html)
-
-.
+See [DimXpertAutoDimSchemeOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## Remarks
@@ -66,5 +60,4 @@ When implemented as-is, this interface sets properties to default values.
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

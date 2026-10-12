@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # GetEndPoints Method (ISimulationLinearSpringFeatureData)
 
-Obsolete. Superseded by
-
-[ISimulationSpringFeatureData::GetEndPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~GetEndPoints.html)
-
-.
+Obsolete. Superseded by [ISimulationSpringFeatureData::GetEndPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~GetEndPoints.html).
 
 ## Syntax
 
@@ -62,37 +58,23 @@ void GetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PDirDisp1`: Linear edge, vertex, sketch segment, or sketch point
 - `PDirDisp2`: Linear edge, vertex, sketch segment, or sketch point
-
-ParamDesc
-- `Type1`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `Type2`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type1`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type2`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationLinearSpringFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~GetEndPoints.html)
-
-.
+See [SimulationLinearSpringFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~GetEndPoints.html).
 
 ## See Also
 
 [ISimulationLinearSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData.html)
-
 [ISimulationLinearSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData_members.html)
-
 [ISimulationLinearSpringFeatureData::SetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData~SetEndPoints.html)
 
 ## Availability

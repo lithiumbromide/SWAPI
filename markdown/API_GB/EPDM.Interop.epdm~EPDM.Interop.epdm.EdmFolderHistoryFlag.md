@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderHistoryFlag.html"
 
 # EdmFolderHistoryFlag Enumeration
 
-Options for adding folders when calling
-
-[IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for adding folders when calling [IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

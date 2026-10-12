@@ -40,13 +40,7 @@ System.bool GetUseDocTextFormat()
 System.bool GetUseDocTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if SOLIDWORKS is using the default settings for the text format, false if n
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetUseDocTextFormat.html)
-
-.
+See [DetailCircle::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetUseDocTextFormat.html).
 
 ## Examples
 
 [Create Detail Circle and Detail View (C#)](Create_Detail_Circle_and_Detail_View_Example_CSharp.htm)
-
 [Create Detail Circle and Detail View (VB.NET)](Create_Detail_Circle_and_Detail_View_Example_VBNET.htm)
-
 [Create Detail Circle and Detail View (VBA)](Create_Detail_Circle_and_Detail_View_Example_VB.htm)
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetTextFormat.html)
-
 [IDetailCircle::SetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~SetTextFormat.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.bool Status {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if the Physical Simulation has been calculated, false if it has not or if t
 
 ## VBA Syntax
 
-See
-
-[Simulation::Status](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Status.html)
-
-.
+See [Simulation::Status](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Status.html).
 
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # ICreateNewBody Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::ICreateNewBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateNewBody2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::ICreateNewBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateNewBody2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Body ICreateNewBody()
 Body^ ICreateNewBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ICreateNewBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ICreateNewBody.html)
-
-.
+See [PartDoc::ICreateNewBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ICreateNewBody.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

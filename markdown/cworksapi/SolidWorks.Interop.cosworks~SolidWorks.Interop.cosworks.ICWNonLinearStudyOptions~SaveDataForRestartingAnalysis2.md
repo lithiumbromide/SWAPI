@@ -50,15 +50,11 @@ property System.bool SaveDataForRestartingAnalysis2 {
 - -1 or true = Save data for restarting the analysis
 - 0 or false = Do not save data for restarting the analysis
 
-(see**Remarks**)
+(see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SaveDataForRestartingAnalysis2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SaveDataForRestartingAnalysis2.html)
-
-.
+See [CWNonLinearStudyOptions::SaveDataForRestartingAnalysis2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SaveDataForRestartingAnalysis2.html).
 
 ## Remarks
 
@@ -69,7 +65,6 @@ After running a nonlinear problem with the option to save data for restarting th
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

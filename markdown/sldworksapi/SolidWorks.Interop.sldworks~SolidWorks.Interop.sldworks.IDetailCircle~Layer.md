@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Layer name
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::Layer](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~Layer.html)
-
-.
+See [DetailCircle::Layer](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~Layer.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ An empty string indicates no layer. If you set the layer to a layer name that do
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

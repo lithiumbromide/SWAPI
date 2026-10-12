@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundHoleFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetBottomFeature.html)
-
-.
+See [SwDMDimXpertCompoundHoleFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetBottomFeature.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

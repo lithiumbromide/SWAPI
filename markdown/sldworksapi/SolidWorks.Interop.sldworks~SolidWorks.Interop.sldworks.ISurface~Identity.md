@@ -40,25 +40,15 @@ System.int Identity()
 System.int Identity();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of surface as defined in[swSurfaceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceTypes_e.html)
+Type of surface as defined in [swSurfaceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[Surface::Identity](ms-its:sldworksapivb6.chm::/sldworks~Surface~Identity.html)
-
-.
+See [Surface::Identity](ms-its:sldworksapivb6.chm::/sldworks~Surface~Identity.html).
 
 ## Examples
 
@@ -67,5 +57,4 @@ See
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

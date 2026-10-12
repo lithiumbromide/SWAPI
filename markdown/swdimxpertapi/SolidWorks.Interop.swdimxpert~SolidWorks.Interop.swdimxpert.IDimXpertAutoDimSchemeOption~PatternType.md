@@ -47,32 +47,21 @@ property System.int PatternType {
 
 ### Property Value
 
-Pattern type as defined in
-
-[swDimXpertAutoDimSchemePatternType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemePatternType_e.html)
-
-; default is swDimXpertAudoDimSchemePatternType_Linear
+Pattern type as defined in [swDimXpertAutoDimSchemePatternType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemePatternType_e.html); default is swDimXpertAudoDimSchemePatternType_Linear
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption::PatternType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~PatternType.html)
-
-.
+See [DimXpertAutoDimSchemeOption::PatternType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~PatternType.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
 
 ## Availability

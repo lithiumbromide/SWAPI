@@ -33,21 +33,15 @@ IEdmPos5^ GetFirstCategoryPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first category in the list
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first category in the list
 
 ## Examples
 
-See the
-
-[IEdmCategoryMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html)
-
-examples.
+See the [IEdmCategoryMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html) examples.
 
 ## Remarks
 
-After calling this method, call[IEdmCategoryMgr6::GetNextCategory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6~GetNextCategory.html).
+After calling this method, call [IEdmCategoryMgr6::GetNextCategory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6~GetNextCategory.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -57,7 +51,6 @@ After calling this method, call[IEdmCategoryMgr6::GetNextCategory](EPDM.Interop.
 ## See Also
 
 [IEdmCategoryMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html)
-
 [IEdmCategoryMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double BendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,23 +53,11 @@ Bend radius in meters
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~BendRadius.html)
-
-.
+See [SketchedBendFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~BendRadius.html).
 
 ## Examples
 
-See the
-
-[ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html)
-
-and
-
-[ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html)
-
-examples.
+See the [ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html) and [ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html) examples.
 
 ## Examples
 
@@ -83,7 +65,7 @@ examples.
 
 ## Remarks
 
-This property is valid only if[ISketchedBendFeatureData::UseDefaultBendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendRadius.html)is false.
+This property is valid only if [ISketchedBendFeatureData::UseDefaultBendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendRadius.html) is false.
 
 To use something other than the default bend radius, set:
 
@@ -91,14 +73,11 @@ To use something other than the default bend radius, set:
 
 - and -
 
-- [ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html)
-
-  to false.
+- [ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html) to false.
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
 
 ## Availability

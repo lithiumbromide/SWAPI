@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Custom_Properties_of_Referenced_Part_Example_VBNET.htm"
 
 # Get Custom Properties of Referenced Part Example (VB.NET)
 
-This example shows how to get the custom property data of a referenced
-part.
+This example shows how to get the custom property data of a referenced part.
 
 ```vb
  '----------------------------------------------------

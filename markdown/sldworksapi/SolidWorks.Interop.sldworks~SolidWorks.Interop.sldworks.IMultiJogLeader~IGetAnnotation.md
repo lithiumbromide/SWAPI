@@ -40,13 +40,7 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[MultiJogLeader::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetAnnotation.html)
-
-.
+See [MultiJogLeader::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetAnnotation.html).
 
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [IMultiJogLeader Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader_members.html)
-
 [IMultiJogLeader::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~GetAnnotation.html)
 
 ## Availability

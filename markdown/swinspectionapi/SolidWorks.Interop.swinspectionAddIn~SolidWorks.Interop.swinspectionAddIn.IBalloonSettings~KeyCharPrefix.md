@@ -51,11 +51,7 @@ Prefix
 
 ## VBA Syntax
 
-See
-
-[BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html)
-
-properties.
+See [BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html) properties.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Key characteristics are characteristics whose variation has a significant impact
 ## See Also
 
 [IBalloonSettings Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html)
-
 [IBalloonSettings Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings_members.html)
 
 ## Availability

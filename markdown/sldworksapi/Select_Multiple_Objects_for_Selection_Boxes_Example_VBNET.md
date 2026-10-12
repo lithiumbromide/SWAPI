@@ -9,17 +9,35 @@ source: "sldworksapi/Select_Multiple_Objects_for_Selection_Boxes_Example_VBNET.h
 
 # Select Multiple Objects for Selection Boxes Example (VB.NET)
 
-This example shows how to select multiple objects and add the selected
-objects to different selection boxes on a PropertyManager page.
+This example shows how to select multiple objects and add the selected objects to different selection boxes on a PropertyManager page.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Verify that the specified assembly exists. ' 2. Copy SolidWorksMacro.vb to your project. ' 3. Add a class module and copy clsPropMgr.vb to that module. ' 4. Add the SolidWorks.Interop.swpublished
-primary interop assembly ' reference to your project (click Project > Add Reference , ' browse to install_dir \ api\redist , select ' SolidWorks.Interop.swpublished.dll > OK ). ' 5. Verify that the Tools > Options > System Options >
-Stop VSTA debugger ' on macro exit checkbox is clear. ' ' Postconditions: ' 1. Opens the assembly. ' 2. Creates a PropertyManager page. ' 3. Examine the PropertyManager page to verify that ' three selected faces
-appear in the top selection ' box and two selected
-faces appear in the bottom ' selection box. ' 4. Close the PropertyManager page. ' ' NOTES: ' * Reselect the Tools > Options > System Options >
-Stop VSTA debugger ' on macro exit checkbox, if it was selected
-prior to running the macro. ' * Because the assembly document is used
-elsewhere, ' do not save changes. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Verify that the specified assembly exists.
+' 2. Copy [SolidWorksMacro.vb](#Module) to your project.
+' 3. Add a class module and copy [clsPropMgr.vb](#Class) to that module.
+' 4. Add the SolidWorks.Interop.swpublished primary interop assembly
+' reference to your project (click **Project > Add Reference**,
+' browse to `install_dir`\**api\redist**, select
+' **SolidWorks.Interop.swpublished.dll > OK**).
+' 5. Verify that the **Tools > Options > System Options > Stop VSTA debugger**
+' **on macro exit** checkbox is clear.
+'
+' Postconditions:
+' 1. Opens the assembly.
+' 2. Creates a PropertyManager page.
+' 3. Examine the PropertyManager page to verify that
+' three selected faces appear in the top selection
+' box and two selected faces appear in the bottom
+' selection box.
+' 4. Close the PropertyManager page.
+'
+' NOTES:
+' * Reselect the **Tools > Options > System Options > Stop VSTA debugger**
+' **on macro exit** checkbox, if it was selected prior to running the macro.
+' * Because the assembly document is used elsewhere,
+' do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
  'SolidWorksMacro.vb
@@ -107,7 +125,7 @@ Partial Class SolidWorksMacro
 End Class
 ```
 
-Back to top
+[Back to top](#Top)
 
 ```vb
  'clsPropMgr.vb
@@ -375,4 +393,4 @@ Imports System.Diagnostics
 End Class
 ```
 
-Back to top
+[Back to top](#Top)

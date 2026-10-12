@@ -40,13 +40,7 @@ EnumEdges EnumEdges()
 EnumEdges^ EnumEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Vertex::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Vertex~EnumEdges.html)
-
-.
+See [Vertex::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Vertex~EnumEdges.html).
 
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [IVertex::EnumEdgesOriented Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~EnumEdgesOriented.html)
-
 [IVertex::GetEdgesOriented Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetEdgesOriented.html)
-
 [IVertex::GetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetEdges.html)

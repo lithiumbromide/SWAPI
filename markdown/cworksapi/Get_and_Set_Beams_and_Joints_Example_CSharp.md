@@ -44,67 +44,67 @@ using System;
 using System.Diagnostics;
 namespace Macro1.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CosmosWorks COSMOSWORKS = default(CosmosWorks);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CwAddincallback COSMOSObject = default(CwAddincallback);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWModelDoc ActDoc = default(CWModelDoc);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWStudyManager StudyMngr = default(CWStudyManager);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWStudy Study = default(CWStudy);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWBeamManager BeamMgr = default(CWBeamManager);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWBeamBody BeamBody = default(CWBeamBody);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWJoints Joints = default(CWJoints);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMesh Mesh = default(CWMesh);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int nbrBeamBodies = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int beamBodyType = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}double ElementSize = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}double Tolerance = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int errors = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int warnings = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int errCode = 0;
+    partial class SolidWorksMacro
+    {
+        public void Main()
+        {
+            CosmosWorks COSMOSWORKS = default(CosmosWorks);
+            CwAddincallback COSMOSObject = default(CwAddincallback);
+            CWModelDoc ActDoc = default(CWModelDoc);
+            CWStudyManager StudyMngr = default(CWStudyManager);
+            CWStudy Study = default(CWStudy);
+            CWBeamManager BeamMgr = default(CWBeamManager);
+            CWBeamBody BeamBody = default(CWBeamBody);
+            CWJoints Joints = default(CWJoints);
+            CWMesh Mesh = default(CWMesh);
+            int nbrBeamBodies = 0;
+            int beamBodyType = 0;
+            double ElementSize = 0;
+            double Tolerance = 0;
+            int errors = 0;
+            int warnings = 0;
+            int errCode = 0;
             bool boolCode = false;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int j = 0;
+            int j = 0;
              bool keepJointUpdates = true;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Get the SOLIDWORKS Simulation object
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}COSMOSObject = (CwAddincallback)swApp.GetAddInObject("SldWorks.Simulation");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (COSMOSObject == null) ErrorMsg("COSMOSObject object not found");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}COSMOSWORKS = COSMOSObject.CosmosWorks;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (COSMOSWORKS == null) ErrorMsg("COSMOSWORKS object not found");
+            //Get the SOLIDWORKS Simulation object
+            COSMOSObject = (CwAddincallback)swApp.GetAddInObject("SldWorks.Simulation");
+            if (COSMOSObject == null) ErrorMsg("COSMOSObject object not found");
+            COSMOSWORKS = COSMOSObject.CosmosWorks;
+            if (COSMOSWORKS == null) ErrorMsg("COSMOSWORKS object not found");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Open and get the active document
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\weldments\\weldment_box2.sldprt", (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ActDoc = (CWModelDoc)COSMOSWORKS.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (ActDoc == null) ErrorMsg("No active document");
+            //Open and get the active document
+            swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\weldments\\weldment_box2.sldprt", (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
+            ActDoc = (CWModelDoc)COSMOSWORKS.ActiveDoc;
+            if (ActDoc == null) ErrorMsg("No active document");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Create new static study named frame
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}StudyMngr = (CWStudyManager)ActDoc.StudyManager;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (StudyMngr == null) ErrorMsg("StudyMngr object not there");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Study = (CWStudy)StudyMngr.CreateNewStudy3("frame", (int)swsAnalysisStudyType_e.swsAnalysisStudyTypeStatic, 0, out errCode);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (Study == null) ErrorMsg("Study not created");
+            //Create new static study named frame
+            StudyMngr = (CWStudyManager)ActDoc.StudyManager;
+            if (StudyMngr == null) ErrorMsg("StudyMngr object not there");
+            Study = (CWStudy)StudyMngr.CreateNewStudy3("frame", (int)swsAnalysisStudyType_e.swsAnalysisStudyTypeStatic, 0, out errCode);
+            if (Study == null) ErrorMsg("Study not created");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Get and set beam info
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}BeamMgr = (CWBeamManager)Study.BeamManager;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}nbrBeamBodies = BeamMgr.BeamCount;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Beams...");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" Number of beams: " + nbrBeamBodies);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}BeamBody = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}for (j = 0; j <= (nbrBeamBodies - 1); j++)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}BeamBody = (CWBeamBody)BeamMgr.GetBeamBodyAt(j, out errCode);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("No beam body");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" Name of beam body: " + BeamBody.BeamBodyName);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}beamBodyType = BeamBody.BeamType;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (beamBodyType == 0)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Type of beam body: beam");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Type of beam body: truss");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
+            //Get and set beam info
+            BeamMgr = (CWBeamManager)Study.BeamManager;
+            nbrBeamBodies = BeamMgr.BeamCount;
+            Debug.Print("Beams...");
+            Debug.Print(" Number of beams: " + nbrBeamBodies);
+            BeamBody = null;
+            for (j = 0; j <= (nbrBeamBodies - 1); j++)
+            {
+                BeamBody = (CWBeamBody)BeamMgr.GetBeamBodyAt(j, out errCode);
+                if (errCode != 0) ErrorMsg("No beam body");
+                Debug.Print(" Name of beam body: " + BeamBody.BeamBodyName);
+                beamBodyType = BeamBody.BeamType;
+                if (beamBodyType == 0)
+                {
+                    Debug.Print(" Type of beam body: beam");
+                }
+                else
+                {
+                    Debug.Print(" Type of beam body: truss");
+                }
                  Debug.Print("      Beam cross-section properties:");
 
                  Debug.Print("         Maximum distance from the shear center to the furthest point: " + BeamBody.BeamDistForMaxShearStress);
@@ -118,22 +118,22 @@ kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
                  Debug.Print("         Beam torsional stiffness constant: " + BeamBody.BeamTorsionalConstant);
 
                  Debug.Print("           Units of length as defined in swsLinearUnit_e: " + BeamBody.BeamTorsionalConstantUnit);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolCode = BeamBody.SetLibraryMaterial2("C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\sldmaterials\\solidworks materials.sldmat", "Plain Carbon Steel");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (boolCode == false) ErrorMsg("No material applied");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}BeamBody = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
+                boolCode = BeamBody.SetLibraryMaterial2("C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\sldmaterials\\solidworks materials.sldmat", "Plain Carbon Steel");
+                if (boolCode == false) ErrorMsg("No material applied");
+                BeamBody = null;
+            }
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Calculate joints
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints = (CWJoints)BeamMgr.GetJointGroup(out errCode);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" ");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Joints...");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("No joint group");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints.JointsBeginEdit();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints.IncludeAllSelectedBeam = true;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints.IncludeDisplayNeutralAxis = true;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints.CalculateJoints();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Joints.JointsEndEdit();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" Pinball radius: " + Joints.PinBallRadius * 0.001);
+            //Calculate joints
+            Joints = (CWJoints)BeamMgr.GetJointGroup(out errCode);
+            Debug.Print(" ");
+            Debug.Print("Joints...");
+            if (errCode != 0) ErrorMsg("No joint group");
+            Joints.JointsBeginEdit();
+            Joints.IncludeAllSelectedBeam = true;
+            Joints.IncludeDisplayNeutralAxis = true;
+            Joints.CalculateJoints();
+            Joints.JointsEndEdit();
+            Debug.Print(" Pinball radius: " + Joints.PinBallRadius * 0.001);
 ```
 
 ```vb
@@ -148,103 +148,103 @@ kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" Pinball rad
 ```
 
 ```vb
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}switch (Joints.PinBallRadiusUnit)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 0:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: mm");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 1:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: cm");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 2:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: m");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 3:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: in");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 4:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: ft");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 5:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: ft-in");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 6:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: am");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 7:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: nm");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 8:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: micron");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 9:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: mil");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 10:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Pinball radius unit: MicroIn");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
+            switch (Joints.PinBallRadiusUnit)
+            {
+                case 0:
+                    Debug.Print(" Pinball radius unit: mm");
+                    break;
+                case 1:
+                    Debug.Print(" Pinball radius unit: cm");
+                    break;
+                case 2:
+                    Debug.Print(" Pinball radius unit: m");
+                    break;
+                case 3:
+                    Debug.Print(" Pinball radius unit: in");
+                    break;
+                case 4:
+                    Debug.Print(" Pinball radius unit: ft");
+                    break;
+                case 5:
+                    Debug.Print(" Pinball radius unit: ft-in");
+                    break;
+                case 6:
+                    Debug.Print(" Pinball radius unit: am");
+                    break;
+                case 7:
+                    Debug.Print(" Pinball radius unit: nm");
+                    break;
+                case 8:
+                    Debug.Print(" Pinball radius unit: micron");
+                    break;
+                case 9:
+                    Debug.Print(" Pinball radius unit: mil");
+                    break;
+                case 10:
+                    Debug.Print(" Pinball radius unit: MicroIn");
+                    break;
+            }
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Mesh the part
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Mesh = Study.Mesh;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (Mesh == null) ErrorMsg("No mesh object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Mesh.Quality = (int)swsMeshQuality_e.swsMeshQualityHigh;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Mesh.GetDefaultElementSizeAndTolerance((int)swsLinearUnit_e.swsLinearUnitMillimeters, out ElementSize, out Tolerance);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}errCode = Study.CreateMesh((int)swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("Mesh failed");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" ");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Mesh...");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" Time to create mesh (hh:mm:ss): " + Mesh.TimeToCompleteMesh);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}switch (Mesh.MeshType)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 0:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh type: solid");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 1:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh type: midsurface");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 2:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh type: surface");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 3:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh type: mixed");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 4:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh type: beam");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" Number of mesh controls: " + Mesh.MeshControlCount);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}switch (Mesh.MeshState)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 0:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh state: no mesh");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 1:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh state: exists and is current");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 2:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh state: exists and is not current");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 3:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh state: failed");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case 4:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" Mesh state: interrupted");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}private void ErrorMsg(string Message)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.SendMsgToUser2(Message, 0, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("'*** WARNING - General");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("'*** " + Message);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+            //Mesh the part
+            Mesh = Study.Mesh;
+            if (Mesh == null) ErrorMsg("No mesh object");
+            Mesh.Quality = (int)swsMeshQuality_e.swsMeshQualityHigh;
+            Mesh.GetDefaultElementSizeAndTolerance((int)swsLinearUnit_e.swsLinearUnitMillimeters, out ElementSize, out Tolerance);
+            errCode = Study.CreateMesh((int)swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance);
+            if (errCode != 0) ErrorMsg("Mesh failed");
+            Debug.Print(" ");
+            Debug.Print("Mesh...");
+            Debug.Print(" Time to create mesh (hh:mm:ss): " + Mesh.TimeToCompleteMesh);
+            switch (Mesh.MeshType)
+            {
+                case 0:
+                    Debug.Print(" Mesh type: solid");
+                    break;
+                case 1:
+                    Debug.Print(" Mesh type: midsurface");
+                    break;
+                case 2:
+                    Debug.Print(" Mesh type: surface");
+                    break;
+                case 3:
+                    Debug.Print(" Mesh type: mixed");
+                    break;
+                case 4:
+                    Debug.Print(" Mesh type: beam");
+                    break;
+            }
+            Debug.Print(" Number of mesh controls: " + Mesh.MeshControlCount);
+            switch (Mesh.MeshState)
+            {
+                case 0:
+                    Debug.Print(" Mesh state: no mesh");
+                    break;
+                case 1:
+                    Debug.Print(" Mesh state: exists and is current");
+                    break;
+                case 2:
+                    Debug.Print(" Mesh state: exists and is not current");
+                    break;
+                case 3:
+                    Debug.Print(" Mesh state: failed");
+                    break;
+                case 4:
+                    Debug.Print(" Mesh state: interrupted");
+                    break;
+            }
+        }
+        private void ErrorMsg(string Message)
+        {
+            swApp.SendMsgToUser2(Message, 0, 0);
+            swApp.RecordLine("'*** WARNING - General");
+            swApp.RecordLine("'*** " + Message);
+            swApp.RecordLine("");
+        }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+        /// <summary>
+        /// The SldWorks swApp variable is pre-assigned for you.
+        /// </summary>
+        public SldWorks swApp;
+    }
 }
 ```

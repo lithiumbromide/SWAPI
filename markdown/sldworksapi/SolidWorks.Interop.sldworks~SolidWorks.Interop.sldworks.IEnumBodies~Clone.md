@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # Clone Method (IEnumBodies)
 
-Obsolete. Superseded by
-
-[IEnumBodies2::Clone](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2~Clone.html)
-
-.
+Obsolete. Superseded by [IEnumBodies2::Clone](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2~Clone.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumBodies::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies~Clone.html)
-
-.
+See [EnumBodies::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies~Clone.html).
 
 ## See Also
 
 [IEnumBodies Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies.html)
-
 [IEnumBodies Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies_members.html)

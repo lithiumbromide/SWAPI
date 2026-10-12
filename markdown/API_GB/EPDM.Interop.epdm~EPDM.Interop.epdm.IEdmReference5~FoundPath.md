@@ -40,13 +40,11 @@ File system path where the file was found
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

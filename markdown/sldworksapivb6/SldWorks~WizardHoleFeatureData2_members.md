@@ -1,6 +1,5 @@
 ---
-title: "WizardHoleFeatureData2 Object
-Members"
+title: "WizardHoleFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WizardHoleFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WizardHoleFeatureData2_members.html"
 ---
 
-# WizardHoleFeatureData2 Object
-Members
+# WizardHoleFeatureData2 Object Members
 
 ## Public Methods
 

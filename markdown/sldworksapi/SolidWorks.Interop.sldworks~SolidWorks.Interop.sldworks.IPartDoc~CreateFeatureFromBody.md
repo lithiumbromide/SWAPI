@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # CreateFeatureFromBody Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::CreateFeatureFromBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateFeatureFromBody3.html)
-
-.
+Obsolete. Superseded by [IPartDoc::CreateFeatureFromBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateFeatureFromBody3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ CreateFeatureFromBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::CreateFeatureFromBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~CreateFeatureFromBody.html)
-
-.
+See [PartDoc::CreateFeatureFromBody](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~CreateFeatureFromBody.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

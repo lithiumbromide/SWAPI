@@ -40,13 +40,7 @@ System.int GetCount()
 System.int GetCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of layers
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::GetCount](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetCount.html)
-
-.
+See [LayerMgr::GetCount](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ILayerMgr::IGetLayerList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerList.html)
-
-to determine the size of the array.
+Call this method before calling [ILayerMgr::IGetLayerList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerList.html) to determine the size of the array.
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
 
 ## Availability

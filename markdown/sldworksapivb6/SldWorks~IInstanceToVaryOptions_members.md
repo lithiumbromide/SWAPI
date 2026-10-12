@@ -1,6 +1,5 @@
 ---
-title: "IInstanceToVaryOptions Object
-Members"
+title: "IInstanceToVaryOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IInstanceToVaryOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IInstanceToVaryOptions_members.html"
 ---
 
-# IInstanceToVaryOptions Object
-Members
+# IInstanceToVaryOptions Object Members
 
 ## Public Methods
 

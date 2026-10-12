@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html"
 
 Allows you to manage serial numbers.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,23 +37,14 @@ public interface class IEdmSerNoGen7 : public IEdmSerNoGen6
 ## Examples
 
 [Set Part Number Using Default Serial Numbers (C#)](Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm)
-
 [Set Part Number Using Default Serial Numbers (VB.NET)](Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm)
 
 ## Remarks
 
 This interface:
 
-- supersedes
-
-  [IEdmSerNoGen6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html)
-
-  .
-- is extended by
-
-  [IEdmSerNoGen8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html)
-
-  .
+- supersedes [IEdmSerNoGen6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html).
+- is extended by [IEdmSerNoGen8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html).
 
 ## Accessors
 
@@ -68,5 +53,4 @@ This interface:
 ## See Also
 
 [IEdmSerNoGen7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

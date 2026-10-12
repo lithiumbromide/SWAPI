@@ -40,13 +40,7 @@ System.object GetSustainability()
 System.Object^ GetSustainability();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSustainability](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSustainability.html)
-
-.
+See [ModelDocExtension::GetSustainability](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSustainability.html).
 
 ## Examples
 
 [Calculate Environmental Impact of Part (VBA)](Calculate_Environmental_Impact_of_Part_Example_VB.htm)
-
 [Calculate Environmental Impact of Part (VB.NET)](Calculate_Environmental_Impact_of_Part_Example_VBNET.htm)
-
 [Calculate Environmental Impact of Part (C#)](Calculate_Environmental_Impact_of_Part_Example_CSharp.htm)
-
 [Calculate Environmental Impact of Assembly (VBA)](Calculate_Environmental_Impact_of_Assembly_Example_VB.htm)
-
 [Calculate Environmental Impact of Assembly (VB.NET)](Calculate_Environmental_Impact_of_Assembly_Example_VBNET.htm)
-
 [Calculate Environmental Impact of Assembly (C#)](Calculate_Environmental_Impact_of_Assembly_Example_CSharp.htm)
 
 ## Remarks
@@ -81,7 +66,6 @@ SOLIDWORKS Sustainability and its API are only available in SOLIDWORKS Professio
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

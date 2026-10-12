@@ -39,9 +39,7 @@ System.Object^ GetDefaultValueComponent(
 
 ### Parameters
 
-- `eValue`: Type of component for which to get a value as defined in
-
-[EdmDefValComp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDefValComp.html)
+- `eValue`: Type of component for which to get a value as defined in [EdmDefValComp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDefValComp.html)
 
 ### Return Value
 
@@ -49,11 +47,7 @@ Default value
 
 ## Examples
 
-See the
-
-[IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
-examples.
+See the [IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html) examples.
 
 ## Remarks
 
@@ -67,7 +61,6 @@ The user can generate a new serial number value in a card by right-clicking in t
 ## See Also
 
 [IEdmCardViewCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
 [IEdmCardViewCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6_members.html)
 
 ## Availability

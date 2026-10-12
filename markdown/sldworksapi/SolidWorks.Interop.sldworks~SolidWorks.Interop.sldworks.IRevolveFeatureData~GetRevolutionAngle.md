@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # GetRevolutionAngle Method (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::GetRevolutionAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~GetRevolutionAngle.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::GetRevolutionAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~GetRevolutionAngle.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double GetRevolutionAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~GetRevolutionAngle.html)
-
-.
+See [RevolveFeatureData::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~GetRevolutionAngle.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

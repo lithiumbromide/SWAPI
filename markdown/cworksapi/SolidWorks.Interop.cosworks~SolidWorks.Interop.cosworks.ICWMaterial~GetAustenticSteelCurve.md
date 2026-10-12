@@ -42,25 +42,17 @@ System.Object^ GetAustenticSteelCurve();
 
 ### Return Value
 
-Array of austentic steel curve data (see
-
-Remarks
-
-)
+Array of austentic steel curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetAustenticSteelCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetAustenticSteelCurve.html)
-
-.
+See [CWMaterial::GetAustenticSteelCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetAustenticSteelCurve.html).
 
 ## Remarks
 
 Austentic steel curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
@@ -74,7 +66,6 @@ where:
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

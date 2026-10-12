@@ -61,49 +61,27 @@ System.int SetLoadHistoryCurve(
 
 ### Parameters
 
-- `VarLHCurveXData`: Array of times; valid only if NType =
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-
-.swsFatigueLoadHistoryCurveType_TimeAndAmplitude
+- `VarLHCurveXData`: Array of times; valid only if NType = [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html).swsFatigueLoadHistoryCurveType_TimeAndAmplitude
 - `VarLHCurveYData`: Array of amplitudes
-- `NType`: Type of curve as defined in
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-- `DSamplingRate`: Sampling rate in seconds; valid only if NType =
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-
-.swsFatigueLoadHistoryCurveType_SamplingRateAndAmplitude
+- `NType`: Type of curve as defined in [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
+- `DSamplingRate`: Sampling rate in seconds; valid only if NType = [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html).swsFatigueLoadHistoryCurveType_SamplingRateAndAmplitude
 
 ### Return Value
 
-Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::SetLoadHistoryCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SetLoadHistoryCurve.html)
-
-.
+See [CWFatigueEvent::SetLoadHistoryCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SetLoadHistoryCurve.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::GetLoadHistoryCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~GetLoadHistoryCurve.html)
 
 ## Availability

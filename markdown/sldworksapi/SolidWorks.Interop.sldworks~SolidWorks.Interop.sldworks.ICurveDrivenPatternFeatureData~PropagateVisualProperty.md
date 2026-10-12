@@ -45,13 +45,7 @@ property System.bool PropagateVisualProperty {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to propagate all visual properties, false to not
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~PropagateVisualProperty.html)
-
-.
+See [CurveDrivenPatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~PropagateVisualProperty.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
 
 ## Availability

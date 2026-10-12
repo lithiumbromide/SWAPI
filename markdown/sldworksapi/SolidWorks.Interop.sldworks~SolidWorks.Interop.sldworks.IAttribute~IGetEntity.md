@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAt
 
 # IGetEntity Method (IAttribute)
 
-Obsolete. Superseded by
-
-[IAttribute::IGetEntity2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute~IGetEntity2.html)
-
-.
+Obsolete. Superseded by [IAttribute::IGetEntity2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute~IGetEntity2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Entity IGetEntity()
 Entity^ IGetEntity();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Attribute::IGetEntity](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetEntity.html)
-
-.
+See [Attribute::IGetEntity](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetEntity.html).
 
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)

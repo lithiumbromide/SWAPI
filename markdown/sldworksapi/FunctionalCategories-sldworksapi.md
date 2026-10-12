@@ -26,7 +26,7 @@ This topic lists the SOLIDWORKS interfaces categorized by functionality.
 - [User-interface Interfaces](#UserInterface)
 - [Custom Interfaces](#Custom)
 
-**NOTE:**Interfaces and delegates appear in alphabetical order on the Contents tab in their respective interop assembly namespace book.
+**NOTE:** Interfaces and delegates appear in alphabetical order on the Contents tab in their respective interop assembly namespace book.
 
 ##### Application Interfaces
 
@@ -83,6 +83,7 @@ This topic lists the SOLIDWORKS interfaces categorized by functionality.
 
   - [IBendTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTableAnnotation.html)
   - [IBomTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html)
+  - [IFamilyTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableAnnotation.html)
   - [IGeneralTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableAnnotation.html)
   - [IGeneralToleranceTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html)
   - [IHoleTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTableAnnotation.html)
@@ -159,6 +160,7 @@ This topic lists the SOLIDWORKS interfaces categorized by functionality.
   - [IBendTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTable.html)
   - [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
   - [IBomTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable.html)
+  - [IFamilyTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature.html)
   - [IGeneralTableFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature.html)
   - [IGeneralToleranceTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html)
   - [IHoleTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable.html)
@@ -533,6 +535,7 @@ This topic lists the SOLIDWORKS interfaces categorized by functionality.
 
   - [IAppearanceSetting](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAppearanceSetting.html)
   - [IDecal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDecal.html)
+  - [IDSPBRMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial.html)
   - [IFaceDecalProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaceDecalProperties.html)
   - [IRayTraceRenderer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRenderer.html)
   - [IRayTraceRendererOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRendererOptions.html)

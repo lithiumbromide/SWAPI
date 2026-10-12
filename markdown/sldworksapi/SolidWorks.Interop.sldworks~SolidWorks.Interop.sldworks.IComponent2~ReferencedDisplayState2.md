@@ -45,13 +45,7 @@ property System.String^ ReferencedDisplayState2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ Name of display state
 
 ## VBA Syntax
 
-See
-
-[Component2::ReferencedDisplayState2](ms-its:sldworksapivb6.chm::/sldworks~Component2~ReferencedDisplayState2.html)
-
-.
+See [Component2::ReferencedDisplayState2](ms-its:sldworksapivb6.chm::/sldworks~Component2~ReferencedDisplayState2.html).
 
 ## Examples
 
 [Set Active Display State of Referenced Component (C#)](Set_Active_Display_State_of_Referenced_Component_Example_CSharp.htm)
-
 [Set Active Display State of Referenced Component (VB.NET)](Set_Active_Display_State_of_Referenced_Component_Example_VBNET.htm)
-
 [Set Active Display State of Referenced Component (VBA)](Set_Active_Display_State_of_Referenced_Component_Example_VB.htm)
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IConfiguration::GetDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStates.html)
-
 [IConfigurationManager::LinkDisplayStatesToConfigurations Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~LinkDisplayStatesToConfigurations.html)
 
 ## Availability

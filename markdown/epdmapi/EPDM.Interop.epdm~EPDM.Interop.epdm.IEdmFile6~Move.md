@@ -56,7 +56,6 @@ void Move(
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## Remarks
@@ -72,7 +71,6 @@ If the file has references, the paths of those references are updated to match t
 ## See Also
 
 [IEdmFile6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6.html)
-
 [IEdmFile6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6_members.html)
 
 ## Availability

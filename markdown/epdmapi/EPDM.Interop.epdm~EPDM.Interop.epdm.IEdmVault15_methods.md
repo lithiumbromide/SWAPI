@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15_methods.html"
 
 # IEdmVault15 Interface Methods
 
-For a list of all members of this type, see[IEdmVault15 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15_members.html).
+For a list of all members of this type, see [IEdmVault15 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmVault15 members](EPDM.Interop.ep
 ## See Also
 
 [IEdmVault15 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,9 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html"
 
 # AddFile Method (IEdmFolder5)
 
-Obsolete. Superseded by
-
-[IEdmFolder8::AddFile2 .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2.html)
+Obsolete. Superseded by [IEdmFolder8::AddFile2.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2.html)
 
 ## Syntax
 
@@ -51,21 +49,9 @@ System.int AddFile(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `bsSrcPath`: Path of file to copy; "" to create an empty file with name specified by bsNewFileName (see
-
-Remarks
-
-)
-- `bsNewFileName`: Optional new file name; "" to use the file name specified in bsSrcPath (see
-
-Remarks
-
-)
-- `lEdmAddFlags`: Combination of
-
-[EdmAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag.html)
-
-bits
+- `bsSrcPath`: Path of file to copy; "" to create an empty file with name specified by bsNewFileName (see **Remarks**)
+- `bsNewFileName`: Optional new file name; "" to use the file name specified in bsSrcPath (see **Remarks**)
+- `lEdmAddFlags`: Combination of [EdmAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag.html) bits
 
 ### Return Value
 
@@ -80,14 +66,10 @@ Use this method to:
 
 Use:
 
-- [IEdmFolder5::CopyFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html)
+- [IEdmFolder5::CopyFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html) to copy files within the vault.
+- [IEdmFolder5::AddFileShared](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFileShared.html) to share files between folders.
 
-  to copy files within the vault.
-- [IEdmFolder5::AddFileShared](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFileShared.html)
-
-  to share files between folders.
-
-To add multiple files to this folder, use[IEdmFolder6::AddFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6~AddFiles.html)to add them all at once, which is more efficient than adding them one at a time using this method.
+To add multiple files to this folder, use [IEdmFolder6::AddFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6~AddFiles.html) to add them all at once, which is more efficient than adding them one at a time using this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -97,26 +79,21 @@ To add multiple files to this folder, use[IEdmFolder6::AddFiles](EPDM.Interop.ep
 - E_EDM_INVALID_NAME: The suggested file name is invalid.
 - E_EDM_FILE_SHARE_ERROR: The source or destination file is opened exclusively by another program.
 - E_EDM_FILE_NOT_FOUND: The source file could not be found.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed
-
-  [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-  .EdmCmd_PreAdd hooks did not permit the operation.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_PreAdd hooks did not permit the operation.
 
 To create a virtual document in a folder, pass an empty string as the source file. For example:
 
-- - ```
-eFolder.AddFile(Me.Handle.ToInt32, '', path, 0)
-```
+- -
+
+    ```
+    eFolder.AddFile(Me.Handle.ToInt32, '', path, 0)
+    ```
 
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::AddFileShared Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFileShared.html)
-
 [IEdmFolder5::CopyFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html)
 
 ## Availability

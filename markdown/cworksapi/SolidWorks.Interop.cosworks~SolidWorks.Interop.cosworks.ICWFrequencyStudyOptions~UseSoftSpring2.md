@@ -52,19 +52,11 @@ property System.bool UseSoftSpring2 {
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::UseSoftSpring2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UseSoftSpring2.html)
-
-.
+See [CWFrequencyStudyOptions::UseSoftSpring2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UseSoftSpring2.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
@@ -75,7 +67,6 @@ Rigid body modes are calculated in addition to the specified number of modes.
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

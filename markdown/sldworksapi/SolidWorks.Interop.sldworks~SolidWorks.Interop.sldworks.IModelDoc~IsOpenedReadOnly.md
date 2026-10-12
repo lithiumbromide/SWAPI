@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IsOpenedReadOnly Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IsOpenedReadOnly](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IsOpenedReadOnly.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IsOpenedReadOnly](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IsOpenedReadOnly.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsOpenedReadOnly()
 System.bool IsOpenedReadOnly();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IsOpenedReadOnly](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IsOpenedReadOnly.html)
-
-.
+See [ModelDoc::IsOpenedReadOnly](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IsOpenedReadOnly.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

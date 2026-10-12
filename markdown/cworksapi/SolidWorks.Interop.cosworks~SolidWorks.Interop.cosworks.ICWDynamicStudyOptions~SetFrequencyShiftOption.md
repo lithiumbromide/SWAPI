@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # SetFrequencyShiftOption Method (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::SetFrequencyShiftOption2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyShiftOption2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::SetFrequencyShiftOption2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyShiftOption2.html)
 
 ## Syntax
 
@@ -55,45 +53,23 @@ void SetFrequencyShiftOption(
 ### Parameters
 
 - `BChecked`: True to only calculate resonant frequencies that are closest to DFrequencyValue, false to not
-- `DFrequencyValue`: Frequency in Hz; valid only if BChecked = true (see
-
-Remarks
-
-)
+- `DFrequencyValue`: Frequency in Hz; valid only if BChecked = true (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::SetFrequencyShiftOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetFrequencyShiftOption.html)
-
-.
+See [CWDynamicStudyOptions::SetFrequencyShiftOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetFrequencyShiftOption.html).
 
 ## Remarks
 
 This method is valid only if both of the following are true:
 
-- [ICWDynamicStudyOptions::SolverType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SolverType.html)
-
-  =
-
-  [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
-
-  .swsSolverTypeDirectSparse
-- [ICWDynamicStudyOptions::GetFrequencyOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyOption.html)
-
-  =
-
-  [swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
-
-  .swsFrequencyStudyOptionNumberFrequencies
+- [ICWDynamicStudyOptions::SolverType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SolverType.html) = [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html).swsSolverTypeDirectSparse
+- [ICWDynamicStudyOptions::GetFrequencyOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyOption.html) = [swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html).swsFrequencyStudyOptionNumberFrequencies
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::GetFrequencyShiftOption Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyShiftOption.html)
 
 ## Availability

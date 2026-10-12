@@ -45,38 +45,22 @@ property System.int DockingState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Docking state of the toolbar as defined in
-
-[swToolbarDockStatePosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swToolbarDockStatePosition_e.html)
+Docking state of the toolbar as defined in [swToolbarDockStatePosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swToolbarDockStatePosition_e.html)
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::DockingState](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~DockingState.html)
-
-.
+See [CommandGroup::DockingState](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~DockingState.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::SetToolbarVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SetToolbarVisibility.html)
-
 [ICommandGroup::HasToolbar Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~HasToolbar.html)
-
 [ICommandGroup::ToolbarId Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~ToolbarId.html)
 
 ## Availability

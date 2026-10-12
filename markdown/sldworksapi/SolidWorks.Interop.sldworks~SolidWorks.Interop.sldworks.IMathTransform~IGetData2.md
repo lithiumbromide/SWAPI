@@ -62,56 +62,30 @@ void IGetData2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `XAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-about the x axis
-- `YAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-about the y axis
-
-ParamDesc
-- `ZAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-about the z axis
-
-ParamDesc
+- `XAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) about the x axis
+- `YAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) about the y axis
+- `ZAxisObjOut`: [Rotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) about the z axis
 - `TransformObjOut`: [Transformation vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-ParamDesc
 - `ScaleOut`: Scale
 
 ### Return Value
 
-The previous version of this method,[IMathTransform::IGetData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IGetData.html), returned inversed x, y, z axes. This version of this method returns the actual x, y, z axes.
+The previous version of this method, [IMathTransform::IGetData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IGetData.html), returned inversed x, y, z axes. This version of this method returns the actual x, y, z axes.
 
 ## VBA Syntax
 
-See
-
-[MathTransform::IGetData2](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IGetData2.html)
-
-.
+See [MathTransform::IGetData2](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IGetData2.html).
 
 ## See Also
 
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)
-
 [IMathTransform::GetData2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform~GetData2.html)
-
 [IMathTransform::ISetData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform~ISetData.html)
-
 [IMathTransform::SetData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform~SetData.html)
 
 ## Availability

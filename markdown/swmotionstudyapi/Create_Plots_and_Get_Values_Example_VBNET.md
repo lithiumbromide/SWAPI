@@ -9,8 +9,7 @@ source: "swmotionstudyapi/Create_Plots_and_Get_Values_Example_VBNET.htm"
 
 # Create Plots and Get Values Example (VB.NET)
 
-This example shows how to get the translational displacement and velocity
-values for a selected face and how to plot these values.
+This example shows how to get the translational displacement and velocity values for a selected face and how to plot these values.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -46,27 +46,15 @@ void ExplodeSketchBlockInstance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LpSketchBlockInstance`: [Block instance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html)
-
-to explode
+- `LpSketchBlockInstance`: [Block instance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html) to explode
 
 ## VBA Syntax
 
-See
-
-[SketchManager::ExplodeSketchBlockInstance](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~ExplodeSketchBlockInstance.html)
-
-.
+See [SketchManager::ExplodeSketchBlockInstance](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~ExplodeSketchBlockInstance.html).
 
 ## Remarks
 
@@ -75,14 +63,12 @@ If this is the only or last block instance, then:
 - All sketch entities in the block instances are copied to the owning sketch of the block instance.
 - Source block definition is destroyed.
 
-See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
 
 ## Availability

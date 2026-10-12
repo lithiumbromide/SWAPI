@@ -9,15 +9,14 @@ source: "sldworksapi/Get_Explode_Step_Component_Transform_Example_VB.htm"
 
 # Get Explode Step Component Transform Example (VBA)
 
-This example shows how to get the transformation matrix of a component in a
-radial explode step and apply it to another component to overlap the components.
+This example shows how to get the transformation matrix of a component in a radial explode step and apply it to another component to overlap the components.
 
 '----------------------------------------------------------------------------
 ' Preconditions:
 ' 1. Open an assembly with an explode view with at least one radial explode
 ' step with at least two components.
 ' 2. Activate the explode view.
-' 3. Replace`component_name`in the code below with the name of a second
+' 3. Replace `component_name` in the code below with the name of a second
 ' component to overlap the first.
 ' 4. Open an Immediate window.
 '

@@ -62,26 +62,19 @@ Array of touching shell edge and face pairs
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::FindTouchingEdgeFacePairs](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~FindTouchingEdgeFacePairs.html)
-
-.
+See [CWContactManager::FindTouchingEdgeFacePairs](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~FindTouchingEdgeFacePairs.html).
 
 ## Remarks
 
 NEdgeFaces contains the size of the returned array. The returned array contains consecutive pairs of touching entities.
 
-To create contact sets using the returned array, call[ICWContactManager::CreateContactSetsFromPairList](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~CreateContactSetsFromPairList.html).
+To create contact sets using the returned array, call [ICWContactManager::CreateContactSetsFromPairList](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~CreateContactSetsFromPairList.html).
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::FindNonTouchingPairs Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~FindNonTouchingPairs.html)
-
 [ICWContactManager::FindTouchingFacePairs Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~FindTouchingFacePairs.html)
 
 ## Availability

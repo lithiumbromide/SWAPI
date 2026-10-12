@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDr
 
 # DDrawingDocEvents_ViewNewNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by
-
-[DDrawingDocEvents_ViewNewNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_ViewNewNotify2EventHandler.html)
-
-.
+Obsolete. Superseded by [DDrawingDocEvents_ViewNewNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_ViewNewNotify2EventHandler.html).
 
 ## Syntax
 
@@ -41,18 +37,8 @@ public delegate System.int DDrawingDocEvents_ViewNewNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_ViewNewNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ViewNewNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ViewNewNotify_EV.html)
-
-.
+See [ViewNewNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ViewNewNotify_EV.html).

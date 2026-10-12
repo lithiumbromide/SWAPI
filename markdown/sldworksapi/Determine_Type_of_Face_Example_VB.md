@@ -9,26 +9,13 @@ source: "sldworksapi/Determine_Type_of_Face_Example_VB.htm"
 
 # Determine Type of Face Example (VBA)
 
-This example shows how to identify holes, bosses, and tangent faces
-on a selected face.
+This example shows how to identify holes, bosses, and tangent faces on a selected face.
 
-**NOTE:**To determine the type of face, start from a selected face and use IFace2::GetFirstLoop
-to get the first loop in the face. For every loop on the face (use ILoop2::GetNext),
-if the loop is not the outer loop (ILoop2::IsOuter equals false), then
-get the coedge for this loop and the partner coedge for the coedge.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+**NOTE:** To determine the type of face, start from a selected face and use IFace2::GetFirstLoop to get the first loop in the face. For every loop on the face (use ILoop2::GetNext), if the loop is not the outer loop (ILoop2::IsOuter equals false), then get the coedge for this loop and the partner coedge for the coedge.
 
-For each coedge, get the face normal at the middle of the coedge.kadov_tag{{</spaces>}}This
-is found by obtaining the middle of the coedge with a call to ICoEdge::GetCurveParams,
-and a call to ICoEdge::Evaluate on the midpoint of the coedge to get the
-point’s coordinates.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+For each coedge, get the face normal at the middle of the coedge. This is found by obtaining the middle of the coedge with a call to ICoEdge::GetCurveParams, and a call to ICoEdge::Evaluate on the midpoint of the coedge to get the point’s coordinates.
 
-The normal is returned by a call to ISurface::EvaluateAtPoint at the
-point in the middle of the coedge. If the normals for the two faces are
-equal, then there is a tangent face (fillet) on the selected face.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-the normals are not equal, then if the cross product of the two normals
-is equal to the tangent of the face, there is a hole at the coedge.kadov_tag{{</spaces>}}Otherwise,
-if there is a loop that is not the outer loop that does not meet any of
-the other conditions, it is a boss.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+The normal is returned by a call to ISurface::EvaluateAtPoint at the point in the middle of the coedge. If the normals for the two faces are equal, then there is a tangent face (fillet) on the selected face. If the normals are not equal, then if the cross product of the two normals is equal to the tangent of the face, there is a hole at the coedge. Otherwise, if there is a loop that is not the outer loop that does not meet any of the other conditions, it is a boss.
 
 ```
 '----------------------------------------------

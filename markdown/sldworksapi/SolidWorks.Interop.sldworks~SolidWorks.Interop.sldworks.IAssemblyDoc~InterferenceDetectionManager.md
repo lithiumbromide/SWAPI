@@ -42,13 +42,7 @@ property InterferenceDetectionMgr^ InterferenceDetectionManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,30 +50,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InterferenceDetectionManager](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InterferenceDetectionManager.html)
-
-.
+See [AssemblyDoc::InterferenceDetectionManager](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InterferenceDetectionManager.html).
 
 ## Examples
 
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
-
 [Detect Interferences Using a Transform (VBA)](Detect_Interferences_Using_a_Transform_Example_VB.htm)
-
 [Detect Interferences Using a Transform (VB.NET)](Detect_Interferences_Using_a_Transform_Example_VBNET.htm)
-
 [Detect Interferences Using a Transform (C#)](Detect_Interferences_Using_a_Transform_Example_CSharp.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

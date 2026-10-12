@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Component_Referenced_Display_State_C
 
 # Fire Notification When Component Referenced Display State Changes Example (C#)
 
-This example shows how to fire a notification when a component's referenced
-display state is changed in an assembly.
+This example shows how to fire a notification when a component's referenced display state is changed in an assembly.
 
 ```
 //---------------------------------------------------------------

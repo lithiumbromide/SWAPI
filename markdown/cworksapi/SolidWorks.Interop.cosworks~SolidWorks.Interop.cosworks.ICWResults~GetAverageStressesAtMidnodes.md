@@ -46,11 +46,7 @@ True to average stresses at mid-nodes, false to not
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetAverageStressesAtMidnodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetAverageStressesAtMidnodes.html)
-
-.
+See [CWResults::GetAverageStressesAtMidnodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetAverageStressesAtMidnodes.html).
 
 ## Remarks
 
@@ -59,9 +55,7 @@ This method is valid only for static, nonlinear, drop test, pressure vessel, and
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::SetAverageStressesAtMidnodes Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetAverageStressesAtMidnodes.html)
 
 ## Availability

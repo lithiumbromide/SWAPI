@@ -51,7 +51,6 @@ void AddFile(
 ## See Also
 
 [IEdmLabel5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html)
-
 [IEdmLabel5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5_members.html)
 
 ## Availability

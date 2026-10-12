@@ -45,40 +45,20 @@ property System.int DefineType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-How the number of revolutions, pitch, and height
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-of spring are defined as defined in
-
-[swSpringDefineType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringDefineType_e.html)
+How the number of revolutions, pitch, and height of spring are defined as defined in [swSpringDefineType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringDefineType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Spring::DefineType](ms-its:sldworksapivb6.chm::/sldworks~Spring~DefineType.html)
-
-.
+See [Spring::DefineType](ms-its:sldworksapivb6.chm::/sldworks~Spring~DefineType.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [ISpring::SpringType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~SpringType.html)
 
 ## Availability

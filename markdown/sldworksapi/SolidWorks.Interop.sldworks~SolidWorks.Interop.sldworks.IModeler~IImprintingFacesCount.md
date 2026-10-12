@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IImprintingFacesCount Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::IImprintingFacesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFacesCount2.html)
-
-.
+Obsolete. Superseded by [IModeler::IImprintingFacesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFacesCount2.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ System.bool IImprintingFacesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,14 +95,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::IImprintingFacesCount](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFacesCount.html)
-
-.
+See [Modeler::IImprintingFacesCount](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFacesCount.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

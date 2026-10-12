@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetPointLightProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetPointLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetPointLightProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetPointLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetPointLightProperties.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ System.bool SetPointLightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -110,14 +100,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetPointLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetPointLightProperties.html)
-
-.
+See [ModelDoc::SetPointLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetPointLightProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

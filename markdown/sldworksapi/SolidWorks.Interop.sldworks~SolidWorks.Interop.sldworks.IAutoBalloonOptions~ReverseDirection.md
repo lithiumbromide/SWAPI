@@ -45,54 +45,27 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to reverse the item ordering, false to not; only valid when
-
-[IAutoBalloonOptions::ItemOrder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~ItemOrder.html)
-
-is set to
-
-[swBalloonItemNumbersOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonItemNumbersOrder_e.html)
-
-.swBalloonItemNumbers_OrderSequentially
+True to reverse the item ordering, false to not; only valid when [IAutoBalloonOptions::ItemOrder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~ItemOrder.html) is set to [swBalloonItemNumbersOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonItemNumbersOrder_e.html).swBalloonItemNumbers_OrderSequentially
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ReverseDirection.html)
-
-.
+See [AutoBalloonOptions::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ReverseDirection.html).
 
 ## Examples
 
-See
-
-[IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-examples.
+See [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) examples.
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # INote Interface Methods
 
-For a list of all members of this type, see[INote members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html).
+For a list of all members of this type, see [INote members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html).
 
 ## Public Methods
 
@@ -131,9 +131,6 @@ For a list of all members of this type, see[INote members](SolidWorks.Interop.sl
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertNewNote3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertNewNote3.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)

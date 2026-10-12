@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateManipulator Method (IModelViewManager)
 
-Creates a manipulator, which is similar to the triad in the SOLIDWORKS user interface.
+Creates a manipulator, which is similar to the triad in the SOLIDWORKS Design user interface.
 
 ## Syntax
 
@@ -51,19 +51,11 @@ Manipulator^ CreateManipulator(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of manipulator to create as defined by
-
-[swManipulatorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorType_e.html)
+- `Type`: Type of manipulator to create as defined by [swManipulatorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorType_e.html)
 - `PHandler`: Manipulator handler object
 
 ### Return Value
@@ -72,36 +64,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::CreateManipulator](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~CreateManipulator.html)
-
-.
+See [ModelViewManager::CreateManipulator](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~CreateManipulator.html).
 
 ## Examples
 
 [Create Triad Manipulator (VBA)](Create_Triad_Manipulator_Example_VB.htm)
-
 [Create Triad Manipulator (VB.NET)](Create_Triad_Manipulator_Example_VBNET.htm)
-
 [Create Triad Manipulator (C#)](Create_Triad_Manipulator_Example_CSharp.htm)
-
 [Create Drag Arrow Manipulator (C#)](Create_Drag_Arrow_Manipulator_Example_CSharp.htm)
-
 [Create Drag Arrow Manipulator (VB.NET)](Create_Drag_Arrow_Manipulator_Example_VBNET.htm)
-
 [Create Drag Arrow Manipulator (VBA)](Create_Drag_Arrow_Manipulator_Example_VB.htm)
 
 ## Remarks
 
 If you move a manipulator far away from the model and then zoom-to-fit the model, the manipulator is not seen because it is not included in the clipping region.
 
-See[Manipulators](sldworksapiprogguide.chm::/overview/Manipulators.htm)for details.
+See [Manipulators](sldworksapiprogguide.chm::/overview/Manipulators.htm) for details.
 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)
 
 ## Availability

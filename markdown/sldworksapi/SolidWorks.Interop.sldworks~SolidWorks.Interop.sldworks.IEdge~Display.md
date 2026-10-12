@@ -62,13 +62,7 @@ void Display(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,16 +74,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Edge::Display](ms-its:sldworksapivb6.chm::/sldworks~Edge~Display.html)
-
-.
+See [Edge::Display](ms-its:sldworksapivb6.chm::/sldworks~Edge~Display.html).
 
 ## Examples
 
 [Add Highlighting to or Remove Highlighting From Edges (VBA)](Add_Highlighting_to_or_Remove_Highlight_from_Edges_Example_VB.htm)
-
 [Get Faces Affected by Feature (VBA)](Get_Faces_Affected_by_Feature_Example_VB.htm)
 
 ## Remarks
@@ -99,15 +88,10 @@ To show the same edge with a different color, hide it and then set a different c
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IFace2::IHighlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IHighlight.html)
-
 [IFace2::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Highlight.html)
-
 [IVertex::Display Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~Display.html)
-
 [IEdge::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~Highlight.html)
 
 ## Availability

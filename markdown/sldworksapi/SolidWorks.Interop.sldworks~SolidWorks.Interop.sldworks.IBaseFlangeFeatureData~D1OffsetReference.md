@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # D1OffsetReference Property (IBaseFlangeFeatureData)
 
-Obsolete. Superseded by
-
-[IBaseFlangeFeatureData::D1EndConditionReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D1EndConditionReference.html)
-
-.
+Obsolete. Superseded by [IBaseFlangeFeatureData::D1EndConditionReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D1EndConditionReference.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.Object^ D1OffsetReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,26 +53,16 @@ Pointer to the offset reference
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D1OffsetReference](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1OffsetReference.html)
-
-.
+See [BaseFlangeFeatureData::D1OffsetReference](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1OffsetReference.html).
 
 ## Remarks
 
-See
-
-[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)
-
-for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::D2OffsetReference Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D2OffsetReference.html)
 
 ## Availability

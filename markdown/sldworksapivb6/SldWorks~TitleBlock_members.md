@@ -1,6 +1,5 @@
 ---
-title: "TitleBlock Object
-Members"
+title: "TitleBlock Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TitleBlock_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TitleBlock_members.html"
 ---
 
-# TitleBlock Object
-Members
+# TitleBlock Object Members
 
 ## Public Methods
 

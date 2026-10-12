@@ -55,31 +55,21 @@ System.int CheckFeatureUse(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FeatureType`: Determine if this type of feature can be created as defined in[swSketchCheckFeatureProfileUsage_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchCheckFeatureProfileUsage_e.html)
+- `FeatureType`: Determine if this type of feature can be created as defined in [swSketchCheckFeatureProfileUsage_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchCheckFeatureProfileUsage_e.html)
 - `OpenCount`: Number of open contours found in this sketch
 - `ClosedCount`: Number of closed contours found in this sketch
 
 ### Return Value
 
-swSketchCheckFeatureStatus_OK if this sketch can be used to create the specified feature; see[swSketchCheckFeatureStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchCheckFeatureStatus_e.html)for possible failure values
+swSketchCheckFeatureStatus_OK if this sketch can be used to create the specified feature; see [swSketchCheckFeatureStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchCheckFeatureStatus_e.html) for possible failure values
 
 ## VBA Syntax
 
-See
-
-[Sketch::CheckFeatureUse](ms-its:sldworksapivb6.chm::/sldworks~Sketch~CheckFeatureUse.html)
-
-.
+See [Sketch::CheckFeatureUse](ms-its:sldworksapivb6.chm::/sldworks~Sketch~CheckFeatureUse.html).
 
 ## Examples
 
@@ -87,16 +77,15 @@ See
 
 ## Remarks
 
-This method is equivalent to the SOLIDWORKS interactive toolCheck Sketch for Feature Usage. See the SOLIDWORKS Help for details.
+This method is equivalent to the SOLIDWORKS interactive tool Check Sketch for Feature Usage. See the SOLIDWORKS Help for details.
 
 The OpenCount and ClosedCount arguments are output values. If this method returns swSketchCheckFeatureStatus_OK, meaning that the sketch can be used to create the specified feature, then these two arguments contain useful information. If this method returns something else, then OpenCount and ClosedCount both return 0.
 
-If the featureType value is not valid, this method returnskadov_tag{{</spaces>}}swSketchCheckFeatureStatus_UnknownError.
+If the featureType value is not valid, this method returns swSketchCheckFeatureStatus_UnknownError.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

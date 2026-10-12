@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html"
 
 Allows you to access and enumerate a list of elements.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,7 +36,6 @@ public interface class IEdmEnum
 ## Examples
 
 [Find Users (VB.NET)](Find_Users_Example_VBNET.htm)
-
 [Find Users (C#)](Find_Users_Example_CSharp.htm)
 
 ## Accessors
@@ -52,5 +45,4 @@ public interface class IEdmEnum
 ## See Also
 
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

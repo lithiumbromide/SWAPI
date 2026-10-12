@@ -57,43 +57,25 @@ System.int SetFrequencyData(
 
 ### Parameters
 
-- `VarModeShapes`: Array of mode shape numbers (see
-
-Remarks
-
-)
-- `VarComparators`: Array of[swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html)(see**Remarks**)
-- `VarFrequencyValues`: Array of frequency values (see
-
-Remarks
-
-)
+- `VarModeShapes`: Array of mode shape numbers (see **Remarks**)
+- `VarComparators`: Array of [swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html) (see **Remarks**)
+- `VarFrequencyValues`: Array of frequency values (see **Remarks**)
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_FrequencyConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FrequencyConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_FrequencyConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FrequencyConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::SetFrequencyData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetFrequencyData.html)
-
-.
+See [CWTopologyFrequencyConstraint::SetFrequencyData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetFrequencyData.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## Remarks
 
-The arrays of VarModeShapes, VarComparators, and VarFrequencyValues map one-to-one and onto. Together they define`n`frequency constraint equations as follows:
+The arrays of VarModeShapes, VarComparators, and VarFrequencyValues map one-to-one and onto. Together they define `n` frequency constraint equations as follows:
 
 ```
 for i = 0 to n-1
@@ -114,9 +96,7 @@ If the VarComparators array contains swsTopologyStudyConstraintComparator_e.swsT
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
-
 [ICWTopologyFrequencyConstraint::ClearFrequencyData Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~ClearFrequencyData.html)
 
 ## Availability

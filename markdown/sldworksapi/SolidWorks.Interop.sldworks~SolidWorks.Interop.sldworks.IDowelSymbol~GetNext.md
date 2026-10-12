@@ -40,13 +40,7 @@ System.object GetNext()
 System.Object^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Next dowel symbol
 
 ## VBA Syntax
 
-See
-
-[DowelSymbol::GetNext](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~GetNext.html)
-
-.
+See [DowelSymbol::GetNext](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~GetNext.html).
 
 ## See Also
 
 [IDowelSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html)
-
 [IDowelSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol_members.html)
-
 [IDowelSymbol::IGetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol~IGetNext.html)
-
 [IView::GetFirstDowelSymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDowelSymbol.html)
-
 [IView::IGetFirstDowelSymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetFirstDowelSymbol.html)
 
 ## Availability

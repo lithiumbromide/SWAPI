@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars_methods.htm
 
 # IEdmBatchRefVars Interface Methods
 
-For a list of all members of this type, see[IEdmBatchRefVars members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars_members.html).
+For a list of all members of this type, see [IEdmBatchRefVars members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmBatchRefVars members](EPDM.Inter
 ## See Also
 
 [IEdmBatchRefVars Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

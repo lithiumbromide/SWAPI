@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Save Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::Save](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Save.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::Save](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Save.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void Save()
 void Save();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::Save](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Save.html)
-
-.
+See [ModelDoc::Save](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Save.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

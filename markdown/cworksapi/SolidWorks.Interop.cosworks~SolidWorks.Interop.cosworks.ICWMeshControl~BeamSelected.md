@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # BeamSelected Property (ICWMeshControl)
 
-Obsolete. Superseded by ICWMeshControl::BeamSelected2.
+Obsolete. Superseded by [ICWMeshControl::BeamSelected2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~BeamSelected2.html).
 
 ## Syntax
 
@@ -51,11 +51,7 @@ property System.int BeamSelected {
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::BeamSelected](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~BeamSelected.html)
-
-.
+See [CWMeshControl::BeamSelected](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~BeamSelected.html).
 
 ## Remarks
 
@@ -64,13 +60,9 @@ This property is only valid for models with beams.
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::NumofElementsforBeams Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~NumofElementsforBeams.html)
-
 [ICWMeshControl::MinimumElementSizeForBlendedCurveMesher Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinimumElementSizeForBlendedCurveMesher.html)
-
 [ICWMeshControl::MinNumOfElementsPerCircleForBlendedCurveMesher Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinNumOfElementsPerCircleForBlendedCurveMesher.html)
 
 ## Availability

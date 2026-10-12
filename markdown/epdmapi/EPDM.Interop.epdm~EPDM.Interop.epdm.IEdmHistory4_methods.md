@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_methods.html"
 
 # IEdmHistory4 Interface Methods
 
-For a list of all members of this type, see[IEdmHistory4 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members.html).
+For a list of all members of this type, see [IEdmHistory4 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmHistory4 members](EPDM.Interop.e
 ## See Also
 
 [IEdmHistory4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

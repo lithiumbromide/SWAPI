@@ -49,34 +49,27 @@ System.int SaveCompareVolumeResults(
 
 ### Parameters
 
-- `resultfile`: Path and file name for the SOLIDWORKS part document (see**Remarks**)
+- `resultfile`: Path and file name for the SOLIDWORKS part document (see **Remarks**)
 
-NOTE:You do not have to specify the filename extension.sldprt.It is automatically appended to the file name.
+  NOTE: You do not have to specify the filename extension .sldprt. It is automatically appended to the file name.
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareGeometry::SaveCompareVolumeResults](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~SaveCompareVolumeResults.html)
-
-.
+See [ICompareGeometry::SaveCompareVolumeResults](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~SaveCompareVolumeResults.html).
 
 ## Remarks
 
-This method opens the volume comparison results in a SOLIDWORKS part document after comparing geometry with the**Perform volume comparison**option selected.
+This method opens the volume comparison results in a SOLIDWORKS part document after comparing geometry with the **Perform volume comparison** option selected.
 
 If only a directory is specified in resultfile, a part document named "Volume Comparison of <part 1> and <part 2>.sldprt" is opened (but not saved) in SOLIDWORKS.
 
 ## See Also
 
 [ICompareGeometry Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry.html)
-
 [ICompareGeometry Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # GetEnergyConsumption Method (ISustainabilityEnvironmentalImpact)
 
-Obsolete. Superseded by
-
-[ISustainabilityEnvironmentalImpact::GetEnergyConsumption2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetEnergyConsumption2.html)
-
-.
+Obsolete. Superseded by [ISustainabilityEnvironmentalImpact::GetEnergyConsumption2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetEnergyConsumption2.html).
 
 ## Syntax
 
@@ -57,19 +53,11 @@ System.int GetEnergyConsumption(
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEnvironmentalImpact::GetEnergyConsumption](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetEnergyConsumption.html)
-
-.
+See [SustainabilityEnvironmentalImpact::GetEnergyConsumption](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetEnergyConsumption.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
-.
+See the examples in [ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html).
 
 ## Remarks
 
@@ -82,9 +70,7 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
-
 [ISustainabilityEnvironmentalImpact::IGetEnergyConsumption Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetEnergyConsumption.html)
 
 ## Availability

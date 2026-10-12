@@ -47,15 +47,7 @@ System.bool GenerateDefaultValues(
 
 - `lFolderID`: ID of the file's parent folder
 - `bWriteValuesToFile`: True to write values to the file, false to write only to the database
-- `ppoRetVariables`: Array of
-
-[IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
-interfaces; one interface for each variable value generated (see
-
-Remarks
-
-)
+- `ppoRetVariables`: Array of [IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html) interfaces; one interface for each variable value generated (see **Remarks**)
 
 ### Return Value
 
@@ -73,7 +65,6 @@ If bWriteValuesToFile is false, then the caller is responsible for writing the v
 ## See Also
 
 [IEdmEnumeratorVariable7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html)
-
 [IEdmEnumeratorVariable7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7_members.html)
 
 ## Availability

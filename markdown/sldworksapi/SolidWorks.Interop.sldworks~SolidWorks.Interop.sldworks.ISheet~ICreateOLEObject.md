@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # ICreateOLEObject Method (ISheet)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::CreateOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateOLEObject.html)
-
-and
-
-[IModelDocExtension::ICreateOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ICreateOLEObject.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::CreateOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~CreateOLEObject.html) and [IModelDocExtension::ICreateOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ICreateOLEObject.html).
 
 ## Syntax
 
@@ -67,13 +59,7 @@ System.bool ICreateOLEObject(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::ICreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~Sheet~ICreateOLEObject.html)
-
-.
+See [Sheet::ICreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~Sheet~ICreateOLEObject.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

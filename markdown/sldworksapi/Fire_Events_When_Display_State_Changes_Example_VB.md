@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Events_When_Display_State_Changes_Example_VB.htm"
 
 # Fire Events When Display State Changes Example (VBA)
 
-This example shows how to fire the events related to changing display
-states of a configuration in an assembly document.
+This example shows how to fire the events related to changing display states of a configuration in an assembly document.
 
 ```
 '---------------------------------------------------------------
@@ -20,7 +19,7 @@ states of a configuration in an assembly document.
 ' 3. Open an assembly document that has a configuration with multiple
 '    display states.
 '    a. Run this macro in debug mode.
-'    b. Change the display state of the active configuration in SOLIDWORKS
+'    b. Change the display state of the active configuration in SOLIDWORKS Design
 '       (click the ConfigurationManager tab and double-click
 '       a different display state).
 '

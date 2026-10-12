@@ -87,13 +87,7 @@ System.bool GetEquationParameters2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -115,20 +109,13 @@ True if the equation-driven curve's parameters are returned, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::GetEquationParameters2](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetEquationParameters2.html)
-
-.
+See [SketchSpline::GetEquationParameters2](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~GetEquationParameters2.html).
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [SketchManager::CreateEquationSpline2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateEquationSpline2.html)
-
 [ISketchSpline::SetEquationParameters2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~SetEquationParameters2.html)
 
 ## Availability

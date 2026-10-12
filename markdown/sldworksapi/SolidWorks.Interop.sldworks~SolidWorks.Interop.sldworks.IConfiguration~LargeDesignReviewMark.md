@@ -45,13 +45,7 @@ property System.bool LargeDesignReviewMark {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to add display data, false to not
 
 ## VBA Syntax
 
-See
-
-[Configuration::LargeDesignReviewMark](ms-its:sldworksapivb6.chm::/sldworks~Configuration~LargeDesignReviewMark.html)
-
-.
+See [Configuration::LargeDesignReviewMark](ms-its:sldworksapivb6.chm::/sldworks~Configuration~LargeDesignReviewMark.html).
 
 ## Examples
 
 [Get and Set Large Design Review Marks for Configurations (C#)](Get_and_Set_Large_Design_Review_Marks_for_Configurations_Example_CSharp.htm)
-
 [Get and Set Large Design Review Marks for Configurations (VB.NET)](Get_and_Set_Large_Design_Review_Marks_for_Configurations_Example_VBNET.htm)
-
 [Get and Set Large Design Review Marks for Configurations (VBA)](Get_and_Set_Large_Design_Review_Marks_for_Configurations_Example_VB.htm)
 
 ## Remarks
@@ -79,34 +67,16 @@ This property is valid only if this configuration is one of multiple configurati
 
 Before SOLIDWORKS 2019, this property specified whether to generate a display list for the configuration of an assembly when it is saved. As of SOLIDWORKS 2019, this property specifies whether to generate a display list for this configuration of:
 
-- an assembly on save. If this property is set to true, the assembly configuration's display list is saved, making the configuration visible in Large Design Review mode. In the user interface, this corresponds to selecting the assembly's
-
-  ConfigurationManager >
-
-  configuration_name
-
-  RMB menu > Add Display Data Mark
-
-  .
+- an assembly on save. If this property is set to true, the assembly configuration's display list is saved, making the configuration visible in Large Design Review mode. In the user interface, this corresponds to selecting the assembly's **ConfigurationManager >** `configuration_name` **RMB menu > Add Display Data Mark**.
 
 - or -
 
-- a part on save. If this property is set to true, the part configuration's display list is saved, making the configuration visible in other applications, such as eDrawings. In the user interface, this corresponds to selecting the part's
-
-  ConfigurationManager >
-
-  configuration_name
-
-  RMB menu > Add Display Data Mark
-
-  .
+- a part on save. If this property is set to true, the part configuration's display list is saved, making the configuration visible in other applications, such as eDrawings. In the user interface, this corresponds to selecting the part's **ConfigurationManager >** `configuration_name` **RMB menu > Add Display Data Mark**.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IDocumentSpecification::ViewOnly Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~ViewOnly.html)
 
 ## Availability

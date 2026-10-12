@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchCircle Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchCircle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchCircle.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchCircle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchCircle.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SketchCircle()
 void SketchCircle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchCircle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchCircle.html)
-
-.
+See [ModelDoc::SketchCircle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchCircle.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ListExternalFileReferences Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ListExternalFileReferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ListExternalFileReferences.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ListExternalFileReferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ListExternalFileReferences.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ ListExternalFileReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ListExternalFileReferences.html)
-
-.
+See [ModelDoc::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ListExternalFileReferences.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

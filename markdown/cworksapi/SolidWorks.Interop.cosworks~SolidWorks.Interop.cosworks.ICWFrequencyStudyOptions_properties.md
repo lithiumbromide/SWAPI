@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # ICWFrequencyStudyOptions Interface Properties
 
-For a list of all members of this type, see[ICWFrequencyStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html).
+For a list of all members of this type, see [ICWFrequencyStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html).
 
 ## Public Properties
 
@@ -32,13 +32,11 @@ For a list of all members of this type, see[ICWFrequencyStudyOptions members](So
 | Property | FlowTemperatureFile | Gets or sets the SOLIDWORKS Flow Simulation result file that is used to import flow temperatures. |
 | Property | FrequencyCapOption | Gets or sets the frequency cap for this frequency study. |
 | Property | FrequencyCapValue | Gets or sets the frequency cap value for this frequency study. |
-| Property | LowerBoundFrequency | Gets or sets the frequency to which frequencies closest are calculated in this
-frequency study. |
+| Property | LowerBoundFrequency | Gets or sets the frequency to which frequencies closest are calculated in this frequency study. |
 | Property | NoOfFrequencies | Gets or sets the number of frequencies in this frequency study. |
 | Property | Options | Gets or sets the frequency option for this frequency study. |
 | Property | ReferencePressureOption | Gets or sets whether to use the reference pressure offset defined in the Flow Simulation results file to subtract from imported pressure values. |
-| Property | ResultFolder | Gets or sets the path name of the folder that contains results of this
-frequency study. |
+| Property | ResultFolder | Gets or sets the path name of the folder that contains results of this frequency study. |
 | Property | SolverType | Gets or sets the solver type associated with this frequency study. |
 | Property | ThermalResults | Gets or sets the source of temperatures in this frequency study. |
 | Property | ThermalStudyName | Gets or sets the thermal study used to obtain temperature values. |
@@ -54,7 +52,5 @@ frequency study. |
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)

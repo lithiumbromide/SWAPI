@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnTextboxChanged Method (IPropertyManagerPage2Handler)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnTextboxChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnTextboxChanged.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnTextboxChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnTextboxChanged.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnTextboxChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler::OnTextboxChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnTextboxChanged.html)
-
-.
+See [PropertyManagerPage2Handler::OnTextboxChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnTextboxChanged.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler.html)
-
 [IPropertyManagerPage2Handler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html)

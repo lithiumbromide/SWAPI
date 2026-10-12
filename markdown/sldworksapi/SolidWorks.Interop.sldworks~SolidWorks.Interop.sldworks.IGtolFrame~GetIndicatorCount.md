@@ -40,13 +40,7 @@ System.int GetIndicatorCount()
 System.int GetIndicatorCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ Number of indicators in this Gtol frame
 
 ## VBA Syntax
 
-See
-
-[GtolFrame::GetIndicatorCount](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~GetIndicatorCount.html)
-
-.
+See [GtolFrame::GetIndicatorCount](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~GetIndicatorCount.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -79,7 +65,6 @@ Use this method to determine IndicatorIndex parameters before calling:
 ## See Also
 
 [IGtolFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
 [IGtolFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html)
 
 ## Availability

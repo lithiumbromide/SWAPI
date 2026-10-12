@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IColorTable Interface Methods
 
-For a list of all members of this type, see[IColorTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html).
+For a list of all members of this type, see [IColorTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[IColorTable members](SolidWorks.Inte
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -45,32 +45,19 @@ property MathVector^ Translation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Translation
-
-[vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
+Translation [vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[View3D::Translation](ms-its:sldworksapivb6.chm::/sldworks~View3D~Translation.html)
-
-.
+See [View3D::Translation](ms-its:sldworksapivb6.chm::/sldworks~View3D~Translation.html).
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

@@ -44,21 +44,15 @@ property System.int MeshType {
 
 ### Property Value
 
-Mesh type as defined in[swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html)(see**Remarks**)
+Mesh type as defined in [swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::MeshType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MeshType.html)
-
-.
+See [CWMesh::MeshType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MeshType.html).
 
 ## Remarks
 
 Valid mesh types for different types of studies:
-
-(Table)=========================================================
 
 | Study Type | Solid Mesh | Shell Mesh | Mixed Mesh (Solid & Shell) | Beam Mesh |
 | --- | --- | --- | --- | --- |
@@ -82,7 +76,6 @@ Valid mesh types for different types of studies:
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

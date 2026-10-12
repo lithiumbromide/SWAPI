@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGeometr
 
 # swGeometryToSave_e Enumeration
 
-Geometry to save options for
-
-[IAdvancedSaveAsOptions::GeometryToSave](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~GeometryToSave.html)
-
-.
+Geometry to save options for [IAdvancedSaveAsOptions::GeometryToSave](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~GeometryToSave.html).
 
 ## Syntax
 

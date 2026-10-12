@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members
 
 # EdmBrokenParentInfo Structure Members
 
-The following tables list the members exposed by[EdmBrokenParentInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo.html).
+The following tables list the members exposed by [EdmBrokenParentInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[EdmBrokenParentInfo](EPDM.Inter
 ## See Also
 
 [EdmBrokenParentInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

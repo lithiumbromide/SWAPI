@@ -40,32 +40,19 @@ System.bool DissolveComponentPattern()
 System.bool DissolveComponentPattern();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if the selected component patterns are dissolved, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::DissolveComponentPattern](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~DissolveComponentPattern.html)
-
-.
+See [AssemblyDoc::DissolveComponentPattern](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~DissolveComponentPattern.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

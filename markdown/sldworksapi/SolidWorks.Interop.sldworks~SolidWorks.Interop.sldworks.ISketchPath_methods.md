@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchPath Interface Methods
 
-For a list of all members of this type, see[ISketchPath members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath_members.html).
+For a list of all members of this type, see [ISketchPath members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath_members.html).
 
 ## Public Methods
 
@@ -33,7 +33,5 @@ For a list of all members of this type, see[ISketchPath members](SolidWorks.Inte
 ## See Also
 
 [ISketchPath Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchManager::MakeSketchBlockFromFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~MakeSketchBlockFromFile.html)

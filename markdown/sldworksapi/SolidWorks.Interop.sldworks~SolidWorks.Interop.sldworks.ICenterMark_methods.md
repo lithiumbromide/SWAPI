@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterMark Interface Methods
 
-For a list of all members of this type, see[ICenterMark members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html).
+For a list of all members of this type, see [ICenterMark members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html).
 
 ## Public Methods
 
@@ -32,7 +32,5 @@ For a list of all members of this type, see[ICenterMark members](SolidWorks.Inte
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IView::AutoInsertCenterMarks Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~AutoInsertCenterMarks.html)

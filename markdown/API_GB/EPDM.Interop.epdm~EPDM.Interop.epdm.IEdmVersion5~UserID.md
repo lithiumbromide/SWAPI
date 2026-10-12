@@ -40,7 +40,6 @@ ID of the user who checked in this version
 ## See Also
 
 [IEdmVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html)
-
 [IEdmVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5_members.html)
 
 ## Availability

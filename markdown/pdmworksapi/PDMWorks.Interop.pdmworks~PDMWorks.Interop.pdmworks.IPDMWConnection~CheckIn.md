@@ -86,49 +86,37 @@ PDMWDocument^ CheckIn(
 ### Parameters
 
 - `filename`: Name of the closed document to check in
-- `project`: Name of the project to which the document belongsParamDesc
+- `project`: Name of the project to which the document belongs
 - `Number`: Document number
 - `Description`: Document description
 - `note`: Document notes
-- `i_revOption`: Revision optionParamDescas defined in[PDMWRevisionOptionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWRevisionOptionType.html)(seeRemarks)
+- `i_revOption`: Revision option as defined in [PDMWRevisionOptionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWRevisionOptionType.html) (see Remarks)
 - `Revision`: Document revision
 - `lifecycle`: Document lifecycle status
 - `RetainOwnership`: True to retain ownership of the document in the vault, false to not
-- `References`: Array of the full paths and filenames of any referenced documents to check in (see
-
-Remarks
-
-)
+- `References`: Array of the full paths and filenames of any referenced documents to check in (see Remarks)
 
 ### Return Value
 
-[IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
-object
+[IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::CheckIn](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CheckIn.html)
-
-.
+See [PDMWConnection::CheckIn](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CheckIn.html).
 
 ## Remarks
 
 The document to check in must be closed before calling this method.
 
-**IMPORTANT**: Because this method is dependent on**pdmworks_libFNP.dll**, you must ensure that your application can find this DLL. The simplest way for your application to find**pdmworks_libFNP.dll**is to add its location to the PATH environmental variable. See[Microsoft Corp's Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85).aspx)for details.
+**IMPORTANT**: Because this method is dependent on **pdmworks_libFNP.dll**, you must ensure that your application can find this DLL. The simplest way for your application to find **pdmworks_libFNP.dll** is to add its location to the PATH environmental variable. See [Microsoft Corp's Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85).aspx) for details.
 
-This method only works on computers where both the SOLIDWORKS Workgroup PDM Contributor or Addin client software and SOLIDWORKS Workgroup PDMkadov_tag{{</spaces>}}API DLL are installed.
+This method only works on computers where both the SOLIDWORKS Workgroup PDM Contributor or Addin client software and SOLIDWORKS Workgroup PDM API DLL are installed.
 
 This method can check in multiple file types, e.g., SOLIDWORKS, eDrawings, Microsoft Word, text, bitmap, PDF, etc.; however, only SOLIDWORKS documents saved in SOLIDWORKS 99 and later are supported by this method.
 
-You must own the document before you can check it in. See[IPDMWDocument::TakeOwnership](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~TakeOwnership.html)for details about how to take ownership of a document.
+You must own the document before you can check it in. See [IPDMWDocument::TakeOwnership](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~TakeOwnership.html) for details about how to take ownership of a document.
 
 If i_revOption is set to PDMWRevisionOptionType.Other, then the revision argument is used.
-
-(Table)=========================================================
 
 | If checking in a document that references... | Then... |
 | --- | --- |
@@ -138,7 +126,6 @@ If i_revOption is set to PDMWRevisionOptionType.Other, then the revision argumen
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.int GetConfigurationCount()
 System.int GetConfigurationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Number of configurations for this lightweight assembly component
 
 ## VBA Syntax
 
-See
-
-[Component2::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetConfigurationCount.html)
-
-.
+See [Component2::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetConfigurationCount.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

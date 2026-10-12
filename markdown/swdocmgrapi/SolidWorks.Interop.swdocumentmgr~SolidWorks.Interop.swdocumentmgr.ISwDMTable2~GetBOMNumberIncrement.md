@@ -49,9 +49,7 @@ System.int GetBOMNumberIncrement(
 
 ### Parameters
 
-- `Error`: Error as defined by
-
-[SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
+- `Error`: Error as defined by [SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Increment value by which the item numbers are increased in the bill of materials
 
 ## VBA Syntax
 
-See
-
-[SwDMTable2::GetBOMNumberIncrement](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable2~GetBOMNumberIncrement.html)
-
-.
+See [SwDMTable2::GetBOMNumberIncrement](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable2~GetBOMNumberIncrement.html).
 
 ## Remarks
 
@@ -72,19 +66,12 @@ This method only supports documents saved in SOLIDWORKS 2009 and later.
 ## See Also
 
 [ISwDMTable2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2.html)
-
 [ISwDMTable2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2_members.html)
-
 [ISwDMTable2::GetBOMStartNumber Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetBOMStartNumber.html)
-
 [ISwDMTable2::GetBOMTableType Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetBOMTableType.html)
-
 [ISwDMComponent5::ExcludeFromBOM Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent5~ExcludeFromBOM.html)
-
 [ISwDMConfiguration11::BOMPartNoSource Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~BOMPartNoSource.html)
-
 [ISwDMConfiguration11::ShowChildComponentsInBOM Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~ShowChildComponentsInBOM.html)
-
 [ISwDMTable2::GetFeatureName Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetFeatureName.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Display_Configuration_Description_in_Bill_of_Materials_Exam
 
 # Display Configuration Description in Bill of Materials Example (VB.NET)
 
-This example shows how to traverse an assembly and display the description of
-each configuration in the bill of materials.
+This example shows how to traverse an assembly and display the description of each configuration in the bill of materials.
 
 ```
 '--------------------------------------------------------------------------

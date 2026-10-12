@@ -54,13 +54,7 @@ void SetVDirection2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SetVDirection2](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetVDirection2.html)
-
-.
+See [RenderMaterial::SetVDirection2](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetVDirection2.html).
 
 ## Remarks
 
@@ -84,18 +74,15 @@ To specify the V direction in the Y direction, set:
 2. VDir_Y to 1.0.
 3. VDir_Z to 0.0.
 
-The[mapping type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~MappingType.html)(surface, projection, automatic, etc.) indirectly determines the V direction. This vector is perpendicular to the U direction.
+The [mapping type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~MappingType.html) (surface, projection, automatic, etc.) indirectly determines the V direction. This vector is perpendicular to the U direction.
 
-Call[IRenderMaterial::SetUDirection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetUDirection2.html)to set the U direction.
+Call [IRenderMaterial::SetUDirection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SetUDirection2.html) to set the U direction.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::GetUDirection2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetUDirection2.html)
-
 [IRenderMaterial::GetVDirection2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetVDirection2.html)
 
 ## Availability

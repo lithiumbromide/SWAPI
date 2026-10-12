@@ -66,13 +66,7 @@ void SplitEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,16 +79,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::SplitEntity](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~SplitEntity.html)
-
-.
+See [SketchSegment::SplitEntity](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~SplitEntity.html).
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

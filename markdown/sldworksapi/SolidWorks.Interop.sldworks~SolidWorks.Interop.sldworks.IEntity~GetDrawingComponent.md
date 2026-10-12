@@ -47,13 +47,7 @@ DrawingComponent^ GetDrawingComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,21 @@ See
 
 ### Return Value
 
-[IDrawingComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent.html)object that owns the entity
+[IDrawingComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent.html) object that owns the entity
 
 ## VBA Syntax
 
-See
-
-[Entity::GetDrawingComponent](ms-its:sldworksapivb6.chm::/sldworks~Entity~GetDrawingComponent.html)
-
-.
+See [Entity::GetDrawingComponent](ms-its:sldworksapivb6.chm::/sldworks~Entity~GetDrawingComponent.html).
 
 ## Remarks
 
-If the drawing component is a child component of the referenced assembly, then the drawing component should be a child drawing component in the drawing componentconfigurationinthe FeatureManagerdesign tree.
+If the drawing component is a child component of the referenced assembly, then the drawing component should be a child drawing component in the drawing component configuration in the FeatureManager design tree.
 
 If the entity is in the view, then the drawing component is returned. If the entity is not in the view, then NULL is returned.
 
 ## See Also
 
 [IEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html)
-
 [IEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity_members.html)
 
 ## Availability

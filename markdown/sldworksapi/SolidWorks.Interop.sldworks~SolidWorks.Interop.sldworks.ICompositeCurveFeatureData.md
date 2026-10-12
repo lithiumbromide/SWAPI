@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a composite curve feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class ICompositeCurveFeatureData
 
 ## VBA Syntax
 
-See
-
-[CompositeCurveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CompositeCurveFeatureData.html)
-
-.
+See [CompositeCurveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CompositeCurveFeatureData.html).
 
 ## Examples
 
 [Insert a Composite Curve (C#)](Insert_a_Composite_Curve_Example_CSharp.htm)
-
 [Insert a Composite Curve (VB.NET)](Insert_a_Composite_Curve_Example_VBNET.htm)
-
 [Insert a Composite Curve (VBA)](Insert_a_Composite_Curve_Example_VB.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [ICompositeCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICompositeCurveFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertCompositeCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCompositeCurve.html)

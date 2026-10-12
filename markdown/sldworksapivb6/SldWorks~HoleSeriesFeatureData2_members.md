@@ -1,6 +1,5 @@
 ---
-title: "HoleSeriesFeatureData2 Object
-Members"
+title: "HoleSeriesFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "HoleSeriesFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~HoleSeriesFeatureData2_members.html"
 ---
 
-# HoleSeriesFeatureData2 Object
-Members
+# HoleSeriesFeatureData2 Object Members
 
 ## Public Methods
 

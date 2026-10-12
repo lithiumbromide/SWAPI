@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetForceOrTranslationValues Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::SetForceOrTranslationValues2.
+Obsolete. Superseded by [ICWRemoteLoad::SetForceOrTranslationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValues2.html).
 
 ## Syntax
 
@@ -72,11 +72,7 @@ void SetForceOrTranslationValues(
 
 ### Parameters
 
-- `BInclude`: 1 to include force or translation in the remote load, 0 to not (see
-
-Remarks
-
-)
+- `BInclude`: 1 to include force or translation in the remote load, 0 to not (see **Remarks**)
 - `BXValue`: 1 to set the value in the x direction, 0 to not
 - `DXValue`: Force or translation in the x direction; valid only if BXValue = 1
 - `BYValue`: 1 to set the value in the y direction, 0 to not
@@ -86,11 +82,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::SetForceOrTranslationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetForceOrTranslationValues.html)
-
-.
+See [CWRemoteLoad::SetForceOrTranslationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetForceOrTranslationValues.html).
 
 ## Examples
 
@@ -98,7 +90,7 @@ See
 
 ## Remarks
 
-This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)returns false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling returns true (i.e., for linear static, topology, or nonlinear static studies), use[ICWRemoteLoad::SetForceOrTranslationValuesEx](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValuesEx.html)instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling returns true (i.e., for linear static, topology, or nonlinear static studies), use [ICWRemoteLoad::SetForceOrTranslationValuesEx](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValuesEx.html) instead of this method.
 
 | This method sets components of ... | If ICWRemoteLoad::LoadType is ... |
 | --- | --- |
@@ -108,11 +100,8 @@ This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::GetForceOrTranslationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetForceOrTranslationValues.html)
-
 [ICWRemoteLoad::ForceOrTranslationUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceOrTranslationUnit.html)
 
 ## Availability

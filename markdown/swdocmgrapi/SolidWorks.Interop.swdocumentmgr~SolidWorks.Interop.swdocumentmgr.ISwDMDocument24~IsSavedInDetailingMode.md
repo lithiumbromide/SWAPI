@@ -46,16 +46,11 @@ True if saved in detailing mode, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument24::IsSavedInDetailingMode](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument24~IsSavedInDetailingMode.html)
-
-.
+See [SwDMDocument24::IsSavedInDetailingMode](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument24~IsSavedInDetailingMode.html).
 
 ## See Also
 
 [ISwDMDocument24 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument24.html)
-
 [ISwDMDocument24 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument24_members.html)
 
 ## Availability

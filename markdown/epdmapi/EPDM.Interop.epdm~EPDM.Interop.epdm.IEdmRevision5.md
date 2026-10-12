@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html"
 
 Allows you to access a single revision of a file.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,23 +36,14 @@ public interface class IEdmRevision5
 ## Examples
 
 [Get Revision Names for Local Version of File (C#)](Get_Revision_Names_for_Local_Version_of_File_Example_CSharp.htm)
-
 [Get Revision Names for Local Version of File (VB.NET)](Get_Revision_Names_for_Local_Version_of_File_Example_VBNET.htm)
 
 ## Remarks
 
 This interface:
 
-- inherits from IDispatch. See
-
-  [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx)
-
-  .
-- is extended by
-
-  [IEdmRevision6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html)
-
-  .
+- inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+- is extended by [IEdmRevision6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html).
 
 ## Accessors
 
@@ -69,5 +54,4 @@ This interface:
 ## See Also
 
 [IEdmRevision5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # LoadPointsFromFile Method (ITablePatternFeatureData)
 
-Loads the location points of the table-driven pattern from a *
-
-.sldptab
-
-file.
+Loads the location points of the table-driven pattern from a *.sldptab file.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool LoadPointsFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,18 +59,12 @@ True if the file loads successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::LoadPointsFromFile](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~LoadPointsFromFile.html)
-
-.
+See [TablePatternFeatureData::LoadPointsFromFile](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~LoadPointsFromFile.html).
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::SavePointsToFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~SavePointsToFile.html)
 
 ## Availability

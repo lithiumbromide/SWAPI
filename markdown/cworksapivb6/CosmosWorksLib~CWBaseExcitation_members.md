@@ -1,6 +1,5 @@
 ---
-title: "CWBaseExcitation Object
-Members"
+title: "CWBaseExcitation Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWBaseExcitation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWBaseExcitation_members.html"
 ---
 
-# CWBaseExcitation Object
-Members
+# CWBaseExcitation Object Members
 
 ## Public Methods
 

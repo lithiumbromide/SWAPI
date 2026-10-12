@@ -59,40 +59,14 @@ System.bool SketchTrim(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Option`: Sketch trim option as defined in
-
-[swSketchTrimChoice_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchTrimChoice_e.html)
-
-(see
-
-Remarks
-
-)
-- `X`: x coordinate of pick location (see
-
-Remarks
-
-)
-- `Y`: y coordinate of pick location (see
-
-Remarks
-
-)
-- `Z`: z coordinate of pick location (for 3D sketch) (see
-
-Remarks
-
-)
+- `Option`: Sketch trim option as defined in [swSketchTrimChoice_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchTrimChoice_e.html) (see **Remarks**)
+- `X`: x coordinate of pick location (see **Remarks**)
+- `Y`: y coordinate of pick location (see **Remarks**)
+- `Z`: z coordinate of pick location (for 3D sketch) (see **Remarks**)
 
 ### Return Value
 
@@ -100,23 +74,17 @@ True if the sketch entities are trimmed, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchTrim](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchTrim.html)
-
-.
+See [SketchManager::SketchTrim](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchTrim.html).
 
 ## Examples
 
 [Trim Sketch Entities (C#)](Trim_Sketch_Entities_Example_CSharp.htm)
-
 [Trim Sketch Entities (VB.NET)](Trim_Sketch_Entities_Example_VBNET.htm)
-
 [Trim Sketch Entities (VBA)](Trim_Sketch_Entities_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, you must edit a sketch and select sketch segments to trim using[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html).
+Before calling this method, you must edit a sketch and select sketch segments to trim using [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html).
 
 Specify X, Y, and Z with:
 
@@ -133,14 +101,12 @@ Specify X, Y, and Z with:
 | swSketchTrimOutside | Trim away outside | At least three sketch segments; two to create the trim boundary, and one or more that intersect both sketch segments in the boundary. All selected sketch segments that intersect the boundary are trimmed outside the boundary segments. |
 | swSketchTrimTwoEntities | Power trim | Two intersecting sketch segments; trims the first selected sketch segment to the second intersecting sketch segment. Use IModelDocExtension::SelectByID2 with Mark = 0 to select two sketch segments, specifying their pick points. The order in which the sketch segments are selected determines which one is trimmed. The first selected sketch segment will be trimmed on its pick point side to the second selected sketch segment. |
 
-See the**Trim Entities**topic in the SOLIDWORKS help for more information about trimming sketch entities.
+See the **Trim Entities** topic in the SOLIDWORKS help for more information about trimming sketch entities.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::SketchExtend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchExtend.html)
 
 ## Availability

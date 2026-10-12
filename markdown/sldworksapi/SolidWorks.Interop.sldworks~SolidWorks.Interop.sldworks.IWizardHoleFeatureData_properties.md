@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # IWizardHoleFeatureData Interface Properties
 
-For a list of all members of this type, see[IWizardHoleFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html).
+For a list of all members of this type, see [IWizardHoleFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html).
 
 ## Public Properties
 
@@ -60,5 +60,4 @@ For a list of all members of this type, see[IWizardHoleFeatureData members](Soli
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

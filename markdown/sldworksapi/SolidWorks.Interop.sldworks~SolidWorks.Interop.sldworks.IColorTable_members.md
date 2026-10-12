@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IColorTable Interface Members
 
-The following tables list the members exposed by[IColorTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html).
+The following tables list the members exposed by [IColorTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IColorTable](SolidWorks.Interop
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

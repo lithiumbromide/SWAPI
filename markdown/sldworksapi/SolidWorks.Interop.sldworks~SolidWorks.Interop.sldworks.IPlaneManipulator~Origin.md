@@ -45,13 +45,7 @@ property MathPoint^ Origin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[PlaneManipulator::Origin](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Origin.html)
-
-.
+See [PlaneManipulator::Origin](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Origin.html).
 
 ## Remarks
 
-If a plane with a manipulator is already displayed, then do not set a new
-
-[normal-to vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPlaneManipulator~Normal.html)
-
-or origin for that plane.
+If a plane with a manipulator is already displayed, then do not set a new [normal-to vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPlaneManipulator~Normal.html) or origin for that plane.
 
 ## See Also
 
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)
-
 [IPlaneManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator_members.html)
 
 ## Availability

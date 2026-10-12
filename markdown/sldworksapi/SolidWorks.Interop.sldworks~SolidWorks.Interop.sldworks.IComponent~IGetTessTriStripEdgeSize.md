@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetTessTriStripEdgeSize Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::IGetTessTriStripEdgeSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriStripEdgeSize.html)
-
-.
+Obsolete. Superseded by [IComponent2::IGetTessTriStripEdgeSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetTessTriStripEdgeSize.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetTessTriStripEdgeSize()
 System.int IGetTessTriStripEdgeSize();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::IGetTessTriStripEdgeSize](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriStripEdgeSize.html)
-
-.
+See [Component::IGetTessTriStripEdgeSize](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetTessTriStripEdgeSize.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

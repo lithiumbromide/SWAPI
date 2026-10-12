@@ -9,8 +9,7 @@ source: "cworksapi/Create_Plots_for_Static_Study_Example_VB.htm"
 
 # Create Plots for a Static Study Example (VBA)
 
-This example shows how to create plots of displacement, stress, and strain
-results in a static study.
+This example shows how to create plots of displacement, stress, and strain results in a static study.
 
 ```vb
  '----------------------------------------------------------------------------

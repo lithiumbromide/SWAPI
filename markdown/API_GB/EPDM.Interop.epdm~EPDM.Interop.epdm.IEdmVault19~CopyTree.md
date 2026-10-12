@@ -62,23 +62,16 @@ void CopyTree(
 - `lDestinationFolderPath`: Full path name of destination folder
 - `vbShowDlg`: True to display the copy dialog, false to not
 - `vbShowProgressBar`: True to display a progress bar during the copy procedure, false to not
-- `oCopyTreeOptions`: Copy tree options as defined in
-
-[EdmCopyTreeOptions](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html)
+- `oCopyTreeOptions`: Copy tree options as defined in [EdmCopyTreeOptions](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html)
 - `lHwnd`: Parent window handle
 
 ## Examples
 
-See the
-
-[IEdmVault19](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html)
-
-examples.
+See the [IEdmVault19](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html) examples.
 
 ## See Also
 
 [IEdmVault19 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html)
-
 [IEdmVault19 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19_members.html)
 
 ## Availability

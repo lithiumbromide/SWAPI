@@ -59,18 +59,12 @@ System.int ImportDiagnosis(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `CloseAllGaps`: True to repair any gaps, false to not
-- `RemoveFaces`: True to remove any bad faces and create gaps in the feature,kadov_tag{{</spaces>}}false to not
+- `RemoveFaces`: True to remove any bad faces and create gaps in the feature, false to not
 - `FixFaces`: True to fix the bad faces, false to not
 - `Options`: Not used
 
@@ -80,18 +74,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ImportDiagnosis](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ImportDiagnosis.html)
-
-.
+See [PartDoc::ImportDiagnosis](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ImportDiagnosis.html).
 
 ## Examples
 
 [Import STEP File (C#)](Import_STEP_File_Example_CSharp.htm)
-
 [Import STEP File (VB.NET)](Import_STEP_File_Example_VBNET.htm)
-
 [Import STEP File (VBA)](Import_STEP_File_Example_VB.htm)
 
 ## Remarks
@@ -101,13 +89,9 @@ Use this method for an imported solid body that has rebuild errors or for an imp
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::ImportDiagnosisGapCloser Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ImportDiagnosisGapCloser.html)
-
 [IBody2::Diagnose Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~Diagnose.html)
-
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
 
 ## Availability

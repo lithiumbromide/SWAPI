@@ -67,13 +67,7 @@ System.Object^ GetSilhoutteEdgesVB(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -86,15 +80,11 @@ See
 
 ### Return Value
 
-Array of[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+Array of [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[Face2::GetSilhoutteEdgesVB](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetSilhoutteEdgesVB.html)
-
-.
+See [Face2::GetSilhoutteEdgesVB](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetSilhoutteEdgesVB.html).
 
 ## Remarks
 
@@ -105,13 +95,9 @@ The returned edges are transient and cannot be selected.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IGetSilhoutteEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSilhoutteEdges.html)
-
 [IFace2::IGetSilhoutteEdgeCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetSilhoutteEdgeCount.html)
-
 [IModelDoc2::InsertSplitLineSil Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSplitLineSil.html)
 
 ## Availability

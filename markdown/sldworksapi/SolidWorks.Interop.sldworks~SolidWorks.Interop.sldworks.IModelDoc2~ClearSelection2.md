@@ -46,50 +46,27 @@ void ClearSelection2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `All`: True clears the entire existing selection list, false clears only the items in the active selection list (see
-
-Remarks
-
-)
+- `All`: True clears the entire existing selection list, false clears only the items in the active selection list (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ClearSelection2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ClearSelection2.html)
-
-.
+See [ModelDoc2::ClearSelection2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ClearSelection2.html).
 
 ## Examples
 
 [Add Component and Mate (C++)](Add_Component_and_Mate_Example_CPlusPlus_COM.htm)
-
 [Get Bodies (C++)](Get_Bodies_Example_CPlusPlus_COM.htm)
-
 [Traverse Bodies (C++)](Traverse_Bodies_Example_CPlusPlusCLI.htm)
-
 [Add Distance Mates (VBA)](Add_Distance_Mates_Example_VB.htm)
-
 [Create Plane Thru 3 Points In-context (VBA)](Create_Plane_Thru_3_Points_In-context_Example_VB.htm)
-
 [Get Names of Bodies in Multibody Part (VBA)](Get_Names_of_Bodies_in_MultiBody_Part_Example_VB.htm)
-
 [Insert a Note (VBA)](Insert_a_Note_Example_VB.htm)
-
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (VBA)](Create_Equation-driven_Curve_Example_VB.htm)
 
 ## Remarks
@@ -99,9 +76,7 @@ False only works if the current PropertyManager page contains a selection list; 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISelectionMgr::SuspendSelectionList Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~SuspendSelectionList.html)
 
 ## Availability

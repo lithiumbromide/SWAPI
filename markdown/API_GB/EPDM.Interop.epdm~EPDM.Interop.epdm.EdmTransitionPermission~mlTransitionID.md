@@ -39,5 +39,4 @@ Transition ID
 ## See Also
 
 [EdmTransitionPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html)
-
 [EdmTransitionPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission_members.html)

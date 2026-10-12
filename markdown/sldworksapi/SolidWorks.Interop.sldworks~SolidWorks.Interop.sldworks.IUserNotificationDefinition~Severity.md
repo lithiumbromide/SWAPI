@@ -45,40 +45,23 @@ property System.int Severity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Severity level as defined by
-
-[swUserNotificationSeverity_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationSeverity_e.html)
+Severity level as defined by [swUserNotificationSeverity_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationSeverity_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::Severity](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Severity.html)
-
-.
+See [UserNotificationDefinition::Severity](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Severity.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

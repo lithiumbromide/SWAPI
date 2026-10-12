@@ -40,13 +40,7 @@ System.bool HasMaterialPropertyValues()
 System.bool HasMaterialPropertyValues();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ True if this model has an appearance, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HasMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasMaterialPropertyValues.html)
-
-.
+See [ModelDocExtension::HasMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasMaterialPropertyValues.html).
 
 ## Examples
 
 [Add and Delete Appearances from Specific Display States (VBA)](Add_and_Delete_Materials_from_Specific_Display_States_Example_VB.htm)
-
 [Add and Delete Appearances from Specific Display States (VB.NET)](Add_and_Delete_Materials_from_Specific_Display_States_Example_VBNET.htm)
-
 [Add and Delete Appearances from Specific Display States (C#)](Add_and_Delete_Materials_from_Specific_Display_States_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::SetMaterialPropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetMaterialPropertyValues.html)
-
 [IModelDocExtension::RemoveMaterialProperty Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveMaterialProperty.html)
-
 [IModelDocExtension::GetMaterialPropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetMaterialPropertyValues.html)
 
 ## Availability

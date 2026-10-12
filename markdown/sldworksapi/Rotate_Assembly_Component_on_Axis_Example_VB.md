@@ -9,12 +9,9 @@ source: "sldworksapi/Rotate_Assembly_Component_on_Axis_Example_VB.htm"
 
 # Rotate Assembly Component on Axis Using IDragOperator::Drag Example (VBA)
 
-This example shows how to rotate an assembly component about an assembly
-axis using IDragOperator::Drag.
+This example shows how to rotate an assembly component about an assembly axis using IDragOperator::Drag.
 
-**NOTE:**The code shows how to use a MathUtility object to directly create a
-transformation matrix (object) that represents rotation about a point and an
-axis, without having to know details of the OpenGL transformations.
+**NOTE:** The code shows how to use a MathUtility object to directly create a transformation matrix (object) that represents rotation about a point and an axis, without having to know details of the OpenGL transformations.
 
 ```
 '------------------------------------------------------------------

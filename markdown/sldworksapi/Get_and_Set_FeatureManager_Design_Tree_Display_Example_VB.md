@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_FeatureManager_Design_Tree_Display_Example_VB.h
 
 # Get and Set FeatureManager Design Tree Display (VBA)
 
-This example shows how to get and set properties related to displaying
-the FeatureManager design tree.
+This example shows how to get and set properties related to displaying the FeatureManager design tree.
 
 ```
 '----------------------------------------------------

@@ -9,8 +9,7 @@ source: "sldworksapi/Process_Body_Example_VB.htm"
 
 # Process Body Example (VBA)
 
-This example shows how create to a new part with an imported body from
-the processed body of the original part.
+This example shows how create to a new part with an imported body from the processed body of the original part.
 
 ```
 '------------------------------------------------

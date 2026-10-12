@@ -47,37 +47,19 @@ System.Object^ GetLeaderPointsAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of leader within this annotation (see
-
-Remarks
-
-)
+- `Index`: Index of leader within this annotation (see **Remarks**)
 
 ### Return Value
 
-Array of objects (see
-
-Remarks
-
-)
+Array of objects (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetLeaderPointsAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetLeaderPointsAtIndex.html)
-
-.
+See [Annotation::GetLeaderPointsAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetLeaderPointsAtIndex.html).
 
 ## Examples
 
@@ -87,14 +69,13 @@ See
 
 The index value is 0-based. Therefore, a valid index value is >= 0 < number of leaders on this annotation.
 
-Use[IAnnotation::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetLeaderCount.html)to find out how many leaders are on this annotation. If the index value is invalid in Visual Basic for Applications (VBA), SOLIDWORKS returns an empty SafeArray or S_false.
+Use [IAnnotation::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetLeaderCount.html) to find out how many leaders are on this annotation. If the index value is invalid in Visual Basic for Applications (VBA), SOLIDWORKS returns an empty SafeArray or S_false.
 
-You must determine the number of points in the leader to use the data returned by this method. The number of points is a function of the number of segments in the leader. There can be one or two segments in a leader line, depending on whether or not it is a straight, bent, or underlined leader. Use[IAnnotation::GetLeaderStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetLeaderStyle.html)
+You must determine the number of points in the leader to use the data returned by this method. The number of points is a function of the number of segments in the leader. There can be one or two segments in a leader line, depending on whether or not it is a straight, bent, or underlined leader. Use [IAnnotation::GetLeaderStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetLeaderStyle.html)
 to determine the number of points in the leader.
 
 - If IAnnotation::GetLeaderStyle returns swNO_LEADER, then the number of points = 0.
 - If IAnnotation::GetLeaderStyle returns swSTRAIGHT and swUNDERLINED then the number
-
   of points = 2.
 - If IAnnotation::GetLeaderStyle returns swBENT, then the number of points = 3.
 
@@ -120,40 +101,25 @@ retval[7] = Y-coordinate of third leader point
 
 retval[8] = Z-coordinate of third leader point
 
-You cannot directly set the leader coordinate information. The leader coordinates are computed based on the annotations text and attachment points. Use[IAnnotation::GetPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetPosition.html)and[IAnnotation::SetPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~SetPosition.html)to get and set the text point.
+You cannot directly set the leader coordinate information. The leader coordinates are computed based on the annotations text and attachment points. Use [IAnnotation::GetPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetPosition.html) and [IAnnotation::SetPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~SetPosition.html) to get and set the text point.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetDashedLeader Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetDashedLeader.html)
-
 [IAnnotation::GetLeaderAllAround Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderAllAround.html)
-
 [IAnnotation::GetLeaderPerpendicular Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderPerpendicular.html)
-
 [IAnnotation::GetLeaderSide Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderSide.html)
-
 [IAnnotation::GetMultiJogLeaderCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetMultiJogLeaderCount.html)
-
 [IAnnotation::GetMultiJogLeaders Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetMultiJogLeaders.html)
-
 [IAnnotation::IGetLeaderPointsAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IGetLeaderPointsAtIndex.html)
-
 [IAnnotation::SetLeader3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetLeader3.html)
-
 [IAnnotation::BentLeaderLength Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~BentLeaderLength.html)
-
 [IAnnotation::LeaderLineStyle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderLineStyle.html)
-
 [IAnnotation::LeaderThickness Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderThickness.html)
-
 [IAnnotation::LeaderThicknessCustom Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LeaderThicknessCustom.html)
-
 [IAnnotation::UseDocDispLeader Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~UseDocDispLeader.html)
-
 [IAnnotation::SetLeaderAttachmentPointAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetLeaderAttachmentPointAtIndex.html)
 
 ## Availability

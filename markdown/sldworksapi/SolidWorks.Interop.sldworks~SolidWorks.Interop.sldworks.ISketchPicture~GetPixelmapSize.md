@@ -51,13 +51,7 @@ System.int GetPixelmapSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,28 +64,17 @@ Size of the array of the picture pixels
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::GetPixelmapSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetPixelmapSize.html)
-
-.
+See [SketchPicture::GetPixelmapSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetPixelmapSize.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchPicture::IGetPixelmap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~IGetPixelmap.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchPicture::IGetPixelmap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~IGetPixelmap.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
-
 [ISketchPicture::GetPixelmap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~GetPixelmap.html)
-
 [ISketchPicture::GetPointOnSketchFromPixel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~GetPointOnSketchFromPixel.html)
 
 ## Availability

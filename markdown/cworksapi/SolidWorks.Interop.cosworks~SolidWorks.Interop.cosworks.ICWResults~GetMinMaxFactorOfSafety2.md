@@ -71,22 +71,10 @@ System.Object^ GetMinMaxFactorOfSafety2(
 
 - `BAllBodies`: True to use all bodies to plot the factor of safety, false to use specific bodies
 - `ArraySelectedEntities`: Array of bodies for which to plot the factor of safety; valid only if BAllBodies is set to false
-- `NComponent`: Failure criterion as defined by
-
-[swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
-
-(see
-
-Remarks
-
-)
-- `NShellOptions`: Shell face on which to perform the factor of safety as defined by
-
-[swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
+- `NComponent`: Failure criterion as defined by [swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html) (see **Remarks**)
+- `NShellOptions`: Shell face on which to perform the factor of safety as defined by [swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
 - `NStepNumber`: Plot step number or 0; 0 gets step 1 for linear static studies and the last available plot step for nonlinear static studies
-- `ErrorCode`: Error code as defined by
-
-[swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined by [swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -94,18 +82,12 @@ Array of two doubles of the minimum and maximum factors of safety
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxFactorOfSafety2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafety2.html)
-
-.
+See [CWResults::GetMinMaxFactorOfSafety2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafety2.html).
 
 ## Examples
 
 [Get Factor of Safety Values (VBA)](Get_Factor_of_Safety_Values_for_Composites_Example_VB.htm)
-
 [Get Factor of Safety Values (VB.NET)](Get_Factor_of_Safety_Values_for_Composites_Example_VBNET.htm)
-
 [Get Factor of Safety Values (C#)](Get_Factor_of_Safety_Values_for_Composites_Example_CSharp.htm)
 
 ## Remarks
@@ -121,11 +103,8 @@ If nonlinearities exist in the study, be advised to not use Factor of Safety to 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxFactorOfSafetyWithDetailSettings2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafetyWithDetailSettings2.html)
-
 [ICWResults::GetFactorOfSafetyForComposites Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFactorOfSafetyForComposites.html)
 
 ## Availability

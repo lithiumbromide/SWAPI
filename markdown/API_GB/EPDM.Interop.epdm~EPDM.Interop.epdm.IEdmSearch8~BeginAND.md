@@ -33,22 +33,17 @@ void BeginAND();
 
 ## Examples
 
-See the
-
-[IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
-examples.
+See the [IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html) examples.
 
 ## Remarks
 
-After calling this method, call[IEdmSearch8::AddVariable2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~AddVariable2.html)multiple times to further constrain the search.
+After calling this method, call [IEdmSearch8::AddVariable2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~AddVariable2.html) multiple times to further constrain the search.
 
-Use[IEdmSearch8::EndAND](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~EndAND.html)to end the AND operation.
+Use [IEdmSearch8::EndAND](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~EndAND.html) to end the AND operation.
 
 ## See Also
 
 [IEdmSearch8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
 [IEdmSearch8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8_members.html)
 
 ## Availability

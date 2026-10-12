@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # ICamera Interface Properties
 
-For a list of all members of this type, see[ICamera members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html).
+For a list of all members of this type, see [ICamera members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ For a list of all members of this type, see[ICamera members](SolidWorks.Interop.
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_SketchSolveNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSolveNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~SketchSolveNotify_EV.html)
-
-.
+See [SketchSolveNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~SketchSolveNotify_EV.html).
 
 ## Remarks
 
-Pressing the Ctrl+Q keys rebuilds drawing sketches ( IView::GetSketch or IView::IGetSketch ), which causes this event to fire.
+Pressing the Ctrl+Q keys rebuilds drawing sketches ([IView::GetSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetSketch.html) or [IView::IGetSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSketch.html)), which causes this event to fire.
 
-If developing a C++ application, use swDrawingSketchSolveNotify to register for this notification.
+If developing a C++ application, use [swDrawingSketchSolveNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

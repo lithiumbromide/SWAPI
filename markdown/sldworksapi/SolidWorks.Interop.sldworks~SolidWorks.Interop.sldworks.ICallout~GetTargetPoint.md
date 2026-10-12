@@ -58,13 +58,7 @@ void GetTargetPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,20 +69,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Callout::GetTargetPoint](ms-its:sldworksapivb6.chm::/sldworks~Callout~GetTargetPoint.html)
-
-.
+See [Callout::GetTargetPoint](ms-its:sldworksapivb6.chm::/sldworks~Callout~GetTargetPoint.html).
 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
-
 [ICallout::SetTargetPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout~SetTargetPoint.html)
-
 [ICallout::UpdatePosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout~UpdatePosition.html)
 
 ## Availability

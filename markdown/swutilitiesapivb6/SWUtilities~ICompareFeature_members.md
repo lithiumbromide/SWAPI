@@ -1,6 +1,5 @@
 ---
-title: "ICompareFeature Object
-Members"
+title: "ICompareFeature Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "ICompareFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~ICompareFeature_members.html"
 ---
 
-# ICompareFeature Object
-Members
+# ICompareFeature Object Members
 
 ## Public Methods
 

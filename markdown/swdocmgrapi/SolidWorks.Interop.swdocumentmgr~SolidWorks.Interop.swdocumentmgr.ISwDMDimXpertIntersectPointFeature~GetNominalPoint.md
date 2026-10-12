@@ -67,11 +67,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectPointFeature::GetNominalPoint](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPointFeature~GetNominalPoint.html)
-
-.
+See [SwDMDimXpertIntersectPointFeature::GetNominalPoint](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPointFeature~GetNominalPoint.html).
 
 ## Examples
 
@@ -80,7 +76,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertIntersectPointFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPointFeature.html)
-
 [ISwDMDimXpertIntersectPointFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPointFeature_members.html)
 
 ## Availability

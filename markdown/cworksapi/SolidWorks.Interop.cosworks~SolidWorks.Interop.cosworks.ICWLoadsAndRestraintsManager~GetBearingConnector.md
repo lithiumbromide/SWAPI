@@ -54,9 +54,7 @@ CWBearingConnector^ GetBearingConnector(
 ### Parameters
 
 - `SName`: Name of bearing connector
-- `ErrorCode`: Error code as defined by
-
-[swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
+- `ErrorCode`: Error code as defined by [swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
 
 ### Return Value
 
@@ -64,16 +62,11 @@ CWBearingConnector^ GetBearingConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::GetBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~GetBearingConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::GetBearingConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~GetBearingConnector.html).
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

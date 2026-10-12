@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # ISensor Interface Members
 
-The following tables list the members exposed by[ISensor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html).
+The following tables list the members exposed by [ISensor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html).
 
 ## Public Properties
 
@@ -37,11 +37,7 @@ The following tables list the members exposed by[ISensor](SolidWorks.Interop.sld
 ## See Also
 
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [DPartDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SensorAlertPreNotifyEventHandler.html)
-
 [DAssemblyDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SensorAlertPreNotifyEventHandler.html)

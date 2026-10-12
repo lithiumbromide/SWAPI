@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Annotation_Object_Example_VBNET.htm"
 
 # Get Annotation Object Example (VB.NET)
 
-This example shows how to obtain the annotation object for the selected
-annotation symbol.
+This example shows how to obtain the annotation object for the selected annotation symbol.
 
 ```vb
  '----------------------------------------------------------------------------

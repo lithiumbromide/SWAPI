@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # RemoveModelColorizer Method (IModelDocExtension)
 
-Removes your installed implemented interface of the
-
-[ISwColorContour](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour.html)
-
-interface.
+Removes your installed implemented interface of the [ISwColorContour](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour.html) interface.
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void RemoveModelColorizer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::RemoveModelColorizer](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveModelColorizer.html)
-
-.
+See [ModelDocExtension::RemoveModelColorizer](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveModelColorizer.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::InstallModelColorizer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InstallModelColorizer.html)
 
 ## Availability

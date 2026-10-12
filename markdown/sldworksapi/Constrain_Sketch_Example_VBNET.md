@@ -11,8 +11,6 @@ source: "sldworksapi/Constrain_Sketch_Example_VBNET.htm"
 
 This example shows how to fully constrain a sketch.
 
-(Table)=========================================================
-
 | Before constraining the sketch | After constraining the sketch |
 | --- | --- |
 |  |  |

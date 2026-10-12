@@ -1,6 +1,5 @@
 ---
-title: "DisplayDimension Object
-Members"
+title: "DisplayDimension Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DisplayDimension_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DisplayDimension_members.html"
 ---
 
-# DisplayDimension Object
-Members
+# DisplayDimension Object Members
 
 ## Public Methods
 

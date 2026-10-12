@@ -53,14 +53,8 @@ System.bool SetSimulationOptionIntegerValue(
 
 ### Parameters
 
-- `UserPreferenceValue`: User preference as defined by
-
-[swsUserPreferenceIntegerValue_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUserPreferenceIntegerValue_e.html)
-- `Value`: Integer value (see
-
-Remarks
-
-)
+- `UserPreferenceValue`: User preference as defined by [swsUserPreferenceIntegerValue_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUserPreferenceIntegerValue_e.html)
+- `Value`: Integer value (see **Remarks**)
 
 ### Return Value
 
@@ -68,59 +62,31 @@ True if option successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::SetSimulationOptionIntegerValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~SetSimulationOptionIntegerValue.html)
-
-.
+See [CWModelDoc::SetSimulationOptionIntegerValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~SetSimulationOptionIntegerValue.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
 
 ## Remarks
 
 To set color options you can either:
 
-1. Locate the color you want, for example swsAqua, from
-
-  [swsWindowsBasicColors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWindowsBasicColors_e.html)
-
-  .
+1. Locate the color you want, for example swsAqua, from [swsWindowsBasicColors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWindowsBasicColors_e.html).
 2. Call this method, specifying Value with the integer value for swsAqua, 16776960, e.g., ICWModelDoc::SetSimulationOptionIntegerValue(swsUserPreferenceIntegerValue_e.swsPlotShowHiddenBodyTranslucentSingleColor, 16776960).
 
 -or-
 
-1. Select a color from
-
-  [http://cloford.com/resources/colours/500col.htm](http://cloford.com/resources/colours/500col.htm)
-
-  (e.g., #FF0000 is the hexadecimal for Red 1).
+1. Select a color from [http://cloford.com/resources/colours/500col.htm](http://cloford.com/resources/colours/500col.htm) (e.g., #FF0000 is the hexadecimal for Red 1).
 2. Reverse the hexadecimal value of the selected color (e.g., #0000FF is the reverse hexadecimal for Red 1).
-3. Call
-
-  [ICWModelDoc::SetSimulationOptionIntegerValue](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWModelDoc~SetSimulationOptionIntegerValue.html)
-
-  (swsUserPreferenceIntegerValue_e.
-
-  option
-
-  , &h
-
-  color_reverse_hexadecimal
-
-  ), e.g., ICWModelDoc::SetSimulationOptionIntegerValue(swsUserPreferenceIntegerValue_e.swsPlotShowHiddenBodyTranslucentSingleColor, &h0000ff).
+3. Call [ICWModelDoc::SetSimulationOptionIntegerValue](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWModelDoc~SetSimulationOptionIntegerValue.html)(swsUserPreferenceIntegerValue_e.`option`, &h`color_reverse_hexadecimal`), e.g., ICWModelDoc::SetSimulationOptionIntegerValue(swsUserPreferenceIntegerValue_e.swsPlotShowHiddenBodyTranslucentSingleColor, &h0000ff).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::GetSimulationOptionIntegerValue Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~GetSimulationOptionIntegerValue.html)
 
 ## Availability

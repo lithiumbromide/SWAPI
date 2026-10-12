@@ -43,13 +43,7 @@ public delegate System.int DPartDocEvents_PublishTo3DPDFNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,27 +51,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[PublishTo3DPDFNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~PublishTo3DPDFNotify_EV.html)
-
-.
+See [PublishTo3DPDFNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~PublishTo3DPDFNotify_EV.html).
 
 ## Examples
 
 [Fire Notification When Publishing Part to MBD 3D PDF (C#)](Fire_Notification_When_Publishing_Part_to_MBD_3D_PDF_Example_CSharp.htm)
-
 [Fire Notification When Publishing Part to MBD 3D PDF (VB.NET)](Fire_Notification_When_Publishing_Part_to_MBD_3D_PDF_Example_VBNET.htm)
-
 [Fire Notification When Publishing Part to MBD 3D PDF (VBA)](Fire_Notification_When_Publishing_Part_to_MBD_3D_PDF_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartPublishTo3DPDFNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartPublishTo3DPDFNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

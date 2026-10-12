@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IComment Interface Members
 
-The following tables list the members exposed by[IComment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html).
+The following tables list the members exposed by [IComment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html).
 
 ## Public Properties
 
@@ -32,7 +32,5 @@ The following tables list the members exposed by[IComment](SolidWorks.Interop.sl
 ## See Also
 
 [IComment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)

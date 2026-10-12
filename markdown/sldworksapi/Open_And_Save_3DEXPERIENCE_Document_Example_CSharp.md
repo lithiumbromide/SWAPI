@@ -9,13 +9,12 @@ source: "sldworksapi/Open_And_Save_3DEXPERIENCE_Document_Example_CSharp.htm"
 
 # Open And Save Document to 3DEXPERIENCE Example (C#)
 
-This example shows how to open and save a**3D**EXPERIENCE
-document with SOLIDWORKS Connected.
+This example shows how to open and save a **3D**EXPERIENCE document with SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
 
 ```vb
   //---------------------------------------------------------------
  // Preconditions:
- // 1. Open SOLIDWORKS Connected.
+ // 1. Open SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
  // 2. Open a new part.
  // 3. Open the Immediate window.
  // 4. Run the macro to the Break.
@@ -29,9 +28,7 @@ document with SOLIDWORKS Connected.
  // 2. Use 3DEXPERIENCE 3DSearch to find NonActiveSave.sldprt
 ```
 
-//
-
-in your collaborative space.
+// in your collaborative space.
 
 ```
 // NOTE: Before running this example again, change strFileName to a

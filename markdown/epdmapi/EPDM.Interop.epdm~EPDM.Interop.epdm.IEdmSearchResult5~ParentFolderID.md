@@ -39,14 +39,9 @@ ID of the folder where the file or folder is found; 0 for the vault root folder
 
 ## Examples
 
-See the examples in
-
-[IEdmSearchResult5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html)
-
-.
+See the examples in [IEdmSearchResult5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html).
 
 ## See Also
 
 [IEdmSearchResult5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html)
-
 [IEdmSearchResult5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_members.html)

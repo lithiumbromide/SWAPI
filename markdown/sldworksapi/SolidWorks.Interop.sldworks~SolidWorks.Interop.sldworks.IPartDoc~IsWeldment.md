@@ -40,27 +40,15 @@ System.bool IsWeldment()
 System.bool IsWeldment();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if part contains a weldment feature, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[PartDoc::IsWeldment](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IsWeldment.html)
-
-.
+See [PartDoc::IsWeldment](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IsWeldment.html).
 
 ## Examples
 
@@ -69,7 +57,6 @@ See
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
 
 ## Availability

@@ -42,17 +42,11 @@ System.int Close();
 
 ### Return Value
 
-Error code as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error code as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::Close](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~Close.html)
-
-.
+See [IThicknessAnalysis::Close](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~Close.html).
 
 ## Examples
 
@@ -65,9 +59,7 @@ You must use this method to exit a session of a thickness analysis in your appli
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::Init Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~Init.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.int CustomSizing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Custom sizing as defined in
-
-[swTaperedTapCustomSizing_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTaperedTapCustomSizing_e.html)
+Custom sizing as defined in [swTaperedTapCustomSizing_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTaperedTapCustomSizing_e.html)
 
 ## VBA Syntax
 
-See
-
-[TaperedTapElementData::CustomSizing](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~CustomSizing.html)
-
-.
+See [TaperedTapElementData::CustomSizing](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~CustomSizing.html).
 
 ## Examples
 
-See the
-
-[ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
-examples.
+See the [ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html) examples.
 
 ## See Also
 
 [ITaperedTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
 [ITaperedTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData_members.html)
 
 ## Availability

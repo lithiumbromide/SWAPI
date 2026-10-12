@@ -68,10 +68,8 @@ System.Object^ GetRemoteForces(
 - `NStepNumber`: Solution step number (use 1 for static)
 - `DispPlane`: Plane, axis, or coordinate system relative to which the results are listed
 - `ArraySelectedEntities`: Selected faces, edges (shells only), vertices, and components
-- `NUnits`: Output units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Output units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -84,24 +82,17 @@ Array of four doubles of the remote load forces for all selections in ArraySelec
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetRemoteForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetRemoteForces.html)
-
-.
+See [CWResults::GetRemoteForces](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetRemoteForces.html).
 
 ## Examples
 
 [Get Remote Load Forces (VBA)](Get_Remote_Load_Forces_Example_VB.htm)
-
 [Get Remote Load Forces (VB.NET)](Get_Remote_Load_Forces_Example_VBNET.htm)
-
 [Get Remote Load Forces (C#)](Get_Remote_Load_Forces_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

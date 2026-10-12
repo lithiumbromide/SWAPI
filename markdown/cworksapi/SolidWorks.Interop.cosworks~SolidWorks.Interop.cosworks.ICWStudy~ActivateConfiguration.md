@@ -41,34 +41,22 @@ void ActivateConfiguration();
 
 ## VBA Syntax
 
-See
-
-[CWStudy::ActivateConfiguration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ActivateConfiguration.html)
-
-.
+See [CWStudy::ActivateConfiguration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ActivateConfiguration.html).
 
 ## Examples
 
 [Create Trend Tracker (VBA)](Create_Trend_Tracker_Example_VB.htm)
-
 [Create Trend Tracker (VB.NET)](Create_Trend_Tracker_Example_VBNET.htm)
-
 [Create Trend Tracker (C#)](Create_Trend_Tracker_Example_CSharp.htm)
 
 ## Remarks
 
-If the model has studies that use different configurations, you must set the active study with
-
-[ICWStudyManager::ActiveStudy](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ActiveStudy.html)
-
-after calling this method.
+If the model has studies that use different configurations, you must set the active study with [ICWStudyManager::ActiveStudy](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ActiveStudy.html) after calling this method.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::ConfigurationName Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~ConfigurationName.html)
 
 ## Availability

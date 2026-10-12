@@ -45,13 +45,7 @@ property System.bool D2PatternSeedOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True patterns the seed feature only in Direction 2
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D2PatternSeedOnly](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2PatternSeedOnly.html)
-
-.
+See [CurveDrivenPatternFeatureData::D2PatternSeedOnly](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2PatternSeedOnly.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::Dir2Specified Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~Dir2Specified.html)
 
 ## Availability

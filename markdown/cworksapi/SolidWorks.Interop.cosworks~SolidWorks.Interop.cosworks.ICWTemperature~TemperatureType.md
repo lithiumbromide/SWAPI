@@ -47,28 +47,21 @@ property System.int TemperatureType {
 
 ### Property Value
 
-Temperature type as defined in[swsTemperatureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureType_e.html)
+Temperature type as defined in [swsTemperatureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTemperature::TemperatureType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~TemperatureType.html)
-
-.
+See [CWTemperature::TemperatureType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~TemperatureType.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWTemperature Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html)
-
 [ICWTemperature Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature_members.html)
 
 ## Availability

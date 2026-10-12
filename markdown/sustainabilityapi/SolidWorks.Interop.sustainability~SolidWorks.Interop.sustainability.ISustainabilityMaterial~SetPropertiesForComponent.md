@@ -52,11 +52,7 @@ void SetPropertiesForComponent(
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::SetPropertiesForComponent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~SetPropertiesForComponent.html)
-
-.
+See [SustainabilityMaterial::SetPropertiesForComponent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~SetPropertiesForComponent.html).
 
 ## Examples
 
@@ -64,7 +60,7 @@ See
 
 ## Remarks
 
-Before calling this method, call[ISustainabilityMaterial::GetMissingMaterialComponentList](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentList.html)to populate ComponentsNames with the list of all of the components that are missing material.
+Before calling this method, call [ISustainabilityMaterial::GetMissingMaterialComponentList](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentList.html) to populate ComponentsNames with the list of all of the components that are missing material.
 
 This method applies the following material properties to the components specified in ComponentsNames:
 
@@ -75,9 +71,7 @@ This method applies the following material properties to the components specifie
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::ISetPropertiesForComponent Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~ISetPropertiesForComponent.html)
 
 ## Availability

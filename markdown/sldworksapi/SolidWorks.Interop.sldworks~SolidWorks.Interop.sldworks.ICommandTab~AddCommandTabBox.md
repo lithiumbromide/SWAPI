@@ -40,13 +40,7 @@ CommandTabBox AddCommandTabBox()
 CommandTabBox^ AddCommandTabBox();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[CommandTab::AddCommandTabBox](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~AddCommandTabBox.html)
-
-.
+See [CommandTab::AddCommandTabBox](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~AddCommandTabBox.html).
 
 ## Examples
 
@@ -68,12 +58,11 @@ See
 
 The CommandManager tab box is always added to the end of the CommandManager tab, unless it is the first CommandManager tab box added to this CommandManager tab. If so, then this CommandManager tab box is placed at the beginning of the CommandManager tab.
 
-The CommandManager tab box is not immediately visible. You must first[add buttons](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html)to the CommandManager tab box.
+The CommandManager tab box is not immediately visible. You must first [add buttons](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html) to the CommandManager tab box.
 
 ## See Also
 
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)
-
 [ICommandTab Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab_members.html)
 
 ## Availability

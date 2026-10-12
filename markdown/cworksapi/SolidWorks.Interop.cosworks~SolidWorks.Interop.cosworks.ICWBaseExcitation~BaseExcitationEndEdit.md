@@ -42,28 +42,19 @@ System.int BaseExcitationEndEdit();
 
 ### Return Value
 
-Error as defined in[swsBaseExcitationEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationEndEditError_e.html)
+Error as defined in [swsBaseExcitationEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::BaseExcitationEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationEndEdit.html)
-
-.
+See [CWBaseExcitation::BaseExcitationEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationEndEdit.html).
 
 ## Remarks
 
-You must call
-
-[ICWBaseExcitation::BaseExcitationBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~BaseExcitationBeginEdit.html)
-
-to start editing a base excitation. To end editing a base excitation, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWBaseExcitation::BaseExcitationBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~BaseExcitationBeginEdit.html) to start editing a base excitation. To end editing a base excitation, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

@@ -55,28 +55,19 @@ property System.int BlurOffset {
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::BlurOffset](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~BlurOffset.html)
-
-.
+See [AVIParameter::BlurOffset](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~BlurOffset.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
-
 [IAVIParameter::BlurLength Property ()](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~BlurLength.html)
-
 [IAVIParameter::MotionBlur Property ()](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~MotionBlur.html)
 
 ## Availability

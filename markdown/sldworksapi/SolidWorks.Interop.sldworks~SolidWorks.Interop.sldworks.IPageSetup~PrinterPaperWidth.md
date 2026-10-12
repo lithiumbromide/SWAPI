@@ -45,40 +45,28 @@ property System.int PrinterPaperWidth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Paper width (see**Remarks**)
+Paper width (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PageSetup::PrinterPaperWidth](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperWidth.html)
-
-.
+See [PageSetup::PrinterPaperWidth](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperWidth.html).
 
 ## Remarks
 
-Use[IPageSetup::PrinterPaperSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperSize.html)to set the printer paper size. A value for IPageSetup::PrinterPaperSize is a user-defined paper size. In that case, this property indicates the width of that user-defined paper.
+Use [IPageSetup::PrinterPaperSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperSize.html) to set the printer paper size. A value for IPageSetup::PrinterPaperSize is a user-defined paper size. In that case, this property indicates the width of that user-defined paper.
 
 Width is in 0.1mm units. To define a paper that is 200mm wide, Width is 2000.
 
-To get or set the printer paper length, use[IPageSetup:;PrinterPaperLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperLength.html).
+To get or set the printer paper length, use [IPageSetup:;PrinterPaperLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperLength.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::PrinterPaperSource Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~PrinterPaperSource.html)
 
 ## Availability

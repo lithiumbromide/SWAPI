@@ -39,21 +39,16 @@ void AddGroups2(
 
 ### Parameters
 
-- `ppoGroupData`: Array of
-
-[EdmGroupData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
-structures; one structure for each group
+- `ppoGroupData`: Array of [EdmGroupData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html) structures; one structure for each group
 
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
 
-This method supersedes[IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html)by providing the ability to specify permissions for added groups.
+This method supersedes [IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html) by providing the ability to specify permissions for added groups.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -62,7 +57,6 @@ This method supersedes[IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.e
 ## See Also
 
 [IEdmUserMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
 [IEdmUserMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7_members.html)
 
 ## Availability

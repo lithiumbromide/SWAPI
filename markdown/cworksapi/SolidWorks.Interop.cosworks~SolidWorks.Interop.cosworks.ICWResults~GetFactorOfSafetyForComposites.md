@@ -87,16 +87,14 @@ System.Object^ GetFactorOfSafetyForComposites(
 
 - `BIsComposite`: True for a composite shell type, false for a thin or thick shell type
 - `ArraySelectedEntities`: Array of selected surface body objects
-- `NonCompositeCriterion`: Criterion for non-composite shells as defined in[swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
-- `CompositeCriterion`: Criterion for composite shells as defined in[swsFOS_CompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_CompositeCriterion_e.html)
+- `NonCompositeCriterion`: Criterion for non-composite shells as defined in [swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
+- `CompositeCriterion`: Criterion for composite shells as defined in [swsFOS_CompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_CompositeCriterion_e.html)
 - `PlyNumber`: Number of plies; 0 = across all plies (worst case)
-- `ShellFaceOption`: Shell face option as defined in[swsFOS_ShellfaceOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_ShellFaceOption_e.html); valid only if PlyNumber > 0
-- `NormalShellFaceOption`: Normal shell face option as defined in[swsFOS_NormalShellFaceOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NormalShellFaceOption_e.html)
-- `FosDistributionOption`: Plot type as defined in[swsFOS_DistributionOpt_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_DistributionOpt_e.html)
+- `ShellFaceOption`: Shell face option as defined in [swsFOS_ShellfaceOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_ShellFaceOption_e.html); valid only if PlyNumber > 0
+- `NormalShellFaceOption`: Normal shell face option as defined in [swsFOS_NormalShellFaceOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NormalShellFaceOption_e.html)
+- `FosDistributionOption`: Plot type as defined in [swsFOS_DistributionOpt_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_DistributionOpt_e.html)
 - `MinFOSVal`: Minimum factor of safety; default is 1
-- `ErrorCode`: Result status as defined in
-
-[swsFOS_ErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_ErrorCode_e.html)
+- `ErrorCode`: Result status as defined in [swsFOS_ErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_ErrorCode_e.html)
 
 ### Return Value
 
@@ -104,28 +102,19 @@ Array of two doubles of the minimum and maximum factors of safety
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetFactorOfSafetyForComposites](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFactorOfSafetyForComposites.html)
-
-.
+See [CWResults::GetFactorOfSafetyForComposites](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFactorOfSafetyForComposites.html).
 
 ## Examples
 
 [Get Factor of Safety Values for Composites (VBA)](Get_Factor_of_Safety_Values_for_Composites_Example_VB.htm)
-
 [Get Factor of Safety Values for Composites (VB.NET)](Get_Factor_of_Safety_Values_for_Composites_Example_VBNET.htm)
-
 [Get Factor of Safety Values for Composites (C#)](Get_Factor_of_Safety_Values_for_Composites_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxFactorOfSafety Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafety.html)
-
 [ICWResults::GetMinMaxFactorOfSafetyWithDetailSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafetyWithDetailSettings.html)
 
 ## Availability

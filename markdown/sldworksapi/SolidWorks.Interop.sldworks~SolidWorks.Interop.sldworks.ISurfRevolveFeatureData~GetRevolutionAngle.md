@@ -47,13 +47,7 @@ System.double GetRevolutionAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,16 @@ Angle of the revolution
 
 ## VBA Syntax
 
-See
-
-[SurfRevolveFeatureData::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~SurfRevolveFeatureData~GetRevolutionAngle.html)
-
-.
+See [SurfRevolveFeatureData::GetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~SurfRevolveFeatureData~GetRevolutionAngle.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfRevolveFeatureData.html)
-
 [ISurfRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfRevolveFeatureData_members.html)
-
 [ISurfRevolveFeatureData::SetRevolutionAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfRevolveFeatureData~SetRevolutionAngle.html)
 
 ## Availability

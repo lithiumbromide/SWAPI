@@ -48,16 +48,11 @@ Description of the document
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Description.html)
-
-.
+See [PDMWSearchResult::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Description.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

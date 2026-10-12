@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 Allows access to a chain component pattern feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IChainPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[ChainPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData.html)
-
-.
+See [ChainPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData.html).
 
 ## Examples
 
 [Create and Modify Distance Chain Pattern Feature (C#)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_CSharp.htm)
-
 [Create and Modify Distance Chain Pattern Feature (VB.NET)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_VBNET.htm)
-
 [Create and Modify Distance Chain Pattern Feature (VBA)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
@@ -63,9 +57,9 @@ This interface supports the following chain component patterns:
 - distance linkage
 - connected linkage
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can pre-select the entities needed to populate the chain component pattern.
+Before calling IFeatureManager::CreateDefinition, you must pre-select the entities needed to populate the chain component pattern.
 
 | Entity to select | Corresponding Chain Pattern PropertyManager control | Selection mark | Number of selections |
 | --- | --- | --- | --- |
@@ -80,9 +74,7 @@ Before calling IFeatureManager::CreateDefinition, you can pre-select the entitie
 | Component plane or planar face | Group 2 Path Alignment Plane | 32768 | 1 for connected linkage None for distance or linkage distance |
 | Assembly plane | Face normal alignment | 1024 | 1 if the chain path is a sketch line None for all other types of paths |
 
-Or, after calling IFeatureManger::CreateDefinition, you can explicitly set the corresponding properties on the feature data object.
-
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the chain component pattern feature.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the chain component pattern feature.
 
 ## Accessors
 
@@ -97,5 +89,4 @@ Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sld
 ## See Also
 
 [IChainPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

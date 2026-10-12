@@ -46,13 +46,7 @@ void FlipFaceTangentTo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,38 +54,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[ShutOffSurfaceFeatureData::FlipFaceTangentTo](ms-its:sldworksapivb6.chm::/sldworks~ShutOffSurfaceFeatureData~FlipFaceTangentTo.html)
-
-.
+See [ShutOffSurfaceFeatureData::FlipFaceTangentTo](ms-its:sldworksapivb6.chm::/sldworks~ShutOffSurfaceFeatureData~FlipFaceTangentTo.html).
 
 ## Examples
 
-See
-
-[IShutOffSurfaceFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData.html)
-
-examples.
+See [IShutOffSurfaceFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData.html) examples.
 
 ## Remarks
 
-This method is only available when the type of patch is set to swPatchTypeTangent. See
-
-[IShutOffSurfaceFeatureData::LoopPatchType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData~LoopPatchType.html)
-
-and
-
-[IShutOffSurfaceFeatureData::SetAllPatchTypes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData~SetAllPatchTypes.html)
-
-.
+This method is only available when the type of patch is set to swPatchTypeTangent. See [IShutOffSurfaceFeatureData::LoopPatchType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData~LoopPatchType.html) and [IShutOffSurfaceFeatureData::SetAllPatchTypes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShutOffSurfaceFeatureData~SetAllPatchTypes.html).
 
 ## See Also
 
 [IShutOffSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShutOffSurfaceFeatureData.html)
-
 [IShutOffSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShutOffSurfaceFeatureData_members.html)
-
 [IShutOffSurfaceFeatureData::GetFaceTangentTo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShutOffSurfaceFeatureData~GetFaceTangentTo.html)
 
 ## Availability

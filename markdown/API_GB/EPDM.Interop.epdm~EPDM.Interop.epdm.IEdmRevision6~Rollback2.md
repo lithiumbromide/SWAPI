@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6~Rollback2.html
 
 # Rollback2 Method (IEdmRevision6)
 
-Obsolete. Superseded by
-
-[IEdmRevision7::Rollback3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7~Rollback3.html)
-
-.
+Obsolete. Superseded by [IEdmRevision7::Rollback3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7~Rollback3.html).
 
 ## Syntax
 
@@ -57,11 +53,8 @@ This method destroys all versions after this revision number. To undo this rollb
 ## See Also
 
 [IEdmRevision6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6.html)
-
 [IEdmRevision6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6_members.html)
-
 [IEdmEnumeratorVersion6::Rollback2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion6~Rollback2.html)
-
 [IEdmVersion6::Rollback2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6~Rollback2.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.bool SetBentLeaderLength(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,15 +60,11 @@ See
 
 ### Return Value
 
-True if the bent leader length is set, false if notParamDesc
+True if the bent leader length is set, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetBentLeaderLength](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetBentLeaderLength.html)
-
-.
+See [DisplayDimension::SetBentLeaderLength](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetBentLeaderLength.html).
 
 ## Remarks
 
@@ -82,13 +72,12 @@ The dimension bent leader length only applies to these types of dimensions: radi
 
 Use:
 
-- [IDisplayDimension::GetUseDocBentLeaderLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocBentLeaderLength.html)to determine whether this dimension is using the document default setting for dimension bent leader length or not.
-- [IDisplayDimension::GetBentLeaderLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetBentLeaderLength.html)to determine the bent leader length for this dimension.
+- [IDisplayDimension::GetUseDocBentLeaderLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocBentLeaderLength.html) to determine whether this dimension is using the document default setting for dimension bent leader length or not.
+- [IDisplayDimension::GetBentLeaderLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetBentLeaderLength.html) to determine the bent leader length for this dimension.
 
-After using this method, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this method, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

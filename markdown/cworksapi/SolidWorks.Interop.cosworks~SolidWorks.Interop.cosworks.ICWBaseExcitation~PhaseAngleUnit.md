@@ -47,34 +47,22 @@ property System.int PhaseAngleUnit {
 
 ### Property Value
 
-Value as defined in
-
-[swsPhaseAngleUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPhaseAngleUnit_e.html)
-
-; -1 if undefined
+Value as defined in [swsPhaseAngleUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPhaseAngleUnit_e.html); -1 if undefined
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::PhaseAngleUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~PhaseAngleUnit.html)
-
-.
+See [CWBaseExcitation::PhaseAngleUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~PhaseAngleUnit.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
-
 [ICWBaseExcitation::PhaseAngle Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~PhaseAngle.html)
 
 ## Availability

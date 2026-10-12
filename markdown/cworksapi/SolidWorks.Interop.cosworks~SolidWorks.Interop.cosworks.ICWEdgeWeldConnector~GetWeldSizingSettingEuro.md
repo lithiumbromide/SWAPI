@@ -77,63 +77,36 @@ System.int GetWeldSizingSettingEuro(
 
 ### Parameters
 
-- `NWeakMaterial`: Material of weaker joined part as defined in
-
-[swsWeakMaterial_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeakMaterial_e.html)
+- `NWeakMaterial`: Material of weaker joined part as defined in [swsWeakMaterial_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeakMaterial_e.html)
 - `DUltimateTensileStrength`: Ultimate tensile strength of NWeakMaterial
-- `NTensileStrengthUnit`: DUltimateTensileStrength units as defined in
-
-[swsWeldStrengthUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeldStrengthUnits_e.html)
+- `NTensileStrengthUnit`: DUltimateTensileStrength units as defined in [swsWeldStrengthUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeldStrengthUnits_e.html)
 - `DCorrelationFactor`: 0.8 <= correlation factor for weld calculations <= 1.0
 - `DPartialSafetyFactor`: 1.0 <= partial safety factor for joints <= 1.25
 - `BIsEstimatedWeldSize`: True to calculate the appropriate size for the weld connector and compare it to DEstimatedWeldSize in the Weld Check Plot; false to just use DEstimatedWeldSize
 - `DEstimatedWeldSize`: Estimated weld size
-- `NEstimatedWeldSizeUnit`: DEstimatedWeldSize units as defined in
-
-[swsEstimatedWeldSizeUnits_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEstimatedWeldSizeUnits_e.html)
+- `NEstimatedWeldSizeUnit`: DEstimatedWeldSize units as defined in [swsEstimatedWeldSizeUnits_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEstimatedWeldSizeUnits_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::GetWeldSizingSettingEuro](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~GetWeldSizingSettingEuro.html)
-
-.
+See [CWEdgeWeldConnector::GetWeldSizingSettingEuro](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~GetWeldSizingSettingEuro.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[ICWEdgeWeldConnector::GetCodeType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWEdgeWeldConnector~GetCodeType.html)
-
-returns
-
-[swsEdgeWeldSolverCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEdgeWeldSolverCode_e.html)
-
-.swsEdgeWeldSolverCodeEURO.
+This method is valid only if [ICWEdgeWeldConnector::GetCodeType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWEdgeWeldConnector~GetCodeType.html) returns [swsEdgeWeldSolverCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEdgeWeldSolverCode_e.html).swsEdgeWeldSolverCodeEURO.
 
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::SetWeldSizingSettingEuro Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~SetWeldSizingSettingEuro.html)
-
 [ICWEdgeWeldConnector::GetWeldSizingSettingUS Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~GetWeldSizingSettingUS.html)
 
 ## Availability

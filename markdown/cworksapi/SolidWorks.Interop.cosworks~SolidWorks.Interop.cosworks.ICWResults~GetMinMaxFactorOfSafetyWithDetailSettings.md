@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetMinMaxFactorOfSafetyWithDetailSettings Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetMinMaxFactorOfSafetyWithDetailSettings2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafetyWithDetailSettings2.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetMinMaxFactorOfSafetyWithDetailSettings2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafetyWithDetailSettings2.html).
 
 ## Syntax
 
@@ -111,35 +107,19 @@ System.Object^ GetMinMaxFactorOfSafetyWithDetailSettings(
 
 - `BAllBodies`: True to select all bodies to plot the factor of safety, false to select specific bodies
 - `ArraySelectedEntities`: Array of bodies for which to plot the factor of safety; valid only if BAllBodies is set to false
-- `NComponent`: Failure criterion as defined by
-
-[swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
-
-(see
-
-Remarks
-
-)
+- `NComponent`: Failure criterion as defined by [swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html) (see **Remarks**)
 - `BUpperLimit`: True to set an upper limit, false to not
 - `DUpperValue`: Upper limit; valid only if BUpperLimit is true
-- `NStressUnit`: Units of stress as defined in
-
-[swsStrengthUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsStrengthUnit_e.html)
-- `NStressLimitOption`: Tensile stress limit as defined in
-
-[swsFactorOfSafetyStressLimitOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFactorOfSafetyStressLimitOption_e.html)
+- `NStressUnit`: Units of stress as defined in [swsStrengthUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsStrengthUnit_e.html)
+- `NStressLimitOption`: Tensile stress limit as defined in [swsFactorOfSafetyStressLimitOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFactorOfSafetyStressLimitOption_e.html)
 - `DStressValue`: Tensile stress value; valid only if NStressLimitOption is swsFactorOfSafetyStressLimitOption_e.swsFactorOfSafetyStressLimitOption_UserDefined
 - `NCompressiveStressLimitOption`: Compressive stress limit as defined in swsFactorOfSafetyStressLimitOption_e
 - `DCompressiveStressValue`: Compressive stress value; valid only if NCompressiveStressLimitOption is swsFactorOfSafetyStressLimitOption_e.swsFactorOfSafetyStressLimitOption_UserDefined
 - `DMultiplicationFactor`: Tensile stress limit multiplication factor
 - `DCompressiveStressMultiplicationFactor`: Compressive stress limit multiplication factor
 - `BCombinedStressOnBeams`: True to combine stress on beams, false to not
-- `NShellOptions`: Shell face on which to perform the factor of safety as defined by
-
-[swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
-- `ErrorCode`: Error code as defined by
-
-[swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
+- `NShellOptions`: Shell face on which to perform the factor of safety as defined by [swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
+- `ErrorCode`: Error code as defined by [swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -147,11 +127,7 @@ Array of two doubles of the minimum and maximum factors of safety
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxFactorOfSafetyWithDetailSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafetyWithDetailSettings.html)
-
-.
+See [CWResults::GetMinMaxFactorOfSafetyWithDetailSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafetyWithDetailSettings.html).
 
 ## Remarks
 
@@ -160,11 +136,8 @@ For pure beam studies, you can only specify NComponent with swsFOS_NonCompositeC
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxFactorOfSafety Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafety.html)
-
 [ICWResults::GetFactorOfSafetyForComposites Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFactorOfSafetyForComposites.html)
 
 ## Availability

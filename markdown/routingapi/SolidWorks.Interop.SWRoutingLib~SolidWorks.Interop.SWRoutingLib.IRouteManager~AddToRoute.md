@@ -46,11 +46,7 @@ True if a route is added, false if not
 
 ## VBA Syntax
 
-See
-
-[RouteManager::AddToRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~AddToRoute.html)
-
-.
+See [RouteManager::AddToRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~AddToRoute.html).
 
 ## Examples
 
@@ -58,7 +54,7 @@ See
 
 ## Remarks
 
-Before calling this method, you must call[IRouteManager::EditRoute](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~EditRoute.html)to place the routing assembly in edit mode.
+Before calling this method, you must call [IRouteManager::EditRoute](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~EditRoute.html) to place the routing assembly in edit mode.
 
 | To exit... | Call... |
 | --- | --- |
@@ -68,9 +64,7 @@ Before calling this method, you must call[IRouteManager::EditRoute](SOLIDWORKS.I
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
-
 [IRouteManager::StartRoute](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~StartRoute.html)
 
 ## Availability

@@ -42,30 +42,19 @@ System.int GetLicenseType();
 
 ### Return Value
 
-Document Manager license type as defined in
-
-[swDMDocumentLicenseType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDMDocumentLicenseType_e.html)
+Document Manager license type as defined in [swDMDocumentLicenseType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDMDocumentLicenseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument23::GetLicenseType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument23~GetLicenseType.html)
-
-.
+See [SwDMDocument23::GetLicenseType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument23~GetLicenseType.html).
 
 ## Examples
 
-See the
-
-[ISwDMDocument23](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument23.html)
-
-examples.
+See the [ISwDMDocument23](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument23.html) examples.
 
 ## See Also
 
 [ISwDMDocument23 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument23.html)
-
 [ISwDMDocument23 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument23_members.html)
 
 ## Availability

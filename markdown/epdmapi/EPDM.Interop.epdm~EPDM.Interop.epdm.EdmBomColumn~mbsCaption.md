@@ -35,5 +35,4 @@ System.String^ mbsCaption
 ## See Also
 
 [EdmBomColumn Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
 [EdmBomColumn Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html)

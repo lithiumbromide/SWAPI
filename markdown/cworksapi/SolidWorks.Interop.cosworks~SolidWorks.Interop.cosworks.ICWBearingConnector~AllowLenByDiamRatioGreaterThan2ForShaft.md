@@ -47,22 +47,15 @@ True to allow (shaft length)/(diameter) greater than > 2, false to not
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::AllowLenByDiamRatioGreaterThan2ForShaft](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~AllowLenByDiamRatioGreaterThan2ForShaft.html)
-
-.
+See [CWBearingConnector::AllowLenByDiamRatioGreaterThan2ForShaft](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~AllowLenByDiamRatioGreaterThan2ForShaft.html).
 
 ## Remarks
 
-[ICWBearingConnector::PerformAdvanceValidations](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~PerformAdvanceValidations.html)
-
-calculates this ratio and returns an error code if it cannot be greater than two and this property is set to false.
+[ICWBearingConnector::PerformAdvanceValidations](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~PerformAdvanceValidations.html) calculates this ratio and returns an error code if it cannot be greater than two and this property is set to false.
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

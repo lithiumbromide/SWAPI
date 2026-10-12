@@ -47,26 +47,16 @@ property System.double SNCurveSpecificConstantB {
 
 ### Property Value
 
-B constant of Basquin Equation (see
-
-Remarks
-
-)
+B constant of Basquin Equation (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SNCurveSpecificConstantB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SNCurveSpecificConstantB.html)
-
-.
+See [CWMaterial::SNCurveSpecificConstantB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SNCurveSpecificConstantB.html).
 
 ## Examples
 
 [Create Fatigue Study for Dynamic Random Vibration Study (VBA)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VB.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (VB.NET)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VBNET.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (C#)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -76,32 +66,16 @@ The B constant of the Basquin Equation is the positive real value of the stress 
 This property is valid only:
 
 - for fatigue studies that are based on results from linear dynamic random vibration studies.
-- if
+- if [ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html) is set to [swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html).swsMaterialSNCurveSourceEquation, and [ICWMaterial::SNCurveEstimateConstants](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveEstimateConstants.html) is set to 0.
 
-  [ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html)
-
-  is set to
-
-  [swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html)
-
-  .swsMaterialSNCurveSourceEquation, and
-
-  [ICWMaterial::SNCurveEstimateConstants](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveEstimateConstants.html)
-
-  is set to 0.
-
-See the SOLIDWORKS Help topic,**Material Dialog Box - Fatigue SN Curves Tab**, for more information about Basquin Equations.
+See the SOLIDWORKS Help topic, **Material Dialog Box - Fatigue SN Curves Tab**, for more information about Basquin Equations.
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SNCurveEstimateCutoff Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveEstimateCutoff.html)
-
 [ICWMaterial::SNCurveSlopeM Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSlopeM.html)
-
 [ICWMaterial::SNCurveSpecificConstantBUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSpecificConstantBUnit.html)
 
 ## Availability

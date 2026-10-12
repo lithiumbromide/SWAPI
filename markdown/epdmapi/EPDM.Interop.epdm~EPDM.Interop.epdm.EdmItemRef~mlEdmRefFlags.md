@@ -34,14 +34,9 @@ System.int mlEdmRefFlags
 
 ### Field Value
 
-Combination of
-
-[EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
-
-bits
+Combination of [EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html) bits
 
 ## See Also
 
 [EdmItemRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
 [EdmItemRef Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef_members.html)

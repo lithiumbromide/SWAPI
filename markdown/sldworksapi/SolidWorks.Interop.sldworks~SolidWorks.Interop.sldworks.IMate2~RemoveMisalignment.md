@@ -40,13 +40,7 @@ System.bool RemoveMisalignment()
 System.bool RemoveMisalignment();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the misaligned mate condition is successfully removed, false if not
 
 ## VBA Syntax
 
-See
-
-[Mate2::RemoveMisalignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~RemoveMisalignment.html)
-
-.
+See [Mate2::RemoveMisalignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~RemoveMisalignment.html).
 
 ## Examples
 
@@ -105,9 +95,7 @@ After calling this method, one of the concentric mates may be unsolvable.
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::ForceMisalignment Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~ForceMisalignment.html)
 
 ## Availability

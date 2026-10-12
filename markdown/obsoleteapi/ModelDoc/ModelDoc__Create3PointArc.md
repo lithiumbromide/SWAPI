@@ -9,8 +9,7 @@ source: "obsoleteapi/ModelDoc/ModelDoc__Create3PointArc.htm"
 
 # ModelDoc::Create3PointArc
 
-This
-method is obsolete and has been superseded by[ModelDoc2::Create3PointArc](../ModelDoc2/ModelDoc2__Create3PointArc.htm).
+This method is obsolete and has been superseded by [ModelDoc2::Create3PointArc](../ModelDoc2/ModelDoc2__Create3PointArc.htm).
 
 Description
 
@@ -18,10 +17,7 @@ This method creates a 3-point arc.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc.Create3PointArc (
-p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z)
-
-(Table)=========================================================
+retval = ModelDoc.Create3PointArc ( p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z)
 
 | Input: | (double) p1x | X value of point 1 |
 | --- | --- | --- |
@@ -35,13 +31,9 @@ p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z)
 | Input: | (double) p3z | Z value of point 3 |
 | Return: | (BOOL) retval | TRUE if successfully created, FALSE otherwise |
 
-Syntax
-(COM)
+Syntax (COM)
 
-status = ModelDoc->Create3PointArc
-( p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z, &retval )
-
-(Table)=========================================================
+status = ModelDoc->Create3PointArc ( p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z, &retval )
 
 | Input: | (double) p1x | X value of point 1 |
 | --- | --- | --- |
@@ -57,28 +49,3 @@ status = ModelDoc->Create3PointArc
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc_Object$$**$$ZCreateSketchEntity$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\ModelDoc\ModelDoc__Create3PointArc.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

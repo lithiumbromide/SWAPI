@@ -9,8 +9,7 @@ source: "sldworksapi/Set_All_Assembly_Components_Lightweight_or_Resolved_Example
 
 # Set All Assembly Components Lightweight or Resolved Example (VBA)
 
-This example shows how to set all assembly components to either lightweight
-or resolved.
+This example shows how to set all assembly components to either lightweight or resolved.
 
 ```
 '-----------------------------------------------

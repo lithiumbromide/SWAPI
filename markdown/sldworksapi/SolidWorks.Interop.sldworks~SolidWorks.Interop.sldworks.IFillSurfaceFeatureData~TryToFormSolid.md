@@ -45,13 +45,7 @@ property System.bool TryToFormSolid {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,21 @@ True if trying to form solid, false if not
 
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::TryToFormSolid](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~TryToFormSolid.html)
-
-.
+See [FillSurfaceFeatureData::TryToFormSolid](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~TryToFormSolid.html).
 
 ## Remarks
 
 The behavior for this option depends on the boundaries.
 
 - When all the boundaries belong to the same solid body, you can use the surface fill to patch the solid.
-- If at least one of the edges is an open sheet edge and you merge results, then the fill knits with the surfaces to which the edges belong. See[IFillSurfaceFeatureData::Merge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~Merge.html)for details about merging results.
+- If at least one of the edges is an open sheet edge and you merge results, then the fill knits with the surfaces to which the edges belong. See [IFillSurfaceFeatureData::Merge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~Merge.html) for details about merging results.
 - If all the boundary entities are open edges, then a solid may be created.
 
-See[IFillSurfaceFeatureData::GetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~GetPatchBoundary.html)or[IFillSurfaceFeatureData::IGetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~IGetPatchBoundary.html)and[IFillSurfaceFeatureData::SetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~SetPatchBoundary.html)or[IFillSurfaceFeatureData::ISetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~ISetPatchBoundary.html)for details about boundary entities.
+See [IFillSurfaceFeatureData::GetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~GetPatchBoundary.html) or [IFillSurfaceFeatureData::IGetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~IGetPatchBoundary.html) and [IFillSurfaceFeatureData::SetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~SetPatchBoundary.html) or [IFillSurfaceFeatureData::ISetPatchBoundary](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~ISetPatchBoundary.html) for details about boundary entities.
 
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
 
 ## Availability

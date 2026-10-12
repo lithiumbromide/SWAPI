@@ -9,8 +9,7 @@ source: "sldworksapi/Update_Notes_Without_Activating_Sheets_Example_VB.htm"
 
 # Update Notes Without Activating Sheets Example (VBA)
 
-This example shows how to update the notes in a drawing document without
-activating the drawing sheets.
+This example shows how to update the notes in a drawing document without activating the drawing sheets.
 
 ```
 '-----------------------------------------------

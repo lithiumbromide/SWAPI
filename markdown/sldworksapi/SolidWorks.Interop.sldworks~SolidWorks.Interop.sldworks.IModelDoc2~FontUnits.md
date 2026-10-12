@@ -46,13 +46,7 @@ void FontUnits(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,42 +54,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FontUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FontUnits.html)
-
-.
+See [ModelDoc2::FontUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FontUnits.html).
 
 ## Examples
 
 [Add Watermark to Part (C#)](Add_Watermark_to_Part_Example_CSharp.htm)
-
 [Add Watermark to Part (VB.NET)](Add_Watermark_to_Part_Example_VBNET.htm)
-
 [Add Watermark to Part (VBA)](Add_Watermark_to_Part_Example_VB.htm)
 
 ## Remarks
 
-You can also use
-
-[ITextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html)
-
-for full control of text formatting. Obtain ITextFormat using the appropriate GetTextFormat method (see index entry GetTextFormat for a list of available GetTextFormat methods).
+You can also use [ITextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html) for full control of text formatting. Obtain ITextFormat using the appropriate GetTextFormat method (see index entry GetTextFormat for a list of available GetTextFormat methods).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::FontBold Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FontBold.html)
-
 [IModelDoc2::FontFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FontFace.html)
-
 [IModelDoc2::FontItalic Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FontItalic.html)
-
 [IModelDoc2::FontPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FontPoints.html)
-
 [IModelDoc2::FontUnderline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FontUnderline.html)
 
 ## Availability

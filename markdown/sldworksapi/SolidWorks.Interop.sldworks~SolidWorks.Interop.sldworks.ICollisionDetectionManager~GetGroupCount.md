@@ -40,13 +40,7 @@ System.int GetGroupCount()
 System.int GetGroupCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Number of collision detection groups
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::GetGroupCount](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetGroupCount.html)
-
-.
+See [CollisionDetectionManager::GetGroupCount](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetGroupCount.html).
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

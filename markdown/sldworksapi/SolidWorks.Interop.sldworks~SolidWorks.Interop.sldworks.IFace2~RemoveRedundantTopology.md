@@ -40,13 +40,7 @@ System.bool RemoveRedundantTopology()
 System.bool RemoveRedundantTopology();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if the redundant topology was removed, false if not
 
 ## VBA Syntax
 
-See
-
-[Face2::RemoveRedundantTopology](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveRedundantTopology.html)
-
-.
+See [Face2::RemoveRedundantTopology](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveRedundantTopology.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IEdge::RemoveRedundantTopology Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~RemoveRedundantTopology.html)
-
 [IBody2::RemoveRedundantTopology Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~RemoveRedundantTopology.html)
 
 ## Availability

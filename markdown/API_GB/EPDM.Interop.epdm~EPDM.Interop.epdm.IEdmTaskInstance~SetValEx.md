@@ -43,15 +43,11 @@ void SetValEx(
 ### Parameters
 
 - `bsValName`: User-defined variable name
-- `oValue`: Value of user-defined variable (see
-
-Remarks
-
-)
+- `oValue`: Value of user-defined variable (see **Remarks**)
 
 ## Remarks
 
-This method can be called to set the value when the task is launched on the client computer ([EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch) and[IEdmTaskInstance::GetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetValEx.html)can be called to get the value when the task is executed on the server (EdmCmdType.EdmCmd_TaskRun).
+This method can be called to set the value when the task is launched on the client computer ([EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch) and [IEdmTaskInstance::GetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetValEx.html) can be called to get the value when the task is executed on the server (EdmCmdType.EdmCmd_TaskRun).
 
 Custom data types and objects must be serialized to a string, numeric type, or date before calling IEdmTaskInstance::SetValEx. For example:
 
@@ -60,7 +56,7 @@ Custom data types and objects must be serialized to a string, numeric type, or d
 3. Call IEdmTaskInstance::GetValEx to retrieve the stored string.
 4. Initialize the new instance of the object from XML/JSON using StringReader, XmlReader, XmlSerializer, etc.
 
-**NOTE**: The difference between this method and[IEdmTaskInstance::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetVar.html)is that the latter requires a pre-defined card variable in the vault, whereas this method does not.
+**NOTE**: The difference between this method and [IEdmTaskInstance::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetVar.html) is that the latter requires a pre-defined card variable in the vault, whereas this method does not.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -69,9 +65,7 @@ Custom data types and objects must be serialized to a string, numeric type, or d
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskInstance Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html)
-
 [Task Add-in Sample](TaskSample.htm)
 
 ## Availability

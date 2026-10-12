@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPropert
 
 # swPropertyManagerPageOptions_e Enumeration
 
-Options for PropertyManager pages.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Options for PropertyManager pages. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -51,8 +47,7 @@ public enum class swPropertyManagerPageOptions_e : public System.Enum
 | swPropertyManagerOptions_CancelButton | 2 or 0x2 |
 | swPropertyManagerOptions_CanEscapeCancel | 4096 or 0x1000; When a user presses the Esc key, the PropertyManager page will close the page; this enumerator only applies to pages that do not contain selection boxes |
 | swPropertyManagerOptions_CloseDialogButton | 8 or 0x8 |
-| swPropertyManagerOptions_DisablePageBuildDuringHandlers | 32768 or 0x8000; Paint the PropertyManager page after control returns to SOLIDWORKS from the add-in's handler; may help eliminate any flickering of the
-PropertyManager page of the add-in changes the visibility of numerous controls on the PropertyManager page |
+| swPropertyManagerOptions_DisablePageBuildDuringHandlers | 32768 or 0x8000; Paint the PropertyManager page after control returns to SOLIDWORKS from the add-in's handler; may help eliminate any flickering of the PropertyManager page of the add-in changes the visibility of numerous controls on the PropertyManager page |
 | swPropertyManagerOptions_DisableSelection | 256 or 0x100 |
 | swPropertyManagerOptions_GrayOutDisabledSelectionListboxes | 65536 or 0x10000; Controls whether a PropertyManager page should show its disabled selection list boxes so that they appear grayed out by coloring their backgrounds the same color as the divider box background. NOTE: Disabled selection list boxes should be hidden; graying them out is an exception to SOLIDWORKS standard practice. |
 | swPropertyManagerOptions_HandleKeystrokes | 8192 or 0x2000; Enables processing of keystrokes while the PropertyManager page is displayed; disabled by default |

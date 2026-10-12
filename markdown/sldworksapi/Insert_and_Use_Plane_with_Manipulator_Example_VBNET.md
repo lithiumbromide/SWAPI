@@ -121,11 +121,102 @@ This example shows how to insert a plane with a manipulator.
  'Class1.vb
 ```
 
-Imports SolidWorks.Interop.sldworks Imports SolidWorks.Interop.swpublished Imports System Imports System.Diagnostics Imports System.Runtime <System.Runtime.InteropServices.ComVisibleAttribute( True )>
-_ Public Class Class1 Implements SwManipulatorHandler2 Public Sub SwManipulatorHandler2_ OnUpdateDrag ( ByVal pManipulator As Object , ByVal handleIndex As Long , ByVal newPosMathPt As Object ) 'Public Sub
-SwManipulatorHandler2_OnUpdateDrag(ByVal pManipulator As Object, ByVal
-handleIndex As Long, ByVal newPosMathPt As Object) Implements
-SolidWorks.Interop.swpublished.SwManipulatorHandler.OnUpdateDrag Debug.Print( "SwManipulatorHandler2_OnUpdateDrag" ) Debug.Print( " HandleIndex = " & handleIndex) Dim swRetManip As PlaneManipulator swRetManip = pManipulator If (handleIndex =
-8) Then Dim retDist As Double retDist = swRetManip. Distance Else Dim angleX As Double Dim angleY As Double angleX = swRetManip. XAngle angleY = swRetManip. YAngle End If End Sub Public Function SwManipulatorHandler2_OnDelete( ByVal pManipulator As Object ) As Boolean End Function Public Sub SwManipulatorHandler2_OnDirectionFlipped( ByVal pManipulator As Object ) End Sub Public Function SwManipulatorHandler2_OnDoubleValueChanged( ByVal pManipulator As Object , ByVal Id As Long , ByVal Value As Double ) As Boolean End Function Public Sub SwManipulatorHandler2_OnEndNoDrag( ByVal pManipulator As Object , ByVal handleIndex As Long ) End Sub Public Sub SwManipulatorHandler2_OnHandleRmbSelected( ByVal pManipulator As Object , ByVal handleIndex As Long ) End Sub Public Function SwManipulatorHandler2_OnHandleLmbSelected( ByVal pManipulator As Object ) As Boolean End Function Public Sub SwManipulatorHandler2_OnHandleSelected( ByVal pManipulator As Object , ByVal handleIndex As Long ) End Sub Public Sub SwManipulatorHandler2_OnItemSetFocus( ByVal pManipulator As Object , ByVal Id As Long ) End Sub Public Function SwManipulatorHandler2_OnLmbSelected( ByVal pManipulator As Object ) As Boolean End Function Public Function SwManipulatorHandler2_OnStringValueChanged( ByVal pManipulator As Object , ByVal Id As Long , ByVal Value As String ) As Boolean End Function Public Sub SwManipulatorHandler2_OnEndDrag( ByVal pMani As Object , ByVal index As Long ) End Sub Public Function OnDelete( ByVal pManipulator As Object ) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDelete End Function Public Sub OnDirectionFlipped( ByVal pManipulator As Object ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDirectionFlipped End Sub Public Function OnDoubleValueChanged( ByVal pManipulator As Object , ByVal handleIndex As Integer , ByRef Value As Double ) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDoubleValueChanged End Function Public Sub OnEndDrag( ByVal pManipulator As Object , ByVal handleIndex As Integer ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnEndDrag End Sub Public Sub OnEndNoDrag( ByVal pManipulator As Object , ByVal handleIndex As Integer ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnEndNoDrag End Sub Public Function OnHandleLmbSelected( ByVal pManipulator As Object ) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleLmbSelected End Function Public Sub OnHandleRmbSelected( ByVal pManipulator As Object , ByVal handleIndex As Integer ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleRmbSelected End Sub Public Sub OnHandleSelected( ByVal pManipulator As Object , ByVal handleIndex As Integer ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleSelected End Sub Public Sub OnItemSetFocus( ByVal pManipulator As Object , ByVal handleIndex As Integer ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnItemSetFocus End Sub Public Function OnStringValueChanged( ByVal pManipulator As Object , ByVal handleIndex As Integer , ByRef Value As String ) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnStringValueChanged End Function Public Sub OnUpdateDrag( ByVal pManipulator As Object , ByVal handleIndex As Integer , ByVal newPosMathPt As Object ) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnUpdateDrag End Sub EndClass
+Imports SolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.swpublished
+Imports System
+Imports System.Diagnostics
+Imports System.Runtime
+
+<System.Runtime.InteropServices.ComVisibleAttribute(True)> _
+Public Class Class1
+
+Implements SwManipulatorHandler2
+
+Public Sub SwManipulatorHandler2_**OnUpdateDrag**(ByVal pManipulator As Object, ByVal handleIndex As Long, ByVal newPosMathPt As Object)
+'Public Sub SwManipulatorHandler2_OnUpdateDrag(ByVal pManipulator As Object, ByVal handleIndex As Long, ByVal newPosMathPt As Object) Implements SolidWorks.Interop.swpublished.SwManipulatorHandler.OnUpdateDrag
+Debug.Print("SwManipulatorHandler2_OnUpdateDrag")
+Debug.Print(" HandleIndex = " & handleIndex)
+Dim swRetManip As PlaneManipulator
+swRetManip = pManipulator
+
+If (handleIndex = 8) Then
+Dim retDist As Double
+retDist = swRetManip.**Distance**
+Else
+Dim angleX As Double
+Dim angleY As Double
+angleX = swRetManip.**XAngle**
+angleY = swRetManip.**YAngle**
+End If
+
+End Sub
+
+Public Function SwManipulatorHandler2_OnDelete(ByVal pManipulator As Object) As Boolean
+End Function
+
+Public Sub SwManipulatorHandler2_OnDirectionFlipped(ByVal pManipulator As Object)
+End Sub
+
+Public Function SwManipulatorHandler2_OnDoubleValueChanged(ByVal pManipulator As Object, ByVal Id As Long, ByVal Value As Double) As Boolean
+End Function
+
+Public Sub SwManipulatorHandler2_OnEndNoDrag(ByVal pManipulator As Object, ByVal handleIndex As Long)
+End Sub
+
+Public Sub SwManipulatorHandler2_OnHandleRmbSelected(ByVal pManipulator As Object, ByVal handleIndex As Long)
+End Sub
+
+Public Function SwManipulatorHandler2_OnHandleLmbSelected(ByVal pManipulator As Object) As Boolean
+End Function
+
+Public Sub SwManipulatorHandler2_OnHandleSelected(ByVal pManipulator As Object, ByVal handleIndex As Long)
+End Sub
+
+Public Sub SwManipulatorHandler2_OnItemSetFocus(ByVal pManipulator As Object, ByVal Id As Long)
+End Sub
+
+Public Function SwManipulatorHandler2_OnLmbSelected(ByVal pManipulator As Object) As Boolean
+End Function
+
+Public Function SwManipulatorHandler2_OnStringValueChanged(ByVal pManipulator As Object, ByVal Id As Long, ByVal Value As String) As Boolean
+End Function
+
+Public Sub SwManipulatorHandler2_OnEndDrag(ByVal pMani As Object, ByVal index As Long)
+End Sub
+
+Public Function OnDelete(ByVal pManipulator As Object) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDelete
+End Function
+
+Public Sub OnDirectionFlipped(ByVal pManipulator As Object) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDirectionFlipped
+End Sub
+
+Public Function OnDoubleValueChanged(ByVal pManipulator As Object, ByVal handleIndex As Integer, ByRef Value As Double) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnDoubleValueChanged
+End Function
+
+Public Sub OnEndDrag(ByVal pManipulator As Object, ByVal handleIndex As Integer) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnEndDrag
+End Sub
+
+Public Sub OnEndNoDrag(ByVal pManipulator As Object, ByVal handleIndex As Integer) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnEndNoDrag
+End Sub
+
+Public Function OnHandleLmbSelected(ByVal pManipulator As Object) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleLmbSelected
+End Function
+
+Public Sub OnHandleRmbSelected(ByVal pManipulator As Object, ByVal handleIndex As Integer) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleRmbSelected
+End Sub
+
+Public Sub OnHandleSelected(ByVal pManipulator As Object, ByVal handleIndex As Integer) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnHandleSelected
+End Sub
+
+Public Sub OnItemSetFocus(ByVal pManipulator As Object, ByVal handleIndex As Integer) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnItemSetFocus
+End Sub
+
+Public Function OnStringValueChanged(ByVal pManipulator As Object, ByVal handleIndex As Integer, ByRef Value As String) As Boolean Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnStringValueChanged
+End Function
+
+Public Sub OnUpdateDrag(ByVal pManipulator As Object, ByVal handleIndex As Integer, ByVal newPosMathPt As Object) Implements SolidWorks.Interop.swpublished.ISwManipulatorHandler2.OnUpdateDrag
+End Sub
+
+End Class
 
 [Back to top](#top)

@@ -51,11 +51,7 @@ Value of a property to use as a filter
 
 ## VBA Syntax
 
-See
-
-[PDMWUser::PropertyFilterValue](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~PropertyFilterValue.html)
-
-.
+See [PDMWUser::PropertyFilterValue](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~PropertyFilterValue.html).
 
 ## Remarks
 
@@ -64,11 +60,8 @@ Only a vault administrator can get or set the value of a property to use as a fi
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUser Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser_members.html)
-
 [IPDMWUser::IPDMWUser::PropertyFilterName Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~PropertyFilterName.html)
-
 [IPDMWUser::PropertyFilterValue Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~PropertyFilterValue.html)
 
 ## Availability

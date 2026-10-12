@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertPart Interface Members
 
-The following tables list the members exposed by[IDimXpertPart](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html).
+The following tables list the members exposed by [IDimXpertPart](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html).
 
 ## Public Properties
 
@@ -37,7 +37,7 @@ The following tables list the members exposed by[IDimXpertPart](SolidWorks.Inter
 | Method | IGetAnnotations | Gets all of the DimXpert annotations in the model. |
 | Method | IGetFeatures | Gets all of the DimXpert features in the model. |
 | Method | ImportScheme | Imports the tolerance scheme of the specified file to the specified configuration of this open model. |
-| Method | InsertAngleDimension |  |
+| Method | InsertAngleDimension | Inserts an angle dimension. |
 | Method | InsertBasicDimension | Inserts a basic dimension. |
 | Method | InsertDatum | Inserts a datum for the selected face. |
 | Method | InsertGtol | Inserts the specified Gtol annotation. |
@@ -50,5 +50,4 @@ The following tables list the members exposed by[IDimXpertPart](SolidWorks.Inter
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

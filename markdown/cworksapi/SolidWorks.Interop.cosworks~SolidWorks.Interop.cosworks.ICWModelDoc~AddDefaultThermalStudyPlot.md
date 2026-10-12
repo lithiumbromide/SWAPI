@@ -53,35 +53,21 @@ System.int AddDefaultThermalStudyPlot(
 
 ### Parameters
 
-- `NResultComponent`: Type of thermal study result to plot as defined by
-
-[swsThermalResultComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalResultComponentTypes_e.html)
-- `BTransient`: True if transient, false if steady state (see
-
-Remarks
-
-)
+- `NResultComponent`: Type of thermal study result to plot as defined by [swsThermalResultComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalResultComponentTypes_e.html)
+- `BTransient`: True if transient, false if steady state (see **Remarks**)
 
 ### Return Value
 
-Error code as defined by
-
-[swsAddDefaultThermalStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultThermalStudyPlotResultError_e.html)
+Error code as defined by [swsAddDefaultThermalStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultThermalStudyPlotResultError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::AddDefaultThermalStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultThermalStudyPlot.html)
-
-.
+See [CWModelDoc::AddDefaultThermalStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultThermalStudyPlot.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -91,11 +77,8 @@ If BTransient is true, this plot is for a transient thermal study in which an in
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::DeleteAllDefaultThermalStudyPlots Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteAllDefaultThermalStudyPlots.html)
-
 [ICWModelDoc::DeleteDefaultThermalStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultThermalStudyPlot.html)
 
 ## Availability

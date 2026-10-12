@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_methods.html"
 
 # IEdmEnum Interface Methods
 
-For a list of all members of this type, see[IEdmEnum members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html).
+For a list of all members of this type, see [IEdmEnum members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IEdmEnum members](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

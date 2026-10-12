@@ -40,13 +40,7 @@ System.object GetPositions()
 System.Object^ GetPositions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Array of mate positions
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::GetPositions](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~GetPositions.html)
-
-.
+See [MateControllerFeatureData::GetPositions](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~GetPositions.html).
 
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

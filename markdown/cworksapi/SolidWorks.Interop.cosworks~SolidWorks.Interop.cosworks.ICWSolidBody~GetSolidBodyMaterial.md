@@ -42,28 +42,18 @@ CWMaterial^ GetSolidBodyMaterial();
 
 ### Return Value
 
-[Material](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMaterial.html)
-
-applied to the solid body or NULL if no material object was applied
+[Material](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMaterial.html) applied to the solid body or NULL if no material object was applied
 
 ## VBA Syntax
 
-See
-
-[CWSolidBody::GetSolidBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~GetSolidBodyMaterial.html)
-
-.
+See [CWSolidBody::GetSolidBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~GetSolidBodyMaterial.html).
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
-
 [ICWSolidBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~GetDefaultMaterial.html)
-
 [ICWSolidBody::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetLibraryMaterial.html)
-
 [ICWSolidBody::SetSolidBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetSolidBodyMaterial.html)
 
 ## Availability

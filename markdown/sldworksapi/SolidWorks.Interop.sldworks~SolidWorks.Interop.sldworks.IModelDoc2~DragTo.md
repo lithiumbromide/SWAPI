@@ -58,34 +58,24 @@ void DragTo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Flags`: Mouse-event flags as defined by the operating system. They can be combined to indicate the selection state.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For example:
+- `Flags`: Mouse-event flags as defined by the operating system. They can be combined to indicate the selection state. For example:
 
-- Left-mouse button is pressed: 0x0001
-- Right-mouse button is pressed:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}0x0002
-- Shift key is pressed:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}0x0004
-- Ctrl key is pressed: 0x0008
-- Middle-mouse button is pressed:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}0x0010
+  - Left-mouse button is pressed: 0x0001
+  - Right-mouse button is pressed: 0x0002
+  - Shift key is pressed: 0x0004
+  - Ctrl key is pressed: 0x0008
+  - Middle-mouse button is pressed: 0x0010
 - `X`: X coordinate of end point
 - `Y`: Y coordinate of end point
 - `Z`: Z coordinate of end point
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::DragTo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DragTo.html)
-
-.
+See [ModelDoc2::DragTo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DragTo.html).
 
 ## Remarks
 
@@ -94,7 +84,6 @@ This method is only valid for assemblies.
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

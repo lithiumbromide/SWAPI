@@ -9,15 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAddToRe
 
 # swAddToRecentDocumentList_e Enumeration
 
-Recent Documents list actions for a document opened using
-
-[ISldWorks::OpenDoc7](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.html)
-
-and
-
-[IDocumentSpecification::AddToRecentDocumentList](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~AddToRecentDocumentList.html)
-
-.
+Recent Documents list actions for a document opened using [ISldWorks::OpenDoc7](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.html) and [IDocumentSpecification::AddToRecentDocumentList](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~AddToRecentDocumentList.html).
 
 ## Syntax
 

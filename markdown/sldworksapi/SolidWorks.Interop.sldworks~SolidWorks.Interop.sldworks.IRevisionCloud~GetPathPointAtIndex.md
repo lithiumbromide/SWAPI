@@ -47,21 +47,11 @@ System.Object^ GetPathPointAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of a point on the path of this revision cloud annotation (see
-
-Remarks
-
-)
+- `Index`: Index of a point on the path of this revision cloud annotation (see **Remarks**)
 
 ### Return Value
 
@@ -69,28 +59,17 @@ Array of doubles of the x, y, and z coordinates of a point on the path of this r
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::GetPathPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetPathPointAtIndex.html)
-
-.
+See [RevisionCloud::GetPathPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetPathPointAtIndex.html).
 
 ## Remarks
 
-To get the range of values for Index, call
-
-[IRevisionCloud::GetPathPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud~GetPathPointCount.html)
-
-to get the total number of points on the path of this revision cloud annotation.
+To get the range of values for Index, call [IRevisionCloud::GetPathPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud~GetPathPointCount.html) to get the total number of points on the path of this revision cloud annotation.
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
-
 [IRevisionCloud::IGetPathPointAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud~IGetPathPointAtIndex.html)
-
 [IRevisionCloud::SetPathPointAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud~SetPathPointAtIndex.html)
 
 ## Availability

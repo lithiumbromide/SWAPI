@@ -45,13 +45,7 @@ property System.bool Flip {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ True flips the offset, false does not
 
 ## VBA Syntax
 
-See
-
-[SurfaceOffsetFeatureData::Flip](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~Flip.html)
-
-.
+See [SurfaceOffsetFeatureData::Flip](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~Flip.html).
 
 ## Examples
 
 [Get Offset Surface Data (VBA)](Get_Offset_Surface_Data_Example_VB.htm)
-
 [Get Offset Surface Data (VB.NET)](Get_Offset_Surface_Data_Example_VBNET.htm)
-
 [Get Offset Surface Data (C#)](Get_Offset_Surface_Data_Example_CSharp.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceOffsetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html)
-
 [ISurfaceOffsetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData_members.html)
 
 ## Availability

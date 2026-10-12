@@ -51,11 +51,7 @@ property System.bool GlobalContact2 {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::GlobalContact2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~GlobalContact2.html)
-
-.
+See [CWContactComponent::GlobalContact2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~GlobalContact2.html).
 
 ## Remarks
 
@@ -63,12 +59,11 @@ To set this property, you can specify either the boolean or the integer.
 
 Set this property to -1 or true to apply a bonded contact to all components in an assembly.
 
-If you set this property to 0 or false, call[ICWContactComponent::InsertEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~InsertEntity.html)to specify contact components.
+If you set this property to 0 or false, call [ICWContactComponent::InsertEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~InsertEntity.html) to specify contact components.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

@@ -107,11 +107,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundClosedSlot3dFeature::GetNominalClosedSlot](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundClosedSlot3dFeature~GetNominalClosedSlot.html)
-
-.
+See [SwDMDimXpertCompoundClosedSlot3dFeature::GetNominalClosedSlot](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundClosedSlot3dFeature~GetNominalClosedSlot.html).
 
 ## Examples
 
@@ -124,7 +120,6 @@ The i, j, and k components of the longitudinal vector indicate the direction of 
 ## See Also
 
 [ISwDMDimXpertCompoundClosedSlot3dFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundClosedSlot3dFeature.html)
-
 [ISwDMDimXpertCompoundClosedSlot3dFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundClosedSlot3dFeature_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTh
 
 # SolutionType Property (ICWThermalStudyOptions)
 
-Gets or sets the thermal solutiontype.
+Gets or sets the thermal solution type.
 
 ## Syntax
 
@@ -47,30 +47,19 @@ property System.int SolutionType {
 
 ### Property Value
 
-Thermal solution as defined in
-
-[swsThermalSolutionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalSolutionType_e.html)
+Thermal solution as defined in [swsThermalSolutionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalSolutionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::SolutionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~SolutionType.html)
-
-.
+See [CWThermalStudyOptions::SolutionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~SolutionType.html).
 
 ## Examples
 
-See the
-
-[ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
-examples.
+See the [ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html) examples.
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

@@ -39,18 +39,12 @@ public interface class IUtilities
 
 ## VBA Syntax
 
-See
-
-[IUtilities](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities.html)
-
-.
+See [IUtilities](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities.html).
 
 ## Examples
 
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VB.NET)](Set_Tolerances_and_Compare_Geometry_VBNET.htm)
-
 [Set Tolerances and Compare Geometry (C#)](Set_Tolerances_and_Compare_Geometry_CSharp.htm)
 
 ## Accessors
@@ -60,5 +54,4 @@ See
 ## See Also
 
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

@@ -51,11 +51,7 @@ True to display results as wireframe, false to display the results rendered
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::WireFrameGraphics](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~WireFrameGraphics.html)
-
-.
+See [CosmosMotionStudyProperties::WireFrameGraphics](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~WireFrameGraphics.html).
 
 ## Examples
 
@@ -68,7 +64,6 @@ If the result is set to rendered mode, result vectors may be completely or parti
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

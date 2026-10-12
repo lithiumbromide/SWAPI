@@ -1,6 +1,5 @@
 ---
-title: "FeatureFolder Object
-Members"
+title: "FeatureFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FeatureFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FeatureFolder_members.html"
 ---
 
-# FeatureFolder Object
-Members
+# FeatureFolder Object Members
 
 ## Public Methods
 

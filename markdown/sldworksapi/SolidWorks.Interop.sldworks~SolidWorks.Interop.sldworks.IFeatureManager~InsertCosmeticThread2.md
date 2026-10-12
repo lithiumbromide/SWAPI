@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCosmeticThread2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCosmeticThread3 .](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread3.html)
+Obsolete. Superseded by [IFeatureManager::InsertCosmeticThread3.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread3.html)
 
 ## Syntax
 
@@ -61,45 +59,27 @@ Feature^ InsertCosmeticThread2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type as defined in
-
-[swCosmeticThreadType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticThreadType_e.html)
+- `Type`: Type as defined in [swCosmeticThreadType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticThreadType_e.html)
 - `Depth`: Diameter of the cosmetic thread
 - `Length`: Length of the cosmetic thread
 - `Note`: Callout text to display in the drawing document
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCosmeticThread2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread2.html)
-
-.
+See [FeatureManager::InsertCosmeticThread2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
 
 ## Availability

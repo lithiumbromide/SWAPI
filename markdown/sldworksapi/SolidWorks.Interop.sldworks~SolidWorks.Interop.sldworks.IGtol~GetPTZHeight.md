@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # GetPTZHeight Method (IGtol)
 
-Obsolete. Superseded by
-
-[IGtol::GetPTZHeight2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight2.html)
-
-.
+Obsolete. Superseded by [IGtol::GetPTZHeight2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetPTZHeight2.html).
 
 ## Syntax
 
@@ -44,29 +40,15 @@ System.string GetPTZHeight()
 System.String^ GetPTZHeight();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Height of the projected tolerance zone (see
-
-Remarks
-
-)
+Height of the projected tolerance zone (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetPTZHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetPTZHeight.html)
-
-.
+See [Gtol::GetPTZHeight](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetPTZHeight.html).
 
 ## Remarks
 
@@ -75,7 +57,5 @@ This method returns the height of the projected tolerance zone as a string becau
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetPTZHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetPTZHeight.html)

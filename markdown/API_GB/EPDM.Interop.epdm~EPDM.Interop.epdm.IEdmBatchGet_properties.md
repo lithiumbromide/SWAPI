@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_properties.html
 
 # IEdmBatchGet Interface Properties
 
-For a list of all members of this type, see[IEdmBatchGet members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html).
+For a list of all members of this type, see [IEdmBatchGet members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmBatchGet members](EPDM.Interop.e
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

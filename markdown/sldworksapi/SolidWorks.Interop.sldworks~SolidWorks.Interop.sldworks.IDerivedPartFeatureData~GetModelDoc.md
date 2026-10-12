@@ -40,32 +40,19 @@ ModelDoc2 GetModelDoc()
 ModelDoc2^ GetModelDoc();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Base
-
-[model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
+Base [model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::GetModelDoc](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~GetModelDoc.html)
-
-.
+See [DerivedPartFeatureData::GetModelDoc](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~GetModelDoc.html).
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

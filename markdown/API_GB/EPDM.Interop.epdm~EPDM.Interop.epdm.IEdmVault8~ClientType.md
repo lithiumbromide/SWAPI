@@ -35,14 +35,11 @@ property EdmClientType ClientType {
 
 ### Property Value
 
-Type of client installation as defined in
-
-[EdmClientType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmClientType.html)
+Type of client installation as defined in [EdmClientType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmClientType.html)
 
 ## See Also
 
 [IEdmVault8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html)
-
 [IEdmVault8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8_members.html)
 
 ## Availability

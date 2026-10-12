@@ -40,13 +40,7 @@ System.object GetPreSelectedObject()
 System.Object^ GetPreSelectedObject();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Preselected object
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::GetPreSelectedObject](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetPreSelectedObject.html)
-
-.
+See [SelectionMgr::GetPreSelectedObject](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetPreSelectedObject.html).
 
 ## Examples
 
 [Get Preselected Object (C#)](Get_Preselected_Object_Example_CSharp.htm)
-
 [Get Preselected Object (VB.NET)](Get_Preselected_Object_Example_VBNET.htm)
-
 [Get Preselected Object (VBA)](Get_Preselected_Object_Example_VB.htm)
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [DAssemblyDocEvents_UserSelectionPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_UserSelectionPreNotifyEventHandler.html)
-
 [DDrawingDocEvents_UserSelectionPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_UserSelectionPreNotifyEventHandler.html)
-
 [DPartDocEvents_UserSelectionPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_UserSelectionPreNotifyEventHandler.html)
 
 ## Availability

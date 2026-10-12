@@ -46,30 +46,20 @@ DimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertExtrudeFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetBottomFeature.html)
-
-.
+See [DimXpertExtrudeFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetBottomFeature.html).
 
 ## Examples
 
 [Get DimXpert Extrude Feature Example (VBA)](Get_DimXpert_Extrude_Feature_Example_VB.htm)
-
 [Get DimXpert Extrude Feature Example (VB.NET)](Get_DimXpert_Extrude_Feature_Example_VBNET.htm)
 
 ## Remarks
 
-Only blind extrudes have bottom features. The bottom feature of a blind extrude is usually a
-
-[DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html)
-
-.
+Only blind extrudes have bottom features. The bottom feature of a blind extrude is usually a [DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html).
 
 ## See Also
 
 [IDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.html)
-
 [IDimXpertExtrudeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature_members.html)
 
 ## Availability

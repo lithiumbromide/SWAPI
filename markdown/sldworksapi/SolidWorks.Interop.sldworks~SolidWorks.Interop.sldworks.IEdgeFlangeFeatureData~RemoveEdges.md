@@ -47,56 +47,33 @@ System.int RemoveEdges(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EdgeArray`: Array of
-
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-s to remove
+- `EdgeArray`: Array of [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)s to remove
 
 ### Return Value
 
-Error code as defined by
-
-[swEdgeFlangeError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeFlangeError_e.html)
+Error code as defined by [swEdgeFlangeError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeFlangeError_e.html)
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::RemoveEdges](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~RemoveEdges.html)
-
-.
+See [EdgeFlangeFeatureData::RemoveEdges](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~RemoveEdges.html).
 
 ## Examples
 
 [Remove Edge from Edge Flange Feature (C#)](Remove_Edge_from_Edge_Flange_Feature_Example_CSharp.htm)
-
 [Remove Edge from Edge Flange Feature (VB.NET)](Remove_Edge_from_Edge_Flange_Feature_Example_VBNET.htm)
-
 [Remove Edge from Edge Flange Feature (VBA)](Remove_Edge_from_Edge_Flange_Feature_Example_VB.htm)
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [IEdgeFlangeFeatureData::Edges Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~Edges.html)
-
 [IEdgeFlangeFeatureData::AddEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~AddEdges.html)
-
 [IEdgeFlangeFeatureData::IGetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~IGetEdges.html)
-
 [IEdgeFlangeFeatureData::ISetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~ISetEdges.html)
 
 ## Availability

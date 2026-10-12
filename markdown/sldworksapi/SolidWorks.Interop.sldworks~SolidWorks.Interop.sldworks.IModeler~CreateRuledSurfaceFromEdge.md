@@ -99,31 +99,23 @@ System.int CreateRuledSurfaceFromEdge(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in which to create surface body
+- `ModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in which to create surface body
 - `Edges`: Array of edges on which to create ruled surface
 
-**NOTE:**Currently only a single edge is supported.
+  **NOTE:** Currently only a single edge is supported.
 - `Type`: 0 = Tangent to Surface
 
-1 = Normal to Surface
+  1 = Normal to Surface
 
-2 = Tapered to Vector
+  2 = Tapered to Vector
 
-3 = Perpendicular to Vector
+  3 = Perpendicular to Vector
 
-4 = Sweep
+  4 = Sweep
 - `Length`: Distance at which to create the surface; valid for Tangent to Surface, Tapered to Vector, Perpendicular to Vector, and Sweep types only
 - `FlipPullDir`: True to flip the pull direction, false to not; valid for Normal to Surface and Tapered to Vector types only
 - `FlipDir`: True to flip the direction, false to not; valid for Perpendicular to Vector type only
@@ -134,9 +126,7 @@ in which to create surface body
 - `Y`: y coordinate
 - `Z`: z coordinate
 - `BConnectSurface`: True to remove any connecting surfaces, false to not
-- `RuledSurface`: Ruled surface
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `RuledSurface`: Ruled surface [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ### Return Value
 
@@ -144,11 +134,7 @@ in which to create surface body
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateRuledSurfaceFromEdge](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateRuledSurfaceFromEdge.html)
-
-.
+See [Modeler::CreateRuledSurfaceFromEdge](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateRuledSurfaceFromEdge.html).
 
 ## Examples
 
@@ -156,20 +142,16 @@ See
 
 ## Remarks
 
-This method returns a surface body, unlike[IFeatureManager::InsertRuledSurfaceFromEdge2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRuledSurfaceFromEdge2.html), which returns a feature.
+This method returns a surface body, unlike [IFeatureManager::InsertRuledSurfaceFromEdge2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRuledSurfaceFromEdge2.html), which returns a feature.
 
-If you[select](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)an edge with a selection mark of 4, the default face is used.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If you select an edge with a selection mark of 6, the alternate face is used.
+If you [select](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) an edge with a selection mark of 4, the default face is used. If you select an edge with a selection mark of 6, the alternate face is used.
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ICreateRuledSurfaceFromEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateRuledSurfaceFromEdge.html)
-
 [IModeler::ICreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateRuledSurface.html)
-
 [IModeler::CreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateRuledSurface.html)
 
 ## Availability

@@ -40,15 +40,10 @@ Database ID of this object
 ## Examples
 
 [Get and Set Folder Permissions (VB.NET)](Get_and_Set_Folder_Permissions_Example_VBNET.htm)
-
 [Get and Set Folder Permissions (C#)](Get_and_Set_Folder_Permissions_Example_CSharp.htm)
-
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
-
 [Create a Task that Finds Files in Workflow States (VB.NET)](Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET.htm)
-
 [Create a Task that Finds Files in Workflow States (C#)](Schedule_Task_to_Find_Files_in_State_Addin_Example_CSharp.htm)
 
 ## Remarks
@@ -58,7 +53,6 @@ Database IDs are unique for same-type objects. For example, two files can never 
 ## See Also
 
 [IEdmObject5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html)
-
 [IEdmObject5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5_members.html)
 
 ## Availability

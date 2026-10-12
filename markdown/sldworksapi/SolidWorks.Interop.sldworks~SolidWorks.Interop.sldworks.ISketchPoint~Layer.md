@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Name of the layer for this sketch point
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Layer.html)
-
-.
+See [SketchPoint::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Layer.html).
 
 ## Remarks
 
@@ -76,9 +66,7 @@ The return value may be an empty string because an older document may not contai
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::LayerOverride Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~LayerOverride.html)
 
 ## Availability

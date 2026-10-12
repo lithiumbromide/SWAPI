@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # GetAxisPoints Method (IDatumOrigin)
 
-Obsolete. Superseded by
-
-[IDatumOrigin::GetAxisPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin~GetAxisPoints2.html)
-
-.
+Obsolete. Superseded by [IDatumOrigin::GetAxisPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin~GetAxisPoints2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetAxisPoints()
 System.Object^ GetAxisPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DatumOrigin::GetAxisPoints](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~GetAxisPoints.html)
-
-.
+See [DatumOrigin::GetAxisPoints](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~GetAxisPoints.html).
 
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [IDatumOrigin Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin_members.html)

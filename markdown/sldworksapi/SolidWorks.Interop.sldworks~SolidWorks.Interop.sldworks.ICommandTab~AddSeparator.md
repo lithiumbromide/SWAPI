@@ -51,36 +51,20 @@ CommandTabBox^ AddSeparator(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CommandTabBoxIn`: [CommandManager tab box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html)
-
-to which to add the separator
-- `CommandID`: Button before which to place the separator (see
-
-Remarks
-
-)
+- `CommandTabBoxIn`: [CommandManager tab box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html) to which to add the separator
+- `CommandID`: Button before which to place the separator (see Remarks)
 
 ### Return Value
 
-New[CommandManager tab box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html)
+New [CommandManager tab box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html)
 
 ## VBA Syntax
 
-See
-
-[CommandTab::AddSeparator](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~AddSeparator.html)
-
-.
+See [CommandTab::AddSeparator](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~AddSeparator.html).
 
 ## Examples
 
@@ -92,12 +76,11 @@ The specified CommandManager tab is split into two. The left side is the origina
 
 If the CommandManager tab box has multiple commands with the same CommandID, then a separator is added before the first matching CommandID.
 
-You can get the CommandID using[ICommandGroup::CommandID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CommandID.html)or[ICommandGroup::ToolbarId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~ToolbarId.html)after calling[ICommandGroup::Activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~Activate.html).
+You can get the CommandID using [ICommandGroup::CommandID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CommandID.html) or [ICommandGroup::ToolbarId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~ToolbarId.html) after calling [ICommandGroup::Activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~Activate.html).
 
 ## See Also
 
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)
-
 [ICommandTab Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab_members.html)
 
 ## Availability

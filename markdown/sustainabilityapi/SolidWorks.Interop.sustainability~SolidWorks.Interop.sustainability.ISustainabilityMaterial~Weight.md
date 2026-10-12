@@ -48,11 +48,7 @@ Weight of the material
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::Weight](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~Weight.html)
-
-.
+See [SustainabilityMaterial::Weight](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~Weight.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
 
 ## Availability

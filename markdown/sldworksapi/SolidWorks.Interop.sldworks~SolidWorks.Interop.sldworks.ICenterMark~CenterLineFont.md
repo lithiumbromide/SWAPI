@@ -45,13 +45,7 @@ property System.bool CenterLineFont {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if centerline font is used for the lines in center marks, false if not
 
 ## VBA Syntax
 
-See
-
-[CenterMark::CenterLineFont](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~CenterLineFont.html)
-
-.
+See [CenterMark::CenterLineFont](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~CenterLineFont.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

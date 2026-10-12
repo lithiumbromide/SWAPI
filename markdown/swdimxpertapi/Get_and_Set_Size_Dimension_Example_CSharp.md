@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Size_Dimension_Example_CSharp.htm"
 
 # Get and Set Size Dimension Example (C#)
 
-This example shows how to get
-and set DimXpert compound width features.
+This example shows how to get and set DimXpert compound width features.
 
 ```vb
  //------------------------------------------------------------------------

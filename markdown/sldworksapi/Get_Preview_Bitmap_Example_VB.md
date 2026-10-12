@@ -9,7 +9,7 @@ source: "sldworksapi/Get_Preview_Bitmap_Example_VB.htm"
 
 # Get Preview Bitmap Example (VBA)
 
-This example shows how to get the preview bitmap in a SOLIDWORKS document.
+This example shows how to get the preview bitmap in a SOLIDWORKS Design document.
 
 ```
 '----------------------------------------------------

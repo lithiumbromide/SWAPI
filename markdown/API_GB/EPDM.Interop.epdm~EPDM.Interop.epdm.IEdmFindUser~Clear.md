@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~Clear.html"
 
 # Clear Method (IEdmFindUser)
 
-Clears all of the search criteria created by
-
-[IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html)
-
-for finding users.
+Clears all of the search criteria created by [IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html) for finding users.
 
 ## Syntax
 
@@ -45,7 +41,6 @@ void Clear();
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

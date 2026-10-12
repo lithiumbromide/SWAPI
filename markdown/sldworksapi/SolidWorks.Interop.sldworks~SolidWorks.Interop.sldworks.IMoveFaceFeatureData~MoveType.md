@@ -45,34 +45,19 @@ property System.int MoveType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of move as defined in
-
-[swMoveFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFaceType_e.html)
-
-}}end!kadov
+Type of move as defined in [swMoveFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFaceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::MoveType](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~MoveType.html)
-
-.
+See [MoveFaceFeatureData::MoveType](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~MoveType.html).
 
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
 
 ## Availability

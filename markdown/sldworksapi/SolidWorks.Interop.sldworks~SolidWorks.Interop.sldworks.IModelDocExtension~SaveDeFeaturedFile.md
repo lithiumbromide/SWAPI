@@ -47,13 +47,7 @@ System.bool SaveDeFeaturedFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SaveDeFeaturedFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveDeFeaturedFile.html)
-
-.
+See [ModelDocExtension::SaveDeFeaturedFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveDeFeaturedFile.html).
 
 ## Examples
 
 [Save as De-Featured File (VBA)](Save_As_Defeatured_File_Example_VB.htm)
-
 [Save as De-Featured File (VB.NET)](Save_As_Defeatured_File_Example_VBNET.htm)
-
 [Save as De-Featured File (C#)](Save_As_Defeatured_File_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::SaveAs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs.html)
 
 ## Availability

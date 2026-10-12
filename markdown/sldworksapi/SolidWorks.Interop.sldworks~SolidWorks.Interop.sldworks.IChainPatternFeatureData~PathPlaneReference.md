@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # PathPlaneReference Property (IChainPatternFeatureData)
 
-Gets or sets the reference plane for the
-
-[path](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html)
-
-selected for this chain pattern feature.
+Gets or sets the reference plane for the [path](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html) selected for this chain pattern feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.Object^ PathPlaneReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,29 +53,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChainPatternFeatureData::PathPlaneReference](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~PathPlaneReference.html)
-
-.
+See [ChainPatternFeatureData::PathPlaneReference](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~PathPlaneReference.html).
 
 ## Remarks
 
 This property is:
 
-- only available when the path is a
-
-  [sketch line](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
-  .
+- only available when the path is a [sketch line](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html).
 - available for all types of chain patterns.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IChainPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html)
-
 [IChainPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData_members.html)
 
 ## Availability

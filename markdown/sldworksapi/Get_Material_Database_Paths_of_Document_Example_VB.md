@@ -9,11 +9,9 @@ source: "sldworksapi/Get_Material_Database_Paths_of_Document_Example_VB.htm"
 
 # Get Material Database Paths of Document Example (VBA)
 
-This example shows how to get the paths and names of the material databases
-for a part.
+This example shows how to get the paths and names of the material databases for a part.
 
-NOTE:Material database names
-must be unique. Do not re-use the name of a material database.
+NOTE: Material database names must be unique. Do not re-use the name of a material database.
 
 ```
 '----------------------------------------------------

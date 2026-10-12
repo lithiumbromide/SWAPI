@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5~Rollback.html
 
 # Rollback Method (IEdmRevision5)
 
-Obsolete. Superseded by
-
-[IEdmRevision6::Rollback2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6~Rollback2.html)
-
-.
+Obsolete. Superseded by [IEdmRevision6::Rollback2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6~Rollback2.html).
 
 ## Syntax
 
@@ -47,7 +43,6 @@ This method destroys all versions after this revision number. To undo this rollb
 ## See Also
 
 [IEdmRevision5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html)
-
 [IEdmRevision5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5_members.html)
 
 ## Availability

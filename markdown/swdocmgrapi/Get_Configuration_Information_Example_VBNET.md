@@ -9,9 +9,7 @@ source: "swdocmgrapi/Get_Configuration_Information_Example_VBNET.htm"
 
 # Get Configuration Information Example (VB.NET)
 
-This example shows how to use the SOLIDWORKS Document Manager API to get
-configuration-related information for an external part document whose custom
-properties were transferred from the original part document.
+This example shows how to use the SOLIDWORKS Document Manager API to get configuration-related information for an external part document whose custom properties were transferred from the original part document.
 
 ```vb
  ' --------------------------------------------------------------------------------

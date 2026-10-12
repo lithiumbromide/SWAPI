@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # GetBlockDefinitionCount Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[ISketchManager::GetSketchBlockDefinitionCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitionCount.html)
-
-.
+Obsolete. Superseded by [ISketchManager::GetSketchBlockDefinitionCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitionCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetBlockDefinitionCount()
 System.int GetBlockDefinitionCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetBlockDefinitionCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetBlockDefinitionCount.html)
-
-.
+See [DrawingDoc::GetBlockDefinitionCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetBlockDefinitionCount.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

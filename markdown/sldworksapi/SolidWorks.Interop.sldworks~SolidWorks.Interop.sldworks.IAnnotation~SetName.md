@@ -47,13 +47,7 @@ System.bool SetName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the name was successfully changed, false if the name was not successfull
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetName](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetName.html)
-
-.
+See [Annotation::SetName](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetName.html).
 
 ## Examples
 
@@ -82,9 +72,7 @@ This method verifies that the name is unique before attempting to set the name.
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetName.html)
 
 ## Availability

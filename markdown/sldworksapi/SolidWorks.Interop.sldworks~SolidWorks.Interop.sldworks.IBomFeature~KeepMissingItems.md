@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # KeepMissingItems Property (IBomFeature)
 
-Gets and sets the
-
-Keep Missing Items
-
-option
-
-for this BOM feature.
+Gets and sets the Keep Missing Items option for this BOM feature.
 
 ## Syntax
 
@@ -51,13 +45,7 @@ property System.bool KeepMissingItems {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -65,19 +53,11 @@ True to keep suppressed components, false to not
 
 ## VBA Syntax
 
-See
-
-[BomFeature::KeepMissingItems](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~KeepMissingItems.html)
-
-.
+See [BomFeature::KeepMissingItems](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~KeepMissingItems.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## Remarks
 
@@ -86,11 +66,8 @@ Missing items are suppressed components.
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::StrikeoutMissingItems Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~StrikeoutMissingItems.html)
-
 [IBomFeature::KeepReplacedCompOption Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~KeepReplacedCompOption.html)
 
 ## Availability

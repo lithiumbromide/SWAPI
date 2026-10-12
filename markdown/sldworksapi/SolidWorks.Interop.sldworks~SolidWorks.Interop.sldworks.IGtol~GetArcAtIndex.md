@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,21 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArcAtIndex.html)
-
-.
+See [Gtol::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArcAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[lineType, startPt[3], endPt[3], centerPt[3], rotationDir]
+```vb
+[ lineType, startPt[3], endPt[3], centerPt[3], rotationDir ]
+```
 
 where:
-
-(Table)=========================================================
 
 | lineType | Line type |
 | --- | --- |
@@ -91,9 +81,6 @@ where:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArcAtIndex.html)
-
 [IGtol::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArcCount.html)

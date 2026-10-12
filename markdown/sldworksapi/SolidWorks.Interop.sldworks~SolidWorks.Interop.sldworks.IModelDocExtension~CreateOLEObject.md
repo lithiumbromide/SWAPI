@@ -59,19 +59,13 @@ SwOLEObject^ CreateOLEObject(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Aspect`: Viewing aspect of the OLE object as defined in the DVASPECT enumerationParamDescParamDesc(see**Remarks**)
-- `Position`: Top-left and bottom-right positions (seeRemarks)
-- `Buffer`: Data for the OLE objectParamDesc(seeRemarks)
+- `Aspect`: Viewing aspect of the OLE object as defined in the DVASPECT enumeration (see **Remarks**)
+- `Position`: Top-left and bottom-right positions (see Remarks)
+- `Buffer`: Data for the OLE object (see Remarks)
 - `ErrorCode`: 0 if True or 1 if false
 
 ### Return Value
@@ -80,11 +74,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateOLEObject.html)
-
-.
+See [ModelDocExtension::CreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateOLEObject.html).
 
 ## Remarks
 
@@ -97,17 +87,11 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetOLEObjectCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjectCount.html)
-
 [IModelDocExtension::GetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjects.html)
-
 [IModelDocExtension::InsertObjectFromFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertObjectFromFile.html)
-
 [IModelDocExtension::ICreateOLEObject Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ICreateOLEObject.html)
-
 [IModelDocExtension::IGetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetOLEObjects.html)
 
 ## Availability

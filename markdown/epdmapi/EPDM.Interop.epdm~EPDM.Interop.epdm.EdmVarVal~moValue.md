@@ -35,5 +35,4 @@ System.Object^ moValue
 ## See Also
 
 [EdmVarVal Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html)
-
 [EdmVarVal Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members.html)

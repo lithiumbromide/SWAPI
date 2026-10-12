@@ -40,13 +40,7 @@ System.int GetFacePairCount()
 System.int GetFacePairCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of parallel face pairs from the original part body
 
 ## VBA Syntax
 
-See
-
-[MidSurface3::GetFacePairCount](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~GetFacePairCount.html)
-
-.
+See [MidSurface3::GetFacePairCount](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~GetFacePairCount.html).
 
 ## See Also
 
 [IMidSurface3 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3.html)
-
 [IMidSurface3 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3_members.html)
-
 [IMidSurface3::GetFirstFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~GetFirstFacePair.html)
-
 [IMidSurface3::GetNextFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~GetNextFacePair.html)
-
 [IMidSurface3::IGetFirstFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~IGetFirstFacePair.html)
-
 [IMidSurface3::IGetNextFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~IGetNextFacePair.html)
 
 ## Availability

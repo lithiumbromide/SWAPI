@@ -9,8 +9,7 @@ source: "cworksapi/Create_Dynamic_Response_Spectrum_Study_Example_VB.htm"
 
 # Create Linear Dynamic Response Spectrum Study Example (VBA)
 
-This example shows how to create a linear dynamic study with a response
-spectrum analysis and get some study options.
+This example shows how to create a linear dynamic study with a response spectrum analysis and get some study options.
 
 ```vb
  '---------------------------------------------------------------------------

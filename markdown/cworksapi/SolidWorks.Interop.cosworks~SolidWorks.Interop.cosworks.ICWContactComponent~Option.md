@@ -47,30 +47,19 @@ property System.int Option {
 
 ### Property Value
 
-Mesh compatibility as defined in
-
-[swsMeshCompatibility_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshCompatibility_e.html)
+Mesh compatibility as defined in [swsMeshCompatibility_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshCompatibility_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::Option](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~Option.html)
-
-.
+See [CWContactComponent::Option](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~Option.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "SwOLEObject Object
-Members"
+title: "SwOLEObject Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SwOLEObject_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SwOLEObject_members.html"
 ---
 
-# SwOLEObject Object
-Members
+# SwOLEObject Object Members
 
 ## Public Methods
 

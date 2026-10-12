@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityMaterial Object
-Members"
+title: "SustainabilityMaterial Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityMaterial_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityMaterial_members.html"
 ---
 
-# SustainabilityMaterial Object
-Members
+# SustainabilityMaterial Object Members
 
 ## Public Methods
 

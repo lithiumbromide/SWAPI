@@ -39,9 +39,7 @@ IEdmCategory6^ GetNextCategory(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next category in the list
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next category in the list
 
 ### Return Value
 
@@ -49,15 +47,11 @@ IEdmCategory6^ GetNextCategory(
 
 ## Examples
 
-See the
-
-[IEdmCategoryMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html)
-
-examples.
+See the [IEdmCategoryMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html) examples.
 
 ## Remarks
 
-To obtain the position of the first category in the list, call[IEdmCategoryMgr6::GetFirstCategoryPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6~GetFirstCategoryPosition.html).
+To obtain the position of the first category in the list, call [IEdmCategoryMgr6::GetFirstCategoryPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6~GetFirstCategoryPosition.html).
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the categories.
 
@@ -69,7 +63,6 @@ After calling this method the first time, poPos is automatically incremented eve
 ## See Also
 
 [IEdmCategoryMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html)
-
 [IEdmCategoryMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6_members.html)
 
 ## Availability

@@ -34,12 +34,9 @@ EdmHistoryType meType
 
 ### Field Value
 
-Type of record as defined in
-
-[EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html)
+Type of record as defined in [EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html)
 
 ## See Also
 
 [EdmHistoryItem Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
 [EdmHistoryItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html)

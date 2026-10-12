@@ -45,13 +45,7 @@ property System.double OverlapUnderlapRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Ratio
 
 ## VBA Syntax
 
-See
-
-[ClosedCornerFeatureData::OverlapUnderlapRatio](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~OverlapUnderlapRatio.html)
-
-.
+See [ClosedCornerFeatureData::OverlapUnderlapRatio](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~OverlapUnderlapRatio.html).
 
 ## Examples
 
 [Create and Modify Closed Corner Feature (C#)](Create_and_Modify_Closed_Corner_Feature_Example_CSharp.htm)
-
 [Create and Modify Closed Corner Feature (VB.NET)](Create_and_Modify_Closed_Corner_Feature_Example_VBNET.htm)
-
 [Create and Modify Closed Corner Feature (VBA)](Create_and_Modify_Closed_Corner_Feature_Example_VB.htm)
 
 ## See Also
 
 [IClosedCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData.html)
-
 [IClosedCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData_members.html)
 
 ## Availability

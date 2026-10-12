@@ -45,13 +45,7 @@ property System.int Direction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ShellFeatureData::Direction](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~Direction.html)
-
-.
+See [ShellFeatureData::Direction](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~Direction.html).
 
 ## Examples
 
-See the
-
-[IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
-examples.
+See the [IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html) examples.
 
 ## See Also
 
 [IShellFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
 [IShellFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData_members.html)
 
 ## Availability

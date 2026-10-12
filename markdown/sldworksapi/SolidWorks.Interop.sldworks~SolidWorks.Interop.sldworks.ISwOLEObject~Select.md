@@ -47,13 +47,7 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if the OLE object is selected, false if it is not
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Select](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Select.html)
-
-.
+See [SwOLEObject::Select](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Select.html).
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
 
 ## Availability

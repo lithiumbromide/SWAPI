@@ -1,6 +1,5 @@
 ---
-title: "WeldSymbol Object
-Members"
+title: "WeldSymbol Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WeldSymbol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WeldSymbol_members.html"
 ---
 
-# WeldSymbol Object
-Members
+# WeldSymbol Object Members
 
 ## Public Methods
 

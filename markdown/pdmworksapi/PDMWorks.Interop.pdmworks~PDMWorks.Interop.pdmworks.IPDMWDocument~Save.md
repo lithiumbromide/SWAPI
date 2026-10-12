@@ -57,18 +57,12 @@ System.int Save(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Save](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Save.html)
-
-.
+See [PDMWDocument::Save](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Save.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::SaveAsPDF Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SaveAsPDF.html)
 
 ## Availability

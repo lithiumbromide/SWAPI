@@ -12,97 +12,37 @@ source: "swconst/SO_Assemblies.htm"
 This topic contains two tables. The information in the table:
 
 - appearing immediately after the screen capture corresponds to the settings on that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on the
-
-  dialog
-  but are now obsolete.
-
-(Table)=========================================================
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the dialog but are now obsolete.
 
 | Setting | Get/Set Method | Return Value or < Value > or < OnFlag > | Comment |
 | --- | --- | --- | --- |
-| Move components by dragging | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowComponentMoveByDragging) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowComponentMoveByDragging,
-< OnFlag >) | Boolean value | Specifies whether to move assembly components by dragging them or using
-the Move with Triad and Move Component tools |
-| Optimize component placement when adding mates | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOptimizeMatePlacement) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOptimizeMatePlacement,
-< OnFlag >) | Boolean value |  |
-| Allow creation of misaligned mates | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowCreationOfMisalignedMates) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowCreationOfMisalignedMates,
-< OnFlag >) | Boolean value | Specifies whether to allow the creation of misaligned mates in assemblies |
-| Save new components to external files | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveNewComponentsToExternalFile) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveNewComponentsToExternalFile,
-< OnFlag >) | Boolean value | Specifies whether to save new components to external files Not supported in
-SOLIDWORKS Connected |
-| Update model graphics when saving files | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyUpdateModelGraphicsWhenSavingFiles) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyUpdateModelGraphicsWhenSavingFiles,
-< OnFlag >) | Boolean value | Specifies whether to update model graphics when saving files |
-| Automatically
-check and update all components in Large
-Design Review | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoCheckUpdateAllComponents) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoCheckUpdateAllComponents,
-< OnFlag >) | Boolean value | Specifies whether to automatically check and update all components in
-Large Design Review |
-| Allow graphics component | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowGraphicsComponent) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowGraphicsComponent,
-< OnFlag >) | Boolean value | Valid only if registry setting, "Software\\SolidWorks\\SOLIDWORKS\\ version \\Assemblies\\ShowAllGraphics,
-is set to true |
-| Change mate alignments on edit | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swEnableAutoMateFlip) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swEnableAutoMateFlip,
-< Value >) | 0 = Prompt 1 = Always 2 = Never |  |
-| Update out-of-date Speedpak configurations when saving files | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUpdateOutOfDateSpeedPakConfigOnSave) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUpdateOutOfDateSpeedPakConfigOnSave,
-swSpeedpakUpdate_e.< Value >) | Integer value as defined in swSpeedpakUpdate_e | Specifies under what conditions to update out-of-date Speedpak configurations when
-saving files |
-| Opening a large assembly - Use Lightweight mode and Large Assembly Settings
-when the number of components exceeds: (Not supported
-in SOLIDWORKS Connected) | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeEnabled) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeEnabled,
-< OnFlag >) ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeThreshold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeThreshold,
-< Value >) | Boolean value Integer value | Specifies whether to activate Large Assembly Mode Specifies the minimum number of components in an assembly for automatically
-using Large Assembly Mode |
-| Opening a large assembly - Use Large Design Review
-mode when the number of components exceeds: (Not
-supported in SOLIDWORKS Connected) | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeLargeDesignReview) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeLargeDesignReview,
-< OnFlag >) ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeLargeDesignReviewThreshhold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeLargeDesignReviewThreshhold,
-< Value >) | Boolean value Integer value | Specifies whether to automatically use Large
-Design Review based on the number of components in the assembly; see swLargeAsmModeLargeDesignReviewThreshhold Specifies the minimum number of
-components in an assembly for automatically using Large Design Review |
-| When Large Assembly Mode is active - Do not save auto recover info | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoRecover) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoRecover,
-< OnFlag >) | Boolean value | Specifies whether to automatically save model information after specified
-number of changes |
-| When Large Assembly Mode is active - Do not rebuild when
-switching to assembly window | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeDismissAutoUpdate) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeDismissAutoUpdate,
-< OnFlag >) | Boolean value | Specifies whether to rebuild when switching to the assembly window |
-| When Large Assembly Mode is active - Hide all planes, axes, sketches,
-curves, annotations, etc. | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeHideAllItems) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeHideAllItems,
-< OnFlag >) | Boolean value | Specifies whether to hide all planes, axes, sketches, curves, annotations,
-etc. |
-| When Large Assembly Mode is active - Do not display edges in shaded
-mode | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeUseHLREdgesInShaded) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeUseHLREdgesInShaded,
-< OnFlag >) | Boolean value | Specifies whether to use HLR edges in shaded mode |
-| When Large Assembly Mode is active - Do not preview hidden component | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModePreviewHiddenComponent) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModePreviewHiddenComponent,
-< OnFlag >) | Boolean value | Specifies whether to not preview hidden components |
-| When Large Assembly Mode is active - Disable verification on rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeVerificationOnRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeVerificationOnRebuild,
-< OnFlag >) | Boolean value | Specifies whether to disable verification on rebuild |
-| When Large Assembly Mode is active - Optimize image quality for better
-performance | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeImageQualityPerformance) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeImageQualityPerformance,
-< OnFlag >) | Boolean value | Specifies whether to optimize image quality for better performance |
-| When Large Assembly Mode is active - Suspend automatic rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeSuspendAutoRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeSuspendAutoRebuild,
-< OnFlag >) | Boolean value | Specifies whether to suspend automatic rebuilds |
-| Envelope Components - Automatically load lightweight | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeLightweight) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeLightweight,
-< OnFlag >) | Boolean value | Specifies whether to automatically load envelope components in
-lightweight mode |
-| Envelope Components - Load read-only | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeReadOnly) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeReadOnly,
-< OnFlag >) | Boolean value | Specifies whether to load envelope components in read-only mode |
-| Prefix/Suffix defaults - Opposite hand mirror components: | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swOppHandMirrorComp) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swOppHandMirrorComp,
-< Value >) | Integer value: Prefix = 0 Suffix = 1 |  |
-| Prefix/Suffix defaults - prefix or suffix text | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOppPrefixSuffixText) ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOppPrefixSuffixText,
-< Value >) | String value | Value is prefix or suffix text, depending on value specified in Prefix/Suffix
-defaults - Opposite hand mirror components: |
-| Prefix/Suffix defaults - Prefix for virtual components created from external
-files: | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swVirtualComponentPrefixedit) ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swVirtualComponentPrefixedit,
-< Value >) | String value |  |
+| Move components by dragging | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowComponentMoveByDragging) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowComponentMoveByDragging, < OnFlag >) | Boolean value | Specifies whether to move assembly components by dragging them or using the Move with Triad and Move Component tools |
+| Optimize component placement when adding mates | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOptimizeMatePlacement) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOptimizeMatePlacement, < OnFlag >) | Boolean value |  |
+| Allow creation of misaligned mates | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowCreationOfMisalignedMates) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowCreationOfMisalignedMates, < OnFlag >) | Boolean value | Specifies whether to allow the creation of misaligned mates in assemblies |
+| Use AI fastener recognition to create SmartMates when inserting components | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyEnableCreationOfMatesUsingAI) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyEnableCreationOfMatesUsingAI, < OnFlag >) | Boolean value |  |
+| Save new components to external files | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveNewComponentsToExternalFile) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveNewComponentsToExternalFile, < OnFlag >) | Boolean value | Specifies whether to save new components to external files Not supported in SOLIDWORKS Design connected to the 3DEXPERIENCE platform |
+| Update model graphics when saving files | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyUpdateModelGraphicsWhenSavingFiles) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyUpdateModelGraphicsWhenSavingFiles, < OnFlag >) | Boolean value | Specifies whether to update model graphics when saving files |
+| Automatically check and update all components in Large Design Review | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoCheckUpdateAllComponents) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoCheckUpdateAllComponents, < OnFlag >) | Boolean value | Specifies whether to automatically check and update all components in Large Design Review |
+| Allow graphics component | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowGraphicsComponent) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAssemblyAllowGraphicsComponent, < OnFlag >) | Boolean value | Valid only if registry setting, "Software\\SolidWorks\\SOLIDWORKS\\ version \\Assemblies\\ShowAllGraphics, is set to true |
+| Change mate alignments on edit | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swEnableAutoMateFlip) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swEnableAutoMateFlip, < Value >) | 0 = Prompt 1 = Always 2 = Never |  |
+| Update out-of-date Speedpak configurations when saving files | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUpdateOutOfDateSpeedPakConfigOnSave) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swUpdateOutOfDateSpeedPakConfigOnSave, swSpeedpakUpdate_e.< Value >) | Integer value as defined in swSpeedpakUpdate_e | Specifies under what conditions to update out-of-date Speedpak configurations when saving files |
+| Opening a large assembly - Use Lightweight mode and Large Assembly Settings when the number of components exceeds: (Not supported in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeEnabled) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeEnabled, < OnFlag >) ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeThreshold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeThreshold, < Value >) | Boolean value Integer value | Specifies whether to activate Large Assembly Mode Specifies the minimum number of components in an assembly for automatically using Large Assembly Mode |
+| Opening a large assembly - Use Large Design Review mode when the number of components exceeds: (Not supported in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeLargeDesignReview) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeLargeDesignReview, < OnFlag >) ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeLargeDesignReviewThreshhold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swLargeAsmModeLargeDesignReviewThreshhold, < Value >) | Boolean value Integer value | Specifies whether to automatically use Large Design Review based on the number of components in the assembly; see swLargeAsmModeLargeDesignReviewThreshhold Specifies the minimum number of components in an assembly for automatically using Large Design Review |
+| When Large Assembly Mode is active - Do not save auto recover info | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoRecover) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeAutoRecover, < OnFlag >) | Boolean value | Specifies whether to automatically save model information after specified number of changes |
+| When Large Assembly Mode is active - Do not rebuild when switching to assembly window | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeDismissAutoUpdate) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeDismissAutoUpdate, < OnFlag >) | Boolean value | Specifies whether to rebuild when switching to the assembly window |
+| When Large Assembly Mode is active - Hide all planes, axes, sketches, curves, annotations, etc. | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeHideAllItems) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeHideAllItems, < OnFlag >) | Boolean value | Specifies whether to hide all planes, axes, sketches, curves, annotations, etc. |
+| When Large Assembly Mode is active - Do not display edges in shaded mode | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeUseHLREdgesInShaded) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeUseHLREdgesInShaded, < OnFlag >) | Boolean value | Specifies whether to use HLR edges in shaded mode |
+| When Large Assembly Mode is active - Do not preview hidden component | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModePreviewHiddenComponent) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModePreviewHiddenComponent, < OnFlag >) | Boolean value | Specifies whether to not preview hidden components |
+| When Large Assembly Mode is active - Disable verification on rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeVerificationOnRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeVerificationOnRebuild, < OnFlag >) | Boolean value | Specifies whether to disable verification on rebuild |
+| When Large Assembly Mode is active - Optimize image quality for better performance | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeImageQualityPerformance) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeImageQualityPerformance, < OnFlag >) | Boolean value | Specifies whether to optimize image quality for better performance |
+| When Large Assembly Mode is active - Suspend automatic rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeSuspendAutoRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLargeAsmModeSuspendAutoRebuild, < OnFlag >) | Boolean value | Specifies whether to suspend automatic rebuilds |
+| Envelope Components - Automatically load lightweight | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeLightweight) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeLightweight, < OnFlag >) | Boolean value | Specifies whether to automatically load envelope components in lightweight mode |
+| Envelope Components - Load read-only | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeReadOnly) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swLoadEnvelopeReadOnly, < OnFlag >) | Boolean value | Specifies whether to load envelope components in read-only mode |
+| Prefix/Suffix defaults - Opposite hand mirror components: | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swOppHandMirrorComp) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swOppHandMirrorComp, < Value >) | Integer value: Prefix = 0 Suffix = 1 |  |
+| Prefix/Suffix defaults - prefix or suffix text | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOppPrefixSuffixText) ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swOppPrefixSuffixText, < Value >) | String value | Value is prefix or suffix text, depending on value specified in Prefix/Suffix defaults - Opposite hand mirror components: |
+| Prefix/Suffix defaults - Prefix for virtual components created from external files: | ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swVirtualComponentPrefixedit) ISldWorks::GetUserPreferenceStringValue (swUserPreferenceStringValue_e.swVirtualComponentPrefixedit, < Value >) | String value |  |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

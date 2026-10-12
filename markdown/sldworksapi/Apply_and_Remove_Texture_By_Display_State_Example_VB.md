@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Display_State_Example_VB.htm"
 
 # Apply and Remove Texture By Display State Example (VBA)
 
-This example shows how to apply and remove texture to and from a face
-by display state.
+This example shows how to apply and remove texture to and from a face by display state.
 
 ```
 '---------------------------------------------------------------------------

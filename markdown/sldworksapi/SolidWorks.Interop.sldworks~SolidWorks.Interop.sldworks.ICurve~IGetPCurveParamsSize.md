@@ -40,13 +40,7 @@ System.int IGetPCurveParamsSize()
 System.int IGetPCurveParamsSize();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Size of the data set
 
 ## VBA Syntax
 
-See
-
-[Curve::IGetPCurveParamsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetPCurveParamsSize.html)
-
-.
+See [Curve::IGetPCurveParamsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetPCurveParamsSize.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IGetPCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetPCurveParams.html)
-
 [ICurve::GetPCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetPCurveParams.html)

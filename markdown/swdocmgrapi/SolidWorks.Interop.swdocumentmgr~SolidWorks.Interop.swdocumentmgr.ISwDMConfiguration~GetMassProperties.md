@@ -49,33 +49,21 @@ System.Object^ GetMassProperties(
 
 ### Parameters
 
-- `bRet`: Success or error code as defined by
-
-[SwDmMassPropError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmMassPropError.html)
+- `bRet`: Success or error code as defined by [SwDmMassPropError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmMassPropError.html)
 
 ### Return Value
 
-Array of mass properties (see
-
-Remarks
-
-)
+Array of mass properties (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::GetMassProperties](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetMassProperties.html)
-
-.
+See [SwDMConfiguration::GetMassProperties](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetMassProperties.html).
 
 ## Remarks
 
-This method only returns data for documents created using SOLIDWORKS 2004 (Version 2500) and later. To get the version of a document, use[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
+This method only returns data for documents created using SOLIDWORKS 2004 (Version 2500) and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
 The 13 elements in the array are:
-
-(Table)=========================================================
 
 | Element | Description |
 | --- | --- |
@@ -94,7 +82,6 @@ The 13 elements in the array are:
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

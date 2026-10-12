@@ -9,9 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~Change
 
 # ChangeState Method (IEdmBatchChangeState)
 
-Obsolete. Superseded by
-
-[IEdmBatchChangeState4::ChangeState2 .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~ChangeState2.html)
+Obsolete. Superseded by [IEdmBatchChangeState4::ChangeState2.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~ChangeState2.html)
 
 ## Syntax
 
@@ -45,15 +43,11 @@ void ChangeState(
 ### Parameters
 
 - `lParentWnd`: Parent window handle that is passed to add-ins that are notified about file state changes in the vault
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to receive progress information about the operation
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to receive progress information about the operation
 
 ## Remarks
 
-Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html)if changing states or[IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html)if revoking transitions.
+Before calling this method, you must call [IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html) if changing states or [IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html) if revoking transitions.
 
 [Return codes](ReturnCodes.htm):
 
@@ -63,7 +57,6 @@ Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM
 ## See Also
 
 [IEdmBatchChangeState Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html)
-
 [IEdmBatchChangeState Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState_members.html)
 
 ## Availability

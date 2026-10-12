@@ -1,6 +1,5 @@
 ---
-title: "Manipulator Object
-Members"
+title: "Manipulator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Manipulator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Manipulator_members.html"
 ---
 
-# Manipulator Object
-Members
+# Manipulator Object Members
 
 ## Public Methods
 

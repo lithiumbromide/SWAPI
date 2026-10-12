@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetParamValue Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetParamValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetParamValue.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetParamValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetParamValue.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetParamValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetParamValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetParamValue.html)
-
-.
+See [ModelDoc::SetParamValue](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetParamValue.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

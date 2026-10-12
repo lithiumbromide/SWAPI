@@ -47,34 +47,21 @@ property System.int CalculationMethod {
 
 ### Property Value
 
-Calculation method as defined in
-
-[swcMoldCalculationMethod_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMoldCalculationMethod_e.html)
+Calculation method as defined in [swcMoldCalculationMethod_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMoldCalculationMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::CalculationMethod](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~CalculationMethod.html)
-
-.
+See [CostAnalysisPlastic::CalculationMethod](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~CalculationMethod.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
-examples.
+See the [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html) examples.
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [ICostAnalysisPlastic::MaxWallThickness Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~MaxWallThickness.html)
-
 [ICostAnalysisPlastic::CycleTime Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CycleTime.html)
 
 ## Availability

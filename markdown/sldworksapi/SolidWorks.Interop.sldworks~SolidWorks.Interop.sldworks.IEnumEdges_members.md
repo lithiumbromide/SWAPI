@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumEdges Interface Members
 
-The following tables list the members exposed by[IEnumEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges.html).
+The following tables list the members exposed by [IEnumEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumEdges](SolidWorks.Interop.
 ## See Also
 
 [IEnumEdges Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

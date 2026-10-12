@@ -52,24 +52,15 @@ void RemoveEntityAtSecondLocation(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::RemoveEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveEntityAtSecondLocation.html)
-
-.
+See [CWBoltConnector::RemoveEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveEntityAtSecondLocation.html).
 
 ## Remarks
 
-Call
-
-[ICWBoltConnector::GetTargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetTargetEntityCount.html)
-
-before calling this method to get a valid index.
+Call [ICWBoltConnector::GetTargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetTargetEntityCount.html) before calling this method to get a valid index.
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
 
 ## Availability

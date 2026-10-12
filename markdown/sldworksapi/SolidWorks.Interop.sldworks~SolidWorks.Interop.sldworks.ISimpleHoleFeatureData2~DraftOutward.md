@@ -45,13 +45,7 @@ property System.bool DraftOutward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True drafts the simple hole feature outward, false does not
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~DraftOutward.html)
-
-.
+See [SimpleHoleFeatureData2::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~DraftOutward.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::DraftAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~DraftAngle.html)
-
 [ISimpleHoleFeatureData2::DraftWhileExtruding Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~DraftWhileExtruding.html)
 
 ## Availability

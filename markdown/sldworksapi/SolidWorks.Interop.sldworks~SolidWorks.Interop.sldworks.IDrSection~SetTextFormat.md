@@ -51,17 +51,11 @@ System.bool SetTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UseDoc`: True if set to use the appropriate document default setting, false if it is not (see**Remarks**)
+- `UseDoc`: True if set to use the appropriate document default setting, false if it is not (see **Remarks**)
 - `TextFormat`: Text format for this section line text
 
 ### Return Value
@@ -70,11 +64,7 @@ True if text format is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[DrSection::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetTextFormat.html)
-
-.
+See [DrSection::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetTextFormat.html).
 
 ## Remarks
 
@@ -83,13 +73,9 @@ If UseDoc is True, then use the appropriate document default setting. SOLIDWORKS
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::ISetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~ISetTextFormat.html)
-
 [IDrSection::IGetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~IGetTextFormat.html)
-
 [IDrSection::GetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetTextFormat.html)
 
 ## Availability

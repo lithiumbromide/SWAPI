@@ -75,24 +75,14 @@ Feature^ InsertFeatureChamfer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Options`: Options as defined by
-
-[swFeatureChamferOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureChamferOption_e.html)
-- `ChamferType`: Chamfer type as defined by
-
-[swChamferType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swChamferType_e.html)
+- `Options`: Options as defined by [swFeatureChamferOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureChamferOption_e.html)
+- `ChamferType`: Chamfer type as defined by [swChamferType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swChamferType_e.html)
 - `Width`: If ChamferType is swChamferAngleDistance, then specify width of chamfer
-- `Angle`: If ChamferType is swChamferAngleDistance, then specify the angle of thekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}chamferParamDesc
+- `Angle`: If ChamferType is swChamferAngleDistance, then specify the angle of the chamfer
 - `OtherDist`: If ChamferType is swChamferEqualDistance, then you can specify a single value so that all distances are equal
 - `VertexChamDist1`: If ChamferType is swChamferDistanceDistance or swChamferVertex, then specify a value for the distance on first side
 - `VertexChamDist2`: If ChamferType is swChamferDistanceDistance or swChamferVertex, then specify a value for the distance on second side
@@ -100,38 +90,25 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFeatureChamfer](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureChamfer.html)
-
-.
+See [FeatureManager::InsertFeatureChamfer](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureChamfer.html).
 
 ## Examples
 
-See the
-
-[IChamferFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
-examples.
+See the [IChamferFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html) examples.
 
 ## Remarks
 
 Both swChamferType_e.swChamferAngleDistance and swChamferType_e.swChamferDistanceDistance are edge chamfers. This means that all measurements are from edges. An angle-distance chamfer requires an angle and a distance; a distance-distance chamfer requires two distances, one for each side of the chamfered edge.
 
-A swChamferType_e.swChamferVertex chamfer only works on a vertex with three adjacent edges of the same convexity. A vertex chamfer requires three distances along three adjacent edges. For non-linear edges, this value is an arc length value; it is not a chordal value. See[IVertex::EnumEdgesOriented](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex~EnumEdgesOriented.html)to determine the edge order used by this method.
+A swChamferType_e.swChamferVertex chamfer only works on a vertex with three adjacent edges of the same convexity. A vertex chamfer requires three distances along three adjacent edges. For non-linear edges, this value is an arc length value; it is not a chordal value. See [IVertex::EnumEdgesOriented](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex~EnumEdgesOriented.html) to determine the edge order used by this method.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetUVBounds Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetUVBounds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetUVBounds.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetUVBounds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetUVBounds.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetUVBounds()
 System.double IGetUVBounds();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetUVBounds](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetUVBounds.html)
-
-.
+See [Face::IGetUVBounds](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetUVBounds.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

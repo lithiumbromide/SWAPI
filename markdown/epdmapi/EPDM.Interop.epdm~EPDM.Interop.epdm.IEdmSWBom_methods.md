@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom_methods.html"
 
 # IEdmSWBom Interface Methods
 
-For a list of all members of this type, see[IEdmSWBom members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom_members.html).
+For a list of all members of this type, see [IEdmSWBom members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom_members.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[IEdmSWBom members](EPDM.Interop.epdm
 ## See Also
 
 [IEdmSWBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

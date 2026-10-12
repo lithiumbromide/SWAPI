@@ -1,6 +1,5 @@
 ---
-title: "CircularPatternFeatureData Object
-Members"
+title: "CircularPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CircularPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CircularPatternFeatureData_members.html"
 ---
 
-# CircularPatternFeatureData Object
-Members
+# CircularPatternFeatureData Object Members
 
 ## Public Methods
 

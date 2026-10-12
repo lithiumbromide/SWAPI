@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ShowUndeterminedSlotsInNCAFolder Property (ITemplateOverrides)
 
-Gets or sets whether slot features whose volume cannot be determined are displayed as items in the
-
-No Cost Assigned
-
-folder.
+Gets or sets whether slot features whose volume cannot be determined are displayed as items in the **No Cost Assigned** folder.
 
 ## Syntax
 
@@ -51,35 +47,22 @@ property System.bool ShowUndeterminedSlotsInNCAFolder {
 
 ### Property Value
 
-True if features whose volume cannot be determined are displayed as items in the
-
-No Cost Assigned
-
-folder, false if not
+True if features whose volume cannot be determined are displayed as items in the **No Cost Assigned** folder, false if not
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::ShowUndeterminedSlotsInNCAFolder](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~ShowUndeterminedSlotsInNCAFolder.html)
-
-.
+See [TemplateOverrides::ShowUndeterminedSlotsInNCAFolder](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~ShowUndeterminedSlotsInNCAFolder.html).
 
 ## Remarks
 
 Setting this property is only applied if:
 
-- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)
-
-  is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
-- [ITemplateOverrides::SlotFeatureRecognitionType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SlotFeatureRecognitionType.html)
-
-  is swcSlotFeatureRecognitionType_e.swcSlotFeatureRecognitionType_Slot.
+- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- [ITemplateOverrides::SlotFeatureRecognitionType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SlotFeatureRecognitionType.html) is swcSlotFeatureRecognitionType_e.swcSlotFeatureRecognitionType_Slot.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

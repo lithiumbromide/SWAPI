@@ -83,13 +83,7 @@ Feature^ InsertEndCapFeature3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -102,44 +96,32 @@ See
 - `BIsCornerTreatment`: True to chamfer or fillet the end cap corners, false to not; valid only if BIsGivenOffset is false
 - `DepthOffset`: Inset distance; valid only if BIsEndCapInward = 2
 - `BIsReverse`: True to reverse the offset or thickness ratio, false to not
-- `BIsEndCapInward`: Thickness direction as defined in
-
-[swEndCapThicknessDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndCapThicknessDirection_e.html)
+- `BIsEndCapInward`: Thickness direction as defined in [swEndCapThicknessDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndCapThicknessDirection_e.html)
 
 ### Return Value
 
 [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertEndCapFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertEndCapFeature3.html)
-
-.
+See [FeatureManager::InsertEndCapFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertEndCapFeature3.html).
 
 ## Examples
 
 [Insert Weldment End Cap (VBA)](Insert_Weldment_End_Cap_Example_VB.htm)
-
 [Insert Weldment End Cap (VB.NET)](Insert_Weldment_End_Cap_Example_VBNET.htm)
-
 [Insert Weldment End Cap (C#)](Insert_Weldment_End_Cap_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, select one or more end[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)of a structural member in the graphics area.
+Before calling this method, select one or more end [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) of a structural member in the graphics area.
 
-Instead of using this method, you can pass the faces in an argument array of[IFeatureManager::InsertEndCapFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature2.html).
+Instead of using this method, you can pass the faces in an argument array of [IFeatureManager::InsertEndCapFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
 
 ## Availability

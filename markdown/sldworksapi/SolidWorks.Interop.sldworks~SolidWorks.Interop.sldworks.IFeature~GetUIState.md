@@ -47,17 +47,11 @@ System.bool GetUIState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StateType`: User interface state type as defined in[swUIStates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUIStates_e.html)
+- `StateType`: User interface state type as defined in [swUIStates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUIStates_e.html)
 
 ### Return Value
 
@@ -65,16 +59,11 @@ True if the state type is set, false if it is not
 
 ## VBA Syntax
 
-See
-
-[Feature::GetUIState](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetUIState.html)
-
-.
+See [Feature::GetUIState](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetUIState.html).
 
 ## Examples
 
 [Hide Feature in FeatureManager Design Tree (VBA)](Hide_Feature_in_FeatureManager_Design_Tree_Example_VB.htm)
-
 [Display of Item in FeatureManager Design Tree (C++)](Display_of_Item_in_Feature_Manager_Example_CPlusPlus_COM.htm)
 
 ## Remarks
@@ -83,7 +72,7 @@ If you pass in the user-interface state type of swIsHiddenInFeatureMgr, this met
 
 The user-interface state is not a property.
 
-To see your changes in the FeatureManager design tree, call[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html). Currently, the user-interface state data is runtime only.
+To see your changes in the FeatureManager design tree, call [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html). Currently, the user-interface state data is runtime only.
 
 Features are initialized with all user-interface state type values set to false.
 
@@ -92,9 +81,6 @@ A change in a feature state setting causes all the dependents of the feature to 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::SetUIState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetUIState.html)
-
 [IFeature::Visible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Visible.html)

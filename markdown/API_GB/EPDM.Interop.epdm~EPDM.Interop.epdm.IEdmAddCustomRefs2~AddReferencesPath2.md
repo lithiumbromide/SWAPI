@@ -51,7 +51,7 @@ void AddReferencesPath2(
 
 ## Remarks
 
-This method supersedes[IEdmAddCustomRefs::AddReferencesPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddReferencesPath.html), which adds reference files only by file system path.
+This method supersedes [IEdmAddCustomRefs::AddReferencesPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddReferencesPath.html), which adds reference files only by file system path.
 
 [Return codes](ReturnCodes.htm):
 
@@ -61,7 +61,6 @@ This method supersedes[IEdmAddCustomRefs::AddReferencesPath](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmAddCustomRefs2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2.html)
-
 [IEdmAddCustomRefs2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2_members.html)
 
 ## Availability

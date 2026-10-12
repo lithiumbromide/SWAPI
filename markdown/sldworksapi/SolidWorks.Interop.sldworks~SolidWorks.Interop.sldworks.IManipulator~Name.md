@@ -45,13 +45,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Name of the manipulator
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Name](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Name.html)
-
-.
+See [Manipulator::Name](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Name.html).
 
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

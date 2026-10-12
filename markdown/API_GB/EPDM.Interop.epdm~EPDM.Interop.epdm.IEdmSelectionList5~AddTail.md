@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5~AddTail.h
 
 # AddTail Method (IEdmSelectionList5)
 
-Obsolete. Superseded by
-
-[IEdmSelectionList6::AddTail2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6~AddTail2.html)
-
-.
+Obsolete. Superseded by [IEdmSelectionList6::AddTail2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6~AddTail2.html).
 
 ## Syntax
 
@@ -62,7 +58,6 @@ void AddTail(
 ## See Also
 
 [IEdmSelectionList5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html)
-
 [IEdmSelectionList5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5_members.html)
 
 ## Availability

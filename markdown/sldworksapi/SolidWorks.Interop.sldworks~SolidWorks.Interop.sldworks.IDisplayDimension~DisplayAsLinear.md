@@ -45,13 +45,7 @@ property System.bool DisplayAsLinear {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,19 @@ True displays a linear dimension, false displays a diameter dimension
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::DisplayAsLinear](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~DisplayAsLinear.html)
-
-.
+See [DisplayDimension::DisplayAsLinear](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~DisplayAsLinear.html).
 
 ## Remarks
 
 This property applies only to diameter dimensions. It does not affect other types of dimensions.
 
-After using this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::Type2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Type2.html)
-
 [IDisplayDimension::Foreshortened Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Foreshortened.html)
 
 ## Availability

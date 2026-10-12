@@ -45,13 +45,7 @@ property System.bool NeedVertexNormal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True generates this information, false does not
 
 ## VBA Syntax
 
-See
-
-[Tessellation::NeedVertexNormal](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~NeedVertexNormal.html)
-
-.
+See [Tessellation::NeedVertexNormal](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~NeedVertexNormal.html).
 
 ## Examples
 
 [Tessellate a Body (C#)](Tessellate_a_Body_Example_CSharp.htm)
-
 [Tessellate a Body (VB.NET)](Tessellate_a_Body_Example_VBNET.htm)
-
 [Tessellate a Body (VBA)](Tessellate_a_Body_Example_VB.htm)
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

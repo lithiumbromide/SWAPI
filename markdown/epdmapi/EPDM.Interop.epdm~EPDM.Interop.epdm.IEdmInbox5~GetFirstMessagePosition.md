@@ -39,29 +39,22 @@ IEdmPos5^ GetFirstMessagePosition(
 
 ### Parameters
 
-- `lEdmGetMsgFlags`: Combination of
-
-[EdmGetMsgFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMsgFlag.html)
-
-bits indicating which messages to enumerate
+- `lEdmGetMsgFlags`: Combination of [EdmGetMsgFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMsgFlag.html) bits indicating which messages to enumerate
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first message in the inbox
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first message in the inbox
 
 ## Examples
 
 [Get Messages (C#)](Get_Messages_Example_CSharp.htm)
-
 [Get Messages (VB.NET)](Get_Messages_Example_VBNET.htm)
 
 ## Remarks
 
 This method only works to enumerate messages of the user currently logged in to the vault.
 
-After calling this method, pass the returned first message position to[IEdmInbox5::GetNextMessage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~GetNextMessage.html)to get the first message in the inbox. Then call IEdmInbox5::GetNextMessage repeatedly to get the rest of the messages in the inbox.
+After calling this method, pass the returned first message position to [IEdmInbox5::GetNextMessage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~GetNextMessage.html) to get the first message in the inbox. Then call IEdmInbox5::GetNextMessage repeatedly to get the rest of the messages in the inbox.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -73,7 +66,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmInbox5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html)
-
 [IEdmInbox5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5_members.html)
 
 ## Availability

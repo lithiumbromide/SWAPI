@@ -45,13 +45,7 @@ property System.bool DoubleSided {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable shading from both sides, false to not
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::DoubleSided](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~DoubleSided.html)
-
-.
+See [AppearanceSetting::DoubleSided](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~DoubleSided.html).
 
 ## Remarks
 
@@ -77,7 +67,6 @@ This method is only available when a ray-trace rendering engine is loaded.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

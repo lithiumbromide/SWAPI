@@ -37,29 +37,15 @@ public delegate System.int DPartDocEvents_FeatureManagerTreeRebuildNotifyEventHa
 public delegate System.int DPartDocEvents_FeatureManagerTreeRebuildNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManagerTreeRebuildNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureManagerTreeRebuildNotify_EV.html)
-
-.
+See [FeatureManagerTreeRebuildNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureManagerTreeRebuildNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

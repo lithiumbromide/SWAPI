@@ -1,6 +1,5 @@
 ---
-title: "RibFeatureData Object
-Members"
+title: "RibFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RibFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RibFeatureData_members.html"
 ---
 
-# RibFeatureData Object
-Members
+# RibFeatureData Object Members
 
 ## Public Methods
 

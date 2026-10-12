@@ -39,26 +39,15 @@ void Remove()
 void Remove();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Remove](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Remove.html)
-
-.
+See [Manipulator::Remove](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Remove.html).
 
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

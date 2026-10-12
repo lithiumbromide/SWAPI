@@ -9,42 +9,34 @@ source: "epdmapi/Batch_Change_States_of_Files_As_User_Example_CSharp.htm"
 
 # Batch Change States of Files As User Example (C#)
 
-This example shows how to change the states of several
-files in one batch using other credentials.
+This example shows how to change the states of several files in one batch using other credentials.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type BatchChangeFileStates_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
+ //    a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+ //    b. Type BatchChangeFileStates_CSharp in Project name.
+ //    c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
  //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with
+ //    h. Replace the code in Form1.cs with this code.
+ //    i. To create the form, replace the code in Form1.Designer.cs with
  //       this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and click
- //    EPDM.Interop.epdm.dll, click Open, and click Add).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Ensure that a workflow exists with:
+ // 2. Add dependencies and safely pass arrays of structures.
+ // 3. In the Admin Tool ensure that a workflow exists with:
  //    a. A Waiting for Approval state.
  //    b. An Approved state.
   //    c. A Passed Approval transition from the Waiting for Approval state to
  //       the Approved state.
   //    d. One or more vault files in the Waiting for Approval state.
- // 5.  If you want to change states as another user, modify the RunAsUser credentials to match a user in your vault.
- // 6. Click Debug > Start Debugging or press F5.
+ // 4.  If you want to change states as another user, modify the RunAsUser credentials to match a user in your vault.
+ // 5. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. The Approve Files dialog box displays.
@@ -228,10 +220,8 @@ Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
                  // Create the file reference tree and verify allowed transitions
 ```
 
-//'''''''''''''''''''''''''''''''''''''RunAsUser
-API''''''''''''''''''''''''''''''''''''''''''''
-// Admin is the logged in user here, but if you uncomment the next line
-(batchChanger.RunAsUser),
+//'''''''''''''''''''''''''''''''''''''RunAsUser API''''''''''''''''''''''''''''''''''''''''''''
+// Admin is the logged in user here, but if you uncomment the next line (batchChanger.RunAsUser),
 // you will do a state change using the admin_jeda user.
 // Change the username and password to match a user that exists in your vault.
 // CreateTree, ShowDlg, and ChangeState2 should all be called after RunAsUser.
@@ -240,118 +230,34 @@ API''''''''''''''''''''''''''''''''''''''''''''
                 //batchChanger.RunAsUser(Me.Handle.ToInt32(), "Admin_jeda", "abc")
 ```
 
-retVal = batchChanger.
+retVal = batchChanger.**CreateTree**("Passed Approval");
 
-CreateTree
-
-(
-
-"Passed Approval"
-
-);
-
-bool
-
-retVal2 =
-
-false
-
-;
-
-if
-
-((retVal))
-
+bool retVal2 = false;
+if ((retVal))
 {
-
 // Show all of the items in the batch
+retVal2 = batchChanger.**ShowDlg**(this.Handle.ToInt32());
 
-retVal2 = batchChanger.
-
-ShowDlg
-
-(
-
-this
-
-.Handle.ToInt32());
-
-if
-
-((retVal2))
-
+if ((retVal2))
 {
-
 // User clicked OK; commit all of the items in the batch to the vault
-
-batchChanger.
-
-ChangeState2
-
-(
-
-this
-
-.Handle.ToInt32(),
-
-""
-
-);
-
+batchChanger.**ChangeState2**(this.Handle.ToInt32(), "");
+}
 }
 
 }
-
-}
-
-catch
-
-(System.Runtime.InteropServices.
-
-COMException
-
-ex)
-
+catch (System.Runtime.InteropServices.COMException ex)
 {
-
-MessageBox
-
-.Show(
-
-"HRESULT = 0x"
-
-+ ex.ErrorCode.ToString(
-
-"X"
-
-) +
-
-" "
-
-+ ex.Message);
-
+MessageBox.Show("HRESULT = 0x" + ex.ErrorCode.ToString("X") + " " + ex.Message);
 }
-
-catch
-
-(
-
-Exception
-
-ex)
-
+catch (Exception ex)
 {
-
-MessageBox
-
-.Show(ex.Message);
-
+MessageBox.Show(ex.Message);
 }
 
 }
 
 }
-
 }
 
 ```vb

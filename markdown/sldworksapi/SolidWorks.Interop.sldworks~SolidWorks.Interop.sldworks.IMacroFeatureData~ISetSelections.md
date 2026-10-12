@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # ISetSelections Method (IMacroFeatureData)
 
-Obsolete. Superseded by
-
-[IMacroFeatureData::ISetSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~ISetSelections2.html)
-
-.
+Obsolete. Superseded by [IMacroFeatureData::ISetSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~ISetSelections2.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void ISetSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::ISetSelections](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~ISetSelections.html)
-
-.
+See [MacroFeatureData::ISetSelections](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~ISetSelections.html).
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)

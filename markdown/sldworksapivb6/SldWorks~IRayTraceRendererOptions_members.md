@@ -1,6 +1,5 @@
 ---
-title: "IRayTraceRendererOptions Object
-Members"
+title: "IRayTraceRendererOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IRayTraceRendererOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IRayTraceRendererOptions_members.html"
 ---
 
-# IRayTraceRendererOptions Object
-Members
+# IRayTraceRendererOptions Object Members
 
 ## Public Methods
 

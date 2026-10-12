@@ -9,8 +9,7 @@ source: "sldworksapi/Align_Assembly_Component_to_Assembly_Origin_and_Planes_Exam
 
 # Align Assembly Component to Assembly Origin and Planes Example (VBA)
 
-This example shows how to align an assembly component to the assembly
-origin and planes.
+This example shows how to align an assembly component to the assembly origin and planes.
 
 ```
 '----------------------------------------------

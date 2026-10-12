@@ -59,25 +59,17 @@ System.bool SetOverridePrincipleAxesOrientation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Axis`: One of the following principal axes:
 
-- 0 = X axis
-- 1 = Y axis
-- 2 = Z axis
+  - 0 = X axis
+  - 1 = Y axis
+  - 2 = Z axis
 - `Value`: An array of three doubles of the x, y, and z coordinates of Axis
-- `Config_option`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_option`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names; valid only if Config_option = swInConfigurationOpts_e.swSpecifyConfiguration
 
 ### Return Value
@@ -86,20 +78,13 @@ True if orientation of principal axis is overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassProperty::SetOverridePrincipleAxesOrientation](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverridePrincipleAxesOrientation.html)
-
-.
+See [MassProperty::SetOverridePrincipleAxesOrientation](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverridePrincipleAxesOrientation.html).
 
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetOverridePrincipleAxesOrientation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetOverridePrincipleAxesOrientation.html)
-
 [IMassProperty::PrincipleAxesOfInertia Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~PrincipleAxesOfInertia.html)
 
 ## Availability

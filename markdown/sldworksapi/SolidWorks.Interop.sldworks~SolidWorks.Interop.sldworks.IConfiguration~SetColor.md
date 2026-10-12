@@ -47,13 +47,7 @@ System.bool SetColor(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if the color is set, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::SetColor](ms-its:sldworksapivb6.chm::/sldworks~Configuration~SetColor.html)
-
-.
+See [Configuration::SetColor](ms-its:sldworksapivb6.chm::/sldworks~Configuration~SetColor.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

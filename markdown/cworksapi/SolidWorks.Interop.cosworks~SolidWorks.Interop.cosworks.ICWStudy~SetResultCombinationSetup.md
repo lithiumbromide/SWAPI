@@ -61,29 +61,22 @@ System.int SetResultCombinationSetup(
 
 ### Parameters
 
-- `NOption`: Type of result combination as defined in[swsPVResultCombinationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPVResultCombinationType_e.html)
+- `NOption`: Type of result combination as defined in [swsPVResultCombinationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPVResultCombinationType_e.html)
 - `NItems`: Number of elements in the MultiplicationFactors and StudyNames arrays
 - `MultiplicationFactors`: Array of multiplication factors; valid only if NOption = swsPVResultCombinationType_e.swsPVResultCombinationType_Linear
 - `StudyNames`: Array of names of the static studies whose results you want to combine; if NOption = swsPVResultCombinationType_e.swsPVResultCombinationType_Linear, the elements of MultiplicationFactors are coefficients of the linear combination of the static study results
 
 ### Return Value
 
-Error as defined in
-
-[swsPVResultCombinationError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPVResultCombinationError_e.html)
+Error as defined in [swsPVResultCombinationError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPVResultCombinationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::SetResultCombinationSetup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetResultCombinationSetup.html)
-
-.
+See [CWStudy::SetResultCombinationSetup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetResultCombinationSetup.html).
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

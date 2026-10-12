@@ -1,6 +1,5 @@
 ---
-title: "DrSection Object
-Members"
+title: "DrSection Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DrSection_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DrSection_members.html"
 ---
 
-# DrSection Object
-Members
+# DrSection Object Members
 
 ## Public Methods
 

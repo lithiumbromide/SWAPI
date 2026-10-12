@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # SetMissingReferencePathName Method (ISldWorks)
 
-Sets the missing reference file name. Use with the SOLIDWORKS event
-
-[ReferenceNotFoundNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_ReferenceNotFoundNotifyEventHandler.html)
-
-.
+Sets the missing reference file name. Use with the SOLIDWORKS event [ReferenceNotFoundNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_ReferenceNotFoundNotifyEventHandler.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetMissingReferencePathName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,24 +54,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetMissingReferencePathName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetMissingReferencePathName.html)
-
-.
+See [SldWorks::SetMissingReferencePathName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetMissingReferencePathName.html).
 
 ## Remarks
 
-Use with the SOLIDWORKS event
-
-[ReferenceNotFoundNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_ReferenceNotFoundNotifyEventHandler.html)
-
-.
+Use with the SOLIDWORKS event [ReferenceNotFoundNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_ReferenceNotFoundNotifyEventHandler.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

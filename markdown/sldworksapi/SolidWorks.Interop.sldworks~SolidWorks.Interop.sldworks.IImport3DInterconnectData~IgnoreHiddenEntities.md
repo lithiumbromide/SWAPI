@@ -45,13 +45,7 @@ property System.bool IgnoreHiddenEntities {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to ignore hidden entities, false to not
 
 ## VBA Syntax
 
-See
-
-[Import3DInterconnectData::IgnoreHiddenEntities](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~IgnoreHiddenEntities.html)
-
-.
+See [Import3DInterconnectData::IgnoreHiddenEntities](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~IgnoreHiddenEntities.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## See Also
 
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
 [IImport3DInterconnectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData_members.html)
 
 ## Availability

@@ -46,24 +46,15 @@ SustainabilityEndOfLife^ GetSustainabilityEndOfLife();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityApp::GetSustainabilityEndOfLife](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityEndOfLife.html)
-
-.
+See [SustainabilityApp::GetSustainabilityEndOfLife](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityEndOfLife.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityApp](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityApp.html)
-
-.
+See the examples in [ISustainabilityApp](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityApp.html).
 
 ## See Also
 
 [ISustainabilityApp Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp.html)
-
 [ISustainabilityApp Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp_members.html)
 
 ## Availability

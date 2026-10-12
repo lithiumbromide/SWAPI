@@ -51,24 +51,17 @@ True to override template settings for offset-based finishing for machined parts
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::UseOffsetBasedFinishing](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~UseOffsetBasedFinishing.html)
-
-.
+See [TemplateOverrides::UseOffsetBasedFinishing](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~UseOffsetBasedFinishing.html).
 
 ## Remarks
 
-Setting this property is only applied if[ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+Setting this property is only applied if [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
-
 [ITemplateOverrides::FinishingOffset Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~FinishingOffset.html)
-
 [ITemplateOverrides::SemiFinishingOffset Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SemiFinishingOffset.html)
 
 ## Availability

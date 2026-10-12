@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Properties_of_Angular_Running_Dimension_Example_VB.htm"
 
 # Insert Angular Running Dimension Example (VBA)
 
-This example shows how to insert an angular running dimension and get its
-properties.
+This example shows how to insert an angular running dimension and get its properties.
 
 ```vb
  '----------------------------------------------------------------------------

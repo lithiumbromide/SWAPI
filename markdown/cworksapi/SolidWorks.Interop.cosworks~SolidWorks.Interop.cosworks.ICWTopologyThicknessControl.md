@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyThicknessControl Interface
 
-Allows access to a thickness manufacturing control in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a thickness manufacturing control in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyThicknessControl
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl.html)
-
-.
+See [CWTopologyThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl.html).
 
 ## Examples
 
@@ -61,7 +49,7 @@ See
 
 Thickness manufacturing controls are member size restrictions during optimization that prevent the creation of very thin or thick regions that make manufacture difficult.
 
-See the**Manufacturing Controls**topic in the Simulation user-interface help for more information.
+See the **Manufacturing Controls** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -72,5 +60,4 @@ See the**Manufacturing Controls**topic in the Simulation user-interface help for
 ## See Also
 
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

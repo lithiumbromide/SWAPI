@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~Rename.html"
 
 # Rename Method (IEdmFile5)
 
-Obsolete. Superseded by
-
-[IEdmFile6::RenameEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6~RenameEx.html)
-
-.
+Obsolete. Superseded by [IEdmFile6::RenameEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6~RenameEx.html).
 
 ## Syntax
 
@@ -55,7 +51,7 @@ void Rename(
 
 ## Remarks
 
-See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
+See [Return Codes](ReturnCodes.htm) for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
 - E_EDM_NAME_ALREADY_EXISTS: The specified name already exists.
@@ -64,7 +60,6 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
 
 ## Availability

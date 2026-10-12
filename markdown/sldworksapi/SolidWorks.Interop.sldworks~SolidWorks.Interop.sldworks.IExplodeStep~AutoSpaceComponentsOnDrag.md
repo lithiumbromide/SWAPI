@@ -45,40 +45,25 @@ property System.bool AutoSpaceComponentsOnDrag {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to automatically space components equally along an axis as you drag them, false to not (see
-
-Remarks
-
-)
+True to automatically space components equally along an axis as you drag them, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::AutoSpaceComponentsOnDrag](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~AutoSpaceComponentsOnDrag.html)
-
-.
+See [ExplodeStep::AutoSpaceComponentsOnDrag](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~AutoSpaceComponentsOnDrag.html).
 
 ## Remarks
 
-If this property is set to true, then, by default,[IExplodeStep::RotateAboutEachComponentOrigin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotateAboutEachComponentOrigin.html)is false and[IExplodeStep::RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotationAngle.html)is 0.0.
+If this property is set to true, then, by default, [IExplodeStep::RotateAboutEachComponentOrigin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotateAboutEachComponentOrigin.html) is false and [IExplodeStep::RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotationAngle.html) is 0.0.
 
 If you set this property to false during editing of this step, then you must re-set the values for IExplodeStep::RotateAboutEachComponentOrigin and IExplodeStep::RotationAngle.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

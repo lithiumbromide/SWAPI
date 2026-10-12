@@ -11,121 +11,52 @@ source: "sldworksapi/Insert_Macro_Feature_Example_CPlusPlus_COM.htm"
 
 This example shows how to insert a macro feature.
 
+```vb
 //-------------------------------------------
-
 void APITestFunction()
-
 {
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}HRESULTkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}hr
-= S_OK;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr
-<ISldWorks>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pSldWorks;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr
-<IModelDoc2>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pModel;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComQIPtr
-<IPartDoc>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pPart;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr
-<IBody2>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pBody;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr
-<IFeatureManager>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pFeatMgr;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr
-<IFeature>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pFeat;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}BSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[9];
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}longkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
-= -1;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}VARIANT_BOOLkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= VARIANT_FALSE;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Connect to SOLIDWORKS
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pSldWorks
-= TheApplication->GetSWApp();
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pSldWorks);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}hr
-= pSldWorks->get_IActiveDoc2(&pModel);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pModel);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pPart
-= pModel;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pPart);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}hr
-= pPart->IBodyObject2(&pBody);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pBody);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}hr
-= pModel->get_FeatureManager(&pFeatMgr);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pFeatMgr);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[0]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[1]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[2]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[3]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[4]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[5]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[6]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[7]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods[8]
-= _T("");
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}hr
-= pFeatMgr->IInsertMacroFeature(
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComBSTR(_T("CeTestMacro")),
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComBSTR(_T("Sample.SimpleExtrude")),
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sMacroMethods,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}0,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}NULL,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}NULL,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}NULL,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pBody,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swMacroFeatureSecurityByDefault,
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}&pFeat);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ASSERT(pFeat);
-
+    HRESULT                             hr = S_OK;
+    CComPtr <ISldWorks>                 pSldWorks;
+    CComPtr <IModelDoc2>                pModel;
+    CComQIPtr <IPartDoc>                pPart;
+    CComPtr <IBody2>                    pBody;
+    CComPtr <IFeatureManager>           pFeatMgr;
+    CComPtr <IFeature>                  pFeat;
+    BSTR                                sMacroMethods[9];
+    long                                i = -1;
+    VARIANT_BOOL                        bRet = VARIANT_FALSE;
+    // Connect to SOLIDWORKS Design
+    pSldWorks = TheApplication->GetSWApp();
+    ASSERT(pSldWorks);
+    hr = pSldWorks->get_IActiveDoc2(&pModel);
+    ASSERT(pModel);
+    pPart = pModel;
+    ASSERT(pPart);
+    hr = pPart->IBodyObject2(&pBody);
+    ASSERT(pBody);
+    hr = pModel->get_FeatureManager(&pFeatMgr);
+    ASSERT(pFeatMgr);
+    sMacroMethods[0] = _T("");
+    sMacroMethods[1] = _T("");
+    sMacroMethods[2] = _T("");
+    sMacroMethods[3] = _T("");
+    sMacroMethods[4] = _T("");
+    sMacroMethods[5] = _T("");
+    sMacroMethods[6] = _T("");
+    sMacroMethods[7] = _T("");
+    sMacroMethods[8] = _T("");
+    hr = pFeatMgr->IInsertMacroFeature(
+                        CComBSTR(_T("CeTestMacro")),
+                        CComBSTR(_T("Sample.SimpleExtrude")),
+                        sMacroMethods,
+                        0,
+                        NULL,
+                        NULL,
+                        NULL,
+                        pBody,
+                        swMacroFeatureSecurityByDefault,
+                        &pFeat);
+    ASSERT(pFeat);
 } //void APITestFunction()
-
 // -------------------------------------------------------------------
+```

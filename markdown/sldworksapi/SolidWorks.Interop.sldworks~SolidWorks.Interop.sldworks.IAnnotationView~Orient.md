@@ -40,13 +40,7 @@ System.bool Orient()
 System.bool Orient();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the annotation view is oriented, false if not
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::Orient](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Orient.html)
-
-.
+See [AnnotationView::Orient](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Orient.html).
 
 ## Remarks
 
@@ -67,11 +57,8 @@ The annotation view is oriented normal to its plane.
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotationView::ActivateAndReorient Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~ActivateAndReorient.html)
-
 [IAnnotationView::Activate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Activate.html)
 
 ## Availability

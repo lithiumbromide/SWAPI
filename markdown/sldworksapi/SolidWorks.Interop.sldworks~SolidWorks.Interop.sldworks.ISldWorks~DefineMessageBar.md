@@ -47,13 +47,7 @@ System.Object^ DefineMessageBar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::DefineMessageBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DefineMessageBar.html)
-
-.
+See [SldWorks::DefineMessageBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DefineMessageBar.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## Remarks
 
@@ -88,7 +74,6 @@ It is the add-in's responsibility to ensure that the ID is unique by using, for 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

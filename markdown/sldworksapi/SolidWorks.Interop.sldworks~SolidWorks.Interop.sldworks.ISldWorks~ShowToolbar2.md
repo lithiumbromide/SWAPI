@@ -51,13 +51,7 @@ System.bool ShowToolbar2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,11 +60,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowToolbar2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowToolbar2.html)
-
-.
+See [SldWorks::ShowToolbar2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowToolbar2.html).
 
 ## Remarks
 
@@ -79,5 +69,4 @@ SOLIDWORKS manages the display of the toolbars based on the user's action; there
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

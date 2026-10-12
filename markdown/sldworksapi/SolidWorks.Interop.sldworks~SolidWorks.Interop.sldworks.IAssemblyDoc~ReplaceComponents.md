@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # ReplaceComponents Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::ReplaceComponents2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::ReplaceComponents2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.bool ReplaceComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,11 +74,7 @@ True if the component is successfully replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ReplaceComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplaceComponents.html)
-
-.
+See [AssemblyDoc::ReplaceComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ReplaceComponents.html).
 
 ## Remarks
 
@@ -101,15 +87,10 @@ This method closes any component files when called in an assembly. If the compon
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponents.html)
-
 [IAssemblyDoc::AddComponent5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponent5.html)
-
 [IAssemblyDoc::IAddComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IAddComponents2.html)
-
 [IModelDoc2::ReloadOrReplace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ReloadOrReplace.html)
 
 ## Availability

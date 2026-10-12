@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html"
 
 # EdmCmd Structure Members
 
-The following tables list the members exposed by[EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html).
+The following tables list the members exposed by [EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html).
 
 ## Public Fields
 
@@ -31,5 +31,4 @@ The following tables list the members exposed by[EdmCmd](EPDM.Interop.epdm~EPDM.
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

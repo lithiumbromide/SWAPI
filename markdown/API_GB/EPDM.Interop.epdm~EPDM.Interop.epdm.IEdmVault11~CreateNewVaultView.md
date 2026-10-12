@@ -59,16 +59,11 @@ void CreateNewVaultView(
 - `bsArchiveServerPassword`: Password for the Windows user who logs in to the archive server
 - `bsVaultName`: Name of the vault for which to create a view
 - `bsParentFolderPath`: Full system path to the parent folder of the view; a subfolder with the same name as the vault is created in the parent folder
-- `lEdmCreateVaultViewFlag`: Combination of
-
-[EdmCreateVaultViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateVaultViewFlag.html)
-
-bits
+- `lEdmCreateVaultViewFlag`: Combination of [EdmCreateVaultViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateVaultViewFlag.html) bits
 
 ## Examples
 
 [Create New Vault (VB.NET)](Create_New_Vault_Example_VBNET.htm)
-
 [Create New Vault (C#)](Create_New_Vault_Example_CSharp.htm)
 
 ## Remarks
@@ -83,9 +78,7 @@ bits
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
-
 [IEdmVault11::CreateNewVault Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVault.html)
 
 ## Availability

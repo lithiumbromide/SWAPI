@@ -31,101 +31,69 @@ This example shows how to mirror components in an assembly.
   '---------------------------------------------------------------------------------------
 ```
 
-Dim swApp As
-SldWorks.SldWorks
+Dim swApp As SldWorks.SldWorks
 
-Dim swModel As
-SldWorks.ModelDoc2
+Dim swModel As SldWorks.ModelDoc2
 
-Dim swAssem As
-SldWorks.AssemblyDoc
+Dim swAssem As SldWorks.AssemblyDoc
 
-Dim swFeat As
-SldWorks.Feature
+Dim swFeat As SldWorks.Feature
 
-Dim mirrorPlane As
-SldWorks.Feature
+Dim mirrorPlane As SldWorks.Feature
 
-Dim FeatMgr As
-SldWorks.FeatureManager
+Dim FeatMgr As SldWorks.FeatureManager
 
-Dim
-swMirroCompFeatData As SldWorks.MirrorComponentFeatureData
+Dim swMirroCompFeatData As SldWorks.MirrorComponentFeatureData
 
-Dim myRefPlane As
-SldWorks.RefPlane
+Dim myRefPlane As SldWorks.RefPlane
 
-Dim compsToInstance(0
-To 3) As Object
+Dim compsToInstance(0 To 3) As Object
 
-Dim
-compsToSelectionPlane(0 To 1) As Object
+Dim compsToSelectionPlane(0 To 1) As Object
 
-Dim
-compToMirrorOppositeHand(0 To 1) As Object
+Dim compToMirrorOppositeHand(0 To 1) As Object
 
-Dim
-compsToMirrorOrientationonOrigin(0 To 1) As swMirrorComponentOrientation2_e
+Dim compsToMirrorOrientationonOrigin(0 To 1) As swMirrorComponentOrientation2_e
 
-Dim
-compsToMirrorOrientationonPlane(0 To 1) As swMirrorComponentOrientation2_e
+Dim compsToMirrorOrientationonPlane(0 To 1) As swMirrorComponentOrientation2_e
 
-Dim mirrorPlane2 As
-SldWorks.Feature
+Dim mirrorPlane2 As SldWorks.Feature
 
-Dim mirrorPlane3 As
-SldWorks.Feature
+Dim mirrorPlane3 As SldWorks.Feature
 
-Dim alignmentref(0 To
-1) As Object
+Dim alignmentref(0 To 1) As Object
 
-Dim FlipDir(0 To 1) As
-Boolean
+Dim FlipDir(0 To 1) As Boolean
 
-Dim flipDirVar As
-Variant
+Dim flipDirVar As Variant
 
-Dim orientationArray
-As Variant
+Dim orientationArray As Variant
 
-Dim
-orientationSelPlanArray As Variant
+Dim orientationSelPlanArray As Variant
 
-Dim
-mirrorCompFileNames(0 To 1) As String
+Dim mirrorCompFileNames(0 To 1) As String
 
-Dim mirrorCompFolder
-As String
+Dim mirrorCompFolder As String
 
-Dim namesVar As
-Variant
+Dim namesVar As Variant
 
-Dim replaceLocations(0
-To 1) As String
+Dim replaceLocations(0 To 1) As String
 
-Dim
-replaceLocationsArray As Variant
+Dim replaceLocationsArray As Variant
 
-Dim importOptions As
-Long
+Dim importOptions As Long
 
-Dim modifyFeatdef As
-MirrorComponentFeatureData
+Dim modifyFeatdef As MirrorComponentFeatureData
 
-Dim
-compsToMirrorOrientationonOrigin2(0 To 1) As swMirrorComponentOrientation2_e
+Dim compsToMirrorOrientationonOrigin2(0 To 1) As swMirrorComponentOrientation2_e
 
-Dim
-compsToMirrorOrientationonPlane2(0 To 1) As swMirrorComponentOrientation2_e
+Dim compsToMirrorOrientationonPlane2(0 To 1) As swMirrorComponentOrientation2_e
 
-Dim orientationArray2
-As Variant
+Dim orientationArray2 As Variant
 
-Dim
-orientationArrayPlane2 As Variant
+Dim orientationArrayPlane2 As Variant
 
-Dim boolstatus As
-Boolean
+Dim boolstatus As Boolean
 
 Dim retVal As Boolean
 

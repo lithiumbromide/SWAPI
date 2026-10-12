@@ -40,44 +40,24 @@ System.object GetStartPoint2()
 System.Object^ GetStartPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Start
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+Start [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::GetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetStartPoint2.html)
-
-.
+See [SketchEllipse::GetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetStartPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
-examples.
+See the [ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html) examples.
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
-
 [ISketchEllipse::IGetStartPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse~IGetStartPoint2.html)
 
 ## Availability

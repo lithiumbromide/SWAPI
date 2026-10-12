@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Ground_Plane_Example_VB.htm"
 
 # Insert and Activate Ground Plane Example (VBA)
 
-This example shows how to insert and activate a ground plane in the current
-configuration of an assembly.
+This example shows how to insert and activate a ground plane in the current configuration of an assembly.
 
 ```vb
  '----------------------------------------------------------------------------

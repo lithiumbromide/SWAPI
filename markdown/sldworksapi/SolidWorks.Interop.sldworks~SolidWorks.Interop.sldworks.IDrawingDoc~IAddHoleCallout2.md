@@ -55,13 +55,7 @@ DisplayDimension^ IAddHoleCallout2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,30 +65,22 @@ See
 
 ### Return Value
 
-Pointer to[DisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)object representing the hole callout
+Pointer to [DisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) object representing the hole callout
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IAddHoleCallout2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IAddHoleCallout2.html)
-
-.
+See [DrawingDoc::IAddHoleCallout2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IAddHoleCallout2.html).
 
 ## Remarks
 
-When you call this method, the user must clickOKin the dialog that shows the system-generated hole callout.
+When you call this method, the user must click OK in the dialog that shows the system-generated hole callout.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDisplayDimension::IsHoleCallout Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html)
-
 [IDrawingDoc::AddHoleCallout2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AddHoleCallout2.html)
-
 [IDisplayDimension::GetHoleCalloutVariables Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetHoleCalloutVariables.html)
 
 ## Availability

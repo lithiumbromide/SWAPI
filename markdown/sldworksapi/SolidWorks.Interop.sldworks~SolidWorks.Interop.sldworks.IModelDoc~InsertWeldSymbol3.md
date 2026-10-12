@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertWeldSymbol3 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertWeldSymbol3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertWeldSymbol3.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertWeldSymbol3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertWeldSymbol3.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object InsertWeldSymbol3()
 System.Object^ InsertWeldSymbol3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertWeldSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertWeldSymbol3.html)
-
-.
+See [ModelDoc::InsertWeldSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertWeldSymbol3.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

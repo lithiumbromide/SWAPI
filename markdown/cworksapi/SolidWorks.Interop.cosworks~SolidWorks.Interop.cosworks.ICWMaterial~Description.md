@@ -51,24 +51,15 @@ Description
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::Description](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~Description.html)
-
-.
+See [CWMaterial::Description](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~Description.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::Category Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Category.html)
-
 [ICWMaterial::MaterialName Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~MaterialName.html)
-
 [ICWMaterial::MaterialUnits Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~MaterialUnits.html)
-
 [ICWMaterial::Source Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Source.html)
 
 ## Availability

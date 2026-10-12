@@ -60,38 +60,27 @@ void AddSelection2(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; vault in which to create the new item
-- `poVariables`: Optional array of
-
-[EdmVarVal](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html)
-
-structures; variables to write to the item
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); vault in which to create the new item
+- `poVariables`: Optional array of [EdmVarVal](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html) structures; variables to write to the item
 - `bsItemName`: Name of new item; if left blank, the serial number generator assigns the name
 - `lDestFolderID`: ID of the folder in which to place the new item; if left blank, the new item is placed in the item root folder
 - `lSrcFileID`: ID of the file from which to create the item; if 0 or blank, no link is created
 - `lSrcFileProjID`: ID of the parent folder of lSrcFileID; only valid if lSrcFileID is not 0 or blank
 - `bsSrcFileConfig`: Name of the configuration in the source file to which to link the new item
-- `lEdmRefFlags`: Combination of
-
-[EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
-
-bits
+- `lEdmRefFlags`: Combination of [EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html) bits
 
 ## Examples
 
 [Add Items (C#)](Add_Items_Example_CSharp.htm)
-
 [Add Items (VB.NET)](Add_Items_Example_VBNET.htm)
 
 ## Remarks
 
-This method supersedes[IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html)by adding the ability to create stand-alone items without a source file.
+This method supersedes [IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html) by adding the ability to create stand-alone items without a source file.
 
 To create a stand-alone item, you must call this method specifying poVault at a minimum. You can optionally specify poVariables and bsItemName to create a stand-alone item. The other parameters are only used to create new items from files.
 
-After calling this method, call[IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html).
+After calling this method, call [IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -101,7 +90,6 @@ After calling this method, call[IEdmBatchItemGeneration::CreateTree](EPDM.Intero
 ## See Also
 
 [IEdmBatchItemGeneration2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2.html)
-
 [IEdmBatchItemGeneration2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool ResetExtensionLineStyle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,38 +59,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::ResetExtensionLineStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ResetExtensionLineStyle.html)
-
-.
+See [DisplayDimension::ResetExtensionLineStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ResetExtensionLineStyle.html).
 
 ## Remarks
 
-Call this method to reset the extension line style if you previously called
-
-[IDisplayDimension::SetExtensionLineAsCenterline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetExtensionLineAsCenterline.html)
-
-to set the extension line as a centerline. This method corresponds to the extension line's shortcut menu item
-
-Reset extension line style
-
-, which appears after you select the extension line's shortcut menu item
-
-Set extension line as centerline
-
-.
+Call this method to reset the extension line style if you previously called [IDisplayDimension::SetExtensionLineAsCenterline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetExtensionLineAsCenterline.html) to set the extension line as a centerline. This method corresponds to the extension line's shortcut menu item **Reset extension line style**, which appears after you select the extension line's shortcut menu item **Set extension line as centerline**.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::ExtensionLineExtendsFromCenterOfSet Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~ExtensionLineExtendsFromCenterOfSet.html)
-
 [IDisplayDimension::ExtensionLineSameAsLeaderStyle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~ExtensionLineSameAsLeaderStyle.html)
-
 [IDisplayDimension::ExtensionLineUseDocumentDisplay Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~ExtensionLineUseDocumentDisplay.html)
 
 ## Availability

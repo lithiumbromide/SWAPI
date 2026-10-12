@@ -40,13 +40,7 @@ System.object GetDisplayData()
 System.Object^ GetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ Object for display data
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDisplayData.html)
-
-.
+See [DisplayDimension::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDisplayData.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::IGetDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IGetDisplayData.html)

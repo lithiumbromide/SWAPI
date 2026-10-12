@@ -1,6 +1,5 @@
 ---
-title: "SketchSpline Object
-Members"
+title: "SketchSpline Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchSpline_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchSpline_members.html"
 ---
 
-# SketchSpline Object
-Members
+# SketchSpline Object Members
 
 ## Public Methods
 

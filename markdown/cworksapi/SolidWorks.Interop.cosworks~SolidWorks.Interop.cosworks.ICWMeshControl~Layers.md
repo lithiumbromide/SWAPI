@@ -51,18 +51,12 @@ Number of layers
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::Layers](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Layers.html)
-
-.
+See [CWMeshControl::Layers](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Layers.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::Ratio Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~Ratio.html)
 
 ## Availability

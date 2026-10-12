@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # SetTimeCurve Method (ICWBearingLoad)
 
-Obsolete. Superseded by
-
-[ICWBearingLoad::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~SetTimeCurve2.html)
-
-.
+Obsolete. Superseded by [ICWBearingLoad::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -57,14 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -72,36 +62,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~SetTimeCurve.html)
-
-.
+See [CWBearingLoad::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~SetTimeCurve.html).
 
 ## Remarks
 
 Time curve data array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`]
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` ]
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the
-
-  ith
-
-  data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~GetTimeCurve.html)
-
 [ICWBearingLoad::UseTimeCurve Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~UseTimeCurve.html)
 
 ## Availability

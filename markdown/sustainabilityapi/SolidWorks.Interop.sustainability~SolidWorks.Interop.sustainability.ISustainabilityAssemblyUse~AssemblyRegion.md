@@ -47,30 +47,19 @@ property System.int AssemblyRegion {
 
 ### Property Value
 
-Geographical region where the assembly is used as defined in
-
-[swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
+Geographical region where the assembly is used as defined in [swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse::AssemblyRegion](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~AssemblyRegion.html)
-
-.
+See [SustainabilityAssemblyUse::AssemblyRegion](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~AssemblyRegion.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
-.
+See the examples in [ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html).
 
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
 
 ## Availability

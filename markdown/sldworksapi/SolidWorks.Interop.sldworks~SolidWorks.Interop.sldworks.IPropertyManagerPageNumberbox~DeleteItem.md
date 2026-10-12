@@ -47,13 +47,7 @@ System.short DeleteItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ Number of items remaining in the list or -1 if the item is not deleted
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::DeleteItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~DeleteItem.html)
-
-.
+See [PropertyManagerPageNumberbox::DeleteItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~DeleteItem.html).
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

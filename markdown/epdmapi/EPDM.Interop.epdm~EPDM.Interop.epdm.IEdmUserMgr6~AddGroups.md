@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html
 
 # AddGroups Method (IEdmUserMgr6)
 
-Obsolete. Superseded by
-
-[IEdmUserMgr7::AddGroups2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddGroups2.html)
-
-.
+Obsolete. Superseded by [IEdmUserMgr7::AddGroups2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddGroups2.html).
 
 ## Syntax
 
@@ -43,15 +39,11 @@ void AddGroups(
 
 ### Parameters
 
-- `ppoGroupData`: Array of
-
-[EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
-structures; one structure for each user group
+- `ppoGroupData`: Array of [EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html) structures; one structure for each user group
 
 ## Remarks
 
-This method is superseded by[IEdmUserMgr7::AddGroups2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddGroups2.html)which allows you to specify system permissions.
+This method is superseded by [IEdmUserMgr7::AddGroups2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddGroups2.html) which allows you to specify system permissions.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -60,7 +52,6 @@ This method is superseded by[IEdmUserMgr7::AddGroups2](EPDM.Interop.epdm~EPDM.In
 ## See Also
 
 [IEdmUserMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6.html)
-
 [IEdmUserMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_InterferenceNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies your program about an interference between parts in the assembly during the
-
-Move/Rotate Component
-
-command.
+Notifies your program about an interference between parts in the assembly during the **Move/Rotate Component** command.
 
 ## Syntax
 
@@ -50,42 +46,24 @@ public delegate System.int DAssemblyDocEvents_InterferenceNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PComp`: Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-that interfere
-- `PFace`: Array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-that interfere
+- `PComp`: Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) that interfere
+- `PFace`: Array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that interfere
 
 ## VBA Syntax
 
-See
-
-[InterferenceNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~InterferenceNotify_EV.html)
-
-.
+See [InterferenceNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~InterferenceNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyInterferenceNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyInterferenceNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-This notification is only sent when faces clash during the**Move/Rotate Component**command, which executes as an interactive drag of a component, and if collision detection is enabled in the user interface.
+This notification is only sent when faces clash during the **Move/Rotate Component** command, which executes as an interactive drag of a component, and if collision detection is enabled in the user interface.
 
-You can use this notification with[IAssemblyDoc::IToolsCheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html).
+You can use this notification with [IAssemblyDoc::IToolsCheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html).
 
 ## Availability
 

@@ -1,6 +1,5 @@
 ---
-title: "ThickenFeatureData Object
-Members"
+title: "ThickenFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ThickenFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ThickenFeatureData_members.html"
 ---
 
-# ThickenFeatureData Object
-Members
+# ThickenFeatureData Object Members
 
 ## Public Methods
 

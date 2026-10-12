@@ -57,11 +57,7 @@ Array of paths of split parts
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument28::GetSplitFeatureReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument28~GetSplitFeatureReferences.html)
-
-.
+See [SwDMDocument28::GetSplitFeatureReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument28~GetSplitFeatureReferences.html).
 
 ## Remarks
 
@@ -70,7 +66,6 @@ SOLIDWORKS 2022 allows you to Pack and Go parts created by the Save Bodies and S
 ## See Also
 
 [ISwDMDocument28 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument28.html)
-
 [ISwDMDocument28 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument28_members.html)
 
 ## Availability

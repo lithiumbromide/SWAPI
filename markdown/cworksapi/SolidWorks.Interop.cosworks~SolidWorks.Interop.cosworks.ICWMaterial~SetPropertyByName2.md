@@ -57,16 +57,12 @@ void SetPropertyByName2(
 ### Parameters
 
 - `SName`: Property name; for example, 'EX' for Elastic modulus, 'NUXY' for Poisson's ratio, etc.
-- `DValue`: Value of material propertyParamDesc
-- `BValue`: -1 or true if temperature dependent, 0 or false if not (see**Remarks**)
+- `DValue`: Value of material property
+- `BValue`: -1 or true if temperature dependent, 0 or false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SetPropertyByName2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetPropertyByName2.html)
-
-.
+See [CWMaterial::SetPropertyByName2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetPropertyByName2.html).
 
 ## Remarks
 
@@ -75,7 +71,6 @@ Specify BValue as a boolean or integer: true = -1, false = 0.
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

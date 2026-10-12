@@ -40,13 +40,7 @@ System.int GetMultipleThicknessFacesCount()
 System.int GetMultipleThicknessFacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,42 +48,24 @@ Number of faces with multiple thickness
 
 ## VBA Syntax
 
-See
-
-[ShellFeatureData::GetMultipleThicknessFacesCount](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~GetMultipleThicknessFacesCount.html)
-
-.
+See [ShellFeatureData::GetMultipleThicknessFacesCount](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~GetMultipleThicknessFacesCount.html).
 
 ## Examples
 
-See the
-
-[IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
-examples.
+See the [IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IShellFeatureData::IGetMultipleThicknessFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShellFeatureData~IGetMultipleThicknessFaces.html)
-
-to get the size of the array for that method.
+Call this method before calling [IShellFeatureData::IGetMultipleThicknessFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShellFeatureData~IGetMultipleThicknessFaces.html) to get the size of the array for that method.
 
 ## See Also
 
 [IShellFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
 [IShellFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData_members.html)
-
 [IShellFeatureData::GetMultipleThicknessAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~GetMultipleThicknessAtIndex.html)
-
 [IShellFeatureData::ISetMultipleThicknessFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~ISetMultipleThicknessFaces.html)
-
 [IShellFeatureData::SetMultipleThicknessAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~SetMultipleThicknessAtIndex.html)
-
 [IShellFeatureData::MultipleThicknessFaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~MultipleThicknessFaces.html)
-
 [IShellFeatureData::Thickness Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~Thickness.html)
 
 ## Availability

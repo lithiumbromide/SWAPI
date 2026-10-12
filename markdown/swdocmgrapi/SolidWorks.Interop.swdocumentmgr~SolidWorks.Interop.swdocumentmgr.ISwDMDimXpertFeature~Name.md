@@ -48,11 +48,7 @@ Name of the feature
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertFeature::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~Name.html)
-
-.
+See [SwDMDimXpertFeature::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~Name.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
 [ISwDMDimXpertFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature_members.html)
 
 ## Availability

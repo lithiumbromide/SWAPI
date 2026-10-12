@@ -39,17 +39,11 @@ void GetRect(
 
 ### Parameters
 
-- `poRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; bounding rectangle of the state box displayed in the workflow editor
+- `poRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; bounding rectangle of the state box displayed in the workflow editor
 
 ## Examples
 
-See the
-
-[IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html)
-
-examples.
+See the [IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html) examples.
 
 ## Remarks
 
@@ -60,11 +54,8 @@ examples.
 ## See Also
 
 [IEdmState7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html)
-
 [IEdmState7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_members.html)
-
 [IEdmTransition7::GetRect Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7~GetRect.html)
-
 [IEdmTransition7::GetArrowVertices Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7~GetArrowVertices.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.int GetBoundingEntitiesCount()
 System.int GetBoundingEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of bounding entities
 
 ## VBA Syntax
 
-See
-
-[SurfacePlanarFeatureData::GetBoundingEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfacePlanarFeatureData~GetBoundingEntitiesCount.html)
-
-.
+See [SurfacePlanarFeatureData::GetBoundingEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfacePlanarFeatureData~GetBoundingEntitiesCount.html).
 
 ## Examples
 
-See the
-
-[ISurfacePlanarFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData.html)
-
-examples.
+See the [ISurfacePlanarFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling[ISurfacePlanarFeatureData::IGetBoundingEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfacePlanarFeatureData~IGetBoundingEntities.html)to get the size of the array for that method.
+Call this method before calling [ISurfacePlanarFeatureData::IGetBoundingEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfacePlanarFeatureData~IGetBoundingEntities.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISurfacePlanarFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData.html)
-
 [ISurfacePlanarFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData_members.html)
-
 [ISurfacePlanarFeatureData::ISetBoundingEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData~ISetBoundingEntities.html)
-
 [ISurfacePlanarFeatureData::BoundingEntities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData~BoundingEntities.html)
 
 ## Availability

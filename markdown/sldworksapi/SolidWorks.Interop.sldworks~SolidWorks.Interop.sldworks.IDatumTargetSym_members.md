@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # IDatumTargetSym Interface Members
 
-The following tables list the members exposed by[IDatumTargetSym](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html).
+The following tables list the members exposed by [IDatumTargetSym](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html).
 
 ## Public Methods
 
@@ -57,5 +57,4 @@ The following tables list the members exposed by[IDatumTargetSym](SolidWorks.Int
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

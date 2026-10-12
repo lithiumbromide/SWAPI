@@ -53,30 +53,23 @@ System.int SetThicknessAnalysisBody(
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::SetThicknessAnalysisBody](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~SetThicknessAnalysisBody.html)
-
-.
+See [IThicknessAnalysis::SetThicknessAnalysisBody](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~SetThicknessAnalysisBody.html).
 
 ## Remarks
 
 You do not need to use this method if the part is made up of a single solid body.
 
-Use[IThicknessAnalysis::GetThicknessAnalysisBody](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetThicknessAnalysisBody.html)to get the body selected for the thickness analysis.
+Use [IThicknessAnalysis::GetThicknessAnalysisBody](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetThicknessAnalysisBody.html) to get the body selected for the thickness analysis.
 
-[IThicknessAnalysis::RunThickAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThickAnalysis2.html)and[IThicknessAnalysis::RunThinAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThinAnalysis.html)fail if a body is not set in a multibody part.
+[IThicknessAnalysis::RunThickAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThickAnalysis2.html) and [IThicknessAnalysis::RunThinAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThinAnalysis.html) fail if a body is not set in a multibody part.
 
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
 
 ## Availability

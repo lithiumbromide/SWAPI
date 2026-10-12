@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm"
 
 # Get and Override Mass Properties Example (C#)
 
-This example shows how
-togetand override some mass propertiesofa part.
+This example shows how to get and override some mass properties of a part.
 
 ```vb
  // -----------------------------------------------------------------------

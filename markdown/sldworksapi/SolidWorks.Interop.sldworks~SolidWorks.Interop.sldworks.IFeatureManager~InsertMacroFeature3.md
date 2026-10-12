@@ -87,65 +87,21 @@ Feature^ InsertMacroFeature3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BaseName`: Name of the base feature (see
-
-Remarks
-
-)
-- `ProgId`: COM or .NET callback object; empty string if VBA (see
-
-Remarks
-
-)
-- `MacroMethods`: Array of strings of size 9 only for VBA; "" otherwise (see
-
-Remarks
-
-)
+- `BaseName`: Name of the base feature (see **Remarks**)
+- `ProgId`: COM or .NET callback object; empty string if VBA (see Remarks)
+- `MacroMethods`: Array of strings of size 9 only for VBA; "" otherwise (see Remarks)
 - `ParamNames`: Array of strings of the names of the parameters
-- `ParamTypes`: Array of the types of parameters of size paramCount as defined by
-
-[swMacroFeatureParamType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureParamType_e.html)
+- `ParamTypes`: Array of the types of parameters of size paramCount as defined by [swMacroFeatureParamType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureParamType_e.html)
 - `ParamValues`: Array of strings of the values of parameters
-- `DimTypes`: Array of the types of dimensions as defined by
-
-[swDimensionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionType_e.html)
-
-(see
-
-Remarks
-
-)
+- `DimTypes`: Array of the types of dimensions as defined by [swDimensionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionType_e.html) (see **Remarks**)
 - `DimValues`: Array of values of the dimensions
-- `EditBodies`: Array of
-
-[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-objects to modify in the macro feature
-- `IconFiles`: Array of strings of the files names for the icons (see
-
-Remarks
-
-)
-- `Options`: Placement of the macro feature in the FeatureManager design tree as defined by
-
-[swMacroFeatureOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureOptions_e.html)
-
-(see
-
-Remarks
-
-)
+- `EditBodies`: Array of [IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) objects to modify in the macro feature
+- `IconFiles`: Array of strings of the files names for the icons (see **Remarks**)
+- `Options`: Placement of the macro feature in the FeatureManager design tree as defined by [swMacroFeatureOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureOptions_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -153,20 +109,13 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMacroFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMacroFeature3.html)
-
-.
+See [FeatureManager::InsertMacroFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMacroFeature3.html).
 
 ## Examples
 
 [Create Macro Feature Subfeature (VBA)](Create_Macro_Feature_Subfeature_Example_VB.htm)
-
 [Create Multibody Macro Feature (VBA)](Create_Multibody_Macro_Feature_Example_VB.htm)
-
 [Create Multibody Macro Feature (VB.NET)](Create_Multibody_Macro_Feature_Example_VBNET.htm)
-
 [Create Multibody Macro Feature (C#)](Create_Multibody_Macro_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -174,16 +123,10 @@ See
 **BaseName**
 
 - The argument BaseName is serialized within the feature and cannot be changed.
-- You can find out the name of the base feature by using
-
-  [IMacroFeatureData::GetBaseName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetBaseName.html)
-
-  .
+- You can find out the name of the base feature by using [IMacroFeatureData::GetBaseName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetBaseName.html).
 - The BaseName argument is also used to generate the name of the feature when the feature is first created.
 
 **ProgId**
-
-(Table)=========================================================
 
 | If creating a macro feature using... | Then ProgId is... |
 | --- | --- |
@@ -205,9 +148,9 @@ The macroMethods argument is implemented for VBA only. The array of nine strings
 8. Module - Source Module executed while querying security; optional, see the next paragraph.
 9. Procedure - Source Procedure executed while querying security; optional, see the next paragraph.
 
-Filename should be the full pathname to the macro file. If the procedure resides in the same macro file that calls IFeatureManager::InsertMacroFeature3, then a call to[ISldWorks::GetCurrentMacroPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetCurrentMacroPathName.html)provides all of the information necessary for the Filename.
+Filename should be the full pathname to the macro file. If the procedure resides in the same macro file that calls IFeatureManager::InsertMacroFeature3, then a call to [ISldWorks::GetCurrentMacroPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetCurrentMacroPathName.html) provides all of the information necessary for the Filename.
 
-[IModelDoc2::ListAuxiliaryExternalFileReferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ListAuxiliaryExternalFileReferences.html)returns an array containing the names of the features that include external references and an array containing the names of the external files for Filename elements 1, 4, and 7 in the array.
+[IModelDoc2::ListAuxiliaryExternalFileReferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ListAuxiliaryExternalFileReferences.html) returns an array containing the names of the features that include external references and an array containing the names of the external files for Filename elements 1, 4, and 7 in the array.
 
 The list of:
 
@@ -219,7 +162,7 @@ The list of:
 
 If a security procedure is not used, then Filename, Module, and Procedure must all be empty strings.
 
-Procedure names must have answmprefix in the name. This prefix identifies the procedures to execute.
+Procedure names must have an swm prefix in the name. This prefix identifies the procedures to execute.
 
 **DimTypes**
 
@@ -238,22 +181,19 @@ The array of the file names for the icons can contain either three or nine strin
 | Three | Regular Suppressed Highlighted | Windows bitmap ( *.bmp ) format 16 pixels wide X 18 pixels high |
 | Nine NOTES: This size array is only valid for macro features created in parts, assemblies, and drawings in SOLIDWORKS 2017 and later. SOLIDWORKS displays the appropriate images based on the current DPI setting of the display device. | Regular small Suppressed small Highlighted small Regular medium Suppressed medium Highlighted medium Regular large Suppressed large Highlighted large | Windows bitmap ( *.bmp ) format Recommended sizes are: Small: 20 pixels wide X 20 pixels high Medium: 32 pixels wide X 32 pixels high Large: 40 pixels wide X 40 pixels high |
 
-You can specify either the full path name or just the file name for the strings; for example,c:\bitmaps\icon1.bmporicon1.bmp.
+You can specify either the full path name or just the file name for the strings; for example, c:\bitmaps\icon1.bmp or icon1.bmp.
 
 **Options**
 
 swMacroFeatureOptions_e.swMacroFeatureEmbedMacroFile is not supported by programming languages for the Microsoft .NET Framework; for example, not supported by C#, Visual Basic .NET, or Managed C++.
 
-See[Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm)for more information.
+See [Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm) for more information.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::IInsertMacroFeature3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IInsertMacroFeature3.html)
-
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
 
 ## Availability

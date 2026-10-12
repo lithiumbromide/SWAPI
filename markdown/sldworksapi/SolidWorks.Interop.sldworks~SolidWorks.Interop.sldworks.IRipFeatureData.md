@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 Allows access to a rip feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,17 @@ public interface class IRipFeatureData
 
 ## VBA Syntax
 
-See
-
-[RipFeatureData](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData.html)
-
-.
+See [RipFeatureData](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData.html).
 
 ## Examples
 
 [Access Edges on Rip Feature (VBA)](Access_and_Release_Access_to_Edges_Example_VB.htm)
-
 [Access Edges on Rip Feature (VB.NET)](Access_and_Release_Access_to_Edges_Example_VBNET.htm)
-
 [Access Edges on Rip Feature (C#)](Access_and_Release_Access_to_Edges_Example_CSharp.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)
-
-and
-
-[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -70,7 +60,5 @@ and
 ## See Also
 
 [IRipFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertRip Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertRip.html)

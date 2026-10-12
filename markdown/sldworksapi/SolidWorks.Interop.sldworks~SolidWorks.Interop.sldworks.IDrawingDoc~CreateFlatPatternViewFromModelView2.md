@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # CreateFlatPatternViewFromModelView2 Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::CreateFlatPatternViewFromModelView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateFlatPatternViewFromModelView3.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::CreateFlatPatternViewFromModelView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateFlatPatternViewFromModelView3.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool CreateFlatPatternViewFromModelView2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,20 +84,13 @@ True if the flat-pattern view was created successfully, false if it was not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateFlatPatternViewFromModelView2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateFlatPatternViewFromModelView2.html)
-
-.
+See [DrawingDoc::CreateFlatPatternViewFromModelView2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateFlatPatternViewFromModelView2.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ChangeRefConfigurationOfFlatPatternView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ChangeRefConfigurationOfFlatPatternView.html)
-
 [IDrawingDoc::CreateDrawViewFromModelView3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDrawViewFromModelView3.html)
 
 ## Availability

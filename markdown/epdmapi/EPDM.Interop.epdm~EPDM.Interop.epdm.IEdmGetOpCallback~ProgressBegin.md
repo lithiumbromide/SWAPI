@@ -42,14 +42,8 @@ void ProgressBegin(
 
 ### Parameters
 
-- `eType`: Type of progress bar as defined in
-
-[EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
-- `lSteps`: Number of times that
-
-[IEdmGetOpCallback::ProgressStep](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressStep.html)
-
-is to be called
+- `eType`: Type of progress bar as defined in [EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
+- `lSteps`: Number of times that [IEdmGetOpCallback::ProgressStep](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressStep.html) is to be called
 
 ## Remarks
 
@@ -63,7 +57,6 @@ Implement this method to display a progress bar. After this method is called, SO
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [IEdmGetOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.html)
 
 ## Availability

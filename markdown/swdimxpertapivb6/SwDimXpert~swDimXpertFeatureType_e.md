@@ -29,6 +29,7 @@ source: "swdimxpertapivb6/SwDimXpert~swDimXpertFeatureType_e.html"
 | swDimXpertFeature_IntersectPoint | 11 |  |
 | swDimXpertFeature_Pattern | 15 |  |
 | swDimXpertFeature_Plane | 1 |  |
+| swDimXpertFeature_RefPlane | 19 |  |
 | swDimXpertFeature_Sphere | 16 |  |
 | swDimXpertFeature_Surface | 18 |  |
 | swDimXpertFeatureType_unknown | 0 |  |

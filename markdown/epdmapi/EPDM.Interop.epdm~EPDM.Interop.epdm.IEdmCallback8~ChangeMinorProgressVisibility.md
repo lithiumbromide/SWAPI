@@ -44,7 +44,6 @@ void ChangeMinorProgressVisibility(
 ## See Also
 
 [IEdmCallback8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback8.html)
-
 [IEdmCallback8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback8_members.html)
 
 ## Availability

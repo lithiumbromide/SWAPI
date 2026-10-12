@@ -75,13 +75,7 @@ System.bool InsertWeldTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,15 +84,9 @@ See
 - `CombineSameType`: True to group welds having the same weld symbol and weld size, false to not
 - `X`: X coordinate in meters for the placement of the weld table; valid only if UseAnchorPoint = False
 - `Y`: Y coordinate in meters for the placement of the weld table; valid only if UseAnchorPoint = False
-- `AnchorType`: Anchor type as defined by
-
-[swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
+- `AnchorType`: Anchor type as defined by [swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
 - `Configuration`: Name of the part configuration for which to insert the weld table
-- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see
-
-Remarks
-
-)
+- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see Remarks)
 
 ### Return Value
 
@@ -106,46 +94,21 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[View::InsertWeldTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertWeldTable.html)
-
-.
+See [View::InsertWeldTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertWeldTable.html).
 
 ## Examples
 
 [Insert Weld Table (VBA)](Insert_Weld_Table_Example_VB.htm)
-
 [Insert Weld Table (VB.NET)](Insert_Weld_Table_Example_VBNET.htm)
-
 [Insert Weld Table (C#)](Insert_Weld_Table_Example_CSharp.htm)
 
 ## Remarks
 
-The weld table template installed with SOLIDWORKS is <
-
-SOLIDWORKS_
-
-install_dir
-
->\
-
-lang
-
-\<
-
-language
-
->\
-
-weldtable-standard.sldwldtbt
-
-.
+The weld table template installed with SOLIDWORKS is <`SOLIDWORKS_`install_dir>\lang\<language>\**weldtable-standard.sldwldtbt**.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

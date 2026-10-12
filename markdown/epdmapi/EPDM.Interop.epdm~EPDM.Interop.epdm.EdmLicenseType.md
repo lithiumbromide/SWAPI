@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicenseType.html"
 
 # EdmLicenseType Enumeration
 
-Types of license types, which are used in struct
-
-[EdmLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html)
-
-.
+Types of license types, which are used in struct [EdmLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html).
 
 ## Syntax
 

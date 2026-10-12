@@ -40,13 +40,7 @@ System.int GetFeatureScopeBodiesCount()
 System.int GetFeatureScopeBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ Number of solid bodies affected
 
 ## VBA Syntax
 
-See
-
-[MirrorPatternFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/Sldworks~MirrorPatternFeatureData~GetFeatureScopeBodiesCount.html)
-
-.
+See [MirrorPatternFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/Sldworks~MirrorPatternFeatureData~GetFeatureScopeBodiesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IMirrorPatternFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPatternFeatureData~IGetFeatureScopeBodies.html)
-
-to get the size of the array for that method.
+Call this method before calling [IMirrorPatternFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPatternFeatureData~IGetFeatureScopeBodies.html) to get the size of the array for that method.
 
 ## See Also
 
 [IMirrorPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData.html)
-
 [IMirrorPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData_members.html)
-
 [IMirrorPatternFeatureData::ISetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~ISetFeatureScopeBodies.html)
-
 [IMirrorPatternFeatureData::FeatureScope Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScope.html)
-
 [IMirrorPatternFeatureData::FeatureScopeBodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html)
 
 ## Availability

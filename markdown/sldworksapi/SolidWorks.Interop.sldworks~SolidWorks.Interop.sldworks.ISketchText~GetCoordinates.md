@@ -40,13 +40,7 @@ System.object GetCoordinates()
 System.Object^ GetCoordinates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Array of 3 double values, the x,y,z coordinate of the sketch text
 
 ## VBA Syntax
 
-See
-
-[SketchText::GetCoordinates](ms-its:sldworksapivb6.chm::/sldworks~SketchText~GetCoordinates.html)
-
-.
+See [SketchText::GetCoordinates](ms-its:sldworksapivb6.chm::/sldworks~SketchText~GetCoordinates.html).
 
 ## Examples
 
-See the
-
-[ISketchText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
-examples.
+See the [ISketchText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html) examples.
 
 ## Remarks
 
-To set the position of this sketch text, use[ISketchText::SetCoordinates](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~IGetCoordinates.html).
+To set the position of this sketch text, use [ISketchText::SetCoordinates](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchText~IGetCoordinates.html).
 
 ## See Also
 
 [ISketchText Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
 [ISketchText Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText_members.html)
-
 [ISketchText::IGetCoordinates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText~IGetCoordinates.html)
 
 ## Availability

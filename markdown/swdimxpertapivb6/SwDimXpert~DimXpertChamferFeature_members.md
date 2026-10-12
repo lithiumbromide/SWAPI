@@ -1,6 +1,5 @@
 ---
-title: "DimXpertChamferFeature Object
-Members"
+title: "DimXpertChamferFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertChamferFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertChamferFeature_members.html"
 ---
 
-# DimXpertChamferFeature Object
-Members
+# DimXpertChamferFeature Object Members
 
 ## Public Properties
 

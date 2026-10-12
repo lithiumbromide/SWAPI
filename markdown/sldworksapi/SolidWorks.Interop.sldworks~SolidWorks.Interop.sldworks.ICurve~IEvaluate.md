@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IEvaluate Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~Evaluate2.html)
-
-.
+Obsolete. Superseded by [ICurve::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~Evaluate2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IEvaluate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +55,24 @@ See
 
 ### Return Value
 
-Pointer to an array of doubles (see**Remarks**)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::IEvaluate](ms-its:sldworksapivb6.chm::/sldworks~Curve~IEvaluate.html)
-
-.
+See [Curve::IEvaluate](ms-its:sldworksapivb6.chm::/sldworks~Curve~IEvaluate.html).
 
 ## Remarks
 
-To determine a valid parameter range, use[ICurve::GetEndParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetEndParams.html)or[IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html)or[IEdge::IGetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetCurveParams2.html).
+To determine a valid parameter range, use [ICurve::GetEndParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetEndParams.html) or [IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html) or [IEdge::IGetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetCurveParams2.html).
 
 The OLE Automation return value is an array of doubles with the following format:
 
-[PointX, PointY, PointZ, TangentX, TangentY, TangentZ, Success]
+[ PointX, PointY, PointZ, TangentX, TangentY, TangentZ, Success ]
 
 where:
 
-- PointX,PointY,andPointZrepresent the 3D point in space for the given parameter
-- TangentX,TangentY,andTangentZrepresent the tangent vector at the point
+- PointX, PointY, and PointZ represent the 3D point in space for the given parameter
+- TangentX, TangentY, and TangentZ represent the tangent vector at the point
 - True if the operation is successful
 
 The COM return value is an array of 6 doubles representing the point and tangent. The success value is determined from the HRESULT return.
@@ -96,5 +82,4 @@ This method returns values in meters.
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)

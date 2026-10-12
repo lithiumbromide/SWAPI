@@ -46,13 +46,7 @@ void AutoAngleAxis(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,16 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AutoAngleAxis](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AutoAngleAxis.html)
-
-.
+See [AssemblyDoc::AutoAngleAxis](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AutoAngleAxis.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

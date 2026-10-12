@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_ActivateSheetPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,23 +51,17 @@ See
 
 ## VBA Syntax
 
-See[ActivateSheetPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ActivateSheetPreNotify_EV.html).
+See [ActivateSheetPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ActivateSheetPreNotify_EV.html).
 
 ## Examples
 
 [Fire Notification When Activating a Sheet (VBA)](Fire_Notification_When_Sheet_is_Activated_Example_VB.htm)
-
 [Fire Notification When Activating a Sheet (VB.NET)](Fire_Notification_When_Sheet_Is_Activated_Example_VBNET.htm)
-
 [Fire Notification When Activating a Sheet (C#)](Fire_Notification_When_Sheet_Is_Activated_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swDrawingActivateSheetPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingActivateSheetPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

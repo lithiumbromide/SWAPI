@@ -50,71 +50,36 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntityType`: Type of cam entity to mate as defined in
-
-[swCamMateEntityType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCamMateEntityType_e.html)
-
-(see
-
-Remarks
-
-)
+- `EntityType`: Type of cam entity to mate as defined in [swCamMateEntityType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCamMateEntityType_e.html) (see **Remarks**)
 
 ### Property Value
 
-Array of entities to mate (see
-
-Remarks
-
-)
+Array of entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CamFollowerMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~CamFollowerMateFeatureData~EntitiesToMate.html)
-
-.
+See [CamFollowerMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~CamFollowerMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[ICamFollowerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html)
-
-example.
+See the [ICamFollowerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html) example.
 
 ## Remarks
 
 Use this property with EntityType set to swCamMateEntityType_e.:
 
-- CamPath, to get or set the cam
+- CamPath, to get or set the cam [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) to mate.
+- CamFollower, to get or set the cam-follower face or [vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html) to mate.
 
-  [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-  to mate.
-- CamFollower, to get or set the cam-follower face or
-
-  [vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-  to mate.
-
-Instead of specifying this property, you can use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the entities to mate using Mark = 1 for the cam face and Mark = 8 for the cam follower face or vertex. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1 for the cam face and Mark = 8 for the cam follower face or vertex. You can pre-select mate entities during mate creation, but not during mate editing.
 
 ## See Also
 
 [ICamFollowerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html)
-
 [ICamFollowerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData_members.html)
 
 ## Availability

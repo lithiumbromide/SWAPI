@@ -9,8 +9,7 @@ source: "sldworksapi/Process_Body_Example_VBNET.htm"
 
 # Process Body Example (VB.NET)
 
-This example shows how create to a new part with an imported body from
-the processed body of the original part.
+This example shows how create to a new part with an imported body from the processed body of the original part.
 
 ```
 '------------------------------------------------

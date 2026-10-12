@@ -9,170 +9,37 @@ source: "swconst/DP_DimXpert-SizeDimension.htm"
 
 # Document Properties > DimXpert > Size Dimension
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDiameterTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDiameterTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for
-bosses, cylinders, counterbore holes, countersink holes, and simple holes |
-| Diameter - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDiameterTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDiameterTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-the diameters of bosses, cylinders, counterbore holes, countersink holes, and
-simple holes |
-| Diameter - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDiameterTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDiameterTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-the diameters of bosses, cylinders, counterbore holes, countersink holes, and
-simple holes |
-| Diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeDiameterBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeDiameterBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-the diameters of bosses, cylinders, counterbore holes, countersink holes, and
-simple holes |
-| Counterbore diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCounterboreDiameterTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCounterboreDiameterTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for
-the counterbore portion of counterbore holes |
-| Counterbore diameter - Bilateral or
-Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCounterboreDiameterTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpert CounterboreDiameter TolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-the counterbore portion of counterbore holes |
-| Counterbore diameter - Bilateral
-tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCounterboreDiameterTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCounterboreDiameterTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-the counterbore portion of counterbore holes |
-| Counterbore diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCounterboreDiameterBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCounterboreDiameterBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-the counterbore portion of counterbore holes |
-| Countersink diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCountersinkDiameterTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCountersinkDiameterTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for
-countersinks |
-| Countersink diameter - Bilateral or
-Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkDiameterTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkDiameterTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-countersink diameters |
-| Countersink diameter - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkDiameterTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkDiameterTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-countersink diameters |
-| Countersink diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCountersinkDiameterBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCountersinkDiameterBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-countersink diameters |
-| Countersink angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCountersinkAngleTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCountersinkAngleTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for
-countersink angles |
-| Countersink angle - Bilateral or
-Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkAngleTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkAngleTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-countersink angles |
-| Countersink angle - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkAngleTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkAngleTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-countersink angles |
-| Countersink angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCountersinkAngleBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCountersinkAngleBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-countersink angles |
-| Length - slot/notch - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthSlotTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthSlotTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for the
-lengths of slots/notches |
-| Length - slot/notch - Bilateral or
-Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthSlotTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthSlotTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-the lengths of slots/notches |
-| Length - slot/notch - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthSlotTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthSlotTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-the lengths of slots/notches |
-| Length - slot/notch - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeLengthSlotBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeLengthSlotBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-the lengths of slots/notches |
-| Width - slot/notch/width - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertWidthSlotTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertWidthSlotTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for the
-widths of slots/notches |
-| Width - slot/notch/width - Bilateral
-or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertWidthSlotTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertWidthSlotTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-the widths of slots/notches |
-| Width - slot/notch/width - Bilateral
-tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertWidthSlotTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertWidthSlotTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-the widths of slots/notches |
-| Width - slot/notch/width - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeWidthSlotBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeWidthSlotBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | S ets the block precision tolerance of
-the widths of slots/notches |
-| Depth - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDepthTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDepthTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the depth tolerance type for
-counterbores, counterbore holes, countersinks, notches, pockets, simple holes,
-and slots |
-| Depth - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDepthTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDepthTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance of
-the depths of counterbores, counterbore holes, countersinks, notches, pockets,
-simple holes, and slots |
-| Depth - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDepthTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDepthTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of
-the depths of counterbores, counterbore holes, countersinks, notches, pockets,
-simple holes, and slots |
-| Depth - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeDepthBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeDepthBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of
-the depths of counterbores, counterbore holes, countersinks, notches, pockets,
-simple holes, and slots |
-| Fillet radius - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertFilletRadiusTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertFilletRadiusTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the fillet radius tolerance
-type |
-| Fillet radius - Bilateral or
-Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertFilletRadiusTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertFilletRadiusTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for
-fillet radii |
-| Fillet radius - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertFilletRadiusTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertFilletRadiusTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for
-fillet radii |
-| Fillet radius - Block precision tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeFilletRadiusBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeFilletRadiusBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for
-fillet radii |
-
-(Table)=========================================================
+| Diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDiameterTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDiameterTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for bosses, cylinders, counterbore holes, countersink holes, and simple holes |
+| Diameter - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDiameterTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDiameterTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of the diameters of bosses, cylinders, counterbore holes, countersink holes, and simple holes |
+| Diameter - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDiameterTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDiameterTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of the diameters of bosses, cylinders, counterbore holes, countersink holes, and simple holes |
+| Diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeDiameterBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeDiameterBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of the diameters of bosses, cylinders, counterbore holes, countersink holes, and simple holes |
+| Counterbore diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCounterboreDiameterTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCounterboreDiameterTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for the counterbore portion of counterbore holes |
+| Counterbore diameter - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCounterboreDiameterTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpert CounterboreDiameter TolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of the counterbore portion of counterbore holes |
+| Counterbore diameter - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCounterboreDiameterTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCounterboreDiameterTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of the counterbore portion of counterbore holes |
+| Counterbore diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCounterboreDiameterBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCounterboreDiameterBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of the counterbore portion of counterbore holes |
+| Countersink diameter - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCountersinkDiameterTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCountersinkDiameterTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the diameter tolerance type for countersinks |
+| Countersink diameter - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkDiameterTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkDiameterTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of countersink diameters |
+| Countersink diameter - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkDiameterTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkDiameterTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of countersink diameters |
+| Countersink diameter - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCountersinkDiameterBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCountersinkDiameterBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of countersink diameters |
+| Countersink angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertCountersinkAngleTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertCountersinkAngleTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for countersink angles |
+| Countersink angle - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkAngleTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkAngleTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of countersink angles |
+| Countersink angle - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertCountersinkAngleTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertCountersinkAngleTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of countersink angles |
+| Countersink angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeCountersinkAngleBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeCountersinkAngleBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of countersink angles |
+| Length - slot/notch - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthSlotTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthSlotTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for the lengths of slots/notches |
+| Length - slot/notch - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthSlotTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthSlotTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of the lengths of slots/notches |
+| Length - slot/notch - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthSlotTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthSlotTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of the lengths of slots/notches |
+| Length - slot/notch - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeLengthSlotBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeLengthSlotBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of the lengths of slots/notches |
+| Width - slot/notch/width - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertWidthSlotTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertWidthSlotTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for the widths of slots/notches |
+| Width - slot/notch/width - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertWidthSlotTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertWidthSlotTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of the widths of slots/notches |
+| Width - slot/notch/width - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertWidthSlotTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertWidthSlotTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of the widths of slots/notches |
+| Width - slot/notch/width - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeWidthSlotBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeWidthSlotBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | S ets the block precision tolerance of the widths of slots/notches |
+| Depth - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDepthTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDepthTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the depth tolerance type for counterbores, counterbore holes, countersinks, notches, pockets, simple holes, and slots |
+| Depth - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDepthTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDepthTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance of the depths of counterbores, counterbore holes, countersinks, notches, pockets, simple holes, and slots |
+| Depth - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertDepthTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertDepthTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance of the depths of counterbores, counterbore holes, countersinks, notches, pockets, simple holes, and slots |
+| Depth - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertSizeDepthBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeDepthBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance of the depths of counterbores, counterbore holes, countersinks, notches, pockets, simple holes, and slots |
+| Fillet radius - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertFilletRadiusTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertFilletRadiusTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the fillet radius tolerance type |
+| Fillet radius - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertFilletRadiusTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertFilletRadiusTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for fillet radii |
+| Fillet radius - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertFilletRadiusTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertFilletRadiusTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for fillet radii |
+| Fillet radius - Block precision tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeFilletRadiusBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertSizeFilletRadiusBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for fillet radii |

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # ISldWorks Interface Members
 
-The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html).
+The following tables list the members exposed by [ISldWorks](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html).
 
 ## Public Properties
 
@@ -28,12 +28,13 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Property | FrameWidth | Gets or sets the width of the frame of the SOLIDWORKS window. |
 | Property | IActiveDoc | Obsolete. Superseded by ISldWorks::IActiveDoc2 . |
 | Property | IActiveDoc2 | Gets the currently active document. |
+| Property | ShadedEdgeThickness | Gets or sets the edge thickness when the display style is "Shaded with Edges". |
 | Property | StartupProcessCompleted | Gets whether the SOLIDWORKS startup process, including loading all startup add-ins, has completed. |
 | Property | TaskPaneIsPinned | Gets or sets whether the SOLIDWORKS Task Pane is pinned. |
 | Property | UserControl | Gets and sets whether the user has control over the application. |
 | Property | UserControlBackground | Gets and sets whether the user has control over the application. |
 | Property | UserTypeLibReferences | Gets and sets the user-specified type library references. |
-| Property | Visible | Gets and sets the visibility property of the SOLIDWORKS application. |
+| Property | Visible | Gets and sets the visibility property of the SOLIDWORKS Design application. |
 
 [Top](#topBookmark)
 
@@ -58,7 +59,7 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | AddMenuItem2 | Obsolete. Superseded by ISldWorks::AddMenuItem3 . |
 | Method | AddMenuItem3 | Obsolete. Superseded by ISldWorks::AddMenuItem4 . |
 | Method | AddMenuItem4 | Obsolete. Superseded by ISldWorks::AddMenuItem5 . |
-| Method | AddMenuItem5 | Adds a menu item and image to the SOLIDWORKS user interface. |
+| Method | AddMenuItem5 | Adds a menu item and image to the SOLIDWORKS Design user interface. |
 | Method | AddMenuPopupItem | Obsol ete. Superseded by ISldWorks::AddMenuPopupItem2 . |
 | Method | AddMenuPopupItem2 | Obsolete. Superseded by ISldWorks::AddMenuPopupItem3 and ISldWorks::AddMenuPopupItem4 . |
 | Method | AddMenuPopupItem3 | Adds a menu item and zero or more submenus to shortcut menus of entities of the specified type in documents of the specified type. |
@@ -75,8 +76,8 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | ArrangeWindows | Arranges the open windows in SOLIDWORKS. |
 | Method | BlockSkinning | Blocks skinning a window, which prevents a window from looking like a SOLIDWORKS window. |
 | Method | CallBack | Allows an out-of-process executable or a SOLIDWORKS macro to call back a function in a SOLIDWORKS add-in DLL. |
-| Method | CheckpointConvertedDocument | Saves the specified open document if its version is older than the version of the SOLIDWORKS product being used. |
-| Method | CloseAllDocuments | Closes all open documents in the SOLIDWORKS session. |
+| Method | CheckpointConvertedDocument | Saves the specified open document if its version is older than the version of the SOLIDWORKS Design product being used. |
+| Method | CloseAllDocuments | Closes all open documents in the SOLIDWORKS Design session. |
 | Method | CloseAndReopen | Closes and reopens the specified drawing document without unloading its references from memory. |
 | Method | CloseAndReopen2 | Closes and reopens the specified drawing document without unloading its references from memory. |
 | Method | CloseDoc | Closes the specified document. |
@@ -95,52 +96,52 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | DefineUserNotification | Called by a SOLIDWORKS add-in, creates a user notification definition object. |
 | Method | DisplayStatusBar | Sets whether to display the status bar. |
 | Method | DocumentVisible | Allows the application to control the display of a document in a window upon creation or retrieval. |
-| Method | DownloadFromMySolidWorksSettings | Downloads the specified SOLIDWORKS Connected settings to SOLIDWORKS Desktop. |
+| Method | DownloadFromMySolidWorksSettings | Downloads the specified SOLIDWORKS Design connected to the 3DEXPERIENCE platform settings to SOLIDWORKS Design. |
 | Method | DragToolbarButton | Copies the specified toolbar button from the specified native SOLIDWORKS toolbar or ICommandGroup toolbar to the specified native SOLIDWORKS toolbar or ICommandGroup toolbar. |
 | Method | DragToolbarButtonFromCommandID | Copies a button to a toolbar using a command ID. |
 | Method | EnablePhotoWorksProgressiveRender | Obsolete. Not superseded. |
 | Method | EnableStereoDisplay | Obsolete and not superseded. Functionality no longer implemented. |
 | Method | EnumDocuments | Obsolete. Superseded by ISldWorks::EnumDocuments2 . |
 | Method | EnumDocuments2 | Gets a list of documents currently open in the application. |
-| Method | ExitApp | Shuts down SOLIDWORKS. |
+| Method | ExitApp | Shuts down SOLIDWORKS Design. |
 | Method | ExportHoleWizardItem | Exports data for the specified Hole Wizard standard. |
 | Method | ExportToolboxItem | Exports data for the specified Toolbox standard. |
 | Method | Frame | Gets the SOLIDWORKS main frame. |
-| Method | Get3DExperienceState | Gets the current state of SOLIDWORKS Connected . |
+| Method | Get3DExperienceState | Gets the current state of SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | GetActiveConfigurationName | Gets the name of the active configuration in the specified SOLIDWORKS document. |
 | Method | GetActiveDisplayPane | Gets the active Display Pane. |
 | Method | GetAddInObject | Gets an add-in object for the specified SOLIDWORKS add-in. |
 | Method | GetApplySelectionFilter | Gets the current state of the selection filter. |
 | Method | GetBatchUploadedFilesInfo | Gets the files uploaded to 3DEXPERIENCE during a batch process. |
 | Method | GetBuildNumbers | Obsolete. Superseded by ISldWorks::GetBuildNumbers2 . |
-| Method | GetBuildNumbers2 | Gets the build, major revision, and hot fix numbers of the SOLIDWORKS application. |
+| Method | GetBuildNumbers2 | Gets the build, major revision, and hot fix numbers of the SOLIDWORKS Design application. |
 | Method | GetButtonPosition | Gets the center coordinates of the specified SOLIDWORKS toolbar button. |
 | Method | GetCollisionDetectionManager | Gets the collision detection manager. |
-| Method | GetColorTable | Gets a color table from the SOLIDWORKS application. |
+| Method | GetColorTable | Gets a color table from the SOLIDWORKS Design application. |
 | Method | GetCommandID | Gets the SOLIDWORKS command ID for an instance of an add-in's control (e.g., an add-in's toolbar button). |
 | Method | GetCommandManager | Gets the CommandManager for the specified add-in. |
 | Method | GetConfigurationCount | Gets the number of configurations in the SOLIDWORKS document, whether the document is opened or closed. |
-| Method | GetConfigurationNames | Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed. |
+| Method | GetConfigurationNames | Gets the names of the configuration in this SOLIDWORKS Design document, whether the document is opened or closed. |
 | Method | GetCurrentFileUser | Gets the name of the user who has the the specified document open. |
-| Method | GetCurrentLanguage | Gets the current language used by SOLIDWORKS. |
-| Method | GetCurrentLicenseType | Gets the type of license for the current SOLIDWORKS session. |
+| Method | GetCurrentLanguage | Gets the current language used by SOLIDWORKS Design. |
+| Method | GetCurrentLicenseType | Gets the type of license for the current SOLIDWORKS Design session. |
 | Method | GetCurrentMacroPathFolder | Gets the name of the folder where the macro resides. |
 | Method | GetCurrentMacroPathName | Gets the path name for the macro currently running. |
-| Method | GetCurrentWorkingDirectory | Gets the current working directory being used by the SOLIDWORKS application. |
-| Method | GetDataFolder | Gets the data directory name currently used by SOLIDWORKS. |
-| Method | GetDocumentCount | Gets the number of open documents in the current SOLIDWORKS session. |
+| Method | GetCurrentWorkingDirectory | Gets the current working directory being used by the SOLIDWORKS Design application. |
+| Method | GetDataFolder | Gets the data directory name currently used by SOLIDWORKS Design. |
+| Method | GetDocumentCount | Gets the number of open documents in the current SOLIDWORKS Design session. |
 | Method | GetDocumentDependencies | Obsolete. Superseded by ISldWorks::GetDocumentDependencies2 . |
 | Method | GetDocumentDependencies2 | Gets all of the model dependencies for a document. |
 | Method | GetDocumentDependenciesCount | Obsolete. Superseded by ISldWorks::IGetDocumentDependenciesCount2 . |
-| Method | GetDocuments | Gets the open documents in this SOLIDWORKS session. |
+| Method | GetDocuments | Gets the open documents in this SOLIDWORKS Design session. |
 | Method | GetDocumentTemplate | Gets the name of document template that can be used in ISldWorks::NewDocument or ISldWorks::INewDocument2 . |
 | Method | GetDocumentVisible | Gets the visibility of the document to open. |
 | Method | GetEnvironment | Gets the IEnvironment object. |
-| Method | GetErrorMessages | Gets the last 20 messages issued by SOLIDWORKS in the current SOLIDWORKS session. |
-| Method | GetExecutablePath | Gets the path to the SOLIDWORKS executable, sldworks.exe . |
+| Method | GetErrorMessages | Gets the last 20 messages issued in the current SOLIDWORKS Design session. |
+| Method | GetExecutablePath | Gets the path to the SOLIDWORKS Design executable, sldworks.exe . |
 | Method | GetExportFileData | Gets the data interface for the specified file type to which to export one or more drawing sheets. |
 | Method | GetFilePLMID | Gets the Product Lifecycle Management (PLM) ID of the specified file stored in 3DEXPERIENCE. |
-| Method | GetFirstDocument | Gets the document opened first in this SOLIDWORKS session. |
+| Method | GetFirstDocument | Gets the document opened first in this SOLIDWORKS Design session. |
 | Method | GetGtolFormatData | Gets the Gtol format and XML schema versions supported by this version of SOLIDWORKS. |
 | Method | GetGtolFrameXMLSchema | Gets the XML schema for Gtol frame symbol XML. |
 | Method | GetHoleStandardsData | Gets the hole standards for the specified hole type. |
@@ -170,13 +171,13 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | GetOpenFileName2 | Prompts the user for the name of the file to open. |
 | Method | GetPreviewBitmap | Gets the preview bitmap (.bmp) for the specified configuration, regardless if the SOLIDWORKS document is open or closed. |
 | Method | GetPreviewBitmapFile | Gets the specified preview bitmap of a document and saves it as a Windows bitmap file (.bmp) using the specified filename. |
-| Method | GetProcessID | Gets the process ID for the current SOLIDWORKS session. |
+| Method | GetProcessID | Gets the process ID for the current SOLIDWORKS Design session. |
 | Method | GetRayTraceRenderer | Get a ray-trace rendering engine. |
 | Method | GetRecentFiles | Gets a list of the most recently used files. |
 | Method | GetRoutingSettings | Gets routing settings. |
 | Method | GetRunningCommandInfo | Get a command's ID or PropertyManager page's command ID, title, and whether it is active in the user-interface. |
 | Method | GetSafeArrayUtility | Gets the ISafeArrayUtility object. |
-| Method | GetSaveTo3DExperienceOptions | Initializes save options for a SOLIDWORKS Connected document. |
+| Method | GetSaveTo3DExperienceOptions | Initializes save options for a SOLIDWORKS Design connected to the 3DEXPERIENCE platform document. |
 | Method | GetSearchFolders | Gets the current folder search path as shown in Tools > Options > System Options > File Locations > Show folders for > Referenced Documents . |
 | Method | GetSelectionFilter | Gets the current selection filter settings for the specified item type. |
 | Method | GetSelectionFilters | Gets all active selection filters. |
@@ -205,15 +206,15 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | ICreatePropertyManagerPage | Creates a PropertyManager page. |
 | Method | IDefineAttribute | Creates an attribute definition, which is the first step in generating attributes. |
 | Method | IEnableStereoDisplay | Obsolete and not superseded. Functionality no longer implemented. |
-| Method | IGetColorTable | Gets a color table from the SOLIDWORKS application. |
+| Method | IGetColorTable | Gets a color table from the SOLIDWORKS Design application. |
 | Method | IGetConfigurationNames | Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed. |
 | Method | IGetDocumentDependencies | Obsolete. Superseded by ISldWorks::IGetDocumentDependencies2 . |
 | Method | IGetDocumentDependencies2 | Gets all of the model dependencies for a document. |
 | Method | IGetDocumentDependenciesCount2 | Gets the size of the array needed for a call to ISldWorks::IGetDocumetnDependencies2 . |
-| Method | IGetDocuments | Gets the open documents is this SOLIDWORKS session. |
+| Method | IGetDocuments | Gets the open documents is this SOLIDWORKS Design session. |
 | Method | IGetEnvironment | Gets the IEnvironment object. |
 | Method | IGetFirstDocument | Obsolete. Superseded by ISldWorks::IGetFirstDocument2 . |
-| Method | IGetFirstDocument2 | Gets the document opened first in this SOLIDWORKS session. |
+| Method | IGetFirstDocument2 | Gets the document opened first in this SOLIDWORKS Design session. |
 | Method | IGetMassProperties | Obsolete. Superseded by ISldWorks::GetMassProperties2 and ISldWorks::IGetMassProperties2 . |
 | Method | IGetMassProperties2 | Gets the mass properties from the specified document for the specified configuration. |
 | Method | IGetMaterialDatabases | Gets the names of the material databases. |
@@ -255,7 +256,7 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | IsTaskPaneVisible | Gets whether the Task Pane is visible. |
 | Method | IVersionHistory | Gets a list of strings indicating the versions in which a model was saved. |
 | Method | LoadAddIn | Loads the specified add-in in SOLIDWORKS. |
-| Method | LoadAdminSettingsFile | Loads the specified *.sldsettings file into SOLIDWORKS Connected . |
+| Method | LoadAdminSettingsFile | Loads the specified *.sldsettings file into SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | LoadFile | Obsolete. Superseded by ISldWorks::LoadFile4 . |
 | Method | LoadFile2 | Obsolete. Superseded by ISldWorks::LoadFile4 . |
 | Method | LoadFile3 | Obsolete. Superseded by ISldWorks::LoadFile4 . |
@@ -274,17 +275,17 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | OpenDoc7 | Opens an existing document and returns a pointer to the document object. |
 | Method | OpenDocSilent | Obsolete. Superseded by ISldWorks::OpenDoc6 . |
 | Method | PasteAppearance | Applies to the specified entity an appearance that has been copied to the clipboard. |
-| Method | PostMessageToApplication | Posts a message to the application that invoked this method. |
+| Method | PostMessageToApplication | Obsolete. Superseded by ISldWorks::PostMessageToApplicationx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Posts a message to the application that invoked this method. |
 | Method | PostMessageToApplicationx64 | Posts a message to the application that invoked this method in 64-bit applications. |
 | Method | PreSelectDwgTemplateSize | Establishes which template to use when creating a drawing. |
 | Method | PresetNewDrawingParameters | Presets the drawing template and sheet size parameters to avoid showing the Sheet Format/Size dialog when creating a new drawing document in the user-interface. |
-| Method | PreviewDoc | Displays a preview of a document to the specified window. |
+| Method | PreviewDoc | Obsolete. Superseded by ISldWorks::PreviewDocx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Displays a preview of a document to the specified window. |
 | Method | PreviewDocx64 | Displays a preview of a document to the specified window in 64-bit applications. |
 | Method | QuitDoc | Closes the specified document without saving changes. |
 | Method | RecordLine | Adds a line of code to a VBA macro and the SOLIDWORKS journal file. |
 | Method | RecordLineCSharp | Adds a line of code to a C# macro and the SOLIDWORKS journal file. |
 | Method | RecordLineVBnet | Adds a line of code to a VB.NET macro and the SOLIDWORKS journal file. |
-| Method | RefreshQuickTipWindow | Tells the SOLIDWORKS application that your add-in's state has changed and triggers a query for the current URL page. |
+| Method | RefreshQuickTipWindow | Tells the SOLIDWORKS Design application that your add-in's state has changed and triggers a query for the current URL page. |
 | Method | RefreshTaskpaneContent | Refreshes the view of the Design Library tab in the Task Pane. |
 | Method | RegisterThirdPartyPopupMenu | Registers a third-party pop-up (shortcut) menu. |
 | Method | RegisterTrackingDefinition | Registers a tracking definition. |
@@ -308,7 +309,7 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | ResetUntitledCount | Resets the index of untitled documents. |
 | Method | RestoreSettings | Restores the specified SOLIDWORKS settings from the specified *.sldreg file. |
 | Method | ResumeSkinning | Resumes skinning windows. |
-| Method | RevisionNumber | Gets the version number of this SOLIDWORKS installation. |
+| Method | RevisionNumber | Gets the version number of this SOLIDWORKS Design installation. |
 | Method | RunAttachedMacro | Runs the specified attached macro, module, and procedure. |
 | Method | RunBatchSaveProcess | Batch saves files to 3DEXPERIENCE. |
 | Method | RunCommand | Runs the specified SOLIDWORKS command. |
@@ -352,7 +353,7 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 | Method | SolidWorksExplorer | Starts SOLIDWORKS Explorer. |
 | Method | UnInstallQuickTipGuide | Uninstalls your add-in's Quick Tips |
 | Method | UnloadAddIn | Unloads the specified add-in from SOLIDWORKS. |
-| Method | UploadToMySolidWorksSettings | Uploads the specified SOLIDWORKS Desktop settings to SOLIDWORKS Connected . |
+| Method | UploadToMySolidWorksSettings | Uploads the specified SOLIDWORKS Design settings to SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | VersionHistory | Gets a list of strings indicating the versions in which a model was saved. |
 
 [Top](#topBookmark)
@@ -360,15 +361,9 @@ The following tables list the members exposed by[ISldWorks](SolidWorks.Interop.s
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)

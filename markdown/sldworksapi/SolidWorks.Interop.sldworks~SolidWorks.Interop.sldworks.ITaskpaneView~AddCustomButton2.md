@@ -51,21 +51,11 @@ System.bool AddCustomButton2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ImageList`: Array of strings for the paths for the image files for the custom button (see
-
-Remarks
-
-)
+- `ImageList`: Array of strings for the paths for the image files for the custom button (see **Remarks**)
 - `ToolTip`: ToolTip for the custom button
 
 ### Return Value
@@ -74,11 +64,7 @@ True if the custom button is added to the Task Pane, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::AddCustomButton2](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~AddCustomButton2.html)
-
-.
+See [TaskpaneView::AddCustomButton2](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~AddCustomButton2.html).
 
 ## Remarks
 
@@ -101,52 +87,22 @@ For example, if running Windows 7:
 
 1. To set your monitor's or laptop's screen resolution:
 
-  1. Click
-
-    Start > Control Panel > Appearance and Personalization > Display
-
-    .
+  1. Click **Start > Control Panel > Appearance and Personalization > Display**.
   2. Select a different icon size.
-  3. Click
-
-    Apply
-
-    .
-  4. Click
-
-    Log off now
-
-    .
+  3. Click **Apply**.
+  4. Click **Log off now**.
 2. Log back in.
 3. Start SOLIDWORKS and open a part, assembly, or drawing.
-4. Click
-
-  Tools > Customize
-
-  and on the Toolbars tab, click the
-
-  Icon size
-
-  that matches the size that you set in step 1b and click
-
-  OK
-
-  two twice.
+4. Click **Tools > Customize** and on the Toolbars tab, click the **Icon size** that matches the size that you set in step 1b and click **OK** two twice.
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
-
 [ITaskpaneView::AddStandardButton Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~AddStandardButton.html)
-
 [ITaskpaneView::GetButtonState Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetButtonState.html)
-
 [ITaskpaneView::SetButtonState Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~SetButtonState.html)
-
 [DTaskpaneViewEvents_TaskPaneToolbarButtonClickedEventHandler Delegate (ITaskpaneView)](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DTaskpaneViewEvents_TaskPaneToolbarButtonClickedEventHandler.html)
-
 [ISldWorks::GetImageSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.html)
 
 ## Availability

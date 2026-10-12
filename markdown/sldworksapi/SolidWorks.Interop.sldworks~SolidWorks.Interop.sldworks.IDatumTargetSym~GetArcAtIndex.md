@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,21 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetArcAtIndex.html)
-
-.
+See [DatumTargetSym::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetArcAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[lineType,startPt[3],endPt[3],centerPt[3],rotationDir]
+[ lineType, startPt[3], endPt[3], centerPt[3], rotationDir ]
 
 where:
 
@@ -89,9 +79,6 @@ where:
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetArcCount.html)
-
 [IDatumTargetSym::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~IGetArcAtIndex.html)

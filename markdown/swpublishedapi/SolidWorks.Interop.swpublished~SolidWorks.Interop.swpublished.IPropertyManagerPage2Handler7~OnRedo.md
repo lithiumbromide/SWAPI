@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnRedo Method (IPropertyManagerPage2Handler7)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler8::OnRedo](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnRedo.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler8::OnRedo](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnRedo.html).
 
 ## Syntax
 
@@ -45,24 +41,15 @@ void OnRedo();
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler7::OnRedo](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnRedo.html)
-
-.
+See [PropertyManagerPage2Handler7::OnRedo](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnRedo.html).
 
 ## Remarks
 
-You control the Redo button using
-
-[IPropertyManagerPage2::EnableButton](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~EnableButton.html)
-
-and specifying swPropertyManagerPageButton_Redo for WhichOne.
+You control the Redo button using [IPropertyManagerPage2::EnableButton](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~EnableButton.html) and specifying swPropertyManagerPageButton_Redo for WhichOne.
 
 ## See Also
 
 [IPropertyManagerPage2Handler7 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7.html)
-
 [IPropertyManagerPage2Handler7 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7_members.html)
 
 ## Availability

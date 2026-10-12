@@ -42,9 +42,7 @@ System.bool ConfirmReplace(
 
 ### Parameters
 
-- `eReason`: Reason for calling this method as defined in
-
-[EdmGetConfirmReason](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetConfirmReason.html)
+- `eReason`: Reason for calling this method as defined in [EdmGetConfirmReason](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetConfirmReason.html)
 - `bsPath`: Full path to the local file
 
 ### Return Value
@@ -61,7 +59,6 @@ True to replace an existing file, false to leave an existing file
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [IEdmGetOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.html)
 
 ## Availability

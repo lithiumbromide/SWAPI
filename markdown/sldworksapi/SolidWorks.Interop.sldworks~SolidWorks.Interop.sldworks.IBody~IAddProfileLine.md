@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IAddProfileLine Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::IAddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLine.html)
-
-.
+Obsolete. Superseded by [IBody2::IAddProfileLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddProfileLine.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Curve^ IAddProfileLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::IAddProfileLine](ms-its:sldworksapivb6.chm::/sldworks~Body~IAddProfileLine.html)
-
-.
+See [Body::IAddProfileLine](ms-its:sldworksapivb6.chm::/sldworks~Body~IAddProfileLine.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

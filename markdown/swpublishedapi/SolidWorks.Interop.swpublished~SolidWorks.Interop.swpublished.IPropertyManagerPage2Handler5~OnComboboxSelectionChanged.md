@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnComboboxSelectionChanged Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::OnComboboxSelectionChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnComboboxSelectionChanged.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::OnComboboxSelectionChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnComboboxSelectionChanged.html).
 
 ## Syntax
 
@@ -61,24 +57,19 @@ void OnComboboxSelectionChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::OnComboboxSelectionChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnComboboxSelectionChanged.html)
-
-.
+See [PropertyManagerPage2Handler5::OnComboboxSelectionChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnComboboxSelectionChanged.html).
 
 ## Remarks
 
-If the user can edit the text in the text box, then use this method with[IPropertyManagerPage2Handler5::OnComboxEditChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnComboboxEditChanged.html)tokadov_tag{{<spaces>}}kadov_tag{{</spaces>}}find out what is in the text box of the combo box.
+If the user can edit the text in the text box, then use this method with [IPropertyManagerPage2Handler5::OnComboxEditChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnComboboxEditChanged.html) to find out what is in the text box of the combo box.
 
-When this method is called, the control may not yet be updated with the current selection, so the[IPropertyManagerPageCombobox::CurrentSelection](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~CurrentSelection.html)property is not reliable. To get the current text, use the value of Item that is passed into the method as the argument to[IPropertyManagerPageCombobox::ItemText](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~ItemText.html).
+When this method is called, the control may not yet be updated with the current selection, so the [IPropertyManagerPageCombobox::CurrentSelection](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~CurrentSelection.html) property is not reliable. To get the current text, use the value of Item that is passed into the method as the argument to [IPropertyManagerPageCombobox::ItemText](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~ItemText.html).
 
 If the user has edited the text in the text box and then clicks the arrow to show or hide the list box of the combo box, and the text in the text box matches the first character in any of the items in the list, then that item is automatically selected in the list and this method is called, indicating that the selected item has changed.
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
 
 ## Availability

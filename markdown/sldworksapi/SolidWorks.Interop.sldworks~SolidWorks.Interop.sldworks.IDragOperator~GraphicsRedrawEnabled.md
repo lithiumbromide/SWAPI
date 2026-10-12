@@ -45,13 +45,7 @@ property System.bool GraphicsRedrawEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to update the graphics display after moving components, false to not
 
 ## VBA Syntax
 
-See
-
-[DragOperator::GraphicsRedrawEnabled](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~GraphicsRedrawEnabled.html)
-
-.
+See [DragOperator::GraphicsRedrawEnabled](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~GraphicsRedrawEnabled.html).
 
 ## Remarks
 
-If this property is set to false, call
-
-[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)
-
-when you want to update the graphics display. This property is set to True by default.
+If this property is set to false, call [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) when you want to update the graphics display. This property is set to True by default.
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

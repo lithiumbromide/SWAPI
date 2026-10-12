@@ -43,16 +43,11 @@ void Commit(
 ### Parameters
 
 - `bsComment`: Comment to show in the file history of revision increments
-- `ppoErrors`: Array of
-
-[EdmRevError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError.html)
-
-structures; one structure for each error that occurred during processing
+- `ppoErrors`: Array of [EdmRevError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError.html) structures; one structure for each error that occurred during processing
 
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
 
 ## Remarks
@@ -64,7 +59,6 @@ structures; one structure for each error that occurred during processing
 ## See Also
 
 [IEdmRevisionMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr.html)
-
 [IEdmRevisionMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html)
 
 ## Availability

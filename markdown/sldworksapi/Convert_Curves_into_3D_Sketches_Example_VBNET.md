@@ -12,9 +12,7 @@ source: "sldworksapi/Convert_Curves_into_3D_Sketches_Example_VBNET.htm"
 This example:
 
 - Shows how to convert curves (edges) into 3D sketches.
-- Uses IModelDoc2::SketchConvertIsoCurves to extract
-  ISO-parametric (UV) curves from a face or surface. Specifically, this
-  code shows how to extract the curves containing a vertex.
+- Uses IModelDoc2::SketchConvertIsoCurves to extract ISO-parametric (UV) curves from a face or surface. Specifically, this code shows how to extract the curves containing a vertex.
 
 ```
 '----------------------------------------------------

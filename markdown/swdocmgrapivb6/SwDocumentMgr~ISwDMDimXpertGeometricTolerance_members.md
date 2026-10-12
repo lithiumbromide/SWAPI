@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertGeometricTolerance Object
-Members"
+title: "ISwDMDimXpertGeometricTolerance Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertGeometricTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertGeometricTolerance_members.html"
 ---
 
-# ISwDMDimXpertGeometricTolerance Object
-Members
+# ISwDMDimXpertGeometricTolerance Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # Print4 Method (IEModelViewControl)
 
-Obsolete. Superseded by
-
-[IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html)
-
-.
+Obsolete. Superseded by [IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html).
 
 ## Syntax
 
@@ -97,23 +93,11 @@ void Print4(
 ### Parameters
 
 - `ShowDialog`: True to show the Print dialog, false to not
-- `FileName`: Document name to show in the printer queue for this eDrawings file (see
-
-Remarks
-
-)
+- `FileName`: Document name to show in the printer queue for this eDrawings file (see Remarks)
 - `Shaded`: True to print shaded, false to not print shaded
 - `DraftQuality`: True to print draft quality, false to print regular quality
 - `Color`: True to print in grayscale on black-and-white printers, false to print black and white (lines, edges, and text are black, and shaded data is grayscale)
-- `printType`: Scale the eDrawings file as defined in
-
-[EMVPrintType](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintType.html)
-
-(see
-
-Remarks
-
-)
+- `printType`: Scale the eDrawings file as defined in [EMVPrintType](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintType.html) (see Remarks)
 - `scale`: Scaling factor; this argument is valid only when printType is set to eScaled
 - `centerOffsetX`: Offset in thousands of an inch; this argument is valid only when printType is set to eScaled
 - `centerOffsetY`: Offset in thousands of an inch; this argument is valid only when printType is set to eScaled
@@ -123,26 +107,19 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::Print4](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Print4.html)
-
-.
+See [EModelViewControl::Print4](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Print4.html).
 
 ## Remarks
 
-Set[IEModelViewControl::SetPageSetupOptions](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SetPageSetupOptions.html)before calling this method.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Set [IEModelViewControl::SetPageSetupOptions](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SetPageSetupOptions.html) before calling this method.
 
 You can use the FileName argument to describe the eDrawings file so that it is easily recognizable in the printer queue.
 
-The printType argument must be set to eWYSIWYG for parts and assemblies. eWYSIWYG is also valid for drawings as are the other[EMVPrintType](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintType.html)enumerations.
+The printType argument must be set to eWYSIWYG for parts and assemblies. eWYSIWYG is also valid for drawings as are the other [EMVPrintType](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintType.html) enumerations.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

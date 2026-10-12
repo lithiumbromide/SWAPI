@@ -45,13 +45,7 @@ property System.double X {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ x coordinate of the spline point
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::X](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~X.html)
-
-.
+See [SplineHandle::X](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~X.html).
 
 ## Examples
 
-See the
-
-[ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
-examples.
+See the [ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html) examples.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
-
 [ISplineHandle::Y Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~Y.html)
-
 [ISplineHandle::Z Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~Z.html)
 
 ## Availability

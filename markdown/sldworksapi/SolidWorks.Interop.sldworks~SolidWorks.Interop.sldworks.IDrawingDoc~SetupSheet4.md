@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # SetupSheet4 Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::SetupSheet5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~SetupSheet5.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::SetupSheet5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~SetupSheet5.html).
 
 ## Syntax
 
@@ -87,23 +83,13 @@ System.bool SetupSheet4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name for the sheet
-- `PaperSize`: Size of paper if using swDwgTemplateNone as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
-- `TemplateIn`: Template as defined in
-
-[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
+- `PaperSize`: Size of paper if using swDwgTemplateNone as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `TemplateIn`: Template as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
 - `Scale1`: Scale numerator
 - `Scale2`: Scale denominator
 - `FirstAngle`: True for first angle projection, false otherwise
@@ -118,11 +104,7 @@ True if set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::SetupSheet4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetupSheet4.html)
-
-.
+See [DrawingDoc::SetupSheet4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetupSheet4.html).
 
 ## Examples
 
@@ -130,12 +112,11 @@ See
 
 ## Remarks
 
-Call[IModelDoc2::ForceRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ForceRebuild3.html)after calling IDrawingDoc::SetupSheet4 to update any changes to first angle/third angle projections in the drawing views.
+Call [IModelDoc2::ForceRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ForceRebuild3.html) after calling IDrawingDoc::SetupSheet4 to update any changes to first angle/third angle projections in the drawing views.
 
 If you specify a different filename for TemplateName than what is currently being used by SOLIDWORKS, then SOLIDWORKS updates the sheet format.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

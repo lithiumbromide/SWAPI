@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Components_Example_CSharp.htm"
 
 # Add Components Example (C#)
 
-This example shows how to add multiple components
-to an assembly.
+This example shows how to add multiple components to an assembly.
 
 ```vb
  //---------------------------------------------------------------------------

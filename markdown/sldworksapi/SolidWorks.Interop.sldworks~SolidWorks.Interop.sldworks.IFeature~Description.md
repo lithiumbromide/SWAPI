@@ -45,13 +45,7 @@ property System.String^ Description {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Feature description
 
 ## VBA Syntax
 
-See
-
-[Feature::Description](ms-its:sldworksapivb6.chm::/sldworks~Feature~Description.html)
-
-.
+See [Feature::Description](ms-its:sldworksapivb6.chm::/sldworks~Feature~Description.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

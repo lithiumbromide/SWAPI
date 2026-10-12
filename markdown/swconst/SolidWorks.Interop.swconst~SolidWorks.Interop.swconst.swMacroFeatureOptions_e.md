@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMacroFe
 
 # swMacroFeatureOptions_e Enumeration
 
-Placement of the macro feature in the FeatureManager design tree options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Placement of the macro feature in the FeatureManager design tree options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

@@ -47,13 +47,7 @@ System.bool MoveAnnotations(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -63,28 +57,19 @@ See
 
 True if the specified annotations are moved, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[AnnotationView::MoveAnnotations](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~MoveAnnotations.html)
-
-.
+See [AnnotationView::MoveAnnotations](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~MoveAnnotations.html).
 
 ## Examples
 
 [Move Annotations to Notes Area Annotation View (C#)](Move_Annotations_to_First_Annotation_View_Example_CSharp.htm)
-
 [Move Annotations to Notes Area Annotation View (VB.NET)](Move_Annotations_to_First_Annotation_View_Example_VBNET.htm)
-
 [Move Annotations to Notes Area Annotation View (VBA)](Move_Annotations_to_First_Annotation_View_Example_VB.htm)
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
 
 ## Availability

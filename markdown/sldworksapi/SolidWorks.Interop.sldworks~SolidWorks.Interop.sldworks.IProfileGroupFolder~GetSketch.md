@@ -40,13 +40,7 @@ System.object GetSketch()
 System.Object^ GetSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ProfileGroupFolder::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~GetSketch.html)
-
-.
+See [ProfileGroupFolder::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~GetSketch.html).
 
 ## See Also
 
 [IProfileGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder.html)
-
 [IProfileGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder_members.html)
 
 ## Availability

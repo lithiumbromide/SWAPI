@@ -47,27 +47,15 @@ property System.double FatigueStrengthReductionFactor {
 
 ### Property Value
 
-0.0 <= fatigue strength reduction factor <= 1.0 (see
-
-Remarks
-
-)
+0.0 <= fatigue strength reduction factor <= 1.0 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::FatigueStrengthReductionFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~FatigueStrengthReductionFactor.html)
-
-.
+See [CWFatigueStudyOptions::FatigueStrengthReductionFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~FatigueStrengthReductionFactor.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## Remarks
 
@@ -76,9 +64,7 @@ Use this factor to account for differences between the test environment that is 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::ComputingAlternatingStressOption Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~ComputingAlternatingStressOption.html)
 
 ## Availability

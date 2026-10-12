@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IFeatureFillet2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IFeatureFillet2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IFeatureFillet2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IFeatureFillet2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IFeatureFillet2.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.int IFeatureFillet2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +85,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IFeatureFillet2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IFeatureFillet2.html)
-
-.
+See [ModelDoc::IFeatureFillet2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IFeatureFillet2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

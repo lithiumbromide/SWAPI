@@ -47,22 +47,15 @@ property System.int Classification {
 
 ### Property Value
 
-Classification of defects as defined by
-
-[swiCharacteristicClassification_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicClassification_e.html)
+Classification of defects as defined by [swiCharacteristicClassification_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicClassification_e.html)
 
 ## VBA Syntax
 
-See
-
-[CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html)
-
-properties.
+See [CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html) properties.
 
 ## See Also
 
 [ICharacteristicsData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.html)
-
 [ICharacteristicsData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html)
 
 ## Availability

@@ -51,11 +51,7 @@ property System.bool IncludeClearance2 {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::IncludeClearance2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeClearance2.html)
-
-.
+See [CWContactComponent::IncludeClearance2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeClearance2.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ To set this property, you can specify either the boolean or the integer.
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

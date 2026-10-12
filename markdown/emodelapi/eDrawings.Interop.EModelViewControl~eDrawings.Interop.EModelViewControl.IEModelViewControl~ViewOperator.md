@@ -43,30 +43,19 @@ property EMVOperators ViewOperator {
 
 ### Property Value
 
-Tools as defined by
-
-[EMVOperators](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVOperators.html)
+Tools as defined by [EMVOperators](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVOperators.html)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ViewOperator](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewOperator.html)
-
-.
+See [EModelViewControl::ViewOperator](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ViewOperator.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

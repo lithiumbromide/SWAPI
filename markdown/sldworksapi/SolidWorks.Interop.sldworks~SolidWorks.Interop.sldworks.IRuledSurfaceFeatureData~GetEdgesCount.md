@@ -40,13 +40,7 @@ System.int GetEdgesCount()
 System.int GetEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of edges
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~GetEdgesCount.html)
-
-.
+See [RuledSurfaceFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~GetEdgesCount.html).
 
 ## Remarks
 
-Call this method before calling[IRuledSurfaceFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~IGetEdges.html)to get the size of the array for that method.
+Call this method before calling [IRuledSurfaceFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~IGetEdges.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
-
 [IRuledSurfaceFeatureData::GetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~GetEdges.html)
-
 [IRuledSurfaceFeatureData::ISetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~ISetEdges.html)
-
 [IRuledSurfaceFeatureData::SetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~SetEdges.html)
 
 ## Availability

@@ -67,63 +67,39 @@ Feature^ InsertCutSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Flip`: True to flip the direction of the cut, false to not
-- `KeepPieceIndex`: Piece to keep if there is ambiguity (see
-
-Remarks
-
-)
+- `KeepPieceIndex`: Piece to keep if there is ambiguity (see **Remarks**)
 - `UseFeatScope`: True to cut only the bodies passed to Bodies that intersect with the cut, false to cut all bodies that intersect with the cut
 - `UseAutoSelect`: True to automatically cut all bodies that intersect with the cut, false to cut only the bodies passed to Bodies that intersect with the cut
-- `Bodies`: - Array of specific
+- `Bodies`: - Array of specific [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that intersect with the cut
 
-  [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+    - UseFeatScope = true
+    - UseAutoSelect = false
 
-  that intersect with the cut
+  - or -
 
-  - UseFeatScope = true
-  - UseAutoSelect = false
+  - Empty array indicating to cut all bodies that intersect with the cut
 
-- or -
-
-- Empty array indicating to cut all bodies that intersect with the cut
-
-  - UseFeatScope = false
-  - UseAutoSelect = true
-- `Error`: Status of the cut as defined in
-
-[swSurfaceCutFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceCutFeatureError_e.html)
+    - UseFeatScope = false
+    - UseAutoSelect = true
+- `Error`: Status of the cut as defined in [swSurfaceCutFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceCutFeatureError_e.html)
 
 ### Return Value
 
-Surface-cut
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Surface-cut [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSurface.html)
-
-.
+See [FeatureManager::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSurface.html).
 
 ## Examples
 
 [Insert Surface-cut Feature (C#)](Insert_Surface-cut_Feature_Example_CSharp.htm)
-
 [Insert Surface-cut Feature (VB.NET)](Insert_Surface-cut_Feature_Example_VBNET.htm)
-
 [Insert Surface-cut Feature (VBA)](Insert_Surface-cut_Feature_Example_VB.htm)
 
 ## Remarks
@@ -133,9 +109,7 @@ When there is ambiguity in the result of a cut, KeepPieceIndex is used to resolv
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
 
 ## Availability

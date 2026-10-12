@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetEdgeCount Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetEdgeCount.html)
-
-.
+Obsolete. Superseded by [IFace2::GetEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetEdgeCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetEdgeCount()
 System.int GetEdgeCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetEdgeCount.html)
-
-.
+See [Face::GetEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetEdgeCount.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

@@ -40,13 +40,7 @@ System.bool GetDisplayEdgesInShadedMode()
 System.bool GetDisplayEdgesInShadedMode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the edges are displayed when the view is in shaded mode, false if not
 
 ## VBA Syntax
 
-See
-
-[View::GetDisplayEdgesInShadedMode](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayEdgesInShadedMode.html)
-
-.
+See [View::GetDisplayEdgesInShadedMode](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayEdgesInShadedMode.html).
 
 ## Remarks
 
@@ -71,13 +61,8 @@ See
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayTangentEdges2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayTangentEdges2.html)
-
 [IView::GetUseParentDisplayMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetUseParentDisplayMode.html)
-
 [IView::SetDisplayTangentEdges2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetDisplayTangentEdges2.html)
-
 [IView::UpdateViewDisplayGeometry Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UpdateViewDisplayGeometry.html)

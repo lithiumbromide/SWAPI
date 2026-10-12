@@ -1,5 +1,5 @@
 ---
-title: "Get SOLIDWORKS Version of Display Dimension (VBA)"
+title: "Get Version of Display Dimension (VBA)"
 project: ""
 interface: ""
 member: ""
@@ -7,10 +7,9 @@ kind: "example"
 source: "sldworksapi/Get_SOLIDWORKS_Version_of_Display_Dimension_Example_VB.htm"
 ---
 
-# Get SOLIDWORKS Version of Display Dimension (VBA)
+# Get Version of Display Dimension (VBA)
 
-This example shows how to find out if a display dimension in a drawing was
-created in SOLIDWORKS 2011 or later.
+This example shows how to find out if a display dimension in a drawing was created in SOLIDWORKS 2011 or later.
 
 ```
 '------------------------------------------------

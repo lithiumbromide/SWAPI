@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlOwnerID
 
 # mlOwnerID Field
 
-ID of
-
-[meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~meOwnerType.html)
-
-for whom to assign permissions.
+ID of [meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~meOwnerType.html) for whom to assign permissions.
 
 ## Syntax
 
@@ -43,5 +39,4 @@ Owner ID
 ## See Also
 
 [EdmStatePermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html)
-
 [EdmStatePermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.html)

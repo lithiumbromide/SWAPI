@@ -9,9 +9,7 @@ source: "sldworksapi/Create_Circular_Pattern_Example_VB.htm"
 
 # Create Circular Pattern Example (VBA)
 
-This example shows how to create a circular-pattern feature using selected
-direction axis, pattern seed features, and variable spacing between
-pattern instances.
+This example shows how to create a circular-pattern feature using selected direction axis, pattern seed features, and variable spacing between pattern instances.
 
 ```vb
  '----------------------------------------------------------------------------

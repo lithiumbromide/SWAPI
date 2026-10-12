@@ -45,13 +45,7 @@ property System.double FitTextHeight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Height of the fit tolerance font
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::FitTextHeight](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitTextHeight.html)
-
-.
+See [CalloutVariable::FitTextHeight](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitTextHeight.html).
 
 ## Remarks
 
@@ -72,13 +62,9 @@ This property supports fit and fit-with-tolerance types only.
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::TextHeight Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~TextHeight.html)
-
 [ICalloutVariable::HoleFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~HoleFit.html)
-
 [ICalloutVariable::ShaftFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShaftFit.html)
 
 ## Availability

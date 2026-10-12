@@ -72,11 +72,7 @@ void ShowBubbleTooltip(
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::ShowBubbleTooltip](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltip.html)
-
-.
+See [SwHtmlInterface::ShowBubbleTooltip](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltip.html).
 
 ## Examples
 
@@ -85,7 +81,6 @@ See
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
 
 ## Availability

@@ -67,22 +67,14 @@ System.int SetLibraryMaterialToAllBodiesByCompName(
 
 ## VBA Syntax
 
-See
-
-[CWSolidManager::SetLibraryMaterialToAllBodiesByCompName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~SetLibraryMaterialToAllBodiesByCompName.html)
-
-.
+See [CWSolidManager::SetLibraryMaterialToAllBodiesByCompName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~SetLibraryMaterialToAllBodiesByCompName.html).
 
 ## See Also
 
 [ICWSolidManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
 [ICWSolidManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager_members.html)
-
 [ICWSolidManager::SetFavLibraryMaterialToAllBodiesByCompName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager~SetFavLibraryMaterialToAllBodiesByCompName.html)
-
 [ICWSolidManager::SetFavLibraryMaterialToSelectedEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager~SetFavLibraryMaterialToSelectedEntities.html)
-
 [ICWSolidManager::SetLibraryMaterialToSelectedEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager~SetLibraryMaterialToSelectedEntities.html)
 
 ## Availability

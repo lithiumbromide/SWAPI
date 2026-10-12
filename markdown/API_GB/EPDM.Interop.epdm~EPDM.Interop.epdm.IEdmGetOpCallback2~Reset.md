@@ -34,5 +34,4 @@ void Reset();
 ## See Also
 
 [IEdmGetOpCallback2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2.html)
-
 [IEdmGetOpCallback2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2_members.html)

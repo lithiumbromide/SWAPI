@@ -9,7 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExper
 
 # sw3DExperienceCfgType_e Enumeration
 
-Types of configurations viewed in SOLIDWORKS Connected.
+Types of configurations viewed in SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
 
 ## Syntax
 

@@ -39,35 +39,22 @@ void SetFolderPermissions(
 
 ### Parameters
 
-- `poPermissions`: Array of
-
-[EdmFolderPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
-structures; one structure for each permission assignment
+- `poPermissions`: Array of [EdmFolderPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html) structures; one structure for each permission assignment
 
 ## Examples
 
-See the
-
-[IEdmUserMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
-examples.
+See the [IEdmUserMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html) examples.
 
 ## Remarks
 
 [Return codes:](ReturnCodes.htm)
 
 - S_OK: The method successfully executed.
-- E_EDM_PERMISSION_DENIED: The logged-in user lacks the
-
-  [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
-
-  .EdmSysPerm_EditUserMgr permission.
+- E_EDM_PERMISSION_DENIED: The logged-in user lacks the [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html).EdmSysPerm_EditUserMgr permission.
 
 ## See Also
 
 [IEdmUserMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
 [IEdmUserMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool UpgradeLegacyCustomProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if custom properties are successfully upgraded, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::UpgradeLegacyCustomProperties](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpgradeLegacyCustomProperties.html)
-
-.
+See [ModelDocExtension::UpgradeLegacyCustomProperties](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpgradeLegacyCustomProperties.html).
 
 ## Remarks
 
@@ -77,15 +67,7 @@ This method is valid only for parts, assemblies, and drawings:
 
 - created prior to 2018.
 - opened in resolved mode.
-- corresponds to the user-interface command,
-
-  feature_manager_design_tree_top_node
-
-  RMB
-
-  > Upgrade custom properties
-
-  .
+- corresponds to the user-interface command, `feature_manager_design_tree_top_node` **RMB** **> Upgrade custom properties**.
 
 This method upgrades the custom properties of:
 
@@ -102,7 +84,6 @@ After running this method, you:
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

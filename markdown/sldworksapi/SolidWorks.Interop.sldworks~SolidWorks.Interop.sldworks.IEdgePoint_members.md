@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # IEdgePoint Interface Members
 
-The following tables list the members exposed by[IEdgePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint.html).
+The following tables list the members exposed by [IEdgePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[IEdgePoint](SolidWorks.Interop.
 ## See Also
 
 [IEdgePoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

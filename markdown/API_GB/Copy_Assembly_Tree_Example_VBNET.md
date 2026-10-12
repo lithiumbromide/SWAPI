@@ -9,12 +9,9 @@ source: "API_GB/Copy_Assembly_Tree_Example_VBNET.htm"
 
 # Copy Assembly Tree of Files Example (VB.NET)
 
-This example shows how to copy an assembly and its tree of
-reference files to a destination folder in the vault.
+This example shows how to copy an assembly and its tree of reference files to a destination folder in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

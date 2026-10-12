@@ -45,13 +45,7 @@ property System.bool AsymmetricFillet {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True if an asymmetric fillet, false if a symmetric fillet
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::AsymmetricFillet](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~AsymmetricFillet.html)
-
-.
+See [VariableFilletFeatureData2::AsymmetricFillet](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~AsymmetricFillet.html).
 
 ## Examples
 
-See the
-
-[IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html)
-
-examples.
+See the [IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html) examples.
 
 ## Remarks
 
-See
-
-[Accessing Selections that Define Features](sldworksapiprogguide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)
-
-for additional details.
+See [Accessing Selections that Define Features](sldworksapiprogguide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
 
 ## Availability

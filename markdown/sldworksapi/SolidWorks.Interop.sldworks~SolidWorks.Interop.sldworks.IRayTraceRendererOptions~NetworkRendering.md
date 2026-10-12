@@ -45,13 +45,7 @@ property System.bool NetworkRendering {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable network rendering, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::NetworkRendering](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~NetworkRendering.html)
-
-.
+See [RayTraceRendererOptions::NetworkRendering](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~NetworkRendering.html).
 
 ## Remarks
 
@@ -72,15 +62,10 @@ Only SOLIDWORKS Subscription Services customers can share the effort of renderin
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::ClientWorkload Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ClientWorkload.html)
-
 [IRayTraceRendererOptions::NetworkSharedDirectory Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NetworkSharedDirectory.html)
-
 [IRayTraceRendererOptions::SendDataForNetworkJob Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~SendDataForNetworkJob.html)
-
 [IRayTraceRendererOptions:OffloadedRendering Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~OffloadedRendering.html)
 
 ## Availability

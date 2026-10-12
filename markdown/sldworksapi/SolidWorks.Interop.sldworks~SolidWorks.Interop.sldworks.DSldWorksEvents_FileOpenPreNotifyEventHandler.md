@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_FileOpenPreNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Pre-notifies the user program of a
-
-[FileOpenNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileOpenNotify2EventHandler.html)
-
-event.
+Pre-notifies the user program of a [FileOpenNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileOpenNotify2EventHandler.html) event.
 
 ## Syntax
 
@@ -47,13 +43,7 @@ public delegate System.int DSldWorksEvents_FileOpenPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,23 +51,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileOpenPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileOpenPreNotify_EV.html)
-
-.
+See [FileOpenPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileOpenPreNotify_EV.html).
 
 ## Remarks
 
 This event is only fired when opening these SOLIDWORKS files: parts, drawings, and assemblies. It is not fired when opening files like templates, translator files, and so on.
 
-This event is fired before SOLIDWORKS begins loading the file. A SOLIDWORKS file can be opened in many ways; for example,File,Openin the user interface,[ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)in the API, Load Model from a Detached drawing, Lightweight component being resolved, and so on. This event is fired in all of these cases.
+This event is fired before SOLIDWORKS begins loading the file. A SOLIDWORKS file can be opened in many ways; for example, File, Open in the user interface, [ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html) in the API, Load Model from a Detached drawing, Lightweight component being resolved, and so on. This event is fired in all of these cases.
 
 If you want to allow SOLIDWORKS to open the file, return S_OK (or 0) from the handler. If you do not want to allow SOLIDWORKS to open the file, return S_false (or any code other than S_OK) from the handler.
 
-The event that occurs after this event is[DocumentLoadNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_DocumentLoadNotifyEventHandler.html).
+The event that occurs after this event is [DocumentLoadNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_DocumentLoadNotifyEventHandler.html).
 
-If developing a C++ application, use[swAppFileOpenPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppFileOpenPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

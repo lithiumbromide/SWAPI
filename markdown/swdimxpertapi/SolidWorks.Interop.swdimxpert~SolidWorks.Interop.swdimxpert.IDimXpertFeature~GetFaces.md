@@ -42,22 +42,15 @@ System.Object^ GetFaces();
 
 ### Return Value
 
-Array of
-
-[faces](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Array of [faces](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertFeature::GetFaces](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~GetFaces.html)
-
-.
+See [DimXpertFeature::GetFaces](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~GetFaces.html).
 
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)
 
 ## Availability

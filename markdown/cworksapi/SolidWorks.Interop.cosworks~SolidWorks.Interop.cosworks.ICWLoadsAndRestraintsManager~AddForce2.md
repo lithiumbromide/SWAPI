@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLo
 
 # AddForce2 Method (ICWLoadsAndRestraintsManager)
 
-Obsolete. Superseded by
-
-[ICWloadsAndRestraintsManager::AddForce3](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddForce3.html)
-
-.
+Obsolete. Superseded by [ICWloadsAndRestraintsManager::AddForce3](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddForce3.html).
 
 ## Syntax
 
@@ -69,21 +65,11 @@ CWForce^ AddForce2(
 
 ### Parameters
 
-- `NForceType`: Type of force as defined in
-
-[swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
-- `NSelectionType`: Type of selection as defined in
-
-[swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
+- `NForceType`: Type of force as defined in [swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
+- `NSelectionType`: Type of selection as defined in [swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
 - `DispArray`: Array of entities (faces, edges, vertices, or points) to which to apply force
-- `RefGeom`: Reference geometry entity to specify direction (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
+- `RefGeom`: Reference geometry entity to specify direction (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
 
 ### Return Value
 
@@ -91,11 +77,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddForce2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce2.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddForce2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce2.html).
 
 ## Remarks
 
@@ -104,7 +86,6 @@ Pass null in RefGeom if reference geometry is not used.
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

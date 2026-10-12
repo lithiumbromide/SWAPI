@@ -40,13 +40,7 @@ System.object GetInterferenceBody()
 System.Object^ GetInterferenceBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Interference::GetInterferenceBody](ms-its:sldworksapivb6.chm::/sldworks~Interference~GetInterferenceBody.html)
-
-.
+See [Interference::GetInterferenceBody](ms-its:sldworksapivb6.chm::/sldworks~Interference~GetInterferenceBody.html).
 
 ## See Also
 
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [IInterference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html)
 
 ## Availability

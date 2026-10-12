@@ -23,29 +23,29 @@
   },
   "cworksapi": {
     "kinds": {
-      "enum": 359,
-      "example": 208,
-      "interface": 81,
-      "members": 81,
-      "method": 1086,
-      "methods": 78,
+      "enum": 361,
+      "example": 211,
+      "interface": 83,
+      "members": 83,
+      "method": 1114,
+      "methods": 80,
       "namespace": 1,
-      "properties": 60,
-      "property": 684,
+      "properties": 62,
+      "property": 703,
       "topic": 6
     },
-    "total": 2644
+    "total": 2704
   },
   "cworksapivb6": {
     "kinds": {
-      "enum": 361,
-      "members": 108,
-      "method": 1424,
-      "object": 108,
-      "property": 743,
+      "enum": 363,
+      "members": 112,
+      "method": 1473,
+      "object": 112,
+      "property": 778,
       "topic": 4
     },
-    "total": 2748
+    "total": 2842
   },
   "dsgnchkapi": {
     "kinds": {
@@ -108,16 +108,16 @@
     "kinds": {
       "enum": 116,
       "example": 158,
-      "interface": 232,
-      "members": 303,
-      "method": 606,
-      "methods": 211,
+      "interface": 234,
+      "members": 306,
+      "method": 611,
+      "methods": 213,
       "namespace": 2,
       "properties": 67,
       "property": 206,
-      "topic": 573
+      "topic": 587
     },
-    "total": 2474
+    "total": 2500
   },
   "fworksapi": {
     "kinds": {
@@ -209,35 +209,35 @@
   "sldworksapi": {
     "kinds": {
       "example": 2892,
-      "interface": 495,
-      "members": 495,
-      "method": 8887,
-      "methods": 422,
+      "interface": 500,
+      "members": 500,
+      "method": 8917,
+      "methods": 424,
       "namespace": 1,
-      "properties": 402,
-      "property": 3470,
-      "topic": 332
+      "properties": 406,
+      "property": 3551,
+      "topic": 341
     },
-    "total": 17396
+    "total": 17532
   },
   "sldworksapiprogguide": {
     "kinds": {
       "example": 7,
       "interface": 1,
-      "topic": 141
+      "topic": 142
     },
-    "total": 149
+    "total": 150
   },
   "sldworksapivb6": {
     "kinds": {
-      "event": 324,
-      "members": 667,
-      "method": 9652,
-      "object": 667,
-      "property": 4496,
+      "event": 333,
+      "members": 677,
+      "method": 9700,
+      "object": 677,
+      "property": 4651,
       "topic": 4
     },
-    "total": 15810
+    "total": 16042
   },
   "sustainabilityapi": {
     "kinds": {
@@ -267,15 +267,16 @@
   },
   "sw3dprinterapi": {
     "kinds": {
+      "class": 1,
       "enum": 7,
       "interface": 1,
-      "members": 1,
-      "method": 40,
-      "methods": 1,
+      "members": 2,
+      "method": 80,
+      "methods": 2,
       "namespace": 1,
-      "topic": 2
+      "topic": 3
     },
-    "total": 53
+    "total": 97
   },
   "sw3dprinterapivb6": {
     "kinds": {
@@ -296,27 +297,28 @@
   },
   "swconst": {
     "kinds": {
-      "enum": 959,
+      "enum": 971,
       "interface": 1,
       "namespace": 1,
-      "topic": 145
+      "topic": 146
     },
-    "total": 1106
+    "total": 1119
   },
   "swcostingapi": {
     "kinds": {
+      "class": 14,
       "enum": 24,
       "example": 24,
-      "interface": 14,
-      "members": 14,
-      "method": 91,
-      "methods": 13,
+      "interface": 28,
+      "members": 42,
+      "method": 273,
+      "methods": 39,
       "namespace": 1,
-      "properties": 14,
-      "property": 114,
-      "topic": 5
+      "properties": 42,
+      "property": 342,
+      "topic": 19
     },
-    "total": 314
+    "total": 848
   },
   "swcostingapivb6": {
     "kinds": {
@@ -331,56 +333,55 @@
   },
   "swdimxpertapi": {
     "kinds": {
-      "class": 1,
       "enum": 23,
       "example": 59,
       "interface": 51,
-      "members": 52,
-      "method": 155,
-      "methods": 37,
+      "members": 51,
+      "method": 152,
+      "methods": 36,
       "namespace": 1,
-      "properties": 45,
-      "property": 95,
-      "topic": 3
+      "properties": 43,
+      "property": 89,
+      "topic": 2
     },
-    "total": 522
+    "total": 507
   },
   "swdimxpertapivb6": {
     "kinds": {
       "enum": 23,
-      "members": 50,
-      "method": 151,
-      "object": 50,
+      "members": 51,
+      "method": 152,
+      "object": 51,
       "property": 89,
       "topic": 4
     },
-    "total": 367
+    "total": 370
   },
   "swdocmgrapi": {
     "kinds": {
-      "enum": 62,
+      "enum": 63,
       "example": 97,
-      "interface": 141,
-      "members": 141,
-      "method": 307,
-      "methods": 106,
+      "interface": 144,
+      "members": 144,
+      "method": 312,
+      "methods": 109,
       "namespace": 1,
       "properties": 72,
       "property": 147,
       "topic": 5
     },
-    "total": 1079
+    "total": 1094
   },
   "swdocmgrapivb6": {
     "kinds": {
-      "enum": 63,
-      "members": 247,
-      "method": 502,
-      "object": 247,
+      "enum": 65,
+      "members": 253,
+      "method": 512,
+      "object": 253,
       "property": 245,
       "topic": 4
     },
-    "total": 1308
+    "total": 1332
   },
   "swhtmlcontrolapi": {
     "kinds": {
@@ -405,17 +406,18 @@
   },
   "swinspectionapi": {
     "kinds": {
+      "class": 5,
       "enum": 12,
-      "interface": 5,
-      "members": 5,
-      "method": 29,
-      "methods": 3,
+      "interface": 10,
+      "members": 15,
+      "method": 87,
+      "methods": 9,
       "namespace": 1,
-      "properties": 3,
-      "property": 72,
-      "topic": 5
+      "properties": 9,
+      "property": 216,
+      "topic": 10
     },
-    "total": 135
+    "total": 374
   },
   "swinspectionapivb6": {
     "kinds": {
@@ -457,17 +459,18 @@
   },
   "swpublishedapi": {
     "kinds": {
+      "class": 3,
       "example": 14,
-      "interface": 23,
-      "members": 23,
-      "method": 311,
-      "methods": 23,
+      "interface": 26,
+      "members": 29,
+      "method": 327,
+      "methods": 29,
       "namespace": 1,
       "properties": 1,
       "property": 7,
-      "topic": 2
+      "topic": 5
     },
-    "total": 405
+    "total": 442
   },
   "swpublishedapivb6": {
     "kinds": {
@@ -481,15 +484,16 @@
   },
   "swscanto3dapi": {
     "kinds": {
+      "class": 1,
       "example": 3,
-      "interface": 1,
-      "members": 1,
-      "method": 3,
-      "methods": 1,
+      "interface": 2,
+      "members": 3,
+      "method": 9,
+      "methods": 3,
       "namespace": 1,
-      "topic": 2
+      "topic": 3
     },
-    "total": 12
+    "total": 25
   },
   "swscanto3dapivb6": {
     "kinds": {
@@ -504,16 +508,16 @@
     "kinds": {
       "enum": 13,
       "example": 12,
-      "interface": 10,
-      "members": 10,
-      "method": 92,
-      "methods": 10,
+      "interface": 20,
+      "members": 20,
+      "method": 184,
+      "methods": 20,
       "namespace": 1,
-      "properties": 2,
-      "property": 13,
+      "properties": 4,
+      "property": 26,
       "topic": 6
     },
-    "total": 169
+    "total": 306
   },
   "swutilitiesapivb6": {
     "kinds": {
@@ -526,19 +530,46 @@
     },
     "total": 178
   },
+  "swvisualizeapi": {
+    "kinds": {
+      "enum": 6,
+      "event": 2,
+      "interface": 11,
+      "members": 11,
+      "method": 18,
+      "methods": 8,
+      "namespace": 1,
+      "properties": 6,
+      "property": 25,
+      "topic": 8
+    },
+    "total": 96
+  },
+  "swvisualizeapiVB6": {
+    "kinds": {
+      "enum": 6,
+      "members": 11,
+      "method": 18,
+      "object": 11,
+      "property": 19,
+      "topic": 4
+    },
+    "total": 69
+  },
   "toolboxapi": {
     "kinds": {
+      "class": 2,
       "enum": 3,
-      "interface": 4,
-      "members": 4,
-      "method": 8,
-      "methods": 3,
+      "interface": 6,
+      "members": 8,
+      "method": 18,
+      "methods": 7,
       "namespace": 2,
-      "properties": 2,
-      "property": 4,
-      "topic": 17
+      "properties": 4,
+      "property": 8,
+      "topic": 19
     },
-    "total": 47
+    "total": 77
   },
   "toolboxapivb6": {
     "kinds": {

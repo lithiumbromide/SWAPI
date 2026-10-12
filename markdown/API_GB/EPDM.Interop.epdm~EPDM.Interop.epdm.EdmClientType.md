@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmClientType.html"
 
 # EdmClientType Enumeration
 
-Types of SOLIDWORKS PDM Professional client; used in calls to
-
-[IEdmVault8::ClientType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8~ClientType.html)
-
-.
+Types of SOLIDWORKS PDM Professional client; used in calls to [IEdmVault8::ClientType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8~ClientType.html).
 
 ## Syntax
 

@@ -47,30 +47,20 @@ property System.int BeamEnd2ConnectionType {
 
 ### Property Value
 
-End2 connection type for this beam as defined by[swsBeamBodyConnectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamBodyConnectionType_e.html)
+End2 connection type for this beam as defined by [swsBeamBodyConnectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamBodyConnectionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamEnd2ConnectionType.html)
-
-.
+See [CWBeamBody::BeamEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamEnd2ConnectionType.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::BeamEnd1ConnectionType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamEnd1ConnectionType.html)
-
 [ICWBeamBody::SetManualEnd1ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetManualEnd1ConnectionType.html)
-
 [ICWBeamBody::GetManualEnd1ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd1ConnectionType.html)
-
 [ICWBeamBody::GetManualEnd2ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd2ConnectionType.html)
-
 [ICWBeamBody::SetManualEnd2ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetManualEnd2ConnectionType.html)
 
 ## Availability

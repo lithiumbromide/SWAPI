@@ -45,48 +45,27 @@ property System.String^ PrinterQueue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Printer name; default is
-
-[IModelDoc2::Printer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Printer.html)
+Printer name; default is [IModelDoc2::Printer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Printer.html)
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::PrinterQueue](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrinterQueue.html)
-
-.
+See [PrintSpecification::PrinterQueue](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrinterQueue.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IPrintSpecification::PrintToFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrintToFile.html)
-
-is set to false.
+This property is valid only if [IPrintSpecification::PrintToFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrintToFile.html) is set to false.
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
 
 ## Availability

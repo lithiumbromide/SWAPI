@@ -45,13 +45,7 @@ property System.Object^ PiercePointSelectionObject {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::PiercePointSelectionObject](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~PiercePointSelectionObject.html)
-
-.
+See [StructureSystemMemberProfile::PiercePointSelectionObject](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~PiercePointSelectionObject.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IStructureSystemMemberProfile::ProfilePiercePointType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfilePiercePointType.html)
-
-is set to
-
-[swStructureProfilePiercePointType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfilePiercePointType_e.html)
-
-.Selection.
+This property is valid only if [IStructureSystemMemberProfile::ProfilePiercePointType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfilePiercePointType.html) is set to [swStructureProfilePiercePointType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfilePiercePointType_e.html).Selection.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

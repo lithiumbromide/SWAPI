@@ -45,13 +45,7 @@ property System.double TabLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Tab length
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabLength](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabLength.html)
-
-.
+See [TabAndSlotGroupData::TabLength](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabLength.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

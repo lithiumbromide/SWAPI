@@ -44,19 +44,11 @@ property System.int ReferencedConfigurationID {
 
 ### Property Value
 
-ID of configuration or -1 for legacy files (see
-
-Remarks
-
-)
+ID of configuration or -1 for legacy files (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SwDMView2::ReferencedConfigurationID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView2~ReferencedConfigurationID.html)
-
-.
+See [SwDMView2::ReferencedConfigurationID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView2~ReferencedConfigurationID.html).
 
 ## Remarks
 
@@ -65,9 +57,7 @@ This property works only with documents saved in SOLIDWORKS 2017 or later.
 ## See Also
 
 [ISwDMView2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView2.html)
-
 [ISwDMView2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView2_members.html)
-
 [ISwDMView::ReferencedConfiguration Property ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView~ReferencedConfiguration.html)
 
 ## Availability

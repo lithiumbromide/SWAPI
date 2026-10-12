@@ -48,30 +48,20 @@ Number of nodes in the active study
 
 ## VBA Syntax
 
-See
-
-[CWMesh::NodeCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NodeCount.html)
-
-.
+See [CWMesh::NodeCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NodeCount.html).
 
 ## Examples
 
 [Copy Mesh and Generate Report (VBA)](Copy_Mesh_and_Gen_Report_Example_VB.htm)
-
 [Copy Mesh and Generate Report (VB.NET)](Copy_Mesh_and_Gen_Report_Example_VBNET.htm)
-
 [Copy Mesh and Generate Report (C#)](Copy_Mesh_and_Gen_Report_Example_CSharp.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetNodeDataFromEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeDataFromEntity.html)
-
 [ICWMesh::GetNodeLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeLocation.html)
-
 [ICWMesh::GetNodes Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodes.html)
 
 ## Availability

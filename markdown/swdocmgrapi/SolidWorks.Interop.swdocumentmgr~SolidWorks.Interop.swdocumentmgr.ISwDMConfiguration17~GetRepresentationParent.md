@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetRepresentationParent Method (ISwDMConfiguration17)
 
-Gets the Physical Product represented by this configuration in
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Gets the Physical Product represented by this configuration in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -50,40 +46,25 @@ Physical Product name
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration17::GetRepresentationParent](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration17~GetRepresentationParent.html)
-
-.
+See [SwDMConfiguration17::GetRepresentationParent](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration17~GetRepresentationParent.html).
 
 ## Examples
 
-See the
-
-[ISwDMConfiguration17](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html)
-
-examples.
+See the [ISwDMConfiguration17](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html) examples.
 
 ## Remarks
 
 This method is valid only:
 
-- For
-
-  [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
+- For [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
 
 - and -
 
-- If
-
-  [ISWDMConfiguration17::Get3DExperienceType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17~Get3DExperienceType.html)
-
-  does not return 0.
+- If [ISWDMConfiguration17::Get3DExperienceType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17~Get3DExperienceType.html) does not return 0.
 
 ## See Also
 
 [ISwDMConfiguration17 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html)
-
 [ISwDMConfiguration17 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17_members.html)
 
 ## Availability

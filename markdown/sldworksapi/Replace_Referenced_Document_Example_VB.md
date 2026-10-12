@@ -9,8 +9,7 @@ source: "sldworksapi/Replace_Referenced_Document_Example_VB.htm"
 
 # Replace Referenced Document Example (VBA)
 
-This example shows how to replace a referenced document with a different
-document in an assembly.
+This example shows how to replace a referenced document with a different document in an assembly.
 
 ```
 '---------------------------------------------------------------------------------------------------

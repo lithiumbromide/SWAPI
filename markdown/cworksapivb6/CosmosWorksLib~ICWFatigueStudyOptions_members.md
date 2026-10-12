@@ -1,6 +1,5 @@
 ---
-title: "ICWFatigueStudyOptions Object
-Members"
+title: "ICWFatigueStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWFatigueStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWFatigueStudyOptions_members.html"
 ---
 
-# ICWFatigueStudyOptions Object
-Members
+# ICWFatigueStudyOptions Object Members
 
 ## Public Methods
 

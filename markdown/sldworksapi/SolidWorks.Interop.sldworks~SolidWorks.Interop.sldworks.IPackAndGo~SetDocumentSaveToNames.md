@@ -47,13 +47,7 @@ System.bool SetDocumentSaveToNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,20 @@ True if the paths and filenames are set, false if not
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::SetDocumentSaveToNames](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~SetDocumentSaveToNames.html)
-
-.
+See [PackAndGo::SetDocumentSaveToNames](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~SetDocumentSaveToNames.html).
 
 ## Remarks
 
-The number, order, and type of documents to save must match the array returned by[IPackAndGo::GetDocumentNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~GetDocumentNames.html). You cannot change the filename of a document if the document is a virtual component. Duplicate files are not allowed.
+The number, order, and type of documents to save must match the array returned by [IPackAndGo::GetDocumentNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~GetDocumentNames.html). You cannot change the filename of a document if the document is a virtual component. Duplicate files are not allowed.
 
-To remove a file from Pack and Go, specify an empty string for that file's element in the PathNameList array. To override the paths and filenames set by this method, use[IPackAndGo::SetSaveToName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~SetSaveToName.html).
+To remove a file from Pack and Go, specify an empty string for that file's element in the PathNameList array. To override the paths and filenames set by this method, use [IPackAndGo::SetSaveToName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~SetSaveToName.html).
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::GetDocumentSaveToNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~GetDocumentSaveToNames.html)
-
 [IPackAndGo::ISetDocumentSaveToNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html)
-
 [IPackAndGo::FlattenToSingleFolder Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~FlattenToSingleFolder.html)
 
 ## Availability

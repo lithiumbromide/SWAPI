@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 # ITessellation Interface Properties
 
-For a list of all members of this type, see[ITessellation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html).
+For a list of all members of this type, see [ITessellation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[ITessellation members](SolidWorks.In
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

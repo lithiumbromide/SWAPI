@@ -45,13 +45,7 @@ property System.bool Consume {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if the Split bodies are consumed, false if not
 
 ## VBA Syntax
 
-See
-
-[SplitBodyFeatureData::Consume](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~Consume.html)
-
-.
+See [SplitBodyFeatureData::Consume](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~Consume.html).
 
 ## Examples
 
 [Create Split Feature (VBA)](Create_Split-body_Feature_Example_VB.htm)
-
 [Create Split Feature (VB.NET)](Create_Split-body_Feature_Example_VBNET.htm)
-
 [Create Split Feature (C#)](Create_Split-body_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -80,11 +68,8 @@ Consumed means the split bodies are removed from the part and do not appear in t
 ## See Also
 
 [ISplitBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
 [ISplitBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData_members.html)
-
 [IFeatureManager::PostSplitBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostSplitBody.html)
-
 [IFeatureManager::PreSplitBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PreSplitBody.html)
 
 ## Availability

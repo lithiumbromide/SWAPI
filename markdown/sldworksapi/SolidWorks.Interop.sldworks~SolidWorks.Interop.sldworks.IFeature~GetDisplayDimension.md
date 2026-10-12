@@ -47,19 +47,11 @@ System.Object^ GetDisplayDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Pattern property as defined by
-
-[swFeatureDimensionParameter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureDimensionParameter_e.html)
+- `Index`: Pattern property as defined by [swFeatureDimensionParameter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureDimensionParameter_e.html)
 
 ### Return Value
 
@@ -67,30 +59,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[Feature::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetDisplayDimension.html)
-
-.
+See [Feature::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetDisplayDimension.html).
 
 ## Examples
 
 [Get Pattern Display Dimension (VBA)](Get_Pattern_Display_Dimension_Example_VB.htm)
-
 [Get Pattern Display Dimension (VB.NET)](Get_Pattern_Display_Dimension_Example_VBNET.htm)
-
 [Get Pattern Display Dimension (C#)](Get_Pattern_Display_Dimension_Example_CSharp.htm)
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::EnumDisplayDimensions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~EnumDisplayDimensions.html)
-
 [IFeature::GetFirstDisplayDimension Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetFirstDisplayDimension.html)
-
 [IFeature::GetNextDisplayDimension Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetNextDisplayDimension.html)
 
 ## Availability

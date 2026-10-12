@@ -45,25 +45,15 @@ property System.int LayerOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Properties that have been overridden or should be overridden as defined in[swLayerOverride_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLayerOverride_e.html)(seeRemarks)
+Properties that have been overridden or should be overridden as defined in [swLayerOverride_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLayerOverride_e.html) (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::LayerOverride](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~LayerOverride.html)
-
-.
+See [DrawingComponent::LayerOverride](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~LayerOverride.html).
 
 ## Examples
 
@@ -73,11 +63,11 @@ See
 
 Currently, only SOLIDWORKS drawing documents support layers.
 
-You should set this property only when you want to reset specific visual properties to the default visual properties of the owning layer. If you want to change or set specific values for the visual property of this component, use[IDrawingComponent::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Style.html)or[IDrawingComponent::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Width.html).
+You should set this property only when you want to reset specific visual properties to the default visual properties of the owning layer. If you want to change or set specific values for the visual property of this component, use [IDrawingComponent::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Style.html) or [IDrawingComponent::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Width.html).
 
 In drawing documents, components can be created on a layer that has specific visual properties. By default, the component takes on the visual properties defined by the layer. However, for a specific component, you can override these visual properties (style or width).
 
-When the component is not on any layer, this property returns an undefined value. You can use[IDrawingComponent::Layer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Layer.html)to determine the name of the layer that this component is on. If an empty string is returned by this property, then this property is not used.
+When the component is not on any layer, this property returns an undefined value. You can use [IDrawingComponent::Layer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Layer.html) to determine the name of the layer that this component is on. If an empty string is returned by this property, then this property is not used.
 
 When you get this property, the returned bit value indicates which properties have been overridden. The bit indicators are:
 
@@ -92,7 +82,6 @@ When you set this property, the input bit value indicates which properties shoul
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
 
 ## Availability

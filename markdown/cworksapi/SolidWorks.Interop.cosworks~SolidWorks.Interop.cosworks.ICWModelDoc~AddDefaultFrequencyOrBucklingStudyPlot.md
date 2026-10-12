@@ -64,36 +64,25 @@ System.int AddDefaultFrequencyOrBucklingStudyPlot(
 - `BAllModeShapes`: True to create plots for all mode shapes, false to create plots for the first NDefMaxModeShapeValue mode shapes
 - `NDefMaxModeShapeValue`: Maximum number of mode shapes to plot; valid only if BAllModeShapes is false
 - `BDisplacement`: True to plot displacement, false to not
-- `NDisplacementValue`: Type of displacement result to plot as defined by
-
-[swsFrequencyBucklingResultDisplacementComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyBucklingResultDisplacementComponentTypes_e.html)
+- `NDisplacementValue`: Type of displacement result to plot as defined by [swsFrequencyBucklingResultDisplacementComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyBucklingResultDisplacementComponentTypes_e.html)
 
 ### Return Value
 
-Error code as defined by
-
-[swsAddDefaultFrequencyOrBucklingStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultFrequencyOrBucklingStudyPlotResultError_e.html)
+Error code as defined by [swsAddDefaultFrequencyOrBucklingStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultFrequencyOrBucklingStudyPlotResultError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::AddDefaultFrequencyOrBucklingStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultFrequencyOrBucklingStudyPlot.html)
-
-.
+See [CWModelDoc::AddDefaultFrequencyOrBucklingStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultFrequencyOrBucklingStudyPlot.html).
 
 ## Examples
 
 [Create Frequency Study with Solid Mesh (VBA)](Create_Frequency_Study_with_Solid_Mesh_Example_VB.htm)
-
 [Create Frequency Study with Solid Mesh (VB.NET)](Create_Frequency_Study_with_Solid_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Solid Mesh (C#)](Create_Frequency_Study_with_Solid_Mesh_Example_CSharp.htm)
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
 
 ## Availability

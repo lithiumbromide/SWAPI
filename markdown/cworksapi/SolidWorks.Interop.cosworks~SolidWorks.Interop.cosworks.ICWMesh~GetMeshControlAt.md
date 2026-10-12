@@ -57,26 +57,16 @@ CWMeshControl^ GetMeshControlAt(
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetMeshControlAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetMeshControlAt.html)
-
-.
+See [CWMesh::GetMeshControlAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetMeshControlAt.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::ApplyMeshControl Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~ApplyMeshControl.html)
-
 [ICWMesh::DeleteMeshControl Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~DeleteMeshControl.html)
-
 [ICWMesh::MeshControlCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MeshControlCount.html)
-
 [ICWMesh::AutomaticTransition Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~AutomaticTransition.html)
-
 [ICWStudy::CreateMeshForMeshControl Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMeshForMeshControl.html)
 
 ## Availability

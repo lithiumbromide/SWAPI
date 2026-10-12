@@ -1,6 +1,5 @@
 ---
-title: "AttributeDef Object
-Members"
+title: "AttributeDef Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AttributeDef_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AttributeDef_members.html"
 ---
 
-# AttributeDef Object
-Members
+# AttributeDef Object Members
 
 ## Public Methods
 

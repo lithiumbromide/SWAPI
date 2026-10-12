@@ -9,12 +9,9 @@ source: "API_GB/Create_User_Picture_Example_CSharp.htm"
 
 # Create User Picture Example (C#)
 
-This example shows how to display a user's picture in a
-form and pop up user information when hovering over a form label.
+This example shows how to display a user's picture in a form and pop up user information when hovering over a form label.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

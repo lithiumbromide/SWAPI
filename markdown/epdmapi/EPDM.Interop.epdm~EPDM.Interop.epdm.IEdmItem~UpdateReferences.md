@@ -42,32 +42,20 @@ void UpdateReferences(
 
 ### Parameters
 
-- `ppoAddReferences`: Array of
-
-[EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
-structures; one structure for each item reference to add or update
-- `ppoRemoveReferences`: Array of
-
-[EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
-structures; one structure for each item reference to remove
+- `ppoAddReferences`: Array of [EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html) structures; one structure for each item reference to add or update
+- `ppoRemoveReferences`: Array of [EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html) structures; one structure for each item reference to remove
 
 ## Examples
 
-See the
-
-[IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html)
-
-examples.
+See the [IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html) examples.
 
 ## Remarks
 
-It is more efficient to use[IEdmBatchItemReferenceUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html), if you need to update the references of several items at the same time.
+It is more efficient to use [IEdmBatchItemReferenceUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html), if you need to update the references of several items at the same time.
 
 Note that the references in argument ppoRemoveReferences are deleted after references in ppoAddReferences are created or updated. A reference present in both lists is, therefore, updated and then immediately deleted.
 
-See the[Programming Items](Items.htm)topic for more information.
+See the [Programming Items](Items.htm) topic for more information.
 
 [Return codes](ReturnCodes.htm):
 
@@ -77,7 +65,6 @@ See the[Programming Items](Items.htm)topic for more information.
 ## See Also
 
 [IEdmItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html)
-
 [IEdmItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem_members.html)
 
 ## Availability

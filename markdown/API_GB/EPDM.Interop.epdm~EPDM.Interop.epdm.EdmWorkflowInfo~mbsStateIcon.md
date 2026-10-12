@@ -39,5 +39,4 @@ The state icons are stored in Wflcons.dll.
 ## See Also
 
 [EdmWorkflowInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo.html)
-
 [EdmWorkflowInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo_members.html)

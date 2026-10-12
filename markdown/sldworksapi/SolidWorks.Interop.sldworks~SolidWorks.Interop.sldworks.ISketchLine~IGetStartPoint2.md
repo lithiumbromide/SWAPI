@@ -40,36 +40,20 @@ SketchPoint IGetStartPoint2()
 SketchPoint^ IGetStartPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Start
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or NULL if operation fails
+Start [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or NULL if operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchLine::IGetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetStartPoint2.html)
-
-.
+See [SketchLine::IGetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetStartPoint2.html).
 
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [ISketchLine::GetStartPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine~GetStartPoint2.html)
 
 ## Availability

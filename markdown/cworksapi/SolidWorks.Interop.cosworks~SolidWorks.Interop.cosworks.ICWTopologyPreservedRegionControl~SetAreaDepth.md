@@ -52,32 +52,19 @@ void SetAreaDepth(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SetAreaDepth](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetAreaDepth.html)
-
-.
+See [CWTopologyPreservedRegion::SetAreaDepth](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetAreaDepth.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## Remarks
 
-This method is valid only if
-
-[ICWTopologyPreservedRegionControl::SetIncludeRegionDepth](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth.html)
-
-is set to 1.
+This method is valid only if [ICWTopologyPreservedRegionControl::SetIncludeRegionDepth](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth.html) is set to 1.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

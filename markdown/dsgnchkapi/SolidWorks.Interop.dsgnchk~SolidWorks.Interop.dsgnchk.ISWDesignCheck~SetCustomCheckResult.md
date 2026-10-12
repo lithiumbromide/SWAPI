@@ -53,39 +53,19 @@ System.int SetCustomCheckResult(
 
 ### Parameters
 
-- `vbIsCheckPassed`: True to add your Custom Check to the
-
-Passed Checks
-
-results list and ignore sfArrayFailedItems, false to add your Custom Check to the
-
-Failed Checks
-
-results list and list sfArrayFailedItems
-- `sfArrayFailedItems`: Array of strings of failed items found by your SOLIDWORKS Design Checker Custom Check validation macro; array name must be enclosed within parentheses (see
-
-Example
-
-and
-
-Remarks
-
-)
+- `vbIsCheckPassed`: True to add your Custom Check to the **Passed Checks** results list and ignore sfArrayFailedItems, false to add your Custom Check to the **Failed Checks** results list and list sfArrayFailedItems
+- `sfArrayFailedItems`: Array of strings of failed items found by your SOLIDWORKS Design Checker Custom Check validation macro; array name must be enclosed within parentheses (see **Example** and **Remarks**)
 
 ### Return Value
 
-One of the following[dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)enumerators:
+One of the following [dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html) enumerators:
 
 - 0 = dsgnchkNOErr
 - 8 = dsgnchkInvalidCallToAPI
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::SetCustomCheckResult](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~SetCustomCheckResult.html)
-
-.
+See [SWDesignCheck::SetCustomCheckResult](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~SetCustomCheckResult.html).
 
 ## Examples
 
@@ -95,23 +75,23 @@ See
 
 ‘**********************************************************
 
-‘ If check passes, then pass trueto SOLIDWORKS Design Checker API
+‘ If check passes, then pass true to SOLIDWORKS Design Checker API
 
 ‘**********************************************************
 
-SubPassCheck()
+Sub PassCheck()
 
-DimswApp As SOLIDWORKS.SldWorks
+Dim swApp As SOLIDWORKS.SldWorks
 
-DimdcApp As DesignCheckerLib.SWDesignCheck
+Dim dcApp As DesignCheckerLib.SWDesignCheck
 
-SetswApp = Application.SldWorks
+Set swApp = Application.SldWorks
 
-SetdcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
+Set dcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
 
 Dim errorCode as Long
 
-errorCode =dcApp. SetCustomCheckResult ( True , Null )
+errorCode = dcApp.**SetCustomCheckResult**(True, Null)
 
 End Sub
 
@@ -127,11 +107,11 @@ End Sub
 
 ‘**********************************************************
 
-SubFailedCheck1Dim()
+Sub FailedCheck1Dim()
 
-DimFailedItemsArr() As String
+Dim FailedItemsArr() As String
 
-ReDimFailedItemsArr(1 To 4) As String
+ReDim FailedItemsArr(1 To 4) As String
 
 FailedItemsArr(1) = "Failed Item 1"
 
@@ -141,19 +121,19 @@ FailedItemsArr(3) = "Failed Item 3"
 
 FailedItemsArr(4) = "Failed Item 4"
 
-DimswApp As SOLIDWORKS.SldWorks
+Dim swApp As SOLIDWORKS.SldWorks
 
-DimdcApp As DesignCheckerLib.SWDesignCheck
+Dim dcApp As DesignCheckerLib.SWDesignCheck
 
-SetswApp = Application.SldWorks
+Set swApp = Application.SldWorks
 
-SetdcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
+Set dcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
 
 Dim errorCode as Long
 
-errorCode =dcApp. SetCustomCheckResult ( False , (FailedItemsArr))
+errorCode = dcApp.**SetCustomCheckResult**(False, (FailedItemsArr))
 
-EndSub
+End Sub
 
 +++
 
@@ -165,17 +145,17 @@ EndSub
 
 ‘ when a user selects them
 
-' Names must befully qualified forselection with
+' Names must be fully qualified for selection with
 
-' IModelDocExtension::SelectByID2
+' [IModelDocExtension::SelectByID2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
 
 ‘**********************************************************
 
-SubFailedCheck2Dim ()
+Sub **FailedCheck2Dim**()
 
-DimFailedItemsArr() As String
+Dim FailedItemsArr() As String
 
-ReDimFailedItemsArr(0 To 2, 0 To 1) As String
+ReDim FailedItemsArr(0 To 2, 0 To 1) As String
 
 FailedItemsArr(0, 0) = "RD2@Drawing View2"
 
@@ -189,37 +169,27 @@ FailedItemsArr(2, 0) = "My Failed Item 3"
 
 FailedItemsArr(2, 1) = ""
 
-DimswApp As SOLIDWORKS.SldWorks
+Dim swApp As SOLIDWORKS.SldWorks
 
-DimdcApp As DesignCheckerLib.SWDesignCheck
+Dim dcApp As DesignCheckerLib.SWDesignCheck
 
-SetswApp = Application.SldWorks
+Set swApp = Application.SldWorks
 
-SetdcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
+Set dcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
 
 Dim errorCode as Long
 
-errorCode =
+errorCode = dcApp.**SetCustomCheckResult**(False, (FailedItemsArr))
 
-dcApp.
-
-SetCustomCheckResult
-
-(
-
-False
-
-, (FailedItemsArr))
-
-EndSub
+End Sub
 
 +++
 
 ‘ Enumerators
 
-DimFailedItemsArr As String
+Dim FailedItemsArr As String
 
-ReDimFailedItemsArr(0 To 2, 0 To 1) As String
+ReDim FailedItemsArr(0 To 2, 0 To 1) As String
 
 While(...)
 
@@ -233,7 +203,7 @@ While(...)
 
 ‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘
 
-ReDim preserveFailedItemsArr...
+ReDim preserve FailedItemsArr...
 
 FailedItemsArr(iLoopCount, 0) = "RD2@Drawing View2"
 
@@ -241,17 +211,17 @@ FailedItemsArr(iLoopCount, 1) = "DIMENSION"
 
 Wend
 
-DimswApp As SOLIDWORKS.SldWorks
+Dim swApp As SOLIDWORKS.SldWorks
 
-DimdcApp As DesignCheckerLib.SWDesignCheckSet
+Dim dcApp As DesignCheckerLib.SWDesignCheckSet
 
-SetswApp = Application.SldWorks
+Set swApp = Application.SldWorks
 
-SetdcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
+Set dcApp = swApp.GetAddInObject("SWDesignChecker.SWDesignCheck")
 
 Dim errorCode as Long
 
-errorCode = dcApp. SetCustomCheckResult ( False , (FailedItemsArr) )
+errorCode = dcApp.**SetCustomCheckResult** (False, (FailedItemsArr) )
 
 ## Examples
 
@@ -277,38 +247,26 @@ If your Custom Check validation macro returns true, then your Custom Check valid
   For example:
 
   ' Enumerators
-
   Dim FailedItemsArr As String
-
   ReDim FailedItemsArr(0 To 2, 0 To 1) As String
-
   ' Enumerators
 
   - 0 To 2: reflects the upper dimension size (3) and means that there are 3 failures in the result.
   - 0 To 1: reflects the lower dimension size (2) means that the lower dimension size is 2.
   - It is not mandatory for the array to start with 0; the array can start with any dimension; e.g., (1 To 10) or (11 To 15) or (-5 To -2), etc.
-- In the (X,0) positions of the array, you must pass the failed item's name. In the (X,1) positions of the array, you must pass the failed item's type string as defined in
-
-  [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-  .
+- In the (X,0) positions of the array, you must pass the failed item's name. In the (X,1) positions of the array, you must pass the failed item's type string as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html).
 
   For example:
 
   ' Dimension
-
   FailedItemsArr(0, 0) = "RD2@Drawing View2"
-
   FailedItemsArr(0, 1) = "DIMENSION"
 
   FailedItemsArr(1, 0) = "RD1@Drawing View4"
-
   FailedItemsArr(1, 1) = "DIMENSION"
 
   FailedItemsArr(2, 0) = "My Failed Item 3"
-
   FailedItemsArr(2, 1) = "Annotation"
-
   ' Dimension
 
   - Having a two-dimensional array or filling (X,1) positions is not mandatory.
@@ -319,7 +277,6 @@ If your Custom Check validation macro returns true, then your Custom Check valid
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)
 
 ## Availability

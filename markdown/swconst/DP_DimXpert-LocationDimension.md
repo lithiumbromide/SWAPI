@@ -9,50 +9,14 @@ source: "swconst/DP_DimXpert-LocationDimension.htm"
 
 # Document Properties > DimXpert > Location Dimension
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Distance - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationDistanceTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationDistanceTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for linear
-dimensions between two features |
-| Distance - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationDistanceTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationDistanceTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for the distance of linear dimensions between two features |
-| Distance - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationDistanceTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationDistanceTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance
-for the distance of linear dimensions between two features |
-| Distance - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationDistanceBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationDistanceBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance
-for the distance of linear dimensions between two features |
-| Angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationAngleTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationAngleTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for angular
-dimensions between two features |
-| Angle - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationAngleTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationAngleTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for the angle of angular dimensions between two features |
-| Angle - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationAngleTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationAngleTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance
-for the angle of angular dimensions between two features |
-| Angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationAngleBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationAngleBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance
-for the angle of angular dimensions between two features |
-| Inclined Plane Dimension Scheme - Linear or Linear
-and angle | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertLocationInclinedPlane,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertLocationInclinedPlane ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to locate planes
-with angular dimensions |
+| Distance - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationDistanceTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationDistanceTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for linear dimensions between two features |
+| Distance - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationDistanceTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationDistanceTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for the distance of linear dimensions between two features |
+| Distance - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationDistanceTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationDistanceTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for the distance of linear dimensions between two features |
+| Distance - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationDistanceBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationDistanceBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for the distance of linear dimensions between two features |
+| Angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationAngleTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationAngleTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the tolerance type for angular dimensions between two features |
+| Angle - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationAngleTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationAngleTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for the angle of angular dimensions between two features |
+| Angle - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLocationAngleTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLocationAngleTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for the angle of angular dimensions between two features |
+| Angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLocationAngleBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLocationAngleBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for the angle of angular dimensions between two features |
+| Inclined Plane Dimension Scheme - Linear or Linear and angle | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertLocationInclinedPlane, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertLocationInclinedPlane , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to locate planes with angular dimensions |

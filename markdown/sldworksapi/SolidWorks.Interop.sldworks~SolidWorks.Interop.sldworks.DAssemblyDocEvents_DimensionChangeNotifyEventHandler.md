@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_DimensionChangeNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired when a dimension is changed through the
-
-Dimension
-
-dialog.
+Fired when a dimension is changed through the **Dimension** dialog.
 
 ## Syntax
 
@@ -47,35 +43,19 @@ public delegate System.int DAssemblyDocEvents_DimensionChangeNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `displayDim`: [Display dimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
-
-that has changed
+- `displayDim`: [Display dimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) that has changed
 
 ## VBA Syntax
 
-See
-
-[DimensionChangeNotif y Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DimensionChangeNotify_EV.html)
-
-.
+See [DimensionChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DimensionChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyDimensionChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyDimensionChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

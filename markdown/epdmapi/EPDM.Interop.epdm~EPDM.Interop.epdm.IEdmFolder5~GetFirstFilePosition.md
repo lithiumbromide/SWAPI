@@ -33,19 +33,16 @@ IEdmPos5^ GetFirstFilePosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first file in this folder
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first file in this folder
 
 ## Examples
 
 [Traverse Folders and Files in Vault (C#)](Traverse_Folders_and_Files_in_Vault_Example_CSharp.htm)
-
 [Traverse Folders and Files in Vault (VB.NET)](Traverse_Folders_and_Files_in_Vault_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, pass the returned first file position to[IEdmFolder5::GetNextFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetNextFile.html)to get the first file in the list. Then call IEdmFolder5::GetNextFile repeatedly to get the rest of the files in the list.
+After calling this method, pass the returned first file position to [IEdmFolder5::GetNextFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetNextFile.html) to get the first file in the list. Then call IEdmFolder5::GetNextFile repeatedly to get the rest of the files in the list.
 
 C++ users not using smart-pointer wrapper functions must release the returned pointer, IEdmPos5.
 
@@ -57,9 +54,7 @@ C++ users not using smart-pointer wrapper functions must release the returned po
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::GetFirstSubFolderPosition Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstSubFolderPosition.html)
 
 ## Availability

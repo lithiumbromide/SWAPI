@@ -40,36 +40,20 @@ System.object ConvertToVector()
 System.Object^ ConvertToVector();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Newly created
-
-[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-or NULL if the operation fails
+Newly created [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathPoint::ConvertToVector](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~ConvertToVector.html)
-
-.
+See [MathPoint::ConvertToVector](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~ConvertToVector.html).
 
 ## See Also
 
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint_members.html)
-
 [IMathPoint::IConvertToVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint~IConvertToVector.html)
 
 ## Availability

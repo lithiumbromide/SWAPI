@@ -55,13 +55,7 @@ System.bool SetFromToText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,19 +69,11 @@ True if From-To text successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetFromToText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFromToText.html)
-
-.
+See [Gtol::SetFromToText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFromToText.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -99,9 +85,7 @@ The From-To symbol:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetFromToText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFromToText.html)
 
 ## Availability

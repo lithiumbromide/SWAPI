@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetAutoDetermineCentralMidPlane Method (ICWTopologyDemoldControl)
 
-Obsolete. Superseded by ICWTopologyDemoldControl::SetAutoDetermineCentralMidPlane2.
+Obsolete. Superseded by [ICWTopologyDemoldControl::SetAutoDetermineCentralMidPlane2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SetAutoDetermineCentralMidPlane2.html).
 
 ## Syntax
 
@@ -52,33 +52,20 @@ void SetAutoDetermineCentralMidPlane(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::SetAutoDetermineCentralMidPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetAutoDetermineCentralMidPlane.html)
-
-.
+See [CWTopologyDemoldControl::SetAutoDetermineCentralMidPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetAutoDetermineCentralMidPlane.html).
 
 ## Remarks
 
-This method is valid only if[ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html)sets NDir to[swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html).swsTopologyDemoldDirection_TwoDirectionMidPlane.
+This method is valid only if [ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html) sets NDir to [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html).swsTopologyDemoldDirection_TwoDirectionMidPlane.
 
 If BFlag is set to:
 
-- 0, use
-
-  [ICWTopologyDemoldControl::SelectPlaneForDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectPlaneForDirection.html)
-
-  to specify the central mid plane.
-- 1, use
-
-  [ICWTopologyDemoldControl::SelectEdgeForPullDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectEdgeForPullDirection.html)
-
-  .
+- 0, use [ICWTopologyDemoldControl::SelectPlaneForDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectPlaneForDirection.html) to specify the central mid plane.
+- 1, use [ICWTopologyDemoldControl::SelectEdgeForPullDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectEdgeForPullDirection.html).
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
 
 ## Availability

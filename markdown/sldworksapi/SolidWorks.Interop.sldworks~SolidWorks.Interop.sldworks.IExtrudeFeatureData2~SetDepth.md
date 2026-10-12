@@ -50,13 +50,7 @@ void SetDepth(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::SetDepth](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetDepth.html)
-
-.
+See [ExtrudeFeatureData2::SetDepth](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetDepth.html).
 
 ## Examples
 
@@ -77,14 +67,12 @@ See
 
 ## Remarks
 
-Use this method to specify the surface offset distance when[end condition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetEndCondition.html)is swEndCondOffsetFromSurface.
+Use this method to specify the surface offset distance when [end condition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetEndCondition.html) is swEndCondOffsetFromSurface.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::GetDepth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetDepth.html)
 
 ## Availability

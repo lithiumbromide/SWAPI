@@ -67,36 +67,24 @@ System.bool SetAssignedMassProp(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Mass`: Value for mass
-- `Center_x`: x coordinate for center of gravityParamDesc
+- `Center_x`: x coordinate for center of gravity
 - `Center_y`: y coordinate for center of gravity
-- `Center_z`: z coordinate for center of gravityParamDesc
-- `Config_opt`: Configuration options as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
-- `Config_names`: Array of the configuration namesParamDesc
+- `Center_z`: z coordinate for center of gravity
+- `Config_opt`: Configuration options as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_names`: Array of the configuration names
 
 ### Return Value
 
 True if the mass and center of gravity are set, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[MassProperty::SetAssignedMassProp](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetAssignedMassProp.html)
-
-.
+See [MassProperty::SetAssignedMassProp](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetAssignedMassProp.html).
 
 ## Remarks
 
@@ -109,17 +97,11 @@ See
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetAssignedMassProp Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetAssignedMassProp.html)
-
 [IMassProperty::Mass Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~Mass.html)
-
 [IMassProperty::UserAssigned Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~UserAssigned.html)
-
 [IMassProperty::IGetCenterOfMass Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~IGetCenterOfMass.html)
-
 [IMassProperty::CenterOfMass Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~CenterOfMass.html)
 
 ## Availability

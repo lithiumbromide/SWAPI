@@ -1,6 +1,5 @@
 ---
-title: "MotionPlotFeatureData Object
-Members"
+title: "MotionPlotFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MotionPlotFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MotionPlotFeatureData_members.html"
 ---
 
-# MotionPlotFeatureData Object
-Members
+# MotionPlotFeatureData Object Members
 
 ## Public Methods
 

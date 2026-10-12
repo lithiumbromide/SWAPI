@@ -40,45 +40,27 @@ System.object GetLeaderPoints()
 System.Object^ GetLeaderPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array containing leader point information (see
-
-Remarks
-
-)
+Array containing leader point information (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetLeaderPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetLeaderPoints.html)
-
-.
+See [SketchBlockInstance::GetLeaderPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetLeaderPoints.html).
 
 ## Remarks
 
 For the COM interface, you must specify an array size of 9. Depending on the number of points in the leader, this array might only be partially filled upon return from the API. For the OLE Automation interface, the returned SafeArray is sized appropriately for the number of points returned.
 
-You must determine the number of points in the leader to use the data returned by this method. The number of points is a function of the number of segments in the leader. The leader line can have one or two segments depending on whether it is straight or bent. Use[ISketchBlockInstnace::GetLeaderStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetLeaderStyle.html)to determine the number of points in the leader.
-
-(Table)=========================================================
+You must determine the number of points in the leader to use the data returned by this method. The number of points is a function of the number of segments in the leader. The leader line can have one or two segments depending on whether it is straight or bent. Use [ISketchBlockInstnace::GetLeaderStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetLeaderStyle.html) to determine the number of points in the leader.
 
 | If SketchBlockInstance::GetLeaderStyle returns... | Then the number of points equals... |
 | --- | --- |
 | swNO_LEADER | 0 |
 | swSTRAIGHT | 2 |
 | swBENT | 3 |
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 The format of the return array is:
 
@@ -95,11 +77,8 @@ The format of the return array is:
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::IGetLeaderPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~IGetLeaderPoints.html)
-
 [ISketchBlockInstance::SetLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~SetLeader.html)
 
 ## Availability

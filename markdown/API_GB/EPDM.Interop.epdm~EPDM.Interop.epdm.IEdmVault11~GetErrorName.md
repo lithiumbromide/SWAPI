@@ -48,7 +48,6 @@ Internal error code name
 ## Examples
 
 [Get and Set Item References (C#)](Get_and_Set_Item_References_Example_CSharp.htm)
-
 [Get and Set Item References (VB.NET)](Get_and_Set_Item_References_Example_VBNET.htm)
 
 ## Remarks
@@ -62,9 +61,7 @@ This method returns the internal error code name for an HRESULT error code. For 
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
-
 [IEdmVault11::GetErrorMessage Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorMessage.html)
 
 ## Availability

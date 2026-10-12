@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_fields.html"
 
 # EdmAddFileInfo Structure Fields
 
-For a list of all members of this type, see[EdmAddFileInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_members.html).
+For a list of all members of this type, see [EdmAddFileInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_members.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[EdmAddFileInfo members](EPDM.Interop
 ## See Also
 
 [EdmAddFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

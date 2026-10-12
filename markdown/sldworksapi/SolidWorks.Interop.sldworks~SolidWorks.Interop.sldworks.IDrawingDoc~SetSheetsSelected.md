@@ -46,48 +46,31 @@ void SetSheetsSelected(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `NewSheetList`: Names of the drawing sheets whose setups to modify (see
-
-Remarks
-
-)
+- `NewSheetList`: Names of the drawing sheets whose setups to modify (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::SetSheetsSelected](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetSheetsSelected.html)
-
-.
+See [DrawingDoc::SetSheetsSelected](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetSheetsSelected.html).
 
 ## Examples
 
 [Modify Multiple Drawing Sheets Setups (C#)](Modify_Multiple_Drawing_Sheets_Setups_Example_CSharp.htm)
-
 [Modify Multiple Drawing Sheets Setups (VB.NET)](Modify_Multiple_Drawing_Sheets_Setups_Example_VBNET.htm)
-
 [Modify Multiple Drawing Sheets Setups (VBA)](Modify_Multiple_Drawing_Sheets_Setups_Example_VB.htm)
 
 ## Remarks
 
 The first drawing sheet in the drawing is automatically included in NewSheetList and need not be specified.
 
-After calling this method, call[IDrawingDoc::SetupSheet6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SetupSheet6.html)to specify how to modify the setups of the specified drawing sheets.
+After calling this method, call [IDrawingDoc::SetupSheet6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SetupSheet6.html) to specify how to modify the setups of the specified drawing sheets.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

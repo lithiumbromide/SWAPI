@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in this pattern (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in this pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,26 +59,15 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetTransform.html)
-
-.
+See [LocalCircularPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-1 <=
-
-Instance
-
-<=
-
-[ILocalCircularPatternFeatureData::TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~TotalInstances.html)
+1 <= `Instance` <= [ILocalCircularPatternFeatureData::TotalInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~TotalInstances.html)
 
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
 
 ## Availability

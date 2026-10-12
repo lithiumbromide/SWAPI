@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureLocalCurveDrivenPattern Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[ILocalCurvePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [ILocalCurvePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html).
 
 ## Syntax
 
@@ -105,13 +95,7 @@ Feature^ FeatureLocalCurveDrivenPattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -119,21 +103,9 @@ See
 - `Num1`: Number of instances in the first direction, including the original instance
 - `EqualSpacing1`: True uses equal spacing between instances in the first direction, false does not
 - `Spacing1`: Distance between pattern instances along the curve in the first direction when EqualSpacing1 is set to false
-- `ReferencePoint`: Type of selected reference point as defined in
-
-[swLocalCurvePatternReferencePoint_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternReferencePoint_e.html)
-
-(see
-
-Remarks
-
-)
-- `CurveMethod`: Curve method as defined in
-
-[swLocalCurvePatternCurveMethod_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternCurveMethod_e.html)
-- `AlignMethod`: Alignment method as defined in
-
-[swLocalCurvePatternAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternAlignment_e.html)
+- `ReferencePoint`: Type of selected reference point as defined in [swLocalCurvePatternReferencePoint_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternReferencePoint_e.html) (see **Remarks**)
+- `CurveMethod`: Curve method as defined in [swLocalCurvePatternCurveMethod_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternCurveMethod_e.html)
+- `AlignMethod`: Alignment method as defined in [swLocalCurvePatternAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLocalCurvePatternAlignment_e.html)
 - `Direction2`: True creates the pattern in the second direction, false does not
 - `FlipDir2`: True flips the direction of the second direction, false does not
 - `Num2`: Number of instances in the second direction
@@ -143,17 +115,11 @@ Remarks
 
 ### Return Value
 
-Local curve pattern
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Local curve pattern [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureLocalCurveDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLocalCurveDrivenPattern.html)
-
-.
+See [FeatureManager::FeatureLocalCurveDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLocalCurveDrivenPattern.html).
 
 ## Remarks
 
@@ -168,7 +134,6 @@ See
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

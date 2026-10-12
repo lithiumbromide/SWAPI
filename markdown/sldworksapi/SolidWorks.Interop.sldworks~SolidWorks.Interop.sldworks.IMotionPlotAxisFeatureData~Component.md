@@ -45,32 +45,20 @@ property System.int Component {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Component of the result vector quantity as defined in[swMotionPlotAxisComponent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMotionPlotAxisComponent_e.html)
+Component of the result vector quantity as defined in [swMotionPlotAxisComponent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMotionPlotAxisComponent_e.html)
 
 ## VBA Syntax
 
-See
-
-[MotionPlotAxisFeatureData::Component](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotAxisFeatureData~Component.html)
-
-.
+See [MotionPlotAxisFeatureData::Component](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotAxisFeatureData~Component.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## Remarks
@@ -80,9 +68,7 @@ Some motion study results, such as linear displacement/velocity results, are a 3
 ## See Also
 
 [IMotionPlotAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotAxisFeatureData.html)
-
 [IMotionPlotAxisFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotAxisFeatureData_members.html)
-
 [IMotionPlotAxisFeatureData::ReferencePart Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotAxisFeatureData~ReferencePart.html)
 
 ## Availability

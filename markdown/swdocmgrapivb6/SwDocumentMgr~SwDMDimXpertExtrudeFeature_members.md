@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertExtrudeFeature Object
-Members"
+title: "SwDMDimXpertExtrudeFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertExtrudeFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertExtrudeFeature_members.html"
 ---
 
-# SwDMDimXpertExtrudeFeature Object
-Members
+# SwDMDimXpertExtrudeFeature Object Members
 
 ## Public Methods
 

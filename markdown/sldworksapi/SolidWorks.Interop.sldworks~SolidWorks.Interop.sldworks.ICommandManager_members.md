@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandManager Interface Members
 
-The following tables list the members exposed by[ICommandManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html).
+The following tables list the members exposed by [ICommandManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html).
 
 ## Public Properties
 
@@ -52,5 +52,4 @@ The following tables list the members exposed by[ICommandManager](SolidWorks.Int
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

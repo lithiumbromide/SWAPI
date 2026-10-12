@@ -9,8 +9,7 @@ source: "sldworksapi/Create_and_Name_Plane_Example_VB.htm"
 
 # Create and Name Planes Example (VBA)
 
-This example shows how to create five planes
-that are offset from each other and change each of their names.
+This example shows how to create five planes that are offset from each other and change each of their names.
 
 ```
 '---------------------------------------------------------

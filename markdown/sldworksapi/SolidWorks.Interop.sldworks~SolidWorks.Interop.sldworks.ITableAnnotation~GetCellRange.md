@@ -58,13 +58,7 @@ void GetCellRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetCellRange](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetCellRange.html)
-
-.
+See [TableAnnotation::GetCellRange](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetCellRange.html).
 
 ## Examples
 
 [Select Table Cells (C#)](Select_Table_Cells_Example_CSharp.htm)
-
 [Select Table Cells (VB.NET)](Select_Table_Cells_Example_VBNET.htm)
-
 [Select Table Cells (VBA)](Select_Table_Cells_Example_VB.htm)
 
 ## Remarks
@@ -106,36 +94,21 @@ Before calling this method, you can select the table cells in the graphics area 
 | Table column | Place the cursor just above the desired column and click the left-mouse button when the cursor changes to a solid arrow | All selected cells |
 | Table row | Place the cursor to just left of the desired row and click the left-mouse button when the cursor changes to a solid arrow | All selected cells |
 
-Run any of the examples in the
-
-Example
-
-section to better understand the values returned by this method.
+Run any of the examples in the **Example** section to better understand the values returned by this method.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetCellTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetCellTextFormat.html)
-
 [ITableAnnotation::GetCellUseDocTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetCellUseDocTextFormat.html)
-
 [ITableAnnotation::IsCellMerged Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~IsCellMerged.html)
-
 [ITableAnnotation::IsCellTextEditable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~IsCellTextEditable.html)
-
 [ITableAnnotation::MergeCells Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~MergeCells.html)
-
 [ITableAnnotation::SetCellRange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetCellRange.html)
-
 [ITableAnnotation::SetCellTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetCellTextFormat.html)
-
 [ITableAnnotation::CellTextHorizontalJustification Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~CellTextHorizontalJustification.html)
-
 [ITableAnnotation::CellTextVerticalJustification Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~CellTextVerticalJustification.html)
-
 [ITableAnnotation::DisplayedText Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~DisplayedText.html)
 
 ## Availability

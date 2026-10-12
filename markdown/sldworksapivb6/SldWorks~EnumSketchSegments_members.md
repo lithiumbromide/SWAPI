@@ -1,6 +1,5 @@
 ---
-title: "EnumSketchSegments Object
-Members"
+title: "EnumSketchSegments Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumSketchSegments_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumSketchSegments_members.html"
 ---
 
-# EnumSketchSegments Object
-Members
+# EnumSketchSegments Object Members
 
 ## Public Methods
 

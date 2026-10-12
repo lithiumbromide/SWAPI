@@ -9,8 +9,7 @@ source: "sldworksapi/Check_Interference_Between_Two_Bodies_Example_VB.htm"
 
 # Check for Interference Between Two Bodies Example (VBA)
 
-This example shows how to check for interference between two bodies in an
-assembly.
+This example shows how to check for interference between two bodies in an assembly.
 
 ```vb
  '--------------------------------------------------------------------------

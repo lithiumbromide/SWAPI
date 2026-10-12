@@ -51,30 +51,16 @@ System.bool IAddDisplayEnt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of graphical entity (see
+- `Type`: Type of graphical entity (see **Remarks**)
+- `Data`: - in-process, unmanaged C++: Pointer to an array of geometric data describing the entity (see **Remarks**)
 
-Remarks
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-)
-- `Data`: - in-process, unmanaged C++: Pointer to an array of geometric data describing the entity (see
-
-  Remarks
-
-  )
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -85,8 +71,6 @@ True if successful, false if not
 The new graphics displayed by this method are temporary. When the user changes the dimension, this display dimension reverts back to the SOLIDWORKS standard.
 
 The type controls which geometry is added and what information is placed in the data array. All colors and line styles are taken from IDisplayDimension.
-
-(Table)=========================================================
 
 | type | Description | data |
 | --- | --- | --- |
@@ -102,9 +86,7 @@ The size of the array is the size of the expected returned array.
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::AddDisplayEnt Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~AddDisplayEnt.html)
 
 ## Availability

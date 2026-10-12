@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Virtual_Sharp_Witness_Line_Data_Example_CSharp.htm"
 
 # Get Virtual Sharp Witness Line Data Example (C#)
 
-This example shows how to get the geometry data of all of the virtual sharp
-witness lines in a drawing.
+This example shows how to get the geometry data of all of the virtual sharp witness lines in a drawing.
 
 ```vb
  //----------------------------------------------------------------------------

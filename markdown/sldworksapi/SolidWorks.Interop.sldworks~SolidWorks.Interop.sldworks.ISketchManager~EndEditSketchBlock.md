@@ -46,13 +46,7 @@ void EndEditSketchBlock(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,24 +54,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::EndEditSketchBlock](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~EndEditSketchBlock.html)
-
-.
+See [SketchManager::EndEditSketchBlock](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~EndEditSketchBlock.html).
 
 ## Remarks
 
-Use[ISketchManager::EditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EditSketchBlock.html)to put the block in edit mode.
+Use [ISketchManager::EditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EditSketchBlock.html) to put the block in edit mode.
 
-See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
 
 ## Availability

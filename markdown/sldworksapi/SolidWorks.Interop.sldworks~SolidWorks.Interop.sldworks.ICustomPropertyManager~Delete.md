@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Delete Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::Delete2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Delete2.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::Delete2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Delete2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int Delete(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Delete](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Delete.html)
-
-.
+See [CustomPropertyManager::Delete](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Delete.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomerPropertyManager::Add2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Add2.html)
 
 ## Availability

@@ -46,28 +46,16 @@ public delegate System.int DAssemblyDocEvents_SensorAlertPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `SensorIn`: [Sensor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISensor.html)
-- `SensorAlertType`: Type of sensor as defined in
-
-[swSensorAlertType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSensorAlertType_e.html)
+- `SensorAlertType`: Type of sensor as defined in [swSensorAlertType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSensorAlertType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SensorAlertPreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~SensorAlertPreNotify_EV.html)
-
-.
+See [SensorAlertPreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~SensorAlertPreNotify_EV.html).
 
 ## Availability
 

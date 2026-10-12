@@ -1,5 +1,5 @@
 ---
-title: "Get SOLIDWORKS Version of Display Dimension (C#)"
+title: "Get Version of Display Dimension (C#)"
 project: ""
 interface: ""
 member: ""
@@ -7,10 +7,9 @@ kind: "example"
 source: "sldworksapi/Get_SOLIDWORKS_Version_of_Display_Dimension_Example_CSharp.htm"
 ---
 
-# Get SOLIDWORKS Version of Display Dimension (C#)
+# Get Version of Display Dimension (C#)
 
-This example shows how to find out if a display dimension in a drawing was
-created in SOLIDWORKS 2011 or later.
+This example shows how to find out if a display dimension in a drawing was created in SOLIDWORKS 2011 or later.
 
 ```vb
  //------------------------------------------------

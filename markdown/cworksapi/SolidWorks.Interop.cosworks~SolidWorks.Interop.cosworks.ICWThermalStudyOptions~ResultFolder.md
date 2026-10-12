@@ -51,16 +51,11 @@ Path for the results folder
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ResultFolder.html)
-
-.
+See [CWThermalStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ResultFolder.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

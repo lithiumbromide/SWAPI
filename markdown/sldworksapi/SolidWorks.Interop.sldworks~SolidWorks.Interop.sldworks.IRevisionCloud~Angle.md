@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Rotation angle in radians of this revision cloud annotation
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::Angle](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Angle.html)
-
-.
+See [RevisionCloud::Angle](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Angle.html).
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.bool IsDefeature()
 System.bool IsDefeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,18 @@ True if this configuration is a defeature configuration, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::IsDefeature](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsDefeature.html)
-
-.
+See [Configuration::IsDefeature](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsDefeature.html).
 
 ## Remarks
 
 A defeature configuration is a type of derived configuration. After using the Defeature tool to remove details from assemblies, multibody parts, and single-body parts, you can save the less-detailed model as a configuration and maintain references to the original part or assembly.
 
-For more information see the**SOLIDWORKS user-interface help > Assemblies > Other Assembly Techniques > Defeature**topic.
+For more information see the **SOLIDWORKS Design user-interface help > Assemblies > Other Assembly Techniques > Defeature** topic.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::IsDerived Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsDerived.html)
 
 ## Availability

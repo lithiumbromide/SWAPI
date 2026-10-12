@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18_members.html"
 
 # IEdmVault18 Interface Members
 
-The following tables list the members exposed by[IEdmVault18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html).
+The following tables list the members exposed by [IEdmVault18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmVault18](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault18 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

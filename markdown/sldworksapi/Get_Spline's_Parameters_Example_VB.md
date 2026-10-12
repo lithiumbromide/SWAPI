@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Spline's_Parameters_Example_VB.htm"
 
 # Get Spline's Parameters Example (VBA)
 
-This example shows how to get spline parameterization data for a selected
-sketch.
+This example shows how to get spline parameterization data for a selected sketch.
 
 ```vb
 '-----------------------------------------------

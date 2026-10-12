@@ -45,27 +45,15 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Display properties of slider control as defined in
-
-[swPropMgrPageSliderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageSliderStyle_e.html)
+Display properties of slider control as defined in [swPropMgrPageSliderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageSliderStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~Style.html)
-
-.
+See [PropertyManagerPageSlider::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~Style.html).
 
 ## Examples
 
@@ -82,7 +70,6 @@ If you do not set the any display properties, then the value is set to 0, which 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

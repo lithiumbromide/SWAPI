@@ -9,8 +9,7 @@ source: "sldworksapi/Override_Layer_Color_for_Area_Hatch_Example_VB.htm"
 
 # Override Layer Color for Area Hatch Example (VBA)
 
-This example shows how to set the color of an area hatch to override the
-color a layer.
+This example shows how to set the color of an area hatch to override the color a layer.
 
 ```
 '----------------------------------------------------------------------------

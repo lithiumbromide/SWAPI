@@ -42,13 +42,7 @@ property System.bool IgnoreColorMaterial {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True to ignore the color of this texture-based appearance, false to not
 
 ## VBA Syntax
 
-See
-
-[Texture::IgnoreColorMaterial](ms-its:sldworksapivb6.chm::/sldworks~Texture~IgnoreColorMaterial.html)
-
-.
+See [Texture::IgnoreColorMaterial](ms-its:sldworksapivb6.chm::/sldworks~Texture~IgnoreColorMaterial.html).
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
 
 ## Availability

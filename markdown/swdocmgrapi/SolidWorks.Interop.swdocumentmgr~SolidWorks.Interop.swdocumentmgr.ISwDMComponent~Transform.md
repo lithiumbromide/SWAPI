@@ -47,16 +47,11 @@ property System.Object^ Transform {
 Array containing 16 elements that define the transform:
 
 - First 12 elements are in a 4x3 matrix:
-
   |a, b, c|
-
   |d, e, f|
-
   |g, h, i|
-
   |j, k, l|
 - Next 3 elements define translation:
-
   |m, n, o|
 - Last 1 element is the scaling value:
   |n|
@@ -65,24 +60,15 @@ Be aware that the SOLIDWORKS API method IComponent2::Transform2 returns an IMath
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent::Transform](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~Transform.html)
-
-.
+See [SwDMComponent::Transform](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~Transform.html).
 
 ## Remarks
 
-This property only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use
-
-[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)
-
-.
+This property only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
 ## See Also
 
 [ISwDMComponent Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent.html)
-
 [ISwDMComponent Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent_members.html)
 
 ## Availability

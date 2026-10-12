@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # ReverseDir Property (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::ReverseDir](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReverseDir.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::ReverseDir](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReverseDir.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool ReverseDir {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::ReverseDir](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~ReverseDir.html)
-
-.
+See [DomeFeatureData::ReverseDir](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~ReverseDir.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

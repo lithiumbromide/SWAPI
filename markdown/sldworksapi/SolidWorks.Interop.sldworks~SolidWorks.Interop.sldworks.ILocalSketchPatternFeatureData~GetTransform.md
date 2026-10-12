@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in this local sketch-driven pattern feature (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in this local sketch-driven pattern feature (see **Remarks**)
 
 ### Return Value
 
@@ -69,22 +59,15 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[LocalSketchPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetTransform.html)
-
-.
+See [LocalSketchPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-Valid values for Instance are 1 <= Instance <=
-
-[ILocalSketchPatternFeatureData::GetPatternComponentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalSketchPatternFeatureData~GetPatternComponentCount.html)
+Valid values for Instance are 1 <= Instance <= [ILocalSketchPatternFeatureData::GetPatternComponentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalSketchPatternFeatureData~GetPatternComponentCount.html)
 
 ## See Also
 
 [ILocalSketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData.html)
-
 [ILocalSketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData_members.html)
 
 ## Availability

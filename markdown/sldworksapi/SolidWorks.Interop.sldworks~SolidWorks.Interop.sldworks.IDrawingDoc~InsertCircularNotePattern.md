@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertCircularNotePattern Method (IDrawingDoc)
 
-Inserts a circular note pattern using the selected
-
-[note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-.
+Inserts a circular note pattern using the selected [note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool InsertCircularNotePattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,26 +84,18 @@ True if the circular note pattern is created, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCircularNotePattern](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCircularNotePattern.html)
-
-.
+See [DrawingDoc::InsertCircularNotePattern](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCircularNotePattern.html).
 
 ## Examples
 
 [Insert Linear and Circular Note Patterns (C#)](Insert_Linear_and_Circular_Note_Patterns_Example_CSharp.htm)
-
 [Insert Linear and Circular Note Patterns (VB.NET)](Insert_Linear_and_Circular_Note_Patterns_Example_VBNET.htm)
-
 [Insert Linear and Circular Note Patterns (VBA)](Insert_Linear_and_Circular_Note_Patterns_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::InsertLinearNotePattern Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertLinearNotePattern.html)
 
 ## Availability

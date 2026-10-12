@@ -37,7 +37,7 @@ public enum class EdmLibVer : public System.Enum
 | Member | Description |
 | --- | --- |
 | EdmLibVer_Major | 5 |
-| EdmLibVer_Minor | 28; For SOLIDWORKS PDM 2025 |
+| EdmLibVer_Minor | 29; For SOLIDWORKS PDM 2026 |
 
 ## Remarks
 
@@ -66,6 +66,7 @@ The type library version is not the same as the SOLIDWORKS PDM version number th
 | 5.26 | 2023 |
 | 5.27 | 2024 |
 | 5.28 | 2025 |
+| 5.29 | 2026 |
 
 ## See Also
 

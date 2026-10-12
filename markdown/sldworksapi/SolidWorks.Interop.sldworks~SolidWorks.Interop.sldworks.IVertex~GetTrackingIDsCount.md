@@ -47,19 +47,11 @@ System.int GetTrackingIDsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TrackingCookie`: Cookie obtained from
-
-[ISldWorks::RegisterTrackingDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterTrackingDefinition.html)
+- `TrackingCookie`: Cookie obtained from [ISldWorks::RegisterTrackingDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterTrackingDefinition.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ Number of tracking IDs on this vertex
 
 ## VBA Syntax
 
-See
-
-[Vertex::GetTrackingIDsCount](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetTrackingIDsCount.html)
-
-.
+See [Vertex::GetTrackingIDsCount](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetTrackingIDsCount.html).
 
 ## Examples
 
@@ -79,22 +67,17 @@ See
 
 ## Remarks
 
-Call this method before calling[IVertex::IGetTrackingIDs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex~IGetTrackingIDs.html)to determine the size of the array for that method.
+Call this method before calling [IVertex::IGetTrackingIDs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex~IGetTrackingIDs.html) to determine the size of the array for that method.
 
-See[Tracking IDs](sldworksAPIProgGuide.chm::/OVERVIEW/Tracking_IDs.htm)for more information.
+See [Tracking IDs](sldworksAPIProgGuide.chm::/OVERVIEW/Tracking_IDs.htm) for more information.
 
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [IVertex::GetTrackingIDs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetTrackingIDs.html)
-
 [IVertex::RemoveTrackingID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~RemoveTrackingID.html)
-
 [IVertex::SetTrackingID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~SetTrackingID.html)
-
 [IModelDocExtension::FindTrackedObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~FindTrackedObjects.html)
 
 ## Availability

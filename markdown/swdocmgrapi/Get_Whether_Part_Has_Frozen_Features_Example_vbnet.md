@@ -11,8 +11,7 @@ source: "swdocmgrapi/Get_Whether_Part_Has_Frozen_Features_Example_vbnet.htm"
 
 ## Get Whether Part Has Frozen Features Example (VB.NET)
 
-This example shows how to get whether a part document has frozen features,
-and, if so, whether those features need updating.
+This example shows how to get whether a part document has frozen features, and, if so, whether those features need updating.
 
 ```vb
  '------------------------------------------------------------------

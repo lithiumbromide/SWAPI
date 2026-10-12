@@ -50,35 +50,21 @@ void SetRotationAxis(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `RotationAxis`: Rotation axis entity
-- `RotAxisIndex`: Rotation manipulator index as defined in
-
-[swRotationAxisIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRotationAxisIndex_e.html)
+- `RotAxisIndex`: Rotation manipulator index as defined in [swRotationAxisIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRotationAxisIndex_e.html)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::SetRotationAxis](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~SetRotationAxis.html)
-
-.
+See [ExplodeStep::SetRotationAxis](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~SetRotationAxis.html).
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::GetRotationAxis Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetRotationAxis.html)
 
 ## Availability

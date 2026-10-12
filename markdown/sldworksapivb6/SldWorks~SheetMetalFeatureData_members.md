@@ -1,6 +1,5 @@
 ---
-title: "SheetMetalFeatureData Object
-Members"
+title: "SheetMetalFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SheetMetalFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SheetMetalFeatureData_members.html"
 ---
 
-# SheetMetalFeatureData Object
-Members
+# SheetMetalFeatureData Object Members
 
 ## Public Methods
 

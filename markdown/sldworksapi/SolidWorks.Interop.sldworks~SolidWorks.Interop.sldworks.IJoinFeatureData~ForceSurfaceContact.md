@@ -45,13 +45,7 @@ property System.bool ForceSurfaceContact {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to join any coincident faces and any intruding volumes, false to not
 
 ## VBA Syntax
 
-See
-
-[JoinFeatureData::ForceSurfaceContact](ms-its:sldworksapivb6.chm::/sldworks~JoinFeatureData~ForceSurfaceContact.html)
-
-.
+See [JoinFeatureData::ForceSurfaceContact](ms-its:sldworksapivb6.chm::/sldworks~JoinFeatureData~ForceSurfaceContact.html).
 
 ## See Also
 
 [IJoinFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html)
-
 [IJoinFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData_members.html)
 
 ## Availability

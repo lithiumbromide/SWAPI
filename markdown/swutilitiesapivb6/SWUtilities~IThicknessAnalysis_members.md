@@ -1,6 +1,5 @@
 ---
-title: "IThicknessAnalysis Object
-Members"
+title: "IThicknessAnalysis Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IThicknessAnalysis_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IThicknessAnalysis_members.html"
 ---
 
-# IThicknessAnalysis Object
-Members
+# IThicknessAnalysis Object Members
 
 ## Public Methods
 

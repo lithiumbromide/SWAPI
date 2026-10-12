@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # DisplayString Method (ISwColorContour)
 
-Obsolete. Superseded by
-
-[ISwColorContour1::DisplayString](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~DisplayString.html)
-
-.
+Obsolete. Superseded by [ISwColorContour1::DisplayString](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~DisplayString.html).
 
 ## Syntax
 
@@ -57,20 +53,15 @@ System.String^ DisplayString(
 
 ### Return Value
 
-String to display for the valueParamDescassociated with the vertex
+String to display for the value associated with the vertex
 
 ## VBA Syntax
 
-See
-
-[SwColorContour::DisplayString](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~DisplayString.html)
-
-.
+See [SwColorContour::DisplayString](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~DisplayString.html).
 
 ## See Also
 
 [ISwColorContour Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html)
-
 [ISwColorContour Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour_members.html)
 
 ## Availability

@@ -42,11 +42,7 @@ void OpenContainingFolder(
 
 ### Parameters
 
-- `oFilePathOrID`: ID or path of file to select; 0 to ignore (see
-
-Remarks
-
-)
+- `oFilePathOrID`: ID or path of file to select; 0 to ignore (see **Remarks**)
 - `oFolderPathOrID`: ID or path of folder on which to open File Explorer; 0 to ignore
 
 ## Examples
@@ -65,7 +61,6 @@ If oFilePathOrID is a path to a file, oFolderPathOrID is ignored.
 ## See Also
 
 [IEdmVault8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html)
-
 [IEdmVault8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8_members.html)
 
 ## Availability

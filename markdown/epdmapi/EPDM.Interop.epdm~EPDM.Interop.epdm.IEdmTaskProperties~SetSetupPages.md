@@ -39,21 +39,16 @@ void SetSetupPages(
 
 ### Parameters
 
-- `poPages`: Array of
-
-[EdmTaskSetupPage](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
-structures; one structure for each setup page
+- `poPages`: Array of [EdmTaskSetupPage](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html) structures; one structure for each setup page
 
 ## Examples
 
 [Create a Task that Finds Files in Workflow States (VB.NET)](Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET.htm)
-
 [Create a Task that Finds Files in Workflow States (C#)](Schedule_Task_to_Find_Files_in_State_Addin_Example_CSharp.htm)
 
 ## Remarks
 
-Call this method during the processing of the[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_TaskSetup hook. The setup pages display when the task is double-clicked in the administration tool.
+Call this method during the processing of the [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_TaskSetup hook. The setup pages display when the task is double-clicked in the administration tool.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -62,7 +57,6 @@ Call this method during the processing of the[EdmCmdData](EPDM.Interop.epdm~EPDM
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
 
 ## Availability

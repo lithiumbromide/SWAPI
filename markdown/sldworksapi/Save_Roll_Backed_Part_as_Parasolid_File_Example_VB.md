@@ -11,14 +11,9 @@ source: "sldworksapi/Save_Roll_Backed_Part_as_Parasolid_File_Example_VB.htm"
 
 ## Save Rolled Backed Part as Parasolid File Example (VBA)
 
-This example shows how to save a part in a rolled backed state as a
-Parasolid file.
+This example shows how to save a part in a rolled backed state as a Parasolid file.
 
-NOTE:When a part is in a rolled
-back state, you cannot export the part to any other format until the model
-has been rolled forward. This example shows how to use various geometry-related
-and topology-related method to create a temporary part that you can then
-export to any other format, in this example, Parasolid.
+NOTE: When a part is in a rolled back state, you cannot export the part to any other format until the model has been rolled forward. This example shows how to use various geometry-related and topology-related method to create a temporary part that you can then export to any other format, in this example, Parasolid.
 
 ```
 '------------------------------------------------------------------
@@ -89,7 +84,7 @@ Sub main()
 ```
 
 ```
-    ' Strip off SOLIDWORKS file extension (sldxxx)
+    ' Strip off SOLIDWORKS Design file extension (sldxxx)
     ' and add Parasolid extension (x_b)
     sPathName = swModel.GetPathName
     sPathName = Left(sPathName, Len(sPathName) - 6)

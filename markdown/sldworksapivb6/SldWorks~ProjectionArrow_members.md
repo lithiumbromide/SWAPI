@@ -1,6 +1,5 @@
 ---
-title: "ProjectionArrow Object
-Members"
+title: "ProjectionArrow Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ProjectionArrow_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ProjectionArrow_members.html"
 ---
 
-# ProjectionArrow Object
-Members
+# ProjectionArrow Object Members
 
 ## Public Methods
 

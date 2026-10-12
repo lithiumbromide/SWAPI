@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDrawingDoc Interface Members
 
-The following tables list the members exposed by[IDrawingDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html).
+The following tables list the members exposed by [IDrawingDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html).
 
 ## Public Properties
 
@@ -302,5 +302,4 @@ The following tables list the members exposed by[IDrawingDoc](SolidWorks.Interop
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

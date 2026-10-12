@@ -40,7 +40,6 @@ E-mail address
 ## See Also
 
 [IEdmUser10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)
-
 [IEdmUser10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10_members.html)
 
 ## Availability

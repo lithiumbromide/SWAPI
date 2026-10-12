@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members.html"
 
 # EdmRevCounter Structure Members
 
-The following tables list the members exposed by[EdmRevCounter](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html).
+The following tables list the members exposed by [EdmRevCounter](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[EdmRevCounter](EPDM.Interop.epd
 ## See Also
 
 [EdmRevCounter Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

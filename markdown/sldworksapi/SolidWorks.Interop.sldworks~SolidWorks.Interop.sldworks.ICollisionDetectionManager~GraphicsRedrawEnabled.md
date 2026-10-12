@@ -45,13 +45,7 @@ property System.bool GraphicsRedrawEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ True to display components in their transformed positions, false to display comp
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::GraphicsRedrawEnabled](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GraphicsRedrawEnabled.html)
-
-.
+See [CollisionDetectionManager::GraphicsRedrawEnabled](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GraphicsRedrawEnabled.html).
 
 ## Remarks
 
-If this property is set to false, the graphics display update is drastically reduced. The client application may force the assembly to be redrawn by calling[IModelDoc2::GraphicsRedraw2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
+If this property is set to false, the graphics display update is drastically reduced. The client application may force the assembly to be redrawn by calling [IModelDoc2::GraphicsRedraw2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 Set this property to false for maximum performance.
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

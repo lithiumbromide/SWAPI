@@ -56,28 +56,17 @@ True to display the specified ink markup, false to not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ShowInkMarkup](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowInkMarkup.html)
-
-.
+See [EModelViewControl::ShowInkMarkup](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowInkMarkup.html).
 
 ## Remarks
 
-After setting this property to true, you can call
-
-[IEModelViewControl::ActivateInkMarkup](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActivateInkMarkup.html)
-
-.
+After setting this property to true, you can call [IEModelViewControl::ActivateInkMarkup](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActivateInkMarkup.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::InkMarkupCount Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupCount.html)
-
 [IEModelViewControl::InkMarkupName Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupName.html)
 
 ## Availability

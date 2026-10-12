@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetSurface Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSurface.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSurface.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Surface IGetSurface()
 Surface^ IGetSurface();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetSurface](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetSurface.html)
-
-.
+See [Face::IGetSurface](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetSurface.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

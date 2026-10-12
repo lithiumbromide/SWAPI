@@ -63,13 +63,7 @@ System.int IGetMiddleSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -77,9 +71,7 @@ See
 - `Face1List`: Array of faces into which the midsurface will be or was inserted; you can provide an array of faces for this parameter and Face2List; if you do not, then the faces are determined internally
 - `Face2List`: Array of faces into which the midsurface will be or was inserted; you can provide an array of faces for this parameter and Face1List; if you do not, then the faces are determined internally
 - `Thickness`: Array containing minimum and maximum thickness of sheet metal for pairs of faces
-- `MiddleSurfaceBody`: [Middle surface body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html
+- `MiddleSurfaceBody`: [Middle surface body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html
 
 ### Return Value
 
@@ -87,16 +79,10 @@ SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html
 
 ## VBA Syntax
 
-See
-
-[Body2::IGetMiddleSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetMiddleSurface.html)
-
-.
+See [Body2::IGetMiddleSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetMiddleSurface.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetMiddleSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetMiddleSurface.html)

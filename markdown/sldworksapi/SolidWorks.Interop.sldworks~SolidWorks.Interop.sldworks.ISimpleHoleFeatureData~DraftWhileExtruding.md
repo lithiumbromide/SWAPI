@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # DraftWhileExtruding Property (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::DraftWhileExtruding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~DraftWhileExtruding.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::DraftWhileExtruding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~DraftWhileExtruding.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool DraftWhileExtruding {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::DraftWhileExtruding](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~DraftWhileExtruding.html)
-
-.
+See [SimpleHoleFeatureData::DraftWhileExtruding](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~DraftWhileExtruding.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

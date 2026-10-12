@@ -1,6 +1,5 @@
 ---
-title: "CollisionDetectionGroup Object
-Members"
+title: "CollisionDetectionGroup Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CollisionDetectionGroup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CollisionDetectionGroup_members.html"
 ---
 
-# CollisionDetectionGroup Object
-Members
+# CollisionDetectionGroup Object Members
 
 ## Public Methods
 

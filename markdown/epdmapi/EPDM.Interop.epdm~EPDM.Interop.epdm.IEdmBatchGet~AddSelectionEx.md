@@ -48,9 +48,7 @@ void AddSelectionEx(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; vault from which to get the file
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); vault from which to get the file
 - `lFileID`: ID of file to get
 - `lParentFolderID`: ID of the file's parent folder
 - `oVersionOrFileDate`: Number or modified date of the version of the file to get
@@ -65,7 +63,6 @@ void AddSelectionEx(
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [IEdmBatchGet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html)
 
 ## Availability

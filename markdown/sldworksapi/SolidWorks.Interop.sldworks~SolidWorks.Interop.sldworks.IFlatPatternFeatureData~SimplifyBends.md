@@ -45,13 +45,7 @@ property System.bool SimplifyBends {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to simplify edges to lines, false to leave edges complex
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFeatureData::SimplifyBends](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~SimplifyBends.html)
-
-.
+See [FlatPatternFeatureData::SimplifyBends](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~SimplifyBends.html).
 
 ## Remarks
 
-This property corresponds to theSimplify bendscheck box on theParametersgroup box on theFlat PatternPropertyManager, which is displayed when you edit the definition of a flat-pattern feature with complex bends in SOLIDWORKS.
+This property corresponds to the Simplify bends check box on the Parameters group box on the Flat Pattern PropertyManager, which is displayed when you edit the definition of a flat-pattern feature with complex bends in SOLIDWORKS.
 
 ## See Also
 
 [IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.html)
-
 [IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.html)
 
 ## Availability

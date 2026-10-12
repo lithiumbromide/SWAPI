@@ -34,12 +34,9 @@ System.int mlObjectType
 
 ### Field Value
 
-Object type of the deleted item as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+Object type of the deleted item as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 
 ## See Also
 
 [EdmDeletedItems Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
-
 [EdmDeletedItems Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 Allows access to an indent feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IIndentFeatureData
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData.html)
-
-.
+See [IndentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData.html).
 
 ## Examples
 
 [Insert Indent Feature (C#)](Insert_Indent_Feature_Example_CSharp.htm)
-
 [Insert Indent Feature (VB.NET)](Insert_Indent_Feature_Example_VBNET.htm)
-
 [Insert Indent Feature (VBA)](Insert_Indent_Feature_Example_VB.htm)
 
 ## Accessors
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertIndent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertIndent.html)

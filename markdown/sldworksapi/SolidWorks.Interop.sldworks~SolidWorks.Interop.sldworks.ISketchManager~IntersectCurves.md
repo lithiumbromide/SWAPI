@@ -39,26 +39,15 @@ void IntersectCurves()
 void IntersectCurves();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchManager::IntersectCurves](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~IntersectCurves.html)
-
-.
+See [SketchManager::IntersectCurves](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~IntersectCurves.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

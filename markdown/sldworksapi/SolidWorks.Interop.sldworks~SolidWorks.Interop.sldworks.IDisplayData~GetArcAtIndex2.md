@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,27 +55,20 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetArcAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetArcAtIndex2.html)
-
-.
+See [DisplayData::GetArcAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetArcAtIndex2.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[color, lineType, Unused, Unused, startPt[3], endPt[3], centerPt[3], arcNormal[3], rotationDir]
-
+```vb
+[ color, lineType, Unused, Unused, startPt[3], endPt[3], centerPt[3], arcNormal[3], rotationDir ]
 where:
+```
 
 | color | COLORREF returned as an integer; return value can be 0 or -1 for default color |
 | --- | --- |
@@ -95,9 +82,6 @@ where:
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::IGetLineAtIndex2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetLineAtIndex2.html)
-
 [IDisplayData::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetArcCount.html)

@@ -79,17 +79,11 @@ System.Object^ CreateParallelogram(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `X1`: X coordinateParamDescfor point 1
+- `X1`: X coordinate for point 1
 - `Y1`: coordinate for point 1
 - `Z1`: Z coordinate for point 1
 - `X2`: X coordinate for point 2
@@ -101,24 +95,15 @@ See
 
 ### Return Value
 
-Array of
-
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for the parallelogram
+Array of [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the parallelogram
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateParallelogram](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateParallelogram.html)
-
-.
+See [SketchManager::CreateParallelogram](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateParallelogram.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

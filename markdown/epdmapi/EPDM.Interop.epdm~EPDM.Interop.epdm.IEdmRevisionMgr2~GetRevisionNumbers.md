@@ -43,16 +43,11 @@ void GetRevisionNumbers(
 ### Parameters
 
 - `oIDorEmpty`: ID of revision number to get or null to get all revision numbers in the vault
-- `ppoRetData`: Array of
-
-[EdmRevNo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo.html)
-
-structures; one structure for each revision number
+- `ppoRetData`: Array of [EdmRevNo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo.html) structures; one structure for each revision number
 
 ## Examples
 
 [Find Revisions Using Component (C#)](Find_Revisions_Using_Component_Example_CSharp.htm)
-
 [Find Revisions Using Component (VB.NET)](Find_Revisions_Using_Component_Example_VBNET.htm)
 
 ## Remarks
@@ -64,7 +59,6 @@ structures; one structure for each revision number
 ## See Also
 
 [IEdmRevisionMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html)
-
 [IEdmRevisionMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2_members.html)
 
 ## Availability

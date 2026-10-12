@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 Allows you to get the DimXpert schema for a configuration.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,16 +41,11 @@ public interface class IDimXpertManager
 
 ## VBA Syntax
 
-See
-
-[DimXpertManager](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager.html)
-
-.
+See [DimXpertManager](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager.html).
 
 ## Examples
 
 [Get DimXpertManager Info (VBA)](Get_DimXpertManager_Info_Example_VB.htm)
-
 [Get DimXpertManager Info (VB.NET)](Get_DimXpertManager_Info_Example_VBNET.htm)
 
 ## Accessors
@@ -68,5 +63,4 @@ See
 ## See Also
 
 [IDimXpertManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

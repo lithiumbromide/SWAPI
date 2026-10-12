@@ -47,21 +47,11 @@ Feature^ InsertSubWeldFolder2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodyArray`: Array of
-
-[Body2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-objects
+- `BodyArray`: Array of [Body2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) objects
 
 ### Return Value
 
@@ -69,26 +59,18 @@ objects
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSubWeldFolder2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSubWeldFolder2.html)
-
-.
+See [FeatureManager::InsertSubWeldFolder2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSubWeldFolder2.html).
 
 ## Examples
 
 [Insert Weldment Features (VBA)](Insert_Weldment_Features_Example_VB.htm)
-
 [Insert Weldment Features (VB.NET)](Insert_Weldment_Features_Example_VBNET.htm)
-
 [Insert Weldment Features (C#)](Insert_Weldment_Features_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertSubWeldFolder Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSubWeldFolder.html)
 
 ## Availability

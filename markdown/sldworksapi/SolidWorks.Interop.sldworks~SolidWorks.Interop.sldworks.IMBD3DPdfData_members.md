@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMB
 
 # IMBD3DPdfData Interface Members
 
-The following tables list the members exposed by[IMBD3DPdfData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html).
+The following tables list the members exposed by [IMBD3DPdfData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html).
 
 ## Public Properties
 
@@ -20,6 +20,7 @@ The following tables list the members exposed by[IMBD3DPdfData](SolidWorks.Inter
 | Property | CreateAttachSTEP242 | Gets or sets whether to export SOLIDWORKS parts and assemblies to STEP 242 format and attach the STEP 242 file to the SOLIDWORKS MBD 3D PDF. |
 | Property | ExcludeFromAnnotationView | Gets or sets whether to exclude BOM tables from annotation views for this SOLIDWORKS MBD 3D PDF. |
 | Property | FilePath | Gets or sets the path and file name to which to save this SOLIDWORKS MBD 3D PDF. |
+| Property | STEP242Edition | Gets or sets the STEP 242 edition to use. |
 | Property | ThemeName | Gets or sets the path and file name of the theme for this SOLIDWORKS MBD 3D PDF. |
 | Property | ViewPdfAfterSaving | Gets or sets whether to display this SOLIDWORKS MBD 3D PDF after publishing it . |
 
@@ -47,9 +48,6 @@ The following tables list the members exposed by[IMBD3DPdfData](SolidWorks.Inter
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::PublishTo3DPDF Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PublishTo3DPDF.html)
-
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)

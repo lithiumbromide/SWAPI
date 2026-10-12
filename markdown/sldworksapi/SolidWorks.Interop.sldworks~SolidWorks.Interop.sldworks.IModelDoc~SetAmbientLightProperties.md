@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetAmbientLightProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetAmbientLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetAmbientLightProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetAmbientLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetAmbientLightProperties.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.bool SetAmbientLightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +85,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetAmbientLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetAmbientLightProperties.html)
-
-.
+See [ModelDoc::SetAmbientLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetAmbientLightProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

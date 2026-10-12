@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # AutoDimension Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::AutoDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~AutoDimension2.html)
-
-.
+Obsolete. Superseded by [ISketch::AutoDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~AutoDimension2.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.int AutoDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::AutoDimension](ms-its:sldworksapivb6.chm::/sldworks~Sketch~AutoDimension.html)
-
-.
+See [Sketch::AutoDimension](ms-its:sldworksapivb6.chm::/sldworks~Sketch~AutoDimension.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

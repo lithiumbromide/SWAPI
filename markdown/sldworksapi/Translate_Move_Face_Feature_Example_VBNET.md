@@ -9,8 +9,7 @@ source: "sldworksapi/Translate_Move_Face_Feature_Example_VBNET.htm"
 
 # Translate Move Face Feature Example (VB.NET)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}This
-example shows how to translate a Move Face feature.
+This example shows how to translate a Move Face feature.
 
 ```
 '---------------------------------------------------------------------------

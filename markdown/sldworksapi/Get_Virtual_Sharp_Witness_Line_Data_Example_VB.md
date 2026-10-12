@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Virtual_Sharp_Witness_Line_Data_Example_VB.htm"
 
 # Get Virtual Sharp Witness Line Data Example (VBA)
 
-This example shows how to get the geometry data of all of the virtual sharp
-witness lines in a drawing.
+This example shows how to get the geometry data of all of the virtual sharp witness lines in a drawing.
 
 ```vb
  '----------------------------------------------------------------------------

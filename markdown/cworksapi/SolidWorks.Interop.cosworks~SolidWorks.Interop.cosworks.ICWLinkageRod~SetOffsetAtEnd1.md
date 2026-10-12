@@ -52,11 +52,7 @@ void SetOffsetAtEnd1(
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::SetOffsetAtEnd1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetOffsetAtEnd1.html)
-
-.
+See [CWLinkageRod::SetOffsetAtEnd1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetOffsetAtEnd1.html).
 
 ## Remarks
 
@@ -65,7 +61,6 @@ This method is not valid if End 1 is a vertex.
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

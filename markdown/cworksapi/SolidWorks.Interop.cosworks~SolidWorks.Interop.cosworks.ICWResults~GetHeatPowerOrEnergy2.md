@@ -71,30 +71,24 @@ System.Object^ GetHeatPowerOrEnergy2(
 
 - `BHeatEnergy`: 0 or false for heat power, -1 or true for heat energy
 - `ArraySelectedEntities`: Array of geometric entities
-- `NUnits`: Units as defined in[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `NUnits`: Units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `NStepNumber2`: End solution step number (use 1 for steady state); valid only if BHeatEnergy is 1
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of heat values (see
-
-Remarks
-
-)
+Array of heat values (see **Remarks**)
 
 ## Examples
 
 [Get Thermal Values (VBA)](Get_Thermal_Values_at_Points_Example_VB.htm)
-
 [Get Thermal Values (VB.NET)](Get_Thermal_Values_at_Points_Example_VBNET.htm)
-
 [Get Thermal Values (C#)](Get_Thermal_Values_at_Points_Example_CSharp.htm)
 
 ## Remarks
 
-This method returns the followingarray:
+This method returns the following array:
 
 {
 
@@ -112,16 +106,15 @@ This method returns the followingarray:
 
 },
 
-where`sel_power_or_energy_in`and`sel_power_or_energy_out`are the sum of individual entity in and out values, and`model_power_or_energy_in`and`model_power_or_energy_out`are total in and out values for the entire model.
+where `sel_power_or_energy_in` and `sel_power_or_energy_out` are the sum of individual entity in and out values, and `model_power_or_energy_in` and `model_power_or_energy_out` are total in and out values for the entire model.
 
-`sel_net_power`= (`sel_power_or_energy_in`-`sel_power_or_energy_out)`
+`sel_net_power` = (`sel_power_or_energy_in` - `sel_power_or_energy_out)`
 
-`model_net_power_or_energy`= (`model_power_or_energy_in`-`model_power_or_energy_out)`
+`model_net_power_or_energy` = (`model_power_or_energy_in` - `model_power_or_energy_out)`
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "GeneralTableFeature Object
-Members"
+title: "GeneralTableFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "GeneralTableFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~GeneralTableFeature_members.html"
 ---
 
-# GeneralTableFeature Object
-Members
+# GeneralTableFeature Object Members
 
 ## Public Methods
 

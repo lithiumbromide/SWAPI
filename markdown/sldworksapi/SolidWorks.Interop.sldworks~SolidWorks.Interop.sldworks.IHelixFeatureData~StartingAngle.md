@@ -45,13 +45,7 @@ property System.double StartingAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Angle for the first turn
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::StartingAngle](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~StartingAngle.html)
-
-.
+See [HelixFeatureData::StartingAngle](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~StartingAngle.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

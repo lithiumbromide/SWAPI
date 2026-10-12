@@ -48,20 +48,13 @@ Number of search criteria
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::CriteriaCount](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~CriteriaCount.html)
-
-.
+See [PDMWSearchCriteria::CriteriaCount](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~CriteriaCount.html).
 
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::GetCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~GetCriteria.html)
-
 [IPDMWSearchCriteria::RemoveCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~RemoveCriteria.html)
 
 ## Availability

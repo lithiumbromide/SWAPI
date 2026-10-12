@@ -11,8 +11,7 @@ source: "sldworksapi/Get_Sketch_Slot_Using_Sketch_Point_and_Segment_Example_CSha
 
 ## Get Sketch Slot Using Sketch Point and Segment Example (C#)
 
-This example shows how to get a sketch slot using a sketch point and
-a sketch segment.
+This example shows how to get a sketch slot using a sketch point and a sketch segment.
 
 ```
 //--------------------------------------------------------

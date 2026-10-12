@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResu
 
 # EdmResultErrorCodes_e Enumeration
 
-Error codes. See
-
-[EdmResultSuccessCodes_e](EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e.html)
-
-for the success codes.
+Error codes. See [EdmResultSuccessCodes_e](EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e.html) for the success codes.
 
 ## Syntax
 
@@ -115,6 +111,7 @@ public enum class EdmResultErrorCodes_e : public System.Enum
 | E_EDM_FILE_ALREADY_OPEN | 0x80040281 = The file is already open |
 | E_EDM_FILE_DELETED | 0x8004026D = The file has been deleted |
 | E_EDM_FILE_FORMAT_UNSUPPORTED_BY_CONISIO_VERSION | 0x8004026A = The file format is not supported by your SOLIDWORKS PDM Professional license |
+| E_EDM_FILE_IN_3DXCOMPATIBILITY | 0x80040312 = Error checking in a file converted to 3DX |
 | E_EDM_FILE_IN_COLDSTORAGE | 0x80040278 = The file that you are trying to access is currently placed in cold storage and cannot be retrieved |
 | E_EDM_FILE_IS_LOCKED | 0x80040211 = The operation is not permitted because the file is checked out |
 | E_EDM_FILE_IS_REFERENCED | 0x8004022D = The file is referenced by another file |
@@ -311,10 +308,10 @@ catch (System.Runtime.InteropServices.ComException comEx)
 switch (comEx.ErrorCode)
 {
 case E_EDM_`xxx`:
-// respond to`xxx`
+// respond to `xxx`
 break;
 case E_EDM_`yyy`:
-// respond to`yyy`
+// respond to `yyy`
 break;
 default:
 // Unexpected or cannot be handled silently
@@ -325,9 +322,9 @@ break;
 
 ## Remarks
 
-HRESULT return codes are supported by the SOLIDWORKS PDM Professional API. You can pass the HRESULT code to the method IEdmVault11::GetErrorMessage to get information about the code.
+HRESULT return codes are supported by the SOLIDWORKS PDM Professional API. You can pass the HRESULT code to the method [IEdmVault11::GetErrorMessage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorMessage.html) to get information about the code.
 
-NOTES:
+**NOTES:**
 
 - Methods called from Visual Basic do not return the HRESULT code directly. Instead, the return codes are returned as an argument declared with the [retval] directive, if one exists. Visual Basic users can view the error codes returned by methods by implementing an error handler and checking the Number property of the Err object. The property is the HRESULT return code from the failing method.
 - The values shown in this topic are written in C++ style hexadecimal notation. In VB.NET, the value 0x80040200 is written as &H80040200.
@@ -335,9 +332,6 @@ NOTES:
 ## See Also
 
 [EPDM.Interop.EPDMResultCode Namespace](EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode_namespace.html)
-
 [IEdmVault5::GetErrorString Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html)
-
 [IEdmVault11::GetErrorName Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorName.html)
-
 [Return Codes](ReturnCodes.htm)

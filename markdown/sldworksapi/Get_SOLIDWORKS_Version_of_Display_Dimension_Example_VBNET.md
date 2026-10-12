@@ -1,5 +1,5 @@
 ---
-title: "Get SOLIDWORKS Version of Display Dimension (VB.NET)"
+title: "Get Version of Display Dimension (VB.NET)"
 project: ""
 interface: ""
 member: ""
@@ -7,10 +7,9 @@ kind: "example"
 source: "sldworksapi/Get_SOLIDWORKS_Version_of_Display_Dimension_Example_VBNET.htm"
 ---
 
-# Get SOLIDWORKS Version of Display Dimension (VB.NET)
+# Get Version of Display Dimension (VB.NET)
 
-This example shows how to find out if a display dimension in a drawing was
-created in SOLIDWORKS 2011 or later.
+This example shows how to find out if a display dimension in a drawing was created in SOLIDWORKS 2011 or later.
 
 ```vb
 '------------------------------------------------
@@ -54,9 +53,7 @@ System.Diagnostics
 Partial
 ```
 
-Class
-
-SolidWorksMacro
+Class SolidWorksMacro
 
 ```vb
 Public Sub Main()
@@ -66,29 +63,15 @@ Public Sub Main()
 Dim swModel As ModelDoc2
 ```
 
-Dim
-
-swSelMgr
-
-As
+Dim swSelMgr As
 
 SelectionMgr
 
-Dim
-
-swDispDim
-
-As
+Dim swDispDim As
 
 DisplayDimension
 
-Dim
-
-swSelObj
-
-As
-
-Object
+Dim swSelObj As Object
 
 ```vb
 Dim selCount As  Long

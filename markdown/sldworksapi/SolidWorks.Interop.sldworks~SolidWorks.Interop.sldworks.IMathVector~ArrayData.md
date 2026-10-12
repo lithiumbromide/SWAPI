@@ -45,13 +45,7 @@ property System.Object^ ArrayData {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Array of three doubles
 
 ## VBA Syntax
 
-See
-
-[MathVector::ArrayData](ms-its:sldworksapivb6.chm::/sldworks~MathVector~ArrayData.html)
-
-.
+See [MathVector::ArrayData](ms-its:sldworksapivb6.chm::/sldworks~MathVector~ArrayData.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::IArrayData Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~IArrayData.html)
 
 ## Availability

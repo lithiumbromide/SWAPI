@@ -1,6 +1,5 @@
 ---
-title: "CurveParamData Object
-Members"
+title: "CurveParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CurveParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CurveParamData_members.html"
 ---
 
-# CurveParamData Object
-Members
+# CurveParamData Object Members
 
 ## Public Properties
 

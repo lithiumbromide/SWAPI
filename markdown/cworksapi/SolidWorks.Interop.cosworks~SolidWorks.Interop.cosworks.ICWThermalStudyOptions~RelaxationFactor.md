@@ -47,20 +47,15 @@ property System.int RelaxationFactor {
 
 ### Property Value
 
-Thermal relaxation factor as defined in[swsThermalRelaxationFactor_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalRelaxationFactor_e.html)
+Thermal relaxation factor as defined in [swsThermalRelaxationFactor_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalRelaxationFactor_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::RelaxationFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~RelaxationFactor.html)
-
-.
+See [CWThermalStudyOptions::RelaxationFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~RelaxationFactor.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

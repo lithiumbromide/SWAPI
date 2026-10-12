@@ -77,24 +77,15 @@ void SelectByRay(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::SelectByRay](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SelectByRay.html)
-
-.
+See [EModelViewControl::SelectByRay](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SelectByRay.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IEModelViewControl::GetSelectedComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.html)
-
-.
+Call this method before calling [IEModelViewControl::GetSelectedComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

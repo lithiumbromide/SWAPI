@@ -1,6 +1,5 @@
 ---
-title: "DimXpertDiameterDimTol Object
-Members"
+title: "DimXpertDiameterDimTol Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertDiameterDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertDiameterDimTol_members.html"
 ---
 
-# DimXpertDiameterDimTol Object
-Members
+# DimXpertDiameterDimTol Object Members
 
 ## Public Properties
 

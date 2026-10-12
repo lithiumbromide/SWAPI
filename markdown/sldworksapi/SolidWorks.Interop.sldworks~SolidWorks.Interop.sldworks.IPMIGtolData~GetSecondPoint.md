@@ -40,13 +40,7 @@ System.string GetSecondPoint()
 System.String^ GetSecondPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Label of the second point
 
 ## VBA Syntax
 
-See
-
-[PMIGtolData::GetSecondPoint](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetSecondPoint.html)
-
-.
+See [PMIGtolData::GetSecondPoint](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetSecondPoint.html).
 
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [IPMIGtolData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData_members.html)
-
 [IPMIGtolData::GetFirstPoint Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData~GetFirstPoint.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "SurfacePlanarFeatureData Object
-Members"
+title: "SurfacePlanarFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfacePlanarFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfacePlanarFeatureData_members.html"
 ---
 
-# SurfacePlanarFeatureData Object
-Members
+# SurfacePlanarFeatureData Object Members
 
 ## Public Methods
 

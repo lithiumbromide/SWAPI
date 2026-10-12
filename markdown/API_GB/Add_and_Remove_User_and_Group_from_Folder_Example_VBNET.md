@@ -11,16 +11,11 @@ source: "API_GB/Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm"
 
 This example shows how to:
 
-- add and remove users to and
-  from a vault.
-- add a user of a group to a
-  folder in a vault.
-- remove a user of a group
-  from a folder and from a vault.
+- add and remove users to and from a vault.
+- add a user of a group to a folder in a vault.
+- remove a user of a group from a folder and from a vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '--------------------------------------------------------------------

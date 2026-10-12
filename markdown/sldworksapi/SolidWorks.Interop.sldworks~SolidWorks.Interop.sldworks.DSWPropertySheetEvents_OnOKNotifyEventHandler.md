@@ -37,27 +37,17 @@ public delegate System.int DSWPropertySheetEvents_OnOKNotifyEventHandler()
 public delegate System.int DSWPropertySheetEvents_OnOKNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[OnOKNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~OnOKNotify_EV.html)
-
-.
+See [OnOKNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~OnOKNotify_EV.html).
 
 ## Remarks
 
-Your add-in can perform clean-up activities in this event. Typically, this event calls[ISWPropertySheet::GetControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet~GetControl.html)to retrieve data from your ActiveX control.
+Your add-in can perform clean-up activities in this event. Typically, this event calls [ISWPropertySheet::GetControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet~GetControl.html) to retrieve data from your ActiveX control.
 
-If developing a C++ application, use[swPropertySheetOnOKNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPropertySheetOnOKNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html) to register for this notification.
 
 ## Availability
 

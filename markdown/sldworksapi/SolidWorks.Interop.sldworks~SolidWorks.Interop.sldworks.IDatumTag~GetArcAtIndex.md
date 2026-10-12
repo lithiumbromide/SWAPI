@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArcAtIndex.html)
-
-.
+See [DatumTag::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArcAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[lineType,startPt[3],endPt[3],centerPt[3],rotationDir]
+[ lineType, startPt[3], endPt[3], centerPt[3], rotationDir ]
 
 where:
-
-(Table)=========================================================
 
 | lineType | Line type as defined in swLineTypes_e |
 | --- | --- |
@@ -88,14 +76,11 @@ where:
 | centerPt [3] | XYZ arc center point |
 | rotationDir | Boolean returned as a double that represents the rotation direction, where CCW = True and CW = false |
 
-Before calling this method, call[IDatumTag::GetArcCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetArcCount.html)to find out the number of arcs in this datum tag.
+Before calling this method, call [IDatumTag::GetArcCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetArcCount.html) to find out the number of arcs in this datum tag.
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetArcAtIndex.html)
-
 [IDatumTag::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArcCount.html)

@@ -58,27 +58,19 @@ System.Object^ GetFatigueSNCurve(
 
 ### Return Value
 
-Array of S-N curve data (see
-
-Remarks
-
-)
+Array of S-N curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetFatigueSNCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetFatigueSNCurve.html)
-
-.
+See [CWMaterial::GetFatigueSNCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetFatigueSNCurve.html).
 
 ## Remarks
 
-This method is valid only if[ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html)is set to[swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html).swsMaterialSNCurveSourceUserDefined.
+This method is valid only if [ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html) is set to [swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html).swsMaterialSNCurveSourceUserDefined.
 
 Array of S-N curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
@@ -89,14 +81,12 @@ where:
 - xn = number of cycles for point n
 - yn = alternating stress for point n
 
-See the SOLIDWORKS Help topic,**Material Dialog Box - Fatigue SN Curves Tab**, for more information about S-N curve equations.
+See the SOLIDWORKS Help topic, **Material Dialog Box - Fatigue SN Curves Tab**, for more information about S-N curve equations.
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SetFatigueSNCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetFatigueSNCurve.html)
 
 ## Availability

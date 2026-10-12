@@ -45,13 +45,7 @@ property System.bool AutomaticViewUpdate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True updates the views automatically, false does not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AutomaticViewUpdate](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AutomaticViewUpdate.html)
-
-.
+See [DrawingDoc::AutomaticViewUpdate](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AutomaticViewUpdate.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

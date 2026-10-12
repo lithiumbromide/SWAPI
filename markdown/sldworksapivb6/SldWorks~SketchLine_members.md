@@ -1,6 +1,5 @@
 ---
-title: "SketchLine Object
-Members"
+title: "SketchLine Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchLine_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchLine_members.html"
 ---
 
-# SketchLine Object
-Members
+# SketchLine Object Members
 
 ## Public Methods
 

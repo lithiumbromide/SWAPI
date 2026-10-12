@@ -66,36 +66,23 @@ void GetArcLengthCompletionOptions(
 
 - `DMaxLoad`: Maximum load-pattern multiplier
 - `DMaxDisplacement`: Maximum displacement (for translational DOF)
-- `NUnit`: Units as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Units as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 - `NMaxArcSteps`: Maximum number of arc steps
 - `DArcLengthMultiplier`: Initial arc length multiplier
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::GetArcLengthCompletionOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetArcLengthCompletionOptions.html)
-
-.
+See [CWNonLinearStudyOptions::GetArcLengthCompletionOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~GetArcLengthCompletionOptions.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinaerStudyOptions::SetArcLengthCompletionOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SetArcLengthCompletionOptions.html)
-
 [ICWNonLinaerStudyOptions::ControlMethodType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ControlMethodType.html)
 
 ## Availability

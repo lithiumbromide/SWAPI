@@ -45,50 +45,27 @@ property System.double ChamferDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Chamfer distance if
-
-[IEndCapFeatureData::UseChamferCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseChamferCorners.html)
-
-is true; fillet radius if IEndCapFeatureData::UseChamferCorners is false
+Chamfer distance if [IEndCapFeatureData::UseChamferCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseChamferCorners.html) is true; fillet radius if IEndCapFeatureData::UseChamferCorners is false
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::ChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~ChamferDistance.html)
-
-.
+See [EndCapFeatureData::ChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~ChamferDistance.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IEndCapFeatureData::UseCornerTreatment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseCornerTreatment.html)
-
-is true.
+This property is valid only if [IEndCapFeatureData::UseCornerTreatment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseCornerTreatment.html) is true.
 
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
 
 ## Availability

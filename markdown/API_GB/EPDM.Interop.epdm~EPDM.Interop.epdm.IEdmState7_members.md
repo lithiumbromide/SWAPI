@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_members.html"
 
 # IEdmState7 Interface Members
 
-The following tables list the members exposed by[IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html).
+The following tables list the members exposed by [IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmState7](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmState7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

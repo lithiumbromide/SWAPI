@@ -45,13 +45,7 @@ property System.double XOrigin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ X-coordinate of the print window origin
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::XOrigin](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~XOrigin.html)
-
-.
+See [PrintSpecification::XOrigin](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~XOrigin.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
-
 [IPrintSpecification::YOrigin Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~YOrigin.html)
 
 ## Availability

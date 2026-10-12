@@ -51,24 +51,15 @@ Results folder path name
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~ResultFolder.html)
-
-.
+See [CWFatigueStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~ResultFolder.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

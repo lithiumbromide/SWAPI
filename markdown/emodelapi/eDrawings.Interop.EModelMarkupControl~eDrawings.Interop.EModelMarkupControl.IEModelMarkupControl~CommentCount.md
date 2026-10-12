@@ -48,32 +48,21 @@ Number of total markup comments
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::CommentCount](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentCount.html)
-
-.
+See [EModelMarkupControl::CommentCount](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentCount.html).
 
 ## Examples
 
-See the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html)
-
-example.
+See the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html) example.
 
 ## Remarks
 
-Call this method before calling[IEModelMarkupControl::CommentID](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentID.html).
+Call this method before calling [IEModelMarkupControl::CommentID](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentID.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelMarkupControl::ShowComment Method](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowComment.html)
-
 [IEModelMarkupControl::CommentName Property](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentName.html)
 
 ## Availability

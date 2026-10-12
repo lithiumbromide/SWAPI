@@ -54,27 +54,17 @@ void GetSheetScale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets
 - `Numerator`: Numerator of the scale
-- `Denominator`: Denominator of the scaleParamDesc
+- `Denominator`: Denominator of the scale
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::GetSheetScale](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetSheetScale.html)
-
-.
+See [ImportDxfDwgData::GetSheetScale](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetSheetScale.html).
 
 ## Remarks
 
@@ -83,9 +73,7 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::SetSheetScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetSheetScale.html)
 
 ## Availability

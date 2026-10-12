@@ -43,23 +43,18 @@ void SetRevisionCounters(
 ### Parameters
 
 - `lFileID`: ID of file in which to set counters
-- `poCounters`: Array of
-
-[EdmRevCounter](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html)
-
-structures; one structure for each revision component
+- `poCounters`: Array of [EdmRevCounter](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html) structures; one structure for each revision component
 
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
 
 ## Remarks
 
-This method only adds the new counters to this batch. After calling this method, you must call[IEdmRevisionMgr::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~Commit.html)to commit the changes to the database.
+This method only adds the new counters to this batch. After calling this method, you must call [IEdmRevisionMgr::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~Commit.html) to commit the changes to the database.
 
-This method only sets the revision component counters. It does not generate new revision numbers using any of the revision number generators that may be using the components. To create a new revision number for the file, you must also call[IEdmRevisionMgr::IncrementRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~IncrementRevision.html).
+This method only sets the revision component counters. It does not generate new revision numbers using any of the revision number generators that may be using the components. To create a new revision number for the file, you must also call [IEdmRevisionMgr::IncrementRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~IncrementRevision.html).
 
 The order of calls to this method and IEdmRevisionMgr::IncrementRevision does not matter. Calls to IRevisionMgr::IncrementRevision are always processed after calls to this method.
 
@@ -70,7 +65,6 @@ The order of calls to this method and IEdmRevisionMgr::IncrementRevision does no
 ## See Also
 
 [IEdmRevisionMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr.html)
-
 [IEdmRevisionMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html)
 
 ## Availability

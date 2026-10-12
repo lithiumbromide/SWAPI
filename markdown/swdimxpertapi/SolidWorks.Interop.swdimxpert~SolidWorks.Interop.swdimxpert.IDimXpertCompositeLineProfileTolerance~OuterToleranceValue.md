@@ -48,16 +48,11 @@ Outer tolerance value
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeLineProfileTolerance::OuterToleranceValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~OuterToleranceValue.html)
-
-.
+See [DimXpertCompositeLineProfileTolerance::OuterToleranceValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~OuterToleranceValue.html).
 
 ## See Also
 
 [IDimXpertCompositeLineProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance.html)
-
 [IDimXpertCompositeLineProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance_members.html)
 
 ## Availability

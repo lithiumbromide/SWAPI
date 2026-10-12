@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmButtonState.html"
 
 # EdmButtonState Enumeration
 
-States of a toolbar button; used in calls to
-
-[IEdmAddInDrawButton5:DrawToolbarButton](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5~DrawToolbarButton.html)
-
-,
-
-[IEdmCmdMgr5::AddToolbarImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddToolbarImage.html)
-
-, and
-
-[IEdmMenu5::GetButtonImages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~GetButtonImages.html)
-
-.
+States of a toolbar button; used in calls to [IEdmAddInDrawButton5:DrawToolbarButton](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5~DrawToolbarButton.html), [IEdmCmdMgr5::AddToolbarImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddToolbarImage.html), and [IEdmMenu5::GetButtonImages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~GetButtonImages.html).
 
 ## Syntax
 

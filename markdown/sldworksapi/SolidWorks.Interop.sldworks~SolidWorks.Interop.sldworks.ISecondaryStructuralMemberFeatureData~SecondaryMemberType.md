@@ -42,40 +42,23 @@ property System.int SecondaryMemberType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Secondary structure system member type as defined by
-
-[swStructureSystemMemberCreationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureSystemMemberCreationType_e.html)
+Secondary structure system member type as defined by [swStructureSystemMemberCreationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureSystemMemberCreationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SecondaryStructuralMemberFeatureData::SecondaryMemberType](ms-its:sldworksapivb6.chm::/sldworks~SecondaryStructuralMemberFeatureData~SecondaryMemberType.html)
-
-.
+See [SecondaryStructuralMemberFeatureData::SecondaryMemberType](ms-its:sldworksapivb6.chm::/sldworks~SecondaryStructuralMemberFeatureData~SecondaryMemberType.html).
 
 ## Examples
 
-See the
-
-[ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html)
-
-examples.
+See the [ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html) examples.
 
 ## See Also
 
 [ISecondaryStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData.html)
-
 [ISecondaryStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData_members.html)
 
 ## Availability

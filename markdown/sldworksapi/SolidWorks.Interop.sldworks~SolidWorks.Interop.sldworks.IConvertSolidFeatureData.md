@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a convert solid feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IConvertSolidFeatureData
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData.html)
-
-.
+See [ConvertSolidFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData.html).
 
 ## Examples
 
@@ -57,7 +53,7 @@ See
 
 'Preconditions:
 
-'1. Open public_documents \SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\api\sweepcutextrude.sldprt .
+'1. Open `public_documents`**\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\api\sweepcutextrude.sldprt**.
 
 '2. Ensure that the Sheet Metal tab is visible on the Command Manager toolbar.
 
@@ -67,7 +63,7 @@ See
 
 'Postconditions:
 
-' 1. Creates Convert-Solid1 and Sheet-Metal1 .
+' 1. Creates **Convert-Solid1** and **Sheet-Metal1**.
 
 ' 2. Inspect the FeatureManager design tree and the Immediate window.
 
@@ -107,19 +103,19 @@ Set swModel = swApp.ActiveDoc
 
 Set FeatMgr = swModel.FeatureManager
 
-boolstatus = swModel.Extension. SelectByID2 ("", "FACE", 4.130570195002E-04, 0.02357994168921, 0.02568415695742, True, 0, Nothing, 0)
+boolstatus = swModel.Extension.**SelectByID2**("", "FACE", 4.130570195002E-04, 0.02357994168921, 0.02568415695742, True, 0, Nothing, 0)
 
-boolstatus = swModel.Extension. SelectByID2 ("", "EDGE", -0.00190522473838, 0.02387533864419, 0.04979931166838, True, 1, Nothing, 0)
+boolstatus = swModel.Extension.**SelectByID2**("", "EDGE", -0.00190522473838, 0.02387533864419, 0.04979931166838, True, 1, Nothing, 0)
 
-boolstatus = swModel.Extension. SelectByID2 ("", "EDGE", 0.02911271681069, 0.02376277320678, 0.02892436699148, True, 1, Nothing, 0)
+boolstatus = swModel.Extension.**SelectByID2**("", "EDGE", 0.02911271681069, 0.02376277320678, 0.02892436699148, True, 1, Nothing, 0)
 
-boolstatus = swModel.Extension. SelectByID2 ("", "EDGE", -0.004838857104858, 0.02387396382323, -1.997542986487E-04, True, 1, Nothing, 0)
+boolstatus = swModel.Extension.**SelectByID2**("", "EDGE", -0.004838857104858, 0.02387396382323, -1.997542986487E-04, True, 1, Nothing, 0)
 
 'Create a feature data object
 
-Set swConvertSolidFeatData = FeatMgr. CreateDefinition (swFmSolidToSheetMetal)
+Set swConvertSolidFeatData = FeatMgr.**CreateDefinition**(swFmSolidToSheetMetal)
 
-Set cba = swConvertSolidFeatData. GetCustomBendAllowance ()
+Set cba = swConvertSolidFeatData.**GetCustomBendAllowance**()
 
 cba.Type = swBendAllowanceKFactor
 
@@ -127,82 +123,81 @@ cba.KFactor = 0.08
 
 'Initialize the feature data object with custom bend allowance
 
-swConvertSolidFeatData. Initialize True, False, cba
+swConvertSolidFeatData.**Initialize** True, False, cba
 
 'Create the feature
 
-Set swFeat = FeatMgr. CreateFeature (swConvertSolidFeatData)
+Set swFeat = FeatMgr.**CreateFeature**(swConvertSolidFeatData)
 
-Set FeatData = swFeat. GetDefinition ()
+Set FeatData = swFeat.**GetDefinition**()
 
-Set cba = swConvertSolidFeatData. GetCustomBendAllowance ()
+Set cba = swConvertSolidFeatData.**GetCustomBendAllowance**()
 
-Debug.Print "Type of custom bend allowance as defined in swBendAllowanceTypes_e: " & cba. Type
+Debug.Print "Type of custom bend allowance as defined in swBendAllowanceTypes_e: " & cba.**Type**
 
-Debug.Print "K factor: " & cba. KFactor
+Debug.Print "K factor: " & cba.**KFactor**
 
-Debug.Print "SheetMetal thickness : " & FeatData. SheetThickness
+Debug.Print "SheetMetal thickness : " & FeatData.**SheetThickness**
 
-Debug.Print "Bend Radius : " & FeatData. BendRadius
+Debug.Print "Bend Radius : " & FeatData.**BendRadius**
 
-Debug.Print "Reverse thickness : " & FeatData. ReverseThickness
+Debug.Print "Reverse thickness : " & FeatData.**ReverseThickness**
 
-Debug.Print "Keep body : " & FeatData. KeepBody
+Debug.Print "Keep body : " & FeatData.**KeepBody**
 
-Debug.Print "Overlap type : " & FeatData. CornerDefaults
+Debug.Print "Overlap type : " & FeatData.**CornerDefaults**
 
-Debug.Print "Rip gaps : " & FeatData. RipGap
+Debug.Print "Rip gaps : " & FeatData.**RipGap**
 
-Debug.Print "Rip overlap ratio : " & FeatData. RipOverlapRatio
+Debug.Print "Rip overlap ratio : " & FeatData.**RipOverlapRatio**
 
-Debug.Print "Auto relief type : " & FeatData. ReliefType
+Debug.Print "Auto relief type : " & FeatData.**ReliefType**
 
-Debug.Print "Auto relief ratio : " & FeatData. ReliefRatio
+Debug.Print "Auto relief ratio : " & FeatData.**ReliefRatio**
 
-FeatData. AccessSelections swModel, Nothing
+FeatData.**AccessSelections** swModel, Nothing
 
-Set face = FeatData. GetFixedFace
+Set face = FeatData.**GetFixedFace**
 
-faceId = face. GetFaceId ()
+faceId = face.**GetFaceId**()
 
 Debug.Print "Fixed face ID: " & faceId
 
 'Modify initial values
 
-FeatData. SheetThickness = 0.014
+FeatData.**SheetThickness** = 0.014
 
-FeatData. BendRadius = 0.0006
+FeatData.**BendRadius** = 0.0006
 
 'Modify the feature definition
 
-swFeat. ModifyDefinition FeatData, swModel, Nothing
+swFeat.**ModifyDefinition** FeatData, swModel, Nothing
 
 Debug.Print "----------------------------After Setting Values-------------------------------"
 
-Debug.Print "SheetMetal thickness : " & FeatData. SheetThickness
+Debug.Print "SheetMetal thickness : " & FeatData.**SheetThickness**
 
-Debug.Print "Bend Radius : " & FeatData. BendRadius
+Debug.Print "Bend Radius : " & FeatData.**BendRadius**
 
-Debug.Print "Reverse thickness : " & FeatData. ReverseThickness
+Debug.Print "Reverse thickness : " & FeatData.**ReverseThickness**
 
-Debug.Print "Keep body : " & FeatData. KeepBody
+Debug.Print "Keep body : " & FeatData.**KeepBody**
 
-Debug.Print "Overlap type : " & FeatData. CornerDefaults
+Debug.Print "Overlap type : " & FeatData.**CornerDefaults**
 
-Debug.Print "Rip gaps : " & FeatData. RipGap
+Debug.Print "Rip gaps : " & FeatData.**RipGap**
 
-Debug.Print "Rip overlap ratio : " & FeatData. RipOverlapRatio
+Debug.Print "Rip overlap ratio : " & FeatData.**RipOverlapRatio**
 
-Debug.Print "Auto relief type : " & FeatData. ReliefType
+Debug.Print "Auto relief type : " & FeatData.**ReliefType**
 
-Debug.Print "Auto relief ratio : " & FeatData. ReliefRatio
+Debug.Print "Auto relief ratio : " & FeatData.**ReliefRatio**
 
 End Sub
 
 ## Examples
 
 [Create ConvertSolid Feature (VB.NET)](Create_ConvertSolid_Feature_Example_VBNET.htm)
-
 [Create ConvertSolid Feature (C#)](Create_ConvertSolid_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -210,56 +205,20 @@ End Sub
 To create a ConvertSolid feature:
 
 1. Ensure that the Sheet Metal tab is visible on the CommandManager toolbar.
-2. Call
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to select the fixed face (with Mark=0) and bend edges (with Mark=1).
-3. Call
-
-  [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-  (swFmSolidToSheetMetal) to create this feature data object.
-4. Instantiate and specify the
-
-  [ICustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
-
-  object.
-5. Call
-
-  [IConvertSolidFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html)
-
-  .
-6. Call
-
-  [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-  to create the ConvertSolid feature.
+2. Call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the fixed face (with Mark=0) and bend edges (with Mark=1).
+3. Call [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)(swFmSolidToSheetMetal) to create this feature data object.
+4. Instantiate and specify the [ICustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html) object.
+5. Call [IConvertSolidFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html).
+6. Call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) to create the ConvertSolid feature.
 
 To modify a ConvertSolid feature:
 
-1. Call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to obtain this feature data object.
-2. Call
-
-  [IConvertSolidFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~AccessSelections.html)
-
-  .
+1. Call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to obtain this feature data object.
+2. Call [IConvertSolidFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~AccessSelections.html).
 3. Modify properties as needed.
-4. Call
+4. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) to finalize any changes or [IConvertSolidFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReleaseSelectionAccess.html) if no changes were made.
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  to finalize any changes or
-
-  [IConvertSolidFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReleaseSelectionAccess.html)
-
-  if no changes were made.
-
-For more information about converting solids or surface bodies to sheet metal parts, see the**SOLIDWORKS user-interface online help > Sheet Metal > Comparing Sheet Metal Design Methods > Convert to Sheet Metal Tool**topics.
+For more information about converting solids or surface bodies to sheet metal parts, see the **SOLIDWORKS Design user-interface online help > Sheet Metal > Comparing Sheet Metal Design Methods > Convert to Sheet Metal Tool** topics.
 
 ## Accessors
 
@@ -274,5 +233,4 @@ IFeatureManager::CreateDefinition
 ## See Also
 
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

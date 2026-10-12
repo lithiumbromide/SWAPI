@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # GetEdgeConvexityFilter Method (IPowerSelect)
 
-Gets the
-
-Edge convexity
-
-filter set in this PowerSelect session.
+Gets the Edge convexity filter set in this PowerSelect session.
 
 ## Syntax
 
@@ -62,29 +58,21 @@ System.int GetEdgeConvexityFilter(
 ### Parameters
 
 - `bConvex`: True to get convex edges, false to not
-- `bConcave`: True to get concave edges, false to notParamDesc
-- `bIgnoreMixedLoop`: True to ignore loops with convex or concave edges, false to notParamDesc
+- `bConcave`: True to get concave edges, false to not
+- `bIgnoreMixedLoop`: True to ignore loops with convex or concave edges, false to not
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetEdgeConvexityFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetEdgeConvexityFilter.html)
-
-.
+See [IPowerSelect::GetEdgeConvexityFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetEdgeConvexityFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::SetEdgeConvexityFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetEdgeConvexityFilter.html)
 
 ## Availability

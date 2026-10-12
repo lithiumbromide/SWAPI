@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetFirstFacePair Method (IMidSurface)
 
-Obsolete. Superseded by
-
-[IMidSurface2::GetFirstFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFacePair.html)
-
-.
+Obsolete. Superseded by [IMidSurface2::GetFirstFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFacePair.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ GetFirstFacePair(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MidSurface::GetFirstFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetFirstFacePair.html)
-
-.
+See [MidSurface::GetFirstFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetFirstFacePair.html).
 
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)

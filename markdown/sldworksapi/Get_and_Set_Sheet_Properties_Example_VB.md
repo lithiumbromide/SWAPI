@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Sheet_Properties_Example_VB.htm"
 
 # Get and Set Sheet Properties Example (VBA)
 
-This example shows how to get the sheet properties and how to switch
-projection.
+This example shows how to get the sheet properties and how to switch projection.
 
 ```
 '----------------------------------------------------------------------

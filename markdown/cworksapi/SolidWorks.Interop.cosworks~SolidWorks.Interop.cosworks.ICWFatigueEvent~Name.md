@@ -48,24 +48,15 @@ Name of this fatigue event
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~Name.html)
-
-.
+See [CWFatigueEvent::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~Name.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # ISetBody2 Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::ISetBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ISetBody3.html)
-
-.
+Obsolete. Superseded by [IFeature::ISetBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ISetBody3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool ISetBody2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Feature::ISetBody2](ms-its:sldworksapivb6.chm::/sldworks~Feature~ISetBody2.html)
-
-.
+See [Feature::ISetBody2](ms-its:sldworksapivb6.chm::/sldworks~Feature~ISetBody2.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

@@ -71,43 +71,17 @@ TableAnnotation^ GetGeneralTableAnnotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: True to anchor the table by AnchorType and ignore any coordinates specified by X and Y, false to use the coordinates specified by X and Y
-- `X`: X coordinate of this table annotation; valid only if UseAnchorPoint is falseParamDesc
+- `X`: X coordinate of this table annotation; valid only if UseAnchorPoint is false
 - `Y`: Y coordinate of this table annotation; valid only if UseAnchorPoint is false
-
-ParamDesc
-- `AnchorType`: Type of anchor as defined in
-
-[swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
-
-; valid only if UseAnchorPoint is true, and TableTemplate is empty (see
-
-Remarks
-
-)
-- `TableTemplate`: Path and file name of the general table template to use
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-(see
-
-Remarks
-
-)
-- `Rows`: Number of rows in the table annotation; valid only if TableTemplate is empty (see**Remarks**)ParamDesc
-- `Columns`: Number of columns in the table annotation; valid only if TableTemplate is empty (see**Remarks**)ParamDesc
+- `AnchorType`: Type of anchor as defined in [swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html); valid only if UseAnchorPoint is true, and TableTemplate is empty (see **Remarks**)
+- `TableTemplate`: Path and file name of the general table template to use (see Remarks)
+- `Rows`: Number of rows in the table annotation; valid only if TableTemplate is empty (see **Remarks**)
+- `Columns`: Number of columns in the table annotation; valid only if TableTemplate is empty (see **Remarks**)
 
 ### Return Value
 
@@ -115,18 +89,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetGeneralTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetGeneralTableAnnotation.html)
-
-.
+See [ModelDocExtension::GetGeneralTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetGeneralTableAnnotation.html).
 
 ## Examples
 
 [Create General Table Annotation for SOLIDWORKS MBD 3D PDF (C#)](Create_General_Table_for_SOLIDWORKS_3D_PDF_Example_CSharp.htm)
-
 [Create General Table Annotation for SOLIDWORKS MBD 3D PDF (VB.NET)](Create_General_Table_for_SOLIDWORKS_3D_PDF_Example_VBNET.htm)
-
 [Create General Table Annotation for SOLIDWORKS MBD 3D PDF (VBA)](Create_General_Table_for_SOLIDWORKS_3D_PDF_Example_VB.htm)
 
 ## Remarks
@@ -138,14 +106,12 @@ See
 
 This method creates an object for the specified table annotation, but it does not insert the table annotation in the model.
 
-Use[IModelDocExtension::InsertGeneralTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertGeneralTableAnnotation.html)to create and insert a table annotation in the model.
+Use [IModelDocExtension::InsertGeneralTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertGeneralTableAnnotation.html) to create and insert a table annotation in the model.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
 
 ## Availability

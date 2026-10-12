@@ -47,28 +47,20 @@ property System.int VolumeFeatureCalculationType {
 
 ### Property Value
 
-Volume feature calculation option as defined in
-
-[swcVolumeFeatureCalculationType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcVolumeFeatureCalculationType_e.html)
+Volume feature calculation option as defined in [swcVolumeFeatureCalculationType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcVolumeFeatureCalculationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::VolumeFeatureCalculationType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~VolumeFeatureCalculationType.html)
-
-.
+See [TemplateOverrides::VolumeFeatureCalculationType](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~VolumeFeatureCalculationType.html).
 
 ## Remarks
 
-Setting this property is only applied if[ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+Setting this property is only applied if [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
-
 [ITemplateOverrides::DefaultMachiningOperationTool Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~DefaultMachiningOperationTool.html)
 
 ## Availability

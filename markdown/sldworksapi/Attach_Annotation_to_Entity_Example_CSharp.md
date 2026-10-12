@@ -9,8 +9,7 @@ source: "sldworksapi/Attach_Annotation_to_Entity_Example_CSharp.htm"
 
 # Attach Annotation to Entity Example (C#)
 
-This example shows how to attach a note to a different
-entity.
+This example shows how to attach a note to a different entity.
 
 ```
 //-------------------------------------------------------

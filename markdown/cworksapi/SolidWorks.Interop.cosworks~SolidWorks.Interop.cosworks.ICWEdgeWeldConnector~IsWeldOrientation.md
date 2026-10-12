@@ -49,9 +49,7 @@ System.bool IsWeldOrientation(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsWeldResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeldResultErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsWeldResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ### Return Value
 
@@ -59,19 +57,11 @@ True to show the location of the weld with respect to the shell surface, false t
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::IsWeldOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~IsWeldOrientation.html)
-
-.
+See [CWEdgeWeldConnector::IsWeldOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~IsWeldOrientation.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## Remarks
 
@@ -80,9 +70,7 @@ This method is valid only for single sided welds.
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::SetWeldOrientation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~SetWeldOrientation.html)
 
 ## Availability

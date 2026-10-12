@@ -42,13 +42,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ Name of the selected mate reference
 
 ## VBA Syntax
 
-See
-
-[MateReference::Name](ms-its:sldworksapivb6.chm::/sldworks~MateReference~Name.html)
-
-.
+See [MateReference::Name](ms-its:sldworksapivb6.chm::/sldworks~MateReference~Name.html).
 
 ## Examples
 
 [Get Mate Reference Properties (VBA)](Get_Mate_Reference_Properties_Example_VB.htm)
-
 [Get Mate Reference Properties (VB.NET)](Get_Mate_Reference_Properties_Example_VBNET.htm)
-
 [Get Mate Reference Properties (C#)](Get_Mate_Reference_Properties_Example_CSharp.htm)
 
 ## See Also
 
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
-
 [IMateReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CharacteristicsData Object
-Members"
+title: "CharacteristicsData Object Members"
 project: "SWInspectionAddinActiveX DLL"
 interface: "CharacteristicsData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swinspectionapivb6/SWInspectionAddin~CharacteristicsData_members.html"
 ---
 
-# CharacteristicsData Object
-Members
+# CharacteristicsData Object Members
 
 ## Public Properties
 

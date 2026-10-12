@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the sketch region is deselected, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchRegion::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~DeSelect.html)
-
-.
+See [SketchRegion::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~DeSelect.html).
 
 ## See Also
 
 [ISketchRegion Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html)
-
 [ISketchRegion Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion_members.html)
-
 [ISketchRegion::Select2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion~Select2.html)
 
 ## Availability

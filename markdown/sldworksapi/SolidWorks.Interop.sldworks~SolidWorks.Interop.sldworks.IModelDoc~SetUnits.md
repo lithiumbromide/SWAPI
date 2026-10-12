@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetUnits Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SetUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetUnits.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SetUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetUnits.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void SetUnits(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SetUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetUnits.html)
-
-.
+See [ModelDoc::SetUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SetUnits.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

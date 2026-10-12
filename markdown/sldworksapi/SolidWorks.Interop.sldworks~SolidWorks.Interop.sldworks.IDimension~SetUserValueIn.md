@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetUserValueIn Method (IDimension)
 
-Obsolete. Superseded by
-
-[IDimension::SetUserValueIn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetUserValueIn2.html)
-
-.
+Obsolete. Superseded by [IDimension::SetUserValueIn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetUserValueIn2.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetUserValueIn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Dimension::SetUserValueIn](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetUserValueIn.html)
-
-.
+See [Dimension::SetUserValueIn](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetUserValueIn.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

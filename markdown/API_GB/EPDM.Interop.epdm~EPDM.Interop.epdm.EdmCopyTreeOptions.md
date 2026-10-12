@@ -37,41 +37,18 @@ public value class EdmCopyTreeOptions : public System.ValueType
 struct EdmCmdInfo
 
 {
-
-string
-
-[mbsPrefix](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbsPrefix.html)
-
-;
-
-string
-
-[mbsSuffix](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbsSuffix.html)
-
-;
-
-VARIANT_BOOL
-
-[mbIncludeDrawings](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbIncludeDrawings.html)
-
-;
-
-VARIANT_BOOL
-
-[mbUseLatestVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbUseLatestVersion.html)
-
-;
-
+string [mbsPrefix](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbsPrefix.html);
+string [mbsSuffix](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbsSuffix.html);
+VARIANT_BOOL [mbIncludeDrawings](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbIncludeDrawings.html);
+VARIANT_BOOL [mbUseLatestVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions~mbUseLatestVersion.html);
 };
 
 ## Examples
 
 [Copy Assembly Tree of Files (VB.NET)](Copy_Assembly_Tree_Example_VBNET.htm)
-
 [Copy Assembly Tree of Files (C#)](Copy_Assembly_Tree_Example_CSharp.htm)
 
 ## See Also
 
 [EdmCopyTreeOptions Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

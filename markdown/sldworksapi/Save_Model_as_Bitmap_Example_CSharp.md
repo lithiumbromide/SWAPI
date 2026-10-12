@@ -11,8 +11,7 @@ source: "sldworksapi/Save_Model_as_Bitmap_Example_CSharp.htm"
 
 ## Save Model as BMP Example (C#)
 
-Thisexampleshows how to
-save the current view of a model as a bitmap.
+This example shows how to save the current view of a model as a bitmap.
 
 ```
 //-----------------------------------------------------------------------------------

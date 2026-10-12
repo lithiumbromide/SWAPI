@@ -48,30 +48,20 @@ Number of layers
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::LayerCount](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LayerCount.html)
-
-.
+See [EModelViewControl::LayerCount](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LayerCount.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-Call this property before calling[IEModelViewControl::LayerName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerName.html)to get the total number of the layers in this eDrawings document.
+Call this property before calling [IEModelViewControl::LayerName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerName.html) to get the total number of the layers in this eDrawings document.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ShowLayer Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowLayer.html)
 
 ## Availability

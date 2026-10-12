@@ -47,17 +47,11 @@ System.int AddPropertyExtension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PropertyExtension`: Value of the property extension to add to the model (see**Remarks**)
+- `PropertyExtension`: Value of the property extension to add to the model (see **Remarks**)
 
 ### Return Value
 
@@ -65,11 +59,7 @@ Size of the array to which the property extension value is added
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddPropertyExtension.html)
-
-.
+See [ModelDoc2::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddPropertyExtension.html).
 
 ## Remarks
 
@@ -79,16 +69,14 @@ To use this method:
 2. Assign the variable a value: float, integer, or string.
 3. Call this method to add the value to the model.
 
-The 1-based array is a first-in-last-out structured list, whose size is used by[IModelDoc2::GetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetPropertyExtension.html)to access the property extension..
+The 1-based array is a first-in-last-out structured list, whose size is used by [IModelDoc2::GetPropertyExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetPropertyExtension.html) to access the property extension..
 
-**NOTE**: SOLIDWORKS recommends that you use[IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html),[IAttributeDef](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html), and[IParameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter.html)instead of this method. These interfaces provide more flexibility.
+**NOTE**: SOLIDWORKS recommends that you use [IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html), [IAttributeDef](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html), and [IParameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter.html) instead of this method. These interfaces provide more flexibility.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ResetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ResetPropertyExtension.html)
 
 ## Availability

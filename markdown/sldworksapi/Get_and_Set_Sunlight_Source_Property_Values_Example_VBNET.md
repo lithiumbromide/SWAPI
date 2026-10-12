@@ -59,125 +59,43 @@ Class
 
 SolidWorksMacro
 
-Dim
-
-swModelDoc
-
-As
+Dim swModelDoc As
 
 ModelDoc2
 
-Dim
-
-swModelDocExt
-
-As
+Dim swModelDocExt As
 
 ModelDocExtension
 
-Dim
+Dim retval As Boolean
 
-retval
-
-As
-
-Boolean
-
-Dim
-
-NorthDirection
-
-As
+Dim NorthDirection As
 
 MathVector
 
-Dim
+Dim DateTime As String
 
-DateTime
+Dim vVector As Object
 
-As
+Dim nVector(2) As Double
 
-String
-
-Dim
-
-vVector
-
-As
-
-Object
-
-Dim
-
-nVector(2)
-
-As
-
-Double
-
-Dim
-
-swMathUtil
-
-As
+Dim swMathUtil As
 
 MathUtility
 
-Dim
+Dim NorthLatitude As Double
 
-NorthLatitude
+Dim EastLongitude As Double
 
-As
+Dim TimeZone As Double
 
-Double
+Dim Haze As Double
 
-Dim
+Dim SunDiameter As Double
 
-EastLongitude
+Dim GroundAlbedo As Integer
 
-As
-
-Double
-
-Dim
-
-TimeZone
-
-As
-
-Double
-
-Dim
-
-Haze
-
-As
-
-Double
-
-Dim
-
-SunDiameter
-
-As
-
-Double
-
-Dim
-
-GroundAlbedo
-
-As
-
-Integer
-
-Dim
-
-SkyGamma
-
-As
-
-Double
+Dim SkyGamma As Double
 
 Sub
 
@@ -188,8 +106,7 @@ swModelDoc = swApp.ActiveDoc
 swModelDocExt = swModelDoc.Extension
 ```
 
-'Get
-sunlight property values
+'Get sunlight property values
 
 ```vb
 retval = swModelDocExt.GetSunLightSourcePropertyValues(NorthDirection, NorthLatitude, EastLongitude, TimeZone, DateTime)
@@ -197,41 +114,15 @@ retval = swModelDocExt.GetSunLightAdvancedPropertyValues(Haze, SunDiameter, Grou
 Debug.Print(
 ```
 
-"North
-direction: "
+"North direction: " & NorthDirection.**ArrayData**(0) & "," & NorthDirection.**ArrayData**(1) & ","
 
-& NorthDirection.
-
-ArrayData
-
-(0)
-&
-
-","
-
-&
-NorthDirection.
-
-ArrayData
-
-(1) &
-
-","
-
-&
-NorthDirection.
-
-ArrayData
-
-(2))
+& NorthDirection.**ArrayData**(2))
 
 ```vb
 Debug.Print(
 ```
 
-"North
-latitude:
-"
+"North latitude: "
 
 & NorthLatitude)
 
@@ -239,9 +130,7 @@ latitude:
 Debug.Print(
 ```
 
-"East
-longitude:
-"
+"East longitude: "
 
 & EastLongitude)
 
@@ -249,9 +138,7 @@ longitude:
 Debug.Print(
 ```
 
-"Time
-zone:
-"
+"Time zone: "
 
 & TimeZone)
 
@@ -259,9 +146,7 @@ zone:
 Debug.Print(
 ```
 
-"Date
-and time:
-"
+"Date and time: "
 
 & DateTime)
 
@@ -269,8 +154,7 @@ and time:
 Debug.Print(
 ```
 
-"Haze
-(0.0 - 1.0): "
+"Haze (0.0 - 1.0): "
 
 & Haze)
 
@@ -278,8 +162,7 @@ Debug.Print(
 Debug.Print(
 ```
 
-"Sun
-diameter (0.01 - 21474836.47): "
+"Sun diameter (0.01 - 21474836.47): "
 
 & SunDiameter)
 
@@ -287,8 +170,7 @@ diameter (0.01 - 21474836.47): "
 Debug.Print(
 ```
 
-"RGB
-for ground albedo: "
+"RGB for ground albedo: "
 
 & GroundAlbedo)
 
@@ -296,23 +178,11 @@ for ground albedo: "
 Debug.Print(
 ```
 
-"Sky
-Gamma (0.1 = 100.0): "
+"Sky Gamma (0.1 = 100.0): "
 
 & SkyGamma)
 
-Debug.Print(
-
-"Minutes
-of sunlight: "
-
-& swModelDocExt.
-
-SunLightInformation
-
-(swSunlightInfoType_e.swSunlight_LengthOfDay
-
-))
+Debug.Print("Minutes of sunlight: " & swModelDocExt.**SunLightInformation**(swSunlightInfoType_e.swSunlight_LengthOfDay**))**
 
 ```vb
 Debug.Print("Sunrise (hours from midnight): " & swModelDocExt.SunLightInformation(swSunlightInfoType_e.swSunlight_Sunrise))
@@ -337,17 +207,9 @@ TimeZone = TimeZone + 0.5
 retval = swModelDocExt.SetSunLightSourcePropertyValues(NorthDirection, NorthLatitude, EastLongitude, TimeZone, DateTime)
 ```
 
-End
+End Sub
 
-Sub
-
-Public
-
-swApp
-
-As
-
-SldWorks
+Public swApp As SldWorks
 
 ```vb
 End

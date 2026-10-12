@@ -53,28 +53,18 @@ SwDMDimXpertFeature^ IGetSubFeatures(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[SwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+in-process, unmanaged C++: Pointer to an array of [SwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Use
-
-[ISwDMDimXpertCompoundHoleFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature~GetSubFeatureCount.html)
-
-to populate the Count argument.
+Use [ISwDMDimXpertCompoundHoleFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature~GetSubFeatureCount.html) to populate the Count argument.
 
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
-
 [ISwDMDimXpertCompoundHoleFeature::GetSubFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature~GetSubFeatures.html)
 
 ## Availability

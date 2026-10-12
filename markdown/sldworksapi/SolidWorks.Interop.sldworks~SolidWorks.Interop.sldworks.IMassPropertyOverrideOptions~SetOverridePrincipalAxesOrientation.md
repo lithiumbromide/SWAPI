@@ -55,21 +55,15 @@ System.bool SetOverridePrincipalAxesOrientation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Axis`: One of the following principal axes:
 
-- 0 = X axis
-- 1 = Y axis
-- 2 = Z axis
+  - 0 = X axis
+  - 1 = Y axis
+  - 2 = Z axis
 - `Value`: An array of three doubles of the x, y, and z coordinates of Axis
 - `AutoCorrect`: True to generate orthogonal axes, false to not
 
@@ -79,26 +73,16 @@ True if the principal axis orientation successfully overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::SetOverridePrincipalAxesOrientation](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~SetOverridePrincipalAxesOrientation.html)
-
-.
+See [MassPropertyOverrideOptions::SetOverridePrincipalAxesOrientation](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~SetOverridePrincipalAxesOrientation.html).
 
 ## Remarks
 
-This method is valid only if
-
-[IMassPropertyOverrideOptions::OverrideMomentsOfInertia](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMomentsOfInertia.html)
-
-is set to true.
+This method is valid only if [IMassPropertyOverrideOptions::OverrideMomentsOfInertia](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMomentsOfInertia.html) is set to true.
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassProperty2::PrincipalAxesOfInertia Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~PrincipalAxesOfInertia.html)
 
 ## Availability

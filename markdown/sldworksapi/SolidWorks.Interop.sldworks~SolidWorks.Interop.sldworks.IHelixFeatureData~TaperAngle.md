@@ -45,13 +45,7 @@ property System.double TaperAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Angle of taper
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::TaperAngle](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~TaperAngle.html)
-
-.
+See [HelixFeatureData::TaperAngle](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~TaperAngle.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

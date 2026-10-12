@@ -1,6 +1,5 @@
 ---
-title: "ISplineParamData Object
-Members"
+title: "ISplineParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISplineParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISplineParamData_members.html"
 ---
 
-# ISplineParamData Object
-Members
+# ISplineParamData Object Members
 
 ## Public Methods
 

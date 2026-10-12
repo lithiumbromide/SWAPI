@@ -42,9 +42,7 @@ void SetSettingsVar(
 
 ### Parameters
 
-- `eVar`: User setting as defined by
-
-[EdmUserSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserSetting.html)
+- `eVar`: User setting as defined by [EdmUserSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserSetting.html)
 - `pbsVal`: Value of eVar
 
 ## Examples
@@ -75,35 +73,35 @@ void SetSettingsVar(
 
 //Program.cs:
 
-usingSystem;
+using System;
 
-usingSystem.Text;
+using System.Text;
 
-usingEPDM.Interop.epdm;
+using EPDM.Interop.epdm;
 
-usingEPDM.Interop.EPDMResultCode;
+using EPDM.Interop.EPDMResultCode;
 
-namespaceproject_name
-
-{
-
-classProgram
+namespace project_name
 
 {
 
-staticstringuserName ="Admin";
-
-staticstringvaultName ="JEB12";
-
-staticstringupdUser ="A";
-
-staticstringupdGroup ="NewGroup";
-
-staticvoidMain(string[] args)
+class Program
 
 {
 
-StringBuilder sb =newStringBuilder();
+static string userName = "Admin";
+
+static string vaultName = "JEB12";
+
+static string updUser = "A";
+
+static string updGroup = "NewGroup";
+
+static void Main(string[] args)
+
+{
+
+StringBuilder sb = new StringBuilder();
 
 try
 
@@ -113,23 +111,23 @@ sb.AppendFormat("UserName: {0}", userName).AppendLine();
 
 sb.AppendFormat("VaultName: {0}", vaultName).AppendLine();
 
-IEdmVault11 vault = (IEdmVault11)(newEdmVault5());
+IEdmVault11 vault = (IEdmVault11)(new EdmVault5());
 
-if(!vault. IsLoggedIn )
+if (!vault.**IsLoggedIn**)
 
-vault. Login (userName,"password", vaultName);
+vault.**Login**(userName, "password", vaultName);
 
-IEdmUserMgr9 userMgr = (IEdmUserMgr9)vault. CreateUtility (EdmUtility.EdmUtil_UserMgr);
+IEdmUserMgr9 userMgr = (IEdmUserMgr9)vault.**CreateUtility**(EdmUtility.EdmUtil_UserMgr);
 
-varuserPos = userMgr. GetFirstUserPosition ();
+var userPos = userMgr.**GetFirstUserPosition**();
 
-while(!userPos.IsNull)
+while (!userPos.IsNull)
 
 {
 
-IEdmUser11 user = (IEdmUser11)userMgr. GetNextUser (userPos);
+IEdmUser11 user = (IEdmUser11)userMgr.**GetNextUser**(userPos);
 
-if(user.Name == updUser)
+if (user.Name == updUser)
 
 {
 
@@ -137,7 +135,7 @@ if(user.Name == updUser)
 
 //user.SetSettingsVar(EdmUserSetting.EdmSv_AutoDelete, "1");
 
-user. SetSettingsVar (EdmUserSetting.EdmUSv_AutoGetLatestRefs,"0");
+user.**SetSettingsVar**(EdmUserSetting.EdmUSv_AutoGetLatestRefs, "0");
 
 sb.AppendFormat("Settings successfully updated for user {0}", updUser).AppendLine();
 
@@ -147,19 +145,19 @@ break;
 
 }
 
-vargroupPos = userMgr. GetFirstUserGroupPosition ();
+var groupPos = userMgr.**GetFirstUserGroupPosition**();
 
-while(!groupPos.IsNull)
-
-{
-
-IEdmUserGroup9 group = (IEdmUserGroup9)userMgr. GetNextUserGroup (groupPos);
-
-if(group.Name == updGroup)
+while (!groupPos.IsNull)
 
 {
 
-group. SetSettingsVar (EdmGroupSetting.EdmGSv_AutoGetLatestRefs,"1");
+IEdmUserGroup9 group = (IEdmUserGroup9)userMgr.**GetNextUserGroup**(groupPos);
+
+if (group.Name == updGroup)
+
+{
+
+group.**SetSettingsVar**(EdmGroupSetting.EdmGSv_AutoGetLatestRefs, "1");
 
 sb.AppendFormat("Settings successfully updated for group {0}", updGroup);
 
@@ -171,23 +169,23 @@ break;
 
 }
 
-catch(System.Runtime.InteropServices.COMException ex)
+catch (System.Runtime.InteropServices.COMException ex)
 
 {
 
-varerrorType =typeof(EdmResultErrorCodes_e);
+var errorType = typeof(EdmResultErrorCodes_e);
 
-if(Enum.IsDefined(errorType, ex.ErrorCode))
+if (Enum.IsDefined(errorType, ex.ErrorCode))
 
 sb.AppendFormat("Edm error occurred: {0}", Enum.GetName(errorType, ex.ErrorCode)).AppendLine();
 
 else
 
-sb.AppendLine("HRESULT = 0x"+ ex.ErrorCode.ToString("X") +" "+ ex.Message);
+sb.AppendLine("HRESULT = 0x" + ex.ErrorCode.ToString("X") + " " + ex.Message);
 
 }
 
-catch(Exception ex)
+catch (Exception ex)
 
 {
 
@@ -210,7 +208,6 @@ Console.ReadKey();
 ## See Also
 
 [IEdmUser11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11.html)
-
 [IEdmUser11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11_members.html)
 
 ## Availability

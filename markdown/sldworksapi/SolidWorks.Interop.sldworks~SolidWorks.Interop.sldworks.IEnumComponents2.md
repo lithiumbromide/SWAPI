@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumComponents2 Interface
 
-Allows access to a
+Allows access to a [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) enumeration.
 
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumComponents2
 
 ## VBA Syntax
 
-See
-
-[EnumComponents2](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents2.html)
-
-.
+See [EnumComponents2](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents2.html).
 
 ## Remarks
 
@@ -70,5 +62,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumComponents2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumComponents2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

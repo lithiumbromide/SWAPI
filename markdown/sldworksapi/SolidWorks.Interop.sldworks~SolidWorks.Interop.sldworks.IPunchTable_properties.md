@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPu
 
 # IPunchTable Interface Properties
 
-For a list of all members of this type, see[IPunchTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html).
+For a list of all members of this type, see [IPunchTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html).
 
 ## Public Properties
 
@@ -27,9 +27,6 @@ For a list of all members of this type, see[IPunchTable members](SolidWorks.Inte
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IPunchTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTableAnnotation.html)
-
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)

@@ -51,21 +51,11 @@ System.bool ModifyKnot(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: 1-based index of the interior knot to modify (see
-
-Remarks
-
-)
+- `Index`: 1-based index of the interior knot to modify (see **Remarks**)
 - `DKnot`: Knot value
 
 ### Return Value
@@ -74,11 +64,7 @@ True if knot successfully modifed, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::ModifyKnot](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ModifyKnot.html)
-
-.
+See [SketchSpline::ModifyKnot](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ModifyKnot.html).
 
 ## Examples
 
@@ -88,18 +74,15 @@ See
 
 Interior knots occur after the first set of 0s and before the last set of 1s in the knot array. If the knot array is [ 0 0 0 0 0.279240779943874 0.55 0.720759220056126 1 1 1 1 ], then the interior knots are 0.279240779943874, 0.55, and 0.720759220056126.
 
-Before calling this method, call[ISplineParamData::GetKnotPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~GetKnotPoints.html)and[ISplineParamData::KnotPointsCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~KnotPointsCount.html)to help specify Index and the new knot value.
+Before calling this method, call [ISplineParamData::GetKnotPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~GetKnotPoints.html) and [ISplineParamData::KnotPointsCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~KnotPointsCount.html) to help specify Index and the new knot value.
 
-After calling this method, you must call[IModelDoc2::ForceRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ForceRebuild3.html)to update the sketch.
+After calling this method, you must call [IModelDoc2::ForceRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ForceRebuild3.html) to update the sketch.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::ModifyControlPoint Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ModifyControlPoint.html)
-
 [ISplineParamData::SetKnotPoints Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~SetKnotPoints.html)
 
 ## Availability

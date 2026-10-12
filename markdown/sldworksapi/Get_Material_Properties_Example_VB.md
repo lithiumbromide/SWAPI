@@ -9,15 +9,9 @@ source: "sldworksapi/Get_Material_Properties_Example_VB.htm"
 
 # Get Material Properties Example (VBA)
 
-This example shows how to iterate over the faces and features of a model
-and get the displayed colors.
+This example shows how to iterate over the faces and features of a model and get the displayed colors.
 
-**NOTE:**When in shaded mode, colors can be allocated, in order of
-priority, at the model, feature, and face level. To correctly get the color a
-face, you must examine the color of the face at all of these levels. Also,
-several document-level preferences control how color is used. This example shows
-how to iterate over the faces and features of a model and correctly get the
-displayed color.
+**NOTE:** When in shaded mode, colors can be allocated, in order of priority, at the model, feature, and face level. To correctly get the color a face, you must examine the color of the face at all of these levels. Also, several document-level preferences control how color is used. This example shows how to iterate over the faces and features of a model and correctly get the displayed color.
 
 ```
 '-----------------------------------------------------

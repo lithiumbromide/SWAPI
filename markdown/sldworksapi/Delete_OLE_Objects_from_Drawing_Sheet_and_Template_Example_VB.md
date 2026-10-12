@@ -9,8 +9,7 @@ source: "sldworksapi/Delete_OLE_Objects_from_Drawing_Sheet_and_Template_Example_
 
 # Delete OLE Objects from Drawing Sheet and Template Example (VBA)
 
-This example shows how to delete any OLE objects from the current drawing
-sheet and template.
+This example shows how to delete any OLE objects from the current drawing sheet and template.
 
 ```
 '---------------------------------------------------------
@@ -26,154 +25,58 @@ sheet and template.
 '--------------------------------------------------------
 ```
 
+```vb
 Option Explicit
-
 Sub DeleteAllOleItemsInSheet _
-
 ( _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp
-As SldWorks.SldWorks, _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-As SldWorks.ModelDoc2, _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSheet
-As SldWorks.Sheet _
-
+    swApp As SldWorks.SldWorks, _
+    swModel As SldWorks.ModelDoc2, _
+    swSheet As SldWorks.Sheet _
 )
+    Dim nOleCnt                     As Long
+    Dim i                           As Long
+    Dim nSize                       As Long
+    Dim nAspect                     As Long
+    Dim skArray()                   As Variant
+    Dim bRet                        As Boolean
+    nOleCnt = swSheet.GetOLEObjectCount: If 0 = nOleCnt Then Exit Sub
+    ReDim skArray(nOleCnt - 1)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-nOleCntkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
+    ' Get location of each OLE item
+    For i = 0 To nOleCnt - 1
+        skArray(i) = swSheet.GetOLEObjectSettings(i, nSize, nAspect)
+    Next i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-nSizekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-nAspectkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-skArray()kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Variant
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nOleCnt
-= swSheet.GetOLEObjectCount: If
-0 = nOleCnt Then Exit Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ReDim
-skArray(nOleCnt - 1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get location of each OLE item
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To nOleCnt - 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}skArray(i)
-= swSheet.GetOLEObjectSettings(i,
-nSize, nAspect)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Delete each OLE items
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To nOleCnt - 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swModel.SelectByID("",
-"OLEITEM",kadov_tag{{</spaces>}}0.5
-* (skArray(i)(0) + skArray(i)(3)),kadov_tag{{</spaces>}}0.5
-* (skArray(i)(1) + skArray(i)(4)),kadov_tag{{</spaces>}}0.5
-* (skArray(i)(2) + skArray(i)(5)))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swModel.DeleteSelection(False)
-Debug.Print ("OLE item " & i & "
-deleted? " & bRet)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-
+    ' Delete each OLE items
+    For i = 0 To nOleCnt - 1
+        bRet = swModel.SelectByID("", "OLEITEM",0.5 * (skArray(i)(0) + skArray(i)(3)), 0.5 * (skArray(i)(1) + skArray(i)(4)), 0.5 * (skArray(i)(2) + skArray(i)(5)))
+        bRet = swModel.DeleteSelection(False)
+         Debug.Print ("OLE item " & i & " deleted? " & bRet)
+    Next i
 End Sub
 
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.ModelDoc2
+    Dim swDraw                      As SldWorks.DrawingDoc
+    Dim swSheet                     As Object
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swDraw = swModel
+    Set swSheet = swDraw.GetCurrentSheet
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    DeleteAllOleItemsInSheet swApp, swModel, swSheet
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swDrawkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.DrawingDoc
+    ' Switch to template and delete OLE objects
+    swDraw.EditTemplate
+    Set swSheet = swDraw.GetCurrentSheet
+    DeleteAllOleItemsInSheet swApp, swModel, swSheet
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSheetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Object
+    swDraw.EditSheet
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swDraw = swModel
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSheet = swDraw.GetCurrentSheetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}DeleteAllOleItemsInSheet
-swApp, swModel, swSheet
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Switch to template and delete OLE objects
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swDraw.EditTemplate
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSheet = swDraw.GetCurrentSheet
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}DeleteAllOleItemsInSheet
-swApp, swModel, swSheet
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swDraw.**EditSheet**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Switch back to sheet and make sure all OLE objects are deleted
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSheet = swDraw.GetCurrentSheet
-
-kadov_tag{{<spaces>}}
+    ' Switch back to sheet and make sure all OLE objects are deleted
+    Set swSheet = swDraw.GetCurrentSheet
 
 End Sub
+```

@@ -9,52 +9,12 @@ source: "swconst/DP_DimXpert-DisplayOptions.htm"
 
 # Document Properties > DimXpert > Display Options
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Slot dimensions - Combined or
-Separate | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplaySlotDimensionType_e,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplaySlotDimensionType_e,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertDisplaySlotDimensionType_e.< Value>) | See swDimXpertDisplaySlotDimensionType_e for valid options | Specifies whether the length and
-width dimensions applied to slots are combined as a callout or placed separately |
-| Gtol linear dimension attachment -
-Combined or Separate | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplayGtolLinearDimAttachmentType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDisplayGtolLinearDimAttachmentType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertDisplayGtolLinearDimAttachmentType_e.< Value>) | See swDimXpertDisplayGtolLinearDimAttachmentType_e for valid options | Specifies whether the geometric
-tolerance feature control frames are combined with the size limits or placed
-separately |
-| Redundant dimensions and tolerances
-- Eliminate duplicates | I ModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayEliminateDuplicates,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayEliminateDuplicates ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified , <Value>) | Boolean value | Specifies whether duplicates are
-used |
-| Redundant dimensions and tolerances
-- Show instance count | I ModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertDisplayShowInstanceCount,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayShowInstanceCount ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified , <Value>) | Boolean value | Specifies whether instance counts
-are applied |
-| Hole callouts - Dimension type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplayHoleDimensionType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDisplayHoleDimensionType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertDisplayHoleDimensionType_e.< Value>) | See swDimXpertDisplayHoleDimensionType_e for valid options | Specifies whether hole callouts are
-displayed as combined or separate dimensions |
-| Datum gtol attachment - Surface -
-Attached to feature control frame or Attached to surface and dimension | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDatumGtolSurfaceAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDatumGtolSurfaceAttachment ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertDisplayDatumGtolSurfaceAttachmentType_e.< Value>) | See swDimXpertDisplayDatumGtolSurfaceAttachmentType_e for valid options | Specifies whether datums are
-attached to the surface of the feature, to the dimension, or to the feature
-control frame |
-| Linear Dimension - Attached to
-feature control frame or Attached to dimension | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDatumGtolLinearDimAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDatumGtolLinearDimAttachment ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertDisplayDatumGtolLinearDimAttachmentType_e.< Value>) | See swDimXpertDisplayDatumGtolLinearDimAttachmentType_e for valid options | Specifies whether datums are
-attached to the feature control frame or to the dimension |
+| Slot dimensions - Combined or Separate | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplaySlotDimensionType_e, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplaySlotDimensionType_e, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertDisplaySlotDimensionType_e.< Value>) | See swDimXpertDisplaySlotDimensionType_e for valid options | Specifies whether the length and width dimensions applied to slots are combined as a callout or placed separately |
+| Gtol linear dimension attachment - Combined or Separate | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplayGtolLinearDimAttachmentType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDisplayGtolLinearDimAttachmentType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertDisplayGtolLinearDimAttachmentType_e.< Value>) | See swDimXpertDisplayGtolLinearDimAttachmentType_e for valid options | Specifies whether the geometric tolerance feature control frames are combined with the size limits or placed separately |
+| Redundant dimensions and tolerances - Eliminate duplicates | I ModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayEliminateDuplicates, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayEliminateDuplicates , swUserPreferenceOption_e.swDetailingNoOptionSpecified , <Value>) | Boolean value | Specifies whether duplicates are used |
+| Redundant dimensions and tolerances - Show instance count | I ModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertDisplayShowInstanceCount, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertDisplayShowInstanceCount , swUserPreferenceOption_e.swDetailingNoOptionSpecified , <Value>) | Boolean value | Specifies whether instance counts are applied |
+| Hole callouts - Dimension type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDisplayHoleDimensionType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDisplayHoleDimensionType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertDisplayHoleDimensionType_e.< Value>) | See swDimXpertDisplayHoleDimensionType_e for valid options | Specifies whether hole callouts are displayed as combined or separate dimensions |
+| Datum gtol attachment - Surface - Attached to feature control frame or Attached to surface and dimension | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDatumGtolSurfaceAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDatumGtolSurfaceAttachment , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertDisplayDatumGtolSurfaceAttachmentType_e.< Value>) | See swDimXpertDisplayDatumGtolSurfaceAttachmentType_e for valid options | Specifies whether datums are attached to the surface of the feature, to the dimension, or to the feature control frame |
+| Linear Dimension - Attached to feature control frame or Attached to dimension | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertDatumGtolLinearDimAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertDatumGtolLinearDimAttachment , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertDisplayDatumGtolLinearDimAttachmentType_e.< Value>) | See swDimXpertDisplayDatumGtolLinearDimAttachmentType_e for valid options | Specifies whether datums are attached to the feature control frame or to the dimension |

@@ -9,13 +9,9 @@ source: "sldworksapiprogguide/Overview/Third-party_Data_in_SOLIDWORKS_Files.htm"
 
 # Third-party Data in SOLIDWORKS Files
 
-Starting with SOLIDWORKS 2015, third-party
-data stored in SOLIDWORKS files cannot be externally read or written by standard
-structured storage or compound file techniques.
+Starting with SOLIDWORKS 2015, third-party data stored in SOLIDWORKS files cannot be externally read or written by standard structured storage or compound file techniques.
 
-To read or
-write third-party data, use the methods and events in the SOLIDWORKS API or
-SOLIDWORKS Document Manager API.
+To read or write third-party data, use the methods and events in the SOLIDWORKS API or SOLIDWORKS Document Manager API.
 
 SOLIDWORKS API:
 

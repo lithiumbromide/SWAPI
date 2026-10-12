@@ -9,8 +9,7 @@ source: "sldworksapi/Create_and_Modify_Closed_Corner_Feature_Example_CSharp.htm"
 
 # Create and Modify Closed Corner Feature Example (C#)
 
-This example shows how to create and modify a closed corner feature in a
-sheet metal part.
+This example shows how to create and modify a closed corner feature in a sheet metal part.
 
 ```
 //------------------------------------------------------------------

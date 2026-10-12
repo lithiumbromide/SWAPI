@@ -48,7 +48,6 @@ C++ programmers not using bstr_t wrapper functions must free the returned string
 ## See Also
 
 [IEdmTemplate5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5.html)
-
 [IEdmTemplate5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5_members.html)
 
 ## Availability

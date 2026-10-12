@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # SaveReport Method (IGeometryAnalysis)
 
-Obsolete. Superseded by
-
-[IGeometryAnalysis::SaveReport2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IGeometryAnalysis~SaveReport2.html)
-
-.
+Obsolete. Superseded by [IGeometryAnalysis::SaveReport2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IGeometryAnalysis~SaveReport2.html).
 
 ## Syntax
 
@@ -57,14 +53,9 @@ System.int SaveReport(
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::SaveReport](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~SaveReport.html)
-
-.
+See [IGeometryAnalysis::SaveReport](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~SaveReport.html).
 
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)

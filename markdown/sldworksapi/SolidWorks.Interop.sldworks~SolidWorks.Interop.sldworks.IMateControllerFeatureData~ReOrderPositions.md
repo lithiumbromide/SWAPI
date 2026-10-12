@@ -46,13 +46,7 @@ void ReOrderPositions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,24 +54,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::ReOrderPositions](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~ReOrderPositions.html)
-
-.
+See [MateControllerFeatureData::ReOrderPositions](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~ReOrderPositions.html).
 
 ## Remarks
 
-Before calling this method, use
-
-[IMateControllerFeatureData::GetPositions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~GetPositions.html)
-
-to get the existing mate positions.
+Before calling this method, use [IMateControllerFeatureData::GetPositions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~GetPositions.html) to get the existing mate positions.
 
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

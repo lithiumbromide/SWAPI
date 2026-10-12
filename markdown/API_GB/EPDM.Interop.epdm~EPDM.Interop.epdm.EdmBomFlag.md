@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag.html"
 
 # EdmBomFlag Enumeration
 
-Bill of Materials options used in calls to
-
-[IEdmFile7::GetComputedBOM](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetComputedBOM.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Bill of Materials options used in calls to [IEdmFile7::GetComputedBOM](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetComputedBOM.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

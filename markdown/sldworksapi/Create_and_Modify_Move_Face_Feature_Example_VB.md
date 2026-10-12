@@ -9,8 +9,7 @@ source: "sldworksapi/Create_and_Modify_Move_Face_Feature_Example_VB.htm"
 
 # Create and Modify Move Face Feature Example (VBA)
 
-This example shows how to create a Move Face feature by translating
-a face on a part.
+This example shows how to create a Move Face feature by translating a face on a part.
 
 ```vb
  '---------------------------------------------------------------------------
@@ -39,7 +38,7 @@ Dim swApp As SldWorks.SldWorks
  Dim filewarning As Long
 Sub main()
     Set swApp = Application.SldWorks
-    ' Open the SOLIDWORKS document
+    ' Open the SOLIDWORKS Design document
      swApp.OpenDoc6 "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\assemblymates\knee.sldprt", swDocPART, swOpenDocOptions_Silent, "", fileerror, filewarning
     Set swModel = swApp.ActiveDoc
      Set swModelDocExt = swModel.Extension

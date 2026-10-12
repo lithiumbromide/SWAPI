@@ -45,13 +45,7 @@ property System.bool WatermarkBehindGeometry {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ True to place this note behind the geometry in a part or assembly, false to plac
 
 ## VBA Syntax
 
-See
-
-[Note::WatermarkBehindGeometry](ms-its:sldworksapivb6.chm::/sldworks~Note~WatermarkBehindGeometry.html)
-
-.
+See [Note::WatermarkBehindGeometry](ms-its:sldworksapivb6.chm::/sldworks~Note~WatermarkBehindGeometry.html).
 
 ## Examples
 
 [Add Watermark to Part (C#)](Add_Watermark_to_Part_Example_CSharp.htm)
-
 [Add Watermark to Part (VB.NET)](Add_Watermark_to_Part_Example_VBNET.htm)
-
 [Add Watermark to Part (VBA)](Add_Watermark_to_Part_Example_VB.htm)
 
 ## Remarks
 
-This property is only available when
-
-[INote::WatermarkNote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkNote.html)
-
-is true.
+This property is only available when [INote::WatermarkNote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkNote.html) is true.
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::WatermarkTransparencyLevel Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkTransparencyLevel.html)
 
 ## Availability

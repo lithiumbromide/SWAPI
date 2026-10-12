@@ -45,13 +45,7 @@ property System.double GapDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Distance in meters between the edges in the flange; default value is 0.001 m
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~GapDistance.html)
-
-.
+See [EdgeFlangeFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~GapDistance.html).
 
 ## Examples
 
-See the
-
-[IEdgeFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
-examples.
+See the [IEdgeFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html) examples.
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
 
 ## Availability

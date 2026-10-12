@@ -1,6 +1,5 @@
 ---
-title: "ModelDocExtension Object
-Members"
+title: "ModelDocExtension Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ModelDocExtension_members"
 member: ""
@@ -8,18 +7,19 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ModelDocExtension_members.html"
 ---
 
-# ModelDocExtension Object
-Members
+# ModelDocExtension Object Members
 
 ## Public Methods
 
-| Public Method AddAngularRunningDim |  |
+| Public Method ActivateFeatureMgrViewx64 |  |
 | --- | --- |
+| Public Method AddAngularRunningDim |  |
 | Public Method AddComment |  |
 | Public Method AddDecal |  |
 | Public Method AddDefaultRenderMaterial |  |
 | Public Method AddDimension |  |
 | Public Method AddDisplayStateSpecificRenderMaterial |  |
+| Public Method AddFeatureMgrView3x64 |  |
 | Public Method AddOrdinateDimension |  |
 | Public Method AddOrUpdateSearchData |  |
 | Public Method AddPathLengthDim |  |
@@ -33,6 +33,7 @@ Members
 | Public Method BreakAllExternalFileReferences2 |  |
 | Public Method Capture3DView |  |
 | Public Method ChangeSketchPlane |  |
+| Public Method CheckVersionCompatibility |  |
 | Public Method CloseMessageBar |  |
 | Public Method CloseUserNotification |  |
 | Public Method Compare3DPMI |  |
@@ -53,6 +54,7 @@ Members
 | Public Method CreateStructureSystem |  |
 | Public Method CreateStructureSystemMemberData |  |
 | Public Method CreateTexture |  |
+| Public Method DeActivateFeatureMgrViewx64 |  |
 | Public Method DeleteAllDecals |  |
 | Public Method DeleteAttachment |  |
 | Public Method DeleteDecal |  |
@@ -118,6 +120,7 @@ Members
 | Public Method GetMaterial |  |
 | Public Method GetMaterialPropertyValues |  |
 | Public Method GetMBD3DPdfData |  |
+| Public Method GetMBDSTEP242Data |  |
 | Public Method GetModelBreakViewNames |  |
 | Public Method GetModelView |  |
 | Public Method GetModelViewCount |  |
@@ -256,6 +259,7 @@ Members
 | Public Method PrintOut3 |  |
 | Public Method PrintOut4 |  |
 | Public Method PublishSTEP242File |  |
+| Public Method PublishSTEP242File2 |  |
 | Public Method PublishTo3DPDF |  |
 | Public Method PurgeDisplayState |  |
 | Public Method RayIntersections |  |

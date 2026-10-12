@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_fields.html"
 
 # EdmCheckRef Structure Fields
 
-For a list of all members of this type, see[EdmCheckRef members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members.html).
+For a list of all members of this type, see [EdmCheckRef members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[EdmCheckRef members](EPDM.Interop.ep
 ## See Also
 
 [EdmCheckRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

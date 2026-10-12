@@ -51,16 +51,11 @@ Fixed under-relaxation factor
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::FixedValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~FixedValue.html)
-
-.
+See [CWThermalStudyOptions::FixedValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~FixedValue.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/Create_Topology_Study_Example_VB.htm"
 
 # Create Topology Study Example (VBA)
 
-This example shows how to create a topology study, constraints, and
-manufacturing controls.
+This example shows how to create a topology study, constraints, and manufacturing controls.
 
 ```vb
 '----------------------------------------------------------------------------

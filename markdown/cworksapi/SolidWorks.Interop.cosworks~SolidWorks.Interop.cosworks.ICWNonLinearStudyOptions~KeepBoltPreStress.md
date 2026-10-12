@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # KeepBoltPreStress Property (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::KeepBoltPreStress2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~KeepBoltPreStress2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::KeepBoltPreStress2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~KeepBoltPreStress2.html).
 
 ## Syntax
 
@@ -55,24 +51,15 @@ property System.int KeepBoltPreStress {
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::KeepBoltPreStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~KeepBoltPreStress.html)
-
-.
+See [CWNonLinearStudyOptions::KeepBoltPreStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~KeepBoltPreStress.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

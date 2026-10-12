@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddS
 
 # AddSelection Method (IEdmBatchItemGeneration)
 
-Obsolete. Superseded by
-
-[IEdmBatchItemGeneration2::AddSelection2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2~AddSelection2.html)
-
-.
+Obsolete. Superseded by [IEdmBatchItemGeneration2::AddSelection2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2~AddSelection2.html).
 
 ## Syntax
 
@@ -46,22 +42,12 @@ void AddSelection(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; vault in which to create the new items
-- `ppoSelection`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-structures, one structure for each file from which to generate an item
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); vault in which to create the new items
+- `ppoSelection`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html) structures, one structure for each file from which to generate an item
 
 ## Examples
 
-See the example in the
-
-[IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
-topic.
+See the example in the [IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html) topic.
 
 ## Remarks
 
@@ -73,7 +59,6 @@ topic.
 ## See Also
 
 [IEdmBatchItemGeneration Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
 [IEdmBatchItemGeneration Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration_members.html)
 
 ## Availability

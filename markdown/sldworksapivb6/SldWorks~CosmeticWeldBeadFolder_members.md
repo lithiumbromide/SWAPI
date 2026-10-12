@@ -1,6 +1,5 @@
 ---
-title: "CosmeticWeldBeadFolder Object
-Members"
+title: "CosmeticWeldBeadFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CosmeticWeldBeadFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CosmeticWeldBeadFolder_members.html"
 ---
 
-# CosmeticWeldBeadFolder Object
-Members
+# CosmeticWeldBeadFolder Object Members
 
 ## Public Properties
 

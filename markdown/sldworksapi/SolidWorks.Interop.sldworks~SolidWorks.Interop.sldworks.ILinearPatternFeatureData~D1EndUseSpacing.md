@@ -45,13 +45,7 @@ property System.bool D1EndUseSpacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to use spacing, false to use number of pattern instances in Direction 1
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::D1EndUseSpacing](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndUseSpacing.html)
-
-.
+See [LinearPatternFeatureData::D1EndUseSpacing](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndUseSpacing.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ILinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndCondition.html)
-
-is set to
-
-[swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html)
-
-.swPatternEndCondition_UpToReference.
+This property is valid only if [ILinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndCondition.html) is set to [swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html).swPatternEndCondition_UpToReference.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
 
 ## Availability

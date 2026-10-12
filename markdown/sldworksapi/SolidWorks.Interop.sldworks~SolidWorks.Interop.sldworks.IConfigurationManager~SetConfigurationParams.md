@@ -55,31 +55,13 @@ System.bool SetConfigurationParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ConfigName`: Name of the configuration (see
-
-Remarks
-
-)
-- `ParamNames`: Array of the names of the parameters for ConfigName (see
-
-Remarks
-
-)
-- `ParamValues`: Array of values for the parameters for ConfigName (see
-
-Remarks
-
-)
+- `ConfigName`: Name of the configuration (see **Remarks**)
+- `ParamNames`: Array of the names of the parameters for ConfigName (see **Remarks**)
+- `ParamValues`: Array of values for the parameters for ConfigName (see **Remarks**)
 
 ### Return Value
 
@@ -87,11 +69,7 @@ True if the names and values of parameters for the specified configuration are s
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::SetConfigurationParams](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~SetConfigurationParams.html)
-
-.
+See [ConfigurationManager::SetConfigurationParams](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~SetConfigurationParams.html).
 
 ## Remarks
 
@@ -108,27 +86,16 @@ You can control these parameters in a part document:
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IConfigurationManager::ISetConfigurationParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ISetConfigurationParams.html)
-
 [IConfigurationManager::IGetConfigurationParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~IGetConfigurationParams.html)
-
 [IConfigurationManager::GetConfigurationParamsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~GetConfigurationParamsCount.html)
-
 [IConfigurationManager::GetConfigurationParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~GetConfigurationParams.html)
-
 [IConfigurationManager::ActiveConfiguration Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ActiveConfiguration.html)
-
 [IConfiguration::SetParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~SetParameters.html)
-
 [IConfiguration::ISetParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~ISetParameters.html)
-
 [IConfiguration::IGetParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IGetParameters.html)
-
 [IConfiguration::GetParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetParameters.html)
-
 [IConfiguration::GetParameterCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetParameterCount.html)
 
 ## Availability

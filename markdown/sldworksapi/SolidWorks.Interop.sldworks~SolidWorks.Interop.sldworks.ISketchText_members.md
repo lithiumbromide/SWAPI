@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchText Interface Members
 
-The following tables list the members exposed by[ISketchText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html).
+The following tables list the members exposed by [ISketchText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html).
 
 ## Public Properties
 
@@ -40,7 +40,5 @@ The following tables list the members exposed by[ISketchText](SolidWorks.Interop
 ## See Also
 
 [ISketchText Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ITextFormat Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat.html)

@@ -45,48 +45,31 @@ property System.int FeatureScope {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Feature scope option as defined in
-
-[swFeatureScope_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureScope_e.html)
+Feature scope option as defined in [swFeatureScope_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureScope_e.html)
 
 ## VBA Syntax
 
-See
-
-[MirrorPatternFeatureData::FeatureScope](ms-its:sldworksapivb6.chm::/Sldworks~MirrorPatternFeatureData~FeatureScope.html)
-
-.
+See [MirrorPatternFeatureData::FeatureScope](ms-its:sldworksapivb6.chm::/Sldworks~MirrorPatternFeatureData~FeatureScope.html).
 
 ## Remarks
 
-This property is valid only if[IMirrorPatternFeatureData::GeometryPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~GeometryPattern.html)is true.
+This property is valid only if [IMirrorPatternFeatureData::GeometryPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~GeometryPattern.html) is true.
 
-If this property is set to either swFeatureScope_SelectedBodiesWithAutoSelect or swFeatureScope_SelectedBodiesWithOutAutoSelect, you can use[IMirrorPatternFeatureData::FeatureScopeBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html)to specify affected bodies.
+If this property is set to either swFeatureScope_SelectedBodiesWithAutoSelect or swFeatureScope_SelectedBodiesWithOutAutoSelect, you can use [IMirrorPatternFeatureData::FeatureScopeBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html) to specify affected bodies.
 
-For more information, see the**Mirror Feature PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Mirror Feature PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [IMirrorPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData.html)
-
 [IMirrorPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData_members.html)
-
 [IMirrorPatternFeatureData::GetFeatureScopeBodiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~GetFeatureScopeBodiesCount.html)
-
 [IMirrorPatternFeatureData::IGetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~IGetFeatureScopeBodies.html)
-
 [IMirrorPatternFeatureData::ISetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~ISetFeatureScopeBodies.html)
-
 [IMirrorPatternFeatureData::FeatureScopeBodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html)
 
 ## Availability

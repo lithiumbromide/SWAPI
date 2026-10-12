@@ -39,32 +39,18 @@ void CreateGroup()
 void CreateGroup();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::CreateGroup](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateGroup.html)
-
-.
+See [ModelDoc2::CreateGroup](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateGroup.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IModelDoc2::RemoveGroups Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~RemoveGroups.html)
-
 [IModelDoc2::RemoveItemsFromGroup Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~RemoveItemsFromGroup.html)
 
 ## Availability

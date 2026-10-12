@@ -1,6 +1,5 @@
 ---
-title: "CrossBreakFeatureData Object
-Members"
+title: "CrossBreakFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CrossBreakFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CrossBreakFeatureData_members.html"
 ---
 
-# CrossBreakFeatureData Object
-Members
+# CrossBreakFeatureData Object Members
 
 ## Public Methods
 

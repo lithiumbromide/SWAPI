@@ -16,7 +16,7 @@ This example shows how to import a DXF/DWG file.
 ' Preconditions: Verify that the specified DXF file exists.
 '
 ' Postconditions:
-' 1. Imports the specified file into SOLIDWORKS.
+' 1. Imports the specified file into SOLIDWORKS Design.
 ' 2. Examine the drawing.
 '---------------------------------------
 Option Explicit
@@ -48,7 +48,7 @@ Sub main()
 ```
 
 ```
-' To let SOLIDWORKS determine an appropriate input file unit, do not set the LengthUnit property
+' To let SOLIDWORKS Design determine an appropriate input file unit, do not set the LengthUnit property
 '    importData.LengthUnit("") = SwConst.swLengthUnit_e.swMETER
 '    importData.LengthUnit("") = SwConst.swLengthUnit_e.swFEET
 '    importData.LengthUnit("Model") = SwConst.swLengthUnit_e.swFEET
@@ -56,7 +56,7 @@ Sub main()
 ```
 
 ```
-' To let SOLIDWORKS determine an appropriate output paper size, do not set the PaperSize values
+' To let SOLIDWORKS Design determine an appropriate output paper size, do not set the PaperSize values
 '    boolstatus = importData.SetPaperSize("", SwConst.swDwgPaperSizes_e.swDwgPaperA3size, 0#, 0#)
 '    boolstatus = importData.SetPaperSize("", SwConst.swDwgPaperSizes_e.swDwgPaperEsize, 0#, 0#)
 '    boolstatus = importData.SetPaperSize("", SwConst.swDwgPaperSizes_e.swDwgPapersUserDefined, 0.5, 0.8)
@@ -65,14 +65,14 @@ Sub main()
 ```
 
 ```
-' To let SOLIDWORKS determine an appropriate sheet scale, do not set the SheetScale values
+' To let SOLIDWORKS Design determine an appropriate sheet scale, do not set the SheetScale values
 '    boolstatus = importData.SetSheetScale("", 1#, 12#)
 '    boolstatus = importData.SetSheetScale("Model", 1#, 3#)
 '    boolstatus = importData.SetSheetScale("Sheet2", 1#, 1#)
 ```
 
 ```
-' To let SOLIDWORKS determine an appropriate sheet name, do not set the SheetName property
+' To let SOLIDWORKS Design determine an appropriate sheet name, do not set the SheetName property
 '    importData.SheetName("Model") = "S1"
 '    importData.SheetName("Sheet2") = "S2"
 ```

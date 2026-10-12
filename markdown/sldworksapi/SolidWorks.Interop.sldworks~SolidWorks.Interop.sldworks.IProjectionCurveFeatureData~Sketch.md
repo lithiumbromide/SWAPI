@@ -45,13 +45,7 @@ property System.Object^ Sketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[ProjectionCurveFeatureData::Sketch](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~Sketch.html)
-
-.
+See [ProjectionCurveFeatureData::Sketch](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~Sketch.html).
 
 ## Remarks
 
-You cannot use this property to get or set the target sketch for sketch-on-sketch projection curve features. You can only pre-select the target sketch before creating the feature. See the[IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)Remarks.
+You cannot use this property to get or set the target sketch for sketch-on-sketch projection curve features. You can only pre-select the target sketch before creating the feature. See the [IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html) Remarks.
 
-Use[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)to get the ISketch object from the selected[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)object.
+Use [IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get the ISketch object from the selected [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IProjectionCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
 [IProjectionCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData_members.html)
-
 [IProjectionCurveFeatureData::Reverse Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData~Reverse.html)
 
 ## Availability

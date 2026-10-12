@@ -62,28 +62,20 @@ void SetFatigueSNCurve(
 
 - `NIndex`: 0-based S-N curve data index
 - `DStressRatio`: Stress ratio
-- `VarFatigueSNCurveData`: Array of S-N curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsMaterialFatigueSNCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialSNCurveSource_e.html)
+- `VarFatigueSNCurveData`: Array of S-N curve data (see Remarks)
+- `ErrorCode`: Error as defined in [swsMaterialFatigueSNCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialSNCurveSource_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SetFatigueSNCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetFatigueSNCurve.html)
-
-.
+See [CWMaterial::SetFatigueSNCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetFatigueSNCurve.html).
 
 ## Remarks
 
-This method is valid only if[ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html)is set to[swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html).swsMaterialSNCurveSourceUserDefined.
+This method is valid only if [ICWMaterial::SNCurveSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SNCurveSource.html) is set to [swsMaterialSNCurveSource_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSNCurveSource_e.html).swsMaterialSNCurveSourceUserDefined.
 
 VarFatigueSNCurveData:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
@@ -94,14 +86,12 @@ where:
 - xn = number of cycles for point n
 - yn = alternating stress for point n
 
-See the SOLIDWORKS Help topic,**Material Dialog Box - Fatigue SN Curves Tab**, for more information about S-N curve equations.
+See the SOLIDWORKS Help topic, **Material Dialog Box - Fatigue SN Curves Tab**, for more information about S-N curve equations.
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetFatigueSNCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetFatigueSNCurve.html)
 
 ## Availability

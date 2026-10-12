@@ -1,6 +1,5 @@
 ---
-title: "DragArrowManipulator Object
-Members"
+title: "DragArrowManipulator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DragArrowManipulator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DragArrowManipulator_members.html"
 ---
 
-# DragArrowManipulator Object
-Members
+# DragArrowManipulator Object Members
 
 ## Public Methods
 

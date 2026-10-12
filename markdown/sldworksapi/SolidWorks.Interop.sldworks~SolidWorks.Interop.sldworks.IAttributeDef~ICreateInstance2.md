@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAt
 
 # ICreateInstance2 Method (IAttributeDef)
 
-Obsolete. Superseded by
-
-[IAttributeDef::CreateInstance5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef~CreateInstance5.html)
-
-.
+Obsolete. Superseded by [IAttributeDef::CreateInstance5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef~CreateInstance5.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ Attribute^ ICreateInstance2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AttributeDef::ICreateInstance2](ms-its:sldworksapivb6.chm::/sldworks~AttributeDef~ICreateInstance2.html)
-
-.
+See [AttributeDef::ICreateInstance2](ms-its:sldworksapivb6.chm::/sldworks~AttributeDef~ICreateInstance2.html).
 
 ## See Also
 
 [IAttributeDef Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef.html)
-
 [IAttributeDef Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef_members.html)

@@ -42,6 +42,7 @@ public enum class swDisplayPaneIndex_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swDisplayPaneAIContentTab | 3 |
 | swDisplayPaneLifeCycleTab | 1 |
 | swDisplayPaneNone | 0 = Display pane is hidden |
 | swDisplayPaneTab | 2 |

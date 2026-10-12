@@ -71,93 +71,29 @@ System.int SetPartialFilletParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AlongEdgeDirection`: True to start the fillet at the start point of the edge, false to start the fillet at the end point of the edge
-- `StartCondition`: Start condition as defined in
-
-[swSimpleFilletPartialEdgeCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletPartialEdgeCondition_e.html)
-
-(see
-
-Remarks
-
-)
-- `StartValue`: Distance or percent offset from the start point (see
-
-Remarks
-
-)
-- `StartReference`: Offset reference (2D/3D sketch
-
-[point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
-, reference
-
-[point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
-, planar
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-); valid only if StartCondition is swPartialEdgeReferenceOffset
-- `EndCondition`: End condition as defined in
-
-[swSimpleFilletPartialEdgeCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletPartialEdgeCondition_e.html)
-
-(see
-
-Remarks
-
-)
-- `EndValue`: Distance or percent offset from the end point (see
-
-Remarks
-
-)
-- `EndReference`: Offset reference (2D/3D sketch
-
-[point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
-, reference
-
-[point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
-, planar
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-); valid only if EndCondition is swPartialEdgeReferenceOffset
+- `StartCondition`: Start condition as defined in [swSimpleFilletPartialEdgeCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletPartialEdgeCondition_e.html) (see **Remarks**)
+- `StartValue`: Distance or percent offset from the start point (see **Remarks**)
+- `StartReference`: Offset reference (2D/3D sketch [point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html), reference [point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html), planar [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)); valid only if StartCondition is swPartialEdgeReferenceOffset
+- `EndCondition`: End condition as defined in [swSimpleFilletPartialEdgeCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletPartialEdgeCondition_e.html) (see **Remarks**)
+- `EndValue`: Distance or percent offset from the end point (see **Remarks**)
+- `EndReference`: Offset reference (2D/3D sketch [point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html), reference [point](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html), planar [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)); valid only if EndCondition is swPartialEdgeReferenceOffset
 
 ### Return Value
 
-Result code as defined in
-
-[swFeatureError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatureError_e.html)
+Result code as defined in [swFeatureError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatureError_e.html)
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData::SetPartialFilletParameters](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~SetPartialFilletParameters.html)
-
-.
+See [PartialEdgeFilletData::SetPartialFilletParameters](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~SetPartialFilletParameters.html).
 
 ## Examples
 
-See the
-
-[IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
-examples.
+See the [IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html) examples.
 
 ## Remarks
 
@@ -169,21 +105,13 @@ StartValue (or EndValue) is a:
 ## See Also
 
 [IPartialEdgeFilletData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
-
 [IPartialEdgeFilletData::AlongEdgeDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~AlongEdgeDirection.html)
-
 [IPartialEdgeFilletData::DistanceOffsetEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~DistanceOffsetEnd.html)
-
 [IPartialEdgeFilletData::DistanceOffsetStart Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~DistanceOffsetStart.html)
-
 [IPartialEdgeFilletData::PercentOffsetEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~PercentOffsetEnd.html)
-
 [IPartialEdgeFilletData::PercentOffsetStart Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~PercentOffsetStart.html)
-
 [IPartialEdgeFilletData::ReferenceOffsetEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~ReferenceOffsetEnd.html)
-
 [IPartialEdgeFilletData::ReferenceOffsetStart Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~ReferenceOffsetStart.html)
 
 ## Availability

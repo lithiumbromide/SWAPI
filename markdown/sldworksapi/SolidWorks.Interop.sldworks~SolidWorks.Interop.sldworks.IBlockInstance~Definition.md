@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # Definition Property (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::Definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Definition.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::Definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Definition.html).
 
 ## Syntax
 
@@ -46,24 +42,13 @@ property BlockDefinition^ Definition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::Definition](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Definition.html)
-
-.
+See [BlockInstance::Definition](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Definition.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

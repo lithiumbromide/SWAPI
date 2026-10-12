@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # PropagateToTangentFaces Property (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::PropagateToTangentFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~PropagateToTangentFaces.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::PropagateToTangentFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~PropagateToTangentFaces.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool PropagateToTangentFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::PropagateToTangentFaces](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~PropagateToTangentFaces.html)
-
-.
+See [SimpleFilletFeatureData::PropagateToTangentFaces](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~PropagateToTangentFaces.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

@@ -52,31 +52,14 @@ void GenerateDefaultConfigValues(
 ### Parameters
 
 - `lOldFileID`: ID of drawing or file that lacks properties at the configuration level
-- `bsOldConfigName`: Name of configuration whose values to copy (see
-
-Remarks
-
-)
-- `bsNewConfigName`: Name of the configuration to which to copy values (see
-
-Remarks
-
-)
-- `bsActiveConfig`: Name of the active configuration (see
-
-Remarks
-
-)
-- `bOnlyForUpdateAllFlag`: True to copy values only for controls for which
-
-[IEdmCardControl6::UpdatesAllConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6~UpdatesAllConfigurations.html)
-
-is set to true, false to copy values for all variables associated with this file
+- `bsOldConfigName`: Name of configuration whose values to copy (see **Remarks**)
+- `bsNewConfigName`: Name of the configuration to which to copy values (see **Remarks**)
+- `bsActiveConfig`: Name of the active configuration (see **Remarks**)
+- `bOnlyForUpdateAllFlag`: True to copy values only for controls for which [IEdmCardControl6::UpdatesAllConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6~UpdatesAllConfigurations.html) is set to true, false to copy values for all variables associated with this file
 
 ## Examples
 
 [Generate Configuration Values (C#)](Generate_Config_Values_Example_CSharp.htm)
-
 [Generate Configuration Values (VB.NET)](Generate_Config_Values_Example_VBNET.htm)
 
 ## Remarks
@@ -86,14 +69,12 @@ This method:
 - is valid only for files with data card variables.
 - copies values from bsOldConfigName to bsNewConfigName. If it encounters a null control variable in bsOldConfigName, it takes the value from bsActiveConfig instead.
 
-Use[IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html)to populate the configuration parameters.
+Use [IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html) to populate the configuration parameters.
 
 ## See Also
 
 [IEdmFile14 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html)
-
 [IEdmFile14 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14_members.html)
-
 [IEdmFile8::GenerateDefaultValuesForNewConfiguration Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8~GenerateDefaultValuesForNewConfiguration.html)
 
 ## Availability

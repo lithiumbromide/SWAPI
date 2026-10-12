@@ -1,6 +1,5 @@
 ---
-title: "CWDropTestStudyOptions Object
-Members"
+title: "CWDropTestStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDropTestStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDropTestStudyOptions_members.html"
 ---
 
-# CWDropTestStudyOptions Object
-Members
+# CWDropTestStudyOptions Object Members
 
 ## Public Properties
 

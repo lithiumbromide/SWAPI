@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Model_Display_State_Example_VB.
 
 # Apply and Remove Texture To and From a Model by Display State Example (VBA)
 
-This example shows how to add and remove texture to and from a model using
-the name of a display state model.
+This example shows how to add and remove texture to and from a model using the name of a display state model.
 
 ```
 '----------------------------------------------------------------------------

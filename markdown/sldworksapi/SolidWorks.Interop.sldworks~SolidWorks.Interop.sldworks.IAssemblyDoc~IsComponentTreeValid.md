@@ -40,13 +40,7 @@ System.bool IsComponentTreeValid()
 System.bool IsComponentTreeValid();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,23 +48,18 @@ True if the component tree is currently valid, false if the tree is currently in
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IsComponentTreeValid](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IsComponentTreeValid.html)
-
-.
+See [AssemblyDoc::IsComponentTreeValid](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IsComponentTreeValid.html).
 
 ## Remarks
 
 In certain cases, the current assembly component tree is invalid.
 
-- You cannot query the assembly for a list of components[(IComponent2::GetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetChildren.html)) or use existing IComponent2 objects to make function calls.
+- You cannot query the assembly for a list of components [(IComponent2::GetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetChildren.html)) or use existing IComponent2 objects to make function calls.
 - If you use the IComponent2 object's methods, then this method returns a NULL or empty value.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

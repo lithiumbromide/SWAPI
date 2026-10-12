@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_and_Save_Virtual_Assembly_Example_CSharp.htm"
 
 # Insert and Save Virtual Assembly Example (C#)
 
-This example shows how to create and save a
-virtual sub-assembly.
+This example shows how to create and save a virtual sub-assembly.
 
 ```vb
  //-----------------------------------------------------------------------------

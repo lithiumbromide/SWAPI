@@ -46,20 +46,16 @@ Number of DimXpert features
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetFeatureCount.html)
+See [DimXpertPart::GetFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetFeatureCount.html)
 
 ## Examples
 
 [Get DimXpert Feature (VBA)](Get_DimXpert_Feature_Example_VB.htm)
-
 [Get DimXpert Feature (VB.NET)](Get_DimXpert_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

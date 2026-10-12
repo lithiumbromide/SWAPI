@@ -1,6 +1,5 @@
 ---
-title: "SelectData Object
-Members"
+title: "SelectData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SelectData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SelectData_members.html"
 ---
 
-# SelectData Object
-Members
+# SelectData Object Members
 
 ## Public Methods
 

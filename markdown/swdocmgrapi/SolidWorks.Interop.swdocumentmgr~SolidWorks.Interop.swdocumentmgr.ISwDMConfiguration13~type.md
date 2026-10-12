@@ -44,28 +44,20 @@ property System.int type {
 
 ### Property Value
 
-Configuration type as defined in
-
-[swDmConfigurationType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmConfigurationType.html)
+Configuration type as defined in [swDmConfigurationType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmConfigurationType.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration13::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration13~type.html)
-
-.
+See [SwDMConfiguration13::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration13~type.html).
 
 ## Examples
 
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
-
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMConfiguration13 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration13.html)
-
 [ISwDMConfiguration13 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration13_members.html)
 
 ## Availability

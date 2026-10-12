@@ -41,32 +41,19 @@ void SpringConnectorBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::SpringConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~SpringConnectorBeginEdit.html)
-
-.
+See [CWSpringConnector::SpringConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~SpringConnectorBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## Remarks
 
-To start editing a spring, you must call this method. You must call
-
-[ICWSpringConnector::SpringConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpringConnector~SpringConnectorEndEdit.html)
-
-to end editing a spring. Changes are not applied unless you call both methods.
+To start editing a spring, you must call this method. You must call [ICWSpringConnector::SpringConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpringConnector~SpringConnectorEndEdit.html) to end editing a spring. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
 
 ## Availability

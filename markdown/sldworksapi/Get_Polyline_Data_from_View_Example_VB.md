@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Polyline_Data_from_View_Example_VB.htm"
 
 # Get Polyline Data from Drawing View Example (VBA)
 
-This example shows how to retrieve the defining data of arcs, circles,
-ellipses, splines, and lines in a
-drawing view.
+This example shows how to retrieve the defining data of arcs, circles, ellipses, splines, and lines in a drawing view.
 
 ```vb
 ' -----------------------------------------------------------------------------
@@ -28,7 +26,7 @@ Dim swApp As SldWorks.SldWorks
      Dim swSheetView           As SldWorks.View
      Dim swSketch              As SldWorks.Sketch
 
-     ' Get SOLIDWORKS application.
+     ' Get SOLIDWORKS Design application.
      Set swApp = Application.SldWorks
 
     ' Get active document.

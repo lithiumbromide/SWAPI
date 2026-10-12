@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8_properties.h
 
 # IEdmReference8 Interface Properties
 
-For a list of all members of this type, see[IEdmReference8 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8_members.html).
+For a list of all members of this type, see [IEdmReference8 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmReference8 members](EPDM.Interop
 ## See Also
 
 [IEdmReference8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

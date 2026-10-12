@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html"
 
 # EdmRightFlags Enumeration
 
-Flags used in calls to
-
-[IEdmFolder5::HasRights](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights.html)
-
-and
-
-[IEdmFolder5::HasRightsEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html)
-
-to check user rights.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in calls to [IEdmFolder5::HasRights](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights.html) and [IEdmFolder5::HasRightsEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRightsEx.html) to check user rights. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -79,7 +67,6 @@ public enum class EdmRightFlags : public System.Enum
 ## Examples
 
 [Get and Set Folder Permissions (VB.NET)](Get_and_Set_Folder_Permissions_Example_VBNET.htm)
-
 [Get and Set Folder Permissions (C#)](Get_and_Set_Folder_Permissions_Example_CSharp.htm)
 
 ## See Also

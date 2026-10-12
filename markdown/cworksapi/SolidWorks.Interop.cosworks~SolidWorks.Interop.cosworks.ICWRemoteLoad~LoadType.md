@@ -47,38 +47,25 @@ property System.int LoadType {
 
 ### Property Value
 
-Type of remote load as defined by
-
-[swsRemoteLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadType_e.html)
+Type of remote load as defined by [swsRemoteLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::LoadType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~LoadType.html)
-
-.
+See [CWRemoteLoad::LoadType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~LoadType.html).
 
 ## Examples
 
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
 
 ## Remarks
 
-For linear and nonlinear static studies only, instead of setting this property, set
-
-[ICWRemoteLoad::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ConnectionType.html)
-
-.
+For linear and nonlinear static studies only, instead of setting this property, set [ICWRemoteLoad::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ConnectionType.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

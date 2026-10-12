@@ -50,13 +50,7 @@ void SetPromptFilename2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,15 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetPromptFilename2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetPromptFilename2.html)
-
-.
+See [SldWorks::SetPromptFilename2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetPromptFilename2.html).
 
 ## Examples
 
-Contact SOLIDWORKS API Support to obtain**Close and Reopen a Drawing Document (VBA, VB.NET, C#)**.
+Contact SOLIDWORKS API Support to obtain **Close and Reopen a Drawing Document (VBA, VB.NET, C#)**.
 
 ## Remarks
 
@@ -85,20 +75,15 @@ FileName is used only:
 | PromptForFileNameNotify | non- 0 value |
 | ReferencedFilePreNotify | non- 0 value |
 
-Because the filename specified is used only when PromptForFileNameNotify and ReferencedFilePreNotify return S_FALSE, you cannot specify an initial filename for SOLIDWORKS to use in the standard dialog. Instead, you must provide your own file dialog and return the filename after the user selects it.
+Because the filename specified is used only when [PromptForFileNameNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PromptForFilenameNotifyEventHandler.html) and [ReferencedFilePreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_ReferencedFilePreNotifyEventHandler.html) return S_FALSE, you cannot specify an initial filename for SOLIDWORKS to use in the standard dialog. Instead, you must provide your own file dialog and return the filename after the user selects it.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::LoadFile4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.html)
-
 [ISldWorks::OpenDoc7 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.html)
-
 [ISldWorks::SetMultipleFilenamesPrompt Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetMultipleFilenamesPrompt.html)
-
 [ISldWorks::SetNewFilename Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetNewFilename.html)
 
 ## Availability

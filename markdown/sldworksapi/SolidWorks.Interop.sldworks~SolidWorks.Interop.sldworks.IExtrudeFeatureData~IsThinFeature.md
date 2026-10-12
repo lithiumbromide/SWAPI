@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # IsThinFeature Method (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::IsThinFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~IsThinFeature.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::IsThinFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~IsThinFeature.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsThinFeature()
 System.bool IsThinFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::IsThinFeature](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~IsThinFeature.html)
-
-.
+See [ExtrudeFeatureData::IsThinFeature](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~IsThinFeature.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

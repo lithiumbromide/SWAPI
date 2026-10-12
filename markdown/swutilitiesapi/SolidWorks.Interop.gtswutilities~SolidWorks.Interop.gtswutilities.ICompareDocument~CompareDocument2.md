@@ -85,27 +85,19 @@ System.int CompareDocument2(
 - `refconfig`: Name of reference part's configuration; if blank, then the active configuration is used
 - `modfile`: Path and filename of the SOLIDWORKS document containing the modified part
 - `modconfig`: Name of modified part's configuration
-- `lOperationOptions`: Compare face, volume, or feature as defined by[gtCodOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtCodOperationOption_e.html)
-- `lResultOptions`: Display the results or save the results to a report as defined by
-
-[gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
+- `lOperationOptions`: Compare face, volume, or feature as defined by [gtCodOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtCodOperationOption_e.html)
+- `lResultOptions`: Display the results or save the results to a report as defined by [gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
 - `reportname`: Path where to write the results report
 - `vtAddToBinderOption`: True to add the results report to the Design Binder, false to not
 - `vtOverwrite`: True to overwrite an existing results report of the same name, false to not
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareDocument::CompareDocument2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~CompareDocument2.html)
-
-.
+See [ICompareDocument::CompareDocument2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~CompareDocument2.html).
 
 ## Examples
 
@@ -114,7 +106,6 @@ See
 ## See Also
 
 [ICompareDocument Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument.html)
-
 [ICompareDocument Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument_members.html)
 
 ## Availability

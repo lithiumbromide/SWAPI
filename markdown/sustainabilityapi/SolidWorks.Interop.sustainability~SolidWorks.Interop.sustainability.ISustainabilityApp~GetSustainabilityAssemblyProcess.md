@@ -46,11 +46,7 @@ SustainabilityAssemblyProcess^ GetSustainabilityAssemblyProcess();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityApp::GetSustainabilityAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityAssemblyProcess.html)
-
-.
+See [SustainabilityApp::GetSustainabilityAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityAssemblyProcess.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See
 ## See Also
 
 [ISustainabilityApp Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp.html)
-
 [ISustainabilityApp Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp_members.html)
 
 ## Availability

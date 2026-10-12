@@ -47,28 +47,21 @@ property System.int Formulation {
 
 ### Property Value
 
-Formulation type as defined in[swsShellFormulation_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFormulation_e.html)
+Formulation type as defined in [swsShellFormulation_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFormulation_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWShell::Formulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~Formulation.html)
-
-.
+See [CWShell::Formulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~Formulation.html).
 
 ## Examples
 
 [Create Frequency Study with Mixed Mesh (C#)](Create_Frequency_Study_with_Mixed_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Mixed Mesh (VB.NET)](Create_Frequency_Study_with_Mixed_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Mixed Mesh (VBA)](Create_Frequency_Study_with_Mixed_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

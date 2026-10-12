@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGr
 
 # SetTimeCurve Method (ICWGravity)
 
-Obsolete. Superseded by[ICWGravity::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~SetTimeCurve2.html).
+Obsolete. Superseded by [ICWGravity::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -53,12 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -66,22 +62,18 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWGravity::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetTimeCurve.html)
-
-.
+See [CWGravity::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetTimeCurve.html).
 
 ## Remarks
 
 Time curve data array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 Time curves are used to specify variation with respect to time in transient studies.
@@ -89,7 +81,6 @@ Time curves are used to specify variation with respect to time in transient stud
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
 
 ## Availability

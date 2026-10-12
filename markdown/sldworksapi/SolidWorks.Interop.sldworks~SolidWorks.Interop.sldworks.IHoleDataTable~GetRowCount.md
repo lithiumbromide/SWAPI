@@ -47,13 +47,7 @@ System.bool GetRowCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if number of rows successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::GetRowCount](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetRowCount.html)
-
-.
+See [HoleDataTable::GetRowCount](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetRowCount.html).
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
-
 [IHoleDataTable::GetCellData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetCellData.html)
-
 [IHoleDataTable::GetRowData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetRowData.html)
 
 ## Availability

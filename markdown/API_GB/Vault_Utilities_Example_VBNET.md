@@ -11,8 +11,7 @@ source: "API_GB/Vault_Utilities_Example_VBNET.htm"
 
 This example shows how to:
 
-- Verify installed SOLIDWORKS PDM Professional version is at
-  least 5.3.
+- Verify installed SOLIDWORKS PDM Professional version is at least 5.3.
 - Get installed SOLIDWORKS PDM Professional licenses.
 - Add a group.
 - Remove a group.
@@ -24,9 +23,7 @@ This example shows how to:
 - Delete a folder.
 - Restore deleted items to the vault view.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 Allows access to paragraphs in note annotations.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IParagraphs
 
 ## VBA Syntax
 
-See
-
-[Paragraphs](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs.html)
-
-.
+See [Paragraphs](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs.html).
 
 ## Examples
 
 [Get and Set Paragraph Properties (VBA)](Get_and_Set_Paragraph_Properties_Example_VB.htm)
-
 [Get and Set Paragraph Properties (VB.NET)](Get_and_Set_Paragraph_Properties_Example_VBNET.htm)
-
 [Get and Set Paragraph Properties (C#)](Get_and_Set_Paragraph_Properties_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

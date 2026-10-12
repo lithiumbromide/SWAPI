@@ -54,44 +54,23 @@ property System.int ForceOrTranslationUnit {
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::ForceOrTranslationUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~ForceOrTranslationUnit.html)
-
-.
+See [CWRemoteLoad::ForceOrTranslationUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~ForceOrTranslationUnit.html).
 
 ## Examples
 
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)
-
-returns false. If it returns true, use
-
-[ICWRemoteLoad::ForceUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceUnit.html)
-
-and
-
-[ICWRemoteLoad::TranslationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~TranslationUnit.html)
-
-.
+This property is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns false. If it returns true, use [ICWRemoteLoad::ForceUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ForceUnit.html) and [ICWRemoteLoad::TranslationUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~TranslationUnit.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::GetForceOrTranslationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetForceOrTranslationValues.html)
-
 [ICWRemoteLoad::SetForceOrTranslationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValues.html)
 
 ## Availability

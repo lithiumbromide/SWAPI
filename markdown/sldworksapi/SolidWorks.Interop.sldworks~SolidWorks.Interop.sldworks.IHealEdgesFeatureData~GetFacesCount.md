@@ -40,13 +40,7 @@ System.int GetFacesCount()
 System.int GetFacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of faces
 
 ## VBA Syntax
 
-See
-
-[HealEdgesFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~GetFacesCount.html)
-
-.
+See [HealEdgesFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~GetFacesCount.html).
 
 ## Examples
 
 [Get Heal Edges Feature Data (C#)](Get_Heal_Edges_Feature_Data_Example_CSharp.htm)
-
 [Get Heal Edges Feature Data (VB.NET)](Get_Heal_Edges_Feature_Data_Example_VBNET.htm)
-
 [Get Heal Edges Feature Data (VBA)](Get_Heal_Edges_Feature_Data_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IHealEdgesFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHealEdgesFeatureData~IGetFaces.html)
-
-.
+Call this method before calling [IHealEdgesFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHealEdgesFeatureData~IGetFaces.html).
 
 ## See Also
 
 [IHealEdgesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html)
-
 [IHealEdgesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData_members.html)
 
 ## Availability

@@ -54,21 +54,15 @@ System.int GetKnifeVerticesCount(
 ### Parameters
 
 - `angle`: Angle to use to determine knife vertices
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
-Number of knife verticesParamDesc
+Number of knife vertices
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetKnifeVerticesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetKnifeVerticesCount.html)
-
-.
+See [IGeometryAnalysis::GetKnifeVerticesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetKnifeVerticesCount.html).
 
 ## Examples
 
@@ -81,7 +75,6 @@ If there are two adjacent edges that intersect at an angle smaller than the spec
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

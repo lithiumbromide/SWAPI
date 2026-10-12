@@ -9,8 +9,7 @@ source: "sldworksapi/Close_all_Documents_Example_VB.htm"
 
 # Close All Documents Example (VBA)
 
-This example shows how to close all documents in a SOLIDWORKS session, except
-any modified documents.
+This example shows how to close all documents in a SOLIDWORKS Design session, except any modified documents.
 
 ```
 '---------------------------------------
@@ -18,7 +17,7 @@ any modified documents.
 ' 1. Open two or more model documents.
 ' 2. Modify the model in one model document.
 ' 3. Open the Immediate window.
-' 4. Click Window in SOLIDWORKS to see the names of the
+' 4. Click Window in SOLIDWORKS Design to see the names of the
 '    open model documents.
 '
 ' Postconditions:

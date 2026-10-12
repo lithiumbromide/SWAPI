@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~HasSysRight.html"
 
 # HasSysRight Method (IEdmUser5)
 
-Obsolete. Superseded by
-
-[IEdmUser7::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser7~HasSysRightEx.html)
-
-.
+Obsolete. Superseded by [IEdmUser7::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser7~HasSysRightEx.html).
 
 ## Syntax
 
@@ -43,9 +39,7 @@ System.bool HasSysRight(
 
 ### Parameters
 
-- `eRight`: Permissions as defined in
-
-[EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
+- `eRight`: Permissions as defined in [EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
 
 ### Return Value
 
@@ -53,7 +47,7 @@ True if the user has all of the permissions, false if the user lacks one or more
 
 ## Remarks
 
-This method is superseded by[IEdmUser7::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser7~HasSysRightEx.html).
+This method is superseded by [IEdmUser7::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser7~HasSysRightEx.html).
 
 Before SOLIDWORKS PDM Professional 2010, IEdmUser5::HasSysRight supported the bit-wise combination of system permissions. Because the number of system permissions has grown, and they do not all fit in a 32-bit integer, system permissions added in SOLIDWORKS PDM Professional 2010 and later are sequential numeric constants instead of bit flags. You must use IEdmUser7::HasSysRightEx to check permissions added in SOLIDWORKS PDM Professional 2010 and later.
 
@@ -67,7 +61,6 @@ This method checks both the permissions set directly on the user and the permiss
 ## See Also
 
 [IEdmUser5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html)
-
 [IEdmUser5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5_members.html)
 
 ## Availability

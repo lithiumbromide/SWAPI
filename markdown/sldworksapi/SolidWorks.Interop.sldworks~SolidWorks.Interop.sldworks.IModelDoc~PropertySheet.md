@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # PropertySheet Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::PropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~PropertySheet.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::PropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~PropertySheet.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void PropertySheet()
 void PropertySheet();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::PropertySheet](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~PropertySheet.html)
-
-.
+See [ModelDoc::PropertySheet](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~PropertySheet.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

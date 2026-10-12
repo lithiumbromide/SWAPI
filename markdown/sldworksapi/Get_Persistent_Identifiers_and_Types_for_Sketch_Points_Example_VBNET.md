@@ -9,11 +9,10 @@ source: "sldworksapi/Get_Persistent_Identifiers_and_Types_for_Sketch_Points_Exam
 
 # Get Persistent Identifiers and Type for Sketch Points Example (VB.NET)
 
-This example shows how to get the persistent identifiers and types for
-sketch points.
+This example shows how to get the persistent identifiers and types for sketch points.
 
 ```vb
-NOTE: SOLIDWORKS allocates a persistent ID for sketch points and segments, accessible by ISketchPoint::GetID. This method allows you to store the identifier and then return to the sketch entity at a later time. There are also sketch points that are not visible to the user. These are typically used internally by SOLIDWORKS for various purposes. Sketch points are also created from other operations; for example, creating a spline or adding a midpoint relation. Each sketch point has a read-only property, ISketchPoint::Type, that  indicates how it is used in the sketch.
+NOTE: SOLIDWORKS Design allocates a persistent ID for sketch points and segments, accessible by ISketchPoint::GetID. This method allows you to store the identifier and then return to the sketch entity at a later time. There are also sketch points that are not visible to the user. These are typically used internally by SOLIDWORKS Design for various purposes. Sketch points are also created from other operations; for example, creating a spline or adding a midpoint relation. Each sketch point has a read-only property, ISketchPoint::Type, that  indicates how it is used in the sketch.
   '---------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Open a part or assembly.

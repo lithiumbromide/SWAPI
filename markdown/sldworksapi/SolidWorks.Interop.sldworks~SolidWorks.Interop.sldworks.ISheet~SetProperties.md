@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # SetProperties Method (ISheet)
 
-Obsolete. Superseded by
-
-[ISheet::SetProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetProperties2.html)
-
-.
+Obsolete. Superseded by [ISheet::SetProperties2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetProperties2.html).
 
 ## Syntax
 
@@ -74,18 +70,12 @@ void SetProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PaperSz`: Paper size as defined in[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
-- `Templ`: Template as defined in[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
+- `PaperSz`: Paper size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `Templ`: Template as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
 - `Scale1`: Scale numerator
 - `Scale2`: Scale denominator
 - `FirstAngle`: True if you want first angle projection, false if not
@@ -94,42 +84,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetProperties](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetProperties.html)
-
-.
+See [Sheet::SetProperties](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetProperties.html).
 
 ## Remarks
 
-If you specify a custom template, then the current custom template is used by this sheet until you call
+If you specify a custom template, then the current custom template is used by this sheet until you call [ISheet::SetTemplateName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetTemplateName.html) and pass in a different custom template name.
 
-[ISheet::SetTemplateName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetTemplateName.html)
+NOTE: If Templ does not match the PaperSz specification, then you get a template that does not fit the paper size. This parameter does not override the PaperSz setting. Also, if you change the scale of the sheet using Scale1 and Scale2, then any drawing view that is set to use the sheet's scale takes the new scale setting.
 
-and pass in a different custom template name.
-
-NOTE:If Templ does not match the PaperSz specification, then you get a template that does not fit the paper size. This parameter does not override the PaperSz setting. Also, if you change the scale of the sheet using Scale1 and Scale2, then any drawing view that is set to use the sheet's scale takes the new scale setting.
-
-You can also use[ISheet::SetSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetSize.html)to set the size of the sheet and the standard sheet size.
+You can also use [ISheet::SetSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetSize.html) to set the size of the sheet and the standard sheet size.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetProperties.html)
-
 [ISheet::IGetProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~IGetProperties.html)
-
 [ISheet::GetSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetSize.html)
-
 [ISheet::GetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetTemplateName.html)
-
 [ISheet::IPageSetup Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~IPageSetup.html)
-
 [ISheet::PageSetup Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~PageSetup.html)
-
 [ISheet::SetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetTemplateName.html)
 
 ## Availability

@@ -9,6 +9,12 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddFeatureMgrView3 Method (IModelDoc2)
 
+Obsolete. Superseded by [IModelDocExtension::AddFeatureMgrView3x64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddFeatureMgrView3x64.html).
+
+This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016.
+
+The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used.
+
 Adds the specified tab to the FeatureManager design tree view.
 
 ## Syntax
@@ -59,20 +65,14 @@ System.bool AddFeatureMgrView3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Bitmap`: Pointer to the bitmap that you want to use for the FeatureManager design tree tab; the bitmap should be no larger than 16x18; this standard pointer is created by performing a New on Cbitmap
-- `AppView`: Pointer to an existing view that you want to use as your FeatureManager design tree view. If you do not have an existing view, then use[IModelViewMgr::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html), which returns a view handle
+- `AppView`: Pointer to an existing view that you want to use as your FeatureManager design tree view. If you do not have an existing view, then use [IModelViewMgr::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html), which returns a view handle
 - `ToolTip`: ToolTip string
-- `WhichPane`: Pane in which to add the view as defined in[swFeatMgrPane_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatMgrPane_e.html)
+- `WhichPane`: Pane in which to add the view as defined in [swFeatMgrPane_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatMgrPane_e.html)
 
 ### Return Value
 
@@ -80,43 +80,19 @@ True if the FeatureManager design tree view tab is added successfully, false if 
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AddFeatureMgrView3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddFeatureMgrView3.html)
-
-.
+See [ModelDoc2::AddFeatureMgrView3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddFeatureMgrView3.html).
 
 ## Remarks
 
-This method is not valid in the context of the Microsoft .NET Framework; it is only valid for old-style add-ins, which are now obsolete. Instead, use[IModelViewManager::CreateFeatureMgrControl3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrControl3.html), which allows you to provide the ProgID or CLSID of an ActiveX control to use in the new tab for the FeatureManager design tree.
+**All applications are required to be compatible with SOLIDWORKS x64. You must replace all calls to 32-bit only APIs with calls to their 64-bit safe counterparts.**
 
-This method is identical to the earlier version, IModelDoc2::AddFeatureMgrView2, except that this method provides the ability to place the new tab on either the top or bottom pane. The pane may or may not be visible. However, the tab is added to the specified pane. Only the values swFeatMgrPaneTop and swFeatMgrPaneBottom from swFeatMgrPane_e should be used as inputs in the whichPane argument.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-Under certain conditions, for example while theSurface, Extendcommand is active in the user interface, SOLIDWORKS locks the bottom pane and does not allow the activation of any other tab. If your application needs the ability to activate your new tab at all times, consider adding it either to the top pane or to both panes. If you add it to the top pane only, it may not be apparent to the user until the top pane is made visible.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-If you have an existing CView, this method adds that view as a new FeatureManager design tree view. This method also provides a parameter for adding a tab, which the user clicks to activate your view.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-The FeatureManager design tree view added to this document is not persistent. In other words, the FeatureManager design tree view is not stored with this document and must be recreated upon reloading the document.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-This method does not receive[IFeatMgrView::ActivateNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatMgrView~ActivateView.html)and[IFeatMgrView::DeactivateNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatMgrView~DeActivateView.html)events.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-This view is generated by you and can be drawn into as you desire. However, because you generated this view, you are responsible for deleting it. See[IModelDoc2::DeleteFeatureMgrView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeleteFeatureMgrView.html)and[IModelDocExtension::DeleteFeatureMgrViewx64](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~DeleteFeatureMgrViewx64.html)for details on how to delete your Feature Manager view.
+See [Eliminating 32-bit only API use](sldworksapiprogguide.chm::/Overview/Eliminating_32-Bit_Only_API_Use.htm) for more information.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
+[IModelDocExtension::AddFeatureMgrView3x64 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddFeatureMgrView3x64.html)
 
 ## Availability
 

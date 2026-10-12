@@ -47,13 +47,7 @@ System.int UpdateProgress(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,32 +55,19 @@ See
 
 ### Return Value
 
-Status of progress indicator update as defined in
-
-[swUpdateProgressError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUpdateProgressError_e.html)
-
-}}end!kadov
+Status of progress indicator update as defined in [swUpdateProgressError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUpdateProgressError_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserProgressBar::UpdateProgress](ms-its:sldworksapivb6.chm::/sldworks~UserProgressBar~UpdateProgress.html)
-
-.
+See [UserProgressBar::UpdateProgress](ms-its:sldworksapivb6.chm::/sldworks~UserProgressBar~UpdateProgress.html).
 
 ## Examples
 
-See the
-
-[IUserProgressBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html)
-
-examples.
+See the [IUserProgressBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html) examples.
 
 ## See Also
 
 [IUserProgressBar Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html)
-
 [IUserProgressBar Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar_members.html)
 
 ## Availability

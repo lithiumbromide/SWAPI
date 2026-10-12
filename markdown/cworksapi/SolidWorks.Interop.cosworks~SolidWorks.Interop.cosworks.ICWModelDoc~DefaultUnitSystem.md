@@ -47,20 +47,15 @@ property System.int DefaultUnitSystem {
 
 ### Property Value
 
-Default unit system as defined in[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+Default unit system as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DefaultUnitSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DefaultUnitSystem.html)
-
-.
+See [CWModelDoc::DefaultUnitSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DefaultUnitSystem.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
 
 ## Availability

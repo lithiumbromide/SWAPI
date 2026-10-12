@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBS
 
 # IBSurfParamData Interface Members
 
-The following tables list the members exposed by[IBSurfParamData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData.html).
+The following tables list the members exposed by [IBSurfParamData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData.html).
 
 ## Public Properties
 
@@ -39,7 +39,5 @@ The following tables list the members exposed by[IBSurfParamData](SolidWorks.Int
 ## See Also
 
 [IBSurfParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISurfaceParameterizationData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData.html)

@@ -9,30 +9,23 @@ source: "epdmapi/Schedule_Task_Addin_Example_VBNET.htm"
 
 # Create a Task that Finds Approved Files Example (VB.NET)
 
-This example shows how to create a task add-in that notifies the logged-in
-user as to which files in
-the vault are in the Approved state.
+This example shows how to create a task add-in that notifies the logged-in user as to which files in the vault are in the Approved state.
 
 ```vb
   '--------------------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Start Microsoft Visual Studio.
- ' 2. Click File > New > Project > Visual Basic > Class Library (.NET Framework).
-  ' 3. Select .NET Framework 4.5 or later in the dropdown.
- ' 4. Type TaskAddinExample in Name.
- ' 5. Click Browse and navigate to the folder where to create the project.
- ' 6. Click OK.
-  ' 7. Right-click the project name in the Solution Explorer and click Add Reference.
- ' 8. In the Add Reference dialog:
- '    a. Add the SOLIDWORKS PDM Professional  interop assembly as a reference (click Browse in the
- //       left-side panel, click EPDM.Interop.epdm.dll,
- //       and click OK).
- '    b. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
- '       left-side panel, click System.Windows.Forms, and click Add).
- '    c. Click Close.
+ ' 2. Click File > New > Project > Visual Basic, Windows, Library > Class Library (.NET Framework), then Next.
+' 3. Type TaskAddinExample in Project name.
+  ' 4. For Location, click ... and navigate to the folder where to create the project.
+' 5. Select Framework.
+' 6. Click Create.
+' 7. Click Show All Files in the Solution Explorer toolbar and expand
+ '    Class1.vb in the Solution Explorer.
+  ' 8. Add dependencies and safely pass arrays of structures.
  ' 9. Right-click the project name in the Solution Explorer and click  Properties.
  '10. In the Properties window:
- '    a. On the Application tab, click Assembly Information.
+ '    a. On the Application tab, click Assembly Information....
  '    b. De-select Make assembly COM-Visible.
  '    c. On the Compile tab,  select Any CPU, de-select  Prefer 32-bit, and select Register for COM interop.
  '11. Save the project.
@@ -136,7 +129,7 @@ the vault are in the Approved state.
      End Sub
 
      Public Sub OnCmd(ByRef poCmd As EdmCmd, _
-       ByRef ppoData As EdmCmdData[]) _
+       ByRef ppoData As EdmCmdData()) _
        Implements IEdmAddIn5.OnCmd
 
          Try
@@ -158,7 +151,7 @@ the vault are in the Approved state.
      End Sub
 
      Private Sub OnTaskRun(ByRef poCmd As EdmCmd, _
-       ByRef ppoData As EdmCmdData[])
+       ByRef ppoData As EdmCmdData())
 
          'Get the task instance interface
          Dim inst As IEdmTaskInstance
@@ -243,7 +236,7 @@ the vault are in the Approved state.
      End Sub
 
      Private Sub OnTaskSetup(ByRef poCmd As EdmCmd, _
-       ByRef ppoData As EdmCmdData[])
+       ByRef ppoData As EdmCmdData())
 
          Try
              'Get the property interface used to

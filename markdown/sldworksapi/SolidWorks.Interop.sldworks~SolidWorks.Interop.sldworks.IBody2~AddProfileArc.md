@@ -63,13 +63,7 @@ System.Object^ AddProfileArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,11 +79,7 @@ Object for the curve
 
 ## VBA Syntax
 
-See
-
-[Body2::AddProfileArc](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileArc.html)
-
-.
+See [Body2::AddProfileArc](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileArc.html).
 
 ## Remarks
 
@@ -98,9 +88,7 @@ This method always creates a full circle.
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IAddProfileArc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IAddProfileArc.html)
 
 ## Availability

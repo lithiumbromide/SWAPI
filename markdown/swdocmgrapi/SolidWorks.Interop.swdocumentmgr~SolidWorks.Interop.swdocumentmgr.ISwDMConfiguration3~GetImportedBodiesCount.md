@@ -44,30 +44,21 @@ System.int GetImportedBodiesCount();
 
 Number of imported solid bodies; this is a 0-based index
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration3::GetImportedBodiesCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration3~GetImportedBodiesCount.html)
-
-.
+See [SwDMConfiguration3::GetImportedBodiesCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration3~GetImportedBodiesCount.html).
 
 ## Remarks
 
 This method does not include the number of imported surface bodies, if any.
 
-Call this method before[ISwDMConfiguration3::GetImportedBody](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBody.html).
+Call this method before [ISwDMConfiguration3::GetImportedBody](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBody.html).
 
 ## See Also
 
 [ISwDMConfiguration3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3.html)
-
 [ISwDMConfiguration3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3_members.html)
-
 [ISwDMConfiguration::GetBodiesCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration~GetBodiesCount.html)
-
 [ISwDMConfiguration::GetBody Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration~GetBody.html)
 
 ## Availability

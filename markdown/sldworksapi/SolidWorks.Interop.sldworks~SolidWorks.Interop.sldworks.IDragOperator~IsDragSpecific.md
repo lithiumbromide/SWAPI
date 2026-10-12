@@ -45,13 +45,7 @@ property System.bool IsDragSpecific {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True sets drag specific, false sets drag possible
 
 ## VBA Syntax
 
-See
-
-[DragOperator::IsDragSpecific](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsDragSpecific.html)
-
-.
+See [DragOperator::IsDragSpecific](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsDragSpecific.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

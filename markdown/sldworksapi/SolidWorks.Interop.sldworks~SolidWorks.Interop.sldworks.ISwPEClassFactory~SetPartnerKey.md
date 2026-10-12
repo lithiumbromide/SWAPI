@@ -51,44 +51,20 @@ System.int SetPartnerKey(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StrPartnerEntitlement`: License key string (see
-
-Remarks
-
-)
-- `TokenObject`: [ISwPEToken](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEToken.html)
-
-(
-
-for
-
-future use only - see Remarks
-
-)
+- `StrPartnerEntitlement`: License key string (see **Remarks**)
+- `TokenObject`: [ISwPEToken](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEToken.html) (**for** **future use only - see Remarks**)
 
 ### Return Value
 
-Return code as defined by
-
-[swPartnerEntitlementStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPartnerEntitlementStatus_e.html)
+Return code as defined by [swPartnerEntitlementStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPartnerEntitlementStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwPEClassFactory::SetPartnerKey](ms-its:sldworksapivb6.chm::/sldworks~SwPEClassFactory~SetPartnerKey.html)
-
-.
+See [SwPEClassFactory::SetPartnerKey](ms-its:sldworksapivb6.chm::/sldworks~SwPEClassFactory~SetPartnerKey.html).
 
 ## Remarks
 
@@ -100,14 +76,13 @@ When this method is called, SOLIDWORKS compares the registry against these value
 - Add-in GUID
 - Expiration date
 
-See[SOLIDWORKS Partner Program](ms-its:sldworksapiprogguide.chm::/GettingStarted/SolidWorks_Partner_Program_2.htm).
+See [SOLIDWORKS Partner Program](ms-its:sldworksapiprogguide.chm::/GettingStarted/SolidWorks_Partner_Program_2.htm).
 
 TokenObject is for future use only.
 
 ## See Also
 
 [ISwPEClassFactory Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html)
-
 [ISwPEClassFactory Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ISecondaryStructuralMemberFeatureData Object
-Members"
+title: "ISecondaryStructuralMemberFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISecondaryStructuralMemberFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISecondaryStructuralMemberFeatureData_members.html"
 ---
 
-# ISecondaryStructuralMemberFeatureData Object
-Members
+# ISecondaryStructuralMemberFeatureData Object Members
 
 ## Public Properties
 

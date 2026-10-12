@@ -39,38 +39,19 @@ void Lock()
 void Lock();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Lock](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Lock.html)
-
-.
+See [ModelDoc2::Lock](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Lock.html).
 
 ## Remarks
 
-This method also changes the status bar to display
-
-Processing
-
-. Use this method with
-
-[IModelDoc2::UnLock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~UnLock.html)
-
-.
+This method also changes the status bar to display Processing. Use this method with [IModelDoc2::UnLock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~UnLock.html) .
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

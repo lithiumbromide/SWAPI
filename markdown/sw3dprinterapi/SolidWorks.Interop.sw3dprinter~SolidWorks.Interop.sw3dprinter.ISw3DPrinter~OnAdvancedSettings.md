@@ -41,22 +41,14 @@ void OnAdvancedSettings();
 
 ## VBA Syntax
 
-See
-
-[Sw3DPrinter::OnAdvancedSettings](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~OnAdvancedSettings.html)
-
-.
+See [Sw3DPrinter::OnAdvancedSettings](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~OnAdvancedSettings.html).
 
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [ISw3DPrinter Members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html)
-
 [ISw3DPrinter::OnCancel Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnCancel.html)
-
 [ISw3DPrinter::OnOk Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnOk.html)
-
 [ISw3DPrinter::OnUpdateStatistics Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnUpdateStatistics.html)
 
 ## Availability

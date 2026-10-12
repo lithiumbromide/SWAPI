@@ -59,20 +59,14 @@ System.Object^ InsertBendTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X`: X-coordinate for placement of the bend table
 - `Y`: Y-coordinate for placement of the bend table
 - `StartValue`: Starting datum tag; a value from A to Z for letter tags; a positive integer for number tags
-- `TableTemplate`: Full pathname of the template (e.g.,`install_dir`\**lang\**`language \`**bendtable-standard.sldbndtbt**)
+- `TableTemplate`: Full pathname of the template (e.g., `install_dir`\**lang\**`language\`**bendtable-standard.sldbndtbt**)
 
 ### Return Value
 
@@ -80,11 +74,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertBendTable](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBendTable.html)
-
-.
+See [PartDoc::InsertBendTable](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBendTable.html).
 
 ## Examples
 
@@ -122,11 +112,8 @@ End Sub
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IView::InsertBendTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBendTable.html)
 
 ## Availability

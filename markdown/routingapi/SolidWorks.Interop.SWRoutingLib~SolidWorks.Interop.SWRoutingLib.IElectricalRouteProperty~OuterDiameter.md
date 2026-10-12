@@ -51,20 +51,15 @@ Outer diameter of route
 
 ## VBA Syntax
 
-See
-
-[ElectricalRouteProperty::OuterDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~OuterDiameter.html)
-
-.
+See [ElectricalRouteProperty::OuterDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~OuterDiameter.html).
 
 ## Remarks
 
-You can make this value static using[IElectricalRouteProperty::IsOuterDiameterFlixed](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IElectricalRouteProperty~IsOuterDiameterFixed.html).
+You can make this value static using [IElectricalRouteProperty::IsOuterDiameterFlixed](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IElectricalRouteProperty~IsOuterDiameterFixed.html).
 
 ## See Also
 
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IElectricalRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty_members.html)
 
 ## Availability

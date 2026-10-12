@@ -45,44 +45,27 @@ property System.int D1EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Spacing of pattern instances in Direction 1 as defined in
-
-[swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html)
+Spacing of pattern instances in Direction 1 as defined in [swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html)
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::D1EndCondition](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndCondition.html)
-
-.
+See [LinearPatternFeatureData::D1EndCondition](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndCondition.html).
 
 ## Examples
 
-See the
-
-[ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
-example.
+See the [ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html) example.
 
 ## Remarks
 
-For more information, see the**Linear Patterns and the Linear Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Patterns and the Linear Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
 
 ## Availability

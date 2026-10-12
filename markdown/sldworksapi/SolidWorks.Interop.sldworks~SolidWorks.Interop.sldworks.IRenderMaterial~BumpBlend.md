@@ -45,13 +45,7 @@ property System.double BumpBlend {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Extent of the boundary between each bump and the surface
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpBlend](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpBlend.html)
-
-.
+See [RenderMaterial::BumpBlend](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpBlend.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property supports dimpled, tread plate, and knurled styles of surface finis
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

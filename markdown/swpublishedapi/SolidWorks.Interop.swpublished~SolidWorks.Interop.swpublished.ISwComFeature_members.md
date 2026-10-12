@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwComFeature Interface Members
 
-The following tables list the members exposed by[ISwComFeature](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.html).
+The following tables list the members exposed by [ISwComFeature](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.html).
 
 ## Public Methods
 
@@ -24,7 +24,5 @@ The following tables list the members exposed by[ISwComFeature](SolidWorks.Inter
 ## See Also
 
 [ISwComFeature Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)
-
 [IMacroFeatureData Interface](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData.html)

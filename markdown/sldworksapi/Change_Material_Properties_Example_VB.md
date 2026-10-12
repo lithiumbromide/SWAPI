@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Material_Properties_Example_VB.htm"
 
 # Change Material Properties Example (VBA)
 
-This example shows how to change the color of the selected assembly
-component.
+This example shows how to change the color of the selected assembly component.
 
 ```
 '----------------------------------------------------

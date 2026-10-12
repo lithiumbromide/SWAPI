@@ -45,13 +45,7 @@ property System.double Thickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Value of the thickness
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~Thickness.html)
-
-.
+See [SheetMetalFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~Thickness.html).
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
 
 ## Availability

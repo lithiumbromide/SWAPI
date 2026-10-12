@@ -13,6 +13,7 @@ source: "swdocmgrapivb6/SwDocumentMgr~swDmBOMTableType.html"
 
 | Member | Value | Description |
 | --- | --- | --- |
+| swDmBOMTableTypeFlattened | 3 |  |
 | swDmBOMTableTypeIndented | 2 |  |
 | swDmBOMTableTypePartsOnly | 0 |  |
 | swDmBOMTableTypeTopLevelOnly | 1 |  |

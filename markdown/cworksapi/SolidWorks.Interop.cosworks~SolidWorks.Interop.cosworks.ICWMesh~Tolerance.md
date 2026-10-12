@@ -51,16 +51,11 @@ Tolerance value for mesh loops
 
 ## VBA Syntax
 
-See
-
-[CWMesh::Tolerance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Tolerance.html)
-
-.
+See [CWMesh::Tolerance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Tolerance.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

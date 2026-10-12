@@ -47,26 +47,16 @@ property System.bool IncludeNonUniformDistribution2 {
 
 ### Property Value
 
--1 or true if nonuniform force distribution, 0 or false if not (see
-
-Remarks
-
-)
+-1 or true if nonuniform force distribution, 0 or false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWForce::IncludeNonUniformDistribution2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~IncludeNonUniformDistribution2.html)
-
-.
+See [CWForce::IncludeNonUniformDistribution2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~IncludeNonUniformDistribution2.html).
 
 ## Examples
 
 [Add Nonuniform Force Distribution (VBA)](Add_Force_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VB.NET)](Add_Force_Example_VBNET.htm)
-
 [Add Nonuniform Force Distribution (C#)](Add_Force_Example_CSharp.htm)
 
 ## Remarks
@@ -76,7 +66,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

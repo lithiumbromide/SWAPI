@@ -51,43 +51,25 @@ System.int SetComponentsAndTransforms(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentList`: Array of interfering
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-- `TransformList`: Array of
-
-[transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
+- `ComponentList`: Array of interfering [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+- `TransformList`: Array of [transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
 
-Status as defined by
-
-[swSetComponentsAndTransformsStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSetComponentsAndTransformsStatus_e.html)
+Status as defined by [swSetComponentsAndTransformsStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSetComponentsAndTransformsStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::SetComponentsAndTransforms](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~SetComponentsAndTransforms.html)
-
-.
+See [InterferenceDetectionMgr::SetComponentsAndTransforms](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~SetComponentsAndTransforms.html).
 
 ## Examples
 
 [Set Components and Transforms for Interference Detection (C#)](Set_Components_and_Transforms_for_Interference_Detection_Example_CSharp.htm)
-
 [Set Components and Transforms for Interference Detection (VB.NET)](Set_Components_and_Transforms_for_Interference_Detection_Example_VBNET.htm)
-
 [Set Components and Transforms for Interference Detection (VBA)](Set_Components_and_Transforms_for_Interference_Detection_Example_VB.htm)
 
 ## Remarks
@@ -98,14 +80,12 @@ If you want to transform a component incrementally before interference detection
 
 To produce the effect of identity transforms on components (i.e., the components do not move while participating in interference detection), the transforms for those components passed in can be null or Nothing. However, passing in null or Nothing for all of the transforms is interpreted as invalid input.
 
-**NOTE:**A null or Nothing is interpreted as the component’s existing transform (i.e., an identity incremental transform).
+**NOTE:** A null or Nothing is interpreted as the component’s existing transform (i.e., an identity incremental transform).
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
-
 [IInterferenceDectectionMgr::GetComponentsAndTransforms Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~GetComponentsAndTransforms.html)
 
 ## Availability

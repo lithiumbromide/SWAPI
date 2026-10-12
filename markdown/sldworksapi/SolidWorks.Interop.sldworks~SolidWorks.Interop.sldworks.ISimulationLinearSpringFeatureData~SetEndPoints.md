@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # SetEndPoints Method (ISimulationLinearSpringFeatureData)
 
-Obsolete. Superseded by
-
-[ISimulationSpringFeatureData::SetEndPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~SetEndPoints.html)
-
-.
+Obsolete. Superseded by [ISimulationSpringFeatureData::SetEndPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~SetEndPoints.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimulationLinearSpringFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~SetEndPoints.html)
-
-.
+See [SimulationLinearSpringFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~SetEndPoints.html).
 
 ## See Also
 
 [ISimulationLinearSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData.html)
-
 [ISimulationLinearSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData_members.html)
-
 [ISimulationLinearspringFeatureData::GetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData~GetEndPoints.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6_properti
 
 # IEdmVariableValue6 Interface Properties
 
-For a list of all members of this type, see[IEdmVariableValue6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6_members.html).
+For a list of all members of this type, see [IEdmVariableValue6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmVariableValue6 members](EPDM.Int
 ## See Also
 
 [IEdmVariableValue6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

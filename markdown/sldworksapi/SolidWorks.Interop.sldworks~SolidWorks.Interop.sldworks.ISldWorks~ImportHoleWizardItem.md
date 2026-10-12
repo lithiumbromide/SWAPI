@@ -59,26 +59,12 @@ System.int ImportHoleWizardItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StdToImport`: Standard to import (see
-
-Remarks
-
-)
-- `DestinationFilePath`: Path and name of file to import (see
-
-Remarks
-
-)
+- `StdToImport`: Standard to import (see **Remarks**)
+- `DestinationFilePath`: Path and name of file to import (see **Remarks**)
 - `ReplaceData`: True to replace data, false to not
 - `ErrorFile`: True to create an error file, false to not
 
@@ -88,11 +74,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ImportHoleWizardItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ImportHoleWizardItem.html)
-
-.
+See [SldWorks::ImportHoleWizardItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ImportHoleWizardItem.html).
 
 ## Examples
 
@@ -150,9 +132,7 @@ Specify DestinationFilePath with the path and file name of the Excel Workbook (*
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ExportHoleWizardItem Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExportHoleWizardItem.html)
 
 ## Availability

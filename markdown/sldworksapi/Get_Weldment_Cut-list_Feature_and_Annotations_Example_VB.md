@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Weldment_Cut-list_Feature_and_Annotations_Example_VB.ht
 
 # Get Weldment Cut List Feature and Annotations Example (VBA)
 
-This example shows how to get a weldment cut list feature and weldment
-cut list annotations.
+This example shows how to get a weldment cut list feature and weldment cut list annotations.
 
 ```vb
  '----------------------------------------------------------------------------

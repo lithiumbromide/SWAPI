@@ -33,19 +33,16 @@ IEdmPos5^ GetFirstTemplatePosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first installed template
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first installed template
 
 ## Examples
 
 [Execute Template (C#)](Execute_Template_Example_CSharp.htm)
-
 [Execute Template (VB.NET)](Execute_Template_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, pass the position of the first template to[IEdmTemplateMgr5::GetNextTemplate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplateMgr5~GetNextTemplate.html)to get the first template in this list. Then call IEdmTemplateMgr5::GetNextTemplate repeatedly to get the rest of the templates in this list.
+After calling this method, pass the position of the first template to [IEdmTemplateMgr5::GetNextTemplate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplateMgr5~GetNextTemplate.html) to get the first template in this list. Then call IEdmTemplateMgr5::GetNextTemplate repeatedly to get the rest of the templates in this list.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -56,7 +53,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmTemplateMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplateMgr5.html)
-
 [IEdmTemplateMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplateMgr5_members.html)
 
 ## Availability

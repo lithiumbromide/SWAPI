@@ -54,9 +54,7 @@ CWDropTestSetup^ AddDropTestSetup(
 ### Parameters
 
 - `EntityForGravity`: Entity to drop
-- `ErrorCode`: Status as defined by
-
-[swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html)
+- `ErrorCode`: Status as defined by [swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html)
 
 ### Return Value
 
@@ -64,30 +62,20 @@ CWDropTestSetup^ AddDropTestSetup(
 
 ## VBA Syntax
 
-See
-
-[CWStudy::AddDropTestSetup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~AddDropTestSetup.html)
-
-.
+See [CWStudy::AddDropTestSetup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~AddDropTestSetup.html).
 
 ## Examples
 
 [Create Drop Test Study (VBA)](Create_Drop_Test_Study_Example_VB.htm)
-
 [Create Drop Test Study (VB.NET)](Create_Drop_Test_Study_Example_VBNET.htm)
-
 [Create Drop Test Study (C#)](Create_Drop_Test_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::DropTestResultOptions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~DropTestResultOptions.html)
-
 [ICWStudy::DropTestSetup Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~DropTestSetup.html)
-
 [ICWStudy::DropTestStudyOptions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~DropTestStudyOptions.html)
 
 ## Availability

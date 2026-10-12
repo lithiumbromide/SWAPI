@@ -9,9 +9,7 @@ source: "swdocmgrapi/Get_Revision_Tables_Example_CSharp.htm"
 
 # Get Revision Tables Example (C#)
 
-This example shows how to get a revision table in a drawing document, add a
-revision row, get revision row information, and update the revision row and
-column data.
+This example shows how to get a revision table in a drawing document, add a revision row, get revision row information, and update the revision row and column data.
 
 ```vb
  //---------------------------------------------------------------------------

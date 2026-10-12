@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # CloseFinalRenderWindow Method (IRayTraceRenderer)
 
-Closes the final render window, but leaves the
-
-[preview window](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRenderer~DisplayPreviewWindow.html)
-
-open.
+Closes the final render window, but leaves the [preview window](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRenderer~DisplayPreviewWindow.html) open.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.bool CloseFinalRenderWindow()
 System.bool CloseFinalRenderWindow();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,18 +48,12 @@ True if the final render window closed, false if it did not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRenderer::CloseFinalRenderWindow](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer~CloseFinalRenderWindow.html)
-
-.
+See [RayTraceRenderer::CloseFinalRenderWindow](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer~CloseFinalRenderWindow.html).
 
 ## See Also
 
 [IRayTraceRenderer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer.html)
-
 [IRayTraceRenderer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer_members.html)
-
 [IRayTraceRenderer::CloseRayTraceRender Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~CloseRayTraceRender.html)
 
 ## Availability

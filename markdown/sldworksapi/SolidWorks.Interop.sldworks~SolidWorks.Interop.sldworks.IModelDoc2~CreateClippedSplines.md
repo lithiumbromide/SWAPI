@@ -63,17 +63,11 @@ System.Object^ CreateClippedSplines(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ParamsIn`: SeeRemarks
+- `ParamsIn`: See Remarks
 - `X1`: x component of the lower corner of the clipping rectangle
 - `Y1`: y component of the lower corner of the clipping rectangle
 - `X2`: x component of the upper corner of the clipping rectangle
@@ -85,11 +79,7 @@ Array of newly created sketch segments
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::CreateClippedSplines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateClippedSplines.html)
-
-.
+See [ModelDoc2::CreateClippedSplines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateClippedSplines.html).
 
 ## Remarks
 
@@ -97,25 +87,23 @@ The rectangle lies in the space of the active 2D sketch. The results are undefin
 
 The ParamsIn argument in Visual Basic for Applications (VBA) is a SafeArray of size (4 + numKnots + numControlPointDoubles) as follows:
 
-[Dimension, Order, NumControlPoints, Periodicity, knot1, knot2,..., ControlPoint1[Dimension], ControlPoint2[Dimension],...]
+[ Dimension, Order, NumControlPoints, Periodicity, knot1, knot2,..., ControlPoint1[Dimension], ControlPoint2[Dimension],... ]
 
 where:
 
-Dimension,Order,NumControlPoints, andPeriodicityare integer values.
+Dimension, Order, NumControlPoints, and Periodicity are integer values.
 
-The size of the knot array is determined by (NumControlPoints+Order).
+The size of the knot array is determined by ( NumControlPoints + Order ).
 
 The size of the control point array is based upon the curve dimension:
 
-- IfDimension= 3, thenControlPointis an array of 3 doubles ( x, y, z ).
-- IfDimension= 4, thenControlPointis an array of 4 doubles ( x, y, z, w ) where w = weight.
+- If Dimension = 3, then ControlPoint is an array of 3 doubles ( x, y, z ).
+- If Dimension = 4, then ControlPoint is an array of 4 doubles ( x, y, z, w ) where w = weight.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ICreateClippedSplines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ICreateClippedSplines.html)
 
 ## Availability

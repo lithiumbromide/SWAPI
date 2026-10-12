@@ -50,13 +50,7 @@ void AddPrintRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::AddPrintRange](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~AddPrintRange.html)
-
-.
+See [PrintSpecification::AddPrintRange](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~AddPrintRange.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## Remarks
 
@@ -86,11 +72,8 @@ Call this method multiple times to specify multiple ranges of pages to print.
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
-
 [IPrintSpecification::ResetPrintRange Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~ResetPrintRange.html)
-
 [IPrintSpecification::PrintRange Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrintRange.html)
 
 ## Availability

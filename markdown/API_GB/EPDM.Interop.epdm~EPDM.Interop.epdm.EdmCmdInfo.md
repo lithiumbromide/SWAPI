@@ -34,26 +34,27 @@ public value class EdmCmdInfo : public System.ValueType
 
 ## Examples
 
-struct EdmCmdInfo{ integer mlCmdID ; string mbsCmdStr ; string mbsTooltip ; string mbsStatusBarHelp ; integer mlEdmMenuFlags ; object moData ; };
+struct EdmCmdInfo{
+integer [mlCmdID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mlCmdID.html);
+string [mbsCmdStr](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsCmdStr.html);
+string [mbsTooltip](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsTooltip.html);
+string [mbsStatusBarHelp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mbsStatusBarHelp.html);
+integer [mlEdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~mlEdmMenuFlags.html);
+object [moData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo~moData.html);
+};
 
 ## Examples
 
 [Get Menu Command Items (VB.NET)](Get_Menu_Command_Items_Example_VBNET.htm)
-
 [Get Menu Command Items (C#)](Get_Menu_Command_Items_Example_CSharp.htm)
 
 ## Remarks
 
-Used in
-
-[IEdmMenu6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6.html)
-
-.
+Used in [IEdmMenu6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6.html).
 
 ## See Also
 
 [EdmCmdInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

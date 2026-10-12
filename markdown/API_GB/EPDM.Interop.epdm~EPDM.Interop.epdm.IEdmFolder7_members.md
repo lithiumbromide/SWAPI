@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7_members.html"
 
 # IEdmFolder7 Interface Members
 
-The following tables list the members exposed by[IEdmFolder7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html).
+The following tables list the members exposed by [IEdmFolder7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmFolder7](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmFolder7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

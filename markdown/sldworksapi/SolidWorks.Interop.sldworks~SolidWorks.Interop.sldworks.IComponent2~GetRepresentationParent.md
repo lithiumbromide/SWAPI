@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetRepresentationParent Method (IComponent2)
 
-Gets the representation parent of this
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-document.
+Gets the representation parent of this [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -44,30 +40,19 @@ System.string GetRepresentationParent()
 System.String^ GetRepresentationParent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Representation parent of this SOLIDWORKS Connected document
+Representation parent of this SOLIDWORKS Design connected to the 3DEXPERIENCE platform document
 
 ## VBA Syntax
 
-See
-
-[Component2::GetRepresentationParent](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetRepresentationParent.html)
-
-.
+See [Component2::GetRepresentationParent](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetRepresentationParent.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

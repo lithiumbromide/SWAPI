@@ -62,11 +62,7 @@ System.int AddNote(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::AddNote](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~AddNote.html)
-
-.
+See [PDMWDocument::AddNote](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~AddNote.html).
 
 ## Remarks
 
@@ -75,9 +71,7 @@ The note is added to the document history and includes the name of the current u
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::Notes Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Notes.html)
 
 ## Availability

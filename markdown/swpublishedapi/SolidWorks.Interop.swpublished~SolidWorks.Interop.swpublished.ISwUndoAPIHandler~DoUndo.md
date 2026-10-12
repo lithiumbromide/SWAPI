@@ -41,11 +41,7 @@ void DoUndo();
 
 ## VBA Syntax
 
-See
-
-[SwUndoAPIHandler::DoUndo](ms-its:swpublishedapivb6.chm::/swpublished~swundoapihandler~doundo.html)
-
-.
+See [SwUndoAPIHandler::DoUndo](ms-its:swpublishedapivb6.chm::/swpublished~swundoapihandler~doundo.html).
 
 ## Examples
 
@@ -54,7 +50,6 @@ See
 ## See Also
 
 [ISwUndoAPIHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler.html)
-
 [ISwUndoAPIHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler_members.html)
 
 ## Availability

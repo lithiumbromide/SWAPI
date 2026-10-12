@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Ex
 
 # Get Points of Repeating Elements in Table-driven Pattern (C#)
 
-This example shows that the points that describe the locations of the
-repeating elements in a table-driven pattern are based on the table-driven pattern's
-coordinate system.
+This example shows that the points that describe the locations of the repeating elements in a table-driven pattern are based on the table-driven pattern's coordinate system.
 
 ```
 //---------------------------------------------

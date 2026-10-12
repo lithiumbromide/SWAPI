@@ -51,34 +51,12 @@ System.bool ExportResults(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path name of the file (
-
-*.xlsx
-
-or
-
-*.csv
-
-) (see
-
-Remarks
-
-)
-- `IncludeThumbnail`: True to include thumbnail images of interfering components in the Microsoft Excel results, false to not (see
-
-Remarks
-
-)
+- `FileName`: Full path name of the file (***.xlsx** or ***.csv**) (see **Remarks**)
+- `IncludeThumbnail`: True to include thumbnail images of interfering components in the Microsoft Excel results, false to not (see **Remarks**)
 
 ### Return Value
 
@@ -86,25 +64,19 @@ True if the export is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::ExportResults](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~ExportResults.html)
-
-.
+See [InterferenceDetectionMgr::ExportResults](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~ExportResults.html).
 
 ## Examples
 
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
 
 ## Remarks
 
-This method corresponds to the**Save Results**button in the Interference Detection PropertyManager.
+This method corresponds to the **Save Results** button in the Interference Detection PropertyManager.
 
-Filename is a Microsoft Excel file or a***.csv**file that contains the information presented in the Results list box of the Interference Detection PropertyManager:
+Filename is a Microsoft Excel file or a ***.csv** file that contains the information presented in the Results list box of the Interference Detection PropertyManager:
 
 | A | B | C | D | E | F | G |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -124,7 +96,6 @@ If IncludeThumbnail is true, then:
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
 
 ## Availability

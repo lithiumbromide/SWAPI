@@ -1,6 +1,5 @@
 ---
-title: "Frame Object
-Members"
+title: "Frame Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Frame_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Frame_members.html"
 ---
 
-# Frame Object
-Members
+# Frame Object Members
 
 ## Public Methods
 

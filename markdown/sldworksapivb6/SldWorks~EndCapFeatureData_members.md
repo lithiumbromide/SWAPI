@@ -1,6 +1,5 @@
 ---
-title: "EndCapFeatureData Object
-Members"
+title: "EndCapFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EndCapFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EndCapFeatureData_members.html"
 ---
 
-# EndCapFeatureData Object
-Members
+# EndCapFeatureData Object Members
 
 ## Public Methods
 

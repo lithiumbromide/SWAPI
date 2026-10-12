@@ -1,6 +1,5 @@
 ---
-title: "DerivedPatternFeatureData Object
-Members"
+title: "DerivedPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DerivedPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DerivedPatternFeatureData_members.html"
 ---
 
-# DerivedPatternFeatureData Object
-Members
+# DerivedPatternFeatureData Object Members
 
 ## Public Methods
 

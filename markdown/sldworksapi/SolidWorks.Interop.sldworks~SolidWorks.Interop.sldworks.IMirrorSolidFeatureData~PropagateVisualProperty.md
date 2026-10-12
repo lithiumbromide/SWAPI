@@ -45,21 +45,11 @@ property System.bool PropagateVisualProperty {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MirrorSolidFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~PropagateVisualProperty.html)
-
-.
+See [MirrorSolidFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~PropagateVisualProperty.html).
 
 ## Remarks
 
@@ -68,7 +58,6 @@ True to propagate visual properties, false to not
 ## See Also
 
 [IMirrorSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData.html)
-
 [IMirrorSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData_members.html)
 
 ## Availability

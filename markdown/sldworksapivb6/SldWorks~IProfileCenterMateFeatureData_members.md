@@ -1,6 +1,5 @@
 ---
-title: "IProfileCenterMateFeatureData Object
-Members"
+title: "IProfileCenterMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IProfileCenterMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IProfileCenterMateFeatureData_members.html"
 ---
 
-# IProfileCenterMateFeatureData Object
-Members
+# IProfileCenterMateFeatureData Object Members
 
 ## Public Properties
 

@@ -67,20 +67,14 @@ System.bool ISetComponentState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SuppressionState`: Component suppression state as defined in[swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)(see**Remarks**)
+- `SuppressionState`: Component suppression state as defined in [swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html) (see **Remarks**)
 - `NumComps`: Number of components to change
-- `CompArr`: Array of[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)to change of size numComps
-- `ConfigOption`: Configuration option as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `CompArr`: Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) to change of size numComps
+- `ConfigOption`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `WhichConfig`: Name of the configuration to change
 - `SaveClosedDocs`: True saves closed documents, false does not
 
@@ -90,26 +84,16 @@ True if the components were changed, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ISetComponentState](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ISetComponentState.html)
-
-.
+See [AssemblyDoc::ISetComponentState](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ISetComponentState.html).
 
 ## Remarks
 
-You cannot set a component to lightweight using this method. Instead, use
-
-[IComponent::SetSuppression2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSuppression2.html)
-
-.
+You cannot set a component to lightweight using this method. Instead, use [IComponent::SetSuppression2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSuppression2.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::SetComponentState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetComponentState.html)
 
 ## Availability

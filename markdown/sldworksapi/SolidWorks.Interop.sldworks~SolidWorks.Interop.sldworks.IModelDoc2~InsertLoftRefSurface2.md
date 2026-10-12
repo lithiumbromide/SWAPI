@@ -66,13 +66,7 @@ void InsertLoftRefSurface2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,16 +74,12 @@ See
 - `KeepTangency`: If the section curves are tangent, then you have the option to specify whether the resulting surfaces are also be tangent; specify True to maintain the tangency as seen in the section curves, false otherwise; when generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics
 - `ForceNonRational`: True to force the resulting surface to be non-rational, false to not
 - `TessToleranceFactor`: Factor to control the number of intermediate sections used for loft with centerline; default value is 1.0; the greater the variable, the more intermediate sections created
-- `StartMatchingType`: Tangency type at the start profile (see**Remarks**)
-- `EndMatchingType`: Tangency type at the end profile (seeRemarks)
+- `StartMatchingType`: Tangency type at the start profile (see **Remarks**)
+- `EndMatchingType`: Tangency type at the end profile (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertLoftRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertLoftRefSurface2.html)
-
-.
+See [ModelDoc2::InsertLoftRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertLoftRefSurface2.html).
 
 ## Remarks
 
@@ -99,7 +89,7 @@ Use of guide curves is strongly recommended, especially when selection of profil
 
 You can use any number of profiles; however, if you have selected only one profile, then any selected guide curves must be closed curves.
 
-UseIModelDocExtension::SelectByID2to select the profiles and guide curves. The mark for:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the profiles and guide curves. The mark for:
 
 - profile selections should be 1
 - any guide curve selection, if provided, should be 2
@@ -113,8 +103,6 @@ Linear edge, sketch line, axis, plane and planar faces are qualified for tangenc
 
 The tangency types can be one of the following:
 
-(Table)=========================================================
-
 | 0 = | none |
 | --- | --- |
 | 1 = | tangent to the normal of the profile |
@@ -125,15 +113,10 @@ The tangency types can be one of the following:
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IFeatureManager::InsertProtrusionBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)
-
 [IFeatureManager::InsertCutBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutBlend.html)
-
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [IModeler::CreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftSurface.html)
 
 ## Availability

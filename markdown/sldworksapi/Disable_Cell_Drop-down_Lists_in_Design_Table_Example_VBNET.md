@@ -9,8 +9,7 @@ source: "sldworksapi/Disable_Cell_Drop-down_Lists_in_Design_Table_Example_VBNET.
 
 # Disable Cell Drop-down Lists in Design Table Example (VB.NET)
 
-This example shows how to disable drop-down lists for cells in a design
-table.
+This example shows how to disable drop-down lists for cells in a design table.
 
 ```
 '----------------------------------------------------------

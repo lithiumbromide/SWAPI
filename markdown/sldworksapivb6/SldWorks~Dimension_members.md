@@ -1,6 +1,5 @@
 ---
-title: "Dimension Object
-Members"
+title: "Dimension Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Dimension_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Dimension_members.html"
 ---
 
-# Dimension Object
-Members
+# Dimension Object Members
 
 ## Public Methods
 

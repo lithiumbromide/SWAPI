@@ -45,13 +45,7 @@ property System.bool IncludeDimPrefixSuffixTolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to include the dimension prefix, suffix, and tolerance; false to not
 
 ## VBA Syntax
 
-See
-
-[Note::IncludeDimPrefixSuffixTolerance](ms-its:sldworksapivb6.chm::/sldworks~Note~IncludeDimPrefixSuffixTolerance.html)
-
-.
+See [Note::IncludeDimPrefixSuffixTolerance](ms-its:sldworksapivb6.chm::/sldworks~Note~IncludeDimPrefixSuffixTolerance.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

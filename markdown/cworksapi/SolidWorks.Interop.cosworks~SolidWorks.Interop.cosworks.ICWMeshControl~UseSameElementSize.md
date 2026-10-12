@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # UseSameElementSize Property (ICWMeshControl)
 
-Obsolete. Superseded by ICWMeshControl::UseSameElementSize2.
+Obsolete. Superseded by [ICWMeshControl::UseSameElementSize2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~UseSameElementSize2.html).
 
 ## Syntax
 
@@ -52,20 +52,13 @@ property System.int UseSameElementSize {
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::UseSameElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~UseSameElementSize.html)
-
-.
+See [CWMeshControl::UseSameElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~UseSameElementSize.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::ElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~ElementSize.html)
-
 [ICWMeshControl::NumofElementsforBeams Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~NumofElementsforBeams.html)
 
 ## Availability

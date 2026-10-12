@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Name_of_Drawing_Zone_Example_VB.htm"
 
 # Get Name of Drawing Zone Example (VBA)
 
-This example shows how to get the name of a drawing zone for the specified x and y
-coordinates.
+This example shows how to get the name of a drawing zone for the specified x and y coordinates.
 
 ```
 '-----------------------------------------------------------------------------

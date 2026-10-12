@@ -45,13 +45,7 @@ property System.bool StrikeoutMissingItems {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to strike out missing items in the weldment cut list table, false to not
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::StrikeoutMissingItems](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~StrikeoutMissingItems.html)
-
-.
+See [WeldmentCutListFeature::StrikeoutMissingItems](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~StrikeoutMissingItems.html).
 
 ## Examples
 
-See the
-
-[IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
-examples.
+See the [IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html) examples.
 
 ## Remarks
 
-Use[IWeldmentCutListFeature::KeepMissingItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~KeepMissingItems.html)to determine if missing cut list items are to be shown in the weldment cut list table.
+Use [IWeldmentCutListFeature::KeepMissingItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~KeepMissingItems.html) to determine if missing cut list items are to be shown in the weldment cut list table.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
-
 [IWeldmentCutListFeature::KeepCurrentItemNumbers Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~KeepCurrentItemNumbers.html)
-
 [IWeldmentCutListFeature::SequenceStartNumber Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~SequenceStartNumber.html)
 
 ## Availability

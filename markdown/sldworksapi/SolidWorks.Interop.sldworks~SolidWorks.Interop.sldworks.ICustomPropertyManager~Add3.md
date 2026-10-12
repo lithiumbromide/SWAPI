@@ -59,53 +59,34 @@ System.int Add3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FieldName`: Name of custom property
-- `FieldType`: Type of custom property as defined in[swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
+- `FieldType`: Type of custom property as defined in [swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
 - `FieldValue`: Value of custom property
-- `OverwriteExisting`: Overwrite option as defined in
-
-[swCustomPropertyAddOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomPropertyAddOption_e.html)
+- `OverwriteExisting`: Overwrite option as defined in [swCustomPropertyAddOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomPropertyAddOption_e.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swCustomInfoAddResult_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoAddResult_e.html)
+Result code as defined in [swCustomInfoAddResult_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoAddResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Add3](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add3.html)
-
-.
+See [CustomPropertyManager::Add3](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add3.html).
 
 ## Examples
 
 [Get Custom Properties for Configuration (VBA)](Get_Custom_Properties_for_Configuration_Example_VB.htm)
-
 [Get Custom Properties for Configuration (VB.NET)](Get_Custom_Properties_for_Configuration_Example_VBNET.htm)
-
 [Get Custom Properties for Configuration (C#)](Get_Custom_Properties_for_Configuration_Example_CSharp.htm)
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::Delete2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Delete2.html)
-
 [ICustomPropertyManager::Set2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Set2.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnEndDrag Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnEndDrag](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnEndDrag.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnEndDrag](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnEndDrag.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnEndDrag(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnEndDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnEndDrag.html)
-
-.
+See [SwManipulatorHandler::OnEndDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnEndDrag.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

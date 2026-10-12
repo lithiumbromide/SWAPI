@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Put | api/{vaultName}/files/{changesetId}/finishadd |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Stage Resource Group : api/{vaultName}/files/{changesetId}/finishadd (Put) |
 | --- |
@@ -27,7 +23,7 @@ Description
 
 PUT: api/{vaultName}/files/{changesetId}/finishadd Finish of add file operation. This method adds files from changeset to the vault.
 
-Adds files in the specified changeset to the vault. (See**Remarks**)
+Adds files in the specified changeset to the vault. (See **Remarks**)
 
 Parameters
 
@@ -43,14 +39,10 @@ Example
 
 Remarks
 
-Before sending this HTTP request you must send[api/{vaultName}/files/{changesetId}/upload (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-files-{changesetId}-upload~o-HttpPut.html)to get a changeset ID.
+Before sending this HTTP request you must send [api/{vaultName}/files/{changesetId}/upload (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-files-{changesetId}-upload~o-HttpPut.html) to get a changeset ID.
 
-This request returns a GUID that you can use in further calls to check progress:[api/{vaultName}/progress/{guid}/status (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-progress-{guid}-status~o-HttpGet.html)and[api/{vaultName}/progress/{guid}/result (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-progress-{guid}-result~o-HttpGet.html)
+This request returns a GUID that you can use in further calls to check progress: [api/{vaultName}/progress/{guid}/status (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-progress-{guid}-status~o-HttpGet.html) and [api/{vaultName}/progress/{guid}/result (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-progress-{guid}-result~o-HttpGet.html)
 
 See Also
 
-[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Entities_Attached_To_Cosmetic_Thread_Example_VB.htm"
 
 # Get Entities Attached to Cosmetic Thread Example (VBA)
 
-This example shows how to locate all cosmetic thread
-annotations in the drawing view, obtain the associated entities, and query those
-entities for their radius values.
+This example shows how to locate all cosmetic thread annotations in the drawing view, obtain the associated entities, and query those entities for their radius values.
 
 ```
 '----------------------------------------------------

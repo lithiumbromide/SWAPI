@@ -46,44 +46,20 @@ void SetEntitiesWeldPath(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Entities`: Array of entities of
-
-[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-,
-
-[sketches](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
-, or a combination of edges and sketches (see
-
-Remarks
-
-)
+- `Entities`: Array of entities of [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), [sketches](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html), or a combination of edges and sketches (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::SetEntitiesWeldPath](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~SetEntitiesWeldPath.html)
-
-.
+See [CosmeticWeldBeadFeatureData::SetEntitiesWeldPath](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~SetEntitiesWeldPath.html).
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
-
 [ICosmeticWeldBeadFeatureData::GetEntitiesWeldPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldPath.html)
 
 ## Availability

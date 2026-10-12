@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # IGetBomTable Method (ISheet)
 
-Obsolete. Superseded by
-
-[IView::IGetBomTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBomTable.html)
-
-.
+Obsolete. Superseded by [IView::IGetBomTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBomTable.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ BomTable IGetBomTable()
 BomTable^ IGetBomTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sheet::IGetBomTable](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IGetBomTable.html)
-
-.
+See [Sheet::IGetBomTable](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IGetBomTable.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

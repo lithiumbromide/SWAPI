@@ -47,13 +47,7 @@ System.bool SetAutomaticCutList(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,53 +55,32 @@ See
 
 ### Return Value
 
-True if enabled, false if not (see
-
-Remarks
-
-)
+True if enabled, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BodyFolder::SetAutomaticCutList](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SetAutomaticCutList.html)
-
-.
+See [BodyFolder::SetAutomaticCutList](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SetAutomaticCutList.html).
 
 ## Examples
 
-See the
-
-[IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
-examples.
+See the [IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html) examples.
 
 ## Remarks
 
-Use[IBodyFolder::GetAutomaticCutList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBodyFolder~GetAutomaticCutList.html)to find out if automatic generation of a cut list is enabled.
+Use [IBodyFolder::GetAutomaticCutList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBodyFolder~GetAutomaticCutList.html) to find out if automatic generation of a cut list is enabled.
 
 This method returns false if:
 
-- the part does not contain a weldment feature. Use
-
-  [IPartDoc::IsWeldment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IsWeldment.html)
-
-  to find out
-
+- the part does not contain a weldment feature. Use [IPartDoc::IsWeldment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IsWeldment.html) to find out
   if the part contains this feature.
 - a cut list folder already exists in the part. You must delete the cut list before
-
   you can enable automatic generation.
 
 ## See Also
 
 [IBodyFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
 [IBodyFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder_members.html)
-
 [IBodyFolder::UpdateCutList Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~UpdateCutList.html)
-
 [IBodyFolder::GetCutListType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetCutListType.html)
 
 ## Availability

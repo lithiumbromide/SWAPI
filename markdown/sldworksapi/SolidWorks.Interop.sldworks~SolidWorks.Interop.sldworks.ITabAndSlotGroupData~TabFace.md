@@ -45,13 +45,7 @@ property System.Object^ TabFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabFace](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabFace.html)
-
-.
+See [TabAndSlotGroupData::TabFace](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabFace.html).
 
 ## Remarks
 
-The value of this property is a planar face that is shared with
-
-[ITabAndSlotGroupData::SelectionTabEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionTabEdge.html)
-
-of thickness,
-
-[ITabAndSlotGroupData::TabThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabThickness.html)
-
-.
+The value of this property is a planar face that is shared with [ITabAndSlotGroupData::SelectionTabEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionTabEdge.html) of thickness, [ITabAndSlotGroupData::TabThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabThickness.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

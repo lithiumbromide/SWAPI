@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2~mbsClassID.htm
 
 # mbsClassID Field
 
-ID of class that implements
-
-[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
-
-.
+ID of class that implements [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.String^ mbsClassID
 ## See Also
 
 [EdmAddInInfo2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
 [EdmAddInInfo2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2_members.html)

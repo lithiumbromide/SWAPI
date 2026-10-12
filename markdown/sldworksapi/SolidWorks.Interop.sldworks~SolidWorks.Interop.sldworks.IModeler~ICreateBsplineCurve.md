@@ -55,45 +55,21 @@ Curve^ ICreateBsplineCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Properties`: Array containing 4 integers packed into 2 double elements (see
-
-Remarks
-
-)
-- `KnotArray`: Array of numKnots doubles (see
-
-Remarks
-
-)
-- `ControlPointCoordArray`: Array of NumCtrlPtCoord doubles (see
-
-Remarks
-
-)
+- `Properties`: Array containing 4 integers packed into 2 double elements (see **Remarks**)
+- `KnotArray`: Array of numKnots doubles (see Remarks)
+- `ControlPointCoordArray`: Array of NumCtrlPtCoord doubles (see Remarks)
 
 ### Return Value
 
-B-spline
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+B-spline [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBsplineCurve.html)
-
-.
+See [Modeler::ICreateBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBsplineCurve.html).
 
 ## Remarks
 
@@ -104,8 +80,6 @@ The Properties argument contains the following values:
 - NumCtrlPoints
 - Periodicity
 
-(Table)=========================================================
-
 | Length of this array... | Given by... |
 | --- | --- |
 | Knots | numKnots = NumCtrlPoints + Order |
@@ -114,11 +88,7 @@ The Properties argument contains the following values:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::CreateBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBsplineCurve.html)
-
 [IModeler::CreateBsplineSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBsplineSurface.html)
-
 [IModeler::ICreateBsplineSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBsplineSurface.html)

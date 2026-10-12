@@ -45,13 +45,7 @@ property System.bool UseTextScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to use the value with which to scale the tolerance text, false to not
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::UseTextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~UseTextScale.html)
-
-.
+See [CalloutVariable::UseTextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~UseTextScale.html).
 
 ## Remarks
 
-Call
-
-[ICalloutVariable::TextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~TextScale.html)
-
-to get or set the value with which to scale the tolerance text.
+Call [ICalloutVariable::TextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~TextScale.html) to get or set the value with which to scale the tolerance text.
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
 
 ## Availability

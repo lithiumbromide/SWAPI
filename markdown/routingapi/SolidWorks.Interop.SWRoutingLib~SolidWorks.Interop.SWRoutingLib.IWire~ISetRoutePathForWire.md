@@ -55,23 +55,17 @@ System.int ISetRoutePathForWire(
 
 - `numRouteSegmentIds`: Number of route segments in this wire
 - `RouteSegmentIDs`: - in-process, unmanaged C++: Pointer to an array of route segment IDs for this wire
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
-Status of setting a new route path as defined in
-
-[swSetRoutePathForWireErrorType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swSetRoutePathForWireErrorType_e.html)
+Status of setting a new route path as defined in [swSetRoutePathForWireErrorType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swSetRoutePathForWireErrorType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Wire::ISetRoutePathForWire](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~ISetRoutePathForWire.html)
-
-.
+See [Wire::ISetRoutePathForWire](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~ISetRoutePathForWire.html).
 
 ## Remarks
 
@@ -83,18 +77,15 @@ This method checks to see if the route segment IDs are valid. If so, then:
 You can pass new route segments by either:
 
 - preselecting the route segments or preselecting two connectors. This method automatically detects the route segments between the two selected connectors.
-
   - or -
 - Passing an array of route segment IDs.
 
-Before calling this method, call[IWire::GetRouteSegmentIDsCount](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDsCount.html)to get numRouteSegmentIDs.
+Before calling this method, call [IWire::GetRouteSegmentIDsCount](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDsCount.html) to get numRouteSegmentIDs.
 
 ## See Also
 
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
-
 [IWire Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire_members.html)
-
 [IWire::SetRoutePathForWire Method ()](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~SetRoutePathForWire.html)
 
 ## Availability

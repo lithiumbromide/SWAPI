@@ -40,13 +40,7 @@ System.bool Negate()
 System.bool Negate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the direction of the body is reversed, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::Negate](ms-its:sldworksapivb6.chm::/sldworks~Body2~Negate.html)
-
-.
+See [Body2::Negate](ms-its:sldworksapivb6.chm::/sldworks~Body2~Negate.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

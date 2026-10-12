@@ -9,8 +9,7 @@ source: "sldworksapi/Capture_3DView_Example_VB.htm"
 
 # Capture 3D View Example (VBA)
 
-This example shows how to capture the 3D view of a part or assembly and get
-its properties.
+This example shows how to capture the 3D view of a part or assembly and get its properties.
 
 ```vb
  '----------------------------------------------------------------------------

@@ -40,13 +40,7 @@ System.int GetDecalsCount()
 System.int GetDecalsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,38 +48,24 @@ Number of decals applied to this face
 
 ## VBA Syntax
 
-See
-
-[Face2::GetDecalsCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetDecalsCount.html)
-
-.
+See [Face2::GetDecalsCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetDecalsCount.html).
 
 ## Examples
 
 [Add Decal (C#)](Add_Decal_Example_CSharp.htm)
-
 [Add Decal (VB.NET)](Add_Decal_Example_VBNET.htm)
-
 [Add Decal (VBA)](Add_Decal_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IFace2::IGetAllDecalProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetAllDecalProperties.html)
-
-to get the size of the array for that method.
+Call this method before calling [IFace2::IGetAllDecalProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetAllDecalProperties.html) to get the size of the array for that method.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFae2::GetAllDecalProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetAllDecalProperties.html)
-
 [IFace2::IGetDecalProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetDecalProperties.html)
-
 [IFace2::IGetDecalProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetDecalProperties.html)
 
 ## Availability

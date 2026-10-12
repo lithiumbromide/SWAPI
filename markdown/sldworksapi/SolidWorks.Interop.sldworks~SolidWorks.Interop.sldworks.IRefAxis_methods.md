@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IRefAxis Interface Methods
 
-For a list of all members of this type, see[IRefAxis members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis_members.html).
+For a list of all members of this type, see [IRefAxis members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis_members.html).
 
 ## Public Methods
 
@@ -25,7 +25,5 @@ For a list of all members of this type, see[IRefAxis members](SolidWorks.Interop
 ## See Also
 
 [IRefAxis Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IRefAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData.html)

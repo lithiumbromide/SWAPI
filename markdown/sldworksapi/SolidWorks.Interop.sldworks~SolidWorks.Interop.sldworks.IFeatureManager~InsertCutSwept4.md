@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCutSwept4 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCutSwept5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutSwept5.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCutSwept5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutSwept5.html).
 
 ## Syntax
 
@@ -123,91 +119,47 @@ Feature^ InsertCutSwept4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Propagate`: True propagates the sweep cut to the next edge, false causes the sweep cut to occur only on the selected edge; to propagate to the next edge, the next edge must be tangent to the current edge
 - `Alignment`: If the curve used to sweep goes from one face to another or from one edge to another, then true causes the sweep to cut completely through the end faces of the cut, and false causes the cut to begin and end perpendicular to the sweep curve; therefore, it may not break through the two end faces of the body being cut
-- `TwistCtrlOption`: Twist control options as defined in
-
-[swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
+- `TwistCtrlOption`: Twist control options as defined in [swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
 - `KeepTangency`: If the sweep section has tangent segments, true causes the corresponding surfaces in the resulting sweep to be tangent, false does not
 - `BAdvancedSmoothing`: If the sweep section has circular or elliptical arcs, true approximates the sections and smooths the surfaces, false does not
-- `StartMatchingType`: Tangency type as defined in
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
-- `EndMatchingType`: Tangency type as defined in
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `StartMatchingType`: Tangency type as defined in [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `EndMatchingType`: Tangency type as defined in [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
 - `IsThinBody`: True if this feature is a thin body, false if not
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
-- `ThinType`: Thin wall type as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
-- `PathAlign`: Align path type (see
-
-Remarks
-
-)
+- `ThinType`: Thin wall type as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `PathAlign`: Align path type (see **Remarks**)
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see Remarks)
 - `TwistAngle`: If TwistCtrlOption is set to swTwistControlType_e.swTwistControlConstantTwistAlongPath, then specify end twist angle
 - `BMergeSmoothFaces`: True to merge smooth faces, false to not
-- `AssemblyFeatureScope`: True if the sweep cut affects only selected components in the assembly, false if the sweep cut affects all components in the assembly (
-
-see Remarks
-
-)
-- `AutoSelectComponents`: True to auto-select all affected components in the assembly, false to use manually selected components (
-
-see Remarks
-
-)
-- `PropagateFeatureToParts`: True to extend the sweep cut feature to all affected parts in the assembly, false to just insert the sweep cut into the assembly (
-
-see Remarks
-
-)
+- `AssemblyFeatureScope`: True if the sweep cut affects only selected components in the assembly, false if the sweep cut affects all components in the assembly (**see Remarks**)
+- `AutoSelectComponents`: True to auto-select all affected components in the assembly, false to use manually selected components (**see Remarks**)
+- `PropagateFeatureToParts`: True to extend the sweep cut feature to all affected parts in the assembly, false to just insert the sweep cut into the assembly (**see Remarks**)
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCutSwept4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept4.html)
-
-.
+See [FeatureManager::InsertCutSwept4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept4.html).
 
 ## Examples
 
 [Insert Sweep Cut Feature (C#)](Insert_Sweep_Cut_Feature_Example_CSharp.htm)
-
 [Insert Sweep Cut Feature (VB.NET)](Insert_Sweep_Cut_Feature_Example_VBNET.htm)
-
 [Insert Sweep Cut Feature (VBA)](Insert_Sweep_Cut_Feature_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, callIModelDocExtension::SelectByID2multiple times to select the profile, guide curves, and sweep path for the cut, setting the Mark parameter in each case as follows:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) multiple times to select the profile, guide curves, and sweep path for the cut, setting the Mark parameter in each case as follows:
 
 - 1 = Profile selection
 - 2 = Guide-curve selection, if provided
@@ -233,13 +185,9 @@ Use AssemblyFeatureScope, AutoSelectComponents, and PropagateFeatureToParts to i
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [IFeatureManager::InsertProtrusionSwept3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html)
-
 [IFeatureManager::InsertSweepSurface2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSweepSurface2.html)
 
 ## Availability

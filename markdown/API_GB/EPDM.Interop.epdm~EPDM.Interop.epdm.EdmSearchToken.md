@@ -80,15 +80,7 @@ public enum class EdmSearchToken : public System.Enum
 
 ## Remarks
 
-Used by
-
-[IEdmSearch6::GetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~GetToken.html)
-
-and
-
-[IEdmSearch6::SetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken.html)
-
-.
+Used by [IEdmSearch6::GetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~GetToken.html) and [IEdmSearch6::SetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken.html).
 
 ## See Also
 

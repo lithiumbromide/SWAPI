@@ -1,6 +1,5 @@
 ---
-title: "SldHotfix Object
-Members"
+title: "SldHotfix Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SldHotfix_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SldHotfix_members.html"
 ---
 
-# SldHotfix Object
-Members
+# SldHotfix Object Members
 
 ## Public Methods
 

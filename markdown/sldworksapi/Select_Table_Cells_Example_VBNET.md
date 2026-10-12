@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Table_Cells_Example_VBNET.htm"
 
 # Select Table Cells Example (VB.NET)
 
-This example shows how to interpret the results of selecting table cells in
-various ways.
+This example shows how to interpret the results of selecting table cells in various ways.
 
 ```
 '-----------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetMaterialIdName Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetMaterialIdName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialIdName.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetMaterialIdName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialIdName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetMaterialIdName()
 System.String^ GetMaterialIdName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetMaterialIdName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetMaterialIdName.html)
-
-.
+See [Component::GetMaterialIdName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetMaterialIdName.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

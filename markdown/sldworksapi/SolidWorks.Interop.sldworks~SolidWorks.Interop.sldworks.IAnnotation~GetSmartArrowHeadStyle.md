@@ -40,13 +40,7 @@ System.bool GetSmartArrowHeadStyle()
 System.bool GetSmartArrowHeadStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the smart arrowhead style setting is enabled, false if the smart arrowhe
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetSmartArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetSmartArrowHeadStyle.html)
-
-.
+See [Annotation::GetSmartArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetSmartArrowHeadStyle.html).
 
 ## Remarks
 
@@ -69,12 +59,9 @@ The smart arrowhead style flag is a characteristic of the annotation, not indivi
 | IAnnotation::GetLeaderStyle | Get leader characteristics |
 | IAnnotation::SetLeader3 | Set leader characteristics |
 
-(Table)=========================================================
-
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

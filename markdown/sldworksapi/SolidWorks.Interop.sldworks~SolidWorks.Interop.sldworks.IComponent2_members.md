@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IComponent2 Interface Members
 
-The following tables list the members exposed by[IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html).
+The following tables list the members exposed by [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html).
 
 ## Public Properties
 
@@ -80,14 +80,14 @@ The following tables list the members exposed by[IComponent2](SolidWorks.Interop
 | Method | GetModelTexture | Gets the texture applied to this lightweight component in the specified configuration. |
 | Method | GetParent | Gets the parent component. |
 | Method | GetPathName | Gets the full path name for this component. |
-| Method | GetPLMID | Gets the ID of this SOLIDWORKS Connected document. |
+| Method | GetPLMID | Gets the ID of this SOLIDWORKS Design connected to the 3DEXPERIENCE platform document. |
 | Method | GetPropertyExtension | Gets the property extension on this component. |
 | Method | GetReferencedDisplayStates | Gets the display states of this component that are referenced by the specified assembly display state(s). |
 | Method | GetRenderMaterials | Obsolete. Superseded by IComponent2::GetRenderMaterials2 . |
 | Method | GetRenderMaterials2 | Gets the appearances applied to this component in the specified display states. |
 | Method | GetRenderMaterialsCount | Obsolete. Superseded by IComponent2::GetRenderMaterialsCount2 . |
 | Method | GetRenderMaterialsCount2 | Gets the number of appearances applied to this component in the specified display states. |
-| Method | GetRepresentationParent | Gets the representation parent of this SOLIDWORKS Connected document. |
+| Method | GetRepresentationParent | Gets the representation parent of this SOLIDWORKS Design connected to the 3DEXPERIENCE platform document. |
 | Method | GetSectionedBodies | Gets the sectioned bodies in the specified section view. |
 | Method | GetSelectByIDString | Gets the name of the component for possible use with IModelDocExtension::SelectByID2 , for selectively opening a document using ISldWorks::OpenDoc7 and IDocumentSpecification , etc. |
 | Method | GetSmartComponentData | Gets the features, components, and feature references of a Smart Component. |
@@ -106,6 +106,7 @@ The following tables list the members exposed by[IComponent2](SolidWorks.Interop
 | Method | GetVisibility | Gets the visibility state for this component. |
 | Method | GetVisibilityInAsmDisplayStates | Gets the visibilities of this component in the specified assembly display state(s). |
 | Method | GetXform | Obsolete. Superseded by IComponent2::Transform2 . |
+| Method | HasAssemblyFeatures | Gets whether this component has assembly features in the specified configuration. |
 | Method | HasMaterialPropertyValues | Gets whether this component has an appearance. |
 | Method | HasUnloadedComponents | Gets whether this component has hidden or suppressed unloaded children components. |
 | Method | IFindAttribute | Finds an attribute on a component. |
@@ -192,7 +193,5 @@ The following tables list the members exposed by[IComponent2](SolidWorks.Interop
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::GetPathName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetPathName.html)

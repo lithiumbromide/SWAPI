@@ -62,18 +62,12 @@ void SetGravitationalAcclerationValues(
 
 ## VBA Syntax
 
-See
-
-[CWGravity::SetGravitationalAcclerationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetGravitationalAcclerationValues.html)
-
-.
+See [CWGravity::SetGravitationalAcclerationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetGravitationalAcclerationValues.html).
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
-
 [ICWGravity::GetGravitationalAcclerationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~GetGravitationalAcclerationValues.html)
 
 ## Availability

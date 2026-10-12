@@ -41,18 +41,12 @@ void ClearPlaneSelection();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::ClearPlaneSelection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~ClearPlaneSelection.html)
-
-.
+See [CWTopologyDemoldControl::ClearPlaneSelection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~ClearPlaneSelection.html).
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [ICWTopologyDemoldControl::SelectPlaneForDirection Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectPlaneForDirection.html)
 
 ## Availability

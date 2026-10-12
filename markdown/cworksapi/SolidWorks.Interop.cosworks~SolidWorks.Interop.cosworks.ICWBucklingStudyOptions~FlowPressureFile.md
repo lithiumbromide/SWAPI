@@ -47,38 +47,20 @@ property System.String^ FlowPressureFile {
 
 ### Property Value
 
-Full path name of a SOLIDWORKS Flow Simulation results file (
-
-*.fld
-
-)
+Full path name of a SOLIDWORKS Flow Simulation results file (***.fld**)
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::FlowPressureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~FlowPressureFile.html)
-
-.
+See [CWBucklingStudyOptions::FlowPressureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~FlowPressureFile.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBucklingStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure.html)
-
-and
-
-[ICWBucklingStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~ReferencePressureOption.html)
-
-are both set to 1.
+This property is valid only if [ICWBucklingStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure.html) and [ICWBucklingStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~ReferencePressureOption.html) are both set to 1.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
-
 [ICWBucklingStudyOptions::CheckRunAsLegacy Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckRunAsLegacy.html)
 
 ## Availability

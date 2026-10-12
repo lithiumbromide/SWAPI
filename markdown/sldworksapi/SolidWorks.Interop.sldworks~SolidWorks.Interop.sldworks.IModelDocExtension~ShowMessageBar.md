@@ -51,13 +51,7 @@ System.int ShowMessageBar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,25 +60,15 @@ See
 
 ### Return Value
 
-Result code as defined by
-
-[swShowMessageBarResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swShowMessageBarResult_e.html)
+Result code as defined by [swShowMessageBarResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swShowMessageBarResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ShowMessageBar](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowMessageBar.html)
-
-.
+See [ModelDocExtension::ShowMessageBar](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowMessageBar.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## Remarks
 
@@ -93,7 +77,6 @@ This method is called by an add-in to display the specified message bar in this 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

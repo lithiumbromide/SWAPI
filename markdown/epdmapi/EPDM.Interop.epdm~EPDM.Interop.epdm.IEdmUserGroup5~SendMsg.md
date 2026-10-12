@@ -46,17 +46,12 @@ void SendMsg(
 ### Parameters
 
 - `bsSubject`: Email subject
-- `bsMessageText`: Message detail (see
-
-Remarks
-
-)
+- `bsMessageText`: Message detail (see **Remarks**)
 - `bExcludeCurrentUser`: True to not send email to the logged-in user even if he is a member of this group, false to send email to the logged-in user
 
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
@@ -65,7 +60,7 @@ It is possible to send HTML-formatted mail, if the recipients use a mail system 
 
 <html><body><h1>Hello!</h1>How are you?</body></html>
 
-Call[IEdmUser5::SendMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~SendMsg.html)to send email to an individual user.
+Call [IEdmUser5::SendMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~SendMsg.html) to send email to an individual user.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -74,7 +69,6 @@ Call[IEdmUser5::SendMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~SendMsg.h
 ## See Also
 
 [IEdmUserGroup5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html)
-
 [IEdmUserGroup5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5_members.html)
 
 ## Availability

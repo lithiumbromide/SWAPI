@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # InsertBends Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::InsertBends2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertBends2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::InsertBends2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertBends2.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool InsertBends(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertBends](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBends.html)
-
-.
+See [PartDoc::InsertBends](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBends.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

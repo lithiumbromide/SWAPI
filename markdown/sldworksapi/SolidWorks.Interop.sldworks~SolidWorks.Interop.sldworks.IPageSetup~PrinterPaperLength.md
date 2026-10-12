@@ -45,40 +45,28 @@ property System.int PrinterPaperLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Paper length (see**Remarks**)
+Paper length (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PageSetup::PrinterPaperLength](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperLength.html)
-
-.
+See [PageSetup::PrinterPaperLength](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperLength.html).
 
 ## Remarks
 
-Use[IPageSetup::PrinterPaperSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperSize.html)to set the printer's paper size. A possible value for IPageSetup::PrinterPaperSize is to have a user-defined paper size. In that case, this property indicates the length of that user-defined paper.
+Use [IPageSetup::PrinterPaperSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperSize.html) to set the printer's paper size. A possible value for IPageSetup::PrinterPaperSize is to have a user-defined paper size. In that case, this property indicates the length of that user-defined paper.
 
 Length is in 0.1mm units. To define a paper that is 250mm long, set Length to 2500.
 
-To get or set the printer paper width, use[IPageSetup::PrinterPaperWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperWidth.html).
+To get or set the printer paper width, use [IPageSetup::PrinterPaperWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~PrinterPaperWidth.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::PrinterPaperSource Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~PrinterPaperSource.html)
 
 ## Availability

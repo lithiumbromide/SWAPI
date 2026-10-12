@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 Allows you to check the clearance between selected components and/or faces in assemblies.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IClearanceVerificationMgr
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr.html)
-
-.
+See [ClearanceVerificationMgr](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr.html).
 
 ## Examples
 
@@ -55,7 +51,7 @@ See
 
 'Preconditions:
 
-'1. Open`Public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\advdrawings\98food processor.sldasm**.
+'1. Open `Public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\advdrawings\98food processor.sldasm**.
 
 '2. In the FeatureManager design tree, multi-select gear-caddy and shaft gear components.
 
@@ -123,9 +119,9 @@ var = CVMgr.**GetComponentsOrFacesToCheck**()
 Debug.Print "Number of entities to check: " & (UBound(var) + 1)
 
 Debug.Print "Successfully set minimum acceptable clearance of 0.05 m: " & CVMgr.**SetMinimumAcceptableClearance**(0.05)
-CVMgr.**CheckClearanceBetween**= swCheckClearanceBetweenSelectedItems
-CVMgr.**TreatSubAssembliesAsComponents**= False
-CVMgr.**IgnoreClearanceEqualToSpecifiedValue**= True
+CVMgr.**CheckClearanceBetween** = swCheckClearanceBetweenSelectedItems
+CVMgr.**TreatSubAssembliesAsComponents** = False
+CVMgr.**IgnoreClearanceEqualToSpecifiedValue** = True
 
 Dim ClearanceVar As Variant
 ClearanceVar = CVMgr.**CalculateClearances**()
@@ -151,11 +147,7 @@ End Sub
 
 ## Remarks
 
-For more information see
-
-SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verification
-
-.
+For more information see **SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verification**.
 
 ## Accessors
 
@@ -168,7 +160,5 @@ SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verificatio
 ## See Also
 
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IClearanceResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)

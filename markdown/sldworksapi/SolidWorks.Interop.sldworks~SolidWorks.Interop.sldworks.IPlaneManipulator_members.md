@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPl
 
 # IPlaneManipulator Interface Members
 
-The following tables list the members exposed by[IPlaneManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html).
+The following tables list the members exposed by [IPlaneManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ The following tables list the members exposed by[IPlaneManipulator](SolidWorks.I
 ## See Also
 
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -40,13 +40,7 @@ System.bool GetUseDefaultResolution()
 System.bool GetUseDefaultResolution();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if printer default resolution is in use, false if not
 
 ## VBA Syntax
 
-See
-
-[PageSetup::GetUseDefaultResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~GetUseDefaultResolution.html)
-
-.
+See [PageSetup::GetUseDefaultResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~GetUseDefaultResolution.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::GetResolution Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~GetResolution.html)
-
 [IPageSetup::SetResolution Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~SetResolution.html)
 
 ## Availability

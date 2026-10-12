@@ -51,38 +51,24 @@ Rotational stiffness value
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::RotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~RotationalStiffnessValue.html)
-
-.
+See [CWPinConnector::RotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~RotationalStiffnessValue.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connectors (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connectors (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWPinConnector::IncludeTypeWithKey](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~IncludeTypeWithKey.html)
-
-is set to false.
+This property is valid only if [ICWPinConnector::IncludeTypeWithKey](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~IncludeTypeWithKey.html) is set to false.
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
-
 [ICWPinConnector::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~Unit.html)
-
 [ICWPinConnector::AxialStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~AxialStiffnessValue.html)
-
 [ICWPinConnector::IncludeTypeWithRetainerRing Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~IncludeTypeWithRetainerRing.html)
 
 ## Availability

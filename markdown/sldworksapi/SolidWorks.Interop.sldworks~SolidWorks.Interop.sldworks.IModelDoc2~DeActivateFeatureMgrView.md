@@ -47,13 +47,7 @@ System.bool DeActivateFeatureMgrView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,18 @@ True if deactivated, false if not
 
 ## VBA Syntax
 
-See
+See [ModelDoc2::DeActivateFeatureMgrView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DeActivateFeatureMgrView.html).
 
-[ModelDoc2::DeActivateFeatureMgrView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DeActivateFeatureMgrView.html)
+## Remarks
 
-.
+This method is valid only for x86 applications.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::AddFeatureMgrView3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddFeatureMgrView3.html)
+[IModelDocExtension::DeActivateFeatureMgrViewx64 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeActivateFeatureMgrViewx64.html)
 
 ## Availability
 

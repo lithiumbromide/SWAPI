@@ -135,9 +135,8 @@ Sub main()
 
     swModel.ViewZoomtofit2
 End Sub
+Back to top
 ```
-
-[Back to top](#Top)
 
 ###### 'Class module
 
@@ -151,6 +150,6 @@ Private Function swAssy_AddItemNotify(ByVal EntityType As Long, ByVal itemName A
 Private Function swAssy_RenameItemNotify(ByVal EntityType As Long, ByVal oldName As String, ByVal NewName As String) As Long
      Debug.Print "Virtual component name: " & NewName
  End Function
-```
 
-[Back to top](#Top)
+Back to top
+```

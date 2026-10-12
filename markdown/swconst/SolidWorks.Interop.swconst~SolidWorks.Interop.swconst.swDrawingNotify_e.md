@@ -45,6 +45,7 @@ public enum class swDrawingNotify_e : public System.Enum
 | swDrawingActivateSheetPostNotify | 53 = ActivateSheetPostNotify |
 | swDrawingActivateSheetPreNotify | 52 = ActivateSheetPreNotify |
 | swDrawingAddCustomPropertyNotify | 20 = AddCustomPropertyNotify |
+| swDrawingAddDependencyNotify | 62 = AddDependencyNotify |
 | swDrawingAddDvePagePreNotify | 40 = Not used. |
 | swDrawingAddItemNotify | 15 = AddItemNotify |
 | swDrawingAutoSaveNotify | 10 = AutoSaveNotify |
@@ -56,6 +57,7 @@ public enum class swDrawingNotify_e : public System.Enum
 | swDrawingConfigChangeNotify | 12 = ActiveConfigChangeNotify |
 | swDrawingConfigChangePostNotify | 13 = ActiveConfigChangePostNotify |
 | swDrawingDeleteCustomPropertyNotify | 22 = DeleteCustomPropertyNotify |
+| swDrawingDeleteDependencyNotify | 63 = DeleteDependencyNotify |
 | swDrawingDeleteItemNotify | 17 = DeleteItemNotify |
 | swDrawingDeleteItemPreNotify | 36 = DeleteItemPreNotify |
 | swDrawingDeleteSelectionPreNotify | 24 = DeleteSelectonPreNotify |
@@ -102,6 +104,7 @@ public enum class swDrawingNotify_e : public System.Enum
 | swDrawingViewCreatePreNotify | 30 = ViewCreatePreNotify |
 | swDrawingViewNewNotify | 4 = Obsolete |
 | swDrawingViewNewNotify2 | 14 = ViewNewNotify2 |
+| swViewPositionChangeNotify | 61 = ViewPositionChangeNotify |
 
 ## Remarks
 
@@ -111,13 +114,12 @@ For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supp
 
 BEGIN_SINK_MAP(CSwDrawing)
 
+```vb
 SINK_ENTRY_EX(ID_DRAWINGDOC_EVENTS, DIID_DDrawingDocEvents, swDrawingDestroyNotify, DestroyNotify)
-
 SINK_ENTRY_EX(ID_DRAWINGDOC_EVENTS, DIID_DDrawingDocEvents, swDrawingNewSelectionNotify, NewSelectionNotify)
-
 END_SINK_MAP()
-
-If developing a C++ application, use the enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for[IDrawingDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc.html)events.
+If developing a C++ application, use the enumerators to register for notifications for IDrawingDoc events.
+```
 
 ## See Also
 

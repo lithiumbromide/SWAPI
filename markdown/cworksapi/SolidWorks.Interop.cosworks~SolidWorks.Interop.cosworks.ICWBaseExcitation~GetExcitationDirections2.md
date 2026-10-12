@@ -56,33 +56,17 @@ void GetExcitationDirections2(
 
 ### Parameters
 
-- `BDir1`: -1 or true to get excitation along plane direction 1, 0 or false to not (see
-
-Remarks
-
-)
-- `BDir2`: -1 or true to get excitation along plane direction 2, 0 or false to not (see
-
-Remarks
-
-)
-- `BDir3`: -1 or true to get excitation along plane direction 3, 0 or false to not (see
-
-Remarks
-
-)
+- `BDir1`: -1 or true to get excitation along plane direction 1, 0 or false to not (see **Remarks**)
+- `BDir2`: -1 or true to get excitation along plane direction 2, 0 or false to not (see **Remarks**)
+- `BDir3`: -1 or true to get excitation along plane direction 3, 0 or false to not (see **Remarks**)
 
 ## Examples
 
-See the
-
-[ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
-examples.
+See the [ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html) examples.
 
 ## Remarks
 
-For uniform base excitations, this method is valid only if you did not call[ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html)to set the face, edge, or plane in whose direction the excitation is uniformly applied.
+For uniform base excitations, this method is valid only if you did not call [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html) to set the face, edge, or plane in whose direction the excitation is uniformly applied.
 
 This method returns booleans or integers in out parameters BDir1, BDir2, and BDir3, depending on their prior declarations.
 
@@ -94,7 +78,6 @@ If out parameters BDir1, BDir2, and BDir3 are cast as:
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

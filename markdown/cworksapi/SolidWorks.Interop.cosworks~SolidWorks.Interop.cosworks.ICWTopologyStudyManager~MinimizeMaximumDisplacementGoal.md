@@ -48,24 +48,15 @@ property CWTopologyMinimizeMaximumDisplacementGoal^ MinimizeMaximumDisplacementG
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::MinimizeMaximumDisplacementGoal](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~MinimizeMaximumDisplacementGoal.html)
-
-.
+See [CWTopologyStudyManager::MinimizeMaximumDisplacementGoal](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~MinimizeMaximumDisplacementGoal.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

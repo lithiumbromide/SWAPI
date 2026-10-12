@@ -1,6 +1,5 @@
 ---
-title: "UserNotificationHandler Object
-Members"
+title: "UserNotificationHandler Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "UserNotificationHandler_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~UserNotificationHandler_members.html"
 ---
 
-# UserNotificationHandler Object
-Members
+# UserNotificationHandler Object Members
 
 ## Public Methods
 

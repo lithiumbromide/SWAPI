@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # EMail Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWStaticStudyOptions::EMail2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail2.html)
-
-.
+Obsolete. Superseded by [ICWStaticStudyOptions::EMail2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail2.html).
 
 ## Syntax
 
@@ -55,31 +51,18 @@ property System.int EMail {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMail.html)
-
-.
+See [CWStaticStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMail.html).
 
 ## Remarks
 
 If this property is set to 1:
 
-- use
-
-  [ICWStaticStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- use
-
-  [ICWStaticStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTimebased.html)
-
-  to send email notifications during simulations.
+- use [ICWStaticStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- use [ICWStaticStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMailTimebased.html) to send email notifications during simulations.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

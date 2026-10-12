@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Put | api/{vaultName}/folders/{parentFolderId} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Folder Resource Group : api/{vaultName}/folders/{parentFolderId} (Put) |
 | --- |
@@ -93,8 +89,4 @@ This operation takes a string body parameter that is the name of the folder to a
 
 See Also
 
-[Folder Resource Group](PDM%20Pro%20API_ws~g-ebc7dbbc-e61a-4479-954a-e443044cd655.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Folder Resource Group](PDM%20Pro%20API_ws~g-ebc7dbbc-e61a-4479-954a-e443044cd655.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

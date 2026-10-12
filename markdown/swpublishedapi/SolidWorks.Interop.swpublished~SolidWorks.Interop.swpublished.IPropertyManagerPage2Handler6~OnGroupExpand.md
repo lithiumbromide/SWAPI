@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnGroupExpand Method (IPropertyManagerPage2Handler6)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler7::OnGroupExpand](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~OnGroupExpand.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler7::OnGroupExpand](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~OnGroupExpand.html).
 
 ## Syntax
 
@@ -61,16 +57,11 @@ void OnGroupExpand(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler6::OnGroupExpand](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~OnGroupExpand.html)
-
-.
+See [PropertyManagerPage2Handler6::OnGroupExpand](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~OnGroupExpand.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler6 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6.html)
-
 [IPropertyManagerPage2Handler6 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Version_Number_Example_VB.htm"
 
 # Get Version Number Example (VBA)
 
-This example shows how to get the version number of the SOLIDWORKS
-executable.
+This example shows how to get the version number of SOLIDWORKS Design.
 
 ```
 '-----------------------------------
@@ -35,11 +34,11 @@ Sub main()
 
 ```
 Set swApp = Application.SldWorks
-Debug.Print "SOLIDWORKS Version = " & swApp.RevisionNumber
+Debug.Print "Version = " & swApp.RevisionNumber
 swApp.GetBuildNumbers2 BaseVersion, CurrentVersion, HotFixes
-Debug.Print "SOLIDWORKS major revision number: " & BaseVersion
-Debug.Print "SOLIDWORKS build number: " & CurrentVersion
-Debug.Print "SOLIDWORKS hot fix numbers: " & HotFixes
+Debug.Print "Major revision number: " & BaseVersion
+Debug.Print "Build number: " & CurrentVersion
+Debug.Print "Hot fix numbers: " & HotFixes
 ```
 
 ```

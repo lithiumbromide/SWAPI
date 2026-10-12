@@ -69,65 +69,45 @@ System.Object^ GetThermalForEntities(
 
 ### Parameters
 
-- `NComponent`: Thermal component as defined in
-
-[swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
+- `NComponent`: Thermal component as defined in [swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
-- `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional
-component
+- `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional component
 - `ArraySelectedEntities`: Array of geometric entities
-- `NUnits`: Temperature unit as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of thermal results (see
-
-Remarks
-
-)
+Array of thermal results (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetThermalForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalForEntities.html)
-
-.
+See [CWResults::GetThermalForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalForEntities.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Get Thermal Values (VBA)](Get_Thermal_Values_at_Points_Example_VB.htm)
-
 [Get Thermal Values (VB.NET)](Get_Thermal_Values_at_Points_Example_VBNET.htm)
-
 [Get Thermal Values (C#)](Get_Thermal_Values_at_Points_Example_CSharp.htm)
 
 ## Remarks
 
-This method returns the followingarray:
+This method returns the following array:
 
 {
 
-node`_1`,`temp_1,`
+node`_1`, `temp_1,`
 
-`node_2`,`temp_2`,
+`node_2`, `temp_2`,
 
-node`_3`,`temp_3`,
+node`_3`, `temp_3`,
 
 ...,
 
-node`_n`,`temp_n`
+node`_n`, `temp_n`
 
 },
 
@@ -136,17 +116,11 @@ where the nodes are integers, and the temperatures are doubles.
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxThermal Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxThermal.html)
-
 [ICWResults::GetThermalComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalComponentForAllStepsAtNode.html)
-
 [ICWResults::GetThermalValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValues.html)
-
 [ICWResults::GetThermalValuesAtPoints Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValuesAtPoints.html)
-
 [ICWResults::GetHeatPowerOrEnergy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetHeatPowerOrEnergy.html)
 
 ## Availability

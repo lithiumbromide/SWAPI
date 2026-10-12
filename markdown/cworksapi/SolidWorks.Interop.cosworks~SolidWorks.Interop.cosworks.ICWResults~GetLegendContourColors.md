@@ -53,42 +53,26 @@ System.int GetLegendContourColors(
 
 ### Parameters
 
-- `SPlotName`: Plot name (see
-
-Remarks
-
-)
-- `VarColor`: Array of colors (see
-
-Remarks
-
-)
+- `SPlotName`: Plot name (see **Remarks**)
+- `VarColor`: Array of colors (see **Remarks**)
 
 ### Return Value
 
-Result code as defined in
-
-[swsResultPlotColorOption_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotColorOption_ErrorCode_e.html)
+Result code as defined in [swsResultPlotColorOption_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotColorOption_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetLegendContourColors](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetLegendContourColors.html)
-
-.
+See [CWResults::GetLegendContourColors](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetLegendContourColors.html).
 
 ## Examples
 
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
 
 ## Remarks
 
-Call[ICWResults::GetPlotNames](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetPlotNames.html)to populate SPlotName.
+Call [ICWResults::GetPlotNames](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetPlotNames.html) to populate SPlotName.
 
 VarColor contains an array of RGB triplets. Each triplet represents a computed legend color:
 
@@ -105,11 +89,8 @@ If there are 14 colors in the legend, then the size of VarColor array is (14 * 3
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotColorOptions.html)
-
 [ICWResults::GetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettings.html)
 
 ## Availability

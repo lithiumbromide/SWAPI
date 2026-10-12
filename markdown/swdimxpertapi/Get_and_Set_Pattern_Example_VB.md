@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Pattern_Example_VB.htm"
 
 # Get and Set Pattern Example (VBA)
 
-This example shows how to get and set DimXpert pattern
-features.
+This example shows how to get and set DimXpert pattern features.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -34,14 +34,9 @@ System.Object^ mpoPageImpl
 
 ## Remarks
 
-This object typically points to the object implementing the window owning the handle in
-
-[mlPageHwnd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage~mlPageHwnd.html)
-
-.
+This object typically points to the object implementing the window owning the handle in [mlPageHwnd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage~mlPageHwnd.html).
 
 ## See Also
 
 [EdmTaskSetupPage Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
 [EdmTaskSetupPage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members.html)

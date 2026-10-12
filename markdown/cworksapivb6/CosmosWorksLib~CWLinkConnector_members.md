@@ -1,6 +1,5 @@
 ---
-title: "CWLinkConnector Object
-Members"
+title: "CWLinkConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWLinkConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWLinkConnector_members.html"
 ---
 
-# CWLinkConnector Object
-Members
+# CWLinkConnector Object Members
 
 ## Public Methods
 

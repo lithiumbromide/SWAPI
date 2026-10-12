@@ -1,6 +1,5 @@
 ---
-title: "IIntersectFeatureData Object
-Members"
+title: "IIntersectFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IIntersectFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IIntersectFeatureData_members.html"
 ---
 
-# IIntersectFeatureData Object
-Members
+# IIntersectFeatureData Object Members
 
 ## Public Methods
 

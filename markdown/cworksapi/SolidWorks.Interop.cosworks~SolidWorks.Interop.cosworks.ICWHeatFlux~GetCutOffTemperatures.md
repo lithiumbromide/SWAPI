@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # GetCutOffTemperatures Method (ICWHeatFlux)
 
-Gets the thermostat lower- and upper-bound temperatures in this heat flux load.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Gets the thermostat lower- and upper-bound temperatures in this heat flux load.
 
 ## Syntax
 
@@ -57,26 +57,16 @@ void GetCutOffTemperatures(
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::GetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~GetCutOffTemperatures.html)
-
-.
+See [CWHeatFlux::GetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~GetCutOffTemperatures.html).
 
 ## Examples
 
-See the
-
-[ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
-examples.
+See the [ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html) examples.
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::SetCutOffTemperatures Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetCutOffTemperatures.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.bool ConvertToMultiJog(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -73,52 +67,34 @@ See
 
 True if the leader is converted to a multi-jog leader, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[Annotation::ConvertToMultiJog](ms-its:sldworksapivb6.chm::/sldworks~Annotation~ConvertToMultiJog.html)
-
-.
+See [Annotation::ConvertToMultiJog](ms-its:sldworksapivb6.chm::/sldworks~Annotation~ConvertToMultiJog.html).
 
 ## Examples
 
-**Visual Basic for Applications (VBA)**
+```vb
+Visual Basic for Applications (VBA)
 
 ' Convert the first leader of the note to a two-point multi-jog leader
-
 ...
-
 Dim vPointData as Variant
-
 Dim nPoints (0 to 6) as Double
-
 nPoints(0) = 0.189013
-
 nPoints(1) = 0.248742
-
 nPoints(2) = -1.75647E-15
-
 nPoints(3) = 0.252176
-
 nPoints(4) = 0.186859
-
 nPoints(5) = -1.32434E-15
-
 ...
-
 vPointData = nPoints
-
-boolstatus = Annotation. ConvertToMultiJog (0, 2, (vPointData))
-
+boolstatus = Annotation.ConvertToMultiJog(0, 2, (vPointData))
 ...
+```
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

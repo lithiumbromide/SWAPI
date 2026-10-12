@@ -45,13 +45,7 @@ property System.bool DisplaySurfaceBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to display surface bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[DrSection::DisplaySurfaceBodies](ms-its:sldworksapivb6.chm::/sldworks~DrSection~DisplaySurfaceBodies.html)
-
-.
+See [DrSection::DisplaySurfaceBodies](ms-its:sldworksapivb6.chm::/sldworks~DrSection~DisplaySurfaceBodies.html).
 
 ## Examples
 
-See the
-
-[IDrSection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)
-
-examples.
+See the [IDrSection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html) examples.
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
 
 ## Availability

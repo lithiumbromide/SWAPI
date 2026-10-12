@@ -40,13 +40,7 @@ System.object GetBasePoint()
 System.Object^ GetBasePoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Array of doubles describing the x, y, and z values of the base point
 
 ## VBA Syntax
 
-See
-
-[LocalSketchPatternFeatureData::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetBasePoint.html)
-
-.
+See [LocalSketchPatternFeatureData::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~GetBasePoint.html).
 
 ## See Also
 
 [ILocalSketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData.html)
-
 [ILocalSketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData_members.html)
 
 ## Availability

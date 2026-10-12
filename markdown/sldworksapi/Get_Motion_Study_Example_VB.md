@@ -9,15 +9,14 @@ source: "sldworksapi/Get_Motion_Study_Example_VB.htm"
 
 # Get Motion Study Example (VBA)
 
-This example shows how to get a Physical Simulation motion study and
-its properties.
+This example shows how to get a Physical Simulation motion study and its properties.
 
 ```
 '-----------------------------------------
 ' Preconditions:
 ' 1. Open a model that has a Physical Simulation motion study
 '    named PhysSim.
-' 2. In SOLIDWORKS, load the SOLIDWORKS Motion Study add-in
+' 2. In SOLIDWORKS Design, load the SOLIDWORKS Motion Study add-in
 '    (click Tools > Add-Ins > SOLIDWORKS Motion).
 ' 3. In the SOLIDWORKS VBA IDE, add a reference to the
 '    SolidWorks MotionStudy type library.
@@ -28,7 +27,7 @@ its properties.
 ' 2. Gets and activates the PhysSim motion study.
 ' 3. Gets some motion study properties and features.
 ' 4. Plays the motion study.
-' 5. In SOLIDWORKS, click Stop in the MotionManager
+' 5. In SOLIDWORKS Design, click Stop in the MotionManager
 '    to stop playing the motion study.
 ' 6. Gets the motion study results and whether the
 '    results are out of date.

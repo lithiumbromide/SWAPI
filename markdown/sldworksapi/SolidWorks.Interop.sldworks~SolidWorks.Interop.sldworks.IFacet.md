@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 Allows access to a triangular facet of a mesh or graphics body.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IFacet
 
 ## VBA Syntax
 
-See
-
-[Facet](ms-its:sldworksapivb6.chm::/sldworks~Facet.html)
-
-.
+See [Facet](ms-its:sldworksapivb6.chm::/sldworks~Facet.html).
 
 ## Examples
 
@@ -55,7 +51,7 @@ See
 
 'Preconditions:
 
-'1. Copy`Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\Part1.PLY**to**c:\temp**.
+'1. Copy `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\Part1.PLY** to **c:\temp**.
 
 '2. Open the Immediate window.
 
@@ -344,7 +340,7 @@ bIsGraphics = swCurBod.**IsGraphicsBody**
 Debug.Print "IsGraphicsBody method returned " & bIsGraphics
 
 Dim swThisMeshBody As SldWorks.MeshBody
-Set swThisMeshBody = swCurBod.**GetMeshBody**'
+Set swThisMeshBody = swCurBod.**GetMeshBody** '
 If swThisMeshBody Is Nothing Then
 Debug.Print ""
 Else
@@ -493,20 +489,11 @@ End Sub
 ## Examples
 
 [Inspect Facets of Graphics and Mesh Bodies (VB.NET)](Inspect_Facets_Example_VBNET.htm)
-
 [Inspect Facets of Graphics and Mesh Bodies (C#)](Inspect_Facets_Example_CSharp.htm)
 
 ## Remarks
 
-For more information about graphics bodies, read the
-
-Graphics Mesh and Mesh BREP Bodies
-
-topic in
-
-SOLIDWORKS user-interface help > Parts and Features
-
-.
+For more information about graphics bodies, read the **Graphics Mesh and Mesh BREP Bodies** topic in **SOLIDWORKS Design user-interface help > Parts and Features**.
 
 ## Accessors
 
@@ -521,5 +508,4 @@ SOLIDWORKS user-interface help > Parts and Features
 ## See Also
 
 [IFacet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,9 +9,7 @@ source: "sldworksapi/Remove_Material_From_Bodies_Example_CSharp.htm"
 
 # Remove Material Properties from Bodies Example (C#)
 
-This example shows how to remove materials from bodies in a multibody part.
-This example also works with a part with a single body and an assembly with
-single and multibody components.
+This example shows how to remove materials from bodies in a multibody part. This example also works with a part with a single body and an assembly with single and multibody components.
 
 ```
 //---------------------------------------------------------------

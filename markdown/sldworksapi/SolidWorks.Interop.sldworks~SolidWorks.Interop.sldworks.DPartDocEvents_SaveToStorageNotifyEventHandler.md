@@ -37,31 +37,17 @@ public delegate System.int DPartDocEvents_SaveToStorageNotifyEventHandler()
 public delegate System.int DPartDocEvents_SaveToStorageNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SaveToStorageNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SaveToStorageNotify_EV.html)
-
-.
+See [SaveToStorageNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SaveToStorageNotify_EV.html).
 
 ## Remarks
 
-Call[IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html)after receiving this notification.
+Call [IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html) after receiving this notification.
 
-If developing a C++ application, use
-
-[swPartSaveToStorageNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartSaveToStorageNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 # ILightDialog Interface Methods
 
-For a list of all members of this type, see[ILightDialog members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog_members.html).
+For a list of all members of this type, see [ILightDialog members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ILightDialog members](SolidWorks.Int
 ## See Also
 
 [ILightDialog Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

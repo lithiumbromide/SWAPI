@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission_mem
 
 # EdmTransitionPermission Structure Members
 
-The following tables list the members exposed by[EdmTransitionPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html).
+The following tables list the members exposed by [EdmTransitionPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmTransitionPermission](EPDM.I
 ## See Also
 
 [EdmTransitionPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

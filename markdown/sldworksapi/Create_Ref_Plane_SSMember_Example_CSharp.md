@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Ref_Plane_SSMember_Example_CSharp.htm"
 
 # Create Reference Plane Structure System Member Example (C#)
 
-This example shows how to create a structure system member along the
-intersection of two or more planes.
+This example shows how to create a structure system member along the intersection of two or more planes.
 
 ```vb
  // ==========================================================================================

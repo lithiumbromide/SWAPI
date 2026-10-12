@@ -9,9 +9,7 @@ source: "sldworksapi/Create_Line_From_User_Selection_Example_VB.htm"
 
 # Create Line From User Selection Example (VBA)
 
-This example shows how to create geometry in a
-sketch or drawing, including how to retrieve the coordinates of a user's
-selection.
+This example shows how to create geometry in a sketch or drawing, including how to retrieve the coordinates of a user's selection.
 
 ```
 '---------------------------------------------------------

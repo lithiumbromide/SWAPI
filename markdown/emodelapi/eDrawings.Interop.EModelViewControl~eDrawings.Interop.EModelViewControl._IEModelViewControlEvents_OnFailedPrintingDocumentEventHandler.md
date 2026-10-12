@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # _IEModelViewControlEvents_OnFailedPrintingDocumentEventHandler Delegate (eDrawings.Interop.EModelViewControl)
 
-Fired if the printer name specified in the[IEModelViewControl::SetPageSetupOptions](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SetPageSetupOptions.html)was invalid or if an eDrawings-related error exists that prevents data from being sent to a printer queue.
+Fired if the printer name specified in the [IEModelViewControl::SetPageSetupOptions](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SetPageSetupOptions.html) was invalid or if an eDrawings-related error exists that prevents data from being sent to a printer queue.
 
 ## Syntax
 
@@ -45,19 +45,11 @@ public delegate void _IEModelViewControlEvents_OnFailedPrintingDocumentEventHand
 
 ### Parameters
 
-- `PrintJobName`: String specified for the FileNameInPrintQueue argument in
-
-[IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html)
-
-or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
+- `PrintJobName`: String specified for the FileNameInPrintQueue argument in [IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html) or an empty string if the ShowDialog argument of IEModelViewControl::Print5 was set to true and the user prints from the user interface
 
 ## VBA Syntax
 
-See
-
-[OnFailedPrintingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedPrintingDocument_EV.html)
-
-.
+See [OnFailedPrintingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedPrintingDocument_EV.html).
 
 ## Remarks
 

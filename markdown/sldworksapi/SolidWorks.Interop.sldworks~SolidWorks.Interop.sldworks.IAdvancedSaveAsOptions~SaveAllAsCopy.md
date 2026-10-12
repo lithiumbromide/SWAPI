@@ -41,13 +41,7 @@ property System.bool SaveAllAsCopy {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -55,24 +49,15 @@ True to save all as a copy, false (default) to not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::SaveAllAsCopy](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SaveAllAsCopy.html)
-
-.
+See [AdvancedSaveAsOptions::SaveAllAsCopy](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SaveAllAsCopy.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
-example.
+See the [IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html) example.
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

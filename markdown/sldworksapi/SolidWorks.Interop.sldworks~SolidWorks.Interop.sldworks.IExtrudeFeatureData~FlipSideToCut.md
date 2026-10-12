@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # FlipSideToCut Property (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::FlipSideToCut](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FlipSideToCut.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::FlipSideToCut](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FlipSideToCut.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool FlipSideToCut {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::FlipSideToCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~FlipSideToCut.html)
-
-.
+See [ExtrudeFeatureData::FlipSideToCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~FlipSideToCut.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

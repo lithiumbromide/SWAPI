@@ -48,16 +48,11 @@ True if document has legacy custom properties, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument29::HasLegacyCustomProperties](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument29~HasLegacyCustomProperties.html)
-
-.
+See [SwDMDocument29::HasLegacyCustomProperties](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument29~HasLegacyCustomProperties.html).
 
 ## See Also
 
 [ISwDMDocument29 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument29.html)
-
 [ISwDMDocument29 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument29_members.html)
 
 ## Availability

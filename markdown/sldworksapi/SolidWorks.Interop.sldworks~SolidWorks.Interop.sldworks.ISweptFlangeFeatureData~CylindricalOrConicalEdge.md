@@ -45,13 +45,7 @@ property System.Object^ CylindricalOrConicalEdge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Linear sketch entity
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::CylindricalOrConicalEdge](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~CylindricalOrConicalEdge.html)
-
-.
+See [SweptFlangeFeatureData::CylindricalOrConicalEdge](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~CylindricalOrConicalEdge.html).
 
 ## Remarks
 
@@ -73,22 +63,17 @@ This property is valid only:
 
 - and -
 
-- for
-
-  [sweep paths](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Path.html)
-
-  that are sketches,
+- for [sweep paths](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~Path.html) that are sketches,
 
 - and -
 
 - when not creating the swept flange on an existing sheet metal feature.
 
-For more information, read the**SOLIDWORKS Help > Sheet Metal > Using Sheet Metal Tools > Swept Flange > Creating a Conical Body with a Swept Flange**topic.
+For more information, read the **SOLIDWORKS Help > Sheet Metal > Using Sheet Metal Tools > Swept Flange > Creating a Conical Body with a Swept Flange** topic.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # ICopy Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::ICopy.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICopy.html)
+Obsolete. Superseded by [IBody2::ICopy.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICopy.html)
 
 ## Syntax
 
@@ -42,24 +40,13 @@ Body ICopy()
 Body^ ICopy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::ICopy](ms-its:sldworksapivb6.chm::/sldworks~Body~ICopy.html)
-
-.
+See [Body::ICopy](ms-its:sldworksapivb6.chm::/sldworks~Body~ICopy.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True enables the merge results option, false disables it
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::Merge](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~Merge.html)
-
-.
+See [ExtrudeFeatureData2::Merge](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~Merge.html).
 
 ## Remarks
 
-The merge results option tells the SOLIDWORKS software whether or not to merge the
-
+The merge results option tells the SOLIDWORKS Design software whether or not to merge the
 new body or bodies with existing bodies in the multibody part. This property is set
-
 to True by default.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
 
 ## Availability

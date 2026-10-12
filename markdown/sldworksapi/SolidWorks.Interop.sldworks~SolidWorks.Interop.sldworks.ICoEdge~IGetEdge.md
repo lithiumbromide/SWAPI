@@ -40,30 +40,18 @@ Edge IGetEdge()
 Edge^ IGetEdge();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)that corresponds to this coedge
+Pointer to the [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) that corresponds to this coedge
 
 ## VBA Syntax
 
-See
-
-[CoEdge::IGetEdge](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetEdge.html)
-
-.
+See [CoEdge::IGetEdge](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetEdge.html).
 
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::GetEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetEdge.html)

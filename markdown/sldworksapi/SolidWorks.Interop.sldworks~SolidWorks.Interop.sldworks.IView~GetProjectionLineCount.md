@@ -40,46 +40,29 @@ System.int GetProjectionLineCount()
 System.int GetProjectionLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 Number of projection lines in this drawing view
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[View::GetProjectionLineCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetProjectionLineCount.html)
-
-.
+See [View::GetProjectionLineCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetProjectionLineCount.html).
 
 ## Remarks
 
 This method only works for base drawing views; it does not work for projected or auxiliary views.
 
-Call this method before[IView::IGetProjectionLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetProjectionLines.html)to get the size of the array for that method.
+Call this method before [IView::IGetProjectionLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetProjectionLines.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetProjectionLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetProjectionLines.html)
-
 [IView::GetProjectionArrow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetProjectionArrow.html)
-
 [IView::IGetProjectionArrow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetProjectionArrow.html)
-
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
 
 ## Availability

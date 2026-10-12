@@ -51,24 +51,15 @@ Number of graph steps per plot
 
 ## VBA Syntax
 
-See
-
-[CWDropTestResultOptions::NoOfGraphSteps](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~NoOfGraphSteps.html)
-
-.
+See [CWDropTestResultOptions::NoOfGraphSteps](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~NoOfGraphSteps.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html)
-
-.
+See the examples in [ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html).
 
 ## See Also
 
 [ICWDropTestResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions.html)
-
 [ICWDropTestResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions_members.html)
 
 ## Availability

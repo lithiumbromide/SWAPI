@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # IBlockDefinition Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [ISketchBlockDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html).
 
-[ISketchBlockDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IBlockDefinition
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition.html)
-
-.
+See [BlockDefinition](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition.html).
 
 ## See Also
 
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

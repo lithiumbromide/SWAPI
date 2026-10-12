@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SetStringValue Method (IParameter)
 
-Obsolete. Superseded by
-
-[IParameter::SetStringValue2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter~SetStringValue2.html)
-
-.
+Obsolete. Superseded by [IParameter::SetStringValue2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter~SetStringValue2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetStringValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInC
 
 ## VBA Syntax
 
-See
-
-[Parameter::SetStringValue](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetStringValue.html)
-
-.
+See [Parameter::SetStringValue](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetStringValue.html).
 
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [IParameter Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html)

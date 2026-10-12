@@ -40,13 +40,7 @@ System.object GetDrawingPaletteViewNames()
 System.Object^ GetDrawingPaletteViewNames();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Array of the names of the drawing views in the View Palette for the active drawi
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetDrawingPaletteViewNames](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetDrawingPaletteViewNames.html)
-
-.
+See [DrawingDoc::GetDrawingPaletteViewNames](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetDrawingPaletteViewNames.html).
 
 ## Examples
 
 [Drop Drawing Views from View Palette (VBA)](Drop_Drawing_Views_from_View_Palette_Example_VB.htm)
-
 [Drop First Drawing View from View Palette (VBA)](Drop_Drawing_Views_from_View_Palette_Example_VB.htm)
-
 [Get Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (C#)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_CSharp.htm)
-
 [Get Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (VB.NET)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_VBNET.htm)
-
 [Get Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (VBA)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_VB.htm)
 
 ## Remarks
@@ -82,11 +68,8 @@ See
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::DropDrawingViewFromPalette2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~DropDrawingViewFromPalette2.html)
-
 [IDrawingDoc::GenerateViewPaletteViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GenerateViewPaletteViews.html)
 
 ## Availability

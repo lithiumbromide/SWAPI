@@ -40,13 +40,7 @@ System.int GetSketchContourCount()
 System.int GetSketchContourCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,18 @@ Number of sketch contours
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchContourCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchContourCount.html)
-
-.
+See [Sketch::GetSketchContourCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchContourCount.html).
 
 ## Remarks
 
-Call this method before calling[ISketch::IGetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchContours.html)to get the size of the array for that method.
+Call this method before calling [ISketch::IGetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchContours.html) to get the size of the array for that method.
 
 This method works even if the sketch is suppressed.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchContours Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchContours.html)
 
 ## Availability

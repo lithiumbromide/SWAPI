@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetPolyLinesAndCurvesCount Method (IView)
 
-Gets the number of lines, including arcs, ellipses, splines, and polylines, in the view with the option to include or exclude cross hatch
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-lines.
+Gets the number of lines, including arcs, ellipses, splines, and polylines, in the view with the option to include or exclude cross hatch lines.
 
 ## Syntax
 
@@ -57,20 +51,12 @@ System.int GetPolyLinesAndCurvesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CrossHatchOption`: Crosshatch option as defined in[swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
-- `PointCount`: Size of array to allocate in doubles for
-
-[IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html)
+- `CrossHatchOption`: Crosshatch option as defined in [swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
+- `PointCount`: Size of array to allocate in doubles for [IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html)
 
 ### Return Value
 
@@ -78,17 +64,11 @@ Number of lines
 
 ## VBA Syntax
 
-See
-
-[View::GetPolyLinesAndCurvesCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLinesAndCurvesCount.html)
-
-.
+See [View::GetPolyLinesAndCurvesCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLinesAndCurvesCount.html).
 
 ## Remarks
 
-Call this method before calling[IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html).
-
-(Table)=========================================================
+Call this method before calling [IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html).
 
 | If... | Then... |
 | --- | --- |
@@ -99,17 +79,11 @@ Call this method before calling[IView::IGetPolyLinesAndCurves](SOLIDWORKS.Intero
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayMode2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayMode2.html)
-
 [IView::GetPolyLineCount5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolyLineCount5.html)
-
 [IView::GetPolylines6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolylines6.html)
-
 [IView::GetPolyLinesAndCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolyLinesAndCurves.html)
-
 [IView::IGetPolylines6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetPolylines6.html)
 
 ## Availability

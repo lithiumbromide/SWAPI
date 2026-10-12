@@ -52,7 +52,6 @@ void DeleteFile(
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
@@ -63,22 +62,15 @@ If the specified file is shared to other folders, it is deleted only from this f
 
 - S_OK: The method successfully executed.
 - E_EDM_FILE_NOT_FOUND: The file ID is invalid.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: The operation is not permitted by one of the installed
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  .EdmCmd_PreDelete hooks.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: The operation is not permitted by one of the installed [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_PreDelete hooks.
 - E_EDM_LOCKED_BY_ANOTHER_USER: The file cannot be deleted since it is checked out by another user.
 - E_EDM_PERMISSION_DENIED: The user lacks permission to delete the file.
 
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::DeleteFolder Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~DeleteFolder.html)
-
 [IEdmFolder11::RecoverDeletedItems Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~RecoverDeletedItems.html)
 
 ## Availability

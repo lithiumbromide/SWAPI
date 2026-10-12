@@ -47,13 +47,7 @@ Feature^ IInsertProjectedSketch2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,19 +55,11 @@ See
 
 ### Return Value
 
-Newly created
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-or NULL if the operation fails
+Newly created [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IInsertProjectedSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertProjectedSketch2.html)
-
-.
+See [ModelDoc2::IInsertProjectedSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertProjectedSketch2.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ You can reverse the direction in which the curve is projected. This is necessary
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertProjectedSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertProjectedSketch.html)
 
 ## Availability

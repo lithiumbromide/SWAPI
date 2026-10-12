@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetAllExternalReferences Method (ISwDMDocument)
 
-Obsolete. Superseded by
-
-[ISwDMDocument5::GetAllExternalReferences2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument5~GetAllExternalReferences2.html)
-
-.
+Obsolete. Superseded by [ISwDMDocument5::GetAllExternalReferences2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument5~GetAllExternalReferences2.html).
 
 ## Syntax
 
@@ -57,11 +53,7 @@ System.Object^ GetAllExternalReferences(
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetAllExternalReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetAllExternalReferences.html)
-
-.
+See [SwDMDocument::GetAllExternalReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetAllExternalReferences.html).
 
 ## Examples
 
@@ -70,11 +62,7 @@ See
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISwDMDocument::WhereUsed Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~WhereUsed.html)
-
 [ISwDMDocument::ReplaceReference Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html)
-
 [ISwDMDocument8::GetChangedReferences Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8~GetChangedReferences.html)

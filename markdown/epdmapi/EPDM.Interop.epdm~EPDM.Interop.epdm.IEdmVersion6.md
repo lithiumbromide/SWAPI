@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6.html"
 
 Allows you to access the version of a file.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmVersion6 : public IEdmVersion5
 
 This interface:
 
-- extends
-
-  [IEdmVersion5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html)
-
-  .
-- is extended by
-
-  [IEdmVersion7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7.html)
-
-  .
+- extends [IEdmVersion5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html).
+- is extended by [IEdmVersion7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7.html).
 
 ## See Also
 
 [IEdmVersion6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

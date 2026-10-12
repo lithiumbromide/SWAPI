@@ -51,26 +51,16 @@ Preload force
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::PreLoadForceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~PreLoadForceValue.html)
-
-.
+See [CWSpringConnector::PreLoadForceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~PreLoadForceValue.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [ICWSpringConnector::PreLoadForceType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~PreLoadForceType.html)
 
 ## Availability

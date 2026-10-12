@@ -39,21 +39,11 @@ void ViewDisplayFaceted()
 void ViewDisplayFaceted();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ViewDisplayFaceted](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDisplayFaceted.html)
-
-.
+See [ModelDoc2::ViewDisplayFaceted](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDisplayFaceted.html).
 
 ## Examples
 
@@ -76,15 +66,12 @@ End Sub
 ## Examples
 
 [Display Hidden Lines (VBA)](Display_Hidden_Lines_Example_VB.htm)
-
 [Display Hidden Lines (VB.NET)](Display_Hidden_Lines_Example_VBNET.htm)
-
 [Display Hidden Lines (C#)](Display_Hidden_Lines_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

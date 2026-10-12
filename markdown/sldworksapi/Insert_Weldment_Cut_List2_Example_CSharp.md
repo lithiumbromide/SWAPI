@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Weldment_Cut_List2_Example_CSharp.htm"
 
 # Insert Weldment Cut List Example #2 (C#)
 
-This example shows how to insert a weldment cut list into the FeatureManager
-design tree.
+This example shows how to insert a weldment cut list into the FeatureManager design tree.
 
 ```
 //----------------------------------------------------------------------------
@@ -32,67 +31,32 @@ design tree.
 //----------------------------------------------------------------------------
 ```
 
+```vb
 using SolidWorks.Interop.sldworks;
-
 using SolidWorks.Interop.swconst;
-
 using System;
-
 namespace InsertWeldmentCutList2_CSharp.csproj
-
 {
+    partial class SolidWorksMacro
+    {
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}partial
-class SolidWorksMacro
+        ModelDoc2 Part;
+        Body2[] obj = new Body2[1];
+        Object[] v;
+        long i;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ModelDoc2
-Part;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Body2[]
-obj = new Body2[1];
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Object[]
-v;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long
-i;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}public
-void Main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Part
-= (ModelDoc2)swApp.**ActiveDoc**;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}v
-= (object[])((PartDoc)Part).**GetBodies2**(0, true);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}for
-(i = 0; i <= v.GetUpperBound(0); i++)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}obj[i]
-= (Body2)v[i];
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Feature
-cutListFeature = default(Feature);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}cutListFeature
-= Part.**FeatureManager**.InsertWeldmentCutList2(obj);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}public
-SldWorks swApp;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
+        public void Main()
+        {
+            Part = (ModelDoc2)swApp.ActiveDoc;
+            v = (object[])((PartDoc)Part).GetBodies2(0, true);
+            for (i = 0; i <= v.GetUpperBound(0); i++)
+            {
+                obj[i] = (Body2)v[i];
+            }
+            Feature cutListFeature = default(Feature);
+            cutListFeature = Part.FeatureManager.InsertWeldmentCutList2(obj);
+        }
+        public SldWorks swApp;
+    }
 }
+```

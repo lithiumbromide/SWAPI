@@ -9,8 +9,7 @@ source: "sldworksapi/Process_Body_Example_CSharp.htm"
 
 # Process Body Example (C#)
 
-This example shows how create to a new part with an imported body from
-the processed body of the original part.
+This example shows how create to a new part with an imported body from the processed body of the original part.
 
 ```
 //------------------------------------------------

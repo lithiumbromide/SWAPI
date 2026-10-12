@@ -43,11 +43,7 @@ void SetFocus(
 
 ## Examples
 
-See the
-
-[IEdmCardView61](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html)
-
-examples.
+See the [IEdmCardView61](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html) examples.
 
 ## Remarks
 
@@ -59,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmCardView61 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html)
-
 [IEdmCardView61 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61_members.html)
 
 ## Availability

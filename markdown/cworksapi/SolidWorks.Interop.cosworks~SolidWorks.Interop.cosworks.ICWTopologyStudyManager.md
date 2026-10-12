@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyStudyManager Interface
 
-Allows you to manage topology studies.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows you to manage topology studies. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyStudyManager
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager.html)
-
-.
+See [CWTopologyStudyManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager.html).
 
 ## Examples
 
@@ -65,7 +53,7 @@ A topology study:
 - consists of optimization goals, constraints, preserved regions, and manufacturing controls. A topology constraint defines, for example, how much material to remove (mass constraint) or how far to displace a component (displacement constraint) to satisfy a given topology optimization goal (e.g., minimize maximum displacement).
 - is available with SOLIDWORKS Simulation Professional and Premium licenses only.
 
-See the**Topology Study**topic in the Simulation user-interface help for more information.
+See the **Topology Study** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -74,5 +62,4 @@ See the**Topology Study**topic in the Simulation user-interface help for more in
 ## See Also
 
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

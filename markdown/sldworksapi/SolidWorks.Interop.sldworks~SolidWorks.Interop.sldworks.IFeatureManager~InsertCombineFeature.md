@@ -55,33 +55,21 @@ Feature^ InsertCombineFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `OperationType`: Operation as defined in[swBodyOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationType_e.html)
-- `MainBody`: | If OperationType is ... | Then set MainBody to ... |
-| --- | --- |
-| swBodyOperationType_e.SWBODYADD | Nothing or null |
-| swBodyOperationType_e.SWBODYCUT | Target body |
-| swBodyOperationType_e.SWBODYINTERSECT | Nothing or null |
+- `OperationType`: Operation as defined in [swBodyOperationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationType_e.html)
+- `MainBody`:
 
-(See**Remarks**)
-- `ToolVar`: Array of
+  | If OperationType is ... | Then set MainBody to ... |
+  | --- | --- |
+  | swBodyOperationType_e.SWBODYADD | Nothing or null |
+  | swBodyOperationType_e.SWBODYCUT | Target body |
+  | swBodyOperationType_e.SWBODYINTERSECT | Nothing or null |
 
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-to combine (see
-
-Remarks
-
-)
+  (See **Remarks**)
+- `ToolVar`: Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) to combine (see **Remarks**)
 
 ### Return Value
 
@@ -89,29 +77,19 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCombineFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCombineFeature.html)
-
-.
+See [FeatureManager::InsertCombineFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCombineFeature.html).
 
 ## Examples
 
 [Combine Bodies (C#)](Combine_Bodies_Example_CSharp.htm)
-
 [Combine Bodies (VB.NET)](Combine_Bodies_Example_VBNET.htm)
-
 [Combine Bodies (VBA)](Combine_Bodies_Example_VB.htm)
 
 ## Remarks
 
 You can either call this method, directly passing in the bodies with MainBody and ToolVar, or you can:
 
-1. Select the bodies using
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  as follows:
+1. Select the bodies using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) as follows:
 
   | To select... | Use Mark... |
   | --- | --- |
@@ -124,11 +102,8 @@ See the SOLIDWORKS Help for more information about the combine feature.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::IInsertCombineFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IInsertCombineFeature.html)
-
 [ICombineBodiesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData.html)
 
 ## Availability

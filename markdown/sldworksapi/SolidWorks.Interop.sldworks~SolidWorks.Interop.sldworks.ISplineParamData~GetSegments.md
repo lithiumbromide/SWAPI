@@ -47,21 +47,11 @@ System.bool GetSegments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Segments`: Array of doubles (
-
-see Remarks
-
-)
+- `Segments`: Array of doubles (**see Remarks**)
 
 ### Return Value
 
@@ -69,23 +59,17 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SplineParamData::GetSegments](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~GetSegments.html)
-
-.
+See [SplineParamData::GetSegments](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~GetSegments.html).
 
 ## Examples
 
 [Get P-Spline Parameterization Data (C#)](Get_P-Spline_Parameterization_Data_Example_CSharp.htm)
-
 [Get P-Spline Parameterization Data (VB.NET)](Get_P-Spline_Parameterization_Data_Example_VBNET.htm)
-
 [Get P-Spline Parameterization Data (VBA)](Get_P-Spline_Parameterization_Data_Example_VB.htm)
 
 ## Remarks
 
-This method works only with P-spline parameterization data. Before calling this method, call[ICurve::GetPCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetPCurveParams2.html)to obtain the P-spline parameterization data object for the curve.
+This method works only with P-spline parameterization data. Before calling this method, call [ICurve::GetPCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetPCurveParams2.html) to obtain the P-spline parameterization data object for the curve.
 
 Each pair of spline control points defines one segment of a curve. Each segment is typically represented by a cubic polynomial. This method returns a one-dimensional array containing doubles that are the coefficients of all of the piecewise cubic polynomials of the spline.
 
@@ -111,16 +95,13 @@ If the spline segments are represented by cubic non-rational (dim=3) polynomials
 
 The total number of coefficients returned by this method is:
 
-(segment count) x (order) x (dimension)
+([segment count](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineParamData~SegmentCount.html)) x ([order](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineParamData~Order.html)) x ([dimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineParamData~Dimension.html))
 
 ## See Also
 
 [ISplineParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData.html)
-
 [ISplineParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html)
-
 [ISplineParamData::IGetSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~IGetSegments.html)
-
 [ISplineParamData::SegmentCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~SegmentCount.html)
 
 ## Availability

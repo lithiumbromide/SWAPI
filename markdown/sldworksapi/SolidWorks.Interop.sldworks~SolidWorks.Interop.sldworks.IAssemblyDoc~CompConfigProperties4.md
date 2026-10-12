@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # CompConfigProperties4 Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::CompConfigProperties5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CompConfigProperties5.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::CompConfigProperties5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CompConfigProperties5.html).
 
 ## Syntax
 
@@ -71,26 +67,16 @@ System.bool CompConfigProperties4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Suppression`: Suppression state of this component as defined in
-
-[swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
-- `Solving`: Solving state of this component as defined in
-
-[swComponentSolvingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSolvingOption_e.html)
+- `Suppression`: Suppression state of this component as defined in [swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
+- `Solving`: Solving state of this component as defined in [swComponentSolvingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSolvingOption_e.html)
 - `Visibility`: True if you want to show the selected component in the graphics display area, false if not
 - `UseNamedRefConfig`: Not used
 - `RefConfigName`: - If a non-empty string is specified, then the referenced configuration of the selected component is changed to this named configuration
-- If an empty string is specified, then the default referenced configuration is used
+  - If an empty string is specified, then the default referenced configuration is used
 - `ExcludeFromBOM`: True to exclude the configuration from the BOM, false to not
 
 ### Return Value
@@ -99,15 +85,11 @@ True if setting the properties of the selected component in the specified config
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CompConfigProperties4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties4.html)
-
-.
+See [AssemblyDoc::CompConfigProperties4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties4.html).
 
 ## Remarks
 
-You can use configurations to save certain display characteristics with each of the assembly components and retrieve that configuration in the future. SOLIDWORKS applies the settings that you specify with this method to the active configuration.
+You can use configurations to save certain display characteristics with each of the assembly components and retrieve that configuration in the future. SOLIDWORKS Design applies the settings that you specify with this method to the active configuration.
 
 You cannot set a component to lightweight.
 
@@ -119,7 +101,6 @@ Known reasons for failure of this method include:
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISF
 
 # GetSymbolType Method (ISFSymbol)
 
-Obsolete. Superseded by
-
-[ISFSymbol::GetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetSymbol.html)
-
-.
+Obsolete. Superseded by [ISFSymbol::GetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetSymbol.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetSymbolType()
 System.int GetSymbolType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetSymbolType](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetSymbolType.html)
-
-.
+See [SFSymbol::GetSymbolType](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetSymbolType.html).
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

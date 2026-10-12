@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # GetManualEnd2ConnectionType Method (ICWBeamBody)
 
-Obsolete. Superseded by
-
-[ICWBeamBody::GetManualEnd2ConnectionType2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd2ConnectionType2.html)
-
-.
+Obsolete. Superseded by [ICWBeamBody::GetManualEnd2ConnectionType2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd2ConnectionType2.html).
 
 ## Syntax
 
@@ -81,16 +77,11 @@ void GetManualEnd2ConnectionType(
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::GeManualEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~GetManualEnd2ConnectionType.html)
-
-.
+See [CWBeamBody::GeManualEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~GetManualEnd2ConnectionType.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
 
 ## Availability

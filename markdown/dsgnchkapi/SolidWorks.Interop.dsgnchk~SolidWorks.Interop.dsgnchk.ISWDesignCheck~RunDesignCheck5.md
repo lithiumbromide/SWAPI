@@ -75,40 +75,24 @@ System.int RunDesignCheck5(
 
 - `StandardFileName`: Path and filename of SOLIDWORKS Design Checker standards document
 - `ReportFolderName`: Path and folder name for report
-- `AddReportToDesignBinder`: True to add the report to the Design Binder, false to not (see
-
-Remarks
-
-)
+- `AddReportToDesignBinder`: True to add the report to the Design Binder, false to not (see **Remarks**)
 - `OverWriteReport`: True to overwrite any existing report of the same name in the Design Binder, false to not
-- `AutoCorrect`: True to autocorrect all failures discovered by Design Checker, false to not (see
-
-Remarks
-
-)
-- `lReportFormat`: 0=XML format, 1=Microsoft Word format (see**Remarks**)
+- `AutoCorrect`: True to autocorrect all failures discovered by Design Checker, false to not (see **Remarks**)
+- `lReportFormat`: 0=XML format, 1=Microsoft Word format (see **Remarks**)
 - `ResultSummary`: Failure counts
 
 ### Return Value
 
-Error code as defined in
-
-[dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
+Error code as defined in [dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::RunDesignCheck5](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck5.html)
-
-.
+See [SWDesignCheck::RunDesignCheck5](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck5.html).
 
 ## Examples
 
 [Run SOLIDWORKS Design Checker Example (VBA)](Run_SOLIDWORKS_Design_Checker_Example_VB.htm)
-
 [Run SOLIDWORKS Design Checker Example (VB.NET)](Run_SOLIDWORKS_Design_Checker_Example_VBNET.htm)
-
 [Run SOLIDWORKS Design Checker Example (C#)](Run_SOLIDWORKS_Design_Checker_Example_CSharp.htm)
 
 ## Remarks
@@ -123,12 +107,11 @@ See
 | False | Failure counts delimited by the at symbol (@): Critical#@High#@Medium#@Low# |
 | True | Pre- and post-correction failure counts delimited by the at symbol (@): Critical#(pre)@High#(pre)@Medium#(pre)@Low#(pre)@Critical#(post)@High#(post)@Medium#(post)@Low#(post) Only failures that were found after the correction cycle display in the report. |
 
-If AddReportToDesignBinder is set to true, then the SOLIDWORKS FeatureManager Design Binder contains**<ReportFolderName> .drp.**
+If AddReportToDesignBinder is set to true, then the SOLIDWORKS FeatureManager Design Binder contains **`<ReportFolderName>`.drp.**
 
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)
 
 ## Availability

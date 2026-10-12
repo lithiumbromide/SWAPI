@@ -49,23 +49,17 @@ public delegate System.int DMotionStudyEvents_StopCalculateNotifyEventHandler(
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[StopCalculateNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~StopCalculateNotify_EV.html)
-
-.
+See [StopCalculateNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~StopCalculateNotify_EV.html).
 
 ## Examples
 
 [Fire Events for External Output Time Step Changes (C#)](Fire_Events_for_External_Output_Time_Step_Changes_Example_CSharp.htm)
-
 [Fire Events for External Output Time Step Changes (VB.NET)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VBNET.htm)
-
 [Fire Events for External Output Time Step Changes (VBA)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, then use[swMotionStudyStopCalculateNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)to register for this notification.
+If developing a C++ application, then use [swMotionStudyStopCalculateNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 ## Availability
 

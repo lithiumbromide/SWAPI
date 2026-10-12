@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7.html"
 
 Allows you to add add-ins registered in SOLIDWORKS PDM Professional to your own menus and toolbars.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -46,7 +40,7 @@ public interface class IEdmMenu7 : public IEdmMenu5, IEdmMenu6
 
 ## Remarks
 
-This extended interface also works with object types other than files and folders, and this interface inherits from[IEdmMenu6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6.html).
+This extended interface also works with object types other than files and folders, and this interface inherits from [IEdmMenu6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6.html).
 
 ## Accessors
 
@@ -55,5 +49,4 @@ This extended interface also works with object types other than files and folder
 ## See Also
 
 [IEdmMenu7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

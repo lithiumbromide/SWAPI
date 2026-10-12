@@ -45,56 +45,27 @@ property System.Object^ PlanarEntity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Planar
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
+Planar [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
 
 ## VBA Syntax
 
-See
-
-[BoundingBoxFeatureData::PlanarEntity](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~PlanarEntity.html)
-
-.
+See [BoundingBoxFeatureData::PlanarEntity](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~PlanarEntity.html).
 
 ## Examples
 
-See the
-
-[IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
-example.
+See the [IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html) example.
 
 ## Remarks
 
-This property is valid only if
-
-[IBoundingBoxFeatureData::ReferenceFaceOrPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData~ReferenceFaceOrPlane.html)
-
-is set to
-
-[swGlobalBoundingBoxFitOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGlobalBoundingBoxFitOptions_e.html)
-
-.swBoundingBoxType_CustomPlane.
+This property is valid only if [IBoundingBoxFeatureData::ReferenceFaceOrPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData~ReferenceFaceOrPlane.html) is set to [swGlobalBoundingBoxFitOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGlobalBoundingBoxFitOptions_e.html).swBoundingBoxType_CustomPlane.
 
 ## See Also
 
 [IBoundingBoxFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
 [IBoundingBoxFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData_members.html)
 
 ## Availability

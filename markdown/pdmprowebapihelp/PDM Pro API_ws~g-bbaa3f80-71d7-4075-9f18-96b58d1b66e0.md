@@ -13,22 +13,14 @@ PDM Pro API Web Service
 
 Authentication Resource Group
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service : Authentication Resource Group |
 | --- |
 
 Description
 
-This resource group consists of an authentication HTTP request which you need to send before all other requests. See
-
-[Getting Started](GettingStarted.html)
-
-.
+This resource group consists of an authentication HTTP request which you need to send before all other requests. See [Getting Started](GettingStarted.html).
 
 Operations
 

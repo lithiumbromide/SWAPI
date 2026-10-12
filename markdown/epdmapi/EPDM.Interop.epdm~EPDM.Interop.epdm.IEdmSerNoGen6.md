@@ -9,15 +9,9 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html"
 
 # IEdmSerNoGen6 Interface
 
-Obsolete. Superseded by[IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html).
+Obsolete. Superseded by [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html).
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,16 +37,8 @@ public interface class IEdmSerNoGen6
 
 This interface:
 
-- inherits from IDispatch. See
-
-  [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx)
-
-  .
-- is superseded by
-
-  [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html)
-
-  which provides the ability to push back serial numbers that you do not need.
+- inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+- is superseded by [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html) which provides the ability to push back serial numbers that you do not need.
 
 ## Accessors
 
@@ -61,5 +47,4 @@ This interface:
 ## See Also
 
 [IEdmSerNoGen6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumEdges Interface
 
-Allows access to an
+Allows access to an [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) enumeration.
 
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumEdges
 
 ## VBA Syntax
 
-See
-
-[EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~EnumEdges.html)
-
-.
+See [EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~EnumEdges.html).
 
 ## Remarks
 
@@ -76,5 +68,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumEdges Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

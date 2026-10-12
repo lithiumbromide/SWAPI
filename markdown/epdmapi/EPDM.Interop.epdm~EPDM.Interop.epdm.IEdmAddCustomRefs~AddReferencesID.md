@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddRefere
 
 # AddReferencesID Method (IEdmAddCustomRefs)
 
-Obsolete. Superseded by
-
-[IEdmAddCustomRefs2::AddReferencesID2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2~AddReferencesID2.html)
-
-.
+Obsolete. Superseded by [IEdmAddCustomRefs2::AddReferencesID2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2~AddReferencesID2.html).
 
 ## Syntax
 
@@ -47,11 +43,7 @@ void AddReferencesID(
 ### Parameters
 
 - `lRootFile`: ID of file to which to add file references
-- `ppoReferences`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-s containing file references to add to lRootFile
+- `ppoReferences`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)s containing file references to add to lRootFile
 
 ## Remarks
 
@@ -63,7 +55,6 @@ s containing file references to add to lRootFile
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

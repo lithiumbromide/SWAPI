@@ -53,32 +53,22 @@ System.int SetModeShape(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::SetModeShape](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetModeShape.html)
-
-.
+See [CWPlot::SetModeShape](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetModeShape.html).
 
 ## Examples
 
 [Create Amplitude Plot and Set Mode Shape (VBA)](Create_Amplitude_Plot_Example_VB.htm)
-
 [Create Amplitude Plot and Set Mode Shape (VB.NET)](Create_Amplitude_Plot_Example_VBNET.htm)
-
 [Create Amplitude Plot and Set Mode Shape (C#)](Create_Amplitude_Plot_Example_CSharp.htm)
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
-
 [ICWPlot::SetNormalizeModeShape Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~SetNormalizeModeShape.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # SetEntityForVelocityDirection Method (ICWDropTestSetup)
 
-Obsolete. Superseded by[ICWDropTestSetup::SetEntityForVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForVelocityDirection2.html).
+Obsolete. Superseded by [ICWDropTestSetup::SetEntityForVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForVelocityDirection2.html).
 
 ## Syntax
 
@@ -49,48 +49,28 @@ System.int SetEntityForVelocityDirection(
 
 ### Parameters
 
-- `DispEntity`: Face, edge, or plane geometry reference (see
-
-Remarks
-
-)
+- `DispEntity`: Face, edge, or plane geometry reference (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html)
-
-(see
-
-Remarks
-
-)
+Error code as defined in [swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::SetEntityForVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~SetEntityForVelocityDirection.html)
-
-.
+See [CWDropTestSetup::SetEntityForVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~SetEntityForVelocityDirection.html).
 
 ## Remarks
 
-This method is valid only if[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)= swsDropType_e.swsDropType_VelocityAtImpact.
+This method is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_VelocityAtImpact.
 
 If the reference entity is a plane or planar face, the velocity is applied in the direction normal to the reference entity.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
-
 [ICWDropTestSetup::FlipVelocityDirection Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipVelocityDirection.html)
-
 [ICWDropTestSetup::Velocity Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~Velocity.html)
-
 [ICWDropTestSetup::VelocityUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~VelocityUnit.html)
 
 ## Availability

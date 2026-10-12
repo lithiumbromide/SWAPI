@@ -40,13 +40,7 @@ Simulation GetSimulation()
 Simulation^ GetSimulation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetSimulation](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetSimulation.html)
-
-.
+See [AssemblyDoc::GetSimulation](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetSimulation.html).
 
 ## Remarks
 
-The
-
-Simulation
-
-folder is returned even if the folder does not yet exist or does not currently appear in the FeatureManager design tree.
+The Simulation folder is returned even if the folder does not yet exist or does not currently appear in the FeatureManager design tree.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

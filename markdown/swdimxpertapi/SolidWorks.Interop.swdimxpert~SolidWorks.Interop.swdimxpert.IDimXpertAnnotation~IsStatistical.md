@@ -46,11 +46,7 @@ True if the tolerance is statistical; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::IsStatistical](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsStatistical.html)
-
-.
+See [DimXpertAnnotation::IsStatistical](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsStatistical.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ This tolerance modifier is set by clicking the ST option at the top of the Geome
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

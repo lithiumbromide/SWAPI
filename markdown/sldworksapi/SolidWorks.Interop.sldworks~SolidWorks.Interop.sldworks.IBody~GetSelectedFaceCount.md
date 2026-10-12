@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetSelectedFaceCount Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::GetSelectedFaceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFirstSelectedFace.html)
-
-.
+Obsolete. Superseded by [IBody2::GetSelectedFaceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFirstSelectedFace.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetSelectedFaceCount()
 System.int GetSelectedFaceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::GetSelectedFaceCount](ms-its:sldworksapivb6.chm::/sldworks~Body~GetSelectedFaceCount.html)
-
-.
+See [Body::GetSelectedFaceCount](ms-its:sldworksapivb6.chm::/sldworks~Body~GetSelectedFaceCount.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

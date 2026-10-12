@@ -45,13 +45,7 @@ property System.Object^ FirstItem {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::FirstItem](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~FirstItem.html)
-
-.
+See [AutoBalloonOptions::FirstItem](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~FirstItem.html).
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

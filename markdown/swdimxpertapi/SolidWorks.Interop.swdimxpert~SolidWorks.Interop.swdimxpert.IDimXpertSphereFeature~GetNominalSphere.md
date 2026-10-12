@@ -72,22 +72,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertSphereFeature::GetNominalSphere](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSphereFeature~GetNominalSphere.html)
-
-.
+See [DimXpertSphereFeature::GetNominalSphere](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSphereFeature~GetNominalSphere.html).
 
 ## Examples
 
 [Get DimXpert Sphere Feature Example (VBA)](Get_DimXpert_Sphere_Feature_Example_VB.htm)
-
 [Get DimXpert Sphere Feature Example (VB.NET)](Get_DimXpert_Sphere_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertSphereFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSphereFeature.html)
-
 [IDimXpertSphereFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSphereFeature_members.html)
 
 ## Availability

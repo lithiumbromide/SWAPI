@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Names_of_Creators_of_Features_Example_CSharp.htm"
 
 # Get Names of Creators of Features Example (C#)
 
-This example shows how to get the names of the creators of features in a part
-document.
+This example shows how to get the names of the creators of features in a part document.
 
 ```
 //-------------------------------------------------

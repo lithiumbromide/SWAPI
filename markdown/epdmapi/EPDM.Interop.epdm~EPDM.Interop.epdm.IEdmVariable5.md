@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html"
 
 Allows you to access a variable on a file or folder data card.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,14 +37,13 @@ public interface class IEdmVariable5 : public IEdmObject5
 ## Examples
 
 [Find Data Cards with Description Variable (C#)](Find_Data_Cards_with_Description_Variable_Example_CSharp.htm)
-
 [Find Data Cards with Description Variable (VB.NET)](Find_Data_Cards_with_Description_Variable_Example_VBNET.htm)
 
 ## Remarks
 
-This interface inherits from[IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html).
+This interface inherits from [IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html).
 
-Use[IEdmVariableMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)to enumerate the variables created with the Card Editor.
+Use [IEdmVariableMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html) to enumerate the variables created with the Card Editor.
 
 ## Accessors
 
@@ -63,9 +56,6 @@ Use[IEdmVariableMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
 ## See Also
 
 [IEdmVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmAttribute5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html)

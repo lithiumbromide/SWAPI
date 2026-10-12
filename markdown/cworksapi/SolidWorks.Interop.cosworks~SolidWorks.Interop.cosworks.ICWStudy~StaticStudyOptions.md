@@ -48,24 +48,15 @@ property CWStaticStudyOptions^ StaticStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::StaticStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~StaticStudyOptions.html)
-
-.
+See [CWStudy::StaticStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~StaticStudyOptions.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

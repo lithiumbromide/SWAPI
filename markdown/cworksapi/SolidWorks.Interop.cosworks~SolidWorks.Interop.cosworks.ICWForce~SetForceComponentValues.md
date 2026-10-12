@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFo
 
 # SetForceComponentValues Method (ICWForce)
 
-Obsolete. Superseded by[ICWForce::SetForceComponentValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetForceComponentValues2.html).
+Obsolete. Superseded by [ICWForce::SetForceComponentValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetForceComponentValues2.html).
 
 ## Syntax
 
@@ -77,34 +77,18 @@ void SetForceComponentValues(
 
 ## VBA Syntax
 
-See
-
-[CWForce::SetForceComponentValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetForceComponentValues.html)
-
-.
+See [CWForce::SetForceComponentValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetForceComponentValues.html).
 
 ## Remarks
 
-This method is valid if
-
-[ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html)
-
-is set to
-
-[swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html)
-
-.swsForceTypeForceOrMoment.
+This method is valid if [ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html) is set to [swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeForceOrMoment.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::GetForceComponentValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~GetForceComponentValues.html)
-
 [ICWForce::ForceType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html)
-
 [ICWForce::SetReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetReferenceGeometry.html)
 
 ## Availability

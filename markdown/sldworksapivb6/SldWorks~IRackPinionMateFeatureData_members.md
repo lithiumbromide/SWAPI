@@ -1,6 +1,5 @@
 ---
-title: "IRackPinionMateFeatureData Object
-Members"
+title: "IRackPinionMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IRackPinionMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IRackPinionMateFeatureData_members.html"
 ---
 
-# IRackPinionMateFeatureData Object
-Members
+# IRackPinionMateFeatureData Object Members
 
 ## Public Properties
 

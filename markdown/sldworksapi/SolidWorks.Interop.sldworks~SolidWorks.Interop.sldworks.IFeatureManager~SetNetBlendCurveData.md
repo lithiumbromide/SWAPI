@@ -67,26 +67,16 @@ Feature^ SetNetBlendCurveData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Direction`: - 0 = Direction 1
-- 1 = Direction 2
+  - 1 = Direction 2
 - `CurveIndex`: Index of curve in the specified direction
-- `TangentType`: Type of tangency as defined in
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `TangentType`: Type of tangency as defined in [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
 - `SignedDraftAngle`: Draft angle
 - `SignedTangentLength`: Tangent length
-
-ParamDesc
 - `TangentLengthApplyAll`: True if the tangent length applies to all curves, false if not
 
 ### Return Value
@@ -95,20 +85,13 @@ ParamDesc
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::SetNetBlendCurveData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetNetBlendCurveData.html)
-
-.
+See [FeatureManager::SetNetBlendCurveData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetNetBlendCurveData.html).
 
 ## Examples
 
 [Insert Boundary Surface Feature (VBA)](Insert_Boundary_Surface_Feature_Example_VB.htm)
-
 [Insert Boundary Feature (C#)](Insert_Boundary_Feature_Example_CSharp.htm)
-
 [Insert Boundary Feature (VB.NET)](Insert_Boundary_Feature_Example_VBNET.htm)
-
 [Insert Boundary Feature (VBA)](Insert_Boundary_Feature_Example_VB.htm)
 
 ## Remarks
@@ -118,11 +101,8 @@ You must use this method to set the data for each curve in a boundary feature or
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertNetBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertNetBlend.html)
-
 [IFeatureManager::SetNetBlendDirectionData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html)
 
 ## Availability

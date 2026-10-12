@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/bom/{bomTypeId}/{fileId}/{version}/{folderId}/weldmentcutlist?configId={configId}&latest={latest} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > BOM Resource Group : api/{vaultName}/bom/{bomTypeId}/{fileId}/{version}/{folderId}/weldmentcutlist?configId={configId}&latest={latest} (Get) |
 | --- |
@@ -53,8 +49,4 @@ Response (text/xml)
 
 See Also
 
-[BOM Resource Group](PDM%20Pro%20API_ws~g-10274b3f-586c-4202-adb7-851ebf0c973b.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[BOM Resource Group](PDM%20Pro%20API_ws~g-10274b3f-586c-4202-adb7-851ebf0c973b.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

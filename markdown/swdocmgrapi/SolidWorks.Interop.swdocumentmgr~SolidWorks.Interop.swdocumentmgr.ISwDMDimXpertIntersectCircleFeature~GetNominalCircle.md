@@ -87,11 +87,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectCircleFeature::GetNominalCircle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectCircleFeature~GetNominalCircle.html)
-
-.
+See [SwDMDimXpertIntersectCircleFeature::GetNominalCircle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectCircleFeature~GetNominalCircle.html).
 
 ## Examples
 
@@ -100,7 +96,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature.html)
-
 [ISwDMDimXpertIntersectCircleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature_members.html)
 
 ## Availability

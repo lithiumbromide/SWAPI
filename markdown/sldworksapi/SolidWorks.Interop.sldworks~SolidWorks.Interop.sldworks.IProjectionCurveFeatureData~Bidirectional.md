@@ -45,13 +45,7 @@ property System.bool Bidirectional {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True if bidirectional, false if not
 
 ## VBA Syntax
 
-See
-
-[ProjectionCurveFeatureData::Bidirectional](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~Bidirectional.html)
-
-.
+See [ProjectionCurveFeatureData::Bidirectional](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~Bidirectional.html).
 
 ## Examples
 
-See the
-
-[IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
-example.
+See the [IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html) example.
 
 ## See Also
 
 [IProjectionCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
 [IProjectionCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData_members.html)
 
 ## Availability

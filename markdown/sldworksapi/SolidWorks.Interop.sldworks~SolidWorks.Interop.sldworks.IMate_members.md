@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMate Interface Members
 
-The following tables list the members exposed by[IMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html).
+The following tables list the members exposed by [IMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html).
 
 ## Public Methods
 
@@ -29,5 +29,4 @@ The following tables list the members exposed by[IMate](SolidWorks.Interop.sldwo
 ## See Also
 
 [IMate Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -40,36 +40,21 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of the
-
-[revision table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation.html)
+Array of the [revision table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation.html)
 
 ## VBA Syntax
 
-See
-
-[RevisionTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetTableAnnotations.html)
-
-.
+See [RevisionTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetTableAnnotations.html).
 
 ## See Also
 
 [IRevisionTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html)
-
 [IRevisionTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature_members.html)
-
 [IRevisionTableFeature::GetTableAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature~GetTableAnnotationCount.html)
-
 [IRevisionTableFeature::IGetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature~IGetTableAnnotations.html)
 
 ## Availability

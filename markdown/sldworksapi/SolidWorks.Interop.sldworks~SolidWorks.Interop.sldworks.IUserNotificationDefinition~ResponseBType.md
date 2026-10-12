@@ -45,32 +45,19 @@ property System.int ResponseBType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Second response user control as defined by
-
-[swUserNotificationResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationResponseType_e.html)
+Second response user control as defined by [swUserNotificationResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationResponseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::ResponseBType](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseBType.html)
-
-.
+See [UserNotificationDefinition::ResponseBType](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseBType.html).
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

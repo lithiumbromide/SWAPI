@@ -42,13 +42,7 @@ property System.String^ ProfileSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,62 +50,24 @@ Weldment profile size as defined in a weldment profile
 
 ## VBA Syntax
 
-See
-
-[ProfileGroupFolder::ProfileSize](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~ProfileSize.html)
-
-.
+See [ProfileGroupFolder::ProfileSize](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~ProfileSize.html).
 
 ## Remarks
 
 This property:
 
-- is valid only if a
-
-  [IProfileGroupFolder::ProfileType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~ProfileType.html)
-
-  is set.
-- may be overridden by
-
-  [IStructureSystemMemberProfile::ProfileSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileSize.html)
-
-  for individual members.
+- is valid only if a [IProfileGroupFolder::ProfileType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~ProfileType.html) is set.
+- may be overridden by [IStructureSystemMemberProfile::ProfileSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileSize.html) for individual members.
 
 Specify this property using strings found in:
 
-- SOLIDWORKS-supplied weldment profile (*.
-
-  sldlfp
-
-  ) from
-
-  install_dir
-
-  \
-
-  lang
-
-  \
-
-  lang_name
-
-  \
-
-  weldment profiles
-
-  -
-
-  or -
-- custom weldment profile (*.
-
-  sldlfp
-
-  ); see the SOLIDWORKS Help for details about custom weldment profiles
+- SOLIDWORKS-supplied weldment profile (*.**sldlfp**) from `install_dir`\**lang**\`lang_name`\**weldment profiles
+  -** or -
+- custom weldment profile (*.**sldlfp**); see the SOLIDWORKS Help for details about custom weldment profiles
 
 ## See Also
 
 [IProfileGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder.html)
-
 [IProfileGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder_members.html)
 
 ## Availability

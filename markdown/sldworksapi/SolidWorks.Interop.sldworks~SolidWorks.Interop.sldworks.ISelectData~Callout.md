@@ -45,36 +45,23 @@ property Callout^ Callout {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-
-to which to attach the selected object
+[Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) to which to attach the selected object
 
 ## VBA Syntax
 
-See
-
-[SelectData::Callout](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Callout.html)
-
-.
+See [SelectData::Callout](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Callout.html).
 
 ## Remarks
 
-This property is not used by[IModelDocExtension::MultiSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~MultiSelect.html)or[IModelDocExtension::IMultiSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IMultiSelect.html).
+This property is not used by [IModelDocExtension::MultiSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~MultiSelect.html) or [IModelDocExtension::IMultiSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IMultiSelect.html).
 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
 
 ## Availability

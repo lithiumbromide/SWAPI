@@ -9,13 +9,12 @@ source: "sldworksapi/Start,_Update,_and_Stop_User_Progress_Bar_Example_CSharp.ht
 
 # Start, Update, and Stop Progress Indicator Example (C#)
 
-This example shows how to create, start, update, and stop a progress
-indicator on the system task bar.
+This example shows how to create, start, update, and stop a progress indicator on the system task bar.
 
 ```vb
 //----------------------------------------------------------------------------
  // Preconditions:
- // 1. Create a C# macro in SOLIDWORKS called ManipulatePB_CSharp.
+ // 1. Create a C# macro in SOLIDWORKS Design called ManipulatePB_CSharp.
  // 2. Right-click the macro project name in the Project Explorer and click
  //    Add > Windows Form.
  // 3. Click Add.
@@ -30,7 +29,7 @@ indicator on the system task bar.
  // Postconditions:
  // 1. Shows a dialog box.
  // 2. Click Start.
- //    * Displays a progress indicator on the SOLIDWORKS icon on the
+ //    * Displays a progress indicator on the SOLIDWORKS Design icon on the
  //      system taskbar.
  //    * Increments the progress indicator to 100% completion.
  // 3. Click Update repeatedly to increment the progress indicator in steps of
@@ -38,7 +37,7 @@ indicator on the system task bar.
  // 4. Inspect the Immediate window to see the return code after each update.
  // 5. Type a new title and click Update Title to change the progress indicator
  //    title.
- // 6. Click Stop to remove the progress indicator from SOLIDWORKS.
+ // 6. Click Stop to remove the progress indicator from SOLIDWORKS Design.
  // 7. Click Exit to close the dialog box.
  // ---------------------------------------------------------------------------
 ```

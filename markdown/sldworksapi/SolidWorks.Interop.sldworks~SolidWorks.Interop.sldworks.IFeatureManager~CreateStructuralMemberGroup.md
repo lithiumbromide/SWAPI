@@ -40,13 +40,7 @@ StructuralMemberGroup CreateStructuralMemberGroup()
 StructuralMemberGroup^ CreateStructuralMemberGroup();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CreateStructuralMemberGroup](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateStructuralMemberGroup.html)
-
-.
+See [FeatureManager::CreateStructuralMemberGroup](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateStructuralMemberGroup.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
-
 [Create Structural-Member Group (VBA)](Create_Structural_Member_Group_Example_VB.htm)
-
 [Create Structural-Member Group (VB.NET)](Create_Structural_Member_Group_Example_VBNET.htm)
-
 [Create Structural-Member Group (C#)](Create_Structural_Member_Group_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IStructuralMemberFeatureData::ISetGroups Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~ISetGroups.html)
-
 [IFeatureManager::InsertStructuralWeldment3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertStructuralWeldment3.html)
 
 ## Availability

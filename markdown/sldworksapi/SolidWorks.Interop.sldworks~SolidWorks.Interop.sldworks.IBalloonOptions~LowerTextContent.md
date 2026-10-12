@@ -45,29 +45,19 @@ property System.int LowerTextContent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Style of the lower text as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/Solidworks.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (See**Remarks**)
+Style of the lower text as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/Solidworks.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); specify -1 to use the document default lower text style (See **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~LowerTextContent.html)
-
-.
+See [BalloonOptions::LowerTextContent](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~LowerTextContent.html).
 
 ## Remarks
 
-This property is valid only when[IBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions~Style.html)is set to[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
+This property is valid only when [IBalloonOptions::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions~Style.html) is set to [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html).swBS_SplitCirc.
 
 | To get or set document default values... | Use... |
 | --- | --- |
@@ -76,15 +66,12 @@ This property is valid only when[IBalloonOptions::Style](SOLIDWORKS.Interop.sldw
 
 See:
 
-- [INote::PropertyLinkedText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~PropertyLinkedText.html)
-
-  for examples of link strings usable with swBalloonTextContent_e.swBalloonTextCustomProperties.
+- [INote::PropertyLinkedText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~PropertyLinkedText.html) for examples of link strings usable with swBalloonTextContent_e.swBalloonTextCustomProperties.
 - SOLIDWORKS Help for additional details about balloons.
 
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

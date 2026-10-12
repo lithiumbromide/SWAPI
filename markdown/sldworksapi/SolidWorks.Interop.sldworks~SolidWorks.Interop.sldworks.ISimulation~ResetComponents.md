@@ -40,13 +40,7 @@ System.bool ResetComponents()
 System.bool ResetComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the components' positions and orientations are reset, false if not
 
 ## VBA Syntax
 
-See
-
-[Simulation::ResetComponents](ms-its:sldworksapivb6.chm::/sldworks~Simulation~ResetComponents.html)
-
-.
+See [Simulation::ResetComponents](ms-its:sldworksapivb6.chm::/sldworks~Simulation~ResetComponents.html).
 
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

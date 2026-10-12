@@ -48,24 +48,15 @@ Name of the mesh control
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Name.html)
-
-.
+See [CWMeshControl::Name](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Name.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

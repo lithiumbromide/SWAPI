@@ -43,62 +43,62 @@ Imports SolidWorks.Interop.cosworks
 Imports System
 Imports System.Diagnostics
 Partial Class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim COSMOSWORKS As CosmosWorks
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim COSMOSObject As CwAddincallback
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim ActDoc As CWModelDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim StudyMngr As CWStudyManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Study As CWStudy
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim BeamMgr As CWBeamManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim BeamBody As CWBeamBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Joints As CWJoints
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Mesh As CWMesh
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim nbrBeamBodies As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim beamBodyType As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim ElementSize As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Tolerance As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim errors As Integer, warnings As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim errCode As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim j As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim bApp As Boolean
+    Public Sub main()
+        Dim COSMOSWORKS As CosmosWorks
+        Dim COSMOSObject As CwAddincallback
+        Dim ActDoc As CWModelDoc
+        Dim StudyMngr As CWStudyManager
+        Dim Study As CWStudy
+        Dim BeamMgr As CWBeamManager
+        Dim BeamBody As CWBeamBody
+        Dim Joints As CWJoints
+        Dim Mesh As CWMesh
+        Dim nbrBeamBodies As Integer
+        Dim beamBodyType As Integer
+        Dim ElementSize As Double
+        Dim Tolerance As Double
+        Dim errors As Integer, warnings As Integer
+        Dim errCode As Integer
+        Dim j As Integer
+        Dim bApp As Boolean
 ```
 
 Dim keepJointUpdates As Boolean
 
 ```vb
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Get the SOLIDWORKS Simulation object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}COSMOSObject = swApp.GetAddInObject("SldWorks.Simulation")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If COSMOSObject Is Nothing Then ErrorMsg(swApp, "COSMOSObject object not found")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}COSMOSWORKS = COSMOSObject.CosmosWorks
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If COSMOSWORKS Is Nothing Then ErrorMsg(swApp, "COSMOSWORKS object not found")
+        'Get the SOLIDWORKS Simulation object
+        COSMOSObject = swApp.GetAddInObject("SldWorks.Simulation")
+        If COSMOSObject Is Nothing Then ErrorMsg(swApp, "COSMOSObject object not found")
+        COSMOSWORKS = COSMOSObject.CosmosWorks
+        If COSMOSWORKS Is Nothing Then ErrorMsg(swApp, "COSMOSWORKS object not found")
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Open and get the active document
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\weldments\weldment_box2.sldprt", swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ActDoc = COSMOSWORKS.ActiveDoc()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If ActDoc Is Nothing Then ErrorMsg(swApp, "No active document")
+        'Open and get the active document
+        swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\weldments\weldment_box2.sldprt", swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
+        ActDoc = COSMOSWORKS.ActiveDoc()
+        If ActDoc Is Nothing Then ErrorMsg(swApp, "No active document")
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Create new static study named frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}StudyMngr = ActDoc.StudyManager()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If StudyMngr Is Nothing Then ErrorMsg(swApp, "CWStudyManager object not found")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Study = StudyMngr.CreateNewStudy3("frame", swsAnalysisStudyType_e.swsAnalysisStudyTypeStatic, 0, errCode)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Study Is Nothing Then ErrorMsg(swApp, "Study not created")
+        'Create new static study named frame
+        StudyMngr = ActDoc.StudyManager()
+        If StudyMngr Is Nothing Then ErrorMsg(swApp, "CWStudyManager object not found")
+        Study = StudyMngr.CreateNewStudy3("frame", swsAnalysisStudyType_e.swsAnalysisStudyTypeStatic, 0, errCode)
+        If Study Is Nothing Then ErrorMsg(swApp, "Study not created")
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Get and set beam info
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}BeamMgr = Study.BeamManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}nbrBeamBodies = BeamMgr.BeamCount
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Beams...")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Number of beams: " & nbrBeamBodies)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}BeamBody = Nothing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For j = 0 To (nbrBeamBodies - 1)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}BeamBody = BeamMgr.GetBeamBodyAt(j, errCode)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg(swApp, "No beam body")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}Name of beam body: " & BeamBody.BeamBodyName)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}beamBodyType = BeamBody.BeamType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If beamBodyType = 0 Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}     kadov_tag{{</spaces>}}Type of beam body: beam")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}     kadov_tag{{</spaces>}}Type of beam body: truss")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
+        'Get and set beam info
+        BeamMgr = Study.BeamManager
+        nbrBeamBodies = BeamMgr.BeamCount
+        Debug.Print("Beams...")
+        Debug.Print("  Number of beams: " & nbrBeamBodies)
+        BeamBody = Nothing
+        For j = 0 To (nbrBeamBodies - 1)
+            BeamBody = BeamMgr.GetBeamBodyAt(j, errCode)
+            If errCode <> 0 Then ErrorMsg(swApp, "No beam body")
+            Debug.Print("    Name of beam body: " & BeamBody.BeamBodyName)
+            beamBodyType = BeamBody.BeamType
+            If beamBodyType = 0 Then
+                Debug.Print("      Type of beam body: beam")
+            Else
+                Debug.Print("      Type of beam body: truss")
+            End If
              Debug.Print("      Beam cross-section properties:")
 
              Debug.Print("         Maximum distance from the shear center to the furthest point: " & BeamBody.BeamDistForMaxShearStress)
@@ -112,21 +112,21 @@ kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
              Debug.Print("         Beam torsional stiffness constant: " & BeamBody.BeamTorsionalConstant)
 
              Debug.Print("           Units of length as defined in swsLinearUnit_e: " & BeamBody.BeamTorsionalConstantUnit)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bApp = BeamBody.SetLibraryMaterial2("C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\sldmaterials\solidworks materials.sldmat", "Plain Carbon Steel")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If bApp = False Then ErrorMsg(swApp, "No material applied")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}BeamBody = Nothing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next j
+            bApp = BeamBody.SetLibraryMaterial2("C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\sldmaterials\solidworks materials.sldmat", "Plain Carbon Steel")
+            If bApp = False Then ErrorMsg(swApp, "No material applied")
+            BeamBody = Nothing
+        Next j
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Calculate joints
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints = BeamMgr.GetJointGroup(errCode)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" ")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Joints...")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg(swApp, "No joint group")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.JointsBeginEdit()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.IncludeAllSelectedBeam = True
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.IncludeDisplayNeutralAxis = True
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.CalculateJoints()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.JointsEndEdit()
+        'Calculate joints
+        Joints = BeamMgr.GetJointGroup(errCode)
+        Debug.Print(" ")
+        Debug.Print("Joints...")
+        If errCode <> 0 Then ErrorMsg(swApp, "No joint group")
+        Joints.JointsBeginEdit()
+        Joints.IncludeAllSelectedBeam = True
+        Joints.IncludeDisplayNeutralAxis = True
+        Joints.CalculateJoints()
+        Joints.JointsEndEdit()
 ```
 
 ```vb
@@ -140,78 +140,78 @@ kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Joints.JointsEndEdit()
 ```
 
 ```vb
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius: " & Joints.PinBallRadius * 0.001)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case Joints.PinBallRadiusUnit
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 0
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: mm")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 1
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: cm")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 2
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: m")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 3
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: in")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 4
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: ft")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 5
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: ft-in")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 6
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: am")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 7
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: nm")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 8
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: micron")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 9
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: mil")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 10
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Pinball radius unit: MicroIn")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
+        Debug.Print("  Pinball radius: " & Joints.PinBallRadius * 0.001)
+        Select Case Joints.PinBallRadiusUnit
+            Case 0
+                Debug.Print("  Pinball radius unit: mm")
+            Case 1
+                Debug.Print("  Pinball radius unit: cm")
+            Case 2
+                Debug.Print("  Pinball radius unit: m")
+            Case 3
+                Debug.Print("  Pinball radius unit: in")
+            Case 4
+                Debug.Print("  Pinball radius unit: ft")
+            Case 5
+                Debug.Print("  Pinball radius unit: ft-in")
+            Case 6
+                Debug.Print("  Pinball radius unit: am")
+            Case 7
+                Debug.Print("  Pinball radius unit: nm")
+            Case 8
+                Debug.Print("  Pinball radius unit: micron")
+            Case 9
+                Debug.Print("  Pinball radius unit: mil")
+            Case 10
+                Debug.Print("  Pinball radius unit: MicroIn")
+        End Select
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Mesh the part
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Mesh = Study.Mesh
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Mesh Is Nothing Then ErrorMsg(swApp, "No mesh object")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Mesh.Quality = swsMeshQuality_e.swsMeshQualityHigh
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Mesh.GetDefaultElementSizeAndTolerance(swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}errCode = Study.CreateMesh(swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg(swApp, "Mesh failed")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" ")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Mesh...")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Time to create mesh (hh:mm:ss): " & Mesh.TimeToCompleteMesh)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case Mesh.MeshType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 0
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh type: solid")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 1
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh type: midsurface")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 2
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh type: surface")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 3
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh type: mixed")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 4
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh type: beam")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Number of mesh controls: " & Mesh.MeshControlCount)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case Mesh.MeshState
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 0
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh state: no mesh")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 1
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh state: exists and is current")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 2
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh state: exists and is not current")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 3
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh state: failed")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case 4
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Mesh state: interrupted")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Sub ErrorMsg(ByVal SwApp As Object, ByVal Message As String)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.SendMsgToUser2(Message, 0, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("'*** WARNING - General")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("'*** " & Message)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+        'Mesh the part
+        Mesh = Study.Mesh
+        If Mesh Is Nothing Then ErrorMsg(swApp, "No mesh object")
+        Mesh.Quality = swsMeshQuality_e.swsMeshQualityHigh
+        Mesh.GetDefaultElementSizeAndTolerance(swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance)
+        errCode = Study.CreateMesh(swsLinearUnit_e.swsLinearUnitMillimeters, ElementSize, Tolerance)
+        If errCode <> 0 Then ErrorMsg(swApp, "Mesh failed")
+        Debug.Print(" ")
+        Debug.Print("Mesh...")
+        Debug.Print("  Time to create mesh (hh:mm:ss): " & Mesh.TimeToCompleteMesh)
+        Select Case Mesh.MeshType
+            Case 0
+                Debug.Print("  Mesh type: solid")
+            Case 1
+                Debug.Print("  Mesh type: midsurface")
+            Case 2
+                Debug.Print("  Mesh type: surface")
+            Case 3
+                Debug.Print("  Mesh type: mixed")
+            Case 4
+                Debug.Print("  Mesh type: beam")
+        End Select
+        Debug.Print("  Number of mesh controls: " & Mesh.MeshControlCount)
+        Select Case Mesh.MeshState
+            Case 0
+                Debug.Print("  Mesh state: no mesh")
+            Case 1
+                Debug.Print("  Mesh state: exists and is current")
+            Case 2
+                Debug.Print("  Mesh state: exists and is not current")
+            Case 3
+                Debug.Print("  Mesh state: failed")
+            Case 4
+                Debug.Print("  Mesh state: interrupted")
+        End Select
+    End Sub
+    Private Sub ErrorMsg(ByVal SwApp As Object, ByVal Message As String)
+        swApp.SendMsgToUser2(Message, 0, 0)
+        swApp.RecordLine("'*** WARNING - General")
+        swApp.RecordLine("'*** " & Message)
+        swApp.RecordLine("")
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 End Class
 ```

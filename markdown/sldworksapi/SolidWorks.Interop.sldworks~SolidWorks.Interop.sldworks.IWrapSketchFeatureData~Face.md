@@ -45,13 +45,7 @@ property Face2^ Face {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[WrapSketchFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~Face.html)
-
-.
+See [WrapSketchFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~Face.html).
 
 ## Examples
 
 [Change Wrap Feature Face (C#)](Change_Wrap_Feature_Face_Example_CSharp.htm)
-
 [Change Wrap Feature Face (VB.NET)](Change_Wrap_Feature_Face_Example_VBNET.htm)
-
 [Change Wrap Feature Face (VBA)](Change_Wrap_Feature_Face_Example_VB.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [IWrapSketchFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.int SetLabel2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,22 +55,16 @@ See
 
 ### Return Value
 
-Value as defined in[swSetSectionLabelStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSetSectionLabelStatus_e.html)
+Value as defined in [swSetSectionLabelStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSetSectionLabelStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[DrSection::SetLabel2](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetLabel2.html)
-
-.
+See [DrSection::SetLabel2](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetLabel2.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
-
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_and_Get_Some_Data_Example_VB.htm)
 
 ## Remarks
@@ -90,9 +78,7 @@ See
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::GetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetLabel.html)
 
 ## Availability

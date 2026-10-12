@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # DraftAngle Property (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~DraftAngle.html)
-
-.
+Obsolete. Superseded by [IRibFeatureData2::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~DraftAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double DraftAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~DraftAngle.html)
-
-.
+See [RibFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~DraftAngle.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

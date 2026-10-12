@@ -45,50 +45,27 @@ property System.bool UseDefaultRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to use the original sheet metal bend radius, false to use a custom bend radius (see
-
-Remarks
-
-)
+True to use the original sheet metal bend radius, false to use a custom bend radius (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::UseDefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~UseDefaultRadius.html)
-
-.
+See [SweptFlangeFeatureData::UseDefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~UseDefaultRadius.html).
 
 ## Examples
 
-See the
-
-[ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-examples.
+See the [ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html) examples.
 
 ## Remarks
 
-If this property is false, then use
-
-[ISweptFlangeFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~BendRadius.html)
-
-to get or set a custom bend radius.
+If this property is false, then use [ISweptFlangeFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~BendRadius.html) to get or set a custom bend radius.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

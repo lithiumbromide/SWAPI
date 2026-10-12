@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetArrowHeadAtIndex Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetArrowHeadAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArrowHeadAtIndex.html)
-
-.
+Obsolete. Superseded by [INote::GetArrowHeadAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArrowHeadAtIndex.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArrowHeadAtIndex.html)
-
-.
+See [CustomSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArrowHeadAtIndex.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

@@ -36,69 +36,69 @@ namespace InsertColumn2TableAnnotationCSharp.csproj
 {
 partial class SolidWorksMacro
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SelectionMgr SelMgr = default(SelectionMgr);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}TableAnnotation theTableAnnotation = default(TableAnnotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}int SelObjType = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}int TableAnnotationType = 0;
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SelMgr = (SelectionMgr)swModel.SelectionManager;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SelObjType = SelMgr.GetSelectedObjectType3(1, -1);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (SelObjType != (int)swSelectType_e.swSelANNOTATIONTABLES)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MessageBox.Show("Select a BOM table in the drawing before running this example.");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}theTableAnnotation = (TableAnnotation)SelMgr.GetSelectedObject6(1, -1);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}TableAnnotationType = theTableAnnotation.Type;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (TableAnnotationType != (int)swTableAnnotationType_e.swTableAnnotation_BillOfMaterials)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MessageBox.Show("Select a BOM table in the drawing before running this example.");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Table before inserting a column...");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Display table before inserting a column
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DisplayTableColumnProps(theTableAnnotation);
+    public void Main()
+    {
+        ModelDoc2 swModel = default(ModelDoc2);
+        bool boolstatus = false;
+        SelectionMgr SelMgr = default(SelectionMgr);
+        TableAnnotation theTableAnnotation = default(TableAnnotation);
+        int SelObjType = 0;
+        int TableAnnotationType = 0;
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Insert new column
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = theTableAnnotation.InsertColumn2((int)swTableItemInsertPosition_e.swTableItemInsertPosition_Last, 0, "New Column", (int)swInsertTableColumnWidthStyle_e.swInsertColumn_DefaultWidth);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = theTableAnnotation.SetColumnType2(theTableAnnotation.ColumnCount - 1, (int)swTableColumnTypes_e.swBomTableColumnType_PartNumber, true);
+        swModel = (ModelDoc2)swApp.ActiveDoc;
+        SelMgr = (SelectionMgr)swModel.SelectionManager;
+        SelObjType = SelMgr.GetSelectedObjectType3(1, -1);
+        if (SelObjType != (int)swSelectType_e.swSelANNOTATIONTABLES)
+        {
+            MessageBox.Show("Select a BOM table in the drawing before running this example.");
+            return;
+        }
+        theTableAnnotation = (TableAnnotation)SelMgr.GetSelectedObject6(1, -1);
+        TableAnnotationType = theTableAnnotation.Type;
+        if (TableAnnotationType != (int)swTableAnnotationType_e.swTableAnnotation_BillOfMaterials)
+        {
+            MessageBox.Show("Select a BOM table in the drawing before running this example.");
+            return;
+        }
+        Debug.Print("Table before inserting a column...");
+        // Display table before inserting a column
+        DisplayTableColumnProps(theTableAnnotation);
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" ");
+        // Insert new column
+        boolstatus = theTableAnnotation.InsertColumn2((int)swTableItemInsertPosition_e.swTableItemInsertPosition_Last, 0, "New Column", (int)swInsertTableColumnWidthStyle_e.swInsertColumn_DefaultWidth);
+        boolstatus = theTableAnnotation.SetColumnType2(theTableAnnotation.ColumnCount - 1, (int)swTableColumnTypes_e.swBomTableColumnType_PartNumber, true);
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Table after inserting a column...");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Display table after inserting a column
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DisplayTableColumnProps(theTableAnnotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+        Debug.Print(" ");
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void DisplayTableColumnProps(TableAnnotation theTableAnnotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}int ColCount = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}int i = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string iString = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}int ColType = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string ColTypeString = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string ColTitle = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Col# " + "Type kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}" + "Title");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ColCount = theTableAnnotation.ColumnCount;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}for (i = 0; i <= ColCount - 1; i++)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ColType = theTableAnnotation.GetColumnType2(i, true);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ColTypeString = System.Convert.ToString(ColType);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ColTitle = theTableAnnotation.GetColumnTitle2(i, true);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}iString = System.Convert.ToString(i);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(iString + " kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}" + ColTypeString + " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}" + ColTitle);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public SldWorks swApp;
+        Debug.Print("Table after inserting a column...");
+        // Display table after inserting a column
+        DisplayTableColumnProps(theTableAnnotation);
+    }
+
+    public void DisplayTableColumnProps(TableAnnotation theTableAnnotation)
+    {
+        int ColCount = 0;
+        int i = 0;
+        string iString = null;
+        int ColType = 0;
+        string ColTypeString = null;
+        string ColTitle = null;
+        Debug.Print("Col# " + "Type  " + "Title");
+        ColCount = theTableAnnotation.ColumnCount;
+        for (i = 0; i <= ColCount - 1; i++)
+        {
+            ColType = theTableAnnotation.GetColumnType2(i, true);
+            ColTypeString = System.Convert.ToString(ColType);
+            ColTitle = theTableAnnotation.GetColumnTitle2(i, true);
+            iString = System.Convert.ToString(i);
+            Debug.Print(iString + "    " + ColTypeString + "  " + ColTitle);
+        }
+    }
+    /// <summary>
+    /// The SldWorks swApp variable is pre-assigned for you.
+    /// </summary>
+    public SldWorks swApp;
 }
 }
 ```

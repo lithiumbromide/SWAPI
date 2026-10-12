@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # SuppressUnSuppress Method (ICWMeshControl)
 
-Suppresses or unsuppresses the mesh control depending on its
-
-[state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMeshControl~State.html)
-
-.
+Suppresses or unsuppresses the mesh control depending on its [state](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMeshControl~State.html).
 
 ## Syntax
 
@@ -45,16 +41,11 @@ void SuppressUnSuppress();
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~SuppressUnSuppress.html)
-
-.
+See [CWMeshControl::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~SuppressUnSuppress.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

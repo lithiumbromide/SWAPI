@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Weldment_Cut_List2_Example_VB.htm"
 
 # Insert Weldment Cut List Example #2 (VBA)
 
-This example shows how to insert a weldment cut list into the FeatureManager
-design tree.
+This example shows how to insert a weldment cut list into the FeatureManager design tree.
 
 ```
 '----------------------------------------------------------------------------
@@ -33,26 +32,24 @@ design tree.
 Option Explicit
 ```
 
+```vb
 Dim swApp As SldWorks.SldWorks
-
 Dim Part As ModelDoc2
-
 Dim obj() As Object
-
 Dim v As Variant
 
 Sub main()
+```
 
+```vb
 Dim PartName As String
-
 Set swApp = Application.SldWorks
-
-Set Part = swApp.**ActiveDoc**
-
-v = Part.**GetBodies2**(0, True)
-
+Set Part = swApp.ActiveDoc
+v = Part.GetBodies2(0, True)
 Dim cutListFeature As Feature
+Set cutListFeature = Part.FeatureManager.InsertWeldmentCutList2(v)
+```
 
-Set cutListFeature = Part.**FeatureManager**.InsertWeldmentCutList2(v)
-
+```vb
 End Sub
+```

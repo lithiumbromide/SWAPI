@@ -1,6 +1,5 @@
 ---
-title: "DimXpertAnnotation Object
-Members"
+title: "DimXpertAnnotation Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertAnnotation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertAnnotation_members.html"
 ---
 
-# DimXpertAnnotation Object
-Members
+# DimXpertAnnotation Object Members
 
 ## Public Methods
 

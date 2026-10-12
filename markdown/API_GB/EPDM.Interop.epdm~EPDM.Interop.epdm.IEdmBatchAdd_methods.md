@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_methods.html"
 
 # IEdmBatchAdd Interface Methods
 
-For a list of all members of this type, see[IEdmBatchAdd members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_members.html).
+For a list of all members of this type, see [IEdmBatchAdd members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_members.html).
 
 ## Public Methods
 
@@ -29,7 +29,5 @@ For a list of all members of this type, see[IEdmBatchAdd members](EPDM.Interop.e
 ## See Also
 
 [IEdmBatchAdd Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmBatchAddFolders Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders.html)

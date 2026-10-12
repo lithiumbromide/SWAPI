@@ -42,13 +42,7 @@ property System.double Duration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Elapsed time in seconds
 
 ## VBA Syntax
 
-See
-
-[Simulation::Duration](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Duration.html)
-
-.
+See [Simulation::Duration](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Duration.html).
 
 ## Remarks
 
@@ -71,7 +61,6 @@ The return value represents the length of time that the simulation is expected t
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

@@ -40,29 +40,15 @@ System.double IGetPosition()
 System.double IGetPosition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to an array of doubles (see
-
-Remarks
-
-)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::IGetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetPosition.html)
-
-.
+See [Annotation::IGetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetPosition.html).
 
 ## Remarks
 
@@ -89,13 +75,9 @@ and returns false.
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPosition.html)
-
 [SetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetPosition.html)
-
 [INote::LockPosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~LockPosition.html)
 
 ## Availability

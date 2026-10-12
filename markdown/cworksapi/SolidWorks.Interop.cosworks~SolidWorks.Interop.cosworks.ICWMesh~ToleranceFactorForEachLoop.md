@@ -51,11 +51,7 @@ Tolerance factor for mesh loops
 
 ## VBA Syntax
 
-See
-
-[CWMesh::ToleranceFactorForEachLoop](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~ToleranceFactorForEachLoop.html)
-
-.
+See [CWMesh::ToleranceFactorForEachLoop](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~ToleranceFactorForEachLoop.html).
 
 ## Remarks
 
@@ -64,13 +60,9 @@ The tolerance factor for each is the factor by which the new global element size
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::AutomaticLooping Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~AutomaticLooping.html)
-
 [ICWMesh::NumberOfLoops Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NumberOfLoops.html)
-
 [ICWMesh::GetDefaultElementSizeAndTolerance Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetDefaultElementSizeAndTolerance.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSubmitSelection Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnSubmitSelection](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSubmitSelection.html)
-
-.
+Obsolete. Superseded by[IPropertyManagerPage2Handler9::OnSubmitSelection](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSubmitSelection.html).
 
 ## Syntax
 
@@ -67,14 +63,8 @@ System.bool OnSubmitSelection(
 
 - `Id`: ID of the active selection box, where this selection is being made
 - `Selection`: Object being selected
-- `SelType`: Entity type of the selection as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `ItemText`: Item for selection list box (see
-
-Remarks
-
-)
+- `SelType`: Entity type of the selection as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `ItemText`: Item for selection list box (see **Remarks**)
 
 ### Return Value
 
@@ -82,11 +72,7 @@ True if the selection is accepted, false if the selection is rejected
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSubmitSelection.html)
-
-.
+See [PropertyManagerPage2Handler8::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSubmitSelection.html).
 
 ## Remarks
 
@@ -96,7 +82,7 @@ This method is called by SOLIDWORKS when an add-in has a PropertyManager page di
 
 1. Take the Dispatch pointer and the selection type.
 2. QueryInterface the Dispatch pointer to get the specific interface.
-3. Use APIs of that interface to determine if the selection should be allowed or not.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+3. Use APIs of that interface to determine if the selection should be allowed or not.
 
 The add-in should not Release() the Dispatch pointer. SOLIDWORKS will Release() the Dispatch pointer upon return from this method.
 
@@ -107,7 +93,6 @@ ItemText is returned to SOLIDWORKS and stored on the selected object and can be 
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

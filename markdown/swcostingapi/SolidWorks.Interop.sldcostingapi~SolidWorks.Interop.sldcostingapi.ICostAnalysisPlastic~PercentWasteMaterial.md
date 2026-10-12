@@ -51,24 +51,15 @@ Percentage of waste material; valid values are 0 through 100
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::PercentWasteMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~PercentWasteMaterial.html)
-
-.
+See [CostAnalysisPlastic::PercentWasteMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~PercentWasteMaterial.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
-examples.
+See the [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html) examples.
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
 
 ## Availability

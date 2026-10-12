@@ -45,13 +45,7 @@ property System.bool DisableAutoUpdate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to disable the automatic update, false to not
 
 ## VBA Syntax
 
-See
-
-[View::DisableAutoUpdate](ms-its:sldworksapivb6.chm::/Sldworks~View~DisableAutoUpdate.html)
-
-.
+See [View::DisableAutoUpdate](ms-its:sldworksapivb6.chm::/Sldworks~View~DisableAutoUpdate.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

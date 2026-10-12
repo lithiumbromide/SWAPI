@@ -47,13 +47,7 @@ property System.String^ ItemText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,20 +55,15 @@ See
 
 ### Property Value
 
-Text for this itemParameterDesc
+Text for this item
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::ItemText](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~ItemText.html)
-
-.
+See [PropertyManagerPageNumberbox::ItemText](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~ItemText.html).
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

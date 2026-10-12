@@ -53,22 +53,15 @@ System.int AddRemoteLoadMasses(
 
 ### Return Value
 
-Error code as defined in
-
-[swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
+Error code as defined in [swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::AddRemoteLoadMasses](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddRemoteLoadMasses.html)
-
-.
+See [CWMassPropertiesManager::AddRemoteLoadMasses](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddRemoteLoadMasses.html).
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
 
 ## Availability

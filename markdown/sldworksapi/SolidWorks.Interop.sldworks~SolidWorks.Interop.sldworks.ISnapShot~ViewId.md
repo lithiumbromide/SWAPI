@@ -42,13 +42,7 @@ property System.int ViewId {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ Snapshot ID
 
 ## VBA Syntax
 
-See
-
-[SnapShot::ViewId](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~ViewId.html)
-
-.
+See [SnapShot::ViewId](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~ViewId.html).
 
 ## See Also
 
 [ISnapShot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html)
-
 [ISnapShot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot_members.html)
 
 ## Availability

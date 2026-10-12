@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetLineAtIndex2 Method (IDisplayData)
 
-Obsolete. Superseded by
-
-[DislayData::GetLineAtIndex3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetLineAtIndex3.html)
-
-.
+Obsolete. Superseded by [DislayData::GetLineAtIndex3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetLineAtIndex3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetLineAtIndex2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,25 +55,21 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetLineAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetLineAtIndex2.html)
-
-.
+See [DisplayData::GetLineAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetLineAtIndex2.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[color, lineType, Unused, Unused, startPt[3], endPt[3]]
+```vb
+[ color, lineType, Unused, Unused, startPt[3], endPt[3] ]
+```
 
 where:
-
-(Table)=========================================================
 
 | color | COLORREF returned as an integer; return value can be 0 or -1 for default color |
 | --- | --- |
@@ -94,9 +80,6 @@ where:
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::IGetLineAtIndex2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetLineAtIndex2.html)
-
 [IDisplayData::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetLineCount.html)

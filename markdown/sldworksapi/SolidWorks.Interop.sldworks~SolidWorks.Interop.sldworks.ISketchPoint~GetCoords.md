@@ -40,13 +40,7 @@ System.double GetCoords()
 System.double GetCoords();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ x coordinate of the sketch point
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::GetCoords](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetCoords.html)
-
-.
+See [SketchPoint::GetCoords](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetCoords.html).
 
 ## Examples
 
@@ -67,15 +57,10 @@ See
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::X Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~X.html)
-
 [ISketchPoint::Y Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~Y.html)
-
 [ISketchPoint::Z Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~Z.html)
-
 [ISketchPoint::SetCoords Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~SetCoords.html)
 
 ## Availability

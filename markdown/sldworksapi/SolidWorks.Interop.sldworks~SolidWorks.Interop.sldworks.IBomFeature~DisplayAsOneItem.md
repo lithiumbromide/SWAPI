@@ -45,13 +45,7 @@ property System.bool DisplayAsOneItem {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,22 @@ True if different configurations are displayed as the same item number, false if
 
 ## VBA Syntax
 
-See
-
-[BomFeature::DisplayAsOneItem](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DisplayAsOneItem.html)
-
-.
+See [BomFeature::DisplayAsOneItem](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~DisplayAsOneItem.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## Remarks
 
-This property corresponds to thePart Configuration Grouping**> Display as one item number**check box in theBill of MaterialsPropertyManager, which displays when you create or edit a BOM table in an assembly drawing.
+This property corresponds to the Part Configuration Grouping **> Display as one item number** check box in the Bill of Materials PropertyManager, which displays when you create or edit a BOM table in an assembly drawing.
 
-This property applies to top-level only BOM tables. Use[IBomFeature::TableType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~TableType.html)to determine the BOM table type.
+This property applies to top-level only BOM tables. Use [IBomFeature::TableType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~TableType.html) to determine the BOM table type.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::PartConfigurationGrouping Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~PartConfigurationGrouping.html)
 
 ## Availability

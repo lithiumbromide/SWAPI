@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTe
 
 # UseTimeCurve Property (ICWTemperature)
 
-Obsolete. Superseded by ICWTemperature::UseTimeCurve2.
+Obsolete. Superseded by [ICWTemperature::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWTemperature::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~UseTimeCurve.html)
-
-.
+See [CWTemperature::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~UseTimeCurve.html).
 
 ## See Also
 
 [ICWTemperature Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html)
-
 [ICWTemperature Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature_members.html)
-
 [ICWTemperature::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature~GetTimeCurve.html)
-
 [ICWTemperature::SetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature~SetTimeCurve.html)
 
 ## Availability

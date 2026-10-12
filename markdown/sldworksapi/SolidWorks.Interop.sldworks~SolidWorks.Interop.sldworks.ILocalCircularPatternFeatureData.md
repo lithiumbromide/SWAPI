@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 Allows access to a circular component pattern feature in an assembly.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ILocalCircularPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData.html)
-
-.
+See [LocalCircularPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData.html).
 
 ## Examples
 
@@ -58,7 +54,7 @@ See
 ' 1. Opens the assembly.
 ' 2. Selects an edge for the direction axis.
 ' 3. Selects a subassembly to pattern.
-' 4. Creates**LocalCirPattern1**.
+' 4. Creates **LocalCirPattern1**.
 ' 5. Examine the FeatureManager design tree and
 ' graphics area.
 '
@@ -86,8 +82,8 @@ Set swFeatureManager = swModel.FeatureManager
 status = swModelDocExt.SelectByID2("", "EDGE", 0.22639417933982, -0.194822643434378, 0.102086175644843, False, 2, Nothing, 0)
 status = swModelDocExt.SelectByID2("mount base-1@distance linkage", "COMPONENT", 0, 0, 0, True, 1, Nothing, 0)
 Set swLocalCirPattFD = swFeatureManager.**CreateDefinition**(swFmLocalCirPattern)
-swLocalCirPattFD.**TotalInstances**= 3
-swLocalCirPattFD.**EqualSpacing**= True
+swLocalCirPattFD.**TotalInstances** = 3
+swLocalCirPattFD.**EqualSpacing** = True
 Set swFeature = swFeatureManager.**CreateFeature**(swLocalCirPattFD)
 swModel.ClearSelection2 True
 
@@ -96,27 +92,22 @@ End Sub
 ## Examples
 
 [Get and Set Seed Components (C#)](Get_and_Set_Seed_Components_Example_CSharp.htm)
-
 [Get and Set Seed Components (VB.NET)](Get_and_Set_Seed_Components_Example_VBNET.htm)
-
 [Get and Set Seed Components (VBA)](Get_and_Set_Seed_Components_Example_VB.htm)
-
 [Create Local Circular Pattern (C#)](Create_Local_Circular_Pattern_Example_CSharp.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can pre-select the entities needed to create the local circular pattern feature.
+Before calling IFeatureManager::CreateDefinition, you must pre-select the entities needed to create the local circular pattern feature.
 
 | If... | To select a component, use... |
 | --- | --- |
 | Using IModelDocExtension::SelectByID2 to select components, ordered selection of the components is required | 1 to mark the components to pattern 2 to mark the axis |
 | Directly selecting a component or axis | ISelectData::Mark and Component2::Select3 1 to mark the components to pattern 2 to mark the axis |
 
-Or, after calling IFeatureManger::CreateDefinition, you can explicitly set the corresponding properties on the feature data object.
-
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the local circular pattern feature.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the local circular pattern feature.
 
 ## Accessors
 
@@ -131,7 +122,5 @@ Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sld
 ## See Also
 
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPr
 
 # ReverseDirection Property (ICWPressure)
 
-Obsolete. Superseded by ICWPressure::ReverseDirection2.
+Obsolete. Superseded by [ICWPressure::ReverseDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~ReverseDirection2.html).
 
 ## Syntax
 
@@ -51,18 +51,12 @@ property System.int ReverseDirection {
 
 ## VBA Syntax
 
-See
-
-[CWPressure::ReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~ReverseDirection.html)
-
-.
+See [CWPressure::ReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~ReverseDirection.html).
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::Value Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Value.html)
 
 ## Availability

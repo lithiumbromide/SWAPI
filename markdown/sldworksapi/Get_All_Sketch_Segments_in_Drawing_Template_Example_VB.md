@@ -9,8 +9,7 @@ source: "sldworksapi/Get_All_Sketch_Segments_in_Drawing_Template_Example_VB.htm"
 
 # Get All Sketch Segments in Drawing Template Example (VBA)
 
-This example shows how to get all of the sketch segments in a drawing
-template.
+This example shows how to get all of the sketch segments in a drawing template.
 
 ```
 '--------------------------------------------------------

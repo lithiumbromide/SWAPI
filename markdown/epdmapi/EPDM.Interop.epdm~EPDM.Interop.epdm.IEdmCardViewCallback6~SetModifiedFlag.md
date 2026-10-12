@@ -33,15 +33,11 @@ void SetModifiedFlag();
 
 ## Examples
 
-See the
-
-[IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
-examples.
+See the [IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html) examples.
 
 ## Remarks
 
-You can implement this method, for instance, to enable**Save**when the card changes.
+You can implement this method, for instance, to enable **Save** when the card changes.
 
 [Return codes](ReturnCodes.htm):
 
@@ -51,7 +47,6 @@ You can implement this method, for instance, to enable**Save**when the card chan
 ## See Also
 
 [IEdmCardViewCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
 [IEdmCardViewCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6_members.html)
 
 ## Availability

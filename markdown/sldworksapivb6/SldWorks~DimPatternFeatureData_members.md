@@ -1,6 +1,5 @@
 ---
-title: "DimPatternFeatureData Object
-Members"
+title: "DimPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DimPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DimPatternFeatureData_members.html"
 ---
 
-# DimPatternFeatureData Object
-Members
+# DimPatternFeatureData Object Members
 
 ## Public Methods
 

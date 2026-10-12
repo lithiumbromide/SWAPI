@@ -1,6 +1,5 @@
 ---
-title: "RipFeatureData Object
-Members"
+title: "RipFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RipFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RipFeatureData_members.html"
 ---
 
-# RipFeatureData Object
-Members
+# RipFeatureData Object Members
 
 ## Public Methods
 

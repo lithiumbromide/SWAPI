@@ -45,13 +45,7 @@ property System.bool DoubleSided {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to enable shading from both sides, false to not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::DoubleSided](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~DoubleSided.html)
-
-.
+See [RenderMaterial::DoubleSided](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~DoubleSided.html).
 
 ## Examples
 
 [Get Surface-finish Image Path and File Name (C#)](Get_Surface-finish_Image_Path_and_Filename_Example_CSharp.htm)
-
 [Get Surface-finish Image Path and File Name (VB.NET)](Get_Surface-finish_Image_Path_and_Filename_Example_VBNET.htm)
-
 [Get Surface-finish Image Path and File Name (VBA)](Get_Surface-finish_Image_Path_and_Filename_Example_VB.htm)
 
 ## Remarks
@@ -85,7 +73,6 @@ This method is only available when a ray-trace rendering engine is loaded.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

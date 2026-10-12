@@ -40,13 +40,7 @@ System.string GetCurrentPartExplodeViewName()
 System.String^ GetCurrentPartExplodeViewName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Explode view name
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetCurrentPartExplodeViewName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCurrentPartExplodeViewName.html)
-
-.
+See [Configuration::GetCurrentPartExplodeViewName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCurrentPartExplodeViewName.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::AddPartExplodeStep Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddPartExplodeStep.html)
-
 [IConfiguration::GetNumberOfPartExplodeSteps Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetNumberOfPartExplodeSteps.html)
-
 [IConfiguration::GetPartExplodeStep Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetPartExplodeStep.html)
 
 ## Availability

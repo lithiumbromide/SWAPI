@@ -48,24 +48,17 @@ Number of beams
 
 ## VBA Syntax
 
-See
-
-[CWBeamManager::BeamCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~BeamCount.html)
-
-.
+See [CWBeamManager::BeamCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~BeamCount.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## See Also
 
 [ICWBeamManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html)
-
 [ICWBeamManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager_members.html)
 
 ## Availability

@@ -51,26 +51,12 @@ System.String^ GetInstanceDimensionName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InstanceName`: Name of the pattern instance (see
-
-Remarks
-
-)
-- `ControllingDimName`: Controlling dimension of the pattern instance (see
-
-Remarks
-
-)
+- `InstanceName`: Name of the pattern instance (see **Remarks**)
+- `ControllingDimName`: Controlling dimension of the pattern instance (see **Remarks**)
 
 ### Return Value
 
@@ -78,18 +64,12 @@ Name of the pattern dimension
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetInstanceDimensionName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceDimensionName.html)
-
-.
+See [DimPatternFeatureData::GetInstanceDimensionName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceDimensionName.html).
 
 ## Examples
 
 [Insert Variable Pattern Feature (C#)](Insert_Advanced_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Insert Variable Pattern Feature (VB.NET)](Insert_Advanced_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Insert Variable Pattern Feature (VBA)](Insert_Advanced_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
@@ -102,9 +82,7 @@ See
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::SetInstanceDimensionValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceDimensionValue.html)
 
 ## Availability

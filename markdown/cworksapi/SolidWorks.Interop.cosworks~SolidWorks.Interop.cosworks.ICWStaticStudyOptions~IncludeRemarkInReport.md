@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # IncludeRemarkInReport Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWStaticStudyOptions::IncludeRemarkInReport2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeRemarkInReport2.html)
-
-.
+Obsolete. Superseded by [ICWStaticStudyOptions::IncludeRemarkInReport2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeRemarkInReport2.html).
 
 ## Syntax
 
@@ -55,32 +51,19 @@ property System.int IncludeRemarkInReport {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::IncludeRemarkInReport](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncludeRemarkInReport.html)
-
-.
+See [CWStaticStudyOptions::IncludeRemarkInReport](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncludeRemarkInReport.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## Remarks
 
-After setting this property to 1, set the remark using
-
-[ICWStaticStudyOptions::RemarkComment](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~RemarkComment.html)
-
-.
+After setting this property to 1, set the remark using [ICWStaticStudyOptions::RemarkComment](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~RemarkComment.html).
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

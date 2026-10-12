@@ -69,24 +69,19 @@ void GetInferencePoints(
 ### Parameters
 
 - `pDoc`: SOLIDWORKS document
-- `SelPosX`: x coordinate in screen spaceParamDesc
+- `SelPosX`: x coordinate in screen space
 - `SelPosY`: y coordinate in screen space
-- `Tolerance`: Distance within model space that inference points can existParamDesc
-- `Option`: Options as defined in[swPointInferenceBrokerOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPointInferenceBrokerOption_e.html)
+- `Tolerance`: Distance within model space that inference points can exist
+- `Option`: Options as defined in [swPointInferenceBrokerOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPointInferenceBrokerOption_e.html)
 - `InferPoints`: Array of doubles; each inference point returns its x,y,z coordinates
 
 ## VBA Syntax
 
-See
-
-[SwAddinBroker::GetInferencePoints](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker~GetInferencePoints.html)
-
-.
+See [SwAddinBroker::GetInferencePoints](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker~GetInferencePoints.html).
 
 ## See Also
 
 [ISwAddinBroker Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.html)
-
 [ISwAddinBroker Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker_members.html)
 
 ## Availability

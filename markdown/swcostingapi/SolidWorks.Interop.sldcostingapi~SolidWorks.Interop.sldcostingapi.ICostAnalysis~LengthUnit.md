@@ -44,26 +44,19 @@ property System.int LengthUnit {
 
 ### Property Value
 
-Unit for the length as defined in
-
-[swcLengthUnit_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcLengthUnit_e.html)
+Unit for the length as defined in [swcLengthUnit_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcLengthUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::LengthUnit](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~LengthUnit.html)
-
-.
+See [CostAnalysis::LengthUnit](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~LengthUnit.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
 
 ## Availability

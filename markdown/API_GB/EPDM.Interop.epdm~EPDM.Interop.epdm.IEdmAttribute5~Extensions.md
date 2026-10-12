@@ -39,16 +39,11 @@ Comma-separated list of file extensions ("doc,ppt,xls")
 
 ## Examples
 
-See
-
-[IEdmAttribute5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html)
-
-examples.
+See [IEdmAttribute5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html) examples.
 
 ## See Also
 
 [IEdmAttribute5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html)
-
 [IEdmAttribute5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5_members.html)
 
 ## Availability

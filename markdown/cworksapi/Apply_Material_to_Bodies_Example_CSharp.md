@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Material_to_Bodies_Example_CSharp.htm"
 
 # Apply Material to Bodies Example (C#)
 
-This example shows how to apply user-defined and SOLIDWORKS-defined
-materials to different bodies.
+This example shows how to apply user-defined and SOLIDWORKS-defined materials to different bodies.
 
 ```vb
 //---------------------------------------------------------------------------
@@ -31,7 +30,7 @@ materials to different bodies.
 // 3. Gets the number of components.
 // 4. Applies materials to all components.
 // 5. Expand the Parts folder in the Simulation Study tree
-// kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}to verify step 4.
+//    to verify step 4.
 //
 // NOTE: Because this assembly is used elsewhere, do not save changes.
 //-------------------------------
@@ -42,106 +41,106 @@ using System;
 using System.Diagnostics;
 namespace SimulationApplyMaterialsBodiesCSharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CosmosWorks COSMOSWORKS = default(CosmosWorks);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CwAddincallback COSMOSObject = default(CwAddincallback);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWModelDoc ActDoc = default(CWModelDoc);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWStudyManager StudyMngr = default(CWStudyManager);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWStudy Study = default(CWStudy);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWSolidManager SolidMgr = default(CWSolidManager);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWSolidComponent SolidComponent = default(CWSolidComponent);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWSolidBody SolidBody = default(CWSolidBody);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int errorCode = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int status = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int warnings = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int errCode = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int CompCount = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int j = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMaterial CWMat = default(CWMaterial);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int returnValue = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}string SName = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int materialProperty = 0;
+    partial class SolidWorksMacro
+    {
+        public void Main()
+        {
+            CosmosWorks COSMOSWORKS = default(CosmosWorks);
+            CwAddincallback COSMOSObject = default(CwAddincallback);
+            CWModelDoc ActDoc = default(CWModelDoc);
+            CWStudyManager StudyMngr = default(CWStudyManager);
+            CWStudy Study = default(CWStudy);
+            CWSolidManager SolidMgr = default(CWSolidManager);
+            CWSolidComponent SolidComponent = default(CWSolidComponent);
+            CWSolidBody SolidBody = default(CWSolidBody);
+            int errorCode = 0;
+            int status = 0;
+            int warnings = 0;
+            int errCode = 0;
+            int CompCount = 0;
+            int j = 0;
+            CWMaterial CWMat = default(CWMaterial);
+            int returnValue = 0;
+            string SName = null;
+            int materialProperty = 0;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Get SOLIDWORKS Simulation object>
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}COSMOSObject = (CwAddincallback)swApp.GetAddInObject("SldWorks.Simulation");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (COSMOSObject == null) ErrorMsg("No CwAddincallback object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}COSMOSWORKS = (CosmosWorks)COSMOSObject.CosmosWorks;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (COSMOSWORKS == null) ErrorMsg("No COSMOSWORKS object");
+            // Get SOLIDWORKS Simulation object>
+            COSMOSObject = (CwAddincallback)swApp.GetAddInObject("SldWorks.Simulation");
+            if (COSMOSObject == null) ErrorMsg("No CwAddincallback object");
+            COSMOSWORKS = (CosmosWorks)COSMOSObject.CosmosWorks;
+            if (COSMOSWORKS == null) ErrorMsg("No COSMOSWORKS object");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Open and get document
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2017\\Simulation Examples\\basketball_hoop.sldasm", (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref status, ref warnings);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ActDoc = (CWModelDoc)COSMOSWORKS.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (ActDoc == null) ErrorMsg("No active document");
+            // Open and get document
+            swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2017\\Simulation Examples\\basketball_hoop.sldasm", (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref status, ref warnings);
+            ActDoc = (CWModelDoc)COSMOSWORKS.ActiveDoc;
+            if (ActDoc == null) ErrorMsg("No active document");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Create new nonlinear study
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}StudyMngr = (CWStudyManager)ActDoc.StudyManager;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (StudyMngr == null) ErrorMsg("No CWStudyManager object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Study = (CWStudy)StudyMngr.CreateNewStudy("Nonlinear", (int)swsAnalysisStudyType_e.swsAnalysisStudyTypeNonlinear, (int)swsMeshType_e.swsMeshTypeSolid, out errCode);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (Study == null) ErrorMsg("No CWStudy object");
+            // Create new nonlinear study
+            StudyMngr = (CWStudyManager)ActDoc.StudyManager;
+            if (StudyMngr == null) ErrorMsg("No CWStudyManager object");
+            Study = (CWStudy)StudyMngr.CreateNewStudy("Nonlinear", (int)swsAnalysisStudyType_e.swsAnalysisStudyTypeNonlinear, (int)swsMeshType_e.swsMeshTypeSolid, out errCode);
+            if (Study == null) ErrorMsg("No CWStudy object");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Get number of solid components
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidMgr = (CWSolidManager)Study.SolidManager;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (SolidMgr == null) ErrorMsg("No CWSolidManager object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CompCount = SolidMgr.ComponentCount;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidComponent = (CWSolidComponent)SolidMgr.GetComponentAt(0, out errorCode);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (SolidComponent == null) ErrorMsg("No CWSolidComponent object");
+            // Get number of solid components
+            SolidMgr = (CWSolidManager)Study.SolidManager;
+            if (SolidMgr == null) ErrorMsg("No CWSolidManager object");
+            CompCount = SolidMgr.ComponentCount;
+            SolidComponent = (CWSolidComponent)SolidMgr.GetComponentAt(0, out errorCode);
+            if (SolidComponent == null) ErrorMsg("No CWSolidComponent object");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Get name of solid component
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SName = SolidComponent.ComponentName;
+            // Get name of solid component
+            SName = SolidComponent.ComponentName;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Apply user-defined material for the first component in the tree
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidBody =(CWSolidBody) SolidComponent.GetSolidBodyAt(0, out errCode);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("No solid body");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (SolidBody == null) ErrorMsg("No CWSolidBody object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat = (CWMaterial)SolidBody.GetDefaultMaterial();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.MaterialUnits = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (CWMat == null) ErrorMsg("No CWMaterial object");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.MaterialName = "Alloy Steel";
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("EX", 210000000000.0, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Property EX: " + CWMat.GetPropertyByName((int)swsUnitSystem_e.swsUnitSystemSI, "EX", out materialProperty));
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("NUXY", 0.28, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("GXY", 79000000000.0, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("DENS", 7700, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("SIGXT", 723825600, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("SIGYLD", 620422000, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("ALPX", 1.3E-05, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("KX", 50, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CWMat.SetPropertyByName("C", 460, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}errCode = SolidBody.SetSolidBodyMaterial(CWMat);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("Failed to apply material");
+            // Apply user-defined material for the first component in the tree
+            SolidBody =(CWSolidBody) SolidComponent.GetSolidBodyAt(0, out errCode);
+            if (errCode != 0) ErrorMsg("No solid body");
+            if (SolidBody == null) ErrorMsg("No CWSolidBody object");
+            CWMat = (CWMaterial)SolidBody.GetDefaultMaterial();
+            CWMat.MaterialUnits = 0;
+            if (CWMat == null) ErrorMsg("No CWMaterial object");
+            CWMat.MaterialName = "Alloy Steel";
+            CWMat.SetPropertyByName("EX", 210000000000.0, 0);
+            Debug.Print("Property EX: " + CWMat.GetPropertyByName((int)swsUnitSystem_e.swsUnitSystemSI, "EX", out materialProperty));
+            CWMat.SetPropertyByName("NUXY", 0.28, 0);
+            CWMat.SetPropertyByName("GXY", 79000000000.0, 0);
+            CWMat.SetPropertyByName("DENS", 7700, 0);
+            CWMat.SetPropertyByName("SIGXT", 723825600, 0);
+            CWMat.SetPropertyByName("SIGYLD", 620422000, 0);
+            CWMat.SetPropertyByName("ALPX", 1.3E-05, 0);
+            CWMat.SetPropertyByName("KX", 50, 0);
+            CWMat.SetPropertyByName("C", 460, 0);
+            errCode = SolidBody.SetSolidBodyMaterial(CWMat);
+            if (errCode != 0) ErrorMsg("Failed to apply material");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Apply a different SOLIDWORKS Simulation library material to rest of components
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidBody = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidComponent = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}for (j = 1; j <= (CompCount - 1); j++)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SolidComponent = (CWSolidComponent)SolidMgr.GetComponentAt(j, out errorCode);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SName = SolidComponent.ComponentName;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SolidBody = (CWSolidBody)SolidComponent.GetSolidBodyAt(0, out errCode);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (errCode != 0) ErrorMsg("No CWSolidBody object");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}returnValue = SolidBody.SetLibraryMaterial("c:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\sldmaterials\\solidworks materials.sldmat", "2024 Alloy (SN)");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (returnValue == 0) ErrorMsg("No material applied");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SolidBody = null;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+            // Apply a different SOLIDWORKS Simulation library material to rest of components
+            SolidBody = null;
+            SolidComponent = null;
+            for (j = 1; j <= (CompCount - 1); j++)
+            {
+                SolidComponent = (CWSolidComponent)SolidMgr.GetComponentAt(j, out errorCode);
+                SName = SolidComponent.ComponentName;
+                SolidBody = (CWSolidBody)SolidComponent.GetSolidBodyAt(0, out errCode);
+                if (errCode != 0) ErrorMsg("No CWSolidBody object");
+                returnValue = SolidBody.SetLibraryMaterial("c:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\sldmaterials\\solidworks materials.sldmat", "2024 Alloy (SN)");
+                if (returnValue == 0) ErrorMsg("No material applied");
+                SolidBody = null;
+            }
+        }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Error function
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}private void ErrorMsg(string Message)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.SendMsgToUser2(Message, 0, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("'*** WARNING - General");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("'*** " + Message);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.RecordLine("");
-kadov_tag{{<spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+        // Error function
+        private void ErrorMsg(string Message)
+        {
+            swApp.SendMsgToUser2(Message, 0, 0);
+            swApp.RecordLine("'*** WARNING - General");
+            swApp.RecordLine("'*** " + Message);
+            swApp.RecordLine("");
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+        }
+
+        /// <summary>
+        /// The SldWorks swApp variable is pre-assigned for you.
+        /// </summary>
+        public SldWorks swApp;
+    }
 }
 ```

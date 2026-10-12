@@ -46,49 +46,39 @@ public delegate System.int DSldWorksEvents_CommandCloseNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Command`: Command as defined in
+- `Command`: Command as defined in [swCommands_e](ms-its:swcommands.chm::/SolidWorks.Interop.swcommands~SolidWorks.Interop.swcommands.swCommands_e.html)
+- `reason`: Reason as defined by:
 
-[swCommands_e](ms-its:swcommands.chm::/SolidWorks.Interop.swcommands~SolidWorks.Interop.swcommands.swCommands_e.html)
-- `reason`: Reason as defined in
+  - swCommands_e.swCommands_PmOK or swCommands_e.swCommands_PmCancel (for PropertyManager page closures)
 
-[swPropertyManagerPageCloseReasons_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageCloseReasons_e.html)
+  - swCommands_e.swCommands_Exit_Measure (for Measure dialog closures)
+
+  - swCommands_Comp_Isolate_Exit (for Isolate dialog closures)
 
 ## VBA Syntax
 
-See
-
-[CommandCloseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~CommandCloseNotify_EV.html)
-
-.
+See [CommandCloseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~CommandCloseNotify_EV.html).
 
 ## Examples
 
 [Fire Events When PropertyManager Page Opened and Canceled (VBA)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_VB.htm)
-
 [Fire Events When PropertyManager Page Opened and Canceled (VB.NET)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_VBNET.htm)
-
 [Fire Events When PropertyManager Page Opened and Canceled (C#)](Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use[swAppCommandCloseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppCommandCloseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 You can combine:
 
-- the IAssemblyDoc[FeatureEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FeatureEditPreNotifyEventHandler.html)event or the IPartDoc[FeatureEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_EquationEditorPreNotifyEventHandler.html)event with the ISldWorks CommandCloseNotify event and swCommands_e.swCommands_EditFeature.
-- the IAssemblyDoc[FeatureSketchEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FeatureSketchEditPreNotifyEventHandler.html)event or the IPartDoc[FeatureSketchEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FeatureSketchEditPreNotifyEventHandler.html)event with the ISldWorks CommandCloseNotify event and swCommands_e.swCommands_Sketch.
+- the IAssemblyDoc [FeatureEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FeatureEditPreNotifyEventHandler.html) event or the IPartDoc [FeatureEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_EquationEditorPreNotifyEventHandler.html) event with the ISldWorks CommandCloseNotify event and swCommands_e.swCommands_EditFeature.
+- the IAssemblyDoc [FeatureSketchEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FeatureSketchEditPreNotifyEventHandler.html) event or the IPartDoc [FeatureSketchEditPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FeatureSketchEditPreNotifyEventHandler.html) event with the ISldWorks CommandCloseNotify event and swCommands_e.swCommands_Sketch.
 
-Call[CommandOpenPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_CommandOpenPreNotifyEventHandler.html)to fire an event before a command executes or a PropertyManager page opens.
+Call [CommandOpenPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_CommandOpenPreNotifyEventHandler.html) to fire an event before a command executes or a PropertyManager page opens.
 
 ## Availability
 

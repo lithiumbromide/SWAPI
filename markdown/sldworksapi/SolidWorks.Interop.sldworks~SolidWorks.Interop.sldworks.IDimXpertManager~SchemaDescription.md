@@ -45,13 +45,7 @@ property System.String^ SchemaDescription {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ The description of the DimXpert schema
 
 ## VBA Syntax
 
-See
-
-[DimXpertManager::SchemaDescription](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager~SchemaDescription.html)
-
-.
+See [DimXpertManager::SchemaDescription](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager~SchemaDescription.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property corresponds to a Properties menu item when the right-mouse-button 
 ## See Also
 
 [IDimXpertManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager.html)
-
 [IDimXpertManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager_members.html)
 
 ## Availability

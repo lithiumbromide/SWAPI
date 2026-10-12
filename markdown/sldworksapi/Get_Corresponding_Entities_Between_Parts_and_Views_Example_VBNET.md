@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Corresponding_Entities_Between_Parts_and_Views_Example_
 
 # Get Corresponding Entities Between Parts and Drawing Views Example (VB.NET)
 
-This example shows how to get corresponding entities or objects between a
-part and its drawing.
+This example shows how to get corresponding entities or objects between a part and its drawing.
 
 ```vb
   '----------------------------------------------------------------------------

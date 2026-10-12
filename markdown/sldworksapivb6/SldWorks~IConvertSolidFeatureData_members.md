@@ -1,6 +1,5 @@
 ---
-title: "IConvertSolidFeatureData Object
-Members"
+title: "IConvertSolidFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IConvertSolidFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IConvertSolidFeatureData_members.html"
 ---
 
-# IConvertSolidFeatureData Object
-Members
+# IConvertSolidFeatureData Object Members
 
 ## Public Methods
 
@@ -28,13 +26,20 @@ Members
 | --- | --- |
 | Public Property BendRadius |  |
 | Public Property CornerDefaults |  |
+| Public Property GaugeBendRadius |  |
+| Public Property GaugeTableFile |  |
+| Public Property GaugeThickness |  |
 | Public Property KeepBody |  |
+| Public Property OverrideBendRadius |  |
 | Public Property OverrideDefaultAutoReliefParameters |  |
+| Public Property OverrideDefaultBendAllowanceParameters |  |
 | Public Property OverrideDefaultSheetMetalParameters |  |
+| Public Property OverrideSheetThickness |  |
 | Public Property ReliefRatio |  |
 | Public Property ReliefType |  |
 | Public Property ReverseThickness |  |
 | Public Property RipGap |  |
 | Public Property RipOverlapRatio |  |
 | Public Property RipSketches |  |
+| Public Property SheetMetalProcess |  |
 | Public Property SheetThickness |  |

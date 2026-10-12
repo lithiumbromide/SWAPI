@@ -1,6 +1,5 @@
 ---
-title: "CWJoints Object
-Members"
+title: "CWJoints Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWJoints_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWJoints_members.html"
 ---
 
-# CWJoints Object
-Members
+# CWJoints Object Members
 
 ## Public Methods
 

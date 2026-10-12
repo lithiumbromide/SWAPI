@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmIncRevFlags.html"
 
 # EdmIncRevFlags Enumeration
 
-Increment revisions used in
-
-[IEdmFile5::IncrementRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~IncrementRevision.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Increment revisions used in [IEdmFile5::IncrementRevision](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~IncrementRevision.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

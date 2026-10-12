@@ -54,13 +54,7 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumEdges::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumEdges~Next.html)
-
-.
+See [EnumEdges::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumEdges~Next.html).
 
 ## Remarks
 
@@ -83,5 +73,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumEdges Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges.html)
-
 [IEnumEdges Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumEdges_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Create3PointArc Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::Create3PointArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Create3PointArc.html)
-
-.
+Obsolete. Superseded by [ISketchManager::Create3PointArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Create3PointArc.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ System.bool Create3PointArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -109,24 +99,15 @@ True if successfully created, false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Create3PointArc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Create3PointArc.html)
-
-.
+See [ModelDoc2::Create3PointArc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Create3PointArc.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateArc2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateArc2.html)
-
 [IModelDoc2::CreateArcByCenter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateArcByCenter.html)
-
 [IModelDoc2::CreateTangentArc2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateTangentArc2.html)
-
 [IModelDoc2::ICreateArc2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ICreateArc2.html)
 
 ## Availability

@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/info |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Vault Resource Group : api/{vaultName}/info (Get) |
 | --- |
@@ -73,8 +69,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[Vault Resource Group](PDM%20Pro%20API_ws~g-4e3666da-2867-45a7-a89f-fe7237448857.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Vault Resource Group](PDM%20Pro%20API_ws~g-4e3666da-2867-45a7-a89f-fe7237448857.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

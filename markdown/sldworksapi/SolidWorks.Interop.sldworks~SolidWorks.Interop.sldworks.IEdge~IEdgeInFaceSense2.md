@@ -47,21 +47,11 @@ System.bool IEdgeInFaceSense2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Facedisp`: Pointer to the
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-that the edge is on
+- `Facedisp`: Pointer to the [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that the edge is on
 
 ### Return Value
 
@@ -69,11 +59,7 @@ True for same direction as the loop, false for opposite
 
 ## VBA Syntax
 
-See
-
-[Edge::IEdgeInFaceSense2](ms-its:sldworksapivb6.chm::/sldworks~Edge~IEdgeInFaceSense2.html)
-
-.
+See [Edge::IEdgeInFaceSense2](ms-its:sldworksapivb6.chm::/sldworks~Edge~IEdgeInFaceSense2.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ If this edge does not belong to the face that is passed as an argument, unpredic
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::EdgeInFaceSense Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~EdgeInFaceSense.html)
 
 ## Availability

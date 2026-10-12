@@ -45,40 +45,25 @@ property System.int AlignAxis {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Axis as defined in
-
-[swMirrorProfileOrAlignmentAxis_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorProfileOrAlignmentAxis_e.html)
+Axis as defined in [swMirrorProfileOrAlignmentAxis_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorProfileOrAlignmentAxis_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::AlignAxis](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~AlignAxis.html)
-
-.
+See [StructuralMemberGroup::AlignAxis](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~AlignAxis.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
 
 ## Availability

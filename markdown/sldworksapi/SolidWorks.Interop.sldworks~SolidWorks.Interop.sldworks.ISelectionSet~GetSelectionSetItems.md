@@ -40,54 +40,32 @@ System.object GetSelectionSetItems()
 System.Object^ GetSelectionSetItems();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[selection set items](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem.html)
+Array of [selection set items](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem.html)
 
 ## VBA Syntax
 
-See
-
-[SelectionSet::GetSelectionSetItems](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~GetSelectionSetItems.html)
-
-.
+See [SelectionSet::GetSelectionSetItems](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~GetSelectionSetItems.html).
 
 ## Examples
 
 [Create and Delete Selection Sets (C#)](Create_and_Delete_Selection_Sets_Example_CSharp.htm)
-
 [Create and Delete Selection Sets (VB.NET)](Create_and_Delete_Selection_Sets_Example_VBNET.htm)
-
 [Create and Delete Selection Sets (VBA)](Create_and_Delete_Selection_Sets_Example_VB.htm)
-
 [Get Dispatch Objects for Selection Set Items (C#)](Get_Dispatch_Objects_for_Selection_Set_Items_Example_CSharp.htm)
-
 [Get Dispatch Objects for Selection Set Items (VB.NET)](Get_Dispatch_Objects_for_Selection_Set_Items_Example_VBNET.htm)
-
 [Get Dispatch Objects for Selection Set Items (VBA)](Get_Dispatch_Objects_for_Selection_Set_Items_Example_VB.htm)
 
 ## Remarks
 
-To get the types of entities in the selection set, call
-
-[ISelectionSet::GetSelectionSetItemTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet~GetSelectionSetItemTypes.html)
-
-.
+To get the types of entities in the selection set, call [ISelectionSet::GetSelectionSetItemTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet~GetSelectionSetItemTypes.html).
 
 ## See Also
 
 [ISelectionSet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet.html)
-
 [ISelectionSet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet_members.html)
 
 ## Availability

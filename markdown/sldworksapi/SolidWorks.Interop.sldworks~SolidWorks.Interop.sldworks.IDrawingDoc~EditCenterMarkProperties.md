@@ -58,37 +58,24 @@ void EditCenterMarkProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: New angle of the center mark
 - `Size`: New size of the center mark
 - `Lines`: True displays the center mark lines, false displays the plus sign (+) at the circle
-
-center
+  center
 - `DocSettings`: True uses the default settings for this document, false does not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::EditCenterMarkProperties](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EditCenterMarkProperties.html)
-
-.
+See [DrawingDoc::EditCenterMarkProperties](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EditCenterMarkProperties.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
 
 ## Availability

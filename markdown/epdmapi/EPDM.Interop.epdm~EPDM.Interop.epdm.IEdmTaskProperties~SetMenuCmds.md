@@ -39,15 +39,11 @@ void SetMenuCmds(
 
 ### Parameters
 
-- `poCmds`: Array of
-
-[EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html)
-
-structures; one structure for each menu command to add to the context menus
+- `poCmds`: Array of [EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html) structures; one structure for each menu command to add to the context menus
 
 ## Examples
 
-See the examples in[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html).
+See the examples in [IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html).
 
 ## Remarks
 
@@ -58,9 +54,7 @@ See the examples in[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdm
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
-
 [IEdmTaskProperties::GetMenuCmds Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~GetMenuCmds.html)
 
 ## Availability

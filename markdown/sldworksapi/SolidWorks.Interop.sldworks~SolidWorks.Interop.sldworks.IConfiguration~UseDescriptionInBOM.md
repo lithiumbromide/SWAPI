@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # UseDescriptionInBOM Property (IConfiguration)
 
-Gets or sets whether the
-
-[description](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~Description.html)
-
-of the configuration is displayed in the bill of materials.
+Gets or sets whether the [description](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~Description.html) of the configuration is displayed in the bill of materials.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool UseDescriptionInBOM {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,17 @@ True displays the description of the configuration in the bill of materials, fal
 
 ## VBA Syntax
 
-See
-
-[Configuration::UseDescriptionInBOM](ms-its:sldworksapivb6.chm::/sldworks~Configuration~UseDescriptionInBOM.html)
-
-.
+See [Configuration::UseDescriptionInBOM](ms-its:sldworksapivb6.chm::/sldworks~Configuration~UseDescriptionInBOM.html).
 
 ## Examples
 
 [Display Configuration Description in Bill of Materials (C#)](Display_Configuration_Description_in_Bill_of_Materials_Example_CSharp.htm)
-
 [Display Configuration Description in Bill of Materials (VB.NET)](Display_Configuration_Description_in_Bill_of_Materials_Example_VBNET.htm)
-
 [Display Configuration Description in Bill of Materials (VBA)](Display_Configuration_Description_in_Bill_of_Materials_Example_VB.htm)
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

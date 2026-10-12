@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetPLMID Method (IModelDocExtension)
 
-Gets the ID of this
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-document.
+Gets the ID of this [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.string GetPLMID()
 System.String^ GetPLMID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,11 @@ Document ID
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetPLMID](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPLMID.html)
-
-.
+See [ModelDocExtension::GetPLMID](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPLMID.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

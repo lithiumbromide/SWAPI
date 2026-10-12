@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetLines Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IGetLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetLines.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IGetLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetLines.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetLines()
 System.double IGetLines();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IGetLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetLines.html)
-
-.
+See [ModelDoc::IGetLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetLines.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

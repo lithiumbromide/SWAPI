@@ -55,19 +55,11 @@ System.int GetTextFormatItems(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichText`: Portion of the display dimension text as defined in
-
-[swDimensionTextParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionTextParts_e.html)
+- `WhichText`: Portion of the display dimension text as defined in [swDimensionTextParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionTextParts_e.html)
 - `TokensDefinition`: Array of strings containing format symbols for the text portion specified in WhichText
 - `TokensEvaluated`: Array of strings containing evaluations of symbols in TokensDefinition
 
@@ -77,18 +69,12 @@ Size of returned arrays
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetTextFormatItems](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetTextFormatItems.html)
-
-.
+See [DisplayDimension::GetTextFormatItems](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetTextFormatItems.html).
 
 ## Examples
 
 [Get Chamfer Display Dimension (C#)](Get_Chamfer_Display_Dimension_Example_CSharp.htm)
-
 [Get Chamfer Display Dimension (VB.NET)](Get_Chamfer_Display_Dimension_Example_VBNET.htm)
-
 [Get Chamfer Display Dimension (VBA)](Get_Chamfer_Display_Dimension_Example_VB.htm)
 
 ## Remarks
@@ -97,14 +83,12 @@ Each display dimension's PropertyManager page contains a section called Dimensio
 
 This method retrieves all of the symbols, both function and value, for the portion of the display dimension text specified by WhichText. It also retrieves values for any symbols that can be evaluated in TokensDefinition.
 
-**NOTE:**This method does not support[hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
+**NOTE:** This method does not support [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetText.html)
 
 ## Availability

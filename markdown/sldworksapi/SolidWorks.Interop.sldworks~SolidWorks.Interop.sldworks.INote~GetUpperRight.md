@@ -40,29 +40,15 @@ System.object GetUpperRight()
 System.Object^ GetUpperRight();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Note::GetUpperRight](ms-its:sldworksapivb6.chm::/sldworks~Note~GetUpperRight.html)
-
-.
+See [Note::GetUpperRight](ms-its:sldworksapivb6.chm::/sldworks~Note~GetUpperRight.html).
 
 ## Examples
 
@@ -79,7 +65,5 @@ Format of retval is the following array of 3 doubles:
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::IGetUpperRight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetUpperRight.html)

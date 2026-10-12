@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # Redraw Property (ISectionViewData)
 
-Gets or sets whether to have
-
-[IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html)
-
-validate and return a status for section bodies instead of section views.
+Gets or sets whether to have [IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html) validate and return a status for section bodies instead of section views.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool Redraw {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,36 +53,21 @@ True to validate and return a status for newly created section bodies, false to 
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::Redraw](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~Redraw.html)
-
-.
+See [SectionViewData::Redraw](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~Redraw.html).
 
 ## Examples
 
 [Create Section View in Model (C#)](Create_Section_View_in_Model_Example_CSharp.htm)
-
 [Create Section View in Model (VB.NET)](Create_Section_View_in_Model_Example_VBNET.htm)
-
 [Create Section View in Model (VBA)](Create_Section_View_in_Model_Example_VB.htm)
 
 ## Remarks
 
-By default,
-
-[IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html)
-
-returns whether it successfully created a section view. Set this property to true to have
-
-[IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html)
-
-check and return whether it successfully created the section bodies.
+By default, [IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html) returns whether it successfully created a section view. Set this property to true to have [IModelViewManager::CreateSectionView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateSectionView.html) check and return whether it successfully created the section bodies.
 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
 
 ## Availability

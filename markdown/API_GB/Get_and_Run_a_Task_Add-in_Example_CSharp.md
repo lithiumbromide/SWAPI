@@ -9,12 +9,9 @@ source: "API_GB/Get_and_Run_a_Task_Add-in_Example_CSharp.htm"
 
 # Get and Run a Task Add-in Example (C#)
 
-This example shows how to get a task add-in that is
-registered in the Admin tool and run it.
+This example shows how to get a task add-in that is registered in the Admin tool and run it.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
  //----------------------------------------------------------------------------

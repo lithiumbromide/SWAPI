@@ -1,6 +1,5 @@
 ---
-title: "Measure Object
-Members"
+title: "Measure Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Measure_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Measure_members.html"
 ---
 
-# Measure Object
-Members
+# Measure Object Members
 
 ## Public Methods
 

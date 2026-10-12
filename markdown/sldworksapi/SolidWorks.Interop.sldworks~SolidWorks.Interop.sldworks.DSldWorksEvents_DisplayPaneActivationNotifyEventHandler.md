@@ -43,27 +43,15 @@ public delegate System.int DSldWorksEvents_DisplayPaneActivationNotifyEventHandl
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ActivePaneIndex`: Display Pane as defined by
-
-[swDisplayPaneIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayPaneIndex_e.html)
+- `ActivePaneIndex`: Display Pane as defined by [swDisplayPaneIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayPaneIndex_e.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayPaneActivationNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DisplayPaneActivationNotify_EV.html)
-
-.
+See [DisplayPaneActivationNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DisplayPaneActivationNotify_EV.html).
 
 ## Examples
 
@@ -71,7 +59,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use[swAppDisplayPaneActivationNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppDisplayPaneActivationNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

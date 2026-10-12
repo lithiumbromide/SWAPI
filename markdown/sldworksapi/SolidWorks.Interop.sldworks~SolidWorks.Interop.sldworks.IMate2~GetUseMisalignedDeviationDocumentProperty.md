@@ -40,13 +40,7 @@ System.bool GetUseMisalignedDeviationDocumentProperty()
 System.bool GetUseMisalignedDeviationDocumentProperty();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ True to use the document property value for maximum misalignment deviation, fals
 
 ## VBA Syntax
 
-See
-
-[Mate2::GetUseMisalignedDeviationDocumentProperty](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetUseMisalignedDeviationDocumentProperty.html)
-
-.
+See [Mate2::GetUseMisalignedDeviationDocumentProperty](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetUseMisalignedDeviationDocumentProperty.html).
 
 ## Remarks
 
-If this method returns false, then the maximum deviation used is returned by
-
-[IMate2::GetMaximumMisalignedDeviation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~GetMaximumMisalignedDeviation.html)
-
-.
+If this method returns false, then the maximum deviation used is returned by [IMate2::GetMaximumMisalignedDeviation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~GetMaximumMisalignedDeviation.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::SetUseMisalignedDeviationDocumentProperty Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~SetUseMisalignedDeviationDocumentProperty.html)
 
 ## Availability

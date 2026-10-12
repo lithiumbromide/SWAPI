@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView_members.html"
 
 # IEdmBomView Interface Members
 
-The following tables list the members exposed by[IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html).
+The following tables list the members exposed by [IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEdmBomView](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmBomView Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

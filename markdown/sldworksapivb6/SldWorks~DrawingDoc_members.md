@@ -1,6 +1,5 @@
 ---
-title: "DrawingDoc Object
-Members"
+title: "DrawingDoc Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DrawingDoc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DrawingDoc_members.html"
 ---
 
-# DrawingDoc Object
-Members
+# DrawingDoc Object Members
 
 ## Public Methods
 
@@ -303,6 +301,7 @@ Members
 | Public Event ActiveConfigChangeNotify |  |
 | Public Event ActiveConfigChangePostNotify |  |
 | Public Event AddCustomPropertyNotify |  |
+| Public Event AddDependencyNotify |  |
 | Public Event AddDvePagePreNotify |  |
 | Public Event AddItemNotify |  |
 | Public Event AutoSaveNotify |  |
@@ -312,6 +311,7 @@ Members
 | Public Event ClearSelectionsNotify |  |
 | Public Event CommandManagerTabActivatedPreNotify |  |
 | Public Event DeleteCustomPropertyNotify |  |
+| Public Event DeleteDependencyNotify |  |
 | Public Event DeleteItemNotify |  |
 | Public Event DeleteItemPreNotify |  |
 | Public Event DeleteSelectionPreNotify |  |
@@ -358,3 +358,4 @@ Members
 | Public Event ViewCreatePreNotify |  |
 | Public Event ViewNewNotify |  |
 | Public Event ViewNewNotify2 |  |
+| Public Event ViewPositionChangeNotify |  |

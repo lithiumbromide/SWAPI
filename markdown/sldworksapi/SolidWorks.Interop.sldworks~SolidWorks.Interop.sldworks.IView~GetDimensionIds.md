@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDimensionIds Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDimensionIds4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionIds4.html)
-
-and
-
-[IView::IGetDimensionIds4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionIds4.html)
-
-.
+Obsolete. Superseded by [IView::GetDimensionIds4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionIds4.html) and [IView::IGetDimensionIds4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionIds4.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetDimensionIds()
 System.Object^ GetDimensionIds();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetDimensionIds](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionIds.html)
-
-.
+See [View::GetDimensionIds](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionIds.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

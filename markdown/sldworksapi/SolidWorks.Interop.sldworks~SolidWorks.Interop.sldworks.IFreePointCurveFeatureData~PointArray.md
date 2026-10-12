@@ -45,46 +45,33 @@ property System.Object^ PointArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of doubles containing 3 * points (see**Remarks**)
+Array of doubles containing 3 * points (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FreePointCurveFeatureData::PointArray](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~PointArray.html)
-
-.
+See [FreePointCurveFeatureData::PointArray](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~PointArray.html).
 
 ## Examples
 
 [Insert Free Point Curve Feature (C#)](Insert_Free_Point_Curve_Feature_Example_CSharp.htm)
-
 [Insert Free Point Curve Feature (VB.NET)](Insert_Free_Point_Curve_Feature_Example_VBNET.htm)
-
 [Insert Free Point Curve Feature (VBA)](Insert_Free_Point_Curve_Feature_Example_VB.htm)
 
 ## Remarks
 
 The ArrayDataIn argument is an array of doubles containing 3 * points:
 
-[x1, y1, z1, x2, y2, z2, ...]
+[ x1, y1, z1, x2, y2, z2, ... ]
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IFreePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData.html)
-
 [IFreePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData_members.html)
 
 ## Availability

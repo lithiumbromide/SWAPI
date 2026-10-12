@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertCompositeLineProfileGeoTol Object
-Members"
+title: "ISwDMDimXpertCompositeLineProfileGeoTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertCompositeLineProfileGeoTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertCompositeLineProfileGeoTol_members.html"
 ---
 
-# ISwDMDimXpertCompositeLineProfileGeoTol Object
-Members
+# ISwDMDimXpertCompositeLineProfileGeoTol Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "SplitBodyFeatureData Object
-Members"
+title: "SplitBodyFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SplitBodyFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SplitBodyFeatureData_members.html"
 ---
 
-# SplitBodyFeatureData Object
-Members
+# SplitBodyFeatureData Object Members
 
 ## Public Methods
 

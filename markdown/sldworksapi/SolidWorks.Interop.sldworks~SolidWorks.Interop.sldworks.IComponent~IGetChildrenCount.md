@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetChildrenCount Method (IComponent)
 
-Obsolete. Superseded by
-
-[Component2::IGetChildrenCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetChildrenCount.html)
-
-.
+Obsolete. Superseded by [Component2::IGetChildrenCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetChildrenCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetChildrenCount()
 System.int IGetChildrenCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::IGetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetChildrenCount.html)
-
-.
+See [Component::IGetChildrenCount](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetChildrenCount.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

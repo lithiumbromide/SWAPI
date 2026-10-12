@@ -1,6 +1,5 @@
 ---
-title: "CostFeature Object
-Members"
+title: "CostFeature Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostFeature_members.html"
 ---
 
-# CostFeature Object
-Members
+# CostFeature Object Members
 
 ## Public Methods
 

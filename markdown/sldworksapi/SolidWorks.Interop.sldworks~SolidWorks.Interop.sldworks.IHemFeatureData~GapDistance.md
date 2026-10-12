@@ -45,13 +45,7 @@ property System.double GapDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Gap distance
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~GapDistance.html)
-
-.
+See [HemFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~GapDistance.html).
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
 
 ## Availability

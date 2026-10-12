@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Angle.html)
-
-.
+See [RuledSurfaceFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Angle.html).
 
 ## Remarks
 
-This property is only available when
-
-[IRuledSurfaceFeatureData::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~Type.html)
-
-is set to
-
-[swRuledSurfaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRuledSurfaceType_e.html)
-
-.swRuledSurfaceType_TaperedToVector.
+This property is only available when [IRuledSurfaceFeatureData::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~Type.html) is set to [swRuledSurfaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRuledSurfaceType_e.html).swRuledSurfaceType_TaperedToVector.
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
 
 ## Availability

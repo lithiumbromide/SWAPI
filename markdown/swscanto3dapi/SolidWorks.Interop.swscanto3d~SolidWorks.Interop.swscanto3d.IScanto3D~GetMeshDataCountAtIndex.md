@@ -67,32 +67,19 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Scanto3D::GetMeshDataCountAtIndex](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshDataCountAtIndex.html)
-
-.
+See [Scanto3D::GetMeshDataCountAtIndex](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshDataCountAtIndex.html).
 
 ## Examples
 
-See the
-
-[IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
-examples.
+See the [IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html) examples.
 
 ## Remarks
 
-Before calling this method, call
-
-[IScanto3D::GetMeshCount](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D~GetMeshCount.html)
-
-to obtain the total number of mesh features in this mesh.
+Before calling this method, call [IScanto3D::GetMeshCount](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D~GetMeshCount.html) to obtain the total number of mesh features in this mesh.
 
 ## See Also
 
 [IScanto3D Interface](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
 [IScanto3D Members](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D_members.html)
 
 ## Availability

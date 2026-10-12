@@ -1,6 +1,5 @@
 ---
-title: "ImportedCurveFeatureData Object
-Members"
+title: "ImportedCurveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ImportedCurveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ImportedCurveFeatureData_members.html"
 ---
 
-# ImportedCurveFeatureData Object
-Members
+# ImportedCurveFeatureData Object Members
 
 ## Public Methods
 

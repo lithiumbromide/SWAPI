@@ -9,12 +9,9 @@ source: "sldworksapi/Compare_Selected_Objects_and_Their_Persistent_Reference_IDs
 
 # Compare Selected Objects and Their Persistent Reference IDs Example (C#)
 
-This example shows how to determine if two selected entities are the
-same entities and if those entities have the same persistent IDs.
+This example shows how to determine if two selected entities are the same entities and if those entities have the same persistent IDs.
 
-**NOTE**: Using[IModelDocExtension::IsSamePersistentID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsSamePersistentID.html)and[ISldWorks::IsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsSame.html)might be helpful when your application is passed two entities that it
-didn't select, and your application needs to know if they're the same
-entity.
+**NOTE**: Using [IModelDocExtension::IsSamePersistentID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsSamePersistentID.html) and [ISldWorks::IsSame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IsSame.html) might be helpful when your application is passed two entities that it didn't select, and your application needs to know if they're the same entity.
 
 ```
 //----------------------------------------------------------------------------

@@ -51,16 +51,11 @@ EdmSWBomCell^ GetCell(
 
 ## Examples
 
-See the
-
-[IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html)
-
-examples.
+See the [IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html) examples.
 
 ## See Also
 
 [IEdmSWBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom.html)
-
 [IEdmSWBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBom_members.html)
 
 ## Availability

@@ -48,11 +48,7 @@ void InsertEntity(
 
 ### Parameters
 
-- `DispEntity`: Entity (see
-
-Remarks
-
-)
+- `DispEntity`: Entity (see **Remarks**)
 
 ### Return Value
 
@@ -60,11 +56,7 @@ Index of entity added
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~InsertEntity.html)
-
-.
+See [CWRemoteLoad::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~InsertEntity.html).
 
 ## Remarks
 
@@ -78,9 +70,7 @@ See
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~RemoveEntity.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "DimXpertAutoDimSchemeOption Object
-Members"
+title: "DimXpertAutoDimSchemeOption Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertAutoDimSchemeOption_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertAutoDimSchemeOption_members.html"
 ---
 
-# DimXpertAutoDimSchemeOption Object
-Members
+# DimXpertAutoDimSchemeOption Object Members
 
 ## Public Properties
 

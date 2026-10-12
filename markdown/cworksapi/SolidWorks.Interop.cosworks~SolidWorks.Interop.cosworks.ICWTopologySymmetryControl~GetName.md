@@ -46,26 +46,16 @@ Name of the symmetry control
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~GetName.html)
-
-.
+See [CWTopologySymmetryControl::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
-example.
+See the [ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html) example.
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
-
 [ICWTopologySymmetryControl::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SetName.html)
 
 ## Availability

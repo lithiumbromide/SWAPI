@@ -59,29 +59,13 @@ Texture^ CreateTexture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `MatName`: Name of the texture file
-- `Scale`: Value by which to adjust the granularity of the textureParamDesc; value between 0.001 and 1000000.00
-- `Angle`: Value by which to adjust the rotation of the texture; value between 0.0
-
-begin!kadov{{
-
-}}end!kadov
-
-and 360.0
-
-begin!kadov{{
-
-}}end!kadov
+- `Scale`: Value by which to adjust the granularity of the texture; value between 0.001 and 1000000.00
+- `Angle`: Value by which to adjust the rotation of the texture; value between 0.0 and 360.0
 - `Blend`: True to blend the part color with the texture color, false to not
 
 ### Return Value
@@ -90,40 +74,25 @@ begin!kadov{{
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateTexture.html)
-
-.
+See [ModelDocExtension::CreateTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateTexture.html).
 
 ## Examples
 
 [Apply and Remove Texture To and From Model By Display State (VB.NET)](Apply_and_Remove_Texture_By_Model_Display_State_Example_VBNET.htm)
-
 [Apply and Remove Texture To and From Model By Display State (C#)](Apply_and_Remove_Texture_By_Model_Display_State_Example_CSharp.htm)
-
 [Apply and Remove Texture To and From Model By Display State (VBA)](Apply_and_Remove_Texture_By_Model_Display_State_Example_VB.htm)
-
 [Change Texture on Face in Specified Configuration (VBA)](Change_Texture_on_Face_in_Specified_Configuration_Example_VB.htm)
-
 [Change Texture on Face in Specified Configuration (VB.NET)](Change_Texture_on_Face_in_Specified_Configuration_Example_VBNET.htm)
-
 [Change Texture on Face in Specified Configuration (C#)](Change_Texture_on_Face_in_Specified_Configuration_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::RemoveTexture2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveTexture2.html)
-
 [IModelDocExtension::SetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetTexture.html)
-
 [IModelDocExtension::GetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetTexture.html)
-
 [IModelDocExtenson::RemoveTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveTextureByDisplayState.html)
-
 [IModelDocExtenson::SetTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetTextureByDisplayState.html)
 
 ## Availability

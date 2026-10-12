@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Get3DExperienceModelType Method (IModelDocExtension)
 
-Gets the type of
-
-3D
-
-EXPERIENCE application that owns this model.
+Gets the type of **3D**EXPERIENCE application that owns this model.
 
 ## Syntax
 
@@ -44,36 +40,19 @@ System.int Get3DExperienceModelType()
 System.int Get3DExperienceModelType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of
-
-3D
-
-EXPERIENCE owner as defined by
-
-[sw3DExperienceModelType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceModelType_e.html)
+Type of **3D**EXPERIENCE owner as defined by [sw3DExperienceModelType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceModelType_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Get3DExperienceModelType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Get3DExperienceModelType.html)
-
-.
+See [ModelDocExtension::Get3DExperienceModelType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Get3DExperienceModelType.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

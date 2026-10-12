@@ -1,6 +1,5 @@
 ---
-title: "CWLoadCaseManager Object
-Members"
+title: "CWLoadCaseManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWLoadCaseManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWLoadCaseManager_members.html"
 ---
 
-# CWLoadCaseManager Object
-Members
+# CWLoadCaseManager Object Members
 
 ## Public Methods
 

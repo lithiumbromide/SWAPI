@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # GetRandomVibrationPartialCorrelationDetails Method (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetRandomVibrationPartialCorrelationDetails2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetRandomVibrationPartialCorrelationDetails2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetRandomVibrationPartialCorrelationDetails2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetRandomVibrationPartialCorrelationDetails2.html)
 
 ## Syntax
 
@@ -58,24 +56,17 @@ void GetRandomVibrationPartialCorrelationDetails(
 
 ### Parameters
 
-- `NUnits`: Units as defined
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnits`: Units as defined [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 - `DInRadius`: Inside radius
 - `DOutRadius`: Outside radius
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetRandomVibrationPartialCorrelationDetails](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetRandomVibrationPartialCorrelationDetails.html)
-
-.
+See [CWDynamicStudyOptions::GetRandomVibrationPartialCorrelationDetails](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetRandomVibrationPartialCorrelationDetails.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

@@ -48,18 +48,12 @@ Number of properties
 
 ## VBA Syntax
 
-See
-
-[PDMWProperties::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Count.html)
-
-.
+See [PDMWProperties::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Count.html).
 
 ## See Also
 
 [IPDMWProperties Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
-
 [IPDMWProperties Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties_members.html)
-
 [IPDMWProperties::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Item.html)
 
 ## Availability

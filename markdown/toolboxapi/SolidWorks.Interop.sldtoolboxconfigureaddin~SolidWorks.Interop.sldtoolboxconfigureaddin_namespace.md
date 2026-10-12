@@ -13,8 +13,10 @@ source: "toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Inter
 
 | Interface | Description |
 | --- | --- |
+| CTbcApplication |  |
 | IToolboxConfiguratorAddin | Connects to the Toolbox Configurator (Welcome to Toolbox Setup dialog) when it is opened and disconnects from it when it is closed. |
 | IToolBoxConfiguratorApplication | Provides access to the Welcome to Toolbox Setup dialog. |
+| ToolboxConfiguratorAddin |  |
 
 ## See Also
 

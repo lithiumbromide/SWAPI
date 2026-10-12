@@ -42,28 +42,18 @@ CWMaterial^ GetShellMaterial();
 
 ### Return Value
 
-[Material](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMaterial.html)
-
-or Nothing or null if no material was applied to the shell
+[Material](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMaterial.html) or Nothing or null if no material was applied to the shell
 
 ## VBA Syntax
 
-See
-
-[CWShell::GetShellMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetShellMaterial.html)
-
-.
+See [CWShell::GetShellMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetShellMaterial.html).
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
-
 [ICWShell::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~GetDefaultMaterial.html)
-
 [ICWShell::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetLibraryMaterial.html)
-
 [ICWShell::SetShellMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetShellMaterial.html)
 
 ## Availability

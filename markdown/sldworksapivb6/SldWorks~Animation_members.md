@@ -1,6 +1,5 @@
 ---
-title: "Animation Object
-Members"
+title: "Animation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Animation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Animation_members.html"
 ---
 
-# Animation Object
-Members
+# Animation Object Members
 
 ## Public Methods
 

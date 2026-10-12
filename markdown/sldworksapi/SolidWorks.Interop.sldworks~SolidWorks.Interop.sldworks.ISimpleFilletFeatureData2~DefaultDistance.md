@@ -45,13 +45,7 @@ property System.double DefaultDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ Default Distance 2 radius of this asymmetric fillet
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::DefaultDistance](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~DefaultDistance.html)
-
-.
+See [SimpleFilletFeatureData2::DefaultDistance](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~DefaultDistance.html).
 
 ## Examples
 
-See the
-
-[ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
-introductory example.
+See the [ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html) introductory example.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::AsymmetricFillet Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~AsymmetricFillet.html)
 
 ## Availability

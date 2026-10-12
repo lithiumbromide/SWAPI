@@ -74,6 +74,7 @@ public enum class swFeatureError_e : public System.Enum
 | swFeatureErrorMateInvalidFace | 39 = One of the faces of this mate is suppressed, invalid, or no longer present |
 | swFeatureErrorMateOverdefined | 46 = This mate is over-defining the assembly; consider deleting some of the over-defining mates |
 | swFeatureErrorMateUnknownTangent | 42 = Tangent not satisfied |
+| swFeatureErrorMissingItemsInFeature | 73 = There are missing items in the feature; reselect the correct references |
 | swFeatureErrorNone | 0 = No error |
 | swFeatureErrorPartialEdgeFilletCrossOverEndCondition | 62 = End points cross over and result in a zero thickness fillet |
 | swFeatureErrorPartialEdgeFilletFailedToRepair | 68 = There are no references to repair |

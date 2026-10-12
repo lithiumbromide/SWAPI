@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # IsTwoSided Property (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::IsTwoSided](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~IsTwoSided.html)
-
-.
+Obsolete. Superseded by [IRibFeatureData2::IsTwoSided](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~IsTwoSided.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool IsTwoSided {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::IsTwoSided](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~IsTwoSided.html)
-
-.
+See [RibFeatureData::IsTwoSided](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~IsTwoSided.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

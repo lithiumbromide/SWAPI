@@ -1,6 +1,5 @@
 ---
-title: "RefPointFeatureData Object
-Members"
+title: "RefPointFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RefPointFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RefPointFeatureData_members.html"
 ---
 
-# RefPointFeatureData Object
-Members
+# RefPointFeatureData Object Members
 
 ## Public Methods
 

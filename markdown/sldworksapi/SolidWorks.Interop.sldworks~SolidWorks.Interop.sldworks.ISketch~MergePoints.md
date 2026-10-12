@@ -47,13 +47,7 @@ System.bool MergePoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::MergePoints](ms-its:sldworksapivb6.chm::/sldworks~Sketch~MergePoints.html)
-
-.
+See [Sketch::MergePoints](ms-its:sldworksapivb6.chm::/sldworks~Sketch~MergePoints.html).
 
 ## Remarks
 
-This method requires that only one open contour exists in the sketch. To specify a distance below which points are automatically merged while creating the segments, use[ISketchRelationManager::AddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~AddRelation.html)or[ISketchRelationManager::IAddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~IAddRelation.html)and swConstraintType_COINCIDENT.
+This method requires that only one open contour exists in the sketch. To specify a distance below which points are automatically merged while creating the segments, use [ISketchRelationManager::AddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~AddRelation.html) or [ISketchRelationManager::IAddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~IAddRelation.html) and swConstraintType_COINCIDENT.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::IGetSketchPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSketchPoints2.html)
-
 [ISketch::GetSketchPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchPoints2.html)
-
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
 
 ## Availability

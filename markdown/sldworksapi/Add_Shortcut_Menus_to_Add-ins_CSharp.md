@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Shortcut_Menus_to_Add-ins_CSharp.htm"
 
 # Add Shortcut Menus to Add-ins Example (C#)
 
-This example shows how to create a shortcut menu that launches from a
-third-party icon in the context-sensitive menus of part faces.
+This example shows how to create a shortcut menu that launches from a third-party icon in the context-sensitive menus of part faces.
 
 ```vb
  //---------------------------------------------------------------------------
@@ -22,10 +21,10 @@ third-party icon in the context-sensitive menus of part faces.
  // 4. Click Project > SwCSharpAddin1 Properties > Debug.
  // 5. Select Start external program and type the path to  sldworks.exe. Include
  //    sldworks.exe in the path.
- // 6. Press F5 to start debugging SOLIDWORKS with this add-in.
+ // 6. Press F5 to start debugging SOLIDWORKS Design with this add-in.
  //
  // Postconditions:
- // 1. In SOLIDWORKS, click Tools > C# Add-in > CreateCube.
+ // 1. In SOLIDWORKS Design, click Tools > C# Add-in > CreateCube.
  // 2. Click a face on the cube.
  // 3. Click the third-party icon in the face's context-sensitive menu.
  // 4. Click a shortcut menu item and inspect the Immediate Window.

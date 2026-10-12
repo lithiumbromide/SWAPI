@@ -78,95 +78,51 @@ void SetFrameSymbols2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FrameNumber`: Feature control frame 1 for first
-- `GCS`: Geometric tolerance symbol (see
-
-Remarks
-
-)
+- `GCS`: Geometric tolerance symbol (see **Remarks**)
 - `TolDia1`: Diameter symbol exists for tolerance 1 (True or false)
-- `TolMC1`: Material condition symbol for tolerance 1 (see
-
-Remarks
-
-)
+- `TolMC1`: Material condition symbol for tolerance 1 (see **Remarks**)
 - `TolDia2`: Diameter symbol exists for tolerance 2 (True or false)
-- `TolMC2`: Material condition symbol for tolerance 2 (see
-
-Remarks
-
-)
-- `DatumMC1`: Material condition symbols for primary datum (see
-
-Remarks
-
-)
-- `DatumMC2`: Material condition symbols for secondary datum (see
-
-Remarks
-
-)
-- `DatumMC3`: Material condition symbols for tertiary datum (see
-
-Remarks
-
-)
+- `TolMC2`: Material condition symbol for tolerance 2 (see **Remarks**)
+- `DatumMC1`: Material condition symbols for primary datum (see **Remarks**)
+- `DatumMC2`: Material condition symbols for secondary datum (see **Remarks**)
+- `DatumMC3`: Material condition symbols for tertiary datum (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetFrameSymbols2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameSymbols2.html)
-
-.
+See [Gtol::SetFrameSymbols2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameSymbols2.html).
 
 ## Examples
 
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
 
 ## Remarks
 
 This method is valid only if this Gtol was created in a version of SOLIDWORKS earlier than 2022.
 
-GTol symbols are defined in**C:\ProgramData\SolidWorks\SolidWorks**20`nn`**\lang\english\**gtol.sym.Reference this file to specify GCS, TolMC1, TolMC2, DatumMC1, DatumMC2, and DatumMC3 in <`LibraryName-SymbolName`> format.
+GTol symbols are defined in **C:\ProgramData\SolidWorks\SolidWorks** **20**`nn`**\lang\english\**gtol.sym. Reference this file to specify GCS, TolMC1, TolMC2, DatumMC1, DatumMC2, and DatumMC3 in <`LibraryName-SymbolName`> format.
 
 Examples:
 
 - GCS = "<IGTOL-POSI>" (Position symbol in the ISO Geometric Tolerancing Symbols library)
 - TolMC1 = "<MOD-LMC>" (Least Material Condition symbol in the Modifying Symbols library)
 
-After calling this method, call[IGtol::SetFrameValues2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameValues2.html)to specify tolerance and datum values.
+After calling this method, call [IGtol::SetFrameValues2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameValues2.html) to specify tolerance and datum values.
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetFrameCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameCount.html)
-
 [IGtol::GetFrameDiameterSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameDiameterSymbols.html)
-
 [IGtol::GetFrameSymbols2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameSymbols2.html)
-
 [IGtol::GetFrameValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameValues.html)
-
 [IGtol::IGetFrameDiameterSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetFrameDiameterSymbols.html)
-
 [IGtol::IGetFrameSymbols2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetFrameSymbols2.html)
-
 [IGtol::IGetFrameValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetFrameValues.html)

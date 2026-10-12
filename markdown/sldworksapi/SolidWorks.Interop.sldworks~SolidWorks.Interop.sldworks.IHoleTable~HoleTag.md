@@ -50,13 +50,7 @@ property System.String^ HoleTag {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,34 +62,25 @@ Tag name
 
 ## VBA Syntax
 
-See
-
-[HoleTable::HoleTag](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~HoleTag.html)
-
-.
+See [HoleTable::HoleTag](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~HoleTag.html).
 
 ## Examples
 
 [Change Tags in Hole Table (VB.NET)](Change_Tags_in_Hole_Table_Example_VBNET.htm)
-
 [Change Tags in Hole Table (VBA)](Change_Tags_in_Hole_Table_Example_VB.htm)
-
 [Change Tags in Hole Table (C#)](Change_Tags_in_Hole_Table_Example_CSharp.htm)
 
 ## Remarks
 
-[IHoleTable::CombineTags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~CombineTags.html)must be false for IHoleTable::HoleTag to work.
+[IHoleTable::CombineTags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~CombineTags.html) must be false for IHoleTable::HoleTag to work.
 
-If you plan on changing many hole tags, then consider setting[IHoleTable::EnableUpdate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~EnableUpdate.html)to false to avoid a possible degradation in performance. After changing all of the hole tags, set IHoleTable::EnableUpdate to true to update the hole table and model view.
+If you plan on changing many hole tags, then consider setting [IHoleTable::EnableUpdate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~EnableUpdate.html) to false to avoid a possible degradation in performance. After changing all of the hole tags, set IHoleTable::EnableUpdate to true to update the hole table and model view.
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::HoleTagsVisible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~HoleTagsVisible.html)
-
 [IHoleTable::TagStyle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~TagStyle.html)
 
 ## Availability

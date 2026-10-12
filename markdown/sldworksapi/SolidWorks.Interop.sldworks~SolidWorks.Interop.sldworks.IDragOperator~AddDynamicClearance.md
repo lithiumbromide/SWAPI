@@ -63,13 +63,7 @@ System.int AddDynamicClearance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,20 +79,13 @@ Newly added clearance pair
 
 ## VBA Syntax
 
-See
-
-[DragOperator::AddDynamicClearance](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~AddDynamicClearance.html)
-
-.
+See [DragOperator::AddDynamicClearance](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~AddDynamicClearance.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::IAddDynamicClearance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~IAddDynamicClearance.html)
-
 [IDragOperator::DynamicClearanceEnabled Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~DynamicClearanceEnabled.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "LinearCouplerMateFeatureData Object
-Members"
+title: "LinearCouplerMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LinearCouplerMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LinearCouplerMateFeatureData_members.html"
 ---
 
-# LinearCouplerMateFeatureData Object
-Members
+# LinearCouplerMateFeatureData Object Members
 
 ## Public Properties
 

@@ -51,16 +51,11 @@ Name of the current owner of this document
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Owner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Owner.html)
-
-.
+See [PDMWDocument::Owner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Owner.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

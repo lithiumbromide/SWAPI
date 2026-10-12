@@ -40,13 +40,7 @@ System.long GetTaskpaneViewWndx64()
 System.int64 GetTaskpaneViewWndx64();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,17 @@ Window handle
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::GetTaskpaneViewWndx64](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~GetTaskpaneViewWndx64.html)
-
-.
+See [TaskpaneView::GetTaskpaneViewWndx64](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~GetTaskpaneViewWndx64.html).
 
 ## Remarks
 
-To insert a Task Pane view window, create your Task Pane view window and pass its handle to SOLIDWORKS using[ITaskpaneView::DisplayWindowFromHandlex64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~DisplayWindowFromHandlex64.html).
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
+
+To insert a Task Pane view window, create your Task Pane view window and pass its handle to SOLIDWORKS Design using [ITaskpaneView::DisplayWindowFromHandlex64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~DisplayWindowFromHandlex64.html).
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
 
 ## Availability

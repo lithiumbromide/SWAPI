@@ -46,11 +46,7 @@ True if the tolerance is in a free state; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::IsFreeState](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsFreeState.html)
-
-.
+See [DimXpertAnnotation::IsFreeState](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsFreeState.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ This tolerance modifier is set by clicking the F option at the top of the Geomet
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

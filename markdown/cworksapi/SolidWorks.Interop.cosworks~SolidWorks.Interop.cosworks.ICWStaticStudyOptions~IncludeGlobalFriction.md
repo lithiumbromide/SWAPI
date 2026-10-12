@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # IncludeGlobalFriction Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by[ICWStaticStudyOptions::IncludeGlobalFriction2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction2.html).
+Obsolete. Superseded by [ICWStaticStudyOptions::IncludeGlobalFriction2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction2.html).
 
 ## Syntax
 
@@ -51,36 +51,21 @@ property System.int IncludeGlobalFriction {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::IncludeGlobalFriction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncludeGlobalFriction.html)
-
-.
+See [CWStaticStudyOptions::IncludeGlobalFriction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncludeGlobalFriction.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## Remarks
 
-After setting this property to 1, set the friction coefficient using
-
-[ICWStaticStudyOptions::FrictionCoefficient](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~FrictionCoefficient.html)
-
-.
+After setting this property to 1, set the friction coefficient using [ICWStaticStudyOptions::FrictionCoefficient](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~FrictionCoefficient.html).
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::IgnoreClearanceForSurfaceContact Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IgnoreClearanceForSurfaceContact.html)
-
 [ICWStaticStudyOptions::NoPenetration Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~NoPenetration.html)
 
 ## Availability

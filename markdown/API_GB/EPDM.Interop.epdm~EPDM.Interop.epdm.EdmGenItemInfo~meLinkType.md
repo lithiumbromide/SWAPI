@@ -34,12 +34,9 @@ EdmItemLinkType meLinkType
 
 ### Field Value
 
-Type of link as define din
-
-[EdmItemLinkType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemLinkType.html)
+Type of link as define din [EdmItemLinkType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemLinkType.html)
 
 ## See Also
 
 [EdmGenItemInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html)
-
 [EdmGenItemInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo_members.html)

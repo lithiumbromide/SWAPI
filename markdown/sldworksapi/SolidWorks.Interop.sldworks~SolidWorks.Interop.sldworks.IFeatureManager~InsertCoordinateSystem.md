@@ -55,13 +55,7 @@ Feature^ InsertCoordinateSystem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCoordinateSystem.html)
-
-.
+See [FeatureManager::InsertCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCoordinateSystem.html).
 
 ## Examples
 
@@ -87,7 +77,7 @@ See
 
 ## Remarks
 
-Make the selections using[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a mark of:
+Make the selections using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark of:
 
 - 1 - Origin
 - 2 - X axis
@@ -102,11 +92,8 @@ This method:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
-
 [IFeatureManager::CreateCoordinateSystem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateCoordinateSystem.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ColorTable Object
-Members"
+title: "ColorTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ColorTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ColorTable_members.html"
 ---
 
-# ColorTable Object
-Members
+# ColorTable Object Members
 
 ## Public Methods
 

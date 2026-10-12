@@ -47,25 +47,11 @@ System.bool IsCommandEnabled(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CommandID`: Command ID as defined
-
-[swCommands_e](ms-its:swcommands.chm::/SOLIDWORKS.Interop.swcommands.html)
-
-(see
-
-Remarks
-
-)
+- `CommandID`: Command ID as defined [swCommands_e](ms-its:swcommands.chm::/SOLIDWORKS.Interop.swcommands.html) (see Remarks)
 
 ### Return Value
 
@@ -73,22 +59,16 @@ True if the command is enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IsCommandEnabled](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsCommandEnabled.html)
-
-.
+See [SldWorks::IsCommandEnabled](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsCommandEnabled.html).
 
 ## Remarks
 
-Before using this method, you must add a reference to the version-specificSOLIDWORKS Commands type libraryto access the SOLIDWORKS commands.
+Before using this method, you must add a reference to the version-specific SOLIDWORKS Commands type library to access the SOLIDWORKS commands.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::RunCommand Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunCommand.html)
 
 ## Availability

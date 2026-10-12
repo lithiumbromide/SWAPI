@@ -1,6 +1,5 @@
 ---
-title: "PartDoc Object
-Members"
+title: "PartDoc Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PartDoc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PartDoc_members.html"
 ---
 
-# PartDoc Object
-Members
+# PartDoc Object Members
 
 ## Public Methods
 
@@ -181,6 +179,7 @@ Members
 | Public Event ActiveDisplayStateChangePreNotify |  |
 | Public Event ActiveViewChangeNotify |  |
 | Public Event AddCustomPropertyNotify |  |
+| Public Event AddDependencyNotify |  |
 | Public Event AddDvePagePreNotify |  |
 | Public Event AddItemNotify |  |
 | Public Event AutoSaveNotify |  |
@@ -195,6 +194,7 @@ Members
 | Public Event ConvertToBodiesPostNotify |  |
 | Public Event ConvertToBodiesPreNotify |  |
 | Public Event DeleteCustomPropertyNotify |  |
+| Public Event DeleteDependencyNotify |  |
 | Public Event DeleteItemNotify |  |
 | Public Event DeleteItemPreNotify |  |
 | Public Event DeleteSelectionPreNotify |  |
@@ -247,6 +247,7 @@ Members
 | Public Event SaveToStorageStoreNotify |  |
 | Public Event SensorAlertPreNotify |  |
 | Public Event SketchSolveNotify |  |
+| Public Event SolidBodyFolderReorderNotify |  |
 | Public Event SuppressionStateChangeNotify |  |
 | Public Event UndoPostNotify |  |
 | Public Event UndoPreNotify |  |

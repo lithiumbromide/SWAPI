@@ -91,32 +91,15 @@ void CreateNewVault(
 - `bsSQLUserName`: Name of the user who logs in to the SQL Server computer
 - `bsSQLPassword`: Password for the user who logs in to the SQL Server computer
 - `bsSQLDatabaseName`: Name of the SQL database for the new vault
-- `lDateFmt`: SQL Server date format code for the new vault (see
-
-Remarks
-
-)
+- `lDateFmt`: SQL Server date format code for the new vault (see **Remarks**)
 - `bsAdminUserPassword`: Password for the Admin user
-- `lEdmCreateVaultFlag`: Combination of
-
-[EdmCreateVaultFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateVaultFlag.html)
-
-bits
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to obtain progress information
-- `oExtra`: (see
-
-Remarks
-
-)
+- `lEdmCreateVaultFlag`: Combination of [EdmCreateVaultFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateVaultFlag.html) bits
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to obtain progress information
+- `oExtra`: (see **Remarks**)
 
 ## Examples
 
 [Create New Vault (VB.NET)](Create_New_Vault_Example_VBNET.htm)
-
 [Create New Vault (C#)](Create_New_Vault_Example_CSharp.htm)
 
 ## Remarks
@@ -148,11 +131,7 @@ See the CAST/CONVERT documentation in the SQL Server online help to learn more a
 
 Specify oExtra with one of the following:
 
-- VT_BSTR containing either a CEX-file path to set up the vault with data from the export file or a valid vault configuration name like "Default", "Empty" or "SOLIDWORKS Quick Start"; for valid configuration names, see the
-
-  Configure Vault
-
-  step in the vault creation wizard of the administration tool
+- VT_BSTR containing either a CEX-file path to set up the vault with data from the export file or a valid vault configuration name like "Default", "Empty" or "SOLIDWORKS Quick Start"; for valid configuration names, see the **Configure Vault** step in the vault creation wizard of the administration tool
 - VT_EMPTY to use default configuration
 
 [Return codes:](ReturnCodes.htm)
@@ -172,9 +151,7 @@ Specify oExtra with one of the following:
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
-
 [IEdmVault11::CreateNewVaultView Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVaultView.html)
 
 ## Availability

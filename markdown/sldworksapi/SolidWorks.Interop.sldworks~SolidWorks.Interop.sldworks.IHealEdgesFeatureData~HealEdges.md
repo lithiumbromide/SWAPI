@@ -39,21 +39,11 @@ void HealEdges()
 void HealEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[HealEdgesFeatureData::HealEdges](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~HealEdges.html)
-
-.
+See [HealEdgesFeatureData::HealEdges](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~HealEdges.html).
 
 ## Examples
 
@@ -62,7 +52,6 @@ See
 ## See Also
 
 [IHealEdgesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html)
-
 [IHealEdgesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData_members.html)
 
 ## Availability

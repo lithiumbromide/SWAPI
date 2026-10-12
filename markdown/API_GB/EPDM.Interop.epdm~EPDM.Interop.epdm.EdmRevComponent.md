@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent.html"
 
 # EdmRevComponent Structure
 
-Obsolete. Superseded by
-
-[EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
-.
+Obsolete. Superseded by [EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html).
 
 ## Syntax
 
@@ -41,31 +37,19 @@ public value class EdmRevComponent : public System.ValueType
 struct EdmRevComponent
 
 {
-
-integer
-
-[mlComponentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID.html)
-
-;
-
-string
-
-[mbsComponentName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mbsComponentName.html)
-
-;
-
+integer [mlComponentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mlComponentID.html);
+string [mbsComponentName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent~mbsComponentName.html);
 };
 
 ## Remarks
 
-Returned by[IEdmRevisionMgr::GetRevisionNumberComponents](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~GetRevisionNumberComponents.html), which is obsolete and superseded by[IEdmRevisionMgr2.::GetRevisionNumberComponents2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2.html), which returns EdmRevComponent2.
+Returned by [IEdmRevisionMgr::GetRevisionNumberComponents](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~GetRevisionNumberComponents.html), which is obsolete and superseded by [IEdmRevisionMgr2.::GetRevisionNumberComponents2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2.html), which returns EdmRevComponent2.
 
 The struct contains the component information.
 
 ## See Also
 
 [EdmRevComponent Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

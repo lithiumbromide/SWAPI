@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_RenameItemNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired when an item is renamed in one of the SOLIDWORKS tree structures, such as the FeatureManager design tree or the ConfigurationManager tree.
+Fired when an item is renamed in one of the SOLIDWORKS Design tree structures, such as the FeatureManager design tree or the ConfigurationManager tree.
 
 ## Syntax
 
@@ -49,49 +49,32 @@ public delegate System.int DAssemblyDocEvents_RenameItemNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntityType`: Type of item to rename as defined in
-
-[swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
+- `EntityType`: Type of item to rename as defined in [swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
 - `oldName`: Current item name
 - `NewName`: New item name
 
 ## VBA Syntax
 
-See
-
-[RenameItemNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RenameItemNotify_EV.html)
-
-.
+See [RenameItemNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RenameItemNotify_EV.html).
 
 ## Examples
 
 [Add Component and Mate (VBA)](Add_Component_and_Mate_Example_VB.htm)
-
 [Add Component and Mate (VB.NET)](Add_Component_and_Mate_Example_VBNET.htm)
-
 [Add Component and Mate (C#)](Add_Component_and_Mate_Example_CSharp.htm)
-
 [Fire Notifications When Renaming Components (C#)](Fire_Notifications_When_Renaming_Components_Example_CSharp.htm)
-
 [Fire Notifications When Renaming Components (VB.NET)](Fire_Notifications_When_Renaming_Components_Example_VBNET.htm)
-
 [Fire Notifications When Renaming Components (VBA)](Fire_Notifications_When_Renaming_Components_Example_VB.htm)
 
 ## Remarks
 
-This event is also fired when[IComponent2::MakeVirtual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MakeVirtual.html)is called.
+This event is also fired when [IComponent2::MakeVirtual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MakeVirtual.html) is called.
 
-If developing a C++ application, use[swAssemblyRenameItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyRenameItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

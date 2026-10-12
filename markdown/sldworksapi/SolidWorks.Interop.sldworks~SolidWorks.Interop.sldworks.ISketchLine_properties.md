@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchLine Interface Properties
 
-For a list of all members of this type, see[ISketchLine members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html).
+For a list of all members of this type, see [ISketchLine members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ISketchLine members](SolidWorks.Inte
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

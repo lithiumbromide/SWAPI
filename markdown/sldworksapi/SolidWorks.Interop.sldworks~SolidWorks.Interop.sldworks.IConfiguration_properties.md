@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConfiguration Interface Properties
 
-For a list of all members of this type, see[IConfiguration members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html).
+For a list of all members of this type, see [IConfiguration members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html).
 
 ## Public Properties
 
@@ -28,7 +28,7 @@ For a list of all members of this type, see[IConfiguration members](SolidWorks.I
 | Property | Lock | Gets or sets whether the configuration is locked. |
 | Property | Name | Gets or sets the configuration name. |
 | Property | NeedsRebuild | Gets whether the configuration needs to be rebuilt. |
-| Property | RepresentationShared | Gets or sets whether this SOLIDWORKS Connected Representation configuration is shared. |
+| Property | RepresentationShared | Gets or sets whether this SOLIDWORKS Design connected to the 3DEXPERIENCE platform Representation configuration is shared. |
 | Property | ShowChildComponentsInBOM | Obsolete. Superseded by IConfiguration::ChildComponentDisplayInBOM . |
 | Property | SuppressNewComponentModels | Gets or sets whether new components are suppressed in this configuration. |
 | Property | SuppressNewFeatures | Gets or sets whether to suppress new features in this configuration. |
@@ -41,5 +41,4 @@ For a list of all members of this type, see[IConfiguration members](SolidWorks.I
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

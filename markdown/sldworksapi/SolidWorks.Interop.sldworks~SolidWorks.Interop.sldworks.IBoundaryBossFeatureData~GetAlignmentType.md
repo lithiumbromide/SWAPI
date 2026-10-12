@@ -51,51 +51,31 @@ System.int GetAlignmentType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Direction`: Direction as defined in
-
-[swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
-- `GuideIndex`: Index of the curve (see
-
-Remarks
-
-)
+- `Direction`: Direction as defined in [swBoundaryBossDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossDirection_e.html)
+- `GuideIndex`: Index of the curve (see **Remarks**)
 
 ### Return Value
 
-Type of alignment as defined in
-
-[swBoundaryBossAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossAlignment_e.html)
+Type of alignment as defined in [swBoundaryBossAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBoundaryBossAlignment_e.html)
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData::GetAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~GetAlignmentType.html)
-
-.
+See [BoundaryBossFeatureData::GetAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~GetAlignmentType.html).
 
 ## Remarks
 
 This method is only available for a single-direction boundary feature.
 
-Call[IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html)to get a valid range of values for GuideIndex.
+Call [IBoundaryBossFeatureData::GetCurvesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~GetCurvesCount.html) to get a valid range of values for GuideIndex.
 
 ## See Also
 
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
-
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [IBoundaryBossFeatureData::SetAlignmentType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~SetAlignmentType.html)
 
 ## Availability

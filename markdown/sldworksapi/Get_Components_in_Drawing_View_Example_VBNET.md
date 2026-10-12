@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Components_in_Drawing_View_Example_VBNET.htm"
 
 # Get Components in Drawing View (VB.NET)
 
-This example shows how to get the components in a drawing view and how to
-change their line font styles.
+This example shows how to get the components in a drawing view and how to change their line font styles.
 
 ```vb
  '------------------------------------------------------------------

@@ -48,22 +48,16 @@ Angle in radians of this chamfer
 
 ## VBA Syntax
 
-See
-
-[DimXpertChamferFeature::Angle](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~Angle.html)
-
-.
+See [DimXpertChamferFeature::Angle](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~Angle.html).
 
 ## Examples
 
 [Get DimXpert Chamfer Feature Example (VBA)](Get_DimXpert_Chamfer_Feature_Example_VB.htm)
-
 [Get DimXpert Chamfer Feature Example (VB.NET)](Get_DimXpert_Chamfer_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertChamferFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature.html)
-
 [IDimXpertChamferFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature_members.html)
 
 ## Availability

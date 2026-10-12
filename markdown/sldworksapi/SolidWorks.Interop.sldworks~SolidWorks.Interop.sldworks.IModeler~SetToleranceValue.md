@@ -51,17 +51,11 @@ System.double SetToleranceValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ToleranceID`: Type of tolerance you want to set as defined in[swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
+- `ToleranceID`: Type of tolerance you want to set as defined in [swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
 - `NewToleranceValue`: New tolerance value in meters for the specified tolerance type
 
 ### Return Value
@@ -70,11 +64,7 @@ Original value of the specified tolerance type
 
 ## VBA Syntax
 
-See
-
-[Modeler::SetToleranceValue](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetToleranceValue.html)
-
-.
+See [Modeler::SetToleranceValue](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SetToleranceValue.html).
 
 ## Remarks
 
@@ -82,7 +72,7 @@ The default tolerance setting for 3D geometry output is 0.01 meters, while 2D ge
 
 The tolerance values can be reset by other AddIns such as IGES. Make sure that they are set to your values when you need them. The tolerance settings only affect other AddIn applications. However, you should be careful to reset the tolerances so that other AddIn applications are not affected by your choice of tolerance.
 
-The swUVCurveOutputTol tolerance is used during the extraction of UV (SP) trim curves. The[IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)method is affected by this setting. This tolerance value represents a fraction of the characteristic small dimension of a face (the tolerance is dimensionless). For example, if you set the swUVCurveOutputTol tolerance value to 3e-6 and the smallest dimension of the face is 0.4 meters, then the largest deviation of the trim curve will be:
+The swUVCurveOutputTol tolerance is used during the extraction of UV (SP) trim curves. The [IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html) method is affected by this setting. This tolerance value represents a fraction of the characteristic small dimension of a face (the tolerance is dimensionless). For example, if you set the swUVCurveOutputTol tolerance value to 3e-6 and the smallest dimension of the face is 0.4 meters, then the largest deviation of the trim curve will be:
 
 (0.4 x 3e-6) meters
 
@@ -91,11 +81,8 @@ For reference, the SOLIDWORKS IGES processor lets you control the swUVCurveOutpu
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::GetToleranceValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~GetToleranceValue.html)
-
 [IModeler::UnsetTolerances Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~UnsetTolerances.html)
 
 ## Availability

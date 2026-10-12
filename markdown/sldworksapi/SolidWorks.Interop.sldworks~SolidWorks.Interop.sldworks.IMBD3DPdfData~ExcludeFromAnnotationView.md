@@ -45,13 +45,7 @@ property System.bool ExcludeFromAnnotationView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True to exclude BOM tables from annotation views, false to not
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::ExcludeFromAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~ExcludeFromAnnotationView.html)
-
-.
+See [MBD3DPdfData::ExcludeFromAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~ExcludeFromAnnotationView.html).
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::GetBomAreaCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~GetBomAreaCount.html)
-
 [IMBD3DPdfData::SetBomTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~SetBomTable.html)
 
 ## Availability

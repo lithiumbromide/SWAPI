@@ -1,6 +1,5 @@
 ---
-title: "CWStaticStudyOptions Object
-Members"
+title: "CWStaticStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWStaticStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWStaticStudyOptions_members.html"
 ---
 
-# CWStaticStudyOptions Object
-Members
+# CWStaticStudyOptions Object Members
 
 ## Public Methods
 

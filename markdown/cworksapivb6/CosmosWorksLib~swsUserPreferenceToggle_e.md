@@ -13,6 +13,7 @@ source: "cworksapivb6/CosmosWorksLib~swsUserPreferenceToggle_e.html"
 
 | Member | Value | Description |
 | --- | --- | --- |
+| swsAutomaticallyDetectUnderConstrainedBodies | 21 |  |
 | swsAverageStressesAtMidnodes | 17 |  |
 | swsColorChartColorNoOfChartColorFlip | 13 |  |
 | swsColorChartColorSpecifyColorForvonMisesPlot | 14 |  |

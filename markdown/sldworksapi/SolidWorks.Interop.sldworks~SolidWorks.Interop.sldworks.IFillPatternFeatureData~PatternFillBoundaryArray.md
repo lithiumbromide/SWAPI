@@ -45,13 +45,7 @@ property System.Object^ PatternFillBoundaryArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Array of objects representing the fill boundary
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::PatternFillBoundaryArray](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternFillBoundaryArray.html)
-
-.
+See [FillPatternFeatureData::PatternFillBoundaryArray](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternFillBoundaryArray.html).
 
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

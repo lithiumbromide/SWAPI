@@ -1,6 +1,5 @@
 ---
-title: "IAdvancedSaveAsOptions Object
-Members"
+title: "IAdvancedSaveAsOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IAdvancedSaveAsOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IAdvancedSaveAsOptions_members.html"
 ---
 
-# IAdvancedSaveAsOptions Object
-Members
+# IAdvancedSaveAsOptions Object Members
 
 ## Public Methods
 

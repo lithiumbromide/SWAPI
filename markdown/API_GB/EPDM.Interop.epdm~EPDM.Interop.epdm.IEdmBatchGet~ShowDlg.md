@@ -43,29 +43,15 @@ System.bool ShowDlg(
 
 ### Return Value
 
-True if the user clicked
-
-Get
-
-or
-
-Check Out
-
-, false if the user clicked
-
-Cancel
+True if the user clicked **Get** or **Check Out**, false if the user clicked **Cancel**
 
 ## Examples
 
-See the
-
-[IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
-examples.
+See the [IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html) examples.
 
 ## Remarks
 
-Call this method after calling[IEdmBatchGet::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~CreateTree.html)and before calling[IEdmBatchGet::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFiles.html).
+Call this method after calling [IEdmBatchGet::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~CreateTree.html) and before calling [IEdmBatchGet::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFiles.html).
 
 [Return code](ReturnCodes.htm):
 
@@ -74,7 +60,6 @@ Call this method after calling[IEdmBatchGet::CreateTree](EPDM.Interop.epdm~EPDM.
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [IEdmBatchGet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html)
 
 ## Availability

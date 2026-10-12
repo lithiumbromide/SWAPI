@@ -13,26 +13,14 @@ PDM Pro API Web Service
 
 BOM Resource Group
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service : BOM Resource Group |
 | --- |
 
 Description
 
-This resource group consists of BOM HTTP requests. You must send
-
-[api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html)
-
-before calling these. See
-
-[Getting Started](GettingStarted.html)
-
-.
+This resource group consists of BOM HTTP requests. You must send [api/{vaultName}/authenticate](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-authenticate~o-HttpPost.html) before calling these. See [Getting Started](GettingStarted.html).
 
 Operations
 

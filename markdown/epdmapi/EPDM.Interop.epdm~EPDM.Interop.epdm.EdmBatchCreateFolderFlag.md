@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchCreateFolderFlag.ht
 
 # EdmBatchCreateFolderFlag Enumeration
 
-Flags used by
-
-[IEdmBatchAddFolders::Create](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~Create.html)
-
-.
+Flags used by [IEdmBatchAddFolders::Create](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~Create.html).
 
 ## Syntax
 

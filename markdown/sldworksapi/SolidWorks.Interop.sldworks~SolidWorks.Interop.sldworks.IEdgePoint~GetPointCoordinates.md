@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # GetPointCoordinates Method (IEdgePoint)
 
-Gets the coordinates for this midpoint on an
-
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-or an endpoint or midpoint on a
-
-[reference curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve.html)
-
-.
+Gets the coordinates for this midpoint on an [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) or an endpoint or midpoint on a [reference curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve.html).
 
 ## Syntax
 
@@ -62,13 +54,7 @@ void GetPointCoordinates(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -78,24 +64,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[EdgePoint::GetPointCoordinates](ms-its:sldworksapivb6.chm::/sldworks~EdgePoint~GetPointCoordinates.html)
-
-.
+See [EdgePoint::GetPointCoordinates](ms-its:sldworksapivb6.chm::/sldworks~EdgePoint~GetPointCoordinates.html).
 
 ## Examples
 
 [Create Reference Curve (C#)](Create_Reference_Curve_Example_CSharp.htm)
-
 [Create Reference Curve (VB.NET)](Create_Reference_Curve_Example_VBNET.htm)
-
 [Create Reference Curve (VBA)](Create_Reference_Curve_Example_VB.htm)
 
 ## See Also
 
 [IEdgePoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint.html)
-
 [IEdgePoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint_members.html)
 
 ## Availability

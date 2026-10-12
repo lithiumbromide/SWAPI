@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd~mlEdmMenuFla
 
 # mlEdmMenuFlags Field
 
-Combination of
-
-[EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html)
-
-flags.
+Combination of [EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html) flags.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlEdmMenuFlags
 ## See Also
 
 [EdmTaskMenuCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html)
-
 [EdmTaskMenuCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd_members.html)

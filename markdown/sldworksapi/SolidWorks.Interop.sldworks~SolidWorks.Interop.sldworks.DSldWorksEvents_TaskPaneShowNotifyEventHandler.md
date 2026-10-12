@@ -37,21 +37,11 @@ public delegate System.int DSldWorksEvents_TaskPaneShowNotifyEventHandler()
 public delegate System.int DSldWorksEvents_TaskPaneShowNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[TaskPaneShowNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~TaskPaneShowNotify_EV.html)
-
-.
+See [TaskPaneShowNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~TaskPaneShowNotify_EV.html).
 
 ## Examples
 
@@ -59,7 +49,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use[swAppTaskPaneShowNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppTaskPaneShowNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

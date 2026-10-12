@@ -9,8 +9,7 @@ source: "sldworksapi/Save_Drawing_as_DXF_Example_CSharp.htm"
 
 # Save Drawing as DXF Example (C#)
 
-This example shows how to save the current drawing file as a DXF file
-in the same folder.
+This example shows how to save the current drawing file as a DXF file in the same folder.
 
 ```vb
  //----------------------------------------------------------------------------
@@ -49,7 +48,7 @@ in the same folder.
          {
              swModel = (ModelDoc2)swApp.ActiveDoc;
 
-             // Strip off SOLIDWORKS drawing file extension (.slddrw)
+             // Strip off SOLIDWORKS Design drawing file extension (.slddrw)
              // and add DXF file extension (.dxf)
              sPathName = swModel.GetPathName();
              sPathName = sPathName.Substring(0, sPathName.Length - 6);

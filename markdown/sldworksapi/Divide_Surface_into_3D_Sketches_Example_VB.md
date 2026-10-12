@@ -11,11 +11,8 @@ source: "sldworksapi/Divide_Surface_into_3D_Sketches_Example_VB.htm"
 
 This example:
 
-- Shows how to divide the selected face into 3D
-  sketches.
-- Uses IModelDoc2::SketchConvertIsoCurves to extract
-  ISO-parametric (UV) curves from a face and creates a set of evenly spaced
-  sections in the U and V directions.
+- Shows how to divide the selected face into 3D sketches.
+- Uses IModelDoc2::SketchConvertIsoCurves to extract ISO-parametric (UV) curves from a face and creates a set of evenly spaced sections in the U and V directions.
 
 ```
 '-------------------------------------------------

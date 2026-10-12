@@ -40,13 +40,7 @@ System.int GetFacesForReplacementCount()
 System.int GetFacesForReplacementCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,21 @@ Number of faces to replace
 
 ## VBA Syntax
 
-See
-
-[ReplaceFaceFeatureData::GetFacesForReplacementCount](ms-its:sldworksapivb6.chm::/sldworks~ReplaceFaceFeatureData~GetFacesForReplacementCount.html)
-
-.
+See [ReplaceFaceFeatureData::GetFacesForReplacementCount](ms-its:sldworksapivb6.chm::/sldworks~ReplaceFaceFeatureData~GetFacesForReplacementCount.html).
 
 ## Examples
 
-See the
-
-[IReplaceFaceFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData.html)
-
-examples.
+See the [IReplaceFaceFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IReplaceFaceFeatureData::IGetFacesForReplacement](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~IGetFacesForReplacement.html)
-
-.
+Call this method before calling [IReplaceFaceFeatureData::IGetFacesForReplacement](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~IGetFacesForReplacement.html).
 
 ## See Also
 
 [IReplaceFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData.html)
-
 [IReplaceFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData_members.html)
-
 [IReplaceFaceFeatureData::ISetFacesForReplacement Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData~ISetFacesForReplacement.html)
-
 [IReplaceFaceFeatureData::FacesForReplacement Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData~FacesForReplacement.html)
 
 ## Availability

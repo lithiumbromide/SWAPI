@@ -42,44 +42,26 @@ property CustomPropertyManager^ CustomPropertyManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[ICustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager.html)
-
-object
+Pointer to the [ICustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager.html) object
 
 ## VBA Syntax
 
-See
-
-[Feature::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Feature~CustomPropertyManager.html)
-
-.
+See [Feature::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~Feature~CustomPropertyManager.html).
 
 ## Examples
 
 [Add and Get Custom Properties (VBA)](Add_and_Get_Custom_Properties_Example_VB.htm)
-
 [Get Custom Properties for Cut-list Item (VBA)](Get_Custom_Properties_for_Cut-list_Item_Example_VB.htm)
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IModelDocExtension::CustomPropertyManager Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CustomPropertyManager.html)
-
 [IConfiguration::CustomPropertyManager Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~CustomPropertyManager.html)
 
 ## Availability

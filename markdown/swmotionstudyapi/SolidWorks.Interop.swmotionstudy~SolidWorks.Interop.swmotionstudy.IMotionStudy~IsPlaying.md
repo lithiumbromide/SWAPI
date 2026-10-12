@@ -46,28 +46,17 @@ property System.bool IsPlaying {
 
 True if this motion study is playing, false if not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[MotionStudy::IsPlaying](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~IsPlaying.html)
-
-.
+See [MotionStudy::IsPlaying](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~IsPlaying.html).
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::Play Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Play.html)
-
 [IMotionStudy::PlayFromStart Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~PlayFromStart.html)
-
 [IMotionStudy::PlayMode Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~PlayMode.html)
-
 [IMotionStudy::Stop Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Stop.html)
 
 ## Availability

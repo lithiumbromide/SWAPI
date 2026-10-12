@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureExtrusionThin Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html).
 
 ## Syntax
 
@@ -155,13 +151,7 @@ Feature^ FeatureExtrusionThin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -195,14 +185,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtrusionThin](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusionThin.html)
-
-.
+See [FeatureManager::FeatureExtrusionThin](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusionThin.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

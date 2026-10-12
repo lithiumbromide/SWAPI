@@ -44,24 +44,17 @@ property PDMWProperties^ Properties {
 
 ### Property Value
 
-Collection of[properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
+Collection of [properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Properties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Properties.html)
-
-.
+See [PDMWDocument::Properties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Properties.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::Description Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Description.html)
-
 [IPDMWDocument::Number Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Number.html)
 
 ## Availability

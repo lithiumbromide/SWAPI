@@ -45,13 +45,7 @@ property System.bool AccurateEnvLighting {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to use the accurate environment lighting calculations from the HDRI scene e
 
 ## VBA Syntax
 
-See
-
-[SwScene::AccurateEnvLighting](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AccurateEnvLighting.html)
-
-.
+See [SwScene::AccurateEnvLighting](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AccurateEnvLighting.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property is valid only when a ray-trace rendering engine is active.
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

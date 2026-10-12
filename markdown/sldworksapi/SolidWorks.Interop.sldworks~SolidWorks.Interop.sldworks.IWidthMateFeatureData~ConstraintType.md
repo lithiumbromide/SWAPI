@@ -45,38 +45,22 @@ property System.int ConstraintType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Constraint type as defined in
-
-[swMateWidthOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateWidthOptions_e.html)
+Constraint type as defined in [swMateWidthOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateWidthOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[WidthMateFeatureData::ConstraintType](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~ConstraintType.html)
-
-.
+See [WidthMateFeatureData::ConstraintType](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~ConstraintType.html).
 
 ## See Also
 
 [IWidthMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData.html)
-
 [IWidthMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData_members.html)
-
 [IWidthMateFeatureData::DistanceFromEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData~DistanceFromEnd.html)
-
 [IWidthMateFeatureData::FlipDimension Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData~FlipDimension.html)
-
 [IWidthMateFeatureData::PercentDistanceFromEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData~PercentDistanceFromEnd.html)
 
 ## Availability

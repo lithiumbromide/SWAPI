@@ -42,38 +42,23 @@ System.int DropTestSetupEndEdit();
 
 ### Return Value
 
-Error as defined in
-
-[swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html)
+Error as defined in [swsDropTestSetUpError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropTestSetUpError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::DropTestSetupEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropTestSetupEndEdit.html)
-
-.
+See [CWDropTestSetup::DropTestSetupEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropTestSetupEndEdit.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-.
+See the examples in [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html).
 
 ## Remarks
 
-You must call
-
-[ICWDropTestSetup::DropTestSetupBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropTestSetupBeginEdit.html)
-
-to start editing a drop test setup. To end editing a drop test setup, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWDropTestSetup::DropTestSetupBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropTestSetupBeginEdit.html) to start editing a drop test setup. To end editing a drop test setup, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

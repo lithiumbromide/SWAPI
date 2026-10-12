@@ -42,13 +42,7 @@ property System.bool Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ True if projection arrow is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::Visible](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~Visible.html)
-
-.
+See [ProjectionArrow::Visible](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~Visible.html).
 
 ## Examples
 
 [Is There a Projection Arrow and Is It Visible (C#)](Is_There_a_Projection_Arrow_and_Is_It_Visible_Example_CSharp.htm)
-
 [Is There a Projection Arrow and Is It Visible (VB.NET)](Is_There_a_Projection_Arrow_and_Is_It_Visible_Example_VBNET.htm)
-
 [Is There a Projection Arrow and Is It Visible (VBA)](Is_There_a_Projection_Arrow_and_Is_It_Visible_Example_VB.htm)
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
 
 ## Availability

@@ -11,7 +11,22 @@ source: "sldworksapi/Add_and_Edit_Distance_Mate_Example_VB.htm"
 
 This example shows how to add and edit a cylindrical distance mate.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Ensure the specified template exists. ' 2. Open public_documents \samples\tutorial\api\cylinder20.sldprt. ' 3. Open an Immediate window. ' ' Postconditions: ' 1. Creates and saves a new cylindrical part. ' 2. Adds two cylindrical entities to a new assembly. ' 3. Creates a distance mate between the cylindrical entities. ' 4. Edits the distance mate to change the distance from 0.2 to 0.3. ' 5. Inspect the Immediate window, the graphics area, and the Mates folder ' of the FeatureManager design tree. ' ' NOTE: Because the model is used elsewhere, do not save changes. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Ensure the specified template exists.
+' 2. Open `public_documents`**\samples\tutorial\api\cylinder20.sldprt.**
+' 3. Open an Immediate window.
+'
+' Postconditions:
+' 1. Creates and saves a new cylindrical part.
+' 2. Adds two cylindrical entities to a new assembly.
+' 3. Creates a distance mate between the cylindrical entities.
+' 4. Edits the distance mate to change the distance from 0.2 to 0.3.
+' 5. Inspect the Immediate window, the graphics area, and the Mates folder
+' of the FeatureManager design tree.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
 Dim swApp As SldWorks.SldWorks

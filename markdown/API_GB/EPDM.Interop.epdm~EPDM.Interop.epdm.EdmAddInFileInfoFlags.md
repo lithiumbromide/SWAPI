@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfoFlags.html"
 
 # EdmAddInFileInfoFlags Enumeration
 
-Types of file in the add-in package used in
-
-[EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of file in the add-in package used in [EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

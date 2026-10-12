@@ -1,6 +1,5 @@
 ---
-title: "ChamferFeatureData2 Object
-Members"
+title: "ChamferFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ChamferFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ChamferFeatureData2_members.html"
 ---
 
-# ChamferFeatureData2 Object
-Members
+# ChamferFeatureData2 Object Members
 
 ## Public Methods
 

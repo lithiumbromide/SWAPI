@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~GetFirstState
 
 # GetFirstStatePosition Method (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::GetFirstStatePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetFirstStatePosition.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::GetFirstStatePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetFirstStatePosition.html).
 
 ## Syntax
 
@@ -38,5 +34,4 @@ IEdmPos5^ GetFirstStatePosition();
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

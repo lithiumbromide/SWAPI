@@ -52,28 +52,17 @@ void ActivateInkMarkup(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ActivateInkMarkup](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ActivateInkMarkup.html)
-
-.
+See [EModelViewControl::ActivateInkMarkup](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ActivateInkMarkup.html).
 
 ## Remarks
 
-This method is valid only if
-
-[IEModelViewControl::ShowInkMarkup](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowInkMarkup.html)
-
-is set to true.
+This method is valid only if [IEModelViewControl::ShowInkMarkup](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowInkMarkup.html) is set to true.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::InkMarkupCount Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupCount.html)
-
 [IEModelViewControl::InkMarkupName Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupName.html)
 
 ## Availability

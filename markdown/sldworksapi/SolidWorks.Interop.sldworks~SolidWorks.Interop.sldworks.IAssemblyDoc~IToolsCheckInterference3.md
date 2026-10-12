@@ -62,29 +62,19 @@ void IToolsCheckInterference3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumComponents`: Number of components to check
-- `LpComponents`: Array of[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)being checked for interference
+- `LpComponents`: Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) being checked for interference
 - `CoincidentInterference`: True to check for coincident interference, false to not
 - `PComp`: Array of components where interference has been found
-- `PFace`: Array of[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)where interference has been found
+- `PFace`: Array of [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) where interference has been found
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IToolsCheckInterference3](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IToolsCheckInterference3.html)
-
-.
+See [AssemblyDoc::IToolsCheckInterference3](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IToolsCheckInterference3.html).
 
 ## Remarks
 
@@ -98,19 +88,12 @@ For each face that intersects, there is a corresponding component.
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ToolsCheckInterference2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ToolsCheckInterference2.html)
-
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [IModeler::CheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CheckInterference3.html)
-
 [IModeler::ICheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICheckInterference3.html)
-
 [IModeler::ICheckInterferenceCount3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICheckInterferenceCount3.html)
 
 ## Availability

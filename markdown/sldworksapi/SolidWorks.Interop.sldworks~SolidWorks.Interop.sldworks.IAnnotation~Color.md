@@ -45,13 +45,7 @@ property System.int Color {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ COLORREF value for the color of this annotation
 
 ## VBA Syntax
 
-See
-
-[Annotation::Color](ms-its:sldworksapivb6.chm::/sldworks~Annotation~Color.html)
-
-.
+See [Annotation::Color](ms-its:sldworksapivb6.chm::/sldworks~Annotation~Color.html).
 
 ## Remarks
 
 In Drawing documents, you can create annotations on a layer that has specific visual properties. The color value specified with this property overrides the layer color.
 
-Use[IAnnotation::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~LayerOverride.html)to determine whether this annotation is using its default layer color.
+Use [IAnnotation::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~LayerOverride.html) to determine whether this annotation is using its default layer color.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

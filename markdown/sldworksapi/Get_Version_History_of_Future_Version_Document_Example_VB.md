@@ -91,7 +91,7 @@ Sub Main()
 
     ' The version history of a future version document is the same as
      ' that of the part/assembly template that is used to load it
-     ' into the older version of SOLIDWORKS. IModelDoc2::VersionHistory
+     ' into the older version of SOLIDWORKS Design. IModelDoc2::VersionHistory
      ' returns the version history of the part template,
      ' not the version history of the future version document. Get the version
      ' history of a future version document from its file on disk

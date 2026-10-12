@@ -9,12 +9,9 @@ source: "API_GB/Get_Revision_Names_for_Local_Version_of_File_Example_CSharp.htm"
 
 # Get Revision Names for Local Version of File Example (C#)
 
-This example shows how to the revision names for the local
-version of a file.
+This example shows how to the revision names for the local version of a file.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

@@ -42,13 +42,7 @@ property System.bool AlongEdgeDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ True to start the fillet at the start point of the edge, false to start the fill
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData::AlongEdgeDirection](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~AlongEdgeDirection.html)
-
-.
+See [PartialEdgeFilletData::AlongEdgeDirection](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~AlongEdgeDirection.html).
 
 ## Remarks
 
-To modify the starting point of the fillet after creation, you must call
-
-[IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html)
-
-.
+To modify the starting point of the fillet after creation, you must call [IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html).
 
 ## See Also
 
 [IPartialEdgeFilletData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
 
 ## Availability

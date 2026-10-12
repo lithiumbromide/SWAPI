@@ -9,11 +9,9 @@ source: "sldworksapi/Undo_Deleted_Note_and_Fire_Undo_Post-Notify_Event_Example_V
 
 # Undo Deleted Note and Fire Undo Post-Notify Event Example (VBA)
 
-## Undo Deleted Note and Fire Undo Pre- and Post-notify Events Example
-(VBA)
+## Undo Deleted Note and Fire Undo Pre- and Post-notify Events Example (VBA)
 
-This example demonstrates firing Undo pre- and post-notifications in
-a drawing document.
+This example demonstrates firing Undo pre- and post-notifications in a drawing document.
 
 ```
 '---------------------------------------------------------------------------

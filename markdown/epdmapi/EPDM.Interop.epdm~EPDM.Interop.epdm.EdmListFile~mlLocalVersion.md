@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile~mlLocalVersion.
 
 # mlLocalVersion Field
 
-Version of the file in the local cache, based on the date of the file passed to the
-
-[IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html)
-
-method.
+Version of the file in the local cache, based on the date of the file passed to the [IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html) method.
 
 ## Syntax
 
@@ -43,5 +39,4 @@ Version of the file in the local cache or 0 if the date of the version of the fi
 ## See Also
 
 [EdmListFile Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html)
-
 [EdmListFile Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile_members.html)

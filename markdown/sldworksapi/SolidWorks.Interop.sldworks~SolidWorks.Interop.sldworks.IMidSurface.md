@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # IMidSurface Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IMidSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html).
 
-[IMidSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IMidSurface
 
 ## VBA Syntax
 
-See
-
-[MidSurface](ms-its:sldworksapivb6.chm::/sldworks~MidSurface.html)
-
-.
+See [MidSurface](ms-its:sldworksapivb6.chm::/sldworks~MidSurface.html).
 
 ## See Also
 
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

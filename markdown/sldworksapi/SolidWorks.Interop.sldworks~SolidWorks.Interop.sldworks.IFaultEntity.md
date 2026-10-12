@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 Identifies entities with faults and types of faults.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class IFaultEntity
 
 ## VBA Syntax
 
-See
-
-[FaultEntity](ms-its:sldworksapivb6.chm::/sldworks~FaultEntity.html)
-
-.
+See [FaultEntity](ms-its:sldworksapivb6.chm::/sldworks~FaultEntity.html).
 
 ## Examples
 
 [Check Bodies for Faults (VBA)](Check_Bodies_for_Faults_Example_VB.htm)
-
 [Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)
-
 [Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)
-
 [Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
 
 ## Accessors
@@ -72,5 +65,4 @@ See
 ## See Also
 
 [IFaultEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

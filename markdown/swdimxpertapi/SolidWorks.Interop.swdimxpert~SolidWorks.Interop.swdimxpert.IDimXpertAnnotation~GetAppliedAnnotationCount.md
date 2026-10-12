@@ -46,16 +46,11 @@ Number of annotations applied to this DimXpert feature
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::GetAppliedAnnotationCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetAppliedAnnotationCount.html)
-
-.
+See [DimXpertAnnotation::GetAppliedAnnotationCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetAppliedAnnotationCount.html).
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

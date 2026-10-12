@@ -9,57 +9,49 @@ source: "sldworksapi/Get_Configuration-specific_Cut_List_Custom_Properties_Examp
 
 # Get Configuration-specific Cut List Custom Properties Example (C#)
 
-This example shows how to get configuration-specific cut list custom
-properties.
+This example shows how to get configuration-specific cut list custom properties.
 
-//
-===========================================================
+// ===========================================================
 
 // Preconditions:
 
-// 1. Open a part that
-has one or more configuration-specific cut lists with custom properties.
+// 1. Open a part that has one or more configuration-specific cut lists with custom properties.
 
-// (Or ask SOLIDWORKS API Support to send you the models that work
-with this ICutListItem sample code.)
+// (Or ask SOLIDWORKS API Support to send you the models that work with this ICutListItem sample code.)
 
-// 2. Open an
-Immediate/Output window.
+// 2. Open an Immediate/Output window.
 
 //
 
-// Postconditions:
-Inspect all the configurations' cut lists' custom properties in the
-Immediate/Output window.
+// Postconditions: Inspect all the configurations' cut lists' custom properties in the Immediate/Output window.
 
-//
-=============================================================
+// =============================================================
 
-usingSystem;
+using System;
 
-usingSystem.Collections.Generic;
+using System.Collections.Generic;
 
-usingSystem.Linq;
+using System.Linq;
 
-usingSystem.Text;
+using System.Text;
 
-usingSystem.Threading.Tasks;
+using System.Threading.Tasks;
 
-usingSystem.Windows;
+using System.Windows;
 
-usingSystem.Windows.Forms;
+using System.Windows.Forms;
 
-usingSolidWorks.Interop.sldworks;
+using SolidWorks.Interop.sldworks;
 
-usingSolidWorks.Interop.swconst;
+using SolidWorks.Interop.swconst;
 
-usingSystem.Diagnostics;
+using System.Diagnostics;
 
-namespaceConfigSpecCutListCustomProps_CSharp
+namespace ConfigSpecCutListCustomProps_CSharp
 
 {
 
-publicpartialclassSolidWorksMacro
+public partial class SolidWorksMacro
 
 {
 
@@ -67,7 +59,7 @@ ModelDoc2 swModel;
 
 string[] vConfigNameArr;
 
-stringvConfigName;
+string vConfigName;
 
 object[] cutlistobj;
 
@@ -81,71 +73,65 @@ CustomPropertyManager cusPropMgr;
 
 Configuration config;
 
-intlRetVal;
+int lRetVal;
 
-objectvPropNames;
+object vPropNames;
 
-objectvPropTypes;
+object vPropTypes;
 
-objectvPropValues;
+object vPropValues;
 
-objectresolved;
+object resolved;
 
-objectlinkProp;
+object linkProp;
 
-inti;
+int i;
 
-intj;
+int j;
 
-stringpropName;
+string propName;
 
-publicvoidMain()
-
-{
-
-swModel = (ModelDoc2)swApp. ActiveDoc ;
-
-vConfigNameArr = (string[])swModel. GetConfigurationNames ();
-
-foreach(var vConfigNameinvConfigNameArr)
+public void Main()
 
 {
 
-Debug.Print("Configuration:
-"+ vConfigName);
+swModel = (ModelDoc2)swApp.**ActiveDoc**;
 
-config = (Configuration)swModel. GetConfigurationByName (vConfigName);
+vConfigNameArr = (string[])swModel.**GetConfigurationNames**();
 
-cutlistobj = (object[])config. GetCutListItems ();
+foreach (var vConfigName in vConfigNameArr)
 
-intn;
+{
 
-for(n=0; n <
-cutlistobj.Length; n++)
+Debug.Print("Configuration: " + vConfigName);
+
+config = (Configuration)swModel.**GetConfigurationByName**(vConfigName);
+
+cutlistobj = (object[])config.**GetCutListItems**();
+
+int n;
+
+for (n=0; n < cutlistobj.Length; n++)
 
 {
 
 vcutlistItem = (CutListItem)cutlistobj[n];
 
-Debug.Print("Cut
-list item #"+ n +" custom properties:");
+Debug.Print("Cut list item #" + n + " custom properties:");
 
-cusPropMgr = vcutlistItem. CustomPropertyManager ;
+cusPropMgr = vcutlistItem.**CustomPropertyManager**;
 
-lRetVal = cusPropMgr. GetAll3 (refvPropNames,refvPropTypes,refvPropValues,refresolved,reflinkProp);
+lRetVal = cusPropMgr.**GetAll3**(ref vPropNames, ref vPropTypes, ref vPropValues, ref resolved, ref linkProp);
 
-object[]
-propValues = (object[])vPropValues;
+object[] propValues = (object[])vPropValues;
 
-string[]
-propNames = (string[])vPropNames;
+string[] propNames = (string[])vPropNames;
 
-for(j = 0; j < lRetVal; j++)
+for (j = 0; j < lRetVal; j++)
 
 {
 
-Debug.Print("
-"+ propNames[j] +" "+ propValues[j]);
+Debug.Print(" " + propNames[j] + " " + propValues[j]);
 
 }
 
@@ -157,10 +143,9 @@ i = i + 1;
 
 }
 
-// The SldWorks swApp variable
-is pre-assigned for you.
+// The SldWorks swApp variable is pre-assigned for you.
 
-publicSldWorks swApp;
+public SldWorks swApp;
 
 }
 

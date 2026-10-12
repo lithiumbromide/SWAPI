@@ -9,9 +9,7 @@ source: "sldworksapi/Insert_BOM_Table_and_Stacked_Balloon_Example_CSharp.htm"
 
 # Insert BOM Table and Stacked Balloon Example (C#)
 
-This example shows how to insert a bill of materials table and a stacked balloon
-annotation in
-an assembly document.
+This example shows how to insert a bill of materials table and a stacked balloon annotation in an assembly document.
 
 ```vb
  //--------------------------------------------------------------------------------

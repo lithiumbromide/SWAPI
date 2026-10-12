@@ -51,11 +51,7 @@ True to search hidden projects and documents, false to exclude them
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::IncludeHiddenDocuments](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IncludeHiddenDocuments.html)
-
-.
+See [PDMWSearchOptions::IncludeHiddenDocuments](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IncludeHiddenDocuments.html).
 
 ## Examples
 
@@ -68,7 +64,6 @@ By default, hidden projects and documents are not searched.
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
 
 ## Availability

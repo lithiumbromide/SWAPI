@@ -1,42 +1,42 @@
 {
   "by_type": {
-    "has_member": 36926,
-    "links_to": 140345,
-    "member_of": 36926
+    "has_member": 38292,
+    "links_to": 145039,
+    "member_of": 38292
   },
-  "shard_count": 47,
+  "shard_count": 49,
   "shards": {
     "API_GB": {
-      "edges": 11523,
+      "edges": 11933,
       "path": "edges/API_GB.jsonl",
       "types": {
         "has_member": 763,
-        "links_to": 9997,
+        "links_to": 10407,
         "member_of": 763
       }
     },
     "apihelp": {
-      "edges": 5,
+      "edges": 6,
       "path": "edges/apihelp.jsonl",
       "types": {
-        "links_to": 5
+        "links_to": 6
       }
     },
     "cworksapi": {
-      "edges": 15653,
+      "edges": 16000,
       "path": "edges/cworksapi.jsonl",
       "types": {
-        "has_member": 1770,
-        "links_to": 12113,
-        "member_of": 1770
+        "has_member": 1817,
+        "links_to": 12366,
+        "member_of": 1817
       }
     },
     "cworksapivb6": {
-      "edges": 4334,
+      "edges": 4502,
       "path": "edges/cworksapivb6.jsonl",
       "types": {
-        "has_member": 2167,
-        "member_of": 2167
+        "has_member": 2251,
+        "member_of": 2251
       }
     },
     "dsgnchkapi": {
@@ -57,11 +57,11 @@
       }
     },
     "emodelapi": {
-      "edges": 923,
+      "edges": 919,
       "path": "edges/emodelapi.jsonl",
       "types": {
         "has_member": 108,
-        "links_to": 707,
+        "links_to": 703,
         "member_of": 108
       }
     },
@@ -75,19 +75,19 @@
       }
     },
     "emodeltoolkit": {
-      "edges": 226,
+      "edges": 74,
       "path": "edges/emodeltoolkit.jsonl",
       "types": {
-        "links_to": 226
+        "links_to": 74
       }
     },
     "epdmapi": {
-      "edges": 12062,
+      "edges": 12620,
       "path": "edges/epdmapi.jsonl",
       "types": {
-        "has_member": 812,
-        "links_to": 10438,
-        "member_of": 812
+        "has_member": 817,
+        "links_to": 10986,
+        "member_of": 817
       }
     },
     "fworksapi": {
@@ -108,10 +108,10 @@
       }
     },
     "obsoleteapi": {
-      "edges": 648,
+      "edges": 698,
       "path": "edges/obsoleteapi.jsonl",
       "types": {
-        "links_to": 648
+        "links_to": 698
       }
     },
     "pdmprowebapihelp": {
@@ -156,27 +156,27 @@
       }
     },
     "sldworksapi": {
-      "edges": 113153,
+      "edges": 113938,
       "path": "edges/sldworksapi.jsonl",
       "types": {
-        "has_member": 12357,
-        "links_to": 88439,
-        "member_of": 12357
+        "has_member": 12468,
+        "links_to": 89002,
+        "member_of": 12468
       }
     },
     "sldworksapiprogguide": {
-      "edges": 125,
+      "edges": 126,
       "path": "edges/sldworksapiprogguide.jsonl",
       "types": {
-        "links_to": 125
+        "links_to": 126
       }
     },
     "sldworksapivb6": {
-      "edges": 28944,
+      "edges": 29368,
       "path": "edges/sldworksapivb6.jsonl",
       "types": {
-        "has_member": 14472,
-        "member_of": 14472
+        "has_member": 14684,
+        "member_of": 14684
       }
     },
     "sustainabilityapi": {
@@ -197,12 +197,12 @@
       }
     },
     "sw3dprinterapi": {
-      "edges": 403,
+      "edges": 576,
       "path": "edges/sw3dprinterapi.jsonl",
       "types": {
-        "has_member": 40,
-        "links_to": 323,
-        "member_of": 40
+        "has_member": 81,
+        "links_to": 414,
+        "member_of": 81
       }
     },
     "sw3dprinterapivb6": {
@@ -221,19 +221,19 @@
       }
     },
     "swconst": {
-      "edges": 994,
+      "edges": 1006,
       "path": "edges/swconst.jsonl",
       "types": {
-        "links_to": 994
+        "links_to": 1006
       }
     },
     "swcostingapi": {
-      "edges": 2026,
+      "edges": 4219,
       "path": "edges/swcostingapi.jsonl",
       "types": {
-        "has_member": 205,
-        "links_to": 1616,
-        "member_of": 205
+        "has_member": 629,
+        "links_to": 2961,
+        "member_of": 629
       }
     },
     "swcostingapivb6": {
@@ -245,37 +245,37 @@
       }
     },
     "swdimxpertapi": {
-      "edges": 2284,
+      "edges": 2231,
       "path": "edges/swdimxpertapi.jsonl",
       "types": {
-        "has_member": 251,
-        "links_to": 1782,
-        "member_of": 251
+        "has_member": 241,
+        "links_to": 1749,
+        "member_of": 241
       }
     },
     "swdimxpertapivb6": {
-      "edges": 480,
+      "edges": 482,
       "path": "edges/swdimxpertapivb6.jsonl",
       "types": {
-        "has_member": 240,
-        "member_of": 240
+        "has_member": 241,
+        "member_of": 241
       }
     },
     "swdocmgrapi": {
-      "edges": 8422,
+      "edges": 8788,
       "path": "edges/swdocmgrapi.jsonl",
       "types": {
-        "has_member": 454,
-        "links_to": 7514,
-        "member_of": 454
+        "has_member": 459,
+        "links_to": 7870,
+        "member_of": 459
       }
     },
     "swdocmgrapivb6": {
-      "edges": 1494,
+      "edges": 1514,
       "path": "edges/swdocmgrapivb6.jsonl",
       "types": {
-        "has_member": 747,
-        "member_of": 747
+        "has_member": 757,
+        "member_of": 757
       }
     },
     "swhtmlcontrolapi": {
@@ -296,12 +296,12 @@
       }
     },
     "swinspectionapi": {
-      "edges": 639,
+      "edges": 1495,
       "path": "edges/swinspectionapi.jsonl",
       "types": {
-        "has_member": 101,
-        "links_to": 437,
-        "member_of": 101
+        "has_member": 308,
+        "links_to": 879,
+        "member_of": 308
       }
     },
     "swinspectionapivb6": {
@@ -330,12 +330,12 @@
       }
     },
     "swpublishedapi": {
-      "edges": 1570,
+      "edges": 1704,
       "path": "edges/swpublishedapi.jsonl",
       "types": {
-        "has_member": 318,
-        "links_to": 934,
-        "member_of": 318
+        "has_member": 337,
+        "links_to": 1030,
+        "member_of": 337
       }
     },
     "swpublishedapivb6": {
@@ -347,12 +347,12 @@
       }
     },
     "swscanto3dapi": {
-      "edges": 33,
+      "edges": 83,
       "path": "edges/swscanto3dapi.jsonl",
       "types": {
-        "has_member": 3,
-        "links_to": 27,
-        "member_of": 3
+        "has_member": 10,
+        "links_to": 63,
+        "member_of": 10
       }
     },
     "swscanto3dapivb6": {
@@ -364,12 +364,12 @@
       }
     },
     "swutilitiesapi": {
-      "edges": 776,
+      "edges": 1282,
       "path": "edges/swutilitiesapi.jsonl",
       "types": {
-        "has_member": 105,
-        "links_to": 566,
-        "member_of": 105
+        "has_member": 210,
+        "links_to": 862,
+        "member_of": 210
       }
     },
     "swutilitiesapivb6": {
@@ -380,13 +380,30 @@
         "member_of": 135
       }
     },
+    "swvisualizeapi": {
+      "edges": 401,
+      "path": "edges/swvisualizeapi.jsonl",
+      "types": {
+        "has_member": 45,
+        "links_to": 311,
+        "member_of": 45
+      }
+    },
+    "swvisualizeapiVB6": {
+      "edges": 74,
+      "path": "edges/swvisualizeapiVB6.jsonl",
+      "types": {
+        "has_member": 37,
+        "member_of": 37
+      }
+    },
     "toolboxapi": {
-      "edges": 110,
+      "edges": 214,
       "path": "edges/toolboxapi.jsonl",
       "types": {
-        "has_member": 12,
-        "links_to": 86,
-        "member_of": 12
+        "has_member": 28,
+        "links_to": 158,
+        "member_of": 28
       }
     },
     "toolboxapivb6": {
@@ -398,5 +415,5 @@
       }
     }
   },
-  "total_edges": 214197
+  "total_edges": 221623
 }

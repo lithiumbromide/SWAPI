@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to reverse the direction of gravity, false to not
 
 ## VBA Syntax
 
-See
-
-[SimulationGravityFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~ReverseDirection.html)
-
-.
+See [SimulationGravityFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~ReverseDirection.html).
 
 ## Examples
 
-See the
-
-[ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
-examples.
+See the [ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html) examples.
 
 ## See Also
 
 [ISimulationGravityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
 [ISimulationGravityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData_members.html)
-
 [ISimulationGravityFeatureData::DirectionReference Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData~DirectionReference.html)
 
 ## Availability

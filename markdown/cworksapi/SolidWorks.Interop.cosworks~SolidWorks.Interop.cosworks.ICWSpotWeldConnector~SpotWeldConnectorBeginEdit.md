@@ -41,32 +41,19 @@ void SpotWeldConnectorBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::SpotWeldConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~SpotWeldConnectorBeginEdit.html)
-
-.
+See [CWSpotWeldConnector::SpotWeldConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~SpotWeldConnectorBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
-examples.
+See the [ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html) examples.
 
 ## Remarks
 
-To start editing a spot weld, you must call this method. You must call
-
-[ICWSpotWeldConnector::SpotWeldConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpotWeldConnector~SpotWeldConnectorEndEdit.html)
-
-to end editing a spot weld. Changes are not applied unless you call both methods.
+To start editing a spot weld, you must call this method. You must call [ICWSpotWeldConnector::SpotWeldConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpotWeldConnector~SpotWeldConnectorEndEdit.html) to end editing a spot weld. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
 
 ## Availability

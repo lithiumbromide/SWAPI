@@ -40,32 +40,18 @@ EnumCoEdges EnumCoEdges()
 EnumCoEdges^ EnumCoEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[enumerated list of coedges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumCoEdges.html)
+Pointer to the [enumerated list of coedges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumCoEdges.html)
 
 ## VBA Syntax
 
-See
-
-[Edge::EnumCoEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~EnumCoEdges.html)
-
-.
+See [Edge::EnumCoEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~EnumCoEdges.html).
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEnumCoEdges::Next Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges~Next.html)

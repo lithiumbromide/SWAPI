@@ -45,13 +45,7 @@ property System.bool ViewPdfAfterSaving {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to view the PDF file, false to not
 
 ## VBA Syntax
 
-See
-
-[ExportPdfData::ViewPdfAfterSaving](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~ViewPdfAfterSaving.html)
-
-.
+See [ExportPdfData::ViewPdfAfterSaving](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~ViewPdfAfterSaving.html).
 
 ## Examples
 
-See
-
-[IExportPdfData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExportPdfData.html)
-
-examples.
+See [IExportPdfData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExportPdfData.html) examples.
 
 ## See Also
 
 [IExportPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html)
-
 [IExportPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData_members.html)
 
 ## Availability

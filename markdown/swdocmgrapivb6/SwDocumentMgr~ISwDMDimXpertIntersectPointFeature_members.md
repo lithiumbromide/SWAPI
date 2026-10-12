@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertIntersectPointFeature Object
-Members"
+title: "ISwDMDimXpertIntersectPointFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertIntersectPointFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertIntersectPointFeature_members.html"
 ---
 
-# ISwDMDimXpertIntersectPointFeature Object
-Members
+# ISwDMDimXpertIntersectPointFeature Object Members
 
 ## Public Methods
 

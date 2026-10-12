@@ -40,14 +40,9 @@ True to use the Clear Cache setting, false to not
 
 ## Examples
 
-See the
-
-[IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
-examples.
+See the [IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html) examples.
 
 ## See Also
 
 [IEdmClearLocalCache3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3.html)
-
 [IEdmClearLocalCache3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3_members.html)

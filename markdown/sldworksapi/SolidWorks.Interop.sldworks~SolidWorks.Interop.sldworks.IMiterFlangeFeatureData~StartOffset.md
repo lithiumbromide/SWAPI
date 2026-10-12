@@ -45,13 +45,7 @@ property System.double StartOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Start offset for this miter flange
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::StartOffset](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~StartOffset.html)
-
-.
+See [MiterFlangeFeatureData::StartOffset](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~StartOffset.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
-
 [IMiterFlangeFeautreData::EndOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~EndOffset.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # UseOffset Property (ISMGussetFeatureData)
 
-Gets or sets whether to offset the gusset section plane from a specified
-
-[reference point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ReferencePoint.html)
-
-.
+Gets or sets whether to offset the gusset section plane from a specified [reference point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ReferencePoint.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool UseOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,32 +53,22 @@ True to offset the gusset section plane, false to not
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::UseOffset](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~UseOffset.html)
-
-.
+See [SMGussetFeatureData::UseOffset](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~UseOffset.html).
 
 ## Examples
 
-See the
-
-[ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
-examples.
+See the [ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html) examples.
 
 ## Remarks
 
-After setting this property to true, set the[offset distance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~OffsetDistance.html).
+After setting this property to true, set the [offset distance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~OffsetDistance.html).
 
 If a reference point is not set, the offset is applied to an assumed reference point. For insertion of the first gusset, the assumed reference point is on the end of the sheet metal bend. For second and subsequent gusset insertions, the assumed reference point is on the edge of the gusset last inserted.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
-
 [ISMGussetFeatureData::FlipOffset Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~FlipOffset.html)
 
 ## Availability

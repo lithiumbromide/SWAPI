@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Preselected_Object_Example_VBNET.htm"
 
 # Get Preselected Object Example (VB.NET)
 
-This example shows how to get a preselected object when a preselection
-event is fired.
+This example shows how to get a preselected object when a preselection event is fired.
 
 ```
 '------------------------------------

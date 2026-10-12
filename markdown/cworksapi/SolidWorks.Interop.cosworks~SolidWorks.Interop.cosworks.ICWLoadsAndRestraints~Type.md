@@ -44,28 +44,19 @@ property System.int Type {
 
 ### Property Value
 
-Type of load and restraint as defined in[swsLoadsAndRestraintsType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsType_e.html)
+Type of load and restraint as defined in [swsLoadsAndRestraintsType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::Type](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~Type.html)
-
-.
+See [CWLoadsAndRestraints::Type](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~Type.html).
 
 ## Examples
 
-See the
-
-[ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
-examples.
+See the [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

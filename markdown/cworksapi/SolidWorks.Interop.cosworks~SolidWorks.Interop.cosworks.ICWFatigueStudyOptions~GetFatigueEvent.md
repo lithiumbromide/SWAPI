@@ -53,14 +53,8 @@ CWFatigueEvent^ GetFatigueEvent(
 
 ### Parameters
 
-- `NIndex`: 0-based index of the fatigue event (see
-
-Remarks
-
-)
-- `ErrorCode`: Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+- `NIndex`: 0-based index of the fatigue event (see **Remarks**)
+- `ErrorCode`: Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ### Return Value
 
@@ -68,32 +62,19 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::GetFatigueEvent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~GetFatigueEvent.html)
-
-.
+See [CWFatigueStudyOptions::GetFatigueEvent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~GetFatigueEvent.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## Remarks
 
-To populate NIndex, call
-
-[ICWFatigueStudyOptions::LoadingEventCount](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~LoadingEventCount.html)
-
-.
+To populate NIndex, call [ICWFatigueStudyOptions::LoadingEventCount](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~LoadingEventCount.html).
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

@@ -30,54 +30,54 @@ using System;
 using System.Diagnostics;
 namespace PitchYawCameraCSharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDocExtension swModelDocExt = default(ModelDocExtension);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Camera swCamera = default(Camera);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int fileerror = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int filewarning = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bool boolstatus = false;
+    partial class SolidWorksMacro
+    {
+        public void Main()
+        {
+            ModelDoc2 swModel = default(ModelDoc2);
+            ModelDocExtension swModelDocExt = default(ModelDocExtension);
+            Camera swCamera = default(Camera);
+            int fileerror = 0;
+            int filewarning = 0;
+            bool boolstatus = false;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Open part document
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\api\\coffeecup.sldprt", (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref fileerror, ref filewarning);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModelDocExt = (ModelDocExtension)swModel.Extension;
+            // Open part document
+            swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\api\\coffeecup.sldprt", (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref fileerror, ref filewarning);
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+            swModelDocExt = (ModelDocExtension)swModel.Extension;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Insert a camera
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swCamera = (Camera)swModelDocExt.InsertCamera();
+            // Insert a camera
+            swCamera = (Camera)swModelDocExt.InsertCamera();
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Set camera type to floating
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swCamera.Type = (int)swCameraType_e.swCameraType_Floating;
+            // Set camera type to floating
+            swCamera.Type = (int)swCameraType_e.swCameraType_Floating;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Show camera
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("Camera1", "CAMERAS", 0, 0, 0, false, 0, null, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = swModel.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swDisplayCameras, true);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel.GraphicsRedraw2();
+            // Show camera
+            boolstatus = swModelDocExt.SelectByID2("Camera1", "CAMERAS", 0, 0, 0, false, 0, null, 0);
+            boolstatus = swModel.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swDisplayCameras, true);
+            swModel.GraphicsRedraw2();
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Get camera's pitch and yaw settings
+            // Get camera's pitch and yaw settings
             // 1 radian = 180º/p = 57.295779513º or approximately 57.3º
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Original pitch (up or down angle) = " + swCamera.Pitch * 57.3 + " deg");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Original yaw (side-to-side angle) = " + swCamera.Yaw * 57.3 + " deg");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" ");
+            Debug.Print("Original pitch (up or down angle) = " + swCamera.Pitch * 57.3 + " deg");
+            Debug.Print("Original yaw (side-to-side angle) = " + swCamera.Yaw * 57.3 + " deg");
+            Debug.Print(" ");
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Rotate camera
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swCamera.Pitch = -25;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swCamera.Yaw = 150;
+            // Rotate camera
+            swCamera.Pitch = -25;
+            swCamera.Yaw = 150;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// New pitch and yaw settings
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("New pitch (up or down angle) = " + swCamera.Pitch * 57.3 + " deg");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("New yaw (side-to-side angle) = " + swCamera.Yaw * 57.3 + " deg");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel.GraphicsRedraw2();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+            // New pitch and yaw settings
+            Debug.Print("New pitch (up or down angle) = " + swCamera.Pitch * 57.3 + " deg");
+            Debug.Print("New yaw (side-to-side angle) = " + swCamera.Yaw * 57.3 + " deg");
+            swModel.GraphicsRedraw2();
+        }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
+        /// <summary>
+        /// The SldWorks swApp variable is pre-assigned for you.
+        /// </summary>
+        public SldWorks swApp;
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    }
 }
 ```

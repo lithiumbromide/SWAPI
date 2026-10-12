@@ -16,12 +16,12 @@ This example shows how to hide and show a row in a general table.
 ```vb
 '---------------------------------
 ' Preconditions: Drawing document is open and
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}contains a general table feature
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}with at least three rows and that
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}feature is selected.
+'                contains a general table feature
+'                with at least three rows and that
+'                feature is selected.
 '
 ' Postconditions: The third row of the general table is
-' kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}hidden and shown.
+'                 hidden and shown.
 '----------------------------------
 Option Explicit
 

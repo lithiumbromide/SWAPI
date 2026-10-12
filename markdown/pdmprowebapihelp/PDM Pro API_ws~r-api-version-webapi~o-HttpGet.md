@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/version/webapi |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Version Resource Group : api/version/webapi (Get) |
 | --- |
@@ -69,8 +65,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[Version Resource Group](PDM%20Pro%20API_ws~g-cc9b4888-53d2-4bfa-afee-fe2745392ce9.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Version Resource Group](PDM%20Pro%20API_ws~g-cc9b4888-53d2-4bfa-afee-fe2745392ce9.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -45,13 +45,7 @@ property System.bool ReadOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,16 @@ True if the dimension is read-only, false if it is writable
 
 ## VBA Syntax
 
-See
-
-[Dimension::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ReadOnly.html)
-
-.
+See [Dimension::ReadOnly](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ReadOnly.html).
 
 ## Examples
 
 [Get Block Information (VBA)](Get_Block_Information_Example_VB.htm)
-
 [Get Dimension Values in All Configurations (VBA)](Get_Dimension_Values_in_All_Configurations_Example_VB.htm)
-
 [Get Dimension Values in Drawing (VBA)](Get_Dimension_Values_in_Drawing_Example_VB.htm)
-
 [Set Dimensions to Mid-tolerance (VBA)](Set_Dimensions_to_Mid-Tolerance_Example_VB.htm)
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

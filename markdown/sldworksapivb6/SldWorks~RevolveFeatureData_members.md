@@ -1,6 +1,5 @@
 ---
-title: "RevolveFeatureData Object
-Members"
+title: "RevolveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RevolveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RevolveFeatureData_members.html"
 ---
 
-# RevolveFeatureData Object
-Members
+# RevolveFeatureData Object Members
 
 ## Public Methods
 

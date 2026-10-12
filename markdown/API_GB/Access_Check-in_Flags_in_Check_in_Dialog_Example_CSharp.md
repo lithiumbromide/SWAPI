@@ -9,12 +9,9 @@ source: "API_GB/Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp.htm"
 
 # Access Check-in Flags in Check in Dialog Example (C#)
 
-This example shows how to access the check-in flags in the
-SOLIDWORKS PDM Professional Check in dialog.
+This example shows how to access the check-in flags in the SOLIDWORKS PDM Professional Check in dialog.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //--------------------------------------------------------------------------------------

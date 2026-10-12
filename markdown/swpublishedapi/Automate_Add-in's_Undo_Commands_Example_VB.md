@@ -16,143 +16,87 @@ This example shows how to automate an add-in's undo commands.
 - [swUndoApiHdlr1](#swUndoApiHdlr1)
 - [swUndoApiHdlr2](#swUndoApiHdlr2)
 
-Module
-macro1
+Module macro1
 
+```vb
 '----------------------------------------------------
-
 '
-
 ' Preconditions: Model document is open.
-
 '
-
 ' Postconditions: None
-
 '
-
 '----------------------------------------------------
-
 Option Explicit
 
 Dim swApp As Object
-
-Dim swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
-
+Dim swModel  As SldWorks.ModelDoc2
 Dim swModExt As SldWorks.ModelDocExtension
-
 Dim Retval As Boolean
-
 Dim name As String
-
 Dim i As Long
 
 Sub main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModExt = swModel.Extension()
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swModExt = swModel.Extension()
 
 For i = 1 To 2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swUndoObj1 As swUndoApiHdlr1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swUndoObj1 = New swUndoApiHdlr1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swUndoObj1.a
-= i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}name
-= "AddinUndo : " & i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Retval
-= swModExt.SetApiUndoObject(swUndoObj1,
-name)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    Dim swUndoObj1 As swUndoApiHdlr1
+    Set swUndoObj1 = New swUndoApiHdlr1
+    swUndoObj1.a = i
+    name = "AddinUndo : " & i
+    Retval = swModExt.SetApiUndoObject(swUndoObj1, name)
 
 Next i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
 For i = 1 To 2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swUndoObj2 As swUndoApiHdlr2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swUndoObj2 = New swUndoApiHdlr2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swUndoObj2.a
-= i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}name
-= "AddinUndoReset : " & i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Retval
-= swModExt.SetApiUndoObject(swUndoObj2,
-name)
-
+    Dim swUndoObj2 As swUndoApiHdlr2
+    Set swUndoObj2 = New swUndoApiHdlr2
+    swUndoObj2.a = i
+    name = "AddinUndoReset : " & i
+    Retval = swModExt.SetApiUndoObject(swUndoObj2, name)
 Next i
 
 End Sub
+```
 
 [Back to top](#Top)
 
-Class moduleswUndoApiHdlr1
+Class module swUndoApiHdlr1
 
+```vb
 Option Explicit
 
 Implements SwUndoAPIHandler
-
 Public a As Long
 
-Private SubSwUndoAPIHandler_DoUndo()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MsgBox
-"Add-in's undo called " & vbCrLf & "Undo object
-count : " + Str(a)
-
+Private Sub SwUndoAPIHandler_DoUndo()
+    MsgBox "Add-in's undo called " & vbCrLf & "Undo object count : " + Str(a)
 End Sub
 
-Private SubSwUndoAPIHandler_UndoReSet()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MsgBox
-("Add-in's undo list reset")
-
+Private Sub SwUndoAPIHandler_UndoReSet()
+    MsgBox ("Add-in's undo list reset")
 End Sub
+```
 
 [Back to top](#Top)
 
 Class module swUndoApiHdlr2
 
+```vb
 Option Explicit
 
 Implements SwUndoAPIHandler
-
 Public a As Long
 
-Private SubSwUndoAPIHandler_DoUndo()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MsgBox
-"Undo called " & vbCrLf & "Undo count : "
-+ Str(a)
-
+Private Sub SwUndoAPIHandler_DoUndo()
+    MsgBox "Undo called " & vbCrLf & "Undo count : " + Str(a)
 End Sub
 
-Private SubSwUndoAPIHandler_UndoReSet()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MsgBox
-("Undo reset called ")
-
+Private Sub SwUndoAPIHandler_UndoReSet()
+    MsgBox ("Undo reset called ")
 End Sub
+```
 
 [Back to top](#Top)

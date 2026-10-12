@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IsVirtualComponent2 Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::IsVirtualComponent3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IsVirtualComponent3.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::IsVirtualComponent3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IsVirtualComponent3.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.object IsVirtualComponent2()
 System.Object^ IsVirtualComponent2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,18 +48,12 @@ Fully qualified paths to parent assembly components, up to and including the fir
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IsVirtualComponent2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsVirtualComponent2.html)
-
-.
+See [ModelDocExtension::IsVirtualComponent2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsVirtualComponent2.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IComponent2::IsVirtual Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsVirtual.html)
 
 ## Availability

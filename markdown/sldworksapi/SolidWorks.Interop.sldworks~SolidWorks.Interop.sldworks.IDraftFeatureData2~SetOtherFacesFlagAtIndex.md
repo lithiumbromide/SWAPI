@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # SetOtherFacesFlagAtIndex Method (IDraftFeatureData2)
 
-Sets the
-
-Other Face
-
-option.
+Sets the **Other Face** option.
 
 ## Syntax
 
@@ -54,35 +50,22 @@ void SetOtherFacesFlagAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Number indicating a segment of the parting line
 - `Flag`: True to specify a different draft direction for each segment of the parting line,
-
-false to not
+  false to not
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::SetOtherFacesFlagAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~SetOtherFacesFlagAtIndex.html)
-
-.
+See [DraftFeatureData2::SetOtherFacesFlagAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~SetOtherFacesFlagAtIndex.html).
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
-
 [IDraftFeatureData2::GetOtherFacesFlagAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~GetOtherFacesFlagAtIndex.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageListbox Object
-Members"
+title: "PropertyManagerPageListbox Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageListbox_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageListbox_members.html"
 ---
 
-# PropertyManagerPageListbox Object
-Members
+# PropertyManagerPageListbox Object Members
 
 ## Public Methods
 

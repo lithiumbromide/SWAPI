@@ -47,13 +47,7 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if the spline handle is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::Select](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Select.html)
-
-.
+See [SplineHandle::Select](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Select.html).
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
 
 ## Availability

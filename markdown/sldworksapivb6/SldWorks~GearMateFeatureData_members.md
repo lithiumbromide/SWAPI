@@ -1,6 +1,5 @@
 ---
-title: "GearMateFeatureData Object
-Members"
+title: "GearMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "GearMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~GearMateFeatureData_members.html"
 ---
 
-# GearMateFeatureData Object
-Members
+# GearMateFeatureData Object Members
 
 ## Public Properties
 

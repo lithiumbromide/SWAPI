@@ -12,12 +12,11 @@ source: "sldworksapi/Create_Bounding_Box_Example_VB.htm"
 This example shows how to create a bounding box.
 
 '----------------------------------------------------------------------------
-' Preconditions: Open an Immediate window and ensure that the specified model to
-open exists.
+' Preconditions: Open an Immediate window and ensure that the specified model to open exists.
 '
 ' Postconditions:
-' 1. Creates**Bounding Box**in the FeatureManager design tree.
-' 2. Modifies**Bounding Box**.
+' 1. Creates **Bounding Box** in the FeatureManager design tree.
+' 2. Modifies **Bounding Box**.
 '
 ' NOTE: Because the model is used elsewhere, do not save changes.
 '----------------------------------------------------------------------------

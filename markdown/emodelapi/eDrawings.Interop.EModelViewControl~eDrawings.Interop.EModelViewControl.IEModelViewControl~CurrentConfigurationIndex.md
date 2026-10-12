@@ -48,11 +48,7 @@ Index number of this configuration
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::CurrentConfigurationIndex](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CurrentConfigurationIndex.html)
-
-.
+See [EModelViewControl::CurrentConfigurationIndex](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CurrentConfigurationIndex.html).
 
 ## Remarks
 
@@ -61,17 +57,11 @@ Because eDrawings does not support inactive configurations for SOLIDWORKS docume
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ComponentCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentCount.html)
-
 [IEModelViewControl::ComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.html)
-
 [IEModelViewControl::ShowConfiguration](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowConfiguration.html)
-
 [IEModelViewControl::ComponentConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.html)
-
 [IEModelViewControl::ConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationName.html)
 
 ## Availability

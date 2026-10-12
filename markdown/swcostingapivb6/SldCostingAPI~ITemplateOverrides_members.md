@@ -1,6 +1,5 @@
 ---
-title: "ITemplateOverrides Object
-Members"
+title: "ITemplateOverrides Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "ITemplateOverrides_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~ITemplateOverrides_members.html"
 ---
 
-# ITemplateOverrides Object
-Members
+# ITemplateOverrides Object Members
 
 ## Public Methods
 

@@ -119,13 +119,7 @@ System.bool SetLightSourcePropertyValuesVB(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -143,18 +137,18 @@ See
 - `SpotAngle`: Spot angle
 - `FallOff0`: Light source falloff - constant attenuation
 
-**NOTE:**This parameter is not supported in SOLIDWORKS 2011 and later.
+  **NOTE:** This parameter is not supported in SOLIDWORKS 2011 and later.
 - `FallOff1`: Light source falloff - linear attenuation
 
-**NOTE:**This parameter is not supported in SOLIDWORKS 2011 and later.
+  **NOTE:** This parameter is not supported in SOLIDWORKS 2011 and later.
 - `FallOff2`: Light source falloff - quadratic attenuation
 
-**NOTE:**This parameter is not supported in SOLIDWORKS 2011 and later.
+  **NOTE:** This parameter is not supported in SOLIDWORKS 2011 and later.
 - `Ambient`: Light source ambient intensity
 - `Specular`: Light source specular intensity
 - `SpotExponent`: Spot exponent
 
-**NOTE:**This parameter is not supported in SOLIDWORKS 2011 and later.
+  **NOTE:** This parameter is not supported in SOLIDWORKS 2011 and later.
 - `BDisable`: Light source disabled
 
 ### Return Value
@@ -163,54 +157,34 @@ True if setting the light source properties is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetLightSourcePropertyValuesVB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetLightSourcePropertyValuesVB.html)
-
-.
+See [ModelDoc2::SetLightSourcePropertyValuesVB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetLightSourcePropertyValuesVB.html).
 
 ## Examples
 
 [Add Spotlight and Get Light Feature (C#)](Add_Spotlight_and_Get_Light_Feature_Example_CSharp.htm)
-
 [Add Spotlight and Get Light Feature (VB.NET)](Add_Spotlight_and_Get_Light_Feature_Example_VBNET.htm)
-
 [Add Spotlight and Get Light Feature (VBA)](Add_Spotlight_and_Get_Light_Feature_Example_VB.htm)
 
 ## Remarks
 
-This method is similar to[IModelDoc2::LightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html)and[IModelDoc2::ILightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ILightSourcePropertyValues.html), except using this method you can pass each argument individually.
+This method is similar to [IModelDoc2::LightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html) and [IModelDoc2::ILightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ILightSourcePropertyValues.html), except using this method you can pass each argument individually.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::AddLightSource Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddLightSource.html)
-
 [IModelDoc2::AddLightSourceExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddLightSourceExtProperty.html)
-
 [IModelDoc2::AddLightToScene Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddLightToScene.html)
-
 [IModelDoc2::AddSceneExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddSceneExtProperty.html)
-
 [IModelDoc2::DeleteLightSource Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~DeleteLightSource.html)
-
 [IModelDoc2::GetLightSourceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLightSourceCount.html)
-
 [IModelDoc2::GetLightSourceExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLightSourceExtProperty.html)
-
 [IModelDoc2::GetLightSourceIdFromName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLightSourceIdFromName.html)
-
 [IModelDoc2::GetLightSourceName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLightSourceName.html)
-
 [IModelDoc2::Lights Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Lights.html)
-
 [IModelDoc2::ResetLightSourceExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ResetLightSourceExtProperty.html)
-
 [IModelDoc2::ResetSceneExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ResetSceneExtProperty.html)
-
 [IModelDoc2::SetLightSourceName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetLightSourceName.html)
 
 ## Availability

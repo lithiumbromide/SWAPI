@@ -9,19 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # _IEModelViewControlEvents_OnPrevNextPlayStopEventHandler Delegate (eDrawings.Interop.EModelViewControl)
 
-Fired when the animation stops when associated with the
-
-Preview
-
-,
-
-Next
-
-, or
-
-Play
-
-button.
+Fired when the animation stops when associated with the **Preview**, **Next**, or **Play** button.
 
 ## Syntax
 
@@ -51,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnPrevNextPlayStopEventHandler();
 
 ## VBA Syntax
 
-See
-
-[OnPrevNextPlayStop Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnPrevNExtPlayStop_EV.html)
-
-.
+See [OnPrevNextPlayStop Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnPrevNExtPlayStop_EV.html).
 
 ## Availability
 

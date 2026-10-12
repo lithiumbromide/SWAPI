@@ -1,6 +1,5 @@
 ---
-title: "CThread Object
-Members"
+title: "CThread Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CThread_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CThread_members.html"
 ---
 
-# CThread Object
-Members
+# CThread Object Members
 
 ## Public Methods
 

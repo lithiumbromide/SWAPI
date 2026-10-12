@@ -91,28 +91,16 @@ Feature^ InsertCutBlend(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Closed`: True if you want the loft to be closed, false to leave it open (see
-
-Remarks
-
-)
+- `Closed`: True if you want the loft to be closed, false to leave it open (see **Remarks**)
 - `KeepTangency`: Controls whether the section curves are tangent (see Remarks)
 - `ForceNonRational`: True to force the resulting surface to be non-rational; false to not
 - `TessToleranceFactor`: A factor to control the number of intermediate sections used for loft with centerline;
-
-the default value is 1.0; the greater the variable, the more intermediate sections
-
-are created
+  the default value is 1.0; the greater the variable, the more intermediate sections
+  are created
 - `StartMatchingType`: Tangency type at the start profile (see Remarks)
 - `EndMatchingType`: Tangency type at the end profile (see Remarks)
 - `IsThinBody`: True if this feature is a thin body, false is not
@@ -120,16 +108,14 @@ are created
 - `Thickness2`: Thickness value for the second direction
 - `ThinType`: Thin wall type:
 
-- 0 = One direction
-- 1 = One direction reverse
-- 2 = Mid-plane
-- 3 = Two direction
+  - 0 = One direction
+  - 1 = One direction reverse
+  - 2 = Mid-plane
+  - 3 = Two direction
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all
-
-bodies
+  bodies
 - `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies,
-
-false to select the bodies the feature affects (see Remarks)
+  false to select the bodies the feature affects (see Remarks)
 
 ### Return Value
 
@@ -137,11 +123,7 @@ false to select the bodies the feature affects (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCutBlend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutBlend.html)
-
-.
+See [FeatureManager::InsertCutBlend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutBlend.html).
 
 ## Remarks
 
@@ -155,7 +137,7 @@ If Closed is True and you selected less that three profiles, then any selected g
 
 If the section curves are tangent, then KeepTangency controls whether the resulting surfaces are also be tangent. Specify True to maintain the tangency as seen in the section curves; false to not. When generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics.
 
-Use[IModelDocExtension::SelectById2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the profiles and guide curves. The mark for the profile selections should be 1; the mark for any guide curve selection, if provided, should be a 2; the mark for the centerline selection, if provided, should be a 4; the mark for the start tangency vector selection, if provided, should be a 8; the mark for the start tangency faces selection, if provided, should be a 16 (not available); the mark for the end tangency vector selection, if provided, should be a 32; the mark for the end tangency faces selection, if provided, should be a 64 (not available); linear edge, sketch line, axis, plane and planar faces are qualified for tangency vector sections.
+Use [IModelDocExtension::SelectById2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the profiles and guide curves. The mark for the profile selections should be 1; the mark for any guide curve selection, if provided, should be a 2; the mark for the centerline selection, if provided, should be a 4; the mark for the start tangency vector selection, if provided, should be a 8; the mark for the start tangency faces selection, if provided, should be a 16 (not available); the mark for the end tangency vector selection, if provided, should be a 32; the mark for the end tangency faces selection, if provided, should be a 64 (not available); linear edge, sketch line, axis, plane and planar faces are qualified for tangency vector sections.
 
 The tangency type arguments can take the following values:
 
@@ -172,11 +154,8 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [IFeatureManager::InsertProtrusionBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)
 
 ## Availability

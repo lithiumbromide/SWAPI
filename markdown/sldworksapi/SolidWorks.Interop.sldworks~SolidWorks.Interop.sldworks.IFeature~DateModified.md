@@ -42,13 +42,7 @@ property System.String^ DateModified {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,13 @@ Date on which the feature was last modified
 
 ## VBA Syntax
 
-See
-
-[Feature::DateModified](ms-its:sldworksapivb6.chm::/sldworks~Feature~DateModified.html)
-
-.
+See [Feature::DateModified](ms-its:sldworksapivb6.chm::/sldworks~Feature~DateModified.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::CreatedBy Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~CreatedBy.html)
-
 [IFeature::DateCreated Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~DateCreated.html)
 
 ## Availability

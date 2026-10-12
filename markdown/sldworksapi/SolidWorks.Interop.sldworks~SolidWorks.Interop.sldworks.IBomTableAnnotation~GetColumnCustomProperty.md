@@ -47,13 +47,7 @@ System.String^ GetColumnCustomProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -63,15 +57,9 @@ See
 
 Custom property used to fill the values in this user-defined column
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetColumnCustomProperty.html)
-
-.
+See [BomTableAnnotation::GetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetColumnCustomProperty.html).
 
 ## Examples
 
@@ -81,16 +69,13 @@ See
 
 This method will return an empty string if the column is not a user-defined column.
 
-To get the list of custom properties, use[IBomTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetAllCustomProperties.html)or[IBomTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetAllCustomProperties.html). The list of possible custom properties includes all of the items in the BOM table, which includes items from the file summary items and file custom properties that have been set.
+To get the list of custom properties, use [IBomTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetAllCustomProperties.html) or [IBomTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetAllCustomProperties.html). The list of possible custom properties includes all of the items in the BOM table, which includes items from the file summary items and file custom properties that have been set.
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::GetAllCustomPropertiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetAllCustomPropertiesCount.html)
-
 [IBomTableAnnotation::SetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~SetColumnCustomProperty.html)
 
 ## Availability

@@ -43,23 +43,15 @@ void SetUserRights(
 ### Parameters
 
 - `lUserID`: ID of user for which to set permissions
-- `lEdmRightFlags`: Combination of
-
-[EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html)
-
-bits
+- `lEdmRightFlags`: Combination of [EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html) bits
 
 ## Examples
 
-See the
-
-[IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
-examples.
+See the [IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html) examples.
 
 ## Remarks
 
-Retrieve users using[IEdmUserMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr5.html).
+Retrieve users using [IEdmUserMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr5.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -69,7 +61,6 @@ Retrieve users using[IEdmUserMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserM
 ## See Also
 
 [IEdmFolderData5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
 [IEdmFolderData5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_members.html)
 
 ## Availability

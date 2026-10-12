@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetErrorMessages Method (ISldWorks)
 
-Gets the last 20 messages issued by SOLIDWORKS in the current SOLIDWORKS session.
+Gets the last 20 messages issued in the current SOLIDWORKS Design session.
 
 ## Syntax
 
@@ -55,37 +55,25 @@ System.int GetErrorMessages(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Msgs`: Array of the last 20 messages issued by SOLIDWORKS in this SOLIDWORKS session
-- `MsgIDs`: Array of the resource IDs of the last 20 messages issued by SOLIDWORKS in this SOLIDWORKS
-
-session
-- `MsgTypes`: Array of the types of the last 20 messages issued by SOLIDWORKS in this SOLIDWORKS
-
-session (see Remarks)
+- `Msgs`: Array of the last 20 messages issued in this SOLIDWORKS Design session
+- `MsgIDs`: Array of the resource IDs of the last 20 messages issued in this SOLIDWORKS Design
+  session
+- `MsgTypes`: Array of the types of the last 20 messages issued in this SOLIDWORKS Design
+  session (see **Remarks**)
 
 ### Return Value
 
-Number of messages issued by SOLIDWORKS in this SOLIDWORKS session
+Number of messages issued in this SOLIDWORKS Design session
 
-**NOTE:**The stack is cleared after calling this method.
+**NOTE:** The stack is cleared after calling this method.
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetErrorMessages](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetErrorMessages.html)
-
-.
+See [SldWorks::GetErrorMessages](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetErrorMessages.html).
 
 ## Examples
 
@@ -98,9 +86,7 @@ The elements of the MsgTypes array are bitmasks of the Microsoft message-box sys
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetLastSaveError Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLastSaveError.html)
 
 ## Availability

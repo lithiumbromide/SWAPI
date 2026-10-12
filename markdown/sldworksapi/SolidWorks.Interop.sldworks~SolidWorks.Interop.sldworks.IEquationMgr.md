@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEq
 
 Maintains a list of all of the existing equations in a model.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,24 +41,15 @@ public interface class IEquationMgr
 
 ## VBA Syntax
 
-See
-
-[EquationMgr](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr.html)
-
-.
+See [EquationMgr](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr.html).
 
 ## Examples
 
 [Automatically Solve Equations in Sequence (C#)](Automatically_Solve_Equations_in_Sequence_Example_CSharp.htm)
-
 [Automatically Solve Equations in Sequence (VB.NET)](Automatically_Solve_Equations_in_Sequence_Example_VBNET.htm)
-
 [Automatically Solve Equations in Sequence (VBA)](Automatically_Solve_Equations_in_Sequence_Example_VB.htm)
-
 [Get Equation Values (C#)](Get_Equation_Values_Example_CSharp.htm)
-
 [Get Equation Values (VB.NET)](Get_Equation_Values_Example_VBNET.htm)
-
 [Get Equation Values (VBA)](Get_Equation_Values_Example_VB.htm)
 
 ## Remarks
@@ -76,5 +67,4 @@ To add or edit an equation directly on an assembly component's model, you must e
 ## See Also
 
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

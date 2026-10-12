@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetConfigurationNames Method (ISldWorks)
 
-Gets the names of the configuration in this SOLIDWORKS document, whether the document is opened or closed.
+Gets the names of the configuration in this SOLIDWORKS Design document, whether the document is opened or closed.
 
 ## Syntax
 
@@ -47,29 +47,19 @@ System.Object^ GetConfigurationNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FilePathName`: Path and file name for the SOLIDWORKS document
+- `FilePathName`: Path and file name for the SOLIDWORKS Design document
 
 ### Return Value
 
-Array of strings containing the names of the configurations in this SOLIDWORKS document
+Array of strings containing the names of the configurations in this SOLIDWORKS Design document
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetConfigurationNames.html)
-
-.
+See [SldWorks::GetConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetConfigurationNames.html).
 
 ## Examples
 
@@ -78,21 +68,13 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetActiveConfigurationName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetActiveConfigurationName.html)
-
 [ISldWorks::GetConfigurationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetConfigurationCount.html)
-
 [ISldWorks::IGetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetConfigurationNames.html)
-
 [IModelDoc2::GetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html)
-
 [IModelDoc2::IGetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetConfigurationNames.html)
-
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
 
 ## Availability

@@ -51,26 +51,12 @@ System.bool SetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ref1`: First reference entity (see
-
-Remarks
-
-)
-- `Ref2`: Second reference entity (see
-
-Remarks
-
-)
+- `Ref1`: First reference entity (see **Remarks**)
+- `Ref2`: Second reference entity (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ True if the direction for the cut is set, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~SetDirectionReference.html)
-
-.
+See [SimpleHoleFeatureData2::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~SetDirectionReference.html).
 
 ## Remarks
 
@@ -98,16 +80,13 @@ Valid reference entities for Ref1 and Ref2:
 - plane
 - sketch point
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~GetDirectionReference.html)
-
 [ISimpleHoleFeatureData2::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~ReverseDirection.html)
 
 ## Availability

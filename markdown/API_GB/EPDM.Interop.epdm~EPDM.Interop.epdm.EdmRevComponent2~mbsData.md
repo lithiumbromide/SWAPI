@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mbsData.htm
 
 # mbsData Field
 
-Format string entered in the administration tool if
-
-[mlEdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevComponentFlags.html)
-
-contains the flag Edmrcf_TypeFormatString; if mbsDataField contains Edmrcf_TypeList, then the data member contains a new line-delimited list of list items.
+Format string entered in the administration tool if [mlEdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevComponentFlags.html) contains the flag Edmrcf_TypeFormatString; if mbsDataField contains Edmrcf_TypeList, then the data member contains a new line-delimited list of list items.
 
 ## Syntax
 
@@ -66,5 +62,4 @@ The mbsData member can contain the following format specifiers when mlEdmRevComp
 ## See Also
 
 [EdmRevComponent2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
 [EdmRevComponent2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2_members.html)

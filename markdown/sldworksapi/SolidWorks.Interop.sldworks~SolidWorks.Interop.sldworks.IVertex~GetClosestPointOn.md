@@ -55,13 +55,7 @@ System.Object^ GetClosestPointOn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ Array of five doubles representing the X, Y, Z point on the vertex
 
 ## VBA Syntax
 
-See
-
-[Vertex::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetClosestPointOn.html)
-
-.
+See [Vertex::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetClosestPointOn.html).
 
 ## Remarks
 
@@ -88,7 +78,5 @@ Because a vertex is a point, you should receive the X,Y,Z location for the actua
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [IVertex::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetClosestPointOn.html)

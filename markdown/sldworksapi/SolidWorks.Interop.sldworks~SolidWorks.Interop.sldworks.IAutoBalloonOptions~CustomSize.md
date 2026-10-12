@@ -45,46 +45,23 @@ property System.double CustomSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-User-defined size of the balloons; valid only when
-
-[IAutoBalloonOptions::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Size.html)
-
-is set to
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-
-.swBF_UserDef
+User-defined size of the balloons; valid only when [IAutoBalloonOptions::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Size.html) is set to [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html).swBF_UserDef
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::CustomSize](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~CustomSize.html)
-
-.
+See [AutoBalloonOptions::CustomSize](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~CustomSize.html).
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

@@ -52,43 +52,25 @@ public delegate System.int DSldWorksEvents_PromptForMultipleFileNamesNotifyEvent
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `openOrSave`: - 0 = save
-- 1 = open
+  - 1 = open
 - `suggestedFileNames`: Array of names of the missing SOLIDWORKS documents
-- `DocTypes`: Types of the missing documents as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `cause`: Cause as defined in
-
-[swPrompForFilenameCause_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html)
+- `DocTypes`: Types of the missing documents as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `cause`: Cause as defined in [swPrompForFilenameCause_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html)
 
 ## VBA Syntax
 
-See
-
-[PromptForMultipleFileNamesNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PromptForMultipleFileNamesNotify_EV.html)
-
-.
+See [PromptForMultipleFileNamesNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PromptForMultipleFileNamesNotify_EV.html).
 
 ## Remarks
 
-Use this event with the[ISldWorks::SetMultipleFilenamesPrompt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMultipleFilenamesPrompt.html)method.
+Use this event with the [ISldWorks::SetMultipleFilenamesPrompt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMultipleFilenamesPrompt.html) method.
 
-If developing a C++ application, use
-
-[swAppPromptForMultipleFileNameNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppPromptForMultipleFileNameNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

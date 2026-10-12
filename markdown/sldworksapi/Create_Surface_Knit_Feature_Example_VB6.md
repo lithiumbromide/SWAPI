@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Surface_Knit_Feature_Example_VB6.htm"
 
 # Create Surface Knit Feature Example (VBA)
 
-This example shows how to create a surface knit feature and get its
-properties.
+This example shows how to create a surface knit feature and get its properties.
 
 ```
 '-----------------------------------------------------

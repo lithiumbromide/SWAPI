@@ -48,16 +48,11 @@ property DimXpertFeature^ Feature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::Feature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Feature.html)
-
-.
+See [DimXpertAnnotation::Feature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Feature.html).
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

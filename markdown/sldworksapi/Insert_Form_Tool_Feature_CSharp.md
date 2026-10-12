@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Form_Tool_Feature_CSharp.htm"
 
 # Insert Forming Tool Feature Example (C#)
 
-This example shows how to insert a forming tool feature into a sheet metal
-part.
+This example shows how to insert a forming tool feature into a sheet metal part.
 
 ```vb
  //----------------------------------------------------------------------------

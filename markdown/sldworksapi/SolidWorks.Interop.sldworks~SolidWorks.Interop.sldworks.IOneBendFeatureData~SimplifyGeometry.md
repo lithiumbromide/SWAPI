@@ -45,13 +45,7 @@ property System.bool SimplifyGeometry {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to simplify the geometry, false to not
 
 ## VBA Syntax
 
-See
-
-[OneBendFeatureData::SimplifyGeometry](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~SimplifyGeometry.html)
-
-.
+See [OneBendFeatureData::SimplifyGeometry](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~SimplifyGeometry.html).
 
 ## See Also
 
 [IOneBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData.html)
-
 [IOneBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData_members.html)
 
 ## Availability

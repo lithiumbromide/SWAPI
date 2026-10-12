@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # DeriveSketch Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::DeriveSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeriveSketch.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::DeriveSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeriveSketch.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void DeriveSketch()
 void DeriveSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::DeriveSketch](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~DeriveSketch.html)
-
-.
+See [ModelDoc::DeriveSketch](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~DeriveSketch.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -46,27 +46,15 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ppenum`: Pointer to the clones
-
-[loops enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumLoops2.html)
+- `Ppenum`: Pointer to the clones [loops enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumLoops2.html)
 
 ## VBA Syntax
 
-See
-
-[EnumLoops2::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Clone.html)
-
-.
+See [EnumLoops2::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Clone.html).
 
 ## Remarks
 
@@ -75,7 +63,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumLoops2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2.html)
-
 [IEnumLoops2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2_members.html)
 
 ## Availability

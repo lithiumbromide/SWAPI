@@ -9,135 +9,45 @@ source: "swconst/DP_Colors.htm"
 
 # Document Properties > Model Display
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Model/Feature colors - Wireframe/HLR | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorWireFrame,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorWireFrame,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Shading | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorShading,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorShading,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Hidden | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorHidden,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorHidden,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Bend | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBend,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBend,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Boss | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBoss,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBoss,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Cavity | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCavity,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCavity,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Chamfer | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatChamfer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatChamfer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Cut | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Cut-Loft | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoftCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoftCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Cut-Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSurfCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSurfCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Cut-Sweep | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweepCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweepCut,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Weld Bead | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWeldBead,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWeldBead,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Extrude | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatExtrude,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatExtrude,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Fillet | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatFillet,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatFillet,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Hole | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatHole,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatHole,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Library Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLibrary,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLibrary,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Loft | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoft,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoft,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - MidSurface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatMidSurface,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatMidSurface,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Pattern | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatPattern,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatPattern,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRefSurface,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRefSurface,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Revolution | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRevolution,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRevolution,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Shell | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShell,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShell,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Derived Part | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDerivedPart,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDerivedPart,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Sweep | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweep,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweep,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Thicken | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatThicken,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatThicken,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Rib | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRib,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRib,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Dome | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDome,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDome,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Form feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatForm,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatForm,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Shape Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShape,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShape,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Replace Face | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatReplaceFace,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatReplaceFace,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Structural Member | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatStructuralMember,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatStructuralMember,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Gusset | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatGusset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatGusset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - End cap | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatEndCap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatEndCap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Wrap | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWrap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWrap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
-| Model/Feature colors - Apply same color to wireframe, HLR, and shaded | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swColorsWireframeHLRShadedSame,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swColorsWireframeHLRShadedSame,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to apply same color to wireframe, HLR, and shaded |
-| Model/Feature colors - Ignore feature colors | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swIgnoreFeatureColors,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swIgnoreFeatureColors,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts only; specifies whether to ignore feature colors |
-| Store appearance, decal, and scene
-data in model file (Note: will increase file size) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreImagesWithModel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreImagesWithModel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to store images
-with model |
-| Store images for OLE object data in model file (Note: wil increase file
-size) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreOLEImagesWithModel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreOLEImagesWithModel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts and assemblies only; Default value is true |
-| Automatically scale appearance textures, surface finishes, and decals to the model
-size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoScaleTextureSFDecalsToModelSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoScaleTextureSFDecalsToModelSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
-| Cartoon edge thickness (Range = 1 - 6 pixels) | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCartoonEdgeThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCartoonEdgeThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 1 <= Integral number of pixels <= 6 | For parts and assemblies only |
+| Model/Feature colors - Wireframe/HLR | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorWireFrame, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorWireFrame, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Shading | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorShading, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorShading, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Hidden | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorHidden, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorHidden, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Bend | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBend, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBend, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Boss | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBoss, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatBoss, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Cavity | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCavity, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCavity, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Chamfer | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatChamfer, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatChamfer, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Cut | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Cut-Loft | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoftCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoftCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Cut-Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSurfCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSurfCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Cut-Sweep | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweepCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweepCut, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Weld Bead | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWeldBead, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWeldBead, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Extrude | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatExtrude, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatExtrude, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Fillet | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatFillet, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatFillet, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Hole | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatHole, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatHole, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Library Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLibrary, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLibrary, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Loft | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoft, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatLoft, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - MidSurface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatMidSurface, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatMidSurface, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Pattern | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatPattern, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatPattern, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRefSurface, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRefSurface, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Revolution | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRevolution, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRevolution, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Shell | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShell, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShell, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Derived Part | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDerivedPart, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDerivedPart, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Sweep | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweep, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatSweep, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Thicken | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatThicken, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatThicken, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Rib | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRib, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatRib, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Dome | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDome, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatDome, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Form feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatForm, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatForm, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Shape Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShape, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatShape, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Replace Face | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatReplaceFace, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatReplaceFace, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Structural Member | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatStructuralMember, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatStructuralMember, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Gusset | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatGusset, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatGusset, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - End cap | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatEndCap, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatEndCap, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Wrap | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWrap, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDocumentColorFeatWrap, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See IColorTable for valid options |  |
+| Model/Feature colors - Apply same color to wireframe, HLR, and shaded | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swColorsWireframeHLRShadedSame, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swColorsWireframeHLRShadedSame, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to apply same color to wireframe, HLR, and shaded |
+| Model/Feature colors - Ignore feature colors | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swIgnoreFeatureColors, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swIgnoreFeatureColors, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts only; specifies whether to ignore feature colors |
+| Store appearance, decal, and scene data in model file (Note: will increase file size) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreImagesWithModel, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreImagesWithModel, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to store images with model |
+| Store images for OLE object data in model file (Note: wil increase file size) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreOLEImagesWithModel, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swStoreOLEImagesWithModel, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts and assemblies only; Default value is true |
+| Automatically scale appearance textures, surface finishes, and decals to the model size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoScaleTextureSFDecalsToModelSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoScaleTextureSFDecalsToModelSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Cartoon edge thickness (Range = 1 - 6 pixels) | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCartoonEdgeThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCartoonEdgeThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 1 <= Integral number of pixels <= 6 | For parts and assemblies only |

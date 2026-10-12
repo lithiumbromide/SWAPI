@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # GetCorresponding Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetCorresponding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCorresponding.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetCorresponding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCorresponding.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetCorresponding(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetCorresponding.html)
-
-.
+See [PartDoc::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetCorresponding.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

@@ -42,11 +42,7 @@ void SetVar(
 
 ### Parameters
 
-- `lVarID`: ID of the variable for which to set a value (see
-
-Remarks
-
-)
+- `lVarID`: ID of the variable for which to set a value (see **Remarks**)
 - `oValue`: Value to set
 
 ## Remarks
@@ -55,14 +51,10 @@ The task add-in can display a data card with variable values that the user can m
 
 The card variable value set by this method can be retrieved by calling:
 
-- [IEdmTaskProperties::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~GetVar.html)
+- [IEdmTaskProperties::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~GetVar.html).
+- [IEdmTaskInstance::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetVar.html) during the processing of the EdmCmdType.EdmCmd_TaskRun hook on the server where the task instance is running.
 
-  .
-- [IEdmTaskInstance::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetVar.html)
-
-  during the processing of the EdmCmdType.EdmCmd_TaskRun hook on the server where the task instance is running.
-
-Card variables are created using the administration tool card editor and are not related to the user-defined variables accessed by[IEdmTaskInstance::GetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetValEx.html)and[IEdmTaskInstance::SetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetValEx.html).
+Card variables are created using the administration tool card editor and are not related to the user-defined variables accessed by [IEdmTaskInstance::GetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetValEx.html) and [IEdmTaskInstance::SetValEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetValEx.html).
 
 The difference between this method and IEdmTaskInstance::SetValEx is that the latter does not require a pre-defined card variable in the vault, whereas this method does.
 
@@ -73,9 +65,7 @@ The difference between this method and IEdmTaskInstance::SetValEx is that the la
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
-
 [Task Add-in Sample](TaskSample.htm)
 
 ## Availability

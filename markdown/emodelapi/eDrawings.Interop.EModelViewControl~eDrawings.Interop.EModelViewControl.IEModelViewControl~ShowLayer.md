@@ -52,11 +52,7 @@ property System.bool ShowLayer {
 
 ### Parameters
 
-- `LayerName`: Name of layer to show (see
-
-Remarks
-
-)
+- `LayerName`: Name of layer to show (see Remarks)
 
 ### Property Value
 
@@ -64,30 +60,20 @@ True if the layer is shown, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ShowLayer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowLayer.html)
-
-.
+See [EModelViewControl::ShowLayer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ShowLayer.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-Before calling this method, call[IEModelViewControl::LayerName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerName.html)to get the name of the layer to show.
+Before calling this method, call [IEModelViewControl::LayerName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerName.html) to get the name of the layer to show.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::LayerCount Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerCount.html)
 
 ## Availability

@@ -11,12 +11,9 @@ source: "sldworksapi/Insert_New_Instance_of_Virtual_Component_Example_VBNET.htm"
 
 This example shows how to:
 
-- create an
-  assembly document.
-- insert a new
-  part as a virtual component in the assembly document.
-- insert a new
-  instance of the virtual component in the assembly document.
+- create an assembly document.
+- insert a new part as a virtual component in the assembly document.
+- insert a new instance of the virtual component in the assembly document.
 
 ```vb
  '-----------------------------------------------------

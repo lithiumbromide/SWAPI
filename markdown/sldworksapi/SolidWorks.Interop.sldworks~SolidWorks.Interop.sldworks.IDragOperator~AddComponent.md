@@ -51,13 +51,7 @@ System.bool AddComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,28 +60,19 @@ See
 
 ### Return Value
 
-True if successful, false for failure; fixed components always return false (see**Remarks**)
+True if successful, false for failure; fixed components always return false (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DragOperator::AddComponent](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~AddComponent.html)
-
-.
+See [DragOperator::AddComponent](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~AddComponent.html).
 
 ## Examples
 
 [Rotate Assembly Component on Axis Using IDragOperator::DragAsUI (VBA)](Rotate_Assembly_Component_on_Axis_Example2_VB.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::DragAsUI (VB.NET)](Rotate_Assembly_Component_on_Axis_Example2_VBNET.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::DragAsUI (C#)](Rotate_Assembly_Component_on_Axis_Example2_CSharp.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (VBA)](Rotate_Assembly_Component_on_Axis_Example_VB.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (VB.NET)](Rotate_Assembly_Component_on_Axis_Example_VBNET.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (C#)](Rotate_Assembly_Component_on_Axis_Example_CSharp.htm)
 
 ## Remarks
@@ -97,9 +82,7 @@ Components that are constrained via mates are not considered fixed.
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::IAddComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~IAddComponent.html)
 
 ## Availability

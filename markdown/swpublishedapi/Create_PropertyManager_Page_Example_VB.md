@@ -9,8 +9,7 @@ source: "swpublishedapi/Create_PropertyManager_Page_Example_VB.htm"
 
 # Create PropertyManager Page Example (VBA)
 
-This example shows how to create a PropertyManager
-page that contains the following controls:
+This example shows how to create a PropertyManager page that contains the following controls:
 
 - ActiveX
 - Bitmap
@@ -26,24 +25,17 @@ page that contains the following controls:
 - Slider
 - Tab
 
-This
-example also shows how to handle focus events for these controls.
+This example also shows how to handle focus events for these controls.
 
-NOTE:If the model is an assembly
-that contains multiple components, and you want to allow the user to
-select edges, faces, or vertices, then you must specify swSelCOMPSDONTOVERRIDE
-for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters.
-Otherwise, if the user attempts to select an edge, face, or vertex, then the
-entire component might get selected and not the edge, face, or vertex. This
-example demonstrates how to specify SelType.
+NOTE: If the model is an assembly that contains multiple components, and you want to allow the user to select edges, faces, or vertices, then you must specify swSelCOMPSDONTOVERRIDE for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters. Otherwise, if the user attempts to select an edge, face, or vertex, then the entire component might get selected and not the edge, face, or vertex. This example demonstrates how to specify SelType.
 
 ```vb
 '--------------------------------------------------------------------------
  ' Preconditions:
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1. Copy Modules - main to your project.
- ' kadov_tag{{<spaces>}}2. Copy Class Modules - clsPropMgr to a class module in your project.
- ' kadov_tag{{<spaces>}}3. Click   Tools > References, select
- ' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}SOLIDWORKS version exposed type libraries for add-in use, and click OK.
+ ' 1. Copy Modules - main to your project.
+ ' 2. Copy Class Modules - clsPropMgr to a class module in your project.
+ ' 3. Click   Tools > References, select
+ '    SOLIDWORKS version exposed type libraries for add-in use, and click OK.
  ' 4. Ensure that the specified assembly document exists.
  ' 5. Modify ClassID and LicenseKey parameters in
  '    IPropertyManagerPageActiveX::SetClass to add your ActiveX control
@@ -51,13 +43,13 @@ example demonstrates how to specify SelType.
  ' 6. Open an Immediate window.
  '
  ' Postconditions:
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1. Creates a PropertyManager page called Comps.
+ ' 1. Creates a PropertyManager page called Comps.
  ' 2. Creates the specified controls.
- ' 3. kadov_tag{{</spaces>}}Inspect the contents of Comps and the Immediate Window as
- '  kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}you use the specified controls. kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
+ ' 3. Inspect the contents of Comps and the Immediate Window as
+ '    you use the specified controls.
  ' 4. Click the green check mark to close the PropertyManager page.
  '
- ' NOTE: Because the assembly document is used elsewhere, kadov_tag{{<spaces>}}do not save changes.
+ ' NOTE: Because the assembly document is used elsewhere, do not save changes.
  '----------------------------------------------------------------------------
  'Modules - main
 Option Explicit

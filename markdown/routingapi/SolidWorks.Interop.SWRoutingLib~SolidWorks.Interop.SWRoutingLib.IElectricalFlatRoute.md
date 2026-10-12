@@ -11,13 +11,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 Allows access to an electrical flattened route.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IElectricalFlatRoute
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute.html)
-
-.
+See [ElectricalFlatRoute](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute.html).
 
 ## Accessors
 
@@ -60,7 +50,5 @@ See
 ## See Also
 
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)
-
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)

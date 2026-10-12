@@ -51,34 +51,20 @@ Minimum number of elements in a circle
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::MinNumOfElementsPerCircleForBlendedCurveMesher](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~MinNumOfElementsPerCircleForBlendedCurveMesher.html)
-
-.
+See [CWMeshControl::MinNumOfElementsPerCircleForBlendedCurveMesher](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~MinNumOfElementsPerCircleForBlendedCurveMesher.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWMeshControl::BeamSelected](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~BeamSelected.html)
+- [ICWMeshControl::BeamSelected](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~BeamSelected.html) = 0
+- [ICWMesh::MesherType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MesherType.html)=
 
-  = 0
-- [ICWMesh::MesherType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MesherType.html)
-
-  =
-
-  - [swsMesherType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMesherType_e.html)
-
-    .swsMesherTypeAlternateCB
+  - [swsMesherType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMesherType_e.html).swsMesherTypeAlternateCB
 
 - or -
 
@@ -87,13 +73,9 @@ This property is valid only if:
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::ElementSize Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~ElementSize.html)
-
 [ICWMeshControl::Ratio Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~Ratio.html)
-
 [ICWMeshControl::MinimumElementSizeForBlendedCurveMesher Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinimumElementSizeForBlendedCurveMesher.html)
 
 ## Availability

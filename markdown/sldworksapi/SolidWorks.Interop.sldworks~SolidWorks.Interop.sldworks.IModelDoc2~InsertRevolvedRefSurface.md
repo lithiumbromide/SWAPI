@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertRevolvedRefSurface Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertRevolvedRefSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertRevolvedRefSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void InsertRevolvedRefSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertRevolvedRefSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRevolvedRefSurface.html)
-
-.
+See [ModelDoc2::InsertRevolvedRefSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRevolvedRefSurface.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

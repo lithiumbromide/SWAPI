@@ -34,14 +34,9 @@ System.int mlEdmMenuFlags
 
 ### Field Value
 
-Command flags as defined in
-
-[EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html)
-
-.
+Command flags as defined in [EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html).
 
 ## See Also
 
 [EdmCmdInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo.html)
-
 [EdmCmdInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo_members.html)

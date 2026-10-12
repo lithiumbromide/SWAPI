@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_DestroyNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Sent to an MFC-based or a COM-based DLL add-in when SOLIDWORKS is about to be destroyed.
+Sent to an MFC-based or a COM-based DLL add-in when the SOLIDWORKS session is about to be destroyed.
 
 ## Syntax
 
@@ -37,29 +37,19 @@ public delegate System.int DSldWorksEvents_DestroyNotifyEventHandler()
 public delegate System.int DSldWorksEvents_DestroyNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DestroyNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DestroyNotify_EV.html)
-
-.
+See [DestroyNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DestroyNotify_EV.html).
 
 ## Remarks
 
-This is a pre-notification.kadov_tag{{</spaces>}}Add-ins should not perform any cleanup inside this event.
+This is a pre-notification. Add-ins should not perform any cleanup inside this event.
 
-Use[ISwAddin::DisconnectFromSw](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~DisconnectFromSW.html)to perform any cleanup of COM-based DLL add-ins.
+Use [ISwAddin::DisconnectFromSw](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~DisconnectFromSW.html) to perform any cleanup of COM-based DLL add-ins.
 
-If developing a C++ application, use[swAppDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -46,11 +46,7 @@ Number of plots
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyResults::GetPlotCount](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~GetPlotCount.html)
-
-.
+See [CosmosMotionStudyResults::GetPlotCount](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~GetPlotCount.html).
 
 ## Examples
 
@@ -58,14 +54,12 @@ See
 
 ## Remarks
 
-Call this method before calling[ICosmosMotionStudyResults::IGetPlotFeatures](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html)to get the size of the array for that method.
+Call this method before calling [ICosmosMotionStudyResults::IGetPlotFeatures](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html) to get the size of the array for that method.
 
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [ICosmosMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults_members.html)
-
 [ICosmosMotionStudyResults::GetPlotFeatures Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotFeatures.html)
 
 ## Availability

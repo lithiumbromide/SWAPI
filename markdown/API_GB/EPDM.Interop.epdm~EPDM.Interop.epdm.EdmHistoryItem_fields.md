@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_fields.html"
 
 # EdmHistoryItem Structure Fields
 
-For a list of all members of this type, see[EdmHistoryItem members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html).
+For a list of all members of this type, see [EdmHistoryItem members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html).
 
 ## Public Fields
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[EdmHistoryItem members](EPDM.Interop
 ## See Also
 
 [EdmHistoryItem Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

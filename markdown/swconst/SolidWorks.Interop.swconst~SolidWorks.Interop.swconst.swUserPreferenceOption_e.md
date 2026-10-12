@@ -56,6 +56,7 @@ public enum class swUserPreferenceOption_e : public System.Enum
 | swDetailingDiameterDimension | See System Options and Document Properties. |
 | swDetailingDimension | See System Options and Document Properties. |
 | swDetailingDrawingView | See System Options and Document Properties. |
+| swDetailingFamilyTable | See System Options and Document Properties. |
 | swDetailingGeneralTable | See System Options and Document Properties. |
 | swDetailingGeometricTolerance | See System Options and Document Properties. |
 | swDetailingHoleDimension | See System Options and Document Properties. |
@@ -81,31 +82,11 @@ public enum class swUserPreferenceOption_e : public System.Enum
 
 Use with:
 
-- [IModelDocExtension::GetUserPreferenceDouble](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceDouble.html)
-
-  and
-
-  [IModelDocExtension::SetUserPreferenceDouble](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceDouble.html)
-- [IModelDocExtension::GetUserPreferenceInteger](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html)
-
-  and
-
-  [IModelDocExtension::SetUserPreferenceInteger](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceInteger.html)
-- [IModelDocExtension::GetUserPreferenceString](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceString.html)
-
-  and
-
-  [IModelDocExtension::SetUserPreferenceString](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceString.html)
-- [IModelDocExtension::GetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceTextFormat.html)
-
-  and
-
-  [IModelDocExtension::SetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html)
-- [IModelDocExtension::GetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceToggle.html)
-
-  and
-
-  [IModelDocExtension::SetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceToggle.html)
+- [IModelDocExtension::GetUserPreferenceDouble](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceDouble.html) and [IModelDocExtension::SetUserPreferenceDouble](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceDouble.html)
+- [IModelDocExtension::GetUserPreferenceInteger](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html) and [IModelDocExtension::SetUserPreferenceInteger](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceInteger.html)
+- [IModelDocExtension::GetUserPreferenceString](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceString.html) and [IModelDocExtension::SetUserPreferenceString](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceString.html)
+- [IModelDocExtension::GetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceTextFormat.html) and [IModelDocExtension::SetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html)
+- [IModelDocExtension::GetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceToggle.html) and [IModelDocExtension::SetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceToggle.html)
 
 ## See Also
 

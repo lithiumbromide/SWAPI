@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # BoltHeadDiameter Property (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::BoltHeadDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~BoltHeadDiameter.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::BoltHeadDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~BoltHeadDiameter.html).
 
 ## Syntax
 
@@ -42,13 +42,7 @@ property System.double BoltHeadDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,22 +50,14 @@ Diameter of head of the bolt
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::BoltHeadDiameter](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~BoltHeadDiameter.html)
-
-.
+See [HoleSeriesFeatureData::BoltHeadDiameter](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~BoltHeadDiameter.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
-
 [IHoleSeriesFeatureData::BoltDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~BoltDiameter.html)
-
 [IHoleSeriesFeatureData::NutDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~NutDiameter.html)
-
 [IHoleSeriesFeatureData::Material Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~Material.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.Object^ SelectionTabEdge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::SelectionTabEdge](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionTabEdge.html)
-
-.
+See [TabAndSlotGroupData::SelectionTabEdge](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionTabEdge.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
-
 [ITabAndSlotGroupData::TabFace Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabFace.html)
-
 [ITabAndSlotGroupData::TabThickness Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabThickness.html)
 
 ## Availability

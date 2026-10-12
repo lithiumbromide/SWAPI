@@ -41,24 +41,15 @@ void ContactSetBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::ContactSetBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactSetBeginEdit.html)
-
-.
+See [CWContactSet::ContactSetBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactSetBeginEdit.html).
 
 ## Remarks
 
-To start editing a contact set, call this method. You must call
-
-[ICWContactSet::ContactSetEndEit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~ContactSetEndEdit.html)
-
-to end editing that contact set. Changes are not applied unless you call both methods.
+To start editing a contact set, call this method. You must call [ICWContactSet::ContactSetEndEit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~ContactSetEndEdit.html) to end editing that contact set. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
 
 ## Availability

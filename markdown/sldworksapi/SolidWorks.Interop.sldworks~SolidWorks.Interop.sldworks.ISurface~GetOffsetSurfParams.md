@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # GetOffsetSurfParams Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::GetOffsetSurfParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetOffsetSurfParams2.html)
-
-.
+Obsolete. Superseded by [ISurface::GetOffsetSurfParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetOffsetSurfParams2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double GetOffsetSurfParams()
 System.double GetOffsetSurfParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Surface::GetOffsetSurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetOffsetSurfParams.html)
-
-.
+See [Surface::GetOffsetSurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetOffsetSurfParams.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

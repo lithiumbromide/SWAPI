@@ -65,11 +65,11 @@ System.Object^ GetBeamStressForEntities(
 
 ### Parameters
 
-- `NComponent`: Type of stress as defined in[swsBeamStressType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamStressType_e.html)
+- `NComponent`: Type of stress as defined in [swsBeamStressType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamStressType_e.html)
 - `NStepNumber`: Number of steps to complete a non-linear analysis; otherwise, value is 1
-- `ArraySelectedEntities`: Selected[beams](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody.html)
-- `NUnits`: Unit as defined by[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error as defined by[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ArraySelectedEntities`: Selected [beams](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody.html)
+- `NUnits`: Unit as defined by [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error as defined by [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -85,9 +85,7 @@ Array of the stress values for the specified type of stress for the elements of 
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetBeamStressForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamStressForEntities.html)
+See [CWResults::GetBeamStressForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamStressForEntities.html)
 
 ## Examples
 
@@ -96,13 +94,9 @@ See
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetBeamForcesForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamForcesForEntities.html)
-
 [ICWResults::GetBeamMinMaxStress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamMinMaxStress.html)
-
 [ICWResults::GetBeamRadius Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamRadius.html)
 
 ## Availability

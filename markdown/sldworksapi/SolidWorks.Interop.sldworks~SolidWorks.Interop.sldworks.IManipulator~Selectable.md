@@ -45,13 +45,7 @@ property System.bool Selectable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the manipulator can be selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Selectable](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Selectable.html)
-
-.
+See [Manipulator::Selectable](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Selectable.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

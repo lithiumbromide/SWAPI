@@ -9,8 +9,7 @@ source: "obsoleteapi/ModelDoc/ModelDoc__InsertSplitLineProject.htm"
 
 # ModelDoc::InsertSplitLineProject
 
-This
-method is obsolete and has been superseded by[ModelDoc2::InsertSplitLineProject](sldworksAPI.chm::/ModelDoc2/ModelDoc2__InsertSplitLineProject.htm).
+This method is obsolete and has been superseded by [ModelDoc2::InsertSplitLineProject](sldworksAPI.chm::/ModelDoc2/ModelDoc2__InsertSplitLineProject.htm).
 
 Description
 
@@ -18,170 +17,21 @@ This method split a face by projecting sketch lines onto the face.
 
 Syntax (OLE Automation)
 
-void ModelDoc.InsertSplitLineProject
-( isDirectional, flipDir)
+void ModelDoc.InsertSplitLineProject ( isDirectional, flipDir)
 
-(Table)=========================================================
-
-| Input: | (BOOL) isDirectional | Direction where: 0 = project in both
-directions 1 = project in one
-direction |
+| Input: | (BOOL) isDirectional | Direction where: 0 = project in both directions 1 = project in one direction |
 | --- | --- | --- |
-| Input: | (BOOL) flipDir | Used only when isDirectional = 1. Valid values are: 0 = project in the direction opposite to the normal
-of the sketch plane 1 = project in the direction along the normal
-of the sketch plane |
+| Input: | (BOOL) flipDir | Used only when isDirectional = 1. Valid values are: 0 = project in the direction opposite to the normal of the sketch plane 1 = project in the direction along the normal of the sketch plane |
 
-Syntax
-(COM)
+Syntax (COM)
 
-status = ModelDoc->InsertSplitLineProject
-( isDirectional, flipDir )
+status = ModelDoc->InsertSplitLineProject ( isDirectional, flipDir )
 
-(Table)=========================================================
-
-| Input: | (VARIANT_BOOL) isDirectional | Direction where: 0 = project in both
-directions 1 = project in one
-direction |
+| Input: | (VARIANT_BOOL) isDirectional | Direction where: 0 = project in both directions 1 = project in one direction |
 | --- | --- | --- |
-| Input: | (VARIANT_BOOL) flipDir | Used only when isDirectional = 1. Valid values are: 0 = project in the direction opposite to the normal
-of the sketch plane 1 = project in the direction along the normal
-of the sketch plane |
+| Input: | (VARIANT_BOOL) flipDir | Used only when isDirectional = 1. Valid values are: 0 = project in the direction opposite to the normal of the sketch plane 1 = project in the direction along the normal of the sketch plane |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-The sketch must be selected and marked using SelectByMark or AndSelectByMark
-with a mark value of 4. The faces to be spilt must be selected and marked
-by SelectByMark or AndSelectByMark with a mark value of 8.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc_Object$$**$$ZModifyFace$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc\ModelDoc__InsertSplitLineProject.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Entity::SelectByMark$$**$$ModelDoc::SelectByMark$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc\ModelDoc__InsertSplitLineProject.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Entity::SelectByMark$$**$$ModelDoc::AndSelectByMark$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc\ModelDoc__InsertSplitLineProject.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic3
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Entity::SelectByMark$$**$$ModelDoc::SelectByMark$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc\ModelDoc__InsertSplitLineProject.htm" >
-<param name="_ID" value="RelatedTopic3" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic4
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Entity::SelectByMark$$**$$ModelDoc::AndSelectByMark$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc\ModelDoc__InsertSplitLineProject.htm" >
-<param name="_ID" value="RelatedTopic4" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+The sketch must be selected and marked using SelectByMark or AndSelectByMark with a mark value of 4. The faces to be spilt must be selected and marked by SelectByMark or AndSelectByMark with a mark value of 8.

@@ -37,27 +37,17 @@ public delegate System.int DAssemblyDocEvents_ModifyNotifyEventHandler()
 public delegate System.int DAssemblyDocEvents_ModifyNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModifyNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ModifyNotify_EV.html)
-
-.
+See [ModifyNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ModifyNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyModifyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyModifyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-If the user saves the document in the current SOLIDWORKS session, then the event is fired when the document is marked dirty again.
+If the user saves the document in the current SOLIDWORKS Design session, then the event is fired when the document is marked dirty again.
 
 ## Availability
 

@@ -1,6 +1,5 @@
 ---
-title: "SketchEllipse Object
-Members"
+title: "SketchEllipse Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchEllipse_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchEllipse_members.html"
 ---
 
-# SketchEllipse Object
-Members
+# SketchEllipse Object Members
 
 ## Public Methods
 

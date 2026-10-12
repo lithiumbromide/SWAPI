@@ -9,59 +9,19 @@ source: "swconst/DP_Tables-Bend.htm"
 
 # Document Properties > Tables > Bend
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 Valid for drawings only:
 
-**NOTE:**Setting any of the following bend
-table values means that new bend tables added to the drawing use these default
-values. However, a bend table that uses a template table for insertion might
-not use these default values because the template table contains certain
-properties that take precedence over these default values.
-
-(Table)=========================================================
+**NOTE:** Setting any of the following bend table values means that new bend tables added to the drawing use these default values. However, a bend table that uses a template table for insertion might not use these default values because the template table contains certain properties that take precedence over these default values.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Border - Grid Border | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBendTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBendTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the
-set method |
-| P recision -
-Angular | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAngularPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAngularPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the
-bend table for bend angles; specify a value from 0 through
-8 |
-| Precision - Inner Radius | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendInnerRadiusPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendInnerRadiusPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the
-bend table for the inner radii of bends; specify a value from 0 through
-8 |
-| Precision - Allowance | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAllowancePrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAllowancePrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of
-digits of precision to display in the bend table for the bend allowance of bends; specify a value from 0 through
-8 |
-| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBendTableTagStyle_e.< Value >) | See swBendTableTagStyle_e for valid options | Specifies whether the bend tags are alphanumeric or numeric |
-| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendLeadingZero,
-swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendLeadingZero,
-swUserPreferenceOption_e.swDetailingBendTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
-| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swDetailingDimTrailingZero ,
-swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swDetailingDimTrailingZero ,
-swUserPreferenceOption_e.swDetailingBendTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingBendTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
+| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Border - Grid Border | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBendTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBendTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBendTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| P recision - Angular | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAngularPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAngularPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the bend table for bend angles; specify a value from 0 through 8 |
+| Precision - Inner Radius | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendInnerRadiusPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendInnerRadiusPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the bend table for the inner radii of bends; specify a value from 0 through 8 |
+| Precision - Allowance | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAllowancePrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendAllowancePrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the bend table for the bend allowance of bends; specify a value from 0 through 8 |
+| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBendTableTagStyle_e.< Value >) | See swBendTableTagStyle_e for valid options | Specifies whether the bend tags are alphanumeric or numeric |
+| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendLeadingZero, swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBendLeadingZero, swUserPreferenceOption_e.swDetailingBendTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
+| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swDetailingDimTrailingZero , swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swDetailingDimTrailingZero , swUserPreferenceOption_e.swDetailingBendTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingBendTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingBendTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some options may not apply |

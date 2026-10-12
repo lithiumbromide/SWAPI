@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd_members.html
 
 # EdmTaskMenuCmd Structure Members
 
-The following tables list the members exposed by[EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html).
+The following tables list the members exposed by [EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html).
 
 ## Public Fields
 
@@ -25,7 +25,5 @@ The following tables list the members exposed by[EdmTaskMenuCmd](EPDM.Interop.ep
 ## See Also
 
 [EdmTaskMenuCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

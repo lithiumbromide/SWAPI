@@ -1,6 +1,5 @@
 ---
-title: "DerivedPartFeatureData Object
-Members"
+title: "DerivedPartFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DerivedPartFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DerivedPartFeatureData_members.html"
 ---
 
-# DerivedPartFeatureData Object
-Members
+# DerivedPartFeatureData Object Members
 
 ## Public Methods
 

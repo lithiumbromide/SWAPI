@@ -1,6 +1,5 @@
 ---
-title: "Loop2 Object
-Members"
+title: "Loop2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Loop2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Loop2_members.html"
 ---
 
-# Loop2 Object
-Members
+# Loop2 Object Members
 
 ## Public Methods
 

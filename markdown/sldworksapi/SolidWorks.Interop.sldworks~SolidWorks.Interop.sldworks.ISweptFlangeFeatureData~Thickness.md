@@ -45,13 +45,7 @@ property System.double Thickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,17 +53,13 @@ Sheet metal thickness
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~Thickness.html)
-
-.
+See [SweptFlangeFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~Thickness.html).
 
 ## Remarks
 
 This property is valid only when not creating the swept flange on an existing sheet metal feature.
 
-The setter of this property is valid only if[ISweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html)is true.
+The setter of this property is valid only if [ISweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html) is true.
 
 This property gets:
 
@@ -80,7 +70,6 @@ This property gets:
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

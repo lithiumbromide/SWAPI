@@ -47,13 +47,7 @@ System.bool SetPeripheral(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,19 @@ True if the peripheral weld setting is set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::SetPeripheral](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetPeripheral.html)
-
-.
+See [WeldSymbol::SetPeripheral](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetPeripheral.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## Remarks
 
-To retrieve the peripheral property of a weld symbol, use[IWeldSymbol::GetPeripheral](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetPeripheral.html).
+To retrieve the peripheral property of a weld symbol, use [IWeldSymbol::GetPeripheral](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetPeripheral.html).
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
 
 ## Availability

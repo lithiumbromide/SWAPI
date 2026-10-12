@@ -55,13 +55,7 @@ System.bool GeodesicSketchOffset(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,30 +69,22 @@ True if the sketch offset is created, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GeodesicSketchOffset](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GeodesicSketchOffset.html)
-
-.
+See [ModelDocExtension::GeodesicSketchOffset](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GeodesicSketchOffset.html).
 
 ## Remarks
 
-To create a Euclidean sketch offset, use[IModelDocExtension::SketchOffsetOnSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SketchOffsetOnSurface.html).
+To create a Euclidean sketch offset, use [IModelDocExtension::SketchOffsetOnSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SketchOffsetOnSurface.html).
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)for each edge to offset and set Append to true and Mark to 1.
+Before calling this method, call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) for each edge to offset and set Append to true and Mark to 1.
 
-After calling this method, call[ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html)to rebuild the model with the 3D sketch.
+After calling this method, call [ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html) to rebuild the model with the 3D sketch.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [ISketchManager::SketchOffset2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchOffset2.html)
-
 [IModelDoc2::SketchOffsetEdges Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEdges.html)
-
 [IModelDoc2::SketchOffsetEntities2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEntities2.html)
 
 ## Availability

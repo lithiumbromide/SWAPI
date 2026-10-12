@@ -45,27 +45,15 @@ property Component2^ ReferencePart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Result
-
-[component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+Result [component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[MotionPlotAxisFeatureData::ReferencePart](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotAxisFeatureData~ReferencePart.html)
-
-.
+See [MotionPlotAxisFeatureData::ReferencePart](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotAxisFeatureData~ReferencePart.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ A component is one of the vector elements. To define a vector, you need to speci
 ## See Also
 
 [IMotionPlotAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotAxisFeatureData.html)
-
 [IMotionPlotAxisFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotAxisFeatureData_members.html)
 
 ## Availability

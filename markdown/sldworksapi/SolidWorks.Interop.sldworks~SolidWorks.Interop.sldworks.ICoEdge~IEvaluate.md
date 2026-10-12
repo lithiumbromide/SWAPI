@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IEvaluate Method (ICoEdge)
 
-Obsolete. Superseded by
-
-[ICoEdge::IEvaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IEvaluate2.html)
-
-.
+Obsolete. Superseded by [ICoEdge::IEvaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IEvaluate2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IEvaluate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,15 +55,11 @@ See
 
 ### Return Value
 
-Pointer to an array of doubles (see**Remarks**)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoEdge::IEvaluate](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IEvaluate.html)
-
-.
+See [CoEdge::IEvaluate](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IEvaluate.html).
 
 ## Remarks
 
@@ -91,11 +77,7 @@ The format of the return value is an array of 6 doubles:
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::Evaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~Evaluate.html)
-
 [ICoEdge::GetCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetCurveParams.html)
-
 [ICoEdge::IGetCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~IGetCurveParams.html)

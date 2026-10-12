@@ -55,27 +55,13 @@ System.bool AssignTagPrefix(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index of row to which to apply TagPrefix
 - `TagPrefix`: Prefix to apply
-- `ApplyTo`: Apply to other holes as defined in
-
-[swHoleTableTagPrefixApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagPrefixApply_e.html)
-
-(see
-
-Remarks
-
-)
+- `ApplyTo`: Apply to other holes as defined in [swHoleTableTagPrefixApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagPrefixApply_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -83,30 +69,14 @@ True if prefix successfully assigned, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::AssignTagPrefix](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~AssignTagPrefix.html)
-
-.
+See [HoleTable::AssignTagPrefix](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~AssignTagPrefix.html).
 
 ## Remarks
 
 This method:
 
-- is valid only if
-
-  [IHoleTable::TagStyle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~TagStyle.html)
-
-  is set to
-
-  [swHoleTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagStyle_e.html)
-
-  .swHoleTable_ManualTags.
-- corresponds to the functionality of the
-
-  Assign Tag Prefix
-
-  dialog that pops up when you right-click on a hole table row of a manual tag.
+- is valid only if [IHoleTable::TagStyle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~TagStyle.html) is set to [swHoleTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagStyle_e.html).swHoleTable_ManualTags.
+- corresponds to the functionality of the **Assign Tag Prefix** dialog that pops up when you right-click on a hole table row of a manual tag.
 
 If ApplyTo is specified with swHoleTableTagPrefixApply_e:
 
@@ -136,7 +106,6 @@ Notice that AA1 is re-labeled to AB1, and AA2 - AA4 are re-numbered to AA1 - AA3
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
 
 ## Availability

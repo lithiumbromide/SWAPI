@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7~DestroyDeletedI
 
 # DestroyDeletedItems Method (IEdmFolder7)
 
-Obsolete. Superseded by
-
-[IEdmFolder13::DestroyDeletedItems2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder13~DestroyDeletedItems2.html)
-
-.
+Obsolete. Superseded by [IEdmFolder13::DestroyDeletedItems2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder13~DestroyDeletedItems2.html).
 
 ## Syntax
 
@@ -54,16 +50,8 @@ void DestroyDeletedItems(
 
 - `bRecursive`: True to return a list containing all of the sub-items, false to return just the root items
 - `vDeleteDate`: Latest delete date of items to destroy; items deleted after this date are not destroyed
-- `ppoFiles`: Array of
-
-[EdmFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo.html)
-
-structures; one structure for each destroyed file containing information about the file
-- `poErrors`: Array of
-
-[EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
-structures; one structure for each destroyed file containing information about errors that occurred during this operation
+- `ppoFiles`: Array of [EdmFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo.html) structures; one structure for each destroyed file containing information about the file
+- `poErrors`: Array of [EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html) structures; one structure for each destroyed file containing information about errors that occurred during this operation
 
 ## Remarks
 
@@ -75,9 +63,7 @@ structures; one structure for each destroyed file containing information about e
 ## See Also
 
 [IEdmFolder7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html)
-
 [IEdmFolder7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7_members.html)
-
 [IEdmFolder11::RecoverDeletedItems Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~RecoverDeletedItems.html)
 
 ## Availability

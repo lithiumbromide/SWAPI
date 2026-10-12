@@ -36,22 +36,15 @@ property EdmDataType Type {
 
 ### Property Value
 
-Type of data object as defined in
-
-[EdmDataType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataType.html)
+Type of data object as defined in [EdmDataType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataType.html)
 
 ## Examples
 
-See the
-
-[IEdmData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
-examples.
+See the [IEdmData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html) examples.
 
 ## See Also
 
 [IEdmData Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
 [IEdmData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData_members.html)
 
 ## Availability

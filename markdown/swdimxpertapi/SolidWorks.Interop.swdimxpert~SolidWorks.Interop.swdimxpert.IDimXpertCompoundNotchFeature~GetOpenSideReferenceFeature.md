@@ -46,16 +46,11 @@ DimXpertFeature^ GetOpenSideReferenceFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::GetOpenSideReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetOpenSideReferenceFeature.html)
-
-.
+See [DimXpertCompoundNotchFeature::GetOpenSideReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetOpenSideReferenceFeature.html).
 
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

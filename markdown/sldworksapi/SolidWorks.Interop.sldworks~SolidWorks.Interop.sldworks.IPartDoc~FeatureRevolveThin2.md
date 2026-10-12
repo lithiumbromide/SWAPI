@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # FeatureRevolveThin2 Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureRevolveThin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolveThin.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureRevolveThin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureRevolveThin.html).
 
 ## Syntax
 
@@ -78,13 +74,7 @@ void FeatureRevolveThin2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -99,14 +89,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::FeatureRevolveThin2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureRevolveThin2.html)
-
-.
+See [PartDoc::FeatureRevolveThin2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureRevolveThin2.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

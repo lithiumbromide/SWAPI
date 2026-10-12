@@ -57,18 +57,12 @@ Index of entity added
 
 ## VBA Syntax
 
-See
-
-[CWDistributedMass::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~InsertEntity.html)
-
-.
+See [CWDistributedMass::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~InsertEntity.html).
 
 ## See Also
 
 [ICWDistributedMass Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html)
-
 [ICWDistributedMass Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass_members.html)
-
 [ICWDistributedMass::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass~RemoveEntity.html)
 
 ## Availability

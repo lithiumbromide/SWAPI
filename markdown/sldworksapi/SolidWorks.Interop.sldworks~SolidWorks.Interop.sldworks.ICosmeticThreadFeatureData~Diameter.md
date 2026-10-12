@@ -45,33 +45,19 @@ property System.double Diameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Depth of the diameter (see**Remarks**)
+Depth of the diameter (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::Diameter](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~Diameter.html)
-
-.
+See [CosmeticThreadFeatureData::Diameter](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~Diameter.html).
 
 ## Examples
 
-See the
-
-[ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
-examples.
+See the [ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html) examples.
 
 ## Remarks
 
@@ -83,9 +69,7 @@ examples.
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
-
 [ICosmeticThreadFeatureData::DiameterType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData~DiameterType.html)
 
 ## Availability

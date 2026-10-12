@@ -9,15 +9,9 @@ source: "sldworksapi/Change_Dimension_Example_VB.htm"
 
 # Change Dimension Example (VBA)
 
-This example shows how to change a dimension
-value in a model.
+This example shows how to change a dimension value in a model.
 
-#### NOTE: Most of the
-SOLIDWORKS API functions operate in meters. Thus, if you pass in XValue_Passed = 2.0
-and your model units are millimeters, then it
-appears as a 2000.0 in the model. If you need to determine the units
-used in the model, you can use the IModelDoc2::LengthUnit property
-and perform the appropriate conversion.
+#### NOTE: Most of the SOLIDWORKS API functions operate in meters. Thus, if you pass in XValue_Passed = 2.0 and your model units are millimeters, then it appears as a 2000.0 in the model. If you need to determine the units used in the model, you can use the IModelDoc2::LengthUnit property and perform the appropriate conversion.
 
 ```
 '----------------------------------------------------------------------------

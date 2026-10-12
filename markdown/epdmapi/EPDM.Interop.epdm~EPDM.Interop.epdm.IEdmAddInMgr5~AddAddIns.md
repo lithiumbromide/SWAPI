@@ -46,25 +46,17 @@ void AddAddIns(
 ### Parameters
 
 - `bsPathList`: Linefeed-separated list of path and file names of add-in files
-- `lEdmAddAddInFlags`: Add-in option as defined in
-
-[EdmAddAddInFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddAddInFlags.html)
+- `lEdmAddAddInFlags`: Add-in option as defined in [EdmAddAddInFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddAddInFlags.html)
 - `poReserved`: Nothing or null
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
-examples.
+See the [IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html) examples.
 
 ## See Also
 
 [IEdmAddInMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
 [IEdmAddInMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5_members.html)
-
 [IEdmAddInMgr9::RemoveAddIn Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9~RemoveAddIn.html)
 
 ## Availability

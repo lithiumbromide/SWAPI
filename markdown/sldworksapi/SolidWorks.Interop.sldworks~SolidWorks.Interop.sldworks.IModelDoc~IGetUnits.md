@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetUnits Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IGetUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetUnits.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IGetUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetUnits.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.short IGetUnits()
 System.short IGetUnits();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IGetUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetUnits.html)
-
-.
+See [ModelDoc::IGetUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetUnits.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -48,22 +48,16 @@ Name of the stream for the configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::StreamName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~StreamName.html)
-
-.
+See [SwDMConfiguration::StreamName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~StreamName.html).
 
 ## Examples
 
 [Write Parasolid Partition Stream to File (C#)](Write_Parasolid_Partition_Stream_to_File_Example_CSharp.htm)
-
 [Write Parasolid Partition Stream to File (VB.NET)](Write_Parasolid_Partition_Stream_to_File_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

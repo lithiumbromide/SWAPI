@@ -41,32 +41,19 @@ void MultipleComponentContactsBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::MultipleComponentContactsBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~MultipleComponentContactsBeginEdit.html)
-
-.
+See [CWMultipleComponentContactsEditManager::MultipleComponentContactsBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~MultipleComponentContactsBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
-examples.
+See the [ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html) examples.
 
 ## Remarks
 
-To start editing multiple contact components, call this method. You must call
-
-[ICWMultipleComponentContactsEditManager::MultipleComponentContactsEndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~MultipleComponentContactsEndEdit.html)
-
-to finish editing multiple contact components. Changes are not applied unless you call both methods.
+To start editing multiple contact components, call this method. You must call [ICWMultipleComponentContactsEditManager::MultipleComponentContactsEndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~MultipleComponentContactsEndEdit.html) to finish editing multiple contact components. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
 
 ## Availability

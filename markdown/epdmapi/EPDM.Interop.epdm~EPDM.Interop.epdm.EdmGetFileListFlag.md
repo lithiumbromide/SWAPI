@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFileListFlag.html"
 
 # EdmGetFileListFlag Enumeration
 
-Files to return by
-
-[IEdmBatchGet::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFileList.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Files to return by [IEdmBatchGet::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFileList.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

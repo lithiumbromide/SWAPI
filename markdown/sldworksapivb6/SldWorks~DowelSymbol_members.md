@@ -1,6 +1,5 @@
 ---
-title: "DowelSymbol Object
-Members"
+title: "DowelSymbol Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DowelSymbol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DowelSymbol_members.html"
 ---
 
-# DowelSymbol Object
-Members
+# DowelSymbol Object Members
 
 ## Public Methods
 

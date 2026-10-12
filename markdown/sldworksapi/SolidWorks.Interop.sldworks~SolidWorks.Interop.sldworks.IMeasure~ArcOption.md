@@ -45,34 +45,20 @@ property System.int ArcOption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-How to measure an arc or circle as defined by
-
-[swMeasureArcCircleOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMeasureArcCircleOption_e.html)
+How to measure an arc or circle as defined by [swMeasureArcCircleOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMeasureArcCircleOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[Measure::ArcOption](ms-its:sldworksapivb6.chm::/Sldworks~Measure~ArcOption.html)
-
-.
+See [Measure::ArcOption](ms-its:sldworksapivb6.chm::/Sldworks~Measure~ArcOption.html).
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::ArcLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~ArcLength.html)
 
 ## Availability

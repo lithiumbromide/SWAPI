@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBu
 
 # ICWBucklingStudyOptions Interface Members
 
-The following tables list the members exposed by[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html).
+The following tables list the members exposed by [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html).
 
 ## Public Properties
 
@@ -28,6 +28,7 @@ The following tables list the members exposed by[ICWBucklingStudyOptions](SolidW
 | Property | EMailTimebased | Obsolete. Superseded by ICWBucklingStudyOptions::EmailTimebased2 . |
 | Property | EMailTimebased2 | Gets or sets whether to send time-based email notifications during simulations. |
 | Property | EMailTo | Gets or sets the recipient of email notifications. |
+| Property | ExtractPositiveBucklingFactorsOnly | Gets or sets whether to extract only positive buckling factors from this buckling study. |
 | Property | FlowPressureFile | Gets or sets the SOLIDWORKS Flow Simulation results file from which to import fluid pressure loads. |
 | Property | FlowTemperatureFile | Gets or sets the SOLIDWORKS Flow Simulation result file that is used to import flow temperatures. |
 | Property | ReferencePressureOption | Gets or sets whether to use the reference pressure offset defined in the Flow Simulation results file to subtract from imported pressure values. |
@@ -53,5 +54,4 @@ The following tables list the members exposed by[ICWBucklingStudyOptions](SolidW
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

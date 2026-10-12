@@ -59,18 +59,12 @@ System.double ClosestDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Object1`: Pointer to first object (see**Remarks**)
-- `Object2`: Pointer to second object (see**Remarks**)
+- `Object1`: Pointer to first object (see **Remarks**)
+- `Object2`: Pointer to second object (see **Remarks**)
 - `Point1`: Array of x, y, z coordinates for the point on Object1 that is nearest to Point2
 - `Point2`: Array of x, y, z coordinates for the point on Object2 that is nearest to Point1
 
@@ -80,21 +74,16 @@ Distance in meters between Point1 and Point2; -1.0 if no solution
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ClosestDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ClosestDistance.html)
-
-.
+See [ModelDoc2::ClosestDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ClosestDistance.html).
 
 ## Examples
 
 [Calculate Closest Distance Between Faces (VBA)](Calculate_Closest_Distance_Between_Faces_Example_VB.htm)
-
 [Calculate Closest Distance Between Model Components (VBA)](Calculate_Closest_Distance_Between_Model_Components_Example_VB.htm)
 
 ## Remarks
 
-Supported types of Object1 and Object2 include[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html):
+Supported types of Object1 and Object2 include [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html):
 
 - swSelFACES (face)
 - swSelEDGES (edge)
@@ -117,7 +106,6 @@ This method has these restrictions for drawings:
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

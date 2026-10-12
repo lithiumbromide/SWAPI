@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_a_Note_Example_VBNET.htm"
 
 # Insert a Note Example (VB.NET)
 
-This example shows show to insert a geometric tolerance
-symbol in an active drawing document.
+This example shows show to insert a geometric tolerance symbol in an active drawing document.
 
 ```vb
  '----------------------------------------------------------------------------
@@ -24,27 +23,11 @@ symbol in an active drawing document.
  '----------------------------------------------------------------------------
 ```
 
-Imports
-
-SolidWorks.Interop.sldworks
-
-Imports
-
-SolidWorks.Interop.swconst
-
-Imports
-
-System.Runtime.InteropServices
-
-Imports
-
-System
-
-Partial
-
-Class
-
-SolidWorksMacro
+Imports SolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.swconst
+Imports System.Runtime.InteropServices
+Imports System
+Partial Class SolidWorksMacro
 
 ```vb
 Sub main()
@@ -73,70 +56,19 @@ Note.Angle = 0
  Annotation = Note.GetAnnotation()
 ```
 
-Dim
-
-AttEntArr(0)
-
-As
-
-Object
-
+Dim AttEntArr(0) As Object
 AttEntArr(0) = swSelobj2
-
-Dim
-
-vAttEntArrIn
-
-As
-
-Object
-
+Dim vAttEntArrIn As Object
 vAttEntArrIn = AttEntArr
-
-boolstatus = Annotation.
-
-SetAttachedEntities
-
-(vAttEntArrIn)
-
-If
-
-Not
-
-Annotation
-
-Is
-
-Nothing
-
-Then
+boolstatus = Annotation.**SetAttachedEntities**(vAttEntArrIn)
+If Not Annotation Is Nothing Then
 
 ```vb
 longstatus = Annotation.SetLeader3(1, 0,
 ```
 
-True
-
-,
-
-True
-
-,
-
-False
-
-,
-
-False
-
-)
-
-boolstatus = Annotation.
-
-SetPosition2
-
-(0.1038962799325,
-0.135343450253, 0)
+True, True, False, False)
+boolstatus = Annotation.**SetPosition2**(0.1038962799325, 0.135343450253, 0)
 
 ```vb
 End If

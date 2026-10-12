@@ -47,30 +47,20 @@ property System.int Unit {
 
 ### Property Value
 
-Units as defined in[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+Units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPressure::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Unit.html)
-
-.
+See [CWPressure::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::Value Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Value.html)
 
 ## Availability

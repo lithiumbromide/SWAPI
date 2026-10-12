@@ -42,13 +42,7 @@ property System.int CenterArcDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSlot::CenterArcDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~CenterArcDirection.html)
-
-.
+See [SketchSlot::CenterArcDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~CenterArcDirection.html).
 
 ## See Also
 
 [ISketchSlot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html)
-
 [ISketchSlot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot_members.html)
-
 [ISketchSlot::CreationType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot~CreationType.html)
 
 ## Availability

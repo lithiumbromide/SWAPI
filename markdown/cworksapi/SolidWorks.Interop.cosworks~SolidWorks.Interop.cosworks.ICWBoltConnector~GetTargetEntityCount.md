@@ -46,18 +46,12 @@ Number of target entities for this bolt connector
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::GetTargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~GetTargetEntityCount.html)
-
-.
+See [CWBoltConnector::GetTargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~GetTargetEntityCount.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::GetSourceEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~GetSourceEntityCount.html)
 
 ## Availability

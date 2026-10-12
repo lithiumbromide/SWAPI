@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html"
 
 # EdmSysRightFlags Enumeration
 
-Obsolete. Superseded by
-
-[EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
-
-.
+Obsolete. Superseded by [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html).
 
 ## Syntax
 
@@ -74,7 +70,7 @@ public enum class EdmSysRightFlags : public System.Enum
 
 ## Remarks
 
-Flags that indicate which SOLIDWORKS PDM Professional permissions a user has, etc.[Bitmask](Bitmasks.htm).
+Flags that indicate which SOLIDWORKS PDM Professional permissions a user has, etc. [Bitmask](Bitmasks.htm).
 
 ## See Also
 

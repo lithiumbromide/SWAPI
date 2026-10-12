@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileSav
 
 # swFileSaveError_e Enumeration
 
-File save errors.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+File save errors. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -56,7 +52,9 @@ public enum class swFileSaveError_e : public System.Enum
 | swFileSaveAsNameExceedsMaxPathLength | 2048 or 0x800 = File name cannot exceed 255 characters |
 | swFileSaveAsNoSelection | 512 or 0x200 = Save the selected bodies in a part document. Valid option for IPartDoc::SaveToFile2 ; however, not a valid option for IModelDocExtension::SaveAs |
 | swFileSaveAsNotSupported | 4096 or 0x1000 = Save As operation: is not supported was executed is such a way that the resulting file might not be complete, possibly because SOLIDWORKS is hidden; if the error persists after setting SOLIDWORKS to visible and re-attempting the Save As operation, contact SOLIDWORKS API support . |
+| swFileSaveDoNotUpgradeError | 32768 or 0x8000 = Attempt to save a file too many versions behind with "Do Not Upgrade" enabled. |
 | swFileSaveFormatNotAvailable | 32 or 0x20 = Save As file type is not valid |
+| swFileSaveIncompatibleItemsError | 65536 or 0x10000 = Cannot save to previous version due to incompatible features. |
 | swFileSaveRequiresSavingReferences | 8192 or 0x2000 = Saving an assembly with renamed components requires saving the references |
 | swFileSaveWithRebuildError | Obsolete = See swFileSaveWarning_e |
 | swGenericSaveError | 1 or 0x1 |

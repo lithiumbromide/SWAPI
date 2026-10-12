@@ -51,55 +51,34 @@ System.int GetLineThickness(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LineFontOption`: Line font style of the component as defined in
-
-[swDrawingComponentLineFontOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingComponentLineFontOption_e.html)
+- `LineFontOption`: Line font style of the component as defined in [swDrawingComponentLineFontOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingComponentLineFontOption_e.html)
 - `Thickness`: Thickness of line
 
 ### Return Value
 
-Line weight style as defined in
-
-[swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
+Line weight style as defined in [swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::GetLineThickness](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~GetLineThickness.html)
-
-.
+See [DrawingComponent::GetLineThickness](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~GetLineThickness.html).
 
 ## Examples
 
 [Get Components in Drawing View (C#)](Get_Components_in_Drawing_View_Example_CSharp.htm)
-
 [Get Components in Drawing View (VB.NET)](Get_Components_in_Drawing_View_Example_VBNET.htm)
-
 [Get Components in Drawing View (VBA)](Get_Components_in_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::SetLineThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~SetLineThickness.html)
-
 [IDrawingComponent::GetLineStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~GetLineStyle.html)
-
 [IDrawingComponent::SetLineStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~SetLineStyle.html)
-
 [IDrawingComponent::UseDocumentDefaults Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~UseDocumentDefaults.html)
 
 ## Availability

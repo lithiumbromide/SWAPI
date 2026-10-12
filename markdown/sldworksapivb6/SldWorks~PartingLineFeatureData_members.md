@@ -1,6 +1,5 @@
 ---
-title: "PartingLineFeatureData Object
-Members"
+title: "PartingLineFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PartingLineFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PartingLineFeatureData_members.html"
 ---
 
-# PartingLineFeatureData Object
-Members
+# PartingLineFeatureData Object Members
 
 ## Public Methods
 

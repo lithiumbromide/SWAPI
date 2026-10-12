@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -48,27 +42,10 @@ public interface class IEdmVault12 : public IEdmVault10, IEdmVault11, IEdmVault5
 
 This interface:
 
-- extends
-
-  [IEdmVault11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
-  by providing the ability to import administrative export (
-
-  *.CEX
-
-  ) or card (
-
-  *.CRD
-
-  ) files into the vault.
-- is extended by
-
-  [IEdmVault13](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13.html)
-
-  .
+- extends [IEdmVault11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html) by providing the ability to import administrative export (***.CEX**) or card (***.CRD**) files into the vault.
+- is extended by [IEdmVault13](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13.html).
 
 ## See Also
 
 [IEdmVault12 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

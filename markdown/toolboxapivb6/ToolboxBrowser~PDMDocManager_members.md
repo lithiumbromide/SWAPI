@@ -1,6 +1,5 @@
 ---
-title: "PDMDocManager Object
-Members"
+title: "PDMDocManager Object Members"
 project: "ToolboxBrowserActiveX DLL"
 interface: "PDMDocManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "toolboxapivb6/ToolboxBrowser~PDMDocManager_members.html"
 ---
 
-# PDMDocManager Object
-Members
+# PDMDocManager Object Members
 
 ## Public Methods
 

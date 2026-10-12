@@ -45,13 +45,7 @@ property System.String^ Text {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Status bar pane text
 
 ## VBA Syntax
 
-See
-
-[StatusBarPane::Text](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane~Text.html)
-
-.
+See [StatusBarPane::Text](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane~Text.html).
 
 ## See Also
 
 [IStatusBarPane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html)
-
 [IStatusBarPane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane_members.html)
 
 ## Availability

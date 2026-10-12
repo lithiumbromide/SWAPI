@@ -45,13 +45,7 @@ property System.String^ MaterialUserName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Material user name property on the face
 
 ## VBA Syntax
 
-See
-
-[Face2::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Face2~MaterialUserName.html)
-
-.
+See [Face2::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Face2~MaterialUserName.html).
 
 ## Remarks
 
@@ -72,13 +62,9 @@ This property is not supported for faces obtained from reference surface bodies.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::MaterialIdName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~MaterialIdName.html)
-
 [IModelDoc2::MaterialUserName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~MaterialUserName.html)
-
 [IPartDoc::MaterialUserName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MaterialUserName.html)
 
 ## Availability

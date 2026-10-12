@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityManufacturing Object
-Members"
+title: "SustainabilityManufacturing Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityManufacturing_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityManufacturing_members.html"
 ---
 
-# SustainabilityManufacturing Object
-Members
+# SustainabilityManufacturing Object Members
 
 ## Public Properties
 

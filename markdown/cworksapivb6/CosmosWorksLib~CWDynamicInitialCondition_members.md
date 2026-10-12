@@ -1,6 +1,5 @@
 ---
-title: "CWDynamicInitialCondition Object
-Members"
+title: "CWDynamicInitialCondition Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDynamicInitialCondition_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDynamicInitialCondition_members.html"
 ---
 
-# CWDynamicInitialCondition Object
-Members
+# CWDynamicInitialCondition Object Members
 
 ## Public Methods
 

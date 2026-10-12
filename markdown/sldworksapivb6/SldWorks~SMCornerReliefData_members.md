@@ -1,6 +1,5 @@
 ---
-title: "SMCornerReliefData Object
-Members"
+title: "SMCornerReliefData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SMCornerReliefData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SMCornerReliefData_members.html"
 ---
 
-# SMCornerReliefData Object
-Members
+# SMCornerReliefData Object Members
 
 ## Public Methods
 

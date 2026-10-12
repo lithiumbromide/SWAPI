@@ -1,6 +1,5 @@
 ---
-title: "DatumTargetSym Object
-Members"
+title: "DatumTargetSym Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DatumTargetSym_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DatumTargetSym_members.html"
 ---
 
-# DatumTargetSym Object
-Members
+# DatumTargetSym Object Members
 
 ## Public Methods
 

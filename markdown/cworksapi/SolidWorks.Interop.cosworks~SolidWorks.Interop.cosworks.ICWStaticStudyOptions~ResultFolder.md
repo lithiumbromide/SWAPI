@@ -51,11 +51,7 @@ Path name of the results folder
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ResultFolder.html)
-
-.
+See [CWStaticStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ResultFolder.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ Make sure that the adequate disk space exists where the specified folder is loca
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
 
 ## Availability

@@ -40,32 +40,18 @@ Gtol IEditSelectedGtol()
 Gtol^ IEditSelectedGtol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to an existing
-
-[GTol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol.html)
+Pointer to an existing [GTol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IEditSelectedGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IEditSelectedGtol.html)
-
-.
+See [DrawingDoc::IEditSelectedGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IEditSelectedGtol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::EditSelectedGtol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~EditSelectedGtol.html)

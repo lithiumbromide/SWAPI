@@ -40,13 +40,7 @@ System.bool SetEqualSpacing()
 System.bool SetEqualSpacing();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ True if equal spacing is set between each chain pattern instance, false if not
 
 ## VBA Syntax
 
-See
-
-[ChainPatternFeatureData::SetEqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~SetEqualSpacing.html)
-
-.
+See [ChainPatternFeatureData::SetEqualSpacing](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~SetEqualSpacing.html).
 
 ## Remarks
 
-This method is only available for distance and distance linkage chain patterns when[IChainPatternFeatureData::FillPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~FillPath.html)is false.
+This method is only available for distance and distance linkage chain patterns when [IChainPatternFeatureData::FillPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~FillPath.html) is false.
 
 ## See Also
 
 [IChainPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html)
-
 [IChainPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData_members.html)
-
 [IChainPatternFeatureData::InstanceCount ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~InstanceCount.html)
 
 ## Availability

@@ -46,20 +46,13 @@ System.int ReleaseOwnership();
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::ReleaseOwnership](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ReleaseOwnership.html)
-
-.
+See [PDMWDocument::ReleaseOwnership](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ReleaseOwnership.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::ChangeOwner Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeOwner.html)
-
 [IPDMWDocument::TakeOwnership Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~TakeOwnership.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8.html"
 
 Allows you to access the version of a file.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,15 +37,13 @@ public interface class IEdmVersion8 : public IEdmVersion5, IEdmVersion6, IEdmVer
 ## Examples
 
 [Roll Back Revisions (C#)](Roll_Back_Revisions_Example_CSharp.htm)
-
 [Roll Back Revisions (VB.NET)](Roll_Back_Revisions_Example_VBNET.htm)
 
 ## Remarks
 
-This interface extends[IEdmVersion7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7.html).
+This interface extends [IEdmVersion7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7.html).
 
 ## See Also
 
 [IEdmVersion8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

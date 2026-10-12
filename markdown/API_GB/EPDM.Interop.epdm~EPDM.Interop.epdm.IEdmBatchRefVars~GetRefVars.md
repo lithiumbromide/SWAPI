@@ -39,19 +39,11 @@ void GetRefVars(
 
 ### Parameters
 
-- `ppoVars`: Array of
-
-[EdmRefVar structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)
-
-s; one structure for each reference variable whose value you want to retrieve
+- `ppoVars`: Array of [EdmRefVar structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)s; one structure for each reference variable whose value you want to retrieve
 
 ## Examples
 
-See the
-
-[IEdmBatchRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html)
-
-examples.
+See the [IEdmBatchRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html) examples.
 
 ## Remarks
 
@@ -65,9 +57,7 @@ This method updates the moValue and mhResult members of the EdmRefVar structures
 ## See Also
 
 [IEdmBatchRefVars Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html)
-
 [IEdmBatchRefVars Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars_members.html)
-
 [IEdmBatchRefVars::SetRefVars Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars~SetRefVars.html)
 
 ## Availability

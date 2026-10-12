@@ -39,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnAnimationsChangedEventHandler()
 
 ## VBA Syntax
 
-See
-
-[OnAnimationsChanged Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnAnimationsChanged_EV.html)
-
-.
+See [OnAnimationsChanged Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnAnimationsChanged_EV.html).
 
 ## Availability
 

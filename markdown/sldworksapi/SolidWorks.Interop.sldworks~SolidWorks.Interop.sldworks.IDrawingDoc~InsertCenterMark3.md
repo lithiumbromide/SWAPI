@@ -55,19 +55,11 @@ CenterMark^ InsertCenterMark3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style as defined in
-
-[swCenterMarkStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkStyle_e.html)
+- `Style`: Style as defined in [swCenterMarkStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkStyle_e.html)
 - `Propagate`: True if the center mark should propagate throughout the pattern, false if not
 - `Slot`: True if this is slot-style center mark, false if not
 
@@ -77,24 +69,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCenterMark3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark3.html)
-
-.
+See [DrawingDoc::InsertCenterMark3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark3.html).
 
 ## Remarks
 
-Call
-
-[IView::AutoInsertCenterMarks](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~AutoInsertCenterMarks.html)
-
-to automatically insert center marks in multiple drawing views.
+Call [IView::AutoInsertCenterMarks](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~AutoInsertCenterMarks.html) to automatically insert center marks in multiple drawing views.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

@@ -14,12 +14,9 @@ This example shows how to:
 - Create a new vault.
 - Create a new vault view.
 - Log into the new vault.
-- Get all of the users currently logged into vault views on
-  this machine.
+- Get all of the users currently logged into vault views on this machine.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

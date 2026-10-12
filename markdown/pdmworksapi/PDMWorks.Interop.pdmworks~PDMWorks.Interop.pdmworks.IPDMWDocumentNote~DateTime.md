@@ -51,16 +51,11 @@ Date and time of the note associated with this document
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNote::DateTime](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~DateTime.html)
-
-.
+See [PDMWDocumentNote::DateTime](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~DateTime.html).
 
 ## See Also
 
 [IPDMWDocumentNote Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html)
-
 [IPDMWDocumentNote Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote_members.html)
 
 ## Availability

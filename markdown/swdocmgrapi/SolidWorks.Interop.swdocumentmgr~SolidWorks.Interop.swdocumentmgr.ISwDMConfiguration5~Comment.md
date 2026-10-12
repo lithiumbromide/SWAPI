@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Comment Property (ISwDMConfiguration5)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration7::Comment2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~Comment2.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration7::Comment2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~Comment2.html).
 
 ## Syntax
 
@@ -48,14 +44,9 @@ property System.String^ Comment {
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration5::Comment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~Comment.html)
-
-.
+See [SwDMConfiguration5::Comment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~Comment.html).
 
 ## See Also
 
 [ISwDMConfiguration5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5.html)
-
 [ISwDMConfiguration5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5_members.html)

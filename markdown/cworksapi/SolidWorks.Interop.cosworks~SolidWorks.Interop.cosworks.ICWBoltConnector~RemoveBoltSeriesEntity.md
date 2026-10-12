@@ -52,28 +52,17 @@ void RemoveBoltSeriesEntity(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::RemoveBoltSeriesEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveBoltSeriesEntity.html)
-
-.
+See [CWBoltConnector::RemoveBoltSeriesEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveBoltSeriesEntity.html).
 
 ## Remarks
 
-Call
-
-[ICWBoltConnector::GetBoltSeriesEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetBoltSeriesEntityCount.html)
-
-to determine the value of NIndex.
+Call [ICWBoltConnector::GetBoltSeriesEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetBoltSeriesEntityCount.html) to determine the value of NIndex.
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::RemoveBoltSeriesEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveBoltSeriesEntity.html)
-
 [ICWBoltConnector::IncludeBoltSeries Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~IncludeBoltSeries.html)
 
 ## Availability

@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemProperty.html"
 
 # EdmRefItemProperty Enumeration
 
-Types of property that can be accessed in
-
-[IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
-objects via
-
-[IEdmRefItem::GetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~GetProperty.html)
-
-and
-
-[IEdmRefItem::SetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~SetProperty.html)
-
-.
+Types of property that can be accessed in [IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html) objects via [IEdmRefItem::GetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~GetProperty.html) and [IEdmRefItem::SetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~SetProperty.html).
 
 ## Syntax
 

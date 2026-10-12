@@ -40,42 +40,25 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[GeneralTableFeature::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableFeature~GetFeature.html)
-
-.
+See [GeneralTableFeature::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableFeature~GetFeature.html).
 
 ## Examples
 
 [Get General Table Feature (C#)](Get_General_Table_Feature_Example_CSharp.htm)
-
 [Get General Table Feature (VB.NET)](Get_General_Table_Feature_Example_VBNET.htm)
-
 [Get General Table Feature (VBA)](Get_General_Table_Feature_Example_VB.htm)
 
 ## See Also
 
 [IGeneralTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature.html)
-
 [IGeneralTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature_members.html)
 
 ## Availability

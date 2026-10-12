@@ -45,13 +45,7 @@ property System.bool Axes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to import axes, false to not
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::Axes](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~Axes.html)
-
-.
+See [MirrorPartFeatureData::Axes](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~Axes.html).
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
 
 ## Availability

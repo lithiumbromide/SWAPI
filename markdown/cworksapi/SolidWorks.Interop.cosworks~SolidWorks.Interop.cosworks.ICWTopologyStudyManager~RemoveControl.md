@@ -53,22 +53,15 @@ System.int RemoveControl(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::RemoveControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~RemoveControl.html)
-
-.
+See [CWTopologyStudyManager::RemoveControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~RemoveControl.html).
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

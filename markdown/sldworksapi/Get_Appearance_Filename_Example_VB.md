@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Appearance_Filename_Example_VB.htm"
 
 # Get Appearance File Name Example (VBA)
 
-This example shows how to get the file name of the first appearance applied
-to a model.
+This example shows how to get the file name of the first appearance applied to a model.
 
 ```
 '----------------------------------------------------------------

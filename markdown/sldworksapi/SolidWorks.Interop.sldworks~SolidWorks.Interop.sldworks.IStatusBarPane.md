@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISt
 
 Controls user-created status bar panes in the lower-right corner of the SOLIDWORKS status bar.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IStatusBarPane
 
 ## VBA Syntax
 
-See
-
-[StatusBarPane](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane.html)
-
-.
+See [StatusBarPane](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane.html).
 
 ## Remarks
 
@@ -62,5 +58,4 @@ To use a status bar pane in a project, declare it in your project and manage it 
 ## See Also
 
 [IStatusBarPane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

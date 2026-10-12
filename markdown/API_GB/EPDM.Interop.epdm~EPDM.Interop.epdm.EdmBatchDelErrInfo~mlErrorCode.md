@@ -35,11 +35,9 @@ System.int mlErrorCode
 ## Examples
 
 [Destroy Deleted Files in Vault (C#)](Destroy_Deleted_Files_in_Vault_Example_CSharp.htm)
-
 [Destroy Deleted Files in Vault (VB.NET)](Destroy_Deleted_Files_in_Vault_Example_VBNET.htm)
 
 ## See Also
 
 [EdmBatchDelErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
 [EdmBatchDelErrInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.html)

@@ -42,13 +42,7 @@ property System.double IPlaneParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Array of doubles describing the parameters of a planar surface
 
 ## VBA Syntax
 
-See
-
-[Surface::IPlaneParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~IPlaneParams.html)
-
-.
+See [Surface::IPlaneParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~IPlaneParams.html).
 
 ## Remarks
 
@@ -78,14 +68,11 @@ rootPoint.y
 
 rootPoint.z
 
-TherootPointvalues are in meters.
+The rootPoint values are in meters.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::PlaneParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~PlaneParams.html)
-
 [ISurface::IsPlane Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsPlane.html)

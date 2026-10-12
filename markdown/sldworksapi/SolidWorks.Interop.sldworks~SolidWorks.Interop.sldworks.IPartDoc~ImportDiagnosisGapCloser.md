@@ -70,42 +70,28 @@ void ImportDiagnosisGapCloser(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OldX`: x coordinate of vertex to move
-- `OldY`: y coordinate of vertex to moveParamDesc
-- `OldZ`: z coordinate of vertex to moveParamDesc
+- `OldY`: y coordinate of vertex to move
+- `OldZ`: z coordinate of vertex to move
 - `NewX`: x coordinate where to move the vertex
-- `NewY`: y coordinate where to move the vertexParamDesc
-- `NewZ`: z coordinate where to move the vertexParamDesc
-- `LastMove`: True if this move is the last move in a series of moves to close the gap, false if notParamDesc
+- `NewY`: y coordinate where to move the vertex
+- `NewZ`: z coordinate where to move the vertex
+- `LastMove`: True if this move is the last move in a series of moves to close the gap, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ImportDiagnosisGapCloser](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ImportDiagnosisGapCloser.html)
-
-.
+See [PartDoc::ImportDiagnosisGapCloser](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ImportDiagnosisGapCloser.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::ImportDiagnosis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ImportDiagnosis.html)
-
 [IBody2::Diagnose Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~Diagnose.html)
-
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
 
 ## Availability

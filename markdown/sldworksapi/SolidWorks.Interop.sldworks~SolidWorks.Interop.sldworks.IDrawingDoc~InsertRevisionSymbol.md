@@ -51,34 +51,20 @@ Note^ InsertRevisionSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `X`: X coordinatekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}at which to insert revision symbol note
+- `X`: X coordinate at which to insert revision symbol note
 - `Y`: Y coordinate at which to insert revision symbol note
 
 ### Return Value
 
-Pointer to the newly created
-
-[INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-object
+Pointer to the newly created [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertRevisionSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertRevisionSymbol.html)
-
-.
+See [DrawingDoc::InsertRevisionSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertRevisionSymbol.html).
 
 ## Remarks
 
@@ -87,17 +73,11 @@ To attach the revision symbol to entities in the drawing, the end-user must inte
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::CreateCompoundNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateCompoundNote.html)
-
 [IDrawingDoc::CreateText2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateText2.html)
-
 [IDrawingDoc::ICreateCompoundNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateCompoundNote.html)
-
 [IDrawingDoc::ICreateText2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateText2.html)
-
 [IDrawingDoc::InsertNewNote2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertNewNote2.html)
 
 ## Availability

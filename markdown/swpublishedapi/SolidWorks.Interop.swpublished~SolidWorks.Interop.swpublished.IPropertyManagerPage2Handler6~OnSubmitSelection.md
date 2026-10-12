@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSubmitSelection Method (IPropertyManagerPage2Handler6)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler7::OnSubmitSelection](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~OnSubmitSelection.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler7::OnSubmitSelection](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~OnSubmitSelection.html).
 
 ## Syntax
 
@@ -67,14 +63,8 @@ System.bool OnSubmitSelection(
 
 - `Id`: ID of the active selection box, where this selection is being made
 - `Selection`: Object being selected
-- `SelType`: Entity type of the selection as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `ItemText`: Item for selection list box (see
-
-Remarks
-
-)
+- `SelType`: Entity type of the selection as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `ItemText`: Item for selection list box (see **Remarks**)
 
 ### Return Value
 
@@ -82,11 +72,7 @@ True if the selection is accepted, false if the selection is rejected
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler6::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~OnSubmitSelection.html)
-
-.
+See [PropertyManagerPage2Handler6::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~OnSubmitSelection.html).
 
 ## Remarks
 
@@ -98,12 +84,10 @@ This method is called by SOLIDWORKS when an add-in has a PropertyManager page di
 - QueryInterface the Dispatch pointer to get the specific interface.
 - Use APIs of that interface to determine if the selection should be allowed or not.
 
-  kadov_tag{{<spaces>}}
+  - If the selection is accepted, return True, and processing will continue normally.
 
-  kadov_tag{{</spaces>}}
-
-  - If the selection is accepted, return True, and processing will continue normally. - or -
-  - If the selection is rejected, return false, and SOLIDWORKS will not accept the selection, just as if the selection did not pass the selection filter criteria of the selection list box.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    - or -
+  - If the selection is rejected, return false, and SOLIDWORKS will not accept the selection, just as if the selection did not pass the selection filter criteria of the selection list box.
 
 The add-in should not Release() the Dispatch pointer. SOLIDWORKS will Release() the Dispatch pointer upon return from this method.
 
@@ -114,7 +98,6 @@ ItemText is returned to SOLIDWORKS and stored on the selected object and can be 
 ## See Also
 
 [IPropertyManagerPage2Handler6 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6.html)
-
 [IPropertyManagerPage2Handler6 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6_members.html)
 
 ## Availability

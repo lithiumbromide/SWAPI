@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnHelp Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::OnHelp](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnHelp.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::OnHelp](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnHelp.html).
 
 ## Syntax
 
@@ -50,16 +46,11 @@ True if the Help file opens successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::OnHelp](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnHelp.html)
-
-.
+See [PropertyManagerPage2Handler5::OnHelp](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnHelp.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
 
 ## Availability

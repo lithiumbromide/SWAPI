@@ -40,13 +40,7 @@ System.bool GetCThreadQuality()
 System.bool GetCThreadQuality();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ True if precision quality, false if draft quality
 
 ## VBA Syntax
 
-See
-
-[View::GetCThreadQuality](ms-its:sldworksapivb6.chm::/sldworks~View~GetCThreadQuality.html)
-
-.
+See [View::GetCThreadQuality](ms-its:sldworksapivb6.chm::/sldworks~View~GetCThreadQuality.html).
 
 ## Examples
 
-See the
-
-[IView::SetDisplayMode4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetDisplayMode4.html)
-
-examples.
+See the [IView::SetDisplayMode4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetDisplayMode4.html) examples.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::SetDisplayMode4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetDisplayMode4.html)
 
 ## Availability

@@ -52,28 +52,17 @@ void SetDirectionEntity(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::SetDirectionEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~SetDirectionEntity.html)
-
-.
+See [CWDynamicInitialCondition::SetDirectionEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~SetDirectionEntity.html).
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::GetDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html)
-
 [ICWDynamicInitialCondition::GetValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetValues.html)
-
 [ICWDynamicInitialCondition::SetDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirections.html)
-
 [ICWDynamicInitialCondition::SetValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetValues.html)
-
 [ICWDynamicInitialCondition::GetReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetReverseDirections.html)
-
 [ICWDynamicInitialCondition::SetReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetReverseDirections.html)
 
 ## Availability

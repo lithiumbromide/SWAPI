@@ -49,9 +49,9 @@ public enum class swColorsBackgroundAppearance_e : public System.Enum
 
 ## Remarks
 
-Use with[swUserPreferenceIntegerValue_e.swColorsBackgroundAppearance](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html).
+Use with [swUserPreferenceIntegerValue_e.swColorsBackgroundAppearance](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html).
 
-Use the system-level string[swUserPreferenceStringValue_e.swColorsBackgroundImageFile](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)to set the name of the file containing the image to display as the background of the SOLIDWORKS graphics area.
+Use the system-level string [swUserPreferenceStringValue_e.swColorsBackgroundImageFile](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html) to set the name of the file containing the image to display as the background of the SOLIDWORKS graphics area.
 
 ## See Also
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # GetFrameSymbols Method (IGtol)
 
-Obsolete. Superseded by
-
-[IGtol::GetFrameSymbols2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetFrameSymbols2.html)
-
-.
+Obsolete. Superseded by [IGtol::GetFrameSymbols2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetFrameSymbols2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetFrameSymbols(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetFrameSymbols](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFrameSymbols.html)
-
-.
+See [Gtol::GetFrameSymbols](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFrameSymbols.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

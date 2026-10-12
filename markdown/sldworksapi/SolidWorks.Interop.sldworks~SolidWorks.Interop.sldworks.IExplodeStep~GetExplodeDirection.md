@@ -47,21 +47,11 @@ System.Object^ GetExplodeDirection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ExplDirIndex`: Explode direction manipulator index as defined in
-
-[swExplodeDirectionIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swExplodeDirectionIndex_e.html)
-
-; valid only for regular explode steps
+- `ExplDirIndex`: Explode direction manipulator index as defined in [swExplodeDirectionIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swExplodeDirectionIndex_e.html); valid only for regular explode steps
 
 ### Return Value
 
@@ -69,11 +59,7 @@ Explode direction entity; Nothing or null if an explode direction entity was not
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetExplodeDirection](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetExplodeDirection.html)
-
-.
+See [ExplodeStep::GetExplodeDirection](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetExplodeDirection.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ This method is not valid for subassembly explode steps.
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::SetExplodeDirection Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetExplodeDirection.html)
 
 ## Availability

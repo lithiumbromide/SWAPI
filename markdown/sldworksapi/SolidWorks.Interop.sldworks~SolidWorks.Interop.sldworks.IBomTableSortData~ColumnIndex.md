@@ -50,21 +50,11 @@ property System.int ColumnIndex {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SortOrderIndex`: 0 for primary sort, 1 for secondary sort, 2 for tertiary sort (see
-
-Remarks
-
-)
+- `SortOrderIndex`: 0 for primary sort, 1 for secondary sort, 2 for tertiary sort (see **Remarks**)
 
 ### Property Value
 
@@ -72,19 +62,11 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[BomTableSortData::ColumnIndex](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~ColumnIndex.html)
-
-.
+See [BomTableSortData::ColumnIndex](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~ColumnIndex.html).
 
 ## Examples
 
-See the
-
-[IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
-examples.
+See the [IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html) examples.
 
 ## Remarks
 
@@ -93,7 +75,6 @@ BOM tables may be sorted by up to three columns. This property maps one column t
 ## See Also
 
 [IBomTableSortData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
 [IBomTableSortData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData_members.html)
 
 ## Availability

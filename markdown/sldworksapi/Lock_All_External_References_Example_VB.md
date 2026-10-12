@@ -9,8 +9,7 @@ source: "sldworksapi/Lock_All_External_References_Example_VB.htm"
 
 # Lock All External References Example (VBA)
 
-This example shows how to lock all external references in a part or
-assembly in reverse chronological order.
+This example shows how to lock all external references in a part or assembly in reverse chronological order.
 
 ```
 '---------------------------------------

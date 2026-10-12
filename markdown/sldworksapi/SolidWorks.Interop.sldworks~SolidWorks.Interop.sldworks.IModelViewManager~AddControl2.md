@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddControl2 Method (IModelViewManager)
 
-Obsolete. Superseded by
-
-[IModelViewManager::AddControl3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~AddControl3.html)
-
-.
+Obsolete. Superseded by [IModelViewManager::AddControl3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~AddControl3.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.Object^ AddControl2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::AddControl2](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~AddControl2.html)
-
-.
+See [ModelViewManager::AddControl2](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~AddControl2.html).
 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)

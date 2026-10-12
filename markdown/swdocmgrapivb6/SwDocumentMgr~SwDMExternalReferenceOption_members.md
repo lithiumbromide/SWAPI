@@ -1,6 +1,5 @@
 ---
-title: "SwDMExternalReferenceOption Object
-Members"
+title: "SwDMExternalReferenceOption Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMExternalReferenceOption_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMExternalReferenceOption_members.html"
 ---
 
-# SwDMExternalReferenceOption Object
-Members
+# SwDMExternalReferenceOption Object Members
 
 ## Public Properties
 

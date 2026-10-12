@@ -40,13 +40,7 @@ System.int GetEntitiesCount()
 System.int GetEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of entities for this sketch relation
 
 ## VBA Syntax
 
-See
-
-[SketchRelation::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetEntitiesCount.html)
-
-.
+See [SketchRelation::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetEntitiesCount.html).
 
 ## Examples
 
@@ -66,12 +56,11 @@ See
 
 ## Remarks
 
-Call this method before calling[ISketchRelation::IGetDefinitionEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetDefinitionEntities.html),[ISketchRelation::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetEntities.html), or[ISketchRelation::IGetEntitiesType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetEntitiesType.html)to determine the size of array for the entities or types of entities associated with the sketch relation.
+Call this method before calling [ISketchRelation::IGetDefinitionEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetDefinitionEntities.html), [ISketchRelation::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetEntities.html), or [ISketchRelation::IGetEntitiesType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation~IGetEntitiesType.html) to determine the size of array for the entities or types of entities associated with the sketch relation.
 
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [ISketchRelation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation_members.html)
 
 ## Availability

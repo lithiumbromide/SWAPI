@@ -45,42 +45,23 @@ property System.bool EditBalloons {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to use edit balloon option as specified in
-
-[IAutoBalloonOption::EditBalloonOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~EditBalloonOption.html)
-
-, false to not
+True to use edit balloon option as specified in [IAutoBalloonOption::EditBalloonOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~EditBalloonOption.html), false to not
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::EditBalloons](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~EditBalloons.html)
-
-.
+See [AutoBalloonOptions::EditBalloons](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~EditBalloons.html).
 
 ## Examples
 
-See
-
-[IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-examples.
+See [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) examples.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

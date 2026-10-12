@@ -49,30 +49,20 @@ System.int GetSelectEntitiesTypes(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
-Type of entities as defined in
-
-[gtPslSelectionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtPslSelectionType_e.html)
+Type of entities as defined in [gtPslSelectionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtPslSelectionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetSelectEntitiesTypes](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetSelectEntitiesTypes.html)
-
-.
+See [IPowerSelect::GetSelectEntitiesTypes](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetSelectEntitiesTypes.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::SetSelectEntitiesTypes Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetSelectEntitiesTypes.html)
 
 ## Availability

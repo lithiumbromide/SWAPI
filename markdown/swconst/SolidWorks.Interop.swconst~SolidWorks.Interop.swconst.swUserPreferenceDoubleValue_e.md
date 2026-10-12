@@ -266,11 +266,7 @@ public enum class swUserPreferenceDoubleValue_e : public System.Enum
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceStringListValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringListValue_e.html)
-
 [swUserPreferenceStringValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)
-
 [swUserPreferenceTextFormat_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceTextFormat_e.html)
-
 [swUserPreferenceToggle_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)

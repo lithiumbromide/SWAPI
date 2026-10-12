@@ -17,7 +17,7 @@ This example shows how to hide the FeatureManager design tree.
 '
 ' Postconditions:
 ' 1. Hides the FeatureManager design tree.
-' 2. Examine SOLIDWORKS.
+' 2. Examine SOLIDWORKS Design.
 '--------------------------------------
 
 Option Explicit

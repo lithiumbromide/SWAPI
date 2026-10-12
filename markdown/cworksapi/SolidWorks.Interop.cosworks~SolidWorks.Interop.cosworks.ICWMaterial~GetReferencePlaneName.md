@@ -46,18 +46,12 @@ Name of reference plane or reference geometry
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetReferencePlaneName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetReferencePlaneName.html)
-
-.
+See [CWMaterial::GetReferencePlaneName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetReferencePlaneName.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SetReferencePlane Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetReferencePlane.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.int GetItemCount()
 System.int GetItemCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ Number of criteria in the advanced component selection criteria list
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::GetItemCount](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~GetItemCount.html)
-
-.
+See [AdvancedSelectionCriteria::GetItemCount](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~GetItemCount.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
-examples.
+See the [IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html) examples.
 
 ## Remarks
 
-Call this method before calling[IAdvancedSelectionCriteriaClass::GetItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItem.html)and[IAdvancedSelectionCriteriaClass::DeleteItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~DeleteItem.html)to get the number of criteria in the advanced component selection criteria list.
+Call this method before calling [IAdvancedSelectionCriteriaClass::GetItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItem.html) and [IAdvancedSelectionCriteriaClass::DeleteItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~DeleteItem.html) to get the number of criteria in the advanced component selection criteria list.
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

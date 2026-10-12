@@ -45,13 +45,7 @@ property System.bool Ignore {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to ignore this interference, false to not
 
 ## VBA Syntax
 
-See
-
-[Interference::Ignore](ms-its:sldworksapivb6.chm::/sldworks~Interference~Ignore.html)
-
-.
+See [Interference::Ignore](ms-its:sldworksapivb6.chm::/sldworks~Interference~Ignore.html).
 
 ## See Also
 
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [IInterference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html)
-
 [IInterferenceDetectionMgr::ShowIgnoredInterferences Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~ShowIgnoredInterferences.html)
 
 ## Availability

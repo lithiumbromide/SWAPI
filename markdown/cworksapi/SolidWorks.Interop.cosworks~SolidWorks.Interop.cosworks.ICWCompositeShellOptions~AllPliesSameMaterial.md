@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # AllPliesSameMaterial Property (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::AllPliesSameMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~AllPliesSameMaterial2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::AllPliesSameMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~AllPliesSameMaterial2.html).
 
 ## Syntax
 
@@ -55,24 +51,15 @@ property System.int AllPliesSameMaterial {
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::AllPliesSameMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~AllPliesSameMaterial.html)
-
-.
+See [CWCompositeShellOptions::AllPliesSameMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~AllPliesSameMaterial.html).
 
 ## Remarks
 
-Before setting this property, call
-
-[ICWShell::SetLibraryMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetLibraryMaterial.html)
-
-.
+Before setting this property, call [ICWShell::SetLibraryMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetLibraryMaterial.html).
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
 
 ## Availability

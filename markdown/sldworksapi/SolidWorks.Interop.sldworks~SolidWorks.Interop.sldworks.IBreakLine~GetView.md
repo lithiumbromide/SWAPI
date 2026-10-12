@@ -40,38 +40,23 @@ View GetView()
 View^ GetView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-object
+Pointer to the [IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) object
 
 ## VBA Syntax
 
-See
-
-[BreakLine::GetView](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~GetView.html)
-
-.
+See [BreakLine::GetView](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~GetView.html).
 
 ## Remarks
 
-A drawing view can have several breaks. To get all of the breaks in a drawing view, use[IView::GetBreakLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLines.html).
+A drawing view can have several breaks. To get all of the breaks in a drawing view, use [IView::GetBreakLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLines.html).
 
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool CenterText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True centers the text, false does not center the text
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::CenterText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~CenterText.html)
-
-.
+See [DisplayDimension::CenterText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~CenterText.html).
 
 ## Remarks
 
@@ -78,11 +68,8 @@ Dimension text must be positioned somewhere between the two dimensioned points i
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetText.html)
-
 [IDisplayDimension::GetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetText.html)
 
 ## Availability

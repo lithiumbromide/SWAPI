@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnGroupCheck Method (IPropertyManagerPage2Handler)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnGroupCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnGroupCheck.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnGroupCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnGroupCheck.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnGroupCheck(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler::OnGroupCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnGroupCheck.html)
-
-.
+See [PropertyManagerPage2Handler::OnGroupCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler~OnGroupCheck.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler.html)
-
 [IPropertyManagerPage2Handler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html)

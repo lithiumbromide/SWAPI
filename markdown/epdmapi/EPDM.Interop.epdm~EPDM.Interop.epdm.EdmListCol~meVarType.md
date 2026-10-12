@@ -34,12 +34,9 @@ EdmVariableType meVarType
 
 ## Remarks
 
-[EdmVariableType.EdmVarType_None](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
-
-if not connected to a variable.
+[EdmVariableType.EdmVarType_None](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html) if not connected to a variable.
 
 ## See Also
 
 [EdmListCol Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
 [EdmListCol Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_members.html)

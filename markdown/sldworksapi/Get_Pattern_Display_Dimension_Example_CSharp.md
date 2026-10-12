@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Pattern_Display_Dimension_Example_CSharp.htm"
 
 # Get Pattern Display Dimension Example (C#)
 
-This example shows how to get the display dimensions for various pattern
-properties of a linear pattern.
+This example shows how to get the display dimensions for various pattern properties of a linear pattern.
 
 ```vb
  //----------------------------------------------------------------------------

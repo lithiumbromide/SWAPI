@@ -41,25 +41,15 @@ property System.Object^ ConfigurationsToSave {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of configurations to save
+Array of configuration names to save
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::ConfigurationsToSave](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~ConfigurationsToSave.html)
-
-.
+See [AdvancedSaveAsOptions::ConfigurationsToSave](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~ConfigurationsToSave.html).
 
 ## Remarks
 
@@ -68,7 +58,6 @@ The active configuration is always saved with the subset of configurations.
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

@@ -52,22 +52,14 @@ void IncludeComponent(
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::IncludeComponent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~IncludeComponent.html)
-
-.
+See [SustainabilityMaterial::IncludeComponent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~IncludeComponent.html).
 
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::IIncludeComponent Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IIncludeComponent.html)
-
 [ISustainabilityMaterial::ExcludeComponent Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~ExcludeComponent.html)
-
 [ISustainabilityMaterial::IExcludeComponent Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IExcludeComponent.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.bool IsAbbreviatedViewActive()
 System.bool IsAbbreviatedViewActive();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if an abbreviated view is active, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IsAbbreviatedViewActive](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsAbbreviatedViewActive.html)
-
-.
+See [ModelDocExtension::IsAbbreviatedViewActive](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsAbbreviatedViewActive.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

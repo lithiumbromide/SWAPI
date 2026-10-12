@@ -45,13 +45,7 @@ property System.String^ EditText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,15 @@ Text for or in combo box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCombobox::EditText](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~EditText.html)
-
-.
+See [PropertyManagerPageCombobox::EditText](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~EditText.html).
 
 ## Remarks
 
-[IPropertyManagerPageCombobox::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~Style.html)
-
-must be set to swPropMgrPageComboBoxStyle_EditableText to edit text in a combo box.
+[IPropertyManagerPageCombobox::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageCombobox~Style.html) must be set to swPropMgrPageComboBoxStyle_EditableText to edit text in a combo box.
 
 ## See Also
 
 [IPropertyManagerPageCombobox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
 [IPropertyManagerPageCombobox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html)
 
 ## Availability

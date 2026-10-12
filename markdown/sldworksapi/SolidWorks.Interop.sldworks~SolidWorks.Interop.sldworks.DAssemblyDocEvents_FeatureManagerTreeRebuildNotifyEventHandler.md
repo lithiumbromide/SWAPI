@@ -37,25 +37,15 @@ public delegate System.int DAssemblyDocEvents_FeatureManagerTreeRebuildNotifyEve
 public delegate System.int DAssemblyDocEvents_FeatureManagerTreeRebuildNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManagerTreeRebuildNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FeatureManagerTreeRebuildNotify_EV.html)
-
-.
+See [FeatureManagerTreeRebuildNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FeatureManagerTreeRebuildNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 This notification is only used by SOLIDWORKS Animator.
 

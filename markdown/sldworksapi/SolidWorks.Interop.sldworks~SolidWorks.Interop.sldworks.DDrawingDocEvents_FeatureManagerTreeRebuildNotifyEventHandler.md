@@ -37,27 +37,17 @@ public delegate System.int DDrawingDocEvents_FeatureManagerTreeRebuildNotifyEven
 public delegate System.int DDrawingDocEvents_FeatureManagerTreeRebuildNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManagerTreeRebuildNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~FeatureManagerTreeRebuildNotify_EV.html)
-
-.
+See [FeatureManagerTreeRebuildNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~FeatureManagerTreeRebuildNotify_EV.html).
 
 ## Remarks
 
 This notification is only used by SOLIDWORKS Animator.
 
-If developing a C++ application, use[swDrawingFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)to register for this notification.
+If developing a C++ application, use [swDrawingFeatureManagerTreeRebuildNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

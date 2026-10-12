@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFl
 
 # SmallIconList Property (IFlyoutGroup)
 
-Obsolete. Superseded by
-
-[IFlyoutGroup::IconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~IconList.html)
-
-.
+Obsolete. Superseded by [IFlyoutGroup::IconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~IconList.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ SmallIconList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,20 +53,13 @@ Path to the bitmap or PNG containing all of the small button and separator image
 
 ## VBA Syntax
 
-See
-
-[FlyoutGroup::SmallIconList](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~SmallIconList.html)
-
-.
+See [FlyoutGroup::SmallIconList](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~SmallIconList.html).
 
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [IFlyoutGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup_members.html)
-
 [IFlyoutGroup::AddCommandItem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~AddCommandItem.html)
-
 [IFlyoutGroup::ReplaceCommandItem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~ReplaceCommandItem.html)
 
 ## Availability

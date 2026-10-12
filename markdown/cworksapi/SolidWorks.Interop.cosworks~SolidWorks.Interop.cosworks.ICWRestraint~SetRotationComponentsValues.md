@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetRotationComponentsValues Method (ICWRestraint)
 
-Obsolete. Superseded by[ICWRestraint::SetRotationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetRotationComponentsValues2.html).
+Obsolete. Superseded by [ICWRestraint::SetRotationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetRotationComponentsValues2.html).
 
 ## Syntax
 
@@ -71,40 +71,21 @@ void SetRotationComponentsValues(
 - `BVal1`: 1 to set DVal1, 0 to not
 - `BVal2`: 1 to set DVal2, 0 to not
 - `BVal3`: 1 to set DVal3, 0 to not
-- `DVal1`: (see
-
-Remarks
-
-)
-- `DVal2`: (see
-
-Remarks
-
-)
-- `DVal3`: (see
-
-Remarks
-
-)
+- `DVal1`: (see **Remarks**)
+- `DVal2`: (see **Remarks**)
+- `DVal3`: (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::SetRotationComponentsValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~SetRotationComponentsValues.html)
-
-.
+See [CWRestraint::SetRotationComponentsValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~SetRotationComponentsValues.html).
 
 ## Remarks
 
-This method is valid only for beams and shell meshes with[ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)set to:
+This method is valid only for beams and shell meshes with [ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html) set to:
 
-- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html)
-
-  .swsRestraintTypeCylindricalFaces
+- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html).swsRestraintTypeCylindricalFaces
 - swsRestraintType_e.swsRestaintTypeReferenceGeometry
 - swsRestraintType_e.swsRestraintTypeSphericalSurface
-
   - or -
 - swsRestraintType_e.swsRestraintTypeFlatFace
 
@@ -115,20 +96,15 @@ This method is valid only for beams and shell meshes with[ICWRestraint::Restrain
 | A flat face | DVal1 about face direction 1, DVal2 about face direction 2, and DVal3 about the normal to the face. |
 | A model edge | DVal3 about the edge. |
 
-Call[ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html)to set the direction reference of this restraint.
+Call [ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html) to set the direction reference of this restraint.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::GetRotationComponentsValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues.html)
-
 [ICWRestraint::SetTranslationComponentsValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetTranslationComponentsValues.html)
-
 [ICWRestraint::SetReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReverseDirections.html)
-
 [ICWRestraint::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~Unit.html)
 
 ## Availability

@@ -44,17 +44,11 @@ property SwDmDocumentType DocumentType {
 
 ### Property Value
 
-Component's document type as defined in
-
-[swDMDocumentType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentType.html)
+Component's document type as defined in [swDMDocumentType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentType.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent2::DocumentType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent2~DocumentType.html)
-
-.
+See [SwDMComponent2::DocumentType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent2~DocumentType.html).
 
 ## Remarks
 
@@ -63,7 +57,6 @@ This property can distinguish between components and sub-assemblies whose names 
 ## See Also
 
 [ISwDMComponent2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent2.html)
-
 [ISwDMComponent2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent2_members.html)
 
 ## Availability

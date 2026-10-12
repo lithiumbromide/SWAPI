@@ -63,52 +63,38 @@ System.Object^ GetThermalValues(
 
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `DispPlane`: Reference geometry
-- `NUnits`: Temperature unit as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of thermal results (see
-
-Remarks
-
-)
+Array of thermal results (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetThermalValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalValues.html)
-
-.
+See [CWResults::GetThermalValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalValues.html).
 
 ## Examples
 
 [Get Thermal Values (VBA)](Get_Thermal_Values_at_Points_Example_VB.htm)
-
 [Get Thermal Values (VB.NET)](Get_Thermal_Values_at_Points_Example_VBNET.htm)
-
 [Get Thermal Values (C#)](Get_Thermal_Values_at_Points_Example_CSharp.htm)
 
 ## Remarks
 
-This method returns the followingarray:
+This method returns the following array:
 
 {
 
-node`_1`,`temp_1, gradx_1, grady_1, gradz_1, gradn_1, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
+node`_1`, `temp_1, gradx_1, grady_1, gradz_1, gradn_1, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
 
-`node_2`,`temp_2`,`gradx_2, grady_2, gradz_2, gradn_2, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
+`node_2`, `temp_2`, `gradx_2, grady_2, gradz_2, gradn_2, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
 
-node`_3`,`temp_3`,`gradx_3, grady_3, gradz_3, gradn_3, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
+node`_3`, `temp_3`, `gradx_3, grady_3, gradz_3, gradn_3, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1,`
 
 ...,
 
-node`_n`,`temp_n, gradx_n, grady_n, gradz_n, gradn_n, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1`
+node`_n`, `temp_n, gradx_n, grady_n, gradz_n, gradn_n, hfluxx_1, hfluxy_1, hfluxz_1, hfluxn_1`
 
 },
 
@@ -117,17 +103,11 @@ where the nodes are integers, and the temperatures, temperature gradients, and h
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxThermal Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxThermal.html)
-
 [ICWResults::GetThermalComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalComponentForAllStepsAtNode.html)
-
 [ICWResults::GetThermalForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalForEntities.html)
-
 [ICWResults::GetThermalValuesAtPoints Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValuesAtPoints.html)
-
 [ICWResults::GetHeatPowerOrEnergy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetHeatPowerOrEnergy.html)
 
 ## Availability

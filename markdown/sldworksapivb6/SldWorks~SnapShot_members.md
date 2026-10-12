@@ -1,6 +1,5 @@
 ---
-title: "SnapShot Object
-Members"
+title: "SnapShot Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SnapShot_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SnapShot_members.html"
 ---
 
-# SnapShot Object
-Members
+# SnapShot Object Members
 
 ## Public Methods
 

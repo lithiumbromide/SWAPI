@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateFeatureMgrView Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateFeatureManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateFeatureMgrView.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateFeatureManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateFeatureMgrView.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ CreateFeatureMgrView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreateFeatureMgrView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateFeatureMgrView.html)
-
-.
+See [ModelDoc::CreateFeatureMgrView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateFeatureMgrView.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -51,21 +51,11 @@ System.double IGetOffsetSurfParams2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BaseSurf`: Base
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-used to generate the offset surface
+- `BaseSurf`: Base [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) used to generate the offset surface
 - `Sense`: If true, then the offset is in the direction of the original surface's normal; if false, then the offset is in the opposite direction of the original surface's normal
 
 ### Return Value
@@ -74,11 +64,7 @@ Offset for the surface
 
 ## VBA Syntax
 
-See
-
-[Surface::IGetOffsetSurfParams2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetOffsetSurfParams2.html)
-
-.
+See [Surface::IGetOffsetSurfParams2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetOffsetSurfParams2.html).
 
 ## Remarks
 
@@ -87,9 +73,7 @@ This method can get a pointer to the base surface and its sense. Both BaseSurf a
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::GetOffsetSurfParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetOffsetSurfParams2.html)
 
 ## Availability

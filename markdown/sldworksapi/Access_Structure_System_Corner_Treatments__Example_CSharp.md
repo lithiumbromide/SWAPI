@@ -11,12 +11,11 @@ source: "sldworksapi/Access_Structure_System_Corner_Treatments__Example_CSharp.h
 
 This example shows how to access structure system corner treatments.
 
-//
-==========================================================================================
+// ==========================================================================================
 
 // Preconditions:
 
-// 1. Open public_documents \samples\tutorial\weldments\weldment_box.sldprt .
+// 1. Open `public_documents`**\samples\tutorial\weldments\weldment_box.sldprt**.
 
 // 2. Open an Immediate window.
 
@@ -26,27 +25,25 @@ This example shows how to access structure system corner treatments.
 
 // Postconditions:
 
-// 1. Creates Structure System1 .
+// 1. Creates **Structure System1**.
 
-// 2. Configures its weldment profile to have**<GB><round-rods><ROUND BAR 23>**.
+// 2. Configures its weldment profile to have **<GB><round-rods><ROUND BAR 23>**.
 
-// 3. Creates**Corner Management1**containing:
+// 3. Creates **Corner Management1** containing:
 
-// - Two member Corner Group1
+// - **Two member Corner Group1**
 
-// - Simple Corner Group1
+// - **Simple Corner Group1**
 
-// - Complex Corner Group1
+// - **Complex Corner Group1**
 
 // 4. Press F5 to inspect the corner treatments.
 
 // 5. Inspect the Immediate window.
 
-// 6. Inspect the structure system and its corner
-management folder in the FeatureManager design tree.
+// 6. Inspect the structure system and its corner management folder in the FeatureManager design tree.
 
-//
-========================================================================
+// ========================================================================
 
 using System;
 
@@ -110,8 +107,7 @@ private object[] csegments = new object[2];
 
 private bool stat;
 
-private StructureSystemMemberFeatureData[] memData = new
-StructureSystemMemberFeatureData[1];
+private StructureSystemMemberFeatureData[] memData = new StructureSystemMemberFeatureData[1];
 
 private object memDataArray;
 
@@ -183,8 +179,7 @@ private CornerMember pmember;
 
 private object[] varPlanarMem;
 
-public DispatchWrapper[] ObjectArrayToDispatchWrapperArray(object[]
-Objects)
+public DispatchWrapper[] ObjectArrayToDispatchWrapperArray(object[] Objects)
 
 {
 
@@ -222,47 +217,33 @@ Debug.Print("Create Structure System1");
 
 Debug.Print("");
 
-stat = modDocExt.SelectByID2("Line4@3DSketch1", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line4@3DSketch1", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-stat = modDocExt.SelectByID2("Line1@Sketch2", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line1@Sketch2", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-stat = modDocExt.SelectByID2("Line3@3DSketch1", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line3@3DSketch1", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-stat = modDocExt.SelectByID2("Line6@3DSketch1", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line6@3DSketch1", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-stat = modDocExt.SelectByID2("Line3@Sketch1", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line3@Sketch1", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-stat = modDocExt.SelectByID2("Line4@Sketch1", "EXTSKETCHSEGMENT", 0, 0,
-0, true, 0, null/* TODO Change to default(_) if this is not a reference type */,
-0);
+stat = modDocExt.SelectByID2("Line4@Sketch1", "EXTSKETCHSEGMENT", 0, 0, 0, true, 0, null/* TODO Change to default(_) if this is not a reference type */, 0);
 
-structMemDef = (StructureSystemMemberFeatureData)modDocExt. CreateStructureSystemMemberData (0);
+structMemDef = (StructureSystemMemberFeatureData)modDocExt.**CreateStructureSystemMemberData**(0);
 
-Debug.Print("Type of structure system member as defined by
-swStructureSystemMemberType_e: " + structMemDef. StructureSystemMemberType );
+Debug.Print("Type of structure system member as defined by swStructureSystemMemberType_e: " + structMemDef.**StructureSystemMemberType**);
 
-profDef = (StructureSystemMemberProfile)structMemDef. MemberProfile ;
+profDef = (StructureSystemMemberProfile)structMemDef.**MemberProfile**;
 
-profDef. ProfileStandard = "GB";
+profDef.**ProfileStandard** = "GB";
 
-profDef. ProfileType = "round-rods";
+profDef.**ProfileType** = "round-rods";
 
-profDef. ProfileSize = "ROUND BAR 23";
+profDef.**ProfileSize** = "ROUND BAR 23";
 
 PrimDef = (PrimaryStructuralMemberFeatureData)structMemDef;
 
-Debug.Print("Structure system primary member creation type as defined by
-swStructureSystemMemberCreationType_e: " + PrimDef. PrimaryMemberType );
+Debug.Print("Structure system primary member creation type as defined by swStructureSystemMemberCreationType_e: " + PrimDef.**PrimaryMemberType**);
 
 memPathSegDef = (PrimaryMemberPathSegmentFeatureData)PrimDef;
 
@@ -282,7 +263,7 @@ DispatchWrapper[] dArray;
 
 dArray = ObjectArrayToDispatchWrapperArray(segments);
 
-stat = memPathSegDef. SetPathSegments (dArray);
+stat = memPathSegDef.**SetPathSegments**(dArray);
 
 Debug.Print("Path segments set successfully: " + stat);
 
@@ -290,7 +271,7 @@ memData[0] = structMemDef;
 
 memDataArray = memData;
 
-modDocExt. CreateStructureSystem (memDataArray, null);
+modDocExt.**CreateStructureSystem**(memDataArray, null);
 
 modDoc.ViewZoomtofit();
 
@@ -298,7 +279,7 @@ System.Diagnostics.Debugger.Break();
 
 // Inspect corner treatments
 
-featArr = (object[])swFeatMgr. GetCornerManagementFolders ();
+featArr = (object[])swFeatMgr.**GetCornerManagementFolders**();
 
 Count = featArr.GetUpperBound(0);
 
@@ -310,24 +291,23 @@ swFeat = (Feature)featArr[i];
 
 Debug.Print(swFeat.Name);
 
-swCornerMgmtFolder =
-(CornerManagementFolder)swFeat.GetSpecificFeature2();
+swCornerMgmtFolder = (CornerManagementFolder)swFeat.GetSpecificFeature2();
 
-swFeat = swCornerMgmtFolder. GetFeature ();
+swFeat = swCornerMgmtFolder.**GetFeature**();
 
-swFeat = (Feature)swCornerMgmtFolder. GetStructureSystemFolder ();
+swFeat = (Feature)swCornerMgmtFolder.**GetStructureSystemFolder**();
 
 Debug.Print(swFeat.Name);
 
 swStructSysFolder = (StructureSystemFolder)swFeat.GetSpecificFeature2();
 
-Debug.Print("Number of profile groups: " + swStructSysFolder. GetProfileGroupFoldersCount ());
+Debug.Print("Number of profile groups: " + swStructSysFolder.**GetProfileGroupFoldersCount**());
 
-grpCnt = swCornerMgmtFolder. GetTreatmentGroupFolderCount ();
+grpCnt = swCornerMgmtFolder.**GetTreatmentGroupFolderCount**();
 
 Debug.Print("Number of corner treatment groups: " + grpCnt);
 
-grpArr = (object[])swCornerMgmtFolder. GetTreatmentGroupFolders ();
+grpArr = (object[])swCornerMgmtFolder.**GetTreatmentGroupFolders**();
 
 for (k = 0; k <= grpCnt - 1; k++)
 
@@ -335,20 +315,19 @@ for (k = 0; k <= grpCnt - 1; k++)
 
 crnrGrpFolder = (CornerTreatmentGroupFolder)grpArr[k];
 
-swFeat = crnrGrpFolder. GetFeature ();
+swFeat = crnrGrpFolder.**GetFeature**();
 
 Debug.Print("");
 
 Debug.Print(swFeat.Name);
 
-Debug.Print("Corner group folder type as defined by swCornerType_e: " +
-crnrGrpFolder. Type );
+Debug.Print("Corner group folder type as defined by swCornerType_e: " + crnrGrpFolder.**Type**);
 
 crnrCnt = crnrGrpFolder.GetCornerTreatmentCount();
 
 Debug.Print("Number of corner treatments: " + crnrCnt);
 
-crnrArr = (object[])crnrGrpFolder. GetCornerTreatments ();
+crnrArr = (object[])crnrGrpFolder.**GetCornerTreatments**();
 
 for (x = 0; x <= crnrCnt - 1; x++)
 
@@ -358,18 +337,17 @@ crnrFeat = (Feature)crnrArr[x];
 
 Debug.Print(crnrFeat.Name);
 
-crnrFeat2 = (CornerTreatmentFeatureData)crnrFeat. GetDefinition ();
+crnrFeat2 = (CornerTreatmentFeatureData)crnrFeat.**GetDefinition**();
 
-Debug.Print("Corner type as defined by swCornerType_e: " +
-crnrFeat2. CornerType );
+Debug.Print("Corner type as defined by swCornerType_e: " + crnrFeat2.**CornerType**);
 
-Debug.Print("Ignore corner treatment? " + crnrFeat2. IgnoreCornerTreatment );
+Debug.Print("Ignore corner treatment? " + crnrFeat2.**IgnoreCornerTreatment**);
 
-Debug.Print("Allow extension? " + crnrFeat2. AllowExtension );
+Debug.Print("Allow extension? " + crnrFeat2.**AllowExtension**);
 
 Debug.Print("");
 
-crnrFeat2. AccessSelections (modDoc, null);
+crnrFeat2.**AccessSelections**(modDoc, null);
 
 strCornerName = crnrFeat.Name;
 
@@ -381,16 +359,13 @@ Debug.Print("Simple corner treatment");
 
 simpleCrnr = (SimpleCornerTreatmentFeatureData)crnrFeat2;
 
-Debug.Print("Corner treatment trim type as defined by
-swCornerTreatmentTrimType_e: " + simpleCrnr. CornerTreatmentTrimType );
+Debug.Print("Corner treatment trim type as defined by swCornerTreatmentTrimType_e: " + simpleCrnr.**CornerTreatmentTrimType**);
 
-Debug.Print("Planar trim option as defined by
-swCornerTreatmentPlanarTrimOptions_e: " + simpleCrnr. PlanarTrimOption );
+Debug.Print("Planar trim option as defined by swCornerTreatmentPlanarTrimOptions_e: " + simpleCrnr.**PlanarTrimOption**);
 
-Debug.Print("Planar trim tool type as defined by
-swCornerTreatmentPlanarTrimToolType_e: " + simpleCrnr. PlanarTrimToolType );
+Debug.Print("Planar trim tool type as defined by swCornerTreatmentPlanarTrimToolType_e: " + simpleCrnr.**PlanarTrimToolType**);
 
-Debug.Print("Weld trim gap: " + simpleCrnr. WeldTrimGap );
+Debug.Print("Weld trim gap: " + simpleCrnr.**WeldTrimGap**);
 
 }
 
@@ -402,21 +377,19 @@ Debug.Print("Two member corner treatment");
 
 twoMbrCrnr = (TwoMemberCornerTreatmentFeatureData)crnrFeat2;
 
-Debug.Print("Corner treatment trim type as defined by
-swCornerTreatmentTrimType_e: " + twoMbrCrnr. CornerTreatmentTrimType );
+Debug.Print("Corner treatment trim type as defined by swCornerTreatmentTrimType_e: " + twoMbrCrnr.**CornerTreatmentTrimType**);
 
-Debug.Print("Planar trim option as defined by
-swCornerTreatmentPlanarTrimOptions_e: " + twoMbrCrnr. PlanarTrimOption );
+Debug.Print("Planar trim option as defined by swCornerTreatmentPlanarTrimOptions_e: " + twoMbrCrnr.**PlanarTrimOption**);
 
-Debug.Print("Weld trim gap: " + twoMbrCrnr. WeldTrimGap );
+Debug.Print("Weld trim gap: " + twoMbrCrnr.**WeldTrimGap**);
 
 // Change some settings
 
-twoMbrCrnr. CornerTreatmentTrimType = 1; // Body trim
+twoMbrCrnr.**CornerTreatmentTrimType** = 1; // Body trim
 
-twoMbrCrnr. WeldTrimGap = 0.001;
+twoMbrCrnr.**WeldTrimGap** = 0.001;
 
-crnrMbrArr = (object[])twoMbrCrnr. GetCornerGroupMembers ();
+crnrMbrArr = (object[])twoMbrCrnr.**GetCornerGroupMembers**();
 
 Debug.Print("Corner members:");
 
@@ -426,20 +399,19 @@ for (Y = 0; Y <= 1; Y++)
 
 crnrMbr = (CornerMember)crnrMbrArr[Y];
 
-Debug.Print("Trim order: " + crnrMbr. TrimOrder );
+Debug.Print("Trim order: " + crnrMbr.**TrimOrder**);
 
-feat1 = (Feature)crnrMbr. GetUnderlyingMemberFeature ();
+feat1 = (Feature)crnrMbr.**GetUnderlyingMemberFeature**();
 
 Debug.Print("Member feature: " + feat1.Name);
 
 }
 
-twoMbrCrnr. SwapMembers (); // Make other member the trim
-tool
+twoMbrCrnr.**SwapMembers**(); // Make other member the trim tool
 
 }
 
-else if (crnrFeat2. CornerType == 2)
+else if (crnrFeat2.**CornerType** == 2)
 
 {
 
@@ -447,13 +419,11 @@ Debug.Print("Complex corner treatment");
 
 complexCrnr = (ComplexCornerTreatmentFeatureData)crnrFeat2;
 
-Debug.Print("Planar trim tool type as defined by
-swCornerTreatmentPlanarTrimToolType_e: " + complexCrnr. PlanarTrimToolType );
+Debug.Print("Planar trim tool type as defined by swCornerTreatmentPlanarTrimToolType_e: " + complexCrnr.**PlanarTrimToolType**);
 
-Debug.Print("Planar trim option as defined by
-swCornerTreatmentPlanarTrimOptions_e: " + complexCrnr. PlanarTrimOption );
+Debug.Print("Planar trim option as defined by swCornerTreatmentPlanarTrimOptions_e: " + complexCrnr.**PlanarTrimOption**);
 
-varBodyMem = (object[])complexCrnr. GetBodyTrimMembers ();
+varBodyMem = (object[])complexCrnr.**GetBodyTrimMembers**();
 
 if (varBodyMem[0] != null)
 
@@ -465,28 +435,25 @@ for (l = 0; l <= varBodyMem.GetUpperBound(0); l++)
 
 member = (CornerMember)varBodyMem[l];
 
-Debug.Print("Body trim member: " +
-((Feature)member. GetUnderlyingMemberFeature ()).Name);
+Debug.Print("Body trim member: " + ((Feature)member.**GetUnderlyingMemberFeature**()).Name);
 
-Debug.Print("Body trim order: " + member. TrimOrder );
+Debug.Print("Body trim order: " + member.**TrimOrder**);
 
-Debug.Print("Body weld gap: " + member. WeldGap );
-
-}
+Debug.Print("Body weld gap: " + member.**WeldGap**);
 
 }
 
-complexCrnr. SetTrimToolMember (varBodyMem[0]);
+}
 
-obj = complexCrnr. GetTrimToolMember (out objType);
+complexCrnr.**SetTrimToolMember**(varBodyMem[0]);
 
-if (objType ==
-(int)swTrimToolMemberObjectType_e.swTrimToolMemberObjectType_swCornerMember)
+obj = complexCrnr.**GetTrimToolMember**(out objType);
+
+if (objType == (int)swTrimToolMemberObjectType_e.swTrimToolMemberObjectType_swCornerMember)
 
 tmember = (CornerMember)obj;
 
-else if (objType ==
-(int)swTrimToolMemberObjectType_e.swTrimToolMemberObjectType_swCornerTreatmentFeature)
+else if (objType == (int)swTrimToolMemberObjectType_e.swTrimToolMemberObjectType_swCornerTreatmentFeature)
 
 {
 
@@ -500,15 +467,15 @@ if (tmember != null)
 
 {
 
-Debug.Print("Trim tool member: " + ((Feature)(tmember. GetUnderlyingMemberFeature ())).Name);
+Debug.Print("Trim tool member: " + ((Feature)(tmember.**GetUnderlyingMemberFeature**())).Name);
 
-Debug.Print("Trim tool member trim order: " + tmember. TrimOrder );
+Debug.Print("Trim tool member trim order: " + tmember.**TrimOrder**);
 
-Debug.Print("Trim tool member weld gap: " + tmember. WeldGap );
+Debug.Print("Trim tool member weld gap: " + tmember.**WeldGap**);
 
 }
 
-varPlanarMem = (object[])complexCrnr. GetPlanarTrimMembers ();
+varPlanarMem = (object[])complexCrnr.**GetPlanarTrimMembers**();
 
 if (varPlanarMem != null)
 
@@ -520,25 +487,25 @@ for (m = 0; m <= varPlanarMem.GetUpperBound(0); m++)
 
 pmember = (CornerMember)varPlanarMem[m];
 
-Debug.Print("Planar trim member: " + ((Feature)pmember. GetUnderlyingMemberFeature ()).Name);
+Debug.Print("Planar trim member: " + ((Feature)pmember.**GetUnderlyingMemberFeature**()).Name);
 
-Debug.Print("Planar trim member trim order: " + pmember. TrimOrder );
+Debug.Print("Planar trim member trim order: " + pmember.**TrimOrder**);
 
-Debug.Print("Planar trim member weld gap: " + pmember. WeldGap );
-
-}
+Debug.Print("Planar trim member weld gap: " + pmember.**WeldGap**);
 
 }
 
 }
 
-feat = crnrFeat2. GetFeature ();
+}
 
-status = feat. ModifyDefinition (crnrFeat2, modDoc, null);
+feat = crnrFeat2.**GetFeature**();
+
+status = feat.**ModifyDefinition**(crnrFeat2, modDoc, null);
 
 if (status == false)
 
-crnrFeat2. ReleaseSelectionAccess ();
+crnrFeat2.**ReleaseSelectionAccess**();
 
 }
 

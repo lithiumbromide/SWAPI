@@ -63,32 +63,22 @@ System.int GenerateReport(
 
 ### Return Value
 
-Error code as defined in
-
-[swsGenerateReportError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsGenerateReportError_e.html)
+Error code as defined in [swsGenerateReportError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsGenerateReportError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::GenerateReport](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~GenerateReport.html)
-
-.
+See [CWStudy::GenerateReport](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~GenerateReport.html).
 
 ## Examples
 
 [Copy Mesh and Generate Report (VBA)](Copy_Mesh_and_Gen_Report_Example_VB.htm)
-
 [Copy Mesh and Generate Report (VB.NET)](Copy_Mesh_and_Gen_Report_Example_VBNET.htm)
-
 [Copy Mesh and Generate Report (C#)](Copy_Mesh_and_Gen_Report_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::ExportSimulationStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~ExportSimulationStudy.html)
 
 ## Availability

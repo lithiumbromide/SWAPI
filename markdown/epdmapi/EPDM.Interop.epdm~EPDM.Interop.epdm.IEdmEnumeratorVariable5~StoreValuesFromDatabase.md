@@ -63,7 +63,6 @@ This method corresponds to the SOLIDWORKS PDM Professional user interface right-
 ## See Also
 
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmEnumeratorVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IRemoveInnerLoops Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IRemoveInnterLoops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IRemoveInnerLoops.html)
-
-.
+Obsolete. Superseded by [IFace2::IRemoveInnterLoops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IRemoveInnerLoops.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Face^ IRemoveInnerLoops(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::IRemoveInnerLoops](ms-its:sldworksapivb6.chm::/sldworks~Face~IRemoveInnerLoops.html)
-
-.
+See [Face::IRemoveInnerLoops](ms-its:sldworksapivb6.chm::/sldworks~Face~IRemoveInnerLoops.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

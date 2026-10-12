@@ -11,39 +11,30 @@ source: "epdmapi/Add_Files_to_Vault_Example_CSharp.htm"
 
 This example shows how to add files to a vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type AddFiles_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create
- //       the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
+ //    a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+ //    b. Type AddFiles_CSharp in Project name.
+ //    c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
  //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with this code.
-  // 2. Add references to:
- //    a. EPDM.Interop.epdm.dll (click Browse and browse to the top folder
- //       of your SOLIDWORKS PDM Professional installation, select
- //       EPDM.Interop.epdm.dll).
- //    b.  EPDM.interop.EPDMResultCode.dll (click Browse, select
- //       EPDM.interop.EPDMResultCode.dll, and click OK).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Ensure that the vault workflow contains the Waiting for Approval state.
- // 5. Ensure that the vault workflow contains the Submit for Approval transition
+ //    h. Replace the code in Form1.cs with this code.
+ //    i. To create the form, replace the code in Form1.Designer.cs with this code.
+  // 2.     Add dependencies and safely pass arrays of structures.
+ // 3. Ensure that the vault workflow contains the Waiting for Approval state.
+ // 4. Ensure that the vault workflow contains the Submit for Approval transition
  //    to the Waiting for Approval state.
- // 6. Ensure that the logged-in PDM user has permission to move files.
- // 7. Modify password in IEdmFile13::ChangeState3 to
+ // 5. Ensure that the logged-in PDM user has permission to move files.
+ // 6. Modify password in IEdmFile13::ChangeState3 to
  //    match the password of your logged-in PDM user.
- // 8. Click Debug > Start Debugging or press F5.
+ // 7. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. Displays the Add files to vault dialog box.

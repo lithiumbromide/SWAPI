@@ -46,28 +46,19 @@ void AddFiles(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `ppoFiles`: Array of
-
-[EdmAddFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo.html)
-
-structures; one structure for each added file
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-to control this add operation and obtain progress information about it
+- `ppoFiles`: Array of [EdmAddFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo.html) structures; one structure for each added file
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) to control this add operation and obtain progress information about it
 
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## Remarks
 
-This method is more efficient than[IEdmFolder5::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html)when adding many files.
+This method is more efficient than [IEdmFolder5::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html) when adding many files.
 
-Before calling this method, call[IFolder12::SetFileNameSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder12~SetFileNameSerNo.html)for each new file to specify how to create the name of the new file's data card.
+Before calling this method, call [IFolder12::SetFileNameSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder12~SetFileNameSerNo.html) for each new file to specify how to create the name of the new file's data card.
 
 [Return codes](ReturnCodes.htm):
 
@@ -79,7 +70,6 @@ Before calling this method, call[IFolder12::SetFileNameSerNo](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmFolder6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6.html)
-
 [IEdmFolder6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6_members.html)
 
 ## Availability

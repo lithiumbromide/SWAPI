@@ -45,13 +45,7 @@ property System.double IndexOfRefraction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Index of refraction
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::IndexOfRefraction](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~IndexOfRefraction.html)
-
-.
+See [RenderMaterial::IndexOfRefraction](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~IndexOfRefraction.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property controls the bending of light as it passes through a transparent o
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

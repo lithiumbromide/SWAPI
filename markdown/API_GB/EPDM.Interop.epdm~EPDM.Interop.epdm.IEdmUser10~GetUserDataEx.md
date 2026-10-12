@@ -39,21 +39,11 @@ void GetUserDataEx(
 
 ### Parameters
 
-- `poUserData`: [EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
-(see
-
-Remarks
-
-)
+- `poUserData`: [EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html) (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)
-
-examples.
+See the [IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html) examples.
 
 ## Remarks
 
@@ -66,9 +56,7 @@ The properties and picture associated with this user can be returned. EdmUserDat
 ## See Also
 
 [IEdmUser10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)
-
 [IEdmUser10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10_members.html)
-
 [IEdmuser10::SetUserDataEx Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html)
 
 ## Availability

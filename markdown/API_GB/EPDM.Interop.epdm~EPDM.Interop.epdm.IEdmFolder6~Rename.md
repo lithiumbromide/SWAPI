@@ -61,7 +61,6 @@ If this folder contains files with external references, this method could take a
 ## See Also
 
 [IEdmFolder6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6.html)
-
 [IEdmFolder6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6_members.html)
 
 ## Availability

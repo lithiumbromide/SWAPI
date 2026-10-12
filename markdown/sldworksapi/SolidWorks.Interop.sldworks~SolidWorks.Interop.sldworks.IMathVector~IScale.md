@@ -47,13 +47,7 @@ MathVector^ IScale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,16 @@ See
 
 ### Return Value
 
-Newly created
-
-[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-or NULL if the operation fails
+Newly created [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathVector::IScale](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IScale.html)
-
-.
+See [MathVector::IScale](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IScale.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::Scale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~Scale.html)
 
 ## Availability

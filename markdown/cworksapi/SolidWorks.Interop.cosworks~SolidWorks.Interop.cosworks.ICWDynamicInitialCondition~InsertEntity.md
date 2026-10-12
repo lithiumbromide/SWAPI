@@ -57,18 +57,12 @@ Index of entity added
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~InsertEntity.html)
-
-.
+See [CWDynamicInitialCondition::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~InsertEntity.html).
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~RemoveEntity.html)
 
 ## Availability

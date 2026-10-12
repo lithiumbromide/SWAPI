@@ -40,13 +40,7 @@ System.bool IsSketchEditable()
 System.bool IsSketchEditable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if this sketch is editable, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::IsSketchEditable](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsSketchEditable.html)
-
-.
+See [Sketch::IsSketchEditable](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsSketchEditable.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::SetSketchEditable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~SetSketchEditable.html)
 
 ## Availability

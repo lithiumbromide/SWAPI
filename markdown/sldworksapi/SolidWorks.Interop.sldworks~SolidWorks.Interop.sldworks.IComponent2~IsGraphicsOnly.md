@@ -42,13 +42,7 @@ property System.bool IsGraphicsOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if graphics only, false if not
 
 ## VBA Syntax
 
-See
-
-[Component2::IsGraphicsOnly](ms-its:sldworksapivb6.chm::/sldworks~Component2~IsGraphicsOnly.html)
-
-.
+See [Component2::IsGraphicsOnly](ms-its:sldworksapivb6.chm::/sldworks~Component2~IsGraphicsOnly.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

@@ -51,18 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see**Remarks**)
-- `Component`: Top-level document (see**Remarks**)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Top-level document (see **Remarks**)
 
 ### Return Value
 
@@ -70,18 +64,12 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[MirrorSolidFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~AccessSelections.html)
-
-.
+See [MirrorSolidFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Get Mirror Solid Feature Data (C#)](Get_Mirror_Solid_Feature_Data_Example_CSharp.htm)
-
 [Get Mirror Solid Feature Data (VB.NET)](Get_Mirror_Solid_Feature_Data_Example_VBNET.htm)
-
 [Get Mirror Solid Feature Data (VBA)](Get_Mirror_Solid_Data_Example_VB.htm)
 
 ## Remarks
@@ -93,19 +81,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IMirrorSolidFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorSolidFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IMirrorSolidFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorSolidFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IMirrorSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData.html)
-
 [IMirrorSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData_members.html)
-
 [IMirrorSolidFeaturePattern::IAccessSelections2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData~IAccessSelections2.html)
 
 ## Availability

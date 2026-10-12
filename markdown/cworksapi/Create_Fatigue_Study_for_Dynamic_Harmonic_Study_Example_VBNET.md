@@ -11,8 +11,7 @@ source: "cworksapi/Create_Fatigue_Study_for_Dynamic_Harmonic_Study_Example_VBNET
 
 This example shows how to create a fatigue study for a linear dynamic harmonic study.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
   '----------------------------------------------------------------------------

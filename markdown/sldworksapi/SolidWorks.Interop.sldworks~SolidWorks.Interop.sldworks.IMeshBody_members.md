@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 # IMeshBody Interface Members
 
-The following tables list the members exposed by[IMeshBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html).
+The following tables list the members exposed by [IMeshBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html).
 
 ## Public Methods
 
@@ -25,7 +25,5 @@ The following tables list the members exposed by[IMeshBody](SolidWorks.Interop.s
 ## See Also
 
 [IMeshBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IGraphicsBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody.html)

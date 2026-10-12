@@ -45,13 +45,7 @@ property System.double DampingConstant {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Damping constant value
 
 ## VBA Syntax
 
-See
-
-[SimulationDamperFeatureData::DampingConstant](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~DampingConstant.html)
-
-.
+See [SimulationDamperFeatureData::DampingConstant](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~DampingConstant.html).
 
 ## See Also
 
 [ISimulationDamperFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData.html)
-
 [ISimulationDamperFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData_members.html)
 
 ## Availability

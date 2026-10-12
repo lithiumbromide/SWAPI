@@ -9,28 +9,23 @@ source: "sldworksapi/Inspect_Facets_Example_CSharp.htm"
 
 # Inspect Facets of Graphics and Mesh Bodies Example (C#)
 
-This example shows how to inspect facets, facet edges, and facet vertexes
-after importing graphics and mesh bodies.
+This example shows how to inspect facets, facet edges, and facet vertexes after importing graphics and mesh bodies.
 
 // ===================================================
 
 // Preconditions:
 
-// 1. Copy Public_Documents \SOLIDWORKS\SOLIDWORKS
-2022\samples\tutorial\api\Part1.PLY to c:\temp .
+// 1. Copy `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\Part1.PLY** to **c:\temp**.
 
 // 2. Open the Immediate window.
 
 // Postconditions:
 
-// 1. Press F5 five times, inspecting the Immediate
-window after each press.
+// 1. Press F5 five times, inspecting the Immediate window after each press.
 
-// 2. The part is imported first as a graphics body and
-then as a mesh body.
+// 2. The part is imported first as a graphics body and then as a mesh body.
 
-// 3. The macro tests facets, facet edges, and facet
-vertexes after each import.
+// 3. The macro tests facets, facet edges, and facet vertexes after each import.
 
 // ==================================================
 
@@ -84,13 +79,11 @@ Debug.Print("");
 
 bool boolstatus;
 
-boolstatus = swApp. SetUserPreferenceIntegerValue ((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-(int)swImportStlVrmlModelType_e.swImportStlVrmlModelType_Graphics);
+boolstatus = swApp.**SetUserPreferenceIntegerValue**((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, (int)swImportStlVrmlModelType_e.swImportStlVrmlModelType_Graphics);
 
-boolstatus = swApp. SetUserPreferenceIntegerValue ((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-0);
+boolstatus = swApp.**SetUserPreferenceIntegerValue**((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, 0);
 
-boolstatus = swApp. LoadFile2 (@"c:\temp\Part1.PLY", "r");
+boolstatus = swApp.**LoadFile2**(@"c:\temp\Part1.PLY", "r");
 
 swModelDoc = (ModelDoc2)swApp.ActiveDoc;
 
@@ -108,16 +101,13 @@ Debug.Print("");
 
 bool boolstatus;
 
-boolstatus = swApp. SetUserPreferenceIntegerValue ((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-(int)swImportStlVrmlModelType_e.swImportStlVrmlModelType_Surface);
+boolstatus = swApp.**SetUserPreferenceIntegerValue**((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, (int)swImportStlVrmlModelType_e.swImportStlVrmlModelType_Surface);
 
-boolstatus = swApp. SetUserPreferenceIntegerValue ((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-1);
+boolstatus = swApp.**SetUserPreferenceIntegerValue**((int)swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, 1);
 
-swApp. SetUserPreferenceToggle ((int)swUserPreferenceToggle_e.swVrmlStlImportAsPSMesh,
-true);
+swApp.**SetUserPreferenceToggle**((int)swUserPreferenceToggle_e.swVrmlStlImportAsPSMesh, true);
 
-boolstatus = swApp. LoadFile2 (@"c:\temp\Part1.PLY", "r");
+boolstatus = swApp.**LoadFile2**(@"c:\temp\Part1.PLY", "r");
 
 swModelDoc = (ModelDoc2)swApp.ActiveDoc;
 
@@ -135,9 +125,7 @@ Debug.Print("Getting the graphics body, Graphic (Closed) -1...");
 
 bool boolstatus;
 
-boolstatus = swModelDoc.Extension.SelectByID2("Graphic (Closed) -1",
-"MESH BODY FEATURE", -0.0932538825377272d, 0.091d, 0.033742378078639d, false, 0,
-null, 0);
+boolstatus = swModelDoc.Extension.SelectByID2("Graphic (Closed) -1", "MESH BODY FEATURE", -0.0932538825377272d, 0.091d, 0.033742378078639d, false, 0, null, 0);
 
 SelectionMgr swSelMgr;
 
@@ -175,7 +163,7 @@ Debug.Print("Select GraphicsBody success");
 
 Body2 swBody;
 
-swBody = (Body2)swFeature. GetSpecificFeature2 ();
+swBody = (Body2)swFeature.**GetSpecificFeature2**();
 
 if (swBody == null)
 
@@ -193,7 +181,7 @@ Debug.Print("Getting Body success");
 
 int lBodyType;
 
-lBodyType = swBody. GetType ();
+lBodyType = swBody.**GetType**();
 
 if (lBodyType == (int)swBodyType_e.swGraphicsBody)
 
@@ -201,7 +189,7 @@ if (lBodyType == (int)swBodyType_e.swGraphicsBody)
 
 GraphicsBody swGraphicsBody;
 
-swGraphicsBody = (GraphicsBody)swBody. GetGraphicsBody ();
+swGraphicsBody = (GraphicsBody)swBody.**GetGraphicsBody**();
 
 if (swGraphicsBody == null)
 
@@ -219,7 +207,7 @@ Debug.Print("GetGraphicsBody success");
 
 Body2 swBodyFromGraphics;
 
-swBodyFromGraphics = (Body2)swGraphicsBody. GetBody ();
+swBodyFromGraphics = (Body2)swGraphicsBody.**GetBody**();
 
 if (swBodyFromGraphics == null)
 
@@ -245,14 +233,11 @@ Debug.Print("swGraphicsBody.GetBody success");
 
 }
 
-Debug.Print("Selecting facet, facet edge, and facet vertex objects in
-graphics body...");
+Debug.Print("Selecting facet, facet edge, and facet vertex objects in graphics body...");
 
 swModelDoc.ClearSelection2(true);
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFACETREF",
--0.130140285581291d, 0.0909999999999798d, 0.0526687725669035d, false, 0, null,
-0);
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFACETREF", -0.130140285581291d, 0.0909999999999798d, 0.0526687725669035d, false, 0, null, 0);
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1);
 
@@ -274,9 +259,7 @@ Debug.Print("Object selected not of type facet");
 
 swModelDoc.ClearSelection2(true);
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFINREF",
--0.0701858537194084d, 0.0909999999999798d, 0.0513894806662165d, false, 0, null,
-0);
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFINREF", -0.0701858537194084d, 0.0909999999999798d, 0.0513894806662165d, false, 0, null, 0);
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1);
 
@@ -298,9 +281,7 @@ Debug.Print("Object selected not of type facet edge");
 
 swModelDoc.ClearSelection2(true);
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHVERTEXREF",
--0.117127148857435d, 0.0909999999999513d, 0.099920771345694d, false, 0, null,
-0);
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHVERTEXREF", -0.117127148857435d, 0.0909999999999513d, 0.099920771345694d, false, 0, null, 0);
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1);
 
@@ -334,9 +315,7 @@ Debug.Print("Getting mesh body, Surface-Imported5...");
 
 bool boolstatus;
 
-boolstatus = swModelDoc.Extension.SelectByID2("Surface-Imported5",
-"SURFACEBODY", -0.0955822368965755d, 0.0910000000000082d, 0.0336061875443647d,
-false, 0, null, 0);
+boolstatus = swModelDoc.Extension.SelectByID2("Surface-Imported5", "SURFACEBODY", -0.0955822368965755d, 0.0910000000000082d, 0.0336061875443647d, false, 0, null, 0);
 
 SelectionMgr swSelMgr;
 
@@ -356,7 +335,7 @@ swBody = (Body2)swSelMgr.GetSelectedObject6(1, -1);
 
 int lBodyType;
 
-lBodyType = swBody. GetType ();
+lBodyType = swBody.**GetType**();
 
 if (lBodyType == (int)swBodyType_e.swMeshBody)
 
@@ -366,7 +345,7 @@ Debug.Print("Select MeshBody success");
 
 MeshBody swMeshBody;
 
-swMeshBody = (MeshBody)swBody. GetMeshBody ();
+swMeshBody = (MeshBody)swBody.**GetMeshBody**();
 
 if (swMeshBody == null)
 
@@ -384,7 +363,7 @@ Debug.Print("Mesh body retrieved");
 
 Body2 swMBody;
 
-swMBody = (Body2)swMeshBody. GetBody ();
+swMBody = (Body2)swMeshBody.**GetBody**();
 
 if (swMBody == null)
 
@@ -422,14 +401,11 @@ Debug.Print("Testing facets, facet edges, and facet vertexes...");
 
 bool bFilter;
 
-bFilter =
-swApp.GetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES);
+bFilter = swApp.GetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES);
 
-swApp.SetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES, bFilter
-== false);
+swApp.SetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES, bFilter == false);
 
-bFilter =
-swApp.GetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES);
+bFilter = swApp.GetSelectionFilter((int)swSelectType_e.swSelMESHFACETEDGES);
 
 int[] vFilters;
 
@@ -487,8 +463,7 @@ else
 
 {
 
-Debug.Print("Selection filter is other than facet/facet edge/facet
-vertex");
+Debug.Print("Selection filter is other than facet/facet edge/facet vertex");
 
 }
 
@@ -556,7 +531,7 @@ swCurBod = (Body2)vBodies[i];
 
 int lCurBodyType;
 
-lCurBodyType = swCurBod. GetType ();
+lCurBodyType = swCurBod.**GetType**();
 
 if (lCurBodyType == (int)swBodyType_e.swMeshBody)
 
@@ -588,31 +563,31 @@ swCurBod.DeSelect();
 
 bool bIsVisible;
 
-bIsVisible = swCurBod. Visible ;
+bIsVisible = swCurBod.**Visible**;
 
 Debug.Print("Visible is " + bIsVisible);
 
 string sBodyName;
 
-sBodyName = swCurBod. Name ;
+sBodyName = swCurBod.**Name**;
 
 Debug.Print("Name is \"" + sBodyName + "\"");
 
 bool bIsMesh;
 
-bIsMesh = swCurBod. IsMeshBody ();
+bIsMesh = swCurBod.**IsMeshBody**();
 
 Debug.Print("IsMeshBody returned " + bIsMesh);
 
 bool bIsGraphics;
 
-bIsGraphics = swCurBod. IsGraphicsBody ();
+bIsGraphics = swCurBod.**IsGraphicsBody**();
 
 Debug.Print("IsGraphicsBody method returned " + bIsGraphics);
 
 MeshBody swThisMeshBody;
 
-swThisMeshBody = (MeshBody)swCurBod. GetMeshBody (); //
+swThisMeshBody = (MeshBody)swCurBod.**GetMeshBody**(); //
 
 if (swThisMeshBody == null)
 
@@ -628,7 +603,7 @@ else
 
 Body2 swThisBodyFromMesh;
 
-swThisBodyFromMesh = (Body2)swThisMeshBody. GetBody ();
+swThisBodyFromMesh = (Body2)swThisMeshBody.**GetBody**();
 
 if (swThisBodyFromMesh is object)
 
@@ -646,18 +621,17 @@ Debug.Print("swThisMeshBody.GetBody returned Nothing.");
 
 }
 
-Debug.Print("Getting facet, facet edge, and facet vertex objects in this
-mesh body...");
+Debug.Print("Getting facet, facet edge, and facet vertex objects in this mesh body...");
 
 int lFacetCount;
 
-lFacetCount = swThisMeshBody. GetFacetCount ();
+lFacetCount = swThisMeshBody.**GetFacetCount**();
 
 Debug.Print("Facet count is " + lFacetCount);
 
 object[] vMFacets;
 
-vMFacets = (object[])swThisMeshBody. GetFacets ();
+vMFacets = (object[])swThisMeshBody.**GetFacets**();
 
 int lMFacetIndex;
 
@@ -677,20 +651,19 @@ swCurMFacet = (Facet)vMFacets[lMFacetIndex];
 
 Body2 swBodyFromCurMFacet;
 
-swBodyFromCurMFacet = (Body2)swCurMFacet. GetBody ();
+swBodyFromCurMFacet = (Body2)swCurMFacet.**GetBody**();
 
 object[] vEdges;
 
 object[] vVerts;
 
-vEdges = (object[])swCurMFacet. GetFacetEdges ();
+vEdges = (object[])swCurMFacet.**GetFacetEdges**();
 
 int lEdgesIndex;
 
 var loopTo3 = vEdges.GetUpperBound(0);
 
-for (lEdgesIndex = 0; lEdgesIndex <= loopTo3;
-lEdgesIndex++)
+for (lEdgesIndex = 0; lEdgesIndex <= loopTo3; lEdgesIndex++)
 
 {
 
@@ -716,7 +689,7 @@ Debug.Print("Edge retrieved");
 
 }
 
-vVerts = (object[])swCurMFacet. GetFacetVertices ();
+vVerts = (object[])swCurMFacet.**GetFacetVertices**();
 
 int lVertsIndex;
 
@@ -774,7 +747,7 @@ Debug.Print("Object not of type Facet");
 
 GraphicsBody swThisGraphicsBody;
 
-swThisGraphicsBody = (GraphicsBody)swCurBod. GetGraphicsBody ();
+swThisGraphicsBody = (GraphicsBody)swCurBod.**GetGraphicsBody**();
 
 if (swThisGraphicsBody == null)
 
@@ -790,7 +763,7 @@ else
 
 Body2 swThisBodyFromGraphics;
 
-swThisBodyFromGraphics = (Body2)swThisGraphicsBody. GetBody ();
+swThisBodyFromGraphics = (Body2)swThisGraphicsBody.**GetBody**();
 
 if (swThisBodyFromGraphics is object)
 
@@ -808,12 +781,11 @@ Debug.Print("swThisGraphicsBody.GetBody returned Nothing.");
 
 }
 
-Debug.Print("Getting facet, facet edge, and facet vertex objects in this
-graphics body...");
+Debug.Print("Getting facet, facet edge, and facet vertex objects in this graphics body...");
 
 int lGFacetCount;
 
-lGFacetCount = swThisGraphicsBody. GetFacetCount ();
+lGFacetCount = swThisGraphicsBody.**GetFacetCount**();
 
 Debug.Print("Facet count is " + lGFacetCount);
 
@@ -839,7 +811,7 @@ swFacet = (Facet)vFacets[lFacetIndex];
 
 Body2 swFacetBody;
 
-swFacetBody = (Body2)swFacet. GetBody ();
+swFacetBody = (Body2)swFacet.**GetBody**();
 
 if (swFacetBody == null)
 
@@ -859,7 +831,7 @@ Debug.Print("swFacet.GetBody returned an IBody2");
 
 object[] vGEdges;
 
-vGEdges =(object[]) swFacet. GetFacetEdges ();
+vGEdges =(object[]) swFacet.**GetFacetEdges**();
 
 int lFacetEdgesCount;
 
@@ -869,8 +841,7 @@ int lFacetEdgesIndex;
 
 var loopTo6 = vGEdges.GetUpperBound(0);
 
-for (lFacetEdgesIndex = 0; lFacetEdgesIndex <=
-loopTo6; lFacetEdgesIndex++)
+for (lFacetEdgesIndex = 0; lFacetEdgesIndex <= loopTo6; lFacetEdgesIndex++)
 
 {
 
@@ -898,7 +869,7 @@ Debug.Print("Edge retrieved");
 
 object[] vGVerts;
 
-vGVerts = (object[])swFacet. GetFacetVertices ();
+vGVerts = (object[])swFacet.**GetFacetVertices**();
 
 int lFacetVertsCount;
 
@@ -908,8 +879,7 @@ int lFacetVertsIndex;
 
 var loopTo7 = vGVerts.GetUpperBound(0);
 
-for (lFacetVertsIndex = 0; lFacetVertsIndex <= loopTo7;
-lFacetVertsIndex++)
+for (lFacetVertsIndex = 0; lFacetVertsIndex <= loopTo7; lFacetVertsIndex++)
 
 {
 

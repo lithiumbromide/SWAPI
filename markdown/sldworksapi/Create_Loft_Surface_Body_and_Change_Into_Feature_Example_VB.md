@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Loft_Surface_Body_and_Change_Into_Feature_Example_VB
 
 # Create Loft Surface Body and Change Into Feature Example (VBA)
 
-This example shows how to create a loft surface body and change that
-body into a feature.
+This example shows how to create a loft surface body and change that body into a feature.
 
 ```
 '---------------------------------------------------------------

@@ -61,21 +61,13 @@ System.int SaveReport2(
 - `vtAddToBinderOption`: True to add the report to the Design Binder, false to not
 - `vtOverwrite`: True to overwrite an existing report of the same name, false to not
 
-ParamDesc
-
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::SaveReport2](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~SaveReport2.html)
-
-.
+See [IGeometryAnalysis::SaveReport2](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~SaveReport2.html).
 
 ## Examples
 
@@ -84,7 +76,6 @@ See
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

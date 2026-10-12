@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ReorderFeature Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html).
 
 ## Syntax
 
@@ -59,25 +55,17 @@ System.bool ReorderFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FeatureToMove`: Name of feature to move
-- `TargetFeature`: Name of feature before or after which to move FeatureToMove; valid only if MoveLocation is[swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html).swMoveAfter
+- `TargetFeature`: Name of feature before or after which to move FeatureToMove; valid only if MoveLocation is [swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html).swMoveAfter
 
-- or -
+  - or -
 
-Name of folder; valid only if MoveLocation is swMoveLocation_e.swMoveToFolder
-- `MoveLocation`: Move type as defined by
-
-[swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html)
+  Name of folder; valid only if MoveLocation is swMoveLocation_e.swMoveToFolder
+- `MoveLocation`: Move type as defined by [swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html)
 
 ### Return Value
 
@@ -85,20 +73,13 @@ True if feature moved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ReorderFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReorderFeature.html)
-
-.
+See [ModelDocExtension::ReorderFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReorderFeature.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IPartDoc::ReorderFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ReorderFeature.html)
-
 [IAssemblyDoc::ReorderComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorderComponents.html)
 
 ## Availability

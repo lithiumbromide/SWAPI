@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # GetSheets Method (IExportPdfData)
 
-Gets the drawing
-
-[sheets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet.html)
-
-to export.
+Gets the drawing [sheets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet.html) to export.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.object GetSheets()
 System.Object^ GetSheets();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,28 +48,17 @@ Array of the names of the sheets to export
 
 ## VBA Syntax
 
-See
-
-[ExportPdfData::GetSheets](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~GetSheets.html)
-
-.
+See [ExportPdfData::GetSheets](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~GetSheets.html).
 
 ## Remarks
 
-Call
-
-[IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html)
-
-after calling this method.
+Call [IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html) after calling this method.
 
 ## See Also
 
 [IExportPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html)
-
 [IExportPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData_members.html)
-
 [IExportPdfData::GetWhichSheets Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData~GetWhichSheets.html)
-
 [IExportPdfData::SetSheets Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData~SetSheets.html)
 
 ## Availability

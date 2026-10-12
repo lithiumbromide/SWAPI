@@ -9,12 +9,9 @@ source: "API_GB/Create_and_Delete_Dictionaries_Example_VBNET.htm"
 
 # Create and Delete Dictionaries Example (VB.NET)
 
-This example shows how to create and delete dictionaries and their keys and
-values.
+This example shows how to create and delete dictionaries and their keys and values.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

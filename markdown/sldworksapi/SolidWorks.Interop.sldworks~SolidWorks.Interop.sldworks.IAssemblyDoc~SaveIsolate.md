@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # SaveIsolate Method (IAssemblyDoc)
 
-Saves the display characteristics of the
-
-[isolated components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~Isolate.html)
-
-to a new display state.
+Saves the display characteristics of the [isolated components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~Isolate.html) to a new display state.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SaveIsolate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,28 +59,19 @@ True if a new display state of the characteristics of the isolated components is
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SaveIsolate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SaveIsolate.html)
-
-.
+See [AssemblyDoc::SaveIsolate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SaveIsolate.html).
 
 ## Examples
 
 [Isolate Component (C#)](Isolate_Component_Example_CSharp.htm)
-
 [Isolate Component (VB.NET)](Isolate_Component_Example_VBNET.htm)
-
 [Isolate Component (VBA)](Isolate_Component_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ExitIsolate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ExitIsolate.html)
-
 [IAssemblyDoc::SetIsolateVisibility Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetIsolateVisibility.html)
 
 ## Availability

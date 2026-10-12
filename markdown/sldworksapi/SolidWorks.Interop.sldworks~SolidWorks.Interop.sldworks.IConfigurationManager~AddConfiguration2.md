@@ -71,45 +71,25 @@ Configuration^ AddConfiguration2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of the configuration
 - `Comment`: Comment displayed in Configuration Properties
 - `AlternateName`: Alternate configuration name (i.e., user-specified name); used if Options is set to swConfigurationOptions2_e_UseAlternateName
-- `Options`: Combination of one or more configuration options as defined in
-
-[swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html)
-
-(see
-
-Remarks
-
-)
+- `Options`: Combination of one or more configuration options as defined in [swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html) (see **Remarks**)
 - `ParentConfigName`: Name of parent configuration
 - `Description`: Text that identifies the configuration
 - `Rebuild`: True to rebuild the model after adding this configuration, false to not
 
 ### Return Value
 
-Newly created
-
-[configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
+Newly created [configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::AddConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddConfiguration2.html)
-
-.
+See [ConfigurationManager::AddConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddConfiguration2.html).
 
 ## Examples
 
@@ -127,19 +107,12 @@ The Options argument can be a combination of any of the following values:
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IAssemblyDoc::AddComponentConfiguration Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponentConfiguration.html)
-
 [IModelDoc2::AddConfiguration3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddConfiguration3.html)
-
 [IConfiguration::GetChildren Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetChildren.html)
-
 [IConfiguration::GetParent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetParent.html)
-
 [IConfiguration::Name Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Name.html)
-
 [IConfigurationManager::ActiveConfiguration Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ActiveConfiguration.html)
 
 ## Availability

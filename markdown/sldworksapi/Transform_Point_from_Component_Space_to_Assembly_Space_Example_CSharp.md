@@ -9,8 +9,7 @@ source: "sldworksapi/Transform_Point_from_Component_Space_to_Assembly_Space_Exam
 
 # Transform Point from Component Space to Assembly Space Example (C#)
 
-This example shows how to transform a point from component space to
-assembly space.
+This example shows how to transform a point from component space to assembly space.
 
 ```
 //--------------------------------------------------------------

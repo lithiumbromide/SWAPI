@@ -61,11 +61,7 @@ public delegate void _IEModelViewControlEvents_OnComponentSelectionNotify2EventH
 
 ## VBA Syntax
 
-See
-
-[OnComponentSelectionNotify2 Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentSelectionNotify2_EV.html)
-
-.
+See [OnComponentSelectionNotify2 Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentSelectionNotify2_EV.html).
 
 ## Availability
 

@@ -51,24 +51,15 @@ Email address
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMailTo.html)
-
-.
+See [CWStaticStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~EMailTo.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWStaticStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail.html)
-
-is set to 1.
+This property is valid only if [ICWStaticStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

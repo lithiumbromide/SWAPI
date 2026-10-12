@@ -45,13 +45,7 @@ property System.bool Hidden {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the decal is hidden, false if not
 
 ## VBA Syntax
 
-See
-
-[Decal::Hidden](ms-its:sldworksapivb6.chm::/sldworks~Decal~Hidden.html)
-
-.
+See [Decal::Hidden](ms-its:sldworksapivb6.chm::/sldworks~Decal~Hidden.html).
 
 ## See Also
 
 [IDecal Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal.html)
-
 [IDecal Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal_members.html)
 
 ## Availability

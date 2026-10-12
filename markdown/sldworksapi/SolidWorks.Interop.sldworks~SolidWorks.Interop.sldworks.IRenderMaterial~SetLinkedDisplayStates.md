@@ -51,19 +51,11 @@ System.bool SetLinkedDisplayStates(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DisplayStateOption`: Display states as defined in
-
-[swDisplayStateOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayStateOpts_e.html)
+- `DisplayStateOption`: Display states as defined in [swDisplayStateOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayStateOpts_e.html)
 - `DisplayStateNames`: Array of display state names
 
 ### Return Value
@@ -72,26 +64,16 @@ True if display states successfully linked, false if not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SetLinkedDisplayStates](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetLinkedDisplayStates.html)
-
-.
+See [RenderMaterial::SetLinkedDisplayStates](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetLinkedDisplayStates.html).
 
 ## Examples
 
-See the
-
-[IRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
-
-examples.
+See the [IRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html) examples.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::GetLinkedDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetLinkedDisplayStates.html)
 
 ## Availability

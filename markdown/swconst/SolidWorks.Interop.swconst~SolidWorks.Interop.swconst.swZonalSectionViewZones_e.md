@@ -9,9 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZonalSe
 
 # swZonalSectionViewZones_e Enumeration
 
-Intersection zones for section views.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
+Intersection zones for section views. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm)
 
 ## Syntax
 
@@ -55,11 +53,7 @@ public enum class swZonalSectionViewZones_e : public System.Enum
 
 ## Remarks
 
-Descriptions of the intersection zones in relation to the number of sectioning planes appear in
-
-[ISectionViewData::SectionedZones](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SectionedZones.html)
-
-.
+Descriptions of the intersection zones in relation to the number of sectioning planes appear in [ISectionViewData::SectionedZones](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SectionedZones.html).
 
 ## See Also
 

@@ -1,6 +1,5 @@
 ---
-title: "ICWTopologyThicknessControl Object
-Members"
+title: "ICWTopologyThicknessControl Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWTopologyThicknessControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWTopologyThicknessControl_members.html"
 ---
 
-# ICWTopologyThicknessControl Object
-Members
+# ICWTopologyThicknessControl Object Members
 
 ## Public Methods
 

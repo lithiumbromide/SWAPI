@@ -47,21 +47,15 @@ EdmVariableType GetValidation(
 
 ### Return Value
 
-Data type to validate as defined in
-
-[EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
+Data type to validate as defined in [EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
 
 ## Examples
 
-See the
-
-[IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html)
-
-examples.
+See the [IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html) examples.
 
 ## Remarks
 
-If a card control has input validation, the user is unable to click**OK**or**Apply**until all validation conditions are met.
+If a card control has input validation, the user is unable to click **OK** or **Apply** until all validation conditions are met.
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,7 +65,6 @@ If a card control has input validation, the user is unable to click**OK**or**App
 ## See Also
 
 [IEdmCardControl5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html)
-
 [IEdmCardControl5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5_members.html)
 
 ## Availability

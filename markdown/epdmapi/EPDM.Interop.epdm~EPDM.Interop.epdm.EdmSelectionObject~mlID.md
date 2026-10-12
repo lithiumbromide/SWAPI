@@ -35,5 +35,4 @@ System.int mlID
 ## See Also
 
 [EdmSelectionObject Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject.html)
-
 [EdmSelectionObject Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_members.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Find_Minimum_Radius_Curvature_of_Surface_Example_VB.htm"
 
 # Find Minimum Radius Curvature of Surface (VBA)
 
-This example shows how to find the minimum radius of curvature for the
-selected surface.
+This example shows how to find the minimum radius of curvature for the selected surface.
 
 ```vb
 '---------------------------------------------
@@ -81,7 +80,7 @@ arrayData2 = uvParamDisp2.ArrayData
 
 Debug.Print ("Printing radius:-")
 For I = 0 To (numOfRadius - 1)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print (radius(I))
+    Debug.Print (radius(I))
 Next I
 
 Debug.Print ("Location")

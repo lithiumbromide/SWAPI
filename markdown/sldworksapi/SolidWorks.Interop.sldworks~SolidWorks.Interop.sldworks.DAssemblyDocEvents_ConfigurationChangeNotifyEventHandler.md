@@ -52,51 +52,39 @@ public delegate System.int DAssemblyDocEvents_ConfigurationChangeNotifyEventHand
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ConfigurationName`: Name of the configuration that has changed
 - `Object`: Object that has changed
-- `ObjectType`: Type of the object that has changed as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html):
+- `ObjectType`: Type of the object that has changed as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html):
 
-- swSelDIMENSIONS
-- swSelDATUMPOINTS
-- swSelDATUMPLANES
-- swSelDATUMAXES
-- swSelHELIX
-- swSelBODYFEATURES
-- swSelMATEGROUP
-- swSelMATES
-- swSelCOORDSYS
-- swSelCOMPONENTS
-- swSelCONFIGURATIONS
-- swSelSKETCHES
-- swSelREFCURVES
-- swSelDISPLAYSTATE
+  - swSelDIMENSIONS
+  - swSelDATUMPOINTS
+  - swSelDATUMPLANES
+  - swSelDATUMAXES
+  - swSelHELIX
+  - swSelBODYFEATURES
+  - swSelMATEGROUP
+  - swSelMATES
+  - swSelCOORDSYS
+  - swSelCOMPONENTS
+  - swSelCONFIGURATIONS
+  - swSelSKETCHES
+  - swSelREFCURVES
+  - swSelDISPLAYSTATE
 
-All other types are returned as swSelUNSUPPORTED.
-- `changeType`: Type of change as defined by
-
-[swConfigurationChangeTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationChangeTypes_e.html)
+  All other types are returned as swSelUNSUPPORTED.
+- `changeType`: Type of change as defined by [swConfigurationChangeTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationChangeTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ConfigurationChangeNotify_EV.html)
-
-.
+See [ConfigurationChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ConfigurationChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyConfigurationChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyConfigurationChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

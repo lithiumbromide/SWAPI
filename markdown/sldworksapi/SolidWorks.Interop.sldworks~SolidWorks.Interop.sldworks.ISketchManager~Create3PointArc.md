@@ -79,13 +79,7 @@ SketchSegment^ Create3PointArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -93,44 +87,32 @@ See
 - `Y1`: Y coordinate of point 1
 - `Z1`: Z coordinate of point 1
 - `X2`: X coordinate of point 2
-- `Y2`: Y coordinate of point 2ParamDesc
-- `Z2`: Z coordinate of point 2ParamDesc
+- `Y2`: Y coordinate of point 2
+- `Z2`: Z coordinate of point 2
 - `X3`: X coordinate of point 3
-- `Y3`: Y coordinate of point 3ParamDesc
-- `Z3`: Z coordinate of point 3ParamDesc
+- `Y3`: Y coordinate of point 3
+- `Z3`: Z coordinate of point 3
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for the 3-point arc
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the 3-point arc
 
 ## VBA Syntax
 
-See
-
-[SketchManager::Create3PointArc](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~Create3PointArc.html)
-
-.
+See [SketchManager::Create3PointArc](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~Create3PointArc.html).
 
 ## Examples
 
 [Create 3-Point Arc (VBA)](Create_3_Point_Arc_Example_VB.htm)
-
 [Create 3-Point Arc (VB.NET)](Create_3_Point_Arc_Example_VBNET.htm)
-
 [Create 3-Point Arc (C#)](Create_3_Point_Arc_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateArc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateArc.html)
-
 [ISketchManager::CreateTangentArc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateTangentArc.html)
-
 [IModelDoc2::CreateArcByCenter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateArcByCenter.html)
 
 ## Availability

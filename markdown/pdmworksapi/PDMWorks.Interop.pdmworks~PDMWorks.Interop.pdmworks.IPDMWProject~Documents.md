@@ -44,26 +44,18 @@ property PDMWDocuments^ Documents {
 
 ### Property Value
 
-Collection of[documents](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)for this project
+Collection of [documents](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html) for this project
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::Documents](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Documents.html)
-
-.
+See [PDMWProject::Documents](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Documents.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::DocumentCount Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentCount.html)
-
 [IPDMWProject::DocumentList Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentList.html)
-
 [IPDMWConnection::Documents Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Documents.html)
 
 ## Availability

@@ -51,22 +51,16 @@ Description
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::Description](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Description.html)
-
-.
+See [SwDMConfiguration::Description](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Description.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # AddMenuItem5 Method (ISldWorks)
 
-Adds a menu item and image to the SOLIDWORKS user interface.
+Adds a menu item and image to the SOLIDWORKS Design user interface.
 
 ## Syntax
 
@@ -75,90 +75,57 @@ System.int AddMenuItem5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DocumentType`: Document type to which to add the menu item as defined by[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `Cookie`: Cookie as defined in
+- `DocumentType`: Document type to which to add the menu item as defined by [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `Cookie`: Cookie as defined in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `MenuItem`: Menu item string ( e.g., "menuItem@menuString"); SOLIDWORKS Design creates menu items only if they do not already exist
 
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
-- `MenuItem`: Menu item string ( e.g., "menuItem@menuString"); SOLIDWORKS creates menu items only if they do not already exist
+  NOTES:
 
-NOTES:
-
-- Specify the name of the menu for menuString (e.g., File, View, etc.) where you want your menu item to appear. If you do not specify menu string, then the menu item appears on the
-
-  Tools
-
-  menu below the
-
-  Xpress Products
-
-  menu item.
-- To add your own menu to which to add this menu item, call
-
-  [ISldWorks::AddMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenu.html)
-
-  and substitute the name of your menu for menuString.
-- Use the & symbol to include an accelerator key, e.g., MyItem@, adds MyItem to the File menu with an accelerator key. To display the accelerator key, press the Alt key. The accelerator key is underlined.
+  - Specify the name of the menu for menuString (e.g., File, View, etc.) where you want your menu item to appear. If you do not specify menu string, then the menu item appears on the **Tools** menu below the **Xpress Products** menu item.
+  - To add your own menu to which to add this menu item, call [ISldWorks::AddMenu](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenu.html) and substitute the name of your menu for menuString.
+  - Use the & symbol to include an accelerator key, e.g., MyItem@, adds MyItem to the File menu with an accelerator key. To display the accelerator key, press the Alt key. The accelerator key is underlined.
 - `Position`: Position where to add the new menu item; the first item is position 0; if -1 is specified for Position, then the new menu item is added to the bottom of the list; this argument specifies the position of the menu item in relation to its immediate parent menu
-- `MenuCallback`: Function to call when this menu item is selected (see
+- `MenuCallback`: Function to call when this menu item is selected (see **Remarks**)
+- `MenuEnableMethod`: Optional function that controls the state of the menu item (See **Remarks**)
 
-Remarks
+  If specified:
 
-)
-- `MenuEnableMethod`: Optional function that controls the state of the menu item (See**Remarks**)
+  - SOLIDWORKS Design calls this function before displaying the menu item
+  - display of the menu item is controlled by the return value of MenuEnableMethod
 
-If specified:
-
-- SOLIDWORKS calls this function before displaying the menu item
-- display of the menu item is controlled by the return value of MenuEnableMethod
-
-| If MenuEnableMethod returns... | Then SOLIDWORKS... |
-| --- | --- |
-| 0 | Deselects and disables the menu item |
-| 1 | Deselects and enables the menu item; this is the default menu state if no update function is specified |
-| 2 | Selects and disables the menu item |
-| 3 | Selects and enables the menu item |
-- `HintString`: Text to show in the SOLIDWORKS status bar when the user moves the pointer over this menu item; if you specify HintString, then it must be preceded by a comma
-- `ImageList`: Array of strings for the paths for the image files for the menu item (see
-
-Remarks
-
-)
+  | If MenuEnableMethod returns... | Then SOLIDWORKS Design... |
+  | --- | --- |
+  | 0 | Deselects and disables the menu item |
+  | 1 | Deselects and enables the menu item; this is the default menu state if no update function is specified |
+  | 2 | Selects and disables the menu item |
+  | 3 | Selects and enables the menu item |
+- `HintString`: Text to show in the SOLIDWORKS Design status bar when the user moves the pointer over this menu item; if you specify HintString, then it must be preceded by a comma
+- `ImageList`: Array of strings for the paths for the image files for the menu item (see **Remarks**)
 
 ### Return Value
 
-SOLIDWORKS runtime command ID if successful or -1 if unsuccessful
+Runtime command ID if successful or -1 if unsuccessful
 
 ## VBA Syntax
 
-See
-
-[SldWorks::AddMenuItem5](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddMenuItem5.html)
-
-.
+See [SldWorks::AddMenuItem5](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddMenuItem5.html).
 
 ## Examples
 
 [Add Menu and Menu Item (C#)](Add_Menu_and_Menu_Item_Example_CSharp.htm)
-
 [Add Menu and Menu Item (VB.NET)](Add_Menu_and_Menu_Item_Example_VBNET.htm)
 
 ## Remarks
 
-See[Add-in Callback and Enable Methods](sldworksapiprogguide.chm::/OVERVIEW/Add-in_Callbacks.htm)to learn how to specify MenuCallback and MenuEnableMethod.
+See [Add-in Callback and Enable Methods](sldworksapiprogguide.chm::/OVERVIEW/Add-in_Callbacks.htm) to learn how to specify MenuCallback and MenuEnableMethod.
 
-For information about using this method with the[ISwAddin](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin.html)object, see[Using ISwAddin to Create a SOLIDWORKS Add-in](sldworksAPIProgGuide.chm::/OVERVIEW/Using_SwAddin_to_Create_a_SOLIDWORKS_Addin.htm).
+For information about using this method with the [ISwAddin](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin.html) object, see [Using ISwAddin to Create a SOLIDWORKS Add-in](sldworksAPIProgGuide.chm::/OVERVIEW/Using_SwAddin_to_Create_a_SOLIDWORKS_Addin.htm).
 
-You can add a new menu item to any one of the four SOLIDWORKS frames (main, part, assembly, or drawing). To do this, call this method with the appropriate argument in the swDocumentTypes_e.DocumentType parameter. For example, if you want your menu item to be available when a part document is active, then call this method and pass swDocumentTypes_e.swDocPART as the first argument. After you adding your menu item to the part frame, you do not need to do it again during the current SOLIDWORKS session. Once a part document is activated by the user, SOLIDWORKS automatically displays your menu item.
+You can add a new menu item to any one of the four frames (main, part, assembly, or drawing). To do this, call this method with the appropriate argument in the swDocumentTypes_e.DocumentType parameter. For example, if you want your menu item to be available when a part document is active, then call this method and pass swDocumentTypes_e.swDocPART as the first argument. After you adding your menu item to the part frame, you do not need to do it again during the current SOLIDWORKS Design session. Once a part document is activated by the user, SOLIDWORKS Design automatically displays your menu item.
 
 This method supports scaling for high resolution screens with high resolution operating system scaling options.
 
@@ -175,37 +142,28 @@ Images should use 256-color palette.
 
 To add a menu item separator:
 
-- leave the text for the menu item blank, so that the menu string for the MenuItem argument starts with the at-sign symbol (@):"@subMenuString@menuString"
+- leave the text for the menu item blank, so that the menu string for the MenuItem argument starts with the at-sign symbol (@):
+
+  "@subMenuString@menuString"
 - specify an existing method for the MenuCallback argument. This method is never called, so its implementation can be empty.
 - specify empty strings for MenuEnableMethod and HintString.
 - specify Nothing or null for ImageList.
 
-Read[Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm)for more information.
+Read [Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm) for more information.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddMenuPopupItem4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem4.html)
-
 [ISldWorks::AddToolbar5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.html)
-
 [ISldWorks::GetLocalizedMenuName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetLocalizedMenuName.html)
-
 [ISldWorks::RemoveFromMenu Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromMenu.html)
-
 [ISldWorks::RemoveFromPopupMenu Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromPopupMenu.html)
-
 [ISldWorks::RemoveItemFromThirdPartyPopupMenu Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveItemFromThirdPartyPopupMenu.html)
-
 [ISldWorks::RemoveMenu Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenu.html)
-
 [ISldWorks::RemoveMenuPopupItem2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenuPopupItem2.html)
-
 [ISldWorks::RemoveToolbar2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveToolbar2.html)
-
 [ISldWorks::GetImageSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.html)
 
 ## Availability

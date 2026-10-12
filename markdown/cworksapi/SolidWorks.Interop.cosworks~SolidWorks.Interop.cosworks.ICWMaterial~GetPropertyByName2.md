@@ -57,29 +57,17 @@ System.double GetPropertyByName2(
 
 ### Parameters
 
-- `NUnit`: Unit system as defined in
-
-[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+- `NUnit`: Unit system as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 - `SName`: Property name; for example, 'EX' for Elastic modulus, 'NUXY' for Poisson's ratio, etc.
-- `BTempDependent`: -1 or true if temperature dependent, 0 or false if not (see
-
-Remarks
-
-)
+- `BTempDependent`: -1 or true if temperature dependent, 0 or false if not (see **Remarks**)
 
 ### Return Value
 
 Value of material property
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetPropertyByName2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetPropertyByName2.html)
-
-.
+See [CWMaterial::GetPropertyByName2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetPropertyByName2.html).
 
 ## Remarks
 
@@ -93,7 +81,6 @@ If out parameter BTempDependent is cast as a:
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

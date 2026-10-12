@@ -48,11 +48,7 @@ True if this study supports network simulation, false if not
 
 ## VBA Syntax
 
-See
-
-[CWStudy::IsSimulationDistributable](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~IsSimulationDistributable.html)
-
-.
+See [CWStudy::IsSimulationDistributable](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~IsSimulationDistributable.html).
 
 ## Remarks
 
@@ -61,13 +57,9 @@ This method is valid only for SOLIDWORKS Simulation Professional or Premium.
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::OffLoad Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~OffLoad.html)
-
 [ICWStudyManager::ManageDistributedSimulation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ManageDistributedSimulation.html)
-
 [ICWStudyManager::SetDistributedSimulation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~SetDistributedSimulation.html)
 
 ## Availability

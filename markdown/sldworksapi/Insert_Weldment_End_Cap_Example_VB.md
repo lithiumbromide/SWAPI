@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Weldment_End_Cap_Example_VB.htm"
 
 # Insert Weldment End Cap Example (VBA)
 
-This example shows how to create an end cap on the open face of a structural
-member.
+This example shows how to create an end cap on the open face of a structural member.
 
 ```vb
  '----------------------------------------------------------------------------

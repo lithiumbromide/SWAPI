@@ -51,26 +51,12 @@ System.bool AddDisplayEnt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of graphical entity (see
-
-Remarks
-
-)
-- `Data`: Geometric data describing the entity (see
-
-Remarks
-
-)
+- `Type`: Type of graphical entity (see **Remarks**)
+- `Data`: Geometric data describing the entity (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::AddDisplayEnt](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~AddDisplayEnt.html)
-
-.
+See [DisplayDimension::AddDisplayEnt](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~AddDisplayEnt.html).
 
 ## Examples
 
@@ -93,8 +75,6 @@ See
 The new graphics displayed by this method are temporary. When the user changes the dimension, this display dimension reverts back to the SOLIDWORKS standard.
 
 The type controls which geometry is added and what information is placed in the data array. All colors and line styles are taken from DisplayDimension.
-
-(Table)=========================================================
 
 | type | Description | data |
 | --- | --- | --- |
@@ -108,9 +88,7 @@ The type controls which geometry is added and what information is placed in the 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::IAddDisplayText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IAddDisplayText.html)
 
 ## Availability

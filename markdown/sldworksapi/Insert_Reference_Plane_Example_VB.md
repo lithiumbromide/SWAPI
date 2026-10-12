@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Reference_Plane_Example_VB.htm"
 
 # Insert Reference Plane Example (VBA)
 
-This example shows how to create a constraint-based angle reference
-plane.
+This example shows how to create a constraint-based angle reference plane.
 
 ```
 '-----------------------------------------------------------

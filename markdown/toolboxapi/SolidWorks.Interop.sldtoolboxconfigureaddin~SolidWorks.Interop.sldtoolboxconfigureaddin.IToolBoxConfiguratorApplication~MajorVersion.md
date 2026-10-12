@@ -48,16 +48,11 @@ Major version of the Welcome to Toolbox Setup dialog
 
 ## VBA Syntax
 
-See
-
-[ToolBoxConfiguratorApplication::MajorVersion](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~MajorVersion.html)
-
-.
+See [ToolBoxConfiguratorApplication::MajorVersion](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~MajorVersion.html).
 
 ## See Also
 
 [IToolBoxConfiguratorApplication Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html)
-
 [IToolBoxConfiguratorApplication Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication_members.html)
 
 ## Availability

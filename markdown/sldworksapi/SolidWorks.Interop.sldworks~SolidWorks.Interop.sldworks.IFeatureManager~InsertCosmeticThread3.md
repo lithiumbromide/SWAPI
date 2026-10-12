@@ -71,25 +71,15 @@ Feature^ InsertCosmeticThread3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Standard`: Thread standard as defined by
-
-[swCosmeticStandardType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticStandardType_e.html)
+- `Standard`: Thread standard as defined by [swCosmeticStandardType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticStandardType_e.html)
 - `StandardType`: Thread type for Standard
 - `Size`: Thread size for the specified Standard
 - `Diameter`: Thread diameter
-- `EndType`: End condition as defined by
-
-[swCosmeticEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticEndConditions_e.html)
+- `EndType`: End condition as defined by [swCosmeticEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticEndConditions_e.html)
 - `Depth`: Depth of the cosmetic thread; valid only for EndType = swCosmeticEndConditions_e.swEndConditionBlind or swCosmeticEndConditions_e.swEndConditionBlindUptoNext or swCosmeticEndConditions_e.swEndConditionBlind2Dia
 - `Note`: Callout text to display in the drawing document
 
@@ -99,26 +89,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCosmeticThread3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread3.html)
-
-.
+See [FeatureManager::InsertCosmeticThread3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread3.html).
 
 ## Examples
 
 [Traverse All Cosmetic Threads (VBA)](Traverse_All_Cosmetic_Threads_Example_VB.htm)
-
 [Traverse All Cosmetic Threads (VB.NET)](Traverse_All_Cosmetic_Threads_Example_VBNET.htm)
-
 [Traverse All Cosmetic Threads (C#)](Traverse_All_Cosmetic_Threads_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWPr
 
 Provides access to a configuration, document, or vault administrator-assigned custom property.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWProperty
 
 ## VBA Syntax
 
-See
-
-[PDMWProperty](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty.html)
-
-.
+See [PDMWProperty](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty.html).
 
 ## Accessors
 
@@ -62,7 +52,5 @@ See
 ## See Also
 
 [IPDMWProperty Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWProperties Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)

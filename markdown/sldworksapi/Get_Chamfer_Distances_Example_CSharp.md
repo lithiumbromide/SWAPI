@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Chamfer_Distances_Example_CSharp.htm"
 
 # Get Chamfer Distances Example (C#)
 
-This example shows how to get the distances associated with the selected
-chamfer.
+This example shows how to get the distances associated with the selected chamfer.
 
 ```vb
  //---------------------------------------------------------------------------

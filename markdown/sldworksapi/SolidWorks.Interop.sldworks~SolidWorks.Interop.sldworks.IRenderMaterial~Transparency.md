@@ -45,13 +45,7 @@ property System.double Transparency {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Degree to which a material allows light to pass through
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Transparency](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Transparency.html)
-
-.
+See [RenderMaterial::Transparency](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Transparency.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

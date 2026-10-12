@@ -14,7 +14,7 @@ This example shows how to create a temporary elliptical body.
 ```vb
  //------------------------------------------------
  // Preconditions:
- // 1. Open a model document in SOLIDWORKS.
+ // 1. Open a model document in SOLIDWORKS Design.
  // 2. Open an Immediate Window.
  //
  // Postconditions:

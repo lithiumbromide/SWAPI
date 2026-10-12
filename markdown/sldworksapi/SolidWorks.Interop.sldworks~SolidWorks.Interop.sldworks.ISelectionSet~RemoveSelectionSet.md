@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # RemoveSelectionSet Method (ISelectionSet)
 
-Deletes this selection set from the
-
-[Selection Sets folder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder.html)
-
-.
+Deletes this selection set from the [Selection Sets folder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.bool RemoveSelectionSet()
 System.bool RemoveSelectionSet();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,18 +48,12 @@ True if this selection set is deleted from the Selection Sets folder, false if n
 
 ## VBA Syntax
 
-See
-
-[SelectionSet::RemoveSelectionSet](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~RemoveSelectionSet.html)
-
-.
+See [SelectionSet::RemoveSelectionSet](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~RemoveSelectionSet.html).
 
 ## See Also
 
 [ISelectionSet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet.html)
-
 [ISelectionSet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet_members.html)
-
 [IModelDocExtension::SaveSelection Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveSelection.html)
 
 ## Availability

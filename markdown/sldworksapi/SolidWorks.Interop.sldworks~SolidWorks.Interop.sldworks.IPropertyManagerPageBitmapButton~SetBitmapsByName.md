@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # SetBitmapsByName Method (IPropertyManagerPageBitmapButton)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPageBitmapButton::SetBitmapsByName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageBitmapButton~SetBitmapsByName2.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPageBitmapButton::SetBitmapsByName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageBitmapButton~SetBitmapsByName2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool SetBitmapsByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageBitmapButton::SetBitmapsByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmapButton~SetBitmapsByName.html)
-
-.
+See [PropertyManagerPageBitmapButton::SetBitmapsByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmapButton~SetBitmapsByName.html).
 
 ## See Also
 
 [IPropertyManagerPageBitmapButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton.html)
-
 [IPropertyManagerPageBitmapButton Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton_members.html)

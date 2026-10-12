@@ -43,18 +43,12 @@ void SetFlagIsFocusOnDataCard(
 
 ## Examples
 
-See the
-
-[IEdmCardView64](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64.html)
-
-examples.
+See the [IEdmCardView64](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64.html) examples.
 
 ## See Also
 
 [IEdmCardView64 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64.html)
-
 [IEdmCardView64 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64_members.html)
-
 [IEdmCardView64::IsFocusOnDataCard Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64~IsFocusOnDataCard.html)
 
 ## Availability

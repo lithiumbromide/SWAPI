@@ -40,13 +40,7 @@ MathPoint GetRefPoint()
 MathPoint^ GetRefPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[RefPoint::GetRefPoint](ms-its:sldworksapivb6.chm::/sldworks~RefPoint~GetRefPoint.html)
-
-.
+See [RefPoint::GetRefPoint](ms-its:sldworksapivb6.chm::/sldworks~RefPoint~GetRefPoint.html).
 
 ## Examples
 
 [Get Reference Point Data (VBA)](Get_Reference_Point_Data_Example_VB.htm)
-
 [Insert Reference Points (VBA)](Insert_Reference_Points_Example_VB.htm)
 
 ## See Also
 
 [IRefPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
 [IRefPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint_members.html)
 
 ## Availability

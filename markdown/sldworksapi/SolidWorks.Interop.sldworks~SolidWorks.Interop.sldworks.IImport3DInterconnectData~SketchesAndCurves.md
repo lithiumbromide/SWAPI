@@ -45,13 +45,7 @@ property System.bool SketchesAndCurves {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to import unconsumed sketches or curve data as 2D or 3D sketches, false to 
 
 ## VBA Syntax
 
-See
-
-[Import3DInterconnectData::SketchesAndCurves](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~SketchesAndCurves.html)
-
-.
+See [Import3DInterconnectData::SketchesAndCurves](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~SketchesAndCurves.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## See Also
 
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
 [IImport3DInterconnectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData_members.html)
 
 ## Availability

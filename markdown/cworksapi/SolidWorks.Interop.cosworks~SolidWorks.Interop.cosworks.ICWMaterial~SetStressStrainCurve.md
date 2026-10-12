@@ -53,20 +53,14 @@ void SetStressStrainCurve(
 ### Parameters
 
 - `VarCurveData`: Array of stress-strain curve data
-- `ErrorCode`: Error as defined in[swsMaterialStressStrainCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialStressStrainCurveError_e.html)
+- `ErrorCode`: Error as defined in [swsMaterialStressStrainCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialStressStrainCurveError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SetStressStrainCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetStressStrainCurve.html)
-
-.
+See [CWMaterial::SetStressStrainCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetStressStrainCurve.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetStressStrainCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetStressStrainCurve.html)

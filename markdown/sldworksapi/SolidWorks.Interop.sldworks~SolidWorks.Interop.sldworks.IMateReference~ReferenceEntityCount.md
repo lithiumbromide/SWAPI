@@ -42,13 +42,7 @@ property System.int ReferenceEntityCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,30 +50,23 @@ Number of mate reference entities
 
 ## VBA Syntax
 
-See
-
-[MateReference::ReferenceEntityCount](ms-its:sldworksapivb6.chm::/sldworks~MateReference~ReferenceEntityCount.html)
-
-.
+See [MateReference::ReferenceEntityCount](ms-its:sldworksapivb6.chm::/sldworks~MateReference~ReferenceEntityCount.html).
 
 ## Examples
 
 [Get Mate Reference Properties (VBA)](Get_Mate_Reference_Properties_Example_VB.htm)
-
 [Get Mate Reference Properties (VB.NET)](Get_Mate_Reference_Properties_Example_VBNET.htm)
-
 [Get Mate Reference Properties (C#)](Get_Mate_Reference_Properties_Example_CSharp.htm)
 
 ## Remarks
 
 This method returns a value 3 (primary, secondary, and tertiary).
 
-Call this property before calling[IMateReference::ReferenceAlignment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceAlignment.html),[IMateReference::ReferenceEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntity.html), or[IMateReference::ReferenceType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceType.html).
+Call this property before calling [IMateReference::ReferenceAlignment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceAlignment.html), [IMateReference::ReferenceEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntity.html), or [IMateReference::ReferenceType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceType.html).
 
 ## See Also
 
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
-
 [IMateReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference_members.html)
 
 ## Availability

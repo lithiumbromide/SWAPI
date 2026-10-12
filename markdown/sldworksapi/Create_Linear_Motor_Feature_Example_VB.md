@@ -11,8 +11,7 @@ source: "sldworksapi/Create_Linear_Motor_Feature_Example_VB.htm"
 
 ## Create Linear Motor Feature Example (VBA)
 
-This example shows how to create a motor feature data object and a linear
-motor feature.
+This example shows how to create a motor feature data object and a linear motor feature.
 
 ```
 '-----------------------------------------------------------------
@@ -21,7 +20,7 @@ motor feature.
 '     two components and a motion study named Motion Study 3.
 '  2. In the IDE, add a reference to the SolidWorks MotionStudy
 '     type library.
-'  3. In SOLIDWORKS, click Tools > Add-Ins > SOLIDWORKS Motion > OK.
+'  3. In SOLIDWORKS Design, click Tools > Add-Ins > SOLIDWORKS Motion > OK.
 '  4. Open the Immediate window.
 '
 '

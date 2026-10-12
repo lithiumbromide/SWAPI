@@ -47,6 +47,7 @@ public enum class swAssemblyNotify_e : public System.Enum
 | swAssemblyActiveDisplayStateChangePreNotify | 70 = ActiveDisplayStateChangePreNotify |
 | swAssemblyActiveViewChangeNotify | 66 = ActiveViewChangeNotify |
 | swAssemblyAddCustomPropertyNotify | 26 = AddCustomPropertyNotify |
+| swAssemblyAddDependencyNotify | 103 = AddDependencyNotify |
 | swAssemblyAddDvePagePreNotify | 60 = Not used. |
 | swAssemblyAddItemNotify | 18 = AddItemNotify |
 | swAssemblyAddMatePostNotify | 72 = Obsolete |
@@ -77,6 +78,7 @@ public enum class swAssemblyNotify_e : public System.Enum
 | swAssemblyConfigChangePostNotify | 11 = ActiveConfigChangePostNotify |
 | swAssemblyConfigurationChangeNotify | 63 = ConfigurationChangeNotify |
 | swAssemblyDeleteCustomPropertyNotify | 28 = DeleteCustomPropertyNotify |
+| swAssemblyDeleteDependencyNotify | 104 = DeleteDependencyNotify |
 | swAssemblyDeleteItemNotify | 20 = DeleteItemNotify |
 | swAssemblyDeleteItemPreNotify | 52 = DeleteItemPreNotify |
 | swAssemblyDeleteSelectionPreNotify | 33 = DeleteSelectionPreNotify |
@@ -135,6 +137,7 @@ public enum class swAssemblyNotify_e : public System.Enum
 | swAssemblySelectiveOpenPostNotify | 80 = SelectiveOpenPostNotify |
 | swAssemblySensorAlertPreNotify | 69 = SensorAlertPreNotify |
 | swAssemblySketchSolveNotify | 51 = SketchSolveNotify |
+| swAssemblySolidBodyFolderReorderNotify | 102 = SolidBodyFolderReorderNotify |
 | swAssemblySuppressionStateChangeNotify | 65 = SuppressionStateChangeNotify |
 | swAssemblyUndoPostNotify | 74 = UndoPostNotify |
 | swAssemblyUndoPreNotify | 78 = UndoPreNotify |
@@ -150,15 +153,14 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports assembly events (e.g., Assembly.h), include:
 
+```vb
 BEGIN_SINK_MAP(CSwAssembly)
-
 SINK_ENTRY_EX(ID_ASSEMBLYDOC_EVENTS, DIID_DAssemblyDocEvents, swAssemblyDestroyNotify, DestroyNotify)
-
 SINK_ENTRY_EX(ID_ASSEMBLYDOC_EVENTS, DIID_DAssemblyDocEvents, swAssemblyNewSelectionNotify, NewSelectionNotify)
-
 END_SINK_MAP()
+```
 
-If developing a C++ application, use the enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for the[IAssemblyDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc.html)events (see the**Members**list in this topic).
+If developing a C++ application, use the enumerators to [register for notifications](sldworksapiprogguide.chm::/Overview/events.htm) for the [IAssemblyDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc.html) events (see the **Members** list in this topic).
 
 ## See Also
 

@@ -45,13 +45,7 @@ property System.double Gap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Gap
 
 ## VBA Syntax
 
-See
-
-[RipFeatureData::Gap](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData~Gap.html)
-
-.
+See [RipFeatureData::Gap](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData~Gap.html).
 
 ## Examples
 
-See the
-
-[IRipFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
-
-examples.
+See the [IRipFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html) examples.
 
 ## Remarks
 
@@ -83,7 +69,6 @@ examples.
 ## See Also
 
 [IRipFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
-
 [IRipFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData_members.html)
 
 ## Availability

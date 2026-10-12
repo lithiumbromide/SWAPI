@@ -51,13 +51,7 @@ System.Object^ CreateOffsetSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ Newly created offset surface
 
 ## VBA Syntax
 
-See
-
-[Body2::CreateOffsetSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreateOffsetSurface.html)
-
-.
+See [Body2::CreateOffsetSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreateOffsetSurface.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::ICreateOffsetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ICreateOffsetSurface.html)
 
 ## Availability

@@ -46,13 +46,7 @@ void InsertFeatureShellAddThickness(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,21 +54,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertFeatureShellAddThickness](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertFeatureShellAddThickness.html)
-
-.
+See [ModelDoc2::InsertFeatureShellAddThickness](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertFeatureShellAddThickness.html).
 
 ## Remarks
 
-This method works with[IModelDoc2::InsertFeatureShell](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFeatureShell.html)to create a multi-thickness shell as follows:
+This method works with [IModelDoc2::InsertFeatureShell](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFeatureShell.html) to create a multi-thickness shell as follows:
 
-1. Select the faces to remove to create the shell feature by calling
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  with Marks of 1.
+1. Select the faces to remove to create the shell feature by calling [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Marks of 1.
 2. Select faces with alternate thicknesses using Marks of 2.
 3. Call this method once for each of the faces selected in step 2.
 4. Call IModelDoc2::InsertFeatureShell.
@@ -82,7 +68,6 @@ This method works with[IModelDoc2::InsertFeatureShell](SOLIDWORKS.Interop.sldwor
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

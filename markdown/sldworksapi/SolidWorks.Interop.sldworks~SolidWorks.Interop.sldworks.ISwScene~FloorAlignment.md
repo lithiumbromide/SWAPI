@@ -45,32 +45,19 @@ property System.int FloorAlignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Scene floor alignment plane as defined by
-
-[swSceneFloorAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneFloorAlign_e.html)
+Scene floor alignment plane as defined by [swSceneFloorAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneFloorAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwScene::FloorAlignment](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorAlignment.html)
-
-.
+See [SwScene::FloorAlignment](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorAlignment.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

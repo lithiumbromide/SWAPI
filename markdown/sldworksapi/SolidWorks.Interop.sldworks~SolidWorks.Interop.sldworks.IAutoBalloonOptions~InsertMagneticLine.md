@@ -45,56 +45,27 @@ property System.bool InsertMagneticLine {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to insert magnetic lines, false to not; only valid when
-
-[IAutoBalloonOptons::Layout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Layout.html)
-
-is not set to
-
-[swBalloonLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonLayoutType_e.html)
-
-}}end!kadov
-
-.swDetailingBalloonLayout_Circle
+True to insert magnetic lines, false to not; only valid when [IAutoBalloonOptons::Layout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions~Layout.html) is not set to [swBalloonLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonLayoutType_e.html).swDetailingBalloonLayout_Circle
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::InsertMagneticLine](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~InsertMagneticLine.html)
-
-.
+See [AutoBalloonOptions::InsertMagneticLine](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~InsertMagneticLine.html).
 
 ## Examples
 
-See
-
-[IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-examples.
+See [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) examples.
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

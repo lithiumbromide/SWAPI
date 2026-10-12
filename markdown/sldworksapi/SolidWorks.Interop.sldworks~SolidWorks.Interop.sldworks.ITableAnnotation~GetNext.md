@@ -40,29 +40,15 @@ TableAnnotation GetNext()
 TableAnnotation^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Next
-
-[ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
-
-object
+Next [ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html) object
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetNext](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetNext.html)
-
-.
+See [TableAnnotation::GetNext](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetNext.html).
 
 ## Examples
 
@@ -71,9 +57,7 @@ See
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [IView::GetFirstTableAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstTableAnnotation.html)
 
 ## Availability

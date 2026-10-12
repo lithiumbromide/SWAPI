@@ -13,11 +13,8 @@ source: "sldworksapi/Save_As_Tiff_Example_VB.htm"
 
 This example shows how to:
 
-- Set
-  TIFF export options
-- Save
-  the active document to a**.tif**format in the same directory as the model
-  document.
+- Set TIFF export options
+- Save the active document to a **.tif** format in the same directory as the model document.
 
 ```
 '------------------------------------------------------------------
@@ -65,7 +62,7 @@ Sub main()
 ```
 
 ```
-    ' Strip off SOLIDWORKS file name extension (sldprt, sldasm, or slddrw)
+    ' Strip off SOLIDWORKS Design file name extension (sldprt, sldasm, or slddrw)
     ' and add TIFF extension (tif)
     sPathName = swModel.GetPathName
     sPathName = Left(sPathName, Len(sPathName) - 6)

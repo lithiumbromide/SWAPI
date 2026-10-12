@@ -44,24 +44,15 @@ property gtcocswCompareGeometry^ CompareGeometry {
 
 ### Property Value
 
-Pointer to an
-
-[ICompareGeometry](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry.html)
-
-object
+Pointer to an [ICompareGeometry](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::CompareGeometry](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareGeometry.html)
-
-.
+See [IUtilities::CompareGeometry](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareGeometry.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

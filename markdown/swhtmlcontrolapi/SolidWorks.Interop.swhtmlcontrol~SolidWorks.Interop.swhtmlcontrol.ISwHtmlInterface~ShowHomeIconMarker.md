@@ -46,16 +46,11 @@ System.int ShowHomeIconMarker();
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::ShowHomeIconMarker](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowHomeIconMarker.html)
-
-.
+See [SwHtmlInterface::ShowHomeIconMarker](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowHomeIconMarker.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
 
 ## Availability

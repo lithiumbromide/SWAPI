@@ -1,6 +1,5 @@
 ---
-title: "Component2 Object
-Members"
+title: "Component2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Component2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Component2_members.html"
 ---
 
-# Component2 Object
-Members
+# Component2 Object Members
 
 ## Public Methods
 
@@ -79,6 +77,7 @@ Members
 | Public Method GetVisibility |  |
 | Public Method GetVisibilityInAsmDisplayStates |  |
 | Public Method GetXform |  |
+| Public Method HasAssemblyFeatures |  |
 | Public Method HasMaterialPropertyValues |  |
 | Public Method HasUnloadedComponents |  |
 | Public Method IFindAttribute |  |

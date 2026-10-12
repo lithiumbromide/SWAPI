@@ -45,40 +45,25 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of reference axis feature as defined by
-
-[swRefAxisType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefAxisType_e.html)
+Type of reference axis feature as defined by [swRefAxisType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefAxisType_e.html)
 
 ## VBA Syntax
 
-See
-
-[RefAxisFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~Type.html)
-
-.
+See [RefAxisFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RefAxisFeatureData~Type.html).
 
 ## Examples
 
 [Get Reference Axis Data (VBA)](Get_Reference_Axis_Data_Example_VB.htm)
-
 [Get Reference Axis Data (VB.NET)](Get_Reference_Axis_Data_Example_VBNET.htm)
-
 [Get Reference Axis Data (C#)](Get_Reference_Axis_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IRefAxisFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData.html)
-
 [IRefAxisFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxisFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Create,_Unlink,_and_Purge_Display_States_in_Part_Example_VB
 
 # Create, Unlink, and Purge Display States in Part Example (VBA)
 
-This example shows how to create, unlink, and purge display states in
-a part document.
+This example shows how to create, unlink, and purge display states in a part document.
 
 ```
 '---------------------------------------------

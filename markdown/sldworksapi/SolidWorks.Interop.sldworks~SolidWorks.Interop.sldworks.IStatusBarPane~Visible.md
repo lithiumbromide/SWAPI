@@ -45,13 +45,7 @@ property System.bool Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True shows the pane, false hides it
 
 ## VBA Syntax
 
-See
-
-[StatusBarPane::Visible](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane~Visible.html)
-
-.
+See [StatusBarPane::Visible](ms-its:sldworksapivb6.chm::/sldworks~StatusBarPane~Visible.html).
 
 ## See Also
 
 [IStatusBarPane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html)
-
 [IStatusBarPane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane_members.html)
 
 ## Availability

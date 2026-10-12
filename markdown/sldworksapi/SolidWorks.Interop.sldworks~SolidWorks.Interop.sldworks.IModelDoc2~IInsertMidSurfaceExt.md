@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IInsertMidSurfaceExt Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::IInsertMidSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMidSurface.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::IInsertMidSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMidSurface.html).
 
 ## Syntax
 
@@ -55,18 +51,12 @@ MidSurface2^ IInsertMidSurfaceExt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Placement`: Value from -1 to 1 that indicates the desired location of the midsurface relative to the face pair; a value of 0.0 places the midsurface equally between the face pair
-- `KnitFlag`: True to sew all the reference surfaces (neutral sheets) into a single sheet (surface) body}}end!kadov, false for the midsurface feature to contain individual reference surface geometry
+- `KnitFlag`: True to sew all the reference surfaces (neutral sheets) into a single sheet (surface) body, false for the midsurface feature to contain individual reference surface geometry
 
 ### Return Value
 
@@ -74,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IInsertMidSurfaceExt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertMidSurfaceExt.html)
-
-.
+See [ModelDoc2::IInsertMidSurfaceExt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertMidSurfaceExt.html).
 
 ## Remarks
 
@@ -86,14 +72,12 @@ A midsurface feature is calculated from the solid body in your part document. Th
 
 The hierarchy of a midsurface feature is:
 
-A midsurface feature contains one or more reference surfaces. If sewn successfully using the knitFlag = True option, then the midsurface feature contains only one reference surface. Each reference surface is considered a sheet body. The sheet body has the normal topology that you would expect to find on a body object (for example, faces, edges, and so on). See the[IMidSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2.html)object for methods that provide access to this topology.
+A midsurface feature contains one or more reference surfaces. If sewn successfully using the knitFlag = True option, then the midsurface feature contains only one reference surface. Each reference surface is considered a sheet body. The sheet body has the normal topology that you would expect to find on a body object (for example, faces, edges, and so on). See the [IMidSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2.html) object for methods that provide access to this topology.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertMidSurfaceExt Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertMidSurfaceExt.html)
 
 ## Availability

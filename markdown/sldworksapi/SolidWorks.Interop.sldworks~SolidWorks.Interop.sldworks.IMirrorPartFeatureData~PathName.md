@@ -42,13 +42,7 @@ property System.String^ PathName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Path and file name of the derived mirror part feature
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::PathName](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~PathName.html)
-
-.
+See [MirrorPartFeatureData::PathName](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~PathName.html).
 
 ## Examples
 
-See the
-
-[IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html)
-
-examples.
+See the [IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html) examples.
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
 
 ## Availability

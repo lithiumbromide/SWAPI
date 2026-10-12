@@ -47,13 +47,7 @@ Feature^ InsertGridFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertGridFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGridFeature.html)
-
-.
+See [FeatureManager::InsertGridFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertGridFeature.html).
 
 ## Examples
 
 [Insert Grid System Feature (C#)](Insert_Grid_System_Feature_Example_CSharp.htm)
-
 [Insert Grid System Feature (VB.NET)](Insert_Grid_System_Feature_Example_VBNET.htm)
-
 [Insert Grid System Feature (VBA)](Insert_Grid_System_Feature_Example_VB.htm)
 
 ## Remarks
@@ -86,7 +74,6 @@ The number of elements in HeightDoubles determines the number of levels in this 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

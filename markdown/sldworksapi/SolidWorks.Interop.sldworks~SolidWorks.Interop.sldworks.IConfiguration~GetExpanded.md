@@ -47,20 +47,14 @@ System.bool GetExpanded(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichPane`: Valid options in[swFeatMgrPane_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatMgrPane_e.html):
+- `WhichPane`: Valid options in [swFeatMgrPane_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatMgrPane_e.html):
 
-- swFeatMgrPaneTop
-- swFeatMgrPaneBottom
+  - swFeatMgrPaneTop
+  - swFeatMgrPaneBottom
 
 ### Return Value
 
@@ -68,18 +62,12 @@ True if node is expanded, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetExpanded](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetExpanded.html)
-
-.
+See [Configuration::GetExpanded](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetExpanded.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::SetExpanded Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~SetExpanded.html)
 
 ## Availability

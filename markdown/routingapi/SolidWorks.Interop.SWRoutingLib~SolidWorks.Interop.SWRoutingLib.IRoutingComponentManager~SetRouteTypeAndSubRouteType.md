@@ -52,35 +52,20 @@ void SetRouteTypeAndSubRouteType(
 
 ### Parameters
 
-- `RouteType`: Type of route as defined in
-
-[swComponentRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swComponentRouteType_e.html)
-- `SubRouteType`: Type of electrical sub-route as defined in
-
-[swComponentRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swComponentRouteType_e.html)
-
-; only valid if RouteType is Electrical or 3
+- `RouteType`: Type of route as defined in [swComponentRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swComponentRouteType_e.html)
+- `SubRouteType`: Type of electrical sub-route as defined in [swComponentRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swComponentRouteType_e.html); only valid if RouteType is Electrical or 3
 
 ## VBA Syntax
 
-See
-
-[RoutingComponentManager::SetRouteTypeAndSubRouteType](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~SetRouteTypeAndSubRouteType.html)
-
-.
+See [RoutingComponentManager::SetRouteTypeAndSubRouteType](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~SetRouteTypeAndSubRouteType.html).
 
 ## Remarks
 
-When a connection point is added to a routing component in the Routing Component Wizard, the
-
-Connection Point
-
-PropertyManager page is launched. This method sets the route type and sub-type fields on that page.
+When a connection point is added to a routing component in the Routing Component Wizard, the **Connection Point** PropertyManager page is launched. This method sets the route type and sub-type fields on that page.
 
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [IRoutingComponentManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html)
 
 ## Availability

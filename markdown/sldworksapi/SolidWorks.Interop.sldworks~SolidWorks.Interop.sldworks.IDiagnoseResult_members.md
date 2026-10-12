@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDiagnoseResult Interface Members
 
-The following tables list the members exposed by[IDiagnoseResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html).
+The following tables list the members exposed by [IDiagnoseResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html).
 
 ## Public Methods
 
@@ -25,7 +25,5 @@ The following tables list the members exposed by[IDiagnoseResult](SolidWorks.Int
 ## See Also
 
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFillSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFillSurface2.html)

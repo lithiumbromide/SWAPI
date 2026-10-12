@@ -54,7 +54,7 @@ CWConvection^ AddConvection(
 ### Parameters
 
 - `DispArray`: Array of faces or shell edges to apply convection
-- `ErrorCode`: Error as defined in[swsConvectionError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsConvectionError_e.html)
+- `ErrorCode`: Error as defined in [swsConvectionError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsConvectionError_e.html)
 
 ### Return Value
 
@@ -62,24 +62,17 @@ CWConvection^ AddConvection(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddConvection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddConvection.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddConvection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddConvection.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

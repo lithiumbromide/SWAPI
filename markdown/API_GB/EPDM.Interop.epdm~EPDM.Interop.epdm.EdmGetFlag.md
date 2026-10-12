@@ -9,27 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html"
 
 # EdmGetFlag Enumeration
 
-Options for retrieving files used in calls to
-
-[IEdmFile5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFileCopy.html)
-
-,
-
-[IEdmEnumeratorVersion5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetFileCopy.html)
-
-,
-
-[IEdmVersion5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5~GetFileCopy.html)
-
-, and
-
-[IEdmRevision5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5~GetFileCopy.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for retrieving files used in calls to [IEdmFile5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFileCopy.html), [IEdmEnumeratorVersion5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5~GetFileCopy.html), [IEdmVersion5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5~GetFileCopy.html), and [IEdmRevision5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5~GetFileCopy.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

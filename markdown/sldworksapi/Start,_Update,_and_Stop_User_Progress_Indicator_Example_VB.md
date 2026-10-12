@@ -9,13 +9,12 @@ source: "sldworksapi/Start,_Update,_and_Stop_User_Progress_Indicator_Example_VB.
 
 # Start, Update, and Stop Progress Indicator Example (VBA)
 
-This example shows how to create, start, update, and stop a progress
-indicator on the SOLIDWORKS status bar.
+This example shows how to create, start, update, and stop a progress indicator on the status bar.
 
 ```vb
 '----------------------------------------------------------------------------
  ' Preconditions:
- ' 1. Create a VBA macro in SOLIDWORKS.
+ ' 1. Create a VBA macro in SOLIDWORKS Design.
  ' 2. Right-click the macro project name in the Project Explorer and click
  '    Insert > UserForm.
  ' 3. Modify UserForm1 (UserForm) to look like this:
@@ -30,14 +29,14 @@ indicator on the SOLIDWORKS status bar.
  ' Postconditions:
  ' 1. Shows a dialog box.
  ' 2. Click Start.
- '    * Displays a progress indicator on the SOLIDWORKS status bar.
+ '    * Displays a progress indicator on the SOLIDWORKS Design status bar.
  '    * Increments the progress indicator to 100% completion.
  ' 3. Click Update repeatedly to increment the progress indicator in steps of
  '    10.
  ' 4. Inspect the Immediate window to see the return code after each update.
  ' 5. Type a new title and click Update Title to change the progress indicator
  '    title.
- ' 6. Click Stop to remove the progress indicator from the SOLIDWORKS status bar.
+ ' 6. Click Stop to remove the progress indicator from the SOLIDWORKS Design status bar.
  ' 7. Click Exit to close the dialog box.
  ' ---------------------------------------------------------------------------
 ```

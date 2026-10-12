@@ -51,30 +51,20 @@ Array of double values corresponding to x, y, and z coordinates of the dimension
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionOption::TextPosition](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~TextPosition.html)
-
-.
+See [DimXpertDimensionOption::TextPosition](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~TextPosition.html).
 
 ## Examples
 
 [Get and Set Size Dimension Example (C#)](Get_and_Set_Size_Dimension_Example_CSharp.htm)
-
 [Get and Set Size Dimension Example (VB.NET)](Get_and_Set_Size_Dimension_Example_VBNET.htm)
-
 [Get and Set Size Dimension Example (VBA)](Get_and_Set_Size_Dimension_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertDimensionOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption.html)
-
 [IDimXpertDimensionOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption_members.html)
-
 [IDimXpertPart::InsertSizeDimension Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertSizeDimension.html)
-
 [IDimXpertPart::InsertLocationDimension Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.html)
-
 [IDimXpertPart::InsertBasicDimension Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
 
 ## Availability

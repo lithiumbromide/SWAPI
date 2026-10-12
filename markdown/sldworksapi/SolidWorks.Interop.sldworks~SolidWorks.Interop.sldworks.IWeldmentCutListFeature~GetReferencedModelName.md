@@ -40,13 +40,7 @@ System.string GetReferencedModelName()
 System.String^ GetReferencedModelName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Name of referenced model
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::GetReferencedModelName](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetReferencedModelName.html)
-
-.
+See [WeldmentCutListFeature::GetReferencedModelName](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetReferencedModelName.html).
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
 
 ## Availability

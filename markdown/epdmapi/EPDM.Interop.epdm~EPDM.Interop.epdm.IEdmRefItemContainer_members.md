@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer_member
 
 # IEdmRefItemContainer Interface Members
 
-The following tables list the members exposed by[IEdmRefItemContainer](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html).
+The following tables list the members exposed by [IEdmRefItemContainer](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmRefItemContainer](EPDM.Inte
 ## See Also
 
 [IEdmRefItemContainer Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

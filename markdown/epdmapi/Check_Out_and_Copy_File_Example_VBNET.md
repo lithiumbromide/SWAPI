@@ -9,37 +9,28 @@ source: "epdmapi/Check_Out_and_Copy_File_Example_VBNET.htm"
 
 # Check Out and Copy File Example (VB.NET)
 
-This example shows how to find a vault from a file path,
-check out the file from the vault, and copy the file to another location.
+This example shows how to find a vault from a file path, check out the file from the vault, and copy the file to another location.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Start Microsoft Visual Studio.
- '    a. Click File > New > Project > Visual Basic > Windows Forms Application.
- '    b. Type GetVaultFromFilePath in Name.
- '    c. Click Browse and navigate to the folder where to create
- '       the project.
- '    d. Click OK.
- '    e. Click Show All Files in the Solution Explorer toolbar and expand
- '       Form1.vb in the Solution Explorer.
- '    f. Replace the code in Form1.vb with this code.
- '    g. To create the form, replace the code in Form1.Designer.vb with this code.
- ' 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- '    name in the Solution Explorer, click Add Reference, click
- '    Assemblies > Framework in the left-side panel, browse to the top folder of
- '    your SOLIDWORKS PDM Professional installation, locate and click
- '    EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
- ' 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- '    Embed Interop Types to False to handle methods that pass arrays of
- '    structures.
- ' 4. Ensure that c:\temp exists.
- ' 5. Ensure that at least one file is checked into a vault.
- ' 6. Click Debug > Start Debugging or press F5.
+ '    a. Click File > New > Project > Visual Basic, Windows, Desktop > Windows Forms App.
+ '    b. Type GetVaultFromFilePath in Project name.
+ '    c. For Location, click ... and navigate to the folder where to create the project.
+'      d. Click Next.
+'    e. Select Framework.
+'    f. Click Create.
+'    g. Click Show All Files in the Solution Explorer toolbar and expand
+'       Form1.vb in the Solution Explorer.
+ '    h. Replace the code in Form1.vb with this code.
+ '    i. To create the form, replace the code in Form1.Designer.vb with this code.
+ ' 2. Add dependencies and safely pass arrays of structures.
+ ' 3. Ensure that c:\temp exists.
+ ' 4. Ensure that at least one file is checked into a vault.
+ ' 5. Click Debug > Start Debugging or press F5.
  '
  ' Postconditions:
  ' 1. Displays the Check out and copy a file dialog box.

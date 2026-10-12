@@ -47,21 +47,11 @@ System.bool Flip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SideToSide`: True to flip the picture side to side, false to flip the picture top to bottom (see
-
-Remarks
-
-)
+- `SideToSide`: True to flip the picture side to side, false to flip the picture top to bottom (see **Remarks**)
 
 ### Return Value
 
@@ -69,19 +59,11 @@ True if the picture is flipped, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::Flip](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~Flip.html)
-
-.
+See [SketchPicture::Flip](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~Flip.html).
 
 ## Examples
 
-See the
-
-[ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
-examples.
+See the [ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html) examples.
 
 ## Remarks
 
@@ -94,7 +76,6 @@ examples.
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
 
 ## Availability

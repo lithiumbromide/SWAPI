@@ -1,6 +1,5 @@
 ---
-title: "RenamedDocumentReferences Object
-Members"
+title: "RenamedDocumentReferences Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RenamedDocumentReferences_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RenamedDocumentReferences_members.html"
 ---
 
-# RenamedDocumentReferences Object
-Members
+# RenamedDocumentReferences Object Members
 
 ## Public Methods
 

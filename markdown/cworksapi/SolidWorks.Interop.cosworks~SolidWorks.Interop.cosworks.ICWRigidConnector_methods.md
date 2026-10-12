@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRi
 
 # ICWRigidConnector Interface Methods
 
-For a list of all members of this type, see[ICWRigidConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector_members.html).
+For a list of all members of this type, see [ICWRigidConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector_members.html).
 
 ## Public Methods
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[ICWRigidConnector members](SolidWork
 ## See Also
 
 [ICWRigidConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -48,16 +48,11 @@ Name of project
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~project.html)
-
-.
+See [PDMWSearchResult::project](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~project.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

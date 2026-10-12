@@ -44,12 +44,11 @@ void AddFileByPath(
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, you must call[IEdmClearLocalCache::CommitClear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~CommitClear.html)to actually clear the file from the cache.
+After calling this method, you must call [IEdmClearLocalCache::CommitClear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~CommitClear.html) to actually clear the file from the cache.
 
 [Return codes](ReturnCodes.htm):
 
@@ -59,7 +58,6 @@ After calling this method, you must call[IEdmClearLocalCache::CommitClear](EPDM.
 ## See Also
 
 [IEdmClearLocalCache Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
 [IEdmClearLocalCache Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members.html)
 
 ## Availability

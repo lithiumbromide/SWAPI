@@ -45,13 +45,7 @@ property System.bool Dir2Specified {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ True if Direction 2 is specified, false if not
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::Dir2Specified](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~Dir2Specified.html)
-
-.
+See [CurveDrivenPatternFeatureData::Dir2Specified](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~Dir2Specified.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::D2Direction Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2Direction.html)
-
 [ICurveDrivenPatternFeatureData::D2InstanceCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2InstanceCount.html)
-
 [ICurveDrivenPatternFeatureData::D2IsEqualSpaced Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2IsEqualSpaced.html)
-
 [ICurveDrivenPatternFeatureData::D2PatternSeedOnly Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2PatternSeedOnly.html)
-
 [ICurveDrivenPatternFeatureData::D2ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2ReverseDirection.html)
-
 [ICurveDrivenPatternFeatureData::D2Spacing Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D2Spacing.html)
 
 ## Availability

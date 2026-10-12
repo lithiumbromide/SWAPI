@@ -40,52 +40,30 @@ System.object GetFeatures()
 System.Object^ GetFeatures();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-objects
+Array of [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) objects
 
 ## VBA Syntax
 
-See
-
-[FeatureFolder::GetFeatures](ms-its:sldworksapivb6.chm::/sldworks~FeatureFolder~GetFeatures.html)
-
-.
+See [FeatureFolder::GetFeatures](ms-its:sldworksapivb6.chm::/sldworks~FeatureFolder~GetFeatures.html).
 
 ## Examples
 
 [Get Contents of FeatureFolder (C#)](Get_Contents_of_FeatureFolder_Example_CSharp.htm)
-
 [Get Contents of FeatureFolder (VB.NET)](Get_Contents_of_FeatureFolder_Example_VBNET.htm)
-
 [Get Contents of FeatureFolder (VBA)](Get_Contents_of_FeatureFolder_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call
-
-[IFeatureFolder::GetFeatureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~GetFeatureCount.html)
-
-to get the size of the array returned by this method.
+Before calling this method, call [IFeatureFolder::GetFeatureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~GetFeatureCount.html) to get the size of the array returned by this method.
 
 ## See Also
 
 [IFeatureFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder.html)
-
 [IFeatureFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder_members.html)
-
 [IFeatureFolder::IGetFeatures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder~IGetFeatures.html)
 
 ## Availability

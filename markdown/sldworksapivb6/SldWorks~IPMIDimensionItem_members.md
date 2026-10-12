@@ -1,6 +1,5 @@
 ---
-title: "IPMIDimensionItem Object
-Members"
+title: "IPMIDimensionItem Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIDimensionItem_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIDimensionItem_members.html"
 ---
 
-# IPMIDimensionItem Object
-Members
+# IPMIDimensionItem Object Members
 
 ## Public Methods
 

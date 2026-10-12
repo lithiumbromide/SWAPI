@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Events_When_Dragging_Instant3D_Manipulator_in_a_Part_E
 
 # Fire Events When Dragging Instant3D Manipulator in a Part Example (VBA)
 
-This example shows how to fire events when dragging an Instant3D manipulator
-in a part document.
+This example shows how to fire events when dragging an Instant3D manipulator in a part document.
 
 ```vb
 '------------------------------------
@@ -63,7 +62,7 @@ in a part document.
 Back to top
 ```
 
-' Class
+**'** Class
 
 ```vb
 Public WithEvents doc As partDoc

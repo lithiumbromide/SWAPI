@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 # IImportStepData Interface Members
 
-The following tables list the members exposed by[IImportStepData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html).
+The following tables list the members exposed by [IImportStepData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IImportStepData](SolidWorks.Int
 ## See Also
 
 [IImportStepData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

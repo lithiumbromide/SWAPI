@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertFamilyTableNew Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertFamilyTableNew](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFamilyTableNew.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertFamilyTableNew](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFamilyTableNew.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void InsertFamilyTableNew()
 void InsertFamilyTableNew();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertFamilyTableNew](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertFamilyTableNew.html)
-
-.
+See [ModelDoc::InsertFamilyTableNew](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertFamilyTableNew.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

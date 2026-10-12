@@ -47,30 +47,19 @@ property System.int SolverType {
 
 ### Property Value
 
-Solver type as defined in
-
-[swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
+Solver type as defined in [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~SolverType.html)
-
-.
+See [CWFrequencyStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~SolverType.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

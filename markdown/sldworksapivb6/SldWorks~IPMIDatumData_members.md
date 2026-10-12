@@ -1,6 +1,5 @@
 ---
-title: "IPMIDatumData Object
-Members"
+title: "IPMIDatumData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIDatumData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIDatumData_members.html"
 ---
 
-# IPMIDatumData Object
-Members
+# IPMIDatumData Object Members
 
 ## Public Methods
 

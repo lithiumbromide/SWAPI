@@ -40,28 +40,16 @@ System.string GetStringValue()
 System.String^ GetStringValue();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Parameter::GetStringValue](ms-its:sldworksapivb6.chm::/sldworks~Parameter~GetStringValue.html)
-
-.
+See [Parameter::GetStringValue](ms-its:sldworksapivb6.chm::/sldworks~Parameter~GetStringValue.html).
 
 ## Examples
 
 [Find Attribute (C#)](Find_Attribute_Example_CSharp.htm)
-
 [Find Attribute (VB.NET)](Find_Attribute_Example_VBNET.htm)
-
 [Find Attribute (VBA)](Find_Attribute_Example_VB.htm)
 
 ## Remarks
@@ -71,7 +59,5 @@ Value of the parameter
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [IParameter Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html)
-
 [IParameter::SetStringValue2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter~SetStringValue2.html)

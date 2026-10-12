@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8_members.html"
 
 # IEdmSearch8 Interface Members
 
-The following tables list the members exposed by[IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html).
+The following tables list the members exposed by [IEdmSearch8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IEdmSearch8](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmSearch8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

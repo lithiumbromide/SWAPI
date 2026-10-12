@@ -1,6 +1,5 @@
 ---
-title: "SurfaceParameterizationData Object
-Members"
+title: "SurfaceParameterizationData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceParameterizationData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceParameterizationData_members.html"
 ---
 
-# SurfaceParameterizationData Object
-Members
+# SurfaceParameterizationData Object Members
 
 ## Public Properties
 
