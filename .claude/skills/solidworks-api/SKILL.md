@@ -10,7 +10,7 @@ metadata:
   distribute: "true"
 ---
 # SOLIDWORKS API
-Never write a SOLIDWORKS API call from memory. Member suffixes, parameter lists and obsolescence change with every release, and unaided code confidently calls obsolete or invented members (`IModelDoc2.SaveAs3`, `SaveAs4`, `SelectByID3`). This skill bundles an index of the official API help (signatures with enum annotations, swconst values, obsolete chains, availability, lean Remarks, examples) and `scripts/swapi.py`, a CLI that answers in a few lines. Look every member up before you write it, and cite what the lookups return.
+Never write a SOLIDWORKS API call from memory. Member suffixes, parameter lists and obsolescence change with every release, and suffixes are not consecutive: `IModelDoc2.SaveAs4` exists but is obsolete, `IModelDocExtension.SaveAs4` does not exist, and `ISldWorks.OpenDoc5` was never published. Unaided code confidently calls such obsolete or nonexistent members. This skill bundles an index of the official API help (signatures with enum annotations, swconst values, obsolete chains, availability, lean Remarks, examples) and `scripts/swapi.py`, a CLI that answers in a few lines. Look every member up before you write it, and cite what the lookups return.
 ## Start
 1. Run `python3 <skill-dir>/scripts/swapi.py where` once per session. If `python3` is missing, try `python`, then `py -3`; inside the SWAPI repository prefer `.venv/Scripts/python.exe`. Never `pip install` anything, because the script uses only the standard library and hosts may have no network.
 2. Read the `mode=` and `hint=` lines and follow the hint, because the mode decides whether full documents and all examples are reachable or only the bundled lean entries ([host modes](#host-modes)).
@@ -83,7 +83,7 @@ Exit codes: 0 found or clean; 1 not found or findings (up to five suggestions ar
 - The `markdown/...` path in each row is the citation for the answer.
 ## Correctness checklist
 Each rule is expanded, with the lookup that verifies it, in [correctness-rules.md](references/correctness-rules.md).
-- Call only current members and follow `OBSOLETE ->` chains, because obsolete members compile without warning but lack newer options, and invented suffixes fail at run time ([details](references/correctness-rules.md#current-members-only)).
+- Call only current members and follow `OBSOLETE ->` chains, because obsolete members compile without warning but lack newer options, and a plausible suffix may belong to an obsolete member or to none at all ([details](references/correctness-rules.md#current-members-only)).
 - Keep every member's `since` at or below the target release, because newer members fail on older installs with error 438 or a missing-method exception ([details](references/correctness-rules.md#version-availability)).
 - Pass swconst enum names, never literals, and combine bitmask flags with `Or` or `|`, because numbers are unverifiable and mean different things in different enums ([details](references/correctness-rules.md#enums-and-bitmasks)).
 - Declare, pass and decode every Errors and Warnings out parameter and result code, because a False return carries its reason only there ([details](references/correctness-rules.md#errors-and-warnings)).

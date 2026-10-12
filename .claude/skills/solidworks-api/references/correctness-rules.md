@@ -18,9 +18,9 @@ Single home of the SOLIDWORKS API correctness rules: each section names the fail
 - [Batch performance](#batch-performance)
 - [Persistent references](#persistent-references)
 ## Current members only
-Failure: code calls an obsolete member that still compiles (obsolete members stay in the interop and type library, so nothing warns) but lacks newer options, or calls an invented suffix (`SaveAs4`, `SelectByID3`, `OpenDoc8`) that fails at compile time in C# and at run time in late-bound VBA.
-Rule: take every member from `sig` or `find` output. When a row reads `OBSOLETE -> ... current X`, use X. Chains that unaided code gets wrong most often:
-- `IModelDoc2.SaveAs3` -> `IModelDocExtension.SaveAs` -> `IModelDocExtension.SaveAs2` -> `IModelDocExtension.SaveAs3`
+Failure: code calls an obsolete member that still compiles (obsolete members stay in the interop and type library, so nothing warns) but lacks newer options, or a suffix that does not exist on that interface, which fails at compile time in C# and at run time in late-bound VBA. Plausible suffixes fall on both sides: `IModelDoc2.SaveAs4` is real but obsolete (superseded by `IModelDocExtension.SaveAs`), while `IModelDocExtension.SaveAs4`, `IModelDocExtension.SelectByID3` and `ISldWorks.OpenDoc5` do not exist (the `OpenDoc` series skips from 4 to 6). Guessing the next number is therefore never safe.
+Rule: take every member from `sig` or `find` output, and run `check` on finished files. When a row reads `OBSOLETE -> ... current X`, use X. Chains that unaided code gets wrong most often:
+- `IModelDoc2.SaveAs3` and `IModelDoc2.SaveAs4` -> `IModelDocExtension.SaveAs` -> `IModelDocExtension.SaveAs2` -> `IModelDocExtension.SaveAs3`
 - `IModelDoc2.SelectByID` -> `IModelDocExtension.SelectByID2`
 - `IModelDoc2.AddCustomInfo3`, `IModelDoc2.GetCustomInfoValue` -> `IModelDocExtension.CustomPropertyManager`; `ICustomPropertyManager.Get5` -> `Get6`, `Add2` -> `Add3`, `Set` -> `Set2`, `Delete` -> `Delete2`, `GetAll2` -> `GetAll3`
 - `ISldWorks.ActivateDoc2` -> `ISldWorks.ActivateDoc3`; `ISldWorks.CreateTaskpaneView2` -> `ISldWorks.CreateTaskpaneView3`; `ISldWorks.SetAddinCallbackInfo` -> `ISldWorks.SetAddinCallbackInfo2`
