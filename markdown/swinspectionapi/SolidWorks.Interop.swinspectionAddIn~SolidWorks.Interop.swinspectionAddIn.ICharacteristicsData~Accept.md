@@ -48,11 +48,7 @@ Threshold of defective units for acceptance of the lot
 
 ## VBA Syntax
 
-See
-
-[CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html)
-
-properties.
+See [CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html) properties.
 
 ## Remarks
 
@@ -61,7 +57,6 @@ The threshold is based on the sampling plan you selected for this dimension.
 ## See Also
 
 [ICharacteristicsData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.html)
-
 [ICharacteristicsData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html)
 
 ## Availability

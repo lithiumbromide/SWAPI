@@ -47,13 +47,7 @@ Body2^ IGetSheetBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,16 @@ See
 
 ### Return Value
 
-Pointer to the sheet
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-corresponding to the index
+Pointer to the sheet [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) corresponding to the index
 
 ## VBA Syntax
 
-See
-
-[Body2::IGetSheetBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetSheetBody.html)
-
-.
+See [Body2::IGetSheetBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetSheetBody.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetSheetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetSheetBody.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetRayIntersectionsPoints Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetRayIntersectionsPoints()
 System.Object^ GetRayIntersectionsPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetRayIntersectionsPoints](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetRayIntersectionsPoints.html)
-
-.
+See [ModelDoc::GetRayIntersectionsPoints](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetRayIntersectionsPoints.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -33,16 +33,11 @@ void ClearLogs();
 
 ## Remarks
 
-This method is valid only when the user has
-
-[EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
-
-.EdmSysRight_MaySeeAdminTool permission.
+This method is valid only when the user has [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html).EdmSysRight_MaySeeAdminTool permission.
 
 ## See Also
 
 [IEdmVault22 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
 [IEdmVault22 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22_members.html)
 
 ## Availability

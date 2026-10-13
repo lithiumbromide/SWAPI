@@ -9,9 +9,7 @@ source: "sldworksapi/Pack_and_Go_an_Assembly_Example_VB.htm"
 
 # Pack and Go an Assembly (VBA)
 
-This example shows how to get the names of the path and files of an assembly
-document, add a prefix and suffix to the names, and save the files to a different path using the Pack and Go
-interface.
+This example shows how to get the names of the path and files of an assembly document, add a prefix and suffix to the names, and save the files to a different path using the Pack and Go interface.
 
 ```vb
  '---------------------------------------------------------------------------

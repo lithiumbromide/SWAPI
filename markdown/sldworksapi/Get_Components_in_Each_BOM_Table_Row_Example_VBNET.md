@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Components_in_Each_BOM_Table_Row_Example_VBNET.htm"
 
 # Get Components in Each BOM Table Row Example (VB.NET)
 
-This example shows how to get the components in each row of a BOM table
-annotation.
+This example shows how to get the components in each row of a BOM table annotation.
 
 ```
 '-----------------------------------------------------------------------------

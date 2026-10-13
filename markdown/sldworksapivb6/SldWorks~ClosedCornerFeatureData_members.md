@@ -1,6 +1,5 @@
 ---
-title: "ClosedCornerFeatureData Object
-Members"
+title: "ClosedCornerFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ClosedCornerFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ClosedCornerFeatureData_members.html"
 ---
 
-# ClosedCornerFeatureData Object
-Members
+# ClosedCornerFeatureData Object Members
 
 ## Public Methods
 

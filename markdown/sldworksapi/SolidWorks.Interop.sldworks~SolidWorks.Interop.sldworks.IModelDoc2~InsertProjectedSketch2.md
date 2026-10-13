@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertProjectedSketch2 Method (IModelDoc2)
 
-Obsolete.
-
-See
-
-[IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
-and
-
-[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-.
+Obsolete. See [IProjectionCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html) and [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html).
 
 ## Syntax
 
@@ -57,13 +47,7 @@ System.Object^ InsertProjectedSketch2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,26 +55,16 @@ See
 
 ### Return Value
 
-Newly created
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-or Nothing or null if the operation fails
+Newly created [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) or Nothing or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertProjectedSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertProjectedSketch2.html)
-
-.
+See [ModelDoc2::InsertProjectedSketch2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertProjectedSketch2.html).
 
 ## Examples
 
 [Get Projected Curve Feature Data (C#)](Get_Projected_Curve_Feature_Data_Example_CSharp.htm)
-
 [Get Projected Curve Feature Data (VB.NET)](Get_Projected_Curve_Feature_Data_Example_VBNET.htm)
-
 [Get Projected Curve Feature Data (VBA)](Get_Projected_Curve_Feature_Data_Example_VB.htm)
 
 ## Remarks
@@ -100,9 +74,7 @@ You can reverse the direction in which the curve is projected. This is necessary
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IInsertProjectedSketch2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IInsertProjectedSketch2.html)
 
 ## Availability

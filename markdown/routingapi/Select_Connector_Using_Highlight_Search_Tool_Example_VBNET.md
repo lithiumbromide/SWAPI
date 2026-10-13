@@ -9,8 +9,7 @@ source: "routingapi/Select_Connector_Using_Highlight_Search_Tool_Example_VBNET.h
 
 # Select Connector Using Highlight Search Tool Example (VB.NET)
 
-This example shows how to select a connector using the SOLIDWORKS Routing
-Highlight Search tool.
+This example shows how to select a connector using the SOLIDWORKS Routing Highlight Search tool.
 
 ```vb
   '----------------------------------------------------------------------------

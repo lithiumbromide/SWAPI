@@ -45,13 +45,7 @@ property System.bool FlipDimSides {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,24 @@ True to swap the gusset legs in the dimensioning scheme, false to not
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::FlipDimSides](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~FlipDimSides.html)
-
-.
+See [SMGussetFeatureData::FlipDimSides](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~FlipDimSides.html).
 
 ## Examples
 
-See the examples for
-
-[ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html)
-
-.
+See the examples for [ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html).
 
 ## Remarks
 
-[ISMGussetFeatureData::ProfileHeightDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileHeightDim.html)corresponds to the d2 leg and[ISMGussetFeatureData::ProfileLengthDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileLengthDim.html)corresponds to the d1 leg in the dimensioning scheme. This property allows you to swap the d2 and d1 legs in order to change the gusset dimension profile.
+[ISMGussetFeatureData::ProfileHeightDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileHeightDim.html) corresponds to the d2 leg and [ISMGussetFeatureData::ProfileLengthDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileLengthDim.html) corresponds to the d1 leg in the dimensioning scheme. This property allows you to swap the d2 and d1 legs in order to change the gusset dimension profile.
 
-See the[ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)Remarks.
+See the [ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html) Remarks.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
-
 [ISMGussetFeatureData::ProfileAngleDim Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~ProfileAngleDim.html)
-
 [ISMGussetFeatureData::ProfileDimensionScheme Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~ProfileDimensionScheme.html)
-
 [ISMGussetFeatureData::UseAngleDimForProfile Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~UseAngleDimForProfile.html)
 
 ## Availability

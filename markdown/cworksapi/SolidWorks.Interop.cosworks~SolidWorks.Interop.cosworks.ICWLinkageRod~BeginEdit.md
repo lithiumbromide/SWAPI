@@ -41,24 +41,15 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~BeginEdit.html)
-
-.
+See [CWLinkageRod::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

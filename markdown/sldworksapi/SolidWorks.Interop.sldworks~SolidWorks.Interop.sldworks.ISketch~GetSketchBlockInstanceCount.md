@@ -40,13 +40,7 @@ System.int GetSketchBlockInstanceCount()
 System.int GetSketchBlockInstanceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,20 @@ Number of block instances in this sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchBlockInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchBlockInstanceCount.html)
-
-.
+See [Sketch::GetSketchBlockInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchBlockInstanceCount.html).
 
 ## Remarks
 
-Call this method before calling[ISketch::IGetSketchBlockInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchBlockInstances.html)to get the size of the array for that method.
+Call this method before calling [ISketch::IGetSketchBlockInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchBlockInstances.html) to get the size of the array for that method.
 
-See
-
-[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)
-
-for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchBlockInstances Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchBlockInstances.html)
-
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
 
 ## Availability

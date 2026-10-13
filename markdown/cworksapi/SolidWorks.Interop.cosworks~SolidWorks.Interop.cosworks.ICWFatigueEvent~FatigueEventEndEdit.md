@@ -42,38 +42,23 @@ System.int FatigueEventEndEdit();
 
 ### Return Value
 
-Error as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+Error as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::FatigueEventEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~FatigueEventEndEdit.html)
-
-.
+See [CWFatigueEvent::FatigueEventEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~FatigueEventEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWFatigueEvent::FatigueEventBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFatigueEvent~FatigueEventBeginEdit.html)
-
-to start editing a fatigue event. To end editing a fatigue event, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWFatigueEvent::FatigueEventBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFatigueEvent~FatigueEventBeginEdit.html) to start editing a fatigue event. To end editing a fatigue event, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
 
 ## Availability

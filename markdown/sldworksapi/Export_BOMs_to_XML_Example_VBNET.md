@@ -9,15 +9,9 @@ source: "sldworksapi/Export_BOMs_to_XML_Example_VBNET.htm"
 
 # Export BOMs to XML Example (VB.NET)
 
-SOLIDWORKS manages Bills of Materials (BOM) and controls the information
-within them. You can extract this information for use in downstream systems
-such as ERP or other business systems.
+SOLIDWORKS Design manages Bills of Materials (BOM) and controls the information within them. You can extract this information for use in downstream systems such as ERP or other business systems.
 
-In SOLIDWORKS 2004 and later, BOMs are now features and appear during
-a traversal of the FeatureManager design tree. This example shows how
-to get to each BOM in a drawing document and save the BOM information
-to an XML file. You can transform this XML file using XSL or transfer
-the file to other systems.
+In SOLIDWORKS 2004 and later, BOMs are now features and appear during a traversal of the FeatureManager design tree. This example shows how to get to each BOM in a drawing document and save the BOM information to an XML file. You can transform this XML file using XSL or transfer the file to other systems.
 
 ```
 '----------------------------------------------------------------------

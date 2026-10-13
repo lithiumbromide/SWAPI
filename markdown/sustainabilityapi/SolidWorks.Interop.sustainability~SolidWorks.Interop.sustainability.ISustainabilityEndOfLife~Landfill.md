@@ -51,24 +51,15 @@ Percentage of the product that is put into landfill
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEndOfLife::Landfill](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEndOfLife~Landfill.html)
-
-.
+See [SustainabilityEndOfLife::Landfill](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEndOfLife~Landfill.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEndOfLife](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEndOfLife.html)
-
-.
+See the examples in [ISustainabilityEndOfLife](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEndOfLife.html).
 
 ## See Also
 
 [ISustainabilityEndOfLife Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife.html)
-
 [ISustainabilityEndOfLife Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife_members.html)
 
 ## Availability

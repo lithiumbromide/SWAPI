@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # UseInertialRelief Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by[ICWStaticStudyOptions::UseInertialRelief2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseInertialRelief2.html).
+Obsolete. Superseded by [ICWStaticStudyOptions::UseInertialRelief2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseInertialRelief2.html).
 
 ## Syntax
 
@@ -52,22 +52,14 @@ property System.int UseInertialRelief {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::UseInertialRelief](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~UseInertialRelief.html)
-
-.
+See [CWStaticStudyOptions::UseInertialRelief](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~UseInertialRelief.html).
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::SolverType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~SolverType.html)
-
 [ICWStaticStudyOptions::UseInPlaneEffect Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseInPlaneEffect.html)
-
 [ICWStaticStudyOptions::UseSoftSpring Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseSoftSpring.html)
 
 ## Availability

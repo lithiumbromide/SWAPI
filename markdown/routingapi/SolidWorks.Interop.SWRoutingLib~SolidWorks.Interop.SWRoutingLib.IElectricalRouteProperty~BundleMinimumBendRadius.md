@@ -48,18 +48,12 @@ Maximum bend radius of the individual wires in a bundle of wires that are routed
 
 ## VBA Syntax
 
-See
-
-[ElectricalRouteProperty::BundleMinimumBendRadius](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~BundleMinimumBendRadius.html)
-
-.
+See [ElectricalRouteProperty::BundleMinimumBendRadius](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~BundleMinimumBendRadius.html).
 
 ## Examples
 
 [Get Minimum Bend Radii of Wires (C#)](Get_Minimum_Bend_Radii_of_Wires_Example_CSharp.htm)
-
 [Get Minimum Bend Radii of Wires (VB.NET)](Get_Minimum_Bend_Radii_of_Wires_Example_VBNET.htm)
-
 [Get Minimum Bend Radii of Wires (VBA)](Get_Minimum_Bend_Radii_of_Wires_Example_VB.htm)
 
 ## Remarks
@@ -69,11 +63,8 @@ The minimum bend radius for a bundle of wires routed through the same route segm
 ## See Also
 
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IElectricalRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty_members.html)
-
 [IRouteProperty::MinimumBendRadius Property ()](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~MinimumBendRadius.html)
-
 [IRouteProperty::BendRadius Property ()](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~BendRadius.html)
 
 ## Availability

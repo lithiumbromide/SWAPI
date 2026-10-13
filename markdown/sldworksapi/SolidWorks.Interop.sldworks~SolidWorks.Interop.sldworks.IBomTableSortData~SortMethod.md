@@ -45,40 +45,23 @@ property System.int SortMethod {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sort method as defined by
-
-[swBomTableSortMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBomTableSortMethod_e.html)
+Sort method as defined by [swBomTableSortMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBomTableSortMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[BomTableSortData::SortMethod](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~SortMethod.html)
-
-.
+See [BomTableSortData::SortMethod](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~SortMethod.html).
 
 ## Examples
 
-See the
-
-[IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
-examples.
+See the [IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html) examples.
 
 ## See Also
 
 [IBomTableSortData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
 [IBomTableSortData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData_members.html)
 
 ## Availability

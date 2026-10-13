@@ -50,15 +50,11 @@ property System.bool IgnoreClearanceForSurfaceContact2 {
 - -1 or true = Ignore clearance for surface contact
 - 0 or false = Do not ignore clearance for surface contact
 
-(see**Remarks**)
+(see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::IgnoreClearanceForSurfaceContact2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IgnoreClearanceForSurfaceContact2.html)
-
-.
+See [CWStaticStudyOptions::IgnoreClearanceForSurfaceContact2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IgnoreClearanceForSurfaceContact2.html).
 
 ## Remarks
 
@@ -67,7 +63,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

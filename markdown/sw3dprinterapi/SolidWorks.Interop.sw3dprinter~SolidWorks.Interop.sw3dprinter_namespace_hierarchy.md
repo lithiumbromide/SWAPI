@@ -12,6 +12,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 ## Inheritance Hierarchy
 
 System.Object
+[SolidWorks.Interop.sw3dprinter.SW3DPrinterClass](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.SW3DPrinterClass.html)
 
 ## See Also
 

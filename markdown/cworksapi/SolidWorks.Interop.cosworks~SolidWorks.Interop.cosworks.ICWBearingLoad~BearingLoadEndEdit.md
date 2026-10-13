@@ -42,32 +42,23 @@ System.int BearingLoadEndEdit();
 
 ### Return Value
 
-Error as defined in[swsBearingLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBearingLoadEndEditError_e.html)
+Error as defined in [swsBearingLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBearingLoadEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::BearingLoadEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~BearingLoadEndEdit.html)
-
-.
+See [CWBearingLoad::BearingLoadEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~BearingLoadEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## Remarks
 
-To start editing a bearing load, call[ICWBearingLoad::BearingLoadBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBearingLoad~BearingLoadBeginEdit.html). You must call ICWBearlingLoad::BearingLoadEndEdit to end editing a bearing load. Changes are not applied unless you call both methods.
+To start editing a bearing load, call [ICWBearingLoad::BearingLoadBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBearingLoad~BearingLoadBeginEdit.html). You must call ICWBearlingLoad::BearingLoadEndEdit to end editing a bearing load. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
 
 ## Availability

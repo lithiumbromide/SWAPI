@@ -40,46 +40,23 @@ System.object GetComponentsOrFacesToCheck()
 System.Object^ GetComponentsOrFacesToCheck();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-s and/or
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s
+Array of [component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)s and/or [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::GetComponentsOrFacesToCheck](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~GetComponentsOrFacesToCheck.html)
-
-.
+See [ClearanceVerificationMgr::GetComponentsOrFacesToCheck](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~GetComponentsOrFacesToCheck.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

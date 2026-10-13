@@ -50,13 +50,7 @@ void SetRevolutionAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::SetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~SetRevolutionAngle.html)
-
-.
+See [RevolveFeatureData2::SetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~SetRevolutionAngle.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::GetRevolutionAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~GetRevolutionAngle.html)
-
 [IRevolveFeatureData2::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~ReverseDirection.html)
 
 ## Availability

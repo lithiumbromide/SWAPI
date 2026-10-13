@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~Creat
 
 # CreateTreeForRevoke Method (IEdmBatchChangeState2)
 
-Computes the file reference tree and checks that the specified transition revocation can be performed for the files added to this batch using
-
-[IEdmBatchChangeState::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~AddFile.html)
-
-.
+Computes the file reference tree and checks that the specified transition revocation can be performed for the files added to this batch using [IEdmBatchChangeState::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~AddFile.html).
 
 ## Syntax
 
@@ -51,17 +47,13 @@ True if there are any valid files on which to revoke transitions, false if there
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html)
-
-examples.
+See the [IEdmBatchChangeState2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html) examples.
 
 ## Remarks
 
-To include parent files in the file reference tree, call[IEdmBatchChangeState5::IncludeParentsForRevokeTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5~IncludeParentsForRevokeTree.html).
+To include parent files in the file reference tree, call [IEdmBatchChangeState5::IncludeParentsForRevokeTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5~IncludeParentsForRevokeTree.html).
 
-After calling this method, call[IEdmBatchChangeState::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ShowDlg.html)and/or[IEdmBatchChangeState::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState.html).
+After calling this method, call [IEdmBatchChangeState::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ShowDlg.html) and/or [IEdmBatchChangeState::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,7 +63,6 @@ After calling this method, call[IEdmBatchChangeState::ShowDlg](EPDM.Interop.epdm
 ## See Also
 
 [IEdmBatchChangeState2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html)
-
 [IEdmBatchChangeState2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2_members.html)
 
 ## Availability

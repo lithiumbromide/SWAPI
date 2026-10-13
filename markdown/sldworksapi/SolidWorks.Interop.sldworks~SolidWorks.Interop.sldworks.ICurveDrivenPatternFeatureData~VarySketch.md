@@ -45,13 +45,7 @@ property System.bool VarySketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to allow pattern instances of a seed sketch to vary in relation to enclosin
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~VarySketch.html)
-
-.
+See [CurveDrivenPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~VarySketch.html).
 
 ## Remarks
 
@@ -78,21 +68,16 @@ The seed sketch has:
 
 If this property is true:
 
-- Specify
-
-  [ICurveDrivenPatternFeatureData::D1Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html)
-
-  with a driving dimension of the seed sketch.
+- Specify [ICurveDrivenPatternFeatureData::D1Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html) with a driving dimension of the seed sketch.
 - Pattern instances vary with and are constrained by the enclosing geometry.
 
-See the**SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >****Vary Sketch**topic.
+See the **SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >** **Vary Sketch** topic.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
 
 ## Availability

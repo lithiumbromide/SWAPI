@@ -49,16 +49,19 @@ public enum class EdmSearchToken : public System.Enum
 | Edmstok_FolderID | 5 = VT_I4; ID of folder to start the search in |
 | Edmstok_FolderPath | 4 = VT_BSTR; search starting in this folder path |
 | Edmstok_HexSearchID | 50 = VT_BSTR; search by hexadecimal search ID |
-| Edmstok_HistoryAfter | 34 = VT_DATE; search history after this date |
-| Edmstok_HistoryBefore | 33 = VT_DATE; search history before this date |
-| Edmstok_HistoryString | 25 = VT_BSTR; search for string in file history |
+| Edmstok_HistoryAfter | 34 = VT_DATE; search for keyword in history after this date |
+| Edmstok_HistoryBefore | 33 = VT_DATE; search for keyword in history before this date |
+| Edmstok_HistoryString | 25 = VT_BSTR; search for keyword in file history |
 | Edmstok_HistoryStringConfiguration | 43 = VT_BOOL; search for keyword among configuration names |
+| Edmstok_HistoryStringCopiedFiles | 54 = VT_BOOL; search for keyword among copied files in file history |
 | Edmstok_HistoryStringFileName | 42 = VT_BOOL; search for keyword among file names |
-| Edmstok_HistoryStringLabels | 27 = VT_BOOL; search labels for the history string |
-| Edmstok_HistoryStringRevisionComment | 29 = VT_BOOL; search revisions comments for the history string |
-| Edmstok_HistoryStringStateComment | 28 = VT_BOOL; search workflow state change comments for the history string |
-| Edmstok_HistoryStringVariableValues | 30 = VT_BOOL; search variable values for the history string |
-| Edmstok_HistoryStringVersionComment | 26 = VT_BOOL; search version comments for the history string |
+| Edmstok_HistoryStringLabels | 27 = VT_BOOL; search for keyword among labels in file history |
+| Edmstok_HistoryStringMovedFileFolders | 53 = VT_BOOL; search for keyword among moved files in file history |
+| Edmstok_HistoryStringRenamedFileFolders | 52 = VT_BOOL; search for keyword among renamed files in file history |
+| Edmstok_HistoryStringRevisionComment | 29 = VT_BOOL; search for keyword among revisions comments in file history |
+| Edmstok_HistoryStringStateComment | 28 = VT_BOOL; search for keyword among workflow state change comments in file history |
+| Edmstok_HistoryStringVariableValues | 30 = VT_BOOL; search for keyword among variable values in file history |
+| Edmstok_HistoryStringVersionComment | 26 = VT_BOOL; search for keyword among version comments in file history |
 | Edmstok_Label | 20 = VT_BSTR; search for this string in labels |
 | Edmstok_LabelAfter | 24 = VT_DATE; search for labels set after this date |
 | Edmstok_LabelBefore | 23 = VT_DATE; search for labels set before this date |
@@ -89,15 +92,7 @@ public enum class EdmSearchToken : public System.Enum
 
 ## Remarks
 
-Used by
-
-[IEdmSearch6::GetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~GetToken.html)
-
-and
-
-[IEdmSearch6::SetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken.html)
-
-.
+Used by [IEdmSearch6::GetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~GetToken.html) and [IEdmSearch6::SetToken](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6~SetToken.html).
 
 ## See Also
 

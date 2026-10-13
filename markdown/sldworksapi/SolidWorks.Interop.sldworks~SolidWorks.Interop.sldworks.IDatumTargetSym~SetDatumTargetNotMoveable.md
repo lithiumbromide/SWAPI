@@ -40,13 +40,7 @@ System.bool SetDatumTargetNotMoveable()
 System.bool SetDatumTargetNotMoveable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if datum target successfully set to not move, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetDatumTargetNotMoveable](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetNotMoveable.html)
-
-.
+See [DatumTargetSym::SetDatumTargetNotMoveable](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetNotMoveable.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::SetDatumTargetHorizontal Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetHorizontal.html)
-
 [IDatumTargetSym::SetDatumTargetRotational Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetRotational.html)
 
 ## Availability

@@ -63,20 +63,14 @@ SwOLEObject^ ICreateOLEObject(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Aspect`: Viewing aspect of the OLE object as defined in the DVASPECT enumerationParamDescParamDesc(see**Remarks**)
-- `Position`: Top-left and bottom-right positions (seeRemarks)
+- `Aspect`: Viewing aspect of the OLE object as defined in the DVASPECT enumeration (see **Remarks**)
+- `Position`: Top-left and bottom-right positions (see Remarks)
 - `ByteCount`: Number of bytes
-- `Buffer`: Data for the OLE objectParamDesc(seeRemarks)
+- `Buffer`: Data for the OLE object (see Remarks)
 - `ErrorCode`: 0 if True or 1 if false
 
 ### Return Value
@@ -85,11 +79,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ICreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ICreateOLEObject.html)
-
-.
+See [ModelDocExtension::ICreateOLEObject](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ICreateOLEObject.html).
 
 ## Remarks
 
@@ -102,17 +92,11 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::CreateOLEObject Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateOLEObject.html)
-
 [IModelDocExtension::GetOLEObjectCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjectCount.html)
-
 [IModelDocExtension::GetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetOLEObjects.html)
-
 [IModelDocExtension::IGetOLEObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetOLEObjects.html)
-
 [IModelDocExtension::InsertObjectFromFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertObjectFromFile.html)
 
 ## Availability

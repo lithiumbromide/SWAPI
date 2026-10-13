@@ -41,24 +41,15 @@ void OnUserClose();
 
 ## VBA Syntax
 
-See
-
-[UserNotificationHandler::OnUserClose](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler~OnUserClose.html)
-
-.
+See [UserNotificationHandler::OnUserClose](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler~OnUserClose.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [IUserNotificationHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
 [IUserNotificationHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler_members.html)
 
 ## Availability

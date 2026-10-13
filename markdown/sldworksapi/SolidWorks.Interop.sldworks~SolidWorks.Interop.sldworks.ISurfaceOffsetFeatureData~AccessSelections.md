@@ -51,18 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level[document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-- `Component`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)in which the feature is to be modified
+- `TopDoc`: Top-level [document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
+- `Component`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) in which the feature is to be modified
 
 ### Return Value
 
@@ -70,18 +64,12 @@ True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[SurfaceOffsetFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~AccessSelections.html)
-
-.
+See [SurfaceOffsetFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Get Offset Surface Data (VBA)](Get_Offset_Surface_Data_Example_VB.htm)
-
 [Get Offset Surface Data (VB.NET)](Get_Offset_Surface_Data_Example_VBNET.htm)
-
 [Get Offset Surface Data (C#)](Get_Offset_Surface_Data_Example_CSharp.htm)
 
 ## Remarks
@@ -93,23 +81,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ISurfaceOffsetFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ISurfaceOffsetFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ISurfaceOffsetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html)
-
 [ISurfaceOffsetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData_members.html)
-
 [ISurfaceOffsetFeatureData::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~IAccessSelections.html)
 
 ## Availability

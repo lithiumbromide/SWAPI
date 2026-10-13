@@ -15,6 +15,7 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | --- | --- |
 | ISwDMApplication3 |  |
 | ISwDMApplication4 |  |
+| ISwDMApplication5 |  |
 | ISwDMComponent10 |  |
 | ISwDMComponent11 |  |
 | ISwDMComponent12 |  |
@@ -106,6 +107,8 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | ISwDMDocument27 |  |
 | ISwDMDocument28 |  |
 | ISwDMDocument29 |  |
+| ISwDMDocument30 |  |
+| ISwDMDocument31 |  |
 | ISwDMExternalReferenceOption |  |
 | ISwDMExternalReferenceOption2 |  |
 | ISwDMHotfix |  |
@@ -121,6 +124,7 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | SwDMApplication2 |  |
 | SwDMApplication3 |  |
 | SwDMApplication4 |  |
+| SwDMApplication5 |  |
 | SwDMClassFactory |  |
 | SwDMComponent |  |
 | SwDMComponent10 |  |
@@ -239,6 +243,8 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | SwDMDocument28 |  |
 | SwDMDocument29 |  |
 | SwDMDocument3 |  |
+| SwDMDocument30 |  |
+| SwDMDocument31 |  |
 | SwDMDocument4 |  |
 | SwDMDocument5 |  |
 | SwDMDocument6 |  |
@@ -268,6 +274,7 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | swDm3DExperienceCfgType_e |  |
 | swDm3DExperienceModelType_e |  |
 | swDmAngleUnit_e |  |
+| SwDmAnnotationFileOpenError |  |
 | SwDmBodyError |  |
 | swDmBOMPartNumberSource |  |
 | swDmBOMTableType |  |
@@ -295,6 +302,7 @@ source: "swdocmgrapivb6/SwDocumentMgr_P.html"
 | swDmDimXpertStraightnessZoneType_e |  |
 | SwDMDocumentLicenseType_e |  |
 | SwDmDocumentOpenError |  |
+| SwDMDocumentSavedInLDREditMode_e |  |
 | SwDmDocumentSaveError |  |
 | SwDmDocumentType |  |
 | swDmDocumentUnitsIntegerValue_e |  |

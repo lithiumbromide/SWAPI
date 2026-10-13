@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ClearSelection Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ClearSelection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ClearSelection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ClearSelection()
 void ClearSelection();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ClearSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ClearSelection.html)
-
-.
+See [ModelDoc::ClearSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ClearSelection.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

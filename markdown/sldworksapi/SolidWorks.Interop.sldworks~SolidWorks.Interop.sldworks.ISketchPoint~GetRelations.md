@@ -40,13 +40,7 @@ System.object GetRelations()
 System.Object^ GetRelations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::GetRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetRelations.html)
-
-.
+See [SketchPoint::GetRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetRelations.html).
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::GetRelationsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~GetRelationsCount.html)
-
 [ISketchPoint::IGetRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~IGetRelations.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Whether_Display_Dimension_is_a_Hole_Callout_Example_VB.
 
 # Get Whether Display Dimension is a Hole Callout Example (VBA)
 
-This example shows how to determine if a display dimension is a hole
-callout.
+This example shows how to determine if a display dimension is a hole callout.
 
 ```
 '------------------------------------------------------------------

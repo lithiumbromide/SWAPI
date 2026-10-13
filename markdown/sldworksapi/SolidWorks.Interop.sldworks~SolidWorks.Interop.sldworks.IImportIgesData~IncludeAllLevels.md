@@ -42,13 +42,7 @@ property System.bool IncludeAllLevels {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ True to import all levels, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportIgesData::IncludeAllLevels](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeAllLevels.html)
-
-.
+See [ImportIgesData::IncludeAllLevels](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeAllLevels.html).
 
 ## Remarks
 
-If this property is false, then you can use[IImportIgesData::IncludeOnlyLevels](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeOnlyLevels.html)to find out which levels will be processed.
+If this property is false, then you can use [IImportIgesData::IncludeOnlyLevels](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeOnlyLevels.html) to find out which levels will be processed.
 
 ## See Also
 
 [IImportIgesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html)
-
 [IImportIgesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData_members.html)
-
 [IImportIgesData::ProcessByLevel Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData~ProcessByLevel.html)
-
 [IImportIgesData::SetLevels Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData~SetLevels.html)
 
 ## Availability

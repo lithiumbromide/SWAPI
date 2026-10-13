@@ -45,27 +45,15 @@ property System.int ShowInDocumentType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Types of documents in which to show this CommandGroup as defined in
-
-[swDocTemplateTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocTemplateTypes_e.html)
+Types of documents in which to show this CommandGroup as defined in [swDocTemplateTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocTemplateTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::ShowInDocumentType](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~ShowInDocumentType.html)
-
-.
+See [CommandGroup::ShowInDocumentType](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~ShowInDocumentType.html).
 
 ## Examples
 
@@ -78,7 +66,6 @@ This method only affects menus. The toolbar for the CommandGroup will be visible
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
 
 ## Availability

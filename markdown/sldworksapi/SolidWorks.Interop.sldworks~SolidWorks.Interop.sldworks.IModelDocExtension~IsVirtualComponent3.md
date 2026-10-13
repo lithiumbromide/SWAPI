@@ -51,13 +51,7 @@ System.bool IsVirtualComponent3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,20 @@ True if the component is virtual, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IsVirtualComponent3](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsVirtualComponent3.html)
-
-.
+See [ModelDocExtension::IsVirtualComponent3](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsVirtualComponent3.html).
 
 ## Examples
 
 [Get Paths and Titles of Parent of Virtual Component (C#)](Get_Paths_and_Titles_of_Parents_of_Virtual_Component_Example_CSharp.htm)
-
 [Get Paths and Titles of Parent of Virutal Component (VB.NET)](Get_Paths_and_Titles_of_Parents_of_Virtual_Component_Example_VBNET.htm)
-
 [Get Paths and Titles of Parent of Virtual Component (VBA)](Get_Paths_and_Titles_of_Parents_of_Virtual_Component_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IComponent2::IsVirtual Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsVirtual.html)
-
 [IAssemblyDoc::InsertNewVirtualAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewVirtualAssembly.html)
-
 [IComponent2::MakeVirtual Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~MakeVirtual.html)
 
 ## Availability

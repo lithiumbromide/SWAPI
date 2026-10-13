@@ -1,6 +1,5 @@
 ---
-title: "IHingeMateFeatureData Object
-Members"
+title: "IHingeMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IHingeMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IHingeMateFeatureData_members.html"
 ---
 
-# IHingeMateFeatureData Object
-Members
+# IHingeMateFeatureData Object Members
 
 ## Public Properties
 

@@ -39,32 +39,17 @@ void Detach()
 void Detach();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Use this method after you finish using the other
-
-[IBomTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable.html)
-
-methods.
+Use this method after you finish using the other [IBomTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable.html) methods.
 
 ## VBA Syntax
 
-See
-
-[BomTable::Detach](ms-its:sldworksapivb6.chm::/sldworks~BomTable~Detach.html)
-
-.
+See [BomTable::Detach](ms-its:sldworksapivb6.chm::/sldworks~BomTable~Detach.html).
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)

@@ -44,17 +44,11 @@ property swDmDimXpertChamferDimensionType_e ChamferType {
 
 ### Property Value
 
-Type of chamfer dimension as defined in
-
-[swDmDimXpertChamferDimensionType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertChamferDimensionType_e.html)
+Type of chamfer dimension as defined in [swDmDimXpertChamferDimensionType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertChamferDimensionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertChamferDimTol::ChamferType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferDimTol~ChamferType.html)
-
-.
+See [SwDMDimXpertChamferDimTol::ChamferType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferDimTol~ChamferType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertChamferDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferDimTol.html)
-
 [ISwDMDimXpertChamferDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferDimTol_members.html)
 
 ## Availability

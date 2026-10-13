@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # LargeAssemblyMode Property (IModelDoc2)
 
-Gets or sets
-
-Large Assembly Mode
-
-for this document.
+Gets or sets Large Assembly Mode for this document.
 
 ## Syntax
 
@@ -49,30 +45,19 @@ property System.bool LargeAssemblyMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True enablesLarge Assembly Mode, false disables it
+True enables Large Assembly Mode, false disables it
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::LargeAssemblyMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~LargeAssemblyMode.html)
-
-.
+See [ModelDoc2::LargeAssemblyMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~LargeAssemblyMode.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

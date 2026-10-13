@@ -1,6 +1,5 @@
 ---
-title: "CostAnalysis3dPrinting Object
-Members"
+title: "CostAnalysis3dPrinting Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostAnalysis3dPrinting_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostAnalysis3dPrinting_members.html"
 ---
 
-# CostAnalysis3dPrinting Object
-Members
+# CostAnalysis3dPrinting Object Members
 
 ## Public Methods
 

@@ -45,13 +45,7 @@ property System.bool UseSolidWorksViewAspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to use the aspect ratio of the SOLIDWORKS view for ray-trace rendering engi
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::UseSolidWorksViewAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UseSolidWorksViewAspectRatio.html)
-
-.
+See [RayTraceRendererOptions::UseSolidWorksViewAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UseSolidWorksViewAspectRatio.html).
 
 ## Examples
 
-See the
-
-[IRayTraceRendererOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
-examples.
+See the [IRayTraceRendererOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html) examples.
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::UseSceneBackgroundImageAspectRatio Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~UseSceneBackgroundImageAspectRatio.html)
 
 ## Availability

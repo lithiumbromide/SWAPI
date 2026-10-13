@@ -11,8 +11,7 @@ source: "sldworksapi/Get_Display_Dimensions,_Gtols,_and_Surface-Finish_Symbols_E
 
 ## Get Display Dimensions, GTols, and Surface-Finish Symbols Example (VBA)
 
-This example shows how to get all of the annotations in a part, assembly, or
-drawing.
+This example shows how to get all of the annotations in a part, assembly, or drawing.
 
 ```
 '-----------------------------------------------

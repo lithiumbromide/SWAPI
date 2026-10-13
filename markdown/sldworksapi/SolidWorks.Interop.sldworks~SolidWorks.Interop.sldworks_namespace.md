@@ -78,8 +78,7 @@ SOLIDWORKS API
 | ICommandGroup | Allows add-in applications to create toolbars and menu items, including flyout toolbars and submenus, and add them to the ICommandManager. |
 | ICommandManager | Allows add-in applications to add and remove CommandGroups (menus and toolbars) to the CommandManager. |
 | ICommandTab | Allows add-in applications to create tabs and add them to the CommandManager . The add-in application must create and clean up its own tabs. |
-| ICommandTabBox | Allows add-in applications to create CommandManager tab boxes and add them to a CommandManager tab. The add-in application must
-create and clean-up its own tab boxes. |
+| ICommandTabBox | Allows add-in applications to create CommandManager tab boxes and add them to a CommandManager tab. The add-in application must create and clean-up its own tab boxes. |
 | IComment | Allows access to the comments in the Comment folder in the FeatureManager design tree. |
 | ICommentFolder | Allows access to the Comment folder in the FeatureManager design tree. |
 | IComplexCornerTreatmentFeatureData | Allows access to a complex corner treatment feature of a structure system. |
@@ -140,11 +139,12 @@ create and clean-up its own tab boxes. |
 | IDowelSymbol | Allows access to a dowel symbol. |
 | IDraftFeatureData | Obsolete. Superseded by IDraftFeatureData2 . |
 | IDraftFeatureData2 | Allows access to a draft feature. |
-| IDragArrowManipulator | Allows access to drag arrows, which are called handles in the SOLIDWORKS user interface. |
-| IDragOperator | Allows access to settings for the Move Components command in the SOLIDWORKS user-interface. |
+| IDragArrowManipulator | Allows access to drag arrows, which are called handles in the SOLIDWORKS Design user interface. |
+| IDragOperator | Allows access to settings for the Move Components command in the SOLIDWORKS Design user-interface. |
 | IDrawingComponent | Represents the referenced component in a drawing view. |
 | IDrawingDoc | Allows access to functions that perform drawing operations. |
 | IDrSection | Allows access to a section view in a drawing. |
+| IDSPBRMaterial | Allows access to Dassault Systemes Physically Based Rendering (DSPBR) material object. |
 | IEdge | Allows access to its defining coedge, and adjacent faces, and its underlying curve and vertices as well as edge data. |
 | IEdgeFlangeFeatureData | Allows access to a sheet metal edge flange feature. |
 | IEdgePoint | Allows access to a midpoint on an edge or an endpoint or midpoint on a reference curve . |
@@ -179,6 +179,8 @@ create and clean-up its own tab boxes. |
 | IFaceDecalProperties | Allow access to the properties of decals applied to faces in models. |
 | IFaceHatch | Represents a cross-hatch, which is automatically added by SOLIDWORKS when you create a section view , aligned section view, break view, or detail view . |
 | IFacet | Allows access to a triangular facet of a mesh or graphics body. |
+| IFamilyTableAnnotation | Allows access to the family table annotation. |
+| IFamilyTableFeature | Allows access to the family table feature. |
 | IFaultEntity | Identifies entities with faults and types of faults. |
 | IFeatMgrView | Allows access to a view (tab) in the FeatureManager design tree. |
 | IFeature | Allows access to the feature type, name, parameter data, and the next feature in the FeatureManager design tree. |
@@ -263,6 +265,7 @@ create and clean-up its own tab boxes. |
 | IMathUtility | Provides access to the SOLIDWORKS math objects. These objects can simplify commonly used math calculations used with many API functions. |
 | IMathVector | Provides a simplified interface for manipulating math vectors. |
 | IMBD3DPdfData | Gains access to the details for publishing a SOLIDWORKS MBD 3D PDF. |
+| IMBDSTEP242Data | Allows access to the details for publishing a SOLIDWORKS MBD 3D STEP242 file. |
 | IMeasure | Allows access to the measure tool. |
 | IMeshBody | Allows access to a mesh body. |
 | IMessageBarDefinition | Allows access to a message bar in an add-in. |
@@ -301,7 +304,7 @@ create and clean-up its own tab boxes. |
 | IPartingSurfaceFeatureData | Allows access to a parting surface feature. |
 | IPerpendicularMateFeatureData | Allows access to a perpendicular mate feature. |
 | IPlaneManipulator | Allows access to a plane that has a manipulator. |
-| IPLMObjectSpecification | Allows access to a SOLIDWORKS Connected document specification. |
+| IPLMObjectSpecification | Allows access to a SOLIDWORKS Design connected to the 3DEXPERIENCE platform document specification. |
 | IPMIDatumData | Allows access to the Product and Manufacturing Information (PMI) for a datum annotation in a STEP 242 model. |
 | IPMIDatumFeature | Allows access to a Product and Manufacturing Information (PMI) datum feature. |
 | IPMIDatumTarget | Allows access to a Product and Manufacturing Information (PMI) datum target. |
@@ -323,8 +326,7 @@ create and clean-up its own tab boxes. |
 | IProjectionArrow | Allows access to a projection arrow. |
 | IProjectionCurveFeatureData | Allows access to a projection curve feature. |
 | IPropertyManagerPage | Obsolete. Superseded by IPropertyManagerPage2 . |
-| IPropertyManagerPage2 | Provides add-in applications the ability to display and use views that have the look and feel of SOLIDWORKS
-PropertyManager pages. |
+| IPropertyManagerPage2 | Provides add-in applications the ability to display and use views that have the look and feel of SOLIDWORKS PropertyManager pages. |
 | IPropertyManagerPageActiveX | Allows you to access a PropertyManager page ActiveX control. |
 | IPropertyManagerPageBitmap | Allows you to access a PropertyManager page bitmap. |
 | IPropertyManagerPageBitmapButton | Allows you to access a PropertyManager page bitmap button control. |
@@ -370,7 +372,7 @@ PropertyManager pages. |
 | IRuledSurfaceFeatureData | Allows access to a ruled-surface feature. |
 | ISafeArrayUtility | Access the ISafeArrayUtility interface, which can: get an unpacked array of native SOLIDWORKS Dispatch-based objects of the same data type and return a packed Variant SafeArray to use in methods that requires passing a packed Variant SafeArray. get a packed Variant SafeArray and return an unpacked array of native SOLIDWORKS Dispatch-based objects of the same data type. get a Variant SafeArray and return the number of SafeArray objects in the Variant SafeArray and their data type. get and put a value in a Variant SafeArray of the same data type. |
 | ISaveBodyFeatureData | Allows access to a Save Bodies feature. |
-| ISaveTo3DExperienceOptions | Allows access to options for saving a document in SOLIDWORKS Connected . |
+| ISaveTo3DExperienceOptions | Allows access to options for saving a document in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | IScaleFeatureData | Allows access to a scale feature. |
 | IScrewMateFeatureData | Allows access to a screw mate feature. |
 | ISecondaryMemberBetweenPointsFeatureData | Allows access to a secondary structure system member that is created between the end points on primary structure system member pairs. |
@@ -469,7 +471,7 @@ PropertyManager pages. |
 | ISwOLEObject | Allows access to an OLE object. |
 | ISwPEClassFactory | Allows access to the callback object used by ISwPEManager to send a license key back to SOLIDWORKS for SOLIDWORKS Partner entitlement verification. |
 | ISwPEToken | * For future use* |
-| ISWPropertySheet | Allows applications to add pages to certain property sheets that are exported by the SOLIDWORKS application. |
+| ISWPropertySheet | Allows applications to add pages to certain property sheets that are exported by the SOLIDWORKS Design application. |
 | ISwScene | Allows access to the scene of a model. |
 | ISymmetricMateFeatureData | Allows access to symmetry mate feature data. |
 | ITabAndSlotFeatureData | Allows access to a tab and slot feature. |
@@ -499,6 +501,7 @@ PropertyManager pages. |
 | IUserUnit | Allows you to manage units. |
 | IVariableFilletFeatureData | Obsolete. Superseded by IVariableFilletFeatureData2 . |
 | IVariableFilletFeatureData2 | Allows access to a variable radius fillet feature. |
+| IVersionCompatibilityItem | Describes a reason a document cannot be saved to the file format of a previous version of SOLIDWORKS. |
 | IVertex | Represents the start or end of an edge . |
 | IView | Represents drawing views found in a drawing document. |
 | IView3D | Allows access to a 3D View of a part or assembly. |
@@ -524,10 +527,11 @@ PropertyManager pages. |
 | DAssemblyDocEvents_ActiveDisplayStateChangePreNotifyEventHandler | Fired before the display state of a configuration is changed or before a configuration is changed. |
 | DAssemblyDocEvents_ActiveViewChangeNotifyEventHandler | Fired when the active view changes. |
 | DAssemblyDocEvents_AddCustomPropertyNotifyEventHandler | Post-notifies the user program when the user adds a custom property. |
+| DAssemblyDocEvents_AddDependencyNotifyEventHandler | Fired when the assembly references the specified document for the first time. |
 | DAssemblyDocEvents_AddItemNotifyEventHandler | Notifies the user when a component is added to the FeatureManager design tree. |
 | DAssemblyDocEvents_AddMatePostNotify2EventHandler | Fired after one or more mates are created in an assembly. |
 | DAssemblyDocEvents_AddMatePostNotifyEventHandler | Obsolete. Superseded by DAssemblyDocEvents_AddMatePostNotify2EventHandler . |
-| DAssemblyDocEvents_AssemblyElectricalDataUpdateNotifyEventHandler | Fired when the SOLIDWORKS software updates the electrical data. |
+| DAssemblyDocEvents_AssemblyElectricalDataUpdateNotifyEventHandler | Fired when the SOLIDWORKS Design software updates the electrical data. |
 | DAssemblyDocEvents_AutoSaveNotifyEventHandler | Fired when the assembly document is automatically saved. |
 | DAssemblyDocEvents_AutoSaveToStorageNotifyEventHandler | Fired when the assembly document is automatically saved to third-party IStream storage. |
 | DAssemblyDocEvents_AutoSaveToStorageStoreNotifyEventHandler | Fired when the assembly document is automatically saved to third-party IStorage storage. |
@@ -552,9 +556,9 @@ PropertyManager pages. |
 | DAssemblyDocEvents_ComponentVisualPropertiesChangeNotifyEventHandler | Fired when a visual property, such as color, transparency, and so on, of a component is changed. |
 | DAssemblyDocEvents_ConfigurationChangeNotifyEventHandler | Gets information about an object or feature that has had one of its configurable parameters changed. |
 | DAssemblyDocEvents_DeleteCustomPropertyNotifyEventHandler | Post-notifies the user program when the user deletes a custom property. |
-| DAssemblyDocEvents_DeleteItemNotifyEventHandler | Notifies the user program when an item is deleted from one of the SOLIDWORKS tree structures (for example, the FeatureManager design tree or the ConfigurationManager tree). |
-| DAssemblyDocEvents_DeleteItemPreNotifyEventHandler | Notifies the user program when an item is about to be deleted from one of the SOLIDWORKS tree structures (for example, the FeatureManager design tree or the
-ConfigurationManager tree). |
+| DAssemblyDocEvents_DeleteDependencyNotifyEventHandler | Fired when the assembly no longer references the specified document. |
+| DAssemblyDocEvents_DeleteItemNotifyEventHandler | Notifies the user program when an item is deleted from one of the SOLIDWORKS Design tree structures (for example, the FeatureManager design tree or the ConfigurationManager tree). |
+| DAssemblyDocEvents_DeleteItemPreNotifyEventHandler | Notifies the user program when an item is about to be deleted from one of the SOLIDWORKS tree structures (for example, the FeatureManager design tree or the ConfigurationManager tree). |
 | DAssemblyDocEvents_DeleteSelectionPreNotifyEventHandler | Pre-notifies the user program when the selection is deleted. |
 | DAssemblyDocEvents_DestroyNotify2EventHandler | Pre-notifies the user program when an assembly document is about to be destroyed. |
 | DAssemblyDocEvents_DestroyNotifyEventHandler | Obsolete. Superseded by DAssemblyDocEvents_DestroyNotify2EventHandler . |
@@ -578,11 +582,11 @@ ConfigurationManager tree). |
 | DAssemblyDocEvents_FileReloadCancelNotifyEventHandler | Fired if the IAssembly event FileReloadNotify is canceled. |
 | DAssemblyDocEvents_FileReloadNotifyEventHandler | Post-notifies the user program when an assembly document is reloaded. |
 | DAssemblyDocEvents_FileReloadPreNotifyEventHandler | Pre-notifies the user program when an assembly document is reloaded. |
-| DAssemblyDocEvents_FileSaveAsNotify2EventHandler | Pre-notifies the user program when a file is about to be saved with a new name and passes the new document name. This event is sent before SOLIDWORKS displays the File Save dialog. |
+| DAssemblyDocEvents_FileSaveAsNotify2EventHandler | Pre-notifies the user program when a file is about to be saved with a new name and passes the new document name. This event is sent before SOLIDWORKS Design displays the File Save dialog. |
 | DAssemblyDocEvents_FileSaveAsNotifyEventHandler | Obsolete. Superseded by DAssemblyDocEvents_FileSaveAsNotify2EventHandler . |
 | DAssemblyDocEvents_FileSaveNotifyEventHandler | Pre-notifies the user program when a file is about to be saved and passes the current document name. |
 | DAssemblyDocEvents_FileSavePostCancelNotifyEventHandler | Fired if FileSavePostNotify is not fired. |
-| DAssemblyDocEvents_FileSavePostNotifyEventHandler | Post-notifies the user program when a file is saved in SOLIDWORKS. |
+| DAssemblyDocEvents_FileSavePostNotifyEventHandler | Post-notifies the user program when a file is saved in SOLIDWORKS Design. |
 | DAssemblyDocEvents_FlipLoopNotifyEventHandler | Notifies your program when a loop flips. |
 | DAssemblyDocEvents_InsertTableNotifyEventHandler | Notifies your program when a table has been inserted in an assembly. |
 | DAssemblyDocEvents_InterferenceNotifyEventHandler | Notifies your program about an interference between parts in the assembly during the Move/Rotate Component command. |
@@ -604,12 +608,13 @@ ConfigurationManager tree). |
 | DAssemblyDocEvents_RegenPostNotifyEventHandler | Obsolete. Superseded by DAssemblyDocEvents RegenPostNotify2EventHandler . |
 | DAssemblyDocEvents_RenamedDocumentNotifyEventHandler | Fired when saving an assembly document in which a renamed component file is referenced by other assembly documents. |
 | DAssemblyDocEvents_RenameDisplayTitleNotifyEventHandler | Fired when the display title changes for an item in the FeatureManager design tree. |
-| DAssemblyDocEvents_RenameItemNotifyEventHandler | Fired when an item is renamed in one of the SOLIDWORKS tree structures, such as the FeatureManager design tree or the ConfigurationManager tree. |
+| DAssemblyDocEvents_RenameItemNotifyEventHandler | Fired when an item is renamed in one of the SOLIDWORKS Design tree structures, such as the FeatureManager design tree or the ConfigurationManager tree. |
 | DAssemblyDocEvents_SaveToStorageNotifyEventHandler | Fired when it is safe to save data to third-party IStream storage. |
 | DAssemblyDocEvents_SaveToStorageStoreNotifyEventHandler | Fired when it is safe to save data to third-party IStorage storage. |
 | DAssemblyDocEvents_SelectiveOpenPostNotifyEventHandler | Post-notifies the user program when assembly components are selected for Quick View/Selective Open. |
 | DAssemblyDocEvents_SensorAlertPreNotifyEventHandler | Fired before a sensor's value deviates from its limits in an assembly document. |
 | DAssemblyDocEvents_SketchSolveNotifyEventHandler | Fired whenever the sketch is solved; for example, when dragging a sketch entity, adding or editing relations, changing dimensions, and so on. |
+| DAssemblyDocEvents_SolidBodyFolderReorderNotifyEventHandler | Fired with a solid body folder is reordered, e.g., using IModelDocExtension::ReorderFeature2 . |
 | DAssemblyDocEvents_SuppressionStateChangeNotifyEventHandler | Fired when the suppression state of a feature changes. |
 | DAssemblyDocEvents_UndoPostNotifyEventHandler | Fired after an Undo operation occurs in an assembly document. |
 | DAssemblyDocEvents_UndoPreNotifyEventHandler | Fired before an Undo operation occurs in an assembly document. |
@@ -623,6 +628,7 @@ ConfigurationManager tree). |
 | DDrawingDocEvents_ActiveConfigChangeNotifyEventHandler | Pre-notifies the user program when the user is about to switch to a different configuration. |
 | DDrawingDocEvents_ActiveConfigChangePostNotifyEventHandler | Post-notifies the user program when the user has switched to a different configuration. |
 | DDrawingDocEvents_AddCustomPropertyNotifyEventHandler | Post-notifies the user program when the user has added a custom property. |
+| DDrawingDocEvents_AddDependencyNotifyEventHandler | Fired when the drawing references the specified document for the first time. |
 | DDrawingDocEvents_AddItemNotifyEventHandler | Notifies the user program when an item is added to one of the SOLIDWORKS tree structures (for example, FeatureManager design tree, ConfigurationManager tree, and so on). |
 | DDrawingDocEvents_AutoSaveNotifyEventHandler | Fired when the drawing document is automatically saved. |
 | DDrawingDocEvents_AutoSaveToStorageNotifyEventHandler | Fired when the drawing document is automatically saved to third-party IStream storage. |
@@ -631,6 +637,7 @@ ConfigurationManager tree). |
 | DDrawingDocEvents_ClearSelectionsNotifyEventHandler | Notifies the user program when selections are cleared using Clear Selections . |
 | DDrawingDocEvents_CommandManagerTabActivatedPreNotifyEventHandler | Pre-notifies you that a SOLIDWORKS CommandManager tab is about to be activated. |
 | DDrawingDocEvents_DeleteCustomPropertyNotifyEventHandler | Post-notifies the user program when the user deletes a custom property. |
+| DDrawingDocEvents_DeleteDependencyNotifyEventHandler | Fired when the drawing no longer references the specified document. |
 | DDrawingDocEvents_DeleteItemNotifyEventHandler | Notifies the user program when an item is deleted from one of the SOLIDWORKS tree structures (for example, the FeatureManager design tree or the ConfigurationManager tree). |
 | DDrawingDocEvents_DeleteItemPreNotifyEventHandler | Notifies the user program when an item is about to be deleted from one of the SOLIDWORKS tree structures (for example, the FeatureManager design tree or the ConfigurationManager tree). |
 | DDrawingDocEvents_DeleteSelectionPreNotifyEventHandler | Pre-notifies the user program when the selection is deleted. |
@@ -675,6 +682,7 @@ ConfigurationManager tree). |
 | DDrawingDocEvents_ViewCreatePreNotifyEventHandler | Pre-notifies the user application when a drawing view is about to be created. |
 | DDrawingDocEvents_ViewNewNotify2EventHandler | Post-notifies the user program when a new view window is created. |
 | DDrawingDocEvents_ViewNewNotifyEventHandler | Obsolete. Superseded by DDrawingDocEvents_ViewNewNotify2EventHandler . |
+| DDrawingDocEvents_ViewPositionChangeNotifyEventHandler | Post-notifies the user program when a drawing view changes position. |
 | DFeatMgrViewEvents_ActivateNotifyEventHandler | Post-notifies the user program once a FeatureManager design tree view is activated and returns the view handle. |
 | DFeatMgrViewEvents_DeactivateNotifyEventHandler | Post-notifies the user program once a FeatureManager design tree view is deactivated and returns the view handle. |
 | DFeatMgrViewEvents_DestroyNotifyEventHandler | Pre-notifies the user program when a FeatureManager design tree view is about to be destroyed and returns the view handle. |
@@ -711,6 +719,7 @@ ConfigurationManager tree). |
 | DPartDocEvents_ActiveDisplayStateChangePreNotifyEventHandler | Fired before the display state of a configuration is changed or before a configuration is changed. |
 | DPartDocEvents_ActiveViewChangeNotifyEventHandler | Fired when the active view changes. |
 | DPartDocEvents_AddCustomPropertyNotifyEventHandler | Post-notifies the user program when the user has added a custom property. |
+| DPartDocEvents_AddDependencyNotifyEventHandler | Fired when the part references the specified document for the first time. |
 | DPartDocEvents_AddItemNotifyEventHandler | Fired when an item is added to one of the SOLIDWORKS tree structures such as the FeatureManager design tree and the ConfigurationManager. |
 | DPartDocEvents_AutoSaveNotifyEventHandler | Fired when the part document is automatically saved. |
 | DPartDocEvents_AutoSaveToStorageNotifyEventHandler | Fired when the part document is automatically saved to third-party IStream storage. |
@@ -724,6 +733,7 @@ ConfigurationManager tree). |
 | DPartDocEvents_ConvertToBodiesPostNotifyEventHandler | Fired after the Convert to Bodies dialog closes. |
 | DPartDocEvents_ConvertToBodiesPreNotifyEventHandler | Fired before the Convert to Bodies dialog opens. |
 | DPartDocEvents_DeleteCustomPropertyNotifyEventHandler | Post-notifies the user program when the user has deleted a custom property. |
+| DPartDocEvents_DeleteDependencyNotifyEventHandler | Fired when the part no longer references the specified document. |
 | DPartDocEvents_DeleteItemNotifyEventHandler | Notifies the user program when an item is deleted from one of the SOLIDWORKS tree structures, such as the FeatureManager design tree and the ConfigurationManager. |
 | DPartDocEvents_DeleteItemPreNotifyEventHandler | Notifies the user program when an item is about to be deleted from one of the SOLIDWORKS tree structures, such as the FeatureManager design tree and the ConfigurationManager. |
 | DPartDocEvents_DeleteSelectionPreNotifyEventHandler | Pre-notifies the user when the selection is deleted. |
@@ -776,6 +786,7 @@ ConfigurationManager tree). |
 | DPartDocEvents_SaveToStorageStoreNotifyEventHandler | Fired when it is safe to save data to third-party IStorage storage. |
 | DPartDocEvents_SensorAlertPreNotifyEventHandler | Fired before a sensor's value deviates from its limits in a part document. |
 | DPartDocEvents_SketchSolveNotifyEventHandler | Fired whenever the sketch is solved; for example, when dragging a sketch entity, adding or editing relations, changing dimensions, and so on. This event returns the name of the sketch feature being updated. |
+| DPartDocEvents_SolidBodyFolderReorderNotifyEventHandler | Fired when a solid body folder is reordered, e.g., using IModelDocExtension::ReorderFeature2 . |
 | DPartDocEvents_SuppressionStateChangeNotifyEventHandler | Fired when the suppression state of a feature changes. |
 | DPartDocEvents_UndoPostNotifyEventHandler | Fired after an Undo action occurs in a part document. |
 | DPartDocEvents_UndoPreNotifyEventHandler | Fired before an Undo operation occurs in a part document. |
@@ -791,21 +802,21 @@ ConfigurationManager tree). |
 | DSldWorksEvents_BackgroundProcessingStartNotifyEventHandler | Notifies the user program when background processing has started. |
 | DSldWorksEvents_Begin3DInterconnectTranslationNotifyEventHandler | Notifies the user program when the SOLIDWORKS application starts to import or export a third-party native CAD file. |
 | DSldWorksEvents_BeginRecordNotifyEventHandler | Notifies the user program when a macro recording has started. |
-| DSldWorksEvents_BeginTranslationNotifyEventHandler | Notifies the user program when the SOLIDWORKS applications starts to import a file. |
+| DSldWorksEvents_BeginTranslationNotifyEventHandler | Notifies the user program when the SOLIDWORKS application starts to import a file. |
 | DSldWorksEvents_CommandCloseNotifyEventHandler | Fired when a command, including a PropertyManager page, is okay'd or canceled by a user. |
 | DSldWorksEvents_CommandOpenPreNotifyEventHandler | Fired before a command, including a PropertyManager page, executes or opens. |
-| DSldWorksEvents_DestroyNotifyEventHandler | Sent to an MFC-based or a COM-based DLL add-in when SOLIDWORKS is about to be destroyed. |
+| DSldWorksEvents_DestroyNotifyEventHandler | Sent to an MFC-based or a COM-based DLL add-in when the SOLIDWORKS session is about to be destroyed. |
 | DSldWorksEvents_DisplayPaneActivationNotifyEventHandler | Fired when the Display Pane is activated. |
 | DSldWorksEvents_DocumentConversionNotifyEventHandler | Post-notifies the user program that a file has been converted from an older version of SOLIDWORKS during the open operation. |
 | DSldWorksEvents_DocumentLoadNotify2EventHandler | Post-notifies the user program when a SOLIDWORKS document is loaded. |
 | DSldWorksEvents_DocumentLoadNotifyEventHandler | Obsolete. Superseded by DSldWorksEvetns_DocumentLoadNotify2EventHandler . |
 | DSldWorksEvents_End3DInterconnectTranslationNotifyEventHandler | Notifies the user program when the SOLIDWORKS application is finished importing or exporting a third-party native CAD file. |
-| DSldWorksEvents_EndRecordNotifyEventHandler | Notifies the user program when a macro recording has ended, including if the user cancels the recording (i.e., the user cancels out of the Save As dialog and says No to the SOLIDWORKS Continue recording? dialog). |
+| DSldWorksEvents_EndRecordNotifyEventHandler | Notifies the user program when a macro recording has ended, including if the user cancels the recording (i.e., the user cancels out of the Save As dialog and says No to the Continue recording? dialog). |
 | DSldWorksEvents_EndTranslationNotifyEventHandler | Notifies the user program when the SOLIDWORKS application is finished importing a file. |
 | DSldWorksEvents_FileCloseNotifyEventHandler | Notifies the user program when SOLIDWORKS is finished closing a file. |
 | DSldWorksEvents_FileNewNotify2EventHandler | Post-notifies the user program when a new file is created. |
 | DSldWorksEvents_FileNewNotifyEventHandler | Obsolete. Superseded by DSldWorksEvents_FileNewNotify2EventHandler . |
-| DSldWorksEvents_FileNewPreNotifyEventHandler | Fired before a new document is created either using the SOLIDWORKS API or the SOLIDWORKS user-interface. |
+| DSldWorksEvents_FileNewPreNotifyEventHandler | Fired before a new document is created using either the SOLIDWORKS API or the SOLIDWORKS application. |
 | DSldWorksEvents_FileOpenNotify2EventHandler | Post-notifies the user program when an existing file has been opened. |
 | DSldWorksEvents_FileOpenNotifyEventHandler | Obsolete. Superseded by DSldWorksEvents_FileOpenNotify2EventHandler . |
 | DSldWorksEvents_FileOpenPostNotifyEventHandler | Post-notifies the user program when a file has been opened. |
@@ -820,7 +831,7 @@ ConfigurationManager tree). |
 | DSldWorksEvents_PropertySheetCreateNotifyEventHandler | Notifies the user program when an exported ISWPropertySheet is created so that the application can add pages to it. |
 | DSldWorksEvents_ReferencedFilePreNotify2EventHandler | Notifies the user program before SOLIDWORKS opens the specified file with the specified status. |
 | DSldWorksEvents_ReferencedFilePreNotifyEventHandler | Obsolete. Superseded by DSldWorksEvents_ReferencedFilePreNotify2EventHandler . |
-| DSldWorksEvents_ReferenceNotFoundNotifyEventHandler | Notifies the user program before the SOLIDWORKS software displays a dialog box prompting the end-user to browse for the referenced file. |
+| DSldWorksEvents_ReferenceNotFoundNotifyEventHandler | Notifies the user program before SOLIDWORKS displays a dialog box prompting the end-user to browse for the referenced file. |
 | DSldWorksEvents_TaskPaneCollapseNotifyEventHandler | Fired when the Task Pane collapses. |
 | DSldWorksEvents_TaskPaneExpandNotifyEventHandler | Fired when the Task Pane expands. |
 | DSldWorksEvents_TaskPaneHideNotifyEventHandler | Fired when the Task Pane hides. |

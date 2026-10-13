@@ -40,13 +40,7 @@ System.bool SupplementaryAngle()
 System.bool SupplementaryAngle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the angle in the selected angular dimension changes to its supplementary
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SupplementaryAngle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SupplementaryAngle.html)
-
-.
+See [DisplayDimension::SupplementaryAngle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SupplementaryAngle.html).
 
 ## Examples
 
 [Change Angle to Supplementary Angle (C#)](Change_Angle_to_Supplementary_Angle_Example_CSharp.htm)
-
 [Change Angle to Supplementary Angle (VB.NET)](Change_Angle_to_Supplementary_Angle_Example_VBNET.htm)
-
 [Change Angle to Supplementary Angle (VBA)](Change_Angle_to_Supplementary_Angle_Example_VB.htm)
 
 ## Remarks
@@ -78,11 +66,8 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IModelDocExtension::AddDimension Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddDimension.html)
-
 [IModelDoc2::AddDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddDimension2.html)
 
 ## Availability

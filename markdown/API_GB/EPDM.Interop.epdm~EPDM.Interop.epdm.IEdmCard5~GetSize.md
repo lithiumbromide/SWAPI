@@ -48,7 +48,6 @@ void GetSize(
 ## Examples
 
 [Get Card Control Information (VB.NET)](Get_Card_Control_Info_Example_VBNET.htm)
-
 [Get Card Control Information (C#)](Get_Card_Control_Info_Example_CSharp.htm)
 
 ## Remarks
@@ -61,7 +60,6 @@ void GetSize(
 ## See Also
 
 [IEdmCard5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)
-
 [IEdmCard5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5_members.html)
 
 ## Availability

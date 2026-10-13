@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Reference_Dimension_Example_VB.htm"
 
 # Add Reference Dimension Example (VBA)
 
-This example shows how to add a reference dimension to a model in a
-drawing.
+This example shows how to add a reference dimension to a model in a drawing.
 
 ```
 '---------------------------------------------------------------

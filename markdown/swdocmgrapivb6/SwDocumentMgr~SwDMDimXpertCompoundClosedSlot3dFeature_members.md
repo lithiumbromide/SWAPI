@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertCompoundClosedSlot3dFeature Object
-Members"
+title: "SwDMDimXpertCompoundClosedSlot3dFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertCompoundClosedSlot3dFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertCompoundClosedSlot3dFeature_members.html"
 ---
 
-# SwDMDimXpertCompoundClosedSlot3dFeature Object
-Members
+# SwDMDimXpertCompoundClosedSlot3dFeature Object Members
 
 ## Public Methods
 

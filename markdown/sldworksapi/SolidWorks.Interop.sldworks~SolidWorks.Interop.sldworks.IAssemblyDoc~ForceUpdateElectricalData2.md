@@ -47,13 +47,7 @@ System.int ForceUpdateElectricalData2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,15 @@ Status of update as defined in swForceUpdateElectricalDataError_e
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ForceUpdateElectricalData2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ForceUpdateElectricalData2.html)
-
-.
+See [AssemblyDoc::ForceUpdateElectricalData2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ForceUpdateElectricalData2.html).
 
 ## Remarks
 
-Third-party applications should use this method to tell the SOLIDWORKS software that they have changed the electrical data. The SOLIDWORKS software then re-reads the data to get the updates.
+Third-party applications should use this method to tell the SOLIDWORKS Design software that they have changed the electrical data. The SOLIDWORKS Design software then re-reads the data to get the updates.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

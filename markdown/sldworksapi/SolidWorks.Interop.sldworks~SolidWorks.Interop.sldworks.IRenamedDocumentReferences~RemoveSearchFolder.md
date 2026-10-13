@@ -47,13 +47,7 @@ System.bool RemoveSearchFolder(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,18 @@ True if the specified folder is removed from the search, false if not
 
 ## VBA Syntax
 
-See
-
-[RenamedDocumentReferences::RemoveSearchFolder](ms-its:sldworksapivb6.chm::/Sldworks~RenamedDocumentReferences~RemoveSearchFolder.html)
-
-.
+See [RenamedDocumentReferences::RemoveSearchFolder](ms-its:sldworksapivb6.chm::/Sldworks~RenamedDocumentReferences~RemoveSearchFolder.html).
 
 ## Remarks
 
-This method is only available if
-
-[IRenamedDocumentReferences::UpdateWhereUsedReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences~UpdateWhereUsedReferences.html)
-
-is true.
+This method is only available if [IRenamedDocumentReferences::UpdateWhereUsedReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences~UpdateWhereUsedReferences.html) is true.
 
 ## See Also
 
 [IRenamedDocumentReferences Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
-
 [IRenamedDocumentReferences Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences_members.html)
-
 [IRenameDocumentReferences::AddSearchFolder Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences~AddSearchFolder.html)
-
 [IRenameDocumentReferences::GetSearchPath Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences~GetSearchPath.html)
-
 [IRenameDocumentReferences::IncludeFileLocations Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences~IncludeFileLocations.html)
 
 ## Availability

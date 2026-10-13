@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetRowCount Method (IBomTable)
 
-Obsolete. Superseded by
-
-[IBomTable::GetTotalRowCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetTotalRowCount.html)
-
-.
+Obsolete. Superseded by [IBomTable::GetTotalRowCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetTotalRowCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetRowCount()
 System.int GetRowCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BomTable::GetRowCount](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetRowCount.html)
-
-.
+See [BomTable::GetRowCount](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetRowCount.html).
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)

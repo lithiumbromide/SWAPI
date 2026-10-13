@@ -40,13 +40,7 @@ System.object GetCoEdges()
 System.Object^ GetCoEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Array of coedges that reference the edge
 
 ## VBA Syntax
 
-See
-
-[Edge::GetCoEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetCoEdges.html)
-
-.
+See [Edge::GetCoEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetCoEdges.html).
 
 ## Examples
 
 [Select Loop of Edges (VBA)](Select_Loop_of_Edges_Example_VB_.htm)
-
 [Select Tangent Edges Via Iteration (VBA)](Select_Tangent_Edges_Example_VB.htm)
 
 ## Remarks
@@ -73,7 +62,6 @@ Call this method for body-related edges, not reference curve or sketch edges.
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
 
 ## Availability

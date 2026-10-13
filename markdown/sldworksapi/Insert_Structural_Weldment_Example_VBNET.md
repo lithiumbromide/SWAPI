@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Structural_Weldment_Example_VBNET.htm"
 
 # Insert Structural Weldment Example (VB.NET)
 
-This example shows how to create structural weldment features using
-structural member groups.
+This example shows how to create structural weldment features using structural member groups.
 
 ```
 '---------------------------------------------------------------------------

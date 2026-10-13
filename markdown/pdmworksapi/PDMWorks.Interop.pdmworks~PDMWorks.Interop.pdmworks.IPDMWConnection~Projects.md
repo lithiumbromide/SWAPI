@@ -44,20 +44,15 @@ property PDMWProjects^ Projects {
 
 ### Property Value
 
-Collection of[SOLIDWORKS Workgroup PDM projects](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)
+Collection of [SOLIDWORKS Workgroup PDM projects](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::Projects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Projects.html)
-
-.
+See [PDMWConnection::Projects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Projects.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

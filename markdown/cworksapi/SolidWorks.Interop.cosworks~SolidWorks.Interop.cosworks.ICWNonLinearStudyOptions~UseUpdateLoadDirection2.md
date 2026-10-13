@@ -50,15 +50,11 @@ property System.bool UseUpdateLoadDirection2 {
 - -1 or true = Use update load direction with deflection flag
 - 0 or false = Do not use update load direction with deflection flag
 
-(see**Remarks**)
+(see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::UseUpdateLoadDirection2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseUpdateLoadDirection2.html)
-
-.
+See [CWNonLinearStudyOptions::UseUpdateLoadDirection2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseUpdateLoadDirection2.html).
 
 ## Remarks
 
@@ -67,7 +63,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

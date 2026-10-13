@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swExportT
 
 # swExportToDWG_e Enumeration
 
-Options for the Action parameter of
-
-[IPartDoc::ExportToDWG2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IExportToDWG2.html)
-
-.
+Options for the Action parameter of [IPartDoc::ExportToDWG2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IExportToDWG2.html).
 
 ## Syntax
 

@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_Configuration-Specific_Custom_Properties_Example_CSharp
 
 # Get Configuration-Specific Custom Properties for Components (C#)
 
-This example shows how to get custom properties for
-assembly components.
+This example shows how to get custom properties for assembly components.
 
 ```vb
 //----------------------------------------------------------------------------

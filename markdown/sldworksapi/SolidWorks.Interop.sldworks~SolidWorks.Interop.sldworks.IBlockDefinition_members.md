@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # IBlockDefinition Interface Members
 
-The following tables list the members exposed by[IBlockDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html).
+The following tables list the members exposed by [IBlockDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html).
 
 ## Public Properties
 
@@ -48,5 +48,4 @@ The following tables list the members exposed by[IBlockDefinition](SolidWorks.In
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

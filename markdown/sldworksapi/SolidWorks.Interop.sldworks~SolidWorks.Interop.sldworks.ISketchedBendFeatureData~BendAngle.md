@@ -45,13 +45,7 @@ property System.double BendAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::BendAngle](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~BendAngle.html)
-
-.
+See [SketchedBendFeatureData::BendAngle](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~BendAngle.html).
 
 ## Examples
 
-See the
-
-[ISketchedBendFeatureData::OverrideValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~OverrideValue.html)
-
-examples.
+See the [ISketchedBendFeatureData::OverrideValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~OverrideValue.html) examples.
 
 ## Examples
 
@@ -80,7 +66,6 @@ examples.
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
 
 ## Availability

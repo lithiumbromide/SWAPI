@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,27 +37,17 @@ public interface class IEdmVault21 : public IEdmVault10, IEdmVault11, IEdmVault1
 ## Examples
 
 [Using Basic Search Syntax (VB.NET)](Using_Basic_Search_Syntax_Example_VBNET.htm)
-
 [Using Basic Search Syntax (C#)](Using_Basic_Search_Syntax_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- extends
+- extends [IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html) by providing enhanced search functionality that includes multi-variable conditions, logical operators, and regular expressions.
 
-  [IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
-  by providing enhanced search functionality that includes multi-variable conditions, logical operators, and regular expressions.
-
-- is extended by
-
-  [IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html)
-
-  .
+- is extended by [IEdmVault22](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html).
 
 ## See Also
 
 [IEdmVault21 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

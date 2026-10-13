@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # EnumEdges Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2:: EnumEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~EnumEdges.html)
-
-.
+Obsolete. Superseded by [IFace2:: EnumEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~EnumEdges.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumEdges EnumEdges()
 EnumEdges^ EnumEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~EnumEdges.html)
-
-.
+See [Face::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~EnumEdges.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

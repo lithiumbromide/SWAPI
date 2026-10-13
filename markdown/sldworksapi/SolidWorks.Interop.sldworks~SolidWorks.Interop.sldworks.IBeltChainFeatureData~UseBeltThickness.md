@@ -45,13 +45,7 @@ property System.bool UseBeltThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to specify belt thickness, false to not
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::UseBeltThickness](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~UseBeltThickness.html)
-
-.
+See [BeltChainFeatureData::UseBeltThickness](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~UseBeltThickness.html).
 
 ## Examples
 
-See the
-
-[IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-examples.
+See the [IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html) examples.
 
 ## Remarks
 
-If this property is true, use
-
-[IBeltChainFeatureData::BeltThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~BeltThickness.html)
-
-to specify belt thickness.
+If this property is true, use [IBeltChainFeatureData::BeltThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~BeltThickness.html) to specify belt thickness.
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

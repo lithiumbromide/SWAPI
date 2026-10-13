@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITr
 
 # ITriadManipulator Interface Members
 
-The following tables list the members exposed by[ITriadManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html).
+The following tables list the members exposed by [ITriadManipulator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html).
 
 ## Public Properties
 
@@ -38,9 +38,6 @@ The following tables list the members exposed by[ITriadManipulator](SolidWorks.I
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)

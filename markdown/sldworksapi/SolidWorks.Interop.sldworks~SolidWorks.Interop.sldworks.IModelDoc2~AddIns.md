@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddIns Method (IModelDoc2)
 
-Displays the
-
-Add-In Manager
-
-dialog box.
+Displays the Add-In Manager dialog box.
 
 ## Syntax
 
@@ -43,30 +39,19 @@ void AddIns()
 void AddIns();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AddIns](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddIns.html)
-
-.
+See [ModelDoc2::AddIns](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddIns.html).
 
 ## Remarks
 
-See[ISldWorks::LoadAddIn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadAddIn.html)for details on how to programmatically load an add-in.
+See [ISldWorks::LoadAddIn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadAddIn.html) for details on how to programmatically load an add-in.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

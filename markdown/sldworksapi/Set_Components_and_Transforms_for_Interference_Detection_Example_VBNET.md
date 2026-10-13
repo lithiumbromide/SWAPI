@@ -11,13 +11,10 @@ source: "sldworksapi/Set_Components_and_Transforms_for_Interference_Detection_Ex
 
 This example shows how to:
 
-- move an assembly component
-  to an interfering position by replacing its transform.
+- move an assembly component to an interfering position by replacing its transform.
 - detect interference.
 
-This example also shows how to apply absolute transforms to all components in
-order to multiply by identity transforms, which results in the components
-remaining in their current positions during interference detection.
+This example also shows how to apply absolute transforms to all components in order to multiply by identity transforms, which results in the components remaining in their current positions during interference detection.
 
 ```
 '------------------------------------------------------------------------

@@ -63,31 +63,15 @@ System.Object^ CreateSaveBodyFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Bodies`: - Array of
-
-[solid bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-to save as parts (See
-
-Remarks)
+- `Bodies`: - Array of [solid bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) to save as parts (See **Remarks)**
 - `FilePaths`: - Array of paths and filenames of the part documents to which to save Bodies
 - `AssemName`: Path and filename of the assembly document to which to save Bodies
-- `ConsumeBody`: See
-
-Remarks
-- `CopyCustomProperty`: See
-
-Remarks
+- `ConsumeBody`: See **Remarks**
+- `CopyCustomProperty`: See **Remarks**
 
 ### Return Value
 
@@ -95,11 +79,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CreateSaveBodyFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateSaveBodyFeature.html)
-
-.
+See [FeatureManager::CreateSaveBodyFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateSaveBodyFeature.html).
 
 ## Examples
 
@@ -117,9 +97,7 @@ If any solid bodies in Bodies are invalid, they are skipped/ignored.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISaveBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData.html)
 
 ## Availability

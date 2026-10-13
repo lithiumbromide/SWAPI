@@ -47,19 +47,11 @@ System.bool SetStandardBitmap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Bitmap`: Control standard type as defined in
-
-[swBitmapControlStandardTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBitmapControlStandardTypes_e.html)
+- `Bitmap`: Control standard type as defined in [swBitmapControlStandardTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBitmapControlStandardTypes_e.html)
 
 ### Return Value
 
@@ -67,19 +59,11 @@ True if the bitmap or PNG image is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageBitmap::SetStandardBitmap](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmap~SetStandardBitmap.html)
-
-.
+See [PropertyManagerPageBitmap::SetStandardBitmap](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmap~SetStandardBitmap.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageBitmap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap.html)
-
-examples.
+See the [IPropertyManagerPageBitmap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap.html) examples.
 
 ## Remarks
 
@@ -88,7 +72,6 @@ You can use this method before, during, or after the PropertyManager page is dis
 ## See Also
 
 [IPropertyManagerPageBitmap Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap.html)
-
 [IPropertyManagerPageBitmap Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap_members.html)
 
 ## Availability

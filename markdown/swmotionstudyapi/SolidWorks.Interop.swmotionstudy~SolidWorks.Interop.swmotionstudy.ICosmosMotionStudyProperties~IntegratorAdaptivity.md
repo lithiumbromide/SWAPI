@@ -51,16 +51,11 @@ Value to control intermittent curve/curve problems
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::IntegratorAdaptivity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~IntegratorAdaptivity.html)
-
-.
+See [CosmosMotionStudyProperties::IntegratorAdaptivity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~IntegratorAdaptivity.html).
 
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

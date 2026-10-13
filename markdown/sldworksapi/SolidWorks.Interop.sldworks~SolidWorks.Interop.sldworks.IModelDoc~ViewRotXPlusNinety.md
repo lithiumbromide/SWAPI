@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewRotXPlusNinety Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewRotXPlusNinety](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewRotXPlusNinety.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewRotXPlusNinety](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewRotXPlusNinety.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewRotXPlusNinety()
 void ViewRotXPlusNinety();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewRotXPlusNinety](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewRotXPlusNinety.html)
-
-.
+See [ModelDoc::ViewRotXPlusNinety](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewRotXPlusNinety.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -45,13 +45,7 @@ property System.double Z {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Z coordinate for the selection point
 
 ## VBA Syntax
 
-See
-
-[SelectData::Z](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Z.html)
-
-.
+See [SelectData::Z](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Z.html).
 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
-
 [ISelectData::X Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~X.html)
-
 [ISelectData::Y Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~Y.html)
 
 ## Availability

@@ -46,16 +46,11 @@ Latest revision
 
 ## VBA Syntax
 
-See
-
-[SwDMTable6::GetLatestRevision](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~GetLatestRevision.html)
-
-.
+See [SwDMTable6::GetLatestRevision](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~GetLatestRevision.html).
 
 ## See Also
 
 [ISwDMTable6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6.html)
-
 [ISwDMTable6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6_members.html)
 
 ## Availability

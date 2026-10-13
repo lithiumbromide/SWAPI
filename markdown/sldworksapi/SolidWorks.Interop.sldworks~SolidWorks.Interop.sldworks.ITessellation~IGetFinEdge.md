@@ -47,13 +47,7 @@ Edge^ IGetFinEdge(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,17 @@ See
 
 ### Return Value
 
-[Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-with which this fin is shared
+[Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) with which this fin is shared
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetFinEdge](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFinEdge.html)
-
-.
+See [Tessellation::IGetFinEdge](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFinEdge.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability
 
-SOLIDWORKS 2001 FCS, Revision Number 9.0
-
-[ITessellate::GetFinEdge Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~GetFinEdge.html)
+SOLIDWORKS 2001 FCS, Revision Number 9.0[ITessellate::GetFinEdge Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~GetFinEdge.html)

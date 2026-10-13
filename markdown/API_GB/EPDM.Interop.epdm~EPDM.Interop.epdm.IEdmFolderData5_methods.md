@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_methods.html
 
 # IEdmFolderData5 Interface Methods
 
-For a list of all members of this type, see[IEdmFolderData5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_members.html).
+For a list of all members of this type, see [IEdmFolderData5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_members.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IEdmFolderData5 members](EPDM.Intero
 ## See Also
 
 [IEdmFolderData5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

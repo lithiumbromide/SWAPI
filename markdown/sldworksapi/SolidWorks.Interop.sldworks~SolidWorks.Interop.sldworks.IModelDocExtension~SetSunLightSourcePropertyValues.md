@@ -63,19 +63,11 @@ System.bool SetSunLightSourcePropertyValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `NorthDirection`: [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-; north direction of the sunlight source
+- `NorthDirection`: [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html); north direction of the sunlight source
 - `NorthLatitude`: North latitude of the sunlight source
 - `EastLongitude`: East longitude of the sunlight source
 - `TimeZone`: Standard time zone of the sunlight source
@@ -87,32 +79,21 @@ True if sunlight source property values are successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetSunLightSourcePropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSunLightSourcePropertyValues.html)
-
-.
+See [ModelDocExtension::SetSunLightSourcePropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSunLightSourcePropertyValues.html).
 
 ## Examples
 
 [Get and Set Sunlight Source Property Values (VBA)](Get_and_Set_Sunlight_Source_Property_Values_Example_VB.htm)
-
 [Get and Set Sunlight Source Property Values (VB.NET)](Get_and_Set_Sunlight_Source_Property_Values_Example_VBNET.htm)
-
 [Get and Set Sunlight Source Property Values (C#)](Get_and_Set_Sunlight_Source_Property_Values_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::SetLightSourcePropertyValuesVB Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetLightSourcePropertyValuesVB.html)
-
 [IModelDocExtension::GetSunLightSourcePropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSunLightSourcePropertyValues.html)
-
 [IModelDoc2::LightSourcePropertyValues Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html)
-
 [IModelDocExtension::SetSunLightAdvancedPropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetSunLightAdvancedPropertyValues.html)
 
 ## Availability

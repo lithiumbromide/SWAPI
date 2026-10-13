@@ -46,36 +46,20 @@ public delegate System.int DPartDocEvents_AddItemNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntityType`: Type of new item as defined in
-
-[swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
+- `EntityType`: Type of new item as defined in [swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
 - `itemName`: Name of new item
 
 ## VBA Syntax
 
-See
-
-[AddItemNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~AddItemNotify_EV.html)
-
-.
+See [AddItemNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~AddItemNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartAddItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartAddItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

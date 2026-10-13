@@ -47,13 +47,7 @@ System.double IGetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::IGetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetTriangleAtIndex.html)
-
-.
+See [DatumTargetSym::IGetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[vertexPt1[3],vertexPt2[3],vertexPt3[3],isFilled,lineType]
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
 
 where:
 
@@ -93,9 +79,6 @@ where:
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTriangleAtIndex.html)
-
 [IDatumTargetSym::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTriangleCount.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # DirectCaustics Property (IRayTraceRendererOptions)
 
-Gets or sets whether to enable direct caustics in the
-
-[final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html)
-
-.
+Gets or sets whether to enable direct caustics in the [final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool DirectCaustics {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,11 +53,7 @@ True to enable direct caustics in the final render, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::DirectCaustics](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~DirectCaustics.html)
-
-.
+See [RayTraceRendererOptions::DirectCaustics](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~DirectCaustics.html).
 
 ## Remarks
 
@@ -76,15 +62,10 @@ Direct caustics are only visible in the final render and only when reflected off
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::CausticAmount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CausticAmount.html)
-
 [IRayTraceRendererOptions::CausticQuality Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CausticQuality.html)
-
 [IRayTraceRendererOptions::FinalRenderQuality Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~FinalRenderQuality.html)
-
 [IRayTraceRendererOptions::PreviewRenderQuality Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~PreviewRenderQuality.html)
 
 ## Availability

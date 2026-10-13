@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Model_Texture_Example_VB.htm"
 
 # Get Model Textures Example (VBA)
 
-This example shows how to get the texture applied to components that are
-displayed in lightweight mode.
+This example shows how to get the texture applied to components that are displayed in lightweight mode.
 
 ```
 '----------------------------------------------------------------------------

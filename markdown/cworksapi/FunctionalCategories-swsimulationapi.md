@@ -25,7 +25,7 @@ This topic lists the SOLIDWORKS Simulation interfaces categorized by functionali
 - [Results Interface](#Results)
 - [Topology Interfaces](#Topology)
 
-**NOTE:**Interfaces appear in alphabetical order on the Contents tab in the interop assembly namespace book.
+**NOTE:** Interfaces appear in alphabetical order on the Contents tab in the interop assembly namespace book.
 
 ##### SOLIDWORKS Simulation Interface
 
@@ -96,8 +96,10 @@ This topic lists the SOLIDWORKS Simulation interfaces categorized by functionali
 
   - [ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
   - [ICWBoltConnector](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector.html)
+  - [ICWCable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable.html)
   - [ICWEdgeWeldConnector](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWEdgeWeldConnector.html)
   - [ICWElasticConnector](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWElasticConnector.html)
+  - [ICWGeneralSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGeneralSpringConnector.html)
   - [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
   - [ICWLinkConnector](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLinkConnector.html)
   - [ICWPinConnector](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPinConnector.html)

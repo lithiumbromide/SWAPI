@@ -39,24 +39,13 @@ void InsertGroup()
 void InsertGroup();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertGroup](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertGroup.html)
-
-.
+See [DrawingDoc::InsertGroup](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertGroup.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

@@ -53,17 +53,11 @@ SwDmDocumentSaveError SaveAs(
 
 ### Return Value
 
-Success or error code as defined by
-
-[SwDMDocumentSaveError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentSaveError.html)
+Success or error code as defined by [SwDMDocumentSaveError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentSaveError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::SaveAs](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~SaveAs.html)
-
-.
+See [SwDMDocument::SaveAs](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~SaveAs.html).
 
 ## Remarks
 
@@ -74,13 +68,9 @@ This method lets you save a file to a different filename; this method does not l
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISwDMDocument::Save Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~Save.html)
-
 [ISwDMDocument::LastSavedBy Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedBy.html)
-
 [ISwDMDocument::LastSavedDate Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedDate.html)
 
 ## Availability

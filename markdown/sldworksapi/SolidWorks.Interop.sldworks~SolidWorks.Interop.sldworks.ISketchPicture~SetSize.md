@@ -55,18 +55,12 @@ System.bool SetSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Width`: Width of the picture in meters
-- `Height`: Height of the picture in metersParamDesc
+- `Height`: Height of the picture in meters
 - `AspectRatioLocked`: True to keep a fixed width and height aspect ratio, false to not
 
 ### Return Value
@@ -75,18 +69,12 @@ True if the size of the picture is set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::SetSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~SetSize.html)
-
-.
+See [SketchPicture::SetSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~SetSize.html).
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
-
 [ISketchPicture::GetSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~GetSize.html)
 
 ## Availability

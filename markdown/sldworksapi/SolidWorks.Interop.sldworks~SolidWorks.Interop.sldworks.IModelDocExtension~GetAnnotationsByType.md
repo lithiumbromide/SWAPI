@@ -47,39 +47,19 @@ System.Object^ GetAnnotationsByType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Annotation type as defined by
-
-[swAnnotationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAnnotationType_e.html)
-
-(see
-
-Remarks
-
-)
+- `Type`: Annotation type as defined by [swAnnotationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAnnotationType_e.html) (see **Remarks**)
 
 ### Return Value
 
-Array of
-
-[annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
+Array of [annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetAnnotationsByType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAnnotationsByType.html)
-
-.
+See [ModelDocExtension::GetAnnotationsByType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAnnotationsByType.html).
 
 ## Remarks
 
@@ -88,13 +68,9 @@ This method does not support swAnnotationType_e.swCThread for parts and assembli
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetAnnotations Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAnnotations.html)
-
 [IModelDocExtension::GetAnnotationCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAnnotationCount.html)
-
 [IView::GetAnnotationsByType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationsByType.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool Consume {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to remove input surfaces, false to not
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::Consume](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~Consume.html)
-
-.
+See [IntersectFeatureData::Consume](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~Consume.html).
 
 ## Examples
 
-See the
-
-[IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html)
-
-examples.
+See the [IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html) examples.
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
 
 ## Availability

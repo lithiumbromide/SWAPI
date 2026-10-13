@@ -9,8 +9,7 @@ source: "cworksapi/Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm
 
 # Create Nonlinear Study and Apply Materials Example (C#)
 
-This example shows how to create a nonlinear study and apply user-defined
-and SOLIDWORKS materials to assembly components.
+This example shows how to create a nonlinear study and apply user-defined and SOLIDWORKS materials to assembly components.
 
 ```vb
 //---------------------------------------------------------------------------
@@ -28,11 +27,11 @@ and SOLIDWORKS materials to assembly components.
 // Postconditions:
 // 1. Opens the assembly.
 // 2. Creates a  nonlinear study.
-// 3. Applies user-defined material to the first assembly component kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
-// kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}and SOLIDWORKS material to the remaining components.
+// 3. Applies user-defined material to the first assembly component
+//    and SOLIDWORKS material to the remaining components.
 // 4. To verify, expand the Parts folder in the Simulation Study tree,
-// kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}which is located beneath the FeatureManager design tree, and
-// kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}observe the names of the materials applied to holder-1 and pipe-1.
+//    which is located beneath the FeatureManager design tree, and
+//    observe the names of the materials applied to holder-1 and pipe-1.
 //
 // NOTE: Because the assembly document is used elsewhere, do not save changes.
 //----------------------------------------------------------------------------

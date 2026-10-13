@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Gets whether the line is infinite or finite.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -44,13 +44,7 @@ property System.bool Infinite {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -58,11 +52,7 @@ True if the line is infinite, false (finite) if not
 
 ## VBA Syntax
 
-See
-
-[SketchLine::Infinite](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~Infinite.html)
-
-.
+See [SketchLine::Infinite](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~Infinite.html).
 
 ## Examples
 
@@ -71,9 +61,7 @@ See
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [ISketchLine::MakeInfinite Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine~MakeInfinite.html)
 
 ## Availability

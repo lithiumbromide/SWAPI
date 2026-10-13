@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # OffsetPlanarWireBody Method (IBody2)
 
-Offsets a planar wire body
-
-}}end!kadov
-
-in the normal plane by the specified distance.
+Offsets a planar wire body in the normal plane by the specified distance.
 
 ## Syntax
 
@@ -59,35 +55,21 @@ Body2^ OffsetPlanarWireBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Distance`: Distance by which to offset the planar wire body
 - `Normal`: Plane normal
-- `Option`: How to fill the gap between edges as defined in[swOffsetPlanarWireBodyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swOffsetPlanarWireBodyOptions_e.html)
+- `Option`: How to fill the gap between edges as defined in [swOffsetPlanarWireBodyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swOffsetPlanarWireBodyOptions_e.html)
 
 ### Return Value
 
-Pointer to the
-
-[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-object
+Pointer to the [IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) object
 
 ## VBA Syntax
 
-See
-
-[Body2::OffsetPlanarWireBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~OffsetPlanarWireBody.html)
-
-.
+See [Body2::OffsetPlanarWireBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~OffsetPlanarWireBody.html).
 
 ## Remarks
 
@@ -96,5 +78,4 @@ The offset direction is determined by the direction of the first edge and the no
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)

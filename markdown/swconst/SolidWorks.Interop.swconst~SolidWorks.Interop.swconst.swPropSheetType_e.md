@@ -52,9 +52,9 @@ public enum class swPropSheetType_e : public System.Enum
 
 ## Remarks
 
-This enumerator specifies possible values for the types of[ISWPropertySheet](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)s exported by the SOLIDWORKS software when a SldWorks notification of type[swAppPropertySheetCreateNotify](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppNotify_e.html)is sent.
+This enumerator specifies possible values for the types of [ISWPropertySheet](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)s exported by SOLIDWORKS when a SldWorks notification of type [swAppPropertySheetCreateNotify](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppNotify_e.html) is sent.
 
-An example of a property sheet is the dialog that is displayed when you clickTools,Options. This dialog consists of a base property sheet and property pages stacked on top of it. To display a specific property page, click its tab.
+An example of a property sheet is the dialog that is displayed when you click Tools, Options. This dialog consists of a base property sheet and property pages stacked on top of it. To display a specific property page, click its tab.
 
 ## See Also
 

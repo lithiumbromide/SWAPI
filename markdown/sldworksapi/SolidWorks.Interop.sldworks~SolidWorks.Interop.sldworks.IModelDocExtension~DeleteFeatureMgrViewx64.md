@@ -46,13 +46,7 @@ void DeleteFeatureMgrViewx64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,21 +54,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::DeleteFeatureMgrViewx64](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DeleteFeatureMgrViewx64.html)
-
-.
+See [ModelDocExtension::DeleteFeatureMgrViewx64](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DeleteFeatureMgrViewx64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 On the appropriate notification, you can call this method to clean up and delete your FeatureManager design tree view.
 
-Use this method with[IModelViewManager::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html)or[IModelDoc2::AddFeatureMgrView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddFeatureMgrView3.html).
-
-(Table)=========================================================
+Use this method with [IModelViewManager::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html) or [IModelDoc2::AddFeatureMgrView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddFeatureMgrView3.html).
 
 | If you created the FeatureManager design tree view using... | Then... |
 | --- | --- |
@@ -84,13 +72,9 @@ Use this method with[IModelViewManager::CreateFeatureMgrView2](SOLIDWORKS.Intero
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IFeatMgrView::GetFeatMgrViewWndx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView~GetFeatMgrViewWndx64.html)
-
 [IModelViewManager::GetFeatureMgrViewHWndx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~GetFeatureMgrViewHWndx64.html)
-
 [IModelDoc2::DeleteFeatureMgrView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~DeleteFeatureMgrView.html)
 
 ## Availability

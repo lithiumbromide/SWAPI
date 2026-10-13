@@ -63,13 +63,7 @@ System.int GetMiddleSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,18 +79,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::GetMiddleSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetMiddleSurface.html)
-
-.
+See [Body2::GetMiddleSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetMiddleSurface.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IGetMiddleSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetMiddleSurface.html)
 
 ## Availability

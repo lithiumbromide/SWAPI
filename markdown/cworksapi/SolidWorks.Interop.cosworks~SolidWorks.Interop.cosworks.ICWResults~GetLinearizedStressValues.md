@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetLinearizedStressValues Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWPlot::GetLinearizedStressValuesAlongSCL](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~GetLinearizedStressValuesAlongSCL.html)
-
-.
+Obsolete. Superseded by [ICWPlot::GetLinearizedStressValuesAlongSCL](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~GetLinearizedStressValuesAlongSCL.html).
 
 ## Syntax
 
@@ -89,32 +85,24 @@ System.Object^ GetLinearizedStressValues(
 
 ### Parameters
 
-- `NComponent`: Stress component for which to get linearized values (see**Remarks**)
-- `DPoint1X`: X coordinate of first point on the section view (see**Remarks**)
-- `DPoint1Y`: Y coordinate of first point on the section view (see**Remarks**)
-- `DPoint1Z`: Z coordinate of first point on the section view (see**Remarks**)
-- `DPoint2X`: X coordinate of second point on the section view (see**Remarks**)
-- `DPoint2Y`: Y coordinate of second point on the section view (see**Remarks**)
-- `DPoint2Z`: Z coordinate of second point on the section view (see**Remarks**)
+- `NComponent`: Stress component for which to get linearized values (see **Remarks**)
+- `DPoint1X`: X coordinate of first point on the section view (see **Remarks**)
+- `DPoint1Y`: Y coordinate of first point on the section view (see **Remarks**)
+- `DPoint1Z`: Z coordinate of first point on the section view (see **Remarks**)
+- `DPoint2X`: X coordinate of second point on the section view (see **Remarks**)
+- `DPoint2Y`: Y coordinate of second point on the section view (see **Remarks**)
+- `DPoint2Z`: Z coordinate of second point on the section view (see **Remarks**)
 - `NIntermPoints`: Number of intermediate points between the points specified by DPoint1X, DPoint1Y, DPoint1Z, DPoint2X, DPoint2Y, and DPoint2Z to define the resolution of the line
-- `NUnits`: Units as defined in[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)(see**Remarks**)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html) (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of seven linearized membrane and bending stress values for the specified NComponent (see
-
-Remarks
-
-)
+Array of seven linearized membrane and bending stress values for the specified NComponent (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetLinearizedStressValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetLinearizedStressValues.html)
-
-.
+See [CWResults::GetLinearizedStressValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetLinearizedStressValues.html).
 
 ## Remarks
 
@@ -124,34 +112,10 @@ Before calling this method:
 2. Analyse the pressure vessel study to generate a stress results plot.
 3. Create a planar section view of the stress results plot.
 
-  1. Right-click the stress results plot and click
-
-    Section Clipping
-
-    to open the Section PropertyManager.
-  2. In Section 1, click
-
-    Plane
-
-    .
-  3. In Options, click
-
-    Union
-
-    and select
-
-    Show mesh on section plane
-
-    and
-
-    Plot on section only
-
-    .
-  4. Click
-
-    OK
-
-    .
+  1. Right-click the stress results plot and click **Section Clipping** to open the Section PropertyManager.
+  2. In Section 1, click **Plane**.
+  3. In Options, click **Union** and select **Show mesh on section plane** and **Plot on section only**.
+  4. Click **OK**.
 4. Specify DPoint1X, DPoint1Y, DPoint1Z, DPoint2X, DPoint2Y, DPoint2Z with the coordinates of two points on the planar section view you created in step 3.
 5. Specify NComponent with one of the following values:
 
@@ -169,14 +133,13 @@ Before calling this method:
 
 The returned array contains the following seven values in the specified NUnits for the specified NComponent:
 
-{`membrane_stress`,`bending_point_1`, (`membrane_stress`+`bending_point_1`),`bending_point_2`, (`membrane_stress`+`bending_point_2`),`peak_point_1`,`peak_point_2`}
+{ `membrane_stress`, `bending_point_1`, (`membrane_stress` + `bending_point_1`), `bending_point_2`, (`membrane_stress` + `bending_point_2`), `peak_point_1`, `peak_point_2` }
 
-**NOTE:**This method is valid only for solid meshes.
+**NOTE:** This method is valid only for solid meshes.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

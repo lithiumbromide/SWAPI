@@ -9,40 +9,26 @@ source: "epdmapi/Load_Addin_Example_CSharp.htm"
 
 # Install Add-in Example (C#)
 
-This example shows how to install an add-in, obtain
-information about it, and uninstall it.
+This example shows how to install an add-in, obtain information about it, and uninstall it.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
- //  1. Start Microsoft Visual Studio.
- //     a. Click File > New > Project > Visual C# > Windows Forms Application.
- //     b. Type AddinMgr_CSharp in Name.
- //     c. Click Browse and navigate to the folder where to create the project.
- //     d. Click OK.
- //     e. Click Show All Files in the Solution Explorer toolbar and expand
- //        Form1.cs in the Solution Explorer.
-  //     f. Create a form similar to the form shown above and change:
- //        1. Top label to VaultsLabel.
- //        2. Combo box to VaultsComboBox.
- //        3. Browse for add-in button to BrowseButton.
- //        4. List box to AddinListBox.
- //        5. Install add-in button to LoadAddin.
- //     g. Replace the code in Form1.cs with this code.
- //     h. Replace the code in Form1.Designer.cs with this code.
- //  2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //     name in the Solution Explorer, click Add Reference, click
- //     Assemblies > Framework in the left-side panel, browse to the top folder of
- //     your SOLIDWORKS PDM Professional installation, locate and click
- //     EPDM.Interop.epdm.dll, click Open, and click Add).
- //  3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //     Embed Interop Types to False to handle methods that pass arrays of
- //     structures.
- //  4. Click Debug > Start Debugging or press F5.
+ // 1. Start Microsoft Visual Studio.
+ // 2. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ // 3. Type AddinMgr_CSharp in Project name.
+  // 4. For Location, click ... and navigate to the folder where to create the project.
+ // 5. Click Next.
+ // 6. Select Framework.
+ // 7. Click Create.
+ // 8. Click Show All Files in the Solution Explorer toolbar and expand
+ //    Form1.cs in the Solution Explorer.
+ // 9.  Add dependencies and safely pass arrays of structures.
+ //10. Replace the code in Form1.cs with this code.
+ //11. Replace the code in Form1.Designer.cs with this code.
+ //12. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  //  1. The Install add-in dialog box displays.

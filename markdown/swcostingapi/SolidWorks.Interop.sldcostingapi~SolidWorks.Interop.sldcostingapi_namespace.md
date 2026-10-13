@@ -15,6 +15,19 @@ SOLIDWORKS Costing API
 
 | Interface | Description |
 | --- | --- |
+| CostAnalysis |  |
+| CostAnalysis3dPrinting |  |
+| CostAnalysisCasting |  |
+| CostAnalysisMachining |  |
+| CostAnalysisPlastic |  |
+| CostAnalysisSheetMetal |  |
+| CostAnalysisStructural |  |
+| CostBlankSize |  |
+| CostBody |  |
+| CostFeature |  |
+| CostingDefaults |  |
+| CostManager |  |
+| CostPart |  |
 | ICostAnalysis | Allows access to the common Costing analysis. |
 | ICostAnalysis3dPrinting | Allows access to the 3D printing Costing of a Costing analysis. |
 | ICostAnalysisCasting | Allows access to the casting Costing of a Costing analysis. |
@@ -29,6 +42,7 @@ SOLIDWORKS Costing API
 | ICostManager | Allows access to the entry-point interface of the SOLIDWORKS Costing API and the CostingManager. |
 | ICostPart | Allows access to a Costing part. |
 | ITemplateOverrides | Allows access to system-level Costing options that can be overridden. |
+| TemplateOverrides |  |
 
 ## Enumerations
 

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # IncludeThermostat Property (ICWHeatFlux)
 
-Obsolete. Superseded by[ICWHeatFlux::IncludeThermostat2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~IncludeThermostat2.html).
+Obsolete. Superseded by [ICWHeatFlux::IncludeThermostat2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~IncludeThermostat2.html).
 
 ## Syntax
 
@@ -51,11 +51,7 @@ property System.int IncludeThermostat {
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::IncludeThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~IncludeThermostat.html)
-
-.
+See [CWHeatFlux::IncludeThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~IncludeThermostat.html).
 
 ## Remarks
 
@@ -64,13 +60,9 @@ Thermostat is used for transient thermal studies only.
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::GetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~GetThermostat.html)
-
 [ICWHeatFlux::SetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetThermostat.html)
-
 [ICWHeatFlux::ThermostatUnits Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~ThermostatUnits.html)
 
 ## Availability

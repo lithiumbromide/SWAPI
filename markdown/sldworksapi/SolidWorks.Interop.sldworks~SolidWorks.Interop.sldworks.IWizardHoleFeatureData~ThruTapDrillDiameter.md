@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # ThruTapDrillDiameter Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::ThruTapDrillDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThruTapDrillDiameter.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::ThruTapDrillDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThruTapDrillDiameter.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double ThruTapDrillDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::ThruTapDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThruTapDrillDiameter.html)
-
-.
+See [WizardHoleFeatureData::ThruTapDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThruTapDrillDiameter.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

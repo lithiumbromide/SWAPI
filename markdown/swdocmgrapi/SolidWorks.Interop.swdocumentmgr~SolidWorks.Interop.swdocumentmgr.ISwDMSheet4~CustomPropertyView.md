@@ -44,25 +44,15 @@ property System.Object^ CustomPropertyView {
 
 ### Property Value
 
-[ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
-; null if the sheet has no views
+[ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html); null if the sheet has no views
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet4::CustomPropertyView](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4~CustomPropertyView.html)
-
-.
+See [SwDMSheet4::CustomPropertyView](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4~CustomPropertyView.html).
 
 ## Examples
 
-See the
-
-[ISwDMSheet4](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html)
-
-examples.
+See the [ISwDMSheet4](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html) examples.
 
 ## Remarks
 
@@ -71,7 +61,6 @@ This property works only with documents saved in SOLIDWORKS 2017 or later.
 ## See Also
 
 [ISwDMSheet4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html)
-
 [ISwDMSheet4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4_members.html)
 
 ## Availability

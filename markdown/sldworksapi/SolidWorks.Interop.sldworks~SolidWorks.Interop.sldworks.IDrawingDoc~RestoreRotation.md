@@ -39,34 +39,19 @@ void RestoreRotation()
 void RestoreRotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::RestoreRotation](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~RestoreRotation.html)
-
-.
+See [DrawingDoc::RestoreRotation](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~RestoreRotation.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::AlignHorz Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AlignHorz.html)
-
 [IDrawingDoc::AlignVert Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AlignVert.html)
-
 [IDrawingDoc::DrawingViewRotate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~DrawingViewRotate.html)
-
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
 
 ## Availability

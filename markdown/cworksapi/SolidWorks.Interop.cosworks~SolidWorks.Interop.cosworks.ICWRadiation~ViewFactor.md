@@ -51,24 +51,15 @@ Value of view factor
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::ViewFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~ViewFactor.html)
-
-.
+See [CWRadiation::ViewFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~ViewFactor.html).
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

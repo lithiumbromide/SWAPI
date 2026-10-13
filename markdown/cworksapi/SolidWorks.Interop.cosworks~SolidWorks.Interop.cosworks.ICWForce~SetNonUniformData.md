@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFo
 
 # SetNonUniformData Method (ICWForce)
 
-Obsolete. Superseded by[ICWForce::Equation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~Equation.html).
+Obsolete. Superseded by [ICWForce::Equation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~Equation.html).
 
 ## Syntax
 
@@ -72,47 +72,28 @@ void SetNonUniformData(
 - `DX`: Coefficient of the X term
 - `DY`: Coefficient of the Y term
 - `DXY`: Coefficient of the XY term
-- `DX2`: Coefficient of the X
-
-2
-
-term
-- `DY2`: Coefficient of the Y
-
-2
-
-term
+- `DX2`: Coefficient of the X2 term
+- `DY2`: Coefficient of the Y2 term
 
 ## VBA Syntax
 
-See
-
-[CWForce::SetNonUniformData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetNonUniformData.html)
-
-.
+See [CWForce::SetNonUniformData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetNonUniformData.html).
 
 ## Remarks
 
-This property is valid only if[ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html)is set to -1 or true.
+This property is valid only if [ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html) is set to -1 or true.
 
 See the SOLIDWORKS Simulation user-interface help for details.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::GetNonUniformData Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~GetNonUniformData.html)
-
 [ICWForce::SetCoordinateSystem Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetCoordinateSystem.html)
-
 [ICWForce::Equation Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~Equation.html)
-
 [ICWForce::EquationAngularUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationAngularUnit.html)
-
 [ICWForce::EquationCoordinateSystemType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationCoordinateSystemType.html)
-
 [ICWForce::EquationLinearUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationLinearUnit.html)
 
 ## Availability

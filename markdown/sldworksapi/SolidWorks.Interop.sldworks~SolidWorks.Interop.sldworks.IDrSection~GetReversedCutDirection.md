@@ -40,13 +40,7 @@ System.bool GetReversedCutDirection()
 System.bool GetReversedCutDirection();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ True if the section cut direction is reversed from the default, false if it is n
 
 ## VBA Syntax
 
-See
-
-[DrSection::GetReversedCutDirection](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetReversedCutDirection.html)
-
-.
+See [DrSection::GetReversedCutDirection](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetReversedCutDirection.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
-
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_and_Get_Some_Data_Example_VB.htm)
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::SetPartialSection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~SetPartialSection.html)
 
 ## Availability

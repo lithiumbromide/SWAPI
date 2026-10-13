@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # HideBubbleTooltip Method (ISldWorks)
 
-Hides the bubble ToolTip displayed by
-
-[ISldWorks::ShowBubbleTooltipAt2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.html)
-
-.
+Hides the bubble ToolTip displayed by [ISldWorks::ShowBubbleTooltipAt2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.html).
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void HideBubbleTooltip()
 void HideBubbleTooltip();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::HideBubbleTooltip](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~HideBubbleTooltip.html)
-
-.
+See [SldWorks::HideBubbleTooltip](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~HideBubbleTooltip.html).
 
 ## Examples
 
@@ -67,7 +53,7 @@ The following examples show how to display and hide a bubble ToolTip. Click a li
 - [VB.NET](#VBNET)
 - [VBA](#VBA)
 
-C#
+**C#**
 
 //--------------------------------------------
 
@@ -99,19 +85,11 @@ ShowBubbleToolTipAt2SldWorksCSharp.csproj
 
 {
 
-public
-
-partial
-
-class
-
-SOLIDWORKSMacro
+public partial class SOLIDWORKSMacro
 
 {
 
-public
-
-void
+public void
 
 Main()
 
@@ -119,55 +97,9 @@ Main()
 
 // Show bubble ToolTip
 
-swApp. ShowBubbleTooltipAt2 (300, 400, (
+swApp.**ShowBubbleTooltipAt2**(300, 400, (
 
-int
-
-)
-
-swArrowPosition
-
-.swArrowLeftTop,
-
-"Sample Bubble Tooltip"
-
-,
-
-"Message of Sample Bubble ToolTip"
-
-, (
-
-int
-
-)
-
-swBitMaps
-
-.swBitMapUserDefined,
-
-"C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\data\\user macro icons\\questionmark.bmp"
-
-,
-
-""
-
-, 0, (
-
-int
-
-)
-
-swLinkString
-
-.swLinkStringNone,
-
-""
-
-,
-
-""
-
-);
+int)swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", (int)swBitMaps.swBitMapUserDefined, "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\data\\user macro icons\\questionmark.bmp", "", 0, (int)swLinkString.swLinkStringNone, "", "");
 
 // 1. Insert a breakpoint at next command.
 
@@ -181,17 +113,11 @@ swApp.HideBubbleTooltip();
 
 /// <summary>
 
-///
+/// The SldWorks swApp variable is pre-assigned for you.
 
-The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
 
-///
-
-</summary>
-
-public
-
-SldWorks
+public SldWorks
 
 swApp;
 
@@ -225,13 +151,13 @@ Imports
 
 System
 
-PartialClass SOLIDWORKSMacro
+Partial Class SOLIDWORKSMacro
 
 Public Sub main()
 
 ' Show bubble ToolTip
 
-swApp. ShowBubbleTooltipAt2 (300, 400, swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip" , "Message of Sample Bubble ToolTip" , swBitMaps.swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp" , "" , 0, swLinkString.swLinkStringNone, "" , "" )
+swApp.**ShowBubbleTooltipAt2**(300, 400, swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMaps.swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkString.swLinkStringNone, "", "")
 
 Stop
 
@@ -247,23 +173,33 @@ End Sub
 
 Public swApp As SldWorks
 
-EndClass
+End Class
 
 **VBA**
 
-'-------------------------------------------- ' Preconditions: SOLIDWORKS is running ' ' Postconditions:
+'--------------------------------------------
+' Preconditions: SOLIDWORKS is running
+'
+' Postconditions:
 
 ' (1) Bubble ToolTip is shown.
 
-' (2) Bubble ToolTip is hidden. '--------------------------------------------
+' (2) Bubble ToolTip is hidden.
+'--------------------------------------------
 
-Option Explicit Sub main()
+Option Explicit
 
-Dim swApp As SldWorks.SldWorks Set swApp = Application.SldWorks
+Sub main()
 
-' Show Bubble ToolTip swApp. ShowBubbleTooltipAt2 300, 400, swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkStringNone, "", ""
+Dim swApp As SldWorks.SldWorks
+Set swApp = Application.SldWorks
 
-Stop swApp.HideBubbleTooltip
+' Show Bubble ToolTip
+swApp.**ShowBubbleTooltipAt2** 300, 400, swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkStringNone, "", ""
+
+Stop
+
+swApp.HideBubbleTooltip
 
 End Sub
 
@@ -272,7 +208,6 @@ End Sub
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

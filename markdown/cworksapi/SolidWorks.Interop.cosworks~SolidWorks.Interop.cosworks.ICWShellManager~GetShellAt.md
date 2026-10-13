@@ -62,32 +62,21 @@ CWShell^ GetShellAt(
 
 ## VBA Syntax
 
-See
-
-[CWShellManager::GetShellAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~GetShellAt.html)
-
-.
+See [CWShellManager::GetShellAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~GetShellAt.html).
 
 ## Examples
 
 [Create Frequency Study with Mixed Mesh (C#)](Create_Frequency_Study_with_Mixed_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Mixed Mesh (VB.NET)](Create_Frequency_Study_with_Mixed_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Mixed Mesh (VBA)](Create_Frequency_Study_with_Mixed_Mesh_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWShellManager::ShellCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShellManager~ShellCount.html)
-
-to get NIndex.
+Before calling this method, call [ICWShellManager::ShellCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShellManager~ShellCount.html) to get NIndex.
 
 ## See Also
 
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWShellManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager_members.html)
 
 ## Availability

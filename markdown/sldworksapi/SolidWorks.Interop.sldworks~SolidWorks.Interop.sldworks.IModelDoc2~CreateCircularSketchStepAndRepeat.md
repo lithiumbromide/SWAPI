@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateCircularSketchStepAndRepeat Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreateCircularSketchStepAndRepeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateCircularSketchStepAndRepeat.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreateCircularSketchStepAndRepeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateCircularSketchStepAndRepeat.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool CreateCircularSketchStepAndRepeat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,18 +84,12 @@ True if the sketch pattern was created successfully, false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::CreateCircularSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateCircularSketchStepAndRepeat.html)
-
-.
+See [ModelDoc2::CreateCircularSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreateCircularSketchStepAndRepeat.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateLinearSketchStepAndRepeat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateLinearSketchStepAndRepeat.html)
 
 ## Availability

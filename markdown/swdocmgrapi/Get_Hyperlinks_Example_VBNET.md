@@ -9,12 +9,35 @@ source: "swdocmgrapi/Get_Hyperlinks_Example_VBNET.htm"
 
 # Get Hyperlinks Example (VB.NET)
 
-This example shows how to get
-the hyperlinks for a SOLIDWORKS document using the SOLIDWORKS Document Manager API.'--------------------------------------------------------------------------- ' Preconditions: ' 1. Read the SOLIDWORKS Document Manager API ' Getting Started topic and ensure that ' the required DLLs have been registered. ' 2. Copy and paste this module into a VB.NET ' console application in
-Microsoft Visual Studio.'3. Add the SolidWorks.Interop.swdocumentmgr.dll reference to the
-project: ' a. Right-click the solution in Solution Explorer. ' b. Click Add Reference . ' c. Click Browse . ' d. Click: 'install_dir \api\redist\SolidWorks.Interop.swdocumentmgr.dll ' 4. Substitute your_license_code with your ' SOLIDWORKS
-Document Manager license key.'5. Substitute model_with_hyperlinks with the path to a model that ' contains one or more hyperlinks.' 6. Compile and run this program in Debug mode. ' ' Postconditions: Inspect the Output window and the ' code to
-see how the API is used. '--------------------------------------------------------------------------Imports SolidWorks.Interop.swdocumentmgr Module Module1 Sub ProcessDocHyperlinks( ByVal swDoc As SwDMDocument)
+This example shows how to get the hyperlinks for a SOLIDWORKS document using the SOLIDWORKS Document Manager API.
+
+'---------------------------------------------------------------------------
+' Preconditions:
+' 1. Read the SOLIDWORKS Document Manager API
+' **Getting Started** topic and ensure that
+' the required DLLs have been registered.
+' 2. Copy and paste this module into a VB.NET
+' console application in Microsoft Visual Studio.
+' 3. Add the **SolidWorks.Interop.swdocumentmgr.dll** reference to the project:
+' a. Right-click the solution in Solution Explorer.
+' b. Click **Add Reference**.
+' c. Click **Browse**.
+' d. Click:
+' `install_dir`**\api\redist\SolidWorks.Interop.swdocumentmgr.dll**
+' 4. Substitute `your_license_code` with your
+' SOLIDWORKS Document Manager license key.
+' 5. Substitute `model_with_hyperlinks` with the path to a model that
+' contains one or more hyperlinks.
+' 6. Compile and run this program in Debug mode.
+'
+' Postconditions: Inspect the Output window and the
+' code to see how the API is used.
+'--------------------------------------------------------------------------
+
+Imports SolidWorks.Interop.swdocumentmgr
+Module Module1
+
+Sub ProcessDocHyperlinks(ByVal swDoc As SwDMDocument)
 
 ```vb
           Dim i As Integer

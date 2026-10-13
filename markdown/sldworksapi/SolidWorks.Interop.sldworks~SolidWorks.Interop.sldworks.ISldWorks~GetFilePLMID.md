@@ -47,13 +47,7 @@ System.String^ GetFilePLMID(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ PLM ID
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetFilePLMID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetFilePLMID.html)
-
-.
+See [SldWorks::GetFilePLMID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetFilePLMID.html).
 
 ## Remarks
 
-This method is valid only for
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+This method is valid only for [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

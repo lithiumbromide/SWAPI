@@ -34,12 +34,9 @@ EdmLicenseType meType
 
 ### Field Value
 
-Type of license as defined in
-
-[EdmLicenseType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicenseType.html)
+Type of license as defined in [EdmLicenseType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicenseType.html)
 
 ## See Also
 
 [EdmLicense Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html)
-
 [EdmLicense Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense_members.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Imported_File_Associated_with_an_Imported_Feature_Ex
 
 # Change Imported File Associated with an Imported Feature Example (VBA)
 
-This example shows how to change the imported file associated with an
-imported feature.
+This example shows how to change the imported file associated with an imported feature.
 
 ```
 '------------------------------------------------------------------
@@ -84,7 +83,7 @@ Sub main()
 ```
 
 ```
-    ' Close SOLIDWORKS file associated with opening the import file
+    ' Close SOLIDWORKS Design file associated with opening the import file
     swApp.QuitDoc swNewModel.GetTitle
 ```
 

@@ -1,6 +1,5 @@
 ---
-title: "CWHeatFlux Object
-Members"
+title: "CWHeatFlux Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWHeatFlux_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWHeatFlux_members.html"
 ---
 
-# CWHeatFlux Object
-Members
+# CWHeatFlux Object Members
 
 ## Public Methods
 

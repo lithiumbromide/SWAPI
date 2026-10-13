@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # ShowResultsDialog Method (IGeometryAnalysis)
 
-Displays the results of the geometry analysis in the
-
-Results
-
-dialog box.
+Displays the results of the geometry analysis in the Results dialog box.
 
 ## Syntax
 
@@ -46,22 +42,15 @@ System.int ShowResultsDialog();
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::ShowResultsDialog](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~ShowResultsDialog.html)
-
-.
+See [IGeometryAnalysis::ShowResultsDialog](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~ShowResultsDialog.html).
 
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

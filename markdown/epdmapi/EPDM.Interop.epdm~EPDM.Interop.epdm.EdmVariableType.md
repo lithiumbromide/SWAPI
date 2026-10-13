@@ -45,11 +45,7 @@ public enum class EdmVariableType : public System.Enum
 
 ## Remarks
 
-Used in
-
-[IEdmVariable5::VariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~VariableType.html)
-
-.
+Used in [IEdmVariable5::VariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~VariableType.html).
 
 ## See Also
 

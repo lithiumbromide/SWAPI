@@ -50,17 +50,11 @@ property System.String^ SummaryInfo {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FieldId`: Identifier for field as defined in[swSummInfoField_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSummInfoField_e.html)
+- `FieldId`: Identifier for field as defined in [swSummInfoField_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSummInfoField_e.html)
 
 ### Property Value
 
@@ -68,11 +62,7 @@ Text in field
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SummaryInfo.html)
-
-.
+See [ModelDoc2::SummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SummaryInfo.html).
 
 ## Examples
 
@@ -140,9 +130,7 @@ End Sub
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::FileSummaryInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FileSummaryInfo.html)
 
 ## Availability

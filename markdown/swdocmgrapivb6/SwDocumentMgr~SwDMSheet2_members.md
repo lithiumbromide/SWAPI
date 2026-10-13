@@ -1,6 +1,5 @@
 ---
-title: "SwDMSheet2 Object
-Members"
+title: "SwDMSheet2 Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMSheet2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMSheet2_members.html"
 ---
 
-# SwDMSheet2 Object
-Members
+# SwDMSheet2 Object Members
 
 ## Public Methods
 

@@ -45,13 +45,7 @@ property System.bool NeedEdgeFinMap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True generates this information, false does not
 
 ## VBA Syntax
 
-See
-
-[Tessellation::NeedEdgeFinMap](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~NeedEdgeFinMap.html)
-
-.
+See [Tessellation::NeedEdgeFinMap](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~NeedEdgeFinMap.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

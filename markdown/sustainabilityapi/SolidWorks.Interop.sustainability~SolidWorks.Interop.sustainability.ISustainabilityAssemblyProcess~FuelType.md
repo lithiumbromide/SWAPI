@@ -47,28 +47,15 @@ property System.int FuelType {
 
 ### Property Value
 
-Type of fuel as defined in
-
-[swSustainabilityFuelType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityFuelType_e.html)
-
-; valid only if
-
-[ISustainabilityAssemblyProcess::EnergyForAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~EnergyForAssemblyProcess.html)
-
-is true
+Type of fuel as defined in [swSustainabilityFuelType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityFuelType_e.html); valid only if [ISustainabilityAssemblyProcess::EnergyForAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~EnergyForAssemblyProcess.html) is true
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess::FuelType](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~FuelType.html)
-
-.
+See [SustainabilityAssemblyProcess::FuelType](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~FuelType.html).
 
 ## See Also
 
 [ISustainabilityAssemblyProcess Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
 
 ## Availability

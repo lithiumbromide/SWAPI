@@ -1,6 +1,5 @@
 ---
-title: "AnnotationView Object
-Members"
+title: "AnnotationView Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AnnotationView_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AnnotationView_members.html"
 ---
 
-# AnnotationView Object
-Members
+# AnnotationView Object Members
 
 ## Public Methods
 

@@ -33,14 +33,11 @@ IEdmBitmap5^ GetThumbnail();
 
 ### Return Value
 
-[IEdmBitmap5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html)
-
-; Null if the file does not support bitmap previews
+[IEdmBitmap5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html); Null if the file does not support bitmap previews
 
 ## Examples
 
 [Get Preview Bitmap of File (VB.NET)](Get_Bitmap_Preview_of_File_Example_VBNET.htm)
-
 [Get Preview Bitmap of File (C#)](Get_Bitmap_Preview_of_File_Example_CSharp.htm)
 
 ## Remarks
@@ -57,7 +54,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmEnumeratorVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5_members.html)
 
 ## Availability

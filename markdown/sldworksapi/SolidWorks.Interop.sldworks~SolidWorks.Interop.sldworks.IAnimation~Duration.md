@@ -42,13 +42,7 @@ property System.double Duration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,15 +50,11 @@ Length of time, in seconds, this animation plays
 
 ## VBA Syntax
 
-See
-
-[Animation::Duration](ms-its:sldworksapivb6.chm::/sldworks~Animation~Duration.html)
-
-.
+See [Animation::Duration](ms-its:sldworksapivb6.chm::/sldworks~Animation~Duration.html).
 
 ## Remarks
 
-[IAnimation::Speed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation~Speed.html)affects the duration of the animation. Animation::Speed allows you
+[IAnimation::Speed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation~Speed.html) affects the duration of the animation. Animation::Speed allows you
 to specify whether or not to play the animation at half speed or double speed, which
 halves or doubles the animation duration.
 
@@ -79,7 +69,6 @@ the same result as when the animation is not running.
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

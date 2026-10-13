@@ -47,13 +47,7 @@ System.String^ GetBelowFrameTextAt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,36 +59,19 @@ Below frame line of text
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetBelowFrameTextAt](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetBelowFrameTextAt.html)
-
-.
+See [Gtol::GetBelowFrameTextAt](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetBelowFrameTextAt.html).
 
 ## Examples
 
-See
-
-Set Text in Datum Tags and GTols
-
-examples in
-
-[IGTol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
-.
+See **Set Text in Datum Tags and GTols** examples in [IGTol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::DeleteBelowFrameTextAt Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~DeleteBelowFrameTextAt.html)
-
 [IGtol::GetBelowFrameTextLineCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetBelowFrameTextLineCount.html)
-
 [IGtol::InsertBelowFrameTextAt Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~InsertBelowFrameTextAt.html)
-
 [IGtol::SetBelowFrameTextAt Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetBelowFrameTextAt.html)
 
 ## Availability

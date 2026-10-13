@@ -9,8 +9,7 @@ source: "API_GB/Change_Card_Variables_Addin_Example_CSharp.htm"
 
 # Change Card Variables Add-in Example (C#)
 
-This example shows how to create an add-in that pops up a message box when a file is
-approved.
+This example shows how to create an add-in that pops up a message box when a file is approved.
 
 ```vb
  //--------------------------------------------------------------------------------------

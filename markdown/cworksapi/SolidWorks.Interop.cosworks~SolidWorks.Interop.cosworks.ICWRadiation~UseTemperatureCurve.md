@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRa
 
 # UseTemperatureCurve Property (ICWRadiation)
 
-Obsolete. Superseded by ICWRadiation::UseTemperatureCurve2.
+Obsolete. Superseded by [ICWRadiation::UseTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~UseTemperatureCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTemperatureCurve {
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~UseTemperatureCurve.html)
-
-.
+See [CWRadiation::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~UseTemperatureCurve.html).
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiation::GetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~GetTemperatureCurve.html)
-
 [ICWRadiation::SetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~SetTemperatureCurve.html)
 
 ## Availability

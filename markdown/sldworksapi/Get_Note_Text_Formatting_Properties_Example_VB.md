@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Note_Text_Formatting_Properties_Example_VB.htm"
 
 # Get Note Text Formatting Properties Example (VBA)
 
-This example shows how to get the text formatting
-out of a note.
+This example shows how to get the text formatting out of a note.
 
 ```
 '------------------------------------------------

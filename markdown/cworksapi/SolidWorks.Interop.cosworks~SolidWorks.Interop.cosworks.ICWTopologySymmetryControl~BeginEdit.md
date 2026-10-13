@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~BeginEdit.html)
-
-.
+See [CWTopologySymmetryControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
-example.
+See the [ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html) example.
 
 ## Remarks
 
-To finish editing this symmetry control, call
-
-[ICWTopologySymmetryControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~EndEdit.html)
-
-.
+To finish editing this symmetry control, call [ICWTopologySymmetryControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~EndEdit.html).
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
 
 ## Availability

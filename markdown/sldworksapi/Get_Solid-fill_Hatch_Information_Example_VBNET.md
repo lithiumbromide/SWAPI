@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Solid-fill_Hatch_Information_Example_VBNET.htm"
 
 # Get Solid-fill Hatch Information Example (VB.NET)
 
-This example shows how to get information about solid-fill hatches in
-a detail view in the current drawing sheet.
+This example shows how to get information about solid-fill hatches in a detail view in the current drawing sheet.
 
 ```
 '-----------------------------------------------------------------------

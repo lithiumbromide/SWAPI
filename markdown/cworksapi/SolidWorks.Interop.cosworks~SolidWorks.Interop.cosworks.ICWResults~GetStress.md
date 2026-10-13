@@ -67,12 +67,12 @@ System.Object^ GetStress(
 
 - `NElementNumber`: Element number:
 
-- 0 = Nodal
-- 1 = Elemental
+  - 0 = Nodal
+  - 1 = Elemental
 - `NStepNum`: Solution step number (use 1 for static)
 - `DispPlane`: Reference geometry
-- `NUnits`: Unit as defined in[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Unit as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -80,11 +80,7 @@ Array of stress results
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStress.html)
-
-.
+See [CWResults::GetStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStress.html).
 
 ## Remarks
 
@@ -93,15 +89,10 @@ Sx, Sy, Sz, Txy, Tyz, Txz, P1, P2, P3, VON, and INT for all nodes or elements at
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxStress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStress.html)
-
 [ICWResults::GetStressComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressComponentForAllStepsAtNode.html)
-
 [ICWResults::GetStressForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressForEntities.html)
-
 [ICWResults::GetStressTensorValuesForAllNodesOfElement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressTensorValuesForAllNodesOfElement.html)
 
 ## Availability

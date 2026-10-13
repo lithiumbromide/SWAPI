@@ -9,64 +9,20 @@ source: "swconst/DP_Annotations-GeometricTolerances.htm"
 
 # Document Properties > Annotations > Geometric Tolerances
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base geometric tolerance standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingGeometricTolerance) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingGeometricTolerance, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the geometric tolerance standard to use |
-| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
-| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of GTol leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e
-.< Value >) | See swLineStyles_e for valid options |  |
-| Frame style - Frame
-Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Frame style - custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of GTol frame lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingGeometricToleranceTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingGeometricToleranceTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
-| Leader display - Straight or Bent | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options |  |
-| Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingGtolUseDocBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingGtolUseDocBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use document bent leader lengths for geometric
-tolerance annotations |
-| Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the length of GTol bent leaders in a drawing document |
-| Material Condition Symbol Placement - ASME or ISO | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolMaterialConditionSymbolPlacement,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolMaterialConditionSymbolPlacement,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDetailingGtolMaterialConditionSymbolPlacement_e.< Value >) | See swDetailingGtolMaterialConditionSymbolPlacement_e for valid options |  |
-| Decimal Separator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swGtolDecimalSeparatorType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swGtolDecimalSeparatorType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swGtolDecimalSeparatorType_e.< Value >) | See swGtolDecimalSeparatorType_e for valid options |  |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingGeometricTolerance) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingGeometricTolerance, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is
-available only on drawings |
+| Base geometric tolerance standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingGeometricTolerance) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingGeometricTolerance, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the geometric tolerance standard to use |
+| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
+| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of GTol leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e .< Value >) | See swLineStyles_e for valid options |  |
+| Frame style - Frame Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolFrameLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Frame style - custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of GTol frame lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingGeometricToleranceTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingGeometricToleranceTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
+| Leader display - Straight or Bent | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options |  |
+| Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingGtolUseDocBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingGtolUseDocBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use document bent leader lengths for geometric tolerance annotations |
+| Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingGtolBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the length of GTol bent leaders in a drawing document |
+| Material Condition Symbol Placement - ASME or ISO | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolMaterialConditionSymbolPlacement, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingGtolMaterialConditionSymbolPlacement, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingGtolMaterialConditionSymbolPlacement_e.< Value >) | See swDetailingGtolMaterialConditionSymbolPlacement_e for valid options |  |
+| Decimal Separator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swGtolDecimalSeparatorType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swGtolDecimalSeparatorType, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swGtolDecimalSeparatorType_e.< Value >) | See swGtolDecimalSeparatorType_e for valid options |  |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingGeometricTolerance) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingGeometricTolerance, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is available only on drawings |

@@ -47,13 +47,7 @@ System.int IGetFacetFinsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,16 @@ Number of fins corresponding to FacetId
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetFacetFinsCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFacetFinsCount.html)
-
-.
+See [Tessellation::IGetFacetFinsCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFacetFinsCount.html).
 
 ## Remarks
 
-A cache is created when you use this method. This cache is released when you use[ITessellation::IGetFacetFins](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetFacetFins.html). If you use ITessellation::IGetFacetFinsCount again, then the cache is refilled. Alternatively, you can use ITessellation::IGetFacetFins repeatedly.
+A cache is created when you use this method. This cache is released when you use [ITessellation::IGetFacetFins](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetFacetFins.html). If you use ITessellation::IGetFacetFinsCount again, then the cache is refilled. Alternatively, you can use ITessellation::IGetFacetFins repeatedly.
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::GetFacetFins Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~GetFacetFins.html)
 
 ## Availability

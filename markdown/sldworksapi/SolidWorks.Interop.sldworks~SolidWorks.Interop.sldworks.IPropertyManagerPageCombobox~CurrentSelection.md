@@ -45,13 +45,7 @@ property System.short CurrentSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Index number of the currently selected item in the 0-based list of items
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCombobox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~CurrentSelection.html)
-
-.
+See [PropertyManagerPageCombobox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~CurrentSelection.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageCombobox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
-examples.
+See the [IPropertyManagerPageCombobox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html) examples.
 
 ## See Also
 
 [IPropertyManagerPageCombobox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
 [IPropertyManagerPageCombobox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalBaseFlange2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-and
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html) and [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 ## Syntax
 
@@ -127,13 +119,7 @@ Feature^ InsertSheetMetalBaseFlange2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -145,21 +131,17 @@ See
 - `FlipExtruDir`: True to reverse the direction of the extrude, false to not
 - `EndCondition1`: End condition for first extrude distance
 - `EndCondition2`: End condition for second extrude distance
-- `DirToUse`: End condition type as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `PCBA`: Pointer to the[custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)object
+- `DirToUse`: End condition type as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `PCBA`: Pointer to the [custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) object
 - `UseDefaultRelief`: True to use the default relief, false to not
-- `ReliefType`: Relief type as defined in[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
+- `ReliefType`: Relief type as defined in [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
 - `ReliefWidth`: Width of the relief
 - `ReliefDepth`: Depth of the relief
 - `ReliefRatio`: Value for the relief ratio
 - `UseReliefRatio`: True to use the relief ratio, false to not
 - `Merge`: True to connect bodies into a single sheet metal body; false to not
 - `UseFeatScope`: True to use selected bodies, false to use all bodies
-- `UseAutoSelect`: True to auto select bodies (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to auto select bodies (see **Remarks**)
 
 ### Return Value
 
@@ -167,36 +149,23 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalBaseFlange2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalBaseFlange2.html)
-
-.
+See [FeatureManager::InsertSheetMetalBaseFlange2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalBaseFlange2.html).
 
 ## Examples
 
 [Insert Sheet Metal Base Flange (VBA)](Insert_Sheet_Metal_Base_Flange_Example_VB.htm)
-
 [Insert Sheet Metal Base Flange (VB.NET)](Insert_Sheet_Metal_Base_Flange_Example_VBNET.htm)
-
 [Insert Sheet Metal Base Flange (C#)](Insert_Sheet_Metal_Base_Flange_Example_CSharp.htm)
 
 ## Remarks
 
-When UseAutoSelect is set to false and bodies are selected using
-
-[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-or other select methods, use selection mark 8 for the bodies.
+When UseAutoSelect is set to false and bodies are selected using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) or other select methods, use selection mark 8 for the bodies.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

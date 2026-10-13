@@ -11,15 +11,7 @@ source: "sldworksapi/Get_Faces_Affected_by_Draft_Feature_Example_VB.htm"
 
 This example shows how to get the faces affected by a draft feature.
 
-**NOTE:**In SOLIDWORKS, a feature is comprised
-of faces. The faces created by a feature can be
-retrieved using IFeature::GetFaces. However, certain types
-of features only affect existing faces and do not
-create any new faces. Examples of these types of features are
-draft and scale features. For these features, IFeature::GetFaces
-returns an empty array (no faces). This sample code shows how to use
-IDraftFeatureData2::GetDraftedEntities to get the faces affected by a draft
-feature.
+**NOTE:** In SOLIDWORKS Design, a feature is comprised of faces. The faces created by a feature can be retrieved using IFeature::GetFaces. However, certain types of features only affect existing faces and do not create any new faces. Examples of these types of features are draft and scale features. For these features, IFeature::GetFaces returns an empty array (no faces). This sample code shows how to use IDraftFeatureData2::GetDraftedEntities to get the faces affected by a draft feature.
 
 ```
 '---------------------------------------------------------------------------

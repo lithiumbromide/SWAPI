@@ -59,6 +59,7 @@ public enum class swUserPreferenceTextFormat_e : public System.Enum
 | swDetailingDetailView_NameTextFormat | See System Options and Document Properties. |
 | swDetailingDetailView_ScaleTextFormat | See System Options and Document Properties. |
 | swDetailingDimensionTextFormat | See System Options and Document Properties. |
+| swDetailingFamilyTableTextFormat | See System Options and Document Properties. |
 | swDetailingGeneralTableTextFormat | See System Options and Document Properties. |
 | swDetailingGeometricToleranceTextFormat | See System Options and Document Properties. |
 | swDetailingHoleTableTextFormat | See System Options and Document Properties. |
@@ -93,18 +94,13 @@ public enum class swUserPreferenceTextFormat_e : public System.Enum
 
 ## Remarks
 
-Use these user-preference enumerations with[IModelDocExtension::GetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceTextFormat.html)and[IModelDocExtension::SetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html)to get and set detailing text formats at the document level.
+Use these user-preference enumerations with [IModelDocExtension::GetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceTextFormat.html) and [IModelDocExtension::SetUserPreferenceTextFormat](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html) to get and set detailing text formats at the document level.
 
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceDoubleValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceDoubleValue_e.html)
-
 [swUserPreferenceIntegerValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
 [swUserPreferenceStringListValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringListValue_e.html)
-
 [swUserPreferenceStringValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)
-
 [swUserPreferenceToggle_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)

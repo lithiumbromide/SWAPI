@@ -47,38 +47,23 @@ property System.int OrientationPlane {
 
 ### Property Value
 
-Printing direction as defined in
-
-[swcPlane_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcPlane_e.html)
+Printing direction as defined in [swcPlane_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcPlane_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::OrientationPlane](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~OrientationPlane.html)
-
-.
+See [CostAnalysis3dPrinting::OrientationPlane](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~OrientationPlane.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## Remarks
 
-To flip the printing direction, call
-
-[ICostAnalysis3dPrinting::FlipDirection](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~FlipDirection.html)
-
-.
+To flip the printing direction, call [ICostAnalysis3dPrinting::FlipDirection](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~FlipDirection.html).
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
 
 ## Availability

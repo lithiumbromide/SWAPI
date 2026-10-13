@@ -42,13 +42,7 @@ property System.bool UseNamedConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ True if a configuration is specified and used, false if the in-use/last active c
 
 ## VBA Syntax
 
-See
-
-[Component2::UseNamedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~Component2~UseNamedConfiguration.html)
-
-.
+See [Component2::UseNamedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~Component2~UseNamedConfiguration.html).
 
 ## Remarks
 
-Use
-
-[IAssemblyDoc::CompConfigProperties4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~CompConfigProperties4.html)
-
-to set this property.
+Use [IAssemblyDoc::CompConfigProperties4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~CompConfigProperties4.html) to set this property.
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

@@ -44,7 +44,6 @@ As of SOLIDWORKS PDM Professional 2017 SP01, client/server minor version mismatc
 ## See Also
 
 [IEdmVault18 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18.html)
-
 [IEdmVault18 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault18_members.html)
 
 ## Availability

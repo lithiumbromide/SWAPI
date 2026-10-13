@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_VB.h
 
 # Get Patterned Cosmetic Thread Annotations Data Example (VBA)
 
-This example shows how to get data for patterned cosmetic thread annotations
-in a drawing.
+This example shows how to get data for patterned cosmetic thread annotations in a drawing.
 
 ```
 '--------------------------------------------------------------------------

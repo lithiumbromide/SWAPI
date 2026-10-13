@@ -40,27 +40,15 @@ System.int GetActiveDisplayPane()
 System.int GetActiveDisplayPane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Active display pane as defined by
-
-[swDisplayPaneIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayPaneIndex_e.html)
+Active display pane as defined by [swDisplayPaneIndex_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayPaneIndex_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetActiveDisplayPane](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetActiveDisplayPane.html)
-
-.
+See [SldWorks::GetActiveDisplayPane](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetActiveDisplayPane.html).
 
 ## Examples
 
@@ -69,9 +57,7 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IModelDocExtension::IsDisplayPaneVisible Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsDisplayPaneVisible.html)
 
 ## Availability

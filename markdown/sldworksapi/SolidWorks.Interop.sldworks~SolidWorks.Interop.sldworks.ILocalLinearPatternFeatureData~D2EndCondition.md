@@ -45,38 +45,25 @@ property System.int D2EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Spacing of pattern instances in Direction 2 as defined in
-
-[swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html)
+Spacing of pattern instances in Direction 2 as defined in [swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html)
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::D2EndCondition](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2EndCondition.html)
-
-.
+See [LocalLinearPatternFeatureData::D2EndCondition](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2EndCondition.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
-For more information, see the**Linear Component Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Component Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

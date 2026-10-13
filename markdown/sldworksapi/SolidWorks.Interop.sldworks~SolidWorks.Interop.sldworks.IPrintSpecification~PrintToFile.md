@@ -45,32 +45,19 @@ property System.bool PrintToFile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to print to a file, false to print to a
-
-[printer queue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrinterQueue.html)
+True to print to a file, false to print to a [printer queue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrinterQueue.html)
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::PrintToFile](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrintToFile.html)
-
-.
+See [PrintSpecification::PrintToFile](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrintToFile.html).
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Point_Length_SSMember_Example_VBNET.htm"
 
 # Create Point Length Structure System Member Example (VB.NET)
 
-This example shows how to create a structure system member that originates at
-a point and extends to a specified end condition.
+This example shows how to create a structure system member that originates at a point and extends to a specified end condition.
 
 ```vb
   '==========================================================================================

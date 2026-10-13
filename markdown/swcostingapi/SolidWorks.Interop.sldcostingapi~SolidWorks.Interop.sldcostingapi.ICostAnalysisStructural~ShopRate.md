@@ -51,28 +51,17 @@ Hourly shop rate
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::ShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~ShopRate.html)
-
-.
+See [CostAnalysisStructural::ShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~ShopRate.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::ResetShopRate Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~ResetShopRate.html)
-
 [ICostAnalysisStructural::ShopRateApplied Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~ShopRateApplied.html)
 
 ## Availability

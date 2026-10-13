@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetSplineParamsCount Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetSplineParamsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSplineParamsCount2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetSplineParamsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSplineParamsCount2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int GetSplineParamsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSplineParamsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParamsCount.html)
-
-.
+See [Sketch::GetSplineParamsCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParamsCount.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

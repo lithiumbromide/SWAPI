@@ -1,6 +1,5 @@
 ---
-title: "IStackedBalloonOptions Object
-Members"
+title: "IStackedBalloonOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IStackedBalloonOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IStackedBalloonOptions_members.html"
 ---
 
-# IStackedBalloonOptions Object
-Members
+# IStackedBalloonOptions Object Members
 
 ## Public Properties
 

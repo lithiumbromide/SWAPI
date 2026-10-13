@@ -50,37 +50,19 @@ property System.String^ CustomPropertyBuilderTemplate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WeldmentTemplate`: True if a weldment part, false if not (see
-
-Remarks
-
-)
+- `WeldmentTemplate`: True if a weldment part, false if not (see **Remarks**)
 
 ### Property Value
 
-File name of the custom property builder template (see
-
-Remarks
-
-)
+File name of the custom property builder template (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CustomPropertyBuilderTemplate](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CustomPropertyBuilderTemplate.html)
-
-.
+See [ModelDocExtension::CustomPropertyBuilderTemplate](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CustomPropertyBuilderTemplate.html).
 
 ## Examples
 
@@ -96,25 +78,16 @@ swModDocExt.CustomPropertyBuilderTemplate(True) = "templateWeld2.wldprp"
 
 If WeldmentTemplate is:
 
-- True, then this property gets or sets
+- True, then this property gets or sets ***.wldprp**.
+- False, then this property gets or sets ***.prtprp**.
 
-  *.wldprp
-
-  .
-- False, then this property gets or sets
-
-  *.prtprp
-
-  .
-
-All custom property builder templates are stored in the file location specified in**Tools > Options > File Locations > Custom Property Files**.
+All custom property builder templates are stored in the file location specified in **Tools > Options > File Locations > Custom Property Files**.
 
 This property corresponds to the setting in the Template Options dialog that appears when you click on the button next to More Properties in the Custom Properties task pane. When you create a custom property layout, a template is created. The button is activated for parts and weldments only after a custom properties tab layout is created. The weldment custom property template (***.wldprp**) can be created or modified only if a cut list item is selected in the Cut list folder.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

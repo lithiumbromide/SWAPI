@@ -45,13 +45,7 @@ property System.bool Checked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,21 @@ True if the check box is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageGroup::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageGroup~Checked.html)
-
-.
+See [PropertyManagerPageGroup::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageGroup~Checked.html).
 
 ## Remarks
 
 A group box on PropertyManager page can be created with a check box in its title. Selecting the check box causes the group box to expand so that all of the controls on that group box can be seen by the end-user. Clearing the check box causes the group box to close, or compress, so that all of the controls on that group box are hidden.
 
-When a group box is expanded, the states of the controls within the group are not changed.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For example, if all of the controls are disabled, they remain disabled when the group box is expanded. The owner of the PropertyManager page is responsible for setting the control states.
+When a group box is expanded, the states of the controls within the group are not changed. For example, if all of the controls are disabled, they remain disabled when the group box is expanded. The owner of the PropertyManager page is responsible for setting the control states.
 
-When the end-user selects or clears the check box of a group box, the[IPropertyManagerPage2Handler5::OnGroupCheck](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnGroupCheck.html)method is called, so that your program can react to this event and do things such as enabling the appropriate controls.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}However, if your program is using this property to set the check box, then this method is not called and your program should set the controls after setting this property.
+When the end-user selects or clears the check box of a group box, the [IPropertyManagerPage2Handler5::OnGroupCheck](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnGroupCheck.html) method is called, so that your program can react to this event and do things such as enabling the appropriate controls. However, if your program is using this property to set the check box, then this method is not called and your program should set the controls after setting this property.
 
-This property does not control whether or not there is a check box on your group box.kadov_tag{{</spaces>}}That is determined when the group box is added. See[IPropertyManagerPage2::AddGroupBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html)or[IPropertyManagerPage2::IAddGroupBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html), specifically the Options argument.
+This property does not control whether or not there is a check box on your group box. That is determined when the group box is added. See [IPropertyManagerPage2::AddGroupBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html) or [IPropertyManagerPage2::IAddGroupBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html), specifically the Options argument.
 
 ## See Also
 
 [IPropertyManagerPageGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup.html)
-
 [IPropertyManagerPageGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup_members.html)
 
 ## Availability

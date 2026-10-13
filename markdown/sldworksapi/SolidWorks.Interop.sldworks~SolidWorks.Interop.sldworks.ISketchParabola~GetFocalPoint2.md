@@ -40,44 +40,24 @@ System.object GetFocalPoint2()
 System.Object^ GetFocalPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Focal
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+Focal [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::GetFocalPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetFocalPoint2.html)
-
-.
+See [SketchParabola::GetFocalPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetFocalPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchParabola](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
-examples.
+See the [ISketchParabola](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html) examples.
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)
-
 [ISketdhParabola::IGetFocalPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola~IGetFocalPoint2.html)
 
 ## Availability

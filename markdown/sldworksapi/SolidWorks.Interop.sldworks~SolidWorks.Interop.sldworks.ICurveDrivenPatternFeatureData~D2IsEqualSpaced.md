@@ -45,13 +45,7 @@ property System.bool D2IsEqualSpaced {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True spaces the pattern items equally, false does not
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D2IsEqualSpaced](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2IsEqualSpaced.html)
-
-.
+See [CurveDrivenPatternFeatureData::D2IsEqualSpaced](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2IsEqualSpaced.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::D1IsEqualSpaced Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1IsEqualSpaced.html)
-
 [ICurveDrivenPatternFeatureData::Dir2Specified Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~Dir2Specified.html)
 
 ## Availability

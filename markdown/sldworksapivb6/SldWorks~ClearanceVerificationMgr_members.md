@@ -1,6 +1,5 @@
 ---
-title: "ClearanceVerificationMgr Object
-Members"
+title: "ClearanceVerificationMgr Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ClearanceVerificationMgr_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ClearanceVerificationMgr_members.html"
 ---
 
-# ClearanceVerificationMgr Object
-Members
+# ClearanceVerificationMgr Object Members
 
 ## Public Methods
 

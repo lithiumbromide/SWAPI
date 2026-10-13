@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFiles.ht
 
 # GetFiles Method (IEdmBatchListing)
 
-Obsolete. Superseded by
-
-[IEdmBatchListing4::GetFiles2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4~GetFiles2.html)
-
-.
+Obsolete. Superseded by [IEdmBatchListing4::GetFiles2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4~GetFiles2.html).
 
 ## Syntax
 
@@ -43,15 +39,11 @@ void GetFiles(
 
 ### Parameters
 
-- `ppoFiles`: Array of
-
-[EdmListFile](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html)
-
-structures; one structure for each file in the listing
+- `ppoFiles`: Array of [EdmListFile](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html) structures; one structure for each file in the listing
 
 ## Remarks
 
-Before calling this method, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html).
+Before calling this method, call [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -61,7 +53,6 @@ Before calling this method, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

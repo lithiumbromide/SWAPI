@@ -1,6 +1,5 @@
 ---
-title: "BalloonSettings Object
-Members"
+title: "BalloonSettings Object Members"
 project: "SWInspectionAddinActiveX DLL"
 interface: "BalloonSettings_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swinspectionapivb6/SWInspectionAddin~BalloonSettings_members.html"
 ---
 
-# BalloonSettings Object
-Members
+# BalloonSettings Object Members
 
 ## Public Methods
 

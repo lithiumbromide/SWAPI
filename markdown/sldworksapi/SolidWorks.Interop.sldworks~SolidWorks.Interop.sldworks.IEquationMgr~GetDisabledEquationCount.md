@@ -40,13 +40,7 @@ System.int GetDisabledEquationCount()
 System.int GetDisabledEquationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Number of disabled equations in the model
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::GetDisabledEquationCount](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~GetDisabledEquationCount.html)
-
-.
+See [EquationMgr::GetDisabledEquationCount](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~GetDisabledEquationCount.html).
 
 ## Examples
 
 [Disable Equation (C#)](Disable_Equation_Example_CSharp.htm)
-
 [Disable Equation (VB.NET)](Disable_Equation_Example_VBNET.htm)
-
 [Disable Equation (VBA)](Disable_Equation_Example_VB.htm)
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Disabled Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Disabled.html)
-
 [IEquationMgr::GetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

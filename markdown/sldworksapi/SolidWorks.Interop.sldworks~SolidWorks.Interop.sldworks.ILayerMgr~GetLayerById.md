@@ -47,13 +47,7 @@ System.Object^ GetLayerById(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,16 @@ Layer
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::GetLayerById](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetLayerById.html)
-
-.
+See [LayerMgr::GetLayerById](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetLayerById.html).
 
 ## Remarks
 
-You can get the layer ID from several places.[IView::GetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetUserPoints2.html)and[IView::GetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetLines4.html)(and similar functions) return the LayerId as part of the array of return information.[IAnnotation::GetVisualProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetVisualProperties.html)also returns the LayerId as part of the array of return information.
+You can get the layer ID from several places. [IView::GetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetUserPoints2.html) and [IView::GetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetLines4.html) (and similar functions) return the LayerId as part of the array of return information. [IAnnotation::GetVisualProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetVisualProperties.html) also returns the LayerId as part of the array of return information.
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
-
 [ILayerMgr::IGetLayerById Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr~IGetLayerById.html)
 
 ## Availability

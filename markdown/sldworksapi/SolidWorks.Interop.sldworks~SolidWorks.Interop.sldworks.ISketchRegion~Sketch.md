@@ -42,13 +42,7 @@ property Sketch^ Sketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchRegion::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~Sketch.html)
-
-.
+See [SketchRegion::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~Sketch.html).
 
 ## See Also
 
 [ISketchRegion Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html)
-
 [ISketchRegion Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion_members.html)
 
 ## Availability

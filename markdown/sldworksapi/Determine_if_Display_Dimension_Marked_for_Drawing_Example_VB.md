@@ -9,8 +9,7 @@ source: "sldworksapi/Determine_if_Display_Dimension_Marked_for_Drawing_Example_V
 
 # Determine if Display Dimension Marked for Drawing Example (VBA)
 
-This example shows how to determine if a display dimension is marked
-to include in a drawing document.
+This example shows how to determine if a display dimension is marked to include in a drawing document.
 
 ```
 '--------------------------------------

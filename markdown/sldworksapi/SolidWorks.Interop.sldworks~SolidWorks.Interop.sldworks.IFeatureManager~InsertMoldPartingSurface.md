@@ -75,69 +75,38 @@ Feature^ InsertMoldPartingSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Radiate`: Radiate mold parting surface as defined by
-
-[swPartingSurfaceMoldParmType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingSurfaceMoldParmType_e.html)
-- `ReverseAlignment`: True to reverse alignment, false to not; only available when radiate set to swPartingSurfaceMoldParmNormal and a parting line does not yet exist (see
-
-Remarks
-
-)
-- `ReverseOffset`: True to reverse offset direction, false to notParamDesc
+- `Radiate`: Radiate mold parting surface as defined by [swPartingSurfaceMoldParmType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingSurfaceMoldParmType_e.html)
+- `ReverseAlignment`: True to reverse alignment, false to not; only available when radiate set to swPartingSurfaceMoldParmNormal and a parting line does not yet exist (see **Remarks**)
+- `ReverseOffset`: True to reverse offset direction, false to not
 - `OffsetDistance`: True to reverse offset direction, false to not
-- `Angle`: AngleParamDescof mold parting surface; only available when radiate set to either swPartingSurfaceMoldParmTangent or swPartingSurfaceMoldParmNormal
-- `Smooth`: Smooth mold parting surface as defined by
-
-[swPartingSurfaceSmoothingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingSurfaceSmoothingType_e.html)
+- `Angle`: Angle of mold parting surface; only available when radiate set to either swPartingSurfaceMoldParmTangent or swPartingSurfaceMoldParmNormal
+- `Smooth`: Smooth mold parting surface as defined by [swPartingSurfaceSmoothingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingSurfaceSmoothingType_e.html)
 - `SmoothDistance`: Distance to smooth mold parting surface; only available when smooth set to swPartingSurfaceSmooth
 - `Knit`: True to knit all surfaces, false to not
 
 ### Return Value
 
-Pointer to
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMoldPartingSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoldPartingSurface.html)
-
-.
+See [FeatureManager::InsertMoldPartingSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoldPartingSurface.html).
 
 ## Remarks
 
-f a parting line feature does not yet exist in the model, you must first select the direction of pull and the edges for the parting line using
-
-[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-. For example, a face (direction of pull) has a mark of 1 and edges (parting lines) a mark of 4.
+f a parting line feature does not yet exist in the model, you must first select the direction of pull and the edges for the parting line using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html). For example, a face (direction of pull) has a mark of 1 and edges (parting lines) a mark of 4.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IFeatureManager::InsertMoldCoreCavitySolids Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldCoreCavitySolids.html)
-
 [IFeatureManager::InsertMoldPartingLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldPartingLine.html)
-
 [IFeatureManager::InsertMoldShutOffSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldShutOffSurface.html)
 
 ## Availability

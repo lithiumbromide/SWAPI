@@ -9,30 +9,22 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__IGetCustomInfoNames.htm"
 
 # ModelDoc2::GetCustomInfoNames
 
-This method is obsolete and has been superseded
-by[ModelDoc2::GetCustomInfoNames2](ModelDoc2__GetCustomInfoNames2.htm).
+This method is obsolete and has been superseded by [ModelDoc2::GetCustomInfoNames2](ModelDoc2__GetCustomInfoNames2.htm).
 
 Description
 
-This method returns a list of strings of the names of the custom properties
-that have been defined in this document.
+This method returns a list of strings of the names of the custom properties that have been defined in this document.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc2. GetCustomInfoNames(
-)
-
-(Table)=========================================================
+retval = ModelDoc2. GetCustomInfoNames( )
 
 | Return: | (VARIANT) retval | SafeArray containing the custom property names |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = ModelDoc2->IGetCustomInfoNames(
-retval )
-
-(Table)=========================================================
+status = ModelDoc2->IGetCustomInfoNames( retval )
 
 | Output: | (BSTR*) retval | Array of the custom property names |
 | --- | --- | --- |
@@ -40,59 +32,4 @@ retval )
 
 Remarks
 
-Call ModelDoc2::GetCustomInfoCount before calling the COM version of
-this method.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\ModelDoc2\ModelDoc2__IGetCustomInfoNames.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\ModelDoc2\ModelDoc2__IGetCustomInfoNames.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+Call ModelDoc2::GetCustomInfoCount before calling the COM version of this method.

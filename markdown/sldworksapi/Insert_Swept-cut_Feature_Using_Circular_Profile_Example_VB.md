@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Swept-cut_Feature_Using_Circular_Profile_Example_VB.
 
 # Insert Swept-cut Feature Using Circular Profile Example (VBA)
 
-This example shows how to create a swept-cut feature using a circular profile
-and get its properties.
+This example shows how to create a swept-cut feature using a circular profile and get its properties.
 
 ```
 '---------------------------------------------------------------------------

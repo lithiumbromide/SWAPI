@@ -40,13 +40,7 @@ System.int GetInstanceCount()
 System.int GetInstanceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of block instances
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetInstanceCount.html)
-
-.
+See [SketchBlockDefinition::GetInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetInstanceCount.html).
 
 ## Examples
 
 [Get and Set Blocks in Any Document (VBA)](Get_and_Set_Blocks_Data_in_Any_Document_Example_VB.htm)
-
 [Get Blocks in Drawing (VBA)](Get_Blocks_in_Drawing_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchBlockDefinition::IGetInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetInstances.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchBlockDefinition::IGetInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetInstances.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetInstances Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetInstances.html)
 
 ## Availability

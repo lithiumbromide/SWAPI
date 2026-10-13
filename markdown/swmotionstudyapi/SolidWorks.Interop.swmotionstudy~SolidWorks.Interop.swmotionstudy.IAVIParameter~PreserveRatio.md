@@ -9,15 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # PreserveRatio Property (IAVIParameter)
 
-Gets or sets whether to preserve the aspect ratio of the animation when changing either its
-
-[width](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenWidth.html)
-
-or
-
-[height](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenHeight.html)
-
-.
+Gets or sets whether to preserve the aspect ratio of the animation when changing either its [width](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenWidth.html) or [height](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenHeight.html).
 
 ## Syntax
 
@@ -59,18 +51,12 @@ True to preserve the ratio, false to not
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::PreserveRatio](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~PreserveRatio.html)
-
-.
+See [AVIParameter::PreserveRatio](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~PreserveRatio.html).
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
-
 [IAVIParameter::AspectRatio Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~AspectRatio.html)
 
 ## Availability

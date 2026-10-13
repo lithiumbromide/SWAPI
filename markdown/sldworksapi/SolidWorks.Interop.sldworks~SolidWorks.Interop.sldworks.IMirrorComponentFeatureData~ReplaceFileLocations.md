@@ -45,13 +45,7 @@ property System.Object^ ReplaceFileLocations {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,40 +53,27 @@ Array of existing file paths
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::ReplaceFileLocations](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~ReplaceFileLocations.html)
-
-.
+See [MirrorComponentFeatureData::ReplaceFileLocations](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~ReplaceFileLocations.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## Remarks
 
 This property is valid only if:
 
-- [IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html)
-
-  is false,
+- [IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html) is false,
 
 - and -
 
-- [IMirrorComponentFeatureData::OppositeHandComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~OppositeHandComponents.html)
-
-  is not Nothing or null. There is a one-to-one mapping between this property's array and IMirrorComponentFeatureData::OppositeHandComponents.
+- [IMirrorComponentFeatureData::OppositeHandComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~OppositeHandComponents.html) is not Nothing or null. There is a one-to-one mapping between this property's array and IMirrorComponentFeatureData::OppositeHandComponents.
 
 If this property is not set, it defaults to the current assembly's folder.
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

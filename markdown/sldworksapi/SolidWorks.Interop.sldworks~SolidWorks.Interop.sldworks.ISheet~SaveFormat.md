@@ -47,21 +47,11 @@ System.bool SaveFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Path and file name to which to save the sheet format (see
-
-Remarks
-
-)
+- `FileName`: Path and file name to which to save the sheet format (see Remarks)
 
 ### Return Value
 
@@ -69,34 +59,25 @@ True if the sheet format is saved to the specified file, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SaveFormat](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SaveFormat.html)
-
-.
+See [Sheet::SaveFormat](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SaveFormat.html).
 
 ## Examples
 
 [Modify and Reload Sheet Format Template (C#)](Modify_and_Reload_Sheet_Format_Template_Example_CSharp.htm)
-
 [Modify and Reload Sheet Format Template (VB.NET)](Modify_and_Reload_Sheet_Format_Template_Example_VBNET.htm)
-
 [Modify and Reload Sheet Format Template (VBA)](Modify_and_Reload_Sheet_Format_Template_Example_VB.htm)
 
 ## Remarks
 
-You must specify the path, file name, and filename extension to which to save the sheet format. Use .slddrtfor the filename extension.
+You must specify the path, file name, and filename extension to which to save the sheet format. Use .slddrt for the filename extension.
 
-Before calling this method, use[IDrawingDoc::ActivateSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActivateSheet.html)to make the sheet active.
+Before calling this method, use [IDrawingDoc::ActivateSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~ActivateSheet.html) to make the sheet active.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [IDrawingDoc::EditTemplate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~EditTemplate.html)
-
 [ISheet::ReloadTemplate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~ReloadTemplate.html)
 
 ## Availability

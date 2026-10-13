@@ -11,87 +11,40 @@ source: "sldworksapi/Move_and_Copy_Body_by_Setting_Transforms_Example_VB.htm"
 
 This example shows how to move and copy bodies by setting transforms.
 
+```vb
 '----------------------------------------------------------
-
 '
-
 ' Preconditions:
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(1)
-Part document is open.
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(2)
-Body-Move/Copy1 feature exists.
-
+'    (1) Part document is open.
+'    (2) Body-Move/Copy1 feature exists.
 '
-
-' Postconditions: Body is moved and copied as per transform
-settings.
-
+' Postconditions: Body is moved and copied as per transform settings.
 '
-
 '-----------------------------------------------------------
-
 Option Explicit
 
 Sub main()
+    Dim swApp As SldWorks.SldWorks
+    Dim part As SldWorks.PartDoc
+    Dim component As SldWorks.Component2
+    Dim moveCopyFeat As SldWorks.feature
+    Dim moveCopy_featData As SldWorks.MoveCopyBodyFeatureData
+    Dim boolstatus As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swApp As SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set part = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-part As SldWorks.PartDoc
+    Set moveCopyFeat = part.FeatureByName("Body-Move/Copy1")
+    Set moveCopy_featData = moveCopyFeat.GetDefinition
+    boolstatus = moveCopy_featData.AccessSelections(part, component)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-component As SldWorks.Component2
+    moveCopy_featData.TransformType = swTransformType_Translation
+    moveCopy_featData.TransformX = 0.02
+    moveCopy_featData.TransformY = 0.03
+    moveCopy_featData.TransformZ = 0.04
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-moveCopyFeat As SldWorks.feature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-moveCopy_featData As SldWorks.MoveCopyBodyFeatureData
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-boolstatus As Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-part = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-moveCopyFeat = part.FeatureByName("Body-Move/Copy1")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-moveCopy_featData = moveCopyFeat.GetDefinition
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}boolstatus
-= moveCopy_featData.AccessSelections(part,
-component)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}moveCopy_featData.TransformType= swTransformType_Translation
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}moveCopy_featData.TransformX= 0.02
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}moveCopy_featData.TransformY= 0.03
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}moveCopy_featData.TransformZ= 0.04
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}boolstatus
-= moveCopyFeat.ModifyDefinition(moveCopy_featData,
-part, Nothing)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}moveCopy_featData.ReleaseSelectionAccess
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    boolstatus = moveCopyFeat.ModifyDefinition(moveCopy_featData, part, Nothing)
+    moveCopy_featData.ReleaseSelectionAccess
 
 End Sub
+```

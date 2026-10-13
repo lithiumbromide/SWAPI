@@ -40,13 +40,7 @@ System.int GetDimensionItemCount()
 System.int GetDimensionItemCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of dimension items
 
 ## VBA Syntax
 
-See
-
-[PMIDimensionData::GetDimensionItemCount](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~GetDimensionItemCount.html)
-
-.
+See [PMIDimensionData::GetDimensionItemCount](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~GetDimensionItemCount.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIDimensionData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html)
-
 [IPMIDimensionData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData_members.html)
-
 [IPMIDimensionData::GetDimensionItemAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData~GetDimensionItemAtIndex.html)
 
 ## Availability

@@ -48,11 +48,7 @@ Radius of the fillet
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertFilletFeature::Radius](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFilletFeature~Radius.html)
-
-.
+See [SwDMDimXpertFilletFeature::Radius](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFilletFeature~Radius.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertFilletFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFilletFeature.html)
-
 [ISwDMDimXpertFilletFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFilletFeature_members.html)
 
 ## Availability

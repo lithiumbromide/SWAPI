@@ -45,37 +45,19 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Entities to mate (see
-
-Remarks
-
-)
+Entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PerpendicularMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~PerpendicularMateFeatureData~EntitiesToMate.html)
-
-.
+See [PerpendicularMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~PerpendicularMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[IPerpendicularMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html)
-
-example.
+See the [IPerpendicularMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html) example.
 
 ## Remarks
 
@@ -89,12 +71,11 @@ You can create perpendicular mates with the following mate entity combinations:
 | IRefPlane |  |  | ● | ● |  |
 | ISurface, IFace2 (non-analytic surface) | ● |  | ● |  | ● |
 
-Instead of specifying this property, you can use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
 
 ## See Also
 
 [IPerpendicularMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html)
-
 [IPerpendicularMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData_members.html)
 
 ## Availability

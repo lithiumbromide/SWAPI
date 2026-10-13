@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Events_When_Display_State_Changes_Example_VBNET.htm"
 
 # Fire Events When Display State Changes Example (VB.NET)
 
-This example shows how to fire the events related to changing display
-states of a configuration in an assembly document.
+This example shows how to fire the events related to changing display states of a configuration in an assembly document.
 
 ```
 '---------------------------------------------------------------
@@ -18,7 +17,7 @@ states of a configuration in an assembly document.
 ' 1. Open an assembly document that has a configuration with multiple
 '    display states.
 ' 2. Run this macro in debug mode.
-' 3. Change the display state of the active configuration in SOLIDWORKS
+' 3. Change the display state of the active configuration in SOLIDWORKS Design
 '    (click the ConfigurationManager tab and double-click
 '    a different display state).
 '
@@ -42,43 +41,43 @@ Imports SolidWorks.Interop.sldworks
  Imports System.Collections
 
  Partial Class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public WithEvents swAssem As AssemblyDoc
+    Public WithEvents swAssem As AssemblyDoc
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub Main()
+     Public Sub Main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim openAssem As Hashtable
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
+        Dim swModel As ModelDoc2
+         Dim openAssem As Hashtable
+        swModel = swApp.ActiveDoc
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Set up events
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swAssem = swModel
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}openAssem = New Hashtable
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachEventHandlers()
+         'Set up events
+         swAssem = swModel
+         openAssem = New Hashtable
+         AttachEventHandlers()
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+     End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachEventHandlers()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachSWEvents()
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachEventHandlers()
+         AttachSWEvents()
+     End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachSWEvents()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swAssem.ActiveDisplayStateChangePreNotify, AddressOf Me.swAssem_ActiveDisplayStateChangePreNotify
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swAssem.ActiveDisplayStateChangePostNotify, AddressOf Me.swAssem_ActiveDisplayStateChangePostNotify
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachSWEvents()
+         AddHandler swAssem.ActiveDisplayStateChangePreNotify, AddressOf Me.swAssem_ActiveDisplayStateChangePreNotify
+         AddHandler swAssem.ActiveDisplayStateChangePostNotify, AddressOf Me.swAssem_ActiveDisplayStateChangePostNotify
+     End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Function swAssem_ActiveDisplayStateChangePreNotify() As Integer
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}'Send message when user changes display state in the ConfigurationManager
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("The active configuration's display state is about to change.")
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Private Function swAssem_ActiveDisplayStateChangePreNotify() As Integer
+     'Send message when user changes display state in the ConfigurationManager
+         MsgBox("The active configuration's display state is about to change.")
+     End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Function swAssem_ActiveDisplayStateChangePostNotify(ByVal DisplayStateName As String) As Integer
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}'Send message after user changes display state in the ConfigurationManager
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("The active configuration's display state has changed.")
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Private Function swAssem_ActiveDisplayStateChangePostNotify(ByVal DisplayStateName As String) As Integer
+     'Send message after user changes display state in the ConfigurationManager
+         MsgBox("The active configuration's display state has changed.")
+     End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+     ''' The SldWorks swApp variable is pre-assigned for you.
+     ''' </summary>
+     Public swApp As SldWorks
 End Class
 ```

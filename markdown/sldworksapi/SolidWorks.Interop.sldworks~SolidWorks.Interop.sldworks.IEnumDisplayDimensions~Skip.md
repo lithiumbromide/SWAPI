@@ -46,13 +46,7 @@ void Skip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumDisplayDimensions::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Skip.html)
-
-.
+See [EnumDisplayDimensions::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Skip.html).
 
 ## Remarks
 
@@ -73,5 +63,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDisplayDimensions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html)
-
 [IEnumDisplayDimensions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions_members.html)

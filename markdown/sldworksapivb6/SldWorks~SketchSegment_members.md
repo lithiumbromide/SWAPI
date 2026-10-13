@@ -1,6 +1,5 @@
 ---
-title: "SketchSegment Object
-Members"
+title: "SketchSegment Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchSegment_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchSegment_members.html"
 ---
 
-# SketchSegment Object
-Members
+# SketchSegment Object Members
 
 ## Public Methods
 

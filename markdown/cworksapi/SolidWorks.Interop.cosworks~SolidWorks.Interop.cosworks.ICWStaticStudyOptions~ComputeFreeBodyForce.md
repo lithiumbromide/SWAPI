@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # ComputeFreeBodyForce Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by[ICWStaticStudyOptions::ComputeFreeBodyForce2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ComputeFreeBodyForce2.html).
+Obsolete. Superseded by [ICWStaticStudyOptions::ComputeFreeBodyForce2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ComputeFreeBodyForce2.html).
 
 ## Syntax
 
@@ -51,16 +51,11 @@ property System.int ComputeFreeBodyForce {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::ComputeFreeBodyForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ComputeFreeBodyForce.html)
-
-.
+See [CWStaticStudyOptions::ComputeFreeBodyForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ComputeFreeBodyForce.html).
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Body_for_View_Example_VBNET.htm"
 
 # Set Body for View Example (VB.NET)
 
-This example shows how to show just one body of a multibody part in
-a drawing view.
+This example shows how to show just one body of a multibody part in a drawing view.
 
 ```
 '------------------------------------------------------------------
@@ -43,81 +42,81 @@ Imports System.Runtime.InteropServices
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelMgr As SelectionMgr
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swView As View
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim nbrBodies As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim arrBody As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swBody As Body2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swFace As Face2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swEnt As Entity
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelData As SelectData
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim bool As Boolean
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim arrBodiesIn(0) As DispatchWrapper
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Bodies(0) As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim i As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim objType As Long
+        Dim swModel As ModelDoc2
+        Dim swSelMgr As SelectionMgr
+        Dim swView As View
+        Dim nbrBodies As Long
+        Dim arrBody As Object
+        Dim swBody As Body2
+        Dim swFace As Face2
+        Dim swEnt As Entity
+        Dim swSelData As SelectData
+        Dim bool As Boolean
+        Dim arrBodiesIn(0) As DispatchWrapper
+        Dim Bodies(0) As Object
+        Dim i As Long
+        Dim objType As Long
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSelMgr = swModel.SelectionManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swView = swSelMgr.GetSelectedObject6(1, -1)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If (swView Is Nothing) Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MsgBox("View not selected.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Exit Sub
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}nbrBodies = swView.GetBodiesCount
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Number of bodies: " & nbrBodies)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If (nbrBodies < 1) Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MsgBox("No bodies in selected view.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Exit Sub
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}arrBody = swView.Bodies
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For i = 0 To UBound(arrBody)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swBody = arrBody(i)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSelData = swSelMgr.CreateSelectData
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSelData.View = swView
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bool = swBody.Select2(False, swSelData)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Object type 76 is a solid body
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}objType = swSelMgr.GetSelectedObjectType3(1, -1)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If (objType = 76) Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" Object type: solid body")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If (Not (swSelectType_e.swSelSOLIDBODIES = swSelMgr.GetSelectedObjectType3(1, -1))) Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}MsgBox("Solid body not found.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swFace = swBody.GetFirstFace
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Do While Not swFace Is Nothing
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swEnt = swFace
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}' Select using IEntity
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}bool = swEnt.Select4(True, swSelData) : Debug.Assert(bool)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swFace = swFace.GetNextFace
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Loop
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}Name of body: " & swBody.GetSelectionId)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next i
+        swModel = swApp.ActiveDoc
+        swSelMgr = swModel.SelectionManager
+        swView = swSelMgr.GetSelectedObject6(1, -1)
+        If (swView Is Nothing) Then
+            MsgBox("View not selected.")
+            Exit Sub
+        End If
+        nbrBodies = swView.GetBodiesCount
+        Debug.Print("Number of bodies: " & nbrBodies)
+        If (nbrBodies < 1) Then
+            MsgBox("No bodies in selected view.")
+            Exit Sub
+        End If
+        arrBody = swView.Bodies
+        For i = 0 To UBound(arrBody)
+            swBody = arrBody(i)
+            swSelData = swSelMgr.CreateSelectData
+            swSelData.View = swView
+            bool = swBody.Select2(False, swSelData)
+            ' Object type 76 is a solid body
+            objType = swSelMgr.GetSelectedObjectType3(1, -1)
+            If (objType = 76) Then
+                Debug.Print(" Object type: solid body")
+            End If
+            If (Not (swSelectType_e.swSelSOLIDBODIES = swSelMgr.GetSelectedObjectType3(1, -1))) Then
+                MsgBox("Solid body not found.")
+            End If
+            swFace = swBody.GetFirstFace
+            Do While Not swFace Is Nothing
+                swEnt = swFace
+                ' Select using IEntity
+                bool = swEnt.Select4(True, swSelData) : Debug.Assert(bool)
+                swFace = swFace.GetNextFace
+            Loop
+            Debug.Print("   Name of body: " & swBody.GetSelectionId)
+        Next i
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ClearSelection2(True)
+        swModel.ClearSelection2(True)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get the bodies from referenced model
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swView.ReferencedDocument
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}arrBody = swModel.GetBodies2(swBodyType_e.swSolidBody, True)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If (nbrBodies = 1) Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swView.Bodies = (arrBody)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Set the body to include in the drawing view
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Bodies(0) = arrBody(0)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}arrBodiesIn(0) = New DispatchWrapper(Bodies(0))
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swView.Bodies = (arrBodiesIn)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+        ' Get the bodies from referenced model
+        swModel = swView.ReferencedDocument
+        arrBody = swModel.GetBodies2(swBodyType_e.swSolidBody, True)
+        If (nbrBodies = 1) Then
+            swView.Bodies = (arrBody)
+        Else
+            ' Set the body to include in the drawing view
+            Bodies(0) = arrBody(0)
+            arrBodiesIn(0) = New DispatchWrapper(Bodies(0))
+            swView.Bodies = (arrBodiesIn)
+        End If
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ClearSelection2(True)
+        swModel.ClearSelection2(True)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 End Class
 ```

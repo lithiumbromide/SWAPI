@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Changing_a_Table_in_an_Assembly_Docu
 
 # Fire Notification When Changing a Table in an Assembly Document Example (C#)
 
-This example shows how to fire a notification when a table is changed in an
-assembly document.
+This example shows how to fire a notification when a table is changed in an assembly document.
 
 ```vb
  //---------------------------------------------------------------

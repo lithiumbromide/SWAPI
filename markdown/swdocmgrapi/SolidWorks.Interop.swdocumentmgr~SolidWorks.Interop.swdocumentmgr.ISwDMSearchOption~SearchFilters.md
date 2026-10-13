@@ -47,32 +47,22 @@ property System.int SearchFilters {
 
 ### Property Value
 
-Filter search as defined by
-
-[SwDMSearchFilters](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmSearchFilters.html)
+Filter search as defined by [SwDMSearchFilters](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmSearchFilters.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMSearchOption::SearchFilters](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~SearchFilters.html)
-
-.
+See [SwDMSearchOption::SearchFilters](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~SearchFilters.html).
 
 ## Examples
 
 [Get External References for Part (C#)](Get_External_References_for_Part_Example_CSharp.htm)
-
 [Get External References for Part (VB.NET)](Get_External_References_for_Part_Example_VBNET.htm)
-
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
-
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMSearchOption Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
 [ISwDMSearchOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption_members.html)
 
 ## Availability

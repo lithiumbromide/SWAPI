@@ -9,46 +9,37 @@ source: "epdmapi/Add_Row_to_Bill_of_Materials_Example_CSharp.htm"
 
 # Add Row to Bill of Materials Example (C#)
 
-This example shows how to add a file to the named Bill of Materials (BOM) of
-a file in the vault.
+This example shows how to add a row to the named Bill of Materials (BOM) of a file in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
    //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type EdmBOM_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
+ //    a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+ //    b. Type EdmBOM_CSharp in Project name.
+ //       c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
  //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in  Form1.Designer.cs with
+ //    h. Replace the code in Form1.cs with this code.
+ //    i. To create the form, replace the code in  Form1.Designer.cs with
  //       this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and click
- //    EPDM.Interop.epdm.dll, click Open, and click  Add).
-
- // 4. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 5. Ensure that the vault contains the BOM layout.
+ // 2.     Add dependencies and safely pass arrays of structures.
+ // 3. Ensure that the vault contains the BOM layout.
  //    To inspect the existing layouts:
  //    a. Open the SOLIDWORKS PDM Professional Administration tool.
  //    b. Log into vault_name.
  //    c. Expand vault_name > Bills of Materials.
  //    d. Verify that layout, BOM, exists.
-  // 6. Ensure that an assembly and its parts exist in a folder of
+  // 4. Ensure that an assembly and its parts exist in a folder of
  //    the vault.
- // 7. Check in a text file named "temp" in the assembly directory.
- // 8. Modify the path to "temp" in the code.
- // 9. Ensure that a named Bill of Materials exists for the assembly.
+ // 5. Check in a text file named "temp" in the assembly directory.
+ // 6. Modify the path to "temp" in the code.
+ // 7. Ensure that a named Bill of Materials exists for the assembly.
  //    a. Open File Explorer on a vault_name view.
  //    b. Click the assembly.
  //    c. Click the Bill of Materials tab.
@@ -56,7 +47,7 @@ Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
  //    e. If a named Bill of Materials does not exist in the BOM list:
  //       1. Click Save > Save As in the tab toolbar.
  //       2. In the Save As dialog, click  Save.
-  //10. Click Debug > Start Debugging or press F5.
+  // 8. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. The Bill of Materials dialog box displays.

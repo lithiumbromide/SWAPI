@@ -51,24 +51,15 @@ property System.double Train {
 
 ## VBA Syntax
 
-See
-
-[SustainabilityTransportation::Train](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityTransportation~Train.html)
-
-.
+See [SustainabilityTransportation::Train](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityTransportation~Train.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityTransportation](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityTransportation.html)
-
-.
+See the examples in [ISustainabilityTransportation](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityTransportation.html).
 
 ## See Also
 
 [ISustainabilityTransportation Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation.html)
-
 [ISustainabilityTransportation Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation_members.html)
 
 ## Availability

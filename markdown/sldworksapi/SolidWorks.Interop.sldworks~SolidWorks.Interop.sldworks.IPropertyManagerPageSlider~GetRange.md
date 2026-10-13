@@ -50,35 +50,24 @@ void GetRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Min`: Minimum range of slider
-- `Max`: Maximum range of sliderParamDesc
+- `Max`: Maximum range of slider
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::GetRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~GetRange.html)
-
-.
+See [PropertyManagerPageSlider::GetRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~GetRange.html).
 
 ## Remarks
 
-Use[IPropertyManagerPageSlider::SetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html)to set the range of the slider.
+Use [IPropertyManagerPageSlider::SetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html) to set the range of the slider.
 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

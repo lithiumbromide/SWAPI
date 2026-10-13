@@ -45,31 +45,19 @@ property System.int Filter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Filter as defined in
-
-[swStraightHoleFilter_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightHoleFilter_e.html)
+Filter as defined in [swStraightHoleFilter_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightHoleFilter_e.html)
 
 ## VBA Syntax
 
-See
-
-[StraightElementData::Filter](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~Filter.html)
-
-.
+See [StraightElementData::Filter](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~Filter.html).
 
 ## Remarks
 
-This property is valid only if[IAdvancedHoleElementData::Standard](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~Standard.html)is set to[swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html):
+This property is valid only if [IAdvancedHoleElementData::Standard](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~Standard.html) is set to [swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html):
 
 - swStandardPEMInch
 
@@ -80,7 +68,6 @@ This property is valid only if[IAdvancedHoleElementData::Standard](SolidWorks.In
 ## See Also
 
 [IStraightElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData.html)
-
 [IStraightElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData_members.html)
 
 ## Availability

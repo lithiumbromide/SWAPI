@@ -47,30 +47,19 @@ property System.int InitialConditionType {
 
 ### Property Value
 
-Type of initial condition as defined by
-
-[swsDynamicInitialConditionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicInitialConditionType_e.html)
+Type of initial condition as defined by [swsDynamicInitialConditionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicInitialConditionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::InitialConditionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~InitialConditionType.html)
-
-.
+See [CWDynamicInitialCondition::InitialConditionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~InitialConditionType.html).
 
 ## Examples
 
-See the
-
-[ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
-examples.
+See the [ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html) examples.
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
 
 ## Availability

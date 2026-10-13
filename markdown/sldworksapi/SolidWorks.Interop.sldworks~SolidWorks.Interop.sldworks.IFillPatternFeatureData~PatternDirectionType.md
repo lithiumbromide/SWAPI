@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFi
 
 # PatternDirectionType Property (IFillPatternFeatureData)
 
-Gets the type of pattern direction reference returned by
-
-[IFillPatternFeatureData::PatternDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternDirection.html)
-
-for this fill pattern feature.
+Gets the type of pattern direction reference returned by [IFillPatternFeatureData::PatternDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternDirection.html) for this fill pattern feature.
 
 ## Syntax
 
@@ -46,32 +42,19 @@ property System.int PatternDirectionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of pattern direction reference as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+Type of pattern direction reference as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::PatternDirectionType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternDirectionType.html)
-
-.
+See [FillPatternFeatureData::PatternDirectionType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternDirectionType.html).
 
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

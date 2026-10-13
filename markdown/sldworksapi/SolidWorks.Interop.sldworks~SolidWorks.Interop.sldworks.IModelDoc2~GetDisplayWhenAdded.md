@@ -40,13 +40,7 @@ System.bool GetDisplayWhenAdded()
 System.bool GetDisplayWhenAdded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if new sketch entities are displayed when added, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetDisplayWhenAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetDisplayWhenAdded.html)
-
-.
+See [ModelDoc2::GetDisplayWhenAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetDisplayWhenAdded.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetDisplayWhenAdded Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetDisplayWhenAdded.html)
 
 ## Availability

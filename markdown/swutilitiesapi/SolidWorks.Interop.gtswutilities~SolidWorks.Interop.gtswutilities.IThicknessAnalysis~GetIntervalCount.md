@@ -49,23 +49,15 @@ System.int GetIntervalCount(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
-Number of intervals in
-
-the thickness color scale
+Number of intervals in the thickness color scale
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::GetIntervalCount](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetIntervalCount.html)
-
-.
+See [IThicknessAnalysis::GetIntervalCount](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetIntervalCount.html).
 
 ## Examples
 
@@ -74,11 +66,8 @@ See
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::GetAnalysisDetails Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAnalysisDetails.html)
-
 [IThicknessAnalysis::GetMaxDeviationfromTargetThickness Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMaxDeviationfromTargetThickness.html)
 
 ## Availability

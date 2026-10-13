@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 Provides an interface to temporary body objects.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class IModeler
 
 ## VBA Syntax
 
-See
-
-[Modeler](ms-its:sldworksapivb6.chm::/sldworks~Modeler.html)
-
-.
+See [Modeler](ms-its:sldworksapivb6.chm::/sldworks~Modeler.html).
 
 ## Examples
 
 [Check Interference Using IModeler::CheckInterference (VBA)](Check_Interference_using_Modeler_CheckInterference_Example_VB.htm)
-
 [Create Loft Body (VB.NET)](Create_Loft_Body_Example_VBNET.htm)
-
 [Create Loft Body (VBA)](Create_Loft_Body_Example_VB.htm)
-
 [Create Loft Body (C#)](Create_Loft_Body_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +61,4 @@ See
 ## See Also
 
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

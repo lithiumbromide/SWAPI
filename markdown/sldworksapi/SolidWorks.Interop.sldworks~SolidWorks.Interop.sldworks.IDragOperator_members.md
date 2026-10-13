@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDragOperator Interface Members
 
-The following tables list the members exposed by[IDragOperator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html).
+The following tables list the members exposed by [IDragOperator](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html).
 
 ## Public Properties
 
@@ -59,5 +59,4 @@ The following tables list the members exposed by[IDragOperator](SolidWorks.Inter
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

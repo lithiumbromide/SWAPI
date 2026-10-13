@@ -67,49 +67,35 @@ Feature^ DraftXpertChange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: Draft angle in radians
-- `FlipDir`: True to flip the direction of the draft (the draft direction is determined by the selected direction, which could be a planar face, a reference plane, an edge, or two vertices; if you refer to the last argument in[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html), then these items have a selection mark of 1; the faces to draft have a selection mark of 2, and the draft edges have a selection mark of 4), false to not
+- `FlipDir`: True to flip the direction of the draft (the draft direction is determined by the selected direction, which could be a planar face, a reference plane, an edge, or two vertices; if you refer to the last argument in [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html), then these items have a selection mark of 1; the faces to draft have a selection mark of 2, and the draft edges have a selection mark of 4), false to not
 - `EdgeDraft`: True if this is an edge draft and the user selects edges to draft, false if this is a face draft and the user selects faces to draft (SOLIDWORKS automatically selects the faces next to the edge to be drafted)
 - `PropType`: Propagation type:
 
-- 0 = no propagation
-- 1 = propagate to the next tangent faces that share the base neutral plane; valid for edge draft or neutral plane draft
-- 2 = propagate to all faces that are a neighbor of the neutral plane
-- 3 = propagate to all faces that a neighbor of the neutral plane on all inner loops (for example, all faces of a pocket or a boss)
-- 4 = propagate to all faces that are a neighbor of the neutral plane on the outer loop (for example, the sides of a box with the bottom face as the neutral plane)
+  - 0 = no propagation
+  - 1 = propagate to the next tangent faces that share the base neutral plane; valid for edge draft or neutral plane draft
+  - 2 = propagate to all faces that are a neighbor of the neutral plane
+  - 3 = propagate to all faces that a neighbor of the neutral plane on all inner loops (for example, all faces of a pocket or a boss)
+  - 4 = propagate to all faces that are a neighbor of the neutral plane on the outer loop (for example, the sides of a box with the bottom face as the neutral plane)
 - `IsStepDraft`: True if the draft is a step draft, false if not
 - `IsBodyDraft`: True if the draft is a body draft, false if not
 
 ### Return Value
 
-Pointer to the modified draft
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Pointer to the modified draft [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::DraftXpertChange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~DraftXpertChange.html)
-
-.
+See [FeatureManager::DraftXpertChange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~DraftXpertChange.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::DraftXpertRemove Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~DraftXpertRemove.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # InsertJoin Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::InsertJoin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertJoin2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::InsertJoin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertJoin2.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void InsertJoin()
 void InsertJoin();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertJoin](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertJoin.html)
-
-.
+See [AssemblyDoc::InsertJoin](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertJoin.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

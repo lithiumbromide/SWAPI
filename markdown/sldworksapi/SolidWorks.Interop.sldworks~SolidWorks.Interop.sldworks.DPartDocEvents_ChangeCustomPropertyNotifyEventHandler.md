@@ -55,13 +55,7 @@ public delegate System.int DPartDocEvents_ChangeCustomPropertyNotifyEventHandler
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -73,19 +67,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChangeCustomPropertyNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ChangeCustomPropertyNotify_EV.html)
-
-.
+See [ChangeCustomPropertyNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ChangeCustomPropertyNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartChangeCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this event.
+If developing a C++ application, use [swPartChangeCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this event.
 
 ## Availability
 

@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_Table_Cell_Text_Example_VBNET.htm"
 
 # Get Table Cell Text Example (VB.NET)
 
-This example shows how to get all of the cell text
-from a BOM table using the SOLIDWORKS Document Manager API.
+This example shows how to get all of the cell text from a BOM table using the SOLIDWORKS Document Manager API.
 
 ```vb
 '---------------------------------------------------------------------------
@@ -21,8 +20,8 @@ from a BOM table using the SOLIDWORKS Document Manager API.
 ' 2. Open SOLIDWORKS and copy the code below to a VB.NET macro.
 ' 3. Ensure that the latest SolidWorks.Interop.swdocumentmgr.dll
 '    interop assembly is loaded in the project.
-' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}(Right-click on the project in Project Explorer, click
-'    Add Reference, kadov_tag{{</spaces>}} click the interop assembly in the .NET
+'    (Right-click on the project in Project Explorer, click
+'    Add Reference,  click the interop assembly in the .NET
 '    tab, or browse for the DLL in install_dir\api\redist.)
 ' 4. In SOLIDWORKS, create a part document with a BOM table.
 ' 5. Save the part and close it.
@@ -40,46 +39,46 @@ Imports SolidWorks.Interop.swdocumentmgr
 Imports System
 Imports System.Diagnostics
 Partial Class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim classfac As SwDMClassFactory
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim tapp As SwDMApplication
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swDoc As SwDMDocument13
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swTable As SwDMTable3
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim e As SwDmDocumentOpenError
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim sFile As String
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vTables As Object
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim vTabArr As Object
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim err As SwDmTableError
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim row As Integer, col As Integer
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim i As Integer, j As Integer
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}classfac = CreateObject("SwDocumentMgr.SwDMClassFactory")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tapp = classfac.GetApplication("your_license_key") 'license needed please do not distribute this
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}sFile = "C:\temp\Part1.SLDPRT"
+    Dim classfac As SwDMClassFactory
+    Dim tapp As SwDMApplication
+    Dim swDoc As SwDMDocument13
+    Dim swTable As SwDMTable3
+    Dim e As SwDmDocumentOpenError
+    Dim sFile As String
+    Dim vTables As Object
+    Dim vTabArr As Object
+    Dim err As SwDmTableError
+    Dim row As Integer, col As Integer
+    Dim i As Integer, j As Integer
+    Sub Main()
+        classfac = CreateObject("SwDocumentMgr.SwDMClassFactory")
+        tapp = classfac.GetApplication("your_license_key") 'license needed please do not distribute this
+        sFile = "C:\temp\Part1.SLDPRT"
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'get the SW document file
+        'get the SW document file
 swDoc = tapp.GetDocument(sFile, SwDmDocumentType.swDmDocumentPart, False, e)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Set swDoc = tapp.GetDocument(sFile, SwDmDocumentType.swDmDocumentAssembly, False, e)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Set swDoc = tapp.GetDocument(sFile, SwDmDocumentType.swDmDocumentDrawing, False, e)
+        'Set swDoc = tapp.GetDocument(sFile, SwDmDocumentType.swDmDocumentAssembly, False, e)
+        'Set swDoc = tapp.GetDocument(sFile, SwDmDocumentType.swDmDocumentDrawing, False, e)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Doc Version is " & swDoc.GetVersion)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Doc name is " & swDoc.FullName)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}vTables = swDoc.GetTableNames(SwDmTableType.swDmTableTypeBOM)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Not IsNothing(vTables) Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swTable = swDoc.GetTable(vTables(0))
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If Not swTable Is Nothing Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Table retrieved is " & vTables(0))
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}vTabArr = swTable.GetTableCellText(err, row, col)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Row count is " & row)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Column count is " & col)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Table cell text:")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}For j = 0 To UBound(vTabArr)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}" & vTabArr(j))
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Next
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDoc.CloseDoc()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+        Debug.Print("Doc Version is " & swDoc.GetVersion)
+        Debug.Print("Doc name is " & swDoc.FullName)
+        vTables = swDoc.GetTableNames(SwDmTableType.swDmTableTypeBOM)
+        If Not IsNothing(vTables) Then
+            swTable = swDoc.GetTable(vTables(0))
+            If Not swTable Is Nothing Then
+                Debug.Print("Table retrieved is " & vTables(0))
+                vTabArr = swTable.GetTableCellText(err, row, col)
+                Debug.Print("Row count is " & row)
+                Debug.Print("Column count is " & col)
+                Debug.Print("Table cell text:")
+                For j = 0 To UBound(vTabArr)
+                    Debug.Print("   " & vTabArr(j))
+                Next
+            End If
+        End If
+        swDoc.CloseDoc()
+    End Sub
+
+    Public swApp As SldWorks
 End Class
 ```

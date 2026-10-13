@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCylinderFeature Object
-Members"
+title: "DimXpertCylinderFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCylinderFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCylinderFeature_members.html"
 ---
 
-# DimXpertCylinderFeature Object
-Members
+# DimXpertCylinderFeature Object Members
 
 ## Public Methods
 

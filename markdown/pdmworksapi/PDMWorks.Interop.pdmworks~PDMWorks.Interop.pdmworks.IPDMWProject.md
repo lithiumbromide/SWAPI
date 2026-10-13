@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWPr
 
 Provides access to the properties of vault projects.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWProject
 
 ## VBA Syntax
 
-See
-
-[PDMWProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject.html)
-
-.
+See [PDMWProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject.html).
 
 ## Accessors
 
@@ -66,7 +56,5 @@ See
 ## See Also
 
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWProjects Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)

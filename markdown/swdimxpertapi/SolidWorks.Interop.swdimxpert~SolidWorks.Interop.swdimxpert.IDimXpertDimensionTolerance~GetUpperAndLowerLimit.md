@@ -62,22 +62,16 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionTolerance::GetUpperAndLowerLimit](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~GetUpperAndLowerLimit.html)
-
-.
+See [DimXpertDimensionTolerance::GetUpperAndLowerLimit](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~GetUpperAndLowerLimit.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance.html)
-
 [IDimXpertDimensionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance_members.html)
 
 ## Availability

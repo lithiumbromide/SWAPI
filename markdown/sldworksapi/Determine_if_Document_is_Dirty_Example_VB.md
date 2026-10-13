@@ -9,9 +9,7 @@ source: "sldworksapi/Determine_if_Document_is_Dirty_Example_VB.htm"
 
 # Determine if Document is Dirty Example (VBA)
 
-This example shows how to determine if a document is dirty (i.e., modified
-since opening it) and needs
-to be saved.
+This example shows how to determine if a document is dirty (i.e., modified since opening it) and needs to be saved.
 
 ```
 '-----------------------------------------------

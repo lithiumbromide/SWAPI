@@ -51,11 +51,7 @@ Text to find
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::FindText](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~FindText.html)
-
-.
+See [IFindReplaceAnnotations::FindText](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~FindText.html).
 
 ## Remarks
 
@@ -69,11 +65,8 @@ See
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [IFindReplaceAnnotations::AnnotationFilter Property](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~AnnotationFilter.html)
-
 [IFindReplaceAnnotations::options Property](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~options.html)
 
 ## Availability

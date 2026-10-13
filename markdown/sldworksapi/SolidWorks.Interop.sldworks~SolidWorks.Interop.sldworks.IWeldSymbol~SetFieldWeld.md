@@ -47,17 +47,11 @@ System.bool SetFieldWeld(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FieldWeld`: Value indicating whether this is to be a field or site weld, and, if so, whether the flag points up or down as defined in[swWeldSymbolField_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldSymbolField_e.html)
+- `FieldWeld`: Value indicating whether this is to be a field or site weld, and, if so, whether the flag points up or down as defined in [swWeldSymbolField_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldSymbolField_e.html)
 
 ### Return Value
 
@@ -65,28 +59,19 @@ True if the field or site weld setting is set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::SetFieldWeld](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetFieldWeld.html)
-
-.
+See [WeldSymbol::SetFieldWeld](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~SetFieldWeld.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## Remarks
 
-To retrieve the field or site weld property of a weld symbol, use[IWeldSymbol::GetFieldWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetFieldWeld.html).
+To retrieve the field or site weld property of a weld symbol, use [IWeldSymbol::GetFieldWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetFieldWeld.html).
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
 
 ## Availability

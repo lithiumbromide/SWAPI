@@ -47,46 +47,27 @@ System.int ApplyTransforms(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentTransforms`: Array of
-
-[IMathTransform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
+- `ComponentTransforms`: Array of [IMathTransform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swCollisionGroupApplyTransformErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionGroupApplyTransformErrors_e.html)
+Result code as defined in [swCollisionGroupApplyTransformErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionGroupApplyTransformErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionGroup::ApplyTransforms](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~ApplyTransforms.html)
-
-.
+See [CollisionDetectionGroup::ApplyTransforms](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~ApplyTransforms.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## See Also
 
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [ICollisionDetectionGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup_members.html)
 
 ## Availability

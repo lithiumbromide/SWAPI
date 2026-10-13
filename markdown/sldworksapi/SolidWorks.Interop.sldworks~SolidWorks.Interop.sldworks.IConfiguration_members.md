@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConfiguration Interface Members
 
-The following tables list the members exposed by[IConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html).
+The following tables list the members exposed by [IConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html).
 
 ## Public Properties
 
@@ -28,7 +28,7 @@ The following tables list the members exposed by[IConfiguration](SolidWorks.Inte
 | Property | Lock | Gets or sets whether the configuration is locked. |
 | Property | Name | Gets or sets the configuration name. |
 | Property | NeedsRebuild | Gets whether the configuration needs to be rebuilt. |
-| Property | RepresentationShared | Gets or sets whether this SOLIDWORKS Connected Representation configuration is shared. |
+| Property | RepresentationShared | Gets or sets whether this SOLIDWORKS Design connected to the 3DEXPERIENCE platform Representation configuration is shared. |
 | Property | ShowChildComponentsInBOM | Obsolete. Superseded by IConfiguration::ChildComponentDisplayInBOM . |
 | Property | SuppressNewComponentModels | Gets or sets whether new components are suppressed in this configuration. |
 | Property | SuppressNewFeatures | Gets or sets whether to suppress new features in this configuration. |
@@ -51,7 +51,7 @@ The following tables list the members exposed by[IConfiguration](SolidWorks.Inte
 | Method | CreateDisplayState | Creates a display state for this configuration. |
 | Method | DeleteDisplayState | Deletes the specified display state from this configuration. |
 | Method | DeleteExplodeStep | Deletes the specified explode step. |
-| Method | Get3DExperienceType | Gets how this configuration is viewed in SOLIDWORKS Connected . |
+| Method | Get3DExperienceType | Gets how this configuration is viewed in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | GetChildren | Gets all of the children configurations of this derived configuration. |
 | Method | GetChildrenCount | Gets the number of children for this configuration. |
 | Method | GetComponentConfigName | Gets the referenced configuration name of the specified component in this configuration. |
@@ -99,7 +99,7 @@ The following tables list the members exposed by[IConfiguration](SolidWorks.Inte
 | Method | RenameDisplayState | Renames a display state of this configuration. |
 | Method | Select | Obsolete. Superseded by IConfiguration::Select2 . |
 | Method | Select2 | Selects the configuration. |
-| Method | Set3DExperienceType | Converts this configuration in SOLIDWORKS Connected . |
+| Method | Set3DExperienceType | Converts this configuration in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | SetColor | Sets the color for this configuration. |
 | Method | SetExpanded | Sets whether to expand this configuration's node in the specified pane of the ConfigurationManager. |
 | Method | SetParameters | Sets the parameters (suppression state of features, suppression state or visibility of components, dimensions, and so on) for this configuration. |
@@ -110,5 +110,4 @@ The following tables list the members exposed by[IConfiguration](SolidWorks.Inte
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

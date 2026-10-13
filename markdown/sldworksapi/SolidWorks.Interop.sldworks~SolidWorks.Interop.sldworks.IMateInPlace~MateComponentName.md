@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # MateComponentName Property (IMateInPlace)
 
-Gets the name of the specified component for this
-
-Inplace
-
-mate.
+Gets the name of the specified component for this **Inplace** mate.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ property System.String^ MateComponentName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,26 +59,18 @@ Name of the specified component
 
 ## VBA Syntax
 
-See
-
-[MateInPlace::MateComponentName](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateComponentName.html)
-
-.
+See [MateInPlace::MateComponentName](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateComponentName.html).
 
 ## Examples
 
 [Get Component Names and Types for Inplace MAte (VBA)](Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.htm)
-
 [Get Mates (C#)](Get_Mates_Example_CSharp.htm)
-
 [Get Mates (VB.NET)](Get_Mates_Example_VBNET.htm)
-
 [Get Mates (VBA)](Get_Mates_Example_VB.htm)
 
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
 
 ## Availability

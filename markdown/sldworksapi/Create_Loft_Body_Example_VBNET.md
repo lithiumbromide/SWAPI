@@ -9,7 +9,7 @@ source: "sldworksapi/Create_Loft_Body_Example_VBNET.htm"
 
 # Create Loft Body Example (VB.NET)
 
-This example shows how to create a temporary loft body using[IModeler::CreateLoftBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftBody2.html).
+This example shows how to create a temporary loft body using [IModeler::CreateLoftBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftBody2.html).
 
 ```
 '-----------------------------------------------------

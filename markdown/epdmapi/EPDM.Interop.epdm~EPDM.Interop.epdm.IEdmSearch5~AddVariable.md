@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~AddVariable.htm
 
 # AddVariable Method (IEdmSearch5)
 
-Obsolete. Superseded by
-
-[IEdmSearch8::AddVariable2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~AddVariable2.html)
-
-.
+Obsolete. Superseded by [IEdmSearch8::AddVariable2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~AddVariable2.html).
 
 ## Syntax
 
@@ -47,11 +43,7 @@ void AddVariable(
 ### Parameters
 
 - `poIdOrName`: ID or name of variable for which to search
-- `poValue`: Value for which to search (see
-
-Remarks
-
-)
+- `poValue`: Value for which to search (see **Remarks**)
 
 ## Remarks
 
@@ -70,7 +62,6 @@ The number of times you could call this method was limited to 4 in SOLIDWORKS PD
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

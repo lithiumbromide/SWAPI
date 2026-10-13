@@ -13,12 +13,12 @@ This example shows how to import and repair a STEP file.
 
 ```
 //-------------------------------------------------------------------------------
-// Preconditions: Verify that the specified SOLIDWORKS part document to open exists.
+// Preconditions: Verify that the specified SOLIDWORKS Design part document to open exists.
 //
 // Postconditions:
-// 1. Opens the specified SOLIDWORKS part document.
-// 2. Saves the SOLIDWORKS part document as a STEP file.
-// 3. Closes the SOLIDWORKS part document.
+// 1. Opens the specified SOLIDWORKS Design part document.
+// 2. Saves the part document as a STEP file.
+// 3. Closes the part document.
 // 4. Imports the STEP file created in step 2.
 // 5. Runs import diagnostics on the STEP file and repairs any bad faces.
 // 6. Creates Imported1 in the FeatureManager design tree.
@@ -45,13 +45,13 @@ namespace ImportStepDataCSharp.csproj
             string fileName = null;
             string stepFileName = null;
 
-            //Open the SOLIDWORKS part document to export to a STEP file
+            //Open the part document to export to a STEP file
             fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2019\\samples\\tutorial\\api\\db9 male.sldprt";
             swPart = (PartDoc)swApp.OpenDoc6(fileName, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
             swModel = (ModelDoc2)swPart;
             swModelDocExt = (ModelDocExtension)swModel.Extension;
 
-            //Export the SOLIDWORKS part document to a STEP file
+            //Export the part document to a STEP file
             stepFileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2019\\samples\\tutorial\\api\\db9 male.STEP";
             status = swModelDocExt.SaveAs(stepFileName, 0, (int)swSaveAsOptions_e.swSaveAsOptions_Silent, null, ref errors, ref warnings);
             swPart = null;

@@ -47,13 +47,7 @@ System.Object^ InsertBendNotes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of
-
-[INote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
-s
+Array of [INote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)s
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertBendNotes](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBendNotes.html)
-
-.
+See [PartDoc::InsertBendNotes](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBendNotes.html).
 
 ## Examples
 
 'VBA
 
-' 1. Open a sheet metal part with a**Flat-Pattern1**feature.
+' 1. Open a sheet metal part with a **Flat-Pattern1** feature.
 ' 2. Run the macro.
 ' 3. Inspect the Immediate window for the list of inserted bend notes.
 
@@ -112,7 +98,6 @@ End Sub
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
 
 ## Availability

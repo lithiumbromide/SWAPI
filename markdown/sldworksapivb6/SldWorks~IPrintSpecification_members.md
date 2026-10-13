@@ -1,6 +1,5 @@
 ---
-title: "IPrintSpecification Object
-Members"
+title: "IPrintSpecification Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPrintSpecification_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPrintSpecification_members.html"
 ---
 
-# IPrintSpecification Object
-Members
+# IPrintSpecification Object Members
 
 ## Public Methods
 

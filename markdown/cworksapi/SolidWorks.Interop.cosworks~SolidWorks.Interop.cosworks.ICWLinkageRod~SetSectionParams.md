@@ -52,30 +52,16 @@ void SetSectionParams(
 
 ### Parameters
 
-- `NSectionType`: Cross-section parameter type as defined by
-
-[swsCRSectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCRSectionType_e.html)
-- `ArrayParamValues`: Array of parameter values (see
-
-Remarks
-
-)
+- `NSectionType`: Cross-section parameter type as defined by [swsCRSectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCRSectionType_e.html)
+- `ArrayParamValues`: Array of parameter values (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::SetSectionParams](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetSectionParams.html)
-
-.
+See [CWLinkageRod::SetSectionParams](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetSectionParams.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## Remarks
 
@@ -89,7 +75,6 @@ If NSectionType is swsCRSectionType_e.:
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

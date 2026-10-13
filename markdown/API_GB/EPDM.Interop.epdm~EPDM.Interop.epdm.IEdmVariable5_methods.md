@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_methods.html"
 
 # IEdmVariable5 Interface Methods
 
-For a list of all members of this type, see[IEdmVariable5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_members.html).
+For a list of all members of this type, see [IEdmVariable5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_members.html).
 
 ## Public Methods
 
@@ -23,9 +23,6 @@ For a list of all members of this type, see[IEdmVariable5 members](EPDM.Interop.
 ## See Also
 
 [IEdmVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmAttribute5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html)

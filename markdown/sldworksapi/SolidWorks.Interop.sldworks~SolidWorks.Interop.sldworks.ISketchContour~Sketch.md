@@ -42,13 +42,7 @@ property Sketch^ Sketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchContour::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~Sketch.html)
-
-.
+See [SketchContour::Sketch](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~Sketch.html).
 
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
 
 ## Availability

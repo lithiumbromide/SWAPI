@@ -57,24 +57,15 @@ property System.Object^ default [System.Object^] {
 
 ## VBA Syntax
 
-See
-
-[PDMWProperties::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Item.html)
-
-.
+See [PDMWProperties::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Item.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IPDMWProperties::Count](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects~Count.html)
-
-to get the number of properties in the collection.
+Before calling this method, call [IPDMWProperties::Count](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects~Count.html) to get the number of properties in the collection.
 
 ## See Also
 
 [IPDMWProperties Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
-
 [IPDMWProperties Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties_members.html)
 
 ## Availability

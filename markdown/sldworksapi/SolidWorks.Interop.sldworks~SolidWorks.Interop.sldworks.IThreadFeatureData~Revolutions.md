@@ -45,40 +45,25 @@ property System.double Revolutions {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0.0 < Number of revolutions in the thread helix; default is 10.0 (see
-
-Remarks
-
-)
+0.0 < Number of revolutions in the thread helix; default is 10.0 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::Revolutions](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Revolutions.html)
-
-.
+See [ThreadFeatureData::Revolutions](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Revolutions.html).
 
 ## Remarks
 
-This property is valid only if[IThreadFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~EndCondition.html)is set to[swThreadEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadEndCondition_e.html).swThreadEndCondition_Revolutions.
+This property is valid only if [IThreadFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~EndCondition.html) is set to [swThreadEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadEndCondition_e.html).swThreadEndCondition_Revolutions.
 
 Specify either a value or an equation that starts with an equal sign (=).
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

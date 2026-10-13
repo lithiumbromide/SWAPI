@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetDimensionString Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDimensionString4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionString4.html)
-
-and
-
-[IView::IGetDimensionString4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionString4.html)
-
-.
+Obsolete. Superseded by [IView::GetDimensionString4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionString4.html) and [IView::IGetDimensionString4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionString4.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.string IGetDimensionString()
 System.String^ IGetDimensionString();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::IGetDimensionString](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDimensionString.html)
-
-.
+See [View::IGetDimensionString](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDimensionString.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

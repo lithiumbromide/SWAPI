@@ -40,13 +40,7 @@ MathPoint GetStartPoint()
 MathPoint^ GetStartPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SilhouetteEdge::GetStartPoint](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~GetStartPoint.html)
-
-.
+See [SilhouetteEdge::GetStartPoint](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~GetStartPoint.html).
 
 ## See Also
 
 [ISilhouetteEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge.html)
-
 [ISilhouetteEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge_members.html)
-
 [ISilhouetteEdge::GetEndPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge~GetEndPoint.html)
 
 ## Availability

@@ -51,11 +51,7 @@ Name of cut list's child folder, if it exists
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem2::ChildFolderName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~ChildFolderName.html)
-
-.
+See [SwDMCutListItem2::ChildFolderName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~ChildFolderName.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property only supports documents saved in SOLIDWORKS 2009 or later.
 ## See Also
 
 [ISwDMCutListItem2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2.html)
-
 [ISwDMCutListItem2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2_members.html)
 
 ## Availability

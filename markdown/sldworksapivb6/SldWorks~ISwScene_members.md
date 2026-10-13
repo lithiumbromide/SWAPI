@@ -1,6 +1,5 @@
 ---
-title: "ISwScene Object
-Members"
+title: "ISwScene Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISwScene_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISwScene_members.html"
 ---
 
-# ISwScene Object
-Members
+# ISwScene Object Members
 
 ## Public Methods
 

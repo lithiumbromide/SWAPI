@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # MaterialUserName Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::MaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~MaterialUserName.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::MaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~MaterialUserName.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.String^ MaterialUserName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~MaterialUserName.html)
-
-.
+See [ModelDoc::MaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~MaterialUserName.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

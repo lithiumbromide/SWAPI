@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetParabolas Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetParabolas2.html)
-
-and
-
-[ISketch::IGetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetParabolas2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetParabolas2.html) and [ISketch::IGetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetParabolas2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetParabolas()
 System.Object^ GetParabolas();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetParabolas](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetParabolas.html)
-
-.
+See [Sketch::GetParabolas](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetParabolas.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

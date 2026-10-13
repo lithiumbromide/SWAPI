@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileType.html"
 
 # EdmFileType Enumeration
 
-Types of SOLIDWORKS PDM Professional file; used in calls to
-
-[IEdmFile8::FileType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8~FileType.html)
-
-.
+Types of SOLIDWORKS PDM Professional file; used in calls to [IEdmFile8::FileType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8~FileType.html).
 
 ## Syntax
 

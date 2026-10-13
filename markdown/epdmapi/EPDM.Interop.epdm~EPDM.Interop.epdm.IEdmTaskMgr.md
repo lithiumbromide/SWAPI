@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html"
 
 # IEdmTaskMgr Interface
 
-Allows you to manage task add-ins.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows you to manage task add-ins. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,7 +37,7 @@ public interface class IEdmTaskMgr
 
 ## Remarks
 
-This interface inherits from IDispatch. See[IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+This interface inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
 
 ## Accessors
 
@@ -54,9 +46,6 @@ This interface inherits from IDispatch. See[IDispatch Interface (Automation)](ht
 ## See Also
 
 [IEdmTaskMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)

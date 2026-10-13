@@ -1,6 +1,5 @@
 ---
-title: "WeldmentTrimExtendFeatureData Object
-Members"
+title: "WeldmentTrimExtendFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WeldmentTrimExtendFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WeldmentTrimExtendFeatureData_members.html"
 ---
 
-# WeldmentTrimExtendFeatureData Object
-Members
+# WeldmentTrimExtendFeatureData Object Members
 
 ## Public Methods
 

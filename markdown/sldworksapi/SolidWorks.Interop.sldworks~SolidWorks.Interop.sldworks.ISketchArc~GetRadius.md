@@ -40,13 +40,7 @@ System.double GetRadius()
 System.double GetRadius();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Radius in meters of the arc
 
 ## VBA Syntax
 
-See
-
-[SketchArc::GetRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetRadius.html)
-
-.
+See [SketchArc::GetRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetRadius.html).
 
 ## Examples
 
-See the
-
-[ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
-examples.
+See the [ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html) examples.
 
 ## Examples
 
 [Create Imported Surface Body From Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Get All Elements of Sketch (VBA)](Get_All_Elements_of_Sketch_Example_VB.htm)
 
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)
-
 [ISketchArc::SetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~SetRadius.html)
 
 ## Availability

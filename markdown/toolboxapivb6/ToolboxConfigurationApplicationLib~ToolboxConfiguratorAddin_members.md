@@ -1,6 +1,5 @@
 ---
-title: "ToolboxConfiguratorAddin Object
-Members"
+title: "ToolboxConfiguratorAddin Object Members"
 project: "ToolboxConfigurationApplicationLibActiveX DLL"
 interface: "ToolboxConfiguratorAddin_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "toolboxapivb6/ToolboxConfigurationApplicationLib~ToolboxConfiguratorAddin_members.html"
 ---
 
-# ToolboxConfiguratorAddin Object
-Members
+# ToolboxConfiguratorAddin Object Members
 
 ## Public Methods
 

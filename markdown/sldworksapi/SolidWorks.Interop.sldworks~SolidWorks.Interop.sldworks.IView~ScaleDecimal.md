@@ -45,13 +45,7 @@ property System.double ScaleDecimal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Drawing view scale
 
 ## VBA Syntax
 
-See
-
-[View::ScaleDecimal](ms-its:sldworksapivb6.chm::/sldworks~View~ScaleDecimal.html)
-
-.
+See [View::ScaleDecimal](ms-its:sldworksapivb6.chm::/sldworks~View~ScaleDecimal.html).
 
 ## Examples
 
@@ -71,21 +61,18 @@ See
 
 ## Remarks
 
-[IView::ScaleRatio](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~ScaleRatio.html)or[IView::IScaleRatio](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IScaleRatio.html)and this property contain the same information, but use the value in different ways:
+[IView::ScaleRatio](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~ScaleRatio.html) or [IView::IScaleRatio](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IScaleRatio.html) and this property contain the same information, but use the value in different ways:
 
 - IView::ScaleRatio gets or sets the scale as a ratio of two numbers.
 - IView::ScaleDecimal returns the scale as a decimal number.
 
 For example, if View::ScaleRatio returns 3 2 or 3:2, then IView::ScaleDecimal would return 1.5.
 
-Changing this property can cause changes to the graphics of the drawing. After making all the of the view-related changes, call the[IModelDoc2::EditRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html)method to regenerate the drawing to see these changes.
+Changing this property can cause changes to the graphics of the drawing. After making all the of the view-related changes, call the [IModelDoc2::EditRebuild2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html) method to regenerate the drawing to see these changes.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::UseParentScale Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UseParentScale.html)
-
 [IView::UseSheetScale Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UseSheetScale.html)

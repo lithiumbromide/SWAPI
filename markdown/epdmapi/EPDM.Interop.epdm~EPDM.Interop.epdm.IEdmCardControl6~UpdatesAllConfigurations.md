@@ -39,35 +39,18 @@ True to update all configuration tabs, false to not
 
 ## Examples
 
-See the
-
-[IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html)
-
-examples.
+See the [IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html) examples.
 
 ## Remarks
 
 This property:
 
-- corresponds to the
-
-  Updates all configurations
-
-  check box in the Edit-box properties panel of the Card Editor.
-- is valid only if
-
-  [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html)
-
-  is
-
-  [EdmCardControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardControlType.html)
-
-  .EdmCtrl_Editbox.
+- corresponds to the **Updates all configurations** check box in the Edit-box properties panel of the Card Editor.
+- is valid only if [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html) is [EdmCardControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardControlType.html).EdmCtrl_Editbox.
 
 ## See Also
 
 [IEdmCardControl6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html)
-
 [IEdmCardControl6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6_members.html)
 
 ## Availability

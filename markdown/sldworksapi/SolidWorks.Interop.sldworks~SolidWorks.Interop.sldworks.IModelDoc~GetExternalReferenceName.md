@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetExternalReferenceName Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetExternalReferenceName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetExternalReferenceName.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetExternalReferenceName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetExternalReferenceName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetExternalReferenceName()
 System.String^ GetExternalReferenceName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetExternalReferenceName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetExternalReferenceName.html)
-
-.
+See [ModelDoc::GetExternalReferenceName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetExternalReferenceName.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

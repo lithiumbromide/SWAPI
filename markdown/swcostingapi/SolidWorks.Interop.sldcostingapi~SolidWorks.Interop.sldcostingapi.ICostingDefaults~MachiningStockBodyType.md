@@ -47,26 +47,17 @@ property System.int MachiningStockBodyType {
 
 ### Property Value
 
-Default machining stock body type as defined in
-
-[swcStockType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStockType_e.html)
+Default machining stock body type as defined in [swcStockType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStockType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::MachiningStockBodyType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~MachiningStockBodyType.html)
-
-.
+See [CostDefaults::MachiningStockBodyType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~MachiningStockBodyType.html).
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::SheetmetalBlankSizeType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SheetmetalBlankSizeType.html)
-
 [ICostingDefaults::StructuralMemberStockType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~StructuralMemberStockType.html)
 
 ## Availability

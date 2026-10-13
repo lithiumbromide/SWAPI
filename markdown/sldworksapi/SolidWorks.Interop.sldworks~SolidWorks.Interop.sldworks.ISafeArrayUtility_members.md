@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # ISafeArrayUtility Interface Members
 
-The following tables list the members exposed by[ISafeArrayUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility.html).
+The following tables list the members exposed by [ISafeArrayUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility.html).
 
 ## Public Methods
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[ISafeArrayUtility](SolidWorks.I
 ## See Also
 
 [ISafeArrayUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

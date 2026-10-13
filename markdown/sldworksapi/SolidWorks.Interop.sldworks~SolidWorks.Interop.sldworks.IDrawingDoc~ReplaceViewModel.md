@@ -55,27 +55,13 @@ System.bool ReplaceViewModel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NewModelPathName`: Full path and filename of the replacement model
-- `Views`: Array of
-
-[IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-s in which to replace the model
-- `Instances`: Array of
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-s that are specific instances of the model to replace in the drawing
+- `Views`: Array of [IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)s in which to replace the model
+- `Instances`: Array of [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)s that are specific instances of the model to replace in the drawing
 
 ### Return Value
 
@@ -83,34 +69,22 @@ True if the model is replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ReplaceViewModel](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ReplaceViewModel.html)
-
-.
+See [DrawingDoc::ReplaceViewModel](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ReplaceViewModel.html).
 
 ## Examples
 
 [Replace View Model (C#)](Replace_View_Model_Example_CSharp.htm)
-
 [Replace View Model (VB.NET)](Replace_View_Model_Example_VBNET.htm)
-
 [Replace View Model (VBA)](Replace_View_Model_Example_VB.htm)
 
 ## Remarks
 
-This method corresponds to
-
-Tools > Replace Model
-
-.
+This method corresponds to **Tools > Replace Model**.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::InsertModelInPredefinedView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertModelInPredefinedView.html)
 
 ## Availability

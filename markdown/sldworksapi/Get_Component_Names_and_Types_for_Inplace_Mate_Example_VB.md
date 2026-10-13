@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.h
 
 # Get Component Names and Types for Inplace Mate Example (VBA)
 
-This example shows how to get the names of the components for an Inplace
-mate.
+This example shows how to get the names of the components for an Inplace mate.
 
 ```
 '----------------------------------------------

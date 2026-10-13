@@ -51,40 +51,19 @@ property System.double FrictionValue {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::FrictionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~FrictionValue.html)
-
-.
+See [CWContactComponent::FrictionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~FrictionValue.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## Remarks
 
-This property is valid only in static and nonlinear studies where
-
-[ICWContactComponent::IncludeFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeFriction.html)
-
-is set to 1, and
-
-[ICWContactComponent::ContactComponentType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ContactComponentType.html)
-
-is set to
-
-[swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html)
-
-.swsContactTypeStaticNoPenetration.
+This property is valid only in static and nonlinear studies where [ICWContactComponent::IncludeFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeFriction.html) is set to 1, and [ICWContactComponent::ContactComponentType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ContactComponentType.html) is set to [swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeStaticNoPenetration.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool IgnoreCornerTreatment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to ignore the corner treatment, false to not
 
 ## VBA Syntax
 
-See
-
-[CornerTreatmentFeatureData::IgnoreCornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentFeatureData~IgnoreCornerTreatment.html)
-
-.
+See [CornerTreatmentFeatureData::IgnoreCornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentFeatureData~IgnoreCornerTreatment.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [ICornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentFeatureData.html)
-
 [ICornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentFeatureData_members.html)
 
 ## Availability

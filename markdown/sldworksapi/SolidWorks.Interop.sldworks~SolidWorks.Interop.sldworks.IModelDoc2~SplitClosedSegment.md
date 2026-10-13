@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SplitClosedSegment Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::SplitClosedSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~SplitClosedSegment.html)
-
-.
+Obsolete. Superseded by [ISketchManager::SplitClosedSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~SplitClosedSegment.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void SplitClosedSegment(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,11 +79,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SplitClosedSegment](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SplitClosedSegment.html)
-
-.
+See [ModelDoc2::SplitClosedSegment](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SplitClosedSegment.html).
 
 ## Remarks
 
@@ -102,11 +88,8 @@ The selected sketch segment must be a closed entity (for example, the start and 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SplitOpenSegment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SplitOpenSegment.html)
-
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
 
 ## Availability

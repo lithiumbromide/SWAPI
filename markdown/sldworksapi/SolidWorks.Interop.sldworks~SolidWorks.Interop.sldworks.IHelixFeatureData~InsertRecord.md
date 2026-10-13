@@ -47,13 +47,7 @@ System.bool InsertRecord(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,20 @@ True if the record is inserted, false if not
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::InsertRecord](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~InsertRecord.html)
-
-.
+See [HelixFeatureData::InsertRecord](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~InsertRecord.html).
 
 ## Remarks
 
-When inserting a record, the SOLIDWORKS software calculates the new region's parameters. You cannot add a record to the beginning of the Region parameters table. To add a record to the end of the Region parameters table, use[IHelixFeatureData::AddLastRecord](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~AddLastRecord.html).
+When inserting a record, the SOLIDWORKS Design software calculates the new region's parameters. You cannot add a record to the beginning of the Region parameters table. To add a record to the end of the Region parameters table, use [IHelixFeatureData::AddLastRecord](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~AddLastRecord.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
-
 [IHelixFeatureData::VariablePitch Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~VariablePitch.html)
-
 [IHelixFeatureData::PitchCount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~PitchCount.html)
-
 [IHelixFeatureData::DeleteRecord Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~DeleteRecord.html)
-
 [IHelixFeatureData::SetRegionParameterAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~SetRegionParameterAtIndex.html)
-
 [IHelixFeatureData::GetRegionParameterAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData~GetRegionParameterAtIndex.html)
 
 ## Availability

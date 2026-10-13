@@ -9,57 +9,23 @@ source: "obsoleteapi/CustomSymbol/CustomSymbol__HasExtraLeader.htm"
 
 # CustomSymbol::HasExtraLeader
 
-This method is obsolete and has been superseded
-by[Note::HasExtraLeader](sldworksAPI.chm::/Note/Note__HasExtraLeader.htm).
+This method is obsolete and has been superseded by [Note::HasExtraLeader](sldworksAPI.chm::/Note/Note__HasExtraLeader.htm).
 
 Description
 
-This
-method determines if this symbol has a head on the leader.
+This method determines if this symbol has a head on the leader.
 
 Syntax (OLE Automation)
 
-retval
-= CustomSymbol.HasExtraLeader ( )
+retval = CustomSymbol.HasExtraLeader ( )
 
-(Table)=========================================================
-
-| Return: | (BOOL)retval | TRUE
-if extra leader line exists, FALSE if it does not |
+| Return: | (BOOL)retval | TRUE if extra leader line exists, FALSE if it does not |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = CustomSymbol->HasExtraLeader
-( &retval )
-
-(Table)=========================================================
+status = CustomSymbol->HasExtraLeader ( &retval )
 
 | Output: | (VARIANT_BOOL)retval | TRUE if extra leader line exists, FALSE if it does not |
 | --- | --- | --- |
 | Return: | (HRESULT)status | S_OK if Successful |
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="CustomSymbol_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\CustomSymbol\CustomSymbol__HasExtraLeader.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

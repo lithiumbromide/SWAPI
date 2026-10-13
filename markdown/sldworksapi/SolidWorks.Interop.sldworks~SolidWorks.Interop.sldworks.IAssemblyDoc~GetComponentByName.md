@@ -47,13 +47,7 @@ Component2^ GetComponentByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,36 +59,23 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetComponentByName](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetComponentByName.html)
-
-.
+See [AssemblyDoc::GetComponentByName](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetComponentByName.html).
 
 ## Examples
 
 [Get Component by Name (C#)](Get_Component_by_Name_Example_CSharp.htm)
-
 [Get Component by Name (VB.NET)](Get_Component_by_Name_Example_VBNET.htm)
-
 [Get Component by Name (VBA)](Get_Component_by_Name_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetComponents.html)
-
 [IAssemblyDoc::IGetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IGetComponents.html)
-
 [IAssemblyDoc::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetUnloadedComponentNames.html)
-
 [IComponent2::GetSelectByIDString Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetSelectByIDString.html)
-
 [IComponent2::Name2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Name2.html)
-
 [IAssemblyDoc::GetComponentByID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetComponentByID.html)
 
 ## Availability

@@ -67,22 +67,16 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertSymmetryTolerance::GetZoneDirection](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSymmetryTolerance~GetZoneDirection.html)
-
-.
+See [DimXpertSymmetryTolerance::GetZoneDirection](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSymmetryTolerance~GetZoneDirection.html).
 
 ## Examples
 
 [Get DimXpert Tolerance2 Example (VBA)](Get_DimXpert_Tolerance2_Example_VB.htm)
-
 [Get DimXpert Tolerance2 Example (VB.NET)](Get_DimXpert_Tolerance2_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertSymmetryTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.html)
-
 [IDimXpertSymmetryTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "Note Object
-Members"
+title: "Note Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Note_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Note_members.html"
 ---
 
-# Note Object
-Members
+# Note Object Members
 
 ## Public Methods
 

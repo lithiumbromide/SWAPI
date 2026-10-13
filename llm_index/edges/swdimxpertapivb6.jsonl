@@ -422,6 +422,8 @@
 {"label": "DimXpertPositionTolerance", "source": "swdimxpertapivb6/SwDimXpert~DimXpertPositionTolerance~ZoneType", "target": "swdimxpertapivb6/SwDimXpert~DimXpertPositionTolerance", "type": "member_of"}
 {"label": "property", "source": "swdimxpertapivb6/SwDimXpert~DimXpertRadiusDimTol", "target": "swdimxpertapivb6/SwDimXpert~DimXpertRadiusDimTol~PatternTreatment", "type": "has_member"}
 {"label": "DimXpertRadiusDimTol", "source": "swdimxpertapivb6/SwDimXpert~DimXpertRadiusDimTol~PatternTreatment", "target": "swdimxpertapivb6/SwDimXpert~DimXpertRadiusDimTol", "type": "member_of"}
+{"label": "method", "source": "swdimxpertapivb6/SwDimXpert~DimXpertRefPlaneFeature", "target": "swdimxpertapivb6/SwDimXpert~DimXpertRefPlaneFeature~GetNominalPlane", "type": "has_member"}
+{"label": "DimXpertRefPlaneFeature", "source": "swdimxpertapivb6/SwDimXpert~DimXpertRefPlaneFeature~GetNominalPlane", "target": "swdimxpertapivb6/SwDimXpert~DimXpertRefPlaneFeature", "type": "member_of"}
 {"label": "method", "source": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature", "target": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature~GetNominalSphere", "type": "has_member"}
 {"label": "DimXpertSphereFeature", "source": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature~GetNominalSphere", "target": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature", "type": "member_of"}
 {"label": "property", "source": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature", "target": "swdimxpertapivb6/SwDimXpert~DimXpertSphereFeature~Inner", "type": "has_member"}

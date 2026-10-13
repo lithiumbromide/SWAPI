@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertBOMBalloon Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertBomBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBomBalloon2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertBomBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBomBalloon2.html).
 
 ## Syntax
 
@@ -87,42 +83,24 @@ System.Object^ InsertBOMBalloon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Balloon style as defined in
-
-[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `Size`: Balloon size as defined in
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `UpperTextStyle`: Style for the upper text of the balloon as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
-
-(see
-
-Remarks
-
-)
+- `Style`: Balloon style as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `Size`: Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `UpperTextStyle`: Style for the upper text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html) (see **Remarks**)
 - `UpperText`: Upper text of the balloon
-- `LowerTextStyle`: Style for the lower text of the balloon as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/Solidworks.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid for balloons only and Style must be set to swBS_SplitCirc (see**Remarks**)
+- `LowerTextStyle`: Style for the lower text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/Solidworks.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid for balloons only and Style must be set to swBS_SplitCirc (see **Remarks**)
 - `LowerText`: Lower text of the balloon; valid for balloons only and Style must be set to swBS_SplitCirc
 - `CustomSize`: User-defined size of the balloon; Size must be set to swBF_UserDef
 - `ShowQuantity`: True to show quantity, false to not
 - `QuantityPlacement`: Placement of quantity value:
 
-- 0 = Left
-- 1 = Right
-- 2 = Top
-- 3 = Bottom
+  - 0 = Left
+  - 1 = Right
+  - 2 = Top
+  - 3 = Bottom
 - `QuantityDenotationText`: Denotation text for quantity
 
 ### Return Value
@@ -131,34 +109,20 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertBOMBalloon](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertBOMBalloon.html)
-
-.
+See [ModelDocExtension::InsertBOMBalloon](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertBOMBalloon.html).
 
 ## Remarks
 
-See
-
-[INote::PropertyLinkedText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~PropertyLinkedText.html)
-
-for examples of link strings usable with swBalloonTextContent_e.swBalloonTextCustomProperties.
+See [INote::PropertyLinkedText](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~PropertyLinkedText.html) for examples of link strings usable with swBalloonTextContent_e.swBalloonTextCustomProperties.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IDrawingDoc::AutoBalloon3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AutoBalloon3.html)
-
 [INote::GetBomBalloonText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetBomBalloonText.html)
-
 [INote::GetBomBalloonTextStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetBomBalloonTextStyle.html)
-
 [INote::SetBomBalloonText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetBomBalloonText.html)
-
 [INote::IsBomBalloon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsBomBalloon.html)
 
 ## Availability

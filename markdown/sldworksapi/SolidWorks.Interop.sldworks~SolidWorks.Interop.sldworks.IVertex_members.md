@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVe
 
 # IVertex Interface Members
 
-The following tables list the members exposed by[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html).
+The following tables list the members exposed by [IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html).
 
 ## Public Methods
 
@@ -39,5 +39,4 @@ The following tables list the members exposed by[IVertex](SolidWorks.Interop.sld
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

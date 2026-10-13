@@ -40,38 +40,23 @@ System.object GetTreatmentGroupFolders()
 System.Object^ GetTreatmentGroupFolders();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[ICornerTreatmentGroupFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder.html)
-
-s
+Array of [ICornerTreatmentGroupFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder.html)s
 
 ## VBA Syntax
 
-See
-
-[CornerManagementFolder::GetTreatmentGroupFolders](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetTreatmentGroupFolders.html)
-
-.
+See [CornerManagementFolder::GetTreatmentGroupFolders](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetTreatmentGroupFolders.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [ICornerManagementFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)
-
 [ICornerManagementFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder_members.html)
 
 ## Availability

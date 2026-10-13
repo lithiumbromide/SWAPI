@@ -45,13 +45,7 @@ property System.bool Active {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if this CommandManager tab is active, false if not
 
 ## VBA Syntax
 
-See
-
-[CommandTab::Active](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~Active.html)
-
-.
+See [CommandTab::Active](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~Active.html).
 
 ## See Also
 
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)
-
 [ICommandTab Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab_members.html)
 
 ## Availability

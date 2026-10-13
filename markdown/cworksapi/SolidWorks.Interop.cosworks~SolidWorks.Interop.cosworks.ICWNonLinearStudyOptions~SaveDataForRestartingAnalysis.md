@@ -9,13 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # SaveDataForRestartingAnalysis Property (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded
-
-by
-
-[ICWNonLinearStudyOptions::SaveDataForRestartingAnalysis2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SaveDataForRestartingAnalysis2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::SaveDataForRestartingAnalysis2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SaveDataForRestartingAnalysis2.html).
 
 ## Syntax
 
@@ -58,19 +52,11 @@ property System.int SaveDataForRestartingAnalysis {
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SaveDataForRestartingAnalysis](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SaveDataForRestartingAnalysis.html)
-
-.
+See [CWNonLinearStudyOptions::SaveDataForRestartingAnalysis](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SaveDataForRestartingAnalysis.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## Remarks
 
@@ -79,7 +65,6 @@ After running a nonlinear problem with the option to save data for restarting th
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

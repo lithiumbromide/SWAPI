@@ -40,24 +40,13 @@ System.object GetAnnotation()
 System.Object^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetAnnotation.html)
-
-.
+See [CustomSymbol::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetAnnotation.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

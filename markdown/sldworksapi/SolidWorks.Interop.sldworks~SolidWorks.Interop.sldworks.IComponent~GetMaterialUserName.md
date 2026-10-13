@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetMaterialUserName Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetMaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialUserName.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetMaterialUserName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialUserName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetMaterialUserName()
 System.String^ GetMaterialUserName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetMaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetMaterialUserName.html)
-
-.
+See [Component::GetMaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetMaterialUserName.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

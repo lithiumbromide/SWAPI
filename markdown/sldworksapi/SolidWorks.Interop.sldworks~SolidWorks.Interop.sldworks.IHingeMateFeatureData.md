@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHi
 
 Allows access to a hinge mate feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,17 +41,13 @@ public interface class IHingeMateFeatureData
 
 ## VBA Syntax
 
-See
-
-[HingeMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~HingeMateFeatureData.html)
-
-.
+See [HingeMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~HingeMateFeatureData.html).
 
 ## Examples
 
 'VBA
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\tutorial\api\MechanicalMates\Hinge-Assy.sldasm**.
+' 1. Open `public_documents`**\samples\tutorial\api\MechanicalMates\Hinge-Assy.sldasm**.
 ' 2. Run the macro.
 ' 3. Inspect the Mates folder in the FeatureManager design tree.
 ' ******************************************************************************
@@ -94,7 +90,7 @@ CoincidentEntitiesToMateVar = CoincidentEntitiesToMate
 MateData.**EntitiesToMate**(1) = CoincidentEntitiesToMateVar
 
 ' Set the mate angle selection
-MateData.**AngleSelection**= True
+MateData.**AngleSelection** = True
 
 ' Set the angle entities to mate
 Dim AngleEntitiesToMate(1) As Object
@@ -105,16 +101,16 @@ AngleEntitiesToMateVar = AngleEntitiesToMate
 MateData.**EntitiesToMate**(2) = AngleEntitiesToMateVar
 
 ' Set the mate angle value
-MateData.**Angle**= 0.5235987755983
+MateData.**Angle** = 0.5235987755983
 
 ' Set the mate angle minimum value
-MateData.**MinVal**= 0.5235987755983
+MateData.**MinVal** = 0.5235987755983
 
 ' Set the mate angle maximum value
-MateData.**MaxVal**= 0.5235987755983
+MateData.**MaxVal** = 0.5235987755983
 
 ' Set the mate alignment
-MateData.**MateAlignment**= 0
+MateData.**MateAlignment** = 0
 
 ' Create the mate
 Dim MateFeature As SldWorks.Feature
@@ -136,42 +132,22 @@ A hinge mate:
 - Can also limit the angular movement between two components.
 - Acts like a concentric mate and a coincident mate.
 
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)is the parent of this mate interface.
+[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) is the parent of this mate interface.
 
 To create a hinge mate:
 
-1. Follow general instructions in the
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  Remarks.
-2. Specify
-
-  [IHingeMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData~EntitiesToMate.html)
-
-  for each EntityType or use
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to pre-select the entities using Mark = 1 for the concentric entities, Mark = 32768 for the coincident entities, and Mark = 65536 for the angle entities.
+1. Follow general instructions in the [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html) Remarks.
+2. Specify [IHingeMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData~EntitiesToMate.html) for each EntityType or use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities using Mark = 1 for the concentric entities, Mark = 32768 for the coincident entities, and Mark = 65536 for the angle entities.
 3. Specify other properties of the HingeMateFeatureData object as required.
 
 To edit a hinge mate:
 
-1. Access its feature and call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to get the MateFeatureData object.
+1. Access its feature and call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get the MateFeatureData object.
 2. Cast the MateFeatureData object to a HingeMateFeatureData object.
 3. Modify the HingeMateFeatureData object.
-4. Call
+4. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html).
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  .
-
-To delete a hinge mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
+To delete a hinge mate, use [IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
 
 ## Access Diagram
 
@@ -180,5 +156,4 @@ To delete a hinge mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Int
 ## See Also
 
 [IHingeMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

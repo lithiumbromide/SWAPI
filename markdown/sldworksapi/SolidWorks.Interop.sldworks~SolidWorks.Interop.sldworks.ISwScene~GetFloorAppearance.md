@@ -40,13 +40,7 @@ RenderMaterial GetFloorAppearance()
 RenderMaterial^ GetFloorAppearance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SwScene::GetFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~GetFloorAppearance.html)
-
-.
+See [SwScene::GetFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~GetFloorAppearance.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

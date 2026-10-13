@@ -40,13 +40,7 @@ System.bool Stop()
 System.bool Stop();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the animation stops playing and is positioned at its beginning, false if
 
 ## VBA Syntax
 
-See
-
-[Animation::Stop](ms-its:sldworksapivb6.chm::/sldworks~Animation~Stop.html)
-
-.
+See [Animation::Stop](ms-its:sldworksapivb6.chm::/sldworks~Animation~Stop.html).
 
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_General_Table_Feature_Example_VB.htm"
 
 # Get General Table Feature Example (VBA)
 
-This example shows how to get a general table feature and some of its table
-annotation data.
+This example shows how to get a general table feature and some of its table annotation data.
 
 ```
 '-----------------------------------------------------------------

@@ -52,22 +52,14 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~InsertEntity.html)
-
-.
+See [CWMeshControl::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~InsertEntity.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::GetEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~GetEntityAt.html)
-
 [ICWMeshControl::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~RemoveEntity.html)
-
 [ICWMeshControl::EntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~EntityCount.html)
 
 ## Availability

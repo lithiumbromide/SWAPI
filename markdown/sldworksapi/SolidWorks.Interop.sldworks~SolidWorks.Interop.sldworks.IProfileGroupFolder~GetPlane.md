@@ -40,13 +40,7 @@ System.object GetPlane()
 System.Object^ GetPlane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ProfileGroupFolder::GetPlane](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~GetPlane.html)
-
-.
+See [ProfileGroupFolder::GetPlane](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~GetPlane.html).
 
 ## See Also
 
 [IProfileGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder.html)
-
 [IProfileGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder_members.html)
 
 ## Availability

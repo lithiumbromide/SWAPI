@@ -43,13 +43,7 @@ public delegate System.int DFeatMgrViewEvents_DestroyNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,19 +51,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[DestroyNotify Event (FeatMgrView)](ms-its:sldworksapivb6.chm::/SldWorks~FeatMgrView~DestroyNotify_EV.html)
-
-.
+See [DestroyNotify Event (FeatMgrView)](ms-its:sldworksapivb6.chm::/SldWorks~FeatMgrView~DestroyNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swFMViewDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFMViewNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swFMViewDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFMViewNotify_e.html) to register for this notification.
 
 ## Availability
 

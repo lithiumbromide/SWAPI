@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILa
 
 # ILayer Interface Properties
 
-For a list of all members of this type, see[ILayer members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html).
+For a list of all members of this type, see [ILayer members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html).
 
 ## Public Properties
 
@@ -28,9 +28,6 @@ For a list of all members of this type, see[ILayer members](SolidWorks.Interop.s
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)

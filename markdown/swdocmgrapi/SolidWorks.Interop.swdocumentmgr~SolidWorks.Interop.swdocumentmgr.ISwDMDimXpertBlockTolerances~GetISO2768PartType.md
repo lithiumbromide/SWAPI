@@ -49,9 +49,7 @@ System.bool GetISO2768PartType(
 
 ### Parameters
 
-- `type`: Type of ISO 2768 block tolerance as defined in
-
-[swDmDimXpertISO2768PartType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertISO2768PartType_e.html)
+- `type`: Type of ISO 2768 block tolerance as defined in [swDmDimXpertISO2768PartType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertISO2768PartType_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBlockTolerances::GetISO2768PartType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~GetISO2768PartType.html)
-
-.
+See [SwDMDimXpertBlockTolerances::GetISO2768PartType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~GetISO2768PartType.html).
 
 ## Examples
 
@@ -72,7 +66,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertBlockTolerances Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances.html)
-
 [ISwDMDimXpertBlockTolerances Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Part's_Feature_Statistics_Example_VB.htm"
 
 # Get Part's Feature Statistics Example (VBA)
 
-This example shows how to get the statistics of all of the features
-in a part document.
+This example shows how to get the statistics of all of the features in a part document.
 
 ```
 '-------------------------------------------

@@ -52,30 +52,20 @@ void DeleteStudy(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::DeleteStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DeleteStudy.html)
-
-.
+See [CWStudyManager::DeleteStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DeleteStudy.html).
 
 ## Examples
 
 [Calculate Edge Weld Results (C#)](Calculate_Edge_Weld_Results_Example_CSharp.htm)
-
 [Calculate Edge Weld Results (VB.NET)](Calculate_Edge_Weld_Results_Example_VBNET.htm)
-
 [Calculate Edge Weld Results (VBA)](Calculate_Edge_Weld_Results_Example_VB.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudy::Name Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~Name.html)
-
 [ICWModelDoc::DuplicateStudy Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy.html)
-
 [ICWStudyManager::ConvertStudy Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy.html)
 
 ## Availability

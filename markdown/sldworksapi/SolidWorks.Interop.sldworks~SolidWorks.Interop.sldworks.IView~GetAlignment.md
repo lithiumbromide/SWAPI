@@ -40,25 +40,15 @@ System.int GetAlignment()
 System.int GetAlignment();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Alignment information as defined in[swViewAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewAlignment_e.html)
+Alignment information as defined in [swViewAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewAlignment_e.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetAlignment](ms-its:sldworksapivb6.chm::/sldworks~View~GetAlignment.html)
-
-.
+See [View::GetAlignment](ms-its:sldworksapivb6.chm::/sldworks~View~GetAlignment.html).
 
 ## Remarks
 
@@ -70,11 +60,7 @@ The alignment information returned indicates if:
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::AlignWithView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~AlignWithView.html)
-
 [IView::RemoveAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~RemoveAlignment.html)
-
 [IView::UseDefaultAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UseDefaultAlignment.html)

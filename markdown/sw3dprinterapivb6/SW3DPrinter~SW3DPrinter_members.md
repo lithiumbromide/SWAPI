@@ -1,6 +1,5 @@
 ---
-title: "SW3DPrinter Object
-Members"
+title: "SW3DPrinter Object Members"
 project: "SOLIDWORKS 3D Printer Type Library"
 interface: "SW3DPrinter_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sw3dprinterapivb6/SW3DPrinter~SW3DPrinter_members.html"
 ---
 
-# SW3DPrinter Object
-Members
+# SW3DPrinter Object Members
 
 ## Public Methods
 

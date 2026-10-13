@@ -57,28 +57,15 @@ System.Object^ AddCharacteristics(
 
 ## VBA Syntax
 
-See
-
-[InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html)
-
-methods.
+See [InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html) methods.
 
 ## Remarks
 
-This method is valid only if
-
-[IInspectionProjectData::Extraction](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Extraction.html)
-
-is set to
-
-[swiCharacteristicInfoExtraction_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicInfoExtraction_e.html)
-
-.swiExtraction_Manual.
+This method is valid only if [IInspectionProjectData::Extraction](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Extraction.html) is set to [swiCharacteristicInfoExtraction_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicInfoExtraction_e.html).swiExtraction_Manual.
 
 ## See Also
 
 [IInspectionAddinMgr Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.html)
-
 [IInspectionAddinMgr Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html)
 
 ## Availability

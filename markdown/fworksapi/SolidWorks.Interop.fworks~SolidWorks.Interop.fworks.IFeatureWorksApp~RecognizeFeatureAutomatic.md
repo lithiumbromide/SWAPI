@@ -49,9 +49,7 @@ System.int RecognizeFeatureAutomatic(
 
 ### Parameters
 
-- `options`: Automatic options as defined by
-
-[fwAutomaticRecognitionOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwAutomaticRecognitionOptions_e.html)
+- `options`: Automatic options as defined by [fwAutomaticRecognitionOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwAutomaticRecognitionOptions_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Number of features recognized
 
 ## VBA Syntax
 
-See
-
-[FeatureWorksApp::RecognizeFeatureAutomatic](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~RecognizeFeatureAutomatic.html)
-
-.
+See [FeatureWorksApp::RecognizeFeatureAutomatic](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~RecognizeFeatureAutomatic.html).
 
 ## Examples
 
@@ -72,9 +66,7 @@ See
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [IFeatureWorksApp Members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html)
-
 [IFeatureWorksApp::RecognizeFeatureInteractive Method](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~RecognizeFeatureInteractive.html)
 
 ## Availability

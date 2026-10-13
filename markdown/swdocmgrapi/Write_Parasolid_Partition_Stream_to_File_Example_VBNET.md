@@ -9,13 +9,9 @@ source: "swdocmgrapi/Write_Parasolid_Partition_Stream_to_File_Example_VBNET.htm"
 
 # Write Parasolid Partition Stream to File Example (VB.NET)
 
-This example shows how
-to write a Parasolid partition stream to a file for a part.
+This example shows how to write a Parasolid partition stream to a file for a part.
 
-**NOTE:**To get the name of the stream and a preview
-bitmap of the sheet active when the drawing was last saved, use ISwDMDocument10::GetPreviewBitmap and ISwDMDocument10::PreviewStreamName. To get the name of the
-streams and the preview bitmaps for all sheets in a drawing, use ISwDMSheet2::GetPreviewPNGBitmap and
-ISwDMSheet2::PreviewPNGStreamName.
+**NOTE:** To get the name of the stream and a preview bitmap of the sheet active when the drawing was last saved, use ISwDMDocument10::GetPreviewBitmap and ISwDMDocument10::PreviewStreamName. To get the name of the streams and the preview bitmaps for all sheets in a drawing, use ISwDMSheet2::GetPreviewPNGBitmap and ISwDMSheet2::PreviewPNGStreamName.
 
 ```
 '---------------------------------------------------------------------------
@@ -75,7 +71,9 @@ Module Module1
         SwDmDocumentVersionSOLIDWORKS_2021 = 14000
         SwDmDocumentVersionSOLIDWORKS_2022 = 15000
 	SwDmDocumentVersionSOLIDWORKS_2023 = 16000
-	SwDmDocumentVersionSOLIDWORKS_2023 = 17000
+	SwDmDocumentVersionSOLIDWORKS_2024 = 17000
+        SwDmDocumentVersionSOLIDWORKS_2025 = 18000
+        SwDmDocumentVersionSOLIDWORKS_2026 = 19000
     End Enum
 
     Sub main()
@@ -171,7 +169,9 @@ Module Module1
 		    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2021,
                     SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2022,
 		    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2023,
-		    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2024
+		    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2024,
+                    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2025,
+                    SwDmDocumentVersion_e.SwDmDocumentVersionSOLIDWORKS_2026
                         Debug.Print("    Partition stream = " & swCfg.StreamName)
 
                         ' SwDMConfiguration2::GetPartitionStream takes file name as an input and writes

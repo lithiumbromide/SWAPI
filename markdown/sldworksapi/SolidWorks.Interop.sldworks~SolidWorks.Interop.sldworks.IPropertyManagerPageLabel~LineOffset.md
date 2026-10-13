@@ -53,13 +53,7 @@ property System.double LineOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,17 +64,13 @@ See
 
 Specify:
 
-- ParameterDesc0.0 to show the character on its baseline
+- 0.0 to show the character on its baseline
 - -1.0 to show the character 1 character below its baseline
 - +1.0 to show the character 1 character above its baseline
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::LineOffset](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~LineOffset.html)
-
-.
+See [PropertyManagerPageLabel::LineOffset](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~LineOffset.html).
 
 ## Remarks
 
@@ -89,7 +79,6 @@ Offsetting (i.e., raising or lowering a character above or below its baseline, r
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

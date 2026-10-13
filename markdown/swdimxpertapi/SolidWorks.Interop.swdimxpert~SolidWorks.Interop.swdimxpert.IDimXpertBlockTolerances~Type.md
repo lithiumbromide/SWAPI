@@ -44,22 +44,15 @@ property swDimXpertBlockToleranceType_e Type {
 
 ### Property Value
 
-Type of this DimXpert block tolerance as defined in
-
-[swDimXpertBlockToleranceType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertBlockToleranceType_e.html)
+Type of this DimXpert block tolerance as defined in [swDimXpertBlockToleranceType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertBlockToleranceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertBlockTolerances::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~Type.html)
-
-.
+See [DimXpertBlockTolerances::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~Type.html).
 
 ## See Also
 
 [IDimXpertBlockTolerances Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html)
-
 [IDimXpertBlockTolerances Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances_members.html)
 
 ## Availability

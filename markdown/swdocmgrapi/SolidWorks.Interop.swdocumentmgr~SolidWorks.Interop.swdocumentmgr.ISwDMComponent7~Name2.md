@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Name2 Property (ISwDMComponent7)
 
-Obsolete. Superseded by
-
-[ISwDMComponent11::Name3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~Name3.html)
-
-.
+Obsolete. Superseded by [ISwDMComponent11::Name3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~Name3.html).
 
 ## Syntax
 
@@ -52,16 +48,11 @@ Name of the component appended with an index value
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent7::Name2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent7~Name2.html)
-
-.
+See [SwDMComponent7::Name2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent7~Name2.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
-
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
 
 ## Remarks
@@ -71,9 +62,7 @@ This property returns the component name appended with an index in the format, "
 ## See Also
 
 [ISwDMComponent7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7.html)
-
 [ISwDMComponent7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7_members.html)
-
 [ISwDMComponent7::SelectName Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent7~SelectName.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.short Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Maximum height of attached drop-down list
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Height.html)
-
-.
+See [PropertyManagerPageNumberbox::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Height.html).
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

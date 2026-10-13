@@ -49,9 +49,7 @@ System.double GetMaxDeviationfromTargetThickness(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Maximum deviation from the target thickness
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::GetMaxDeviationfromTargetThickness](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetMaxDeviationfromTargetThickness.html)
-
-.
+See [IThicknessAnalysis::GetMaxDeviationfromTargetThickness](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetMaxDeviationfromTargetThickness.html).
 
 ## Examples
 
@@ -72,11 +66,8 @@ See
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::GetAnalysisDetails Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAnalysisDetails.html)
-
 [IThicknessAnalysis::GetIntervalCount Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetIntervalCount.html)
 
 ## Availability

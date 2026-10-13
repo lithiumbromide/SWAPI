@@ -9,10 +9,9 @@ source: "sldworksapi/Delete_Blended_Faces_Example_CSharp.htm"
 
 # Delete Blended Faces Example (C#)
 
-This example shows how to delete blended faces.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This example shows how to delete blended faces.
 
-NOTE:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}You
-can only delete blended faces from a temporary body.
+NOTE: You can only delete blended faces from a temporary body.
 
 ```
 //--------------------------------------------------

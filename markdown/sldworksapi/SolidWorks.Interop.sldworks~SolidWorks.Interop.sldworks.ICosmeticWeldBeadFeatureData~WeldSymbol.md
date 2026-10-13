@@ -45,13 +45,7 @@ property System.Object^ WeldSymbol {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::WeldSymbol](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~WeldSymbol.html)
-
-.
+See [CosmeticWeldBeadFeatureData::WeldSymbol](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~WeldSymbol.html).
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

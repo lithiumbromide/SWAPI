@@ -9,8 +9,7 @@ source: "sldworksapi/Determine_if_Sketch_Contour_or_Sketch_Region_Example_VB.htm
 
 # Determine if Sketch Contour or Sketch Region Example (VBA)
 
-This example shows how to determine if the object is a sketch contour or
-sketch region. It also shows how to use theTypeOfkeyword to determine the type of object in the first element in the array.
+This example shows how to determine if the object is a sketch contour or sketch region. It also shows how to use the TypeOf keyword to determine the type of object in the first element in the array.
 
 ```
 '--------------------------------------------------------

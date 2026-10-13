@@ -40,13 +40,7 @@ System.object GetAnnotation()
 System.Object^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[MultiJogLeader::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~GetAnnotation.html)
-
-.
+See [MultiJogLeader::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~GetAnnotation.html).
 
 ## Examples
 
 [Get Annotation Object (VBA)](Get_Annotation_Object_Example_VB.htm)
-
 [Get Annotation Object (VB.NET)](Get_Annotation_Object_Example_VBNET.htm)
-
 [Get Annotation Object (C#)](Get_Annotation_Object_Example_CSharp.htm)
-
 [Get Multi-jog Leader Data (C#)](Get_Multi-jog_Leader_Data_Example_CSharp.htm)
-
 [Get Multi-jog Leader Data (VB.NET)](Get_Multi-jog_Leader_Data_Example_VBNET.htm)
-
 [Get Multi-jog Leader Data (VBA)](Get_Multi-jog_Leader_Data_Example_VB.htm)
 
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [IMultiJogLeader Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader_members.html)
-
 [IMultiJogLeader::IGetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~IGetAnnotation.html)
 
 ## Availability

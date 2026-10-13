@@ -49,13 +49,7 @@ public delegate System.int DPDMDocManagerEvents_NewDocumentAddedEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html).
 
 ### Parameters
 
@@ -65,27 +59,15 @@ See
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[NewDocumentAdded Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~NewDocumentAdded_EV.html)
-
-.
+See [NewDocumentAdded Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~NewDocumentAdded_EV.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Remarks
 
-In this handler, call
-
-[IPDMDocManager:SetManagedDocument](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetManagedDocument.html)
-
-to direct the Toolbox Browser application to use the new document. For copied parts, the file inserted into the assembly is the IPDMDocManager::SetManagedDocument filename.
+In this handler, call [IPDMDocManager:SetManagedDocument](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetManagedDocument.html) to direct the Toolbox Browser application to use the new document. For copied parts, the file inserted into the assembly is the IPDMDocManager::SetManagedDocument filename.
 
 ## Availability
 

@@ -47,13 +47,7 @@ System.bool HideFeatureManager(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HideFeatureManager](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~HideFeatureManager.html)
-
-.
+See [ModelDocExtension::HideFeatureManager](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~HideFeatureManager.html).
 
 ## Examples
 
 [Hide the FeatureManager Design Tree (VBA)](Hide_the_FeatureManager_Example_VB.htm)
-
 [Hide the FeatureManager Design Tree (VB.NET)](Hide_the_FeatureManager_Example_VBNET.htm)
-
 [Hide the FeatureManager Design Tree (C#)](Hide_the_FeatureManager_Example_CSharp.htm)
-
 [Change Active Tab in Manager Pane (C#)](Change_Active_Tab_in_Manager_Pane_Example_CSharp.htm)
-
 [Change Active Tab in Manager Pane (VB.NET)](Change_Active_Tab_in_Manager_Pane_Example_VBNET.htm)
-
 [Change Active Tab in Manager Pane (VBA)](Change_Active_Tab_in_Manager_Pane_Example_VB.htm)
 
 ## Remarks
@@ -92,11 +77,8 @@ The FeatureManager design tree, PropertyManager, ConfigurationManager, DimXpertM
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::FeatureManagerFilterString Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~FeatureManagerFilterString.html)
-
 [IModelViewManager::FeatureManagerTabsVisible Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~FeatureManagerTabsVisible.html)
 
 ## Availability

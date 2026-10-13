@@ -51,11 +51,7 @@ property PDMWProject^ Parent {
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::Parent](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Parent.html)
-
-.
+See [PDMWProject::Parent](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Parent.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Only a vault administrator can set the parent of a project.
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
 
 ## Availability

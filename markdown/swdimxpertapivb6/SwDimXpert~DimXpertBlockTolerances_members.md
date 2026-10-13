@@ -1,6 +1,5 @@
 ---
-title: "DimXpertBlockTolerances Object
-Members"
+title: "DimXpertBlockTolerances Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertBlockTolerances_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertBlockTolerances_members.html"
 ---
 
-# DimXpertBlockTolerances Object
-Members
+# DimXpertBlockTolerances Object Members
 
 ## Public Methods
 

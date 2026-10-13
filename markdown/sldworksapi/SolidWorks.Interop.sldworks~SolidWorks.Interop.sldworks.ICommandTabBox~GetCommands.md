@@ -51,20 +51,12 @@ System.int GetCommands(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `CommandIDs`: Array of command IDs for the buttons
-- `TextDisplayStyles`: Array of the text display styles for the buttons as defined in
-
-[swCommandTabButtonTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandTabButtonTextDisplay_e.html)
+- `TextDisplayStyles`: Array of the text display styles for the buttons as defined in [swCommandTabButtonTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandTabButtonTextDisplay_e.html)
 
 ### Return Value
 
@@ -72,24 +64,17 @@ Number of buttons on this CommandManager tab box
 
 ## VBA Syntax
 
-See
-
-[CommandTabBox::GetCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~GetCommands.html)
-
-.
+See [CommandTabBox::GetCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~GetCommands.html).
 
 ## Examples
 
 [Create CommandManager Tab and Tab Boxes (C#)](Create_CommandManager_Tab_and_Tab_Boxes_Example_CSharp.htm)
-
 [Create CommandManager Tab and Tab Boxes (VB.NET)](Create_CommandManager_Tab_and_Tab_Boxes_Example_VB.NET.htm)
 
 ## See Also
 
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)
-
 [ICommandTabBox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html)
-
 [ICommandTabBox::IGetCommands Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox~IGetCommands.html)
 
 ## Availability

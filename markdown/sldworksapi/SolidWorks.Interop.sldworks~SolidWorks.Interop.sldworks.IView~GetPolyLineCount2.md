@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetPolyLineCount2 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetPolyLineCount5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolyLineCount5.html)
-
-.
+Obsolete. Superseded by [IView::GetPolyLineCount5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolyLineCount5.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int GetPolyLineCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetPolyLineCount2](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLineCount2.html)
-
-.
+See [View::GetPolyLineCount2](ms-its:sldworksapivb6.chm::/sldworks~View~GetPolyLineCount2.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

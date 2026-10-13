@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ApplyTexture Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::SetTexture](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetTexture.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::SetTexture](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetTexture.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.bool ApplyTexture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ApplyTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ApplyTexture.html)
-
-.
+See [ModelDocExtension::ApplyTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ApplyTexture.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

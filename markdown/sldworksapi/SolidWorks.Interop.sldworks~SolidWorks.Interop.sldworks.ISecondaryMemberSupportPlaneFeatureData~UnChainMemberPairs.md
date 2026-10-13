@@ -45,29 +45,15 @@ property System.bool UnChainMemberPairs {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to pair each member passed in
-
-[ISecondaryMemberSupportPlaneFeatureData::SetMemberPairs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData~SetMemberPairs.html)
-
-to the previous member passed, false to pair consecutive members only
+True to pair each member passed in [ISecondaryMemberSupportPlaneFeatureData::SetMemberPairs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData~SetMemberPairs.html) to the previous member passed, false to pair consecutive members only
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberSupportPlaneFeatureData::UnChainMemberPairs](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData~UnChainMemberPairs.html)
-
-.
+See [SecondaryMemberSupportPlaneFeatureData::UnChainMemberPairs](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData~UnChainMemberPairs.html).
 
 ## Remarks
 
@@ -98,7 +84,6 @@ E -- F
 ## See Also
 
 [ISecondaryMemberSupportPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData.html)
-
 [ISecondaryMemberSupportPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData_members.html)
 
 ## Availability

@@ -52,16 +52,8 @@ public enum class swsFOS_NonCompositeCriterion_e : public System.Enum
 
 If you set swsFOSNonCompositeCriterion_Automatic, SOLIDWORKS Simulation selects the most appropriate failure criterion across all element types by applying the following conditions:
 
-- The default Failure Criterion assigned in the
-
-  Material
-
-  dialog box for each material.
-- If you have not assigned a default failure criterion in the
-
-  Material
-
-  dialog box, the software assigns the Mohr-Coulomb stress criterion.
+- The default Failure Criterion assigned in the Material dialog box for each material.
+- If you have not assigned a default failure criterion in the Material dialog box, the software assigns the Mohr-Coulomb stress criterion.
 - If you selected Max von Mises or Max shear (Tresca) criterion for a beam material, the software uses the yield strength as allowable stress.
 - If you selected Max normal or Mohr-Coulomb criterion for a beam material, the software uses the tensile strength as the allowable stress.
 - For composite shells, the Tsai-Hill failure criterion is applied.

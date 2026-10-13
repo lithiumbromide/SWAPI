@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Drawing_Sheet_Zones_Example_VBNET.htm"
 
 # Create Drawing Sheet Zones Example (VB.NET)
 
-This example shows how to create a drawing sheet with zones, modify the zones
-in the drawing sheet, and insert a revision table.
+This example shows how to create a drawing sheet with zones, modify the zones in the drawing sheet, and insert a revision table.
 
 ```vb
   '-----------------------------------------------------------------------------

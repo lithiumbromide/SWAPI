@@ -1,6 +1,5 @@
 ---
-title: "IUtilOptions Object
-Members"
+title: "IUtilOptions Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IUtilOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IUtilOptions_members.html"
 ---
 
-# IUtilOptions Object
-Members
+# IUtilOptions Object Members
 
 ## Public Methods
 

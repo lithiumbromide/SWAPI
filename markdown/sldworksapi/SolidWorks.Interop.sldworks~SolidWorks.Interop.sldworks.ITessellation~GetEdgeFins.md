@@ -47,19 +47,11 @@ System.Object^ GetEdgeFins(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EdgeDisp`: [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-object
+- `EdgeDisp`: [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) object
 
 ### Return Value
 
@@ -67,18 +59,12 @@ Array of long or integer values describing the unique fin ID of every fin shared
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetEdgeFins](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetEdgeFins.html)
-
-.
+See [Tessellation::GetEdgeFins](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetEdgeFins.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetEdgeFins Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetEdgeFins.html)
 
 ## Availability

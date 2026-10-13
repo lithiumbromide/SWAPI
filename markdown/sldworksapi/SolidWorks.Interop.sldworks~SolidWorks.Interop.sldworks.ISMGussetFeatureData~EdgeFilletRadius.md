@@ -45,13 +45,7 @@ property System.double EdgeFilletRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Gusset edge fillet radius
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::EdgeFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~EdgeFilletRadius.html)
-
-.
+See [SMGussetFeatureData::EdgeFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~EdgeFilletRadius.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISMGussetFeatureData::FilletGussetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~FilletGussetEdges.html)
-
-is true and
-
-[ISMGussetFeatureData::GussetType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~GussetType.html)
-
-is set to 1.
+This property is valid only if [ISMGussetFeatureData::FilletGussetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~FilletGussetEdges.html) is true and [ISMGussetFeatureData::GussetType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~GussetType.html) is set to 1.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
 
 ## Availability

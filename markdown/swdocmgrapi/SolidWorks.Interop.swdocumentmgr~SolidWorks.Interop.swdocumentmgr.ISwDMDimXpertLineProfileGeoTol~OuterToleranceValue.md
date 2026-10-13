@@ -48,11 +48,7 @@ Outer tolerance value
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertLineProfileGeoTol::OuterToleranceValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertLineProfileGeoTol~OuterToleranceValue.html)
-
-.
+See [SwDMDimXpertLineProfileGeoTol::OuterToleranceValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertLineProfileGeoTol~OuterToleranceValue.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertLineProfileGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertLineProfileGeoTol.html)
-
 [ISwDMDimXpertLineProfileGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertLineProfileGeoTol_members.html)
 
 ## Availability

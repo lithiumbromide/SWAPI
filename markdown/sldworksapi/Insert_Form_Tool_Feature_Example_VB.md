@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Form_Tool_Feature_Example_VB.htm"
 
 # Insert Forming Tool Feature Example (VBA)
 
-This example shows how to insert a forming tool feature into a sheet metal
-part.
+This example shows how to insert a forming tool feature into a sheet metal part.
 
 ```
 '----------------------------------------------------------------------------

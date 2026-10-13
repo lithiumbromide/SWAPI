@@ -52,18 +52,12 @@ void SetRouteComponentTypeSetThrRLM(
 
 ## VBA Syntax
 
-See
-
-[RoutingComponentManager::SetRouteComponentTypeSetThrRLM](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~SetRouteComponentTypeSetThrRLM.html)
-
-.
+See [RoutingComponentManager::SetRouteComponentTypeSetThrRLM](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~SetRouteComponentTypeSetThrRLM.html).
 
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [IRoutingComponentManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html)
-
 [IRoutingComponentManager::GetRouteComponentTypeSetThrRLM Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetRouteComponentTypeSetThrRLM.html)
 
 ## Availability

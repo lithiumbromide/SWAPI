@@ -52,26 +52,16 @@ void SetName(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetName.html)
-
-.
+See [CWTopologyDemoldControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [ICWTopologyDemoldControl::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~GetName.html)
 
 ## Availability

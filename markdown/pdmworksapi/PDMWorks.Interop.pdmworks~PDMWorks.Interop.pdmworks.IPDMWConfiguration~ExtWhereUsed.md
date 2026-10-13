@@ -44,15 +44,11 @@ property PDMWLinks^ ExtWhereUsed {
 
 ### Property Value
 
-Collection of[links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)to external documents that reference this configuration
+Collection of [links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html) to external documents that reference this configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::ExtWhereUsed](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~ExtWhereUsed.html)
-
-.
+See [PDMWConfiguration::ExtWhereUsed](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~ExtWhereUsed.html).
 
 ## Remarks
 
@@ -61,9 +57,7 @@ An external document is any type of derived part, parent or child, including bas
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
-
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetSpecificFeature Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)
-
-.
+Obsolete. Superseded by [IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetSpecificFeature()
 System.Object^ GetSpecificFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Feature::GetSpecificFeature](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetSpecificFeature.html)
-
-.
+See [Feature::GetSpecificFeature](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetSpecificFeature.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

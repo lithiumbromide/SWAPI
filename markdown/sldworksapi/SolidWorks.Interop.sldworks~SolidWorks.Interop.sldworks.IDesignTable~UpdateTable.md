@@ -51,63 +51,41 @@ System.bool UpdateTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of update as defined in
-
-[swDesignTableUpdateOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDesignTableUpdateOptions_e.html)
+- `Type`: Type of update as defined in [swDesignTableUpdateOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDesignTableUpdateOptions_e.html)
 - `Close`: True to close the design table, false to not
 
 ### Return Value
 
-True if the changesParamDescmade to the design table update the model, false if not
+True if the changes made to the design table update the model, false if not
 
 ## VBA Syntax
 
-See
-
-[DesignTable::UpdateTable](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~UpdateTable.html)
-
-.
+See [DesignTable::UpdateTable](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~UpdateTable.html).
 
 ## Examples
 
 [Add Row to Design Table (VBA)](Add_Row_to_Design_Table_Example_VB.htm)
-
 [Disable Cell Drop-down Lists in Design Table (C#)](Disable_Cell_Drop-down_Lists_in_Design_Table_Example_CSharp.htm)
-
 [Disable Cell Drop-down Lists in Design Table (VB.NET)](Disable_Cell_Drop-down_Lists_in_Design_Table_Example_VBNET.htm)
-
 [Disable Cell Drop-down Lists in Design Table (VBA)](Disable_Cell_Drop-down_Lists_in_Design_Table_Example_VB.htm)
 
 ## Remarks
 
-[IDesignTable::UpdateModel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~UpdateModel.html)is a simplified version of this method.
+[IDesignTable::UpdateModel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~UpdateModel.html) is a simplified version of this method.
 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::EditFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~EditFeature.html)
-
 [IDesignTable::EditTable2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~EditTable2.html)
-
 [IDesignTable::IsActive Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~IsActive.html)
-
 [IDesignTable::UpdateFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateFeature.html)
-
 [IDesignTable::UpdateModel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateModel.html)
-
 [IDesignTable::Warn Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~Warn.html)
 
 ## Availability

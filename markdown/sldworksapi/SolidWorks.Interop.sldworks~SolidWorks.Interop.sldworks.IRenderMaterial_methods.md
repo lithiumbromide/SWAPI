@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IRenderMaterial Interface Methods
 
-For a list of all members of this type, see[IRenderMaterial members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html).
+For a list of all members of this type, see [IRenderMaterial members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html).
 
 ## Public Methods
 
@@ -18,6 +18,7 @@ For a list of all members of this type, see[IRenderMaterial members](SolidWorks.
 | Method | AddEntity | Adds the appearance to the specified entity. |
 | Method | GetCenterPoint | Obsolete. Superseded by IRenderMaterial::GetCenterPoint2 . |
 | Method | GetCenterPoint2 | Gets the center point of the mapping for texture-based appearances. |
+| Method | GetDSPBRMaterial | Gets the DSPBRMaterial object. |
 | Method | GetEntities | Gets the entities on which this appearance is applied. |
 | Method | GetEntitiesCount | Gets the number of entities on which this appearance was applied. |
 | Method | GetLinkedDisplayStates | Gets the display states to which this appearance is applied. |
@@ -41,15 +42,9 @@ For a list of all members of this type, see[IRenderMaterial members](SolidWorks.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::CreateRenderMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateRenderMaterial.html)
-
 [IModelDocExtension::GetRenderMaterialsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderMaterialsCount.html)
-
 [IModelDocExtension::UpdateRenderMaterialsInSceneGraph Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateRenderMaterialsInSceneGraph.html)
-
 [IModelDocExtension::GetRenderCustomReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderCustomReferences.html)
-
 [IModelDocExtension::GetRenderStockReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetRenderStockReferences.html)

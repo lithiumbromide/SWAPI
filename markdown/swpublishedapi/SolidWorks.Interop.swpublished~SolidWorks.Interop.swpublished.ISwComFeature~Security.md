@@ -63,28 +63,19 @@ System.Object^ Security(
 
 ### Return Value
 
-Value or combination of values as defined by[swMacroFeatureSecurityOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureSecurityOptions_e.html)
+Value or combination of values as defined by [swMacroFeatureSecurityOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroFeatureSecurityOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwComFeature::Security](ms-its:swpublishedapivb6.chm::/swpublished~SwComFeature~Security.html)
-
-.
+See [SwComFeature::Security](ms-its:swpublishedapivb6.chm::/swpublished~SwComFeature~Security.html).
 
 ## Remarks
 
-This method also allows you to display a note associated with the macro feature to the end user. This method is required for COM-based macro features. See
-
-[Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm)
-
-for more information.
+This method also allows you to display a note associated with the macro feature to the end user. This method is required for COM-based macro features. See [Overview of Macro Features](sldworksAPIProgGuide.chm::/Macro_Features/Overview_of_Macro_Features.htm) for more information.
 
 ## See Also
 
 [ISwComFeature Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.html)
-
 [ISwComFeature Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature_members.html)
 
 ## Availability

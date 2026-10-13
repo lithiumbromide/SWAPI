@@ -11,8 +11,7 @@ source: "sldworksapi/Delete_Faces_Example_VB.htm"
 
 This example shows how to delete faces.
 
-NOTE:You can only delete faces
-from a temporary body.
+NOTE: You can only delete faces from a temporary body.
 
 ```
 '------------------------------------------------

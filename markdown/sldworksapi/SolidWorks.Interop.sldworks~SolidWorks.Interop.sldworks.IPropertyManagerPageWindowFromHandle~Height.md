@@ -45,13 +45,7 @@ property System.int Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Height of the control
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageWindowFromHandle::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageWindowFromHandle~Height.html)
-
-.
+See [PropertyManagerPageWindowFromHandle::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageWindowFromHandle~Height.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageWindowFromHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html)
-
-examples.
+See the [IPropertyManagerPageWindowFromHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html) examples.
 
 ## Remarks
 
@@ -82,7 +68,6 @@ The height is in dialog-box units. You can convert these values to screen units 
 ## See Also
 
 [IPropertyManagerPageWindowFromHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html)
-
 [IPropertyManagerPageWindowFromHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle_members.html)
 
 ## Availability

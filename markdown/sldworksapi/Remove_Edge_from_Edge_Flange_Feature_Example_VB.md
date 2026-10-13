@@ -9,8 +9,7 @@ source: "sldworksapi/Remove_Edge_from_Edge_Flange_Feature_Example_VB.htm"
 
 # Remove Edge from Edge Flange Feature Example (VBA)
 
-This example shows how to remove an edge from an edge flange feature in a sheet
-metal part.
+This example shows how to remove an edge from an edge flange feature in a sheet metal part.
 
 ```
 '----------------------------------------------------------------------------

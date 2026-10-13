@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertCutSurface Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCutSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSurface.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCutSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSurface.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void InsertCutSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCutSurface.html)
-
-.
+See [ModelDoc2::InsertCutSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCutSurface.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ When there is ambiguity in the result of a cut, KeepPieceIndex is used to resolv
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
 
 ## Availability

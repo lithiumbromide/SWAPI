@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Allows you to access specific information about DimXpert intersect planes.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,36 +41,22 @@ public interface class ISwDMDimXpertIntersectPlaneFeature
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectPlaneFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature.html)
-
-.
+See [SwDMDimXpertIntersectPlaneFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature.html).
 
 ## Examples
 
 [Get DimXpert Intersect Features (VB.NET)](Get_DimXpert_Intersect_Features_Example_VBNET.htm)
-
 [Get DimXpert Intersect Features (C#)](Get_DimXpert_Intersect_Features_Example_CSharp.htm)
 
 ## Remarks
 
-You can access more general information from
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-.
+You can access more general information from [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html).
 
 ## Accessors
 
-[ISwDMDimXpertPart::GetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatures.html)
-
-and
-
-[ISwDMDimXpertPart::IGetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~IGetFeatures.html)
+[ISwDMDimXpertPart::GetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatures.html) and [ISwDMDimXpertPart::IGetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~IGetFeatures.html)
 
 ## See Also
 
 [ISwDMDimXpertIntersectPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPlaneFeature_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

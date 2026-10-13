@@ -45,13 +45,7 @@ property System.bool FitHeight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to stretch the height of the appearance texture to the selected entity, fal
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::FitHeight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FitHeight.html)
-
-.
+See [RenderMaterial::FitHeight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FitHeight.html).
 
 ## Examples
 
-See the "Add Decal" examples in
-
-[IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html)
-
-.
+See the "Add Decal" examples in [IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html).
 
 ## Remarks
 
-Call[IRenderMaterial::FitWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FitWidth.html)to get or set whether to stretch the width of the appearance texture to the selected entity.
+Call [IRenderMaterial::FitWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FitWidth.html) to get or set whether to stretch the width of the appearance texture to the selected entity.
 
-To stretch width and height of the appearance texture yourself, call[IRenderMaterial::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Width.html)and[IRenderMaterial::Height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Height.html).
+To stretch width and height of the appearance texture yourself, call [IRenderMaterial::Width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Width.html) and [IRenderMaterial::Height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Height.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

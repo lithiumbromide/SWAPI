@@ -45,13 +45,7 @@ property System.bool UpdateAllGraphicsLayers {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable all graphic layers in any mode, false to not
 
 ## VBA Syntax
 
-See
-
-[ModelView::UpdateAllGraphicsLayers](ms-its:sldworksapivb6.chm::/Sldworks~ModelView~UpdateAllGraphicsLayers.html)
-
-.
+See [ModelView::UpdateAllGraphicsLayers](ms-its:sldworksapivb6.chm::/Sldworks~ModelView~UpdateAllGraphicsLayers.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ SceneGraph organizes contents into layer 0 and 1. Layer 0 contains general geome
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Annotation_Object_Example_CSharp.htm"
 
 # Get Annotation Object Example (C#)
 
-This example shows how to obtain the annotation object for the selected
-annotation symbol.
+This example shows how to obtain the annotation object for the selected annotation symbol.
 
 ```vb
  //----------------------------------------------------------------------------

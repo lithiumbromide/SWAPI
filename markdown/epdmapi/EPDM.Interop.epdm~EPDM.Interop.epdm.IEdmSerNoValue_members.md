@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue_members.html
 
 # IEdmSerNoValue Interface Members
 
-The following tables list the members exposed by[IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html).
+The following tables list the members exposed by [IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ The following tables list the members exposed by[IEdmSerNoValue](EPDM.Interop.ep
 ## See Also
 
 [IEdmSerNoValue Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

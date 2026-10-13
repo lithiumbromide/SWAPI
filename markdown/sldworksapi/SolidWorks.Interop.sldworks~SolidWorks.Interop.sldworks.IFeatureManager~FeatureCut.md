@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureCut Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureCut2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCut2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureCut2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureCut2.html).
 
 ## Syntax
 
@@ -127,21 +123,15 @@ Feature^ FeatureCut(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single-ended, false for doubled-ended
 - `Flip`: Flip to side cut; true if you want to remove material outside of the profile, false if not
-- `Dir`: Reverse direction; true if you want Direction 1 to be opposite of the default direction (see**Remarks**)
-- `T1`: Termination type for first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `Dir`: Reverse direction; true if you want Direction 1 to be opposite of the default direction (see **Remarks**)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -156,29 +146,21 @@ See
 - `TranslateSurface2`: When you choose swEndcondOffsetFromSurface as the termination type for the second end, then true specifies that the end of the extrusion is a translation of the reference surface, false specifies to use a true offset
 - `NormalCut`: True ensures that the cut is created normal to the sheet metal thickness, false does not (this argument applies only to sheet metal parts, use false for non-sheet metal parts)
 - `UseFeatScope`: True if the feature only affects selected bodies or components, false if the feature affects all bodies or components
-- `UseAutoSelect`: True to automatically select all bodies or components and have the feature affect those bodies or components, false to select the bodies or components the feature affects (seeRemarks)
+- `UseAutoSelect`: True to automatically select all bodies or components and have the feature affect those bodies or components, false to select the bodies or components the feature affects (see Remarks)
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCut](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCut.html)
-
-.
+See [FeatureManager::FeatureCut](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCut.html).
 
 ## Remarks
 
 The default direction for cut operations are opposite the sketch normal. The default direction for boss operations is along the sketch normal. Setting the direction arguments to true reverse the default direction. For double-ended extrusions, Direction 2 is always be opposite to Direction 1.
 
-The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see[IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html)and[IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
+The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see [IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html) and [IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
 
 When UseAutoSelect is false, the user must select the bodies that the feature will affect.
 
@@ -187,13 +169,9 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::FeatureCutThicken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThicken.html)
-
 [IFeatureManager::FeatureCutThin Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThin.html)
-
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
 
 ## Availability

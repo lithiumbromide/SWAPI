@@ -53,24 +53,16 @@ System.int SetCombineAnnotation(
 
 ### Return Value
 
-Result code as defined in
-
-[swDimXpertCombineAnnotation_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertCombineAnnotation_e.html)
+Result code as defined in [swDimXpertCombineAnnotation_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertCombineAnnotation_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertFeature::SetCombineAnnotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~SetCombineAnnotation.html)
-
-.
+See [DimXpertFeature::SetCombineAnnotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~SetCombineAnnotation.html).
 
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)
-
 [IDimXpertFeature::IsCombinedAnnotation Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IsCombinedAnnotation.html)
 
 ## Availability

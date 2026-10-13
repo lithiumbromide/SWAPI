@@ -1,6 +1,5 @@
 ---
-title: "TwoMemberCornerTreatmentFeatureData Object
-Members"
+title: "TwoMemberCornerTreatmentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TwoMemberCornerTreatmentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TwoMemberCornerTreatmentFeatureData_members.html"
 ---
 
-# TwoMemberCornerTreatmentFeatureData Object
-Members
+# TwoMemberCornerTreatmentFeatureData Object Members
 
 ## Public Methods
 

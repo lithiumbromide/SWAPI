@@ -48,16 +48,11 @@ property System.int IsTopLevel {
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::IsTopLevel](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~IsTopLevel.html)
-
-.
+See [PDMWDocument::IsTopLevel](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~IsTopLevel.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

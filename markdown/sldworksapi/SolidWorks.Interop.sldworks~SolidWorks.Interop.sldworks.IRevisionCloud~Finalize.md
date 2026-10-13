@@ -40,13 +40,7 @@ System.bool Finalize()
 System.bool Finalize();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ True if this revision cloud was successfully finalized, false if not
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::Finalize](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Finalize.html)
-
-.
+See [RevisionCloud::Finalize](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Finalize.html).
 
 ## Examples
 
-See
-
-[IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html)
-
-examples.
+See [IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html) examples.
 
 ## Remarks
 
@@ -75,7 +61,6 @@ You must call this method after all revision cloud path points have been added t
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
 
 ## Availability

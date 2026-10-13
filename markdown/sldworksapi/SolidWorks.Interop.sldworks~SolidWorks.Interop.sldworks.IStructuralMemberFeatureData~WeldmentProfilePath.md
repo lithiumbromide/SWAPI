@@ -45,42 +45,26 @@ property System.String^ WeldmentProfilePath {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Full path and filename for the profile (see
-
-Remarks
-
-)
+Full path and filename for the profile (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::WeldmentProfilePath](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~WeldmentProfilePath.html)
-
-.
+See [StructuralMemberFeatureData::WeldmentProfilePath](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~WeldmentProfilePath.html).
 
 ## Remarks
 
-Weldment profiles are located in`install_dir`/lang/`lang`/weldment profilessubfolders and are namedfilename.sldflp.
+Weldment profiles are located in `install_dir`/lang/`lang`/weldment profiles subfolders and are named filename.sldflp.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
-
 [IStructuralMemberFeatureData::LocateProfilePoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData~LocateProfilePoint.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.Object^ GetVertexParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-Array of 17 doubles (see**Remarks**)
+Array of 17 doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetVertexParams](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetVertexParams.html)
-
-.
+See [Tessellation::GetVertexParams](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetVertexParams.html).
 
 ## Remarks
 
@@ -83,9 +73,7 @@ The following parameters returned from this method are formatted as an array of 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetVertexParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetVertexParams.html)
 
 ## Availability

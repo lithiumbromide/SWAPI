@@ -40,34 +40,20 @@ MathTransform IInverse()
 MathTransform^ IInverse();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-or NULL if the operation fails
+[Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathTransform::IInverse](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IInverse.html)
-
-.
+See [MathTransform::IInverse](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IInverse.html).
 
 ## See Also
 
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)
-
 [IMathTransform::Inverse Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform~Inverse.html)
 
 ## Availability

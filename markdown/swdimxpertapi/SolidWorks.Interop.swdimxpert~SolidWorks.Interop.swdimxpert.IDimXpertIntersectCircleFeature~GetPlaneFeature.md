@@ -57,16 +57,11 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertIntersectCircleFeature::GetPlaneFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectCircleFeature~GetPlaneFeature.html)
-
-.
+See [DimXpertIntersectCircleFeature::GetPlaneFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectCircleFeature~GetPlaneFeature.html).
 
 ## See Also
 
 [IDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.html)
-
 [IDimXpertIntersectCircleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature_members.html)
 
 ## Availability

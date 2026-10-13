@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Create3PointArc Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::Create3PointArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Create3PointArc.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::Create3PointArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Create3PointArc.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ System.bool Create3PointArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,14 +95,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::Create3PointArc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Create3PointArc.html)
-
-.
+See [ModelDoc::Create3PointArc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Create3PointArc.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

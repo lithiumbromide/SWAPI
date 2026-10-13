@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Changing_a_Table_in_a_Part_Document_
 
 # Fire Notification When Changing a Table in a Part Document Example (C#)
 
-This example shows how to fire a notification when a table is changed in a
-part document.
+This example shows how to fire a notification when a table is changed in a part document.
 
 ```vb
  //---------------------------------------------------------------

@@ -55,21 +55,13 @@ System.bool ExpandFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Component`: [Component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 - `FeatureName`: Name of a feature in Component
-- `WhichPane`: FeatureManager design tree pane in which to expand Component as defined in
-
-[swFeatMgrPane_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatMgrPane_e.html)
+- `WhichPane`: FeatureManager design tree pane in which to expand Component as defined in [swFeatMgrPane_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFeatMgrPane_e.html)
 
 ### Return Value
 
@@ -77,26 +69,18 @@ True if the specified component is expanded in the specified FeatureManager desi
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::ExpandFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ExpandFeature.html)
-
-.
+See [FeatureManager::ExpandFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ExpandFeature.html).
 
 ## Examples
 
 [Expand Component in Specified FeatureManager Design Tree Pane (C#)](Expand_Component_in_Specified_FeatureManager_Design_Tree_Pane_Example_CSharp.htm)
-
 [Expand Component in Specified FeatureManager Design Tree Pane (VB.NET)](Expand_Component_in_Specified_FeatureManager_Design_Tree_Pane_Example_VBNET.htm)
-
 [Expand Component in Specified FeatureManager Design Tree Pane (VBA)](Expand_Component_in_Specified_FeatureManager_Design_Tree_Pane_Example_VB.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ITreeControlItem::Expanded Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem~Expanded.html)
 
 ## Availability

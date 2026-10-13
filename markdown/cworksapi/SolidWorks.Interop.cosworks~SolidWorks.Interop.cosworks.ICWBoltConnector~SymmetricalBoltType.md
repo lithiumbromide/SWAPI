@@ -47,24 +47,17 @@ property System.int SymmetricalBoltType {
 
 ### Property Value
 
-Symmetrical bolt type as defined in[swsSymmetricalBoltType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSymmetricalBoltType_e.html)
+Symmetrical bolt type as defined in [swsSymmetricalBoltType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSymmetricalBoltType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::SymmetricalBoltType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~SymmetricalBoltType.html)
-
-.
+See [CWBoltConnector::SymmetricalBoltType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~SymmetricalBoltType.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::IncludeSymmetricalBolt Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~IncludeSymmetricalBolt.html)
-
 [ICWBoltConnector::InsertReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertReferenceGeometry.html)
 
 ## Availability

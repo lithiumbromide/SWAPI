@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDimXpertManager Interface Members
 
-The following tables list the members exposed by[IDimXpertManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager.html).
+The following tables list the members exposed by [IDimXpertManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IDimXpertManager](SolidWorks.In
 ## See Also
 
 [IDimXpertManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

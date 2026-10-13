@@ -45,13 +45,7 @@ property System.String^ ToonShaderTextureFilename {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Path and filename for the toon shader texture file
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::ToonShaderTextureFilename](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~ToonShaderTextureFilename.html)
-
-.
+See [RenderMaterial::ToonShaderTextureFilename](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~ToonShaderTextureFilename.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

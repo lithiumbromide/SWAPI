@@ -40,13 +40,7 @@ System.int GetFeatureCount()
 System.int GetFeatureCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of features
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::GetFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetFeatureCount.html)
-
-.
+See [SimpleFilletFeatureData2::GetFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~GetFeatureCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISimpleFilletFeatureData2::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFeatures.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISimpleFilletFeatureData2::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFeatures.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::ISetFeatures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~ISetFeatures.html)
-
 [ISimpleFilletFeatureData2::Features Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~Features.html)
 
 ## Availability

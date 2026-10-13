@@ -1,6 +1,5 @@
 ---
-title: "InspectionProject Object
-Members"
+title: "InspectionProject Object Members"
 project: "SWInspectionAddinActiveX DLL"
 interface: "InspectionProject_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swinspectionapivb6/SWInspectionAddin~InspectionProject_members.html"
 ---
 
-# InspectionProject Object
-Members
+# InspectionProject Object Members
 
 ## Public Methods
 

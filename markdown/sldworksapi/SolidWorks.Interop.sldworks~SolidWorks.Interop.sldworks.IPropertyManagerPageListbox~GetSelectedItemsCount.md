@@ -40,13 +40,7 @@ System.int GetSelectedItemsCount()
 System.int GetSelectedItemsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Number of items currently selected in this list box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageListbox::GetSelectedItemsCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~GetSelectedItemsCount.html)
-
-.
+See [PropertyManagerPageListbox::GetSelectedItemsCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~GetSelectedItemsCount.html).
 
 ## Remarks
 
-Call this method before calling[IPropertyManagerPageListbox::IGetSelectedItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageListbox~IGetSelectedItems.html)to size the array of selected items.
+Call this method before calling [IPropertyManagerPageListbox::IGetSelectedItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageListbox~IGetSelectedItems.html) to size the array of selected items.
 
 ## See Also
 
 [IPropertyManagerPageListbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox.html)
-
 [IPropertyManagerPageListbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox_members.html)
-
 [IPropertyManagerPageListbox::GetSelectedItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox~GetSelectedItems.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISF
 
 # GOSTNotation Property (ISFSymbol)
 
-Gets whether the GOST
-
-Use for notation
-
-option is set.
+Gets whether the GOST Use for notation option is set.
 
 ## Syntax
 
@@ -49,36 +45,18 @@ property System.bool GOSTNotation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the GOST
-
-Use for notation
-
-option is set, false if it is not
-
-EndOLEPropertyRow
+True if the GOST Use for notation option is set, false if it is not
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GOSTNotation](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GOSTNotation.html)
-
-.
+See [SFSymbol::GOSTNotation](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GOSTNotation.html).
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
-
 [ISFSymbol::GOSTDefaultSymbol Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~GOSTDefaultSymbol.html)

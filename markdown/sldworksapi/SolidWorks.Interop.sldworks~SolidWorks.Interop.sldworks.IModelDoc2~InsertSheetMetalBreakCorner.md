@@ -50,41 +50,27 @@ void InsertSheetMetalBreakCorner(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Corner type as defined in[swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
+- `Type`: Corner type as defined in [swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
 - `Distance`: Distance to break from corner
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSheetMetalBreakCorner](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalBreakCorner.html)
-
-.
+See [ModelDoc2::InsertSheetMetalBreakCorner](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalBreakCorner.html).
 
 ## Examples
 
 [Modify Break Corner Feature (C#)](Modify_Break_Corner_Feature_Example_CSharp.htm)
-
 [Modify Break Corner Feature (VB.NET)](Modify_Break_Corner_Feature_Example_VBNET.htm)
-
 [Modify Break Corner Feature (VBA)](Modify_Break_Corner_Feature_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
 
 ## Availability

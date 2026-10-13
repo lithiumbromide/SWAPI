@@ -67,13 +67,7 @@ System.Object^ CreateCenterRectangle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -86,30 +80,15 @@ See
 
 ### Return Value
 
-Array of
-
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-that represent the edges and diagonals
-
-kadov_tag{{</spaces>}}
-
-created for this center rectangle
+Array of [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) that represent the edges and diagonals created for this center rectangle
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateCenterRectangle](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateCenterRectangle.html)
-
-.
+See [SketchManager::CreateCenterRectangle](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateCenterRectangle.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::Create3PointCenterRectangle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~Create3PointCenterRectangle.html)
-
 [ISketchManager::Create3PointCornerRectangle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~Create3PointCornerRectangle.html)

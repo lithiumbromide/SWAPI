@@ -1,6 +1,5 @@
 ---
-title: "TemplateOverrides Object
-Members"
+title: "TemplateOverrides Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "TemplateOverrides_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~TemplateOverrides_members.html"
 ---
 
-# TemplateOverrides Object
-Members
+# TemplateOverrides Object Members
 
 ## Public Methods
 

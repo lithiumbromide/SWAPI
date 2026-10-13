@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html"
 
 # OnCmd Method (IEdmAddIn5)
 
-Called by SOLIDWORKS PDM Professional whenever one of the menu commands or hooks registered in
-
-[IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html)
-
-is executed.
+Called by SOLIDWORKS PDM Professional whenever one of the menu commands or hooks registered in [IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html) is executed.
 
 ## Syntax
 
@@ -46,22 +42,16 @@ void OnCmd(
 
 ### Parameters
 
-- `poCmd`: [EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
-; command information common to all affected files and folders
-- `ppoData`: Array of
-
-[EdmCmdData structures](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-, one for each affected file or folder
+- `poCmd`: [EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html); command information common to all affected files and folders
+- `ppoData`: Array of [EdmCmdData structures](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html), one for each affected file or folder
 
 ## Examples
 
-See the[IEdmAddin5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)examples.
+See the [IEdmAddin5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html) examples.
 
 ## Remarks
 
-See the[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)topic for more information.
+See the [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html) topic for more information.
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,7 +61,6 @@ See the[IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)topic fo
 ## See Also
 
 [IEdmAddIn5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
-
 [IEdmAddIn5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5_members.html)
 
 ## Availability

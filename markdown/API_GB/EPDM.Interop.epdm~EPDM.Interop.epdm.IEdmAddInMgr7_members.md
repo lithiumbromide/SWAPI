@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7_members.html"
 
 # IEdmAddInMgr7 Interface Members
 
-The following tables list the members exposed by[IEdmAddInMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7.html).
+The following tables list the members exposed by [IEdmAddInMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmAddInMgr7](EPDM.Interop.epd
 ## See Also
 
 [IEdmAddInMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

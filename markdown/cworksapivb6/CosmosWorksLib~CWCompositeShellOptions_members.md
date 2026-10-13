@@ -1,6 +1,5 @@
 ---
-title: "CWCompositeShellOptions Object
-Members"
+title: "CWCompositeShellOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWCompositeShellOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWCompositeShellOptions_members.html"
 ---
 
-# CWCompositeShellOptions Object
-Members
+# CWCompositeShellOptions Object Members
 
 ## Public Methods
 

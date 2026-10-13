@@ -40,25 +40,15 @@ System.int GetCreatedVersion()
 System.int GetCreatedVersion();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-SOLIDWORKS version number in which feature was createdParamDesc(see**Remarks**)
+SOLIDWORKS version number in which feature was created (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetCreatedVersion](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetCreatedVersion.html)
-
-.
+See [Feature::GetCreatedVersion](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetCreatedVersion.html).
 
 ## Examples
 
@@ -101,23 +91,17 @@ See
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
 | SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-To get the SOLIDWORKS version number in which the feature was last modified, use[IFeature::GetModifiedVersion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetModifiedVersion.html).
+To get the SOLIDWORKS version number in which the feature was last modified, use [IFeature::GetModifiedVersion](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetModifiedVersion.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IModelDoc2::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IVersionHistory.html)
-
 [IModelDoc2::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~VersionHistory.html)
-
 [ISldWorks::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
 
 ## Availability

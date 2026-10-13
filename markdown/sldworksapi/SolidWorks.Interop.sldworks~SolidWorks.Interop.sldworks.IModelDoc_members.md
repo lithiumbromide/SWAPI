@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDoc Interface Members
 
-The following tables list the members exposed by[IModelDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html).
+The following tables list the members exposed by [IModelDoc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html).
 
 ## Public Properties
 
@@ -43,7 +43,7 @@ The following tables list the members exposed by[IModelDoc](SolidWorks.Interop.s
 
 |  | Name | Description |
 | --- | --- | --- |
-| Method | ActivateFeatureMgrView | Obsolete. Superseded by IModelDoc2::ActivateFeatureMgrView . |
+| Method | ActivateFeatureMgrView | Obsolete. Superseded by IFeatureMgrView::ActivateView or IModelDocExtension::ActivateFeatureMgrViewx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
 | Method | ActivateSelectedFeature | Obsolete. Superseded by IModelDoc2::ActivateSelectedFeature . |
 | Method | AddConfiguration | Obsolete. Superseded by IModelDoc2::AddConfiguration . |
 | Method | AddConfiguration2 | Obsolete. Superseded by IModelDoc2::AddConfiguration2 . |
@@ -54,9 +54,9 @@ The following tables list the members exposed by[IModelDoc](SolidWorks.Interop.s
 | Method | AddDiameterDimension2 | Obsolete. Superseded by IModelDoc2::AddDiameterDimension2 . |
 | Method | AddDimension | Obsolete. Superseded by IModelDoc2::AddDimension . |
 | Method | AddDimension2 | Obsolete. Superseded by IModelDoc2::AddDimension2 . |
-| Method | AddFeatureMgrView | Obsolete. Superseded by IModelDoc2::AddFeatureMgrView . |
-| Method | AddFeatureMgrView2 | Obsolete. Superseded by IModelDoc2::AddFeatureMgrView2 . |
-| Method | AddFeatureMgrView3 | Obsolete. Superseded by IModelDoc2::AddFeatureMgrView3 . |
+| Method | AddFeatureMgrView | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
+| Method | AddFeatureMgrView2 | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
+| Method | AddFeatureMgrView3 | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
 | Method | AddHorizontalDimension | Obsolete. Superseded by IModelDoc2::AddHorizontalDimension . |
 | Method | AddHorizontalDimension2 | Obsolete. Superseded by IModelDoc2::AddHorizontalDimension2 . |
 | Method | AddIns | Obsolete. Superseded by IModelDoc2::AddIns . |
@@ -706,5 +706,4 @@ The following tables list the members exposed by[IModelDoc](SolidWorks.Interop.s
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

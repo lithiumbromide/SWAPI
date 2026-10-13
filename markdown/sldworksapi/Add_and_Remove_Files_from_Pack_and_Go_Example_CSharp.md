@@ -9,9 +9,7 @@ source: "sldworksapi/Add_and_Remove_Files_from_Pack_and_Go_Example_CSharp.htm"
 
 # Add and Remove Files from Pack and Go Example (C#)
 
-This example shows how to add SOLIDWORKS, render reference, and
-non-SOLIDWORKS files to Pack and Go. This example also shows how to remove a
-non-SOLIDWORKS file from Pack and Go.
+This example shows how to add SOLIDWORKS Design, render reference, and non-SOLIDWORKS Design files to Pack and Go. This example also shows how to remove a non-SOLIDWORKS Design file from Pack and Go.
 
 ```vb
  //-------------------------------------------
@@ -21,11 +19,11 @@ non-SOLIDWORKS file from Pack and Go.
  // 3. Open the Immediate window.
  //
  // Postconditions:
- // 1. Gets the names of SOLIDWORKS, render reference, and
- //    non-SOLIDWORKS files for Pack and Go.
- // 2. Gets the the name of non-SOLIDWORKS file to remove.
- // 3. Packs up SOLIDWORKS, render reference, and
- //    non-SOLIDWORKS files and copies them to c:\PackAndGo.
+ // 1. Gets the names of SOLIDWORKS Design, render reference, and
+ //    non-SOLIDWORKS Design files for Pack and Go.
+ // 2. Gets the the name of non-SOLIDWORKS Design file to remove.
+ // 3. Packs up SOLIDWORKS Design, render reference, and
+ //    non-SOLIDWORKS Design files and copies them to c:\PackAndGo.
  // 4. Examine c:\PackAndGo and the Immediate window.
  //-------------------------------------------
  using SolidWorks.Interop.sldworks;
@@ -72,7 +70,7 @@ non-SOLIDWORKS file from Pack and Go.
              pgFileNames = (object[])fileNames;
 
              Debug.Print("");
-             Debug.Print("  Add SOLIDWORKS files' paths and filenames: ");
+             Debug.Print("  Add SOLIDWORKS Design files' paths and filenames: ");
              if ((pgFileNames != null))
              {
                  for (i = 0; i <= pgFileNames.GetUpperBound(0); i++)
@@ -97,7 +95,7 @@ non-SOLIDWORKS file from Pack and Go.
              // Add render stock files to Pack and Go
              status = swPackAndGo.AddExternalDocuments(renderReferences);
 
-             // Add other non-SOLIDWORKS files to Pack and Go
+             // Add other non-SOLIDWORKS Design files to Pack and Go
              object[] otherFiles = new  object[2];
              string otherFile = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2025\\samples\\tutorial\\edraw\\claw\\claw-mechanism.easm";
              otherFiles[0] = (object)otherFile;
@@ -105,21 +103,21 @@ non-SOLIDWORKS file from Pack and Go.
              otherFiles[1] = (object)otherFile;
 
              Debug.Print(" ");
-             Debug.Print("  Add non-SOLIDWORKS files:");
+             Debug.Print("  Add non-SOLIDWORKS Design files:");
              for (i = 0; i <= otherFiles.GetUpperBound(0); i++)
              {
                  Debug.Print("    The path and filename is: " + otherFiles[i]);
              }
 
-             // Add non-SOLIDWORKS file to Pack and Go
+             // Add non-SOLIDWORKS Design file to Pack and Go
              status = swPackAndGo.AddExternalDocuments(ObjectArrayToBStrWrapperArray(otherFiles));
 
-             // Remove one of the non-SOLIDWORKS files from Pack and Go
+             // Remove one of the non-SOLIDWORKS Design files from Pack and Go
              object[] delOtherFiles = new  object[1];
              delOtherFiles[0] = (object)otherFiles[0];
 
              Debug.Print(" ");
-             Debug.Print("  Remove non-SOLIDWORKS file:");
+             Debug.Print("  Remove non-SOLIDWORKS Design file:");
              Debug.Print("    The path and filename is: " + delOtherFiles[0]);
 
              status = swPackAndGo.RemoveExternalDocuments(ObjectArrayToBStrWrapperArray(delOtherFiles));

@@ -46,16 +46,11 @@ True if the annotation is suppressed; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::IsSuppressed](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsSuppressed.html)
-
-.
+See [DimXpertAnnotation::IsSuppressed](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsSuppressed.html).
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

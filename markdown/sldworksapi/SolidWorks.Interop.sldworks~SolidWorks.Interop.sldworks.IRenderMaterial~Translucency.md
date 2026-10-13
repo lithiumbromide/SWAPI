@@ -45,13 +45,7 @@ property System.double Translucency {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Degree to which the material is able to filter and diffuse light
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Translucency](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Translucency.html)
-
-.
+See [RenderMaterial::Translucency](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Translucency.html).
 
 ## Remarks
 
@@ -74,7 +64,6 @@ A light must be behind the model relative to the position of the viewer.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

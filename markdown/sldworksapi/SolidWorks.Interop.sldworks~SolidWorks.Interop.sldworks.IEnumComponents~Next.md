@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # Next Method (IEnumComponents)
 
-Obsolete. Superseded by
-
-[IEnumComponents2::Next](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumComponents2~Next.html)
-
-.
+Obsolete. Superseded by [IEnumComponents2::Next](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumComponents2~Next.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumComponents::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents~Next.html)
-
-.
+See [EnumComponents::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumComponents~Next.html).
 
 ## See Also
 
 [IEnumComponents Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumComponents.html)
-
 [IEnumComponents Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumComponents_members.html)

@@ -63,13 +63,7 @@ Feature^ InsertMirrorFeature2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -77,7 +71,7 @@ See
 - `BGeometryPattern`: True to mirror only the feature geometry, false to solve the entire feature; applies to mirroring features only
 - `BMerge`: True to merge any mirrored solid bodies, false to not; applies to mirroring solid bodies only
 - `BKnit`: True to knit surfaces, false to not; applies to mirroring surfaces only
-- `ScopeOptions`: Feature scope as defined by[swFeatureScope_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureScope_e.html)
+- `ScopeOptions`: Feature scope as defined by [swFeatureScope_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureScope_e.html)
 
 ### Return Value
 
@@ -85,33 +79,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMirrorFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMirrorFeature2.html)
-
-.
+See [FeatureManager::InsertMirrorFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMirrorFeature2.html).
 
 ## Examples
 
-See the
-
-[IMirrorSolidFeatureData::StructureSystemToPatternArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData~StructureSystemToPatternArray.html)
-
-examples.
+See the [IMirrorSolidFeatureData::StructureSystemToPatternArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData~StructureSystemToPatternArray.html) examples.
 
 ## Examples
 
 [Get Mirror Pattern Feature Data (C#)](Get_Mirror_Pattern_Feature_Data_Example_CSharp.htm)
-
 [Get Mirror Pattern Feature Data (VB.NET)](Get_Mirror_Pattern_Feature_Data_Example_VBNET.htm)
-
 [Get Mirror Pattern Feature Data (VBA)](Get_Mirror_Feature_Data_Example_VB.htm)
 
 ## Remarks
 
 This method attempts to create the mirror feature without displaying a dialog box to get information from the user. It relies on preselected and marked entities and arguments.
-
-(Table)=========================================================
 
 Structure systems 134217728
 
@@ -123,14 +105,12 @@ Structure systems 134217728
 | Structure systems | 134217728 |
 | Planes or planar faces | 2 |
 
-For information on selecting and marking entities, see[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html).
+For information on selecting and marking entities, see [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMirrorPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData.html)
 
 ## Availability

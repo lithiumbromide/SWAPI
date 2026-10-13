@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Assembly_Components_to_New_Folder_Example_VB.htm"
 
 # Move Assembly Components to New Folder Example (VBA)
 
-This example shows how to move selected assembly components to a newly
-created folder in the FeatureManager design tree.
+This example shows how to move selected assembly components to a newly created folder in the FeatureManager design tree.
 
 ```vb
  '---------------------------------------------------------------------------

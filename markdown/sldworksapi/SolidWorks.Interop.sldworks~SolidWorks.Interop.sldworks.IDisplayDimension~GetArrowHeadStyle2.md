@@ -51,18 +51,12 @@ System.bool GetArrowHeadStyle2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style1`: Arrowhead style of first arrowhead as defined in[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)}}end!kadov
-- `Style2`: Arrowhead style of second arrowhead as defined in[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `Style1`: Arrowhead style of first arrowhead as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `Style2`: Arrowhead style of second arrowhead as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 
 ### Return Value
 
@@ -70,20 +64,15 @@ True if the styles are set, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetArrowHeadStyle2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetArrowHeadStyle2.html)
-
-.
+See [DisplayDimension::GetArrowHeadStyle2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetArrowHeadStyle2.html).
 
 ## Remarks
 
-The arrowhead style for a display dimension is controlled by a value stored in one of two places: on the owning document or on the individual display dimension.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Use this method and[IDisplayDimension::GetUseDocArrowHeadStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocArrowHeadStyle.html)to get the current values for these settings. Use[IDisplayDimension::SetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetArrowHeadStyle2.html)to set the arrowhead style.
+The arrowhead style for a display dimension is controlled by a value stored in one of two places: on the owning document or on the individual display dimension. Use this method and [IDisplayDimension::GetUseDocArrowHeadStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetUseDocArrowHeadStyle.html) to get the current values for these settings. Use [IDisplayDimension::SetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetArrowHeadStyle2.html) to set the arrowhead style.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.bool IsSingular()
 System.bool IsSingular();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ True if the loop is singular, false if not
 
 ## VBA Syntax
 
-See
-
-[Loop2::IsSingular](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IsSingular.html)
-
-.
+See [Loop2::IsSingular](ms-its:sldworksapivb6.chm::/sldworks~Loop2~IsSingular.html).
 
 ## Examples
 
 [Find Outside Edges of Face (VBA)](Find_Outside_Edges_of_Face_Example_VB.htm)
-
 [Get Loops (VBA)](Get_Loops_Example_VB.htm)
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
 
 ## Availability

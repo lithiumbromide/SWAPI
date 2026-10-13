@@ -9,8 +9,7 @@ source: "cworksapi/Create_Body_From_Deformed_Shape_Example_VB.htm"
 
 # Create Body From Deformed Shape Example (VBA)
 
-This example shows how to save the deformed shape that results from
-running a static study.
+This example shows how to save the deformed shape that results from running a static study.
 
 ```vb
  '---------------------------------------------------------------------------

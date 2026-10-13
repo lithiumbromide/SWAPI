@@ -42,13 +42,7 @@ property System.bool Is3DInterconnectUpdateAvailable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,34 +50,20 @@ True if an update is available, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::Is3DInterconnectUpdateAvailable](ms-its:sldworksapivb6.chm::/sldworks~Feature~Is3DInterconnectUpdateAvailable.html)
-
-.
+See [Feature::Is3DInterconnectUpdateAvailable](ms-its:sldworksapivb6.chm::/sldworks~Feature~Is3DInterconnectUpdateAvailable.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## Remarks
 
-If this property is true, use
-
-[IFeature::Update3DInterconnectModel](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Update3DInterconnectModel.html)
-
-to update the imported feature or component.
+If this property is true, use [IFeature::Update3DInterconnectModel](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Update3DInterconnectModel.html) to update the imported feature or component.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
 
 ## Availability

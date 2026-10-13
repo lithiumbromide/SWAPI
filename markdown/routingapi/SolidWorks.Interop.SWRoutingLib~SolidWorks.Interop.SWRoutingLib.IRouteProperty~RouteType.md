@@ -44,30 +44,21 @@ property System.int RouteType {
 
 ### Property Value
 
-Type of route as defined in
-
-[swRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRouteType_e.html)
+Type of route as defined in [swRouteType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRouteType_e.html)
 
 ## VBA Syntax
 
-See
-
-[RouteProperty::RouteType](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~RouteType.html)
-
-.
+See [RouteProperty::RouteType](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~RouteType.html).
 
 ## Examples
 
 [Get Minimum Bend Radii of Wires (C#)](Get_Minimum_Bend_Radii_of_Wires_Example_CSharp.htm)
-
 [Get Minimum Bend Radii of Wires (VB.NET)](Get_Minimum_Bend_Radii_of_Wires_Example_VBNET.htm)
-
 [Get Minimum Bend Radii of Wires (VBA)](Get_Minimum_Bend_Radii_of_Wires_Example_VB.htm)
 
 ## See Also
 
 [IRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html)
-
 [IRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty_members.html)
 
 ## Availability

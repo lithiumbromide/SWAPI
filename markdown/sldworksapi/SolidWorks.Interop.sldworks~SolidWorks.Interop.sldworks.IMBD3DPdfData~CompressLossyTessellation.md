@@ -45,13 +45,7 @@ property System.bool CompressLossyTessellation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to apply lossy compression to polygons in the model, false to not
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::CompressLossyTessellation](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~CompressLossyTessellation.html)
-
-.
+See [MBD3DPdfData::CompressLossyTessellation](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~CompressLossyTessellation.html).
 
 ## Examples
 
 [Attach Files to MBD 3D PDF (C#)](Attach_Files_to_MBD_3D_PDF_Example_CSharp.htm)
-
 [Attach Files to MBD 3D PDF (VB.NET)](Attach_Files_to_MBD_3D_PDF_Example_VBNET.htm)
-
 [Attach Files to MBD 3D PDF (VBA)](Attach_Files_to_MBD_3D_PDF_Example_VB.htm)
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::Accuracy Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~Accuracy.html)
 
 ## Availability

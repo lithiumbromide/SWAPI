@@ -48,16 +48,11 @@ Owner of document
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::Owner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Owner.html)
-
-.
+See [PDMWSearchResult::Owner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Owner.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

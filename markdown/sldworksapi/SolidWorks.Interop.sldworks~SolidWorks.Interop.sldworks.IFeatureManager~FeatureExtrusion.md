@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureExtrusion Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtrusion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtrusion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html).
 
 ## Syntax
 
@@ -127,13 +123,7 @@ Feature^ FeatureExtrusion(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -160,14 +150,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtrusion](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusion.html)
-
-.
+See [FeatureManager::FeatureExtrusion](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusion.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

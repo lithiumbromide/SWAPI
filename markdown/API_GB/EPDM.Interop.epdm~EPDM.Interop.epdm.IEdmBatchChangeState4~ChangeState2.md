@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~Change
 
 # ChangeState2 Method (IEdmBatchChangeState4)
 
-Changes states or revokes transitions of all the files added to this batch using
-
-[IEdmBatchChangeState::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~AddFile.html)
-
-.
+Changes states or revokes transitions of all the files added to this batch using [IEdmBatchChangeState::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~AddFile.html).
 
 ## Syntax
 
@@ -51,21 +47,17 @@ void ChangeState2(
 
 - `lParentWnd`: Parent window handle that is passed to add-ins that are notified about file state changes in the vault
 - `bsPasswd`: Password of user executing the transition
-- `poCallback`: Optional pointer to a class that implements[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)to receive progress information about the operation
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to receive progress information about the operation
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html)
-
-examples.
+See the [IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html) examples.
 
 ## Remarks
 
-The difference between this method and the now obsolete[IEdmBatchChangeState::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState.html)is that this method specifies a user password that allows the file to change state if the transition requires authentication ([IEdmTransition10::Authentication](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10~Authentication.html)).
+The difference between this method and the now obsolete [IEdmBatchChangeState::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~ChangeState.html) is that this method specifies a user password that allows the file to change state if the transition requires authentication ([IEdmTransition10::Authentication](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10~Authentication.html)).
 
-Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html)if changing states or[IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html)if revoking transitions.
+Before calling this method, you must call [IEdmBatchChangeState::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~CreateTree.html) if changing states or [IEdmBatchChangeState2::CreateTreeForRevoke](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html) if revoking transitions.
 
 [Return codes](ReturnCodes.htm):
 
@@ -76,7 +68,6 @@ Before calling this method, you must call[IEdmBatchChangeState::CreateTree](EPDM
 ## See Also
 
 [IEdmBatchChangeState4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html)
-
 [IEdmBatchChangeState4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4_members.html)
 
 ## Availability

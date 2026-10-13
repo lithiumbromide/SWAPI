@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnDoubleValueChanged Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnDoubleValueChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDoubleValueChanged.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnDoubleValueChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDoubleValueChanged.html).
 
 ## Syntax
 
@@ -67,14 +63,9 @@ System.bool OnDoubleValueChanged(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnDoubleValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDoubleValueChanged.html)
-
-.
+See [SwManipulatorHandler::OnDoubleValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDoubleValueChanged.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

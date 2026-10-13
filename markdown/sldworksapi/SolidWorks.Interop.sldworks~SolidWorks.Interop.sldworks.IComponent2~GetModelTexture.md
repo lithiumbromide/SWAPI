@@ -47,13 +47,7 @@ Texture^ GetModelTexture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component2::GetModelTexture](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetModelTexture.html)
-
-.
+See [Component2::GetModelTexture](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetModelTexture.html).
 
 ## Examples
 
 [Get Model Textures (VBA)](Get_Model_Texture_Example_VB.htm)
-
 [Get Model Textures (VB.NET)](Get_Model_Texture_Example_VBNET.htm)
-
 [Get Model Textures (C#)](Get_Model_Texture_Example_CSharp.htm)
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetTexture.html)
 
 ## Availability

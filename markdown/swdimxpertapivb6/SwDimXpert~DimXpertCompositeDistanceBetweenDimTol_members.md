@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompositeDistanceBetweenDimTol Object
-Members"
+title: "DimXpertCompositeDistanceBetweenDimTol Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompositeDistanceBetweenDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompositeDistanceBetweenDimTol_members.html"
 ---
 
-# DimXpertCompositeDistanceBetweenDimTol Object
-Members
+# DimXpertCompositeDistanceBetweenDimTol Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "ICWRunSpecStudiesRunMeshOptions Object
-Members"
+title: "ICWRunSpecStudiesRunMeshOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWRunSpecStudiesRunMeshOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWRunSpecStudiesRunMeshOptions_members.html"
 ---
 
-# ICWRunSpecStudiesRunMeshOptions Object
-Members
+# ICWRunSpecStudiesRunMeshOptions Object Members
 
 ## Public Methods
 

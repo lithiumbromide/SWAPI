@@ -62,16 +62,11 @@ CWSolidBody^ GetSolidBodyByName(
 
 ## VBA Syntax
 
-See
-
-[CWSolidManager::GetSolidBodyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~GetSolidBodyByName.html)
-
-.
+See [CWSolidManager::GetSolidBodyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~GetSolidBodyByName.html).
 
 ## See Also
 
 [ICWSolidManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
 [ICWSolidManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager_members.html)
 
 ## Availability

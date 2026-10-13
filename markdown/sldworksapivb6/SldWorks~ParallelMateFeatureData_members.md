@@ -1,6 +1,5 @@
 ---
-title: "ParallelMateFeatureData Object
-Members"
+title: "ParallelMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ParallelMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ParallelMateFeatureData_members.html"
 ---
 
-# ParallelMateFeatureData Object
-Members
+# ParallelMateFeatureData Object Members
 
 ## Public Properties
 

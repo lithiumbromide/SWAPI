@@ -40,13 +40,7 @@ System.bool UpdateSensor()
 System.bool UpdateSensor();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ True if the sensor is updated, false if not
 
 ## VBA Syntax
 
-See
-
-[Sensor::UpdateSensor](ms-its:sldworksapivb6.chm::/sldworks~Sensor~UpdateSensor.html)
-
-.
+See [Sensor::UpdateSensor](ms-its:sldworksapivb6.chm::/sldworks~Sensor~UpdateSensor.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## See Also
 
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)
-
 [ISensor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html)
-
 [ISensor::SensorType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor~SensorType.html)
 
 ## Availability

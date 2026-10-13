@@ -55,13 +55,7 @@ System.int ResetUntitledCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,16 +69,12 @@ Total number of successful resets
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ResetUntitledCount](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResetUntitledCount.html)
+See [SldWorks::ResetUntitledCount](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResetUntitledCount.html)
 
 ## Examples
 
 [Reset Untitled Document Count (VBA)](Reset_Untitled_Document_Count_Example_VB.htm)
-
 [Reset Untitled Document Count (VB.NET)](Reset_Untitled_Document_Count_Example_VBNET.htm)
-
 [Reset Untitled Document Count (C#)](Reset_Untitled_Document_Count_Example_CSharp.htm)
 
 ## Remarks
@@ -98,7 +88,6 @@ To ensure reproducible results, call ISldWorks::ResetUntitledCount at the beginn
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

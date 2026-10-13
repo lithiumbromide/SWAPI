@@ -45,13 +45,7 @@ property System.bool EnableAssemblyRebuild {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to suspend rebuilding the assembly, false to rebuild the assembly (false is
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::EnableAssemblyRebuild](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EnableAssemblyRebuild.html)
-
-.
+See [AssemblyDoc::EnableAssemblyRebuild](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EnableAssemblyRebuild.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

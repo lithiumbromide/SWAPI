@@ -35,5 +35,4 @@ System.String^ mbsMenuStr
 ## See Also
 
 [EdmAddInMenuInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html)
-
 [EdmAddInMenuInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members.html)

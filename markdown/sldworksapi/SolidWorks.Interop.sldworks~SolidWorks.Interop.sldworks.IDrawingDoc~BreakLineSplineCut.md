@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # BreakLineSplineCut Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IBreakLine::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakLine~Style.html)
-
-.
+Obsolete. Superseded by [IBreakLine::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakLine~Style.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void BreakLineSplineCut()
 void BreakLineSplineCut();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::BreakLineSplineCut](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~BreakLineSplineCut.html)
-
-.
+See [DrawingDoc::BreakLineSplineCut](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~BreakLineSplineCut.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

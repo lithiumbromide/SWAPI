@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # UseCustomHemCost Property (ITemplateOverrides)
 
-Gets or sets whether to use a
-
-[custom hem cost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~CustomHemCost.html)
-
-for sheet metal parts.
+Gets or sets whether to use a [custom hem cost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~CustomHemCost.html) for sheet metal parts.
 
 ## Syntax
 
@@ -55,28 +51,21 @@ True to use a custom hem cost for sheet metal parts, false to not
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::UseCustomHemCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~UseCustomHemCost.html)
-
-.
+See [TemplateOverrides::UseCustomHemCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~UseCustomHemCost.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
 
-Setting this property is only applied if[ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)is swcMethodType_e.swcMethodType_Sheetmetal.
+Setting this property is only applied if [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is swcMethodType_e.swcMethodType_Sheetmetal.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "View Object
-Members"
+title: "View Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "View_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~View_members.html"
 ---
 
-# View Object
-Members
+# View Object Members
 
 ## Public Methods
 
@@ -442,6 +440,7 @@ Members
 | Public Method SetMirrorViewOrientation |  |
 | Public Method SetName2 |  |
 | Public Method SetResolvedToLightweight |  |
+| Public Method SetViewPosition |  |
 | Public Method SetVisible |  |
 | Public Method SetXform |  |
 | Public Method ShowExploded |  |
@@ -476,6 +475,7 @@ Members
 | Public Property ReferencedConfigurationID |  |
 | Public Property ReferencedDocument |  |
 | Public Property RootDrawingComponent |  |
+| Public Property RootDrawingComponent2 |  |
 | Public Property ScaleDecimal |  |
 | Public Property ScaleHatchPattern |  |
 | Public Property ScaleRatio |  |

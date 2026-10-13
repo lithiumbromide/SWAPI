@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a coordinate system element.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ICoordinateSystemElement
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemElement](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement.html)
-
-.
+See [CoordinateSystemElement](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement.html).
 
 ## Examples
 
@@ -109,19 +105,19 @@ iSelType = swSelMgr.GetSelectedObjectType3(1, -1)
 
 If iSelType = swSelCOORDSYS Then
 
-isCoordSysElmSelected = swSelMgr. IsCoordSysElementSelected (1, -1)
+isCoordSysElmSelected = swSelMgr.**IsCoordSysElementSelected**(1, -1)
 
 If isCoordSysElmSelected = True Then
 
-Set swCordSysElement = swSelMgr. GetSelectedCoordSysElement (1, -1)
+Set swCordSysElement = swSelMgr.**GetSelectedCoordSysElement**(1, -1)
 
 Dim ElementType As Long
 
-ElementType = swCordSysElement. GetElementType
+ElementType = swCordSysElement.**GetElementType**
 
 Debug.Print "ElementType: " & ElementType
 
-Set swFeat = swCordSysElement. GetCoordinateSystem
+Set swFeat = swCordSysElement.**GetCoordinateSystem**
 
 Set swCoordSysFeat = swFeat.GetDefinition
 
@@ -207,5 +203,4 @@ End Sub
 ## See Also
 
 [ICoordinateSystemElement Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

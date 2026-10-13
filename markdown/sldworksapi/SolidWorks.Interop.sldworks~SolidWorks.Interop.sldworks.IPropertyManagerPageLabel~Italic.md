@@ -53,13 +53,7 @@ property System.bool Italic {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,16 +66,11 @@ True to italicize the specified range of characters, false to not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::Italic](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Italic.html)
-
-.
+See [PropertyManagerPageLabel::Italic](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Italic.html).
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

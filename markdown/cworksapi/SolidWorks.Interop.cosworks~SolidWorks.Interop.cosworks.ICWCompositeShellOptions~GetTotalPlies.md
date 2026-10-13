@@ -46,26 +46,16 @@ Number of plies
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::GetTotalPlies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~GetTotalPlies.html)
-
-.
+See [CWCompositeShellOptions::GetTotalPlies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~GetTotalPlies.html).
 
 ## Examples
 
-See the
-
-[ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
-examples.
+See the [ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html) examples.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::SetTotalPlies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetTotalPlies.html)
 
 ## Availability

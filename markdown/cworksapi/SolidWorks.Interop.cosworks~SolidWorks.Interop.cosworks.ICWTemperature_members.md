@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTe
 
 # ICWTemperature Interface Members
 
-The following tables list the members exposed by[ICWTemperature](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html).
+The following tables list the members exposed by [ICWTemperature](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ The following tables list the members exposed by[ICWTemperature](SolidWorks.Inte
 ## See Also
 
 [ICWTemperature Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

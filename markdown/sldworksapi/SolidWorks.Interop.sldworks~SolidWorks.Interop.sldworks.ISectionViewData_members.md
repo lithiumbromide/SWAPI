@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # ISectionViewData Interface Members
 
-The following tables list the members exposed by[ISectionViewData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html).
+The following tables list the members exposed by [ISectionViewData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html).
 
 ## Public Properties
 
@@ -63,7 +63,5 @@ The following tables list the members exposed by[ISectionViewData](SolidWorks.In
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)

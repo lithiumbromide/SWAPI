@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetCreateFeatureErrors Method (IFeatureManager)
 
-Gets the errors that occurred during the last call to
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-.
+Gets the errors that occurred during the last call to [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 ## Syntax
 
@@ -55,19 +51,11 @@ System.int GetCreateFeatureErrors(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Msgs`: Array of errors as defined by
-
-[swCreateFeatureError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCreateFeatureError_e.html)
+- `Msgs`: Array of errors as defined by [swCreateFeatureError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCreateFeatureError_e.html)
 - `FeatureTypeName`: Feature type name
 
 ### Return Value
@@ -76,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetCreateFeatureErrors](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetCreateFeatureErrors.html)
-
-.
+See [FeatureManager::GetCreateFeatureErrors](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetCreateFeatureErrors.html).
 
 ## Examples
 
@@ -88,7 +72,7 @@ See
 
 ' ===============================================
 ' Preconditions:
-' 1. Open`Public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\api\AdvancedMates\advancedmatedemo1.sldasm**.
+' 1. Open `Public_documents`**\SOLIDWORKS\SOLIDWORKS 2024\samples\tutorial\api\AdvancedMates\advancedmatedemo1.sldasm**.
 ' 2. Create two distance mates to center the steel disc inside the magnet.
 '
 ' Postconditions:
@@ -131,9 +115,9 @@ Set featMgr = Part.FeatureManager
 Dim mateControllerObj As MateControllerFeatureData
 Set mateControllerObj = featMgr.**CreateDefinition**(swFmMateController)
 
-mateControllerObj.**AddNewPosition**("Position1")
-mateControllerObj.**AddNewPosition**("Position2")
-mateControllerObj.**AddNewPosition**("Position3")
+mateControllerObj.**AddNewPosition** ("Position1")
+mateControllerObj.**AddNewPosition** ("Position2")
+mateControllerObj.**AddNewPosition** ("Position3")
 
 Dim position2ValArr(2) As Double
 position2ValArr(0) = 1.0646
@@ -154,16 +138,16 @@ position3ValArr(2) = 1.05
 
 Call mateControllerObj.**SetValues**("Position3", position3ValArr)
 
-mateControllerObj.**AddConfigurationFromPosition**"Position 2", False
+mateControllerObj.**AddConfigurationFromPosition** "Position 2", False
 
-mateControllerObj.**DeletePosition**("Position 1")
+mateControllerObj.**DeletePosition** ("Position 1")
 
 Dim posArr(2) As String
 posArr(0) = "Position3"
 posArr(1) = "Position2"
 posArr(2) = "Position1"
 
-mateControllerObj.**ReOrderPositions**((posArr))
+mateControllerObj.**ReOrderPositions** ((posArr))
 
 Dim mateContFeat As SldWorks.Feature
 Set mateContFeat = featMgr.**CreateFeature**(mateControllerObj)
@@ -182,16 +166,11 @@ End Sub
 
 ## Remarks
 
-This method is valid only after attempting to create
-
-[Mate Controller](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-features using IFeatureManager::CreateFeature.
+This method is valid only after attempting to create [Mate Controller](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html) features using IFeatureManager::CreateFeature.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

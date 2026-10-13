@@ -40,29 +40,15 @@ MathVector GetViewVector()
 MathVector^ GetViewVector();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to
-
-[IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-object
+Pointer to [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) object
 
 ## VBA Syntax
 
-See
-
-[Camera::GetViewVector](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetViewVector.html)
-
-.
+See [Camera::GetViewVector](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetViewVector.html).
 
 ## Remarks
 
@@ -71,9 +57,7 @@ Most of the time, the return value is the vector from the camera position to the
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::GetUpVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~GetUpVector.html)
 
 ## Availability

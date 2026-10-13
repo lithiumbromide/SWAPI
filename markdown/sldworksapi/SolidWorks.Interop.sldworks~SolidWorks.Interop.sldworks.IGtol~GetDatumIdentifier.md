@@ -40,13 +40,7 @@ System.string GetDatumIdentifier()
 System.String^ GetDatumIdentifier();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ Datum identifier
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetDatumIdentifier](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetDatumIdentifier.html)
-
-.
+See [Gtol::GetDatumIdentifier](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetDatumIdentifier.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetDatumIdentifier Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetDatumIdentifier.html)

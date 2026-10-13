@@ -39,11 +39,7 @@ public interface class IThicknessAnalysis
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis.html)
-
-.
+See [IThicknessAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis.html).
 
 ## Examples
 
@@ -56,5 +52,4 @@ See
 ## See Also
 
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

@@ -9,21 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # AddSMNormalCutType Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[ISMNormalCutGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData.html)
-
-, and
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [ISMNormalCutGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData.html), and [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html).
 
 ## Syntax
 
@@ -68,13 +54,7 @@ void AddSMNormalCutType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::AddSMNormalCutType](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~AddSMNormalCutType.html)
-
-.
+See [FeatureManager::AddSMNormalCutType](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~AddSMNormalCutType.html).
 
 ## Examples
 
@@ -175,29 +151,19 @@ End Sub
 
 To create a Normal Cut feature in a sheet metal part, call:
 
-1. [IFeatureManager::AddSMNormalCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCut.html)
-
-  .
+1. [IFeatureManager::AddSMNormalCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCut.html).
 2. IFeatureManager::AddSMNormalCutType.
-3. [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  with Mark = 1 to select the cut-extrude faces that you wish to make Normal Cuts.
+3. [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Mark = 1 to select the cut-extrude faces that you wish to make Normal Cuts.
 4. IModelDocExtension::SelectByID2 with Mark = 2 to select the group of cut-extrude faces.
 5. IModelDocExtension::SelectByID2 with Mark = 4 to select the offset plane, if BExtent is false.
 6. (Optional) IModelDocExtension::SelectByID2 with Mark = 8 to select the direction of normal cut, if BExtent is true.
-7. [IFeatureManager::FinishSMNormalCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FinishSMNormalCut.html)
-
-  .
-8. [ISMNormalCutFeatureData::Offset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData~Offset.html)
-
-  to change the profile of the Normal Cut.
+7. [IFeatureManager::FinishSMNormalCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FinishSMNormalCut.html).
+8. [ISMNormalCutFeatureData::Offset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData~Offset.html) to change the profile of the Normal Cut.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISMNormalCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData.html)
 
 ## Availability

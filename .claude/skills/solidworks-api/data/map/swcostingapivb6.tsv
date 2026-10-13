@@ -1,0 +1,321 @@
+#swapi-map 1 module=swcostingapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@CostAnalysis	o
+CostingTemplateName	p	Property CostingTemplateName As String
+CostingType	p	Property CostingType As Long:swcCostingType_e
+CurrencyCode	p	Property CurrencyCode As String
+CurrencyName	p	Property CurrencyName As String
+CurrencySeparator	p	Property CurrencySeparator As String
+GetFirstCostFeature	m	Function GetFirstCostFeature() As CostFeature
+GetManufacturingCost	m	Function GetManufacturingCost() As Double
+GetMaterialCost	m	Function GetMaterialCost() As Double
+GetSetupCost	m	Function GetSetupCost() As Double
+GetSpecificAnalysis	m	Function GetSpecificAnalysis() As Object:CostAnalysis3dPrinting
+GetTotalCostToCharge	m	Function GetTotalCostToCharge() As Double
+GetTotalCostToManufacture	m	Function GetTotalCostToManufacture() As Double
+LengthUnit	p	Property LengthUnit As Long:swcLengthUnit_e
+LotSize	p	Property LotSize As Long
+MarkUpPercent	p	Property MarkUpPercent As Double
+MarkUpType	p	Property MarkUpType As Long:swcMarkUpType_e
+MassUnit	p	Property MassUnit As Long:swcMassUnit_e
+TotalQuantity	p	Property TotalQuantity As Long
+UnitSystem	p	Property UnitSystem As Long:swcUnitSystem_e
+@CostAnalysis3dPrinting	o
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+FlipDirection	p	Property FlipDirection As Boolean
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+OrientationPlane	p	Property OrientationPlane As Long:swcPlane_e
+PercentInfill	p	Property PercentInfill As Double
+ResetShopRate	m	Sub ResetShopRate()
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+StructuralMaterialCost	p	Property StructuralMaterialCost As Double
+WallThickness	p	Property WallThickness As Double
+@CostAnalysisCasting	o
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CycleTime	p	Property CycleTime As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+MoldCost	p	Property MoldCost As Double
+PercentWasteMaterial	p	Property PercentWasteMaterial As Double
+ResetShopRate	m	Sub ResetShopRate()
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@CostAnalysisMachining	o
+BlankSize	p	Property BlankSize As Variant
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CurrentPlateThickness	p	Property CurrentPlateThickness As Double
+CurrentStockType	p	Property CurrentStockType As Long:swcStockType_e
+CustomStockBodyName	p	Property CustomStockBodyName As String
+CustomStockCostInfoType	p	Property CustomStockCostInfoType As Long:swcCustomStockCostInfoType_e
+CustomStockCustomCost	p	Property CustomStockCustomCost As Double
+CustomStockImportType	p	Property CustomStockImportType As Long:swcCustomStockImportType_e
+GetBlankDimensionCount	m	Function GetBlankDimensionCount(ByVal StockType As Long:swcStockType_e) As Long
+GetMarginDimensionCount	m	Function GetMarginDimensionCount() As Long
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+GetMinimumBlankSize	m	Function GetMinimumBlankSize() As Variant
+GetStockTypeCount	m	Function GetStockTypeCount(ByVal MaterialClass As String, ByVal MaterialName As String) As Long
+GetStockTypes	m	Function GetStockTypes(ByVal MaterialClass As String, ByVal MaterialName As String) As Variant:swcStockType_e
+IBlankSize	p	Property IBlankSize(ByVal NumDimensions As Long) As Double
+IGetMaterialClasses	m	Function IGetMaterialClasses(ByVal NumClassNames As Long) As String
+IGetMaterials	m	Function IGetMaterials(ByVal ClassName As String, ByVal NumMaterialNames As Long) As String
+IGetMinimumBlankSize	m	Function IGetMinimumBlankSize(ByVal NumDimensions As Long) As Double
+IGetStockTypes	m	Function IGetStockTypes(ByVal MaterialClass As String, ByVal MaterialName As String, ByVal NumStockTypes As Long) As Long:swcStockType_e
+IMargins	p	Property IMargins(ByVal NumDimensions As Long) As Double
+Margins	p	Property Margins As Variant
+PreviewShown	p	Property PreviewShown As Boolean
+ResetShopRate	m	Sub ResetShopRate()
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+SpecificSizeEnabled	p	Property SpecificSizeEnabled As Boolean
+@CostAnalysisPlastic	o
+CalculationMethod	p	Property CalculationMethod As Long:swcMoldCalculationMethod_e
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CycleTime	p	Property CycleTime As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+MaxWallThickness	p	Property MaxWallThickness As Double
+MoldCost	p	Property MoldCost As Double
+PercentWasteMaterial	p	Property PercentWasteMaterial As Double
+ResetShopRate	m	Sub ResetShopRate()
+RunnerSystem	p	Property RunnerSystem As Long:swcRunnerSystem_e
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@CostAnalysisSheetMetal	o
+BlankAreaFromModel	p	Property BlankAreaFromModel As Double
+BlankOffset	p	Property BlankOffset As Double
+BlankSizeType	p	Property BlankSizeType As Long:swcSheetMetalBlankSizeType_e
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CurrentThickness	p	Property CurrentThickness As Double
+CustomBlankArea	p	Property CustomBlankArea As Double
+CustomBlankSize	p	Property CustomBlankSize As CostBlankSize
+FinalAreaFromModel	p	Property FinalAreaFromModel As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+GetModelThickness	m	Function GetModelThickness() As Double
+GetThicknesses	m	Function GetThicknesses(ByVal ClassName As String, ByVal MaterialName As String) As Variant
+GetThicknessesCount	m	Function GetThicknessesCount(ByVal ClassName As String, ByVal MaterialName As String) As Long
+IGetMaterialClasses	m	Function IGetMaterialClasses(ByVal NumClassNames As Long) As String
+IGetMaterials	m	Function IGetMaterials(ByVal ClassName As String, ByVal NumMaterialNames As Long) As String
+IGetThicknesses	m	Function IGetThicknesses(ByVal ClassName As String, ByVal MaterialName As String, ByVal NumThicknesses As Long) As Double
+MaterialCost	p	Property MaterialCost As Double
+MaterialCostFromTemplate	p	Property MaterialCostFromTemplate As Double
+PreviewShown	p	Property PreviewShown As Boolean
+Weight	p	Property Weight As Double
+@CostAnalysisStructural	o
+CurrentCostMethodType	p	Property CurrentCostMethodType As Long:swcStructuralStockCostType_e
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CurrentProfileSize	p	Property CurrentProfileSize As String
+CurrentProfileStandard	p	Property CurrentProfileStandard As String
+CurrentProfileType	p	Property CurrentProfileType As String
+CurrentStockUnitLength	p	Property CurrentStockUnitLength As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+ResetShopRate	m	Sub ResetShopRate()
+SetCurrentProfile	m	Function SetCurrentProfile(ByVal Standard As String, ByVal ProfileType As String, ByVal ProfileSize As String) As Boolean
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@CostBlankSize	o
+Length	p	Property Length As Double
+Width	p	Property Width As Double
+@CostBody	o
+AssignCustomCost	m	Sub AssignCustomCost(ByVal fCost As Double)
+BodyStatus	p	Property BodyStatus As Long:swcBodyStatus_e
+CreateCostAnalysis	m	Function CreateCostAnalysis(ByVal TemplatePath As String) As CostAnalysis
+GetBodyType	m	Function GetBodyType() As Long:swcBodyType_e
+GetCostAnalysis	m	Function GetCostAnalysis() As CostAnalysis
+GetName	m	Function GetName() As String
+GetSWBody	m	Function GetSWBody() As Object:Body2
+@CostFeature	o
+CombinedCost	p	Property CombinedCost As Double
+CombinedTime	p	Property CombinedTime As Double
+Description	p	Property Description As String
+GetFirstSubFeature	m	Function GetFirstSubFeature() As CostFeature
+GetNextFeature	m	Function GetNextFeature() As CostFeature
+GetNextSubFeature	m	Function GetNextSubFeature() As CostFeature
+GetType	m	Function GetType() As Long:swcCostFeatureType_e
+IsOverridden	p	Property IsOverridden As Boolean
+IsSetup	p	Property IsSetup As Boolean
+Name	p	Property Name As String
+RemoveOverrideCostTime	m	Sub RemoveOverrideCostTime()
+SelectFaces	m	Sub SelectFaces()
+@CostingDefaults	o
+GetManufacturingMethod	m	Function GetManufacturingMethod(ByVal BodyType As Long:swcBodyType_e) As Long:swcMethodType_e
+GetMaterialClass	m	Function GetMaterialClass(ByVal MethodType As Long:swcMethodType_e) As String
+GetMaterialName	m	Function GetMaterialName(ByVal MethodType As Long:swcMethodType_e) As String
+GetTemplateName	m	Function GetTemplateName(ByVal CostingType As Long:swcCostingType_e) As String
+LotSizeForMultibody	p	Property LotSizeForMultibody As Long
+LotSizeForSingleBody	p	Property LotSizeForSingleBody As Long
+MachiningStockBodyType	p	Property MachiningStockBodyType As Long:swcStockType_e
+SetManufacturingMethod	m	Sub SetManufacturingMethod(ByVal BodyType As Long:swcBodyType_e, ByVal DefaultMethod As Long:swcMethodType_e)
+SetMaterialClass	m	Sub SetMaterialClass(ByVal MethodType As Long:swcMethodType_e, ByVal MaterialClass As String)
+SetMaterialName	m	Sub SetMaterialName(ByVal MethodType As Long:swcMethodType_e, ByVal MaterialName As String)
+SetTemplateName	m	Sub SetTemplateName(ByVal CostingType As Long:swcCostingType_e, ByVal TemplateName As String)
+SheetmetalBlankSizeType	p	Property SheetmetalBlankSizeType As Long:swcSheetMetalBlankSizeType_e
+StructuralMemberStockType	p	Property StructuralMemberStockType As Long:swcStructuralStockCostType_e
+TotalNumberOfPartsForMultibody	p	Property TotalNumberOfPartsForMultibody As Long
+TotalNumberOfPartsForSingleBody	p	Property TotalNumberOfPartsForSingleBody As Long
+@CostManager	o
+Close	m	Sub Close()
+CostingDefaults	p	Property CostingDefaults As Object:CostingDefaults
+CostingModel	p	Property CostingModel As Object:CostPart
+GetTemplateCount	m	Function GetTemplateCount(ByVal CostingType As Long:swcCostingType_e) As Long
+GetTemplatePathnames	m	Function GetTemplatePathnames(ByVal CostingType As Long:swcCostingType_e) As Variant
+IGetTemplatePathnames	m	Function IGetTemplatePathnames(ByVal CostingType As Long:swcCostingType_e, ByVal NumTemplates As Long) As String
+WaitForUIUpdate	m	Sub WaitForUIUpdate()
+@CostPart	o
+ActivateBody	m	Function ActivateBody(ByVal BodyName As String:CostAnalysis, ByRef Errors As Long:swcActivateBodyResult_e) As CostBody
+ActiveBody	p	Property ActiveBody As CostBody
+CreateCostAnalysis	m	Function CreateCostAnalysis(ByVal TemplatePath As String) As CostAnalysis
+GetBodies	m	Function GetBodies() As Variant:CostBody
+GetBodyCount	m	Function GetBodyCount() As Long
+GetCostAnalysis	m	Function GetCostAnalysis() As CostAnalysis
+GetCostingMethod	m	Function GetCostingMethod(ByVal BodyName As String) As Long:swcMethodType_e
+IGetBodies	m	Function IGetBodies(ByVal NumBodies As Long) As CostBody
+IncludeBody	m	Function IncludeBody(ByVal BodyName As String, ByVal Include As Boolean) As Long:swcBodyStatus_e
+IUpdateCostForAllBodies	m	Function IUpdateCostForAllBodies(ByVal NumBodies As Long) As Long:swcUpdateCostError_e
+SetCostingMethod	m	Function SetCostingMethod(ByVal BodyName As String, ByVal MethodType As Long:swcMethodType_e) As CostBody
+TemplateOverrides	p	Property TemplateOverrides As Object:TemplateOverrides
+UpdateCostForAllBodies	m	Function UpdateCostForAllBodies() As Variant:swcUpdateCostError_e
+@ICostAnalysis3dPrinting	o
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+FlipDirection	p	Property FlipDirection As Boolean
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+OrientationPlane	p	Property OrientationPlane As Long:swcPlane_e
+PercentInfill	p	Property PercentInfill As Double
+ResetShopRate	m	Sub ResetShopRate()
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+StructuralMaterialCost	p	Property StructuralMaterialCost As Double
+WallThickness	p	Property WallThickness As Double
+@ICostAnalysisCasting	o
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CycleTime	p	Property CycleTime As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+MoldCost	p	Property MoldCost As Double
+PercentWasteMaterial	p	Property PercentWasteMaterial As Double
+ResetShopRate	m	Sub ResetShopRate()
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@ICostAnalysisPlastic	o
+CalculationMethod	p	Property CalculationMethod As Long:swcMoldCalculationMethod_e
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CycleTime	p	Property CycleTime As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+MaxWallThickness	p	Property MaxWallThickness As Double
+MoldCost	p	Property MoldCost As Double
+PercentWasteMaterial	p	Property PercentWasteMaterial As Double
+ResetShopRate	m	Sub ResetShopRate()
+RunnerSystem	p	Property RunnerSystem As Long:swcRunnerSystem_e
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@ICostAnalysisStructural	o
+CurrentCostMethodType	p	Property CurrentCostMethodType As Long:swcStructuralStockCostType_e
+CurrentMaterial	p	Property CurrentMaterial As String
+CurrentMaterialClass	p	Property CurrentMaterialClass As String
+CurrentProfileSize	p	Property CurrentProfileSize As String
+CurrentProfileStandard	p	Property CurrentProfileStandard As String
+CurrentProfileType	p	Property CurrentProfileType As String
+CurrentStockUnitLength	p	Property CurrentStockUnitLength As Double
+GetMaterialClasses	m	Function GetMaterialClasses() As Variant
+GetMaterialClassesCount	m	Function GetMaterialClassesCount() As Long
+GetMaterialCount	m	Function GetMaterialCount(ByVal ClassName As String) As Long
+GetMaterials	m	Function GetMaterials(ByVal ClassName As String) As Variant
+ResetShopRate	m	Sub ResetShopRate()
+SetCurrentProfile	m	Function SetCurrentProfile(ByVal Standard As String, ByVal ProfileType As String, ByVal ProfileSize As String) As Boolean
+ShopRate	p	Property ShopRate As Double
+ShopRateApplied	p	Property ShopRateApplied As Boolean
+@ICostBlankSize	o
+Length	p	Property Length As Double
+Width	p	Property Width As Double
+@ICostingDefaults	o
+GetManufacturingMethod	m	Function GetManufacturingMethod(ByVal BodyType As Long:swcBodyType_e) As Long:swcMethodType_e
+GetMaterialClass	m	Function GetMaterialClass(ByVal MethodType As Long:swcMethodType_e) As String
+GetMaterialName	m	Function GetMaterialName(ByVal MethodType As Long:swcMethodType_e) As String
+GetTemplateName	m	Function GetTemplateName(ByVal CostingType As Long:swcCostingType_e) As String
+LotSizeForMultibody	p	Property LotSizeForMultibody As Long
+LotSizeForSingleBody	p	Property LotSizeForSingleBody As Long
+MachiningStockBodyType	p	Property MachiningStockBodyType As Long:swcStockType_e
+SetManufacturingMethod	m	Sub SetManufacturingMethod(ByVal BodyType As Long:swcBodyType_e, ByVal DefaultMethod As Long:swcMethodType_e)
+SetMaterialClass	m	Sub SetMaterialClass(ByVal MethodType As Long:swcMethodType_e, ByVal MaterialClass As String)
+SetMaterialName	m	Sub SetMaterialName(ByVal MethodType As Long:swcMethodType_e, ByVal MaterialName As String)
+SetTemplateName	m	Sub SetTemplateName(ByVal CostingType As Long:swcCostingType_e, ByVal TemplateName As String)
+SheetmetalBlankSizeType	p	Property SheetmetalBlankSizeType As Long:swcSheetMetalBlankSizeType_e
+StructuralMemberStockType	p	Property StructuralMemberStockType As Long:swcStructuralStockCostType_e
+TotalNumberOfPartsForMultibody	p	Property TotalNumberOfPartsForMultibody As Long
+TotalNumberOfPartsForSingleBody	p	Property TotalNumberOfPartsForSingleBody As Long
+@ITemplateOverrides	o
+ApplyOverrides	m	Sub ApplyOverrides()
+CustomBendCost	p	Property CustomBendCost As Double
+CustomHemCost	p	Property CustomHemCost As Double
+CustomLibraryFeatureCost	p	Property CustomLibraryFeatureCost As Double
+DefaultFinishingOperation	p	Property DefaultFinishingOperation As Long:swcFinishingOperationType_e
+DefaultMachiningOperationTool	p	Property DefaultMachiningOperationTool As Long:swcDefaultMachiningTool_e
+FinishingCostPerVolume	p	Property FinishingCostPerVolume As Double
+FinishingOffset	p	Property FinishingOffset As Double
+RemovedMaterialProcessingType	p	Property RemovedMaterialProcessingType As Long:swcRemovedMaterialProcessingType_e
+ResetAll	m	Sub ResetAll()
+RoughingCostPerVolume	p	Property RoughingCostPerVolume As Double
+SaveCostingOverrideSettings	m	Sub SaveCostingOverrideSettings()
+SemiFinishingCostPerVolume	p	Property SemiFinishingCostPerVolume As Double
+SemiFinishingOffset	p	Property SemiFinishingOffset As Double
+ShowUndeterminedSlotsInNCAFolder	p	Property ShowUndeterminedSlotsInNCAFolder As Boolean
+SlotFeatureRecognitionType	p	Property SlotFeatureRecognitionType As Long:swcSlotFeatureRecognitionType_e
+UseCustomBendCost	p	Property UseCustomBendCost As Boolean
+UseCustomHemCost	p	Property UseCustomHemCost As Boolean
+UseCustomLibraryFeatureCost	p	Property UseCustomLibraryFeatureCost As Boolean
+UseOffsetBasedFinishing	p	Property UseOffsetBasedFinishing As Boolean
+VolumeFeatureCalculationType	p	Property VolumeFeatureCalculationType As Long:swcVolumeFeatureCalculationType_e
+@TemplateOverrides	o
+ApplyOverrides	m	Sub ApplyOverrides()
+CustomBendCost	p	Property CustomBendCost As Double
+CustomHemCost	p	Property CustomHemCost As Double
+CustomLibraryFeatureCost	p	Property CustomLibraryFeatureCost As Double
+DefaultFinishingOperation	p	Property DefaultFinishingOperation As Long:swcFinishingOperationType_e
+DefaultMachiningOperationTool	p	Property DefaultMachiningOperationTool As Long:swcDefaultMachiningTool_e
+FinishingCostPerVolume	p	Property FinishingCostPerVolume As Double
+FinishingOffset	p	Property FinishingOffset As Double
+RemovedMaterialProcessingType	p	Property RemovedMaterialProcessingType As Long:swcRemovedMaterialProcessingType_e
+ResetAll	m	Sub ResetAll()
+RoughingCostPerVolume	p	Property RoughingCostPerVolume As Double
+SaveCostingOverrideSettings	m	Sub SaveCostingOverrideSettings()
+SemiFinishingCostPerVolume	p	Property SemiFinishingCostPerVolume As Double
+SemiFinishingOffset	p	Property SemiFinishingOffset As Double
+ShowUndeterminedSlotsInNCAFolder	p	Property ShowUndeterminedSlotsInNCAFolder As Boolean
+SlotFeatureRecognitionType	p	Property SlotFeatureRecognitionType As Long:swcSlotFeatureRecognitionType_e
+UseCustomBendCost	p	Property UseCustomBendCost As Boolean
+UseCustomHemCost	p	Property UseCustomHemCost As Boolean
+UseCustomLibraryFeatureCost	p	Property UseCustomLibraryFeatureCost As Boolean
+UseOffsetBasedFinishing	p	Property UseOffsetBasedFinishing As Boolean
+VolumeFeatureCalculationType	p	Property VolumeFeatureCalculationType As Long:swcVolumeFeatureCalculationType_e

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # VersionHistory Method (IModelDoc2)
 
-Gets an array of strings indicating the versions in which this document was saved, including the SOLIDWORKS version in which the model document is currently opened and which is the last value returned in the array.
+Gets an array of strings indicating the versions in which this document was saved, including the SOLIDWORKS Design version in which the model document is currently opened and which is the last value returned in the array.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.object VersionHistory()
 System.Object^ VersionHistory();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,15 +48,11 @@ Array of strings that describe the version history of the document
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::VersionHistory](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~VersionHistory.html)
-
-.
+See [ModelDoc2::VersionHistory](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~VersionHistory.html).
 
 ## Remarks
 
-There is one array entry for each major release of the SOLIDWORKS software in which the document has been saved. The format for each entry is a major release code followed by one or more minor release codes separated by commas:
+There is one array entry for each major release of the SOLIDWORKS Design software in which the document has been saved. The format for each entry is a major release code followed by one or more minor release codes separated by commas:
 
 <major release code>[<minor release code>]
 
@@ -70,9 +60,7 @@ There is one array entry for each major release of the SOLIDWORKS software in wh
 
 <major release code>[<minor release code>,<minor release code>...]
 
-where <major release code> equals a number that remains constant through a major release of the SOLIDWORKS software. For example, the following values are returned based on the corresponding major SOLIDWORKS version:
-
-(Table)=========================================================
+where <major release code> equals a number that remains constant through a major release of the SOLIDWORKS Design software. For example, the following values are returned based on the corresponding major SOLIDWORKS Design version:
 
 | SOLIDWORKS Release | Version Number |
 | --- | --- |
@@ -109,21 +97,18 @@ where <major release code> equals a number that remains constant through a major
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
 | SOLDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
 The <minor release code> equals the year and day of manufacture of a saving version (for example, 1997/320).
 
-To get the version in which a model document was last saved, use[ISldWorks::VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html).
+To get the version in which a model document was last saved, use [ISldWorks::VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IVersionHistory.html)
-
 [ISldWorks::RevisionNumber Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.html)
-
 [IModelDocExtension::IsFutureVersion Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsFutureVersion.html)
 
 ## Availability

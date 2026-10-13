@@ -9,8 +9,7 @@ source: "sldworksapi/Auto_Insert_Center_Marks_Example_CSharp.htm"
 
 # Automatically Insert Center Marks Example (C#)
 
-This example shows how to automatically insert center marks in multiple drawing
-views.
+This example shows how to automatically insert center marks in multiple drawing views.
 
 ```
 //----------------------------------------------------------------------------

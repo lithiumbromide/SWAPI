@@ -42,13 +42,7 @@ property System.Object^ Worksheet {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Microsoft Excel worksheet for this design table
 
 ## VBA Syntax
 
-See
-
-[DesignTable::Worksheet](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~Worksheet.html)
-
-.
+See [DesignTable::Worksheet](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~Worksheet.html).
 
 ## Examples
 
@@ -68,20 +58,15 @@ See
 
 ## Remarks
 
-Before you can call this method, you must call[IDesignTable::Attach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Attach.html).
+Before you can call this method, you must call [IDesignTable::Attach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Attach.html).
 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::FileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~FileName.html)
-
 [IDesignTable::SaveAsExcelFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SaveAsExcelFile.html)
-
 [IDesignTable::Detach Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~Detach.html)
-
 [IDesignTable::SourceType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SourceType.html)
 
 ## Availability

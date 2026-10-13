@@ -9,9 +9,7 @@ source: "sldworksapi/Rename_Components_and_Save_Assembly_Example_VBNET.htm"
 
 # Rename Components and Save Assembly Example (VB.NET)
 
-This example shows how to rename
-components in an assembly and returns an error when attempting to save the
-assembly without first saving its references.
+This example shows how to rename components in an assembly and returns an error when attempting to save the assembly without first saving its references.
 
 ```
 '--------------------------------------------------------------------

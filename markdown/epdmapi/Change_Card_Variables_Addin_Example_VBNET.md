@@ -9,27 +9,23 @@ source: "epdmapi/Change_Card_Variables_Addin_Example_VBNET.htm"
 
 # Change Card Variables Add-in Example (VB.NET)
 
-This example shows how to create an add-in that modifies a data card variable
-when another data card variable changes.
+This example shows how to create an add-in that modifies a data card variable when another data card variable changes.
 
 ```vb
   '--------------------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Start Microsoft Visual Studio.
- ' 2. Click File > New > Project > Visual Basic > Class Library (.NET Framework).
+ ' 2. Click File > New > Project > Visual Basic, Windows, Library > Class Library (.NET Framework).
  ' 3. Select .NET Framework 4.5 or later in the dropdown.
- ' 4. Type CardVariables in Name.
+ ' 4. Type CardVariables in Project name.
  ' 5. Click Browse and navigate to the folder where to create the project.
  ' 6. Click OK.
-  ' 7. Right-click the project name in the Solution Explorer and click Add Reference.
- ' 8. In the Add Reference dialog:
- '    a. Add the SOLIDWORKS PDM Professional interop assembly as a reference (click Browse in the
- '       left-side panel, click EPDM.Interop.epdm.dll,
- '       and click OK).
- '    b. Click Close.
+  ' 7. Right-click the project name in the Solution Explorer and click Add > Reference....
+ ' 8. In the Reference Manager dialog:
+ '    a. Add dependencies and safely pass arrays of structures.
   ' 9. Right-click the project name in the Solution Explorer and click Properties.
  '10. In the Properties window:
- '    a. On the Application tab, click Assembly Information.
+ '    a. On the Application tab, click Assembly Information....
  '    b. De-select Make assembly COM-Visible.
  '    c. On the Compile tab, select Any CPU, de-select Prefer 32-bit, and select Register for COM interop.
  '11. Save the project.
@@ -118,7 +114,7 @@ when another data card variable changes.
      'A data card variable value has changed
      Public Sub OnCmd( _
            ByRef poCmd As EdmCmd, _
-           ByRef ppoData As EdmCmdData[]) _
+           ByRef ppoData As EdmCmdData()) _
            Implements IEdmAddIn5.OnCmd
          Try
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDe
 
 # ImportCThread Property (IDerivedPartFeatureData)
 
-Gets or sets whether to import
-
-[cosmetic threads](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICThread.html)
-
-with the derived part feature.
+Gets or sets whether to import [cosmetic threads](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICThread.html) with the derived part feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool ImportCThread {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ True to import its cosmetics threads, false not not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportCThread](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportCThread.html)
-
-.
+See [DerivedPartFeatureData::ImportCThread](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportCThread.html).
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

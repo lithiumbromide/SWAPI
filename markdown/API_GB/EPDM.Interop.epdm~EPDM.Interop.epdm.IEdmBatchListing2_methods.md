@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_methods.ht
 
 # IEdmBatchListing2 Interface Methods
 
-For a list of all members of this type, see[IEdmBatchListing2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_members.html).
+For a list of all members of this type, see [IEdmBatchListing2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmBatchListing2 members](EPDM.Inte
 ## See Also
 
 [IEdmBatchListing2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

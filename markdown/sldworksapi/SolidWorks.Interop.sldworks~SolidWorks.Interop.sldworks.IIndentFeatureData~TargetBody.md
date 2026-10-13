@@ -45,48 +45,28 @@ property System.Object^ TargetBody {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Solid or surface
-
-[body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-to indent
+Solid or surface [body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) to indent
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::TargetBody](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~TargetBody.html)
-
-.
+See [IndentFeatureData::TargetBody](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~TargetBody.html).
 
 ## Examples
 
 [Insert Indent Feature (C#)](Insert_Indent_Feature_Example_CSharp.htm)
-
 [Insert Indent Feature (VB.NET)](Insert_Indent_Feature_Example_VBNET.htm)
-
 [Insert Indent Feature (VBA)](Insert_Indent_Feature_Example_VB.htm)
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
-
 [IIndentFeatureData::IsCut Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~IsCut.html)
-
 [IIndentFeatureData::SelectionState Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~SelectionState.html)
-
 [IIndentFeatureData::ToolBodyRegion Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~ToolBodyRegion.html)
 
 ## Availability

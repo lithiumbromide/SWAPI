@@ -48,24 +48,15 @@ Surface area in square length units
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing::SurfaceArea](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~SurfaceArea.html)
-
-.
+See [SustainabilityManufacturing::SurfaceArea](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~SurfaceArea.html).
 
 ## Examples
 
-See examples in
-
-[ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html)
-
-.
+See examples in [ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html).
 
 ## See Also
 
 [ISustainabilityManufacturing Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing.html)
-
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
 
 ## Availability

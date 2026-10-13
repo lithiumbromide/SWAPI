@@ -45,13 +45,7 @@ property System.bool IsAdvancedMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if a limit distance mate, false if a standard distance mate
 
 ## VBA Syntax
 
-See
-
-[DistanceMateFeatureData::IsAdvancedMate](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~IsAdvancedMate.html)
-
-.
+See [DistanceMateFeatureData::IsAdvancedMate](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~IsAdvancedMate.html).
 
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [IDistanceMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html)
 
 ## Availability

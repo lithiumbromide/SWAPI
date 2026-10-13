@@ -53,40 +53,26 @@ System.int CopyMeshFromStudy(
 
 ### Return Value
 
-Error code as defined in
-
-[swsMeshCopyErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshCopyErrorCode_e.html)
+Error code as defined in [swsMeshCopyErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshCopyErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::CopyMeshFromStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CopyMeshFromStudy.html)
-
-.
+See [CWStudy::CopyMeshFromStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CopyMeshFromStudy.html).
 
 ## Examples
 
 [Copy Mesh and Generate Report (VBA)](Copy_Mesh_and_Gen_Report_Example_VB.htm)
-
 [Copy Mesh and Generate Report (VB.NET)](Copy_Mesh_and_Gen_Report_Example_VBNET.htm)
-
 [Copy Mesh and Generate Report (C#)](Copy_Mesh_and_Gen_Report_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::CreateMesh Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)
-
 [ICWStudy::Mesh Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~Mesh.html)
-
 [ICWStudy::MeshType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshType.html)
-
 [ICWStudy::MeshAndRun Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshAndRun.html)
-
 [ICWStudy::CreateMeshForMeshControl Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMeshForMeshControl.html)
 
 ## Availability

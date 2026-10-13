@@ -40,13 +40,11 @@ Number of versions
 ## Examples
 
 [Get File Version Information (C#)](Get_File_Version_Information_Example_CSharp.htm)
-
 [Get File Version Information (VB.NET)](Get_File_Version_Information_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [IEdmEnumeratorVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html)
 
 ## Availability

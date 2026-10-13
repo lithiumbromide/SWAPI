@@ -58,22 +58,15 @@ System.Object^ GetLinearAcceleration(
 
 ### Return Value
 
-Linear acceleeration
-
-[vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
+Linear acceleeration [vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetLinearAcceleration](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetLinearAcceleration.html)
-
-.
+See [MotionStudyResults::GetLinearAcceleration](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetLinearAcceleration.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

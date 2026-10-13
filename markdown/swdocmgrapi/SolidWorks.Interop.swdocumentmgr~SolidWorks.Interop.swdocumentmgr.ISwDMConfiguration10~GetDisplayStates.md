@@ -46,11 +46,7 @@ Array of the names of the display states for this configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration10::GetDisplayStates](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration10~GetDisplayStates.html)
-
-.
+See [SwDMConfiguration10::GetDisplayStates](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration10~GetDisplayStates.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ The first name in the list is the active display state.
 ## See Also
 
 [ISwDMConfiguration10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration10.html)
-
 [ISwDMConfiguration10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration10_members.html)
 
 ## Availability

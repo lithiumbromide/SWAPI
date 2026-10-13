@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Insert3DSplineCurve Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::Insert3DSplineCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Insert3DSplineCurve.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::Insert3DSplineCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Insert3DSplineCurve.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void Insert3DSplineCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::Insert3DSplineCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Insert3DSplineCurve.html)
-
-.
+See [ModelDoc::Insert3DSplineCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~Insert3DSplineCurve.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

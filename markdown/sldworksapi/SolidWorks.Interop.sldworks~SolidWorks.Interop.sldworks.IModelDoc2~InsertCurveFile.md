@@ -47,13 +47,7 @@ System.bool InsertCurveFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the curve is created successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertCurveFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCurveFile.html)
-
-.
+See [ModelDoc2::InsertCurveFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCurveFile.html).
 
 ## Remarks
 
@@ -78,13 +68,9 @@ The curve goes through the points in the specified file.The points in the specif
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertCurveFileBegin Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCurveFileBegin.html)
-
 [IModelDoc2::InsertCurveFileEnd Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCurveFileEnd.html)
-
 [IModelDoc2::InsertCurveFilePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCurveFilePoint.html)
 
 ## Availability

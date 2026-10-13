@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 Allows access to a Surface-Knit feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class ISurfaceKnitFeatureData
 
 ## VBA Syntax
 
-See
-
-[SurfaceKnitFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData.html)
-
-.
+See [SurfaceKnitFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData.html).
 
 ## Examples
 
 [Create Surface Knit Feature (VB.NET)](Create_Surface_Knit_Feature_Example_VBNET.htm)
-
 [Create Surface Knit Feature (VBA)](Create_Surface_Knit_Feature_Example_VB6.htm)
-
 [Create Surface Knit Feature (C#)](Create_Surface_Knit_Feature_Example_CSharp.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [ISurfaceKnitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertSewRefSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSewRefSurface.html)

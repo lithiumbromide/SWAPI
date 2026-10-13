@@ -52,20 +52,13 @@ void DeleteLoadsAndRestraints(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::DeleteLoadsAndRestraints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~DeleteLoadsAndRestraints.html)
-
-.
+See [CWLoadsAndRestraintsManager::DeleteLoadsAndRestraints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~DeleteLoadsAndRestraints.html).
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
-
 [ICWLoadsAndRestraintsManager::CopyLoadsAndRestraintsToStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~CopyLoadsAndRestraintsToStudy.html)
-
 [ICWLoadsAndRestraintsManager::GetLoadsAndRestraints Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetLoadsAndRestraints.html)
 
 ## Availability

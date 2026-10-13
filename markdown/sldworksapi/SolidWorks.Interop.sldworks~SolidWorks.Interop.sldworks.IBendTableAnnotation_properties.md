@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 # IBendTableAnnotation Interface Properties
 
-For a list of all members of this type, see[IBendTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTableAnnotation_members.html).
+For a list of all members of this type, see [IBendTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTableAnnotation_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IBendTableAnnotation members](SolidW
 ## See Also
 
 [IBendTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTableAnnotation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

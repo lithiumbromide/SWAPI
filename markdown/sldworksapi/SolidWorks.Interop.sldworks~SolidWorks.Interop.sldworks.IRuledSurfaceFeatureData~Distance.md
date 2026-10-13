@@ -45,13 +45,7 @@ property System.double Distance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Distance.html)
-
-.
+See [RuledSurfaceFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Distance.html).
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertDimensionTolerance Object
-Members"
+title: "SwDMDimXpertDimensionTolerance Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertDimensionTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertDimensionTolerance_members.html"
 ---
 
-# SwDMDimXpertDimensionTolerance Object
-Members
+# SwDMDimXpertDimensionTolerance Object Members
 
 ## Public Methods
 

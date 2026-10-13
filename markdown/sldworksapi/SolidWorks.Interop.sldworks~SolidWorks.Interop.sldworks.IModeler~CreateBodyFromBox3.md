@@ -47,21 +47,11 @@ Body2^ CreateBodyFromBox3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BoxDimArray`: Array of 9 doubles (see
-
-Remarks
-
-)
+- `BoxDimArray`: Array of 9 doubles (see Remarks)
 
 ### Return Value
 
@@ -69,29 +59,21 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[IModeler::CreateBodyFromBox3](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateBodyFromBox3.html)
-
-.
+See [IModeler::CreateBodyFromBox3](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateBodyFromBox3.html).
 
 ## Examples
 
 [Create Multibody Macro Feature (VBA)](Create_Multibody_Macro_Feature_Example_VB.htm)
-
 [Create Multibody Macro Feature (VB.NET)](Create_Multibody_Macro_Feature_Example_VBNET.htm)
-
 [Create Multibody Macro Feature (C#)](Create_Multibody_Macro_Feature_Example_CSharp.htm)
 
 ## Remarks
 
 The input parameter is the following array of doubles:
 
-[boxFaceCenter[3],boxAxis[3],boxWidth, boxLength,boxHeight]
+[ boxFaceCenter[3], boxAxis[3], boxWidth, boxLength, boxHeight ]
 
 where:
-
-(Table)=========================================================
 
 | boxFaceCenter [3] | XYZ location that represents the center of one of the box faces. |
 | --- | --- |
@@ -103,11 +85,8 @@ where:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IFeature::ISetBody3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ISetBody3.html)
-
 [IFeature::SetBody2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetBody2.html)
 
 ## Availability

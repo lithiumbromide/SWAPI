@@ -1,6 +1,5 @@
 ---
-title: "CWSolidManager Object
-Members"
+title: "CWSolidManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWSolidManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWSolidManager_members.html"
 ---
 
-# CWSolidManager Object
-Members
+# CWSolidManager Object Members
 
 ## Public Methods
 

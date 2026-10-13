@@ -46,11 +46,7 @@ Array of names of the assembly components that are missing materials
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::GetMissingMaterialComponentList](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~GetMissingMaterialComponentList.html)
-
-.
+See [SustainabilityMaterial::GetMissingMaterialComponentList](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~GetMissingMaterialComponentList.html).
 
 ## Examples
 
@@ -59,9 +55,7 @@ See
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::IGetMissingMaterialComponentList Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IGetMissingMaterialComponentList.html)
 
 ## Availability

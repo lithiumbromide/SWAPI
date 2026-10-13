@@ -42,13 +42,7 @@ property System.int NumberOfGroups {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ Number of CommandGroups
 
 ## VBA Syntax
 
-See
-
-[CommandManager::NumberOfGroups](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~NumberOfGroups.html)
-
-.
+See [CommandManager::NumberOfGroups](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~NumberOfGroups.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ICommandManager::IGetGroups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~IGetGroups.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ICommandManager::IGetGroups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~IGetGroups.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManager::GetGroups Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetGroups.html)
 
 ## Availability

@@ -57,11 +57,7 @@ public delegate void _IEModelViewControlEvents_OnFailedSavingDocumentEventHandle
 
 ## VBA Syntax
 
-See
-
-[OnFailedSavingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedSavingDocument_EV.html)
-
-.
+See [OnFailedSavingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedSavingDocument_EV.html).
 
 ## Availability
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ISplitFaceOnParam Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ISplitFaceOnParam2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParam2.html)
-
-.
+Obsolete. Superseded by [IModeler::ISplitFaceOnParam2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParam2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Face ISplitFaceOnParam()
 Face^ ISplitFaceOnParam();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Modeler::ISplitFaceOnParam](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParam.html)
-
-.
+See [Modeler::ISplitFaceOnParam](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParam.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

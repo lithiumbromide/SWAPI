@@ -40,13 +40,7 @@ System.int GetAttachmentCount()
 System.int GetAttachmentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of Attachments for this document
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetAttachmentCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAttachmentCount.html)
-
-.
+See [ModelDocExtension::GetAttachmentCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAttachmentCount.html).
 
 ## Remarks
 
 This method is supported by SOLIDWORKS 2005 and later.
 
-Call this method before calling[IModelDocExtension::IGetAttachments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetAttachments.html)to determine the size of the array for that method.
+Call this method before calling [IModelDocExtension::IGetAttachments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetAttachments.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::DeleteAttachment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteAttachment.html)
-
 [IModelDocExtension::GetAttachments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAttachments.html)
-
 [IModelDocExtension::InsertAttachment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertAttachment.html)
 
 ## Availability

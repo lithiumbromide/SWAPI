@@ -9,21 +9,11 @@ source: "API_GB/Destroy_Deleted_Files_in_Vault_Example_CSharp.htm"
 
 # Destroy Deleted Files in Vault Example (C#)
 
-This example shows how to create an application that displays a form
-in which
-a user can select the vault in whose root
-folder and subfolders all deleted files will be permanently destroyed. The user must have permission to delete
-files.
+This example shows how to create an application that displays a form in which a user can select the vault in whose root folder and subfolders all deleted files will be permanently destroyed. The user must have permission to delete files.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
-IMPORTANT:Do not recreate and run this
-example if you do not want to destroy all deleted files in the root folder and
-subfolders in the selected vault. Instead, SOLIDWORKS PDM Professional suggests
-that you review the code to understand how you can programmatically destroy
-deleted files in the root folder and subfolders of a vault.
+**IMPORTANT:** Do not recreate and run this example if you do not want to destroy all deleted files in the root folder and subfolders in the selected vault. Instead, SOLIDWORKS PDM Professional suggests that you review the code to understand how you can programmatically destroy deleted files in the root folder and subfolders of a vault.
 
 ```vb
  //--------------------------------------------------------------------------------------

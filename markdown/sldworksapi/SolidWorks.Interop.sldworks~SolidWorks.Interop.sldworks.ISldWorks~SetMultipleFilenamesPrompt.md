@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # SetMultipleFilenamesPrompt Method (ISldWorks)
 
-Sets the new filenames to open in response to the ISldWorks
-
-[PromptForMultipleFileNamesNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler.html)
-
-event.
+Sets the new filenames to open in response to the ISldWorks [PromptForMultipleFileNamesNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler.html) event.
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetMultipleFilenamesPrompt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,17 +54,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetMultipleFilenamesPrompt](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~SetMultipleFilenamesPrompt.html)
-
-.
+See [SldWorks::SetMultipleFilenamesPrompt](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~SetMultipleFilenamesPrompt.html).
 
 ## Remarks
 
-The filenames specified are only used if the SOLIDWORKS[PromptForMultipleFileNamesNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler.html)event returns S_FALSE. This implies that you cannot specify initial filenames for SOLIDWORKS to use in the standard dialog. Instead, you must provide your own file dialog and return the filenames after the user selects them.
+The filenames specified are only used if the SOLIDWORKS [PromptForMultipleFileNamesNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PromptForMultipleFileNamesNotifyEventHandler.html) event returns S_FALSE. This implies that you cannot specify initial filenames for SOLIDWORKS to use in the standard dialog. Instead, you must provide your own file dialog and return the filenames after the user selects them.
 
-Guidelines for using this method when the cause argument of the SOLIDWORKS PromptForMultipleFileNamesNotify event is set to[swSaveVirtualComponentExternally](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html):
+Guidelines for using this method when the cause argument of the SOLIDWORKS PromptForMultipleFileNamesNotify event is set to [swSaveVirtualComponentExternally](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html):
 
 - Length of the Filename argument array must be equal to the length of the suggestedFileNames argument array passed into ISldWorks::SetMultipleFilenamesPrompt. If there is a mismatch, all virtual components will be saved internal to the assembly with the suggested file name passed by the SOLIDWORKS PromptForMultipleFileNamesNotify event .
 - Supplying a full path and file name will save a virtual component external to the assembly using that path and file name.
@@ -87,11 +73,8 @@ Guidelines for using this method when the cause argument of the SOLIDWORKS Promp
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::SetNewFilename Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetNewFilename.html)
-
 [ISldWorks::SetPromptFilename Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetPromptFilename.html)
 
 ## Availability

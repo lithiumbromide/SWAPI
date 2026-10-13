@@ -67,55 +67,40 @@ Feature^ InsertSheetMetal3dBend(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: Angle of the bend in radians
-- `BUseDefaultRadius`: True to use the default radius, false to use the value specified in radiusParamDesc
+- `BUseDefaultRadius`: True to use the default radius, false to use the value specified in radius
 - `Radius`: Value for the radius of the bend if bUseDefaultRadius is false
 - `FlipDir`: True to flip the bend direction, false to not
 - `BendPos`: Bend position:
 
-- 0 = bend centerline
-- 1 = material inside
-- 2 = material outside
-- 3 = bend outside
-- `PCBA`: | If... | Then... |
-| --- | --- |
-| non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
-| NULL | Parent bend's bend allowance is used |
+  - 0 = bend centerline
+  - 1 = material inside
+  - 2 = material outside
+  - 3 = bend outside
+- `PCBA`:
+
+  | If... | Then... |
+  | --- | --- |
+  | non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
+  | NULL | Parent bend's bend allowance is used |
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetal3dBend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetal3dBend.html)
-
-.
+See [FeatureManager::InsertSheetMetal3dBend](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetal3dBend.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [IBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html)
 
 ## Availability

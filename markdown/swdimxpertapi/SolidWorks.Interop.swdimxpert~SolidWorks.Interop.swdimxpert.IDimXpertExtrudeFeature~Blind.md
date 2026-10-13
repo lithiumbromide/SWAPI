@@ -48,22 +48,16 @@ True if blind; false if through all
 
 ## VBA Syntax
 
-See
-
-[DimXpertExtrudeFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~Blind.html)
-
-.
+See [DimXpertExtrudeFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~Blind.html).
 
 ## Examples
 
 [Get DimXpert Extrude Feature Example (VBA)](Get_DimXpert_Extrude_Feature_Example_VB.htm)
-
 [Get DimXpert Extrude Feature Example (VB.NET)](Get_DimXpert_Extrude_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.html)
-
 [IDimXpertExtrudeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature_members.html)
 
 ## Availability

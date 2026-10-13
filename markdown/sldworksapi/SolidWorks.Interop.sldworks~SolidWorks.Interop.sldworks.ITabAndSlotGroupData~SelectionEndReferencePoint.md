@@ -45,36 +45,20 @@ property System.Object^ SelectionEndReferencePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-or
-
-[ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
+[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html) or [ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::SelectionEndReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionEndReferencePoint.html)
-
-.
+See [TabAndSlotGroupData::SelectionEndReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionEndReferencePoint.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
-
 [ITabAndSlotGroupData::SelectionStartReferencePoint Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionStartReferencePoint.html)
 
 ## Availability

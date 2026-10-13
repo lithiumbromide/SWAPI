@@ -47,13 +47,7 @@ System.bool SetWindowHandlex64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,21 @@ True if handle is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageWindowFromHandle::SetWindowHandlex64](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageWindowFromHandle~SetWindowHandlex64.html)
-
-.
+See [PropertyManagerPageWindowFromHandle::SetWindowHandlex64](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageWindowFromHandle~SetWindowHandlex64.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageWindowFromHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html)
-
-examples.
+See the [IPropertyManagerPageWindowFromHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html) examples.
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
-You must call this method to initialize the .NET control handle whenever you call[IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html), because .NET control handles are destroyed with their forms when the PropertyManager page closes.
+You must call this method to initialize the .NET control handle whenever you call [IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html), because .NET control handles are destroyed with their forms when the PropertyManager page closes.
 
 ## See Also
 
 [IPropertyManagerPageWindowFromHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle.html)
-
 [IPropertyManagerPageWindowFromHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageWindowFromHandle_members.html)
 
 ## Availability

@@ -9,57 +9,16 @@ source: "swconst/DP_ImageQuality.htm"
 
 # Document Properties > Image Quality
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Shaded and draft quality HLR/HLV resolution - Quality | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityShaded,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityShaded,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swImageQualityShaded_e.< Value >) | See swImageQualityShaded_e for valid options | Specifies the tessellation of cylindrical surfaces for shaded rendering
-output |
-| Shaded and draft quality HLR/HLV resolution - Deviation | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swImageQualityShadedDeviation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swImageQualityShadedDeviation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies maximum chordal deviation in effect at the various tuning
-levels; use IModelDocExtension::GetUserPreferenceDoubleValueRange to get the current and valid minimum and maximum values |
-| Shaded and draft quality HLR/HLV resolution - Optimize edge length (higher
-quality, but slower) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseHighQualityEdgeSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseHighQualityEdgeSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to increase image quality |
-| Shaded and draft quality HLR/HLV resolution - Apply to all referenced
-part documents | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityApplyToAllReferencedPartDoc
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityApplyToAllReferencedPartDoc
-, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For assemblies only; specifies whether to apply image quality settings
-to all part documents referenced by active document |
-| Shaded and draft quality HLR/HLV resolution - Save tessellation with
-part document | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualitySaveTesselationWithPartDoc,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualitySaveTesselationWithPartDoc,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to save display information with the part document |
-| Wireframe and high quality HLR/HLV resolution - quality of wireframe
-display output | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframe,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframe,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swImageQualityWireframe_e.< Value >) | See swImageQualityWireframe_e for valid options | Specifies the wireframe quality: optimal
-or custom |
-| Wireframe and high quality HLR/HLV resolution - wireframe quality | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframeValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframeValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value (1 - 100) | Specifies value for custom swImageQualityWireframe quality |
-| Wireframe and high quality HLR/HLV resolution - Precisely render overlapping
-geometry (higher quality, but slower) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPreciseRenderingOfOverlappingGeometry,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPreciseRenderingOfOverlappingGeometry,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For wireframes and drawings only |
-| Wireframe and high quality HLR/HLV resolution - Improve curve quality
-at higher settings | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityWireframeHighCurveQuality,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityWireframeHighCurveQuality,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to improve a curve's angular tolerance at the high
-end of wireframe quality resolution; for wireframe quality slider settings
-between 92 and 100 |
-| Use isometric, zoom to fit view for document preview | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityZoomToFitForPreviewImages,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityZoomToFitForPreviewImages, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts and assemblies only; true to save in isometric, zoom to fit
-view (default); false to save in the current view |
-| Use pre-2009 tangent edge definition | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseOldTangentEdgeDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseOldTangentEdgeDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True to l eave
-tangent edges visible as in the pre-2009 SOLIDWORKS implementation; false to
-hide tangent edges when the angle between adjacent faces is less than one degree |
+| Shaded and draft quality HLR/HLV resolution - Quality | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityShaded, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityShaded, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swImageQualityShaded_e.< Value >) | See swImageQualityShaded_e for valid options | Specifies the tessellation of cylindrical surfaces for shaded rendering output |
+| Shaded and draft quality HLR/HLV resolution - Deviation | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swImageQualityShadedDeviation, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swImageQualityShadedDeviation, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies maximum chordal deviation in effect at the various tuning levels; use IModelDocExtension::GetUserPreferenceDoubleValueRange to get the current and valid minimum and maximum values |
+| Shaded and draft quality HLR/HLV resolution - Optimize edge length (higher quality, but slower) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseHighQualityEdgeSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseHighQualityEdgeSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to increase image quality |
+| Shaded and draft quality HLR/HLV resolution - Apply to all referenced part documents | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityApplyToAllReferencedPartDoc swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityApplyToAllReferencedPartDoc , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For assemblies only; specifies whether to apply image quality settings to all part documents referenced by active document |
+| Shaded and draft quality HLR/HLV resolution - Save tessellation with part document | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualitySaveTesselationWithPartDoc, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualitySaveTesselationWithPartDoc, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to save display information with the part document |
+| Wireframe and high quality HLR/HLV resolution - quality of wireframe display output | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframe, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframe, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swImageQualityWireframe_e.< Value >) | See swImageQualityWireframe_e for valid options | Specifies the wireframe quality: optimal or custom |
+| Wireframe and high quality HLR/HLV resolution - wireframe quality | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframeValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swImageQualityWireframeValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value (1 - 100) | Specifies value for custom swImageQualityWireframe quality |
+| Wireframe and high quality HLR/HLV resolution - Precisely render overlapping geometry (higher quality, but slower) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPreciseRenderingOfOverlappingGeometry, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPreciseRenderingOfOverlappingGeometry, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For wireframes and drawings only |
+| Wireframe and high quality HLR/HLV resolution - Improve curve quality at higher settings | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityWireframeHighCurveQuality, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityWireframeHighCurveQuality, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to improve a curve's angular tolerance at the high end of wireframe quality resolution; for wireframe quality slider settings between 92 and 100 |
+| Use isometric, zoom to fit view for document preview | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityZoomToFitForPreviewImages, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityZoomToFitForPreviewImages, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | For parts and assemblies only; true to save in isometric, zoom to fit view (default); false to save in the current view |
+| Use pre-2009 tangent edge definition | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseOldTangentEdgeDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swImageQualityUseOldTangentEdgeDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True to l eave tangent edges visible as in the pre-2009 SOLIDWORKS implementation; false to hide tangent edges when the angle between adjacent faces is less than one degree |

@@ -40,13 +40,7 @@ System.int GetLightId()
 System.int GetLightId();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ ID of the light currently being modified by the dialog; -1 if the light cannot b
 
 ## VBA Syntax
 
-See
-
-[LightDialog::GetLightId](ms-its:sldworksapivb6.chm::/sldworks~LightDialog~GetLightId.html)
-
-.
+See [LightDialog::GetLightId](ms-its:sldworksapivb6.chm::/sldworks~LightDialog~GetLightId.html).
 
 ## See Also
 
 [ILightDialog Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog.html)
-
 [ILightDialog Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog_members.html)
 
 ## Availability

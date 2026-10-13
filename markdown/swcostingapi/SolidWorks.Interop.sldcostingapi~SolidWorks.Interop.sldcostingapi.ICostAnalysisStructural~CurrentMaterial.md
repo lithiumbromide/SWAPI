@@ -51,19 +51,11 @@ Name of the material
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentMaterial.html)
-
-.
+See [CostAnalysisStructural::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentMaterial.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings, e.g., weldment stock prof
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::GetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterials.html)
-
 [ICostAnalysisStructural::GetMaterialCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialCount.html)
 
 ## Availability

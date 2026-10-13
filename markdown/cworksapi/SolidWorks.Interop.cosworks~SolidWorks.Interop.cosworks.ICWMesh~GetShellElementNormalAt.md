@@ -53,32 +53,24 @@ System.int GetShellElementNormalAt(
 
 ### Return Value
 
-Shell normal for a face as defined at[swsMeshShellNormal_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshShellNormal_e.html)
+Shell normal for a face as defined at [swsMeshShellNormal_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshShellNormal_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetShellElementNormalAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetShellElementNormalAt.html)
-
-.
+See [CWMesh::GetShellElementNormalAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetShellElementNormalAt.html).
 
 ## Remarks
 
 This method determines the positioning of the top and bottom faces of the shell elements associated with the face. The top face is towards the positive normal direction by default.
 
-Use this method to align shells.[Flipping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMesh~FlipShellElements.html)switches the faces.
+Use this method to align shells. [Flipping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMesh~FlipShellElements.html) switches the faces.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::UseJacobianCheckForShells Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForShells.html)
-
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
 
 ## Availability

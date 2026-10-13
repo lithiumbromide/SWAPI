@@ -53,32 +53,23 @@ property System.String^ SheetName {
 
 ### Property Value
 
-Name of the drawing sheetParameterDesc
+Name of the drawing sheet
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::SheetName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SheetName.html)
-
-.
+See [EModelViewControl::SheetName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SheetName.html).
 
 ## Remarks
 
-Call[IEModelViewControl::CurrentSheetIndex](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentSheetIndex.html)to get the index number of the currently displayed sheet.
+Call [IEModelViewControl::CurrentSheetIndex](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentSheetIndex.html) to get the index number of the currently displayed sheet.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::SheetCount Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetCount.html)
-
 [IEModelViewControl::SheetHeight Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetHeight.html)
-
 [IEModelViewControl::SheetWidth Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~SheetWidth.html)
-
 [IEModelViewControl::ShowSheet Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowSheet.html)
 
 ## Availability

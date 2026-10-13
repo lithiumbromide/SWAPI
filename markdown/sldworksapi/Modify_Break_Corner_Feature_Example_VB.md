@@ -9,8 +9,7 @@ source: "sldworksapi/Modify_Break_Corner_Feature_Example_VB.htm"
 
 # Modify Break Corner Feature Example (VBA)
 
-This example shows how to create and modify a break corner feature in a sheet metal
-part.
+This example shows how to create and modify a break corner feature in a sheet metal part.
 
 ```
 '---------------------------------------------------

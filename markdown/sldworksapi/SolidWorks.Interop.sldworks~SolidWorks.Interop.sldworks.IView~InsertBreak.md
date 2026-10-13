@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # InsertBreak Method (IView)
 
-Obsolete. Superseded by
-
-[IView::InsertBreak2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBreak2.html)
-
-.
+Obsolete. Superseded by [IView::InsertBreak2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBreak2.html).
 
 ## Syntax
 
@@ -63,20 +59,14 @@ BreakLine^ InsertBreak(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Orientation`: Horizontal or vertical cut as defined in[swBreakLineOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineOrientation_e.html)
-- `Position1`: Location of the first line in the break (seeRemarks)
-- `Position2`: Location of the second line in the break (seeRemarks)
-- `Style`: Cut style as defined in[swBreakLineStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineStyle_e.html)
+- `Orientation`: Horizontal or vertical cut as defined in [swBreakLineOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineOrientation_e.html)
+- `Position1`: Location of the first line in the break (see Remarks)
+- `Position2`: Location of the second line in the break (see Remarks)
+- `Style`: Cut style as defined in [swBreakLineStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineStyle_e.html)
 
 ### Return Value
 
@@ -84,17 +74,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::InsertBreak](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBreak.html)
-
-.
+See [View::InsertBreak](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBreak.html).
 
 ## Remarks
 
 A break in a drawing view consists of a pair of lines. This method inserts the break lines at the locations indicated by Position1 and Position2.
-
-(Table)=========================================================
 
 | If the orientation of the break is... | Then Position1 and Position2 are... |
 | --- | --- |
@@ -104,25 +88,15 @@ A break in a drawing view consists of a pair of lines. This method inserts the b
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBreakLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineCount.html)
-
 [IView::GetBreakLineInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineInfo.html)
-
 [IView::GetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLines.html)
-
 [IView::IGetBreakLineInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLineInfo.html)
-
 [IView::IGetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLines.html)
-
 [IView::BreakLineGap Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~BreakLineGap.html)
-
 [IView::IsBroken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsBroken.html)
-
 [IDrawingDoc::BreakView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~BreakView.html)
-
 [IBreakLine::Style Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine~Style.html)
 
 ## Availability

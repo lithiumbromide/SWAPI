@@ -9,8 +9,7 @@ source: "sldworksapi/Get_List_Of_Configurations_Example_VB.htm"
 
 # Get List of Configurations Example (VBA)
 
-This example shows how to get a list of configuration
-names for the active document.
+This example shows how to get a list of configuration names for the active document.
 
 ```
 '------------------------------------------------------------------

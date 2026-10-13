@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Configurations_Referenced_in_View_Example_VBNET.htm"
 
 # Get Configurations Referenced in View Example (VB.NET)
 
-This example shows how to get the names and persistent reference IDs of the configurations referenced
-in each drawing view in the first drawing sheet.
+This example shows how to get the names and persistent reference IDs of the configurations referenced in each drawing view in the first drawing sheet.
 
 ```
 '---------------------------------------------------

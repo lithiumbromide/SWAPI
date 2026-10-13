@@ -64,7 +64,7 @@ CWSpotWeldConnector^ AddSpotWeldConnector(
 - `FirstFace`: Face of a shell or solid body
 - `SecondFace`: Face of a shell or solid body that belongs to a different body than FirstFace
 - `DispArrayWeldLocations`: Array of vertices or an array of reference points to project on the faces to determine the locations of the spot welds
-- `ErrorCode`: Error as defined in[swsSpotWeldConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpotWeldConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsSpotWeldConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpotWeldConnectorError_e.html)
 
 ### Return Value
 
@@ -72,24 +72,17 @@ CWSpotWeldConnector^ AddSpotWeldConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddSpotWeldConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSpotWeldConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddSpotWeldConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSpotWeldConnector.html).
 
 ## Examples
 
 [Add Spot Weld Connector (VBA)](Add_Spot_Weld_Connector_Example_VB.htm)
-
 [Add Spot Weld Connector (VB.NET)](Add_Spot_Weld_Connector_Example_VBNET.htm)
-
 [Add Spot Weld Connector (C#)](Add_Spot_Weld_Connector_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

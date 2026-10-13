@@ -51,16 +51,11 @@ Name of this property
 
 ## VBA Syntax
 
-See
-
-[PDMWProperty::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty~Name.html)
-
-.
+See [PDMWProperty::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty~Name.html).
 
 ## See Also
 
 [IPDMWProperty Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty.html)
-
 [IPDMWProperty Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty_members.html)
 
 ## Availability

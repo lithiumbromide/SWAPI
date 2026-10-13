@@ -45,32 +45,19 @@ property System.short StepType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Step type as defined in
-
-[swDraftStepType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftStepType_e.html)
+Step type as defined in [swDraftStepType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftStepType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::StepType](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~StepType.html)
-
-.
+See [DraftFeatureData2::StepType](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~StepType.html).
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
 
 ## Availability

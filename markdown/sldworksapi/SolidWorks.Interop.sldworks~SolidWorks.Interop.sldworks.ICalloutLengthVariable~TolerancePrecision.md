@@ -45,13 +45,7 @@ property System.int TolerancePrecision {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ Number of digits after the decimal point to display the primary tolerance value
 
 ## VBA Syntax
 
-See
-
-[CalloutLengthVariable::TolerancePrecision](ms-its:sldworksapivb6.chm::/sldworks~CalloutLengthVariable~TolerancePrecision.html)
-
-.
+See [CalloutLengthVariable::TolerancePrecision](ms-its:sldworksapivb6.chm::/sldworks~CalloutLengthVariable~TolerancePrecision.html).
 
 ## Examples
 
 [Get and Set Hole Callout Variables (C#)](Get_and_Set_Hole_Callout_Variables_Example_CSharp.htm)
-
 [Get and Set Hole Callout Variables (VB.NET)](Get_and_Set_Hole_Callout_Variables_Example_VBNET.htm)
-
 [Get and Set Hole Callout Variables (VBA)](Get_and_Set_Hole_Callout_Variables_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[IDisplayDimension::SetPrecision3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetPrecision3.html)
-
-to set the dual tolerance value for a display dimension for a hole callout.
+Call [IDisplayDimension::SetPrecision3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetPrecision3.html) to set the dual tolerance value for a display dimension for a hole callout.
 
 ## See Also
 
 [ICalloutLengthVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutLengthVariable.html)
-
 [ICalloutLengthVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutLengthVariable_members.html)
-
 [ICalloutLengthVariable::Precision Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutLengthVariable~Precision.html)
 
 ## Availability

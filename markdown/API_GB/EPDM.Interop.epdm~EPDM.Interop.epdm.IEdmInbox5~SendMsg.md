@@ -43,19 +43,11 @@ void SendMsg(
 ### Parameters
 
 - `bsSubject`: Subject of the email
-- `bsMessageText`: Message detail (see
-
-Remarks
-
-)
+- `bsMessageText`: Message detail (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmUser5::SendMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~SendMsg.html)
-
-example.
+See the [IEdmUser5::SendMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~SendMsg.html) example.
 
 ## Remarks
 
@@ -69,9 +61,7 @@ It is possible to send HTML-formatted email, if the recipient uses a mail system
 ## See Also
 
 [IEdmInbox5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html)
-
 [IEdmInbox5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5_members.html)
-
 [IEdmUserGroup5::SendMsg Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~SendMsg.html)
 
 ## Availability

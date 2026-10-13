@@ -46,11 +46,7 @@ Tolerance value
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDimensionTolerance::GetNominalValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~GetNominalValue.html)
-
-.
+See [SwDMDimXpertDimensionTolerance::GetNominalValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~GetNominalValue.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance.html)
-
 [ISwDMDimXpertDimensionTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance_members.html)
 
 ## Availability

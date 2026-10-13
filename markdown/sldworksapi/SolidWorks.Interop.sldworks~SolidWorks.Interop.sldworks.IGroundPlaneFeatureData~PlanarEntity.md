@@ -45,44 +45,23 @@ property System.Object^ PlanarEntity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Planar
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
+Planar [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
 
 ## VBA Syntax
 
-See
-
-[GroundPlaneFeatureData::PlanarEntity](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData~PlanarEntity.html)
-
-.
+See [GroundPlaneFeatureData::PlanarEntity](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData~PlanarEntity.html).
 
 ## Examples
 
-See the
-
-[IGroundPlaneFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html)
-
-example.
+See the [IGroundPlaneFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html) example.
 
 ## See Also
 
 [IGroundPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html)
-
 [IGroundPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData_members.html)
 
 ## Availability

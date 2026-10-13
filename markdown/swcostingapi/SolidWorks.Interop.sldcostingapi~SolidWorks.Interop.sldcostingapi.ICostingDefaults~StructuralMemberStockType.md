@@ -47,26 +47,17 @@ property System.int StructuralMemberStockType {
 
 ### Property Value
 
-Default type of structural member stock cost method as defined in
-
-[swcStructuralStockCostType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStructuralStockCostType_e.html)
+Default type of structural member stock cost method as defined in [swcStructuralStockCostType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcStructuralStockCostType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::StructuralMemberStockType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~StructuralMemberStockType.html)
-
-.
+See [CostDefaults::StructuralMemberStockType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~StructuralMemberStockType.html).
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::MachiningStockBodyType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~MachiningStockBodyType.html)
-
 [ICostingDefaults::SheetmetalBlankSizeType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SheetmetalBlankSizeType.html)
 
 ## Availability

@@ -75,37 +75,23 @@ FlyoutGroup^ CreateFlyoutGroup2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UserID`: Unique user-defined ID for the new flyout
 - `Title`: Name of the flyout to create
 - `ToolTip`: ToolTip for the new flyout
-- `Hint`: Text displayed in SOLIDWORKS status bar when a user's mouse pointer is over the flyout
-- `MainIconList`: Array of strings for the paths to the image files for this flyout button (see
-
-Remarks
-
-)
-- `IconList`: Array of strings for the paths to the image files containing all of the flyout toolbar buttons and separators (see
-
-Remarks
-
-)
+- `Hint`: Text displayed in SOLIDWORKS Design status bar when a user's mouse pointer is over the flyout
+- `MainIconList`: Array of strings for the paths to the image files for this flyout button (see **Remarks**)
+- `IconList`: Array of strings for the paths to the image files containing all of the flyout toolbar buttons and separators (see **Remarks**)
 - `CallbackFunction`: Function to call when the flyout is selected
-- `UpdateCallbackFunction`: Optional update function that controls the state of the item; if specified, then SOLIDWORKS calls this function before displaying the item (see**Remarks**)
+- `UpdateCallbackFunction`: Optional update function that controls the state of the item; if specified, then SOLIDWORKS calls this function before displaying the item (see **Remarks**)
 
-| If the update function returns... | Then SOLIDWORKS... |
-| --- | --- |
-| 0 | Disables the item |
-| 1 | Enables the item; this is the default state if no update function is specified |
+  | If the update function returns... | Then SOLIDWORKS... |
+  | --- | --- |
+  | 0 | Disables the item |
+  | 1 | Enables the item; this is the default state if no update function is specified |
 
 ### Return Value
 
@@ -113,28 +99,19 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CommandManager::CreateFlyoutGroup2](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~CreateFlyoutGroup2.html)
-
-.
+See [CommandManager::CreateFlyoutGroup2](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~CreateFlyoutGroup2.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## Remarks
 
-After creating the flyout, display it on a CommandManager tab by calling[ICommandTabBox::AddCommands](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html). Call:
+After creating the flyout, display it on a CommandManager tab by calling [ICommandTabBox::AddCommands](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html). Call:
 
-- [IFlyoutGroup::AddContextMenuFlyout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddContextMenuFlyout.html)
-
-  to add the flyout to context menus.
-- [IFlyoutGroup::AddCommandItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddCommandItem.html)
-
-  to add menu items to the flyout group.
+- [IFlyoutGroup::AddContextMenuFlyout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddContextMenuFlyout.html) to add the flyout to context menus.
+- [IFlyoutGroup::AddCommandItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddCommandItem.html) to add menu items to the flyout group.
 
 If any flyout menu items are enabled, then the flyout button cannot be disabled by the flyout group's UpdateCallbackFunction. The sensitivity of the top-level flyout button is always determined by its enabled menu items. Disabled flyout menu items do not appear in the flyout menu. If there are no flyout menu items, then control of the top-level flyout button is returned to the flyout group's UpdateCallbackFunction.
 
@@ -154,17 +131,11 @@ The order in which you specify the image files must be the same for MainIconList
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManager::GetFlyoutGroup Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetFlyoutGroup.html)
-
 [ICommandManager::GetFlyoutGroups Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetFlyoutGroups.html)
-
 [ICommandManager::RemoveFlyoutGroup Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~RemoveFlyoutGroup.html)
-
 [ICommandManager::NumberOfFlyoutGroups Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~NumberOfFlyoutGroups.html)
-
 [ISldWorks::GetImageSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGu
 
 # ProfileDistance2 Property (IGussetFeatureData)
 
-Gets or sets the distance for the
-
-Profile Distance 2
-
-parameter for this gusset feature.
+Gets or sets the distance for the Profile Distance 2 parameter for this gusset feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double ProfileDistance2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ProfileDistance2](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileDistance2.html)
-
-.
+See [GussetFeatureData::ProfileDistance2](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileDistance2.html).
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

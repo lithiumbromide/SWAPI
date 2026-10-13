@@ -52,45 +52,20 @@ void GetFileAvgTime(
 
 ### Parameters
 
-- `bsFileTime`: Last open time; "
-
-mm
-
-mins
-
-ss
-
-secs" or "unknown"
-- `bsLWFileTime`: Last lightweight open time; "
-
-mm
-
-mins
-
-ss
-
-secs" or "unknown LW"
+- `bsFileTime`: Last open time; "`mm` mins `ss` secs" or "unknown"
+- `bsLWFileTime`: Last lightweight open time; "`mm` mins `ss` secs" or "unknown LW"
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument22::GetFileAvgTime](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument22~GetFileAvgTime.html)
-
-.
+See [SwDMDocument22::GetFileAvgTime](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument22~GetFileAvgTime.html).
 
 ## Examples
 
-See the
-
-[ISwDMDocument22](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html)
-
-examples.
+See the [ISwDMDocument22](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html) examples.
 
 ## See Also
 
 [ISwDMDocument22 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22.html)
-
 [ISwDMDocument22 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument22_members.html)
 
 ## Availability

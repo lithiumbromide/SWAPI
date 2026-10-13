@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateListExFlags.html"
 
 # EdmCreateListExFlags Enumeration
 
-Options for creating lists used in calls to
-
-[IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for creating lists used in calls to [IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

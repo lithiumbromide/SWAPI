@@ -74,63 +74,27 @@ void SetProperties2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PaperSz`: Paper size as defined in[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)(see**Remarks**)
-- `Templ`: Template as defined in[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)(see**Remarks**)
-- `Scale1`: Scale numerator (see
-
-Remarks
-
-)
-- `Scale2`: Scale denominator (see
-
-Remarks
-
-)
+- `PaperSz`: Paper size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html) (see **Remarks**)
+- `Templ`: Template as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html) (see **Remarks**)
+- `Scale1`: Scale numerator (see **Remarks**)
+- `Scale2`: Scale denominator (see **Remarks**)
 - `FirstAngle`: True if you want first angle projection, false if not
-- `Width`: Custom paper width if PaperSz = swDwgPaperSizes_e.swDwgPaperUserDefined (see
-
-Remarks
-
-)
-- `Height`: Custom paper height if PaperSz = swDwgPaperSizes_e.swDwgPaperUserDefined (see
-
-Remarks
-
-)
-- `SameCustomPropAsSheetInDocProp`: True to select the
-
-Same as sheet specified in Document Properties
-
-check box in the Sheet Properties dialog, false to not (see
-
-Remarks
-
-)
+- `Width`: Custom paper width if PaperSz = swDwgPaperSizes_e.swDwgPaperUserDefined (see **Remarks**)
+- `Height`: Custom paper height if PaperSz = swDwgPaperSizes_e.swDwgPaperUserDefined (see **Remarks**)
+- `SameCustomPropAsSheetInDocProp`: True to select the **Same as sheet specified in Document Properties** check box in the Sheet Properties dialog, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetProperties2](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetProperties2.html)
-
-.
+See [Sheet::SetProperties2](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetProperties2.html).
 
 ## Examples
 
 [Set Drawing Sheet Properties (C#)](Set_Drawing_Sheet_Properties_Example_CSharp.htm)
-
 [Set Drawing Sheet Properties (VB.NET)](Set_Drawing_Sheet_Properties_Example_VBNET.htm)
-
 [Set Drawing Sheet Properties (VBA)](Set_Drawing_Sheet_Properties_Example_VB.htm)
 
 ## Remarks
@@ -142,22 +106,16 @@ See
 | Change the scale of the sheet using Scale1 and Scale2 | Any drawing view that is set to use the sheet's scale takes the new scale setting. |
 | Set SameCustomPropAsSheetInDocProp to true | The Tools > Options > Document Properties > Drawing Sheets > Use custom property values from the sheet check box must be preselected. |
 
-**NOTE:**You can also use[ISheet::SetSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetSize.html)to set the size of the sheet and the standard sheet size.
+**NOTE:** You can also use [ISheet::SetSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet~SetSize.html) to set the size of the sheet and the standard sheet size.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetProperties2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetProperties2.html)
-
 [ISheet::GetTemplateName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetTemplateName.html)
-
 [ISheet::SetTemplateName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetTemplateName.html)
-
 [ISheet::GetSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetSize.html)
-
 [ISheet::PageSetup Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~PageSetup.html)
 
 ## Availability

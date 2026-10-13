@@ -11,8 +11,7 @@ source: "cworksapi/Add_Force_Example_VB.htm"
 
 This example shows how to add a force of nonuniform distribution to a study.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '----------------------------------------------------------------------------

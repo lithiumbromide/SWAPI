@@ -54,11 +54,7 @@ System.int GetFrequencyShiftOption2(
 ### Parameters
 
 - `BChecked`: True to calculate only resonant frequencies that are closest to DFrequencyValue, false to not
-- `DFrequencyValue`: Frequency in Hz; valid only if BChecked = true (see
-
-Remarks
-
-)
+- `DFrequencyValue`: Frequency in Hz; valid only if BChecked = true (see **Remarks**)
 
 ### Return Value
 
@@ -66,39 +62,26 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetFrequencyShiftOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetFrequencyShiftOption2.html)
-
-.
+See [CWDynamicStudyOptions::GetFrequencyShiftOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetFrequencyShiftOption2.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## Remarks
 
 This method is valid only if both of the following are true:
 
-- [ICWDynamicStudyOptions::SolverType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SolverType.html)
-
-  = swsSolverType_e.swsSolverTypeDirectSparse
-- [ICWDynamicStudyOptions::GetFrequencyOption2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyOption2.html)
-
-  = swsFrequencyStudyOption_e.swsFrequencyStudyOptionNumberFrequencies
+- [ICWDynamicStudyOptions::SolverType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SolverType.html) = swsSolverType_e.swsSolverTypeDirectSparse
+- [ICWDynamicStudyOptions::GetFrequencyOption2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyOption2.html) = swsFrequencyStudyOption_e.swsFrequencyStudyOptionNumberFrequencies
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetFrequencyShiftOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyShiftOption2.html)
-
 [ICWDynamicStudyOptions::SetFrequencyOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyOption2.html)
 
 ## Availability

@@ -34,14 +34,9 @@ System.int mlEdmGetVarDataFlags
 
 ### Field Value
 
-Combination of
-
-[EdmGetVarDataFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarDataFlag.html)
-
-bits.
+Combination of [EdmGetVarDataFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarDataFlag.html) bits.
 
 ## See Also
 
 [EdmGetVarData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData.html)
-
 [EdmGetVarData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members.html)

@@ -40,13 +40,7 @@ System.int GetUserPointsCount()
 System.int GetUserPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of user points found in the view
 
 ## VBA Syntax
 
-See
-
-[View::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetUserPointsCount.html)
-
-.
+See [View::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetUserPointsCount.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetUserPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetUserPoints2.html)
-
 [IView::IGetUserPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetUserPoints2.html)

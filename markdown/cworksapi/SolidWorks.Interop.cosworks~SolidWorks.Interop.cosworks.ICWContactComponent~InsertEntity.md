@@ -52,28 +52,17 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~InsertEntity.html)
-
-.
+See [CWContactComponent::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~InsertEntity.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWContactComponent::GlobalContact](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~GlobalContact.html)
-
-is set to 0.
+This method is valid only if [ICWContactComponent::GlobalContact](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~GlobalContact.html) is set to 0.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::RemoveEntity Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~RemoveEntity.html)
-
 [ICWContactComponent::ReplaceEntity Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ReplaceEntity.html)
 
 ## Availability

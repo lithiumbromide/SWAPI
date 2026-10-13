@@ -48,28 +48,17 @@ Number of loading events
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::LoadingEventCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~LoadingEventCount.html)
-
-.
+See [CWFatigueStudyOptions::LoadingEventCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~LoadingEventCount.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::GetFatigueEvent Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~GetFatigueEvent.html)
-
 [ICWFatigueStudyOptions::DeleteFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~DeleteFatigueEvent.html)
 
 ## Availability

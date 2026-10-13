@@ -46,28 +46,17 @@ Number of material classes
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~GetMaterialClassesCount.html)
-
-.
+See [CostAnalysisStructural::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~GetMaterialClassesCount.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialClasses.html)
-
 [ICostAnalysisStructural::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentMaterialClass.html)
 
 ## Availability

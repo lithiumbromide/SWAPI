@@ -9,8 +9,7 @@ source: "swmotionstudyapi/Create_Simulation_Gravity_Feature_Example_VBNET.htm"
 
 # Create Simulation Gravity Feature Example (VB.NET)
 
-This example shows how to create a simulation gravity feature in a motion
-study.
+This example shows how to create a simulation gravity feature in a motion study.
 
 ```vb
   '---------------------------------------------------------------------------

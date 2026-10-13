@@ -47,13 +47,7 @@ System.bool IsBackgroundProcessingCompleted(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,17 @@ True if background processing is finished, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IsBackgroundProcessingCompleted](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsBackgroundProcessingCompleted.html)
-
-.
+See [SldWorks::IsBackgroundProcessingCompleted](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsBackgroundProcessingCompleted.html).
 
 ## Remarks
 
-SOLIDWORKS recommends that you only use this method with[ISldWorks::EnableBackgroundProcessing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~EnableBackgroundProcessing.html)and[IDrawingDoc::BackgroundProcessingOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~BackgroundProcessingOption.html)when you can quickly open a drawing document via the user interface, but that same drawing takes significantly more time to open programmatically.
+SOLIDWORKS recommends that you only use this method with [ISldWorks::EnableBackgroundProcessing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~EnableBackgroundProcessing.html) and [IDrawingDoc::BackgroundProcessingOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~BackgroundProcessingOption.html) when you can quickly open a drawing document via the user interface, but that same drawing takes significantly more time to open programmatically.
 
 To more efficiently and programmatically open a drawing document that requires a lot of CPU time and no user input:
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

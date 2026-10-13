@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # GetFaceColorFilter Method (IPowerSelect)
 
-Gets the
-
-Face color
-
-filter set in this PowerSelect session.
+Gets the Face color filter set in this PowerSelect session.
 
 ## Syntax
 
@@ -61,35 +57,17 @@ System.int GetFaceColorFilter(
 
 ### Parameters
 
-- `Red`: <=0.0
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to <= 1.0
-- `Green`: <=0.0kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}to <= 1.0
-- `Blue`: <=0.0
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to <= 1.0
+- `Red`: <=0.0 to <= 1.0
+- `Green`: <=0.0 to <= 1.0
+- `Blue`: <=0.0 to <= 1.0
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetFaceColorFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFaceColorFilter.html)
-
-.
+See [IPowerSelect::GetFaceColorFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFaceColorFilter.html).
 
 ## Examples
 
@@ -98,9 +76,7 @@ See
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::SetFaceColorFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFaceColorFilter.html)
 
 ## Availability

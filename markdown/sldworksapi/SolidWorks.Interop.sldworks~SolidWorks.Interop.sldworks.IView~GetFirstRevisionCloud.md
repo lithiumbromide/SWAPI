@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstRevisionCloud Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetFirstRevisionCloud2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstRevisionCloud2.html)
-
-.
+Obsolete. Superseded by [IView::GetFirstRevisionCloud2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstRevisionCloud2.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.object GetFirstRevisionCloud()
 System.Object^ GetFirstRevisionCloud();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstRevisionCloud](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstRevisionCloud.html)
-
-.
+See [View::GetFirstRevisionCloud](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstRevisionCloud.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetFirstRevisionCloud Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetFirstRevisionCloud.html)
-
 [IView::GetRevisionCloudCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetRevisionCloudCount.html)
-
 [IView::GetRevisionClouds Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetRevisionClouds.html)
-
 [IView::IGetRevisionClouds Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetRevisionClouds.html)
 
 ## Availability

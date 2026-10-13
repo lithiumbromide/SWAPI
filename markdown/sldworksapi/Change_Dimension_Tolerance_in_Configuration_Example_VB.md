@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Dimension_Tolerance_in_Configuration_Example_VB.htm"
 
 # Change Dimension Tolerance in a Configuration Example (VBA)
 
-This example shows how to change the dimension tolerance in one
-configuration in a multi-configuration part.
+This example shows how to change the dimension tolerance in one configuration in a multi-configuration part.
 
 ```
 '--------------------------------------------

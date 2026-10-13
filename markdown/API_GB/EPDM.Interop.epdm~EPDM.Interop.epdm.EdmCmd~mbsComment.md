@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html"
 
 # mbsComment Field
 
-Contains name specific to
-
-[EdmCmd.meCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~meCmdType.html)
-
-.
+Contains name specific to [EdmCmd.meCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~meCmdType.html).
 
 ## Syntax
 
@@ -43,5 +39,4 @@ Information specific to the type of command or hook
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EdmCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html)

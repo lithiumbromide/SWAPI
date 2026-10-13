@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # IDatumOrigin Interface Members
 
-The following tables list the members exposed by[IDatumOrigin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html).
+The following tables list the members exposed by [IDatumOrigin](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ The following tables list the members exposed by[IDatumOrigin](SolidWorks.Intero
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

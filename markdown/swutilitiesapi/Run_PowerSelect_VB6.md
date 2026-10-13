@@ -9,8 +9,7 @@ source: "swutilitiesapi/Run_PowerSelect_VB6.htm"
 
 # Run PowerSelect Example (VBA)
 
-This example shows how to initialize, run, and close a PowerSelect session
-using the SOLIDWORKS Utilities API.
+This example shows how to initialize, run, and close a PowerSelect session using the SOLIDWORKS Utilities API.
 
 ```
 '------------------------------------------------------------------------------

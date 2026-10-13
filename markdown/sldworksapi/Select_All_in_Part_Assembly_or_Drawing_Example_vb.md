@@ -9,9 +9,7 @@ source: "sldworksapi/Select_All_in_Part_Assembly_or_Drawing_Example_vb.htm"
 
 # Select All in Part, Assembly, or Drawing (VBA)
 
-This example shows how to select everything in the graphics area of a part or
-assembly document or in the sheet of a drawing document, as if you box-selected everything in the graphics area or
-the sheet.
+This example shows how to select everything in the graphics area of a part or assembly document or in the sheet of a drawing document, as if you box-selected everything in the graphics area or the sheet.
 
 ```
 '--------------------------------------------------------------------------

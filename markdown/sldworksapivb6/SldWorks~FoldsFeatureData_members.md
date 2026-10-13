@@ -1,6 +1,5 @@
 ---
-title: "FoldsFeatureData Object
-Members"
+title: "FoldsFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FoldsFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FoldsFeatureData_members.html"
 ---
 
-# FoldsFeatureData Object
-Members
+# FoldsFeatureData Object Members
 
 ## Public Methods
 

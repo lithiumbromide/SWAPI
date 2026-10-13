@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Parameters_of_Cylindrical_Surface_Example_VB.htm"
 
 # Get Parameters of Cylindrical Surface Example (VBA)
 
-This example shows how to get the origin, axis, and radius for the selected
-cylindrical surface.
+This example shows how to get the origin, axis, and radius for the selected cylindrical surface.
 
 ```
 '-----------------------------------------------------

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Bend_Table_Example_VBNET.htm"
 
 # Insert Bend Table Example (VB.NET)
 
-This example shows how to insert a bend table in a drawing of a
-flattened sheet metal part.
+This example shows how to insert a bend table in a drawing of a flattened sheet metal part.
 
 ```vb
  '----------------------------------------------------------------------------

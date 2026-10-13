@@ -1,6 +1,5 @@
 ---
-title: "IStructureSystemSplitMember Object
-Members"
+title: "IStructureSystemSplitMember Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IStructureSystemSplitMember_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IStructureSystemSplitMember_members.html"
 ---
 
-# IStructureSystemSplitMember Object
-Members
+# IStructureSystemSplitMember Object Members
 
 ## Public Methods
 

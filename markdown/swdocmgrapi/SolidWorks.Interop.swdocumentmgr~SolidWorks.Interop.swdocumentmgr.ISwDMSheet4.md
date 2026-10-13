@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Accesses the drawing sheet.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -48,34 +42,17 @@ public interface class ISwDMSheet4 : public ISwDMSheet, ISwDMSheet2, ISwDMSheet3
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet4](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4.html)
-
-.
+See [SwDMSheet4](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4.html).
 
 ## Examples
 
 [Get BOM Tables (VB.NET)](Get_BOM_Tables_Example_VBNET.htm)
-
 [Get BOM Tables (C#)](Get_BOM_Tables_Example_CSharp.htm)
 
 ## Remarks
 
-- You can access an SwDMSheet4 object by calling QueryInterface on an
-
-  [ISwDMSheet](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet.html)
-
-  object in C++ or by direct assignment in Visual Basic.
-- The SwDMSheet object can be assigned to a SwDMSheet4 variable, just like the SOLIDWORKS
-
-  [IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-  object can be assigned to a SOLIDWORKS
-
-  [IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html)
-
-  variable.
+- You can access an SwDMSheet4 object by calling QueryInterface on an [ISwDMSheet](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet.html) object in C++ or by direct assignment in Visual Basic.
+- The SwDMSheet object can be assigned to a SwDMSheet4 variable, just like the SOLIDWORKS [IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) object can be assigned to a SOLIDWORKS [IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html) variable.
 
 ## Accessors
 
@@ -88,11 +65,7 @@ See
 ## See Also
 
 [ISwDMSheet4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)
-
 [ISwDMSheet Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet.html)
-
 [ISwDMSheet2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet2.html)
-
 [ISwDMSheet3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet3.html)

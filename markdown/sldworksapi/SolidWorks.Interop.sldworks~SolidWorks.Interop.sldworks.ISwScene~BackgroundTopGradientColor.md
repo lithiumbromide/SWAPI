@@ -45,13 +45,7 @@ property System.int BackgroundTopGradientColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ RGB color
 
 ## VBA Syntax
 
-See
-
-[SwScene::BackgroundTopGradientColor](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundTopGradientColor.html)
-
-.
+See [SwScene::BackgroundTopGradientColor](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundTopGradientColor.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
@@ -83,7 +69,6 @@ examples.
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

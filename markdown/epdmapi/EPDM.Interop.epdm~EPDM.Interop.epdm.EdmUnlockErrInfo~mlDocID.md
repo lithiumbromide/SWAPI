@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo~mlDocID.ht
 
 # mlDocID Field
 
-Unique ID of the file that caused the error, which is the same ID you see in
-
-[IEdmObject5::ID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID.html)
-
-.
+Unique ID of the file that caused the error, which is the same ID you see in [IEdmObject5::ID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ID.html).
 
 ## Syntax
 
@@ -38,14 +34,9 @@ System.int mlDocID
 
 ## Examples
 
-See the
-
-[EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
-examples.
+See the [EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html) examples.
 
 ## See Also
 
 [EdmUnlockErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
 [EdmUnlockErrInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_members.html)

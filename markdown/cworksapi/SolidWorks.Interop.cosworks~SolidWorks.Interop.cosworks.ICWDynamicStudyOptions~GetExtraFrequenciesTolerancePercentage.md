@@ -53,50 +53,28 @@ System.int GetExtraFrequenciesTolerancePercentage(
 
 ### Return Value
 
-Error code as defined by
-
-[swsDynamicExtraFrequenciesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicExtraFrequenciesError_e.html)
+Error code as defined by [swsDynamicExtraFrequenciesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicExtraFrequenciesError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetExtraFrequenciesTolerancePercentage](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetExtraFrequenciesTolerancePercentage.html)
-
-.
+See [CWDynamicStudyOptions::GetExtraFrequenciesTolerancePercentage](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetExtraFrequenciesTolerancePercentage.html).
 
 ## Remarks
 
 This method:
 
-- is valid only if
+- is valid only if [ICWDynamicStudyOptions::GetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetIncludeExtraFrequencies.html) is true.
 
-  [ICWDynamicStudyOptions::GetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetIncludeExtraFrequencies.html)
-
-  is true.
-
-- gets the tolerance percentage that is shown in
-
-  Simulation Study (RMB)
-
-  > Properties > Advanced > Tolerance to merge frequency points (%).
-
-  An extra frequency point is merged with its nearest natural frequency point if their frequency difference is within this tolerance.
+- gets the tolerance percentage that is shown in `Simulation Study (RMB)` **> Properties > Advanced > Tolerance to merge frequency points (%).** An extra frequency point is merged with its nearest natural frequency point if their frequency difference is within this tolerance.
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetExtraFrequenciesTolerancePercentage Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequenciesTolerancePercentage.html)
-
 [ICWDynamicStudyOptions::GetExtraFrequencies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequencies.html)
-
 [ICWDynamicStudyOptions::GetExtraFrequenciesTotal Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesTotal.html)
-
 [ICWDynamicStudyOptions::GetExtraFrequenciesUnit Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesUnit.html)
-
 [ICWDynamicStudyOptions::SetIncludeExtraFrequencies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetIncludeExtraFrequencies.html)
 
 ## Availability

@@ -45,56 +45,33 @@ property System.int PlanarTrimOption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Planar trim option as defined by
-
-[swCornerTreatmentPlanarTrimOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimOptions_e.html)
+Planar trim option as defined by [swCornerTreatmentPlanarTrimOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimpleCornerTreatmentFeatureData::PlanarTrimOption](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~PlanarTrimOption.html)
-
-.
+See [SimpleCornerTreatmentFeatureData::PlanarTrimOption](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~PlanarTrimOption.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [ISimpleCornerTreatmentFeatureData::CornerTreatmentTrimType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData~CornerTreatmentTrimType.html)
-
-  is set to
-
-  [swCornerTreatmentTrimType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentTrimType_e.html)
-
-  .swCornerTreatmentTrim_PlanarTrim.
+- [ISimpleCornerTreatmentFeatureData::CornerTreatmentTrimType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData~CornerTreatmentTrimType.html) is set to [swCornerTreatmentTrimType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentTrimType_e.html).swCornerTreatmentTrim_PlanarTrim.
 
 -and -
 
-- ISimpleCornerTreatmentFeatureData::PlanarTrimToolType is set to
-
-  [swCornerTreatmentPlanarTrimToolType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimToolType_e.html)
-
-  .swCornerTreatmentPlanarTrimTool_Automatic.
+- ISimpleCornerTreatmentFeatureData::PlanarTrimToolType is set to [swCornerTreatmentPlanarTrimToolType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimToolType_e.html).swCornerTreatmentPlanarTrimTool_Automatic.
 
 ## See Also
 
 [ISimpleCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html)
-
 [ISimpleCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData_members.html)
 
 ## Availability

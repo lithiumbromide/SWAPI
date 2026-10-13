@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_fields.html"
 
 # EdmListFolder Structure Fields
 
-For a list of all members of this type, see[EdmListFolder members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members.html).
+For a list of all members of this type, see [EdmListFolder members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmListFolder members](EPDM.Interop.
 ## See Also
 
 [EdmListFolder Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

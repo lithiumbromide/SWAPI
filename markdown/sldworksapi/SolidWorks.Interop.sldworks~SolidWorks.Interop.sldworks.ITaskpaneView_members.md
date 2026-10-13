@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # ITaskpaneView Interface Members
 
-The following tables list the members exposed by[ITaskpaneView](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html).
+The following tables list the members exposed by [ITaskpaneView](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html).
 
 ## Public Methods
 
@@ -20,7 +20,7 @@ The following tables list the members exposed by[ITaskpaneView](SolidWorks.Inter
 | Method | AddCustomButton2 | Adds a custom button to the Task Pane. |
 | Method | AddStandardButton | Adds a standard SOLIDWORKS button to the Task Pane. |
 | Method | DeleteView | Removes the application-level tab from the Task Pane view. |
-| Method | DisplayWindowFromHandle | Adds a .NET control to the Task Pane view. |
+| Method | DisplayWindowFromHandle | Obsolete. Superseded by ITaskpaneView::DisplayWindowFromHandlex64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
 | Method | DisplayWindowFromHandlex64 | Adds a .NET control to the Task Pane view on 64-bit machines. |
 | Method | GetButtonState | Gets whether the Task Pane button is enabled. |
 | Method | GetControl | Gets the control assigned to the Task Pane view. |
@@ -37,5 +37,4 @@ The following tables list the members exposed by[ITaskpaneView](SolidWorks.Inter
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

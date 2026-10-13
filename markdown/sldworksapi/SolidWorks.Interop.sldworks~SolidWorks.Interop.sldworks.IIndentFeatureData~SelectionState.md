@@ -45,40 +45,23 @@ property System.int SelectionState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Side of the model to keep or remove as defined in
-
-[swIndentSelectionState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swIndentSelectionState_e.html)
+Side of the model to keep or remove as defined in [swIndentSelectionState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swIndentSelectionState_e.html)
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::SelectionState](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~SelectionState.html)
-
-.
+See [IndentFeatureData::SelectionState](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~SelectionState.html).
 
 ## Remarks
 
-Setting this property inverts the side of the
-
-[target body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~TargetBody.html)
-
-to indent.
+Setting this property inverts the side of the [target body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~TargetBody.html) to indent.
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
 
 ## Availability

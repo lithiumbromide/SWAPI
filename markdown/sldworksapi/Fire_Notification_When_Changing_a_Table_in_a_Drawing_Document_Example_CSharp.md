@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Changing_a_Table_in_a_Drawing_Docume
 
 # Fire Notification When Changing a Table in a Drawing Document Example (C#)
 
-This example shows how to fire a notification when a table is changed in a
-drawing document.
+This example shows how to fire a notification when a table is changed in a drawing document.
 
 ```
 //---------------------------------------------------------------

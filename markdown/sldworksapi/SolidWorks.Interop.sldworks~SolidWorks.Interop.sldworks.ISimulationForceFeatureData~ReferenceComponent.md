@@ -45,27 +45,15 @@ property Component2^ ReferenceComponent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-to serve as a reference frame
+[Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) to serve as a reference frame
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::ReferenceComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ReferenceComponent.html)
-
-.
+See [SimulationForceFeatureData::ReferenceComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ReferenceComponent.html).
 
 ## Examples
 
@@ -78,7 +66,6 @@ Specifying a component to serve as a reference frame is optional. If a component
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
 
 ## Availability

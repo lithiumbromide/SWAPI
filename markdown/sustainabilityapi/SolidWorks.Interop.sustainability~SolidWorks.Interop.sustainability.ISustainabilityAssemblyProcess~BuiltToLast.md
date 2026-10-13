@@ -47,32 +47,19 @@ property System.double BuiltToLast {
 
 ### Property Value
 
-Length of time in
-
-[ISustainabilityAssemblyProcess::DurationType](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~DurationType.html)
-
-units that the assembly is built to last
+Length of time in [ISustainabilityAssemblyProcess::DurationType](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~DurationType.html) units that the assembly is built to last
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess::BuiltToLast](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~BuiltToLast.html)
-
-.
+See [SustainabilityAssemblyProcess::BuiltToLast](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~BuiltToLast.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
-.
+See the examples in [ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html).
 
 ## See Also
 
 [ISustainabilityAssemblyProcess Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
 
 ## Availability

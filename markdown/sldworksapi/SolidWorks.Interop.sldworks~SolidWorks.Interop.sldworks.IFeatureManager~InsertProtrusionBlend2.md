@@ -115,34 +115,28 @@ Feature^ InsertProtrusionBlend2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Closed`: True closes the loft, false leaves the loft open; if true and less than three profiles are selected, then any selected guide curves must be closed curves
-- `KeepTangency`: True maintains the tangency as seen in the section curves, false does not; if the section curves are tangent, then you have the option to specify whether the resulting faces are also tangent;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}when generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics
+- `KeepTangency`: True maintains the tangency as seen in the section curves, false does not; if the section curves are tangent, then you have the option to specify whether the resulting faces are also tangent; when generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics
 - `ForceNonRational`: True obtains smoother surfaces, false does not
 - `TessToleranceFactor`: Factor that controls the number of intermediate sections used for loft with centerline; the default value is 1.0; the greater the value, the more intermediate sections are created
 - `StartMatchingType`: Tangency type at the start profile:
 
-- 0 = none
-- 1 = tangent to the normal of the profile
-- 2 = tangent to a selected vector
-- 3 = tangency to all the adjacent faces sharing an edge with the start profile
-- 4 = tangent to some of the selected faces sharing an edge with the start profile (not available)
+  - 0 = none
+  - 1 = tangent to the normal of the profile
+  - 2 = tangent to a selected vector
+  - 3 = tangency to all the adjacent faces sharing an edge with the start profile
+  - 4 = tangent to some of the selected faces sharing an edge with the start profile (not available)
 - `EndMatchingType`: Tangency type at the end profile:
 
-- 0 = none
-- 1 = tangent to the normal of the profile
-- 2 = tangent to a selected vector
-- 3 = tangency to all the adjacent faces sharing an edge with the start profile
-- 4 = tangent to some of the selected faces sharing an edge with the start profile (not available)
+  - 0 = none
+  - 1 = tangent to the normal of the profile
+  - 2 = tangent to a selected vector
+  - 3 = tangency to all the adjacent faces sharing an edge with the start profile
+  - 4 = tangent to some of the selected faces sharing an edge with the start profile (not available)
 - `StartTangentLength`: Start tangent length
 - `EndTangentLength`: End tangent length
 - `StartTangentDir`: True is one direction, false is the opposite
@@ -152,16 +146,14 @@ See
 - `Thickness2`: Thickness value for the second direction
 - `ThinType`: Thin wall type:
 
-- 0 = One direction
-- 1 = One direction reverse
-- 2 = Mid-plane
-- 3 = Two direction
+  - 0 = One direction
+  - 1 = One direction reverse
+  - 2 = Mid-plane
+  - 3 = Two direction
 - `Merge`: True merges the results in a multibody part, false does not
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
 - `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects
-- `GuideCurveInfluence`: Guide curves influence as defined in
-
-[swGuideCurveInfluence_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGuideCurveInfluence_e.html)
+- `GuideCurveInfluence`: Guide curves influence as defined in [swGuideCurveInfluence_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGuideCurveInfluence_e.html)
 
 ### Return Value
 
@@ -169,30 +161,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertProtrusionBlend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionBlend2.html)
-
-.
+See [FeatureManager::InsertProtrusionBlend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionBlend2.html).
 
 ## Examples
 
 [Insert Protrusion Blend (VBA)](Insert_Protrusion_Blend_Example_VB.htm)
-
 [Insert Protrusion Blend (VB.NET)](Insert_Protrusion_Blend_Example_VBNET.htm)
-
 [Insert Protrusion Blend (C#)](Insert_Protrusion_Blend_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (C#)](Insert_Fill-surface_Feature_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (VB.NET)](Insert_Fill-surface_Feature_Example_VBNET.htm)
-
 [Insert Fill-surface Feature (VBA)](Insert_Fill-surface_Feature_Example_VB.htm)
-
 [Select Multiple Splines for Loft Guide Curves (C#)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_CSharp.htm)
-
 [Select Multiple Splines for Loft Guide Curves (VB.NET)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_VBNET.htm)
-
 [Select Multiple Splines for Loft Guide Curves (VBA)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_VB.htm)
 
 ## Remarks
@@ -203,7 +183,7 @@ It is best to use guide curves, especially when you select profiles in the Featu
 
 You can use any number of profiles; however, if you select only one profile, then any selected guide curves must be closed curves.
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the profiles and guide curves. Set the mark for:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the profiles and guide curves. Set the mark for:
 
 - 1 = profile selections
 - 2 = guide curve selections
@@ -213,18 +193,15 @@ Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Inte
 - 32 = end tangency vector selection
 - 64 = end tangency faces selection (not available)
 
-NOTE:Linear edge, sketch line, axis, plane and planar faces are qualified for tangency vector sections.
+NOTE: Linear edge, sketch line, axis, plane and planar faces are qualified for tangency vector sections.
 
 When UseAutoSelect is false, the user must select the bodies that the feature will affect.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertCutBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutBlend.html)
-
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
 
 ## Availability

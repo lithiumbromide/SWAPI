@@ -1,6 +1,5 @@
 ---
-title: "CWBucklingStudyOptions Object
-Members"
+title: "CWBucklingStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWBucklingStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWBucklingStudyOptions_members.html"
 ---
 
-# CWBucklingStudyOptions Object
-Members
+# CWBucklingStudyOptions Object Members
 
 ## Public Methods
 
@@ -33,6 +31,7 @@ Members
 | Public Property EMailTimebased |  |
 | Public Property EMailTimebased2 |  |
 | Public Property EMailTo |  |
+| Public Property ExtractPositiveBucklingFactorsOnly |  |
 | Public Property FlowPressureFile |  |
 | Public Property FlowTemperatureFile |  |
 | Public Property ReferencePressureOption |  |

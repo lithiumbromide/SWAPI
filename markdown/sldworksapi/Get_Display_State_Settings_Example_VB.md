@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Display_State_Settings_Example_VB.htm"
 
 # Get Display State Settings Example (VBA)
 
-This example shows how to get display modes, transparency states, and
-visibility states of components.
+This example shows how to get display modes, transparency states, and visibility states of components.
 
 ```vb
  '------------------------------------------------------------------------------

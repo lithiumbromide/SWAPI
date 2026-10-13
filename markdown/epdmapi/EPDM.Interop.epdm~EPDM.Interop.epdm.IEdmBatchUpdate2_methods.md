@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_methods.ht
 
 # IEdmBatchUpdate2 Interface Methods
 
-For a list of all members of this type, see[IEdmBatchUpdate2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_members.html).
+For a list of all members of this type, see [IEdmBatchUpdate2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmBatchUpdate2 members](EPDM.Inter
 ## See Also
 
 [IEdmBatchUpdate2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

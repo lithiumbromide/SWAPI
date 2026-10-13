@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # HoleWizard2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::HoleWizard3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::HoleWizard3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard3.html).
 
 ## Syntax
 
@@ -147,30 +143,18 @@ Feature^ HoleWizard2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `GenericHoleType`: Hole type as defined in
-
-[swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdGeneralHoleTypes_e.html)
-- `StandardIndex`: Standard property as defined in[swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html)
-- `FastenerTypeIndex`: Screw type as defined in
-
-[swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
+- `GenericHoleType`: Hole type as defined in [swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdGeneralHoleTypes_e.html)
+- `StandardIndex`: Standard property as defined in [swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html)
+- `FastenerTypeIndex`: Screw type as defined in [swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
 - `SSize`: Size of the hole
-- `EndType`: End type as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `EndType`: End type as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `Diameter`: Diameter of the hole in meters
 - `Depth`: Depth of the hole in meters
-- `Value1`: Hole-related parameterParamDesc
+- `Value1`: Hole-related parameter
 - `Value2`: Hole-related parameter
 - `Value3`: Hole-related parameter
 - `Value4`: Hole-related parameter
@@ -184,11 +168,11 @@ See
 - `Value12`: Hole-related parameter
 - `ThreadClass`: One of the following thread classes:
 
-- 1B
-- 2B
-- 3B
+  - 1B
+  - 2B
+  - 3B
 
-Applies to ANSI inch standard only
+  Applies to ANSI inch standard only
 - `RevDir`: True to reverse the direction of the hole, false to not
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
 - `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects
@@ -197,29 +181,21 @@ Applies to ANSI inch standard only
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::HoleWizard2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard2.html)
-
-.
+See [FeatureManager::HoleWizard2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard2.html).
 
 ## Remarks
 
 To add a hole at multiple locations, preselect the sketch points and do not specify any selection marks.
 
-Screw Fit- As defined in[swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html)and only used if user does not specify a hole diameter; default value is NORMAL_FIT
+Screw Fit - As defined in [swWzdHoleScrewClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleScrewClearanceTypes_e.html) and only used if user does not specify a hole diameter; default value is NORMAL_FIT
 
-Drill Angle- defaults to 118 degrees if not specified
+Drill Angle - defaults to 118 degrees if not specified
 
-Input Metrics- Input angles in radians; input values in meters
+Input Metrics - Input angles in radians; input values in meters
 
 Parameters for this method:
 
@@ -231,13 +207,13 @@ Value1 through Value12 for different types of holes:
 
 ##### Counterbore Holes
 
-Head clearance- Added to either the input counterbore depth or the counterbore depth in the standard.
+Head clearance - Added to either the input counterbore depth or the counterbore depth in the standard.
 
 Parameters for all counterbore holes:
 
 ##### Countersink Holes
 
-Head clearance type- Value from[swWzdHoleCounterSinkHeadClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCounterSinkHeadClearanceTypes_e.html), which represents how to add the head clearance values to the hole.
+Head clearance type - Value from [swWzdHoleCounterSinkHeadClearanceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCounterSinkHeadClearanceTypes_e.html), which represents how to add the head clearance values to the hole.
 
 Parameters for all countersink holes:
 
@@ -247,25 +223,25 @@ Parameters for all holes:
 
 ##### Pipe Tapped Holes
 
-Tap Drill Depth- Depth can be set up as a ratio from the standard thread depth or the input thread depth. If the user does specify a tap drill depth, then the calculation from the thread depth is replaced with the specified depth.
+Tap Drill Depth - Depth can be set up as a ratio from the standard thread depth or the input thread depth. If the user does specify a tap drill depth, then the calculation from the thread depth is replaced with the specified depth.
 
-Cosmetic Thread Type- Defaults to swCosmeticThreadNone from[swWzdHoleCosmeticThreadTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCosmeticThreadTypes_e.html).
+Cosmetic Thread Type - Defaults to swCosmeticThreadNone from [swWzdHoleCosmeticThreadTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleCosmeticThreadTypes_e.html).
 
-Near countersink angle- Can be calculated from standard data as a default.
+Near countersink angle - Can be calculated from standard data as a default.
 
 Parameters for all ptap holes:
 
 ##### Tap Holes
 
-Tap Drill Depth- If the user specifies a tap drill depth, then SOLIDWORKS always uses this depth. Tap drill depths can be calculated:
+Tap Drill Depth - If the user specifies a tap drill depth, then SOLIDWORKS always uses this depth. Tap drill depths can be calculated:
 
-Thread Depth- If the user specifies thread depth, then SOLIDWORKS always uses this depth. Tap drill depths can be calculated:
+Thread Depth - If the user specifies thread depth, then SOLIDWORKS always uses this depth. Tap drill depths can be calculated:
 
-Cosmetic Thread Type- Specified as defined in swWzdHoleCosmeticThreadTypes_e.
+Cosmetic Thread Type - Specified as defined in swWzdHoleCosmeticThreadTypes_e.
 
-Hcoil Tap Type- Defaults to swTapTypePlug as defined in[swWzdHoleHcoilTapTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleHcoilTapTypes_e.html); used only for the helicoil standard holes.
+Hcoil Tap Type - Defaults to swTapTypePlug as defined in [swWzdHoleHcoilTapTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleHcoilTapTypes_e.html); used only for the helicoil standard holes.
 
-Thread end condition- Defaults to swEndThreadTypeBLIND as defined in[swWzdHoleThreadEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleThreadEndCondition_e.html).
+Thread end condition - Defaults to swEndThreadTypeBLIND as defined in [swWzdHoleThreadEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleThreadEndCondition_e.html).
 
 Parameters for all ptap holes:
 
@@ -298,9 +274,7 @@ C-Drilled Drilled
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
 
 ## Availability

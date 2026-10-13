@@ -46,11 +46,7 @@ True if the feature is suppressed from view; false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertFeature::IsSuppressed](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~IsSuppressed.html)
-
-.
+See [SwDMDimXpertFeature::IsSuppressed](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~IsSuppressed.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
 [ISwDMDimXpertFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature_members.html)
 
 ## Availability

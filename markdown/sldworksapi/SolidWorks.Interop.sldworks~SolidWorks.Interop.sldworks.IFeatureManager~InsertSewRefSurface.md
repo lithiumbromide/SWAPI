@@ -63,24 +63,14 @@ Feature^ InsertSewRefSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseGapFilters`: True to use gap filters, false to not
 - `TryToFormSolid`: True to form a solid body, false to no
 - `MergeEntities`: True to merge edges and faces by removing redundant vertices and edges, false to not
-- `KnitTolerance`: Knit tolerance (see
-
-Remarks
-
-)
+- `KnitTolerance`: Knit tolerance (see **Remarks**)
 - `MaxValueForGapRange`: Maximum value of gap range for gap filters
 
 ### Return Value
@@ -89,23 +79,17 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSewRefSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSewRefSurface.html)
-
-.
+See [FeatureManager::InsertSewRefSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSewRefSurface.html).
 
 ## Examples
 
 [Create Surface Knit Feature (VB.NET)](Create_Surface_Knit_Feature_Example_VBNET.htm)
-
 [Create Surface Knit Feature (VBA)](Create_Surface_Knit_Feature_Example_VB6.htm)
-
 [Create Surface Knit Feature (C#)](Create_Surface_Knit_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-Make selections using[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a mark number of 1. See the SOLIDWORKS Help for information about what entities are valid for selection.
+Make selections using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark number of 1. See the SOLIDWORKS Help for information about what entities are valid for selection.
 
 A knit tolerance's:
 
@@ -119,9 +103,7 @@ The knit tolerance value should be in a gap range such that:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceKnitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html)
 
 ## Availability

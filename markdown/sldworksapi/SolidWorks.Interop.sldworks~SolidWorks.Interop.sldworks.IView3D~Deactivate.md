@@ -39,21 +39,11 @@ void Deactivate()
 void Deactivate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View3D::Deactivate](ms-its:sldworksapivb6.chm::/sldworks~View3D~Deactivate.html)
-
-.
+See [View3D::Deactivate](ms-its:sldworksapivb6.chm::/sldworks~View3D~Deactivate.html).
 
 ## Remarks
 
@@ -68,18 +58,13 @@ Restoring the previously backed-up model state of a 3D View might not be this 3D
 
 For example:
 
-1. Call
-
-  [IView3D::Activate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D~Activate.html)
-
-  and set the SaveLastState parameter to true (i.e., previous model state backed up) for 3DView1.
+1. Call [IView3D::Activate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D~Activate.html) and set the SaveLastState parameter to true (i.e., previous model state backed up) for 3DView1.
 2. Call IView3D::Activate and set the SaveLastState parameter to false (i.e., previous model state not backed up) for 3DView2.
 3. Call IView3D::Deactivate for 3DView1 or 3DView2, then the model state prior to activating 3DView1 is restored.
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

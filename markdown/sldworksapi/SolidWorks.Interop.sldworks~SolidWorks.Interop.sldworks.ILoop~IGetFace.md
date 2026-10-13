@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # IGetFace Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::IGetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetFace.html)
-
-.
+Obsolete. Superseded by [ILoop2::IGetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetFace.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Face IGetFace()
 Face^ IGetFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Loop::IGetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop~IGetFace.html)
-
-.
+See [Loop::IGetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop~IGetFace.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

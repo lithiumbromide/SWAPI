@@ -40,42 +40,27 @@ Face2 GetAlternateFace()
 Face2^ GetAlternateFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the alternate face, the
-
-[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-object
+Pointer to the alternate face, the [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) object
 
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::GetAlternateFace](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~GetAlternateFace.html)
-
-.
+See [FillSurfaceFeatureData::GetAlternateFace](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~GetAlternateFace.html).
 
 ## Remarks
 
 This method is valid only when the contact type is tangent and edges are used to define the patch boundary. If an edge has two faces, then this method returns the face with which the resultant feature geometry is tangent.
 
-Use[IFillSurfaceFeatureData::GetCurvatureControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~GetCurvatureControl.html)to determine the contact type.
+Use [IFillSurfaceFeatureData::GetCurvatureControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~GetCurvatureControl.html) to determine the contact type.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
 
 ## Availability

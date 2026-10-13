@@ -45,13 +45,7 @@ property System.int LengthDecimalPlaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Number of decimal places for length measurements
 
 ## VBA Syntax
 
-See
-
-[Measure::LengthDecimalPlaces](ms-its:sldworksapivb6.chm::/Sldworks~Measure~LengthDecimalPlaces.html)
-
-.
+See [Measure::LengthDecimalPlaces](ms-its:sldworksapivb6.chm::/Sldworks~Measure~LengthDecimalPlaces.html).
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::Length Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Length.html)
-
 [IMeasure::TotalLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~TotalLength.html)
 
 ## Availability

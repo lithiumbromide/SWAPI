@@ -40,39 +40,23 @@ System.object GetEllipses()
 System.Object^ GetEllipses();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array containing an array of doubles (see
-
-Remarks
-
-)
+Array containing an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetEllipses](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetEllipses.html)
-
-.
+See [SketchBlockDefinition::GetEllipses](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetEllipses.html).
 
 ## Remarks
 
 The return values are in an array of doubles:
 
-[Color, LineType, LineFont, LineWidth, LayerID, LayerOverride, StartPt[3], EndPt[3], CenterPt[3], MajorPt[3], MinorPt[3],Direction ...]
+[ Color, LineType, LineFont, LineWidth, LayerID, LayerOverride, StartPt[3], EndPt[3], CenterPt[3], MajorPt[3], MinorPt[3],Direction ... ]
 
 where:
-
-(Table)=========================================================
 
 | Color : | COLORREF returned as an integer. Return value could be 0 or -1 for default color. |
 | --- | --- |
@@ -93,11 +77,8 @@ This set of data repeats for each ellipse in the sketch. The size of the array i
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetEllipseCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetEllipseCount.html)
-
 [ISketchBlockDefinition::IGetEllipses Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetEllipses.html)
 
 ## Availability

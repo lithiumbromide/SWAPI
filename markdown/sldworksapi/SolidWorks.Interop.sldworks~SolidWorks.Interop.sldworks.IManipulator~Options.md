@@ -45,33 +45,15 @@ property System.int Options {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Option as defined in
-
-[swManipulatorOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorOptions_e.html)
-
-(see
-
-Remarks
-
-)
+Option as defined in [swManipulatorOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swManipulatorOptions_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Options](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Options.html)
-
-.
+See [Manipulator::Options](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Options.html).
 
 ## Remarks
 
@@ -80,7 +62,6 @@ SOLIDWORKS recommends setting this property to swManipulatorOpts_KeepAfterCompon
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

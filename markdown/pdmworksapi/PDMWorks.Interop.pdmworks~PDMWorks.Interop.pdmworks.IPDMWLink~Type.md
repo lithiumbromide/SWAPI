@@ -47,22 +47,15 @@ property PDMWLinkType Type {
 
 ### Property Value
 
-Type of link as defined by
-
-[PDMWLinkType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWLinkType.html)
+Type of link as defined by [PDMWLinkType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWLinkType.html)
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Type](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Type.html)
-
-.
+See [PDMWLink::Type](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Type.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

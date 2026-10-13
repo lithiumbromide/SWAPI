@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyFrequencyConstraint Interface
 
-Allows access to a frequency constraint in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a frequency constraint in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyFrequencyConstraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint.html)
-
-.
+See [CWTopologyFrequencyConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint.html).
 
 ## Examples
 
@@ -61,7 +49,7 @@ See
 
 Frequency constraints always run with the Intel direct sparse solver.
 
-See the**Goals and Constraints**topic in the Simulation user-interface help for more information.
+See the **Goals and Constraints** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -72,5 +60,4 @@ See the**Goals and Constraints**topic in the Simulation user-interface help for 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

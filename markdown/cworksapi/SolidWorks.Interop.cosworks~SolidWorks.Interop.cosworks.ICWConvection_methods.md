@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # ICWConvection Interface Methods
 
-For a list of all members of this type, see[ICWConvection members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html).
+For a list of all members of this type, see [ICWConvection members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html).
 
 ## Public Methods
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[ICWConvection members](SolidWorks.In
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

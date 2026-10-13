@@ -35,12 +35,9 @@ property IEdmVault5^ Vault {
 
 ### Property Value
 
-[File vault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-to which this file belongs
+[File vault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html) to which this file belongs
 
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)

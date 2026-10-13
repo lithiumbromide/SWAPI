@@ -47,30 +47,19 @@ property System.int IncompatibleBondingOption {
 
 ### Property Value
 
-Incompatible bonding option as defined in
-
-[swsIncompatibleBondingOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsIncompatibleBondingOption_e.html)
+Incompatible bonding option as defined in [swsIncompatibleBondingOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsIncompatibleBondingOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::IncompatibleBondingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncompatibleBondingOption.html)
-
-.
+See [CWStaticStudyOptions::IncompatibleBondingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~IncompatibleBondingOption.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

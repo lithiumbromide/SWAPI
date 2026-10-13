@@ -40,13 +40,7 @@ System.int GetTableAnnotationCount()
 System.int GetTableAnnotationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of BOM table annotations for this BOM table feature
 
 ## VBA Syntax
 
-See
-
-[BomFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetTableAnnotationCount.html)
-
-.
+See [BomFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetTableAnnotationCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IBomFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~IGetTableAnnotations.html)
-
-.
+Call this method before calling [IBomFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~IGetTableAnnotations.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::GetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~GetTableAnnotations.html)
 
 ## Availability

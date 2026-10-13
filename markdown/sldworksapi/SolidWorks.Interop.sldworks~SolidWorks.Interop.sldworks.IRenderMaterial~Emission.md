@@ -45,36 +45,19 @@ property System.double Emission {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Amount of
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-light projected from the appearance
+Amount of light projected from the appearance
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Emission](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Emission.html)
-
-.
+See[RenderMaterial::Emission](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Emission.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

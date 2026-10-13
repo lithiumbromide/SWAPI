@@ -9,13 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # ISetSurfaceTypeFilter Method (IPowerSelect)
 
-Sets the surface types, such as planes, cylinders, cones, etc.,
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to select in the surface type filter.
+Sets the surface types, such as planes, cylinders, cones, etc., to select in the surface type filter.
 
 ## Syntax
 
@@ -60,32 +54,23 @@ System.int ISetSurfaceTypeFilter(
 ### Parameters
 
 - `lSurfTypeCount`: Number of surface types to select
-- `pSurfTypeArr`: Array of the surface types to selectParamDesc
+- `pSurfTypeArr`: Array of the surface types to select
 
 ### Return Value
 
-Error as defined inParamDesc[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::ISetSurfaceTypeFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~ISetSurfaceTypeFilter.html)
-
-.
+See [IPowerSelect::ISetSurfaceTypeFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~ISetSurfaceTypeFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::SetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetSurfaceTypeFilter.html)
-
 [IPowerSelect::IGetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetSurfaceTypeFilter.html)
-
 [IPowerSelect::GetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSurfaceTypeFilter.html)
-
 [IPowerSelect::GetSurfaceTypeCount Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSurfaceTypeCount.html)
 
 ## Availability

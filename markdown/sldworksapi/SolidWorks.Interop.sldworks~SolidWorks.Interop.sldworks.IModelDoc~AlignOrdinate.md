@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AlignOrdinate Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AlignOrdinate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AlignOrdinate.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AlignOrdinate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AlignOrdinate.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void AlignOrdinate()
 void AlignOrdinate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AlignOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AlignOrdinate.html)
-
-.
+See [ModelDoc::AlignOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AlignOrdinate.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

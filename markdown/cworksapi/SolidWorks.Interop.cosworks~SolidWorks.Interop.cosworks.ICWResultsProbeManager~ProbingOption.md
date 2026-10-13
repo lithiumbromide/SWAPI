@@ -47,30 +47,19 @@ property System.int ProbingOption {
 
 ### Property Value
 
-Option as defined in
-
-[swsProbePostResultOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultOption_e.html)
+Option as defined in [swsProbePostResultOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager::ProbingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ProbingOption.html)
-
-.
+See [CWResultsProbeManager::ProbingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ProbingOption.html).
 
 ## Examples
 
-See the
-
-[ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
-examples.
+See the [ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html) examples.
 
 ## See Also
 
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
 
 ## Availability

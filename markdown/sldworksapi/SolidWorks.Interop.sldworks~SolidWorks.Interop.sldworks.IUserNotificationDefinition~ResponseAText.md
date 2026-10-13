@@ -45,13 +45,7 @@ property System.String^ ResponseAText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Text displayed on first user response control; default is an empty string
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::ResponseAText](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseAText.html)
-
-.
+See [UserNotificationDefinition::ResponseAText](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseAText.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

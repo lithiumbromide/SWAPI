@@ -9,8 +9,7 @@ source: "swutilitiesapi/Compare_Features_VB6.htm"
 
 # Compare Features Example (VBA)
 
-This example shows how to compare the solid features between the original
-and modified parts using the SOLIDWORKS Utilities API.
+This example shows how to compare the solid features between the original and modified parts using the SOLIDWORKS Utilities API.
 
 ```
 '------------------------------------------------------------------------------

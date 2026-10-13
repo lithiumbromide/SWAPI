@@ -62,16 +62,12 @@ void GetAllCustomPropertyNamesAndValues(
 
 - `names`: Array of Property Names
 - `types`: Array of Types
-- `linkedTo`: Array of linked to Values/Text ExpressionParamDescs (seeRemarks)
+- `linkedTo`: Array of linked to Values/Text Expressions (see Remarks)
 - `values`: Array of Evaluated Values
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument3::GetAllCustomPropertyNamesAndValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument3~GetAllCustomPropertyNamesAndValues.html)
-
-.
+See [SwDMDocument3::GetAllCustomPropertyNamesAndValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument3~GetAllCustomPropertyNamesAndValues.html).
 
 ## Remarks
 
@@ -82,24 +78,17 @@ See
 
 This method returns evaluated values from when the document was last saved in SOLIDWORKS.
 
-If you called[ISwDMDocument::SetCustomProperty](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~SetCustomProperty.html)to set a linked custom property, then you must open and save the file in SOLIDWORKS before calling this method. SOLIDWORKS must process the linked custom property before your DocumentMgr application can retrieve its evaluated value.
+If you called [ISwDMDocument::SetCustomProperty](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~SetCustomProperty.html) to set a linked custom property, then you must open and save the file in SOLIDWORKS before calling this method. SOLIDWORKS must process the linked custom property before your DocumentMgr application can retrieve its evaluated value.
 
 ## See Also
 
 [ISwDMDocument3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument3.html)
-
 [ISwDMDocument3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument3_members.html)
-
 [ISwDMDocument::DeleteCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~DeleteCustomProperty.html)
-
 [ISwDMDocument::GetCustomPropertyCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~GetCustomPropertyCount.html)
-
 [ISwDMDocument::GetCustomPropertyNames Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~GetCustomPropertyNames.html)
-
 [ISwDMConfiguration4::GetAllCustomPropertyNamesAndValues Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration4~GetAllCustomPropertyNamesAndValues.html)
-
 [ISwDMDocument5::GetCustomPropertyValues Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5~GetCustomPropertyValues.html)
-
 [ISwDMDocument17::GetCustomProperty2 Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument17~GetCustomProperty2.html)
 
 ## Availability

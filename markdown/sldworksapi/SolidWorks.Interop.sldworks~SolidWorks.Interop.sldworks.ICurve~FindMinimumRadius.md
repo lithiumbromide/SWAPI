@@ -63,37 +63,15 @@ System.bool FindMinimumRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Bound`: Array of doubles containing the start and end boundaries (see
-
-Remarks
-
-)
+- `Bound`: Array of doubles containing the start and end boundaries (see **Remarks**)
 - `NumOfRadius`: Number of radius returned; can be 0 or 1
-- `Radius`: Minimum radius of curvature (see
-
-Remarks
-
-)
-- `Location`: Position where minimum radius curvature occurred (see
-
-Remarks
-
-)
-- `Parameter`: Curve parameter (see
-
-Remarks
-
-)
+- `Radius`: Minimum radius of curvature (see **Remarks**)
+- `Location`: Position where minimum radius curvature occurred (see **Remarks**)
+- `Parameter`: Curve parameter (see **Remarks**)
 
 ### Return Value
 
@@ -101,11 +79,7 @@ True if operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[Curve::FindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Curve~FindMinimumRadius.html)
-
-.
+See [Curve::FindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Curve~FindMinimumRadius.html).
 
 ## Examples
 
@@ -118,23 +92,16 @@ The search is confined to the portion of the selected curve lying inside of Boun
 COM returns these data types for these parameters:
 
 - Radius: VARIANT of SafeDoubleArray
-- Location: VARIANT of SafeDispatchArray of
-
-  [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
+- Location: VARIANT of SafeDispatchArray of [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
 - Parameter: VARIANT of SafeDoubleArray
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IFindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IFindMinimumRadius.html)
-
 [ISurface::FindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~FindMinimumRadius.html)
-
 [ISurface::IFindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IFindMinimumRadius.html)
-
 [ICurve::GetEndParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetEndParams.html)
 
 ## Availability

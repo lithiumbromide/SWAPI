@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Derived_Configurations_Example_VB.htm"
 
 # Add Derived Configurations Example (VBA)
 
-This example shows how to add a derived configuration for each existing
-configuration.
+This example shows how to add a derived configuration for each existing configuration.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -40,40 +40,20 @@ System.object PreSplitBody2()
 System.Object^ PreSplitBody2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-that result from splitting a part (see
-
-Remarks
-
-)
+Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that result from splitting a part (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::PreSplitBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreSplitBody2.html)
-
-.
+See [FeatureManager::PreSplitBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreSplitBody2.html).
 
 ## Examples
 
 [Create Split Feature (VBA)](Create_Split-body_Feature_Example_VB.htm)
-
 [Create Split Feature (VB.NET)](Create_Split-body_Feature_Example_VBNET.htm)
-
 [Create Split Feature (C#)](Create_Split-body_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -84,18 +64,15 @@ To create a Split feature:
 
 1. Select the cutting tools to use to split the part into multiple bodies.
 2. Call this method to get all of the split bodies.
-3. Create the Split feature using[IFeatureManager::PostSplitBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostSplitBody.html).
+3. Create the Split feature using [IFeatureManager::PostSplitBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostSplitBody.html).
 
-To find out whether the bodies in a Split feature are consumed, use[ISplitBodyFeatureData::Consume](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~Consume.html).
+To find out whether the bodies in a Split feature are consumed, use [ISplitBodyFeatureData::Consume](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~Consume.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISplitBodyFeatureData::GetSplitBodies Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html)
-
 [ISplitBodyFeatureData::SetSplitBodies2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~SetSplitBodies2.html)
 
 ## Availability

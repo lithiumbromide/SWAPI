@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Mass_Properties_of_Assembly_Component_Example_VB.htm"
 
 # Get Mass Properties of Assembly Component Example (VBA)
 
-An assembly component (part or sub-assembly) can contain assembly-level
-features, typically cuts. These features affect the mass properties, but
-the features are not present in the part or sub-assembly.
+An assembly component (part or sub-assembly) can contain assembly-level features, typically cuts. These features affect the mass properties, but the features are not present in the part or sub-assembly.
 
 This example shows to get the mass properties of an assembly component.
 

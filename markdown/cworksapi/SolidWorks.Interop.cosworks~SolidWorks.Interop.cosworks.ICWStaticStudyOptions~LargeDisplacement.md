@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # LargeDisplacement Property (ICWStaticStudyOptions)
 
-Obsolete. Superseded by[ICWStaticStudyOptions::LargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~LargeDisplacement2.html).
+Obsolete. Superseded by [ICWStaticStudyOptions::LargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~LargeDisplacement2.html).
 
 ## Syntax
 
@@ -52,19 +52,11 @@ property System.int LargeDisplacement {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::LargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~LargeDisplacement.html)
-
-.
+See [CWStaticStudyOptions::LargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~LargeDisplacement.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## Remarks
 
@@ -73,7 +65,6 @@ The number of steps is internally decided by the software.
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

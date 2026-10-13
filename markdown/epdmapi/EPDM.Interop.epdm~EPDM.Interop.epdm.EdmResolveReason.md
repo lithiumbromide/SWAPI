@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmResolveReason.html"
 
 # EdmResolveReason Enumeration
 
-Types of flags, which contain the reason for the function call, to pass to your implementation of
-
-[IEdmCallback6::Resolve](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6~Resolve.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of flags, which contain the reason for the function call, to pass to your implementation of [IEdmCallback6::Resolve](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6~Resolve.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

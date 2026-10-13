@@ -67,22 +67,16 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertLineProfileTolerance::GetPlanarZoneVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertLineProfileTolerance~GetPlanarZoneVector.html)
-
-.
+See [DimXpertLineProfileTolerance::GetPlanarZoneVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertLineProfileTolerance~GetPlanarZoneVector.html).
 
 ## Examples
 
 [Get DimXpert Tolerance4 Example (VBA)](Get_DimXpert_Tolerance4_Example_VB.htm)
-
 [Get DimXpert Tolerance4 Example (VB.NET)](Get_DimXpert_Tolerance4_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertLineProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertLineProfileTolerance.html)
-
 [IDimXpertLineProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertLineProfileTolerance_members.html)
 
 ## Availability

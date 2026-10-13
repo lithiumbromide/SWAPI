@@ -51,28 +51,17 @@ Pressure value
 
 ## VBA Syntax
 
-See
-
-[CWPressure::Value](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Value.html)
-
-.
+See [CWPressure::Value](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Value.html).
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Unit.html)
-
 [ICWPressure::ReverseDirection Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~ReverseDirection.html)
 
 ## Availability

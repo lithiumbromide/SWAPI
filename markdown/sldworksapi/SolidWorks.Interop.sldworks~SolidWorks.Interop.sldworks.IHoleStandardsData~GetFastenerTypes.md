@@ -55,21 +55,11 @@ System.bool GetFastenerTypes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StandardName`: Standard name (see
-
-Remarks
-
-)
+- `StandardName`: Standard name (see **Remarks**)
 - `FastenerIndexes`: Array of fastener indexes
 - `FastenerNames`: Array of fastener names
 
@@ -79,32 +69,19 @@ True if fastener types successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleStandardsData::GetFastenerTypes](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetFastenerTypes.html)
-
-.
+See [HoleStandardsData::GetFastenerTypes](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetFastenerTypes.html).
 
 ## Examples
 
-See the
-
-[IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
-example.
+See the [IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html) example.
 
 ## Remarks
 
-To set StandardName, use
-
-[IHoleStandardsData::GetHoleStandards](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetHoleStandards.html)
-
-.
+To set StandardName, use [IHoleStandardsData::GetHoleStandards](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetHoleStandards.html).
 
 ## See Also
 
 [IHoleStandardsData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
 [IHoleStandardsData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData_members.html)
 
 ## Availability

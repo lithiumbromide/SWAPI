@@ -9,8 +9,7 @@ source: "sldworksapi/Rotate_Scale_Copy_Sketch_Example_VB.htm"
 
 # Rotate, Scale, and Copy Sketch Example (VBA)
 
-This example shows how to rotate a sketch; scale,
-copy, and rotate selected entities of the sketch; and scale the entire sketch.
+This example shows how to rotate a sketch; scale, copy, and rotate selected entities of the sketch; and scale the entire sketch.
 
 ```
 '-------------------------------------------------------------------------

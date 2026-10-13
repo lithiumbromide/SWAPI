@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 Allows access to a curve-driven pattern feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ICurveDrivenPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData.html)
-
-.
+See [CurveDrivenPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData.html).
 
 ## Examples
 
 [Create and Access Curve-driven Pattern Feature (C#)](Create_and_Access_Curve-driven_Pattern_Feature_Example_CSharp.htm)
-
 [Create and Access Curve-driven Pattern Feature (VB.NET)](Create_and_Access_Curve-driven_Pattern_Feature_Example_VBNET.htm)
-
 [Create and Access Curve-driven Pattern Feature (VBA)](Create_and_Access_Curve-driven_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html), you must pre-select the entities needed to create the curve-driven pattern feature.
+Before calling [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html), you must pre-select the entities needed to create the curve-driven pattern feature.
 
 | To select ... | Use Mark=... |
 | --- | --- |
@@ -70,9 +64,9 @@ Before calling[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~So
 
 After calling IFeatureManager::CreateDefinition, you can explicitly set other properties on the feature data object.
 
-You must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the curve-driven pattern feature.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the curve-driven pattern feature.
 
-For more information about curve-driven pattern features, see the**Parts and Features > Features > Patterns and Mirroring > Types of Patterns > Curve Driven Patterns and the Curve Driven Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information about curve-driven pattern features, see the **Parts and Features > Features > Patterns and Mirroring > Types of Patterns > Curve Driven Patterns and the Curve Driven Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -87,7 +81,5 @@ IFeatureManager::CreateDefinition
 ## See Also
 
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)

@@ -42,19 +42,14 @@ void SetProperty(
 
 ### Parameters
 
-- `eProperty`: Type of property to update as defined in
-
-[EdmRefItemProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemProperty.html)
+- `eProperty`: Type of property to update as defined in [EdmRefItemProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemProperty.html)
 - `oValue`: New property value
 
 ## Examples
 
 [Access Check-in Flags in Check out Dialog (C#)](Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp.htm)
-
 [Access Check-in Flags in Check out Dialog (VB.NET)](Access_Check-in_Flags_in_Check_in_Dialog_Example_VBNET.htm)
-
 [Prevent Admin from Checking In File (C#)](Prevent_Admin_from_Checking_In_File_Example_CSharp.htm)
-
 [Prevent Admin from Checking In File (VB.NET)](Prevent_Admin_from_Checking_In_File_Example_VBNET.htm)
 
 ## Remarks
@@ -67,7 +62,6 @@ void SetProperty(
 ## See Also
 
 [IEdmRefItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
 [IEdmRefItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem_members.html)
 
 ## Availability

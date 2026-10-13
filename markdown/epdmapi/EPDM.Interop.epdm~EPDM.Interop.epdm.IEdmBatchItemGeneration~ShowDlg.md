@@ -43,21 +43,11 @@ System.bool ShowDlg(
 
 ### Return Value
 
-True if the user clicked
-
-OK
-
-, false if the user clicked
-
-Cancel
+True if the user clicked **OK**, false if the user clicked **Cancel**
 
 ## Examples
 
-See the example in the
-
-[IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
-topic.
+See the example in the [IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html) topic.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ topic.
 ## See Also
 
 [IEdmBatchItemGeneration Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
 [IEdmBatchItemGeneration Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration_members.html)
 
 ## Availability

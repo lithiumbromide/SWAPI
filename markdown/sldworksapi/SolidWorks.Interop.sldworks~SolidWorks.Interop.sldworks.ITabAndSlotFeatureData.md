@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 Allows access to a tab and slot feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,19 @@ public interface class ITabAndSlotFeatureData
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotFeatureData](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotFeatureData.html)
-
-.
+See [TabAndSlotFeatureData](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotFeatureData.html).
 
 ## Examples
 
 'VBA
 
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\whatsnew\sheet metal\tab_and_slot.sldprt**.
+' 1. Open `public_documents`**\samples\whatsnew\sheet metal\tab_and_slot.sldprt**.
 ' 2. Run this macro until the Stop.
-' 3. Select**Tab and Slot-Tab1**in the FeatureManager design tree;
+' 3. Select **Tab and Slot-Tab1** in the FeatureManager design tree;
 ' 5 tabs/slots created
 ' 4. Press F5 to continue.
-' 5. Select**Tab and Slot-Tab1**in the FeatureManager design tree;
+' 5. Select **Tab and Slot-Tab1** in the FeatureManager design tree;
 ' 1 tab/slot remains
 
 ' *****************************************************************************
@@ -88,26 +84,26 @@ Part.ClearSelection2 True
 Set featdata = Part.FeatureManager.**CreateDefinition**(swFmTabAndSlot)
 
 Set grp = featdata.**SelectionAddNewGroup**
-grp.**Offset**= True
-grp.**SelectionTabEdge**= swedge
-grp.**SelectionSlotFace**= swface
-Part.FeatureManager.**CreateFeature**featdata
+grp.**Offset** = True
+grp.**SelectionTabEdge** = swedge
+grp.**SelectionSlotFace** = swface
+Part.FeatureManager.**CreateFeature** featdata
 
 Stop
-' Select**Tab and Slot-Tab1**in the FeatureManager design tree; 5 tabs/slots created on the part
+' Select **Tab and Slot-Tab1** in the FeatureManager design tree; 5 tabs/slots created on the part
 ' Press F5 to continue
 
 Set feat = Part.SelectionManager.GetSelectedObject6(1, -1)
 Set newFeatData = feat.**GetDefinition**
 Dim var As Variant
-newFeatData.**AccessSelections**Part, Nothing
+newFeatData.**AccessSelections** Part, Nothing
 var = newFeatData.**SelectionGetGroups**
-var(0).**Offset**= False
-var(0).**SpacingType**= 0
-var(0).**SpacingNumberOfInstances**= 1
-feat.**ModifyDefinition**newFeatData, Part, Nothing
+var(0).**Offset** = False
+var(0).**SpacingType** = 0
+var(0).**SpacingNumberOfInstances** = 1
+feat.**ModifyDefinition** newFeatData, Part, Nothing
 
-' Select**Tab and Slot-Tab1**in the FeatureManager design tree; only one tab and slot remain
+' Select **Tab and Slot-Tab1** in the FeatureManager design tree; only one tab and slot remain
 
 End Sub
 
@@ -117,7 +113,7 @@ End Sub
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
 
@@ -128,7 +124,5 @@ End Sub
 ## See Also
 
 [ITabAndSlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)

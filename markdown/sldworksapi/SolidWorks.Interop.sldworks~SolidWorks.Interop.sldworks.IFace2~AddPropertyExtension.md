@@ -47,21 +47,11 @@ System.int AddPropertyExtension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PropertyExtension`: Value of the property extension to add to this face (see
-
-Remarks
-
-)
+- `PropertyExtension`: Value of the property extension to add to this face (see **Remarks**)
 
 ### Return Value
 
@@ -69,11 +59,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[Face2::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face2~AddPropertyExtension.html)
-
-.
+See [Face2::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face2~AddPropertyExtension.html).
 
 ## Remarks
 
@@ -88,16 +74,13 @@ To use this method:
 2. Assign the variable a value: float, integer, or string.
 3. Call this method to add the value to the face.
 
-**NOTE**: SOLIDWORKS recommends that you use the[IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html),[IAttributeDef](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html), and[IParameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter.html)interfaces instead of this method. These interfaces provide more flexibility.
+**NOTE**: SOLIDWORKS recommends that you use the [IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html), [IAttributeDef](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttributeDef.html), and [IParameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter.html) interfaces instead of this method. These interfaces provide more flexibility.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetPropertyExtension.html)
-
 [IFace2::ResetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ResetPropertyExtension.html)
 
 ## Availability

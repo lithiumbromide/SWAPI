@@ -58,11 +58,7 @@ public enum class swBalloonTextContent_e : public System.Enum
 
 ## Remarks
 
-Although these values are similar to those in
-
-[swDetailingNoteTextContent_e](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDetailingNoteTextContent_e.html)
-
-, they are not the same.
+Although these values are similar to those in [swDetailingNoteTextContent_e](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDetailingNoteTextContent_e.html), they are not the same.
 
 ## See Also
 

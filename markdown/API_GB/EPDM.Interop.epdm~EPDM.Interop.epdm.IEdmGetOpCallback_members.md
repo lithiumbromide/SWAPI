@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.ht
 
 # IEdmGetOpCallback Interface Members
 
-The following tables list the members exposed by[IEdmGetOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html).
+The following tables list the members exposed by [IEdmGetOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html).
 
 ## Public Methods
 
@@ -27,7 +27,5 @@ The following tables list the members exposed by[IEdmGetOpCallback](EPDM.Interop
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmBatchGet::GetFiles Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFiles.html)

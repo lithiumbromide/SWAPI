@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of sketch hatches for this sketch hatch enumeration
-- `Rgelt`: Pointer to an array of
-
-[sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html) of size Celt
 - `PceltFetched`: Pointer to the number of sketch hatches returned from the list; this value can be less than celt if you ask for more SketchHatch objects than exist, or it can be NULL if no more SketchHatch objects exist
 
 ## VBA Syntax
 
-See
-
-[EnumSketchHatches::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchHatches~Next.html)
-
-.
+See [EnumSketchHatches::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchHatches~Next.html).
 
 ## Remarks
 
@@ -87,7 +73,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchHatches Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches.html)
-
 [IEnumSketchHatches Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches_members.html)
 
 ## Availability

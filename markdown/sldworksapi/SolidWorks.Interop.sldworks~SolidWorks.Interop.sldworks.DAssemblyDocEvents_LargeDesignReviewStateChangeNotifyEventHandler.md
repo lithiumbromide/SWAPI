@@ -46,28 +46,16 @@ public delegate System.int DAssemblyDocEvents_LargeDesignReviewStateChangeNotify
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PreviousState`: Old LDR state as defined by
-
-[swAssemblyMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyMode_e.html)
+- `PreviousState`: Old LDR state as defined by [swAssemblyMode_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyMode_e.html)
 - `newState`: New LDR state as defined by swAssemblyMode_e
 
 ## VBA Syntax
 
-See
-
-[LargeDesignReviewStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~LargeDesignReviewStateChangeNotify_EV.html)
-
-.
+See [LargeDesignReviewStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~LargeDesignReviewStateChangeNotify_EV.html).
 
 ## Examples
 
@@ -89,7 +77,7 @@ See
 
 '==================================================
 
-'module
+**'module**
 
 Dim swApp As SldWorks.SldWorks
 
@@ -107,7 +95,7 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-Set swModel = swApp. ActiveDoc
+Set swModel = swApp.**ActiveDoc**
 
 Set swAssembly = swModel
 
@@ -119,11 +107,11 @@ Set swAssemblyEvents.swAssembly = swAssembly
 
 End Sub
 
-‘Class1 module
+**‘Class1 module**
 
 Public WithEvents swAssembly As SldWorks.AssemblyDoc
 
-Private Function swAssembly_ LargeDesignReviewStateChangeNotify (ByVal PreviousState As Integer, ByVal NewState As Integer) As Long
+Private Function swAssembly_**LargeDesignReviewStateChangeNotify**(ByVal PreviousState As Integer, ByVal NewState As Integer) As Long
 
 If (PreviousState = swAssemblyMode_LDR) Then
 
@@ -169,7 +157,7 @@ End If
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyLargeDesignReviewStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyLargeDesignReviewStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -42,13 +42,7 @@ property CustomPropertyManager^ CustomPropertyManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[CutListItem::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~CutListItem~CustomPropertyManager.html)
-
-.
+See [CutListItem::CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~CutListItem~CustomPropertyManager.html).
 
 ## See Also
 
 [ICutListItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem.html)
-
 [ICutListItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem_members.html)
 
 ## Availability

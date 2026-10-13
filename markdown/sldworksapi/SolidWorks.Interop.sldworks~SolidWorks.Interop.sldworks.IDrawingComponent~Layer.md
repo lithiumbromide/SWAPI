@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Name of the layer on which this component resides
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::Layer](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Layer.html)
-
-.
+See [DrawingComponent::Layer](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Layer.html).
 
 ## Remarks
 
@@ -77,15 +67,12 @@ If the drawing component is an assembly:
 
 - you can set the layer, and the layers of child drawing components will also be set.
 - the query returns an empty string because the layer is uniquely defined in case child
-
   drawing components reside on different layers.
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::Layer Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Layer.html)
 
 ## Availability

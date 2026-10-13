@@ -40,34 +40,20 @@ Body2 ICopy()
 Body2^ ICopy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Copied
-
-[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Copied [IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICopy](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICopy.html)
-
-.
+See [Body2::ICopy](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICopy.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::Copy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~Copy.html)
 
 ## Availability

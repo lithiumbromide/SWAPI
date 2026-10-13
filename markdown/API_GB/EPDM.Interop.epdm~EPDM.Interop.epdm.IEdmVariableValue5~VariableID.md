@@ -39,16 +39,11 @@ ID of the variable to which this value belongs
 
 ## Examples
 
-See the
-
-[IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)
-
-examples.
+See the [IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html) examples.
 
 ## See Also
 
 [IEdmVariableValue5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)
-
 [IEdmVariableValue5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5_members.html)
 
 ## Availability

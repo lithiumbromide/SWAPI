@@ -42,22 +42,15 @@ SwDmTableHeaderStyle GetHeaderStyle();
 
 ### Return Value
 
-Header style as defined by
-
-[SwDmTableHeaderStyle](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableHeaderStyle.html)
+Header style as defined by [SwDmTableHeaderStyle](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableHeaderStyle.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::GetHeaderStyle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetHeaderStyle.html)
-
-.
+See [SwDMTable::GetHeaderStyle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetHeaderStyle.html).
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetNextFaceArray Method (IMidSurface2)
 
-Obsolete. Superseded by
-
-[IMidSurface3::GetNextFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~GetNextFaceArray.html)
-
-.
+Obsolete. Superseded by [IMidSurface3::GetNextFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~GetNextFaceArray.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetNextFaceArray(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,17 +55,11 @@ See
 
 ### Return Value
 
-Next
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Next [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[MidSurface2::GetNextFaceArray](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~GetNextFaceArray.html)
-
-.
+See [MidSurface2::GetNextFaceArray](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~GetNextFaceArray.html).
 
 ## Remarks
 
@@ -83,29 +67,25 @@ A separator is needed between the front faces and back faces. Thus, a NULL alway
 
 For example, if there are five faces in the model, then the mid-surface has five faces. To get the five faces:
 
-- Call[IMidSurface2::GetGetFirstFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFaceArray.html)once.
+- Call [IMidSurface2::GetGetFirstFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFaceArray.html) once.
 - Call IMidSurface2::GetNextFaceArray four times.
 
-At each call, the data is arranged as follows if there is one front face in the array:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+At each call, the data is arranged as follows if there is one front face in the array:
 
-[Neutral face],[front face], NULL,[back face]
+[Neutral face], [front face], NULL, [back face]
 
 If there are more than one front face in the array, then the data is arranged as follows:
 
-[Neutral face],[front face1, front face2], NULL,[back face1, back face2]
+[Neutral face], [front face1, front face2], NULL, [back face1, back face2]
 
-Call[IMidSurface2::GetFirstFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFaceArray.html)to get the first face from the original paired faces.
+Call [IMidSurface2::GetFirstFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFaceArray.html) to get the first face from the original paired faces.
 
 ## See Also
 
 [IMidSurface2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html)
-
 [IMidSurface2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2_members.html)
-
 [IMidSurface2::GetFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~GetFaceCount.html)
-
 [IMidSurface2::IGetFirstFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~IGetFirstFaceArray.html)
-
 [IMidSurface2::IGetNextFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~IGetNextFaceArray.html)
 
 ## Availability

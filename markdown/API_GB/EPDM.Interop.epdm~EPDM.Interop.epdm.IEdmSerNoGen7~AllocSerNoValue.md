@@ -57,11 +57,7 @@ IEdmSerNoValue^ AllocSerNoValue(
 
 ### Parameters
 
-- `bsSerNoName`: Name of the serial number generator to use to generate a new serial number (see
-
-Remarks
-
-)
+- `bsSerNoName`: Name of the serial number generator to use to generate a new serial number (see **Remarks**)
 - `lParentWnd`: Parent window handle; passed to a serial number add-in, if it exists
 - `bsFilePath`: Path to the file for which to generate a serial number
 - `lFolderID`: ID of the file's parent folder
@@ -76,12 +72,11 @@ Remarks
 ## Examples
 
 [Set Part Number Using Default Serial Numbers (C#)](Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm)
-
 [Set Part Number Using Default Serial Numbers (VB.NET)](Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm)
 
 ## Remarks
 
-The difference between this method and the now obsolete[IEdmSerNoGen6::GenerateSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6~GenerateSerNo.html)method is that this method returns an[IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html)interface instead of a string.[IEdmSerNoValue::Rollback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue~Rollback.html)allows you to return generated numbers that you can not use. This helps to avoid gaps between serial numbers.
+The difference between this method and the now obsolete [IEdmSerNoGen6::GenerateSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6~GenerateSerNo.html) method is that this method returns an [IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html) interface instead of a string. [IEdmSerNoValue::Rollback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue~Rollback.html) allows you to return generated numbers that you can not use. This helps to avoid gaps between serial numbers.
 
 bsSerNoName is the name you specify in the SOLIDWORKS PDM Professional Administration tool when you create a serial number generator.
 
@@ -93,7 +88,6 @@ bsSerNoName is the name you specify in the SOLIDWORKS PDM Professional Administr
 ## See Also
 
 [IEdmSerNoGen7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html)
-
 [IEdmSerNoGen7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7_members.html)
 
 ## Availability

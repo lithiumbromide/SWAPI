@@ -70,27 +70,13 @@ void SetRange2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Units`: Number box units as defined in
-
-[swNumberboxUnitType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberboxUnitType_e.html)
-
-(see
-
-Remarks
-
-)
+- `Units`: Number box units as defined in [swNumberboxUnitType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberboxUnitType_e.html) (see **Remarks**)
 - `Minimum`: Minimum value
-- `Maximum`: Maximum valueParamDesc
+- `Maximum`: Maximum value
 - `Inclusive`: True sets the range as inclusive, false sets it as exclusive
 - `Increment`: Increment value
 - `FastIncr`: Fast increment value for scrolling and mouse-wheel
@@ -98,11 +84,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::SetRange2](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageNumberbox~SetRange2.html)
-
-.
+See [PropertyManagerPageNumberbox::SetRange2](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageNumberbox~SetRange2.html).
 
 ## Examples
 
@@ -113,16 +95,13 @@ See
 This method works while a PropertyManager page is displayed with these restrictions:
 
 - You cannot change Units once the page is displayed. The Units parameter is ignored if specified while the page is displayed.
-- If the range is changed to an invalid value by this method, then you must immediately call[IPropertyManagerPageNumberbox::Value](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~Value.html)and set a valid value to prevent displaying the dialog that requests the user to enter a valid value.
+- If the range is changed to an invalid value by this method, then you must immediately call [IPropertyManagerPageNumberbox::Value](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~Value.html) and set a valid value to prevent displaying the dialog that requests the user to enter a valid value.
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
-
 [IPropertyManagerPageNumberbox::SetSliderParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox~SetSliderParameters.html)
-
 [IPropertyManagerPageNumberbox::DisplayedUnit Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox~DisplayedUnit.html)
 
 ## Availability

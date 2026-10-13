@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetAllExternalReferences2 Method (ISwDMDocument5)
 
-Obsolete. Superseded by
-
-[ISwDMDocument12::GetAllExternalReferences3](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument12~GetAllExternalReferences3.html)
-
-.
+Obsolete. Superseded by [ISwDMDocument12::GetAllExternalReferences3](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument12~GetAllExternalReferences3.html).
 
 ## Syntax
 
@@ -57,42 +53,24 @@ System.Object^ GetAllExternalReferences2(
 
 ### Parameters
 
-- `pSrcOption`: Pointer to the
-
-[ISwDMSearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
-object
-- `brokenRefVar`: Array of the statuses of the any broken external references as defined in
-
-[swDmReferenceStatus](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmReferenceStatus.html)
-
-(see
-
-Remarks
-
-)
+- `pSrcOption`: Pointer to the [ISwDMSearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html) object
+- `brokenRefVar`: Array of the statuses of the any broken external references as defined in [swDmReferenceStatus](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmReferenceStatus.html) (see Remarks)
 
 ### Return Value
 
 Array of the names of the external references used in this document
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[SwDMDocument5::GetAllExternalReferences2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument5~GetAllExternalReferences2.html)
-
-.
+See [SwDMDocument5::GetAllExternalReferences2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument5~GetAllExternalReferences2.html).
 
 ## Remarks
 
 Although this method returns valid data for files created in SOLIDWORKS 2005 and earlier, this method only returns valid data for the brokenRefVar argument for files created in SOLIDWORKS 2005 files and later. For files created in versions of SOLIDWORKS earlier than SOLIDWORKS 2005, it returns swDmReferenceStatusUnknown for brokenRefVar.
 
-Call this method before calling[ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html).
+Call this method before calling [ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html).
 
-The SOLIDWORKS Document Manager API applies the same rules when searching for a reference as described in the SOLIDWORKS Help topic "Search Routine for Referenced Documents". The mix-and-match of sub-folder combinations is applied to the current document, which for the SOLIDWORKS Document Manager is the document attached using[ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html)and the reference being searched for. You can set up the list of folders to be searched using[ISwDMSearchOption::AddSearchPath](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption~AddSearchPath.html), which is equivalent to using the SOLIDWORKS user-interface commandsTools,Options,System Options,FileLocations,ReferencedDocuments.
+The SOLIDWORKS Document Manager API applies the same rules when searching for a reference as described in the SOLIDWORKS Help topic "Search Routine for Referenced Documents". The mix-and-match of sub-folder combinations is applied to the current document, which for the SOLIDWORKS Document Manager is the document attached using [ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html) and the reference being searched for. You can set up the list of folders to be searched using [ISwDMSearchOption::AddSearchPath](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption~AddSearchPath.html), which is equivalent to using the SOLIDWORKS user-interface commands Tools, Options, System Options, File Locations, Referenced Documents.
 
 Two differences between SOLIDWORKS and the SOLIDWORKS Document Manager API searches are:
 
@@ -106,9 +84,7 @@ Because the search routine is shared between SOLIDWORKS and the SOLIDWORKS Docum
 ## See Also
 
 [ISwDMDocument5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5.html)
-
 [ISwDMDocument5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5_members.html)
-
 [ISwDMDocument8::GetChangedReferences Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8~GetChangedReferences.html)
 
 ## Availability

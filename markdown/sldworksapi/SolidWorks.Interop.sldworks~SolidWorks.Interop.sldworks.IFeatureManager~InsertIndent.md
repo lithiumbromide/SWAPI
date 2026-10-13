@@ -67,22 +67,12 @@ Feature^ InsertIndent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Thickness`: Thickness of the indent feature
-- `Clearance`: Distance between the tool body and target body (see
-
-Remarks
-
-)
+- `Clearance`: Distance between the tool body and target body (see **Remarks**)
 - `Exclude`: True to exclude the selections, false to include the selections
 - `ClrDir`: True to leave the direction of clearance as is, false to reverse the direction of the clearance
 - `Cut`: True to cut the target body, false to not
@@ -94,18 +84,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertIndent](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertIndent.html)
-
-.
+See [FeatureManager::InsertIndent](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertIndent.html).
 
 ## Examples
 
 [Insert Indent Feature (C#)](Insert_Indent_Feature_Example_CSharp.htm)
-
 [Insert Indent Feature (VB.NET)](Insert_Indent_Feature_Example_VBNET.htm)
-
 [Insert Indent Feature (VBA)](Insert_Indent_Feature_Example_VB.htm)
 
 ## Remarks
@@ -118,9 +102,7 @@ Prior to calling this method, you must have selected the target body and tool bo
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
 
 ## Availability

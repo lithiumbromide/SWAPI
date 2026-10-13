@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # SetTimeHistoryTimeRangeValues Method (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::SetTimeHistoryTimeRangeValues2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetTimeHistoryTimeRangeValues2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::SetTimeHistoryTimeRangeValues2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetTimeHistoryTimeRangeValues2.html)
 
 ## Syntax
 
@@ -64,18 +62,12 @@ void SetTimeHistoryTimeRangeValues(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::SetTimeHistoryTimeRangeValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetTimeHistoryTimeRangeValues.html)
-
-.
+See [CWDynamicStudyOptions::SetTimeHistoryTimeRangeValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetTimeHistoryTimeRangeValues.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::GetTimeHistoryTimeRangeValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetTimeHistoryTimeRangeValues.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool Offset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to offset the tabs/slots, false to not
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::Offset](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~Offset.html)
-
-.
+See [TabAndSlotGroupData::Offset](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~Offset.html).
 
 ## Examples
 
-See the
-
-[ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
-example.
+See the [ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html) example.
 
 ## Remarks
 
@@ -83,7 +69,6 @@ If you set this property to true, also set:
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

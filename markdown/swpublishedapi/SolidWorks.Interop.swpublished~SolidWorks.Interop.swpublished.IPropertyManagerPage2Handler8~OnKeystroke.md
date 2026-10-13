@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnKeystroke Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnKeystroke](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnKeystroke.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnKeystroke](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnKeystroke.html).
 
 ## Syntax
 
@@ -67,37 +63,19 @@ System.bool OnKeystroke(
 
 - `Wparam`: wparam argument from Windows processing; indicates the keystroke that occurred
 
-NOTE:
-
-From the standard set of virtual keys from Windows. Refer to the Virtual Key Code information from Microsoft documentation; for example, the Alt key is VK_MENU.
+  NOTE: From the standard set of virtual keys from Windows. Refer to the Virtual Key Code information from Microsoft documentation; for example, the Alt key is VK_MENU.
 - `Message`: Message being processed by Windows; one of these values:
 
-- WM_KEYDOWN 0x0100
-- WM_KEYUP 0x0101
-- WM_CHAR 0x0102
-- WM_DEADCHAR 0x0103
-- WM_SYSKEYDOWN 0x0104
-- WM_SYSKEYUP 0x0105
-- WM_SYSCHAR 0x0106
-- WM_SYSDEADCHAR 0x0107
+  - WM_KEYDOWN 0x0100
+  - WM_KEYUP 0x0101
+  - WM_CHAR 0x0102
+  - WM_DEADCHAR 0x0103
+  - WM_SYSKEYDOWN 0x0104
+  - WM_SYSKEYUP 0x0105
+  - WM_SYSCHAR 0x0106
+  - WM_SYSDEADCHAR 0x0107
 - `Lparam`: lparam argument from Windows processing; bitmask containing various pieces of information; dependent on specific message
-- `Id`: ID of the control that has focus when the keystroke was made; this is the ID specified when the control was created in
-
-[IPropertyManagerPage2::AddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)
-
-or
-
-[IPropertyManagerPage2::IAddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
-
-or
-
-[IPropertyManagerPage2::AddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html)
-
-or
-
-[IPropertyManagerPage2::IAddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html)
-
-.
+- `Id`: ID of the control that has focus when the keystroke was made; this is the ID specified when the control was created in [IPropertyManagerPage2::AddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) or [IPropertyManagerPage2::IAddControl](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html) or [IPropertyManagerPage2::AddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddGroupBox.html) or [IPropertyManagerPage2::IAddGroupBox](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddGroupBox.html).
 
 ### Return Value
 
@@ -105,22 +83,17 @@ True indicates that the keystroke has been handled by the add-in and SOLIDWORKS 
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnKeystroke](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnKeystroke.html)
-
-.
+See [PropertyManagerPage2Handler8::OnKeystroke](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnKeystroke.html).
 
 ## Remarks
 
 After the add-in has finished processing the keystroke, the message continues on and is processed by Windows. Because processing must occur, nothing should be done to destroy the page nor any action performed that could disrupt normal Windows processing while the add-in is handling this keystroke.
 
-To enable this functionality for this PropertyManager page, set the Options argument of[ISldWorks::CreatePropertyManagerPage](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CreatePropertyManagerPage.html)or[ISldWorks::ICreatePropertyManagerPage](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ICreatePropertyManagerPage.html)to swPropertyManagerOptions_HandleKeystrokes. By default, this style is not enabled because most applications are not interested in processing keystrokes, and it is a potential performance bottleneck if lots of keystrokes are occurring.
+To enable this functionality for this PropertyManager page, set the Options argument of [ISldWorks::CreatePropertyManagerPage](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CreatePropertyManagerPage.html) or [ISldWorks::ICreatePropertyManagerPage](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ICreatePropertyManagerPage.html) to swPropertyManagerOptions_HandleKeystrokes. By default, this style is not enabled because most applications are not interested in processing keystrokes, and it is a potential performance bottleneck if lots of keystrokes are occurring.
 
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

@@ -40,25 +40,15 @@ System.object GetCurve()
 System.Object^ GetCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Curve that is attached to this coedge (see**Remarks**)
+Curve that is attached to this coedge (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoEdge::GetCurve](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~GetCurve.html)
-
-.
+See [CoEdge::GetCurve](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~GetCurve.html).
 
 ## Remarks
 
@@ -70,9 +60,7 @@ This method may return Nothing if no geometry is attached to the coedge. The edg
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::IGetCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~IGetCurve.html)
 
 ## Availability

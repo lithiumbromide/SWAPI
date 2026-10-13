@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetPathName Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPathName.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPathName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetPathName()
 System.String^ GetPathName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetPathName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetPathName.html)
-
-.
+See [Component::GetPathName](ms-its:sldworksapivb6.chm::/sldworks~Component~GetPathName.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

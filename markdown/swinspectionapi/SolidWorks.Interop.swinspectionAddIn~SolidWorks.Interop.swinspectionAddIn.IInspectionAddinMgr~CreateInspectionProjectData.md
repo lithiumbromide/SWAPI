@@ -49,11 +49,7 @@ System.Object^ CreateInspectionProjectData(
 
 ### Parameters
 
-- `TemplatePathIn`: Full path name of inspection project template (see
-
-Remarks
-
-)
+- `TemplatePathIn`: Full path name of inspection project template (see **Remarks**)
 
 ### Return Value
 
@@ -61,24 +57,15 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html)
-
-methods.
+See [InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html) methods.
 
 ## Remarks
 
-The templates are installed in
-
-c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates
-
-.
+The templates are installed in **c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates**.
 
 ## See Also
 
 [IInspectionAddinMgr Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.html)
-
 [IInspectionAddinMgr Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html)
 
 ## Availability

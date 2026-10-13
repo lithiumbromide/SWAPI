@@ -54,40 +54,26 @@ void ImprintCurveCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Curve`: Pointer to the
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-- `NewEdgeCount`: Number of new edges to create when imprinting this curveParamDesc
+- `Curve`: Pointer to the [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `NewEdgeCount`: Number of new edges to create when imprinting this curve
 - `NewFaceCount`: Number of new faces to create when imprinting this curve
 
 ## VBA Syntax
 
-See
-
-[Face2::ImprintCurveCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~ImprintCurveCount.html)
-
-.
+See [Face2::ImprintCurveCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~ImprintCurveCount.html).
 
 ## Remarks
 
-Call this method before calling[IFace2::IImprintCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IImprintCurve.html)to get the size of the edges and faces arrays.
+Call this method before calling [IFace2::IImprintCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IImprintCurve.html) to get the size of the edges and faces arrays.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::ImprintCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ImprintCurve.html)
 
 ## Availability

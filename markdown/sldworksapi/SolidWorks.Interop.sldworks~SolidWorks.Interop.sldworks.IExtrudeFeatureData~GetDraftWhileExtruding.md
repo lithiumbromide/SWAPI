@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # GetDraftWhileExtruding Method (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::GetDraftWhileExtruding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetDraftWhileExtruding.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::GetDraftWhileExtruding](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~GetDraftWhileExtruding.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool GetDraftWhileExtruding(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::GetDraftWhileExtruding](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~GetDraftWhileExtruding.html)
-
-.
+See [ExtrudeFeatureData::GetDraftWhileExtruding](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~GetDraftWhileExtruding.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDefaultValueType.html"
 
 # EdmDefaultValueType Enumeration
 
-Default value types in SOLIDWORKS PDM Professional; used in calls to
-
-[IEdmCardViewCallback6::GetCtrlData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6~GetCtrlData.html)
-
-.
+Default value types in SOLIDWORKS PDM Professional; used in calls to [IEdmCardViewCallback6::GetCtrlData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6~GetCtrlData.html).
 
 ## Syntax
 

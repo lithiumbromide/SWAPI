@@ -47,19 +47,11 @@ property System.String^ AQL {
 
 ### Property Value
 
-Acceptable quality level (see
-
-Remarks
-
-)
+Acceptable quality level (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[InspectionProjectData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProjectData_members.html)
-
-properties.
+See [InspectionProjectData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProjectData_members.html) properties.
 
 ## Remarks
 
@@ -95,7 +87,6 @@ Acceptable Quality Levels:
 ## See Also
 
 [IInspectionProjectData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData.html)
-
 [IInspectionProjectData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData_members.html)
 
 ## Availability

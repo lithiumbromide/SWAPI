@@ -1,6 +1,5 @@
 ---
-title: "Edge Object
-Members"
+title: "Edge Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Edge_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Edge_members.html"
 ---
 
-# Edge Object
-Members
+# Edge Object Members
 
 ## Public Methods
 

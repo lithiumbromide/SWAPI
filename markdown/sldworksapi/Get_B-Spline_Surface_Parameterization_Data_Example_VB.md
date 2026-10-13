@@ -9,8 +9,7 @@ source: "sldworksapi/Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm"
 
 # Get B-Spline Surface Parameterization Data Example (VBA)
 
-This example shows how to get B-spline parameterization data for a selected
-face or surface.
+This example shows how to get B-spline parameterization data for a selected face or surface.
 
 ```
 '----------------------------------------------------------------------------

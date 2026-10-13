@@ -1,6 +1,5 @@
 ---
-title: "TitleBlockTableFeature Object
-Members"
+title: "TitleBlockTableFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TitleBlockTableFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TitleBlockTableFeature_members.html"
 ---
 
-# TitleBlockTableFeature Object
-Members
+# TitleBlockTableFeature Object Members
 
 ## Public Methods
 

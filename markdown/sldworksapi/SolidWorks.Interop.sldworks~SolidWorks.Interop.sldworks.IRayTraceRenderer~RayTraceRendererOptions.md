@@ -42,13 +42,7 @@ property RayTraceRendererOptions^ RayTraceRendererOptions {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[RayTraceRenderer::RayTraceRendererOptions](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer~RayTraceRendererOptions.html)
-
-.
+See [RayTraceRenderer::RayTraceRendererOptions](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer~RayTraceRendererOptions.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## See Also
 
 [IRayTraceRenderer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer.html)
-
 [IRayTraceRenderer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer_members.html)
 
 ## Availability

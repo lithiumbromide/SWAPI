@@ -40,13 +40,7 @@ System.int IGetExcludedFacesCount()
 System.int IGetExcludedFacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,18 @@ Number of excluded faces
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFeatureData::IGetExcludedFacesCount](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~IGetExcludedFacesCount.html)
-
-.
+See [FlatPatternFeatureData::IGetExcludedFacesCount](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~IGetExcludedFacesCount.html).
 
 ## Remarks
 
-Call this method to get the size of the array returned by[IFlatPatternFeatureData::IGetExcludedFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~IGetExcludedFaces.html)and[IFlatPatternFeatureData::ExcludedFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~ExcludedFaces.html).
+Call this method to get the size of the array returned by [IFlatPatternFeatureData::IGetExcludedFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~IGetExcludedFaces.html) and [IFlatPatternFeatureData::ExcludedFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~ExcludedFaces.html).
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.html)
-
 [IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.html)
-
 [IFlatPatternFeatureData::ISetExcludedFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~ISetExcludedFaces.html)
 
 ## Availability

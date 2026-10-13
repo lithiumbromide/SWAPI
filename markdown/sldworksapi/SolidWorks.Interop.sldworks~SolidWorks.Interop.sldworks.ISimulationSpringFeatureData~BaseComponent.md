@@ -45,13 +45,7 @@ property Component2^ BaseComponent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::BaseComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~BaseComponent.html)
-
-.
+See [SimulationSpringFeatureData::BaseComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~BaseComponent.html).
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
 
 ## Availability

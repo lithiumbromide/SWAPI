@@ -52,20 +52,13 @@ void ReplaceEntity(
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::ReplaceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ReplaceEntity.html)
-
-.
+See [CWContactComponent::ReplaceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ReplaceEntity.html).
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::InsertEntity Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~InsertEntity.html)
-
 [ICWContactComponent::RemoveEntity Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~RemoveEntity.html)
 
 ## Availability

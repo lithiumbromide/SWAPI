@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Bodies_Example_VB.htm"
 
 # Select Bodies Example (VBA)
 
-This example shows how to select both solid and surface bodies in either
-a part or an assembly.
+This example shows how to select both solid and surface bodies in either a part or an assembly.
 
 ```
 '----------------------------------------

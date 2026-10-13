@@ -40,13 +40,7 @@ System.bool GetUseDocTextFormat()
 System.bool GetUseDocTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if the documents auxiliary text formatting is used, false if not
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetUseDocTextFormat.html)
-
-.
+See [ProjectionArrow::GetUseDocTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetUseDocTextFormat.html).
 
 ## Examples
 
 [Get Arrow in Projected View (C#)](Get_Arrow_in_Projected_View_Example_CSharp.htm)
-
 [Get Arrow in Projected View (VB.NET)](Get_Arrow_in_Projected_View_Example_VBNET.htm)
-
 [Get Arrow in Projected View (VBA)](Get_Arrow_in_Projected_View_Example_VB.htm)
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::GetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetTextFormat.html)
-
 [IProjectionArrow::IGetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~IGetTextFormat.html)
 
 ## Availability

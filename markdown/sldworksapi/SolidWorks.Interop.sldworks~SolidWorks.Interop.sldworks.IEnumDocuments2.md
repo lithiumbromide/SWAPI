@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumDocuments2 Interface
 
-Allows access to a
+Allows access to a [documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) enumeration.
 
-[documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,23 +41,18 @@ public interface class IEnumDocuments2
 
 ## VBA Syntax
 
-See
-
-[EnumDocuments2](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments2.html)
-
-.
+See [EnumDocuments2](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments2.html).
 
 ## Examples
 
 [Get List of Open Documents (C++)](Get_List_of_Open_Documents_Example_CPlusPlus_COM.htm)
-
 [Traverse All Open Documents (C++)](Traverse_All_Open_Documents_Example_CPlusPlus_COM.htm)
 
 ## Remarks
 
 For use in in-process DLLs only.
 
-The list of[IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)objects in the IEnumDocuments2 object contains all open IModelDoc2 pointers, including IModelDoc2 objects opened as file references (for example, from an assembly or drawing). You can use[IModelDoc2::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Visible.html)to determine if a particular document has its own window and is visible to the user.
+The list of [IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) objects in the IEnumDocuments2 object contains all open IModelDoc2 pointers, including IModelDoc2 objects opened as file references (for example, from an assembly or drawing). You can use [IModelDoc2::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Visible.html) to determine if a particular document has its own window and is visible to the user.
 
 ## Accessors
 
@@ -76,5 +67,4 @@ The list of[IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.
 ## See Also
 
 [IEnumDocuments2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDocuments2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

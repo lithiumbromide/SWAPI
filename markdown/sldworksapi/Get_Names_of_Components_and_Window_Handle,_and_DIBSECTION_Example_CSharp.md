@@ -11,10 +11,8 @@ source: "sldworksapi/Get_Names_of_Components_and_Window_Handle,_and_DIBSECTION_E
 
 This example shows how to get:
 
-- names of the assembly components in
-  an open, inactive, assembly document.
-- window handles and pointers
-  to images of model documents.
+- names of the assembly components in an open, inactive, assembly document.
+- window handles and pointers to images of model documents.
 
 ```
 //-----------------------------------------------------------------

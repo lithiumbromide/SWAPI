@@ -1,6 +1,5 @@
 ---
-title: "DocumentSpecification Object
-Members"
+title: "DocumentSpecification Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DocumentSpecification_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DocumentSpecification_members.html"
 ---
 
-# DocumentSpecification Object
-Members
+# DocumentSpecification Object Members
 
 ## Public Properties
 

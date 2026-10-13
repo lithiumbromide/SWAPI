@@ -1,6 +1,5 @@
 ---
-title: "MotionStudyResults Object
-Members"
+title: "MotionStudyResults Object Members"
 project: "SOLIDWORKS Motion Study API Help"
 interface: "MotionStudyResults_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swmotionstudyapivb6/SwMotionStudy~MotionStudyResults_members.html"
 ---
 
-# MotionStudyResults Object
-Members
+# MotionStudyResults Object Members
 
 ## Public Methods
 

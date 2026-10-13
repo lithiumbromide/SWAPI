@@ -9,9 +9,7 @@ source: "sldworksapi/Traverse_Drawing_FeatureManager_Design_Tree_Example_VB.htm"
 
 # Traverse Drawing FeatureManager Design Tree Example (VBA)
 
-This example shows how to get a reference to the model underlying the
-drawing view and then how to traverse the FeatureManager design tree from
-there.
+This example shows how to get a reference to the model underlying the drawing view and then how to traverse the FeatureManager design tree from there.
 
 ```
 '---------------------------------------------

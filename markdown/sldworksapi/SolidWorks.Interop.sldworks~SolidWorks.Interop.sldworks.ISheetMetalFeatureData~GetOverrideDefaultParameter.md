@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # GetOverrideDefaultParameter Method (ISheetMetalFeatureData)
 
-Obsolete. Superseded by
-
-[ISheetMetalFeatureData::GetOverrideDefaultParameter2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~GetOverrideDefaultParameter2.html)
-
-.
+Obsolete. Superseded by [ISheetMetalFeatureData::GetOverrideDefaultParameter2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~GetOverrideDefaultParameter2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int GetOverrideDefaultParameter(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +55,16 @@ See
 
 ### Return Value
 
-Result code as defined in
-
-[swSheetMetalModifierError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalModifierError_e.html)
+Result code as defined in [swSheetMetalModifierError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalModifierError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::GetOverrideDefaultParameter](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~GetOverrideDefaultParameter.html)
-
-.
+See [SheetMetalFeatureData::GetOverrideDefaultParameter](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~GetOverrideDefaultParameter.html).
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
-
 [ISheetMetalFeatureData::SetOverrideDefaultParameter Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~SetOverrideDefaultParameter.html)
 
 ## Availability

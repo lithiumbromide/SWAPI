@@ -45,13 +45,7 @@ property System.double RoundSharpEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Value by which to round sharp edges
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::RoundSharpEdges](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~RoundSharpEdges.html)
-
-.
+See [AppearanceSetting::RoundSharpEdges](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~RoundSharpEdges.html).
 
 ## Remarks
 
@@ -75,7 +65,6 @@ This method:
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

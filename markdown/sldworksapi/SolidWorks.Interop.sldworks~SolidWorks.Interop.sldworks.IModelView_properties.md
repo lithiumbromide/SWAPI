@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelView Interface Properties
 
-For a list of all members of this type, see[IModelView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html).
+For a list of all members of this type, see [IModelView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html).
 
 ## Public Properties
 
@@ -42,6 +42,7 @@ For a list of all members of this type, see[IModelView members](SolidWorks.Inter
 | Property | Translation | Obsolete. Superseded by IModelView::Translation3 . |
 | Property | Translation2 | Obsolete. Superseded by IModelView::Translation3 . |
 | Property | Translation3 | Gets or sets the model view translation vector. |
+| Property | UpAxisFlyout | Gets or sets the up axis flyout flag. |
 | Property | UpdateAllGraphicsLayers | Gets or sets whether to update all graphic layers in any mode. |
 | Property | VisibilityViewTools | Gets or sets the visibility of the Heads-up View Toolbar for this model view. |
 | Property | XorHighlight | Gets or sets the Xor highlight state. |
@@ -51,9 +52,6 @@ For a list of all members of this type, see[IModelView members](SolidWorks.Inter
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)

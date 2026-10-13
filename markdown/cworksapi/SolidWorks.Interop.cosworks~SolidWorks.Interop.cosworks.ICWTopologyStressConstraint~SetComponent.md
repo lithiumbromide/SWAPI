@@ -49,31 +49,19 @@ System.int SetComponent(
 
 ### Parameters
 
-- `NComponent`: [swsTopologyStudyStressComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyStressComponentType_e.html)
-
-.swsTopologyStressCompType_VONMises
+- `NComponent`: [swsTopologyStudyStressComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyStressComponentType_e.html).swsTopologyStressCompType_VONMises
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::SetComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetComponent.html)
-
-.
+See [CWTopologyStressConstraint::SetComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetComponent.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## Remarks
 
@@ -86,7 +74,6 @@ stress_component comparator value
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
 
 ## Availability

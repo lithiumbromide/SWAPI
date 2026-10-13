@@ -45,13 +45,7 @@ property System.bool MergeFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True merges the faces, false does not
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFeatureData::MergeFace](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~MergeFace.html)
-
-.
+See [FlatPatternFeatureData::MergeFace](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~MergeFace.html).
 
 ## See Also
 
 [IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.html)
-
 [IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Auto_Insert_Center_Marks_Example_VB.htm"
 
 # Automatically Insert Center Marks Example (VBA)
 
-This example shows how to automatically insert center marks in multiple drawing
-views.
+This example shows how to automatically insert center marks in multiple drawing views.
 
 ```
 '----------------------------------------------------------------------------

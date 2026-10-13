@@ -58,22 +58,15 @@ System.int ManageDistributedSimulation2(
 
 ### Return Value
 
-Error code as defined in
-
-[swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
+Error code as defined in [swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::ManageDistributedSimulation2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ManageDistributedSimulation2.html)
-
-.
+See [CWStudyManager::ManageDistributedSimulation2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ManageDistributedSimulation2.html).
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double ScaleUniform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,22 @@ Value for the uniform scaling factor
 
 ## VBA Syntax
 
-See
-
-[ScaleFeatureData::ScaleUniform](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~ScaleUniform.html)
-
-.
+See [ScaleFeatureData::ScaleUniform](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~ScaleUniform.html).
 
 ## Examples
 
-See
-
-[IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html)
-
-examples.
+See [IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html) examples.
 
 ## Remarks
 
 You can use:
 
-- [IScaleFeatureData::IsUniform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~IsUniform.html)to enable or disable uniform scaling.
+- [IScaleFeatureData::IsUniform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~IsUniform.html) to enable or disable uniform scaling.
 
   - or -
-- [IScaleFeatureData::GetScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~GetScale.html)or[IScaleFeatureData::SetScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~SetScale.html)to get or set all of the scaling-related values, including uniform scaling, in the same call.
+- [IScaleFeatureData::GetScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~GetScale.html) or [IScaleFeatureData::SetScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~SetScale.html) to get or set all of the scaling-related values, including uniform scaling, in the same call.
 
-NOTE:If uniform scaling is disabled, then use these properties to get or set the individual scaling values:
+NOTE: If uniform scaling is disabled, then use these properties to get or set the individual scaling values:
 
 - [IScaleFeatureData::ScaleX](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~ScaleX.html)
 - [IScaleFeatureData::ScaleY](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~ScaleY.html)
@@ -91,7 +77,6 @@ NOTE:If uniform scaling is disabled, then use these properties to get or set the
 ## See Also
 
 [IScaleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData.html)
-
 [IScaleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,9 @@ source: "sldworksapi/Move_Annotations_to_First_Annotation_View_Example_VB.htm"
 
 # Move Annotations to Notes Area Annotation View Example (VBA)
 
-This example shows
-how to move all annotations to the Notes Area annotation view.
+```vb
+This example shows how to move all annotations to the Notes Area annotation view.
+```
 
 ```
 '----------------------------------------------

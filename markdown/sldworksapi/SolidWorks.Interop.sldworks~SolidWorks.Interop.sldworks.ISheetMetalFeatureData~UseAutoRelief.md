@@ -45,13 +45,7 @@ property System.bool UseAutoRelief {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True to use auto relief, false to not
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::UseAutoRelief](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~UseAutoRelief.html)
-
-.
+See [SheetMetalFeatureData::UseAutoRelief](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~UseAutoRelief.html).
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
-
 [ISheetMetalFeatureData::AutoReliefType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~AutoReliefType.html)
-
 [ISheetMetalFeatureData::ReliefRatio Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~ReliefRatio.html)
 
 ## Availability

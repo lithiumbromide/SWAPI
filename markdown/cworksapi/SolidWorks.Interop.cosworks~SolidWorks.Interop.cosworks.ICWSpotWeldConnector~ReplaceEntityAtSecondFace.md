@@ -52,11 +52,7 @@ void ReplaceEntityAtSecondFace(
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::ReplaceEntityAtSecondFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~ReplaceEntityAtSecondFace.html)
-
-.
+See [CWSpotWeldConnector::ReplaceEntityAtSecondFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~ReplaceEntityAtSecondFace.html).
 
 ## Remarks
 
@@ -65,9 +61,7 @@ The face must belong to a different body than the body of the first face.
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldConnector::ReplaceEntityAtFirstFace Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~ReplaceEntityAtFirstFace.html)
 
 ## Availability

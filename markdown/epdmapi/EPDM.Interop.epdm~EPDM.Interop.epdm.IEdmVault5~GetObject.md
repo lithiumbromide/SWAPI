@@ -42,9 +42,7 @@ IEdmObject5^ GetObject(
 
 ### Parameters
 
-- `eType`: Type of object to get as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+- `eType`: Type of object to get as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 - `lObjectID`: ID of object to get
 
 ### Return Value
@@ -54,12 +52,11 @@ IEdmObject5^ GetObject(
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
 
-As of SOLIDWORKS PDM Professional 2008 you can call[IEdmVault9::GetObjects](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault9~GetObjects.html)to get interfaces to several objects at once, which is more efficient than calling this method multiple times.
+As of SOLIDWORKS PDM Professional 2008 you can call [IEdmVault9::GetObjects](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault9~GetObjects.html) to get interfaces to several objects at once, which is more efficient than calling this method multiple times.
 
 C++ users must release the returned pointer, IEdmObject5.
 
@@ -72,7 +69,6 @@ C++ users must release the returned pointer, IEdmObject5.
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

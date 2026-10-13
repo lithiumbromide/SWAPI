@@ -1,6 +1,5 @@
 ---
-title: "EnumCoEdges Object
-Members"
+title: "EnumCoEdges Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumCoEdges_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumCoEdges_members.html"
 ---
 
-# EnumCoEdges Object
-Members
+# EnumCoEdges Object Members
 
 ## Public Methods
 

@@ -39,15 +39,11 @@ void GetFolders(
 
 ### Parameters
 
-- `ppoFolders`: Array of
-
-[EdmListFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html)
-
-structures; one structure for each folder in the listing
+- `ppoFolders`: Array of [EdmListFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html) structures; one structure for each folder in the listing
 
 ## Remarks
 
-Before calling this method, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html).
+Before calling this method, call [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -57,7 +53,6 @@ Before calling this method, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

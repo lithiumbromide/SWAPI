@@ -47,47 +47,29 @@ System.int InsertNewAssembly(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full pathname of new sub-assembly document (
-
-see Remarks
-
-)
+- `FileName`: Full pathname of new sub-assembly document (**see Remarks**)
 
 ### Return Value
 
-Error code as defined by
-
-[swInsertNewAssemblyErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewAssemblyErrorCode_e.html)
+Error code as defined by [swInsertNewAssemblyErrorCode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertNewAssemblyErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertNewAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewAssembly.html)
-
-.
+See [AssemblyDoc::InsertNewAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertNewAssembly.html).
 
 ## Examples
 
 [Insert and Save Virtual Assembly (C#)](Insert_and_Save_Virtual_Assembly_Example_CSharp.htm)
-
 [Insert and Save Virtual Assembly (VB.NET)](Insert_and_Save_Virtual_Assembly_Example_VBNET.htm)
-
 [Insert and Save Virtual Assembly (VBA)](Insert_and_Save_Virtual_Assembly_Example_VB.htm)
 
 ## Remarks
 
-If**Tools > Options > System Options > Assemblies > Save new components to external files**is:
+If **Tools > Options > System Options > Assemblies > Save new components to external files** is:
 
 - selected, then this API creates a virtual sub-assembly and saves it to the file specified in FileName.
 - not selected, then this API ignores FileName, does not save the sub-assembly, and creates only a virtual sub-assembly in the FeatureManager design tree.
@@ -95,15 +77,10 @@ If**Tools > Options > System Options > Assemblies > Save new components to exter
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::InsertNewVirtualAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertNewVirtualAssembly.html)
-
 [IComponent2::SaveVirtualComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SaveVirtualComponent.html)
-
 [IComponent2::IsVirtual Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsVirtual.html)
-
 [IModelDocExtension::IsVirtualComponent3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsVirtualComponent3.html)
 
 ## Availability

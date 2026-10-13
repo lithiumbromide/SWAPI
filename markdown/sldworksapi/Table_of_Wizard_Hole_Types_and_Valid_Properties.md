@@ -9,13 +9,11 @@ source: "sldworksapi/Table_of_Wizard_Hole_Types_and_Valid_Properties.htm"
 
 # Hole Wizard Feature Types and Their Valid Properties
 
-The properties that are valid for a specific instance of an[IWizardHoleFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)object depend on the type of Wizard Hole feature. To
-determine the type of Wizard Hole feature, use[IWizardHoleFeatureData2::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Type.html). The return value is one of the valid Hole Wizard feature's types as defined in swWzdHoleTypes_e.
+The properties that are valid for a specific instance of an [IWizardHoleFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html) object depend on the type of Wizard Hole feature. To determine the type of Wizard Hole feature, use [IWizardHoleFeatureData2::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Type.html). The return value is one of the valid Hole Wizard feature's types as defined in swWzdHoleTypes_e.
 
 The valid IWizardHoleFeatureData2 properties for each Wizard Hole type are:
 
-| Hole
-and Slot Types | Valid IWizardHoleFeatureData2 Properties |
+| Hole and Slot Types | Valid IWizardHoleFeatureData2 Properties |
 | --- | --- |
 | swSimple | Diameter |
 |  | Depth |

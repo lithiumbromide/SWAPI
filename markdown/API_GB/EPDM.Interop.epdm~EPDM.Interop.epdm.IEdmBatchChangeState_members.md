@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState_members
 
 # IEdmBatchChangeState Interface Members
 
-The following tables list the members exposed by[IEdmBatchChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html).
+The following tables list the members exposed by [IEdmBatchChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html).
 
 ## Public Properties
 
@@ -35,5 +35,4 @@ The following tables list the members exposed by[IEdmBatchChangeState](EPDM.Inte
 ## See Also
 
 [IEdmBatchChangeState Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

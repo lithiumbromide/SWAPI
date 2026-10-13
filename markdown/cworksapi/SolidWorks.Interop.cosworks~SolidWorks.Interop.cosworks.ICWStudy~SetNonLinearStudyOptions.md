@@ -53,22 +53,16 @@ System.int SetNonLinearStudyOptions(
 
 ### Return Value
 
-Error defined in[swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
+Error defined in [swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::SetNonLinearStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetNonLinearStudyOptions.html)
-
-.
+See [CWStudy::SetNonLinearStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetNonLinearStudyOptions.html).
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::NonLinearStudyOptions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~NonLinearStudyOptions.html)
 
 ## Availability

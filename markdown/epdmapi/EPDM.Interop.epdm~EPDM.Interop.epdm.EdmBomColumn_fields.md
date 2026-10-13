@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_fields.html"
 
 # EdmBomColumn Structure Fields
 
-For a list of all members of this type, see[EdmBomColumn members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html).
+For a list of all members of this type, see [EdmBomColumn members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[EdmBomColumn members](EPDM.Interop.e
 ## See Also
 
 [EdmBomColumn Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -48,25 +48,15 @@ void SetConvergenceCheck(
 
 ### Parameters
 
-- `NConvergenceCheck`: Activation option for the convergence check as defined in
-
-[swsTopologyActivationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyActivationOption_e.html)
+- `NConvergenceCheck`: Activation option for the convergence check as defined in [swsTopologyActivationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyActivationOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyOptions::SetConvergenceCheck](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetConvergenceCheck.html)
-
-.
+See [CWTopologyStudyOptions::SetConvergenceCheck](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetConvergenceCheck.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html)
-
-example.
+See the [ICWTopologyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html) example.
 
 ## Remarks
 
@@ -78,7 +68,6 @@ If NConvergenceCheck is set to swsTopologyActivationOption_e:
 ## See Also
 
 [ICWTopologyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html)
-
 [ICWTopologyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions_members.html)
 
 ## Availability

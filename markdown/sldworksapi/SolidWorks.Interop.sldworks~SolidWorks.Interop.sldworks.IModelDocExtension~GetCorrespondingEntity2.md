@@ -47,70 +47,36 @@ System.Object^ GetCorrespondingEntity2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Entity`: Dispatch pointer to a
-
-[vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-,
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-, or
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-entity in this drawing view or assembly
+- `Entity`: Dispatch pointer to a [vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html), [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html), or [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) entity in this drawing view or assembly
 
 ### Return Value
 
-Corresponding
-
-[entity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html)
-
-in the underlying part or subassembly; null or Nothing if none found (see
-
-Remarks
-
-)
+Corresponding [entity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html) in the underlying part or subassembly; null or Nothing if none found (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCorrespondingEntity2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCorrespondingEntity2.html)
-
-.
+See [ModelDocExtension::GetCorrespondingEntity2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCorrespondingEntity2.html).
 
 ## Examples
 
 [Get Corresponding Entities Between Parts and Drawing Views (VBA)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_VB.htm)
-
 [Get Corresponding Entities Between Parts and Drawing Views (VB.NET)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_VBNET.htm)
-
 [Get Corresponding Entities Between Parts and Drawing Views (C#)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_CSharp.htm)
 
 ## Remarks
 
-To get the assembly entity corresponding to a given component entity, use[IComponent2::GetCorrespondingEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetCorrespondingEntity.html).
+To get the assembly entity corresponding to a given component entity, use [IComponent2::GetCorrespondingEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetCorrespondingEntity.html).
 
-To get the drawing view entity corresponding to a given part or assembly entity, use[IView::GetCorrespondingEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCorrespondingEntity.html).
+To get the drawing view entity corresponding to a given part or assembly entity, use [IView::GetCorrespondingEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCorrespondingEntity.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetCorresponding2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorresponding2.html)
 
 ## Availability

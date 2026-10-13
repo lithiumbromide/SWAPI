@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # NumberOfReflections Property (IRayTraceRendererOptions)
 
-Gets or sets the number of reflections in the
-
-[final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html)
-
-.
+Gets or sets the number of reflections in the [final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.int NumberOfReflections {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::NumberOfReflections](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~NumberOfReflections.html)
-
-.
+See [RayTraceRendererOptions::NumberOfReflections](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~NumberOfReflections.html).
 
 ## Remarks
 
-This property is only available when[IRayTraceRendererOptions::CustomRenderSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CustomRenderSettings.html)is true.
+This property is only available when [IRayTraceRendererOptions::CustomRenderSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CustomRenderSettings.html) is true.
 
 The number of reflections impacts rendering performance, so only use a high number of reflections to correctly see objects in the rendering.
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::NumberOfRefractions Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NumberOfRefractions.html)
 
 ## Availability

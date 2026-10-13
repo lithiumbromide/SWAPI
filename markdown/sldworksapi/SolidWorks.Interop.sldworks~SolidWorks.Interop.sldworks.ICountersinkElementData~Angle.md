@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[CountersinkElementData::Angle](ms-its:sldworksapivb6.chm::/sldworks~CountersinkElementData~Angle.html)
-
-.
+See [CountersinkElementData::Angle](ms-its:sldworksapivb6.chm::/sldworks~CountersinkElementData~Angle.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICountersinkElementData::AngleOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData~AngleOverride.html)
-
-is set to true.
+This property is valid only if [ICountersinkElementData::AngleOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData~AngleOverride.html) is set to true.
 
 ## See Also
 
 [ICountersinkElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData.html)
-
 [ICountersinkElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICountersinkElementData_members.html)
 
 ## Availability

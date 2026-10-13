@@ -40,13 +40,7 @@ System.int IGetConstraintsCount()
 System.int IGetConstraintsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of constraints on this sketch segment
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::IGetConstraintsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IGetConstraintsCount.html)
-
-.
+See [SketchSegment::IGetConstraintsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IGetConstraintsCount.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [IModelDoc2::SketchConstraintsDelAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstraintsDelAll.html)
-
 [ISketdhSegment::GetConstraints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~GetConstraints.html)
-
 [ISketdhSegment::IGetConstraints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~IGetConstraints.html)
 
 ## Availability

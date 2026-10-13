@@ -1,6 +1,5 @@
 ---
-title: "TangentMateFeatureData Object
-Members"
+title: "TangentMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TangentMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TangentMateFeatureData_members.html"
 ---
 
-# TangentMateFeatureData Object
-Members
+# TangentMateFeatureData Object Members
 
 ## Public Properties
 

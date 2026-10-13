@@ -43,13 +43,7 @@ public delegate System.int DPartDocEvents_ActiveDisplayStateChangePostNotifyEven
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,18 +51,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ActiveDisplayStateChangePostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ActiveDisplayStateChangePostNotify_EV.html)
-
-.
+See [ActiveDisplayStateChangePostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ActiveDisplayStateChangePostNotify_EV.html).
 
 ## Examples
 
 [Fire Events When Display State Changes in Part Document (C#)](Fire_Events_When_Display_State_Changes_in_Part_Document_Example_CSharp.htm)
-
 [Fire Events When Display State Changes in Part Document (VB.NET)](Fire_Events_When_Display_State_Changes_in_Part_Document_Example_VBNET.htm)
-
 [Fire Events When Display State Changes in Part Document (VBA)](Fire_Events_When_Display_State_Changes_in_Part_Document_Example_VB6.htm)
 
 ## Remarks

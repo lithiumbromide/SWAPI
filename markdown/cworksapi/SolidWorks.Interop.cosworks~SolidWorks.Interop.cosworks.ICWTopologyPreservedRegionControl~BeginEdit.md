@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~BeginEdit.html)
-
-.
+See [CWTopologyPreservedRegion::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## Remarks
 
-To finish editing this preserved region control, call
-
-[ICWTopologyPreservedRegionControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~EndEdit.html)
-
-.
+To finish editing this preserved region control, call [ICWTopologyPreservedRegionControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

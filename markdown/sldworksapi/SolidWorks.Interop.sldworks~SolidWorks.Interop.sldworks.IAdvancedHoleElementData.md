@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 Allows access to Advanced Hole element data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IAdvancedHoleElementData
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData.html)
-
-.
+See [AdvancedHoleElementData](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData.html).
 
 ## Examples
 
 [Create Advanced Hole Feature (VBA)](Create_Advanced_Hole_Example_VB.htm)
-
 [Create Advanced Hole Feature (VB.NET)](Create_Advanced_Hole_Example_VBNET.htm)
-
 [Create Advanced Hole Feature (C#)](Create_Advanced_Hole_Example_CSharp.htm)
 
 ## Remarks
@@ -67,7 +61,7 @@ IAdvancedHoleElementData is extended by the following:
 
 After accessing the IAdvancedHoleElementData object, cast it to a hole type-specific object using one of the interfaces above and set the hole type-specific properties.
 
-To create an Advanced Hole feature, see the[IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html)Remarks.
+To create an Advanced Hole feature, see the [IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html) Remarks.
 
 ## Accessors
 
@@ -80,7 +74,5 @@ To create an Advanced Hole feature, see the[IFeatureManager::AdvancedHole](Solid
 ## See Also
 
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAdvancedHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)

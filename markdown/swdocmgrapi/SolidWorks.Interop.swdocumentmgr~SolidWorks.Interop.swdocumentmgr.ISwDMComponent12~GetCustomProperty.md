@@ -54,9 +54,7 @@ System.String^ GetCustomProperty(
 ### Parameters
 
 - `FieldName`: Name of custom property
-- `type`: Type of custom property as defined by
-
-[SwDMCustomInfoType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmCustomInfoType.html)
+- `type`: Type of custom property as defined by [SwDMCustomInfoType](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmCustomInfoType.html)
 
 ### Return Value
 
@@ -64,22 +62,16 @@ Value of the custom property
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent12::GetCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent12~GetCustomProperty.html)
-
-.
+See [SwDMComponent12::GetCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent12~GetCustomProperty.html).
 
 ## Examples
 
 [Get Configuration-Specific Custom Properties for Components (VB.NET)](Get_Configuration-Specific_Custom_Properties_Example_VBNET.htm)
-
 [Get Configuration-Specific Custom Properties for Components (C#)](Get_Configuration-Specific_Custom_Properties_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMComponent12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent12.html)
-
 [ISwDMComponent12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent12_members.html)
 
 ## Availability

@@ -42,11 +42,7 @@ IEdmReference5^ GetReferenceTree(
 
 ### Parameters
 
-- `lParentFolderID`: ID of the file's parent folder (see
-
-Remarks
-
-)
+- `lParentFolderID`: ID of the file's parent folder (see **Remarks**)
 - `lVersionNo`: Version of the file for which to get references; 0 to get the latest version
 
 ### Return Value
@@ -56,20 +52,19 @@ Remarks
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
 
 Some file types, such as files from AutoCAD, SOLIDWORKS, MS Word, etc., contain references to other files. You can also set up your own references via SOLIDWORKS PDM Professional's User Defined File References dialog box. SOLIDWORKS PDM Professional manages all of these references for you, and they appear in the check-in dialog box in the form of a reference tree.
 
-To specify lParentFolderID, inspect all of the parent folders of this file by calling[IEdmFile5::GetFirstFolderPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFirstFolderPosition.html)and[IEdmFile5::GetNextFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetNextFolder.html).
+To specify lParentFolderID, inspect all of the parent folders of this file by calling [IEdmFile5::GetFirstFolderPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFirstFolderPosition.html) and [IEdmFile5::GetNextFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetNextFolder.html).
 
 Use IEdmReference5 that is returned in ppoRetRoot to enumerate referenced files and referencing files and set up user-defined references.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface, IEdmReference5.
 
-See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
+See [Return Codes](ReturnCodes.htm) for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
 - S_FALSE: An argument is invalid.
@@ -77,7 +72,6 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
 
 ## Availability

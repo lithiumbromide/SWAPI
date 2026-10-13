@@ -45,13 +45,7 @@ property System.bool CombineTags {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to combine tags for same-size holes, false to not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::CombineTags](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~CombineTags.html)
-
-.
+See [HoleTable::CombineTags](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~CombineTags.html).
 
 ## Remarks
 
@@ -72,17 +62,11 @@ This property appears in the Scheme section of the Hole Table PropertyManager pa
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::HoleTag Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~HoleTag.html)
-
 [IHoleTable::HoleTagsVisible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~HoleTagsVisible.html)
-
 [IHoleTable::TagStyle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~TagStyle.html)
-
 [IHoleTable::CombineSameSize Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~CombineSameSize.html)
-
 [IHoleTable::ShowANSIInchLetterNumberDrillSizes Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~ShowANSIInchLetterNumberDrillSizes.html)
 
 ## Availability

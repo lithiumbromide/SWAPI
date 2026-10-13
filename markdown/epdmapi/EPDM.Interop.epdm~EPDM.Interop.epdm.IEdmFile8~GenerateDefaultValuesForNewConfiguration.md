@@ -49,17 +49,9 @@ void GenerateDefaultValuesForNewConfiguration(
 ### Parameters
 
 - `bsConfiguration`: Name of the new configuration
-- `llCfgPersistID`: SOLIDWORKS configuration ID; 0 if ID is not available (see
-
-Remarks
-
-)
+- `llCfgPersistID`: SOLIDWORKS configuration ID; 0 if ID is not available (see **Remarks**)
 - `poAux`: Null; for internal use only
-- `ppoRetVariables`: Array of
-
-[IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)
-
-s for the file data card
+- `ppoRetVariables`: Array of [IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)s for the file data card
 
 ## Remarks
 
@@ -75,9 +67,7 @@ llCfgPersistID is a unique SOLIDWORKS API configuration ID.
 ## See Also
 
 [IEdmFile8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8.html)
-
 [IEdmFile8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8_members.html)
-
 [IEdmFile14::GenerateDefaultConfigValues Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14~GenerateDefaultConfigValues.html)
 
 ## Availability

@@ -42,29 +42,19 @@ void SetPropt(
 
 ### Parameters
 
-- `eProp`: User property to search for as defined by
-
-[EdmFindUserProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFindUserProp.html)
+- `eProp`: User property to search for as defined by [EdmFindUserProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFindUserProp.html)
 - `oValue`: Value of the property specified in eProp
 
 ## Examples
 
-See the
-
-[IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
-examples.
+See the [IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html) examples.
 
 ## Remarks
 
 After calling this method, call one of the following:
 
-- [IEdmFindUser::SilentFind](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SilentFind.html)
-
-  to silently search for users matching the criteria specified by this method.
-- [IEdmFindUser::ShowFindUI](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~ShowFindUI.html)
-
-  to display a search user interface that is populated with the criteria specified by this method.
+- [IEdmFindUser::SilentFind](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SilentFind.html) to silently search for users matching the criteria specified by this method.
+- [IEdmFindUser::ShowFindUI](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~ShowFindUI.html) to display a search user interface that is populated with the criteria specified by this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -74,7 +64,6 @@ After calling this method, call one of the following:
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

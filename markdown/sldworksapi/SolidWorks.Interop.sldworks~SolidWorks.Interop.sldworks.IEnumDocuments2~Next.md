@@ -54,36 +54,21 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of documents for the documents enumeration
-- `Rgelt`: Pointer to an array of
-
-[documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) of size Celt
 - `PceltFetched`: Pointer to the number of documents returned from the list; this value can be less than Celt if you ask for more documents than exist, or it can be NULL if no more documents exist.
 
 ## VBA Syntax
 
-See
-
-[EnumDocuments2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments2~Next.html)
-
-.
+See [EnumDocuments2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments2~Next.html).
 
 ## Examples
 
 [Get List of Open Documents (C++)](Get_List_of_Open_Documents_Example_CPlusPlus_COM.htm)
-
 [Traverse All Open Documents (C++)](Traverse_All_Open_Documents_Example_CPlusPlus_COM.htm)
 
 ## Remarks
@@ -93,7 +78,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDocuments2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDocuments2.html)
-
 [IEnumDocuments2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDocuments2_members.html)
 
 ## Availability

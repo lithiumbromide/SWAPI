@@ -45,13 +45,7 @@ property System.bool ReverseOffsetDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to reverse the direction, false to not
 
 ## VBA Syntax
 
-See
-
-[PartingSurfaceFeatureData::ReverseOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~ReverseOffsetDirection.html)
-
-.
+See [PartingSurfaceFeatureData::ReverseOffsetDirection](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~ReverseOffsetDirection.html).
 
 ## See Also
 
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IPartingSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData_members.html)
 
 ## Availability

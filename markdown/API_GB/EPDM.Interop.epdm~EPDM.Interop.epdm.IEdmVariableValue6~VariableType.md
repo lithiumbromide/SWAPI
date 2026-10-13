@@ -35,22 +35,15 @@ property EdmVariableType VariableType {
 
 ### Property Value
 
-Type of variable as defined in
-
-[EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
+Type of variable as defined in [EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
 
 ## Examples
 
-See the
-
-[IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
-examples.
+See the [IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html) examples.
 
 ## See Also
 
 [IEdmVariableValue6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
 [IEdmVariableValue6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6_members.html)
 
 ## Availability

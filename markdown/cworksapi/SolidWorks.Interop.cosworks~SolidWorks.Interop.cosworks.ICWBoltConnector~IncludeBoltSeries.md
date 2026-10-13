@@ -51,16 +51,11 @@ True to bolt more than two components together, false to not
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::IncludeBoltSeries](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeBoltSeries.html)
-
-.
+See [CWBoltConnector::IncludeBoltSeries](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeBoltSeries.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
 
 ## Availability

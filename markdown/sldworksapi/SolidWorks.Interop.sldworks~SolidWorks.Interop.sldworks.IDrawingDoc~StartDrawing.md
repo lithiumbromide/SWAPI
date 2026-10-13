@@ -39,28 +39,17 @@ void StartDrawing()
 void StartDrawing();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::StartDrawing](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~StartDrawing.html)
-
-.
+See [DrawingDoc::StartDrawing](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~StartDrawing.html).
 
 ## Remarks
 
-This method automatically disables inferencing to provide faster geometry creation. Use this method and[IDrawingDoc::EndDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~EndDrawing.html)to bound your entity creation statements.
+This method automatically disables inferencing to provide faster geometry creation. Use this method and [IDrawingDoc::EndDrawing](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~EndDrawing.html) to bound your entity creation statements.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

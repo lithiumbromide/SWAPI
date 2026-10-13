@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmInstallFileFlags.html"
 
 # EdmInstallFileFlags Enumeration
 
-Operations used in calls to
-
-[IEdmVault12::InstallFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12~InstallFile.html)
-
-to control the installation of data.
+Operations used in calls to [IEdmVault12::InstallFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12~InstallFile.html) to control the installation of data.
 
 ## Syntax
 

@@ -45,13 +45,7 @@ property System.bool MenuPinned {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to pin the SOLIDWORKS main menu, false to not
 
 ## VBA Syntax
 
-See
-
-[Frame::MenuPinned](ms-its:sldworksapivb6.chm::/sldworks~Frame~MenuPinned.html)
-
-.
+See [Frame::MenuPinned](ms-its:sldworksapivb6.chm::/sldworks~Frame~MenuPinned.html).
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
 
 ## Availability

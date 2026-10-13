@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IAssemblyDoc Interface Properties
 
-For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html).
+For a list of all members of this type, see [IAssemblyDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html).
 
 ## Public Properties
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Int
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # SetEntityForGravityDirection Method (ICWDropTestSetup)
 
-Obsolete. Superseded by[ICWDropTestSetup::SetEntityForGravityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForGravityDirection2.html).
+Obsolete. Superseded by [ICWDropTestSetup::SetEntityForGravityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForGravityDirection2.html).
 
 ## Syntax
 
@@ -49,19 +49,11 @@ System.int SetEntityForGravityDirection(
 
 ### Parameters
 
-- `DispEntity`: Face, edge, or plane geometry reference (see
-
-Remarks
-
-)
+- `DispEntity`: Face, edge, or plane geometry reference (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::SetEntityForGravityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~SetEntityForGravityDirection.html)
-
-.
+See [CWDropTestSetup::SetEntityForGravityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~SetEntityForGravityDirection.html).
 
 ## Remarks
 
@@ -70,13 +62,9 @@ If the reference entity is a plane or planar face, the velocity is applied in th
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
-
 [ICWDropTestSetup::FlipGravityDirection Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipGravityDirection.html)
-
 [ICWDropTestSetup::Gravity Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~Gravity.html)
-
 [ICWDropTestSetup::GravityUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~GravityUnit.html)
 
 ## Availability

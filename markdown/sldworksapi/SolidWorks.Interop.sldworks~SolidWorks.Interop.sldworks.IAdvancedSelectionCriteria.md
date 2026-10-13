@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 Allows access to advanced component selection criteria for an assembly.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IAdvancedSelectionCriteria
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria.html)
-
-.
+See [AdvancedSelectionCriteria](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria.html).
 
 ## Examples
 
@@ -53,15 +49,15 @@ See
 
 '-------------------------------------------------------
 ' Preconditions:
-' 1. Open`Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2021\samples\tutorial\advdrawings\98food processor.sldasm**.
-' 2. Create**InContextHasMate.xml**with the following content:
+' 1. Open `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2021\samples\tutorial\advdrawings\98food processor.sldasm**.
+' 2. Create **InContextHasMate.xml** with the following content:
 ' <?xml version="1.0" encoding="UTF-8"?>
 ' <SWQueryList>
 ' <Query Name="InContextHasMate" Favourites_Index="1">
 ' <Boolean Name="And" Category="In Context Relations" SubCategory="Has mate to part" Condition="=" Value="base plate-1@98food processor"/>
 ' </Query>
 ' </SWQueryList>
-' 3. Place**InContextHasMate.xml**in**c:\temp**.
+' 3. Place **InContextHasMate.xml** in **c:\temp**.
 ' 4. Open the Immediate window.
 '
 ' Postconditions: Inspect the Immediate window and the six selections
@@ -122,16 +118,15 @@ End Sub
 ## Examples
 
 [Select Assembly Components Using Advanced Selection Criteria (VB.NET)](Select_Assembly_Components_Using_Advanced_Selection_Criteria_Example_VBNET.htm)
-
 [Select Assembly Components Using Advanced Selection Criteria (C#)](Select_Assembly_Components_Using_Advanced_Selection_Criteria_Example_CSharp.htm)
 
 ## Remarks
 
-This interface represents functionality in the Advanced Component Selection dialog that appears when you click**Standard toolbar > Advanced Select**.
+This interface represents functionality in the Advanced Component Selection dialog that appears when you click **Standard toolbar > Advanced Select**.
 
-As of SOLIDWORKS 2021, you can[save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~SaveCriteria.html)criteria only in XML format. You can now[load](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~LoadCriteria.html)either***.xml**queries or***.sqy**legacy queries.
+As of SOLIDWORKS 2021, you can [save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~SaveCriteria.html) criteria only in XML format. You can now [load](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~LoadCriteria.html) either ***.xml** queries or ***.sqy** legacy queries.
 
-For more information, see the**Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -144,5 +139,4 @@ For more information, see the**Assemblies > Basic Component Operations > Selecti
 ## See Also
 
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

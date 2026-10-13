@@ -47,13 +47,7 @@ System.Object^ GetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetTriangleAtIndex.html)
-
-.
+See [WeldSymbol::GetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[vertexPt1[3],vertexPt2[3],vertexPt3[3],isFilled,lineType]
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
 
 where:
-
-(Table)=========================================================
 
 | vertexPt1[3] | = first XYZ vertex point |
 | --- | --- |
@@ -95,9 +79,6 @@ where:
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetTriangleCount.html)
-
 [IWeldSymbol::IGetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetTriangleAtIndex.html)

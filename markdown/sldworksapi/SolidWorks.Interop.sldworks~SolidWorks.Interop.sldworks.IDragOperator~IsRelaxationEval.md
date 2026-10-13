@@ -45,13 +45,7 @@ property System.bool IsRelaxationEval {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True for relaxation evaluation, false for standard evaluation
 
 ## VBA Syntax
 
-See
-
-[DragOperator::IsRelaxationEval](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsRelaxationEval.html)
-
-.
+See [DragOperator::IsRelaxationEval](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsRelaxationEval.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

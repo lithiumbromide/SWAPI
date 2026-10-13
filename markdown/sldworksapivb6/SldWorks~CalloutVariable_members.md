@@ -1,6 +1,5 @@
 ---
-title: "CalloutVariable Object
-Members"
+title: "CalloutVariable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CalloutVariable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CalloutVariable_members.html"
 ---
 
-# CalloutVariable Object
-Members
+# CalloutVariable Object Members
 
 ## Public Properties
 

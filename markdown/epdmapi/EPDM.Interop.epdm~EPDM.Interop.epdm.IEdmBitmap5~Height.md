@@ -40,7 +40,6 @@ Height in pixels of the image
 ## See Also
 
 [IEdmBitmap5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html)
-
 [IEdmBitmap5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # AddComponents Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::AddComponents3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddComponents3.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::AddComponents3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddComponents3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ AddComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,11 +64,7 @@ Array of objects of newly created components
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponents.html)
-
-.
+See [AssemblyDoc::AddComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponents.html).
 
 ## Examples
 
@@ -90,14 +76,12 @@ The array of file names represents all of the components that are added to the a
 
 The array of transforms consists of [count x 16] doubles. There should be one transform for each component being added.
 
-**TIP**: See[ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)for tips on how to avoid using large amounts of memory when opening up multiple parts to add to an assembly
+**TIP**: See [ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html) for tips on how to avoid using large amounts of memory when opening up multiple parts to add to an assembly
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::IAddComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IAddComponents2.html)
 
 ## Availability

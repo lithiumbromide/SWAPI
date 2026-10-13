@@ -45,13 +45,7 @@ property System.bool ScaleHatchPattern {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,20 @@ True to scale the hatch pattern to the drawing view, false to not
 
 ## VBA Syntax
 
-See
-
-[View::ScaleHatchPattern](ms-its:sldworksapivb6.chm::/sldworks~View~ScaleHatchPattern.html)
-
-.
+See [View::ScaleHatchPattern](ms-its:sldworksapivb6.chm::/sldworks~View~ScaleHatchPattern.html).
 
 ## Examples
 
 [Get Area Hatch Data (C#)](Get_Area_Hatch_Data_Example_CSharp.htm)
-
 [Get Area Hatch Data (VB.NET)](Get_Area_Hatch_Data_Example_VBNET.htm)
-
 [Get Area Hatch Data (VBA)](Get_Area_Hatch_Data_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetFaceHatchCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFaceHatchCount.html)
-
 [IView::GetFaceHatches Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFaceHatches.html)
-
 [IModelDoc2::InsertHatchedFace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertHatchedFace.html)
 
 ## Availability

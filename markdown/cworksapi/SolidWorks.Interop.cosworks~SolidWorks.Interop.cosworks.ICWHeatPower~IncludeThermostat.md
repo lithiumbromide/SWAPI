@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # IncludeThermostat Property (ICWHeatPower)
 
-Obsolete. Superseded by[ICWHeatPower::IncludeThermostat2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~IncludeThermostat2.html).
+Obsolete. Superseded by [ICWHeatPower::IncludeThermostat2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~IncludeThermostat2.html).
 
 ## Syntax
 
@@ -51,26 +51,18 @@ property System.int IncludeThermostat {
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::IncludeThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~IncludeThermostat.html)
-
-.
+See [CWHeatPower::IncludeThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~IncludeThermostat.html).
 
 ## Remarks
 
-Thermostat is used for transient[thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html)studies only.
+Thermostat is used for transient [thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html) studies only.
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::GetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~GetThermostat.html)
-
 [ICWHeatPower::SetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetThermostat.html)
-
 [ICWHeatPower::ThermostatUnits Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~ThermostatUnits.html)
 
 ## Availability

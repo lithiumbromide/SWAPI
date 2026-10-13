@@ -42,6 +42,7 @@ public enum class swDmBOMTableType : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swDmBOMTableTypeFlattened | 3 |
 | swDmBOMTableTypeIndented | 2 |
 | swDmBOMTableTypePartsOnly | 0 |
 | swDmBOMTableTypeTopLevelOnly | 1 |

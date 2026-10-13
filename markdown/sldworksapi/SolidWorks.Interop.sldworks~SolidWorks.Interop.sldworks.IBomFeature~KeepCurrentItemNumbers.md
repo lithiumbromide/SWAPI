@@ -45,13 +45,7 @@ property System.bool KeepCurrentItemNumbers {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ True if item numbers are kept with their components when reordering rows, false 
 
 ## VBA Syntax
 
-See
-
-[BomFeature::KeepCurrentItemNumbers](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~KeepCurrentItemNumbers.html)
-
-.
+See [BomFeature::KeepCurrentItemNumbers](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~KeepCurrentItemNumbers.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## Remarks
 
-Rows in a BOM table can be reordered in several different ways. For example, you can interactively reorder the rows manually in theBill of Materials Propertiesdialog box and you can programmatically reorder rows using[IBomFeature::FollowAssemblyOrder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~FollowAssemblyOrder2.html).
+Rows in a BOM table can be reordered in several different ways. For example, you can interactively reorder the rows manually in the Bill of Materials Properties dialog box and you can programmatically reorder rows using [IBomFeature::FollowAssemblyOrder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~FollowAssemblyOrder2.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

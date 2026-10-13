@@ -40,13 +40,7 @@ System.string GetTextBelowFrames()
 System.String^ GetTextBelowFrames();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Below-frame text
 
 ## VBA Syntax
 
-See
-
-[PMIGtolData::GetTextBelowFrames](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetTextBelowFrames.html)
-
-.
+See [PMIGtolData::GetTextBelowFrames](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetTextBelowFrames.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [IPMIGtolData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData_members.html)
 
 ## Availability

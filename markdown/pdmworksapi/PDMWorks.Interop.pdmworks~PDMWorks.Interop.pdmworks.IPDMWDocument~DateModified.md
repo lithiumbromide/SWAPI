@@ -51,11 +51,7 @@ Date and time document last modified
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::DateModified](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~DateModified.html)
-
-.
+See [PDMWDocument::DateModified](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~DateModified.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ For Visual Basic for Applications (VBA) and unmanaged C++ COM, this property ret
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::UpdateStamp Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~UpdateStamp.html)
 
 ## Availability

@@ -44,14 +44,13 @@ void AddReferencesClipboard(
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
 
 This method is valid only after the user has copied a file to the Windows clipboard. A file reference on the clipboard is in CF_HDROP format.
 
-After calling this method, you must call[IEdmAddCustomRefs::CreateReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateReferences.html)to create the custom file reference in the vault.
+After calling this method, you must call [IEdmAddCustomRefs::CreateReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateReferences.html) to create the custom file reference in the vault.
 
 [Return codes](ReturnCodes.htm):
 
@@ -61,7 +60,6 @@ After calling this method, you must call[IEdmAddCustomRefs::CreateReferences](EP
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

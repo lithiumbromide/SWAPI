@@ -40,27 +40,15 @@ System.object GetEntitiesType()
 System.Object^ GetEntitiesType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of types of entities in this sketch relation as defined by
-
-[swSketchRelationEntityTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchRelationEntityTypes_e.html)
+Array of types of entities in this sketch relation as defined by [swSketchRelationEntityTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchRelationEntityTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchRelation::GetEntitiesType](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetEntitiesType.html)
-
-.
+See [SketchRelation::GetEntitiesType](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetEntitiesType.html).
 
 ## Examples
 
@@ -69,11 +57,8 @@ See
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [ISketchRelation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation_members.html)
-
 [ISketchRelation::IGetEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation~IGetEntities.html)
-
 [ISketchRelation::GetEntitiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation~GetEntitiesCount.html)
 
 ## Availability

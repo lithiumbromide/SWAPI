@@ -40,13 +40,7 @@ System.int AddHole()
 System.int AddHole();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,17 +48,11 @@ Number of holes added to this hole table
 
 ## VBA Syntax
 
-See
-
-[HoleTable::AddHole](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~AddHole.html)
-
-.
+See [HoleTable::AddHole](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~AddHole.html).
 
 ## Remarks
 
 You must either interactively or programmatically select the holes to add to the hole table before running this method.
-
-(Table)=========================================================
 
 | To add holes... | Then... |
 | --- | --- |
@@ -74,7 +62,6 @@ You must either interactively or programmatically select the holes to add to the
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
 
 ## Availability

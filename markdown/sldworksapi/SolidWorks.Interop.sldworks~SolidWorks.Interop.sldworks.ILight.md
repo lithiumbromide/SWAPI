@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 Allows access to the light feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class ILight
 
 ## VBA Syntax
 
-See
-
-[Light](ms-its:sldworksapivb6.chm::/sldworks~Light.html)
-
-.
+See [Light](ms-its:sldworksapivb6.chm::/sldworks~Light.html).
 
 ## Examples
 
 [Redirect Spotlight (VBA)](Redirect_Spotlight_Example_VB.htm)
-
 [Add Spotlight and Get Light Feature (C#)](Add_Spotlight_and_Get_Light_Feature_Example_CSharp.htm)
-
 [Add Spotlight and Get Light Feature (VB.NET)](Add_Spotlight_and_Get_Light_Feature_Example_VBNET.htm)
-
 [Add Spotlight and Get Light Feature (VBA)](Add_Spotlight_and_Get_Light_Feature_Example_VB.htm)
 
 ## Accessors
@@ -68,5 +61,4 @@ See
 ## See Also
 
 [ILight Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILight_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

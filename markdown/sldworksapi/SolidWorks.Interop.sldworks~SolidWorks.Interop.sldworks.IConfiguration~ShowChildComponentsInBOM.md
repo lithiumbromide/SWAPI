@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ShowChildComponentsInBOM Property (IConfiguration)
 
-Obsolete. Superseded by
-
-[IConfiguration::ChildComponentDisplayInBOM .](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~ChildComponentDisplayInBOM.html)
+Obsolete. Superseded by [IConfiguration::ChildComponentDisplayInBOM.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~ChildComponentDisplayInBOM.html)
 
 ## Syntax
 
@@ -47,13 +45,7 @@ property System.bool ShowChildComponentsInBOM {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,16 +53,11 @@ True displays child components in a BOM, false does not
 
 ## VBA Syntax
 
-See
-
-[Configuration::ShowChildComponentsInBOM](ms-its:sldworksapivb6.chm::/sldworks~Configuration~ShowChildComponentsInBOM.html)
-
-.
+See [Configuration::ShowChildComponentsInBOM](ms-its:sldworksapivb6.chm::/sldworks~Configuration~ShowChildComponentsInBOM.html).
 
 ## Examples
 
 [Change Configuration Properties (VBA)](Change_Configuration_Properties_Example_VB.htm)
-
 [Traverse Hierarchy of Configurations (VBA)](Traverse_Hierarchy_of_Configurations_Example_VB.htm)
 
 ## Remarks
@@ -82,7 +69,6 @@ How the components appear in the report is mainly controlled by the display form
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

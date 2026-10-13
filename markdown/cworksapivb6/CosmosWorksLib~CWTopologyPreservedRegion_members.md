@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyPreservedRegion Object
-Members"
+title: "CWTopologyPreservedRegion Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyPreservedRegion_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyPreservedRegion_members.html"
 ---
 
-# CWTopologyPreservedRegion Object
-Members
+# CWTopologyPreservedRegion Object Members
 
 ## Public Methods
 

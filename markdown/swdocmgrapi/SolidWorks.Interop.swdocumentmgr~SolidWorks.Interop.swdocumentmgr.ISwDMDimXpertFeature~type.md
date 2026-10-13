@@ -44,17 +44,11 @@ property swDmDimXpertFeatureType_e type {
 
 ### Property Value
 
-Type of feature as defined in
-
-[swDmDimXpertFeatureType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertFeatureType_e.html)
+Type of feature as defined in [swDmDimXpertFeatureType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertFeatureType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertFeature::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~type.html)
-
-.
+See [SwDMDimXpertFeature::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFeature~type.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
 [ISwDMDimXpertFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFeature_members.html)
 
 ## Availability

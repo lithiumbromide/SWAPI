@@ -48,16 +48,11 @@ Number of the document
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::Number](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Number.html)
-
-.
+See [PDMWSearchResult::Number](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Number.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

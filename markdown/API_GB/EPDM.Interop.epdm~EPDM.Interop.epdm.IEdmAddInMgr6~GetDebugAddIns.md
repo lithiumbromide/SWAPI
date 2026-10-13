@@ -39,38 +39,18 @@ void GetDebugAddIns(
 
 ### Parameters
 
-- `ppoAddIns`: Array of
-
-[EdmAddInInfo2 structures](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
-; one structure for each debug add-in
+- `ppoAddIns`: Array of [EdmAddInInfo2 structures](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html); one structure for each debug add-in
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
-examples.
+See the [IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html) examples.
 
 ## Remarks
 
 You can install add-ins for debugging either of two ways:
 
-- Right-clicking the
-
-  Add-ins
-
-  node in the SOLIDWORKS PDM Professional Administration Tool and clicking
-
-  Debug Add-ins
-
-  .
-- Calling
-
-  [IEdmAddInMgr6::InstallDebugAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6~InstallDebugAddIn.html)
-
-  .
+- Right-clicking the **Add-ins** node in the SOLIDWORKS PDM Professional Administration Tool and clicking **Debug Add-ins**.
+- Calling [IEdmAddInMgr6::InstallDebugAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6~InstallDebugAddIn.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -80,7 +60,6 @@ You can install add-ins for debugging either of two ways:
 ## See Also
 
 [IEdmAddInMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6.html)
-
 [IEdmAddInMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6_members.html)
 
 ## Availability

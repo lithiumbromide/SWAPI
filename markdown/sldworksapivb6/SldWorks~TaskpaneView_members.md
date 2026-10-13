@@ -1,6 +1,5 @@
 ---
-title: "TaskpaneView Object
-Members"
+title: "TaskpaneView Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TaskpaneView_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TaskpaneView_members.html"
 ---
 
-# TaskpaneView Object
-Members
+# TaskpaneView Object Members
 
 ## Public Methods
 

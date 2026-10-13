@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData_fields.html
 
 # EdmAttributeData Structure Fields
 
-For a list of all members of this type, see[EdmAttributeData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData_members.html).
+For a list of all members of this type, see [EdmAttributeData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData_members.html).
 
 ## Public Fields
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[EdmAttributeData members](EPDM.Inter
 ## See Also
 
 [EdmAttributeData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

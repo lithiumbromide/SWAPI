@@ -51,47 +51,28 @@ System.bool SetCallout(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index number of the selected object
-- `PCallout`: [Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-
-(see
-
-Remarks
-
-)
+- `PCallout`: [Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) (see **Remarks**)
 
 ### Return Value
 
 True if the callout is added to the selected object, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[SelectionMgr::SetCallout](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SetCallout.html)
-
-.
+See [SelectionMgr::SetCallout](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~SetCallout.html).
 
 ## Remarks
 
-Use[ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html)to set the properties of the callout. Then use ISelectionMgr::SetCallout to add the callout to an already selected object.
+Use [ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html) to set the properties of the callout. Then use ISelectionMgr::SetCallout to add the callout to an already selected object.
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
 
 ## Availability

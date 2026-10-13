@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~GetSetupP
 
 # GetSetupPages Method (IEdmTaskProperties)
 
-Gets the setup pages added to the task property dialog box using
-
-[IEdmTaskProperties::SetSetupPages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages.html)
-
-.
+Gets the setup pages added to the task property dialog box using [IEdmTaskProperties::SetSetupPages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages.html).
 
 ## Syntax
 
@@ -43,11 +39,7 @@ void GetSetupPages(
 
 ### Parameters
 
-- `ppoPages`: Array of
-
-[EdmTaskSetupPage](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
-structures; one structure for each setup page
+- `ppoPages`: Array of [EdmTaskSetupPage](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html) structures; one structure for each setup page
 
 ## Remarks
 
@@ -58,9 +50,7 @@ structures; one structure for each setup page
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
-
 [Task Add-in Sample](TaskSample.htm)
 
 ## Availability

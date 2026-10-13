@@ -47,13 +47,7 @@ System.String^ GetComponentConfigName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ Referenced configuration name
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetComponentConfigName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetComponentConfigName.html)
-
-.
+See [Configuration::GetComponentConfigName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetComponentConfigName.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

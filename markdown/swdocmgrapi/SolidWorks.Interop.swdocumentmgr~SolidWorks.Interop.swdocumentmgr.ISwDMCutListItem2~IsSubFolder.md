@@ -53,11 +53,7 @@ True if the cut-list item is a sub-folder, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem2::IsSubFolder](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~IsSubFolder.html)
-
-.
+See [SwDMCutListItem2::IsSubFolder](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~IsSubFolder.html).
 
 ## Remarks
 
@@ -68,5 +64,4 @@ This property only supports documents saved in SOLIDWORKS 2009 or later.
 ## See Also
 
 [ISwDMCutListItem2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2.html)
-
 [ISwDMCutListItem2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2_members.html)

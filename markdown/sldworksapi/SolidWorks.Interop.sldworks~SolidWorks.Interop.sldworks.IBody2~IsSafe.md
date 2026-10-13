@@ -42,38 +42,27 @@ property System.bool IsSafe {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True if the IBody2 object survived the rebuild, false if not
 
-**NOTE:**This property is not implemented; thus, it will always return false.
+**NOTE:** This property is not implemented; thus, it will always return false.
 
 ## VBA Syntax
 
-See
-
-[Body2::IsSafe](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsSafe.html)
-
-.
+See [Body2::IsSafe](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsSafe.html).
 
 ## Remarks
 
 This property is read-only and does not persist from session to session.
 
-To make a body safe, use[IBody2::GetSafeBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetSafeBody.html).
+To make a body safe, use [IBody2::GetSafeBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetSafeBody.html) .
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

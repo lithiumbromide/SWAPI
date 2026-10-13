@@ -48,20 +48,13 @@ Array document names
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::DocumentList](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~DocumentList.html)
-
-.
+See [PDMWProject::DocumentList](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~DocumentList.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::DocumentCount Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentCount.html)
-
 [IPDMWProject::Documents Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Documents.html)
 
 ## Availability

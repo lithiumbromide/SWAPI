@@ -40,13 +40,11 @@ Vault view ID
 ## Examples
 
 [Get File Information (VB.NET)](Get_File_Info_Example_VBNET.htm)
-
 [Get File Information (C#)](Get_File_Info_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmFile14 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html)
-
 [IEdmFile14 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # CreateBlendSurface Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::CreateBlendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBlendSurface.html)
-
-.
+Obsolete. Superseded by [IBody2::CreateBlendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBlendSurface.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ System.Object^ CreateBlendSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -110,14 +100,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::CreateBlendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBlendSurface.html)
-
-.
+See [Body::CreateBlendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBlendSurface.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

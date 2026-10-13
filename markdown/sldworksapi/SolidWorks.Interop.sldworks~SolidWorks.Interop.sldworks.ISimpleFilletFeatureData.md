@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # ISimpleFilletFeatureData Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2.html).
 
-[ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class ISimpleFilletFeatureData
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData.html)
-
-.
+See [SimpleFilletFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

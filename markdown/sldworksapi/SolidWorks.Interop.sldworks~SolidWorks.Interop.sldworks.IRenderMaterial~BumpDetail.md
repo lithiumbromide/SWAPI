@@ -45,13 +45,7 @@ property System.int BumpDetail {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Level of granularity
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpDetail](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpDetail.html)
-
-.
+See [RenderMaterial::BumpDetail](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpDetail.html).
 
 ## Remarks
 
-This property is only available when Casting, Rough, Chips, Circular or Rough/Smooth is selected for the[surface finish](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpMap.html).
+This property is only available when Casting, Rough, Chips, Circular or Rough/Smooth is selected for the [surface finish](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpMap.html).
 
 When set to high detail, individual surface elements appear in sharp focus; when set to low detail, surface elements appear in soft focus.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

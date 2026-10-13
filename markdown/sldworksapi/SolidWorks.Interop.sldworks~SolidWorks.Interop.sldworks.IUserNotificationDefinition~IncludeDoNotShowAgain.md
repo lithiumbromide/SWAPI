@@ -45,13 +45,7 @@ property System.bool IncludeDoNotShowAgain {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True (default) to display the check box, false to not.
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::IncludeDoNotShowAgain](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~IncludeDoNotShowAgain.html)
-
-.
+See [UserNotificationDefinition::IncludeDoNotShowAgain](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~IncludeDoNotShowAgain.html).
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

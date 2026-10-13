@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetRayIntersectionsTopology Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IGetRayIntersectionsTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsTopology.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IGetRayIntersectionsTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsTopology.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object IGetRayIntersectionsTopology()
 System.Object^ IGetRayIntersectionsTopology();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IGetRayIntersectionsTopology](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetRayIntersectionsTopology.html)
-
-.
+See [ModelDoc::IGetRayIntersectionsTopology](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetRayIntersectionsTopology.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

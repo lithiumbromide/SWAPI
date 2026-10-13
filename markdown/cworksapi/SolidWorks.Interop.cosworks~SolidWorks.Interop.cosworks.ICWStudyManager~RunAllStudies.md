@@ -49,9 +49,7 @@ CWRunStudiesResults^ RunAllStudies(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsRunStudiesErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsRunStudiesErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesErrorCode_e.html)
 
 ### Return Value
 
@@ -59,26 +57,16 @@ CWRunStudiesResults^ RunAllStudies(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::RunAllStudies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RunAllStudies.html)
-
-.
+See [CWStudyManager::RunAllStudies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RunAllStudies.html).
 
 ## Remarks
 
-Before calling this method, set the run and mesh options for the studies using
-
-[ICWStudyManager::RunSpecifiedStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RunSpecifiedStudyOptions.html)
-
-.
+Before calling this method, set the run and mesh options for the studies using [ICWStudyManager::RunSpecifiedStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RunSpecifiedStudyOptions.html).
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::RunSpecifiedStudyByName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RunSpecifiedStudyByName.html)
 
 ## Availability

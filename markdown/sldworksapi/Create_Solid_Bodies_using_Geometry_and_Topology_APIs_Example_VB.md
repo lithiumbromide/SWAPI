@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Solid_Bodies_using_Geometry_and_Topology_APIs_Exampl
 
 # Create Solid Bodies Using Geometry and Topology Methods Example (VBA)
 
-This example shows how to create a solid body using SOLIDWORKS geometry and
-topology methods.
+This example shows how to create a solid body using SOLIDWORKS geometry and topology methods.
 
 ```
 '--------------------------------------------------
@@ -137,5 +136,5 @@ Sub main()
 ```
 
 ```
-End Subkadov_tag{{<spaces>}}
+End Sub
 ```

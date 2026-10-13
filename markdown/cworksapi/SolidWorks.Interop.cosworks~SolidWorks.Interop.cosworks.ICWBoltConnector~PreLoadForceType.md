@@ -47,32 +47,23 @@ property System.int PreLoadForceType {
 
 ### Property Value
 
-Preload force type as defined in[swsPreloadForce_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPreloadForce_e.html)
+Preload force type as defined in [swsPreloadForce_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPreloadForce_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::PreLoadForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~PreLoadForceType.html)
-
-.
+See [CWBoltConnector::PreLoadForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~PreLoadForceType.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connectors (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connectors (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::PreLoadForceValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~PreLoadForceValue.html)
-
 [ICWBoltConnector::FrictionValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~FrictionValue.html)
 
 ## Availability

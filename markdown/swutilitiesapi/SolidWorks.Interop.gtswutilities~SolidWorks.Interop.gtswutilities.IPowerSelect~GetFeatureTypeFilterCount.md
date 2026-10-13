@@ -49,9 +49,7 @@ System.int GetFeatureTypeFilterCount(
 
 ### Parameters
 
-- `lErrorcode`: Error code as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error code as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,24 +57,15 @@ Number of types of features
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetFeatureTypeFilterCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFeatureTypeFilterCount.html)
-
-.
+See [IPowerSelect::GetFeatureTypeFilterCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetFeatureTypeFilterCount.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetFeatureTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureTypeFilter.html)
-
 [IPowerSelect::IGetFeatureTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetFeatureTypeFilter.html)
-
 [IPowerSelect::ISetFeatureTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~ISetFeatureTypeFilter.html)
-
 [IPowerSelect::SetFeatureTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetFeatureTypeFilter.html)
 
 ## Availability

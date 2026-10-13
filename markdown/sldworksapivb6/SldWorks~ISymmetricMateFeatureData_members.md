@@ -1,6 +1,5 @@
 ---
-title: "ISymmetricMateFeatureData Object
-Members"
+title: "ISymmetricMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISymmetricMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISymmetricMateFeatureData_members.html"
 ---
 
-# ISymmetricMateFeatureData Object
-Members
+# ISymmetricMateFeatureData Object Members
 
 ## Public Properties
 

@@ -34,14 +34,9 @@ System.int mlFolderID
 
 ## Examples
 
-See the
-
-[EdmMemberFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder.html)
-
-examples.
+See the [EdmMemberFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder.html) examples.
 
 ## See Also
 
 [EdmMemberFolder Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder.html)
-
 [EdmMemberFolder Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMemberFolder_members.html)

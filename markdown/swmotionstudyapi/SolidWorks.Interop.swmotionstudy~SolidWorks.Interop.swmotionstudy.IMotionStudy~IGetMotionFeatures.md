@@ -57,22 +57,16 @@ Array of motion features in this motion study
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::IGetMotionFeatures](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~IGetMotionFeatures.html)
-
-.
+See [MotionStudy::IGetMotionFeatures](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~IGetMotionFeatures.html).
 
 ## Remarks
 
-Before calling this method, call[IMotionStudy::GetMotionFeaturesCount](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~GetMotionFeaturesCount.html)to get the value of Count.
+Before calling this method, call [IMotionStudy::GetMotionFeaturesCount](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~GetMotionFeaturesCount.html) to get the value of Count.
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetMotionFeatures Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetMotionFeatures.html)
 
 ## Availability

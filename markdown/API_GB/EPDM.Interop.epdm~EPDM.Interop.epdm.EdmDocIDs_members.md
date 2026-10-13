@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members.html"
 
 # EdmDocIDs Structure Members
 
-The following tables list the members exposed by[EdmDocIDs](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html).
+The following tables list the members exposed by [EdmDocIDs](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[EdmDocIDs](EPDM.Interop.epdm~EP
 ## See Also
 
 [EdmDocIDs Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

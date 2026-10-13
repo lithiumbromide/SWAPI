@@ -1,6 +1,5 @@
 ---
-title: "EnumLoops2 Object
-Members"
+title: "EnumLoops2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumLoops2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumLoops2_members.html"
 ---
 
-# EnumLoops2 Object
-Members
+# EnumLoops2 Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "SimulationGravityFeatureData Object
-Members"
+title: "SimulationGravityFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimulationGravityFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimulationGravityFeatureData_members.html"
 ---
 
-# SimulationGravityFeatureData Object
-Members
+# SimulationGravityFeatureData Object Members
 
 ## Public Properties
 

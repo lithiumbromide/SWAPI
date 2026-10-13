@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 Gets the type of feature.
 
-NOTE: Toget the underlying type of feature of an Instant3D feature (i.e., "ICE"), call this method; otherwise, call IFeature::GetTypeName2 .
+**NOTE:** To get the underlying type of feature of an Instant3D feature (i.e., "ICE"), call this method; otherwise, call [IFeature::GetTypeName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName2.html).
 
 ## Syntax
 
@@ -42,57 +42,33 @@ System.string GetTypeName()
 System.String^ GetTypeName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-String identifying the type of feature (see
-
-Remarks
-
-)
+String identifying the type of feature (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetTypeName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetTypeName.html)
-
-.
+See [Feature::GetTypeName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetTypeName.html).
 
 ## Examples
 
 [Get Faces Associated with Feature (VBA)](Get_Faces_Associated_with_Feature_Example_VB.htm)
-
 [Select Origin of Assembly Component (VBA)](Select_Origin_of_Assembly_Component_Example_VB.htm)
-
 [Set Custom Bend Deduction (VBA)](Set_Custom_Bend_Deduction_Example_VB.htm)
-
 [Traverse All Cosmetic Threads (VBA)](Traverse_All_Cosmetic_Threads_Example_VB.htm)
-
 [Traverse Assembly at Component and Feature Level (VBA)](Traverse_Assembly_at_Component_and_Feature_Level_Example_VB.htm)
-
 [Get Info on Plane-Axis (C++)](Get_Info_on_Plane_Axis_Example_CPlusPlus_COM.htm)
-
 [Get Parent Features (C++)](Get_Parent_Features_Example_CPlusPlus_COM.htm)
-
 [Get Selected Feature (C++)](Get_Selected_Feature_Example_CPlusPlus_COM.htm)
-
 [Get Type of Instant3D Feature (C#)](Get_Type_of_Instant3D_Feature_Example_CSharp.htm)
-
 [Get Type of Instant3D Feature (VB.NET)](Get_Type_of_Instant3D_Feature_Example_VBNET.htm)
-
 [Get Type of Instant3D Feature (VBA)](Get_Type_of_Instant3D_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)to get a feature data object (i.e., an object whose interface name ends in FeatureData or FeatureData2, such as ISymmetricMateFeatureData, IExtrudeFeatureData2, ILoftFeatureData, ISimpleFilletFeatureData2, IChamferFeatureData2, etc.); otherwise, use[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)to get an object for a feature.
+Use [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get a feature data object (i.e., an object whose interface name ends in FeatureData or FeatureData2, such as ISymmetricMateFeatureData, IExtrudeFeatureData2, ILoftFeatureData, ISimpleFilletFeatureData2, IChamferFeatureData2, etc.); otherwise, use [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get an object for a feature.
 
 | Type of feature | String returned by this method | Interface |
 | --- | --- | --- |
@@ -211,6 +187,7 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | RevisionTableAnchor | ITableAnchor |
 |  | WeldmentTableAnchor | ITableAnchor |
 |  | WeldTableAnchor | ITableAnchor |
+|  | FamilyTableFeat | IFamilyTableFeature |
 | Folder | BlockFolder | Obsolete |
 |  | CommentsFolder | ICommentFolder |
 |  | CosmeticWeldSubFolder | ICosmeticWeldBeadFolder |
@@ -342,14 +319,11 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | WeldmentFeature | IStructuralMemberFeatureData |
 |  | WeldmentTableFeat | IWeldmentCutListFeature |
 
-**NOTE:**This method returns strings for some features shown in the FeatureManager design (e.g.,**MateGroup**,**Weldment**, etc.) that set up the design functionality environment and, thus, do not have interfaces.
+**NOTE:** This method returns strings for some features shown in the FeatureManager design (e.g., **MateGroup**, **Weldment**, etc.) that set up the design functionality environment and, thus, do not have interfaces.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::Name Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Name.html)
-
 [IFeature::GetNameForSelection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetNameForSelection.html)

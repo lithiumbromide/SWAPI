@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~GetNextState.
 
 # GetNextState Method (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::GetNextState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextState.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::GetNextState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextState.html).
 
 ## Syntax
 
@@ -48,5 +44,4 @@ IEdmState5^ GetNextState(
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

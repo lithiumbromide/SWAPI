@@ -40,29 +40,15 @@ System.bool HasDesignTable()
 System.bool HasDesignTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-True if document has a design table, false if not (see
-
-Remarks
-
-)
+True if document has a design table, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HasDesignTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasDesignTable.html)
-
-.
+See [ModelDocExtension::HasDesignTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasDesignTable.html).
 
 ## Examples
 
@@ -70,12 +56,11 @@ See
 
 ## Remarks
 
-This method always returns false for drawing documents because in drawing documents the design table is attached to the drawing view and not the document. Use[IView::HasDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~HasDesignTable.html)to determine if a drawing view in a drawing document has a design table.
+This method always returns false for drawing documents because in drawing documents the design table is attached to the drawing view and not the document. Use [IView::HasDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~HasDesignTable.html) to determine if a drawing view in a drawing document has a design table.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

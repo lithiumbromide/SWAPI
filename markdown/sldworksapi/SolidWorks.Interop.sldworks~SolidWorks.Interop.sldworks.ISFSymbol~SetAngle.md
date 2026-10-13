@@ -47,13 +47,7 @@ System.bool SetAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,21 @@ See
 
 ### Return Value
 
-True if the angle is set, false if it is notParamDesc
+True if the angle is set, false if it is not
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::SetAngle](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~SetAngle.html)
-
-.
+See [SFSymbol::SetAngle](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~SetAngle.html).
 
 ## Remarks
 
-This method automatically sets the orientation to swSFOrientation_UserDefined. See[ISFSymbol::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~Orientation.html)for details.
+This method automatically sets the orientation to swSFOrientation_UserDefined. See [ISFSymbol::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~Orientation.html) for details.
 
-Use[ISFSymbol::GetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetAngle.html)to get the angle of the symbol.
+Use [ISFSymbol::GetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetAngle.html) to get the angle of the symbol.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
 
 ## Availability

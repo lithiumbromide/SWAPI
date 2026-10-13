@@ -45,13 +45,7 @@ property System.String^ TemplatePath {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Path and file name of the template
 
 ## VBA Syntax
 
-See
-
-[SplitBodyFeatureData::TemplatePath](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~TemplatePath.html)
-
-.
+See [SplitBodyFeatureData::TemplatePath](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~TemplatePath.html).
 
 ## Remarks
 
-Set this property only if
-
-[ISplitBodyFeatureData::OverrideDefaultTemplateSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~OverrideDefaultTemplateSettings.html)
-
-is set to true.
+Set this property only if [ISplitBodyFeatureData::OverrideDefaultTemplateSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~OverrideDefaultTemplateSettings.html) is set to true.
 
 ## See Also
 
 [ISplitBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
 [ISplitBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData_members.html)
 
 ## Availability

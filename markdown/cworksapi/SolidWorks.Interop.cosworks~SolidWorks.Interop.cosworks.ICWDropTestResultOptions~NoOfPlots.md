@@ -51,24 +51,15 @@ Number of plots to save
 
 ## VBA Syntax
 
-See
-
-[CWDropTestResultOptions::NoOfPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~NoOfPlots.html)
-
-.
+See [CWDropTestResultOptions::NoOfPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~NoOfPlots.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html)
-
-.
+See the examples in [ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html).
 
 ## See Also
 
 [ICWDropTestResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions.html)
-
 [ICWDropTestResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions_members.html)
 
 ## Availability

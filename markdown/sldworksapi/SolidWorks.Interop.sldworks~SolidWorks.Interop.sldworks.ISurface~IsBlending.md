@@ -40,13 +40,7 @@ System.bool IsBlending()
 System.bool IsBlending();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ True if surface is a blending surface, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::IsBlending](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsBlending.html)
-
-.
+See [Surface::IsBlending](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsBlending.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [IBody2::CreateBlendSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBlendSurface.html)
-
 [IBody2::ICreateBlendSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ICreateBlendSurface.html)

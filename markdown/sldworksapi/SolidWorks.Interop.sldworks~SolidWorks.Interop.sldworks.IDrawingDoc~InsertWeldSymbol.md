@@ -82,18 +82,12 @@ void InsertWeldSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Dim1`: First text value to the left of the symbol
-- `Symbol`: Weld symbol name (see**Remarks**)
+- `Symbol`: Weld symbol name (see **Remarks**)
 - `Dim2`: Text value to the right of the symbol
 - `Symmetric`: True puts the symbol above and below the horizontal line
 - `FieldWeld`: True puts a flag for field welding
@@ -105,22 +99,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertWeldSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertWeldSymbol.html)
-
-.
+See [DrawingDoc::InsertWeldSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertWeldSymbol.html).
 
 ## Remarks
 
-Symbol specifies the weld symbol name. You can find a list of weld symbol names in**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym**.
+Symbol specifies the weld symbol name. You can find a list of weld symbol names in **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym**.
 
-The format of Symbol is<Standard-Type>. For example, a JIS seam is<JWELD-JSM>, and an ISO seam is<WELD-JSM>. You must include the right- and left-angle brackets and separateStandardandTypewith a hyphen.
+The format of Symbol is <Standard-Type>. For example, a JIS seam is <JWELD-JSM>, and an ISO seam is <WELD-JSM>. You must include the right- and left-angle brackets and separate Standard and Type with a hyphen.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)

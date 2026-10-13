@@ -39,5 +39,4 @@ This field is -1 if you specified a list of explicit variables to retrieve.
 ## See Also
 
 [EdmListCol Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
 [EdmListCol Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_members.html)

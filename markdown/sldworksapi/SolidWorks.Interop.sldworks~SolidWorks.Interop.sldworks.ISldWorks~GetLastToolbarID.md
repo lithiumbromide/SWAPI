@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetLastToolbarID Method (ISldWorks)
 
-Gets the ID of the last toolbar added to the
-
-[CommandManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html)
-
-.
+Gets the ID of the last toolbar added to the [CommandManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.int GetLastToolbarID()
 System.int GetLastToolbarID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,26 +48,18 @@ ID of the last toolbar added to the CommandManager
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetLastToolbarID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLastToolbarID.html)
-
-.
+See [SldWorks::GetLastToolbarID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLastToolbarID.html).
 
 ## Remarks
 
-See[CommandManager and CommandGroups](sldworksAPIProgGuide.chm::/OVERVIEW/CommandManager_and_CommandGroups.htm)to learn how to create a CommandManager and add and remove CommandGroups.
+See [CommandManager and CommandGroups](sldworksAPIProgGuide.chm::/OVERVIEW/CommandManager_and_CommandGroups.htm) to learn how to create a CommandManager and add and remove CommandGroups.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetCommandID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCommandID.html)
-
 [ISldWorks::GetCommandManager Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCommandManager.html)
-
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
 
 ## Availability

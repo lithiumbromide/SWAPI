@@ -33,19 +33,16 @@ IEdmPos5^ GetFirstVariablePosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first variable in the enumeration
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first variable in the enumeration
 
 ## Examples
 
 [Find Data Cards with Description Variable (C#)](Find_Data_Cards_with_Description_Variable_Example_CSharp.htm)
-
 [Find Data Cards with Description Variable (VB.NET)](Find_Data_Cards_with_Description_Variable_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, pass the returned position of the first variable to[IEdmVariableMgr5::GetNextVariable](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5~GetNextVariable.html)to get the first variable in this list. Then call IEdmVariableMgr5::GetNextVariable repeatedly to get the rest of the variables.
+After calling this method, pass the returned position of the first variable to [IEdmVariableMgr5::GetNextVariable](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5~GetNextVariable.html) to get the first variable in this list. Then call IEdmVariableMgr5::GetNextVariable repeatedly to get the rest of the variables.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -56,7 +53,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmVariableMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
-
 [IEdmVariableMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5_members.html)
 
 ## Availability

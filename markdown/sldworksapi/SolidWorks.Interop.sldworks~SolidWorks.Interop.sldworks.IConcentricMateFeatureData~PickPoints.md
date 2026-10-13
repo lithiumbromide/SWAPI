@@ -45,13 +45,7 @@ property System.Object^ PickPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Array of x, y, z-coordinates, one set for each mate entity
 
 ## VBA Syntax
 
-See
-
-[ConcentricMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~ConcentricMateFeatureData~PickPoints.html)
-
-.
+See [ConcentricMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~ConcentricMateFeatureData~PickPoints.html).
 
 ## Remarks
 
-After you set the pick points for a given selection of
-
-[IConcentricMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html)
-
-, you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new concentric mate.
+After you set the pick points for a given selection of [IConcentricMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html), you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new concentric mate.
 
 ## See Also
 
 [IConcentricMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData.html)
-
 [IConcentricMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData_members.html)
 
 ## Availability

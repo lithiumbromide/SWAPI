@@ -44,28 +44,20 @@ property swDimXpertChamferAngleType_e AngleType {
 
 ### Property Value
 
-Type of angle as defined in
-
-[swDimXpertChamferAngleType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertChamferAngleType_e.html)
+Type of angle as defined in [swDimXpertChamferAngleType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertChamferAngleType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertChamferFeature::AngleType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~AngleType.html)
-
-.
+See [DimXpertChamferFeature::AngleType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertChamferFeature~AngleType.html).
 
 ## Examples
 
 [Get DimXpert Chamfer Feature Example (VBA)](Get_DimXpert_Chamfer_Feature_Example_VB.htm)
-
 [Get DimXpert Chamfer Feature Example (VB.NET)](Get_DimXpert_Chamfer_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertChamferFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature.html)
-
 [IDimXpertChamferFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature_members.html)
 
 ## Availability

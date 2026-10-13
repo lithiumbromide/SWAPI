@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog_memb
 
 # IEdmGetCSVersionDialog Interface Members
 
-The following tables list the members exposed by[IEdmGetCSVersionDialog](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html).
+The following tables list the members exposed by [IEdmGetCSVersionDialog](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmGetCSVersionDialog](EPDM.In
 ## See Also
 
 [IEdmGetCSVersionDialog Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

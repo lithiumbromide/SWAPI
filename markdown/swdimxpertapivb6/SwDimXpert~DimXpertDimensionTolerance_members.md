@@ -1,6 +1,5 @@
 ---
-title: "DimXpertDimensionTolerance Object
-Members"
+title: "DimXpertDimensionTolerance Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertDimensionTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertDimensionTolerance_members.html"
 ---
 
-# DimXpertDimensionTolerance Object
-Members
+# DimXpertDimensionTolerance Object Members
 
 ## Public Methods
 

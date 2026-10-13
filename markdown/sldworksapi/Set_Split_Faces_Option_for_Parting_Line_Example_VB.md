@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Split_Faces_Option_for_Parting_Line_Example_VB.htm"
 
 # Set Options for Parting Line Example (VBA)
 
-This example shows how to set the split faces and core/cavity split
-options for a parting line.
+This example shows how to set the split faces and core/cavity split options for a parting line.
 
 ```
 '---------------------------------------------------------

@@ -52,15 +52,12 @@ True if the specified file's user-defined file references are shown in a BOM, fa
 ## Examples
 
 [Access Custom File References (C#)](Access_Custom_File_References_Example_CSharp.htm)
-
 [Access Custom File References (VB.NET)](Access_Custom_File_References_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmEnumeratorCustomReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7.html)
-
 [IEdmEnumeratorCustomReference7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7_members.html)
-
 [IEdmEnumeratorCustomReference7::GetShowInBOM Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~GetShowInBOM.html)
 
 ## Availability

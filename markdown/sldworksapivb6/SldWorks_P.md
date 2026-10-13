@@ -143,6 +143,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | DrawingComponent |  |
 | DrawingDoc |  |
 | DrSection |  |
+| DSPBRMaterial |  |
 | Edge |  |
 | EdgeFlangeFeatureData |  |
 | EdgePoint |  |
@@ -177,6 +178,8 @@ source: "sldworksapivb6/SldWorks_P.html"
 | FaceDecalProperties |  |
 | FaceHatch |  |
 | Facet |  |
+| FamilyTableAnnotation |  |
+| FamilyTableFeature |  |
 | FaultEntity |  |
 | FeatMgrView |  |
 | Feature |  |
@@ -260,7 +263,10 @@ source: "sldworksapivb6/SldWorks_P.html"
 | IDimPatternFeatureData |  |
 | IDisplayStateSetting |  |
 | IDistanceMateFeatureData |  |
+| IDSPBRMaterial |  |
 | IFacet |  |
+| IFamilyTableAnnotation |  |
+| IFamilyTableFeature |  |
 | IFeatureFolder |  |
 | IFillPatternFeatureData |  |
 | IFlatPatternFolder |  |
@@ -291,6 +297,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | IMateControllerFeatureData |  |
 | IMateFeatureData |  |
 | IMBD3DPdfData |  |
+| IMBDSTEP242Data |  |
 | IMeshBody |  |
 | IMessageBarDefinition |  |
 | IMirrorComponentFeatureData |  |
@@ -388,6 +395,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | ITwoMemberCornerTreatmentFeatureData |  |
 | IUniversalJointMateFeatureData |  |
 | IUserNotificationDefinition |  |
+| IVersionCompatibilityItem |  |
 | IView3D |  |
 | IWidthMateFeatureData |  |
 | JogFeatureData |  |
@@ -430,6 +438,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | MathUtility |  |
 | MathVector |  |
 | MBD3DPdfData |  |
+| MBDSTEP242Data |  |
 | Measure |  |
 | Member |  |
 | MeshBody |  |
@@ -667,6 +676,7 @@ source: "sldworksapivb6/SldWorks_P.html"
 | UserUnit |  |
 | VariableFilletFeatureData |  |
 | VariableFilletFeatureData2 |  |
+| VersionCompatibilityItem |  |
 | Vertex |  |
 | View |  |
 | View3D |  |

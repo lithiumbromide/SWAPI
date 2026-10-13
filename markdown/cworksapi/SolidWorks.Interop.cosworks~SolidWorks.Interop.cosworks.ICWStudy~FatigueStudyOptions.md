@@ -48,28 +48,19 @@ property CWFatigueStudyOptions^ FatigueStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::FatigueStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~FatigueStudyOptions.html)
-
-.
+See [CWStudy::FatigueStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~FatigueStudyOptions.html).
 
 ## Examples
 
 [Create Fatigue Study (C#)](Create_Fatigue_Study_Example_CSharp.htm)
-
 [Create Fatigue Study (VB.NET)](Create_Fatigue_Study_Example_VBNET.htm)
-
 [Create Fatigue Study (VBA)](Create_Fatigue_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::SetFatigueResultOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~SetFatigueResultOptions.html)
-
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
 
 ## Availability

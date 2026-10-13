@@ -33,21 +33,15 @@ IEdmPos5^ GetFirstRefPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first custom file reference
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first custom file reference
 
 ## Examples
 
-See the
-
-[IEdmEnumeratorCustomReference5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5.html)
-
-examples.
+See the [IEdmEnumeratorCustomReference5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5.html) examples.
 
 ## Remarks
 
-After calling this method, pass the position of the first custom file reference to[IEdmEnumeratorCustomReference5::GetNextRef](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetNextRef.html)to get the first custom file reference. Then call IEdmEnumeratorCustomReference5::GetNextRef repeatedly to get the rest of the custom file references.
+After calling this method, pass the position of the first custom file reference to [IEdmEnumeratorCustomReference5::GetNextRef](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetNextRef.html) to get the first custom file reference. Then call IEdmEnumeratorCustomReference5::GetNextRef repeatedly to get the rest of the custom file references.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned pointer to IEdmPos5.
 
@@ -59,7 +53,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmEnumeratorCustomReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5.html)
-
 [IEdmEnumeratorCustomReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5_members.html)
 
 ## Availability

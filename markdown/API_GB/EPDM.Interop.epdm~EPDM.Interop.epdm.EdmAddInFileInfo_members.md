@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo_members.htm
 
 # EdmAddInFileInfo Structure Members
 
-The following tables list the members exposed by[EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html).
+The following tables list the members exposed by [EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[EdmAddInFileInfo](EPDM.Interop.
 ## See Also
 
 [EdmAddInFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

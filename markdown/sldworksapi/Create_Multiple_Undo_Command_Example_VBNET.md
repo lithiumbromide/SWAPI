@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Multiple_Undo_Command_Example_VBNET.htm"
 
 # Create Hidden Undo Object Example (VB.NET)
 
-This example shows how to create an Undo object that is hidden in the
-SOLIDWORKS Undo list.
+This example shows how to create an Undo object that is hidden in the SOLIDWORKS Undo list.
 
 ```
 '-----------------------------------------------------------------------------
@@ -56,9 +55,9 @@ Partial Class SolidWorksMacro
         swModel = swApp.ActiveDoc
 ```
 
-swModelView = swModel. ActiveView
+swModelView = swModel.**ActiveView**
 
-swModelView. FrameState = swWindowState_e.swWindowMaximized
+swModelView.**FrameState** = swWindowState_e.swWindowMaximized
 
 ```
         swModelDocExt = swModel.Extension

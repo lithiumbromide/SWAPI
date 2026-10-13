@@ -9,8 +9,7 @@ source: "sldworksapi/Add_ActiveX_Tab_to_FeatureManager_Design_Tree_Example_VB.ht
 
 # Add ActiveX Tab to FeatureManager Design Tree Example (VBA)
 
-This example shows how to add a tab to the FeatureManager design tree using
-three on-disk bitmap files for the tab's scaleable icon.
+This example shows how to add a tab to the FeatureManager design tree using three on-disk bitmap files for the tab's scaleable icon.
 
 ```
 '----------------------------------------------------------

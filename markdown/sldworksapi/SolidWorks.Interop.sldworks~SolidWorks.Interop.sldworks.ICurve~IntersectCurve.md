@@ -63,19 +63,11 @@ System.Object^ IntersectCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `OtherCurve`: Curve to intersect with this
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `OtherCurve`: Curve to intersect with this [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `ThisStartPoint`: Array containing the start point of this curve
 - `ThisEndPoint`: Array containing the end point of this curve
 - `OtherStartPoint`: Array containing the start point of otherCurve
@@ -83,36 +75,25 @@ See
 
 ### Return Value
 
-Array containing the intersection points (see
-
-Remarks
-
-)
+Array containing the intersection points (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::IntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IntersectCurve.html)
-
-.
+See [Curve::IntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IntersectCurve.html).
 
 ## Remarks
 
 The array of doubles returned contains the x, y, z location of the tessellation points and a code for each point that indicates the intersection class:
 
-[x1, y1, z1, k1, x2, y2, z2, k2....]
+[ x1, y1, z1, k1, x2, y2, z2, k2.... ]
 
-Return codes are defined in[swIntersectionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIntersectionType_e.html).
+Return codes are defined in [swIntersectionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIntersectionType_e.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IIntersectCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IIntersectCurve.html)
-
 [ICurve::IIntersectCurveSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IIntersectCurveSize.html)
 
 ## Availability

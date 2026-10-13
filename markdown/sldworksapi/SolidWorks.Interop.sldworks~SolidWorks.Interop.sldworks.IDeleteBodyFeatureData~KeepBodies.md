@@ -45,13 +45,7 @@ property System.bool KeepBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to keep bodies, false to delete bodies
 
 ## VBA Syntax
 
-See
-
-[DeleteBodyFeatureData::KeepBodies](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~KeepBodies.html)
-
-.
+See [DeleteBodyFeatureData::KeepBodies](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~KeepBodies.html).
 
 ## Examples
 
-See the
-
-[IDeleteBodyFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData.html)
-
-examples.
+See the [IDeleteBodyFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData.html) examples.
 
 ## Remarks
 
-Call
-
-[IDeleteBodyFeatureData::Bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~Bodies.html)
-
-to specify the bodies to keep or delete.
+Call [IDeleteBodyFeatureData::Bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~Bodies.html) to specify the bodies to keep or delete.
 
 ## See Also
 
 [IDeleteBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData.html)
-
 [IDeleteBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData_members.html)
 
 ## Availability

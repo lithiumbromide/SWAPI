@@ -1,6 +1,5 @@
 ---
-title: "GussetFeatureData Object
-Members"
+title: "GussetFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "GussetFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~GussetFeatureData_members.html"
 ---
 
-# GussetFeatureData Object
-Members
+# GussetFeatureData Object Members
 
 ## Public Methods
 

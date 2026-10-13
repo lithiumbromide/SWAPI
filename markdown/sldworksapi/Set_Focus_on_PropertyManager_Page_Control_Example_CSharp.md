@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Focus_on_PropertyManager_Page_Control_Example_CSharp.ht
 
 # Set Focus on PropertyManager Page Control Example (C#)
 
-This example shows how to set focus on a PropertyManager
-page control.
+This example shows how to set focus on a PropertyManager page control.
 
 ```
 //----------------------------------------------------------------------------

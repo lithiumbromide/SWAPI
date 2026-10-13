@@ -45,13 +45,7 @@ property System.double Direction2RotationAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Angle at which to rotate the texture relative to the vertical axis
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Direction2RotationAngle](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Direction2RotationAngle.html)
-
-.
+See [RenderMaterial::Direction2RotationAngle](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Direction2RotationAngle.html).
 
 ## Remarks
 
 This property affects spheres only.
 
-Call[IRenderMaterial::Direction1RotationAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Direction1RotationAngle.html)to get or set the angle to rotate the texture to the horizontal axis.
+Call [IRenderMaterial::Direction1RotationAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Direction1RotationAngle.html) to get or set the angle to rotate the texture to the horizontal axis.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

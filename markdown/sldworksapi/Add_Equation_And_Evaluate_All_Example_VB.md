@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Equation_And_Evaluate_All_Example_VB.htm"
 
 # Add Equation and Evaluate All Example (VBA)
 
-This example shows how to use IEquationMgr interface
-to add an equation to a model and delay evaluation until all equations are added.
+This example shows how to use IEquationMgr interface to add an equation to a model and delay evaluation until all equations are added.
 
 ```
 '------------------------------------------------------------------------

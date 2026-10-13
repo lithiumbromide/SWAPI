@@ -47,13 +47,7 @@ System.bool SetAutomaticUpdate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[BodyFolder::SetAutomaticUpdate](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SetAutomaticUpdate.html)
-
-.
+See [BodyFolder::SetAutomaticUpdate](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SetAutomaticUpdate.html).
 
 ## Examples
 
-See the
-
-[IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
-examples.
+See the [IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html) examples.
 
 ## Remarks
 
@@ -89,9 +75,7 @@ examples.
 ## See Also
 
 [IBodyFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
 [IBodyFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder_members.html)
-
 [IBodyFolder::GetAutomaticUpdate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetAutomaticUpdate.html)
 
 ## Availability

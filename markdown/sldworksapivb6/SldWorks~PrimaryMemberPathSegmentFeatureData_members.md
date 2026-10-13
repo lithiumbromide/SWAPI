@@ -1,6 +1,5 @@
 ---
-title: "PrimaryMemberPathSegmentFeatureData Object
-Members"
+title: "PrimaryMemberPathSegmentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PrimaryMemberPathSegmentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PrimaryMemberPathSegmentFeatureData_members.html"
 ---
 
-# PrimaryMemberPathSegmentFeatureData Object
-Members
+# PrimaryMemberPathSegmentFeatureData Object Members
 
 ## Public Methods
 

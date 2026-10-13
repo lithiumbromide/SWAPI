@@ -1,6 +1,5 @@
 ---
-title: "ConcentricMateFeatureData Object
-Members"
+title: "ConcentricMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ConcentricMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ConcentricMateFeatureData_members.html"
 ---
 
-# ConcentricMateFeatureData Object
-Members
+# ConcentricMateFeatureData Object Members
 
 ## Public Properties
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewZoomToSelection Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewZoomToSelection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewZoomToSelection.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewZoomToSelection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewZoomToSelection.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewZoomToSelection()
 void ViewZoomToSelection();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewZoomToSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewZoomToSelection.html)
-
-.
+See [ModelDoc::ViewZoomToSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewZoomToSelection.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

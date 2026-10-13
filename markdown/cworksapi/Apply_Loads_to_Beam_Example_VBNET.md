@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Loads_to_Beam_Example_VBNET.htm"
 
 # Apply Loads to Beams Example (VB.NET)
 
-This example shows how to apply the total force, or load, along the length of
-a beam in various types of distributions.
+This example shows how to apply the total force, or load, along the length of a beam in various types of distributions.
 
 ```vb
  '---------------------------------------------------------------------------

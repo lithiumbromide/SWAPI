@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Text_in_Datum_Tags_and_GTols_Example_VB.htm"
 
 # Set Text in Datum Tags and GTols Example (VBA)
 
-This example shows how to set the text in datum tags and geometric
-tolerances.
+This example shows how to set the text in datum tags and geometric tolerances.
 
 ```vb
  '----------------------------------------------------------------------------

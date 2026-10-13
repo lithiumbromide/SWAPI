@@ -40,13 +40,7 @@ System.bool ResumeSkinning()
 System.bool ResumeSkinning();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ResumeSkinning](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResumeSkinning.html)
-
-.
+See [SldWorks::ResumeSkinning](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResumeSkinning.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

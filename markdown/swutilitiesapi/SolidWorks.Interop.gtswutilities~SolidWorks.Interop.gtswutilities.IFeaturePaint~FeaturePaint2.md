@@ -57,64 +57,21 @@ System.int FeaturePaint2(
 
 ### Parameters
 
-- `sourcefeature`: <
-
-source feature name
-
->@<
-
-kadov_tag{{<ignored>}}
-
-path\filename
-
-kadov_tag{{</ignored>}}
-
->.
-
-kadov_tag{{<ignored>}}
-
-sldprt
-
-kadov_tag{{</ignored>}}
-- `targetfeature`: <
-
-target feature name
-
->@<
-
-kadov_tag{{<ignored>}}
-
-path\filename
-
-kadov_tag{{</ignored>}}
-
->.
-
-kadov_tag{{<ignored>}}
-
-sldprt
-
-kadov_tag{{</ignored>}}
+- `sourcefeature`: <source feature name>@<path\filename>.sldprt
+- `targetfeature`: <target feature name>@<path\filename>.sldprt
 - `pasteappearance`: True if the source feature's parameters are copied to the target feature, false if not
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFeaturePaint::FeaturePaint2](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint~FeaturePaint2.html)
-
-.
+See [IFeaturePaint::FeaturePaint2](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint~FeaturePaint2.html).
 
 ## See Also
 
 [IFeaturePaint Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint.html)
-
 [IFeaturePaint Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint_members.html)
 
 ## Availability

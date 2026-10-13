@@ -1,6 +1,5 @@
 ---
-title: "RevisionCloud Object
-Members"
+title: "RevisionCloud Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RevisionCloud_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RevisionCloud_members.html"
 ---
 
-# RevisionCloud Object
-Members
+# RevisionCloud Object Members
 
 ## Public Methods
 

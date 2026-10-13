@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SetVector Method (IParameter)
 
-Obsolete. Superseded by
-
-[IParameter::SetVector2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter~SetVector2.html)
-
-.
+Obsolete. Superseded by [IParameter::SetVector2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IParameter~SetVector2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool SetVector(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Parameter::SetVector](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetVector.html)
-
-.
+See [Parameter::SetVector](ms-its:sldworksapivb6.chm::/sldworks~Parameter~SetVector.html).
 
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [IParameter Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html)

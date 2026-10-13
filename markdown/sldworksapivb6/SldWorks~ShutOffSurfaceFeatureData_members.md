@@ -1,6 +1,5 @@
 ---
-title: "ShutOffSurfaceFeatureData Object
-Members"
+title: "ShutOffSurfaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ShutOffSurfaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ShutOffSurfaceFeatureData_members.html"
 ---
 
-# ShutOffSurfaceFeatureData Object
-Members
+# ShutOffSurfaceFeatureData Object Members
 
 ## Public Methods
 

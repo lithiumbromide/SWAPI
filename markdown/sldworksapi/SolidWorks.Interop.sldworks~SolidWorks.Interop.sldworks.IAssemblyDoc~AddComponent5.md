@@ -75,28 +75,18 @@ Component2^ AddComponent5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CompName`: Path name of a pre-loaded part or assembly to add as a component (see
-
-Remarks
-
-)
-- `ConfigOption`: Mode in which to open the document as specified in[swAddComponentConfigOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddComponentConfigOptions_e.html)
+- `CompName`: Path name of a pre-loaded part or assembly to add as a component (see **Remarks**)
+- `ConfigOption`: Mode in which to open the document as specified in [swAddComponentConfigOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddComponentConfigOptions_e.html)
 - `NewConfigName`: Name for the new assembly configuration;
 
-valid only if ConfigOption =
+  valid only if ConfigOption =
 
-- swAddComponentConfigOptions_e.swAddComponentConfigOptions_NewConfigWithAllReferenceModels - or -
-- swAddComponentConfigOptions_e.swAddComponentConfigOptions_NewConfigWithAsmStructure
+  - swAddComponentConfigOptions_e.swAddComponentConfigOptions_NewConfigWithAllReferenceModels - or -
+  - swAddComponentConfigOptions_e.swAddComponentConfigOptions_NewConfigWithAsmStructure
 - `UseConfigForPartReferences`: If true, the configuration specified in ExistingConfigName is used
 - `ExistingConfigName`: Name of the configuration of the loaded component; valid only if UseConfigForPartReferences = true
 - `X`: X coordinate of the component center
@@ -109,48 +99,34 @@ valid only if ConfigOption =
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddComponent5](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponent5.html)
-
-.
+See [AssemblyDoc::AddComponent5](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponent5.html).
 
 ## Examples
 
 [Insert New Instance of Virtual Component (VBA)](Insert_New_Instance_of_Virtual_Component_Example_VB.htm)
-
 [Insert New Instance of Virtual Component (VB.NET)](Insert_New_Instance_of_Virtual_Component_Example_VBNET.htm)
-
 [Insert New Instance of Virtual Component (C#)](Insert_New_Instance_of_Virtual_Component_Example_CSharp.htm)
-
 [Add Component and Mate (VBA)](Add_Component_and_Mate_Example_VB.htm)
-
 [Add Component and Mate (VB.NET)](Add_Component_and_Mate_Example_VBNET.htm)
-
 [Add Component and Mate (C#)](Add_Component_and_Mate_Example_CSharp.htm)
 
 ## Remarks
 
-The specified file must be loaded in memory. A file is loaded into memory when you load the file in your SOLIDWORKS session ([ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)) or open an assembly that already contains the file.
+The specified file must be loaded in memory. A file is loaded into memory when you load the file in your SOLIDWORKS Design session ([ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)) or open an assembly that already contains the file.
 
-To add a new instance of an existing virtual component, use[IComponent2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPathName.html)to get the virtual component's path and file name.
+To add a new instance of an existing virtual component, use [IComponent2::GetPathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPathName.html) to get the virtual component's path and file name.
 
-If you want to add the component at a position relative to the root component, use[IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html)to reposition the component immediately after calling this method. Or, you can use[IAssemblyDoc::AddComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddComponents.html)or[IAssemblyDoc::AddComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IAddComponents2.html)to specify the transform when inserting a component, insert as many components as you want at once, and rotate and scale the component through the transform matrix.
+If you want to add the component at a position relative to the root component, use [IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html) to reposition the component immediately after calling this method. Or, you can use [IAssemblyDoc::AddComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddComponents.html) or [IAssemblyDoc::AddComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IAddComponents2.html) to specify the transform when inserting a component, insert as many components as you want at once, and rotate and scale the component through the transform matrix.
 
-IMPORTANT:X, Y, and Z are relative to the bounding box of the component. Use this method to approximately position the component. Then use IComponent2::Transform2 to more precisely position the component.
+IMPORTANT: X, Y, and Z are relative to the bounding box of the component. Use this method to approximately position the component. Then use IComponent2::Transform2 to more precisely position the component.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::InsertEnvelope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertEnvelope.html)
-
 [IAssemblyDoc::ReplaceComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents.html)
-
 [IAssemblyDoc::CopyWithMates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CopyWithMates.html)
-
 [IAssemblyDoc::InsertImportedComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertImportedComponent.html)
 
 ## Availability

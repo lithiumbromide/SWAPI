@@ -45,13 +45,7 @@ property System.String^ Text {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Text for the comment
 
 ## VBA Syntax
 
-See
-
-[Comment::Text](ms-its:sldworksapivb6.chm::/sldworks~Comment~Text.html)
-
-.
+See [Comment::Text](ms-its:sldworksapivb6.chm::/sldworks~Comment~Text.html).
 
 ## Examples
 
 [Get Comments in Comments Folder (C#)](Get_Comments_in_Comments_Folder_Example_CSharp.htm)
-
 [Get Comments in Comments Folder (VB.NET)](Get_Comments_in_Comments_Folder_Example_VBNET.htm)
-
 [Get Comments in Comments Folder (VBA)](Get_Comments_in_Comments_Folder_Example_VB.htm)
 
 ## See Also
 
 [IComment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html)
-
 [IComment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment_members.html)
 
 ## Availability

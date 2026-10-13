@@ -42,6 +42,7 @@ public enum class swsUserPreferenceToggle_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swsAutomaticallyDetectUnderConstrainedBodies | 21 = Get or set whether to automatically detect underconstrained bodies; corresponds to setting in Simulation > Options dialiog |
 | swsAverageStressesAtMidnodes | 17 = Get or set whether to average stresses at mid-nodes; corresponds to Simulation > Options > Default Options > Results > Average stresses at mid-nodes (high-quality solid mesh only) |
 | swsColorChartColorNoOfChartColorFlip | 13 = Get or set whether to flip the chart colors; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color options > Flip |
 | swsColorChartColorSpecifyColorForvonMisesPlot | 14 = Get or set whether to specify color for values above yield for vonMises plot; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color options > Specify color for values above yield for vonMises plot |

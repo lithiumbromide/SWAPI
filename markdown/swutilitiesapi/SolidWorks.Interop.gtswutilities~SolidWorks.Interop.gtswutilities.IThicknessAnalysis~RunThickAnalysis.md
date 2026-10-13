@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # RunThickAnalysis Method (IThicknessAnalysis)
 
-Obsolete. Superseded by
-
-[IThicknessAnalysis::RunThickAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThickAnalysis2.html)
-
-.
+Obsolete. Superseded by [IThicknessAnalysis::RunThickAnalysis2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~RunThickAnalysis2.html).
 
 ## Syntax
 
@@ -92,14 +88,9 @@ System.int RunThickAnalysis(
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::RunThickAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~RunThickAnalysis.html)
-
-.
+See [IThicknessAnalysis::RunThickAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~RunThickAnalysis.html).
 
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)

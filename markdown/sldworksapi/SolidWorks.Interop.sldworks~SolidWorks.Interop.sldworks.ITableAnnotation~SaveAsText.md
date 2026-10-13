@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # SaveAsText Method (ITableAnnotation)
 
-Obsolete. Superseded by
-
-[ITableAnnotation::SaveAsText2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsText2.html)
-
-.
+Obsolete. Superseded by [ITableAnnotation::SaveAsText2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsText2.html).
 
 ## Syntax
 
@@ -55,34 +51,20 @@ System.bool SaveAsText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and filename of text data file (see
-
-Remarks
-
-)
+- `FileName`: Full path and filename of text data file (see **Remarks**)
 - `Separator`: Character or string to use to separate each of the text within each of the cells in the table in the text file
 
 ### Return Value
 
-True if table is saved as a text file, false if notParamDesc
+True if table is saved as a text file, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SaveAsText](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsText.html)
-
-.
+See [TableAnnotation::SaveAsText](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsText.html).
 
 ## Remarks
 
@@ -100,11 +82,8 @@ The Separator argument is typically a single character, but it can be a string. 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::SaveAsPDF Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsPDF.html)
-
 [ITableAnnotation::SaveAsTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsTemplate.html)
 
 ## Availability

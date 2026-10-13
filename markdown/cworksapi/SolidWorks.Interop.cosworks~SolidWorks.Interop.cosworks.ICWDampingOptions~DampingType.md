@@ -47,25 +47,15 @@ property System.int DampingType {
 
 ### Property Value
 
-Damping type as defined in
-
-[swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html)
+Damping type as defined in [swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDampingOptions::DampingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~DampingType.html)
-
-.
+See [CWDampingOptions::DampingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~DampingType.html).
 
 ## Examples
 
-See the
-
-[ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
-examples.
+See the [ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html) examples.
 
 ## Remarks
 
@@ -74,17 +64,11 @@ For more information about damping, see the SOLIDWORKS Simulation Help.
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
-
 [ICWDampingOptions::GetDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~GetDampingRatios.html)
-
 [ICWDampingOptions::SetDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~SetDampingRatios.html)
-
 [ICWDampingOptions::GetRayleighDampingCoefficients Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~GetRayleighDampingCoefficients.html)
-
 [ICWDampingOptions::SetRayleighDampingCoefficients Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~SetRayleighDampingCoefficients.html)
-
 [ICWDampingOptions::ComputeFromMaterialDamping Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~ComputeFromMaterialDamping.html)
 
 ## Availability

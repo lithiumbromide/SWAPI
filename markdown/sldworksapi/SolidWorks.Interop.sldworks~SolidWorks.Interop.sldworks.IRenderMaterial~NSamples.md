@@ -45,13 +45,7 @@ property System.double NSamples {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Number of samples used to calculate the contribution of the glossy component
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::NSamples](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~NSamples.html)
-
-.
+See [RenderMaterial::NSamples](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~NSamples.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Increasing the sampling rate reduces artifacts but reduces performance. This pro
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

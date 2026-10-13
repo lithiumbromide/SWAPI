@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Number_of_Polylines_in_Shaded_Mode_Drawing_View_Example
 
 # Get Number of Polylines in Shaded Mode Drawing View Example (VBA)
 
-This example shows how to get the number of polylines in a drawing view
-displayed in Shaded and Wireframe modes.
+This example shows how to get the number of polylines in a drawing view displayed in Shaded and Wireframe modes.
 
 ```
 '------------------------------------------------

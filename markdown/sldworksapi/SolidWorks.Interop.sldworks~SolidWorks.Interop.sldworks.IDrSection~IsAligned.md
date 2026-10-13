@@ -40,13 +40,7 @@ System.bool IsAligned()
 System.bool IsAligned();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if this is an aligned section view, false if it is not
 
 ## VBA Syntax
 
-See
-
-[DrSection::IsAligned](ms-its:sldworksapivb6.chm::/sldworks~DrSection~IsAligned.html)
-
-.
+See [DrSection::IsAligned](ms-its:sldworksapivb6.chm::/sldworks~DrSection~IsAligned.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
 
 ## Availability

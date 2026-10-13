@@ -45,42 +45,23 @@ property System.int ThreadMethod {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread method as defined in
-
-[swThreadMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadMethod_e.html)
-
-; default is swThreadMethod_e.swThreadMethod_CutThread
+Thread method as defined in [swThreadMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadMethod_e.html); default is swThreadMethod_e.swThreadMethod_CutThread
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::ThreadMethod](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ThreadMethod.html)
-
-.
+See [ThreadFeatureData::ThreadMethod](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ThreadMethod.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

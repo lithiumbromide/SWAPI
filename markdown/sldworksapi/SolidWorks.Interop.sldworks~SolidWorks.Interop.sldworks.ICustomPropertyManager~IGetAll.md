@@ -58,37 +58,24 @@ void IGetAll(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Count`: Number of custom properties
 - `PropNames`: Array of the names of custom properties
-- `PropTypes`: Array of property types as defined in[swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
+- `PropTypes`: Array of property types as defined in [swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
 - `PropValues`: Array of values of custom properties
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::IGetAll](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~IGetAll.html)
-
-.
+See [CustomPropertyManager::IGetAll](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~IGetAll.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::Get2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Get2.html)
-
 [ICustomPropertyManager::GetAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetAll.html)
 
 ## Availability

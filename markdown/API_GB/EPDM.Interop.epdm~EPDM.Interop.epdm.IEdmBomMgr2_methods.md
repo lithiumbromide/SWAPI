@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_methods.html"
 
 # IEdmBomMgr2 Interface Methods
 
-For a list of all members of this type, see[IEdmBomMgr2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_members.html).
+For a list of all members of this type, see [IEdmBomMgr2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmBomMgr2 members](EPDM.Interop.ep
 ## See Also
 
 [IEdmBomMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

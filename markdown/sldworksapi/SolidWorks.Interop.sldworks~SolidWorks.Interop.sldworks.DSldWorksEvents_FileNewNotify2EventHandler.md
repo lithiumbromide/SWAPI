@@ -49,29 +49,17 @@ public delegate System.int DSldWorksEvents_FileNewNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NewDoc`: New document
-- `DocType`: Type of document as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `DocType`: Type of document as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 - `TemplateName`: Template name of the new document
 
 ## VBA Syntax
 
-See
-
-[FileNewNotify2 Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewNotify2_EV.html)
-
-.
+See [FileNewNotify2 Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewNotify2_EV.html).
 
 ## Examples
 
@@ -81,7 +69,7 @@ See
 
 If your add-in wants to use the Dispatch pointer to the new document, then your add-in must increment the reference count using AddRef. When your add-in is done with the new document, it must decrement the reference count using Release.
 
-If developing a C++ application, use[swAppFileNewNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppFileNewNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

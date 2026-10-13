@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_methods.h
 
 # IEdmAddCustomRefs Interface Methods
 
-For a list of all members of this type, see[IEdmAddCustomRefs members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html).
+For a list of all members of this type, see [IEdmAddCustomRefs members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html).
 
 ## Public Methods
 
@@ -21,12 +21,11 @@ For a list of all members of this type, see[IEdmAddCustomRefs members](EPDM.Inte
 | Method | CreateReferences | Creates the custom file references in the file vault. |
 | Method | CreateTree | Computes the file reference tree. |
 | Method | ShowDlg | Displays the Create File References dialog box that allows the user to edit the new file references. |
-| Method | ShowEditReferencesDlg | Displays the Edit User-Defined File References dialog box that allows the user to edit the existing file references. |
+| Method | ShowEditReferencesDlg | Obsolete. Superseded by IEdmAddCustomRefs3::ShowEditReferencesDlg2 . |
 
 [Top](#topBookmark)
 
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

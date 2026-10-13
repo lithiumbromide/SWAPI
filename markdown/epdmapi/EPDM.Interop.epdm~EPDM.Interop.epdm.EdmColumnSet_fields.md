@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet_fields.html"
 
 # EdmColumnSet Structure Fields
 
-For a list of all members of this type, see[EdmColumnSet members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet_members.html).
+For a list of all members of this type, see [EdmColumnSet members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmColumnSet members](EPDM.Interop.e
 ## See Also
 
 [EdmColumnSet Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

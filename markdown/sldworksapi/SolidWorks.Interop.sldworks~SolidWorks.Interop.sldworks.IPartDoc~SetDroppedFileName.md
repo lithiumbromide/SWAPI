@@ -47,13 +47,7 @@ System.bool SetDroppedFileName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if name is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::SetDroppedFileName](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetDroppedFileName.html)
-
-.
+See [PartDoc::SetDroppedFileName](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~SetDroppedFileName.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IAssemblyDoc::SetDroppedFileName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetDroppedFileName.html)
-
 [DPartDocEvents_FileDropPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_FileDropPreNotifyEventHandler.html)
 
 ## Availability

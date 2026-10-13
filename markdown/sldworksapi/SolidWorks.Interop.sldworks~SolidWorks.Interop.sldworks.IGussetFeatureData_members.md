@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGu
 
 # IGussetFeatureData Interface Members
 
-The following tables list the members exposed by[IGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html).
+The following tables list the members exposed by [IGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html).
 
 ## Public Properties
 
@@ -46,9 +46,6 @@ The following tables list the members exposed by[IGussetFeatureData](SolidWorks.
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertGussetFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGussetFeature.html)
-
 [IFeatureManager::InsertGussetFeature2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGussetFeature2.html)

@@ -1,0 +1,140 @@
+#swapi-map 1 module=routingapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IAdvancedRouteSelector	i	Allows access to the Routing Highlight Search tool in an electrical (ECAD) drawing and electrical route assembly.	via=IRouteManager.GetAdvancedRouteSelector	use=15
+Find	m	int Find(string connectorName, int searchType:swRoutingSearchType_e, bool singleInstanceOnly, bool append)	2009		Finds the number of specified components in the assembly document.
+getAttachedComponentsCount	m	int getAttachedComponentsCount(int selIndex)	2009		Gets the number of attached components for the specified component.
+Select	m	object Select(int selIndex, bool append, object callbackIn:ISelectData, int outputType:swAdvancedRouteSelectionOutput_e, out object selObjName)	2009		Gets the names of the attached components for the selected component.
+SetSelectionColor	m	void SetSelectionColor(bool special, int colorIndex)	2009		Sets the color of the selected components.
+@IAutoRoute	i	Allows access to Auto Route.	via=IRouteManager.GetAutoRoute	use=30
+ConvertGuidelinesToRoute	m	bool ConvertGuidelinesToRoute()	2011		Converts selected guidelines into unique routes.
+CreatePointToPointAutoRoute	m	int:swPointToPointAutoRouteErrorType_e CreatePointToPointAutoRoute(int conversionMode:swPointToPointAutoRouteConversionMode_e)	2011		Connects two selected entities on a route.
+CreateRouteThroughSketchEntities	m	int:swAutoRouteErrorType_e CreateRouteThroughSketchEntities(int conversionMode:swAutoRouteConversionMode_e, int autoTangencyMode:swAutoRouteAutoTangencyMode_e, object EntityTypes:swAutoRouteSketchEntitiesTypes_e, object EntityIDs)	2014		Creates a route using the specified sketch entity types and IDs.
+DeleteAllGuidelines	m	void DeleteAllGuidelines()	2011		Deletes all guidelines.
+ICreateRouteThroughSketchEntities	m	int:swAutoRouteErrorType_e ICreateRouteThroughSketchEntities(int conversionMode:swAutoRouteConversionMode_e, int autoTangencyMode:swAutoRouteAutoTangencyMode_e, int Count, ref int EntityTypes:swAutoRouteSketchEntitiesTypes_e, ref int EntityIDs)	2014		Creates a route using the specified sketch entity types and IDs.
+MergeGuidelines	m	bool MergeGuidelines()	2011		Merges selected guidelines to form a single route.
+SelectGuidelines	m	int SelectGuidelines()	2011		Selects all of the guidelines in the route.
+ShowGuidelines	m	int ShowGuidelines()	2011		Displays a preview of the connections imported from a from-to list.
+@ICable	i	Allows access to a cable.	via=IElectricalRoute.GetCables,IElectricalRoute.IGetCables	use=18
+GetCableProperty	m	CableProperty GetCableProperty()	2006		Gets the property object for this cable.
+GetCores	m	object:IWire GetCores()	2006		Gets the cores in this cable.
+GetCoresCount	m	int GetCoresCount()	2006		Gets the number of cores in this cable.
+GetCuttingLength	m	double GetCuttingLength()	2006		Gets the cut length of the cable.
+IGetCores	m	IntPtr:IWire IGetCores(out int Count)	2006		Gets the cores in this cable.
+UserName	p	string UserName {get; set;}	2006		Gets or sets the name of the cable.
+@ICableProperty	i	Allows access to properties that are common to all cables.	via=ICable.GetCableProperty	use=15
+Diameter	p	double Diameter {get;}	2006		Gets the diameter of the cable.
+GetCoreProperties	m	object:IWireProperty GetCoreProperties()	2006		Gets the core properties in the cable.
+GetCorePropertyCount	m	int GetCorePropertyCount()	2006		Gets the number of core properties in the cable.
+IGetCoreProperties	m	IntPtr:IWireProperty IGetCoreProperties(out int Count)	2006		Gets the core properties in the cable.
+Name	p	string Name {get;}	2006		Gets the library name of the cable.
+@ICovering	i	Gets the protective covering, such as tape or corrugated tubing, for bundles of wires and cables.	via=IRouteProperty.CreateCovering,IRouteProperty.GetCovering	use=20
+Color	p	int Color {get; set;}	2006		Gets or sets the color of the covering.
+Name	p	string Name {get; set;}	2006		Gets or sets the name of the covering.
+OuterDiameter	p	double OuterDiameter {get; set;}	2006		Gets or sets the outer diameter of the covering.
+PartNumber	p	string PartNumber {get; set;}	2006		Gets or sets the part number of the covering.
+@IElectricalFlatRoute	i	Allows access to an electrical flattened route.	via=IRouteManager.GetElectricalFlatRoute
+GetConnectorData	m	bool GetConnectorData(string connectorName, out object fittingPoint, out object fittingDirection, out bool isVisible)	2008		Gets the specified connector's data for this electrical flattened route.
+GetElectricalDrawingSettings	m	int GetElectricalDrawingSettings(out string elecBomTblTmplt, out string cutListTmplt, out string ConnectorTblTmplt)	2009		Gets the electrical drawing settings for this flat route.
+GetFittingFilePath	m	string GetFittingFilePath(string connectorName)	2008		Gets the path and filename of the fitting for the specified connector.
+GetSketchSegments	m	object:ISketchSegment GetSketchSegments(int RouteSegmentID)	2009		Gets all of the SOLIDWORKS sketch segments in the specified route segment for this flattened route.
+GetSketchSegmentsCount	m	int GetSketchSegmentsCount(int RouteSegmentID)	2009		Gets the number of SOLIDWORKS sketch segments for the specified route segment in this flattened route.
+IGetConnectorData	m	bool IGetConnectorData(string connectorName, out object fittingPoint, out double fittingDirection, out bool isVisible)	2008		Gets the specified connector's data for this electrical flattened route.
+IGetSketchSegments	m	IntPtr:ISketchSegment IGetSketchSegments(int RouteSegmentID, out int Count)	2009		Gets all of the SOLIDWORKS sketch segments in the specified route segment for this flattened route.
+@IElectricalRoute	i	Allows access to electrical route data: cables and wires.	via=IRouteManager.GetElectricalRoute	use=31
+GetActiveRouteSketch	m	object:ISketch GetActiveRouteSketch()	2009		Gets the active route sketch.
+GetCables	m	object:ICable GetCables()	2006		Gets the cables in the route.
+GetCablesCount	m	int GetCablesCount()	2006		Gets the number of cables in the route.
+GetRibbonCableDispatch	m	RibbonCable GetRibbonCableDispatch()	2009		Gets a ribbon cable.
+GetRouteProperty	m	RouteProperty GetRouteProperty(int RouteSegmentID)	2006		Gets the IRouteProperty object for the specified route segment ID.
+GetRouteSegmentID	m	int GetRouteSegmentID(object SketchSegment:ISketchSegment)	2006		Gets the route segment ID for the specified SOLIDWORKS sketch segment.
+GetSketchSegments	m	object:ISketchSegment GetSketchSegments(int RouteSegmentID)	2006		Gets the SOLIDWORKS sketch segments in the route segment using the specified route segment ID.
+GetSketchSegmentsCount	m	int GetSketchSegmentsCount(int RouteSegmentID)	2006		Gets the number of SOLIDWORKS sketch segments in the route segment using the specified route segment ID.
+GetWires	m	object:IWire GetWires()	2006		Gets the wires in the route.
+GetWiresCount	m	int GetWiresCount()	2006		Gets the number of wires in the route.
+IGetCables	m	IntPtr:ICable IGetCables(out int Count)	2006		Gets the cables in this route.
+IGetSketchSegments	m	IntPtr:ISketchSegment IGetSketchSegments(int RouteSegmentID, out int Count)	2006		Gets the SOLIDWORKS sketch segments in the specified route segment.
+IGetWires	m	IntPtr:IWire IGetWires(ref int Count)	2006		Gets the wires in the route.
+RouteWires	m	bool RouteWires()	2006		Route all wires that are not already routed or that have errors in their path, using a from-to list.
+@IElectricalRouteProperty	i	Allows access to the properties of an electrical route.	use=6
+BundleDiameter	p	double BundleDiameter {get; set;}	2006		Gets or sets the cumulative diameter of all wires in the route segment.
+BundleMinimumBendRadius	p	double BundleMinimumBendRadius {get;}	2014		Gets the maximum bend radius of the individual wires in a bundle of wires that are routed through the same route...
+IsOuterDiameterFixed	p	bool IsOuterDiameterFixed {get; set;}	2006		Gets or sets whether to fix the outer diameter to the outer diameter value.
+OuterDiameter	p	double OuterDiameter {get; set;}	2006		Gets or sets the outer diameter of the route.
+SubType	p	int:swElectricalRouteSubType_e SubType {get; set;}	2006		Gets or sets the electrical route subtype.
+@IRibbonCable	i	Allows access to a ribbon cable.	via=IElectricalRoute.GetRibbonCableDispatch	use=9
+GetRibbonCableThickness	p	double GetRibbonCableThickness {get;}	2009		Gets the thickness of the ribbon cable.
+GetRibbonCableWidth	p	double GetRibbonCableWidth {get;}	2009		Gets the width of the ribbon cable.
+@IRouteManager	i	Manages routing in an assembly.	via=IAssemblyDoc.GetRouteManager	use=68
+AddToRoute	m	bool AddToRoute()	2013		Creates a route from one or more selected connection points or on the connection points of a selected routing...
+ChangeRoutingLibComponentPaths	m	void ChangeRoutingLibComponentPaths(object oldLibPaths, object newLibPaths)	2007 SP1		Replaces the old routing library paths with new routing library paths.
+CreateFlattenRoute	m	int:swFlattenRouteErrorType_e CreateFlattenRoute(int flattenType:swRoutingFlattenTypes_e, int connectorOption:swRoutingFlattenConnectorOptions_e, double formboardWidth, double formboardHeight, int segmentOrientation:swRoutingFlattenSegmentOrientation_e, bool drawingOption, string sheetFormatTemplate, string elecBOMTemplate, string cutListTemplate, string connectorTableTemplate, bool autoBalloons)	2011		Creates a flattened route and optionally its drawing.
+CreatePipeDrawingforPipeRoute	m	void CreatePipeDrawingforPipeRoute(string BOMTemplatePath, string BOMTemplateName, bool insertBalloons, bool insertBOM, bool showSketch, bool subAssembly, double userSheetWidth, double userSheetHeight, string sheetTemplatePath, string sheetTemplateName, bool displayFormat, int dwgTemplates:swDwgTemplates_e)	2011		Creates a drawing of a piping assembly that includes fittings, pipes, dimensions, and a BOM in an isometric view.
+CreateRouteLine	m	object:ISketchSegment CreateRouteLine(double P1x, double P1y, double P1z, double P2x, double P2y, double P2z)	2009		Creates a routing line.
+EditRoute	m	void EditRoute()	2011		Places the route in edit mode.
+ExitRoute	m	void ExitRoute()	2011		Exits the route edit mode.
+ExportPipeData	m	int:swRoutingExportPipeDataError_e ExportPipeData(string fileName, int units, int options)	2008		Exports pipe data in Piping Component File (PCF) format.
+ExportTubeData	m	int:swRoutingExportDataError_e ExportTubeData(string fileName, int type:swExportTubeDataReportType_e, int options)	2011		Exports an HTML bend data table containing the tangent or intersection points in a tubing assembly.
+GetAdvancedRouteSelector	m	AdvancedRouteSelector GetAdvancedRouteSelector()	2009		Gets access to the SOLIDWORKS Highlight Search tool.
+GetAllRouteSegmentCount	m	int GetAllRouteSegmentCount()	2008		Gets the number of route segments for active route.
+GetAllRouteSegmentIDs	m	object GetAllRouteSegmentIDs()	2008		Gets all of the route segment IDs for the active route.
+GetAutoRoute	m	AutoRoute GetAutoRoute()	2011		Gets the interface to Auto Route.
+GetElectricalComponentFromSearchpath	m	string GetElectricalComponentFromSearchpath(string __MIDL__IRouteManager0001)	2007		Gets the path and file name of the electrical component.
+GetElectricalFlatRoute	m	ElectricalFlatRoute GetElectricalFlatRoute(string FlatRouteName)	2008		Gets the specified electrical flattened configuration for a selected route assembly.
+GetElectricalRoute	m	ElectricalRoute GetElectricalRoute()	2006		Gets the electrical route for a selected route assembly.
+GetRouteProperty	m	RouteProperty GetRouteProperty()	2006		Gets the IRouteProperty object for the selected sketch segment.
+GetRoutingComponentFromSearchpath	m	string GetRoutingComponentFromSearchpath(string __MIDL__IRouteManager0000)	2007		Gets the path and file name of the routing component.
+GetRoutingLibComponentReferences	m	object GetRoutingLibComponentReferences(string bstrFolder)	2007 SP1		Gets the routing library component references.
+IGetAllRouteSegmentIDs	m	IntPtr IGetAllRouteSegmentIDs(out int Count)	2008		Gets all of the route segment IDs for the active route.
+ImportFromToList	m	bool ImportFromToList(string fromtoListFileName, string componentLibraryFilename, string cableWireLibraryFileName, bool useExistingAssembly, bool overwriteData, bool searchAllSubAssemblies)	2011		Imports electrical connection data (guidelines) using the specified from-to list.
+StartRoute	m	bool StartRoute(string Pathname, string ConfigName)	2013		Starts a route from one of the following:
+@IRouteProperty	i	Allows access to the characteristics of a route.	via=IElectricalRoute.GetRouteProperty,IRouteManager.GetRouteProperty	use=24
+AddCovering	m	bool AddCovering(Covering Covering)	2006		Adds a covering to this route.
+BendRadius	p	double BendRadius {get; set;}	2006		Gets or sets the bend radius for this route segment.
+CreateCovering	m	Covering CreateCovering()	2006		Creates a covering, which you can modify, for this route.
+GetCovering	m	Covering GetCovering()	2006		Gets the covering for this route.
+GetFixedLength	m	double GetFixedLength()	2009 SP4		Gets the fixed length of a route segment having a fixed length constraint.
+HasCovering	p	bool HasCovering {get;}	2006		Gets whether a covering is present on this route.
+MinimumBendRadius	p	double MinimumBendRadius {get;}	2014		Gets the minimum bend radius in this route segment.
+RemoveCovering	m	void RemoveCovering()	2006		Removes the covering from this route.
+RouteType	p	int:swRouteType_e RouteType {get;}	2006		Gets the type of route.
+SetFixedLength	m	int:swSetRouteFixedLengthError_e SetFixedLength(double NewLength)	2009 SP4		Changes the length of a fixed-length route segment.
+@IRoutingComponentManager	i	Allows access to the properties of a routing component.	via=IModelDocExtension.GetRoutingComponentManager	use=48
+CreateEndConnectorIllustration	m	void CreateEndConnectorIllustration()	2011		Launches the End View Creation PropertyManager page for the active routing component.
+GetComponentCrossSectionType	m	int:swComponentCrossSectionType_e GetComponentCrossSectionType()	2015		Gets the type of cross section for a user-defined route for the active routing component.
+GetComponentRouteType	m	int:swComponentRouteType_e GetComponentRouteType()	2011		Gets the route type of the active routing component.
+GetComponentRouteTypeFromCustomProperty	m	int:swComponentRouteType_e GetComponentRouteTypeFromCustomProperty()	2013		Gets the route type from the custom property for the active routing component.
+GetComponentType	m	int:swRouteComponentTypeID_e GetComponentType()	2011		Gets the type of the active routing component.
+GetComponentUserDefinedRouteTypeName	m	string GetComponentUserDefinedRouteTypeName()	2015		Gets the name of the user-defined route for the active routing component.
+GetCPointConfiguration	m	int:swCPointConfig_e GetCPointConfiguration()	2011		Gets the rules for including and enabling connection points when the active routing component is placed in an assembly.
+GetRouteComponentTypeSetThrRLM	m	bool GetRouteComponentTypeSetThrRLM()	2011		Gets whether the type of the active routing component is set through the Routing Library Manager.
+GetRoutingComponentDescription	m	string GetRoutingComponentDescription()	2011		Gets the description that was saved with the active routing component.
+GetRoutingStringValue	m	string GetRoutingStringValue(int StringID)	2011		Gets the string value for the specified aspect of the active routing component.
+SetComponentCrossSectionType	m	void SetComponentCrossSectionType(int crossSection:swComponentCrossSectionType_e)	2015		Sets the type of cross section for a user-defined route for the active routing component.
+SetComponentRouteTypeToCustomProperty	m	void SetComponentRouteTypeToCustomProperty(int RouteType:swComponentRouteType_e)	2013		Sets the route type for the custom property for the active routing component.
+SetComponentType	m	void SetComponentType(int ComponentType:swRouteComponentTypeID_e)	2011		Sets the type of the active routing component.
+SetComponentUserDefinedRouteTypeName	m	void SetComponentUserDefinedRouteTypeName(string StringID)	2015		Sets the name of the user-defined route for the active routing component.
+SetCPointConfiguration	m	void SetCPointConfiguration(int type:swCPointConfig_e)	2011		Sets the configuration for including and enabling connection points when the active routing component is placed in...
+SetRouteComponentTypeSetThrRLM	m	void SetRouteComponentTypeSetThrRLM(bool ComponentType)	2011		Sets whether the type of the active routing component is set through the Routing Library Manager.
+SetRouteTypeAndSubRouteType	m	void SetRouteTypeAndSubRouteType(int RouteType:swComponentRouteType_e, int SubRouteType:swComponentRouteType_e)	2011		Sets the route type and sub-type for the connection point of the active routing component.
+SetRoutingComponentDescription	m	void SetRoutingComponentDescription(string StringID)	2011		Sets the description of the active routing component.
+@IWire	i	Allows access to a wire.	via=ICable.GetCores,ICable.IGetCores,IElectricalRoute.GetWires,IElectricalRoute.IGetWires	use=27
+FromComponentReference	p	string FromComponentReference {get; set;}	2006		Gets or sets the name of the "from" component reference, the first component to which the wire is connected.
+FromPinReference	p	string FromPinReference {get; set;}	2006		Gets or sets the "from" pin reference to which the wire is connected.
+GetCuttingLength	m	double GetCuttingLength()	2006		Gets the cut length of this wire.
+GetRouteErrors	m	object:swWireRouteError_e GetRouteErrors()	2006		Gets the errors in the wire.
+GetRouteErrorsCount	m	int GetRouteErrorsCount()	2006		Gets the number of errors in this wire.
+GetRouteSegmentIDs	m	object GetRouteSegmentIDs()	2006		Gets the route segment IDs in this wire.
+GetRouteSegmentIDsCount	m	int GetRouteSegmentIDsCount()	2006		Gets the number of route segment IDs in this wire.
+GetWireProperty	m	WireProperty GetWireProperty()	2006		Gets the properties of this wire.
+IGetRouteErrors	m	IntPtr:swWireRouteError_e IGetRouteErrors(out int Count)	2006		Gets the errors in the wire.
+IGetRouteSegmentIDs	m	IntPtr IGetRouteSegmentIDs(out int Count)	2006		Gets the route segment IDs in this wire.
+ISetRoutePathForWire	m	int:swSetRoutePathForWireErrorType_e ISetRoutePathForWire(int numRouteSegmentIds, ref int RouteSegmentIDs)	2014		Sets a new route path for this wire.
+SetRoutePathForWire	m	int:swSetRoutePathForWireErrorType_e SetRoutePathForWire(object RouteSegmentIDs)	2014		Sets a new route path for this wire.
+ToComponentReference	p	string ToComponentReference {get; set;}	2006		Gets or sets the name of the "to" component reference, the second component to which the wire is connected.
+ToPinReference	p	string ToPinReference {get; set;}	2006		Gets or sets the pin number or pin name to which the wire is connected.
+UserName	p	string UserName {get; set;}	2006		Gets or sets the name of the wire.
+@IWireProperty	i	Allows access to the properties of a wire that can be shared among wires.	via=ICableProperty.GetCoreProperties,ICableProperty.IGetCoreProperties,IWire.GetWireProperty	use=18
+Color	p	int Color {get;}	2006		Gets the color of the wire.
+Diameter	p	double Diameter {get;}	2006		Gets the diameter of the wire.
+Name	p	string Name {get;}	2006		Gets the name of the library of this wire.
+PartNumber	p	string PartNumber {get;}	2006		Gets the part number of this wire.
+Size	p	string Size {get;}	2006		Gets the size of the wire.

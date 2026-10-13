@@ -51,11 +51,7 @@ Maximum number of times the numeric integrator iterates in the search for a solu
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::MaxIterations](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MaxIterations.html)
-
-.
+See [CosmosMotionStudyProperties::MaxIterations](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MaxIterations.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ If the solver exceeds this limit, a convergence failure is recorded. The solver 
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

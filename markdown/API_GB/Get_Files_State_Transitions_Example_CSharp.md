@@ -9,12 +9,9 @@ source: "API_GB/Get_Files_State_Transitions_Example_CSharp.htm"
 
 # Get File's State Transitions Example (C#)
 
-This example shows how to get a file's current and next possible state
-transitions.
+This example shows how to get a file's current and next possible state transitions.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 //----------------------------------------------------------------------------

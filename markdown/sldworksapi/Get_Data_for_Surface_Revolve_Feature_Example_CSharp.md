@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Data_for_Surface_Revolve_Feature_Example_CSharp.htm"
 
 # Get Data for Surface Revolve Feature Example (C#)
 
-This example shows how to get the data for the selected surface revolve
-feature.
+This example shows how to get the data for the selected surface revolve feature.
 
 ```vb
  //----------------------------------------------------------------------------

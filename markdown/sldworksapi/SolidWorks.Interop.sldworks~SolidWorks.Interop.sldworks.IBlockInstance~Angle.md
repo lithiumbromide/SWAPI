@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # Angle Property (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::Angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Angle.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::Angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Angle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::Angle](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Angle.html)
-
-.
+See [BlockInstance::Angle](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Angle.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

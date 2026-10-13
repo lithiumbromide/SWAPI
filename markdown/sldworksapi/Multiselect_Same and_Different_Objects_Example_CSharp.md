@@ -9,8 +9,7 @@ source: "sldworksapi/Multiselect_Same and_Different_Objects_Example_CSharp.htm"
 
 # Multiselect Same and Different Objects Example (C#)
 
-This example shows how to select multiple faces, multiple edges, and multiple
-faces and edges.
+This example shows how to select multiple faces, multiple edges, and multiple faces and edges.
 
 ```
 //---------------------------------------------------------

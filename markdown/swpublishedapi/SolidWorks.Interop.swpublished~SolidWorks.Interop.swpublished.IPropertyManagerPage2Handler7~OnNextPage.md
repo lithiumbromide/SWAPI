@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnNextPage Method (IPropertyManagerPage2Handler7)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler8::OnNextPage](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnNextPage.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler8::OnNextPage](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnNextPage.html).
 
 ## Syntax
 
@@ -50,16 +46,11 @@ True if the next page displays successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler7::OnNextPage](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnNextPage.html)
-
-.
+See [PropertyManagerPage2Handler7::OnNextPage](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnNextPage.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler7 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7.html)
-
 [IPropertyManagerPage2Handler7 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7_members.html)
 
 ## Availability

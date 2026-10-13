@@ -1,6 +1,5 @@
 ---
-title: "IBoundaryBossFeatureData Object
-Members"
+title: "IBoundaryBossFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBoundaryBossFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBoundaryBossFeatureData_members.html"
 ---
 
-# IBoundaryBossFeatureData Object
-Members
+# IBoundaryBossFeatureData Object Members
 
 ## Public Methods
 

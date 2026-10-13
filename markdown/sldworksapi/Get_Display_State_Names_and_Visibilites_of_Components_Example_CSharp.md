@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Display_State_Names_and_Visibilites_of_Components_Examp
 
 # Get Display State Names and Visibilities of Components Example (C#)
 
-This example shows how to get the names
-of the display states in an assembly and the visibilities of the assembly
-components in each display state.
+This example shows how to get the names of the display states in an assembly and the visibilities of the assembly components in each display state.
 
 ```
 //------------------------------------------------------------------------------

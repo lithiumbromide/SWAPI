@@ -39,19 +39,11 @@ void GetRows(
 
 ### Parameters
 
-- `ppoRows`: Array of
-
-[IEdmBomCells](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
-; one interface for each BOM row
+- `ppoRows`: Array of [IEdmBomCells](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html); one interface for each BOM row
 
 ## Examples
 
-See the
-
-[IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
-examples.
+See the [IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBomView Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
 [IEdmBomView Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView_members.html)
 
 ## Availability

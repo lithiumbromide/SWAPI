@@ -40,13 +40,7 @@ System.double GetLength()
 System.double GetLength();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Length of the sketch path
 
 ## VBA Syntax
 
-See
-
-[SketchPath::GetLength](ms-its:sldworksapivb6.chm::/Sldworks~SketchPath~GetLength.html)
-
-.
+See [SketchPath::GetLength](ms-its:sldworksapivb6.chm::/Sldworks~SketchPath~GetLength.html).
 
 ## Examples
 
-See the
-
-[ISketchPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
-
-examples.
+See the [ISketchPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html) examples.
 
 ## See Also
 
 [ISketchPath Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
-
 [ISketchPath Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath_members.html)
 
 ## Availability

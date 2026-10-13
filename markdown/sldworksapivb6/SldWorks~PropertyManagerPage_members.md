@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPage Object
-Members"
+title: "PropertyManagerPage Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPage_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPage_members.html"
 ---
 
-# PropertyManagerPage Object
-Members
+# PropertyManagerPage Object Members
 
 ## Public Methods
 

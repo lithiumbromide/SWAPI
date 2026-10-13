@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_IDs_Example_VB.htm"
 
 # Get Component IDs Example (VBA)
 
-This example shows how to get the component IDs of the components in an assembly
-and subassemblies.
+This example shows how to get the component IDs of the components in an assembly and subassemblies.
 
 ```
 '--------------------------------------------------------------------------

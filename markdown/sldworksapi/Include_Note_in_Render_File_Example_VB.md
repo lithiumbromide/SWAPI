@@ -9,8 +9,7 @@ source: "sldworksapi/Include_Note_in_Render_File_Example_VB.htm"
 
 # Include Note in Render File Example (VBA)
 
-This example shows how to include a note visible in a model in the render
-file.
+This example shows how to include a note visible in a model in the render file.
 
 ```
 '--------------------------------------------------------------

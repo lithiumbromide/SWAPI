@@ -48,24 +48,17 @@ property CWRunSpecStudiesRunMeshOptions^ RunSpecifiedStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::RunSpecifiedStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RunSpecifiedStudyOptions.html)
-
-.
+See [CWStudyManager::RunSpecifiedStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RunSpecifiedStudyOptions.html).
 
 ## Examples
 
 [Run Studies in Batch Mode (VBA)](Run_Studies_in_Batch_Mode_Example_VB.htm)
-
 [Run Studies in Batch Mode (VB.NET)](Run_Studies_in_Batch_Mode_Example_VBNET.htm)
-
 [Run Studies in Batch Mode (C#)](Run_Studies_in_Batch_Mode_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # SetManualEnd2ConnectionType Method (ICWBeamBody)
 
-Obsolete. Superseded by
-
-[ICWBeamBody::SetManualEnd2ConnectionType2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetManualEnd2ConnectionType2.html)
-
-.
+Obsolete. Superseded by [ICWBeamBody::SetManualEnd2ConnectionType2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetManualEnd2ConnectionType2.html).
 
 ## Syntax
 
@@ -81,30 +77,18 @@ void SetManualEnd2ConnectionType(
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::SetManualEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetManualEnd2ConnectionType.html)
-
-.
+See [CWBeamBody::SetManualEnd2ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetManualEnd2ConnectionType.html).
 
 ## Remarks
 
-Before calling this method, you must set
-
-[ICWBeamBody::BeamEnd2ConnectionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody~BeamEnd2ConnectionType.html)
-
-to swsBeamBodyConnectionManual.
+Before calling this method, you must set [ICWBeamBody::BeamEnd2ConnectionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody~BeamEnd2ConnectionType.html) to swsBeamBodyConnectionManual.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::SetManualEnd1ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetManualEnd1ConnectionType.html)
-
 [ICWBeamBody::GetManualEnd1ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd1ConnectionType.html)
-
 [ICWBeamBody::GetManualEnd2ConnectionType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetManualEnd2ConnectionType.html)
 
 ## Availability

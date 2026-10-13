@@ -45,13 +45,7 @@ property System.bool RandomizeScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to randomize the scale when auto hatching, false to not
 
 ## VBA Syntax
 
-See
-
-[DrSection::RandomizeScale](ms-its:sldworksapivb6.chm::/sldworks~DrSection~RandomizeScale.html)
-
-.
+See [DrSection::RandomizeScale](ms-its:sldworksapivb6.chm::/sldworks~DrSection~RandomizeScale.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IDrSectionView::GetAutoHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetAutoHatch.html)
-
-is true.
+This property is valid only if [IDrSectionView::GetAutoHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetAutoHatch.html) is true.
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::ScaleHatchPattern Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~ScaleHatchPattern.html)
 
 ## Availability

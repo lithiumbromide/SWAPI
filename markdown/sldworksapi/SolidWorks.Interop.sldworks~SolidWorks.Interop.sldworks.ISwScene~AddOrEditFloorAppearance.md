@@ -46,13 +46,7 @@ void AddOrEditFloorAppearance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,16 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SwScene::AddOrEditFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AddOrEditFloorAppearance.html)
-
-.
+See [SwScene::AddOrEditFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~AddOrEditFloorAppearance.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSo
 
 # SetLibraryMaterial Method (ICWSolidBody)
 
-Obsolete. Superseded by ICWSolidBody::SetLibraryMaterial2.
+Obsolete. Superseded by [ICWSolidBody::SetLibraryMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetLibraryMaterial2.html).
 
 ## Syntax
 
@@ -62,24 +62,15 @@ System.int SetLibraryMaterial(
 
 ## VBA Syntax
 
-See
-
-[CWSolidBody::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetLibraryMaterial.html)
-
-.
+See [CWSolidBody::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetLibraryMaterial.html).
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
-
 [ICWSolidBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~GetDefaultMaterial.html)
-
 [ICWSolidBody::GetSolidBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~GetSolidBodyMaterial.html)
-
 [ICWSolidBody::SetSolidBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetSolidBodyMaterial.html)
-
 [ICWSolidBody::SetFavMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetFavMaterial.html)
 
 ## Availability

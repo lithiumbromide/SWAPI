@@ -66,18 +66,10 @@ System.Object^ GetConnectorForcesWithTimeValue(
 ### Parameters
 
 - `DTimeValue`: Time at which to get connector values
-- `SName`: Name of a pin, bolt, bearing, spring, spot weld, edge weld, or link connector (see
-
-Remarks
-
-)
-- `NUnits`: Output units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `SName`: Name of a pin, bolt, bearing, spring, spot weld, edge weld, or link connector (see **Remarks**)
+- `NUnits`: Output units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 - `DAccurateTimeValue`: Accurate time
-- `ErrorCode`: Error code as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error code as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -102,18 +94,12 @@ Array of 16 doubles:
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetConnectorForcesWithTimeValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetConnectorForcesWithTimeValue.html)
-
-.
+See [CWResults::GetConnectorForcesWithTimeValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetConnectorForcesWithTimeValue.html).
 
 ## Examples
 
 [Get Connector Forces, Moments, and Torques at a Time (VBA)](Get_Connector_Forces_at_a_Time_Example_VB.htm)
-
 [Get Connector Forces, Moments, and Torques at a Time (VB.NET)](Get_Connector_Forces_at_a_Time_Example_VBNET.htm)
-
 [Get Connector Forces, Moments, and Torques at a Time (C#)](Get_Connector_Forces_at_a_Time_Example_CSharp.htm)
 
 ## Remarks
@@ -123,9 +109,7 @@ For spot welds, specify SName with the spot weld point (e.g., "Spot Welds-1/Poin
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetConnectorForces2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetConnectorForces2.html)
 
 ## Availability

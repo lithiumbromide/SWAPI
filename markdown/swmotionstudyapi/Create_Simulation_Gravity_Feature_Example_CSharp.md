@@ -9,8 +9,7 @@ source: "swmotionstudyapi/Create_Simulation_Gravity_Feature_Example_CSharp.htm"
 
 # Create Simulation Gravity Feature Example (C#)
 
-This example shows how to create a simulation gravity feature in a motion
-study.
+This example shows how to create a simulation gravity feature in a motion study.
 
 ```vb
   //---------------------------------------------------------------------------

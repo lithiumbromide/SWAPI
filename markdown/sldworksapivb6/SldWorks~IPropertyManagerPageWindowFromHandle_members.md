@@ -1,6 +1,5 @@
 ---
-title: "IPropertyManagerPageWindowFromHandle Object
-Members"
+title: "IPropertyManagerPageWindowFromHandle Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPropertyManagerPageWindowFromHandle_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPropertyManagerPageWindowFromHandle_members.html"
 ---
 
-# IPropertyManagerPageWindowFromHandle Object
-Members
+# IPropertyManagerPageWindowFromHandle Object Members
 
 ## Public Methods
 

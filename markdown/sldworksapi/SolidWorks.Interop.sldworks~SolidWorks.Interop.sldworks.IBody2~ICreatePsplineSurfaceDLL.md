@@ -79,44 +79,31 @@ Surface^ ICreatePsplineSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Dim`: Dimension of the surface:
 
-- 3 = nonrational
-- 4 = rational
+  - 3 = nonrational
+  - 4 = rational
 - `UOrder`: Order in U
 - `VOrder`: Order in V
 - `Ncol`: Number of patches in U
 - `Nrow`: Number of patches in V
 - `Coeffs`: Coefficient array in the order that the Parasolid Kernel Interface routine CRPWPS
-
-needs them
+  needs them
 - `Basis`: Representation method; current default is polynomial
 - `Xform`: Transform to apply to the new surface
 - `ScaleFactor`: Units-of-measure scaling
 
 ### Return Value
 
-Newly created B-
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+Newly created B-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreatePsplineSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreatePsplineSurfaceDLL.html)
-
-.
+See [Body2::ICreatePsplineSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreatePsplineSurfaceDLL.html).
 
 ## Remarks
 
@@ -140,7 +127,6 @@ The order of the surface = degree + 1.
 
 - The minimum order is 2.
 - If the Hermite basis is used (basis = 13651) then the surface has to be bicubic (Uorder
-
   = Vorder = 4).
 
 Number of columns Ncol: There must be at least one column.
@@ -331,7 +317,6 @@ Any existing object created by this method is destroyed if you call this method 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

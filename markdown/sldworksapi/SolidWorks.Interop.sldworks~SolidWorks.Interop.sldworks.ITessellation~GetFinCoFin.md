@@ -47,13 +47,7 @@ System.int GetFinCoFin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ Long or integer value that describes the ID number of the cofin
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFinCoFin](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinCoFin.html)
-
-.
+See [Tessellation::GetFinCoFin](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinCoFin.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

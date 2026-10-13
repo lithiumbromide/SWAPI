@@ -45,13 +45,7 @@ property System.bool ApplyMaterialColorToPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True if the part color matches the material color, false if not
 
 ## VBA Syntax
 
-See
-
-[MaterialVisualPropertiesData::ApplyMaterialColorToPart](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~ApplyMaterialColorToPart.html)
-
-.
+See [MaterialVisualPropertiesData::ApplyMaterialColorToPart](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~ApplyMaterialColorToPart.html).
 
 ## Examples
 
-See
-
-[IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
-examples.
+See [IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html) examples.
 
 ## See Also
 
 [IMaterialVisualPropertiesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
 [IMaterialVisualPropertiesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData_members.html)
 
 ## Availability

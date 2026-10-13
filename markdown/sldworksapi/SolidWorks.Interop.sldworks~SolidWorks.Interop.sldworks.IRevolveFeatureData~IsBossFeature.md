@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IsBossFeature Method (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::IsBossFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~IsBossFeature.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::IsBossFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~IsBossFeature.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsBossFeature()
 System.bool IsBossFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~IsBossFeature.html)
-
-.
+See [RevolveFeatureData::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~IsBossFeature.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

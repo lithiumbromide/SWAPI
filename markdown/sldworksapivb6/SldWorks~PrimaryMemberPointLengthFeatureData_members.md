@@ -1,6 +1,5 @@
 ---
-title: "PrimaryMemberPointLengthFeatureData Object
-Members"
+title: "PrimaryMemberPointLengthFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PrimaryMemberPointLengthFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PrimaryMemberPointLengthFeatureData_members.html"
 ---
 
-# PrimaryMemberPointLengthFeatureData Object
-Members
+# PrimaryMemberPointLengthFeatureData Object Members
 
 ## Public Methods
 

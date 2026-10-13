@@ -9,12 +9,9 @@ source: "API_GB/Batch_Get_Files_Example_VBNET.htm"
 
 # Batch Check Out Files Example (VB.NET)
 
-This example shows how to check out several files from
-the vault in one batch.
+This example shows how to check out several files from the vault in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

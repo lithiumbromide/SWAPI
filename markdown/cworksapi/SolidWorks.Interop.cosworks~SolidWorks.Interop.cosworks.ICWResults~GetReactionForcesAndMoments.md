@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetReactionForcesAndMoments Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetReactionForcesAndMomentsWithSelections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetReactionForcesAndMomentsWithSelections.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetReactionForcesAndMomentsWithSelections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetReactionForcesAndMomentsWithSelections.html).
 
 ## Syntax
 
@@ -67,24 +63,16 @@ System.Object^ GetReactionForcesAndMoments(
 
 - `NStepNumber`: Solution step number (use 1 for static)
 - `DispPlane`: Reference geometry
-- `NUnits`: Unit as defined in[swsForceUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Unit as defined in [swsForceUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of reaction forces and moments for the entire model (see
-
-Remarks
-
-)
+Array of reaction forces and moments for the entire model (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetReactionForcesAndMoments](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetReactionForcesAndMoments.html)
-
-.
+See [CWResults::GetReactionForcesAndMoments](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetReactionForcesAndMoments.html).
 
 ## Remarks
 
@@ -139,17 +127,11 @@ where the nodes are integers, and the reaction forces and moments are in decimal
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetDisplacementComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementComponentForAllStepsAtNode.html)
-
 [ICWResults::GetDisplacementForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementForEntities.html)
-
 [ICWResults::GetMinMaxDisplacement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxDisplacement.html)
-
 [ICWResults::GetRotationalDisplacement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetRotationalDisplacement.html)
-
 [ICWResults::GetTranslationalDisplacement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetTranslationalDisplacement.html)
 
 ## Availability

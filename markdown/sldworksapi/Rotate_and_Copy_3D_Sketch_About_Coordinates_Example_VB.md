@@ -54,7 +54,7 @@ Sub main()
 ```
 
 ```
-    ' If SOLIDWORKS not running, then exit macro
+    ' If SOLIDWORKS Design is not running, then exit macro
     If SwApp Is Nothing Then Exit Sub
 ```
 

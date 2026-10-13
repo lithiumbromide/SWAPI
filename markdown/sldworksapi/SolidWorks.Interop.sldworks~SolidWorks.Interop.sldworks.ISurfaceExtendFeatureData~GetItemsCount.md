@@ -40,13 +40,7 @@ System.int GetItemsCount()
 System.int GetItemsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of extended items
 
 ## VBA Syntax
 
-See
-
-[SurfaceExtendFeatureData::GetItemsCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~GetItemsCount.html)
-
-.
+See [SurfaceExtendFeatureData::GetItemsCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~GetItemsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISurfaceExtendFeatureData::IGetItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~IGetItems.html)
-
-.
+Call this method before calling [ISurfaceExtendFeatureData::IGetItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~IGetItems.html).
 
 ## See Also
 
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
-
 [ISurfaceExtendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData_members.html)
-
 [ISurfaceExtendFeatureData::ISetItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData~ISetItems.html)
-
 [ISurfaceExtendFeatureData::Items Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData~Items.html)
 
 ## Availability

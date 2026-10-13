@@ -9,11 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # OnOk Method (ISw3DPrinter)
 
-Called when a user clicks the
-
-OK
-
-button on the dialog and sends the document to the 3D printer.
+Called when a user clicks the OK button on the dialog and sends the document to the 3D printer.
 
 ## Syntax
 
@@ -45,22 +41,14 @@ void OnOk();
 
 ## VBA Syntax
 
-See
-
-[Sw3DPrinter::OnOk](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~OnOk.html)
-
-.
+See [Sw3DPrinter::OnOk](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~OnOk.html).
 
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [ISw3DPrinter Members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html)
-
 [ISw3DPrinter::OnAdvancedSettings Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnAdvancedSettings.html)
-
 [ISw3DPrinter::OnCancel Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnCancel.html)
-
 [ISw3DPrinter::OnUpdateStatistics Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnUpdateStatistics.html)
 
 ## Availability

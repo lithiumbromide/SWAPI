@@ -51,26 +51,16 @@ property System.int UseJacobianCheckForSolids {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::UseJacobianCheckForSolids](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~UseJacobianCheckForSolids.html)
-
-.
+See [CWMesh::UseJacobianCheckForSolids](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~UseJacobianCheckForSolids.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetWorstJacobianRatio Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetWorstJacobianRatio.html)
-
 [ICWMesh::NegativeJacobianRatioCheck Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NegativeJacobianRatioCheck.html)
-
 [ICWMesh::JacobianPoints Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~JacobianPoints.html)
-
 [ICWMesh::UseJacobianCheckForShells Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForShells.html)
-
 [ICWMesh::UseJacobianCheckForSolids Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForSolids.html)
 
 ## Availability

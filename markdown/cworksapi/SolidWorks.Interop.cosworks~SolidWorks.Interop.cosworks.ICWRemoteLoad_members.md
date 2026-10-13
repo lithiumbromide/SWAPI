@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # ICWRemoteLoad Interface Members
 
-The following tables list the members exposed by[ICWRemoteLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html).
+The following tables list the members exposed by [ICWRemoteLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html).
 
 ## Public Properties
 
@@ -42,6 +42,8 @@ The following tables list the members exposed by[ICWRemoteLoad](SolidWorks.Inter
 | Method | GetMassValues2 | Gets the components of mass in this remote load. |
 | Method | GetMomentOrRotationValues | Obsolete. Superseded by ICWRemoteLoad::GetMomentOrRotationValues2 . |
 | Method | GetMomentOrRotationValues2 | Gets the components of moment or rotation for this remote load. |
+| Method | GetReferenceCoordinateSystem |  |
+| Method | GetReferenceCoordinateSystem2 |  |
 | Method | GetTimeOrFrequencyCurve | Gets the variation with time or frequency of this remote load. |
 | Method | InsertEntity | Adds a face, edge, or vertex to the collection of entities to which this remote load is applied. |
 | Method | RemoteLoadBeginEdit | Starts editing remote load. |
@@ -68,5 +70,4 @@ The following tables list the members exposed by[ICWRemoteLoad](SolidWorks.Inter
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

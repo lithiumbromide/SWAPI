@@ -44,32 +44,19 @@ property System.String^ PartitionStreamName {
 
 ### Property Value
 
-Name of the stream; valid filename extensions are *
-
-.xmp_bin
-
-for NTFS and *
-
-.p_b
-
-for FAT
+Name of the stream; valid filename extensions are *.xmp_bin for NTFS and *.p_b for FAT
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration2::PartitionStreamName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration2~PartitionStreamName.html)
-
-.
+See [SwDMConfiguration2::PartitionStreamName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration2~PartitionStreamName.html).
 
 ## Remarks
 
-Call this method before calling[ISwDMConfiguration2::GetPartitionStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration2~GetPartitionStream.html).
+Call this method before calling [ISwDMConfiguration2::GetPartitionStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration2~GetPartitionStream.html).
 
 ## See Also
 
 [ISwDMConfiguration2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration2.html)
-
 [ISwDMConfiguration2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration2_members.html)
 
 ## Availability

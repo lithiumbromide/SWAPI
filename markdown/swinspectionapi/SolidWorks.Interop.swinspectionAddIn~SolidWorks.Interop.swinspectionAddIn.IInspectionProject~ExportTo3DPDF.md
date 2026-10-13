@@ -57,11 +57,7 @@ True if export is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject_members.html)
-
-methods.
+See [InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject_members.html) methods.
 
 ## Remarks
 
@@ -70,7 +66,6 @@ This method is valid only for parts.
 ## See Also
 
 [IInspectionProject Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject.html)
-
 [IInspectionProject Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject_members.html)
 
 ## Availability

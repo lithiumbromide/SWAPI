@@ -40,13 +40,7 @@ System.int GetUserPointsCount()
 System.int GetUserPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of user points
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetUserPointsCount.html)
-
-.
+See [SketchBlockDefinition::GetUserPointsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetUserPointsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchBlockDefinition::IGetUserPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetUserPoints.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchBlockDefinition::IGetUserPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetUserPoints.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetUserPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetUserPoints.html)
 
 ## Availability

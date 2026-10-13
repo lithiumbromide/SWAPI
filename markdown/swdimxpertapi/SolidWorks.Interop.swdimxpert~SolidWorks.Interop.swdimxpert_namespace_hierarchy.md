@@ -13,8 +13,6 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 System.Object
 
-[SolidWorks.Interop.swdimxpert.DimXpertAngleBetweenCircularDimTolClass](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.DimXpertAngleBetweenCircularDimTolClass.html)
-
 ## See Also
 
 [SolidWorks.Interop.swdimxpert Assembly](SolidWorks.Interop.swdimxpert.html)

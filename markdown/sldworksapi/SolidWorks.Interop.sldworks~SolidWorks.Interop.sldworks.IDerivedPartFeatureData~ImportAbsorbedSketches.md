@@ -45,42 +45,26 @@ property System.bool ImportAbsorbedSketches {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to its import absorbed sketches, false to not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportAbsorbedSketches](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportAbsorbedSketches.html)
-
-.
+See [DerivedPartFeatureData::ImportAbsorbedSketches](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportAbsorbedSketches.html).
 
 ## Examples
 
 [Modify Derived Part (C#)](Modify_Derived_Part_Example_CSharp.htm)
-
 [Modify Derived Part (VB.NET)](Modify_Derived_Part_Example_VBNET.htm)
-
 [Modify Derived Part (VBA)](Modify_Derived_Part_Example_VB.htm)
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
-
 [IDerivedPartFeatureData::ImportUnAbsorbedSketches Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportUnAbsorbedSketches.html)
 
 ## Availability

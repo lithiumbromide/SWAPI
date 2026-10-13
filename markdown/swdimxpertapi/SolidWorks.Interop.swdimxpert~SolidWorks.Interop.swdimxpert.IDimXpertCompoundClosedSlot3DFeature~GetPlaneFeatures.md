@@ -62,22 +62,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundClosedSlot3DFeature::GetPlaneFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~GetPlaneFeatures.html)
-
-.
+See [DimXpertCompoundClosedSlot3DFeature::GetPlaneFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~GetPlaneFeatures.html).
 
 ## Examples
 
 [Get DimXpert Feature Example (VBA)](Get_DimXpert_Feature_Example_VB.htm)
-
 [Get DimXpert Feature Example (VB.NET)](Get_DimXpert_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompoundClosedSlot3DFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature.html)
-
 [IDimXpertCompoundClosedSlot3DFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature_members.html)
 
 ## Availability

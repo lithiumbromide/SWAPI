@@ -83,23 +83,13 @@ Surface^ ICreateBlendSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Surface1`: First side
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+- `Surface1`: First side [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 - `Range1`: Signed offset of Surface1
-- `Surface2`: Second side
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+- `Surface2`: Second side [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 - `Range2`: Signed offset of Surface2
 - `StartVec`: Array of 3 doubles representing a point close to the start of the blend spine
 - `EndVec`: Array of 3 doubles representing a point close to the end of the blend spine
@@ -110,24 +100,16 @@ See
 
 ### Return Value
 
-Newly created
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+Newly created [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateBlendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBlendSurface.html)
-
-.
+See [Body2::ICreateBlendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBlendSurface.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::CreateBlendSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBlendSurface.html)
 
 ## Availability

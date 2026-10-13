@@ -9,8 +9,7 @@ source: "sldworksapi/Determine_if_Sketch_is_Shared_Example_VB.htm"
 
 # Determine if Sketch is Shared Example (VBA)
 
-This example shows how to determine whether or not a sketch is shared
-with multiple features.
+This example shows how to determine whether or not a sketch is shared with multiple features.
 
 ```
 '-----------------------------------------------

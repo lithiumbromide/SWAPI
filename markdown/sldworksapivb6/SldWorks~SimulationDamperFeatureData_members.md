@@ -1,6 +1,5 @@
 ---
-title: "SimulationDamperFeatureData Object
-Members"
+title: "SimulationDamperFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimulationDamperFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimulationDamperFeatureData_members.html"
 ---
 
-# SimulationDamperFeatureData Object
-Members
+# SimulationDamperFeatureData Object Members
 
 ## Public Methods
 

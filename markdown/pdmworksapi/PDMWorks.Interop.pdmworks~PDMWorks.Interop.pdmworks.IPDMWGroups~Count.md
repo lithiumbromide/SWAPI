@@ -48,18 +48,12 @@ Number of groups
 
 ## VBA Syntax
 
-See
-
-[PDMWGroups::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroups~Count.html)
-
-.
+See [PDMWGroups::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroups~Count.html).
 
 ## See Also
 
 [IPDMWGroups Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)
-
 [IPDMWGroups Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups_members.html)
-
 [IDPMWGroups::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups~Item.html)
 
 ## Availability

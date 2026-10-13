@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 Allows access to the camera feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ICamera
 
 ## VBA Syntax
 
-See
-
-[Camera](ms-its:sldworksapivb6.chm::/sldworks~Camera.html)
-
-.
+See [Camera](ms-its:sldworksapivb6.chm::/sldworks~Camera.html).
 
 ## Examples
 
 [Insert and Rotate Camera (C#)](Insert_and_Rotate_Camera_Example_CSharp.htm)
-
 [Insert and Rotate Camera (VB.NET)](Insert_and_Rotate_Camera_Example_VBNET.htm)
-
 [Insert and Rotate Camera (VBA)](Insert_and_Rotate_Camera_Example_VB.htm)
 
 ## Accessors
@@ -74,5 +68,4 @@ See
 ## See Also
 
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,13 +9,11 @@ source: "obsoleteapi/Modeler/Modeler__ICreateBodyFromBox2.htm"
 
 # Modeler::ICreateBodyFromBox2
 
-This
-method is obsolete and has been superseded by Modeler::CreateBodyFromBox3 .
+This method is obsolete and has been superseded by [Modeler::CreateBodyFromBox3](sldworksAPI.chm::/Modeler/Modeler__CreateBodyFromBox3.htm).
 
 Description
 
-This method creates a temporary body from box
-dimensions.
+This method creates a temporary body from box dimensions.
 
 Syntax (OLE Automation)
 
@@ -23,12 +21,7 @@ See Modeler::CreateBodyFromBox.
 
 Syntax (COM)
 
-status = Modeler->ICreateBodyFromBox2 ( boxDimArray,
-&retval )
-
-Parameters Table Start
-
-(Table)=========================================================
+status = Modeler->ICreateBodyFromBox2 ( boxDimArray, &retval )
 
 | Input: | (double*) boxDimArray | Pointer to an array of 9 doubles (see Remarks ) |
 | --- | --- | --- |
@@ -37,84 +30,15 @@ Parameters Table Start
 
 Remarks
 
-The input parameter is the
-following array of doubles:
+The input parameter is the following array of doubles:
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-[boxFaceCenter[3], boxAxis[3], boxWidth,
-boxLength, boxHeight]
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+[ boxFaceCenter[3], boxAxis[3], boxWidth, boxLength, boxHeight ]
 
 where:
 
-(Table)=========================================================
-
 | boxFaceCenter[3] | XYZ location that represents the center of one of the box faces. |
 | --- | --- |
-| boxAxis[3] | XYZ direction. The box will be extruded along this vector from the boxFaceCenter
-location, a distance of boxHeight. |
-| boxWidth | Box width. If boxAxis is parallel to the Z axis (0,0,1), then this value
-represents the dimension which is parallel to the X axis; otherwise, the
-orientation is not defined. |
-| boxLength | Box length. If boxAxis is parallel to the Z axis (0,0,1), then this
-value represents the dimension that is parallel to the Y axis; otherwise,
-the orientation is not defined. |
-| boxHeight | Height to extrude along the boxAxis direction. If boxHeight is 0, a
-sheet body will be created of dimension boxWidth x boxLength and whose
-normal is defined by boxAxis. |
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\Modeler\Modeler__ICreateBodyFromBox2.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Modeler Method$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\Modeler\Modeler__ICreateBodyFromBox2.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+| boxAxis[3] | XYZ direction. The box will be extruded along this vector from the boxFaceCenter location, a distance of boxHeight. |
+| boxWidth | Box width. If boxAxis is parallel to the Z axis (0,0,1), then this value represents the dimension which is parallel to the X axis; otherwise, the orientation is not defined. |
+| boxLength | Box length. If boxAxis is parallel to the Z axis (0,0,1), then this value represents the dimension that is parallel to the Y axis; otherwise, the orientation is not defined. |
+| boxHeight | Height to extrude along the boxAxis direction. If boxHeight is 0, a sheet body will be created of dimension boxWidth x boxLength and whose normal is defined by boxAxis. |

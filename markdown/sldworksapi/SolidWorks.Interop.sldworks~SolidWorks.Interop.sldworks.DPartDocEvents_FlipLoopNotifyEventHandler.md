@@ -46,38 +46,20 @@ public delegate System.int DPartDocEvents_FlipLoopNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TheLoop`: [Loop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html)
-
-that was flipped
-- `TheEdge`: [Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-about which the loop was flipped
+- `TheLoop`: [Loop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html) that was flipped
+- `TheEdge`: [Edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) about which the loop was flipped
 
 ## VBA Syntax
 
-See
-
-[FlipLoopNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FlipLoopNotify_EV.html)
-
-.
+See [FlipLoopNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FlipLoopNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartFlipLoopNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartFlipLoopNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

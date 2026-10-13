@@ -45,13 +45,7 @@ property System.double BumpRoughLow {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Low threshold of the surface finish
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpRoughLow](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpRoughLow.html)
-
-.
+See [RenderMaterial::BumpRoughLow](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpRoughLow.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -9,14 +9,9 @@ source: "sldworksapi/Get_the_Normal_and_Origin_of_a_Reference_Plane_Using_Its_Tr
 
 # Get the Normal and Origin of a Reference Plane Using Its Transform Example (VBA)
 
-This example shows how to get the normal and origin of the reference
-plane using its transform.
+This example shows how to get the normal and origin of the reference plane using its transform.
 
-**NOTE:**The trick is to know that the reference plane's transform is the transform
-that takes a reference plane from its canonical position/orientation to
-its actual position/orientation. In this example, the canonical position
-is aligned with the system definedFront
-Plane.
+**NOTE:** The trick is to know that the reference plane's transform is the transform that takes a reference plane from its canonical position/orientation to its actual position/orientation. In this example, the canonical position is aligned with the system defined Front Plane.
 
 ```
 '------------------------------------------------------------
@@ -67,7 +62,7 @@ Sub main()
 ```
 
 ```
-    ' Connect to SOLIDWORKS
+    ' Connect to SOLIDWORKS Design
     Set swApp = Application.SldWorks
 ```
 

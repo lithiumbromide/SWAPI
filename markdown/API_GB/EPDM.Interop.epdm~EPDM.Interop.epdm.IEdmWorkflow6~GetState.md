@@ -43,9 +43,7 @@ IEdmState6^ GetState(
 
 ### Return Value
 
-[IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html)
-
-; Null if poIdOrName is invalid
+[IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html); Null if poIdOrName is invalid
 
 ## Remarks
 
@@ -60,7 +58,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmWorkflow6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
-
 [IEdmWorkflow6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6_members.html)
 
 ## Availability

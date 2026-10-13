@@ -40,13 +40,7 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[Note::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Note~IGetAnnotation.html)
-
-.
+See [Note::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Note~IGetAnnotation.html).
 
 ## Remarks
 
-This method obtains the owning[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)object for this[INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)object. The IAnnotation object is a higher-level object that contains methods that are general to all types of annotations.
+This method obtains the owning [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object for this [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) object. The IAnnotation object is a higher-level object that contains methods that are general to all types of annotations.
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetAnnotation.html)
 
 ## Availability

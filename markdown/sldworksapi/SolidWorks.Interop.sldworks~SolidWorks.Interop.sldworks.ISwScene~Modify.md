@@ -40,13 +40,7 @@ System.bool Modify()
 System.bool Modify();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the scene is successfully modified and saved, false if not
 
 ## VBA Syntax
 
-See
-
-[SwScene::Modify](ms-its:sldworksapivb6.chm::/sldworks~SwScene~Modify.html)
-
-.
+See [SwScene::Modify](ms-its:sldworksapivb6.chm::/sldworks~SwScene~Modify.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

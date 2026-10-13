@@ -40,13 +40,7 @@ System.int GetFacetCount()
 System.int GetFacetCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of facets
 
 ## VBA Syntax
 
-See
-
-[GraphicsBody::GetFacetCount](ms-its:sldworksapivb6.chm::/sldworks~GraphicsBody~GetFacetCount.html)
-
-.
+See [GraphicsBody::GetFacetCount](ms-its:sldworksapivb6.chm::/sldworks~GraphicsBody~GetFacetCount.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IGraphicsBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody.html)
-
 [IGraphicsBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody_members.html)
-
 [IGraphicsBody::GetFacets Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody~GetFacets.html)
 
 ## Availability

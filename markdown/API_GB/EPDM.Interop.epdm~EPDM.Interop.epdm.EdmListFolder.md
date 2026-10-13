@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html"
 
 # EdmListFolder Structure
 
-Contains information about a folder returned from
-
-[IEdmBatchListing::GetFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFolders.html)
-
-.
+Contains information about a folder returned from [IEdmBatchListing::GetFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFolders.html).
 
 ## Syntax
 
@@ -38,12 +34,16 @@ public value class EdmListFolder : public System.ValueType
 
 ## Examples
 
-struct EdmListFolder{ integer mlFolderID ; integer mlParam ; string mbsPath ; object moColumnData ; };
+struct EdmListFolder{
+integer [mlFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mlFolderID.html);
+integer [mlParam](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mlParam.html);
+string [mbsPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mbsPath.html);
+object [moColumnData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~moColumnData.html);
+};
 
 ## See Also
 
 [EdmListFolder Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

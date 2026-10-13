@@ -48,26 +48,16 @@ Name of the beam
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamBodyName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamBodyName.html)
-
-.
+See [CWBeamBody::BeamBodyName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamBodyName.html).
 
 ## Examples
 
-See the
-
-[ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
-examples.
+See the [ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html) examples.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamManager::GetBeamBodyByName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager~GetBeamBodyByName.html)
 
 ## Availability

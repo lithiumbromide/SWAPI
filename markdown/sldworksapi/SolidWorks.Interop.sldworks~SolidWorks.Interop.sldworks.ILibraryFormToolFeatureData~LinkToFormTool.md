@@ -45,13 +45,7 @@ property System.bool LinkToFormTool {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to link this forming tool to its part in the Design Library, false to not
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::LinkToFormTool](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~LinkToFormTool.html)
-
-.
+See [LibraryFormToolFeatureData::LinkToFormTool](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~LinkToFormTool.html).
 
 ## Examples
 
-See the
-
-[ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-examples.
+See the [ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html) examples.
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
 
 ## Availability

@@ -47,17 +47,11 @@ property System.double WeightFactor {
 
 ### Property Value
 
-Component weight factor as defined in
-
-[swsMeshControlWeightFactor_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlWeightFactor_e.html)
+Component weight factor as defined in [swsMeshControlWeightFactor_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlWeightFactor_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::WeightFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~WeightFactor.html)
-
-.
+See [CWMeshControl::WeightFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~WeightFactor.html).
 
 ## Remarks
 
@@ -66,7 +60,6 @@ The weight factor results in using a different element size for each selected co
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

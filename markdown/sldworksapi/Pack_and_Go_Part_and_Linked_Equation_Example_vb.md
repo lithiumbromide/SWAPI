@@ -11,9 +11,7 @@ source: "sldworksapi/Pack_and_Go_Part_and_Linked_Equation_Example_vb.htm"
 
 ## Pack and Go Part and Linked Equation Example(VBA)
 
-This example shows how to determine if a part document includes any equations
-and whether those equations are linked files. The example also shows how to add the
-part document and any linked equations to Pack and Go.
+This example shows how to determine if a part document includes any equations and whether those equations are linked files. The example also shows how to add the part document and any linked equations to Pack and Go.
 
 ```
 '----------------------------------------
@@ -119,7 +117,7 @@ Sub main()
 ```
     ' Get current paths and names of the documents
     status = swPackAndGo.GetDocumentNames(pgFileNames)
-    Debug.Print "    Add these SOLIDWORKS files to Pack and Go: "
+    Debug.Print "    Add these SOLIDWORKS Design files to Pack and Go: "
     If (Not (IsEmpty(pgFileNames))) Then
     For i = 0 To UBound(pgFileNames)
         Debug.Print "      The file to pack up is: " & pgFileNames(i)
@@ -139,7 +137,7 @@ Sub main()
 ```
 
 ```
-    ' Pack and Go both SOLIDWORKS and non-SOLIDWORKS files
+    ' Pack and Go both SOLIDWORKS Design and non-SOLIDWORKS-Design files
     statuses = swModelDocExt.SavePackAndGo(swPackAndGo)
 ```
 

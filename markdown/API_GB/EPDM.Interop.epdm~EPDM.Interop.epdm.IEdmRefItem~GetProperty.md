@@ -42,9 +42,7 @@ System.bool GetProperty(
 
 ### Parameters
 
-- `eProperty`: Type of property for which to get a value as defined in
-
-[EdmRefItemProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemProperty.html)
+- `eProperty`: Type of property for which to get a value as defined in [EdmRefItemProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemProperty.html)
 - `poValue`: Property value
 
 ### Return Value
@@ -61,7 +59,6 @@ True if this property can be modified, false if not
 ## See Also
 
 [IEdmRefItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
 [IEdmRefItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem_members.html)
 
 ## Availability

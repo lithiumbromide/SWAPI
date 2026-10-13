@@ -40,13 +40,7 @@ System.object GetTolTypeValues()
 System.Object^ GetTolTypeValues();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Array of tolerance zone values
 
 ## VBA Syntax
 
-See
-
-[PMIGtolBoxData::GetTolTypeValues](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolBoxData~GetTolTypeValues.html)
-
-.
+See [PMIGtolBoxData::GetTolTypeValues](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolBoxData~GetTolTypeValues.html).
 
 ## Remarks
 
-The array returned by this method maps one-to-one and onto with the array returned by
-
-[IPMIGtolBoxData::GetTolTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData~GetTolTypes.html)
-
-.
+The array returned by this method maps one-to-one and onto with the array returned by [IPMIGtolBoxData::GetTolTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData~GetTolTypes.html).
 
 ## See Also
 
 [IPMIGtolBoxData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData.html)
-
 [IPMIGtolBoxData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData_members.html)
-
 [IPMIGtolBoxData::Unit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData~Unit.html)
 
 ## Availability

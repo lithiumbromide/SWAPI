@@ -57,22 +57,14 @@ True if the storage is deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument20::Delete3rdPartyStorageStore](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument20~Delete3rdPartyStorageStore.html)
-
-.
+See [SwDMDocument20::Delete3rdPartyStorageStore](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument20~Delete3rdPartyStorageStore.html).
 
 ## See Also
 
 [ISwDMDocument20 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument20.html)
-
 [ISwDMDocument20 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument20_members.html)
-
 [ISwDMDocument19::Get3rdPartyStorageStore Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~Get3rdPartyStorageStore.html)
-
 [ISwDMDocument19::Release3rdPartyStorageStore Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~Release3rdPartyStorageStore.html)
-
 [ISwDMDocument20::Delete3rdPartyStorage Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument20~Delete3rdPartyStorage.html)
 
 ## Availability

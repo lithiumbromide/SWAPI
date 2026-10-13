@@ -48,16 +48,11 @@ True if the secondary datum is repeated in the lower tier; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositePositionTolerance::SecondaryInLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~SecondaryInLowerTier.html)
-
-.
+See [DimXpertCompositePositionTolerance::SecondaryInLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~SecondaryInLowerTier.html).
 
 ## Examples
 
 [Get DimXpert Tolerance3 Example (VBA)](Get_DimXpert_Tolerance3_Example_VB.htm)
-
 [Get DimXpert Tolerance3 Example (VB.NET)](Get_DimXpert_Tolerance3_Example_VBNET.htm)
 
 ## Remarks
@@ -67,7 +62,6 @@ The second row of the Geometric Tolerance Properties dialog comes into play for 
 ## See Also
 
 [IDimXpertCompositePositionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html)
-
 [IDimXpertCompositePositionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance_members.html)
 
 ## Availability

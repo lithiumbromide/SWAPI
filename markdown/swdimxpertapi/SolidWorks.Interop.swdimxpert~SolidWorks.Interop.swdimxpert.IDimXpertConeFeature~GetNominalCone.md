@@ -87,22 +87,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertConeFeature::GetNominalCone](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetNominalBottomPlane.html)
-
-.
+See [DimXpertConeFeature::GetNominalCone](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetNominalBottomPlane.html).
 
 ## Examples
 
 [Get DimXpert Cone Feature Example (VBA)](Get_DimXpert_Cone_Feature_Example_VB.htm)
-
 [Get DimXpert Cone Feature Example (VB.NET)](Get_DimXpert_Cone_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertConeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature.html)
-
 [IDimXpertConeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature_members.html)
 
 ## Availability

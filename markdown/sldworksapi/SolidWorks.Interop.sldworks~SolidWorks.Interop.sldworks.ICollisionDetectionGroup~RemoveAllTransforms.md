@@ -39,26 +39,15 @@ void RemoveAllTransforms()
 void RemoveAllTransforms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionGroup::RemoveAllTransforms](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~RemoveAllTransforms.html)
-
-.
+See [CollisionDetectionGroup::RemoveAllTransforms](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~RemoveAllTransforms.html).
 
 ## See Also
 
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [ICollisionDetectionGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup_members.html)
 
 ## Availability

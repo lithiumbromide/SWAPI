@@ -52,30 +52,16 @@ void SetReferenceGeometry(
 
 ## VBA Syntax
 
-See
-
-[CWPressure::SetReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~SetReferenceGeometry.html)
-
-.
+See [CWPressure::SetReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~SetReferenceGeometry.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWPressure::PressureType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~PressureType.html)
-
-is
-
-[swsPressureType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPressureType_e.html)
-
-.swsPressureTypeUseReferenceGeometry.
+This method is valid only if [ICWPressure::PressureType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~PressureType.html) is [swsPressureType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPressureType_e.html).swsPressureTypeUseReferenceGeometry.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::DirectionType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~DirectionType.html)
 
 ## Availability

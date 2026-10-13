@@ -34,22 +34,13 @@ System.String^ mbsIncludePath
 
 ## Examples
 
-See the
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-examples.
+See the [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html) examples.
 
 ## Remarks
 
-Equivalent to the
-
-included as
-
-column in the check-in dialog box.
+Equivalent to the **included as** column in the check-in dialog box.
 
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EdmRawReference Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html)

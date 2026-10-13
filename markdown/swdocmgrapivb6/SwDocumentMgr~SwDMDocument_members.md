@@ -1,6 +1,5 @@
 ---
-title: "SwDMDocument Object
-Members"
+title: "SwDMDocument Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDocument_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDocument_members.html"
 ---
 
-# SwDMDocument Object
-Members
+# SwDMDocument Object Members
 
 ## Public Methods
 

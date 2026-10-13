@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevisionTableFeature::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetFeature.html)
-
-.
+See [RevisionTableFeature::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetFeature.html).
 
 ## Examples
 
-See the
-
-[IRevisionTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html)
-
-examples.
+See the [IRevisionTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html) examples.
 
 ## See Also
 
 [IRevisionTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html)
-
 [IRevisionTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Get3DExperienceType Method (ISwDMConfiguration17)
 
-Gets how
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-views this configuration.
+Gets how [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm) views this configuration.
 
 ## Syntax
 
@@ -46,32 +42,20 @@ System.int Get3DExperienceType();
 
 ### Return Value
 
-Treatment of this configuration as defined by
-
-[swDm3DExperienceCfgType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDm3DExperienceCfgType_e.html)
+Treatment of this configuration as defined by [swDm3DExperienceCfgType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDm3DExperienceCfgType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration17::Get3DExperienceType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration17~Get3DExperienceType.html)
-
-.
+See [SwDMConfiguration17::Get3DExperienceType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration17~Get3DExperienceType.html).
 
 ## Examples
 
-See the
-
-[ISwDMConfiguration17](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html)
-
-examples.
+See the [ISwDMConfiguration17](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html) examples.
 
 ## See Also
 
 [ISwDMConfiguration17 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17.html)
-
 [ISwDMConfiguration17 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17_members.html)
-
 [ISwDMConfiguration17::GetRepresentationParent Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration17~GetRepresentationParent.html)
 
 ## Availability

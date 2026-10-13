@@ -45,13 +45,7 @@ property System.bool Reverse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of movement of the components, false to not
 
 ## VBA Syntax
 
-See
-
-[ScrewMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData~Reverse.html)
-
-.
+See [ScrewMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData~Reverse.html).
 
 ## Examples
 
-See the
-
-[IScrewMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html)
-
-example.
+See the [IScrewMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html) example.
 
 ## See Also
 
 [IScrewMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html)
-
 [IScrewMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData_members.html)
 
 ## Availability

@@ -51,16 +51,11 @@ Name of the user record to display
 
 ## VBA Syntax
 
-See
-
-[PDMWUser::DisplayName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~DisplayName.html)
-
-.
+See [PDMWUser::DisplayName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~DisplayName.html).
 
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUser Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser_members.html)
 
 ## Availability

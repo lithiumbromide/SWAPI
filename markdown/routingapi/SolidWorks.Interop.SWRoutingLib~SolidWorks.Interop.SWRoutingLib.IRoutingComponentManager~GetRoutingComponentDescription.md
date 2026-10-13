@@ -46,34 +46,22 @@ Description of the routing component
 
 ## VBA Syntax
 
-See
-
-[RoutingComponentManager::GetRoutingComponentDescription](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~GetRoutingComponentDescription.html)
-
-.
+See [RoutingComponentManager::GetRoutingComponentDescription](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~GetRoutingComponentDescription.html).
 
 ## Examples
 
 [Get and Set Routing Component Properties Example (C#)](Get_and_Set_Routing_Component_Properties_Example_CSharp.htm)
-
 [Get and Set Routing Component Properties Example (VB.NET)](Get_and_Set_Routing_Component_Properties_Example_VBNET.htm)
-
 [Get and Set Routing Component Properties Example (VBA)](Get_and_Set_Routing_Component_Properties_Example_VB.htm)
 
 ## Remarks
 
-This method returns the information that was entered in
-
-File > Properties > Custom
-
-.
+This method returns the information that was entered in **File > Properties > Custom**.
 
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [IRoutingComponentManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html)
-
 [IRoutingComponentManager::SetRoutingComponentDescription Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetRoutingComponentDescription.html)
 
 ## Availability

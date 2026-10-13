@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # TextDisplay Property (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::TextDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~TextDisplay.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::TextDisplay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~TextDisplay.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.int TextDisplay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::TextDisplay](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~TextDisplay.html)
-
-.
+See [BlockInstance::TextDisplay](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~TextDisplay.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Scale2 Property (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Scale.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Scale.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::Scale2](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~Scale2.html)
-
-.
+See [CustomSymbol::Scale2](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~Scale2.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

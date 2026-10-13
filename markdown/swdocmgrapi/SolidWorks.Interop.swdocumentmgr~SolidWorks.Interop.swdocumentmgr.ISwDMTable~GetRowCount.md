@@ -46,22 +46,14 @@ Number of rows
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::GetRowCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetRowCount.html)
-
-.
+See [SwDMTable::GetRowCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetRowCount.html).
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
-
 [ISwDMTable::AddRowHead Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddRowHead.html)
-
 [ISwDMTable::AddRowTail Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddRowTail.html)
-
 [ISwDMTable::DeleteRow Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~DeleteRow.html)
 
 ## Availability

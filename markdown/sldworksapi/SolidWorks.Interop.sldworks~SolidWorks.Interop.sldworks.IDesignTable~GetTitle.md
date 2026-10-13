@@ -40,13 +40,7 @@ System.string GetTitle()
 System.String^ GetTitle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Design table title
 
 ## VBA Syntax
 
-See
-
-[DesignTable::GetTitle](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetTitle.html)
-
-.
+See [DesignTable::GetTitle](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetTitle.html).
 
 ## Examples
 
 [Get Design Table (VBA)](Get_Design_Table_Example_VB.htm)
-
 [Get Design Table (VB.NET)](Get_Design_Table_Example_VBNET.htm)
-
 [Get Design Table (C#)](Get_Design_Table_Example_CSharp.htm)
 
 ## Remarks
@@ -75,7 +63,6 @@ This method returns the title of the design table. If the title row is absent, t
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
 
 ## Availability

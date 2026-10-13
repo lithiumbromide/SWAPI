@@ -45,40 +45,23 @@ property System.int MateAlignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mate alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
+Mate alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[CoincidentMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~CoincidentMateFeatureData~MateAlignment.html)
-
-.
+See [CoincidentMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~CoincidentMateFeatureData~MateAlignment.html).
 
 ## Examples
 
-See the
-
-[ICoincidentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html)
-
-example.
+See the [ICoincidentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html) example.
 
 ## See Also
 
 [ICoincidentMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html)
-
 [ICoincidentMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData_members.html)
 
 ## Availability

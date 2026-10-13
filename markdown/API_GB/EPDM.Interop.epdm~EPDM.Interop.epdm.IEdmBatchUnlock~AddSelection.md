@@ -42,26 +42,16 @@ void AddSelection(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; vault to which the files belong
-- `ppoSelection`: Array of
-
-[IEdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html)
-
-structures; one structure for each file to unlock
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); vault to which the files belong
+- `ppoSelection`: Array of [IEdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html) structures; one structure for each file to unlock
 
 ## Examples
 
-See the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-examples.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) examples.
 
 ## Remarks
 
-See the[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)remarks for information about using this method.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) remarks for information about using this method.
 
 When you call this method, SOLIDWORKS PDM Professional automatically adds the file's references to the unlock file set.
 
@@ -73,7 +63,6 @@ When you call this method, SOLIDWORKS PDM Professional automatically adds the fi
 ## See Also
 
 [IEdmBatchUnlock Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
 [IEdmBatchUnlock Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html)
 
 ## Availability

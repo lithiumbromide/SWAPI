@@ -9,7 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLi
 
 # IPDMWLinks Interface Properties
 
-For a list of all members of this type, see[IPDMWLinks members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks_members.html).
+For a list of all members of this type, see [IPDMWLinks members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks_members.html).
 
 ## Public Properties
 
@@ -23,7 +23,5 @@ For a list of all members of this type, see[IPDMWLinks members](PDMWorks.Interop
 ## See Also
 
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)

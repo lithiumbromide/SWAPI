@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # ICalloutStringVariable Interface Properties
 
-For a list of all members of this type, see[ICalloutStringVariable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutStringVariable_members.html).
+For a list of all members of this type, see [ICalloutStringVariable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutStringVariable_members.html).
 
 ## Public Properties
 
@@ -22,9 +22,6 @@ For a list of all members of this type, see[ICalloutStringVariable members](Soli
 ## See Also
 
 [ICalloutStringVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutStringVariable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICalloutAngleVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable.html)
-
 [ICalloutLengthVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutLengthVariable.html)

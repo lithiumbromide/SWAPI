@@ -35,22 +35,16 @@ property IEdmState5^ CurrentState {
 
 ### Property Value
 
-Current
-
-[workflow state](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
-of the file
+Current [workflow state](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html) of the file
 
 ## Examples
 
 [Get File's State Transitions (C#)](Get_Files_State_Transitions_Example_CSharp.htm)
-
 [Get File's State Transitions (VB.NET)](Get_Files_State_Transitions_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
 
 ## Availability

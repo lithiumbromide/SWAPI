@@ -47,21 +47,11 @@ Feature^ InsertWeldmentCutList2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Bodies`: Array of
-
-[Body2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-objects
+- `Bodies`: Array of [Body2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) objects
 
 ### Return Value
 
@@ -69,28 +59,19 @@ objects
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertWeldmentCutList2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertWeldmentCutList2.html)
-
-.
+See [FeatureManager::InsertWeldmentCutList2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertWeldmentCutList2.html).
 
 ## Examples
 
 [Insert Weldment Cut List Example #2 (VBA)](Insert_Weldment_Cut_List2_Example_VB.htm)
-
 [Insert Weldment Cut List Example #2 (VB.NET)](Insert_Weldment_Cut_List2_Example_VBNET.htm)
-
 [Insert Weldment Cut List Example #2 (C#)](Insert_Weldment_Cut_List2_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IFeatureManager::InsertWeldmentCutList Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertWeldmentCutList.html)
 
 ## Availability

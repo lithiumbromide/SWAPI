@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 Allows access to a sheet metal base flange feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IBaseFlangeFeatureData
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData.html)
-
-.
+See [BaseFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData.html).
 
 ## Examples
 
@@ -58,7 +54,7 @@ See
 '
 'Postconditions:
 '1. Creates a flange profile sketch.
-'2. Creates**Base-Flange1**in the FeatureManager design tree.
+'2. Creates **Base-Flange1** in the FeatureManager design tree.
 '3. Inspect the Immediate window, graphics area,
 ' and FeatureManager design tree.
 '==================================================
@@ -112,17 +108,17 @@ Set swBaseFlangeFeat = swModel.FeatureManager.**CreateDefinition**(swFmBaseFlang
 
 Set cba = swBaseFlangeFeat.**GetCustomBendAllowance**()
 
-cba.**Type**= swBendAllowanceDirect
-cba.**BendAllowance**= 0.05
+cba.**Type** = swBendAllowanceDirect
+cba.**BendAllowance** = 0.05
 
-swBaseFlangeFeat.**D1EndConditionType**= 1
-swBaseFlangeFeat.**D1EndConditionDistance**= 0.02
-swBaseFlangeFeat.**ReverseDirection**= True
-swBaseFlangeFeat.**OffsetDirections**= 2
-swBaseFlangeFeat.**D2EndConditionType**= 1
-swBaseFlangeFeat.**D2EndConditionDistance**= 0.05
-swBaseFlangeFeat.**OverrideDefaultSheetMetalParameters**= True
-swBaseFlangeFeat.**Thickness**= 0.035
+swBaseFlangeFeat.**D1EndConditionType** = 1
+swBaseFlangeFeat.**D1EndConditionDistance** = 0.02
+swBaseFlangeFeat.**ReverseDirection** = True
+swBaseFlangeFeat.**OffsetDirections** = 2
+swBaseFlangeFeat.**D2EndConditionType** = 1
+swBaseFlangeFeat.**D2EndConditionDistance** = 0.05
+swBaseFlangeFeat.**OverrideDefaultSheetMetalParameters** = True
+swBaseFlangeFeat.**Thickness** = 0.035
 
 'Initialize the base flange feature
 'Initialize(
@@ -163,7 +159,7 @@ Set cba1 = smFeatData.**GetCustomBendAllowance**()
 Debug.Print "Custom bend allowance type as defined in swBendAllowanceTypes_e: " & cba1.**Type**
 Debug.Print "Bend allowance: " & cba1.**BendAllowance**
 Debug.Print "Result code for override of AutoRelief as defined by swSheetMetalModifierError_e: " & smFeatData.**SetOverrideDefaultParameter2**(swSheetMetalOverrideDefaultParameters_AutoRelief, True)
-smFeatData.**ReliefRatio**= 0.7
+smFeatData.**ReliefRatio** = 0.7
 
 Debug.Print "Base flange successfully modified? " & parent.**ModifyDefinition**(smFeatData, swModel, Nothing)
 Debug.Print "Base flange feature name : " & SHFeat.Name & " and type : " & SHFeat.GetTypeName2
@@ -173,18 +169,14 @@ End Sub
 ## Examples
 
 [Get All Sheet Metal Feature Data (VBA)](Get_All_Sheet_Metal_Feature_Data_Example_VB.htm)
-
 [Get All Sheet Metal Feature Data (VB.NET)](Get_All_Sheet_Metal_Feature_Data_Example_VBNET.htm)
-
 [Get All Sheet Metal Feature Data (C#)](Get_All_Sheet_Metal_Feature_Data_Example_CSharp.htm)
-
 [Create Base Flange Feature (VB.NET)](Create_Base_Flange_Feature_Example_VBNET.htm)
-
 [Create Base Flange Feature (C#)](Create_Base_Flange_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-For general information about sheet metal base flanges, see the**SOLIDWORKS user-interface help > Sheet Metal > Using Sheet Metal Tools > Base Flange/Tab > Base Flange PropertyManager**topic.
+For general information about sheet metal base flanges, see the **SOLIDWORKS Design user-interface help > Sheet Metal > Using Sheet Metal Tools > Base Flange/Tab > Base Flange PropertyManager** topic.
 
 ## Accessors
 
@@ -199,7 +191,5 @@ For general information about sheet metal base flanges, see the**SOLIDWORKS user
 ## See Also
 
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)

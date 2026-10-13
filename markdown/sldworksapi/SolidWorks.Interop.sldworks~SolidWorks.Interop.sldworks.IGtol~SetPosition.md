@@ -54,13 +54,7 @@ void SetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPosition.html)
-
-.
+See [Gtol::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetPosition.html).
 
 ## Examples
 
@@ -83,13 +73,10 @@ The position is the upper-left corner of the GTol.
 ## Examples
 
 [Get Gtol Witness Line (VBA)](Get_GTol_Witness_Line_Example_VB.htm)
-
 [Get Gtol Witness Line (VB.NET)](Get_GTol_Witness_Line_Example_VBNET.htm)
-
 [Get Gtol Witness Line (C#)](Get_GTol_Witness_Line_Example_CSharp.htm)
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

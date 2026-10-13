@@ -40,16 +40,11 @@ Configuration of associated document
 
 ## Examples
 
-See the
-
-[IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html)
-
-examples.
+See the [IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html) examples.
 
 ## See Also
 
 [IEdmSWBomRow Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow.html)
-
 [IEdmSWBomRow Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow_members.html)
 
 ## Availability

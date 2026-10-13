@@ -42,16 +42,8 @@ System.int CommitUpdate(
 
 ### Parameters
 
-- `ppoRetErrors`: Array of
-
-[EdmBatchError2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html)
-
-structures; one structure for each non-critical error that occurred during the update
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to get more information during the operation
+- `ppoRetErrors`: Array of [EdmBatchError2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html) structures; one structure for each non-critical error that occurred during the update
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to get more information during the operation
 
 ### Return Value
 
@@ -59,11 +51,7 @@ Size of ppoRetErrors array; 0 if no errors
 
 ## Examples
 
-See the
-
-[IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
-examples.
+See the [IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html) examples.
 
 ## Remarks
 
@@ -75,7 +63,6 @@ examples.
 ## See Also
 
 [IEdmBatchUpdate2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
 [IEdmBatchUpdate2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_members.html)
 
 ## Availability

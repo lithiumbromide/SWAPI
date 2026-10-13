@@ -40,13 +40,7 @@ System.bool HasUnloadedComponents()
 System.bool HasUnloadedComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ True if the assembly has hidden or suppressed unloaded components, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::HasUnloadedComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~HasUnloadedComponents.html)
-
-.
+See [AssemblyDoc::HasUnloadedComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~HasUnloadedComponents.html).
 
 ## Examples
 
 [Get Hidden Components Filenames (C#)](Get_Hidden_Components_Filenames_Example_CSharp.htm)
-
 [Get Hidden Components Filenames (VB.NET)](Get_Hidden_Components_Filenames_Example_VBNET.htm)
-
 [Get Hidden Component Filenames (VBA)](Get_Hidden_Components_Filenames_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetUnloadedComponentNames.html)
-
 [IComponent2::GetHiddenUnloadedChildrenCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetHiddenUnloadedChildrenCount.html)
-
 [IComponent2::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetUnloadedComponentNames.html)
-
 [IComponent2::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~HasUnloadedComponents.html)
 
 ## Availability

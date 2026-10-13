@@ -57,32 +57,22 @@ System.int ExportTubeData(
 
 ### Parameters
 
-- `fileName`: Specify`<path_name>.<file_extension>`; for example, specify**c:\temp.html**to create**default.html**in**c:\temp**
-- `type`: Bend data type as defined in
-
-[swExportTubeDataReportType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swExportTubeDataReportType_e.html)
+- `fileName`: Specify `<path_name>.<file_extension>`; for example, specify **c:\temp.html** to create **default.html** in **c:\temp**
+- `type`: Bend data type as defined in [swExportTubeDataReportType_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swExportTubeDataReportType_e.html)
 - `options`: Export options; not yet defined
 
 ### Return Value
 
-Status as defined in
-
-[swRoutingExportDataError_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRoutingExportDataError_e.html)
+Status as defined in [swRoutingExportDataError_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRoutingExportDataError_e.html)
 
 ## VBA Syntax
 
-See
-
-[RouteManager::ExportTubeData](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ExportTubeData.html)
-
-.
+See [RouteManager::ExportTubeData](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ExportTubeData.html).
 
 ## Examples
 
 [Export Tube Data Example (C#)](Export_Tube_Data_Example_CSharp.htm)
-
 [Export Tube Data Example (VB.NET)](Export_Tube_Data_Example_VBNET.htm)
-
 [Export Tube Data Example (VBA)](Export_Tube_Data_Example_VB.htm)
 
 ## Remarks
@@ -92,7 +82,6 @@ This method is only valid for use with assemblies containing tubes.
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

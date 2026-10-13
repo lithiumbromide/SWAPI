@@ -51,35 +51,24 @@ Custom cost per bend for sheet metal parts
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::CustomBendCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~CustomBendCost.html)
-
-.
+See [TemplateOverrides::CustomBendCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~CustomBendCost.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
 
 Setting this property is only applied if:
 
-- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)
-
-  is swcMethodType_e.swcMethodType_Sheetmetal.
-- [ITemplateOverrides::UseCustomBendCost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomBendCost.html)
-
-  is true.
+- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is swcMethodType_e.swcMethodType_Sheetmetal.
+- [ITemplateOverrides::UseCustomBendCost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomBendCost.html) is true.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

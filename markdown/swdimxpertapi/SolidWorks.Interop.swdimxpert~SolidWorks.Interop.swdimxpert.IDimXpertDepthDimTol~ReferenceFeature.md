@@ -48,22 +48,16 @@ property DimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertDepthDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDepthDimTol~ReferenceFeature.html)
-
-.
+See [DimXpertDepthDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDepthDimTol~ReferenceFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertDepthDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol.html)
-
 [IDimXpertDepthDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol_members.html)
 
 ## Availability

@@ -47,21 +47,11 @@ System.bool LoadRoutingSettingsFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RoutingSettingsFilename`: - Full path name of the
-
-.sqy
-
-file from which to load the routing settings
+- `RoutingSettingsFilename`: - Full path name of the **.sqy** file from which to load the routing settings
 
 ### Return Value
 
@@ -69,20 +59,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::LoadRoutingSettingsFromFile](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~LoadRoutingSettingsFromFile.html)
-
-.
+See [RoutingSettings::LoadRoutingSettingsFromFile](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~LoadRoutingSettingsFromFile.html).
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::LoadDefaultRoutingSettings Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~LoadDefaultRoutingSettings.html)
-
 [IRoutingSettings::SaveRoutingSettingsToFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~SaveRoutingSettingsToFile.html)
 
 ## Availability

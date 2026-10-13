@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUs
 
 Provides access to a collection of user records.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWUsers
 
 ## VBA Syntax
 
-See
-
-[PDMWUsers](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUsers.html)
-
-.
+See [PDMWUsers](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUsers.html).
 
 ## Accessors
 
@@ -62,11 +52,7 @@ See
 ## See Also
 
 [IPDMWUsers Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroups Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)

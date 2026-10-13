@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Whether_Note_Contains_Rich-embedded_Text_Example_VB.htm
 
 # Get Whether Note Contains Rich Embedded Text Example (VBA)
 
-This example shows how to find out if a note contains rich embedded
-text.
+This example shows how to find out if a note contains rich embedded text.
 
 ```
 '-----------------------------------

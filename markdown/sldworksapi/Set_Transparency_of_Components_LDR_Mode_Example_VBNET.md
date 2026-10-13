@@ -11,12 +11,9 @@ source: "sldworksapi/Set_Transparency_of_Components_LDR_Mode_Example_VBNET.htm"
 
 This example shows how to:
 
-- open an assembly in Large Design Review
-  mode
-- open, modify,
-  save, and close an assembly component, and
-- set the transparency level of
-  unmodified components in the assembly.
+- open an assembly in Large Design Review mode
+- open, modify, save, and close an assembly component, and
+- set the transparency level of unmodified components in the assembly.
 
 ```
 '----------------------------------------------------------------------------

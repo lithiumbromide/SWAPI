@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # ICurve Interface Members
 
-The following tables list the members exposed by[ICurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html).
+The following tables list the members exposed by [ICurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html).
 
 ## Public Properties
 
@@ -96,5 +96,4 @@ The following tables list the members exposed by[ICurve](SolidWorks.Interop.sldw
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

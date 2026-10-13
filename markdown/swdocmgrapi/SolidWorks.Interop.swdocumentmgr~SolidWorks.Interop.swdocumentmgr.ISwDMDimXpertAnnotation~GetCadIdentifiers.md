@@ -46,11 +46,7 @@ Array of strings; the format of each string is bodyid:faceid
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAnnotation::GetCadIdentifiers](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~GetCadIdentifiers.html)
-
-.
+See [SwDMDimXpertAnnotation::GetCadIdentifiers](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~GetCadIdentifiers.html).
 
 ## Examples
 
@@ -59,9 +55,7 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAnnotation Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
-
 [ISwDMDimXpertAnnotation Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation_members.html)
-
 [ISwDMDimXpertAnnotation::IGetCadIdentifiers Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation~IGetCadIdentifiers.html)
 
 ## Availability

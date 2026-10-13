@@ -45,13 +45,7 @@ property System.int CurvatureDensity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Curvature density of the curvature combs for this spline; valid values from 0 - 
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CurvatureDensity](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CurvatureDensity.html)
-
-.
+See [SketchManager::CurvatureDensity](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CurvatureDensity.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CurvatureScale Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CurvatureScale.html)
-
 [ISketchSpline::ShowCurvatureCombs Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ShowCurvatureCombs.html)
 
 ## Availability

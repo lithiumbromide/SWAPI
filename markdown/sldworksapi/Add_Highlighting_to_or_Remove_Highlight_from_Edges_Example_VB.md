@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Highlighting_to_or_Remove_Highlight_from_Edges_Example_
 
 # Add Highlighting to or Remove Highlight from Edges Example (VBA)
 
-This example shows how to highlight or remove highlight from the selected
-face's edges.
+This example shows how to highlight or remove highlight from the selected face's edges.
 
 ```
 '-------------------------------------------------------

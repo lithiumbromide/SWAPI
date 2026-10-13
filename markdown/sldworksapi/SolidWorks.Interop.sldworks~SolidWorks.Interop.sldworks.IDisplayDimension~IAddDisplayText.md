@@ -63,26 +63,14 @@ System.bool IAddDisplayText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Text`: Text to display
 - `Position`: Location of the text; pointer to an array of 3 doubles
-- `Format`: Pointer to
-
-[ITextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html)
-
-object
-- `Attachment`: Justification of the text as defined in
-
-[swTextJustification_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTextJustification_e.html)
+- `Format`: Pointer to [ITextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html) object
+- `Attachment`: Justification of the text as defined in [swTextJustification_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTextJustification_e.html)
 - `WidthFactor`: Horizontal scale factor of the text
 
 ### Return Value
@@ -91,11 +79,7 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IAddDisplayText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IAddDisplayText.html)
-
-.
+See [DisplayDimension::IAddDisplayText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IAddDisplayText.html).
 
 ## Remarks
 
@@ -104,9 +88,7 @@ The new graphics displayed by this method are temporary. When the user changes t
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::AddDisplayText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~AddDisplayText.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFr
 
 # IFrame Interface Members
 
-The following tables list the members exposed by[IFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html).
+The following tables list the members exposed by [IFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html).
 
 ## Public Properties
 
@@ -33,9 +33,9 @@ The following tables list the members exposed by[IFrame](SolidWorks.Interop.sldw
 | Method | AddMenuPopupIcon3 | Adds an icon to a context-sensitive menu of a SOLIDWORKS add-in. |
 | Method | AddMenuPopupItem | Obsolete. Superseded by IFrame::AddMenuPopupItem2 . |
 | Method | AddMenuPopupItem2 | Adds a menu item or separator to a shortcut menu (i.e., a right-click pop-up menu). |
-| Method | GetHWnd | Gets the window handle for the main frame. |
+| Method | GetHWnd | Obsolete. Superseded by IFrame::GetHWndx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets the window handle for the main frame. |
 | Method | GetHWndx64 | Gets the window handle for the main frame in 64-bit applications. |
-| Method | GetMenu | Gets the menu handle for the main frame. |
+| Method | GetMenu | Obsolete. Superseded by IFrame::GetMenux64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets the menu handle for the main frame. |
 | Method | GetMenuState | Obsolete. Superseded by IFrame::AddMenuItem2 . |
 | Method | GetMenux64 | Gets the menu handle for the main frame in 64-bit applications. |
 | Method | GetModelWindowCount | Gets the number of child model windows for this frame. |
@@ -55,5 +55,4 @@ The following tables list the members exposed by[IFrame](SolidWorks.Interop.sldw
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

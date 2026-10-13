@@ -9,13 +9,9 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # IPropertyManagerPage2Handler Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IPropertyManagerPage2Handler5](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5.html).
 
-[IPropertyManagerPage2Handler5](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IPropertyManagerPage2Handler
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler.html)
-
-.
+See [PropertyManagerPage2Handler](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Isolate_Component_Example_CSharp.htm"
 
 # Isolate Component Example (C#)
 
-This example shows how to isolate a component and save the characteristics
-of the new display state.
+This example shows how to isolate a component and save the characteristics of the new display state.
 
 ```
 //----------------------------------------------------------

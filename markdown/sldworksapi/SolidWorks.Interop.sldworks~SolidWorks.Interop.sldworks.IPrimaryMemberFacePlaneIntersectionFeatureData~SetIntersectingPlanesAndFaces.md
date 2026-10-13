@@ -47,29 +47,11 @@ System.bool SetIntersectingPlanesAndFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RefList`: Array of
-
-[IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-s,
-
-[ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
-s, and/or
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s that intersect with parameter faces
+- `RefList`: Array of [IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)s, [ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)s, and/or [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s that intersect with parameter faces
 
 ### Return Value
 
@@ -77,30 +59,21 @@ True if intersecting objects successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberFacePlaneIntersectionFeatureData::SetIntersectingPlanesAndFaces](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberFacePlaneIntersectionFeatureData~SetIntersectingPlanesAndFaces.html)
-
-.
+See [PrimaryMemberFacePlaneIntersectionFeatureData::SetIntersectingPlanesAndFaces](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberFacePlaneIntersectionFeatureData~SetIntersectingPlanesAndFaces.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberFacePlaneIntersectionFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData.html)
-
-examples.
+See the [IPrimaryMemberFacePlaneIntersectionFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData.html) examples.
 
 ## Remarks
 
-Entities passed should intersect with at least one entity returned by[IPrimaryMemberFacePlaneIntersectionFeatureData::GetParameterFaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData~GetParameterFaces.html).
+Entities passed should intersect with at least one entity returned by [IPrimaryMemberFacePlaneIntersectionFeatureData::GetParameterFaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData~GetParameterFaces.html).
 
 At edit time, you can set only one intersecting entity.
 
 ## See Also
 
 [IPrimaryMemberFacePlaneIntersectionFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData.html)
-
 [IPrimaryMemberFacePlaneIntersectionFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData_members.html)
 
 ## Availability

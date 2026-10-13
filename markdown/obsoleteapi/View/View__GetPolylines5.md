@@ -9,41 +9,25 @@ source: "obsoleteapi/View/View__GetPolylines5.htm"
 
 # View::GetPolylines5
 
-This method is obsolete and has been superseded
-by[View::GetPolylines6](View__GetPolylines6.htm).
+This method is obsolete and has been superseded by [View::GetPolylines6](View__GetPolylines6.htm).
 
 Description
 
-This method gets all of the
-polylines in the view with an option to include or exclude crosshatch
-lines.
+This method gets all of the polylines in the view with an option to include or exclude crosshatch lines.
 
 Syntax (OLE Automation)
 
 retval = View.GetPolyLines5 ( crossHatchOption )
 
-(Table)=========================================================
-
-| Input: | (short) crossHatchOption | 0
-= include crosshatch lines 1
-= exclude crosshatch lines 2
-= include only crosshatch lines |
+| Input: | (short) crossHatchOption | 0 = include crosshatch lines 1 = exclude crosshatch lines 2 = include only crosshatch lines |
 | --- | --- | --- |
 | Return: | (VARIANT) retval | Array of lines in the view |
 
 Syntax (COM)
 
-status = View->IGetPolylines5 ( crossHatchOption,
-arraySize, retVal )
+status = View->IGetPolylines5 ( crossHatchOption, arraySize, retVal )
 
-Parameters Table Start
-
-(Table)=========================================================
-
-| Input: | (short) crossHatchOption | 0
-= include crosshatch lines 1
-= exclude crosshatch lines 2
-= include only crosshatch lines |
+| Input: | (short) crossHatchOption | 0 = include crosshatch lines 1 = exclude crosshatch lines 2 = include only crosshatch lines |
 | --- | --- | --- |
 | Input: | (long) arraySize | Size of array |
 | Output: | (double*) retVal | Array of lines in the view of size arraySize |
@@ -51,30 +35,17 @@ Parameters Table Start
 
 Remarks
 
-The difference between this method and View::GetPolyLinesAndCurves is
-that splines and ellipses returned by View::GetPolyLinesAndCurves are
-returned as equation parameters, which are more precise definitions.
+The difference between this method and View::GetPolyLinesAndCurves is that splines and ellipses returned by View::GetPolyLinesAndCurves are returned as equation parameters, which are more precise definitions.
 
-This method returns data for all visible solid
-model edges in the drawing view. This includes these types of edges:
+This method returns data for all visible solid model edges in the drawing view. This includes these types of edges:
 
-- arcs: Returned
-  using a center point, radius, and start and stop location.
-- circles:
-  Returned using a center point, radius, and start and stop location.
-- ellipses:
-  Returned as tessellated polylines.
-- splines:
-  Returned as tessellated polylines.
-- straight
-  lines: Returned as tessellated polylines, but because the edges are straight,
-  there is no loss of data in the approximation.
+- arcs: Returned using a center point, radius, and start and stop location.
+- circles: Returned using a center point, radius, and start and stop location.
+- ellipses: Returned as tessellated polylines.
+- splines: Returned as tessellated polylines.
+- straight lines: Returned as tessellated polylines, but because the edges are straight, there is no loss of data in the approximation.
 
-This method also lets you include or exclude crosshatch
-lines. This method does not return data for sketch segments added by a
-user in the drawing view.
-
-(Table)=========================================================
+This method also lets you include or exclude crosshatch lines. This method does not return data for sketch segments added by a user in the drawing view.
 
 | To get... | Call... |
 | --- | --- |
@@ -83,154 +54,34 @@ user in the drawing view.
 
 Format of the return value is the following array of doubles:
 
-[Type, GeomDataSize, GeomData[ ], LineColor,
-LineStyle, LineFont, LineWeight, LayerID, LayerOverride, NumPolyPoints,
-[x,y,z]]
+[ Type, GeomDataSize, GeomData[ ], LineColor, LineStyle, LineFont, LineWeight, LayerID, LayerOverride, NumPolyPoints, [x,y,z] ]
 
 where:
 
-Type=underlying geometry type, possible
-values are:
+Type = underlying geometry type, possible values are:
 
-GeomDataSize=
-number of elements in theGeomDataarray, for Type = 0 this will be 0.
+GeomDataSize = number of elements in the GeomData array, for Type = 0 this will be 0.
 
-GeomData[
-]= geometric data that can be used to represent the underlying
-geometry type. The data returned in this array is based on the underlying
-geometry type:
+GeomData[ ] = geometric data that can be used to represent the underlying geometry type. The data returned in this array is based on the underlying geometry type:
 
-LineColor=
-polyline color. This value is determined either by the explicitly set
-value or by the layer that the polyline is on.
+LineColor = polyline color. This value is determined either by the explicitly set value or by the layer that the polyline is on.
 
-LineStyle=
-value combines polyline font and weight information. This value can be
-used as an input to GetLineFontInfo and GetLineFontName. If this value
-is -1, then the user has probably modified the line display manually in
-the drawing and you should use the LineFont and LineWeight return values
-to recreate the exact polyline style.
+LineStyle = value combines polyline font and weight information. This value can be used as an input to GetLineFontInfo and GetLineFontName. If this value is -1, then the user has probably modified the line display manually in the drawing and you should use the LineFont and LineWeight return values to recreate the exact polyline style.
 
-LineFont=
-value is used for polyline font information. This value can be used as
-an input to the GetLineFontInfo2 and GetLineFontName2 functions. This
-value will only be valid if LineStyle is -1.
+LineFont = value is used for polyline font information. This value can be used as an input to the GetLineFontInfo2 and GetLineFontName2 functions. This value will only be valid if LineStyle is -1.
 
-LineWeight=
-polyline weight where Thin = 0.0, Normal = 1.0, Thick = 2.0. This value
-will only be valid if LineStyle is -1.
+LineWeight = polyline weight where Thin = 0.0, Normal = 1.0, Thick = 2.0. This value will only be valid if LineStyle is -1.
 
-LayerID=
-integer value indicating which layer holds this polyline. The Layer object
-can be obtained by passing this integer value to LayerMgr::GetLayerById.
+LayerID = integer value indicating which layer holds this polyline. The Layer object can be obtained by passing this integer value to LayerMgr::GetLayerById.
 
-LayerOverride=
-integer with bit flags set to determine which properties, if any, have
-been overridden with respect to the Layer default properties. If the bit
-value is set, then the specific property or properties have been overridden.
-The bit indicators are: color = 0x1, style = 0x2, and width = 0x4. Therefore,
-if LayerOverride was returned as 3, you know the color and style have
-been specifically set for this item and may not match the default values
-associated with this item's layer.
+LayerOverride = integer with bit flags set to determine which properties, if any, have been overridden with respect to the Layer default properties. If the bit value is set, then the specific property or properties have been overridden. The bit indicators are: color = 0x1, style = 0x2, and width = 0x4. Therefore, if LayerOverride was returned as 3, you know the color and style have been specifically set for this item and may not match the default values associated with this item's layer.
 
-NumPolyPoints=
-number of XYZ points found in the [x,y,z] return value
+NumPolyPoints = number of XYZ points found in the [x,y,z] return value
 
-[x,y,z]=
-array of points used to describe the polyline. This array has NumPolyPoints
-points. This data will be returned for every polyline regardless ofType.
-
-(Table)=========================================================
+[x,y,z] = array of points used to describe the polyline. This array has NumPolyPoints points. This data will be returned for every polyline regardless of Type.
 
 | If... | Then... |
 | --- | --- |
-| Display mode of the view is: Shaded Shaded with Edges Draft Quality Fast HLR/HLV | A value is not returned. Use View::SetDisplayMode3 to change Shaded or Shaded with Edges mode
-to Wireframe, Hidden Lines Removed (HLR), or Hidden Lines Visible (HLV),
-and then get the polylines. |
-| Changes are made to the parts or assemblies shown in this drawing | Polylines are only generated that are in the visible viewing bounds
-when the drawing is opened. |
-| Drawing is already open | All polylines in the drawing are generated. If you open a drawing that
-is zoomed in to a particular region, then the polylines that are outside
-the zoomed region do not exist if the parts or assemblies shown in this
-drawing have been changed. To force the generation of all possible polyline
-data, call ModelDoc2::ViewZoomtofit2. |
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2003$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\View\View__GetPolylines5.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="View_Object$$**$$View::GetPolylineCount5$$**$$ViewDisplayMode$$**$$DrawingViewsModelEntities$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\View\View__GetPolylines5.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic4
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="EXGetPolylinesInformation$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\View\View__GetPolylines5.htm" >
-<param name="_ID" value="RelatedTopic4" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+| Display mode of the view is: Shaded Shaded with Edges Draft Quality Fast HLR/HLV | A value is not returned. Use View::SetDisplayMode3 to change Shaded or Shaded with Edges mode to Wireframe, Hidden Lines Removed (HLR), or Hidden Lines Visible (HLV), and then get the polylines. |
+| Changes are made to the parts or assemblies shown in this drawing | Polylines are only generated that are in the visible viewing bounds when the drawing is opened. |
+| Drawing is already open | All polylines in the drawing are generated. If you open a drawing that is zoomed in to a particular region, then the polylines that are outside the zoomed region do not exist if the parts or assemblies shown in this drawing have been changed. To force the generation of all possible polyline data, call ModelDoc2::ViewZoomtofit2. |

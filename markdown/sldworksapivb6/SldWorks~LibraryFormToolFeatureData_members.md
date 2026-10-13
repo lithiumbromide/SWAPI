@@ -1,6 +1,5 @@
 ---
-title: "LibraryFormToolFeatureData Object
-Members"
+title: "LibraryFormToolFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LibraryFormToolFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LibraryFormToolFeatureData_members.html"
 ---
 
-# LibraryFormToolFeatureData Object
-Members
+# LibraryFormToolFeatureData Object Members
 
 ## Public Methods
 

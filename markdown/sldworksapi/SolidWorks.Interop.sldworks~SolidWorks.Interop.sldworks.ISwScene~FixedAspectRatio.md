@@ -45,13 +45,7 @@ property System.bool FixedAspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to fix the aspect ratio of the scene floor, false to allow the scene floor 
 
 ## VBA Syntax
 
-See
-
-[SwScene::FixedAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FixedAspectRatio.html)
-
-.
+See [SwScene::FixedAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FixedAspectRatio.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,7 @@ If this property is set to true, then you need only specify one of the following
 - [ISwScene::FloorDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorDepth.html)
 - [ISwScene::FloorWidth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorWidth.html)
 
-To change the[aspect ratio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~AspectRatio.html), set this property to false and set both of the following:
+To change the [aspect ratio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~AspectRatio.html), set this property to false and set both of the following:
 
 - ISwScene::FloorDepth
 - ISwScene::FloorWidth
@@ -88,7 +74,6 @@ To change the[aspect ratio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldwo
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

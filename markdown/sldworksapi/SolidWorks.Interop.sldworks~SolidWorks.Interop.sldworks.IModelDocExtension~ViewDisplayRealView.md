@@ -45,13 +45,7 @@ property System.bool ViewDisplayRealView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ True if RealView Graphics is set, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ViewDisplayRealView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ViewDisplayRealView.html)
-
-.
+See [ModelDocExtension::ViewDisplayRealView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ViewDisplayRealView.html).
 
 ## Examples
 
 [Get Appearance File Name (C#)](Get_Appearance_Filename_Example_CSharp.htm)
-
 [Get Appearance File Name (VB.NET)](Get_Appearance_Filename_Example_VBNET.htm)
-
 [Get Appearance File Name (VBA)](Get_Appearance_Filename_Example_VB.htm)
 
 ## Remarks
 
-When you
-
-[apply a material to a part](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetMaterialPropertyName2.html)
-
-, use RealView Graphics to display the model with realistic-looking materials. RealView Graphics is available with supported graphics cards only. See the SOLIDWORKS Help for details.
+When you [apply a material to a part](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetMaterialPropertyName2.html), use RealView Graphics to display the model with realistic-looking materials. RealView Graphics is available with supported graphics cards only. See the SOLIDWORKS Help for details.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IMaterialVisualPropertiesData::RealView Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData~RealView.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetBodies2 Method (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::GetBodies3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBodies3.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetBodies3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBodies3.html).
 
 ## Syntax
 
@@ -51,33 +47,19 @@ System.Object^ GetBodies2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodyType`: Type of body as defined by[swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
+- `BodyType`: Type of body as defined by [swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
 
 ### Return Value
 
-Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-in the component
+Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) in the component
 
 ## VBA Syntax
 
-See
-
-[Component2::GetBodies2](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetBodies2.html)
-
-.
+See [Component2::GetBodies2](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetBodies2.html).
 
 ## Remarks
 
@@ -88,7 +70,6 @@ The difference between this method and the now obsolete IComponent2::GetBodies i
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

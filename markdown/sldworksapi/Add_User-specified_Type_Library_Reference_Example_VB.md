@@ -11,42 +11,31 @@ source: "sldworksapi/Add_User-specified_Type_Library_Reference_Example_VB.htm"
 
 This example shows how to add a user-specified type library reference.
 
+```vb
 '----------------------------------------
-
-' Preconditions:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}User-specified
-type library exists.
-
+' Preconditions:  User-specified type library exists.
 '
-
-' Postconditions: User-specified type library is added.
-It iskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}visible
-on VBAAvailableReferenceslist
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}only
-after recording a macro.
-
+' Postconditions: User-specified type library is added. It is
+'                 visible on VBA Available References list
+'                 only after recording a macro.
 '-----------------------------------------
-
 Option Explicit
 
 Dim swApp As SldWorks.SldWorks
-
 Dim v1 As Variant
-
 Dim s(0) As String
 
 Sub main()
+```
 
+```vb
 Set swApp = Application.SldWorks
-
 s(0) = "c:\Program Files\MyAddin\myaddin.tlb"
-
 v1 = s
-
-swApp.UserTypeLibReferences= v1
-
+swApp.UserTypeLibReferences = v1
 Debug.Print v1(0)
+```
 
+```vb
 End Sub
+```

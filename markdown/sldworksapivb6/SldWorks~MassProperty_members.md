@@ -1,6 +1,5 @@
 ---
-title: "MassProperty Object
-Members"
+title: "MassProperty Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MassProperty_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MassProperty_members.html"
 ---
 
-# MassProperty Object
-Members
+# MassProperty Object Members
 
 ## Public Methods
 

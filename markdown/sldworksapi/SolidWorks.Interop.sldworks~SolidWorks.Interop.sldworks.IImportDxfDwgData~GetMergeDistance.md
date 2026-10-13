@@ -47,13 +47,7 @@ System.double GetMergeDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-Distance to determine whether two points should be mergedParamDesc
+Distance to determine whether two points should be merged
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::GetMergeDistance](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetMergeDistance.html)
-
-.
+See [ImportDxfDwgData::GetMergeDistance](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetMergeDistance.html).
 
 ## Examples
 
@@ -77,18 +67,15 @@ See
 
 ## Remarks
 
-This property only supports importing to a part sketch; it does not support importingto a drawing.
+This property only supports importing to a part sketch; it does not support importing to a drawing.
 
 By default, points within 0.001mm are merged.
 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetMergePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetMergePoints.html)
-
 [IImportDxfDwgData::SetMergePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetMergePoints.html)
 
 ## Availability

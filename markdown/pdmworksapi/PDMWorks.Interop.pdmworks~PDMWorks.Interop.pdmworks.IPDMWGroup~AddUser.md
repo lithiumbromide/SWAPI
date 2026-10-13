@@ -52,11 +52,7 @@ void AddUser(
 
 ## VBA Syntax
 
-See
-
-[PDMWGroup::AddUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~AddUser.html)
-
-.
+See [PDMWGroup::AddUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~AddUser.html).
 
 ## Remarks
 
@@ -65,15 +61,10 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroup Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup_members.html)
-
 [IPDMWConnection::CreateUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateUser.html)
-
 [IPDMWConnection::DeleteUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteUser.html)
-
 [IPDMWGroup::RemoveUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~RemoveUser.html)
-
 [IPDMWProject::SetUserPermissions Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnActiveXControlCreated Method (IPropertyManagerPage2Handler4)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnActiveXControlCreated](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnActiveXControlCreated.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnActiveXControlCreated](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnActiveXControlCreated.html).
 
 ## Syntax
 
@@ -62,14 +58,9 @@ System.int OnActiveXControlCreated(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler4::OnActiveXControlCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnActiveXControlCreated.html)
-
-.
+See [PropertyManagerPage2Handler4::OnActiveXControlCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnActiveXControlCreated.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler4 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4.html)
-
 [IPropertyManagerPage2Handler4 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4_members.html)

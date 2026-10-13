@@ -63,64 +63,41 @@ Mate2^ AddConcentricMateWithTolerance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AlignFromEnum`: Type of mate alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
-- `ConcentricPositionType`: Misaligned concentric mate position as defined in
-
-[swConcentricAlignmentType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swConcentricAlignmentType_e.html)
+- `AlignFromEnum`: Type of mate alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+- `ConcentricPositionType`: Misaligned concentric mate position as defined in [swConcentricAlignmentType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swConcentricAlignmentType_e.html)
 - `ConcentricToleranceCheck`: True to override the deviation, false to have SOLIDWORKS calculate the deviation
 - `ConcentricToleranceValue`: Maximum deviation; valid only when ConcentricToleranceCheck is true
-- `ErrorStatus`: Success or error as defined by
-
-[swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
+- `ErrorStatus`: Success or error as defined by [swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
 
 ### Return Value
 
-Misaligned concentric
-
-[mate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
+Misaligned concentric [mate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddConcentricMateWithTolerance](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddConcentricMateWithTolerance.html)
-
-.
+See [AssemblyDoc::AddConcentricMateWithTolerance](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddConcentricMateWithTolerance.html).
 
 ## Examples
 
 [Add and Edit Misaligned Symmetric Concentric Mate (VBA)](Add_and_Edit_Misaligned_Symmetric_Concentric_Mate_Example_VB.htm)
-
 [Add and Edit Misaligned Symmetric Concentric Mate (VB.NET)](Add_and_Edit_Misaligned_Symmetric_Concentric_Mate_Example_VBNET.htm)
-
 [Add and Edit Misaligned Symmetric Concentric Mate (C#)](Add_and_Edit_Misaligned_Symmetric_Concentric_Mate_Example_CSharp.htm)
 
 ## Remarks
 
 Select the two entities to mate before calling this method. A parent non-misaligned (i.e., standard) concentric mate must already exist between the selected entities. If a suitable parent concentric mate does not exist between the selected entities, then a standard concentric mate is created.
 
-**NOTE:**The typical way to add a standard concentric mate is to use[IAssemblyDoc::AddMate5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddMate5.html).
+**NOTE:** The typical way to add a standard concentric mate is to use [IAssemblyDoc::AddMate5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddMate5.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::EditConcentricMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditConcentricMate.html)
-
 [IAssemblyDoc::EditMate4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditMate4.html)
 
 ## Availability

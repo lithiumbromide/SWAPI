@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/searchvariables |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Search Resource Group : api/{vaultName}/searchvariables (Post) |
 | --- |
@@ -208,8 +204,4 @@ If Name and Variables are empty, search returns all items based on other criteri
 
 See Also
 
-[Search Resource Group](PDM%20Pro%20API_ws~g-b95b425f-17d8-44cc-ac84-321dc3026434.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Search Resource Group](PDM%20Pro%20API_ws~g-b95b425f-17d8-44cc-ac84-321dc3026434.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

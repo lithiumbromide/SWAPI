@@ -1,6 +1,5 @@
 ---
-title: "IRoutingSettings Object
-Members"
+title: "IRoutingSettings Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IRoutingSettings_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IRoutingSettings_members.html"
 ---
 
-# IRoutingSettings Object
-Members
+# IRoutingSettings Object Members
 
 ## Public Methods
 

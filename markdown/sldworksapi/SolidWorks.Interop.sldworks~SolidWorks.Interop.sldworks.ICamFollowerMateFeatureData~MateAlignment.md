@@ -45,40 +45,23 @@ property System.int MateAlignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mate alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
+Mate alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[CamFollowerMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~CamFollowerMateFeatureData~MateAlignment.html)
-
-.
+See [CamFollowerMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~CamFollowerMateFeatureData~MateAlignment.html).
 
 ## Examples
 
-See the
-
-[ICamFollowerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html)
-
-example.
+See the [ICamFollowerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html) example.
 
 ## See Also
 
 [ICamFollowerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData.html)
-
 [ICamFollowerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData_members.html)
 
 ## Availability

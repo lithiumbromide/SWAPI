@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumLoops Interface Members
 
-The following tables list the members exposed by[IEnumLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops.html).
+The following tables list the members exposed by [IEnumLoops](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumLoops](SolidWorks.Interop.
 ## See Also
 
 [IEnumLoops Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

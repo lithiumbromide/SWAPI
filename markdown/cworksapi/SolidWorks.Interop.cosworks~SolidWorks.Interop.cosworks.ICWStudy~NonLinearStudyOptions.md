@@ -48,18 +48,12 @@ property CWNonLinearStudyOptions^ NonLinearStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::NonLinearStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~NonLinearStudyOptions.html)
-
-.
+See [CWStudy::NonLinearStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~NonLinearStudyOptions.html).
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICStudy::SetNonLinearStudyOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~SetNonLinearStudyOptions.html)
 
 ## Availability

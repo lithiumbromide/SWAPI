@@ -52,12 +52,8 @@ property System.String^ ComponentName {
 
 ### Parameters
 
-- `Config`: Name of the configuration in which the component exists or an empty string ("") or an asterisk ("*") (see
-
-Remarks
-
-)
-- `index`: Index number of the component to getParameterDesc
+- `Config`: Name of the configuration in which the component exists or an empty string ("") or an asterisk ("*") (see Remarks)
+- `index`: Index number of the component to get
 
 ### Property Value
 
@@ -65,11 +61,7 @@ Name of the component
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ComponentName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentName.html)
-
-.
+See [EModelViewControl::ComponentName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentName.html).
 
 ## Examples
 
@@ -93,24 +85,18 @@ Passing an:
 - Empty string ("") to Config gets the name of the component at the specified index from the components in the active configuration.
 - Asterisk ("*") to Config gets the name of the component at the specified index from the components in all configurations.
 
-You can also call[IEModelViewControl::ConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationName.html)to get the name of a configuration.
+You can also call [IEModelViewControl::ConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationName.html) to get the name of a configuration.
 
-Before calling this property call[IEModelViewControl::ComponentCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationCount.html)to get a valid value for Index.
+Before calling this property call [IEModelViewControl::ComponentCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationCount.html) to get a valid value for Index.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ComponentConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.html)
-
 [IEModelViewControl::ComponentCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentCount.html)
-
 [IEModelViewControl::ComponentState](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentState.html)
-
 [IEModelViewControl::ComponentTransform](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentTransform.html)
-
 [IEModelViewControl::GetSelectedComponentName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.html)
 
 ## Availability

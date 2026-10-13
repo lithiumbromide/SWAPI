@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Components_Example_VBNET.htm"
 
 # Add Components Example (VB.NET)
 
-This example shows how to add multiple components
-to an assembly.
+This example shows how to add multiple components to an assembly.
 
 ```vb
  '----------------------------------------------------------------------------

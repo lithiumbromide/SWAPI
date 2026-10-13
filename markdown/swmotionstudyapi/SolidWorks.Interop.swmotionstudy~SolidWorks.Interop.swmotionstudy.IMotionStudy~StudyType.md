@@ -47,34 +47,22 @@ property System.int StudyType {
 
 ### Property Value
 
-Study type as defined by
-
-[swMotionStudyType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyType_e.html)
-
-; 0 if not a SOLIDWORKS Motion study
+Study type as defined by [swMotionStudyType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyType_e.html); 0 if not a SOLIDWORKS Motion study
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::StudyType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~StudyType.html)
-
-.
+See [MotionStudy::StudyType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~StudyType.html).
 
 ## Examples
 
 [Create Simulation Gravity Feature (VBA)](Create_Simulation_Gravity_Feature_Example_VB.htm)
-
 [Create Simulation Gravity Feature (VB.NET)](Create_Simulation_Gravity_Feature_Example_VBNET.htm)
-
 [Create Simulation Gravity Feature (C#)](Create_Simulation_Gravity_Feature_Example_CSharp.htm)
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetSupportedStudyTypes Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetSupportedStudyTypes.html)
 
 ## Availability

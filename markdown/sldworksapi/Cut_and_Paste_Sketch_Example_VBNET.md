@@ -9,8 +9,7 @@ source: "sldworksapi/Cut_and_Paste_Sketch_Example_VBNET.htm"
 
 # Cut and Paste Sketch Example (VB.NET)
 
-This example shows how to cut and paste a sketch to and from the Microsoft
-Windows Clipboard.
+This example shows how to cut and paste a sketch to and from the Microsoft Windows Clipboard.
 
 ```
 '----------------------------------------------------------------------

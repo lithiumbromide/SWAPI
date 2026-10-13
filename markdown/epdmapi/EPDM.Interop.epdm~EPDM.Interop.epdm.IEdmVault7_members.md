@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7_members.html"
 
 # IEdmVault7 Interface Members
 
-The following tables list the members exposed by[IEdmVault7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7.html).
+The following tables list the members exposed by [IEdmVault7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmVault7](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmVault7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

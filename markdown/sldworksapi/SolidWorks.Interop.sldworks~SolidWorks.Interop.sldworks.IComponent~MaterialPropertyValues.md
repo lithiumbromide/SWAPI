@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # MaterialPropertyValues Property (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::MaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MaterialPropertyValues.html)
-
-.
+Obsolete. Superseded by [IComponent2::MaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MaterialPropertyValues.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.Object^ MaterialPropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::MaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Component~MaterialPropertyValues.html)
-
-.
+See [Component::MaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Component~MaterialPropertyValues.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

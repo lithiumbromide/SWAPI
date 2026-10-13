@@ -60,38 +60,18 @@ void GetExcitationReverseDirections2(
 
 ### Parameters
 
-- `BDir1`: -1 or true to reverse plane direction 1, 0 or false to not; valid only if BDir1 = -1 in
-
-[ICWBaseExcitation::GetExcitationDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections2.html)
-
-(see
-
-Remarks
-
-)
-- `BDir2`: -1 or true to reverse plane direction 2, 0 or false to not; valid only if BDir2 = -1 in ICWBaseExcitation::GetExcitationDirections2 (see
-
-Remarks
-
-)
-- `BDir3`: -1 or true to reverse plane direction 3, 0 or false to not; valid only if BDir3 = -1 in ICWBaseExcitation::GetExcitationDirections2 (see
-
-Remarks
-
-)
+- `BDir1`: -1 or true to reverse plane direction 1, 0 or false to not; valid only if BDir1 = -1 in [ICWBaseExcitation::GetExcitationDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections2.html) (see **Remarks**)
+- `BDir2`: -1 or true to reverse plane direction 2, 0 or false to not; valid only if BDir2 = -1 in ICWBaseExcitation::GetExcitationDirections2 (see **Remarks**)
+- `BDir3`: -1 or true to reverse plane direction 3, 0 or false to not; valid only if BDir3 = -1 in ICWBaseExcitation::GetExcitationDirections2 (see **Remarks**)
 - `BReversePhaseAngle`: -1 or true to reverse phase angle, 0 or false to not
 
 ## Examples
 
-See the
-
-[ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
-examples.
+See the [ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html) examples.
 
 ## Remarks
 
-For uniform base excitations, this method is valid only if you did not call[ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html)to set the face, edge, or plane in whose direction the excitation is uniformly applied.
+For uniform base excitations, this method is valid only if you did not call [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html) to set the face, edge, or plane in whose direction the excitation is uniformly applied.
 
 This method returns booleans or integers in out parameters BDir1, BDir2, BDir3, and BReversePhaseAngle, depending on their prior declarations.
 
@@ -103,7 +83,6 @@ If out parameters BDir1, BDir2, BDir3, BReversePhaseAngle are cast as:
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

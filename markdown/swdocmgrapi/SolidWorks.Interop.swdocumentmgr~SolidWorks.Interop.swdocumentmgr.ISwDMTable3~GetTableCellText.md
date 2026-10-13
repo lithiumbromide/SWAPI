@@ -57,9 +57,7 @@ System.Object^ GetTableCellText(
 
 ### Parameters
 
-- `Error`: Error as defined by
-
-[SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
+- `Error`: Error as defined by [SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
 - `RowCount`: Number of rows in the table
 - `ColCount`: Number of columns in the table
 
@@ -69,16 +67,11 @@ A 1-dimensional array of strings containing all of the cell text in the table
 
 ## VBA Syntax
 
-See
-
-[SwDMTable3::GetTableCellText](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable3~GetTableCellText.html)
-
-.
+See [SwDMTable3::GetTableCellText](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable3~GetTableCellText.html).
 
 ## Examples
 
 [Get Table Cell Text (C#)](Get_Table_Cell_Text_Example_CSharp.htm)
-
 [Get Table Cell Text (VB.NET)](Get_Table_Cell_Text_Example_VBNET.htm)
 
 ## Remarks
@@ -88,9 +81,7 @@ The returned array is indexed by row count.
 ## See Also
 
 [ISwDMTable3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable3.html)
-
 [ISwDMTable3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable3_members.html)
-
 [ISwDMTable::GetCellText Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~GetCellText.html)
 
 ## Availability

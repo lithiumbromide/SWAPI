@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html"
 
 Monitors the progress of a supported API operation.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,12 +36,11 @@ public interface class IEdmCallback
 ## Examples
 
 [Create Card View (VB.NET)](Create_Card_View_Example_VBNET.htm)
-
 [Create Card View (C#)](Create_Card_View_Example_CSharp.htm)
 
 ## Remarks
 
-This interface inherits from IDispatch. See[IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+This interface inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
 
 This callback interface works only with API methods that provide a poCallback argument. For example:
 
@@ -70,9 +63,6 @@ To use this interface:
 ## See Also
 
 [IEdmCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmFolder5::CreateCardView Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateCardView.html)
-
 [IEdmEnumeratorVariable5::StoreValuesFromDatabase Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~StoreValuesFromDatabase.html)

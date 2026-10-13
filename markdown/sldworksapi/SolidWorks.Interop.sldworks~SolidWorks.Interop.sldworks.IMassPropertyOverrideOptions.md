@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to mass property override options.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,17 @@ public interface class IMassPropertyOverrideOptions
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions.html)
-
-.
+See [MassPropertyOverrideOptions](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions.html).
 
 ## Examples
 
-See the
-
-[IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
-examples.
+See the [IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html) examples.
 
 ## Remarks
 
 Mass property override options are available for only one selected body/component at a time.
 
-For more information, see the**Mass Properties Dialog Box**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Mass Properties Dialog Box** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -72,5 +64,4 @@ For more information, see the**Mass Properties Dialog Box**topic in the SOLIDWOR
 ## See Also
 
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

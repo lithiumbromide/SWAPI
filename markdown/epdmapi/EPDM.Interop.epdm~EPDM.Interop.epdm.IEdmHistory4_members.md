@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members.html"
 
 # IEdmHistory4 Interface Members
 
-The following tables list the members exposed by[IEdmHistory4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html).
+The following tables list the members exposed by [IEdmHistory4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmHistory4](EPDM.Interop.epdm
 ## See Also
 
 [IEdmHistory4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Gets the sketch relation manager.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -44,13 +44,7 @@ property SketchRelationManager^ RelationManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -58,24 +52,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::RelationManager](ms-its:sldworksapivb6.chm::/sldworks~Sketch~RelationManager.html)
-
-.
+See [Sketch::RelationManager](ms-its:sldworksapivb6.chm::/sldworks~Sketch~RelationManager.html).
 
 ## Examples
 
 [Get Sketch Relations (VBA)](Get_Sketch_Relations_Example_VB.htm)
-
 [Get Sketch Relations (VB.NET)](Get_Sketch_Relations_Example_VBNET.htm)
-
 [Get Sketch Relations (C#)](Get_Sketch_Relations_Example_CSharp.htm)
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

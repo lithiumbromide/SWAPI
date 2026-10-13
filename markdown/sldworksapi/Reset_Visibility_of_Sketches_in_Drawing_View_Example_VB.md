@@ -9,8 +9,7 @@ source: "sldworksapi/Reset_Visibility_of_Sketches_in_Drawing_View_Example_VB.htm
 
 # Reset Visibility of Sketches in Drawing View Example (VBA)
 
-This example shows how to reset the visibility of any hidden sketches in a
-drawing view so that the drawing view reflects the model.
+This example shows how to reset the visibility of any hidden sketches in a drawing view so that the drawing view reflects the model.
 
 ```
 '--------------------------------------------------

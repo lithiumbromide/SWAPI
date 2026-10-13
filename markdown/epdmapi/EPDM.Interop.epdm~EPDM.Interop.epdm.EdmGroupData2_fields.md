@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_fields.html"
 
 # EdmGroupData2 Structure Fields
 
-For a list of all members of this type, see[EdmGroupData2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html).
+For a list of all members of this type, see [EdmGroupData2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html).
 
 ## Public Fields
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[EdmGroupData2 members](EPDM.Interop.
 ## See Also
 
 [EdmGroupData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

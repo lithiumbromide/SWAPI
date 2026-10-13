@@ -9,14 +9,9 @@ source: "sldworksapi/Select_Tangent_Edges_Topologically_Example_VB.htm"
 
 # Select Tangent Edges Topologically Example (VBA)
 
-This example shows how to select tangent edges using IEdges::GetTangentEdges,
-which is a precise topological method.
+This example shows how to select tangent edges using IEdges::GetTangentEdges, which is a precise topological method.
 
-**NOTE:**IEdge::GetTangentEdges does not give same results as IModelDoc2::SelectTangency,
-which behaves the same as if selecting tangent edges in the user
-interface. Because the user interface functionality automatically takes into
-account edges that lie on top of each other, IModelDoc2::SelectTangency is
-considered to be imprecise.
+**NOTE:** IEdge::GetTangentEdges does not give same results as IModelDoc2::SelectTangency, which behaves the same as if selecting tangent edges in the user interface. Because the user interface functionality automatically takes into account edges that lie on top of each other, IModelDoc2::SelectTangency is considered to be imprecise.
 
 ```
 '---------------------------------------------------

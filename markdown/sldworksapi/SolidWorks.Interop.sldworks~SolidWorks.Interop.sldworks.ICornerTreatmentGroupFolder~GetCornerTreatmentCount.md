@@ -40,13 +40,7 @@ System.int GetCornerTreatmentCount()
 System.int GetCornerTreatmentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Number of corner treatments
 
 ## VBA Syntax
 
-See
-
-[CornerTreatmentGroupFolder::GetCornerTreatmentCount](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder~GetCornerTreatmentCount.html)
-
-.
+See [CornerTreatmentGroupFolder::GetCornerTreatmentCount](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder~GetCornerTreatmentCount.html).
 
 ## See Also
 
 [ICornerTreatmentGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder.html)
-
 [ICornerTreatmentGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder_members.html)
 
 ## Availability

@@ -47,30 +47,19 @@ property System.int FrequencyCapOption {
 
 ### Property Value
 
-Frequency cap option as defined by
-
-[swsFrequencyCapOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyCapOption_e.html)
+Frequency cap option as defined by [swsFrequencyCapOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyCapOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::FrequencyCapOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FrequencyCapOption.html)
-
-.
+See [CWFrequencyStudyOptions::FrequencyCapOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FrequencyCapOption.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWFrequencyStudyOptions::CheckDecouple](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckDecouple.html)
-
-is set to true.
+This property is valid only if [ICWFrequencyStudyOptions::CheckDecouple](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckDecouple.html) is set to true.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertTableDrivenPattern2 Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html).
 
 ## Syntax
 
@@ -73,19 +63,13 @@ Feature^ InsertTableDrivenPattern2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Name of the file that has the coordinates for the table-driven pattern; can be an empty string (see**Remarks**)
-- `PointVar`: Array of x, y coordinates of the points for the table-driven pattern (see**Remarks**)
-- `UseCentroid`: True to use the centroid of the seed feature, face, or body; false to use a different point as the reference point (see**Remarks**)
+- `FileName`: Name of the file that has the coordinates for the table-driven pattern; can be an empty string (see **Remarks**)
+- `PointVar`: Array of x, y coordinates of the points for the table-driven pattern (see **Remarks**)
+- `UseCentroid`: True to use the centroid of the seed feature, face, or body; false to use a different point as the reference point (see **Remarks**)
 - `GeomPattern`: True to pattern the geometry, false to not
 - `PropVisProps`: True to propagate visual properties, false to not
 
@@ -95,26 +79,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertTableDrivenPattern2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertTableDrivenPattern2.html)
-
-.
+See [FeatureManager::InsertTableDrivenPattern2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertTableDrivenPattern2.html).
 
 ## Remarks
 
 Specify:
 
-- coordinates for the input points in system units in a
-
-  .sldptab
-
-  or
-
-  .txt
-
-  file for FileName.
-
+- coordinates for the input points in system units in a **.sldptab** or **.txt** file for FileName.
   - or -
 - input points in system units in PointVar. Because each point has two coordinates (x, y), the size of PointVar is (2 x number_of_points).
 
@@ -135,7 +106,6 @@ See the SOLIDWORKS Help for more information about table-driven patterns.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

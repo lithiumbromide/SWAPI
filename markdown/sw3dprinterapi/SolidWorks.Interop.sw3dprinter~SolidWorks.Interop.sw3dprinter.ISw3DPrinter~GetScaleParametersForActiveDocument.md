@@ -9,11 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # GetScaleParametersForActiveDocument Method (ISw3DPrinter)
 
-Gets the values by which the document can be scaled. The values appear in the
-
-Scale
-
-box.
+Gets the values by which the document can be scaled. The values appear in the Scale box.
 
 ## Syntax
 
@@ -66,28 +62,21 @@ void GetScaleParametersForActiveDocument(
 
 ## VBA Syntax
 
-See
-
-[Sw3DPrinter::GetScaleParametersForActiveDocument](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~GetScaleParametersForActiveDocument.html)
-
-.
+See [Sw3DPrinter::GetScaleParametersForActiveDocument](ms-its:sw3dprinterapivb6.chm::/sw3dprinter~Sw3DPrinter~GetScaleParametersForActiveDocument.html).
 
 ## Remarks
 
-These values appear in theScalebox.
+These values appear in the Scale box.
 
 This method is called when the user selects the vendor's printer.
 
-When the user selects a printer from the list, that printer’s driver populates the Print dialog with default values. One of values is the scale parameters. For example, aprinter might be able to scale between 10% and 300% in 5% increments. The printer's driver implements this method to return the minimum, maximum, and increment values, and SOLIDWORKS calls this method to return these values for that printer's driver.
+When the user selects a printer from the list, that printer’s driver populates the Print dialog with default values. One of values is the scale parameters. For example, a printer might be able to scale between 10% and 300% in 5% increments. The printer's driver implements this method to return the minimum, maximum, and increment values, and SOLIDWORKS calls this method to return these values for that printer's driver.
 
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [ISw3DPrinter Members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html)
-
 [ISw3DPrinter::GetScale Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetScale.html)
-
 [ISw3DPrinter::SetScale Method](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetScale.html)
 
 ## Availability

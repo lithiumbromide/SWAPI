@@ -47,17 +47,11 @@ System.int IGetEdgeFinsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EdgeObj`: [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)object of which to get the number
+- `EdgeObj`: [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) object of which to get the number
 
 ### Return Value
 
@@ -65,16 +59,11 @@ Number of fins corresponding to the specified edge
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetEdgeFinsCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetEdgeFinsCount.html)
-
-.
+See [Tessellation::IGetEdgeFinsCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetEdgeFinsCount.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

@@ -33,15 +33,11 @@ void CommitUpdates();
 
 ## Examples
 
-See the
-
-[IEdmHistoryUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate.html)
-
-examples.
+See the [IEdmHistoryUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate.html) examples.
 
 ## Remarks
 
-This method must be called after calling[IEdmHistoryUpdate::UpdateVersionComment](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~UpdateVersionComment.html)and[IEdmHistoryUpdate::UpdateRevisionComment](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~UpdateRevisionComment.html), or all updates are discarded.
+This method must be called after calling [IEdmHistoryUpdate::UpdateVersionComment](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~UpdateVersionComment.html) and [IEdmHistoryUpdate::UpdateRevisionComment](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~UpdateRevisionComment.html), or all updates are discarded.
 
 [Return codes](ReturnCodes.htm):
 
@@ -50,7 +46,6 @@ This method must be called after calling[IEdmHistoryUpdate::UpdateVersionComment
 ## See Also
 
 [IEdmHistoryUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate.html)
-
 [IEdmHistoryUpdate Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate_members.html)
 
 ## Availability

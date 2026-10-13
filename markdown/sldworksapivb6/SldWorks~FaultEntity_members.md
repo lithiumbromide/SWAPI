@@ -1,6 +1,5 @@
 ---
-title: "FaultEntity Object
-Members"
+title: "FaultEntity Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FaultEntity_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FaultEntity_members.html"
 ---
 
-# FaultEntity Object
-Members
+# FaultEntity Object Members
 
 ## Public Properties
 

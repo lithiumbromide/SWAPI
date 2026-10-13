@@ -40,13 +40,7 @@ Feature InsertFeatureLock()
 Feature^ InsertFeatureLock();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFeatureLock](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureLock.html)
-
-.
+See [FeatureManager::InsertFeatureLock](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFeatureLock.html).
 
 ## Examples
 
@@ -92,14 +82,12 @@ End Sub
 
 ## Remarks
 
-After calling this method, a temporary freeze bar displays after the feature in the FeatureManager design tree. If you move the freeze bar to the top, the feature unlocks and the freeze bar disappears. To permanently enable the freeze bar, select**Tools > Options > System Options > General > Enable Freeze bar**.
+After calling this method, a temporary freeze bar displays after the feature in the FeatureManager design tree. If you move the freeze bar to the top, the feature unlocks and the freeze bar disappears. To permanently enable the freeze bar, select **Tools > Options > System Options > General > Enable Freeze bar**.
 
-This method is analogous to freezing a feature. For more information, see**SOLIDWORKS user-interface help > Parts and Features > Features > Feature Freeze > Freezing Features**.
+This method is analogous to freezing a feature. For more information, see **SOLIDWORKS Design user-interface help > Parts and Features > Features > Feature Freeze > Freezing Features**.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeature::IsFrozen Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsFrozen.html)

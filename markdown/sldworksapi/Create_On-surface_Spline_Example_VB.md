@@ -11,7 +11,15 @@ source: "sldworksapi/Create_On-surface_Spline_Example_VB.htm"
 
 This example shows how to create a spline constrained to a surface.
 
-'---------------------------------------------------------------------------- ' Preconditions: Open public_documents \samples\tutorial\api\cstick.sldprt. ' ' Postconditions: ' 1. Creates a 3D sketch of a spline on a surface. ' 2. Inspect the graphics area. ' ' NOTE: Because the model is used elsewhere, do not save changes. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions: Open `public_documents`**\samples\tutorial\api\cstick.sldprt.**
+'
+' Postconditions:
+' 1. Creates a 3D sketch of a spline on a surface.
+' 2. Inspect the graphics area.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
 Dim swApp As SldWorks.SldWorks

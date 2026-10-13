@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # UseJacobianCheckForShells Property (ICWMesh)
 
-Obsolete. Superseded by ICWMesh::UseJacobianCheckForShells2.
+Obsolete. Superseded by [ICWMesh::UseJacobianCheckForShells2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForShells2.html).
 
 ## Syntax
 
@@ -51,24 +51,15 @@ property System.int UseJacobianCheckForShells {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::UseJacobianCheckForShells](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~UseJacobianCheckForShells.html)
-
-.
+See [CWMesh::UseJacobianCheckForShells](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~UseJacobianCheckForShells.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::UseJacobianCheckForSolids Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForSolids.html)
-
 [ICWMesh::GetWorstJacobianRatio Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetWorstJacobianRatio.html)
-
 [ICWMesh::JacobianPoints Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~JacobianPoints.html)
-
 [ICWMesh::NegativeJacobianRatioCheck Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NegativeJacobianRatioCheck.html)
 
 ## Availability

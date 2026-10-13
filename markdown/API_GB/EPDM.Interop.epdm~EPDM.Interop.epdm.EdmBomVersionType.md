@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersionType.html"
 
 # EdmBomVersionType Enumeration
 
-Types of content specified in
-
-[EdmBomVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html)
-
-.meType.
+Types of content specified in [EdmBomVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html).meType.
 
 ## Syntax
 

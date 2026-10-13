@@ -42,42 +42,28 @@ property System.double ILineParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to an array of doubles (see**Remarks**)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::ILineParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~ILineParams.html)
-
-.
+See [Curve::ILineParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~ILineParams.html).
 
 ## Remarks
 
 The return value is an array of 6 double values:
 
-[rootPoint.x, rootPoint.y, rootPoint.z, direction.x, direction.y, direction.z]
+[ rootPoint.x, rootPoint.y, rootPoint.z, direction.x, direction.y, direction.z ]
 
-SOLIDWORKS storesrootPointin meters.
+SOLIDWORKS stores rootPoint in meters.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::LineParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~LineParams.html)
-
 [ICurve::IsLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsLine.html)
-
 [ICurve::Identity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~Identity.html)

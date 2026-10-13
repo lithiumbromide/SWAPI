@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html"
 
 # EdmBomColumn Structure Members
 
-The following tables list the members exposed by[EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html).
+The following tables list the members exposed by [EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ The following tables list the members exposed by[EdmBomColumn](EPDM.Interop.epdm
 ## See Also
 
 [EdmBomColumn Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

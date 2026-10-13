@@ -51,32 +51,20 @@ Surface^ ICreateExtrusionSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ProfileCurve`: [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)object
+- `ProfileCurve`: [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) object
 - `AxisDirection`: Array of 3 doubles (x,y,z)
 
 ### Return Value
 
-[ISurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-object
+[ISurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) object
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateExtrusionSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateExtrusionSurface.html)
-
-.
+See [Body2::ICreateExtrusionSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateExtrusionSurface.html).
 
 ## Examples
 
@@ -87,16 +75,14 @@ See
 You can use this method with:
 
 - A set of related functions that construct a body from trimmed surfaces. The profile curve is extruded along the direction vector of axis direction, the new surface being the envelope of the curve. The profile curve must be of type line, circle, or B-spline curve.
-- Trimming curve creation routines (for example[ISurface::IAddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IAddTrimmingLoop2.html)) to construct a trimmed tabulated cylinder.
+- Trimming curve creation routines (for example [ISurface::IAddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IAddTrimmingLoop2.html)) to construct a trimmed tabulated cylinder.
 
 Any existing object created by this method is destroyed if you call this method again.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::CreateExtrusionSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateExtrusionSurface.html)
 
 ## Availability

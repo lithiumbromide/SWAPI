@@ -44,7 +44,6 @@ void AddFile(
 ## Examples
 
 [Update References (C#)](Update_References_Example_CSharp.htm)
-
 [Update References (VB.NET)](Update_References_Example_VBNET.htm)
 
 ## Remarks
@@ -56,7 +55,6 @@ void AddFile(
 ## See Also
 
 [IEdmUpdateReferences Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html)
-
 [IEdmUpdateReferences Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_members.html)
 
 ## Availability

@@ -46,22 +46,12 @@ void ShowUserPopup(
 ### Parameters
 
 - `hParent`: Handle of the parent window
-- `poTrackRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; bounding rectangle of the area in the window that will trigger the mouse hover event
-- `oUserID`: ID, login name, or full name of the user for which to display information in the popup window (see
-
-Remarks
-
-)
+- `poTrackRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; bounding rectangle of the area in the window that will trigger the mouse hover event
+- `oUserID`: ID, login name, or full name of the user for which to display information in the popup window (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html)
-
-examples.
+See the [IEdmUserMgr8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html) examples.
 
 ## Remarks
 
@@ -69,9 +59,9 @@ In the SOLIDWORKS PDM Professional user interface, whenever the mouse hovers ove
 
 If oUserID contains a full name that is not unique, the user to display is randomly selected by the system.
 
-[IEdmUser10::SetUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html)describes how to update the information displayed in the popup window.
+[IEdmUser10::SetUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html) describes how to update the information displayed in the popup window.
 
-Call[IEdmUserMgr8::CreateUserPicture](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~CreateUserPicture.html)if you want to display the picture of a user in a Windows form.
+Call [IEdmUserMgr8::CreateUserPicture](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~CreateUserPicture.html) if you want to display the picture of a user in a Windows form.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -82,7 +72,6 @@ Call[IEdmUserMgr8::CreateUserPicture](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUs
 ## See Also
 
 [IEdmUserMgr8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8.html)
-
 [IEdmUserMgr8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8_members.html)
 
 ## Availability

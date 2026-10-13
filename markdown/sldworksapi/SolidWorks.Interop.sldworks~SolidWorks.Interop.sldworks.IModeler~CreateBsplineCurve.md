@@ -55,45 +55,21 @@ System.Object^ CreateBsplineCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Props`: Array containing 4 integers packed into 2 double elements (see
-
-Remarks
-
-)
-- `Knots`: Array of numKnots doubles (see
-
-Remarks
-
-)
-- `CtrlPtCoords`: Array of NumCtrlPtCoord doubles (see
-
-Remarks
-
-)
+- `Props`: Array containing 4 integers packed into 2 double elements (see **Remarks**)
+- `Knots`: Array of numKnots doubles (see Remarks)
+- `CtrlPtCoords`: Array of NumCtrlPtCoord doubles (see Remarks)
 
 ### Return Value
 
-B-spline
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+B-spline [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateBsplineCurve.html)
-
-.
+See [Modeler::CreateBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateBsplineCurve.html).
 
 ## Remarks
 
@@ -104,8 +80,6 @@ The Props argument contains the following values:
 - NumCtrlPoints
 - Periodicity
 
-(Table)=========================================================
-
 | Length of this array... | Given by... |
 | --- | --- |
 | Knots | numKnots = NumCtrlPoints + Order |
@@ -114,11 +88,7 @@ The Props argument contains the following values:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ICreateBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBsplineCurve.html)
-
 [IBody2::AddProfileBspline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~AddProfileBspline.html)
-
 [IBody2::IAddProfileBspline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IAddProfileBspline.html)

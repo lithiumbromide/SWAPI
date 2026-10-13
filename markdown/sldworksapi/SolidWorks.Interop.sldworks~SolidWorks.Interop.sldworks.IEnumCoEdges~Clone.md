@@ -46,27 +46,15 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ppenum`: Pointer to the cloned
-
-[coedges enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumCoEdges.html)
+- `Ppenum`: Pointer to the cloned [coedges enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumCoEdges.html)
 
 ## VBA Syntax
 
-See
-
-[EnumCoEdges::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumCoEdges~Clone.html)
-
-.
+See [EnumCoEdges::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumCoEdges~Clone.html).
 
 ## Remarks
 
@@ -75,5 +63,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumCoEdges Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges.html)
-
 [IEnumCoEdges Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges_members.html)

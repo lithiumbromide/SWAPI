@@ -35,5 +35,4 @@ System.int mlVersion
 ## See Also
 
 [EdmGetVarData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData.html)
-
 [EdmGetVarData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData_members.html)

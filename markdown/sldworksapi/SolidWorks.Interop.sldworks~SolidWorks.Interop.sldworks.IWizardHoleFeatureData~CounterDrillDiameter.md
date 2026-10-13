@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # CounterDrillDiameter Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::CounterDrillDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~CounterDrillDiameter.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::CounterDrillDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~CounterDrillDiameter.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double CounterDrillDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::CounterDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~CounterDrillDiameter.html)
-
-.
+See [WizardHoleFeatureData::CounterDrillDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~CounterDrillDiameter.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

@@ -53,12 +53,11 @@ void OnUpdateUI(
 
 Some items in the menu might be grayed out or removed due to the currently selected number of files and folders. This method updates the menu based on a new selection of files and folders.
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmMenu5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html)
-
 [IEdmMenu5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5_members.html)
 
 ## Availability

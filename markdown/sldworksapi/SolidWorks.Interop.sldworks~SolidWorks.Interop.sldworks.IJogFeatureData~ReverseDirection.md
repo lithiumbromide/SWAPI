@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True reverses the direction, false does not
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~ReverseDirection.html)
-
-.
+See [JogFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
 
 ## Availability

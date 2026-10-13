@@ -40,13 +40,7 @@ Body2 GetBody()
 Body2^ GetBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Attribute::GetBody](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetBody.html)
-
-.
+See [Attribute::GetBody](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetBody.html).
 
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ModelViewManager Object
-Members"
+title: "ModelViewManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ModelViewManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ModelViewManager_members.html"
 ---
 
-# ModelViewManager Object
-Members
+# ModelViewManager Object Members
 
 ## Public Methods
 

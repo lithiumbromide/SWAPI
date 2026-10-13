@@ -45,36 +45,21 @@ property System.bool UserAssigned {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True if mass property values are user-defined, false if calculated
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[MassProperty::UserAssigned](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~UserAssigned.html)
-
-.
+See [MassProperty::UserAssigned](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~UserAssigned.html).
 
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetAssignedMassProp Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetAssignedMassProp.html)
-
 [IMassProperty::SetAssignedMassProp Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~SetAssignedMassProp.html)
 
 ## Availability

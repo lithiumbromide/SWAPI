@@ -10,14 +10,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 # ICharacteristicsData Interface
 
 Allows access to characteristics data.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +40,7 @@ public interface class ICharacteristicsData
 
 ## VBA Syntax
 
-See
-
-[CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData.html)
-
-.
+See [CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData.html).
 
 ## Remarks
 
@@ -59,9 +48,9 @@ Characteristics are items that have been extracted from the drawing to incorpora
 
 For more information, see:
 
-**SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > Working with Templates > Mapping Characteristic Tokens to Report Templates > Characteristic Tokens**topic.
+**SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > Working with Templates > Mapping Characteristic Tokens to Report Templates > Characteristic Tokens** topic.
 
-**SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Using the Bill of Characteristics**topic**.**
+**SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Using the Bill of Characteristics** topic**.**
 
 ## Accessors
 
@@ -72,5 +61,4 @@ For more information, see:
 ## See Also
 
 [ICharacteristicsData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

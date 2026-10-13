@@ -45,18 +45,13 @@ void InsertRow(
 
 ### Parameters
 
-- `poRow`: [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
-; existing row
-- `eInsertOption`: Where the new BOM row is inserted with respect to poRow as defined in
-
-[EdmBomInsertRowOption](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInsertRowOption.html)
+- `poRow`: [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html); existing row
+- `eInsertOption`: Where the new BOM row is inserted with respect to poRow as defined in [EdmBomInsertRowOption](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInsertRowOption.html)
 - `ppoNewRow`: [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
 
 ## Examples
 
 [Add Row to Bill of Materials (VB.NET)](Add_Row_to_Bill_of_Materials_Example_VBNET.htm)
-
 [Add Row to Bill of Materials (C#)](Add_Row_to_Bill_of_Materials_Example_CSharp.htm)
 
 ## Remarks
@@ -71,7 +66,6 @@ This method is valid only for named BOMs.
 ## See Also
 
 [IEdmBomView2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2.html)
-
 [IEdmBomView2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2_members.html)
 
 ## Availability

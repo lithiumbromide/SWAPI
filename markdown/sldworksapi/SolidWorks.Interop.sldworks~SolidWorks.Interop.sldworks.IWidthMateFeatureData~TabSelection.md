@@ -45,46 +45,27 @@ property System.Object^ TabSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of tab entities (see
-
-Remarks
-
-)
+Array of tab entities (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[WidthMateFeatureData::TabSelection](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~TabSelection.html)
-
-.
+See [WidthMateFeatureData::TabSelection](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~TabSelection.html).
 
 ## Remarks
 
 The tab entities can include:
 
-- Two parallel planar
-
-  [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
+- Two parallel planar [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
 - Two non-parallel planar faces
-- One cylindrical face or
-
-  [axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
+- One cylindrical face or [axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
 
 ## See Also
 
 [IWidthMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData.html)
-
 [IWidthMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData_members.html)
 
 ## Availability

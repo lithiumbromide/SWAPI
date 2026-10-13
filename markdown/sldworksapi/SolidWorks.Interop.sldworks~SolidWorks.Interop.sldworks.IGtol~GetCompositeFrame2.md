@@ -47,13 +47,7 @@ System.bool GetCompositeFrame2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if GTol frame is part of a composite frame, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetCompositeFrame2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetCompositeFrame2.html)
-
-.
+See [Gtol::GetCompositeFrame2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetCompositeFrame2.html).
 
 ## Examples
 
 [Create GTol Composite Frame (VBA)](Create_Gtol_Composite_Frame_Example_VB.htm)
-
 [Create GTol Composite Frame (VB.NET)](Create_Gtol_Composite_Frame_Example_VBNET.htm)
-
 [Create GTol Composite Frame (C#)](Create_Gtol_Composite_Frame_Example_CSharp.htm)
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetCompositeFrame2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetCompositeFrame2.html)
 
 ## Availability

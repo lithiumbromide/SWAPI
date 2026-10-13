@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mlEdmVariabl
 
 # mlEdmVariableFlags Field
 
-Combination of
-
-[EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html)
-
-.
+Combination of [EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlEdmVariableFlags
 ## See Also
 
 [EdmVariableData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
 [EdmVariableData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members.html)

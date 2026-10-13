@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html"
 
 # EdmVariableFlags Enumeration
 
-Flags that set the style of variables used in file and folder data cards.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags that set the style of variables used in file and folder data cards. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -47,11 +43,7 @@ public enum class EdmVariableFlags : public System.Enum
 
 ## Remarks
 
-Used in
-
-[IEdmVariable5::Flags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~Flags.html)
-
-.
+Used in [IEdmVariable5::Flags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~Flags.html).
 
 ## See Also
 

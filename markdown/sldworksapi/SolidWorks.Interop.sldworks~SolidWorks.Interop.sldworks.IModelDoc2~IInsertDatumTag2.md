@@ -40,34 +40,20 @@ DatumTag IInsertDatumTag2()
 DatumTag^ IInsertDatumTag2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Newly created
-
-[datum tag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag.html)
+Newly created [datum tag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IInsertDatumTag2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertDatumTag2.html)
-
-.
+See [ModelDoc2::IInsertDatumTag2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertDatumTag2.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertDatumTag2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertDatumTag2.html)
 
 ## Availability

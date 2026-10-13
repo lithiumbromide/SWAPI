@@ -9,8 +9,7 @@ source: "sldworksapi/Create_PropertyManager_Page_Example_VBNET.htm"
 
 # Create PropertyManager Page Example (VB.NET)
 
-This example shows how to create a PropertyManager
-page that contains these controls:
+This example shows how to create a PropertyManager page that contains these controls:
 
 - ActiveX
 - Bitmap
@@ -26,16 +25,9 @@ page that contains these controls:
 - Slider
 - Tab
 
-This
-example also shows how to handle focus events for these controls.
+This example also shows how to handle focus events for these controls.
 
-NOTE:If the model is an assembly
-that contains multiple components, and you want to allow the user to
-select edges, faces, or vertices, then you must specify swSelectType_e.swSelCOMPSDONTOVERRIDE
-for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters.
-Otherwise, if the user attempts to select an edge, face, or vertex, then the
-entire component might get selected and not the edge, face, or vertex. This
-example demonstrates how to specify SelType.
+NOTE: If the model is an assembly that contains multiple components, and you want to allow the user to select edges, faces, or vertices, then you must specify swSelectType_e.swSelCOMPSDONTOVERRIDE for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters. Otherwise, if the user attempts to select an edge, face, or vertex, then the entire component might get selected and not the edge, face, or vertex. This example demonstrates how to specify SelType.
 
 ```vb
 '----------------------------------------------------------------------------
@@ -43,7 +35,7 @@ example demonstrates how to specify SelType.
  '  1. Create a VB.NET macro.
  '  2. Copy and paste  Main into SolidWorksMacro.vb.
  '  3. Add a class named clsPropMgr and copy and paste  clsPropMgr into that class.
- '  4. Click Project >  kadov_tag{{</spaces>}}Add Reference, browse to install_dir\api\redist\, select
+ '  4. Click Project >  Add Reference, browse to install_dir\api\redist\, select
  '     SolidWorks.Interop.swpublished.dll > OK.
   '  5. Verify that the specified assembly document exists.
  '  6. Modify ClassID and LicenseKey parameters in
@@ -60,7 +52,7 @@ example demonstrates how to specify SelType.
  '  4. Examine the Immediate Window as you use the specified controls.
  '     Note the size of the button at the bottom of the PropertyManager page.
  '  5. Click OK to close the PropertyManager page.
- '  6. Exit SOLIDWORKS.
+ '  6. Exit SOLIDWORKS Design.
  '  7. Change the size of the text and other items on your computer.
  '     For example, in Windows 7:
  '     a. Click Start > Control Panel > Appearance and
@@ -69,16 +61,16 @@ example demonstrates how to specify SelType.
  '     c. Click Apply.
  '     d. Click Log off now.
  '     e. Log back in.
- '  8. Start SOLIDWORKS.
+ '  8. Start SOLIDWORKS Design.
  '  9. Run this macro again and note the size of the button at
  '     the bottom of the PropertyManager page.
  ' 10. Click OK to close the PropertyManager page.
  '
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}NOTES:
- ' *kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}After running this macro, select
- ' kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}Tools > Options > System Options > Stop VSTA debugger
- ' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}on macro exit.
- ' kadov_tag{{<spaces>}} * kadov_tag{{</spaces>}}Because the assembly document is used elsewhere,
+ ' NOTES:
+ ' * After running this macro, select
+ '   Tools > Options > System Options > Stop VSTA debugger
+ '    on macro exit.
+ '  * Because the assembly document is used elsewhere,
  '   do not save any changes.
  '----------------------------------------------------------------------------
   'Main
@@ -86,20 +78,20 @@ Imports SolidWorks.Interop.sldworks
  Imports SolidWorks.Interop.swconst
  Imports System
 Partial Class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Part As ModelDoc2
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public WithEvents pm As clsPropMgr
+    Public Part As ModelDoc2
+     Public WithEvents pm As clsPropMgr
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim openDocErrors As Integer
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim OpenDocWarnings As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.SetUserPreferenceToggle(swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, False)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Part = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\bladed shaft.sldasm", swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", openDocErrors, OpenDocWarnings)
+     Sub main()
+        Dim openDocErrors As Integer
+         Dim OpenDocWarnings As Integer
+        swApp.SetUserPreferenceToggle(swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, False)
+        Part = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\bladed shaft.sldasm", swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", openDocErrors, OpenDocWarnings)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Create a new instance of the PropertyManager class
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm = New clsPropMgr(swApp)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm.Show()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub kadov_tag{{<spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+        'Create a new instance of the PropertyManager class
+         pm = New clsPropMgr(swApp)
+         pm.Show()
+    End Sub
+    Public swApp As SldWorks
 End Class
 ```
 
@@ -117,8 +109,8 @@ End Class
  <ComVisibleAttribute(True)> _
  Public Class clsPropMgr
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Implements PropertyManagerPage2Handler9
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swApp As SldWorks
+    Implements PropertyManagerPage2Handler9
+    Dim swApp As SldWorks
      'Control objects required for the PropertyManager page
      Dim pm_Page As PropertyManagerPage2
      Dim pm_Group As PropertyManagerPageGroup
@@ -154,39 +146,39 @@ kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim swApp As SldWorks
      Const BitmapID As Integer = 14
      Const ActiveXID As Integer = 15
 
-     kadov_tag{{</spaces>}}Dim ClickedCancel As Boolean
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim retVal As Integer
+     Dim ClickedCancel As Boolean
+     Dim retVal As Integer
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub Show()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm_Page.Show2(0)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+     Sub Show()
+        pm_Page.Show2(0)
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}'Run when a new instance
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}'of the class is created
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub New(ByVal swApp As SldWorks)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim PageTitle As String
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim caption As String
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim tip As String
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim options As Integer
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim longerrors As Integer
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim controlType As Integer
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim alignment As Integer
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim listItems(3) As String
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Set the variables for the page
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}PageTitle = "Comps"
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}options = swPropertyManagerButtonTypes_e.swPropertyManager_OkayButton _
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}+ swPropertyManagerButtonTypes_e.swPropertyManager_CancelButton _
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}+ swPropertyManagerPageOptions_e.swPropertyManagerOptions_LockedPage _
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}+ swPropertyManagerPageOptions_e.swPropertyManagerOptions_PushpinButton
+    'Run when a new instance
+     'of the class is created
+     Public Sub New(ByVal swApp As SldWorks)
+        Dim PageTitle As String
+         Dim caption As String
+         Dim tip As String
+         Dim options As Integer
+         Dim longerrors As Integer
+         Dim controlType As Integer
+         Dim alignment As Integer
+         Dim listItems(3) As String
+        'Set the variables for the page
+         PageTitle = "Comps"
+        options = swPropertyManagerButtonTypes_e.swPropertyManager_OkayButton _
+             + swPropertyManagerButtonTypes_e.swPropertyManager_CancelButton _
+             + swPropertyManagerPageOptions_e.swPropertyManagerOptions_LockedPage _
+             + swPropertyManagerPageOptions_e.swPropertyManagerOptions_PushpinButton
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Create the PropertyManager page
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm_Page = CType(swApp.CreatePropertyManagerPage(PageTitle, _
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}options, Me, longerrors), PropertyManagerPage2)
+        'Create the PropertyManager page
+         pm_Page = CType(swApp.CreatePropertyManagerPage(PageTitle, _
+             options, Me, longerrors), PropertyManagerPage2)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Make sure that the page was created properly
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If longerrors = swPropertyManagerPageStatus_e.swPropertyManagerPage_Okay Then
+        'Make sure that the page was created properly
+         If longerrors = swPropertyManagerPageStatus_e.swPropertyManagerPage_Okay Then
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add the controls to the page
+            'Add the controls to the page
              'Add a tab
              pm_Tab = pm_Page.AddTab(TabID, "Application", "", 0)
 
@@ -196,75 +188,75 @@ kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add the controls to the 
                  swAddGroupBoxOptions_e.swGroupBoxOptions_Expanded
              pm_Group = pm_Tab.AddGroupBox(GroupID, caption, options)
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add two selection boxes
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}controlType = swPropertyManagerPageControlType_e.swControlType_Selectionbox
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}caption = "" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}' No caption for selection boxes
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}options = swAddControlOptions_e.swControlOptions_Visible + _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swAddControlOptions_e.swControlOptions_Enabled
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}tip = "Select an edge, face, vertex, solid body, or a component"
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection = pm_Group.AddControl2(SelectionID, _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}controlType, caption, alignment, options, tip)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection2 = pm_Group.AddControl2(Selection2ID, _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}controlType, caption, alignment, options, tip)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Dim filters(6) As swSelectType_e
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(0) = swSelectType_e.swSelEDGES
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(1) = swSelectType_e.swSelREFEDGES
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(2) = swSelectType_e.swSelFACES
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(3) = swSelectType_e.swSelVERTICES
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(4) = swSelectType_e.swSelSOLIDBODIES
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(5) = swSelectType_e.swSelCOMPONENTS
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filters(6) = swSelectType_e.swSelCOMPSDONTOVERRIDE
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Dim filterObj As Object
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}filterObj = filters
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection.SingleEntityOnly = False
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection.AllowMultipleSelectOfSameEntity = True
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection.Height = 50
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection.SetSelectionFilters(filterObj)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection2.SingleEntityOnly = False
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection2.AllowMultipleSelectOfSameEntity = True
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection2.Height = 50
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Selection2.SetSelectionFilters(filterObj)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add a combo box
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}controlType = swPropertyManagerPageControlType_e.swControlType_Combobox
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}caption = ""
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}options = swAddControlOptions_e.swControlOptions_Visible + _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swAddControlOptions_e.swControlOptions_Enabled
+            'Add two selection boxes
+             controlType = swPropertyManagerPageControlType_e.swControlType_Selectionbox
+             caption = ""  ' No caption for selection boxes
+             alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
+             options = swAddControlOptions_e.swControlOptions_Visible + _
+                 swAddControlOptions_e.swControlOptions_Enabled
+             tip = "Select an edge, face, vertex, solid body, or a component"
+             pm_Selection = pm_Group.AddControl2(SelectionID, _
+                 controlType, caption, alignment, options, tip)
+             pm_Selection2 = pm_Group.AddControl2(Selection2ID, _
+                 controlType, caption, alignment, options, tip)
+             Dim filters(6) As swSelectType_e
+             filters(0) = swSelectType_e.swSelEDGES
+             filters(1) = swSelectType_e.swSelREFEDGES
+             filters(2) = swSelectType_e.swSelFACES
+             filters(3) = swSelectType_e.swSelVERTICES
+             filters(4) = swSelectType_e.swSelSOLIDBODIES
+             filters(5) = swSelectType_e.swSelCOMPONENTS
+             filters(6) = swSelectType_e.swSelCOMPSDONTOVERRIDE
+             Dim filterObj As Object
+            filterObj = filters
+             pm_Selection.SingleEntityOnly = False
+             pm_Selection.AllowMultipleSelectOfSameEntity = True
+             pm_Selection.Height = 50
+             pm_Selection.SetSelectionFilters(filterObj)
+             pm_Selection2.SingleEntityOnly = False
+             pm_Selection2.AllowMultipleSelectOfSameEntity = True
+             pm_Selection2.Height = 50
+             pm_Selection2.SetSelectionFilters(filterObj)
+            'Add a combo box
+             controlType = swPropertyManagerPageControlType_e.swControlType_Combobox
+             caption = ""
+             alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
+             options = swAddControlOptions_e.swControlOptions_Visible + _
+                 swAddControlOptions_e.swControlOptions_Enabled
 
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}tip = "Select a value"
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_Combo = pm_Group.AddControl2(ComboID, _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}controlType, caption, alignment, options, tip)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If Not pm_Combo Is Nothing Then
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_Combo.Height = 50
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(0) = "Value 1"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(1) = "Value 2"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(2) = "Value 3"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(3) = "Value 4"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_Combo.AddItems(listItems)
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_Combo.CurrentSelection = 0
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
+             tip = "Select a value"
+             pm_Combo = pm_Group.AddControl2(ComboID, _
+                 controlType, caption, alignment, options, tip)
+             If Not pm_Combo Is Nothing Then
+                 pm_Combo.Height = 50
+                 listItems(0) = "Value 1"
+                 listItems(1) = "Value 2"
+                 listItems(2) = "Value 3"
+                 listItems(3) = "Value 4"
+                 pm_Combo.AddItems(listItems)
+                 pm_Combo.CurrentSelection = 0
+            End If
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add a list box
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}controlType = swPropertyManagerPageControlType_e.swControlType_Listbox
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}caption = ""
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}options = swAddControlOptions_e.swControlOptions_Visible + _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swAddControlOptions_e.swControlOptions_Enabled
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}tip = "Multi-select values in the list box"
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_List = pm_Group.AddControl2(ListID, _
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}controlType, caption, alignment, options, tip)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_List.Style = swPropMgrPageListBoxStyle_e.swPropMgrPageListBoxStyle_MultipleItemSelect
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm_List.Height = 50
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If Not pm_List Is Nothing Then
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_List.Height = 50
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(0) = "Value 1"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(1) = "Value 2"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(2) = "Value 3"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}listItems(3) = "Value 4"
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_List.AddItems(listItems)
- kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}pm_List.SetSelectedItem(1, True)
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
+            'Add a list box
+             controlType = swPropertyManagerPageControlType_e.swControlType_Listbox
+             caption = ""
+             alignment = swPropertyManagerPageControlLeftAlign_e.swControlAlign_Indent
+             options = swAddControlOptions_e.swControlOptions_Visible + _
+                 swAddControlOptions_e.swControlOptions_Enabled
+             tip = "Multi-select values in the list box"
+             pm_List = pm_Group.AddControl2(ListID, _
+                 controlType, caption, alignment, options, tip)
+             pm_List.Style = swPropMgrPageListBoxStyle_e.swPropMgrPageListBoxStyle_MultipleItemSelect
+             pm_List.Height = 50
+             If Not pm_List Is Nothing Then
+                 pm_List.Height = 50
+                 listItems(0) = "Value 1"
+                 listItems(1) = "Value 2"
+                 listItems(2) = "Value 3"
+                 listItems(3) = "Value 4"
+                 pm_List.AddItems(listItems)
+                 pm_List.SetSelectedItem(1, True)
+             End If
 
              'Add a label
              pm_Label = pm_Group.AddControl2(LabelID, swPropertyManagerPageControlType_e.swControlType_Label, "Label", swPropertyManagerPageControlLeftAlign_e.swControlAlign_LeftEdge, options, "")
@@ -309,133 +301,133 @@ kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Add a list box
 ```
 
 ```vb
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Else kadov_tag{{<spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MsgBox("An error occurred while attempting to create the PropertyManager Page", vbCritical)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+        Else
+            MsgBox("An error occurred while attempting to create the PropertyManager Page", vbCritical)
+        End If
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub AfterActivation() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.AfterActivation
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub AfterActivation() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.AfterActivation
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub AfterClose() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.AfterClose
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub AfterClose() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.AfterClose
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnActiveXControlCreated(ByVal Id As Integer, ByVal Status As Boolean) As Integer Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnActiveXControlCreated
+    Public Function OnActiveXControlCreated(ByVal Id As Integer, ByVal Status As Boolean) As Integer Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnActiveXControlCreated
          Debug.Print("ActiveX control created")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnButtonPress(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnButtonPress
+    Public Sub OnButtonPress(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnButtonPress
          Debug.Print("Button clicked")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnCheckboxCheck(ByVal Id As Integer, ByVal Checked As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnCheckboxCheck
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnCheckboxCheck(ByVal Id As Integer, ByVal Checked As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnCheckboxCheck
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnClose(ByVal Reason As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnClose
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Reason = swPropertyManagerPageCloseReasons_e.swPropertyManagerPageClose_Cancel Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Cancel button clicked
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ClickedCancel = True
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ElseIf Reason = swPropertyManagerPageCloseReasons_e.swPropertyManagerPageClose_Okay Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'OK button clicked
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ClickedCancel = False
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnClose(ByVal Reason As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnClose
+        If Reason = swPropertyManagerPageCloseReasons_e.swPropertyManagerPageClose_Cancel Then
+            'Cancel button clicked
+            ClickedCancel = True
+        ElseIf Reason = swPropertyManagerPageCloseReasons_e.swPropertyManagerPageClose_Okay Then
+            'OK button clicked
+            ClickedCancel = False
+        End If
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnComboboxEditChanged(ByVal Id As Integer, ByVal Text As String) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnComboboxEditChanged
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnComboboxEditChanged(ByVal Id As Integer, ByVal Text As String) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnComboboxEditChanged
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnComboboxSelectionChanged(ByVal Id As Integer, ByVal Item As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnComboboxSelectionChanged
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnComboboxSelectionChanged(ByVal Id As Integer, ByVal Item As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnComboboxSelectionChanged
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnGainedFocus(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGainedFocus
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim varArray As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Control box " & Id & " gained focus")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}varArray = pm_List.GetSelectedItems
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm_Combo.CurrentSelection = varArray(0)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnGainedFocus(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGainedFocus
+        Dim varArray As Object
+        Debug.Print("Control box " & Id & " gained focus")
+        varArray = pm_List.GetSelectedItems
+        pm_Combo.CurrentSelection = varArray(0)
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnGroupCheck(ByVal Id As Integer, ByVal Checked As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGroupCheck
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnGroupCheck(ByVal Id As Integer, ByVal Checked As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGroupCheck
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnGroupExpand(ByVal Id As Integer, ByVal Expanded As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGroupExpand
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnGroupExpand(ByVal Id As Integer, ByVal Expanded As Boolean) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnGroupExpand
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnHelp() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnHelp
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnHelp() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnHelp
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnKeystroke(ByVal Wparam As Integer, ByVal Message As Integer, ByVal Lparam As Integer, ByVal Id As Integer) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnKeystroke
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnKeystroke(ByVal Wparam As Integer, ByVal Message As Integer, ByVal Lparam As Integer, ByVal Id As Integer) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnKeystroke
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnListboxSelectionChanged(ByVal Id As Integer, ByVal Item As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnListboxSelectionChanged
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnListboxSelectionChanged(ByVal Id As Integer, ByVal Item As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnListboxSelectionChanged
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnLostFocus(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnLostFocus
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Control box " & Id & " lost focus")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnLostFocus(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnLostFocus
+        Debug.Print("Control box " & Id & " lost focus")
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnNextPage() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnNextPage
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnNextPage() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnNextPage
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnNumberboxChanged(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnNumberboxChanged
+    Public Sub OnNumberboxChanged(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnNumberboxChanged
          Debug.Print("Number box changed")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnOptionCheck(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnOptionCheck
+    Public Sub OnOptionCheck(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnOptionCheck
          Debug.Print ("Option selected")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnPopupMenuItem(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPopupMenuItem
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnPopupMenuItem(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPopupMenuItem
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnPopupMenuItemUpdate(ByVal Id As Integer, ByRef retval As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPopupMenuItemUpdate
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnPopupMenuItemUpdate(ByVal Id As Integer, ByRef retval As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPopupMenuItemUpdate
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnPreview() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPreview
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnPreview() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPreview
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnPreviousPage() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPreviousPage
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnPreviousPage() As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnPreviousPage
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnRedo() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnRedo
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnRedo() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnRedo
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSelectionboxCalloutCreated(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxCalloutCreated
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnSelectionboxCalloutCreated(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxCalloutCreated
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSelectionboxCalloutDestroyed(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxCalloutDestroyed
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnSelectionboxCalloutDestroyed(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxCalloutDestroyed
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSelectionboxFocusChanged(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxFocusChanged
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("The focus moved to selection box " & Id)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnSelectionboxFocusChanged(ByVal Id As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxFocusChanged
+        Debug.Print("The focus moved to selection box " & Id)
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSelectionboxListChanged(ByVal Id As Integer, ByVal Count As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxListChanged
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}pm_Page.SetCursor(swPropertyManagerPageCursors_e.swPropertyManagerPageCursors_Advance)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("The list in selection box " & Id & " changed")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnSelectionboxListChanged(ByVal Id As Integer, ByVal Count As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSelectionboxListChanged
+        pm_Page.SetCursor(swPropertyManagerPageCursors_e.swPropertyManagerPageCursors_Advance)
+        Debug.Print("The list in selection box " & Id & " changed")
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSliderPositionChanged(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSliderPositionChanged
+    Public Sub OnSliderPositionChanged(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSliderPositionChanged
          Debug.Print("Slider position changed")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnSliderTrackingCompleted(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSliderTrackingCompleted
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnSliderTrackingCompleted(ByVal Id As Integer, ByVal Value As Double) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSliderTrackingCompleted
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnSubmitSelection(ByVal Id As Integer, ByVal Selection As Object, ByVal SelType As Integer, ByRef ItemText As String) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSubmitSelection
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Return True
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnSubmitSelection(ByVal Id As Integer, ByVal Selection As Object, ByVal SelType As Integer, ByRef ItemText As String) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnSubmitSelection
+        Return True
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Function OnTabClicked(ByVal Id As Integer) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnTabClicked
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Public Function OnTabClicked(ByVal Id As Integer) As Boolean Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnTabClicked
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnTextboxChanged(ByVal Id As Integer, ByVal Text As String) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnTextboxChanged
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnTextboxChanged(ByVal Id As Integer, ByVal Text As String) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnTextboxChanged
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnUndo() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnUndo
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnUndo() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnUndo
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub OnWhatsNew() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnWhatsNew
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Public Sub OnWhatsNew() Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnWhatsNew
+    End Sub
 
     Public Sub OnListBoxRMBUp(ByVal Id As Integer, ByVal posX As Integer, ByVal posY As Integer) Implements SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnListboxRMBUp
     End Sub

@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMassConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~BeginEdit.html)
-
-.
+See [CWTopologyMassConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
-example.
+See the [ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html) example.
 
 ## Remarks
 
-To finish editing this mass constraint, call
-
-[ICWTopologyMassConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~EndEdit.html)
-
-.
+To finish editing this mass constraint, call [ICWTopologyMassConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyMassConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
 [ICWTopologyMassConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint_members.html)
 
 ## Availability

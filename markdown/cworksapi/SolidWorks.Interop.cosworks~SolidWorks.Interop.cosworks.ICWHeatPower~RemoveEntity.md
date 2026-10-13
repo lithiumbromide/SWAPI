@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # RemoveEntity Method (ICWHeatPower)
 
-Removes the entity at the specifiedkadov_tag{{</spaces>}}index to which to apply heat power.
+Removes the entity at the specified index to which to apply heat power.
 
 ## Syntax
 
@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~RemoveEntity.html)
-
-.
+See [CWHeatPower::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~RemoveEntity.html).
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~InsertEntity.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.int ProfileMirrorType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Axis about which to flip this member profile as defined by
-
-[swStructureProfileMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfileMirrorType_e.html)
+Axis about which to flip this member profile as defined by [swStructureProfileMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfileMirrorType_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::ProfileMirrorType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileMirrorType.html)
-
-.
+See [StructureSystemMemberProfile::ProfileMirrorType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileMirrorType.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IStructureSystemMemberProfile::MirrorProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~MirrorProfile.html)
-
-is true.
+This property is valid only if [IStructureSystemMemberProfile::MirrorProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~MirrorProfile.html) is true.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

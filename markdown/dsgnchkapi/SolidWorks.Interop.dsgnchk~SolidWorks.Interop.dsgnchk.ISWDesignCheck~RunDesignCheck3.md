@@ -9,11 +9,7 @@ source: "dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDes
 
 # RunDesignCheck3 Method (ISWDesignCheck)
 
-Obsolete. Superseded by
-
-[ISWDesignCheck::RunDesignCheck4](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.ISWDesignCheck~RunDesignCheck4.html)
-
-.
+Obsolete. Superseded by [ISWDesignCheck::RunDesignCheck4](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.ISWDesignCheck~RunDesignCheck4.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void RunDesignCheck3(
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::RunDesignCheck3](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck3.html)
-
-.
+See [SWDesignCheck::RunDesignCheck3](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck3.html).
 
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)

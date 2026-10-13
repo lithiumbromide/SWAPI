@@ -9,17 +9,16 @@ source: "sldworksapi/Fire_Events_for_External_Output_Time_Step_Changes_Example_V
 
 # Fire Events for External Output Time Step Changes Example (VBA)
 
-This example shows how to listen and catch events for external force and
-motor output time step changes.
+This example shows how to listen and catch events for external force and motor output time step changes.
 
 ```
 '---------------------------------------------------------------------
 ' Preconditions:
-' 1. Start SOLIDWORKS Premium, which includes SOLIDWORKS Motion.
+' 1. Start SOLIDWORKS Design Premium, which includes SOLIDWORKS Motion.
 ' 2. Verify that the c:\temp folder exists.
-' 3. In SOLIDWORKS:
+' 3. In SOLIDWORKS Design:
 '    a. Start the SOLIDWORKS Motion Study add-in (in
-'       SOLIDWORKS, click Tools > Add-Ins > SOLIDWORKS Motion).
+'       SOLIDWORKS Design, click Tools > Add-Ins > SOLIDWORKS Motion).
 '    b. Open public_documents\samples\tutorial\api\simple-block.sldasm.
 '    c. Click MotionStudy1 and select Motion Analysis in the
 '       Type of Study list at the upper-left corner of the

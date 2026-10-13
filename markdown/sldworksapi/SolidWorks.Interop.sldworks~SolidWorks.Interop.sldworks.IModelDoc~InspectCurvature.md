@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InspectCurvature Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InspectCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InspectCurvature.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InspectCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InspectCurvature.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void InspectCurvature()
 void InspectCurvature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InspectCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InspectCurvature.html)
-
-.
+See [ModelDoc::InspectCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InspectCurvature.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

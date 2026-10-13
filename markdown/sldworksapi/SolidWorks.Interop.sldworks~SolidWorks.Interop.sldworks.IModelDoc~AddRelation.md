@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddRelation Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddRelation.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddRelation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddRelation.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void AddRelation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AddRelation](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddRelation.html)
-
-.
+See [ModelDoc::AddRelation](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddRelation.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -39,34 +39,20 @@ void EditRollback()
 void EditRollback();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PartDoc::EditRollback](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EditRollback.html)
-
-.
+See [PartDoc::EditRollback](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EditRollback.html).
 
 ## Examples
 
 [Move Rollback Bar Using Feature (C#)](Move_Rollback_Bar_Using_Feature_Example_CSharp.htm)
-
 [Move Rollback Bar Using Feature (VB.NET)](Move_Rollback_Bar_Using_Feature_Example_VBNET.htm)
-
 [Move Rollback Bar Using Feature (VBA)](Move_Rollback_Bar_Using_Feature_Example_VB.htm)
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IFeatureManager::EditRollback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~EditRollback.html)

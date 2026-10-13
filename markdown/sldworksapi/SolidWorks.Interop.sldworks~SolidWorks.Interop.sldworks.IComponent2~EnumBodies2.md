@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # EnumBodies2 Method (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::EnumBodies3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~EnumBodies3.html)
-
-.
+Obsolete. Superseded by [IComponent2::EnumBodies3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~EnumBodies3.html).
 
 ## Syntax
 
@@ -51,17 +47,11 @@ EnumBodies2^ EnumBodies2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodyType`: Type of body as defined by[swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
+- `BodyType`: Type of body as defined by [swBodyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyType_e.html)
 
 ### Return Value
 
@@ -69,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component2::EnumBodies2](ms-its:sldworksapivb6.chm::/sldworks~Component2~EnumBodies2.html)
-
-.
+See [Component2::EnumBodies2](ms-its:sldworksapivb6.chm::/sldworks~Component2~EnumBodies2.html).
 
 ## Remarks
 
@@ -84,13 +70,9 @@ The difference between this method and the now obsolete IComponent2::EnumBodies 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetBodies3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBodies3.html)
-
 [IComponent2::GetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBody.html)
-
 [IComponent2::IGetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetBody.html)
 
 ## Availability

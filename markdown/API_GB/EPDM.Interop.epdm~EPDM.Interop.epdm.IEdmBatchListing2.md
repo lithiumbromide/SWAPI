@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html"
 
 Allows you to create a listing of various file or folder properties and specify from which configuration file the variables should be read.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmBatchListing2 : public IEdmBatchListing
 
 This interface:
 
-- extends
-
-  [IEdmBatchListing](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
-  .
-- is extended by
-
-  [IEdmBatchListing3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html)
-
-  .
+- extends [IEdmBatchListing](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html).
+- is extended by [IEdmBatchListing3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html).
 
 ## See Also
 
 [IEdmBatchListing2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

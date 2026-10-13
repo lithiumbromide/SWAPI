@@ -82,22 +82,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertPlaneFeature::GetNominalPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPlaneFeature~GetNominalPlane.html)
-
-.
+See [DimXpertPlaneFeature::GetNominalPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPlaneFeature~GetNominalPlane.html).
 
 ## Examples
 
 [Get DimXpert Feature Example (VBA)](Get_DimXpert_Feature_Example_VB.htm)
-
 [Get DimXpert Feature Example (VB.NET)](Get_DimXpert_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertPlaneFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPlaneFeature.html)
-
 [IDimXpertPlaneFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPlaneFeature_members.html)
 
 ## Availability

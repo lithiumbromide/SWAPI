@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5_members.html
 
 # IEdmDictionary5 Interface Members
 
-The following tables list the members exposed by[IEdmDictionary5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html).
+The following tables list the members exposed by [IEdmDictionary5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html).
 
 ## Public Methods
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[IEdmDictionary5](EPDM.Interop.e
 ## See Also
 
 [IEdmDictionary5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

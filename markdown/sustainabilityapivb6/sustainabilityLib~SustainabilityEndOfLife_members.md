@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityEndOfLife Object
-Members"
+title: "SustainabilityEndOfLife Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityEndOfLife_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityEndOfLife_members.html"
 ---
 
-# SustainabilityEndOfLife Object
-Members
+# SustainabilityEndOfLife Object Members
 
 ## Public Properties
 

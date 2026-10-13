@@ -11,7 +11,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 Allows access to a Physical Simulation motion study's properties.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IPhysicalSimulationMotionStudyProperties
 
 ## VBA Syntax
 
-See
-
-[PhysicalSimulationMotionStudyProperties](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~PhysicalSimulationMotionStudyProperties.html)
-
-.
+See [PhysicalSimulationMotionStudyProperties](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~PhysicalSimulationMotionStudyProperties.html).
 
 ## Accessors
 
@@ -54,13 +50,8 @@ See
 ## See Also
 
 [IPhysicalSimulationMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties_members.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)
-
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties.html)
-
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)

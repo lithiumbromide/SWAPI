@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ISelectByRay Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ISelectByRay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISelectByRay.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ISelectByRay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISelectByRay.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.bool ISelectByRay(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ISelectByRay](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISelectByRay.html)
-
-.
+See [ModelDoc::ISelectByRay](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISelectByRay.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

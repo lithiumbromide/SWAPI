@@ -59,13 +59,7 @@ System.bool SetSunLightAdvancedPropertyValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,30 +74,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetSunLightAdvancedPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSunLightAdvancedPropertyValues.html)
-
-.
+See [ModelDocExtension::SetSunLightAdvancedPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSunLightAdvancedPropertyValues.html).
 
 ## Remarks
 
-After calling this method, call
-
-[IModelDocExtension::UpdateSunLight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateSunLight.html)
-
-.
+After calling this method, call [IModelDocExtension::UpdateSunLight](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateSunLight.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetSunLightAdvancedPropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSunLightAdvancedPropertyValues.html)
-
 [IModelDocExtension::SetSunLightSourcePropertyValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetSunLightSourcePropertyValues.html)
-
 [IModelDocExtension::SunLightInformation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SunLightInformation.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "IPMIDatumTarget Object
-Members"
+title: "IPMIDatumTarget Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIDatumTarget_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIDatumTarget_members.html"
 ---
 
-# IPMIDatumTarget Object
-Members
+# IPMIDatumTarget Object Members
 
 ## Public Methods
 

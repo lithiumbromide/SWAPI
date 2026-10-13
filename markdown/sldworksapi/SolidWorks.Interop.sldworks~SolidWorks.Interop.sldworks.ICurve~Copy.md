@@ -40,13 +40,7 @@ System.object Copy()
 System.Object^ Copy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ Copied curve
 
 ## VBA Syntax
 
-See
-
-[Curve::Copy](ms-its:sldworksapivb6.chm::/sldworks~Curve~Copy.html)
-
-.
+See [Curve::Copy](ms-its:sldworksapivb6.chm::/sldworks~Curve~Copy.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::ICopy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ICopy.html)

@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~BeginEdit.html)
-
-.
+See [CWTopologyThicknessControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-example.
+See the [ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html) example.
 
 ## Remarks
 
-To finish editing this thickness control, call
-
-[ICWTopologyThicknessControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~EndEdit.html)
-
-.
+To finish editing this thickness control, call [ICWTopologyThicknessControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
 
 ## Availability

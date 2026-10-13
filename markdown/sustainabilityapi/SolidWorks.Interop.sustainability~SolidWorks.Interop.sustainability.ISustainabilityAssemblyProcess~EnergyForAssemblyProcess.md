@@ -51,24 +51,15 @@ True if energy is required to create this assembly, false if not
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess::EnergyForAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~EnergyForAssemblyProcess.html)
-
-.
+See [SustainabilityAssemblyProcess::EnergyForAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~EnergyForAssemblyProcess.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
-.
+See the examples in [ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html).
 
 ## See Also
 
 [ISustainabilityAssemblyProcess Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
 
 ## Availability

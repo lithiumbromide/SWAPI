@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Table_Anchor_of_Hole_Table_Example_VB.htm"
 
 # Get and Set Table Anchor of Hole Table Example (VBA)
 
-This example shows how to get and set the table anchor of a hole table in a
-drawing.
+This example shows how to get and set the table anchor of a hole table in a drawing.
 
 ```
 '-----------------------------------------------------------------

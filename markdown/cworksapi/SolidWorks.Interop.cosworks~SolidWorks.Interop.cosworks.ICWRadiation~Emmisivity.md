@@ -51,24 +51,15 @@ Emissivity
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::Emmisivity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~Emmisivity.html)
-
-.
+See [CWRadiation::Emmisivity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~Emmisivity.html).
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

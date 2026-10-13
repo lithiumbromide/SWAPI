@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IBody2 Interface Properties
 
-For a list of all members of this type, see[IBody2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html).
+For a list of all members of this type, see [IBody2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html).
 
 ## Public Properties
 
@@ -31,7 +31,5 @@ For a list of all members of this type, see[IBody2 members](SolidWorks.Interop.s
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IEnumBodies2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html)

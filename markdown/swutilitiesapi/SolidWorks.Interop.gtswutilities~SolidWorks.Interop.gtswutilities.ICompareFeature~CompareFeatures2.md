@@ -81,28 +81,18 @@ System.int CompareFeatures2(
 - `refconfig`: Name of the reference part's configuration; if blank, then the active configuration is used
 - `modfile`: Path and filename of the SOLIDWORKS document containing the modified part
 - `modconfig`: Name of modified part's configuration
-- `lOptions`: Display the results or save the results to a report as defined by
-
-[gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
+- `lOptions`: Display the results or save the results to a report as defined by [gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
 - `reportname`: Path where to save the results report
 - `vtAddToBinderOption`: True to add the results report to the Design Binder, false to not
 - `vtOverwrite`: True to overwrite an existing results report of the same name, false to not
 
-ParamDesc
-
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareFeature::CompareFeatures2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~CompareFeatures2.html)
-
-.
+See [ICompareFeature::CompareFeatures2](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~CompareFeatures2.html).
 
 ## Examples
 
@@ -111,7 +101,6 @@ See
 ## See Also
 
 [ICompareFeature Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature.html)
-
 [ICompareFeature Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature_members.html)
 
 ## Availability

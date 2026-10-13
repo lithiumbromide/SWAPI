@@ -42,30 +42,20 @@ System.Object^ GetFeatures();
 
 ### Return Value
 
-Array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
-
-s
+Array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetFeatures.html)
-
-.
+See [DimXpertPart::GetFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetFeatures.html).
 
 ## Examples
 
 [Get DimXpert Feature (VBA)](Get_DimXpert_Feature_Example_VB.htm)
-
 [Get DimXpert Feature (VB.NET)](Get_DimXpert_Feature_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

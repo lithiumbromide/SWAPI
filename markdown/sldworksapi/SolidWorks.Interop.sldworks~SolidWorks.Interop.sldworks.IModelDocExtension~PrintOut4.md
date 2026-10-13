@@ -54,48 +54,22 @@ void PrintOut4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Printer`: Name of the printer to which to print (see
-
-Remarks
-
-)
-- `PrintFileName`: Name of file to which to print (see
-
-Remarks
-
-)
-- `PrintSpecification`: [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-(see
-
-Remarks
-
-)
+- `Printer`: Name of the printer to which to print (see **Remarks**)
+- `PrintFileName`: Name of file to which to print (see **Remarks**)
+- `PrintSpecification`: [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::PrintOut4](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~PrintOut4.html)
-
-.
+See [ModelDocExtension::PrintOut4](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~PrintOut4.html).
 
 ## Examples
 
 [Print Drawing (VBA)](Print_Drawing_as_High_Quality_Example_VB.htm)
-
 [Print Drawing (VB.NET)](Print_Drawing_as_High_Quality_Example_VBNET.htm)
-
 [Print Drawing (C#)](Print_Drawing_as_High_Quality_Example_CSharp.htm)
 
 ## Remarks
@@ -104,36 +78,23 @@ This method supports printing parts, assemblies, and both single and multisheet 
 
 Before calling this method:
 
-1. Call
-
-  [IModelDocExtension::GetPrintSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetPrintSpecification.html)
-
-  to get the IPrintSpecification object for this document.
-2. Set
-
-  [IPrintSpecification::PrintToFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrintToFile.html)
-
-  to:
+1. Call [IModelDocExtension::GetPrintSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetPrintSpecification.html) to get the IPrintSpecification object for this document.
+2. Set [IPrintSpecification::PrintToFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification~PrintToFile.html) to:
 
   - true to print to PrintFileName.
   - false to print to Printer.
 3. Set other properties on the IPrintSpecification object.
 4. Use the IPrintSpecification object to specify PrintSpecification.
 
-If Printer, PrintFileName, and PrintSpecification are not specified, then this method prints to the default printer specified by[IModelDoc2::Printer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Printer.html).
+If Printer, PrintFileName, and PrintSpecification are not specified, then this method prints to the default printer specified by [IModelDoc2::Printer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Printer.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::PrintDirect Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~PrintDirect.html)
-
 [IModelDoc2::PrintPreview Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~PrintPreview.html)
-
 [IModelDoc2::ClosePrintPreview Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ClosePrintPreview.html)
-
 [IModelDocExtension::SaveAs Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs.html)
 
 ## Availability

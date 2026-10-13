@@ -47,13 +47,7 @@ System.double GetDepth(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ Depth of the extrusion
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::GetDepth](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetDepth.html)
-
-.
+See [ExtrudeFeatureData2::GetDepth](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetDepth.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::SetDepth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~SetDepth.html)
 
 ## Availability

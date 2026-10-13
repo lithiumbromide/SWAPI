@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetEndPoint Method (ISketchEllipse)
 
-Obsolete. Superseded by
-
-[ISketchEllipse::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetEndPoint2.html)
-
-and
-
-[ISketch Ellipse::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetEndPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchEllipse::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetEndPoint2.html) and [ISketch Ellipse::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetEndPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetEndPoint()
 System.double IGetEndPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetEndPoint.html)
-
-.
+See [SketchEllipse::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetEndPoint.html).
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)

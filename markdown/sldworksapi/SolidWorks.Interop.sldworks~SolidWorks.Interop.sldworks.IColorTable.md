@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to the color definitions used in SOLIDWORKS.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IColorTable
 
 ## VBA Syntax
 
-See
-
-[ColorTable](ms-its:sldworksapivb6.chm::/sldworks~ColorTable.html)
-
-.
+See [ColorTable](ms-its:sldworksapivb6.chm::/sldworks~ColorTable.html).
 
 ## Examples
 
 [Get COLORREF Values of Standard User-interface Elements (C#)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_CSharp.htm)
-
 [Get COLORREF Values of Standard User-interface Elements (VB.NET)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_VBNET.htm)
-
 [Get COLORREF Values of Standard User-interface Elements (VBA)](Get_COLORREF_Values_of_Standard_User-interface_Elements_Example_VB.htm)
 
 ## Remarks
@@ -61,7 +55,7 @@ This API uses COLORREF values, which are equivalent to the data type long. See M
 
 ## Accessors
 
-[ISldWorks::GetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetColorTable.html)and[ISldWorks::IGetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetColorTable.html)
+[ISldWorks::GetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetColorTable.html) and [ISldWorks::IGetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetColorTable.html)
 
 ## Access Diagram
 
@@ -70,5 +64,4 @@ This API uses COLORREF values, which are equivalent to the data type long. See M
 ## See Also
 
 [IColorTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

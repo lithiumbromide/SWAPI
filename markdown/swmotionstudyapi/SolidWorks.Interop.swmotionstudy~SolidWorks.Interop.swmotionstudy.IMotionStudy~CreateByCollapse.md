@@ -59,11 +59,7 @@ System.bool CreateByCollapse(
 
 - `DeleteExistingPath`: True to delete any existing animation sequences, false to not
 - `Duration`: Length of time of the animation in seconds
-- `StartTime`: Time to start this animation (see
-
-Remarks
-
-)
+- `StartTime`: Time to start this animation (see **Remarks**)
 
 ### Return Value
 
@@ -71,18 +67,12 @@ True if the animation is created, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::CreateByCollapse](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~CreateByCollapse.html)
-
-.
+See [MotionStudy::CreateByCollapse](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~CreateByCollapse.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## Remarks
@@ -93,68 +83,43 @@ Example:
 
 'Precondition: Active document contains an exploded view of an assembly.
 
-kadov_tag{{<spaces>}}
-
+```vb
 Option Explicit
 
-kadov_tag{{<spaces>}}
-
 Dim swApp As SldWorks.SldWorks
-
 Dim swModel As SldWorks.ModelDoc2
-
 Dim swModelDocExt As SldWorks.ModelDocExtension
-
 Dim swMotionMgr As SwMotionStudy.MotionStudyManager
-
 Dim swMotion As SwMotionStudy.MotionStudy
-
 Dim boolstatus As Boolean
-
-kadov_tag{{<spaces>}}
 
 Sub main()
 
-kadov_tag{{<spaces>}}
-
 Set swApp = Application.SldWorks
-
 '
-
-Set swModel = swApp. ActiveDoc
-
-Set swModelDocExt = swModel. Extension
-
-Set swMotionMgr = swModelDocExt. GetMotionStudyManager
+Set swModel = swApp.ActiveDoc
+Set swModelDocExt = swModel.Extension
+Set swMotionMgr = swModelDocExt.GetMotionStudyManager
 
 ' Create a new motion study
-
-Set swMotion = swMotionMgr. CreateMotionStudy
+Set swMotion = swMotionMgr.CreateMotionStudy
 
 ' Delete any existing animation sequences,
-
 ' set the animation duration to 5 seconds, and play
-
 ' the animation immediately when IMotionStudy::Play is called
 
-boolstatus = swMotion. CreateByCollapse (True, 5, 0)
-
+boolstatus = swMotion.CreateByCollapse(True, 5, 0)
 ' Play the animation
-
-swMotion. Play
-
-kadov_tag{{<spaces>}}
+swMotion.Play
 
 End Sub
+```
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::CreateByExplode Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateByExplode.html)
-
 [IMotionStudy::CreateByRotateModel Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateByRotateModel.html)
 
 ## Availability

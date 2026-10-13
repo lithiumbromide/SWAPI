@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Cut-sweep_Feature_Using_Circular_Profile_Example_VBN
 
 # Create Cut-sweep Feature Using Circular Profile Example (VB.NET)
 
-This example shows how to create a cut-sweep feature using a circular
-profile.
+This example shows how to create a cut-sweep feature using a circular profile.
 
 ```
 '-----------------------------------------------

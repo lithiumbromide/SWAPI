@@ -50,41 +50,25 @@ void GetGtolFormatData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `GtolFormat`: Gtol format as defined by
-
-[swGtolFormatType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatType_e.html)
-- `XmlSchemaversion`: XML schema version as defined by
-
-[swGtolFormatSchemaVersion_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatSchemaVersion_e.html)
+- `GtolFormat`: Gtol format as defined by [swGtolFormatType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatType_e.html)
+- `XmlSchemaversion`: XML schema version as defined by [swGtolFormatSchemaVersion_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolFormatSchemaVersion_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetGtolFormatData](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetGtolFormatData.html)
-
-.
+See [SldWorks::GetGtolFormatData](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetGtolFormatData.html).
 
 ## Remarks
 
-See[Gtol Frame XML Schema](ms-its:sldworksapiprogguide.chm::/Overview/Gtol_Frame_XML_Schema.htm).
+See [Gtol Frame XML Schema](ms-its:sldworksapiprogguide.chm::/Overview/Gtol_Frame_XML_Schema.htm).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetGtolFrameXMLSchema Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetGtolFrameXMLSchema.html)
 
 ## Availability

@@ -11,15 +11,7 @@ source: "sldworksapi/Use_Safe_Entity_Example_VB.htm"
 
 This example shows how to use the safe entity functionality.
 
-**NOTE:**In general, an entity is something that can be selected through the user
-interface. Examples of safe entities include vertices, edges, faces, and
-features. An entity is useful because you can add an attribute to it to store arbitrary
-user information. Entities are also useful because they support direct selection
-through IEntity::Select4. Under normal conditions, an entity is transient and is not valid when the
-model is rebuilt. Thus, if a rebuild occurs, then the entity must be reacquired.
-This can be time consuming and prone to errors. Furthermore, it increases the
-programming complexity. Safe entities are valid across rebuilds of the model. However, this type ofkadov_tag{{</spaces>}}entity
-is not valid across sessions of SOLIDWORKS.kadov_tag{{</spaces>}}
+**NOTE:** In general, an entity is something that can be selected through the SOLIDWORKS Design user interface. Examples of safe entities include vertices, edges, faces, and features. An entity is useful because you can add an attribute to it to store arbitrary user information. Entities are also useful because they support direct selection through IEntity::Select4. Under normal conditions, an entity is transient and is not valid when the model is rebuilt. Thus, if a rebuild occurs, then the entity must be reacquired. This can be time consuming and prone to errors. Furthermore, it increases the programming complexity. Safe entities are valid across rebuilds of the model. However, this type of entity is not valid across sessions of SOLIDWORKS Design.
 
 ```
 '------------------------------------------------------------------

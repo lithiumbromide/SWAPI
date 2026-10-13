@@ -45,13 +45,7 @@ property System.bool ScaleHatchPattern {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to scale the hatch pattern based on the scale of the detail view, false to 
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::ScaleHatchPattern](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~ScaleHatchPattern.html)
-
-.
+See [DetailCircle::ScaleHatchPattern](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~ScaleHatchPattern.html).
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

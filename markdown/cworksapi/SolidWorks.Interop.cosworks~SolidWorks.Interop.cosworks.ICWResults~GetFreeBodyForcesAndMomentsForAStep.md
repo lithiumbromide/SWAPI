@@ -72,11 +72,9 @@ System.Object^ GetFreeBodyForcesAndMomentsForAStep(
 - `DispPlane`: Plane, axis, or coordinate system relative to which the results are listed
 - `SelectedRefPoint`: Reference point used to list the moments for the forces that are available in ArraySelectedEntities; NULL to not list the moments
 - `ArraySelectedEntities`: Selected faces, edges, vertices, and components
-- `NUnits`: Output units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `NUnits`: Output units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 - `NStepNumber`: Step number
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -116,18 +114,12 @@ Array of sixteen doubles of the free body forces and moments for all selections 
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetFreeBodyForcesAndMomentsForAStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFreeBodyForcesAndMomentsForAStep.html)
-
-.
+See [CWResults::GetFreeBodyForcesAndMomentsForAStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFreeBodyForcesAndMomentsForAStep.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetFreeBodyForcesAndMoments Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFreeBodyForcesAndMoments.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Record_Macros_Example_VBNET.htm"
 
 # Record Macros Example (VB.NET)
 
-This example shows how to add two lines to one or more macro recording
-sessions.
+This example shows how to add two lines to one or more macro recording sessions.
 
 ```vb
  '---------------------------------------------------------------------------

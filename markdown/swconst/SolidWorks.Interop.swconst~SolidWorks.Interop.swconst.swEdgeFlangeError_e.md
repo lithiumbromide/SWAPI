@@ -53,15 +53,7 @@ public enum class swEdgeFlangeError_e : public System.Enum
 
 ## Remarks
 
-These error codes are returned by
-
-[IEdgeFlangeFeatureData::AddEdges](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~AddEdges.html)
-
-and
-
-[IEdgeFlangeFeatureData::RemoveEdges](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~RemoveEdges.html)
-
-.
+These error codes are returned by [IEdgeFlangeFeatureData::AddEdges](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~AddEdges.html) and [IEdgeFlangeFeatureData::RemoveEdges](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~RemoveEdges.html).
 
 ## See Also
 

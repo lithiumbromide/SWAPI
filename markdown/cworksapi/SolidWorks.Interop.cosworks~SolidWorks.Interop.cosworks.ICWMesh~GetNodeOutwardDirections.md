@@ -49,32 +49,20 @@ System.Object^ GetNodeOutwardDirections(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsMeshQueryErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQueryErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsMeshQueryErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQueryErrorCode_e.html)
 
 ### Return Value
 
-Array of x, y, and z coordinates of normal directions at all of the nodes on the surface of this mesh (see
-
-Remarks
-
-)
+Array of x, y, and z coordinates of normal directions at all of the nodes on the surface of this mesh (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetNodeOutwardDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeOutwardDirections.html)
-
-.
+See [CWMesh::GetNodeOutwardDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeOutwardDirections.html).
 
 ## Examples
 
 [Create Curvature-based Mesh (VBA)](Create_Curvature-based_Mesh_Example_VB.htm)
-
 [Create Curvature-based Mesh (VB.NET)](Create_Curvature-based_Mesh_Example_VBNET.htm)
-
 [Create Curvature-based Mesh (C#)](Create_Curvature-based_Mesh_Example_CSharp.htm)
 
 ## Remarks
@@ -89,36 +77,17 @@ x2, y2, z2,
 
 ...,
 
-xi, yi, zi
+x`i`, y`i`, z`i`
 
 ]
 
 where:
 
-- x
-
-  i
-
-  , y
-
-  i
-
-  , z
-
-  i
-
-  is the normal direction at the
-
-  i
-
-  th
-
-  node
+- x`i`, y`i`, z`i` is the normal direction at the `i`th node
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

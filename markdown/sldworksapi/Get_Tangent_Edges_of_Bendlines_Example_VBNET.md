@@ -9,13 +9,12 @@ source: "sldworksapi/Get_Tangent_Edges_of_Bendlines_Example_VBNET.htm"
 
 # Get Tangent Edges of Bendlines Example (VB.NET)
 
-This example shows how to get each bendline's visible tangent edges
-in a flat-pattern view in a drawing of a sheet metal part.
+This example shows how to get each bendline's visible tangent edges in a flat-pattern view in a drawing of a sheet metal part.
 
 ```
 '---------------------------------------------------
 ' Preconditions:
-' 1. Open a SOLIDWORKS drawing of a sheet metal part
+' 1. Open a SOLIDWORKS Design drawing of a sheet metal part
 '    that has a flat-pattern view with
 '    bend lines with tangent edges.
 ' 2. Open the Immediate window.
@@ -32,70 +31,70 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDrawing As DrawingDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSheet As Sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swView As View
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim nbrBendlines As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim BendlinesArr As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim nbrRelatedTangentEdges As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim RelatedTangentEdgesArr As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim i As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSketchSegment as SketchSegment
+        Dim swModel As ModelDoc2
+        Dim swDrawing As DrawingDoc
+        Dim swSheet As Sheet
+        Dim swView As View
+        Dim nbrBendlines As Long
+        Dim BendlinesArr As Object
+        Dim nbrRelatedTangentEdges As Long
+        Dim RelatedTangentEdgesArr As Object
+        Dim i As Long
+        Dim swSketchSegment as SketchSegment
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDrawing = swModel
+        swModel = swApp.ActiveDoc
+        swDrawing = swModel
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get drawing sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSheet = swDrawing.GetCurrentSheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get name of drawing sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Name of drawing sheet: " & swSheet.GetName)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get number of views on drawing sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Number of drawing views on drawing sheet: " & swDrawing.GetViewCount)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' First view is the current drawing sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swView = swDrawing.GetFirstView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}First drawing view is the current drawing sheet, so...")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get first drawing view on drawing sheet
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swView = swView.GetNextView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}While Not swView Is Nothing
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}Get next drawing view on drawing sheet...")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get first true drawing view on current drawing sheet
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}          kadov_tag{{</spaces>}}Is this drawing view a flat-pattern view? " & swView.IsFlatPatternView)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' If this drawing view is a flat pattern view, then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' get its bendlines and their related tangent edges
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If swView.IsFlatPatternView Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}' Get number of bendlines in the drawing view
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}nbrBendlines = swView.GetBendLineCount
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}           kadov_tag{{</spaces>}}Number of bendlines in this drawing view: " & nbrBendlines)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}If (nbrBendlines > 0) Then
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}BendlinesArr = swView.GetBendLines kadov_tag{{<spaces>}}                       kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}For i = 0 To UBound(BendlinesArr)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}swSketchSegment = BendlinesArr(i)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Is bend line " & i & " really a bend line? " & swSketchSegment.IsBendLine)
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}' Get the number of tangent lines related to
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}' the bendline
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}nbrRelatedTangentEdges = swView.GetRelatedTangentEdgeCount(BendlinesArr(i))
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}}             kadov_tag{{</spaces>}}Number of tangent edges for Bendline " & i & ": " & nbrRelatedTangentEdges)
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}' Get the tangent lines related to the bendline
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}If (nbrRelatedTangentEdges > 0) Then
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}RelatedTangentEdgesArr = swView.GetRelatedTangentEdges(BendlinesArr(i))
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}nbrRelatedTangentEdges = nbrRelatedTangentEdges - 1
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Next i
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get next drawing view
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swView = swView.GetNextView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End While
+        ' Get drawing sheet
+        swSheet = swDrawing.GetCurrentSheet
+        ' Get name of drawing sheet
+        Debug.Print("Name of drawing sheet: " & swSheet.GetName)
+        ' Get number of views on drawing sheet
+        Debug.Print("  Number of drawing views on drawing sheet: " & swDrawing.GetViewCount)
+        ' First view is the current drawing sheet
+        swView = swDrawing.GetFirstView
+        Debug.Print("    First drawing view is the current drawing sheet, so...")
+        ' Get first drawing view on drawing sheet
+        swView = swView.GetNextView
+        While Not swView Is Nothing
+            Debug.Print("        Get next drawing view on drawing sheet...")
+            ' Get first true drawing view on current drawing sheet
+            Debug.Print("           Is this drawing view a flat-pattern view? " & swView.IsFlatPatternView)
+            ' If this drawing view is a flat pattern view, then
+            ' get its bendlines and their related tangent edges
+            If swView.IsFlatPatternView Then
+                ' Get number of bendlines in the drawing view
+                nbrBendlines = swView.GetBendLineCount
+                Debug.Print("            Number of bendlines in this drawing view: " & nbrBendlines)
+                If (nbrBendlines > 0) Then
+                    BendlinesArr = swView.GetBendLines
+                    For i = 0 To UBound(BendlinesArr)
+                    swSketchSegment = BendlinesArr(i)
+                    Debug.Print("             Is bend line " & i & " really a bend line? " & swSketchSegment.IsBendLine)
+                        ' Get the number of tangent lines related to
+                        ' the bendline
+                        nbrRelatedTangentEdges = swView.GetRelatedTangentEdgeCount(BendlinesArr(i))
+                        Debug.Print("              Number of tangent edges for Bendline " & i & ": " & nbrRelatedTangentEdges)
+                        ' Get the tangent lines related to the bendline
+                        If (nbrRelatedTangentEdges > 0) Then
+                            RelatedTangentEdgesArr = swView.GetRelatedTangentEdges(BendlinesArr(i))
+                            nbrRelatedTangentEdges = nbrRelatedTangentEdges - 1
+                        End If
+                    Next i
+                End If
+            End If
+            ' Get next drawing view
+            swView = swView.GetNextView
+        End While
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

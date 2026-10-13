@@ -9,6 +9,8 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # OriginFeature Property (IDimXpertAngleBetweenCircularDimTol)
 
+Gets the DimXpert origin feature for this DimXpert angle-between circular dimension tolerance.
+
 ## Syntax
 
 ### Visual Basic (Declaration)
@@ -40,8 +42,19 @@ property DimXpertFeature^ OriginFeature {
 }
 ```
 
+### Property Value
+
+[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
+
+## VBA Syntax
+
+See [DimXpertAngleBetweenCircularDimTol::OriginFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenCircularDimTol~OriginFeaturee.html).
+
 ## See Also
 
 [IDimXpertAngleBetweenCircularDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol.html)
-
 [IDimXpertAngleBetweenCircularDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol_members.html)
+
+## Availability
+
+SOLIDWORKS 2026 SP02, Revision Number 34.2

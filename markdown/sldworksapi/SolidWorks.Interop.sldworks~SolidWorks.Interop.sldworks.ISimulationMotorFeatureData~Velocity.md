@@ -45,13 +45,7 @@ property System.double Velocity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Speed of the motor
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::Velocity](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~Velocity.html)
-
-.
+See [SimulationMotorFeatureData::Velocity](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~Velocity.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
 
 ## Availability

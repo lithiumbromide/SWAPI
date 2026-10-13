@@ -47,19 +47,11 @@ System.Object^ GetItems(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ItemType`: Items to get as defined in
-
-[swLayerItemsOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLayerItemsOption_e.html)
+- `ItemType`: Items to get as defined in [swLayerItemsOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLayerItemsOption_e.html)
 
 ### Return Value
 
@@ -67,16 +59,11 @@ Array of layer items
 
 ## VBA Syntax
 
-See
-
-[Layer::GetItems](ms-its:sldworksapivb6.chm::/sldworks~Layer~GetItems.html)
-
-.
+See [Layer::GetItems](ms-its:sldworksapivb6.chm::/sldworks~Layer~GetItems.html).
 
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
 
 ## Availability

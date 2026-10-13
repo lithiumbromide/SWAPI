@@ -9,8 +9,7 @@ source: "sldworksapi/Increase_Width_of_Text_Example_VB.htm"
 
 # Increase Width of Text Example (VBA)
 
-This example shows how to increase the width of the text in a note by
-a factor of 2.
+This example shows how to increase the width of the text in a note by a factor of 2.
 
 ```
 '-------------------------------------------------------
@@ -29,82 +28,31 @@ a factor of 2.
 '-------------------------------------------------------
 ```
 
+```vb
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.modelDoc
+    Dim swSelMgr                    As SldWorks.SelectionMgr
+    Dim swAnnObj                    As Object
+    Dim swAnnotation                As SldWorks.Annotation
+    Dim swTextFormat                As SldWorks.textFormat
+    Dim dWidth                      As Double
+    Dim bRet                        As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swSelMgr = swModel.SelectionManager
+    Set swAnnObj = swSelMgr.GetSelectedObject5(1)
+    Set swAnnotation = swAnnObj.GetAnnotation
+    Set swTextFormat = swAnnotation.GetTextFormat(0)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.modelDoc
+    dWidth = swTextFormat.WidthFactor
+    Debug.Print "Old width = " & dWidth
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgrkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SelectionMgr
+    swTextFormat.WidthFactor = 2# * dWidth
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAnnObjkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAnnotationkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Annotation
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swTextFormatkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.textFormatkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-dWidthkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelMgr = swModel.SelectionManager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swAnnObj = swSelMgr.GetSelectedObject5(1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swAnnotation = swAnnObj.GetAnnotation
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swTextFormat = swAnnotation.GetTextFormat(0)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}dWidth
-= swTextFormat.WidthFactor
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Old width = " & dWidth
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swTextFormat.WidthFactor= 2# * dWidth
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swAnnotation.SetTextFormat(0,
-False, swTextFormat)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}dWidth
-= swTextFormat.WidthFactor
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"New width = " & dWidth
-
+    bRet = swAnnotation.SetTextFormat(0, False, swTextFormat)
+    dWidth = swTextFormat.WidthFactor
+    Debug.Print "New width = " & dWidth
 End Sub
+```

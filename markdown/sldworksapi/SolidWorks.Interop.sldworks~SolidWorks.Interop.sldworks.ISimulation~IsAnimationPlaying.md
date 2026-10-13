@@ -40,13 +40,7 @@ System.bool IsAnimationPlaying()
 System.bool IsAnimationPlaying();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if an animation is playing, false if not
 
 ## VBA Syntax
 
-See
-
-[Simulation::IsAnimationPlaying](ms-its:sldworksapivb6.chm::/sldworks~Simulation~IsAnimationPlaying.html)
-
-.
+See [Simulation::IsAnimationPlaying](ms-its:sldworksapivb6.chm::/sldworks~Simulation~IsAnimationPlaying.html).
 
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
-
 [ISimulation::PlayAnimation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation~PlayAnimation.html)
-
 [ISimulation::Animation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation~Animation.html)
 
 ## Availability

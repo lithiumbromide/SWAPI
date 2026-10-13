@@ -1,6 +1,5 @@
 ---
-title: "DatumOrigin Object
-Members"
+title: "DatumOrigin Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DatumOrigin_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DatumOrigin_members.html"
 ---
 
-# DatumOrigin Object
-Members
+# DatumOrigin Object Members
 
 ## Public Methods
 

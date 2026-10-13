@@ -9,8 +9,7 @@ source: "sldworksapi/Modify_Plane_by_Changing_System_Value_Example_VB.htm"
 
 # Modify Plane by Changing System Value Example (VBA)
 
-This example shows how to modify the offset distance of an offset plane
-by modifying the system value.
+This example shows how to modify the offset distance of an offset plane by modifying the system value.
 
 ```
 '--------------------------------------------

@@ -1,6 +1,5 @@
 ---
-title: "InterferenceDetectionMgr Object
-Members"
+title: "InterferenceDetectionMgr Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "InterferenceDetectionMgr_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~InterferenceDetectionMgr_members.html"
 ---
 
-# InterferenceDetectionMgr Object
-Members
+# InterferenceDetectionMgr Object Members
 
 ## Public Methods
 

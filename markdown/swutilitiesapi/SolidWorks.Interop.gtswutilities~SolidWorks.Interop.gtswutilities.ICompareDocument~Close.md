@@ -42,17 +42,11 @@ System.int Close();
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareDocument::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~Close.html)
-
-.
+See [ICompareDocument::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~Close.html).
 
 ## Examples
 
@@ -61,7 +55,6 @@ See
 ## See Also
 
 [ICompareDocument Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument.html)
-
 [ICompareDocument Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument_members.html)
 
 ## Availability

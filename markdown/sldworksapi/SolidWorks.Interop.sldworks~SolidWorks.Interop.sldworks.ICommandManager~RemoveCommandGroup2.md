@@ -51,13 +51,7 @@ System.int RemoveCommandGroup2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,26 +60,19 @@ See
 
 ### Return Value
 
-Error code as defined in
-
-[swRemoveCommandGroupErrors](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRemoveCommandGroupErrors.html)
+Error code as defined in [swRemoveCommandGroupErrors](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRemoveCommandGroupErrors.html)
 
 ## VBA Syntax
 
-See
-
-[CommandManager::RemoveCommandGroup2](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~RemoveCommandGroup2.html)
-
-.
+See [CommandManager::RemoveCommandGroup2](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~RemoveCommandGroup2.html).
 
 ## Remarks
 
-This method removes CommandGroups created using[ICommandManager::AddContextMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~AddContextMenu.html)and[ICommandManager::CreateCommandGroup2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~CreateCommandGroup2.html).
+This method removes CommandGroups created using [ICommandManager::AddContextMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~AddContextMenu.html) and [ICommandManager::CreateCommandGroup2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~CreateCommandGroup2.html).
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
 
 ## Availability

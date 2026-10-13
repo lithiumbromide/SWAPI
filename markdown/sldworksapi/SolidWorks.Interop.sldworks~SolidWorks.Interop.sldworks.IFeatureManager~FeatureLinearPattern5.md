@@ -9,21 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureLinearPattern5 Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
-and
-
-[ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html) and [ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html).
 
 ## Syntax
 
@@ -145,13 +131,7 @@ Feature^ FeatureLinearPattern5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -164,60 +144,32 @@ See
 - `DName1`: Name of the dimension defining Direction 1
 - `DName2`: Name of the dimension defining Direction 2
 - `GeometryPattern`: True to use geometry pattern, false to not
-- `VaryInstance`: True to vary the dimensions and spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see
-
-Remarks
-
-)
+- `VaryInstance`: True to vary the dimensions and spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see **Remarks**)
 - `HasOffset1`: True if using Offset1 to specify an offset of the pattern seed from a selected reference in Direction 1, false if not
 - `HasOffset2`: True if using Offset2 to specify an offset of the pattern seed from a selected reference in Direction 2, false if not
 - `CtrlByNum1`: True to control pattern spacing using Num1, false to control it using Spacing1; valid only if HasOffset1 is true
 - `CtrlByNum2`: True to control pattern spacing using Num2, false to control it using Spacing2; valid only if HasOffset2 is true
-- `FromCentroid1`: True if Offset1 is measured from the centroid of the seed instance, false if it is measured from a selected reference on the seed instance; valid only if HasOffset1 is true (see
-
-Remarks
-
-)
-- `FromCentroid2`: True if Offset2 is measured from the centroid of the seed instance, false if it is measured from a selected reference on the seed instance; valid only if HasOffset2 is true (see
-
-Remarks
-
-)
+- `FromCentroid1`: True if Offset1 is measured from the centroid of the seed instance, false if it is measured from a selected reference on the seed instance; valid only if HasOffset1 is true (see **Remarks**)
+- `FromCentroid2`: True if Offset2 is measured from the centroid of the seed instance, false if it is measured from a selected reference on the seed instance; valid only if HasOffset2 is true (see **Remarks**)
 - `RevOffset1`: True to reverse the direction of Offset1, false to not; valid only if HasOffset1 is true
 - `RevOffset2`: True to reverse the direction of Offset2, false to not; valid only if HasOffset2 is true
-- `Offset1`: Offset in meters from a selected reference in Direction 1; valid only if HasOffset1 is true (see
-
-Remarks
-
-)
-- `Offset2`: Offset in meters from a selected reference in Direction 2; valid only if HasOffset2 is true (see
-
-Remarks
-
-)
+- `Offset1`: Offset in meters from a selected reference in Direction 1; valid only if HasOffset1 is true (see **Remarks**)
+- `Offset2`: Offset in meters from a selected reference in Direction 2; valid only if HasOffset2 is true (see **Remarks**)
 - `D2PatternSeedOnly`: True to create a linear pattern in Direction 2 using the seed features only, without replicating the pattern instances of Direction 1; false to not
 - `SyncSubAssemblies`: True to move components in the patterned instances when components are moved in the seed flexible subassembly, false to not
 
 ### Return Value
 
-Linear pattern
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Linear pattern [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureLinearPattern5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLinearPattern5.html)
-
-.
+See [FeatureManager::FeatureLinearPattern5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLinearPattern5.html).
 
 ## Examples
 
 [Create Bidirectional Linear Pattern (VBA)](Create_Bidirectional_Linear_Pattern_Example_VB.htm)
-
 [Create Bidirectional Linear Pattern (VB.NET)](Create_Bidirectional_Linear_Pattern_Example_VBNET.htm)
-
 [Create Bidirectional Linear Pattern (C#)](Create_Bidirectional_Linear_Pattern_Example_CSharp.htm)
 
 ## Remarks
@@ -235,7 +187,6 @@ See
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool TrimByD1 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,19 @@ True to trim surfaces in Direction 1 when curves do not form a closed boundary f
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData::TrimByD1](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~TrimByD1.html)
-
-.
+See [BoundaryBossFeatureData::TrimByD1](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~TrimByD1.html).
 
 ## Remarks
 
 This property is only available when curves exist in both Direction 1 and Direction 2.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
-
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [IBoundaryBossFeatureData::D1Curves Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D1Curves.html)
-
 [IBoundaryBossFeatureData::D2Curves Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~D2Curves.html)
 
 ## Availability

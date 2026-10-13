@@ -1,6 +1,5 @@
 ---
-title: "Scanto3D Object
-Members"
+title: "Scanto3D Object Members"
 project: "Scanto3DLibActiveX DLL"
 interface: "Scanto3D_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swscanto3dapivb6/Scanto3DLib~Scanto3D_members.html"
 ---
 
-# Scanto3D Object
-Members
+# Scanto3D Object Members
 
 ## Public Methods
 

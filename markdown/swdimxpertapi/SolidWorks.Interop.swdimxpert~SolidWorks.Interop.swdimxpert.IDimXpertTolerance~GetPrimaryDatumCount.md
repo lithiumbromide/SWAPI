@@ -46,16 +46,11 @@ Number of primary datums
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::GetPrimaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetPrimaryDatumCount.html)
-
-.
+See [DimXpertTolerance::GetPrimaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetPrimaryDatumCount.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

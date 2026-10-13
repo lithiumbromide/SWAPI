@@ -46,16 +46,11 @@ Last update stamp in time_t format
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument13::GetLastUpdateTimeStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetLastUpdateTimeStamp.html)
-
-.
+See [SwDMDocument13::GetLastUpdateTimeStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetLastUpdateTimeStamp.html).
 
 ## Examples
 
 [Get, Add, Change, and Delete Cut-List Custom Properties (C#)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_CSharp.htm)
-
 [Get, Add, Change, and Delete Cut-List Custom Properties (VB.NET)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_VBNET.htm)
 
 ## Remarks
@@ -65,7 +60,6 @@ The return value is in time_t format, which Microsoft defines "as time as second
 ## See Also
 
 [ISwDMDocument13 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13.html)
-
 [ISwDMDocument13 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13_members.html)
 
 ## Availability

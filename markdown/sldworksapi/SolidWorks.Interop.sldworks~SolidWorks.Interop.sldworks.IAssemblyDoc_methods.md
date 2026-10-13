@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IAssemblyDoc Interface Methods
 
-For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html).
+For a list of all members of this type, see [IAssemblyDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html).
 
 ## Public Methods
 
@@ -32,7 +32,7 @@ For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Int
 | Method | AddMate5 | Obsolete. Superseded by IAssemblyDoc::CreateMate. |
 | Method | AddPipePenetration | Penetrates the adjacent fitting or pipe with the pipe that ends at the selected sketch point. |
 | Method | AddPipingFitting | Adds a pipe fitting to the current piping assembly. |
-| Method | AddPLMComponent | Adds the specified component from a 3DEXPERIENCE collaborative space to the specified location in this assembly in SOLIDWORKS Connected . |
+| Method | AddPLMComponent | Adds the specified component from a 3DEXPERIENCE collaborative space to the specified location in this assembly in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | AddSmartComponent | Adds the specified component at the specified coordinates as a Smart Component to this assembly. |
 | Method | AddToFeatureScope | Adds a component to the scope of the currently selected assembly feature. |
 | Method | AssemblyPartToggle | Obsolete. Superseded by IAssemblyDoc::EditAssembly and IAssemblyDoc::EditPart2 . |
@@ -165,7 +165,7 @@ For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Int
 | Method | ReorganizeComponents | Reorganizes an assembly's structure by moving the selected components to the selected assembly or sub-assembly. |
 | Method | ReplaceComponents | Obsolete. Superseded by IAssemblyDoc::ReplaceComponents2 . |
 | Method | ReplaceComponents2 | Replaces one or more selected components with another model. |
-| Method | ReplacePLMComponents | Replaces a selected SOLIDWORKS Connected component in this assembly with the specified component from a 3DEXPERIENCE collaborative space. |
+| Method | ReplacePLMComponents | Replaces a selected SOLIDWORKS Design connected to the 3DEXPERIENCE platform component in this assembly with the specified component from a 3DEXPERIENCE collaborative space. |
 | Method | ResolveAllLightweight | Resolves all lightweight child components of the selected components |
 | Method | ResolveAllLightWeightComponents | Resolves the lightweight components in this assembly. |
 | Method | ResolveOutOfDateLightWeightComponents | Resolves the selected out-of-date lightweight component, and any out-of-date lightweight sub-components, in the assembly. |
@@ -209,5 +209,4 @@ For a list of all members of this type, see[IAssemblyDoc members](SolidWorks.Int
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

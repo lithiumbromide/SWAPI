@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # CreateDeformedBody Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::CreateDeformedBody2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateDeformedBody2.html)
-
-.
+Obsolete. Superseded by [ICWResults::CreateDeformedBody2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateDeformedBody2.html).
 
 ## Syntax
 
@@ -60,21 +56,13 @@ void CreateDeformedBody(
 
 ### Parameters
 
-- `NCreateAs`: Save option as defined in
-
-[swsCreateDeformedBodyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyOption_e.html)
+- `NCreateAs`: Save option as defined in [swsCreateDeformedBodyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyOption_e.html)
 - `SName`: Name of the part or configuration to save
-- `ErrorCode`: Error code as defined in
-
-[swsCreateDeformedBodyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyError_e.html)
+- `ErrorCode`: Error code as defined in [swsCreateDeformedBodyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::CreateDeformedBody](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~CreateDeformedBody.html)
-
-.
+See [CWResults::CreateDeformedBody](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~CreateDeformedBody.html).
 
 ## Remarks
 
@@ -85,11 +73,8 @@ Deformed shapes of assembly documents are saved as multibody parts.
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetDeformedBodyFailedSewOption Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDeformedBodyFailedSewOption.html)
-
 [ICWResults::SetDeformedBodyFailedSewOption Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetDeformedBodyFailedSewOption.html)
 
 ## Availability

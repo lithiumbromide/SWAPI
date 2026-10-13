@@ -44,22 +44,16 @@ property PDMWLinks^ References {
 
 ### Property Value
 
-Collection of[links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)to documents referenced by this configuration
+Collection of [links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html) to documents referenced by this configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::References](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~References.html)
-
-.
+See [PDMWConfiguration::References](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~References.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
-
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
 
 ## Availability

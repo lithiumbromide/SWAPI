@@ -45,27 +45,15 @@ property MathPoint^ InsertionPoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Insertion point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-for this block definition
+[Insertion point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) for this block definition
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::InsertionPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~InsertionPoint.html)
-
-.
+See [SketchBlockDefinition::InsertionPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~InsertionPoint.html).
 
 ## Examples
 
@@ -82,13 +70,9 @@ Changing the insertion point does not affect how instances of the block look in 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockInstance::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~Angle.html)
-
 [ISketchBlockInstance::InstancePosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~InstancePosition.html)
-
 [ISketchBlockInstance::LockAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~LockAngle.html)
 
 ## Availability

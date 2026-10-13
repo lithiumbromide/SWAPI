@@ -51,20 +51,15 @@ Description of document
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Description.html)
-
-.
+See [PDMWDocument::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Description.html).
 
 ## Remarks
 
-You can change the document's description property by accessing the document's custom property; for example,[IPDMWDocument::Properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Properties.html)("Description").
+You can change the document's description property by accessing the document's custom property; for example, [IPDMWDocument::Properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Properties.html)("Description").
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

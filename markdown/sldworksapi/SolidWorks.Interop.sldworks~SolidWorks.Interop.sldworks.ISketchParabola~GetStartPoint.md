@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetStartPoint Method (ISketchParabola)
 
-Obsolete. Superseded by
-
-[ISketchParabola::GetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetStartPoint2.html)
-
-and
-
-[ISketchParabola::IGetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetStartPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchParabola::GetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetStartPoint2.html) and [ISketchParabola::IGetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetStartPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetStartPoint()
 System.Object^ GetStartPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::GetStartPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetStartPoint.html)
-
-.
+See [SketchParabola::GetStartPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetStartPoint.html).
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)

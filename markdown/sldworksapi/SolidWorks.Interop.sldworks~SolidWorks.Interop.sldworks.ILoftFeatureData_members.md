@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ILoftFeatureData Interface Members
 
-The following tables list the members exposed by[ILoftFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html).
+The following tables list the members exposed by [ILoftFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html).
 
 ## Public Properties
 
@@ -76,9 +76,6 @@ The following tables list the members exposed by[ILoftFeatureData](SolidWorks.In
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertCutBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutBlend.html)
-
 [IFeatureManager::InsertProtrusionBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Template_Sheet_Metal_Feature_Data_Example_VBNET.htm"
 
 # Get Sheet Metal Feature Data Example (VB.NET)
 
-This example shows how to get the sheet metal feature data from a
-sheet metal part created in SOLIDWORKS 2013 or later.
+This example shows how to get the sheet metal feature data from a sheet metal part created in SOLIDWORKS 2013 or later.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyPreservedRegionControl Interface
 
-Allows access to a preserved region manufacturing control in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a preserved region manufacturing control in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyPreservedRegionControl
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion.html)
-
-.
+See [CWTopologyPreservedRegion](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion.html).
 
 ## Examples
 
@@ -61,7 +49,7 @@ See
 
 Preserved region manufacturing controls section off areas of the model that are not to be modified during optimization.
 
-See the**Manufacturing Controls**topic in the Simulation user-interface help for more information.
+See the **Manufacturing Controls** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -72,5 +60,4 @@ See the**Manufacturing Controls**topic in the Simulation user-interface help for
 ## See Also
 
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

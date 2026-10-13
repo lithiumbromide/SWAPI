@@ -43,13 +43,7 @@ public delegate System.int DSldWorksEvents_BackgroundProcessingEndNotifyEventHan
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,23 +51,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[BackgroundProcessingEndNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~BackgroundProcessingEndNotify_EV.html)
-
-.
+See [BackgroundProcessingEndNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~BackgroundProcessingEndNotify_EV.html).
 
 ## Examples
 
 [Fire Notifications for Background Processing Events (VBA)](Fire_Notification_for_Background_Processing_Events_Example_VB.htm)
-
 [Fire Notifications for Background Processing Events (VB.NET)](Fire_Notification_for_Background_Processing_Events_Example_VBNET.htm)
-
 [Fire Notifications for Background Processing Events (C#)](Fire_Notification_for_Background_Processing_Events_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use[swAppBackgroundProcessingEndNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppBackgroundProcessingEndNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

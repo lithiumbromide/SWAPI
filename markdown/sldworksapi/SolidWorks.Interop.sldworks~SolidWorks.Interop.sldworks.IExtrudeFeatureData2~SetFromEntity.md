@@ -46,46 +46,30 @@ void SetFromEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FromEntity`: Entity from which to create the extrusion:
 
-- Surface
-- Face
-- Plane
-- Vertex
-- Sketch point
+  - Surface
+  - Face
+  - Plane
+  - Vertex
+  - Sketch point
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::SetFromEntity](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetFromEntity.html)
-
-.
+See [ExtrudeFeatureData2::SetFromEntity](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetFromEntity.html).
 
 ## Remarks
 
-You must also set the type of entity using
-
-[IExtrudeFeatureData2::FromType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FromType.html)
-
-.
+You must also set the type of entity using [IExtrudeFeatureData2::FromType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FromType.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::GetFromEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetFromEntity.html)
 
 ## Availability

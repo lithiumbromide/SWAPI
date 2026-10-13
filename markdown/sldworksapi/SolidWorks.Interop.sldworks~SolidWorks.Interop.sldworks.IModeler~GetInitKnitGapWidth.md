@@ -40,13 +40,7 @@ System.double GetInitKnitGapWidth()
 System.double GetInitKnitGapWidth();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Initial knitting gap width used for body sewing
 
 ## VBA Syntax
 
-See
-
-[Modeler::GetInitKnitGapWidth](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetInitKnitGapWidth.html)
-
-.
+See [Modeler::GetInitKnitGapWidth](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetInitKnitGapWidth.html).
 
 ## Remarks
 
@@ -67,7 +57,5 @@ This value is 0 until a call to knit a body is made.
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::SetInitKnitGapWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~SetInitKnitGapWidth.html)

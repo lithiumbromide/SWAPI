@@ -40,13 +40,7 @@ System.int GetTreatmentGroupFolderCount()
 System.int GetTreatmentGroupFolderCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ Number of corner treatment group folders
 
 ## VBA Syntax
 
-See
-
-[CornerManagementFolder::GetTreatmentGroupFolderCount](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetTreatmentGroupFolderCount.html)
-
-.
+See [CornerManagementFolder::GetTreatmentGroupFolderCount](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder~GetTreatmentGroupFolderCount.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [ICornerManagementFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)
-
 [ICornerManagementFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder_members.html)
 
 ## Availability

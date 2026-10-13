@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWConvection::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~RemoveEntity.html)
-
-.
+See [CWConvection::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~RemoveEntity.html).
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~InsertEntity.html)
 
 ## Availability

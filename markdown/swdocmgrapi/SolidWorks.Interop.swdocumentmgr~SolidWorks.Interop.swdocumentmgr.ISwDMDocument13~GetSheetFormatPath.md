@@ -58,36 +58,27 @@ System.int GetSheetFormatPath(
 
 ### Return Value
 
-Result as defined in
-
-[swSheetFormatPathResult](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swSheetFormatPathResult.html)
+Result as defined in [swSheetFormatPathResult](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swSheetFormatPathResult.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument13::GetSheetFormatPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetSheetFormatPath.html)
-
-.
+See [SwDMDocument13::GetSheetFormatPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetSheetFormatPath.html).
 
 ## Examples
 
 [Get Drawing Sheets' Properties (C#)](Get_Drawing_Sheets_Properties_Example_CSharp.htm)
-
 [Get Drawing Sheets' Properties (VB.NET)](Get_Drawing_Sheets_Properties_Example_vbnet.htm)
 
 ## Remarks
 
 This method only supports documents saved in SOLIDWORKS 2009 and later. An empty string is returned for documents saved in earlier versions of SOLIDWORKS.
 
-Before calling this method, call[ISwDMDocument4::GetActiveSheetName](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument4~GetActiveSheetName.html)or[ISwDMDocument6::GetSheetNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument6~GetSheetNames.html).
+Before calling this method, call [ISwDMDocument4::GetActiveSheetName](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument4~GetActiveSheetName.html) or [ISwDMDocument6::GetSheetNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument6~GetSheetNames.html).
 
 ## See Also
 
 [ISwDMDocument13 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13.html)
-
 [ISwDMDocument13 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13_members.html)
-
 [ISwDMDocument13::GetSheetProperties Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13~GetSheetProperties.html)
 
 ## Availability

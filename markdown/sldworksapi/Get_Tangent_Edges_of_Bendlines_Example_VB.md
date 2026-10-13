@@ -9,13 +9,12 @@ source: "sldworksapi/Get_Tangent_Edges_of_Bendlines_Example_VB.htm"
 
 # Get Tangent Edges of Bendlines Example (VBA)
 
-This example shows how to get each bendline's visible tangent edges
-in a flat-pattern view in a drawing of a sheet metal part.
+This example shows how to get each bendline's visible tangent edges in a flat-pattern view in a drawing of a sheet metal part.
 
 ```
 '---------------------------------------------------
 ' Preconditions:
-' 1. Open a SOLIDWORKS drawing of a sheet metal part
+' 1. Open a SOLIDWORKS Design drawing of a sheet metal part
 '    that has a flat-pattern view with
 '    bend lines with tangent edges.
 ' 2. Open the Immediate window.

@@ -41,32 +41,19 @@ void RestraintBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::RestraintBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RestraintBeginEdit.html)
-
-.
+See [CWRestraint::RestraintBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RestraintBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## Remarks
 
-To start editing a restraint, you must call this method. You must call
-
-[ICWRestraint::RestraintEndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintEndEdit.html)
-
-to end editing a restraint. Changes are not applied unless you call both methods.
+To start editing a restraint, you must call this method. You must call [ICWRestraint::RestraintEndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintEndEdit.html) to end editing a restraint. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

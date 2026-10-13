@@ -48,11 +48,7 @@ True if the primary datum is repeated in the lower tier; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeLineProfileTolerance::PrimaryInLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~PrimaryInLowerTier.html)
-
-.
+See [DimXpertCompositeLineProfileTolerance::PrimaryInLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~PrimaryInLowerTier.html).
 
 ## Remarks
 
@@ -61,7 +57,6 @@ The second row of the Geometric Tolerance Properties dialog comes into play for 
 ## See Also
 
 [IDimXpertCompositeLineProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance.html)
-
 [IDimXpertCompositeLineProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance_members.html)
 
 ## Availability

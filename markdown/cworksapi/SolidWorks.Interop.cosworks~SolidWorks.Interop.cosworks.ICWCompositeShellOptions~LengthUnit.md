@@ -47,25 +47,15 @@ property System.int LengthUnit {
 
 ### Property Value
 
-Units of length as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+Units of length as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::LengthUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~LengthUnit.html)
-
-.
+See [CWCompositeShellOptions::LengthUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~LengthUnit.html).
 
 ## Examples
 
-See the
-
-[ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
-examples.
+See the [ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +70,6 @@ This property supports only the following options in swsLinearUnit_e:
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
 
 ## Availability

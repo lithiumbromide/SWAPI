@@ -47,21 +47,11 @@ System.bool SetBendNoteTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Format`: Format in which to display all bend notes in this drawing view of a sheet metal part (see
-
-Remarks
-
-)
+- `Format`: Format in which to display all bend notes in this drawing view of a sheet metal part (see **Remarks**)
 
 ### Return Value
 
@@ -69,28 +59,17 @@ True if format is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[View::SetBendNoteTextFormat](ms-its:sldworksapivb6.chm::/sldworks~View~SetBendNoteTextFormat.html)
-
-.
+See [View::SetBendNoteTextFormat](ms-its:sldworksapivb6.chm::/sldworks~View~SetBendNoteTextFormat.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IView::GetBendNoteAttributeString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBendNoteAttributeString.html)
-
-to specify Format.
+Before calling this method, call [IView::GetBendNoteAttributeString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBendNoteAttributeString.html) to specify Format.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBendNoteTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBendNoteTextFormat.html)
-
 [IView::ShowSheetMetalBendNotes Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ShowSheetMetalBendNotes.html)
 
 ## Availability

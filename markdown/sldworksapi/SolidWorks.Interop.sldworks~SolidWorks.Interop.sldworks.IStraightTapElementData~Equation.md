@@ -45,43 +45,21 @@ property System.int Equation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Equation for the blind depth or offset distance as defined in
-
-[swStraightTapHoleEquation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleEquation_e.html)
+Equation for the blind depth or offset distance as defined in [swStraightTapHoleEquation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleEquation_e.html)
 
 ## VBA Syntax
 
-See
-
-[StraightTapElementData::Equation](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~Equation.html)
-
-.
+See [StraightTapElementData::Equation](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~Equation.html).
 
 ## Remarks
 
-If[IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html)is set to false, and:
+If [IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html) is set to false, and:
 
-- [IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html)
-
-  is set to
-
-  [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html)
-
-  .swEndCondBlind, then this property specifies the equation for the depth of the Blind end condition. If this property is set to swStraightTapeHoleEquation_e.swStraightTapHoleEquation_UserDefinedValue, then use
-
-  [IAdvancedHoleElementData::BlindDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~BlindDepth.html)
-
-  to set the custom Blind depth of this hole element.
+- [IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html) is set to [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html).swEndCondBlind, then this property specifies the equation for the depth of the Blind end condition. If this property is set to swStraightTapeHoleEquation_e.swStraightTapHoleEquation_UserDefinedValue, then use [IAdvancedHoleElementData::BlindDepth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~BlindDepth.html) to set the custom Blind depth of this hole element.
 - IAdvancedHoleElementData::EndCondition is specifically set to anything other than Blind, then this property is not valid.
 
 If IAdvancedHoleFeatureData::UseBaselineDimensions is set to true, then:
@@ -90,16 +68,11 @@ If IAdvancedHoleFeatureData::UseBaselineDimensions is set to true, then:
 
 - and -
 
-- this property specifies the equation for the offset distance. If this property is set to swStraightTapHoleEquation_e.swStraightTapHoleEquation_UserDefinedValue, then use
-
-  [IAdvancedHoleElementData::OffsetDistance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~OffsetDistance.html)
-
-  to set the custom offset distance of this hole element.
+- this property specifies the equation for the offset distance. If this property is set to swStraightTapHoleEquation_e.swStraightTapHoleEquation_UserDefinedValue, then use [IAdvancedHoleElementData::OffsetDistance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~OffsetDistance.html) to set the custom offset distance of this hole element.
 
 ## See Also
 
 [IStraightTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
 [IStraightTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData_members.html)
 
 ## Availability

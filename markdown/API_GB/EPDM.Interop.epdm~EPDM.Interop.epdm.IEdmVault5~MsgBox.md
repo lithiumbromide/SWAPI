@@ -50,42 +50,32 @@ EdmMBoxResult MsgBox(
 
 - `lParentWnd`: Parent window handle
 - `bsMsg`: Message to display in the message box
-- `eType`: Optional style of the message box as defined in
-
-[EdmMBoxType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType.html)
+- `eType`: Optional style of the message box as defined in [EdmMBoxType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType.html)
 - `bsCaption`: Optional string to display for the message box caption
 
 ### Return Value
 
-Button clicked as defined in
-
-[EdmMBoxResult](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxResult.html)
+Button clicked as defined in [EdmMBoxResult](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxResult.html)
 
 ## Examples
 
 [Notify User When File Changes State (VB.NET)](Notify_User_When_File_Changes_State_Example_VBNET.htm)
-
 [Notify User When File Changes State (C#)](Notify_User_When_File_Changes_State_Example_CSharp.htm)
 
 ## Remarks
 
 The only advantage of this method over the standard Visual Basic MsgBox function is that, with this method, you can specify a parent window handle to ensure that the message box stays on top of whatever parent window you have. For add-ins the parent window is usually the File Explorer window.
 
-You do not need to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)or[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)before calling this method.
+You do not need to call [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) before calling this method.
 
 [Return codes:](ReturnCodes.htm)
 
 - S_OK: The method successfully executed.
-- S_FALSE: The user pressed
-
-  Cancel
-
-  .
+- S_FALSE: The user pressed **Cancel**.
 
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

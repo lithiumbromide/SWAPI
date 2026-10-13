@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertRadiusDimTol Object
-Members"
+title: "ISwDMDimXpertRadiusDimTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertRadiusDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertRadiusDimTol_members.html"
 ---
 
-# ISwDMDimXpertRadiusDimTol Object
-Members
+# ISwDMDimXpertRadiusDimTol Object Members
 
 ## Public Properties
 

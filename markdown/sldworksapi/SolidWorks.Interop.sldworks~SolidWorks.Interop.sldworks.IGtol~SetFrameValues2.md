@@ -67,38 +67,16 @@ System.bool SetFrameValues2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FrameNumber`: Symbol frame number; 1 for first frame (see
-
-Remarks
-
-)
+- `FrameNumber`: Symbol frame number; 1 for first frame (see **Remarks**)
 - `Tol1`: Tolerance 1 value
 - `Tol2`: Tolerance 2 value
-- `Datum1`: Primary datum with material conditions (
-
-see Remarks
-
-)
-- `Datum2`: Secondary datum with material conditions (
-
-see Remarks
-
-)
-- `Datum3`: Tertiary datum with material conditions (
-
-see Remarks
-
-)
+- `Datum1`: Primary datum with material conditions (**see Remarks**)
+- `Datum2`: Secondary datum with material conditions (**see Remarks**)
+- `Datum3`: Tertiary datum with material conditions (**see Remarks**)
 
 ### Return Value
 
@@ -106,18 +84,12 @@ True if frame values are set, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetFrameValues2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameValues2.html)
-
-.
+See [Gtol::SetFrameValues2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameValues2.html).
 
 ## Examples
 
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
 
 ## Remarks
@@ -126,14 +98,10 @@ This method is valid only if this Gtol was created in a version of SOLIDWORKS ea
 
 Before calling this method, call:
 
-- [IGtol::SetFrameSymbols2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameSymbols2.html)
+- [IGtol::SetFrameSymbols2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameSymbols2.html) to specify the GTol symbol for this frame.
+- [IGtol::GetFrameCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameCount.html) to specify FrameNumber.
 
-  to specify the GTol symbol for this frame.
-- [IGtol::GetFrameCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameCount.html)
-
-  to specify FrameNumber.
-
-Geometric tolerance and material condition symbols are defined in**C:\ProgramData\SolidWorks\SolidWorks**20`nn`**\lang\english\**gtol.sym.Inspect this file as you specify Datum1, Datum2, and Datum3 in <`LibraryName-SymbolName`> format.
+Geometric tolerance and material condition symbols are defined in **C:\ProgramData\SolidWorks\SolidWorks** **20**`nn`**\lang\english\**gtol.sym. Inspect this file as you specify Datum1, Datum2, and Datum3 in <`LibraryName-SymbolName`> format.
 
 For example, for datum tags A, B, and C:
 
@@ -151,13 +119,9 @@ sets the first symbol frame of this GTol with:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetFrameDiameterSymbols Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameDiameterSymbols.html)
-
 [IGtol::GetFrameSymbols2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameSymbols2.html)
-
 [IGtol::GetFrameValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFrameValues.html)
 
 ## Availability

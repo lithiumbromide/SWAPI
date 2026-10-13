@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_Preview_Bitmaps_of_Drawing_Sheets_Example_CSharp.htm"
 
 # Get Preview Bitmaps of Drawing Sheets Example (C#)
 
-This example shows how to get PNG preview bitmaps of the sheets in a
-drawing document.
+This example shows how to get PNG preview bitmaps of the sheets in a drawing document.
 
 ```
 //-----------------------------------------------------------------------------

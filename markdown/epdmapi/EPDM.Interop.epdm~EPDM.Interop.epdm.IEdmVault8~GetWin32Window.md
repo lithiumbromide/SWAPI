@@ -52,7 +52,6 @@ IWin32Window interface
 ## See Also
 
 [IEdmVault8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html)
-
 [IEdmVault8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8_members.html)
 
 ## Availability

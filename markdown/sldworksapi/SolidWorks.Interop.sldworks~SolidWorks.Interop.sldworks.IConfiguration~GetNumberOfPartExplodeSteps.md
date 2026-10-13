@@ -40,13 +40,7 @@ System.int GetNumberOfPartExplodeSteps()
 System.int GetNumberOfPartExplodeSteps();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,21 @@ Number of explode steps
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetNumberOfPartExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetNumberOfPartExplodeSteps.html)
-
-.
+See [Configuration::GetNumberOfPartExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetNumberOfPartExplodeSteps.html).
 
 ## Remarks
 
 This method is valid only for the active configuration.
 
-Before calling this method, call[IPartDoc::ShowExploded](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ShowExploded.html)to activate the explode view of interest.
+Before calling this method, call [IPartDoc::ShowExploded](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ShowExploded.html) to activate the explode view of interest.
 
-Call this method before calling[IConfiguration::GetPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetPartExplodeStep.html).
+Call this method before calling [IConfiguration::GetPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetPartExplodeStep.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::AddPartExplodeStep Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddPartExplodeStep.html)
-
 [IConfiguration::GetCurrentPartExplodeViewName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetCurrentPartExplodeViewName.html)
 
 ## Availability

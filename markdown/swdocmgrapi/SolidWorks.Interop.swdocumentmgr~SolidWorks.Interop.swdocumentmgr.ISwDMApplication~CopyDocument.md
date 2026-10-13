@@ -73,41 +73,25 @@ System.int CopyDocument(
 - `toName`: Full path and filename of the document to which to copy fromName
 - `fromChildren`: Array containing the full path and filenames of the child documents dependent on the document specified for fromName
 - `toChildren`: Array containing the new full path and filenames of the child documents to which to copy the child documents specified for fromChildr
-- `option`: Copy options as defined by
-
-[SwDmCopyOptions](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCopyOptions.html)
-- `pSrcOption`: Pointer to an
-
-[ISwDMSearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
-object
+- `option`: Copy options as defined by [SwDmCopyOptions](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCopyOptions.html)
+- `pSrcOption`: Pointer to an [ISwDMSearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html) object
 
 ### Return Value
 
-Success or error code as defined by[SwDmMoveCopyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmMoveCopyError.html)
+Success or error code as defined by [SwDmMoveCopyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmMoveCopyError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMApplication::CopyDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication~CopyDocument.html)
-
-.
+See [SwDMApplication::CopyDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication~CopyDocument.html).
 
 ## Remarks
 
-If a document is opened, you must call
-
-[ISwDMDocument::CloseDoc](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~CloseDoc.html)
-
-to close it before calling this method.
+If a document is opened, you must call [ISwDMDocument::CloseDoc](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~CloseDoc.html) to close it before calling this method.
 
 ## See Also
 
 [ISwDMApplication Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication.html)
-
 [ISwDMApplication Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication_members.html)
-
 [ISwDMApplication::MoveDocument Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication~MoveDocument.html)
 
 ## Availability

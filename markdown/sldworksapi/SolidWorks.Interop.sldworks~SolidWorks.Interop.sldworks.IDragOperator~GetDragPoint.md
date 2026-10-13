@@ -47,13 +47,7 @@ System.bool GetDragPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,17 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DragOperator::GetDragPoint](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~GetDragPoint.html)
-
-.
+See [DragOperator::GetDragPoint](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~GetDragPoint.html).
 
 ## Remarks
 
-Unless set to another value by
-
-[IDragOperator::SetDragPoint,](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~ISetDragPoint.html)
-
-this value is the origin of the component.
+Unless set to another value by [IDragOperator::SetDragPoint,](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~ISetDragPoint.html) this value is the origin of the component.
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::IGetDragPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~IGetDragPoint.html)
-
 [IDragOperator::ISetDragPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~ISetDragPoint.html)
 
 ## Availability

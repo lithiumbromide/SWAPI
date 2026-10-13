@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IIntersectCurveSize Method (ICurve)
 
-Gets the size of the array required by
-
-[ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html)
-
-.
+Gets the size of the array required by [ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.int IIntersectCurveSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,26 +75,20 @@ See
 
 ### Return Value
 
-Size of the array needed to contain the return values of[ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html)
+Size of the array needed to contain the return values of [ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html)
 
 ## VBA Syntax
 
-See
-
-[Curve::IIntersectCurveSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IIntersectCurveSize.html)
-
-.
+See [Curve::IIntersectCurveSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IIntersectCurveSize.html).
 
 ## Remarks
 
-To get the actual intersection points, call[ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html).
+To get the actual intersection points, call [ICurve::IIntersectCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IIntersectCurve.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IntersectCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IntersectCurve.html)
 
 ## Availability

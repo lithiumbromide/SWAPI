@@ -45,13 +45,7 @@ property System.bool Proportional {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to resize the spline proportionally, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::Proportional](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~Proportional.html)
-
-.
+See [SketchSpline::Proportional](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~Proportional.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
 
 ## Availability

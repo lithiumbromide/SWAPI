@@ -45,13 +45,7 @@ property System.String^ Caption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Caption text
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageLabel~Caption.html)
-
-.
+See [PropertyManagerPageLabel::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageLabel~Caption.html).
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

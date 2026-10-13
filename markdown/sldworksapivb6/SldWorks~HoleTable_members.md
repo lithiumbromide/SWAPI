@@ -1,6 +1,5 @@
 ---
-title: "HoleTable Object
-Members"
+title: "HoleTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "HoleTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~HoleTable_members.html"
 ---
 
-# HoleTable Object
-Members
+# HoleTable Object Members
 
 ## Public Methods
 

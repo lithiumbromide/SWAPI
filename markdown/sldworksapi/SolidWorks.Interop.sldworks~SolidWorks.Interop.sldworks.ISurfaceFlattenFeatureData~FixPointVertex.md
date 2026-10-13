@@ -45,38 +45,19 @@ property System.Object^ FixPointVertex {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Anchor point (
-
-[vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-or a point on an
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-) for flattening
+Anchor point ([vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html) or a point on an [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)) for flattening
 
 ## VBA Syntax
 
-See
-
-[SurfaceFlattenFeatureData::FixPointVertex](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~FixPointVertex.html)
-
-.
+See [SurfaceFlattenFeatureData::FixPointVertex](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~FixPointVertex.html).
 
 ## See Also
 
 [ISurfaceFlattenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData.html)
-
 [ISurfaceFlattenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData_members.html)
 
 ## Availability

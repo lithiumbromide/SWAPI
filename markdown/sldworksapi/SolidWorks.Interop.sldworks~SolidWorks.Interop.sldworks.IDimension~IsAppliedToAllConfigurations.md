@@ -40,13 +40,7 @@ System.bool IsAppliedToAllConfigurations()
 System.bool IsAppliedToAllConfigurations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the dimension is applied to all configurations, false if the dimension i
 
 ## VBA Syntax
 
-See
-
-[Dimension::IsAppliedToAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~Dimension~IsAppliedToAllConfigurations.html)
-
-.
+See [Dimension::IsAppliedToAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~Dimension~IsAppliedToAllConfigurations.html).
 
 ## Examples
 
@@ -68,12 +58,11 @@ See
 
 If there is only one configuration of a part, this method returns True.
 
-This method applies only to dimensions that are driven by or drive geometry. For example, this method does not apply to reference dimensions (see[IDimension::IsReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IsReference.html)and[IDimension::DrivenState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~DrivenState.html)). This method returns True for reference dimensions.
+This method applies only to dimensions that are driven by or drive geometry. For example, this method does not apply to reference dimensions (see [IDimension::IsReference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IsReference.html) and [IDimension::DrivenState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~DrivenState.html)). This method returns True for reference dimensions.
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
 
 ## Availability

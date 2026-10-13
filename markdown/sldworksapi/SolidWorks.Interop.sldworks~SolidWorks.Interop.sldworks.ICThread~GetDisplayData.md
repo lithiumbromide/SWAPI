@@ -40,13 +40,7 @@ System.object GetDisplayData()
 System.Object^ GetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ See
 
 ## VBA Syntax
 
-See
-
-[CThread::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~CThread~GetDisplayData.html)
-
-.
+See [CThread::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~CThread~GetDisplayData.html).
 
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [ICThread Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html)
-
 [ICThread::IGetDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread~IGetDisplayData.html)

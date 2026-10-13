@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetColumnCount Method (IBomTable)
 
-Obsolete. Superseded by
-
-[IBomTable::GetTotalColumnCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetTotalColumnCount.html)
-
-.
+Obsolete. Superseded by [IBomTable::GetTotalColumnCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~GetTotalColumnCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetColumnCount()
 System.int GetColumnCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BomTable::GetColumnCount](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetColumnCount.html)
-
-.
+See [BomTable::GetColumnCount](ms-its:sldworksapivb6.chm::/sldworks~BomTable~GetColumnCount.html).
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)

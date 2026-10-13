@@ -34,14 +34,9 @@ System.String^ mbsFileName
 
 ### Field Value
 
-File name, if the bsExtractPath argument to
-
-[IEdmAddInMgr8::ExtractInstalledAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~ExtractInstalledAddIn.html)
-
-is specified, or the complete path to the file, if an extract folder is not specified
+File name, if the bsExtractPath argument to [IEdmAddInMgr8::ExtractInstalledAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~ExtractInstalledAddIn.html) is specified, or the complete path to the file, if an extract folder is not specified
 
 ## See Also
 
 [EdmAddInFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
 [EdmAddInFileInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo_members.html)

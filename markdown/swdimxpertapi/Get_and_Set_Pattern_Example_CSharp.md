@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Pattern_Example_CSharp.htm"
 
 # Get and Set Pattern Example (C#)
 
-This example shows how to get
-and set DimXpert pattern features.
+This example shows how to get and set DimXpert pattern features.
 
 ```vb
  //--------------------------------------------------------------------------

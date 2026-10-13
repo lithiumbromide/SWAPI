@@ -41,20 +41,13 @@ void ResetAll();
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::ResetAll](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~ResetAll.html)
-
-.
+See [TemplateOverrides::ResetAll](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~ResetAll.html).
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
-
 [ITemplateOverrides::ApplyOverrides Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ApplyOverrides.html)
-
 [ITemplateOverrides::SaveCostingOverrideSettings Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SaveCostingOverrideSettings.html)
 
 ## Availability

@@ -42,13 +42,10 @@ void Show(
 
 ### Parameters
 
-- `peReply`: [EdmGetOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpReply.html)
-
-; user-defined action
+- `peReply`: [EdmGetOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpReply.html); user-defined action
 - `vbApplyForAll`: True to apply peReply to all items, false to not
 
 ## See Also
 
 [IEdmGetCSVersionDialog Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html)
-
 [IEdmGetCSVersionDialog Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog_members.html)

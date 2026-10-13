@@ -45,13 +45,7 @@ property System.double BendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ Bend radius in meters
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~BendRadius.html)
-
-.
+See [MiterFlangeFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~BendRadius.html).
 
 ## Examples
 
-See
-
-[IMiterFlangeFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData.html)
-
-examples.
+See [IMiterFlangeFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData.html) examples.
 
 ## Remarks
 
-This property is only used when
-
-[IMiterFlangeFeatureData::UseDefaultBendRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData~UseDefaultBendRadius.html)
-
-is True.
+This property is only used when [IMiterFlangeFeatureData::UseDefaultBendRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData~UseDefaultBendRadius.html) is True.
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
 
 ## Availability

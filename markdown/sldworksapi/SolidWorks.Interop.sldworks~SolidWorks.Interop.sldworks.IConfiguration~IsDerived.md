@@ -40,13 +40,7 @@ System.bool IsDerived()
 System.bool IsDerived();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ True if this configuration is a derived configuration, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::IsDerived](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsDerived.html)
-
-.
+See [Configuration::IsDerived](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsDerived.html).
 
 ## Examples
 
 [Traverse Hierarchy of Configurations (VBA)](Traverse_Hierarchy_of_Configurations_Example_VB.htm)
-
 [Work with Configurations (VBA)](Work_with_Configurations_Example_VB.htm)
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::IsDefeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsDefeature.html)
 
 ## Availability

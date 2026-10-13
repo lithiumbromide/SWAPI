@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMenuInfoFlags.html"
 
 # EdmGetMenuInfoFlags Enumeration
 
-Flags returned from
-
-[IEdmSearch7::GetMenuInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7~GetMenuInfo.html)
-
-.
+Flags returned from [IEdmSearch7::GetMenuInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7~GetMenuInfo.html).
 
 ## Syntax
 

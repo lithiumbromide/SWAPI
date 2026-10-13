@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFo
 
 # ICWForce Interface Members
 
-The following tables list the members exposed by[ICWForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html).
+The following tables list the members exposed by [ICWForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html).
 
 ## Public Properties
 
@@ -59,5 +59,4 @@ The following tables list the members exposed by[ICWForce](SolidWorks.Interop.co
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

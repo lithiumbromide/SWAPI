@@ -11,12 +11,8 @@ source: "sldworksapi/Set_Dimensions_to_Mid-Tolerance_Example_VB.htm"
 
 This example:
 
-- shows how to iterate over
-  all dimensions in a part and set each dimension with tolerance to the middle of
-  the
-  tolerance range.
-- does not analyze the overall
-  effect of varying tolerances.
+- shows how to iterate over all dimensions in a part and set each dimension with tolerance to the middle of the tolerance range.
+- does not analyze the overall effect of varying tolerances.
 
 ```
 '---------------------------------------------------

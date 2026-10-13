@@ -51,34 +51,24 @@ True to save the entire animation, false to not
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::SaveEntireAnimation](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~SaveEntireAnimation.html)
-
-.
+See [AVIParameter::SaveEntireAnimation](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~SaveEntireAnimation.html).
 
 ## Examples
 
 [Create Motion Studies (VBA)](Create_Motion_Studies_Example_VB.htm)
-
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## Remarks
 
-If this property is set to false, then specify the[start time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~StartTime.html)and[end time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~EndTime.html)of the time period of the animation to which to save to the animation file or files.
+If this property is set to false, then specify the [start time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~StartTime.html) and [end time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~EndTime.html) of the time period of the animation to which to save to the animation file or files.
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
-
 [IAVIParameter::ScreenHeight Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ScreenHeight.html)
-
 [IAVIParameter::ScreenWidth Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ScreenWidth.html)
 
 ## Availability

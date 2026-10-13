@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Assembly_Components_Using_Advanced_Selection_Criteri
 
 # Select Assembly Components Using Advanced Selection Criteria Example (VB.NET)
 
-This example shows how to select assembly components that are mated to a
-specified part.
+This example shows how to select assembly components that are mated to a specified part.
 
 ```vb
   '-------------------------------------------------------

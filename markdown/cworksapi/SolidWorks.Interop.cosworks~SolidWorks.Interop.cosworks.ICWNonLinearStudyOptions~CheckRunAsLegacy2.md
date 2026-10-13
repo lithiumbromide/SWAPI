@@ -47,37 +47,24 @@ property System.bool CheckRunAsLegacy2 {
 
 ### Property Value
 
--1 or true to run as legacy and import only the normal component of the pressure load, 0 or false to import all components including shear stress (see
-
-Remarks
-
-)
+-1 or true to run as legacy and import only the normal component of the pressure load, 0 or false to import all components including shear stress (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::CheckRunAsLegacy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckRunAsLegacy2.html)
-
-.
+See [CWNonLinearStudyOptions::CheckRunAsLegacy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckRunAsLegacy2.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWNonLinearStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure2.html)
-
-  is set to -1.
-- [ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html)
-
-  is set to a SOLIDWORKS Flow Simulation results file.
+- [ICWNonLinearStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure2.html) is set to -1.
+- [ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html) is set to a SOLIDWORKS Flow Simulation results file.
 
 This property returns a boolean value which can be cast to an integer. To set this property, you can specify either the boolean or the integer.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

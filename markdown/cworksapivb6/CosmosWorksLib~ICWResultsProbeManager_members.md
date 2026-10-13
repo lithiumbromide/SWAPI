@@ -1,6 +1,5 @@
 ---
-title: "ICWResultsProbeManager Object
-Members"
+title: "ICWResultsProbeManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWResultsProbeManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWResultsProbeManager_members.html"
 ---
 
-# ICWResultsProbeManager Object
-Members
+# ICWResultsProbeManager Object Members
 
 ## Public Methods
 

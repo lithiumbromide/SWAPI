@@ -45,13 +45,7 @@ property System.bool UseGaugeTable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to use available bend radius values from a gauge table, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::UseGaugeTable](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseGaugeTable.html)
-
-.
+See [SketchedBendFeatureData::UseGaugeTable](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseGaugeTable.html).
 
 ## Examples
 
@@ -77,7 +67,7 @@ See
 '2. Open an Immediate window.
 '
 'Postconditions:
-'1. A part with**Sheet-Metal**,**Base-Flange1**, and**Sketched Bend1**features is created.
+'1. A part with **Sheet-Metal**, **Base-Flange1**, and **Sketched Bend1** features is created.
 '2. Inspect the Immediate window.
 '=============================================================================
 
@@ -191,15 +181,15 @@ Set skBendFeatData = Part.FeatureManager.**CreateDefinition**(swFmSketchBend)
 skBendFeatData.BendAngle = 1.5707963267949
 
 'If using a default bend radius, you cannot set the bend radius
-skBendFeatData.**UseDefaultBendRadius**= False
-skBendFeatData.**BendRadius**= 0.001
-skBendFeatData.**ReverseDirection**= False
+skBendFeatData.**UseDefaultBendRadius** = False
+skBendFeatData.**BendRadius** = 0.001
+skBendFeatData.**ReverseDirection** = False
 
 'UseGaugeTable is valid only if UseDefaultBendRadius is false
-skBendFeatData.**UseGaugeTable**= True
+skBendFeatData.**UseGaugeTable** = True
 
 Set CBAObject = skBendFeatData.**GetCustomBendAllowance**()
-CBAObject.**BendAllowance**= 0.003
+CBAObject.**BendAllowance** = 0.003
 Call skBendFeatData.**SetCustomBendAllowance**(CBAObject)
 
 Set myFeature = Part.FeatureManager.**CreateFeature**(skBendFeatData)
@@ -212,8 +202,8 @@ Set myFeatData = myFeature.**GetDefinition**()
 Debug.Print "Use gauge table? " & myFeatData.**UseGaugeTable**
 
 'Do not use gauge table, so you can set the bend radius
-myFeatData.**UseGaugeTable**= False
-myFeatData.**BendRadius**= 0.00635
+myFeatData.**UseGaugeTable** = False
+myFeatData.**BendRadius** = 0.00635
 
 Debug.Print "Bend radius set to: " & myFeatData.**BendRadius**
 
@@ -226,22 +216,13 @@ End Sub
 This property:
 
 - is valid only if a gauge table is specified in a parent sheet metal feature (e.g., lofted bend, swept flange, base flange).
-- is valid only if
-
-  [ISketchedBendFeatureData::UseDefaultBendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendRadius.html)
-
-  is set to false.
+- is valid only if [ISketchedBendFeatureData::UseDefaultBendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendRadius.html) is set to false.
 - is automatically set to false and cannot be changed if ISketchedBendFeatureData::UseDefaultBendRadius is set to true.
-- must be set to false in order to set
-
-  [ISketchedBendFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendRadius.html)
-
-  .
+- must be set to false in order to set [ISketchedBendFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendRadius.html).
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
 
 ## Availability

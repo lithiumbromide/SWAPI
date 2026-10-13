@@ -40,34 +40,20 @@ System.object GetSlotPoints()
 System.Object^ GetSlotPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
+Array of [sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
 
 ## VBA Syntax
 
-See
-
-[SketchSlot::GetSlotPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~GetSlotPoints.html)
-
-.
+See [SketchSlot::GetSlotPoints](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~GetSlotPoints.html).
 
 ## See Also
 
 [ISketchSlot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html)
-
 [ISketchSlot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot_members.html)
-
 [ISketchSlot::CreationType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot~CreationType.html)
 
 ## Availability

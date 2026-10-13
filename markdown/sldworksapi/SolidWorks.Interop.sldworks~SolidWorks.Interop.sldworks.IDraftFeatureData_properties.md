@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDraftFeatureData Interface Properties
 
-For a list of all members of this type, see[IDraftFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData_members.html).
+For a list of all members of this type, see [IDraftFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IDraftFeatureData members](SolidWork
 ## See Also
 
 [IDraftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

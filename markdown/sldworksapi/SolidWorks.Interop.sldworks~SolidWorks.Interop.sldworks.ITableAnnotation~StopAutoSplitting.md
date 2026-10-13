@@ -45,13 +45,7 @@ property System.bool StopAutoSplitting {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,15 +53,11 @@ True to stop the automatic horizontal splitting of this table, false to not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::StopAutoSplitting](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~StopAutoSplitting.html)
-
-.
+See [TableAnnotation::StopAutoSplitting](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~StopAutoSplitting.html).
 
 ## Remarks
 
-This property works with[ITableAnnotation::HorizontalAutoSplit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~HorizontalAutoSplit.html)to control the automatic horizontal splitting of:
+This property works with [ITableAnnotation::HorizontalAutoSplit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~HorizontalAutoSplit.html) to control the automatic horizontal splitting of:
 
 - [Hole tables](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTableAnnotation.html)
 - [Bill of Materials tables](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html)
@@ -76,11 +66,8 @@ This property works with[ITableAnnotation::HorizontalAutoSplit](SOLIDWORKS.Inter
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::Split Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Split.html)
-
 [ITableAnnotation::GetSplitInformation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetSplitInformation.html)
 
 ## Availability

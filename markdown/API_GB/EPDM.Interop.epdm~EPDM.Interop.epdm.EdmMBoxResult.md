@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxResult.html"
 
 # EdmMBoxResult Enumeration
 
-Types of clicked button returned by
-
-[IEdmVault5::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~MsgBox.html)
-
-.
+Types of clicked button returned by [IEdmVault5::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~MsgBox.html).
 
 ## Syntax
 

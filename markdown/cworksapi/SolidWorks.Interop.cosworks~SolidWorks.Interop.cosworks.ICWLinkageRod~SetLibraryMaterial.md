@@ -57,24 +57,15 @@ void SetLibraryMaterial(
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetLibraryMaterial.html)
-
-.
+See [CWLinkageRod::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetLibraryMaterial.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

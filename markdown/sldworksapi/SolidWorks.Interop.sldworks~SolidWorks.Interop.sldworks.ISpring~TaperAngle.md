@@ -45,13 +45,7 @@ property System.double TaperAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Angle by which to taper the spring
 
 ## VBA Syntax
 
-See
-
-[Spring::TaperAngle](ms-its:sldworksapivb6.chm::/sldworks~Spring~TaperAngle.html)
-
-.
+See [Spring::TaperAngle](ms-its:sldworksapivb6.chm::/sldworks~Spring~TaperAngle.html).
 
 ## Remarks
 
-Use[ISpring::TaperOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~TaperOutward.html)to set the direction of the taper outward or inward.
+Use [ISpring::TaperOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~TaperOutward.html) to set the direction of the taper outward or inward.
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

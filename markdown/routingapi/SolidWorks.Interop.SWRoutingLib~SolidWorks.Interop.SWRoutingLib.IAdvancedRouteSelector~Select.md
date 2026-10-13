@@ -67,60 +67,29 @@ System.Object^ Select(
 
 - `selIndex`: Index of the component (fitting, cable, or wire) to select
 - `append`: True appends the selection to the selection list, false replaces the selection list with this selection
-- `callbackIn`: SOLIDWORKS
-
-[SelectData](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-or NULL
-- `outputType`: Output type as defined by
-
-[swAdvancedRouteSelectionOutput_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swAdvancedRouteSelectionOutput_e.html)
-- `selObjName`: Array of length 1; contains either the name of the selected component or an empty string (see
-
-Remarks
-
-)
+- `callbackIn`: SOLIDWORKS [SelectData](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) or NULL
+- `outputType`: Output type as defined by [swAdvancedRouteSelectionOutput_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swAdvancedRouteSelectionOutput_e.html)
+- `selObjName`: Array of length 1; contains either the name of the selected component or an empty string (see **Remarks**)
 
 ### Return Value
 
-Array of names of the attached components for the selected component (see
-
-Remarks
-
-)
+Array of names of the attached components for the selected component (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AdvancedRouteSelector::Select](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~Select.html)
-
-.
+See [AdvancedRouteSelector::Select](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~Select.html).
 
 ## Examples
 
-See the
-
-[IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
-examples.
+See the [IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html) examples.
 
 ## Remarks
 
-Both selObjName and the return value of this method are Variant SafeArrays of BSTRs. See
-
-[Passing SafeArrays in Visual Basic](sldworksapiprogguide.chm::/Overview/SafeArraysVB.htm)
-
-and
-
-[Passing SafeArrays in C++](sldworksAPIProgGuide.chm::/Overview/SafeArrays.htm)
-
-for more information.
+Both selObjName and the return value of this method are Variant SafeArrays of BSTRs. See [Passing SafeArrays in Visual Basic](sldworksapiprogguide.chm::/Overview/SafeArraysVB.htm) and [Passing SafeArrays in C++](sldworksAPIProgGuide.chm::/Overview/SafeArrays.htm) for more information.
 
 ## See Also
 
 [IAdvancedRouteSelector Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
 [IAdvancedRouteSelector Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector_members.html)
 
 ## Availability

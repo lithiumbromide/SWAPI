@@ -51,7 +51,9 @@ public enum class swArrowStyle_e : public System.Enum
 | swOPEN_ARROWHEAD | 0 = No fill |
 | swORIGIN_ARROWHEAD | 4 = No fill circle |
 | swRUS_ARROWHEAD | 7 = GOST standard |
+| swSHOULDER_ARROWHEAD | 11 = No arrowhead; filled triangle at leader attachment point |
 | swSLASH_ARROWHEAD | 2 = Slash |
+| swSMART_ARROWHEAD | 12 = Filled arrowhead with lightning bolt |
 | swWIDE_ARROWHEAD | 5 = Wide |
 
 ## See Also

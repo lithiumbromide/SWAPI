@@ -45,66 +45,37 @@ property System.Object^ GuideCurves {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of guide[curves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html),[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html),[lines](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html), or[arcs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
+Array of guide [curves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html), [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), [lines](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html), or [arcs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::GuideCurves](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~GuideCurves.html)
-
-.
+See [SweepFeatureData::GuideCurves](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~GuideCurves.html).
 
 ## Remarks
 
 This property is not valid if:
 
-- [ISweepFeatureData::Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Direction.html)
-
-  is set to
-
-  [swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html)
-
-  .swSweepBiDirectional.
+- [ISweepFeatureData::Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Direction.html) is set to [swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html).swSweepBiDirectional.
 
 - or -
 
-- [ISweepFeatureData::TwistControlType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~TwistControlType.html)
+- [ISweepFeatureData::TwistControlType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~TwistControlType.html) is set to [swTwistControlType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTwistControlType_e.html).swTwistControlConstantTwistAlongPath.
 
-  is set to
-
-  [swTwistControlType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTwistControlType_e.html)
-
-  .swTwistControlConstantTwistAlongPath.
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::GetGuideCurvesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetGuideCurvesCount.html)
-
 [ISweepFeatureData::GetGuideCurvesType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetGuideCurvesType.html)
-
 [ISweepFeatureData::IGetGuideCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~IGetGuideCurves.html)
-
 [ISweepFeatureData::IGetGuideCurvesType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~IGetGuideCurvesType.html)
-
 [ISweepFeatureData::ISetGuideCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~ISetGuideCurves.html)
-
 [ISweepFeatureData::MergeSmoothFaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~MergeSmoothFaces.html)
 
 ## Availability

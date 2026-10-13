@@ -40,13 +40,7 @@ System.int GetTableAnnotationCount()
 System.int GetTableAnnotationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,20 @@ Number of revision table annotations
 
 ## VBA Syntax
 
-See
-
-[RevisionTableFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetTableAnnotationCount.html)
-
-.
+See [RevisionTableFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableFeature~GetTableAnnotationCount.html).
 
 ## Examples
 
-See the
-
-[IRevisionTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html)
-
-examples.
+See the [IRevisionTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IRevisionTableFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature~IGetTableAnnotations.html)
-
-to get the size of the array for that method.
+Call this method before calling [IRevisionTableFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature~IGetTableAnnotations.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRevisionTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature.html)
-
 [IRevisionTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature_members.html)
-
 [IRevisionTableFeature::GetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableFeature~GetTableAnnotations.html)
 
 ## Availability

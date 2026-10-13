@@ -51,19 +51,11 @@ System.bool GetHoleStandards(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Indexes`: Array of Hole Wizard standards as defined in
-
-[swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html)
+- `Indexes`: Array of Hole Wizard standards as defined in [swWzdHoleStandards_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandards_e.html)
 - `Names`: Array of names of Hole Wizard standards
 
 ### Return Value
@@ -72,30 +64,18 @@ True if Hole Wizard standards retrieved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleStandardsData::GetHoleStandards](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetHoleStandards.html)
-
-.
+See [HoleStandardsData::GetHoleStandards](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetHoleStandards.html).
 
 ## Examples
 
-See the
-
-[IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
-example.
+See the [IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html) example.
 
 ## See Also
 
 [IHoleStandardsData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
 [IHoleStandardsData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData_members.html)
-
 [IHoleStandardsData::GetFastenerTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTable.html)
-
 [IHoleStandardsData::GetFastenerTableTypes Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTableTypes.html)
-
 [IHoleStandardsData::GetFastenerTypes Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTypes.html)
 
 ## Availability

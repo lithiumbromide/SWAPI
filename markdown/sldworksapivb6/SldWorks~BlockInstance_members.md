@@ -1,6 +1,5 @@
 ---
-title: "BlockInstance Object
-Members"
+title: "BlockInstance Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BlockInstance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BlockInstance_members.html"
 ---
 
-# BlockInstance Object
-Members
+# BlockInstance Object Members
 
 ## Public Methods
 

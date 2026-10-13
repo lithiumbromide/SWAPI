@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExper
 
 # sw3DExperienceState_e Enumeration
 
-SOLIDWORKS Connected states.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+SOLIDWORKS Design connected to the 3DEXPERIENCE platform states. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

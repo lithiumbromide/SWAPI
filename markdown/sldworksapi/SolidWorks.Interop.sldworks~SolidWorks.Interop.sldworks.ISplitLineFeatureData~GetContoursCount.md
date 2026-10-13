@@ -40,13 +40,7 @@ System.int GetContoursCount()
 System.int GetContoursCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Number of selected contours
 
 ## VBA Syntax
 
-See
-
-[SplitLineFeatureData::GetContoursCount](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~GetContoursCount.html)
-
-.
+See [SplitLineFeatureData::GetContoursCount](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~GetContoursCount.html).
 
 ## Remarks
 
-Call this method before calling[ISplitLineFeatureData::IGetContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitLineFeatureData~IGetContours.html)to determine the size of the array for that method.
+Call this method before calling [ISplitLineFeatureData::IGetContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitLineFeatureData~IGetContours.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISplitLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
 [ISplitLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData_members.html)
-
 [ISplitLineFeatureData:ISetContours Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData~ISetContours.html)
-
 [ISplitLineFeatureData::Contours Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData~Contours.html)
 
 ## Availability

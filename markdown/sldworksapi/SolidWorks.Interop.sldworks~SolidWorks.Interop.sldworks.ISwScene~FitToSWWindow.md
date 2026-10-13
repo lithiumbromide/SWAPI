@@ -45,13 +45,7 @@ property System.bool FitToSWWindow {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to stretch an image to fit, false to not
 
 ## VBA Syntax
 
-See
-
-[SwScene::FitToSWWindow](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FitToSWWindow.html)
-
-.
+See [SwScene::FitToSWWindow](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FitToSWWindow.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
-This property is valid only if[ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html)is[swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_Image.
+This property is valid only if [ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html) is [swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_Image.
 
-Set the background image with[ISwScene::BackgroundImage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundImage.html).
+Set the background image with [ISwScene::BackgroundImage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundImage.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool TangentPropagation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to propagate chamfer to tangent faces, false to not
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData2::TangentPropagation](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~TangentPropagation.html)
-
-.
+See [ChamferFeatureData2::TangentPropagation](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~TangentPropagation.html).
 
 ## See Also
 
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
 [IChamferFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2_members.html)
 
 ## Availability

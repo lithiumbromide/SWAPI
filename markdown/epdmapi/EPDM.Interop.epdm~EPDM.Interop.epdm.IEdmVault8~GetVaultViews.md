@@ -42,24 +42,16 @@ void GetVaultViews(
 
 ### Parameters
 
-- `ppoRetViews`: Array of
-
-[EdmViewInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo.html)
-
-structures; one structure for each view
+- `ppoRetViews`: Array of [EdmViewInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo.html) structures; one structure for each view
 - `bOnlyLoggedIn`: True to get views in which you are currently logged, false to get all views
 
 ## Examples
 
-See the
-
-[IEdmVault8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html)
-
-examples.
+See the [IEdmVault8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html) examples.
 
 ## Remarks
 
-You do not have to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)or[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)before calling this method.
+You do not have to call [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) before calling this method.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -68,7 +60,6 @@ You do not have to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.I
 ## See Also
 
 [IEdmVault8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8.html)
-
 [IEdmVault8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault8_members.html)
 
 ## Availability

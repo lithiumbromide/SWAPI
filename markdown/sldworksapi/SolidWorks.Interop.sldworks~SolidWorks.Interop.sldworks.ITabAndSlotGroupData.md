@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 Allows access to a tab and slot feature group.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,19 +41,11 @@ public interface class ITabAndSlotGroupData
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData.html)
-
-.
+See [TabAndSlotGroupData](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData.html).
 
 ## Examples
 
-See the
-
-[ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
-example.
+See the [ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html) example.
 
 ## Accessors
 
@@ -68,5 +60,4 @@ example.
 ## See Also
 
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -51,26 +51,16 @@ System.bool ActivateGroundPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configurations in which to activate a ground plane as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInConfigurationOpts_e.html):
+- `Config_opt`: Configurations in which to activate a ground plane as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInConfigurationOpts_e.html):
 
-- swThisConfiguration
-- swAllConfigurations
-- swSpecifyConfiguration
-- `Config_names`: Array of configurations in which to activate a ground plane; valid only if Config_opt is set to swInConfiguration_e.swSpecifyConfiguration (see
-
-Remarks
-
-)
+  - swThisConfiguration
+  - swAllConfigurations
+  - swSpecifyConfiguration
+- `Config_names`: Array of configurations in which to activate a ground plane; valid only if Config_opt is set to swInConfiguration_e.swSpecifyConfiguration (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +68,7 @@ True if ground plane successfully activated in the specified configurations, fal
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ActivateGroundPlane](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ActivateGroundPlane.html)
-
-.
+See [AssemblyDoc::ActivateGroundPlane](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ActivateGroundPlane.html).
 
 ## Examples
 
@@ -90,20 +76,17 @@ See
 
 ## Remarks
 
-To populate config_names, use[IModelDoc2::GetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html).
+To populate config_names, use [IModelDoc2::GetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html).
 
-Before calling this method, use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the ground plane to activate in the specified configurations.
+Before calling this method, use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the ground plane to activate in the specified configurations.
 
 Only one ground plane can be active at a given time in each assembly configuration.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetActiveGroundPlane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetActiveGroundPlane.html)
-
 [IFeatureManager::InsertGroundPlane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGroundPlane.html)
 
 ## Availability

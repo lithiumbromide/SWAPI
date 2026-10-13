@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Rotation angle in radians of the picture; counter-clockwise from the positive X
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::Angle](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~Angle.html)
-
-.
+See [SketchPicture::Angle](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~Angle.html).
 
 ## Examples
 
-See the
-
-[ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
-examples.
+See the [ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html) examples.
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
 
 ## Availability

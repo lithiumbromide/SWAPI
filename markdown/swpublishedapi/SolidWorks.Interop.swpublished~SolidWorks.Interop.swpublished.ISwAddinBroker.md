@@ -11,7 +11,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 Gets information about an add-in's entities so that SOLIDWORKS can interact with those entities.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,22 +41,13 @@ public interface class ISwAddinBroker
 
 ## VBA Syntax
 
-See
-
-[SwAddinBroker](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker.html)
-
-.
+See [SwAddinBroker](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker.html).
 
 ## Remarks
 
-To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see
-
-[ComVisibleAttribute in VB.NET and C# Macros and Add-ins](sldworksapiprogguide.chm::/OVERVIEW/ComVisibleAttribute_in_VSTA_macros.htm)
-
-.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see [ComVisibleAttribute in VB.NET and C# Macros and Add-ins](sldworksapiprogguide.chm::/OVERVIEW/ComVisibleAttribute_in_VSTA_macros.htm).
 
 ## See Also
 
 [ISwAddinBroker Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

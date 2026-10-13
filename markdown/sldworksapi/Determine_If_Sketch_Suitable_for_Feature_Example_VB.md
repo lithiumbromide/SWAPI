@@ -9,13 +9,9 @@ source: "sldworksapi/Determine_If_Sketch_Suitable_for_Feature_Example_VB.htm"
 
 # Determine if Sketch Suitable for Feature Example (VBA)
 
-This example shows how to determine if a sketch is suitable for use
-in a feature.
+This example shows how to determine if a sketch is suitable for use in a feature.
 
-**NOTE:**kadov_tag{{</spaces>}}Sketch
-geometry can be used in a variety of ways in SOLIDWORKS.kadov_tag{{</spaces>}}However,
-not every sketch is suitable for every purpose.kadov_tag{{</spaces>}}For
-example, (non-thin) extrusions require a closed profile.
+**NOTE:** Sketch geometry can be used in a variety of ways in SOLIDWORKS Design. However, not every sketch is suitable for every purpose. For example, (non-thin) extrusions require a closed profile.
 
 ```
 '------------------------------------------------

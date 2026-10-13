@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # UsePageSetup Property (IModelDocExtension)
 
-Gets or sets whether this document uses its own page setup values, SOLIDWORKS application page setup values, or setup values on individual drawing sheets.
+Gets or sets whether this document uses its own page setup values, SOLIDWORKS Design application page setup values, or setup values on individual drawing sheets.
 
 ## Syntax
 
@@ -45,32 +45,20 @@ property System.int UsePageSetup {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Page setup to use as defined in[swPageSetupInUse_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupInUse_e.html)
+Page setup to use as defined in [swPageSetupInUse_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupInUse_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::UsePageSetup](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~UsePageSetup.html)
-
-.
+See [ModelDocExtension::UsePageSetup](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~UsePageSetup.html).
 
 ## Examples
 
 [Print Drawing (C#)](Print_Drawing_as_High_Quality_Example_CSharp.htm)
-
 [Print Drawing (VB.NET)](Print_Drawing_as_High_Quality_Example_VBNET.htm)
-
 [Print Drawing (VBA)](Print_Drawing_as_High_Quality_Example_VB.htm)
 
 ## Remarks
@@ -84,9 +72,7 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
 
 ## Availability

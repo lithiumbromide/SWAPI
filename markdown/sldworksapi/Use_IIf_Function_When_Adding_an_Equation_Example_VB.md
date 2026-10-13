@@ -9,8 +9,7 @@ source: "sldworksapi/Use_IIf_Function_When_Adding_an_Equation_Example_VB.htm"
 
 # Use IIf Function When Adding an Equation Example (VBA)
 
-This example shows how to use the Visual Basic IIf function when adding
-an equation.
+This example shows how to use the Visual Basic IIf function when adding an equation.
 
 ```
 '-----------------------------------------------------------------------

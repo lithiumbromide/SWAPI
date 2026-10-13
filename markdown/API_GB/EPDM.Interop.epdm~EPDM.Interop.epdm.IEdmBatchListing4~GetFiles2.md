@@ -39,23 +39,18 @@ void GetFiles2(
 
 ### Parameters
 
-- `ppoFiles`: Array of
-
-[EdmListFile2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2.html)
-
-structures; one structure for each file in the listing
+- `ppoFiles`: Array of [EdmListFile2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2.html) structures; one structure for each file in the listing
 
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
 
 This method does not work with assemblies that contain weldment components or cutlist items.
 
-Before calling this method, call[IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html).
+Before calling this method, call [IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +60,6 @@ Before calling this method, call[IEdmBatchListing2::CreateListEx](EPDM.Interop.e
 ## See Also
 
 [IEdmBatchListing4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4.html)
-
 [IEdmBatchListing4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing4_members.html)
 
 ## Availability

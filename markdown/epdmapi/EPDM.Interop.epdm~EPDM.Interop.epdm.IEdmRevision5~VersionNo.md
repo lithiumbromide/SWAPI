@@ -40,11 +40,9 @@ Version number
 ## Examples
 
 [Roll Back Revisions (C#)](Roll_Back_Revisions_Example_CSharp.htm)
-
 [Roll Back Revisions (VB.NET)](Roll_Back_Revisions_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmRevision5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html)
-
 [IEdmRevision5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "TabAndSlotGroupData Object
-Members"
+title: "TabAndSlotGroupData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TabAndSlotGroupData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TabAndSlotGroupData_members.html"
 ---
 
-# TabAndSlotGroupData Object
-Members
+# TabAndSlotGroupData Object Members
 
 ## Public Properties
 

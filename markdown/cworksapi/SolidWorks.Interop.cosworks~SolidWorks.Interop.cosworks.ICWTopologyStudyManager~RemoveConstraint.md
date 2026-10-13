@@ -53,25 +53,15 @@ System.int RemoveConstraint(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::RemoveConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~RemoveConstraint.html)
-
-.
+See [CWTopologyStudyManager::RemoveConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~RemoveConstraint.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## Remarks
 
@@ -80,7 +70,6 @@ You cannot remove the default constraint that is assigned to the goal.
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

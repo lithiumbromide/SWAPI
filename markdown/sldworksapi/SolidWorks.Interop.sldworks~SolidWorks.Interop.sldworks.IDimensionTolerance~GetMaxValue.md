@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetMaxValue Method (IDimensionTolerance)
 
-Obsolete. Superseded by
-
-[IDimensionTolerance::GetMaxValue2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~GetMaxValue2.html)
-
-.
+Obsolete. Superseded by [IDimensionTolerance::GetMaxValue2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~GetMaxValue2.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.double GetMaxValue()
 System.double GetMaxValue();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,33 +48,20 @@ Tolerance maximum value
 
 ## VBA Syntax
 
-See
-
-[DimensionTolerance::GetMaxValue](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~GetMaxValue.html)
-
-.
+See [DimensionTolerance::GetMaxValue](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~GetMaxValue.html).
 
 ## Remarks
 
-Depending on the[tolerance type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~Type.html), the tolerance minimum and maximum values might not be visible.
+Depending on the [tolerance type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~Type.html), the tolerance minimum and maximum values might not be visible.
 
 To:
 
-- get the tolerance minimum value, use
-
-  [IDimensionTolerance::GetMinValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~GetMinValue.html)
-
-  .
-- set the tolerance values, use
-
-  [IDimensionTolerance::SetValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~SetValues.html)
-
-  .
+- get the tolerance minimum value, use [IDimensionTolerance::GetMinValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~GetMinValue.html).
+- set the tolerance values, use [IDimensionTolerance::SetValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance~SetValues.html).
 
 ## See Also
 
 [IDimensionTolerance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html)
-
 [IDimensionTolerance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance_members.html)
 
 ## Availability

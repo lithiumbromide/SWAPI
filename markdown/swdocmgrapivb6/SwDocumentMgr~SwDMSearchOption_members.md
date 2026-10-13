@@ -1,6 +1,5 @@
 ---
-title: "SwDMSearchOption Object
-Members"
+title: "SwDMSearchOption Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMSearchOption_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMSearchOption_members.html"
 ---
 
-# SwDMSearchOption Object
-Members
+# SwDMSearchOption Object Members
 
 ## Public Methods
 

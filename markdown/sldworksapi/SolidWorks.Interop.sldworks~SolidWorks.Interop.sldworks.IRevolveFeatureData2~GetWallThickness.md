@@ -47,13 +47,7 @@ System.double GetWallThickness(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Wall thickness
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::GetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetWallThickness.html)
-
-.
+See [RevolveFeatureData2::GetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetWallThickness.html).
 
 ## Remarks
 
@@ -78,13 +68,9 @@ This method only affects thin features.
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::IsThinFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~IsThinFeature.html)
-
 [IRevolveFeatureData2::SetWallThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~SetWallThickness.html)
-
 [IRevolveFeatureData2::ThinWallType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~ThinWallType.html)
 
 ## Availability

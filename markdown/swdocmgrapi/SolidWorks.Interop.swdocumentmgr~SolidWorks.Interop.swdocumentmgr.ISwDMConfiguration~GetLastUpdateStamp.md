@@ -46,16 +46,11 @@ Date last updated
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::GetLastUpdateStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetLastUpdateStamp.html)
-
-.
+See [SwDMConfiguration::GetLastUpdateStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetLastUpdateStamp.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## Remarks
@@ -70,7 +65,6 @@ This time stamp is not incremented for such operations as color changes, feature
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

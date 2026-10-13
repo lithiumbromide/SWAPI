@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IInsertGtol Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IInsertGtol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertGtol.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IInsertGtol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertGtol.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Gtol IInsertGtol()
 Gtol^ IInsertGtol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IInsertGtol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IInsertGtol.html)
-
-.
+See [ModelDoc::IInsertGtol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IInsertGtol.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

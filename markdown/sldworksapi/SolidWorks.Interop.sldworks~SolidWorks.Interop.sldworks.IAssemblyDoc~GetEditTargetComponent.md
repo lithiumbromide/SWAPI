@@ -40,27 +40,15 @@ Component2 GetEditTargetComponent()
 Component2^ GetEditTargetComponent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-being edited
+[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) being edited
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetEditTargetComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetEditTargetComponent.html)
-
-.
+See [AssemblyDoc::GetEditTargetComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetEditTargetComponent.html).
 
 ## Examples
 
@@ -69,13 +57,9 @@ See
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetEditTarget Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetEditTarget.html)
-
 [IGetEditTarget Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IGetEditTarget.html)
-
 [IsEditingSelf Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IsEditingSelf.html)
 
 ## Availability

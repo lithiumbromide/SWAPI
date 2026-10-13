@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWDistributedMass::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~RemoveEntity.html)
-
-.
+See [CWDistributedMass::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~RemoveEntity.html).
 
 ## See Also
 
 [ICWDistributedMass Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html)
-
 [ICWDistributedMass Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass_members.html)
-
 [ICWDistributedMass::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass~InsertEntity.html)
 
 ## Availability

@@ -55,27 +55,13 @@ System.bool CreateSketchPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Relation1`: Relation as defined in
-
-[swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
-
-for the first selection to position the 3D sketch plane
-- `Relation2`: Relation as defined in[swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)for the second selection to position the 3D sketch plane
-- `Relation3`: Relation as defined in
-
-[swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
-
-for the third selection to position the 3D sketch plane
+- `Relation1`: Relation as defined in [swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html) for the first selection to position the 3D sketch plane
+- `Relation2`: Relation as defined in [swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html) for the second selection to position the 3D sketch plane
+- `Relation3`: Relation as defined in [swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html) for the third selection to position the 3D sketch plane
 
 ### Return Value
 
@@ -83,18 +69,12 @@ True if the 3D sketch plane is created, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchPlane.html)
-
-.
+See [SketchManager::CreateSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchPlane.html).
 
 ## Examples
 
 [Create 3D Sketch Plane (C#)](Create_3D_Sketch_Plane_Example_CSharp.htm)
-
 [Create 3D Sketch Plane (VB.NET)](Create_3D_Sketch_Plane_Example_VBNET.htm)
-
 [Create 3D Sketch Plane (VBA)](Create_3D_Sketch_Plane_Example_VB.htm)
 
 ## Remarks
@@ -104,7 +84,6 @@ This method gets the selected items from the selection list in the order in whic
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

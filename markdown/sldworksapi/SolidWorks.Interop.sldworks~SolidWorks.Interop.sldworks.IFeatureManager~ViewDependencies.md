@@ -45,54 +45,31 @@ property System.bool ViewDependencies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to view the FeatureManager design tree by its dependencies, false to not (see
-
-Remarks
-
-)
+True to view the FeatureManager design tree by its dependencies, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::ViewDependencies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ViewDependencies.html)
-
-.
+See [FeatureManager::ViewDependencies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ViewDependencies.html).
 
 ## Examples
 
 [Get and Set FeatureManager Design Tree Display (C#)](Get_and_Set_FeatureManager_Design_Tree_Display_Example_CSharp.htm)
-
 [Get and Set FeatureManager Design Tree Display (VB.NET)](Get_and_Set_FeatureManager_Design_Tree_Display_Example_VBNET.htm)
-
 [Get and Set FeatureManager Design Tree Display (VBA)](Get_and_Set_FeatureManager_Design_Tree_Display_Example_VB.htm)
 
 ## Remarks
 
-Setting IFeatureManager::ViewDependencies to true sets
-
-[IFeatureManager::ViewFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ViewFeatures.html)
-
-to false, and vice versa.
+Setting IFeatureManager::ViewDependencies to true sets [IFeatureManager::ViewFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ViewFeatures.html) to false, and vice versa.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::ShowFeatureDetails Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ShowFeatureDetails.html)
-
 [IFeatureManager::ShowHierarchyOnly Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ShowHierarchyOnly.html)
 
 ## Availability

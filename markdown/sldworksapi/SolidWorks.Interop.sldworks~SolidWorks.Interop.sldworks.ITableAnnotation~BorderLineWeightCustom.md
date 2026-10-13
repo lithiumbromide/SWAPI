@@ -45,13 +45,7 @@ property System.double BorderLineWeightCustom {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Custom weight, in millimeters, of border lines for this table
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::BorderLineWeightCustom](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~BorderLineWeightCustom.html)
-
-.
+See [TableAnnotation::BorderLineWeightCustom](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~BorderLineWeightCustom.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

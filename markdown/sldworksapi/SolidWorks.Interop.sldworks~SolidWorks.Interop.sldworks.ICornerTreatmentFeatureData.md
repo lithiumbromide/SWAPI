@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a corner treatment feature of a structure system.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,15 +41,11 @@ public interface class ICornerTreatmentFeatureData
 
 ## VBA Syntax
 
-See
-
-[CornerTreatmentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentFeatureData.html)
-
-.
+See [CornerTreatmentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentFeatureData.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Remarks
 
@@ -70,5 +66,4 @@ This interface is the base class for the following interfaces:
 ## See Also
 
 [ICornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

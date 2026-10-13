@@ -9,8 +9,7 @@ source: "swscanto3dapi/Get_Mesh_Data_Example_VB.htm"
 
 # Get Mesh Data Example (VBA)
 
-This example shows how to get the mesh feature data from a***.3DS**file.
-You must have a SOLIDWORKS Premium license to run this example.
+This example shows how to get the mesh feature data from a ***.3DS** file. You must have a SOLIDWORKS Premium license to run this example.
 
 ```vb
  '----------------------------------------------------------------------------

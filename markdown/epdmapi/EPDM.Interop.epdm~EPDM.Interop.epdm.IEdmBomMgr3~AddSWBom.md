@@ -55,16 +55,11 @@ void AddSWBom(
 
 ## Examples
 
-See the
-
-[IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html)
-
-examples.
+See the [IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html) examples.
 
 ## See Also
 
 [IEdmBomMgr3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html)
-
 [IEdmBomMgr3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3_members.html)
 
 ## Availability

@@ -39,30 +39,17 @@ void ActivateSelectedFeature()
 void ActivateSelectedFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ActivateSelectedFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ActivateSelectedFeature.html)
-
-.
+See [ModelDoc2::ActivateSelectedFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ActivateSelectedFeature.html).
 
 ## Examples
 
 [Activate Feature (VBA)](Activate_Feature_Example_VB.htm)
-
 [Create 3D Sketch Plane (C#)](Create_3D_Sketch_Plane_Example_CSharp.htm)
-
 [Create 3D Sketch Plane (VB.NET)](Create_3D_Sketch_Plane_Example_VBNET.htm)
-
 [Create 3D Sketch Plane (VBA)](Create_3D_Sketch_Plane_Example_VB.htm)
 
 ## Remarks
@@ -72,7 +59,6 @@ This method shows the selected feature's dimensions in the graphic area.
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

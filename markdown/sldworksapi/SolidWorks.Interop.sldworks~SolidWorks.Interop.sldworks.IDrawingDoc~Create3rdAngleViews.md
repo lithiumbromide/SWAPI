@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # Create3rdAngleViews Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::Create3rdAngleViews2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~Create3rdAngleViews2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::Create3rdAngleViews2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~Create3rdAngleViews2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool Create3rdAngleViews(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::Create3rdAngleViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Create3rdAngleViews.html)
-
-.
+See [DrawingDoc::Create3rdAngleViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Create3rdAngleViews.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

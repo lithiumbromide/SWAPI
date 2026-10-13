@@ -54,13 +54,7 @@ void InsertCutListPropertyNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::InsertCutListPropertyNote](ms-its:sldworksapivb6.chm::/sldworks~View~InsertCutListPropertyNote.html)
-
-.
+See [View::InsertCutListPropertyNote](ms-its:sldworksapivb6.chm::/sldworks~View~InsertCutListPropertyNote.html).
 
 ## Examples
 
 [Insert Cut List Item Property Note (VBA)](Insert_Cut_List_Item_Property_Note_Example_VB.htm)
-
 [Insert Cut List Item Property Note (VB.NET)](Insert_Cut_List_Item_Property_Note_Example_VBNET.htm)
-
 [Insert Cut List Item Property Note (C#)](Insert_Cut_List_Item_Property_Note_Example_CSharp.htm)
 
 ## Remarks
@@ -91,7 +79,6 @@ This method requires a flat pattern drawing view.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

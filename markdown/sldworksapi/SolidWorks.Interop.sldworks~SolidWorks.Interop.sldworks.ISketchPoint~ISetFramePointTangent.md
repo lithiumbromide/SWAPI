@@ -47,13 +47,7 @@ System.bool ISetFramePointTangent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::ISetFramePointTangent](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~ISetFramePointTangent.html)
-
-.
+See [SketchPoint::ISetFramePointTangent](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~ISetFramePointTangent.html).
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)

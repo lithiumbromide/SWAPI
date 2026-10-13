@@ -40,29 +40,15 @@ System.object GetVisibleDrawingComponents()
 System.Object^ GetVisibleDrawingComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Visible
-
-[IDrawingComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
-s in this drawing view
+Visible [IDrawingComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)s in this drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetVisibleDrawingComponents](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleDrawingComponents.html)
-
-.
+See [View::GetVisibleDrawingComponents](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleDrawingComponents.html).
 
 ## Examples
 
@@ -70,7 +56,7 @@ See
 
 '--------------------------------------------------------------------
 ' Preconditions:
-' 1. Open a drawing document of an assembly that contains**Drawing View1**
+' 1. Open a drawing document of an assembly that contains **Drawing View1**
 ' with one or more visible drawing components.
 ' 2. Open the Immediate window.
 '
@@ -129,23 +115,19 @@ End Sub
 ## Examples
 
 [Get Visible Drawing Components (VB.NET)](Get_Visible_Drawing_Components_Example_VBNET.htm)
-
 [Get Visible Drawing Components (C#)](Get_Visible_Drawing_Components_Example_CSharp.htm)
 
 ## Remarks
 
 Visible components are components not completely obscured by other components in the view.
 
-After calling this method to retrieve the visible drawing components, use[IDrawingComponent::Component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Component.html)to get a component object that fully supports all of the[IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)methods and properties.
+After calling this method to retrieve the visible drawing components, use [IDrawingComponent::Component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Component.html) to get a component object that fully supports all of the [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) methods and properties.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetVisibleComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleComponents.html)
-
 [IView::GetVisibleEntities2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleEntities2.html)
 
 ## Availability

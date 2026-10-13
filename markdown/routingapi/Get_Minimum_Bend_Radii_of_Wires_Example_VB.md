@@ -11,10 +11,8 @@ source: "routingapi/Get_Minimum_Bend_Radii_of_Wires_Example_VB.htm"
 
 This example shows how to get:
 
-- minimum bend radius for the
-  bundle of wires in each route segment,
-- minimum bend radius for each
-  route segment, and
+- minimum bend radius for the bundle of wires in each route segment,
+- minimum bend radius for each route segment, and
 - types of route.
 
 ```

@@ -48,24 +48,17 @@ property CWStudyManager^ StudyManager {
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::StudyManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~StudyManager.html)
-
-.
+See [CWModelDoc::StudyManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~StudyManager.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
 
 ## Availability

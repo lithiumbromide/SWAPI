@@ -45,13 +45,7 @@ property System.bool SyncFlexibleSubAssemblies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to synchronize movements of mirrored and seed flexible subassembly componen
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::SyncFlexibleSubAssemblies](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~SyncFlexibleSubAssemblies.html)
-
-.
+See [MirrorComponentFeatureData::SyncFlexibleSubAssemblies](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~SyncFlexibleSubAssemblies.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

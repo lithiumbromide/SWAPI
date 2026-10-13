@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFileListFlag.html"
 
 # EdmUnlockFileListFlag Enumeration
 
-Flags telling
-
-[IEdmBatchUnlock::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock~GetFileList.html)
-
-what kind of files to get.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags telling [IEdmBatchUnlock::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock~GetFileList.html) what kind of files to get. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

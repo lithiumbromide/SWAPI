@@ -42,34 +42,19 @@ property System.int CornerCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Number of
-
-[ISMCornerReliefData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html)
-
-objects
+Number of [ISMCornerReliefData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html) objects
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData::CornerCount](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~CornerCount.html)
-
-.
+See [CornerReliefFeatureData::CornerCount](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~CornerCount.html).
 
 ## See Also
 
 [ICornerReliefFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
 
 ## Availability

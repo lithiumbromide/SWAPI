@@ -55,7 +55,7 @@ System.int BumpRevision(
 
 - `i_cstrNewRev`: New revision number
 
-NOTE:If you specify an empty string for i_cstrNewRev, then the next logical revision is used.
+  NOTE: If you specify an empty string for i_cstrNewRev, then the next logical revision is used.
 - `i_cstrNote`: Note
 
 ### Return Value
@@ -64,22 +64,14 @@ NOTE:If you specify an empty string for i_cstrNewRev, then the next logical revi
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::BumpRevision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~BumpRevision.html)
-
-.
+See [PDMWDocument::BumpRevision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~BumpRevision.html).
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::Revision Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Revision.html)
-
 [IPDMWDocument::RevisionLabels Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~RevisionLabels.html)
-
 [IPDMWLink::Revision Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Revision.html)
 
 ## Availability

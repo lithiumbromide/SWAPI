@@ -55,7 +55,6 @@ True if the objects are equal, false if not
 ## See Also
 
 [IEdmMenu5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html)
-
 [IEdmMenu5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5_members.html)
 
 ## Availability

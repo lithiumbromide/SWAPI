@@ -49,38 +49,24 @@ System.int GetManufacturingMethod(
 
 ### Parameters
 
-- `BodyType`: Body type as defined in
-
-[swcBodyType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcBodyType_e.html)
+- `BodyType`: Body type as defined in [swcBodyType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcBodyType_e.html)
 
 ### Return Value
 
-Default manufacturing method for BodyType as defined in
-
-[swcMethodType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMethodType_e.html)
+Default manufacturing method for BodyType as defined in [swcMethodType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMethodType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::GetManufacturingMethod](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetManufacturingMethod.html)
-
-.
+See [CostDefaults::GetManufacturingMethod](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetManufacturingMethod.html).
 
 ## Examples
 
-See the
-
-[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
-examples.
+See the [ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html) examples.
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::SetManufacturingMethod Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetManufacturingMethod.html)
 
 ## Availability

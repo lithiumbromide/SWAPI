@@ -45,32 +45,19 @@ property System.int ConnectedSegmentsOption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Connected segments option as defined in
-
-[swConnectedSegmentsOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectedSegmentsOption_e.html)
+Connected segments option as defined in [swConnectedSegmentsOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectedSegmentsOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::ConnectedSegmentsOption](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ConnectedSegmentsOption.html)
-
-.
+See [StructuralMemberFeatureData::ConnectedSegmentsOption](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ConnectedSegmentsOption.html).
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
 
 ## Availability

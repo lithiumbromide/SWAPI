@@ -45,13 +45,7 @@ property System.double CircularProfileDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ Diameter of the circular profile
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::CircularProfileDiameter](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~CircularProfileDiameter.html)
-
-.
+See [SweepFeatureData::CircularProfileDiameter](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~CircularProfileDiameter.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISweepFeatureData::CircularProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~CircularProfile.html)
-
-is set to true.
+This property is valid only if [ISweepFeatureData::CircularProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~CircularProfile.html) is set to true.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
 
 ## Availability

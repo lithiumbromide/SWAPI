@@ -51,22 +51,16 @@ System.bool IsCoordSysElementSelected(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index position within the current list of selected items, where Index ranges from 1 to[ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)(see**Remarks**)
+- `Index`: Index position within the current list of selected items, where Index ranges from 1 to [ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html) (see **Remarks**)
 - `Mark`: - -1 = All selections regardless of marks
 
-- 0 = only the selections without marks
+  - 0 = only the selections without marks
 
-Any other value = Value that was used to mark and select an object
+  Any other value = Value that was used to mark and select an object
 
 ### Return Value
 
@@ -74,32 +68,19 @@ True if coordinate system element selected, false if not
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::IsCoordSysElementSelected](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IsCoordSysElementSelected.html)
-
-.
+See [SelectionMgr::IsCoordSysElementSelected](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IsCoordSysElementSelected.html).
 
 ## Examples
 
-See the
-
-[ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
-examples.
+See the [ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html) examples.
 
 ## Remarks
 
-Call this method after calling
-
-[ISelectionMgr::GetSelectedCoordSysElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedCoordSysElement.html)
-
-to confirm that a coordinate system element is retrieved.
+Call this method after calling [ISelectionMgr::GetSelectedCoordSysElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedCoordSysElement.html) to confirm that a coordinate system element is retrieved.
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
 
 ## Availability

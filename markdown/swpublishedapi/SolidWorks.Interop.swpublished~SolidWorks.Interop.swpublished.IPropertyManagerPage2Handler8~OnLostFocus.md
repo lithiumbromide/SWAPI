@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnLostFocus Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnLostFocus](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnLostFocus.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnLostFocus](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnLostFocus.html).
 
 ## Syntax
 
@@ -56,20 +52,15 @@ void OnLostFocus(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnLostFocus](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnLostFocus.html)
-
-.
+See [PropertyManagerPage2Handler8::OnLostFocus](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnLostFocus.html).
 
 ## Remarks
 
-To handle selection box focus, use[IPropertyManagerPage2Handler8::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnSelectionboxFocusChanged.html).
+To handle selection box focus, use [IPropertyManagerPage2Handler8::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnSelectionboxFocusChanged.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

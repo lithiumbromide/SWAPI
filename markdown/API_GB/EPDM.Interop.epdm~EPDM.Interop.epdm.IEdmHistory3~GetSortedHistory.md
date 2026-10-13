@@ -42,38 +42,22 @@ void GetSortedHistory(
 
 ### Parameters
 
-- `ppoRetHistory`: Array of
-
-[EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
-structures; one structure for each history item (see
-
-Remarks
-
-)
-- `lEdmHistoryTypes`: Combination of
-
-[EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html)
-
-bits; indicates the kinds of records to retrieve
+- `ppoRetHistory`: Array of [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html) structures; one structure for each history item (see **Remarks**)
+- `lEdmHistoryTypes`: Combination of [EdmHistoryType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html) bits; indicates the kinds of records to retrieve
 
 ## Examples
 
-See the
-
-[IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
-examples.
+See the [IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html) examples.
 
 ## Remarks
 
 This method works in both Web 2 and thick client applications.
 
-Call this method after calling[IEdmHistory::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFile.html)and[IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html).
+Call this method after calling [IEdmHistory::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFile.html) and [IEdmHistory::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~AddFolder.html).
 
 The returned array of history items in ppoRetHistory is sorted with the most recent records at the beginning.
 
-Call[IEdmHistory3::GetEventDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetEventDescription.html), passing one of the EdmHistoryItem structures returned by this method, to obtain its event description.
+Call [IEdmHistory3::GetEventDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetEventDescription.html), passing one of the EdmHistoryItem structures returned by this method, to obtain its event description.
 
 [Return codes](ReturnCodes.htm):
 
@@ -83,11 +67,8 @@ Call[IEdmHistory3::GetEventDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdm
 ## See Also
 
 [IEdmHistory3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
 [IEdmHistory3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3_members.html)
-
 [IEdmHistory2::Rollback Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2~Rollback.html)
-
 [IEdmHistory::GetHistory Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~GetHistory.html)
 
 ## Availability

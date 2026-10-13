@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # SetFrameSymbols Method (IGtol)
 
-Obsolete. Superseded by
-
-[IGtol::SetFrameSymbols2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetFrameSymbols2.html)
-
-.
+Obsolete. Superseded by [IGtol::SetFrameSymbols2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~SetFrameSymbols2.html).
 
 ## Syntax
 
@@ -82,13 +78,7 @@ void SetFrameSymbols(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -104,14 +94,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetFrameSymbols](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameSymbols.html)
-
-.
+See [Gtol::SetFrameSymbols](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetFrameSymbols.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

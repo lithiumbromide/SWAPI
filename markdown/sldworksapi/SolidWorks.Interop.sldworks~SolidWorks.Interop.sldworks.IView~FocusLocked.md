@@ -45,13 +45,7 @@ property System.bool FocusLocked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if focus is locked on the view, false if not
 
 ## VBA Syntax
 
-See
-
-[View::FocusLocked](ms-its:sldworksapivb6.chm::/sldworks~View~FocusLocked.html)
-
-.
+See [View::FocusLocked](ms-its:sldworksapivb6.chm::/sldworks~View~FocusLocked.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [ISheet::FocusLocked Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~FocusLocked.html)
 
 ## Availability

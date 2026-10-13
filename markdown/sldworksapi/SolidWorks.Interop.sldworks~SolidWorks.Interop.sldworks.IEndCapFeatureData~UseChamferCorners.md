@@ -45,13 +45,7 @@ property System.bool UseChamferCorners {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to chamfer corners, false to fillet corners
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::UseChamferCorners](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseChamferCorners.html)
-
-.
+See [EndCapFeatureData::UseChamferCorners](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseChamferCorners.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if[IEndCapFeatureData::UseCornerTreatment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseCornerTreatment.html)is true.
+This property is valid only if [IEndCapFeatureData::UseCornerTreatment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseCornerTreatment.html) is true.
 
-Call[IEndCapFeatureData::ChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~ChamferDistance.html)to set the chamfer distance or fillet radius of the end cap corner.
+Call [IEndCapFeatureData::ChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~ChamferDistance.html) to set the chamfer distance or fillet radius of the end cap corner.
 
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
 
 ## Availability

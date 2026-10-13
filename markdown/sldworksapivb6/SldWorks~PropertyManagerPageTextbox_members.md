@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageTextbox Object
-Members"
+title: "PropertyManagerPageTextbox Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageTextbox_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageTextbox_members.html"
 ---
 
-# PropertyManagerPageTextbox Object
-Members
+# PropertyManagerPageTextbox Object Members
 
 ## Public Properties
 

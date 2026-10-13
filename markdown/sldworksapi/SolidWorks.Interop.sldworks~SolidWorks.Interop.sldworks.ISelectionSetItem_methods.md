@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # ISelectionSetItem Interface Methods
 
-For a list of all members of this type, see[ISelectionSetItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem_members.html).
+For a list of all members of this type, see [ISelectionSetItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem_members.html).
 
 ## Public Methods
 
@@ -23,9 +23,6 @@ For a list of all members of this type, see[ISelectionSetItem members](SolidWork
 ## See Also
 
 [ISelectionSetItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISelectionSetFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder.html)
-
 [ISelectionSet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to the methods and properties for paths in sketches.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ISketchPath
 
 ## VBA Syntax
 
-See
-
-[SketchPath](ms-its:sldworksapivb6.chm::/sldworks~SketchPath.html)
-
-.
+See [SketchPath](ms-its:sldworksapivb6.chm::/sldworks~SketchPath.html).
 
 ## Examples
 
 [Create Sketch Path (VBA)](Create_Sketch_Path_Example_VB.htm)
-
 [Create Sketch Path (VB.NET)](Create_Sketch_Path_Example_VBNET.htm)
-
 [Create Sketch Path (C#)](Create_Sketch_Path_Example_CSharp.htm)
 
 ## Accessors
 
-[ISketch::GetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPaths.html)and[ISketch::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPaths.html)
+[ISketch::GetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPaths.html) and [ISketch::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPaths.html)
 
-[ISketchSegment::GetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~GetSketchPaths.html)and[ISketchSegment::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~IGetSketchPaths.html)
+[ISketchSegment::GetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~GetSketchPaths.html) and [ISketchSegment::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~IGetSketchPaths.html)
 
 ## Access Diagram
 
@@ -68,7 +62,5 @@ See
 ## See Also
 
 [ISketchPath Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchManager::MakeSketchBlockFromFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~MakeSketchBlockFromFile.html)

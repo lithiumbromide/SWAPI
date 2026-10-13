@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumSketchSegments Interface
 
-Allows access to the
+Allows access to the [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) enumeration.
 
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumSketchSegments
 
 ## VBA Syntax
 
-See
-
-[EnumSketchSegments](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments.html)
-
-.
+See [EnumSketchSegments](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments.html).
 
 ## Examples
 
@@ -78,5 +70,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchSegments Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchSegments_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

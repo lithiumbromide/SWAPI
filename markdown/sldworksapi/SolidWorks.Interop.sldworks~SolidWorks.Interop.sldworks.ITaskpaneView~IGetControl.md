@@ -40,13 +40,7 @@ System.object IGetControl()
 System.Object^ IGetControl();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Control object
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::IGetControl](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~IGetControl.html)
-
-.
+See [TaskpaneView::IGetControl](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~IGetControl.html).
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
-
 [ITaskpaneView::GetControl Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetControl.html)
 
 ## Availability

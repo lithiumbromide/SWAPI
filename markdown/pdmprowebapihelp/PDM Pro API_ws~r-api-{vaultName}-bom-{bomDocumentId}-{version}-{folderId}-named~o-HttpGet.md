@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/bom/{bomDocumentId}/{version}/{folderId}/named |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > BOM Resource Group : api/{vaultName}/bom/{bomDocumentId}/{version}/{folderId}/named (Get) |
 | --- |
@@ -104,8 +100,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[BOM Resource Group](PDM%20Pro%20API_ws~g-10274b3f-586c-4202-adb7-851ebf0c973b.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[BOM Resource Group](PDM%20Pro%20API_ws~g-10274b3f-586c-4202-adb7-851ebf0c973b.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

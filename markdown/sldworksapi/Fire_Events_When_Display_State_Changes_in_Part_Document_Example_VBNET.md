@@ -11,23 +11,22 @@ source: "sldworksapi/Fire_Events_When_Display_State_Changes_in_Part_Document_Exa
 
 ## Fire Events When Display State Changes in Part Document Example (VB.NET)
 
-This example shows how to fire the events related to changing display
-states of a configuration in a part document.
+This example shows how to fire the events related to changing display states of a configuration in a part document.
 
 ```vb
 '---------------------------------------------------------------
 ' Preconditions:
-' 1. Open a part document that has kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
-' kadov_tag{{<spaces>}}   a configuration with multiple display states.
-' kadov_tag{{<spaces>}}2. Run this macro in debug mode.
-' kadov_tag{{<spaces>}}3. Change the display state of the active configuration in SOLIDWORKS
-' kadov_tag{{<spaces>}}   (click the ConfigurationManager tab and double-click
-' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}a different display state).
+' 1. Open a part document that has
+'    a configuration with multiple display states.
+' 2. Run this macro in debug mode.
+' 3. Change the display state of the active configuration in SOLIDWORKS Design
+'    (click the ConfigurationManager tab and double-click
+'    a different display state).
 '
 ' Postcondition: A message box is displayed informing
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}you that the display state is about change. After the display state changes,
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}another message box is displayed informing you that the display
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}state has changed.
+' you that the display state is about change. After the display state changes,
+' another message box is displayed informing you that the display
+' state has changed.
 '---------------------------------------------------------------
 Option Explicit On
 
@@ -39,43 +38,43 @@ Imports System.Collections
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public WithEvents swPart As PartDoc
+    Public WithEvents swPart As PartDoc
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim openPart As Hashtable
+    Public Sub Main()
+        Dim swModel As ModelDoc2
+        Dim openPart As Hashtable
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
+        swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Set up events
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swPart = swModel
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}openPart = New Hashtable
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachEventHandlers()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+        'Set up events
+        swPart = swModel
+        openPart = New Hashtable
+        AttachEventHandlers()
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachEventHandlers()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachSWEvents()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachEventHandlers()
+        AttachSWEvents()
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachSWEvents()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swPart.ActiveDisplayStateChangePreNotify, AddressOf Me.swPart_ActiveDisplayStateChangePreNotify
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swPart.ActiveDisplayStateChangePostNotify, AddressOf Me.swPart_ActiveDisplayStateChangePostNotify
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachSWEvents()
+        AddHandler swPart.ActiveDisplayStateChangePreNotify, AddressOf Me.swPart_ActiveDisplayStateChangePreNotify
+        AddHandler swPart.ActiveDisplayStateChangePostNotify, AddressOf Me.swPart_ActiveDisplayStateChangePostNotify
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Function swPart_ActiveDisplayStateChangePreNotify() As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Send message when user changes display state in the ConfigurationManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("The active configuration's display state is about to change.")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Private Function swPart_ActiveDisplayStateChangePreNotify() As Integer
+        'Send message when user changes display state in the ConfigurationManager
+        MsgBox("The active configuration's display state is about to change.")
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Function swPart_ActiveDisplayStateChangePostNotify(ByVal DisplayStateName As String) As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}'Send message after user changes display state in the ConfigurationManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("The active configuration's display state has changed.")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Private Function swPart_ActiveDisplayStateChangePostNotify(ByVal DisplayStateName As String) As Integer
+        'Send message after user changes display state in the ConfigurationManager
+        MsgBox("The active configuration's display state has changed.")
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

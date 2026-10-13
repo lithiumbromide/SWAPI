@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAt
 
 # IAttribute Interface Properties
 
-For a list of all members of this type, see[IAttribute members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html).
+For a list of all members of this type, see [IAttribute members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IAttribute members](SolidWorks.Inter
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

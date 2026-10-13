@@ -45,13 +45,7 @@ property System.bool TrimAndKnit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to trim and knit surfaces, false to not
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::TrimAndKnit](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~TrimAndKnit.html)
-
-.
+See [RuledSurfaceFeatureData::TrimAndKnit](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~TrimAndKnit.html).
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
 
 ## Availability

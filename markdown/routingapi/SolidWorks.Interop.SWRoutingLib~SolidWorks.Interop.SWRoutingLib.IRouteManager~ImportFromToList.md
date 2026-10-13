@@ -82,18 +82,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[RouteManager::ImportFromToList](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ImportFromToList.html)
-
-.
+See [RouteManager::ImportFromToList](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ImportFromToList.html).
 
 ## Examples
 
 [Import a From-To List Example (C#)](Import_a_From-To_List_Example_CSharp.htm)
-
 [Import a From-To List Example (VB.NET)](Import_a_From-To_List_Example_VBNET.htm)
-
 [Import a From-To List Example (VBA)](Import_a_From-To_List_Example_VB.htm)
 
 ## Remarks
@@ -101,24 +95,15 @@ See
 Before calling this method:
 
 1. In the FeatureManager design tree, select the assembly that contains the route to which to add guidelines.
-2. Call
-
-  [IRouteManager::EditRoute](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~EditRoute.html)
-
-  .
+2. Call [IRouteManager::EditRoute](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IRouteManager~EditRoute.html).
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
-
 [IAutoRoute::ConvertGuidelinesToRoute Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~ConvertGuidelinesToRoute.html)
-
 [IAutoRoute::MergeGuidelines Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~MergeGuidelines.html)
-
 [IAutoRoute::SelectGuidelines Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~SelectGuidelines.html)
-
 [IAutoRoute::ShowGuidelines Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~ShowGuidelines.html)
 
 ## Availability

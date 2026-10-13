@@ -40,13 +40,7 @@ System.int GetVisibleComponentsInViewCount()
 System.int GetVisibleComponentsInViewCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of visible components in this assembly
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetVisibleComponentsInViewCount](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetVisibleComponentsInViewCount.html)
-
-.
+See [AssemblyDoc::GetVisibleComponentsInViewCount](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetVisibleComponentsInViewCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IAssembly_Doc::IGetVisibleComponentsInView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IGetVisibleComponentsInView.html)
-
-.
+Call this method before calling [IAssembly_Doc::IGetVisibleComponentsInView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IGetVisibleComponentsInView.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double BendAllowance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,17 +53,13 @@ Value (m) of the bend allowance
 
 ## VBA Syntax
 
-See
-
-[CustomBendAllowance::BendAllowance](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~BendAllowance.html)
-
-.
+See [CustomBendAllowance::BendAllowance](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~BendAllowance.html).
 
 ## Examples
 
-See the[ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)examples.
+See the [ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) examples.
 
-See the[IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)examples.
+See the [IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html) examples.
 
 ## Examples
 
@@ -77,12 +67,13 @@ See the[IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.s
 
 ## Remarks
 
-If using this property to set a value for the bend allowance, then the[type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html)is set to this type. However, the last ICustomBendAllowance property called to set a value also re-sets the type of bend allowance to its type.
+If using this property to set a value for the bend allowance, then the [type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html) is set to this type. However, the last ICustomBendAllowance property set also re-sets the type of bend allowance to its type.
+
+See the ICustomBendAllowance Remarks.
 
 ## See Also
 
 [ICustomBendAllowance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
-
 [ICustomBendAllowance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance_members.html)
 
 ## Availability

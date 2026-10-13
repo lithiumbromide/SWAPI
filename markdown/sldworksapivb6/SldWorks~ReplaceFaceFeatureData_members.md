@@ -1,6 +1,5 @@
 ---
-title: "ReplaceFaceFeatureData Object
-Members"
+title: "ReplaceFaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ReplaceFaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ReplaceFaceFeatureData_members.html"
 ---
 
-# ReplaceFaceFeatureData Object
-Members
+# ReplaceFaceFeatureData Object Members
 
 ## Public Methods
 

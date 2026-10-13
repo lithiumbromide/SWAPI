@@ -1,6 +1,5 @@
 ---
-title: "ModelDoc Object
-Members"
+title: "ModelDoc Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ModelDoc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ModelDoc_members.html"
 ---
 
-# ModelDoc Object
-Members
+# ModelDoc Object Members
 
 ## Public Methods
 

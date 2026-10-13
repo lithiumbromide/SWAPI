@@ -51,13 +51,7 @@ System.Object^ GetPreviewBitmap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,15 +60,11 @@ See
 
 ### Return Value
 
-Dispatch pointer to IPictureDisp interface, the preview bitmap (.bmp) (seeRemarks)
+Dispatch pointer to IPictureDisp interface, the preview bitmap (.bmp) (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetPreviewBitmap](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetPreviewBitmap.html)
-
-.
+See [SldWorks::GetPreviewBitmap](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetPreviewBitmap.html).
 
 ## Examples
 
@@ -82,7 +72,7 @@ See
 
 ## Remarks
 
-The preview bitmap is the bitmap (.bmp) that appears in thePreviewbox on the Open dialog.
+The preview bitmap is the bitmap (.bmp) that appears in the Preview box on the Open dialog.
 
 NOTES:
 
@@ -92,15 +82,10 @@ NOTES:
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::PreviewDoc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDoc.html)
-
 [ISldWorks::PreviewDocx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDocx64.html)
-
 [ISldWorks::GetPreviewBitmapFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmapFile.html)
-
 [IModelDoc2::SaveBMP Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SaveBMP.html)
 
 ## Availability

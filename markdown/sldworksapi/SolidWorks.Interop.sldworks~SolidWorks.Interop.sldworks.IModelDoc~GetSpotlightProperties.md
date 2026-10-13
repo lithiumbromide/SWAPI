@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetSpotlightProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetSpotlightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetSpotlightProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetSpotlightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetSpotlightProperties.html).
 
 ## Syntax
 
@@ -103,13 +99,7 @@ System.bool GetSpotlightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -130,14 +120,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetSpotlightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetSpotlightProperties.html)
-
-.
+See [ModelDoc::GetSpotlightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetSpotlightProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

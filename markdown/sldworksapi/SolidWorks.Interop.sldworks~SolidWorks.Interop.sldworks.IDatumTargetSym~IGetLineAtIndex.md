@@ -47,13 +47,7 @@ System.double IGetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetLineAtIndex.html)
-
-.
+See [DatumTargetSym::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetLineAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-**[**`lineType, startPt[3], endPt[3]`**]**
+**[** `lineType, startPt[3], endPt[3]` **]**
 
 where:
 
@@ -91,9 +77,6 @@ where:
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetLineAtIndex.html)
-
 [IDatumTargetSym::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetLineCount.html)

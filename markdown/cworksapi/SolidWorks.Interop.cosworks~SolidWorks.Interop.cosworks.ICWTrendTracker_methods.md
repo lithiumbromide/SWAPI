@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTr
 
 # ICWTrendTracker Interface Methods
 
-For a list of all members of this type, see[ICWTrendTracker members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker_members.html).
+For a list of all members of this type, see [ICWTrendTracker members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ICWTrendTracker members](SolidWorks.
 ## See Also
 
 [ICWTrendTracker Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTrendTracker.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

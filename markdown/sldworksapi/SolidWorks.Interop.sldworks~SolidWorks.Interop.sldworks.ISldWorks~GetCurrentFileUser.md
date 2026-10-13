@@ -47,13 +47,7 @@ System.String^ GetCurrentFileUser(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,11 +55,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetCurrentFileUser](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentFileUser.html)
-
-.
+See [SldWorks::GetCurrentFileUser](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentFileUser.html).
 
 ## Examples
 
@@ -92,7 +82,6 @@ End Sub
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

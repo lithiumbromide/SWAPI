@@ -55,22 +55,12 @@ System.bool SetSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Symbol`: Type of symbol as defined in
-
-[swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
-- `SurfaceTexture`: Symbol surface text type as defined in
-
-[swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
+- `Symbol`: Type of symbol as defined in [swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
+- `SurfaceTexture`: Symbol surface text type as defined in [swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
 - `AllAround`: True if symbol is All Around, false if symbol is Local
 
 ### Return Value
@@ -79,19 +69,13 @@ True if symbol is set, false if it is not
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::SetSymbol](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~SetSymbol.html)
-
-.
+See [SFSymbol::SetSymbol](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~SetSymbol.html).
 
 ## Remarks
 
-The Symbol argument must be one of the following values from the[swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)enumeration: swSFBasic, swSFMachining_Req, swSFDont_Machine, swSFJIS_No_Machining, swSFJIS_Basic, or swSFJIS_Machining_Req.
+The Symbol argument must be one of the following values from the [swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html) enumeration: swSFBasic, swSFMachining_Req, swSFDont_Machine, swSFJIS_No_Machining, swSFJIS_Basic, or swSFJIS_Machining_Req.
 
-[ISFSymbol::GetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetSymbol.html)will get this value.
-
-(Table)=========================================================
+[ISFSymbol::GetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetSymbol.html) will get this value.
 
 | If the symbol is... | Then... |
 | --- | --- |
@@ -101,5 +85,4 @@ The Symbol argument must be one of the following values from the[swSFSymType_e](
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

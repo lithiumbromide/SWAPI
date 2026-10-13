@@ -46,13 +46,7 @@ void SetFixedFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,26 +54,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::SetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~SetFixedFace.html)
-
-.
+See [ConvertSolidFeatureData::SetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~SetFixedFace.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
-
 [IConvertSolidFeatureData::GetFixedFace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~GetFixedFace.html)
 
 ## Availability

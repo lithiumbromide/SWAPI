@@ -11,14 +11,10 @@ source: "sldworksapi/Get_Exploded_Views_for_Configuration_Example_VBNET.htm"
 
 This example shows how to get:
 
-- number of exploded views for
-  a configuration.
-- name of each exploded view
-  for a configuration.
-- name of the configuration
-  for each exploded view.
-- name of the exploded view
-  shown in the model.
+- number of exploded views for a configuration.
+- name of each exploded view for a configuration.
+- name of the configuration for each exploded view.
+- name of the exploded view shown in the model.
 
 ```
 '----------------------------------------------------------------------------

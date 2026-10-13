@@ -42,13 +42,7 @@ property System.bool IsLinked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,19 +50,11 @@ True if the OLE objects are linked to external files, false if they are embedded
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::IsLinked](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~IsLinked.html)
-
-.
+See [SwOLEObject::IsLinked](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~IsLinked.html).
 
 ## Examples
 
-See the
-
-[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
-examples.
+See the [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html) examples.
 
 ## Examples
 
@@ -77,9 +63,7 @@ examples.
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::FileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~FileName.html)
 
 ## Availability

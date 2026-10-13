@@ -51,20 +51,12 @@ System.bool AlignWithView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AlignType`: Type of alignment to set as defined by[swAlignViewTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAlignViewTypes_e.html)
-- `BaseView`: [View](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-with which to align, if aligning with another view
+- `AlignType`: Type of alignment to set as defined by [swAlignViewTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAlignViewTypes_e.html)
+- `BaseView`: [View](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) with which to align, if aligning with another view
 
 ### Return Value
 
@@ -72,25 +64,17 @@ True if view alignment is set, false if not
 
 ## VBA Syntax
 
-See
-
-[View::AlignWithView](ms-its:sldworksapivb6.chm::/sldworks~View~AlignWithView.html)
-
-.
+See [View::AlignWithView](ms-its:sldworksapivb6.chm::/sldworks~View~AlignWithView.html).
 
 ## Examples
 
 [Align Drawing Views (C#)](Align_Drawing_Views_Example_CSharp.htm)
-
 [Align Drawing Views (VB.NET)](Align_Drawing_Views_Example_VBNET.htm)
-
 [Align Drawing Views (VBA)](Align_Drawing_Views_Example_VB.htm)
 
 ## Remarks
 
 AlignType tells how to align this view.
-
-(Table)=========================================================
 
 | If AlignType is set to... | Then BaseView... |
 | --- | --- |
@@ -104,15 +88,10 @@ AlignType tells how to align this view.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAlignment.html)
-
 [IView::RemoveAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~RemoveAlignment.html)
-
 [IView::UseDefaultAlignment Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UseDefaultAlignment.html)
-
 [IView::AlignDrawingView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~AlignDrawingView.html)
 
 ## Availability

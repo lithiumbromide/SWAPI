@@ -48,24 +48,15 @@ Volume in cubic meters
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::Volume](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~Volume.html)
-
-.
+See [CWMassPropertiesManager::Volume](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~Volume.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
 
 ## Availability

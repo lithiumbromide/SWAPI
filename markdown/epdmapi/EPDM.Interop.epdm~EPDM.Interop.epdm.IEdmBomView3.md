@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html"
 
 Allows you to access a Bill of Materials (BOM) view.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,26 +37,16 @@ public interface class IEdmBomView3 : public IEdmBomView, IEdmBomView2
 ## Examples
 
 [Access Bill of Materials (VB.NET)](Access_Bill_of_Materials_Example_VBNET.htm)
-
 [Access Bill of Materials (C#)](Access_Bill_of_Materials_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- extends
-
-  [IEdmBomView2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2.html)
-
-  by adding the ability to save the BOM to a comma separated values (CSV) file.
-- is extended by
-
-  [IEdmBomView4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4.html)
-
-  .
+- extends [IEdmBomView2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2.html) by adding the ability to save the BOM to a comma separated values (CSV) file.
+- is extended by [IEdmBomView4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4.html).
 
 ## See Also
 
 [IEdmBomView3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

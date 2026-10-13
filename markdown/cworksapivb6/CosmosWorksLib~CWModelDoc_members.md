@@ -1,6 +1,5 @@
 ---
-title: "CWModelDoc Object
-Members"
+title: "CWModelDoc Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWModelDoc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWModelDoc_members.html"
 ---
 
-# CWModelDoc Object
-Members
+# CWModelDoc Object Members
 
 ## Public Methods
 

@@ -40,36 +40,20 @@ Feature GetSeedFeature()
 Feature^ GetSeedFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Seed
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-of a patterned, mirrored, or copied body
+Seed [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) of a patterned, mirrored, or copied body
 
 ## VBA Syntax
 
-See
-
-[Face2::GetSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetSeedFeature.html)
-
-.
+See [Face2::GetSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetSeedFeature.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetPatternSeedFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetPatternSeedFeature.html)
 
 ## Availability

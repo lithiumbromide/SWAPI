@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectTangency Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SelectTangency](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectTangency.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SelectTangency](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectTangency.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SelectTangency()
 void SelectTangency();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SelectTangency](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectTangency.html)
-
-.
+See [ModelDoc::SelectTangency](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectTangency.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

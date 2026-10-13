@@ -63,27 +63,13 @@ System.bool IReplaceSurfaces2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NFaces`: Number of faces to have surfaces replaced
-- `FaceArray`: Array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to have the surfaces replaced
-- `NewSurfArray`: Array of
-
-[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-to be replaced in these faces
+- `FaceArray`: Array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to have the surfaces replaced
+- `NewSurfArray`: Array of [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) to be replaced in these faces
 - `SenseArray`: Array of the senses of each surface in NewSurfArray
 - `Tolerance`: Tolerance
 
@@ -93,18 +79,12 @@ True if operation is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Modeler::IReplaceSurfaces2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IReplaceSurfaces2.html)
-
-.
+See [Modeler::IReplaceSurfaces2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IReplaceSurfaces2.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ReplaceSurfaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ReplaceSurfaces.html)
 
 ## Availability

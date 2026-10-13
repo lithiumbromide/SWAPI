@@ -47,21 +47,11 @@ System.bool SaveAsPDF(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and filename of the PDF File (see
-
-Remarks
-
-)
+- `FileName`: Full path and filename of the PDF File (see **Remarks**)
 
 ### Return Value
 
@@ -69,18 +59,12 @@ True if the table is saved to a PDF file, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SaveAsPDF](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsPDF.html)
-
-.
+See [TableAnnotation::SaveAsPDF](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsPDF.html).
 
 ## Examples
 
 [Save Table to PDF (C#)](Save_Table_Annotation_to_PDF_Example_CSharp.htm)
-
 [Save Table to PDF (VB.NET)](Save_Table_Annotation_to_PDF_Example_VBNET.htm)
-
 [Save Table to PDF (VBA)](Save_Table_Annotation_to_PDF_Example_VB.htm)
 
 ## Remarks
@@ -95,11 +79,8 @@ You must specify a filename. It should include the path, filename, and the PDF f
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::SaveAsTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsTemplate.html)
-
 [ITableAnnotation::SaveAsText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsText.html)
 
 ## Availability

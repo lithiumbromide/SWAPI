@@ -47,13 +47,7 @@ System.bool SetVisible(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +59,9 @@ True if set, false if not
 
 ## VBA Syntax
 
-See
-
-[ReferenceCurve::SetVisible](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve~SetVisible.html)
-
-.
+See [ReferenceCurve::SetVisible](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve~SetVisible.html).
 
 ## See Also
 
 [IReferenceCurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve.html)
-
 [IReferenceCurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve_members.html)

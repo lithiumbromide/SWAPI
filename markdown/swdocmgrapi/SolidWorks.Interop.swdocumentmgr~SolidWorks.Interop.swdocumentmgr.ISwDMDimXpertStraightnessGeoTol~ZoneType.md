@@ -44,17 +44,11 @@ property swDmDimXpertStraightnessZoneType_e ZoneType {
 
 ### Property Value
 
-Zone type for the straightness geometric tolerance as defined in
-
-[swDmDimXpertStraightnessZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertStraightnessZoneType_e.html)
+Zone type for the straightness geometric tolerance as defined in [swDmDimXpertStraightnessZoneType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertStraightnessZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertStraightnessGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~ZoneType.html)
-
-.
+See [SwDMDimXpertStraightnessGeoTol::ZoneType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~ZoneType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertStraightnessGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol.html)
-
 [ISwDMDimXpertStraightnessGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol_members.html)
 
 ## Availability

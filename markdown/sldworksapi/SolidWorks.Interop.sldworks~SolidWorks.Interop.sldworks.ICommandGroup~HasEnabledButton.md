@@ -42,13 +42,7 @@ property System.bool HasEnabledButton {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if at least one CommandGroup button is enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::HasEnabledButton](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~HasEnabledButton.html)
-
-.
+See [CommandGroup::HasEnabledButton](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~HasEnabledButton.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## Remarks
@@ -75,9 +64,7 @@ Add-in applications can call this method to determine whether to disable flyout 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::AddCommandItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~AddCommandItem2.html)
 
 ## Availability

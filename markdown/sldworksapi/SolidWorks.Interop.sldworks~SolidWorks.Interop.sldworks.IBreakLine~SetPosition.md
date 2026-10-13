@@ -51,13 +51,7 @@ System.bool SetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,22 @@ True if the break lines are positioned, false if not
 
 ## VBA Syntax
 
-See
-
-[BreakLine::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~SetPosition.html)
-
-.
+See [BreakLine::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~SetPosition.html).
 
 ## Examples
 
 [Create Break View (VBA)](Create_Broken_View_Example_VB.htm)
-
 [Create Break View (VB.NET)](Create_Broken_View_Example_VBNET.htm)
-
 [Create Break View (C#)](Create_Broken_View_Example_CSharp.htm)
 
 ## Remarks
 
-Call[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html)after calling this method.
+Call [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html) after calling this method.
 
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
-
 [IBreakline::GetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine~GetPosition.html)
 
 ## Availability

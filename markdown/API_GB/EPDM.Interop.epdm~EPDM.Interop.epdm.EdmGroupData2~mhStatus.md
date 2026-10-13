@@ -38,14 +38,9 @@ System.int mhStatus
 
 ## Remarks
 
-Call
-
-[IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html)
-
-to obtain a readable description of the error.
+Call [IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html) to obtain a readable description of the error.
 
 ## See Also
 
 [EdmGroupData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
 [EdmGroupData2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html)

@@ -40,13 +40,7 @@ System.int GetConfigurationCount()
 System.int GetConfigurationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of library feature configurations
 
 ## VBA Syntax
 
-See
-
-[LibraryFeatureData::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~GetConfigurationCount.html)
-
-.
+See [LibraryFeatureData::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~GetConfigurationCount.html).
 
 ## Remarks
 
-Call this method before calling[ILibraryFeatureData::IGetAllConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILibraryFeatureData~IGetAllConfigurationNames.html).
+Call this method before calling [ILibraryFeatureData::IGetAllConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILibraryFeatureData~IGetAllConfigurationNames.html).
 
 ## See Also
 
 [ILibraryFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
-
 [ILibraryFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData_members.html)
-
 [ILibraryFeatureData::GetAllConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~GetAllConfigurationNames.html)
-
 [ILibraryFeatureData::IGetAllConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~IGetAllConfigurationNames.html)
-
 [ILibraryFeatureData::ConfigurationName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~ConfigurationName.html)
 
 ## Availability

@@ -46,13 +46,7 @@ void SetStatusBarText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Frame::SetStatusBarText](ms-its:sldworksapivb6.chm::/sldworks~Frame~SetStatusBarText.html)
-
-.
+See [Frame::SetStatusBarText](ms-its:sldworksapivb6.chm::/sldworks~Frame~SetStatusBarText.html).
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::GetStatusBarPane Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetStatusBarPane.html)
 
 ## Availability

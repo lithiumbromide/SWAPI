@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # AlphaOutput Property (IRayTraceRendererOptions)
 
-Gets or sets whether to
-
-[render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html)
-
-the model as alpha or final color output.
+Gets or sets whether to [render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html) the model as alpha or final color output.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool AlphaOutput {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,17 @@ True for alpha output, false for final color output
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::AlphaOutput](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~AlphaOutput.html)
-
-.
+See [RayTraceRendererOptions::AlphaOutput](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~AlphaOutput.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
 
 ## Availability

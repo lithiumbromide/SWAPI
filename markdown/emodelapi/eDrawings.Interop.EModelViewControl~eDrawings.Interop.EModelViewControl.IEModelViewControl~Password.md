@@ -47,22 +47,14 @@ Password needed to open a model downloaded from a server that requires authentic
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::Password](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Password.html)
-
-.
+See [EModelViewControl::Password](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Password.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::OpenDoc Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.html)
-
 [IEModelViewControl::OpenMarkupFile Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenMarkupFile.html)
-
 [IEModelViewControl::UserName Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~UserName.html)
 
 ## Availability

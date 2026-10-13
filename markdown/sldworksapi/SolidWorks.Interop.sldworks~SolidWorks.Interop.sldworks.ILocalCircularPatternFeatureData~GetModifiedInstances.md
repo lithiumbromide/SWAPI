@@ -40,13 +40,7 @@ System.object GetModifiedInstances()
 System.Object^ GetModifiedInstances();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Array of modified pattern instance numbers
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::GetModifiedInstances](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetModifiedInstances.html)
-
-.
+See [LocalCircularPatternFeatureData::GetModifiedInstances](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetModifiedInstances.html).
 
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
-
 [ILocalCircularPatternFeatureData::GetModifiedInstance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~GetModifiedInstance.html)
 
 ## Availability

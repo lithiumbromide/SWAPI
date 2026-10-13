@@ -153,6 +153,8 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swDetailingDimXpertFilletOptions | See System Options and Document Properties. |
 | swDetailingDimXpertSlotScheme | See System Options and Document Properties. |
 | swDetailingDualDimPosition | See System Options and Document Properties. |
+| swDetailingFamilyTableBorderLineWeight | See System Options and Document Properties. |
+| swDetailingFamilyTableGridLineWeight | See System Options and Document Properties. |
 | swDetailingForeshortenedDiameterStyle | See System Options and Document Properties. |
 | swDetailingGeneralTableBorderLineWeight | See System Options and Document Properties. |
 | swDetailingGeneralTableGridLineWeight | See System Options and Document Properties. |
@@ -269,6 +271,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swDrawingSheetCustomPropSheetNo | See System Options and Document Properties. |
 | swDrawingSheetsZonesLetterLayout | See System Options and Document Properties. |
 | swDrawingSheetsZonesOrigin | See System Options and Document Properties. |
+| swDxfGeomExportOption | See System Options and Document Properties. |
 | swDxfMappingFileIndex | See System Options and Document Properties. |
 | swDxfMultiSheetOption | See System Options and Document Properties. |
 | swDxfOutputFonts | See System Options and Document Properties. |
@@ -289,6 +292,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swExportJpegCompression | See System Options and Document Properties. |
 | swExportPlyUnits | See System Options and Document Properties. |
 | swExportStlUnits | See System Options and Document Properties. |
+| swExportSVPJFileFormatGroupType | See System Options and Document Properties. |
 | swExportVrmlUnits | See System Options and Document Properties. |
 | swExportVrmlVersion | See System Options and Document Properties. |
 | swExternalReferencesUpdateOutOfDateLinkedDesignTable | See System Options and Document Properties. |
@@ -403,6 +407,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swLineFontVisibleEdgesThickness | See System Options and Document Properties. |
 | swLoadExternalReferences | See System Options and Document Properties. |
 | swManipConnectionPointColor | See System Options and Document Properties. |
+| swMarkAssyAsModifiedWhenCosmeticChangesToRefDocs | See System Options and Document Properties. |
 | swMaterialPropertyAreaHatchFillStyle | See System Options and Document Properties. |
 | swMatesDefaultMisalignedType | See System Options and Document Properties. |
 | swMaximumRecentDocuments | See System Options and Document Properties. |
@@ -447,6 +452,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swPartDimXpertSizeLengthSlotTolType | See System Options and Document Properties. |
 | swPartDimXpertSizeWidthSlotBlockPrecision | See System Options and Document Properties. |
 | swPartDimXpertSizeWidthSlotTolType | See System Options and Document Properties. |
+| swPartDimXpertToleranceMethod | See System Options and Document Properties. |
 | swPDFExportOleDPI | See System Options and Document Properties. |
 | swPDFExportShadedDraftDPI | See System Options and Document Properties. |
 | swPenSketchStrokeColor | See System Options and Document Properties. |
@@ -461,6 +467,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swPLYQuality | See System Options and Document Properties. |
 | swPMIEditColor | See System Options and Document Properties. |
 | swPolarMinHoles | See System Options and Document Properties. |
+| swPrimaryComponentIdentifier | See System Options and Document Properties. |
 | swPropertyManagerColorActiveClosedDivider | See System Options and Document Properties. |
 | swPropertyManagerColorBackground | See System Options and Document Properties. |
 | swPropertyManagerColorDivider | See System Options and Document Properties. |
@@ -490,6 +497,7 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 | swSaveReminderAutoDismissInterval | See System Options and Document Properties. |
 | swSaveReminderInterval | See System Options and Document Properties. |
 | swSaveReminderIntervalMode | See System Options and Document Properties. |
+| swSaveToVersion | See System Options and Document Properties. |
 | swSearchDissectionDailyStartTime | See System Options and Document Properties. |
 | swSearchDissectionDailyStopTime | See System Options and Document Properties. |
 | swSearchIndexingPerformance | See System Options and Document Properties. |
@@ -665,13 +673,8 @@ public enum class swUserPreferenceIntegerValue_e : public System.Enum
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceDoubleValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceDoubleValue_e.html)
-
 [swUserPreferenceStringListValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringListValue_e.html)
-
 [swUserPreferenceStringValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)
-
 [swUserPreferenceTextFormat_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceTextFormat_e.html)
-
 [swUserPreferenceToggle_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)

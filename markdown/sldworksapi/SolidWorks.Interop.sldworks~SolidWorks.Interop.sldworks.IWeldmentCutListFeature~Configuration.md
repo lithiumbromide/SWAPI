@@ -45,13 +45,7 @@ property System.String^ Configuration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Name of the configuration shown in the weldment cut list table
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::Configuration](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~Configuration.html)
-
-.
+See [WeldmentCutListFeature::Configuration](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~Configuration.html).
 
 ## Examples
 
-See the
-
-[IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
-examples.
+See the [IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html) examples.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
 
 ## Availability

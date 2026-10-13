@@ -39,28 +39,16 @@ void InsertSheetMetalUnfold()
 void InsertSheetMetalUnfold();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSheetMetalUnfold](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalUnfold.html)
-
-.
+See [ModelDoc2::InsertSheetMetalUnfold](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalUnfold.html).
 
 ## Examples
 
 [Insert and Access Fold Feature (C#)](Insert_and_Access_Fold_Feature_Example_CSharp.htm)
-
 [Insert and Access Fold Feature (VB.NET)](Insert_and_Access_Fold_Feature_Example_VBNET.htm)
-
 [Insert and Access Fold Feature (VBA)](Insert_and_Access_Fold_Feature_Example_VB.htm)
 
 ## Remarks
@@ -70,7 +58,6 @@ Select the objects for the unfold feature before calling this method.
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

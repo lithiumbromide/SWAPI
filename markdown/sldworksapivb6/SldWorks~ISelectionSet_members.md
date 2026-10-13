@@ -1,6 +1,5 @@
 ---
-title: "ISelectionSet Object
-Members"
+title: "ISelectionSet Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISelectionSet_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISelectionSet_members.html"
 ---
 
-# ISelectionSet Object
-Members
+# ISelectionSet Object Members
 
 ## Public Methods
 

@@ -52,13 +52,7 @@ public delegate System.int DAssemblyDocEvents_DeleteCustomPropertyNotifyEventHan
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,19 +63,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[DeleteCustomPropertyNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DeleteCustomPropertyNotify_EV.html)
-
-.
+See [DeleteCustomPropertyNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DeleteCustomPropertyNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyDeleteCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyDeleteCustomPropertyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

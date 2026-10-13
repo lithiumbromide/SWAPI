@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetMomentOrRotationValues Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::SetMomentOrRotationValues2.
+Obsolete. Superseded by [ICWRemoteLoad::SetMomentOrRotationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues2.html).
 
 ## Syntax
 
@@ -82,15 +82,11 @@ void SetMomentOrRotationValues(
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::SetMomentOrRotationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValues.html)
-
-.
+See [CWRemoteLoad::SetMomentOrRotationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValues.html).
 
 ## Remarks
 
-This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)returns false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling returns true (i.e., for linear static, topology, or nonlinear static studies), use[ICWRemoteLoad::SetMomentOrRotationValuesEx](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValuesEx.html)instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns false (i.e., for frequency, buckling, nonlinear dynamic, or linear dynamic studies). If ICWRemoteLoad::AllowDistributedCoupling returns true (i.e., for linear static, topology, or nonlinear static studies), use [ICWRemoteLoad::SetMomentOrRotationValuesEx](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValuesEx.html) instead of this method.
 
 | This method sets components of ... | If ICWRemoteLoad::LoadType is ... |
 | --- | --- |
@@ -100,11 +96,8 @@ This method is valid only if[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::GetMomentOrRotationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetMomentOrRotationValues.html)
-
 [ICWRemoteLoad::MomentOrRotationUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MomentOrRotationUnit.html)
 
 ## Availability

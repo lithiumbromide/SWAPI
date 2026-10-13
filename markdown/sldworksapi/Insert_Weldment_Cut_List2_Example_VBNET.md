@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Weldment_Cut_List2_Example_VBNET.htm"
 
 # Insert Weldment Cut List Example #2 (VB.NET)
 
-This example shows how to insert a weldment cut list into the FeatureManager
-design tree.
+This example shows how to insert a weldment cut list into the FeatureManager design tree.
 
 ```
 '----------------------------------------------------------------------------
@@ -32,55 +31,26 @@ design tree.
 '----------------------------------------------------------------------------
 ```
 
+```vb
 Imports SolidWorks.Interop.sldworks
-
 Imports SolidWorks.Interop.swconst
-
 Imports System
-
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    Dim Part As ModelDoc2
+    Dim obj(0) As Body2
+    Dim v As Array
+    Dim i As Long
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-Part As ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-obj(0) As Body2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-v As Array
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-i As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Part
-= swApp.**ActiveDoc**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}v
-= Part.**GetBodies2**(0, True)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To UBound(v)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}obj(i)
-= CType(v(i), Body2)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-cutListFeature As Feature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}cutListFeature
-= Part.**FeatureManager**.InsertWeldmentCutList2(obj)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+    Sub main()
+        Part = swApp.ActiveDoc
+        v = Part.GetBodies2(0, True)
+        For i = 0 To UBound(v)
+            obj(i) = CType(v(i), Body2)
+        Next
+        Dim cutListFeature As Feature
+        cutListFeature = Part.FeatureManager.InsertWeldmentCutList2(obj)
+    End Sub
+    Public swApp As SldWorks
 End Class
+```

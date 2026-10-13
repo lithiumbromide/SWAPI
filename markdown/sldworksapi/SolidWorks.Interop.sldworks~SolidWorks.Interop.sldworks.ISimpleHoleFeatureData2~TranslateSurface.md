@@ -45,13 +45,7 @@ property System.bool TranslateSurface {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to translate the surface of this simple hole, false to not
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::TranslateSurface](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~TranslateSurface.html)
-
-.
+See [SimpleHoleFeatureData2::TranslateSurface](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~TranslateSurface.html).
 
 ## Remarks
 
@@ -72,11 +62,8 @@ To use a true offset, this property should be false.
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::SurfaceOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~SurfaceOffset.html)
-
 [ISimpleHoleFeatureData2::ReverseOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~ReverseOffset.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReverse
 
 # swReverseEndPointTangentResult_e Enumeration
 
-Result codes for
-
-[ISketchManager::ReverseEndPointTangent](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~ReverseEndPointTangent.html)
-
-.
+Result codes for [ISketchManager::ReverseEndPointTangent](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~ReverseEndPointTangent.html).
 
 ## Syntax
 

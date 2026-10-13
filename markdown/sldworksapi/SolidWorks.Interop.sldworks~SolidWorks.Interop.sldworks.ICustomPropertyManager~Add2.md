@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Add2 Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::Add3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Add3.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::Add3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Add3.html).
 
 ## Syntax
 
@@ -59,18 +55,12 @@ System.int Add2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FieldName`: Name of custom property
-- `FieldType`: Type of custom property as defined in[swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
+- `FieldType`: Type of custom property as defined in [swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
 - `FieldValue`: Value of custom property
 
 ### Return Value
@@ -81,18 +71,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Add2](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add2.html)
-
-.
+See [CustomPropertyManager::Add2](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add2.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomerPropertyManager::Delete Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Delete.html)
 
 ## Availability

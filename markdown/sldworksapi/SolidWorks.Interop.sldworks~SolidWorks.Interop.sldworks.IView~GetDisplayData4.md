@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDisplayData4 Method (IView)
 
-Gets the the
-
-[IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)
-
-object for this drawing view containing only those model items that are visible in the view.
+Gets the the [IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) object for this drawing view containing only those model items that are visible in the view.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.object GetDisplayData4()
 System.Object^ GetDisplayData4();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetDisplayData4](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayData4.html)
-
-.
+See [View::GetDisplayData4](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayData4.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

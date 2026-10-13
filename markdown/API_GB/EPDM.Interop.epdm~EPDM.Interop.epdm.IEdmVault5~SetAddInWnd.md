@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~SetAddInWnd.html"
 
 # SetAddInWnd Method (IEdmVault5)
 
-Obsolete. See
-
-[Keeping Add-in Windows in the Foreground](KeepWindowInfront.htm)
-
-.
+Obsolete. See [Keeping Add-in Windows in the Foreground](KeepWindowInfront.htm).
 
 ## Syntax
 
@@ -47,13 +43,7 @@ void SetAddInWnd(
 ### Parameters
 
 - `lAddInWnd`: Add-in window handle
-- `lParentWnd`: File Explorer window handle;
-
-[EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
-::mlParentWnd passed to
-
-[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
+- `lParentWnd`: File Explorer window handle; [EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)::mlParentWnd passed to [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
 
 ## Remarks
 
@@ -66,7 +56,6 @@ This method ensures that windows created from add-ins written in Visual Basic 6 
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

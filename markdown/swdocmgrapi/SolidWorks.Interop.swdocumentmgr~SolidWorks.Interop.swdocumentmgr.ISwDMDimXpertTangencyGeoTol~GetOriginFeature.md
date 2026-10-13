@@ -57,11 +57,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertTangencyGeoTol::GetOriginFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertTangencyGeoTol~GetOriginFeature.html)
-
-.
+See [SwDMDimXpertTangencyGeoTol::GetOriginFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertTangencyGeoTol~GetOriginFeature.html).
 
 ## Examples
 
@@ -70,7 +66,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertTangencyGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTangencyGeoTol.html)
-
 [ISwDMDimXpertTangencyGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTangencyGeoTol_members.html)
 
 ## Availability

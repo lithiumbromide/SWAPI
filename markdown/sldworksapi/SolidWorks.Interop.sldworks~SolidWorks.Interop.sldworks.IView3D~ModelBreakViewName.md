@@ -42,13 +42,7 @@ property System.String^ ModelBreakViewName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,18 @@ Name of the Model Break View in this 3D View
 
 ## VBA Syntax
 
-See
-
-[View3D::ModelBreakViewName.](ms-its:sldworksapivb6.chm::/sldworks~View3D~ModelBreakViewName.html)
+See [View3D::ModelBreakViewName.](ms-its:sldworksapivb6.chm::/sldworks~View3D~ModelBreakViewName.html)
 
 ## Examples
 
 [Capture 3D View (C#)](Capture_3DView_Example_CSharp.htm)
-
 [Capture 3D View (VB.NET)](Capture_3DView_Example_VBNET.htm)
-
 [Capture 3D View (VBA)](Capture_3DView_Example_VB.htm)
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
-
 [IModelDocExtension::GetModelBreakViewNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetModelBreakViewNames.html)
 
 ## Availability

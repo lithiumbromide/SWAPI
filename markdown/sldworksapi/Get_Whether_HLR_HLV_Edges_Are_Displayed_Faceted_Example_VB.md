@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Whether_HLR_HLV_Edges_Are_Displayed_Faceted_Example_VB.
 
 # Get Whether HLR/HLV Edges Are Displayed Faceted Example (VBA)
 
-This example gets whether HLR or HLV edges (Hidden Lines Removed or Hidden
-Lines Visible) in the selected view are
-displayed faceted or not.
+This example gets whether HLR or HLV edges (Hidden Lines Removed or Hidden Lines Visible) in the selected view are displayed faceted or not.
 
 ```
 '-------------------------------------

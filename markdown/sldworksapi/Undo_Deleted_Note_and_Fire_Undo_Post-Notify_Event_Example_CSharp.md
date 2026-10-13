@@ -9,11 +9,9 @@ source: "sldworksapi/Undo_Deleted_Note_and_Fire_Undo_Post-Notify_Event_Example_C
 
 # Undo Deleted Note and Fire Undo Post-Notify Event Example (C#)
 
-## Undo Deleted Note and Fire Undo Pre- and Post-Notify Events Example
-(C#)
+## Undo Deleted Note and Fire Undo Pre- and Post-Notify Events Example (C#)
 
-This example demonstrates firing Undo pre- and post-notification events
-in a drawing document.
+This example demonstrates firing Undo pre- and post-notification events in a drawing document.
 
 ```vb
 //---------------------------------------------------------------------------
@@ -38,75 +36,75 @@ namespace UndoPostNotifyDrawingCSharp.csproj
 {
 partial class SolidWorksMacro
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public DrawingDoc swDrawing;
+    public DrawingDoc swDrawing;
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ModelDocExtension swModelDocExt = default(ModelDocExtension);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Hashtable openDrawing = default(Hashtable);
+    public void Main()
+    {
+        ModelDoc2 swModel = default(ModelDoc2);
+        ModelDocExtension swModelDocExt = default(ModelDocExtension);
+        bool boolstatus = false;
+        Hashtable openDrawing = default(Hashtable);
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt = (ModelDocExtension)swModel.Extension;
+        swModel = (ModelDoc2)swApp.ActiveDoc;
+        swModelDocExt = (ModelDocExtension)swModel.Extension;
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Event notification
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDrawing = (DrawingDoc)swModel;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}openDrawing = new Hashtable();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachEventHandlers();
+        // Event notification
+        swDrawing = (DrawingDoc)swModel;
+        openDrawing = new Hashtable();
+        AttachEventHandlers();
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Activate the drawing view that contains
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the note you want to delete
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swDrawing.ActivateView("Drawing View3");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("DetailItem77@Drawing View3", "NOTE", 0.3058741216774, 0.1870419466786, 0, false, 0, null, 0);
+        // Activate the drawing view that contains
+        // the note you want to delete
+        boolstatus = swDrawing.ActivateView("Drawing View3");
+        boolstatus = swModelDocExt.SelectByID2("DetailItem77@Drawing View3", "NOTE", 0.3058741216774, 0.1870419466786, 0, false, 0, null, 0);
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Delete the selected note
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.EditDelete();
+        // Delete the selected note
+        swModel.EditDelete();
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Undo deletion of note
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.EditUndo2(1);
+        // Undo deletion of note
+        swModel.EditUndo2(1);
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Post-notification is fired
+        // Post-notification is fired
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Rebuild the drawing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ForceRebuild3(true);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+        // Rebuild the drawing
+        swModel.ForceRebuild3(true);
+    }
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void AttachEventHandlers()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachSWEvents();
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    public void AttachEventHandlers()
+    {
+        AttachSWEvents();
+    }
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void AttachSWEvents()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDrawing.UndoPostNotify += this.swDrawing_UndoPostNotify;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDrawing.UndoPreNotify += this.swDrawing_UndoPreNotify;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    public void AttachSWEvents()
+    {
+        swDrawing.UndoPostNotify += this.swDrawing_UndoPostNotify;
+        swDrawing.UndoPreNotify += this.swDrawing_UndoPreNotify;
+    }
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private int swDrawing_UndoPostNotify()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Display message after Undo
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// NOTE: Because the message box may be displayed
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// behind an opened window, you might not see it.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// If so, then check the Taskbar. kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MessageBox.Show("An undo post-notification event has been fired.");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return 1;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    private int swDrawing_UndoPostNotify()
+    {
+        // Display message after Undo
+        // NOTE: Because the message box may be displayed
+        // behind an opened window, you might not see it.
+        // If so, then check the Taskbar.
+        MessageBox.Show("An undo post-notification event has been fired.");
+        return 1;
+    }
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private int b()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// Display message after Undo
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// NOTE: Because the message box may be displayed
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// behind an opened window, you might not see it.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// If so, then check the Taskbar.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MessageBox.Show("An Undo pre-notification event has been fired.");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return 1;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    private int b()
+    {
+        // Display message after Undo
+        // NOTE: Because the message box may be displayed
+        // behind an opened window, you might not see it.
+        // If so, then check the Taskbar.
+        MessageBox.Show("An Undo pre-notification event has been fired.");
+        return 1;
+    }
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public SldWorks swApp;
+    /// <summary>
+    /// The SldWorks swApp variable is pre-assigned for you.
+    /// </summary>
+    public SldWorks swApp;
 }
 }
 ```

@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPl
 
 # ApplyNameViewOrientation Method (ICWPlot)
 
-Obsolete. Superseded by
-
-[ICWPlot::ApplyNameViewOrientation2 .](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ApplyNameViewOrientation2.html)
+Obsolete. Superseded by [ICWPlot::ApplyNameViewOrientation2.](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ApplyNameViewOrientation2.html)
 
 ## Syntax
 
@@ -55,17 +53,11 @@ System.int ApplyNameViewOrientation(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ApplyNameViewOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ApplyNameViewOrientation.html)
-
-.
+See [CWPlot::ApplyNameViewOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ApplyNameViewOrientation.html).
 
 ## Remarks
 
@@ -85,7 +77,6 @@ This method is valid for the following plots:
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

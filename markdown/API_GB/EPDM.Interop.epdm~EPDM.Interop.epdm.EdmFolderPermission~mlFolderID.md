@@ -35,5 +35,4 @@ System.int mlFolderID
 ## See Also
 
 [EdmFolderPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
 [EdmFolderPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFaultEntity Interface Members
 
-The following tables list the members exposed by[IFaultEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity.html).
+The following tables list the members exposed by [IFaultEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IFaultEntity](SolidWorks.Intero
 ## See Also
 
 [IFaultEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

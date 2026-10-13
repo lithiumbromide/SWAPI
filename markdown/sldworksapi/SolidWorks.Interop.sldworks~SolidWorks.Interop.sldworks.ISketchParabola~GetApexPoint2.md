@@ -40,44 +40,24 @@ System.object GetApexPoint2()
 System.Object^ GetApexPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Apex
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+Apex [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::GetApexPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetApexPoint2.html)
-
-.
+See [SketchParabola::GetApexPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetApexPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchParabola](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
-examples.
+See the [ISketchParabola](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html) examples.
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)
-
 [ISketchParabola::IGetApexPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola~IGetApexPoint2.html)
 
 ## Availability

@@ -46,16 +46,11 @@ Number of tertiary datums
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::GetTertiaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetTertiaryDatumCount.html)
-
-.
+See [DimXpertTolerance::GetTertiaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetTertiaryDatumCount.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

@@ -48,24 +48,15 @@ Number of solid components
 
 ## VBA Syntax
 
-See
-
-[CWSolidManager::ComponentCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~ComponentCount.html)
-
-.
+See [CWSolidManager::ComponentCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~ComponentCount.html).
 
 ## Examples
 
-See the
-
-[ICWSolidManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
-examples.
+See the [ICWSolidManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html) examples.
 
 ## See Also
 
 [ICWSolidManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
 [ICWSolidManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager_members.html)
 
 ## Availability

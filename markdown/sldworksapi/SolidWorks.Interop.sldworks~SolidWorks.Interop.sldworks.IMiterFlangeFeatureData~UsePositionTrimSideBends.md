@@ -45,13 +45,7 @@ property System.bool UsePositionTrimSideBends {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to remove extra material in neighboring bends, false to not remove material
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::UsePositionTrimSideBends](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~UsePositionTrimSideBends.html)
-
-.
+See [MiterFlangeFeatureData::UsePositionTrimSideBends](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~UsePositionTrimSideBends.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
 
 ## Availability

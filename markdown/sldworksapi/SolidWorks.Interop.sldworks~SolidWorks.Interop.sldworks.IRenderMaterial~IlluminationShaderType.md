@@ -45,32 +45,19 @@ property System.int IlluminationShaderType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of illumination as defined in
-
-[swRenderMaterialIlluminationTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialIlluminationTypes_e.html)
+Type of illumination as defined in [swRenderMaterialIlluminationTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialIlluminationTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::IlluminationShaderType](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~IlluminationShaderType.html)
-
-.
+See [RenderMaterial::IlluminationShaderType](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~IlluminationShaderType.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

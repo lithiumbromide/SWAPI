@@ -40,13 +40,11 @@ property IEdmUser5^ User {
 ## Examples
 
 [Get File Version Information (C#)](Get_File_Version_Information_Example_CSharp.htm)
-
 [Get File Version Information (VB.NET)](Get_File_Version_Information_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html)
-
 [IEdmVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5_members.html)
 
 ## Availability

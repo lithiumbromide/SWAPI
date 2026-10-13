@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertStackedBalloon Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertStackedBalloon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertStackedBalloon.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertStackedBalloon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertStackedBalloon.html).
 
 ## Syntax
 
@@ -71,40 +67,24 @@ Note^ InsertStackedBalloon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Balloon style as defined in[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `Size`: Balloon size as defined in[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `UpperTextStyle`: Text style for the upper text of the balloon as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `Style`: Balloon style as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `Size`: Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `UpperTextStyle`: Text style for the upper text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `UpperText`: Text in the balloon
-- `LowerTextStyle`: Text style for the lower text of the balloon as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `LowerTextStyle`: Text style for the lower text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `LowerText`: Text in the lower part of the balloon when Style = swBS_SplitCirc
 
 ### Return Value
 
-Newly created
-
-[note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
+Newly created [note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertStackedBalloon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertStackedBalloon.html)
-
-.
+See [ModelDoc2::InsertStackedBalloon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertStackedBalloon.html).
 
 ## Remarks
 
@@ -112,7 +92,7 @@ This method adds a single balloon note attached to the pre-selected entity. The 
 
 This method returns a Note object, which you can then use to access the note; for example, setting the font of the note text or setting the position of the Note. You can stack notes on the Note object returned by this method.
 
-Use[INote::GetBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBalloonStack.html)with this note to get the[IBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack.html)object. You can control various properties of the stack, such as the direction and size. You can also use the BalloonStack to stack more balloons on this first balloon.
+Use [INote::GetBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBalloonStack.html) with this note to get the [IBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack.html) object. You can control various properties of the stack, such as the direction and size. You can also use the BalloonStack to stack more balloons on this first balloon.
 
 If the balloon style is split circle, both the lower- and upper-text arguments are used. If the balloon style is anything other than split circle, the upper-text arguments are used and the lower-text arguments are ignored.
 
@@ -121,11 +101,8 @@ If the text style is item number or quantity, the note text is determined throug
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [INote::IsStackedBalloon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsStackedBalloon.html)
-
 [INote::IsStackedBalloonMaster Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsStackedBalloonMaster.html)
 
 ## Availability

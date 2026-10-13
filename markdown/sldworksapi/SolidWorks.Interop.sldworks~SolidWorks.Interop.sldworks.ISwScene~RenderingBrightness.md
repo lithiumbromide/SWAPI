@@ -45,13 +45,7 @@ property System.double RenderingBrightness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Brightness
 
 ## VBA Syntax
 
-See
-
-[SwScene::RenderingBrightness](ms-its:sldworksapivb6.chm::/sldworks~SwScene~RenderingBrightness.html)
-
-.
+See [SwScene::RenderingBrightness](ms-its:sldworksapivb6.chm::/sldworks~SwScene~RenderingBrightness.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property is valid only when a ray-trace rendering engine is activated.
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

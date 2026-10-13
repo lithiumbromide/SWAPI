@@ -36,19 +36,11 @@ property System.bool IsRead {
 
 ### Property Value
 
-True if the message has been read, false if not (see
-
-Remarks
-
-)
+True if the message has been read, false if not (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
-examples.
+See the [IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html) examples.
 
 ## Remarks
 
@@ -57,7 +49,6 @@ You can only set this property to true; you cannot set it to false.
 ## See Also
 
 [IEdmMessage5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
 [IEdmMessage5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5_members.html)
 
 ## Availability

@@ -9,13 +9,13 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDoc2 Interface Methods
 
-For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html).
+For a list of all members of this type, see [IModelDoc2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html).
 
 ## Public Methods
 
 |  | Name | Description |
 | --- | --- | --- |
-| Method | ActivateFeatureMgrView | Obsolete. Superseded by IFeatureMgrView::ActivateView . |
+| Method | ActivateFeatureMgrView | Obsolete. Superseded by IFeatureMgrView::ActivateView or IModelDocExtension::ActivateFeatureMgrViewx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
 | Method | ActivateSelectedFeature | Activates the selected feature for editing. |
 | Method | AddConfiguration | Obsolete. Superseded by IModelDoc2::AddConfiguration3 . |
 | Method | AddConfiguration2 | Obsolete. Superseded by IModelDoc2::AddConfiguration3 . |
@@ -27,9 +27,9 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | AddDiameterDimension2 | Adds a diameter dimension at the specified location for the selected item. |
 | Method | AddDimension | Obsolete. Superseded by IModelDoc2::AddDimension2 . |
 | Method | AddDimension2 | Creates a display dimension at the specified location for selected entities. |
-| Method | AddFeatureMgrView | Obsolete. Superseded by IModelDoc2::AddFeatureMgrView3 . |
-| Method | AddFeatureMgrView2 | Obsolete. Superseded by IModelDoc2::AddFeatureMgrView3 . |
-| Method | AddFeatureMgrView3 | Adds the specified tab to the FeatureManager design tree view. |
+| Method | AddFeatureMgrView | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
+| Method | AddFeatureMgrView2 | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. |
+| Method | AddFeatureMgrView3 | Obsolete. Superseded by IModelDocExtension::AddFeatureMgrView3x64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Adds the specified tab to the FeatureManager design tree view. |
 | Method | AddHorizontalDimension | Obsolete. Superseded by IModelDoc2::AddHorizontalDimension2 . |
 | Method | AddHorizontalDimension2 | Creates a horizontal dimension for the currently selected entities at the specified location. |
 | Method | AddIns | Displays the Add-In Manager dialog box. |
@@ -133,7 +133,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | DeleteCustomInfo | Obsolete. Superseded by IModelDocExtension::CustomPropertyManager . |
 | Method | DeleteCustomInfo2 | Obsolete. Superseded by IModelDocExtension::CustomPropertyManager . |
 | Method | DeleteDesignTable | Deletes the design table for this document, if one exists. |
-| Method | DeleteFeatureMgrView | Removes the specified tab in the FeatureManager design tree. |
+| Method | DeleteFeatureMgrView | Obsolete. Superseded by IModelDocExtension::DeleteFeatureMgrViewx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Removes the specified tab in the FeatureManager design tree. |
 | Method | DeleteLightSource | Deletes a light source. |
 | Method | DeleteNamedView | Deletes the specified model view. |
 | Method | DeleteSelection | Obsolete. Superseded by IModelDocExtension::DeleteSelection2 . |
@@ -159,7 +159,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | EditOrdinate | Puts the currently selected ordinate dimension into edit mode so you could add more ordinate dimensions to this group. |
 | Method | EditRebuild3 | Rebuilds only those features that need to be rebuilt in the active configuration in the model. |
 | Method | EditRedo | Obsolete. Superseded by IModelDoc2::EditRedo2 . |
-| Method | EditRedo2 | Repeats the specified number of actions in this SOLIDWORKS session. |
+| Method | EditRedo2 | Repeats the specified number of actions in this SOLIDWORKS Design session. |
 | Method | EditRollback | Obsolete. Superseded by IFeatureManager::EditRollback . |
 | Method | EditRollback2 | Obsolete. Superseded by IFeatureManager::EditRollback . |
 | Method | EditRoute | Makes the last selected route the active route. |
@@ -169,7 +169,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | EditSuppress | Obsolete. Superseded IModelDoc2::EditSuppress2 . |
 | Method | EditSuppress2 | Suppresses the selected feature, the selected component, or the owning feature of the selected face. |
 | Method | EditUndo | Obsolete. Superseded by IModelDoc2::EditUndo2 . |
-| Method | EditUndo2 | Undoes the specified number of actions in the active SOLIDWORKS session. |
+| Method | EditUndo2 | Undoes the specified number of actions in the active SOLIDWORKS Design session. |
 | Method | EditUnsuppress | Obsolete. Superseded by IModelDoc2::EditUnsuppress2 . |
 | Method | EditUnsuppress2 | Unsuppresses the selected feature or component. |
 | Method | EditUnsuppressDependent | Obsolete. Superseded by IModelDoc2::EditUnsuppressDependent2 . |
@@ -266,14 +266,14 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | GetLightSourceCount | Gets the number of light sources. |
 | Method | GetLightSourceExtProperty | Gets a float, string, or integer value stored for the light source. |
 | Method | GetLightSourceIdFromName | Gets the ID of the specified light source. |
-| Method | GetLightSourceName | Gets the name of a light source used internally by the SOLIDWORKS application. |
+| Method | GetLightSourceName | Gets the name of a light source used internally by the SOLIDWORKS Design application. |
 | Method | GetLineCount | Gets the number of lines in the current sketch. |
 | Method | GetLines | Gets all of the lines in the current sketch. |
 | Method | GetMassProperties | Obsolete. Superseded by IModelDocExtension::GetMassProperties and IModelDocExtension::IGetMassProperties . |
 | Method | GetMassProperties2 | Obsolete. Superseded by IModelDocExtension::GetMassProperties and IModelDocExtension::IGetMassProperties . |
 | Method | GetModelViewCount | Obsolete. Superseded by IModelDocExtension::GetModelViewCount . |
 | Method | GetModelViewNames | Gets a list containing the names of each model view in this document. |
-| Method | GetNext | Gets the next document in the current SOLIDWORKS session. |
+| Method | GetNext | Gets the next document opened in the current SOLIDWORKS Design session. |
 | Method | GetNumDependencies | Gets the number of strings returned by IModelDoc2::GetDependencies2 . |
 | Method | GetPathName | Gets the full path name for this document, including the file name. |
 | Method | GetPointLightProperties | Gets point light properties. |
@@ -283,7 +283,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | GetRayIntersectionsPoints | Gets the intersection point information generated by IModelDoc2::RayIntersections . |
 | Method | GetRayIntersectionsTopology | Gets the topology intersections generated by IModelDoc2::RayIntersections . |
 | Method | GetSaveFlag | Gets whether the document is currently dirty and needs to be saved. |
-| Method | GetSceneBkgDIB | Gets background image as a LPDIBSECTION. |
+| Method | GetSceneBkgDIB | Obsolete. Superseded by IModelDocExtension::GetSceneBkgDIBx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets background image as a LPDIBSECTION. |
 | Method | GetSceneExtProperty | Gets a float, string, or integer value stored for the scene. |
 | Method | GetSpotlightProperties | Gets the spotlight properties. |
 | Method | GetStandardViewRotation | Gets the specified view orientation matrix with respect to the Front view. |
@@ -361,7 +361,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | IFeatureFillet5 | Obsolete. Superseded by IFeatureManager::FeatureCut . |
 | Method | IFeatureReferenceCurve | Creates a reference curve feature from an array of curves. |
 | Method | IFirstFeature | Gets the first feature in the document. |
-| Method | IGet3rdPartyStorage | Gets the IStream interface to the specified third-party stream inside this SOLIDWORKS document. |
+| Method | IGet3rdPartyStorage | Gets the IStream interface to the specified third-party stream inside this SOLIDWORKS Design document. |
 | Method | IGetActiveConfiguration | Obsolete. Superseded by IConfigurationManager::ActiveConfiguration . |
 | Method | IGetActiveSketch | Obsolete. Superseded by IModelDoc2::IGetActiveSketch2 . |
 | Method | IGetActiveSketch2 | Gets the active sketch. |
@@ -385,7 +385,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | IGetMassProperties | Obsolete. Superseded by IModelDocExtension::IGetMassProperties . |
 | Method | IGetMassProperties2 | Obsolete. Superseded by IModelDocExtension::IGetMassProperties . |
 | Method | IGetModelViewNames | Gets a list containing the names of each model view in this document. |
-| Method | IGetNext | Gets the next document in the current SOLIDWORKS session. |
+| Method | IGetNext | Gets the next document opened in the current SOLIDWORKS Design session. |
 | Method | IGetNumDependencies | Obsolete. Superseded by IModelDoc2::IGetNumDependencies2 . |
 | Method | IGetNumDependencies2 | Gets the number of strings returned by IModelDoc2::IGetDependencies2 . |
 | Method | IGetRayIntersectionsPoints | Gets the intersection point information generated by IModelDoc2::IRayIntersections . |
@@ -502,7 +502,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | InsertSketch2 | Obsolete. Superseded by ISketchManager::InsertSketch . |
 | Method | InsertSketchForEdgeFlange | Inserts a profile sketch of an edge flange in this sheet metal part. |
 | Method | InsertSketchPicture | Inserts a picture into the current sketch. |
-| Method | InsertSketchPictureData | Inserts a picture into the current sketch. |
+| Method | InsertSketchPictureData | Obsolete. Superseded by IModelDoc2::InsertSketchPictureDatax64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Inserts a picture into the current sketch. |
 | Method | InsertSketchPictureDatax64 | Inserts a picture into the current sketch in 64-bit applications. |
 | Method | InsertSketchText | Inserts sketch text. |
 | Method | InsertSplinePoint | Inserts a spline point. |
@@ -530,7 +530,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | IsOpenedReadOnly | Gets whether a SOLIDWORKS document is open in read-only mode. |
 | Method | IsOpenedViewOnly | Gets whether a SOLIDWORKS document is open in view-only mode. |
 | Method | IsTessellationValid | Gets whether the current set of facets is valid. |
-| Method | IVersionHistory | Gets an array of strings indicating the versions in which this model document was saved, including the SOLIDWORKS version in which the model document is currently opened and which is the last value returned in the array. |
+| Method | IVersionHistory | Gets an array of strings indicating the versions in which this model document was saved, including the SOLIDWORKS Design version in which the model document is currently opened and which is the last value returned in the array. |
 | Method | LBDownAt | Generates a left mouse button press (down) event. |
 | Method | LBUpAt | Generates a left-mouse button release (up) event. |
 | Method | Lights | Obsolete. Not superseded. |
@@ -612,7 +612,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | SetDisplayWhenAdded | Obsolete. Superseded by ISketchManager::DisplayWhenAdded . |
 | Method | SetFeatureManagerWidth | Sets the width of the FeatureManager design tree. |
 | Method | SetInferenceMode | Obsolete. Superseded by SketchManager::InferenceMode . |
-| Method | SetLightSourceName | Sets the light source name used internally by the SOLIDWORKS software. |
+| Method | SetLightSourceName | Sets the light source name used internally by the SOLIDWORKS Design software. |
 | Method | SetLightSourcePropertyValuesVB | Sets the light source property values. |
 | Method | SetParamValue | Sets the value of selected dimension (or parameter). |
 | Method | SetPickMode | Returns the user to the default selection mode. |
@@ -621,7 +621,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | SetReadOnlyState | Sets whether this document is read-only or read-write. |
 | Method | SetSaveAsFileName | Sets the Save As filename from within the FileSaveAsNotify2 event handlers, thereby, bypassing the Save As dialog. |
 | Method | SetSaveFlag | Flags the document as dirty. |
-| Method | SetSceneBkgDIB | Sets background image described by DIBSECTION data. |
+| Method | SetSceneBkgDIB | Obsolete. Superseded by IModelDocExtension::SetSceneBkgDIBx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Sets background image described by DIBSECTION data. |
 | Method | SetSpotlightProperties | Sets the spotlight properties. |
 | Method | SetTessellationQuality | Sets the shaded-display image quality number for the current document. |
 | Method | SetTitle2 | Sets the title of a new document. |
@@ -705,7 +705,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Method | UnlockFramePoint | Obsolete. Not superseded. |
 | Method | UserFavors | Specifies whether geometric relations are automatically created as you add sketch entities. |
 | Method | UserPreferences | Obsolete. The See Also section of this topic contains links to the methods that supersede this method. |
-| Method | VersionHistory | Gets an array of strings indicating the versions in which this document was saved, including the SOLIDWORKS version in which the model document is currently opened and which is the last value returned in the array. |
+| Method | VersionHistory | Gets an array of strings indicating the versions in which this document was saved, including the SOLIDWORKS Design version in which the model document is currently opened and which is the last value returned in the array. |
 | Method | ViewConstraint | Shows the constraints for the current model document. |
 | Method | ViewDispCoordinateSystems | Toggles the display of coordinate systems on and off. |
 | Method | ViewDisplayCurvature | Toggles the display of surface curvature on and off. |
@@ -752,5 +752,4 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

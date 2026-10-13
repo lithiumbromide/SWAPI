@@ -41,24 +41,15 @@ void BaseExcitationBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::BaseExcitationBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationBeginEdit.html)
-
-.
+See [CWBaseExcitation::BaseExcitationBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationBeginEdit.html).
 
 ## Remarks
 
-To start editing a base excitation, you must call this method. You must call
-
-[ICWBaseExcitation::BaseExcitationEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~BaseExcitationEndEdit.html)
-
-to end editing a base excitation. Changes are not applied unless you call both methods.
+To start editing a base excitation, you must call this method. You must call [ICWBaseExcitation::BaseExcitationEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~BaseExcitationEndEdit.html) to end editing a base excitation. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

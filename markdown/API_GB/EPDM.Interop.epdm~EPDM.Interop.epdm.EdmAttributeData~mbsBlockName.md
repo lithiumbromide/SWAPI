@@ -35,5 +35,4 @@ System.String^ mbsBlockName
 ## See Also
 
 [EdmAttributeData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html)
-
 [EdmAttributeData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData_members.html)

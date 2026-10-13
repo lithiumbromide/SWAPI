@@ -47,7 +47,7 @@ Element at the specified position
 
 ## Remarks
 
-To enumerate a list, call[IEdmEnum::MoveNext](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~MoveNext.html)and[IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html), both of which are more efficient than this method.
+To enumerate a list, call [IEdmEnum::MoveNext](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~MoveNext.html) and [IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html), both of which are more efficient than this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -57,7 +57,6 @@ To enumerate a list, call[IEdmEnum::MoveNext](EPDM.Interop.epdm~EPDM.Interop.epd
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataType.html"
 
 # EdmDataType Enumeration
 
-Data types; used in calls to
-
-[IEdmData::Type](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Type.html)
-
-.
+Data types; used in calls to [IEdmData::Type](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Type.html).
 
 ## Syntax
 
@@ -49,7 +45,5 @@ public enum class EdmDataType : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmData Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
 [IEdmTemplate53::RunEx Method](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53~RunEx.html)

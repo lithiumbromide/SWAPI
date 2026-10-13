@@ -62,13 +62,7 @@ void ICreateEllipticalArcByCenter(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,34 +78,21 @@ True if successfully created, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ICreateEllipticalArcByCenter](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ICreateEllipticalArcByCenter.html)
-
-.
+See [ModelDoc2::ICreateEllipticalArcByCenter](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ICreateEllipticalArcByCenter.html).
 
 ## Remarks
 
-The Start and End
-
-arguments should be specified in a counter-clockwise (CCW) manner.
+The Start and End arguments should be specified in a counter-clockwise (CCW) manner.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateEllipse2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateEllipse2.html)
-
 [IModelDoc2::CreateEllipticalArc2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateEllipticalArc2.html)
-
 [IModelDoc2::CreateEllipticalArcByCenter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateEllipticalArcByCenter.html)
-
 [IModelDoc2::CreateEllipticalArcByCenterVB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateEllipticalArcByCenterVB.html)
-
 [IModelDoc2::ICreateEllipse2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ICreateEllipse2.html)
-
 [IModelDoc2::ICreateEllipticalArc2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ICreateEllipticalArc2.html)
 
 ## Availability

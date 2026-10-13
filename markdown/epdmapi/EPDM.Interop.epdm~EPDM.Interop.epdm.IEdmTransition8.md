@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8.html"
 
 Allows you to access a workflow transition.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmTransition8 : public IEdmObject5, IEdmTransition5, IE
 
 This interface:
 
-- extends
-
-  [IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html)
-
-  .
-- is extended by
-
-  [IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html)
-
-  .
+- extends [IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html).
+- is extended by [IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html).
 
 ## See Also
 
 [IEdmTransition8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

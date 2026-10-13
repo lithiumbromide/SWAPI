@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetEndPoint Method (ISketchArc)
 
-Obsolete. Superseded by
-
-[ISketchArc::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc~GetEndPoint2.html)
-
-and
-
-[ISketchArc::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc~IGetEndPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchArc::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc~GetEndPoint2.html) and [ISketchArc::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc~IGetEndPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetEndPoint()
 System.double IGetEndPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchArc::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~IGetEndPoint.html)
-
-.
+See [SketchArc::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~IGetEndPoint.html).
 
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)

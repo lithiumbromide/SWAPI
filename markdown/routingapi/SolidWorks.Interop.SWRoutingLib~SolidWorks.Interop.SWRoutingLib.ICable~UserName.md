@@ -51,19 +51,11 @@ Name of the cable
 
 ## VBA Syntax
 
-See
-
-[Cable::UserName](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~UserName.html)
-
-.
+See [Cable::UserName](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~UserName.html).
 
 ## Examples
 
-See the
-
-[ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
-examples.
+See the [ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html) examples.
 
 ## Remarks
 
@@ -72,7 +64,6 @@ The cable name is a unique value for each cable, and the same value for each cor
 ## See Also
 
 [ICable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
 [ICable Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable_members.html)
 
 ## Availability

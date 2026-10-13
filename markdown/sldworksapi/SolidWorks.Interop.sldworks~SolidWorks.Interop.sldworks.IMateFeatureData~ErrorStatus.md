@@ -42,32 +42,19 @@ property System.int ErrorStatus {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Status of adding or editing this mate as defined in
-
-[swAddMateError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAddMateError_e.html)
+Status of adding or editing this mate as defined in [swAddMateError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAddMateError_e.html)
 
 ## VBA Syntax
 
-See
-
-[MateFeatureData::ErrorStatus](ms-its:sldworksapivb6.chm::/sldworks~MateFeatureData~ErrorStatus.html)
-
-.
+See [MateFeatureData::ErrorStatus](ms-its:sldworksapivb6.chm::/sldworks~MateFeatureData~ErrorStatus.html).
 
 ## See Also
 
 [IMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)
-
 [IMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData_members.html)
 
 ## Availability

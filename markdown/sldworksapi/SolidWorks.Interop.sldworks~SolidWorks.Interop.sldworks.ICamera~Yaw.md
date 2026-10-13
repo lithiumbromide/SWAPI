@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # Yaw Property (ICamera)
 
-Gets or sets the yaw (side-to-side angle) of a
-
-[floating camera](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICamera~Type.html)
-
-.
+Gets or sets the yaw (side-to-side angle) of a [floating camera](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICamera~Type.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double Yaw {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,17 @@ Yaw
 
 ## VBA Syntax
 
-See
-
-[Camera::Yaw](ms-its:sldworksapivb6.chm::/sldworks~Camera~Yaw.html)
-
-.
+See [Camera::Yaw](ms-its:sldworksapivb6.chm::/sldworks~Camera~Yaw.html).
 
 ## Examples
 
 [Insert and Rotate Camera (C#)](Insert_and_Rotate_Camera_Example_CSharp.htm)
-
 [Insert and Rotate Camera (VB.NET)](Insert_and_Rotate_Camera_Example_VBNET.htm)
-
 [Insert and Rotate Camera (VBA)](Insert_and_Rotate_Camera_Example_VB.htm)
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPage2Handler Object
-Members"
+title: "PropertyManagerPage2Handler Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "PropertyManagerPage2Handler_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~PropertyManagerPage2Handler_members.html"
 ---
 
-# PropertyManagerPage2Handler Object
-Members
+# PropertyManagerPage2Handler Object Members
 
 ## Public Methods
 

@@ -40,13 +40,7 @@ System.object GetTangentEdges()
 System.Object^ GetTangentEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Array of tangent edges
 
 ## VBA Syntax
 
-See
-
-[Edge::GetTangentEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTangentEdges.html)
-
-.
+See [Edge::GetTangentEdges](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTangentEdges.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IGetTangentEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetTangentEdges.html)
-
 [IEdge::GetTangentEdgesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetTangentEdgesCount.html)
-
 [IModelDoc2::SelectTangency Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectTangency.html)
 
 ## Availability

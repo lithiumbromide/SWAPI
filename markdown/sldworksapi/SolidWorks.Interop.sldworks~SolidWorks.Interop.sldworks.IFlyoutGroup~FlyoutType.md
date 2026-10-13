@@ -45,38 +45,24 @@ property System.int FlyoutType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Flyout type as defined in
-
-[swCommandFlyoutStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandFlyoutStyle_e.html)
+Flyout type as defined in [swCommandFlyoutStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandFlyoutStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[FlyoutGroup::FlyoutType](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~FlyoutType.html)
-
-.
+See [FlyoutGroup::FlyoutType](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~FlyoutType.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [IFlyoutGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup_members.html)
 
 ## Availability

@@ -40,7 +40,6 @@ Name of this reference's configuration
 ## See Also
 
 [IEdmReference9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference9.html)
-
 [IEdmReference9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference9_members.html)
 
 ## Availability

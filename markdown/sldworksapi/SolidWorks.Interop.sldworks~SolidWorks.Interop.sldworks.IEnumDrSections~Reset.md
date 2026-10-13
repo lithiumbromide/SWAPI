@@ -39,21 +39,11 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EnumDrSections::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumDrSections~Reset.html)
-
-.
+See [EnumDrSections::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumDrSections~Reset.html).
 
 ## Remarks
 
@@ -62,5 +52,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDrSections Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html)
-
 [IEnumDrSections Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections_members.html)

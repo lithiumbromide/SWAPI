@@ -46,16 +46,11 @@ DimXpertFeature^ GetTopReferenceFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::GetTopReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetTopReferenceFeature.html)
-
-.
+See [DimXpertCompoundNotchFeature::GetTopReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetTopReferenceFeature.html).
 
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

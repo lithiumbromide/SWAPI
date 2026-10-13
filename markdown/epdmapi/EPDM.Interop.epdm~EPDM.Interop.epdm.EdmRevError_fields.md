@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_fields.html"
 
 # EdmRevError Structure Fields
 
-For a list of all members of this type, see[EdmRevError members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_members.html).
+For a list of all members of this type, see [EdmRevError members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmRevError members](EPDM.Interop.ep
 ## See Also
 
 [EdmRevError Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

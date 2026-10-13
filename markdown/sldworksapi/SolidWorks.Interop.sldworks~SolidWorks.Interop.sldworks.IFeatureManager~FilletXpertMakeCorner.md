@@ -47,19 +47,11 @@ Feature^ FilletXpertMakeCorner(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CornerType`: See
-
-Remarks
+- `CornerType`: See **Remarks**
 
 ### Return Value
 
@@ -67,21 +59,13 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FilletXpertMakeCorner](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FilletXpertMakeCorner.html)
-
-.
+See [FeatureManager::FilletXpertMakeCorner](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FilletXpertMakeCorner.html).
 
 ## Remarks
 
 For the fillet corner, everything is dependent on the convexity of the three filleted edges adjacent.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
 If all three edges have the same convexity, then no corner substitution is possible. Otherwise, there will be two edges of one convexity, and one of the other. It does not matter if the two same edges are both convex or both concave, as long as the edges are the same.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 The valid values for the CornerType argument are:
 
@@ -96,15 +80,10 @@ NOTE: Types 1 and 3 relate to one another, as do types 2 and 5. This means that 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::FeatureFillet Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureFillet.html)
-
 [IFeatureManager::IFeatureFillet Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IFeatureFillet.html)
-
 [IFeatureManager::FilletXpertChange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FilletXpertChange.html)
-
 [IFeatureManager::FilletXpertRemove Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FilletXpertRemove.html)
 
 ## Availability

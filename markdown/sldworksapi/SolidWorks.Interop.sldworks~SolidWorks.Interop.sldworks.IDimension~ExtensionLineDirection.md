@@ -45,29 +45,15 @@ property MathVector^ ExtensionLineDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-object
+Pointer to the [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) object
 
 ## VBA Syntax
 
-See
-
-[Dimension::ExtensionLineDirection](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ExtensionLineDirection.html)
-
-.
+See [Dimension::ExtensionLineDirection](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ExtensionLineDirection.html).
 
 ## Examples
 
@@ -75,18 +61,12 @@ See
 
 ## Remarks
 
-This method only supports feature dimensions. Additionally, it returns non-0 vector for feature dimensions (
-
-[IDimension::GetFeatureOwner](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetFeatureOwner.html)
-
-) and 0 vector for radial and chamfer dimensions.
+This method only supports feature dimensions. Additionally, it returns non-0 vector for feature dimensions ([IDimension::GetFeatureOwner](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetFeatureOwner.html)) and 0 vector for radial and chamfer dimensions.
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDimension::DimensionLineDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~DimensionLineDirection.html)
 
 ## Availability

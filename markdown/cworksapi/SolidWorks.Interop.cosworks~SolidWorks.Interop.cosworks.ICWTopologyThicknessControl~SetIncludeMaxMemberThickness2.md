@@ -52,16 +52,11 @@ void SetIncludeMaxMemberThickness2(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::SetIncludeMaxMemberThickness2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMaxMemberThickness2.html)
-
-.
+See [CWTopologyThicknessControl::SetIncludeMaxMemberThickness2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMaxMemberThickness2.html).
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
 
 ## Availability

@@ -11,8 +11,7 @@ source: "sldworksapi/Get_Display_Dimension_Properties_Example_VB.htm"
 
 ## Get Display Dimension Properties Examples (VBA)
 
-This example shows how to get the display dimension
-propertiesfor a dimension in a drawing view.
+This example shows how to get the display dimension properties for a dimension in a drawing view.
 
 ```
 '------------------------------------------------------------------------

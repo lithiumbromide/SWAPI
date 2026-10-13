@@ -49,9 +49,7 @@ System.bool SetPerformanceOptions(
 
 ### Parameters
 
-- `options`: Performance options as defined by
-
-[fwPerformanceOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwPerformanceOptions_e.html)
+- `options`: Performance options as defined by [fwPerformanceOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwPerformanceOptions_e.html)
 
 ### Return Value
 
@@ -59,16 +57,11 @@ True if the performance options are set, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureWorksApp::SetPerformanceOptions](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~SetPerformanceOptions.html)
-
-.
+See [FeatureWorksApp::SetPerformanceOptions](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~SetPerformanceOptions.html).
 
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [IFeatureWorksApp Members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html)
 
 ## Availability

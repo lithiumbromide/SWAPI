@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_and_Show_BOM_Table_and_BOM_Balloon_Example_VB.htm"
 
 # Insert and Show BOM Table and BOM Balloon Example (VBA)
 
-This example shows how to insert a Bill of Materials (BOM) table andkadov_tag{{</spaces>}}balloon
-in a drawing document.
+This example shows how to insert a Bill of Materials (BOM) table and balloon in a drawing document.
 
 ```vb
  '----------------------------------------------------------------------------

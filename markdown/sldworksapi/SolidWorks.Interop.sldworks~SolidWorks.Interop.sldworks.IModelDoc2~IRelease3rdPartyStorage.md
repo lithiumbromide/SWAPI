@@ -46,13 +46,7 @@ void IRelease3rdPartyStorage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,36 +54,27 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IRelease3rdPartyStorage](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IRelease3rdPartyStorage.html)
-
-.
+See [ModelDoc2::IRelease3rdPartyStorage](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IRelease3rdPartyStorage.html).
 
 ## Remarks
 
-You can use this method with[IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html). You must use it if you are not using the LoadFromStorageNotify event. You must call this method when the call to IModelDoc2::IGet3rdPartyStorage returns a NULL stream.
+You can use this method with [IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html). You must use it if you are not using the LoadFromStorageNotify event. You must call this method when the call to IModelDoc2::IGet3rdPartyStorage returns a NULL stream.
 
-NOTE:If you are using serialization, then be careful with the standard MFC macros; otherwise, you can get messages likeUnexpected File Formatafter your application is unloaded. One way of using IMPLEMENT_SERIAL is:
+NOTE: If you are using serialization, then be careful with the standard MFC macros; otherwise, you can get messages like Unexpected File Format after your application is unloaded. One way of using IMPLEMENT_SERIAL is:
 
+```vb
 IMPLEMENT_SERIAL( CCustomAttr, CObject, VERSIONABLE_SCHEMA|0 )
+```
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [DAssemblyDocEvents_LoadFromStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_LoadFromStorageNotifyEventHandler.html)
-
 [DAssemblyDocEvents_SaveToStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SaveToStorageNotifyEventHandler.html)
-
 [DDrawingDocEvents_LoadFromStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_LoadFromStorageNotifyEventHandler.html)
-
 [DDrawingDocEvents_SaveToStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_SaveToStorageNotifyEventHandler.html)
-
 [DPartDocEvents_LoadFromStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_LoadFromStorageNotifyEventHandler.html)
-
 [DPartDocEvents_SaveToStorageNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SaveToStorageNotifyEventHandler.html)
 
 ## Availability

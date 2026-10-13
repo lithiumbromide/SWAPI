@@ -45,13 +45,7 @@ property System.int ObjectAreaLight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the appearance has an object area light or it has realistic falloff, or 
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::ObjectAreaLight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ObjectAreaLight.html)
-
-.
+See [RenderMaterial::ObjectAreaLight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ObjectAreaLight.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -11,91 +11,42 @@ source: "sldworksapi/Get_Edge_Points_Example_VB.htm"
 
 This example shows how to get edge points.
 
-NOTE:An edge point is a midpoint
-on an edge or an endpoint or midpoint on a reference curve.
+NOTE: An edge point is a midpoint on an edge or an endpoint or midpoint on a reference curve.
 
+```vb
 '---------------------------------------------
-
 '
-
 ' Preconditions: Part document is open and
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}at
-least one edge point is selected.
-
+'                at least one edge point is selected.
 '
-
 ' Postconditions: None
-
 '
-
 '---------------------------------------------
-
 Dim swApp As Object
 
 Sub main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swApp As SldWorks.SldWorks
+    Dim swApp As SldWorks.SldWorks
+    Dim swModel As SldWorks.ModelDoc2
+    Dim swSelMgr As SldWorks.SelectionMgr
+    Dim edgep As SldWorks.EdgePoint
+    Dim swSelObj As Object
+    Dim SelType As Long
+    Dim SelCount As Long
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModel As SldWorks.ModelDoc2
+    Set swApp = GetObject(, "SldWorks.Application")
+    Set swModel = swApp.ActiveDoc
+    Set swSelMgr = swModel.SelectionManager
+    SelCount = swSelMgr.GetSelectedObjectCount
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgr As SldWorks.SelectionMgr
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-edgep As SldWorks.EdgePoint
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelObj As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-SelType As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-SelCount As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = GetObject(, "SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelMgr = swModel.SelectionManager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}SelCount
-= swSelMgr.GetSelectedObjectCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 1 To SelCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}SelType
-= swSelMgr.GetSelectedObjectType(i)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-SelType
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-SwConst.swSelectType_e.swSelPOINTREFS = SelType Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelObj = swSelMgr.GetSelectedObject5(i)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-edgep = swSelObj
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    For i = 1 To SelCount
+        SelType = swSelMgr.GetSelectedObjectType(i)
+        Debug.Print SelType
+        If SwConst.swSelectType_e.swSelPOINTREFS = SelType Then
+            Set swSelObj = swSelMgr.GetSelectedObject5(i)
+            Set edgep = swSelObj
+        End If
+    Next i
 
 End Sub
+```

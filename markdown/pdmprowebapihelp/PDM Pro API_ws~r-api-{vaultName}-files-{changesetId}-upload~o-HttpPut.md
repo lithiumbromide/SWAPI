@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Put | api/{vaultName}/files/{changesetId}/upload |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Stage Resource Group : api/{vaultName}/files/{changesetId}/upload (Put) |
 | --- |
@@ -27,7 +23,7 @@ Description
 
 PUT: api/{vaultname}/files/{changesetId}/upload Upload file to changeset to add files operations
 
-Uploads files to the specified changeset. (See**Remarks**)
+Uploads files to the specified changeset. (See **Remarks**)
 
 Parameters
 
@@ -58,22 +54,14 @@ Returns the changeset ID
 
 Example
 
-[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Program.cs](Program.cs)
+[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json) | [Program.cs](Program.cs)
 
 Remarks
 
-This request also requires a binary Body that consists of the binary files to add to the changeset. Drag/drop the JSON example to Postman and inspect the Body of the HTTP request. The**Program.cs**example creates the binary file that you can upload using this request.
+This request also requires a binary Body that consists of the binary files to add to the changeset. Drag/drop the JSON example to Postman and inspect the Body of the HTTP request. The **Program.cs** example creates the binary file that you can upload using this request.
 
-You must call[api/{vaultName}/changeset/create](PDM%20Pro%20API_ws~r-api-{vaultName}-changeset-create~o-HttpGet.html)to get the changeset ID for this HTTP request.
+You must call [api/{vaultName}/changeset/create](PDM%20Pro%20API_ws~r-api-{vaultName}-changeset-create~o-HttpGet.html) to get the changeset ID for this HTTP request.
 
 See Also
 
-[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Stage Resource Group](PDM%20Pro%20API_ws~g-ab7aa0c7-6261-4685-9682-f6301732b3ab.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

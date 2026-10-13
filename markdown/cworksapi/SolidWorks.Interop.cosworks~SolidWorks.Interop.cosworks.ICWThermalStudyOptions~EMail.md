@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTh
 
 # EMail Property (ICWThermalStudyOptions)
 
-Obsolete. Superseded by ICWThermalStudyOptions::Email2.
+Obsolete. Superseded by [ICWThermalStudyOptions::Email2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMail2.html).
 
 ## Syntax
 
@@ -51,31 +51,18 @@ property System.int EMail {
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~EMail.html)
-
-.
+See [CWThermalStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~EMail.html).
 
 ## Remarks
 
 If this property is set to 1:
 
-- use
-
-  [ICWThermalStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- use
-
-  [ICWThermalStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailTimebased.html)
-
-  to send email notifications during simulations.
+- use [ICWThermalStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- use [ICWThermalStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailTimebased.html) to send email notifications during simulations.
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

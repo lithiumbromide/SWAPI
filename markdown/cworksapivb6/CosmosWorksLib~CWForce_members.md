@@ -1,6 +1,5 @@
 ---
-title: "CWForce Object
-Members"
+title: "CWForce Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWForce_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWForce_members.html"
 ---
 
-# CWForce Object
-Members
+# CWForce Object Members
 
 ## Public Methods
 

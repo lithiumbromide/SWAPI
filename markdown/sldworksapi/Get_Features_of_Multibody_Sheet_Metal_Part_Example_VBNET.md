@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Features_of_Multibody_Sheet_Metal_Part_Example_VBNET.ht
 
 # Get Features of Multibody Sheet Metal Part Example (VB.NET)
 
-This example shows how to sort a cut-list folder of
-a multibody sheet metal part.
+This example shows how to sort a cut-list folder of a multibody sheet metal part.
 
 ```vb
  '---------------------------------------------------------------------------

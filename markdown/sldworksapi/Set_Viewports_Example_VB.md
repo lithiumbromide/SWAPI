@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Viewports_Example_VB.htm"
 
 # Set Viewports Example (VBA)
 
-This example shows how to set viewports and check and change whether
-they're linked.
+This example shows how to set viewports and check and change whether they're linked.
 
 ```
 '--------------------------------------------------------------------------

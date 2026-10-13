@@ -39,28 +39,16 @@ void IsolateChangedDimensions()
 void IsolateChangedDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IsolateChangedDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IsolateChangedDimensions.html)
-
-.
+See [DrawingDoc::IsolateChangedDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IsolateChangedDimensions.html).
 
 ## Examples
 
 [Isolate Changed Dimension (C#)](Isolate_Changed_Dimension_Example_CSharp.htm)
-
 [Isolate Changed Dimension (VB.NET)](Isolate_Changed_Dimension_Example_VBNET.htm)
-
 [Isolate Changed Dimension (VBA)](Isolate_Changed_Dimension_Example_VB.htm)
 
 ## Remarks
@@ -69,19 +57,12 @@ This method only works with drawings saved in SOLIDWORKS 2012 and later.
 
 To isolate changed dimensions:
 
-1. Call
-
-  [ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-  and set its UserPreferenceValue argument to
-
-  swUserPreferenceToggle_e.swUseChangedDimensions and its OnFlag argument to true.
+1. Call [ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) and set its UserPreferenceValue argument to swUserPreferenceToggle_e.swUseChangedDimensions and its OnFlag argument to true.
 2. Call IDrawingDoc::IsolateChangedDimensions.
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

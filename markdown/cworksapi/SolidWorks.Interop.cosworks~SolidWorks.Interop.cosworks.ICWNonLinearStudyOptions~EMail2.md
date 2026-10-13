@@ -47,19 +47,11 @@ property System.bool EMail2 {
 
 ### Property Value
 
--1 or true to email notifications during simulations, 0 or false to not (see
-
-Remarks
-
-)
+-1 or true to email notifications during simulations, 0 or false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::EMail2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~EMail2.html)
-
-.
+See [CWNonLinearStudyOptions::EMail2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~EMail2.html).
 
 ## Remarks
 
@@ -67,17 +59,12 @@ This property returns a boolean value which can be cast to an integer. To set th
 
 If this property is set to -1 or true, use:
 
-- [ICWNonLinearStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- [ICWNonLinearStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~EMailTimebased.html)
-
-  to send email notifications during simulations.
+- [ICWNonLinearStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- [ICWNonLinearStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~EMailTimebased.html) to send email notifications during simulations.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

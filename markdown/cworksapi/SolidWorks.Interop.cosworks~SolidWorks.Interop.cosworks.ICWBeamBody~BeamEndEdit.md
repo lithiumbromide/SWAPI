@@ -42,18 +42,12 @@ System.int BeamEndEdit();
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamEndEdit.html)
-
-.
+See [CWBeamBody::BeamEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamEndEdit.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::BeamBeginEdit Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamBeginEdit.html)
 
 ## Availability

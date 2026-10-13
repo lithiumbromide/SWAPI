@@ -39,28 +39,16 @@ void InsertSheetMetalClosedCorner()
 void InsertSheetMetalClosedCorner();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSheetMetalClosedCorner](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalClosedCorner.html)
-
-.
+See [ModelDoc2::InsertSheetMetalClosedCorner](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSheetMetalClosedCorner.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IClosedCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData.html)
 
 ## Availability

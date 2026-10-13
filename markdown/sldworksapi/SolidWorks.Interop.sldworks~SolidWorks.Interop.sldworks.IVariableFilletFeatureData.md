@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # IVariableFilletFeatureData Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html).
 
-[IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IVariableFilletFeatureData
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData.html)
-
-.
+See [VariableFilletFeatureData](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData.html).
 
 ## Accessors
 
@@ -58,5 +50,4 @@ SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.
 ## See Also
 
 [IVariableFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

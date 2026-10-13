@@ -51,18 +51,12 @@ Callout^ CreateCallout(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumberOfRows`: Number of rows in the callout
-- `Handler`: Pointer to the event handler for the callout ([ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html))ParamDesc
+- `Handler`: Pointer to the event handler for the callout ([ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html))
 
 ### Return Value
 
@@ -70,30 +64,23 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateCallout.html)
-
-.
+See [ModelDocExtension::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateCallout.html).
 
 ## Examples
 
 [Create a Callout Independent of a Selection (VB.NET)](Create_a_Callout_Independent_of_a_Selection_Example_VBNET.htm)
-
 [Create a Callout Independent of a Selection (VBA)](Create_a_Callout_Independent_of_a_Selection_Example_VB.htm)
-
 [Create a Callout Independent of a Selection (C#)](Create_a_Callout_Independent_of_a_Selection_Example_CSharp.htm)
 
 ## Remarks
 
-This method allows you to create a callout independently of a selection. You can define the position of the callout using the[ICallout::Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~Position.html)and[ICallout::SetTargetPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~SetTargetPoint.html).
+This method allows you to create a callout independently of a selection. You can define the position of the callout using the [ICallout::Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~Position.html) and [ICallout::SetTargetPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~SetTargetPoint.html).
 
-To create a callout dependent on a selection, use[ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html).
+To create a callout dependent on a selection, use [ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

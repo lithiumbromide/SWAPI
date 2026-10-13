@@ -47,28 +47,19 @@ property System.int RadiationType {
 
 ### Property Value
 
-Radiation type as defined in[swsRadiationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationType_e.html)
+Radiation type as defined in [swsRadiationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::RadiationType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RadiationType.html)
-
-.
+See [CWRadiation::RadiationType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RadiationType.html).
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

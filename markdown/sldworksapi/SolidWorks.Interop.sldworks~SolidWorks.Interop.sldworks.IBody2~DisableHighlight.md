@@ -45,13 +45,7 @@ property System.bool DisableHighlight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -79,11 +73,21 @@ True to disable highlighting, false to not
 
 Option Explicit
 
-Dim swApp As SldWorks.SldWorks Dim swPart As SldWorks.PartDoc Dim swBody As SldWorks.Body2 Dim swModel As SldWorks.ModelDoc2 Dim swModelDocExt As SldWorks.ModelDocExtension Dim vBodies As Variant Dim i As Long Dim sBodySelStr As String, sBodyTypeSelStr As String Dim bRet As Boolean
+Dim swApp As SldWorks.SldWorks
+Dim swPart As SldWorks.PartDoc
+Dim swBody As SldWorks.Body2
+Dim swModel As SldWorks.ModelDoc2
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim vBodies As Variant
+Dim i As Long
+Dim sBodySelStr As String, sBodyTypeSelStr As String
+Dim bRet As Boolean
 
 Sub main()
 
-Set swApp = Application.SldWorks Set swPart = swApp. ActiveDoc Set swModel = swPart
+Set swApp = Application.SldWorks
+Set swPart = swApp.**ActiveDoc**
+Set swModel = swPart
 
 vBodies = swPart.**GetBodies2**(swAllBodies, True)
 If IsEmpty(vBodies) Then End
@@ -105,20 +109,20 @@ End Select
 ' Select a body
 bRet = swModelDocExt.**SelectByID2**(sBodySelStr, sBodyTypeSelStr, 0#, 0#, 0#, True, 0, Nothing, swSelectOptionDefault): Debug.Assert bRet
 ' Disable highlighting of the body
-swBody.**DisableHighlight**= True
+swBody.**DisableHighlight** = True
 
 ' Select the body again to check that highlighting is off
-swModel.**ClearSelection2**True
+swModel.**ClearSelection2** True
 bRet = swModelDocExt.**SelectByID2**(sBodySelStr, sBodyTypeSelStr, 0#, 0#, 0#, True, 0, Nothing, swSelectOptionDefault): Debug.Assert bRet
 
 ' Re-enable highlighting of the body
-swBody.**DisableHighlight**= False
+swBody.**DisableHighlight** = False
 
 ' Select the body again to check that highlighting is on
-swModel.**ClearSelection2**True
+swModel.**ClearSelection2** True
 bRet = swModelDocExt.**SelectByID2**(sBodySelStr, sBodyTypeSelStr, 0#, 0#, 0#, True, 0, Nothing, swSelectOptionDefault): Debug.Assert bRet
 
-swModel.**ClearSelection2**True
+swModel.**ClearSelection2** True
 
 Next i
 
@@ -127,7 +131,6 @@ End Sub
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

@@ -65,29 +65,11 @@ CWPlot^ CreatePlot(
 
 ### Parameters
 
-- `NResultType`: Type of results plot as defined by
-
-[swsPlotResultTypes_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotResultTypes_e.html)
-
-(see
-
-Remarks
-
-)
-- `NComponent`: Component to plot (see
-
-Remarks
-
-)
-- `NUnits`: Units as appropriate to NComponent (see
-
-Remarks
-
-)
+- `NResultType`: Type of results plot as defined by [swsPlotResultTypes_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotResultTypes_e.html) (see **Remarks**)
+- `NComponent`: Component to plot (see **Remarks**)
+- `NUnits`: Units as appropriate to NComponent (see **Remarks**)
 - `BValueByElem`: True to plot element values, false to plot node values
-- `ErrorCode`: Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -95,18 +77,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWResults::CreatePlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~CreatePlot.html)
-
-.
+See [CWResults::CreatePlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~CreatePlot.html).
 
 ## Examples
 
 [Create Plots for Static Study (VBA)](Create_Plots_for_Static_Study_Example_VB.htm)
-
 [Create Plots for Static Study (VB.NET)](Create_Plots_for_Static_Study_Example_VBNET.htm)
-
 [Create Plots for Static Study (C#)](Create_Plots_for_Static_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -128,64 +104,37 @@ See
 | swsResultThermal | swsThermalComponent_e | swsTemperatureUnit_e |
 | swsResultVelocity | swsVelocityComponent_e | swsVelocityUnit_e |
 
-*The following conditions are required to create an equivalent stress plot:
+* The following conditions are required to create an equivalent stress plot:
 
 - Mixed mesh model with beams and solids/shells
 - Dynamic study
-- Nodal von Mises stress only (Faster)
+- **Nodal von Mises stress only (Faster)** option is chosen in **Results Options > Quantity** to calculate stress results
 
-  option is chosen in
-
-  Results Options > Quantity
-
-  to calculate stress results
-
-**NOTE:**After calling this method to create a plot of linear dynamic, frequency, or buckling studies, call[ICWPlot::SetModeShape](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~SetModeShape.html)to set the mode shape number of the plot.
+**NOTE:** After calling this method to create a plot of linear dynamic, frequency, or buckling studies, call [ICWPlot::SetModeShape](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~SetModeShape.html) to set the mode shape number of the plot.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::ActivatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~ActivatePlot.html)
-
 [ICWResults::DeletePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~DeletePlot.html)
-
 [ICWResults::GetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotColorOptions.html)
-
 [ICWResults::GetPlotCount Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotCount.html)
-
 [ICWResults::GetPlotDisplayOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotDisplayOptions.html)
-
 [ICWResults::GetPlotPositionFormatOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotPositionFormatOptions.html)
-
 [ICWResults::GetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettings.html)
-
 [ICWResults::SavePlotsAseDrawings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SavePlotsAseDrawings.html)
-
 [ICWResults::SetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotColorOptions.html)
-
 [ICWResults::SetPlotDisplayOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotDisplayOptions.html)
-
 [ICWResults::SetPlotPositionFormatOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotPositionFormatOptions.html)
-
 [ICWResults::SetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotSettings.html)
-
 [ICWResults::AddIsoClippingToPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~AddIsoClippingToPlot.html)
-
 [ICWResults::GetPlotNames Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)
-
 [ICWResults::GetPlotSettingsOptionForHiddenAndExcludedBody Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettingsOptionForHiddenAndExcludedBody.html)
-
 [ICWResults::SetPlotSettingsOptionForHiddenAndExcludedBody Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotSettingsOptionForHiddenAndExcludedBody.html)
-
 [ICWResults::CreateResultsEquationPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateResultsEquationPlot.html)
-
 [ICWPlot::SetComponentUnitAndValueByElem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~SetComponentUnitAndValueByElem.html)
-
 [ICWResults::GetPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlot.html)
-
 [ICWResults::CreateStressHotSpotPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateStressHotSpotPlot.html)
 
 ## Availability

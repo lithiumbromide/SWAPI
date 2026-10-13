@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchAlign Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchAlign](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchAlign.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchAlign](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchAlign.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SketchAlign()
 void SketchAlign();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchAlign](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchAlign.html)
-
-.
+See [ModelDoc::SketchAlign](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchAlign.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

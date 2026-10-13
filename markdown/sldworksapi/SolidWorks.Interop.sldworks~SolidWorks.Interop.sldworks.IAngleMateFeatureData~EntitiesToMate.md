@@ -45,37 +45,19 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of entities to mate (see
-
-Remarks
-
-)
+Array of entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AngleMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~EntitiesToMate.html)
-
-.
+See [AngleMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
-examples.
+See the [IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html) examples.
 
 ## Remarks
 
@@ -91,7 +73,6 @@ You can create angle mates with the following mate entity combinations:
 ## See Also
 
 [IAngleMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
 [IAngleMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData_members.html)
 
 ## Availability

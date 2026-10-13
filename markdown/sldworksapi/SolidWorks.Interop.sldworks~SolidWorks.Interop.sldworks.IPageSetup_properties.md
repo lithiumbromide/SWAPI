@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IPageSetup Interface Properties
 
-For a list of all members of this type, see[IPageSetup members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html).
+For a list of all members of this type, see [IPageSetup members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ For a list of all members of this type, see[IPageSetup members](SolidWorks.Inter
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

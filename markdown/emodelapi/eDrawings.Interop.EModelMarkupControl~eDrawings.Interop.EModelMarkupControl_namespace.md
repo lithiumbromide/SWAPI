@@ -15,8 +15,7 @@ eDrawings API
 
 | Interface | Description |
 | --- | --- |
-| IEModelMarkupControl | Encapsulates the eDrawings markup functionality, which is only available in the eDrawings Professional version or in review-enabled documents in the free
-eDrawings version. |
+| IEModelMarkupControl | Encapsulates the eDrawings markup functionality, which is only available in the eDrawings Professional version or in review-enabled documents in the free eDrawings version. |
 
 ## Delegates
 

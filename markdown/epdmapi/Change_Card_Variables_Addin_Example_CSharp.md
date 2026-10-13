@@ -9,29 +9,25 @@ source: "epdmapi/Change_Card_Variables_Addin_Example_CSharp.htm"
 
 # Change Card Variables Add-in Example (C#)
 
-This example shows how to create an add-in that pops up a message box when a file is
-approved.
+This example shows how to create an add-in that modifies a data card variable when another data card variable changes.
 
 ```vb
  //--------------------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- // 2. Click File > New > Project > Visual C# > Class Library (.NET Framework).
+ // 2. Click File > New > Project > C#, Windows, Library > Class Library (.NET Framework).
  // 3. Select .NET Framework 4.5 or later in the dropdown.
- // 4. Type CardVariables_CSharp in Name.
- // 5. Click Browse and navigate to the folder where to create the project.
- // 6. Click OK.
- // 7. Right-click the project name in the Solution Explorer and click Add Reference.
- // 8. In the Add Reference dialog:
- //    a. Add the SOLIDWORKS PDM Professional interop assembly as a reference (click Browse in the
- //       left-side panel, click EPDM.Interop.epdm.dll,
- //       and click OK).
+ // 4. Type CardVariables_CSharp in Project name.
+ // 5.      For Location, click ... and navigate to the folder where to create the project.
+ // 6. Click Create.
+ // 7. Right-click the project name in the Solution Explorer and click Add > Reference....
+ // 8. In the Reference Manager dialog:
+ //    a. Add dependencies and safely pass arrays of structures.
 //    b. Add Microsoft.VisualBasic  and System.Windows.Forms as a references (click Assemblies > Framework in the
  //       left-side panel, click System.Windows.Forms  and Microsoft.VisualBasic, and click OK).
- //    c. Click Close.
  // 9. Right-click the project name in the Solution Explorer and click Properties.
  //10. In the Properties window:
- //    a. On the Application tab, click Assembly Information.
+ //    a. On the Application tab, click Assembly Information....
  //    b. De-select Make assembly COM-Visible.
  //    c. On the Build tab, select Any CPU, de-select Prefer 32-bit, and select Register for COM interop.
  //11. Save the project.

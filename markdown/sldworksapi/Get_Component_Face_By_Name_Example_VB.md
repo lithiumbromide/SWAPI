@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_Face_By_Name_Example_VB.htm"
 
 # Select Component Face By Name Example (VBA)
 
-This example shows how to find and select a face
-using its name.
+This example shows how to find and select a face using its name.
 
 ```
 '-----------------------------------------------------------------------------

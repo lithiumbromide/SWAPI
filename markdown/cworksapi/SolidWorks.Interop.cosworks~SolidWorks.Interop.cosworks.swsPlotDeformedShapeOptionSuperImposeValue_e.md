@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPl
 
 # swsPlotDeformedShapeOptionSuperImposeValue_e Enumeration
 
-Options when
-
-Superimpose model on the deformed shape
-
-is selected for plot settings
+Options when **Superimpose model on the deformed shape** is selected for plot settings
 
 ## Syntax
 

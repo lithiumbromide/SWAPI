@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Ref_Plane_SSMember_Example_VBNET.htm"
 
 # Create Reference Plane Structure System Member Example (VB.NET)
 
-This example shows how to create a structure system member along the
-intersection of two or more planes.
+This example shows how to create a structure system member along the intersection of two or more planes.
 
 ```vb
   '==========================================================================================

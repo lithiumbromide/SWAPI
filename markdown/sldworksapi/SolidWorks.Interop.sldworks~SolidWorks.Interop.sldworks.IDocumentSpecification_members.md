@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # IDocumentSpecification Interface Members
 
-The following tables list the members exposed by[IDocumentSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html).
+The following tables list the members exposed by [IDocumentSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html).
 
 ## Public Properties
 
@@ -27,12 +27,11 @@ The following tables list the members exposed by[IDocumentSpecification](SolidWo
 | Property | FileName | Gets or sets the path and filename of the model document to open. |
 | Property | IgnoreHiddenComponents | Gets or sets whether to load hidden components when opening an assembly or drawing document. |
 | Property | InteractiveAdvancedOpen | Gets whether to display an intermediate dialog, which allows the interactive user to set options before opening a document. |
-| Property | InteractiveComponentSelection | Gets whether to display the Selective Open dialog, which allows the interactive user to either select and open specific components or open all of the
-displayed components. |
+| Property | InteractiveComponentSelection | Gets whether to display the Selective Open dialog, which allows the interactive user to either select and open specific components or open all of the displayed components. |
 | Property | LightWeight | Gets or sets whether to open an assembly or drawing document with lightweight parts. |
 | Property | LoadExternalReferencesInMemory | Gets or sets whether to load external references in memory when opening a document. |
 | Property | LoadModel | Gets or sets whether to load the model if the document is a detached drawing. |
-| Property | PLMObjectSpecification | Gets the specification of this SOLIDWORKS Connected document. |
+| Property | PLMObjectSpecification | Gets the specification of this SOLIDWORKS Design connected to the 3DEXPERIENCE platform document. |
 | Property | Query | Gets or sets whether the options passed during a document's open, load, and save can be retrieved by this API. |
 | Property | ReadOnly | Gets or sets whether the model document is opened read-only or read-write. |
 | Property | Selective | Gets or sets whether to open a document in Quick view (parts and drawings) or Quick view / Selective (assemblies) mode. |
@@ -48,7 +47,5 @@ displayed components. |
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISldWorks::OpenDoc6 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.html)

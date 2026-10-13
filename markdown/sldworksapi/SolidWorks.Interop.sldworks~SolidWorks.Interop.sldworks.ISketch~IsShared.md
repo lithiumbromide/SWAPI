@@ -40,13 +40,7 @@ System.bool IsShared()
 System.bool IsShared();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this sketch is used by more than one feature, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::IsShared](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsShared.html)
-
-.
+See [Sketch::IsShared](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsShared.html).
 
 ## Examples
 
@@ -67,7 +57,6 @@ See
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

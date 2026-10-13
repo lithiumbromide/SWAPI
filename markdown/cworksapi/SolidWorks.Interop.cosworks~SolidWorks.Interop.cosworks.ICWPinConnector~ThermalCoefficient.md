@@ -47,62 +47,38 @@ property System.double ThermalCoefficient {
 
 ### Property Value
 
-Coefficient of thermal expansion (see
-
-Remarks
-
-)
+Coefficient of thermal expansion (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::ThermalCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~ThermalCoefficient.html)
-
-.
+See [CWPinConnector::ThermalCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~ThermalCoefficient.html).
 
 ## Examples
 
-See the
-
-[ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
-examples.
+See the [ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWPinConnector::IncludeStrengthData](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~IncludeStrengthData.html)
-
-  is set to true.
-- Material is specified. Call
-
-  [ICWPinConnector::SetLibraryMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~SetLibraryMaterial.html)
-
-  to set the material of this pin connector.
+- [ICWPinConnector::IncludeStrengthData](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~IncludeStrengthData.html) is set to true.
+- Material is specified. Call [ICWPinConnector::SetLibraryMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~SetLibraryMaterial.html) to set the material of this pin connector.
 
   | If ICWPinConnector::MaterialType is... | Then use this property to... | The coefficient of thermal expansion for the specified... |
   | --- | --- | --- |
   | 0 | Get and set | Custom material |
   | 1 | Only get | Library material |
 
-See the**Material Properties in Simulation**topic in the Simulation Help for more information about the coefficient of thermal expansion.
+See the **Material Properties in Simulation** topic in the Simulation Help for more information about the coefficient of thermal expansion.
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
-
 [ICWPinConnector::PoissonsRatio Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~PoissonsRatio.html)
-
 [ICWPinConnector::YoungModulus Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~YoungModulus.html)
-
 [ICWPinConnector::MassValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~MassValue.html)
-
 [ICWPinConnector::MaterialUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~MaterialUnit.html)
-
 [ICWPinConnector::GetLibraryMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~GetLibraryMaterial.html)
 
 ## Availability

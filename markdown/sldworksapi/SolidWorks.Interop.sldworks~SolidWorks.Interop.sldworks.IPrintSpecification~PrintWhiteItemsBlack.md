@@ -45,13 +45,7 @@ property System.bool PrintWhiteItemsBlack {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to print white lines and white text in black
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::PrintWhiteItemsBlack](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrintWhiteItemsBlack.html)
-
-.
+See [PrintSpecification::PrintWhiteItemsBlack](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~PrintWhiteItemsBlack.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
 
 ## Availability

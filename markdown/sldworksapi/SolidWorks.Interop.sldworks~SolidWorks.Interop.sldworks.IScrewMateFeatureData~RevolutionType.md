@@ -45,51 +45,30 @@ property System.int RevolutionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of revolution as defined in
-
-[swScrewMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swScrewMateDistanceOptions_e.html)
+Type of revolution as defined in [swScrewMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swScrewMateDistanceOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[ScrewMateFeatureData::RevolutionType](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData~RevolutionType.html)
-
-.
+See [ScrewMateFeatureData::RevolutionType](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData~RevolutionType.html).
 
 ## Examples
 
-See the
-
-[IScrewMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html)
-
-example.
+See the [IScrewMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html) example.
 
 ## Remarks
 
 If you set this property to swScrewMateDistanceOptions_e:
 
-- swDistancePerRevolution, then specify
-
-  [IScrewMateFeatureData::RevolutionVal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData~RevolutionVal.html)
-
-  with the distance that one component translates for each revolution of the other component.
+- swDistancePerRevolution, then specify [IScrewMateFeatureData::RevolutionVal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData~RevolutionVal.html) with the distance that one component translates for each revolution of the other component.
 - swRevolutionsPerUnitLength, then specify IScrewMateFeatureData::RevolutionVal with the number of revolutions of one component for each unit length that the other component translates.
 
 ## See Also
 
 [IScrewMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html)
-
 [IScrewMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData_members.html)
 
 ## Availability

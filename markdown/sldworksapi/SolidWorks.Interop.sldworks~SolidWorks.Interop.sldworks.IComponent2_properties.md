@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IComponent2 Interface Properties
 
-For a list of all members of this type, see[IComponent2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html).
+For a list of all members of this type, see [IComponent2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html).
 
 ## Public Properties
 
@@ -41,7 +41,5 @@ For a list of all members of this type, see[IComponent2 members](SolidWorks.Inte
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::GetPathName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetPathName.html)

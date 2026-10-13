@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10.html"
 
 Allows you to access a workflow transition.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,19 +37,13 @@ public interface class IEdmTransition10 : public IEdmObject5, IEdmTransition5, I
 ## Examples
 
 [Get File's State Transitions (VB.NET)](Get_Files_State_Transitions_Example_VBNET.htm)
-
 [Get File's State Transitions (C#)](Get_Files_State_Transitions_Example_CSharp.htm)
 
 ## Remarks
 
-This interface extends
-
-[IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html)
-
-by providing password protection.
+This interface extends [IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html) by providing password protection.
 
 ## See Also
 
 [IEdmTransition10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

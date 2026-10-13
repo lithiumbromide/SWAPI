@@ -1,6 +1,5 @@
 ---
-title: "MidSurface Object
-Members"
+title: "MidSurface Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MidSurface_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MidSurface_members.html"
 ---
 
-# MidSurface Object
-Members
+# MidSurface Object Members
 
 ## Public Methods
 

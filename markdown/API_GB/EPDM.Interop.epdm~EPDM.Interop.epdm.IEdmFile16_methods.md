@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16_methods.html"
 
 # IEdmFile16 Interface Methods
 
-For a list of all members of this type, see[IEdmFile16 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16_members.html).
+For a list of all members of this type, see [IEdmFile16 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmFile16 members](EPDM.Interop.epd
 ## See Also
 
 [IEdmFile16 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

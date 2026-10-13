@@ -46,13 +46,7 @@ void SetReferencedFileName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Import3DInterconnectData::SetReferencedFileName](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~SetReferencedFileName.html)
-
-.
+See [Import3DInterconnectData::SetReferencedFileName](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~SetReferencedFileName.html).
 
 ## See Also
 
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
 [IImport3DInterconnectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData_members.html)
-
 [IImport3DinterconnectData::GetReferencedFileName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData~GetReferencedFileName.html)
 
 ## Availability

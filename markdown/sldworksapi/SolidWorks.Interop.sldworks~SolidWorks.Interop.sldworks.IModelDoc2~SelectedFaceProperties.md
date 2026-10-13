@@ -79,17 +79,11 @@ System.bool SelectedFaceProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RgbColor`: Face color (see**Remarks**)
+- `RgbColor`: Face color (see **Remarks**)
 - `Ambient`: 0.0 <= Face ambient light value <= 1.0
 - `Diffuse`: 0.0 < Face diffuse value <= 1.0
 - `Specular`: 0.0 < Face specular value <= 1.0
@@ -105,11 +99,7 @@ True if face properties successfully changed, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SelectedFaceProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedFaceProperties.html)
-
-.
+See [ModelDoc2::SelectedFaceProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedFaceProperties.html).
 
 ## Examples
 
@@ -119,32 +109,8 @@ See
 
 To see a color change, you must:
 
-1. Specify the reflectivity properties (
-
-  Diffuse
-
-  ,
-
-  Specular
-
-  ,
-
-  Shininess
-
-  (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
-2. Specify
-
-  Ambient
-
-  ,
-
-  Transparency
-
-  and
-
-  Emission
-
-  , each with a value between 0.0 and 1.0, inclusive.
+1. Specify the reflectivity properties (`Diffuse`, `Specular`, `Shininess` (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
+2. Specify `Ambient`, `Transparency` and `Emission`, each with a value between 0.0 and 1.0, inclusive.
 3. Refresh the graphics area after calling this method.
 
 You can use the FaceName argument to set the name for this face.
@@ -156,15 +122,10 @@ For example, if an assembly contains a mate to a face on a part, then a name is 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SelectedEdgeProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedEdgeProperties.html)
-
 [IModelDoc2::SelectedFeatureProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectedFeatureProperties.html)
-
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IModelDoc2::EntityProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EntityProperties.html)
 
 ## Availability

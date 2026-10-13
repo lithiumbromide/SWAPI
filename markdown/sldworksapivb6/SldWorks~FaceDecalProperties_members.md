@@ -1,6 +1,5 @@
 ---
-title: "FaceDecalProperties Object
-Members"
+title: "FaceDecalProperties Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FaceDecalProperties_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FaceDecalProperties_members.html"
 ---
 
-# FaceDecalProperties Object
-Members
+# FaceDecalProperties Object Members
 
 ## Public Properties
 

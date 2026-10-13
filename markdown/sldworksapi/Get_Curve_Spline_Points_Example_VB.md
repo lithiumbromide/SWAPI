@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Curve_Spline_Points_Example_VB.htm"
 
 # Get Curve Spline Points Example (VBA)
 
-Given a spline curve, this example shows how to get the set of interpolation
-points.
+Given a spline curve, this example shows how to get the set of interpolation points.
 
 ```
 '------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAutodim
 
 # swAutodimMark_e Enumeration
 
-Selection mark values.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Selection mark values. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -53,11 +49,7 @@ public enum class swAutodimMark_e : public System.Enum
 
 ## Remarks
 
-These values are passed by
-
-[IModelDocExtension::SelectByID2](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~Solidworks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-.
+These values are passed by [IModelDocExtension::SelectByID2](ms-its:sldworksapi.chm::/Solidworks.Interop.sldworks~Solidworks.Interop.sldworks.IModelDocExtension~SelectByID2.html).
 
 ## See Also
 

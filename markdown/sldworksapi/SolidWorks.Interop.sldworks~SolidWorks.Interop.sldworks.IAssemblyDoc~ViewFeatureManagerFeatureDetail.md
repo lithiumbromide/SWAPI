@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # ViewFeatureManagerFeatureDetail Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IFeatureManager::ShowFeatureDetails](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ShowFeatureDetails.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::ShowFeatureDetails](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ShowFeatureDetails.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void ViewFeatureManagerFeatureDetail(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ViewFeatureManagerFeatureDetail](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ViewFeatureManagerFeatureDetail.html)
-
-.
+See [AssemblyDoc::ViewFeatureManagerFeatureDetail](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ViewFeatureManagerFeatureDetail.html).
 
 ## Remarks
 
@@ -77,11 +63,8 @@ This method affects the FeatureManager design tree view of the current configura
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ViewFeatureManagerByDependencies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ViewFeatureManagerByDependencies.html)
-
 [IAssemblyDoc::ViewFeatureManagerByFeatures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ViewFeatureManagerByFeatures.html)
 
 ## Availability

@@ -34,26 +34,27 @@ public value class EdmAddFileInfo : public System.ValueType
 
 ## Examples
 
-struct EdmAddFileInfo{ integer mlSrcDocumentID ; integer mlSrcProjectID ; string mbsPath ; string mbsNewName ; integer mlEdmAddFlags ; integer mlFileID ; };
+struct EdmAddFileInfo{
+integer [mlSrcDocumentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlSrcDocumentID.html);
+integer [mlSrcProjectID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlSrcProjectID.html);
+string [mbsPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mbsPath.html);
+string [mbsNewName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mbsNewName.html);
+integer [mlEdmAddFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlEdmAddFlags.html);
+integer [mlFileID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo~mlFileID.html);
+};
 
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## Remarks
 
-Returned by
-
-[IEdmFolder6::AddFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6~AddFiles.html)
-
-.
+Returned by [IEdmFolder6::AddFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6~AddFiles.html).
 
 ## See Also
 
 [EdmAddFileInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

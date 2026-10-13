@@ -59,21 +59,15 @@ PDMWProject^ CreateProject(
 
 - `Name`: Name of new project
 - `Description`: Description of new project
-- `Parent`: Name of parent project of new projectParamDescor an empty string if the new project is at the root level
+- `Parent`: Name of parent project of new project or an empty string if the new project is at the root level
 
 ### Return Value
 
-[IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
-object
+[IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::CreateProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateProject.html)
-
-.
+See [PDMWConnection::CreateProject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateProject.html).
 
 ## Remarks
 
@@ -82,11 +76,8 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::DeleteProject Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteProject.html)
-
 [IPDMWProject::SetUserPermissions Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.html)
 
 ## Availability

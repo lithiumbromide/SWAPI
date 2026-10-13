@@ -57,33 +57,22 @@ void GetComponentVisibleByDisplayStateName(
 ### Parameters
 
 - `DisplayStateName`: Display state name
-- `ComponentVisibleList`: Array of booleans indicating whether the components in
-
-ComponentFileDirectory
-
-are visible in the given display state; true if visble, false if suppressed
+- `ComponentVisibleList`: Array of booleans indicating whether the components in `ComponentFileDirectory` are visible in the given display state; true if visble, false if suppressed
 - `ComponentFileDirectory`: Array of paths and file names of the components in the given display state
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration12::GetComponentVisibleByDisplayStateName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetComponentVisibleByDisplayStateName.html)
-
-.
+See [SwDMConfiguration12::GetComponentVisibleByDisplayStateName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetComponentVisibleByDisplayStateName.html).
 
 ## Examples
 
 [Get Linked Display States (VB.NET)](Get_Linked_Display_States_Example_VBNET.htm)
-
 [Get Linked Display States (C#)](Get_Linked_Display_States_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMConfiguration12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12.html)
-
 [ISwDMConfiguration12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12_members.html)
-
 [ISwDMConfiguration12::GetLinkedDisplayStates Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12~GetLinkedDisplayStates.html)
 
 ## Availability

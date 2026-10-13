@@ -45,13 +45,7 @@ property System.Object^ Boundaries {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -62,20 +56,13 @@ Array of these coordinates:
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Boundaries](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Boundaries.html)
-
-.
+See [SwOLEObject::Boundaries](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Boundaries.html).
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::IGetBoundaries Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~IGetBoundaries.html)
-
 [ISwOLEObject::ISetBoundaries Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~ISetBoundaries.html)
 
 ## Availability

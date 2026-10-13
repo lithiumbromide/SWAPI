@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # ReverseDirection Property (IDraftFeatureData)
 
-Obsolete. Superseded by
-
-[IDraftFeatureData2::ReverseDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~ReverseDirection.html)
-
-.
+Obsolete. Superseded by [IDraftFeatureData2::ReverseDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~ReverseDirection.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData~ReverseDirection.html)
-
-.
+See [DraftFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [IDraftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html)
-
 [IDraftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData_members.html)

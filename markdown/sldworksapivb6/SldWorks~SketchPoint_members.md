@@ -1,6 +1,5 @@
 ---
-title: "SketchPoint Object
-Members"
+title: "SketchPoint Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchPoint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchPoint_members.html"
 ---
 
-# SketchPoint Object
-Members
+# SketchPoint Object Members
 
 ## Public Methods
 

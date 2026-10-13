@@ -40,13 +40,7 @@ System.bool IsBossFeature()
 System.bool IsBossFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the feature is a boss, false if a cut
 
 ## VBA Syntax
 
-See
-
-[ThickenFeatureData::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~IsBossFeature.html)
-
-.
+See [ThickenFeatureData::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~IsBossFeature.html).
 
 ## Examples
 
@@ -67,7 +57,6 @@ See
 ## See Also
 
 [IThickenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
 [IThickenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData_members.html)
 
 ## Availability

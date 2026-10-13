@@ -9,11 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # FeatureFilters Property (IDimXpertAutoDimSchemeOption)
 
-Gets and sets a feature filter
-
-[bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm)
-
-for the Auto Dimension Scheme.
+Gets and sets a feature filter [bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm) for the Auto Dimension Scheme.
 
 ## Syntax
 
@@ -51,42 +47,25 @@ property System.int FeatureFilters {
 
 ### Property Value
 
-[Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm)
-
-of values as defined in
-
-[swDimXpertFeatureFilters_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertFeatureFilters_e.html)
-
-; default is all features or 8191
+[Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm) of values as defined in [swDimXpertFeatureFilters_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertFeatureFilters_e.html); default is all features or 8191
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption::FeatureFilters](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~FeatureFilters.html)
-
-.
+See [DimXpertAutoDimSchemeOption::FeatureFilters](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~FeatureFilters.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## Remarks
 
-This API is in force only when
-
-[IDimXpertAutoDimSchemeOption::ScopeAllFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~ScopeAllFeature.html)
-
-is set to true.
+This API is in force only when [IDimXpertAutoDimSchemeOption::ScopeAllFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~ScopeAllFeature.html) is set to true.
 
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
 
 ## Availability

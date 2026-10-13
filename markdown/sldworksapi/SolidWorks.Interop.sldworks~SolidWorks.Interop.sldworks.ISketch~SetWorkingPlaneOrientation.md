@@ -91,19 +91,13 @@ System.bool SetWorkingPlaneOrientation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OriginX`: x coordinate of the origin of the axis
 - `OriginY`: y coordinate of the origin of the axis
-- `OriginZ`: z coordinate of the originParamDescof the axis
+- `OriginZ`: z coordinate of the origin of the axis
 - `XAxisX`: x coordinate of the x vector direction
 - `XAxisY`: y coordinate of the x vector direction
 - `XAxisZ`: z coordinate of the x vector direction
@@ -112,26 +106,20 @@ See
 - `YAxisZ`: z coordinate of the y vector direction
 - `NormalX`: x coordinate of the normal to the planar direction
 - `NormalY`: y coordinate of the normal to the planar direction
-- `NormalZ`: z coordinate of the normal to the planar directionParamDesc
+- `NormalZ`: z coordinate of the normal to the planar direction
 
 ### Return Value
 
-True if the orientation is set, false if notParamDesc
+True if the orientation is set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::SetWorkingPlaneOrientation](ms-its:sldworksapivb6.chm::/sldworks~Sketch~SetWorkingPlaneOrientation.html)
-
-.
+See [Sketch::SetWorkingPlaneOrientation](ms-its:sldworksapivb6.chm::/sldworks~Sketch~SetWorkingPlaneOrientation.html).
 
 ## Examples
 
 [Create 3D Sketch Plane (C#)](Create_3D_Sketch_Plane_Example_CSharp.htm)
-
 [Create 3D Sketch Plane (VB.NET)](Create_3D_Sketch_Plane_Example_VBNET.htm)
-
 [Create 3D Sketch Plane (VBA)](Create_3D_Sketch_Plane_Example_VB.htm)
 
 ## Remarks
@@ -141,7 +129,6 @@ This method sets the planar location for new 2D and 3D geometry in a 3D sketch.
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

@@ -51,16 +51,11 @@ property System.int ContactResolution3D {
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::ContactResolution3D](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~ContactResolution3D.html)
-
-.
+See [CosmosMotionStudyProperties::ContactResolution3D](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~ContactResolution3D.html).
 
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

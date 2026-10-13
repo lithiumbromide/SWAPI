@@ -45,13 +45,7 @@ property System.double SurfaceOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ Offset from the surface
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::SurfaceOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~SurfaceOffset.html)
-
-.
+See [SimpleHoleFeatureData2::SurfaceOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~SurfaceOffset.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::Depth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~Depth.html)
-
 [ISimpleHoleFeatureData2::ReverseOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~ReverseOffset.html)
-
 [ISimpleHoleFeatureData2::TranslateSurface Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~TranslateSurface.html)
 
 ## Availability

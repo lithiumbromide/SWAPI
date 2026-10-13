@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGr
 
 # ReverseDirectionAlongPlaneDir1 Property (ICWGravity)
 
-Obsolete. Superseded by[ICWGravity::ReverseDirectionAlongPlaneDir1_2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionAlongPlaneDir1_2.html).
+Obsolete. Superseded by [ICWGravity::ReverseDirectionAlongPlaneDir1_2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionAlongPlaneDir1_2.html).
 
 ## Syntax
 
@@ -51,28 +51,17 @@ property System.int ReverseDirectionAlongPlaneDir1 {
 
 ## VBA Syntax
 
-See
-
-[CWGravity::ReverseDirectionAlongPlaneDir1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~ReverseDirectionAlongPlaneDir1.html)
-
-.
+See [CWGravity::ReverseDirectionAlongPlaneDir1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~ReverseDirectionAlongPlaneDir1.html).
 
 ## Remarks
 
-This property is valid only if the direction reference is a face or a plane. Call
-
-[ICWGravity::SetReferenceEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~SetReferenceEntity.html)
-
-to set the direction reference.
+This property is valid only if the direction reference is a face or a plane. Call [ICWGravity::SetReferenceEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~SetReferenceEntity.html) to set the direction reference.
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
-
 [ICWGravity::ReverseDirectionAlongPlaneDir2 Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionAlongPlaneDir2.html)
-
 [ICWGravity::ReverseDirectionNormalToPlane Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionNormalToPlane.html)
 
 ## Availability

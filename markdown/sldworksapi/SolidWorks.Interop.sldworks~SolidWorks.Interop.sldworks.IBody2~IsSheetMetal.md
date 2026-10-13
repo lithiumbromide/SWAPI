@@ -40,13 +40,7 @@ System.bool IsSheetMetal()
 System.bool IsSheetMetal();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ True if this body was created by a sheet metal feature, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::IsSheetMetal](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsSheetMetal.html)
-
-.
+See [Body2::IsSheetMetal](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsSheetMetal.html).
 
 ## Remarks
 
-This method returns false for sheet metal bodies that are obtained from lightweight components using
-
-[IComponent2::GetBodies3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBodies3.html)
-
-.
+This method returns false for sheet metal bodies that are obtained from lightweight components using [IComponent2::GetBodies3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBodies3.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool SetSheetFormatName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-True if the name of the sheet format is set, false if notParamDesc
+True if the name of the sheet format is set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetSheetFormatName](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetSheetFormatName.html)
-
-.
+See [Sheet::SetSheetFormatName](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetSheetFormatName.html).
 
 ## Remarks
 
@@ -83,19 +73,12 @@ If either of these conditions is not met, then this method returns false, and th
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetName.html)
-
 [ISheet::GetSheetFormatName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetSheetFormatName.html)
-
 [ISheet::GetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetTemplateName.html)
-
 [ISheet::SetName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetName.html)
-
 [ISheet::SetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetTemplateName.html)
-
 [ISheet::SheetFormatVisible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SheetFormatVisible.html)
 
 ## Availability

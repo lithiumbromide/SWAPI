@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IGetData Method (IMathTransform)
 
-Obsolete. See
-
-[IMathTransform::IGetData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IGetData2.html)
-
-.
+Obsolete. See [IMathTransform::IGetData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IGetData2.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void IGetData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MathTransform::IGetData](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IGetData.html)
-
-.
+See [MathTransform::IGetData](ms-its:sldworksapivb6.chm::/sldworks~MathTransform~IGetData.html).
 
 ## See Also
 
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)

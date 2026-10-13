@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPl
 
 Allows access to a results plot.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,21 +41,17 @@ public interface class ICWPlot
 
 ## VBA Syntax
 
-See
-
-[CWPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot.html)
-
-.
+See [CWPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot.html).
 
 ## Examples
 
 [Create Plots for Static Study (VBA)](Create_Plots_for_Static_Study_Example_VB.htm)
-
 [Create Plots for Static Study (VB.NET)](Create_Plots_for_Static_Study_Example_VBNET.htm)
-
 [Create Plots for Static Study (C#)](Create_Plots_for_Static_Study_Example_CSharp.htm)
 
 ## Accessors
+
+[ICWResults::CreateAngularRotationPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateAngularRotationPlot.html)
 
 [ICWResults::CreatePlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreatePlot.html)
 
@@ -76,5 +66,4 @@ See
 ## See Also
 
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

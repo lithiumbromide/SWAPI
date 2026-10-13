@@ -1,6 +1,5 @@
 ---
-title: "Configuration Object
-Members"
+title: "Configuration Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Configuration_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Configuration_members.html"
 ---
 
-# Configuration Object
-Members
+# Configuration Object Members
 
 ## Public Methods
 

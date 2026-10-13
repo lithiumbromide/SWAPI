@@ -51,11 +51,7 @@ Geometric accuracy
 
 ## VBA Syntax
 
-See
-
-[PhysicalSimulationMotionStudyProperties::GeometricAccuracy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~PhysicalSimulationMotionStudyProperties~GeometricAccuracy.html)
-
-.
+See [PhysicalSimulationMotionStudyProperties::GeometricAccuracy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~PhysicalSimulationMotionStudyProperties~GeometricAccuracy.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Physical Simulation creates meshes from curved geometry. The higher the value fo
 ## See Also
 
 [IPhysicalSimulationMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties.html)
-
 [IPhysicalSimulationMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties_members.html)
 
 ## Availability

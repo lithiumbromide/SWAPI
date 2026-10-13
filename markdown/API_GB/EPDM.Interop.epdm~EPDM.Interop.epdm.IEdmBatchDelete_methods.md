@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_methods.html
 
 # IEdmBatchDelete Interface Methods
 
-For a list of all members of this type, see[IEdmBatchDelete members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html).
+For a list of all members of this type, see [IEdmBatchDelete members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html).
 
 ## Public Methods
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[IEdmBatchDelete members](EPDM.Intero
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

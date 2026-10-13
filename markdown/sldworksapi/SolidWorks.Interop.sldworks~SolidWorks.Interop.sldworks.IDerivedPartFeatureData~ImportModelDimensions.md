@@ -45,13 +45,7 @@ property System.bool ImportModelDimensions {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to import its model dimensions, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportModelDimensions](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportModelDimensions.html)
-
-.
+See [DerivedPartFeatureData::ImportModelDimensions](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportModelDimensions.html).
 
 ## Remarks
 
-This property is valid onlty if
-
-[IDerivedPartFeatureData::ImportSolidBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportSolidBodies.html)
-
-is true.
+This property is valid onlty if [IDerivedPartFeatureData::ImportSolidBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportSolidBodies.html) is true.
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

@@ -51,22 +51,17 @@ True to base the aspect ratio on the screen, false to not
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::ScreenRatio](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ScreenRatio.html)
-
-.
+See [AVIParameter::ScreenRatio](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ScreenRatio.html).
 
 ## Remarks
 
-This property is only available when the[image size](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ImageSize.html)isCustomand[preserve aspect ratio](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~PreserveRatio.html)is selected.
+This property is only available when the [image size](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ImageSize.html) is Custom and [preserve aspect ratio](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~PreserveRatio.html) is selected.
 
-You can also base the aspect ratio on a[value](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~AspectRatio.html).
+You can also base the aspect ratio on a [value](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~AspectRatio.html).
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # SetSelectedItem Method (IPropertyManagerPageSelectionbox)
 
-Sets whether an item is selected or cleared in a
-
-[selection box enabled for multiple selection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~Style.html)
-
-.
+Sets whether an item is selected or cleared in a [selection box enabled for multiple selection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~Style.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool SetSelectedItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,32 +64,21 @@ True if the time was selected or cleared, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::SetSelectedItem](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageSelectionbox~SetSelectedItem.html)
-
-.
+See [PropertyManagerPageSelectionbox::SetSelectedItem](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageSelectionbox~SetSelectedItem.html).
 
 ## Remarks
 
 The value specified for Item must be a valid index number. If it is not, then this method returns false. Thus, set up your list item index before using this method.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 If you use this method to set a selected item in a single-selection style list box and another item in the list box is already selected, then that item is automatically cleared. You can use this method to clear a selection in a single-selection style list box, which results in no current selection in that list box.
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
-
 [IPropertyManagerPageSelectionBox::Style Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox~Style.html)
-
 [IPropertyManagerPageSelectionBox::GetSelectedItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox~GetSelectedItems.html)
-
 [IPropertyManagerPageSelectionBox::IGetSelectedItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox~IGetSelectedItems.html)
-
 [IPropertyManagerPageSelectionBox::GetSelectedItemsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox~GetSelectedItemsCount.html)
 
 ## Availability

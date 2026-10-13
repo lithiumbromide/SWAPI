@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISp
 
 # ISpring Interface Members
 
-The following tables list the members exposed by[ISpring](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html).
+The following tables list the members exposed by [ISpring](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html).
 
 ## Public Properties
 
@@ -54,7 +54,5 @@ The following tables list the members exposed by[ISpring](SolidWorks.Interop.sld
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)

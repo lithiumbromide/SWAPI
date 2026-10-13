@@ -52,20 +52,13 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~InsertEntity.html)
-
-.
+See [CWElasticConnector::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~InsertEntity.html).
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
-
 [ICWElasticConnector::GetEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~GetEntityCount.html)
-
 [ICWElasticConnector::RemoveEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~RemoveEntityAt.html)
 
 ## Availability

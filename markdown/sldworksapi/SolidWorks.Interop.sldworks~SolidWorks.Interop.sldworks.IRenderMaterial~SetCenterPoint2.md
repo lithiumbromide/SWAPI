@@ -54,13 +54,7 @@ void SetCenterPoint2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SetCenterPoint2](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetCenterPoint2.html)
-
-.
+See [RenderMaterial::SetCenterPoint2](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SetCenterPoint2.html).
 
 ## Remarks
 
@@ -83,9 +73,7 @@ This method is required to properly position a texture-based appearance (e.g., i
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::GetCenterPoint2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetCenterPoint2.html)
 
 ## Availability

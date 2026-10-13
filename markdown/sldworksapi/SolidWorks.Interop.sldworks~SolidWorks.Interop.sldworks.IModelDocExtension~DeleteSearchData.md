@@ -47,13 +47,7 @@ System.bool DeleteSearchData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,19 @@ See
 
 ### Return Value
 
-True if the keywords for AppName are deleted, false if notParamDesc
+True if the keywords for AppName are deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::DeleteSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~DeleteSearchData.html)
-
-.
+See [ModelDocExtension::DeleteSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~DeleteSearchData.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::AddOrUpdateSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddOrUpdateSearchData.html)
-
 [IModelDocExtension::GetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchData.html)
-
 [IModelDocExtension::GetSearchDataCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchDataCount.html)
-
 [IModelDocExtension::IGetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetSearchData.html)
 
 ## Availability

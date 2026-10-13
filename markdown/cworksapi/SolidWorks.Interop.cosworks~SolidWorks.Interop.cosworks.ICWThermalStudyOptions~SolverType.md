@@ -47,23 +47,15 @@ property System.int SolverType {
 
 ### Property Value
 
-Solver type as defined in[swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)(see**Remarks**)
+Solver type as defined in [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~SolverType.html)
-
-.
+See [CWThermalStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~SolverType.html).
 
 ## Examples
 
-See the
-
-[ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
-examples.
+See the [ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html) examples.
 
 ## Remarks
 
@@ -72,7 +64,6 @@ The automatic option is not supported for thermal studies; it supports static, f
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ITaperedTapElementData Object
-Members"
+title: "ITaperedTapElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ITaperedTapElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ITaperedTapElementData_members.html"
 ---
 
-# ITaperedTapElementData Object
-Members
+# ITaperedTapElementData Object Members
 
 ## Public Properties
 

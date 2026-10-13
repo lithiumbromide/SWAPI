@@ -1,6 +1,5 @@
 ---
-title: "SlotMateFeatureData Object
-Members"
+title: "SlotMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SlotMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SlotMateFeatureData_members.html"
 ---
 
-# SlotMateFeatureData Object
-Members
+# SlotMateFeatureData Object Members
 
 ## Public Properties
 

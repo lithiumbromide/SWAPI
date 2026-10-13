@@ -48,20 +48,13 @@ Number of material properties
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::Count](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~Count.html)
-
-.
+See [CWMaterial::Count](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~Count.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetPropertyByName Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetPropertyByName.html)
-
 [ICWMaterial::SetPropertyByName Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetPropertyByName.html)
 
 ## Availability

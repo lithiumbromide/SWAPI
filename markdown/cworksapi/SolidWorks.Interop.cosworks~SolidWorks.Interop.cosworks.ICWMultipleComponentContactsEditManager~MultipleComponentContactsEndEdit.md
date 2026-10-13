@@ -42,38 +42,23 @@ System.int MultipleComponentContactsEndEdit();
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::MultipleComponentContactsEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~MultipleComponentContactsEndEdit.html)
-
-.
+See [CWMultipleComponentContactsEditManager::MultipleComponentContactsEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~MultipleComponentContactsEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
-examples.
+See the [ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html) examples.
 
 ## Remarks
 
-To start editing multiple contact components, call
-
-[ICWMultipleComponentContactsEditManager::MultipleComponentContactsBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~MultipleComponentContactsBeginEdit.html)
-
-. You must call this method to finish editing multiple contact components. Changes are not applied unless you call both methods.
+To start editing multiple contact components, call [ICWMultipleComponentContactsEditManager::MultipleComponentContactsBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~MultipleComponentContactsBeginEdit.html). You must call this method to finish editing multiple contact components. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
 
 ## Availability

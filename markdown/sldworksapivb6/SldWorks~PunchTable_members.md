@@ -1,6 +1,5 @@
 ---
-title: "PunchTable Object
-Members"
+title: "PunchTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PunchTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PunchTable_members.html"
 ---
 
-# PunchTable Object
-Members
+# PunchTable Object Members
 
 ## Public Methods
 

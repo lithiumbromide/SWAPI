@@ -45,13 +45,7 @@ property System.double JogAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Jog angle
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::JogAngle](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~JogAngle.html)
-
-.
+See [JogFeatureData::JogAngle](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~JogAngle.html).
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
 
 ## Availability

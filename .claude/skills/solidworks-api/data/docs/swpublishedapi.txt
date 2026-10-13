@@ -1,0 +1,414 @@
+<<< IMessageBarHandler.OnUserResponseA | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler~OnUserResponseA.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< IMessageBarHandler.OnUserResponseB | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler~OnUserResponseB.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< IPropertyManagerPage2Handler5 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.md
+X: To use this interface in a VBA macro, you must reference the SOLIDWORKS exposed type libraries for add-in use type library specific to the version of SOLIDWORKS that you are running.
+For all unimplemented methods of this object, the add-in application can return E_NOTIMPL.
+<<< IPropertyManagerPage2Handler6 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6.md
+X: To use this interface:
+- in a SOLIDWORKS VBA macro, you must reference the SOLIDWORKS exposed type libraries for add-in use type library specific to the version of SOLIDWORKS that you are running.
+- in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+For all unimplemented methods of this object, the add-in application can return E_NOTIMPL.
+<<< IPropertyManagerPage2Handler7 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7.md
+X: To use this interface:
+- in a SOLIDWORKS VBA macro, you must reference the SOLIDWORKS exposed type libraries for add-in use type library specific to the version of SOLIDWORKS that you are running.
+- in a SOLIDWORKS VB.NET or C# macro or add-in, you must reference the SOLIDWORKS.interop.swpublished assembly and set ComVisibleAttribute to true (see ComVisibleAttribute in VB.NET and C# Macros and Add-ins).
+For all unimplemented methods of this object, the add-in application can return E_NOTIMPL.
+<<< IPropertyManagerPage2Handler8 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.md
+X: To use this interface:
+- in a SOLIDWORKS VBA macro, you must reference the SOLIDWORKS exposed type libraries for add-in use type library specific to the version of SOLIDWORKS that you are running.
+- in a SOLIDWORKS VB.NET or C# macro or add-in, you must reference the SOLIDWORKS.interop.swpublished assembly and set ComVisibleAttribute to true (see ComVisibleAttribute in VB.NET and C# Macros and Add-ins).
+For all unimplemented methods of this object, the add-in application can return E_NOTIMPL.
+<<< IPropertyManagerPage2Handler9 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.md
+X: To use this interface:
+- In a SOLIDWORKS VBA macro, you must reference the SOLIDWORKS exposed type libraries for add-in use type library specific to the version of SOLIDWORKS that you are running.
+- In a SOLIDWORKS VB.NET or C# add-in, you must reference the SOLIDWORKS.interop.swpublished assembly and set ComVisibleAttribute to true (see ComVisibleAttribute in VB.NET or C# Macros and Add-ins).
+For all unimplemented methods of this object, the add-in application can return E_NOTIMPL.
+<<< IPropertyManagerPage2Handler9.AfterClose | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~AfterClose.md
+X: This function should contain code to avoid potential problems with garbage collection.
+<<< IPropertyManagerPage2Handler9.OnActiveXControlCreated | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnActiveXControlCreated.md
+P: Id: ID of this ActiveX control
+P: Status: True if the ActiveX control creation was successful, false if not
+R: Action to take if the creation of the ActiveX control failed as defined in swHandleActiveXCreationFailure (see Remarks)
+X: When the ActiveX control is created, the program creating the PropertyManager page should receive notification from this handler. Specify one of the available enumerators for this handler's return value:
+- swHandleActiveXCreationFailure_Cancel. Continue creating the PropertyManager page without the ActiveX control. This is the default.
+- swHandleActiveXCreationFailure_Retry. Try to create the ActiveX control again. You can reuse the IPropertyManagerPageActiveX::SetClass method to change the control ID or the license key to perhaps use another similar control or another version of the control, and then specify swHandleActiveXCreationFailure_Retry. Avoid an endless loop situation.
+- swHandleActiveXCreationFailure_Continue. Cancel creating PropertyManager page. For example, it might be that the PropertyManager page is useless without the control, so the calling add-in might want to quit and handle the situation on its own.
+For example, if the control is created successfully, then SOLIDWORKS passes true for Status to the add-in and the return value is ignored. If the control fails to be created, SOLIDWORKS passes false for Status to the add-in and the return value is swHandleActiveXCreationFailure_Continue.
+Do not call IPropertyManagerPageActiveX::GetControl to get the interface object for this ActiveX control.
+You cannot get a reference to the ActiveX control inside this event handler because the page is not displayed when this notification is sent. You can only get the reference to the control after the PropertyManager page is displayed.
+<<< IPropertyManagerPage2Handler9.OnButtonPress | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnButtonPress.md
+P: Id: ID of the button
+<<< IPropertyManagerPage2Handler9.OnCheckboxCheck | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnCheckboxCheck.md
+P: Id: ID of the check box
+P: Checked: True if the check box is selected, false if not
+<<< IPropertyManagerPage2Handler9.OnClose | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnClose.md
+P: Reason: Reason this method is called as defined in swPropertyManagerPageCloseReasons_e
+X: This handler method is called when the PropertyManager page is about to close. This function should contain code to avoid potential problems with garbage collection.
+SOLIDWORKS controls when add-ins can do work. An add-in is unable to do any real work within the PropertyManager2Handler9::OnClose handler because the PropertyManager page and command are closing. So, typically the IPropertyPage2Handler9::AfterClose handler is called after IPropertyManager2Handler9::OnClose to allow an add-in to do work. However:
+| If PropertyManager page is... | And you implemented the handler in... | Then you... |
+| Not pinned | C++ | Can prevent the PropertyManager page from closing by setting the HRESULT return value to S_FALSE. |
+| | Visual Basic | Should use the Err.Raise method with a value of 1 to prevent the PropertyManager page from closing. In VB.NET, use 0 with Err.Raise. |
+| | NOTE: When control returns to SOLIDWORKS: The IPropertyManager page remains displayed on the screen. The IPropertyManagerPage2Handler9::AfterClose handler is not called. | |
+| Pinned | C++ or Visual Basic | Set HRESULT to S_FALSE to close the PropertyManager page (i.e., ignore the fact that the page is pinned). This allows your add-in to call the IPropertyManagerPage2Handler9::AfterClose handler and do its work. To avoid aggravating your user, who expected the PropertyManager page to remain pinned, you should re-display and re-pin the PropertyManager page after the add-in finishes its work. To close a pinned PropertyManager page by raising an exception, your application has to clear all selections by calling IModelDoc2::ClearSelection2 (true) in the call to IPropertyManagerPage2Handler9::OnClose. The PropertyManager page will not close if selections exist. |
+NOTE: In a previous version of this method, IPropertyManagerPage2Handler3::OnClose, if the user clicked the Cancel button and the PropertyManager page had a pushpin, then this method returned swPropertyManagerPageClose_Closed. This version of this method returns swPropertyManagerPageClose_Cancel in this scenario.
+Managed code can indicate that a PropertyManager page cannot be closed. Throw a COM exception with an error code of 1. For example, in C#: void OnClose (int reason) { // Throw a COM exception as an indication the PropertyManager // page cannot be closed at this time: // The error code must be 1, which equates to S_FALSE. COMException ex = new COMException("Cannot close PropertyManager page", 1); throw ex; } SOLIDWORKS does not allow suppressing components or features while a PropertyManager page is open.
+<<< IPropertyManagerPage2Handler9.OnComboboxEditChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnComboboxEditChanged.md
+P: Id: ID of the combo box
+P: Text: Text string
+X: This method is only called if the combo box was set up as an editable text box. If the combo box is set up to as a static text box, then this method is not called.
+If the user can edit the text in the text box, then use this method with IPropertyManagerPage2Handler9::OnComboxSelectionChanged to find out what is in the text box of the combo box.
+When this method is called, the control may not yet be updated with the current selection, so the IPropertyManagerPageCombobox::CurrentSelection property is not reliable. The text passed into this method is the up-to-date text.
+<<< IPropertyManagerPage2Handler9.OnComboboxSelectionChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnComboboxSelectionChanged.md
+P: Id: ID of the combo box
+P: Item: ID of the item
+X: If the user can edit the text in the text box, then use this method with IPropertyManagerPage2Handler9::OnComboxEditChanged to find out what is in the text box of the combo box.
+When this method is called, the control may not yet be updated with the current selection, so the IPropertyManagerPageCombobox::CurrentSelection property is not reliable. To get the current text, use the value of Item that is passed into the method as the argument to IPropertyManagerPageCombobox::ItemText.
+If the user has edited the text in the text box and then clicks the arrow to show or hide the list box of the combo box, and the text in the text box matches the first character in any of the items in the list, then that item is automatically selected in the list and this method is called, indicating that the selected item has changed.
+<<< IPropertyManagerPage2Handler9.OnGainedFocus | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnGainedFocus.md
+P: Id: ID of the control that gained focus
+X: To handle selection box focus, use IPropertyManagerPage2Handler9::OnSelectionboxFocusChanged.
+<<< IPropertyManagerPage2Handler9.OnGroupCheck | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnGroupCheck.md
+P: Id: Resource ID of the check box in the title of the group box
+P: Checked: True if the check box in the title of the group box is selected, false if not
+<<< IPropertyManagerPage2Handler9.OnGroupExpand | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnGroupExpand.md
+P: Id: ID of the arrow that opens a group box
+P: Expanded: True if the group box is opened, false if not
+<<< IPropertyManagerPage2Handler9.OnHelp | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnHelp.md
+R: True if the Help file opens successfully, false if not
+<<< IPropertyManagerPage2Handler9.OnKeystroke | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnKeystroke.md
+P: Wparam: wparam argument from Windows processing; indicates the keystroke that occurred NOTE: From the standard set of virtual keys from Windows. Refer to the Virtual Key Code information from Microsoft documentation; for example, the Alt key is VK_MENU.
+P: Message: Message being processed by Windows; one of these values: - WM_KEYDOWN 256 or 0x100 - WM_KEYUP 257 or 0x101 - WM_CHAR 258 or 0x102 - WM_DEADCHAR 259 or 0x103 - WM_SYSKEYDOWN 260 or 0x104 - WM_SYSKEYUP 261 or 0x105 - WM_SYSCHAR 262 or 0x106 - WM_SYSDEADCHAR 263 or 0x107
+P: Lparam: lparam argument from Windows processing; bitmask containing various pieces of information; dependent on specific message
+P: Id: ID of the control that has focus when the keystroke was made; this is the ID specified when the control was created in IPropertyManagerPage2::AddControl or IPropertyManagerPage2::IAddControl or IPropertyManagerPage2::AddGroupBox or IPropertyManagerPage2::IAddGroupBox.
+R: True indicates that the keystroke has been handled by the add-in and SOLIDWORKS should not continue to try to process it, false indicates that the keystroke has not been handled by the add-in and SOLIDWORKS will continue to try to process it
+<<< IPropertyManagerPage2Handler9.OnListboxRMBUp | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnListboxRMBUp.md
+P: Id: ID of the list box
+P: PosX: X coordinate of the right-mouse button menu
+P: PosY: Y coordinate of the right-mouse button menu
+<<< IPropertyManagerPage2Handler9.OnListboxSelectionChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnListboxSelectionChanged.md
+P: Id: ID of the list box
+P: Item: ID of the item
+<<< IPropertyManagerPage2Handler9.OnLostFocus | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnLostFocus.md
+P: Id: ID of the control that lost focus
+X: To handle selection box focus, use IPropertyManagerPage2Handler9::OnSelectionboxFocusChanged.
+<<< IPropertyManagerPage2Handler9.OnNextPage | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnNextPage.md
+R: True if the next page displays successfully, false if not
+<<< IPropertyManagerPage2Handler9.OnNumberboxChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnNumberboxChanged.md
+P: Id: ID of the number box
+P: Value: Value in the number box
+X: By default, this method receives a notification every time the value in the number box changes while the slider is being dragged or spun. Numerous notifications result in numerous calls to the handler, which is okay if your application responds quickly to each call. However, if your application responds slowly, then a performance bottleneck might occur.
+Set IPropertyManagerPageNumberbox::Style to swPropMgrPageNumberBoxStyle_e.swPropMgrPageNumberBoxStyle_SupressNotifyWhileTracking to receive only one notification while the slider is being dragged or spun. IPropertyManagerPage2Handler9::OnNumberboxTrackingCompleted receives a notification when dragging or spinning of the slider is completed.
+<<< IPropertyManagerPage2Handler9.OnNumberBoxTrackingCompleted | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnNumberBoxTrackingCompleted.md
+P: Id: ID of the number box
+P: Value: Value in the number box
+X: This method receives a notification when dragging or spinning of the slider is completed.
+<<< IPropertyManagerPage2Handler9.OnOptionCheck | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnOptionCheck.md
+P: Id: ID of option
+<<< IPropertyManagerPage2Handler9.OnPopupMenuItem | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnPopupMenuItem.md
+P: Id: Unique user-defined ID for a pop-up menu item (see IPropertyManagerPage2::AddMenuPopupItem)
+<<< IPropertyManagerPage2Handler9.OnPopupMenuItemUpdate | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnPopupMenuItemUpdate.md
+P: Id: Unique user-defined ID for a pop-up menu item (see IPropertyManagerPage2::AddMenuPopupItem)
+P: retval: State of the specified unique user-defined pop-up menu item: - 0 - Not selected (i.e., not checked) and disabled (i.e., grayed out) - 1 - Not selected and enabled - 2 - Selected (i.e., checked) and disabled - 3 - Selected and enabled
+X: This method:
+- processes a request for the state of the specified pop-up menu item associated with the PropertyManager page.
+- passes the state back to SOLIDWORKS.
+<<< IPropertyManagerPage2Handler9.OnPreview | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnPreview.md
+R: True if the operations specified by your add-in executes, false if not (see Remarks)
+X: To show a Preview button on a PropertyManager page, include swPropertyManagerOptions_PreviewButton in the Options argument of ISldWorks::CreatePropertyManagerPage or ISldWorks::ICreatePropertyManagerPage.
+You can do whatever you want in response to the Preview button being clicked. Your add-in is responsible for preview handling, including keeping track of the state of the Preview button. Your add-in controls what happens when the Preview button is clicked; SOLIDWORKS takes not action when the Preview button is clicked. SOLIDWORKS ignores the return value because by the time the callback handler is called, the button has already changed.
+<<< IPropertyManagerPage2Handler9.OnPreviousPage | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnPreviousPage.md
+R: True if the previous page displays successfully, false if not
+<<< IPropertyManagerPage2Handler9.OnSelectionboxCalloutCreated | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxCalloutCreated.md
+P: Id: ID of this selection box
+X: This method is only called if callouts have been enabled for the selection box as indicated by the Id argument. Use IPropertyManagerPageSelectionbox::SetCalloutLabel to enable callouts.
+You can collect information using this method. For example, you can get the selection type from the last selection. Next, use the IPropertyManagerPageSelectionbox::Callout property to get the ICallout object. Then, use the various ICallout properties to control the callout text and display characteristics based on that selection information.
+This method is a pre-notification.
+<<< IPropertyManagerPage2Handler9.OnSelectionboxCalloutDestroyed | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxCalloutDestroyed.md
+P: Id: ID of this selection box
+X: This method is:
+- only called if callouts have been enabled for the selection box as indicated by the Id argument. Use IPropertyManagerPageSelectionbox::SetCalloutLabel to enable callouts.
+- a post-notification. The callout pointed to by IPropertyManagerPageSelectionbox::Callout no longer exists, so do not make any calls to ICallout methods.
+<<< IPropertyManagerPage2Handler9.OnSelectionboxFocusChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxFocusChanged.md
+P: Id: ID of this selection box with focus
+X: A PropertyManager page often has more than one selection list. The focus is always on the active selection list. When the focus changes to another selection list, this method is called. If there is only one selection list on the page, then the focus never leaves it and this method is never called.
+<<< IPropertyManagerPage2Handler9.OnSelectionboxListChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxListChanged.md
+P: Id: ID of this selection box
+P: Count: Number of items in this selection box
+X: This method is called when your application uses a selection method, such as IModelDocExtension::SelectByID2, just as if the selection was made interactively.
+The method is called during the process of SOLIDWORKS selection. It is neither a pre-notification nor a post-notification. The add-in should not be taking any action that may affect the model or the selection list. The add-in should only be querying information, presumably about the state of selections to set up its own information correctly.
+Regardless of how many items the user selects, this method is called only once per interactive box selection. In other words, if the user selects six faces using a box selection, this method is called only once.
+<<< IPropertyManagerPage2Handler9.OnSliderPositionChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSliderPositionChanged.md
+P: Id: ID of the slider control
+P: Value: Value indicating the new position of the slider
+R: Although Value is declared as a double, the value of a slider is always a long. When this method is called, Value can be cast to a long. If IPropertyManagerPageSlider::Style is set to swPropMgrPageSliderStyle_NotifyWhileTracking, then you can use: - IPropertyManagerPage2Handler9::OnSliderPositionChanged to receive notifications every time the position of the slider changes because the slider is being dragged. NOTE: This might result in numerous calls to the handler, which is fine if the add-in responds quickly to each call. However, if the add-in responds slowly, then a performance bottleneck might occur. - IPropertyManagerPage2Handler9::OnSliderTrackingCompleted to receive one notification when dragging of the slider is completed.
+<<< IPropertyManagerPage2Handler9.OnSliderTrackingCompleted | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSliderTrackingCompleted.md
+P: Id: ID of the slider control
+P: Value: Value indicating the new position of the slider
+X: Although Value is declared as a double, the value of a slider is always a long. When this method is called, Value can be cast to a long.
+If IPropertyManagerPageSlider::Style is set to swPropMgrPageSliderStyle_NotifyWhileTracking, then you can use:
+- IPropertyManagerPage2Handler9::OnSliderTrackingCompleted to receive one notification when dragging of the slider is completed.
+- IPropertyManagerPage2Handler9::OnSliderPositionChanged to receive notifications every time the position of the slider changes because the slider is being dragged.
+NOTE: This might result in numerous calls to the handler, which is fine if the add-in responds quickly to each call. However, if the add-in responds slowly, then a performance bottleneck might occur.
+<<< IPropertyManagerPage2Handler9.OnSubmitSelection | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnSubmitSelection.md
+P: Id: ID of the active selection box, where this selection is being made
+P: Selection: Object being selected
+P: SelType: Entity type of the selection as defined in swSelectType_e
+P: ItemText: Item for selection list box (see Remarks)
+R: True if the selection is accepted, false if the selection is rejected
+X: If writing a macro, you must set this method to true for the user to select something (see the example section). If this method is not set to true, then the user cannot select anything. This method is set to false by default.
+This method is called by SOLIDWORKS when an add-in has a PropertyManager page displayed and a selection is made that passes the selection filter criteria set up for a selection list box. The add-in can then:
+- Take the Dispatch pointer and the selection type.
+- QueryInterface the Dispatch pointer to get the specific interface.
+- Use methods or properties of that interface to determine if the selection should be allowed or not. If the selection is:
+- - accepted, return true, and processing continues normally.
+- or -
+- rejected, return false, and SOLIDWORKS does not accept the selection, just as if the selection did not pass the selection filter criteria of the selection list box.
+The add-in should not release the Dispatch pointer. SOLIDWORKS will release the Dispatch pointer upon return from this method.
+The method is called during the process of SOLIDWORKS selection. It is neither a pre-notification nor post-notification. The add-in should not be taking any action that might affect the model or the selection list. The add-in should only be querying information and then returning true/VARIANT_TRUE or false/VARIANT_FALSE.
+ItemText is returned to SOLIDWORKS and stored on the selected object and can be used by your PropertyManager page selection list boxes for the life of that selection.
+<<< IPropertyManagerPage2Handler9.OnTabClicked | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnTabClicked.md
+P: Id: ID of the clicked tab (see Remarks)
+R: True if the tab clicked is processed, false if not
+X: The value of Id is the ID that was specified when the tab was created by IPropertyManagerPage2::AddTab.
+When a user clicks a tab, control is passed to the add-in via this method. The add-in is expected to show or hide groups and controls intended to be visible or hidden on that tab.
+Your add-in is responsible for showing and hiding the controls on a tab to simulate moving between tabs, making it look like the tab is a container for the controls. However, tabs are not containers for the groups or controls. Tabs are controls that are displayed in a certain way, making them look like control containers.
+<<< IPropertyManagerPage2Handler9.OnTextboxChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnTextboxChanged.md
+P: Id: ID of the text box
+P: Text: Text string
+<<< IPropertyManagerPage2Handler9.OnWhatsNew | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnWhatsNew.md
+X: Your add-in must implement this method.
+When a user clicks the What's New button on this PropertyManager page, the appropriate What's New Help topic is displayed. Use ISldWorks::ShowHelp to display the What's New Help topic.
+<<< IPropertyManagerPage2Handler9.OnWindowFromHandleControlCreated | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnWindowFromHandleControlCreated.md
+P: Id: ID of the.NET control
+P: Status: True if the.NET control is successfully created, false if not
+R: If Status equals: - true, then return nothing - false, then return an action as defined in swHandleWindowFromHandleCreationFailure_e
+X: If the.NET control is not successfully created (i.e., Status = false), then the program creating the PropertyManager page should receive notification from this handler. Return one of the following options in swHandleWindowFromHandleCreationFailure_e:
+- swHandleWindowFromHandleCreationFailure_Cancel. Continue creating the PropertyManager page without the.NET control. This is the default.
+- swHandleWindowFromHandleCreationFailure_Retry. Try to create the.NET control again. You can call the IPropertyManagerPageWindowFromHandle::SetWindowHandle method to change the.NET control handle to perhaps use another similar control or another version of the control and then return swHandleWindowFromHandleCreationFailure_Retry. Avoid an endless loop situation.
+- swHandleWindowFromHandleCreationFailure_Continue. Cancel creating the PropertyManager page. For example, it might be that the PropertyManager page is useless without the control, so the calling add-in might want to quit and handle the situation on its own.
+If the control is created successfully, then SOLIDWORKS passes Status = true to the add-in and nothing is returned. If the control fails to be created, SOLIDWORKS passes Status = false to the add-in and the handler returns swHandleWindowFromHandleCreationFailure_Continue.
+<<< ISwAddin | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+If you are creating a COM-style addin and are using an MFC CCmdTarget-derived object to implement ISwAddin, you must fully implement ITypeInfo as follows:
+- In the declaration of your CCmdTarget-derived class, add:
+1.
+  DECLARE_OLETYPELIB(<your CCmdTarget-derived class name>)
+2.
+  __declspec( dllexport ) virtual BOOL GetDispatchIID(IID* pIID);
+- In your implementation, add:
+1.
+  IMPLEMENT_OLETYPELIB(<your class name>, LIBID_SldWorks_SWPublished, SOLIDWORKS_type_library_version, 0)  //e.g., 14 for 2007
+2.
+  BOOL auAm_c::GetDispatchIID(IID* pIID)
+  {
+            *pIID == IID_ISwAddin;
+            return True;
+}
+  In your class constructor, add:
+ EnableTypeLib();
+See also Using SwAddin to Create a SOLIDWORKS Add-in.
+This interface is implemented by add-ins of SOLIDWORKS Partners who participate in the SOLIDWORKS Partner Program.
+<<< ISwAddin.ConnectToSW | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin~ConnectToSW.md
+P: ThisSW: Pointer to the SldWorks Dispatch object
+P: Cookie: Add-in ID
+R: True if the add-in connected successfully, false if not
+X: When this method is called, add all required items for this add-in to the SOLIDWORKS user interface (for example, menus and toolbars) and set the event handler.
+ISldWorks::ExitApp does not work if called from within this method.
+<<< ISwAddin.DisconnectFromSW | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin~DisconnectFromSW.md
+R: True if the add-in disconnected successfully, false if not
+X: This is a pre-notification. Add-ins should perform any clean up inside this event.
+When this method is called, remove and release all user-interface items related to this add-in (for example, menus, and toolbars).
+<<< ISwAddinAdvancedOptionBroker | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+See the System Options - Messages/Errors/Warnings topic in SOLIDWORKS help for more information about dismissed messages.
+<<< ISwAddinAdvancedOptionBroker.GetMessageIDs | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker~GetMessageIDs.md
+P: IDs: Array of dismissed message IDs
+P: Message: Array of dismissed message strings
+<<< ISwAddinAdvancedOptionBroker.SetMessageIDs | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker~SetMessageIDs.md
+P: IDs: Array of IDs of dismissed messages to display (see Remarks)
+X: By omission, this method effectively removes one or more dismissed messages from the list on Tools > Options > System Options > Messages/Errors/Warnings.
+Before calling this method use ISwAddinAdvancedOptionBroker::GetMessageIDs to obtain the IDs of the current list of dismissed messages.
+<<< ISwAddinBroker | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwAddinBroker.GetInferencePoints | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker~GetInferencePoints.md
+P: pDoc: SOLIDWORKS document
+P: SelPosX: x coordinate in screen space
+P: SelPosY: y coordinate in screen space
+P: Tolerance: Distance within model space that inference points can exist
+P: Option: Options as defined in swPointInferenceBrokerOption_e
+P: InferPoints: Array of doubles; each inference point returns its x,y,z coordinates
+<<< ISwAddinBroker.GetSelectedObjectsBBox | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker~GetSelectedObjectsBBox.md
+P: pDoc: SOLIDWORKS document
+P: Option: Option as defined in swAddinBrokerBBoxOption_e
+P: BoxCorners: Array of six doubles of the points of the bounding box
+X: The order of the points follows the same convention as all SOLIDWORKS bounding boxes.
+<<< ISwCalloutHandler | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwCalloutHandler.OnStringValueChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler~OnStringValueChanged.md
+P: pManipulator: ICallout object whose text was edited
+P: RowID: Row in which the text was edi
+P: Text: New text of RowID
+R: True to use updated text in RowID, false to use original text in RowID
+<<< ISwColorContour | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.md
+X: This SwColorContour object and its methods let your implemented interface:
+- Render the model using colors that are application-defined at specific locations for criteria like temperature, thickness, stress, and so on.
+- Display values associated with the colors at the cursor location.
+To use SwColorContour:
+1. Implement the SOLIDWORKS SwColorContour interface.
+2. Install your implemented interface in the SOLIDWORKS software using IModelDocExtension::InstallModelColorizer.
+3. Remove your implemented interface from the SOLIDWORKS software using IModelDocExtension::RemoveModelColorizer when you want to stop your implemented interface.
+NOTE: Only one color and display interface can be active at any one time. The last color and display interface installed is the active one. If you remove that color and display interface, then the color and display interface installed before it becomes the active color and display interface.
+See SOLIDWORKS Help for details about SOLIDWORKS Curvature Display.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwColorContour1 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1.md
+X: When implemented, the methods of this interface allow you to assign colors and display values of curvature in a SOLIDWORKS model.
+To use ISwColorContour1:
+1. Implement the ISwColorContour1 interface in an add-in class.
+2. Install the implemented interface in the SOLIDWORKS software using IModelDocExtension::InstallModelColorizer.
+3. Run the add-in and open a model document in SOLIDWORKS.
+4. In SOLIDWORKS select View > Display > Curvature. The model is colorized by the implemented interface.
+5. When you finalize the application, remove the implemented interface from the SOLIDWORKS software using IModelDocExtension::RemoveModelColorizer.
+NOTE: Only one color and display interface can be active at any one time. The last color and display interface installed is the active one. If you remove that color and display interface, then the color and display interface installed before it becomes the active color and display interface.
+This interface overrides the color and display functionality of the SOLIDWORKS Curvature tool. See SOLIDWORKS Help for details about the SOLIDWORKS Curvature tool.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwColorContour1.Color | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1~Color.md
+P: Value: Value that is associated with a location on the model (see Remarks)
+R: COLORREF value corresponding to the specified Value
+X: When you implement this method, you can return different colors for different locations of the model.
+<<< ISwColorContour1.DisplayString | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1~DisplayString.md
+P: Value: Value that is associated with a location on the model (see Remarks)
+R: String to display for the specified Value
+X: When you implement this method, you can return different strings for different locations of the model.
+<<< ISwColorContour1.NeedsUpdate | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1~NeedsUpdate.md
+R: True if the colors defined are not up-to-date, false if they are
+<<< ISwColorContour1.Value | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1~Value.md
+P: face: Face to color
+P: vertex_x: X coordinate of vertex to color
+P: vertex_y: Y coordinate of vertex to color
+P: vertex_z: Z coordinate of vertex to color
+P: normal_x: X coordinate of normal to color
+P: normal_y: Y coordinate of normal to color
+P: normal_z: Z coordinate of normal to color
+P: Value: Function of the specified face or coordinates of the model (see Remarks)
+R: Not used
+X: When you implement this method, you need to populate the Value output parameter. Value can be a function of the specified coordinates or the properties of the face. By default Value is the input parameter for ISwColorContour1::Color and ISwColorContour1::DisplayString.
+In VB.NET implementations, you need to change the name of the Value output parameter to avoid a compiler error. When you change the name, use the same name for the input parameters of your ISwColorContour1::Color and ISwColorContour1::DisplayString implementations.
+<<< ISwComFeature | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature.md
+X: See Exposed COM DLL or Executable and Macro Features and Overview of Macro Features for more information.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwComFeature.Edit | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature~Edit.md
+P: app: SOLIDWORKS application
+P: modelDoc: SOLIDWORKS document in which the macro feature appears
+P: feature: Macro feature whose definition you want to edit
+R: True if editing the definition of the macro feature is successful, false if not
+X: This method is required. See Exposed COM DLL or Executable and Macro Features and Overview of Macro Features for more information.
+<<< ISwComFeature.Regenerate | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature~Regenerate.md
+P: app: SOLIDWORKS application
+P: modelDoc: SOLIDWORKS document in which the macro appears
+P: feature: Macro feature that you want to rebuild
+R: Any one of the following values: - True if the rebuild is successful (independent and modify) - False if the rebuild failed - String, as displayed in an error message to the user (see Remarks) - Body, if a body was created
+X: This method is required.
+Examples of string return values:
+- VBA swmRebuild = "Macro feature output error message"
+- C++ COM CComBSTR bMsg = _T("Macro feature output error message"); _variant_t vBSTRRet = bMsg; *retval = vBSTRRet;
+- C# functionReturnValue = "Macro feature output error message"; return functionReturnValue;
+- VB.NET Regenerate = "Macro feature output error message"
+See Exposed COM DLL or Executable and Macro Features and Overview of Macro Features for more information.
+<<< ISwComFeature.Security | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwComFeature~Security.md
+P: app: SOLIDWORKS application
+P: modelDoc: SOLIDWORKS document in which the macro feature appears
+P: feature: Macro feature whose security you want to set
+R: Value or combination of values as defined by swMacroFeatureSecurityOptions_e
+X: This method also allows you to display a note associated with the macro feature to the end user. This method is required for COM-based macro features. See Overview of Macro Features for more information.
+<<< ISwManipulatorHandler2 | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+The add-in application performs such actions as:
+- Defining how a manipulator moves. For example, the add-in application has the manipulator follow a surface in order to place an image on that surface.
+- Providing any temporary graphics associated with manipulator. For example, to display a temporary body in a part, the add-in application must call IBody2::Display3.
+- Applying transforms using IBody2::ApplyTransform.
+To create a manipulator, first create the SwManipulatorHandler2 object and then create the IManipulator object.
+See Manipulators for details.
+<<< ISwManipulatorHandler2.OnDelete | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnDelete.md
+P: pManipulator: IManipulator object
+R: True if the add-in application deletes the manipulator, false if not
+<<< ISwManipulatorHandler2.OnDirectionFlipped | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnDirectionFlipped.md
+P: pManipulator: IManipulator object
+<<< ISwManipulatorHandler2.OnDoubleValueChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnDoubleValueChanged.md
+P: pManipulator: IManipulator object
+P: handleIndex: ID of the value to change
+P: Value: New value
+R: True if successful, false if not
+X: If the manipulator is a drag arrow manipulator, then the value is the length of the manipulator.
+<<< ISwManipulatorHandler2.OnEndDrag | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnEndDrag.md
+P: pManipulator: IManipulator object
+P: handleIndex: | If the manipulator is a... | Then use... | | Drag arrow | swDragArrowManipulatorOptions_e | | Triad | swTriadManipulatorControlPoints_e |
+<<< ISwManipulatorHandler2.OnEndNoDrag | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnEndNoDrag.md
+P: pManipulator: IManipulator object
+P: handleIndex: | If the manipulator is a... | Then use... | | Drag arrow | swDragArrowManipulatorOptions_e | | Triad | swTriadManipulatorControlPoints_e |
+<<< ISwManipulatorHandler2.OnHandleLmbSelected | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnHandleLmbSelected.md
+P: pManipulator: IManipulator object
+R: True if successful, false if not
+<<< ISwManipulatorHandler2.OnHandleRmbSelected | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnHandleRmbSelected.md
+P: pManipulator: IManipulator object
+P: handleIndex: | If the manipulator is a... | Then use... | | Drag arrow | swDragArrowManipulatorOptions_e | | Triad | swTriadManipulatorControlPoints_e |
+<<< ISwManipulatorHandler2.OnHandleSelected | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnHandleSelected.md
+P: pManipulator: IManipulator object
+P: handleIndex: Direction of the drag handle as defined by swDragArrowManipulatorOptions_e
+<<< ISwManipulatorHandler2.OnItemSetFocus | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnItemSetFocus.md
+P: pManipulator: IManipulator object
+P: handleIndex: ID of item on which to set focus
+<<< ISwManipulatorHandler2.OnStringValueChanged | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnStringValueChanged.md
+P: pManipulator: IManipulator object
+P: handleIndex: ID of the string value to change
+P: Value: New string value
+R: True if the add-in application accepts the new string value, false if not
+<<< ISwManipulatorHandler2.OnUpdateDrag | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnUpdateDrag.md
+P: pManipulator: IManipulator object
+P: handleIndex: | If the manipulator is a... | Then use... | | Drag arrow | swDragArrowManipulatorOptions_e | | Triad | swTriadManipulatorControlPoints_e |
+P: newPosMathPt: Math point indicating the pointer's new position
+<<< ISwPEManager | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.md
+X: This interface and ISwAddin are implemented in add-ins of SOLIDWORKS Partners who participate in the SOLIDWORKS Partner Program.
+<<< ISwPEManager.IdentifyToSW | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager~IdentifyToSW.md
+P: ClassFactory: Pointer to the ISwPEClassFactory dispatch object
+X: After receiving the ClassFactory dispatch object, the partner add-in calls ISwPEClassFactory::SetPartnerKey to send SOLIDWORKS a license key. SOLIDWORKS uses the partner key to verify entitlement of the SOLIDWORKS Partner.
+<<< ISwQuickTip | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.md
+X: See Quick Tips and Bubble ToolTips for details.
+To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< ISwQuickTip.ApplicationName | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~ApplicationName.md
+R: Name of the add-in
+<<< ISwQuickTip.AppState | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~AppState.md
+P: state: State of the add-in as defined by the add-in
+<<< ISwQuickTip.HideGuide | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~HideGuide.md
+R: True if add-in's Quick Tips is hidden, false if it is shown
+<<< ISwQuickTip.MenuName | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~MenuName.md
+R: Name of add-in's Quick Tips on the SOLIDWORKS Help menu
+<<< ISwQuickTip.ShowInAssemblyDoc | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~ShowInAssemblyDoc.md
+R: True to show Quick Tips in SOLIDWORKS assembly documents, false to not
+<<< ISwQuickTip.ShowInDrawingDoc | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~ShowInDrawingDoc.md
+R: True to show Quick Tips in SOLIDWORKS drawing documents, false to not
+<<< ISwQuickTip.ShowInPartDoc | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~ShowInPartDoc.md
+R: True to show Quick Tips in SOLIDWORKS part documents, false to not
+<<< ISwQuickTip.SwState | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~SwState.md
+P: state: State of SOLIDWORKS application: - swQuickTipNoMode = 0x00000000 - swQuickTipEmptySWFrameMode = 0x00000001 - swQuickTipEmptyPartMode = 0x00000002 - swQuickTipSketchingMode = 0x00000004 - swQuickTipClosedProfileCompletedMode = 0x00000008 - swQuickTipSketchDoneMode = 0x00000010 - swQuickTipFirstFeatureDoneMode = 0x00000020 - swQuickTipEmptyAssemblyMode = 0x00000040 - swQuickTipAssemblyOneCompMode = 0x00000080 - swQuickTipAssemblyMultiCompMode = 0x00000100 - swQuickTipAssemblyMatedMode = 0x00000200 - swQuickTipAssemblySimulatingMode = 0x00000400 - swQuickTipEmptyDrawingMode = 0x00000800 - swQuickTipDrawingOneViewMode = 0x00001000 - swQuickTipPMBaseFeatureDialogMode = 0x00002000 - swQuickTipPMYellowErrorMessageMode = 0x00004000 // Display this topic for error conditions when the yellow group box in a PropertyManager is displayed instructing the user to do something before he or she can continue. - swQuickTipPMMateDialogMode = 0x00008000 - swQuickTipSheetMetalMode = 0x00010000 - swQuickTipSketching3DMode = 0x00020000 - swQuickTipDrawingEditSheetMode = 0x00040000 - swQuickTipPMInsertModelViewMode = 0x00080000 - swQuickTipPMInsertProjectedViewMode = 0x00100000 - swQuickTipPMInsertComponentMode = 0x00200000 - swQuickTipPMYellowGuidelinesMode = 0x00400000 // Display this topic if you want Quick Tips to know about the yellow group box in a PropertyManager that is displayed instructing the user to do something before he or she can continue.
+X: You can call this method to set the internal state of the Quick Tips portion of your add-in application. For example, you can call this method in response to a menu selection or toolbar button click. This may correspond to beginner, intermediate, or advanced modes. The ISwQuickTip object can then store the state and send a suitable URL when SOLIDWORKS calls ISwQuickTip::Url.
+<<< ISwQuickTip.Url | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip~Url.md
+R: URL of HTML page
+<<< ISwUndoAPIHandler | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler.md
+X: To use this interface in a SOLIDWORKS VB.NET or C# macro or add-in, see ComVisibleAttribute in VB.NET and C# Macros and Add-ins.
+<<< IUserNotificationHandler.OnUserResponseA | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler~OnUserResponseA.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< IUserNotificationHandler.OnUserResponseB | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler~OnUserResponseB.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< MessageBarHandler.OnUserResponseA | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.MessageBarHandler~OnUserResponseA.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< MessageBarHandler.OnUserResponseB | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.MessageBarHandler~OnUserResponseB.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< SwPEManager.IdentifyToSW | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.SwPEManager~IdentifyToSW.md
+P: ClassFactory: Pointer to the ISwPEClassFactory dispatch object
+X: After receiving the ClassFactory dispatch object, the partner add-in calls ISwPEClassFactory::SetPartnerKey to send SOLIDWORKS a license key. SOLIDWORKS uses the partner key to verify entitlement of the SOLIDWORKS Partner.
+<<< UserNotificationHandler.OnUserResponseA | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.UserNotificationHandler~OnUserResponseA.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not
+<<< UserNotificationHandler.OnUserResponseB | swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.UserNotificationHandler~OnUserResponseB.md
+P: DoNotShowAgain: True to check "Don't Show Again", false to not

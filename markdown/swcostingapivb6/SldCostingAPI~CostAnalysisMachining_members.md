@@ -1,6 +1,5 @@
 ---
-title: "CostAnalysisMachining Object
-Members"
+title: "CostAnalysisMachining Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostAnalysisMachining_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostAnalysisMachining_members.html"
 ---
 
-# CostAnalysisMachining Object
-Members
+# CostAnalysisMachining Object Members
 
 ## Public Methods
 

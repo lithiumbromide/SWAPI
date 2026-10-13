@@ -47,21 +47,11 @@ System.bool SaveCriteria(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CriteriaFileName`: Path and filename (
-
-*.xml
-
-) to which to save the current query
+- `CriteriaFileName`: Path and filename (***.xml**) to which to save the current query
 
 ### Return Value
 
@@ -69,15 +59,11 @@ True if current query is saved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::SaveCriteria](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~SaveCriteria.html)
-
-.
+See [AdvancedSelectionCriteria::SaveCriteria](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~SaveCriteria.html).
 
 ## Remarks
 
-Call this method after[adding](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html)criteria to the current advanced component selection criteria list.
+Call this method after [adding](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html) criteria to the current advanced component selection criteria list.
 
 As of SOLIDWORKS 2021, you can save queries only in XML format.
 
@@ -96,7 +82,6 @@ As is done using the Advanced Component Selection dialog (**Standard toolbar > A
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

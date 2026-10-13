@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ILoop Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [ILoop2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html).
 
-[ILoop2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class ILoop
 
 ## VBA Syntax
 
-See
-
-[Loop](ms-its:sldworksapivb6.chm::/sldworks~Loop.html)
-
-.
+See [Loop](ms-its:sldworksapivb6.chm::/sldworks~Loop.html).
 
 ## See Also
 
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

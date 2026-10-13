@@ -45,13 +45,7 @@ property System.bool LoadModel {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to load the model, false to not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::LoadModel](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~LoadModel.html)
-
-.
+See [DocumentSpecification::LoadModel](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~LoadModel.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ To avoid a warning when opening shaded modes in views, set this property to TRUE
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

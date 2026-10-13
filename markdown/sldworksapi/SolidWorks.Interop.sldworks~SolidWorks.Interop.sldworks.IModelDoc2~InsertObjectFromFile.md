@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertObjectFromFile Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertObjectFromFile](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertObjectFromFile.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertObjectFromFile](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertObjectFromFile.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.bool InsertObjectFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertObjectFromFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertObjectFromFile.html)
-
-.
+See [ModelDoc2::InsertObjectFromFile](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertObjectFromFile.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

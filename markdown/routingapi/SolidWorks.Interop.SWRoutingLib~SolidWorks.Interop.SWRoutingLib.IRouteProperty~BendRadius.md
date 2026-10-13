@@ -51,28 +51,17 @@ Bend radius
 
 ## VBA Syntax
 
-See
-
-[RouteProperty::BendRadius](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~BendRadius.html)
-
-.
+See [RouteProperty::BendRadius](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~BendRadius.html).
 
 ## Examples
 
-See the
-
-[IRouteProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html)
-
-examples.
+See the [IRouteProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html) examples.
 
 ## See Also
 
 [IRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html)
-
 [IRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty_members.html)
-
 [IRouteProperty::MinimumBendRadius Property ()](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~MinimumBendRadius.html)
-
 [IElectricalRouteProperty::BundleMinimumBendRadius Property ()](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~BundleMinimumBendRadius.html)
 
 ## Availability

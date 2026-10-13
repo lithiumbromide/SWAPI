@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # Reset Method (IEnumLoops)
 
-Obsolete. Superseded by
-
-[IEnumLoops2::Reset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumLoops2~Reset.html)
-
-.
+Obsolete. Superseded by [IEnumLoops2::Reset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumLoops2~Reset.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EnumLoops::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops~Reset.html)
-
-.
+See [EnumLoops::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops~Reset.html).
 
 ## See Also
 
 [IEnumLoops Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops.html)
-
 [IEnumLoops Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops_members.html)

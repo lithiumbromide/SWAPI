@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # NeedsUpdate Method (ISwColorContour)
 
-Obsolete. Superseded by
-
-[ISwColorContour1::NeedsUpdate](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~NeedsUpdate.html)
-
-.
+Obsolete. Superseded by [ISwColorContour1::NeedsUpdate](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~NeedsUpdate.html).
 
 ## Syntax
 
@@ -50,16 +46,11 @@ True if the colors defined by the add-in are not up-to-date, false if they are
 
 ## VBA Syntax
 
-See
-
-[SwColorContour::NeedsUpdate](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~NeedsUpdate.html)
-
-.
+See [SwColorContour::NeedsUpdate](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~NeedsUpdate.html).
 
 ## See Also
 
 [ISwColorContour Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html)
-
 [ISwColorContour Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour_members.html)
 
 ## Availability

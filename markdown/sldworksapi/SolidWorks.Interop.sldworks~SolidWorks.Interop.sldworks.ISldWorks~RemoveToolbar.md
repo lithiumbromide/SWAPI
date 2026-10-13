@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # RemoveToolbar Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::RemoveToobar2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveToolbar2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::RemoveToobar2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveToolbar2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool RemoveToolbar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RemoveToolbar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveToolbar.html)
-
-.
+See [SldWorks::RemoveToolbar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveToolbar.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

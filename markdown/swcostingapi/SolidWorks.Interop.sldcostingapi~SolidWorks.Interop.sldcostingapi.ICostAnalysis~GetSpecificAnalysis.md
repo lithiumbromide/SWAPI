@@ -53,24 +53,15 @@ Specific Costing analysis of this type of the Costing part:
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::GetSpecificAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~GetSpecificAnalysis.html)
-
-.
+See [CostAnalysis::GetSpecificAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~GetSpecificAnalysis.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
-
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
@@ -80,7 +71,6 @@ A complete Costing analysis includes the common Costing analysis and a specific 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
 
 ## Availability

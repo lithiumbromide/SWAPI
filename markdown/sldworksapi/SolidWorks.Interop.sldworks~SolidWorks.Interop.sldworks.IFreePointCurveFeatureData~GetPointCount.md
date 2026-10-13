@@ -40,13 +40,7 @@ System.int GetPointCount()
 System.int GetPointCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Number of doubles (3 * number of points) of this free-point curve
 
 ## VBA Syntax
 
-See
-
-[FreePointCurveFeatureData::GetPointCount](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~GetPointCount.html)
-
-.
+See [FreePointCurveFeatureData::GetPointCount](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~GetPointCount.html).
 
 ## Examples
 
 [Insert Free Point Curve Feature (C#)](Insert_Free_Point_Curve_Feature_Example_CSharp.htm)
-
 [Insert Free Point Curve Feature (VB.NET)](Insert_Free_Point_Curve_Feature_Example_VBNET.htm)
-
 [Insert Free Point Curve Feature (VBA)](Insert_Free_Point_Curve_Feature_Example_VB.htm)
 
 ## See Also
 
 [IFreePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData.html)
-
 [IFreePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData_members.html)
 
 ## Availability

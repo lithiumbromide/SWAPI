@@ -40,13 +40,7 @@ DowelSymbol IInsertDowelSymbol()
 DowelSymbol^ IInsertDowelSymbol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IInsertDowelSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IInsertDowelSymbol.html)
-
-.
+See [DrawingDoc::IInsertDowelSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IInsertDowelSymbol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::InsertDowelSymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertDowelSymbol.html)
 
 ## Availability

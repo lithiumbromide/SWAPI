@@ -40,13 +40,7 @@ System.bool IsLoaded()
 System.bool IsLoaded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the configuration is loaded, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::IsLoaded](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsLoaded.html)
-
-.
+See [Configuration::IsLoaded](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IsLoaded.html).
 
 ## Examples
 
 [Are the Assembly Configurations Loaded (VB.NET)](Are_the_Assembly_Configurations_Loaded_Example_VBNET.htm)
-
 [Are the Assembly Configurations Loaded (VBA)](Are_the_Assembly_Configurations_Loaded_Example_VB.htm)
-
 [Are the Assembly Configurations Loaded (C#)](Are_the_Assembly_Configurations_Loaded_Example_CSharp.htm)
 
 ## Remarks
@@ -77,7 +65,6 @@ If you activate the configuration named DC2, then this method will return true f
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

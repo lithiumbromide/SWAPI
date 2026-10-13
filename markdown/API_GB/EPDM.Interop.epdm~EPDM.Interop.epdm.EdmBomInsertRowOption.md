@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInsertRowOption.html"
 
 # EdmBomInsertRowOption Enumeration
 
-Bill of Materials row insertion options for
-
-[IEdmBomView2::InsertRow](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2~InsertRow.html)
-
-.
+Bill of Materials row insertion options for [IEdmBomView2::InsertRow](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView2~InsertRow.html).
 
 ## Syntax
 

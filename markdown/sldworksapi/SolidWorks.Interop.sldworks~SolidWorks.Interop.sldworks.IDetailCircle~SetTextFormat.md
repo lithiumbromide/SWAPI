@@ -51,22 +51,13 @@ System.bool SetTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseDoc`: True to use the local document text format, false to use the text format specified by
-
-TextFormat
-- `TextFormat`: [Text format](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html)
-
-to use if UseDoc is false
+  TextFormat
+- `TextFormat`: [Text format](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITextFormat.html) to use if UseDoc is false
 
 ### Return Value
 
@@ -74,20 +65,13 @@ True if the format was set successfully, false if it was not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetTextFormat.html)
-
-.
+See [DetailCircle::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetTextFormat.html).
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetTextFormat.html)
-
 [IDetailCircle::GetUseDocTextFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetUseDocTextFormat.html)
 
 ## Availability

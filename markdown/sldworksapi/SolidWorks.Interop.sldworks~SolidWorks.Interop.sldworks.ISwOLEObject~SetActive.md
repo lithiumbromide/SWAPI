@@ -47,13 +47,7 @@ System.Object^ SetActive(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True gets the activated OLE object, false returns null
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::SetActive](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~SetActive.html)
-
-.
+See [SwOLEObject::SetActive](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~SetActive.html).
 
 ## Examples
 
@@ -78,7 +68,6 @@ See
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
 
 ## Availability

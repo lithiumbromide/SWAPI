@@ -46,13 +46,7 @@ void Activate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,19 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[View3D::Activate](ms-its:sldworksapivb6.chm::/sldworks~View3D~Activate.html)
-
-.
+See [View3D::Activate](ms-its:sldworksapivb6.chm::/sldworks~View3D~Activate.html).
 
 ## Examples
 
-See the
-
-[IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html)
-
-examples.
+See the [IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html) examples.
 
 ## Remarks
 
@@ -86,9 +72,7 @@ The model state includes the model's:
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
-
 [IView3D::Deactivate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D~Deactivate.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # Scale2 Property (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Scale.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Scale.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::Scale2](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Scale2.html)
-
-.
+See [BlockInstance::Scale2](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~Scale2.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

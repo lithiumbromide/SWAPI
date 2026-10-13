@@ -65,50 +65,34 @@ System.Object^ GetMinMaxStressRMS(
 
 ### Parameters
 
-- `NComponent`: Stress component as defined in
-
-[swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
+- `NComponent`: Stress component as defined in [swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
 - `NElementNumber`: Element number
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if reference geometry does not exist
-- `NUnits`: Units as defined in
-
-[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxStressRMS](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxStressRMS.html)
-
-.
+See [CWResults::GetMinMaxStressRMS](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxStressRMS.html).
 
 ## Remarks
 
 This method returns the following array:
 
-{`node_with_minimum_stress`,`minimum_stress`,`node_with_maximum_stress`,`maximum_stress`},
+{`node_with_minimum_stress`, `minimum_stress`, `node_with_maximum_stress`, `maximum_stress`},
 
 where the nodes are integer indexes, and the stresses are in scientific notation.
 
-This method returns root-mean-square (RMS) values. To obtain power spectral density (PSD) values, call[ICWResults::GetMinMaxStress](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStress.html).
+This method returns root-mean-square (RMS) values. To obtain power spectral density (PSD) values, call [ICWResults::GetMinMaxStress](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStress.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxStressForHarmonic Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStressForHarmonic.html)
 
 ## Availability

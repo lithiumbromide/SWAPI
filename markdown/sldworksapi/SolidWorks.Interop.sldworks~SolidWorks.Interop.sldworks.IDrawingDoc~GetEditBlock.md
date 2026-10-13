@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # GetEditBlock Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[ISketchManager::EditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EditSketchBlock.html)
-
-and
-
-[ISketchManager::EndEditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EndEditSketchBlock.html)
-
-.
+Obsolete. Superseded by [ISketchManager::EditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EditSketchBlock.html) and [ISketchManager::EndEditSketchBlock](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~EndEditSketchBlock.html).
 
 ## Syntax
 
@@ -48,26 +40,15 @@ System.bool GetEditBlock()
 System.bool GetEditBlock();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetEditBlock](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetEditBlock.html)
-
-.
+See [DrawingDoc::GetEditBlock](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetEditBlock.html).
 
 ## Remarks
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

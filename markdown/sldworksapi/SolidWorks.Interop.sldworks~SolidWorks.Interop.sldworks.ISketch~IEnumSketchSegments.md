@@ -40,13 +40,7 @@ EnumSketchSegments IEnumSketchSegments()
 EnumSketchSegments^ IEnumSketchSegments();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::IEnumSketchSegments](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchSegments.html)
-
-.
+See [Sketch::IEnumSketchSegments](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IEnumSketchSegments.html).
 
 ## Examples
 
@@ -71,13 +61,9 @@ Sketch segments include line, arc, spline, parabola, and ellipse entities.
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchSegments.html)
-
 [ISketch::GetSketchTextSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchTextSegments.html)
-
 [ISketch::IEnumSketchTextSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IEnumSketchTextSegments.html)
 
 ## Availability

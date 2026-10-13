@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWPressure::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~RemoveEntity.html)
-
-.
+See [CWPressure::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~RemoveEntity.html).
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~InsertEntity.html)
 
 ## Availability

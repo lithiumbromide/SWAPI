@@ -45,13 +45,7 @@ property System.double Percent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Percent of slot length
 
 ## VBA Syntax
 
-See
-
-[SlotMateFeatureData::Percent](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData~Percent.html)
-
-.
+See [SlotMateFeatureData::Percent](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData~Percent.html).
 
 ## Remarks
 
-This property is valid only if[ISlotMateFeatureData::Constraint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Constraint.html)is set to[swSlotMateConstraintOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlotMateConstraintOptions_e.html).swSlotMateConstraintOption_Percent.
+This property is valid only if [ISlotMateFeatureData::Constraint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Constraint.html) is set to [swSlotMateConstraintOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlotMateConstraintOptions_e.html).swSlotMateConstraintOption_Percent.
 
-To change the endpoint from which the distance is measured, set[ISlotMateFeatureData::FlipDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~FlipDirection.html)to true.
+To change the endpoint from which the distance is measured, set [ISlotMateFeatureData::FlipDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~FlipDirection.html) to true.
 
 ## See Also
 
 [ISlotMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData.html)
-
 [ISlotMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData_members.html)
 
 ## Availability

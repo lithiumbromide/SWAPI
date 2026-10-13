@@ -51,13 +51,7 @@ System.bool ISelectEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,20 +64,13 @@ True if the entity was selected, false if not
 
 ## VBA Syntax
 
-See
-
-[View::ISelectEntity](ms-its:sldworksapivb6.chm::/sldworks~View~ISelectEntity.html)
-
-.
+See [View::ISelectEntity](ms-its:sldworksapivb6.chm::/sldworks~View~ISelectEntity.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::SelectEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SelectEntity.html)
-
 [IModelDocExtension::SelectAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectAll.html)
 
 ## Availability

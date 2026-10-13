@@ -47,13 +47,7 @@ System.bool RemoveCorner(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if specified corner successfully removed, false if not
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData::RemoveCorner](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~RemoveCorner.html)
-
-.
+See [CornerReliefFeatureData::RemoveCorner](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~RemoveCorner.html).
 
 ## See Also
 
 [ICornerReliefFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
 
 ## Availability

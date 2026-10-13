@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a corner member of a complex or two member structure system corner treatment feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,21 @@ public interface class ICornerMember
 
 ## VBA Syntax
 
-See
-
-[CornerMember](ms-its:sldworksapivb6.chm::/sldworks~CornerMember.html)
-
-.
+See [CornerMember](ms-its:sldworksapivb6.chm::/sldworks~CornerMember.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Accessors
 
-[IComplexCornerTreatmentFeatureData::GetBodyTrimMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetBodyTrimMembers.html)and then cast to ICornerMember
+[IComplexCornerTreatmentFeatureData::GetBodyTrimMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetBodyTrimMembers.html) and then cast to ICornerMember
 
-[IComplexCornerTreatmentFeatureData::GetPlanarTrimMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetPlanarTrimMembers.html)and then cast to ICornerMember
+[IComplexCornerTreatmentFeatureData::GetPlanarTrimMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetPlanarTrimMembers.html) and then cast to ICornerMember
 
-[IComplexCornerTreatmentFeatureData::GetTrimToolMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetTrimToolMember.html)and then cast to ICornerMember
+[IComplexCornerTreatmentFeatureData::GetTrimToolMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData~GetTrimToolMember.html) and then cast to ICornerMember
 
-[ITwoMemberCornerTreatmentFeatureData::GetCornerGroupMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITwoMemberCornerTreatmentFeatureData~GetCornerGroupMembers.html)and then cast to ICornerMember
+[ITwoMemberCornerTreatmentFeatureData::GetCornerGroupMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITwoMemberCornerTreatmentFeatureData~GetCornerGroupMembers.html) and then cast to ICornerMember
 
 ## Access Diagram
 
@@ -68,5 +64,4 @@ See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.
 ## See Also
 
 [ICornerMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerMember_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -45,13 +45,7 @@ property System.String^ Material {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Weld material
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFolder::Material](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~Material.html)
-
-.
+See [CosmeticWeldBeadFolder::Material](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~Material.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
-examples.
+See [ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
 [ICosmeticWeldBeadFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html)
 
 ## Availability

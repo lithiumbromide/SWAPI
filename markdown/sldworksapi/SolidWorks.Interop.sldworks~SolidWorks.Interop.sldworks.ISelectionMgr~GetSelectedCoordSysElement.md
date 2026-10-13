@@ -51,30 +51,16 @@ System.Object^ GetSelectedCoordSysElement(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index position within the current list of selected items, where Index ranges from 1 to
-
-[ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)
-
-(see
-
-Remarks
-
-)
+- `Index`: Index position within the current list of selected items, where Index ranges from 1 to [ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html) (see **Remarks**)
 - `Mark`: - -1 = All selections regardless of marks
 
-- 0 = only the selections without marks
+  - 0 = only the selections without marks
 
-Any other value = Value that was used to mark and select an object
+  Any other value = Value that was used to mark and select an object
 
 ### Return Value
 
@@ -82,32 +68,19 @@ Any other value = Value that was used to mark and select an object
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::GetSelectedCoordSysElement](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetSelectedCoordSysElement.html)
-
-.
+See [SelectionMgr::GetSelectedCoordSysElement](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetSelectedCoordSysElement.html).
 
 ## Examples
 
-See the
-
-[ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
-examples.
+See the [ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html) examples.
 
 ## Remarks
 
-After calling this method, call
-
-[ISelectionMgr::IsCoordSysElementSelected](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~IsCoordSysElementSelected.html)
-
-.
+After calling this method, call [ISelectionMgr::IsCoordSysElementSelected](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~IsCoordSysElementSelected.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Allows you to access specific information about DimXpert spheres.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,36 +41,22 @@ public interface class ISwDMDimXpertSphereFeature
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertSphereFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertSphereFeature.html)
-
-.
+See [SwDMDimXpertSphereFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertSphereFeature.html).
 
 ## Examples
 
 [Get DimXpert Sphere and Datum (VB.NET)](Get_DimXpert_Sphere_and_Datum_Example_VBNET.htm)
-
 [Get DimXpert Sphere and Datum (C#)](Get_DimXpert_Sphere_and_Datum_Example_CSharp.htm)
 
 ## Remarks
 
-You can access more general information from
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-.
+You can access more general information from [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html).
 
 ## Accessors
 
-[ISwDMDimXpertPart::GetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatures.html)
-
-and
-
-[ISwDMDimXpertPart::IGetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~IGetFeatures.html)
+[ISwDMDimXpertPart::GetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~GetFeatures.html) and [ISwDMDimXpertPart::IGetFeatures](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertPart~IGetFeatures.html)
 
 ## See Also
 
 [ISwDMDimXpertSphereFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertSphereFeature_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

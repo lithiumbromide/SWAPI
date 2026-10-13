@@ -47,40 +47,28 @@ System.double IGetTemporaryAxes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TempAxesCount`: Number of temporary axes
 
-\
+  \
 
 ## VBA Syntax
 
-See
-
-[View::IGetTemporaryAxes](ms-its:sldworksapivb6.chm::/sldworks~View~IGetTemporaryAxes.html)
-
-.
+See [View::IGetTemporaryAxes](ms-its:sldworksapivb6.chm::/sldworks~View~IGetTemporaryAxes.html).
 
 ## Remarks
 
-Call[IView::GetTemporaryAxesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetTemporaryAxesCount.html)before calling this method to get the value for TempAxesCount.
+Call [IView::GetTemporaryAxesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetTemporaryAxesCount.html) before calling this method to get the value for TempAxesCount.
 
 This array contains the start and end points, in that order, of temporary axes.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetTemporaryAxes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetTemporaryAxes.html)
 
 ## Availability

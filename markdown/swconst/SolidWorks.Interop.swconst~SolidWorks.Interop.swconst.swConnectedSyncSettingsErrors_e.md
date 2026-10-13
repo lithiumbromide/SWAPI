@@ -9,15 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swConnect
 
 # swConnectedSyncSettingsErrors_e Enumeration
 
-Return codes for
-
-[ISldWorks::UploadToMySolidWorksSettings](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UploadToMySolidWorksSettings.html)
-
-and
-
-[ISldWorks::DownloadFromMySolidWorksSettings](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DownloadFromMySolidWorksSettings.html)
-
-.
+Return codes for [ISldWorks::UploadToMySolidWorksSettings](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UploadToMySolidWorksSettings.html) and [ISldWorks::DownloadFromMySolidWorksSettings](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DownloadFromMySolidWorksSettings.html).
 
 ## Syntax
 

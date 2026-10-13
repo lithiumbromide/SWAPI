@@ -45,13 +45,7 @@ property System.bool IncludeDoNotShowAgain {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True (default) to display the check box, false to not.
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::IncludeDoNotShowAgain](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~IncludeDoNotShowAgain.html)
-
-.
+See [MessageBarDefinition::IncludeDoNotShowAgain](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~IncludeDoNotShowAgain.html).
 
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

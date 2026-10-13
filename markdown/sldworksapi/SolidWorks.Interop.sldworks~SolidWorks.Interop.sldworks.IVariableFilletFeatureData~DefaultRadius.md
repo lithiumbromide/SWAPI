@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # DefaultRadius Property (IVariableFilletFeatureData)
 
-Obsolete. Superseded by
-
-[IVariableFilletFeatureData2::DefaultRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~DefaultRadius.html)
-
-.
+Obsolete. Superseded by [IVariableFilletFeatureData2::DefaultRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~DefaultRadius.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double DefaultRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData::DefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~DefaultRadius.html)
-
-.
+See [VariableFilletFeatureData::DefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~DefaultRadius.html).
 
 ## See Also
 
 [IVariableFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html)
-
 [IVariableFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData_members.html)

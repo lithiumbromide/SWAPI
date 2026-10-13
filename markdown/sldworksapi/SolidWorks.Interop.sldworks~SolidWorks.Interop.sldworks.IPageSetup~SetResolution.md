@@ -51,13 +51,7 @@ System.bool SetResolution(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,26 +60,20 @@ See
 
 ### Return Value
 
-True if printer resolution is set, false if notParamDesc
+True if printer resolution is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PageSetup::SetResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~SetResolution.html)
-
-.
+See [PageSetup::SetResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~SetResolution.html).
 
 ## Remarks
 
-Specifying IPageSetup::SetResolution (false, 0) turns on the default resolution, which results in[IPageSetup::GetUseDefaultResolution](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~GetUseDefaultResolution.html)returning True.
+Specifying IPageSetup::SetResolution (false, 0) turns on the default resolution, which results in [IPageSetup::GetUseDefaultResolution](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~GetUseDefaultResolution.html) returning True.
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::GetResolution Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~GetResolution.html)
 
 ## Availability

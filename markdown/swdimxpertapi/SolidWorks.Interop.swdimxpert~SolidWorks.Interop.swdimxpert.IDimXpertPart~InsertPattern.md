@@ -60,14 +60,10 @@ System.bool InsertPattern(
 - `Option`: [IDimXpertDimensionOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDimensionOption.html)
 - `PatternType`: 0 = linked
 
-1 = manual
+  1 = manual
 
-2 = collection
-- `FindAll`: True to select similar faces for PatternTypes 1 and 2, false to not. (see
-
-Remarks
-
-)
+  2 = collection
+- `FindAll`: True to select similar faces for PatternTypes 1 and 2, false to not. (see **Remarks**)
 
 ### Return Value
 
@@ -75,34 +71,20 @@ False
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::InsertPattern](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~InsertPattern.html)
-
-.
+See [DimXpertPart::InsertPattern](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~InsertPattern.html).
 
 ## Examples
 
 [Get and Set Pattern (C#)](Get_and_Set_Pattern_Example_CSharp.htm)
-
 [Get and Set Pattern (VB.NET)](Get_and_Set_Pattern_Example_VBNET.htm)
-
 [Get and Set Pattern (VBA)](Get_and_Set_Pattern_Example_VB.htm)
 
 ## Remarks
 
 Before calling this method:
 
-1. Call
-
-  [IDimXpertPart::GetDimOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPart~GetDimOption.html)
-
-  to get an instance of IDimXpertDimensionOption.
-2. Set
-
-  [IDimXpertDimensionOption::FeatureSelectorOptions](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDimensionOption~FeatureSelectorOptions.html)
-
-  to swDimXpertFeatureSelectorOption_Default to enable the FindAll property. If IDimXpertDimensionOption::FeatureSelectorOptions is set to anything other than the default, the FindAll setting is not in force.)
+1. Call [IDimXpertPart::GetDimOption](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPart~GetDimOption.html) to get an instance of IDimXpertDimensionOption.
+2. Set [IDimXpertDimensionOption::FeatureSelectorOptions](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertDimensionOption~FeatureSelectorOptions.html) to swDimXpertFeatureSelectorOption_Default to enable the FindAll property. If IDimXpertDimensionOption::FeatureSelectorOptions is set to anything other than the default, the FindAll setting is not in force.)
 3. Populate Option with the instance of IDimXpertDimensionOption.
 4. Select the features according to PatternType:
 
@@ -113,17 +95,11 @@ Before calling this method:
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
-
 [IDimXpertPart::AutoDimensionScheme Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~AutoDimensionScheme.html)
-
 [IDimXpertPart::InsertBasicDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
-
 [IDimXpertPart::InsertDatum Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertDatum.html)
-
 [IDimXpertPart::InsertLocationDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.html)
-
 [IDimXpertPart::InsertSizeDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertSizeDimension.html)
 
 ## Availability

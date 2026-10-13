@@ -55,19 +55,11 @@ System.bool GetButtonPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PointAt`: Command ID for SOLIDWORKS toolbar button as defined in
-
-[swCommands_e](ms-its:swcommands.chm::/SOLIDWORKS.Interop.swcommands~SOLIDWORKS.Interop.swcommands.swCommands_e.html)
+- `PointAt`: Command ID for SOLIDWORKS toolbar button as defined in [swCommands_e](ms-its:swcommands.chm::/SOLIDWORKS.Interop.swcommands~SOLIDWORKS.Interop.swcommands.swCommands_e.html)
 - `LocX`: x coordinate of the center of the specified SOLIDWORKS toolbar button
 - `LocY`: y coordinate of the center of the specified SOLIDWORKS toolbar button
 
@@ -77,18 +69,12 @@ True if method call is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetButtonPosition](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetButtonPosition.html)
-
-.
+See [SldWorks::GetButtonPosition](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetButtonPosition.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddToolbar5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddToolbar5.html)
 
 ## Availability

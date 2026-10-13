@@ -42,26 +42,17 @@ System.int DeleteAllDefaultFatigueStudyPlots();
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
+Error code as defined in [swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DeleteAllDefaultFatigueStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultFatigueStudyPlots.html)
-
-.
+See [CWModelDoc::DeleteAllDefaultFatigueStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultFatigueStudyPlots.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::AddDefaultFatigueStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~AddDefaultFatigueStudyPlot.html)
-
 [ICWModelDoc::DeleteDefaultFatigueStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultFatigueStudyPlot.html)
 
 ## Availability

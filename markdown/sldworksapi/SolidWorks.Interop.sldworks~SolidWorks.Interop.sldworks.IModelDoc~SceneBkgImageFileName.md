@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SceneBkgImageFileName Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SceneBkgImageFileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SceneBkgImageFileName.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SceneBkgImageFileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SceneBkgImageFileName.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.String^ SceneBkgImageFileName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SceneBkgImageFileName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SceneBkgImageFileName.html)
-
-.
+See [ModelDoc::SceneBkgImageFileName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SceneBkgImageFileName.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

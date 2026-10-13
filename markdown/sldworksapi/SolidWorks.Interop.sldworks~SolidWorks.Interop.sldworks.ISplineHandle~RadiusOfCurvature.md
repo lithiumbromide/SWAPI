@@ -45,13 +45,7 @@ property System.double RadiusOfCurvature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,20 @@ Radius of curvature
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::RadiusOfCurvature](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~RadiusOfCurvature.html)
-
-.
+See [SplineHandle::RadiusOfCurvature](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~RadiusOfCurvature.html).
 
 ## Examples
 
-See the
-
-[ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
-examples.
+See the [ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html) examples.
 
 ## Remarks
 
-Curvature control must be enabled for this property to have an effect. Use[ISplineHandle::CurvatureControlled](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle~CurvatureControlled.html)to see if curvature control is enabled or to set curvature control for this spline handle.
+Curvature control must be enabled for this property to have an effect. Use [ISplineHandle::CurvatureControlled](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplineHandle~CurvatureControlled.html) to see if curvature control is enabled or to set curvature control for this spline handle.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
-
 [ISplineHandle::Curvature Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~Curvature.html)
 
 ## Availability

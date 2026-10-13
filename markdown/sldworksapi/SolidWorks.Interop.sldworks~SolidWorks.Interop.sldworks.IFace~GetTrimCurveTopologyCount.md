@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTrimCurveTopologyCount Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetTrimCurveTopologyCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurveTopologyCount.html)
-
-.
+Obsolete. Superseded by [IFace2::GetTrimCurveTopologyCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurveTopologyCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetTrimCurveTopologyCount()
 System.int GetTrimCurveTopologyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetTrimCurveTopologyCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTrimCurveTopologyCount.html)
-
-.
+See [Face::GetTrimCurveTopologyCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTrimCurveTopologyCount.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

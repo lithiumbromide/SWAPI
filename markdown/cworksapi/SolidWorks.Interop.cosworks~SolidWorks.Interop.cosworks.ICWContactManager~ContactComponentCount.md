@@ -48,18 +48,12 @@ Number of component contacts
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::ContactComponentCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~ContactComponentCount.html)
-
-.
+See [CWContactManager::ContactComponentCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~ContactComponentCount.html).
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::GetContactComponentAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~GetContactComponentAt.html)
 
 ## Availability

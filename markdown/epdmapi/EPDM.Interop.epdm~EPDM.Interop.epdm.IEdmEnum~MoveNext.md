@@ -39,7 +39,7 @@ True if the cursor moved to the next element successfully, false if not
 
 This method is used implicitly in the For Each command loops of .NET programs.
 
-After calling this method, call[IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html)to access the element currently pointed to by the enumerator's cursor.
+After calling this method, call [IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html) to access the element currently pointed to by the enumerator's cursor.
 
 [Return codes](ReturnCodes.htm):
 
@@ -49,7 +49,6 @@ After calling this method, call[IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Intero
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

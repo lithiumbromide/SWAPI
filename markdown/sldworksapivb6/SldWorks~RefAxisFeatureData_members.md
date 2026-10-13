@@ -1,6 +1,5 @@
 ---
-title: "RefAxisFeatureData Object
-Members"
+title: "RefAxisFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RefAxisFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RefAxisFeatureData_members.html"
 ---
 
-# RefAxisFeatureData Object
-Members
+# RefAxisFeatureData Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetConfigurationNames Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConfigurationNames.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetConfigurationNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConfigurationNames.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetConfigurationNames()
 System.Object^ GetConfigurationNames();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConfigurationNames.html)
-
-.
+See [ModelDoc::GetConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConfigurationNames.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

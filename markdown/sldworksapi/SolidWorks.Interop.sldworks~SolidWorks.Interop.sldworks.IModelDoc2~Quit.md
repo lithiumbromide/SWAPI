@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Quit Method (IModelDoc2)
 
-Closes the active document without saving changes (see
-
-Remarks
-
-).
+Closes the active document without saving changes (see **Remarks**).
 
 ## Syntax
 
@@ -43,30 +39,19 @@ void Quit()
 void Quit();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Quit](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Quit.html)
-
-.
+See [ModelDoc2::Quit](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Quit.html).
 
 ## Remarks
 
-This method is not available. Use[ISldWorks::QuitDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~QuitDoc.html)instead.
+This method is not available. Use [ISldWorks::QuitDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~QuitDoc.html) instead.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

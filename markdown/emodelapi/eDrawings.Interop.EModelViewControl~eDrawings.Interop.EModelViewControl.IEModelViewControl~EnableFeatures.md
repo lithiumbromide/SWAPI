@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # EnableFeatures Property (IEModelViewControl)
 
-Gets or sets properties of the
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-.
+Gets or sets properties of the [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html).
 
 ## Syntax
 
@@ -51,26 +47,19 @@ property System.int EnableFeatures {
 
 ### Property Value
 
-Value of the bitmask as defined in
-
-[EMVEnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVEnableFeatures.html)
+Value of the bitmask as defined in [EMVEnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVEnableFeatures.html)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::EnableFeatures](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~EnableFeatures.html)
-
-.
+See [EModelViewControl::EnableFeatures](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~EnableFeatures.html).
 
 ## Remarks
 
-You can only set this property at design time; you cannot set it at runtime. To set an individual property only, use[IEModelViewControl::EnableFeature](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeature.html).
+You can only set this property at design time; you cannot set it at runtime. To set an individual property only, use [IEModelViewControl::EnableFeature](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeature.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # IncludeShellEdgeSolidOrShellFace Property (ICWContactComponent)
 
-Obsolete. Superseded by
-
-[ICWContactComponent::IncludeShellEdgeSolidOrShellFace2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeShellEdgeSolidOrShellFace2.html)
-
-.
+Obsolete. Superseded by [ICWContactComponent::IncludeShellEdgeSolidOrShellFace2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeShellEdgeSolidOrShellFace2.html).
 
 ## Syntax
 
@@ -55,19 +51,11 @@ property System.int IncludeShellEdgeSolidOrShellFace {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::IncludeShellEdgeSolidOrShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeShellEdgeSolidOrShellFace.html)
-
-.
+See [CWContactComponent::IncludeShellEdgeSolidOrShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeShellEdgeSolidOrShellFace.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## Remarks
 
@@ -81,11 +69,8 @@ This property sets whether to create bonded contact sets for shell edge pairs, s
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::ClearanceValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceValue.html)
-
 [ICWContactComponent::ClearanceUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceUnit.html)
 
 ## Availability

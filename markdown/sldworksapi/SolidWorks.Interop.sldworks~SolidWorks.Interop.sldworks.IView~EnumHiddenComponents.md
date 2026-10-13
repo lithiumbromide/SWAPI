@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # EnumHiddenComponents Method (IView)
 
-Obsolete. Superseded by
-
-[IView::EnumHiddenComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~EnumHiddenComponents2.html)
-
-.
+Obsolete. Superseded by [IView::EnumHiddenComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~EnumHiddenComponents2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumComponents EnumHiddenComponents()
 EnumComponents^ EnumHiddenComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::EnumHiddenComponents](ms-its:sldworksapivb6.chm::/sldworks~View~EnumHiddenComponents.html)
-
-.
+See [View::EnumHiddenComponents](ms-its:sldworksapivb6.chm::/sldworks~View~EnumHiddenComponents.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

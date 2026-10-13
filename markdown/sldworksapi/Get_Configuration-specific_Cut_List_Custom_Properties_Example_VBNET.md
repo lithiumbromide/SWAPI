@@ -9,107 +9,97 @@ source: "sldworksapi/Get_Configuration-specific_Cut_List_Custom_Properties_Examp
 
 # Get Configuration-specific Cut List Custom Properties Example (VB.NET)
 
-This example shows how to get configuration-specific cut list custom
-properties.
+This example shows how to get configuration-specific cut list custom properties.
 
 '================================================================
 
 'Preconditions:
 
-' 1. Open a part that
-has one or more configuration-specific cut lists with custom properties.
+' 1. Open a part that has one or more configuration-specific cut lists with custom properties.
 
-' (Or ask SOLIDWORKS API Support to send you the models that work
-with this ICutListItem sample code.)
+' (Or ask SOLIDWORKS API Support to send you the models that work with this ICutListItem sample code.)
 
-' 2. Open an
-Immediate/Output window.
+' 2. Open an Immediate/Output window.
 
-'Postconditions: Inspect
-all the configurations' cut lists' custom properties in the
-Immediate/Output window.
+'Postconditions: Inspect all the configurations' cut lists' custom properties in the Immediate/Output window.
 
 '=============================================================
 
-ImportsSolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.sldworks
 
-ImportsSolidWorks.Interop.swconst
+Imports SolidWorks.Interop.swconst
 
-ImportsSystem.Runtime.InteropServices
+Imports System.Runtime.InteropServices
 
-ImportsSystem
+Imports System
 
-PartialClassSolidWorksMacro
+Partial Class SolidWorksMacro
 
-DimswModelAsModelDoc2
+Dim swModel As ModelDoc2
 
-DimvConfigNameArr()AsObject
+Dim vConfigNameArr() As Object
 
-DimvConfigNameAsString
+Dim vConfigName As String
 
-DimvcutlistItems()AsObject
+Dim vcutlistItems() As Object
 
-DimvcutlistItemAsCutListItem
+Dim vcutlistItem As CutListItem
 
-DimcutlistItemAsCutListItem
+Dim cutlistItem As CutListItem
 
-DimcusPropMgrAsCustomPropertyManager
+Dim cusPropMgr As CustomPropertyManager
 
-DimconfigAsConfiguration
+Dim config As Configuration
 
-DimlRetValAsInteger
+Dim lRetVal As Integer
 
-DimvPropNames()AsString
+Dim vPropNames() As String
 
-DimvPropTypes()AsInteger
+Dim vPropTypes() As Integer
 
-DimvPropValues()AsString
+Dim vPropValues() As String
 
-Dimresolved()AsInteger
+Dim resolved() As Integer
 
-DimlinkProp()AsInteger
+Dim linkProp() As Integer
 
-DimiAsInteger
+Dim i As Integer
 
-DimjAsInteger
+Dim j As Integer
 
-DimpropNameAsString
+Dim propName As String
 
-PublicSubmain()
+Public Sub main()
 
-swModel = swApp. ActiveDoc
+swModel = swApp.**ActiveDoc**
 
-vConfigNameArr = swModel. GetConfigurationNames ()
+vConfigNameArr = swModel.**GetConfigurationNames**()
 
-ForEachvConfigNameInvConfigNameArr
+For Each vConfigName In vConfigNameArr
 
-Debug.Print("Configuration:
-"& vConfigName)
+Debug.Print("Configuration: " & vConfigName)
 
-config = swModel. GetConfigurationByName (vConfigName)
+config = swModel.**GetConfigurationByName**(vConfigName)
 
-vcutlistItems = config. GetCutListItems ()
+vcutlistItems = config.**GetCutListItems**()
 
 i = 1
 
-ForEachvcutlistItemInvcutlistItems
+For Each vcutlistItem In vcutlistItems
 
-Debug.Print("Cut
-list item #"& i &" custom properties:")
+Debug.Print("Cut list item #" & i & " custom properties:")
 
 cutlistItem = vcutlistItem
 
-cusPropMgr = cutlistItem. CustomPropertyManager ()
+cusPropMgr = cutlistItem.**CustomPropertyManager**()
 
-lRetVal = cusPropMgr. GetAll3 (vPropNames,
-vPropTypes, vPropValues, resolved, linkProp)
+lRetVal = cusPropMgr.**GetAll3**(vPropNames, vPropTypes, vPropValues, resolved, linkProp)
 
 j = 0
 
-ForEachpropNameInvPropNames
+For Each propName In vPropNames
 
-Debug.Print("
-"& propName &" "& vPropValues(j))
+Debug.Print(" " & propName & " " & vPropValues(j))
 
 j = j + 1
 
@@ -121,15 +111,14 @@ Next
 
 Next
 
-EndSub
+End Sub
 
-'''<summary>
+''' <summary>
 
-'''The SldWorks swApp variable is
-pre-assigned for you.
+''' The SldWorks swApp variable is pre-assigned for you.
 
-'''</summary>
+''' </summary>
 
-PublicswAppAsSldWorks
+Public swApp As SldWorks
 
-EndClass
+End Class

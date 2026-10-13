@@ -62,22 +62,17 @@ True if the add-in connected successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[SwAddin::ConnectToSW](ms-its:swpublishedapivb6.chm::/swpublished~SwAddin~ConnectToSW.html)
-
-.
+See [SwAddin::ConnectToSW](ms-its:swpublishedapivb6.chm::/swpublished~SwAddin~ConnectToSW.html).
 
 ## Remarks
 
 When this method is called, add all required items for this add-in to the SOLIDWORKS user interface (for example, menus and toolbars) and set the event handler.
 
-[ISldWorks::ExitApp](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExitApp.html)does not work if called from within this method.
+[ISldWorks::ExitApp](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExitApp.html) does not work if called from within this method.
 
 ## See Also
 
 [ISwAddin Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html)
-
 [ISwAddin Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin_members.html)
 
 ## Availability

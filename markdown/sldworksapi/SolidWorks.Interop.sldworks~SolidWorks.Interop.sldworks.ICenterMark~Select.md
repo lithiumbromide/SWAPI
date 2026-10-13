@@ -51,20 +51,12 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the center mark to the selection list, false replaces the selection list with this center mark
-- `Data`: [SelectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [SelectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -72,16 +64,11 @@ True if the center mark is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[CenterMark::Select](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~Select.html)
-
-.
+See [CenterMark::Select](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~Select.html).
 
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

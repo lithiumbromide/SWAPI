@@ -42,13 +42,7 @@ property System.double ICylinderParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Array of doubles describing the parameters of a cylindrical surface
 
 ## VBA Syntax
 
-See
-
-[Surface::ICylinderParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ICylinderParams.html)
-
-.
+See [Surface::ICylinderParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ICylinderParams.html).
 
 ## Remarks
 
@@ -74,14 +64,11 @@ Returns an array of 7 doubles:
 - axis.z
 - radius
 
-Theoriginandradiusparameters are in meters.
+The origin and radius parameters are in meters.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::CylinderParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~CylinderParams.html)
-
 [ISurface::IsCylinder Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsCylinder.html)

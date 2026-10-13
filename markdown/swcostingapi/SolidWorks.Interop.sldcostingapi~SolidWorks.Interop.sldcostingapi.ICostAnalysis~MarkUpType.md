@@ -47,24 +47,16 @@ property System.int MarkUpType {
 
 ### Property Value
 
-Method of markup as defined in
-
-[swcMarkUpType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcMarkUpType_e.html)
+Method of markup as defined in [swcMarkUpType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcMarkUpType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::MarkUpType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MarkUpType.html)
-
-.
+See [CostAnalysis::MarkUpType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MarkUpType.html).
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
-
 [ICostAnalysis::MarkUpPercent Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~MarkUpPercent.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Calculate_Transformations_in_Part_Example_CSharp.htm"
 
 # Calculate Transformations in Part Example (C#)
 
-This example shows how to calculate transformations between solid
-bodies in a part, which would make one solid body coincide with another solid body if
-the transformation matrix is applied.
+This example shows how to calculate transformations between solid bodies in a part, which would make one solid body coincide with another solid body if the transformation matrix is applied.
 
 ```
 //--------------------------------------------------------------

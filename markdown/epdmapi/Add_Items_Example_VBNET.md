@@ -9,12 +9,9 @@ source: "epdmapi/Add_Items_Example_VBNET.htm"
 
 # Add Items Example (VB.NET)
 
-This example shows how to add items to a vault. The data
-for the items is imported from an XML file, which is read by the .NET XmlReader.
+This example shows how to add items to a vault. The data for the items is imported from an XML file, which is read by the .NET XmlReader.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------
@@ -33,40 +30,29 @@ Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 '        1. Click AddItems in Item Serial Number.
 '        2. Click OK.
 '  4. Start Microsoft Visual Studio.
-'     a. Click File > New > Project > Visual Basic > Windows Forms Application.
-'     b. Type AddItems in Name.
-'     c. Click the Browse button and browse to the folder where to create the project.
-'     d. Click OK.
-'     e. Click Show All Files in the Solution Explorer toolbar.
-'     f. Create a form similar to the form shown above and change:
-'        1. Top label to VaultsLabel.
-'        2. Combo box to VaultsComboBox.
-'        3. Second label to XmlLabel.
-'        4. Text box to XmlTextBox.
-'        5. Browse button to BrowseButton.
-'        6. Add items button to AddItemsButton.
-'        7. List box to ItemsListBox.
-'     g. Replace the code in Form1.vb with this code.
-'     h. Replace the code in Form1.Designer.vb with this code.
-'     i. Right-click the AddItems project name in the Solution Explorer.
+'     a. Click File > New > Project > Visual Basic, Windows, Desktop > Windows Forms Application.
+'     b. Type AddItems in Project name.
+'     c. For Location, click ... and navigate to the folder where to
+create the project.
+'       d. Click Next.
+'     e. Select Framework.
+'     f. Click Create.
+'     g. Click Show All Files in the Solution Explorer toolbar and expand
+'       Form1.vb in the Solution Explorer.
+'     h. Replace the code in Form1.vb with this code.
+'     i. Replace the code in Form1.Designer.vb with this code.
+'     j. Right-click the AddItems project name in the Solution Explorer.
 '        1. Click Add > Class > Class.
 '        2. Type EdmVaultSingleton.vb in Name.
 '        3. Click Add.
 '        4. Replace the code in EdmVaultSingleton.vb with this code.
-'     j. Right-click the AddItems project name in the Solution Explorer.
+'     k. Right-click the AddItems project name in the Solution Explorer.
 '        1. Click Add > Class > Class.
 '        2. Type NewItem.vb in Name.
 '        3. Click Add.
 '        4. Replace the code in NewItem.vb with this code.
-'  5. Add EPDM.Interop.epdm.dll as a reference (right-click the project
-'     name in the Solution Explorer, click Add Reference, click
-'     Assemblies > Framework in the left-side panel, browse to the top folder of your
-'     SOLIDWORKS PDM Professional installation, locate and click
-'     EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
-'  6. Right-click EPDM.Interop.epdm in References, click Properties, and set
-'     Embed Interop Types to False to handle methods that pass arrays of
-'     structures.
-'  7. Click Debug > Start Debugging or press F5.
+'  5. Add dependencies and safely pass arrays of structures.
+'  6. Click Debug > Start Debugging or press F5.
 '
 ' Postconditions:
 '  1. Displays a dialog.

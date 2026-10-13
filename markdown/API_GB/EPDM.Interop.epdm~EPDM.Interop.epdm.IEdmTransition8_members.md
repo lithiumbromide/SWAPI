@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8_members.html
 
 # IEdmTransition8 Interface Members
 
-The following tables list the members exposed by[IEdmTransition8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8.html).
+The following tables list the members exposed by [IEdmTransition8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmTransition8](EPDM.Interop.e
 ## See Also
 
 [IEdmTransition8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

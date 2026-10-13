@@ -9,22 +9,15 @@ source: "obsoleteapi/FeatureManager/FeatureManager__HoleWizard.htm"
 
 # FeatureManager::HoleWizard
 
-This method is obsolete and has been superseded
-by[FeatureManager::HoleWizard2](sldworksAPI.chm::/FeatureManager/FeatureManager__HoleWizard2.htm).
+This method is obsolete and has been superseded by [FeatureManager::HoleWizard2](sldworksAPI.chm::/FeatureManager/FeatureManager__HoleWizard2.htm).
 
 Description
 
-This method creates a hole
-using the hole wizard.
+This method creates a hole using the hole wizard.
 
 Syntax (OLE Automation)
 
-retval = FeatureManager.HoleWizard ( genericHoleType,
-standardIndex, fastenerTypeIndex, sSize, endType, diameter, depth, value1,
-value2, value3, value4, value5, value6, value7, value8, value9, value10,
-value11, value12 )
-
-(Table)=========================================================
+retval = FeatureManager.HoleWizard ( genericHoleType, standardIndex, fastenerTypeIndex, sSize, endType, diameter, depth, value1, value2, value3, value4, value5, value6, value7, value8, value9, value10, value11, value12 )
 
 | Input: | (long) genericHoleType | Hole type as defined in swWzdGeneralHoleTypes_e |
 | --- | --- | --- |
@@ -50,12 +43,7 @@ value11, value12 )
 
 Syntax (COM)
 
-status = FeatureManager->HoleWizard ( genericHoleType,
-standardIndex, fastenerTypeIndex, sSize, endType, diameter, depth, value1,
-value2, value3, value4, value5, value6, value7, value8, value9, value10,
-value11, value12, retval )
-
-(Table)=========================================================
+status = FeatureManager->HoleWizard ( genericHoleType, standardIndex, fastenerTypeIndex, sSize, endType, diameter, depth, value1, value2, value3, value4, value5, value6, value7, value8, value9, value10, value11, value12, retval )
 
 | Input: | (long) genericHoleType | Hole type as defined in swWzdGeneralHoleTypes_e |
 | --- | --- | --- |
@@ -80,38 +68,27 @@ value11, value12, retval )
 | Output: | (LPFEATURE) retVal | Pointer to the Feature object |
 | Output: | (HRESULT) status | S_OK if successful |
 
-Parameters Table Start
-
 Remarks
 
-Screw Fit- As defined in swWzdHoleScrewClearanceTypes_e and only used if user does
-not specify a hole diameter; default value is NORMAL_FIT
+Screw Fit - As defined in swWzdHoleScrewClearanceTypes_e and only used if user does not specify a hole diameter; default value is NORMAL_FIT
 
-Drill Angle- defaults to 118° if not specified
+Drill Angle - defaults to 118° if not specified
 
-Input Metrics- Input angles in radians; input values in meters
+Input Metrics - Input angles in radians; input values in meters
 
 Parameters for this method:
 
-- The fastenerTypeIndex
-  parameter has to match the standard and be valid for that hole type or
-  an error occurs.
-- The sSize
-  parameter must be a valid size for fastener type or an error occurs.
-- The value1
-  through value12 parameters are different for each type of hole. The possible
-  values are as follows, organized by hole type. SolidWorks ignores parameters
-  set to -1.
+- The fastenerTypeIndex parameter has to match the standard and be valid for that hole type or an error occurs.
+- The sSize parameter must be a valid size for fastener type or an error occurs.
+- The value1 through value12 parameters are different for each type of hole. The possible values are as follows, organized by hole type. SolidWorks ignores parameters set to -1.
 
-value1 through value12 for different types
-of holes:
+value1 through value12 for different types of holes:
 
 #### Counterbore Holes
 
-Head clearance– Added to either
-the input counterbore depth or the counterbore depth in the standard.
+Head clearance – Added to either the input counterbore depth or the counterbore depth in the standard.
 
-Parameters for all counterbore holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Parameters for all counterbore holes:
 
 1. Hole Diameter
 2. Hole Depth
@@ -130,11 +107,9 @@ Parameters for all counterbore holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 #### Countersink Holes
 
-Head clearance type- Value
-from swWzdHoleCounterSinkHeadClearanceTypes_e, which represents how to
-add the head clearance values to the hole.
+Head clearance type - Value from swWzdHoleCounterSinkHeadClearanceTypes_e, which represents how to add the head clearance values to the hole.
 
-Parameters for all countersink holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Parameters for all countersink holes:
 
 1. Hole Diameter
 2. Hole Depth
@@ -150,7 +125,7 @@ Parameters for all countersink holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 #### Regular Holes
 
-Parameters for all holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Parameters for all holes:
 
 1. Hole Diameter
 2. Hole Depth
@@ -164,18 +139,13 @@ Parameters for all holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 #### Pipe Tapped Holes
 
-Tap Drill Depth– Depth can
-be setup as a ratio from the standard thread depth or the input thread
-depth. If the user does specify a tap drill depth, the calculation from
-the thread depth is replaced with the specified depth.
+Tap Drill Depth – Depth can be setup as a ratio from the standard thread depth or the input thread depth. If the user does specify a tap drill depth, the calculation from the thread depth is replaced with the specified depth.
 
-Cosmetic Thread Type- Defaults
-to swCosmeticThreadTypeNone from swWzdHoleCosmeticThreadTypes_e.
+Cosmetic Thread Type - Defaults to swCosmeticThreadTypeNone from swWzdHoleCosmeticThreadTypes_e.
 
-Near countersink angle- Can
-be calculated from standard data as a default.
+Near countersink angle - Can be calculated from standard data as a default.
 
-Parameters for all ptap holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Parameters for all ptap holes:
 
 1. Tap drill diameter
 2. Tap drill depth
@@ -190,37 +160,23 @@ Parameters for all ptap holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 #### Tap Holes
 
-Tap Drill Depth- If the user
-specifies a tap drill depth, SolidWorks always uses this depth. Tap drill
-depths can be calculated:
+Tap Drill Depth - If the user specifies a tap drill depth, SolidWorks always uses this depth. Tap drill depths can be calculated:
 
-1. For helicoil holes: Tap drill depth is calculated
-  based on a constant * tap drill diameter + allowance for tap type (bottoming
-  or plug).
-2. For tapped holes: Tap drill depth is calculated
-  from the thread length + advance + allowance for tap type (bottoming or
-  plug).
+1. For helicoil holes: Tap drill depth is calculated based on a constant * tap drill diameter + allowance for tap type (bottoming or plug).
+2. For tapped holes: Tap drill depth is calculated from the thread length + advance + allowance for tap type (bottoming or plug).
 
-Thread Depth– If the user specifies
-thread depth, SolidWorks always uses this depth. Tap drill depths can
-be calculated:
+Thread Depth – If the user specifies thread depth, SolidWorks always uses this depth. Tap drill depths can be calculated:
 
-1. For helicoil holes: Thread depth is calculated
-  based on a constant (determined by hole type i.e. Insert = 1.0 * Dia)
-  + thread depth from the standard * thread major diameter.
+1. For helicoil holes: Thread depth is calculated based on a constant (determined by hole type i.e. Insert = 1.0 * Dia) + thread depth from the standard * thread major diameter.
 2. For tapped holes: based on 2 * thread diameter
 
-Cosmetic Thread Type- Specified
-as defined in swWzdHoleCosmeticThreadTypes_e
+Cosmetic Thread Type - Specified as defined in swWzdHoleCosmeticThreadTypes_e
 
-Hcoil Tap Type- Defaults to
-swTapTypePlug as defined in swWzdHoleHcoilTapTypes_e. Used only for the
-helicoil standard holes.
+Hcoil Tap Type - Defaults to swTapTypePlug as defined in swWzdHoleHcoilTapTypes_e. Used only for the helicoil standard holes.
 
-Thread end condition- Defaults
-to swThreadEndConditionBLIND as defined in swWzdHoleThreadEndCondition_e.
+Thread end condition - Defaults to swThreadEndConditionBLIND as defined in swWzdHoleThreadEndCondition_e.
 
-Parameters for all ptap holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Parameters for all ptap holes:
 
 1. Tap drill diameter
 2. Tap drill depth
@@ -237,11 +193,9 @@ Parameters for all ptap holes:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 #### Legacy Holes
 
-For legacy types of holes standardIndex, fastenerTypeIndex, sSize are
-not relevant and SolidWorks ignores them.
+For legacy types of holes standardIndex, fastenerTypeIndex, sSize are not relevant and SolidWorks ignores them.
 
-The sequence of parameters 6 to 19 for different types of legacy holes
-is as follows:
+The sequence of parameters 6 to 19 for different types of legacy holes is as follows:
 
 Simple
 
@@ -323,83 +277,3 @@ C-Drilled Drilled
 5. C-Drill Depth
 6. Drill Angle
 7. C-Drill Angle
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2003$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\FeatureManager\FeatureManager__HoleWizard.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="FeatureManager_Object$$**$$Feature_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\FeatureManager\FeatureManager__HoleWizard.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic5
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="EXHoleWizardSketchPoints$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\FeatureManager\FeatureManager__HoleWizard.htm" >
-<param name="_ID" value="RelatedTopic5" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

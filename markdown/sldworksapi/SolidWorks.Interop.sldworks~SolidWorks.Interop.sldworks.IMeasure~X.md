@@ -42,13 +42,7 @@ property System.double X {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,28 +50,19 @@ x coordinate of the selected point in model space or -1 if this property is inva
 
 ## VBA Syntax
 
-See
-
-[Measure::X](ms-its:sldworksapivb6.chm::/Sldworks~Measure~X.html)
-
-.
+See [Measure::X](ms-its:sldworksapivb6.chm::/Sldworks~Measure~X.html).
 
 ## Examples
 
 [Measure Selected Entities (C#)](Measure_Selected_Entities_Example_CSharp.htm)
-
 [Measure Selected Entities (VB.NET)](Measure_Selected_Entities_Example_VBNET.htm)
-
 [Measure Selected Entities (VBA)](Measure_Selected_Entities_Example_VB.htm)
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure:Y Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Y.html)
-
 [IMeasure::Z Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Z.html)
 
 ## Availability

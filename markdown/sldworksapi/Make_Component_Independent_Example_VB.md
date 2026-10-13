@@ -11,12 +11,9 @@ source: "sldworksapi/Make_Component_Independent_Example_VB.htm"
 
 This example shows how to:
 
-- make a selected component
-  independent.
-- save the selected component
-  as a new part.
-- reference the new part in
-  the assembly.
+- make a selected component independent.
+- save the selected component as a new part.
+- reference the new part in the assembly.
 
 ```
 '------------------------------------------------------------------------

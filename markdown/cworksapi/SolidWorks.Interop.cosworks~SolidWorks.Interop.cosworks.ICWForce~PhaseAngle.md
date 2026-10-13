@@ -51,28 +51,21 @@ Phase angle of the force; -1 if not set
 
 ## VBA Syntax
 
-See
-
-[CWForce::PhaseAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~PhaseAngle.html)
-
-.
+See [CWForce::PhaseAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~PhaseAngle.html).
 
 ## Examples
 
 [Apply Table-driven Load to Multiple Beams (C#)](Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm)
-
 [Apply Table-driven Load to Multiple Beams (VB.NET)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VBNET.htm)
-
 [Apply Table-driven Load to Multiple Beams (VBA)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VB.htm)
 
 ## Remarks
 
-Call[ICWForce::PhaseAngleUnit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~PhaseAngleUnit.html)to get or set the units of phase angle for this force.
+Call [ICWForce::PhaseAngleUnit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~PhaseAngleUnit.html) to get or set the units of phase angle for this force.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.Object^ GetModelPathNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,28 +69,19 @@ Array of full pathnames of the models in the specified BOM table row
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetModelPathNames](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetModelPathNames.html)
-
-.
+See [BomTableAnnotation::GetModelPathNames](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetModelPathNames.html).
 
 ## Examples
 
 [Get Model Pathnames in BOM Table (C#)](Get_Model_Path_Names_in_BOM_Table_Example_CSharp.htm)
-
 [Get Model Pathnames in BOM Table (VB.NET)](Get_Model_Path_Names_in_BOM_Table_Example_VBNET.htm)
-
 [Get Model Pathnames in BOM Table (VBA)](Get_Model_Path_Names_in_BOM_Table_Example_VB.htm)
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::IGetModelPathNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~IGetModelPathNames.html)
-
 [IBomTableAnnotation::GetModelPathNamesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetModelPathNamesCount.html)
 
 ## Availability

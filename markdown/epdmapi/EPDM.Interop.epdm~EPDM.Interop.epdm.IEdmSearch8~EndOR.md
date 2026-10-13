@@ -33,16 +33,11 @@ void EndOR();
 
 ## Remarks
 
-Use
-
-[IEdmSearch8::BeginOR](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~BeginOR.html)
-
-to begin the OR operation.
+Use [IEdmSearch8::BeginOR](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8~BeginOR.html) to begin the OR operation.
 
 ## See Also
 
 [IEdmSearch8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8.html)
-
 [IEdmSearch8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch8_members.html)
 
 ## Availability

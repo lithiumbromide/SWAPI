@@ -11,12 +11,9 @@ source: "sldworksapi/Get_Object_s_Persistent_Reference_ID_Example_CPlusPlus_COM.
 
 This example shows how to:
 
-- get the selected object's persistent reference
-  ID using IModelDocExtension::GetPersistReference3.
-- use the ISafeArrayUtility to parse the
-  Variant SafeArray returned by IModelDocExtension::GetPersistReference3.
-- get the size of the persistent
-  reference ID for the selected object.
+- get the selected object's persistent reference ID using IModelDocExtension::GetPersistReference3.
+- use the ISafeArrayUtility to parse the Variant SafeArray returned by IModelDocExtension::GetPersistReference3.
+- get the size of the persistent reference ID for the selected object.
 
 ```
 //-----------------------------------------

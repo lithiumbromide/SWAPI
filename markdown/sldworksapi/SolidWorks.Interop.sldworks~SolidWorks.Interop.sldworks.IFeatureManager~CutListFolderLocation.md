@@ -47,19 +47,11 @@ System.Object^ CutListFolderLocation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `QueryObj`: Solid Body / cut list item / body folder / sub-weldment folder
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+- `QueryObj`: Solid Body / cut list item / body folder / sub-weldment folder [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ### Return Value
 
@@ -67,19 +59,11 @@ Parent folder feature of QueryObj; null if QueryObj is not a Solid Body / cut li
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CutListFolderLocation](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CutListFolderLocation.html)
-
-.
+See [FeatureManager::CutListFolderLocation](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CutListFolderLocation.html).
 
 ## Examples
 
-See the
-
-[IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html)
-
-examples.
+See the [IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html) examples.
 
 ## Remarks
 
@@ -89,14 +73,12 @@ This method only works for:
 - Feature / body folders
 - Sub-weldment folders
 
-Use[IFeatureManager::FeatureFolderLocation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureFolderLocation.html)to locate other FeatureManager design tree objects.
+Use [IFeatureManager::FeatureFolderLocation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureFolderLocation.html) to locate other FeatureManager design tree objects.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IModelDocExtension::ReorderFeature2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Traverse_FeatureManager_Design_Tree_VB.htm"
 
 # Traverse FeatureManager Design Tree Example (VBA)
 
-This example shows how to traverse a FeatureManager design tree using
-ITreeControlItem.
+This example shows how to traverse a FeatureManager design tree using ITreeControlItem.
 
 ```
 '-------------------------------------

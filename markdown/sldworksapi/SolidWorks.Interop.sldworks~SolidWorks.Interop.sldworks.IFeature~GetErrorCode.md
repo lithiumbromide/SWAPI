@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetErrorCode Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::GetErrorCode2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetErrorCode2.html)
-
-.
+Obsolete. Superseded by [IFeature::GetErrorCode2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetErrorCode2.html).
 
 ## Syntax
 
@@ -44,27 +40,15 @@ System.int GetErrorCode()
 System.int GetErrorCode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Feature error code as defined in
-
-[swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
+Feature error code as defined in [swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetErrorCode](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetErrorCode.html)
-
-.
+See [Feature::GetErrorCode](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetErrorCode.html).
 
 ## Remarks
 
@@ -76,7 +60,6 @@ During feature creation, you can prevent the error dialog from appearing by usin
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

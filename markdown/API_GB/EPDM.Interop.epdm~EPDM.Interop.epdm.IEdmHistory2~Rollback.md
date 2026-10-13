@@ -39,21 +39,15 @@ void Rollback(
 
 ### Parameters
 
-- `historyItem`: [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
-to which to roll back
+- `historyItem`: [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html) to which to roll back
 
 ## Examples
 
-See the
-
-[IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
-examples.
+See the [IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html) examples.
 
 ## Remarks
 
-To populate historyItem, get the collection of history items by calling[IEdmHistory::GetHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~GetHistory.html).
+To populate historyItem, get the collection of history items by calling [IEdmHistory::GetHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory~GetHistory.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -63,7 +57,6 @@ To populate historyItem, get the collection of history items by calling[IEdmHist
 ## See Also
 
 [IEdmHistory2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2.html)
-
 [IEdmHistory2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory2_members.html)
 
 ## Availability

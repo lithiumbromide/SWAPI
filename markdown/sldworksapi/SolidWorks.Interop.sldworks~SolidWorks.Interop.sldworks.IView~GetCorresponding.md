@@ -47,21 +47,11 @@ System.Object^ GetCorresponding(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InputObject`: Pointer to the Dispatch object in a part or assembly (see
-
-Remarks
-
-)
+- `InputObject`: Pointer to the Dispatch object in a part or assembly (see **Remarks**)
 
 ### Return Value
 
@@ -69,34 +59,26 @@ Pointer to the corresponding object in this drawing view; null or Nothing if non
 
 ## VBA Syntax
 
-See
-
-[View::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~View~GetCorresponding.html)
-
-.
+See [View::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~View~GetCorresponding.html).
 
 ## Examples
 
 [Get Corresponding Entities Between Parts and Drawing Views (VBA)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_VB.htm)
-
 [Get Corresponding Entities Between Parts and Drawing Views (VB.NET)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_VBNET.htm)
-
 [Get Corresponding Entities Between Parts and Drawing Views (C#)](Get_Corresponding_Entities_Between_Parts_and_Views_Example_CSharp.htm)
 
 ## Remarks
 
-InputObject can be any object assigned a persistent reference or object ID; for example,[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html),[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html),[ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html),[ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html), etc.
+InputObject can be any object assigned a persistent reference or object ID; for example, [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html), [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html), [ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html), [ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html), etc.
 
 Annotation objects will be found only if they were previously imported into this drawing view.
 
-Use[IModelDocExtension::GetCorresponding2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorresponding2.html)to get the part or assembly object that corresponds to an object in a drawing view.
+Use [IModelDocExtension::GetCorresponding2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorresponding2.html) to get the part or assembly object that corresponds to an object in a drawing view.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetCorrespondingEntity Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCorrespondingEntity.html)
 
 ## Availability

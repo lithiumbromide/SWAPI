@@ -47,17 +47,11 @@ System.int GetLineCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CrossHatchOption`: Crosshatch option as defined in[swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
+- `CrossHatchOption`: Crosshatch option as defined in [swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
 
 ### Return Value
 
@@ -65,30 +59,20 @@ Number of lines
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetLineCount2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetLineCount2.html)
-
-.
+See [Sketch::GetLineCount2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetLineCount2.html).
 
 ## Examples
 
 [Get Lines in Sketch (VBA)](Get_Lines_in_Sketch_Example_VB.htm)
-
 [Get Polylines Information (VBA)](Get_Polylines_Information_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[ISketch::IGetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetLines2.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ISketch::IGetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetLines2.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

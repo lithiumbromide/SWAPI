@@ -47,19 +47,11 @@ System.int GetIntersectSurfaceCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `OtherSurface`: Other
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+- `OtherSurface`: Other [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ### Return Value
 
@@ -67,20 +59,13 @@ Number of curves
 
 ## VBA Syntax
 
-See
-
-[Surface::GetIntersectSurfaceCount](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetIntersectSurfaceCount.html)
-
-.
+See [Surface::GetIntersectSurfaceCount](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetIntersectSurfaceCount.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IntersectSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IntersectSurface.html)
-
 [ISurface::IIntersectSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IIntersectSurface.html)
 
 ## Availability

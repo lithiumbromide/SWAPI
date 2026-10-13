@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IMirrorComponents Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::MirrorComponents2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~MirrorComponents2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::MirrorComponents2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~MirrorComponents2.html).
 
 ## Syntax
 
@@ -95,63 +91,39 @@ Component2^ IMirrorComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Plane`: Plane or planar face about which to mirror the components
 - `InstanceCount`: Number of instances of the components to mirror
-- `ComponentsToInstance`: Array of instances of the
-
-[component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-to mirror
+- `ComponentsToInstance`: Array of instances of the [component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) to mirror
 - `MirrorCount`: Number of components to mirror
-- `ComponentsToMirror`: Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-to mirror
+- `ComponentsToMirror`: Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) to mirror
 - `NameCount`: Number of filenames for the newly created mirrored assemblies or parts
 - `MirroredComponentFilenames`: Array of filenames for the newly created mirrored assemblies or parts
 - `RecreateMates`: True to preserve any mates between the selected components if more than one component is to be mirrored, false to not
-- `ComponentModifier`: Prefix or suffix for the newly mirrored components if MirroredComponentFilenames is not specified, as defined by
-
-[swMirrorComponentNameModifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorComponentNameModifier_e.html)
+- `ComponentModifier`: Prefix or suffix for the newly mirrored components if MirroredComponentFilenames is not specified, as defined by [swMirrorComponentNameModifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMirrorComponentNameModifier_e.html)
 - `ComponentNameModifier`: String to add to the prefix or suffix of the name of the newly mirrored components if MirroredComponentFilenames is not specified
 - `MirroredFileLocation`: Name of the folder where to store the file of the newly created mirrored components
 - `CopyCustomProperties`: True to copy the custom properties from the selected components to the mirrored components, false to not
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of newly created
-
-  [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+- in-process, unmanaged C++: Pointer to an array of newly created [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IMirrorComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IMirrorComponents.html)
-
-.
+See [AssemblyDoc::IMirrorComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IMirrorComponents.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::MirrorComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~MirrorComponents.html)
 
 ## Availability

@@ -51,24 +51,15 @@ Start time in microseconds
 
 ## VBA Syntax
 
-See
-
-[CWDropTestResultOptions::SaveResultsStartingTime](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~SaveResultsStartingTime.html)
-
-.
+See [CWDropTestResultOptions::SaveResultsStartingTime](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~SaveResultsStartingTime.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html)
-
-.
+See the examples in [ICWDropTestResultOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestResultOptions.html).
 
 ## See Also
 
 [ICWDropTestResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions.html)
-
 [ICWDropTestResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions_members.html)
 
 ## Availability

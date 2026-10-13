@@ -45,13 +45,7 @@ property System.bool MoveSizeFeatures {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,46 +53,35 @@ True to enable Instant3D, false to not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MoveSizeFeatures](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveSizeFeatures.html)
-
-.
+See [FeatureManager::MoveSizeFeatures](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveSizeFeatures.html).
 
 ## Examples
 
+```vb
 Option Explicit
 
 Dim swApp As SldWorks.SldWorks
-
 Dim swModel As SldWorks.ModelDoc2
-
 Dim swFeatMgr As SldWorks.FeatureManager
 
 Sub main()
 
 Set swApp = Application.SldWorks
+Set swModel = swApp.ActiveDoc
+Set swFeatMgr = swModel.FeatureManager
 
-Set swModel = swApp. ActiveDoc
-
-Set swFeatMgr = swModel. FeatureManager
-
-Debug.Print "Is Instant3D enabled? " & swFeatMgr. MoveSizeFeatures
-
+Debug.Print "Is Instant3D enabled? " & swFeatMgr.MoveSizeFeatures
 swFeatMgr.MoveSizeFeatures = False
-
-Debug.Print "Is Instant3D enabled? " & swFeatMgr. MoveSizeFeatures
-
+Debug.Print "Is Instant3D enabled? " & swFeatMgr.MoveSizeFeatures
 swFeatMgr.MoveSizeFeatures = True
-
-Debug.Print "Is Instant3D enabled? " & swFeatMgr. MoveSizeFeatures
+Debug.Print "Is Instant3D enabled? " & swFeatMgr.MoveSizeFeatures
 
 End Sub
+```
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

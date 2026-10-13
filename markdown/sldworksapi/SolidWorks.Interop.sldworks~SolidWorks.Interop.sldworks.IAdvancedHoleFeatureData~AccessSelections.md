@@ -51,19 +51,11 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: [IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-for the part
+- `TopDoc`: [IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) for the part
 - `Component`: Null or Nothing
 
 ### Return Value
@@ -72,19 +64,11 @@ True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~AccessSelections.html)
-
-.
+See [AdvancedHoleFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~AccessSelections.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
-examples.
+See the [IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html) examples.
 
 ## Remarks
 
@@ -92,21 +76,12 @@ This method puts the model into a rollback state to allow access to the selectio
 
 You must use either of the following methods to restore the original state of the model:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  , if you modified the feature
-- [IAdvancedHoleFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~ReleaseSelectionAccess.html)
-
-  , if you did not modify the feature
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html), if you modified the feature
+- [IAdvancedHoleFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~ReleaseSelectionAccess.html), if you did not modify the feature
 
 ## See Also
 
 [IAdvancedHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
 [IAdvancedHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # DeleteBlends2 Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::DeleteBlends3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteBlends3.html)
-
-.
+Obsolete. Superseded by [IBody2::DeleteBlends3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteBlends3.html).
 
 ## Syntax
 
@@ -59,22 +55,12 @@ System.bool DeleteBlends2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfFaces`: Number of faces to delete
-- `FaceList`: List of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to delete
+- `FaceList`: List of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to delete
 - `DoLocalCheck`: True to perform a local check, false to not
 
 ### Return Value
@@ -83,18 +69,12 @@ True if the set of fillet faces are removed, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::DeleteBlends2](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteBlends2.html)
-
-.
+See [Body2::DeleteBlends2](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteBlends2.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IDeleteBlends2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IDeleteBlends2.html)
 
 ## Availability

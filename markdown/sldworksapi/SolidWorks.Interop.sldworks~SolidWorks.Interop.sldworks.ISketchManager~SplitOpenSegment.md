@@ -55,13 +55,7 @@ System.Object^ SplitOpenSegment(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,54 +65,32 @@ See
 
 ### Return Value
 
-Array of
-
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-of the now split formerly open sketch skegment
+Array of [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) of the now split formerly open sketch skegment
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SplitOpenSegment](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~SplitOpenSegment.html)
-
-.
+See [SketchManager::SplitOpenSegment](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~SplitOpenSegment.html).
 
 ## Examples
 
 [Split Open Sketch Segment (VBA)](Split_Open_Sketch_Segment_Example_VB.htm)
-
 [Split Open Sketch Segment (VB.NET)](Split_Open_Sketch_Segment_Example_VBNET.htm)
-
 [Split Open Sketch Segment (C#)](Split_Open_Sketch_Segment_Example_CSharp.htm)
 
 ## Remarks
 
 Before calling this method, be sure to disable snapping by either:
 
-- De-selecting
-
-  System Options > Sketch > Relations/Snaps > Enable snapping
+- De-selecting **System Options > Sketch > Relations/Snaps > Enable snapping**
 
 - or -
 
-- Calling
-
-  [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-  (
-
-  [swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)
-
-  .swSketchInference, false).
+- Calling [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)([swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swSketchInference, false).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::SplitClosedSegment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SplitClosedSegment.html)
 
 ## Availability

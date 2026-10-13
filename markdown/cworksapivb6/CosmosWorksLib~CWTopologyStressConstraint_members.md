@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyStressConstraint Object
-Members"
+title: "CWTopologyStressConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyStressConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyStressConstraint_members.html"
 ---
 
-# CWTopologyStressConstraint Object
-Members
+# CWTopologyStressConstraint Object Members
 
 ## Public Methods
 

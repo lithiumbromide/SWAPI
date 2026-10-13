@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # FileName Property (ISaveTo3DExperienceOptions)
 
-Gets or sets the specified file name when saving a document in
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Gets or sets the specified file name when saving a document in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ FileName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,15 @@ File name
 
 ## VBA Syntax
 
-See
-
-[SaveTo3DExperienceOptions::FileName](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions~FileName.html)
-
-.
+See [SaveTo3DExperienceOptions::FileName](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions~FileName.html).
 
 ## Examples
 
-See the
-
-[IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html)
-
-examples.
+See the [IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html) examples.
 
 ## See Also
 
 [ISaveTo3DExperienceOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions.html)
-
 [ISaveTo3DExperienceOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions_members.html)
 
 ## Availability

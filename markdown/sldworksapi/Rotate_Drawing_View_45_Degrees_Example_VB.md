@@ -9,7 +9,7 @@ source: "sldworksapi/Rotate_Drawing_View_45_Degrees_Example_VB.htm"
 
 # Rotate Drawing Views 45 Degrees Example (VBA)
 
-This example shows how to rotate the selected drawing view 45º.
+This example shows how to rotate the selected drawing view 45º .
 
 ```
 '--------------------------------------------------------------

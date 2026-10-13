@@ -40,13 +40,7 @@ System.bool UpdateParagraph()
 System.bool UpdateParagraph();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ True if the model is updated with the paragraph changes, false if not
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::UpdateParagraph](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~UpdateParagraph.html)
-
-.
+See [Paragraphs::UpdateParagraph](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~UpdateParagraph.html).
 
 ## Examples
 
-See the
-
-[IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
-examples.
+See the [IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ You must call this method to update the model after calling:
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
 
 ## Availability

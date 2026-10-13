@@ -58,28 +58,18 @@ System.int RenameStudyFromID(
 
 ### Return Value
 
-Error as defined by
-
-[swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
+Error as defined by [swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::RenameStudyFromID](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RenameStudyFromID.html)
-
-.
+See [CWStudyManager::RenameStudyFromID](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~RenameStudyFromID.html).
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::RenameStudyFromName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RenameStudyFromName.html)
-
 [ICWStudyManager::DuplicateStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy.html)
-
 [ICWStudyManager::ConvertStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy.html)
 
 ## Availability

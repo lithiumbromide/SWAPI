@@ -56,37 +56,18 @@ void SetVar(
 ## Examples
 
 [Change Card Variables Add-in (C#)](Change_Card_Variables_Addin_Example_CSharp.htm)
-
 [Change Card Variables Add-in (VB.NET)](Change_Card_Variables_Addin_Example_VBNET.htm)
-
 [Set Part Number Using Default Serial Numbers (C#)](Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm)
-
 [Set Part Number Using Default Serial Numbers (VB.NET)](Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm)
 
 ## Remarks
 
 To specify bsCfgName:
 
-- Call
+- Call [IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html) to get the available configuration names for this file.
+- If this method is used in your add-in's implementation of [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html), then a list of configuration names for the data card is returned in ppoData that can be cast to [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html). EdmCmdData.mpoExtra contains an [IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html) of configuration names.
 
-  [IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html)
-
-  to get the available configuration names for this file.
-- If this method is used in your add-in's implementation of
-
-  [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-  , then a list of configuration names for the data card is returned in ppoData that can be cast to
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  . EdmCmdData.mpoExtra contains an
-
-  [IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html)
-
-  of configuration names.
-
-After calling this method to update the variables that can be updated, you must call[IEdmEnumeratorVariable5::Flush](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~Flush.html)or[IEdmEnumeratorVariable8::CloseFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8~CloseFile.html)with the bFlush argument set to true in order to ensure that the changes are saved properly to the file or folder.
+After calling this method to update the variables that can be updated, you must call [IEdmEnumeratorVariable5::Flush](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~Flush.html) or [IEdmEnumeratorVariable8::CloseFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8~CloseFile.html) with the bFlush argument set to true in order to ensure that the changes are saved properly to the file or folder.
 
 [Return codes](ReturnCodes.htm):
 
@@ -97,11 +78,8 @@ After calling this method to update the variables that can be updated, you must 
 ## See Also
 
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmEnumeratorVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5_members.html)
-
 [IEdmEnumeratorVariable10::GetVar2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVar2.html)
-
 [IEdmEnumeratorVariable10::GetVarAsText Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVarAsText.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetTessNorms Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetTessNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetTessNorms.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetTessNorms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetTessNorms.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetTessNorms()
 System.Object^ GetTessNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Component~GetTessNorms.html)
-
-.
+See [Component::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Component~GetTessNorms.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

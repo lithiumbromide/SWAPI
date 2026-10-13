@@ -52,9 +52,7 @@ property System.bool EnableFeature {
 
 ### Parameters
 
-- `feature`: Markup property as defined in
-
-[EMVMarkupEnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupEnableFeatures.html)
+- `feature`: Markup property as defined in [EMVMarkupEnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupEnableFeatures.html)
 
 ### Property Value
 
@@ -62,22 +60,17 @@ True if the markup property is set, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::EnableFeature](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~EnableFeature.html)
-
-.
+See [EModelMarkupControl::EnableFeature](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~EnableFeature.html).
 
 ## Remarks
 
 You can only set this property at runtime; you cannot set it at design time.
 
-To set multiple markup properties at the same time, use[IEModelMarkupViewControl::EnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeatures.html).
+To set multiple markup properties at the same time, use [IEModelMarkupViewControl::EnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeatures.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

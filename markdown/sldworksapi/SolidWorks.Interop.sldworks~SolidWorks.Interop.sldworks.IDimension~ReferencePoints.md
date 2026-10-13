@@ -45,72 +45,30 @@ property System.Object^ ReferencePoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Reference points (see
-
-Remarks
-
-)
+Reference points (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Dimension::ReferencePoints](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ReferencePoints.html)
-
-.
+See [Dimension::ReferencePoints](ms-its:sldworksapivb6.chm::/sldworks~Dimension~ReferencePoints.html).
 
 ## Remarks
 
-The returned objects, the reference points, are actually
-
-[IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-objects.
+The returned objects, the reference points, are actually [IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) objects.
 
 Reference point 1 and reference point 2 are valid for linear dimensions. Reference point 3 is the vertex for angular dimensions. This property does not distinguish between linear or angular dimensions or other types of dimensions. Three reference points are always returned.
 
-NOTE:
-
-When regenerating a
-
-[macro feature](sldworksapiprogguide.chm::/macro_features/Overview_of_Macro_Features.htm)
-
-, this property gets and sets the reference points of a display dimension (
-
-[IDisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
-
-object).
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-In all other cases, this property gets and sets the reference points of a dimension (
-
-[IDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension.html)
-
-object).
+NOTE: When regenerating a [macro feature](sldworksapiprogguide.chm::/macro_features/Overview_of_Macro_Features.htm), this property gets and sets the reference points of a display dimension ([IDisplayDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) object). In all other cases, this property gets and sets the reference points of a dimension ([IDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension.html) object).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDimension::IGetReferencePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~IGetReferencePoints.html)
-
 [IDimension::ISetReferencePoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~ISetReferencePoints.html)
-
 [IDimension::GetReferencePointsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~GetReferencePointsCount.html)
 
 ## Availability

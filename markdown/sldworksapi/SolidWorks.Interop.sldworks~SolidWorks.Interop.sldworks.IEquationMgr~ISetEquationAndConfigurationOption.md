@@ -63,31 +63,19 @@ System.int ISetEquationAndConfigurationOption(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: 0-based index of the equation to modify
-- `Equation`: String containing the modified equation (see
-
-Remarks
-
-)
-- `WhichConfigurations`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Equation`: String containing the modified equation (see **Remarks**)
+- `WhichConfigurations`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `ConfigCount`: Number of names in ConfigNames array
 - `ConfigNames`: - in-process, in-process, unmanaged C++: Pointer to an array of strings containing configuration names
 
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -95,63 +83,35 @@ See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.h
 
 ## Remarks
 
-This method modifies only equations added using[IEquationMgr::IAdd3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~IAdd3.html).
+This method modifies only equations added using [IEquationMgr::IAdd3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~IAdd3.html).
 
-To add an equation using the SOLIDWORKS user interface, you must embed the names of dimensions and global variables in double quotes:
+To add an equation using the SOLIDWORKS Design user interface, you must embed the names of dimensions and global variables in double quotes:
 
 - Global variable assignment:
-
-  "B" = 2
+  **"B" = 2**
 - Component equation:
-
-  "N_SPOKES@CirPattern" = "BARLENGTH@Sketch2" /10
+  **"N_SPOKES@CirPattern" = "BARLENGTH@Sketch2" /10**
 - Dimension equation that uses the Visual Basic IIf function:
-
-  "D1@Extrude2" = (IIf("D1@Extrude3">20, 15, 6))+5
+  **"D1@Extrude2" = (IIf("D1@Extrude3">20, 15, 6))+5**
 - Dimension equation that sets a dimension to the current value:
-
-  "D1@Extrude2" =
+  **"D1@Extrude2" =**
 - Dimension equation that modifies the right-hand side of an already existing dimension equation:
-
-  "D1@Extrude2" = 0.05
+  **"D1@Extrude2" = 0.05**
 
 **NOTES:**
 
 - To modify an equation:
 
-  - you must specify Equation with the names of dimensions and global variables in double double quotes and the entire equation in double quotes. The examples for
-
-    [IEquationMgr::Add3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~Add3.html)
-
-    show how to do this.
-
-    [Global variables](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GlobalVariable.html)
-
-    cannot be set to current values using this method.
-  - added directly to an assembly component's model, you must call
-
-    [IAssemblyDoc::EditPart2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditPart2.html)
-
-    before calling this method.
-- If you change the active configuration, then you must call
-
-  [IModelDoc2::GetEquationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetEquationMgr.html)
-
-  again.
-- If the model has just one configuration, then use
-
-  [IEquationMgr::Equation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
-
-  .
+  - you must specify Equation with the names of dimensions and global variables in double double quotes and the entire equation in double quotes. The examples for [IEquationMgr::Add3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEquationMgr~Add3.html) show how to do this. [Global variables](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GlobalVariable.html) cannot be set to current values using this method.
+  - added directly to an assembly component's model, you must call [IAssemblyDoc::EditPart2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditPart2.html) before calling this method.
+- If you change the active configuration, then you must call [IModelDoc2::GetEquationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetEquationMgr.html) again.
+- If the model has just one configuration, then use [IEquationMgr::Equation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html).
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::SetEquationAndConfigurationOption Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~SetEquationAndConfigurationOption.html)
-
 [IEquationMgr::GetConfigurationOption Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetConfigurationOption.html)
 
 ## Availability

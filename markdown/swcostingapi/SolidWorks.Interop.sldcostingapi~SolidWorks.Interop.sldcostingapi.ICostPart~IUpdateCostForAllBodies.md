@@ -49,38 +49,24 @@ System.int IUpdateCostForAllBodies(
 
 ### Parameters
 
-- `NumBodies`: Number of bodies (see
-
-Remarks
-
-)
+- `NumBodies`: Number of bodies (see **Remarks**)
 
 ### Return Value
 
-Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in[swcUpdateCostError_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcUpdateCostError_e.html)
+Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in [swcUpdateCostError_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcUpdateCostError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostPart::IUpdateCostForAllBodies](swcostingapivb6.chm::/SldCostingAPI~CostPart~IUpdateCostForAllBodies.html)
-
-.
+See [CostPart::IUpdateCostForAllBodies](swcostingapivb6.chm::/SldCostingAPI~CostPart~IUpdateCostForAllBodies.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICostPart::GetBodyCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostPart~GetBodyCount.html)
-
-to get NumBodies.
+Before calling this method, call [ICostPart::GetBodyCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostPart~GetBodyCount.html) to get NumBodies.
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::UpdateCostForAllBodies Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~UpdateCostForAllBodies.html)
 
 ## Availability

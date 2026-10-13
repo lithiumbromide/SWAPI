@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # LinkToFile Property (IRenderMaterial)
 
-Gets or sets whether to link instances of the appearance to an appearance file (
-
-.p2m
-
-).
+Gets or sets whether to link instances of the appearance to an appearance file (.p2m).
 
 ## Syntax
 
@@ -49,34 +45,19 @@ property System.bool LinkToFile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to link instances of the appearance to an appearance file (
-
-.p2m
-
-), false to not
+True to link instances of the appearance to an appearance file (.p2m), false to not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::LinkToFile](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~LinkToFile.html)
-
-.
+See [RenderMaterial::LinkToFile](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~LinkToFile.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ Hatch angle in radians
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Angle](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Angle.html)
-
-.
+See [SketchHatch::Angle](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Angle.html).
 
 ## Examples
 
-See the
-
-[ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
-examples.
+See the [ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html) examples.
 
 ## Remarks
 
-If the hatch is not in the active drawing view, you mustrebuild to see the hatch at its new angle.
+If the hatch is not in the active drawing view, you must rebuild to see the hatch at its new angle.
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
 
 ## Availability

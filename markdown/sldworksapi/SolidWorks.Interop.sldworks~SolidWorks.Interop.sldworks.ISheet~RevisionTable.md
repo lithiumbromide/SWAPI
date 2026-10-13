@@ -42,13 +42,7 @@ property RevisionTableAnnotation^ RevisionTable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::RevisionTable](ms-its:sldworksapivb6.chm::/sldworks~Sheet~RevisionTable.html)
-
-.
+See [Sheet::RevisionTable](ms-its:sldworksapivb6.chm::/sldworks~Sheet~RevisionTable.html).
 
 ## Examples
 
@@ -69,9 +59,7 @@ See
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::InsertRevisionTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~InsertRevisionTable.html)
 
 ## Availability

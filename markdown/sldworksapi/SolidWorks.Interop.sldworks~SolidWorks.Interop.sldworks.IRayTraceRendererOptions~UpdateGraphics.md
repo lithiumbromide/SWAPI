@@ -39,28 +39,16 @@ void UpdateGraphics()
 void UpdateGraphics();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::UpdateGraphics](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UpdateGraphics.html)
-
-.
+See [RayTraceRendererOptions::UpdateGraphics](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UpdateGraphics.html).
 
 ## Examples
 
 [Update Graphics Area After Changing Render Options (C#)](Update_Graphics_After_Changing_Render_Options_Example_CSharp.htm)
-
 [Update Graphics Area After Changing Render Options (VB.NET)](Update_Graphics_After_Changing_Render_Options_Example_VBNET.htm)
-
 [Update Graphics Area After Changing Render Options (VBA)](Update_Graphics_After_Changing_Render_Options_Example_VB.htm)
 
 ## Remarks
@@ -70,11 +58,8 @@ To visually verify your changes after changing a model's ray-trace rendering eng
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRenderer::InvokeFinalRender Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html)
-
 [IRayTraceRenderer::RenderToFile Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~RenderToFile.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool PinPosition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to prevent the detail view from moving if the parent view changes size, fal
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::PinPosition](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~PinPosition.html)
-
-.
+See [DetailCircle::PinPosition](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~PinPosition.html).
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

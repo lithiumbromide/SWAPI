@@ -9,11 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSe
 
 # SaveToFile Method (IPDMWSearchCriteria)
 
-Saves the search criteria to the specified file (
-
-.sqy
-
-).
+Saves the search criteria to the specified file (.sqy).
 
 ## Syntax
 
@@ -57,15 +53,11 @@ System.bool SaveToFile(
 
 ### Return Value
 
-True if the search criteria is saved to the specified file, false if notParamDesc
+True if the search criteria is saved to the specified file, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::SaveToFile](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~SaveToFile.html)
-
-.
+See [PDMWSearchCriteria::SaveToFile](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~SaveToFile.html).
 
 ## Examples
 
@@ -74,9 +66,7 @@ See
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::LoadFromFile Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~LoadFromFile.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "Entity Object
-Members"
+title: "Entity Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Entity_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Entity_members.html"
 ---
 
-# Entity Object
-Members
+# Entity Object Members
 
 ## Public Methods
 

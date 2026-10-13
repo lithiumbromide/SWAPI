@@ -107,11 +107,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundNotchFeature::GetNominalNotch](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundNotchFeature~GetNominalNotch.html)
-
-.
+See [SwDMDimXpertCompoundNotchFeature::GetNominalNotch](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundNotchFeature~GetNominalNotch.html).
 
 ## Examples
 
@@ -124,7 +120,6 @@ The i, j, and k components of the longitudinal vector indicate the direction of 
 ## See Also
 
 [ISwDMDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundNotchFeature.html)
-
 [ISwDMDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

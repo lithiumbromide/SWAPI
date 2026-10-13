@@ -23,6 +23,7 @@ SOLIDWORKS Simulation API
 | ICWBearingLoad | Allows access to bearing loads that develop between contacting cylindrical faces. |
 | ICWBoltConnector | Allows access to a bolt connector. |
 | ICWBucklingStudyOptions | Allows access to the options of a buckling study. |
+| ICWCable | Allows access to a cable connector. |
 | ICWCentriFugalForce | Allows access to the centrifugal force object used for structural studies. |
 | ICWCompositeShellOptions | Allows access to the options for composite shells. |
 | ICWContactComponent | Allows access to component contacts. |
@@ -42,6 +43,7 @@ SOLIDWORKS Simulation API
 | ICWFatigueStudyOptions | Allows access to the options of a fatigue study. |
 | ICWForce | Allows access to the force object used by structural studies. |
 | ICWFrequencyStudyOptions | Allows access to the options of a frequency study. |
+| ICWGeneralSpringConnector | Allows access to a general spring connector. |
 | ICWGravity | Allows access to the gravity load used in structural and nonlinear analyses. |
 | ICWHeatFlux | Allows access to the heat flux object used for steady state and transient thermal studies only. |
 | ICWHeatPower | Allows access to heat power used for steady state and transient thermal studies only. |
@@ -133,6 +135,7 @@ SOLIDWORKS Simulation API
 | swsBoltMaterialSource_e | Bolt material sources |
 | swsBoltMaterialType_e | Bolt material types |
 | swsBoltType_e | Bolt types |
+| swsCableEndEditErrors_e | Cable editing errors |
 | swsCentrifugalForceEndEditError_e | Centrifugal force editing errors |
 | swsCentrifugalForceError_e | Centrifugal force errors |
 | swsColorChartNumberFormatOptionValue_e | Display options for the numeric values in the chart in the plot legend |
@@ -224,6 +227,7 @@ SOLIDWORKS Simulation API
 | swsFrequencyUnit_e | Units of frequency |
 | swsGapType_e | Contact set gap options |
 | swsGaussIntegrationOrder_e | Types of Gauss integration order |
+| swsGeneralSpringError_e | General spring status codes |
 | swsGenerateReportError_e | Result codes when generating a report |
 | swsGeoStarExportUnit_e | GEOSTAR export units |
 | swsGravityEndEditError_e | Gravity editing errors |

@@ -40,34 +40,20 @@ System.bool MakeSketchChain()
 System.bool MakeSketchChain();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if the a sketch path is created, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[SketchManager::MakeSketchChain](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~MakeSketchChain.html)
-
-.
+See [SketchManager::MakeSketchChain](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~MakeSketchChain.html).
 
 ## Examples
 
 [Create Sketch Path (VBA)](Create_Sketch_Path_Example_VB.htm)
-
 [Create Sketch Path (VB.NET)](Create_Sketch_Path_Example_VBNET.htm)
-
 [Create Sketch Path (C#)](Create_Sketch_Path_Example_CSharp.htm)
 
 ## Remarks
@@ -80,7 +66,6 @@ This method is not valid:
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

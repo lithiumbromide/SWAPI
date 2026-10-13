@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertCenterLine Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::InsertCenterLine2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterLine2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::InsertCenterLine2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterLine2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool InsertCenterLine()
 System.bool InsertCenterLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCenterLine](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterLine.html)
-
-.
+See [DrawingDoc::InsertCenterLine](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterLine.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

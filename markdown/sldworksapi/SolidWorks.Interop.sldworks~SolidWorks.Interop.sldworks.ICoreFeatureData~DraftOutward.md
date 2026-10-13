@@ -45,13 +45,7 @@ property System.bool DraftOutward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ True if draft is applied outward, false if not
 
 ## VBA Syntax
 
-See
-
-[CoreFeatureData::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~DraftOutward.html)
-
-.
+See [CoreFeatureData::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~DraftOutward.html).
 
 ## Examples
 
 [Get Core Feature Data (C#)](Get_Core_Feature_Example_CSharp.htm)
-
 [Get Core Feature Data (VB.NET)](Get_Core_Feature_Example_VBNET.htm)
-
 [Get Core Feature Data (VBA)](Get_Core_Feature_Example_VB.htm)
 
 ## Remarks
 
-To set this property,
-
-[ICoreFeatureData::UseDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoreFeatureData~UseDraft.html)
-
-must be true.
+To set this property, [ICoreFeatureData::UseDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoreFeatureData~UseDraft.html) must be true.
 
 ## See Also
 
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [ICoreFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData_members.html)
-
 [ICoreFeatureData::DraftAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData~DraftAngle.html)
 
 ## Availability

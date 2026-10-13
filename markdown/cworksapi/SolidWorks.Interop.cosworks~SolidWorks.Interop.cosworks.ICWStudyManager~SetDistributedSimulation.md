@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # SetDistributedSimulation Method (ICWStudyManager)
 
-Obsolete. Superseded by
-
-[ICWStudyManager::SetDistributedSimulation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~SetDistributedSimulation2.html)
-
-.
+Obsolete. Superseded by [ICWStudyManager::SetDistributedSimulation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~SetDistributedSimulation2.html).
 
 ## Syntax
 
@@ -57,17 +53,11 @@ System.int SetDistributedSimulation(
 
 ### Return Value
 
-Error code as defined in
-
-[swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
+Error code as defined in [swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::SetDistributedSimulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~SetDistributedSimulation.html)
-
-.
+See [CWStudyManager::SetDistributedSimulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~SetDistributedSimulation.html).
 
 ## Remarks
 
@@ -76,9 +66,7 @@ This method is valid only for SOLIDWORKS Simulation Professional or Premium.
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::ManageDistributedSimulation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ManageDistributedSimulation.html)
 
 ## Availability

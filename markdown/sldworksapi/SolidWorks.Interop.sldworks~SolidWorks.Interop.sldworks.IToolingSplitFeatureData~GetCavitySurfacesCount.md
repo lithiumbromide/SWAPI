@@ -40,13 +40,7 @@ System.int GetCavitySurfacesCount()
 System.int GetCavitySurfacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of cavity surface bodies
 
 ## VBA Syntax
 
-See
-
-[ToolingSplitFeatureData::GetCavitySurfacesCount](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~GetCavitySurfacesCount.html)
-
-.
+See [ToolingSplitFeatureData::GetCavitySurfacesCount](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~GetCavitySurfacesCount.html).
 
 ## Examples
 
-See the
-
-[IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
-examples.
+See the [IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling[IToolingSplitFeatureData::IGetCavitySurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCavitySurfaces.html)to get the size of the array for that method.
+Call this method before calling [IToolingSplitFeatureData::IGetCavitySurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCavitySurfaces.html) to get the size of the array for that method.
 
 ## See Also
 
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
 [IToolingSplitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData_members.html)
-
 [IToolingSplitFeatureData::CavitySurfaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData~CavitySurfaces.html)
-
 [IToolingSplitFeatureData::ISetCavitySurfaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData~ISetCavitySurfaces.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mates_and_Mate_Entities_Example_VB.htm"
 
 # Get Mates and Mate Entities Example (VBA)
 
-This example shows how to iterate through a FeatureManager design tree and
-get all of an assembly's mates and mate entities.
+This example shows how to iterate through a FeatureManager design tree and get all of an assembly's mates and mate entities.
 
 ```
 '------------------------------------------------------------------

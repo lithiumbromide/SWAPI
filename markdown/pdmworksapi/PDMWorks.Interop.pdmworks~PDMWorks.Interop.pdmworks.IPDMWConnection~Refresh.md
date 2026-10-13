@@ -41,18 +41,12 @@ void Refresh();
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::Refresh](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Refresh.html)
-
-.
+See [PDMWConnection::Refresh](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Refresh.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
 
 ## Availability

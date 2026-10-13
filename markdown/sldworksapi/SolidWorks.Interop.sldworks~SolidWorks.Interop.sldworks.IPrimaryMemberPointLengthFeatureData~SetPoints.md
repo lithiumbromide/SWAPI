@@ -47,29 +47,11 @@ System.bool SetPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Points`: Array of
-
-[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-es,
-
-[ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
-s, and/or
-
-[IRefPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
-s
+- `Points`: Array of [IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)es, [ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)s, and/or [IRefPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)s
 
 ### Return Value
 
@@ -77,32 +59,19 @@ True if points successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::SetPoints](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~SetPoints.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::SetPoints](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~SetPoints.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPointLengthFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPointLengthFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html) examples.
 
 ## Remarks
 
-Use
-
-[IPrimaryMemberPointLengthFeatureData::UnChainPointsAndLength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~UnChainPointsAndLength.html)
-
-to specify whether to chain link members along a chain of points.
+Use [IPrimaryMemberPointLengthFeatureData::UnChainPointsAndLength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~UnChainPointsAndLength.html) to specify whether to chain link members along a chain of points.
 
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

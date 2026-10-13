@@ -40,13 +40,7 @@ Sketch GetTemplateSketch()
 Sketch^ GetTemplateSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetTemplateSketch](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetTemplateSketch.html)
-
-.
+See [Sheet::GetTemplateSketch](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetTemplateSketch.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetTemplateName.html)
-
 [ISheet::SetTemplateName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetTemplateName.html)
 
 ## Availability

@@ -42,6 +42,8 @@ public enum class swStep242Error_e : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| swPublishStep242_CustomPropertyError | 6 |
+| swPublishStep242_EditionError | 5 |
 | swPublishStep242_InvalidPath | 1 |
 | swPublishStep242_MBDLicenseNotAvailable | 4 |
 | swPublishStep242_Success | 0 |

@@ -45,40 +45,23 @@ property System.int CornerDefaults {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sheet metal corner type as defined by
-
-[swSheetMetalOverlapTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSheetMetalOverlapTypes_e.html)
+Sheet metal corner type as defined by [swSheetMetalOverlapTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSheetMetalOverlapTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::CornerDefaults](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~CornerDefaults.html)
-
-.
+See [ConvertSolidFeatureData::CornerDefaults](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~CornerDefaults.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

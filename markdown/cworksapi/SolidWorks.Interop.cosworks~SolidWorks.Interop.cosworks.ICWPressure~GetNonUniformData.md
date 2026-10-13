@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPr
 
 # GetNonUniformData Method (ICWPressure)
 
-Obsolete. Superseded by[ICWPressure::Equation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Equation.html).
+Obsolete. Superseded by [ICWPressure::Equation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Equation.html).
 
 ## Syntax
 
@@ -72,45 +72,24 @@ void GetNonUniformData(
 - `DX`: Coefficient of the X term
 - `DY`: Coefficient of the Y term
 - `DXY`: Coefficient of the XY term
-- `DXX`: Coefficient of the X
-
-2
-
-term
-- `DYY`: Coefficient of the Y
-
-2
-
-term
+- `DXX`: Coefficient of the X2 term
+- `DYY`: Coefficient of the Y2 term
 
 ## VBA Syntax
 
-See
-
-[CWPressure::GetNonUniformData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~GetNonUniformData.html)
-
-.
+See [CWPressure::GetNonUniformData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~GetNonUniformData.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html)
-
-is set to true.
+This method is valid only if [ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html) is set to true.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::SetNonUniformData Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetNonUniformData.html)
-
 [ICWPressure::IncludeNonUniformDistribution Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html)
-
 [ICWPressure::EquationAngularUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~EquationAngularUnit.html)
-
 [ICWPressure::EquationLinearUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~EquationLinearUnit.html)
 
 ## Availability

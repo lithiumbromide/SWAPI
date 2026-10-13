@@ -43,30 +43,19 @@ property System.int ConnectionType {
 
 ### Property Value
 
-Connection type as defined in
-
-[swsConnectorConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsConnectorConnectionType_e.html)
+Connection type as defined in [swsConnectorConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsConnectorConnectionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~ConnectionType.html)
-
-.
+See [CWBoltConnector::ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~ConnectionType.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBoltConnector::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~AllowDistributedCoupling.html)
-
-is true.
+This property is valid only if [ICWBoltConnector::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~AllowDistributedCoupling.html) is true.
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
 
 ## Availability

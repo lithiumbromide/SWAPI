@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_by_Name_Example_CSharp.htm"
 
 # Get Component by Name Example (C#)
 
-This examples shows how to get a component by name and to determine
-if that component is fixed or floating.
+This examples shows how to get a component by name and to determine if that component is fixed or floating.
 
 ```
 //-------------------------------------------

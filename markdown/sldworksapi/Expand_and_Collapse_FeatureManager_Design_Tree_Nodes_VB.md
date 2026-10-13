@@ -9,8 +9,7 @@ source: "sldworksapi/Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_VB.htm
 
 # Expand or Collapse FeatureManager Design Tree Nodes Example (VBA)
 
-This example shows how to traverse, expand, and collapse the nodes of a FeatureManager
-design tree.
+This example shows how to traverse, expand, and collapse the nodes of a FeatureManager design tree.
 
 ```vb
  '---------------------------------------------------------------------------

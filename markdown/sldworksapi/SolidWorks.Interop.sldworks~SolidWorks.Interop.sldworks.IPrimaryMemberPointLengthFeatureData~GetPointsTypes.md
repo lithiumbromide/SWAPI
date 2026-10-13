@@ -40,17 +40,11 @@ System.object GetPointsTypes()
 System.Object^ GetPointsTypes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of point types as defined by[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
+Array of point types as defined by [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
 
 - swSelSKETCHPOINTS
 - swSelEXTSKETCHPOINTS
@@ -58,16 +52,11 @@ Array of point types as defined by[swSelectType_e](ms-its:swconst.chm::/SolidWor
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::GetPointsTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~GetPointsTypes.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::GetPointsTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~GetPointsTypes.html).
 
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

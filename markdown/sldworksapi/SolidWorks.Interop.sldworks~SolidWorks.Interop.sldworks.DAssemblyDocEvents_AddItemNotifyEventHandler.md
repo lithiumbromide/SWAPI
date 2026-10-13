@@ -46,44 +46,30 @@ public delegate System.int DAssemblyDocEvents_AddItemNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntityType`: Type of item to add as defined in
-
-[swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
+- `EntityType`: Type of item to add as defined in [swNotifyEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNotifyEntityType_e.html)
 - `itemName`: Name of the added item
 
 ## VBA Syntax
 
-See
-
-[AddItemNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AddItemNotify_EV.html)
-
-.
+See [AddItemNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AddItemNotify_EV.html).
 
 ## Examples
 
 [Add Component and Mate (VBA)](Add_Component_and_Mate_Example_VB.htm)
-
 [Add Component and Mate (VB.NET)](Add_Component_and_Mate_Example_VBNET.htm)
-
 [Add Component and Mate (C#)](Add_Component_and_Mate_Example_CSharp.htm)
 
 ## Remarks
 
-RenameItemNotify is also fired when[IComponent2::MakeVirtual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MakeVirtual.html)is called.
+RenameItemNotify is also fired when [IComponent2::MakeVirtual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~MakeVirtual.html) is called.
 
-If developing a C++ application, use[swAssemblyAddItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyAddItemNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-No explicit notification is available for reordering components. However, these actions generate this event and the[DeleteItemNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_DeleteItemNotifyEventHandler.html)event.
+No explicit notification is available for reordering components. However, these actions generate this event and the [DeleteItemNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_DeleteItemNotifyEventHandler.html) event.
 
 ## Availability
 

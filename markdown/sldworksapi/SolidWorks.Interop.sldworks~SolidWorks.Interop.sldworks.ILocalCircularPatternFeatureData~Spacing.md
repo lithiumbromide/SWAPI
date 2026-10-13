@@ -45,13 +45,7 @@ property System.double Spacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ Distance in radians between pattern instances in Direction 1
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~Spacing.html)
-
-.
+See [LocalCircularPatternFeatureData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~Spacing.html).
 
 ## Remarks
 
-This property is automatically set to 360 if
-
-[ILocalCircularPatternFeatureData::EqualSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~EqualSpacing.html)
-
-is set to true.
+This property is automatically set to 360 if [ILocalCircularPatternFeatureData::EqualSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~EqualSpacing.html) is set to true.
 
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
-
 [ILocalCircularPatternFeatureData::TotalInstances Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~TotalInstances.html)
-
 [ILocalCircularPatternFeatureData::Spacing2 Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~Spacing2.html)
 
 ## Availability

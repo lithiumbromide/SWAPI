@@ -1,6 +1,5 @@
 ---
-title: "IPMIGtolData Object
-Members"
+title: "IPMIGtolData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIGtolData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIGtolData_members.html"
 ---
 
-# IPMIGtolData Object
-Members
+# IPMIGtolData Object Members
 
 ## Public Methods
 

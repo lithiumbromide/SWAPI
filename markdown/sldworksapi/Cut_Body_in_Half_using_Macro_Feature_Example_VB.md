@@ -9,8 +9,7 @@ source: "sldworksapi/Cut_Body_in_Half_using_Macro_Feature_Example_VB.htm"
 
 # Cut Body in Half using Macro Feature Example (VBA)
 
-This example shows how to cut a body in a part document in half using a macro
-feature.
+This example shows how to cut a body in a part document in half using a macro feature.
 
 ```
 '-----------------------------------------------------------------------------------------------

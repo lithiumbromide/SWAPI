@@ -82,24 +82,15 @@ void Show3DPointer(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::Show3DPointer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Show3DPointer.html)
-
-.
+See [EModelViewControl::Show3DPointer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Show3DPointer.html).
 
 ## Remarks
 
-The
-
-[3D pointer](3DPointer.gif)
-
-shown by this method is not the same 3D pointer available in the eDrawings user interface.
+The [3D pointer](3DPointer.gif) shown by this method is not the same 3D pointer available in the eDrawings user interface.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

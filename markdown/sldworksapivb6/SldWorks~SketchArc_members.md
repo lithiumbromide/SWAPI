@@ -1,6 +1,5 @@
 ---
-title: "SketchArc Object
-Members"
+title: "SketchArc Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchArc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchArc_members.html"
 ---
 
-# SketchArc Object
-Members
+# SketchArc Object Members
 
 ## Public Methods
 

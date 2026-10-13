@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDraftFeatureData Interface Members
 
-The following tables list the members exposed by[IDraftFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html).
+The following tables list the members exposed by [IDraftFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IDraftFeatureData](SolidWorks.I
 ## See Also
 
 [IDraftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

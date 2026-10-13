@@ -34,18 +34,19 @@ public value class EdmPoint : public System.ValueType
 
 ## Examples
 
-struct EdmPoint{ integer mlX ; integer mlY ; };
+struct EdmPoint{
+integer [mlX](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint~mlX.html);
+integer [mlY](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint~mlY.html);
+};
 
 ## Examples
 
 [Graph a Workflow (VB.NET)](Graph_Workflow_Example_VBNET.htm)
-
 [Graph a Workflow (C#)](Graph_Workflow_Example_CSharp.htm)
 
 ## See Also
 
 [EdmPoint Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

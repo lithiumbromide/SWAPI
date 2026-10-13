@@ -1,0 +1,632 @@
+<<< BalloonSettings.Apply | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~Apply.md
+R: True if balloon settings successfully applied, false if not
+<<< BalloonSettings.AttachToCharacteristic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~AttachToCharacteristic.md
+R: True to attach this balloon to each characteristic, false to not
+X: This property is valid only for drawings.
+If this property is set to true, then when the balloon moves the dimension characteristic moves with it.
+<<< BalloonSettings.Fit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~Fit.md
+R: Number of digits that fit as defined by swiBalloonSettingsFit_e
+<<< BalloonSettings.GetOffsets | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~GetOffsets.md
+P: Type: Offset type as defined by swiBalloonSettingsOffsetTypes_e
+P: IsVisible: True to balloon the offset type in the document, false to just include it in the inspection report
+P: X_Offset: X offset for the default location of the balloons
+P: Y_Offset: Y offset for the default location of the balloons
+R: True if offset settings successfully retrieved, false if not
+X: X_Offset and Y_Offset are from the upper left-hand corner of the attribute to the upper left-hand corner of the balloon. The offsets can be positive or negative numbers.
+For more information, see the Ballooning Settings PropertyManager - Offsets section of the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons topic.
+<<< BalloonSettings.KeyCharFit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~KeyCharFit.md
+R: Number of digits that fit as defined by swiBalloonSettingsFit_e
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< BalloonSettings.KeyCharPrefix | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~KeyCharPrefix.md
+R: Prefix
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< BalloonSettings.KeyCharShape | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~KeyCharShape.md
+R: Balloon shape as defined by swiBalloonSettingsShape_e
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< BalloonSettings.Layer | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~Layer.md
+R: Drawing layer as defined by swiBalloonSettingLayer_e
+X: This property is valid only for drawings.
+If you set this property to swiLayer_UseSpecificLayer, use IBalloonSettings::UserSpecifiedLayer to set the name of the layer.
+<<< BalloonSettings.Prefix | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~Prefix.md
+R: Prefix
+<<< BalloonSettings.RotateToMatchCharacteristic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~RotateToMatchCharacteristic.md
+R: True to rotate the balloon to match the characteristic's angle, false to not
+X: This property is valid only for drawings.
+<<< BalloonSettings.SetOffsets | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~SetOffsets.md
+P: Type: Offset type as defined by swiBalloonSettingsOffsetTypes_e
+P: IsVisible: True to balloon the offset type in the document, false to just include it in the inspection report
+P: X_Offset: X offset for the default location of the balloons
+P: Y_Offset: Y offset for the default location of the balloons
+R: True if offset settings successfully set, false if not
+X: X_Offset and Y_Offset are from the upper left-hand corner of the attribute to the upper left-hand corner of the balloon. The offsets can be positive or negative numbers.
+For more information, see the Ballooning Settings PropertyManager - Offsets section of the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons topic.
+<<< BalloonSettings.Shape | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~Shape.md
+R: Balloon shape as defined by swiBalloonSettingsShape_e
+<<< BalloonSettings.UserSpecifiedLayer | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettings~UserSpecifiedLayer.md
+R: Name of user-specified layer
+X: This property is valid only:
+- for drawings.
+- when IBalloonSettings::Layer is set to swiBalloonSettingLayer_e.swiLayer_UseSpecificLayer.
+<<< CharacteristicsData.Accept | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Accept.md
+R: Threshold of defective units for acceptance of the lot
+X: The threshold is based on the sampling plan you selected for this dimension.
+<<< CharacteristicsData.AQL | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~AQL.md
+R: Acceptable quality level for this characteristic
+<<< CharacteristicsData.CharId | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~CharId.md
+R: Characteristic ID
+<<< CharacteristicsData.CharZone | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~CharZone.md
+R: Grid location
+<<< CharacteristicsData.Classification | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Classification.md
+R: Classification of defects as defined by swiCharacteristicClassification_e
+<<< CharacteristicsData.Comments | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Comments.md
+R: Comment
+<<< CharacteristicsData.ConfigurationName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~ConfigurationName.md
+R: Name of a SOLIDWORKS configuration
+<<< CharacteristicsData.ID | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~ID.md
+R: GUID
+<<< CharacteristicsData.Key | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Key.md
+R: True if key, false if regular
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< CharacteristicsData.LowerLimit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~LowerLimit.md
+R: Absolute lower limit
+X: The absolute lower limit of a dimension is its nominal value minus its lower tolerance value.
+<<< CharacteristicsData.Method | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Method.md
+R: Name of an inspection method
+<<< CharacteristicsData.Operation | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Operation.md
+R: Name of an inspection operation
+<<< CharacteristicsData.Quantity | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Quantity.md
+R: Number of this characteristic
+<<< CharacteristicsData.Reference | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Reference.md
+R: True if a reference dimension, false if not
+<<< CharacteristicsData.Reject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Reject.md
+R: Threshold of defective units for rejecting the entire lot
+X: The threshold is based on the sampling plan you selected for this dimension.
+<<< CharacteristicsData.SampleSize | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~SampleSize.md
+R: Sample size
+<<< CharacteristicsData.Selected | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Selected.md
+R: True to include, false to not
+<<< CharacteristicsData.Sheet | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Sheet.md
+R: Name of a SOLIDWORKS drawing sheet
+<<< CharacteristicsData.SubType | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~SubType.md
+R: Sub-type as defined by swiCharacteristicSubType_e
+<<< CharacteristicsData.ToleranceMinus | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~ToleranceMinus.md
+R: Lower tolerance value
+<<< CharacteristicsData.TolerancePlus | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~TolerancePlus.md
+R: Upper tolerance value
+<<< CharacteristicsData.Units | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Units.md
+R: Units of nominal and tolerance values: "in" "mm"
+<<< CharacteristicsData.UpperLimit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~UpperLimit.md
+R: Absolute upper limit
+X: The absolute upper limit of a dimension is its nominal value plus its upper tolerance value.
+<<< CharacteristicsData.Value | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~Value.md
+R: Value
+<<< CharacteristicsData.View | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsData~View.md
+R: Name of a SOLIDWORKS drawing view
+<<< IBalloonSettings | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.md
+X: This interface:
+- is valid only after the inspection project is created and the model has been ballooned.
+- can be used to add or edit balloons in ballooned drawings only.
+- analogous to the Ballooning Settings PropertyManager that displays when you select Tools > SOLIDWORKS Inspection > Add/Edit Balloons.
+For more information, see the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons topic.
+<<< IBalloonSettings.Apply | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Apply.md
+R: True if balloon settings successfully applied, false if not
+<<< IBalloonSettings.AttachToCharacteristic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~AttachToCharacteristic.md
+R: True to attach this balloon to each characteristic, false to not
+X: This property is valid only for drawings.
+If this property is set to true, then when the balloon moves the dimension characteristic moves with it.
+<<< IBalloonSettings.Fit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Fit.md
+R: Number of digits that fit as defined by swiBalloonSettingsFit_e
+<<< IBalloonSettings.GetOffsets | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~GetOffsets.md
+P: Type: Offset type as defined by swiBalloonSettingsOffsetTypes_e
+P: IsVisible: True to balloon the offset type in the document, false to just include it in the inspection report
+P: X_Offset: X offset for the default location of the balloons
+P: Y_Offset: Y offset for the default location of the balloons
+R: True if offset settings successfully retrieved, false if not
+X: X_Offset and Y_Offset are from the upper left-hand corner of the attribute to the upper left-hand corner of the balloon. The offsets can be positive or negative numbers.
+For more information, see the Ballooning Settings PropertyManager - Offsets section of the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons topic.
+<<< IBalloonSettings.KeyCharFit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~KeyCharFit.md
+R: Number of digits that fit as defined by swiBalloonSettingsFit_e
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< IBalloonSettings.KeyCharPrefix | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~KeyCharPrefix.md
+R: Prefix
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< IBalloonSettings.KeyCharShape | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~KeyCharShape.md
+R: Balloon shape as defined by swiBalloonSettingsShape_e
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< IBalloonSettings.Layer | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Layer.md
+R: Drawing layer as defined by swiBalloonSettingLayer_e
+X: This property is valid only for drawings.
+If you set this property to swiLayer_UseSpecificLayer, use IBalloonSettings::UserSpecifiedLayer to set the name of the layer.
+<<< IBalloonSettings.Prefix | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Prefix.md
+R: Prefix
+<<< IBalloonSettings.RotateToMatchCharacteristic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~RotateToMatchCharacteristic.md
+R: True to rotate the balloon to match the characteristic's angle, false to not
+X: This property is valid only for drawings.
+<<< IBalloonSettings.SetOffsets | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~SetOffsets.md
+P: Type: Offset type as defined by swiBalloonSettingsOffsetTypes_e
+P: IsVisible: True to balloon the offset type in the document, false to just include it in the inspection report
+P: X_Offset: X offset for the default location of the balloons
+P: Y_Offset: Y offset for the default location of the balloons
+R: True if offset settings successfully set, false if not
+X: X_Offset and Y_Offset are from the upper left-hand corner of the attribute to the upper left-hand corner of the balloon. The offsets can be positive or negative numbers.
+For more information, see the Ballooning Settings PropertyManager - Offsets section of the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons topic.
+<<< IBalloonSettings.Shape | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Shape.md
+R: Balloon shape as defined by swiBalloonSettingsShape_e
+<<< IBalloonSettings.UserSpecifiedLayer | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~UserSpecifiedLayer.md
+R: Name of user-specified layer
+X: This property is valid only:
+- for drawings.
+- when IBalloonSettings::Layer is set to swiBalloonSettingLayer_e.swiLayer_UseSpecificLayer.
+<<< ICharacteristicsData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.md
+X: Characteristics are items that have been extracted from the drawing to incorporate in the inspection report. Use this interface to change data for specific characteristics after it has been extracted.
+For more information, see:
+SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > Working with Templates > Mapping Characteristic Tokens to Report Templates > Characteristic Tokens topic.
+SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Using the Bill of Characteristics topic.
+<<< ICharacteristicsData.Accept | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Accept.md
+R: Threshold of defective units for acceptance of the lot
+X: The threshold is based on the sampling plan you selected for this dimension.
+<<< ICharacteristicsData.AQL | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~AQL.md
+R: Acceptable quality level for this characteristic
+<<< ICharacteristicsData.CharId | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~CharId.md
+R: Characteristic ID
+<<< ICharacteristicsData.CharZone | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~CharZone.md
+R: Grid location
+<<< ICharacteristicsData.Classification | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Classification.md
+R: Classification of defects as defined by swiCharacteristicClassification_e
+<<< ICharacteristicsData.Comments | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Comments.md
+R: Comment
+<<< ICharacteristicsData.ConfigurationName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~ConfigurationName.md
+R: Name of a SOLIDWORKS configuration
+<<< ICharacteristicsData.ID | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~ID.md
+R: GUID
+<<< ICharacteristicsData.Key | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Key.md
+R: True if key, false if regular
+X: Key characteristics are characteristics whose variation has a significant impact on the quality of the part.
+<<< ICharacteristicsData.LowerLimit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~LowerLimit.md
+R: Absolute lower limit
+X: The absolute lower limit of a dimension is its nominal value minus its lower tolerance value.
+<<< ICharacteristicsData.Method | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Method.md
+R: Name of an inspection method
+<<< ICharacteristicsData.Operation | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Operation.md
+R: Name of an inspection operation
+<<< ICharacteristicsData.Quantity | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Quantity.md
+R: Number of this characteristic
+<<< ICharacteristicsData.Reference | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Reference.md
+R: True if a reference dimension, false if not
+<<< ICharacteristicsData.Reject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Reject.md
+R: Threshold of defective units for rejecting the entire lot
+X: The threshold is based on the sampling plan you selected for this dimension.
+<<< ICharacteristicsData.SampleSize | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~SampleSize.md
+R: Sample size
+<<< ICharacteristicsData.Selected | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Selected.md
+R: True to include, false to not
+<<< ICharacteristicsData.Sheet | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Sheet.md
+R: Name of a SOLIDWORKS drawing sheet
+<<< ICharacteristicsData.SubType | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~SubType.md
+R: Sub-type as defined by swiCharacteristicSubType_e
+<<< ICharacteristicsData.ToleranceMinus | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~ToleranceMinus.md
+R: Lower tolerance value
+<<< ICharacteristicsData.TolerancePlus | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~TolerancePlus.md
+R: Upper tolerance value
+<<< ICharacteristicsData.Units | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Units.md
+R: Units of nominal and tolerance values: "in" "mm"
+<<< ICharacteristicsData.UpperLimit | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~UpperLimit.md
+R: Absolute upper limit
+X: The absolute upper limit of a dimension is its nominal value plus its upper tolerance value.
+<<< ICharacteristicsData.Value | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~Value.md
+R: Value
+<<< ICharacteristicsData.View | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData~View.md
+R: Name of a SOLIDWORKS drawing view
+<<< IInspectionAddinMgr | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.md
+X: For more information, read:
+- Getting Started
+- SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started and Customization topics.
+<<< IInspectionAddinMgr.AddCharacteristics | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~AddCharacteristics.md
+P: AnnotationsIn: Array of annotations
+R: ICharacteristicsData
+X: This method is valid only if IInspectionProjectData::Extraction is set to swiCharacteristicInfoExtraction_e.swiExtraction_Manual.
+<<< IInspectionAddinMgr.AddInspectionMethod | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~AddInspectionMethod.md
+P: MethodName: Name of inspection method
+R: True if inspection method successfully added, false if not
+<<< IInspectionAddinMgr.AddOperation | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~AddOperation.md
+P: Operation: Name of operation
+R: True if operation successfully added, false if not
+<<< IInspectionAddinMgr.AddOrEditBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~AddOrEditBalloons.md
+P: BalloonSettings: IBalloonSettings
+R: True if balloon settings successfully applied, false if not
+X: This method is valid only:
+- for ballooned drawings.
+- when IInspectionProjectData::Extraction is set to swiCharacteristicInfoExtraction_e.swiExtraction_Manual.
+<<< IInspectionAddinMgr.AddVendor | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~AddVendor.md
+P: VendorName: Name of vendor
+P: VendorType: Type of vendor as defined by swiVendorsInspectionType_e
+<<< IInspectionAddinMgr.CreateInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~CreateInspectionProject.md
+P: InspectionProjectData: IInspectionProjectData
+P: DeleteOld: True to delete the existing project and create a new one, false to get the existing project
+P: ErrorCode: Error code as defined by swiErrorCode_e
+R: IInspectionProject
+<<< IInspectionAddinMgr.CreateInspectionProjectData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~CreateInspectionProjectData.md
+P: TemplatePathIn: Full path name of inspection project template (see Remarks)
+R: IInspectionProjectData
+X: The templates are installed in c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates.
+<<< IInspectionAddinMgr.DeleteInspectionMethods | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~DeleteInspectionMethods.md
+P: MethodList: Array of inspection methods to delete
+R: Array of booleans indicating whether each inspection method is successfully deleted
+<<< IInspectionAddinMgr.DeleteOperations | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~DeleteOperations.md
+P: OperationList: Array of operations to delete
+R: Array of booleans indicating whether each operation is successfully deleted
+<<< IInspectionAddinMgr.DeleteVendors | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~DeleteVendors.md
+P: VendorList: Array of vendors to delete
+R: Array of booleans indicating whether each vendor is successfully deleted
+<<< IInspectionAddinMgr.EditInspectionMethod | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~EditInspectionMethod.md
+P: MethodID: ID of inspection method
+P: MethodName: Name of inspection method
+R: True if inspection method successfully modified, false if not
+<<< IInspectionAddinMgr.EditInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~EditInspectionProject.md
+P: InspectionProjectData: IInspectionProjectData
+R: True if inspection project successfully modified, false if not
+<<< IInspectionAddinMgr.GetBalloonSettings | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetBalloonSettings.md
+R: IBalloonSettings
+<<< IInspectionAddinMgr.GetCharacteristicIDs | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetCharacteristicIDs.md
+R: Array of characteristic IDs
+<<< IInspectionAddinMgr.GetCharacteristicsData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetCharacteristicsData.md
+P: CharId: ID of characteristic to retrieve
+R: ICharacteristicsData
+<<< IInspectionAddinMgr.GetInspectionMethods | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetInspectionMethods.md
+P: MethodList: Array of inspection methods
+P: MethodIDs: Array of inspection method IDs
+R: True if inspection methods successfully retrieved, false if not
+<<< IInspectionAddinMgr.GetInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetInspectionProject.md
+R: IInspectionProject
+<<< IInspectionAddinMgr.GetInspectionProjectData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetInspectionProjectData.md
+R: IInspectionProjectData
+<<< IInspectionAddinMgr.GetOperations | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetOperations.md
+P: OperationList: Array of operations
+P: OperationIDs: Array of operation IDs
+R: True if operations successfully retrieved, false if not
+<<< IInspectionAddinMgr.GetVendors | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~GetVendors.md
+P: VendorList: Array of vendors
+R: True if vendors successfully retrieved, false if not
+<<< IInspectionAddinMgr.RemoveBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~RemoveBalloons.md
+R: True if all balloons removed, false if not
+<<< IInspectionAddinMgr.SelectBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr~SelectBalloons.md
+R: True if all balloons selected, false if not
+<<< IInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject.md
+X: For more information, see the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Publishing and Exporting Documents topic.
+<<< IInspectionProject.ExportTo2DPDF | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject~ExportTo2DPDF.md
+P: FilePath: Full path name of the PDF to export
+R: True if export is successful, false if not
+<<< IInspectionProject.ExportTo3DPDF | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject~ExportTo3DPDF.md
+P: FilePath: Full path name of the PDF to export
+R: True if export is successful, false if not
+X: This method is valid only for parts.
+<<< IInspectionProject.ExportToEDrawings | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject~ExportToEDrawings.md
+P: FilePath: Full path name of the eDrawings file to export
+R: True if export is successful, false if not
+<<< IInspectionProject.ExportToExcel | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject~ExportToExcel.md
+P: TemplatePath: Full path name of the inspection report template to use (see Remarks)
+P: FilePath: Full path name of the Microsoft Excel file to export
+P: Multisheet: True if multisheet, false if not
+R: True if export is successful, false if not
+X: The templates are installed in c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates.
+<<< IInspectionProjectData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData.md
+X: This interface sets initial properties before the inspection project is created. Use ICharacteristicsData and IBalloonSettings to modify these properties for individual characteristics and balloons after the inspection project is created.
+For more information, see the SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Creating an Inspection Project > Create Inspection Project PropertyManager topic.
+<<< IInspectionProjectData.AQL | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~AQL.md
+R: Acceptable quality level (see Remarks)
+X: Acceptable Quality Levels:
+- 0.010
+- 0.015
+- 0.025
+- 0.040
+- 0.065
+- 0.10
+- 0.15
+- 0.25
+- 0.40
+- 0.65
+- 1.0
+- 1.5
+- 2.5
+- 4.0
+- 6.5
+- 10
+- 15
+- 25
+- 40
+- 65
+- 100
+- 150
+- 250
+- 400
+- 650
+- 1000
+<<< IInspectionProjectData.AutoBalloon | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~AutoBalloon.md
+R: True to autoballoon the drawing, false to manually add balloons to the drawing
+<<< IInspectionProjectData.AutoExplodeHoleCallout | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~AutoExplodeHoleCallout.md
+R: True to create a separate instance for each section of the hole callout, false to not
+<<< IInspectionProjectData.Basic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Basic.md
+R: True to extract basic dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< IInspectionProjectData.Classification | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Classification.md
+R: Defect classification as defined by swiCharacteristicClassification_e
+<<< IInspectionProjectData.CreateForEachInstance | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~CreateForEachInstance.md
+R: True to create separate rows in the inspection report for characteristics of multiplicity, false to not
+<<< IInspectionProjectData.DocumentName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~DocumentName.md
+R: Document name
+<<< IInspectionProjectData.DocumentNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~DocumentNumber.md
+R: Document number
+<<< IInspectionProjectData.DocumentRevision | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~DocumentRevision.md
+R: Document revision
+<<< IInspectionProjectData.Extraction | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Extraction.md
+R: Type of extraction as defined by swiCharacteristicInfoExtraction_e
+<<< IInspectionProjectData.ExtractionCriteria | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~ExtractionCriteria.md
+R: Regular expression
+X: This property is valid only if IInspectionProjectData::IncludeNotes is set to true.
+For definitions, constructs and examples, see the Note Extraction Criteria topic in SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Creating an Inspection Project > Create Inspection Project PropertyManager > Extraction Settings.
+<<< IInspectionProjectData.Feature | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Feature.md
+R: True to extract feature dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< IInspectionProjectData.IncludeDimensions | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeDimensions.md
+R: True to extract all dimension types, false to not
+X: When set to true, this property extracts all of these dimension types:
+- Reference
+- Basic
+- Feature
+- Dual (secondary units)
+- Overridden
+- Split chamfer
+<<< IInspectionProjectData.IncludeGDT | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeGDT.md
+R: True to extract GTols, false to not
+<<< IInspectionProjectData.IncludeHoleCallout | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeHoleCallout.md
+R: True to extract hole callouts, false to not
+<<< IInspectionProjectData.IncludeHoleTable | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeHoleTable.md
+R: True to extract hole tables, false to not
+<<< IInspectionProjectData.IncludeNotes | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeNotes.md
+R: True to extract all notes, false to not
+X: When set to true, this property extracts all notes including sheet format notes.
+Set IInspectionProjectData::SheetFormat to false to not include sheet format notes.
+<<< IInspectionProjectData.IncludeSurfaceFinish | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeSurfaceFinish.md
+R: True to extract surface finishes, false to not
+<<< IInspectionProjectData.IncludeWeld | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~IncludeWeld.md
+R: True to extract welds, false to not
+<<< IInspectionProjectData.InspectionOnly | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~InspectionOnly.md
+R: True to extract inspection-only dimensions, false to not
+<<< IInspectionProjectData.JobNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~JobNumber.md
+R: Job number
+<<< IInspectionProjectData.Level | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Level.md
+R: Sampling level as defined by swiSamplingLevel_e
+<<< IInspectionProjectData.LotSize | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~LotSize.md
+R: Lot size
+<<< IInspectionProjectData.NotesAutoExplode | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~NotesAutoExplode.md
+R: True to create sub-notes from a large, multi-item note, false to not
+X: This property is valid only if IInspectionProjectData::IncludeNotes is set to true.
+<<< IInspectionProjectData.OverriddenValue | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~OverriddenValue.md
+R: True to always use overridden dimension values when they are defined, false to not
+<<< IInspectionProjectData.PartName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~PartName.md
+R: Part name
+<<< IInspectionProjectData.PartNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~PartNumber.md
+R: Part number
+<<< IInspectionProjectData.PartRevision | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~PartRevision.md
+R: Part revision
+<<< IInspectionProjectData.PreventAutoReNumbering | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~PreventAutoReNumbering.md
+R: True to prevent re-ordering of balloons, false to re-order when balloons are added or removed
+<<< IInspectionProjectData.Reference | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Reference.md
+R: True to extract driven dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< IInspectionProjectData.SamplingType | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~SamplingType.md
+R: Sampling type as defined by swiSamplingType_e
+<<< IInspectionProjectData.SecondaryUnits | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~SecondaryUnits.md
+R: True to extract dual dimensions, false to not
+<<< IInspectionProjectData.SheetFormat | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~SheetFormat.md
+R: True to extract sheet format notes, false to not
+<<< IInspectionProjectData.Sort | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Sort.md
+R: Ballooning arrangement as defined by swiCharacteristicInfoSort_e
+<<< IInspectionProjectData.SplitChamferDimensions | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~SplitChamferDimensions.md
+R: True to create separate rows for the linear dimension and angle of a chamfer dimension, false to not
+<<< IInspectionProjectData.StartNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~StartNumber.md
+R: Starting balloon number
+<<< IInspectionProjectData.Vendor | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData~Vendor.md
+R: Vendor
+<<< InspectionAddinMgr.AddCharacteristics | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~AddCharacteristics.md
+P: AnnotationsIn: Array of annotations
+R: ICharacteristicsData
+X: This method is valid only if IInspectionProjectData::Extraction is set to swiCharacteristicInfoExtraction_e.swiExtraction_Manual.
+<<< InspectionAddinMgr.AddInspectionMethod | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~AddInspectionMethod.md
+P: MethodName: Name of inspection method
+R: True if inspection method successfully added, false if not
+<<< InspectionAddinMgr.AddOperation | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~AddOperation.md
+P: Operation: Name of operation
+R: True if operation successfully added, false if not
+<<< InspectionAddinMgr.AddOrEditBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~AddOrEditBalloons.md
+P: BalloonSettings: IBalloonSettings
+R: True if balloon settings successfully applied, false if not
+X: This method is valid only:
+- for ballooned drawings.
+- when IInspectionProjectData::Extraction is set to swiCharacteristicInfoExtraction_e.swiExtraction_Manual.
+<<< InspectionAddinMgr.AddVendor | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~AddVendor.md
+P: VendorName: Name of vendor
+P: VendorType: Type of vendor as defined by swiVendorsInspectionType_e
+<<< InspectionAddinMgr.CreateInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~CreateInspectionProject.md
+P: InspectionProjectData: IInspectionProjectData
+P: DeleteOld: True to delete the existing project and create a new one, false to get the existing project
+P: ErrorCode: Error code as defined by swiErrorCode_e
+R: IInspectionProject
+<<< InspectionAddinMgr.CreateInspectionProjectData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~CreateInspectionProjectData.md
+P: TemplatePathIn: Full path name of inspection project template (see Remarks)
+R: IInspectionProjectData
+X: The templates are installed in c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates.
+<<< InspectionAddinMgr.DeleteInspectionMethods | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~DeleteInspectionMethods.md
+P: MethodList: Array of inspection methods to delete
+R: Array of booleans indicating whether each inspection method is successfully deleted
+<<< InspectionAddinMgr.DeleteOperations | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~DeleteOperations.md
+P: OperationList: Array of operations to delete
+R: Array of booleans indicating whether each operation is successfully deleted
+<<< InspectionAddinMgr.DeleteVendors | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~DeleteVendors.md
+P: VendorList: Array of vendors to delete
+R: Array of booleans indicating whether each vendor is successfully deleted
+<<< InspectionAddinMgr.EditInspectionMethod | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~EditInspectionMethod.md
+P: MethodID: ID of inspection method
+P: MethodName: Name of inspection method
+R: True if inspection method successfully modified, false if not
+<<< InspectionAddinMgr.EditInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~EditInspectionProject.md
+P: InspectionProjectData: IInspectionProjectData
+R: True if inspection project successfully modified, false if not
+<<< InspectionAddinMgr.GetBalloonSettings | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetBalloonSettings.md
+R: IBalloonSettings
+<<< InspectionAddinMgr.GetCharacteristicIDs | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetCharacteristicIDs.md
+R: Array of characteristic IDs
+<<< InspectionAddinMgr.GetCharacteristicsData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetCharacteristicsData.md
+P: CharId: ID of characteristic to retrieve
+R: ICharacteristicsData
+<<< InspectionAddinMgr.GetInspectionMethods | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetInspectionMethods.md
+P: MethodList: Array of inspection methods
+P: MethodIDs: Array of inspection method IDs
+R: True if inspection methods successfully retrieved, false if not
+<<< InspectionAddinMgr.GetInspectionProject | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetInspectionProject.md
+R: IInspectionProject
+<<< InspectionAddinMgr.GetInspectionProjectData | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetInspectionProjectData.md
+R: IInspectionProjectData
+<<< InspectionAddinMgr.GetOperations | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetOperations.md
+P: OperationList: Array of operations
+P: OperationIDs: Array of operation IDs
+R: True if operations successfully retrieved, false if not
+<<< InspectionAddinMgr.GetVendors | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~GetVendors.md
+P: VendorList: Array of vendors
+R: True if vendors successfully retrieved, false if not
+<<< InspectionAddinMgr.RemoveBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~RemoveBalloons.md
+R: True if all balloons removed, false if not
+<<< InspectionAddinMgr.SelectBalloons | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgr~SelectBalloons.md
+R: True if all balloons selected, false if not
+<<< InspectionProject.ExportTo2DPDF | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProject~ExportTo2DPDF.md
+P: FilePath: Full path name of the PDF to export
+R: True if export is successful, false if not
+<<< InspectionProject.ExportTo3DPDF | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProject~ExportTo3DPDF.md
+P: FilePath: Full path name of the PDF to export
+R: True if export is successful, false if not
+X: This method is valid only for parts.
+<<< InspectionProject.ExportToEDrawings | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProject~ExportToEDrawings.md
+P: FilePath: Full path name of the eDrawings file to export
+R: True if export is successful, false if not
+<<< InspectionProject.ExportToExcel | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProject~ExportToExcel.md
+P: TemplatePath: Full path name of the inspection report template to use (see Remarks)
+P: FilePath: Full path name of the Microsoft Excel file to export
+P: Multisheet: True if multisheet, false if not
+R: True if export is successful, false if not
+X: The templates are installed in c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates.
+<<< InspectionProjectData.AQL | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~AQL.md
+R: Acceptable quality level (see Remarks)
+X: Acceptable Quality Levels:
+- 0.010
+- 0.015
+- 0.025
+- 0.040
+- 0.065
+- 0.10
+- 0.15
+- 0.25
+- 0.40
+- 0.65
+- 1.0
+- 1.5
+- 2.5
+- 4.0
+- 6.5
+- 10
+- 15
+- 25
+- 40
+- 65
+- 100
+- 150
+- 250
+- 400
+- 650
+- 1000
+<<< InspectionProjectData.AutoBalloon | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~AutoBalloon.md
+R: True to autoballoon the drawing, false to manually add balloons to the drawing
+<<< InspectionProjectData.AutoExplodeHoleCallout | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~AutoExplodeHoleCallout.md
+R: True to create a separate instance for each section of the hole callout, false to not
+<<< InspectionProjectData.Basic | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Basic.md
+R: True to extract basic dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< InspectionProjectData.Classification | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Classification.md
+R: Defect classification as defined by swiCharacteristicClassification_e
+<<< InspectionProjectData.CreateForEachInstance | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~CreateForEachInstance.md
+R: True to create separate rows in the inspection report for characteristics of multiplicity, false to not
+<<< InspectionProjectData.DocumentName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~DocumentName.md
+R: Document name
+<<< InspectionProjectData.DocumentNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~DocumentNumber.md
+R: Document number
+<<< InspectionProjectData.DocumentRevision | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~DocumentRevision.md
+R: Document revision
+<<< InspectionProjectData.Extraction | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Extraction.md
+R: Type of extraction as defined by swiCharacteristicInfoExtraction_e
+<<< InspectionProjectData.ExtractionCriteria | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~ExtractionCriteria.md
+R: Regular expression
+X: This property is valid only if IInspectionProjectData::IncludeNotes is set to true.
+For definitions, constructs and examples, see the Note Extraction Criteria topic in SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Creating an Inspection Project > Create Inspection Project PropertyManager > Extraction Settings.
+<<< InspectionProjectData.Feature | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Feature.md
+R: True to extract feature dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< InspectionProjectData.IncludeDimensions | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeDimensions.md
+R: True to extract all dimension types, false to not
+X: When set to true, this property extracts all of these dimension types:
+- Reference
+- Basic
+- Feature
+- Dual (secondary units)
+- Overridden
+- Split chamfer
+<<< InspectionProjectData.IncludeGDT | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeGDT.md
+R: True to extract GTols, false to not
+<<< InspectionProjectData.IncludeHoleCallout | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeHoleCallout.md
+R: True to extract hole callouts, false to not
+<<< InspectionProjectData.IncludeHoleTable | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeHoleTable.md
+R: True to extract hole tables, false to not
+<<< InspectionProjectData.IncludeNotes | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeNotes.md
+R: True to extract all notes, false to not
+X: When set to true, this property extracts all notes including sheet format notes.
+Set IInspectionProjectData::SheetFormat to false to not include sheet format notes.
+<<< InspectionProjectData.IncludeSurfaceFinish | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeSurfaceFinish.md
+R: True to extract surface finishes, false to not
+<<< InspectionProjectData.IncludeWeld | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~IncludeWeld.md
+R: True to extract welds, false to not
+<<< InspectionProjectData.InspectionOnly | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~InspectionOnly.md
+R: True to extract inspection-only dimensions, false to not
+<<< InspectionProjectData.JobNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~JobNumber.md
+R: Job number
+<<< InspectionProjectData.Level | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Level.md
+R: Sampling level as defined by swiSamplingLevel_e
+<<< InspectionProjectData.LotSize | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~LotSize.md
+R: Lot size
+<<< InspectionProjectData.NotesAutoExplode | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~NotesAutoExplode.md
+R: True to create sub-notes from a large, multi-item note, false to not
+X: This property is valid only if IInspectionProjectData::IncludeNotes is set to true.
+<<< InspectionProjectData.OverriddenValue | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~OverriddenValue.md
+R: True to always use overridden dimension values when they are defined, false to not
+<<< InspectionProjectData.PartName | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~PartName.md
+R: Part name
+<<< InspectionProjectData.PartNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~PartNumber.md
+R: Part number
+<<< InspectionProjectData.PartRevision | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~PartRevision.md
+R: Part revision
+<<< InspectionProjectData.PreventAutoReNumbering | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~PreventAutoReNumbering.md
+R: True to prevent re-ordering of balloons, false to re-order when balloons are added or removed
+<<< InspectionProjectData.Reference | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Reference.md
+R: True to extract driven dimensions, false to not
+X: This property is valid only if IInspectionProjectData::InspectionOnly is false.
+<<< InspectionProjectData.SamplingType | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~SamplingType.md
+R: Sampling type as defined by swiSamplingType_e
+<<< InspectionProjectData.SecondaryUnits | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~SecondaryUnits.md
+R: True to extract dual dimensions, false to not
+<<< InspectionProjectData.SheetFormat | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~SheetFormat.md
+R: True to extract sheet format notes, false to not
+<<< InspectionProjectData.Sort | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Sort.md
+R: Ballooning arrangement as defined by swiCharacteristicInfoSort_e
+<<< InspectionProjectData.SplitChamferDimensions | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~SplitChamferDimensions.md
+R: True to create separate rows for the linear dimension and angle of a chamfer dimension, false to not
+<<< InspectionProjectData.StartNumber | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~StartNumber.md
+R: Starting balloon number
+<<< InspectionProjectData.Vendor | swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectData~Vendor.md
+R: Vendor

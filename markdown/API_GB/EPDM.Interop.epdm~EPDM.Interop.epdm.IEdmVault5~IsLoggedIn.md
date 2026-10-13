@@ -40,25 +40,15 @@ True if logged in, false if not
 ## Examples
 
 [Add Users (C#)](Add_Users_Example_CSharp.htm)
-
 [Add Users (VB.NET)](Add_Users_Example_VBNET.htm)
 
 ## Remarks
 
-Log in to the vault by calling
-
-[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)
-
-or
-
-[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)
-
-.
+Log in to the vault by calling [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html).
 
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

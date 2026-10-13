@@ -46,16 +46,11 @@ True if SpeedPak, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration10::IsSpeedPak](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration11~IsSpeedPak.html)
-
-.
+See [SwDMConfiguration10::IsSpeedPak](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration11~IsSpeedPak.html).
 
 ## See Also
 
 [ISwDMConfiguration11 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11.html)
-
 [ISwDMConfiguration11 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11_members.html)
 
 ## Availability

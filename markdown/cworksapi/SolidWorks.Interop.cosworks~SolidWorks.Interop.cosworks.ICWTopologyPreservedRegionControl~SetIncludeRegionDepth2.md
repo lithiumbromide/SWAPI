@@ -52,24 +52,15 @@ void SetIncludeRegionDepth2(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SetIncludeRegionDepth2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetIncludeRegionDepth2.html)
-
-.
+See [CWTopologyPreservedRegion::SetIncludeRegionDepth2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetIncludeRegionDepth2.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SilentFind.htm
 
 # SilentFind Method (IEdmFindUser)
 
-Silently searches for users with search criteria specified by
-
-[IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html)
-
-.
+Silently searches for users with search criteria specified by [IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html).
 
 ## Syntax
 
@@ -37,15 +33,11 @@ void SilentFind();
 
 ## Examples
 
-See the example for
-
-[IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
-.
+See the example for [IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html).
 
 ## Remarks
 
-The result of the search is returned in the property,[IEdmFindUser.Result](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~Result.html).
+The result of the search is returned in the property, [IEdmFindUser.Result](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~Result.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -55,7 +47,6 @@ The result of the search is returned in the property,[IEdmFindUser.Result](EPDM.
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool OverrideKFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to override the K-factor value, false to not
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::OverrideKFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~OverrideKFactor.html)
-
-.
+See [BaseFlangeFeatureData::OverrideKFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~OverrideKFactor.html).
 
 ## Examples
 
@@ -72,11 +62,8 @@ See
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::KFactor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~KFactor.html)
-
 [IBaseFlangeFeatureData::TableKFactor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~TableKFactor.html)
 
 ## Availability

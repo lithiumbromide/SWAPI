@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMagneticLine Interface Members
 
-The following tables list the members exposed by[IMagneticLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html).
+The following tables list the members exposed by [IMagneticLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html).
 
 ## Public Properties
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[IMagneticLine](SolidWorks.Inter
 ## See Also
 
 [IMagneticLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

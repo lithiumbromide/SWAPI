@@ -47,13 +47,7 @@ System.bool SketchModifyScale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchModifyScale](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyScale.html)
-
-.
+See [ModelDoc2::SketchModifyScale](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyScale.html).
 
 ## Examples
 
 [Rotate, Scale, and Copy Sketch (C#)](Rotate_Scale_Copy_Sketch_Example_CSharp.htm)
-
 [Rotate, Scale, and Copy Sketch (VB.NET)](Rotate_Scale_Copy_Sketch_Example_VBNET.htm)
-
 [Rotate, Scale, and Copy Sketch (VBA)](Rotate_Scale_Copy_Sketch_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ToolsSketchScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ToolsSketchScale.html)
 
 ## Availability

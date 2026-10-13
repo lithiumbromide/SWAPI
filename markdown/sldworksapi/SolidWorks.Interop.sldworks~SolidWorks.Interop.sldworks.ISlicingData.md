@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 Allows access to slicing tool data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISlicingData
 
 ## VBA Syntax
 
-See
-
-[SlicingData](ms-its:sldworksapivb6.chm::/sldworks~SlicingData.html)
-
-.
+See [SlicingData](ms-its:sldworksapivb6.chm::/sldworks~SlicingData.html).
 
 ## Examples
 
@@ -53,7 +49,7 @@ See
 
 'Preconditions:
 
-' 1. Open`Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2020\samples\tutorial\api\cube.sldprt**.
+' 1. Open `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2020\samples\tutorial\api\cube.sldprt**.
 
 ' 2. Change units to MKS.
 
@@ -61,13 +57,13 @@ See
 
 'Postconditions:
 
-' 1. Selects**Front Plane**as the first slicing plane.
+' 1. Selects **Front Plane** as the first slicing plane.
 
 ' 2. Gets the default slicing parameters.
 
 ' 3. Specifies new slicing parameters.
 
-' 4. Performs slicing and adds**Slice1**to the FeatureManager design tree.
+' 4. Performs slicing and adds **Slice1** to the FeatureManager design tree.
 
 ' 5. Inspect the graphics area and the Immediate window.
 
@@ -107,15 +103,15 @@ Debug.Print "Distance between slices: " & sliceData.**Offset**
 Debug.Print "Type of slicing as defined in swSlicingTypes_e: " & sliceData.**SlicesToGenerate**
 Debug.Print "Add slicing planes and sketches to folder? " & sliceData.**AddSlicingPlanesAndSketchesToFolder**
 
-sliceData.**ReverseDirection**= False
+sliceData.**ReverseDirection** = False
 boolstatus = sliceData.**SetBoundingBoxDirection1**(0.1397)
 boolstatus = sliceData.**SetBoundingBoxDirection2**(0.1397)
 boolstatus = sliceData.**SetBoundingBoxDirection3**(-0.1397)
 boolstatus = sliceData.**SetBoundingBoxDirection4**(-0.1397)
-sliceData.**NumberOfPlanes**= 6
-sliceData.**Offset**= 0.01
-sliceData.**SlicesToGenerate**= swSlicingTypes_Rectangle
-sliceData.**AddSlicingPlanesAndSketchesToFolder**= True
+sliceData.**NumberOfPlanes** = 6
+sliceData.**Offset** = 0.01
+sliceData.**SlicesToGenerate** = swSlicingTypes_Rectangle
+sliceData.**AddSlicingPlanesAndSketchesToFolder** = True
 
 Debug.Print ""
 Debug.Print "New values:"
@@ -145,9 +141,9 @@ End Sub
 
 You must pre-select the first slicing plane before you can access the default bounding box directions for slicing.
 
-[IFeatureManager::InsertSlicing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSlicing.html)takes this data object and invokes the Slicing tool. The Slicing tool creates a parallel or radial series of slicing planes with sketches that intersect, or slice, the model.
+[IFeatureManager::InsertSlicing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSlicing.html) takes this data object and invokes the Slicing tool. The Slicing tool creates a parallel or radial series of slicing planes with sketches that intersect, or slice, the model.
 
-For more information, see the**Slicing Tool**topics in the SOLIDWORKS user-interface help.
+For more information, see the **Slicing Tool** topics in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -160,5 +156,4 @@ For more information, see the**Slicing Tool**topics in the SOLIDWORKS user-inter
 ## See Also
 
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

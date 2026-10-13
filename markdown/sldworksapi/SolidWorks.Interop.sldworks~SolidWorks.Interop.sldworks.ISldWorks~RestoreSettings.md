@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # RestoreSettings Method (ISldWorks)
 
-Restores the specified SOLIDWORKS settings from the specified
-
-*.sldreg
-
-file.
+Restores the specified SOLIDWORKS settings from the specified ***.sldreg** file.
 
 ## Syntax
 
@@ -79,58 +75,26 @@ System.int RestoreSettings(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and filename of the settings to restore (
-
-*.sldreg
-
-) (see
-
-Remarks
-
-)
+- `FileName`: Full path and filename of the settings to restore (***.sldreg**) (see **Remarks**)
 - `SystemOptions`: True to restore system options, false to not
 - `ToolbarLayout`: True to restore the toolbar layout, false to not
-- `KeyboardShortcuts`: True to restore keyboard shortcuts, false to not (see
-
-Remarks
-
-)
+- `KeyboardShortcuts`: True to restore keyboard shortcuts, false to not (see **Remarks**)
 - `MouseGestures`: True to restore mouse gestures, false to not
 - `MenuCustomization`: True to restore menu customizations, false to not
-- `SavedViews`: True to restore saved views, false to not (see
-
-Remarks
-
-)
-- `CreateBackup`: True to create a backup of the current settings, false to not (see
-
-Remarks
-
-)
+- `SavedViews`: True to restore saved views, false to not (see **Remarks**)
+- `CreateBackup`: True to create a backup of the current settings, false to not (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swSaveRestoreSettingsResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveRestoreSettingsResults_e.html)
+Error code as defined in [swSaveRestoreSettingsResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveRestoreSettingsResults_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RestoreSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RestoreSettings.html)
-
-.
+See [SldWorks::RestoreSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RestoreSettings.html).
 
 ## Examples
 
@@ -163,20 +127,18 @@ End Sub
 
 ## Remarks
 
-This method is valid only if[ISldWorks::SaveSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SaveSettings.html)was called previously.
+This method is valid only if [ISldWorks::SaveSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SaveSettings.html) was called previously.
 
 KeyboardShortcuts and SavedViews are valid only if these settings were previously saved using ISldWorks::SaveSettings.
 
-If CreateBackup is true, this method backs up the current settings to**backup_**`userid`_`yyyymmdd`_`hhmms`s**.sldreg**in the same location as specified in FileName.
+If CreateBackup is true, this method backs up the current settings to **backup_**`userid`_`yyyymmdd`**_**`hhmms`s**.sldreg** in the same location as specified in FileName.
 
 For C++ only, specify all System.bool parameters using VARIANT_TRUE (-1) and VARIANT_FALSE (0).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::LoadAdminSettingsFile Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAdminSettingsFile.html)
 
 ## Availability

@@ -71,55 +71,17 @@ System.int RayIntersections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodiesIn`: Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-that are
-
-kadov_tag{{</spaces>}}
-
-hit by the rays (see
-
-Remarks
-
-)
+- `BodiesIn`: Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that are hit by the rays (see **Remarks**)
 - `BasePointsIn`: Array of doubles containing the x,y,z base points of each ray
 - `VectorsIn`: Array of doubles containing the direction vectors of each ray
-- `Options`: Options as defined in
-
-[swRayPtsOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayPtsOpts_e.html)
-
-(see
-
-Remarks
-
-)
-- `HitRadius`: Radius of hit cylinder; this is used mainly in grazing cases to establish a hit (see
-
-Remarks
-
-)
-- `Offset`: Length tolerance to use to establish whether a hit on a face represents the entry or exit of the ray from the body (see
-
-Remarks
-
-)
-- `HighPrecision`: True to use maximum precision when evaluating intersections close to the ray boundary, false to use dynamic precision based on the ray radius (see
-
-Remarks
-
-)
+- `Options`: Options as defined in [swRayPtsOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayPtsOpts_e.html) (see **Remarks**)
+- `HitRadius`: Radius of hit cylinder; this is used mainly in grazing cases to establish a hit (see **Remarks**)
+- `Offset`: Length tolerance to use to establish whether a hit on a face represents the entry or exit of the ray from the body (see Remarks)
+- `HighPrecision`: True to use maximum precision when evaluating intersections close to the ray boundary, false to use dynamic precision based on the ray radius (see **Remarks**)
 
 ### Return Value
 
@@ -127,15 +89,11 @@ Number of intersections
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::RayIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RayIntersections.html)
-
-.
+See [ModelDocExtension::RayIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RayIntersections.html).
 
 ## Remarks
 
-The method performs intersection operations between the specified bodies and the specified ray vectors. To get the results (a set of intersection points, intersection normals, and the bodies from your BodiesIn array that were hit), you must call[IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)and[IModelDoc2::GetRayIntersectionTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html).
+The method performs intersection operations between the specified bodies and the specified ray vectors. To get the results (a set of intersection points, intersection normals, and the bodies from your BodiesIn array that were hit), you must call [IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html) and [IModelDoc2::GetRayIntersectionTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html).
 
 Information returned by IModelDoc2::GetRayIntersectionsPoints and IModelDoc2::GetRayIntersectionTopology depends partially on the value of the Options parameter. Valid Option values can be combined using bitwise operations. See IModelDoc2::GetRayIntersectionsPoints to determine which data is always output regardless of the values specified by Options.
 
@@ -148,11 +106,8 @@ The actual ray profile is polygonal, approximating an ideal circular ray profile
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::MultiSelectByRay Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~MultiSelectByRay.html)
-
 [IModelDoc2::SelectByRay Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectByRay.html)
 
 ## Availability

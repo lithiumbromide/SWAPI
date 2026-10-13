@@ -40,24 +40,13 @@ Annotation GetAnnotation()
 Annotation^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~GetAnnotation.html)
-
-.
+See [BlockInstance::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~GetAnnotation.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

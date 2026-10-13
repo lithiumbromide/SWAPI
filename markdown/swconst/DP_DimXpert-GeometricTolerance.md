@@ -9,103 +9,32 @@ source: "swconst/DP_DimXpert-GeometricTolerance.htm"
 
 # Document Properties > DimXpert > Geometric Tolerance
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 This topic contains two tables. The information in the table:
 
 - appearing immediately after the screen capture corresponds to the settings on that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on the
-
-  dialog,
-  but are now obsolete and no longer appear on that
-
-  dialog.
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the dialog, but are now obsolete and no longer appear on that dialog.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Apply MMC to datum features of size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricApplyMMC,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricApplyMMC ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether an MMC
-(maximum material condition) symbol is placed in the datum fields when the datum
-feature is a feature of size |
-| Use as primary datums: form gtol | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPrimaryTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPrimaryTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for
-the form tolerances that are applied to primary datum features |
-| Use as secondary datums: orientation or location
-gtol - Feature of size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSecondFeatureSizeTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSecondFeatureSizeTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the
-orientation and location tolerances that are applied to secondary datum features |
-| Use as secondary datums: orientation or location
-gtol - Plane features | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSecondPlaneFeatureTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSecondPlaneFeatureTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the
-orientation and location tolerances that are applied to secondary datum features |
-| Use as tertiary datums: orientation of location
-gtol - Features of size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricThirdFeatureSizeTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricThirdFeatureSizeTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the
-orientation and location tolerances that are applied to tertiary datum features |
-| Use as tertiary datums: orientation or location
-gtol - Plane features | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricThirdPlaneFeatureTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricThirdPlaneFeatureTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the
-orientation and location tolerances that are applied to tertiary datum features |
-| Basic dimensions - Create basic dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricCreateBasicDimension,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricCreateBasicDimension ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to enable the
-creation of basic dimensions |
-| Basic dimensions - Create basic dimensions - Chain
-or Baseline or Polar | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBasicDimType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swBasicDimType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBasicDimType_e.< Value >) | See swBasicDimType_e for valid options | Specifies whether to use chain, baseline,
-or polar dimension schemes when the creation of basic dimensions is enabled |
-| Basic dimensions - Create basic dimensions - Polar - Minimum # holes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPolarMinHoles,
-swUserPreferenceOption_e. swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPolarMinHoles,
-swUserPreferenceOption_e. swDetailingNoOptionSpecified , < Value >) | Integer value | Specifies the minimum number of holes in a polar dimension scheme |
-| Position - At MMC | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricPositionAtMMC,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricPositionAtMMC ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to place an MMC
-symbol |
-| Position - Composite | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricPositionComposite,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricPositionComposite ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to create
-composite position tolerances |
-| Position - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPositionTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPositionTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets position MMC or position
-composite tolerance |
-| Position - Composite - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPositionCompositeTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPositionCompositeTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets position composite tolerance |
-| Surface profile - Composite | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricSurfaceProfileComposite,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricSurfaceProfileComposite ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use tolerance
-values and criteria when creating surface profile tolerances |
-| Surface profile - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSurfaceProfileTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSurfaceProfileTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets surface profile tolerance |
-| Surface profile - Composite - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSurfaceProfileCompositeTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSurfaceProfileCompositeTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets composite profile tolerance |
-| Runout | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricRunoutTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricRunoutTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance to use when
-creating runout tolerances |
-
-(Table)=========================================================
+| Apply MMC to datum features of size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricApplyMMC, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricApplyMMC , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether an MMC (maximum material condition) symbol is placed in the datum fields when the datum feature is a feature of size |
+| Use as primary datums: form gtol | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPrimaryTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPrimaryTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the form tolerances that are applied to primary datum features |
+| Use as secondary datums: orientation or location gtol - Feature of size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSecondFeatureSizeTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSecondFeatureSizeTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the orientation and location tolerances that are applied to secondary datum features |
+| Use as secondary datums: orientation or location gtol - Plane features | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSecondPlaneFeatureTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSecondPlaneFeatureTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the orientation and location tolerances that are applied to secondary datum features |
+| Use as tertiary datums: orientation of location gtol - Features of size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricThirdFeatureSizeTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricThirdFeatureSizeTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the orientation and location tolerances that are applied to tertiary datum features |
+| Use as tertiary datums: orientation or location gtol - Plane features | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricThirdPlaneFeatureTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricThirdPlaneFeatureTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance value for the orientation and location tolerances that are applied to tertiary datum features |
+| Basic dimensions - Create basic dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricCreateBasicDimension, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricCreateBasicDimension , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to enable the creation of basic dimensions |
+| Basic dimensions - Create basic dimensions - Chain or Baseline or Polar | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBasicDimType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swBasicDimType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBasicDimType_e.< Value >) | See swBasicDimType_e for valid options | Specifies whether to use chain, baseline, or polar dimension schemes when the creation of basic dimensions is enabled |
+| Basic dimensions - Create basic dimensions - Polar - Minimum # holes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPolarMinHoles, swUserPreferenceOption_e. swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPolarMinHoles, swUserPreferenceOption_e. swDetailingNoOptionSpecified , < Value >) | Integer value | Specifies the minimum number of holes in a polar dimension scheme |
+| Position - At MMC | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricPositionAtMMC, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricPositionAtMMC , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to place an MMC symbol |
+| Position - Composite | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricPositionComposite, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricPositionComposite , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to create composite position tolerances |
+| Position - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPositionTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPositionTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets position MMC or position composite tolerance |
+| Position - Composite - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricPositionCompositeTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricPositionCompositeTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets position composite tolerance |
+| Surface profile - Composite | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertGeometricSurfaceProfileComposite, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertGeometricSurfaceProfileComposite , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use tolerance values and criteria when creating surface profile tolerances |
+| Surface profile - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSurfaceProfileTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSurfaceProfileTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets surface profile tolerance |
+| Surface profile - Composite - Tolerance | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricSurfaceProfileCompositeTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricSurfaceProfileCompositeTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets composite profile tolerance |
+| Runout | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertGeometricRunoutTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertGeometricRunoutTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the tolerance to use when creating runout tolerances |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

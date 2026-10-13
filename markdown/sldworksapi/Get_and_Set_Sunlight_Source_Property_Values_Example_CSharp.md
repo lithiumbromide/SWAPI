@@ -85,11 +85,7 @@ SunlightProperties_CSharp.csproj
 {
 ```
 
-partial
-
-class
-
-SolidWorksMacro
+partial class SolidWorksMacro
 
 ```vb
 {
@@ -119,14 +115,7 @@ object
 
 vVector;
 
-double
-
-[]
-nVector =
-
-new
-
-double
+double[] nVector = new double
 
 [3];
 
@@ -162,9 +151,7 @@ double
 
 SkyGamma;
 
-public
-
-void
+public void
 
 Main()
 
@@ -178,40 +165,19 @@ swModelDoc = (
 
 ModelDoc2
 
-)swApp.
-
-ActiveDoc
-
-;
+)swApp.**ActiveDoc**;
 
 ```vb
 swModelDocExt = swModelDoc.Extension;
 ```
 
-//Get
-sunlight properties
+//Get sunlight properties
 
 ```vb
 retval = swModelDocExt.GetSunLightSourcePropertyValues(
 ```
 
-out
-
-NorthDirection,
-
-out
-
-NorthLatitude,
-
-out
-
-EastLongitude,
-
-out
-
-TimeZone,
-
-out
+out NorthDirection, out NorthLatitude, out EastLongitude, out TimeZone, out
 
 DateTime);
 
@@ -219,140 +185,43 @@ DateTime);
 retval = swModelDocExt.GetSunLightAdvancedPropertyValues(
 ```
 
-out
-
-Haze,
-
-out
-
-SunDiameter,
-
-out
-
-GroundAlbedo,
-
-out
+out Haze, out SunDiameter, out GroundAlbedo, out
 
 SkyGamma);
 
-Debug
+Debug.Print("North direction: " + ((double[])(NorthDirection.**ArrayData**))[0] + "," + ((double[])(NorthDirection.**ArrayData**))[1] + "," + ((double
 
-.Print(
+[])(NorthDirection.**ArrayData**))[2]);
 
-"North
-direction: "
-
-+ ((
-
-double
-
-[])(NorthDirection.
-
-ArrayData
-
-))[0]
-+
-
-","
-
-+
-((
-
-double
-
-[])(NorthDirection.
-
-ArrayData
-
-))[1]
-+
-
-","
-
-+
-((
-
-double
-
-[])(NorthDirection.
-
-ArrayData
-
-))[2]);
-
-Debug
-
-.Print(
-
-"North
-latitude:
-"
+Debug.Print("North latitude: "
 
 + NorthLatitude);
 
-Debug
-
-.Print(
-
-"East
-longitude:
-"
+Debug.Print("East longitude: "
 
 + EastLongitude);
 
-Debug
-
-.Print(
-
-"Time
-zone:
-"
+Debug.Print("Time zone: "
 
 + TimeZone);
 
-Debug
-
-.Print(
-
-"Date
-and time:
-"
+Debug.Print("Date and time: "
 
 + DateTime);
 
-Debug
-
-.Print(
-
-"Haze
-(0.0 - 1.0): "
+Debug.Print("Haze (0.0 - 1.0): "
 
 + Haze);
 
-Debug
-
-.Print(
-
-"Sun
-diameter (0.01 - 21474836.47): "
+Debug.Print("Sun diameter (0.01 - 21474836.47): "
 
 + SunDiameter);
 
-Debug
-
-.Print(
-
-"RGB
-for ground albedo: "
+Debug.Print("RGB for ground albedo: "
 
 + GroundAlbedo);
 
-Debug
-
-.Print(
-
-"Sky
-Gamma (0.1 = 100.0): "
+Debug.Print("Sky Gamma (0.1 = 100.0): "
 
 + SkyGamma);
 
@@ -372,11 +241,7 @@ swMathUtil = (
 
 MathUtility
 
-)swApp.
-
-GetMathUtility
-
-();
+)swApp.**GetMathUtility**();
 
 ```vb
 nVector[0] = 1;
@@ -388,11 +253,7 @@ NorthDirection = (
 
 MathVector
 
-)swMathUtil.
-
-CreateVector
-
-((vVector));
+)swMathUtil.**CreateVector**((vVector));
 
 ```vb
 DateTime =
@@ -410,9 +271,7 @@ retval = swModelDocExt.SetSunLightSourcePropertyValues(NorthDirection, NorthLati
 }
 ```
 
-public
-
-SldWorks
+public SldWorks
 
 swApp;
 

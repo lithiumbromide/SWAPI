@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Spotlight_and_Get_Light_Feature_Example_CSharp.htm"
 
 # Add Spotlight and Get Light Feature Example (C#)
 
-This example shows how to add a spotlight to a model and get its light
-feature.
+This example shows how to add a spotlight to a model and get its light feature.
 
 ```
 //-------------------------------------------------------------------------

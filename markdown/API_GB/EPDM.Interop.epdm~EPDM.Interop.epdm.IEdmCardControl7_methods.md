@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7_methods.htm
 
 # IEdmCardControl7 Interface Methods
 
-For a list of all members of this type, see[IEdmCardControl7 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7_members.html).
+For a list of all members of this type, see [IEdmCardControl7 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmCardControl7 members](EPDM.Inter
 ## See Also
 
 [IEdmCardControl7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

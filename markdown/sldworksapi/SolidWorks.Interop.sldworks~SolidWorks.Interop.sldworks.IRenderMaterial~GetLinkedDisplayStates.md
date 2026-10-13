@@ -40,13 +40,7 @@ System.object GetLinkedDisplayStates()
 System.Object^ GetLinkedDisplayStates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Array of display state names
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::GetLinkedDisplayStates](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetLinkedDisplayStates.html)
-
-.
+See [RenderMaterial::GetLinkedDisplayStates](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetLinkedDisplayStates.html).
 
 ## Examples
 
-See the
-
-[IRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
-
-examples.
+See the [IRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html) examples.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IModelDocExtension::SetLinkedDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SetLinkedDisplayStates.html)
 
 ## Availability

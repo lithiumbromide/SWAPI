@@ -39,11 +39,7 @@ System.int GetRevisionNumberIDFromState(
 
 ### Parameters
 
-- `lStateID`: ID of workflow state for which to get a revision number (see
-
-Remarks
-
-)
+- `lStateID`: ID of workflow state for which to get a revision number (see **Remarks**)
 
 ### Return Value
 
@@ -51,7 +47,7 @@ Revision number ID; 0 if no revision number is found for the specified workflow 
 
 ## Remarks
 
-Before calling this method, set lStateID using[IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html).ID.
+Before calling this method, set lStateID using [IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html).ID.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -61,7 +57,6 @@ Before calling this method, set lStateID using[IEdmState5](EPDM.Interop.epdm~EPD
 ## See Also
 
 [IEdmRevisionMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html)
-
 [IEdmRevisionMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2_members.html)
 
 ## Availability

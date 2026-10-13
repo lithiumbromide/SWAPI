@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # BumpAmplitude Property (IRenderMaterial)
 
-Obsolete. Superseded by
-
-[IRenderMaterial::BumpStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~BumpStrength.html)
-
-.
+Obsolete. Superseded by [IRenderMaterial::BumpStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~BumpStrength.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double BumpAmplitude {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Amplitude
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpAmplitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpAmplitude.html)
-
-.
+See [RenderMaterial::BumpAmplitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpAmplitude.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -50,32 +50,20 @@ void IGetTwoAdjacentFaces2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Face1`: Pointer to the first adjacent[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-- `Face2`: Pointer to the second adjacent[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+- `Face1`: Pointer to the first adjacent [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+- `Face2`: Pointer to the second adjacent [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[Edge::IGetTwoAdjacentFaces2](ms-its:sldworksapivb6.chm::/sldworks~Edge~IGetTwoAdjacentFaces2.html)
-
-.
+See [Edge::IGetTwoAdjacentFaces2](ms-its:sldworksapivb6.chm::/sldworks~Edge~IGetTwoAdjacentFaces2.html).
 
 ## Remarks
 
 This method is designed to be used with body-related edges, not reference curve or reference sketch edges. This method supports both solid and sheet bodies.
-
-(Table)=========================================================
 
 | If... | Then the values returned are... |
 | --- | --- |
@@ -85,13 +73,9 @@ This method is designed to be used with body-related edges, not reference curve 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::GetTwoAdjacentFaces2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetTwoAdjacentFaces2.html)
-
 [IVertex::GetAdjacentFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetAdjacentFaces.html)
-
 [IVertex::IGetAdjacentFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetAdjacentFaces.html)
 
 ## Availability

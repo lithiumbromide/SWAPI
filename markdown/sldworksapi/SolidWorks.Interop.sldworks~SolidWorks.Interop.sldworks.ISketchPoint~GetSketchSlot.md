@@ -40,34 +40,20 @@ SketchSlot GetSketchSlot()
 SketchSlot^ GetSketchSlot();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Sketch slot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSlot.html)
-
-if the sketch point is associated with a sketch slot, or null if the sketch point is not associated with a sketch slot
+[Sketch slot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSlot.html) if the sketch point is associated with a sketch slot, or null if the sketch point is not associated with a sketch slot
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::GetSketchSlot](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetSketchSlot.html)
-
-.
+See [SketchPoint::GetSketchSlot](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetSketchSlot.html).
 
 ## Examples
 
 [Get Sketch Slot Using Sketch Point and Segment (C#)](Get_Sketch_Slot_Using_Sketch_Point_and_Segment_Example_CSharp.htm)
-
 [Get Sketch Slot Using Sketch Point and Segment (VB.NET)](Get_Sketch_Slot_Using_Sketch_Point_and_Segment_Example_VBNET.htm)
-
 [Get Sketch Slot Using Sketch Point and Segment (VBA)](Get_Sketch_Slot_Using_Sketch_Point_and_Segment_Example_VB.htm)
 
 ## Remarks
@@ -79,7 +65,6 @@ A sketch slot is returned if it is associated with the sketch point regardless i
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
 
 ## Availability

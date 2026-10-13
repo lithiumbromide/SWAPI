@@ -47,13 +47,7 @@ System.int GetRevisionSymbolCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,22 @@ See
 
 ### Return Value
 
-Number of revision symbols for this revision IDParamDesc
+Number of revision symbols for this revision ID
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::GetRevisionSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionSymbolCount.html)
-
-.
+See [RevisionTableAnnotation::GetRevisionSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetRevisionSymbolCount.html).
 
 ## Remarks
 
-Call this method before calling[IRevisionTableAnnotation::IGetRevisionSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetRevisionSymbols.html)to get the size of the array for that method.
+Call this method before calling [IRevisionTableAnnotation::IGetRevisionSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetRevisionSymbols.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::GetRevisionSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetRevisionSymbols.html)
-
 [IRevisionTableAnnotation::IGetRevisionSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~IGetRevisionSymbols.html)
-
 [IRevisionTableAnnotation::CurrentRevision Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~CurrentRevision.html)
 
 ## Availability

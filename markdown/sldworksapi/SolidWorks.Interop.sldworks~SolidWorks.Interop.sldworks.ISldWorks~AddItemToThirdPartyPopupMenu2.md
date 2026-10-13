@@ -83,77 +83,49 @@ System.bool AddItemToThirdPartyPopupMenu2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RegisterId`: ID of shortcut menu from
-
-[ISldWorks::RegisterThirdPartyPopupMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterThirdPartyPopupMenu.html)
-- `DocType`: Document type where to display shortcut menu, as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `Item`: Unique display name of shortcut menu item (see**Remarks**); specify an empty string if adding an icon to the menu bar
-- `Identifier`: ID of the add-in; value of the Cookie argument passed by
-
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `RegisterId`: ID of shortcut menu from [ISldWorks::RegisterThirdPartyPopupMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterThirdPartyPopupMenu.html)
+- `DocType`: Document type where to display shortcut menu, as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `Item`: Unique display name of shortcut menu item (see **Remarks**); specify an empty string if adding an icon to the menu bar
+- `Identifier`: ID of the add-in; value of the Cookie argument passed by [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
 - `CallbackFunction`: Function called when user clicks the shortcut menu item; specify an empty string if MenuItemTypeOption is:
 
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Break
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Separator
 
-  .swMenuItemType_Break
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
-
-  .swMenuItemType_Separator
-
-(see**Remarks**)
+  (see **Remarks**)
 - `EnableFunction`: Optional function that controls the state of the shortcut menu item
 
-If specified, SOLIDWORKS:
+  If specified, SOLIDWORKS:
 
-1. calls this function before displaying the menu
-2. displays the menu item according to the return value of this function
+  1. calls this function before displaying the menu
+  2. displays the menu item according to the return value of this function
 
-(Table)=========================================================
+  | If EnableFunction returns... | Then SOLIDWORKS... |
+  | --- | --- |
+  | 0 | Deselects and disables the menu item |
+  | 1 | Deselects and enables the menu item; this is the default menu state if EnableFunction is not specified |
+  | 2 | Selects and disables the menu item |
+  | 3 | Selects and enables the menu item |
 
-| If EnableFunction returns... | Then SOLIDWORKS... |
-| --- | --- |
-| 0 | Deselects and disables the menu item |
-| 1 | Deselects and enables the menu item; this is the default menu state if EnableFunction is not specified |
-| 2 | Selects and disables the menu item |
-| 3 | Selects and enables the menu item |
+  Specify an empty string if MenuItemTypeOption is:
 
-Specify an empty string if MenuItemTypeOption is:
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Break
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Separator
 
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
-
-  .swMenuItemType_Break
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
-
-  .swMenuItemType_Separator
-
-(see**Remarks**)
+  (see **Remarks**)
 - `CustomName`: Empty string
 - `HintString`: Text to display in the SOLIDWORKS status bar when users move the mouse over this shortcut menu item
 - `BitmapFileName`: Path and filename of bitmap for icons (menu bar or menu item)
 
-Specify an empty string if MenuItemTypeOption is:
+  Specify an empty string if MenuItemTypeOption is:
 
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
-
-  .swMenuItemType_Break
-- [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
-
-  .swMenuItemType_Separator
-- `MenuItemTypeOption`: Type of menu item as defined in
-
-[swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Break
+  - [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html).swMenuItemType_Separator
+- `MenuItemTypeOption`: Type of menu item as defined in [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
 
 ### Return Value
 
@@ -223,21 +195,18 @@ True if the shortcut menu item is added, false if not
 ## Examples
 
 [Add Shortcut Menus to Add-ins (VB.NET)](Add_Shortcut_Menus_to_Add-ins_VBNET.htm)
-
 [Add Shortcut Menus to Add-ins (C#)](Add_Shortcut_Menus_to_Add-ins_CSharp.htm)
 
 ## Remarks
 
-See[Add-in Callback and Enable Methods](sldworksapiprogguide.chm::/OVERVIEW/Add-in_Callbacks.htm)to learn how to specify CallbackFunction and EnableFunction.
+See [Add-in Callback and Enable Methods](sldworksapiprogguide.chm::/OVERVIEW/Add-in_Callbacks.htm) to learn how to specify CallbackFunction and EnableFunction.
 
-Read about[Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm).
+Read about [Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddItemToThirdPartyPopupMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu.html)
 
 ## Availability

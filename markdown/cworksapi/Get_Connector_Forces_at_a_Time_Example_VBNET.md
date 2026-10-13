@@ -9,10 +9,7 @@ source: "cworksapi/Get_Connector_Forces_at_a_Time_Example_VBNET.htm"
 
 # Get Connector Forces, Moments, and Torques at a Time Example (VB.NET)
 
-This example shows how to get the forces, bending
-moments, and torques for
-a selected
-connector at a specified time.
+This example shows how to get the forces, bending moments, and torques for a selected connector at a specified time.
 
 ```vb
  '---------------------------------------------------------------------------

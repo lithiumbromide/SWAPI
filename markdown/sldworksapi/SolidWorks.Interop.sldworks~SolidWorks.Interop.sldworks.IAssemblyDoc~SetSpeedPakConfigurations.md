@@ -51,30 +51,12 @@ System.bool SetSpeedPakConfigurations(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
-
-(see
-
-Remarks
-
-)
-- `Config_names`: Array of the names of the configurations in the selected subassemblies to which to apply SpeedPak; valid only if Config_opt = swInConfigurationOpts_e.swSpecifyConfiguration (see
-
-Remarks
-
-)
+- `Config_opt`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html) (see **Remarks**)
+- `Config_names`: Array of the names of the configurations in the selected subassemblies to which to apply SpeedPak; valid only if Config_opt = swInConfigurationOpts_e.swSpecifyConfiguration (see **Remarks**)
 
 ### Return Value
 
@@ -82,11 +64,7 @@ True if the specified configurations in the selected subassemblies are applied S
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SetSpeedPakConfigurations](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetSpeedPakConfigurations.html)
-
-.
+See [AssemblyDoc::SetSpeedPakConfigurations](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetSpeedPakConfigurations.html).
 
 ## Remarks
 
@@ -101,17 +79,11 @@ If Config_names = swInConfigurationOpts_e.swAllConfiguration or swInConfiguratio
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::CreateSpeedPak Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateSpeedPak.html)
-
 [IAssemblyDoc::SetSpeedPakToParent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetSpeedPakToParent.html)
-
 [IAssemblyDoc::UpdateSpeedPak Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UpdateSpeedPak.html)
-
 [IAssemblyDoc::UseSpeedPak Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UseSpeedPak.html)
-
 [IAssemblyDoc::IsSpeedPak Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsSpeedPak.html)
 
 ## Availability

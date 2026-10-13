@@ -47,13 +47,7 @@ System.Object^ GetVertexNormal(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ Array of 3 doubles describing the normal vector direction of this vertex corresp
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetVertexNormal](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetVertexNormal.html)
-
-.
+See [Tessellation::GetVertexNormal](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetVertexNormal.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetVertexNormal Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetVertexNormal.html)
 
 ## Availability

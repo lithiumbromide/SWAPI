@@ -43,16 +43,11 @@ void GetArchiveServerLog(
 
 ## Examples
 
-See the
-
-[IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
-examples.
+See the [IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html) examples.
 
 ## See Also
 
 [IEdmVault20 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
 [IEdmVault20 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20_members.html)
 
 ## Availability

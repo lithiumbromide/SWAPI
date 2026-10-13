@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_and_Show_BOM_Table_in_Assembly_Example_VBNET.htm"
 
 # Insert and Show BOM Table in Assembly Example (VB.NET)
 
-This example shows how to insert and show a BOM table in an assembly
-document.
+This example shows how to insert and show a BOM table in an assembly document.
 
 ```
 '------------------------------------------------

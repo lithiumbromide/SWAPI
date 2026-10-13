@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # GetFacesCount Method (ISurfaceOffsetFeatureData)
 
-Obsolete. Superseded by
-
-[ISurfaceOffsetFeatureData::GetEntitiesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~GetEntitiesCount.html)
-
-.
+Obsolete. Superseded by [ISurfaceOffsetFeatureData::GetEntitiesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~GetEntitiesCount.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.int GetFacesCount()
 System.int GetFacesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,28 +48,17 @@ Number of offset faces
 
 ## VBA Syntax
 
-See
-
-[SurfaceOffsetFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~GetFacesCount.html)
-
-.
+See [SurfaceOffsetFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~GetFacesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISurfaceOffsetFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~IGetFaces.html)
-
-.
+Call this method before calling [ISurfaceOffsetFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceOffsetFeatureData~IGetFaces.html).
 
 ## See Also
 
 [ISurfaceOffsetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html)
-
 [ISurfaceOffsetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData_members.html)
-
 [ISurfaceOffsetFeatureData::ISetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~ISetFaces.html)
-
 [ISurfaceOffsetFeatureData::Faces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~Faces.html)
 
 ## Availability

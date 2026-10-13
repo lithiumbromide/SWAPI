@@ -1,6 +1,5 @@
 ---
-title: "DimXpertIntersectPlaneFeature Object
-Members"
+title: "DimXpertIntersectPlaneFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertIntersectPlaneFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertIntersectPlaneFeature_members.html"
 ---
 
-# DimXpertIntersectPlaneFeature Object
-Members
+# DimXpertIntersectPlaneFeature Object Members
 
 ## Public Methods
 

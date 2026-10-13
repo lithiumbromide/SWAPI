@@ -67,16 +67,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertAngleBetweenDimTol::GetDirectionVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenDimTol~GetDirectionVector.html)
-
-.
+See [DimXpertAngleBetweenDimTol::GetDirectionVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenDimTol~GetDirectionVector.html).
 
 ## See Also
 
 [IDimXpertAngleBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.html)
-
 [IDimXpertAngleBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol_members.html)
 
 ## Availability

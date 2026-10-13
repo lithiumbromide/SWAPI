@@ -9,17 +9,12 @@ source: "sldworksapi/Use_Persistent_Reference_Example_CSharp.htm"
 
 # Use Persistent Reference Example (C#)
 
-Persistent references are a means of returning to an item between sessions
-of SOLIDWORKS. Persistent references are similar to attributes, but are
-easier to use. In almost all cases, persistent references can, and should,
-be used in place of attributes.
+Persistent references are a means of returning to an item between sessions of SOLIDWORKS Design. Persistent references are similar to attributes, but are easier to use. In almost all cases, persistent references can, and should, be used in place of attributes.
 
 This example:
 
 - shows how to use persistent references.
-- is primarily diagnostic code that determines whether
-  the currently selected item has a persistent reference from which an object can
-  be retrieved.
+- is primarily diagnostic code that determines whether the currently selected item has a persistent reference from which an object can be retrieved.
 
 ```vb
  //----------------------------------------------------------------------------

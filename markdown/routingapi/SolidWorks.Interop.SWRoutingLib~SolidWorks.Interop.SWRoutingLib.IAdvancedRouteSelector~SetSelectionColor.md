@@ -57,24 +57,15 @@ void SetSelectionColor(
 
 ## VBA Syntax
 
-See
-
-[AdvancedRouteSelector::SetSelectionColor](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~SetSelectionColor.html)
-
-.
+See [AdvancedRouteSelector::SetSelectionColor](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~SetSelectionColor.html).
 
 ## Examples
 
-See the
-
-[IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
-examples.
+See the [IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html) examples.
 
 ## See Also
 
 [IAdvancedRouteSelector Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
 [IAdvancedRouteSelector Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector_members.html)
 
 ## Availability

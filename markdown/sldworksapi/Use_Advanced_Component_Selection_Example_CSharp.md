@@ -11,10 +11,8 @@ source: "sldworksapi/Use_Advanced_Component_Selection_Example_CSharp.htm"
 
 This example shows how to:
 
-- load an advanced selection
-  component query file.
-- select, add, delete, and
-  save a selection criteria.
+- load an advanced selection component query file.
+- select, add, delete, and save a selection criteria.
 
 ```
 //-------------------------------------------------------

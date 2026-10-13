@@ -9,8 +9,7 @@ source: "cworksapi/Calculate_Edge_Weld_Results_Example_CSharp.htm"
 
 # Calculate Edge Weld Results Example (C#)
 
-This example shows how to calculate the edge weld results for a specific edge
-weld connector.
+This example shows how to calculate the edge weld results for a specific edge weld connector.
 
 ```vb
 //---------------------------------------------------------------------------

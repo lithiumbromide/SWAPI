@@ -51,24 +51,15 @@ Structural material costs
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::StructuralMaterialCost](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~StructuralMaterialCost.html)
-
-.
+See [CostAnalysis3dPrinting::StructuralMaterialCost](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~StructuralMaterialCost.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
 
 ## Availability

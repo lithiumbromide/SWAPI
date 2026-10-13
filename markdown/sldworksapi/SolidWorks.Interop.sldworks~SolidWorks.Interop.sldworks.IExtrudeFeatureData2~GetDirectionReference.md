@@ -59,30 +59,14 @@ System.int GetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Ref1`: First reference entity
-- `Type1`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-(see
-
-Remarks
-
-)
+- `Type1`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) (see **Remarks**)
 - `Ref2`: Second reference entity
-- `Type2`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type2`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -90,17 +74,11 @@ Number of reference entities used to define the direction of the extrusion
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetDirectionReference.html)
-
-.
+See [ExtrudeFeatureData2::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~GetDirectionReference.html).
 
 ## Remarks
 
 Sometimes one reference entity defines a direction; for example, an edge or axis. Other times, two reference entities define a direction; for example, two vertices or two sketch points.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -120,9 +98,7 @@ Valid reference entities for Type1 and Type2:
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::SetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~SetDirectionReference.html)
 
 ## Availability

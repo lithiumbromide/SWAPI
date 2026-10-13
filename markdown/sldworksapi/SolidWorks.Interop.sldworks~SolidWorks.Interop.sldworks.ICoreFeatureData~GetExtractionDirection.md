@@ -59,32 +59,14 @@ System.int GetExtractionDirection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type1`: Type of entity as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `PDir1`: Entity that defines the extraction direction (see
-
-Remarks
-
-)
-- `Type2`: Type of entity as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `PDir2`: Entity that defines the extraction direction (see
-
-Remarks
-
-)
+- `Type1`: Type of entity as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `PDir1`: Entity that defines the extraction direction (see **Remarks**)
+- `Type2`: Type of entity as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `PDir2`: Entity that defines the extraction direction (see Remarks)
 
 ### Return Value
 
@@ -92,18 +74,12 @@ Number of entities that define the extraction direction
 
 ## VBA Syntax
 
-See
-
-[CoreFeatureData::GetExtractionDirection](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~GetExtractionDirection.html)
-
-.
+See [CoreFeatureData::GetExtractionDirection](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~GetExtractionDirection.html).
 
 ## Examples
 
 [Get Core Feature Data (C#)](Get_Core_Feature_Example_CSharp.htm)
-
 [Get Core Feature Data (VB.NET)](Get_Core_Feature_Example_VBNET.htm)
-
 [Get Core Feature Data (VBA)](Get_Core_Feature_Example_VB.htm)
 
 ## Remarks
@@ -122,9 +98,7 @@ There can be two entities because two sketch points can specify a direction.
 ## See Also
 
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [ICoreFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData_members.html)
-
 [ICoreFeatureData::SetExtractionDirection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData~SetExtractionDirection.html)
 
 ## Availability

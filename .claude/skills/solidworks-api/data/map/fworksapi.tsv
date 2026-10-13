@@ -1,0 +1,7 @@
+#swapi-map 1 module=fworksapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IFeatureWorksApp	i	Recognizes features on an imported solid body in a SOLIDWORKS part document.
+CreateFeatures	m	bool CreateFeatures(short CreationOptions:fwFeatureCreationOptions_e)	2004		Creates recognized imported features in a SOLIDWORKS part document.
+RecognizeFeatureAutomatic	m	int RecognizeFeatureAutomatic(int options:fwAutomaticRecognitionOptions_e)	2004		Recognizes imported features automatically in a SOLIDWORKS part document.
+RecognizeFeatureInteractive	m	bool RecognizeFeatureInteractive(string FeatureType, int options:fwInteractiveRecognitionOptions_e)	2004		Recognizes imported features interactively in a SOLIDWORKS part document.
+SetAdvancedOptions	m	bool SetAdvancedOptions(short options:fwAdvancedOptions_e)	2009		Set the specified advanced options.
+SetPerformanceOptions	m	bool SetPerformanceOptions(short options:fwPerformanceOptions_e)	2004		Sets the desired performance options.

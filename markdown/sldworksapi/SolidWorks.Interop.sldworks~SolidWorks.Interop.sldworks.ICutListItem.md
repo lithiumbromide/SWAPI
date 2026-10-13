@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 Allows access to a configuration-specific cut list folder.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ICutListItem
 
 ## VBA Syntax
 
-See
-
-[CutListItem](ms-its:sldworksapivb6.chm::/sldworks~CutListItem.html)
-
-.
+See [CutListItem](ms-its:sldworksapivb6.chm::/sldworks~CutListItem.html).
 
 ## Examples
 
@@ -111,7 +107,6 @@ End Sub
 ## Examples
 
 [Get Configuration-specific Cut List Custom Properties (VB.NET)](Get_Configuration-specific_Cut_List_Custom_Properties_Example_VBNET.htm)
-
 [Get Configuration-specific Cut List Custom Properties (C#)](Get_Configuration-specific_Cut_List_Custom_Properties_Example_CSharp.htm)
 
 ## Accessors
@@ -125,5 +120,4 @@ End Sub
 ## See Also
 
 [ICutListItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListItem_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

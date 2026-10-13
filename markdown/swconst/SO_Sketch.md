@@ -11,101 +11,38 @@ source: "swconst/SO_Sketch.htm"
 
 This topic contains two tables. The information in the table:
 
-- appearing immediately after the screen capture
-  of the dialog
-  corresponds to the settings on that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on
-  the dialog but are now obsolete.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the dialog corresponds to the settings on that dialog.
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the dialog but are now obsolete.
 
 | Setting | Get/Set Methods | Return Value or < OnFlag > | Comment |
 | --- | --- | --- | --- |
-| Auto-rotate view normal to sketch
-plane on sketch creation and sketch edit | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoNormalToSketchMode) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoNormalToSketchMode,
-< OnFlag >) | Boolean value | S pecifies
-whether to automatically rotate the view normal to the sketch plane when
-creating subsequent sketches; the very first sketch is always rotated normal to
-the sketch plane, even if this setting is set to false |
-| Use fully defined sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swFullyConstrainedSketchMode) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swFullyConstrainedSketchMode,
-< OnFlag >) | Boolean value | Specifies whether sketches must be fully defined to create features |
-| Display arc centerpoints in part/assembly sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayArcCenterPoints) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayArcCenterPoints,
-< OnFlag >) | Boolean value | Specifies whether to display arc center points in part and assembly
-sketches |
-| Display entity points in part/assembly sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayEntityPoints) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayEntityPoints,
-< OnFlag >) | Boolean value | Specifies whether to display endpoints of sketch entities as filled
-circles in part and assembly sketches |
-| Prompt to close sketch | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPromptToCloseSketch) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPromptToCloseSketch,
-< OnFlag >) | Boolean value | Specifies whether to display a dialog when creating open-profile sketch
-and extruding sketch to create boss feature |
-| Create sketch on new part | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateSketchOnNewPart) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateSketchOnNewPart,
-< OnFlag >) | Boolean value | Specifies whether to open new part with active sketch on the Front Plane |
-| Override dimensions on drag/move | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverrideDimensionsOnDrag) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverrideDimensionsOnDrag,
-< OnFlag >) | Boolean value | Specifies whether to override dimensions when dragging or moving sketch
-entities |
-| Display plane when shaded | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchDisplayPlaneWhenShaded) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchDisplayPlaneWhenShaded,
-< OnFlag >) | Boolean value | Specifies whether to display plane when editing sketch in Shaded With
-Edges or Shaded mode |
-| Line length measured between virtual sharps in 3d | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchLineLengthVirtualSharp3d) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchLineLengthVirtualSharp3d,
-< OnFlag >) | Boolean value | Specifies whether to measure line length between virtual sharps in 3D |
-| Enable spline tangency and curvature handles | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllSplineHandles) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllSplineHandles,
-< OnFlag >) | Boolean value | Specifies whether to display spline handles |
-| Show spline control polygon by default | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineControlPolygon) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineControlPolygon,
-< OnFlag >) | Boolean value | Specifies whether to show spline control polygon by default |
-| Ghost image on drag | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShadowDrag) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShadowDrag,
-< OnFlag >) | Boolean value | Specifies whether to enable ghost image on drag |
-| Show curvature comb bounding curve | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineOuterComb) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineOuterComb,
-< OnFlag >) | Boolean value | Specifies whether to show the
-outer spline comb |
-| Scale sketch on first dimension
-creation | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swScaleSketchOnFirstDimension) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swScaleSketchOnFirstDimension,
-< OnFlag >) | Boolean value | Specifies whether to enable the
-automatic scaling that occurs when you specify the first dimension in a sketch |
-| Enable on screen numeric input on entity creation | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchAcceptNumericInput) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchAcceptNumericInput,
-< OnFlag >) | Boolean value | Specifies whether to enable on-screen numeric input when creating a sketch
-entity; adds the Add dimensions check box to the PropertyManager page of the sketch entity |
-| Create dimension only when value is entered | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateDimensionOnlyWhenEntered) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateDimensionOnlyWhenEntered,
-< OnFlag >) | Boolean value | Specifies whether to create dimensions only when values are entered;
-valid only if Enable on screen numeric input on entity creation is true |
-| Corresponds to the Sketch Numeric
-Input button on the shortcut menu while sketching an entity | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSketchEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSketchEntity,
-< OnFlag >) | Boolean value | Specifies whether to enable
-on-screen numeric input while sketching an entity; adds Add dimensions check box to the PropertyManager page of the sketch entity |
-| Corresponds to the Add Dimension button on the shortcut menu while sketching an entity and toggles the Add
-dimensions check box on that entity's PropertyManager page | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToLineEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToLineEntity,
-< OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToRectangleEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToRectangleEntity,
-< OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToArcEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToArcEntity,
-< OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToCircleEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToCircleEntity,
-< OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSlotEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSlotEntity,
-< OnFlag >) | Boolean value | swAddDimensionsToSketchEntity must be set to true for these enumerators to have an effect |
-| Corresponds to the Sketch Dimension
-Driven button on the shortcut menu while sketching an entity | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDrivenDimensions) SldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.AddDrivenDimensions,
-< OnFlag >) | Boolean value | swAddDimensionsToSketchEntity must be set to true for this enumerator to have an effect |
-| Preview sketch dimension when selected | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPreviewDimensionOnSelect) SldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPreviewDimensionOnSelect,
-< OnFlag >) | Boolean value |  |
-| Over defining dimensions - Prompt to set driven state | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsPromptToSetState) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsPromptToSetState,
-< OnFlag >) | Boolean value | Specifies whether to display dialog when adding over-defining dimension
-to sketch |
-| Over defining dimensions - Set driven by default | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsSetDrivenByDefault) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsSetDrivenByDefault,
-< OnFlag >) | Boolean value | Specifies whether to set dimension to be driven by default when adding
-an over-defining dimension to sketch |
-| Turn off Automatic Solve Mode and Undo when sketch contains more than... | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchTurnOffAutomaticSolveModeAndUndo) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchTurnOffAutomaticSolveModeAndUndo,
-< OnFlag >) | Boolean value | Specifies whether to turn off Automatic Solve Mode and Undo when sketch contains
-more than the specified number of sketch entities |
-| this number of sketch entities | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSketch_Auto_Solve_Threshold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSketch_Auto_Solve_Threshold,
-< Value >) | Integer value | The specified number of sketch entities mentioned in the previous
-comment |
-| Hide missing geometry error for suppressed dimensions | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchSuppressedDimProfileErrorOption) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchSuppressedDimProfileErrorOption,
-< OnFlag >) | Boolean value |  |
+| Auto-rotate view normal to sketch plane on sketch creation and sketch edit | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoNormalToSketchMode) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAutoNormalToSketchMode, < OnFlag >) | Boolean value | S pecifies whether to automatically rotate the view normal to the sketch plane when creating subsequent sketches; the very first sketch is always rotated normal to the sketch plane, even if this setting is set to false |
+| Use fully defined sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swFullyConstrainedSketchMode) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swFullyConstrainedSketchMode, < OnFlag >) | Boolean value | Specifies whether sketches must be fully defined to create features |
+| Display arc centerpoints in part/assembly sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayArcCenterPoints) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayArcCenterPoints, < OnFlag >) | Boolean value | Specifies whether to display arc center points in part and assembly sketches |
+| Display entity points in part/assembly sketches | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayEntityPoints) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayEntityPoints, < OnFlag >) | Boolean value | Specifies whether to display endpoints of sketch entities as filled circles in part and assembly sketches |
+| Prompt to close sketch | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPromptToCloseSketch) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPromptToCloseSketch, < OnFlag >) | Boolean value | Specifies whether to display a dialog when creating open-profile sketch and extruding sketch to create boss feature |
+| Create sketch on new part | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateSketchOnNewPart) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateSketchOnNewPart, < OnFlag >) | Boolean value | Specifies whether to open new part with active sketch on the Front Plane |
+| Override dimensions on drag/move | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverrideDimensionsOnDrag) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverrideDimensionsOnDrag, < OnFlag >) | Boolean value | Specifies whether to override dimensions when dragging or moving sketch entities |
+| Display plane when shaded | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchDisplayPlaneWhenShaded) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchDisplayPlaneWhenShaded, < OnFlag >) | Boolean value | Specifies whether to display plane when editing sketch in Shaded With Edges or Shaded mode |
+| Line length measured between virtual sharps in 3d | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchLineLengthVirtualSharp3d) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchLineLengthVirtualSharp3d, < OnFlag >) | Boolean value | Specifies whether to measure line length between virtual sharps in 3D |
+| Enable spline tangency and curvature handles | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllSplineHandles) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllSplineHandles, < OnFlag >) | Boolean value | Specifies whether to display spline handles |
+| Show spline control polygon by default | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineControlPolygon) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineControlPolygon, < OnFlag >) | Boolean value | Specifies whether to show spline control polygon by default |
+| Ghost image on drag | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShadowDrag) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShadowDrag, < OnFlag >) | Boolean value | Specifies whether to enable ghost image on drag |
+| Show curvature comb bounding curve | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineOuterComb) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchShowSplineOuterComb, < OnFlag >) | Boolean value | Specifies whether to show the outer spline comb |
+| Scale sketch on first dimension creation | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swScaleSketchOnFirstDimension) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swScaleSketchOnFirstDimension, < OnFlag >) | Boolean value | Specifies whether to enable the automatic scaling that occurs when you specify the first dimension in a sketch |
+| Enable on screen numeric input on entity creation | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchAcceptNumericInput) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchAcceptNumericInput, < OnFlag >) | Boolean value | Specifies whether to enable on-screen numeric input when creating a sketch entity; adds the Add dimensions check box to the PropertyManager page of the sketch entity |
+| Create dimension only when value is entered | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateDimensionOnlyWhenEntered) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchCreateDimensionOnlyWhenEntered, < OnFlag >) | Boolean value | Specifies whether to create dimensions only when values are entered; valid only if Enable on screen numeric input on entity creation is true |
+| Corresponds to the Sketch Numeric Input button on the shortcut menu while sketching an entity | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSketchEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSketchEntity, < OnFlag >) | Boolean value | Specifies whether to enable on-screen numeric input while sketching an entity; adds Add dimensions check box to the PropertyManager page of the sketch entity |
+| Corresponds to the Add Dimension button on the shortcut menu while sketching an entity and toggles the Add dimensions check box on that entity's PropertyManager page | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToLineEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToLineEntity, < OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToRectangleEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToRectangleEntity, < OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToArcEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToArcEntity, < OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToCircleEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToCircleEntity, < OnFlag >) ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSlotEntity) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDimensionsToSlotEntity, < OnFlag >) | Boolean value | swAddDimensionsToSketchEntity must be set to true for these enumerators to have an effect |
+| Corresponds to the Sketch Dimension Driven button on the shortcut menu while sketching an entity | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swAddDrivenDimensions) SldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.AddDrivenDimensions, < OnFlag >) | Boolean value | swAddDimensionsToSketchEntity must be set to true for this enumerator to have an effect |
+| Preview sketch dimension when selected | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPreviewDimensionOnSelect) SldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchPreviewDimensionOnSelect, < OnFlag >) | Boolean value |  |
+| Over defining dimensions - Prompt to set driven state | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsPromptToSetState) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsPromptToSetState, < OnFlag >) | Boolean value | Specifies whether to display dialog when adding over-defining dimension to sketch |
+| Over defining dimensions - Set driven by default | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsSetDrivenByDefault) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchOverdefiningDimsSetDrivenByDefault, < OnFlag >) | Boolean value | Specifies whether to set dimension to be driven by default when adding an over-defining dimension to sketch |
+| Turn off Automatic Solve Mode and Undo when sketch contains more than... | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchTurnOffAutomaticSolveModeAndUndo) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchTurnOffAutomaticSolveModeAndUndo, < OnFlag >) | Boolean value | Specifies whether to turn off Automatic Solve Mode and Undo when sketch contains more than the specified number of sketch entities |
+| this number of sketch entities | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSketch_Auto_Solve_Threshold) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSketch_Auto_Solve_Threshold, < Value >) | Integer value | The specified number of sketch entities mentioned in the previous comment |
+| Hide missing geometry error for suppressed dimensions | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchSuppressedDimProfileErrorOption) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSketchSuppressedDimProfileErrorOption, < OnFlag >) | Boolean value |  |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

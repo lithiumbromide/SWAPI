@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html"
 
 Allows you to access the properties of an object created by a template.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,14 +36,13 @@ public interface class IEdmData
 ## Examples
 
 [Execute Template and Return Data (VB.NET)](Execute_Template_2_Example_VBNET.htm)
-
 [Execute Template and Return Data (C#)](Execute_Template_2_Example_CSharp.htm)
 
 ## Remarks
 
-This interface inherits from IDispatch. See[IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+This interface inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
 
-[IEdmTemplate53::RunEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53~RunEx.html)executes a template to create one or more files or folders. It returns an array of these interfaces, one for each file or folder, in its ppoRetData parameter.
+[IEdmTemplate53::RunEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53~RunEx.html) executes a template to create one or more files or folders. It returns an array of these interfaces, one for each file or folder, in its ppoRetData parameter.
 
 ## Accessors
 
@@ -58,5 +51,4 @@ This interface inherits from IDispatch. See[IDispatch Interface (Automation)](ht
 ## See Also
 
 [IEdmData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

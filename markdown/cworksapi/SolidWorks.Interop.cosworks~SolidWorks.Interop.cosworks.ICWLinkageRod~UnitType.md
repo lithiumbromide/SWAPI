@@ -43,22 +43,15 @@ property System.int UnitType {
 
 ### Property Value
 
-Units as defined by
-
-[swsUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnit_e.html)
+Units as defined by [swsUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::UnitType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~UnitType.html)
-
-.
+See [CWLinkageRod::UnitType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~UnitType.html).
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

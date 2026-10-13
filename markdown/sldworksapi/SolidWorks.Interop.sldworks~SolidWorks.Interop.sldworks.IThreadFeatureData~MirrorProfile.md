@@ -45,13 +45,7 @@ property System.bool MirrorProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to flip the profile of the thread helix about its horizontal or vertical ax
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~MirrorProfile.html)
-
-.
+See [ThreadFeatureData::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~MirrorProfile.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to true, use
-
-[IThreadFeatureData::MirrorType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~MirrorType.html)
-
-to specify the axis about which to flip the thread helix profile.
+If this property is set to true, use [IThreadFeatureData::MirrorType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~MirrorType.html) to specify the axis about which to flip the thread helix profile.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

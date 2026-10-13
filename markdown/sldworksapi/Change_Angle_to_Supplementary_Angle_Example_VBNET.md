@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Angle_to_Supplementary_Angle_Example_VBNET.htm"
 
 # Change Angle to Supplementary Angle Example (VB.NET)
 
-This example shows how to change the angle in an angular dimension to its
-supplementary angle.
+This example shows how to change the angle in an angular dimension to its supplementary angle.
 
 ```
 '-----------------------------------------------------------

@@ -1,6 +1,5 @@
 ---
-title: "CWLoadsAndRestraints Object
-Members"
+title: "CWLoadsAndRestraints Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWLoadsAndRestraints_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWLoadsAndRestraints_members.html"
 ---
 
-# CWLoadsAndRestraints Object
-Members
+# CWLoadsAndRestraints Object Members
 
 ## Public Methods
 

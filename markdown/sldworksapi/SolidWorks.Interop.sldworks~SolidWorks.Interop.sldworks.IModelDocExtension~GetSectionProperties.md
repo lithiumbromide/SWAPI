@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetSectionProperties Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetSectionProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetSectionProperties2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetSectionProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetSectionProperties2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetSectionProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSectionProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSectionProperties.html)
-
-.
+See [ModelDocExtension::GetSectionProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSectionProperties.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

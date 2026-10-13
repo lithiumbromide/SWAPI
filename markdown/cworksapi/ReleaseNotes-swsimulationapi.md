@@ -9,84 +9,56 @@ source: "cworksapi/ReleaseNotes-swsimulationapi.html"
 
 # Release Notes
 
-This topic provides you with quick access to the enhancements in SOLIDWORKS Simulation API 2024.
-
-###### Service Pack 1
-
-###### New methods and property
-
-##### ICWBearingConnector interface
-
-- [ICWBearingConnector::LateralStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~LateralStiffnessValue.html)
-
-  (obsoletes ICWBearingConnector::RotationalStiffnessValue)
-
-##### ICWDynamicStudyOptions interface
-
-- [ICWDynamicStudyOptions::GetExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequencies.html)
-- [ICWDynamicStudyOptions::GetExtraFrequenciesTolerancePercentage](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesTolerancePercentage.html)
-- [ICWDynamicStudyOptions::GetExtraFrequenciesTotal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesTotal.html)
-- [ICWDynamicStudyOptions::GetExtraFrequenciesUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesUnit.html)
-- [ICWDynamicStudyOptions::GetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetIncludeExtraFrequencies.html)
-- [ICWDynamicStudyOptions::SetExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequencies.html)
-- [ICWDynamicStudyOptions::SetExtraFrequenciesTolerancePercentage](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequenciesTolerancePercentage.html)
-- [ICWDynamicStudyOptions::SetExtraFrequenciesUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequenciesUnit.html)
-- [ICWDynamicStudyOptions::SetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetIncludeExtraFrequencies.html)
-
-###### Obsoleted property
-
-##### ICWBearingConnector interface
-
-- ICWBearingConnector::RotationalStiffnessValue (superseded by
-
-  [ICWBearingConnector::LateralStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~LateralStiffnessValue.html)
-
-  )
+This topic provides you with quick access to the enhancements in SOLIDWORKS Simulation API 2026.
 
 ###### Service Pack 0
 
 ###### New interface
 
-##### ICWBearingConnector interface
+##### ICWCable interface
 
-- [ICWBearingConnector::AllowLenByDiamRatioGreaterThan2ForShaft](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~AllowLenByDiamRatioGreaterThan2ForShaft.html)
-- [ICWBearingConnector::AllowShaftByBearingRatioGreaterThan2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~AllowShaftByBearingRatioGreaterThan2.html)
-- [ICWBearingConnector::AxialStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~AxialStiffnessValue.html)
-- [ICWBearingConnector::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~BeginEdit.html)
-- [ICWBearingConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~ConnectionType.html)
-- [ICWBearingConnector::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~EndEdit.html)
-- [ICWBearingConnector::GetLastErrorCode](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~GetLastErrorCode.html)
-- [ICWBearingConnector::PerformAdvanceValidations](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~PerformAdvanceValidations.html)
-- [ICWBearingConnector::ReplaceCircularFaceForShaft](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~ReplaceCircularFaceForShaft.html)
-- [ICWBearingConnector::ReplaceCircularFaceOrEdgeForHousing](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~ReplaceCircularFaceOrEdgeForHousing.html)
-- [ICWBearingConnector::RotationalStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~RotationalStiffnessValue.html)
-- [ICWBearingConnector::StabilizeShaftRotation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotation.html)
-- [ICWBearingConnector::StabilizeShaftRotationalStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotationalStiffnessValue.html)
-- [ICWBearingConnector::StabilizeShaftRotationType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotationType.html)
-- [ICWBearingConnector::StiffnessType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StiffnessType.html)
-- [ICWBearingConnector::TiltStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~TiltStiffnessValue.html)
-- [ICWBearingConnector::UnitType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~UnitType.html)
+- [ICWCable::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~BeginEdit.html)
+- [ICWCable::Density](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~Density.html)
+- [ICWCable::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~EndEdit.html)
+- [ICWCable::GetLastErrorCode](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~GetLastErrorCode.html)
+- [ICWCable::IncludeMass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~IncludeMass.html)
+- [ICWCable::InsertEntityAtEnd1](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~InsertEntityAtEnd1.html)
+- [ICWCable::InsertEntityAtEnd2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~InsertEntityAtEnd2.html)
+- [ICWCable::Mass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~Mass.html)
+- [ICWCable::MaterialSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~MaterialSource.html)
+- [ICWCable::PoissonRatio](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~PoissonsRatio.html)
+- [ICWCable::ReplaceEntitiesAtEnd1](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~ReplaceEntitiesAtEnd1.html)
+- [ICWCable::ReplaceEntitiesAtEnd2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~ReplaceEntitiesAtEnd2.html)
+- [ICWCable::SetCableParams](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetCableParams.html)
+- [ICWCable::SetFlipOffsetDirAtEnd1](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetFlipOffsetDirAtEnd1.html)
+- [ICWCable::SetFlipOffsetDirAtEnd2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetFlipOffsetDirAtEnd2.html)
+- [ICWCable::SetLibraryMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetLibraryMaterial.html)
+- [ICWCable::SetOffsetAtEnd1](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetOffsetAtEnd1.html)
+- [ICWCable::SetOffsetAtEnd2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~SetOffsetAtEnd2.html)
+- [ICWCable::ShearModulus](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~ShearModulus.html)
+- [ICWCable::ThermalCoefficient](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~ThermalCoefficient.html)
+- [ICWCable::UnitType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~UnitType.html)
+- [ICWCable::YoungsModulus](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCable~YoungsModulus.html)
 
-###### New methods and properties
+###### New methods and property
 
-##### ICWFrequencyStudyOptions interface
+##### ICWBucklingStudyOptions interface
 
-- [ICWFrequencyStudyOptions::CheckDecouple](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckDecouple.html)
-- [ICWFrequencyStudyOptions::FrequencyCapOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FrequencyCapOption.html)
-- [ICWFrequencyStudyOptions::FrequencyCapValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FrequencyCapValue.html)
+- [ICWBucklingStudyOptions::ExtractPositiveBucklingFactorsOnly](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~ExtractPositiveBucklingFactorsOnly.html)
 
 ##### ICWLoadsAndRestraintsManager interface
 
-- [ICWLoadsAndRestraintsManager::AddBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~AddBearingConnector.html)
-- [ICWLoadsAndRestraintsManager::GetBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetBearingConnector.html)
+- [ICWLoadsAndRestraintsManager::AddCable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~AddCable.html)
+- [ICWLoadsAndRestraintsManager::GetCable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetCable.html)
 
-##### ICWStudyManager interface
+##### ICWMassPropertiesManager interface
 
-- [ICWStudyManager::ConvertStudy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy2.html)
+- [ICWMassPropertiesManager::AddCables](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~AddCables.html)
+- [ICWMassPropertiesManager::RemoveAllCables](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~RemoveAllCables.html)
+- [ICWMassPropertiesManager::RemoveCables](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~RemoveCables.html)
 
-  (obsoletes ICWStudyManager::ConvertStudy)
-- [ICWStudyManager::DuplicateStudy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy2.html)
+##### ICWResults interface
 
-  (obsoletes ICWStudyManager::DuplicateStudy)
+- [ICWResults::CreateAngularRotationPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateAngularRotationPlot.html)
 
 ##### Back to top

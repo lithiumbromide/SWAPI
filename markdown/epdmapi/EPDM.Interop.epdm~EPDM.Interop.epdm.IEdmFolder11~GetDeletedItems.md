@@ -42,31 +42,20 @@ void GetDeletedItems(
 
 ### Parameters
 
-- `poDeletedItems`: Array of
-
-[EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
+- `poDeletedItems`: Array of [EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
 - `bRecursive`: True to recursively restore subfolder contents, false to not
 
 ## Examples
 
-See the
-
-[IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html)
-
-examples.
+See the [IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html) examples.
 
 ## Remarks
 
-Use
-
-[IEdmFolder11::RecoverDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~RecoverDeletedItems.html)
-
-to restore poDeletedItems to the vault view.
+Use [IEdmFolder11::RecoverDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11~RecoverDeletedItems.html) to restore poDeletedItems to the vault view.
 
 ## See Also
 
 [IEdmFolder11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html)
-
 [IEdmFolder11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11_members.html)
 
 ## Availability

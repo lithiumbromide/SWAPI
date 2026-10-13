@@ -1,0 +1,42 @@
+#swapi-enums 1 module=swvisualizeapi sw=2026 prefix=SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces. cols=name,value,description
+@ImageFormat_e		Types of image format
+BMP	1
+JPEG	0
+PNG	3
+TIFF	2
+@PartGroupingMode_e		Modes of geometry grouping in the Visualize scene.
+Appearance	0	Group by appearance
+None	2	No grouping
+Part	1	Group by part
+@RenderAction_e		Types of render action
+Cancel	1
+CancelAndSave	2
+Continue	0
+@RenderJobStatus_e		Render job status codes (see Bitmasks)
+CopyingToJobFolder	1
+CopyToJobFolderComplete	2
+JobAborted	2048
+JobCancelled	4096
+JobComplete	1024
+JobFailed	256
+JobFailedNoLicense	512
+LoadingDocument	32768
+NotFound	8192
+Outputting	64
+OutputtingComplete	128
+Paused	16384
+Queued	4
+RenderComplete	32
+Rendering	16
+RenderInitializing	8
+SaveComplete	65536
+Undetermined	0
+@RenderProperty_e		Render properties
+CurrentProgress	0
+ElapsedTime	2
+FramesRendered	1
+RendererPreviewComplete	4
+RenderJobStatus	3
+@TerminationMode_e		Render termination reasons
+QualityLevel	1	Default
+TimeLimit	0

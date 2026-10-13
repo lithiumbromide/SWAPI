@@ -37,33 +37,19 @@ public delegate System.int DDrawingDocEvents_EquationEditorPreNotifyEventHandler
 public delegate System.int DDrawingDocEvents_EquationEditorPreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EquationEditorPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~EquationEditorPreNotify_EV.html)
-
-.
+See [EquationEditorPreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~EquationEditorPreNotify_EV.html).
 
 ## Examples
 
 ## Remarks
 
-The IDrawingDoc event[EquationEditorPostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_EquationEditorPostNotifyEventHandler.html)notifies your application that is being destroyed.
+The IDrawingDoc event [EquationEditorPostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_EquationEditorPostNotifyEventHandler.html) notifies your application that is being destroyed.
 
-If developing a C++ application, use
-
-[swDrawingEquationEditorPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingEquationEditorPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

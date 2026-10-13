@@ -45,13 +45,7 @@ property System.double TransitionDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[PartingSurfaceFeatureData::TransitionDistance](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~TransitionDistance.html)
-
-.
+See [PartingSurfaceFeatureData::TransitionDistance](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~TransitionDistance.html).
 
 ## Remarks
 
-This property is only available when
-
-[IPartingSurfaceFeatureData::TransitionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingSurfaceFeatureData~TransitionType.html)
-
-is set to swPartingSurfaceSmoothngType_e.swPartingSurfaceSmooth.
+This property is only available when [IPartingSurfaceFeatureData::TransitionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingSurfaceFeatureData~TransitionType.html) is set to swPartingSurfaceSmoothngType_e.swPartingSurfaceSmooth.
 
 ## See Also
 
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IPartingSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData_members.html)
 
 ## Availability

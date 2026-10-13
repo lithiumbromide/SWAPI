@@ -59,20 +59,12 @@ System.bool SetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets
-- `Positioning`: Position as defined in
-
-[swDwgImportEntitiesPositioning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgImportEntitiesPositioning_e.html)
+- `Positioning`: Position as defined in [swDwgImportEntitiesPositioning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgImportEntitiesPositioning_e.html)
 - `X`: X coordinate of the origin of the imported drawing
 - `Y`: Y coordinate of the origin of the imported drawing
 
@@ -82,18 +74,12 @@ True if the position is set, false if not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetPosition.html)
-
-.
+See [ImportDxfDwgData::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetPosition.html).
 
 ## Examples
 
 [Insert and Position DXF/DWG File in Drawing (C#)](Insert_and_Position_DXF_File_in_Drawing_Example_CSharp.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VB.NET)](Insert_and_Position_DXF_File_in_Drawing_Example_VBNET.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VBA)](Insert_and_Position_DXF_File_in_Drawing_Example_VB.htm)
 
 ## Remarks
@@ -103,9 +89,7 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetPosition.html)
 
 ## Availability

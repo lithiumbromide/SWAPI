@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertRib2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertRib](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRib.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertRib](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRib.html).
 
 ## Syntax
 
@@ -82,13 +78,7 @@ void InsertRib2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -104,20 +94,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertRib2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRib2.html)
-
-.
+See [ModelDoc2::InsertRib2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRib2.html).
 
 ## Remarks
 
-This method supports multibody parts. You must select the input body by calling[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)and setting its Mark argument to 1 before calling this method.
+This method supports multibody parts. You must select the input body by calling [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) and setting its Mark argument to 1 before calling this method.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

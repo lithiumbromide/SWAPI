@@ -17,6 +17,7 @@ SOLIDWORKS PDM Professional API
 | --- | --- |
 | IEdmAddCustomRefs | Allows you to create or manage user-defined file references. |
 | IEdmAddCustomRefs2 | Allows you to create or manage user-defined file references. |
+| IEdmAddCustomRefs3 | Allows you to create or manage user-defined file references. |
 | IEdmAddIn5 | Allows you to create a SOLIDWORKS PDM Professional add-in. |
 | IEdmAddInDrawButton5 | Allows you to dynamically draw an add-in toolbar button. |
 | IEdmAddInMgr5 | Allows you to administer add-ins. |
@@ -133,6 +134,7 @@ SOLIDWORKS PDM Professional API
 | IEdmHistory2 | Allows you to access the history listing of files or folders. |
 | IEdmHistory3 | Allows you to access the sorted history listing of files or folders. |
 | IEdmHistory4 | Allows you to access the sorted history of files or folders. |
+| IEdmHistory5 | Allows you to access the sorted history of files or folders. |
 | IEdmHistoryUpdate | Allows you to access the version and revision comments of files. |
 | IEdmImage | Allows you to paint an image on a window. |
 | IEdmInbox5 | Allows you to access the messages sent to a user. |
@@ -286,6 +288,7 @@ SOLIDWORKS PDM Professional API
 | EdmGroupData | Contains information about a user group. |
 | EdmGroupData2 | Contains information about a user group. |
 | EdmHistoryItem | Contains a history item. |
+| EdmHistoryItem2 | Contains a history item. |
 | EdmItemRef | Contains information about an item reference. |
 | EdmLicense | Contains information about a license type and is returned by IEdmVault11::GetLicense . |
 | EdmListCol | Contains information about a column in a file listing. |

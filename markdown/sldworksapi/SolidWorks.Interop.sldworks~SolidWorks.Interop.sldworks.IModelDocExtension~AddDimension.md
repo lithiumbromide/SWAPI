@@ -59,28 +59,14 @@ System.Object^ AddDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X`: X coordinate of display dimension text
 - `Y`: Y coordinate of display dimension text
 - `Z`: Z coordinate of display dimension text
-- `Direction`: Direction of dimensioning extension line or rapid dimensioning quadrant as defined in
-
-[swSmartDimensionDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSmartDimensionDirection_e.html)
-
-(see
-
-Remarks
-
-)
+- `Direction`: Direction of dimensioning extension line or rapid dimensioning quadrant as defined in [swSmartDimensionDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSmartDimensionDirection_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -88,18 +74,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddDimension](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddDimension.html)
-
-.
+See [ModelDocExtension::AddDimension](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddDimension.html).
 
 ## Examples
 
 [Create Angular Dimension (VBA)](Create_Angular_Dimension_Example_VB.htm)
-
 [Create Angular Dimension (VB.NET)](Create_Angular_Dimension_Example_VBNET.htm)
-
 [Create Angular Dimension (C#)](Create_Angular_Dimension_Example_CSharp.htm)
 
 ## Remarks
@@ -114,46 +94,31 @@ Before calling this method, you must select the entities for which to add a disp
 
 For example, to create an angular dimension between two lines:
 
-1. Call
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to select a sketch segment of the angle you want to dimension, specifying the line's X, Y, and Z coordinates.
+1. Call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select a sketch segment of the angle you want to dimension, specifying the line's X, Y, and Z coordinates.
 2. Call IModelDocExtension::SelectByID2 to select the vertex of the angle you want to dimension, specifying the vertex's X, Y, and Z coordinates.
 3. Call this method, specifying the X, Y, Z coordinates of the display dimension text and the Direction of the extension line that is needed to unambiguously define the angle to dimension.
 
-If the pre-selected entities unambiguously define what you wish to dimension, then no extension lines are needed. In that case, call[IModelDoc2::AddDimension2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddDimension2.html)instead of this method.
+If the pre-selected entities unambiguously define what you wish to dimension, then no extension lines are needed. In that case, call [IModelDoc2::AddDimension2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddDimension2.html) instead of this method.
 
-**NOTE:**To change the angle in an angular dimension to its supplementary angle, use[IDisplayDimension::SupplementaryAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SupplementaryAngle.html).
+**NOTE:** To change the angle in an angular dimension to its supplementary angle, use [IDisplayDimension::SupplementaryAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SupplementaryAngle.html).
 
-You should only use this method on visible documents. Before using this method, use[ISldWorks::Visible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Visible.html)to check whether a document is visible.
+You should only use this method on visible documents. Before using this method, use [ISldWorks::Visible](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Visible.html) to check whether a document is visible.
 
-Before calling this method, you might want to call[ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)with[swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swInputDimValOnCreate to suppress the dialog box that allows the user to type the dimension value.
+Before calling this method, you might want to call [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) with [swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swInputDimValOnCreate to suppress the dialog box that allows the user to type the dimension value.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::AddDiameterDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddDiameterDimension2.html)
-
 [IModelDoc2::IAddDiameterDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IAddDiameterDimension2.html)
-
 [IModelDoc2::AddHorizontalDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddHorizontalDimension2.html)
-
 [IModelDoc2::IAddHorizontalDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IAddHorizontalDimension2.html)
-
 [IModelDoc2::AddRadialDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddRadialDimension2.html)
-
 [IModelDoc2::IAddRadialDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IAddRadialDimension2.html)
-
 [IModelDoc2::AddVerticalDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddVerticalDimension2.html)
-
 [IModelDoc2::IAddVerticalDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IAddVerticalDimension2.html)
-
 [IModelDocExtension::AddSymmetricDimension Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddSymmetricDimension.html)
-
 [IModelDocExtension::AddSpecificDimension Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddSpecificDimension.html)
 
 ## Availability

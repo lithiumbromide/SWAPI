@@ -45,34 +45,20 @@ property System.int AngularEquationUnits {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Angular units used in equations as defined in
-
-[swAngularEquationUnits_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAngularEquationUnits_e.html)
+Angular units used in equations as defined in [swAngularEquationUnits_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAngularEquationUnits_e.html)
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::AngularEquationUnits](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AngularEquationUnits.html)
-
-.
+See [EquationMgr::AngularEquationUnits](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AngularEquationUnits.html).
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

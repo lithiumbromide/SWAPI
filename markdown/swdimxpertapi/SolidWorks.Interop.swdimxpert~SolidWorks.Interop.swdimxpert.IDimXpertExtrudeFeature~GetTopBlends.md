@@ -46,24 +46,15 @@ DimXpertFeature^ GetTopBlends();
 
 ## VBA Syntax
 
-See
-
-[DimXpertExtrudeFeature::GetTopBlends](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetTopBlends.html)
-
-.
+See [DimXpertExtrudeFeature::GetTopBlends](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetTopBlends.html).
 
 ## Remarks
 
-The top blend is typically an
-
-[IDimXpertFilletFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFilletFeature.html)
-
-.
+The top blend is typically an [IDimXpertFilletFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFilletFeature.html).
 
 ## See Also
 
 [IDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.html)
-
 [IDimXpertExtrudeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature_members.html)
 
 ## Availability

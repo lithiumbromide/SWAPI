@@ -45,34 +45,19 @@ property System.Object^ AnnotationViews {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[IAnnotationView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView.html)
-
-s
+Array of [IAnnotationView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView.html)s
 
 ## VBA Syntax
 
-See
-
-[View3D::AnnotationViews](ms-its:sldworksapivb6.chm::/sldworks~View3D~AnnotationViews.html)
-
-.
+See [View3D::AnnotationViews](ms-its:sldworksapivb6.chm::/sldworks~View3D~AnnotationViews.html).
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

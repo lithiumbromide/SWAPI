@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseForFolderFlag.html
 
 # EdmBrowseForFolderFlag Enumeration
 
-Browse options used in calls to
-
-[IEdmVault11::BrowseForFolder2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~BrowseForFolder2.html)
-
-.
+Browse options used in calls to [IEdmVault11::BrowseForFolder2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~BrowseForFolder2.html).
 
 ## Syntax
 

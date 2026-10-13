@@ -50,43 +50,25 @@ void PreSelectDwgTemplateSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TemplateToUse`: Type of template to use as defined in[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
+- `TemplateToUse`: Type of template to use as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
 - `TemplateName`: Reserved for future use; use NULL
 
 ## VBA Syntax
 
-See
-
-[SldWorks::PreSelectDwgTemplateSize](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~PreSelectDwgTemplateSize.html)
-
-.
+See [SldWorks::PreSelectDwgTemplateSize](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~PreSelectDwgTemplateSize.html).
 
 ## Remarks
 
-By calling this method and specifying a template size, no dialog appears when the end-user interactively selects
-
-File, New, Drawing
-
-.
+By calling this method and specifying a template size, no dialog appears when the end-user interactively selects File, New, Drawing.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetDocumentTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentTemplate.html)
-
 [ISldWorks::GetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetTemplateSizes.html)
-
 [ISldWorks::IGetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetTemplateSizes.html)

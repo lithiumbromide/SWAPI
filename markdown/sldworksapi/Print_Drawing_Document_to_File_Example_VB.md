@@ -56,7 +56,7 @@ Sub main()
 ```
 
 ```
-    ' Strip off SOLIDWORKS file extension
+    ' Strip off SOLIDWORKS Design file extension
     PathName = swModel.GetPathName
     PathName = Left(PathName, Len(PathName) - 7)
 ```

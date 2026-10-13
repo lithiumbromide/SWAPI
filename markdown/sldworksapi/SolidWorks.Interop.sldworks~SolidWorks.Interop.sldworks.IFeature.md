@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 Allows access to the feature type, name, parameter data, and the next feature in the FeatureManager design tree.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,32 +41,19 @@ public interface class IFeature
 
 ## VBA Syntax
 
-See
-
-[Feature](ms-its:sldworksapivb6.chm::/sldworks~Feature.html)
-
-.
+See [Feature](ms-its:sldworksapivb6.chm::/sldworks~Feature.html).
 
 ## Examples
 
 [Access Assembly (C++)](Access_Assembly_Example_CPlusPlus_COM.htm)
-
 [Get Names of Creators of Features (C++)](Get_Names_of_Creators_of_Features_Examples_CPlusCPlus_COM.htm)
-
 [Get Spline Points (C++)](Get_Spline_Points_Example_CPlusPlus_COM.htm)
-
 [Traverse Assembly At Component and Feature Levels (VBA)](Traverse_Assembly_at_Component_and_Feature_Level_Example_VB.htm)
-
 [Get Areas of MidSurface Faces (C#)](Get_Areas_of_MidSurface_Faces_Example_CSharp.htm)
-
 [Get Areas of MidSurface Faces (VB.NET)](Get_Areas_of_MidSurface_FAces_Example_VBNET.htm)
-
 [Get Areas of MidSurface Faces (VBA)](Get_Areas_of_MidSurface_Faces_Example_VB.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (VBA)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VB.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (C#)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_CSharp.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (VB.NET)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VBNET.htm)
 
 ## Accessors
@@ -75,11 +62,13 @@ See
 
 [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
 
-[IAssemblyDoc::FeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~FeatureByName.html)and[IAssemblyDoc::IFeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IFeatureByName.html)
+[IAssemblyDoc::FeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~FeatureByName.html) and [IAssemblyDoc::IFeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IFeatureByName.html)
 
-[IBody2::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFeatures.html)and[IBody2::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetFeatures.html)
+[IBody2::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFeatures.html) and [IBody2::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetFeatures.html)
 
 [IBodyFolder::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBodyFolder~GetFeature.html)
+
+[IBodyFolder::GetTopLevelFeatures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatures.html)
 
 [IBomFeature::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetFeature.html)
 
@@ -111,7 +100,7 @@ See
 
 [ICornerTreatmentGroupFolder::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder~GetFeature.html)
 
-[ICosmosMotionStudyResults::GetPlotFeatures](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotFeatures.html)and[ICosmosMotionStudyResults::IGetPlotFeatures](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html)
+[ICosmosMotionStudyResults::GetPlotFeatures](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotFeatures.html) and [ICosmosMotionStudyResults::IGetPlotFeatures](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html)
 
 [ICosmosMotionStudyResults::InsertPlotFeature](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.ICosmosMotionStudyResults~InsertPlotFeature.html)
 
@@ -131,25 +120,27 @@ See
 
 [IDimXpertFeature::GetModelFeature](ms-its:swdimxpertapi.chm::/SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetModelFeature.html)
 
-[IDrawingDoc::FeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~FeatureByName.html)and[IDrawingDoc::IFeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IFeatureByName.html)
+[IDrawingDoc::FeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~FeatureByName.html) and [IDrawingDoc::IFeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~IFeatureByName.html)
 
-[IFace2::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeature.html)and[IFeature::IGetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetFeature.html)
+[IFace2::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeature.html) and [IFeature::IGetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetFeature.html)
 
-[IFace2::GetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetPatternSeedFeature.html)and[IFace2::IGetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetPatternSeedFeature.html)
+[IFace2::GetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetPatternSeedFeature.html) and [IFace2::IGetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetPatternSeedFeature.html)
 
-[IFeature::GetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetChildren.html)and[IFeature::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetChildren.html)
+[IFamilyTableFeature::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetFeature.html)
 
-[IFeature::GetFirstSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetFirstSubFeature.html)and[IFeature::IGetFirstSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetFirstSubFeature.html)
+[IFeature::GetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetChildren.html) and [IFeature::IGetChildren](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetChildren.html)
 
-[IFeature::GetNextFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextFeature.html)and[IFeature::IGetNextFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextFeature.html)
+[IFeature::GetFirstSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetFirstSubFeature.html) and [IFeature::IGetFirstSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetFirstSubFeature.html)
 
-[IFeature::GetNextSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextSubFeature.html)and[IFeature::IGetNextSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextSubFeature.html)
+[IFeature::GetNextFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextFeature.html) and [IFeature::IGetNextFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextFeature.html)
+
+[IFeature::GetNextSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetNextSubFeature.html) and [IFeature::IGetNextSubFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetNextSubFeature.html)
 
 [IFeature::GetOwnerFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetOwnerFeature.html)
 
-[IFeature::GetParents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetParents.html)and[IFeature::IGetParents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetParents.html)
+[IFeature::GetParents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetParents.html) and [IFeature::IGetParents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetParents.html)
 
-[IFeatureFolder::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~GetFeatures.html)and[IFeatureFolder::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~IGetFeatures.html)
+[IFeatureFolder::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~GetFeatures.html) and [IFeatureFolder::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureFolder~IGetFeatures.html)
 
 [IFeatureManager::AdvancedHole](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AdvancedHole.html)
 
@@ -187,7 +178,7 @@ See
 
 [IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html)
 
-[IFeatureManager::FeatureFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillet.html)and[IFeatureManager::IFeatureFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IFeatureFillet.html)
+[IFeatureManager::FeatureFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillet.html) and [IFeatureManager::IFeatureFillet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IFeatureFillet.html)
 
 [IFeatureManager::FeatureFillPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillPattern.html)
 
@@ -219,7 +210,7 @@ See
 
 [IFeatureManager::GetCornerManagementFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetCornerManagementFolders.html)
 
-[IFeatureManager::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFeatures.html)and[IFeatureManager::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IGetFeatures.html)
+[IFeatureManager::GetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~GetFeatures.html) and [IFeatureManager::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IGetFeatures.html)
 
 [IFeatureManager::GetStructureSystemFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetStructureSystemFolders.html)
 
@@ -229,7 +220,7 @@ See
 
 [IFeatureManager::InsertCenterOfMassReferencePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCenterOfMassReferencePoint.html)
 
-[IFeatureManager::InsertCombineFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCombineFeature.html)and[IFeatureManager::IInsertCombineFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertCombineFeature.html)
+[IFeatureManager::InsertCombineFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCombineFeature.html) and [IFeatureManager::IInsertCombineFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertCombineFeature.html)
 
 [IFeatureManager::InsertCosmeticThread2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread2.html)
 
@@ -241,269 +232,271 @@ See
 
 [IFeatureManager::InsertCutSwept3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSwept3.html)
 
-IFeatureManager::InsertCutSurface
+[IFeatureManager::InsertCutSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSurface.html)
 
 [IFeatureManager::InsertDeleteBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDeleteBody.html)
 
 [IFeatureManager::InsertDeleteHoleForSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertDeleteHoleForSurface.html)
 
-IFeatureManager::InsertDerivedPattern
+[IFeatureManager::InsertDerivedPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDerivedPattern.html)
 
-IFeatureManager::InsertDwgOrDxfFile
+[IFeatureManager::InsertDwgOrDxfFile](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDwgOrDxfFile.html)
 
-IFeatureManager::InsertEdgeMerge
+[IFeatureManager::InsertEdgeMerge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEdgeMerge.html)
 
-IFeatureManager::InsertEndCapFeature
+[IFeatureManager::InsertEndCapFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature.html)
 
-IFeatureManager::InsertEndCapFeature2
+[IFeatureManager::InsertEndCapFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature2.html)
 
-IFeatureManager::InsertFeatureChamfer
+[IFeatureManager::InsertFeatureChamfer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureChamfer.html)
 
-IFeatureManager::InsertFeatureLock
+[IFeatureManager::InsertFeatureLock](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFeatureLock.html)
 
-IFeatureManager::InsertFeatureTreeFolder2
+[IFeatureManager::InsertFeatureTreeFolder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html)
 
-IFeatureManager::InsertFilletBeadFeature2
+[IFeatureManager::InsertFilletBeadFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature2.html)
 
-IFeatureManager::InsertFilletBeadFeature3
+[IFeatureManager::InsertFilletBeadFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature3.html)
 
-IFeatureManager::InsertFillSurface2
+[IFeatureManager::InsertFillSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFillSurface2.html)
 
-IFeatureManager::InsertFlattenSurface
+[IFeatureManager::InsertFlattenSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFlattenSurface.html)
 
-IFeatureManager::InsertFlexFeature
+[IFeatureManager::InsertFlexFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFlexFeature.html)
 
-IFeatureManager::InsertFormToolFeature
+[IFeatureManager::InsertFormToolFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFormToolFeature.html)
 
-IFeatureManager::InsertFreeform
+[IFeatureManager::InsertFreeform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFreeform.html)
 
-IFeatureManager::InsertGlobalBoundingBox
+[IFeatureManager::InsertGlobalBoundingBox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGlobalBoundingBox.html)
 
-IFeatureManager::InsertGroundPlane
+[IFeatureManager::InsertGroundPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGroundPlane.html)
 
-IFeatureManager::InsertGussetFeature
+[IFeatureManager::InsertGussetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature.html)
 
-IFeatureManager::InsertGussetFeature2
+[IFeatureManager::InsertGussetFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertGussetFeature2.html)
 
-IFeatureManager::InsertIndent
+[IFeatureManager::InsertIndent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertIndent.html)
 
-IFeatureManager::InsertMacroFeature3 and IFeatureManager::IInsertMacroFeature3
+[IFeatureManager::InsertMacroFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMacroFeature3.html) and [IFeatureManager::IInsertMacroFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertMacroFeature3.html)
 
-IFeatureManager::InsertMateReference2
+[IFeatureManager::InsertMateReference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMateReference2.html)
 
-IFeatureManager::InsertMirrorFeature
+[IFeatureManager::InsertMirrorFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMirrorFeature.html)
 
-IFeatureManager::InsertMoldCoreCavitySolids
+[IFeatureManager::InsertMoldCoreCavitySolids](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldCoreCavitySolids.html)
 
-IFeatureManager::InsertMoldPartingLine
+[IFeatureManager::InsertMoldPartingLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldPartingLine.html)
 
-IFeatureManager::InsertMoldPartingSurface
+[IFeatureManager::InsertMoldPartingSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldPartingSurface.html)
 
-IFeatureManager::InsertMoldShutOffSurface
+[IFeatureManager::InsertMoldShutOffSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoldShutOffSurface.html)
 
-IFeatureManager::InsertMoveCopyBody2
+[IFeatureManager::InsertMoveCopyBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveCopyBody2.html)
 
-IFeatureManager::InsertMoveFace
+[IFeatureManager::InsertMoveFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveFace.html)
 
-IFeatureManager::InsertMultifaceDraft
+[IFeatureManager::InsertMultifaceDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMultiFaceDraft.html)
 
-IFeatureManager::InsertNetBlend
+[IFeatureManager::InsertNetBlend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertNetBlend.html)
 
-IFeatureManager::InsertProtrusionBlend
+[IFeatureManager::InsertProtrusionBlend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)
 
-IFeatureManager::InsertProtrusionSwept3
+[IFeatureManager::InsertProtrusionSwept3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html)
 
-IFeatureManager::InsertReferencePoint and IFeatureManager::IInsertReferencePoint
+[IFeatureManager::InsertReferencePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertReferencePoint.html) and [IFeatureManager::IInsertReferencePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertReferencePoint.html)
 
-IFeatureManager::InsertRevolvedRefSurface
+[IFeatureManager::InsertRevolvedRefSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html)
 
-IFeatureManager::InsertRuledSurfaceFromEdge2
+[IFeatureManager::InsertRuledSurfaceFromEdge2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertRuledSurfaceFromEdge2.html)
 
-IFeatureManager::InsertScale
+[IFeatureManager::InsertScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertScale.html)
 
-IFeatureManager::InsertSheetMetal3dBend
+[IFeatureManager::InsertSheetMetal3dBend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html)
 
-IFeatureManager::InsertSheetMetalBaseFlange2
+[IFeatureManager::InsertSheetMetalBaseFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalBaseFlange2.html)
 
-IFeatureManager::InsertSheetMetalCornerTrim
+[IFeatureManager::InsertSheetMetalCornerTrim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalCornerTrim.html)
 
-IFeatureManager::InsertSheetMetalEdgeFlange2 and IFeatureManager::IInsertSheetMetalEdgeFlange2
+[IFeatureManager::InsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html) and [IFeatureManager::IInsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertSheetMetalEdgeFlange2.html)
 
-IFeatureManager::InsertSheetMetalGussetFeature3
+[IFeatureManager::InsertSheetMetalGussetFeature3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html)
 
-IFeatureManager::InsertSheetMetalHem2
+[IFeatureManager::InsertSheetMetalHem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalHem2.html)
 
-IFeatureManager::InsertSheetMetalLoftedBend
+[IFeatureManager::InsertSheetMetalLoftedBend](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalLoftedBend.html)
 
-IFeatureManager::InsertSheetMetalMiterFlange
+[IFeatureManager::InsertSheetMetalMiterFlange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalMiterFlange.html)
 
-IFeatureManager::InsertSplitLineIntersect
+[IFeatureManager::InsertSplitLineIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSplitLineIntersect.html)
 
-IFeatureManager::InsertStructuralWeldment2
+[IFeatureManager::InsertStructuralWeldment2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment2.html)
 
-IFeatureManager::InsertStructuralWeldment3
+[IFeatureManager::InsertStructuralWeldment3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertStructuralWeldment3.html)
 
-IFeatureManager::InsertSubFolder
+[IFeatureManager::InsertSubFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubFolder.html)
 
-IFeatureManager::InsertSubWeldFolder
+[IFeatureManager::InsertSubWeldFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubWeldFolder.html)
 
-IFeatureManager::InsertSubWeldFolder2
+[IFeatureManager::InsertSubWeldFolder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSubWeldFolder2.html)
 
-IFeatureManager::InsertSweepSurface2
+[IFeatureManager::InsertSweepSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSweepSurface2.html)
 
-IFeatureManager::InsertTableDrivenPattern and IFeatureManager::IInsertTableDrivenPattern
+[IFeatureManager::InsertTableDrivenPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertTableDrivenPattern.html) and [IFeatureManager::IInsertTableDrivenPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertTableDrivenPattern.html)
 
-IFeatureManager::InsertUntrimSurface
+[IFeatureManager::InsertUntrimSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertUntrimSurface.html)
 
-IFeatureManager::InsertWeldmentCutList
+[IFeatureManager::InsertWeldmentCutList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentCutList.html)
 
-IFeatureManager::InsertWeldmentCutList2
+[IFeatureManager::InsertWeldmentCutList2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentCutList2.html)
 
-IFeatureManager::InsertWeldmentFeature
+[IFeatureManager::InsertWeldmentFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentFeature.html)
 
-IFeatureManager::InsertWeldmentTrimFeature
+[IFeatureManager::InsertWeldmentTrimFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentTrimFeature.html)
 
-IFeatureManager::InsertWeldmentTrimFeature2
+[IFeatureManager::InsertWeldmentTrimFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentTrimFeature2.html)
 
-IFeatureManager::InsertWrapFeature
+[IFeatureManager::InsertWrapFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWrapFeature.html)
 
 [IFeatureManager::PostIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostIntersect.html)
 
-IFeatureManager::PostSplitBody
+[IFeatureManager::PostSplitBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostSplitBody.html)
 
-IFeatureManager::PostTrimSurface
+[IFeatureManager::PostTrimSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostTrimSurface.html)
 
-IFeatureManager::SetNetBlendCurveData
+[IFeatureManager::SetNetBlendCurveData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html)
 
-IFeatureManager::SetNetBlendDirectionData
+[IFeatureManager::SetNetBlendDirectionData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html)
 
-IFeatureManager::SimpleHole
+[IFeatureManager::SimpleHole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole.html)
 
-IFeatureStatistics::Features
+[IFeatureStatistics::Features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureStatistics~Features.html)
 
-IFillPatternFeatureData::PatternFeatureArray
+[IFillPatternFeatureData::PatternFeatureArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternFeatureArray.html)
 
-IFlatPatternFeatureData::GetAddCornerTrim
+[IFlatPatternFeatureData::GetAddCornerTrim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~GetAddCornerTrim.html)
 
-IFlatPatternFeatureData::GetBreakCorners
+[IFlatPatternFeatureData::GetBreakCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFeatureData~GetBreakCorners.html)
 
-IFlatPatternFolder::GetFeature
+[IFlatPatternFolder::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder~GetFeature.html)
 
-IFlatPatternFolder::GetFlatPatterns
+[IFlatPatternFolder::GetFlatPatterns](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder~GetFlatPatterns.html)
 
-IFoldsFeatureData::Bends
+[IFoldsFeatureData::Bends](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~Bends.html)
 
-IFoldsFeatureData::IGetBends
+[IFoldsFeatureData::IGetBends](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~IGetBends.html)
 
-IGeneralTableFeature::GetFeature
+[IGeneralTableFeature::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~GetFeature.html)
 
-IGeneralToleranceTableFeature::GetFeature
+[IGeneralToleranceTableFeature::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature~GetFeature.html)
 
-IHoleTable::GetFeature
+[IHoleTable::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~GetFeature.html)
 
-ILinearPatternFeatureData::PatternFeatureArray
+[ILinearPatternFeatureData::PatternFeatureArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~PatternFeatureArray.html)
 
-ILocalCircularPatternFeatureData::IGetSeedComponentArray
+[ILocalCircularPatternFeatureData::IGetSeedComponentArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~IGetSeedComponentArray.html)
 
-ILocalCircularPatternFeatureData::SeedComponentArray
+[ILocalCircularPatternFeatureData::SeedComponentArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCircularPatternFeatureData~SeedComponentArray.html)
 
-ILocalLinearPatternFeatureData::IGetSeedComponentArray
+[ILocalLinearPatternFeatureData::IGetSeedComponentArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~IGetSeedComponentArray.html)
 
-ILocalLinearPatternFeatureData::SeedComponentArray
+[ILocalLinearPatternFeatureData::SeedComponentArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalLinearPatternFeatureData~SeedComponentArray.html)
 
-ILoftFeatureData::GuideCurves
+[ILoftFeatureData::GuideCurves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~GuideCurves.html)
 
-ILoftFeatureData::IGetGuideCurves
+[ILoftFeatureData::IGetGuideCurves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~IGetGuideCurves.html)
 
-IMacroFeatureData::IGetParents
+[IMacroFeatureData::IGetParents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetParents.html)
 
-IMacroFeatureData::Parents
+[IMacroFeatureData::Parents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~Parents.html)
 
-IModelDoc2::FeatureByPositionReverse
+[IModelDoc2::FeatureByPositionReverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureByPositionReverse.html)
 
-IModelDoc2::FirstFeature
+[IModelDoc2::FirstFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FirstFeature.html)
 
-IModelDoc2::InsertProjectedSketch2 and IModelDoc2::IInsertProjectedSketch2
+[IModelDoc2::InsertProjectedSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertProjectedSketch2.html) and [IModelDoc2::IInsertProjectedSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertProjectedSketch2.html)
 
-IModelDoc2::InsertSketchForEdgeFlange and IModelDoc2::IInsertSketchForEdgeFlange
+[IModelDoc2::InsertSketchForEdgeFlange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSketchForEdgeFlange.html) and [IModelDoc2::IInsertSketchForEdgeFlange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IInsertSketchForEdgeFlange.html)
 
-IModelDocExtension::CreateStructureSystem
+[IVersionCompatibilityItem::IncompatibleObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVersionCompatibilityItem~IncompatibleObject.html)
 
-IModelDocExtension::GetLastFeatureAdded
+[IModelDocExtension::CreateStructureSystem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateStructureSystem.html)
 
-IModelDocExtension::GetTemplateSheetMetal
+[IModelDocExtension::GetLastFeatureAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetLastFeatureAdded.html)
 
-IMotionPlotFeatureData::GetXAxis
+[IModelDocExtension::GetTemplateSheetMetal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html)
 
-IMotionPlotFeatureData::GetYAxis and IMotionPlotFeatureData::IGetYAxis
+[IMotionPlotFeatureData::GetXAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~GetXAxis.html)
 
-IPartDoc::CreateFeatureFromBody3
+[IMotionPlotFeatureData::GetYAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~GetYAxis.html) and [IMotionPlotFeatureData::IGetYAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMotionPlotFeatureData~IGetYAxis.html)
 
-IPartDoc::CreateSurfaceFeatureFromBody and IPartDoc::ICreateSurfaceFeatureFromBody
+[IPartDoc::CreateFeatureFromBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateFeatureFromBody3.html)
 
-IPartDoc::FeatureById and IPartDoc::IFeatureById
+[IPartDoc::CreateSurfaceFeatureFromBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateSurfaceFeatureFromBody.html) and [IPartDoc::ICreateSurfaceFeatureFromBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateSurfaceFeatureFromBody.html)
 
-IPartDoc::FeatureByName and IPartDoc::IFeatureByName
+[IPartDoc::FeatureById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FeatureById.html) and [IPartDoc::IFeatureById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFeatureById.html)
 
-IPartDoc::FirstFeature and IPartDoc::IFirstFeature
+[IPartDoc::FeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FeatureByName.html) and [IPartDoc::IFeatureByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFeatureByName.html)
 
-IPartDoc::ICreateFeatureFromBody4
+[IPartDoc::FirstFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~FirstFeature.html) and [IPartDoc::IFirstFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IFirstFeature.html)
 
-IPartDoc::InsertPart
+[IPartDoc::ICreateFeatureFromBody4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateFeatureFromBody4.html)
 
-IPartDoc::MirrorPart2
+[IPartDoc::InsertPart](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertPart.html)
 
-IProfileGroupFolder::GetFeature
+[IPartDoc::MirrorPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~MirrorPart2.html)
 
-IProfileGroupFolder::GetStructureSystemMembers
+[IProfileGroupFolder::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~GetFeature.html)
 
-IPunchTable::GetFeature
+[IProfileGroupFolder::GetStructureSystemMembers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~GetStructureSystemMembers.html)
 
-IReplaceFaceFeatureData::IGetReplacementSurfaces
+[IPunchTable::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPunchTable~GetFeature.html)
 
-IReplaceFaceFeatureData::ReplacementSurfaces
+[IReplaceFaceFeatureData::IGetReplacementSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~IGetReplacementSurfaces.html)
 
-IRevisionTableFeature::GetFeature
+[IReplaceFaceFeatureData::ReplacementSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReplaceFaceFeatureData~ReplacementSurfaces.html)
 
-ISelectionMgr::GetSelectedObject6
+[IRevisionTableFeature::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature~GetFeature.html)
 
-ISheetMetalFolder::GetFeature
+[ISelectionMgr::GetSelectedObject6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)
 
-ISheetMetalFolder::GetSheetMetals
+[ISheetMetalFolder::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder~GetFeature.html)
 
-ISimpleFilletFeatureData2::IGetFeatures
+[ISheetMetalFolder::GetSheetMetals](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder~GetSheetMetals.html)
 
-ISimpleFilletFeatureData2::Features
+[ISimpleFilletFeatureData2::IGetFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetFeatures.html)
 
-ISimulation::GetFeature
+[ISimpleFilletFeatureData2::Features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~Features.html)
 
-ISketchBlockDefinition::GetFeature
+[ISimulation::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation~GetFeature.html)
 
-ISketchPatternFeatureData::PatternFeatureArray
+[ISketchBlockDefinition::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetFeature.html)
 
-ISketchPicture::GetFeature
+[ISketchPatternFeatureData::PatternFeatureArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~PatternFeatureArray.html)
 
-IStructureSystemFolder::GetCornerManagementFolder
+[ISketchPicture::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~GetFeature.html)
 
-IStructureSystemFolder::GetFeature
+[IStructureSystemFolder::GetCornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder~GetCornerManagementFolder.html)
 
-IStructureSystemMemberFeatureData::GetFeature
+[IStructureSystemFolder::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder~GetFeature.html)
 
-ISweepFeatureData::IGetGuideCurves
+[IStructureSystemMemberFeatureData::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~GetFeature.html)
 
-ISweepFeatureData::GuideCurves
+[ISweepFeatureData::IGetGuideCurves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~IGetGuideCurves.html)
 
-ISweepFeatureData::Path
+[ISweepFeatureData::GuideCurves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GuideCurves.html)
 
-ISweepFeatureData::Profile
+[ISweepFeatureData::Path](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Path.html)
 
-ITableAnchor::GetFeature
+[ISweepFeatureData::Profile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html)
 
-ITablePatternFeatureData::PatternFeatureArray
+[ITableAnchor::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnchor~GetFeature.html)
 
-ITitleBlockTableFeature::GetFeature
+[ITablePatternFeatureData::PatternFeatureArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~PatternFeatureArray.html)
 
-IWeldmentCutListFeature::GetFeature
+[ITitleBlockTableFeature::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlockTableFeature~GetFeature.html)
+
+[IWeldmentCutListFeature::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListFeature~GetFeature.html)
 
 ## Access Diagram
 
@@ -512,5 +505,4 @@ IWeldmentCutListFeature::GetFeature
 ## See Also
 
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

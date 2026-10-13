@@ -58,13 +58,7 @@ public delegate System.int DModelViewEvents_PerspectiveViewNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -77,19 +71,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[PerspectiveViewNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PerspectiveViewNotify_EV.html)
-
-.
+See [PerspectiveViewNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PerspectiveViewNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swViewPerspectiveViewNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swViewPerspectiveViewNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

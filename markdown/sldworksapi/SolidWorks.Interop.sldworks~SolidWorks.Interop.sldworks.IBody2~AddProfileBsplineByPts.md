@@ -51,13 +51,7 @@ System.Object^ AddProfileBsplineByPts(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,22 +60,16 @@ See
 
 ### Return Value
 
-Pointer to the profile B-spline,[ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+Pointer to the profile B-spline, [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::AddProfileBsplineByPts](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileBsplineByPts.html)
-
-.
+See [Body2::AddProfileBsplineByPts](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileBsplineByPts.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IAddProfileBsplineByPts Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IAddProfileBsplineByPts.html)
 
 ## Availability

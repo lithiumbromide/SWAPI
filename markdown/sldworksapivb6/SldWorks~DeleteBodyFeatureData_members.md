@@ -1,6 +1,5 @@
 ---
-title: "DeleteBodyFeatureData Object
-Members"
+title: "DeleteBodyFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DeleteBodyFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DeleteBodyFeatureData_members.html"
 ---
 
-# DeleteBodyFeatureData Object
-Members
+# DeleteBodyFeatureData Object Members
 
 ## Public Methods
 

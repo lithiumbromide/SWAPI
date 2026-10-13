@@ -50,47 +50,24 @@ void Get3DViewAnnotationTextScale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Scale1`: Numerator of the scale ratio (
-
-n
-
-:n)
-- `Scale2`: Denominator of the scale ratio (n:
-
-n
-
-)
+- `Scale1`: Numerator of the scale ratio (**n**:n)
+- `Scale2`: Denominator of the scale ratio (n:**n**)
 
 ## VBA Syntax
 
-See
-
-[View3D::Get3DViewAnnotationTextScale](ms-its:sldworksapivb6.chm::/sldworks~View3D~Get3DViewAnnotationTextScale.html)
-
-.
+See [View3D::Get3DViewAnnotationTextScale](ms-its:sldworksapivb6.chm::/sldworks~View3D~Get3DViewAnnotationTextScale.html).
 
 ## Remarks
 
-This method gets the
-
-Text scale
-
-on the Annotation Properties dialog that appears when you RMB on the Annotations folder in the FeatureManager design tree.
+This method gets the **Text scale** on the Annotation Properties dialog that appears when you RMB on the Annotations folder in the FeatureManager design tree.
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

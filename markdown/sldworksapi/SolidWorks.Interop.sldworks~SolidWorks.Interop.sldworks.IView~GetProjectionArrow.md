@@ -40,13 +40,7 @@ System.object GetProjectionArrow()
 System.Object^ GetProjectionArrow();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,23 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetProjectionArrow](ms-its:sldworksapivb6.chm::/sldworks~View~GetProjectionArrow.html)
-
-.
+See [View::GetProjectionArrow](ms-its:sldworksapivb6.chm::/sldworks~View~GetProjectionArrow.html).
 
 ## Examples
 
 [Get Arrow in Projected View (C#)](Get_Arrow_in_Projected_View_Example_CSharp.htm)
-
 [Get Arrow in Projected View (VB.NET)](Get_Arrow_in_Projected_View_Example_VBNET.htm)
-
 [Get Arrow in Projected View (VBA)](Get_Arrow_in_Projected_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetProjectionArrow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetProjectionArrow.html)
-
 [IView::GetProjectionLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetProjectionLineCount.html)
-
 [IView::GetProjectionLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetProjectionLines.html)
-
 [IProjectionArrow::GetProjectedView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetProjectedView.html)
-
 [IProjectionArrow::IGetProjectedView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~IGetProjectedView.html)
-
 [IView::IGetProjectionLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetProjectionLines.html)
 
 ## Availability

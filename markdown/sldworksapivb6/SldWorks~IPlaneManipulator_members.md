@@ -1,6 +1,5 @@
 ---
-title: "IPlaneManipulator Object
-Members"
+title: "IPlaneManipulator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPlaneManipulator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPlaneManipulator_members.html"
 ---
 
-# IPlaneManipulator Object
-Members
+# IPlaneManipulator Object Members
 
 ## Public Methods
 

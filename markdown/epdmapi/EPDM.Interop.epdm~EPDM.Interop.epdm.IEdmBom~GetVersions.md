@@ -39,19 +39,11 @@ void GetVersions(
 
 ### Parameters
 
-- `ppoVersions`: Array of
-
-[EdmBomVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html)
-
-structures; one structure for each BOM version; the structure of the oldest version is at the beginning of the array
+- `ppoVersions`: Array of [EdmBomVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html) structures; one structure for each BOM version; the structure of the oldest version is at the beginning of the array
 
 ## Examples
 
-See the
-
-[IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
-examples.
+See the [IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [IEdmBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html)
 
 ## Availability

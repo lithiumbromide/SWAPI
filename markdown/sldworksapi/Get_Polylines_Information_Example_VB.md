@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Polylines_Information_Example_VB.htm"
 
 # Get Polylines Information Example (VBA)
 
-This example shows how to use IView::GetPolyLines5 and IView::GetSketch.
-This example also illustrates the differences between projected model geometry and
-sketched geometry.
+This example shows how to use IView::GetPolyLines5 and IView::GetSketch. This example also illustrates the differences between projected model geometry and sketched geometry.
 
 ```
 '---------------------------------------------------------------
@@ -49,7 +47,7 @@ Sub main()
 ```
 
 ```
-    ' Get SOLIDWORKS application
+    ' Get SOLIDWORKS Design application
     Set swApp = Application.SldWorks
 ```
 

@@ -67,38 +67,16 @@ System.bool IFindMinimumRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UBound`: MinMax UParameter
 - `VBound`: MinMax VParameter
 - `NumOfRadius`: Number of radius; can be 0, 1, or 2
-- `Radius`: Minimum radius of curvature (see
-
-Remarks
-
-)
-- `Location`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-where the minimum radius curvature occurred (see
-
-Remarks
-
-)
-- `UVParameter`: [UV parameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-; because points are UV, third ordinates are 0 (see
-
-Remarks
-
-)
+- `Radius`: Minimum radius of curvature (see **Remarks**)
+- `Location`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) where the minimum radius curvature occurred (see **Remarks**)
+- `UVParameter`: [UV parameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html); because points are UV, third ordinates are 0 (see **Remarks**)
 
 ### Return Value
 
@@ -106,11 +84,7 @@ True if operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[Surface::IFindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Surface~IFindMinimumRadius.html)
-
-.
+See [Surface::IFindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Surface~IFindMinimumRadius.html).
 
 ## Examples
 
@@ -128,47 +102,47 @@ STDMETHODIMP CMinRadius::StartNotepad()
 
 CComPtr<IModelDoc> iModelDoc2;
 
-m_iSldWorks->get_ IActiveDoc (&iModelDoc2);
+m_iSldWorks->get_**IActiveDoc**(&iModelDoc2);
 
 CComPtr<ISelectionMgr> swSelMgr;
 
-iModelDoc2->get_ ISelectionManager (&swSelMgr);
+iModelDoc2->get_**ISelectionManager**(&swSelMgr);
 
-structIDispatch* pDispSelection;
+struct IDispatch* pDispSelection;
 
 CComPtr<IFace2> swFace;
 
-swSelMgr-> GetSelectedObject6 (1,-1,&pDispSelection);
+swSelMgr->**GetSelectedObject6**(1,-1,&pDispSelection);
 
-pDispSelection->QueryInterface(__uuidof (IFace2), reinterpret_cast < void**>(&swFace));
+pDispSelection->QueryInterface(__uuidof(IFace2),reinterpret_cast<void**>(&swFace));
 
 pDispSelection->Release();
 
-doubleboundArr[4];
+double boundArr[4];
 
-swFace-> IGetUVBounds ( boundArr );
+swFace->**IGetUVBounds** ( boundArr );
 
-doubleUBound[2] = {boundArr[0],boundArr[1]};
+double UBound[2] = {boundArr[0],boundArr[1]};
 
-doubleVBound[2] = {boundArr[2],boundArr[3]};
+double VBound[2] = {boundArr[2],boundArr[3]};
 
 CComPtr<ISurface> swSurface;
 
-swFace-> IGetSurface (&swSurface);
+swFace->**IGetSurface**(&swSurface);
 
-longnumOfRadius(0);
+long numOfRadius(0);
 
 VARIANT radius,Location,UVParameter;
 
 VARIANT_BOOL status(FALSE);
 
-swSurface-> IFindMinimumRadius (UBound,VBound,&numOfRadius,&radius,&Location,&UVParameter,&status);
+swSurface->**IFindMinimumRadius**(UBound,VBound,&numOfRadius,&radius,&Location,&UVParameter,&status);
 
 SafeDoubleArray radiusSA(radius);
 
-doubletest1 = radiusSA[0];
+double test1 = radiusSA[0];
 
-doubletest2 = radiusSA[1];
+double test2 = radiusSA[1];
 
 SafeDISPATCHArray locationSA(Location);
 
@@ -176,21 +150,21 @@ CComPtr<IMathPoint> swMathPoint1;
 
 CComPtr<IMathPoint> swMathPoint2;
 
-locationSA[0]->QueryInterface(__uuidof (IMathPoint), reinterpret_cast < void**>(&swMathPoint1));
+locationSA[0]->QueryInterface(__uuidof(IMathPoint),reinterpret_cast<void**>(&swMathPoint1));
 
-locationSA[1]->QueryInterface(__uuidof (IMathPoint), reinterpret_cast < void**>(&swMathPoint2));
+locationSA[1]->QueryInterface(__uuidof(IMathPoint),reinterpret_cast<void**>(&swMathPoint2));
 
-doublelocationArra1[3];
+double locationArra1[3];
 
-doublelocationArra2[3];
+double locationArra2[3];
 
-swMathPoint1->get_ IArrayData (locationArra1);
+swMathPoint1->get_**IArrayData**(locationArra1);
 
-swMathPoint2->get_ IArrayData (locationArra2);
+swMathPoint2->get_**IArrayData**(locationArra2);
 
 SafeDISPATCHArray UVParameterSA(UVParameter);
 
-returnS_OK;
+return S_OK;
 
 }
 
@@ -201,31 +175,19 @@ The search is confined to the portion of the selected curve lying inside of UBou
 COM returns these data types for these parameters:
 
 - Radius: VARIANT of SafeDoubleArray
-- Location: VARIANT of SafeDispatchArray of
-
-  [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-- UVParameter: VARIANT of SafeDispatchArray of
-
-  [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
+- Location: VARIANT of SafeDispatchArray of [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
+- UVParameter: VARIANT of SafeDispatchArray of [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::FindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~FindMinimumRadius.html)
-
 [IFace2::IGetUVBounds Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetUVBounds.html)
-
 [IFace2::GetUVBounds Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetUVBounds.html)
-
 [ICurve::FindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~FindMinimumRadius.html)
-
 [ICurve::IFindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IFindMinimumRadius.html)
-
 [ISurface::IParameterization Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IParameterization.html)
-
 [ISurface::Parameterization Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~Parameterization.html)
 
 ## Availability

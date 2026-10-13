@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnOptionCheck Method (IPropertyManagerPage2Handler7)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler8::OnOptionCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnOptionCheck.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler8::OnOptionCheck](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler8~OnOptionCheck.html).
 
 ## Syntax
 
@@ -56,16 +52,11 @@ void OnOptionCheck(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler7::OnOptionCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnOptionCheck.html)
-
-.
+See [PropertyManagerPage2Handler7::OnOptionCheck](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler7~OnOptionCheck.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler7 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7.html)
-
 [IPropertyManagerPage2Handler7 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler7_members.html)
 
 ## Availability

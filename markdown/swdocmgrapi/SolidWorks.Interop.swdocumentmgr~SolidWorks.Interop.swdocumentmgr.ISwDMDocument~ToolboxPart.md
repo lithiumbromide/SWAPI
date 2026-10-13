@@ -47,22 +47,15 @@ property SwDmToolboxPartType ToolboxPart {
 
 ### Property Value
 
-Type of SOLIDWORKS Toolbox part as defined by
-
-[SwDmToolboxPartType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmToolboxPartType.html)
+Type of SOLIDWORKS Toolbox part as defined by [SwDmToolboxPartType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmToolboxPartType.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::ToolboxPart](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~ToolboxPart.html)
-
-.
+See [SwDMDocument::ToolboxPart](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~ToolboxPart.html).
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

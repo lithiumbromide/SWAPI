@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[SketchLine::Angle](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~Angle.html)
-
-.
+See [SketchLine::Angle](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~Angle.html).
 
 ## Examples
 
@@ -76,7 +66,6 @@ This property does not support lines in 3D sketches.
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
 
 ## Availability

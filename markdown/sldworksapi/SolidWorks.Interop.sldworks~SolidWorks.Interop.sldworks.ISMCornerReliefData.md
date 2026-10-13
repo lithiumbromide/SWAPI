@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 Allows access to sheet metal corner relief data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,15 @@ public interface class ISMCornerReliefData
 
 ## VBA Syntax
 
-See
-
-[SMCornerReliefData](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData.html)
-
-.
+See [SMCornerReliefData](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData.html).
 
 ## Examples
 
-See the
-
-[ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-examples.
+See the [ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html) examples.
 
 ## Remarks
 
-For more information see the
-
-SOLIDWORKS user-interface help > Sheet Metal > Using Sheet Metal Tools > Corner Reliefs and Bend Transitions > Corner Relief PropertyManager
-
-topic.
+For more information see the **SOLIDWORKS Design user-interface help > Sheet Metal > Using Sheet Metal Tools > Corner Reliefs and Bend Transitions > Corner Relief PropertyManager** topic.
 
 ## Accessors
 
@@ -80,5 +68,4 @@ topic.
 ## See Also
 
 [ISMCornerReliefData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~CommitCl
 
 # CommitClear Method (IEdmClearLocalCache)
 
-Clears the files and folders specified by
-
-[IEdmClearLocalCache::AddFilebyPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~AddFileByPath.html)
-
-and
-
-[IEdmClearLocalCache::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~AddFolder.html)
-
-from the local cache.
+Clears the files and folders specified by [IEdmClearLocalCache::AddFilebyPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~AddFileByPath.html) and [IEdmClearLocalCache::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache~AddFolder.html) from the local cache.
 
 ## Syntax
 
@@ -47,16 +39,11 @@ void CommitClear(
 
 ### Parameters
 
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to provide progress feedback to the user
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to provide progress feedback to the user
 
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
@@ -69,7 +56,6 @@ to provide progress feedback to the user
 ## See Also
 
 [IEdmClearLocalCache Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
 [IEdmClearLocalCache Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members.html)
 
 ## Availability

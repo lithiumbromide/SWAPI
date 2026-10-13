@@ -42,13 +42,7 @@ property System.Object^ PatternedTransforms {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Array of the transforms of the instances of this cosmetic thread
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::PatternedTransforms](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~PatternedTransforms.html)
-
-.
+See [CosmeticThreadFeatureData::PatternedTransforms](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~PatternedTransforms.html).
 
 ## Examples
 
@@ -68,14 +58,12 @@ See
 
 ## Remarks
 
-The value returned by this property does not include this cosmetic thread, which is the seed feature and not a pattern instance. Therefore, if this cosmetic thread is not used in a pattern feature, then[ICosmeticThreadFeatureData::GetPatternedTransformsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~GetPatternedTransformsCount.html)returns 0 and this property returns an empty array.
+The value returned by this property does not include this cosmetic thread, which is the seed feature and not a pattern instance. Therefore, if this cosmetic thread is not used in a pattern feature, then [ICosmeticThreadFeatureData::GetPatternedTransformsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~GetPatternedTransformsCount.html) returns 0 and this property returns an empty array.
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
-
 [ICosmeticThreadFeatureData::IGetPatternedTransforms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData~IGetPatternedTransforms.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ICWTopologyStudyManager Object
-Members"
+title: "ICWTopologyStudyManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWTopologyStudyManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWTopologyStudyManager_members.html"
 ---
 
-# ICWTopologyStudyManager Object
-Members
+# ICWTopologyStudyManager Object Members
 
 ## Public Methods
 

@@ -46,22 +46,16 @@ System.Object^ GetModelFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::GetModelFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetModelFeature.html)
-
-.
+See [DimXpertAnnotation::GetModelFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetModelFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

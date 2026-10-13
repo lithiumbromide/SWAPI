@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FileSummaryInfo Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::FileSummaryInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FileSummaryInfo.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::FileSummaryInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FileSummaryInfo.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void FileSummaryInfo()
 void FileSummaryInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::FileSummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~FileSummaryInfo.html)
-
-.
+See [ModelDoc::FileSummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~FileSummaryInfo.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

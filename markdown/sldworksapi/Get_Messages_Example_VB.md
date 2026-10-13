@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Messages_Example_VB.htm"
 
 # Get Messages Example (VBA)
 
-This example shows how to get the number of messages (up to the last
-20), including their text, resource IDs, and type, in the current SOLIDWORKS
-session.
+This example shows how to get the number of messages (up to the last 20), including their text, resource IDs, and type, in the current SOLIDWORKS Design session.
 
 ```
 '-----------------------------------------------
@@ -48,17 +46,17 @@ Debug.Print "Number of messages = " & count
 
 For i = 0 To (count - 1)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print " "
+    Debug.Print " "
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Message = " & vMsgs(i)
+    Debug.Print "Message = " & vMsgs(i)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Resource ID of this message = " & vMsgIds(i)
+    Debug.Print "Resource ID of this message = " & vMsgIds(i)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Type of message = " & vMsgTypes(i)
+    Debug.Print "Type of message = " & vMsgTypes(i)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print " "
+    Debug.Print " "
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next i
+Next i
 
 End Sub
 ```

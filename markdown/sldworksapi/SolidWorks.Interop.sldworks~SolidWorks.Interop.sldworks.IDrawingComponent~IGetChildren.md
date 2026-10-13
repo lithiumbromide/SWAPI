@@ -47,13 +47,7 @@ DrawingComponent^ IGetChildren(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,32 +55,22 @@ See
 
 ### Return Value
 
-Array of
-
-[IDrawingComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent.html)
-
-objects that are child components of the drawing component
+Array of [IDrawingComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent.html) objects that are child components of the drawing component
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::IGetChildren](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~IGetChildren.html)
-
-.
+See [DrawingComponent::IGetChildren](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~IGetChildren.html).
 
 ## Remarks
 
-This method traverses the referenced component tree in a given view. Use[IDrawingComponent::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Visible.html)to get or set the visibility of individual components in the given view.
+This method traverses the referenced component tree in a given view. Use [IDrawingComponent::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~Visible.html) to get or set the visibility of individual components in the given view.
 
-Before calling this method, call[IDrawingComponent::GetChildrenCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~GetChildrenCount.html)to determine the size of the array.
+Before calling this method, call [IDrawingComponent::GetChildrenCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~GetChildrenCount.html) to determine the size of the array.
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::GetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~GetChildren.html)
 
 ## Availability

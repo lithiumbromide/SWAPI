@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_FileSaveNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,23 +51,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileSaveNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~FileSaveNotify_EV.html)
-
-.
+See [FileSaveNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~FileSaveNotify_EV.html).
 
 ## Remarks
 
-When a user selectsFile,Savefor a document that has never been saved, SOLIDWORKS generates[FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_FileSaveAsNotify2EventHandler.html)instead of FileSaveNotify. You can return S_false to stop SOLIDWORKS from proceeding with the action that generated the notification.
+When a user selects File, Save for a document that has never been saved, SOLIDWORKS generates [FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_FileSaveAsNotify2EventHandler.html) instead of FileSaveNotify. You can return S_false to stop SOLIDWORKS from proceeding with the action that generated the notification.
 
 If the user attempts to close the document and S_false is returned, then the document does not close; it remains open and is not saved.
 
-If developing a C++ application, use
-
-[swDrawingFileSaveAsNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingFileSaveAsNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

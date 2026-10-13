@@ -46,18 +46,12 @@ System.Object^ CreatePlotYAxisFeatureData();
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyResults::CreateYAxisFeatureData](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~CreatePlotYAxisFeatureData.html)
-
-.
+See [CosmosMotionStudyResults::CreateYAxisFeatureData](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~CreatePlotYAxisFeatureData.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## Remarks
@@ -79,11 +73,8 @@ Examine the examples to see the calls for these steps.
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [ICosmosMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults_members.html)
-
 [ICosmosMotionStudyResults::CreatePlotFeatureData Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~CreatePlotFeatureData.html)
-
 [ICosmosMotionStudyResults::CreatePlotXAxisFeatureData Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~CreatePlotXAxisFeatureData.html)
 
 ## Availability

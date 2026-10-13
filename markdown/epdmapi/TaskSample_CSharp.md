@@ -9,23 +9,15 @@ source: "epdmapi/TaskSample_CSharp.htm"
 
 # Task Add-in Sample (C#)
 
-The following shows the entire source code of a task add-in
-written in C#. The add-in:
+The following shows the entire source code of a task add-in written in C#. The add-in:
 
-- Is created using a C# class library (.NET Framework)
-  project in Visual Studio.
-- Implements
-
-  [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html)
-
-  .
+- Is created using a C# class library (.NET Framework) project in Visual Studio.
+- Implements [IEdmAddIn5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5.html).
 - Displays a message box on task launch.
 - Creates custom pages in the Task property dialog box.
 - Customizes the task details page.
 
-NOTE: To populate the GUID attribute below, click**Tools > Create GUID**in the IDE, select GUID Format 6, click**Copy**, and click**Exit**.
-Replace <Guid("")>
-with the copied string.
+NOTE: To populate the GUID attribute below, click **Tools > Create GUID** in the IDE, select GUID Format 6, click **Copy**, and click **Exit**. Replace <Guid("")> with the copied string.
 
 ```vb
       using System;

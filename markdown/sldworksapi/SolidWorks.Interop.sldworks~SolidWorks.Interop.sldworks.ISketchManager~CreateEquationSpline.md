@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # CreateEquationSpline Method (ISketchManager)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreateEquationSpline2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateEquationSpline2.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreateEquationSpline2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateEquationSpline2.html).
 
 ## Syntax
 
@@ -83,43 +79,17 @@ SketchSpline^ CreateEquationSpline(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `YExpression`: Equation for y (see
-
-Remarks
-
-)
-- `RangeStart`: Start value of x (see
-
-Remarks
-
-)
-- `RangeEnd`: End value of x (see
-
-Remarks
-
-)
+- `YExpression`: Equation for y (see **Remarks**)
+- `RangeStart`: Start value of x (see **Remarks**)
+- `RangeEnd`: End value of x (see **Remarks**)
 - `IsAngleRange`: True if the range and x value represent an angle (in radians), false if not
 - `RotationAngle`: Rotation angle (in radians) for the curve
-- `XOffset`: Offset in x for f(x), where x = 0 (see
-
-Remarks
-
-)
-- `YOffset`: Offset in y for f(x), where x = 0 (see
-
-Remarks
-
-)
+- `XOffset`: Offset in x for f(x), where x = 0 (see **Remarks**)
+- `YOffset`: Offset in y for f(x), where x = 0 (see **Remarks**)
 - `LockStart`: True to lock the start point (RangeStart) of the curve, false to not
 - `LockEnd`: True to lock the end point (RangeEnd) of the curve, false to not
 
@@ -129,18 +99,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateEquationSpline](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateEquationSpline.html)
-
-.
+See [SketchManager::CreateEquationSpline](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateEquationSpline.html).
 
 ## Examples
 
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (VBA)](Create_Equation-driven_Curve_Example_VB.htm)
 
 ## Remarks
@@ -155,7 +119,7 @@ will appear as a curve in the sketch. For example:
 
 y = sin(x)
 
-**RangeStart**and**RangeEnd**
+**RangeStart** and **RangeEnd**
 
 You cannot specify string values for RangeStart and RangeEnd; you must specify double values.
 
@@ -178,11 +142,8 @@ the start point (0,0) is moved by YOffset in the y direction.
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchSpline::GetEquationParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetEquationParameters.html)
-
 [ISketchSpline::SetEquationParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~SetEquationParameters.html)
 
 ## Availability

@@ -47,19 +47,11 @@ System.double IDot(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-to use to determine the dot value
+- `VectorObjIn`: [Math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) to use to determine the dot value
 
 ### Return Value
 
@@ -67,18 +59,12 @@ Value of the dot product
 
 ## VBA Syntax
 
-See
-
-[MathVector::IDot](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IDot.html)
-
-.
+See [MathVector::IDot](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IDot.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::Dot Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~Dot.html)
 
 ## Availability

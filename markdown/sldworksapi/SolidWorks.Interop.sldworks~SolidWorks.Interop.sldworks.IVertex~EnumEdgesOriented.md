@@ -40,13 +40,7 @@ EnumEdges EnumEdgesOriented()
 EnumEdges^ EnumEdgesOriented();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Vertex::EnumEdgesOriented](ms-its:sldworksapivb6.chm::/sldworks~Vertex~EnumEdgesOriented.html)
-
-.
+See [Vertex::EnumEdgesOriented](ms-its:sldworksapivb6.chm::/sldworks~Vertex~EnumEdgesOriented.html).
 
 ## Remarks
 
@@ -67,5 +57,4 @@ The order of the edges is counter-clockwise.
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)

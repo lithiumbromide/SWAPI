@@ -45,13 +45,7 @@ property System.double RotationAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,25 +53,17 @@ Angle in radians of component rotation
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::RotationAngle](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~RotationAngle.html)
-
-.
+See [ExplodeStep::RotationAngle](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~RotationAngle.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## Remarks
 
-If[IExplodeStep::AutoSpaceComponentsOnDrag](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~AutoSpaceComponentsOnDrag.html)is set to true, then this property is automatically 0.0.
+If [IExplodeStep::AutoSpaceComponentsOnDrag](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~AutoSpaceComponentsOnDrag.html) is set to true, then this property is automatically 0.0.
 
-If[IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html)is set to[swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html):
+If [IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ExplodeStepType.html) is set to [swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html):
 
 - swAssemblyExplodeStepType_Radial, then this property sets the degree of rotation of components about their origins.
 - swAssemblyExplodeStepType_Translate, then this property sets the degree of rotation of components about the rotation axis.
@@ -85,7 +71,6 @@ If[IExplodeStep::ExplodeStepType](SolidWorks.Interop.sldworks~SolidWorks.Interop
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

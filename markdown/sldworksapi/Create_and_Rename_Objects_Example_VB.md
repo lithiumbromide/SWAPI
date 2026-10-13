@@ -9,11 +9,9 @@ source: "sldworksapi/Create_and_Rename_Objects_Example_VB.htm"
 
 # Select and Rename Object Example (VBA)
 
-The example shows how to verify the name of
-the edge and then change it, if it doesn't already have a name.
+The example shows how to verify the name of the edge and then change it, if it doesn't already have a name.
 
-**NOTE:**You could also select the edge programmatically
-using IFace2::GetEdges or ICoEdge::GetEdge.
+**NOTE:** You could also select the edge programmatically using IFace2::GetEdges or ICoEdge::GetEdge.
 
 ```
 '------------------------------------------------------------

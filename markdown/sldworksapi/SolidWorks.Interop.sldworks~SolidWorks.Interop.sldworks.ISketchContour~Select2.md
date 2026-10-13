@@ -51,55 +51,34 @@ System.bool Select2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the selection to the selection list, false replaces the selection list with this selection
-- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
 True if sketch contour selected, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[SketchContour::Select2](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~Select2.html)
-
-.
+See [SketchContour::Select2](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~Select2.html).
 
 ## Examples
 
 [Get Sketch Contours (VBA)](Get_Sketch_Contours_Example_VB.htm)
-
 [Get Sketch Contours (VB.NET)](Get_Sketch_Contours_Example_VBNET.htm)
-
 [Get Sketch Contours (C#)](Get_Sketch_Contours_Example_CSharp.htm)
-
 [Get Corresponding Objects in Assembly Component (C#)](Get_Corresponding_Objects_in_Assembly_Component_Example_CSharp.htm)
-
 [Get Corresponding Objects in Assembly Component (VB.NET)](Get_Corresponding_Objects_in_Assembly_Component_Example_VBNET.htm)
-
 [Get Corresponding Objects in Assembly Component (VBA)](Get_Corresponding_Objects_in_Assembly_Component_Example_VB.htm)
 
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
-
 [ISketchContour::DeSelect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour~DeSelect.html)
 
 ## Availability

@@ -46,20 +46,13 @@ Number of entities
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::GetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~GetEntityCount.html)
-
-.
+See [CWBearingLoad::GetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~GetEntityCount.html).
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~InsertEntity.html)
-
 [ICWBearingLoad::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~RemoveEntity.html)
 
 ## Availability

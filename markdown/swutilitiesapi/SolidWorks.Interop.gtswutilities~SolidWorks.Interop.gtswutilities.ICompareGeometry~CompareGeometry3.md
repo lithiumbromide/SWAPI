@@ -92,53 +92,30 @@ System.int CompareGeometry3(
 - `reffile`: Path and filename of the SOLIDWORKS document containing the referenced part
 - `refconfig`: Name of reference part's configuration; if blank, then the active configuration is used
 - `modfile`: Path and filename of the SOLIDWORKS document containing the modified part
-
-ParamDesc
 - `modconfig`: Name of modified part's configuration
-- `lOperationOptions`: Compare face, volume, or face and volume options as defined by
-
-[gtGdfOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtGdfOperationOption_e.html)
-- `lResultOptions`: Display the results or save the results to a report as defined by
-
-[gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
+- `lOperationOptions`: Compare face, volume, or face and volume options as defined by [gtGdfOperationOption_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtGdfOperationOption_e.html)
+- `lResultOptions`: Display the results or save the results to a report as defined by [gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
 - `reportname`: Path where to save the results report
 - `vtAddToBinderOption`: True to add the results report to the Design Binder, false to not
 - `vtOverwrite`: True to overwrite an existing results report of the same name, false to not
-
-ParamDesc
-- `volDiffStatus`: Error types for volume differences as defined in
-
-[gtVolDiffStatusOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtVolDiffStatusOptionType_e.html)
-- `faceDiffStatus`: Error types for face differences as defined in
-
-[gtVolDiffStatusOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtVolDiffStatusOptionType_e.html)
+- `volDiffStatus`: Error types for volume differences as defined in [gtVolDiffStatusOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtVolDiffStatusOptionType_e.html)
+- `faceDiffStatus`: Error types for face differences as defined in [gtVolDiffStatusOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtVolDiffStatusOptionType_e.html)
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareGeometry::CompareGeometry3](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry3.html)
-
-.
+See [ICompareGeometry::CompareGeometry3](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry3.html).
 
 ## Examples
 
 [Compare Geometry (VBA)](Compare_Geometry_VB6.htm)
-
 [Compare Geometry (VB.NET)](Compare_Geometry_VBNET.htm)
-
 [Compare Geometry (C#)](Compare_Geometry_CSharp.htm)
-
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VB.NET)](Set_Tolerances_and_Compare_Geometry_VBNET.htm)
-
 [Set Tolerances and Compare Geometry (C#)](Set_Tolerances_and_Compare_Geometry_CSharp.htm)
 
 ## Remarks
@@ -176,13 +153,7 @@ If validation:
 
 - is successful:
 
-  - Geometries can be checked for each document. In the report, this is representated as "Model Check". This option is set through the Compare tab in the SOLIDWORKS task pane by selecting "Check documents before Compare Geometry" on the
-
-    Tools > Compare >
-
-    Options > Geometry
-
-    tab. If the geometries check is not successful, then this method returns gt_errors.gtUnknownErr.
+  - Geometries can be checked for each document. In the report, this is representated as "Model Check". This option is set through the Compare tab in the SOLIDWORKS task pane by selecting "Check documents before Compare Geometry" on the **Tools > Compare >** **Options > Geometry** tab. If the geometries check is not successful, then this method returns gt_errors.gtUnknownErr.
 
 If the geometries check is successful:
 
@@ -195,7 +166,6 @@ For more information about the SOLIDWORKS Compare Utility, see the SOLIDWORKS Ut
 ## See Also
 
 [ICompareGeometry Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry.html)
-
 [ICompareGeometry Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry_members.html)
 
 ## Availability

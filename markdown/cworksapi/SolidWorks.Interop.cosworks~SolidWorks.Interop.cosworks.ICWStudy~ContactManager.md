@@ -48,28 +48,19 @@ property CWContactManager^ ContactManager {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::ContactManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ContactManager.html)
-
-.
+See [CWStudy::ContactManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ContactManager.html).
 
 ## Examples
 
 [Create Frequency Study with Mixed Mesh (C#)](Create_Frequency_Study_with_Mixed_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Mixed Mesh (VB.NET)](Create_Frequency_Study_with_Mixed_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Mixed Mesh (VBA)](Create_Frequency_Study_with_Mixed_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::MultipleComponentContactsEditManager Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MultipleComponentContactsEditManager.html)
-
 [ICWStudy::MultipleContactSetsEditManager Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MultipleContactSetsEditManager.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6_members.htm
 
 # IEdmCardControl6 Interface Members
 
-The following tables list the members exposed by[IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html).
+The following tables list the members exposed by [IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmCardControl6](EPDM.Interop.
 ## See Also
 
 [IEdmCardControl6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

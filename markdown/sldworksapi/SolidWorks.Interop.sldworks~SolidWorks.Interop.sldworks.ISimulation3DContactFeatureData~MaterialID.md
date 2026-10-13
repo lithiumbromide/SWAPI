@@ -50,13 +50,7 @@ property System.int MaterialID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,38 +58,23 @@ See
 
 ### Property Value
 
-Material as defined by
-
-[swCosmosWorksMat](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmosWorksMat.html)
+Material as defined by [swCosmosWorksMat](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmosWorksMat.html)
 
 ## VBA Syntax
 
-See
-
-[Simulation3DContactFeatureData::MaterialID](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~MaterialID.html)
-
-.
+See [Simulation3DContactFeatureData::MaterialID](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~MaterialID.html).
 
 ## Examples
 
-See the
-
-[ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
-examples.
+See the [ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html) examples.
 
 ## Remarks
 
-Available only when
-
-[ISimulation3DContactFeatureData::SpecifyMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation3DContactFeatureData~SpecifyMaterial.html)
-
-is true.
+Available only when [ISimulation3DContactFeatureData::SpecifyMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation3DContactFeatureData~SpecifyMaterial.html) is true.
 
 ## See Also
 
 [ISimulation3DContactFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
 [ISimulation3DContactFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData_members.html)
 
 ## Availability

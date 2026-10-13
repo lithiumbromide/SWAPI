@@ -1,6 +1,5 @@
 ---
-title: "IPunchTable Object
-Members"
+title: "IPunchTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPunchTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPunchTable_members.html"
 ---
 
-# IPunchTable Object
-Members
+# IPunchTable Object Members
 
 ## Public Methods
 

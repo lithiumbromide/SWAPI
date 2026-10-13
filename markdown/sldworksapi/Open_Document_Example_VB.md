@@ -9,8 +9,7 @@ source: "sldworksapi/Open_Document_Example_VB.htm"
 
 # Open Document Example (VBA)
 
-This example shows how to programmatically open a document and set the
-SOLIDWORKS working directory.
+This example shows how to programmatically open a document and set the SOLIDWORKS Design working directory.
 
 ```vb
  '---------------------------------------------------------------------------
@@ -20,7 +19,7 @@ SOLIDWORKS working directory.
  '
  ' Postconditions:
  ' 1. Opens the specified document.
- ' 2. Sets the SOLIDWORKS working directory to the document directory.
+ ' 2. Sets the SOLIDWORKS Design working directory to the document directory.
  ' 3. Examine the Immediate window.
  '---------------------------------------------------------------------------
 Option Explicit

@@ -62,33 +62,21 @@ System.int ShowDeformedPlot(
 ### Parameters
 
 - `BShowDeformed`: True to plot on the deformed shape, false to not
-- `NDeformOption`: Deformed shape option as defined in
-
-[swsDeformType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDeformType_e.html)
+- `NDeformOption`: Deformed shape option as defined in [swsDeformType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDeformType_e.html)
 - `DUserDefValue`: User-defined scale factor; valid only if NDeformOption is swsDeformType_e.swsUserDefined
 - `BShowColors`: True to show colors, false to not
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ShowDeformedPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowDeformedPlot.html)
-
-.
+See [CWPlot::ShowDeformedPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowDeformedPlot.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
@@ -105,7 +93,6 @@ This method is valid for the following plots:
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

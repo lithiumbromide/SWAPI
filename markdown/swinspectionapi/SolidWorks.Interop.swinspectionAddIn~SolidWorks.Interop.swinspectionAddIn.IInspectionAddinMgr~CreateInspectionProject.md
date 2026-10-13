@@ -59,9 +59,7 @@ System.Object^ CreateInspectionProject(
 
 - `InspectionProjectData`: [IInspectionProjectData](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData.html)
 - `DeleteOld`: True to delete the existing project and create a new one, false to get the existing project
-- `ErrorCode`: Error code as defined by
-
-[swiErrorCode_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiErrorCode_e.html)
+- `ErrorCode`: Error code as defined by [swiErrorCode_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiErrorCode_e.html)
 
 ### Return Value
 
@@ -69,16 +67,11 @@ System.Object^ CreateInspectionProject(
 
 ## VBA Syntax
 
-See
-
-[InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html)
-
-methods.
+See [InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html) methods.
 
 ## See Also
 
 [IInspectionAddinMgr Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.html)
-
 [IInspectionAddinMgr Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html)
 
 ## Availability

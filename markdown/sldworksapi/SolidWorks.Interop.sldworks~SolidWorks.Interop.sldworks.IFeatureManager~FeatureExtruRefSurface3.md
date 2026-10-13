@@ -130,23 +130,15 @@ void FeatureExtruRefSurface3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single-ended, false for double-ended
 - `Dir`: True to reverse the direction of the extrude, false to not
-- `StartCond`: Start condition as defined in
-
-[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
+- `StartCond`: Start condition as defined in [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
 - `OffsetVal`: Offset value
-- `T1`: Termination type for first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `T2`: Termination type for second end as defined in swEndConditions_e (valid only if Sd = false)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters (valid only if Sd = false)
@@ -167,23 +159,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtruRefSurface3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtruRefSurface3.html)
-
-.
+See [FeatureManager::FeatureExtruRefSurface3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtruRefSurface3.html).
 
 ## Examples
 
 [Insert Extruded Surface (C#)](Insert_Extruded_Reference_Surface_Example_CSharp.htm)
-
 [Insert Extruded Surface (VB.NET)](Insert_Extruded_Reference_Surface_Example_VBNET.htm)
-
 [Insert Extruded Surface (VBA)](Insert_Extruded_Reference_Surface_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, select the entities for the extruded surface using[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html).
+Before calling this method, select the entities for the extruded surface using [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html).
 
 | Entity | Mark |
 | --- | --- |
@@ -195,9 +181,7 @@ Before calling this method, select the entities for the extruded surface using[I
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
 
 ## Availability

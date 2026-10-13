@@ -55,26 +55,12 @@ System.String^ SetInstanceDimensionValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TableRowIndex`: Index of the pattern instance in the pattern table (see
-
-Remarks
-
-)
-- `ControlDimName`: Name of the controlling dimension of the pattern instance (see
-
-Remarks
-
-)
+- `TableRowIndex`: Index of the pattern instance in the pattern table (see **Remarks**)
+- `ControlDimName`: Name of the controlling dimension of the pattern instance (see **Remarks**)
 - `NewValue`: New value for the pattern dimension
 
 ### Return Value
@@ -86,37 +72,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::SetInstanceDimensionValue](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~SetInstanceDimensionValue.html)
-
-.
+See [DimPatternFeatureData::SetInstanceDimensionValue](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~SetInstanceDimensionValue.html).
 
 ## Examples
 
 [Delete and Insert Instances in Variable Pattern Feature (C#)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Delete and Insert Instances in Variable Pattern Feature (VB.NET)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Delete and Insert Instances in Variable Pattern Feature (VBA)](Delete_and_Insert_Instances_in_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
 Use:
 
-- [IDimPatternFeatureData::GetTableRowIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetTableRowIndex.html)
-
-  to get TableRowIndex.
-- [IDimPatternFeatureData::GetControllingDimensionName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetControllingDimensionName.html)
-
-  to get ControlDimName.
+- [IDimPatternFeatureData::GetTableRowIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetTableRowIndex.html) to get TableRowIndex.
+- [IDimPatternFeatureData::GetControllingDimensionName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetControllingDimensionName.html) to get ControlDimName.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::GetInstanceDimensionName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceDimensionName.html)
 
 ## Availability

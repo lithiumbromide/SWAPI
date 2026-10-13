@@ -40,25 +40,15 @@ System.int AddPipePenetration()
 System.int AddPipePenetration();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Indicates the success or failure of the operation as defined in[swPipingPenetrationStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPipingPenetrationStatus_e.html)
+Indicates the success or failure of the operation as defined in [swPipingPenetrationStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPipingPenetrationStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddPipePenetration](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddPipePenetration.html)
-
-.
+See [AssemblyDoc::AddPipePenetration](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddPipePenetration.html).
 
 ## Remarks
 
@@ -67,9 +57,7 @@ If the routing DLL is not available, then COM returns ITF_E_ROUTINGNOTLOADED.
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddPipingFitting Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddPipingFitting.html)
 
 ## Availability

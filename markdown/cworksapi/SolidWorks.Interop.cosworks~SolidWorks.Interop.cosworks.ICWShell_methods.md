@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSh
 
 # ICWShell Interface Methods
 
-For a list of all members of this type, see[ICWShell members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html).
+For a list of all members of this type, see [ICWShell members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html).
 
 ## Public Methods
 
@@ -35,9 +35,6 @@ For a list of all members of this type, see[ICWShell members](SolidWorks.Interop
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)

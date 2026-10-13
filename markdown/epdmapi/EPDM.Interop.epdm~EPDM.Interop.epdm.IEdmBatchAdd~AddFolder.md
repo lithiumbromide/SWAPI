@@ -57,31 +57,19 @@ void AddFolder(
 - `lParentFolderID`: ID of parent folder to which to add the folders
 - `bsRelativePath`: Name of folder or relative path of new folder
 - `lArg`: Caller-defined argument
-- `lEdmBatchAddFolderFlags`: Combination of
-
-[EdmBatchAddFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag.html)
-
-bits
-- `poData`: Optional
-
-[IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
-; extra information about the folder to create
+- `lEdmBatchAddFolderFlags`: Combination of [EdmBatchAddFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag.html) bits
+- `poData`: Optional [IEdmFolderData5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html); extra information about the folder to create
 - `lSourceFolderID`: Optional ID of source folder from which to copy properties from
 
 ## Examples
 
-See the
-
-[IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
-examples.
+See the [IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html) examples.
 
 ## Remarks
 
-Before calling this method, use[IEdmBatchAdd::SetFileNameSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~SetFileNameSerNo.html)to specify how to create the name for the new file's data card.
+Before calling this method, use [IEdmBatchAdd::SetFileNameSerNo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~SetFileNameSerNo.html) to specify how to create the name for the new file's data card.
 
-After calling this method, you must call[IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html)to actually add the file to the vault.
+After calling this method, you must call [IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html) to actually add the file to the vault.
 
 [Return codes](ReturnCodes.htm):
 
@@ -91,7 +79,6 @@ After calling this method, you must call[IEdmBatchAdd::CommitAdd](EPDM.Interop.e
 ## See Also
 
 [IEdmBatchAdd Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
 [IEdmBatchAdd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_members.html)
 
 ## Availability

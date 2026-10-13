@@ -68,26 +68,18 @@ System.int GetNodeLocation(
 
 ### Return Value
 
-Error as defined in[swsMeshControlError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlError_e.html)
+Error as defined in [swsMeshControlError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetNodeLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeLocation.html)
-
-.
+See [CWMesh::GetNodeLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeLocation.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetNodeDataFromEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeDataFromEntity.html)
-
 [ICWMesh::GetNodes Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodes.html)
-
 [ICWMesh::NodeCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NodeCount.html)
 
 ## Availability

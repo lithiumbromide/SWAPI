@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 Allows access to a table-driven pattern feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,21 +41,17 @@ public interface class ITablePatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData.html)
-
-.
+See [TablePatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData.html).
 
 ## Examples
 
 'VBA
 
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\tutorial\api\tablepattern.sldprt**.
-' 2. Delete**TPattern1**.
+' 1. Open `public_documents`**\samples\tutorial\api\tablepattern.sldprt**.
+' 2. Delete **TPattern1**.
 ' 3. Run the macro.
-' 4. Creates a new**TPattern1**.
+' 4. Creates a new **TPattern1**.
 ' 5. Inspect the FeatureManager design tree and the graphics area.
 ' ******************************************************************************
 Dim swApp As SldWorks.SldWorks
@@ -86,10 +82,10 @@ swPointArray(5) = 0
 Set swFeatMgr = Part.FeatureManager
 
 Set swFeatData = swFeatMgr.**CreateDefinition**(swFmTablePattern)
-swFeatData.**GeometryPattern**= False
-swFeatData.**PointArray**= swPointArray
-swFeatData.**PropagateVisualProperty**= True
-swFeatData.**UseCentroid**= True
+swFeatData.**GeometryPattern** = False
+swFeatData.**PointArray** = swPointArray
+swFeatData.**PropagateVisualProperty** = True
+swFeatData.**UseCentroid** = True
 Set swFeat = swFeatMgr.**CreateFeature**(swFeatData)
 
 End Sub
@@ -97,18 +93,15 @@ End Sub
 ## Examples
 
 [Get Points of Repeating Elements in Table-driven Pattern (C#)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_CSharp.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VB.NET)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VBNET.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VBA)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VB.htm)
-
 [Create Table Pattern (C#)](Create_Table_Pattern_Example_CSharp.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can pre-select the entities needed to create the table-driven pattern feature.
+Before calling IFeatureManager::CreateDefinition, you must pre-select the entities needed to create the table-driven pattern feature.
 
 | To select ... | Use mark... |
 | --- | --- |
@@ -118,11 +111,9 @@ Before calling IFeatureManager::CreateDefinition, you can pre-select the entitie
 | Seed face | 128 |
 | Seed body | 256 |
 
-Or, after calling IFeatureManager::CreateDefinition, you can explicitly set the corresponding properties on this feature data object.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the table-driven pattern.
 
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the table-driven pattern.
-
-See the**Table Driven Patterns**topic in the SOLIDWORKS user-interface help for more information about table-driven patterns.
+See the **Table Driven Patterns** topic in the SOLIDWORKS Design user-interface help for more information about table-driven patterns.
 
 ## Accessors
 
@@ -137,5 +128,4 @@ See the**Table Driven Patterns**topic in the SOLIDWORKS user-interface help for 
 ## See Also
 
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

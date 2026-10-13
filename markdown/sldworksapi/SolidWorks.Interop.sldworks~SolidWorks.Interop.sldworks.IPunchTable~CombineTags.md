@@ -45,29 +45,15 @@ property System.bool CombineTags {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to combine tags, false to not (see
-
-Remarks
-
-)
+True to combine tags, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PunchTable::CombineTags](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~CombineTags.html)
-
-.
+See [PunchTable::CombineTags](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~CombineTags.html).
 
 ## Examples
 
@@ -88,19 +74,14 @@ If this property is set to true, the punch table looks like this:
 ## Examples
 
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [IPunchTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html)
-
 [IPunch::TagStyle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable~TagStyle.html)
-
 [IPunchTable::CombineSameSize Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable~CombineSameSize.html)
 
 ## Availability

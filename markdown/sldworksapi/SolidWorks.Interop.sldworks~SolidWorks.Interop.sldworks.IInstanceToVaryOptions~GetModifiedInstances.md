@@ -47,19 +47,11 @@ System.Object^ GetModifiedInstances(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ModificationType`: Modification type as defined by
-
-[swInstanceToVaryModificationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInstanceToVaryModificationType_e.html)
+- `ModificationType`: Modification type as defined by [swInstanceToVaryModificationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInstanceToVaryModificationType_e.html)
 
 ### Return Value
 
@@ -67,22 +59,14 @@ Array of pattern instance numbers
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::GetModifiedInstances](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~GetModifiedInstances.html)
-
-.
+See [InstanceToVaryOptions::GetModifiedInstances](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~GetModifiedInstances.html).
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
-
 [IInstanceToVaryOptions::GetModifiedDimensions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions~GetModifiedDimensions.html)
-
 [IInstanceToVaryOptions::GetD1ModifiedSpacingValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions~GetD1ModifiedSpacingValue.html)
-
 [IInstanceToVaryOptions::GetD2ModifiedSpacingValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions~GetD2ModifiedSpacingValue.html)
 
 ## Availability

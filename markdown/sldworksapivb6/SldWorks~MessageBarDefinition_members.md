@@ -1,6 +1,5 @@
 ---
-title: "MessageBarDefinition Object
-Members"
+title: "MessageBarDefinition Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MessageBarDefinition_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MessageBarDefinition_members.html"
 ---
 
-# MessageBarDefinition Object
-Members
+# MessageBarDefinition Object Members
 
 ## Public Properties
 

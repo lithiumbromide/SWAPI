@@ -45,36 +45,21 @@ property System.int ProjectionOption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Distance between the selected entities is projected as defined by
-
-[swMeasureProjectOnOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMeasureProjectOnOption_e.html)
+Distance between the selected entities is projected as defined by [swMeasureProjectOnOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMeasureProjectOnOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[Measure::ProjectionOption](ms-its:sldworksapivb6.chm::/Sldworks~Measure~ProjectionOption.html)
-
-.
+See [Measure::ProjectionOption](ms-its:sldworksapivb6.chm::/Sldworks~Measure~ProjectionOption.html).
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::SetProjectionEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~SetProjectionEntity.html)
-
 [IMeasure::Projection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Projection.html)
 
 ## Availability

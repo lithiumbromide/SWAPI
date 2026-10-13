@@ -45,13 +45,7 @@ property System.short Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Height of label in dialog box units; defaults to 8
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageLabel~Height.html)
-
-.
+See [PropertyManagerPageLabel::Height](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageLabel~Height.html).
 
 ## Remarks
 
@@ -74,7 +64,6 @@ Because SOLIDWORKS sizes the label appropriately based on the text it contains, 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

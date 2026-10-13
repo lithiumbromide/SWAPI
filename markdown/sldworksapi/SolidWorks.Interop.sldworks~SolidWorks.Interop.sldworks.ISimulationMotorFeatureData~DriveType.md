@@ -45,32 +45,19 @@ property System.int DriveType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Drive type as defined in
-
-[swSimulationMotorDriveType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorDriveType_e.html)
+Drive type as defined in [swSimulationMotorDriveType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorDriveType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::DriveType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~DriveType.html)
-
-.
+See [SimulationMotorFeatureData::DriveType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~DriveType.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
 
 ## Availability

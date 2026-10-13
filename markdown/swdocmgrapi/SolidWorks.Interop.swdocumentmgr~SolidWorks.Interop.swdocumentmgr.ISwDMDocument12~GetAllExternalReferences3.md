@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetAllExternalReferences3 Method (ISwDMDocument12)
 
-Obsolete. Superseded by
-
-[ISwDMDocument13::GetAllExternalReferences4](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument13~GetAllExternalReferences4.html)
-
-.
+Obsolete. Superseded by [ISwDMDocument13::GetAllExternalReferences4](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument13~GetAllExternalReferences4.html).
 
 ## Syntax
 
@@ -67,14 +63,9 @@ System.Object^ GetAllExternalReferences3(
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument12::GetAllExternalReferences3](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument12~GetAllExternalReferences3.html)
-
-.
+See [SwDMDocument12::GetAllExternalReferences3](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument12~GetAllExternalReferences3.html).
 
 ## See Also
 
 [ISwDMDocument12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12.html)
-
 [ISwDMDocument12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "SketchRegion Object
-Members"
+title: "SketchRegion Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchRegion_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchRegion_members.html"
 ---
 
-# SketchRegion Object
-Members
+# SketchRegion Object Members
 
 ## Public Methods
 

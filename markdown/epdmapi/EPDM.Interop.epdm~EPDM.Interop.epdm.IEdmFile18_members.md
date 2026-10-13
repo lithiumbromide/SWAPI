@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18_members.html"
 
 # IEdmFile18 Interface Members
 
-The following tables list the members exposed by[IEdmFile18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18.html).
+The following tables list the members exposed by [IEdmFile18](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmFile18](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmFile18 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile18.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

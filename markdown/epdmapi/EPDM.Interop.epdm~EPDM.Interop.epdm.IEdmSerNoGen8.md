@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html"
 
 Allows you to manage serial numbers.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,11 +36,7 @@ public interface class IEdmSerNoGen8 : public IEdmSerNoGen6, IEdmSerNoGen7
 
 ## Remarks
 
-This interface extends
-
-[IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html)
-
-by providing the ability to set the next counter value for serial numbers.
+This interface extends [IEdmSerNoGen7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html) by providing the ability to set the next counter value for serial numbers.
 
 ## Accessors
 
@@ -55,5 +45,4 @@ by providing the ability to set the next counter value for serial numbers.
 ## See Also
 
 [IEdmSerNoGen8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

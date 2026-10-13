@@ -65,28 +65,24 @@ CWRestraint^ AddPrescribedDisplacement(
 
 ### Parameters
 
-- `Displacements`: Array: [`disp_x_coord`,`disp_y_coord`,`disp_z_coord`,`x_bool`,`y_bool`,`z_bool`]
+- `Displacements`: Array: [`disp_x_coord`, `disp_y_coord`, `disp_z_coord`, `x_bool`, `y_bool`, `z_bool`]
 
-where:
+  where:
 
-| Array Element | Value | Description |
-| --- | --- | --- |
-| disp_x_coord | Double | Prescribed displacement in the x direction |
-| disp_y_coord | Double | Prescribed displacement in the y direction |
-| disp_z_coord | Double | Prescribed displacement in the z direction |
-| x_bool | 0 or 1 | Whether to use disp_x_coord (1 to use , 0 to not) |
-| y_bool | 0 or 1 | Whether to use disp_y_coord (1 to use , 0 to not) |
-| z_bool | 0 or 1 | Whether to use disp_z_coord (1 to use , 0 to not) |
+  | Array Element | Value | Description |
+  | --- | --- | --- |
+  | disp_x_coord | Double | Prescribed displacement in the x direction |
+  | disp_y_coord | Double | Prescribed displacement in the y direction |
+  | disp_z_coord | Double | Prescribed displacement in the z direction |
+  | x_bool | 0 or 1 | Whether to use disp_x_coord (1 to use , 0 to not) |
+  | y_bool | 0 or 1 | Whether to use disp_y_coord (1 to use , 0 to not) |
+  | z_bool | 0 or 1 | Whether to use disp_z_coord (1 to use , 0 to not) |
 
-(see**Remarks**)
-- `NLengthUnit`: Units of length as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+  (see **Remarks**)
+- `NLengthUnit`: Units of length as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 - `DispArray`: Array of entities to which to apply the prescribed displacement specified in Displacements
 - `RefGeom`: Reference entity for prescribed displacement direction
-- `ErrorCode`: Error code as defined in
-
-[swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
+- `ErrorCode`: Error code as defined in [swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
 
 ### Return Value
 
@@ -94,18 +90,12 @@ where:
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddPrescribedDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPinConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddPrescribedDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPinConnector.html).
 
 ## Examples
 
 [Add Prescribed Displacement (VBA)](Add_Prescribed_Displacement_Example_VB.htm)
-
 [Add Prescribed Displacement (VB.NET)](Add_Prescribed_Displacement_Example_VBNET.htm)
-
 [Add Prescribed Displacement (C#)](Add_Prescribed_Displacement_Example_CSharp.htm)
 
 ## Remarks
@@ -121,7 +111,6 @@ The Displacements parameter specifies:
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

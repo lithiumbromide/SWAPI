@@ -51,32 +51,16 @@ property System.double ContactPenaltyStiffnessScaleFactor {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::ContactPenaltyStiffnessScaleFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ContactPenaltyStiffnessScaleFactor.html)
-
-.
+See [CWStaticStudyOptions::ContactPenaltyStiffnessScaleFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~ContactPenaltyStiffnessScaleFactor.html).
 
 ## Remarks
 
-This property is analogous to the
-
-Contact penalty stiffness scale factor
-
-setting on the
-
-Simulation
-
-Study RMB menu > Properties > Options
-
-tab.
+This property is analogous to the **Contact penalty stiffness scale factor** setting on the **Simulation** **Study RMB menu > Properties > Options** tab.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::ContactPenaltyStiffnessScaleFactorGlobalDefault Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ContactPenaltyStiffnessScaleFactorGlobalDefault.html)
 
 ## Availability

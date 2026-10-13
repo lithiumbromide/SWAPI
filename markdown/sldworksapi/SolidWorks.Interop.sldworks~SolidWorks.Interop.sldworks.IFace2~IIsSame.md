@@ -47,17 +47,11 @@ System.bool IIsSame(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceIn`: Pointer to the[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)to which to compare this face
+- `FaceIn`: Pointer to the [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to which to compare this face
 
 ### Return Value
 
@@ -65,18 +59,12 @@ True if the two faces are the same, false if they are different
 
 ## VBA Syntax
 
-See
-
-[Face2::IIsSame](ms-its:sldworksapivb6.chm::/sldworks~Face2~IIsSame.html)
-
-.
+See [Face2::IIsSame](ms-its:sldworksapivb6.chm::/sldworks~Face2~IIsSame.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IsSame Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IsSame.html)
 
 ## Availability

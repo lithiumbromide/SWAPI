@@ -42,42 +42,25 @@ property DatumOrigin^ DatumOrigin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IDatumOrigin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin.html)
-
-object
+Pointer to the [IDatumOrigin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumOrigin.html) object
 
 ## VBA Syntax
 
-See
-
-[HoleTable::DatumOrigin](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~DatumOrigin.html)
-
-.
+See [HoleTable::DatumOrigin](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~DatumOrigin.html).
 
 ## Examples
 
 [Get Labels of Datum Origin (C#)](Get_Labels_of_Datum_Origin_Example_CSharp.htm)
-
 [Get Labels of Datum Origin (VB.NET)](Get_Labels_of_Datum_Origin_Example_VBNET.htm)
-
 [Get Labels of Datum Origin (VBA)](Get_Labels_of_Datum_Origin_Example_VB.htm)
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "RackPinionMateFeatureData Object
-Members"
+title: "RackPinionMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RackPinionMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RackPinionMateFeatureData_members.html"
 ---
 
-# RackPinionMateFeatureData Object
-Members
+# RackPinionMateFeatureData Object Members
 
 ## Public Properties
 

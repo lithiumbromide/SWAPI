@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchManager Interface Members
 
-The following tables list the members exposed by[ISketchManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html).
+The following tables list the members exposed by [ISketchManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html).
 
 ## Public Properties
 
@@ -120,5 +120,4 @@ The following tables list the members exposed by[ISketchManager](SolidWorks.Inte
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

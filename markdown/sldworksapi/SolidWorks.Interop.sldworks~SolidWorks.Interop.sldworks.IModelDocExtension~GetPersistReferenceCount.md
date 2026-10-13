@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetPersistReferenceCount Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetPersistReferenceCount3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetPersistReferenceCount3.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetPersistReferenceCount3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetPersistReferenceCount3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int GetPersistReferenceCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetPersistReferenceCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPersistReferenceCount.html)
-
-.
+See [ModelDocExtension::GetPersistReferenceCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPersistReferenceCount.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

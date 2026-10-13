@@ -57,24 +57,15 @@ Number of attached components for the component corresponding to selIndex
 
 ## VBA Syntax
 
-See
-
-[AdvancedRouteSelector::getAttachedComponentsCount](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~getAttachedComponentsCount.html)
-
-.
+See [AdvancedRouteSelector::getAttachedComponentsCount](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~getAttachedComponentsCount.html).
 
 ## Examples
 
-See the
-
-[IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
-examples.
+See the [IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html) examples.
 
 ## See Also
 
 [IAdvancedRouteSelector Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
 [IAdvancedRouteSelector Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector_members.html)
 
 ## Availability

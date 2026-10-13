@@ -40,13 +40,7 @@ System.object GetTessTriStripNorms()
 System.Object^ GetTessTriStripNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Array containing the tri-strip normals
 
 ## VBA Syntax
 
-See
-
-[Component2::GetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriStripNorms.html)
-
-.
+See [Component2::GetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriStripNorms.html).
 
 ## Remarks
 
@@ -67,9 +57,7 @@ Tessellation information is available only when the component is loaded as light
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetTessTriStripNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetTessTriStripNorms.html)
 
 ## Availability

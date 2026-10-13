@@ -27,7 +27,7 @@ This example shows how to expand, collapse, dissolve, and restore a subassembly 
   // 4. Dissolves the blade shaft subassembly. Press F5 to restore the blade
  //    shaft subassembly.
  //
- // NOTE: Because this document is used by a SOLIDWORKS
+ // NOTE: Because this document is used by a SOLIDWORKS Design
  // online tutorial, do not save any changes when
  // closing it.
  //-----------------------------------------------------------------------------

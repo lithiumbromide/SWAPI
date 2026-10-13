@@ -9,10 +9,7 @@ source: "sldworksapi/Get_Entity_By_Name_Example.htm"
 
 # Get Entity By Name Example (VBA)
 
-This example shows how to get a face by specifying
-its name and changing the name. This
-process is commonly used with standardized parts where names can be given
-to objects and the objects can be accessed later.
+This example shows how to get a face by specifying its name and changing the name. This process is commonly used with standardized parts where names can be given to objects and the objects can be accessed later.
 
 ```
 '---------------------------------------------

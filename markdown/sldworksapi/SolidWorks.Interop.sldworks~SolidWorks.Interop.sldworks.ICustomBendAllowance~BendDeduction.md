@@ -45,13 +45,7 @@ property System.double BendDeduction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Value of the bend deduction
 
 ## VBA Syntax
 
-See
-
-[CustomBendAllowance::BendDeduction](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~BendDeduction.html)
-
-.
+See [CustomBendAllowance::BendDeduction](ms-its:sldworksapivb6.chm::/sldworks~CustomBendAllowance~BendDeduction.html).
 
 ## Examples
 
-See
-
-[ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)
-
-examples.
+See [ICustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) examples.
 
 ## Examples
 
@@ -79,16 +65,13 @@ examples.
 
 ## Remarks
 
-If using this property to set a value for the bend deduction, then the
+If using this property to set a value for the bend deduction, then the [type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html) is set to this type. However, the last ICustomBendAllowance property called to set a value also re-sets the type of custom bend allowance to its type.
 
-[type of custom bend allowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance~Type.html)
-
-is set to this type. However, the last ICustomBendAllowance property called to set a value also re-sets the type of custom bend allowance to its type.
+See the ICustomBendAllowance Remarks.
 
 ## See Also
 
 [ICustomBendAllowance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
-
 [ICustomBendAllowance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance_members.html)
 
 ## Availability
