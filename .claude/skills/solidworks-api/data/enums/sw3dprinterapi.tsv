@@ -1,0 +1,38 @@
+#swapi-enums 1 module=sw3dprinterapi sw=2026 prefix=SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter. cols=name,value,description
+@ConfigureDialog_e	bitmask	Disables buttons and fields on Print dialog.
+DisableAdvancedSettingsButton	16
+DisableCostField	32
+DisableOrientationBestSurfaceQualityOption	4
+DisableOrientationMinimumBuildTimeOption	2
+DisableOrientationSpecifyInAdvancedOption	8
+DisablePrintQualitySpecifyInAdvancedOption	1
+DisableQuantityControl	64
+DisableUpdateStatisticsButton	128
+OkButtonAlwaysEnabled	256
+@swBuildEnvelopeStartingPoint_e		Starting location for build envelope.
+swBuildEnvelopeStartingPoint_e_Maximum	2
+swBuildEnvelopeStartingPoint_e_Minimum	1
+@swBuildOrientation_e		Build orientation.
+swBuildOrientation_e_BestQualty	2
+swBuildOrientation_e_Default	1
+swBuildOrientation_e_FastestBuildTime	3
+swBuildOrientation_e_OrthogonalPlusRotation	4
+swBuildOrientation_e_VendorSpecifiedInAdvancedProperties	5
+@swDataChangeResult_e		Status of update.
+swDataChangeResult_e_DataChangeFailure	2
+swDataChangeResult_e_DataChangeSuccess	1
+@swPrinterStatus_e		Printer's current state.
+swPrinterStatus_e_Available	1
+swPrinterStatus_e_Busy	2
+swPrinterStatus_e_Error	4
+swPrinterStatus_e_Offline	3
+swPrinterStatus_e_Other	5
+@swPrintQuality_e		Print quality setting.
+swPrintQuality_e_Default	1
+swPrintQuality_e_Draft	2
+swPrintQuality_e_Fine	4
+swPrintQuality_e_Normal	3
+swPrintQuality_e_VendorSpecifiedInAdvancedProperties	5
+@swStartupResult_e		Startup status.
+swStartupResult_e_CouldNotSetDefaults	2
+swStartupResult_e_StartupOk	1

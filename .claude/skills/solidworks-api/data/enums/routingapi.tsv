@@ -1,0 +1,174 @@
+#swapi-enums 1 module=routingapi sw=2026 prefix=SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib. cols=name,value,description
+@swAdvancedRouteSelectionOutput_e		Highlight Search output types.
+swBoth	0	Both swSelectOnly and swDataOnly; default
+swDataOnly	2	Returns data, but does not select the item
+swSelectOnly	1	Selects the item but does not get its data
+@swAutoRouteAutoTangencyMode_e		AutoRoute tangency modes.
+swAutoTangencyMode_OFF	0
+swAutoTangencyMode_ON	1
+@swAutoRouteConversionMode_e		AutoRoute conversion modes.
+swFlexibleAutoRouteMode	1
+swOrthogonalAutoRouteMode	2
+@swAutoRouteErrorType_e		AutoRoute error types.
+swAutoRouteEntityTypeAndEntityIdMismatch	1
+swAutoRouteFailed	2
+swAutoRouteSuccess	0
+@swAutoRouteSketchEntitiesTypes_e		Types of sketch entities through which to create an auto route.
+swAutoRouteSketchEntitiesType_Arc	2
+swAutoRouteSketchEntitiesType_Line	1
+swAutoRouteSketchEntitiesType_Point	0
+swAutoRouteSketchEntitiesType_Spline	3
+@swComponentCrossSectionType_e		Types of cross sections for user-defined routes for active routing components.
+swCircularCrossSection	1010
+swNotHVAC	1020
+swRectangularCrossSection	1000
+@swComponentRouteType_e		Route types.
+swElectrical	3
+swFabricatedPipe	1
+swMixedRouteType	4
+swTube	2
+swUnknownType	5
+swUserDefinedType	6
+@swCPointConfig_e		Connection point (also called CPoint) configurations.
+swCPointConfig_AddAllCPoint	1
+swCPointConfig_DoNotAddCPoint	2
+swCPointConfig_SelectCPoints	3
+@swElectricalRouteSubType_e		Electrical route sub-types.
+swRouteSubType_CableWire	1
+swRouteSubType_Conduit	2
+swRouteSubType_Harness	0
+swRouteSubType_Ribbon	3
+@swElectricalStreamType_e		Electrical stream types.
+swAllStreams	0
+swFromToListStream	2
+swSegmentDataStream	3
+swWireListStream	4
+@swExportTubeDataReportType_e		Report types of exported tube data.
+swExportTubeDataReportType_Tangent	1	Exported tube bend table contains tangent points
+swExportTubeDataReportType_XYZ	2	Exported tube bend table contains intersection points
+@swFlattenRouteErrorType_e		Types of route flattening errors.
+swDuplicateComponentError	3
+swFlattenRouteNoError	5
+swNeedsToSaveVirtualComponentError	1
+swProblemInRouteAssemblyError	2
+swRouteAssemblyNotSelected	4
+@swForceUpdateElectricalDataError_e		Electrical data force update status.
+swForceUpdateElectricalData_BadStreamData	3
+swForceUpdateElectricalData_IncorrectStreamInput	1
+swForceUpdateElectricalData_IsNotARouteAssembly	2
+swForceUpdateElectricalData_RouteInEditMode	4
+swForceUpdateElectricalData_Success	0
+@swMinimumBendRadiusChecks_e		Minimum bend radius checks.
+swMinimumBendRadiusChecks_CablesAndWires	2
+swMinimumBendRadiusChecks_None	0
+swMinimumBendRadiusChecks_WiresOnly	1
+@swPointToPointAutoRouteConversionMode_e		Auto Route routing path styles.
+swFlexibleMode	1	Route path is a smooth curve
+swOrthogonalMode	2	Route path consists of orthogonal segments
+@swPointToPointAutoRouteErrorType_e		Types of Auto Route creation errors.
+swCouldNotCreateRoute	2
+swNoRouteFound	3
+swPointToPointAutoRouteNoError	4
+swRouteTypeAndConversionModeMismatch	1
+@swRouteComponentTypeID_e		Route components.
+swRouteCompType_Adapter	11
+swRouteCompType_AssemblyFittings	29
+swRouteCompType_CableTray	30
+swRouteCompType_Clip	14
+swRouteCompType_Conduit	26
+swRouteCompType_ConduitAdapter	21
+swRouteCompType_ConduitElbow	28
+swRouteCompType_Cross	12
+swRouteCompType_DuctingTrunking	31
+swRouteCompType_EccentricReducer	9
+swRouteCompType_Elbow	7
+swRouteCompType_EndConnector	2
+swRouteCompType_Equipment	16
+swRouteCompType_FittingOther	19
+swRouteCompType_Flange	3
+swRouteCompType_FlexCableConnector	32
+swRouteCompType_Gasket	22
+swRouteCompType_Hanger	20
+swRouteCompType_HybridComponents	18
+swRouteCompType_Nipple	33
+swRouteCompType_OLet	4
+swRouteCompType_Pipe	1
+swRouteCompType_Reducer	8
+swRouteCompType_ReducingCross	13
+swRouteCompType_ReducingTee	6
+swRouteCompType_RibbonCable	24
+swRouteCompType_Splice	27
+swRouteCompType_Support	15
+swRouteCompType_Tee	5
+swRouteCompType_TeeAdapter	17
+swRouteCompType_Tube	25
+swRouteCompType_Union	10
+swRouteCompType_Unknown	0
+swRouteCompType_Valve	23
+@swRouteType_e		Route types.
+swRouteType_Electrical	2
+@swRoutingExportDataError_e		Statuses for routing data export.
+swRoutingExportDataError_AssemblyTypeMismatch	3
+swRoutingExportDataError_IncorrectFilePath	2
+swRoutingExportDataError_Success	0
+swRoutingExportDataError_UnknownError	1
+swRoutingExportDataError_WrongType	5
+swRoutingExportDataError_WrongUnit	4
+@swRoutingExportPipeDataError_e		Statuses for pipe data export.
+swRoutingExportPipeDataError_AssemblyTypeMismatch	3
+swRoutingExportPipeDataError_IncorrectFilePath	2
+swRoutingExportPipeDataError_Success	0
+swRoutingExportPipeDataError_UnknownError	1
+swRoutingExportPipeDataError_WrongUnit	4
+@swSetRoutePathForWireErrorType_e		Route path for wire
+swSetRoutePathFailed	2
+swSetRoutePathSuccess	0
+swSetRoutePathTooManyConnectorsSelected	1
+@swUserPreferenceRoutingDouble_e		Routing user preferences whose values are of type double.
+swSlackPercentage	1
+swTextSizeForConnectionAndRoutePoints	2
+@swUserPreferenceRoutingFileLocations_e		User preferences for routing file locations.
+swFileLocationsRoutingAssemblyTemplate	2
+swFileLocationsRoutingCableLibrary	5
+swFileLocationsRoutingComponentLibrary	6
+swFileLocationsRoutingCoveringLibrary	8
+swFileLocationsRoutingInterconnectsLibrary	10	Allow reading and writing interconnectsandaccessorieslibrary.xml file path
+swFileLocationsRoutingPipeTubeCoveringLibrary	4
+swFileLocationsRoutingStandardCable	7
+swFileLocationsRoutingStandardTubes	3
+swFileLocationsRoutingTagSchemes	9
+swRoutingLibraryPath	1
+@swUserPreferenceRoutingInteger_e		Routing user preferences whose values are of type integer.
+swComponentRotationIncrementDegrees	1
+swEnableMinimumBendRadiusChecks	2
+@swUserPreferenceRoutingToggle_e		Routing user preferences whose values are turned on and off.
+swAlwaysUseDefaultDocumentTemplate	13
+swAutomaticallyAddDimensionToRouteStubs	9
+swAutomaticallyCreateSketchFillets	1
+swAutomaticallyRouteOnDropOfClips	8
+swAutomaticallyRouteOnDropOfFlangeConnectors	7
+swAutomaticallyZoomToFitRouteComponents	17
+swCreateCustomFittings	5
+swCreatePipesOnOpenLineSegments	6
+swCreateRoutePartForSegmentsHavingBendRadiusLessThanMinimum	19
+swDisplayErrorBalloons	11
+swEnableRouteErrorChecking	10
+swHideConfigurationDialogForSWElectricalComponents	20
+swIncludeCoveringsInBOM	12
+swSaveRouteAssemblyExternally	2
+swSaveRoutePartsExternally	3
+swUseAutomaticNamingForRouteParts	4
+swUseAutoNamingForRouteParts	15
+swUseCenterlineDim	16
+swUseConfigureComponentsToSelectConfigurations	18
+swUseTriadToPosAndOrientComp	14
+@swWireRouteError_e		Routing status.
+swWireRouteError_WireMismatchedFromComponent	5
+swWireRouteError_WireMismatchedFromPin	7
+swWireRouteError_WireMismatchedToComponent	6
+swWireRouteError_WireMismatchedToPin	8
+swWireRouteError_WireMissingFromToComponent	4
+swWireRouteError_WireNotRouted	1
+swWireRouteError_WirePathViolatesBendRadius	9
+swWireRouteError_WireSegmentsBranching	2
+swWireRouteError_WireSegmentsDisjoint	3

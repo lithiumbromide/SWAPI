@@ -1,0 +1,2718 @@
+#swapi-enums 1 module=cworksapi sw=2026 prefix=SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks. cols=name,value,description
+@swsAccelerationComponent_e		Acceleration components
+swsAccelerationComponentANG	7	Phase angle (shell studies only)
+swsAccelerationComponentARES	3	Resultant linear acceleration
+swsAccelerationComponentAX	0	Linear acceleration along the x axis
+swsAccelerationComponentAY	1	Linear acceleration along the y axis
+swsAccelerationComponentAZ	2	Linear acceleration along the z axis
+swsAccelerationComponentBX	4	Angular acceleration about the x axis (shell studies only)
+swsAccelerationComponentBY	5	Angular acceleration about the y axis (shell studies only)
+swsAccelerationComponentBZ	6	Angular acceleration about the z axis (shell studies only)
+@swsAccelerationUnit_e		Units of acceleration
+swsAccelerationUnit_CentimetersPerSquareSec	2	centimeters/second^2
+swsAccelerationUnit_g	3	gravity units
+swsAccelerationUnit_InchesPerSquareSec	1	inches/second^2
+swsAccelerationUnit_MetersPerSquareSec	0	meters/second^2
+@swsAddDefaultDropTestStudyPlotResultError_e		Drop test study result plot errors
+swsDropTestResultDisplacementRangeError	4	Displacement component value is outside the range of supported values
+swsDropTestResultElementalStrainRangeError	5	Elemental strain component value is outside the range of supported values
+swsDropTestResultElementalStressRangeError	3	Elemental stress component value is outside the range of supported values
+swsDropTestResultNodalStressRangeError	2	Nodal stress component value is outside the range of supported values
+swsDropTestResultNoError	0
+swsDropTestResultRangeError	1	Result is outside the range of supported values
+@swsAddDefaultFatigueStudyPlotResultError_e		Fatigue study result plot errors
+swsFatigueResultNoError	0
+swsFatigueResultRangeError	1	Fatigue result is outside the range of supported values
+@swsAddDefaultFrequencyOrBucklingStudyPlotResultError_e		Frequency or buckling study result plot errors
+swsFrequencyMaxModeShapeValueRangeError	1	Modal shape is outside the range of supported values
+swsFrequencyResultDisplacementRangeError	2	Displacement is outside the range of supported values
+swsFrequencyResultNoError	0
+@swsAddDefaultNonLinearStudyPlotResultError_e		Nonlinear study result plot errors
+swsNonLinearResultDisplacementComponentRangeError	4	Displacement component is outside the range of supported values
+swsNonLinearResultElementalStrainComponentRangeError	6	Elemental strain component is outside the range of supported values
+swsNonLinearResultElementalStressComponentRangeError	3	Elemental stress component is outside the range of supported values
+swsNonLinearResultNodalStrainComponentRangeError	5	Nodal strain component is outside the range of supported values
+swsNonLinearResultNodalStressComponentRangeError	2	Nodal stress component is outside the range of supported values
+swsNonLinearResultNoError	0
+swsNonLinearResultRangeError	1	Elemental strain component value is outside the range of supported values
+@swsAddDefaultOptimizationDesignStudyPlotResultError_e		Optimization design study result plot errors
+swsOptimizationDesignResultDesignValueRangeError	1	The design variable value is not within the supported range
+swsOptimizationDesignResultNoError	0	No error
+@swsAddDefaultStaticStudyPlotResultError_e		Static study result plot errors
+swsStaticResultDisplacementComponentRangeError	3	The value of the displacement component is not within the supported range
+swsStaticResultElementalStrainRangeError	5	The value of the elemental strain component is not within the supported range
+swsStaticResultElementalStressComponentRangeError	2	The value of the elemental stress component is not within the supported range
+swsStaticResultNodalStrainRangeError	4	The value of the nodal strain component is not within the supported range
+swsStaticResultNodalStressComponentRangeError	6	The value of the nodal stress component is not within the supported range
+swsStaticResultNoErrror	0	No error
+swsStaticResultTypeRangeError	1	The result type is not supported or is an invalid result type
+@swsAddDefaultThermalStudyPlotResultError_e		Thermal study result plot errors
+swsThermalResultNoError	0	No error
+swsThermalResultRangeError	1	The thermal result type is not within the supported range
+@swsAnalysisStudyType_e		Analysis study types
+swsAnalysisStudyTypeBuckling	2	Buckling (analysis or study)
+swsAnalysisStudyTypeDropTest	6	Drop test (study only)
+swsAnalysisStudyTypeDynamic	8	Linear dynamic (study only)
+swsAnalysisStudyTypeFatigue	7	Fatigue (study only)
+swsAnalysisStudyTypeFrequency	1	Frequency (analysis or study)
+swsAnalysisStudyTypeNonlinear	5	Nonlinear (analysis or study)
+swsAnalysisStudyTypeOptimization	4	Optimization (study only)
+swsAnalysisStudyTypePressureVessel	9	Pressure Vessel (study only)
+swsAnalysisStudyTypeReserved1	10
+swsAnalysisStudyTypeReserved2	11
+swsAnalysisStudyTypeReserved3	12
+swsAnalysisStudyTypeStatic	0	Static (analysis or study)
+swsAnalysisStudyTypeThermal	3	Thermal (analysis or study)
+swsAnalysisStudyTypeTopology_Static	13	Topology (analysis or study)
+@swsAngularAccelerationUnit_e		Units of angular acceleration
+swsAngularAccelerationUnit_HertzPerSec	1	Cycles/second 2
+swsAngularAccelerationUnit_RadiansPerSquareSec	0	Radians/second 2
+swsAngularAccelerationUnit_RPMSquare	2	Revolutions/minute 2
+@swsAngularVelocityUnit_e		Units of angular velocity
+swsAngularVelocityUnit_Hertz	1	cycles/second
+swsAngularVelocityUnit_RadiansPerSec	0	radians/second
+swsAngularVelocityUnit_RPM	2	revolutions/minute
+@swsBaseExcitationEndEditError_e		Base excitation editing errors
+swsBaseExcitationError_ExcitationTypeNotAvailable	3	Excitation type not available for this study type
+swsBaseExcitationError_ImproperUnits	6	Units given are not correct
+swsBaseExcitationError_InvalidExcitationType	2	Invalid excitation type
+swsBaseExcitationError_InvalidFixtureNameOrEntity	5	Fixture name given or entity name given is not proper
+swsBaseExcitationError_InvalidValue	11	Invalid value
+swsBaseExcitationError_NoError	0	Success
+swsBaseExcitationError_NoProperFixtures	4	No proper fixtures are available for base excitation
+swsBaseExcitationError_NotAvailableForThisStudy	1	Not available for this study type
+swsBaseExcitationError_SelectAtleastOneDirection	7	Select at least one direction
+swsBaseExcitationError_SelectAtleastOneDirectionOfThatInRestraint	10	Select at least one direction that is present in the given restraint
+swsBaseExcitationError_SelectOnlyOneDirection	8	Select only one direction
+swsBaseExcitationError_SelectOnlyThirdDirection	9	Select only the third direction for edge reference entities
+@swsBaseExcitationType_e		Uniform base excitation types
+swsBaseExcitationType_Acceleration	2
+swsBaseExcitationType_Displacement	0
+swsBaseExcitationType_Velocity	1
+@swsBeamBodyConnectionType_e		Beam body connection types
+swsBeamBodyConnectionManual	3
+swsBeamBodyConnectionPin	1
+swsBeamBodyConnectionRigid	0
+swsBeamBodyConnectionSlide	2
+@swsBeamForceType_e		Beam force types
+swsBeamForceAxial	0	Axial force; for trusses, this is the only valid option
+swsBeamForceMomentDirection1	3	Moment in Dir 1
+swsBeamForceMomentDirection2	4	Moment in Dir 2
+swsBeamForceShearDirection1	1	Shear force in Dir 1
+swsBeamForceShearDirection2	2	Shear force in Dir 2
+swsBeamForceTorque	5	Torque
+@swsBeamNonUniformLoadDef_e		Nonuniform load definitions
+swsCentralLoad	1	Central
+swsTableDrivenLoad	2	Table-driven
+swsTotalLoad	0	Total
+@swsBeamNonUniformLoadType_e		Nonuniform distribution types
+swsEllipticalLoad	2	Elliptical
+swsParabolicLoad	1	Parabolic
+swsTriangularLoad	0	Triangular
+@swsBeamStressComponent_e		Beam stresses
+swsBeamStressComponentAxial	0	Uniform axial stress
+swsBeamStressComponentBendingLocalDir1	1	Upper bound bending stress due to moment M1
+swsBeamStressComponentBendingLocalDir2	2	Upper bound bending stress due to moment M2
+swsBeamStressComponentWorstCase	3	Upper bound axial and bending stresses at the extreme fibers of the cross-section
+@swsBeamStressType_e		Beam stress types
+swsBeamStressAxial	0	Uniform axial stress
+swsBeamStressBendingDirection1	1	Bending stress in Dir 1
+swsBeamStressBendingDirection2	2	Bending stress in Dir 2
+swsBeamStressTorsional	3	Torsional stress
+swsBeamStressWorstCase	4	Axial and bending stresses at the extreme fibers of the cross-section
+@swsBeamType_e		Beam types
+swsBeamTypeBeam	0
+swsBeamTypeTruss	1
+@swsBearingConnectionType_e		Bearing connection types
+swsDistributedConnType	0
+swsRigidConnType	1
+swsSpringConnType	2
+@swsBearingConnectorErrors_e		Bearing connector errors
+swsBearingConnectorErrCode_FacesOrEdgesSelectedFromSingleComponent	15	Select cylindrical faces from 2 different components
+swsBearingConnectorErrCode_InadequateEntitiesSelection	12	Insufficient entities are selected; not enough for valid linkage rod definition
+swsBearingConnectorErrCode_InvalidConnectionType	17	Connection type must be chosen from swsBearingConnectionType_e
+swsBearingConnectorErrCode_InvalidSelectionForHousing	4	Select only single cylindrical face of solid body or an edge of shell or surface body for housing
+swsBearingConnectorErrCode_InvalidSelectionForShaft	5	Select only single cylindrical face of solid body for shaft
+swsBearingConnectorErrCode_InvalidUnitType	7	Unit type must be choosen from swsUnit_e
+swsBearingConnectorErrCode_LenByDiamRatioGreaterThan2ForShaft	16	Length/diameter of shaft > 2
+swsBearingConnectorErrCode_MoreThanOneFaceOrEdgeSelectedForHousing	14	Select only single cylindrical face of solid body or an edge of shell or surface body for housing
+swsBearingConnectorErrCode_MoreThanOneFaceSelectedForShaft	13	Select only single cylindrical face of solid body for shaft
+swsBearingConnectorErrCode_NoActiveDoc	1	Active document not found
+swsBearingConnectorErrCode_NoActiveStudy	2	Active simulation study not found
+swsBearingConnectorErrCode_OutOfRangeAxialStiffness	9	Set valid value between 0 and 1e+16 for axial stiffness
+swsBearingConnectorErrCode_OutOfRangeLateralStiffness	8	Set valid value between 0 and 1e+16 for lateral stiffness
+swsBearingConnectorErrCode_OutOfRangeShaftStabilizeStiffness	11	Set valid value between 0 and 1e+16 for shaft stabilize stiffness
+swsBearingConnectorErrCode_OutOfRangeTiltStiffness	10	Set valid value between 0 and 1e+16 for tilt stiffness
+swsBearingConnectorErrCode_SetOperationNotSupported	3	Started editing before BeginEdit() was called
+swsBearingConnectorErrCode_SourceAndTargetSelectionsSwitched	6	Switch shaft and housing selections
+swsBearingConnectorErrCode_Successful	0
+@swsBearingLoadDistributionType_e		Bearing load distribution types
+swsBearingLoadDistributionTypeParabolic	1
+swsBearingLoadDistributionTypeSinusoidal	0
+@swsBearingLoadEndEditError_e		Bearing load editing errors
+swsBearingLoadEndEditErrorBodyExcludedFromAnalysis	17	Selected entity is on a body excluded from analysis
+swsBearingLoadEndEditErrorCoordinateSystemCylindricalFaces	1	Coordinate system and set of cylindrical faces must be the same radii and z axis of coordinate system must be coincident with the axis of the cylindrical faces
+swsBearingLoadEndEditErrorEntityExists	3	Entity already exists
+swsBearingLoadEndEditErrorHasBeamBody	9	Bearing load has a beam body
+swsBearingLoadEndEditErrorHasMassElement	8	Bearing load has a mass element
+swsBearingLoadEndEditErrorIncorrectOrNullEntity	2	Incorrect or NULL entity
+swsBearingLoadEndEditErrorIndexExceedsNumberOfEntities	10	Specified index exceeds the number of entities
+swsBearingLoadEndEditErrorNoEntity	11	No entity
+swsBearingLoadEndEditErrorNoEntityAtIndex	5	No entity at specified index
+swsBearingLoadEndEditErrorNullEntity	16	Entity is NULL
+swsBearingLoadEndEditErrorSelectFace	4	Select a face
+swsBearingLoadEndEditErrorSelectFaceWithCylindricalSurface	7	Select a face with cylindrical surface
+swsBearingLoadEndEditErrorSelectForceDirection	13	Select one force direction
+swsBearingLoadEndEditErrorSelectOneForceDirection	12	Select one force direction, not both force directions
+swsBearingLoadEndEditErrorSetXDirection	14	Set X direction to 0 or 1
+swsBearingLoadEndEditErrorSetYDirection	15	Set Y direction to 0 or 1
+swsBearingLoadEndEditErrorSpecifyValue	6	Specify a value > 0
+swsBearingLoadEndEditErrorSuccessful	0	Successful
+@swsBearingStiffnessShaftStabilizeType_e		Bearing connector stiffness shaft stabilization types
+swsBearingStiffnessShaftStabilizeAuto	0
+swsBearingStiffnessShaftStabilizeUserDef	1
+@swsBearingStiffnessType_e		Bearing connector stiffness types
+swsBearingStiffnessFlexible	1
+swsBearingStiffnessRigid	0
+@swsBoltConnectorEndEditError_e		Bolt connector editing errors
+swsBoltConnectorEndEditErrorBodyExcludedFromAnalysis	40	Entity is on a body excluded from analysis
+swsBoltConnectorEndEditErrorBodyHasBeamElement	42	Body has a beam element
+swsBoltConnectorEndEditErrorBodyHasMassElement	39	Body has a mass element
+swsBoltConnectorEndEditErrorBoltDiameterBiggerShankContactFaceDiameter	25	Bolt diameter cannot be greater than the minimum shank contact face diameter
+swsBoltConnectorEndEditErrorDefineMaterial	13	Define a material
+swsBoltConnectorEndEditErrorDocumentIsPart	30	Document type is part
+swsBoltConnectorEndEditErrorEntityAlreadyExits	27	Entity already exists
+swsBoltConnectorEndEditErrorEntitySelectionBoxesEmpty	34	Both entity selection boxes are empty
+swsBoltConnectorEndEditErrorIncorrectHeadDiameter	3	Head diameter is either <= 0 or > the maximum value
+swsBoltConnectorEndEditErrorIncorrectNutDiameter	29	Nut diameter is either < 0 or > maximum value
+swsBoltConnectorEndEditErrorIncorrectShankDiameter	7	Shank diameter is <= 0 or > the maximum value
+swsBoltConnectorEndEditErrorInvalidConnectionType	44
+swsBoltConnectorEndEditErrorInvalidForAnalysis	43
+swsBoltConnectorEndEditErrorNoEntity	28	No entity specified
+swsBoltConnectorEndEditErrorNoMultiBoltSelected	38	Entity cannot be inserted because multi-bolt not selected
+swsBoltConnectorEndEditErrorNoObjectAtIndex	33	No object at specified index
+swsBoltConnectorEndEditErrorNoShearEffectSelected	37	Entity cannot be inserted because shear effect not selected
+swsBoltConnectorEndEditErrorNullEntity	41	Entity is NULL
+swsBoltConnectorEndEditErrorSelectBoltHeadAndNut	17	Select a bolt head and bolt nut from different bodies
+swsBoltConnectorEndEditErrorSelectBoltNut	26	Select a bolt nut
+swsBoltConnectorEndEditErrorSelectCircularEdge	5	Select a circular edge
+swsBoltConnectorEndEditErrorSelectCoaxialCylindricalSurfaces	23	Select co-axial cylindrical surfaces from different components
+swsBoltConnectorEndEditErrorSelectConcentricCylindricalFaces	24	Select concentric cylindrical faces from two bodies
+swsBoltConnectorEndEditErrorSelectConcentricEntities	9	Select concentric entities
+swsBoltConnectorEndEditErrorSelectConicalFaceAndBoltNut	19	Select conical face and bolt nut from different bodies
+swsBoltConnectorEndEditErrorSelectConicalFaceAndFaceForThread	20	Select conical face and face for thread from different bodies
+swsBoltConnectorEndEditErrorSelectConicalSurface	2	Select a conical surface
+swsBoltConnectorEndEditErrorSelectCylindricalThreadFace	6	Select cylindrical thread face from a different body
+swsBoltConnectorEndEditErrorSelectEdge	4	Select an edge
+swsBoltConnectorEndEditErrorSelectEdgesOnShells	32	Select edges on shells
+swsBoltConnectorEndEditErrorSelectFace	1	Select a face
+swsBoltConnectorEndEditErrorSelectFaceForHeadNutFaceForThread	18	Select face for the head nut and face for the thread from different bodies
+swsBoltConnectorEndEditErrorSelectFacesFromMultilayerBolt	22	Select faces from multi-layer bolt
+swsBoltConnectorEndEditErrorSelectMass	8	Select a mass > 0
+swsBoltConnectorEndEditErrorSelectNutOrHead	31	Select a nut or head
+swsBoltConnectorEndEditErrorSelectOneEntity	35	Can only select one entity per selection box
+swsBoltConnectorEndEditErrorSelectPlanarFace	16	Select a planar face
+swsBoltConnectorEndEditErrorSelectReferencePlane	21	Sleect a reference plane
+swsBoltConnectorEndEditErrorSpecifyFrictionValue	15	Specify a friction value >= 0 and <= 1
+swsBoltConnectorEndEditErrorSpecifyPoissonsRatio	12	Specify a Poissons ratio >= 0 but <= 1
+swsBoltConnectorEndEditErrorSpecifyPreloadValue	14	Specify a preload value >= 0
+swsBoltConnectorEndEditErrorSpecifyTemperatureCoefficient	11	Specify a temperature coefficient >= 0
+swsBoltConnectorEndEditErrorSpecifyYoungModulus	10	Specify a young Modulus > 0
+swsBoltConnectorEndEditErrorSuccessful	0	Successful
+swsBoltConnectorEndEditErrorTooManyEntities	36	Number of entities specified is greater than the number of entities in the selection box
+@swsBoltConnectorError_e		Bolt connector errors
+swsBoltConnectorErrorArrayEmpty	17	Array has an empty dispatch
+swsBoltConnectorErrorBodyExcludedFromAnalysis	20	Selected entity is on a body excluded from analysis
+swsBoltConnectorErrorBoltDiameterTooLarge	19	Bolt diameter may be too large
+swsBoltConnectorErrorEdgeFromSameFace	21	Selected edge belongs to a conical face of the same bolt
+swsBoltConnectorErrorInvalidMesh	1	Invalid mesh type
+swsBoltConnectorErrorInvalidStudy	3	Invalid study
+swsBoltConnectorErrorNonLinearStudyAndPartDocument	2	Study type equals nonlinear and document type equals part
+swsBoltConnectorErrorNoObjectForNutOrHead	15	No object for either the nut or head
+swsBoltConnectorErrorSameEntityHeadAndNut	13	Entity is the same for the head and nut
+swsBoltConnectorErrorSelectAssemblyDocument	14	Document type is part; select an assembly document
+swsBoltConnectorErrorSelectCircularEdgeOnShells	18	Select circular edge on shells
+swsBoltConnectorErrorSelectConcentricEntities	9	Select concentric entities
+swsBoltConnectorErrorSelectCylindricalThreadFace	8	Select cylindrical thread face from a different body
+swsBoltConnectorErrorSelectDatumPlane	10	Select datum plane
+swsBoltConnectorErrorSelectEdge	11	Select an edge
+swsBoltConnectorErrorSelectEdgeWithCircularLine	6	Select an edge with circular line
+swsBoltConnectorErrorSelectEntity	4	Select an entity
+swsBoltConnectorErrorSelectFace	12	Select a face
+swsBoltConnectorErrorSelectFaceWithConicalSurface	5	Select a face with conical surface
+swsBoltConnectorErrorSelectFaceWithCylindricalSurface	7	Select a face with cylindrical surface
+swsBoltConnectorErrorSelectNutOrHead	16	Number of entities selected for the nut or head is < 1
+swsBoltConnectorErrorSuccessful	0	Successful
+@swsBoltMaterialSource_e		Bolt material sources
+swsBoltMaterialSourceCustomDefined	1	Custom defined
+swsBoltMaterialSourceLibraryFiles	2	From library files
+swsBoltMaterialSourceSolidWorks	0	From SOLIDWORKS
+@swsBoltMaterialType_e		Bolt material types
+swsBoltMaterialTypeCustom	0	Custom
+swsBoltMaterialTypeLibrary	1	Library
+@swsBoltType_e		Bolt types
+swBoltTypeCountersinkWithNut	1	Countersink with nut
+swsBoltTypeCountersinkScrew	3	Countersink screw
+swsBoltTypeFoundationBolt	4	Foundation bolt
+swsBoltTypeStandardOrCounterboreNut	0	Standard or counterbore with nut
+swsBoltTypeStandardOrCounterboreScrew	2	Standard or counterbore screw
+@swsCableEndEditErrors_e		Cable editing errors
+swsCableErrCode_InadequateEntitiesSelection	24	Insufficient number of entities selected for valid linkage rod definition
+swsCableErrCode_InvalidCoAxialSelection	6	Selected concentric cylindrical faces or edges (for shells or surface bodies) at both ends must not be coaxial
+swsCableErrCode_InvalidLibraryMaterialDetails	19	Setting the material library failed due to invalid library path/name or non-available material name
+swsCableErrCode_InvalidMaterialSourceType	16	Material source type must be cjhosen from swsMaterialSourceType_e
+swsCableErrCode_InvalidNonCoAxialSelection	5	Selected concentric cylindrical faces or edges (for shells or surface bodies) at one end must be coaxial
+swsCableErrCode_InvalidNonConcentricSelection	7	Select concentric cylindrical edges from shell or surface body
+swsCableErrCode_InvalidSelection	4	Select cylindrical face(s) or a single vertex for solid bodies or edge(s) for shells or surface bodies
+swsCableErrCode_InvalidUnitType	15	Unit type must be chosen from swsUnit_e
+swsCableErrCode_NoActiveDoc	1	Active document not found
+swsCableErrCode_NoActiveStudy	2	Active study not found
+swsCableErrCode_OffsetOptionNotAvailable	9	Offset direction and values are not available for vertex selection
+swsCableErrCode_OutOfRangeAxialStrengthValue	25	0 <= valid value of Axial Strength < 1e+36
+swsCableErrCode_OutOfRangeDensity	23	0 < valid value of Density < 1e+36
+swsCableErrCode_OutOfRangePreLoadForceValue	26	0 <= valid value of Pre Load Force < 1e+36
+swsCableErrCode_OutOfRangeShearModulus	21	0 < valid value of Shear Modulus < 1e+36
+swsCableErrCode_OutOfRangeThermalCoefficient	22	0 < valid value of Thermal Coefficient < 1e+36
+swsCableErrCode_OutOfRangeYoungsModulus	20	0 < valid value of Young's Modulus < 1e+36
+swsCableErrCode_SetLibraryMaterialNA	18	Setting the material library is allowed when Material Source Type = swsMaterial_Library
+swsCableErrCode_SetMaterialPropertyNA	17	Setting the material property is allowed when Material Source Type = swsMaterial_Custom
+swsCableErrCode_SetOperationNotSupported	3	You must call BeginEdit to start editing
+swsCableErrCode_Successful	0
+swsCableErrCode_ZeroDiameterValue	14
+@swsCentrifugalForceEndEditError_e		Centrifugal force editing errors
+swsCentrifugalForceEndEditErrorSuccessful	0	Successful
+wsCentrifugalForceEndEditErrorSpecifyAxisEdgeOrCylindricalFace	1	Specify an axis, edge, or cylindrical face for the direction
+@swsCentrifugalForceError_e		Centrifugal force errors
+swsCentrifugalForceErrorAlreadyDefined	4	Centrifugal force is already defined
+swsCentrifugalForceErrorEdgeNotLinear	3	Edge is not linear
+swsCentrifugalForceErrorFaceNotCylindrical	2	Face is not cylindrical
+swsCentrifugalForceErrorInvalidStudyType	5	Study type is invalid for centrifugal force
+swsCentrifugalForceErrorSelectAxisEdgeOrCylindricalFace	1	Select an axis, edge, or cylindrical face for the direction
+swsCentrifugalForceErrorSuccessful	0	Successful
+@swsColorChartNumberFormatOptionValue_e		Display options for the numeric values in the chart in the plot legend
+swsColorChartNumberFormatFloating	1
+swsColorChartNumberFormatGeneral	2
+swsColorChartNumberFormatScientific	0
+@swsColorChartOptionLegendTypeValue_e		Display options for the chart in the plot legend
+swsColorChartOptionLegendColorBlindFriendly	5
+swsColorChartOptionLegendDefault	0
+swsColorChartOptionLegendGrayScale	2
+swsColorChartOptionLegendRainbow	1
+swsColorChartOptionLegendUnsupported	4
+swsColorChartOptionLegendUserDefined	3
+@swsColorChartPositionValue_e		Positions for the chart in the plot legend
+swsColorChartPredefinedPosition	0
+swsColorChartUserDefined	1
+@swsColorChartWidthOptionValue_e		Thickness options for the chart in the plot legend
+swsColorChartWidthNormal	1
+swsColorChartWidthThin	2
+swsColorChartWidthWide	0
+@swsColorNumberFormatUseDiffNumberFormatOptionValue_e		Display options for chart numbers between 0.001 and 1000 when numbers are in scientific notation
+swsColorChartNumberFormatUseDiffNoFormatFloating	0
+swsColorChartNumberFormatUseDiffNoFormatGeneral	1
+@swsCompositeShellOptionsError_e		Composite shell options errors
+swsCompositeShellOptionsErrorFailed	11
+swsCompositeShellOptionsErrorIncompatibleToMappingType	3
+swsCompositeShellOptionsErrorMaterialInvalid	10
+swsCompositeShellOptionsErrorMaterialUndefined	6
+swsCompositeShellOptionsErrorNoError	0
+swsCompositeShellOptionsErrorNotCompositeShell	7
+swsCompositeShellOptionsErrorPlyOutRange	1
+swsCompositeShellOptionsErrorSandwich3Plies	2
+swsCompositeShellOptionsErrorThicknessInvalid	9
+swsCompositeShellOptionsErrorUnitOutRange	4
+swsCompositeShellOptionsErrorWrongEntity	5
+swsCompositeShellOptionsErrorWrongInput	8
+@swsCompositeShellOptionsMappingType_e		Types of ply angle direction reference mapping for composite shells
+swsCompositeShellOptionsPlanarMapping	1
+swsCompositeShellOptionsSurfaceMapping	0
+@swsConnectAnalysisDatabaseError_e		Status when attempting to connect to an analysis database
+swsConnectAnalysisDatabaseErrorFailed	1	Failed
+swsConnectAnalysisDatabaseErrorInvalidPath	2	Invalid path
+swsConnectAnalysisDatabaseErrorInvalidResults	3	Invalid results
+swsConnectAnalysisDatabaseErrorSuccess	0	Success
+@swsConnectorConnectionType_e		Types of connector connections
+swsConnectorConnectionType_Distributed	1
+swsConnectorConnectionType_Rigid	0
+@swsContactComponentEndEditError_e		Contact component editing errors
+swsContactComponentEndEditErrorBodiesNotTouchingBodies	8	Specified bodies for bonding or node to node contact condition are not touching other bodies
+swsContactComponentEndEditErrorCannotSpecifyFreeContact	7	Free contact may not be specified for components that interfere with other components
+swsContactComponentEndEditErrorContactComponentCannotBeCreated	1	Contact component cannot be created for this study type
+swsContactComponentEndEditErrorIncorrectCoefficientOfFriction	4	Coefficient of friction must be greater than or equal to 0 and less than or equal to 1.0
+swsContactComponentEndEditErrorInvalidContactType	2	Invalid contact type
+swsContactComponentEndEditErrorSelectComponentOrBody	3	Select one component or one body
+swsContactComponentEndEditErrorSelectSolidBodyOrComponent	5	Select only one solid body or component
+swsContactComponentEndEditErrorSuccessful	0	Successful
+swsContactComponentEndEditErrorTooManyBodiesOrComponents	6	At least one body or component is specified more than once
+@swsContactSetEndEditError_e		Contact set editing errors
+swsContactSetEndEditErrorBondTouchingFacesInDropTestStudies	15	In drop test studies, you can only bond touching faces
+swsContactSetEndEditErrorContactSetsMustBeUnique	13	For thermal resistance, contact sets must be unique; use the split-line features to split common faces; you may need to redefine existing contact sets
+swsContactSetEndEditErrorEntityAlreadySpecified	2	At least one entity is specified more than once
+swsContactSetEndEditErrorIncorrectCoefficientFriction	10	Coefficient of friction must be >= 0 and <= 1.0
+swsContactSetEndEditErrorInvalidContactSetType	3	Invalid contact set type
+swsContactSetEndEditErrorInvalidOption	4	Invalid option
+swsContactSetEndEditErrorNodeToNodeContactAndSourceTargetFaces	14	Node to node contact requires that source and target faces touch
+swsContactSetEndEditErrorNoEntityAtIndex	1	No entity is passed at index
+swsContactSetEndEditErrorOnlyFacesAllowedForTarget	7	Only faces are allowed for target
+swsContactSetEndEditErrorShrinkFitAndnterferingSourceTargetBodies	16	Shrink fit requires that source and target bodies interfere
+swsContactSetEndEditErrorSpecifyFacesEdgesOrVerticesForSource	5	Specify faces, edges, or vertices for source
+swsContactSetEndEditErrorSpecifyOneTargetPlaneForVirtualWall	6	Specify only one target plane for virtual wall
+swsContactSetEndEditErrorStiffnessCannotBeNegative	8	Stiffness cannot be negative
+swsContactSetEndEditErrorStiffnessMustBePositive	9	Specify a positive value for at least one of the stiffness parameters
+swsContactSetEndEditErrorSuccessful	0	Successful
+swsContactSetEndEditErrorThermalResistanceMustBePositive	12	Thermal resistance must have a positive value
+swsContactSetEndEditErrorVerticesAndEdgesForBondingAndSurfaceContacts	11	Vertices and edges are allowed as source entities only for bonding and surface contact conditions
+@swsContactSetError_e		Contact set errors
+swsContactSetErrorBondedContactForTouchingFaces	10	Bonded contact for drop test studies is only allowed for touching faces
+swsContactSetErrorCannotCreateContactPair	12	Contact pair cannot be created for this study type
+swsContactSetErrorFaceForSourceAndTarget	7	At least one face is specified for both source and target
+swsContactSetErrorInvalidArray	1	Invalid array
+swsContactSetErrorInvalidType	3	Invalid contact set type
+swsContactSetErrorNoEntities	2	No entities specified (empty array)
+swsContactSetErrorSelectOneTargetPlane	5	Specify faces, edges, or vertices for source
+swsContactSetErrorSelectOnlyFaces	6	Only faces can be selected for target
+swsContactSetErrorShrinkFitNeedsIntereference	11	Shrink fit requires that source and target bodies interfere
+swsContactSetErrorSourceTargetFacesMustTouch	9	Node to node contact requires that source and target faces touch
+swsContactSetErrorSpecifyFacesEdgesOrVertices	4	Specify faces, edges, or vertices for source
+swsContactSetErrorSuccess	0	Successful
+swsContactSetErrorVerticesEdgesForBondingSurfaceContacts	8	Vertices and edges are allowed in source entities only for bonding and surface contact conditions
+@swsContactSetTypeStaticNonLinear_e		Contact set types for static and nonlinear studies
+swsContactSetTypeStaticNonLinearBonded	1	Bonded
+swsContactSetTypeStaticNonLinearFree	3	Free (no interaction)
+swsContactSetTypeStaticNonLinearNoPenetration	0	No penetration
+swsContactSetTypeStaticNonLinearShrinkFit	2	Shrink fit
+swsContactSetTypeStaticNonLinearVirtualWall	4	Virtual wall (for static studies only)
+@swsContactSetTypeThermal_e		Contact set types for thermal studies
+swsContactSetTypeThermalBonded	1	Bonded
+swsContactSetTypeThermalInsulated	2	Insulated
+swsContactSetTypeThermalResistance	0	Thermal resistance
+@swsContactSuppressUnsuppressError_e		Contact suppress errors
+swsContactSuppressUnsuppressErrorContactNotFound	1
+swsContactSuppressUnsuppressErrorInvalidName	2
+swsContactSuppressUnsuppressErrorSuccessful	0
+@swsContactType_e		Contact types
+swsContactTypeAllowPenetration	1	Allow penetration for static, nonlinear, buckling, and frequency studies
+swsContactTypeBonded	0	Bonded (no clearance) for static, nonlinear, buckling, thermal, and frequency studies
+swsContactTypeFreeOrInsulated	1	Free (no interaction) for static, nonlinear, buckling, and frequency studies; insulated for thermal studies
+swsContactTypeStaticNoPenetration	2	No penetration for static and nonlinear studies
+@swsConvectionEndEditError_e		Convection editing errors
+swsConvectionEndEditErrorEntityAlreadyAdded	2	Entity already added
+swsConvectionEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsConvectionEndEditErrorNoEntitySelected	3	No entity selected
+swsConvectionEndEditErrorSelectFace	4	Select a face
+swsConvectionEndEditErrorSelectFaceOrEdge	5	Select a face or edge
+swsConvectionEndEditErrorSuccessful	0	Successful
+@swsConvectionError_e		Convection errors
+swsConvectionErrorEmptyArray	5	Empty array (no faces or shell edges selected)
+swsConvectionErrorFacesAndShellEdgesAllowed	1	Only faces and shell edges are allowed
+swsConvectionErrorInvalidArray	4	Invalid array
+swsConvectionErrorInvalidStudyType	3	Study type is invalid for convection
+swsConvectionErrorSelectFacesOrShellEdge	2	Select faces or shell edge
+swsConvectionErrorSuccessful	0	Successful
+@swsCoordinateType_e		Coordinate system types
+swsCoordinateTypeCartesian	1	Cartesian
+swsCoordinateTypeCylindrical	3	Cylindrical
+swsCoordinateTypeSpherical	2	Spherical
+@swsCopyItemsError_e		Copy items status
+swsCopyItem_CopyFailure	1
+swsCopyItem_DifferentJointVersion	2
+swsCopyItem_InstanceAlreadyDefined	3
+swsCopyItem_InvalidArray	8
+swsCopyItem_SourceItemNotFound	5
+swsCopyItem_SourceStudyNotActive	7
+swsCopyItem_SourceTargetStudyPairInvalid	4
+swsCopyItem_Success	0
+swsCopyItem_TargetStudyNotFound	6
+swsCopyItem_UnknownError	9
+@swsCosmosExportOption_e		Options for exporting a simulation study to COSMOSM
+swsExportFEMOnly	1	Only FEM is exported
+swsExportGeometryOnly	2	Only geometry is exported
+@swsCreateDeformedBodyAdvancedOption_e	bitmask	Advanced options for deformed body creation.
+swsCreateDeformedBodyAdvanced_OutputBodyOnly	1
+swsCreateDeformedBodyAdvanced_OutputMesh	8
+swsCreateDeformedBodyAdvanced_OutputSurfaces	4
+swsCreateDeformedBodyAdvanced_OutputTessellation	2
+@swsCreateDeformedBodyError_e		Errors during deformed body creation
+swsCreateDeformedBody_CorruptData	1
+swsCreateDeformedBody_DisjointBodies	4
+swsCreateDeformedBody_Failed	7
+swsCreateDeformedBody_FailedToSubtractBody	5
+swsCreateDeformedBody_FailToSew	3
+swsCreateDeformedBody_IncorrectParameters	6
+swsCreateDeformedBody_IncorrectStepNumber	8
+swsCreateDeformedBody_InvalidPath	11
+swsCreateDeformedBody_NoActiveStudy	9
+swsCreateDeformedBody_NonSupportedStudy	10
+swsCreateDeformedBody_UnfitFace	2
+@swsCreateDeformedBodyFailedSewOption_e		Sew options for deformed body creation failures
+swsCreateDeformedBodyFailedSewAsDefault	1
+swsCreateDeformedBodyFailedSewAsSurfaces	3
+swsCreateDeformedBodyFailedSewAsTessellation	2
+swsCreateDeformedBodyFailedSewCancel	4
+@swsCreateDeformedBodyOption_e		Options for deformed body creation
+swsCreateDeformedBodyAsConfiguration	2
+swsCreateDeformedBodyAsPart	1
+@swsCRSectionType_e		Linkage rod connector cross-section parameter types
+swsHollowCircular	1
+swsHollowRectangular	3
+swsSolidCircular	0
+swsSolidRectangular	2
+@swsCyclicRestraintError_e		Cyclic symmetry fixture error codes
+swsCyclicRestraintErrorInvalidStudyType	1
+swsCyclicRestraintErrorNoAxis	5
+swsCyclicRestraintErrorNoFirstFace	3
+swsCyclicRestraintErrorNoSecondFace	4
+swsCyclicRestraintErrorNotApplicableForBeams	2
+swsCyclicRestraintErrorSuccessful	0
+swsCyclicRestraintErrorUnSuccessful	6
+@swsDampingType_e		Types of damping
+swsDampingType_Modal	0	Modal
+swsDampingType_Rayleigh	1	Rayleigh
+@swsDefaultStaticResultTypes_e		Static result types
+swsStaticResultBoltPinCheck	6
+swsStaticResultDisplacement	2
+swsStaticResultElementalStrain	4
+swsStaticResultElementalStress	1
+swsStaticResultFactorOfSafety	5
+swsStaticResultNodalStrain	3
+swsStaticResultNodalStress	0
+@swsDeformType_e		Deform types
+swsAutomatic	0	Displays the deformed shape of the model using the default scale factor that the program uses to scale the largest deformation to 10% of the largest dimension of the smallest box that surrounds the model
+swsTrueScale	1	Displays the actual deformed shape of the model; scale factor is 1.0
+swsUserDefined	2	Allows you to specify a custom scale factor
+@swsDeleteStudyPlotsResultTypes_e		Plot deletion result codes
+swsDeleteStudyPlotsError	1
+swsDeleteStudyPlotsNoError	0
+@swsDisplacementComponent_e		Displacement components
+swsDisplacementComponentRFRES	7	Resultant reaction force
+swsDisplacementComponentRFX	4	Reaction force (X direction)
+swsDisplacementComponentRFY	5	Reaction force (Y direction)
+swsDisplacementComponentRFZ	6	Reaction force (Z direction)
+swsDisplacementComponentRMRES	14	Resultant reaction moment
+swsDisplacementComponentRMX	11	Reaction moment (X direction)
+swsDisplacementComponentRMY	12	Reaction moment (Y direction)
+swsDisplacementComponentRMZ	13	Reaction moment (Z direction)
+swsDisplacementComponentRX	8	Rotation (X direction)
+swsDisplacementComponentRY	9	Rotation (Y direction)
+swsDisplacementComponentRZ	10	Rotation (Z direction)
+swsDisplacementComponentURES	3	Resultant displacement
+swsDisplacementComponentUX	0	Displacement (X direction)
+swsDisplacementComponentUY	1	Displacement (Y direction)
+swsDisplacementComponentUZ	2	Displacement (Z direction)
+@swsDisplayOption_e		Display options for stress plots
+swsShowBeam	1
+swsShowSolidAndShells	0
+@swsDistributedMassError_e		Errors for distributed mass loads
+swsDistributedMassError_ImproperEntities	2	Selected entities are not proper
+swsDistributedMassError_InvalidMass	5	Specified mass is invalid
+swsDistributedMassError_InvalidUnits	4	Selected units are invalid
+swsDistributedMassError_NoError	0	Successful
+swsDistributedMassError_NotAvailable	1	Not available for this study
+swsDistributedMassError_SelectOnlyFaces	3	Select only faces
+@swsDistributedSimulationError_e		Errors for network simulation
+swsDistributedSimulation_EmptyNetComputerNames	3
+swsDistributedSimulation_NetComputerNameWrongType	5
+swsDistributedSimulation_NetComputerNotAvailable	2
+swsDistributedSimulation_NetSimulationNotSupport	1
+swsDistributedSimulation_NoError	0
+swsDistributedSimulation_NoStudySupportNetSimulation	6
+swsDistributedSimulation_UnaccessNetComputerNames	4
+swsDistributedSimulation_UnknownError	7
+@swsDropHeightType_e		Distances between a dropped body and the rigid planar floor
+swsDropHeightType_FromCentroid	0	Distance between the geometric center of the body and the rigid planar floor
+swsDropHeightType_FromLowestPoint	1	Distance between the lowest point of the body and the rigid planar floor
+@swsDropTargetOrientationType_e		Types of impact plane orientation for drop test studies
+swsDropTargetOrientationType_NormalToGravity	0	The impact plane is normal to gravity
+swsDropTargetOrientationType_ParallelToRefPlane	1	The impact plane is parallel to the selected reference plane
+@swsDropTargetStiffnessType_e		Types of impact plane stiffness for drop test studies
+swsDropTargetStiffnessType_FlexibleTarget	1	Use flexible layer for target
+swsDropTargetStiffnessType_RigidTarget	0	Use rigid plane for target
+@swsDropTestSetUpError_e		Setup errors for drop test studies
+swsDropTestSetUpError_AvailableOnlyForDropTestStudy	1	Not available for this study type
+swsDropTestSetUpError_GravityEntityIsNULL	3	Gravity entity is NULL
+swsDropTestSetUpError_GravityEntityShouldBeEdgeFaceOrPlane	4	Gravity entity should be an edge, face, or plane
+swsDropTestSetUpError_NoError	0	No error
+swsDropTestSetUpError_SetUpAlreadyAdded	2	Setup already exists
+swsDropTestSetUpError_SetupNotExists	6	Setup does not exist
+swsDropTestSetUpError_ShouldBeStraightEdgeOrPlaneFace	5	Gravity entity should be straight edge or planar face
+@swsDropTestStudyResultType_e		Drop test study results
+swsDropTestResultDisplacement	2
+swsDropTestResultElementalStrain	3
+swsDropTestResultElementalStress	1
+swsDropTestResultNodalStress	0
+@swsDropType_e		Setup input types for drop test studies
+swsDropType_DropHeight	0	Specify the height from which the model is dropped from rest
+swsDropType_VelocityAtImpact	1	Specify the direction and magnitude of the model's velocity at the moment of impact with the target plane
+@swsDuplicateStudyError_e		Result codes when duplicating studies
+swsDuplicateStudyErrorFailed	1
+swsDuplicateStudyErrorNoError	0
+@swsDynamicAnalysisSubType_e		Types of linear dynamic analysis
+swsDynamicAnalysisSubTypeHarmonic	1	Harmonic
+swsDynamicAnalysisSubTypeRandom	2	Random vibration
+swsDynamicAnalysisSubTypeResponse	3	Response spectrum
+swsDynamicAnalysisSubTypeTransient	0	Modal time history
+@swsDynamicExtraFrequenciesError_e		Result codes for harmonic and random vibration study extra frequencies.
+swsDynamicExtraFrequenciesError_DynamicParamEmpty	3
+swsDynamicExtraFrequenciesError_InvalidInput	5	Expected 1 to 20 extra frequencies in ascending order
+swsDynamicExtraFrequenciesError_NoError	0
+swsDynamicExtraFrequenciesError_NotAvailable	1
+swsDynamicExtraFrequenciesError_NotAvailableForSubType	2
+swsDynamicExtraFrequenciesError_OutOfRange	4
+@swsDynamicInitialConditionError_e		Errors for dynamic initial conditions
+swsDynamicInitialConditionError_AllValuesZero	13	Values are zeros
+swsDynamicInitialConditionError_CheckAtleastOneComp	12	Select at least one component for the inital condition
+swsDynamicInitialConditionError_CheckOnlyThirdComp	14	Select only the third direction for a reference edge, and specify a non-zero third value
+swsDynamicInitialConditionError_InvalidEntityArray	2	Unable to read data in the entity array, or the entity array is NULL
+swsDynamicInitialConditionError_InvalidRefGeom	7	The reference geometry is NULL
+swsDynamicInitialConditionError_InvalidType	11	The dynamic initial condition type must be specified using an option from swsDynamicInitialConditionType_e
+swsDynamicInitialConditionError_NoError	0	Successful
+swsDynamicInitialConditionError_NoFacesOnBeamsAllowed	5	Do not select faces on beams
+swsDynamicInitialConditionError_NotAvailable	1	Dynamic initial condition is not available for this study type
+swsDynamicInitialConditionError_OnlyEdgePlaneOrFaceForReference	9	Select only an edge, plane, or face for the reference entity
+swsDynamicInitialConditionError_OnlyFlatFaceOrStraightEdge	10	Select only a flat face, straight edge, or plane as the reference entity
+swsDynamicInitialConditionError_RefGeomAlreadySelected	8	The reference geometry is already selected
+swsDynamicInitialConditionError_SelectOnlyBeams	4	Select only beam bodies
+swsDynamicInitialConditionError_SelectOnlyFaceBodyOrComps	6	Select only faces, bodies, or components
+swsDynamicInitialConditionError_SelectOnlyJoints	3	Select only joints
+@swsDynamicInitialConditionType_e		Dynamic study initial condition types
+swsDynamicInitialConditionType_Acceleration	2
+swsDynamicInitialConditionType_Displacement	0
+swsDynamicInitialConditionType_Velocity	1
+@swsEdgeWeldConnectorSafetyFactorLiftOption_e		Lift safety factors used in calculating weld ultimate shear strength in edge weld connectors
+swsEdgeWeldConnectorSafetyFactorLiftOption_UnderTheHookLifting	1	American National Standard for Automotive Lifts: Reduces the weld's ultimate shear strength by a default factor of 5 (ANSI/ASME B30.20)
+swsEdgeWeldConnectorSafetyFactorLiftOption_USAutomotiveLifts	0	Under the Hook Lifting Devices: Reduces the weld's ultimate shear strength by a default factor of 3 (ANSI/ALI B153.1-90)
+@swsEdgeWeldConnectorTypes_e		Edge weld types
+swsEdgeWeldConnectorFilletDoubleSided	0	Double-sided fillet
+swsEdgeWeldConnectorFilletSingleSided	1	Single-sided fillet
+swsEdgeWeldConnectorGrooveDoubleSided	2	Double-sided groove
+swsEdgeWeldConnectorGrooveSingleSided	3	Single-sided groove
+@swsEdgeWeldCreationErrorCode_e		Edge weld creation error codes
+swsEdgeWeldCreationError_InvalidModelDoc	1
+swsEdgeWeldCreationError_InvalidOrNullFace	2
+swsEdgeWeldCreationError_InvalidWeldStyle	3
+swsEdgeWeldCreationError_NoEdgeSelection	4
+swsEdgeWeldCreationError_NoError	0
+swsEdgeWeldCreationError_WrongEdgeSelection	5
+@swsEdgeWeldSolverCode_e		Edge weld sizing standards
+swsEdgeWeldSolverCodeAWS	0	American Standard: American Welding Standard D1.1 and D1.2
+swsEdgeWeldSolverCodeEURO	1	European Standard (Eurocode 3: Design of steel structures, Part 1.8: Design of joints, Section 4.5)
+@swsElasticConnectorEndEditError_e		Elastic connector editing errors
+swsElasticConnectorEndEditErrorBodyExcludedFromAnalysis	10	Selected entity is on a body excluded from analysis
+swsElasticConnectorEndEditErrorEntityAlreadyAdded	2	Entity already added to the elastic connector
+swsElasticConnectorEndEditErrorHasBeamBody	8	Connector has a beam body
+swsElasticConnectorEndEditErrorHasMassElement	9	Connector has mass element
+swsElasticConnectorEndEditErrorNoEntityAtIndex	1	No entity at the specified index
+swsElasticConnectorEndEditErrorNullEntity	11	Entity is NULL
+swsElasticConnectorEndEditErrorSelectEntity	7	Select an entity
+swsElasticConnectorEndEditErrorSelectFace	3	Select a face
+swsElasticConnectorEndEditErrorSelectNonNegativeValueForNormalOrShearStiffness	5	Select a non-negative value for normal or shear stiffness
+swsElasticConnectorEndEditErrorSelectNonZeroValueForNormalOrShearStiffness	6	Select a non-0 value for normal or shear stiffness
+swsElasticConnectorEndEditErrorSelectPlanarFace	4	Select a planar face
+swsElasticConnectorEndEditErrorSuccessful	0	Successful
+@swsElasticConnectorError_e		Elastic connector errors
+swsElasticConnectorErrorBodyExcludedFromAnalysis	10	Selected entity is on a body excluded from analysis
+swsElasticConnectorErrorFaceHasRemoteMassOrBeamBody	9	Selected face has a remote mass or has a beam body
+swsElasticConnectorErrorInvalidArray	4	Invalid array
+swsElasticConnectorErrorInvalidMesh	1	Invalid mesh
+swsElasticConnectorErrorInvalidStudy	3	Invalid study type
+swsElasticConnectorErrorNoEntityNoObject	7	No entity selected and object is empty
+swsElasticConnectorErrorNonlinearStudyAndPartDocument	2	Study type equals nonlinear and document type equals part
+swsElasticConnectorErrorNullOrEmptyArray	8	Array is null or empty
+swsElasticConnectorErrorSelectFace	5	Select a face
+swsElasticConnectorErrorSelectPlanarFace	6	Select a planar face
+swsElasticConnectorErrorSuccessful	0	Successful
+@swsElectrodeMaterialTypes_e		Electrode materials for edge weld connectors
+swsElectrodeMaterial1100	6
+swsElectrodeMaterial4043	7
+swsElectrodeMaterial5183	8
+swsElectrodeMaterial5356	9
+swsElectrodeMaterial5554	10
+swsElectrodeMaterial5556	11
+swsElectrodeMaterial5654	12
+swsElectrodeMaterialCustomAl	13
+swsElectrodeMaterialCustomSteel	5
+swsElectrodeMaterialE100	4
+swsElectrodeMaterialE60	0
+swsElectrodeMaterialE70	1
+swsElectrodeMaterialE80	2
+swsElectrodeMaterialE90	3
+@swsEnvelopePlotType_e		Envelope result plot types
+swsEnvelopePlotType_AbsoluteMaximum	2	Absolute maximum values across all solution steps
+swsEnvelopePlotType_Maximum	0	Maximum algebraic values across all solution steps
+swsEnvelopePlotType_Minimum	1	Minimum algebraic values across all solution steps
+@swsEstimatedWeldSizeUnits_e		Estimated edge weld size units
+swsEstimatedWeldSizeUnits_am	6
+swsEstimatedWeldSizeUnits_cm	1
+swsEstimatedWeldSizeUnits_ft	4
+swsEstimatedWeldSizeUnits_ft_in	5
+swsEstimatedWeldSizeUnits_in	3
+swsEstimatedWeldSizeUnits_m	2
+swsEstimatedWeldSizeUnits_microIn	10
+swsEstimatedWeldSizeUnits_micron	8
+swsEstimatedWeldSizeUnits_mil	9
+swsEstimatedWeldSizeUnits_mm	0
+swsEstimatedWeldSizeUnits_nm	7
+@swsExportSmoothedMeshError_e		Error codes for exporting smoothened mesh
+swsExportSmoothedMesh_ConfigurationNameAlreadyExist	7
+swsExportSmoothedMesh_CorruptedInputData	8
+swsExportSmoothedMesh_Failed	2
+swsExportSmoothedMesh_IncorrectParameters	1
+swsExportSmoothedMesh_InvalidPath	5
+swsExportSmoothedMesh_NoActiveStudy	3
+swsExportSmoothedMesh_NonSupportedStudy	4
+swsExportSmoothedMesh_PlotDataUnavailable	6
+swsExportSmoothedMesh_PlotDoesNotExist	9
+swsExportSmoothedMesh_Succeeded	0
+@swsExportSmoothedMeshOption_e		Options for exporting smoothened mesh
+swsSaveSmoothedMeshIntoCurrentActiveConfiguration	0
+swsSaveSmoothedMeshIntoNewConfiguration	1
+swsSaveSmoothedMeshIntoNewPart	2
+@swsFactorOfSafetyStressLimitOption_e		Factor of safety limiting stress types
+swsFactorOfSafetyStressLimitOption_UltimateStrength	1	Sets the limit stress to the tensile strength of the material
+swsFactorOfSafetyStressLimitOption_UserDefined	2	User-defined value
+swsFactorOfSafetyStressLimitOption_YieldStrength	0	Sets the limit stress to the yield strength of the material
+@swsFatigueAlternatingStressOption_e		Options for calculating alternating stress in fatigue studies
+swsFatigueAlternatingStressOption_EquivalentStress	1	Calculate the von Mises stress
+swsFatigueAlternatingStressOption_MaxAbsPrincipal	2	Calculate the larger alternating principal stress (P1)
+swsFatigueAlternatingStressOption_StressIntensity	0	Calculate the difference between the larger alternating principal stress and the smaller alternating principal stress (P3 - P1)
+@swsFatigueCalculations_e		Options for calculating fatigue in fatigue studies
+swsFatigueCalculations_SurfaceOnly	1	Calculate damage only at boundary nodes of the model.
+swsFatigueCalculations_WholeModel	0	Calculate damage at all nodes of the model.
+@swsFatigueCalculationsOption_e		Options for calculating fatigue in fatigue studies
+swsFatigueCalculationsOption_SurfaceOnly	1	Calculate damage only at boundary nodes of the model
+swsFatigueCalculationsOption_WholeModel	0	Calculate damage at all nodes of the model
+@swsFatigueComponent_e		Fatigue components
+swsFatigueComponent_BiaxialityIndicator	3	Report the ratio of the smaller alternating principal stress to the larger alternating principal stress
+swsFatigueComponent_Damage	1	Report the cumulative damage factor at each node
+swsFatigueComponent_Life	0	Report the number of cycles required to cause failure at each node
+swsFatigueComponent_LoadFactor	2	Report the load factor of safety at each node
+@swsFatigueEventEndEditError_e		Fatigue event editing errors
+swsFatigueEventError_AssociatedStudyShouldBeStaticNonlinearOrDynamicModalTimeHistory	21	Associated study should be a static, nonlinear, or dynamic modal time history study
+swsFatigueEventError_CannotApplyLoadingRatio	12	Loading ratio is invalid
+swsFatigueEventError_CannotApplyRepeats	13	Cannot apply the specified number of repeats
+swsFatigueEventError_CannotApplyStartTime	15	Cannot apply the specified start time of the fatigue event
+swsFatigueEventError_ImproperEvent	2	Improper fatigue event
+swsFatigueEventError_ImproperNoOfCycles	10	Number of cycles must be greater than 1 and less than 2000000000
+swsFatigueEventError_ImproperStudy	1	Improper fatigue study
+swsFatigueEventError_ImproperStudyNames	3	Improper associated study names
+swsFatigueEventError_ImproperVarNamesOrVarScalesOrVarSteps	18	Improper variable names, scales, or steps
+swsFatigueEventError_InvalidLoadingtype	11	Loading type must be a number as defined in swsFatigueLoadingType_e
+swsFatigueEventError_InvalidRepeats	14	Number of repeats must be greater than 0 and less than 1000000
+swsFatigueEventError_InvalidStartTime	16	Start time must be greater than 0
+swsFatigueEventError_LoadHistoryCurveTypeImproper	4	Load history curve type must be a number as defined in swsFatigueLoadHistoryCurveType_e
+swsFatigueEventError_NoError	0	Success
+swsFatigueEventError_NoOfPointsShouldBeMoreThan3	8	Load history curve data must have more than 3 points
+swsFatigueEventError_NumberOfStudiesAssociationShouldbeAtleast1	19	Number of associated studies must be greater than 1
+swsFatigueEventError_NumberOfStudiesAssociationShouldbeAtleast2	20	Number of associated studies must be greater than 2
+swsFatigueEventError_StudyNamesScalesAndStepsDifferentInNumber	17	Study names, scales, and steps are all different in number
+swsFatigueEventError_XAndYPointsNotSameInNumber	7	X and Y values of the load history curve data are not the same in number
+swsFatigueEventError_XCurveDataImproper	5	X values of load history curve data are improper
+swsFatigueEventError_XPointsShouldBeInIncreasingOrder	9	X coordinate values of the load history curve data must be in order of increasing value
+swsFatigueEventError_YCurveDataImproper	6	Y values of load history curve data are improper
+@swsFatigueEventInteraction_e		Types of fatigue event interactions
+swsFatigueEventInteraction_NoInteraction	1	Events occur sequentially without any interaction; predicts lower damage
+swsFatigueEventInteraction_Random	0	Peak stresses from different events may intermingle; predicts higher damage
+@swsFatigueLoadHistoryCurveType_e		Types of fatigue load history curves
+swsFatigueLoadHistoryCurveType_AmplitudeOnly	0	Define curve by one column of data representing amplitude; do not use this option if your study has multiple fatigue events
+swsFatigueLoadHistoryCurveType_SamplingRateAndAmplitude	1	Define curve by one column of data representing amplitude and specify a value in seconds for the sampling rate; do not use this option if your study has multiple fatigue events
+swsFatigueLoadHistoryCurveType_TimeAndAmplitude	2	Define curve by two columns of data representing pairs of time and amplitude; use this option if your study has multiple fatigue events
+@swsFatigueLoadingType_e		Types of fatigue loading
+swsFatigueLoadingType_FullyReversed	0	The fatigue event is based on one reference study; all loads and stress components in the reference study reverse their directions simultaneously for the specified number of cycles in the event
+swsFatigueLoadingType_LoadingRatio	2	The fatigue event is based on one reference study; each load and each stress component in the reference study changes its magnitude proportionally from its maximum value (S max) to a minimum value defined by R*S max, where R is the loading ratio; a negative ratio indicates a reversal of the load direction
+swsFatigueLoadingType_NonProportional	3	The fatigue event is based on one reference study; each load and each stress component in the reference study changes its magnitude non-proportionally from its maximum value (S max) to a minimum value defined by R*S max, where R is the loading ratio; a negative ratio indicates a reversal of the load direction
+swsFatigueLoadingType_ZeroBased	1	The fatigue event is based on one reference study; all loads and stress components in the reference study change their magnitudes proportionally from their maximum values as specified by the reference study to zero
+@swsFatigueMeanStressCorrectionType_e		Mean stress correction options for calculating alternating stresses
+swsFatigueMeanStressCorrectionType_Gerber	2	Use the Gerber mean stress correction equation; suitable for ductile materials
+swsFatigueMeanStressCorrectionType_Goodman	1	Use the Goodman mean stress correction equation; suitable for brittle materials
+swsFatigueMeanStressCorrectionType_None	0	Do not use a mean stress correction
+swsFatigueMeanStressCorrectionType_Soderberg	3	Use the Soderberg mean stress correction equation; this is the most conservative method
+@swsFatiguePlotType_e		Types of fatigue result plots
+swsFatiguePlotType_BiaxialityIndicator	3	Plot the ratio of the smaller alternating principal stress to the larger alternating principal stress
+swsFatiguePlotType_Damage	1	Plot the cumulative damage factor at each node
+swsFatiguePlotType_Life	0	Plot the number of cycles required to cause failure at each node
+swsFatiguePlotType_LoadFactor	2	Plot the load factor of safety at each node
+@swsFatigueRandomVibrationComputationalMethod_e		Random vibration computational methods
+swsFatigue_NarrowBand	0
+swsFatigue_Steinberg	1
+swsFatigue_Wirsching	2
+@swsFatigueStudyResultType_e		Fatigue study result types
+swsFatigueStudy_BiAxialityIndicatorPlot	3
+swsFatigueStudy_DamagePlot	1
+swsFatigueStudy_LifePlot	0
+swsFatigueStudy_LoadFactor	2
+@swsFatigueStudySubOption_e		Linear dynamic reference study types for fatigue studies
+swsFatigueConstantAmplitude	0	Constant amplitude
+swsFatigueHarmonic	2	Harmonic
+swsFatigueRandomVibration	3	Random vibration
+swsFatigueVariableAmplitude	1	Variable amplitude
+@swsFlipOffsetDir_e		Linkage rod connector end condition offset directions
+swsNegativeDir	0
+swsPositiveDir	1
+@swsForceEndEditError_e		Force editing errors
+swsForceEndEditErrorEntityAlreadyExists	2	Entity already exists in this object
+swsForceEndEditErrorMagnitudeForceMustBeLargerZero	11	The magnitude of force must be larger than 0
+swsForceEndEditErrorNoEntitiesSelected	3	No entities selected
+swsForceEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsForceEndEditErrorReferenceGeometryEntityNotSelected	5	Entity for reference geometry may not be in the list of selected entities
+swsForceEndEditErrorSelectCoordinateSystem	8	Select a coordinate system
+swsForceEndEditErrorSelectFace	7	Select only face for entity
+swsForceEndEditErrorSelectFaceEdgeOrVertex	4	Select face, edge, or vertex for entity
+swsForceEndEditErrorSelectFaceEdgePlaneOrAxisForReferenceGeometry	6	Select face, edge, plane, or axis for reference geometry
+swsForceEndEditErrorSelectReferenceAxisOrCylindricalFaceForTorque	10	Select a reference axis or cylindrical face to apply torque
+swsForceEndEditErrorSuccessful	0	Successful
+swsForceEndEditErrorVariableForceCannotBeAppliedToVertices	12	Variable force cannot be applied to vertices
+swsForceEndEditErrorVariableForceCannotBeAppliedToVerticesOrEdges	9	Variable force cannot be applied to vertices or edges
+@swsForceError_e		Force errors
+swsForceErrorApplyNormalForceToFacesAndShellEdges	3	You can only apply normal force to faces and shell edges
+swsForceErrorCannotApplyForce	10	Cannot apply the force to the entity used for reference geometry
+swsForceErrorCannotApplyNonuniformForce	9	Nonuniform force cannot be applied to vertices or edges
+swsForceErrorCannotApplyNonuniformLoadOnMultipleBeam	18	Cannot apply nonuniform load on multiple beams
+swsForceErrorCannotApplyZeroLoading	19	Cannot apply zero loading
+swsForceErrorInvalidArray	6	Invalid array
+swsForceErrorInvalidForceType	7	Invalid force type; valid types are 0, 1, and 2
+swsForceErrorInvalidSelectionType	20	Invalid selection
+swsForceErrorInvalidStudyType	5	Force cannot be applied for this study type
+swsForceErrorNoEntities	8	No entities specified (empty array)
+swsForceErrorNonUniformBeamLoadInvalidTableData	21	Invalid table-driven data for nonuniform loading of a beam
+swsForceErrorNonUniformBeamLoadInvalidTableDistData	22	Invalid table-driven distribution data for nonuniform loading of a beam
+swsForceErrorSelectFaceEdgePlaneOrAxis	2	Select a face, straight edge, plane, or axis for reference geometry
+swsForceErrorSelectFacesEdgesVerticesOrPoints	1	No faces, edges, vertices, or points selected
+swsForceErrorSelectReferenceAxisOrCylindricalFace	4	Select a reference axis or cylindrical face for reference geometry to apply torque
+swsForceErrorSuccessful	0	Successful
+@swsForceType_e		Types of forces
+swsForceTypeForceOrMoment	0	Force or moment
+swsForceTypeNormal	1	Normal force
+swsForceTypeTorque	2	Torque
+@swsForceUnit_e		Force types
+swsForceUnitkgfOrkgfcm	2	kg-f or kg-f-cm
+swsForceUnitlbOrlbin	1	lb or lb-in
+swsForceUnitNOrNm	0	N or N-m
+@swsFOS_CompositeCriterion_e		Factor of safety criteria for composite shells in linear static studies only
+swsFOSCompositeCriterion_Automatic	3	see Remarks
+swsFOSCompositeCriterion_Max_Normal_Stress	2
+swsFOSCompositeCriterion_Tsai_Hill	0
+swsFOSCompositeCriterion_Tsai_Wu	1
+@swsFOS_DistributionOpt_e		Factor of safety distribution options
+swsFOS_DistributionOpt_AreaBelowFOS	2
+swsFOS_DistributionOpt_Distribution	1
+@swsFOS_ErrorCode_e		Factor of safety errors
+swsFOS_ErrorCode_FailureFrmGetPlotData	8
+swsFOS_ErrorCode_InvalidSel	7
+swsFOS_ErrorCode_InvalidSelEntityArr	4
+swsFOS_ErrorCode_InvalidSolidMgr	6
+swsFOS_ErrorCode_NoError	0
+swsFOS_ErrorCode_NoPersistID	5
+swsFOS_ErrorCode_NoSolidBodiesSel	3
+swsFOS_ErrorCode_NullPostApp	1
+swsFOS_ErrorCode_PlyNumExceeded	2
+@swsFOS_NonCompositeCriterion_e		Factor of safety criteria for non-composite shells
+swsFOSNonCompositeCriterion_Automatic	4	See Remarks
+swsFOSNonCompositeCriterion_Coulomb	3	Max Normal Stress
+swsFOSNonCompositeCriterion_MohrCoulomb	2	Mohr-Coulomb Stress
+swsFOSNonCompositeCriterion_Tresca	1	Maximum Shear Stress
+swsFOSNonCompositeCriterion_VonMisesHencky	0	Maximum von Mises Stress
+@swsFOS_NormalShellFaceOption_e		Normal shell face options
+swsFOS_NormalShellFaceOption_Bottom	2
+swsFOS_NormalShellFaceOption_Max	4
+swsFOS_NormalShellFaceOption_Min	3
+swsFOS_NormalShellFaceOption_Top	1
+@swsFOS_ShellFaceOption_e		Factor of Safety shell face options
+swsFOS_ShellFaceOption_BottomFace	2
+swsFOS_ShellFaceOption_MaxAmongTopAndBottomFace	4
+swsFOS_ShellFaceOption_MinAmongTopAndBottomFace	3
+swsFOS_ShellFaceOption_TopFace	1
+@swsFosPlotErrorCode_e		Factor of Safety errors
+swsFos_AllMaterialFailed	10
+swsFos_APIExists	5
+swsFos_ComponentsHidden	9
+swsFos_FailureFrmGetPlotData	16
+swsFos_InvalidComponent	6
+swsFos_InvalidResults	7
+swsFos_InvalidSel	15
+swsFos_InvalidSelEntityArr	12
+swsFos_InvalidShellOption	11
+swsFos_InvalidSolidMgr	14
+swsFos_NoDatabase	3
+swsFos_NoError	0
+swsFos_NoMaterialFound	8
+swsFos_NoPersistID	13
+swsFos_NoPostFile	4
+swsFos_NoView	1
+swsFos_NullPostApp	2
+@swsFrequencyBucklingResultDisplacementComponentTypes_e		Displacement component result types for frequency/buckling studies
+swsFrequencyBucklingDisplacement_URES	3	Resultant displacement
+swsFrequencyBucklingDisplacement_UX	0	Displacement (X direction)
+swsFrequencyBucklingDisplacement_UY	1	Displacement (Y direction)
+swsFrequencyBucklingDisplacement_UZ	2	Displacement (Z direction)
+@swsFrequencyCapOption_e		Cap options for frequency studies
+swsFrequencyCapAutomatic	0
+swsFrequencyCapUserDefined	1
+@swsFrequencyStudyOption_e		Frequency study options
+swsFrequencyStudyOptionNumberFrequencies	0	Number of frequencies
+swsFrequencyStudyOptionUseUpperBoundFrequency	1	Use upper-bound frequency
+@swsFrequencyUnit_e		Units of frequency
+swsFrequencyUnit_CyclesPerSec	1	Hz (cycles/second)
+swsFrequencyUnit_RadiansPerSec	0	Radians/second
+@swsGapType_e		Contact set gap options
+swsGapTypeAlwaysIgnoreClearance	0	Always ignore clearance
+swsGapTypeIgnoreIfSmallerThanSpecifiedClearance	1	Ignore clearance if smaller than the specified clearance value
+@swsGaussIntegrationOrder_e		Types of Gauss integration order
+swsGaussIntegrationOrder_2Pt	0
+swsGaussIntegrationOrder_3Pt	1
+@swsGeneralSpringError_e		General spring status codes
+swsGeneralSpringErrorBodyExcludedFromAnalysis	11	Selected entity is on a body excluded from analysis
+swsGeneralSpringErrorFaceDispNull	12	Selected face entity is null
+swsGeneralSpringErrorFaceOnBeam	13	Selected face entity is on a beam body
+swsGeneralSpringErrorFeatureNotLicensed	19
+swsGeneralSpringErrorFeatureNotReady	17
+swsGeneralSpringErrorFeatureNotSupported	18
+swsGeneralSpringErrorHasRemoteMass	10	Selected entity has a remote mass
+swsGeneralSpringErrorInvalidMesh	1
+swsGeneralSpringErrorInvalidStudy	2
+swsGeneralSpringErrorNegativePreloadForce	15	Preload force must be >= 0
+swsGeneralSpringErrorNegativeStiffness	14	Stiffness must be > 0
+swsGeneralSpringErrorNoObjectForSourceOrTarget	8
+swsGeneralSpringErrorNumberFacesLessThanTwo	7	Number of selected faces must be >= 2
+swsGeneralSpringErrorSelectCoordSys	4	Select a coordinate system
+swsGeneralSpringErrorSelectFace	3	Select a face
+swsGeneralSpringErrorSelectionsOnSameComponent	9	Selected entities belong to the same component
+swsGeneralSpringErrorSelectTwoFaces	5	Select two faces on two different bodies
+swsGeneralSpringErrorSourceTargetEntitiesSame	6	Selected source and target entities are the same
+swsGeneralSpringErrorStiffnessAllZero	16	Stiffnesses must be > 0
+swsGeneralSpringErrorSuccessful	0
+@swsGenerateReportError_e		Result codes when generating a report
+swsGenerateReportErrorFailed	5
+swsGenerateReportErrorInactiveStudy	4
+swsGenerateReportErrorInvalidModelDoc	3
+swsGenerateReportErrorNoError	0
+swsGenerateReportErrorWrongConfiguration	2
+swsGenerateReportErrorWrongPath	1
+@swsGeoStarExportUnit_e		GEOSTAR export units
+swsGeoStarExportUnit_cm	1
+swsGeoStarExportUnit_ft	4
+swsGeoStarExportUnit_in	3
+swsGeoStarExportUnit_m	2
+swsGeoStarExportUnit_mm	0
+@swsGravityEndEditError_e		Gravity editing errors
+swsGravityEndEditErrorSpecifyReferencePlaneFaceOrEdge	1	Specify a reference plane, face, or edge for direction
+swsGravityEndEditErrorSuccessful	0	Successful
+swsGravityEndEditErrorValuesCannotBeZeros	2	Values cannot be all zeros
+@swsGravityError_e		Gravity errors
+swsGravityErrorEdgeNotStraight	3	Selected edge to specify direction is not straight
+swsGravityErrorFaceNotPlanar	2	Selected face to specify direction is not planar
+swsGravityErrorGravityAlreadyDefined	4	Gravity is already defined
+swsGravityErrorInvalidStudy	5	Invalid study type for gravity
+swsGravityErrorSelectFaceEdgeOrPlane	1	Select face, edge, or plane
+swsGravityErrorSuccessful	0	Successful
+@swsHeatFluxEndEditError_e		Heat flux editing errors
+swsHeatFluxEndEditErrorEntityAlreadyExists	2	At least one entity is specified more than once
+swsHeatFluxEndEditErrorLowerboundTemperatureHigherThanUpperbound	7	Lower-bound temperature must be lower than upper-bound temperature
+swsHeatFluxEndEditErrorNoEntities	3	No entities specified
+swsHeatFluxEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsHeatFluxEndEditErrorSelectFace	4	Select a face
+swsHeatFluxEndEditErrorSelectFacesOrShellEdge	5	Select a fade or shell edge
+swsHeatFluxEndEditErrorSelectrVertexForSensorLocation	6	Select a vertex for the location of the sensor
+swsHeatFluxEndEditErrorSuccessful	0	Successful
+swsHeatFluxEndEditErrorThermostatForTransientStudiesOnly	8	Thermostat is allowed for transient studies only (not allowed for steady-state thermal studies)
+@swsHeatFluxError_e		Heat flux errors
+swsHeatFluxErrorInvalidArray	4	Invalid array
+swsHeatFluxErrorInvalidStudy	3	Invalid study type for heat flux (valid for thermal studies only)
+swsHeatFluxErrorNoEntities	5	No entities specified (empty array)
+swsHeatFluxErrorNoFaces	1	No faces selected
+swsHeatFluxErrorNoFacesOrShellEdges	2	No faces or shell edges selected
+swsHeatFluxErrorSuccessful	0	Successful
+@swsHeatPowerEndEditError_e		Heat power editing errors
+swsHeatPowerEndEditErrorEntityAlreadyExists	2	At least one entity is specified more than once
+swsHeatPowerEndEditErrorLowerboundTemperatureHigherThanUpperbound	7	Lower-bound temperature cannot be higher than the upper-bound temperature
+swsHeatPowerEndEditErrorNoEntitiesSelected	3	No entities specified
+swsHeatPowerEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsHeatPowerEndEditErrorNotValidForSteadyStateAnalysis	8	Not valid for steady-state analysis; solution type must be transient
+swsHeatPowerEndEditErrorSelectFaceEdgeOrVertex	5	Select a face, edge, or vertex
+swsHeatPowerEndEditErrorSelectVertexForThermostatLocation	6	Specify a vertex for the location of the thermostat
+swsHeatPowerEndEditErrorSelectVerticesEdgesFacesComponentsOrBodies	4	Select vertices, edges, faces, components, or bodies
+swsHeatPowerEndEditErrorSuccessful	0	Successful
+swsHeatPowerEndEditErrorVertexCannotBeUsedForSensorLocation	9	A vertex in the selected entities cannot be used for the location of the sensor
+@swsHeatPowerError_e		Heat power errors
+swsHeatPowerErrorInvalidArray	4	Invalid array
+swsHeatPowerErrorInvalidStudy	3	Invalid study type; heat power is valid for thermal studies only
+swsHeatPowerErrorNoEntities	5	No entities selected (empty array)
+swsHeatPowerErrorSelectFaceEdgeVertexComponentOrBody	1	Select face, edge, vertex, component, or body
+swsHeatPowerErrorSelectFacesEdgesOrVertices	2	Select faces, edges, or vertices
+swsHeatPowerErrorSuccessful	0	Successful
+@swsImportStudyFeaturesErrorCode_e		Result codes for Import Study Features
+swsImportStudyFeaturesError_ComponentNotFound	1
+swsImportStudyFeaturesError_ConfigurationMismatch	3
+swsImportStudyFeaturesError_NoError	0
+swsImportStudyFeaturesError_NoPrePlotView	7
+swsImportStudyFeaturesError_NotAssembly	5
+swsImportStudyFeaturesError_StudyNotActive	6
+swsImportStudyFeaturesError_StudyToImportNotFoundOrInvalid	2
+swsImportStudyFeaturesError_Unknown	4
+@swsImportStudyFeaturesFilterType_e	bitmask	Filters for Import Study Features.
+swsImportStudyFeaturesFilterType_All	0
+swsImportStudyFeaturesFilterType_AllBodyTypesMaterials	1
+swsImportStudyFeaturesFilterType_AllConnectorsContacts	2
+swsImportStudyFeaturesFilterType_AllExternalLoads	8
+swsImportStudyFeaturesFilterType_AllFixtures	4
+swsImportStudyFeaturesFilterType_AllMeshControls	16
+@swsIncompatibleBondingOption_e		Bonding contact methods for analyzing models that contain contacting surfaces with incompatible meshes
+swsIncompatibleBondingOption_Automatic	0	Automatic; let solver automatically switch from surface-based bonding contact to node-based bonding contact, if surface-based bonding contact slows down solution convergence
+swsIncompatibleBondingOption_MoreAccurate	2	More accurate (slower); use surface-based bonding contact method to produce continuous and more accurate stresses in contact regions
+swsIncompatibleBondingOption_Simplified	1	Simplified; use node-based bonding contact method on models with extensive contact surfaces to quickly reach solution convergence
+@swsInterpolationType_e		Types of harmonic frequency interpolations
+swsInterpolationType_Linear	1	Linear; solution frequency points are distributed uniformly on the bandwidth
+swsInterpolationType_Logarithmic	0	Logarithmic; solution frequency points are clustered logarithmically around each natural frequency to capture the response accurately at natural frequencies
+@swsIsoClippingErrorCode_e		Iso Clipping error codes
+swsIsoClippingCosworksViewNotPresent	1	Cosmos view not present
+swsIsoClippingIsoInvalidVariantError	7	Invalid variant
+swsIsoClippingIsoPlanesError	2	The number of iso planes is incorrect
+swsIsoClippingIsoValueError	5	Iso value is incorrect
+swsIsoClippingIsoVariantValueError	6	Variant containing iso values is empty
+swsIsoClippingNoError	0	No error
+swsIsoClippingNotAvailable	8	Iso clipping is not available for this plot
+swsIsoClippingPlotNotFound	3	The plot name does not exist
+swsIsoClippingPostDataNotExist	4	Database not present
+@swsJointType_e		Linkage rod connector joint types
+swsPivot	1
+swsRigid	0
+swsSpherical	2
+@swsLinearUnit_e		Linear units
+swsLinearUnitAngstrom	6
+swsLinearUnitCentimeters	1
+swsLinearUnitFeet	4
+swsLinearUnitFeetInches	5
+swsLinearUnitInches	3
+swsLinearUnitMeters	2
+swsLinearUnitMicron	8
+swsLinearUnitMicronIn	10
+swsLinearUnitMil	9
+swsLinearUnitMillimeters	0
+swsLinearUnitNanoMeter	7
+@swsLinkageRodEndEditErrors_e		Linkage rod connector errors
+swsLinkageRodErrCode_InadequateEntitiesSelection	24	Insufficient number of entities selected for a valid linkage rod connector
+swsLinkageRodErrCode_InvalidArray	11	Invalid array of section parameters
+swsLinkageRodErrCode_InvalidCoAxialSelection	6	Select non-co-axial concentric cylindrical faces or edges (for shells or surface bodies) at one end
+swsLinkageRodErrCode_InvalidJointTypeSel	8	Select a vertex that is not a pivot joint type
+swsLinkageRodErrCode_InvalidLibraryMaterialDetails	19	Invalid library path/name or non-available material name
+swsLinkageRodErrCode_InvalidMass	23
+swsLinkageRodErrCode_InvalidMaterialSourceType	16	Select material source type from swsMaterialSourceType_e
+swsLinkageRodErrCode_InvalidNonCoAxialSelection	5	Select co-axial concentric cylindrical faces or edges (for shells or surface bodies) at one end
+swsLinkageRodErrCode_InvalidNonConcentricSelection	7	Select concentric cylindrical edges from shell or surface bodies
+swsLinkageRodErrCode_InvalidParamDataType	13	Use double section parameter for given section type
+swsLinkageRodErrCode_InvalidParamsCount	12	Invalid number of section parameters for given section type
+swsLinkageRodErrCode_InvalidRodSectionType	10	Select section type from swsCRSectionType_e
+swsLinkageRodErrCode_InvalidSelection	4	Select cylindrical faces or a single vertex for solid bodies; select edges for shells or surface bodies
+swsLinkageRodErrCode_InvalidUnitType	15	Select unit type from swsUnit_e
+swsLinkageRodErrCode_NoActiveDoc	1
+swsLinkageRodErrCode_NoActiveStudy	2
+swsLinkageRodErrCode_OffsetOptionNotAvailable	9	Offset direction and values not available for selected vertex
+swsLinkageRodErrCode_OutOfRangePoissonRatio	21	0 < Poisson Ratio < 1
+swsLinkageRodErrCode_OutOfRangeThermalCoefficient	22	0 < Thermal Coefficient < 1e+16
+swsLinkageRodErrCode_OutOfRangeYoungsModulus	20	0 < Young's Modulus < 1e+16
+swsLinkageRodErrCode_SetLibraryMaterialNA	18	Setting the library material is allowed only when Material Source Type = swsMaterial_Library
+swsLinkageRodErrCode_SetMaterialPropertyNA	17	Setting material property is only allowed when Material Source Type = swsMaterial_Custom
+swsLinkageRodErrCode_SetOperationNotSupported	3	Editing before calling BeginEdit not allowed
+swsLinkageRodErrCode_Successful	0
+swsLinkageRodErrCode_ZeroParamValue	14	Invalid section parameter value for given section type
+@swsLinkConnectorEndEditError_e		Link connector editing errors
+swsLinkConnectorEndEditErrorBodyExcludedFromAnalysis	7	Selected entity is on a body excluded from analysis
+swsLinkConnectorEndEditErrorEntityAlreadyExists	1	Entity already exists
+swsLinkConnectorEndEditErrorHasBeamBody	5	Connector has a beam body
+swsLinkConnectorEndEditErrorHasMassElement	6	Connector has a mass element
+swsLinkConnectorEndEditErrorNullEntity	4	Entity is NULL
+swsLinkConnectorEndEditErrorSelectDatumPointOrVertices	2	Select a datum point or vertices
+swsLinkConnectorEndEditErrorSelectEntity	3	Select an entity
+swsLinkConnectorEndEditErrorSuccessful	0	Successful
+@swsLinkConnectorError_e		Link connector errors
+swsLinkConnectorErrorBodyExcludedFromAnalysis	8	Selected entity is on a body excluded from analysis
+swsLinkConnectorErrorEmptyEntity	5	Either of the entities is empty
+swsLinkConnectorErrorHasRemoteMassOrBeamBody	7	Connect has a remote mass or beam body
+swsLinkConnectorErrorInvalidMesh	1	Invalid mesh type
+swsLinkConnectorErrorInvalidStudy	3	Invalid study type
+swsLinkConnectorErrorNonlinearStudyPartDocument	2	Study type equals nonlinear and document type equals part
+swsLinkConnectorErrorSelectAssemblyDocument	4	Select assembly document
+swsLinkConnectorErrorSelectVertexOrDatumPoint	6	Select a vertex or datum point
+swsLinkConnectorErrorSuccessful	0	Successful
+@swsLoadCaseManagerError_e		Load Case Manager errors
+swsLoadCaseManager_CannotCreateMesh	12
+swsLoadCaseManager_CannotRunStudy	11
+swsLoadCaseManager_CombinationIsSuppressed	7
+swsLoadCaseManager_InvalidCombinationName	4
+swsLoadCaseManager_InvalidDataInput	8
+swsLoadCaseManager_InvalidEquation	9
+swsLoadCaseManager_InvalidLoadCaseName	3
+swsLoadCaseManager_InvalidLoadName	2
+swsLoadCaseManager_LoadCaseIsSuppressed	6
+swsLoadCaseManager_LoadCaseManagerNotShown	1
+swsLoadCaseManager_LoadIsSuppressed	5
+swsLoadCaseManager_NoError	0
+swsLoadCaseManager_NoLoadCasesToRun	10
+swsLoadCaseManager_UnknownError	13
+@swsLoadsAndRestraintsError_e		Loads and restraints errors
+swsLoadsAndRestraintsError_InvalidComponentsCount	3	Number of bodies/components must be greater than one
+swsLoadsAndRestraintsError_InvalidLicense	7	Not available with current license
+swsLoadsAndRestraintsError_InvalidOrNullFace	6	Invalid or null face input
+swsLoadsAndRestraintsError_InvalidSelection	4	Wrong object has been passed
+swsLoadsAndRestraintsError_InvalidSelectionsMixedTogether	5	Non-supported entities selected together
+swsLoadsAndRestraintsError_NoLBCDefined	8	No load or restraint defined
+swsLoadsAndRestraintsError_NotFoundWithGivenName	2	Load or restraint with specified name not found
+swsLoadsAndRestraintsErrorNotFoundAtIndex	1	Load or restraint not found at this index
+swsLoadsAndRestraintsErrorSuccessful	0	Successful
+@swsLoadsAndRestraintsManagerBearingLoadError_e		Bearing load errors
+swsLoadsAndRestraintsManagerBearingLoadErrorBodyExcludedFromAnalysis	9	Selected entity is on a body excluded from analysis
+swsLoadsAndRestraintsManagerBearingLoadErrorCoordinateSystemAndCylindricalFaces	6	Coordinate system and set of cylindrical faces must be the same radii and z axis of coordinate system must be coincident with the axis of the cylindrical faces
+swsLoadsAndRestraintsManagerBearingLoadErrorCoordinateSystemEmpty	3	Coordinate system is empty
+swsLoadsAndRestraintsManagerBearingLoadErrorInvalidArray	1	Invalid array
+swsLoadsAndRestraintsManagerBearingLoadErrorInvalidMesh	7	Invalid mesh type
+swsLoadsAndRestraintsManagerBearingLoadErrorInvalidStudy	8	Invalid study type
+swsLoadsAndRestraintsManagerBearingLoadErrorNoObjectForFace	2	No object for the face
+swsLoadsAndRestraintsManagerBearingLoadErrorSelectCoordinateSystem	5	Select a coordinate system
+swsLoadsAndRestraintsManagerBearingLoadErrorSelectFace	4	Select a face
+swsLoadsAndRestraintsManagerBearingLoadErrorSuccessful	0	Successful
+@swsLoadsAndRestraintsType_e		Loads and restraints types
+swsLoadsAndRestraintsTypeBaseExcitation	15	Base excitation
+swsLoadsAndRestraintsTypeBearingLoads	13	Bearing loads
+swsLoadsAndRestraintsTypeCentrifugal	5	Centrifugal force
+swsLoadsAndRestraintsTypeConnectors	12	Connectors
+swsLoadsAndRestraintsTypeConvection	7	Convection
+swsLoadsAndRestraintsTypeForce	3	Force
+swsLoadsAndRestraintsTypeGravity	4	Gravity
+swsLoadsAndRestraintsTypeHeatFlux	9	Heat flux
+swsLoadsAndRestraintsTypeHeatPower	8	Heat power
+swsLoadsAndRestraintsTypeMeshControl		Not valid
+swsLoadsAndRestraintsTypePressure	1	Pressure
+swsLoadsAndRestraintsTypeRadiation	10	Radiation
+swsLoadsAndRestraintsTypeRemoteLoad	11	Remote load
+swsLoadsAndRestraintsTypeRemoteMass	31	Remote mass
+swsLoadsAndRestraintsTypeRestraint	2	Restraint
+swsLoadsAndRestraintsTypeTemperature	6	Temperature
+swsLoadsAndRestraintsTypeVelocity		Not valid
+@swsMassUnits_e		Mass units
+swsMassUnit_Gram	1
+swsMassUnit_Kilogram	2
+swsMassUnit_Milligram	0
+swsMassUnit_Pound	3
+@swsMaterialDataCurveError_e		Material curve data errors
+swsMaterialDataCurveErrorCannotBeDefined	1	Material data curve cannot be defined for this material model
+swsMaterialDataCurveErrorIndexForMooneyRivlinAndOgeden	3	Index must be 0, 1, or 2 for Mooney-Rivlin and Ogeden material models
+swsMaterialDataCurveErrorIndexForViscoElastic	4	Index must be 3 or 4 for the Visco-elastic material model
+swsMaterialDataCurveErrorIndexValues	2	Valid index values are 0 to 4
+swsMaterialDataCurveErrorInvalidArray	5	Invalid array
+swsMaterialDataCurveErrorNeedDataPoints	7	Curve must have at least two data points nIndex = 0; simple tension curve nIndex = 1; planar tension curve nIndex = 2; biaxial tension curve nIndex = 3; shear relaxation curve nIndex = 4; bulk relaxation curve
+swsMaterialDataCurveErrorSuccessful	0	Successful
+swsMaterialDataCurveErrorTemperatures	6	Temperature values should be monotonically increasing
+@swsMaterialErrorWarning_e		Material errors
+swsMaterialErrorWarningCreepWithForceControl	24	Creep option for material works only with force control method; error
+swsMaterialErrorWarningDefineCurveForEx	10	Define curve for EX; error
+swsMaterialErrorWarningDefinePointForStressStrainCurve	16	Define point (0,0) for this stress-strain curve; error
+swsMaterialErrorWarningDefineProperty	6	Define at least one property; error
+swsMaterialErrorWarningDefineStressStrainCurve	15	Define stress-strain curve for material; error
+swsMaterialErrorWarningDensityNotDefined	13	Material density not defined; error
+swsMaterialErrorWarningEXNotDefined	8	EX (modulus of elasticity) not defined; error
+swsMaterialErrorWarningEXValue	9	EX should be > 0; error
+swsMaterialErrorWarningFatigueSNCurvesCycles	3	Cycle values of fatigue S-N curves should be monotonically increasing; error
+swsMaterialErrorWarningInvalidLinearElasticAnisotropicMaterialModel	1	The linear elastic anisotropic material model is invalid for this study; error
+swsMaterialErrorWarningInvalidMaterialModel	2	Invalid material model for this study; error
+swsMaterialErrorWarningMaterialPropertyValue	7	Material property value should be > 0; error
+swsMaterialErrorWarningMaterialTemperatureCurveForNitinol	11	Material temperature curve is not allowed for Nitinol; error
+swsMaterialErrorWarningMaterialTemperatureDependencyIgnored	30	Material temperature dependency is ignored for drop test analysis; warning
+swsMaterialErrorWarningNUXYNotDefined	32	Poisson's Ratio (NUXY) is not defined; program will use a default value of 0.0; warning
+swsMaterialErrorWarningNUXYValue	12	NUXY (Poissons Ratio) should be < 0.5; error
+swsMaterialErrorWarningOnlyBilinearPlasticityForDropTestStudies	31	Only bilinear plasticity is supported for drop test studies; stress-strain curves are ignored; warning
+swsMaterialErrorWarningrKXNotDefined	14	KX (thermal conductivity) not defined; error
+swsMaterialErrorWarningSIGC_F2LessThanSIGC_S2	23	Property SIGC_F2 should be less than SIGC_S2; error
+swsMaterialErrorWarningSIGC_S1LessThanSIGC_F1	21	Property SIGC_S1 should be less than SIGC_F1; error
+swsMaterialErrorWarningSIGC_S2LessThanSIGC_F1	22	Property SIGC_S2 should be less than SIGC_F1; error
+swsMaterialErrorWarningSIGT_F2LessThanSIGT_S2	20	Property SIGT_F2 should be less than SIGT_S2; error
+swsMaterialErrorWarningSIGT_S1_F1_S2_F2Values	17	Properties SIGT_S1, SIGT_F1, SIGT_S2 and SIGT_F2 should be > 0; error
+swsMaterialErrorWarningSIGT_S1LessThanSIGT_F1	18	Property SIGT_S1 should be less than SIGT_F1; error
+swsMaterialErrorWarningSIGT_S2LessThanSIGT_F1	19	Property SIGT_S2 should be less than SIGT_F1; error
+swsMaterialErrorWarningSuccessful	0	Successful
+swsMaterialErrorWarningTooManyPointsSNCurve	5	S-N curves should not have more than 200 data points; error
+swsMaterialErrorWarningUniqueStressRatioForEachSNCurve	4	Stress ratio should be unique for each S-N curve; error
+@swsMaterialFatigueSNCurveError_e		Material stress-number (SN) curve data errors
+swsMaterialFatigueSNCurveErrorCurveDataPoints	4	Curve must have at least two data points
+swsMaterialFatigueSNCurveErrorCycles	3	Cycle values should be monotonically increasing
+swsMaterialFatigueSNCurveErrorIndexValues	1	Valid index values are 0 to 9
+swsMaterialFatigueSNCurveErrorInvalidArray	2	Invalid array
+swsMaterialFatigueSNCurveErrorStressValuesMustBeUnique	5	Stress values must be unique for each number of cycles
+swsMaterialFatigueSNCurveErrorSuccessful	0	Successful
+@swsMaterialModelType_e		Material model types
+swsMaterialModelTypeCreepExponential	12	Creep Exponential
+swsMaterialModelTypeElastoPlasticDruckerPrager	6	Elasto-Plastic Drucker-Prager
+swsMaterialModelTypeElastoPlasticTrescaKinematic	5	Elasto-Plastic Tresca/Kinematic
+swsMaterialModelTypeElastoPlasticvonMisesKinematic	4	Elasto-Plastic von Mises/Kinematic
+swsMaterialModelTypeHyperElasticBlatzko	9	Hyper-Elastic Blatzko
+swsMaterialModelTypeHyperElasticMooneyRivlin	7	Hyper-Elastic Mooney-Rivlin
+swsMaterialModelTypeHyperElasticOgden	8	Hyper-Elastic Ogden
+swsMaterialModelTypeLinearElasticAnisotropic	2	Linear Elastic Anisotropic
+swsMaterialModelTypeLinearElasticIsotropic	0	Linear Elastic Isotropic
+swsMaterialModelTypeLinearElasticOrthtropic	1	Linear Elastic Orthotropic
+swsMaterialModelTypeNitinol	11	Nitinol
+swsMaterialModelTypeNonlinearElastic	3	Nonlinear Elastic
+swsMaterialModelTypeViscoElastic	10	Visco-Elastic
+@swsMaterialReferencePlaneError_e		Reference plane errors for materials
+swsMaterialReferencePlaneErrorSpecifyPlaneOrAxis	1	Specify a plane or axis
+swsMaterialReferencePlaneErrorSuccessful	0	Successful
+@swsMaterialSNCurveSource_e		Material stress-number (SN) curve sources for fatigue studies
+swsMaterialSNCurveSourceASMEAustenticSteel	1	Based on ASME austentic steel curves
+swsMaterialSNCurveSourceASMECarbonSteel	2	Based on ASME carbon steel curves
+swsMaterialSNCurveSourceEquation	3	Equation
+swsMaterialSNCurveSourceUserDefined	0	User defined
+@swsMaterialSource_e		Material sources
+swsMaterialSourceCentorLibrary	2	Centor Library
+swsMaterialSourceCustomDefined	1	Custom-defined
+swsMaterialSourceLibraryFiles	3	Library files
+swsMaterialSourceSolidWorks	0	SOLIDWORKS
+@swsMaterialSourceType_e		Linkage rod connector material source types
+swsMaterial_Custom	0
+swsMaterial_Library	1
+@swsMaterialStressStrainCurveError_e		Stress-strain curve data errors
+swsMaterialStressStrainCurveErrorInvalidArray	2	Invalid array
+swsMaterialStressStrainCurveErrorInvalidForMaterial	1	Stress-strain curve invalid for this material
+swsMaterialStressStrainCurveErrorNeedDataPoints	4	Curve must have at least two data points
+swsMaterialStressStrainCurveErrorSuccessful	0	Successful
+swsMaterialStressStrainCurveErrorTemperatures	3	Temperature values should be monotonically increasing
+@swsMaterialTemperature_e		Temperature dependencies for a material property
+swsMaterialTemperatureDependent	0	Material property is temperature dependent
+swsMaterialTemperatureNotDependent	1	Material property is not temperature dependent
+@swsMaterialTemperatureCurveForPropertyError_e		Temperature curve data errors for materials
+swsMaterialTemperatureCurveForPropertyErrorInvalidArray	4	Invalid array
+swsMaterialTemperatureCurveForPropertyErrorNeedDataPoints	5	Curve must have at least two data points
+swsMaterialTemperatureCurveForPropertyErrorNotAllowed	3	Temperature curve not allowed for Nitinol material
+swsMaterialTemperatureCurveForPropertyErrorNotApplicable	2	Temperature curve is not applicable for this property
+swsMaterialTemperatureCurveForPropertyErrorPropertyNotDefined	1	Property not defined for this material model
+swsMaterialTemperatureCurveForPropertyErrorSuccessful	0	Successful
+swsMaterialTemperatureCurveForPropertyErrorTermperatures	6	Temperature values should be monotonically increasing
+@swsMeshCompatibility_e		Mesh compatibility
+swsMeshCompatibilityCompatible	0	Compatible mesh
+swsMeshCompatibiltyIncompatible	1	Incompatible mesh
+@swsMeshControlError_e		Mesh control errors
+swsMeshControlErrorElementSize	6	Specify a number between 0.0000001 and 1000000 for element size
+swsMeshControlErrorEntityAlreadyExists	2	Entity already exists in this mesh control
+swsMeshControlErrorNoEntities	3	No entities selected
+swsMeshControlErrorNoEntityAtIndex	1	No entity is passed at index
+swsMeshControlErrorNumberOfLayers	7	Number of layers must be an integer larger than 0 and less than or equal to 80
+swsMeshControlErrorSelectFaceEdgeOrVertex	5	Select face, edge, or vertex
+swsMeshControlErrorSelectVerticesEdgesFacesBodiesOrComponents	4	Select vertices, edges, faces, bodies, or components
+swsMeshControlErrorSuccessful	0	Successful
+@swsMeshControlMeshingError_e		Mesh control meshing errors
+swsMeshControlMeshingErrorInvalidMeshControlName	1
+swsMeshControlMeshingErrorMeshControlNotFound	2
+swsMeshControlMeshingErrorMeshControlUnsuccessful	3
+swsMeshControlMeshingErrorSuccessful	0
+@swsMeshControlWeightFactor_e		Component weight factors for mesh control
+swsMeshControlWeightFactorDefault	0	Regular significance (default element size)
+swsMeshControlWeightFactorHighest	1	Highest significance
+@swsMeshCopyErrorCode_e		Mesh copy error codes
+swsMeshCopy_InvalidStudyName	2
+swsMeshCopy_MeshTypeDifferentForBothStudies	4
+swsMeshCopy_NoError	0
+swsMeshCopy_NotSupportedForBeamMesh	3
+swsMeshCopy_StudyNotActive	1
+swsMeshCopy_UnSupportedStudies	5
+@swsMeshElementNodeLocation_e		Mesh element or node locations errors
+swsMeshElementNodeLocationNoElement	2	No element with this label exists
+swsMeshElementNodeLocationNoNode	1	No node with this label exists
+swsMeshElementNodeLocationSuccessful	0	Successful
+@swsMeshElementQualityKPI_e		Mesh element quality key performance indicators
+swsMeshElementQualityKPI_Area	3
+swsMeshElementQualityKPI_AspectRatio	1
+swsMeshElementQualityKPI_ElemSkewRatio	4
+swsMeshElementQualityKPI_JacobianRatio	0
+swsMeshElementQualityKPI_Volume	2
+@swsMesherType_e		Mesher types for surface meshes
+swsMesherTypeAlternate	1	Curvature-based
+swsMesherTypeAlternateCB	2	Blended curvature-based
+swsMesherTypeStandard	0	Standard
+@swsMesherTypeNew_e		Mesher types
+swsMesherType_BCB	2	Blended curvature based
+swsMesherType_CB	1	Curvature based
+swsMesherType_Standard	0
+@swsMeshFlipShellError_e		Flipping shell elements errors
+swsMeshFlipShellErrorEmptyArray	2	No faces selected (empty array)
+swsMeshFlipShellErrorInvalidArray	1	Invalid array
+swsMeshFlipShellErrorMeshInformationNotFound	5	Mesh information not found
+swsMeshFlipShellErrorNotShell	3	Mesh is not shell type
+swsMeshFlipShellErrorSelectFaces	4	Select faces
+swsMeshFlipShellErrorSuccessful	0	Successful
+@swsMeshKPIErrCode_e		Mesh element quality key performance indicator error codes
+swsMeshKPIErrCode_ImproperGaussOrder	4
+swsMeshKPIErrCode_ImproperInput	2
+swsMeshKPIErrCode_InternalError	5
+swsMeshKPIErrCode_InvalidMeshData	3
+swsMeshKPIErrCode_KPINotSupported	1
+swsMeshKPIErrCode_Success	0	Key performance indicator successfully evaluated
+@swsMeshQuality_e		Mesh qualities
+swsMeshQualityDraft	0	Draft
+swsMeshQualityHigh	1	High
+@swsMeshQueryErrorCode_e		Mesh query errors
+swsMeshQuery_DataBaseNotAvailable	1
+swsMeshQuery_Failed	10
+swsMeshQuery_NoElements	2
+swsMeshQuery_NoError	0
+swsMeshQuery_NoNodes	3
+@swsMeshShellNormal_e		Mesh shell normal for faces
+swsMeshShellNormalBottomFace	1	Bottom face
+swsMeshShellNormalNotFoundOrFaceNotSelected	-1	Mesh information not found or face is not selected
+swsMeshShellNormalTopFace	0	Top face
+@swsMeshState_e		Mesh states
+swsMeshStateExistsAndCurrent	1	Mesh exists and it is current
+swsMeshStateExistsAndNotCurrent	2	Mesh exists but it is not current
+swsMeshStateFailed	3	Mesh failed
+swsMeshStateInterrupted	4	Mesh interrupted
+swsMeshStateNoMesh	0	No mesh exists
+@swsMeshType_e		Mesh types
+swsMeshTypeBeam	4	Beam mesh; supported for static, frequency, and buckling studies only
+swsMeshTypeMidSurface	1	Shell using mid-surface; supported for part documents with simple geometry
+swsMeshTypeMixed	3	Mixed mesh; mixed solids, shells, and beams are supported for static, frequency, and buckling studies; nonlinear, thermal, and linear dynamic studies support mixed meshes with solids and shells only (no beams)
+swsMeshTypeSolid	0	Solid mesh
+swsMeshTypeSurfaces	2	Shell mesh using surfaces; supported for parts and assemblies
+@swsModeCombinationMethod_e		Mode combination methods for calculating a peak response in dynamic studies
+swsModeCombinationMethod_AbsSum	1	Absolute Sum; This method calculates the peak response as the sum of the maximum modal responses
+swsModeCombinationMethod_CQC	2	Complete Quadratic Combination (CQC); This method calculates the peak response using cross-modal correlation coefficients, modal damping coefficients, and a double summation equation based on random vibration theories
+swsModeCombinationMethod_NRL	3	Naval Research Laboratory (NRL); This method calculates the peak response as the sum of the absolute value of the response of the mode that exhibits the largest response and the SRSS response of the remaining modes
+swsModeCombinationMethod_SRSS	0	Square Root of the Sum of Squares (SRSS); This method calculates the peak response as the square root of the sum of the maximum modal responses squared
+@swsMomentUnit_e		Units of moment
+swsMomentUnit_KilogramForceCentimeter	2	Kg-F-centimeter
+swsMomentUnit_NewtonMeter	0	Newton-meter
+swsMomentUnit_PoundForceInch	1	Lb-F-inch
+@swsMultipleContactsEditErrorCode_e		Error codes for the simultaneous editing of component contacts and contact sets
+swsMultipleContactsEditErrorCode_BondedContactsWithBeamsCannotBeEditedWithOtherNonBeamContactTypes	12	Bonded contact sets with beams cannot be edited together with other contact types
+swsMultipleContactsEditErrorCode_GivenContactIsAlreadyAdded	8	Contact has already been added
+swsMultipleContactsEditErrorCode_GivenContactIsNotAddedYet	3	Specified contact set is not yet added to the selection list
+swsMultipleContactsEditErrorCode_GivenContactSetDidNotMeetMinCriteria	7	Specified contact set/component contact does not meet the qualifying criteria for editing multiple contacts interactively
+swsMultipleContactsEditErrorCode_InvalidPropertiesAreApplied	6	Attempted to set one or more properties that are inconsistent with each other
+swsMultipleContactsEditErrorCode_MultipleContactSetMgrIsNull	5	Multiple contact sets cannot be simultaneously edited
+swsMultipleContactsEditErrorCode_NoDefaultContactIsSelected	2	Default contact must be set when the same type of contact is selected for editing
+swsMultipleContactsEditErrorCode_NoPenetrationSelfContactSetsCannotBeEditedWithOtherContactTypes	10	No Penetration self contact sets cannot be edited with other contact types
+swsMultipleContactsEditErrorCode_NoSuchContactExists	4	Specified name of contact set does not exist in the current study
+swsMultipleContactsEditErrorCode_NoTypeSelectedForMixedContactTypesSelection	1	Contact type must be set when different types of contacts are selected for editing
+swsMultipleContactsEditErrorCode_OperationNotSupported	9	Operation cannot be performed out of sequence
+swsMultipleContactsEditErrorCode_Success	0	Success
+swsMultipleContactsEditErrorCode_VirtualWallContactSetsCannotBeEditedWithOtherContactTypes	11	Virtual wall contact sets cannot be edited together with other contact types
+@swsNameViewOrientation_e		Named view orientations
+swsNameViewOrientation_AssociateWithCurrView	10
+swsNameViewOrientation_Back	2
+swsNameViewOrientation_Bottom	6
+swsNameViewOrientation_Dimetric	9
+swsNameViewOrientation_Front	1
+swsNameViewOrientation_Isometric	7
+swsNameViewOrientation_Left	3
+swsNameViewOrientation_NormalTo	0
+swsNameViewOrientation_Right	4
+swsNameViewOrientation_Top	5
+swsNameViewOrientation_Trimetric	8
+@swsNastranExportOption_e		NASTRAN export options
+swsNastranExportOption_LongFixed	3
+swsNastranExportOption_LongFree	1
+swsNastranExportOption_ShortFixed	2
+swsNastranExportOption_ShortFree	0
+@swsNastranExportUnit_e		NASTRAN export units
+swsNastranExportUnit_IPS	1
+swsNastranExportUnit_MKS	2
+swsNastranExportUnit_SI	0
+@swsNForceType_e		Types of contact forces
+swsNForceTypeFriction	1	Friction
+swsNForceTypeNormal	0	Normal
+swsNForceTypeTotal	2	Normal + Friction
+@swsNodalResultsOfElementError_e		Error codes when getting stress tensor values for all nodes of an element
+swsNodalResultsOfElementError_InvalidComponent	3
+swsNodalResultsOfElementError_InvalidElementGroup	8
+swsNodalResultsOfElementError_InvalidElements	7
+swsNodalResultsOfElementError_InvalidResultType	2
+swsNodalResultsOfElementError_InvalidShellFace	6
+swsNodalResultsOfElementError_InvalidStep	4
+swsNodalResultsOfElementError_InvalidStudy	1
+swsNodalResultsOfElementError_InvalidUnits	5
+swsNodalResultsOfElementError_NoError	0
+swsNodalResultsOfElementError_ResultsNotAvailable	9
+@swsNonlinearAnalysisSubType_e		Nonlinear analysis subtypes
+swsNonlinearAnalysisSubTypeDynamic	1
+swsNonlinearAnalysisSubTypeStatic	0
+@swsNonLinearOptionControlMethodType_e		Nonlinear control method types
+swsNonLinearControl_ArcLength	2	Arc length
+swsNonLinearControl_Displacement	1	Displacement
+swsNonLinearControl_Force	0	Force
+@swsNonLinearOptionIntegrationMethodType_e		Nonlinear integration method types
+swsNonLinearIntegration_CentralDifference	2	Central difference
+swsNonLinearIntegration_Newmark	0	Newmark
+swsNonLinearIntegration_WilsonTheta	1	Wilson Theta
+@swsNonLinearOptionIterativeMethodType_e		Nonlinear iterative method types
+swsNonLinearIterative_ModifiedNewtonRaphson	0	Modified Newton Raphson
+swsNonLinearIterative_NewtonRaphson	1	Newton Raphson
+@swsNonLinearStudyOptionsError_e		Nonlinear study option errors
+swsNonLinearStudyInvalidArcLengthMaximumDisplacementValue	17	Invalid arc-length displacement value
+swsNonLinearStudyInvalidArcLengthMaximumLoadValue	18	Invalid arc-length load value
+swsNonLinearStudyInvalidArcLengthMultiplierValue	16	Value for maximum displacement (for translation DOF) is either <0.1 or >1
+swsNonLinearStudyInvalidArcLengthStepsValue	19	Invalid arc-length steps value
+swsNonLinearStudyInvalidDisplaceComponentUnitValue	15	Unit value for displacement component unit is <0 or >4
+swsNonLinearStudyInvalidDisplaceComponentValue	14	Displacement component value is <0 or >5
+swsNonLinearStudyInvalidSingularityEliminationfactorValue	20	Invalid singularity elimination factor value
+swsNonLinearStudyOptionsErrorAutoSteppingParameters	2	All auto-stepping parameters should be less than end time
+swsNonLinearStudyOptionsErrorEmptyDispatch	12	Empty Dispatch parameter
+swsNonLinearStudyOptionsErrorSelectArcLengthControlType	7	Select the arc-length control type
+swsNonLinearStudyOptionsErrorSelectDirectSolver	9	Select direct solver
+swsNonLinearStudyOptionsErrorSelectDisplacementControlType	6	Select the displacement control type
+swsNonLinearStudyOptionsErrorSelectForceControl	10	Select force control type
+swsNonLinearStudyOptionsErrorSelectTimeCurve	8	Select a time curve
+swsNonLinearStudyOptionsErrorSelectVerticesOrDatumPoint	5	Select a vertex or datum point
+swsNonLinearStudyOptionsErrorSolutionSteps	4	Nonlinear analysis can have up to 15,000 solution steps
+swsNonLinearStudyOptionsErrorStartEndStepsAndIncrement	1	Start time step, end time step, and increment should all be > 0
+swsNonLinearStudyOptionsErrorStartTimeLessThanEndTime	3	Start time should be < end time
+swsNonLinearStudyOptionsErrorSuccessful	0	Successful
+swsNonLinearStudyOptionsErrorWrongArcLengthUnit	11	Incorrect unit input; must be between 0 and 4
+swsNonLinearStudyTimeCurveErrorInvalidStudyType	13	Invalid study type
+@swsNonlinearStudyResultTypes_e		Nonlinear study result types
+swsNonlinearResultDisplacement	2
+swsNonlinearResultElementalStrain	4
+swsNonlinearResultElementalStress	1
+swsNonlinearResultNodalStrain	3
+swsNonlinearResultNodalStress	0
+@swsNoPenetrationOption_e		Advanced options for no penetration contact sets
+swsNoPenetrationOptionNodeToNode	0	Node to node
+swsNoPenetrationOptionNodeToSurface	1	Node to surface
+swsNoPenetrationOptionSurfaceToSurface	2	Surface to surface
+@swsOptimizationStudyResultType_e		Scope of optimization design cycle results
+swsOptimizationStudyResult_AllIterations	1
+swsOptimizationStudyResult_InitialAndFinalIterations	0
+@swsPhaseAngleUnit_e		Units for phase angle
+swsPhaseAngleUnit_Deg	0	Degrees
+swsPhaseAngleUnit_Rad	1	Radians
+@swsPinballUnit_e		Units for optimal tolerance value for non-touching structural members within a certain distance, which is also...
+swsPinaballnm	7	nm
+swsPinballam	6	am
+swsPInballcm	1	cm
+swsPinballft	4	ft
+swsPinballftin	5	ft-in
+swsPinballin	3	in
+swsPinballm	2	m
+swsPinballmicron	8	micron
+swsPinballmicronIn	10	micronIn
+swsPinballmil	9	mil
+swsPinballmm	0	mm
+@swsPinConnectorEndEditError_e		Pin connector editing errors
+swsPinConnectorEndEditErrorBodyExcludedFromAnalysis	23	Selected entity is on a body excluded from analysis
+swsPinConnectorEndEditErrorEntityAlreadyAdded	2	Entity already added
+swsPinConnectorEndEditErrorHasBeamBody	11	Connector has a beam body
+swsPinConnectorEndEditErrorHasMassElement	12	Connection has a mass element
+swsPinConnectorEndEditErrorIncludeStrengthData	25	Select to include strength data
+swsPinConnectorEndEditErrorIndexTooBig	10	Specified index > number of entities
+swsPinConnectorEndEditErrorInvalidConnectionType	27
+swsPinConnectorEndEditErrorInvalidForAnalysis	26
+swsPinConnectorEndEditErrorNoEntityAtIndex	1	No entity at specified index
+swsPinConnectorEndEditErrorNullEntity	24	Entity is null
+swsPinConnectorEndEditErrorPinBoltStrength	20	Specify a positive value for the pin or bolt yield
+swsPinConnectorEndEditErrorPinMass	17	Specify a positive value for the pin mass
+swsPinConnectorEndEditErrorRadiiNotEqual	7	Radii of cylindrical faces of components are not equal
+swsPinConnectorEndEditErrorSafetyFactor	21	Specify a positive value for safety factor
+swsPinConnectorEndEditErrorSelectAssemblyDocument	8	Select assembly document
+swsPinConnectorEndEditErrorSelectCircularEdge	22	Select a circular edge
+swsPinConnectorEndEditErrorSelectCircularEdges	13	Select circular edges on shells
+swsPinConnectorEndEditErrorSelectConcentricCylindricalFacesConnection	9	Select two concentric cylindrical faces from two bodies for pin connector
+swsPinConnectorEndEditErrorSelectConcentricCylindricalFacesConnector	6	Select two concentric cylindrical faces from two bodies for pin connector
+swsPinConnectorEndEditErrorSelectDifferentBody	14	Select a different body for either entity
+swsPinConnectorEndEditErrorSelectEntity	3	Select an entity
+swsPinConnectorEndEditErrorSelectFace	4	Select a face
+swsPinConnectorEndEditErrorSelectFaceCylindricalSurface	5	Select a face with cylindrical surface
+swsPinConnectorEndEditErrorSelectFacesFromSameHole	15	Select the faces that belong to the same hole for the source
+swsPinConnectorEndEditErrorSpecifyPositiveValue	16	Specify a positive value
+swsPinConnectorEndEditErrorSuccessful	0	Successful
+swsPinConnectorEndEditErrorTensileStressArea	18	Specify a positive value for tensile stress area
+swsPinConnectorEndEditErrorTesileStressAreaLarge	19	Tensile stress area is too large
+@swsPinConnectorError_e		Pin connector errors
+swsPinConnectorErrorArrayEmtpy	16	Array has an empty dispatch
+swsPinConnectorErrorArrayHasBeamBody	17	Array has a beam body
+swsPinConnectorErrorBodyExcludedFromAnalysis	20	Selected entity is on a body excluded from analysis
+swsPinConnectorErrorComponentConcentricFacesRadiiNotEqual	8	Radii of cylindrical faces of component are not equal
+swsPinConnectorErrorEntitySameForComponents	14	Entity is same in first and second components
+swsPinConnectorErrorFaceNotCylindrical	6	Select faces does not have a cylindrical surface
+swsPinConnectorErrorInvalidArray	9	Invalid array
+swsPinConnectorErrorInvalidMesh	1	Invalid mesh type
+swsPinConnectorErrorInvalidStudy	3	Invalid study type
+swsPinConnectorErrorNonlinearStudyPartDocument	2	Study type equals nonlinear and document type equals part
+swsPinConnectorErrorNoObject	4	No object in array
+swsPinConnectorErrorNullOrEmptyArray	13	Array of either entities is NULL or empty
+swsPinConnectorErrorSelectAssemblyDocument	10	Select an assembly document
+swsPinConnectorErrorSelectCircularEdgesOnShells	19	Select circular edges on shells
+swsPinConnectorErrorSelectConcentricCylindricalFacesForConnection	18	Select two concentric cylindrical faces from two bodies for pin connection
+swsPinConnectorErrorSelectConcentricCylindricalFacesForConnector	7	Select two concentric cylindrical faces from two bodies for pin connector
+swsPinConnectorErrorSelectDifferentBody	15	Select different body
+swsPinConnectorErrorSelectFace	5	Select a face
+swsPinConnectorErrorSelectFaceFromSameHoleForTarget	12	Select the face that belongs to the same hole for the target
+swsPinConnectorErrorSelectFacesFromSameHoleForSource	11	Select the faces that belong to the same hole for the source
+swsPinConnectorErrorSuccesful	0	Successful
+@swsPlotBoundarySettingsOptionValue_e		Model boundary plot display options
+swsPlotBoundaryMesh	2	Superimpose the selected result plot on the mesh plot
+swsPlotBoundaryModel	1	Display the boundary edges of the model
+swsPlotBoundaryNone	0	Do not display the boundary edges of the model
+swsPlotBoundaryTranslucentPartColor	4	Display all hidden or excluded parts in their shaded mode colors; valid only when hidden or excluded bodies exist
+swsPlotBoundaryTranslucentSingleColor	3	Display all hidden or excluded parts in a single color; valid only when hidden or excluded bodies exist
+@swsPlotDeformedShapeOptionScaleFactorContactValue_e		Result plot deformation scale factor options for studies with no penetration contact
+swsPlotDeformedShapeContactAutomatic	0
+swsPlotDeformedShapeContactTrueValue	1
+@swsPlotDeformedShapeOptionScaleFactorLargeDispValue_e		Result plot deformation scale factor options for studies with large displacement
+swsPlotDeformedShapeLargeDispAutomatic	0
+swsPlotDeformedShapeLargeDispTrueValue	1
+@swsPlotDeformedShapeOptionScaleFactorOtherValue_e		Result plot deformation scale factor options for all studies other than no penetration contact or large displacement
+swsPlotDeformedShapeOtherAutomatic	0
+swsPlotDeformedShapeOtherTrueValue	1
+@swsPlotDeformedShapeOptionSuperImposeValue_e		Options when Superimpose model on the deformed shape is selected for plot settings
+swsPlotDeformedShapeSuperImposeModel_TranslucentPartColor	0	Display using shaded mode colors of parts
+swsPlotDeformedShapeSuperImposeModel_TranslucentSingleColor	1	Display using a selected color
+@swsPlotDeformedShapeOptionValue_e		Result plot options for showing results on deformed or undeformed shapes
+swsPlotDeformedShapeShowResultsOnDeformedShape	1
+swsPlotDeformedShapeShowResultsOnUnDeformedShape	0
+@swsPlotFringeSettingsOptionValue_e		Fringe plot display options
+swsPlotFringeContinuous	3	Use color-filled contours with smooth shading
+swsPlotFringeDiscrete	2	Use color-filled contours with discrete shading
+swsPlotFringeLine	1	Use colored line contours
+swsPlotFringePoint	0	Use colored point contours
+@swsPlotResultTypes_e		Result plot types
+swsResultAcceleration	20
+swsResultBeamDiagram	54
+swsResultBeamStress	59
+swsResultDesignInsight	22
+swsResultDisplacementOrAmplitude	1
+swsResultEdgeWeldConnector	58
+swsResultEquivalentStress	67
+swsResultFactorOfSafety	4
+swsResultFatigue	12
+swsResultPinBoltBearing	56
+swsResultStrain	3
+swsResultStress	2
+swsResultThermal	5
+swsResultVelocity	19
+@swsPlotSettingsErrorCode_e		Plot settings status
+swsPlotSettings_FailToGetColors	8
+swsPlotSettings_InvalidAlphaValue	11
+swsPlotSettings_InvalidFringeOption	6
+swsPlotSettings_InvalidInput	10
+swsPlotSettings_InvalidNumberOfParameters	2
+swsPlotSettings_InvalidParameters	3
+swsPlotSettings_InvalidPlotName	1
+swsPlotSettings_InvalidSelectionEntities	4
+swsPlotSettings_NoError	0
+swsPlotSettings_UnableToFetchLegendData	5
+swsPlotSettings_WrongBoundaryOption	7
+swsPlotSettings_WrongRGBValues	9
+@swsPlotShowExcludedBodiesOptionValue_e		Result plot options for excluded bodies
+swsPlotExcludedBodyTranslucentPartColor	1	Display excluded bodies in their shaded mode colors
+swsPlotExcludedBodyTranslucentSingleColor	0	Display excluded bodies in a single color
+@swsPlotShowHiddenBodiesOptionValue_e		Result plot options for hidden bodies
+swsPlotHiddenBodyTranslucentPartColor	1	Display hidden bodies in their shaded mode colors
+swsPlotHiddenBodyTranslucentSingleColor	0	Display hidden bodies in a single color
+@swsPreloadForce_e		Pre-load force types for bolt connectors
+swsPreloadForceAxial	0	Axial
+swsPreloadForceTorque	1	Torque
+@swsPreLoadForceType_e		Pre-load force types for spring connectors
+swsPreLoadForceTypeCompression	0	Compression
+swsPreLoadForceTypeTension	1	Tension
+@swsPressureEndEditError_e		Pressure editing errors
+swsPressureEndEditErrorEntityAlreadyAdded	2	Entity already added to pressure
+swsPressureEndEditErrorNoEntities	3	No entities selected
+swsPressureEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsPressureEndEditErrorRefGeomPreExist	6	Reference geometry already select in list of selected entities
+swsPressureEndEditErrorSelectCoordinateSystem	8	Select a coordinate system
+swsPressureEndEditErrorSelectFaceEdgePlaneOrAxis	7	Select a face, edge, plane, or axis for reference geometry
+swsPressureEndEditErrorSelectFaceOrShellEdge	5	Select face or shell edge
+swsPressureEndEditErrorSelectFacesOrShellEdges	4	Select faces or shell edges
+swsPressureEndEditErrorSuccessful	0	Successful
+@swsPressureError_e		Pressure errors
+swsPressureErrorCannotApplyPressure	7	You cannot apply the pressure to the entity used for reference geometry
+swsPressureErrorInvalidArray	6	Invalid entity array
+swsPressureErrorInvalidStudy	5	Invalid study type for pressure
+swsPressureErrorPressureType	4	Selected pressure type must be 0 or 1
+swsPressureErrorSelectFaceEdgePlaneOrAxis	3	Select face, edge, plane, or axis for reference geometry
+swsPressureErrorSelectFaceOrFaces	1	Select one or more faces
+swsPressureErrorSelectFacesOrShellEdges	2	Select faces or shell edges
+swsPressureErrorSuccessful	0	Successful
+@swsPressureReferenceGeometryCylindricalType_e		Pressure reference geometry cylindrical direction types
+swsPressureReferenceGeometryCylindricalTypeAxial	3
+swsPressureReferenceGeometryCylindricalTypeCircumferential	2
+swsPressureReferenceGeometryCylindricalTypeRadial	1
+@swsPressureReferenceGeometryEdgeType_e		Pressure reference geometry edge direction types
+swsPressureReferenceGeometryEdgeTypeAlongEdge	3
+@swsPressureReferenceGeometryPlanarType_e		Pressure reference geometry planar direction types
+swsPressureReferenceGeometryPlanarTypeAlongPlaneDir1	1
+swsPressureReferenceGeometryPlanarTypeAlongPlaneDir2	2
+swsPressureReferenceGeometryPlanarTypeNormalToPlane	3
+@swsPressureReferenceGeometryReferenceAxisType_e		Pressure reference geometry axis direction types
+swsPressureReferenceGeometryReferenceAxisTypeAxial	3
+swsPressureReferenceGeometryReferenceAxisTypeCircumferential	2
+swsPressureReferenceGeometryReferenceAxisTypeRadial	1
+@swsPressureType_e		Pressure types
+swsPressureTypeNormal	0	Normal to selected face
+swsPressureTypeUseReferenceGeometry	1	Use reference geometry
+@swsPressureUnit_e		Pressure units
+swsPressureUnit_KilogramForcePerCentimeterSquared	2
+swsPressureUnit_NewtonsPerMeterSquared	0
+swsPressureUnit_NewtonsPerMillimeterSquared	3
+swsPressureUnit_PSI	1
+@swsProbePostResultErrorCode_e		Results probe error codes
+swsProbePostResultError_ActiveStudyIsNotRun	6	Active Simulation study must be analyzed before results can be probed
+swsProbePostResultError_InitializationFailure	11	Unable to probe results; re-run the study and try again
+swsProbePostResultError_InvalidOrEmptyInputArray	5	Invalid or empty node/element list
+swsProbePostResultError_MeshDataLoadFailure	7	Unable to load mesh data; remesh the study and try again
+swsProbePostResultError_NoActiveStudy	2	No active study found; activate a Simulation study and try again
+swsProbePostResultError_NoActiveView	1	No active view is available
+swsProbePostResultError_NoAssociatedStudyFoundForFatigueAnalysis	12	No associated study for fatigue analysis was found
+swsProbePostResultError_NoResultOrMeshPlotIsActivated	13	No mesh or result plot was found; re-run the study and try again
+swsProbePostResultError_NotAllNodeElemsAreAnnotated	14	Not all of the specified nodes or elements are annotated
+swsProbePostResultError_ProbingNotSupportedOnDeformationPlot	9	Probing is not supported for deformation result plot
+swsProbePostResultError_ProbingNotSupportedOnSectionPlotExplodedAfterClip	10	Probing is not supported for exploded after clip section result plot
+swsProbePostResultError_ProbingNotSupportedOnShellForSectionPlot	8	Probing is not supported for shell or section result plot
+swsProbePostResultError_ResultPlotActivationFailure	3	Failed to activate the selected result plot
+swsProbePostResultError_Success	0
+swsProbePostResultError_UsedBeforeCallingBeginProbing	4	Cannot make the current results probe edit; call ICWResultsProbeManager::BeginProbing before making results probe edits
+@swsProbePostResultNodeElementSelectionWarning_e	bitmask	Results probe selection warnings.
+swsProbePostResultNodeElemSelectionWarning_FewElemsLieOnBeamGaps	1	Elements lie on beam gaps
+swsProbePostResultNodeElemSelectionWarning_FewNodeElemsLieOnNonRenderedBody	8	Nodes or elements are on a non-rendered body
+swsProbePostResultNodeElemSelectionWarning_FewNodeElemsNotOnSectionPlane	2	Nodes or elements are not on the section plane
+swsProbePostResultNodeElemSelectionWarning_FewNodeElemsOutOfRange	4	Nodes or elements are out of range for the given model
+@swsProbePostResultOption_e		Results probe options
+swsProbePostResultOption_AtDistance	3	Measure the distance between two nodes; available for mesh and displacement plots only
+swsProbePostResultOption_AtLocation	0	Probe results for individual nodes or elements selected in the graphics area
+swsProbePostResultOption_AtNodeElemNumber	4	Probe results at a specified node or element
+swsProbePostResultOption_FromSensors	1	Probe results at locations stored in sensor lists; you must define Workflow Sensors to create a sensor list
+swsProbePostResultOption_OnSelectedEntities	2	Probe results for all nodes or elements on selected faces, edges, or vertices
+@swsPVResultCombinationError_e		Errors when combining results of Pressure Vessel Design studies
+swsPVResultCombinationError_AtleastTwoItemsNeeded	2	You need to specify at least two studies and multiplication factors
+swsPVResultCombinationError_CombineAnalysisNotDone	7	The analysis was not done
+swsPVResultCombinationError_CombineIncompatibleConfiguration	10	Incompatible configurations
+swsPVResultCombinationError_CombineIncompatibleConnectors	15	Incompatible connectors
+swsPVResultCombinationError_CombineIncompatibleContact	14	Incompatible contacts
+swsPVResultCombinationError_CombineIncompatibleMesh	9	Incompatible meshes
+swsPVResultCombinationError_CombineIncompatiblePlanarType	16	Incompatible planar types
+swsPVResultCombinationError_CombineIncompatibleRestraints	11	Incompatible restraints
+swsPVResultCombinationError_CombineIncompatibleResults	8	Incompatible results
+swsPVResultCombinationError_CombineIncompatibleShellsMaterials	13	Incompatible shell materials
+swsPVResultCombinationError_CombineIncompatibleSolidsMaterials	12	Incompatible solid materials
+swsPVResultCombinationError_InvalidFactors	5	One or more multiplication factors are invalid
+swsPVResultCombinationError_InvalidStudy	6	One or more studies are invalid
+swsPVResultCombinationError_ItemsNotSameInNumber	4	Number of elements in the multiplication factors and study names arrays are not the same
+swsPVResultCombinationError_NoError	0	Successful
+swsPVResultCombinationError_NotAvailable	1	Result combination is not available for this study
+swsPVResultCombinationError_StudyNamesNotProper	3	Study names are not valid
+@swsPVResultCombinationType_e		Options for combining results of selected Pressure Vessel Design studies
+swsPVResultCombinationType_Linear	0	Linear combination
+swsPVResultCombinationType_SRSS	1	Square root of the sum of squares (SRSS)
+@swsRadiationEndEditError_e		Radiation editing errors
+swsRadiationEndEditErrorEmissivity	6	Emissivity must be between 0 and 1
+swsRadiationEndEditErrorEntityAlreadyExists	2	At least one entity is specified more than once
+swsRadiationEndEditErrorNoEntities	3	No entities selected
+swsRadiationEndEditErrorNoEntityAtIndex	1	No entity at the specified index
+swsRadiationEndEditErrorSelectFace	4	Select a face
+swsRadiationEndEditErrorSelectFaceOrEdge	5	Select a face or edge
+swsRadiationEndEditErrorSuccessful	0	Successful
+swsRadiationEndEditErrorViewFactor	7	View factor must be between 0 and 1
+@swsRadiationError_e		Radiation errors
+swsRadiationErrorEmtpyArray	6	No entities selected (empty array)
+swsRadiationErrorInvalidArray	5	Invalid array
+swsRadiationErrorInvalidStudy	3	Invalid study type
+swsRadiationErrorRadiationType	4	Radiation type must 0 or 1
+swsRadiationErrorSelectFaceOrShellEdge	2	Select face or shell edge
+swsRadiationErrorSelectFaces	1	Select faces
+swsRadiationErrorSuccessful	0	Successful
+@swsRadiationOpenSystem_e		Radiation systems
+swsRadiationOpenSystemClosed	0	Closed system (i.e., ignore radiation to the ambient)
+swsRadiationOpenSystemOpen	1	Open system
+@swsRadiationType_e		Radiation types
+swsRadiationTypeSurfaceToAmbient	0	Surface to ambient
+swsRadiationTypeSurfaceToSurface	1	Surface to surface
+@swsRandomVibrationAnalysisMethod_e		Methods of integration for random vibration dynamic studies
+swsRandomVibrationAnalysisMethod_Approximate	1	Approximate
+swsRandomVibrationAnalysisMethod_Standard	0	Standard
+@swsRandomVibrationCorrelationOption_e		Options for load correlation in random vibration dynamic studies
+swsRandomVibrationCorrelationOption_FullyCorrelated	0	Fully correlated; the distance between load nodes is smaller than a user-defined minimum radius
+swsRandomVibrationCorrelationOption_FullyUnCorrelated	1	Fully uncorrelated; the distance between load nodes is larger than a user-defined maximum radius
+swsRandomVibrationCorrelationOption_PartiallyCorrelated	2	Partially correlated; the distance between load nodes is between a user-defined minimum radius and a user-defined maximum radius
+@swsRefDispType_e		Reference geometry types
+swsCoordSys	2
+swsDatumAxis	3
+swsDatumPlane	1
+swsNone	0
+@swsReferencePressureOption_e		Reference pressure options
+swsReferencePressureOption_Define	1
+swsReferencePressureOption_UseFld	0
+@swsRemoteLoadCheckCode_e		Remote load types
+swsRemoteLoadCheckCode_Displacement	2	Translation or rotation
+swsRemoteLoadCheckCode_Load	1	Force or moment
+swsRemoteLoadCheckCode_None	0
+@swsRemoteLoadConnectionType_e		Remote load connectiono types
+swsRemoteLoadConnectionType_Distributed	1
+swsRemoteLoadConnectionType_Rigid	0
+@swsRemoteLoadEndEditError_e		Remote load editing errors
+swsRemoteLoadEndEditError_CheckAtleastOneComp	11	Select at least one load component
+swsRemoteLoadEndEditError_DisplacementMustBe0ForTopology	15	Displacement components in remote loads in topology studies must be zero
+swsRemoteLoadEndEditError_EmptyArray	6	Empty array
+swsRemoteLoadEndEditError_EntityAlreadyAdded	7	Entity already exists
+swsRemoteLoadEndEditError_InvalidArray	5	Invalid array
+swsRemoteLoadEndEditError_InvalidConnectionType	16	Connection type should be 0 or 1
+swsRemoteLoadEndEditError_InvalidForAnalysis	12	Only linear static and nonlinear static studies support remote loads with distributed connection types
+swsRemoteLoadEndEditError_InvalidForNonSolid	13	You must select entities on solid bodies for remote loads with distributed connection types
+swsRemoteLoadEndEditError_InvalidForRigid	14	The selections are invalid for a remote load with a rigid connection type
+swsRemoteLoadEndEditError_InvalidLoadType	3	Remote load type is invalid
+swsRemoteLoadEndEditError_InvalidMass	10	Mass should be greater than 0
+swsRemoteLoadEndEditError_InvalidMassArray	9	Invalid mass array
+swsRemoteLoadEndEditError_InvalidStudyType	4	Study type is invalid for the remote load type
+swsRemoteLoadEndEditError_InvalidUnits	8	Incorrect units
+swsRemoteLoadEndEditError_NoError	0	Success
+swsRemoteLoadEndEditError_SelectCoordinateSystem	2	Select a coordinate system
+swsRemoteLoadEndEditError_SelectFaceEdgeOrVertex	1	Select a face, edge, or vertex
+@swsRemoteLoadType_e		Remote restraint or load types
+swsRemoteLoadType_DirectDisplacement	3	Connects with rigid bars the remote location, at which translations and rotations are applied, to the center of the selected faces; Available for nonlinear studies only
+swsRemoteLoadType_DirectLoad	0	Transfers the specified remote forces and moments to the selected faces
+swsRemoteLoadType_RigidDisplacement	2	Connects with rigid bars the remote location, at which translations and rotations are applied, to the selected faces, edges, or vertices
+swsRemoteLoadType_RigidLoadOrMass	1	Connects with rigid bars the remote location, at which forces, moments, and/or masses are applied, to the selected faces, edges, or vertices
+@swsRemoteLoadWeightingFactor_e		Remote load weighting factor types
+swsRemoteLoadWeightingFactor_Cubic	3
+swsRemoteLoadWeightingFactor_Default_Constant	0
+swsRemoteLoadWeightingFactor_Linear	1
+swsRemoteLoadWeightingFactor_Quadratic	2
+@swsReportFolderValue_e		Results report folder options
+swsResultFolderAsReportFolder	0	The study report is saved in the same location as the results folder
+swsUserDefinedReportFolder	1	Specify the location of the results folder of new studies
+@swsResistanceType_e		Contact set thermal resistance types
+swsResistanceTypeDistributed	1	Distributed
+swsResistanceTypeTotal	0	Total
+@swsRestraintEndEditError_e		Restraint editing errors
+swsRestraintEndEditErrorCannotRestrainRefGeometryEntity	14	Entity for reference geometry cannot be in list of entities to be restrained
+swsRestraintEndEditErrorCyclicSymmetryRestraint	10	Cyclic symmetry restraint is valid only for solid meshes
+swsRestraintEndEditErrorDefineDisplacementComponent	13	Define at least one displacement component
+swsRestraintEndEditErrorEntityExists	2	Entity already exists in this restraint
+swsRestraintEndEditErrorNoEntity	3	No entity specified
+swsRestraintEndEditErrorNoIndex	1	No entity at specified index
+swsRestraintEndEditErrorSelectAxis	12	Select axis as reference geometry
+swsRestraintEndEditErrorSelectCylindricalFaces	6	Select cylindrical faces
+swsRestraintEndEditErrorSelectFaceEdgeOrVertices	4	Select face, edge or vertices
+swsRestraintEndEditErrorSelectFaceEdgeVertexOrFaces	8	Select face, edge, vertex, or faces
+swsRestraintEndEditErrorSelectFaces	5	Select faces
+swsRestraintEndEditErrorSelectPlaneAxisEdgeFaceOrCylinder	9	Select reference plane, axis, edge, planar face, or cylinder for reference
+swsRestraintEndEditErrorSelectSphericalFaces	7	Select spherical faces
+swsRestraintEndEditErrorSelectTwoFaces	11	Select only two faces for cyclic symmetry
+swsRestraintEndEditErrorSuccess	0	Successful
+@swsRestraintError_e		Restraint errors
+swsRestraintErrorCannotApplyRestraint	14
+swsRestraintErrorInMeshType	8
+swsRestraintErrorInvalidArray	11
+swsRestraintErrorInvalidMesh	15
+swsRestraintErrorInvalidRestraintType	13
+swsRestraintErrorInvalidStudyType	9
+swsRestraintErrorNoEntities	10
+swsRestraintErrorSelectFace	7
+swsRestraintErrorSelectFacesEdgesOrVertices	1
+swsRestraintErrorSelectPlanarFace	2
+swsRestraintErrorSpecifyCylindricalFace	3
+swsRestraintErrorSpecifyFaceEdgePlaneOrAxis	6
+swsRestraintErrorSpecifySphericalFace	4
+swsRestraintErrorSpecifyTwoFacesOneAxis	12
+swsRestraintErrorSuccess	0
+@swsRestraintType_e		Restraint types
+swsRestraintTypeCyclicSymmetry	9	Cyclic symmetry
+swsRestraintTypeCylindricalFaces	7	On cylindrical faces; specify translations for solids or translations and rotations for shells and beams
+swsRestraintTypeFixed	0	Fixed (set translations and rotations to zero)
+swsRestraintTypeFlatFace	6	On flat face; specify translations for solids or translations and rotations for shells and beams
+swsRestraintTypeHinge	4	Hinge
+swsRestraintTypeImmovable	1	Immovable (set translations to zero)
+swsRestraintTypeReferenceGeometry	5	Use reference geometry
+swsRestraintTypeRoller	3	Roller
+swsRestraintTypeSphericalSurface	8	On spherical faces; specify translations for solids or translations and rotations for shells and beams
+swsRestraintTypeSymmetric	2	Symmetric
+@swsResultEnvelopeBoundary		Options for plotting extreme values across all solution steps
+swsResultEnvelopeBoundary_AbsMax	2	Displays the absolute maximum values
+swsResultEnvelopeBoundary_Max	0	Displays the maximum algebraic values
+swsResultEnvelopeBoundary_Min	1	Displays the minimum algebraic values
+@swsResultFolderValue_e		Results folder options
+swsSolidWorksDocumentFolder	0	SOLIDWORKS document folder
+swsUserDefinedFolder	1	Specify the location of the results folder for new studies
+@swsResultOptionsSensorOption_e		Data sensor options for graphs and plots
+swsResultOptionsSensorOption_AllTrackedDataSensors	0	All tracked data sensors
+swsResultOptionsSensorOption_None	-1	None
+swsResultOptionsSensorOption_SpecificSensor	1	User-defined data sensor
+@swsResultPlotColorOption_ErrorCode_e		Error codes for result plot colors
+swsResultPlotColorOption_FailToGetColors	2
+swsResultPlotColorOption_NoError	0
+swsResultPlotColorOption_WrongBoundaryOption	1
+swsResultPlotColorOption_WrongRGBValues	3
+@swsResultPlotDelete_ErrorCode_e		Error codes for result plot deletion
+swsResultPlotDelete_FailToDelete	3
+swsResultPlotDelete_InvalidResultComponent	2
+swsResultPlotDelete_InvalidResultType	1
+swsResultPlotDelete_NoError	0
+@swsResultPlotErrorCode_e		Result plot error codes
+swsResultPlot_CosworksViewNotPresent	16	Cosmos view is not present
+swsResultPlot_EquivalentStressNotApplicable	15	Equivalent stress plot is not applicable
+swsResultPlot_FailedPlotCreation	2	Plot not created
+swsResultPlot_ImproperResultsEquation	13	Invalid results equation
+swsResultPlot_InvalidComponentType	6	Invalid result component type
+swsResultPlot_InvalidExternalResultsFile	17
+swsResultPlot_InvalidInputArgInCombiWithTensorVectorFlag	4	Tensor plot cannot be rendered when "Render Shell in 3D" or "Show plot on selected entities" is selected
+swsResultPlot_InvalidIsoValueRange	18
+swsResultPlot_InvalidMeshAppliedToStudy	9	Mesh not compatible with study type
+swsResultPlot_InvalidResultType	5	Invalid result type
+swsResultPlot_InvalidSelectedEntities	3	Invalid selected entities
+swsResultPlot_InvalidSmoothingCycleRange	19
+swsResultPlot_InvalidStudy	1	Study is missing important internal components
+swsResultPlot_InvalidStudyType	12	Step numbers not compatible with study type
+swsResultPlot_InvalidUnitType	7	Invalid unit type
+swsResultPlot_IsAvailableOnlyForElements	8	Plot is valid only for elements
+swsResultPlot_IsAvailableOnlyForNodes	11	Plot is valid only for nodes
+swsResultPlot_MeshInformationNotFound	20
+swsResultPlot_NoError	0	No error
+swsResultPlot_PlotDoesNotExist	14	Result plot does not exist
+swsResultPlot_TryingToSetInvalidProperty	10	Invalid property
+@swsResultsDisplacementAndVelocityOption_e		Options for displacement and velocity results
+swsResultsDisplacementAndVelocityOption_Absolute	1	Absolute values
+swsResultsDisplacementAndVelocityOption_None	-1	No values
+swsResultsDisplacementAndVelocityOption_Relative	0	Relative values
+@swsResultsError_e		Study result errors
+swsResultsErrorDatabaseNotAvailable	1	Database not available
+swsResultsErrorIncompatibleStudy	8	Incompatible study
+swsResultsErrorIncorrectCodeNumber	6	Incorrect code number
+swsResultsErrorIncorrectModeShape	9	Incorrect mode shape
+swsResultsErrorIncorrectReferenceEntity	3	Incorrect reference entity
+swsResultsErrorIncorrectStepNumber	2	Incorrect step number
+swsResultsErrorInvalidComponent	5	Invalid component
+swsResultsErrorInvalidEntity	7	Invalid entity
+swsResultsErrorNoResultType	4	Study does not have result type
+swsResultsErrorSuccessful	0	Successful
+@swsResultsRotationalDisplacementUnit_e		Rotational displacement units
+swsResultsRotationalDisplacementUnitDeg	0	deg
+swsResultsRotationalDisplacementUnitDegMin	1	deg-min
+swsResultsRotationalDisplacementUnitDegMinSec	2	deg-min-sec
+swsResultsRotationalDisplacementUnitRad	3	rad
+@swsResultStressLinearizationErrors_e		Linearized stress errors
+swsStressLinearization_AllElementsNotFoundForIntermediatePoints	8	No elements were found near any of the intermediate points
+swsStressLinearization_DatabaseNotAvailable	4	Mesh or study results are not available
+swsStressLinearization_ElementalValuesNotSupported	10	Plotting with elemental values is not supported
+swsStressLinearization_ElementsFromDifferentComponents	7	Elements at the end points are from different bodies
+swsStressLinearization_ElementsNotFoundForEndPoints	6	No elements were found near the specified end points
+swsStressLinearization_IncorrectNumberOfIntermediatePoints	5	Number of intermediate points must be greater than 0 and less than 100
+swsStressLinearization_InvalidNumberOfPointsSelected	13	Number of points must be 2
+swsStressLinearization_InvalidReferencePlane	3	Only SWDATUMPLANES are supported
+swsStressLinearization_InvalidResultComponent	12	Invalid result component
+swsStressLinearization_MeshTypeNotSupported	2	Only solid meshes are supported
+swsStressLinearization_SpecifiedPointsNotOnSectionPlane	9	The specified points are not on the section plane
+swsStressLinearization_StudyNotSupported	1	Only pressure vessel studies are supported
+swsStressLinearization_Success	0
+swsStressLinearization_VectorPlotNotSupported	11	Vector plots are not supported
+@swsRigidConnectorEndEditError_e		Rigid connector editing errors
+swsRigidConnectorEndEditErrorBodyExcludedFromAnalysis	9	Selected entity is on a body excluded from analysis
+swsRigidConnectorEndEditErrorEntityAlreadyAdded	2	Entity already added
+swsRigidConnectorEndEditErrorFacesOnSameComponent	8	Faces are on the same component
+swsRigidConnectorEndEditErrorHasBeamBody	6	Connector has a beam body
+swsRigidConnectorEndEditErrorHasMassBody	7	Connector has a mass body
+swsRigidConnectorEndEditErrorIndexTooBig	5	Specified index > total number of entities
+swsRigidConnectorEndEditErrorNoEntityAtIndex	1	No entity at the specified index
+swsRigidConnectorEndEditErrorNullEntity	10	Entity is NULL
+swsRigidConnectorEndEditErrorSelectFace	4	Select a face
+swsRigidConnectorEndEditErrorSelectTargetEntityOrFaces	3	Either the target entity or the faces has not been selected
+swsRigidConnectorEndEditErrorSuccessful	0	Successful
+@swsRigidConnectorError_e		Rigid connector errors
+swsRigidConnectorErrorBodyExcludedFromAnalysis	14	Selected entity is on a body excluded from analysis
+swsRigidConnectorErrorBodyHasRemoteMass	11	Select body has a remote mass
+swsRigidConnectorErrorFacesFromSameComponent	13	Faces are from the same component
+swsRigidConnectorErrorInvalidMesh	1	Invalid mesh
+swsRigidConnectorErrorInvalidSourceArray	5	Invalid array for the source
+swsRigidConnectorErrorInvalidStudy	3	Invalid study type
+swsRigidConnectorErrorInvalidTargetArray	7	Invalid array for the target
+swsRigidConnectorErrorNonlinearStudyPartDocument	2	Study type equals nonlinear and document type equals part
+swsRigidConnectorErrorNoObjectForFace	6	No object for the face
+swsRigidConnectorErrorNoObjectForTarget	8	No object for target
+swsRigidConnectorErrorNullOrEmptyArray	12	Array of either entities are NULL or empty
+swsRigidConnectorErrorSameEntityAtFaceAndTargetArray	10	Entity is the same at face and target array
+swsRigidConnectorErrorSelectAssemblyDocument	4	Select assembly document
+swsRigidConnectorErrorSelectFace	9	Select a face
+swsRigidConnectorErrorSuccessful	0	Successful
+@swsRotationUnit_e		Units of angular rotation
+swsRotationUnit_Degrees	0	Degrees
+swsRotationUnit_DegreesMin	1	Degrees-minutes
+swsRotationUnit_DegreesMinSec	2	Degrees-minutes-seconds
+swsRotationUnit_Radians	3	Radians
+@swsRunAnalysisError_e		Run analysis errors
+swsRunAnalysisDefineInitialTemperature	3	Define initial temperatures to perform transient thermal analysis
+swsRunAnalysisErrorAnalysisFailed	24	Analysis failed
+swsRunAnalysisErrorAuthorizationFailed	22	Authorization failed for this analysis type
+swsRunAnalysisErrorDefineRigidVirtualWallContact	2	Rigid virtual wall contact must be defined for grounded bolts
+swsRunAnalysisErrorEXMaterialPropertyNotDefined	13	Elastic modulus (EX) material property not defined
+swsRunAnalysisErrorEXValue	14	Elastic modulus (EX) should be > 0.0
+swsRunAnalysisErrorInvalidLBC	30	Invalid load boundary conditions
+swsRunAnalysisErrorMaterialNotDefined	19	Material is not defined
+swsRunAnalysisErrorMaterialNotDefinedForComponents	20	Material is not defined for one or more components
+swsRunAnalysisErrorMaterialNotDefinedForShells	18	Material is not defined for one or more shells
+swsRunAnalysisErrorMeshNotFound	23	Mesh not found; create mesh first
+swsRunAnalysisErrorMeshNotIdentical	11	The mesh is not identical for static studies used in different events
+swsRunAnalysisErrorMultipleLoadsUseSameTimeCurve	4	Multiple loads on an entity should use the same time curve
+swsRunAnalysisErrorNeedOneOrMoreStaticStudies	6	One or more static, nonlinear, or linear dynamic studies needed to perform fatigue analysis; studies containing beams only are excluded
+swsRunAnalysisErrorNoFatigueEvent	7	No fatigue event defined
+swsRunAnalysisErrorNoSNCurve	9	No SN curve available
+swsRunAnalysisErrorNoSolidBody	21	No solid body to process
+swsRunAnalysisErrorNoValidShell	12	No valid shell defined
+swsRunAnalysisErrorPadaptiveNotSupportCyclicSymmetry	27	Cyclic symmetry is incompatible with p-adaptive method
+swsRunAnalysisErrorPadaptiveNotSupportLargeDisplacement	26	Large displacement is incompatible with p-adaptive method
+swsRunAnalysisErrorPadaptiveNotSupportNoPenetration	28	No Penetration contact is incompatible with p-adaptive method
+swsRunAnalysisErrorPadaptiveNotSupportRemoteLoadMassGapContactConnector	29	P-adaptive method does not support: remove load/mass gap contact connectors
+swsRunAnalysisErrorPoissonsRatio	15	Poisson's Ratio should be less than 0.5
+swsRunAnalysisErrorRemoveOrChangeCreep	17	Creep option for material works only with force control method; remove creep or change the control method in the Advanced page of study's properties
+swsRunAnalysisErrorSetUpDropTestStudy	5	Drop test study is not set up
+swsRunAnalysisErrorStudyNotExist	25	Study does not exist
+swsRunAnalysisErrorSuccessful	0	Successful
+swsRunAnalysisErrorThermalConductivityNotDefined	16	Thermal conductivity not defined
+swsRunAnalysisErrorTimeDependentOrAmplitideOnlyLoads	8	All loads should be either time dependent or amplitude only
+swsRunAnalysisErrorUseHighQualityMesh	1	Draft mesh is incompatible with p-adaptive method; use high quality mesh
+@swsRunStressHotSpotDiagnosticsError_e		Stress hot spot diagnostic errors
+swsRunStressHotSpotDiagnostics_ImproperGrowthRatio	6
+swsRunStressHotSpotDiagnostics_ImproperMeshRefineLevels	4
+swsRunStressHotSpotDiagnostics_ImproperReductionFactor	5
+swsRunStressHotSpotDiagnostics_ImproperResultRestoreOption	7
+swsRunStressHotSpotDiagnostics_ImproperSensitivityFactor	2
+swsRunStressHotSpotDiagnostics_NoError	0
+swsRunStressHotSpotDiagnostics_NotSupportedForThisStudy	1
+swsRunStressHotSpotDiagnostics_ResultsNotAvailable	3
+@swsRunStudiesErrorCode_e		Error codes for studies run in batch mode
+swsRunStudiesErrorCode_AllStudiesRunFailed	4
+swsRunStudiesErrorCode_FewStudiesRunFailed	5
+swsRunStudiesErrorCode_InvalidStudiesAreSelected	2
+swsRunStudiesErrorCode_NoActiveStudy	6
+swsRunStudiesErrorCode_NoStudyIsSelectedOrDefined	1
+swsRunStudiesErrorCode_Success	0
+swsRunStudiesErrorCode_UnknownError	3
+@swsRunStudiesResultsErrorCode_e		Error codes for getting first and next studies run in batch mode
+swsRunStudiesResultsErrorCode_InvalidInputArg	1
+swsRunStudiesResultsErrorCode_ReachedEndOfResults	3
+swsRunStudiesResultsErrorCode_ResultsNotAvailable	2
+swsRunStudiesResultsErrorCode_Success	0
+@swsRunStudiesRunMeshOptionErrorCode_e		Error codes for setting run and mesh options for studies run in batch mode
+swsRunStudiesRunMeshOptionErrorCode_InvalidOptionApplied	4
+swsRunStudiesRunMeshOptionErrorCode_OptionCannotBeReplaced	3
+swsRunStudiesRunMeshOptionErrorCode_StudyAlreadyAdded	1
+swsRunStudiesRunMeshOptionErrorCode_StudyIsNotAdded	2
+swsRunStudiesRunMeshOptionErrorCode_Success	0
+@swsRunStudiesRunMeshOptions_e		Run and mesh options for studies run in batch mode
+swsRunStudiesRunMeshOptions_MeshAndRun	1
+swsRunStudiesRunMeshOptions_MeshOnly	0
+@swsRunStudiesStatusCode_e		Status codes returned for studies run in batch mode
+swsRunStudiesStatusCode_AnalysisFailed	2
+swsRunStudiesStatusCode_AnalysisSucceeded	0
+swsRunStudiesStatusCode_MeshFailed	3
+swsRunStudiesStatusCode_MeshSucceeded	1
+swsRunStudiesStatusCode_UnknownError	4
+@swsSaveeDrawingsErrorCode_e		Result plots error codes when saving results as eDrawings files
+swsSaveeDrawings_CosworksViewNotPresent	1	There is no view present
+swsSaveeDrawings_DatabaseNotFound	4	Database not found
+swsSaveeDrawings_NoError	0	No error
+swsSaveeDrawings_NoPlots	9	There are no plots
+swsSaveeDrawings_NotAvailableForCurrentMesh	7	Cannot save plot as an eDrawings file for current mesh type
+swsSaveeDrawings_PlotNotActive	6	There is no active plot
+swsSaveeDrawings_PlotNotFoundError	2	The specified plot is not present
+swsSaveeDrawings_PlotSaveError	10	An error occurred when saving the plot as an eDrawings file
+swsSaveeDrawings_PostDataFilesNotPresent	9	The post data files are not available
+swsSaveeDrawings_PostFilesNull	5	The objects for the post files are not instantiated
+swsSaveeDrawings_ResultFolderNotFound	3	The results folder is not available
+@swsSaveResultsOption_e		Save results options
+swsSaveResultsOption_ForAllSolutionSteps	0	Save results for all solution steps
+swsSaveResultsOption_ForSpecifiedSolutionSteps	1	Save results for specified solution steps
+@swsSelectionType_e		Selection types
+swsSelectionBeamEndJoints	1
+swsSelectionBeams	2
+swsSelectionFaceEdgeVertexPoint	0
+@swsSetDampingRatiosError_e		Errors when setting damping ratios
+swsSetDampingRatiosError_InCorrectValues	4	The ratio values are incorrect
+swsSetDampingRatiosError_InvalidArray	3	Number of elements in the array is invalid
+swsSetDampingRatiosError_InvalidRows	2	Number of rows should be greater than 0
+swsSetDampingRatiosError_NoError	0	Successful
+swsSetDampingRatiosError_NotAvailable	1	Damping ratios are not available for this study
+swsSetDampingRatiosError_OptionsNotAvailable	5	Damping options are not available
+@swsShellEndEditError_e		Shell editing errors
+swsShellEndEditErrorFaceAlreadyDefinedAsShell	6	This face is already defined as shell
+swsShellEndEditErrorFaceAlreadyExists	5	At least one face is specified more than once
+swsShellEndEditErrorFormulation	2	Specify either 0 or 1 for formulation
+swsShellEndEditErrorNoEntitySelected	7	Shell cannot be edited. No entity selected
+swsShellEndEditErrorNotEntityAtIndex	3	No entity at index passed for removal
+swsShellEndEditErrorOffsetOption	9	Specify shell offset option
+swsShellEndEditErrorOffsetValue	10	Specify shell offset value
+swsShellEndEditErrorSelectFace	4	Specify face for entity
+swsShellEndEditErrorShellThickness	1	Specify a number between 1e-007 and 1e+006 for shell thickness
+swsShellEndEditErrorSuccessful	0	Successful
+swsShellEndEditErrorUnit	8	Specify 0 to 5 for unit
+@swsShellFace_e		Options for evaluating membrane and bending components of study result quantities
+swsShellFace_Bending	3	Bending component only
+swsShellFace_Bottom	1	Total (bending + membrane) at the bottom face; for a composite shell, this is the bottom face of the selected ply under Composite Options
+swsShellFace_Membrane	2	Membrane component only
+swsShellFace_Top	0	Total (bending + membrane) at the top face; for a composite shell, this is the top face of the selected ply under Composite Options
+@swsShellFormulation_e		Shell formulation types
+swsShellFormulationComposite	2	Composite shell formulation
+swsShellFormulationThick	1	Thick shell formulation
+swsShellFormulationThin	0	Thin shell formulation
+@swsShellManagerError_e		Shell creation errors
+swsShellManagerErrorCannotApplyShellForMesh	2	Shell cannot be applied for this mesh type
+swsShellManagerErrorCannotApplyShellForStudy	1	Shell cannot be applied for this study type
+swsShellManagerErrorEmptyArray	3	Empty array; no faces selected
+swsShellManagerErrorFaceAlreadyDefinedAsShell	6	A face is already defined as a shell
+swsShellManagerErrorFaceAlreadyExists	7	At least on face is specified more than once
+swsShellManagerErrorInvalidArray	4	Invalid array
+swsShellManagerErrorSelectFacesOnly	5	Select faces only
+swsShellManagerErrorSuccessful	0	Successful
+@swsShellOffsetOption_e		Shell offset options
+swsShellOffsetOption_Bottom	2	Align the mesh with the bottom surface of the shell
+swsShellOffsetOption_Middle	0	Align the mesh with the middle surface of the shell
+swsShellOffsetOption_SpecifyRatio	3	Align the mesh with a reference surface defined by an offset value that is a fraction of the total thickness of the shell; set ICWShell::ShellOffsetValue to a non-zero number between -0.5 and 0.5
+swsShellOffsetOption_Top	1	Align the mesh with the top surface of the shell
+@swsShrinkFitOption_e		Advanced options for shrink fit contact sets
+swsShrinkFitOptionNodeToSurface	0	Node to surface
+swsShrinkFitOptionSurfaceToSurface	1	Surface to surface (not available for nonlinear studies)
+@swsSimAdaptiveMethodType_e		Adaptive method types
+swsHAdaptive	1
+swsNoneMethod	0
+swsPAdative	2
+@swsSimMassPropertiesError_e		Mass properties errors
+swsSimMassPropertiesErrorBodiesNotFound	1
+swsSimMassPropertiesErrorBoltMassNotIncluded	6
+swsSimMassPropertiesErrorBoltNotFound	2
+swsSimMassPropertiesErrorCableMassNotIncluded	13
+swsSimMassPropertiesErrorCableNotFound	12
+swsSimMassPropertiesErrorDistributedMassNotFound	5
+swsSimMassPropertiesErrorLinkageRodMassNotIncluded	11
+swsSimMassPropertiesErrorLinkageRodNotFound	10
+swsSimMassPropertiesErrorPinMassNotIncluded	7
+swsSimMassPropertiesErrorPinNotFound	3
+swsSimMassPropertiesErrorRemoteLoadMassNotIncluded	8
+swsSimMassPropertiesErrorRemoteLoadNotFound	4
+swsSimMassPropertiesErrorSuccessful	0
+swsSimMassPropertiesErrorUnsuccessful	9
+@swsSimulationElementTypes_e		Mesh element types
+swsBeamElement	2
+swsShellElement	1
+swsSolidElement	0
+swsTrussElement	3
+@swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_e		Options for coloring the boundaries of default result plots
+swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_ModelOrMesh	0	Color either the boundary edges of the model or the selected result plot that is superimposed on the mesh plot
+swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_TranslucentSingleColor	1	Color the model with a translucent color
+@swsSimulationOptionDefaultPlotsBoundaryColorInRGBError_e		Result codes when setting default plot boundary color
+swsSimulationOptionDefaultPlotsBoundaryColorInRGBGetColorUnsuccessful	2
+swsSimulationOptionDefaultPlotsBoundaryColorInRGBNoError	0
+swsSimulationOptionDefaultPlotsBoundaryColorInRGBWrongBoundaryOption	1
+@swsSolverType_e		Solver types
+swsSolverTypeAbaqus	6
+swsSolverTypeAutomatic	0
+swsSolverTypeCASI	5
+swsSolverTypeDirectSparse	1
+swsSolverTypeFFEPlus	2
+swsSolverTypeINTEL	7
+swsSolverTypeINTELCluster	8
+@swsSpotWeldConnectorEndEditError_e		Spot weld connector editing errors
+swsSpotWeldConnectorEndEditErrorBodyExcludedFromAnalysis	18	Selected entity is on a body excluded from analysis
+swsSpotWeldConnectorEndEditErrorEntityAlreadyExists	2	Entity already exists
+swsSpotWeldConnectorEndEditErrorFaceIsEmpty	3	Either the first face or second face is empty
+swsSpotWeldConnectorEndEditErrorGapTooBig	7	Current gap between the spot-weld faces is greater than the recommended gap of 3 mm
+swsSpotWeldConnectorEndEditErrorHasBeamBody	11	Connector has a beam body
+swsSpotWeldConnectorEndEditErrorHasMassElement	12	Connector has mass element
+swsSpotWeldConnectorEndEditErrorIndexTooBig	14	Index > number of entities
+swsSpotWeldConnectorEndEditErrorInvalidPoints	17	Points are invalid
+swsSpotWeldConnectorEndEditErrorNoEntityAtIndex	15	No entity at the specified index
+swsSpotWeldConnectorEndEditErrorNullEntity	1	Entity is null
+swsSpotWeldConnectorEndEditErrorPlanesShouldTouch	6	Planes should be touching each other
+swsSpotWeldConnectorEndEditErrorPositiveStudDiameter	9	Specify a positive value for stud diameter
+swsSpotWeldConnectorEndEditErrorSelectDatumPoints	8	Select datum points for spot weld
+swsSpotWeldConnectorEndEditErrorSelectFace	16	Select a face
+swsSpotWeldConnectorEndEditErrorSelectParallelFaces	5	Select parallel faces
+swsSpotWeldConnectorEndEditErrorSpotWeldDiameter	13	Spot-weld diameter should be < 12.5 mm
+swsSpotWeldConnectorEndEditErrorStudDiameter	10	Specify a stud diameter < 12.5 mm
+swsSpotWeldConnectorEndEditErrorSuccessful	0	Successful
+@swsSpotWeldConnectorError_e		Spot weld connector errors
+SpotWeldConnectorErrorSelectVerticesOrDatumPoint	7	Select vertices or a datum point
+swsSpotWeldConnectorErrorBodyExcludedFromAnalysis	16	Selected entity is on a body excluded from analysis
+swsSpotWeldConnectorErrorEmptyArray	14	Array for spot-weld entity is empty
+swsSpotWeldConnectorErrorGapTooBig	10	Current gap between the spot-weld faces is greater than the recommended 3 mm
+swsSpotWeldConnectorErrorHasRemoteMass	15	Spot-weld connector has a remote mass
+swsSpotWeldConnectorErrorInvalidArray	13	Invalid array
+swsSpotWeldConnectorErrorInvalidMesh	1	Invalid mesh
+swsSpotWeldConnectorErrorInvalidStudy	3	Invalid study
+swsSpotWeldConnectorErrorNonlinearStudyPartDocument	2	Study type equals nonlinear and document type equals part
+swsSpotWeldConnectorErrorNullDispatch	4	NULL dispatch passed as argument
+swsSpotWeldConnectorErrorPlanesNotParallel	8	Planes are not parallel
+swsSpotWeldConnectorErrorPlanesTouching	9	Planes touching
+swsSpotWeldConnectorErrorPostWeldInvalidPoints	12	Post weld invalid points
+swsSpotWeldConnectorErrorSelectAssemblyDocument	5	Select an assembly document
+swsSpotWeldConnectorErrorSelectDatumPoints	11	Select datum points for spot weld
+swsSpotWeldConnectorErrorSelectFace	6	Select a face
+swsSpotWeldConnectorErrorSuccessful	0	Successful
+@swsSpringConnectorEndEditError_e		Spring connector editing errors
+swsSpringConnectorEndEditErrorBodyExcludedFromAnalysis	18	Select entity is on a body excluded from analysis
+swsSpringConnectorEndEditErrorEntityAlreadyExists	11	Entity already exists
+swsSpringConnectorEndEditErrorHasBeamBody	14	Connector has beam body
+swsSpringConnectorEndEditErrorHasMassElement	15	Connector has mass element
+swsSpringConnectorEndEditErrorIndexInvalidForRemovalOfEntity	13	Specified index is invalid for removal of entity in the first location
+swsSpringConnectorEndEditErrorNoEntity	1	No entity selected
+swsSpringConnectorEndEditErrorNoEntityAtIndex	12	No entity at specified index
+swsSpringConnectorEndEditErrorNormalTangentialOrRotationalStiffness	8	Select anon-negative value for normal or tangential or rotational stiffness
+swsSpringConnectorEndEditErrorNullEntity	17	Entity is NULL
+swsSpringConnectorEndEditErrorRadiiNotEqual	7	Radii of cylindrical faces of components are not equal
+swsSpringConnectorEndEditErrorSelectConcentricCylindricalFaces	6	Select two concentric faces from two bodies
+swsSpringConnectorEndEditErrorSelectDatumPointOrVertex	10	Select datum point or vertex
+swsSpringConnectorEndEditErrorSelectFace	2	Select a face
+swsSpringConnectorEndEditErrorSelectFaceWithCylindricalSurface	5	Select a face with a cylindrical surface
+swsSpringConnectorEndEditErrorSelectionsBelongToSameBody	16	Selections belong to the same body
+swsSpringConnectorEndEditErrorSelectPlanarFace	3	Select a planar face
+swsSpringConnectorEndEditErrorSelectTwoParallelPlanarFaces	4	Select two parallel planar faces from two bodies
+swsSpringConnectorEndEditErrorStiffness	9	Specify a non-0 value for stiffness
+swsSpringConnectorEndEditErrorSuccessful	0	Successful
+@swsSpringConnectorError_e		Spring connector errors
+swsSpringConnectorErrorBodyExcludedFromAnalysis	22	Selected entity is on a body excluded from analysis
+swsSpringConnectorErrorCylindricalFacesRadiiNotEqual	8	Radii of cylindrical faces of components are not equal
+swsSpringConnectorErrorEmptyArray	20	Array has an empty dispatch
+swsSpringConnectorErrorHasRemoteMass	19	Entity has a remote mass
+swsSpringConnectorErrorInvalidArray	13	Invalid array
+swsSpringConnectorErrorInvalidMesh	1	Invalid mesh
+swsSpringConnectorErrorInvalidStudy	3	Invalid study
+swsSpringConnectorErrorNonlinearStudyPartDocument	2	Study type equals nonlinear and document type equals part
+swsSpringConnectorErrorNoObjectForSourceOrTarget	15	No object for source or target
+swsSpringConnectorErrorNumberPlanarFacesLessThanTwo	14	Number of planar faces < 2
+swsSpringConnectorErrorSelectDatumPoint	16	Select a datum point
+swsSpringConnectorErrorSelectEntities	4	Select entities
+swsSpringConnectorErrorSelectFace	5	Select a face
+swsSpringConnectorErrorSelectFaceWithCylindricalSurface	6	Select a face with a cylindrical surface
+swsSpringConnectorErrorSelectionsOnToSameComponent	18	Selections belong to same component
+swsSpringConnectorErrorSelectPlanarFace	9	Select a planar face
+swsSpringConnectorErrorSelectTwoConcentricCylindricalFaces	7	Select two concentric cylindrical faces from two bodies
+swsSpringConnectorErrorSelectTwoPlanarFaces	10	Select two planar faces from two bodies
+swsSpringConnectorErrorSourceTargetEntitiesSame	11	Source and target entities are the same
+swsSpringConnectorErrorSpringSubtypeInvalidForShellMesh	21	Spring subtype is invalid for shell mesh
+swsSpringConnectorErrorStudyNonlinearAndSpringSubtypeValue	12	Study type is nonlinear and spring subtype is either 0 or 1
+swsSpringConnectorErrorSuccessful	0	Successful
+swsSpringConnectorErrorTooManyEntitiesForSpringType	17	Number of entities is >1 for spring type = 2
+@swsSpringConnectorType_e		Spring connector types
+swsSpringConnectoryTypeBetweenVertices	2	Between vertices
+swsSpringConnectoryTypeConcentricCylindricalFaces	1	Concentric cylindrical faces
+swsSpringConnectoryTypeFlatParallelFaces	0	Flat parallel faces
+@swsSpringSubType_e		Spring sub-types
+swsSpringSubTypeBetweenVertices	2	Between vertices
+swsSpringSubTypeConcentricCylindricalFaces	1	Concentric cylindrical faces
+swsSpringSubTypeFlatParallelFaces	0	Flat parallel faces
+@swsSpringType_e		Spring types
+swsSpringTypeCompression	1	Compression only
+swsSpringTypeCompressionExtension	0	Compression extension
+swsSpringTypeExtension	2	Extension only
+@swsStaticResultDisplacementComponentTypes_e		Displacement component types for static study results
+swsStaticDisplacement_RFRES	7	Resultant reaction force
+swsStaticDisplacement_RFX	4	Reaction force in the X direction of the selected reference coordinate system
+swsStaticDisplacement_RFY	5	Reaction force in the Y direction of the selected reference coordinate system
+swsStaticDisplacement_RFZ	6	Reaction force in the Z direction of the selected reference coordinate system
+swsStaticDisplacement_RMRES	14	Resultant reaction moment
+swsStaticDisplacement_RMX	11	Reaction moment in the X direction of the selected reference coordinate system
+swsStaticDisplacement_RMY	12	Reaction moment in the Y direction of the selected reference coordinate system
+swsStaticDisplacement_RMZ	13	Reaction moment in the Z direction of the selected reference coordinate system
+swsStaticDisplacement_RX	8	Rotation in the X direction of the selected reference coordinate system
+swsStaticDisplacement_RY	9	Rotation in the Y direction of the selected reference coordinate system
+swsStaticDisplacement_RZ	10	Rotation in the Z direction of the selected reference coordinate system
+swsStaticDisplacement_URES	3	Resultant displacement
+swsStaticDisplacement_UX	0	Displacement in the X direction of the selected reference coordinate system
+swsStaticDisplacement_UY	1	Displacement in the Y direction of the selected reference coordinate system
+swsStaticDisplacement_UZ	2	Displacement in the Z direction of the selected reference coordinate system
+@swsStaticResultElementalStrainComponentTypes_e		Elemental strain component types for static study results
+swsStaticElementalStrain_E1	9	Normal strain in the first principal direction
+swsStaticElementalStrain_E2	10	Normal strain in the second principal direction
+swsStaticElementalStrain_E3	11	Normal strain in the third principal direction
+swsStaticElementalStrain_ENERGY	8	Total strain energy
+swsStaticElementalStrain_EPSX	0	Normal strain in the X direction of the selected reference geometry
+swsStaticElementalStrain_EPSY	1	Normal strain in the Y direction of the selected reference geometry
+swsStaticElementalStrain_EPSZ	2	Normal strain in the Z direction of the selected reference geometry
+swsStaticElementalStrain_ESTRN	6	Equivalent strain
+swsStaticElementalStrain_GMXY	3	Shear strain in the Y direction on the YZ plane of the selected reference geometry
+swsStaticElementalStrain_GMXZ	4	Shear strain in the Z direction on the YZ plane of the selected reference geometry
+swsStaticElementalStrain_GMYZ	5	Shear strain in the Z direction on the XZ plane of the selected reference geometry
+swsStaticElementalStrain_SEDENS	7	Strain energy density
+@swsStaticResultElementalStressComponentTypes_e		Elemental stress component types for static study results
+swsStaticElementalStress_CONTACTPRESS	12	Contact Pressure
+swsStaticElementalStress_ERR	11	Energy Norm Error
+swsStaticElementalStress_INT	10	Stress intensity (P1-P3)
+swsStaticElementalStress_P1	6	Normal stress in the first principal direction
+swsStaticElementalStress_P2	7	Normal stress in the second principal direction
+swsStaticElementalStress_P3	8	Normal stress in the third principal direction
+swsStaticElementalStress_SX	0	Normal stress in the X direction of the selected reference geometry
+swsStaticElementalStress_SY	1	Normal stress in the Y direction of the selected reference geometry
+swsStaticElementalStress_SZ	2	Normal stress in the Z direction of the selected reference geometry
+swsStaticElementalStress_TRI	11	Triaxial stress (P1+P2+P3)
+swsStaticElementalStress_TXY	3	Shear stress in the Y direction on the YZ plane of the selected reference geometry
+swsStaticElementalStress_TXZ	4	Shear stress in the Z direction on the YZ plane of the selected reference geometry
+swsStaticElementalStress_TYZ	5	Shear stress in the Z direction on the XZ plane of the selected reference geometry
+swsStaticElementalStress_VON	9	von Mises stress
+@swsStaticResultNodalStrainComponentTypes_e		Nodal strain component types for static study results
+swsStaticNodalStrain_E1	7	Normal strain in the first principal direction
+swsStaticNodalStrain_E2	8	Normal strain in the second principal direction
+swsStaticNodalStrain_E3	9	Normal strain in the third principal direction
+swsStaticNodalStrain_EPSX	0	Normal strain in the X direction of the selected reference geometry
+swsStaticNodalStrain_EPSY	1	Normal strain in the Y direction of the selected reference geometry
+swsStaticNodalStrain_EPSZ	2	Normal strain in the Z direction of the selected reference geometry
+swsStaticNodalStrain_ESTRN	6	Equivalent strain
+swsStaticNodalStrain_GMXY	3	Shear strain in the Y direction on the YZ plane of the selected reference geometry
+swsStaticNodalStrain_GMXZ	4	Shear strain in the Z direction on the YZ plane of the selected reference geometry
+swsStaticNodalStrain_GMYZ	5	Shear strain in the Z direction on the XZ plane of the selected reference geometry
+@swsStaticResultNodalStressComponentTypes_e		Nodal stress component types for static study results
+swsStaticNodalStress_INT	10	Stress intensity (P1-P3)
+swsStaticNodalStress_P1	6	Normal stress in the first principal direction
+swsStaticNodalStress_P2	7	Normal stress in the second principal direction
+swsStaticNodalStress_P3	8	Normal stress in the third principal direction
+swsStaticNodalStress_SX	0	Normal stress in the X direction of the selected reference geometry
+swsStaticNodalStress_SY	1	Normal stress in the Y direction of the selected reference geometry
+swsStaticNodalStress_SZ	2	Normal stress in the Z direction of the selected reference geometry
+swsStaticNodalStress_TRI	11	Triaxial stress (P1+P2+P3)
+swsStaticNodalStress_TXY	3	Shear stress in the Y direction on the YZ plane of the selected reference geometry
+swsStaticNodalStress_TXZ	4	Shear stress in the Z direction on the YZ plane of the selected reference geometry
+swsStaticNodalStress_TYZ	5	Shear stress in the Z direction on the XZ plane of the selected reference geometry
+swsStaticNodalStress_VON	9	von Mises stress
+@swsStiffnessType_e		Stiffness types
+swsStiffnessTypeDistributed	0	Distributed
+swsStiffnessTypeTotal	1	Total
+@swsStrainComponent_e		Strain components
+swsStrainComponentE1	9	Normal strain in the first principal direction
+swsStrainComponentE2	10	Normal strain in the second principal direction
+swsStrainComponentE3	11	Normal strain in the third principal direction
+swsStrainComponentENERGY	8	Total strain energy
+swsStrainComponentEPSX	0	Normal strain in the X direction of the selected reference geometry
+swsStrainComponentEPSY	1	Normal strain in the Y direction of the selected reference geometry
+swsStrainComponentEPSZ	2	Normal strain in the Z direction of the selected reference geometry
+swsStrainComponentESTRN	6	Equivalent strain
+swsStrainComponentGMXY	3	Shear strain in the Y direction in the YZ plane of the selected reference geometry
+swsStrainComponentGMXZ	4	Shear strain in the Z direction in the YZ plane of the selected reference geometry
+swsStrainComponentGMYZ	5	Shear strain in the Z direction in the XZ plane of the selected reference geometry
+swsStrainComponentSEDENS	7	Strain energy density
+@swsStrainEnergyDensityUnit_e		Strain energy density units
+swsStrainEnergyDensityUnit_CaloriesPerCubicMeter	2
+swsStrainEnergyDensityUnit_FootPoundPerCubicFeet	1
+swsStrainEnergyDensityUnit_NewtonMeterPerCubicMeter	0
+@swsStrainEnergyUnit_e		Strain energy units
+swsStrainEnergyUnit_Calories	2
+swsStrainEnergyUnit_FootPound	1
+swsStrainEnergyUnit_NewtonMeter	0
+@swsStrengthUnit_e		Strength and stress units
+swsStrengthUnitKilogramsPerSquareCentimeter	2	kg-f/cm^2
+swsStrengthUnitKSI	4	kilopound per square inch
+swsStrengthUnitNewtonPerSquareMillimeter	3	N/mm^2(MPa)
+swsStrengthUnitPascal	0	N/m^2
+swsStrengthUnitPSI	1	pounds per square inch
+@swsStressComponent_e		Stress components
+swsStressComponentCP	12	Contact Pressure
+swsStressComponentERR	11	Energy Norm Error
+swsStressComponentINT	10	Stress intensity (P1-P3)
+swsStressComponentP1	6	Normal stress in the first principal direction
+swsStressComponentP2	7	Normal stress in the second principal direction
+swsStressComponentP3	8	Normal stress in the third principal direction
+swsStressComponentSX	0	Normal stress in the X direction of the selected reference geometry
+swsStressComponentSY	1	Normal stress in the Y direction of the selected reference geometry
+swsStressComponentSZ	2	Normal stress in the Z direction of the selected reference geometry
+swsStressComponentTRI	13	Triaxial stress (P1+P2+P3)
+swsStressComponentTXY	3	Shear stress in the Y direction acting in the YZ plane of the selected reference geometry
+swsStressComponentTXZ	4	Shear stress in the Z direction acting in the YZ plane of the selected reference geometry
+swsStressComponentTYZ	5	Shear stress in the Z direction acting in the XZ plane of the selected reference geometry
+swsStressComponentVON	9	von Mises stress
+swsStressComponentVONDC	100	Directional von Mises stress; valid only for NComponent of ICWResults::GetMinMaxStressForHarmonic
+@swsStressHotSpotPlotError_e		Stress hot spot plot errors
+swsStressHotSpotPlot_NodalHotSpotsNotAvailable	2
+swsStressHotSpotPlot_NoError	0
+swsStressHotSpotPlot_NoHotSpotsToPlot	1
+@swsStressHotSpotResultsRestoreOptions_e		Restore options after stress hot spot detection
+swsStressHotSpotResultsRestoreOption_FinalMesh	1	Overwrite the existing mesh and results with final level settings
+swsStressHotSpotResultsRestoreOption_OriginalMesh	0	Restore the study with the original mesh settings
+@swsStudyError_e		Study errors
+swsNewStudyErrorInvalidMeshType	4	Invalid mesh type
+swsNewStudyErrorInvalidStudySubOption	5	Invalid study sub-option
+swsNewStudyErrorNoSolidBody	1	No solid body to process
+swsNewStudyErrorSameNameStudyExistsOrInvalidStudyName	2	A study with this name already exists or invalid study name
+swsNewStudyErrorSuccessful	0	Successful
+swsNewStudyErrorTypeNotDefined	3	Study type not defined; valid study types are 0 to 7
+@swsStudyExportError_e		Export study errors
+swsStudyExportError_CreepMaterial	4	Creep material does not have the force control method
+swsStudyExportError_DropTestNotAvailable	3	Drop test parameters are not exported
+swsStudyExportError_LoadOnPointsNotAvailable	6	Export option is not available for load on points
+swsStudyExportError_NoError	0	No error
+swsStudyExportError_OptimizationNotAvailable	1	Export option is not available for an optimization study
+swsStudyExportError_RemoteLoadConnectorNotAvailable	5	Export option is not available with remote load or connector
+swsStudyExportError_TransientThermalNotAvailable	2	Transient thermal analysis does not have an initial temperature
+swsStudyExportError_Wrong_NastranExportUnit	11	The specified unit is incorrect for the NASTRAN export option
+swsStudyExportError_WrongCosmosExportOption	9	The Cosmos export option is not supported (should not exceed the value of swsCosmosExportOption_e if study export option swsStudyExportOption_e.swsStudyExport_Cosmos is selected)
+swsStudyExportError_WrongCosmosExportOptionForNoMesh	8	Wrong Cosmos export option for no mesh export
+swsStudyExportError_WrongCosmosExportUnit	12	The specified unit is incorrect for GEOSTAR export option
+swsStudyExportError_WrongFileOption	7	The study export option is not supported (should not exceed the value of swsStudyExportOption_e)
+swsStudyExportError_WrongNastranExportOption	10	The NASTRAN export option is not supported (should not exceed the value of swsNastranExportOption_e if study export option swsStudyExportOption_e.swsStudyExport_Nastran is selected)
+@swsStudyExportOption_e		Study export options
+swsStudyExportOption_Abaqus	6
+swsStudyExportOption_Ansys	1
+swsStudyExportOption_Cosmos	0
+swsStudyExportOption_Exodus	5
+swsStudyExportOption_IdeasUniversal	4
+swsStudyExportOption_Nastran	2
+swsStudyExportOption_PatranNeutral	3
+@swsStudyMeshError_e		Mesh study errors
+swsStudyErrorElementSizeTooBig	4	Element size is too large; specify a smaller element size
+swsStudyErrorElementSizeTooSmall	3	Element size is too small; specify a larger element size to run successfully
+swsStudyErrorNoSolidBody	2	No solid body to process
+swsStudyErrorNoValidShells	1	No valid shells defined
+swsStudyErrorSpecifyElementSizeScaleFactor	6	Specify a number between 0.1 and 10 for element size scale factor
+swsStudyErrorSpecifyPositiveValue	5	Specify a positive value
+swsStudyErrorSpecifyToleranceScaleFactor	7	Specify a number between 0.01 and 100 for tolerance scale factor
+swsStudyErrorSuccessful	0	Successful
+@swsSuppressionState_e		Suppression states
+swsSupressionStateSuppressed	1	Suppressed
+swsSupressionStateUnsuppressed	0	Unsuppressed
+@swsSymmetricalBoltType_e		Symmetrical bolt types
+swsSymmtricalBoltTypeOneHalfSymmetry	0	1/2 symmetry
+swsSymmtricalBoltTypeOneQuarterSymmetry	1	1/4 symmetry
+@swsTableDrivenDistOption_e		Table-driven distribution options
+swsDistance	1	Distance
+swsPercentage	0	Percentage
+@swsTableDrivenInterpolationType_e		Table-driven interpolation types
+swsCubic	1	Cubic
+swsLinear	0	Linear
+@swsTemperatureCurveError_e		Temperature curve errors
+swsTemperatureCurveErrorCurveCannotBeUsed	2	Temperature curve cannot be used with this object
+swsTemperatureCurveErrorInvalidStudy	1	Invalid study type for curve
+swsTemperatureCurveErrorNeedDataPoints	3	Temperature curve must have two or more data points
+swsTemperatureCurveErrorSuccessful	0	Successful
+@swsTemperatureEndEditError_e		Temperature editing errors
+swsTemperatureEndEditErrorCannotSetInitialTemperatureType	5	Cannot set initial temperature type; invalid study type
+swsTemperatureEndEditErrorEntityAlreadyExists	2	At least one entity is specified more than once
+swsTemperatureEndEditErrorNoEntities	3	No entities selected
+swsTemperatureEndEditErrorNoEntityAtIndex	1	No entity passed at index
+swsTemperatureEndEditErrorSelectVerticesEdgesFacesComponentsOrBodies	4	Select vertices, edges, faces, components, or bodies
+swsTemperatureEndEditErrorSuccessful	0	Successful
+@swsTemperatureError_e		Temperature errors
+swsTemperatureErrorEmptyArray	4	No entities specified (empty array)
+swsTemperatureErrorInvalidArray	3	Invalid array
+swsTemperatureErrorInvalidStudy	2	Invalid study type for temperature (used for thermal studies only)
+swsTemperatureErrorSelectVerticesEdgesFacesBodiesOrComponents	1	Select vertices, edges, faces, bodies, or components
+swsTemperatureErrorSuccessful	0	Successful
+@swsTemperatureType_e		Temperature types
+swsTemperatureTypeFixed	1	Fixed temperature
+swsTemperatureTypeInital	0	Initial temperature
+@swsTemperatureUnit_e		Temperature units
+swsTemperatureUnitCelsius	2	Celsius, C/cm or Cal/s-cm^2
+swsTemperatureUnitFahrenheit	1	Fahrenheit, F/in or BTU/s-in^2
+swsTemperatureUnitKelvin	0	Kelvin, K/m or W/m^2
+@swsTensileStressAreaUnit_e		Tensile stress area units
+swsTensileStressAreaUnitCentimetersSquared	1	cm^2
+swsTensileStressAreaUnitFeetSquared	4	ft^2
+swsTensileStressAreaUnitInchesSquared	3	in^2
+swsTensileStressAreaUnitMetersSquared	2	m^2
+swsTensileStressAreaUnitMillimetersSquared	0	mm^2
+@swsThermalComponent_e		Thermal components
+swsThermalComponentGRADN	4	Resultant temperature gradient
+swsThermalComponentGRADX	1	Temperature gradient in the X direction of the selected reference geometry
+swsThermalComponentGRADY	2	Temperature gradient in the Y direction of the selected reference geometry
+swsThermalComponentGRADZ	3	Temperature gradient in the Z direction of the selected reference geometry
+swsThermalComponentHFLUXN	8	Resultant heat flux
+swsThermalComponentHFLUXX	5	Heat flux in the X direction of the selected reference geometry
+swsThermalComponentHFLUXY	6	Heat flux in the Y direction of the selected reference geometry
+swsThermalComponentHFLUXZ	7	Heat flux in the Z direction of the selected reference geometry
+swsThermalComponentTEMP	0	Nodal temperature
+@swsThermalOption_e		Thermal options for studies
+swsThermalOption_InputTemperature	0	Considers the prescribed temperatures that are defined for the model
+swsThermalOption_TemperatureFromFlow	2	Reads the temperature values from a SOLIDWORKS Flow Simulation results file (not available for 2D simplification studies)
+swsThermalOption_TemperatureFromThermalStudy	1	Reads the temperature values from a thermal study
+@swsThermalRelaxationFactor_e		Thermal relaxation factors
+swsThermalRelaxationFactorAutomatic	0	Automatic
+swsThermalRelaxationFactorFixed	1	Fixed
+@swsThermalResultComponentTypes_e		Component types for thermal study results
+swsThermalResultComponentTypes_GRADN	4	Resultant temperature gradient
+swsThermalResultComponentTypes_GRADX	1	Temperature gradient in the X direction of the selected reference geometry
+swsThermalResultComponentTypes_GRADY	2	Temperature gradient in the Y direction of the selected reference geometry
+swsThermalResultComponentTypes_GRADZ	3	Temperature gradient in the Z direction of the selected reference geometry
+swsThermalResultComponentTypes_HFLUXN	8	Resultant heat flux
+swsThermalResultComponentTypes_HFLUXX	5	Heat flux in the X direction of the selected reference geometry
+swsThermalResultComponentTypes_HFLUXY	6	Heat flux in the Y direction of the selected reference geometry
+swsThermalResultComponentTypes_HFLUXZ	7	Heat flux in the Z direction of the selected reference geometry
+swsThermalResultComponentTypes_TEMP	0	Nodal temperature
+@swsThermalSolutionType_e		Thermal solution types
+swsThermalSolutionTypeSteadyState	1	Steady state
+swsThermalSolutionTypeTransient	0	Transient
+@swsThreadsPerLengthUnit_e		Units of threads per length
+swsThreadsPerLengthUnitPerInch	1	Threads/in
+swsThreadsPerLengthUnitPerMillimete	0	Threads/mm
+@swsTimeCurveError_e		Time curve data errors
+swsTimeCurveErrorCannotUseWithRestraint	2	Time curve cannot be used with this restraint
+swsTimeCurveErrorInvalidDataPoints	4	Invalid data points
+swsTimeCurveErrorInvalidStudyType	1	Invalid study type for time curve
+swsTimeCurveErrorNeedTwoOrMoreDataPoints	3	A time curve must have two or more data points
+swsTimeCurveErrorSuccessful	0	Successful
+@swsTimeIntegrationMethod_e		Step-by-step integration methods of modal time history dynamic studies
+swsTimeIntegrationMethod_Newmark	0	Newmark
+swsTimeIntegrationMethod_WilsonTheta	1	Wilson Theta
+@swsTimeUnits_e		Units of time
+swsDay	3
+swsHour	2
+swsMinute	1
+swsSecond	0
+@swsTopologyActivationOption_e		Topology study activation options
+ActivationOption_Activate	1
+ActivationOption_Deactivate	0
+@swsTopologyDemoldDirectionOption_e		Topology study de-mold manufacturing control direction options
+swsTopologyDemoldDirection_PullDirectionOnly	1
+swsTopologyDemoldDirection_Stamping	2
+swsTopologyDemoldDirection_TwoDirectionMidPlane	0
+@swsTopologyIterationOption_e		Topology study iteration options
+IterationOption_Auto	0	The maximum number of iterations needed by the optimization algorithm to reach convergence is set automatically
+IterationOption_UserDef	1	The maximum number of iterations needed by the optimization algorithm to reach convergence is set by the user
+@swsTopologyPreservedContactConnectorOption_e		Topology study preserved region manufacturing control contacts and connectors options
+PreservedContactConnectorOption_ConnectorsOnly	1	Exclude from optimization regions that have connectors
+PreservedContactConnectorOption_ContactsAndConnectors	2	Exclude from optimization regions that have contacts or connectors
+PreservedContactConnectorOption_ContactsOnly	0	Exclude from optimization regions that have contacts
+PreservedContactConnectorOption_None	3	Specify the region to exclude from optimization
+@swsTopologyPreservedRegionOption_e		Topology study preserved region options
+PreservedRegion_FixturesOnly	1	Exclude from optimization faces where fixtures are applied
+PreservedRegion_LoadsAndFixtures	2	Exclude from optimization faces where loads or fixtures are applied
+PreservedRegion_LoadsOnly	0	Exclude from optimization faces where loads are applied
+PreservedRegion_None	3	Select which regions to exclude from optimization
+@swsTopologyStudy_DemoldControlErrors_e		Topology study de-mold manufacturing control result codes
+swsTopoDCErrCode_EdgeSelectionNotAvailable	8	Edge selection is not available for swsTopologyStudyDemoldDirectionOption_e.swsTopologyDemoldDirection_TwoDirectionMidPlane de-mold direction option when SetAutoDetermineCentralMidPlane sets BFlag = 0
+swsTopoDCErrCode_EdgeSelectionRequired	9	Edge selection is required for all de-mold direction options except swsTopologyStudyDemoldDirectionOption_e.swsTopologyDemoldDirection_TwoDirectionMidPlane when SetAutoDetermineCentralMidPlane sets BFlag = 0
+swsTopoDCErrCode_InvalidDirectionOptionSelected	3
+swsTopoDCErrCode_InvalidEntitySelectedAsEdge	2
+swsTopoDCErrCode_InvalidEntitySelectedAsPlane	4
+swsTopoDCErrCode_NotAvailableForCurrentDirectionOption	5
+swsTopoDCErrCode_PlaneSelectionNotAvailable	6	Plane selection is available only for swsTopologyStudyDemoldDirectionOption_e.swsTopologyDemoldDirection_TwoDirectionMidPlane de-mold direction option when SetAutoDetermineCentralMidPlane sets BFlag = 0
+swsTopoDCErrCode_PlaneSelectionRequired	7	Plane selection is required for swsTopologyStudyDemoldDirectionOption_e.swsTopologyDemoldDirection_TwoDirectionMidPlane de-mold direction option when SetAutoDetermineCentralMidPlane sets BFlag = 0
+swsTopoDCErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoDCErrCode_Success	0
+@swsTopologyStudy_DisplacementConstraintErrors_e		Topology study displacement constraint result codes
+swsTopoDispErrCode_CannotSetVertex	10	SetVertex is available only when LocationOption = swsTopologyStudyDisplacementConstraintLocationOption_e.swsTopologyDisplacementConstraintLocationOption_UserDefine
+swsTopoDispErrCode_ConstraintNotFound	17	Constraint does not exist
+swsTopoDispErrCode_CoordinateSysInvalidOption	14	Option must be in swsTopologyStudyDisplacementCoordinateSysOption_e
+swsTopoDispErrCode_CoordinateSysInvalidSelection	15	Wrong coordinate system dispatch was passed
+swsTopoDispErrCode_CoordinateSysNAError	13	SetCoordinateSystem is available only when SetCoordinateSystemPreference sets NCSPreference = swsTopologyStudyDisplacementCoordinateSysOption_e.swsTopologyDisplacementCoordinateSysOption_UserDefine
+swsTopoDispErrCode_CoordinateSysNotSelected	16	Coordinate system has not been set
+swsTopoDispErrCode_InvalidArray	18	Invalid input array
+swsTopoDispErrCode_InvalidComparator	7	Input comparator must be in swsTopologyStudyConstraintComparator_e
+swsTopoDispErrCode_InvalidComponent	4	Component type must be in swsTopologyStudyDisplacementComponentType_e
+swsTopoDispErrCode_InvalidConstraintValuationOption	5	Valuation option must be in swsTopologyStudyConstraintValuationOption_e
+swsTopoDispErrCode_InvalidConstraintValue	2	Input value contains invalid characters
+swsTopoDispErrCode_InvalidLocationOption	11	Location option must be in swsTopologyDisplacementConstraintLocationOption_e
+swsTopoDispErrCode_InvalidSelectionForVertex	9	Wrong vertex dispatch has been passed
+swsTopoDispErrCode_InvalidUnit	6	Input unit must be in swsLinearUnit_e
+swsTopoDispErrCode_InvalidVertexCount	12	You cannot define this displacement constraint when SetLocationPreference sets NLocationPreference = swsTopologyStudyDisplacementConstraintLocationOption_e.swsTopologyDisplacementConstraintLocationOption_UserDefine and vertex count != 1
+swsTopoDispErrCode_LessThanEqualToZeroConstraintValue	3	Less than or equal to zero value is invalid
+swsTopoDispErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoDispErrCode_Success	0
+swsTopoDispErrCode_UnitNotAvailable	8	SetUnit is available only when SetValuationPreference sets NValuationOption = swsTopologyStudyConstraintValuationOption_e.swsTopologyConstraintValuationOption_AbsValue
+@swsTopologyStudy_FOSConstraintErrors_e		Topology study Factor of Safety constraint result codes
+swsTopoFOSErrCode_ConstraintNotFound	7
+swsTopoFOSErrCode_InvalidComparator	6
+swsTopoFOSErrCode_InvalidComponent	4
+swsTopoFOSErrCode_InvalidConstraintValue	2
+swsTopoFOSErrCode_LessThanEqualToZeroConstraintValue	3
+swsTopoFOSErrCode_MaterialWithInvalidYieldStrength	8	Cannot define FOS for model with material which has invalid yield strength; apply material with valid yield strength
+swsTopoFOSErrCode_OutOfRangeValue	5	Value must be between 1.0 and 10000.0, inclusive
+swsTopoFOSErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoFOSErrCode_Success	0
+@swsTopologyStudy_FrequencyConstraintErrors_e		Topology study frequency constraint result codes
+swsTopoFreqErrCode_ComparatorDataIsNotSet	12
+swsTopoFreqErrCode_ConstraintNotFound	15
+swsTopoFreqErrCode_EnterRangeOfValues	6	If SetFrequencyData sets an element of the VarComparators array with swsTopologyStudyConstraintComparator_e.swsTopologyConstraintComparator_IsInBetween, then the corresponding value in the VarFrequencyValues array must be specified with a range of values, e.g., "200-400". In-between comparator requires a range of values (e.g., 200-400)
+swsTopoFreqErrCode_FreqValuesDataIsNotSet	13
+swsTopoFreqErrCode_HMSFreqLessThanLMSFreq	4	You must set the arrays in SetFrequencyData such that higher mode shapes have frequency values greater than those of lower mode shapes, i.e., VarModeShapes and VarFrequencyValues arrays must both be in increasing order
+swsTopoFreqErrCode_InvalidArray	14
+swsTopoFreqErrCode_InvalidComparatorData	9
+swsTopoFreqErrCode_InvalidConstraintValue	2
+swsTopoFreqErrCode_InvalidFreqValuesData	10
+swsTopoFreqErrCode_InvalidModeShapeData	8
+swsTopoFreqErrCode_LessThanEqualToZeroConstraintValue	3
+swsTopoFreqErrCode_ModeShapeDataIsNotSet	11
+swsTopoFreqErrCode_ModeShapesNotInAscendingOrder	5
+swsTopoFreqErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoFreqErrCode_Success	0
+swsTopoFreqErrCode_UnequalSizedArrays	7
+@swsTopologyStudy_MassConstraintErrors_e		Topology study mass constraint result codes
+swsTopoMassErrCode_ConstraintNotFound	8
+swsTopoMassErrCode_GreaterThan100PercentApplied	4	You must specify a percentage of mass to remove that is less than or equal to 100
+swsTopoMassErrCode_GreaterThanTotalMassOfModel	5	You must specify a quantity of mass to remove that is less than or equal to the total mass of the model
+swsTopoMassErrCode_InvalidConstraintValue	2
+swsTopoMassErrCode_InvalidPreferenceOption	7
+swsTopoMassErrCode_InvalidUnit	6
+swsTopoMassErrCode_LessThanEqualToZeroConstraintValue	3
+swsTopoMassErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoMassErrCode_Success	0
+@swsTopologyStudy_MinMaxDisplacementGoalErrors_e		Topology study minimize maximum displacement goal result codes
+swsTopoDGErrCode_CoordinateSysInvalidOption	4
+swsTopoDGErrCode_CoordinateSysInvalidSelection	5
+swsTopoDGErrCode_CoordinateSysNAError	3	SetCoordinateSystem is available only when SetCoordinateSystemPreference sets NCSPreference = swsTopologyStudyDisplacementCoordinateSysOption_e.swsTopologyDisplacementCoordinateSysOption_UserDefine
+swsTopoDGErrCode_CoordinateSysNotSelected	6
+swsTopoDGErrCode_InvalidArray	8
+swsTopoDGErrCode_InvalidComponent	2
+swsTopoDGErrCode_InvalidEntities	9
+swsTopoDGErrCode_InvalidVertexCount	7	You must specify at least one vertex for this goal
+swsTopoDGErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoDGErrCode_Success	0
+@swsTopologyStudy_PreservedRegionErrors_e		Topology study preserved region manufacturing control result codes
+swsTopoPRErrCode_InvalidAreaDepth	3	Area depth must be > 0
+swsTopoPRErrCode_InvalidAreaDepthUnit	4
+swsTopoPRErrCode_InvalidArray	5
+swsTopoPRErrCode_InvalidEntities	6	Input array contains non-face entities
+swsTopoPRErrCode_InvalidFaceCount	2	You must select at least one face
+swsTopoPRErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoPRErrCode_Success	0
+@swsTopologyStudy_StressConstraintErrors_e		Topology study stress constraint result codes
+swsTopoStressErrCode_ConstraintNotFound	10
+swsTopoStressErrCode_InvalidComparator	7	Only swsTopologyStudyConstraintComparator_e.swsTopologyConstraintComparator_IsLessThan is available
+swsTopoStressErrCode_InvalidComponent	4
+swsTopoStressErrCode_InvalidConstraintValuationOption	5
+swsTopoStressErrCode_InvalidConstraintValue	2
+swsTopoStressErrCode_InvalidUnit	6
+swsTopoStressErrCode_LessThanEqualToZeroConstraintValue	3
+swsTopoStressErrCode_LessThanPermittedValue	9	Stress value must be above minimum model stress
+swsTopoStressErrCode_OutOfRangePercentageValue	11	Percentage value for stress must be between 0 and 100
+swsTopoStressErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoStressErrCode_Success	0
+swsTopoStressErrCode_UnitNotAvailable	8	SetUnit is available only when SetValuationPreference sets NValuationOption = swsTopologyStudyConstraintValuationOption_e.swsTopologyConstraintValuationOption_AbsValue
+@swsTopologyStudy_SymmetryControlErrors_e		Topology study symmetry manufacturing control result codes
+swsTopoSCErrCode_IncorrectPlaneSelectionsForGivenSymmetryType	4	For swsTopologySymmetryControlOption_e: swsTopologySymmetryControlType_HalfSymmetry, a single plane can be selected swsTopologySymmetryControlType_QuarterSymmetry, two planes can be selected swsTopologySymmetryControlType_OneEighthSymmetry, three planes can be selected
+swsTopoSCErrCode_InvalidEntitySelectedAsPlane	2
+swsTopoSCErrCode_InvalidTypeSelected	3
+swsTopoSCErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoSCErrCode_SetSymmetryTypeBeforeSelectingPlane	5
+swsTopoSCErrCode_Success	0
+@swsTopologyStudy_ThicknessControlErrors_e		Topology study thickness manufacturing control result codes
+swsTopoTCErrCode_InvalidThickness	2	Thickness must be > 0
+swsTopoTCErrCode_InvalidThicknessUnit	3
+swsTopoTCErrCode_SetOperationNotSupported	1	BeginEdit must be called before setting values
+swsTopoTCErrCode_Success	0
+@swsTopologyStudyConstraintComparator_e		Comparators for constraint equations in topology studies
+swsTopologyConstraintComparator_IsGreaterThan	1
+swsTopologyConstraintComparator_IsInBetween	2
+swsTopologyConstraintComparator_IsLessThan	0
+@swsTopologyStudyConstraintType_e		Topology study constraints
+swsTopologyConstraintType_Displacement	0
+swsTopologyConstraintType_FactorOfSafety	3
+swsTopologyConstraintType_Mass	1
+swsTopologyConstraintType_Stress	2
+@swsTopologyStudyConstraintValuationOption_e
+swsTopologyConstraintValuationOption_AbsValue	0
+swsTopologyConstraintValuationOption_MultiplicationFactor	1
+@swsTopologyStudyDisplacementComponentType_e		Topology study displacement components
+swsTopologyDisplacementCompType_URES	3
+swsTopologyDisplacementCompType_UX	0
+swsTopologyDisplacementCompType_UX_ABS	4
+swsTopologyDisplacementCompType_UY	1
+swsTopologyDisplacementCompType_UY_ABS	5
+swsTopologyDisplacementCompType_UZ	2
+swsTopologyDisplacementCompType_UZ_ABS	6
+@swsTopologyStudyDisplacementConstraintLocationOption_e		Vertexes on load bearing faces for displacement constraints in topology studies
+swsTopologyDisplacementConstraintLocationOption_Auto	0	Automatic (single max point)
+swsTopologyDisplacementConstraintLocationOption_UserDefine	1	User-defined vertex
+@swsTopologyStudyDisplacementConstraintValuationOption_e		Topology study displacement constraint valuation types
+swsTopologyDisplacementConstraintValuation_AbsValue	0
+swsTopologyDisplacementConstraintValuation_MultiplicationFactor	1
+@swsTopologyStudyDisplacementCoordinateSysOption_e		Coordinate system options for topology study constraints
+swsTopologyDisplacementCoordinateSysOption_Global	0	Use the global coordinate system
+swsTopologyDisplacementCoordinateSysOption_UserDefine	1	Select a coordinate system
+@swsTopologyStudyError_e		Topology study result codes
+swsTopoErrCode_CannotCreatFOSIfStressAlrdyPrsnt	18	Factor of Safety constraint cannot be created if a stress constraint is present
+swsTopoErrCode_CannotCreatStressIfFOSAlrdyPrsnt	19	Stress constraint cannot be created if a Factor of Safety constraint is present
+swsTopoErrCode_ConstraintDefinitionLimitReached	11	No more than seven constraints can be defined
+swsTopoErrCode_ConstraintNotFound	9
+swsTopoErrCode_DefaultConstraintCannotBeRemoved	10
+swsTopoErrCode_InvalidGoalType	2
+swsTopoErrCode_ManufacturingControlNotFound	12
+swsTopoErrCode_MaximizeStiffnessGoalHasNotBeenSet	5
+swsTopoErrCode_MinimizeMassGoalHasNotBeenSet	4
+swsTopoErrCode_MinimizeMaximumDisplacementGoalHasNotBeenSet	6
+swsTopoErrCode_NoGoalHasBeenSet	3
+swsTopoErrCode_OnlyOneDemoldControlCanBeDefined	14
+swsTopoErrCode_OnlyOneDisplacementConstraintWithAutoDefineCanBeDefined	8
+swsTopoErrCode_OnlyOneFOSConstraintCanBeDefined	21
+swsTopoErrCode_OnlyOneFrequencyConstraintCanBeDefined	16
+swsTopoErrCode_OnlyOneMassConstraintCanBeDefined	7
+swsTopoErrCode_OnlyOneStressConstraintCanBeDefined	20
+swsTopoErrCode_OnlyOneSymmetryControlCanBeDefined	15
+swsTopoErrCode_OnlyOneThicknessControlCanBeDefined	13
+swsTopoErrCode_SetOperationNotSupported	17	BeginEdit must be called before setting any values
+swsTopoErrCode_Success	0
+swsTopoErrCode_TopologyStudyManagerIsNotInitialized	1
+@swsTopologyStudyFactorOfSafetyComponentType_e		Topology study Factor Of Safety constraint component types
+swsTopologyFactorOfSafetyCompType_MaxVONMises	0
+@swsTopologyStudyGoalType_e		Topology study goals
+swsTopologyGoalType_MaximizeStiffness	1
+swsTopologyGoalType_MinimizeMass	0
+swsTopologyGoalType_MinimizeMaximumDisplacement	2
+@swsTopologyStudyMassConstraintOption_e		Remaining mass calculations in mass constraint equations of topology studies
+swsTopologyMassConstraintOption_AbsoluteValue	0
+swsTopologyMassConstraintOption_Percentage	1
+@swsTopologyStudyStressComponentType_e		Topology study stress constraint component types
+swsTopologyStressCompType_VONMises	0
+@swsTopologyStudyStressConstraintValuationOption_e		Topology study stress constraint valuation types
+swsTopologyStressConstraintValuation_AbsValue	0
+swsTopologyStressConstraintValuation_Percentage	1
+@swsTopologySymmetryControlOption_e		Topology study symmetry manufacturing control options
+swsTopologySymmetryControlType_HalfSymmetry	0
+swsTopologySymmetryControlType_OneEighthSymmetry	2
+swsTopologySymmetryControlType_QuarterSymmetry	1
+@swsTrendTrackerErrorCode_e		Trend tracker errors
+swsTrendTracker_FailedCreation	3
+swsTrendTracker_InvalidStudyType	1
+swsTrendTracker_InvalidTrendTrackerObj	2
+swsTrendTracker_NoError	0
+swsTrendTracker_SetBaseLineActionFailed	4
+@swsUnit_e		Unit systems
+swsUnitEnglish	1	English (IPS)
+swsUnitMetric	2	Metric (G)
+swsUnitSI	0	SI
+@swsUnitSystem_e		Unit systems
+swsUnitSystemIPS	1	IPS
+swsUnitSystemMKS	2	MKS
+swsUnitSystemSI	0	SI
+swsUnitSystemSIWithMPA	3	SI with MPA
+@swsUserPreferenceDoubleValue_e		User preference double values
+swsPlotBeamDiagramTransparency	3
+swsPlotBoundaryTransparency	4
+swsPlotDeformedShapeSuperImposeModelTranslucentTransparency	2
+swsPlotShowExcludedBodyTransparency	1
+swsPlotShowHiddenBodyTransparency	0
+@swsUserPreferenceIntegerValue_e		User preference integer values
+swsColorChartColorOptionBaseChartColorNumber	23	Get or set the number of colors in the color chart; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color Options > No of chart colors
+swsColorChartColorOptionChartColorNumber	22	Get or set the user-defined number of colors in the color chart; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color Options > User defined
+swsColorChartColorOptionLegendType	24	Get or set the color legend type as defined in swsColorChartOptionLegendTypeValue_e; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color Options > (Default, Rainbow, Gray scale, User Defined)
+swsColorChartColorOptionvonMisesColorValue	27	Get or set the color for values above yield for vonMises plots; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color Options > Specify color for values above yield for vonMises plot
+swsColorChartNumberFormatLegendPrecision	25	Get or set the number of decimal places for precision of number formats; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Number format > No. of decimal places:
+swsColorChartNumberFormatOption	21	Get or set the number format as defined in swsColorChartNumberFormatOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Number format > (Scientific, Floating, or General)
+swsColorChartNumberFormatUseDiffNoFormatOption	26	Get or set which notation other than scientific to use for small numbers as defined in swsColorNumberFormatUseDiffNumberFormatOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Number format > Scientific > Use different number format for small numbers (0.001 < |x| < 1000) > (Floating or General)
+swsColorChartPosition	3	Get or set the position of the color bar as defined in swsColorChartPositionValue_e; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Position > (Predefined positions or user defined)
+swsColorChartPositionUserDefinedXValue	18	Get or set the color bar's horizontal distance from the left of the graphics area as a percentage of the width of the window; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Position > User defined > Horizontal from left:
+swsColorChartPositionUserDefinedYValue	19	Get or set the color bar's vertical distance from the top of the graphics area as a percentage of the height of the window; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Position > User defined > Vertical from top:
+swsColorChartWidthOption	20	Get or set the color chart width as defined in swsColorChartWidthOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Width
+swsDefaultResultFolder	1	Get or set the results folder option as defined in swsResultFolderValue_e; corresponds to Simulation > Options > Default Options > Results > Results folder > (SOLIDWORKS document folder or User defined)
+swsDefaultSolverValue	0	Get or set the default solver as defined in swsSolverType_e; corresponds to Simulation > Options > Default Options > Results > Default Solver > (Automatic, Direct sparse, or FFEPlus)
+swsEMailType	30
+swsMesherType	31	Get or set the mesher type as defined in swsMesherTypeNew_e
+swsPlotBoundaryOptionMeshColor	9	Get or set the mesh color for boundaries (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Settings options > Boundary options > Mesh > color select box
+swsPlotBoundaryOptionModelColor	29	Get or set the model color for boundaries (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Settings options > Boundary options > Model
+swsPlotBoundaryOptionTranslucentSingleColorSetting	8	Get or set the translucent color for boundaries (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Settings options > Boundary options > Translucent (Single color) > color select box
+swsPlotDeformedShapeOptionSetSuperImposeOption	16	Get or set the translucent color option for superimposing the model on deformed shape as defined in swsPlotDeformedShapeOptionSuperImposeValue_e; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on deformed shape > Superimpose model on deformed shape > Translucent (part colors or single color)
+swsPlotDeformedShapeOptionSetting	12	Get or set how to show deformed shape results as defined in swsPlotDeformedShapeOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on undeformed shape or Show results on deformed shape
+swsPlotDeformedShapeOptionTranslucentColor	28	Get or set the translucent color for superimposing the model on deformed shape (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on deformed shape > Superimpose model on deformed shape > Translucent (single color) > color select box
+swsPlotDeformedShapeResultOther	15	Get or set the deformation scale factor for all other studies as defined in swsPlotDeformedShapeOptionScaleFactorOtherValue_e; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on deformed shape > Deformation scale factor for: > all other studies: > Automatic or True(1.0)
+swsPlotDeformedShapeResultScaleContact	13	Get or set the deformation scale factor for all studies with "No penetration" contact as defined in swsPlotDeformedShapeOptionScaleFactorContactValue_e; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on deformed shape > Deformation scale factor for: > all studies with "No penetration" contact: > Automatic or True(1.0)
+swsPlotDeformedShapeResultScaleLarge	14	Get or set the deformation scale factor for studies with the "Large displacement" option as defined in swsPlotDeformedShapeOptionScaleFactorLargeDispValue_e; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show results on deformed shape > Deformation scale factor for: > studies with the "Large displacement" option: > Automatic or True(1.0)
+swsPlotSettingsBoundaryOption	5	Get or set the boundary option as defined in swsPlotBoundarySettingsOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Settings options > Boundary options
+swsPlotSettingsFringeOption	4	Get or set the fringe option as defined in swsPlotFringeSettingsOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Settings options > Fringe options
+swsPlotShowExcludedBodiesOption	6	Get or set the translucent color option for excluded bodies as defined in swsPlotShowExcludedBodiesOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Settings options > Show excluded bodies > Translucent (Single color or Part colors)
+swsPlotShowExcludedBodyTranslucentSingleColor	10	Get or set the translucent color for all excluded bodies (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Settings options > Show excluded bodies > Translucent (Single color) > color select box
+swsPlotShowHiddenBodiesOption	7	Get or set the translucent color option for hidden bodies as defined in swsPlotShowHiddenBodiesOptionValue_e; corresponds to Simulation > Options > Default Options > Plot > Settings options > Show hidden bodies > Translucent (Single color or Part colors)
+swsPlotShowHiddenBodyTranslucentSingleColor	11	Get or set the translucent color for all hidden bodies (see Remarks); corresponds to Simulation > Options > Default Options > Plot > Settings options > Show hidden bodies > Translucent (Single color) > color select box
+swsReportPublishOption	2	Get or set the report folder location as defined in swsReportFolderValue_e; corresponds to Simulation > Options > Default Options > Report > Report publish options > Report folder
+swsReportPublishOptionReportFolderUserDefinedPath	17
+@swsUserPreferenceStringValue_e		User preference string values
+swsEMailAccount	7
+swsEMailPassword	8
+swsEMailPort	6
+swsEMailSendFrom	3
+swsEMailSendTo	4
+swsEMailSMTP	5
+swsSolidWorksDocumentFolderSubFolderLocation	1	Get or set the results sub-folder; corresponds to Simulation > Options > Default Options > Results > Results Folder > SOLIDWORKS document folder > Under sub folder
+swsSolidWorksUserDefinedReportFolderLocation	2	Get or set the user-defined report folder; corresponds to Simulation > Options > Default Options > Report > Report publish options > Report folder > User defined
+swsUserDefinedResultFolderLocation	0	Get or set the user-defined results folder; Simulation > Options > Default Options > Results > Results Folder > User defined
+@swsUserPreferenceToggle_e		User preference toggle values
+swsAutomaticallyDetectUnderConstrainedBodies	21	Get or set whether to automatically detect underconstrained bodies; corresponds to setting in Simulation > Options dialiog
+swsAverageStressesAtMidnodes	17	Get or set whether to average stresses at mid-nodes; corresponds to Simulation > Options > Default Options > Results > Average stresses at mid-nodes (high-quality solid mesh only)
+swsColorChartColorNoOfChartColorFlip	13	Get or set whether to flip the chart colors; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color options > Flip
+swsColorChartColorSpecifyColorForvonMisesPlot	14	Get or set whether to specify color for values above yield for vonMises plot; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Color options > Specify color for values above yield for vonMises plot
+swsColorChartDetails	11	Get or set whether to display plot details; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Display plot details
+swsColorChartDisplay	10	Get or set whether to display plot details; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Display color charts
+swsColorChartNumberFormatUseDifferentNumberFormat	12	Get or set whether to use a different number format for small numbers; corresponds to Simulation > Options > Default Options > Plot > Color Chart > Number format > Scientific > Use different number format for small numbers (0.001 < |x| < 1000)
+swsEMailAuthentication	16	Get or set whether my server requires authentication; corresponds to Simulation > Options > System Options > Email Notification Settings > My server requires authentication
+swsEnforceSaveAfterMeshAndAfterSolve	18	Get or set whether to enforce saving after meshing or analysis; corresponds to Simulation > Options > System Options > General > Save file after meshing and after the analysis completes
+swsIncludeMeshInCopyStudy	19	Get or set whether to include mesh when copying a study
+swsIncludeResultsInCopyStudy	20	Get or set whether to include results when copying a study
+swsLoadAllStudies_e	15	Get or set whether to load all Simulation studies when opening a model; corresponds to Simulation > Options > System Options > General > Load all Simulation studies when opening a model. (requires more time to open a model)
+swsPlotAnnotationShowMaxValue	5	Get or set whether to show the maximum value annotation in plots; corresponds to Simulation > Options > Default Options > Plot > Annotation and range > Show maximum value annotation
+swsPlotAnnotationShowMinValue	4	Get or set whether to show the minimum value annotation in plots; corresponds to Simulation > Options > Default Options > Plot > Annotation and range > Show minimum value annotation
+swsPlotAnnotationShowRangeBasedOnShowCompOnly	6	Get or set whether to show range based on shown components only in plots; corresponds to Simulation > Options > Default Options > Plot > Annotation and range > Show range based on shown components only
+swsPlotDeformedShapeOptionSuperImposeModelOnDeformedShape	9	Get or set whether to superimpose model on deformed shape in plots; corresponds to Simulation > Options > Default Options > Plot > Deformed shape options > Show rsults on deformed shape > Superimpose model on deformed shape
+swsPlotShowExcludedBodies	7	Get or set whether to show excluded bodies in plots; corresponds to Simulation > Options > Default Options > Plot > Settings options > Show excluded bodies
+swsPlotShowHiddenBodies	8	Get or set whether to show hidden bodies in plots; corresponds to Simulation > Options > Default Options > Plot > Settings options > Show hidden bodies
+swsResultFolderKeepTempDataBase	1	Get or set whether to keep temporary database files in results folder; corresponds to Simulation > Options > Default Options > Results > Results folder > Keep temporary database files
+swsResultFolderUnderSubFolder	0	Get or set whether to set results folder under a SOLIDWORKS document folder sub folder; corresponds to Simulation > Options > Default Options > Results > Results folder > SOLIDWORKS document folder > Under sub folder
+swsShowReportOnPublish	3	Get or set whether to show the report when it's published; corresponds to Simulation > Options > Default Options > Report > Report publish options > Show report on publish
+swsTrendTrackerBackUpModelsRestoreIteration	2	Get or set whether to back up models for Restore to Iteration; corresponds to Simulation > Options > Default Options > Results > Trend Tracker > Backup models for Restore to Iteration
+@swsVelocityComponent_e		Velocity components
+swsVelocityComponentAVRES	7	Resultant angular velocity (shell studies only)
+swsVelocityComponentAVX	4	Angular velocity about the X axis (shell studies only)
+swsVelocityComponentAVY	5	Angular velocity about the Y axis (shell studies only)
+swsVelocityComponentAVZ	6	Angular velocity about the Z axis (shell studies only)
+swsVelocityComponentVRES	3	Resultant linear velocity
+swsVelocityComponentVX	0	Linear velocity along the X axis
+swsVelocityComponentVY	1	Linear velocity along the Y axis
+swsVelocityComponentVZ	2	Linear velocity along the Z axis
+@swsVelocityUnit_e		Velocity units
+swsVelocityUnit_CentimetersPerSec	1	cm/sec
+swsVelocityUnit_InchesPerSec	3	in/sec
+swsVelocityUnit_MetersPerSec	2	m/sec
+swsVelocityUnit_MillimetersPerSec	0	mm/sec
+@swsWallType_e		Wall types
+swsWallTypeFlexible	1	Flexible
+swsWallTypeRigid	0	Rigid
+@swsWeakMaterial_e		Weak material options for european edge weld connectors
+swsWeakMaterialCustom	0
+swsWeakMaterialFirstFaceMaterial	1
+swsWeakMaterialSecondFaceMaterial	2
+@swsWeldResultErrorCode_e		Weld result error codes
+swsWeldResult_InvalidConnectorName	4
+swsWeldResult_InvalidUnit	2
+swsWeldResult_MeshDataNotAvailable	6
+swsWeldResult_NodeIndexListUnAvailable	7
+swsWeldResult_NoError	0
+swsWeldResult_NoPersistID	5
+swsWeldResult_NoView	1
+swsWeldResult_ResultsNotAvailable	3
+@swsWeldStrengthUnits_e		Weld strength units
+swsWeldStrengthUnits_KgfOverCentimeterSquare	2	kg-f/cm^2
+swsWeldStrengthUnits_KSI	4	kilopound per square inch
+swsWeldStrengthUnits_MPa	3	N/mm^2
+swsWeldStrengthUnits_NewtonOverMeterSquare	0	N/m^2
+swsWeldStrengthUnits_PSI	1	pounds per square inch
+@swsWindowsBasicColors_e		Windows basic colors
+swsAqua	16776960
+swsBlack	0
+swsBlue	16711680
+swsCoral	4227327
+swsCyan	16777088
+swsDarkBlue	4194304
+swsDarkGreen	4210688
+swsDarkOliveGreen	16384
+swsDarkPurple	4194368
+swsDarkRed	4194432
+swsDeepGray	64
+swsDeepSkyBlue	12645680
+swsDodgerBlue	16744448
+swsGray	8421504
+swsGreen	32768
+swsGreenYellow	65408
+swsIndigo	8388672
+swsKhaki	4227200
+swsLawnGreen	4259584
+swsLightRed	8421631
+swsLightSalmon	4210816
+swsLightSeaGreen	8421440
+swsLightYellow	8454143
+swsLime	65280
+swsMagenta	16711935
+swsMaroon	128
+swsMediumPurple	12615808
+swsMidnightBlue	10485760
+swsNavy	8388608
+swsOlive	32896
+swsOrange	33023
+swsPaleGreen	8454016
+swsPlum	12615935
+swsPurple	8388736
+swsRed	255
+swsRoyalBlue	8404992
+swsSapGreen	4227072
+swsSgiBeet	16711808
+swsSgiSalmon	8388863
+swsSgiSlateBlue	16744576
+swsSilver	12632256
+swsSpringGreen	8453888
+swsTan	16512
+swsTeal	8421376
+swsViolet	16744703
+swsWhite	16777215
+swsYellow	65535

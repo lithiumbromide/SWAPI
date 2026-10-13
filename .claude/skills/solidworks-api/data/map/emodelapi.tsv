@@ -1,0 +1,134 @@
+#swapi-map 1 module=emodelapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@_IEModelMarkupControlEvents	i	Event source; members are .NET delegates _IEModelMarkupControlEvents_<Member>EventHandler	prefix=eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.	path=-
+OnMeasureResultsChanged	e	delegate void _IEModelMarkupControlEvents_OnMeasureResultsChangedEventHandler()	2010		Fired when the measurement results change.
+@_IEModelViewControlEvents	i	Event source; members are .NET delegates _IEModelViewControlEvents_<Member>EventHandler	use=1	path=-
+OnAnimationsChanged	e	delegate void _IEModelViewControlEvents_OnAnimationsChangedEventHandler()	2014 SP1		Fired when an animation has changed.
+OnCameraChange	e	delegate void _IEModelViewControlEvents_OnCameraChangeEventHandler()	2015		Fired when changing the camera, including changing a scene orbit and selecting a named view.
+OnCameraChangeFinished	e	delegate void _IEModelViewControlEvents_OnCameraChangeFinishedEventHandler()	2014 SP1		Fired when changes to the camera have finished, including changing a scene orbit and selecting a named view.
+OnComponentMouseOverNotify	e	delegate void _IEModelViewControlEvents_OnComponentMouseOverNotifyEventHandler(string ComponentName, int XCoordinate, int YCoordinate)	2005	obsolete>_IEModelViewControlEvents.OnComponentMouseOverNotify2
+OnComponentMouseOverNotify2	e	delegate void _IEModelViewControlEvents_OnComponentMouseOverNotify2EventHandler(string ComponentName, string ComponentConfigName, int XCoordinate, int YCoordinate)	2013		Fired when the cursor is over a component.
+OnComponentSelectionNotify	e	delegate void _IEModelViewControlEvents_OnComponentSelectionNotifyEventHandler(string ComponentName, int XCoordinate, int YCoordinate)	2005	obsolete>_IEModelViewControlEvents.OnComponentSelectionNotify2
+OnComponentSelectionNotify2	e	delegate void _IEModelViewControlEvents_OnComponentSelectionNotify2EventHandler(string ComponentName, string ComponentConfigName, int XCoordinate, int YCoordinate)	2013		Fired when a component is selected.
+OnConfigChange	e	delegate void _IEModelViewControlEvents_OnConfigChangeEventHandler(int ConfigId)	2019		Fired when the specified configuration changes.
+OnFailedLoadingDocument	e	delegate void _IEModelViewControlEvents_OnFailedLoadingDocumentEventHandler(string FileName, int ErrorCode, string ErrorString)	2006		Fired when the specified eDrawings document fails to load.
+OnFailedPrintingDocument	e	delegate void _IEModelViewControlEvents_OnFailedPrintingDocumentEventHandler(string PrintJobName)	2006		Fired if the printer name specified in the IEModelViewControl::SetPageSetupOptions was invalid or if an...
+OnFailedSavingDocument	e	delegate void _IEModelViewControlEvents_OnFailedSavingDocumentEventHandler(string FileName, int ErrorCode, string ErrorString)	2006		Fired when saving an eDrawings document fails.
+OnFinishedAnimation	e	delegate void _IEModelViewControlEvents_OnFinishedAnimationEventHandler()	2014 SP1		Fired when an animation has finished.
+OnFinishedLoadingDocument	e	delegate void _IEModelViewControlEvents_OnFinishedLoadingDocumentEventHandler(string FileName)	2005		Fired when the eDrawings file has finished loading.
+OnFinishedPrintingDocument	e	delegate void _IEModelViewControlEvents_OnFinishedPrintingDocumentEventHandler(string PrintJobName)	2006		Fired when an eDrawings document finishes printing.
+OnFinishedSavingDocument	e	delegate void _IEModelViewControlEvents_OnFinishedSavingDocumentEventHandler()	2005		Fired when an eDrawings file finishes saving.
+OnModifyScene	e	delegate void _IEModelViewControlEvents_OnModifySceneEventHandler(int ModifyEvent)	2015		Fired when a scene is modified.
+OnNamedView	e	delegate void _IEModelViewControlEvents_OnNamedViewEventHandler(int NamedViewId)	2014 SP1		Fired when a named view has been selected.
+OnPrevNextPlayStart	e	delegate void _IEModelViewControlEvents_OnPrevNextPlayStartEventHandler()	2014 SP1		Fired when the animation starts when associated with the Preview, Next, or Play button.
+OnPrevNextPlayStop	e	delegate void _IEModelViewControlEvents_OnPrevNextPlayStopEventHandler()	2014 SP1		Fired when the animation stops when associated with the Preview, Next, or Play button.
+OnStartedAnimation	e	delegate void _IEModelViewControlEvents_OnStartedAnimationEventHandler()	2014 SP1		Fired when an animation has started.
+@IEModelMarkupControl	i	Encapsulates the eDrawings markup functionality, which is only available in the eDrawings Professional version or in...	via=IEModelViewControl.CoCreateInstance	prefix=eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.
+AddStamp	m	void AddStamp(string Filename, float X, float Y, float Width, float Height)	2007		Adds the specified rubber stamp to an eDrawings document.
+CanExplode	p	bool CanExplode {get;}	2005		Gets whether the model can be exploded.
+CommentCount	p	int CommentCount {get;}	2005		Gets the total number of markup comments.
+CommentCountx64	p	long CommentCountx64 {get;}	2019		Gets the total number of markup comments on this 64-bit system.
+CommentID	p	int CommentID(int CommentIndex) {get;}	2005		Gets the ID for the specified markup comment.
+CommentIDx64	p	long CommentIDx64(int CommentIndex) {get;}	2011 SP1		Gets the ID for the specified markup comment on 64-bit systems.
+CommentName	p	string CommentName(int CommentIndex) {get;}	2005		Gets the name of the specified markup comment.
+EnableFeature	p	bool EnableFeature(EMVMarkupEnableFeatures feature) {get; set;}	2005		Gets or sets the specified markup property.
+EnableFeatures	p	int:EMVMarkupEnableFeatures EnableFeatures {get; set;}	2005		Gets or sets markup properties of the IEModelMarkupControl.
+IsMeasureEnabled	p	bool IsMeasureEnabled {get;}	2009		Gets whether the current document is measure-enabled.
+MeasureResultString	p	string MeasureResultString {get;}	2010		Gets the most recent measurement results.
+SetMeasureUnits	m	void SetMeasureUnits(EMVDistanceUnit DistanceUnit, EMVAngleUnit AngleUnit)	2017 SP3		Sets measurement units.
+ShowComment	m	void ShowComment(int CommentID)	2005		Displays the specified markup comment.
+ShowCommentx64	m	void ShowCommentx64(long CommentIDx64)	2011 SP1		Displays the specified markup comment on 64-bit systems.
+ShowSaveMarkup	m	void ShowSaveMarkup(string SaveName, bool SaveAs)	2005		Saves the markup comments to either the specified file or to the default markup file.
+ViewOperator	p	EMVMarkupOperators ViewOperator {set;}	2005		Sets the markup tools.
+ViewState	p	bool ViewState(EMVMarkupViewState state) {get; set;}	2005		Gets or sets the view state.
+@IEModelViewControl	i	Encapsulates the functionality of the eDrawings Viewer.	use=38
+ActivateInkMarkup	m	void ActivateInkMarkup(int InkMarkupIndex)	2020		Activates the specified SOLIDWORKS ink markup.
+ActiveViewRectangle	p	object ActiveViewRectangle {get;}	2014		Gets the screen coordinates of the upper-left and lower-right corners of the window.
+AlwaysShowWarningWatermark	p	int AlwaysShowWarningWatermark {get; set;}	2012		Gets or sets whether to show a warning watermark when an existing file is opened.
+AmbientOcclusionAllowed	p	bool AmbientOcclusionAllowed {get;}	2019		Gets whether ambient occlusion is permitted.
+AmbientOcclusionEnabled	p	bool AmbientOcclusionEnabled {get; set;}	2019		Gets or sets whether ambient occlusion is enabled.
+Animate	m	void Animate(EMVAnimateAction Animating)	2005		Sets the state of animation.
+BackgroundColor	p	int BackgroundColor {get; set;}	2006 SP1		Gets or sets the background color for all eDrawings files.
+BackgroundColorGradient	p	bool BackgroundColorGradient {get; set;}	2007		Specifies whether to apply a gradient background using the document's background color.
+BackgroundColorOverride	p	bool BackgroundColorOverride {get; set;}	2007		Specifies whether to override the document's background color and display the color specified by...
+BackgroundImagePath	p	string BackgroundImagePath {get; set;}	2014		Gets the fully qualified path and file name of the background image.
+BuildNumber	p	string BuildNumber {get;}	2008 SP1		Gets the build number of eDrawings.
+CameraNearClip	p	float CameraNearClip {get; set;}	2014 SP1		Gets or sets the distance of the camera near clip plane.
+CameraProjection	p	string CameraProjection {get; set;}	2014 SP1		Gets or sets the camera projection type.
+ClearSelections	m	void ClearSelections()	2008		Clear all selections.
+CloseActiveDoc	m	void CloseActiveDoc(string CommandString)	2006		Closes the active eDrawings document.
+CoCreateInstance	m	object CoCreateInstance(string CLSIDString)	2005		Creates an instance of an eDrawings add-in object, such as IEModelViewMarkupControl.
+ComponentConfigurationName	p	string ComponentConfigurationName(string Config, int index) {get;}	2013		Gets the name of the configuration for the specified component.
+ComponentCount	p	int ComponentCount(string Config) {get;}	2005		Gets the number of components in the specified configuration.
+ComponentName	p	string ComponentName(string Config, int index) {get;}	2005		Gets the name of the component in the specified configuration.
+ComponentState	p	bool ComponentState(string Name, EMVComponentState state) {get; set;}	2005		Gets or sets the state of the specified component.
+ComponentTransform	p	object ComponentTransform(string ComponentName) {get; set;}	2014		Gets or sets the transform for the specified component.
+ConfigurationCount	p	int ConfigurationCount {get;}	2005		Gets the total number of configurations.
+ConfigurationName	p	string ConfigurationName(int ConfigurationIndex) {get;}	2005		Gets the name of the specified configuration.
+CreateTooltip	m	int CreateTooltip(string TipTitle, string TipText, bool ShowAtMousePosition, int XCoordinate, int YCoordinate)	2005		Creates a ToolTip at the specified location.
+CurrentConfigurationIndex	p	int CurrentConfigurationIndex {get;}	2005		Gets the index number of this configuration.
+CurrentSheetIndex	p	int CurrentSheetIndex {get;}	2005		Gets the index number of the currently displayed drawing sheet.
+EnableFeature	p	bool EnableFeature(EMVEnableFeatures feature) {get; set;}	2005		Gets or sets a property of the IEModelViewControl.
+EnableFeatures	p	int:EMVEnableFeatures EnableFeatures {get; set;}	2005		Gets or sets properties of the IEModelViewControl.
+FileName	p	string FileName {get; set;}	2005		Gets the path and name of the file to open or the file name of the currently displayed file.
+FullUI	p	int FullUI {get; set;}	2008		Gets or sets whether to show complete UI mode or simple UI mode.
+GetSelectedComponentName	m	string GetSelectedComponentName()	2014		Gets the name of the selected component.
+Height	p	int Height {get;}	2005		Gets the height of the control.
+HideAllTooltips	m	void HideAllTooltips()	2005		Hides all ToolTips.
+HideTooltip	m	void HideTooltip(int TooltipID)	2005		Hides the specified ToolTip.
+HighlightColor	p	int HighlightColor {get; set;}	2007		Gets or sets the color used when an entity is selected.
+InkMarkupCount	p	int InkMarkupCount {get;}	2020		Gets the number of SOLIDWORKS ink markups.
+InkMarkupName	p	string InkMarkupName(int InkMarkupIndex) {get;}	2020		Gets the name of the specified SOLIDWORKS ink markup.
+IsMarkupModified	p	bool IsMarkupModified {get;}	2005		Gets whether the markup file was modified.
+IsMeasureEnabled	p	bool IsMeasureEnabled {get;}	2009		Gets whether the current document is measure-enabled.
+LayerCount	p	int LayerCount {get;}	2007		Gets the number of layers in this eDrawings document.
+LayerName	p	string LayerName(int LayerIndex) {get;}	2007		Gets the name of the specified layer in this eDrawings document.
+LoadXMLBuffer	m	void LoadXMLBuffer(object XMLDoc)	2005		Loads the model from data from an XML source.
+MassProperty	p	double MassProperty(EMVMassProperty property) {get;}	2005		Gets the value of the specified mass property.
+MaterialPropertyName	p	string MaterialPropertyName {get;}	2005		Gets the material name.
+OpenDoc	m	void OpenDoc(string FileName, bool IsTemp, bool PromptToSave, bool ReadOnly, string CommandString)	2005		Opens the specified eDrawings file.
+OpenMarkupFile	m	void OpenMarkupFile(string inFileName)	2006		Opens the specified markup (*.markup) eDrawings file.
+PaperColor	p	int PaperColor {get; set;}	2007		Gets or sets the color of the paper (sheet) for an eDrawings document of a drawing only.
+PaperColorOverride	p	bool PaperColorOverride {get; set;}	2007		Specifies whether to override the color of the paper of an eDrawings document of a drawing and display the color...
+Password	p	string Password {set;}	2005		Sets the password needed to open a model downloaded from a server that requires authentication.
+Print2	m	void Print2(bool ShowDialog, string FileName, bool Shaded, bool DraftQuality, bool Color, EMVPrintType ScaleToFit)	2005	obsolete>IEModelViewControl.Print3
+Print3	m	void Print3(bool ShowDialog, string FileName, bool Shaded, bool DraftQuality, bool Color, EMVPrintType printType, double scale, int centerOffsetX, int centerOffsetY)	2008	obsolete>IEModelViewControl.Print4
+Print4	m	void Print4(bool ShowDialog, string FileName, bool Shaded, bool DraftQuality, bool Color, EMVPrintType printType, double scale, int centerOffsetX, int centerOffsetY, bool printAll, int pageFirst, int pageLast)	2010	obsolete>IEModelViewControl.Print5
+Print5	m	void Print5(bool ShowDialog, string FileNameInPrintQueue, bool Shaded, bool DraftQuality, bool Color, EMVPrintType printType, double scale, int centerOffsetX, int centerOffsetY, bool printAll, int pageFirst, int pageLast, string PrintToFileName)	2011 SP4		Prints the eDrawings file.
+Refresh	m	void Refresh()	2005		Refreshes the eDrawings window.
+Save	m	void Save(string SaveName, bool SaveAs, string CommandString)	2005		Saves the eDrawings file.
+SelectByRay	m	void SelectByRay(float StartX, float StartY, float StartZ, float DirectionX, float DirectionY, float DirectionZ)	2014		Selects the first component intersected by a ray that starts at the specified point in the specified direction vector.
+SetPageSetupOptions	m	void SetPageSetupOptions(EMVPrintOrientation Orientation, int PaperSize, int PaperLength, int PaperWidth, int Copies, int Source, string Printer, int TopMargin, int BottomMargin, int LeftMargin, int RightMargin)	2005		Sets the Page Setup parameters for printing.
+ShadowsEnabled	p	bool ShadowsEnabled {get; set;}	2014		Gets or sets whether shadows are enabled in parts and assemblies.
+SheetCount	p	int SheetCount {get;}	2005		Gets the total number of drawing sheets.
+SheetHeight	p	double SheetHeight {get;}	2005		Gets the height of the drawing sheet.
+SheetName	p	string SheetName(int SheetIndex) {get;}	2005		Gets the name of the specified drawing sheet.
+SheetWidth	p	double SheetWidth {get;}	2005		Gets the width of the drawing sheet.
+Show3DPointer	m	void Show3DPointer(bool show, float StartX, float StartY, float StartZ, float EndX, float EndY, float EndZ)	2014		Shows or hides a 3D pointer in the active view in the graphics area.
+ShowAllTooltips	m	void ShowAllTooltips()	2005		Shows all ToolTips.
+ShowConfiguration	m	void ShowConfiguration(int ConfigurationIndex)	2005		Displays the specified configuration.
+ShowFullScreen	m	void ShowFullScreen(bool fullscreen)	2010		Maximizes the drawing to fill the screen.
+ShowHelp	m	void ShowHelp()	2005		Displays eDrawings Help.
+ShowInkMarkup	p	bool ShowInkMarkup(int InkMarkupIndex) {set;}	2020		Sets whether to display the specified SOLIDWORKS ink markup.
+ShowLayer	p	bool ShowLayer(string LayerName) {get; set;}	2007		Gets or sets the layer to show.
+ShowSend	m	void ShowSend()	2005		Displays the Send As dialog.
+ShowShadedEdges	p	bool ShowShadedEdges {get; set;}	2014		Gets or sets whether to show edges in shaded mode.
+ShowSheet	m	void ShowSheet(int SheetIndex)	2005		Displays the specified drawing sheet.
+ShowTipAtMousePosition	p	bool ShowTipAtMousePosition(int TooltipID) {get; set;}	2005		Displays the specified ToolTip at the cursor's location.
+ShowTooltip	m	void ShowTooltip(int TooltipID)	2005		Shows the specified ToolTip.
+StereoEnabled	p	bool StereoEnabled {get; set;}	2014		Gets or sets whether stereographic viewing is enabled.
+StereoFocalLength	p	float StereoFocalLength {get; set;}	2014 SP1		Gets or sets the distance between camera position and the stereo focal plane in terms of the camera eye distance.
+StereoSeparation	p	float StereoSeparation {get; set;}	2014 SP1		Gets or sets the angle of separation between right and left stereo views.
+TipText	p	string TipText(int TooltipID) {get; set;}	2005		Gets or sets the text for the specified ToolTip.
+TipTitle	p	string TipTitle(int TooltipID) {get; set;}	2005		Gets or sets the title of the specified ToolTip.
+TipXCoordinate	p	int TipXCoordinate(int TooltipID) {get; set;}	2005		Gets or sets the x coordinate for the specified ToolTip.
+TipYCoordinate	p	int TipYCoordinate(int TooltipID) {get; set;}	2005		Gets or sets the y coordinate for the specified ToolTip.
+TooltipCount	p	int TooltipCount {get;}	2005		Gets the total number of ToolTips.
+TooltipID	p	int TooltipID(int index) {get;}	2005		Gets the ID of the ToolTip.
+UpdateScene	m	void UpdateScene()	2014		Redraws the scene graph.
+UserName	p	string UserName {set;}	2005		Sets the user name needed to open a model downloaded from a server that requires authentication.
+Version	p	string Version {get;}	2008 SP1		Gets the version number of eDrawings.
+ViewCamera	p	object ViewCamera {get; set;}	2008		Gets or sets the current camera properties.
+ViewOperator	p	EMVOperators ViewOperator {set;}	2005		Sets the select, rotate, zoom, and pan tools.
+ViewOrientation	p	EMVViewOrientation ViewOrientation {set;}	2005		Sets the view orientation.
+ViewState	p	bool ViewState(EMVViewState state) {get; set;}	2005		Gets or sets the view state.
+Width	p	int Width {get;}	2005		Gets the width of the control.

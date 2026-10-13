@@ -1,0 +1,180 @@
+#swapi-map 1 module=pdmworksapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@PDMWConfiguration	o
+AlternateName	p	Property AlternateName As String
+Comment	p	Property Comment As String
+docname	p	Property docname As String
+DocRevision	p	Property DocRevision As String
+Document	p	Property Document As PDMWDocument
+ExtReferences	p	Property ExtReferences As PDMWLinks
+ExtWhereUsed	p	Property ExtWhereUsed As PDMWLinks
+Name	p	Property Name As String
+Properties	p	Property Properties As PDMWProperties
+Quantity	p	Property Quantity As Long
+References	p	Property References As PDMWLinks
+WhereUsed	p	Property WhereUsed As PDMWLinks
+@PDMWConfigurations	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWConfiguration
+@PDMWConnection	o
+AdminDefinedProperties	p	Property AdminDefinedProperties As PDMWProperties
+CheckIn	m	Function CheckIn(ByVal filename As String, ByVal project As String, ByVal Number As String, ByVal Description As String, ByVal note As String, ByVal i_revOption As PDMWRevisionOptionType, ByVal Revision As String, ByVal lifecycle As String, ByVal RetainOwnership As Boolean, ByVal References As Variant) As PDMWDocument
+CreateGroup	m	Function CreateGroup(ByVal Name As String) As PDMWGroup
+CreateProject	m	Function CreateProject(ByVal Name As String, ByVal Description As String, ByVal Parent As String) As PDMWProject
+CreateUser	m	Function CreateUser(ByVal Name As String, ByVal password As String, ByVal DisplayName As String, ByVal Email As String, ByVal Comment As String, ByVal PropertyFilterName As String, ByVal PropertyFilterValue As String) As PDMWUser
+DeleteDocument	m	Function DeleteDocument(ByVal docname As String) As Long
+DeleteGroup	m	Sub DeleteGroup(ByVal Name As String)
+DeleteProject	m	Sub DeleteProject(ByVal Name As String)
+DeleteUser	m	Sub DeleteUser(ByVal Name As String)
+DocumentList	p	Property DocumentList(Optional ByVal project As String = "") As Variant
+Documents	p	Property Documents(Optional ByVal project As String = "") As PDMWDocuments
+FreeCacheMemory	m	Sub FreeCacheMemory()
+GetSearchOptionsObject	m	Function GetSearchOptionsObject() As PDMWSearchOptions
+GetSpecificDocument	m	Function GetSpecificDocument(ByVal Name As String, Optional ByVal Revision As String = "") As PDMWDocument
+Groups	p	Property Groups As PDMWGroups
+Login	m	Function Login(ByVal user As String, ByVal password As String, ByVal server As String, Optional ByVal request_port As Long = 40000, Optional ByVal data_port As Long = 30000) As Long
+Logout	m	Sub Logout()
+Projects	p	Property Projects As PDMWProjects
+Refresh	m	Sub Refresh()
+Search	m	Function Search(ByVal pSearchOptions As PDMWSearchOptions) As PDMWSearchResults
+Statuses	p	Property Statuses As Variant
+Users	p	Property Users As PDMWUsers
+@PDMWDocument	o
+AddNote	m	Function AddNote(ByVal action As String, ByVal note As String) As Long
+Attachments	p	Property Attachments As PDMWLinks
+BumpRevision	m	Function BumpRevision(ByVal i_cstrNewRev As String, ByVal i_cstrNote As String) As Long
+ChangeOwner	m	Function ChangeOwner(ByVal Owner As String) As Long
+ChangeProject	m	Sub ChangeProject(ByVal project As String, ByVal bSelectedItem As Boolean, ByVal i_childrenType As PDMWChildrenType, ByVal bIgnoreLinks As Boolean)
+ChangeStatus	m	Function ChangeStatus(ByVal i_bstrStatus As String) As Long
+Configurations	p	Property Configurations As PDMWConfigurations
+DateModified	p	Property DateModified As Variant
+Description	p	Property Description As String
+ExtReferences	p	Property ExtReferences As PDMWLinks
+ExtWhereUsed	p	Property ExtWhereUsed As PDMWLinks
+GetDocumentSize	m	Function GetDocumentSize() As Variant
+GetEmbeddedEDWAsBase64	m	Function GetEmbeddedEDWAsBase64() As String
+GetStatus	m	Function GetStatus() As String
+HasPDF	p	Property HasPDF As Long
+IsTopLevel	p	Property IsTopLevel As Long
+Name	p	Property Name As String
+Notes	p	Property Notes As PDMWDocumentNotes
+Number	p	Property Number As String
+Owner	p	Property Owner As String
+project	p	Property project As String
+Properties	p	Property Properties As PDMWProperties
+References	p	Property References As PDMWLinks
+ReleaseOwnership	m	Function ReleaseOwnership() As Long
+Revision	p	Property Revision As String
+RevisionLabels	p	Property RevisionLabels As Variant
+Revisions	p	Property Revisions As PDMWDocuments
+Save	m	Function Save(Optional ByVal saveDir As String = "") As Long
+SaveAsPDF	m	Function SaveAsPDF(Optional ByVal saveDir As String = "") As Long
+SaveEmbeddedEDW	m	Function SaveEmbeddedEDW(ByVal saveFileName As String) As Long
+Size	p	Property Size As Long
+SizeH	p	Property SizeH As Long
+SolidWorksVersion	p	Property SolidWorksVersion As Long
+TakeOwnership	m	Function TakeOwnership() As Long
+UpdateStamp	p	Property UpdateStamp As Long
+WhereUsed	p	Property WhereUsed As PDMWLinks
+@PDMWDocumentNote	o
+action	p	Property action As String
+DateTime	p	Property DateTime As String
+Description	p	Property Description As String
+user	p	Property user As String
+@PDMWDocumentNotes	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWDocumentNote
+@PDMWDocuments	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWDocument
+@PDMWGroup	o
+AddUser	m	Sub AddUser(ByVal userName As String)
+IsAdmin	p	Property IsAdmin As Boolean
+Name	p	Property Name As String
+RemoveUser	m	Sub RemoveUser(ByVal userName As String)
+Users	p	Property Users As PDMWUsers
+@PDMWGroups	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As PDMWGroup
+@PDMWLink	o
+Config	p	Property Config As String
+Document	p	Property Document As PDMWDocument
+Name	p	Property Name As String
+project	p	Property project As String
+Quantity	p	Property Quantity As Long
+Revision	p	Property Revision As String
+Type	p	Property Type As PDMWLinkType
+@PDMWLinks	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Long) As PDMWLink
+@PDMWProject	o
+AllowRead	p	Property AllowRead As Long
+AllowWrite	p	Property AllowWrite As Long
+CreateSubProject	m	Function CreateSubProject(ByVal Name As String, ByVal Description As String) As PDMWProject
+Description	p	Property Description As String
+DocumentCount	p	Property DocumentCount As Long
+DocumentList	p	Property DocumentList As Variant
+Documents	p	Property Documents As PDMWDocuments:PDMWProjects
+Name	p	Property Name As String
+Parent	p	Property Parent As PDMWProject
+SetUserPermissions	m	Function SetUserPermissions(ByVal Name As String, ByVal permissions As PDMWPermission) As Boolean
+SubProjects	p	Property SubProjects As PDMWProjects
+@PDMWProjects	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWProject
+@PDMWProperties	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Add	m	Function Add(ByVal Name As String) As PDMWProperty
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWProperty
+Update	m	Function Update() As Long
+@PDMWProperty	o
+Name	p	Property Name As String
+Value	p	Property Value As String
+@PDMWSearchCriteria	o
+AddCriteria	m	Function AddCriteria(ByVal andOr As PDMWAndOr, ByVal propertyType As PDMWPropertyType, ByVal propertyName As String, ByVal condition As PDMWConditionType, ByVal Value As String) As Boolean
+CriteriaCount	p	Property CriteriaCount As Long
+GetCriteria	m	Function GetCriteria(ByVal Index As Long, ByRef andOr As PDMWAndOr, ByRef propertyType As PDMWPropertyType, ByRef propertyName As String, ByRef condition As PDMWConditionType, ByRef Value As String) As Boolean
+LoadFromFile	m	Function LoadFromFile(ByVal filename As String) As Boolean
+RemoveCriteria	m	Sub RemoveCriteria(ByVal Index As Long)
+SaveToFile	m	Function SaveToFile(ByVal filename As String) As Boolean
+@PDMWSearchOptions	o
+IgnoreCase	p	Property IgnoreCase As Boolean
+IgnoreLinks	p	Property IgnoreLinks As Boolean
+IncludeHiddenDocuments	p	Property IncludeHiddenDocuments As Boolean
+SearchConfigSpecificProperties	p	Property SearchConfigSpecificProperties As Boolean
+SearchCriteria	p	Property SearchCriteria As PDMWSearchCriteria
+SearchOnlyChildrenOf	p	Property SearchOnlyChildrenOf As String
+@PDMWSearchResult	o
+ConfigurationName	p	Property ConfigurationName As String
+Description	p	Property Description As String
+Document	p	Property Document As PDMWDocument
+Name	p	Property Name As String
+Number	p	Property Number As String
+Owner	p	Property Owner As String
+ParentPath	p	Property ParentPath As String
+project	p	Property project As String
+Revision	p	Property Revision As String
+Status	p	Property Status As String
+@PDMWSearchResults	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWSearchResult
+@PDMWUser	o
+Comment	p	Property Comment As String
+DisplayName	p	Property DisplayName As String
+Email	p	Property Email As String
+IsAdmin	p	Property IsAdmin As Boolean
+password	p	Property password As String
+PropertyFilterName	p	Property PropertyFilterName As String
+PropertyFilterValue	p	Property PropertyFilterValue As String
+userName	p	Property userName As String
+@PDMWUsers	o		path=-
+_NewEnum	p	Property _NewEnum As Unknown
+Count	p	Property Count As Long
+Item	p	Property Item(ByVal Index As Variant) As Variant:PDMWUser

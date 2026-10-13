@@ -1,0 +1,111 @@
+#swapi-map 1 module=swmotionstudyapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@DMotionStudyEvents	i	Event source; members are .NET delegates DMotionStudyEvents_<Member>EventHandler	use=15	path=-
+ForceOutputTimeStepChangeNotify	e	delegate int DMotionStudyEvents_ForceOutputTimeStepChangeNotifyEventHandler(double Time, object ForceNames, object Displacement, object Velocity, object Acceleration, object ForceOrTorque, ref object ForceTorqueValue)	2011		Fired at every integrator or output time step when a motion simulation is occurring and external forces exist.
+ForceTimeStepChangeNotify	e	delegate int DMotionStudyEvents_ForceTimeStepChangeNotifyEventHandler(string Force, double Time, ref double ForceMagnitude)	2008 SP1		Fired when a motion study is calculated and there are external forces.
+MotorOutputTimeStepChangeNotify	e	delegate int DMotionStudyEvents_MotorOutputTimeStepChangeNotifyEventHandler(double Time, object MotorNames, object Position, object Velocity, object Acceleration, object ForceOrTorque, ref object MotorValue)	2009		Fired at every integrator or output time step when a motion simulation is occurring and external motors exist.
+MotorTimeStepChangeNotify	e	delegate int DMotionStudyEvents_MotorTimeStepChangeNotifyEventHandler(string Motor, double Time, ref double MotorSpeed)	2008 SP1		Fired when a motion study is calculated and there are external motors.
+OutputTimeStepChangeNotify	e	delegate int DMotionStudyEvents_OutputTimeStepChangeNotifyEventHandler(double Time)	2011		Fired at every integrator or output time step when a motion simulation is occurring.
+PartCollideNotify	e	delegate int DMotionStudyEvents_PartCollideNotifyEventHandler(double Time, object Component1:IComponent2, object Component2:IComponent2, object Vector1:IMathVector, object Vector2:IMathVector, object SurfaceNormal1, object SurfaceNormal2)	2008 SP1		Fired when a collision between two components occurs.
+SpecialMotionEventNotify	e	delegate int DMotionStudyEvents_SpecialMotionEventNotifyEventHandler(double Time, int EventType:swSpecialMotionEventType_e)	2011		Fired for motion-related special events, such as contacts.
+StartCalculateNotify	e	delegate int DMotionStudyEvents_StartCalculateNotifyEventHandler(double Time)	2009		Fired when a motion study is calculated.
+StopCalculateNotify	e	delegate int DMotionStudyEvents_StopCalculateNotifyEventHandler(double Time)	2009		Fired when a motion study's calculation ends.
+@IAVIParameter	i	Allows access to the parameters of a file containing an animation.	via=IMotionStudyManager.CreateAVIParameter	use=28
+AspectRatio	p	double AspectRatio {get; set;}	2008		Gets or sets the ratio between the width of the image and the height of the image for the animation.
+BlurLength	p	int BlurLength {get; set;}	2016		Gets or sets the length of the motion blur effect when rendering animations using a ray-trace rendering engine.
+BlurOffset	p	int BlurOffset {get; set;}	2016		Gets or sets the position in time from where the ray-trace rendering engine samples its motion blur for the animation.
+EndTime	p	double EndTime {get; set;}	2008		Gets or sets the end time of a specific time period of the animation to save.
+FramePerSecond	p	double FramePerSecond {get; set;}	2008		Gets or sets the frames per second in which to play the animation.
+ImageSize	p	int:swSaveAVIImageSize_e ImageSize {get; set;}	2008		Gets or sets the image size of the animation.
+MotionBlur	p	bool MotionBlur {get; set;}	2016		Gets or sets whether to enable motion blur when saving an animation rendered using a ray-trace rendering engine.
+OutputType	p	int:swAnimationOutputType_e OutputType {get; set;}	2008		Gets or sets the type of files to which to save the animation.
+PreserveRatio	p	bool PreserveRatio {get; set;}	2008		Gets or sets whether to preserve the aspect ratio of the animation when changing either its width or height.
+RendererType	p	int:swRendererType_e RendererType {get; set;}	2008		Gets or sets the renderer type to save the animation.
+SaveEntireAnimation	p	bool SaveEntireAnimation {get; set;}	2008		Gets or sets whether to save the entire animation.
+ScreenHeight	p	int ScreenHeight {get; set;}	2008		Gets or sets the height at which to display the animation on the screen.
+ScreenRatio	p	bool ScreenRatio {get; set;}	2008		Gets or sets whether to base the aspect ratio on the screen.
+ScreenWidth	p	int ScreenWidth {get; set;}	2008		Gets or sets the width at which to display the animation on the screen.
+StartTime	p	double StartTime {get; set;}	2008		Gets or sets the start time of a specific time period of the animation to save.
+@ICosmosMotionStudyProperties	i	Allows access to a motion study's properties.	use=4
+AnimateDuringSimulation	p	bool AnimateDuringSimulation {get; set;}	2008		Gets or sets whether to show the motion during the calculation of the simulation.
+ContactResolution3D	p	int ContactResolution3D {get; set;}	2008		Gets or sets the 3D contact resolution value.
+DeleteRedundantConstraints	p	bool DeleteRedundantConstraints {get; set;}	2008		Gets or sets whether to delete redundant constraints.
+ErrorTolerance	p	double ErrorTolerance {get; set;}	2008		Gets or sets the error tolerance.
+IntegratorAdaptivity	p	double IntegratorAdaptivity {get; set;}	2008		Gets or sets the value to control intermittent curve/curve problems.
+IntegratorType	p	int:swMotionIntegratorType_e IntegratorType {get; set;}	2008		Gets or sets the type of integrator.
+JacobianEval	p	int JacobianEval {get; set;}	2008		Gets or sets how often the simulation engine's Jacobian matrix is updated.
+MakeAllMatesFlexible	p	bool MakeAllMatesFlexible {get; set;}	2008		Gets or sets whether to make all mates flexible.
+MaxIterations	p	int MaxIterations {get; set;}	2008		Gets or sets the maximum number of times the numeric integrator iterates in the search for a solution for a given step.
+MaxStepSize	p	double MaxStepSize {get; set;}	2008		Gets or sets the upper bound of the integration time step.
+MinStepSize	p	double MinStepSize {get; set;}	2008		Gets or sets the lower bound of the integration time step.
+UsePreciseContact	p	bool UsePreciseContact {get; set;}	2008		Gets or sets whether to use precise contact.
+WireFrameGraphics	p	bool WireFrameGraphics {get; set;}	2008		Gets or sets whether to display the results as wireframe.
+@ICosmosMotionStudyResults	i	Allows access to a motion study's results.	use=17
+CreatePlotFeatureData	m	object:IMotionPlotFeatureData CreatePlotFeatureData()	2011		Creates a plot's feature data.
+CreatePlotXAxisFeatureData	m	object:IMotionPlotAxisFeatureData CreatePlotXAxisFeatureData()	2011		Creates a plot's x-axis feature data.
+CreatePlotYAxisFeatureData	m	object:IMotionPlotAxisFeatureData CreatePlotYAxisFeatureData()	2011		Creates a plot's y-axis feature data.
+ExportCSVFile	m	bool ExportCSVFile(object PlotFeature, string FileName)	2008		Exports a plot to a comma-separated value (.csv) formatted file.
+GetPlotCount	m	int GetPlotCount()	2008		Gets the number of plots.
+GetPlotFeatures	m	object:IFeature GetPlotFeatures()	2008		Gets the plot features in this motion study.
+GetValues	m	object:IMotionPlotFeatureOutput GetValues(object PlotFeatureData:IMotionPlotFeatureData, object PlotXFeatureData:IMotionPlotAxisFeatureData, object PlotYFeatureData:IMotionPlotAxisFeatureData)	2011		Gets a plot's values.
+IGetPlotFeatures	m	object:IFeature IGetPlotFeatures(int Count)	2008		Gets the plot features in this motion study.
+InsertPlotFeature	m	object:IFeature InsertPlotFeature(object PlotFeatureData:IMotionPlotFeatureData, object PlotXFeatureData:IMotionPlotAxisFeatureData, object PlotYFeatureData:IMotionPlotAxisFeatureData)	2011		Inserts a plot.
+@IMotionPlotFeatureOutput	i	Allows access to a plot's values.	via=ICosmosMotionStudyResults.GetValues	use=9
+GetXAxis	m	object GetXAxis()	2011		Gets a plot's x-axis values.
+GetYAxis	m	object GetYAxis(object YAxisFeatureData:IMotionPlotAxisFeatureData)	2011		Gets a plot's y-axis values.
+@IMotionStudy	i	Allows access to a SOLIDWORKS motion study's results.	via=IMotionStudy.Duplicate,IMotionStudyManager.CreateMotionStudy,IMotionStudyManager.GetMotionStudy	use=95
+Activate	m	bool Activate()	2008		Activates this motion study.
+Calculate	m	bool Calculate()	2008		Performs the calculation for this motion study.
+CreateByCollapse	m	bool CreateByCollapse(bool DeleteExistingPath, double Duration, double StartTime)	2008		Creates an animation in which an exploded view of an assembly is collapsed.
+CreateByExplode	m	bool CreateByExplode(bool DeleteExistingPath, double Duration, double StartTime)	2008		Creates an animation in which a collapsed view of an assembly is exploded.
+CreateByRotateModel	m	bool CreateByRotateModel(bool DeleteExistingPath, int Axis:swAnimatorAxisOfRotation_e, int RotationCount, int Direction:swAnimatorDirectionOfRotation_e, double Duration, double StartTime)	2008		Creates an animation that rotates the model.
+CreateDefinition	m	object CreateDefinition(int Type:swFeatureNameID_e)	2009		Creates the definition for the simulation feature data object.
+CreateFeature	m	object:IFeature CreateFeature(object FeatureData)	2009		Creates a simulation feature using its feature data object.
+Duplicate	m	MotionStudy Duplicate()	2008		Creates a new motion study based on the specified motion study.
+GetDuration	m	double GetDuration()	2008		Gets the duration, in seconds, of the motion study.
+GetFireOutputTimeStepEvents	m	bool GetFireOutputTimeStepEvents()	2009		Gets whether output time step change events are fired at output time steps or integrator time steps.
+GetMotionFeatures	m	object GetMotionFeatures()	2008		Gets the motion features in this motion study.
+GetMotionFeaturesCount	m	int GetMotionFeaturesCount()	2008		Gets the number of motion features in this motion study.
+GetNumOfExternalForces	m	int GetNumOfExternalForces()	2009		Gets the numer of external forces in this motion study.
+GetNumOfExternalMotors	m	int GetNumOfExternalMotors()	2009		Gets the number of external motors in this motion study.
+GetProperties	m	MotionStudyProperties GetProperties(int StudyType:swMotionStudyType_e)	2008		Gets the properties object for the specified type of motion study.
+GetResults	m	MotionStudyResults GetResults(int StudyType:swMotionStudyType_e)	2008		Gets the results object for the specified type of motion study.
+GetSupportedStudyTypes	m	bool GetSupportedStudyTypes(out int SupportedTypes:swMotionStudyType_e)	2008		Gets the types of studies supported by this motion study.
+GetTime	m	double GetTime()	2008		Gets the time, in seconds, where the timebar is on the timeline for this motion study.
+IGetMotionFeatures	m	object IGetMotionFeatures(int Count)	2008		Gets the motion features in this motion study.
+IsActive	p	bool IsActive {get;}	2008		Gets whether this motion study is active.
+IsPlaying	p	bool IsPlaying {get;}	2008		Gets whether this motion study is playing.
+Name	p	string Name {get; set;}	2008		Gets or sets the name of a motion study.
+Play	m	bool Play()	2008		Plays the animation; the start point is where the animation timebar is located.
+PlayFromStart	m	bool PlayFromStart()	2008		Plays this motion study from the beginning.
+PlayMode	p	int:swAnimationPlayMode_e PlayMode {get; set;}	2008		Gets the mode in which this motion study is playing or sets the mode in which to play this motion study.
+SaveToAVI	m	bool SaveToAVI(string FileName, AVIParameter Parameter)	2008		Saves the animation to a.avi,.bmp, or.tga file.
+SetDuration	m	bool SetDuration(double Time)	2008		Sets the duration, in seconds, of this motion study.
+SetFireOutputTimeStepEvents	m	void SetFireOutputTimeStepEvents(bool FireOutputEvents)	2009		Sets whether output time step change events are fired at output time steps or integrator time steps.
+SetTime	m	bool SetTime(double Time)	2008		Sets the time, in seconds, where to place the timebar on the timeline for this motion study.
+Stop	m	bool Stop()	2008		Stops the currently playing animation.
+StudyType	p	int:swMotionStudyType_e StudyType {get; set;}	2008		Gets or sets the type of this study.
+@IMotionStudyManager	i	Allows access to the MotionManager.	via=IModelDocExtension.GetMotionStudyManager	use=27
+ActivateMotionStudy	m	bool ActivateMotionStudy(string MotionStudyName)	2008		Activates the specified study.
+CreateAVIParameter	m	AVIParameter CreateAVIParameter()	2008		Creates the object to use to set and save the AVI parameters of animation videos.
+CreateMotionStudy	m	MotionStudy CreateMotionStudy()	2008		Creates a new motion study.
+DeleteMotionStudy	m	bool DeleteMotionStudy(string MotionStudyName)	2008		Deletes the specified motion study.
+GetMotionStudy	m	MotionStudy GetMotionStudy(string MotionStudyName)	2008		Gets the specified motion study.
+GetMotionStudyCount	m	int GetMotionStudyCount()	2008		Gets the number of motion studies for this model.
+GetMotionStudyNames	m	object GetMotionStudyNames()	2008		Gets the names of the studies for this model.
+IGetMotionStudyNames	m	string IGetMotionStudyNames(int Count)	2008		Gets the names of the studies for this model.
+@IMotionStudyProperties	i	Allows access to a SOLIDWORKS motion study's properties.	via=IMotionStudy.GetProperties	use=7
+GetFrameRate	m	int GetFrameRate()	2008		Gets the number of frames per second for this motion study.
+SetFrameRate	m	bool SetFrameRate(int FramesPerSecond)	2008		Sets the number of frames per second for this motion study.
+@IMotionStudyResults	i	Allows access to a SOLIDWORKS motion study's results.	via=IMotionStudy.GetResults	use=1
+GetAngularAcceleration	m	object:IMathVector GetAngularAcceleration(double Time, object Component:IComponent2)	2008		Gets the angular acceleration for the specified component at the specified time.
+GetAngularVelocity	m	object:IMathVector GetAngularVelocity(double Time, object Component:IComponent2)	2008		Gets the angular velocity for the specified component's at the specified time.
+GetCMPosition	m	object:IMathVector GetCMPosition(double Time, object Component:IComponent2)	2008		Gets the position of the specified component's center of mass at the specified time.
+GetEulerAngles	m	object:IMathVector GetEulerAngles(double Time, object Component:IComponent2)	2008		Gets the euler angles of the specified component at the specified time.
+GetForceFromMate	m	object:IMathVector GetForceFromMate(double Time, object Mate:IComponent2)	2008		Gets the force about the specified mate at the specified time.
+GetLinearAcceleration	m	object:IMathVector GetLinearAcceleration(double Time, object Component:IComponent2)	2008		Gets the linear acceleration for the specified component at the specified time.
+GetLinearVelocity	m	object:IMathVector GetLinearVelocity(double Time, object Component:IComponent2)	2008		Gets the linear velocity for the specified component at the specified time.
+GetTorqueFromMate	m	object:IMathVector GetTorqueFromMate(double Time, object Mate:IComponent2)	2008		Gets the torque about the specified mate at the specified time.
+IsOutOfDate	m	bool IsOutOfDate()	2008		Gets whether the motion study is out of date.
+@IPhysicalSimulationMotionStudyProperties	i	Allows access to a Physical Simulation motion study's properties.
+GeometricAccuracy	p	int GeometricAccuracy {get; set;}	2008		Gets or sets the geometric accuracy of this Physical Simulation motion study.
+MateAccuracy	p	int MateAccuracy {get; set;}	2008		Gets or sets the mate accuracy for this Physical Simulation motion study.

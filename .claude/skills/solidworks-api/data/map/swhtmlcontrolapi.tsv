@@ -1,0 +1,13 @@
+#swapi-map 1 module=swhtmlcontrolapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISwHtmlInterface	i	Must be implemented in each add-in's Quick Tips HTML page so that users can interact with the add-in's Quick Tips...	use=5
+GetCommandID	m	int GetCommandID(string ClsID, int UserCmdID)	2006 SP3		Gets the SOLIDWORKS resource ID for an add-in's CommandManager-style toolbar button.
+GetCurrentTODIndex	m	int GetCurrentTODIndex()	2013		Gets the index of the current Tip of the Day.
+GetInterfaceBrightnessTheme	m	int:swInterfaceBrightnessTheme_e GetInterfaceBrightnessTheme()	2016 SP1		Gets the background theme of SOLIDWORKS.
+GetPrevTipOfTheDay	m	string GetPrevTipOfTheDay()	2013		Gets the previous Tip of the Day.
+HideBubbleTooltip	m	void HideBubbleTooltip()	2008		Hides the Bubble ToolTip displayed by ISwHtmlInterface::ShowBubbleTooltipAt.
+IsX64	m	int IsX64()	2006 SP3		Gets whether you are running SOLIDWORKS (32-bit) or SOLIDWORKS x64 (64-bit).
+ShowBubbleTooltip	m	void ShowBubbleTooltip(int pointAt, string flashButtonIDs, int titleResID, string titleString, string messageString)	2006 SP3		Displays a Bubble ToolTip and flashes the specified toolbar button.
+ShowBubbleTooltipAt	m	void ShowBubbleTooltipAt(int pointX, int pointY, int arrowPos:swArrowPosition, string titleString, string messageString, string urlLoc)	2005		Displays a Bubble ToolTip at the specified location.
+ShowBubbleTooltipForAddinToolbar	m	void ShowBubbleTooltipForAddinToolbar(string addInCLSID, int pointAt_UserID, string flashButton_UserIDs, int titleResID, string titleString, string messageString)	2007		Displays a Bubble Tooltip for the specified add-in and flashes the specified toolbar button.
+ShowHomeIconMarker	m	int ShowHomeIconMarker()	2018		Displays a home icon.
+ShowTooltip	m	void ShowTooltip(string ToolbarName, int buttonIndex, int mask1, int mask2, string titleString, string messageString)	2005		Shows the Bubble ToolTip and flashes the specified toolbar or toolbar buttons.

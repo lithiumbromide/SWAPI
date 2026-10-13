@@ -1,0 +1,5 @@
+#swapi-map 1 module=swscanto3dapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@Scanto3D	o
+GetMeshCount	m	Function GetMeshCount() As Long
+GetMeshDataAtIndex	m	Function GetMeshDataAtIndex(ByVal Index As Long, ByRef Points As Variant, ByRef Facets As Variant) As Boolean
+GetMeshDataCountAtIndex	m	Function GetMeshDataCountAtIndex(ByVal Index As Long, ByRef PointsCount As Long, ByRef FacetsCount As Long) As Boolean

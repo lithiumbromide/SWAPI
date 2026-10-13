@@ -1,0 +1,107 @@
+#swapi-map 1 module=swinspectionapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@BalloonSettings	o
+Apply	m	Function Apply() As Boolean
+AttachToCharacteristic	p	Property AttachToCharacteristic As Boolean
+Fit	p	Property Fit As Long:swiBalloonSettingsFit_e
+GetOffsets	m	Function GetOffsets(ByVal Type As Long:swiBalloonSettingsOffsetTypes_e, ByRef IsVisible As Boolean, ByRef X_Offset As Double, ByRef Y_Offset As Double) As Boolean
+KeyCharFit	p	Property KeyCharFit As Long:swiBalloonSettingsFit_e
+KeyCharPrefix	p	Property KeyCharPrefix As String
+KeyCharShape	p	Property KeyCharShape As Long:swiBalloonSettingsShape_e
+Layer	p	Property Layer As Long:swiBalloonSettingLayer_e
+Prefix	p	Property Prefix As String
+RotateToMatchCharacteristic	p	Property RotateToMatchCharacteristic As Boolean
+SetOffsets	m	Function SetOffsets(ByVal Type As Long:swiBalloonSettingsOffsetTypes_e, ByVal IsVisible As Boolean, ByVal X_Offset As Double, ByVal Y_Offset As Double) As Boolean
+Shape	p	Property Shape As Long:swiBalloonSettingsShape_e
+UserSpecifiedLayer	p	Property UserSpecifiedLayer As String
+@CharacteristicsData	o
+Accept	p	Property Accept As String
+AQL	p	Property AQL As String
+CharId	p	Property CharId As Double
+CharZone	p	Property CharZone As String
+Classification	p	Property Classification As Long:swiCharacteristicClassification_e
+Comments	p	Property Comments As String
+ConfigurationName	p	Property ConfigurationName As String
+ID	p	Property ID As String
+Key	p	Property Key As Boolean
+LowerLimit	p	Property LowerLimit As String
+Method	p	Property Method As String
+Operation	p	Property Operation As String
+Quantity	p	Property Quantity As Long
+Reference	p	Property Reference As Boolean
+Reject	p	Property Reject As String
+SampleSize	p	Property SampleSize As String
+Selected	p	Property Selected As Boolean
+Sheet	p	Property Sheet As String
+SubType	p	Property SubType As Long:swiCharacteristicSubType_e
+ToleranceMinus	p	Property ToleranceMinus As String
+TolerancePlus	p	Property TolerancePlus As String
+Units	p	Property Units As String
+UpperLimit	p	Property UpperLimit As String
+Value	p	Property Value As String
+View	p	Property View As String
+@InspectionAddinMgr	o
+AddCharacteristics	m	Function AddCharacteristics(ByRef AnnotationsIn As Variant) As Object:CharacteristicsData
+AddInspectionMethod	m	Function AddInspectionMethod(ByVal MethodName As String) As Boolean
+AddOperation	m	Function AddOperation(ByVal Operation As String) As Boolean
+AddOrEditBalloons	m	Function AddOrEditBalloons(ByVal BalloonSettings As Object:BalloonSettings) As Boolean
+AddVendor	m	Function AddVendor(ByVal VendorName As String, ByVal VendorType As Long:swiVendorsInspectionType_e) As Boolean
+CreateInspectionProject	m	Function CreateInspectionProject(ByVal InspectionProjectData As Object:InspectionProjectData, ByVal DeleteOld As Boolean, ByRef ErrorCode As Long:swiErrorCode_e) As Object:InspectionProject
+CreateInspectionProjectData	m	Function CreateInspectionProjectData(ByVal TemplatePathIn As String) As Object:InspectionProjectData
+DeleteInspectionMethods	m	Function DeleteInspectionMethods(ByRef MethodList As Variant) As Variant
+DeleteOperations	m	Function DeleteOperations(ByRef OperationList As Variant) As Variant
+DeleteVendors	m	Function DeleteVendors(ByRef VendorList As Variant) As Variant
+EditInspectionMethod	m	Function EditInspectionMethod(ByVal MethodID As String, ByVal MethodName As String) As Boolean
+EditInspectionProject	m	Function EditInspectionProject(ByVal InspectionProjectData As Object:InspectionProjectData) As Boolean
+GetBalloonSettings	m	Function GetBalloonSettings() As Object:BalloonSettings
+GetCharacteristicIDs	m	Function GetCharacteristicIDs() As Variant
+GetCharacteristicsData	m	Function GetCharacteristicsData(ByVal CharId As Double) As Object:CharacteristicsData
+GetInspectionMethods	m	Function GetInspectionMethods(ByRef MethodList As Variant, ByRef MethodIDs As Variant) As Boolean
+GetInspectionProject	m	Function GetInspectionProject() As Object:InspectionProject
+GetInspectionProjectData	m	Function GetInspectionProjectData() As Object:InspectionProjectData
+GetOperations	m	Function GetOperations(ByRef OperationList As Variant, ByRef OperationIDs As Variant) As Boolean
+GetVendors	m	Function GetVendors(ByRef VendorList As Variant) As Boolean
+RemoveBalloons	m	Function RemoveBalloons() As Boolean
+SelectBalloons	m	Function SelectBalloons() As Boolean
+@InspectionProject	o
+ExportTo2DPDF	m	Function ExportTo2DPDF(ByVal FilePath As String) As Boolean
+ExportTo3DPDF	m	Function ExportTo3DPDF(ByVal FilePath As String) As Boolean
+ExportToEDrawings	m	Function ExportToEDrawings(ByVal FilePath As String) As Boolean
+ExportToExcel	m	Function ExportToExcel(ByVal TemplatePath As String, ByVal FilePath As String, ByVal Multisheet As Boolean) As Boolean
+@InspectionProjectData	o
+AQL	p	Property AQL As String
+AutoBalloon	p	Property AutoBalloon As Boolean
+AutoExplodeHoleCallout	p	Property AutoExplodeHoleCallout As Boolean
+Basic	p	Property Basic As Boolean
+Classification	p	Property Classification As Long:swiCharacteristicClassification_e
+CreateForEachInstance	p	Property CreateForEachInstance As Boolean
+DocumentName	p	Property DocumentName As String
+DocumentNumber	p	Property DocumentNumber As String
+DocumentRevision	p	Property DocumentRevision As String
+Extraction	p	Property Extraction As Long:swiCharacteristicInfoExtraction_e
+ExtractionCriteria	p	Property ExtractionCriteria As String
+Feature	p	Property Feature As Boolean
+IncludeDimensions	p	Property IncludeDimensions As Boolean
+IncludeGDT	p	Property IncludeGDT As Boolean
+IncludeHoleCallout	p	Property IncludeHoleCallout As Boolean
+IncludeHoleTable	p	Property IncludeHoleTable As Boolean
+IncludeNotes	p	Property IncludeNotes As Boolean
+IncludeSurfaceFinish	p	Property IncludeSurfaceFinish As Boolean
+IncludeWeld	p	Property IncludeWeld As Boolean
+InspectionOnly	p	Property InspectionOnly As Boolean
+JobNumber	p	Property JobNumber As String
+Level	p	Property Level As Long:swiSamplingLevel_e
+LotSize	p	Property LotSize As Long
+NotesAutoExplode	p	Property NotesAutoExplode As Boolean
+OverriddenValue	p	Property OverriddenValue As Boolean
+PartName	p	Property PartName As String
+PartNumber	p	Property PartNumber As String
+PartRevision	p	Property PartRevision As String
+PreventAutoReNumbering	p	Property PreventAutoReNumbering As Boolean
+Reference	p	Property Reference As Boolean
+SamplingType	p	Property SamplingType As Long:swiSamplingType_e
+SecondaryUnits	p	Property SecondaryUnits As Boolean
+SheetFormat	p	Property SheetFormat As Boolean
+Sort	p	Property Sort As Long:swiCharacteristicInfoSort_e
+SplitChamferDimensions	p	Property SplitChamferDimensions As Boolean
+StartNumber	p	Property StartNumber As Long
+Vendor	p	Property Vendor As String

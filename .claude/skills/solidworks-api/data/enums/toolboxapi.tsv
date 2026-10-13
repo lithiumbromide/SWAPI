@@ -1,0 +1,18 @@
+#swapi-enums 1 module=toolboxapi sw=2026 prefix=SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser. cols=name,value,description
+@swApplicationEvents_e		Events to be handled by the SOLIDWORKS Toolbox Browser application.
+swDestroy	1	Notifies that the Toolbox Browser application object is being destroyed
+@swPDMDocManagerEvents_e		Events to be handled by the PDM application.
+swAfterCopyingDocument	9	Notifies after Toolbox Browser copies or moves a PDM document
+swAfterDeletingDocument	7	Notifies after Toolbox Browser deletes a PDM document
+swAfterWritingToDocument	3	Notifies after Toolbox Browser writes to a PDM document
+swBeforeCopyingDocument	8	Notifies before Toolbox Browser copies or moves a PDM document
+swBeforeDeletingDocument	6	Notifies before Toolbox Browser deletes a PDM document
+swBeforeWritingToDocument	2	Notifies before Toolbox Browser writes to a PDM document
+swNewDocumentAdded	5	Notifies that Toolbox Browser has created a new PDM document or added a PDM document to the Toolbox Browser
+swPDMDestroy	1	Notifies that the PDM application object is being destroyed
+swPreInsertDocument	4	Notifies before Toolbox Browser inserts a PDM document into an assembly
+@swPDMStatus_e		PDM document statuses.
+swPDMStatusError	0
+swPDMStatusKnownAndAvailable	2	Document is known to PDM and writable
+swPDMStatusKnownAndUnavailable	3	Document is known to PDM and not writable
+swPDMStatusUnknown	1	Document is unknown to PDM

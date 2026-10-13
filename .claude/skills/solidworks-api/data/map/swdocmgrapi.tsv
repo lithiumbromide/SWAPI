@@ -1,0 +1,604 @@
+#swapi-map 1 module=swdocmgrapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISwDMApplication	i	Manages part, assembly, or drawing documents.	via=ISwDMClassFactory.GetApplication,ISwDMConfiguration.Application,ISwDMConfigurationMgr.Application	use=24
+CopyDocument	m	int:SwDmMoveCopyError CopyDocument(string fromName, string toName, object fromChildren, object toChildren, int option:SwDmCopyOptions, SwDMSearchOption pSrcOption)	2004		Copies a single document and optionally updates references to it.
+GetDocument	m	SwDMDocument GetDocument(string FullPathName, SwDmDocumentType docType, bool allowReadOnly, out SwDmDocumentOpenError result)	2004		Gets the specified document.
+GetLatestSupportedFileVersion	m	int GetLatestSupportedFileVersion()	2004		Gets the latest supported SOLIDWORKS version number that this utility can read.
+GetSearchOptionObject	m	SwDMSearchOption GetSearchOptionObject()	2004		Gets an ISwDMSearchOption object.
+MoveDocument	m	int:SwDmMoveCopyError MoveDocument(string fromName, string toName, object fromChildren, object toChildren, int option:SwDmCopyOptions, SwDMSearchOption pSrcOption)	2004		Moves a single document and optionally updates references to it.
+@ISwDMApplication2	i	Manages part, assembly, or drawing documents.	via=ISwDMClassFactory.GetApplication,ISwDMConfiguration.Application,ISwDMConfigurationMgr.Application	base=ISwDMApplication
+GetDocument2	m	SwDMDocument GetDocument2(object documentStream, out SwDmDocumentOpenError result)	2007 SP3		Gets the specified document from an IStream or IStorage storage.
+@ISwDMApplication3	i	Manages part, assembly, or drawing documents.	via=ISwDMClassFactory.GetApplication,ISwDMConfiguration.Application,ISwDMConfigurationMgr.Application	base=ISwDMApplication,ISwDMApplication2
+GetExternalReferenceOptionObject	m	SwDMExternalReferenceOption GetExternalReferenceOptionObject()	2011		Gets an ISwDMExternalReferenceOption object.
+@ISwDMApplication4	i	Manages part, assembly, or drawing documents.	via=ISwDMClassFactory.GetApplication,ISwDMConfiguration.Application,ISwDMConfigurationMgr.Application	base=ISwDMApplication,ISwDMApplication2,ISwDMApplication3	use=8
+GetExternalReferenceOptionObject2	m	SwDMExternalReferenceOption2 GetExternalReferenceOptionObject2()	2014		Gets an ISwDMExternalReferenceOption2 object.
+@ISwDMApplication5	i	Manages part, assembly, or drawing documents.	via=ISwDMClassFactory.GetApplication,ISwDMConfiguration.Application,ISwDMConfigurationMgr.Application	base=ISwDMApplication,ISwDMApplication2,ISwDMApplication3,ISwDMApplication4	use=2
+GetPreviewBitmapForAnnotationFiles	m	object GetPreviewBitmapForAnnotationFiles(string fileName, out SwDmAnnotationFileOpenError result)	2024 SP1		Gets the preview bitmap for the specified annotation file.
+@ISwDMClassFactory	i	Allows you to use the SOLIDWORKS Document Manager API, which requires a valid license key.	use=20
+GetApplication	m	SwDMApplication GetApplication(string LicKey)	2004		Gets the application object for the SOLIDWORKS Document Manager API.
+@ISwDMComponent	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	use=8
+ConfigurationName	p	string ConfigurationName {get;}	2004 SP1		Gets the name of the configuration for this component.
+IsHidden	m	bool IsHidden()	2004 SP1		Gets whether or not the component is hidden.
+IsSuppressed	m	bool IsSuppressed()	2004 SP1		Gets whether or not the component is suppressed.
+Name	p	string Name {get;}	2004 SP1	obsolete>ISwDMComponent11.Name3
+Transform	p	object Transform {get;}	2004 SP1		Gets the transform for this component.
+@ISwDMComponent10	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6,ISwDMComponent7,ISwDMComponent8,ISwDMComponent9	use=4
+ComponentReference	p	string ComponentReference {get;}	2018		Gets this component's reference.
+@ISwDMComponent11	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent10,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6,ISwDMComponent7,ISwDMComponent8,ISwDMComponent9	use=6
+Name3	p	string Name3 {get;}	2021		Gets the full name of this component
+SelectName2	p	string SelectName2 {get;}	2021		Gets the name of the component needed to specify in the component list in ISldWorks::IDocumentSpecification during a...
+@ISwDMComponent12	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent10,ISwDMComponent11,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6,ISwDMComponent7,ISwDMComponent8,ISwDMComponent9	use=2
+GetCustomProperty	m	string GetCustomProperty(string FieldName, out int type:SwDmCustomInfoType)	2024		Gets the specified custom property for this component.
+@ISwDMComponent2	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent	use=2
+DocumentType	p	SwDmDocumentType DocumentType {get;}	2005		Gets the component's document type.
+@ISwDMComponent3	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2	use=2
+GetDocument	m	SwDMDocument GetDocument(bool allowReadOnly, out SwDmDocumentOpenError result)	2008	obsolete>ISwDMComponent4.GetDocument2
+IsVirtual	p	bool IsVirtual {get; set;}	2008		Gets whether this component is a virtual component.
+@ISwDMComponent4	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3	use=2
+GetDocument2	m	SwDMDocument GetDocument2(bool allowReadOnly, SwDMSearchOption pSrcOption, out SwDmDocumentOpenError result)	2008 SP1		Gets this component's document using the specified search options.
+@ISwDMComponent5	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4	use=6
+ExcludeFromBOM	p	int:swDmExcludeFromBOMResult ExcludeFromBOM {get; set;}	2008 SP2		Gets whether this component is excluded from the bill of materials (BOM).
+IsEnvelope	m	bool IsEnvelope()	2008 SP2		Gets whether this component is an envelope.
+@ISwDMComponent6	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5	use=6
+PathName	p	string PathName {get;}	2009		Gets the path for this component.
+Replace	m	bool Replace(string fileName, string ConfigurationName, bool ReattachMates)	2009		Replace this component with the specified component.
+@ISwDMComponent7	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6	use=4
+Name2	p	string Name2 {get;}	2010	obsolete>ISwDMComponent11.Name3
+SelectName	p	string SelectName {get;}	2010	obsolete>ISwDMComponent11.SelectName2
+@ISwDMComponent8	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6,ISwDMComponent7	use=4
+ConfigurationID	p	int ConfigurationID {get;}	2010 SP5		Gets the ID of the configuration of this component.
+@ISwDMComponent9	i	Accesses a component's data.	via=ISwDMConfiguration2.GetComponents	base=ISwDMComponent,ISwDMComponent2,ISwDMComponent3,ISwDMComponent4,ISwDMComponent5,ISwDMComponent6,ISwDMComponent7,ISwDMComponent8	use=4
+GetID	m	int GetID()	2014		Gets the ID of the component.
+@ISwDMConfiguration	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	use=24
+AddCustomProperty	m	bool AddCustomProperty(string FieldName, SwDmCustomInfoType SwDmCustomInfoType, string FieldValue)	2004		Adds a custom property to this configuration.
+Application	p	SwDMApplication Application {get;}	2004		Gets the application for this configuration.
+DeleteCustomProperty	m	bool DeleteCustomProperty(string FieldName)	2004		Deletes the specified custom property from this configuration.
+Description	p	string Description {get; set;}	2007		Gets or sets the description for this configuration.
+Document	p	SwDMDocument Document {get;}	2004		Gets the document for this configuration.
+GetBodiesCount	m	int GetBodiesCount()	2004		Gets the number of solid bodies for this configuration.
+GetBody	m	SwDmBodyError GetBody(int index, string fileName)	2004		Gets the body at the specified index in the specified Parasolid binary file (filename extension.x_b).
+GetCustomProperty	m	string GetCustomProperty(string FieldName, out SwDmCustomInfoType type)	2004		Gets the specified custom property for this configuration.
+GetCustomPropertyCount	m	int GetCustomPropertyCount()	2004		Gets the number of custom properties for this configuration.
+GetCustomPropertyNames	m	object GetCustomPropertyNames()	2004		Gets the names of the custom properties for this configuration.
+GetLastUpdateStamp	m	int GetLastUpdateStamp()	2004		Gets the date that this configuration was last updated.
+GetMassProperties	m	object GetMassProperties(out SwDmMassPropError bRet)	2004		Gets the mass properties, if valid, for this configuration.
+GetParentConfigurationName	m	string GetParentConfigurationName()	2004		Gets the name of the parent configuration for this configuration.
+GetPreviewBitmap	m	object GetPreviewBitmap(out SwDmPreviewError result)	2004		Gets the preview bitmap for this configuration.
+Name	p	string Name {get;}		obsolete>ISwDMConfiguration7.Name2
+PreviewStreamName	p	string PreviewStreamName {get;}	2004		Gets the name of the stream for the preview bitmap of this configuration.
+SetCustomProperty	m	void SetCustomProperty(string FieldName, string newValue)	2004	obsolete>ISwDMConfiguration18.SetCustomProperty2
+StreamName	p	string StreamName {get;}	2004		Gets the name of the stream for the configuration.
+@ISwDMConfiguration10	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=1
+GetDisplayStates	m	object GetDisplayStates()	2008 SP5		Gets the names of the display states for this configuration.
+IsDirty	m	bool IsDirty()	2008 SP5		Gets whether this configuration is dirty (i.e., needs to be updated).
+@ISwDMConfiguration11	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9
+BOMPartNoSource	p	int:swDmBOMPartNumberSource BOMPartNoSource {get; set;}	2009		Gets or sets the source of the part number used in the bill of materials (BOM) for this configuration.
+GetReplacedComponents	m	void GetReplacedComponents(out object ComponentNames, out object ConfigurationNames, out object NewFilenames, out object MatesReattached)	2009		Gets information about the components that were replaced by ISwDMComponent6::Replace.
+IsSpeedPak	m	bool IsSpeedPak()	2009		Gets whether this configuration is a SpeedPak.
+ShowChildComponentsInBOM	p	int:swDmShowChildComponentsInBOMResult ShowChildComponentsInBOM {get; set;}		obsolete>ISwDMConfiguration15.ShowChildComponentsInBOM2
+@ISwDMConfiguration12	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=8
+DimXpertPart	p	SwDMDimXpertPart DimXpertPart {get;}	2010		Gets the DimXpert part associated with this configuration.
+GetComponentVisibleByDisplayStateName	m	void GetComponentVisibleByDisplayStateName(string DisplayStateName, out object ComponentVisibleList, out object ComponentFileDirectory)	2010		Gets the visibility states and path and file names of the components in the given display state.
+GetID	m	int GetID()	2010		Gets the ID of the configuration.
+GetLinkedDisplayStates	m	int GetLinkedDisplayStates(out object DisplayStateNameList)	2010		Gets the names and number of linked display states.
+@ISwDMConfiguration13	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=4
+type	p	int:swDmConfigurationType type {get;}	2010 SP5		Gets the type of this configuration.
+@ISwDMConfiguration14	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration13,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=4
+GetCustomProperty2	m	string GetCustomProperty2(string FieldName, out SwDmCustomInfoType type)	2013		Gets the specified custom property for this configuration.
+@ISwDMConfiguration15	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration13,ISwDMConfiguration14,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9
+IsCustomPropertyEditable	m	void IsCustomPropertyEditable(string FieldName, out bool IsEditable)	2018		Gets whether the specified custom property is editable.
+ShowChildComponentsInBOM2	p	int:swDmShowChildComponentsInBOMResult ShowChildComponentsInBOM2 {get; set;}	2018		Gets whether to show child components in the bill of materials (BOM) for this configuration.
+@ISwDMConfiguration16	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration13,ISwDMConfiguration14,ISwDMConfiguration15,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=2
+GetCutListItems	m	object:ISwDMCutListItem3 GetCutListItems()	2019		Gets the cut-list items for this configuration.
+@ISwDMConfiguration17	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration13,ISwDMConfiguration14,ISwDMConfiguration15,ISwDMConfiguration16,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9	use=6
+Get3DExperienceType	m	int:swDm3DExperienceCfgType_e Get3DExperienceType()	2020 SP3.1		Gets how SOLIDWORKS Design connected to the 3DEXPERIENCE platform views this configuration.
+GetRepresentationParent	m	string GetRepresentationParent()	2020 SP3.1		Gets the Physical Product represented by this configuration in SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
+@ISwDMConfiguration18	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration10,ISwDMConfiguration11,ISwDMConfiguration12,ISwDMConfiguration13,ISwDMConfiguration14,ISwDMConfiguration15,ISwDMConfiguration16,ISwDMConfiguration17,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8,ISwDMConfiguration9
+SetCustomProperty2	m	bool SetCustomProperty2(string FieldName, string newValue)	2023		Sets the specified custom property for this configuration.
+@ISwDMConfiguration2	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration	use=13
+GetComponents	m	object:ISwDMComponent GetComponents()	2004 SP1		Gets the components referenced by the configuration.
+GetPartitionStream	m	SwDmBodyError GetPartitionStream(string fileName)	2004 SP1		Gets the Parasolid partition stream that has the body partition information and writes it the specified file....
+PartitionStreamName	p	string PartitionStreamName {get;}	2004 SP1		Gets the name of the Parasolid body partition stream.
+@ISwDMConfiguration3	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2
+GetImportedBodiesCount	m	int GetImportedBodiesCount()	2004 SP2		Gets the number of imported solid bodies in this configuration.
+GetImportedBody	m	SwDmBodyError GetImportedBody(int index, string fileName)	2004 SP2		Gets the imported solid body in this configuration and writes the body to the specified file in Parasolid.x_b format.
+@ISwDMConfiguration4	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3
+GetAllCustomPropertyNamesAndValues	m	void GetAllCustomPropertyNamesAndValues(out object names, out object types:SwDmCustomInfoType, out object linkedTo, out object values)	2004 SP4		Gets all of the custom properties for this configuration.
+@ISwDMConfiguration5	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4
+AlternateName	p	string AlternateName {get;}		obsolete>ISwDMConfiguration7.AlternateName2
+Comment	p	string Comment {get;}		obsolete>ISwDMConfiguration7.Comment2
+GetCustomPropertyValues	m	string GetCustomPropertyValues(string FieldName, out SwDmCustomInfoType type, out string linkedTo)	2005		Gets the specified custom property value for this configuration.
+@ISwDMConfiguration6	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5
+GetReferencesInformation	m	void GetReferencesInformation(out object references, out object configurations, out object sstates)	2007	obsolete>ISwDMConfiguration8.GetReferencesInformation2
+@ISwDMConfiguration7	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6	use=10
+AlternateName2	p	string AlternateName2 {get; set;}	2007		Gets or sets the user-specified name of the configuration.
+Comment2	p	string Comment2 {get; set;}	2007		Gets or sets the comment for the configuration.
+Delete	p	bool Delete {get; set;}	2007		Gets or sets whether to mark this configuration as deleted.
+GetPreviewPNGBitmap	m	object GetPreviewPNGBitmap(out SwDmPreviewError result)	2007		Gets the PNG preview bitmap for this configuration.
+Name2	p	string Name2 {get; set;}	2007		Gets or sets the name of the configuration.
+PreviewPNGStreamName	p	string PreviewPNGStreamName {get;}	2007		Gets the name of the stream for the PNG preview bitmap of this configuration.
+@ISwDMConfiguration8	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7
+GetReferencesInformation2	m	void GetReferencesInformation2(out object references, out object configurations, out object sstates, out object IsVirtual)	2008 SP1		Gets the names of any reference documents, the configuration names of the references, and their suppression states.
+@ISwDMConfiguration9	i	Accesses configuration-specific information for the part, assembly, or drawing document.	via=ISwDMConfigurationMgr.GetConfigurationByName	base=ISwDMConfiguration,ISwDMConfiguration2,ISwDMConfiguration3,ISwDMConfiguration4,ISwDMConfiguration5,ISwDMConfiguration6,ISwDMConfiguration7,ISwDMConfiguration8
+GetPreviewBitmapBytes	m	object GetPreviewBitmapBytes(out SwDmPreviewError result)	2008 SP4		Gets the preview byte array for this document.
+GetPreviewPNGBitmapBytes	m	object GetPreviewPNGBitmapBytes(out SwDmPreviewError result)	2008 SP4		Gets the preview PNG byte array for this document.
+@ISwDMConfigurationMgr	i	Accesses the ConfigurationMgr for the document, which lets you get different configurations in the document.	via=ISwDMDocument.ConfigurationManager	use=22
+Application	p	SwDMApplication Application {get;}	2004		Gets the ISwDMApplication object.
+Document	p	SwDMDocument Document {get;}	2004		Gets the ISwDMDocument object for this document.
+GetActiveConfigurationName	m	string GetActiveConfigurationName()	2004		Gets the name of the active configuration in the document.
+GetConfigurationByName	m	SwDMConfiguration GetConfigurationByName(string ConfigurationName)	2004	obsolete>ISwDMConfigurationMgr2.GetConfigurationByName2
+GetConfigurationCount	m	int GetConfigurationCount()	2004	obsolete>ISwDMConfigurationMgr2.GetConfigurationCount2
+GetConfigurationNames	m	object GetConfigurationNames()	2004	obsolete>ISwDMConfigurationMgr2.GetConfigurationNames2
+@ISwDMConfigurationMgr2	i	Accesses the ConfigurationMgr for the document, which lets you get different configurations of the document.	via=ISwDMDocument.ConfigurationManager	base=ISwDMConfigurationMgr	use=8
+GetConfigurationByName2	m	SwDMConfiguration GetConfigurationByName2(string ConfigurationName, out SwDMConfigurationError result)	2019		Gets the specified configuration in the document.
+GetConfigurationCount2	m	int GetConfigurationCount2(out SwDMConfigurationError result)	2019		Gets the number of configurations in this document.
+GetConfigurationNames2	m	object GetConfigurationNames2(out SwDMConfigurationError result)	2019		Gets the names of the configurations in this document.
+@ISwDMCutListItem	i	Accesses cut-list items.	use=8
+GetCustomPropertyNames	m	object GetCustomPropertyNames()	2009		Gets the names of custom property names for this cut-list item.
+GetCustomPropertyValue	m	string GetCustomPropertyValue(string FieldName, out SwDmCustomInfoType type, out string linkedTo)		obsolete>ISwDMCutListItem.GetCustomPropertyValue
+Name	p	string Name {get; set;}	2009		Gets the name of this cut-list item.
+Quantity	p	int Quantity {get; set;}	2009		Gets the number of this cut-list item.
+@ISwDMCutListItem2	i	Accesses cut-list items.	via=ISwDMDocument13.GetCutListItems2	base=ISwDMCutListItem	use=10
+AddCustomProperty	m	bool AddCustomProperty(string FieldName, SwDmCustomInfoType FieldType, string FieldValue)	2009		Adds a custom property to this cut-list item.
+ChildFolderName	p	string ChildFolderName {get; set;}	2009		Gets the name of the cut list's child folder, if it exists.
+DeleteCustomProperty	m	bool DeleteCustomProperty(string FieldName)	2009		Deletes the specified custom property from this cut-list item.
+GetCustomPropertyValue2	m	string GetCustomPropertyValue2(string FieldName, out SwDmCustomInfoType type, out string linkedTo)	2009		Gets the evaluated value of this custom property for this cut-list item.
+IsSubFolder	p	bool IsSubFolder {get; set;}			Gets whether a cut-list item is a sub-folder.
+SetCustomProperty	m	bool SetCustomProperty(string FieldName, string newValue)	2009		Sets a custom property for this cut-list item.
+@ISwDMCutListItem3	i	Accesses cut-list items.	via=ISwDMConfiguration16.GetCutListItems,ISwDMDocument13.GetCutListItems2	base=ISwDMCutListItem,ISwDMCutListItem2
+IsCustomPropertyEditable	m	void IsCustomPropertyEditable(string FieldName, out bool IsEditable)	2018		Gets whether the specified custom property is editable.
+@ISwDMCutListItem4	i	Accesses cut-list items.	via=ISwDMConfiguration16.GetCutListItems,ISwDMDocument13.GetCutListItems2	base=ISwDMCutListItem,ISwDMCutListItem2,ISwDMCutListItem3
+CutlistType	p	swDMCutListType_e CutlistType {get;}	2021		Gets the type of this item's cut list.
+ExcludeFromCutlist	p	swDMCutListExclusionStatus_e ExcludeFromCutlist {get; set;}	2021		Gets whether this item is excluded from the cut list.
+@ISwDMDimXpertAngleBetweenDimTol	i	Allows you to access tolerance information for DimXpert angle-between dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector for computing the angle of this DimXpert angle-between dimension tolerance.
+OriginFeature	p	SwDMDimXpertFeature OriginFeature {get;}	2010		Gets the DimXpert feature of origin for this DimXpert angle-between dimension tolerance.
+Supplement	p	bool Supplement {get;}	2010		Gets whether to evaluate the supplement angle for this DimXpert angle-between dimension tolerance.
+@ISwDMDimXpertAngularityGeoTol	i	Allows you to access DimXpert angularity geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertAnnotation	i	Allows you to access general information about DimXpert geometric tolerance, dimension tolerance, and datum annotations.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+Feature	p	SwDMDimXpertFeature Feature {get;}	2010		Gets the DimXpert feature to which this DimXpert annotation is applied.
+GetCadIdentifierCount	m	int GetCadIdentifierCount()	2010		Gets the number of CAD identifiers in this DimXpert annotation.
+GetCadIdentifiers	m	object GetCadIdentifiers()	2010		Gets all of the CAD identifiers of this DimXpert annotation.
+IGetCadIdentifiers	m	string IGetCadIdentifiers(int Count)	2010		Gets all of the CAD identifiers of this DimXpert annotation.
+IsFreeState	m	bool IsFreeState()	2010		Gets whether this DimXpert annotation is in a free state.
+IsStatistical	m	bool IsStatistical()	2010		Gets whether this DimXpert annotation is statistical.
+IsSuppressed	m	bool IsSuppressed()	2010		Gets whether this DimXpert annotation is suppressed from view in the model.
+IsToBeInspected	m	bool IsToBeInspected()	2010		Gets whether this DimXpert annotation is to be inspected.
+Name	p	string Name {get;}	2010		Gets the name of this DimXpert annotation.
+type	p	swDmDimXpertAnnotationType_e type {get;}	2010		Gets the type of this DimXpert annotation.
+@ISwDMDimXpertBestFitPlaneFeature	i	Allows you to access specific information about DimXpert best fit planes.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and direction vector for this DimXpert best fit plane.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features of this DimXpert best fit plane.
+GetSubFeatures	m	object:ISwDMDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert best fit plane.
+IGetSubFeatures	m	SwDMDimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert best fit plane.
+@ISwDMDimXpertBlockTolerances	i	Allows you to access DimXpert block tolerance information.	via=ISwDMDimXpertPart.GetBlockTolerances	use=2
+GetISO2768PartType	m	bool GetISO2768PartType(out swDmDimXpertISO2768PartType_e type)	2010		Gets the ISO 2768 part type of this DimXpert block tolerance.
+GetToleranceValues	m	bool GetToleranceValues(out double Linear1, out int Linear1Prec, out double Linear2, out int Linear2Prec, out double Linear3, out int Linear3Prec, out double Angular)	2010		Gets block tolerance settings for a given document.
+type	p	swDmDimXpertBlockToleranceType_e type {get;}	2010		Gets the type of this DimXpert block tolerance.
+@ISwDMDimXpertChamferDimTol	i	Allows you to access tolerance information for DimXpert chamfer dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+ChamferType	p	swDmDimXpertChamferDimensionType_e ChamferType {get;}	2010		Gets the type of chamfer dimension for this DimXpert chamfer dimension tolerance.
+@ISwDMDimXpertChamferFeature	i	Allows you to access specific information about DimXpert chamfers.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Angle	p	double Angle {get;}	2010		Gets the angle of this DimXpert chamfer.
+AngleType	p	swDmDimXpertChamferAngleType_e AngleType {get;}	2010		Gets the type of chamfer angle for this DimXpert chamfer.
+ChamferType	p	swDmDimXpertChamferType_e ChamferType {get;}	2010		Gets the type of this DimXpert chamfer.
+Distance1	p	double Distance1 {get;}	2010		Gets the length on bevel side 1 of the selected edge, face, or vertex of this DimXpert chamfer.
+Distance2	p	double Distance2 {get;}	2010		Gets the length on bevel side 2 of the selected edge, face, or vertex of this DimXpert chamfer.
+@ISwDMDimXpertCircularityGeoTol	i	Allows you to access DimXpert circularity geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertCircularRunoutGeoTol	i	Allows you to access DimXpert circular runout geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertCompositeDistanceBetweenDimTol	i	Allows you to access tolerance information for DimXpert composite distance-between dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+BlockToleranceDecimalPlacesIntraFeature	p	int BlockToleranceDecimalPlacesIntraFeature {get;}	2010		Gets the precision of the block tolerances used by the feature-locating portion of this DimXpert composite...
+DimensionTypeIntraFeature	p	swDmDimXpertDimensionToleranceType_e DimensionTypeIntraFeature {get;}	2010		Gets the type of dimension tolerance used by the feature-locating portion of this DimXpert composite...
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector used to compute the distance-between of this DimXpert distance-between dimension tolerance.
+GetFeature	m	bool GetFeature(out SwDMDimXpertFeature Feature, out swDmDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the DimXpert feature to which this DimXpert composite distance-between dimension tolerance is applied.
+GetIntraFeature	m	bool GetIntraFeature(out SwDMDimXpertFeature Feature, out swDmDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the DimXpert feature located by the feature-locating portion of this DimXpert composite distance-between...
+GetNominalValueIntraFeature	m	double GetNominalValueIntraFeature()	2010		Gets the tolerance used by the feature-locating portion of this DimXpert composite distance-between dimension tolerance.
+GetOriginFeature	m	bool GetOriginFeature(out SwDMDimXpertFeature Feature, out swDmDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the DimXpert feature of origin to which this DimXpert composite distance-between dimension tolerance is applied.
+GetPlusAndMinusToleranceIntraFeature	m	bool GetPlusAndMinusToleranceIntraFeature(out double Plus, out double Minus)	2010		Gets the plus and minus tolerance values used by the feature-locating portion of this DimXpert composite...
+GetUpperAndLowerLimitIntraFeature	m	bool GetUpperAndLowerLimitIntraFeature(out double Upper, out double Lower)	2010		Gets the upper and lower tolerance limits used by the feature-locating portion of this DimXpert composite...
+LimitsAndFitsCodeIntraFeature	p	string LimitsAndFitsCodeIntraFeature {get;}	2010		Gets the limits and fits code used by the feature-locating portion of this DimXpert composite distance-between...
+@ISwDMDimXpertCompositeLineProfileGeoTol	i	Allows you to access DimXpert composite line profile geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert composite line profile geometric tolerance.
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer profile tolerance value for this DimXpert composite line profile geometric tolerance.
+OuterToleranceValueLowerTier	p	double OuterToleranceValueLowerTier {get;}	2010		Gets the outer profile tolerance value in the lower tier for this DimXpert composite line profile geometric tolerance.
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier of this DimXpert composite line profile geometric...
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier of this DimXpert composite line profile geometric...
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier of this DimXpert composite line profile geometric...
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite line profile geometric tolerance.
+@ISwDMDimXpertCompositePositionGeoTol	i	Allows you to access DimXpert composite position geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert composite position geometric tolerance.
+GetMaxToleranceLowerTier	m	bool GetMaxToleranceLowerTier(out bool IsMax, out double Tolerance)	2010		Gets whether the maximum tolerance is set in the lower tier for this DimXpert composite position geometric tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used for computing this DimXpert composite position geometric tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert composite position geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert composite position geometric tolerance.
+ModifierLowerTier	p	swDmDimXpertMaterialConditionModifier_e ModifierLowerTier {get;}	2010		Gets the material condition modifer for the tolerance in the lower tier for this DimXpert composite position...
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier of this DimXpert composite position geometric tolerance.
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier of this DimXpert composite position geometric tolerance.
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier of this DimXpert composite position geometric tolerance.
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite position geometric tolerance.
+ZoneType	p	swDmDimXpertPositionZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert composite position geometric tolerance.
+@ISwDMDimXpertCompositeSurfaceProfileGeoTol	i	Allows you to access DimXpert composite surface profile geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert composite surface profile geometric tolerance.
+OuterToleranceValueLowerTier	p	double OuterToleranceValueLowerTier {get;}	2010		Gets the outer tolerance value in the lower tier for this DimXpert composite surface profile geometric tolerance.
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier of this DimXpert composite surface profile geometric...
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier for this DimXpert composite surface profile geometric...
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier for this DimXpert composite surface profile geometric...
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite surface profile geometric tolerance.
+@ISwDMDimXpertCompoundClosedSlot3dFeature	i	Allows you to access specific information about DimXpert 3D compound closed slots.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Blind	p	bool Blind {get;}	2010		Gets whether this DimXpert compound closed slot is blind or through all.
+GetBottomFeature	m	SwDMDimXpertFeature GetBottomFeature()	2010		Gets DimXpert feature at the bottom of this DimXpert compound closed slot.
+GetEndFeatures	m	bool GetEndFeatures(out SwDMDimXpertFeature End1, out SwDMDimXpertFeature End2)	2010		Gets the DimXpert features at both closed ends of this DimXpert compound closed slot.
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the reference plane at the bottom of this DimXpert compound closed slot.
+GetNominalClosedSlot	m	bool GetNominalClosedSlot(out double width, out double Length, out double X, out double Y, out double Z, out double I, out double J, out double K, out double LongitudeI, out double LongitudeJ, out double LongitudeK)	2010		Gets various attributes for this DimXpert compound closed slot.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the reference plane at the top of this DimXpert compound closed slot.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out SwDMDimXpertPlaneFeature Plane1, out SwDMDimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound closed slot.
+@ISwDMDimXpertCompoundHoleFeature	i	Allows you to access specific information about DimXpert compound holes.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Blind	p	bool Blind {get;}	2010		Gets whether this DimXpert compound hole is blind or through all.
+GetBottomFeature	m	SwDMDimXpertFeature GetBottomFeature()	2010		Gets the DimXpert feature at the bottom of this DimXpert compound hole.
+GetReferenceFeature	m	SwDMDimXpertFeature GetReferenceFeature()	2010		Gets the reference DimXpert feature for this DimXpert compound hole.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert compound hole.
+GetSubFeatures	m	object:ISwDMDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert compound hole.
+IGetSubFeatures	m	SwDMDimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert compound hole.
+@ISwDMDimXpertCompoundNotchFeature	i	Allows you to access specific information about DimXpert compound notches.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Blind	p	bool Blind {get;}	2010		Gets whether this DimXpert compound notch is blind or through all.
+GetBottomFeature	m	SwDMDimXpertFeature GetBottomFeature()	2010		Gets the DimXpert feature at the bottom of this DimXpert compound notch.
+GetEndFeature	m	SwDMDimXpertFeature GetEndFeature()	2010		Gets the DimXpert feature at the closed end of this DimXpert compound notch.
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the plane at the bottom of this DimXpert compound notch.
+GetNominalNotch	m	bool GetNominalNotch(out double width, out double Length, out double X, out double Y, out double Z, out double I, out double J, out double K, out double LongitudeI, out double LongitudeJ, out double LongitudeK)	2010		Gets various attributes for this DimXpert compound notch.
+GetOpenSideReferenceFeature	m	SwDMDimXpertFeature GetOpenSideReferenceFeature()	2010		Gets the DimXpert reference feature on the open side of this DimXpert compound notch.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out SwDMDimXpertPlaneFeature Plane1, out SwDMDimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound notch.
+GetTopReferenceFeature	m	SwDMDimXpertFeature GetTopReferenceFeature()	2010		Gets the DimXpert reference feature at the top of this DimXpert compound notch.
+@ISwDMDimXpertCompoundWidthFeature	i	Allows you to access specific information about DimXpert compound widths.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalCompoundWidth	m	bool GetNominalCompoundWidth(out double width, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert compound width.
+GetNominalLongitude	m	bool GetNominalLongitude(out double I, out double J, out double K)	2010		Gets the longitudinal vector for this DimXpert compound width.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out SwDMDimXpertPlaneFeature Plane1, out SwDMDimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound width.
+Inner	p	bool Inner {get;}	2010		Gets whether this compound width is for a hole or a pin.
+@ISwDMDimXpertConcentricityGeoTol	i	Allows you to access DimXpert concentricity geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert concentricity geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert concentricity geometric tolerance.
+@ISwDMDimXpertConeAngleDimTol	i	Allows you to access tolerance information for DimXpert cone angle dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertConeFeature	i	Allows you to access specific information about DimXpert cones.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the plane at the bottom of this DimXpert cone.
+GetNominalCone	m	bool GetNominalCone(out double Angle, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets various attributes for this DimXpert cone.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the plane at the top of this DimXpert cone.
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert cone is a hole or a pin.
+@ISwDMDimXpertCounterBoreDimTol	i	Allows you to access tolerance information for DimXpert counterbore dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+ReferenceFeature	p	SwDMDimXpertFeature ReferenceFeature {get;}	2010		Gets the DimXpert reference feature for this DimXpert counterbore dimension tolerance.
+@ISwDMDimXpertCounterSinkAngleDimTol	i	Allows you to access tolerance information for DimXpert countersink angle dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+ReferenceFeature	p	SwDMDimXpertFeature ReferenceFeature {get;}	2010		Gets the DimXpert reference feature for this DimXpert countersink angle dimension tolerance.
+@ISwDMDimXpertCounterSinkDiameterDimTol	i	Allows you to access tolerance information for DimXpert countersink diameter dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+ReferenceFeature	p	SwDMDimXpertFeature ReferenceFeature {get;}	2010		Gets the DimXpert reference feature for this DimXpert countersink diameter dimension tolerance.
+@ISwDMDimXpertCylinderFeature	i	Allows you to access specific information about DimXpert cylinders.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the plane at the bottom of this DimXpert cylinder.
+GetNominalCylinder	m	bool GetNominalCylinder(out double R, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets various attributes for this DimXpert cylinder.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the plane at the top of this DimXpert cylinder.
+GetThread	m	bool GetThread(out bool IsThreaded, out string ThreadDesignation, out double ThreadDepth)	2010		Gets thread information for this DimXpert cylinder.
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert cylinder is a hole or a pin.
+@ISwDMDimXpertCylindricityGeoTol	i	Allows you to access DimXpert cylindricity geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertDatum	i	Allows you to access information about DimXpert datums.	via=ISwDMDimXpertGeometricTolerance.GetPrimaryDatums,ISwDMDimXpertGeometricTolerance.IGetPrimaryDatums,ISwDMDimXpertGeometricTolerance.GetSecondaryDatums,ISwDMDimXpertGeometricTolerance.IGetSecondaryDatums,ISwDMDimXpertGeometricTolerance.GetTertiaryDatums,ISwDMDimXpertGeometricTolerance.IGetTertiaryDatums,ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+Identifier	p	string Identifier {get;}	2010		Gets the label for this DimXpert datum.
+@ISwDMDimXpertDepthDimTol	i	Allows you to access tolerance information for DimXpert depth dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+IsThreadDepth	m	bool IsThreadDepth()	2010		Gets whether this dimension tolerance is for thread depth.
+ReferenceFeature	p	SwDMDimXpertFeature ReferenceFeature {get;}	2010		Gets the DimXpert reference feature for this DimXpert depth dimension tolerance.
+@ISwDMDimXpertDiameterDimTol	i	Allows you to access tolerance information for DimXpert diameter dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+PatternTreatment	p	swDmDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert diameter dimension tolerance.
+@ISwDMDimXpertDimensionTolerance	i	Allows you to access general information about DimXpert dimension tolerances.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+BlockToleranceDecimalPlaces	p	int BlockToleranceDecimalPlaces {get;}	2010		Gets the precision of the block tolerance of this DimXpert dimension tolerance.
+DimensionType	p	swDmDimXpertDimensionToleranceType_e DimensionType {get;}	2010		Gets the type of this DimXpert dimension tolerance.
+GetNominalValue	m	double GetNominalValue()	2010		Gets the value of this DimXpert dimension tolerance.
+GetPlusAndMinusTolerance	m	bool GetPlusAndMinusTolerance(out double Plus, out double Minus)	2010		Gets the plus and minus tolerance values for this DimXpert dimension tolerance.
+GetUpperAndLowerLimit	m	bool GetUpperAndLowerLimit(out double Upper, out double Lower)	2010		Gets the upper and lower tolerance limits for this DimXpert dimension tolerance.
+LimitsAndFitsCode	p	string LimitsAndFitsCode {get;}	2010		Gets the limits and fits code for this DimXpert dimension tolerance.
+@ISwDMDimXpertDistanceBetweenDimTol	i	Allows you to access tolerance information for DimXpert distance-between dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector for this DimXpert distance-between dimension tolerance.
+GetFeature	m	bool GetFeature(out SwDMDimXpertFeature Feature, out swDmDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the DimXpert feature to which this DimXpert distance-between dimension tolerance is applied.
+GetOriginFeature	m	bool GetOriginFeature(out SwDMDimXpertFeature Feature, out swDmDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the DimXpert feature of origin for this DimXpert distance-between dimension tolerance.
+PatternTreatment	p	swDmDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert distance-between dimension tolerance.
+@ISwDMDimXpertExtrudeFeature	i	Allows you to access specific information about DimXpert extrudes.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Blind	p	bool Blind {get;}	2010		Gets whether this DimXpert extrude is blind or through all.
+GetBottomBlends	m	SwDMDimXpertFeature GetBottomBlends()	2010		Gets the DimXpert blend feature at the bottom of this DimXpert extrude.
+GetBottomFeature	m	SwDMDimXpertFeature GetBottomFeature()	2010		Gets the DimXpert feature at the bottom of this DimXpert extrude.
+GetReferenceFeature	m	SwDMDimXpertFeature GetReferenceFeature()	2010		Gets the DimXpert reference feature for this DimXpert extrude.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert extrude.
+GetSubFeatures	m	object:ISwDMDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert extrude.
+GetTopBlends	m	SwDMDimXpertFeature GetTopBlends()	2010		Gets the DimXpert blend feature at the top of this DimXpert extrude.
+IGetSubFeatures	m	SwDMDimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert extrude.
+@ISwDMDimXpertFeature	i	Allows you to access general information about DimXpert features and sub-features.	via=ISwDMDimXpertAngleBetweenDimTol.OriginFeature,ISwDMDimXpertAnnotation.Feature,ISwDMDimXpertBestFitPlaneFeature.GetSubFeatures,ISwDMDimXpertBestFitPlaneFeature.IGetSubFeatures,ISwDMDimXpertCompositeDistanceBetweenDimTol.GetFeature,ISwDMDimXpertCompositeDistanceBetweenDimTol.GetIntraFeature,ISwDMDimXpertCompositeDistanceBetweenDimTol.GetOriginFeature,ISwDMDimXpertCompoundClosedSlot3dFeature.GetBottomFeature,ISwDMDimXpertCompoundClosedSlot3dFeature.GetEndFeatures,ISwDMDimXpertCompoundHoleFeature.GetBottomFeature,ISwDMDimXpertCompoundHoleFeature.GetReferenceFeature,ISwDMDimXpertCompoundHoleFeature.GetSubFeatures,ISwDMDimXpertCompoundHoleFeature.IGetSubFeatures,ISwDMDimXpertCompoundNotchFeature.GetBottomFeature,ISwDMDimXpertCompoundNotchFeature.GetEndFeature,ISwDMDimXpertCompoundNotchFeature.GetOpenSideReferenceFeature,ISwDMDimXpertCompoundNotchFeature.GetTopReferenceFeature,ISwDMDimXpertCounterBoreDimTol.ReferenceFeature,ISwDMDimXpertCounterSinkAngleDimTol.ReferenceFeature,ISwDMDimXpertCounterSinkDiameterDimTol.ReferenceFeature,ISwDMDimXpertDepthDimTol.ReferenceFeature,ISwDMDimXpertDistanceBetweenDimTol.GetFeature,ISwDMDimXpertDistanceBetweenDimTol.GetOriginFeature,ISwDMDimXpertExtrudeFeature.GetBottomBlends,ISwDMDimXpertExtrudeFeature.GetTopBlends,ISwDMDimXpertExtrudeFeature.GetBottomFeature,ISwDMDimXpertExtrudeFeature.GetReferenceFeature,ISwDMDimXpertExtrudeFeature.GetSubFeatures,ISwDMDimXpertExtrudeFeature.IGetSubFeatures,ISwDMDimXpertIntersectCircleFeature.GetIntersectFeature,ISwDMDimXpertIntersectCircleFeature.GetPlaneFeature,ISwDMDimXpertIntersectLineFeature.GetPlaneFeatures,ISwDMDimXpertIntersectPlaneFeature.GetFeatures,ISwDMDimXpertIntersectPointFeature.GetFeatures,ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures,ISwDMDimXpertPatternFeature.GetSubFeatures,ISwDMDimXpertPatternFeature.IGetSubFeatures,ISwDMDimXpertTangencyGeoTol.GetOriginFeature	use=2
+GetCadIdentifierCount	m	int GetCadIdentifierCount()	2010		Gets the number of CAD identifiers in this DimXpert feature.
+GetCadIdentifiers	m	object GetCadIdentifiers()	2010		Gets all of the CAD identifiers of this DimXpert feature.
+IGetCadIdentifiers	m	string IGetCadIdentifiers(int Count)	2010		Gets all of the CAD identifiers of this DimXpert feature.
+IsSuppressed	m	bool IsSuppressed()	2010		Gets whether this DimXpert feature is suppressed from the view in the model.
+Name	p	string Name {get;}	2010		Gets the name of this DimXpert feature.
+type	p	swDmDimXpertFeatureType_e type {get;}	2010		Gets the type of this DimXpert feature.
+@ISwDMDimXpertFilletFeature	i	Allows you to access specific information about DimXpert fillets.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert fillet is for a hole or a pin.
+Radius	p	double Radius {get;}	2010		Gets the radius of this DimXpert fillet.
+@ISwDMDimXpertFlatnessGeoTol	i	Allows you to access DimXpert flatness geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetPerUnitArea	m	bool GetPerUnitArea(out bool Enabled, out double Length, out double width, out double I, out double J, out double K)	2010		Gets the per unit area of this flatness geometric tolerance.
+@ISwDMDimXpertGeometricTolerance	i	Allows you to access general information about DimXpert geometric tolerances such as circularity, orientation...	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetPrimaryDatumCount	m	int GetPrimaryDatumCount()	2010		Gets the number of primary datums in this DimXpert geometric tolerance.
+GetPrimaryDatumModifiers	m	object:swDmDimXpertMaterialConditionModifier_e GetPrimaryDatumModifiers()	2010		Gets all of the material condition modifiers of the primary datum in this DimXpert geometric tolerance.
+GetPrimaryDatums	m	object:ISwDMDimXpertDatum GetPrimaryDatums()	2010		Gets all of the primary datums in this DimXpert geometric tolerance.
+GetSecondaryDatumCount	m	int GetSecondaryDatumCount()	2010		Gets the number of secondary datums in this DimXpert geometric tolerance.
+GetSecondaryDatumModifiers	m	object:swDmDimXpertMaterialConditionModifier_e GetSecondaryDatumModifiers()	2010		Gets all of the material condition modifiers of the secondary datum in this DimXpert geometric tolerance.
+GetSecondaryDatums	m	object:ISwDMDimXpertDatum GetSecondaryDatums()	2010		Gets all of the secondary datums in this DimXpert geometric tolerance.
+GetTertiaryDatumCount	m	int GetTertiaryDatumCount()	2010		Gets the number of tertiary datums in this DimXpert geometric tolerance.
+GetTertiaryDatumModifiers	m	object:swDmDimXpertMaterialConditionModifier_e GetTertiaryDatumModifiers()	2010		Gets all of the material condition modifiers of the tertiary datum in this DimXpert geometric tolerance.
+GetTertiaryDatums	m	object:ISwDMDimXpertDatum GetTertiaryDatums()	2010		Gets all of the tertiary datums in this DimXpert geometric tolerance.
+IGetPrimaryDatumModifiers	m	swDmDimXpertMaterialConditionModifier_e IGetPrimaryDatumModifiers(int Count)	2010		Gets all of the material condition modifiers of the primary datum in this DimXpert geometric tolerance.
+IGetPrimaryDatums	m	swDmDimXpertDatum IGetPrimaryDatums(int Count)	2010		Gets all of the primary datums in this DimXpert geometric tolerance.
+IGetSecondaryDatumModifiers	m	swDmDimXpertMaterialConditionModifier_e IGetSecondaryDatumModifiers(int Count)	2010		Gets all of the material condition modifiers of the secondary datum in this DimXpert geometric tolerance.
+IGetSecondaryDatums	m	swDmDimXpertDatum IGetSecondaryDatums(int Count)	2010		Gets all of the secondary datums in this DimXpert geometric tolerance.
+IGetTertiaryDatumModifiers	m	swDmDimXpertMaterialConditionModifier_e IGetTertiaryDatumModifiers(int Count)	2010		Gets all of the material condition modifiers of the tertiary datum in this DimXpert geometric tolerance.
+IGetTertiaryDatums	m	swDmDimXpertDatum IGetTertiaryDatums(int Count)	2010		Gets all of the tertiary datums in this DimXpert geometric tolerance.
+Tolerance	p	double Tolerance {get;}	2010		Gets the value of this DimXpert geometric tolerance.
+@ISwDMDimXpertIntersectCircleFeature	i	Allows you to access specific information about DimXpert intersect circles.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetIntersectFeature	m	SwDMDimXpertFeature GetIntersectFeature()	2010		Gets the DimXpert feature that intersects this DimXpert intersect circle.
+GetNominalCircle	m	bool GetNominalCircle(out double R, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the origin coordinates, radius, and vector for this DimXpert intersect circle.
+GetPlaneFeature	m	SwDMDimXpertFeature GetPlaneFeature()	2010		Gets the DimXpert plane feature used to dimension this DimXpert intersect circle.
+@ISwDMDimXpertIntersectLineFeature	i	Allows you to access specific information about DimXpert intersect lines.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalLine	m	bool GetNominalLine(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert intersect line.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out SwDMDimXpertFeature Feature1, out SwDMDimXpertFeature Feature2)	2010		Gets the DimXpert plane features that intersect to form this DimXpert intersect line.
+@ISwDMDimXpertIntersectPlaneFeature	i	Allows you to access specific information about DimXpert intersect planes.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetFeatures	m	bool GetFeatures(out SwDMDimXpertFeature Feature1, out SwDMDimXpertFeature Feature2)	2010		Gets the DimXpert features that intersect to form this DimXpert intersect plane.
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert intersect plane.
+@ISwDMDimXpertIntersectPointFeature	i	Allows you to access specific information about DimXpert intersect points.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetFeatures	m	bool GetFeatures(out SwDMDimXpertFeature Feature1, out SwDMDimXpertFeature Feature2)	2010		Gets the DimXpert features that intersect to form this DimXpert intersect point.
+GetNominalPoint	m	bool GetNominalPoint(out double X, out double Y, out double Z)	2010		Gets the coordinates of this DimXpert intersect point.
+GetNominalVector	m	bool GetNominalVector(out double I, out double J, out double K)	2010		Gets the direction vector of this DimXpert intersect point.
+@ISwDMDimXpertLengthDimTol	i	Allows you to access tolerance information for DimXpert length dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertLineProfileGeoTol	i	Allows you to access DimXpert line profile geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert line profile geometric tolerance.
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert line profile geometric tolerance.
+@ISwDMDimXpertOrientationGeoTol	i	Allows you to access DimXpert information for the orientation geometric tolerances: angularity, parallelism, and...	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert orientation geometric tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert orientation geometric tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert orientation geometric tolerance.
+IsTangentPlane	m	bool IsTangentPlane()	2010		Gets whether the tangent plane is specified for this DimXpert orientation geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert orientation geometric tolerance.
+ZoneType	p	swDmDimXpertOrientationZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert orientation geometric tolerance.
+@ISwDMDimXpertParallelismGeoTol	i	Allows you to access DimXpert parallelism geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertPart	i	Allows you to access the geometric and dimension tolerance information that underpins the DimXpert functionality...	via=ISwDMConfiguration12.DimXpertPart	use=2
+GetAnnotationCount	m	int GetAnnotationCount()	2010		Gets the total number of DimXpert annotations in the model.
+GetAnnotations	m	object:ISwDMDimXpertAnnotation GetAnnotations()	2010		Gets all of the DimXpert annotations in the model.
+GetBlockTolerances	m	SwDMDimXpertBlockTolerances GetBlockTolerances()	2010		Gets all of the DimXpert block tolerances in the model.
+GetFeatureCount	m	int GetFeatureCount()	2010		Gets the total number of DimXpert features in the model.
+GetFeatures	m	object:ISwDMDimXpertFeature GetFeatures()	2010		Gets all of the DimXpert features in the model.
+IGetAnnotations	m	SwDMDimXpertAnnotation IGetAnnotations(int Count)	2010		Gets all of the DimXpert annotations in the model.
+IGetFeatures	m	SwDMDimXpertFeature IGetFeatures(int Count)	2010		Gets all of the DimXpert features in the model.
+@ISwDMDimXpertPatternAngleBetweenDimTol	i	Allows you to access DimXpert a pattern angle dimension tolerances.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations
+@ISwDMDimXpertPatternFeature	i	Allows you to access specific information about DimXpert patterns.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert pattern feature.
+GetSubFeatures	m	object:ISwDMDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert pattern feature.
+IGetSubFeatures	m	SwDMDimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features in this DimXpert pattern feature.
+@ISwDMDimXpertPerpendicularityGeoTol	i	Allows you to access DimXpert perpendicularity geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertPlaneFeature	i	Allows you to access specific information about DimXpert planes.	via=ISwDMDimXpertCompoundClosedSlot3dFeature.GetPlaneFeatures,ISwDMDimXpertCompoundNotchFeature.GetPlaneFeatures,ISwDMDimXpertCompoundWidthFeature.GetPlaneFeatures,ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert plane.
+@ISwDMDimXpertPositionGeoTol	i	Allows you to access DimXpert position geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert position geometric tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert position geometric tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert position geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert position geometric tolerance.
+ZoneType	p	swDmDimXpertPositionZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert position geometric tolerance.
+@ISwDMDimXpertRadiusDimTol	i	Allows you to access tolerance information for DimXpert radius dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+PatternTreatment	p	swDmDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert radius dimension tolerance.
+@ISwDMDimXpertSphereFeature	i	Allows you to access specific information about DimXpert spheres.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+GetNominalSphere	m	bool GetNominalSphere(out double R, out double X, out double Y, out double Z)	2010		Gets the origin coordinates and radius of this DimXpert sphere.
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert sphere is a hole or a pin.
+@ISwDMDimXpertStraightnessGeoTol	i	Allows you to access DimXpert straightness geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert straightness geometric tolerance.
+GetPerUnitLength	m	bool GetPerUnitLength(out bool Enabled, out double Distance)	2010		Gets the per unit length for this DimXpert straightness geometric tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert straightness geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert straightness geometric tolerance.
+ZoneType	p	swDmDimXpertStraightnessZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert straightness geometric tolerance.
+@ISwDMDimXpertSurfaceFeature	i	Allows you to access specific information about DimXpert surfaces.	via=ISwDMDimXpertPart.GetFeatures,ISwDMDimXpertPart.IGetFeatures	use=2
+@ISwDMDimXpertSurfaceProfileGeoTol	i	Allows you to access DimXpert surface profile geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert surface profile geometric tolerance.
+@ISwDMDimXpertSymmetryGeoTol	i	Allows you to access DimXpert symmetry geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert symmetry geometric tolerance.
+GetZoneDirection	m	bool GetZoneDirection(out double I, out double J, out double K)	2010		Gets the zone direction of this DimXpert symmetry geometric tolerance.
+Modifier	p	swDmDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert symmetry geometric tolerance.
+@ISwDMDimXpertTangencyGeoTol	i	Allows you to access DimXpert tangency geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+GetOriginFeature	m	bool GetOriginFeature(out SwDMDimXpertFeature Feature)	2010		Gets the DimXpert feature of origin for this DimXpert tangency geometric tolerance.
+@ISwDMDimXpertTotalRunoutGeoTol	i	Allows you to access DimXpert total runout geometric tolerance information.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDimXpertWidthDimTol	i	Allows you to access tolerance information for DimXpert width dimensions.	via=ISwDMDimXpertPart.GetAnnotations,ISwDMDimXpertPart.IGetAnnotations	use=2
+@ISwDMDocument	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	use=57
+AddCustomProperty	m	bool AddCustomProperty(string FieldName, SwDmCustomInfoType FieldType, string FieldValue)	2004		Adds a custom property to document.
+Application	p	SwDMApplication Application {get;}	2004		Gets the application for this document.
+Author	p	string Author {get; set;}	2004		Gets or sets the name of the person who authored this document.
+CloseDoc	m	void CloseDoc()	2004		Closes the document.
+Comments	p	string Comments {get; set;}	2004		Gets or sets the comments for this document.
+ConfigurationManager	p	SwDMConfigurationMgr ConfigurationManager {get;}	2004		Gets the ConfigurationMgr for this document.
+CreationDate	p	string CreationDate {get;}	2004		Gets the date in string format that this document was created.
+DeleteCustomProperty	m	bool DeleteCustomProperty(string FieldName)	2004		Deletes the specified custom property from this document.
+FullName	p	string FullName {get;}	2004		Gets the full path and filename of this document.
+GetAllExternalReferences	m	object GetAllExternalReferences(SwDMSearchOption pSrcOption)		obsolete>ISwDMDocument5.GetAllExternalReferences2
+GetCustomProperty	m	string GetCustomProperty(string FieldName, out SwDmCustomInfoType type)	2004		Gets the specified custom property for this document.
+GetCustomPropertyCount	m	int GetCustomPropertyCount()	2004		Gets the number of custom properties for this document.
+GetCustomPropertyNames	m	object GetCustomPropertyNames()	2004		Gets the names of the custom properties for this document.
+GetEDrawingsData	m	SwDmEDwgDataError GetEDrawingsData(string eModelFileName)	2004	obsolete	Not superseded.
+GetHyperLinkAt	m	string GetHyperLinkAt(int at)	2004		Gets the embedded hyperlinks at the specified index for this document.
+GetHyperLinksCount	m	int GetHyperLinksCount()	2004		Gets the number of embedded hyperlinks for this document.
+GetLastUpdateStamp	m	int GetLastUpdateStamp()	2004		Gets the date on which this document was last updated.
+GetVersion	m	int GetVersion()	2004		Gets the version of this document.
+GetXmlStream	m	void GetXmlStream(string xmlFileName, ref SwDmXmlDataError result)	2004		Gets the embedded XML data for this assembly and saves it to an XML document.
+IsDetachedDrawing	m	bool IsDetachedDrawing()	2004		Gets whether this file is a detached drawing.
+Keywords	p	string Keywords {get; set;}	2004		Gets or sets the keywords for this document.
+LastSavedBy	p	string LastSavedBy {get;}	2004		Gets the name of the person who last saved this document.
+LastSavedDate	p	string LastSavedDate {get;}	2004		Gets the date in string format that this document was last saved.
+ModifyHyperLinkAt	m	void ModifyHyperLinkAt(int at, string newlink)	2004		Sets the embedded hyperlink at the specified index for this document.
+ReplaceReference	m	void ReplaceReference(string OriginalReference, string ReplacementReference)	2004		Changes all instances of the specified original reference to the specified replacement reference in this document.
+Save	m	SwDmDocumentSaveError Save()	2004		Saves the document.
+SaveAs	m	SwDmDocumentSaveError SaveAs(string saveName)	2004		Saves the document as the specified filename.
+SetCustomProperty	m	void SetCustomProperty(string FieldName, string newValue)	2004	obsolete>ISwDMDocument29.SetCustomProperty2
+Subject	p	string Subject {get; set;}	2004		Gets or sets the subject text for this document.
+Title	p	string Title {get; set;}	2004		Gets or sets the title for this document.
+ToolboxPart	p	SwDmToolboxPartType ToolboxPart {get; set;}	2004		Gets or sets whether this file is a SOLIDWORKS Toolbox file.
+WhereUsed	m	object WhereUsed(SwDMSearchOption pSrcOption)	2004		Gets the names of the files that reference this document using the specified search options.
+@ISwDMDocument10	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=14
+GetPreviewBitmap	m	object GetPreviewBitmap(out SwDmPreviewError result)	2008		Gets the preview bitmap (.bmp) for this document.
+GetPreviewPNGBitmap	m	object GetPreviewPNGBitmap(out SwDmPreviewError result)	2008		Gets the PNG preview bitmap (.png) for this document.
+GetSheets	m	object:ISwDMSheet GetSheets()	2009		Gets the sheets in a drawing document.
+GetTable	m	SwDMTable GetTable(string NameIn)	2009		Gets the specified table.
+GetTableNames	m	object GetTableNames(SwDmTableType TableType)	2009		Gets the names of the tables in this document.
+GetViews	m	object:ISwDMView GetViews()	2009		Gets the views in this document.
+PreviewPNGStreamName	p	string PreviewPNGStreamName {get;}	2008		Gets the name of the stream for the preview bitmap (.png) of this document.
+PreviewStreamName	p	string PreviewStreamName {get;}	2008		Gets the name of the stream for the preview bitmap (.bmp) of this configuration.
+@ISwDMDocument11	i		via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	status=obsolete
+GetPreviewBitmapBytes	m	object GetPreviewBitmapBytes(out SwDmPreviewError result)	2007 SP5	obsolete>ISwDMConfiguration9.GetPreviewBitmapBytes
+GetPreviewPNGBitmapBytes	m	object GetPreviewPNGBitmapBytes(out SwDmPreviewError result)	2007 SP5	obsolete>ISwDMConfiguration9.GetPreviewPNGBitmapBytes
+@ISwDMDocument12	i		via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	status=obsolete
+GetAllExternalReferences3	m	object GetAllExternalReferences3(SwDMSearchOption pSrcOption, out object brokenRefVar, out object IsVirtual)		obsolete>ISwDMDocument13.GetAllExternalReferences4
+@ISwDMDocument13	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=8
+GetAllExternalReferences4	m	object GetAllExternalReferences4(SwDMSearchOption pSrcOption, out object brokenRefVar:SwDmReferenceStatus, out object IsVirtual, out object TimeStamp)	2009	obsolete>ISwDMDocument21.GetAllExternalReferences5
+GetCutListItems2	m	object:ISwDMCutListItem GetCutListItems2()	2009	obsolete>ISwDMConfiguration16.GetCutListItems
+GetExternalDesignTable	m	string GetExternalDesignTable(SwDMSearchOption pSrcOption, out SwDmDesignTableDataError Status)	2009		Gets the path to an external (i.e., linked) design table, if one exists.
+GetLastUpdateTimeStamp	m	int GetLastUpdateTimeStamp()	2009		Gets the last update stamp for this document.
+GetSheetFormatPath	m	int:swSheetFormatPathResult GetSheetFormatPath(string SheetName, out string FormatPath)	2009		Gets the path and filename of the sheet format used for the specified sheet.
+GetSheetProperties	m	int:swSheetPropertiesResult GetSheetProperties(string SheetName, out object Properties)	2009		Gets the specified sheet's properties.
+@ISwDMDocument14	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+Get3DCCGenericStreamFile	m	SwDmXmlDataError Get3DCCGenericStreamFile(string xmlFileName)	2010		Exports an XML file with the 3D Content Central (3DCC) generic format configuration rules that were built into this...
+Get3DCCStreamFile	m	SwDmXmlDataError Get3DCCStreamFile(string xmlFileName)	2010		Exports an XML file with the 3D Content Central (3DCC) original format configuration rules built into this document...
+@ISwDMDocument15	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+GetExternalFeatureReferences	m	int GetExternalFeatureReferences(out SwDMExternalReferenceOption ExtRefOption)	2011	obsolete>ISwDMDocument18.GetExternalFeatureReferences2
+GetPartNumberStreamFile	m	SwDmXmlDataError GetPartNumberStreamFile(string xmlFileName)	2011		Gets the name of the XML file generated when uploading a model to 3D Content Central. The XML file is only generated...
+@ISwDMDocument16	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+HasFrozenFeatures	m	bool HasFrozenFeatures(out bool FrozenFeatureNeedsUpdate)	2012		Gets whether the document has frozen features and whether those features need to be updated.
+@ISwDMDocument17	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+GetCustomProperty2	m	string GetCustomProperty2(string FieldName, out SwDmCustomInfoType type)	2013		Gets the specified custom property for this document.
+@ISwDMDocument18	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+GetExternalFeatureReferences2	m	int GetExternalFeatureReferences2(SwDMExternalReferenceOption2 ExtRefOption)	2014	obsolete>ISwDMDocument27.GetExternalFeatureReferences3
+@ISwDMDocument19	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=18
+CreationDate2	p	int CreationDate2 {get;}	2015		Gets the date in numeric format that this document was created.
+Get3rdPartyStorage	m	object Get3rdPartyStorage(string StringIn, bool IsStoring)	2015		Gets an IStream interface to the specified third-party storage of this model document.
+Get3rdPartyStorageStore	m	object Get3rdPartyStorageStore(string SubStorageName, bool IsStoring)	2015		Gets the IStorage interface to the specified third-party storage store of this model document.
+GetSwDmSettingInteger	m	int GetSwDmSettingInteger(int DmSetting:swDmDocumentUnitsIntegerValue_e)	2015		Gets the specified document setting.
+GetSwDmSettingToggle	m	bool GetSwDmSettingToggle(int DmSetting:swDmDocumentUnitsToggle_e)	2015		Gets the specified document setting.
+LastSavedDate2	p	int LastSavedDate2 {get;}	2015		Gets the date in numeric format that this document was last saved.
+Release3rdPartyStorage	m	bool Release3rdPartyStorage(string StringIn)	2015		Closes the specified third-party storage.
+Release3rdPartyStorageStore	m	bool Release3rdPartyStorageStore(string SubStorageName)	2015		Closes the specified third-party storage store.
+@ISwDMDocument20	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+Delete3rdPartyStorage	m	bool Delete3rdPartyStorage(string StringIn)	2016		Deletes the specified third-party storage.
+Delete3rdPartyStorageStore	m	bool Delete3rdPartyStorageStore(string SubStorageName)	2016		Deletes the specified third-party storage store.
+@ISwDMDocument21	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+GetAllExternalReferences5	m	object GetAllExternalReferences5(SwDMSearchOption pSrcOption, out object brokenRefVar:SwDmReferenceStatus, out object IsVirtual, out object TimeStamp, out object ImportedPaths)	2017 SP2		Gets all of the external references used in a drawing document, including the statuses of any broken external...
+@ISwDMDocument22	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=6
+GetFileAvgTime	m	void GetFileAvgTime(out string bsFileTime, out string bsLWFileTime)	2018		Gets the amount of time it took to open this document the last time.
+IsCustomPropertyEditable	m	void IsCustomPropertyEditable(string FieldName, out bool IsEditable)	2018		Gets whether the specified custom property is editable.
+@ISwDMDocument23	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+GetLicenseType	m	int:SwDMDocumentLicenseType_e GetLicenseType()	2019		Gets the license type of this document.
+@ISwDMDocument24	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+IsSavedInDetailingMode	m	bool IsSavedInDetailingMode()	2020		Gets whether this document is saved in detailing mode.
+@ISwDMDocument25	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=2
+GetDisplayTitleName	m	string GetDisplayTitleName()	2020 SP4		Gets the display title name of this document.
+@ISwDMDocument26	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+Get3DExperienceType	m	int:swDm3DExperienceModelType_e Get3DExperienceType()	2021		Gets the type of 3DEXPERIENCE application that created this document.
+@ISwDMDocument27	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument26,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8	use=4
+GetExternalFeatureReferences3	m	int GetExternalFeatureReferences3(SwDMExternalReferenceOption2 ExtRefOption)	2021 SP2		Gets all of the external references, such as inserted or mirrored parts, related to features in parts in this document.
+@ISwDMDocument28	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument26,ISwDMDocument27,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+GetSplitFeatureReferences	m	object GetSplitFeatureReferences(SwDMSearchOption SrcOption)	2022		Gets the split parts in this document.
+SetSplitFeatureReferences	m	void SetSplitFeatureReferences(object ListOfSplitPartPaths, object ListOfModifiedSplitPartPaths, string NewPathName)	2022		Sets the specified split parts in this document.
+SetStockFeatureReferences	m	void SetStockFeatureReferences(object ListOfSplitPartPaths, object ListOfModifiedSplitPartPaths, string NewPathName)	2022		Sets the specified split parts in this stock part document.
+@ISwDMDocument29	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument26,ISwDMDocument27,ISwDMDocument28,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+HasLegacyCustomProperties	p	bool HasLegacyCustomProperties {get;}	2023		Gets whether this document has legacy custom properties.
+SetCustomProperty2	m	bool SetCustomProperty2(string FieldName, string newValue)	2023		Sets a custom property for this document.
+@ISwDMDocument3	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument
+GetAllCustomPropertyNamesAndValues	m	void GetAllCustomPropertyNamesAndValues(out object names, out object types, out object linkedTo, out object values)	2004 SP4		Gets all of the custom properties for this document.
+@ISwDMDocument30	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument26,ISwDMDocument27,ISwDMDocument28,ISwDMDocument29,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+SavedInLDREditMode	m	SwDMDocumentSavedInLDREditMode_e SavedInLDREditMode()	2026		Gets whether this document was saved in LDR Edit mode.
+@ISwDMDocument31	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument10,ISwDMDocument12,ISwDMDocument13,ISwDMDocument14,ISwDMDocument15,ISwDMDocument16,ISwDMDocument17,ISwDMDocument18,ISwDMDocument19,ISwDMDocument20,ISwDMDocument21,ISwDMDocument22,ISwDMDocument23,ISwDMDocument24,ISwDMDocument25,ISwDMDocument26,ISwDMDocument27,ISwDMDocument28,ISwDMDocument29,ISwDMDocument3,ISwDMDocument30,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7,ISwDMDocument8
+GetSheetFormatPathUntrimmed	m	int:swSheetFormatPathResult GetSheetFormatPathUntrimmed(string SheetName, out string FormatPath)	2026 SP2		Gets the path and filename of the sheet format used for the specified sheet without removing leading or trailing...
+GetSheetNamesUntrimmed	m	object GetSheetNamesUntrimmed()	2026 SP2		Gets the names of the sheets in the drawing document without removing leading or trailing whitespace characters.
+GetSheetPropertiesUntrimmed	m	int:swSheetPropertiesResult GetSheetPropertiesUntrimmed(string SheetName, out object Properties)	2026 SP2		Gets the specified sheet's properties.
+@ISwDMDocument4	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3	use=2
+GetActiveSheetName	m	string GetActiveSheetName()	2005		Gets the name of the active sheet in a SOLIDWORKS drawing document.
+GetSheetCount	m	int GetSheetCount()	2005		Gets the number of sheets in the SOLIDWORKS drawing document.
+@ISwDMDocument5	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3,ISwDMDocument4
+GetAllExternalReferences2	m	object GetAllExternalReferences2(SwDMSearchOption pSrcOption, out object brokenRefVar:SwDmReferenceStatus)	2005	obsolete>ISwDMDocument12.GetAllExternalReferences3
+GetCustomPropertyValues	m	string GetCustomPropertyValues(string FieldName, out SwDmCustomInfoType type, out string linkedTo)	2005		Gets the specified custom property value for this document.
+GetLinkedAttachments	m	object GetLinkedAttachments()	2005		Gets the names of the linked documents.
+@ISwDMDocument6	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5	use=2
+GetSheetNames	m	object GetSheetNames()	2005 SP2		Gets the names of the sheets in the drawing document.
+@ISwDMDocument7	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6
+IsSmartComponentDocument	m	bool IsSmartComponentDocument()	2007		Gets whether this document is a smart component.
+@ISwDMDocument8	i	Accesses the document.	via=ISwDMApplication.GetDocument,ISwDMConfiguration.Document,ISwDMConfigurationMgr.Document	base=ISwDMDocument,ISwDMDocument3,ISwDMDocument4,ISwDMDocument5,ISwDMDocument6,ISwDMDocument7
+GetChangedReferences	m	void GetChangedReferences(out object originalreferences, out object newreferences)	2007		Gets a list of the names of the original references and their corresponding new references if the references were...
+GetComponentCount	m	int GetComponentCount()	2007		Gets the number of components in a SOLIDWORKS assembly document.
+@ISwDMExternalReferenceOption	i	Allows you to access information about external references from a document.	via=ISwDMApplication4.GetExternalReferenceOptionObject2	use=28
+Configuration	p	string Configuration {get; set;}	2011		Gets and sets the configuration from which to retrieve the information about the document's external references.
+ExternalReferences	p	object ExternalReferences {get;}	2011		Gets the names of the external references stored in the document.
+NeedSuppress	p	bool NeedSuppress {get; set;}	2011		Gets and sets whether to retrieve information about suppressed external references in the document.
+ReferencedConfigurations	p	object ReferencedConfigurations {get;}	2011		Gets the names of the configurations in the external references in the document.
+SearchOption	p	SwDMSearchOption SearchOption {get; set;}	2011		Gets and sets the search options for retrieving information about the external references in the document.
+@ISwDMExternalReferenceOption2	i	Allows you to access information about external references from a document.	via=ISwDMApplication4.GetExternalReferenceOptionObject2	base=ISwDMExternalReferenceOption	use=10
+BrokenStatus	p	object:SwDmReferenceStatus BrokenStatus {get;}	2014		Gets whether the external references are broken in the document.
+IDs	p	object IDs {get;}	2014		Gets the IDs of the external references in a document.
+ReferencedFeatures	m	bool ReferencedFeatures(out object FeatureNames, out object FeatureTypes)	2014		Gets the names and types of reference features in the document.
+@ISwDMSearchOption	i	Allows you to specify the types of references and paths to search.	via=ISwDMApplication.GetSearchOptionObject,ISwDMExternalReferenceOption.SearchOption	use=6
+AddSearchPath	m	void AddSearchPath(string newPath)	2004		Adds a new search path.
+ClearAllSearchPaths	m	void ClearAllSearchPaths()	2004		Removes all search paths.
+GetAllSearchPaths	m	object GetAllSearchPaths()	2004		Gets a list of all search paths.
+RemoveSearchPath	m	void RemoveSearchPath(string remPath)	2004		Removes the specified search path.
+SearchFilters	p	int:SwDmSearchFilters SearchFilters {get; set;}	2004		Gets or sets the search filters.
+@ISwDMSheet	i	Accesses the drawing sheet.	via=ISwDMDocument10.GetSheets,ISwDMTable5.Sheet,ISwDMView.Sheet	use=2
+GetInvisibleCustomProperty	m	string GetInvisibleCustomProperty(string FieldName, out SwDmCustomInfoType type)	2009		Gets the sheet's specified invisible sheet custom property.
+GetInvisibleCustomPropertyCount	m	int GetInvisibleCustomPropertyCount()	2009		Gets the number of invisible custom properties for this sheet.
+GetInvisibleCustomPropertyNames	m	object GetInvisibleCustomPropertyNames()	2009		Gets the names of this sheet's invisible custom properties.
+Name	p	string Name {get; set;}	2009		Gets the name of the drawing sheet.
+@ISwDMSheet2	i	Accesses the drawing sheet.	via=ISwDMDocument10.GetSheets,ISwDMTable5.Sheet,ISwDMView.Sheet	base=ISwDMSheet	use=8
+GetPreviewPNGBitmap	m	object GetPreviewPNGBitmap(out SwDmPreviewError result)	2009 SP3		Gets the PNG preview bitmap (.png) for this sheet.
+GetPreviewPNGBitmapBytes	m	object GetPreviewPNGBitmapBytes(out SwDmPreviewError result)	2009 SP3		Gets the preview PNG byte array for this sheet.
+PreviewPNGStreamName	p	string PreviewPNGStreamName {get;}	2009 SP3		Gets the name of the stream for the preview bitmap (.png) of this sheet.
+@ISwDMSheet3	i	Accesses the drawing sheet.	via=ISwDMDocument10.GetSheets,ISwDMTable5.Sheet,ISwDMView.Sheet	base=ISwDMSheet,ISwDMSheet2	use=2
+GetID	m	int GetID()	2010		Gets the ID of the drawing sheet.
+@ISwDMSheet4	i	Accesses the drawing sheet.	via=ISwDMDocument10.GetSheets,ISwDMTable5.Sheet,ISwDMView.Sheet	base=ISwDMSheet,ISwDMSheet2,ISwDMSheet3	use=6
+CustomPropertyView	p	object:ISwDMView CustomPropertyView {get;}	2017		Gets the drawing view on which this sheet's custom properties reside.
+GetViews	m	object:ISwDMView GetViews()	2017		Gets the views owned by this sheet.
+@ISwDMTable	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable
+AddColumnLeft	m	SwDmTableError AddColumnLeft(ref object ColumnDataIn)	2009		Adds a column to the left of the table's current leftmost column.
+AddColumnRight	m	SwDmTableError AddColumnRight(ref object ColumnDataIn)	2009		Adds a column to the right of the table's current rightmost column.
+AddRowHead	m	SwDmTableError AddRowHead(ref object RowDataIn)	2009		Adds a row to the top of the table.
+AddRowTail	m	SwDmTableError AddRowTail(ref object RowDataIn)	2009		Adds a row to the end of the table.
+DeleteColumn	m	SwDmTableError DeleteColumn(int ColumnIndex)	2009		Deletes the specified column.
+DeleteRow	m	SwDmTableError DeleteRow(int RowIndex)	2009		Deletes the specified row.
+GetCellText	m	SwDmTableError GetCellText(int RowIndex, int ColumnIndex, out string CellTextOut)	2009		Gets the text in the specified cell.
+GetColumnCount	m	int GetColumnCount()	2009		Gets the number of columns in the table.
+GetColumnType	m	SwDmColumnType GetColumnType(int ColumnIndex)	2009		Gets the type of the specified column
+GetComponentRep	m	SwDmTableError GetComponentRep(int RowIndex, out string ComponentRep)	2009		Gets the component representation.
+GetHeaderStyle	m	SwDmTableHeaderStyle GetHeaderStyle()	2009		Gets the header style for the table.
+GetRowCount	m	int GetRowCount()	2009		Gets the number of rows in the table.
+IsTitleVisible	m	bool IsTitleVisible()	2009		Gets whether the table title is visible.
+Name	p	string Name {get;}	2009		Gets the name of the table.
+SetCellText	m	SwDmTableError SetCellText(int RowIndex, int ColumnIndex, string CellTextIn)	2009		Sets the specified text in the specified cell.
+@ISwDMTable2	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable	base=ISwDMTable
+GetBOMNumberIncrement	m	int GetBOMNumberIncrement(out SwDmTableError Error)	2009		Gets the increment value by which the item numbers are increased in the bill of materials (BOM) table.
+GetBOMStartNumber	m	int GetBOMStartNumber(out SwDmTableError Error)	2009		Gets the starting item number for this bill of materials (BOM) table.
+GetBOMTableType	m	swDmBOMTableType GetBOMTableType(out SwDmTableError Error)	2009		Gets the type of bill of materials (BOM) table.
+GetCellTextHorizontalJustification	m	swDmTableCellHorzAlignType GetCellTextHorizontalJustification(int RowIndex, int ColumnIndex, out SwDmTableError Error)	2009		Gets the type of text horizontal alignment for the specified cell in this table.
+GetColumnCustomProperty	m	string GetColumnCustomProperty(int ColumnIndex, out SwDmTableError Error)	2009		Gets the custom property for the specified column in this table.
+GetColumnWidth	m	object GetColumnWidth(int ColumnIndex, out SwDmTableError Error)	2009		Gets the width of the specified column in this table.
+GetFeatureName	m	string GetFeatureName(out SwDmTableError Error)	2009		Gets the name of the bill of materials (BOM) feature.
+ReferencedConfigurationNames	m	object ReferencedConfigurationNames(out SwDmTableError Error)	2009		Gets the configuration names used by the bill of materials (BOM) table.
+ReferencedDocumentName	m	string ReferencedDocumentName(out SwDmTableError Error)	2009		Gets the document name used by this bill of materials (BOM) table.
+@ISwDMTable3	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable	base=ISwDMTable,ISwDMTable2	use=4
+GetTableCellText	m	object GetTableCellText(out SwDmTableError Error, out int RowCount, out int ColCount)	2009 SP4		Gets all of the cell text and the number of rows and columns in this table.
+@ISwDMTable4	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable	base=ISwDMTable,ISwDMTable2,ISwDMTable3	use=8
+DisplayAsOneItem	p	bool DisplayAsOneItem {get;}	2012		Gets whether different configurations have the same item number when the bill of materials (BOM) table contains...
+Hidden	p	bool Hidden {get;}	2012		Gets whether the bill of materials (BOM) table is hidden.
+PartConfigurationGrouping	p	int:swDMPartConfigurationGrouping PartConfigurationGrouping {get;}	2012		Gets the part configuration grouping for the bill of materials (BOM) table.
+@ISwDMTable5	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable	base=ISwDMTable,ISwDMTable2,ISwDMTable3,ISwDMTable4	use=4
+Sheet	p	SwDMSheet Sheet {get;}	2017		Gets the drawing sheet for this table.
+@ISwDMTable6	i	Accesses revision and bill of materials (BOM) tables.	via=ISwDMDocument10.GetTable	base=ISwDMTable,ISwDMTable2,ISwDMTable3,ISwDMTable4,ISwDMTable5	use=2
+AddRevisionRow	m	SwDmTableError AddRevisionRow(string Revision)	2018		Adds a row with the specified revision to this table.
+GetLatestRevision	m	string GetLatestRevision()	2018		Gets the latest revision in this table.
+GetRevisionInfo	m	SwDmTableError GetRevisionInfo(string Revision, out object RowData)	2018		Gets information for the specified revision.
+GetRevTableStyle	m	swDmRevTableStyle GetRevTableStyle()	2018		Gets the style of this revision table.
+HasPlaceHolderRow	m	bool HasPlaceHolderRow()	2018		Gets whether this table has a placeholder row.
+UpdateRevisionColumn	m	SwDmTableError UpdateRevisionColumn(string Revision, SwDmColumnType ColType, string Data)	2018		Updates the specified revision column in this table.
+UpdateRevisionRow	m	SwDmTableError UpdateRevisionRow(string Revision, ref object RowDataIn)	2018		Updates the specified revision row in this table.
+@ISwDMView	i	Access the the drawing views in this drawing document.	via=ISwDMDocument10.GetViews,ISwDMSheet4.CustomPropertyView,ISwDMSheet4.GetViews	use=4
+Name	p	string Name {get; set;}	2009		Gets or sets the name of this drawing view.
+ReferencedConfiguration	p	string ReferencedConfiguration {get; set;}	2009		Gets the name of the configuration for this drawing view.
+ReferencedDocument	p	string ReferencedDocument {get; set;}	2009		Gets or sets the name of the document for this drawing view.
+Sheet	p	SwDMSheet Sheet {get; set;}	2009		Gets or sets the sheet for this drawing view.
+SheetName	p	string SheetName {get; set;}	2009		Gets or sets the name of the sheet for this drawing view.
+@ISwDMView2	i	Access the the drawing views in this drawing document.	via=ISwDMDocument10.GetViews,ISwDMSheet4.CustomPropertyView,ISwDMSheet4.GetViews	base=ISwDMView
+ReferencedConfigurationID	p	int ReferencedConfigurationID {get;}	2017		Gets the ID of the configuration for this drawing view.

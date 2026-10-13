@@ -1,0 +1,49 @@
+#swapi-map 1 module=swvisualizeapiVB6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@IBitmapImageSource	o
+GetPixels	m	Function GetPixels() As Byte()
+Height	p	Property Height As Long
+Width	p	Property Width As Long
+@IRenderCallbackHandler	o
+OnPreviewRequested	m	Sub OnPreviewRequested(ByVal Width As Long, ByVal Height As Long)
+OnRenderActionRequested	m	Sub OnRenderActionRequested(ByVal renderAction As RenderAction_e)
+@IRendererPropertiesStatus	o
+BitmapPreviewImageSource	p	Property BitmapPreviewImageSource As Unknown
+CurrentProgress	p	Property CurrentProgress As Single
+ElapsedTime	p	Property ElapsedTime As TimeSpan
+FramesRendered	p	Property FramesRendered As Long
+RenderJobStatus	p	Property RenderJobStatus As RenderJobStatus_e
+@IRendererPropertiesStatus2	o
+BitmapPreviewImageSource2	p	Property BitmapPreviewImageSource2 As IBitmapImageSource
+@IRenderNotificationHandler	o
+add_PreviewRequested	m	Sub add_PreviewRequested(ByVal value As Unknown)
+add_RenderActionChanged	m	Sub add_RenderActionChanged(ByVal value As Unknown)
+remove_PreviewRequested	m	Sub remove_PreviewRequested(ByVal value As Unknown)
+remove_RenderActionChanged	m	Sub remove_RenderActionChanged(ByVal value As Unknown)
+RendererPropertyChangedNotify	m	Sub RendererPropertyChangedNotify(ByVal renderProperty As RenderProperty_e, ByVal rendererPropertiesStatus As IRendererPropertiesStatus:RendererPropertiesStatus)
+@IRenderNotificationHandler2	o
+RendererPropertyChangedNotify	m	Sub RendererPropertyChangedNotify(ByVal renderProperty As RenderProperty_e, ByVal rendererPropertiesStatus As IRendererPropertiesStatus2:RendererPropertiesStatus2)
+SetCallbackHandler	m	Sub SetCallbackHandler(ByVal callbackHandler As IRenderCallbackHandler:RenderCallbackHandler)
+@IRenderOptions	o
+DenoiserEnabled	p	Property DenoiserEnabled As Boolean
+FrameCount	p	Property FrameCount As Long
+Height	p	Property Height As Long
+ImageFormat	p	Property ImageFormat As ImageFormat_e
+IncludeAlpha	p	Property IncludeAlpha As Boolean
+JobName	p	Property JobName As String
+Milliseconds	p	Property Milliseconds As Unknown
+OutputFolder	p	Property OutputFolder As String
+TerminationMode	p	Property TerminationMode As TerminationMode_e
+Width	p	Property Width As Long
+@IVisualizeAddin	o
+GetAddinManager	m	Function GetAddinManager() As IVisualizeAddinManager
+@IVisualizeAddin2	o
+GetAddinManager2	m	Function GetAddinManager2() As IVisualizeAddinManager2
+@IVisualizeAddinManager	o
+Render	m	Function Render() As Boolean
+RenderOptions	p	Property RenderOptions As IRenderOptions
+Save	m	Sub Save(ByVal filename As String)
+StartRender	m	Function StartRender(Optional ByVal renderNotificationHandler As IRenderNotificationHandler:RenderNotificationHandler) As Boolean
+@IVisualizeAddinManager2	o
+LaunchVisualize	m	Sub LaunchVisualize(ByVal filename As String)
+SaveWithPartGrouping	m	Sub SaveWithPartGrouping(ByVal filename As String, ByVal partGroupingMode As PartGroupingMode_e)
+StartRender2	m	Function StartRender2(ByVal renderNotificationHandler As Variant:RenderNotificationHandler2) As Boolean

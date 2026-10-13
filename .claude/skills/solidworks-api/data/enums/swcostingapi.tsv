@@ -1,0 +1,173 @@
+#swapi-enums 1 module=swcostingapi sw=2026 prefix=SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi. cols=name,value,description
+@swcActivateBodyResult_e		Results when attempting to activate a body.
+swcActivateBodyResult_GenericFailure	1	Generic failure
+swcActivateBodyResult_Success	0	Success
+@swcBodyStatus_e		Body statuses.
+swcBodyStatus_Analysed	1
+swcBodyStatus_AssignedCustomCost	3
+swcBodyStatus_Excluded	2
+swcBodyStatus_NotAnalysed	0
+@swcBodyType_e		Body types.
+swcBodyType_Custom	2
+swcBodyType_GeneralBody	5
+swcBodyType_Machined	1
+swcBodyType_SheetMetal	0
+swcBodyType_Structural	3
+swcBodyType_Undefined	4
+@swcCostFeatureType_e		Costing feature types.
+swcAdditiveFeatureType	63
+swcCustomBodiesFolderType	4
+swcCustomBodyItemType	10
+swcCustomOperationsFolderType	6
+swcEndcapFolderType	69
+swcEndCutFeatureItemType	67
+swcEndCutFeaturesFolderType	66
+swcGussetsFolderType	70
+swcMachineCustomSetupCostSubFolderType	60
+swcMachinedBodiesFolderType	0
+swcMachinedBodyItemType	8
+swcMachineOperationSetupCostSubFolderType	59
+swcMachineSetupCostItemType	61
+swcMachineSetupCostSubFolderType	58
+swcMachiningChamferFeatureItemType	22
+swcMachiningChamferOperationItemType	23
+swcMachiningCustomOperationFolderType	43
+swcMachiningEndProfileFeatureItem	54
+swcMachiningFaceAdditionalOperationItem	24
+swcMachiningFaceFeatureItemType	25
+swcMachiningFaceOperationItemType	26
+swcMachiningFilletFeatureItem	57
+swcMachiningGrooveFeatureItem	55
+swcMachiningHoleFeatureItem	38
+swcMachiningHoleOperationsFolderType	44
+swcMachiningItemBendFeatureType	62
+swcMachiningItemCustomOperation	36
+swcMachiningLibraryFeaturesFolderType	45
+swcMachiningLibraryFeatureType	53
+swcMachiningLocalSetupCostItemType	28
+swcMachiningMillAdditionalOperationItemType	29
+swcMachiningMillFeatureItemType	27
+swcMachiningMillOperationItemType	30
+swcMachiningMillOperationsFolderType	46
+swcMachiningNCAFolderType	48
+swcMachiningOperationHoleCDrill	40
+swcMachiningOperationHoleDrill	39
+swcMachiningOperationHoleTapping	41
+swcMachiningPatternedHoleFeatureItemType	31
+swcMachiningPatternedHoleSubFeatureItemType	32
+swcMachiningPlateCutpathFolderType	42
+swcMachiningPlateCutpathItem	37
+swcMachiningSetupCostFeatureItem	33
+swcMachiningSetupCostFolderType	49
+swcMachiningSetupCostItemType	34
+swcMachiningSetupCostOperationItemType	35
+swcMachiningTurnOperationsFolderType	47
+swcMachiningVolumeAdditionalOperationItem	52
+swcMachiningVolumeFeatureItemType	50
+swcMachiningVolumeOperationItemType	51
+swcMultiBodySetupCostItem	11
+swcNoCostAssignedBody	56
+swcNoCostAssignedFolderType	7
+swcSetupBodyFolderType	2
+swcSheetMetalBendsFolderType	13
+swcSheetMetalBodiesFolderType	1
+swcSheetMetalBodyItemType	9
+swcSheetMetalCustomOperationsFolderType	14
+swcSheetMetalCutPathesFolderType	15
+swcSheetMetalCutPathItemType	12
+swcSheetMetalItemCustomOperation	21
+swcSheetMetalItemFeatureType	19
+swcSheetMetalItemSetupCost	20
+swcSheetMetalLibraryFeaturesFolderType	16
+swcSheetMetalLibraryNoCostAssignedFolderType	17
+swcSheetMetalSetupCostFolderType	18
+swcStructuralBodiesFolderType	3
+swcStructuralBodyItemType	68
+swcWeldFeatureItemType	64
+swcWeldingFolderType	5
+swcWeldOperationItemType	65
+@swcCostingType_e		Costing types.
+swcCostingType_Common	0	Common Costing analysis; i.e., costing common to all Costing analyses (see Remarks)
+swcCostingType_Machining	2	Machining Costing analysis; includes 3D printing, casting, machining, and plastic
+swcCostingType_SheetMetal	1	Sheet metal Costing analysis; includes machined plate and sheet metal
+swcCostingType_Structural	3	Structural Costing analysis; includes 3D printing, casting, machining, and plastic
+@swcCustomStockCostInfoType_e		Types of custom stock costs.
+swcCustomStockCostType_CustomCost	3
+swcCustomStockCostType_SavedCostingData	1
+swcCustomStockCostType_Unknown	0
+swcCustomStockCostType_Volume	2
+@swcCustomStockImportType_e		Custom stock import types.
+swcCustomStockImportType_Configuration	1
+swcCustomStockImportType_ReferencePart	2
+swcCustomStockImportType_Unknown	0
+@swcDefaultMachiningTool_e		Types of default machining tools.
+swcDefaultMachiningTool_BallEndMill	1
+swcDefaultMachiningTool_CarbideDrill	4
+swcDefaultMachiningTool_FaceMill	2
+swcDefaultMachiningTool_FlatEndMill	0
+swcDefaultMachiningTool_HSSDrill	3
+swcDefaultMachiningTool_IDTurning	6
+swcDefaultMachiningTool_ODTurning	5
+@swcFinishingOperationType_e		Types of finishing operations.
+swcFinishingOperationType_Finishing	2
+swcFinishingOperationType_Roughing	0
+swcFinishingOperationType_Semifinishing	1
+@swcLengthUnit_e		Length units.
+swcLengthUnit_inch	1
+swcLengthUnit_mm	0
+@swcMarkUpType_e		Markup types.
+swcMarkUpType_MaterialCost	1
+swcMarkUpType_None	2
+swcMarkUpType_TotalCost	0
+@swcMassUnit_e		Mass units.
+swcMassUnit_kg	0
+swcMassUnit_lb	1
+@swcMethodType_e		Types of manufacturing methods.
+swcMethodType_3dPrinting	5
+swcMethodType_Casting	4
+swcMethodType_MachinedPlate	6
+swcMethodType_Machining	1
+swcMethodType_Plastic	3
+swcMethodType_Sheetmetal	0
+swcMethodType_Structural	2
+@swcMoldCalculationMethod_e		Types of mold calculations.
+swcMoldCalculationMethod_CycleTime	1
+swcMoldCalculationMethod_WallThickness	0
+@swcPlane_e		Types of orientation planes.
+swcPlane_XY	0
+swcPlane_XZ	2
+swcPlane_YZ	1
+@swcRemovedMaterialProcessingType_e		Types of removed material processes.
+swcProcessingType_Standard	0
+swcProcessingType_Volume	1
+@swcRunnerSystem_e		Types of runner systems.
+swcRunnerSystem_ColdRunner	1
+swcRunnerSystem_HotRunner	0
+@swcSheetMetalBlankSizeType_e		Types of sheet metal blank sizes.
+swcSheetMetalBlankSizeType_BoundingBox	0
+swcSheetMetalBlankSizeType_CustomArea	3
+swcSheetMetalBlankSizeType_CustomSize	2
+swcSheetMetalBlankSizeType_FlatPattern	1
+@swcSlotFeatureRecognitionType_e		Types of slot feature recognitions.
+swcSlotFeatureRecognitionType_Slot	0
+swcSlotFeatureRecognitionType_Volume	1
+@swcStockType_e		Stock types.
+swcStockType_Block	1
+swcStockType_Custom	4
+swcStockType_Cylinder	3
+swcStockType_Plate	2
+swcStockType_Unknown	0
+@swcStructuralStockCostType_e		Types of structural stock cost methods.
+swcStructuralStockCostType_PerLength	1
+swcStructuralStockCostType_PerUnitLength	2
+swcStructuralStockCostType_Unknown	0
+@swcUnitSystem_e		Units systems.
+swcUnitSystem_inch_lb	1
+swcUnitSystem_mm_kg	0
+@swcUpdateCostError_e		Update Costing errors.
+swcUpdateCostError_MaterialUnavailable	2
+swcUpdateCostError_None	0
+swcUpdateCostError_TemplateUnavailable	1
+@swcVolumeFeatureCalculationType_e		Types of volume feature calculations.
+swcVolumeFeatureCalculationType_CostPerVolume	1
+swcVolumeFeatureCalculationType_MachiningOperation	0

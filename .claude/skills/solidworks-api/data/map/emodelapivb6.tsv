@@ -1,0 +1,162 @@
+#swapi-map 1 module=emodelapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@EModelMarkupControl	o		prefix=EModelViewMarkup~
+AddStamp	m	Sub AddStamp(ByVal Filename As String, ByVal X As Single, ByVal Y As Single, ByVal Width As Single, ByVal Height As Single)
+CanExplode	p	Property CanExplode As Boolean
+CommentCount	p	Property CommentCount As Long
+CommentCountx64	p	Property CommentCountx64 As Unknown
+CommentID	p	Property CommentID(ByVal CommentIndex As Long) As Long
+CommentIDx64	p	Property CommentIDx64(ByVal CommentIndex As Long) As Unknown
+CommentName	p	Property CommentName(ByVal CommentIndex As Long) As String
+EnableFeature	p	Property EnableFeature(ByVal feature As EMVMarkupEnableFeatures) As Boolean
+EnableFeatures	p	Property EnableFeatures As Long:EMVMarkupEnableFeatures
+IsMeasureEnabled	p	Property IsMeasureEnabled As Boolean
+MeasureResultString	p	Property MeasureResultString As String
+OnMeasureResultsChanged	e	Event OnMeasureResultsChanged()
+SetMainFrame	m	Function SetMainFrame(ByVal inValue As Long) As HResult
+SetMeasureUnits	m	Sub SetMeasureUnits(ByVal DistanceUnit As EMVDistanceUnit, ByVal AngleUnit As EMVAngleUnit)
+ShowComment	m	Sub ShowComment(ByVal CommentID As Long)
+ShowCommentx64	m	Sub ShowCommentx64(ByVal CommentIDx64 As Unknown)
+ShowSaveMarkup	m	Sub ShowSaveMarkup(ByVal SaveName As String, ByVal SaveAs As Boolean)
+ViewOperator	p	Property ViewOperator
+ViewState	p	Property ViewState(ByVal state As EMVMarkupViewState) As Boolean
+@EModelViewControl	o
+ActivateAnnotationsForView	m	Sub ActivateAnnotationsForView(ByVal inAnnotationViewName As String, ByVal inDoActivate As Long)
+ActivateFaceSelection	m	Sub ActivateFaceSelection(ByVal switchOn As Boolean)
+ActivateInkMarkup	m	Sub ActivateInkMarkup(ByVal InkMarkupIndex As Long)
+ActiveAnimation	p	Property ActiveAnimation As Long
+ActiveViewRectangle	p	Property ActiveViewRectangle As Variant
+AlwaysShowWarningWatermark	p	Property AlwaysShowWarningWatermark As Long
+AmbientOcclusionAllowed	p	Property AmbientOcclusionAllowed As Boolean
+AmbientOcclusionEnabled	p	Property AmbientOcclusionEnabled As Boolean
+Animate	m	Sub Animate(ByVal Animating As EMVAnimateAction)
+AnimationName	p	Property AnimationName(ByVal animationIndex As Long) As String
+AnimationsCount	p	Property AnimationsCount As Long
+BackgroundColor	p	Property BackgroundColor As Long
+BackgroundColorGradient	p	Property BackgroundColorGradient As Boolean
+BackgroundColorOverride	p	Property BackgroundColorOverride As Boolean
+BackgroundImagePath	p	Property BackgroundImagePath As String
+BuildNumber	p	Property BuildNumber As String
+CameraNearClip	p	Property CameraNearClip As Single
+CameraProjection	p	Property CameraProjection As String
+ClearSelections	m	Sub ClearSelections()
+CloneAnimation	m	Sub CloneAnimation(ByVal animationIndex As Long)
+CloseActiveDoc	m	Sub CloseActiveDoc(ByVal CommandString As String)
+CoCreateInstance	m	Function CoCreateInstance(ByVal CLSIDString As String) As Object
+ComponentConfigurationName	p	Property ComponentConfigurationName(ByVal Config As String, ByVal index As Long) As String
+ComponentCount	p	Property ComponentCount(ByVal Config As String) As Long
+ComponentName	p	Property ComponentName(ByVal Config As String, ByVal index As Long) As String
+ComponentState	p	Property ComponentState(ByVal Name As String, ByVal state As EMVComponentState) As Boolean
+ComponentTransform	p	Property ComponentTransform(ByVal ComponentName As String) As Variant
+ConfigurationCount	p	Property ConfigurationCount As Long
+ConfigurationName	p	Property ConfigurationName(ByVal ConfigurationIndex As Long) As String
+CosmosInteractiveMode	m	Sub CosmosInteractiveMode(ByVal isOn As Boolean)
+CreateAnimation	m	Sub CreateAnimation(ByVal animationType As Long)
+CreateCosmosArrows	m	Sub CreateCosmosArrows(ByVal size As Single, ByVal Color As Long, ByVal pointingIn As Boolean, ByVal refID As Long)
+CreateStyle	m	Function CreateStyle(ByVal Color As Long) As Long
+CreateTooltip	m	Function CreateTooltip(ByVal TipTitle As String, ByVal TipText As String, ByVal ShowAtMousePosition As Boolean, ByVal XCoordinate As Long, ByVal YCoordinate As Long) As Long
+CurrentConfigurationIndex	p	Property CurrentConfigurationIndex As Long
+CurrentSheetIndex	p	Property CurrentSheetIndex As Long
+DeleteAnimation	m	Sub DeleteAnimation(ByVal animationIndex As Long)
+EnableFeature	p	Property EnableFeature(ByVal feature As EMVEnableFeatures) As Boolean
+EnableFeatures	p	Property EnableFeatures As Long:EMVEnableFeatures
+EnableHoverStyle	m	Sub EnableHoverStyle(ByVal enable As Boolean)
+FileName	p	Property FileName As String
+Get3dViewNameByIndex	m	Function Get3dViewNameByIndex(ByVal index As Long) As String
+GetAnnotationViewNameByIndex	m	Function GetAnnotationViewNameByIndex(ByVal index As Long) As String
+GetSelectedComponentName	m	Function GetSelectedComponentName() As String
+Height	p	Property Height As Long
+HideAllTooltips	m	Sub HideAllTooltips()
+HideTooltip	m	Sub HideTooltip(ByVal TooltipID As Long)
+HighlightColor	p	Property HighlightColor As Long
+InkMarkupCount	p	Property InkMarkupCount As Long
+InkMarkupName	p	Property InkMarkupName(ByVal InkMarkupIndex As Long) As String
+IsAnnotationViewVisible	m	Function IsAnnotationViewVisible(ByVal inAnnotationViewName As String) As Boolean
+IsMarkupModified	p	Property IsMarkupModified As Boolean
+IsMeasureEnabled	p	Property IsMeasureEnabled As Boolean
+LayerCount	p	Property LayerCount As Long
+LayerName	p	Property LayerName(ByVal LayerIndex As Long) As String
+LoadXMLBuffer	m	Sub LoadXMLBuffer(ByVal XMLDoc As Object)
+MassProperty	p	Property MassProperty(ByVal property As EMVMassProperty) As Double
+MaterialPropertyName	p	Property MaterialPropertyName As String
+NumberOf3dViews	p	Property NumberOf3dViews As Long
+NumberOfAnnotationViews	p	Property NumberOfAnnotationViews As Long
+OnAnimationsChanged	e	Event OnAnimationsChanged()
+OnCameraChange	e	Event OnCameraChange()
+OnCameraChangeFinished	e	Event OnCameraChangeFinished()
+OnComponentMouseOverNotify	e	Event OnComponentMouseOverNotify(ByVal ComponentName As String, ByVal XCoordinate As Long, ByVal YCoordinate As Long)
+OnComponentMouseOverNotify2	e	Event OnComponentMouseOverNotify2(ByVal ComponentName As String, ByVal ComponentConfigName As String, ByVal XCoordinate As Long, ByVal YCoordinate As Long)
+OnComponentSelectionNotify	e	Event OnComponentSelectionNotify(ByVal ComponentName As String, ByVal XCoordinate As Long, ByVal YCoordinate As Long)
+OnComponentSelectionNotify2	e	Event OnComponentSelectionNotify2(ByVal ComponentName As String, ByVal ComponentConfigName As String, ByVal XCoordinate As Long, ByVal YCoordinate As Long)
+OnConfigChange	e	Event OnConfigChange(ByVal ConfigId As Long)
+OnFailedLoadingDocument	e	Event OnFailedLoadingDocument(ByVal FileName As String, ByVal ErrorCode As Long, ByVal ErrorString As String)
+OnFailedPrintingDocument	e	Event OnFailedPrintingDocument(ByVal PrintJobName As String)
+OnFailedSavingDocument	e	Event OnFailedSavingDocument(ByVal FileName As String, ByVal ErrorCode As Long, ByVal ErrorString As String)
+OnFinishedAnimation	e	Event OnFinishedAnimation()
+OnFinishedLoadingDocument	e	Event OnFinishedLoadingDocument(ByVal FileName As String)
+OnFinishedPrintingDocument	e	Event OnFinishedPrintingDocument(ByVal PrintJobName As String)
+OnFinishedSavingDocument	e	Event OnFinishedSavingDocument()
+OnModifyScene	e	Event OnModifyScene(ByVal ModifyEvent As Long)
+OnNamedView	e	Event OnNamedView(ByVal NamedViewId As Long)
+OnPrevNextPlayStart	e	Event OnPrevNextPlayStart()
+OnPrevNextPlayStop	e	Event OnPrevNextPlayStop()
+OnStartedAnimation	e	Event OnStartedAnimation()
+OpenDoc	m	Sub OpenDoc(ByVal FileName As String, ByVal IsTemp As Boolean, ByVal PromptToSave As Boolean, ByVal ReadOnly As Boolean, ByVal CommandString As String)
+OpenMarkupFile	m	Sub OpenMarkupFile(ByVal inFileName As String)
+OrientToAnnotationView	m	Sub OrientToAnnotationView(ByVal inAnnotationViewName As String)
+PaperColor	p	Property PaperColor As Long
+PaperColorOverride	p	Property PaperColorOverride As Boolean
+Password	p	Property Password
+PostUploadPath	p	Property PostUploadPath
+Print2	m	Sub Print2(ByVal ShowDialog As Boolean, ByVal FileName As String, ByVal Shaded As Boolean, ByVal DraftQuality As Boolean, ByVal Color As Boolean, ByVal ScaleToFit As EMVPrintType)
+Print3	m	Sub Print3(ByVal ShowDialog As Boolean, ByVal FileName As String, ByVal Shaded As Boolean, ByVal DraftQuality As Boolean, ByVal Color As Boolean, ByVal printType As EMVPrintType, ByVal scale As Double, ByVal centerOffsetX As Long, ByVal centerOffsetY As Long)
+Print4	m	Sub Print4(ByVal ShowDialog As Boolean, ByVal FileName As String, ByVal Shaded As Boolean, ByVal DraftQuality As Boolean, ByVal Color As Boolean, ByVal printType As EMVPrintType, ByVal scale As Double, ByVal centerOffsetX As Long, ByVal centerOffsetY As Long, ByVal printAll As Boolean, ByVal pageFirst As Long, ByVal pageLast As Long)
+Print5	m	Sub Print5(ByVal ShowDialog As Boolean, ByVal FileNameInPrintQueue As String, ByVal Shaded As Boolean, ByVal DraftQuality As Boolean, ByVal Color As Boolean, ByVal printType As EMVPrintType, ByVal scale As Double, ByVal centerOffsetX As Long, ByVal centerOffsetY As Long, ByVal printAll As Boolean, ByVal pageFirst As Long, ByVal pageLast As Long, ByVal PrintToFileName As String)
+Refresh	m	Sub Refresh()
+RemoveCosmosArrows	m	Sub RemoveCosmosArrows()
+Save	m	Sub Save(ByVal SaveName As String, ByVal SaveAs As Boolean, ByVal CommandString As String)
+SelectByRay	m	Sub SelectByRay(ByVal StartX As Single, ByVal StartY As Single, ByVal StartZ As Single, ByVal DirectionX As Single, ByVal DirectionY As Single, ByVal DirectionZ As Single)
+SelectedFaceCompID	p	Property SelectedFaceCompID(ByVal index As Long) As Long
+SelectedFaceCount	p	Property SelectedFaceCount As Long
+SelectedFaceID	p	Property SelectedFaceID(ByVal index As Long) As Long
+SelectedFaceX	p	Property SelectedFaceX(ByVal index As Long) As Single
+SelectedFaceY	p	Property SelectedFaceY(ByVal index As Long) As Single
+SelectedFaceZ	p	Property SelectedFaceZ(ByVal index As Long) As Single
+Set3dView	m	Sub Set3dView(ByVal in3dViewName As String)
+SetFaceHoverColor	m	Sub SetFaceHoverColor(ByVal Color As Long)
+SetFaceStyle	m	Sub SetFaceStyle(ByVal faceID As Long, ByVal compID As Long, ByVal styleID As Long, ByVal ownerID As Long)
+SetPageSetupOptions	m	Sub SetPageSetupOptions(ByVal Orientation As EMVPrintOrientation, ByVal PaperSize As Long, ByVal PaperLength As Long, ByVal PaperWidth As Long, ByVal Copies As Long, ByVal Source As Long, ByVal Printer As String, ByVal TopMargin As Long, ByVal BottomMargin As Long, ByVal LeftMargin As Long, ByVal RightMargin As Long)
+ShadowsEnabled	p	Property ShadowsEnabled As Boolean
+SheetCount	p	Property SheetCount As Long
+SheetHeight	p	Property SheetHeight As Double
+SheetName	p	Property SheetName(ByVal SheetIndex As Long) As String
+SheetWidth	p	Property SheetWidth As Double
+Show3DPointer	m	Sub Show3DPointer(ByVal show As Boolean, ByVal StartX As Single, ByVal StartY As Single, ByVal StartZ As Single, ByVal EndX As Single, ByVal EndY As Single, ByVal EndZ As Single)
+ShowAllTooltips	m	Sub ShowAllTooltips()
+ShowConfiguration	m	Sub ShowConfiguration(ByVal ConfigurationIndex As Long)
+ShowFullScreen	m	Sub ShowFullScreen(ByVal fullscreen As Boolean)
+ShowHelp	m	Sub ShowHelp()
+ShowInkMarkup	p	Property ShowInkMarkup(ByVal InkMarkupIndex As Long)
+ShowLayer	p	Property ShowLayer(ByVal LayerName As String) As Boolean
+ShowSend	m	Sub ShowSend()
+ShowShadedEdges	p	Property ShowShadedEdges As Boolean
+ShowSheet	m	Sub ShowSheet(ByVal SheetIndex As Long)
+ShowTipAtMousePosition	p	Property ShowTipAtMousePosition(ByVal TooltipID As Long) As Boolean
+ShowToolbar	m	Sub ShowToolbar(ByVal show As Boolean)
+ShowTooltip	m	Sub ShowTooltip(ByVal TooltipID As Long)
+StereoEnabled	p	Property StereoEnabled As Boolean
+StereoFocalLength	p	Property StereoFocalLength As Single
+StereoSeparation	p	Property StereoSeparation As Single
+TipText	p	Property TipText(ByVal TooltipID As Long) As String
+TipTitle	p	Property TipTitle(ByVal TooltipID As Long) As String
+TipXCoordinate	p	Property TipXCoordinate(ByVal TooltipID As Long) As Long
+TipYCoordinate	p	Property TipYCoordinate(ByVal TooltipID As Long) As Long
+TooltipCount	p	Property TooltipCount As Long
+TooltipID	p	Property TooltipID(ByVal index As Long) As Long
+UpdateScene	m	Sub UpdateScene()
+UserName	p	Property UserName
+Version	p	Property Version As String
+ViewCamera	p	Property ViewCamera As Variant
+ViewOperator	p	Property ViewOperator
+ViewOrientation	p	Property ViewOrientation
+ViewState	p	Property ViewState(ByVal state As EMVViewState) As Boolean
+Width	p	Property Width As Long
