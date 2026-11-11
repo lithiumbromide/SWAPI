@@ -1,10 +1,10 @@
 {
   "by_type": {
-    "has_member": 38292,
-    "links_to": 145039,
-    "member_of": 38292
+    "has_member": 41518,
+    "links_to": 167546,
+    "member_of": 41518
   },
-  "shard_count": 49,
+  "shard_count": 50,
   "shards": {
     "API_GB": {
       "edges": 11933,
@@ -37,6 +37,15 @@
       "types": {
         "has_member": 2251,
         "member_of": 2251
+      }
+    },
+    "draftsightapi": {
+      "edges": 28959,
+      "path": "edges/draftsightapi.jsonl",
+      "types": {
+        "has_member": 3226,
+        "links_to": 22507,
+        "member_of": 3226
       }
     },
     "dsgnchkapi": {
@@ -415,5 +424,5 @@
       }
     }
   },
-  "total_edges": 221623
+  "total_edges": 250582
 }

@@ -47,6 +47,22 @@
     },
     "total": 2842
   },
+  "draftsightapi": {
+    "kinds": {
+      "delegate": 47,
+      "enum": 159,
+      "example": 304,
+      "interface": 163,
+      "members": 163,
+      "method": 2167,
+      "methods": 151,
+      "namespace": 2,
+      "properties": 127,
+      "property": 1059,
+      "topic": 11
+    },
+    "total": 4353
+  },
   "dsgnchkapi": {
     "kinds": {
       "enum": 1,

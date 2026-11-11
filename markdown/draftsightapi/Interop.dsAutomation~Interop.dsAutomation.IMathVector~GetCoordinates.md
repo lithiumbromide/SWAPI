@@ -1,0 +1,87 @@
+---
+title: "GetCoordinates Method (IMathVector)"
+project: ""
+interface: "IMathVector"
+member: "GetCoordinates"
+kind: "method"
+source: "draftsightapi/Interop.dsAutomation~Interop.dsAutomation.IMathVector~GetCoordinates.html"
+---
+
+# GetCoordinates Method (IMathVector)
+
+Gets the x, y, and z coordinates of this vector.
+
+## Syntax
+
+### Visual Basic
+
+```vb
+Sub GetCoordinates( _
+   ByRef X As System.Double, _
+   ByRef Y As System.Double, _
+   ByRef Z As System.Double _
+)
+```
+
+### C#
+
+```csharp
+void GetCoordinates(
+   out System.double X,
+   out System.double Y,
+   out System.double Z
+)
+```
+
+### JScript
+
+```
+function GetCoordinates(
+   X : System.double,
+   Y : System.double,
+   Z : System.double
+);
+```
+
+### Managed Extensions for C++
+
+```
+void GetCoordinates(
+   [PARAMFLAG::Out] System.double X,
+   [PARAMFLAG::Out] System.double Y,
+   [PARAMFLAG::Out] System.double Z
+)
+```
+
+### C++/CLI
+
+```cpp
+void GetCoordinates(
+   [Out] System.double X,
+   [Out] System.double Y,
+   [Out] System.double Z
+)
+```
+
+### Parameters
+
+- `X`: x coordinate
+- `Y`: y coordinate
+- `Z`: z coordinate
+
+## Examples
+
+[Rotate, Scale, Project, and Mirror a Line Entity (JavaScript)](Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_JS.htm)
+[Rotate, Scale, Project, and Mirror a Line Entity (VB.NET)](Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_VBNET.htm)
+[Rotate, Scale, Project, and Mirror a Line Entity (C#)](Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_CSharp.htm)
+[Rotate, Scale, Project, and Mirror a Line Entity (VBA)](Rotate,_Scale,_Project,_and_Mirror_Line_Entity_Example_VBA.htm)
+
+## See Also
+
+[IMathVector Interface](Interop.dsAutomation~Interop.dsAutomation.IMathVector.html)
+[IMathVector Members](Interop.dsAutomation~Interop.dsAutomation.IMathVector_members.html)
+[IMathVector::SetCoordinates Method](Interop.dsAutomation~Interop.dsAutomation.IMathVector~SetCoordinates.html)
+
+## Availability
+
+DraftSight V1R1.4
