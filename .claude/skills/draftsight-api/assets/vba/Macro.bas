@@ -16,7 +16,9 @@ Sub main()
         Report "Open a drawing first."
         Exit Sub
     End If
-    If dsDoc.IsReadOnly() Then
+    Dim readOnly As Boolean
+    dsDoc.IsReadOnly readOnly
+    If readOnly Then
         Report "The active drawing is read-only."
         Exit Sub
     End If

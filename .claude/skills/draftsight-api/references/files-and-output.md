@@ -6,7 +6,7 @@ Opening, creating, saving and closing drawings, batch runs, export to PDF, SVG a
 - New: `IApplication.NewDocument(TemplateName)` with the full path of a `.dwt` template; no document is created when the template does not exist, and the template folder depends on the installation and profile, so ask or read it from the user's setup.
 - Active document: `IApplication.GetActiveDocument`; switch with `IDocument.Activate`.
 - Close: `IApplication.CloseDocument(PathName, SaveChanges)` with the document's `GetPathName`.
-- File type checks: `IDocument.IsReadOnly`, `IsDirty`; `IDocument.SetDirty` (2020 SP4) marks a document as modified so a later save writes it.
+- State checks: `IDocument.IsReadOnly(out ReadOnly)` (an out parameter, not a return value), `IsDirty()`; `IDocument.SetDirty` (2020 SP4) marks a document as modified so a later save writes it.
 ## Save
 - `IDocument.Save()` returns `dsDocumentSaveError_e`.
 - `IDocument.SaveAs2(Name, dsDocumentSaveAsOption_e, Overwrite, out dsDocumentSaveError_e)`: DWG members are `dsDocumentSaveAs_R12_DWG` to `dsDocumentSaveAs_R2018_DWG`, DXF members end in `_ASCII_DXF` or `_BINARY_DXF`, templates use `dsDocumentSaveAs_TEMPLATE_DWT`. The help does not say which format `dsDocumentSaveAs_Default` writes, so name the format explicitly. Run `swapi.py enum dsDocumentSaveAsOption_e` for the full list.
