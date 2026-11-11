@@ -244,9 +244,10 @@ def check_data(skill_dir, meta, cfg, runtime_dir):
         return [f"data/manifest.json does not parse: {exc}"]
     if manifest.get("skill") != skill_dir.name:
         issues.append(f"data/manifest.json is for {manifest.get('skill')!r}, not {skill_dir.name}")
-    want = meta.get("sw-api-version")
+    key = "api-version" if "api-version" in meta else "sw-api-version"
+    want = meta.get(key)
     if want != manifest.get("sw_version"):
-        issues.append(f"metadata.sw-api-version {want!r} differs from data/manifest.json sw_version {manifest.get('sw_version')!r}")
+        issues.append(f"metadata.{key} {want!r} differs from data/manifest.json sw_version {manifest.get('sw_version')!r}")
     files = manifest.get("files", {})
     for rel, info in sorted(files.items()):
         p = skill_dir / "data" / rel

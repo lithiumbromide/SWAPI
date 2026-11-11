@@ -14,7 +14,7 @@ import urllib.parse
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
-RUNTIME_VERSION = "1"
+RUNTIME_VERSION = "2"
 FETCH_TIMEOUT = 6
 NEGATIVE_TTL = 900
 FM_RE = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
@@ -238,6 +238,9 @@ def since_key(text):
     m = re.match(r"^(\d+)\.(\d+)$", t)
     if m:
         return (2000 + int(m.group(1)), int(m.group(2)), 0)
+    m = re.match(r"^V1R(\d+)(?:\.(\d+))?$", t, re.I)
+    if m:
+        return (1000 + int(m.group(1)), int(m.group(2) or 0), 0)
     return None
 def clip(text, limit):
     text = text.strip()
@@ -312,6 +315,9 @@ class Store:
         self.enums = None
         self.catalog = None
         self.text_cache = {}
+    @property
+    def product(self):
+        return self.manifest.get("product") or "SOLIDWORKS"
     def verify_hashes(self):
         bad = []
         for rel, meta in self.manifest.get("files", {}).items():
@@ -1802,7 +1808,7 @@ class Checker:
                     if status.startswith("obsolete"):
                         findings.append((line, "obsolete", f"{self.disp(row.sym)} {self.st.chain_text(row, vba)}"))
                     elif self.too_new(row):
-                        findings.append((line, "since", f"{self.disp(row.sym)} needs SOLIDWORKS {self.st.eff(row)[0]} (target {self.target_text})"))
+                        findings.append((line, "since", f"{self.disp(row.sym)} needs {self.st.product} {self.st.eff(row)[0]} (target {self.target_text})"))
                     continue
                 near = self.near_miss(name, iface)
                 if near:
@@ -1821,7 +1827,7 @@ class Checker:
                         live = [r for r in rows if not self.st.eff(r)[1].startswith("obsolete")]
                         if live and all(self.too_new(r) for r in live):
                             live.sort(key=lambda r: since_key(self.st.eff(r)[0]) or (0, 0, 0))
-                            findings.append((line, "since", f"{name} is only available from SOLIDWORKS {self.st.eff(live[0])[0]} ({self.disp(live[0].sym)}; target {self.target_text})"))
+                            findings.append((line, "since", f"{name} is only available from {self.st.product} {self.st.eff(live[0])[0]} ({self.disp(live[0].sym)}; target {self.target_text})"))
                 continue
             near = self.near_miss(name, iface)
             if near:
@@ -1925,7 +1931,8 @@ def cmd_where(ctx, a, o):
     st = ctx.store
     mf = st.manifest
     counts = mf.get("counts", {})
-    o.add(f"data={mf.get('skill')} sw={mf.get('sw_version')} profile={mf.get('profile', 'full')} modules={len(st.modules)} interfaces={counts.get('interfaces', 0)} members={counts.get('members', 0)} source={mf.get('source_repo')}@{mf.get('source_ref')}:{(mf.get('source_commit') or '')[:10]} generated={mf.get('generated')}")
+    version = f"product={mf['product']} version={mf.get('sw_version')}" if mf.get("product") else f"sw={mf.get('sw_version')}"
+    o.add(f"data={mf.get('skill')} {version} profile={mf.get('profile', 'full')} modules={len(st.modules)} interfaces={counts.get('interfaces', 0)} members={counts.get('members', 0)} source={mf.get('source_repo')}@{mf.get('source_ref')}:{(mf.get('source_commit') or '')[:10]} generated={mf.get('generated')}")
     o.add(f"dir={st.dir}")
     o.add(f"root={ctx.root or 'none'} git_ref={ctx.git_ref} remote={ctx.remote_url('')} cache={ctx.cache} offline={int(ctx.offline)}")
     if getattr(a, "verify", False):
@@ -1940,7 +1947,7 @@ def cmd_where(ctx, a, o):
     hints = {"local": "full docs and all examples available from the local checkout; prefer doc --full for Remarks", "git": "full docs and all examples available through git; prefer doc --full for Remarks", "remote": "full docs and all examples fetched from GitHub on demand; prefer doc --full for Remarks", "bundled": f"offline: lean docs and {langs} examples are bundled; say so if a needed detail is missing"}
     o.add(f"mode={mode}" + (" verify=ok" if getattr(a, "verify", False) else ""))
     o.add(f"hint={hints[mode]}")
-    o.rec(skill=mf.get("skill"), sw_version=mf.get("sw_version"), mode=mode, root=str(ctx.root) if ctx.root else None, data=str(st.dir), offline=ctx.offline, repo=ctx.repo, ref=ctx.ref, bundled_example_langs=mf.get("bundled_example_langs", []))
+    o.rec(skill=mf.get("skill"), product=st.product, sw_version=mf.get("sw_version"), mode=mode, root=str(ctx.root) if ctx.root else None, data=str(st.dir), offline=ctx.offline, repo=ctx.repo, ref=ctx.ref, bundled_example_langs=mf.get("bundled_example_langs", []))
     return 0
 def add_common(p, suppress):
     d = argparse.SUPPRESS
@@ -1950,7 +1957,7 @@ def add_common(p, suppress):
     p.add_argument("--limit", type=int, default=d if suppress else None, help="Maximum results, 0 for no limit (defaults: 15 find/sig/examples, 60 members/enum/changes, 10 seltype/topic, 3 path).")
     p.add_argument("--max-chars", type=int, default=d if suppress else None, help="Maximum characters of document or code text, 0 for no limit (defaults: 6000, example 12000).")
 def build_parser():
-    ap = argparse.ArgumentParser(prog="swapi.py", description="Look up SOLIDWORKS and SOLIDWORKS PDM API signatures, enums, docs and examples from the bundled index of the official API help. Full documents come from a local SWAPI checkout, git or GitHub when available. Environment: SWAPI_ROOT, SWAPI_GIT_REF (default HEAD), SWAPI_REPO, SWAPI_REF, SWAPI_CACHE, SWAPI_OFFLINE=1, SWAPI_DATA.", epilog="Exit codes: 0 found or clean, 1 not found or findings, 2 usage error, 3 full text fetch failed after fallback (lean entry still printed), 4 bundled data missing or corrupt.")
+    ap = argparse.ArgumentParser(prog="swapi.py", description="Look up SOLIDWORKS, SOLIDWORKS PDM and DraftSight API signatures, enums, docs and examples from the bundled index of the official API help. Full documents come from a local SWAPI checkout, git or GitHub when available. Environment: SWAPI_ROOT, SWAPI_GIT_REF (default HEAD), SWAPI_REPO, SWAPI_REF, SWAPI_CACHE, SWAPI_OFFLINE=1, SWAPI_DATA.", epilog="Exit codes: 0 found or clean, 1 not found or findings, 2 usage error, 3 full text fetch failed after fallback (lean entry still printed), 4 bundled data missing or corrupt.")
     add_common(ap, False)
     sub = ap.add_subparsers(dest="cmd", metavar="COMMAND")
     sub.required = True
@@ -2014,7 +2021,7 @@ def build_parser():
     p = sp("check", "Check a VBA, C# or VB.NET file for obsolete members, near-miss member names and members newer than --target.")
     p.add_argument("file", help="Source file (.bas, .cls, .swb, .cs, .vb).")
     p.add_argument("--flavor", choices=["vba", "csharp", "vbnet"], help="Language (default from the file extension).")
-    p.add_argument("--target", help="Oldest SOLIDWORKS release the code must run on, e.g. 2023 or 2024 SP2.")
+    p.add_argument("--target", help="Oldest product release the code must run on, e.g. 2023, 2024 SP2 or, for DraftSight, V1R5.0.")
     p.set_defaults(func=cmd_check)
     p = sp("changes", "Members introduced since a release, and differences against the previous release data.")
     p.add_argument("--since", help="Release, e.g. 2025 or 2024 SP3.")
