@@ -2,11 +2,11 @@
 
 Language: English | [Русский](README.ru.md)
 
-This project converts the official SOLIDWORKS API help from `.chm` files into a local Markdown knowledge base, a compact navigation index and Agent Skills, so that Codex, Claude Code and claude.ai can help write VBA macros, C# add-ins and PDM Professional tools without loading tens of thousands of documentation files into the model context.
+This project converts the official SOLIDWORKS API help and the DraftSight API help from `.chm` files into a local Markdown knowledge base, a compact navigation index and Agent Skills, so that Codex, Claude Code and claude.ai can help write VBA macros, C# add-ins, PDM Professional tools and DraftSight automation without loading tens of thousands of documentation files into the model context.
 
-This public repository contains the pipeline scripts, the `markdown/` corpus and `llm_index/` generated from the SOLIDWORKS API 2026 help, and the skills in `.claude/skills/`. The corpus has 56,129 documents in 49 modules (see [llm_index/manifest.json](llm_index/manifest.json)); 2026 adds the `swvisualizeapi` and `swvisualizeapiVB6` modules, and `API_GB` is a second build of the SOLIDWORKS PDM Professional API help. Original `.chm` files and intermediate HTML files are not published.
+This public repository contains the pipeline scripts, the `markdown/` corpus and `llm_index/` generated from the SOLIDWORKS API 2026 help and the DraftSight 2026 SP4 API help, and the skills in `.claude/skills/`. The corpus has 60,482 documents in 50 modules (see [llm_index/manifest.json](llm_index/manifest.json)); 2026 adds the `swvisualizeapi` and `swvisualizeapiVB6` modules, `API_GB` is a second build of the SOLIDWORKS PDM Professional API help, and `draftsightapi` is the DraftSight API (`draftsightapi.chm`). Original `.chm` files and intermediate HTML files are not published.
 
-The project code is released under the MIT License and can be used in commercial projects. The generated Markdown and the skill data may contain material derived from the official SOLIDWORKS API documentation; see [NOTICE.md](NOTICE.md).
+The project code is released under the MIT License and can be used in commercial projects. The generated Markdown and the skill data may contain material derived from the official SOLIDWORKS and DraftSight API documentation; see [NOTICE.md](NOTICE.md).
 
 ## Project Layout
 
@@ -87,6 +87,8 @@ api/swconst.chm
 api/cworksapi.chm
 ```
 
+Add the DraftSight API help as well, because `scripts/skill_data.json` expects the `draftsightapi` module: copy `draftsightapi.chm` from the DraftSight installation (typically `C:\Program Files\Dassault Systemes\DraftSight\Help\english\draftsightapi.chm`) into `api/`.
+
 ### 2. Extract CHM Recursively
 
 ```bash
@@ -149,27 +151,28 @@ The file count must equal `document_count`; `compare_index.py` prints per-module
 
 ## Agent Skills
 
-`.claude/skills/` holds three skills:
+`.claude/skills/` holds four skills:
 
 | Skill | Purpose | Zipped |
 | --- | --- | --- |
 | `solidworks-api` | Desktop SOLIDWORKS API lookups (including Document Manager, Simulation and the add-on APIs) and VBA macros, C#/VB.NET add-ins, standalone tools and Document Manager tools built on them | yes |
 | `solidworks-pdm-api` | SOLIDWORKS PDM Professional API lookups (including the PDM Web API and the legacy Workgroup PDM API) and vault add-ins, task add-ins, standalone vault tools and Web API clients | yes |
+| `draftsight-api` | DraftSight API lookups and VBA macros, C#/VB.NET standalone tools and add-ins, and JavaScript pages built on them | yes |
 | `swapi-corpus-maintainer` | Regenerating this repository's corpus, index, skill data and zips | no, it only works inside this repository |
 
-Each zipped skill bundles a compact index of the 2026 help in `data/` and `scripts/swapi.py`, a CLI that answers signature, enum, selection type, document and example lookups in a few lines and checks code for obsolete or misspelled members.
+Each zipped skill bundles a compact index of its help (SOLIDWORKS 2026 or DraftSight 2026 SP4) in `data/` and `scripts/swapi.py`, a CLI that answers signature, enum, selection type, document and example lookups in a few lines and checks code for obsolete or misspelled members.
 
 ### Claude Code
 
-Claude Code discovers the skills when this repository is the open project, or when it is added to another project's session with `claude --add-dir <path to this repository>`. A skill loads when a request matches its description, for example "Write a VBA macro that exports every configuration of the active part to STEP" or "Add a PreState hook to my PDM add-in".
+Claude Code discovers the skills when this repository is the open project, or when it is added to another project's session with `claude --add-dir <path to this repository>`. A skill loads when a request matches its description, for example "Write a VBA macro that exports every configuration of the active part to STEP", "Add a PreState hook to my PDM add-in" or "Write a DraftSight macro that puts every hole circle on a HOLES layer".
 
 ### claude.ai
 
-Build the zips as described in [Validation and Packaging](#validation-and-packaging), then open Customize > Skills in claude.ai and upload `dist/solidworks-api.zip` or `dist/solidworks-pdm-api.zip` as is. Each zip has the skill folder at its root.
+Build the zips as described in [Validation and Packaging](#validation-and-packaging), then open Customize > Skills in claude.ai and upload `dist/solidworks-api.zip`, `dist/solidworks-pdm-api.zip` or `dist/draftsight-api.zip` as is. Each zip has the skill folder at its root.
 
 ### Host Modes
 
-`swapi.py` answers every lookup from the bundled `data/` and never installs packages, so both skills work fully without network access. Only full documents and unbundled examples are fetched, in this order: from a local checkout of this repository, through `git show` in that checkout when the working tree lacks the file, and from GitHub raw files at the ref recorded in `data/manifest.json` (6-second timeout, cached, skipped with `SWAPI_OFFLINE=1`); when none answers, it prints the bundled lean entry and says so. `swapi.py where` reports the mode as `local`, `git`, `remote` or `bundled`; the environment variables are listed in [scripts/README.md](scripts/README.md#skill_runtime).
+`swapi.py` answers every lookup from the bundled `data/` and never installs packages, so the distributable skills work fully without network access. Only full documents and unbundled examples are fetched, in this order: from a local checkout of this repository, through `git show` in that checkout when the working tree lacks the file, and from GitHub raw files at the ref recorded in `data/manifest.json` (6-second timeout, cached, skipped with `SWAPI_OFFLINE=1`); when none answers, it prints the bundled lean entry and says so. `swapi.py where` reports the mode as `local`, `git`, `remote` or `bundled`; the environment variables are listed in [scripts/README.md](scripts/README.md#skill_runtime).
 
 ### Generated and Hand-Written Files
 

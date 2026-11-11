@@ -25,10 +25,10 @@ python scripts/build_skill_data.py [--markdown markdown] [--index llm_index] [--
 `python scripts/package_skills.py --validate-only` checks every skill folder and fails on:
 - frontmatter: values containing `: ` or starting with a YAML indicator that are not quoted (quote the description), keys outside name, description, license, compatibility, metadata, allowed-tools; name not kebab-case, longer than 64 characters, different from the folder, or containing anthropic or claude; description empty, longer than 1024 characters, containing angle brackets, or lacking a "Use it" trigger clause;
 - structure: `SKILL.md` body of 500 lines or more, references nested deeper than `references/`, a reference over 100 lines without `## Contents` in its first 30 lines, unresolved relative links, backslashes in link targets, drive letters outside code;
-- data: `metadata.sw-api-version` different from `data/manifest.json` `sw_version`, file sizes or hashes different from the manifest, runtime copies not byte-identical to `scripts/skill_runtime/`;
+- data: `metadata.sw-api-version` (or `metadata.api-version`, used by draftsight-api) different from `data/manifest.json` `sw_version`, file sizes or hashes different from the manifest, runtime copies not byte-identical to `scripts/skill_runtime/`;
 - evals: `evals/evals.json` or `evals/trigger-evals.json` not parsing, duplicate ids, a trigger set without exactly 10 true and 10 false queries;
 - style: comment lines in code (`#` in Python, `'` in VBA, `//` in C#), Python docstrings, two consecutive blank lines, decorative separator lines;
-- budgets from `scripts/skill_data.json`: solidworks-api 25 MB raw and 8 MB zipped, solidworks-pdm-api 8 MB raw and 3 MB zipped.
+- budgets from `scripts/skill_data.json`: solidworks-api 25 MB raw and 8 MB zipped, solidworks-pdm-api and draftsight-api 8 MB raw and 3 MB zipped each.
 ## Package
 ```text
 python scripts/package_skills.py [--skills-dir .claude/skills] [--out dist] [--only NAME] [--validate-only] [--config scripts/skill_data.json] [--lint PATH ...]
