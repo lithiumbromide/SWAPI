@@ -1818,7 +1818,7 @@ class Checker:
                 if lname in self.names:
                     continue
             if lname in self.names:
-                if iface is None:
+                if iface is None and lname not in STOP_WORDS:
                     rows = [r for r in self.st.by_member.get(lname, []) if not self.st.is_vba(r.iface.module)]
                     rows.sort(key=lambda r: (self.st.module_rank(r.iface.module), -self.st.use(r.iface)))
                     if rows and all(self.st.eff(r)[1].startswith("obsolete") for r in rows):
