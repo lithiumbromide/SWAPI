@@ -7915,7 +7915,7 @@ draftsightapi/AccessDiagram-draftsightapi.md	topic	Access Diagram	Access Diagram
 draftsightapi/Activate_Sheets_Example_CSharp.md	example	Activate Sheets Example (C#)	Activate Sheets Example (C#)	draftsightapi	20
 draftsightapi/Activate_Sheets_Example_VBA.md	example	Activate Sheets Example (VBA)	Activate Sheets Example (VBA)	draftsightapi	20
 draftsightapi/Activate_Sheets_Example_VBNET.md	example	Activate Sheets Example (VB.NET)	Activate Sheets Example (VB.NET)	draftsightapi	22
-draftsightapi/Add_and_Modify_Custom_Data_Example_JS.md	example	Add and Modify Custom Data Example (JS)	Add and Modify Custom Data Example (JS)	draftsightapi	255
+draftsightapi/Add_and_Modify_Custom_Data_Example_JS.md	example	Add and Modify Custom Data Example (JS)	Add and Modify Custom Data Example (JS)	draftsightapi	256
 draftsightapi/Add_Modify_Remove_Custom_Data_Example_CSharp.md	example	Add, Modify, and Remove Custom Data Example (C#)	Add, Modify, and Remove Custom Data Example (C#)	draftsightapi	30
 draftsightapi/Add_Modify_Remove_Custom_Data_Example_VBA.md	example	Add, Modify, and Remove Custom Data Example (VBA)	Add, Modify, and Remove Custom Data Example (VBA)	draftsightapi	30
 draftsightapi/Add_Modify_Remove_Custom_Data_Example_VBNET.md	example	Add, Modify, and Remove Custom Data Example (VB.NET)	Add, Modify, and Remove Custom Data Example (VB.NET)	draftsightapi	31
@@ -7923,11 +7923,11 @@ draftsightapi/Add_Temporary_Entities_to_Block_Definition_Example_CSharp.md	examp
 draftsightapi/Add_Temporary_Entities_to_Block_Definition_Example_VBA.md	example	Add Temporary Entities to Block Definition Example (VBA)	Add Temporary Entities to Block Definition Example (VBA)	draftsightapi	31
 draftsightapi/Add_Temporary_Entities_to_Block_Definition_Example_VBNET.md	example	Add Temporary Entities to Block Definition Example (VB.NET)	Add Temporary Entities to Block Definition Example (VB.NET)	draftsightapi	32
 draftsightapi/Attach_Block_Definition_Annotation_to_Leader_Example_CSharp.md	example	Attach Block Definition Annotation to Leader Example (C#)	Attach Block Definition Annotation to Leader Example (C#)	draftsightapi	28
-draftsightapi/Attach_Block_Definition_Annotation_to_Leader_Example_JS.md	example	Attach Block Definition Annotation to Leader Example (JS)	Attach Block Definition Annotation to Leader Example (JS)	draftsightapi	126
+draftsightapi/Attach_Block_Definition_Annotation_to_Leader_Example_JS.md	example	Attach Block Definition Annotation to Leader Example (JS)	Attach Block Definition Annotation to Leader Example (JS)	draftsightapi	127
 draftsightapi/Attach_Block_Definition_Annotation_to_Leader_Example_VBA.md	example	Attach Block Definition Annotation to Leader Example (VBA)	Attach Block Definition Annotation to Leader Example (VBA)	draftsightapi	28
 draftsightapi/Attach_Block_Definition_Annotation_to_Leader_Example_VBNET.md	example	Attach Block Definition Annotation to Leader Example (VB.NET)	Attach Block Definition Annotation to Leader Example (VB.NET)	draftsightapi	30
 draftsightapi/Attach_Note_and_Tolerance_Annotations_to_Leaders_Example_CSharp.md	example	Attach Note and Tolerance Annotations to Leaders Example (C#)	Attach Note and Tolerance Annotations to Leaders Example (C#)	draftsightapi	28
-draftsightapi/Attach_Note_and_Tolerance_Annotations_to_Leaders_Example_JS.md	example	Attach Note and Tolerance Annotations to Leaders Example (JS)	Attach Note and Tolerance Annotations to Leaders Example (JS)	draftsightapi	127
+draftsightapi/Attach_Note_and_Tolerance_Annotations_to_Leaders_Example_JS.md	example	Attach Note and Tolerance Annotations to Leaders Example (JS)	Attach Note and Tolerance Annotations to Leaders Example (JS)	draftsightapi	128
 draftsightapi/Attach_Note_and_Tolerance_Annotations_to_Leaders_Example_VBA.md	example	Attach Note and Tolerance Annotations to Leaders Example (VBA)	Attach Note and Tolerance Annotations to Leaders Example (VBA)	draftsightapi	28
 draftsightapi/Attach_Note_and_Tolerance_Annotations_to_Leaders_Example_VBNET.md	example	Attach Note and Tolerance Annotations to Leaders Example (VB.NET)	Attach Note and Tolerance Annotations to Leaders Example (VB.NET)	draftsightapi	30
 draftsightapi/Bitmasks.md	topic	Bitmasks	Bitmasks	draftsightapi	163
@@ -7935,7 +7935,7 @@ draftsightapi/Change_Color_Using_Color_Picker_Example_CSharp.md	example	Change C
 draftsightapi/Change_Color_Using_Color_Picker_Example_VBA.md	example	Change Color Using Color Picker Example (VBA)	Change Color Using Color Picker Example (VBA)	draftsightapi	30
 draftsightapi/Change_Color_Using_Color_Picker_Example_VBNET.md	example	Change Color Using Color Picker Example (VB.NET)	Change Color Using Color Picker Example (VB.NET)	draftsightapi	31
 draftsightapi/Change_Colors_of_User-interface_Elements_Example_CSharp.md	example	Change Colors of User-interface Elements Example (C#)	Change Colors of User-interface Elements Example (C#)	draftsightapi	27
-draftsightapi/Change_Colors_of_User-interface_Elements_Example_JS.md	example	Change Colors of User-interface Elements Example (JS)	Change Colors of User-interface Elements Example (JS)	draftsightapi	193
+draftsightapi/Change_Colors_of_User-interface_Elements_Example_JS.md	example	Change Colors of User-interface Elements Example (JS)	Change Colors of User-interface Elements Example (JS)	draftsightapi	194
 draftsightapi/Change_Colors_of_User-interface_Elements_Example_VBA.md	example	Change Colors of User-interface Elements Example (VBA)	Change Colors of User-interface Elements Example (VBA)	draftsightapi	27
 draftsightapi/Change_Colors_of_User-interface_Elements_Example_VBNET.md	example	Change Colors of User-interface Elements Example (VB.NET)	Change Colors of User-interface Elements Example (VB.NET)	draftsightapi	28
 draftsightapi/Change_DimensionStyle_Options_of_Leader_Example_CSharp.md	example	Change DimensionStyle Options of Leader Example (C#)	Change DimensionStyle Options of Leader Example (C#)	draftsightapi	58
@@ -7975,7 +7975,7 @@ draftsightapi/Create_and_Attach_Hyperlink_Example_CSharp.md	example	Create and A
 draftsightapi/Create_and_Attach_Hyperlink_Example_VBA.md	example	Create and Attach HyperLink Example (VBA)	Create and Attach HyperLink Example (VBA)	draftsightapi	26
 draftsightapi/Create_and_Attach_Hyperlink_Example_VBNET.md	example	Create and Attach HyperLink Example (VB.NET)	Create and Attach HyperLink Example (VB.NET)	draftsightapi	27
 draftsightapi/Create_and_Change_EntityGroups_Example_CSharp.md	example	Create and Change EntityGroups Example (C#)	Create and Change EntityGroups Example (C#)	draftsightapi	20
-draftsightapi/Create_and_Change_EntityGroups_Example_JS.md	example	Create and Change EntityGroups Example (JS)	Create and Change EntityGroups Example (JS)	draftsightapi	136
+draftsightapi/Create_and_Change_EntityGroups_Example_JS.md	example	Create and Change EntityGroups Example (JS)	Create and Change EntityGroups Example (JS)	draftsightapi	138
 draftsightapi/Create_and_Change_EntityGroups_Example_VBA.md	example	Create and Change EntityGroups Example (VBA)	Create and Change EntityGroups Example (VBA)	draftsightapi	20
 draftsightapi/Create_and_Change_EntityGroups_Example_VBNET.md	example	Create and Change EntityGroups Example (VB.NET)	Create and Change EntityGroups Example (VB.NET)	draftsightapi	22
 draftsightapi/Create_and_Change_Trace_Example_CSharp.md	example	Create and Change Trace Example (C#)	Create and Change Trace Example (C#)	draftsightapi	28
@@ -7984,16 +7984,16 @@ draftsightapi/Create_and_Change_Trace_Example_VBNET.md	example	Create and Change
 draftsightapi/Create_and_Remove_Dictionaries_Example_CSharp.md	example	Create and Remove Dictionaries Example (C#)	Create and Remove Dictionaries Example (C#)	draftsightapi	28
 draftsightapi/Create_and_Remove_Dictionaries_Example_VBA.md	example	Create and Remove Dictionaries Example (VBA)	Create and Remove Dictionaries Example (VBA)	draftsightapi	20
 draftsightapi/Create_and_Remove_Dictionaries_Example_VBNET.md	example	Create and Remove Dictionaries Example (VB.NET)	Create and Remove Dictionaries Example (VB.NET)	draftsightapi	22
-draftsightapi/Create_and_Remove_Dictionary_Example_JS.md	example	Create and Remove Dictionary Example (JS)	Create and Remove Dictionary Example (JS)	draftsightapi	297
+draftsightapi/Create_and_Remove_Dictionary_Example_JS.md	example	Create and Remove Dictionary Example (JS)	Create and Remove Dictionary Example (JS)	draftsightapi	298
 draftsightapi/Create_and_Transform_Mathematical_Elliptical_Arc_Example_CSharp.md	example	Create and Transform Mathematical Elliptical Arc Example (C#)	Create and Transform Mathematical Elliptical Arc Example (C#)	draftsightapi	27
 draftsightapi/Create_and_Transform_Mathematical_Elliptical_Arc_Example_VBA.md	example	Create and Transform Mathematical Elliptical ArcExample (VBA)	Create and Transform Mathematical Elliptical ArcExample (VBA)	draftsightapi	36
 draftsightapi/Create_and_Transform_Mathematical_Elliptical_Arc_Example_VBNET.md	example	Create and Transform Mathematical Elliptical Arc Example (VB.NET)	Create and Transform Mathematical Elliptical Arc Example (VB.NET)	draftsightapi	28
 draftsightapi/Create_Angular_Dimensions_Example_CSharp.md	example	Create Angular Dimensions Example (C#)	Create Angular Dimensions Example (C#)	draftsightapi	35
 draftsightapi/Create_Angular_Dimensions_Example_VBA.md	example	Create Angular Dimensions Example (VBA)	Create Angular Dimensions Example (VBA)	draftsightapi	28
 draftsightapi/Create_Angular_Dimensions_Example_VBNET.md	example	Create Angular Dimensions Example (VB.NET)	Create Angular Dimensions Example (VB.NET)	draftsightapi	30
-draftsightapi/Create_Circles_on_Different_Layers_Example_JS.md	example	Create Circles on Different Layers Example (JS)	Create Circles on Different Layers Example (JS)	draftsightapi	354
+draftsightapi/Create_Circles_on_Different_Layers_Example_JS.md	example	Create Circles on Different Layers Example (JS)	Create Circles on Different Layers Example (JS)	draftsightapi	355
 draftsightapi/Create_Circular_Pattern_Example_CSharp.md	example	Create Circular Pattern Example (C#)	Create Circular Pattern Example (C#)	draftsightapi	27
-draftsightapi/Create_Circular_Pattern_Example_JS.md	example	Create Circular Pattern Example (JS)	Create Circular Pattern Example (JS)	draftsightapi	425
+draftsightapi/Create_Circular_Pattern_Example_JS.md	example	Create Circular Pattern Example (JS)	Create Circular Pattern Example (JS)	draftsightapi	427
 draftsightapi/Create_Circular_Pattern_Example_VBA.md	example	Create Circular Pattern Example (VBA)	Create Circular Pattern Example (VBA)	draftsightapi	27
 draftsightapi/Create_Circular_Pattern_Example_VBNET.md	example	Create Circular Pattern Example (VB.NET)	Create Circular Pattern Example (VB.NET)	draftsightapi	28
 draftsightapi/Create_Context-sensitive_Menu_Items_Example_CSharp.md	example	Create Context-sensitive Menu Items Example (C#)	Create Context-sensitive Menu Items Example (C#)	draftsightapi	28
@@ -8012,7 +8012,7 @@ draftsightapi/Create_Mathematical_Circular_Arcs_Example_VBA.md	example	Create Ma
 draftsightapi/Create_Mathematical_Circular_Arcs_Example_VBNET.md	example	Create Mathematical Circular Arcs Example (VB.NET)	Create Mathematical Circular Arcs Example (VB.NET)	draftsightapi	22
 draftsightapi/Create_Mathemetical_Circular_Arcs_Example_CSharp.md	example	Create Mathematical Circular Arcs Example (C#)	Create Mathematical Circular Arcs Example (C#)	draftsightapi	20
 draftsightapi/Create_Model_and_Sheet_Views_Example_CSharp.md	example	Create Model and Sheet Views Example (C#)	Create Model and Sheet Views Example (C#)	draftsightapi	38
-draftsightapi/Create_Model_and_Sheet_Views_Example_JS.md	example	Create Model and Sheet Views Example (JS)	Create Model and Sheet Views Example (JS)	draftsightapi	342
+draftsightapi/Create_Model_and_Sheet_Views_Example_JS.md	example	Create Model and Sheet Views Example (JS)	Create Model and Sheet Views Example (JS)	draftsightapi	343
 draftsightapi/Create_Model_and_Sheet_Views_Example_VBA.md	example	Create Model and Sheet Views Example (VBA)	Create Model and Sheet Views Example (VBA)	draftsightapi	39
 draftsightapi/Create_Model_and_Sheet_Views_Example_VBNET.md	example	Create Model and Sheet Views Example (VB.NET)	Create Model and Sheet Views Example (VB.NET)	draftsightapi	40
 draftsightapi/Create_Polygon_Face_Mesh_Example_CSharp.md	example	Create Polygon Face Mesh Example (C#)	Create Polygon Face Mesh Example (C#)	draftsightapi	22
@@ -8022,26 +8022,26 @@ draftsightapi/Create_PolygonMesh_Example_CSharp.md	example	Create PolygonMesh Ex
 draftsightapi/Create_PolygonMesh_Example_VBA.md	example	Create PolygonMesh Example (VBA)	Create PolygonMesh Example (VBA)	draftsightapi	16
 draftsightapi/Create_PolygonMesh_Example_VBNET.md	example	Create PolygonMesh Example (VB.NET)	Create PolygonMesh Example (VB.NET)	draftsightapi	18
 draftsightapi/Create_Rectangular_Viewport_Example_CSharp.md	example	Create Rectangular Viewport Example (C#)	Create Rectangular Viewport Example (C#)	draftsightapi	113
-draftsightapi/Create_Rectangular_Viewport_Example_JS.md	example	Create Rectangular Viewport Example (JS)	Create Rectangular Viewport Example (JS)	draftsightapi	146
+draftsightapi/Create_Rectangular_Viewport_Example_JS.md	example	Create Rectangular Viewport Example (JS)	Create Rectangular Viewport Example (JS)	draftsightapi	147
 draftsightapi/Create_Rectangular_Viewport_Example_VBA.md	example	Create Rectangular Viewport Example (VBA)	Create Rectangular Viewport Example (VBA)	draftsightapi	19
 draftsightapi/Create_Rectangular_Viewport_Example_VBNET.md	example	Create Rectangular Viewport Example (VB.NET)	Create Rectangular Viewport Example (VB.NET)	draftsightapi	20
 draftsightapi/Create_Table_Example_CSharp.md	example	Create Table Example (C#)	Create Table Example (C#)	draftsightapi	49
-draftsightapi/Create_Table_Example_JS.md	example	Create Table Example (JS)	Create Table Example (JS)	draftsightapi	190
+draftsightapi/Create_Table_Example_JS.md	example	Create Table Example (JS)	Create Table Example (JS)	draftsightapi	192
 draftsightapi/Create_Table_Example_VBA.md	example	Create Table Example (VBA)	Create Table Example (VBA)	draftsightapi	49
 draftsightapi/Create_Table_Example_VBNET.md	example	Create Table Example (VB.NET)	Create Table Example (VB.NET)	draftsightapi	50
 draftsightapi/Create_Tracker_Example_CSharp.md	example	Create Tracker Example (C#)	Create Tracker Example (C#)	draftsightapi	27
 draftsightapi/Create_Tracker_Example_VBA.md	example	Create Tracker Example (VBA)	Create Tracker Example (VBA)	draftsightapi	27
 draftsightapi/Create_Tracker_Example_VBNET.md	example	Create Tracker Example (VB.NET)	Create Tracker Example (VB.NET)	draftsightapi	28
 draftsightapi/Creating_Flat_Representations_of_3D_Entities_Example_CSharp.md	example	Creating Flat Representations of 3D Entities Example (C#)	Creating Flat Representations of 3D Entities Example (C#)	draftsightapi	159
-draftsightapi/Creating_Flat_Representations_of_3D_Entities_Example_JS.md	example	Creating Flat Representations of 3D Entities Example (JavaScript)	Creating Flat Representations of 3D Entities Example (JavaScript)	draftsightapi	150
+draftsightapi/Creating_Flat_Representations_of_3D_Entities_Example_JS.md	example	Creating Flat Representations of 3D Entities Example (JavaScript)	Creating Flat Representations of 3D Entities Example (JavaScript)	draftsightapi	151
 draftsightapi/Creating_Flat_Representations_of_3D_Entities_Example_VBA.md	example	Creating Flat Representations of 3D Entities Example (VBA)	Creating Flat Representations of 3D Entities Example (VBA)	draftsightapi	167
 draftsightapi/Creating_Flat_Representations_of_3D_Entities_Example_VBNET.md	example	Creating Flat Representations of 3D Entities Example (VB.NET)	Creating Flat Representations of 3D Entities Example (VB.NET)	draftsightapi	157
 draftsightapi/Creating_Polysolid_Entities_Example_CSharp.md	example	Creating Polysolid Entities Example (C#)	Creating Polysolid Entities Example (C#)	draftsightapi	123
-draftsightapi/Creating_Polysolid_Entities_Example_JS.md	example	Creating Polysolid Entities Example (JS)	Creating Polysolid Entities Example (JS)	draftsightapi	151
+draftsightapi/Creating_Polysolid_Entities_Example_JS.md	example	Creating Polysolid Entities Example (JS)	Creating Polysolid Entities Example (JS)	draftsightapi	153
 draftsightapi/Creating_Polysolid_Entities_Example_VBA.md	example	Creating Polysolid Entities Example (VBA)	Creating Polysolid Entities Example (VBA)	draftsightapi	126
 draftsightapi/Creating_Polysolid_Entities_Example_VBNET.md	example	Creating Polysolid Entities Example (VB.NET)	Creating Polysolid Entities Example (VB.NET)	draftsightapi	115
 draftsightapi/Cross-sectioning_Entities_Example_CSharp.md	example	Cross-sectioning Entities Example (C#)	Cross-sectioning Entities Example (C#)	draftsightapi	234
-draftsightapi/Cross-sectioning_Entities_Example_JS.md	example	Cross-sectioning Entities Example (JS)	Cross-sectioning Entities Example (JS)	draftsightapi	153
+draftsightapi/Cross-sectioning_Entities_Example_JS.md	example	Cross-sectioning Entities Example (JS)	Cross-sectioning Entities Example (JS)	draftsightapi	154
 draftsightapi/Cross-sectioning_Entities_Example_VBA.md	example	Cross-sectioning Entities Example (VBA)	Cross-sectioning Entities Example (VBA)	draftsightapi	236
 draftsightapi/Cross-sectioning_Entities_Example_VBNET.md	example	Cross-sectioning Entities Example (VB.NET)	Cross-sectioning Entities Example (VB.NET)	draftsightapi	225
 draftsightapi/Dictionaries.md	topic	Dictionaries	Dictionaries	draftsightapi	116
@@ -8053,11 +8053,11 @@ draftsightapi/DraftSight.Interop.dsAddin~DraftSight.Interop.dsAddin.IDsAddin~Dis
 draftsightapi/DraftSight.Interop.dsAddin~DraftSight.Interop.dsAddin_namespace.md	namespace	DraftSight.Interop.dsAddin	DraftSight.Interop.dsAddin Namespace	draftsightapi	24
 draftsightapi/Export_File_as_Specified_File_Type_CPPCOM.md	example	Export File as Specified File Type Example (COM native C++)	Export File as Specified File Type Example (COM native C++)	draftsightapi	32
 draftsightapi/Extruding_Entities_Example_CSharp.md	example	Extruding Entities Example (C#)	Extruding Entities Example (C#)	draftsightapi	112
-draftsightapi/Extruding_Entities_Example_JS.md	example	Extruding Entities Example (JS)	Extruding Entities Example (JS)	draftsightapi	147
+draftsightapi/Extruding_Entities_Example_JS.md	example	Extruding Entities Example (JS)	Extruding Entities Example (JS)	draftsightapi	148
 draftsightapi/Extruding_Entities_Example_VBA.md	example	Extruding Entities Example (VBA)	Extruding Entities Example (VBA)	draftsightapi	115
 draftsightapi/Extruding_Entities_Example_VBNET.md	example	Extruding Entities Example (VB.NET)	Extruding Entities Example (VB.NET)	draftsightapi	104
 draftsightapi/Fillet_and_Stretch_Sketch_Entities_Example_CSharp.md	example	Fillet and Stretch Sketch Entities Example (C#)	Fillet and Stretch Sketch Entities Example (C#)	draftsightapi	23
-draftsightapi/Fillet_and_Stretch_Sketch_Entities_Example_JS.md	example	Fillet and Stretch Sketch Entities Example (JS)	Fillet and Stretch Sketch Entities Example (JS)	draftsightapi	163
+draftsightapi/Fillet_and_Stretch_Sketch_Entities_Example_JS.md	example	Fillet and Stretch Sketch Entities Example (JS)	Fillet and Stretch Sketch Entities Example (JS)	draftsightapi	165
 draftsightapi/Fillet_and_Stretch_Sketch_Entities_Example_VBA.md	example	Fillet and Stretch Sketch Entities Example (VBA)	Fillet and Stretch Sketch Entities Example (VBA)	draftsightapi	23
 draftsightapi/Fillet_and_Stretch_Sketch_Entities_Example_VBNET.md	example	Fillet and Stretch Sketch Entities Example (VB.NET)	Fillet and Stretch Sketch Entities Example (VB.NET)	draftsightapi	24
 draftsightapi/Fire_Application_and_Document_Events_Example_CSharp.md	example	Fire Application and Document Events Example (C#)	Fire Application and Document Events Example (C#)	draftsightapi	23
@@ -8085,33 +8085,33 @@ draftsightapi/Get_and_Set_Windows_Values_Example_CSharp.md	example	Get and Set W
 draftsightapi/Get_and_Set_Windows_Values_Example_VBA.md	example	Get and Set Windows Values Example (VBA)	Get and Set Windows Values Example (VBA)	draftsightapi	30
 draftsightapi/Get_and_Set_Windows_Values_Example_VBNET.md	example	Get and Set Windows Values Example (VB.NET)	Get and Set Windows Values Example (VB.NET)	draftsightapi	31
 draftsightapi/Get_DimensionStyle_Names_and_Options_Example_CSharp.md	example	Get DimensionStyle Names and Options Example (C#)	Get DimensionStyle Names and Options Example (C#)	draftsightapi	50
-draftsightapi/Get_DimensionStyle_Names_and_Options_Example_JS.md	example	Get DimensionStyle Names and Options Example (JS)	Get DimensionStyle Names and Options Example (JS)	draftsightapi	180
+draftsightapi/Get_DimensionStyle_Names_and_Options_Example_JS.md	example	Get DimensionStyle Names and Options Example (JS)	Get DimensionStyle Names and Options Example (JS)	draftsightapi	181
 draftsightapi/Get_DimensionStyle_Names_and_Options_Example_VBA.md	example	Get DimensionStyle Names and Options Example (VBA)	Get DimensionStyle Names and Options Example (VBA)	draftsightapi	50
 draftsightapi/Get_DimensionStyle_Names_and_Options_Example_VBNET.md	example	Get DimensionStyle Names and Options Example (VB.NET)	Get DimensionStyle Names and Options Example (VB.NET)	draftsightapi	51
 draftsightapi/Get_Distance_Between_Two_Math_Points_Example_CSharp.md	example	Get Distance Between Two Math Points Example (C#)	Get Distance Between Two Math Points Example (C#)	draftsightapi	27
-draftsightapi/Get_Distance_Between_Two_Math_Points_Example_JS.md	example	Get Distance Between Two Math Points Example (JS)	Get Distance Between Two Math Points Example (JS)	draftsightapi	165
+draftsightapi/Get_Distance_Between_Two_Math_Points_Example_JS.md	example	Get Distance Between Two Math Points Example (JS)	Get Distance Between Two Math Points Example (JS)	draftsightapi	166
 draftsightapi/Get_Distance_Between_Two_Math_Points_Example_VBA.md	example	Get Distance Between Two Math Points Example (VBA)	Get Distance Between Two Math Points Example (VBA)	draftsightapi	27
 draftsightapi/Get_Distance_Between_Two_Math_Points_Example_VBNET.md	example	Get Distance Between Two Math Points Example (VB.NET)	Get Distance Between Two Math Points Example (VB.NET)	draftsightapi	28
 draftsightapi/Get_Hatch_and_Hatch_Boundary_Loop_Data_Example_CSharp.md	example	Get Hatch and Hatch Boundary Loop Data Example (C#)	Get Hatch and Hatch Boundary Loop Data Example (C#)	draftsightapi	28
 draftsightapi/Get_Hatch_and_Hatch_Boundary_Loop_Data_Example_VBA.md	example	Get Hatch and Hatch Boundary Loop Data Example (VBA)	Get Hatch and Hatch Boundary Loop Data Example (VBA)	draftsightapi	28
 draftsightapi/Get_Hatch_and_Hatch_Boundary_Loop_Data_Example_VBNET.md	example	Get Hatch and Hatch Boundary Loop Data Example (VB.NET)	Get Hatch and Hatch Boundary Loop Data Example (VB.NET)	draftsightapi	30
 draftsightapi/Get_Names_of_Available_Printers_Example_CSharp.md	example	Get Names of Available Printers Example (C#)	Get Names of Available Printers Example (C#)	draftsightapi	36
-draftsightapi/Get_Names_of_Available_Printers_Example_JS.md	example	Get Names of Available Printers Example (JS)	Get Names of Available Printers Example (JS)	draftsightapi	138
+draftsightapi/Get_Names_of_Available_Printers_Example_JS.md	example	Get Names of Available Printers Example (JS)	Get Names of Available Printers Example (JS)	draftsightapi	139
 draftsightapi/Get_Names_of_Available_Printers_Example_VBA.md	example	Get Names of Available Printers Example (VBA)	Get Names of Available Printers Example (VBA)	draftsightapi	36
 draftsightapi/Get_Names_of_Available_Printers_Example_VBNET.md	example	Get Names of Available Printers Example (VB.NET)	Get Names of Available Printers Example (VB.NET)	draftsightapi	38
 draftsightapi/Get_Nearest_Children_Example_CSharp.md	example	Get Nearest Children Example (C#)	Get Nearest Children Example (C#)	draftsightapi	26
 draftsightapi/Get_Nearest_Children_Example_VBA.md	example	Get Nearest Children Example (VBA)	Get Nearest Children Example (VBA)	draftsightapi	26
 draftsightapi/Get_Nearest_Children_Example_VBNET.md	example	Get Nearest Children Example (VB.NET)	Get Nearest Children Example (VB.NET)	draftsightapi	27
 draftsightapi/Get_Properties_of_Entity_CPPCOM.md	example	Get Properties of Entity Example (COM native C++)	Get Properties of Entity Example (COM native C++)	draftsightapi	197
-draftsightapi/Get_System_Files_Example_JS.md	example	Get System Files Example (JS)	Get System Files Example (JS)	draftsightapi	154
+draftsightapi/Get_System_Files_Example_JS.md	example	Get System Files Example (JS)	Get System Files Example (JS)	draftsightapi	155
 draftsightapi/GettingStarted-draftsightapi.md	topic	Getting Started	Getting Started	draftsightapi	5484
-draftsightapi/Insert_and_Dimension_Sketch_Example_JS.md	example	Insert and Dimension Sketch Example (JS)	Insert and Dimension Sketch Example (JS)	draftsightapi	293
+draftsightapi/Insert_and_Dimension_Sketch_Example_JS.md	example	Insert and Dimension Sketch Example (JS)	Insert and Dimension Sketch Example (JS)	draftsightapi	294
 draftsightapi/Insert_Block_Instance_Example_CSharp.md	example	Insert Block Instance Example (C#)	Insert Block Instance Example (C#)	draftsightapi	24
 draftsightapi/Insert_Block_Instance_Example_VBA.md	example	Insert Block Instance Example (VBA)	Insert Block Instance Example (VBA)	draftsightapi	23
 draftsightapi/Insert_Block_Instance_Example_VBNET.md	example	Insert Block Instance Example (VB.NET)	Insert Block Instance Example (VB.NET)	draftsightapi	26
-draftsightapi/Insert_Block_Notes_and_Sketch_Entitites_Example_JS.md	example	Insert Block, Notes, and Sketch Entities Example (JS)	Insert Block, Notes, and Sketch Entities Example (JS)	draftsightapi	240
+draftsightapi/Insert_Block_Notes_and_Sketch_Entitites_Example_JS.md	example	Insert Block, Notes, and Sketch Entities Example (JS)	Insert Block, Notes, and Sketch Entities Example (JS)	draftsightapi	242
 draftsightapi/Insert_Embedded_Object_Example_CSharp.md	example	Insert Embedded Object Example (C#)	Insert Embedded Object Example (C#)	draftsightapi	24
-draftsightapi/Insert_Embedded_Object_Example_JS.md	example	Insert Embedded Object Example (JS)	Insert Embedded Object Example (JS)	draftsightapi	146
+draftsightapi/Insert_Embedded_Object_Example_JS.md	example	Insert Embedded Object Example (JS)	Insert Embedded Object Example (JS)	draftsightapi	147
 draftsightapi/Insert_Embedded_Object_Example_VBA.md	example	Insert Embedded Object Example (VBA)	Insert Embedded Object Example (VBA)	draftsightapi	24
 draftsightapi/Insert_Embedded_Object_Example_VBNET.md	example	Insert Embedded Object Example (VB.NET)	Insert Embedded Object Example (VB.NET)	draftsightapi	26
 draftsightapi/Insert_External_Reference_Example_CSharp.md	example	Insert External Reference Example (C#)	Insert External Reference Example (C#)	draftsightapi	24
@@ -8121,11 +8121,11 @@ draftsightapi/Insert_Hatch_by_Entities_or_Internal_Points_CSharp.md	topic	Insert
 draftsightapi/Insert_Hatch_by_Entities_or_Internal_Points_Example_VBA.md	example	Insert Hatch by Entities or Internal Points Example (VBA)	Insert Hatch by Entities or Internal Points Example (VBA)	draftsightapi	51
 draftsightapi/Insert_Hatch_by_Entities_or_Internal_Points_Example_VBNET.md	example	Insert Hatch by Entities or Internal Points (VB.NET)	Insert Hatch by Entities or Internal Points (VB.NET)	draftsightapi	65
 draftsightapi/Insert_Hatch_Example_CSharp.md	example	Insert Hatch Example (C#)	Insert Hatch Example (C#)	draftsightapi	22
-draftsightapi/Insert_Hatch_Example_JS.md	example	Insert Hatch Example (JS)	Insert Hatch Example (JS)	draftsightapi	201
+draftsightapi/Insert_Hatch_Example_JS.md	example	Insert Hatch Example (JS)	Insert Hatch Example (JS)	draftsightapi	202
 draftsightapi/Insert_Hatch_Example_VBA.md	example	Insert Hatch Example (VBA)	Insert Hatch Example (VBA)	draftsightapi	22
 draftsightapi/Insert_Hatch_Example_VBNET.md	example	Insert Hatch Example (VB.NET)	Insert Hatch Example (VB.NET)	draftsightapi	31
-draftsightapi/Insert_HyperLink_Example_JS.md	example	Insert HyperLink Example (JS)	Insert HyperLink Example (JS)	draftsightapi	238
-draftsightapi/Insert_Lines_and_Angular_Dimension_Example_JS.md	example	Insert Lines and Angular Dimension Example (JS)	Insert Lines and Angular Dimension Example (JS)	draftsightapi	310
+draftsightapi/Insert_HyperLink_Example_JS.md	example	Insert HyperLink Example (JS)	Insert HyperLink Example (JS)	draftsightapi	239
+draftsightapi/Insert_Lines_and_Angular_Dimension_Example_JS.md	example	Insert Lines and Angular Dimension Example (JS)	Insert Lines and Angular Dimension Example (JS)	draftsightapi	312
 draftsightapi/Insert_Notes_Example_CSharp.md	example	Insert Notes Example (C#)	Insert Notes Example (C#)	draftsightapi	20
 draftsightapi/Insert_Notes_Example_VBA.md	example	Insert Notes Example (VBA)	Insert Notes Example (VBA)	draftsightapi	20
 draftsightapi/Insert_Notes_Example_VBNET.md	example	Insert Notes Example (VB.NET)	Insert Notes Example (VB.NET)	draftsightapi	22
@@ -8145,14 +8145,14 @@ draftsightapi/Insert_Ray_Example_CSharp.md	example	Insert Ray Example (C#)	Inser
 draftsightapi/Insert_Ray_Example_VBA.md	example	Insert Ray Example (VBA)	Insert Ray Example (VBA)	draftsightapi	22
 draftsightapi/Insert_Ray_Example_VBNET.md	example	Insert Ray Example (VB.NET)	Insert Ray Example (VB.NET)	draftsightapi	23
 draftsightapi/Insert_Shapes_Example_CSharp.md	example	Insert Shapes Example (C#)	Insert Shapes Example (C#)	draftsightapi	34
-draftsightapi/Insert_Shapes_Example_JS.md	example	Insert Shapes Example (JS)	Insert Shapes Example (JS)	draftsightapi	150
+draftsightapi/Insert_Shapes_Example_JS.md	example	Insert Shapes Example (JS)	Insert Shapes Example (JS)	draftsightapi	151
 draftsightapi/Insert_Shapes_Example_VBA.md	example	Insert Shapes Example (VBA)	Insert Shapes Example (VBA)	draftsightapi	34
 draftsightapi/Insert_Shapes_Example_VBNET.md	example	Insert Shapes Example (VB.NET)	Insert Shapes Example (VB.NET)	draftsightapi	35
 draftsightapi/Insert_SimpleNote_Example_CSharp.md	example	Insert SimpleNote Example (C#)	Insert SimpleNote Example (C#)	draftsightapi	24
 draftsightapi/Insert_SimpleNote_Example_VBA.md	example	Insert SimpleNote Example (VBA)	Insert SimpleNote Example (VBA)	draftsightapi	24
 draftsightapi/Insert_SimpleNote_Example_VBNET.md	example	Insert SimpleNote Example (VB.NET)	Insert SimpleNote Example (VB.NET)	draftsightapi	26
 draftsightapi/Insert_Splines_Example_CSharp.md	example	Insert Splines Example (C#)	Insert Splines Example (C#)	draftsightapi	70
-draftsightapi/Insert_Splines_Example_JS.md	example	Insert Splines Example (JS)	Insert Splines Example (JS)	draftsightapi	202
+draftsightapi/Insert_Splines_Example_JS.md	example	Insert Splines Example (JS)	Insert Splines Example (JS)	draftsightapi	204
 draftsightapi/Insert_Splines_Example_VBA.md	example	Insert Splines Example (VBA)	Insert Splines Example (VBA)	draftsightapi	69
 draftsightapi/Insert_Splines_Example_VBNET.md	example	Insert Splines Example (VB.NET)	Insert Splines Example (VB.NET)	draftsightapi	72
 draftsightapi/Insert_ViewTiles_in_Model_Example_CSharp.md	example	Insert ViewTiles in Model Example (C#)	Insert ViewTiles in Model Example (C#)	draftsightapi	42
@@ -12194,36 +12194,36 @@ draftsightapi/Interop.dsAutomation~Interop.dsAutomation_namespace.md	namespace	I
 draftsightapi/Interop.dsAutomation~Interop.dsAutomation_namespace_hierarchy.md	topic	dsAutomation_namespace_hierarchy	Interop.dsAutomation Namespace Inheritance Hierarchy	draftsightapi	23
 draftsightapi/Laod_and_Activate_LineStyles_Example_VBNET.md	example	Load and Activate LineStyles Example (VB.NET)	Load and Activate LineStyles Example (VB.NET)	draftsightapi	22
 draftsightapi/Load_and_Activate_LineStyles_Example_CSharp.md	example	Load and Activate LineStyles Example (C#)	Load and Activate LineStyles Example (C#)	draftsightapi	20
-draftsightapi/Load_and_Activate_LineStyles_Example_JS.md	example	Load and Activate LineStyles Example (JS)	Load and Activate LineStyles Example (JS)	draftsightapi	122
+draftsightapi/Load_and_Activate_LineStyles_Example_JS.md	example	Load and Activate LineStyles Example (JS)	Load and Activate LineStyles Example (JS)	draftsightapi	123
 draftsightapi/Load_and_Activate_LineStyles_Example_VBA.md	example	Load and Activate LineStyles Example (VBA)	Load and Activate LineStyles Example (VBA)	draftsightapi	20
 draftsightapi/Lofting_Entities_Example_CSharp.md	example	Lofting Entities Example (C#)	Lofting Entities Example (C#)	draftsightapi	176
-draftsightapi/Lofting_Entities_Example_JS.md	example	Lofting Entities Example (JS)	Lofting Entities Example (JS)	draftsightapi	147
+draftsightapi/Lofting_Entities_Example_JS.md	example	Lofting Entities Example (JS)	Lofting Entities Example (JS)	draftsightapi	148
 draftsightapi/Lofting_Entities_Example_VBA.md	example	Lofting Entities Example (VBA)	Lofting Entities Example (VBA)	draftsightapi	178
 draftsightapi/Lofting_Entities_Example_VBNET.md	example	Lofting Entities Example (VB.NET)	Lofting Entities Example (VB.NET)	draftsightapi	167
 draftsightapi/Macros.md	topic	Macros	Macros	draftsightapi	2375
 draftsightapi/Manage_Default_and_Named_Custom_Coordinate_Systems_Example_CSharp.md	example	Manage Custom Coordinate Systems Example (C#)	Manage Custom Coordinate Systems Example (C#)	draftsightapi	26
-draftsightapi/Manage_Default_and_Named_Custom_Coordinate_Systems_Example_JS.md	example	Manage Custom Coordinate Systems Example (JS)	Manage Custom Coordinate Systems Example (JS)	draftsightapi	147
+draftsightapi/Manage_Default_and_Named_Custom_Coordinate_Systems_Example_JS.md	example	Manage Custom Coordinate Systems Example (JS)	Manage Custom Coordinate Systems Example (JS)	draftsightapi	148
 draftsightapi/Manage_Default_and_Named_Custom_Coordinate_Systems_Example_VBA.md	example	Manage Custom Coordinate Systems Example (VBA)	Manage Custom Coordinate Systems Example (VBA)	draftsightapi	26
 draftsightapi/Manage_Default_and_Named_Custom_Coordinate_Systems_Example_VBNET.md	example	Manage Custom Coordinate Systems Example (VB.NET)	Manage Custom Coordinate Systems Example (VB.NET)	draftsightapi	27
-draftsightapi/Minimize_or_Maximize_Window_Example_JS.md	example	Minimize or Maximize Document Window Example (JS)	Minimize or Maximize Document Window Example (JS)	draftsightapi	155
-draftsightapi/Mirror_Entities_Example_JS.md	example	Mirror Entities Example (JS)	Mirror Entities Example (JS)	draftsightapi	223
+draftsightapi/Minimize_or_Maximize_Window_Example_JS.md	example	Minimize or Maximize Document Window Example (JS)	Minimize or Maximize Document Window Example (JS)	draftsightapi	157
+draftsightapi/Mirror_Entities_Example_JS.md	example	Mirror Entities Example (JS)	Mirror Entities Example (JS)	draftsightapi	224
 draftsightapi/Modify_Dynamic_Block_Instance_Properties_Example_CSharp.md	example	Modify Dynamic Block Instance Properties Example (C#)	Modify Dynamic Block Instance Properties Example (C#)	draftsightapi	367
-draftsightapi/Prompt_for_Block_Insertion_Example_JS.md	example	Prompt for Block Insertion Example (JS)	Prompt for Block Insertion Example (JS)	draftsightapi	370
+draftsightapi/Prompt_for_Block_Insertion_Example_JS.md	example	Prompt for Block Insertion Example (JS)	Prompt for Block Insertion Example (JS)	draftsightapi	371
 draftsightapi/Prompt_for_Mouse_or_Keyword_Example_CSharp.md	example	Prompt for Mouse or Keyword Example (C#)	Prompt for Mouse or Keyword Example (C#)	draftsightapi	170
-draftsightapi/Prompt_for_Mouse_or_Keyword_Example_JS.md	example	Prompt for Mouse or Keyword Example (JS)	Prompt for Mouse or Keyword Example (JS)	draftsightapi	235
+draftsightapi/Prompt_for_Mouse_or_Keyword_Example_JS.md	example	Prompt for Mouse or Keyword Example (JS)	Prompt for Mouse or Keyword Example (JS)	draftsightapi	236
 draftsightapi/Prompt_for_Mouse_or_Keyword_Example_VBA.md	example	Prompt for Mouse or Keyword Example (VBA)	Prompt for Mouse or Keyword Example (VBA)	draftsightapi	204
 draftsightapi/Prompt_for_Mouse_or_Keyword_Example_VBNET.md	example	Prompt for Mouse or Keyword Example (VB.NET)	Prompt for Mouse or Keyword Example (VB.NET)	draftsightapi	162
 draftsightapi/Pushing_and_Pulling_3D_Entities_Example_CSharp.md	example	Pushing and Pulling 3D Entities Example (C#)	Pushing and Pulling 3D Entities Example (C#)	draftsightapi	130
-draftsightapi/Pushing_and_Pulling_3D_Entities_Example_JS.md	example	Pushing and Pulling 3D Entities Example (JavaScript)	Pushing and Pulling 3D Entities Example (JavaScript)	draftsightapi	154
+draftsightapi/Pushing_and_Pulling_3D_Entities_Example_JS.md	example	Pushing and Pulling 3D Entities Example (JavaScript)	Pushing and Pulling 3D Entities Example (JavaScript)	draftsightapi	155
 draftsightapi/Pushing_and_Pulling_3D_Entities_Example_VBA.md	example	Pushing and Pulling 3D Entities Example (VBA)	Pushing and Pulling 3D Entities Example (VBA)	draftsightapi	132
 draftsightapi/Pushing_and_Pulling_3D_Entities_Example_VBNET.md	example	Pushing and Pulling 3D Entities Example (VB.NET)	Pushing and Pulling 3D Entities Example (VB.NET)	draftsightapi	122
 draftsightapi/ReleaseNotes-draftsightapi.md	topic	Release Notes	Release Notes	draftsightapi	1038
 draftsightapi/Revolving_Entities_Example_CSharp.md	example	Revolving Entities Example (C#)	Revolving Entities Example (C#)	draftsightapi	231
-draftsightapi/Revolving_Entities_Example_JS.md	example	Revolving Entities Example (JS)	Revolving Entities Example (JS)	draftsightapi	147
+draftsightapi/Revolving_Entities_Example_JS.md	example	Revolving Entities Example (JS)	Revolving Entities Example (JS)	draftsightapi	148
 draftsightapi/Revolving_Entities_Example_VBA.md	example	Revolving Entities Example (VBA)	Revolving Entities Example (VBA)	draftsightapi	230
 draftsightapi/Revolving_Entities_Example_VBNET.md	example	Revolving Entities Example (VB.NET)	Revolving Entities Example (VB.NET)	draftsightapi	223
 draftsightapi/Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_CSharp.md	example	Rotate, Scale, Project, and Mirror a Line Entity Example (C#)	Rotate, Scale, Project, and Mirror a Line Entity Example (C#)	draftsightapi	38
-draftsightapi/Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_JS.md	example	Rotate, Scale, Project, and Mirror a Line Entity Example (JS)	Rotate, Scale, Project, and Mirror a Line Entity Example (JS)	draftsightapi	204
+draftsightapi/Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_JS.md	example	Rotate, Scale, Project, and Mirror a Line Entity Example (JS)	Rotate, Scale, Project, and Mirror a Line Entity Example (JS)	draftsightapi	205
 draftsightapi/Rotate,_Scale,_Project,_and_Mirror_a_Line_Entity_Example_VBNET.md	example	Rotate, Scale, Project, and Mirror a Line Entity Example (VB.NET)	Rotate, Scale, Project, and Mirror a Line Entity Example (VB.NET)	draftsightapi	39
 draftsightapi/Rotate,_Scale,_Project,_and_Mirror_Line_Entity_Example_VBA.md	example	Rotate, Scale, Project, and Mirror a Line Entity Example (VBA)	Rotate, Scale, Project, and Mirror a Line Entity Example (VBA)	draftsightapi	38
 draftsightapi/Rotate_and_Copy_Entities_Example_CSharp.md	example	Rotate and Copy Entities Example (C#)	Rotate and Copy Entities Example (C#)	draftsightapi	22
@@ -12233,7 +12233,7 @@ draftsightapi/SampleProjects.md	topic	Sample Projects	Sample Projects	draftsight
 draftsightapi/Save_Current_View_to_PDF_Example_CSharp.md	example	Save Current View to PDF Example (C#)	Save Current View to PDF Example (C#)	draftsightapi	31
 draftsightapi/Save_Current_View_to_PDF_Example_VBA.md	example	Save Current View to PDF Example (VBA)	Save Current View to PDF Example (VBA)	draftsightapi	31
 draftsightapi/Save_Current_View_to_PDF_Example_VBNET.md	example	Save Current View to PDF Example (VB.NET)	Save Current View to PDF Example (VB.NET)	draftsightapi	32
-draftsightapi/Select_and_Change_Entities_Example_JS.md	example	Select and Change Entities Example (JS)	Select and Change Entities Example (JS)	draftsightapi	377
+draftsightapi/Select_and_Change_Entities_Example_JS.md	example	Select and Change Entities Example (JS)	Select and Change Entities Example (JS)	draftsightapi	378
 draftsightapi/Set_Alternate_Drawing_Support_Files_Example_CSharp.md	example	Set Alternate Drawing Support Files Example (C#)	Set Alternate Drawing Support Files Example (C#)	draftsightapi	23
 draftsightapi/Set_Alternate_Drawing_Support_Files_Example_VBA.md	example	Set Alternate Drawing Support Files Example (VBA)	Set Alternate Drawing Support Files Example (VBA)	draftsightapi	23
 draftsightapi/Set_Alternate_Drawing_Support_Files_Example_VBNET.md	example	Set Alternate Drawing Support Files Example (VB.NET)	Set Alternate Drawing Support Files Example (VB.NET)	draftsightapi	24
@@ -12241,28 +12241,28 @@ draftsightapi/Set_and_Get_Paths_of_Interface_Files_Example_CSharp.md	example	Set
 draftsightapi/Set_and_Get_Paths_of_Interface_Files_Example_VBA.md	example	Set and Get Paths of Interface Files Example (VBA)	Set and Get Paths of Interface Files Example (VBA)	draftsightapi	30
 draftsightapi/Set_and_Get_Paths_of_Interface_Files_Example_VBNET.md	example	Set and Get Paths of Interface Files Example (VB.NET)	Set and Get Paths of Interface Files Example (VB.NET)	draftsightapi	31
 draftsightapi/Set_and_Get_System_Files_Example_CSharp.md	example	Set and Get System Files Example (C#)	Set and Get System Files Example (C#)	draftsightapi	30
-draftsightapi/Set_and_Get_System_Files_Example_JS.md	example	Set and Get System Files Example (JS)	Set and Get System Files Example (JS)	draftsightapi	169
+draftsightapi/Set_and_Get_System_Files_Example_JS.md	example	Set and Get System Files Example (JS)	Set and Get System Files Example (JS)	draftsightapi	170
 draftsightapi/Set_and_Get_System_Files_Example_VBA.md	example	Set and Get System Files Example (VBA)	Set and Get System Files Example (VBA)	draftsightapi	30
 draftsightapi/Set_and_Get_System_Files_Example_VBNET.md	example	Set and Get System Files Example (VB.NET)	Set and Get System Files Example (VB.NET)	draftsightapi	31
 draftsightapi/Slicing_Entities_Example_CSharp.md	example	Slicing Entities Example (C#)	Slicing Entities Example (C#)	draftsightapi	122
-draftsightapi/Slicing_Entities_Example_JS.md	example	Slicing Entities Example (JS)	Slicing Entities Example (JS)	draftsightapi	147
+draftsightapi/Slicing_Entities_Example_JS.md	example	Slicing Entities Example (JS)	Slicing Entities Example (JS)	draftsightapi	148
 draftsightapi/Slicing_Entities_Example_VBA.md	example	Slicing Entities Example (VBA)	Slicing Entities Example (VBA)	draftsightapi	124
 draftsightapi/Slicing_Entities_Example_VBNET.md	example	Slicing Entities Example (VB.NET)	Slicing Entities Example (VB.NET)	draftsightapi	113
 draftsightapi/Sweeping_Entities_Example_CSharp.md	example	Sweeping Entities Example (C#)	Sweeping Entities Example (C#)	draftsightapi	146
-draftsightapi/Sweeping_Entities_Example_JS.md	example	Sweeping Entities Example (JS)	Sweeping Entities Example (JS)	draftsightapi	147
+draftsightapi/Sweeping_Entities_Example_JS.md	example	Sweeping Entities Example (JS)	Sweeping Entities Example (JS)	draftsightapi	148
 draftsightapi/Sweeping_Entities_Example_VBA.md	example	Sweeping Entities Example (VBA)	Sweeping Entities Example (VBA)	draftsightapi	147
 draftsightapi/Sweeping_Entities_Example_VBNET.md	example	Sweeping Entities Example (VB.NET)	Sweeping Entities Example (VB.NET)	draftsightapi	138
 draftsightapi/Switch_Layouts_Example_CSharp.md	example	Switch Layouts Example (C#)	Switch Layouts Example (C#)	draftsightapi	15
 draftsightapi/Switch_Layouts_Example_VBA.md	example	Switch Layouts Example (VBA)	Switch Layouts Example (VBA)	draftsightapi	15
 draftsightapi/Switch_Layouts_Example_VBNET.md	example	Switch Layouts Example (VB.NET)	Switch Layouts Example (VB.NET)	draftsightapi	16
 draftsightapi/Transform_Circle_to_Region_Example_CSharp.md	example	Transform Circle to Region Example (C#)	Transform Circle to Region Example (C#)	draftsightapi	23
-draftsightapi/Transform_Circle_to_Region_Example_JS.md	example	Transform Circle to Region Example (JS)	Transform Circle to Region Example (JS)	draftsightapi	220
+draftsightapi/Transform_Circle_to_Region_Example_JS.md	example	Transform Circle to Region Example (JS)	Transform Circle to Region Example (JS)	draftsightapi	221
 draftsightapi/Transform_Circle_to_Region_Example_VBA.md	example	Transform Circle to Region Example (VBA)	Transform Circle to Region Example (VBA)	draftsightapi	23
 draftsightapi/Transform_Circle_to_Region_Example_VBNET.md	example	Transform Circle to Region Example (VB.NET)	Transform Circle to Region Example (VB.NET)	draftsightapi	24
 draftsightapi/Unifying_Subtracting_and_Intersecting_Entities_Example_CSharp.md	example	Unifying, Subtracting, and Intersecting Entities Example (C#)	Unifying, Subtracting, and Intersecting Entities Example (C#)	draftsightapi	119
 draftsightapi/Unifying_Subtracting_and_Intersecting_Entities_Example_VBA.md	example	Unifying, Subtracting, and Intersecting Entities Example (VBA)	Unifying, Subtracting, and Intersecting Entities Example (VBA)	draftsightapi	138
 draftsightapi/Unifying_Subtracting_and_Intersecting_Entities_Example_VBNET.md	example	Unifying, Subtracting, and Intersecting Entities Example (VB.NET)	Unifying, Subtracting, and Intersecting Entities Example (VB.NET)	draftsightapi	123
-draftsightapi/Unifying_Subtracting_Intersecting_Entities_Example_JS.md	example	Unifying, Subtracting, and Intersecting Entities Example (JS)	Unifying, Subtracting, and Intersecting Entities Example (JS)	draftsightapi	167
+draftsightapi/Unifying_Subtracting_Intersecting_Entities_Example_JS.md	example	Unifying, Subtracting, and Intersecting Entities Example (JS)	Unifying, Subtracting, and Intersecting Entities Example (JS)	draftsightapi	169
 draftsightapi/Welcome-draftsightapi.md	topic	Welcome	Welcome	draftsightapi	154
 dsgnchkapi/Check_Against_Existing_File_Example_CSharp.md	example	Check Against Existing File Example (C#)	Check Against Existing File Example (C#)	dsgnchkapi	30
 dsgnchkapi/Check_Against_Existing_File_Example_VB.md	example	Check Against Existing File Example (VBA)	Check Against Existing File Example (VBA)	dsgnchkapi	30
