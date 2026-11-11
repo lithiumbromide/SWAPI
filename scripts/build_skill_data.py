@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "skill_runtime"))
 from swapi import LINK_RE, clip, escape_body, example_code, first_fence, inline, inline_code, map_entries, parse_body, read_doc_text, section, squash, squash_paras, strip_iprefix
 GENERATOR = "build_skill_data.py 1"
 SCHEMA = 1
-DELEGATE_RE = re.compile(r"^(\w+) Delegate \(")
+DELEGATE_RE = re.compile(r"^(\w+) Delegate(?: \(|$)")
 EVENT_SPLIT_RE = re.compile(r"^(.*?Events)_(\w+?)EventHandler$")
 STRUCT_RE = re.compile(r"^(\w+) Structure$")
 YEAR_RE = re.compile(r"\b(2001\s?Pl?us|98\s?Plus|19\d\d|20\d\d|99)\b(?:\s*,?\s*(FCS|SP\s*[!.]?\s*0?(\d+)(?:\.(\d+))?))?", re.I)
