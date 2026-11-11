@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <RootNamespace>DraftSightAddin</RootNamespace>
+    <AssemblyName>DraftSightAddin</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+    <DraftSightTlb Condition="'$(DraftSightTlb)' == ''">C:\Program Files\Dassault Systemes\DraftSight\APISDK\tlb</DraftSightTlb>
+    <RegisterAddin Condition="'$(RegisterAddin)' == ''">false</RegisterAddin>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DraftSight.Interop.dsAddin">
+      <HintPath>$(DraftSightTlb)\DraftSight.Interop.dsAddin.dll</HintPath>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DraftSight.Interop.dsAutomation">
+      <HintPath>$(DraftSightTlb)\DraftSight.Interop.dsAutomation.dll</HintPath>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <None Update="DraftSightAddin.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="RegisterAddin" AfterTargets="Build" Condition="'$(RegisterAddin)' == 'true'">
+    <Exec Command="&quot;$(WINDIR)\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe&quot; /codebase &quot;$(TargetPath)&quot;" />
+  </Target>
+</Project>

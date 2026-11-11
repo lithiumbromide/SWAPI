@@ -1,0 +1,49 @@
+{
+  "skill_name": "draftsight-api",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "write me a VBA macro (I'll run it from Excel) for DraftSight 2024: in the active drawing create a layer called HOLES if it's not there, then draw a circle of radius 5 at each point listed in Sheet1 columns A and B (x, y) on that layer, and finally save a copy of the drawing as R2018 DWG next to the original with _holes added to the name",
+      "expected_output": "Early-bound VBA module for an Excel host with a reference to dsAutomation.dll that connects with GetObject, calls AbortRunningCommand, creates or reuses the layer through ILayerManager.CreateLayer and its dsCreateObjectResult_e, inserts circles with ISketchManager.InsertCircle on model space, sets Layer on each circle, and saves a copy with IDocument.SaveAs2, dsDocumentSaveAs_R2018_DWG and a checked dsDocumentSaveError_e.",
+      "files": [],
+      "expectations": [
+        "Saves with IDocument.SaveAs2 (Document.SaveAs2) and never calls the obsolete Document.SaveAs",
+        "Passes the enum member dsDocumentSaveAs_R2018_DWG (not a bare number or a nonexistent dsDocumentSaveAs_R2018) and checks the dsDocumentSaveError_e out value",
+        "Creates the layer with LayerManager.CreateLayer and handles dsCreateObjectResult_AlreadyExists or an existing layer instead of failing",
+        "Calls AbortRunningCommand after connecting with GetObject(, \"DraftSight.Application\")",
+        "Inserts circles through Model.GetSketchManager().InsertCircle and assigns the HOLES layer to each circle or activates it",
+        "Transcript shows swapi.py lookups for SaveAs2 and CreateLayer before the code was written"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "C# add-in for DraftSight 2025 please. It should add a command PLINEINFO (typed in the command window) that asks the user to select polylines, then prints each one's layer and number of vertices to the command window. Also put it in a menu. Give me the full VS project and tell me how to load it",
+      "expected_output": "Complete net48 x64 add-in: ComVisible class with Guid implementing DsAddin, ConnectToDraftSight creating the command with CreateCommand4 (or CreateCommand3) and an ExecuteNotify handler, menu through IApplication.GetActiveWorkspace and IWorkspace.AddMenu with a CreateUserCommand item, selection via PromptForSelection and the previous selection set, output through ICommandMessage.PrintLine, RemoveUserInterface on disconnect, plus RegAsm and addinConfigs XML steps.",
+      "files": [],
+      "expectations": [
+        "A ComVisible class with a Guid implements DsAddin (ConnectToDraftSight and DisconnectFromDraftSight)",
+        "Creates the command with IApplication.CreateCommand4 or CreateCommand3, not the obsolete CreateCommand or CreateCommand2",
+        "Adds the menu through IWorkspace.AddMenu from GetActiveWorkspace, not the obsolete IApplication.AddMenu",
+        "Reads the user's selection after ICommandMessage.PromptForSelection through ISelectionManager.GetSelectedObjectCount and GetSelectedObject",
+        "Does not call AbortRunningCommand inside the command handler",
+        "Explains registration with RegAsm /codebase (64-bit .NET Framework) and an addinConfigs XML file whose com clsid matches the class GUID",
+        "Project targets .NET Framework 4.x x64 and references DraftSight.Interop.dsAutomation and DraftSight.Interop.dsAddin"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "This VB.NET console tool worked on old DraftSight but our team's version check says it uses deprecated stuff. Can you fix it so it's correct for DraftSight 2026 and still runs on 2018 SP2? Here it is:\n\nImports DraftSight.Interop.dsAutomation\nImports System.Runtime.InteropServices\nModule Module1\n    Sub Main()\n        Dim dsApp As Application = CType(Marshal.GetActiveObject(\"DraftSight.Application\"), Application)\n        Dim dsDoc As Document = dsApp.OpenDocument(\"C:\\work\\plan.dwg\", dsDocumentOpenOption_e.dsDocumentOpen_Default)\n        Dim sheets As Object() = CType(dsDoc.GetSheets(), Object())\n        For i As Integer = 1 To sheets.Length - 1\n            Dim s As Sheet = CType(sheets(i), Sheet)\n            Dim sk As SketchManager = s.GetSketchManager()\n            sk.InsertBlock(\"TITLE\", 0, 0, 0, 1, 0)\n        Next\n        Dim err As dsDocumentSaveError_e\n        dsDoc.SaveAs(\"C:\\work\\plan_out.dwg\", dsDocumentSaveAsOption_e.dsDocumentSaveAs_R2018_DWG, err)\n        dsDoc.GetDocumentExporter().ExportToPdf(\"C:\\work\\plan.pdf\", Nothing, 420, 297, Nothing)\n    End Sub\nEnd Module",
+      "expected_output": "Corrected VB.NET module that replaces OpenDocument with OpenDocument2 (dsEncoding_Default), GetSheets with GetSheets2 and a loop starting at index 0 because GetSheets2 excludes the model, InsertBlock with InsertBlock2 and separate scales, SaveAs with SaveAs2 and an Overwrite argument, ExportToPdf with CreateExportSettings plus ExportToPdf2 (2018), keeps every member at or below 2018 SP2, adds AbortRunningCommand and null checks, and reports the check results.",
+      "files": [],
+      "expectations": [
+        "Replaces OpenDocument with OpenDocument2 including a dsEncoding_e argument",
+        "Replaces GetSheets with GetSheets2 and changes the loop to start at index 0 (or explains that GetSheets2 no longer returns the model first)",
+        "Replaces InsertBlock with InsertBlock2 and SaveAs with SaveAs2",
+        "Replaces ExportToPdf with CreateExportSettings and ExportToPdf2, which is available since 2018",
+        "Uses no member whose since is later than 2018 SP2 (for example no RunCommand2 or CopyEntities2)",
+        "Adds null checks for the opened document and decodes or checks the save error value",
+        "Transcript shows swapi.py check run on the fixed code with --target 2018 SP2 or equivalent"
+      ]
+    }
+  ]
+}

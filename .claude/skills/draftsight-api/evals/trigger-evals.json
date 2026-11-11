@@ -1,0 +1,82 @@
+[
+  {
+    "query": "need a vba macro for draftsight that goes through every block reference called TITLEBLOCK in the open dwg and sets the DRAWNBY attribute to my initials. running it from excel",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a C# console app that attaches to the running DraftSight, opens every .dwg in C:\\Projects\\Site42\\dwg and exports each one to PDF with all layouts",
+    "should_trigger": true
+  },
+  {
+    "query": "my DraftSight add-in menu stopped showing after we upgraded to 2025, I'm calling dsApp.AddMenu(guid, dsUIState_e.dsUIState_Document, 9, \"Tools2\") in ConnectToDraftSight. what changed?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I get all the lines on layer WALLS from model space using the DraftSight API? I tried GetEntities but the arrays come back empty",
+    "should_trigger": true
+  },
+  {
+    "query": "dsDoc.SaveAs2 returns errors = 2 when I save the drawing from my VB.NET tool, what does that mean and how do I fix it",
+    "should_trigger": true
+  },
+  {
+    "query": "Build me an HTML page with JavaScript that talks to DraftSight through the djLibrary and inserts a 3x3 table at a clicked point",
+    "should_trigger": true
+  },
+  {
+    "query": "We're on DraftSight Professional 2019 SP0. Is RunCommand2 available there or do I need the old RunCommand? I want to send PURGE from my macro",
+    "should_trigger": true
+  },
+  {
+    "query": "create a DraftSight command in C# that prompts for two points and draws a rectangle polyline between them on the current layer, red color",
+    "should_trigger": true
+  },
+  {
+    "query": "our CAD admin wants a script that batch-converts 300 DXF files to R2013 DWG using DraftSight automation on a build machine",
+    "should_trigger": true
+  },
+  {
+    "query": "DraftSight API: how do I listen for the document save event in my add-in and log the file path each time someone saves?",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a SOLIDWORKS VBA macro that creates a drawing of the active part with front, top and right views and saves it as DWG",
+    "should_trigger": false
+  },
+  {
+    "query": "write me a LISP routine for DraftSight that draws a rectangle from two picked points, I'll load it with APPLOAD",
+    "should_trigger": false
+  },
+  {
+    "query": "AutoCAD .NET ObjectARX: how do I iterate the BlockTableRecord of model space and change the layer of every circle?",
+    "should_trigger": false
+  },
+  {
+    "query": "In DraftSight how do I turn on ortho mode and change the grid spacing? the toolbar buttons disappeared",
+    "should_trigger": false
+  },
+  {
+    "query": "Python script with ezdxf that reads a DXF and lists all layers and the number of entities on each",
+    "should_trigger": false
+  },
+  {
+    "query": "My SOLIDWORKS PDM vault add-in needs to convert DWG files to PDF on state change, how do I hook the PostState event?",
+    "should_trigger": false
+  },
+  {
+    "query": "what's the difference between DraftSight Premium and Enterprise licensing, and can I move a network license to a new server?",
+    "should_trigger": false
+  },
+  {
+    "query": "Convert this AutoCAD VBA macro that uses ThisDrawing.ModelSpace.AddCircle to work in BricsCAD",
+    "should_trigger": false
+  },
+  {
+    "query": "SOLIDWORKS API: export every sheet of the active drawing to DXF with DrawingDoc and SaveAs3",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a C# program that uses the Open Design Alliance Teigha libraries to read DWG block attributes without any CAD program installed",
+    "should_trigger": false
+  }
+]
