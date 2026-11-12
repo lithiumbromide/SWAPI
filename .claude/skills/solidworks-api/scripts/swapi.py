@@ -1793,9 +1793,9 @@ class Checker:
         code = strip_code(text, self.flavor)
         blank_line = lambda m: " " * len(m.group(0))
         if self.flavor == "csharp":
-            code = re.sub(r"(?m)^\s*(?:using|namespace)\b[^\n]*", blank_line, code)
+            code = re.sub(r"(?m)^[ \t]*(?:using|namespace)\b[^\n]*", blank_line, code)
         else:
-            code = re.sub(r"(?im)^\s*Imports\b[^\n]*", blank_line, code)
+            code = re.sub(r"(?im)^[ \t]*Imports\b[^\n]*", blank_line, code)
         found = self.declarations(code)
         findings = []
         seen = set()
