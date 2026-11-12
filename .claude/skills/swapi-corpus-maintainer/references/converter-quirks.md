@@ -43,7 +43,7 @@ Every quirk below was verified with `rg` or a small script on the committed SOLI
 ## Modules and paths
 | Quirk | Example | Handled by |
 | --- | --- | --- |
-| `API_GB` file names are a strict subset of `epdmapi` (2,349 of 2,474, none unique), but 303 shared files differ in text, mostly examples revised in `epdmapi` | `markdown/API_GB/Access_Bill_of_Materials_Example_CSharp.md` | generator excludes `API_GB`; `epdmapi` is canonical |
+| `API_GB` file names are a strict subset of `epdmapi` (2,349 of 2,474, none unique), but 303 shared files differ in text, mostly examples revised in `epdmapi` | `markdown/API_GB/Access_Bill_of_Materials_Example_CSharp.md` | generator excludes `API_GB` and treats `epdmapi` as canonical, but takes obsolete flags from both through `obsolete_from` in `scripts/skill_data.json`, because only `API_GB` marks `IEdmEnumeratorVariable5.GetVar` obsolete |
 | `llm_index/manifest.json` stores the absolute local `markdown_root` (`D:/OneDrive - .../markdown`) and no API version | `llm_index/manifest.json` | hardened index builder writes a relative root and `api_version` (`--api-version`) |
 | Web API file names contain spaces, braces and `=`; the longest relative path is 188 characters | `markdown/pdmprowebapihelp/PDM Pro API_ws~r-api-{vaultName}-files-{fileId}-{version}-allreferences-configId={configId}-folderId={folderId}-includeSubParents={includeSubParents}~o-HttpGet.md` | quote paths in shells, percent-encode them in URLs (keep `/` and `~`), keep checkout roots short |
 ## Fixing a quirk
