@@ -1682,6 +1682,13 @@ class Checker:
                 if b:
                     stack.extend(x for x in self.st.find_ifaces(b) if not self.st.is_vba(x.module))
         return out
+    @staticmethod
+    def required_params(row):
+        m = re.search(r"\b" + re.escape(row.name) + r"\s*\((.*)\)", row.sig or "")
+        if not m:
+            return False
+        params = [p.strip() for p in m.group(1).split(",") if p.strip()]
+        return bool(params) and all(p.startswith("out ") for p in params)
     def iface_row(self, iface, lname):
         for i in self.lineage(iface):
             for r in i.rows:
@@ -1809,6 +1816,8 @@ class Checker:
                         findings.append((line, "obsolete", f"{self.disp(row.sym)} {self.st.chain_text(row, vba)}"))
                     elif self.too_new(row):
                         findings.append((line, "since", f"{self.disp(row.sym)} needs {self.st.product} {self.st.eff(row)[0]} (target {self.target_text})"))
+                    elif row.kind == "m" and re.match(r"[ \t]*\(\s*\)", code[m.end():m.end() + 40]) and self.required_params(row):
+                        findings.append((line, "args", f"{self.disp(row.sym)} is called without arguments but is declared {row.sig}; pass every parameter (out parameters return the values)"))
                     continue
                 near = self.near_miss(name, iface)
                 if near:
