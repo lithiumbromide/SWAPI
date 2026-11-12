@@ -36,18 +36,27 @@ Private Sub Process(ByVal swModel As SldWorks.ModelDoc2)
     dot = InStrRev(sourcePath, ".")
     Dim target As String
     target = Left$(sourcePath, dot - 1) & "_copy" & Mid$(sourcePath, dot)
-    If SaveCopy(swModel, target) Then Debug.Print "Saved " & target
+    If SaveCopy(swModel, target) Then
+        Debug.Print "Saved " & target
+    Else
+        Report "Saving " & target & " failed; the Immediate window has the reason."
+    End If
 End Sub
 Private Function SaveCopy(ByVal swModel As SldWorks.ModelDoc2, ByVal target As String) As Boolean
     Dim errors As Long
     Dim warnings As Long
+    On Error GoTo Failed
     swModel.ClearSelection2 True
     SaveCopy = swModel.Extension.SaveAs3(target, swSaveAsCurrentVersion, swSaveAsOptions_Silent Or swSaveAsOptions_Copy, Nothing, Nothing, errors, warnings)
     If Not SaveCopy Then
-        Report "Save failed for " & target & ", swFileSaveError_e flags " & errors
+        Debug.Print "Save failed for " & target & ", swFileSaveError_e flags " & errors
     ElseIf warnings <> 0 Then
         Debug.Print "Saved " & target & " with swFileSaveWarning_e flags " & warnings
     End If
+    Exit Function
+Failed:
+    Debug.Print "Error " & Err.Number & " while saving " & target & ": " & Err.Description
+    SaveCopy = False
 End Function
 Private Sub Report(ByVal message As String)
     swApp.SendMsgToUser2 message, swMbWarning, swMbOk

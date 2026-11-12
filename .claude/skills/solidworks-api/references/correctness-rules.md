@@ -16,6 +16,7 @@ Single home of the SOLIDWORKS API correctness rules: each section names the fail
 - [VBA declarations](#vba-declarations)
 - [COM object lifetime](#com-object-lifetime)
 - [Batch performance](#batch-performance)
+- [Per-item error handling](#per-item-error-handling)
 - [Persistent references](#persistent-references)
 ## Current members only
 Failure: code calls an obsolete member that still compiles (obsolete members stay in the interop and type library, so nothing warns) but lacks newer options, or a suffix that does not exist on that interface, which fails at compile time in C# and at run time in late-bound VBA. Plausible suffixes fall on both sides: `IModelDoc2.SaveAs4` is real but obsolete (superseded by `IModelDocExtension.SaveAs`), while `IModelDocExtension.SaveAs4`, `IModelDocExtension.SelectByID3` and `ISldWorks.OpenDoc5` do not exist (the `OpenDoc` series skips from 4 to 6). Guessing the next number is therefore never safe.
@@ -124,6 +125,16 @@ Rule: around a sequence of calls, and restoring each setting afterwards:
 - For metadata of many files (custom properties, configurations, references) use the Document Manager API instead of opening models ([document-manager.md](document-manager.md)).
 
 Verify: `swapi.py doc ISldWorks.CommandInProgress`.
+## Per-item error handling
+Failure: a loop over 40 configurations or 2,000 files stops at the first COM exception or VBA run-time error, or at a `ShowConfiguration2` or `OpenDoc6` that returns False, so the remaining items are never processed and the user sees one error instead of a list of failures. A loop that quietly skips items it finds awkward (flat-pattern or derived configurations, read-only files) fails the same way.
+Rule:
+- Process every item the user asked for. Put the work for one item in its own procedure that catches its own errors, logs the item with the decoded reason, and returns success or failure; the loop counts failures and continues. Skip an item only when the user asked for that or the item cannot apply, and report it as skipped.
+- VBA error handlers belong to one procedure: an `On Error GoTo` in `main` ends the whole loop at the first error. Give the per-item `Function` its own `On Error GoTo` handler that reports and returns False, and keep the handler in `main` for errors outside the loop.
+- C#: wrap the body of each iteration in `try`/`catch (COMException)` (and the exceptions your own code throws), never the whole loop.
+- Restore state (active configuration, preferences, graphics updates) once, after the loop, in a path that also runs after errors ([user preferences](#user-preferences)).
+- End with a summary: items done, failed and skipped, with the failed names, and a non-zero exit code or warning when anything failed.
+
+Verify: the C# templates in `assets/csharp-standalone/` and `assets/docmgr/` catch per file; `SaveCopy` in `assets/vba/Macro.bas` has its own handler.
 ## Persistent references
 Failure: code stores feature names or traversal indexes, which change when users rename or reorder features.
 Rule: store a persistent ID from `IModelDocExtension.GetPersistReference3` and resolve it later with `IModelDocExtension.GetObjectByPersistReference3`, checking its ErrorCode. Identify features by `IFeature.GetTypeName2` and `IFeature.GetSpecificFeature2`, not by default names such as `Plane1`.

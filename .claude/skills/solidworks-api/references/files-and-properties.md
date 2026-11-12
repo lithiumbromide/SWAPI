@@ -40,6 +40,7 @@ Export settings are system options, so read them, set them, export, and restore 
 - SheetMetalOptions is a bitmask: 1 flat-pattern geometry, 2 hidden edges, 4 bend lines, 8 sketches, 16 merge coplanar faces, 32 library features, 64 forming tools, 2048 bounding box (geometry plus bend lines plus sketches is 13). Multi-body sheet metal needs the flat-pattern features selected first. `IPartDoc.ExportFlatPatternView` and `IPartDoc.ExportToDWG` are obsolete.
 ## Configuration loops
 - Follow [configurations](correctness-rules.md#configurations): remember the active configuration, loop `IModelDoc2.GetConfigurationNames`, activate each with `IModelDoc2.ShowConfiguration2`, rebuild when needed, export, and reactivate the original.
+- Export every name `GetConfigurationNames` returns, including derived and flat-pattern configurations, unless the user excludes some. Activate and export each one in a helper with its own error handling and report the failed configurations at the end ([per-item error handling](correctness-rules.md#per-item-error-handling)).
 - Configuration names can contain characters that are invalid in file names (`\ / : * ? " < > |`); replace them before building output paths.
 - Every export inside the loop obeys the [selection](correctness-rules.md#selection) and [active and visible documents](correctness-rules.md#active-and-visible-documents) rules.
 ## Custom properties
@@ -51,7 +52,7 @@ Export settings are system options, so read them, set them, export, and restore 
 - Values are strings; changes stay in memory until the document is saved with `Save3`.
 - Title-block links in drawings are covered in [drawings.md](drawings.md#notes-and-title-blocks); reading properties of many files without SOLIDWORKS is covered in [document-manager.md](document-manager.md).
 ## Batch processing
-- One session for the whole batch. Per file: `OpenDoc6` with `swOpenDocOptions_Silent` (plus `swOpenDocOptions_ReadOnly` when nothing is saved), process, `Save3` only if changed, `ISldWorks.CloseDoc(fullPath)`, then release the objects ([COM object lifetime](correctness-rules.md#com-object-lifetime)). Log failures and continue with the next file.
+- One session for the whole batch. Per file: `OpenDoc6` with `swOpenDocOptions_Silent` (plus `swOpenDocOptions_ReadOnly` when nothing is saved), process, `Save3` only if changed, `ISldWorks.CloseDoc(fullPath)`, then release the objects ([COM object lifetime](correctness-rules.md#com-object-lifetime)). Log failures and continue with the next file ([per-item error handling](correctness-rules.md#per-item-error-handling)).
 - Apply the [batch performance](correctness-rules.md#batch-performance) settings around the loop.
 - Control reference loading with `swLoadExternalReferences` (`swLoadExternalReferences_e`) and `swOpenDocOptions_LoadExternalReferencesInMemory`; open references read-only with the `swExtRefOpenReadOnly` toggle.
 - Drawings that open slowly through the API can use background processing: `ISldWorks.EnableBackgroundProcessing`, `IDrawingDoc.BackgroundProcessingOption`, `ISldWorks.IsBackgroundProcessingCompleted`.
