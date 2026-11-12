@@ -782,7 +782,7 @@ GetVarAsText	m	bool GetVarAsText(string bsVarName, string bsCfgName, int lFolder
 Flush	m	void Flush()	5.2		Saves data to a file or folder.
 GetThumbnail	m	IEdmBitmap5 GetThumbnail()	5.2		Gets a preview bitmap of the current file.
 GetUpdateVars	m	void GetUpdateVars(int lFolderID, out object[] ppoRetVariables:IEdmVariableValue5)	5.2		Gets values for the variables that can be updated in this file.
-GetVar	m	bool GetVar(string bsVarName, string bsCfgName, out object poRetValue)	5.2		Gets the value of the specified variable from this file or folder.
+GetVar	m	bool GetVar(string bsVarName, string bsCfgName, out object poRetValue)	5.2	obsolete>IEdmEnumeratorVariable10.GetVar2	Gets the value of the specified variable from this file or folder.
 SetVar	m	void SetVar(string bsVarName, string bsCfgName, ref object poValue, bool bOnlyIfPartOfCard)	5.2		Sets the value of the specified variable in this file or folder.
 StoreValuesFromDatabase	m	void StoreValuesFromDatabase(int lFolderID, bool bOnlyMissingValues, EdmCallback poProgressCb)	5.2		Copies file data card data from the SOLIDWORKS PDM Professional database to the file.
 @IEdmEnumeratorVariable6	i	Allows you to access the contents of a file or folder data card.	base=IEdmEnumeratorVariable5	use=2

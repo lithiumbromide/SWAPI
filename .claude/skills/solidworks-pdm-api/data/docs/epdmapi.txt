@@ -2498,18 +2498,6 @@ X: C++ users must call SafeArrayDestroy to free the returned array elements.
 Return codes:
 - S_OK: The method successfully executed.
 - E_EDM_FILE_NOT_LOCKED_BY_YOU: The file is not checked out.
-<<< IEdmEnumeratorVariable5.GetVar | epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar.md
-P: bsVarName: Name of variable to read
-P: bsCfgName: Name of configuration or layout from which to get the variable value; empty string for folders and file types that do not support configurations (see Remarks)
-P: poRetValue: Variable value; data type as specified in IEdmVariable5::VariableType (see Remarks)
-R: True if the variable is found, false if not
-X: To specify bsCfgName:
-- Call IEdmFile5::GetConfigurations to get the available configuration names for this file.
-- If this method is used in your add-in's implementation of IEdmAddIn5::OnCmd, then a list of configuration names for the data card is returned in ppoData that can be cast to EdmCmdData. EdmCmdData.mpoExtra contains an IEdmStrLst5 of configuration names.
-C++ users must initialize the VARIANT struct of poRetValue with a call to VariantInit before calling this method. They also must free the contents of the struct with a call to VariantClear.
-Return codes:
-- S_OK: The method successfully executed.
-- S_FALSE: The variable was not found.
 <<< IEdmEnumeratorVariable5.SetVar | epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar.md
 P: bsVarName: Name of variable to write
 P: bsCfgName: Name of configuration or layout to which to store the variable value; empty string for folders and file types that do not support configurations
