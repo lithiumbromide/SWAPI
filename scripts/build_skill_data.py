@@ -16,11 +16,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "skill_runtime"))
 from swapi import LINK_RE, clip, escape_body, example_code, first_fence, inline, inline_code, map_entries, parse_body, read_doc_text, section, squash, squash_paras, strip_iprefix
 GENERATOR = "build_skill_data.py 1"
 SCHEMA = 1
-DELEGATE_RE = re.compile(r"^(\w+) Delegate \(")
+DELEGATE_RE = re.compile(r"^(\w+) Delegate(?: \(|$)")
 EVENT_SPLIT_RE = re.compile(r"^(.*?Events)_(\w+?)EventHandler$")
 STRUCT_RE = re.compile(r"^(\w+) Structure$")
 YEAR_RE = re.compile(r"\b(2001\s?Pl?us|98\s?Plus|19\d\d|20\d\d|99)\b(?:\s*,?\s*(FCS|SP\s*[!.]?\s*0?(\d+)(?:\.(\d+))?))?", re.I)
 PDM_VER_RE = re.compile(r"\bVersion\s+(\d{4}|\d+\.\d+)\b", re.I)
+V1R_RE = re.compile(r"\bV1R(\d+)(?:\.(\d+))?", re.I)
 OBS_RE = re.compile(r"(?m)^\W*Obsolete")
 SUPER_RE = re.compile(r"(?:Supers?e?ded|Supserseded|\bSee)\b(.{0,60}?)\[([^\]]*)\]\(([^)]*)\)", re.S)
 SUPER_TEXT_RE = re.compile(r"(?:Supers?e?ded|Supserseded)\s+by\s+([A-Za-z_][\w]*(?:(?:::|\.)[A-Za-z_]\w*)?)")
@@ -58,6 +59,9 @@ def parse_since(avail):
     m = PDM_VER_RE.search(line)
     if m:
         return m.group(1)
+    m = V1R_RE.search(line)
+    if m:
+        return f"V1R{int(m.group(1))}.{int(m.group(2) or 0)}"
     m = YEAR_RE.search(line)
     if not m:
         return ""
@@ -228,6 +232,7 @@ class Builder:
         self.args = args
         self.direct_cache = {}
         self.sw_version = self.detect_version()
+        self.version = self.sw_version
     def detect_version(self):
         p = self.c.md / "sldworksapi" / "ReleaseNotes-sldworksapi.md"
         if p.is_file():
@@ -289,7 +294,7 @@ class Builder:
         coverage = Counter()
         for m in dotnet_mods + vba_mods:
             res = maps[m]
-            lines = [f"#swapi-map 1 module={m} sw={self.sw_version} cols=name,kind,sig,since,status,summary,path"]
+            lines = [f"#swapi-map 1 module={m} sw={self.version} cols=name,kind,sig,since,status,summary,path"]
             for iname in sorted(res["ifaces"], key=lambda k: (k.lower(), k)):
                 ifc = res["ifaces"][iname]
                 keys = []
@@ -809,7 +814,7 @@ class Builder:
                 lines.append("\t".join([mname, value, tsv(desc)]).rstrip("\t"))
             n_enums += 1
             n_members += len(members)
-        header = f"#swapi-enums 1 module={m} sw={self.sw_version} prefix={default} cols=name,value,description"
+        header = f"#swapi-enums 1 module={m} sw={self.version} prefix={default} cols=name,value,description"
         return header + "\n" + "\n".join(lines) + "\n", n_enums, n_members, default
     def enum_members(self, text):
         out = []
@@ -1019,9 +1024,11 @@ def previous_dir(prev, skill):
             except ValueError:
                 continue
     return None
-def git_commit(*paths):
+def git_commit(*paths, anchor=None):
+    if not paths:
+        return ""
     try:
-        top = subprocess.run(["git", "-C", str(paths[0]), "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=60)
+        top = subprocess.run(["git", "-C", str(anchor or paths[0]), "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=60)
         if top.returncode != 0:
             return ""
         root = Path(top.stdout.strip()).resolve()
@@ -1051,6 +1058,28 @@ def skill_extra_files(skill_dir, generated):
             continue
         out.append(p)
     return out
+def kept_changes(data_dir):
+    tsv_path = data_dir / "changes.tsv"
+    mf = data_dir / "manifest.json"
+    if not tsv_path.is_file() or not mf.is_file():
+        return None
+    try:
+        old = json.loads(mf.read_text(encoding="utf-8"))
+    except ValueError:
+        return None
+    ch = old.get("changes") or {}
+    if not ch.get("previous"):
+        return None
+    return tsv_path.read_bytes(), ch["previous"], Counter(ch.get("counts") or {})
+def kept_generated(mf, manifest):
+    if not mf.is_file():
+        return manifest["generated"]
+    try:
+        old = json.loads(mf.read_text(encoding="utf-8"))
+    except ValueError:
+        return manifest["generated"]
+    same = {k: v for k, v in old.items() if k != "generated"} == {k: v for k, v in manifest.items() if k != "generated"}
+    return old.get("generated") or manifest["generated"] if same else manifest["generated"]
 def finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_dir, skills_dir, commit):
     rt = {}
     for src, dst in cfg["runtime_files"].items():
@@ -1071,13 +1100,17 @@ def finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_d
         data_bytes["changes.tsv"] = b""
         if args.previous:
             builder.skill_warnings.append(f"--previous has no data for {name}; changes.tsv left empty")
-    file_meta = {rel: {"bytes": len(b), "sha256": hashlib.sha256(b).hexdigest()} for rel, b in sorted(data_bytes.items())}
+        else:
+            kept = kept_changes(skills_dir / name / "data")
+            if kept:
+                data_bytes["changes.tsv"], previous, change_counts = kept
+    file_meta ={rel: {"bytes": len(b), "sha256": hashlib.sha256(b).hexdigest()} for rel, b in sorted(data_bytes.items())}
     gen_bytes = list(data_bytes.values()) + list(rt.values())
     raw_mb = round(sum(len(b) for b in gen_bytes) / 1e6, 2)
     zip_mb = round(zip_estimate(gen_bytes) / 1e6, 2)
     modules = {k: modmeta[k] for k in sorted(modmeta)}
     probe = ""
-    for m in ("sldworksapi", "epdmapi"):
+    for m in ["sldworksapi", "epdmapi"] + list(sk.get("map", [])):
         if f"map/{m}.tsv" in files:
             for iname, head, cols in map_entries(files[f"map/{m}.tsv"]):
                 keys = dict(c.partition("=")[::2] for c in head[3:])
@@ -1086,7 +1119,11 @@ def finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_d
                     break
             break
     langs = sorted({lang for v in sk.get("examples", {}).values() for lang in v}) if args.profile == "full" else []
-    manifest = {"schema": SCHEMA, "skill": name, "sw_version": builder.sw_version, "source_repo": cfg.get("source_repo", "lithiumbromide/SWAPI"), "source_ref": args.ref, "source_commit": commit, "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "generator": GENERATOR, "profile": args.profile, "probe": probe, "bundled_example_langs": langs, "modules": modules, "files": file_meta, "counts": {k: stats[k] for k in sorted(stats)}, "changes": {"previous": previous, "counts": {k: change_counts[k] for k in sorted(change_counts)}}, "coverage": cov, "budget": {"raw_mb": raw_mb, "zip_mb": zip_mb}}
+    manifest = {"schema": SCHEMA, "skill": name}
+    if sk.get("product"):
+        manifest["product"] = sk["product"]
+    manifest.update({"sw_version": builder.version, "source_repo": cfg.get("source_repo", "lithiumbromide/SWAPI"), "source_ref": args.ref, "source_commit": commit, "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(), "generator": GENERATOR, "profile": args.profile, "probe": probe, "bundled_example_langs": langs, "modules": modules, "files": file_meta, "counts": {k: stats[k] for k in sorted(stats)}, "changes": {"previous": previous, "counts": {k: change_counts[k] for k in sorted(change_counts)}}, "coverage": cov, "budget": {"raw_mb": raw_mb, "zip_mb": zip_mb}})
+    manifest["generated"] = kept_generated(skills_dir / name / "data" / "manifest.json", manifest)
     data_bytes["manifest.json"] = (json.dumps(manifest, ensure_ascii=False, sort_keys=False, separators=(",", ":")) + "\n").encode("utf-8")
     gen = {f"data/{rel}": b for rel, b in data_bytes.items()}
     gen.update(rt)
@@ -1205,11 +1242,13 @@ def main():
         if not flag:
             print(f"{name}: distribute=false, no data generated")
             continue
+        builder.version = sk.get("version") or builder.sw_version
         files, stats, cov, modmeta = builder.build_skill(name, sk)
-        gen, manifest, prev = finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_dir, skills_dir, commit)
+        skill_commit = git_commit(*[md / m for m in sk.get("modules", [])], anchor=md) or commit
+        gen, manifest, prev = finalize(builder, name, sk, files, stats, cov, modmeta, args, cfg, runtime_dir, skills_dir, skill_commit)
         errors, raw, zipped, n_extra = check_guards(builder, name, sk, manifest, prev, skills_dir, cfg, gen)
         budget = sk.get("budget_mb", {})
-        print(f"{name}: sw={builder.sw_version} files={len(gen)}+{n_extra} raw={raw / 1e6:.2f}MB zip~{zipped / 1e6:.2f}MB budget={budget.get('raw')}/{budget.get('zip')}MB data={manifest['budget']['raw_mb']}MB/{manifest['budget']['zip_mb']}MB")
+        print(f"{name}: {sk.get('product', 'SOLIDWORKS')} {builder.version} files={len(gen)}+{n_extra} raw={raw / 1e6:.2f}MB zip~{zipped / 1e6:.2f}MB budget={budget.get('raw')}/{budget.get('zip')}MB data={manifest['budget']['raw_mb']}MB/{manifest['budget']['zip_mb']}MB")
         c = manifest["counts"]
         print(f"  modules={len(manifest['modules'])} interfaces={c.get('interfaces', 0)} members={c.get('members', 0)} obsolete={c.get('obsolete', 0)} unresolved={c.get('unresolved', 0)}")
         print(f"  enums={c.get('enums', 0)} enum_members={c.get('enum_members', 0)} seltypes={c.get('seltypes', 0)} docs={c.get('docs', 0)} topics={c.get('topics', 0)} examples={c.get('examples', 0)} bundled={c.get('examples_bundled', 0)}")

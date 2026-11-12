@@ -38,7 +38,7 @@ Copies only `.htm` and `.html` files from the extracted tree, preserving relativ
 
 ## `convert_sw_api_docs.py`
 
-Converts SOLIDWORKS API HTML pages (Innovasys reference pages and RoboHelp guide and example pages) into LLM-friendly Markdown.
+Converts SOLIDWORKS and DraftSight API HTML pages (Innovasys reference pages and RoboHelp guide and example pages) into LLM-friendly Markdown. DraftSight JavaScript example pages (`*_JS.htm`) are runnable HTML files whose code sits in inline scripts, so their own HTML source is appended as a fenced `html` block under `## Code`.
 
 | Option | Default | Purpose |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Shared helpers imported by the pipeline scripts: the Python 3.10+ check, LF text
 
 ## `build_skill_data.py`
 
-Generates the bundled `data/` of each distributable skill from `markdown/` and `llm_index/`, and copies `skill_runtime/swapi.py`, `LICENSE.txt` and `NOTICE.md` into it. `skill_data.json` assigns modules to skills, lists excluded and optional modules, and sets the size budgets and the bundled example languages. The script refuses a partial corpus or a module that `skill_data.json` does not assign, and fails on a budget overflow, a signature coverage drop of more than 5 points against the previous data, or too many unresolved obsolete targets. It prints counts, coverage, sizes and warnings per skill.
+Generates the bundled `data/` of each distributable skill from `markdown/` and `llm_index/`, and copies `skill_runtime/swapi.py`, `LICENSE.txt` and `NOTICE.md` into it. `skill_data.json` assigns modules to skills, lists excluded and optional modules, and sets the size budgets and the bundled example languages; a skill may also set `product` and `version` (the `draftsight-api` skill sets `DraftSight` and `2026 SP4`), which otherwise default to SOLIDWORKS and the release detected from the SOLIDWORKS release notes. Each skill's `source_commit` is the last commit that touched its own module directories, so adding a module leaves the other skills' manifests unchanged. Without `--previous`, the committed `data/changes.tsv` and `manifest.changes` are kept. The script refuses a partial corpus or a module that `skill_data.json` does not assign, and fails on a budget overflow, a signature coverage drop of more than 5 points against the previous data, or too many unresolved obsolete targets. It prints counts, coverage, sizes and warnings per skill.
 
 | Option | Default | Purpose |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ Generates the bundled `data/` of each distributable skill from `markdown/` and `
 | `--skill` | all | Build only this skill. |
 | `--profile` | `full` | `full` bundles example code; `lean` omits it for smaller zips. |
 | `--ref` | `main` | Git ref recorded as `source_ref`; `swapi.py` fetches full documents from this ref on GitHub. |
-| `--previous` | none | Previous release data (a `data/` directory or a skills directory); writes `data/changes.tsv` from the diff. |
+| `--previous` | none | Previous release data (a `data/` directory or a skills directory); writes `data/changes.tsv` from the diff. Without it the committed `changes.tsv` is kept. |
 | `--check` | off | Build in memory and compare with the committed files; exit 1 on drift, write nothing. |
 
 ## `compare_index.py`
@@ -99,7 +99,7 @@ Prints per-module document and kind count deltas between two `llm_index` builds.
 
 Validates every skill under `.claude/skills` and packages each distributable one into `dist/<name>.zip` with the skill folder at the zip root, plus `dist/SHA256SUMS`. Skills with `metadata.distribute: "false"` are validated only. Zips leave out `evals/` and use sorted entries with fixed timestamps, so packaging unchanged skills gives identical hashes. Nothing is written when any skill fails.
 
-Validation covers the frontmatter rules, relative links, the data manifest sizes and hashes, runtime copies identical to `skill_runtime/`, the evals files, the size budgets from `skill_data.json`, and the style lint: no comment lines or docstrings in code, no two consecutive blank lines, no decorative separator lines.
+Validation covers the frontmatter rules, `metadata.api-version` (or `sw-api-version`) matching the data manifest, relative links, the data manifest sizes and hashes, runtime copies identical to `skill_runtime/`, the evals files, the size budgets from `skill_data.json`, and the style lint: no comment lines or docstrings in code, no two consecutive blank lines, no decorative separator lines.
 
 | Option | Default | Purpose |
 | --- | --- | --- |

@@ -412,10 +412,26 @@ def remove_duplicate_body_headings(body: Tag, title: str) -> None:
             heading.decompose()
 
 
+def page_source_block(raw: bytes, soup: BeautifulSoup) -> str:
+    """Return the page's own HTML as a fenced block, for script examples whose code is the page itself."""
+    text = raw.decode(soup.original_encoding or "utf-8", errors="replace").replace("﻿", "")
+    lines = [line.rstrip() for line in text.replace("\r\n", "\n").replace("\r", "\n").split("\n")]
+    while lines and not lines[0].strip():
+        lines.pop(0)
+    while lines and not lines[-1].strip():
+        lines.pop()
+    code = "\n".join(lines)
+    ticks = "````" if "```" in code else "```"
+    return f"## Code\n\n{ticks}html\n{code}\n{ticks}"
+
+
 def convert_file(source: Path, input_root: Path) -> str:
     raw = source.read_bytes()
     soup = BeautifulSoup(raw, "lxml")
     meta = extract_meta(soup, source.relative_to(input_root))
+    # DraftSight JavaScript examples keep their code in inline <script> blocks, which remove_noise drops.
+    script_example = source.stem.endswith("_JS") and soup.find("script", src=False) is not None
+    source_block = page_source_block(raw, soup) if script_example else ""
     remove_noise(soup)
 
     body = soup.select_one("#mainbody") or soup.body or soup
@@ -426,6 +442,8 @@ def convert_file(source: Path, input_root: Path) -> str:
         content = body_md
     else:
         content = f"{title_md}\n\n{body_md}" if body_md else title_md
+    if source_block:
+        content = f"{content}\n\n{source_block}"
     return normalize_markdown(f"{yaml_block(meta)}\n\n{content}")
 
 

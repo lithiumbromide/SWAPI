@@ -1,6 +1,6 @@
 # SOLIDWORKS API Knowledge Base
 
-This repository holds the SOLIDWORKS API 2026 help converted for coding agents: `markdown/` has one logical API topic per file and `llm_index/` has compact lookup and graph indexes for low-token navigation. Codex reads this file directly and Claude Code imports it through `CLAUDE.md`. [README.md](README.md) describes the pipeline and the skills, [scripts/README.md](scripts/README.md) every script.
+This repository holds the SOLIDWORKS API 2026 help and the DraftSight 2026 SP4 API help converted for coding agents: `markdown/` has one logical API topic per file and `llm_index/` has compact lookup and graph indexes for low-token navigation. Codex reads this file directly and Claude Code imports it through `CLAUDE.md`. [README.md](README.md) describes the pipeline and the skills, [scripts/README.md](scripts/README.md) every script.
 
 ## Claude Skills
 
@@ -9,15 +9,16 @@ When `.claude/skills/` is present, look API symbols up with the skill CLI first,
 ```bash
 python3 .claude/skills/solidworks-api/scripts/swapi.py sig IModelDocExtension.SaveAs3
 python3 .claude/skills/solidworks-pdm-api/scripts/swapi.py members IEdmVault --family
+python3 .claude/skills/draftsight-api/scripts/swapi.py sig IDocument.SaveAs2
 ```
 
-- Use `solidworks-api` for desktop SOLIDWORKS, Document Manager, Simulation and the add-on APIs, and `solidworks-pdm-api` for PDM Professional and Workgroup PDM. Each skill's `SKILL.md` gives the workflow, and `swapi.py --help` lists every command.
+- Use `solidworks-api` for desktop SOLIDWORKS, Document Manager, Simulation and the add-on APIs, `solidworks-pdm-api` for PDM Professional and Workgroup PDM, and `draftsight-api` for DraftSight. Each skill's `SKILL.md` gives the workflow, and `swapi.py --help` lists every command.
 - Use `swapi-corpus-maintainer` for pipeline, index and skill regeneration work in this repository.
 - Use the index flow below for everything else: modules outside the skills (`API_GB`, `obsoleteapi`), C++ examples, and checkouts without `.claude/skills/`.
 
 ## How To Use the Index
 
-When answering SOLIDWORKS API, VBA macro, or C# add-in questions:
+When answering SOLIDWORKS or DraftSight API, VBA macro, or C# add-in questions:
 
 1. Do not scan all Markdown files.
 2. Start with `llm_index/symbols.tsv` for exact or substring API symbol lookup.
@@ -28,6 +29,7 @@ When answering SOLIDWORKS API, VBA macro, or C# add-in questions:
    - VBA macros: `*apivb6` modules and VBA syntax blocks.
    - C# add-ins: .NET modules such as `sldworksapi`, `cworksapi`, `swdocmgrapi`, and C# syntax blocks.
    - PDM Professional: `epdmapi`.
+   - DraftSight: `draftsightapi`, one module for VBA, .NET and JavaScript.
 
 ## Fast Commands
 
