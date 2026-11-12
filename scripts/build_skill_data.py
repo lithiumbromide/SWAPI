@@ -119,6 +119,12 @@ def split_row(line):
     if cells and cells[-1] == "":
         cells = cells[:-1]
     return [c.strip().replace("\\|", "|") for c in cells]
+def obsolete_rank(status):
+    if not status.startswith("obsolete"):
+        return 0
+    if status == "obsolete":
+        return 1
+    return 2 if status.endswith("?") else 3
 def vba_twin_name(name):
     m = re.match(r"^_?I?D?(\w+?)Events$", name)
     if m and (name.startswith("D") or name.startswith("_I")):
@@ -231,6 +237,7 @@ class Builder:
         self.cfg = config
         self.args = args
         self.direct_cache = {}
+        self.obsolete_from = {m: list(srcs) for m, srcs in config.get("obsolete_from", {}).items()}
         self.sw_version = self.detect_version()
         self.version = self.sw_version
     def detect_version(self):
@@ -267,6 +274,14 @@ class Builder:
             want = self.c.modules_json[m]["total"]
             if n != want:
                 die(f"partial corpus: markdown/{m} has {n} files, llm_index expects {want}; restore the full checkout (git checkout -- markdown) or regenerate")
+        for m, srcs in sorted(self.obsolete_from.items()):
+            if m not in assigned:
+                die(f"obsolete_from names {m}, which no skill assigns")
+            for src in srcs:
+                n = self.c.disk_count(src)
+                want = self.c.modules_json.get(src, {}).get("total")
+                if want is None or n != want:
+                    die(f"obsolete_from source {src} for {m} is missing or partial (markdown/{src} has {max(n, 0)} files, llm_index expects {want}); its obsolete flags would be lost")
     def present(self, modules):
         return [m for m in modules if m in self.c.modules_json]
     def build_skill(self, name, sk):
@@ -581,6 +596,22 @@ class Builder:
             return clip(text, 120)
         return ""
     def status(self, p, intro):
+        own = self.page_status(intro)
+        if obsolete_rank(own) == 3:
+            return own
+        mod, _, rel = p.partition("/")
+        mine = self.c.docs.get(p)
+        for src in self.obsolete_from.get(mod, []):
+            q = f"{src}/{rel}"
+            r = self.c.docs.get(q)
+            if r is None or mine is None or (r["interface"], r["member"], r["kind"]) != (mine["interface"], mine["member"], mine["kind"]):
+                continue
+            ttl, alt_intro, secs = parse_body(self.c.load(q)[1])
+            alt = self.page_status(alt_intro)
+            if obsolete_rank(alt) > obsolete_rank(own):
+                own = alt
+        return own
+    def page_status(self, intro):
         head = intro[:600]
         if not OBS_RE.search(head):
             return ""

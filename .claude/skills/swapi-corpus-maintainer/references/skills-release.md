@@ -10,7 +10,7 @@
 ## Layout
 - `.claude/skills/solidworks-api/` and `.claude/skills/solidworks-pdm-api/` are distributable (`metadata.distribute: "true"`); `.claude/skills/swapi-corpus-maintainer/` is repo-local (`"false"`), validated but never zipped.
 - Hand-written per skill: `SKILL.md`, `references/`, `assets/`, `evals/`. Generated per distributable skill and committed: `data/`, `scripts/swapi.py`, `LICENSE.txt`, `NOTICE.md`, marked `linguist-generated=true` in `.gitattributes`.
-- Single sources: the runtime `scripts/skill_runtime/swapi.py` (with `LICENSE.txt` and `NOTICE.md` beside it) and the configuration `scripts/skill_data.json` (`exclude_modules`, `optional_modules`, `min_modules`, `max_coverage_drop`, `runtime_files`, and per skill `distribute`, `modules`, `map`, `enums`, `docs`, `seltypes`, `topics`, `examples` as module to languages, `budget_mb`). Edit these, never the copies inside the skills.
+- Single sources: the runtime `scripts/skill_runtime/swapi.py` (with `LICENSE.txt` and `NOTICE.md` beside it) and the configuration `scripts/skill_data.json` (`exclude_modules`, `optional_modules`, `obsolete_from` as module to modules whose same-named pages add obsolete flags, `min_modules`, `max_coverage_drop`, `runtime_files`, and per skill `distribute`, `modules`, `map`, `enums`, `docs`, `seltypes`, `topics`, `examples` as module to languages, `budget_mb`). Edit these, never the copies inside the skills.
 ## Build skill data
 ```text
 python scripts/build_skill_data.py [--markdown markdown] [--index llm_index] [--config scripts/skill_data.json] [--skills-dir .claude/skills] [--skill NAME] [--profile full|lean] [--ref main] [--previous DIR] [--check]
